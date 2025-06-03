@@ -1,5 +1,5 @@
 ---
-title: 色彩方案
+title: ColorScheme
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个色彩方案。只读 IColorScheme aspose.slides.theme/icolorscheme。
 type: docs

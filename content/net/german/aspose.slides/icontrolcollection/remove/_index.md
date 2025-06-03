@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt ein ActiveX-Steuerelement aus der Sammlung.
 type: docs

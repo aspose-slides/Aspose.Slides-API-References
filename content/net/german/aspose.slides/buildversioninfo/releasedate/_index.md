@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichungsdatum
+title: ReleaseDate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Veröffentlichungsdatum der Assembly.
 type: docs

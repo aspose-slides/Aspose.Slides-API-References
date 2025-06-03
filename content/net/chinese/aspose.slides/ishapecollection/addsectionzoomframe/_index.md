@@ -1,5 +1,5 @@
 ---
-title: 添加节缩放框架
+title: AddSectionZoomFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的节缩放对象添加到集合的末尾。
 type: docs

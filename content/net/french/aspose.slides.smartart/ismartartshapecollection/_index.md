@@ -1,5 +1,5 @@
 ---  
-title: ISmartArtShapeCollection  
+title: ISmartArtShapeCollection
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une collection de formes SmartArt
 type: docs  

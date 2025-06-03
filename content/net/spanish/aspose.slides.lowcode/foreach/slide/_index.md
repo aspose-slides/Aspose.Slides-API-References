@@ -1,5 +1,5 @@
 ---
-title: Diapositiva
+title: Slide
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Iterar cada Diapositiva aspose.slides.lowcode/foreach/slide en la Presentación aspose.slides/presentation.
 type: docs

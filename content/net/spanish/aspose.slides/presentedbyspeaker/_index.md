@@ -1,5 +1,5 @@
 ---
-title: PresentadoPorOrador
+title: PresentedBySpeaker
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Presentado por un orador en pantalla completa
 type: docs

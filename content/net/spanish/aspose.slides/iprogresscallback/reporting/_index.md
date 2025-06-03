@@ -1,5 +1,5 @@
 ---
-title: Informes
+title: Reporting
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Informa una actualización del progreso.
 type: docs

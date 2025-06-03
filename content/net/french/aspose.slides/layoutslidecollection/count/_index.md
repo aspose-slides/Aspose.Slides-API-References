@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne le nombre de diapositives de mise en page dans une collection. Lecture seule Int32.
 type: docs

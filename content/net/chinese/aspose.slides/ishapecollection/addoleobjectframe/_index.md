@@ -1,5 +1,5 @@
 ---
-title: 添加OLE对象框
+title: AddOleObjectFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 将一个新的OLE对象添加到集合的末尾。
 type: docs

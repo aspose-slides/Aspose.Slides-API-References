@@ -1,5 +1,5 @@
 ---
-title: Inferior
+title: Bottom
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene la parte superior del elemento del gráfico como una fracción de la altura del gráfico. Solo lectura Single.
 type: docs

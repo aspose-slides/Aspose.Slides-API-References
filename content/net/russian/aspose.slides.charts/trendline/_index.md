@@ -1,5 +1,5 @@
 ---
-title: Трендовая линия
+title: Trendline
 second_title: Справочник по API Aspose.Slides для .NET
 description: Класс представляет трендовую линию серии графиков
 type: docs

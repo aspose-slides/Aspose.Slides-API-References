@@ -1,5 +1,5 @@
 ---
-title: DeshabilitarEfectoDeSuperposiciónDeRelleno
+title: DisableFillOverlayEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Deshabilita el efecto de superposición de relleno.
 type: docs

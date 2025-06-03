@@ -1,5 +1,5 @@
 ---
-title: 插入节缩放框
+title: InsertSectionZoomFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的节缩放对象，并在指定索引处插入到集合中。
 type: docs

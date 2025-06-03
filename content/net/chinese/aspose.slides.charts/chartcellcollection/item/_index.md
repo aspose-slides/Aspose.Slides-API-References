@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 返回按索引的单元格 IChartDataCell。
 type: docs

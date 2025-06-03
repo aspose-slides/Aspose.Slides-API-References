@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет свойство с указанным именем.
 type: docs

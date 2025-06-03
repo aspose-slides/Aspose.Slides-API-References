@@ -1,5 +1,5 @@
 ---
-title: 颜色
+title: Color
 second_title: Aspose.Slides for .NET API参考
 description: 颜色。只读颜色。
 type: docs

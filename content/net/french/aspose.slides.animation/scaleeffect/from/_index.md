@@ -1,5 +1,5 @@
 ---
-title: De
+title: From
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie une coordonnée x/y pour commencer l'animation en pourcentages. Lecture/écriture PointF.
 type: docs

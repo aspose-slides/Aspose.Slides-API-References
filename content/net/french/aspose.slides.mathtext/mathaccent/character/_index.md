@@ -1,5 +1,5 @@
 ---
-title: Caractère
+title: Character
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Caractère accentué La valeur doit être dans la plage de U0300U036F ou U20D0U20EF Valeur par défaut Accent circonflexe combinant U0302
 type: docs

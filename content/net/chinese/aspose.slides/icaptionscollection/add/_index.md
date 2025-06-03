@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Sildes for .NET API 参考
 description: 将 WebVTT 关闭字幕添加到集合末尾。
 type: docs

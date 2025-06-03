@@ -1,5 +1,5 @@
 ---
-title: Insérer
+title: Insert
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insérer une nouvelle commande dans le chemin
 type: docs

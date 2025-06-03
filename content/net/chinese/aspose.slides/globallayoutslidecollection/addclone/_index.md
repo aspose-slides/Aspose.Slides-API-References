@@ -1,5 +1,5 @@
 ---
-title: 添加克隆
+title: AddClone
 second_title: Aspose.Slides for .NET API 参考
 description: 将指定布局幻灯片的副本添加到演示文稿中。
 type: docs

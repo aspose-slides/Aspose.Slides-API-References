@@ -1,5 +1,5 @@
 ---
-title: ПрямоугольноеВыравнивание
+title: RectangleAlignment
 second_title: Aspose.Sildes для .NET API Reference
 description: Определяет 2-мерное выравнивание.
 type: docs

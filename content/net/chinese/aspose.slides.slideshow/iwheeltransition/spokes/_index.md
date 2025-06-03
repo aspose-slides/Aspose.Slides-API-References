@@ -1,5 +1,5 @@
 ---
-title: 辐条
+title: Spokes
 second_title: Aspose.Slides for .NET API 参考
 description: 轮子过渡的辐条数量。读/写 UInt32。
 type: docs

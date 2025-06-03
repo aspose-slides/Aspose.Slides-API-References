@@ -1,5 +1,5 @@
 ---
-title: Diferencial
+title: Differential
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Diferencial Cuando es verdadero, la caja actúa como un diferencial, por ejemplo, en un integrando y recibe el espaciado horizontal adecuado para el diferencial matemático. Predeterminado falso
 type: docs

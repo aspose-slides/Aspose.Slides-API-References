@@ -1,5 +1,5 @@
 ---
-title: 序列集合
+title: SequenceCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示交互序列的集合。
 type: docs

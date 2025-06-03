@@ -1,5 +1,5 @@
 ---
-title: Colonne
+title: Column
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'index de la colonne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Hyperlien
+title: Hyperlink
 second_title: Référence API Aspose.Slides pour .NET
 description: Couleur pour les hyperliens. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Montant
+title: Amount
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le montant de l'effet. Lecture seule Single.
 type: docs

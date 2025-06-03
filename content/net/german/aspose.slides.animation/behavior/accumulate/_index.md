@@ -1,5 +1,5 @@
 ---
-title: Akkumulieren
+title: Accumulate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, ob Animationsverhalten kumuliert werden. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs

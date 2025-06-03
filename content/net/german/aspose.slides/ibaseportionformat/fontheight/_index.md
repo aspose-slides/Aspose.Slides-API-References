@@ -1,5 +1,5 @@
 ---
-title: Schriftgröße
+title: FontHeight
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Schriftgröße eines Abschnitts zurück oder legt sie fest. float.NaN bedeutet, dass die Höhe undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibwert Single.
 type: docs

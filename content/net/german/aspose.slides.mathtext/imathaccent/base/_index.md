@@ -1,5 +1,5 @@
 ---
-title: Basis
+title: Base
 second_title: Aspose.Slides für .NET API-Referenz
 description: Das Argument, auf das der Akzent angewendet wurde
 type: docs

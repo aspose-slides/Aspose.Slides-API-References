@@ -1,5 +1,5 @@
 ---
-title: Salida
+title: Output
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de elementos de salida para IWebDocument.
 type: docs

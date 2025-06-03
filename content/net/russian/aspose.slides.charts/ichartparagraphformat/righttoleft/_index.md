@@ -1,5 +1,5 @@
 ---
-title: ПравоНалево
+title: RightToLeft
 second_title: Справочник API Aspose.Slides для .NET
 description: Определяет, используется ли написание справа налево в абзаце. Чтение/запись NullableBool aspose.slides/nullablebool.
 type: docs

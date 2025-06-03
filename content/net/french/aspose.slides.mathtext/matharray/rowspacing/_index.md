@@ -1,5 +1,5 @@
 ---
-title: EspacementDesLignes
+title: RowSpacing
 second_title: Référence API Aspose.Slides pour .NET
 description: Espacement entre les lignes d'un tableau. Il est utilisé uniquement lorsque RowSpacingRule est défini sur 3, exactement dans ce cas l'unité de mesure est des points ou Multiple dans ce cas l'unité de mesure est des demi-lignes. Par défaut  0
 type: docs

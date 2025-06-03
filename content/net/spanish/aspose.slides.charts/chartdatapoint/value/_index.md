@@ -1,5 +1,5 @@
 ---
-title: Valor
+title: Value
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Valor. IDoubleChartValue de solo lectura aspose.slides.charts/idoublechartvalue.
 type: docs

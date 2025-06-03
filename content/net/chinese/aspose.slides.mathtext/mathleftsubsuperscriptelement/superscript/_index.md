@@ -1,5 +1,5 @@
 ---
-title: 上标
+title: Superscript
 second_title: Aspose.Slides for .NET API 参考
 description: 上标
 type: docs

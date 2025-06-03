@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la cellule à l'index de colonne et de ligne spécifié. Lecture seule Cellaspose.slides/cell.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 嵌入式Woff字体Html控制器
+title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Slides for .NET API参考
 description: 创建新实例。
 type: docs

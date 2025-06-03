@@ -1,5 +1,5 @@
 ---
-title: 文本框格式
+title: TextFrameFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 包含文本框的格式化属性。
 type: docs

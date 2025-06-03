@@ -1,5 +1,5 @@
 ---
-title: 全屏模式
+title: FullScreenMode
 second_title: Aspose.Slides for .NET API 参考
 description: 确定视频是否以全屏模式显示。可读/可写 Boolean。
 type: docs

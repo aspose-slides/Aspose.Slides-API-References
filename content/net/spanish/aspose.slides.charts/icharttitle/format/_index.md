@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve los estilos de efectos de línea de relleno de un título. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs

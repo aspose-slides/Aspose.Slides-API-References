@@ -1,5 +1,5 @@
 ---
-title: Trendlinien
+title: TrendLines
 second_title: Aspose.Slides für .NET API-Referenz
 description: Sammlung von Trendlinien für Serien. Nur-lesend ITrendlineCollectionaspose.slides/itrendlinecollection.
 type: docs

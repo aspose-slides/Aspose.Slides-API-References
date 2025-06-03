@@ -1,5 +1,5 @@
 ---
-title: 渐变形状
+title: GradientShape
 second_title: Aspose.Slides for .NET API 参考
 description: 返回渐变的形状。只读 GradientShape aspose.slides/gradientshape。
 type: docs

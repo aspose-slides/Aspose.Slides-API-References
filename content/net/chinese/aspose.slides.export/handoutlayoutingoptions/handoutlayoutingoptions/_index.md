@@ -1,5 +1,5 @@
 ---
-title: 手稿布局选项
+title: HandoutLayoutingOptions
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化默认值。
 type: docs

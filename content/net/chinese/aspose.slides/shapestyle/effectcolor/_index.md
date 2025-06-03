@@ -1,5 +1,5 @@
 ---
-title: 效果颜色
+title: EffectColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的效果颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 添加嵌入音频框
+title: AddAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API 参考
 description: 在集合末尾添加一个带有嵌入音频文件的新音频框。嵌入的音频文件只能是WAV格式。它将新音频添加到Presentation.Audios列表中。
 type: docs

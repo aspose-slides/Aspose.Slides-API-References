@@ -1,5 +1,5 @@
 ---
-title: 禁用模糊效果
+title: DisableBlurEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 禁用模糊效果。
 type: docs

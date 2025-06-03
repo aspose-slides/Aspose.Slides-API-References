@@ -1,5 +1,5 @@
 ---
-title: 次级类别
+title: SecondaryCategories
 second_title: Aspose.Slides for .NET API 参考
 description: 如果 UseSecondaryCategories aspose.slides.charts/chartdata/usesecondarycategories 属性为 true，则获取次级类别。此属性为只读 IChartCategoryCollection aspose.slides.charts/ichartcategorycollection。
 type: docs

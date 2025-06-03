@@ -1,5 +1,5 @@
 ---
-title: 重启
+title: Restart
 second_title: Aspose.Slides for .NET API 参考
 description: 指定效果在完成后是否重新开始。读/写 EffectRestartTypeaspose.slides/effectrestarttype。
 type: docs

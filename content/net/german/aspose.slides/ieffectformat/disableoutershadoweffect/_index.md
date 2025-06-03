@@ -1,5 +1,5 @@
 ---  
-title: DisableOuterShadowEffect  
+title: DisableOuterShadowEffect
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Deaktiviert den äußeren Schatteneffekt.
 type: docs  

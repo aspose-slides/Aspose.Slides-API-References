@@ -1,5 +1,5 @@
 ---
-title: 连接器
+title: Connector
 second_title: Aspose.Sildes for .NET API 参考
 description: 代表一个连接器。
 type: docs

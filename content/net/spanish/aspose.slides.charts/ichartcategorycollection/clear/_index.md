@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de API de Aspose.Slid es para .NET
 description: Elimina todos los elementos de la colección.
 type: docs

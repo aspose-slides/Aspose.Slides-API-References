@@ -1,5 +1,5 @@
 ---
-title: Absätze
+title: Paragraphs
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Liste aller Absätze in einem Rahmen zurück. Nur lesbare IParagraphCollectionaspose.slides/iparagraphcollection.
 type: docs

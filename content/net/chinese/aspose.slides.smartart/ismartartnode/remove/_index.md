@@ -1,5 +1,5 @@
 ---
-title: 删除
+title: Remove
 second_title: Aspose.Slides for .NET API 参考
 description: 移除当前节点。
 type: docs

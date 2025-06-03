@@ -1,5 +1,5 @@
 ---
-title: 动画形状
+title: AnimateShapes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置形状动画选项。可读写布尔值。
 type: docs

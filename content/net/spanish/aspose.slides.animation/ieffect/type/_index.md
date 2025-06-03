@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Define el tipo de efecto. Lectura/escritura EffectTypeaspose.slides.animation/effecttype.
 type: docs

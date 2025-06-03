@@ -1,5 +1,5 @@
 ---
-title: Geschmack
+title: Flavor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Alle in Programmen verwendeten Markdown-Spezifikationen.
 type: docs

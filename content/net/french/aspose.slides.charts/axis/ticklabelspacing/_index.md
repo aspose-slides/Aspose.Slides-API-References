@@ -1,5 +1,5 @@
 ---
-title: EspacementDesÉtiquettesDeGraduation
+title: TickLabelSpacing
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie combien d'étiquettes de graduation sauter entre les étiquettes dessinées. Appliqué à l'axe des catégories ou des séries. Lecture/écriture UInt32.
 type: docs

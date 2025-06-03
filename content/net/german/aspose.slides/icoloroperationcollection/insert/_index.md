@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt die neue Operation zu einer Sammlung hinzu.
 type: docs

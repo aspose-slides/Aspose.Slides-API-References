@@ -1,5 +1,5 @@
 ---
-title: 全局
+title: Global
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文档的全局存储。只读 Storageaspose.slides.export.web/storage。
 type: docs

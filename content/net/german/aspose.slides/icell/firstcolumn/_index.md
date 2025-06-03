@@ -1,5 +1,5 @@
 ---
-title: ErsteSpalte
+title: FirstColumn
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die erste Spalte der Zelle ab. Nur lesend IColumnaspose.slides/icolumn.
 type: docs

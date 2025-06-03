@@ -1,5 +1,5 @@
 ---
-title: УдалитьПо
+title: RemoveAt
 second_title: Aspose.Slides для .NET Справочник по API
 description: Удаляет ActiveX-элемент управления, хранящийся на указанной позиции в коллекции.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Rectángulo
+title: Rectangle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve las coordenadas de un marco. Solo lectura RectangleF.
 type: docs

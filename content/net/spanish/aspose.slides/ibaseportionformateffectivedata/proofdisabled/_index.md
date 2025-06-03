@@ -1,5 +1,5 @@
 ---
-title: PruebaDeshabilitada
+title: ProofDisabled
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el texto no debe ser revisado. Booleano de solo lectura.
 type: docs

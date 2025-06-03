@@ -1,5 +1,5 @@
 ---  
-title: OperatorEmulator  
+title: OperatorEmulator
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Operator Emulator. Wenn wahr, verhält sich die Box und ihr Inhalt wie ein einzelner Operator und erbt die Eigenschaften eines Operators. Das bedeutet zum Beispiel, dass das Zeichen als Punkt für einen Zeilenumbruch dienen kann und an andere Operatoren ausgerichtet werden kann. Operator Emulatoren werden oft verwendet, wenn ein oder mehrere Glyphen kombiniert werden, um einen Operator zu bilden, wie z.B. '=='. Standardwert false
 type: docs  

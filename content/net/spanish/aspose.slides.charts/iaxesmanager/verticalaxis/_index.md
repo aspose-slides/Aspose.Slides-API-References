@@ -1,5 +1,5 @@
 ---
-title: EjeVertical
+title: VerticalAxis
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el eje vertical del gráfico. Solo lectura IAxisaspose.slides.charts/iaxis.
 type: docs

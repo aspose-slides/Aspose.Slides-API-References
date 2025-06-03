@@ -1,5 +1,5 @@
 ---
-title: Valeur1
+title: Value1
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit la deuxième valeur de décalage. Lecture/écriture Single.
 type: docs

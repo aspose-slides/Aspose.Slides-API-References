@@ -1,5 +1,5 @@
 ---
-title: Последовательность
+title: Sequence
 second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет коллекцию последовательностей эффектов.
 type: docs

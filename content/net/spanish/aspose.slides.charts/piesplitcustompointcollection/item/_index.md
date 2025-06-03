@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el punto de datos del gráfico para el índice especificado.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 创建时间
+title: CreatedTime
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿创建的日期。值为 UTC。可读写 DateTime。
 type: docs

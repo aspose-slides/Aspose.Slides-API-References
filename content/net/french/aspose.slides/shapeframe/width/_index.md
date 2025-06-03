@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la largeur d'un cadre. Lecture seule Single.
 type: docs

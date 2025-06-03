@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справка по API Aspose.Slides для .NET
 description: Вставляет элемент MathElement в коллекцию по указанному индексу.
 type: docs

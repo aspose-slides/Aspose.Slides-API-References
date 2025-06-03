@@ -1,5 +1,5 @@
 ---
-title: Basis
+title: Base
 second_title: Aspose.Slides für .NET API Referenz
 description: Basisargument
 type: docs

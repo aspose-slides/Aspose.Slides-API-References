@@ -1,5 +1,5 @@
 ---
-title: LargeurEspace
+title: GapWidth
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie l'espace entre les groupes de barres ou de colonnes en pourcentage de la largeur de la barre ou de la colonne. Il s'agit d'une propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.GapWidth pour changer la valeur. Entier 32 bits en lecture seule.
 type: docs

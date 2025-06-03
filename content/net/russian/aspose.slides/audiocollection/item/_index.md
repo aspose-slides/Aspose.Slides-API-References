@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Aspose.Slides для .NET API Справочник
 description: Получает элемент по указанному индексу. Только для чтения IAudioaspose.slides/iaudio.
 type: docs

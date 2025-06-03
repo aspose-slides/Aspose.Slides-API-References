@@ -1,5 +1,5 @@
 ---
-title: ColorDeRelleno
+title: FillColor
 second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad colorDeRelleno
 type: docs

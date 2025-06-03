@@ -1,5 +1,5 @@
 ---  
-title: AsIEnumerable  
+title: AsIEnumerable
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许获取基础 IBehavior 接口。只读 IEnumerable。
 type: docs  

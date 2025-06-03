@@ -1,5 +1,5 @@
 ---
-title: ErstelleMathematischeFunktion
+title: CreateMathFunction
 second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine mathematische Funktion
 type: docs

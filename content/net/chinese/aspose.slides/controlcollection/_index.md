@@ -1,5 +1,5 @@
 ---
-title: 控件集合
+title: ControlCollection
 second_title: Aspose.Slides for .NET API 参考
 description: ActiveX 控件的集合。
 type: docs

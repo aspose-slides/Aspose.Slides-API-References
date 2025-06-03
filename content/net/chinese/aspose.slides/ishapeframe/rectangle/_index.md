@@ -1,5 +1,5 @@
 ---
-title: 矩形
+title: Rectangle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回框架的坐标。只读 RectangleF。
 type: docs

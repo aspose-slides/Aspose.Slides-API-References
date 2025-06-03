@@ -1,5 +1,5 @@
 ---
-title: 隐藏上标
+title: HideSuperscript
 second_title: Aspose.Slides for .NET API 参考
 description: 隐藏上标
 type: docs

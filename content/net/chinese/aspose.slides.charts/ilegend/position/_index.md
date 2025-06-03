@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定图表上图例的位置。非 NaN 的 X、Y、宽度、高度属性值覆盖此属性的效果。可读写 LegendPositionTypeaspose.slides/legendpositiontype。
 type: docs

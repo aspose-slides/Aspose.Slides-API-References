@@ -1,5 +1,5 @@
 ---  
-title: AddDataPointForAreaSeries  
+title: AddDataPointForAreaSeries
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar auf Serien, deren chartType einer der Area-Subtypen ist, siehe auch die Methode IsChartTypeAreaaspose.slides/charttypecharacterizer/ischarttypearea.
 type: docs  

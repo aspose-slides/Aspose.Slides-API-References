@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Höhe einer Legende als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
 type: docs

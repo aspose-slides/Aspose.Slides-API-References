@@ -1,5 +1,5 @@
 ---
-title: 获取演示文稿文本
+title: GetPresentationText
 second_title: Aspose.Sildes for .NET API 参考
 description: 从幻灯片中检索原始文本
 type: docs

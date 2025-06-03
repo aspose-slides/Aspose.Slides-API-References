@@ -1,5 +1,5 @@
 ---
-title: Подсчет
+title: Count
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает количество узлов в коллекции Только для чтения Int32 Только для чтения Int32.
 type: docs

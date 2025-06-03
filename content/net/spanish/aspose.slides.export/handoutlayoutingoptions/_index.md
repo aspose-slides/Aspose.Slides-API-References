@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeDiseñoDeMano
+title: HandoutLayoutingOptions
 second_title: Referencia de API Aspose.Sildes para .NET
 description: Representa el modo de diseño de presentación de mano para la exportación.
 type: docs

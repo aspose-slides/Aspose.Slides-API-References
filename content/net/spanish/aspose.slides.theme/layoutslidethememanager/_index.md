@@ -1,5 +1,5 @@
 ---  
-title: LayoutSlideThemeManager  
+title: LayoutSlideThemeManager
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Proporciona acceso al tema de la diapositiva de diseño sobreescrito.
 type: docs  

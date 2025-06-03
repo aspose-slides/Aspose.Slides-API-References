@@ -1,5 +1,5 @@
 ---
-title: 横向缩放
+title: ScaleHorizontal
 second_title: Aspose.Slides for .NET API 参考
 description: 指定横向缩放因子，负缩放会导致翻转。只读 Double。
 type: docs

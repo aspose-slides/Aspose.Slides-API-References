@@ -1,5 +1,5 @@
 ---
-title: NomsDesPropriétés
+title: NamesOfProperties
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un certain nombre de propriétés dans la collection. ICollection en lecture seule.
 type: docs

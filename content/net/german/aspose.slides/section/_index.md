@@ -1,5 +1,5 @@
 ---
-title: Abschnitt
+title: Section
 second_title: Aspose.Slides für .NET API-Referenz
 description: Repräsentiert einen Abschnitt von Folien.
 type: docs

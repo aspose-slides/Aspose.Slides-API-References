@@ -1,5 +1,5 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает результирующий цвет для изменения цвета анимации. Чтение/запись IColorFormat aspose.slides/icolorformat.
 type: docs

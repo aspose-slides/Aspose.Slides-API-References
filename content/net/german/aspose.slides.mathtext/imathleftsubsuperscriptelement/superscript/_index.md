@@ -1,5 +1,5 @@
 ---
-title: Hochgestellt
+title: Superscript
 second_title: Aspose.Slides für .NET API Referenz
 description: Hochgestellt
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ГиперссылкиЗапросы
+title: HyperlinkQueries
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Предоставляет простой доступ к содержащимся гиперссылкам. Только для чтения IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs

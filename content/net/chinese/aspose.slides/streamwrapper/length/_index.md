@@ -1,5 +1,5 @@
 ---
-title: 长度
+title: Length
 second_title: Aspose.Slides for .NET API 参考
 description: 获取流的字节长度。只读 Int64。
 type: docs

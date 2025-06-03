@@ -1,5 +1,5 @@
 ---
-title: Linie
+title: Line
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Linienstileigenschaften einer Achse zurück. Nur lesbar ILineFormataspose.slides/../aspose.slides/ilineformat.
 type: docs

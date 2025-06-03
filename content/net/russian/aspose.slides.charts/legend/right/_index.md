@@ -1,5 +1,5 @@
 ---
-title: Право
+title: Right
 second_title: Справочник по API Aspose.Slides для .NET
 description: Право. Свойство только для чтения Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 顺序
+title: Order
 second_title: Aspose.Slides for .NET API 参考
 description: 指定多项式趋势线的顺序。对于其他趋势线类型，此值被忽略。值必须在 2 到 6 之间。可读/可写字节。
 type: docs

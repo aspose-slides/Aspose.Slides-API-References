@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
 description: Typ der Transition. Lesen/Schreiben von TransitionTypeaspose.slides.slideshow/transitiontype.
 type: docs

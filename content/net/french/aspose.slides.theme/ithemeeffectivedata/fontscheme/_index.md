@@ -1,5 +1,5 @@
 ---
-title: SchémaDePolices
+title: FontScheme
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le schéma de polices. Données IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata en lecture seule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Orientación
+title: Orientation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la orientación de la diapositiva. Cambiar este valor intercambiará las dimensiones de la diapositiva. Lectura/escritura SlideOrientationaspose.slides/slideorientation.
 type: docs

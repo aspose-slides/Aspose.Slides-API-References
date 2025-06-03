@@ -1,5 +1,5 @@
 ---
-title: CadreObjetOLE
+title: OleObjectFrame
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un objet OLE sur une diapositive.
 type: docs

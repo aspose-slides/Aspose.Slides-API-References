@@ -1,5 +1,5 @@
 ---
-title: RemplirTailleFocaleY
+title: FillFocusSizeY
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente la propriété fill.focussize.y
 type: docs

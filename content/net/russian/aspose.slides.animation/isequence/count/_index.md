@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает количество эффектов в последовательности. Только для чтения Int32.
 type: docs

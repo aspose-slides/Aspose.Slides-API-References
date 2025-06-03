@@ -1,5 +1,5 @@
 ---
-title: 宽度
+title: Width
 second_title: Aspose.Slides for .NET API 参考
 description: 返回线条的宽度。只读 Double。
 type: docs

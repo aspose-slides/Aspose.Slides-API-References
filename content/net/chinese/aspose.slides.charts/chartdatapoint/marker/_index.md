@@ -1,5 +1,5 @@
 ---
-title: 标记
+title: Marker
 second_title: Aspose.Slides for .NET API 参考
 description: 指定一个数据标记。只读 IMarkeraspose.slides/imarker。
 type: docs

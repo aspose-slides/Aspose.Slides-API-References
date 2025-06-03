@@ -1,5 +1,5 @@
 ---
-title: Character de Finalización
+title: EndingCharacter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: El carácter de finalización del delimitador especifica el carácter delimitador de finalización o cierre. Los delimitadores matemáticos son caracteres de cierre como paréntesis, corchetes y llaves. El valor predeterminado.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Заголовок
+title: Title
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Возвращает или устанавливает заголовок презентации. Читаемый/записываемый String.
 type: docs

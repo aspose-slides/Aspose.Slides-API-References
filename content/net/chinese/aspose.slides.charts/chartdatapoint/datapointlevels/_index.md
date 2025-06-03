@@ -1,5 +1,5 @@
 ---
-title: 数据点级别
+title: DataPointLevels
 second_title: Aspose.Slides for .NET API 参考
 description: 返回数据点级别的容器。适用于 Treeamp 和 Sunburst 系列。数据点级别索引是零基础的。
 type: docs

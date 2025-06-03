@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状调整的类型。只读 ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype。
 type: docs

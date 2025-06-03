@@ -1,5 +1,5 @@
 ---
-title: 访问权限
+title: AccessPermissions
 second_title: Aspose.Slides for .NET API 参考
 description: 包含一组标志，指定在以用户权限打开文档时应授予哪些访问权限。请参见 PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions。
 type: docs

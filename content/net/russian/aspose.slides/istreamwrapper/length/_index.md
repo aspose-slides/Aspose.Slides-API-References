@@ -1,5 +1,5 @@
 ---
-title: Длина
+title: Length
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает длину в байтах потока. Только для чтения Int64.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Oculto
+title: Hidden
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina si la diapositiva especificada está oculta durante una presentación de diapositivas. Booleano de lectura/escritura.
 type: docs

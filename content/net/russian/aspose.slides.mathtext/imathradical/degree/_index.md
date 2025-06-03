@@ -1,5 +1,5 @@
 ---
-title: Степень
+title: Degree
 second_title: Справка по API Aspose.Slides для .NET
 description: Аргумент степени
 type: docs

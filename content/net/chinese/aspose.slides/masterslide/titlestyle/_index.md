@@ -1,5 +1,5 @@
 ---
-title: 标题样式
+title: TitleStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回标题文本的样式。只读 ITextStyle aspose.slides/itextstyle。
 type: docs

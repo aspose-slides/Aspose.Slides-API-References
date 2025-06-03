@@ -1,5 +1,5 @@
 ---
-title: Длительность
+title: Duration
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает длительность эффекта анимации. Читаемое/записываемое значение типа Single.
 type: docs

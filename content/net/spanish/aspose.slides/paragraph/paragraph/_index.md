@@ -1,5 +1,5 @@
 ---
-title: Párrafo
+title: Paragraph
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase Paragraph con propiedades predeterminadas.
 type: docs

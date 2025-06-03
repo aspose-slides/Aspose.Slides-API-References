@@ -1,5 +1,5 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
 description: Richtung der Reflexion. Lese-/Schreibzugriff auf einen Gleitpunkt.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BarréHorizontal
+title: StrikethroughHorizontal
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Barré Horizontal par défaut est faux - spécifie l'état caché ou affiché d'une ligne barrée horizontale.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Sildes für .NET API Referenz
 description: Fügen Sie einen neuen Befehl zum Pfad hinzu
 type: docs

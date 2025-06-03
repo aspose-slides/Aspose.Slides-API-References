@@ -1,5 +1,5 @@
 ---
-title: 形状
+title: Shapes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回与节点相关的所有形状的集合。只读 ISmartArtShapeCollection aspose.slides.smartart/ismartartshapecollection。
 type: docs

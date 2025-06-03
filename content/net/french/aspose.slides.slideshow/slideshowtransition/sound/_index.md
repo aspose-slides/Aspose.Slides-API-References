@@ -1,5 +1,5 @@
 ---
-title: Son
+title: Sound
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit les données audio intégrées. Lecture/écriture IAudioaspose.slides/iaudio.
 type: docs

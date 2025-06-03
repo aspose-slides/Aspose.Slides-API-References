@@ -1,5 +1,5 @@
 ---
-title: 显示方程
+title: DisplayEquation
 second_title: Aspose.Slides for .NET API 参考
 description: 指定趋势线的方程在图表上显示，与 Rsquaredvalue 的标签相同。可读/写布尔值。
 type: docs

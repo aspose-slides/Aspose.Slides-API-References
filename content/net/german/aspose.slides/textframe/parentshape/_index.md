@@ -1,5 +1,5 @@
 ---  
-title: ParentShape  
+title: ParentShape
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die übergeordnete Form zurück oder null, wenn das übergeordnete Objekt das IShape-Interface nicht implementiert. Nur lesendes IShape aspose.slides/ishape.
 type: docs  

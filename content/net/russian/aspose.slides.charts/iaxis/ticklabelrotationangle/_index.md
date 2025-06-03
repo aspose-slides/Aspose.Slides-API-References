@@ -1,5 +1,5 @@
 ---
-title: УголПоворотаПодписейМаркеров
+title: TickLabelRotationAngle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет угол поворота подписей маркеров. Чтение/запись Single.
 type: docs

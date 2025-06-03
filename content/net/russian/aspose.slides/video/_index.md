@@ -1,5 +1,5 @@
 ---
-title: Видео
+title: Video
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет изображение, встроенное в презентацию.
 type: docs

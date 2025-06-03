@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取集合中单元格的数量。只读 Int32。
 type: docs

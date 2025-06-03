@@ -1,5 +1,5 @@
 ---
-title: Равенство
+title: Equals
 second_title: Aspose.Slides для .NET Справочник по API
 description: Определяет, равны ли два экземпляра ColorOperation.
 type: docs

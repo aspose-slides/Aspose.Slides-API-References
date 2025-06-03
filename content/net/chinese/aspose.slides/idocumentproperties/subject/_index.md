@@ -1,5 +1,5 @@
 ---
-title: 主题
+title: Subject
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的主题。可读写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 角度
+title: Degree
 second_title: Aspose.Slides for .NET API 参考
 description: 角度参数
 type: docs

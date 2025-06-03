@@ -1,5 +1,5 @@
 ---
-title: 检查写保护
+title: CheckWriteProtection
 second_title: Aspose.Slides for .NET API 参考
 description: 检查修改密码是否正确以用于写保护的演示文稿。
 type: docs

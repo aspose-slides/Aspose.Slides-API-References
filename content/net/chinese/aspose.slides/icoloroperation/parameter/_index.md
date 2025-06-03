@@ -1,5 +1,5 @@
 ---
-title: 参数
+title: Parameter
 second_title: Aspose.Slides for .NET API 参考
 description: 返回操作的参数。为只读 Single。
 type: docs

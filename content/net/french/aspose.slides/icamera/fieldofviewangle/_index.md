@@ -1,5 +1,5 @@
 ---
-title: AngleDeChampDeVue
+title: FieldOfViewAngle
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Champ de vision de la caméra FOV 0-180 degrés Lecture/écriture Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 加密
+title: Encrypt
 second_title: Aspose.Sildes for .NET API 参考
 description: 使用指定密码加密演示文稿。
 type: docs

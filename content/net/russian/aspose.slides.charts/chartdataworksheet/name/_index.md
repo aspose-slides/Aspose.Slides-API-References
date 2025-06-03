@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает имя рабочего листа. Доступ только для чтения. Строка.
 type: docs

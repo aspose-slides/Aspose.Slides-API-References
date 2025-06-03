@@ -1,5 +1,5 @@
 ---
-title: Hipervínculo
+title: Hyperlink
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea una instancia de un hipervínculo.
 type: docs

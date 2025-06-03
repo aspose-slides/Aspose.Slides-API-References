@@ -1,6 +1,6 @@
 ---
 
-title: IVbaProjectFactory  
+title: IVbaProjectFactory
 second_title: Aspose.Sildes for .NET API Reference  
 description: 通过 COM 接口创建 VBA 项目
 type: docs  

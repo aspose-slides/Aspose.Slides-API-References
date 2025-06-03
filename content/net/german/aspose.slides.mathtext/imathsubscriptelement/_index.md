@@ -1,5 +1,5 @@
 ---  
-title: IMathSubscriptElement  
+title: IMathSubscriptElement
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Definiert das Subskripteobjekt, das aus einer Basis und einem verkleinerten Subskript besteht, das unter und rechts platziert ist.
 type: docs  

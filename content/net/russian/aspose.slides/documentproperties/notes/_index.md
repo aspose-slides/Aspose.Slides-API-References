@@ -1,5 +1,5 @@
 ---
-title: Заметки
+title: Notes
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает количество слайдов в презентации, содержащих заметки. Только для чтения Int32.
 type: docs

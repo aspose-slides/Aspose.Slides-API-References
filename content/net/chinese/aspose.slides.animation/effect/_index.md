@@ -1,5 +1,5 @@
 ---
-title: 效果
+title: Effect
 second_title: Aspose.Slides for .NET API 参考
 description: 表示动画效果。
 type: docs

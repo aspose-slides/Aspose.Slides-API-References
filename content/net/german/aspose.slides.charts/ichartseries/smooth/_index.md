@@ -1,5 +1,5 @@
 ---
-title: Glatt
+title: Smooth
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die Kurvenverfeinerung dar. Wahr, wenn die Kurvenverfeinerung für das Liniendiagramm oder das Streudiagramm aktiviert ist. Gilt nur für Linien- und Streudiagramme, die durch Linien verbunden sind. Lese-/Schreib-Boolean.
 type: docs

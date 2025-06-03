@@ -1,5 +1,5 @@
 ---
-title: TypeDeReprésentationTailleBulle
+title: BubbleSizeRepresentationType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie les manières possibles de représenter des données comme des tailles de graphique à bulles.
 type: docs

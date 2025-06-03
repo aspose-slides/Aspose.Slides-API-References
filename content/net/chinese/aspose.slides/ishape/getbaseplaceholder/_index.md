@@ -1,5 +1,5 @@
 ---
-title: 获取基本占位符
+title: GetBasePlaceholder
 second_title: Aspose.Slides for .NET API 参考
 description: 返回当前形状继承的布局和/或主幻灯片中的基本占位符形状。如果当前形状没有继承，则返回 null。
 type: docs

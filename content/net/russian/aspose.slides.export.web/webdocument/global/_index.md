@@ -1,5 +1,5 @@
 ---
-title: Глобальный
+title: Global
 second_title: Ссылки на API Aspose.Slides для .NET
 description: Возвращает глобальное хранилище документа. Только для чтения Storageaspose.slides.export.web/storage.
 type: docs

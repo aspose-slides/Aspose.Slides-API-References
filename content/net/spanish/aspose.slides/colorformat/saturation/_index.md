@@ -1,5 +1,5 @@
 ---
-title: Saturación
+title: Saturation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el componente de saturación de un color en representación HSL. Todas las transformaciones de color se ignoran. Lectura/escritura Single.
 type: docs

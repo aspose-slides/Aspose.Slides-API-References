@@ -1,5 +1,5 @@
 ---
-title: Etiqueta
+title: Label
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece la etiqueta de los subtítulos. Cadena de lectura/escritura.
 type: docs

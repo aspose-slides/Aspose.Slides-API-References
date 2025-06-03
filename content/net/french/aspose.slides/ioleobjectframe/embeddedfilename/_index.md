@@ -1,5 +1,5 @@
 ---
-title: NomDeFichierIntégré
+title: EmbeddedFileName
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le chemin de l'objet OLE intégré
 type: docs

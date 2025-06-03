@@ -1,5 +1,5 @@
 ---
-title: 透视
+title: Perspective
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 3D 图表的透视值（视野角度），范围在 0 到 240 之间。如果 RightAngleAxes 属性值为 true，则被忽略。可读/可写 Byte。
 type: docs

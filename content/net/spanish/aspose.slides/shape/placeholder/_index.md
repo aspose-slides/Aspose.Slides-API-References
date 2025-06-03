@@ -1,5 +1,5 @@
 ---
-title: Marcador de posición
+title: Placeholder
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el marcador de posición para una forma. Devuelve nulo si la forma no tiene marcador de posición. Solo lectura IPlaceholder aspose.slides/iplaceholder.
 type: docs

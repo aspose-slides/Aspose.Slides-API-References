@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence API d'Aspose.Slides pour .NET
 description: Supprime tous les arrêts de gradient d'une collection.
 type: docs

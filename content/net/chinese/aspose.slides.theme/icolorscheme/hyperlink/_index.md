@@ -1,5 +1,5 @@
 ---
-title: 超链接
+title: Hyperlink
 second_title: Aspose.Slides for .NET API 参考
 description: 超链接的颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

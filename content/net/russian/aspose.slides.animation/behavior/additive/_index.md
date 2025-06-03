@@ -1,5 +1,5 @@
 ---
-title: Аддитивный
+title: Additive
 second_title: Aspose.Slides для .NET API Справочник
 description: Представляет, объединено ли текущее поведение анимации с другими работающими анимациями. Чтение/запись BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype.
 type: docs

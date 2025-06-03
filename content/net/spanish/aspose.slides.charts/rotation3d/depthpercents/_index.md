@@ -1,5 +1,5 @@
 ---  
-title: DepthPercents  
+title: DepthPercents
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve o establece la profundidad de un gráfico 3D como un porcentaje del ancho del gráfico, entre el 20 y el 2000 por ciento. Lectura/escritura UInt16.
 type: docs  

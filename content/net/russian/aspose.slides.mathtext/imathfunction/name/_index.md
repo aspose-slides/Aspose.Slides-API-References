@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник API Aspose.Slides для .NET
 description: Имя функции Например, имена функций - это sin и cos
 type: docs

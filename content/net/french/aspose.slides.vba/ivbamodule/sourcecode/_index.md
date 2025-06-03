@@ -1,5 +1,5 @@
 ---
-title: CodeSource
+title: SourceCode
 second_title: Référence API Aspose.Sildes pour .NET
 description: Code source du module. Chaîne en lecture/écriture.
 type: docs

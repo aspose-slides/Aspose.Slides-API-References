@@ -1,5 +1,5 @@
 ---
-title: 右边框
+title: BorderRight
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个右边框线属性对象。只读 ILineFormataspose.slides/ilineformat。
 type: docs

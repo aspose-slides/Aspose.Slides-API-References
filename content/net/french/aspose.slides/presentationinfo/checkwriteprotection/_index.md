@@ -1,5 +1,5 @@
 ---
-title: VérifierProtectionÉcriture
+title: CheckWriteProtection
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Vérifie si un mot de passe pour modifier est correct pour une présentation protégée en écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 转换
+title: Convert
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一组用于转换 Presentationaspose.slides/aspose.slides/presentation 的方法。
 type: docs

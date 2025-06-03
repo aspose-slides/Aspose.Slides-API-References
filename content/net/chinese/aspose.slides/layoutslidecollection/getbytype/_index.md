@@ -1,5 +1,5 @@
 ---
-title: 按类型获取
+title: GetByType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回指定类型的第一个布局幻灯片。要查找的布局幻灯片类型。LayoutSlideaspose.slides/layoutslide 为指定类型的布局幻灯片，如果没有找到布局则为 null。
 type: docs

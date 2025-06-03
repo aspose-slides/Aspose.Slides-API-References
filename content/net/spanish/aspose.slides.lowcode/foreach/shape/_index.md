@@ -1,5 +1,5 @@
 ---
-title: Forma
+title: Shape
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Iterar cada Shapeaspose.slides.lowcode/foreach/shape en la Presentaciónaspose.slides/presentation. Las formas se iterarán en todos los tipos de diapositivas - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide y LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs

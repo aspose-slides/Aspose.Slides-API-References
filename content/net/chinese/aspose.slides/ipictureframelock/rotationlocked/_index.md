@@ -1,5 +1,5 @@
 ---
-title: 旋转锁定
+title: RotationLocked
 second_title: Aspose.Slides for .NET API 参考
 description: 确定是否禁止该形状的旋转角度变化。可读/可写布尔值。
 type: docs

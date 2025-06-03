@@ -1,5 +1,5 @@
 ---
-title: Rechts
+title: Right
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Rechte des Diagrammelements als Bruchteil der Breite des Diagramms zurück. Nur-lesbar Single.
 type: docs

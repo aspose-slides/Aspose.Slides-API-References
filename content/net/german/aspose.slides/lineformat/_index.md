@@ -1,5 +1,5 @@
 ---
-title: Linienformat
+title: LineFormat
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt das Format einer Linie dar.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Por
+title: By
 second_title: Referencia API de Aspose.Slides para .NET
 description: Describe el valor de desplazamiento relativo para la animación en porcentajes. Lectura/escritura PointF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает количество ячеек в коллекции. Только для чтения Int32.
 type: docs

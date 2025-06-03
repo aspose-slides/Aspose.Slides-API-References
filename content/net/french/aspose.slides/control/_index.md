@@ -1,5 +1,5 @@
 ---
-title: Contrôle
+title: Control
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un contrôle ActiveX.
 type: docs

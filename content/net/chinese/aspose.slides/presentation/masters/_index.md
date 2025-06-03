@@ -1,5 +1,5 @@
 ---
-title: 主幻灯片
+title: Masters
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回演示文稿中定义的所有母版幻灯片的列表。只读 IMasterSlideCollectionaspose.slides/imasterslidecollection。
 type: docs

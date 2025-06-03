@@ -1,5 +1,5 @@
 ---
-title: 右到左
+title: RightToLeft
 second_title: Aspose.Slides for .NET API 参考
 description: 确定段落是否使用右到左书写。只读布尔值。
 type: docs

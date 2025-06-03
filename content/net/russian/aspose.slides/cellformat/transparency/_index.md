@@ -1,5 +1,5 @@
 ---
-title: Прозрачность
+title: Transparency
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Получает или задает прозрачность цвета заливки. Чтение/запись Single.
 type: docs

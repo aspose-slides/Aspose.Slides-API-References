@@ -1,5 +1,5 @@
 ---
-title: Акцент1
+title: Accent1
 second_title: Справочник по API Aspose.Slides для .NET
 description: Первый акцентный цвет в схеме. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs

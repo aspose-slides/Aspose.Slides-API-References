@@ -1,5 +1,5 @@
 ---
-title: 开始
+title: Start
 second_title: Aspose.Sildes for .NET API 参考
 description: 开始
 type: docs

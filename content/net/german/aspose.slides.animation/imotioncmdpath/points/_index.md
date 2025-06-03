@@ -1,5 +1,5 @@
 ---
-title: Punkte
+title: Points
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Punkte des Befehls an. Lese-/Schreibzugriff auf PointF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 相机
+title: Camera
 second_title: Aspose.Slides for .NET API 参考
 description: 表示相机。
 type: docs

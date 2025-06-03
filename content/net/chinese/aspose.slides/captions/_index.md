@@ -1,5 +1,5 @@
 ---
-title: 字幕
+title: Captions
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 WebVTT 关闭字幕。
 type: docs

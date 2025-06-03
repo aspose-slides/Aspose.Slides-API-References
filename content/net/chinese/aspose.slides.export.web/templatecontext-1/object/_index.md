@@ -1,5 +1,5 @@
 ---
-title: 对象
+title: Object
 second_title: Aspose.Slides for .NET API 参考
 description: 返回模型对象。只读 TObject。
 type: docs

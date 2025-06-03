@@ -1,5 +1,5 @@
 ---
-title: NumberRévision
+title: RevisionNumber
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie ou définit le numéro de révision de la présentation. Read/write Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina todos los comentarios de una colección.
 type: docs

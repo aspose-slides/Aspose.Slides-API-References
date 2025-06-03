@@ -1,5 +1,5 @@
 ---
-title: 图例
+title: Legend
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图表的图例。只读 ILegend aspose.slides.charts/ilegend。
 type: docs

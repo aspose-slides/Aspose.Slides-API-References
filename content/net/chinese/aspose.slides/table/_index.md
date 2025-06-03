@@ -1,5 +1,5 @@
 ---
-title: 表格
+title: Table
 second_title: Aspose.Sildes for .NET API参考
 description: 表示幻灯片上的一个表格。
 type: docs

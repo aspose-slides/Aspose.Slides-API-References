@@ -1,5 +1,5 @@
 ---
-title: Кумимо́жи
+title: Kumimoji
 second_title: Справочник API Aspose.Slides для .NET
 description: Определяет, следует ли игнорировать текстовую компоновку вертикального текста, специфичную для восточных языков. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs

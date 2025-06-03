@@ -1,5 +1,5 @@
 ---
-title: HatAbhängigeFolien
+title: HasDependingSlides
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Masterfolie abhängt. Schreibgeschützter Boolean.
 type: docs

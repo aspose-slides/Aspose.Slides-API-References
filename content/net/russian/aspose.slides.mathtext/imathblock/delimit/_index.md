@@ -1,5 +1,5 @@
 ---
-title: Делимит
+title: Delimit
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Делит все дочерние элементы с помощью разделителя без скобок
 type: docs

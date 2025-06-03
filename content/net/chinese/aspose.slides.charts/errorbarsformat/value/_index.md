@@ -1,5 +1,5 @@
 ---
-title: 值
+title: Value
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置用于固定百分比和标准差值类型的值，以确定误差条的长度。在任何其他情况下将返回 NaN。读/写单精度浮点数。
 type: docs

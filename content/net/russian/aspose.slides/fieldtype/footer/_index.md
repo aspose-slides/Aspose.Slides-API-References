@@ -1,5 +1,5 @@
 ---
-title: Нижний колонтитул
+title: Footer
 second_title: Справочник по API Aspose.Slides для .NET
 description: Нижний колонтитул слайдов. Поле только для чтения FieldType aspose.slides/fieldtype.
 type: docs

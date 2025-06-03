@@ -1,5 +1,5 @@
 ---
-title: Chronométrage
+title: Timing
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente les propriétés de chronométrage pour le comportement de l'effet. Lecture/écriture ITimingaspose.slides.animation/itiming.
 type: docs

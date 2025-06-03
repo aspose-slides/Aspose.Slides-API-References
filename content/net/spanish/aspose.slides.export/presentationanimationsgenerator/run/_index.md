@@ -1,5 +1,5 @@
 ---
-title: Ejecutar
+title: Run
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Ejecutar la generación de eventos de animación para cada diapositiva.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 复制到
+title: CopyTo
 second_title: Aspose.Sildes for .NET API 参考
 description: 将整个集合复制到指定数组中。
 type: docs

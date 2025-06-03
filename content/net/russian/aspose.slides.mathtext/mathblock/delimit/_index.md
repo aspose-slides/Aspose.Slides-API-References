@@ -1,5 +1,5 @@
 ---
-title: Ограничить
+title: Delimit
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Ограничивает дочерние элементы символом-разделителем без скобок
 type: docs

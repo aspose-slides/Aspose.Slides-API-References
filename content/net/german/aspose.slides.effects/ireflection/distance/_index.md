@@ -1,5 +1,5 @@
 ---  
-title: Entfernung  
+title: Distance
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Entfernung der Reflexion. Lese-/Schreib-Doppel.
 type: docs  

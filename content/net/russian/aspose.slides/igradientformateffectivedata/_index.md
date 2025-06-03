@@ -1,5 +1,5 @@
 ---  
-title: IGradientFormatEffectiveData  
+title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Неизменяемый объект, который содержит эффективные параметры градиентной заливки.
 type: docs  

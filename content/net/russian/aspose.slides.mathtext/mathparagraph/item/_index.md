@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает элемент по указанному индексу. Только для чтения IMathBlockaspose.slides.mathtext/imathblock.
 type: docs

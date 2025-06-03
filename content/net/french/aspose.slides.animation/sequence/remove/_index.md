@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime l'effet spécifié d'une collection.
 type: docs

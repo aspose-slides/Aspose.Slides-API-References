@@ -1,5 +1,5 @@
 ---
-title: 添加表格占位符
+title: AddTablePlaceholder
 second_title: Aspose.Slides for .NET API 参考
 description: 向布局幻灯片添加新的占位符形状以容纳表格。
 type: docs

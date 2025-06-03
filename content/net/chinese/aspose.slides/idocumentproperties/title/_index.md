@@ -1,5 +1,5 @@
 ---
-title: 标题
+title: Title
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的标题。可读/可写 字符串。
 type: docs

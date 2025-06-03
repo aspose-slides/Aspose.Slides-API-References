@@ -1,5 +1,5 @@
 ---
-title: Порции
+title: Portions
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию текстовых порций. Только для чтения IPortionCollectionaspose.slides/iportioncollection.
 type: docs

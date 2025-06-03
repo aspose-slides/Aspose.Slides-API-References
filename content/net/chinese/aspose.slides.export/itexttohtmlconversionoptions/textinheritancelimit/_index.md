@@ -1,5 +1,5 @@
 ---
-title: 文本继承限制
+title: TextInheritanceLimit
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置文本属性的继承深度。读/写 TextInheritanceLimitaspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Содержит
+title: Contains
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, содержит ли ICollection указанное значение.
 type: docs

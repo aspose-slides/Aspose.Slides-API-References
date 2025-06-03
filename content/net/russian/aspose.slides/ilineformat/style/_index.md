@@ -1,5 +1,5 @@
 ---
-title: Стиль
+title: Style
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает стиль линии. Чтение/запись LineStyleaspose.slides/linestyle.
 type: docs

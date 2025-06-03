@@ -1,5 +1,5 @@
 ---
-title: TransiciónDirecciónLateral
+title: SideDirectionTransition
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Efecto de transición de diapositiva en dirección lateral.
 type: docs

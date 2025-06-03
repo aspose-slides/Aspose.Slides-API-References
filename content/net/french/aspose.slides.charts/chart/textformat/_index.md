@@ -1,5 +1,5 @@
 ---
-title: FormatTexte
+title: TextFormat
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie le format de texte du graphique. La propriété ne s'applique pas aux types suivants  Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Lecture seule IChartTextFormat aspose.slides.charts/icharttextformat.
 type: docs

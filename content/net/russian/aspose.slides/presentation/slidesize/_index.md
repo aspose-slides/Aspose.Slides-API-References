@@ -1,5 +1,5 @@
 ---
-title: РазмерСлайда
+title: SlideSize
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает объект размера слайда. Только для чтения ISlideSize aspose.slides/islidesize.
 type: docs

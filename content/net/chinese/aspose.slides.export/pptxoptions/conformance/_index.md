@@ -1,5 +1,5 @@
 ---
-title: 兼容性
+title: Conformance
 second_title: Aspose.Slides for .NET API 参考
 description: 指定演示文档所遵循的兼容性类别。默认值为 Ecma376_2006
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ColecciónDeAnimacionesDeTexto
+title: TextAnimationCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de animaciones de texto. Solo lectura ITextAnimationCollectionaspose.slides.animation/itextanimationcollection.
 type: docs

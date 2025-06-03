@@ -1,5 +1,5 @@
 ---
-title: HuitDirectionTransition
+title: EightDirectionTransition
 second_title: Aspose.Slides pour .NET API Référence
 description: Effet de transition de diapositive à huit directions.
 type: docs

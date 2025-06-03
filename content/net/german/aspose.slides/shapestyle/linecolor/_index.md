@@ -1,5 +1,5 @@
 ---
-title: Linienfarbe
+title: LineColor
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Umrandungsfarbe einer Form zurück. Schreibgeschütztes IColorFormat aspose.slides/icolorformat.
 type: docs

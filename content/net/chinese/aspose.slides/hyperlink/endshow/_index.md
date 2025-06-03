@@ -1,5 +1,5 @@
 ---
-title: 结束演示
+title: EndShow
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个结束演示的超链接。只读 Hyperlinkaspose.slides/hyperlink。
 type: docs

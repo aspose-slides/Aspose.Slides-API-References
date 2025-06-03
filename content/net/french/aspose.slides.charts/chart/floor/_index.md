@@ -1,5 +1,5 @@
 ---
-title: Sol
+title: Floor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un objet qui permet de changer le format du sol d'un graphique 3D. En lecture seule IChartWall aspose.slides.charts/ichartwall.
 type: docs

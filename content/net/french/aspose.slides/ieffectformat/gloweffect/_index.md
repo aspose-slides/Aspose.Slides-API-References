@@ -1,5 +1,5 @@
 ---
-title: Effet de lueur
+title: GlowEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Effet de lueur. Lecture/écriture IGlowaspose.slides.effects/iglow.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置绘图指南相对于幻灯片左上角的位置，以点为单位。可读/写 单精度浮点数。
 type: docs

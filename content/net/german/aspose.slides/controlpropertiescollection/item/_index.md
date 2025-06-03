@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Eigenschaft zurück oder legt sie fest.
 type: docs

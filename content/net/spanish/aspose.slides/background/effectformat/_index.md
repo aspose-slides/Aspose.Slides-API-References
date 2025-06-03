@@ -1,6 +1,6 @@
 ---
 
-title: EffectFormat  
+title: EffectFormat
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve un EffectFormat para el relleno de tipo BackgroundType.OwnBackground. Solo lectura IEffectFormataspose.slides/ieffectformat.
 type: docs  

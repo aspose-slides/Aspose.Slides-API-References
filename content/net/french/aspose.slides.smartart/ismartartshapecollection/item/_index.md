@@ -1,5 +1,5 @@
 ---
-title: Élement
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule ISmartArtShapeaspose.slides.smartart/ismartartshape. Index zéro-based de l'élément
 type: docs

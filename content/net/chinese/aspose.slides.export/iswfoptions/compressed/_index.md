@@ -1,5 +1,5 @@
 ---
-title: 压缩
+title: Compressed
 second_title: Aspose.Slides for .NET API 参考
 description: 指定生成的 SWF 文档是否应该被压缩。默认为 true。
 type: docs

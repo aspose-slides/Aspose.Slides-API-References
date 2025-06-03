@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le OuterShadowaspose.slides/outershadow spécifié est égal au OuterShadowaspose.slides/outershadow actuel.
 type: docs

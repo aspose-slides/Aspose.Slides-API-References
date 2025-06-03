@@ -1,5 +1,5 @@
 ---  
-title: IEmbeddedWoffFontsHtmlController  
+title: IEmbeddedWoffFontsHtmlController
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Contrôleur HTML pour les polices woff intégrées.
 type: docs  

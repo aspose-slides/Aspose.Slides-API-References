@@ -1,5 +1,5 @@
 ---
-title: Étiquette
+title: Label
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente l'étiquette de données au niveau du point de données. Appliqué pour les types de séries Treemap et Sunburst. En lecture seule IDataLabelaspose.slides/idatalabel.
 type: docs

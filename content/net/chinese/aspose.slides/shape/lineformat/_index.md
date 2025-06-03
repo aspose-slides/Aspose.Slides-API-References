@@ -1,5 +1,5 @@
 ---
-title: 线条格式
+title: LineFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回包含形状线条格式属性的 LineFormat 对象。注意，对于某些没有线条属性的形状类型，可能会返回 null。只读 ILineFormat aspose.slides/ilineformat。
 type: docs

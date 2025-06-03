@@ -1,5 +1,5 @@
 ---
-title: Делить
+title: Divide
 second_title: Справочник API Aspose.Slides для .NET
 description: Создает дробь с этим числителем и указанным знаменателем
 type: docs

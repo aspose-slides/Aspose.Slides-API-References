@@ -1,5 +1,5 @@
 ---
-title: 截距
+title: Intercept
 second_title: Aspose.Slides for .NET API 参考
 description: 指定趋势线与 y 轴相交的值。该属性仅在趋势线类型为 exp、linear 或 poly 时支持。可读/可写 Double。
 type: docs

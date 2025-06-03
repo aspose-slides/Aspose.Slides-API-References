@@ -1,5 +1,5 @@
 ---
-title: ComprimirFuentesIncrustadas
+title: CompressEmbeddedFonts
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Realiza la compresión de la Presentación aspose.slides/presentation eliminando caracteres no utilizados de las fuentes incrustadas.
 type: docs

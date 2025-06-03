@@ -1,5 +1,5 @@
 ---
-title: Paragraphe
+title: Paragraph
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Itérer chaque Paragraphe aspose.slides.lowcode/foreach/paragraph dans la Présentation aspose.slides/presentation. Les formes seront itérées dans tous les types de diapositives - Diapositive aspose.slides.lowcode/foreach/slide MaîtreDiapositive aspose.slides.lowcode/foreach/masterslide et DiapositiveDeMiseEnPage aspose.slides.lowcode/foreach/layoutslide
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Etikett
+title: Label
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt das Etikett eines Diagrammdatenpunkts dar. Nur-Lese IDataLabelaspose.slides/idatalabel.
 type: docs

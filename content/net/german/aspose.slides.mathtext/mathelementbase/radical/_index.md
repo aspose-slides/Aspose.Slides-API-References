@@ -1,5 +1,5 @@
 ---
-title: Radikal
+title: Radical
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die mathematische Wurzel des angegebenen Grades aus dem angegebenen Argument an.
 type: docs

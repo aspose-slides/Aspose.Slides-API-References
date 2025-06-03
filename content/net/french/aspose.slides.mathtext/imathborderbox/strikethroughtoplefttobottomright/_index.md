@@ -1,5 +1,5 @@
 ---
-title: BarréEnHautGaucheÀBasDroite
+title: StrikethroughTopLeftToBottomRight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Barré en Haut-Gauche à Bas-Droite par défaut est faux. Spécifie l'état caché ou affiché d'une ligne diagonale barrée allant du coin supérieur gauche au coin inférieur droit de la boîte de bordure.
 type: docs

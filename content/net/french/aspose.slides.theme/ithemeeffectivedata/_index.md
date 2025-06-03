@@ -1,5 +1,5 @@
 ---  
-title: IThemeEffectiveData  
+title: IThemeEffectiveData
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Objet immuable qui contient les propriétés de thème effectives.
 type: docs  

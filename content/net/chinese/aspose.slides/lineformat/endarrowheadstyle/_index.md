@@ -1,5 +1,5 @@
 ---
-title: 结束箭头样式
+title: EndArrowheadStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置线路结束的箭头样式。可读/写 LineArrowheadStyleaspose.slides/linearrowheadstyle。
 type: docs

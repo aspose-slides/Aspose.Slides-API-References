@@ -1,5 +1,5 @@
 ---
-title: Entrada
+title: Input
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una colección de plantillas de elementos de entrada.
 type: docs

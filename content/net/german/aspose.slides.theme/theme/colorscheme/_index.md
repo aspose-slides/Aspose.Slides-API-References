@@ -1,5 +1,5 @@
 ---
-title: FarbScheme
+title: ColorScheme
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das FarbSchema zurück. Nur-Lese IColorSchemeaspose.slides/icolorscheme.
 type: docs

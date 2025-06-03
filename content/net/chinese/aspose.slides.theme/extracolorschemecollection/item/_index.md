@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 根据索引返回一个颜色方案。只读 ExtraColorSchemeaspose.slides.theme/extracolorscheme。
 type: docs

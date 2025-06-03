@@ -1,5 +1,5 @@
 ---  
-title: EffectFormat  
+title: EffectFormat
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve un formato de efecto. Solo lectura IEffectFormat aspose.slides/ieffectformat.
 type: docs  

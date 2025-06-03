@@ -1,5 +1,5 @@
 ---
-title: Envolver
+title: Enclose
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Envuelve los elementos secundarios de este bloque en caracteres especificados como paréntesis u otros caracteres como marco
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 导出幻灯片
+title: ExportedSlides
 second_title: Aspose.Slides for .NET API 参考
 description: 获取导出幻灯片的数量。
 type: docs

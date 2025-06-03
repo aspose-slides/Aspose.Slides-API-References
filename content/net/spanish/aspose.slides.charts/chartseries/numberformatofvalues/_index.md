@@ -1,5 +1,5 @@
 ---
-title: FormatoDeNumeroDeValores
+title: NumberFormatOfValues
 second_title: Referencia de API de Aspose.Slides para .NET
 description: FormatoDeNumeroDeValores. Leer/escribir cadena.
 type: docs

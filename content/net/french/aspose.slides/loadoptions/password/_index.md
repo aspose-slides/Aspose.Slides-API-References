@@ -1,5 +1,5 @@
 ---
-title: Mot de passe
+title: Password
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient ou définit le mot de passe. Chaîne lisible/écrivable.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 嵌入数据
+title: EmbeddedData
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置有关 OLE 嵌入数据的信息。读/写 IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo。
 type: docs

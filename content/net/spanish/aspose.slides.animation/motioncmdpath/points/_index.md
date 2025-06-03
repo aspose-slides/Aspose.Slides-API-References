@@ -1,5 +1,5 @@
 ---
-title: Puntos
+title: Points
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Especifica puntos del comando. Lectura/escritura PointF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 表示轴的位置。读写 AxisPositionType aspose.slides.charts/axispositiontype。
 type: docs

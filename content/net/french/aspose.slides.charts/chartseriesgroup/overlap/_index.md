@@ -1,5 +1,5 @@
 ---
-title: Chevauchement
+title: Overlap
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie combien de barres et de colonnes doivent se chevaucher sur les graphiques 2-D en pourcentage de -100 à 100. - -100 Espacement maximum, les barres sont complètement séparées. - 0 Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 Chevauchement maximum, les barres se chevauchent complètement. Cette propriété est en lecture/écriture SByte.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ОриентацияСлайда
+title: SlideOrientation
 second_title: Справочник по Aspose.Sildes для .NET
 description: Представляет ориентацию слайда.
 type: docs

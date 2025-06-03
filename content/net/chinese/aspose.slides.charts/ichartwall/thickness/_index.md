@@ -1,5 +1,5 @@
 ---
-title: 厚度
+title: Thickness
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置墙的厚度，作为绘图体积最大维度的百分比。可读/可写 Int32。
 type: docs

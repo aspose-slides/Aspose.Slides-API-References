@@ -1,5 +1,5 @@
 ---  
-title: AddControl  
+title: AddControl
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée et ajoute un nouveau contrôle à la collection.
 type: docs  

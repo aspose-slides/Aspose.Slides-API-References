@@ -1,5 +1,5 @@
 ---
-title: 相等
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定的 AlphaReplaceaspose.slides.effects/alphareplace 是否等于当前的 AlphaReplaceaspose.slides.effects/alphareplace。
 type: docs

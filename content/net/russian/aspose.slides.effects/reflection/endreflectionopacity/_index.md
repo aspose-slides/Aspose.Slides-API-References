@@ -1,5 +1,5 @@
 ---
-title: Конечная Непрозрачность Отражения
+title: EndReflectionOpacity
 second_title: Справочник по API Aspose.Slides для .NET
 description: Конечная непрозрачность отражения. проценты. Чтение/запись Single.
 type: docs

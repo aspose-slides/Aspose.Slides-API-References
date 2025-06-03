@@ -1,5 +1,5 @@
 ---
-title: 位图
+title: Bitmap
 second_title: Aspose.Sildes for .NET API 参考
 description: 幻灯片应转换为光栅图像。
 type: docs

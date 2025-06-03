@@ -1,5 +1,5 @@
 ---
-title: Orientierung
+title: Orientation
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Ausrichtung des Zeichenführers zurück oder setzt diese. Lese-/Schreibzugriff auf Orientationaspose.slides/orientation.
 type: docs

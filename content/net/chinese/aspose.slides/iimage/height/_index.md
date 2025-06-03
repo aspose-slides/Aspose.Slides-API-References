@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图像的高度（以像素为单位）。
 type: docs

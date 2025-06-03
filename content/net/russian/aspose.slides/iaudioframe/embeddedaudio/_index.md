@@ -1,5 +1,5 @@
 ---
-title: ВстроенныйАудио
+title: EmbeddedAudio
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Возвращает или задает объект встроенного аудио. Чтение/запись IAudioaspose.slides/iaudio.
 type: docs

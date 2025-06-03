@@ -1,5 +1,5 @@
 ---
-title: ActiverEffetLumineux
+title: EnableGlowEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Active l'effet lumineux.
 type: docs

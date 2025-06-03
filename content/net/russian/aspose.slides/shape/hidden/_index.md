@@ -1,5 +1,5 @@
 ---
-title: Скрытый
+title: Hidden
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, скрыта ли фигура. Читаемое/записываемое логическое значение.
 type: docs

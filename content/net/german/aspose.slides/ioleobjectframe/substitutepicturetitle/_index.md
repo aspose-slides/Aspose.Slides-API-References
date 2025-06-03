@@ -1,5 +1,5 @@
 ---  
-title: SubstitutePictureTitle  
+title: SubstitutePictureTitle
 second_title: Aspose.Slildes for .NET API Referenz  
 description: Gibt den Titel für das OleObject-Symbol zurück oder setzt ihn. Lese-/Schreib-String.
 type: docs  

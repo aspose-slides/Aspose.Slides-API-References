@@ -1,5 +1,5 @@
 ---
-title: 刻度标记间距
+title: TickMarksSpacing
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在绘制下一个刻度标记之前要跳过多少个刻度标记。适用于类别或系列轴。可读写 UInt16。
 type: docs

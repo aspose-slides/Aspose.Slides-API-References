@@ -1,5 +1,5 @@
 ---
-title: UnitéPrincipaleActuale
+title: ActualMajorUnit
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie l'unité principale actuelle de l'axe. Appelez la méthode IChart.ValidateChartLayout auparavant pour obtenir la valeur actuelle.
 type: docs

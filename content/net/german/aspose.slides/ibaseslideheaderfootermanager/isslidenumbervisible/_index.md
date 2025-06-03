@@ -1,5 +1,5 @@
 ---
-title: IstFolieNummerSichtbar
+title: IsSlideNumberVisible
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, dass ein Platzhalter für eine Seitenzahl vorhanden ist. ReadBoolean.
 type: docs

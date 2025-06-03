@@ -1,5 +1,5 @@
 ---
-title: Параграф
+title: Paragraph
 second_title: Aspose.Slides для .NET API Справочник
 description: Перебрать каждый Параграфaspose.slides.lowcode/foreach/paragraph в Презентацииaspose.slides/presentation. Фигуры будут перебраны во всех типах слайдов - Слайдaspose.slides.lowcode/foreach/slide МастерСлайдaspose.slides.lowcode/foreach/masterslide и МакетСлайдaspose.slides.lowcode/foreach/layoutslide
 type: docs

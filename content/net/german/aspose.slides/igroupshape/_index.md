@@ -1,5 +1,5 @@
 ---  
-title: IGroupShape  
+title: IGroupShape
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt eine Gruppe von Formen auf einer Folie dar.
 type: docs  

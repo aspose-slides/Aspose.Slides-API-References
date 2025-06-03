@@ -1,5 +1,5 @@
 ---
-title: Par défaut
+title: Default
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les paramètres par défaut. Lecture seule SVGOptionsaspose.slides.export/svgoptions.
 type: docs

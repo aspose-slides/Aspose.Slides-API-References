@@ -1,5 +1,5 @@
 ---
-title: 线性渐变角度
+title: LinearGradientAngle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置渐变的角度。可读/可写的单精度浮点数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TailleDuPlaceholder
+title: PlaceholderSize
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la taille d'un placeholder.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Вставка
+title: Insert
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Вставляет математический элемент в коллекцию по заданному индексу.
 type: docs

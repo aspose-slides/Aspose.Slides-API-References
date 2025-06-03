@@ -1,5 +1,5 @@
 ---
-title: EffetOmbrePréréglée
+title: PresetShadowEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Ombre préréglée. Lecture/écriture IPresetShadowaspose.slides.effects/ipresetshadow.
 type: docs

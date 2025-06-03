@@ -1,5 +1,5 @@
 ---
-title: 说明
+title: Notes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含备注的演示文稿中的幻灯片数量。只读 Int32。
 type: docs

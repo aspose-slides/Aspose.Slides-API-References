@@ -1,5 +1,5 @@
 ---
-title: Удалить по индексу
+title: RemoveAt
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет градиентную остановку по заданному индексу.
 type: docs

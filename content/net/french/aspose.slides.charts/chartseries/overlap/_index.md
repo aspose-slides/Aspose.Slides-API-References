@@ -1,5 +1,5 @@
 ---
-title: Chevauchement
+title: Overlap
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie combien de barres et de colonnes se chevauchent sur des graphiques 2-D en pourcentage de -100 à 100. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent. C'est une projection de la propriété appropriée dans le groupe de séries parent et donc cette propriété est en lecture seule. Pour changer la valeur, utilisez la propriété en lecture/écriture ParentSeriesGroup.Overlap. SByte en lecture seule.
 type: docs

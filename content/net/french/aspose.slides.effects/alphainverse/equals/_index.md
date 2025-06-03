@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Aspose.Slides pour .NET API Référence
 description: Détermine si l'AlphaInverse spécifié AlphaInverseaspose.slides/alphainverse est égal à l'AlphaInverse actuel AlphaInverseaspose.slides/alphainverse.
 type: docs

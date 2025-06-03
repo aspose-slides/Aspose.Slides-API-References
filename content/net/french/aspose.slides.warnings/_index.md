@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides.Avertissements
+title: Aspose.Slides.Warnings
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Contient des classes qui représentent différents types d'avertissements
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ZielForm
+title: TargetShape
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Zielform für den Effekt zurück. Nur lesender IShapeaspose.slides/ishape.
 type: docs

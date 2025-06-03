@@ -1,5 +1,5 @@
 ---
-title: 材料预设类型
+title: MaterialPresetType
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义形状材料的常量。
 type: docs

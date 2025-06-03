@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Aspose.Slides для .NET Справочная информация по API
 description: Установите ColorScheme, FontScheme, FormatScheme в null, чтобы отключить любое переопределение с помощью этого объекта темы.
 type: docs

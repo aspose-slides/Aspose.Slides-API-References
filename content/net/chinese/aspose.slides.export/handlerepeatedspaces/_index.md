@@ -1,5 +1,5 @@
 ---
-title: 处理重复空格
+title: HandleRepeatedSpaces
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在 Markdown 导出期间如何处理重复的常规空格字符。
 type: docs

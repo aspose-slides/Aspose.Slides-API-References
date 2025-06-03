@@ -1,5 +1,5 @@
 ---
-title: 值
+title: Value
 second_title: Aspose.Slides for .NET API 参考
 description: 值。只读的 IDoubleChartValue aspose.slides.charts/idoublechartvalue。
 type: docs

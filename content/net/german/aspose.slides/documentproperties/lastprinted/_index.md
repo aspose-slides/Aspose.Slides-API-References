@@ -1,5 +1,5 @@
 ---  
-title: LastPrinted  
+title: LastPrinted
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das Datum zurück, an dem eine Präsentation zuletzt gedruckt wurde. Lese-/schreibbare DateTime.
 type: docs  

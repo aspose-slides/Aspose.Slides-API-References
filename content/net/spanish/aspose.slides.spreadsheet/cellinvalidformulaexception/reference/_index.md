@@ -1,5 +1,5 @@
 ---
-title: Referencia
+title: Reference
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene una referencia de celda que contiene la fórmula inválida.
 type: docs

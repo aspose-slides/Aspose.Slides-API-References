@@ -1,5 +1,5 @@
 ---
-title: 启用上下文菜单
+title: EnableContextMenu
 second_title: Aspose.Slides for .NET API 参考
 description: 启用/禁用上下文菜单。默认值为 true。
 type: docs

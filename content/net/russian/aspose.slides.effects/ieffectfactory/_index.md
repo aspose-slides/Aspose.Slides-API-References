@@ -1,5 +1,5 @@
 ---  
-title: IEffectFactory  
+title: IEffectFactory
 second_title: Aspose.Slides для .NET API Ссылка  
 description: Позволяет создавать экземпляры эффектов
 type: docs  

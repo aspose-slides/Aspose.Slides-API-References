@@ -1,5 +1,5 @@
 ---
-title: СоздатьВнешнююТень
+title: CreateOuterShadow
 second_title: Справка по API Aspose.Sildes для .NET
 description: Создает эффект внешней тени.
 type: docs

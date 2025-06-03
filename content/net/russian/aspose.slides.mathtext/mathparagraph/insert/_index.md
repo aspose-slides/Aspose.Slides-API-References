@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник API Aspose.Slides для .NET
 description: Вставляет IMathBlock в коллекцию по указанному индексу.
 type: docs

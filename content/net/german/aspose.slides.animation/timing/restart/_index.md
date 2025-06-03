@@ -1,5 +1,5 @@
 ---
-title: Neustart
+title: Restart
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, ob ein Effekt nach dem Abschluss neu gestartet werden soll. Lese-/Schreibzugriff auf EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs

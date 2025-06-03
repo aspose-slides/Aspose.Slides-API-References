@@ -1,5 +1,5 @@
 ---  
-title: ShapeCollection  
+title: ShapeCollection
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет коллекцию фигур.
 type: docs  

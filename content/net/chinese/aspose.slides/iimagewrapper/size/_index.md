@@ -1,5 +1,5 @@
 ---
-title: 尺寸
+title: Size
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图像的宽度和高度，以像素为单位，Read-only Sizeaspose.slides/iimagewrapper/size。
 type: docs

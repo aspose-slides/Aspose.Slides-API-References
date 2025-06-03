@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit l'opération à l'index spécifié. Lecture/écriture IColorOperationaspose.slides/icoloroperation.
 type: docs

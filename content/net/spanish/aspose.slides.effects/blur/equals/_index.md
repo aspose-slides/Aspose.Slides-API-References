@@ -1,5 +1,5 @@
 ---
-title: Igual
+title: Equals
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si el Bluraspose.slides.effects/blur especificado es igual al Bluraspose.slides.effects/blur actual.
 type: docs

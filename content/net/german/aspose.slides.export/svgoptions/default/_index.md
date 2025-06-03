@@ -1,5 +1,5 @@
 ---
-title: Standard
+title: Default
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt Standardeinstellungen zurück. Nur lesbare SVGOptionsaspose.slides.export/svgoptions.
 type: docs

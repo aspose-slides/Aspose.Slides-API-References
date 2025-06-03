@@ -1,5 +1,5 @@
 ---
-title: Sonido
+title: Sound
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el sonido que se reproduce del hipervínculo. Lectura/escritura IAudioaspose.slides/iaudio.
 type: docs

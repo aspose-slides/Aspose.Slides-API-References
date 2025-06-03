@@ -1,5 +1,5 @@
 ---
-title: Info-bulle
+title: Tooltip
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la chaîne qui peut être affichée dans une interface utilisateur comme associée au lien hypertexte parent. Chaîne en lecture/écriture.
 type: docs

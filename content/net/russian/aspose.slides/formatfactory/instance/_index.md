@@ -1,5 +1,5 @@
 ---
-title: Экземпляр
+title: Instance
 second_title: Справочник по API Aspose.Slides для .NET
 description: Статический экземпляр фабрики форматов. Фабрика форматов только для чтения aspose.slides/formatfactory.
 type: docs

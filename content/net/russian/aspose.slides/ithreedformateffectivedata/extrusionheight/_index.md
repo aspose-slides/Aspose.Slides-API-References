@@ -1,5 +1,5 @@
 ---
-title: ВысотаЭкструзии
+title: ExtrusionHeight
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает высоту эффекта экструзии. Только для чтения Double.
 type: docs

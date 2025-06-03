@@ -1,5 +1,5 @@
 ---
-title: TítuloDelGráfico
+title: ChartTitle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece un título de gráfico Solo lectura IChartTitleaspose.slides.charts/icharttitle.
 type: docs

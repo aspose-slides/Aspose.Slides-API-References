@@ -1,5 +1,5 @@
 ---
-title: 增长
+title: Grow
 second_title: Aspose.Slides for .NET API 参考
 description: 确定对象的边界是否应因模糊而增长。True 表示边界已增长，而 False 表示边界未增长。只读布尔值。
 type: docs

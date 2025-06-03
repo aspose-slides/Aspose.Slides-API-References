@@ -1,5 +1,5 @@
 ---
-title: Retrait
+title: Indent
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le retrait de première ligne / retrait suspendu du paragraphe sans héritage. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Single.
 type: docs

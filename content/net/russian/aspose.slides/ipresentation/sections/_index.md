@@ -1,5 +1,5 @@
 ---
-title: Разделы
+title: Sections
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает список всех разделов слайдов, определенных в презентации. Только для чтения ISectionCollection aspose.slides/isectioncollection.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: SketchType  
+title: SketchType
 second_title: Aspose.Slides pour .NET Référence API  
 description: Retourne le type de croquis. Lecture seule LineSketchType aspose.slides/linesketchtype.
 type: docs  

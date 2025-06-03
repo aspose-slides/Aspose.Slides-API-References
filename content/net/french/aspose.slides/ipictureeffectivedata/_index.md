@@ -1,5 +1,5 @@
 ---  
-title: IPictureEffectiveData  
+title: IPictureEffectiveData
 second_title: Référence API Aspose.Slides pour .NET  
 description: Objet immuable qui contient les propriétés effectives de l'image.
 type: docs  

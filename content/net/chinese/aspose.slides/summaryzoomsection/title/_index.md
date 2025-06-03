@@ -1,5 +1,5 @@
 ---
-title: 标题
+title: Title
 second_title: Aspose.Slides for .NET API 参考
 description: 返回 Summary Zoom Section 对象的文本标题。
 type: docs

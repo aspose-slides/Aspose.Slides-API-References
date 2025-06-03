@@ -1,5 +1,5 @@
 ---
-title: Текст
+title: Text
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Текст на фигурах слайдов
 type: docs

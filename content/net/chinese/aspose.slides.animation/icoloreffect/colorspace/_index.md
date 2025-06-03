@@ -1,5 +1,5 @@
 ---
-title: 色彩空间
+title: ColorSpace
 second_title: Aspose.Slides for .NET API 参考
 description: 表示行为的色彩空间。读/写 ColorSpaceaspose.slides.animation/icoloreffect/colorspace。
 type: docs

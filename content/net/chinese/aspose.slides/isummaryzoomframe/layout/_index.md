@@ -1,5 +1,5 @@
 ---
-title: 布局
+title: Layout
 second_title: Aspose.Slides for .NET API 参考
 description: 获取框架中摘要缩放部分的布局。默认值为 GridLayout。
 type: docs

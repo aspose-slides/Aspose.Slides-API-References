@@ -1,5 +1,5 @@
 ---
-title: Opérateur
+title: Operator
 second_title: Référence API Aspose.Slides pour .NET
 description: Caractère d'Opérateur N-aire Par exemple
 type: docs

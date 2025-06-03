@@ -1,5 +1,5 @@
 ---
-title: 列数
+title: ColumnCount
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定边界矩形中文本的列数。只读 Int32。
 type: docs

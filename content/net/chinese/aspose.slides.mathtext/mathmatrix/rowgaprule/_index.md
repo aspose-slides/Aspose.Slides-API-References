@@ -1,5 +1,5 @@
 ---
-title: 行间距规则
+title: RowGapRule
 second_title: Aspose.Slides for .NET API 参考
 description: 矩阵行之间的垂直间距类型；垂直间距单位可以是以 twips 存储的行或点。默认值：SingleSpacingGap 0
 type: docs

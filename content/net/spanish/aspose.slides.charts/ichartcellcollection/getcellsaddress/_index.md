@@ -1,5 +1,5 @@
 ---
-title: ObtenerDirecciónCeldas
+title: GetCellsAddress
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la dirección del conjunto de celdas en el libro de trabajo.
 type: docs

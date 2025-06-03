@@ -1,5 +1,5 @@
 ---
-title: Wiederholungsdauer
+title: RepeatDuration
 second_title: Aspose.Slides für .NET API-Referenz
 description: Beschreibt, wie oft der Effekt wiederholt werden soll. Lese-/schreibbarer Single.
 type: docs

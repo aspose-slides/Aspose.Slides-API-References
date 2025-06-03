@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API d'Aspose.Sldes pour .NET
 description: Ajoute une propriété à la collection.
 type: docs

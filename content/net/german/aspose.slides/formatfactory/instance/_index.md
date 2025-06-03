@@ -1,5 +1,5 @@
 ---
-title: Instanz
+title: Instance
 second_title: Aspose.Slides für .NET API-Referenz
 description: Formatfabrik statische Instanz. Nur-Lese FormatFactoryaspose.slides/formatfactory.
 type: docs

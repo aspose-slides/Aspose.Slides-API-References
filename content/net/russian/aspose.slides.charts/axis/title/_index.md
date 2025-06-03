@@ -1,5 +1,5 @@
 ---
-title: Заголовок
+title: Title
 second_title: Ссылки на API Aspose.Sildes для .NET
 description: Получает заголовок оси. Только для чтения IChartTitle aspose.slides.charts/icharttitle.
 type: docs

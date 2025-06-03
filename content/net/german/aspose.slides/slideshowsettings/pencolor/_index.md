@@ -1,5 +1,5 @@
 ---
-title: Stiftfarbe
+title: PenColor
 second_title: Aspose.Slides für .NET API Referenz
 description: Stiftfarbe für die Diashow
 type: docs

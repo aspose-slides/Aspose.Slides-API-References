@@ -1,5 +1,5 @@
 ---
-title: Nenner
+title: Denominator
 second_title: Aspose.Slides für .NET API Referenz
 description: Nenner
 type: docs

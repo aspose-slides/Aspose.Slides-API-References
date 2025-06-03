@@ -1,5 +1,5 @@
 ---
-title: Комментарии
+title: Comments
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает комментарии к презентации. Читаемая/записываемая строка.
 type: docs

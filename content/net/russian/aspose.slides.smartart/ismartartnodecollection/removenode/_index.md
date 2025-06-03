@@ -1,5 +1,5 @@
 ---
-title: УдалитьУзел
+title: RemoveNode
 second_title: Aspose.Sildes для .NET API Справочник
 description: Удалить узел или подузел по индексу.
 type: docs

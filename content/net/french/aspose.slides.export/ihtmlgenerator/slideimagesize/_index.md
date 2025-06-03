@@ -1,5 +1,5 @@
 ---
-title: TailleImageDiapositive
+title: SlideImageSize
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la taille de l'image de la diapositive. TailleF en lecture seule.
 type: docs

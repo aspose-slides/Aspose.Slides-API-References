@@ -1,5 +1,5 @@
 ---  
-title: StartReflectionOpacity  
+title: StartReflectionOpacity
 second_title: Aspose.Slides für .NET API Referenz  
 description: Anfangsreflexionsopazität. Prozentsätze. Nur lesbare Single.
 type: docs  

@@ -1,5 +1,5 @@
 ---  
-title: Наклонная черта  
+title: Overbar
 second_title: Справка по API Aspose.Slides для .NET  
 description: Устанавливает черту выше этого элемента
 type: docs  

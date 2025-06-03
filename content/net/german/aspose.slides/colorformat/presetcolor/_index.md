@@ -1,5 +1,5 @@
 ---  
-title: PresetColor  
+title: PresetColor
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das Farb-Preset zurück oder setzt es. Lese-/Schreibzugriff auf PresetColor aspose.slides/presetcolor.
 type: docs  

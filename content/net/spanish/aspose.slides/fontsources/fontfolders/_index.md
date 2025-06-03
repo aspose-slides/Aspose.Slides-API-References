@@ -1,5 +1,5 @@
 ---
-title: CarpetasDeFuente
+title: FontFolders
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Carpetas que contienen archivos de fuentes. Todos los archivos de fuentes ubicados en estas carpetas se incluyen en la colección. Carpetas que se buscan de forma recursiva.
 type: docs

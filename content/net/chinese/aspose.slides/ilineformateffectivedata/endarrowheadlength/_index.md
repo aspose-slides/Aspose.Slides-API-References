@@ -1,5 +1,5 @@
 ---
-title: 结束箭头长度
+title: EndArrowheadLength
 second_title: Aspose.Slides for .NET API 参考
 description: 返回线段末尾的箭头长度。只读 LineArrowheadLengthaspose.slides/linearrowheadlength。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: AlphaReplace  
+title: AlphaReplace
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa un efecto de reemplazo alpha. Los valores de opacidad alpha del efecto son reemplazados por un alpha fijo.
 type: docs  

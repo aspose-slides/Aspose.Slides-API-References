@@ -1,5 +1,5 @@
 ---
-title: Konvertieren
+title: Convert
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Gruppe von Methoden dar, die zum Konvertieren von Presentationaspose.slides/aspose.slides/presentation gedacht sind.
 type: docs

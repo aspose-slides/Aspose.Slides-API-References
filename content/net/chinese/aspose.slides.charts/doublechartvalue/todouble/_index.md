@@ -1,5 +1,5 @@
 ---
-title: 转为双精度浮点数
+title: ToDouble
 second_title: Aspose.Slides for .NET API 参考
 description: 转换为双精度浮点数。
 type: docs

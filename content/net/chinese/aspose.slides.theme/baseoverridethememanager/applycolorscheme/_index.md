@@ -1,5 +1,5 @@
 ---
-title: 应用颜色方案
+title: ApplyColorScheme
 second_title: Aspose.Slides for .NET API 参考
 description: 将额外的颜色方案应用于幻灯片。
 type: docs

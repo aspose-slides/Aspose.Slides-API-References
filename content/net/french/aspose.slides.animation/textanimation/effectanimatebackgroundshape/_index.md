@@ -1,5 +1,5 @@
 ---  
-title: EffectAnimateBackgroundShape  
+title: EffectAnimateBackgroundShape
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Effet de forme liée avec un groupe ou nul. Lecture/écriture IEffectaspose.slides.animation/ieffect.
 type: docs  

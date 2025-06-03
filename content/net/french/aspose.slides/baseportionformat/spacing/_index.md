@@ -1,5 +1,5 @@
 ---
-title: Espacement
+title: Spacing
 second_title: Aspose.Slides pour .NET Référence API
 description: Retourne ou définit l'incrément d'espacement intercaractères. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Unique.
 type: docs

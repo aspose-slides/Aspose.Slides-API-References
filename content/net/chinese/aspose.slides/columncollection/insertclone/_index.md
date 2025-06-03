@@ -1,5 +1,5 @@
 ---
-title: 插入克隆
+title: InsertClone
 second_title: Aspose.Slides for .NET API 参考
 description: 创建指定模板列的副本并将其插入到表中的指定位置。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: SetEmbeddedData  
+title: SetEmbeddedData
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Définit des informations sur les données OLE intégrées.
 type: docs  

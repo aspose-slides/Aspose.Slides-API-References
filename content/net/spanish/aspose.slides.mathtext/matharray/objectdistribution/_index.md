@@ -1,5 +1,5 @@
 ---
-title: DistribuciónDeObjetos
+title: ObjectDistribution
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Distribución de Objetos Cuando es verdadero, el contenido del arreglo se distribuye al ancho máximo del objeto arreglo.
 type: docs

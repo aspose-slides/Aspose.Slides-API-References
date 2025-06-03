@@ -1,5 +1,5 @@
 ---
-title: Remplir_Couleur
+title: Fill_Color
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente la propriété fill.color
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MargenDerecho
+title: MarginRight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el margen derecho en un párrafo. Solo lectura Single.
 type: docs

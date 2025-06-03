@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve la posición de una pestaña. Asignar esta propiedad puede cambiar el índice de la pestaña en la colección e invalidar el Enumerator. Solo lectura Double.
 type: docs

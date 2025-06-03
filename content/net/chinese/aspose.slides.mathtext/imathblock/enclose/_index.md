@@ -1,5 +1,5 @@
 ---
-title: 包围
+title: Enclose
 second_title: Aspose.Slides for .NET API 参考
 description: 将此块的子元素用指定字符（如括号或其他）包围，并用分隔字符进行分割
 type: docs

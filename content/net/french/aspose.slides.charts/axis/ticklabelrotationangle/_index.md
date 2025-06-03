@@ -1,5 +1,5 @@
 ---
-title: AngleDeRotationDesÉtiquettesDeGraduation
+title: TickLabelRotationAngle
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente l'angle de rotation des étiquettes de graduation. Lecture/écriture de type Single.
 type: docs

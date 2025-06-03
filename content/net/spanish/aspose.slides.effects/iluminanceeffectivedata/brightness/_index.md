@@ -1,5 +1,5 @@
 ---
-title: Brillo
+title: Brightness
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Brillo. Solo lectura de tipo Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Sauvegarder
+title: Save
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Sauvegarde le fichier de sortie à l'emplacement donné.
 type: docs

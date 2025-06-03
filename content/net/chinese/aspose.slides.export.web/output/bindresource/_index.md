@@ -1,5 +1,5 @@
 ---
-title: 绑定资源
+title: BindResource
 second_title: Aspose.Slides for .NET API 参考
 description: 将资源绑定到输出文件。
 type: docs

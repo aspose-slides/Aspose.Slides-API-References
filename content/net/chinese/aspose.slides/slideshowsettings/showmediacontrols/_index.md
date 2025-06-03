@@ -1,5 +1,5 @@
 ---
-title: 显示媒体控制
+title: ShowMediaControls
 second_title: Aspose.Slides for .NET API 参考
 description: 显示媒体控制
 type: docs

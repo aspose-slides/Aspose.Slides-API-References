@@ -1,5 +1,5 @@
 ---
-title: Восточноазиатский шрифт
+title: EastAsianFont
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает информацию о восточноазиатском шрифте. Null означает, что шрифт не определен и должен быть унаследован от Мастера. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs

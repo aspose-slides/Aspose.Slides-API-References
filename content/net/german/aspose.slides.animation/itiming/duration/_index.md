@@ -1,5 +1,5 @@
 ---
-title: Dauer
+title: Duration
 second_title: Aspose.Slides für .NET API Referenz
 description: Beschreibt die Dauer des Animationseffekts. Lese-/Schreibzugriff auf Single.
 type: docs

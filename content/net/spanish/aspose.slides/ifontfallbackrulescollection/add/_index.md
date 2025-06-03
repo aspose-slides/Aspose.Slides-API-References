@@ -1,5 +1,5 @@
 ---
-title: Añadir
+title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agregar una nueva regla FallBack al final de la colección.
 type: docs

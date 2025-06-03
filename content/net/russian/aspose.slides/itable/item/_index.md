@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает ячейку по указанным индексам столбца и строки. Только для чтения ICellaspose.slides/icell.
 type: docs

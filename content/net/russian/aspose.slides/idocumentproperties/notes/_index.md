@@ -1,5 +1,5 @@
 ---
-title: Заметки
+title: Notes
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает количество слайдов в презентации, содержащих заметки. Только для чтения Int32.
 type: docs

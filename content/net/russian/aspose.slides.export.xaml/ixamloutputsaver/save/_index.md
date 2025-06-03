@@ -1,5 +1,5 @@
 ---
-title: Сохранить
+title: Save
 second_title: Aspose.Slides для .NET API Справочник
 description: Сохраняет массив байтов в указанное место.
 type: docs

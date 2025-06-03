@@ -1,5 +1,5 @@
 ---
-title: Нет
+title: None
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет собой пустой токен прерывания. Долгие операции никогда не будут прерваны через Interruptaspose.slides/interruptiontokensource/interrupt при использовании этого токена.
 type: docs

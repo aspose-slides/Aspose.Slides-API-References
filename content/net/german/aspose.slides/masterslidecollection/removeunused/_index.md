@@ -1,5 +1,5 @@
 ---
-title: Unbenutzte Entfernungen
+title: RemoveUnused
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt unbenutzte Master-Folien.
 type: docs

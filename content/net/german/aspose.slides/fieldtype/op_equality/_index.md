@@ -1,5 +1,5 @@
 ---
-title: op_Gleichheit
+title: op_Equality
 second_title: Aspose.Slides für .NET API Referenz
 description: Überprüft, ob zwei FieldType-Objekte gleich sind.
 type: docs

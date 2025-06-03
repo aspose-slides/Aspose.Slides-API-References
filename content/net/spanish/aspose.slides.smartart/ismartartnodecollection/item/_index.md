@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nodo por índice. Solo lectura ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs

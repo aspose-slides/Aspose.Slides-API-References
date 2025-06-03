@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'étiquette de données pour le point de données avec l'index spécifié.
 type: docs

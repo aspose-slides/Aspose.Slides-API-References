@@ -1,5 +1,5 @@
 ---
-title: Прямоугольник
+title: Rectangle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает координаты рамки. Только для чтения RectangleF.
 type: docs

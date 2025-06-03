@@ -1,5 +1,5 @@
 ---  
-title: AsIEnumerable  
+title: AsIEnumerable
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie l'interface IEnumerable. IEnumerable en lecture seule.
 type: docs  

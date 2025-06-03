@@ -1,5 +1,5 @@
 ---
-title: 编号项目符号样式
+title: NumberedBulletStyle
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示编号项目符号的样式。
 type: docs

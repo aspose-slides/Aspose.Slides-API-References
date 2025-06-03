@@ -1,5 +1,5 @@
 ---
-title: АльтернативныйИдентификаторЯзыка
+title: AlternativeLanguageId
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Возвращает или устанавливает идентификатор альтернативного языка. Читаемый/записываемый String.
 type: docs

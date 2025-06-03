@@ -1,5 +1,5 @@
 ---
-title: 从开始修剪
+title: TrimFromStart
 second_title: Aspose.Slidess for .NET API 参考
 description: 指定在播放过程中从媒体的开始部分移除的时间持续时间（以毫秒为单位）。可读/可写单精度浮点数。
 type: docs

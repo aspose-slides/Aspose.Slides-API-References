@@ -1,5 +1,5 @@
 ---
-title: Abstände
+title: Spacing
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Interzeichenabstandserhöhung zurück. Schreibgeschütztes Single.
 type: docs

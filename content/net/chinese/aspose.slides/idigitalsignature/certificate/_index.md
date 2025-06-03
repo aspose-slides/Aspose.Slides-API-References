@@ -1,5 +1,5 @@
 ---
-title: 证书
+title: Certificate
 second_title: Aspose.Slides for .NET API 参考
 description: 用于签署文档的证书对象。只读 X509Certificate2。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 趋势线名称
+title: TrendlineName
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取或设置趋势线的名称。可读写字符串。
 type: docs

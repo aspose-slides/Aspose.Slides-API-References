@@ -1,5 +1,5 @@
 ---
-title: 移除加密
+title: RemoveEncryption
 second_title: Aspose.Sildes for .NET API 参考
 description: 移除加密。
 type: docs

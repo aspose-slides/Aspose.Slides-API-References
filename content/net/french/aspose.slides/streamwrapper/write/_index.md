@@ -1,5 +1,5 @@
 ---
-title: Écrire
+title: Write
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: écrit une séquence d'octets dans le flux actuel et avance la position actuelle dans ce flux du nombre d'octets écrits.
 type: docs

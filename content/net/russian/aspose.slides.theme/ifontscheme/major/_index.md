@@ -1,5 +1,5 @@
 ---
-title: Основной
+title: Major
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию шрифтов для заголовка слайда. Только для чтения IFontsaspose.slides/ifonts.
 type: docs

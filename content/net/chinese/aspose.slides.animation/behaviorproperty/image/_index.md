@@ -1,5 +1,5 @@
 ---
-title: 图像
+title: Image
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图像属性
 type: docs

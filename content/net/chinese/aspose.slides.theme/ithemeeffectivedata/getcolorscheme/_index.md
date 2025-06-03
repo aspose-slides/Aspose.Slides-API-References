@@ -1,5 +1,5 @@
 ---
-title: 获取颜色方案
+title: GetColorScheme
 second_title: Aspose.Slides for .NET API 参考
 description: 返回颜色方案。
 type: docs

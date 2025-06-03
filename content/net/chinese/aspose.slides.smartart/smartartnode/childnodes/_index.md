@@ -1,5 +1,5 @@
 ---
-title: 子节点
+title: ChildNodes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回当前节点的所有子节点集合。 唯读 ISmartArtNodeCollection aspose.slides.smartart/ismartartnodecollection。
 type: docs

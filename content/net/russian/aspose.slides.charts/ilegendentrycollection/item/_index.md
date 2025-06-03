@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Aspose.Slides для .NET API Справка
 description: Получает свойства элемента легенды, соответствующего Chart.ChartData.Series0.DataPointsindex в случае типов графиков из этого списка ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Seriesindex для других типов графиков.
 type: docs

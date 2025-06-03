@@ -1,5 +1,5 @@
 ---
-title: 插入
+title: Insert
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的布局幻灯片插入到集合的指定位置。
 type: docs

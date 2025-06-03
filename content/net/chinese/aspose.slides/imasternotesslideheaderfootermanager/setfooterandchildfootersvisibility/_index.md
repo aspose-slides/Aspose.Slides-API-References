@@ -1,5 +1,5 @@
 ---
-title: 设置页脚和子页脚的可见性
+title: SetFooterAndChildFootersVisibility
 second_title: Aspose.Slides for .NET API 参考
 description: 更改主备注幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符意味着占位符包含在依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 type: docs

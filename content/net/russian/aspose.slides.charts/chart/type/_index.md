@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает или устанавливает тип диаграммы. Чтение/запись ChartTypeaspose.slides.charts/charttype.
 type: docs

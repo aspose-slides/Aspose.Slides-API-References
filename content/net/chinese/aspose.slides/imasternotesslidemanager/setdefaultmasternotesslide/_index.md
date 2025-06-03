@@ -1,5 +1,5 @@
 ---
-title: 设置默认主备注幻灯片
+title: SetDefaultMasterNotesSlide
 second_title: Aspose.Slides for .NET API 参考
 description: 为相关的备注幻灯片设置默认主备注幻灯片。
 type: docs

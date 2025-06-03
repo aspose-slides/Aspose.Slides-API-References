@@ -1,5 +1,5 @@
 ---
-title: Período
+title: Period
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica el período de la línea de tendencia para una línea de tendencia de media móvil. Se ignora para otras variantes de línea de tendencia. El valor debe estar entre 2 y 255. Lectura/escritura Byte.
 type: docs

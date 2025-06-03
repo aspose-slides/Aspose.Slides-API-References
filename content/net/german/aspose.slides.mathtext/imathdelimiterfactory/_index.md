@@ -1,5 +1,5 @@
 ---  
-title: IMathDelimiterFactory  
+title: IMathDelimiterFactory
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ermöglicht das Erstellen eines mathematischen Trennzeichens
 type: docs  

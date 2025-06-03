@@ -1,5 +1,5 @@
 ---
-title: Achse
+title: Axis
 second_title: Aspose.Slides für .NET API Referenz
 description: Kapselt das Objekt, das eine Achse eines Diagramms darstellt.
 type: docs

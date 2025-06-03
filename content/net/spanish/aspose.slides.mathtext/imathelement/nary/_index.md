@@ -1,5 +1,5 @@
 ---
-title: N-ario
+title: Nary
 second_title: Aspose.Sildes para .NET API Referencia
 description: Crea un operador N-ario
 type: docs

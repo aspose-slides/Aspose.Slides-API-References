@@ -1,5 +1,5 @@
 ---
-title: Локальный
+title: Local
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает локальное хранилище текущего контекста шаблона. Только для чтения Storageaspose.slides.export.web/storage.
 type: docs

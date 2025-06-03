@@ -1,5 +1,5 @@
 ---
-title: InsererDiapositiveVide
+title: InsertEmptySlide
 second_title: Référence API Aspose.Slides pour .NET
 description: Insère une copie d'une diapositive spécifiée à une position spécifiée de la collection.
 type: docs

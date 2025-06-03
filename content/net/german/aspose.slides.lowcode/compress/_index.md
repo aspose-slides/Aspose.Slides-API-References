@@ -1,5 +1,5 @@
 ---
-title: Komprimieren
+title: Compress
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Gruppe von Methoden dar, die zur Komprimierung von Presentation../aspose.slides/presentation bestimmt sind.
 type: docs

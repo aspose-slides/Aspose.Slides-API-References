@@ -1,5 +1,5 @@
 ---
-title: Stockage
+title: Storage
 second_title: Référence API Aspose.Slides pour .NET
 description: Le constructeur par défaut.
 type: docs

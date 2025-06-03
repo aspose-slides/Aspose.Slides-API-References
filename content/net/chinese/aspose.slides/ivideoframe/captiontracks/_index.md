@@ -1,5 +1,5 @@
 ---
-title: 字幕轨道
+title: CaptionTracks
 second_title: Aspose.Slides for .NET API 参考
 description: 返回视频的隐藏字幕集合。只读 ICaptionsCollection aspose.slides/icaptionscollection。
 type: docs

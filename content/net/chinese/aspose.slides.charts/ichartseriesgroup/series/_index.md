@@ -1,5 +1,5 @@
 ---
-title: 系列
+title: Series
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图表系列的只读集合。只读 IChartSeriesReadonlyCollectionaspose.slides/ichartseriesreadonlycollection。
 type: docs

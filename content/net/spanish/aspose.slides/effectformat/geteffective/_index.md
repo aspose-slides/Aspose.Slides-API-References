@@ -1,5 +1,5 @@
 ---  
-title: GetEffective  
+title: GetEffective
 second_title: Aspose.Sildes para referencia de API .NET  
 description: Obtiene datos de formato de efecto efectivo con la herencia aplicada.
 type: docs  

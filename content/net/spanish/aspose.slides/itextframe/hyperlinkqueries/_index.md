@@ -1,5 +1,5 @@
 ---
-title: ConsultasHipervínculo
+title: HyperlinkQueries
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Proporciona acceso fácil a los hipervínculos contenidos. Solo lectura IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs

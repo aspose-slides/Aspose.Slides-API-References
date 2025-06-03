@@ -1,5 +1,5 @@
 ---
-title: Presentación
+title: Presentation
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Este constructor crea una nueva presentación desde cero. La presentación creada tiene una diapositiva vacía.
 type: docs

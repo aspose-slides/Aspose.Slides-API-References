@@ -1,5 +1,5 @@
 ---
-title: 文本动画
+title: TextAnimation
 second_title: Aspose.Slides for .NET API 参考
 description: 表示文本动画。
 type: docs

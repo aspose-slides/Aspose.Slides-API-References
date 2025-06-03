@@ -1,5 +1,5 @@
 ---
-title: 查找形状
+title: FindShape
 second_title: Aspose.Slides for .NET API 参考
 description: 在 PPTX 演示文稿中通过替代文本查找形状。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ZusammenfassungZoomAbschnittSammlung
+title: SummaryZoomSectionCollection
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt eine Sammlung von Zusammenfassung Zoom Abschnitt Objekten dar.
 type: docs

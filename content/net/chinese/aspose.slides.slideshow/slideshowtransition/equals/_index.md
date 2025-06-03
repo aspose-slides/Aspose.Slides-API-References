@@ -1,5 +1,5 @@
 ---
-title: 相等
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定两个 SlideShowTransition 实例是否相等。可读/可写布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Texte
+title: Text
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture Chaîne.
 type: docs

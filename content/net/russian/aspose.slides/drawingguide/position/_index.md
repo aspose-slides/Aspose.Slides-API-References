@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или задает позицию направляющей для рисования в пунктах от верхнего левого угла слайда. Чтение/запись Single.
 type: docs

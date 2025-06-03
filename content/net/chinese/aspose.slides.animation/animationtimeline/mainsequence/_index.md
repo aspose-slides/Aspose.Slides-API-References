@@ -1,5 +1,5 @@
 ---
-title: 主序列
+title: MainSequence
 second_title: Aspose.Slides for .NET API 参考
 description: 返回可能仅包含主效果集合的主序列。只读 ISequence aspose.slides.animation/isequence。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Уровень
+title: Level
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает уровень вложенности узла. Только для чтения Int32.
 type: docs

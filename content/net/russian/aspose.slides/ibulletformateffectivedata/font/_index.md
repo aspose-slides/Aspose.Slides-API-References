@@ -1,5 +1,5 @@
 ---
-title: Шрифт
+title: Font
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает шрифт маркера абзаца. Только для чтения IFontDataaspose.slides/ifontdata.
 type: docs

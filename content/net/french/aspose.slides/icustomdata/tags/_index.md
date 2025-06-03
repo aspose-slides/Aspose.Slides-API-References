@@ -1,5 +1,5 @@
 ---
-title: Étiquettes
+title: Tags
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la collection de balises de données client. Lecture seule ITagCollectionaspose.slides/itagcollection.
 type: docs

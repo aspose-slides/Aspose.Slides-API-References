@@ -1,5 +1,5 @@
 ---
-title: OrganisationGraphiqueDisposition
+title: OrganizationChartLayout
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le type de disposition de graphique organisationnel associé au nœud actuel. Lecture/écriture OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 数字签名
+title: DigitalSignature
 second_title: Aspose.Slides for .NET API 参考
 description: 使用指定证书创建一个新的数字签名对象。
 type: docs

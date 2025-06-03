@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Devuelve el punto de parada de gradiente por índice.
 type: docs

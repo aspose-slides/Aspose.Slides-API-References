@@ -1,5 +1,5 @@
 ---
-title: АнимацияПереходов
+title: AnimateTransitions
 second_title: Справочный指南 Aspose.Sildes для .NET
 description: Возвращает или устанавливает опцию анимации переходов. Свойство для чтения/записи, булево.
 type: docs

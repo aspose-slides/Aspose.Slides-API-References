@@ -1,5 +1,5 @@
 ---
-title: Periode
+title: Period
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Periode der Trendlinie für eine gleitende Durchschnittstrendlinie an. Sie wird für andere Varianten von Trendlinien ignoriert. Der Wert muss zwischen 2 und 255 liegen. Schreib-/Lesebit.
 type: docs

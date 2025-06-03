@@ -1,5 +1,5 @@
 ---
-title: 设置外部超链接鼠标悬停
+title: SetExternalHyperlinkMouseOver
 second_title: Aspose.Sildes for .NET API 参考
 description: 设置外部超链接鼠标悬停。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: RemoveUnused  
+title: RemoveUnused
 second_title: Aspose.Sildes for .NET API Reference  
 description: 移除未使用的母版幻灯片。
 type: docs  

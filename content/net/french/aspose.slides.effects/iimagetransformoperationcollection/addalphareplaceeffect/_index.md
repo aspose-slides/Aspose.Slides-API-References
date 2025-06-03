@@ -1,5 +1,5 @@
 ---
-title: AjouterEffetRemplacementAlpha
+title: AddAlphaReplaceEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute le nouvel effet de remplacement alpha à la fin d'une collection.
 type: docs

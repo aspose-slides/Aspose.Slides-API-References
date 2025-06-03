@@ -1,5 +1,5 @@
 ---
-title: Направление
+title: Direction
 second_title: Справочный раздел Aspose.Slides для .NET
 description: Направление эффекта перехода. Чтение/запись TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs

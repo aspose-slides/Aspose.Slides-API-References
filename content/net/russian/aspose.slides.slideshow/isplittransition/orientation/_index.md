@@ -1,5 +1,5 @@
 ---
-title: Ориентация
+title: Orientation
 second_title: Справочник API Aspose.Sildes для .NET
 description: Ориентация перехода разбиения. Чтение/запись Orientationaspose.slides/orientation.
 type: docs

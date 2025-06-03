@@ -1,5 +1,5 @@
 ---
-title: 数据标签格式
+title: DataLabelFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回数据标签格式。只读 IDataLabelFormat aspose.slides.charts/idatalabelformat。
 type: docs

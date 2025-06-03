@@ -1,5 +1,5 @@
 ---
-title: 高亮颜色
+title: HighlightColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回用于高亮文本的颜色。只读颜色。
 type: docs

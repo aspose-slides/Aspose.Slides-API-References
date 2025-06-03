@@ -1,5 +1,5 @@
 ---
-title: Valeur
+title: Value
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la valeur du point de données du graphique. IDoubleChartValueaspose.slides.charts/idoublechartvalue en lecture seule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Erhält das Element am angegebenen Index. Nur-Lese SmartArtShapeaspose.slides.smartart/smartartshape.gt.
 type: docs

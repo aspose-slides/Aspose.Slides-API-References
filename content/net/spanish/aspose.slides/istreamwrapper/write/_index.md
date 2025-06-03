@@ -1,5 +1,5 @@
 ---
-title: Escribir
+title: Write
 second_title: Referencia de API de Aspose.Slides para .NET
 description: escribe una secuencia de bytes en la corriente actual y avanza la posición actual dentro de esta corriente por el número de bytes escritos.
 type: docs

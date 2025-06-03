@@ -1,5 +1,5 @@
 ---
-title: Estilo Rápido
+title: QuickStyle
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el estilo rápido del objeto SmartArt. Leer/escribir SmartArtQuickStyleType aspose.slides.smartart/smartartquickstyletype.
 type: docs

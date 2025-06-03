@@ -1,5 +1,5 @@
 ---
-title: 旋转阴影与形状
+title: RotateShadowWithShape
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定当形状旋转时，阴影是否随之旋转。可读写布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Gesamtbearbeitungszeit
+title: TotalEditingTime
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gesamtbearbeitungszeit einer Präsentation. Lese-/Schreibzeitspanne.
 type: docs

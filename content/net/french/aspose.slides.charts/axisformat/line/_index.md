@@ -1,5 +1,5 @@
 ---
-title: Ligne
+title: Line
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne les propriétés de style de ligne d'un axe. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs

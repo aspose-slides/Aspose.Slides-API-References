@@ -1,5 +1,5 @@
 ---
-title: OmbrePrédéfinie
+title: PresetShadow
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un effet d'ombre prédéfinie.
 type: docs

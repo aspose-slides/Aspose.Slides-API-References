@@ -1,5 +1,5 @@
 ---
-title: Von
+title: By
 second_title: Aspose.Slides für .NET API Referenz
 description: Beschreibt den relativen Offsetswert für die Animation. Lesen/Schreiben Einzelwert.
 type: docs

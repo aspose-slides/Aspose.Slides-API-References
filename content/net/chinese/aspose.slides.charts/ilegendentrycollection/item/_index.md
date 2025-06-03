@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 获取与 Chart.ChartData.Series0.DataPointsindex 对应的图例项属性，当图表类型属于以下列表：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; 或与 Chart.ChartData.Seriesindex 对应的其他图表类型。
 type: docs

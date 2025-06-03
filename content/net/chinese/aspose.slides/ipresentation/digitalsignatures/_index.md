@@ -1,5 +1,5 @@
 ---
-title: 数字签名
+title: DigitalSignatures
 second_title: Aspose.Slides for .NET API 参考
 description: 返回用于签署演示文稿的签名集合。只读 IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection。
 type: docs

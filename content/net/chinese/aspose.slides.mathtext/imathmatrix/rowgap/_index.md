@@ -1,5 +1,5 @@
 ---
-title: 行间距
+title: RowGap
 second_title: Aspose.Slides for .NET API 参考
 description: 矩阵行之间的垂直间距的值。如果 RowGapRule 设置为 3（"Exactly"），则单位解释为 twips（1/20 点）。如果 RowGapRule 设置为 4（"Multiple"），则单位解释为半行。默认值：0
 type: docs

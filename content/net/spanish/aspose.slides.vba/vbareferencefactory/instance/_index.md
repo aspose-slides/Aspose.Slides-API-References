@@ -1,5 +1,5 @@
 ---
-title: Instancia
+title: Instance
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Instancia estática de la fábrica de referencias del proyecto VBA. Solo lectura VbaReferenceFactoryaspose.slides.vba/vbareferencefactory.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Возвращает количество видеофайлов в коллекции. Только для чтения Int32.
 type: docs

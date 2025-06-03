@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeConversiónDeTextoAHtml
+title: TextToHtmlConversionOptions
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Opciones para extraer HTML del texto Pptx.
 type: docs

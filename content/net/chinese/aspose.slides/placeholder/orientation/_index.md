@@ -1,5 +1,5 @@
 ---
-title: 方向
+title: Orientation
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取或设置占位符的方向。只读 Orientationaspose.slides/orientation。
 type: docs

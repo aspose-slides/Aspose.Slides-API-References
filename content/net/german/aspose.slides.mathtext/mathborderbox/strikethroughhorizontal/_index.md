@@ -1,5 +1,5 @@
 ---
-title: Strichdurch Horizontal
+title: StrikethroughHorizontal
 second_title: Aspose.Slides für .NET API Referenz
 description: Strichdurch Horizontal standardmäßig ist falsch - bestimmt den versteckten oder angezeigten Zustand einer strichdurchgezogenen horizontalen Linie.
 type: docs

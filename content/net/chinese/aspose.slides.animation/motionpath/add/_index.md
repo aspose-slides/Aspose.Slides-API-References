@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 将新命令添加到路径
 type: docs

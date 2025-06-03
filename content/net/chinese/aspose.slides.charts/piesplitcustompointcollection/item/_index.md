@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Sildes for .NET API参考
 description: 返回指定索引的图表数据点。
 type: docs

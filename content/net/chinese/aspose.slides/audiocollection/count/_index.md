@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Slides for .NET API 参考
 description: 返回集合中的音频文件数量。只有读权限的 Int32。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет тип эффекта команды поведения. Чтение/запись CommandEffectTypeaspose.slides.animation/commandeffecttype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Mot de passe
+title: Password
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définir le mot de passe de l'utilisateur pour protéger le document PDF. Chaîne en lecture/écriture.
 type: docs

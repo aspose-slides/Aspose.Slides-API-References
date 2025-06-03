@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne un RemplissageFormat pour le remplissage de BackgroundType.OwnBackground. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs

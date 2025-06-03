@@ -1,5 +1,5 @@
 ---
-title: 等高线颜色
+title: ContourColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置等高线的颜色。只读 IColorFormataspose.slides/icolorformat。
 type: docs

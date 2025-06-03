@@ -1,5 +1,5 @@
 ---  
-title: CreateSetEffect  
+title: CreateSetEffect
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建集效果。
 type: docs  

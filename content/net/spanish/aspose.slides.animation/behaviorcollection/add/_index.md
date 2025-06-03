@@ -1,5 +1,5 @@
 ---
-title: Agregar
+title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agregar un nuevo comportamiento a una colección.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: PuntuaciónColgante
+title: HangingPunctuation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si se utiliza la puntuación colgante en un párrafo. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs

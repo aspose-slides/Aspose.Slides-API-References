@@ -1,5 +1,5 @@
 ---
-title: Rotación
+title: Rotation
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el número de grados en que la forma especificada se rota alrededor del eje z. Un valor positivo indica rotación en el sentido de las agujas del reloj, mientras que un valor negativo indica rotación en sentido antihorario. Lectura/escritura Single.
 type: docs

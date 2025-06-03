@@ -1,5 +1,5 @@
 ---
-title: 向后
+title: Backward
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定趋势线在被趋势系列的数据之前延伸的类别数量（或散点图上的单位）。在散点图和非散点图中，该值应为任何非负值。可读/可写 Double。
 type: docs

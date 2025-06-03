@@ -1,5 +1,5 @@
 ---
-title: 禁用行尾裁剪
+title: DisableLineEndCropping
 second_title: Aspose.Slides for .NET API 参考
 description: SVG 1.1 缺乏定义标记内边距的能力。Aspose.Slides SVG 写入引擎为该问题提供了一个解决方法：它裁剪带箭头的行尾，以便行与标记不重叠。此选项关闭此行为。可读/可写布尔值。
 type: docs

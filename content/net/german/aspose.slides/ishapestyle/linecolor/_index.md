@@ -1,5 +1,5 @@
 ---
-title: Linienfarbe
+title: LineColor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Konturfarbe einer Form zurück. Nur-Lese-Interface IColorFormataspose.slides/icolorformat.
 type: docs

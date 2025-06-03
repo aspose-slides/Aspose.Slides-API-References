@@ -1,5 +1,5 @@
 ---
-title: 行间距规则
+title: RowSpacingRule
 second_title: Aspose.Slides for .NET API 参考
 description: 数组元素之间的垂直间距类型
 type: docs

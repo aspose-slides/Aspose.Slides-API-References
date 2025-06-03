@@ -1,5 +1,5 @@
 ---
-title: Cellule
+title: Cell
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente une cellule d'un tableau.
 type: docs

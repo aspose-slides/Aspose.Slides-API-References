@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un tipo de esta serie. Lectura/escritura ChartTypeaspose.slides.charts/charttype.
 type: docs

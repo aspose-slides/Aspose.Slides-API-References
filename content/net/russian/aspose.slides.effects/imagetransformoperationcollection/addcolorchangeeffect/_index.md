@@ -1,5 +1,5 @@
 ---
-title: ДобавитьЭффектИзмененияЦвета
+title: AddColorChangeEffect
 second_title: Справочная информация по Aspose.Sildes для .NET
 description: Добавляет новый эффект изменения цвета в конец коллекции.
 type: docs

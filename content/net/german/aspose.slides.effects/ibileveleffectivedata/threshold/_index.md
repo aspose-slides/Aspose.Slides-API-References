@@ -1,5 +1,5 @@
 ---
-title: Schwellenwert
+title: Threshold
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Schwellenwert zurück. Nur-Lese Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Altura
+title: Height
 second_title: Aspose.Slides para .NET API Reference
 description: Especifica la altura del elemento del gráfico como una fracción de la altura del gráfico. Lectura/escritura Single.
 type: docs

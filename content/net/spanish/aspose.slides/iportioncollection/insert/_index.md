@@ -1,5 +1,5 @@
 ---
-title: Insertar
+title: Insert
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta una Porción en la colección en el índice especificado.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 分组级别
+title: GroupingLevels
 second_title: Aspose.Slides for .NET API 参考
 description: 图表类别分组级别值的托管容器。多级类别包含多个分组级别。分组级别的索引是基于零的。仅限读取 IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager。
 type: docs

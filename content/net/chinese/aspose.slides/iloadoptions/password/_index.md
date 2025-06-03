@@ -1,5 +1,5 @@
 ---
-title: 密码
+title: Password
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置密码。可读写字符串。
 type: docs

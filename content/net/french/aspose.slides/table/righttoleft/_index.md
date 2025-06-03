@@ -1,5 +1,5 @@
 ---
-title: DroiteÀGauche
+title: RightToLeft
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le tableau a un ordre de lecture de droite à gauche. Booléen en lecture-écriture.
 type: docs

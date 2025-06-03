@@ -1,5 +1,5 @@
 ---
-title: AjouterUnEspaceDeContenuVertical
+title: AddVerticalContentPlaceholder
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu tel qu'une image, un tableau, des médias ou du texte dans une direction verticale.
 type: docs

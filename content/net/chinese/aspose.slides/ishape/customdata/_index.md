@@ -1,5 +1,5 @@
 ---
-title: 自定义数据
+title: CustomData
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的自定义数据。只读 ICustomData aspose.slides/icustomdata。
 type: docs

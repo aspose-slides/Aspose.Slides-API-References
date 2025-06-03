@@ -1,5 +1,5 @@
 ---
-title: HauteurDePolice
+title: FontHeight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la hauteur de police d'une portion. float.NaN signifie que la hauteur est indéfinie et doit être héritée du Maître. Lecture/écriture Simple.
 type: docs

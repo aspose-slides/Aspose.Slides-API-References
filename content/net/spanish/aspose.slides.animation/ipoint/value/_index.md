@@ -1,5 +1,5 @@
 ---
-title: Valor
+title: Value
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el valor del punto. Solo bool, ColorFormat, float, int, string. Objeto de lectura/escritura.
 type: docs

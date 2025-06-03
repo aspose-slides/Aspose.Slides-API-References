@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie ou définit la largeur d'une légende en tant que fraction de la largeur du graphique. Lisible/écrivable Simple.
 type: docs

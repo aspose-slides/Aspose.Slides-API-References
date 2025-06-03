@@ -1,5 +1,5 @@
 ---
-title: DurchstreichungVonObenLinksNachUntenRechts
+title: StrikethroughTopLeftToBottomRight
 second_title: Aspose.Slides für .NET API-Referenz
 description: Durchstreichung von oben links nach unten rechts, Standard ist false. Gibt den verborgenen oder sichtbaren Zustand einer durchgestrichenen diagonalen Linie von der oberen linken Ecke zur unteren rechten Ecke des Rahmens an.
 type: docs

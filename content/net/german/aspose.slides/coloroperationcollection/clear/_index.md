@@ -1,5 +1,5 @@
 ---
-title: Leeren
+title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Farboperationen.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает высоту легенды как долю от высоты диаграммы. Читаемый/записываемый тип Single.
 type: docs

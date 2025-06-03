@@ -1,5 +1,5 @@
 ---
-title: 添加Alpha反转效果
+title: AddAlphaInverseEffect
 second_title: Aspose.Slides for .NET API参考
 description: 将新Alpha反转效果添加到集合的末尾。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Ocultar
+title: Hide
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece la bandera de ocultar la entrada de la leyenda. Booleano de lectura/escritura.
 type: docs

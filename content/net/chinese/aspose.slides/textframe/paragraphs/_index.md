@@ -1,5 +1,5 @@
 ---
-title: 段落
+title: Paragraphs
 second_title: Aspose.Slides for .NET API 参考
 description: 返回框架中所有段落的列表。只读 IParagraphCollectionaspose.slides/iparagraphcollection。
 type: docs

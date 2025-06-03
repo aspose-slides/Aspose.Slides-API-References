@@ -1,5 +1,5 @@
 ---
-title: DelimitadorForma
+title: DelimiterShape
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la forma de los delimitadores en el objeto delimitador. Cuando es MathDelimiterShape.Centered, los delimitadores están centrados alrededor del eje matemático del texto matemático y aún se pueden ajustar para que se ajusten a toda la altura de su contenido. Cuando es MathDelimiterShape.Match, su altura y forma se alteran para que coincidan exactamente con su contenido.
 type: docs

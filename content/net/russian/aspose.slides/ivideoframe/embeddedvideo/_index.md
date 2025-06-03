@@ -1,5 +1,5 @@
 ---
-title: ВстроенноеВидео
+title: EmbeddedVideo
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или задает объект встроенного видео. Чтение/запись IVideo aspose.slides/ivideo.
 type: docs

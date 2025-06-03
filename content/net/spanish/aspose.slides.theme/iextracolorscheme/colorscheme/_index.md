@@ -1,5 +1,5 @@
 ---
-title: EsquemaDeColor
+title: ColorScheme
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un esquema de color. Solo lectura IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs

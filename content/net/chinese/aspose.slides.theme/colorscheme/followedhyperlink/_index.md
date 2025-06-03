@@ -1,5 +1,5 @@
 ---
-title: 已访问超链接
+title: FollowedHyperlink
 second_title: Aspose.Slides for .NET API 参考
 description: 已访问超链接的颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

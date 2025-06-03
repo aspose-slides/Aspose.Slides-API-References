@@ -1,5 +1,5 @@
 ---
-title: 文本压缩
+title: TextCompression
 second_title: Aspose.Slides for .NET API 参考
 description: 指定用于文档中所有文本内容的压缩类型。读/写 PdfTextCompressionaspose.slides/pdftextcompression。
 type: docs

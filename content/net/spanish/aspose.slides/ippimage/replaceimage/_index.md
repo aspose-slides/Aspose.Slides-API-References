@@ -1,5 +1,5 @@
 ---
-title: ReemplazarImagen
+title: ReplaceImage
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Reemplaza los datos de imagen.
 type: docs

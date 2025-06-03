@@ -1,5 +1,5 @@
 ---
-title: Foliennummer
+title: SlideNumber
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Nummer der Folie zurück. Der Index der Folie in der Slidesaspose.slides/presentation/slides Sammlung ist immer gleich SlideNumber - Presentation.FirstSlideNumber. Lese-/Schreibzugriff Int32.
 type: docs

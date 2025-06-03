@@ -1,5 +1,5 @@
 ---
-title: 获取
+title: Get
 second_title: Aspose.Slides for .NET API 参考
 description: type docs
 weight: 30

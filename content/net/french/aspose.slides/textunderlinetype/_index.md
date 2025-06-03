@@ -1,5 +1,5 @@
 ---
-title: TypeDeSoulignementDeTexte
+title: TextUnderlineType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le type de soulignement de texte.
 type: docs

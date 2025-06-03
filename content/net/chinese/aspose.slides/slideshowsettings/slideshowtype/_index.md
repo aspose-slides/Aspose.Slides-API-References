@@ -1,5 +1,5 @@
 ---
-title: 幻灯片放映类型
+title: SlideShowType
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置幻灯片放映类型。由以下 SlideShowType 祖先表示：BrowsedAtKioskaspose.slides/browsedatkiosk、PresentedBySpeakeraspose.slides/presentedbyspeaker 和 BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs

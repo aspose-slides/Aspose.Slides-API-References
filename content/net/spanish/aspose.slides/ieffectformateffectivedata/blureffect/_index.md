@@ -1,5 +1,5 @@
 ---
-title: EfectoDesenfoque
+title: BlurEffect
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Efecto desenfoque. Solo lectura IBlurEffectiveDataaspose.slides.effects/iblureffectivedata.
 type: docs

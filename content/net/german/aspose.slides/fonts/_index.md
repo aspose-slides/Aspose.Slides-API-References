@@ -1,5 +1,5 @@
 ---
-title: Schriftarten
+title: Fonts
 second_title: Aspose.Sildes für .NET API Referenz
 description: Sammlung von Schriftarten.
 type: docs

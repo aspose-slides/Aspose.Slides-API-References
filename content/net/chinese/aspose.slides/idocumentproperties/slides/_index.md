@@ -1,5 +1,5 @@
 ---
-title: 幻灯片
+title: Slides
 second_title: Aspose.Slides for .NET API 参考
 description: 指定演示文档中的幻灯片总数。只读 Int32。
 type: docs

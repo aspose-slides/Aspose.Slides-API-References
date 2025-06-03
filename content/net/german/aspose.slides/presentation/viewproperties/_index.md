@@ -1,5 +1,5 @@
 ---  
-title: ViewProperties  
+title: ViewProperties
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erhält präsentationsweite Ansichts Eigenschaften. Nur-lesende IViewPropertiesaspose.slides/iviewproperties.
 type: docs  

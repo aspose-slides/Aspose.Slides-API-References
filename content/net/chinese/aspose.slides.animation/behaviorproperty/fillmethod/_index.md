@@ -1,5 +1,5 @@
 ---
-title: 填充方法
+title: FillMethod
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 fill.method 属性
 type: docs

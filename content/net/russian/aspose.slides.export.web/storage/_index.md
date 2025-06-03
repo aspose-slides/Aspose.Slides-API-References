@@ -1,5 +1,5 @@
 ---
-title: Хранение
+title: Storage
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Представляет временное хранилище данных для WebDocument./webdocument.
 type: docs

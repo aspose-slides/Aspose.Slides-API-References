@@ -1,5 +1,5 @@
 ---
-title: 等高线宽度
+title: ContourWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 返回 3D 等高线的宽度。只读 Double。
 type: docs

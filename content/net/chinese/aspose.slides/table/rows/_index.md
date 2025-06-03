@@ -1,5 +1,5 @@
 ---
-title: 行
+title: Rows
 second_title: Aspose.Slides for .NET API 参考
 description: 返回行的集合。只读 IRowCollectionaspose.slides/irowcollection。
 type: docs

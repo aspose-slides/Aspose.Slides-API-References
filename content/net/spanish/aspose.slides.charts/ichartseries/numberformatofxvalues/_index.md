@@ -1,5 +1,5 @@
 ---
-title: FormatoDeNúmeroDeValoresX
+title: NumberFormatOfXValues
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el formato de número para los valores x de la serie. Lectura/escritura String.
 type: docs

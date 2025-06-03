@@ -1,5 +1,5 @@
 ---
-title: 定时
+title: Timing
 second_title: Aspose.Slides for .NET API 参考
 description: 定义效果的定时值。读/写 ITiming。
 type: docs

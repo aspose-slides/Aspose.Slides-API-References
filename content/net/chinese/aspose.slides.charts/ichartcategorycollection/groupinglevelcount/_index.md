@@ -1,5 +1,5 @@
 ---
-title: 分组级别计数
+title: GroupingLevelCount
 second_title: Aspose.Slides for .NET API 参考
 description: 返回使用的类别分组级别的数量。对于多级类别来说，数量大于一。只读 Int32。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina la primera ocurrencia de una fuente de FallBack específica de la lista.
 type: docs

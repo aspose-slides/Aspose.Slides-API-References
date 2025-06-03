@@ -1,5 +1,5 @@
 ---
-title: 获取单元格
+title: GetCell
 second_title: Aspose.Slides for .NET API 参考
 description: 获取可以用于图表系列或类别的单元格
 type: docs

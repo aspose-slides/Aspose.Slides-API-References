@@ -1,5 +1,5 @@
 ---
-title: Clonar
+title: Clone
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Clones
 type: docs

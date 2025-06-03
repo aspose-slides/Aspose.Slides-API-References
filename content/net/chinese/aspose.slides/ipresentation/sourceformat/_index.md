@@ -1,5 +1,5 @@
 ---
-title: 源格式
+title: SourceFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿加载自哪个格式的信息。只读 SourceFormat aspose.slides/ipresentation/sourceformat。
 type: docs

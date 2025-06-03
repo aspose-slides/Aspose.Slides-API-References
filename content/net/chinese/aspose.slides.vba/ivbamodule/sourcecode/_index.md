@@ -1,5 +1,5 @@
 ---
-title: 源代码
+title: SourceCode
 second_title: Aspose.Sildes for .NET API 参考
 description: 模块的源代码。读/写字符串。
 type: docs

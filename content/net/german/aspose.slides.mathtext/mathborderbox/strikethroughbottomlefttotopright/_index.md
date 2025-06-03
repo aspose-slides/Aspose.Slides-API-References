@@ -1,5 +1,5 @@
 ---
-title: DurchgestrichenUntenLinksNachObenRechts
+title: StrikethroughBottomLeftToTopRight
 second_title: Aspose.Slides für .NET API-Referenz
 description: Durchgestrichen Unten-Links nach Oben-Rechts, Standard ist falsch. Gibt den verborgenen oder angezeigten Zustand einer durchgestrichenen diagonalen Linie von der unteren linken Ecke zur oberen rechten Ecke des Randfeldes an.
 type: docs

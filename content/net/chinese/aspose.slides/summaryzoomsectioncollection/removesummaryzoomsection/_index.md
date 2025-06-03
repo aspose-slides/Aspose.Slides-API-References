@@ -1,5 +1,5 @@
 ---
-title: 移除摘要缩放节
+title: RemoveSummaryZoomSection
 second_title: Aspose.Slides for .NET API 参考
 description: 从集合中移除摘要缩放节对象。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 开始字符
+title: BeginningCharacter
 second_title: Aspose.Slides for .NET API 参考
 description: 分隔符开始字符指定开始或开放的分隔符字符。数学分隔符是包围字符，例如括号、方括号和大括号。默认值：''。
 type: docs

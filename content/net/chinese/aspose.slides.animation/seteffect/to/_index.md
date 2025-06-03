@@ -1,5 +1,5 @@
 ---
-title: 到
+title: To
 second_title: Aspose.Slides for .NET API 参考
 description: 指定动画效果后的某个效果属性。表示点值。仅支持 bool, ColorFormat, float, int, string。可读/可写对象。
 type: docs

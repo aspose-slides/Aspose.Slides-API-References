@@ -1,5 +1,5 @@
 ---  
-title: NotesStyle  
+title: NotesStyle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Stil eines Notiztexts zurück. Nur lesbar ITextStyleaspose.slides/itextstyle.
 type: docs  

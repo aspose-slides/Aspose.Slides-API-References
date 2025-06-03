@@ -1,5 +1,5 @@
 ---
-title: 添加备用字体
+title: AddFallBackFonts
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的字体添加到备用字体列表中。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 文本提取排列模式
+title: TextExtractionArrangingMode
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示在文本提取过程中使用的模式
 type: docs

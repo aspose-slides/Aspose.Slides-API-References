@@ -1,5 +1,5 @@
 ---
-title: Abschnitte
+title: Sections
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Nur lesender Zugriff auf ISectionCollectionaspose.slides/isectioncollection.
 type: docs

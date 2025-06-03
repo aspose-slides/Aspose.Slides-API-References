@@ -1,5 +1,5 @@
 ---
-title: ЛатинскийШрифт
+title: LatinFont
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает информацию о латинском шрифте. Null означает, что шрифт не определён и должен быть унаследован от мастера. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs

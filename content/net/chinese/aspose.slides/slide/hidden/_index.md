@@ -1,5 +1,5 @@
 ---
-title: 隐藏
+title: Hidden
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定幻灯片在幻灯片放映期间是否被隐藏。 可读/可写布尔值。
 type: docs

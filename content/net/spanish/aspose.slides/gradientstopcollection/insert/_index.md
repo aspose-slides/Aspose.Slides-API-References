@@ -1,5 +1,5 @@
 ---
-title: Insertar
+title: Insert
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Crea el nuevo punto de degradado e inserta en el índice especificado de la colección.
 type: docs

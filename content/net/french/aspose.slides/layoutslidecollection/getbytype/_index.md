@@ -1,5 +1,5 @@
 ---  
-title: GetByType  
+title: GetByType
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Renvoie la première diapositive de mise en page du type spécifié. Un type de diapositive de mise en page à trouver. LayoutSlide aspose.slides/layoutslide avec le type spécifié ou null si aucune mise en page trouvée.
 type: docs  

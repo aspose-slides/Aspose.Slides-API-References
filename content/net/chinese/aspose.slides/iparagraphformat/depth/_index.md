@@ -1,5 +1,5 @@
 ---
-title: 深度
+title: Depth
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置段落的深度。值 0 表示未定义值。可读/可写 Int16。
 type: docs

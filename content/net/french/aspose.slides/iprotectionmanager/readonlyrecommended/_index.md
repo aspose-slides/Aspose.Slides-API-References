@@ -1,5 +1,5 @@
 ---
-title: LireSeulementRecommandé
+title: ReadOnlyRecommended
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit la recommandation en lecture seule. Booléen en lecture/écriture.
 type: docs

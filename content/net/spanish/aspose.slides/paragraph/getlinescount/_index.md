@@ -1,5 +1,5 @@
 ---
-title: ContarLineas
+title: GetLinesCount
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtener el número de líneas en un párrafo.
 type: docs

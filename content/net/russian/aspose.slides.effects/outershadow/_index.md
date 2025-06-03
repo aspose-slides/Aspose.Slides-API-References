@@ -1,5 +1,5 @@
 ---
-title: Внешняя Тень
+title: OuterShadow
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет эффект Внешней Тени.
 type: docs

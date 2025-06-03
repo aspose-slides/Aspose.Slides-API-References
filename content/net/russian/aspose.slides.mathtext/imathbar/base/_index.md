@@ -1,5 +1,5 @@
 ---
-title: Базовый
+title: Base
 second_title: Справочник API Aspose.Slides для .NET
 description: Базовый аргумент
 type: docs

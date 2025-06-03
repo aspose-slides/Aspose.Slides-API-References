@@ -1,5 +1,5 @@
 ---
-title: СтильЛинии
+title: LineStyle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет стиль линии.
 type: docs

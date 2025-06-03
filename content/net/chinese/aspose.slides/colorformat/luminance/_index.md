@@ -1,5 +1,5 @@
 ---
-title: 亮度
+title: Luminance
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置 HSL 表示中颜色的亮度组件。所有颜色转换都被忽略。可读/可写 Single。
 type: docs

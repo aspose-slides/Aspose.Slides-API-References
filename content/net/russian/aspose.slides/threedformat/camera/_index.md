@@ -1,5 +1,5 @@
 ---
-title: Камера
+title: Camera
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает настройки камеры. Только для чтения ICameraaspose.slides/icamera.
 type: docs

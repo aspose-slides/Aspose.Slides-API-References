@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает позицию 0..1 градиентной остановки. Только для чтения Single.
 type: docs

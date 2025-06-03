@@ -1,5 +1,5 @@
 ---
-title: Enregistrer
+title: Save
 second_title: Référence API d'Aspose.Slides pour .NET
 description: Enregistre la sortie du document.
 type: docs

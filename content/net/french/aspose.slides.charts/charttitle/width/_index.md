@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la largeur d'un titre comme une fraction de la largeur du graphique. Lecture/écriture Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Slides for .NET API 参考
 description: 从演示文稿中移除自定义 XML 部分。
 type: docs

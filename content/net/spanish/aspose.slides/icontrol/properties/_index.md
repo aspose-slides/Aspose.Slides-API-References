@@ -1,5 +1,5 @@
 ---
-title: Propiedades
+title: Properties
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve una colección de propiedades ActiveX. Solo lectura IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
 type: docs

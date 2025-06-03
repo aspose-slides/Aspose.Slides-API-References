@@ -1,5 +1,5 @@
 ---
-title: Tinta
+title: Ink
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un objeto de tinta en una diapositiva.
 type: docs

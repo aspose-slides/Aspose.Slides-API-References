@@ -1,5 +1,5 @@
 ---  
-title: IEffectStyleCollection  
+title: IEffectStyleCollection
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет собой коллекцию стилей эффектов.
 type: docs  

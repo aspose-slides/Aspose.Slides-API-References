@@ -1,5 +1,5 @@
 ---
-title: 列数
+title: ColumnCount
 second_title: Aspose.Slides for .NET API 参考
 description: 矩阵中的列数
 type: docs

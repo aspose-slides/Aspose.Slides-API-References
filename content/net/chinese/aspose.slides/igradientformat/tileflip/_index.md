@@ -1,5 +1,5 @@
 ---
-title: 瓦片翻转
+title: TileFlip
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置渐变的翻转模式。可读/写 TileFlipaspose.slides/tileflip。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HyperlinkSeguido
+title: FollowedHyperlink
 second_title: Referencia API de Aspose.Slides para .NET
 description: Color para los hipervínculos visitados. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs

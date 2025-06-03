@@ -1,5 +1,5 @@
 ---
-title: PropriétésDocument
+title: DocumentProperties
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un objet PropriétésDocument qui contient des propriétés de document standard et personnalisées. Lecture seule IDocumentPropertiesaspose.slides/idocumentproperties.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 反射效果
+title: ReflectionEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 反射。读/写 IReflectionaspose.slides/../aspose.slides.effects/ireflection。
 type: docs

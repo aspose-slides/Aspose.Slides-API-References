@@ -1,5 +1,5 @@
 ---
-title: 到
+title: To
 second_title: Aspose.Slides for .NET API 参考
 description: 指定动画运动效果的目标位置（以百分比表示）。读/写 PointF。
 type: docs

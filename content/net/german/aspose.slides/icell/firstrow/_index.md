@@ -1,5 +1,5 @@
 ---
-title: ErsteZeile
+title: FirstRow
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die erste Zeile der Zelle zurück. Nur-lesender IRow aspose.slides/irow.
 type: docs

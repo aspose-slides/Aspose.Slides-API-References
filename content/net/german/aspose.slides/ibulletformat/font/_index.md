@@ -1,5 +1,5 @@
 ---
-title: Schriftart
+title: Font
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Schriftart der Aufzählung eines Absatzes ohne Vererbung zurück oder legt sie fest. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs

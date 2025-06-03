@@ -1,5 +1,5 @@
 ---
-title: NombreFormatDesTaillesDeBulles
+title: NumberFormatOfBubbleSizes
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: NombreFormatDesTaillesDeBulles. Lecture/écriture String.
 type: docs

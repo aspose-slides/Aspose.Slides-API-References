@@ -1,5 +1,5 @@
 ---
-title: Строка
+title: Row
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает индекс строки рабочей таблицы, в которой находится ячейка. Только для чтения Int32.
 type: docs

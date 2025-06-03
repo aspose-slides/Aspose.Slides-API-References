@@ -1,5 +1,5 @@
 ---
-title: Экземпляр
+title: Instance
 second_title: Справочник по API Aspose.Slides для .NET
 description: Статический экземпляр фабрики ссылок на проект VBA. Только для чтения VbaReferenceFactoryaspose.slides.vba/vbareferencefactory.
 type: docs

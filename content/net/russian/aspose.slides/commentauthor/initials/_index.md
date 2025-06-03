@@ -1,5 +1,5 @@
 ---
-title: Инициалы
+title: Initials
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает или устанавливает инициалы авторов. Чтение/запись строка.
 type: docs

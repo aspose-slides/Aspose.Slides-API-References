@@ -1,5 +1,5 @@
 ---
-title: Lesen
+title: Read
 second_title: Aspose.Slides für .NET API-Referenz
 description: Liest eine Byte-Sequenz aus dem aktuellen Stream und verschiebt die Position innerhalb des Streams um die Anzahl der gelesenen Bytes.
 type: docs

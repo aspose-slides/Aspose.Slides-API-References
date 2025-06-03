@@ -1,5 +1,5 @@
 ---
-title: TitelDerTeile
+title: TitlesOfParts
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Titel jedes Dokumentteils an. Diese Teile sind keine Dokumentteile, sondern konzeptionelle Darstellungen von Dokumentabschnitten. Nur-Lese-Zeichenfolge.
 type: docs

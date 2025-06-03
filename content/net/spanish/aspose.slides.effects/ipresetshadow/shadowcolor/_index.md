@@ -1,5 +1,5 @@
 ---
-title: ColorSombra
+title: ShadowColor
 second_title: Referencia API de Aspose.Slides para .NET
 description: Color de la sombra. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie le nombre de parties XML personnalisées dans la collection. Int32 en lecture seule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Fila
+title: Row
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una fila en una tabla.
 type: docs

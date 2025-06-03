@@ -1,5 +1,5 @@
 ---
-title: 对齐形状
+title: AlignShapes
 second_title: Aspose.Sildes for .NET API 参考
 description: 更改幻灯片上所有形状的放置位置。将形状对齐到边距或幻灯片的边缘或相互之间对齐。
 type: docs

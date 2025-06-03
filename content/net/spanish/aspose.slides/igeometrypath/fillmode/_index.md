@@ -1,5 +1,5 @@
 ---
-title: Modo de Relleno
+title: FillMode
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establece el modo de relleno
 type: docs

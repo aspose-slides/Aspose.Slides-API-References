@@ -1,5 +1,5 @@
 ---
-title: 黑白模式
+title: BlackWhiteMode
 second_title: Aspose.Slides for .NET API 参考
 description: 确定彩色形状应如何转换为黑白。
 type: docs

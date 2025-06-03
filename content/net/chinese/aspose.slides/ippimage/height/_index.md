@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图像的高度。只读 Int32。
 type: docs

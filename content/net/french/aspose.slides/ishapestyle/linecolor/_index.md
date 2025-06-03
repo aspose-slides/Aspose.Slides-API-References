@@ -1,5 +1,5 @@
 ---
-title: CouleurDeLigne
+title: LineColor
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la couleur de contour d'une forme. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

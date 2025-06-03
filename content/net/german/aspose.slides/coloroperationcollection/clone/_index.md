@@ -1,5 +1,5 @@
 ---
-title: Klonen
+title: Clone
 second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine Kopie einer ColorOperationCollection-Sammlung.
 type: docs

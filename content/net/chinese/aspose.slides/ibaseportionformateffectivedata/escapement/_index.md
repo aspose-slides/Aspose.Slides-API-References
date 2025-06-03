@@ -1,5 +1,5 @@
 ---
-title: 字距
+title: Escapement
 second_title: Aspose.Slides for .NET API 参考
 description: 返回上标或下标文本。值范围从 -100 下标 到 100 上标。只读单精度浮点数。
 type: docs

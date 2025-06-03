@@ -1,5 +1,5 @@
 ---
-title: 序列
+title: Sequence
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个效果的序列。只读 ISequence aspose.slides.animation/isequence。
 type: docs

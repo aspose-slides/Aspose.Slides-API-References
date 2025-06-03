@@ -1,5 +1,5 @@
 ---
-title: 持久性
+title: Persistence
 second_title: Aspose.Slides for .NET API 参考
 description: 获取用于存储 ActiveX 控件属性的方法。只读 PersistenceTypeaspose.slides/persistencetype。
 type: docs

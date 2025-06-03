@@ -1,5 +1,5 @@
 ---
-title: Porción
+title: Portion
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Iterar cada Porción aspose.slides.lowcode/foreach/portion en la Presentación aspose.slides/presentation. Las porciones se iterarán en todos los tipos de diapositivas - Diapositiva aspose.slides.lowcode/foreach/slide DiapositivaMaestra aspose.slides.lowcode/foreach/masterslide y DiapositivaDeDiseño aspose.slides.lowcode/foreach/layoutslide
 type: docs

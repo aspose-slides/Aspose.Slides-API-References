@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Datenpunkt eines Diagramms anhand des Index zurück.
 type: docs

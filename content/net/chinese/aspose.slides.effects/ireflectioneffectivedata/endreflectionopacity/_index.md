@@ -1,5 +1,5 @@
 ---
-title: 结束反射不透明度
+title: EndReflectionOpacity
 second_title: Aspose.Sildes for .NET API 参考
 description: 结束反射不透明度。百分比。只读单精度浮点数。
 type: docs

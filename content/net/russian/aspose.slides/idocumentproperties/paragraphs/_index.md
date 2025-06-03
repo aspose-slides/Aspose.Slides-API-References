@@ -1,5 +1,5 @@
 ---
-title: Параграфы
+title: Paragraphs
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает общее количество параграфов, найденных в документе, если это применимо. Только для чтения Int32.
 type: docs

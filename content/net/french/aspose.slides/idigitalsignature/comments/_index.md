@@ -1,5 +1,5 @@
 ---
-title: Commentaires
+title: Comments
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Le but de la signature. Lecture/écriture de String.
 type: docs

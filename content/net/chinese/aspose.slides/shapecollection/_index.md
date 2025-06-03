@@ -1,5 +1,5 @@
 ---
-title: 形状集合
+title: ShapeCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个形状的集合。
 type: docs

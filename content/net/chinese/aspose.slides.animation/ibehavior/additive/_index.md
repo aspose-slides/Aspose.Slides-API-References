@@ -1,5 +1,5 @@
 ---
-title: 加法
+title: Additive
 second_title: Aspose.Slides for .NET API 参考
 description: 表示当前动画行为是否与其他正在运行的动画结合在一起。读/写 BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype。
 type: docs

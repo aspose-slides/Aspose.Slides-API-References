@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Nom de la fonction Par exemple, les noms de fonction sont sin et cos
 type: docs

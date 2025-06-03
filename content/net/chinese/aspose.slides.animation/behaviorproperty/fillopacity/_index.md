@@ -1,5 +1,5 @@
 ---
-title: 填充不透明度
+title: FillOpacity
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 fill.opacity 属性
 type: docs

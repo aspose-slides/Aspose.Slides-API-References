@@ -1,5 +1,5 @@
 ---
-title: DigitaleUnterschrift
+title: DigitalSignature
 second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt ein neues DigitalSignature-Objekt mit dem angegebenen Zertifikat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 上标
+title: Superscript
 second_title: Aspose.Slides for .NET API 参考
 description: 指定上标参数，例如在积分的情况下，设置上限
 type: docs

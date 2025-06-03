@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient le nombre de cellules dans la collection. Int32 en lecture seule.
 type: docs

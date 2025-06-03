@@ -1,5 +1,5 @@
 ---
-title: 错误条类型
+title: ErrorBarType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示错误条的类型
 type: docs

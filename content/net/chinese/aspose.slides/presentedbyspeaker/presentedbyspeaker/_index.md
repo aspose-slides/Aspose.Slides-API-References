@@ -1,5 +1,5 @@
 ---  
-title: PresentedBySpeaker  
+title: PresentedBySpeaker
 second_title: Aspose.Sildes for .NET API 参考  
 description: 初始化 PresentedBySpeaker 类的新实例。
 type: docs  

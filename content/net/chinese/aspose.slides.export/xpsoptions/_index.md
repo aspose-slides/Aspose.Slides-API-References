@@ -1,5 +1,5 @@
 ---  
-title: XpsOptions  
+title: XpsOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 提供控制演示文稿如何保存为XPS格式的选项。
 type: docs  

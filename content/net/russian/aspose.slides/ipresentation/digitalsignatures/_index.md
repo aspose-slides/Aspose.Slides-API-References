@@ -1,5 +1,5 @@
 ---
-title: ЦифровыеПодписи
+title: DigitalSignatures
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает коллекцию подписей, используемых для подписи презентации. Только для чтения IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs

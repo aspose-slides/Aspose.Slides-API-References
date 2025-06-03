@@ -1,5 +1,5 @@
 ---
-title: 间距
+title: Spacing
 second_title: Aspose.Slides for .NET API 参考
 description: 返回字符间距增量。只读单精度浮点数。
 type: docs

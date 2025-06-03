@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Высота скошенного края. Читаемая/записываемая Double.
 type: docs

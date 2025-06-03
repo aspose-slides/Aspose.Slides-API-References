@@ -1,5 +1,5 @@
 ---
-title: Untertitel
+title: Captions
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die WebVTT-Untertitel dar.
 type: docs

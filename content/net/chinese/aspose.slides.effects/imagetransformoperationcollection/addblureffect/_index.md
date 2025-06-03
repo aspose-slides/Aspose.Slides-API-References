@@ -1,5 +1,5 @@
 ---
-title: 添加模糊效果
+title: AddBlurEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的模糊效果添加到集合的末尾。
 type: docs

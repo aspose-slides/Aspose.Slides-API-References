@@ -1,5 +1,5 @@
 ---
-title: 从开始修剪
+title: TrimFromStart
 second_title: Aspose.Sildes for .NET API 参考
 description: 修剪开始 ms
 type: docs

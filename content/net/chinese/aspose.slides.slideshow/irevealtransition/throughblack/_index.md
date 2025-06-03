@@ -1,5 +1,5 @@
 ---
-title: 通过黑色
+title: ThroughBlack
 second_title: Aspose.Slides for .NET API 参考
 description: 指定过渡是否淡入黑色。可读写布尔值。
 type: docs

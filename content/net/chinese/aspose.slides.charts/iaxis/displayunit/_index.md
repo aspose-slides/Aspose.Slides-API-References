@@ -1,5 +1,5 @@
 ---
-title: 显示单位
+title: DisplayUnit
 second_title: Aspose.Slides for .NET API 参考
 description: 指定值轴的显示单位的缩放值。可读写 DisplayUnitTypeaspose.slides/displayunittype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un valor que indica si esta instancia es igual a un objeto especificado.
 type: docs

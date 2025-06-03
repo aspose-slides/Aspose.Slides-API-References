@@ -1,5 +1,5 @@
 ---
-title: Löschen
+title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Autoren aus einer Sammlung.
 type: docs

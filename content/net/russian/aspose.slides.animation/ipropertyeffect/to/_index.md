@@ -1,5 +1,5 @@
 ---
-title: К
+title: To
 second_title: Справка по API Aspose.Sildes для .NET
 description: Указывает конечное значение для анимации. Читаемая/записываемая строка.
 type: docs

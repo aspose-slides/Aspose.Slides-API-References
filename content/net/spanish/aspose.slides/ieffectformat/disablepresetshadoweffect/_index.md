@@ -1,5 +1,5 @@
 ---
-title: DesactivarEfectoSombraPreestablecido
+title: DisablePresetShadowEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Desactiva el efecto sombra preestablecido.
 type: docs

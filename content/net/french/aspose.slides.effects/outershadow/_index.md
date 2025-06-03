@@ -1,5 +1,5 @@
 ---
-title: OmbreExtérieure
+title: OuterShadow
 second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente un effet d'Ombre Extérieure.
 type: docs

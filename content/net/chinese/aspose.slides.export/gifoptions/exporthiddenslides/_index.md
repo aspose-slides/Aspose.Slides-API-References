@@ -1,5 +1,5 @@
 ---  
-title: ExportHiddenSlides  
+title: ExportHiddenSlides
 second_title: Aspose.Sildes for .NET API Reference  
 description: 确定是否导出隐藏幻灯片。默认值为 false。
 type: docs  

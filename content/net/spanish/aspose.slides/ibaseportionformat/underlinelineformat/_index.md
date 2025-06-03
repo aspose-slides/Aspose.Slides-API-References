@@ -1,5 +1,5 @@
 ---
-title: FormatoDeLineaSubrayada
+title: UnderlineLineFormat
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve las propiedades de LineFormat utilizadas para delinear la línea subrayada. No se aplica herencia. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs

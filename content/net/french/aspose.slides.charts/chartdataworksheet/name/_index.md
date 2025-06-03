@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie le nom de la feuille de calcul. Chaîne en lecture seule.
 type: docs

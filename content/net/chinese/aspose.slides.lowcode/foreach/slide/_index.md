@@ -1,5 +1,5 @@
 ---
-title: 幻灯片
+title: Slide
 second_title: Aspose.Slides for .NET API 参考
 description: 迭代演示文稿中的每个 Slide aspose.slides.lowcode/foreach/slide 在演示文稿 aspose.slides/presentation 中。
 type: docs

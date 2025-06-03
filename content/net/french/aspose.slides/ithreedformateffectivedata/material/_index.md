@@ -1,5 +1,5 @@
 ---
-title: Matériel
+title: Material
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le type d'un matériau. Lecture seule MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs

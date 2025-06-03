@@ -1,5 +1,5 @@
 ---
-title: Interception
+title: Intercept
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la valeur à laquelle la ligne de tendance croise l'axe des y. Cette propriété ne sera prise en charge que lorsque le type de ligne de tendance est exp, linéaire ou poly. Lecture/écriture Double.
 type: docs

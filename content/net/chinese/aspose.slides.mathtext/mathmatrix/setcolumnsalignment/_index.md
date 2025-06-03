@@ -1,5 +1,5 @@
 ---
-title: 设置列的对齐方式
+title: SetColumnsAlignment
 second_title: Aspose.Slides for .NET API 参考
 description: 设置指定列的水平对齐方式
 type: docs

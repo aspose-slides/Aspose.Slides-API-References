@@ -1,5 +1,5 @@
 ---
-title: Подстрочный индекс
+title: Subscript
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает аргумент подстрочного индекса, который, например, в случае интеграла устанавливает нижний предел
 type: docs

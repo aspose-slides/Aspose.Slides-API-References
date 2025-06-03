@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает операцию по указанному индексу. Чтение/запись ColorOperationaspose.slides/coloroperation.
 type: docs

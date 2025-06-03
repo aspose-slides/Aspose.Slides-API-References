@@ -1,5 +1,5 @@
 ---
-title: Soulignement
+title: Underbar
 second_title: Référence API Aspose.Slides pour .NET
 description: Définit une barre en bas de cet élément
 type: docs

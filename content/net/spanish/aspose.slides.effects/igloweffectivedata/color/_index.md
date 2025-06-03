@@ -1,5 +1,5 @@
 ---  
-title: Color  
+title: Color
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Color. Color de solo lectura.
 type: docs  

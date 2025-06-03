@@ -1,5 +1,5 @@
 ---
-title: Couleur
+title: Color
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le format couleur d'une puce d'un paragraphe sans héritage. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 快速样式
+title: QuickStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 SmartArt 对象的快速样式。可读/可写 SmartArtQuickStyleTypeaspose.slides.smartart/smartartquickstyletype。
 type: docs

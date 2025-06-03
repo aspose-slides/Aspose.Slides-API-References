@@ -1,5 +1,5 @@
 ---
-title: Área de Gráfico
+title: PlotArea
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el área de trazado de un gráfico. Solo lectura IChartPlotAreaaspose.slides.charts/ichartplotarea.
 type: docs

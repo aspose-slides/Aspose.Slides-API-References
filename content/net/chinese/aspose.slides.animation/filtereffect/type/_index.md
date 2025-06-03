@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 表示滤镜效果的类型。读/写 FilterEffectTypeaspose.slides.animation/filtereffecttype。
 type: docs

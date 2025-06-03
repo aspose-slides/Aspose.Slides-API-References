@@ -1,5 +1,5 @@
 ---
-title: Luminosité
+title: Brightness
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Luminosité. Lecture seule Simple.
 type: docs

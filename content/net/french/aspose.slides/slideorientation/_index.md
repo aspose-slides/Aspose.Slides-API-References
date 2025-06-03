@@ -1,5 +1,5 @@
 ---
-title: OrientationDeDiapositive
+title: SlideOrientation
 second_title: Références API Aspose.Slides pour .NET
 description: Représente l'orientation de la diapositive.
 type: docs

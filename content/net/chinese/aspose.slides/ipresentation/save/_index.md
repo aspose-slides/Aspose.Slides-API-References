@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Slides for .NET API 参考
 description: 将演示文稿的所有幻灯片保存到具有指定格式的文件中。
 type: docs

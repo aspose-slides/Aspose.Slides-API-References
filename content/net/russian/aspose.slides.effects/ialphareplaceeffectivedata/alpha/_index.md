@@ -1,5 +1,5 @@
 ---
-title: Альфа
+title: Alpha
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает новое значение альфа в интервале 0..1 Только для чтения Single.
 type: docs

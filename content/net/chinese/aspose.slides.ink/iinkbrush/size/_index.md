@@ -1,5 +1,5 @@
 ---
-title: 尺寸
+title: Size
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取或设置线条的笔刷大小（以点为单位）。
 type: docs

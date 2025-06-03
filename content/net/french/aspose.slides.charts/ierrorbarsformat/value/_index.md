@@ -1,5 +1,5 @@
 ---
-title: Valeur
+title: Value
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient ou définit la valeur utilisée avec les types de valeur Fixed Percentage et StandardDeviation pour déterminer la longueur des barres d'erreur. Lecture/écriture Single.
 type: docs

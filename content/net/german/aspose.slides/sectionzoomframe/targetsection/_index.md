@@ -1,5 +1,5 @@
 ---
-title: ZielSektion
+title: TargetSection
 second_title: Aspose.Slides für .NET API Referenz
 description: Ruft das Abschnittsobjekt ab oder legt es fest, auf das das Section Zoom-Objekt verweist. Lese-/Schreibzugriff auf ISectionaspose.slides/isection.
 type: docs

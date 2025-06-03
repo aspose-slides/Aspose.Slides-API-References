@@ -1,5 +1,5 @@
 ---
-title: Imagen
+title: Picture
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la imagen utilizada como viñeta en un párrafo sin herencia. Solo lectura ISlidesPicture aspose.slides/islidespicture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: FormatDeParagraphe
+title: ParagraphFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: FormatDeParagraphe. Lecture seule IChartParagraphFormataspose.slides.charts/ichartparagraphformat.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: Format  
+title: Format
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt das Format der Fehlerbalken dar. Lese-/Schreibzugriff auf IFormataspose.slides/iformat.
 type: docs  

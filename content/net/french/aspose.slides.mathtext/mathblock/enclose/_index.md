@@ -1,5 +1,5 @@
 ---
-title: Enclure
+title: Enclose
 second_title: Référence API Aspose.Slides pour .NET
 description: Enclut les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Угол
+title: Angle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает относительный угол пути движения. Чтение/запись Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 嵌入字体字符
+title: EmbedFontCharacters
 second_title: Aspose.Slides for .NET API 参考
 description: 表示用于将新嵌入字体添加到 IPresentation 的规则../aspose.slides/ipresentation
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 覆盖层
+title: Overlay
 second_title: Aspose.Sildes for .NET API 参考
 description: 确定是否允许其他图表元素与标题重叠。可读/写的布尔值。
 type: docs

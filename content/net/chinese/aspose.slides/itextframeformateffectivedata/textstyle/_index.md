@@ -1,5 +1,5 @@
 ---
-title: 文本样式
+title: TextStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回有效的文本样式。只读 ITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata。
 type: docs

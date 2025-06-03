@@ -1,5 +1,5 @@
 ---
-title: 图表类型
+title: ChartType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表的一种类型。
 type: docs

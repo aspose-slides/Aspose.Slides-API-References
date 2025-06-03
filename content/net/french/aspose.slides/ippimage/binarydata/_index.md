@@ -1,5 +1,5 @@
 ---
-title: DonnéesBinaires
+title: BinaryData
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie une copie des données d'une image. Lecteur seul Byte.
 type: docs

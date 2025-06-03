@@ -1,5 +1,5 @@
 ---
-title: 输出
+title: Output
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文档的输出元素集合。只读 Outputaspose.slides.export.web/webdocument/output。
 type: docs

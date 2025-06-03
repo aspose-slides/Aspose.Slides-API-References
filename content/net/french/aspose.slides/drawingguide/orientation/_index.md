@@ -1,5 +1,5 @@
 ---  
-title: Orientation  
+title: Orientation
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie ou définit l'orientation du guide de dessin. Lecture/écriture Orientation aspose.slides/orientation.
 type: docs  

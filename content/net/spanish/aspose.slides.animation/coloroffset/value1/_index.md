@@ -1,5 +1,5 @@
 ---
-title: Valor1
+title: Value1
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Define el segundo valor del desplazamiento. Lectura/escritura Single.
 type: docs

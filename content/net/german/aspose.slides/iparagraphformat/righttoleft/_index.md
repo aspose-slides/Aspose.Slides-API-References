@@ -1,5 +1,5 @@
 ---
-title: RechtsNachLinks
+title: RightToLeft
 second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die Schreibweise von Rechts nach Links in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs

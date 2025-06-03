@@ -1,5 +1,5 @@
 ---  
-title: RasterizeUnsupportedFontStyles  
+title: RasterizeUnsupportedFontStyles
 second_title: Aspose.Sildes for .NET API 参考  
 description: 指示当字体不支持粗体样式时，文本是否应该被栅格化为位图并保存到 PDF。这种方法可以提高某些字体在生成的 PDF 中的文本质量。读/写布尔值。
 type: docs  

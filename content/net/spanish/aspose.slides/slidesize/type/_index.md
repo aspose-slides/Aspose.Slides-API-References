@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el tipo de tamaño de la diapositiva. Asignar cualquier valor excepto Personalizado cambiará Size../size en consecuencia, pero mantendrá Orientation../orientation intacta. Lectura/escritura SlideSizeTypeaspose.slides/slidesizetype.
 type: docs

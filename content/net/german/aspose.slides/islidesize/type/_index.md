@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Typ der Foliengröße zurück oder setzt ihn. Das Zuweisen eines Wertes, der nicht "Benutzerdefiniert" ist, ändert Size../size entsprechend, behält aber Orientation../orientation unverändert bei. Lese-/Schreibzugriff auf SlideSizeTypeaspose.slides/slidesizetype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 图案
+title: Pattern
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在过渡期间使用的视觉形状。可读写 TransitionShredPatternaspose.slides/transitionshredpattern。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Superposición
+title: Overlap
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica cuánto se superpondrán las barras y columnas en gráficos 2-D como un porcentaje del -100 al 100. - -100 Máxima separación, las barras están completamente separadas. - 0 Las barras se colocan una al lado de la otra sin superposición ni separación. - 100 Máxima superposición, las barras se superponen completamente. Esta propiedad es de lectura/escritura SByte.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: EspaceAvant
+title: SpaceBefore
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la quantité d'espace avant la première ligne dans un paragraphe. Lecture seule Single.
 type: docs

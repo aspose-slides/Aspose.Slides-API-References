@@ -1,5 +1,5 @@
 ---
-title: CréerUnOmbreIntérieure
+title: CreateInnerShadow
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un effet d'ombre intérieure.
 type: docs

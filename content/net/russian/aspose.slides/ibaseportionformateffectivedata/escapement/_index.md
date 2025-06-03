@@ -1,5 +1,5 @@
 ---
-title: Удлинение
+title: Escapement
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает текст надстрочного или подстрочного формата. Значение от -100 подстрочника до 100 надстрочника. Только для чтения Single.
 type: docs

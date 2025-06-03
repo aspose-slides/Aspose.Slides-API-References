@@ -1,5 +1,5 @@
 ---
-title: 幻灯片图像大小
+title: SlideImageSize
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片图像大小。只读 SizeF。
 type: docs

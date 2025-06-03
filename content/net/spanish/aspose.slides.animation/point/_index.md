@@ -1,5 +1,5 @@
 ---
-title: Punto
+title: Point
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un punto de animación.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает высоту маркера абзаца. Только для чтения Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Возвращает элемент в указанной позиции. Только для чтения IEffectStyleaspose.slides.theme/ieffectstyle.
 type: docs

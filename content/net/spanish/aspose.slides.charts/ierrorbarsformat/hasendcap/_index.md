@@ -1,5 +1,5 @@
 ---  
-title: HasEndCap  
+title: HasEndCap
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Especifica que no se dibuja un extremo en las barras de error. Booleano de lectura/escritura.
 type: docs  

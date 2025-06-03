@@ -1,5 +1,5 @@
 ---
-title: ReglaDeEspaciadoDeFilas
+title: RowSpacingRule
 second_title: Referencia de API de Aspose.Slides para .NET
 description: El tipo de espaciado vertical entre los elementos de la matriz
 type: docs

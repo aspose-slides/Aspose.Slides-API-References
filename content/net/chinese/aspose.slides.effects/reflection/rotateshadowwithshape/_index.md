@@ -1,5 +1,5 @@
 ---
-title: 旋转阴影与形状
+title: RotateShadowWithShape
 second_title: Aspose.Slides for .NET API 参考
 description: 指定如果形状旋转，反射是否应随形状一起旋转。可读/写的布尔值。
 type: docs

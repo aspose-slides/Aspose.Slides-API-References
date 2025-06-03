@@ -1,5 +1,5 @@
 ---  
-title: IChartSeries  
+title: IChartSeries
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет серию графиков.
 type: docs  

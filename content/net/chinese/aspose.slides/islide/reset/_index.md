@@ -1,5 +1,5 @@
 ---
-title: 重置
+title: Reset
 second_title: Aspose.Slides for .NET API 参考
 description: 重置 LayoutSlide 上每个具有原型的形状的位置、大小和格式。
 type: docs

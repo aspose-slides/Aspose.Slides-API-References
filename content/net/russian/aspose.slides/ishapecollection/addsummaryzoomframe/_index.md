@@ -1,5 +1,5 @@
 ---  
-title: AddSummaryZoomFrame  
+title: AddSummaryZoomFrame
 second_title: Справочник по API Aspose.Sildes для .NET  
 description: Добавляет новый объект Summary Zoom в конец коллекции.
 type: docs  

@@ -1,5 +1,5 @@
 ---  
-title: RemoveAt  
+title: RemoveAt
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Entfernt das Tag am angegebenen Index.
 type: docs  

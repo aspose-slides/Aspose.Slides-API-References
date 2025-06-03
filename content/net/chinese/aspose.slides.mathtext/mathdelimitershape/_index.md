@@ -1,5 +1,5 @@
 ---
-title: 数学分隔符形状
+title: MathDelimiterShape
 second_title: Aspose.Slides for .NET API 参考
 description: 分隔符相对于操作数内容的位置和大小
 type: docs

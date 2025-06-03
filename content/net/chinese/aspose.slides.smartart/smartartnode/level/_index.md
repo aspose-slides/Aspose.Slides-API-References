@@ -1,5 +1,5 @@
 ---
-title: 等级
+title: Level
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回节点的嵌套级别。只读 Int32。
 type: docs

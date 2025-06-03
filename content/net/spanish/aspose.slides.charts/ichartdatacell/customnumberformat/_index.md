@@ -1,5 +1,5 @@
 ---
-title: FormatoDeNumeroPersonalizado
+title: CustomNumberFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el formato de visualización personalizado de números y fechas. Si el valor está vacío, se utilizará el valor de PresetNumberFormat. Lectura/escritura String.
 type: docs

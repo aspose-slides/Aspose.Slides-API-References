@@ -1,5 +1,5 @@
 ---
-title: Reihenfolge
+title: Order
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Reihenfolge einer Serie zurück. Lese-/Schreibzugriff Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Зум
+title: Zoom
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Зум камеры, положительное значение в процентах. Только для чтения Single.
 type: docs

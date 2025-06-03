@@ -1,5 +1,5 @@
 ---
-title: BordHaut
+title: BorderTop
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un objet de propriétés de ligne de bordure supérieure. Lecture seule ILineFormat aspose.slides/ilineformat.
 type: docs

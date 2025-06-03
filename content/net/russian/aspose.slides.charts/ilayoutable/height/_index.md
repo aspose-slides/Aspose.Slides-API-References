@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Указывает высоту элемента графика как долю от высоты графика. Чтение/запись Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 播放模式
+title: PlayMode
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置音频播放模式。可读/可写 AudioPlayModePresetaspose.slides/audioplaymodepreset。
 type: docs

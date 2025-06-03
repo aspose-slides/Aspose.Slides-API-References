@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt eine neue Layoutfolie an der angegebenen Position der Sammlung ein.
 type: docs

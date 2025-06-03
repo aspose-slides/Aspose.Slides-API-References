@@ -1,5 +1,5 @@
 ---
-title: Tamaño
+title: Size
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el ancho y alto en píxeles de la Imagen. Solo lectura Sizeaspose.slides/imagewrapper/size.
 type: docs

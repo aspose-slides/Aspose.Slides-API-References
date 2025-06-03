@@ -1,5 +1,5 @@
 ---
-title: Formas
+title: Shapes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve colecciones de todas las formas asociadas con el nodo. Solo lectura ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
 type: docs

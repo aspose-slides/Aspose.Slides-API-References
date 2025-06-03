@@ -1,5 +1,5 @@
 ---
-title: PropiedadesComunesVistaDiapositiva
+title: CommonSlideViewProperties
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa propiedades comunes de vista de diapositiva.
 type: docs

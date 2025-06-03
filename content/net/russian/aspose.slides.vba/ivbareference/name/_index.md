@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет собой имя ссылки на проект VBA. Читаемая/записываемая строка.
 type: docs

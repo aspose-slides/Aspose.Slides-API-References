@@ -1,5 +1,5 @@
 ---
-title: 相关图例条目
+title: RelatedLegendEntry
 second_title: Aspose.Slides for .NET API 参考
 description: 表示与此系列相关的图例条目 只读 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties。
 type: docs

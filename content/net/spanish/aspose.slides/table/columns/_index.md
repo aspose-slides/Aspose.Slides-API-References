@@ -1,5 +1,5 @@
 ---
-title: Columnas
+title: Columns
 second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve la colección de columnas. Solo lectura IColumnCollection aspose.slides/icolumncollection.
 type: docs

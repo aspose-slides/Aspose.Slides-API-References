@@ -1,5 +1,5 @@
 ---  
-title: ITrendline  
+title: ITrendline
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Klasse repräsentiert die Trendlinie von Chartreihe
 type: docs  

@@ -1,5 +1,5 @@
 ---  
-title: GroupingLocked  
+title: GroupingLocked
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob es verboten ist, diese Form zu einer Gruppe hinzuzufügen. Lese-/Schreib-Boolean.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Preservar
+title: Preserve
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el maestro correspondiente se elimina cuando se eliminan todas las diapositivas que siguen a ese maestro. Nota Aspose.Slides nunca eliminará ningún maestro no utilizado por sí mismo; para eliminar realmente los maestros no utilizados, llama a RemoveUnusedaspose.slides/imasterslidecollection/removeunused Valor booleano de lectura/escritura.
 type: docs

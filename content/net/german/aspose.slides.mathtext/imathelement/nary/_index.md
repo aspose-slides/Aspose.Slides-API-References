@@ -1,5 +1,5 @@
 ---
-title: N-är
+title: Nary
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt einen N-ären Operator
 type: docs

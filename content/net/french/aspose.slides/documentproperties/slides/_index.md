@@ -1,5 +1,5 @@
 ---
-title: Diapositives
+title: Slides
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le nombre total de diapositives dans un document de présentation. Lecture seule Int32.
 type: docs

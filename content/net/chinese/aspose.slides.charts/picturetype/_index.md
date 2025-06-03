@@ -1,5 +1,5 @@
 ---
-title: 图片类型
+title: PictureType
 second_title: Aspose.Slides for .NET API 参考
 description: 确定条形图片填充的模式。
 type: docs

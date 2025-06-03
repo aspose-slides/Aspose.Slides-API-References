@@ -1,5 +1,5 @@
 ---
-title: Lokal
+title: Local
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt den lokalen Speicher des aktuellen Template-Kontexts zurück. Nur-Lese Speicheraspose.slides.export.web/storage.
 type: docs

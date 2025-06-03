@@ -1,5 +1,5 @@
 ---
-title: Равенство
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, равен ли указанный Bluraspose.slides.effects/blur текущему Bluraspose.slides.effects/blur.
 type: docs

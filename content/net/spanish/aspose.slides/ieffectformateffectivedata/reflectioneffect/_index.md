@@ -1,5 +1,5 @@
 ---
-title: Efecto de Reflexión
+title: ReflectionEffect
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Reflexión. Solo lectura IReflectionEffectiveDataaspose.slides.effects/ireflectioneffectivedata.
 type: docs

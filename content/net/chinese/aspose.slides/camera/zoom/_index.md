@@ -1,5 +1,5 @@
 ---
-title: 缩放
+title: Zoom
 second_title: Aspose.Sildes for .NET API 参考
 description: 摄像头缩放的正值百分比。读写 Single。
 type: docs

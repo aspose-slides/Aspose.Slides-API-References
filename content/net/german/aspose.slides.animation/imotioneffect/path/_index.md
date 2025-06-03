@@ -1,5 +1,5 @@
 ---
-title: Pfad
+title: Path
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Pfad-Primitiv an, dem Koordinaten für die Animationsbewegung folgen. Lesen/schreiben IMotionPathaspose.slides/imotionpath.
 type: docs

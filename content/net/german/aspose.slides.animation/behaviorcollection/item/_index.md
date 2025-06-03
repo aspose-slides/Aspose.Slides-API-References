@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt ein Verhalten an dem angegebenen Index zurück.
 type: docs

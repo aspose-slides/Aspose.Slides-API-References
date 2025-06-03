@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si las dos instancias de Hyperlink son iguales.
 type: docs

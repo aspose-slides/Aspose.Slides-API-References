@@ -1,5 +1,5 @@
 ---
-title: ModoNegroBlanco
+title: BlackWhiteMode
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina cómo se debe transformar una forma coloreada en blanco y negro.
 type: docs

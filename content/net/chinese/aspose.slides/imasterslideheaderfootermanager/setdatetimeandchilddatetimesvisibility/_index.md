@@ -1,5 +1,5 @@
 ---  
-title: 设置日期时间和子日期时间可见性  
+title: SetDateTimeAndChildDateTimesVisibility
 second_title: Aspose.Sildes for .NET API 参考  
 description: 更改主幻灯片日期时间占位符和所有子日期时间占位符的可见性。子占位符是指包含在依赖布局幻灯片和依赖幻灯片上的占位符。依赖布局幻灯片和幻灯片使用并依赖于主幻灯片。
 type: docs  

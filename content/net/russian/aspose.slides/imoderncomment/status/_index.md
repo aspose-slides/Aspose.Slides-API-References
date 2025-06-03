@@ -1,5 +1,5 @@
 ---
-title: Статус
+title: Status
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает или устанавливает статус комментария. Чтение/запись ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs

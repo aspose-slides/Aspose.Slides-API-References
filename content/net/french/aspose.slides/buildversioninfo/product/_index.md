@@ -1,5 +1,5 @@
 ---
-title: Produit
+title: Product
 second_title: Référence API Aspose.Slides pour .NET
 description: Nom du produit Aspose.Slides
 type: docs

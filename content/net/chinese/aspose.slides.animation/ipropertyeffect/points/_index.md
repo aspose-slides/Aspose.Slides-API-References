@@ -1,5 +1,5 @@
 ---
-title: 点
+title: Points
 second_title: Aspose.Slides for .NET API 参考
 description: 指定动画的点。可读写 IPointCollection aspose.slides.animation/ipointcollection。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Время
+title: Time
 second_title: Справочник по Aspose.Slides для .NET
 description: Представляет значение времени. Чтение/запись Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Нижний индекс
+title: Subscript
 second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Нижний индекс
 type: docs

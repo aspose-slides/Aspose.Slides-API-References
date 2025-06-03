@@ -1,5 +1,5 @@
 ---
-title: 双调
+title: Duotone
 second_title: Aspose.Slides for .NET API 参考
 description: 表示双调效果。对于每个像素，通过线性插值组合 Color1 和 Color2，以确定该像素的新颜色。
 type: docs

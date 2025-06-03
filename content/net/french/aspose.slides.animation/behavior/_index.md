@@ -1,5 +1,5 @@
 ---
-title: Comportement
+title: Behavior
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente le comportement de la classe de base des effets.
 type: docs

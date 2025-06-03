@@ -1,5 +1,5 @@
 ---  
-title: Accent5  
+title: Accent5
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fünfte Akzentfarbe im Farbschema. Nur-lesend IColorFormataspose.slides/icolorformat.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Farbe
+title: Color
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Farbe eines Gradientenstopp zurück. Nur Lesbarkeit Farbe.
 type: docs

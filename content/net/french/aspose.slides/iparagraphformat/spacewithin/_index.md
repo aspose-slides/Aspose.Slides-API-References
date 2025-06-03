@@ -1,5 +1,5 @@
 ---
-title: EspaceEntre
+title: SpaceWithin
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie ou définit le montant d'espace entre les lignes de base dans un paragraphe. Une valeur positive signifie un pourcentage, une valeur négative - une taille en points. Pas d'héritage appliqué. Lecture/écriture Simple.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ConsultasDeHipervínculo
+title: HyperlinkQueries
 second_title: Aspose.Slides para referencia de API de .NET
 description: Proporciona acceso fácil a todos los hipervínculos contenidos en todas las diapositivas de presentación que no están en las diapositivas de notas del diseño maestro. Solo lectura IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs

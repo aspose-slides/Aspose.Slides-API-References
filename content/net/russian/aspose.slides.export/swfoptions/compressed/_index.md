@@ -1,5 +1,5 @@
 ---
-title: Сжатый
+title: Compressed
 second_title: Справка по API Aspose.Slides для .NET
 description: Указывает, следует ли сжимать сгенерированный документ SWF или нет. По умолчанию true.
 type: docs

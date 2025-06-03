@@ -1,5 +1,5 @@
 ---  
-title: PositionLocked  
+title: PositionLocked
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
 type: docs  

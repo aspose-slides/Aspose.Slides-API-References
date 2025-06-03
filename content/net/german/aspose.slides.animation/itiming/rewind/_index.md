@@ -1,5 +1,5 @@
 ---
-title: Zurückspulen
+title: Rewind
 second_title: Aspose.Slides für .NET API-Referenz
 description: Dieses Attribut gibt an, ob der Effekt zurückgespult wird, wenn er zu Ende gespielt ist. Lese-/Schreib-Boolean.
 type: docs

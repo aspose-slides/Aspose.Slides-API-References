@@ -1,5 +1,5 @@
 ---
-title: ВыравниваниеЛиний
+title: LineAlignment
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Представляет тип выравнивания линий.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 帧大小
+title: FrameSize
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置帧大小。
 type: docs

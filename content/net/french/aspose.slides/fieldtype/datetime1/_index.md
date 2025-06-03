@@ -1,5 +1,5 @@
 ---  
-title: DateTime1  
+title: DateTime1
 second_title: Référence API d'Aspose.Slides pour .NET  
 description: Date et heure actuelles dans un premier format prédéfini MM/JJ/AAAA pour l'anglais. Champ en lecture seule FieldTypeaspose.slides/fieldtype.
 type: docs  

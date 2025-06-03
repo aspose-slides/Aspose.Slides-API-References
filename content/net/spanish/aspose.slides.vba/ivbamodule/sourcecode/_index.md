@@ -1,5 +1,5 @@
 ---
-title: CódigoFuente
+title: SourceCode
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Código fuente del módulo. Leer/escribir String.
 type: docs

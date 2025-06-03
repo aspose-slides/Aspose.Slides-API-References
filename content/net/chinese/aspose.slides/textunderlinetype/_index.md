@@ -1,5 +1,5 @@
 ---
-title: 文本下划线类型
+title: TextUnderlineType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示文本下划线的类型。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 传统图表
+title: LegacyDiagram
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个传统图表对象。
 type: docs

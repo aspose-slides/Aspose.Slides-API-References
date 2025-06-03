@@ -1,5 +1,5 @@
 ---
-title: КоллекцияПараграфов
+title: ParagraphCollection
 second_title: Aspose.Sildes для .NET Справочник по API
 description: Представляет коллекцию параграфов.
 type: docs

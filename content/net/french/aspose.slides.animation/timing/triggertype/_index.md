@@ -1,5 +1,5 @@
 ---  
-title: TriggerType  
+title: TriggerType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Décrit le type de déclencheur. Lecture/écriture EffectTriggerTypeaspose.slides.animation/effecttriggertype.
 type: docs  

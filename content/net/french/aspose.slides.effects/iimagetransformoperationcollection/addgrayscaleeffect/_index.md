@@ -1,5 +1,5 @@
 ---
-title: AjouterEffetNiveauDeGris
+title: AddGrayScaleEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute le nouvel effet niveau de gris à la fin d'une collection.
 type: docs

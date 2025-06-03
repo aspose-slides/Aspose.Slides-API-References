@@ -1,5 +1,5 @@
 ---
-title: Formel
+title: Formula
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die Formel im A1-Stil ab oder setzt sie.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Rayon
+title: Radius
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie ou définit le rayon de flou. Lecture/écriture Double.
 type: docs

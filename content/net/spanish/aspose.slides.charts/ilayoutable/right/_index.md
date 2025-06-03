@@ -1,5 +1,5 @@
 ---
-title: Derecho
+title: Right
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el derecho del elemento del gráfico como una fracción del ancho del gráfico. Solo de lectura Single.
 type: docs

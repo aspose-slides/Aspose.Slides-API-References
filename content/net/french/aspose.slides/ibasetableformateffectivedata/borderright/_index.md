@@ -1,5 +1,5 @@
 ---
-title: BordDroit
+title: BorderRight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la valeur effective du format de ligne de bord droit. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs

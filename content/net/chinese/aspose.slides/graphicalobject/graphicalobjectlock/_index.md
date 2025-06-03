@@ -1,5 +1,5 @@
 ---
-title: 图形对象锁
+title: GraphicalObjectLock
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状锁。只读 IGraphicalObjectLock aspose.slides/igraphicalobjectlock。
 type: docs

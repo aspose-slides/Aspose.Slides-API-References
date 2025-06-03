@@ -1,5 +1,5 @@
 ---
-title: VertikaleAchse
+title: VerticalAxis
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält die vertikale Achse des Diagramms. Nur-Lese IAxisaspose.slides.charts/iaxis.
 type: docs

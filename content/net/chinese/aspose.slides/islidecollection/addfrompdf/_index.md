@@ -1,5 +1,5 @@
 ---
-title: 从PDF添加
+title: AddFromPdf
 second_title: Aspose.Slides for .NET API 参考
 description: 从PDF文档创建幻灯片并将其添加到集合的末尾。
 type: docs

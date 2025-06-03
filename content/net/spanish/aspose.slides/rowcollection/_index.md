@@ -1,5 +1,5 @@
 ---
-title: Colección de Filas
+title: RowCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la colección de filas de una tabla.
 type: docs

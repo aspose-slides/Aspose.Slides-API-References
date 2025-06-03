@@ -1,5 +1,5 @@
 ---
-title: 设置时间位置
+title: SetTimePosition
 second_title: Aspose.Slides for .NET API 参考
 description: 在 Duration../duration 中设置动画时间位置。
 type: docs

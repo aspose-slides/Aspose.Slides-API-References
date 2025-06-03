@@ -1,5 +1,5 @@
 ---  
-title: IGradientStopEffectiveData  
+title: IGradientStopEffectiveData
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: objeto inmutable que representa un punto de parada de degradado.
 type: docs  

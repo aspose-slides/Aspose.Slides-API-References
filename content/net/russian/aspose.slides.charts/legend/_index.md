@@ -1,5 +1,5 @@
 ---
-title: Легенда
+title: Legend
 second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет свойства легенды графиков.
 type: docs

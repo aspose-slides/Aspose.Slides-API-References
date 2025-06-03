@@ -1,5 +1,5 @@
 ---  
-title: WriteBindedPresentation  
+title: WriteBindedPresentation
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Escribe la presentación ligada en el flujo.
 type: docs  

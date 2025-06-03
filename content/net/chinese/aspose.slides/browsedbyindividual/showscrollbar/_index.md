@@ -1,5 +1,5 @@
 ---
-title: 显示滚动条
+title: ShowScrollbar
 second_title: Aspose.Slides for .NET API 参考
 description: 在窗口中显示滚动条
 type: docs

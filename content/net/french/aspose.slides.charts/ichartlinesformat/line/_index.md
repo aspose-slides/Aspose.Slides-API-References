@@ -1,5 +1,5 @@
 ---
-title: Ligne
+title: Line
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie les propriétés de style de ligne d'une ligne de graphique. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs

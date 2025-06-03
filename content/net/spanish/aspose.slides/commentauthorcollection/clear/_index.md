@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Elimina todos los autores de una colección.
 type: docs

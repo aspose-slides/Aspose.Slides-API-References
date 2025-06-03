@@ -1,5 +1,5 @@
 ---
-title: Wert
+title: Value
 second_title: Aspose.Slides für .NET API Referenz
 description: Ruft den Wert ab oder setzt ihn, der mit den Werttypen Fixe Prozentzahl und Standardabweichung verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In jedem anderen Fall wird NaN zurückgegeben. Lese-/Schreibzugriff auf Single.
 type: docs

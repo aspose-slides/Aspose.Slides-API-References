@@ -1,5 +1,5 @@
 ---
-title: NomDePoliceSubstituée
+title: SubstitutedFontName
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Indique le nom de la police de remplacement pour la police originale. Chaîne en lecture seule
 type: docs

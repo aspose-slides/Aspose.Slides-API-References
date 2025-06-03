@@ -1,5 +1,5 @@
 ---
-title: Надстрочный текст
+title: Superscript
 second_title: Справка по API Aspose.Slides для .NET
 description: Надстрочный текст
 type: docs

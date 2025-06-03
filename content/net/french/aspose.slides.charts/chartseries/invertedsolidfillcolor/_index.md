@@ -1,5 +1,5 @@
 ---
-title: CouleurDeRemplissageSolideInversée
+title: InvertedSolidFillColor
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie la couleur solide inversée pour les séries. Pour appliquer le paramètre de couleur, définissez le type de remplissage du format de série sur FillType.Solid. Lecture/écriture de ColorFormataspose.slides/../aspose.slides/colorformat.
 type: docs

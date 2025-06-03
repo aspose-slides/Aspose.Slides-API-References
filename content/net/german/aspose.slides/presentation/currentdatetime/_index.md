@@ -1,5 +1,5 @@
 ---
-title: AktuellesDatumUndUhrzeit
+title: CurrentDateTime
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Datum und die Uhrzeit zurück oder legt diese fest, die den Inhalt von datetime-Feldern ersetzen. Zeit der Erstellung dieses Präsentationsobjekts standardmäßig. Lese-/Schreibzugriff auf DateTime.
 type: docs

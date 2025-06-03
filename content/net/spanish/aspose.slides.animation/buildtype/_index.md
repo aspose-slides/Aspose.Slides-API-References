@@ -1,5 +1,5 @@
 ---
-title: Tipo de Construcción
+title: BuildType
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina cómo aparecerá el texto en una forma durante la animación.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Hauptsequenz
+title: MainSequence
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Hauptsequenz zurück, die nur eine Sammlung von Haupteffekten enthalten kann. Nur-Lese ISequenceaspose.slides/../aspose.slides.animation/isequence.
 type: docs

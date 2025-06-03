@@ -1,5 +1,5 @@
 ---
-title: Plancher
+title: Floor
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie un objet qui permet de changer le format du plancher d'un graphique 3D. Lecture seule IChartWallaspose.slides.charts/ichartwall.
 type: docs

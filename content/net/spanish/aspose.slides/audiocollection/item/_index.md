@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Sldes para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura IAudioaspose.slides/iaudio.
 type: docs

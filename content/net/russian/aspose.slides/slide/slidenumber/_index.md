@@ -1,5 +1,5 @@
 ---
-title: НомерСлайда
+title: SlideNumber
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает номер слайда. Индекс слайда в коллекции Slidesaspose.slides/presentation/slides всегда равен НомерСлайда - Presentation.FirstSlideNumber. Читаемый/записываемый Int32.
 type: docs

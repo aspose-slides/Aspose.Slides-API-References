@@ -1,5 +1,5 @@
 ---
-title: Формы
+title: Shapes
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает формы слайда. Только для чтения IShapeCollectionaspose.slides/ishapecollection.
 type: docs

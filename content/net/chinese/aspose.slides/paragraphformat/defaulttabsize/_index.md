@@ -1,5 +1,5 @@
 ---
-title: 默认制表符大小
+title: DefaultTabSize
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置没有继承的默认制表符大小。可读写单精度浮点数。
 type: docs

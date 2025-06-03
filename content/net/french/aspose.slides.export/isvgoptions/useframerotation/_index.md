@@ -1,5 +1,5 @@
 ---
-title: UtiliserLaRotationDuCadre
+title: UseFrameRotation
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si la rotation spécifiée de la forme doit être effectuée lors du rendu ou non. Booléen en lecture/écriture. La valeur par défaut est vraie.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 转场类型
+title: TransitionType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示幻灯片放映过渡类型。
 type: docs

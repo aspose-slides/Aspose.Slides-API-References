@@ -1,5 +1,5 @@
 ---
-title: Profundidad
+title: Depth
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una profundidad de un párrafo. Solo lectura Int16.
 type: docs

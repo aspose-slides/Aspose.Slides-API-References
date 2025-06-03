@@ -1,5 +1,5 @@
 ---
-title: MargenIzquierdo
+title: MarginLeft
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el margen izquierdo en un párrafo. Solo de lectura Single.
 type: docs

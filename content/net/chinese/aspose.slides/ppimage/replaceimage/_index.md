@@ -1,5 +1,5 @@
 ---
-title: 替换图像
+title: ReplaceImage
 second_title: Aspose.Slides for .NET API 参考
 description: 替换图像数据。新的图像数据。当 newImageData 参数为 null。
 type: docs

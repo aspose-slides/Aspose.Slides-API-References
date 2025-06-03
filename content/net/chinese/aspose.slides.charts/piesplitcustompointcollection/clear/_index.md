@@ -1,5 +1,5 @@
 ---
-title: 清除
+title: Clear
 second_title: Aspose.Slides for .NET API 参考
 description: 从 ICollection 中删除所有项目。
 type: docs

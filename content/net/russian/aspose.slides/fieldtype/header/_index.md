@@ -1,5 +1,5 @@
 ---
-title: Заголовок
+title: Header
 second_title: Справочник по API Aspose.Slides для .NET
 description: Заголовок слайдa. Поле только для чтения FieldTypeaspose.slides/fieldtype.
 type: docs

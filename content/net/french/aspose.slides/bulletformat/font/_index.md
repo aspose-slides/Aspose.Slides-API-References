@@ -1,5 +1,5 @@
 ---
-title: Police
+title: Font
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la police de liste d'un paragraphe sans héritage. Lecture/écriture IFontDataaspose.slides/ifontdata.
 type: docs

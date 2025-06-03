@@ -1,5 +1,5 @@
 ---
-title: Graphique
+title: Chart
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le graphique parent. Lecture seule IChart aspose.slides.charts/ichart.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 字体
+title: Font
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置一个段落的项目符号字体，且不继承。读/写 IFontDataaspose.slides/ifontdata。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la hauteur de puce d'un paragraphe. Lecture seule Single.
 type: docs

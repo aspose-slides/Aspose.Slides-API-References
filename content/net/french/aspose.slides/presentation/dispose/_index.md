@@ -1,5 +1,5 @@
 ---
-title: Disposer
+title: Dispose
 second_title: Référence API Aspose.Slides pour .NET
 description: Libère toutes les ressources utilisées par cet objet Presentation.
 type: docs

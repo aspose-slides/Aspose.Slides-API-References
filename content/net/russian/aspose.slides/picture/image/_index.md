@@ -1,5 +1,5 @@
 ---
-title: Изображение
+title: Image
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или устанавливает встроенное изображение. Чтение/запись IPPImageaspose.slides/ippimage.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: EspaciadoDeLaRejilla
+title: GridSpacing
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el espaciado de la rejilla que se debe utilizar para la rejilla subyacente del documento de presentación en puntos. Lectura/escritura Único.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: GestionDesPolicesExternes
+title: ExternalFontsHandling
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine une méthode de gestion des polices chargées de manière externe. Lire/écrire SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime la valeur spécifiée.
 type: docs

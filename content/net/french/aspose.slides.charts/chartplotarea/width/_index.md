@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la largeur d'une zone de tracé comme une fraction de la largeur du graphique de 0 à 1. Lecture/écriture Simple.
 type: docs

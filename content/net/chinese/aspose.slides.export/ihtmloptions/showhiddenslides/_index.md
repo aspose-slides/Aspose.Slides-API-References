@@ -1,5 +1,5 @@
 ---  
-title: ShowHiddenSlides  
+title: ShowHiddenSlides
 second_title: Aspose.Slides for .NET API Reference  
 description: 指定生成的文档是否应包含隐藏幻灯片。默认值为 false。
 type: docs  

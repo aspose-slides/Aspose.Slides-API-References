@@ -1,5 +1,5 @@
 ---
-title: Spalte
+title: Column
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Index der Spalte des Arbeitsblattes zurück, in der sich die Zelle befindet. Nur-Lese Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Название
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает имя группы частей документа. Только для чтения строка.
 type: docs

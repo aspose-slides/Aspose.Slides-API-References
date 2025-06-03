@@ -1,5 +1,5 @@
 ---
-title: 形状锁定
+title: ShapeLock
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状锁定。只读 IGroupShapeLock aspose.slides/igroupshapelock。
 type: docs

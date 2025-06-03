@@ -1,5 +1,5 @@
 ---  
-title: ShapeElementFillSource  
+title: ShapeElementFillSource
 second_title: Aspose.Slides pour .NET Référence API  
 description: Représente comment l'élément de forme doit être rempli.
 type: docs  

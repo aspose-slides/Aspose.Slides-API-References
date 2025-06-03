@@ -1,5 +1,5 @@
 ---
-title: Aucune
+title: None
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un jeton d'interruption vide. Les opérations de longue durée ne seront jamais interrompues via Interruptaspose.slides/interruptiontokensource/interrupt lorsqu'on utilise ce jeton.
 type: docs

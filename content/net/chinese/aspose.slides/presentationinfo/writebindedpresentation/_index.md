@@ -1,5 +1,5 @@
 ---
-title: 写入绑定演示文稿
+title: WriteBindedPresentation
 second_title: Aspose.Slides for .NET API 参考
 description: 将绑定的演示文稿写入流。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 上边框
+title: BorderTop
 second_title: Aspose.Slidess for .NET API 参考
 description: 返回一个上边框线属性对象。仅限读取的 ILineFormat aspose.slides/ilineformat。
 type: docs

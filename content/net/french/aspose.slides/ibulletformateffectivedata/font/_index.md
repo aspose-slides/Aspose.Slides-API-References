@@ -1,5 +1,5 @@
 ---
-title: Police
+title: Font
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la police à puce d'un paragraphe. Lecture seule IFontDataaspose.slides/ifontdata.
 type: docs

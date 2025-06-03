@@ -1,5 +1,5 @@
 ---
-title: Contexte
+title: Background
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le fond d'une diapositive.
 type: docs

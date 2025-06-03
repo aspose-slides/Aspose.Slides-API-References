@@ -1,5 +1,5 @@
 ---
-title: 黑白模式
+title: BlackWhiteMode
 second_title: Aspose.Slides for .NET API 参考
 description: 属性指定形状在黑白显示模式下的渲染方式。可读/可写 BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs

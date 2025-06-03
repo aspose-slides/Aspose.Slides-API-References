@@ -1,5 +1,5 @@
 ---
-title: Zähler
+title: Numerator
 second_title: Aspose.Slides für .NET API Referenz
 description: Zähler
 type: docs

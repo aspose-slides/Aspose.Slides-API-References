@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Höhe eines Plotbereichs-Bounding-Box als Bruchteil der Höhe des Diagramms von 0 bis 1 zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
 type: docs

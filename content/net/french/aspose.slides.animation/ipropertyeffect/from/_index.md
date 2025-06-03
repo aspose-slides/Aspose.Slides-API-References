@@ -1,5 +1,5 @@
 ---
-title: De
+title: From
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la valeur de départ de l'animation. Chaîne en lecture/écriture.
 type: docs

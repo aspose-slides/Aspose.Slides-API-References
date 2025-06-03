@@ -1,5 +1,5 @@
 ---
-title: 文本块格式
+title: TextBlockFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图表文本元素的格式。只读 IChartTextBlockFormat aspose.slides.charts/icharttextblockformat。
 type: docs

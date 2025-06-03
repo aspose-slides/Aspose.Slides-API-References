@@ -1,5 +1,5 @@
 ---
-title: Alignement
+title: Alignment
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le style d'alignement d'un onglet. Lecture/écriture TabAlignmentaspose.slides/tabalignment.
 type: docs

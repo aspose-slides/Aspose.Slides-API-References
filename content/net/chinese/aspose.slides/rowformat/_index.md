@@ -1,5 +1,5 @@
 ---
-title: 行格式
+title: RowFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 表示表格行的格式。
 type: docs

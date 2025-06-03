@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, равен ли указанный AlphaFlooraspose.slides.effects/alphafloor текущему AlphaFlooraspose.slides.effects/alphafloor.
 type: docs

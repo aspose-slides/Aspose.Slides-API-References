@@ -1,5 +1,5 @@
 ---
-title: Lire
+title: Read
 second_title: Référence API Aspose.Slides pour .NET
 description: Lit une séquence d'octets à partir du flux actuel et fait avancer la position dans le flux du nombre d'octets lus.
 type: docs

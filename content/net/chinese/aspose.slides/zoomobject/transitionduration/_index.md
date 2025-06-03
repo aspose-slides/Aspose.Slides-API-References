@@ -1,5 +1,5 @@
 ---
-title: 过渡持续时间
+title: TransitionDuration
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置缩放与幻灯片之间的过渡持续时间。可读写单精度浮点数。默认值 1.0f
 type: docs

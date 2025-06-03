@@ -1,5 +1,5 @@
 ---
-title: 工具提示
+title: Tooltip
 second_title: Aspose.Slides for .NET API 参考
 description: 返回可能与父超链接相关联并可以在用户界面中呈现的字符串。可读写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: СкрытьПравый
+title: HideRight
 second_title: Aspose.Slides для .NET API Справочник
 description: Скрыть правый край по умолчанию равно false - указывает на скрытое или показанное состояние правого края рамки.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 连接点数量
+title: ConnectionSiteCount
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状上的连接点数量。只读 Int32。
 type: docs

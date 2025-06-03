@@ -1,5 +1,5 @@
 ---
-title: 设置页脚文本
+title: SetFooterText
 second_title: Aspose.Slides for .NET API 参考
 description: 设置幻灯片页脚占位符的文本。
 type: docs

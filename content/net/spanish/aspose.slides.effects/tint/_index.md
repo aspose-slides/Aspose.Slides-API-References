@@ -1,5 +1,5 @@
 ---
-title: Tinte
+title: Tint
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un efecto de Tinte. Desplaza los valores de color del efecto hacia/alejado del matiz en la cantidad especificada.
 type: docs

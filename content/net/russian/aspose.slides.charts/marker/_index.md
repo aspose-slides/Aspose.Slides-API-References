@@ -1,5 +1,5 @@
 ---
-title: Маркер
+title: Marker
 second_title: Справка по API Aspose.Slides для .NET
 description: Представляет маркер диаграммы.
 type: docs

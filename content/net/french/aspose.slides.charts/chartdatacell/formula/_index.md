@@ -1,5 +1,5 @@
 ---
-title: Formule
+title: Formula
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient ou définit la formule au format A1.
 type: docs

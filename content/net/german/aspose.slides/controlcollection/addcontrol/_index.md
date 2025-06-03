@@ -1,5 +1,5 @@
 ---  
-title: AddControl  
+title: AddControl
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erstellt und fügt ein neues Steuerelement zur Sammlung hinzu.
 type: docs  

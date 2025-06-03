@@ -1,5 +1,5 @@
 ---
-title: AnchoActual
+title: ActualWidth
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica el ancho actual del elemento del gráfico. Llama al método IChart.ValidateChartLayout antes de obtener valores reales. Lee Unico.
 type: docs

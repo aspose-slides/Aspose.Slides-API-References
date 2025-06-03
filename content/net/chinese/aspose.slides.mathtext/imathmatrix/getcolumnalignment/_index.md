@@ -1,5 +1,5 @@
 ---  
-title: GetColumnAlignment  
+title: GetColumnAlignment
 second_title: Aspose.Sildes for .NET API 参考  
 description: 获取指定列的水平对齐方式
 type: docs  

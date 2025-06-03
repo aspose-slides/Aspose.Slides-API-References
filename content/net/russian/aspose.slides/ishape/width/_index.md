@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает ширину фигуры. Чтение/запись Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 行对齐
+title: LineAlignment
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示行对齐类型。
 type: docs

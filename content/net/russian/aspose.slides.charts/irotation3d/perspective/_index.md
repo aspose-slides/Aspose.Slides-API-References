@@ -1,5 +1,5 @@
 ---
-title: Перспектива
+title: Perspective
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает значение перспективы угол обзора для 3D графиков в диапазоне от 0 до 100. Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte.
 type: docs

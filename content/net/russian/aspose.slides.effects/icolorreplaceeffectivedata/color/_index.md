@@ -1,5 +1,5 @@
 ---
-title: Цвет
+title: Color
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает цветовой формат, который заменит цвет каждого пикселя. Только для чтения Color.
 type: docs

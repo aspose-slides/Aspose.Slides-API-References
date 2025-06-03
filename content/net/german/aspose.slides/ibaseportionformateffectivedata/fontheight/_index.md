@@ -1,5 +1,5 @@
 ---
-title: Schriftgröße
+title: FontHeight
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Schriftgröße eines Abschnitts zurück. Nur-Lesen Einzelwert.
 type: docs

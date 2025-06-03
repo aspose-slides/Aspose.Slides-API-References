@@ -1,5 +1,5 @@
 ---
-title: 主主题
+title: MasterTheme
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个主主题。
 type: docs

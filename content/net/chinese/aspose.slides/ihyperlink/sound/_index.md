@@ -1,5 +1,5 @@
 ---
-title: 音频
+title: Sound
 second_title: Aspose.Slides for .NET API 参考
 description: 表示超链接的播放音频。可读/写 IAudioaspose.slides/iaudio。
 type: docs

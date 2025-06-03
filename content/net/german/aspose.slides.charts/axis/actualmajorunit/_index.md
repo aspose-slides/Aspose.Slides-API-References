@@ -1,5 +1,5 @@
 ---  
-title: ActualMajorUnit  
+title: ActualMajorUnit
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die tatsächliche Haupteinheit der Achse an. Rufen Sie vorher die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 替代字体名称
+title: SubstitutedFontName
 second_title: Aspose.Slides for .NET API 参考
 description: 指示原始字体的替代字体名称。只读字符串
 type: docs

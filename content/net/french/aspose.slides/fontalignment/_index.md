@@ -1,5 +1,5 @@
 ---
-title: AlignementDePolice
+title: FontAlignment
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente l'alignement vertical de la police.
 type: docs

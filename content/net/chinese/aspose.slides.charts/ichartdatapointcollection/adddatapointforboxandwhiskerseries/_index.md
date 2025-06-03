@@ -1,5 +1,5 @@
 ---
-title: 添加数据点到箱线图系列
+title: AddDataPointForBoxAndWhiskerSeries
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新数据点并将其添加到集合的末尾。适用于图表类型为箱线图的系列。
 type: docs

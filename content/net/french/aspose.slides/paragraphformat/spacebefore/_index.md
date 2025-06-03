@@ -1,5 +1,5 @@
 ---
-title: EspaceAvant
+title: SpaceBefore
 second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que l'espace blanc doit représenter. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Simple.
 type: docs

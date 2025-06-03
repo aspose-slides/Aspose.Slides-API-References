@@ -1,5 +1,5 @@
 ---
-title: Referencia
+title: Reference
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene una referencia de celda circular.
 type: docs

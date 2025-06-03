@@ -1,5 +1,5 @@
 ---
-title: Guardar
+title: Save
 second_title: Aspose.Slides para la referencia de API de .NET
 description: Guarda la imagen en un archivo.
 type: docs

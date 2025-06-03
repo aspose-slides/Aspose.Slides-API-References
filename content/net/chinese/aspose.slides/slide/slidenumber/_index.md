@@ -1,5 +1,5 @@
 ---
-title: 幻灯片编号
+title: SlideNumber
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片编号。Slidesaspose.slides/presentation/slides 集合中幻灯片的索引始终等于 SlideNumber - Presentation.FirstSlideNumber。可读写 Int32。
 type: docs

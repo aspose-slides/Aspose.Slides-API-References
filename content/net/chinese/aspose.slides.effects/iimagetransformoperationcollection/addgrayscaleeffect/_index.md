@@ -1,5 +1,5 @@
 ---
-title: 添加灰度效果
+title: AddGrayScaleEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的灰度效果添加到集合的末尾。
 type: docs

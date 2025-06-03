@@ -1,5 +1,5 @@
 ---
-title: Rechteckausrichtung
+title: RectangleAlignment
 second_title: Aspose.Slides für .NET API-Referenz
 description: Definiert die 2-dimensionale Ausrichtung.
 type: docs

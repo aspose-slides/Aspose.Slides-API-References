@@ -1,5 +1,5 @@
 ---
-title: 设置所有页脚可见性
+title: SetAllFootersVisibility
 second_title: Aspose.Slides for .NET API 参考
 description: 更改所有页脚占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。
 type: docs

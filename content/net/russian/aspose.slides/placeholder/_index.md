@@ -1,5 +1,5 @@
 ---
-title: Заполнители
+title: Placeholder
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет собой заполнитель на слайде.
 type: docs

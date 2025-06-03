@@ -1,5 +1,5 @@
 ---  
-title: ITheme  
+title: ITheme
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente un thème.
 type: docs  

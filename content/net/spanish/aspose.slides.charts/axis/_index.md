@@ -1,5 +1,5 @@
 ---
-title: Eje
+title: Axis
 second_title: Referencia API de Aspose.Slides para .NET
 description: Encapsula el objeto que representa un eje de gráficos.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Sldes для .NET
 description: Название раздела.
 type: docs

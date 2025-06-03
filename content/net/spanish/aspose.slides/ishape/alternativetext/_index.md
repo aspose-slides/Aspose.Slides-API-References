@@ -1,5 +1,5 @@
 ---
-title: TextoAlternativo
+title: AlternativeText
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el texto alternativo asociado a una forma. Lectura/escritura String.
 type: docs

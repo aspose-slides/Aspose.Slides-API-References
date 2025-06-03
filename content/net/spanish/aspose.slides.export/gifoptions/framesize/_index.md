@@ -1,5 +1,5 @@
 ---
-title: TamañoDelMarco
+title: FrameSize
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el tamaño del marco.
 type: docs

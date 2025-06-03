@@ -1,5 +1,5 @@
 ---
-title: Zelle
+title: Cell
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Zelle einer Tabelle dar.
 type: docs

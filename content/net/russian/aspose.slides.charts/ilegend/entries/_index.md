@@ -1,5 +1,5 @@
 ---
-title: Записи
+title: Entries
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает записи легенды. Только для чтения ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
 type: docs

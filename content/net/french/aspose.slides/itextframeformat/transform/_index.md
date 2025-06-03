@@ -1,5 +1,5 @@
 ---
-title: Transformer
+title: Transform
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit la forme d'enveloppement de texte. Lecture/écriture TextShapeTypeaspose.slides/textshapetype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CouleurDeOmbre
+title: ShadowColor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Couleur de l'ombre. Couleur en lecture seule.
 type: docs

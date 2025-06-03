@@ -1,5 +1,5 @@
 ---
-title: 参数
+title: Arguments
 second_title: Aspose.Slides for .NET API 参考
 description: 一个或多个由分隔符字符分隔的数学元素
 type: docs

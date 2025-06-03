@@ -1,5 +1,5 @@
 ---
-title: 对齐方式
+title: Justification
 second_title: Aspose.Slides for .NET API 参考
 description: 段落对齐方式 默认值 CenteredAsGroup
 type: docs

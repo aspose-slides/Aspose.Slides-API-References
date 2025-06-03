@@ -1,5 +1,5 @@
 ---
-title: DernièreDiapositive
+title: LastSlide
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un lien hypertexte vers la dernière diapositive de la présentation. Lecture seule Hyperlinkaspose.slides/hyperlink.
 type: docs

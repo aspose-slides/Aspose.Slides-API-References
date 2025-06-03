@@ -1,5 +1,5 @@
 ---
-title: 控件类型
+title: ControlType
 second_title: Aspose.Slides for .NET API参考
 description: 定义一个应通过 AddControl./icontrolcollection/addcontrol 嵌入的控件类型。
 type: docs

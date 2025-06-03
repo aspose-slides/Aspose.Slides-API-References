@@ -1,5 +1,5 @@
 ---
-title: 地面
+title: Floor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个允许更改 3D 图表地面格式的对象。只读 IChartWall aspose.slides.charts/ichartwall。
 type: docs

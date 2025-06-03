@@ -1,5 +1,5 @@
 ---
-title: 主幻灯片
+title: MasterSlide
 second_title: Aspose.Slides for .NET API 参考
 description: 表示演示文稿中的主幻灯片。
 type: docs

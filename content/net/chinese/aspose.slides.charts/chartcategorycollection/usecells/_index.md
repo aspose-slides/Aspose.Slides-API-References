@@ -1,5 +1,5 @@
 ---
-title: 使用单元格
+title: UseCells
 second_title: Aspose.Slides for .NET API 参考
 description: 如果为真，则工作表用于存储类别，此情况支持多级类别。如果为假，则工作表不用于存储值，并且此情况不支持多级类别。可读/可写布尔值。
 type: docs

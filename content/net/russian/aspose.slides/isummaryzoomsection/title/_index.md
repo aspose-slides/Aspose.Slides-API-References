@@ -1,5 +1,5 @@
 ---
-title: Заголовок
+title: Title
 second_title: Справочник по API Aspose.Slidess для .NET
 description: Возвращает текстовый заголовок объекта раздела Сводного увеличения.
 type: docs

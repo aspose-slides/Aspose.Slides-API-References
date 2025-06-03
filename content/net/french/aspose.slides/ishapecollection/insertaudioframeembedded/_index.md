@@ -1,5 +1,5 @@
 ---
-title: InsérerAudioFrameEmbarqué
+title: InsertAudioFrameEmbedded
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insérer un AudioFrame avec un fichier audio embarqué. Le son du fichier audio embarqué ne peut être qu'un WAV. Il ajoute un nouvel audio dans la liste Presentation.Audios.
 type: docs

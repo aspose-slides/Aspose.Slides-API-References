@@ -1,5 +1,5 @@
 ---
-title: Auteur
+title: Author
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit l'auteur d'une présentation. Lecture/écriture String.
 type: docs

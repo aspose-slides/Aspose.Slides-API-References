@@ -1,5 +1,5 @@
 ---
-title: 获取图像
+title: GetImages
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿所有幻灯片的图像对象。
 type: docs

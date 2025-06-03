@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, равен ли указанный FillOverlayaspose.slides.effects/filloverlay текущему FillOverlayaspose.slides.effects/filloverlay.
 type: docs

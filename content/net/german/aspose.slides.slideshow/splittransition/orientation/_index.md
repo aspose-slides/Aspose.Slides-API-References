@@ -1,5 +1,5 @@
 ---
-title: Ausrichtung
+title: Orientation
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ausrichtung des Übergangsplitters. Lese-/Schreibausrichtungaspose.slides/orientation.
 type: docs

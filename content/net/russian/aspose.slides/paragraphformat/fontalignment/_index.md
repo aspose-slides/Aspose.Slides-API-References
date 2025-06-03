@@ -1,5 +1,5 @@
 ---
-title: ВыравниваниеШрифта
+title: FontAlignment
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает выравнивание шрифта в абзаце без наследования. Чтение/запись FontAlignmentaspose.slides/fontalignment.
 type: docs

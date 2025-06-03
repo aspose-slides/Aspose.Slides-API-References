@@ -1,5 +1,5 @@
 ---
-title: 趋势线
+title: Trendline
 second_title: Aspose.Slides for .NET API 参考
 description: 类表示图表系列的趋势线
 type: docs

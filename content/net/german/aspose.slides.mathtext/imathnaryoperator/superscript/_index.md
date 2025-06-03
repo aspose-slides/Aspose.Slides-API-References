@@ -1,5 +1,5 @@
 ---
-title: Hochgestellte Zeichen
+title: Superscript
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein hochgestelltes Argument an, das beispielsweise im Fall eines Integrals die Obergrenze festlegt
 type: docs

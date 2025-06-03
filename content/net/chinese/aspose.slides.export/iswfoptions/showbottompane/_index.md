@@ -1,5 +1,5 @@
 ---
-title: 显示底部窗格
+title: ShowBottomPane
 second_title: Aspose.Slides for .NET API 参考
 description: 显示/隐藏底部窗格。可以在 flashvars 中被覆盖。默认值为 true。
 type: docs

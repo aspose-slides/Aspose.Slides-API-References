@@ -1,5 +1,5 @@
 ---  
-title: 添加  
+title: Add
 second_title: Aspose.Slides for .NET API 参考  
 description: 向演示文稿添加新的布局幻灯片。
 type: docs  

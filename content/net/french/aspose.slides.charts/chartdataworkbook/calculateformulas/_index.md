@@ -1,5 +1,5 @@
 ---
-title: CalculerFormules
+title: CalculateFormulas
 second_title: Référence API Aspose.Slides pour .NET
 description: Calcule toutes les formules dans le classeur et met à jour les valeurs des cellules correspondantes.
 type: docs

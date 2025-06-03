@@ -1,5 +1,5 @@
 ---
-title: Maestros
+title: Masters
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve una lista de todas las diapositivas maestras que están definidas en la presentación. Solo lectura IMasterSlideCollectionaspose.slides/imasterslidecollection.
 type: docs

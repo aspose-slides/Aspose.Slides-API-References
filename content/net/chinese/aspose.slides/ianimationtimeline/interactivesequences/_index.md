@@ -1,5 +1,5 @@
 ---
-title: 交互序列
+title: InteractiveSequences
 second_title: Aspose.Slides for .NET API 参考
 description: 返回交互序列的集合。该序列可能仅包含通过单击具有指定目标形状的形状的效果。只读 ISequenceCollection aspose.slides.animation/isequencecollection。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 右
+title: Right
 second_title: Aspose.Slides for .NET API 参考
 description: 右. 只读 Single.
 type: docs

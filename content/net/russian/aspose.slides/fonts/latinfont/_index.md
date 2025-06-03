@@ -1,5 +1,5 @@
 ---
-title: ЛатинскийШрифт
+title: LatinFont
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или устанавливает латинский шрифт. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs

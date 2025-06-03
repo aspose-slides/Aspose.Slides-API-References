@@ -1,5 +1,5 @@
 ---
-title: 填充格式
+title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文本填充格式属性。只读 IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata。
 type: docs

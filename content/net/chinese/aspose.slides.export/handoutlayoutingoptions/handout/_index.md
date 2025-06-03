@@ -1,5 +1,5 @@
 ---
-title: 手册
+title: Handout
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在页面上将放置多少张幻灯片以及顺序HandoutTypeaspose.slides/handouttype.
 type: docs

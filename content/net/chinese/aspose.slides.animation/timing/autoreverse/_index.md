@@ -1,5 +1,5 @@
 ---
-title: 自动反转
+title: AutoReverse
 second_title: Aspose.Slides for .NET API 参考
 description: 描述在正向播放动画后是否自动反向播放。可读写布尔值。
 type: docs

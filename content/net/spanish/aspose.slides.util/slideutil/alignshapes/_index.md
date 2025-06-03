@@ -1,5 +1,5 @@
 ---
-title: AlinearFormas
+title: AlignShapes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Cambia la colocación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
 type: docs

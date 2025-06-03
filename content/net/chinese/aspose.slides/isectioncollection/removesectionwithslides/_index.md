@@ -1,5 +1,5 @@
 ---
-title: 移除包含幻灯片的章节
+title: RemoveSectionWithSlides
 second_title: Aspose.Slides for .NET API 参考
 description: 移除章节和包含在章节中的幻灯片。
 type: docs

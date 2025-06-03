@@ -1,5 +1,5 @@
 ---
-title: Título
+title: Title
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Devuelve el título de texto del objeto Summary Zoom Section.
 type: docs

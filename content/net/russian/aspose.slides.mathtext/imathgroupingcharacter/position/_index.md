@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Slides для .NET
 description: Позиция группирующего символа. Значение по умолчанию Низ
 type: docs

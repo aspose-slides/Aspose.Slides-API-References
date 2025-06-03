@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides for .NET API Referenz
 description: Entfernt die angegebenen Untertitel aus der Sammlung.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: HideSubscript  
+title: HideSubscript
 second_title: Aspose.Slides für .NET API Referenz  
 description: Unterschrift verstecken
 type: docs  

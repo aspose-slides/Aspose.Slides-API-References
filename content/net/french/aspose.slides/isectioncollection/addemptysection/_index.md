@@ -1,5 +1,5 @@
 ---
-title: AjouterSectionVide
+title: AddEmptySection
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajouter une section vide à la position spécifiée de la collection.
 type: docs

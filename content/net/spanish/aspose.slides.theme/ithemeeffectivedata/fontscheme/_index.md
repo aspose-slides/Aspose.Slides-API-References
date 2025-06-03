@@ -1,5 +1,5 @@
 ---
-title: Esquema de Fuentes
+title: FontScheme
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el esquema de fuentes. Solo lectura IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
 type: docs

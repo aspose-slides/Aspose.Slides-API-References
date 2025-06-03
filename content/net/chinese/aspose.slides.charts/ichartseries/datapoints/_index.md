@@ -1,5 +1,5 @@
 ---
-title: 数据点
+title: DataPoints
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此系列的数据点集合。只读 IChartDataPointCollection aspose.slides.charts/ichartdatapointcollection。
 type: docs

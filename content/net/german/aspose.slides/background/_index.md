@@ -1,5 +1,5 @@
 ---
-title: Hintergrund
+title: Background
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den Hintergrund einer Folie dar.
 type: docs

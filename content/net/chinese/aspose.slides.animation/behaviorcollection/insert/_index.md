@@ -1,5 +1,5 @@
 ---
-title: 插入
+title: Insert
 second_title: Aspose.Slildes for .NET API 参考
 description: 在指定索引处向集合中插入新行为。
 type: docs

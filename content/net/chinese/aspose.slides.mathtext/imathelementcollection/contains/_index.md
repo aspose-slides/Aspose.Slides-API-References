@@ -1,5 +1,5 @@
 ---
-title: 包含
+title: Contains
 second_title: Aspose.Slides for .NET API 参考
 description: 确定集合中是否包含特定值。
 type: docs

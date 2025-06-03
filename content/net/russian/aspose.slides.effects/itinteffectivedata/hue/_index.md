@@ -1,5 +1,5 @@
 ---
-title: Оттенок
+title: Hue
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает оттенок. Только для чтения Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 数值的数字格式
+title: NumberFormatOfValues
 second_title: Aspose.Slides for .NET API 参考
 description: 数值的数字格式。可读/写字符串。
 type: docs

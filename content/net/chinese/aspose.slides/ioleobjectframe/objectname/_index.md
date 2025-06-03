@@ -1,5 +1,5 @@
 ---
-title: 对象名称
+title: ObjectName
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置对象的名称。可读/可写字符串。
 type: docs

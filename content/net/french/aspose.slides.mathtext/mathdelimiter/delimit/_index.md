@@ -1,5 +1,5 @@
 ---
-title: Délimiter
+title: Delimit
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Délimite les arguments en utilisant le caractère délimiteur spécifié
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el tipo de viñeta de un párrafo. Solo lectura BulletTypeaspose.slides/bullettype.
 type: docs

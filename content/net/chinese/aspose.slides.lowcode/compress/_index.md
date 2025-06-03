@@ -1,5 +1,5 @@
 ---
-title: 压缩
+title: Compress
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一组旨在压缩 Presentationaspose.slides/aspose.slides/presentation 的方法。
 type: docs

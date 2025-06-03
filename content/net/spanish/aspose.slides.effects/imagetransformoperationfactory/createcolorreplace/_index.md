@@ -1,5 +1,5 @@
 ---
-title: CrearReemplazoDeColor
+title: CreateColorReplace
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un efecto de reemplazo de color.
 type: docs

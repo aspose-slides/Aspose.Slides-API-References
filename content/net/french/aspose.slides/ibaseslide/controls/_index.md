@@ -1,5 +1,5 @@
 ---
-title: Contrôles
+title: Controls
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la collection de contrôles ActiveX sur une diapositive. En lecture seule IControlCollectionaspose.slides/icontrolcollection.
 type: docs

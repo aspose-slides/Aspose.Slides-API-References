@@ -1,5 +1,5 @@
 ---
-title: 色调
+title: Tint
 second_title: Aspose.Slides for .NET API 参考
 description: 表示色调效果。通过指定的量将效果颜色值向色相移动/远离。
 type: docs

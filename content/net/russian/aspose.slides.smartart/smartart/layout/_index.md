@@ -1,5 +1,5 @@
 ---
-title: Макет
+title: Layout
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает макет объекта SmartArt. Чтение/запись SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs

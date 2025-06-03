@@ -1,5 +1,5 @@
 ---
-title: Изображения
+title: Images
 second_title: Справка по API Aspose.Slides для .NET
 description: Методы для создания и работы с IImage./iimage.
 type: docs

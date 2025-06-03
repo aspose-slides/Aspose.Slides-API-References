@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочная документация по Aspose.Slides для .NET
 description: Удаляет все шрифты из списка.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 连接
+title: Join
 second_title: Aspose.Slides for .NET API 参考
 description: 将数学元素与此数学块连接
 type: docs

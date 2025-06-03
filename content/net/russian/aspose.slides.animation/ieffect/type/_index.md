@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Определяет тип эффекта. Чтение/запись EffectTypeaspose.slides.animation/effecttype.
 type: docs

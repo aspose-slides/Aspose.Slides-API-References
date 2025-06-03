@@ -1,5 +1,5 @@
 ---
-title: Añadir
+title: Add
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Añade un elemento matemático al final de la colección.
 type: docs

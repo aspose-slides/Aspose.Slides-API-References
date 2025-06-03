@@ -1,5 +1,5 @@
 ---
-title: Puntos
+title: Points
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene puntos para el IInkLine PointF de solo lectura.
 type: docs

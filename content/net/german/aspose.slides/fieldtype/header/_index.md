@@ -1,5 +1,5 @@
 ---
-title: Kopfzeile
+title: Header
 second_title: Aspose.Slides für .NET API Referenz
 description: Kopfzeile der Folie. Schreibgeschütztes FieldTypeaspose.slides/fieldtype.
 type: docs

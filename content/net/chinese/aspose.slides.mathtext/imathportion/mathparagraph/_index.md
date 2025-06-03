@@ -1,5 +1,5 @@
 ---
-title: 数学段落
+title: MathParagraph
 second_title: Aspose.Slides for .NET API 参考
 description: 数学段落
 type: docs

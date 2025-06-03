@@ -1,5 +1,5 @@
 ---
-title: BordSupérieur
+title: BorderTop
 second_title: Référence de l'API Aspose.Slide pour .NET
 description: Renvoie la valeur effective du format de ligne de bord supérieur. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs

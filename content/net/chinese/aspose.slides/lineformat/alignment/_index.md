@@ -1,5 +1,5 @@
 ---
-title: 对齐
+title: Alignment
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置行对齐方式。可读/可写 LineAlignment aspose.slides/linealignment。
 type: docs

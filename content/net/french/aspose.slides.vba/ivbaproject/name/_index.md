@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie le nom du projet VBA. Chaîne en lecture seule.
 type: docs

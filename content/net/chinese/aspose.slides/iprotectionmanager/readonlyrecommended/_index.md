@@ -1,5 +1,5 @@
 ---
-title: 只读推荐
+title: ReadOnlyRecommended
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置只读推荐。可读写的布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: À
+title: To
 second_title: Aspose.Slides pour la référence API .NET
 description: Spécifie l'emplacement cible pour un effet de mise à l'échelle d'animation en pourcentage. Lisible/écrivible PointF.
 type: docs

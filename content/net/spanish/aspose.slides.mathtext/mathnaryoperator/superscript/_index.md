@@ -1,5 +1,5 @@
 ---
-title: Superíndice
+title: Superscript
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica un argumento de superíndice que, por ejemplo, en el caso de una integral, establece el límite superior
 type: docs

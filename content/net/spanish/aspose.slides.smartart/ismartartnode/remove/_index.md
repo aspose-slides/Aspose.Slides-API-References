@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Eliminar el nodo actual.
 type: docs

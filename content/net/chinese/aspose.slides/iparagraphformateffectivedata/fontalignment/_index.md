@@ -1,5 +1,5 @@
 ---
-title: 字体对齐
+title: FontAlignment
 second_title: Aspose.Slides for .NET API 参考
 description: 返回段落中的字体对齐。只读 FontAlignment aspose.slides/fontalignment。
 type: docs

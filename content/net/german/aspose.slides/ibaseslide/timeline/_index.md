@@ -1,5 +1,5 @@
 ---
-title: Zeitachse
+title: Timeline
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Animations-Zeitlinienobjekt zurück. Nur-lesbarer IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs

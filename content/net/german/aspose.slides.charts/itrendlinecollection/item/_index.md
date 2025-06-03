@@ -1,5 +1,5 @@
 ---  
-title: Element  
+title: Item
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Holt das Element am angegebenen Index. Nur-Lesen ITrendlineaspose.slides.charts/itrendline.
 type: docs  

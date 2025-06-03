@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si les deux instances IBaseSlide sont égales. La valeur de retour est calculée en fonction de la structure des diapositives et du contenu statique. Deux diapositives sont égales si tous les styles, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identificateur unique, par exemple, SlideId et le contenu dynamique, par exemple, la valeur de la date actuelle dans le Placeholder de date.
 type: docs

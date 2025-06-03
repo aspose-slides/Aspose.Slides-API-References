@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格的高度。只读 Double。
 type: docs

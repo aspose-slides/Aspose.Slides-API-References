@@ -1,5 +1,5 @@
 ---
-title: 嵌入
+title: Embedded
 second_title: Aspose.Slides for .NET API 参考
 description: 确定声音是否嵌入到演示文稿中。只读布尔值。
 type: docs

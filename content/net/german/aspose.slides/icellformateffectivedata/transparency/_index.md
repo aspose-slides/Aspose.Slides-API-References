@@ -1,5 +1,5 @@
 ---
-title: Transparenz
+title: Transparency
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Transparenz der Füllfarbe zurück. Lese Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 嵌入文件数据
+title: EmbeddedFileData
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回嵌入的 OLE 对象的文件数据，只读 Byte。
 type: docs

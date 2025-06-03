@@ -1,5 +1,5 @@
 ---
-title: 数据源类型
+title: DataSourceType
 second_title: Aspose.Slides for .NET API 参考
 description: 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性是否有效。换句话说，它指定 Data 属性的值的类型。该属性是只读的。要更改该属性的值，可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 属性之一。读/写 DataSourceType。
 type: docs

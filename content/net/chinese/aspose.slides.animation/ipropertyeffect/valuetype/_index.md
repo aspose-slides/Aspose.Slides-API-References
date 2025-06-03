@@ -1,5 +1,5 @@
 ---
-title: 值类型
+title: ValueType
 second_title: Aspose.Slides for .NET API 参考
 description: 指定属性值的类型。读/写 PropertyValueType aspose.slides.animation/propertyvaluetype。
 type: docs

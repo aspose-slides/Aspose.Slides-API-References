@@ -1,5 +1,5 @@
 ---
-title: Flux
+title: Stream
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient un flux. Flux en lecture seule.
 type: docs

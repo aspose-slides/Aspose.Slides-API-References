@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник API Aspose.Slide для .NET
 description: Добавить новую интерактивную последовательность. Чтение/запись Sequenceaspose.slides.animation/sequence.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: ControlCollection  
+title: ControlCollection
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Eine Sammlung von ActiveX-Steuerelementen.
 type: docs  

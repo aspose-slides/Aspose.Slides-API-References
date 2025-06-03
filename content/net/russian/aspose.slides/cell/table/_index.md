@@ -1,5 +1,5 @@
 ---
-title: Таблица
+title: Table
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает родительский объект Table для ячейки. Только для чтения ITableaspose.slides/itable.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ПравоНаЛево
+title: RightToLeft
 second_title: Aspose.Slides для .NET API Справочник
 description: Определяет, имеет ли таблица порядок чтения справа налево. Читаемый-записываемый булевый тип.
 type: docs

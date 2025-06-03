@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает столбец по указанному индексу. Только для чтения Columnaspose.slides/column.
 type: docs

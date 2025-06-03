@@ -1,5 +1,5 @@
 ---
-title: ModeSon
+title: SoundMode
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit ou retourne le mode sonore pour la transition de diapositive. Lecture/écriture TransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
 type: docs

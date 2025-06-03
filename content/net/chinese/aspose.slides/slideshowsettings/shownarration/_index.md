@@ -1,5 +1,5 @@
 ---
-title: 显示旁白
+title: ShowNarration
 second_title: Aspose.Slides for .NET API参考
 description: 在幻灯片放映中显示旁白
 type: docs

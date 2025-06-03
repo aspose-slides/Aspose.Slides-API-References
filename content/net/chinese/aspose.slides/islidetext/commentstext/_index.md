@@ -1,5 +1,5 @@
 ---
-title: 评论文本
+title: CommentsText
 second_title: Aspose.Slides for .NET API 参考
 description: 幻灯片评论的文本
 type: docs

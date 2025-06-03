@@ -1,5 +1,5 @@
 ---
-title: Радикал
+title: Radical
 second_title: Справочник API Aspose.Slides для .NET
 description: Указывает математический корень заданной степени от указанного аргумента.
 type: docs

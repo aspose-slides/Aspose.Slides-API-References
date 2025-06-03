@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le nombre de chemins dans la collection. Lecture seule Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置属性。
 type: docs

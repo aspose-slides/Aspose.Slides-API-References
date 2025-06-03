@@ -1,5 +1,5 @@
 ---
-title: PeutLire
+title: CanRead
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient une valeur indiquant si le flux actuel prend en charge la lecture. Boolean en lecture seule.
 type: docs

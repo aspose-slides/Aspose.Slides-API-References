@@ -1,5 +1,5 @@
 ---
-title: 格式
+title: Format
 second_title: Aspose.Slides for .NET API 参考
 description: 返回标题的填充线效果样式。只读 IFormataspose.slides.charts/iformat。
 type: docs

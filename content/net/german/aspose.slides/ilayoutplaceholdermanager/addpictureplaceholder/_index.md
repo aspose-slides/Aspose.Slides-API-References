@@ -1,5 +1,5 @@
 ---  
-title: AddPicturePlaceholder  
+title: AddPicturePlaceholder
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fügt der Layout-Folie eine neue Platzhalterform hinzu, um ein Bild zu halten.
 type: docs  

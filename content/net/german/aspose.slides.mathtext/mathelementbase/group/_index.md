@@ -1,5 +1,5 @@
 ---
-title: Gruppe
+title: Group
 second_title: Aspose.Slides für .NET API-Referenz
 description: Platziert dieses Element in einer Gruppe mithilfe einer unteren geschweiften Klammer
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 色彩方案
+title: SchemeColor
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示色彩方案中的颜色。
 type: docs

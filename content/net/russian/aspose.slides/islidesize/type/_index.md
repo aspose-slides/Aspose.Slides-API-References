@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает тип размера слайда. Присвоение любого значения, кроме Custom, изменит Size../size соответствующим образом, но сохранит Orientation../orientation без изменения. Чтение/запись SlideSizeTypeaspose.slides/slidesizetype.
 type: docs

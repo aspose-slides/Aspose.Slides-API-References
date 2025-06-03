@@ -1,5 +1,5 @@
 ---
-title: Zählen
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Anzahl der Bildeffekte in einer Sammlung zurück. Nur lesbares Int32.
 type: docs

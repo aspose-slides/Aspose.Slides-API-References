@@ -1,5 +1,5 @@
 ---
-title: Фигура
+title: Shape
 second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет фигуру на слайде.
 type: docs

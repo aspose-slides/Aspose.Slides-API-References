@@ -1,5 +1,5 @@
 ---
-title: 添加双调效果
+title: AddDuotoneEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的双调效果添加到集合的末尾。
 type: docs

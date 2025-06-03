@@ -1,5 +1,5 @@
 ---
-title: 大小写敏感
+title: CaseSensitive
 second_title: Aspose.Slides for .NET API 参考
 description: 设置为 true 以使用大小写敏感搜索，false - 否则。可读/可写布尔值。
 type: docs

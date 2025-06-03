@@ -1,5 +1,5 @@
 ---
-title: 段落格式
+title: ParagraphFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 段落格式。只读 IChartParagraphFormataspose.slides.charts/ichartparagraphformat。
 type: docs

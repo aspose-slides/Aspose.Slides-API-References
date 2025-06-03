@@ -1,5 +1,5 @@
 ---
-title: Masquer
+title: Hide
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le drapeau de masquage de l'entrée de légende. Lecture/écriture Booléen.
 type: docs

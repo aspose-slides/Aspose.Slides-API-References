@@ -1,5 +1,5 @@
 ---
-title: EnArgumentDeFonction
+title: AsArgumentOfFunction
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Prend la fonction spécifiée en utilisant cette instance comme argument
 type: docs

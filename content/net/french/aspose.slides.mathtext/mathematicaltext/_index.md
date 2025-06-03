@@ -1,5 +1,5 @@
 ---
-title: TexteMathématique
+title: MathematicalText
 second_title: Référence API Aspose.Sildes pour .NET
 description: Texte mathématique
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Insérer
+title: Insert
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insère une nouvelle diapositive de mise en page à la position spécifiée de la collection.
 type: docs

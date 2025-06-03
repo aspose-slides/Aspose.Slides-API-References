@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute un paragraphe à la fin de la collection.
 type: docs

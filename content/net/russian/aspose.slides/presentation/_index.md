@@ -1,5 +1,5 @@
 ---
-title: Презентация
+title: Presentation
 second_title: Ссылка по API Aspose.Slides для .NET
 description: Представляет собой презентацию Microsoft PowerPoint.
 type: docs

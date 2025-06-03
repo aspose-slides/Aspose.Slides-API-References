@@ -1,5 +1,5 @@
 ---
-title: 渐变方向
+title: GradientDirection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示渐变样式。
 type: docs

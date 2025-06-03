@@ -1,5 +1,5 @@
 ---
-title: Police
+title: Font
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne ou définit la police des puces d'un paragraphe sans héritage. Lecture/écriture IFontData aspose.slides/ifontdata.
 type: docs

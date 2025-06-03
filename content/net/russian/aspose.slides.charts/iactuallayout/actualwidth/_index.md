@@ -1,5 +1,5 @@
 ---
-title: ФактическаяШирина
+title: ActualWidth
 second_title: Aspose.Slides для .NET API Справочник
 description: Указывает фактическую ширину элемента графика. Вызовите метод IChart.ValidateChartLayout перед тем, как получить фактические значения. Читайте Single.
 type: docs

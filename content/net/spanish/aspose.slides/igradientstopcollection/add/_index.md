@@ -1,5 +1,5 @@
 ---
-title: Agregar
+title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea el nuevo punto de parada de degradado y lo agrega al final de la colección.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Helligkeit
+title: Luminance
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Helligkeitseffekt dar. Die Helligkeit verschiebt alle Farben linear näher zu Weiß oder Schwarz. Der Kontrast skaliert alle Farben, sodass sie entweder näher beieinander oder weiter auseinander liegen.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Mezcla
+title: Blend
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: FillBlendMode. Lectura/escritura FillBlendModeaspose.slides/fillblendmode.
 type: docs

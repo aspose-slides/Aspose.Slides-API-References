@@ -1,5 +1,5 @@
 ---
-title: 结束字符
+title: EndingCharacter
 second_title: Aspose.Slides for .NET API 参考
 description: 分隔符结束字符指定结束或闭合的分隔符字符。数学分隔符是括号、方括号和大括号等封闭字符。默认值为 ''.
 type: docs

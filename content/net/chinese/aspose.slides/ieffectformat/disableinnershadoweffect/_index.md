@@ -1,5 +1,5 @@
 ---
-title: 禁用内阴影效果
+title: DisableInnerShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 禁用内阴影效果。
 type: docs

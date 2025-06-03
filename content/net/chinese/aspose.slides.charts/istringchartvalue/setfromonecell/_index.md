@@ -1,5 +1,5 @@
 ---
-title: 从单元格设置
+title: SetFromOneCell
 second_title: Aspose.Slides for .NET API 参考
 description: 从指定单元格设置值。
 type: docs

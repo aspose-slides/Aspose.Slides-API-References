@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает закрытые субтитры по указанному индексу. Доступ только для чтения ICaptionsaspose.slides/icaptions.
 type: docs

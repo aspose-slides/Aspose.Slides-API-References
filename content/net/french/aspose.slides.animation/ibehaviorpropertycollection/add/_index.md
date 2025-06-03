@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute une nouvelle propriété à la collection.
 type: docs

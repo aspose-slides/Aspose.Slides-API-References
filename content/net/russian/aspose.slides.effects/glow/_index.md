@@ -1,5 +1,5 @@
 ---
-title: Сияние
+title: Glow
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет эффект Сияния, в котором цветная размытая граница добавляется за пределами краев объекта.
 type: docs

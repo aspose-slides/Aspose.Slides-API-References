@@ -1,5 +1,5 @@
 ---
-title: Фигуры
+title: Shapes
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает коллекции всех фигур, связанных с узлом. Только для чтения ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
 type: docs

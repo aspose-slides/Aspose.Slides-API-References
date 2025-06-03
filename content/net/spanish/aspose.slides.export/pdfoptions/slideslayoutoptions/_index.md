@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeDiseñoDeDiapositivas
+title: SlidesLayoutOptions
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el modo en que las diapositivas se colocan en la página al exportar una presentación ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Valeur
+title: Value
 second_title: Référence API Aspose.Slides pour .NET
 description: Si UseCell est vrai, cette propriété représente la propriété AsCell.Value. Si UseCell est faux, cette propriété représente la propriété AsLiteral. Objet en lecture/écriture.
 type: docs

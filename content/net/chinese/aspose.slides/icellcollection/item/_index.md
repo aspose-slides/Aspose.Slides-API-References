@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 根据位置返回单元格。只读 ICellaspose.slides/icell。
 type: docs

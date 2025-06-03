@@ -1,5 +1,5 @@
 ---
-title: 数据源类型
+title: DataSourceType
 second_title: Aspose.Slides for .NET API 参考
 description: 数据源类型。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Benutzerformen
+title: UserShapes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Geben Sie die Formen an, die über dem Diagramm gezeichnet werden. Nur-Lese IGroupShape aspose.slides/igroupshape.
 type: docs

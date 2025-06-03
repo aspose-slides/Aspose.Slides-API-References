@@ -1,5 +1,5 @@
 ---
-title: 时间轴
+title: Timeline
 second_title: Aspose.Slides for .NET API 参考
 description: 返回动画时间轴对象。只读 IAnimationTimeLineaspose.slides/ianimationtimeline。
 type: docs

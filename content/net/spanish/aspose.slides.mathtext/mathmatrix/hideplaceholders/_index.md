@@ -1,5 +1,5 @@
 ---
-title: OcultarMarcadoresDePosición
+title: HidePlaceholders
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Ocultar los marcadores de posición para elementos de matriz vacíos. Por defecto, falso.
 type: docs

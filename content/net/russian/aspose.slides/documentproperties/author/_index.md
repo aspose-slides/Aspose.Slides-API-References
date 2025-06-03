@@ -1,5 +1,5 @@
 ---
-title: Автор
+title: Author
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает автора презентации. Читаемый/записываемый String.
 type: docs

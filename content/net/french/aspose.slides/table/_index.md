@@ -1,5 +1,5 @@
 ---
-title: Tableau
+title: Table
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un tableau sur une diapositive.
 type: docs

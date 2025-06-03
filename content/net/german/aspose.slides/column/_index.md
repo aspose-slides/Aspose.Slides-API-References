@@ -1,5 +1,5 @@
 ---
-title: Spalte
+title: Column
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt eine Spalte in einer Tabelle dar.
 type: docs

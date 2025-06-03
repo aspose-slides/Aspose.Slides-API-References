@@ -1,5 +1,5 @@
 ---
-title: Глубина
+title: Depth
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает глубину 3D-формы. Читаемая и записываемая Double.
 type: docs

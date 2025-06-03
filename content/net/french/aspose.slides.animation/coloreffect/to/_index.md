@@ -1,5 +1,5 @@
 ---
-title: À
+title: To
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Décrit la couleur résultante pour le changement de couleur d'animation. Lecture/écriture IColorFormataspose.slides/icolorformat.
 type: docs

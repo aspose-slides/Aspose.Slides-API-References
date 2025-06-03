@@ -1,5 +1,5 @@
 ---
-title: NomDeLObjet
+title: ObjectName
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le nom d'un objet. Chaîne en lecture/écriture.
 type: docs

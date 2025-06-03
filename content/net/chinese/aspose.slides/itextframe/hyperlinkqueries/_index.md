@@ -1,5 +1,5 @@
 ---
-title: 超链接查询
+title: HyperlinkQueries
 second_title: Aspose.Slides for .NET API 参考
 description: 提供对包含的超链接的简单访问。只读 IHyperlinkQueriesaspose.slides/ihyperlinkqueries。
 type: docs

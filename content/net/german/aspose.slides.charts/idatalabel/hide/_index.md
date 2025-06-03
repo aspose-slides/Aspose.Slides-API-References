@@ -1,5 +1,5 @@
 ---
-title: Verstecken
+title: Hide
 second_title: Aspose.Slides für .NET API Referenz
 description: Machen Sie die Datenbeschriftung unsichtbar, indem Sie alle Show-Flags ShowValue ... auf den false-Zustand setzen. IsVisible wird danach false sein.
 type: docs

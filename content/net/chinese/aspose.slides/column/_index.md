@@ -1,5 +1,5 @@
 ---
-title: 列
+title: Column
 second_title: Aspose.Slides for .NET API 参考
 description: 表示表中的一列。
 type: docs

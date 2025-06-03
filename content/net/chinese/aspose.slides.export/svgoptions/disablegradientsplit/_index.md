@@ -1,5 +1,5 @@
 ---
-title: 禁用梯度分割
+title: DisableGradientSplit
 second_title: Aspose.Slides for .NET API 参考
 description: 禁用从 FromCornerX 和 FromCenter 梯度的分割。可读/可写布尔值。
 type: docs

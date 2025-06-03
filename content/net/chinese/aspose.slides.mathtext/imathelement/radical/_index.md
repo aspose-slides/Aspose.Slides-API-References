@@ -1,5 +1,5 @@
 ---
-title: 幅度
+title: Radical
 second_title: Aspose.Slides for .NET API 参考
 description: 指定从指定参数给定度数的数学根。
 type: docs

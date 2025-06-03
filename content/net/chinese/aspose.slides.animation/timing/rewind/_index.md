@@ -1,5 +1,5 @@
 ---
-title: 倒带
+title: Rewind
 second_title: Aspose.Slides for .NET API 参考
 description: 此属性指定效果在播放完成后是否会倒带。可读写布尔值。
 type: docs

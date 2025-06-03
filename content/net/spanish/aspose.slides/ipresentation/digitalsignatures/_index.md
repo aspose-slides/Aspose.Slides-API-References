@@ -1,5 +1,5 @@
 ---
-title: FirmasDigitales
+title: DigitalSignatures
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de firmas utilizadas para firmar la presentación. Colección de IDigitalSignatureCollection como aspole.slides / idigitalsignaturecollection.
 type: docs

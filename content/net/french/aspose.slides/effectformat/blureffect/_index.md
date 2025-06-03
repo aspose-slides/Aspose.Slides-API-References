@@ -1,6 +1,6 @@
 ---
 
-title: BlurEffect  
+title: BlurEffect
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Effet de flou. Lire/écrire IBluraspose.slides.effects/iblur.
 type: docs  

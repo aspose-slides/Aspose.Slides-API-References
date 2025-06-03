@@ -1,5 +1,5 @@
 ---  
-title: CreateMathGroupingCharacter  
+title: CreateMathGroupingCharacter
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Crea un carácter de agrupación matemática
 type: docs  

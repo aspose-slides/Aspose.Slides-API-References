@@ -1,5 +1,5 @@
 ---
-title: 趋势线类型
+title: TrendlineType
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置趋势线的类型。可读写 TrendlineTypeaspose.slides.charts/trendlinetype。
 type: docs

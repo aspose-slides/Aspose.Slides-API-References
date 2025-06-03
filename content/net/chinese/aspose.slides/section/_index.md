@@ -1,5 +1,5 @@
 ---
-title: 节
+title: Section
 second_title: Aspose.Slides for .NET API 参考
 description: 表示幻灯片的节。
 type: docs

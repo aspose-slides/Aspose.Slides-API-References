@@ -1,5 +1,5 @@
 ---
-title: Texte
+title: Text
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient ou définit le texte brut pour un TextFrame. Lecture/écriture String.
 type: docs

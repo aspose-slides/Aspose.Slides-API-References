@@ -1,5 +1,5 @@
 ---
-title: 从右到左
+title: RightToLeft
 second_title: Aspose.Slides for .NET API 参考
 description: 确定表是否具有从右到左的阅读顺序。可读可写布尔值。
 type: docs

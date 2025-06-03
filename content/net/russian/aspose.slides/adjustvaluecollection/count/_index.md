@@ -1,5 +1,5 @@
 ---  
-title: Количество  
+title: Count
 second_title: Ссылка на API Aspose.Slides для .NET  
 description: Возвращает количество adjustments. Только для чтения Int32.
 type: docs  

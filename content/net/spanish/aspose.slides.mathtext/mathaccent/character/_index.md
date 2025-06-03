@@ -1,5 +1,5 @@
 ---
-title: Carácter
+title: Character
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Carácter Acento El valor debe estar dentro del rango de U0300U036F o U20D0U20EF Valor por defecto Acento circunflejo combinante U0302
 type: docs

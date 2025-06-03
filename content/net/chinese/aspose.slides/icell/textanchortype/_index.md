@@ -1,5 +1,5 @@
 ---
-title: 文本锚点类型
+title: TextAnchorType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置文本锚点类型。可读写 TextAnchorTypeaspose.slides/textanchortype。
 type: docs

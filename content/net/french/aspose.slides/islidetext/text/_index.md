@@ -1,5 +1,5 @@
 ---
-title: Texte
+title: Text
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Le texte sur les formes des diapos
 type: docs

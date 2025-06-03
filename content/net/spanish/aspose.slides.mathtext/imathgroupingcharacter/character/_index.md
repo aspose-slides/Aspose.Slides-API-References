@@ -1,5 +1,5 @@
 ---
-title: Carácter
+title: Character
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Valor predeterminado del carácter de agrupamiento U23DF CORCHETE CURVO INFERIOR
 type: docs

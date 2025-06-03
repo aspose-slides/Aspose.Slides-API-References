@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или задает высоту маркера абзаца без наследования. Значение float.NaN определяет, что маркер наследует высоту от первой части абзаца. Чтение/запись Single.
 type: docs

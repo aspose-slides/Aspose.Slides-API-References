@@ -1,5 +1,5 @@
 ---
-title: Пересечение
+title: Intercept
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает значение, при котором линия тренда будет пересекать ось y. Это свойство поддерживается только для типов линии тренда exp, linear или poly. Читаемое/пишущее значение Double.
 type: docs

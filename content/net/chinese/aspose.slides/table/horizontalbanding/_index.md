@@ -1,5 +1,5 @@
 ---
-title: 水平带状
+title: HorizontalBanding
 second_title: Aspose.Slides for .NET API 参考
 description: 确定是否偶数行必须使用不同的格式进行绘制。可读写布尔值。
 type: docs

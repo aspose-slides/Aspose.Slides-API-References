@@ -1,5 +1,5 @@
 ---
-title: 中断
+title: Interrupt
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化中断请求。
 type: docs

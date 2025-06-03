@@ -1,5 +1,5 @@
 ---
-title: 添加嵌入字体
+title: AddEmbeddedFont
 second_title: Aspose.Slides for .NET API 参考
 description: 添加嵌入字体。请记住，大多数字体都是受版权保护的。当复制任何字体时，请先查找字体的许可证，并验证其是否可以自由转移到其他计算机。如果字体数据为空或此字体已经嵌入，则可能会引发 ArgumentException。
 type: docs

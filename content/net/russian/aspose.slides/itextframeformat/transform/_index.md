@@ -1,5 +1,5 @@
 ---
-title: Преобразовать
+title: Transform
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает или задает форму обтекания текста. Чтение/запись TextShapeTypeaspose.slides/textshapetype.
 type: docs

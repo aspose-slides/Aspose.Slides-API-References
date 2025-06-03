@@ -1,5 +1,5 @@
 ---
-title: 隐藏底部
+title: HideBottom
 second_title: Aspose.Slides for .NET API 参考
 description: 隐藏底部边缘（默认值为 false）- 指定边框框的底部边缘是隐藏还是显示的状态。
 type: docs

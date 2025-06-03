@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API Referenz
 description: Fasenhöhe. Nur-Lese Double.
 type: docs

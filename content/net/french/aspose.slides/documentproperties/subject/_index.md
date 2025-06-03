@@ -1,5 +1,5 @@
 ---
-title: Sujet
+title: Subject
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie ou définit le sujet d'une présentation. Chaîne en lecture/écriture.
 type: docs

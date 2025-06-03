@@ -1,5 +1,5 @@
 ---
-title: ColecciónDeDiapositivas
+title: SlideCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de diapositivas.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Прерывание
+title: Interrupt
 second_title: Справочник API Aspose.Slides для .NET
 description: Инициализация запроса на прерывание.
 type: docs

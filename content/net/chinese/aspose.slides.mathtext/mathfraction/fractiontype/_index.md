@@ -1,5 +1,5 @@
 ---
-title: 分数类型
+title: FractionType
 second_title: Aspose.Slides for .NET API 参考
 description: 分数类型 默认条形
 type: docs

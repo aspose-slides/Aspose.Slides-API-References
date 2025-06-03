@@ -1,5 +1,5 @@
 ---
-title: Espace réservé
+title: Placeholder
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un espace réservé sur une diapositive.
 type: docs

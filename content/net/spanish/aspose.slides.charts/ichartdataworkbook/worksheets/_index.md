@@ -1,5 +1,5 @@
 ---
-title: Hojas de trabajo
+title: Worksheets
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene una colección de hojas de trabajo.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: RemoveSummaryZoomSection  
+title: RemoveSummaryZoomSection
 second_title: Aspose.Slides для справочника API .NET  
 description: Удалить объект раздела увеличения резюме из коллекции.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 删除组合项
+title: DeleteGroupingItem
 second_title: Aspose.Slides for .NET API 参考
 description: 删除定义级别的组合项。
 type: docs

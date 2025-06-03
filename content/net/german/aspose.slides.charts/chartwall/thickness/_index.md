@@ -1,5 +1,5 @@
 ---  
-title: Dicke  
+title: Thickness
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Wandstärke als Prozentsatz der größten Dimension des Plotvolumens zurück oder setzt diese. Lese-/Schreibzugriff Int32.
 type: docs  

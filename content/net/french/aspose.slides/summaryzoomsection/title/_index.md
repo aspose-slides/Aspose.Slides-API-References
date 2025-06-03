@@ -1,5 +1,5 @@
 ---
-title: Titre
+title: Title
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le titre textuel de l'objet Section de Zoom Résumé.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Легенда
+title: Legend
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает или устанавливает легенду для диаграммы. Только для чтения ILegend aspose.slides.charts/ilegend.
 type: docs

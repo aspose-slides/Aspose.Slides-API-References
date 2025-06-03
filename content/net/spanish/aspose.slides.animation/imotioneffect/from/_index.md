@@ -1,5 +1,5 @@
 ---
-title: Desde
+title: From
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Especifica una coordenada x/y para comenzar la animación en porcentaje. Lectura/escritura PointF.
 type: docs

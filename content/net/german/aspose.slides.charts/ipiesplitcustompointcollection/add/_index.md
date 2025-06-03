@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Fügt einen Datenpunkt anhand seines Index in der Sammlung der Punkte der übergeordneten Serie hinzu.
 type: docs

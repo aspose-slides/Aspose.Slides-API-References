@@ -1,5 +1,5 @@
 ---  
-title: GetStream  
+title: GetStream
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt einen Stream zum Lesen zurück. Verwenden Sie 'using' oder schließen Sie den Stream nach der Verwendung.
 type: docs  

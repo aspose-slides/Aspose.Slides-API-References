@@ -1,5 +1,5 @@
 ---  
-title: SkewVertical  
+title: SkewVertical
 second_title: Aspose.Slides для .NET API Reference  
 description: Указывает угол вертикального искажения в градусах. Только для чтения Double.
 type: docs  

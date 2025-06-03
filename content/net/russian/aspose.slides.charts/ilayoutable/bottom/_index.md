@@ -1,5 +1,5 @@
 ---
-title: Низ
+title: Bottom
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает верхнюю часть элемента диаграммы как долю высоты диаграммы. Только для чтения Single.
 type: docs

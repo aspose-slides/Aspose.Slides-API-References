@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или задает тип плейсхолдера. Только для чтения PlaceholderTypeaspose.slides/placeholdertype.
 type: docs

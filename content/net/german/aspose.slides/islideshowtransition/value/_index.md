@@ -1,5 +1,5 @@
 ---
-title: Wert
+title: Value
 second_title: Aspose.Slides für .NET API-Referenz
 description: Folienübergangswert. Nur-Lese ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs

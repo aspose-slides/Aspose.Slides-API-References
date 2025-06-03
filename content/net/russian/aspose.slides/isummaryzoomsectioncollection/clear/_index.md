@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник API Aspose.Slides для .NET
 description: Удаляет все объекты SummaryZoomSection из коллекции.
 type: docs

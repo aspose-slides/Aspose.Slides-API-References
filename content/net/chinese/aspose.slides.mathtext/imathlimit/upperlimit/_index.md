@@ -1,5 +1,5 @@
 ---
-title: 上限
+title: UpperLimit
 second_title: Aspose.Slides for .NET API 参考
 description: 指定上限或下限
 type: docs

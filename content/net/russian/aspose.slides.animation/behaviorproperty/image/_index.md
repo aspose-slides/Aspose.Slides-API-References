@@ -1,5 +1,5 @@
 ---
-title: Изображение
+title: Image
 second_title: Справочная информация по Aspose.Slides для .NET
 description: Представляет свойство изображения
 type: docs

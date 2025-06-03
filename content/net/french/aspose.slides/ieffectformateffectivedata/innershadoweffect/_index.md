@@ -1,5 +1,5 @@
 ---
-title: Effet d'ombre intérieure
+title: InnerShadowEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ombre intérieure. Données efficaces IInnerShadowEffectiveData en lecture seule aspose.slides.effects/iinnershadoweffectivedata.
 type: docs

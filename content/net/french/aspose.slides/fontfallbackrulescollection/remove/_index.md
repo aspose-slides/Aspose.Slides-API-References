@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime la première occurrence d'une règle FallBack spécifique de la collection.
 type: docs

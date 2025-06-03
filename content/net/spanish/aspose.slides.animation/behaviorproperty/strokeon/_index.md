@@ -1,5 +1,5 @@
 ---  
-title: StrokeOn  
+title: StrokeOn
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa la propiedad stroke.on
 type: docs  

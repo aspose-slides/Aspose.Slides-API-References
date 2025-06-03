@@ -1,5 +1,5 @@
 ---
-title: Beschriftung
+title: Label
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die Datenbeschriftung auf der Ebene des Datenpunkts dar. Wird für Treemap- und Sunburst-Serie-Typen angewendet. Nur lesen IDataLabelaspose.slides/idatalabel.
 type: docs

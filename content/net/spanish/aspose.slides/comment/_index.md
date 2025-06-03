@@ -1,5 +1,5 @@
 ---
-title: Comentario
+title: Comment
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa un comentario en una diapositiva.
 type: docs

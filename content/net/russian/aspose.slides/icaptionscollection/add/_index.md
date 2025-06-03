@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Aspose.Slides для .NET Документация
 description: Добавляет закрытые субтитры WebVTT в конец коллекции.
 type: docs

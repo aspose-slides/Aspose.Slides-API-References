@@ -1,5 +1,5 @@
 ---
-title: Steuerung
+title: Control
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt eine ActiveX-Steuerung dar.
 type: docs

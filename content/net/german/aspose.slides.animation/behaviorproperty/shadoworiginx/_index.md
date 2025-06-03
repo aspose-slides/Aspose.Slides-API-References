@@ -1,5 +1,5 @@
 ---  
-title: ShadowOriginX  
+title: ShadowOriginX
 second_title: Aspose.Slides für .NET API Referenz  
 description: Repräsentiert die Eigenschaft 'shadow.origin.x'
 type: docs  

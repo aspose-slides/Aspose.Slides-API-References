@@ -1,5 +1,5 @@
 ---
-title: 属性
+title: Properties
 second_title: Aspose.Slides for .NET API 参考
 description: 返回 ActiveX 属性的集合。只读 IControlPropertiesCollection aspose.slides/icontrolpropertiescollection。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 包裹
+title: Enclose
 second_title: Aspose.Slides for .NET API 参考
 description: 将数学元素用括号包裹起来
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Изображение
+title: Picture
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает изображение, используемое в качестве маркировки в абзаце без наследования. Только для чтения ISlidesPictureaspose.slides/islidespicture.
 type: docs

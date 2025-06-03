@@ -1,5 +1,5 @@
 ---  
-title: Видео  
+title: Videos
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает коллекцию всех встроенных видеофайлов в презентации. Только для чтения IVideoCollectionaspose.slides/ivideocollection.
 type: docs  

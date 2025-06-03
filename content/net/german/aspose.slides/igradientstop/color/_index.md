@@ -1,5 +1,5 @@
 ---
-title: Farbe
+title: Color
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Farbe eines Farbverlaufs-Stops zurück. Nur-Lese IColorFormat aspose.slides/icolorformat.
 type: docs

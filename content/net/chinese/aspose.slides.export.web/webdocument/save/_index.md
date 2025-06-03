@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Slides for .NET API 参考
 description: 保存文档输出。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: IsGrouped  
+title: IsGrouped
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine si la forme est regroupée. Booléen en lecture seule.
 type: docs  

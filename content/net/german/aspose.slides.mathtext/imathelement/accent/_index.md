@@ -1,5 +1,5 @@
 ---
-title: Akzent
+title: Accent
 second_title: Aspose.Slides für .NET API Referenz
 description: Setzt ein Accent-Zeichen ein Zeichen oben auf diesem Element
 type: docs

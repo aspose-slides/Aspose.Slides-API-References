@@ -1,5 +1,5 @@
 ---
-title: 自动设置分类轴类型
+title: SetCategoryAxisTypeAutomatically
 second_title: Aspose.Sildes for .NET API 参考
 description: 根据轴数据自动确定值来设置IAxis.CategoryAxisType属性。
 type: docs

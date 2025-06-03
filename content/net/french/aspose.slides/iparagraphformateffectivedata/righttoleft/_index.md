@@ -1,5 +1,5 @@
 ---
-title: DroiteÀGauche
+title: RightToLeft
 second_title: Référence API Aspose.Sldes pour .NET
 description: Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Booléen en lecture seule.
 type: docs

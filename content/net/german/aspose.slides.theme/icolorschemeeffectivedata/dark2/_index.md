@@ -1,5 +1,5 @@
 ---
-title: Dunkel2
+title: Dark2
 second_title: Aspose.Slides für .NET API-Referenz
 description: Zweite dunkle Farbe im Schema. Nur-Lese-Farbe.
 type: docs

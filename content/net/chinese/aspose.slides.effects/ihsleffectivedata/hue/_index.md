@@ -1,5 +1,5 @@
 ---
-title: 色调
+title: Hue
 second_title: Aspose.Slides for .NET API 参考
 description: 返回色调百分比。只读 Single。
 type: docs

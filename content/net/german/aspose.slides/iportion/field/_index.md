@@ -1,5 +1,5 @@
 ---
-title: Feld
+title: Field
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Feld dieses Abschnitts zurück. Nur lesbar IFieldaspose.slides/ifield.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Шаблон
+title: Pattern
 second_title: Справка по API Aspose.Slides для .NET
 description: Указывает форму визуальных элементов, используемых в процессе перехода. Чтение/запись TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs

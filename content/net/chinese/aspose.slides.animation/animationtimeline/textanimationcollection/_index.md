@@ -1,5 +1,5 @@
 ---
-title: 文本动画集合
+title: TextAnimationCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文本动画的集合。只读 ITextAnimationCollection aspose.slides.animation/itextanimationcollection。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 字符
+title: Character
 second_title: Aspose.Slides for .NET API 参考
 description: 分组字符 默认值 U23DF 底部花括号
 type: docs

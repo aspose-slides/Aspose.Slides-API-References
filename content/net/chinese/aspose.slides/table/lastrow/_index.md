@@ -1,5 +1,5 @@
 ---
-title: 最后行
+title: LastRow
 second_title: Aspose.Slides for .NET API 参考
 description: 确定表格的最后一行是否需要使用特殊格式绘制。可读写布尔值。
 type: docs

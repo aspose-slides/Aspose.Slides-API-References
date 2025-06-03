@@ -1,5 +1,5 @@
 ---
-title: Symbole
+title: Symbol
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente le style de marqueur dans un graphique linéaire, un graphique de dispersion ou un graphique radar. Lecture/écriture MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs

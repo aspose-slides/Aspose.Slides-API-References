@@ -1,5 +1,5 @@
 ---
-title: SensibiliteDossier
+title: CaseSensitive
 second_title: Aspose.Slides pour .NET Référence API
 description: Définir sur vrai pour utiliser une recherche sensible à la casse, faux - sinon. Lecture/écriture Booléen.
 type: docs

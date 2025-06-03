@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Slides for .NET API 参考
 description: 返回集合中的对象数量。唯读 Int32。
 type: docs

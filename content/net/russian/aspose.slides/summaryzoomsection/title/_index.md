@@ -1,5 +1,5 @@
 ---
-title: Заголовок
+title: Title
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает текстовый заголовок объекта раздела увеличенного резюме.
 type: docs

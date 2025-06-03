@@ -1,5 +1,5 @@
 ---
-title: 嵌入文件名
+title: EmbeddedFileName
 second_title: Aspose.Slides for .NET API 参考
 description: 返回嵌入的 OLE 对象的路径
 type: docs

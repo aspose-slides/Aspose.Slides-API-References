@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Label
 second_title: Aspose.Slides for .NET API 参考
 description: 标签。只读 IDataLabel aspose.slides.charts/idatalabel。
 type: docs

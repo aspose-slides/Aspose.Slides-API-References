@@ -1,5 +1,5 @@
 ---
-title: Effekt
+title: Effect
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt Effekte zurück, die für eine Diagrammlinie verwendet werden. Schreibgeschütztes IEffectFormataspose.slides/ieffectformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 应用程序名称
+title: NameOfApplication
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置应用程序的名称。可读/可写字符串。
 type: docs

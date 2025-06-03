@@ -1,6 +1,6 @@
 ---
 
-title: RelativeScaleWidth  
+title: RelativeScaleWidth
 second_title: Aspose.Sildes для .NET API Reference  
 description: Возвращает или устанавливает масштаб ширины относительно оригинального размера изображения рамки для изображения. Значение 1.0 соответствует 100. Читаемое/Записываемое Single.
 type: docs  

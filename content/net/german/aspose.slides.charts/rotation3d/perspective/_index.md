@@ -1,5 +1,5 @@
 ---
-title: Perspektive
+title: Perspective
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Perspektivwert Sichtwinkel für 3D-Diagramme zwischen 0 und 240 zurück oder setzt ihn. Wird ignoriert, wenn der Wert der Eigenschaft RightAngleAxes true ist. Lese-/Schreibbare Byte.
 type: docs

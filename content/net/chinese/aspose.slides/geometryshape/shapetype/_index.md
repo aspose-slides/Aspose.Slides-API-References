@@ -1,5 +1,5 @@
 ---
-title: 形状类型
+title: ShapeType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置几何预设类型。注意，值更改时所有调整值将重置为其默认值。可读写 ShapeTypeaspose.slides/shapetype。
 type: docs

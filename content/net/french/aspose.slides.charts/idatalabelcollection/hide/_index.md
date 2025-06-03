@@ -1,5 +1,5 @@
 ---
-title: Masquer
+title: Hide
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Rendre l'étiquette de données cachée par défaut en définissant tous les drapeaux Show-flags ShowValue, ... de la propriété DefaultDataLabelFormat à l'état false. IsVisible sera false après cela.
 type: docs

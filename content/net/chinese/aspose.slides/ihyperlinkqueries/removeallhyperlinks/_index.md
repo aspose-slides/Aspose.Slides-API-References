@@ -1,5 +1,5 @@
 ---
-title: 移除所有超链接
+title: RemoveAllHyperlinks
 second_title: Aspose.Slides for .NET API 参考
 description: 移除所有 IHyperlinkContainer 子对象中包含的 HyperlinkClick 和 HyperlinkMouseOver 超链接。
 type: docs

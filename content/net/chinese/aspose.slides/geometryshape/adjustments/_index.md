@@ -1,5 +1,5 @@
 ---
-title: 调整
+title: Adjustments
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状调整值的集合。只读 IAdjustValueCollection aspose.slides/iadjustvaluecollection.
 type: docs

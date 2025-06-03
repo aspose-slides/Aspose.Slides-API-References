@@ -1,5 +1,5 @@
 ---
-title: AlignementDesTabulations
+title: TabAlignment
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente l'alignement des tabulations.
 type: docs

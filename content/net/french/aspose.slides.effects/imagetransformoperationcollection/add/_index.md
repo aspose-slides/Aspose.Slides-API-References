@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute le nouvel effet d'image à la fin d'une collection.
 type: docs

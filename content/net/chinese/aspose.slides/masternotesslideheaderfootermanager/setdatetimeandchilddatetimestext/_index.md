@@ -1,5 +1,5 @@
 ---
-title: 设置日期时间和子日期时间文本
+title: SetDateTimeAndChildDateTimesText
 second_title: Aspose.Slides for .NET API 参考
 description: 设置主幻灯片日期时间占位符和所有子日期时间占位符的文本。子占位符意味着占位符包含在依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 type: docs

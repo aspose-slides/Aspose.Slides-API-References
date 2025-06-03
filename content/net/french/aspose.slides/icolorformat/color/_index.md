@@ -1,5 +1,5 @@
 ---
-title: Couleur
+title: Color
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la couleur résultante avec toutes les transformations de couleur appliquées. Définit les couleurs RVB et efface toutes les transformations de couleur. Lecture/écriture de la Couleur.
 type: docs

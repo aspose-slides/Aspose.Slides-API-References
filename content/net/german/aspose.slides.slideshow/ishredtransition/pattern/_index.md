@@ -1,5 +1,5 @@
 ---
-title: Muster
+title: Pattern
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Form der visuellen Elemente an, die während der Übergänge verwendet werden. Lese-/Schreibzugriff auf TransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
 type: docs

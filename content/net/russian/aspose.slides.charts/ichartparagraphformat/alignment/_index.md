@@ -1,5 +1,5 @@
 ---
-title: Выравнивание
+title: Alignment
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает выравнивание текста в абзаце. Чтение/запись TextAlignmentaspose.slides/textalignment.
 type: docs

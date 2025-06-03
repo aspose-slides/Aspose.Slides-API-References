@@ -1,5 +1,5 @@
 ---
-title: CambioColor
+title: ColorChange
 second_title: Referencia de API de Aspose.Slidess para .NET
 description: Representa un efecto de Cambio de Color. Las instancias de FromColor se reemplazan con instancias de ToColor.
 type: docs

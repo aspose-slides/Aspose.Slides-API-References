@@ -1,5 +1,5 @@
 ---
-title: Füllformat
+title: FillFormat
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt ein Objekt mit den Füllformat-Eigenschaften der Tabelle zurück. Schreibgeschütztes IFillFormataspose.slides/ifillformat.
 type: docs

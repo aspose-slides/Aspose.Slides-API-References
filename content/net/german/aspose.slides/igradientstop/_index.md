@@ -1,5 +1,5 @@
 ---  
-title: IGradientStop  
+title: IGradientStop
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt ein Farbverlaufformat dar.
 type: docs  

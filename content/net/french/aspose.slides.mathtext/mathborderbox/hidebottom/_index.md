@@ -1,5 +1,5 @@
 ---
-title: CacherBas
+title: HideBottom
 second_title: Référence API Aspose.Slides pour .NET
 description: Cacher le bord inférieur par défaut est faux - spécifie l'état caché ou affiché du bord inférieur de la boîte de bordure.
 type: docs

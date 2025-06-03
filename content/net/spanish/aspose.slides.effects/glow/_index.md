@@ -1,5 +1,5 @@
 ---
-title: Resplandor
+title: Glow
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa un efecto de Resplandor en el cual se agrega un contorno borroso de color fuera de los bordes del objeto.
 type: docs

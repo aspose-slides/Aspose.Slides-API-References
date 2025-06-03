@@ -1,5 +1,5 @@
 ---
-title: 报告
+title: Reporting
 second_title: Aspose.Sildes for .NET API 参考
 description: 报告进度更新。
 type: docs

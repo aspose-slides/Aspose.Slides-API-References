@@ -1,5 +1,5 @@
 ---
-title: 二进制数据
+title: BinaryData
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回音频数据的副本。对于大量数据，请考虑使用 GetStream 方法以防止不必要的音频数据加载到内存中，甚至避免 OutOfMemoryException。只读字节数组。
 type: docs

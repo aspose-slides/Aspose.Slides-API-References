@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprime les commandes spécifiées de la collection.
 type: docs

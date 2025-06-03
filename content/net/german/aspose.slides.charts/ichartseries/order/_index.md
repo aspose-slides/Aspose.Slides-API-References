@@ -1,5 +1,5 @@
 ---
-title: Reihenfolge
+title: Order
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt die Reihenfolge einer Serie zurück. Lese-/Schreibbare Int32.
 type: docs

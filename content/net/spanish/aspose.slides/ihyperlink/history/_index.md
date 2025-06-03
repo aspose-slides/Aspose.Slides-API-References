@@ -1,5 +1,5 @@
 ---
-title: Historia
+title: History
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el destino del hipervínculo padre debe ser agregado a una lista de hipervínculos vistos cuando se invoca. Booleano de lectura/escritura.
 type: docs

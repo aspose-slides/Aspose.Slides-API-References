@@ -1,5 +1,5 @@
 ---
-title: 尺寸大小
+title: DimensionSize
 second_title: Aspose.Slides for .NET API 参考
 description: 指定幻灯片区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。可读/可写的 Single。在值小于 0 或大于 100 时抛出异常。
 type: docs

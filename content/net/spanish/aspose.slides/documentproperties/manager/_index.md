@@ -1,5 +1,5 @@
 ---
-title: Gerente
+title: Manager
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece la propiedad de gerente. Cadena de lectura/escritura.
 type: docs

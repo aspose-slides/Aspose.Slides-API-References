@@ -1,5 +1,5 @@
 ---
-title: AjouterUnGraphique
+title: AddChart
 second_title: Référence API Aspose.Slides pour .NET
 description: Crée un nouveau graphique, l'initialise avec des données de séries d'exemple et des paramètres, et l'ajoute à la fin de la collection.
 type: docs

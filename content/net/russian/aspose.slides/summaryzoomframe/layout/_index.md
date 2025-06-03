@@ -1,5 +1,5 @@
 ---
-title: Макет
+title: Layout
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает макет секций сводного зума в фрейме. Значение по умолчанию - GridLayout.
 type: docs

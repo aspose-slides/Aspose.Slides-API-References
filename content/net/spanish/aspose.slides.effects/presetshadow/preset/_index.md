@@ -1,5 +1,5 @@
 ---
-title: Preconfiguración
+title: Preset
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Preconfiguración. Leer/escribir PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs

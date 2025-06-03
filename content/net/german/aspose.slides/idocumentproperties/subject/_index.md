@@ -1,5 +1,5 @@
 ---
-title: Betreff
+title: Subject
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Betreff einer Präsentation zurück oder legt ihn fest. Lese-/Schreibzeichenfolge.
 type: docs

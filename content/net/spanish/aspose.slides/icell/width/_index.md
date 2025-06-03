@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el ancho de la celda. Solo lectura Double.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: CommandEffectType  
+title: CommandEffectType
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt den Befehlseffektstyp für das Verhalten des Befehlseffekts dar.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 段落格式
+title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 此类包含段落格式属性。与 IParagraphFormatEffectiveData../iparagraphformateffectivedata 不同，本类的所有属性均可写。
 type: docs

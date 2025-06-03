@@ -1,5 +1,5 @@
 ---
-title: Chronométrage
+title: Timing
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente le chronométrage de l'animation.
 type: docs

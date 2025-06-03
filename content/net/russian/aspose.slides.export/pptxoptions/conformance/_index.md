@@ -1,5 +1,5 @@
 ---
-title: Соответствие
+title: Conformance
 second_title: Справочник API Aspose.Slides для .NET
 description: Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию - Ecma376_2006
 type: docs

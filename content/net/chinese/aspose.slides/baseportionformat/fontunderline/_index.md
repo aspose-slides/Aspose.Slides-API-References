@@ -1,5 +1,5 @@
 ---
-title: 文本下划线
+title: FontUnderline
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置文本下划线类型。无继承应用。可读/写 TextUnderlineType aspose.slides/textunderlinetype。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 禁用发光效果
+title: DisableGlowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 禁用发光效果。
 type: docs

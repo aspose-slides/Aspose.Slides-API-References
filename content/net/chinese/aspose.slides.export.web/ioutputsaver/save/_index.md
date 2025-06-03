@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Slides for .NET API 参考
 description: 将输出文件保存到指定路径。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Комментарий
+title: Comment
 second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет комментарий на слайде.
 type: docs

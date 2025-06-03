@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Aufzählungszeichenhöhe eines Absatzes ohne Vererbung zurück oder legt sie fest. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff Einzel.
 type: docs

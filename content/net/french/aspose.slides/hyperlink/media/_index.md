@@ -1,5 +1,5 @@
 ---
-title: Médias
+title: Media
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un lien hypertexte spécial "lecture du fichier multimédia". Utilisé dans AudioFrame et VideoFrame. En lecture seule Hyperlinkaspose.slides/hyperlink.
 type: docs

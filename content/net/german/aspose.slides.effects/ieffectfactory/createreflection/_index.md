@@ -1,5 +1,5 @@
 ---  
-title: CreateReflection  
+title: CreateReflection
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt einen Reflexionseffekt.
 type: docs  

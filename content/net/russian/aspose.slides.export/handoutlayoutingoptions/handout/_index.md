@@ -1,5 +1,5 @@
 ---
-title: Рамка
+title: Handout
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает, сколько слайдов и в каком порядке будет размещено на странице HandoutTypeaspose.slides/handouttype.
 type: docs

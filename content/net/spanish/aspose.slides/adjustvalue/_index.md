@@ -1,5 +1,5 @@
 ---
-title: AjustarValor
+title: AdjustValue
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un valor de ajuste de formas geométricas. Estos valores afectan la forma de las formas.
 type: docs

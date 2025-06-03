@@ -1,5 +1,5 @@
 ---
-title: Porción
+title: Portion
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase Portion.
 type: docs

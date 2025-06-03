@@ -1,5 +1,5 @@
 ---
-title: СкрытьСтепень
+title: HideDegree
 second_title: Aspose.Sildes для .NET API Справочник
 description: Скрыть степень Когда истинно, степень не показывается, как в
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ПроверкаЗащитыЗаписи
+title: CheckWriteProtection
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Проверяет, правильен ли пароль для изменения защищенной от записи презентации.
 type: docs

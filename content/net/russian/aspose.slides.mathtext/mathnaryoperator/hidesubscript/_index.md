@@ -1,5 +1,5 @@
 ---  
-title: HideSubscript  
+title: HideSubscript
 second_title: Справка по API Aspose.Slides для .NET  
 description: Скрыть подстрочный текст
 type: docs  

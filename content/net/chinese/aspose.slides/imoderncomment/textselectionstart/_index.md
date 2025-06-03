@@ -1,5 +1,5 @@
 ---
-title: 文本选择起始位置
+title: TextSelectionStart
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置文本框中文本选择的起始位置，前提是与 AutoShape 相关联的评论。可读/写 Int32。
 type: docs

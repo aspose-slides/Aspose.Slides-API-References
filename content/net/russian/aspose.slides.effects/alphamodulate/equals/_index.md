@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, равен ли указанный AlphaModulateaspose.slides.effects/alphamodulate текущему AlphaModulateaspose.slides.effects/alphamodulate.
 type: docs

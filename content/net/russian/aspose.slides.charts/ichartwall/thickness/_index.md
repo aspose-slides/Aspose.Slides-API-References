@@ -1,5 +1,5 @@
 ---
-title: Толщина
+title: Thickness
 second_title: Aspose.Slides для .NET Справочник API
 description: Возвращает или устанавливает толщину стен как процент от наибольшего измерения объема графика. Чтение/запись Int32.
 type: docs

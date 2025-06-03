@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанную последовательность из коллекции.
 type: docs

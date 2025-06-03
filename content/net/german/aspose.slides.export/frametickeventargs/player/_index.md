@@ -1,5 +1,5 @@
 ---
-title: Spieler
+title: Player
 second_title: Aspose.Slides für .NET API-Referenz
 description: Holen Sie sich den Präsentationsspieler
 type: docs

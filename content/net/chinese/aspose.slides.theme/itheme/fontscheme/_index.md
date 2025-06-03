@@ -1,5 +1,5 @@
 ---
-title: 字体方案
+title: FontScheme
 second_title: Aspose.Slides for .NET API 参考
 description: 返回字体方案。只读 IFontScheme aspose.slides.theme/ifontscheme。
 type: docs

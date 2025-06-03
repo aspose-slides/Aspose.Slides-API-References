@@ -1,5 +1,5 @@
 ---
-title: 所有自定义XML部分
+title: AllCustomXmlParts
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回演示文稿中的所有自定义数据部分。仅限于 ICustomXmlPartaspose.slides/icustomxmlpart。
 type: docs

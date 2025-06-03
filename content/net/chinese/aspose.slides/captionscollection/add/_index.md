@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 将 WebVTT 字幕添加到集合的末尾。
 type: docs

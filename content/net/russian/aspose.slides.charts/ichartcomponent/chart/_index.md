@@ -1,5 +1,5 @@
 ---
-title: Диаграмма
+title: Chart
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs

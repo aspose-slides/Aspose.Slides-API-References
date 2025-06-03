@@ -1,5 +1,5 @@
 ---
-title: Beschreibung
+title: Description
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine für Menschen lesbare Beschreibung dieser Warnung zurück. Nur-Lese-String.
 type: docs

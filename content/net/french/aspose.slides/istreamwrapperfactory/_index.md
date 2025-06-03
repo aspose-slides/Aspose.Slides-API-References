@@ -1,5 +1,5 @@
 ---  
-title: IStreamWrapperFactory  
+title: IStreamWrapperFactory
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Fabrique de StreamWrappers. Pour interface COM.
 type: docs  

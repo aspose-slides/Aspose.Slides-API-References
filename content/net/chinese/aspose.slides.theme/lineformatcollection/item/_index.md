@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 获取指定索引处的元素。只读 ILineFormat aspose.slides/ilineformat。
 type: docs

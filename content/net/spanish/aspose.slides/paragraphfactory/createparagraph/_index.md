@@ -1,5 +1,5 @@
 ---
-title: CrearPárrafo
+title: CreateParagraph
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Crea un nuevo párrafo vacío.
 type: docs

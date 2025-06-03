@@ -1,5 +1,5 @@
 ---
-title: Чернила
+title: Ink
 second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет объект чернил на слайде.
 type: docs

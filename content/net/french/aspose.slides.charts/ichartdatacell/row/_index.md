@@ -1,5 +1,5 @@
 ---
-title: Ligne
+title: Row
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Retourne l'index de la ligne de la feuille de calcul dans laquelle la cellule est située. Lecture seule Int32.
 type: docs

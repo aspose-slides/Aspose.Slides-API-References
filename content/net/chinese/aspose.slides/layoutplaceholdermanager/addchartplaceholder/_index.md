@@ -1,5 +1,5 @@
 ---
-title: 添加图表占位符
+title: AddChartPlaceholder
 second_title: Aspose.Slides for .NET API 参考
 description: 向布局幻灯片添加一个新的占位符形状，以容纳图表。
 type: docs

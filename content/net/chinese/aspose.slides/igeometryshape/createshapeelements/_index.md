@@ -1,5 +1,5 @@
 ---
-title: 创建形状元素
+title: CreateShapeElements
 second_title: Aspose.Slides for .NET API 参考
 description: 创建并返回形状元素的数组。
 type: docs

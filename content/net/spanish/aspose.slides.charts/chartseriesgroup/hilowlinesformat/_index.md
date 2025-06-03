@@ -1,5 +1,5 @@
 ---  
-title: HiLowLinesFormat  
+title: HiLowLinesFormat
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica el formato HiLowLines. HiLowLines se aplica con los tipos de gráfico HiLowClose, OpenHiLowClose, VolumeHiLowClose y VolumeOpenHiLowClose.
 type: docs  

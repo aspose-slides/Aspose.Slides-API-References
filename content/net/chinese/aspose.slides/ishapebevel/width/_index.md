@@ -1,5 +1,5 @@
 ---
-title: 宽度
+title: Width
 second_title: Aspose.Slides for .NET API 参考
 description: 斜面宽度。可读写 Double。
 type: docs

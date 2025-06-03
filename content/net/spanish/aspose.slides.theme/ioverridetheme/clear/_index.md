@@ -1,5 +1,5 @@
 ---
-title: Borrar
+title: Clear
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Establezca ColorScheme, FontScheme, FormatScheme en nulo para deshabilitar cualquier anulación con este objeto de tema.
 type: docs

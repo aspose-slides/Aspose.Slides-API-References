@@ -1,5 +1,5 @@
 ---
-title: Statut
+title: Status
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne ou définit le statut du commentaire. Lecture/écriture ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs

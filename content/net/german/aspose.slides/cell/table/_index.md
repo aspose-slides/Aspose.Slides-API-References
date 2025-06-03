@@ -1,5 +1,5 @@
 ---
-title: Tabelle
+title: Table
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das übergeordnete Table-Objekt für eine Zelle zurück. Nur lesbar ITableaspose.slides/itable.
 type: docs

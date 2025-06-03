@@ -1,5 +1,5 @@
 ---
-title: Элементы управления
+title: Controls
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию элементов управления ActiveX на слайде. Только для чтения IControlCollectionaspose.slides/icontrolcollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Lautstärke
+title: Volume
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Audio-Lautstärke zurück oder setzt sie. Lese-/Schreibzugriff auf AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs

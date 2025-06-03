@@ -1,5 +1,5 @@
 ---
-title: DateHeure
+title: DateTime
 second_title: Référence API Aspose.Sildes pour .NET
 description: Date et heure actuelles au format par défaut de date et heure pour l'application de rendu. Champ en lecture seule FieldTypeaspose.slides/fieldtype.
 type: docs

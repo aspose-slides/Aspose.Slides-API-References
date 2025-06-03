@@ -1,5 +1,5 @@
 ---
-title: Velocidad
+title: Speed
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica el porcentaje por el cual acelerar o desacelerar el tiempo. Lectura/escritura Single.
 type: docs

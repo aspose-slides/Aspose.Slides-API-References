@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает элемент по индексу.
 type: docs

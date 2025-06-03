@@ -1,5 +1,5 @@
 ---
-title: EstilosDeRelleno
+title: FillStyles
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una colección de estilos de relleno definidos por el tema. Solo lectura IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs

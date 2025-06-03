@@ -1,5 +1,5 @@
 ---
-title: Caractère
+title: Character
 second_title: Référence API Aspose.Slides pour .NET
 description: Caractère de groupement Valeur par défaut U23DF ACCOLADE INFÉRIEURE
 type: docs

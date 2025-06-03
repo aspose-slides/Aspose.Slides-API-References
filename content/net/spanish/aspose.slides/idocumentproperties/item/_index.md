@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la propiedad personalizada asociada con un nombre específico. Objeto de lectura/escritura.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 时间线
+title: Timeline
 second_title: Aspose.Slides for .NET API 参考
 description: 返回动画时间线对象。只读 IAnimationTimeLine。
 type: docs

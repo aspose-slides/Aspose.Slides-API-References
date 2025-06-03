@@ -1,5 +1,5 @@
 ---
-title: 对齐
+title: Alignment
 second_title: Aspose.Slides for .NET API 参考
 description: 返回选项卡的对齐样式。只读 TabAlignment aspose.slides/tabalignment。
 type: docs

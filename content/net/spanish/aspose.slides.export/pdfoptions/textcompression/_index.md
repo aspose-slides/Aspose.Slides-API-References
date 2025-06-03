@@ -1,5 +1,5 @@
 ---
-title: CompresiónDeTexto
+title: TextCompression
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica el tipo de compresión que se utilizará para todo el contenido textual en el documento. Leer/escribir PdfTextCompressionaspose.slides.export/pdftextcompression.
 type: docs

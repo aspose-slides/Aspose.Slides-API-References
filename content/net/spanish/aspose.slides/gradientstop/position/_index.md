@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Devuelve o establece la posición 0..1 de un punto de parada de degradado. Lectura/escritura Single.
 type: docs

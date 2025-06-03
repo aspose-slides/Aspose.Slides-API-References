@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt einem Array am angegebenen Index ein neues Verhalten hinzu.
 type: docs

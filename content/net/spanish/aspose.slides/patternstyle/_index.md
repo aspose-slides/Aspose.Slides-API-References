@@ -1,5 +1,5 @@
 ---
-title: EstiloDePatrón
+title: PatternStyle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el estilo de patrón.
 type: docs

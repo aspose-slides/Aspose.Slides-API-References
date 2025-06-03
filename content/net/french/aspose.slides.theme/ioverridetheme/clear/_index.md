@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit ColorScheme, FontScheme, FormatScheme sur null pour désactiver tout remplacement avec cet objet thème.
 type: docs

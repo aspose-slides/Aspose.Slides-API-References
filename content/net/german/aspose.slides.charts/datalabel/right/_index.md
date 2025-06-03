@@ -1,5 +1,5 @@
 ---
-title: Rechts
+title: Right
 second_title: Aspose.Slides für .NET API Referenz
 description: Rechts. Schreibgeschütztes Single.
 type: docs

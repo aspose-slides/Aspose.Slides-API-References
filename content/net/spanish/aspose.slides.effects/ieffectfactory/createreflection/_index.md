@@ -1,5 +1,5 @@
 ---
-title: CrearReflejo
+title: CreateReflection
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Crea un efecto de Reflejo.
 type: docs

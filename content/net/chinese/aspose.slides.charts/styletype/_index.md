@@ -1,5 +1,5 @@
 ---
-title: 风格类型
+title: StyleType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图表风格。
 type: docs

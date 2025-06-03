@@ -1,5 +1,5 @@
 ---
-title: OstasiatischeSchriftart
+title: EastAsianFont
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die ostasiatische Schriftart zurück. Schreibgeschütztes IFontDataaspose.slides/ifontdata.
 type: docs

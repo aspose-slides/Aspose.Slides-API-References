@@ -1,5 +1,5 @@
 ---
-title: AxeHorizontalSecondaire
+title: SecondaryHorizontalAxis
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'axe horizontal secondaire des graphiques. Lecture seule IAxisaspose.slides.charts/iaxis.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Lignes
+title: Rows
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la collection de lignes. Lecture seule IRowCollection aspose.slides/irowcollection.
 type: docs

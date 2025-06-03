@@ -1,5 +1,5 @@
 ---
-title: ColorDeRelleno
+title: FillColor
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el color de relleno de una forma. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs

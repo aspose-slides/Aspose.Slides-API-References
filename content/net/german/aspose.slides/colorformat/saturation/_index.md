@@ -1,5 +1,5 @@
 ---
-title: Sättigung
+title: Saturation
 second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Sättigungskomponente einer Farbe in HSL-Darstellung zurück oder setzt diese. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben von Single.
 type: docs

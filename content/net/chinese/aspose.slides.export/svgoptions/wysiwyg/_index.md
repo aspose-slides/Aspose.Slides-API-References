@@ -1,5 +1,5 @@
 ---
-title: 所见即所得
+title: WYSIWYG
 second_title: Aspose.Slides for .NET API 参考
 description: 返回最准确的 SVG 文件生成设置。属性为只读的 SVGOptions aspose.slides.export/svgoptions。
 type: docs

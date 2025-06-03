@@ -1,5 +1,5 @@
 ---
-title: 系列
+title: Series
 second_title: Aspose.Slides for .NET API 参考
 description: 获取系列。只读 IChartSeriesCollectionaspose.slides/ichartseriescollection。
 type: docs

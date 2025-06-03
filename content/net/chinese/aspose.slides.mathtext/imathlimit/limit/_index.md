@@ -1,5 +1,5 @@
 ---
-title: 极限
+title: Limit
 second_title: Aspose.Slides for .NET API 参考
 description: 极限参数
 type: docs

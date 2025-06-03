@@ -1,5 +1,5 @@
 ---
-title: Montant
+title: Amount
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un montant d'effet en pourcentages. Lecteur/Écrivain Single.
 type: docs

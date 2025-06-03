@@ -1,5 +1,5 @@
 ---
-title: SekundäreHorizontaleAchse
+title: SecondaryHorizontalAxis
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die sekundäre horizontale Achse des Diagramms ab. Nur-Lese-IAxisaspose.slides.charts/iaxis.
 type: docs

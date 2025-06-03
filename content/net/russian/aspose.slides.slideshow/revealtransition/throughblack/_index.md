@@ -1,5 +1,5 @@
 ---
-title: ЧерезЧерный
+title: ThroughBlack
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Указывает, затухает ли переход в черный цвет. Читаемое/записываемое логическое значение.
 type: docs

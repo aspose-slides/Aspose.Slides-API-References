@@ -1,5 +1,5 @@
 ---
-title: Эффект
+title: Effect
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает эффекты, используемые для диаграммы. Только для чтения IEffectFormataspose.slides/ieffectformat.
 type: docs

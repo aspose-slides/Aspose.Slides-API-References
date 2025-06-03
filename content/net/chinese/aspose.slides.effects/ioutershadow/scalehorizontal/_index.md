@@ -1,5 +1,5 @@
 ---
-title: 水平缩放
+title: ScaleHorizontal
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定水平缩放因子，负缩放会导致翻转。读/写 Double。
 type: docs

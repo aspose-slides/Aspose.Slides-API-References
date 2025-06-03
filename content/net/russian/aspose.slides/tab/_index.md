@@ -1,5 +1,5 @@
 ---
-title: Вкладка
+title: Tab
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет табуляцию для текста.
 type: docs

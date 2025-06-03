@@ -1,5 +1,5 @@
 ---
-title: Salida
+title: Output
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve una colección de elementos de salida del documento host. Solo lectura Outputaspose.slides.export.web/templatecontext-1/output.
 type: docs

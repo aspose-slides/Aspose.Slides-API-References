@@ -1,5 +1,5 @@
 ---
-title: Inicio
+title: Start
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Inicio
 type: docs

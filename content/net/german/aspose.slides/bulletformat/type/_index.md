@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Aufzählungstyp eines Absatzes ohne Vererbung zurück oder setzt ihn. Schreib-/Lesezugriff auf BulletTypeaspose.slides/bullettype.
 type: docs

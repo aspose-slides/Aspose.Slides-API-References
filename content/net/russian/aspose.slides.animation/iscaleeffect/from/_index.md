@@ -1,5 +1,5 @@
 ---
-title: От
+title: From
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает координаты x/y для начала анимации в процентах. Чтение/запись PointF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 变量缩放
+title: VariableScale
 second_title: Aspose.Slides for .NET API 参考
 description: 指定视图内容应自动缩放以最佳适应当前窗口大小。可读/可写布尔值。
 type: docs

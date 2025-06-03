@@ -1,5 +1,5 @@
 ---
-title: EliminarElementoAgrupado
+title: DeleteGroupingItem
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Eliminar elemento agrupado para el nivel definido.
 type: docs

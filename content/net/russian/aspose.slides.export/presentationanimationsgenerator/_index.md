@@ -1,5 +1,5 @@
 ---
-title: ГенераторАнимацийПрезентации
+title: PresentationAnimationsGenerator
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет собой генератор анимаций в Презентации../aspose.slides/presentation.
 type: docs

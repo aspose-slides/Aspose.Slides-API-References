@@ -1,5 +1,5 @@
 ---
-title: 下划线
+title: Underbar
 second_title: Aspose.Slides for .NET API 参考
 description: 在此元素的底部设置一条线
 type: docs

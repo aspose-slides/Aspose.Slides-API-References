@@ -1,5 +1,5 @@
 ---
-title: InsertarDiapositivaVacia
+title: InsertEmptySlide
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta una copia de una diapositiva especificada en la posición especificada de la colección.
 type: docs

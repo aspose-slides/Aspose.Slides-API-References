@@ -1,5 +1,5 @@
 ---
-title: Linie
+title: Line
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Eigenschaften des Linienstyls einer Diagrammlinie zurück. Nur-lesender ILineFormataspose.slides/../aspose.slides/ilineformat.
 type: docs

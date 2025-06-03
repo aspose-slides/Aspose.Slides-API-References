@@ -1,5 +1,5 @@
 ---
-title: SupprimerLigne
+title: DeleteRow
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la ligne spécifiée
 type: docs

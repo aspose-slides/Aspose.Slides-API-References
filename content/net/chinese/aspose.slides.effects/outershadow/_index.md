@@ -1,5 +1,5 @@
 ---
-title: 外部阴影
+title: OuterShadow
 second_title: Aspose.Slides for .NET API 参考
 description: 代表一种外部阴影效果。
 type: docs

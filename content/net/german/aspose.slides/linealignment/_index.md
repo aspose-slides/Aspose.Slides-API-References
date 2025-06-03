@@ -1,5 +1,5 @@
 ---
-title: Linienausrichtung
+title: LineAlignment
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den Typ der Linienausrichtung dar.
 type: docs

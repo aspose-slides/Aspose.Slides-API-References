@@ -1,5 +1,5 @@
 ---
-title: Наложение
+title: Overlay
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, могут ли другие элементы графика перекрывать легенду. Читаемое/записываемое логическое значение.
 type: docs

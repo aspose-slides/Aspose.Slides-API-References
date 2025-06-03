@@ -1,5 +1,5 @@
 ---  
-title: Y  
+title: Y
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die y-Koordinate eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lese-/schreibgeschützter Single.
 type: docs  

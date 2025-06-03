@@ -1,5 +1,5 @@
 ---
-title: 源文件格式
+title: SourceFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示源文件格式。
 type: docs

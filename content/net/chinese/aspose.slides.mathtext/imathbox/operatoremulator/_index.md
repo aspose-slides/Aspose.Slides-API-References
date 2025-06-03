@@ -1,5 +1,5 @@
 ---
-title: 操作符仿真器
+title: OperatorEmulator
 second_title: Aspose.Slides for .NET API 参考
 description: 操作符仿真器。当为真时，框及其内容表现为单一操作符并继承操作符的属性。这意味着，例如，该字符可以作为换行的点，并可以对齐其他操作符。操作符仿真器通常在一个或多个字形组合形成一个操作符时使用，例如 '=='。默认值为：false
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Superposición
+title: Overlay
 second_title: Referencia de API de Aspose.Slidess para .NET
 description: Determina si se permitirá que otros elementos del gráfico se superpongan al título. Booleano de lectura/escritura.
 type: docs

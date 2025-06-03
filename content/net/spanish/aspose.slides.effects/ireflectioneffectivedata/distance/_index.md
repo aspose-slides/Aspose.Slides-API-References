@@ -1,5 +1,5 @@
 ---
-title: Distancia
+title: Distance
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Distancia de reflexión. Solo lectura Double.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CrearEscalaDeGrises
+title: CreateGrayScale
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un efecto de escala de grises.
 type: docs

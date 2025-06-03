@@ -1,5 +1,5 @@
 ---
-title: Insérer
+title: Insert
 second_title: Référence API Aspose.Slides pour .NET
 description: Insère un nouveau comportement dans une collection à l'index spécifié.
 type: docs

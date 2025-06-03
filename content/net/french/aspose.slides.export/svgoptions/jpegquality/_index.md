@@ -1,5 +1,5 @@
 ---  
-title: JpegQuality  
+title: JpegQuality
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine la qualité d'encodage JPEG. Lire/écrire Int32.
 type: docs  

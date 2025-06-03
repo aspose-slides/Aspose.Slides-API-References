@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Sildes for .NET API 参考
 description: 在集合的末尾添加绘图指南。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Añadir
+title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agrega la guía de dibujo al final de la colección.
 type: docs

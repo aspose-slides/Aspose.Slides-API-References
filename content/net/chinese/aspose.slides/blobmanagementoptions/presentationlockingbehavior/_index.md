@@ -1,5 +1,5 @@
 ---
-title: 演示文稿锁定行为
+title: PresentationLockingBehavior
 second_title: Aspose.Slides for .NET API 参考
 description: 此属性定义了在实例生命周期内，Presentation 类的一个实例是否可以成为源文件或流的所有者。如果实例是所有者，它会锁定源。这有助于在处理 BLOB 时改善内存消耗和性能，但在演示文稿的实例生命周期内，源流或文件不能更改。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: К
+title: To
 second_title: Ссылка по API Aspose.Slides для .NET
 description: Указывает определенный атрибут эффекта после анимационного эффекта. Представляет значение точки. Только bool, ColorFormat, float, int, string. Чтение/запись Object.
 type: docs

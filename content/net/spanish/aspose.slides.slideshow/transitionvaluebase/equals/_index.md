@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Determina si las dos instancias de TransitionValueBase son iguales.
 type: docs

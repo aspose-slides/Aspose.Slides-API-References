@@ -1,5 +1,5 @@
 ---
-title: 文本框格式
+title: TextFrameFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此文本框对象的格式化对象。只读 ITextFrameFormat aspose.slides/itextframeformat。
 type: docs

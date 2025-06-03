@@ -1,5 +1,5 @@
 ---
-title: CollectionAudio
+title: AudioCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de fichiers audio intégrés.
 type: docs

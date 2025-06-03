@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den Typ des Filtereffekts dar. Lese-/Schreibzugriff auf FilterEffectTypeaspose.slides.animation/filtereffecttype.
 type: docs

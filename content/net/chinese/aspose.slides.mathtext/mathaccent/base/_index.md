@@ -1,5 +1,5 @@
 ---
-title: 基础
+title: Base
 second_title: Aspose.Slides for .NET API 参考
 description: 应用斜体的参数
 type: docs

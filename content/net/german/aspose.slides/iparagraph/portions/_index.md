@@ -1,5 +1,5 @@
 ---
-title: Abschnitte
+title: Portions
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Sammlung von Textabschnitten zurück. Nur-Lese IPortionCollectionaspose.slides/iportioncollection.
 type: docs

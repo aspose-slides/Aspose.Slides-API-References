@@ -1,5 +1,5 @@
 ---
-title: Superíndice
+title: Superscript
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Argumento de superíndice
 type: docs

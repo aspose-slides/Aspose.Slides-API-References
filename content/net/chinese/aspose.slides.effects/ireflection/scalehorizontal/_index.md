@@ -1,5 +1,5 @@
 ---
-title: 水平缩放
+title: ScaleHorizontal
 second_title: Aspose.Slides for .NET API 参考
 description: 指定水平缩放因子，负缩放会导致翻转。百分比 读/写 双精度.
 type: docs

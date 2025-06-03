@@ -1,5 +1,5 @@
 ---
-title: 输出
+title: Output
 second_title: Aspose.Slides for .NET API 参考
 description: 代表 IWebDocument 的输出元素集合。
 type: docs

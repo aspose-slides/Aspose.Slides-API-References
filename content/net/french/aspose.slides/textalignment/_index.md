@@ -1,5 +1,5 @@
 ---
-title: AlignementDuTexte
+title: TextAlignment
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente différents styles d'alignement du texte.
 type: docs

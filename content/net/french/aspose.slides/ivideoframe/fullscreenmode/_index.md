@@ -1,5 +1,5 @@
 ---
-title: ModePleinÉcran
+title: FullScreenMode
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine si une vidéo est affichée en mode plein écran. Booléen en lecture/écriture.
 type: docs

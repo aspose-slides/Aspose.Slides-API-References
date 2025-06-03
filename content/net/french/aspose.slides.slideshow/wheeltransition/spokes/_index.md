@@ -1,5 +1,5 @@
 ---  
-title: Rayons  
+title: Spokes
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Nombre de rayons de la transition de la roue. Lecture/écriture UInt32.
 type: docs  

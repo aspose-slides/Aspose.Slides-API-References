@@ -1,5 +1,5 @@
 ---
-title: TypeDeValeur
+title: ValueType
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente les manières possibles de déterminer la longueur des barres d'erreur. En cas de type de valeur personnalisé, pour spécifier la valeur, utilisez la propriété ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues d'un point de données spécifique dans la collection DataPoints de la série. En cas de type de valeur fixe, pourcentage ou écart type, utilisez la propriété Value pour spécifier la valeur. Propriété en lecture/écriture ErrorBarValueTypeaspose.slides/errorbarvaluetype.
 type: docs

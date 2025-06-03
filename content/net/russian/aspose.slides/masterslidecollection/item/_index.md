@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу. Только для чтения MasterSlideaspose.slides/masterslide.
 type: docs

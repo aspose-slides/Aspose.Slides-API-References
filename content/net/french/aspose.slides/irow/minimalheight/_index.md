@@ -1,5 +1,5 @@
 ---
-title: HauteurMinimale
+title: MinimalHeight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la hauteur minimale possible d'une ligne. Lecture/écriture Double.
 type: docs

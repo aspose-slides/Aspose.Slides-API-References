@@ -1,5 +1,5 @@
 ---
-title: Сохранить
+title: Save
 second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Сохраняет изображение в указанный файл
 type: docs

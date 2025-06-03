@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Tabs
 second_title: Aspose.Slides for .NET API 参考
 description: 返回段落的制表符。只读 ITabEffectiveDataaspose.slides/itabeffectivedata。
 type: docs

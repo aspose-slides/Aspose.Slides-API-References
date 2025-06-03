@@ -1,5 +1,5 @@
 ---
-title: 点
+title: Points
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取 IInkLine PointF 的只读点。
 type: docs

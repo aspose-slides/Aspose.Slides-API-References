@@ -1,5 +1,5 @@
 ---
-title: 格式
+title: Format
 second_title: Aspose.Slides for .NET API 参考
 description: 表示坐标轴的格式。只读 IAxisFormataspose.slides/iaxisformat。
 type: docs

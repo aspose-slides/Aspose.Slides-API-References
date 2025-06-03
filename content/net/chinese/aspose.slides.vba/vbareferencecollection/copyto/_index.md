@@ -1,5 +1,5 @@
 ---  
-title: 复制到  
+title: CopyTo
 second_title: Aspose.Slides for .NET API 参考  
 description: 将集合中的所有元素复制到指定数组。
 type: docs  

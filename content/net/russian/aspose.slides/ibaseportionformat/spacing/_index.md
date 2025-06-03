@@ -1,5 +1,5 @@
 ---
-title: Интервал
+title: Spacing
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает значение между символами. **float.NaN** означает, что значение неопределенно и должно наследоваться от Master. Чтение/запись Single.
 type: docs

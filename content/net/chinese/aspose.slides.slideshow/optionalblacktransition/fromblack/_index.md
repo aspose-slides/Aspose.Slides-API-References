@@ -1,5 +1,5 @@
 ---
-title: 从黑屏开始
+title: FromBlack
 second_title: Aspose.Slides for .NET API 参考
 description: 此属性指定过渡是否将从黑屏开始，然后在黑色上过渡到新幻灯片。可读/写布尔值。
 type: docs

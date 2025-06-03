@@ -1,5 +1,5 @@
 ---
-title: Thema
+title: Theme
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt ein Thema dar.
 type: docs

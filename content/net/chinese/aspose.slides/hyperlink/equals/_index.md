@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定两个 Hyperlink 实例是否相等。
 type: docs

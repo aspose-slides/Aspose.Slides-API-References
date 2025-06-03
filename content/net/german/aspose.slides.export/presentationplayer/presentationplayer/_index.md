@@ -1,5 +1,5 @@
 ---
-title: Präsentationsspieler
+title: PresentationPlayer
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt eine neue Instanz des PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs

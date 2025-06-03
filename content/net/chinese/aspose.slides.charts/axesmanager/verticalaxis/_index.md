@@ -1,5 +1,5 @@
 ---
-title: 纵轴
+title: VerticalAxis
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图表的纵轴。为只读 IAxisaspose.slides.charts/iaxis。
 type: docs

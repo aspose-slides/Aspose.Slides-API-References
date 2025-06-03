@@ -1,5 +1,5 @@
 ---
-title: Dirección
+title: Direction
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Dirección de la transición. Lectura/escritura Orientationaspose.slides/orientation.
 type: docs

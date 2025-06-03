@@ -1,5 +1,5 @@
 ---  
-title: AddDataPointForTreemapSeries  
+title: AddDataPointForTreemapSeries
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est une Treemap.
 type: docs  

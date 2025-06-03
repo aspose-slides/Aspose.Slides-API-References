@@ -1,5 +1,5 @@
 ---  
-title: InvertedSolidFillColor  
+title: InvertedSolidFillColor
 second_title: Aspose.Slides для .NET API Справочник  
 description: Указывает инвертированный сплошной цвет для серии. Чтобы применить настройку цвета, установите формат серии FillType в FillType.Solid. Чтение/запись IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs  

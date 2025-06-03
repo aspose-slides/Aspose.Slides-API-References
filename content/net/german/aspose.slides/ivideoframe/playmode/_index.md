@@ -1,5 +1,5 @@
 ---
-title: Wiedergabemodus
+title: PlayMode
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Wiedergabemodus für Videos zurück oder setzt ihn. Lese-/Schreibzugriff auf VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs

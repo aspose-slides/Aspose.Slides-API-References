@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API Referenz
 description: Wenn die Kategorie in der Sammlung vorhanden ist, geben Sie sie zurück. Andernfalls erstellen Sie eine neue Diagrammkategorie aus IChartDataCellaspose.slides.charts/ichartdatacell und fügen Sie sie der Sammlung hinzu.
 type: docs

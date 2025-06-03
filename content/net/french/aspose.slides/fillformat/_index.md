@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente des options de formatage de remplissage.
 type: docs

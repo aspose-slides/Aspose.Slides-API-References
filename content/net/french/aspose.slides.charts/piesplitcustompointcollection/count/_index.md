@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le nombre de points de données du graphique. Lecture seule Int32.
 type: docs

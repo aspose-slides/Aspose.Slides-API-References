@@ -1,5 +1,5 @@
 ---
-title: Escala
+title: Scale
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la relación de escalado de vista en porcentajes. Lectura/escritura Int32.
 type: docs

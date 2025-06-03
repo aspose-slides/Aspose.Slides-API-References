@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Sildes for .NET API 参考
 description: 从列表中移除特定 FallBack 字体的首次出现。
 type: docs

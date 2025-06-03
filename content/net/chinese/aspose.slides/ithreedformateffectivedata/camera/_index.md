@@ -1,5 +1,5 @@
 ---
-title: 相机
+title: Camera
 second_title: Aspose.Slides for .NET API参考
 description: 返回相机的设置。只读 ICameraEffectiveDataaspose.slides/icameraeffectivedata。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Камера
+title: Camera
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или задает параметры камеры. Только для чтения ICameraaspose.slides/icamera.
 type: docs

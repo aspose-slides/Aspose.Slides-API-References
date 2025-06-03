@@ -1,5 +1,5 @@
 ---
-title: 积分
+title: Integral
 second_title: Aspose.Slides for .NET API 参考
 description: 获取积分
 type: docs

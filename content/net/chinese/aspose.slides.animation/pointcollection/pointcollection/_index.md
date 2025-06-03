@@ -1,5 +1,5 @@
 ---
-title: 点集合
+title: PointCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 默认构造函数。
 type: docs

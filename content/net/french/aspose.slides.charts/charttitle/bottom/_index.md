@@ -1,5 +1,5 @@
 ---
-title: Bas
+title: Bottom
 second_title: Référence API Aspose.Sildes pour .NET
 description: Bas. Lecture seule Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Derecha
+title: Right
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Derecha. Solo lectura Single.
 type: docs

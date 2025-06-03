@@ -1,5 +1,5 @@
 ---
-title: 形状
+title: Shape
 second_title: Aspose.Sildes for .NET API 参考
 description: 迭代演示文稿中的每个 Shape aspose.slides.lowcode/foreach/shape。所有类型的幻灯片中都将迭代形状 - Slide aspose.slides.lowcode/foreach/slide、MasterSlide aspose.slides.lowcode/foreach/masterslide 和 LayoutSlide aspose.slides.lowcode/foreach/layoutslide
 type: docs

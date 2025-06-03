@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Ссылки на API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу. Доступ только для чтения Trendlineaspose.slides.charts/trendline.
 type: docs

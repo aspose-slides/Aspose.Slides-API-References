@@ -1,5 +1,5 @@
 ---
-title: 正常化高度
+title: NormaliseHeight
 second_title: Aspose.Slides for .NET API 参考
 description: 确定文本的高度是否应该被正常化。只读布尔值。
 type: docs

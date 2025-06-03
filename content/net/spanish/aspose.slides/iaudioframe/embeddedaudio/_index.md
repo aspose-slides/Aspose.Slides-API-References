@@ -1,5 +1,5 @@
 ---
-title: AudioIntegrado
+title: EmbeddedAudio
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece un objeto de audio incrustado. Lectura/escritura IAudioaspose.slides/iaudio.
 type: docs

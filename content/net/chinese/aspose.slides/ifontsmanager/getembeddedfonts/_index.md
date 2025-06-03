@@ -1,5 +1,5 @@
 ---
-title: 获取嵌入字体
+title: GetEmbeddedFonts
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿中嵌入的字体
 type: docs

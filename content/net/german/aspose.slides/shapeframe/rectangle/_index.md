@@ -1,5 +1,5 @@
 ---
-title: Rechteck
+title: Rectangle
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Koordinaten eines Rahmens zurück. Nur-lesbares RectangleF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Rahmen
+title: Frame
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Eigenschaften des Formenrahmens zurück oder setzt sie. Lese-/Schreibzugriff auf IShapeFrameaspose.slides/ishapeframe.
 type: docs

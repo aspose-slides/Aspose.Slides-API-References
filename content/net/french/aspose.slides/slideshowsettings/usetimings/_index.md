@@ -1,5 +1,5 @@
 ---
-title: UtiliserLesTemps
+title: UseTimings
 second_title: Référence de l'API Aspose.Slidess pour .NET
 description: Utiliser les temps dans le diaporama
 type: docs

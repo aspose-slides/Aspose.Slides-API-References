@@ -1,5 +1,5 @@
 ---
-title: Entrée
+title: Input
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente une collection de modèles d'éléments d'entrée.
 type: docs

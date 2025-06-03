@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник API Aspose.Sildes для .NET
 description: Получает количество дочерних математических элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs

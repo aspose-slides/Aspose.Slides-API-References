@@ -1,5 +1,5 @@
 ---  
-title: Élément  
+title: Item
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie l'objet IChartDataPointLevel pour le niveau défini.
 type: docs  

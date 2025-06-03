@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el nombre de una forma. Lectura/escritura String.
 type: docs

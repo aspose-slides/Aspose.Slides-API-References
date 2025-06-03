@@ -1,5 +1,5 @@
 ---  
-title: Equals  
+title: Equals
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob zwei TabsEx-Instanzen gleich sind.
 type: docs  

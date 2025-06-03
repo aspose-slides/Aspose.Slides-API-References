@@ -1,5 +1,5 @@
 ---
-title: Продукт
+title: Product
 second_title: Справочник по API Aspose.Slides для .NET
 description: Название продукта Aspose.Slides
 type: docs

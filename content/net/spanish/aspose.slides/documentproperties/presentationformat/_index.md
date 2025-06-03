@@ -1,5 +1,5 @@
 ---
-title: FormatoDePresentación
+title: PresentationFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el formato previsto de una presentación. String de lectura/escritura.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Argumentos
+title: Arguments
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: El conjunto de elementos del arreglo
 type: docs

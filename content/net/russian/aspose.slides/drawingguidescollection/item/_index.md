@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает направляющую рисования по индексу. Только для чтения IDrawingGuideaspose.slides/idrawingguide.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ТипЗаполнения
+title: FillType
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает тип заполнения. Чтение/запись FillTypeaspose.slides/filltype.
 type: docs

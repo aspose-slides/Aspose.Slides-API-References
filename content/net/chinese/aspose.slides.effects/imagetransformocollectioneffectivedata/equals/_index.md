@@ -1,5 +1,5 @@
 ---
-title: 相等
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定对象是否等于当前对象。
 type: docs

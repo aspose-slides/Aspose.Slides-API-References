@@ -1,5 +1,5 @@
 ---
-title: 从开始修剪
+title: TrimFromStart
 second_title: Aspose.Slides for .NET API 参考
 description: 修剪开始时间 ms
 type: docs

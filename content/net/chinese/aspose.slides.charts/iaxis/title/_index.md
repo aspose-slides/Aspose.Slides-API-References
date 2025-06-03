@@ -1,5 +1,5 @@
 ---
-title: 标题
+title: Title
 second_title: Aspose.Slides for .NET API 参考
 description: 获取轴的标题。只读 IChartTitleaspose.slides.charts/icharttitle。
 type: docs

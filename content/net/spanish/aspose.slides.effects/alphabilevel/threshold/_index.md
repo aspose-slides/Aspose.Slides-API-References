@@ -1,5 +1,5 @@
 ---
-title: Umbral
+title: Threshold
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el umbral del efecto. Lectura/escritura Single.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: GetRotation  
+title: GetRotation
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Una rotación se define a través del uso de una coordenada de latitud, una coordenada de longitud y una revolución sobre el eje como las coordenadas de latitud y longitud. Primer elemento en el array de retorno - latitud, segundo - longitud, tercero - revolución.
 type: docs  

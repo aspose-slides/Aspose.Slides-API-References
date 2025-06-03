@@ -1,5 +1,5 @@
 ---
-title: AjouterUnEspaceDeContenu
+title: AddContentPlaceholder
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu tel qu'une image, un tableau, un média ou du texte.
 type: docs

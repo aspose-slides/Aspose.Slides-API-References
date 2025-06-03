@@ -1,5 +1,5 @@
 ---
-title: Article
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie une cellule IChartDataCell par index.
 type: docs

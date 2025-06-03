@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la posición de un comentario en una diapositiva. Lectura/escritura PointF.
 type: docs

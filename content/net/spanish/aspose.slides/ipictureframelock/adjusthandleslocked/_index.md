@@ -1,5 +1,5 @@
 ---
-title: AjustarManejoBloqueado
+title: AdjustHandlesLocked
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si está prohibido cambiar los valores ajustados. Booleano de lectura/escritura.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: AddDataPointForDoughnutSeries  
+title: AddDataPointForDoughnutSeries
 second_title: Aspose.Slides for .NET API 参考  
 description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为甜甜圈子类型之一的系列，另见 ChartTypeCharacterizer.IsChartTypeDoughnutChartType 方法。
 type: docs  

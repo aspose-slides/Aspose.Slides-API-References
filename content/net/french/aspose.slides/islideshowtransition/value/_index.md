@@ -1,5 +1,5 @@
 ---
-title: Valeur
+title: Value
 second_title: Référence API Aspose.Slides pour .NET
 description: Valeur de la transition de diaporama. Lecture seule ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs

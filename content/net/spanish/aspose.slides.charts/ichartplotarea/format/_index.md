@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el formato de un área de trazado. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs

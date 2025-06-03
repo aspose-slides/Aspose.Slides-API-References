@@ -1,5 +1,5 @@
 ---
-title: Tamaño
+title: Size
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el tamaño del marcador en un gráfico de líneas, un gráfico de dispersión o un gráfico radar. Lectura/escritura Int32.
 type: docs

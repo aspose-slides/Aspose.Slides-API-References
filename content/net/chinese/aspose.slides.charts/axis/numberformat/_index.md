@@ -1,5 +1,5 @@
 ---
-title: 数字格式
+title: NumberFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 表示轴标签的格式字符串。可读写字符串。
 type: docs

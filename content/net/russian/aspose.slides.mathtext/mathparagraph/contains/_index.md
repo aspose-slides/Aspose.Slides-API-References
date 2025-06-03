@@ -1,5 +1,5 @@
 ---
-title: Содержит
+title: Contains
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Определяет, содержит ли коллекция конкретное значение.
 type: docs

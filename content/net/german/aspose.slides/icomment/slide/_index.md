@@ -1,5 +1,5 @@
 ---
-title: Folie
+title: Slide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die übergeordnete Folie eines Kommentars zurück oder legt sie fest. Nur-lesebares ISlideaspose.slides/islide.
 type: docs

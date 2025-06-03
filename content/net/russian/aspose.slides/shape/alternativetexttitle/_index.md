@@ -1,5 +1,5 @@
 ---
-title: АльтернативныйТекстЗаголовок
+title: AlternativeTextTitle
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает заголовок альтернативного текста, связанного с фигурой. Читаемая/записываемая строка.
 type: docs

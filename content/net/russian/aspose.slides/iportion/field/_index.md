@@ -1,5 +1,5 @@
 ---
-title: Поле
+title: Field
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает поле этого раздела. Только для чтения IFieldaspose.slides/ifield.
 type: docs

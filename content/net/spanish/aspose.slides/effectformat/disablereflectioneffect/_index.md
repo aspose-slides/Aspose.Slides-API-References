@@ -1,5 +1,5 @@
 ---
-title: DesactivarEfectoReflejo
+title: DisableReflectionEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Desactiva el efecto de reflexión.
 type: docs

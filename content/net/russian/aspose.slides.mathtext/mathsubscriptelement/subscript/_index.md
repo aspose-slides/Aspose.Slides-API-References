@@ -1,5 +1,5 @@
 ---
-title: Подстрочный индекс
+title: Subscript
 second_title: Справочник по API Aspose.Slides для .NET
 description: Подстрочный индекс
 type: docs

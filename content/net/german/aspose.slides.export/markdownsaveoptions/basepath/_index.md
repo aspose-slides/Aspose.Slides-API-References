@@ -1,5 +1,5 @@
 ---
-title: BasisPfad
+title: BasePath
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Basis-Pfad an, unter dem das Dokument mit Ressourcen gespeichert wird. Der Standardwert ist das aktuelle Verzeichnis der Anwendung.
 type: docs

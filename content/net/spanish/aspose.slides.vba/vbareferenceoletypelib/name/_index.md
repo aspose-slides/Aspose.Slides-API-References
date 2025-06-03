@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el nombre de la referencia del proyecto VBA. Cadena de lectura/escritura.
 type: docs

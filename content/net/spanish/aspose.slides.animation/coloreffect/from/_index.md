@@ -1,5 +1,5 @@
 ---
-title: Desde
+title: From
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Este valor se utiliza para especificar el color inicial del comportamiento. Lectura/escritura IColorFormataspose.slides/icolorformat.
 type: docs

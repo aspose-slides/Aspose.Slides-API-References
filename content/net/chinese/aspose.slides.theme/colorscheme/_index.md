@@ -1,5 +1,5 @@
 ---
-title: 颜色方案
+title: ColorScheme
 second_title: Aspose.Slides for .NET API 参考
 description: 存储主题定义的颜色。
 type: docs

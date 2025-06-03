@@ -1,5 +1,5 @@
 ---
-title: 数学重音
+title: MathAccent
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个应用于指定数学元素的数学重音，使用默认的重音字符值
 type: docs

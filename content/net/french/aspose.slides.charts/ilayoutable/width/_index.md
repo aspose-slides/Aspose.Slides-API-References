@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la largeur de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture/écriture Single.
 type: docs

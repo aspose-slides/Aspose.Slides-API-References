@@ -1,5 +1,5 @@
 ---
-title: Löschen
+title: Clear
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt alle Effekte aus einer Sammlung.
 type: docs

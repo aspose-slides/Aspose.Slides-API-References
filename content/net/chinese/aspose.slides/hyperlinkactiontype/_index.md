@@ -1,5 +1,5 @@
 ---
-title: 超链接动作类型
+title: HyperlinkActionType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一种超链接动作类型。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: VidéoIntégrée
+title: EmbeddedVideo
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit l'objet vidéo intégré. Lecture/écriture IVideoaspose.slides/ivideo.
 type: docs

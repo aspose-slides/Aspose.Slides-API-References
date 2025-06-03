@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine si le AlphaReplaceaspose.slides/alphareplace spécifié est égal au AlphaReplaceaspose.slides/alphareplace actuel.
 type: docs

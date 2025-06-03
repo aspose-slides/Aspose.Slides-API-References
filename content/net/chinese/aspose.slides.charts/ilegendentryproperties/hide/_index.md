@@ -1,5 +1,5 @@
 ---
-title: 隐藏
+title: Hide
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图例条目的隐藏标志。可读/写布尔值。
 type: docs

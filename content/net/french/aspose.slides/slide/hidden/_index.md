@@ -1,5 +1,5 @@
 ---
-title: Caché
+title: Hidden
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si la diapositive spécifiée est cachée pendant un diaporama. Booléen en lecture/écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el SoftEdgeaspose.slides/softedge especificado es igual al SoftEdgeaspose.slides/softedge actual.
 type: docs

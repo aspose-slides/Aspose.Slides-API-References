@@ -1,5 +1,5 @@
 ---
-title: Geschwindigkeit
+title: Speed
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Prozentsatz an, um den die Zeit beschleunigt oder verlangsamt werden soll. Lesen/Schreiben Einzel.
 type: docs

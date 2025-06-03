@@ -1,5 +1,5 @@
 ---
-title: Eingabe
+title: Input
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt eine Sammlung von Eingabeelementen Vorlagen dar.
 type: docs

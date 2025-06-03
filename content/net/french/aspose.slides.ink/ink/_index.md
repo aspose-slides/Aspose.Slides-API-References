@@ -1,5 +1,5 @@
 ---
-title: Encre
+title: Ink
 second_title: Référence API d'Aspose.Slides pour .NET
 description: Représente un objet d'encre sur une diapositive.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: InsérerUneLigneAprès
+title: InsertRowAfter
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insérer une nouvelle ligne après celle spécifiée. Au départ, tous les éléments de la nouvelle ligne sont nuls.
 type: docs

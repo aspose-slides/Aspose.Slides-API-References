@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет формат линии тренда. Свойство для чтения/записи IFormataspose.slides.charts/iformat.
 type: docs

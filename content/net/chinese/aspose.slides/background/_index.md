@@ -1,5 +1,5 @@
 ---
-title: 背景
+title: Background
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片的背景。
 type: docs

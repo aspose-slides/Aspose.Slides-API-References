@@ -1,5 +1,5 @@
 ---
-title: Inferior
+title: Bottom
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inferior. Solo lectura de tipo Single.
 type: docs

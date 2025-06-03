@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie le nombre d'objets dans la collection. Lecture seule Int32.
 type: docs

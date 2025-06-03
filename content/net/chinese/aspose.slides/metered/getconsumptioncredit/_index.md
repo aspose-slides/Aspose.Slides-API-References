@@ -1,5 +1,5 @@
 ---
-title: 获取消费信用
+title: GetConsumptionCredit
 second_title: Aspose.Slides for .NET API 参考
 description: 获取消费信用
 type: docs

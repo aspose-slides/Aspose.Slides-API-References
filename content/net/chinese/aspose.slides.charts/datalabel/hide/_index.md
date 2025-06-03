@@ -1,5 +1,5 @@
 ---
-title: 隐藏
+title: Hide
 second_title: Aspose.Sildes for .NET API 参考
 description: 通过将所有显示标志 ShowValue ... 设置为 false 状态来使数据标签隐藏。此操作后 IsVisible 将为 false。
 type: docs

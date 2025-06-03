@@ -1,5 +1,5 @@
 ---
-title: 输出路径
+title: OutputPath
 second_title: Aspose.Slides for .NET API 参考
 description: 确定外部资源应存储的位置。读/写字符串。
 type: docs

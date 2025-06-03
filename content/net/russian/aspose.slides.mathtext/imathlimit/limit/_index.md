@@ -1,5 +1,5 @@
 ---  
-title: Предел  
+title: Limit
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Аргумент предела
 type: docs  

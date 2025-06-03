@@ -1,5 +1,5 @@
 ---
-title: 禁用软边缘效果
+title: DisableSoftEdgeEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 禁用软边缘效果。
 type: docs

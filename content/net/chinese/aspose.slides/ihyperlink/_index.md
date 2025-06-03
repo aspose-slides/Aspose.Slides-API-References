@@ -1,5 +1,5 @@
 ---  
-title: IHyperlink  
+title: IHyperlink
 second_title: Aspose.Sildes for .NET API 参考  
 description: 表示超链接。
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 坐标轴
+title: Axis
 second_title: Aspose.Slides for .NET API 参考
 description: 封装表示图表坐标轴的对象。
 type: docs

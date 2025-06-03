@@ -1,5 +1,5 @@
 ---
-title: 光源装置
+title: LightRig
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置光源的类型。只读 ILightRigaspose.slides/ilightrig。
 type: docs

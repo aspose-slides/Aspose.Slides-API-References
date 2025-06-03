@@ -1,5 +1,5 @@
 ---
-title: 设置页脚和子页脚文本
+title: SetFooterAndChildFootersText
 second_title: Aspose.Slides for .NET API 参考
 description: 设置文本到布局幻灯片页脚占位符和所有子页脚占位符。子占位符意味着占位符包含在依赖的幻灯片上。依赖的幻灯片使用并依赖布局幻灯片。
 type: docs

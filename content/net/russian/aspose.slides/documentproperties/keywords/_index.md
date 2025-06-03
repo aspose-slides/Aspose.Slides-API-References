@@ -1,5 +1,5 @@
 ---
-title: Ключевые слова
+title: Keywords
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или задает ключевые слова презентации. Читаемая/записываемая строка.
 type: docs

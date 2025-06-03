@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Представляет позицию оси. Чтение/запись AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs

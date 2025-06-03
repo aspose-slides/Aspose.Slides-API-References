@@ -1,5 +1,5 @@
 ---
-title: Ярлык
+title: Label
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает метку для закрытых субтитров. Чтение/запись String.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Параграфы
+title: Paragraphs
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает список всех параграфов в рамке. Только для чтения IParagraphCollection aspose.slides/iparagraphcollection.
 type: docs

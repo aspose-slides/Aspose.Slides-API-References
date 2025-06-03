@@ -1,5 +1,5 @@
 ---
-title: TypeDePuces
+title: BulletType
 second_title: Aspose.Slides pour .NET Référence API
 description: Représente le type des puces étendues.
 type: docs

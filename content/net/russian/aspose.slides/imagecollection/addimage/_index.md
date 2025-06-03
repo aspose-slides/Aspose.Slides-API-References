@@ -1,5 +1,5 @@
 ---
-title: ДобавитьИзображение
+title: AddImage
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет копию изображения из другой презентации.
 type: docs

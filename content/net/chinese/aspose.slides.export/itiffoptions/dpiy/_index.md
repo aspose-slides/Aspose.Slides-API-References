@@ -1,5 +1,5 @@
 ---  
-title: DpiY  
+title: DpiY
 second_title: Aspose.Sildes for .NET API 参考  
 description: 指定每英寸的垂直分辨率（以点为单位）。可读写 UInt32。
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 从
+title: From
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定一个 x/y 坐标，以百分比形式表示动画开始的位置。读/写 PointF。
 type: docs

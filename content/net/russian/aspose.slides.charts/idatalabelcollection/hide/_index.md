@@ -1,5 +1,5 @@
 ---
-title: Скрыть
+title: Hide
 second_title: Справочник по API Aspose.Slides для .NET
 description: Сделайте метку данных скрытой по умолчанию, установив все флаги Show-флагов ShowValue ... свойства DefaultDataLabelFormat в состояние false. IsVisible будет равен false после этого.
 type: docs

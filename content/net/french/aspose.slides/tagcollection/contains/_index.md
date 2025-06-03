@@ -1,5 +1,5 @@
 ---
-title: Contient
+title: Contains
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si la collection contient un nom spécifique.
 type: docs

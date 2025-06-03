@@ -1,5 +1,5 @@
 ---
-title: 渐变停止集合
+title: GradientStopCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示渐变停止的集合。
 type: docs

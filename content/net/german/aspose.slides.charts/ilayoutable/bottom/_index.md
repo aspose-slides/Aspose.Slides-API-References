@@ -1,5 +1,5 @@
 ---
-title: Unten
+title: Bottom
 second_title: Aspose.Slides für .NET API Referenz
 description: Erhält die Oberseite des Diagrammelements als Bruchteil der Höhe des Diagramms. Nur-Lese Single.
 type: docs

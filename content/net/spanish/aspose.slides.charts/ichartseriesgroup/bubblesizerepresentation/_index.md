@@ -1,5 +1,5 @@
 ---
-title: RepresentaciónTamañoBurbuja
+title: BubbleSizeRepresentation
 second_title: Referencia API de Aspose.Slides para .NET
 description: Especifica cómo se representan los valores del tamaño de las burbujas en el gráfico de burbujas. Lectura/escritura BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
 type: docs

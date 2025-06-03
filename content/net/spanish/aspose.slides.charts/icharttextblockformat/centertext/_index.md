@@ -1,5 +1,5 @@
 ---  
-title: CenterText  
+title: CenterText
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Si NullableBool.True entonces el texto debe estar centrado en la caja horizontalmente. Leer/escribir NullableBoolaspose.slides/nullablebool.
 type: docs  

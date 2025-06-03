@@ -1,5 +1,5 @@
 ---
-title: 悬挂标点
+title: HangingPunctuation
 second_title: Aspose.Slides for .NET API 参考
 description: 决定段落中是否使用悬挂标点。只读布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 填充
+title: Fill
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图表的填充样式属性。只读 IFillFormat。
 type: docs

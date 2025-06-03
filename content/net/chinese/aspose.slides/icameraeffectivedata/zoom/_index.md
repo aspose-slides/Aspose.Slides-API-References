@@ -1,5 +1,5 @@
 ---
-title: 缩放
+title: Zoom
 second_title: Aspose.Slides for .NET API 参考
 description: 相机缩放正值百分比。只读单精度浮点数。
 type: docs

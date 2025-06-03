@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence API Aspose.Slides pour .NET
 description: Hauteur du biseau. Lecture/écriture Double.
 type: docs

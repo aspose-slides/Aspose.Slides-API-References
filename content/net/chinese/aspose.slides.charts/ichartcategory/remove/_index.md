@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Slides for .NET API 参考
 description: 从图表中移除类别。
 type: docs

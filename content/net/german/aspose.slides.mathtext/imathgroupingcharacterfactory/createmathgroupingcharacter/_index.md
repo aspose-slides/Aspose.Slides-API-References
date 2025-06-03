@@ -1,5 +1,5 @@
 ---  
-title: CreateMathGroupingCharacter  
+title: CreateMathGroupingCharacter
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt ein mathematisches Gruppierungszeichen
 type: docs  

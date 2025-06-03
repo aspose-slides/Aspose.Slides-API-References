@@ -1,5 +1,5 @@
 ---
-title: Числитель
+title: Numerator
 second_title: Справочник API Aspose.Slides для .NET
 description: Числитель
 type: docs

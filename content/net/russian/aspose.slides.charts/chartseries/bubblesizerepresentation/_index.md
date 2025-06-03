@@ -1,5 +1,5 @@
 ---  
-title: BubbleSizeRepresentation  
+title: BubbleSizeRepresentation
 second_title: Aspose.Slides для .NET Справочник по API  
 description: Указывает, как значения размера пузырьков представлены на диаграмме пузырьков. Это свойство относится не только к этой серии, но и ко всем сериям группы родительских серий - это проекция соответствующего свойства группы. Поэтому это свойство является только для чтения. Используйте свойство ParentSeriesGroup для доступа к группе родительских серий. Используйте свойство ParentSeriesGroup.BubbleSizeRepresentation для изменения значения.
 type: docs  

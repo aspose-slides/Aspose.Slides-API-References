@@ -1,5 +1,5 @@
 ---
-title: Смешивание
+title: Blend
 second_title: Справочник по API Aspose.Slides для .NET
 description: FillBlendMode. Только для чтения FillBlendModeaspose.slides/fillblendmode.
 type: docs

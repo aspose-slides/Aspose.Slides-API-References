@@ -1,5 +1,5 @@
 ---
-title: InterpretarMaskOpComoOpacidad
+title: InterpretMaskOpAsOpacity
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Utiliza la operación ROP o la Opacidad para renderizar el pincel.
 type: docs

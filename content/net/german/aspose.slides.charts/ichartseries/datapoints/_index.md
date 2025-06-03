@@ -1,5 +1,5 @@
 ---
-title: Datenpunkte
+title: DataPoints
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Sammlung von Datenpunkten dieser Serie zurück. Nur lesbarer IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs

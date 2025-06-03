@@ -1,5 +1,5 @@
 ---
-title: 挤出方向角
+title: ExtrusionOrientationAngle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 extrusion.orientationangle 属性
 type: docs

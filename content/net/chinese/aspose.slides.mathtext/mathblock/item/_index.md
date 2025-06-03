@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取或设置指定索引处的 IMathElement。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CentroDeRotación
+title: RotationCenter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Describe el centro de la rotación utilizado para rotar una ruta de movimiento por un ángulo X. Lectura/escritura PointF.
 type: docs

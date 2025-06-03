@@ -1,5 +1,5 @@
 ---
-title: НачальнаяПрозрачностьОтражения
+title: StartReflectionOpacity
 second_title: Справка по API Aspose.Slides для .NET
 description: Начальная прозрачность отражения. проценты. Чтение/запись Single.
 type: docs

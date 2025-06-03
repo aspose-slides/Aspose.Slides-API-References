@@ -1,5 +1,5 @@
 ---
-title: Denominador
+title: Denominator
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Denominador
 type: docs

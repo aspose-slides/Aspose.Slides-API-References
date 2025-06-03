@@ -1,5 +1,5 @@
 ---
-title: 宽度
+title: Width
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置绘图区域边界框的宽度，该宽度是图表宽度的一个比例，从 0 到 1。可读写单精度浮点数。
 type: docs

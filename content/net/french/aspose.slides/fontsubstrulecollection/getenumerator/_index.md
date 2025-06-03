@@ -1,5 +1,5 @@
 ---  
-title: GetEnumerator  
+title: GetEnumerator
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs  

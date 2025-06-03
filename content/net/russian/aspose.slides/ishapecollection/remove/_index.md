@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник API Aspose.Slides для .NET
 description: Удаляет первое вхождение конкретной фигуры из коллекции.
 type: docs

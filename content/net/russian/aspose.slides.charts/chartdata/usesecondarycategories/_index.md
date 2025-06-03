@@ -1,5 +1,5 @@
 ---
-title: ИспользоватьВторичныеКатегории
+title: UseSecondaryCategories
 second_title: Aspose.Slides для .NET API Справочник
 description: Если ложь, то свойство SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories возвращает null, и данные в свойстве Categoriesaspose.slides.charts/chartdata/categories используются как для первичных, так и для вторичных последовательностей. Если истина, то данные в свойстве SecondaryCategoriesaspose.slides.charts/chartdata/secondarycategories используются для вторичных последовательностей, а данные в свойстве Categoriesaspose.slides.charts/chartdata/categories используются для первичных последовательностей. Читаемое/Запись булево.
 type: docs

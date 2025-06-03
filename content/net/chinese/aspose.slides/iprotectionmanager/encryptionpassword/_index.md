@@ -1,5 +1,5 @@
 ---
-title: 加密密码
+title: EncryptionPassword
 second_title: Aspose.Slides for .NET API 参考
 description: 返回加密密码。只读字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 末端箭头宽度
+title: EndArrowheadWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一条线末端的箭头宽度。只读 LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs

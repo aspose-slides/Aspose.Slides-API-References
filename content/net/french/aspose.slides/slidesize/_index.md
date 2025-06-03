@@ -1,5 +1,5 @@
 ---
-title: Taille de la diapositive
+title: SlideSize
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une taille de diapositive.
 type: docs

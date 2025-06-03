@@ -1,5 +1,5 @@
 ---
-title: 创建时间
+title: CreatedTime
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置评论创建的时间。将此属性设置为 MinValue 意味着没有设置评论时间。可读/可写 DateTime。
 type: docs

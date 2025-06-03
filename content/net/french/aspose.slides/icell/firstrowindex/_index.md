@@ -1,5 +1,5 @@
 ---
-title: PremierIndiceLigne
+title: FirstRowIndex
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un index de la première ligne couverte par la cellule. En lecture seule Int32.
 type: docs

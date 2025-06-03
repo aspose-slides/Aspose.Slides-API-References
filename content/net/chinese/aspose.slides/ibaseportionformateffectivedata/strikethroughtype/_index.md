@@ -1,5 +1,5 @@
 ---
-title: 划线类型
+title: StrikethroughType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文本的划线类型。只读 TextStrikethroughType aspose.slides/textstrikethroughtype。
 type: docs

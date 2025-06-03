@@ -1,5 +1,5 @@
 ---
-title: 部分
+title: Sections
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿中定义的所有幻灯片部分的列表。只读 ISectionCollectionaspose.slides/isectioncollection。
 type: docs

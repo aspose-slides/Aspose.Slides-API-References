@@ -1,5 +1,5 @@
 ---
-title: Neuordnen
+title: Reorder
 second_title: Aspose.Slides für .NET API Referenz
 description: Verschiebt Folie aus der Sammlung an die angegebene Position.
 type: docs

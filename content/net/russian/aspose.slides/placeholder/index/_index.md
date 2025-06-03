@@ -1,5 +1,5 @@
 ---
-title: Индекс
+title: Index
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или задает индекс заполнителья. Только для чтения UInt32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 填充模式
+title: FillMode
 second_title: Aspose.Slides for .NET API 参考
 description: 设置填充模式
 type: docs

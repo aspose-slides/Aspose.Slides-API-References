@@ -1,5 +1,5 @@
 ---
-title: Пароль
+title: Password
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает или устанавливает пароль. Читаемая/пишемая строка.
 type: docs

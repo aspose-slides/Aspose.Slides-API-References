@@ -1,5 +1,5 @@
 ---
-title: EstiloDeForma
+title: ShapeStyle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto de estilo de la forma. Solo lectura IShapeStyle aspose.slides/ishapestyle.
 type: docs

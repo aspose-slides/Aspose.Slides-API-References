@@ -1,5 +1,5 @@
 ---  
-title: ArrowheadsLocked  
+title: ArrowheadsLocked
 second_title: Référence API Aspose.Slides pour .NET  
 description: Détermine si le changement des flèches est interdit. Lecture / écriture Booléen.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 使用框架旋转
+title: UseFrameRotation
 second_title: Aspose.Slides for .NET API 参考
 description: 确定在渲染时是否执行指定的形状旋转。可读写布尔值。默认值为 true。
 type: docs

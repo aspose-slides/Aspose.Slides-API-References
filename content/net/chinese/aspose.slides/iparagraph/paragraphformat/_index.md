@@ -1,5 +1,5 @@
 ---
-title: 段落格式
+title: ParagraphFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此段落的格式对象。只读 IParagraphFormat aspose.slides/iparagraphformat。
 type: docs

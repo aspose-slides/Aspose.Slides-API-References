@@ -1,5 +1,5 @@
 ---
-title: Denominador
+title: Denominator
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Denominador
 type: docs

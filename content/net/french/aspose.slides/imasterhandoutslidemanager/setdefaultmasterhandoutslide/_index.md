@@ -1,5 +1,5 @@
 ---
-title: DéfinirLeDiapositiveDeRemiseMaîtreParDéfaut
+title: SetDefaultMasterHandoutSlide
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit la diapositive de remise maître par défaut à la diapositive de remise associée.
 type: docs

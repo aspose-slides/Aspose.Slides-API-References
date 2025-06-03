@@ -1,5 +1,5 @@
 ---
-title: По
+title: By
 second_title: Справочник API Aspose.Slides для .NET
 description: Описывает относительное значение смещения для анимации в процентах. Чтение/запись PointF.
 type: docs

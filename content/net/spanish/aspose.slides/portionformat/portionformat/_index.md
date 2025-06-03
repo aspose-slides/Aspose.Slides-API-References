@@ -1,5 +1,5 @@
 ---
-title: FormatoPorción
+title: PortionFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase PortionFormataspose.slides/portionformat.
 type: docs

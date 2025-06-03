@@ -1,5 +1,5 @@
 ---
-title: 颜色方向
+title: ColorDirection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示颜色效果行为的颜色方向。
 type: docs

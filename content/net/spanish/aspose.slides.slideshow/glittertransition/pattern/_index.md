@@ -1,5 +1,5 @@
 ---
-title: Patrón
+title: Pattern
 second_title: Referencia de la API de Aspose.Silides para .NET
 description: Especifica la forma de los elementos visuales utilizados durante la transición. Lectura/escritura TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs

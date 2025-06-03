@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Slides for .NET API参考
 description: 从集合中移除一个ActiveX控件。
 type: docs

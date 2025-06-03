@@ -1,5 +1,5 @@
 ---
-title: Espace réservé
+title: Placeholder
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'espace réservé pour une forme. Renvoie null si la forme n'a pas d'espace réservé. Lecture seule IPlaceholderaspose.slides/iplaceholder.
 type: docs

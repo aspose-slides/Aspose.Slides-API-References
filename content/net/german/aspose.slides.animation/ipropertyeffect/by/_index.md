@@ -1,5 +1,5 @@
 ---
-title: Nach
+title: By
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen relativen Offset-Wert für die Animation in Bezug auf ihre Position vor Beginn der Animation an. Lese-/Schreibzugriff String.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Valor
+title: Value
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene o establece el valor de una celda. Objeto de lectura/escritura.
 type: docs

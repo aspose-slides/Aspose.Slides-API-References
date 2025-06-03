@@ -1,5 +1,5 @@
 ---
-title: Слайды
+title: Slides
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает общее количество слайдов в документе презентации. Только для чтения Int32.
 type: docs

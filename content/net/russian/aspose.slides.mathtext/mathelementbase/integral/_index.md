@@ -1,5 +1,5 @@
 ---
-title: Интеграл
+title: Integral
 second_title: Справочник по API Aspose.Slides для .NET
 description: Выполняет интегрирование
 type: docs

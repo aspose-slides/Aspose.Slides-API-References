@@ -1,5 +1,5 @@
 ---
-title: AgregarComentario
+title: AddComment
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agregar un nuevo comentario al final de una colección.
 type: docs

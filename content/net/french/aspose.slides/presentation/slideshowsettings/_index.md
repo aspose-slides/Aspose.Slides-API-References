@@ -1,5 +1,5 @@
 ---
-title: ParamètresDiaporama
+title: SlideShowSettings
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les paramètres diaporama pour la présentation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Libérer
+title: Dispose
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Libérer ImageWrapper
 type: docs

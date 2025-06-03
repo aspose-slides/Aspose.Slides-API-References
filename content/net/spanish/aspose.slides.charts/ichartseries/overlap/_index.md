@@ -1,5 +1,5 @@
 ---
-title: Superposición
+title: Overlap
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica cuánto se superponen las barras y columnas en gráficos 2-D como un porcentaje del -100 al 100. Esta es una propiedad no solo de esta serie, sino de todas las series del grupo de series padre. Es una proyección de la propiedad apropiada en el grupo de series padre y, por lo tanto, esta propiedad es de solo lectura. Para cambiar el valor, utiliza la propiedad de lectura/escritura ParentSeriesGroup.Overlap. SByte de solo lectura.
 type: docs

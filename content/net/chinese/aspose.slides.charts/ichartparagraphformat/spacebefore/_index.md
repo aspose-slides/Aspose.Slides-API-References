@@ -1,5 +1,5 @@
 ---
-title: 行前空间
+title: SpaceBefore
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置段落中第一行之前的空间量。可读/可写的单精度浮点数。
 type: docs

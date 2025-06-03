@@ -1,5 +1,5 @@
 ---
-title: 图表标题
+title: ChartTitle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图表标题。只读 IChartTitleaspose.slides/icharttitle。
 type: docs

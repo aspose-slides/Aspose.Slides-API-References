@@ -1,5 +1,5 @@
 ---
-title: Unir
+title: Join
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Une un elemento matemático y forma un bloque matemático
 type: docs

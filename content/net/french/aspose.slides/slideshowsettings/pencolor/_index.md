@@ -1,5 +1,5 @@
 ---
-title: CouleurDuStylo
+title: PenColor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Couleur du stylo pour la présentation
 type: docs

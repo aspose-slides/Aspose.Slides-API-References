@@ -1,5 +1,5 @@
 ---
-title: BordureInférieure
+title: BorderBottom
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un objet de propriétés de ligne de bordure inférieure. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs

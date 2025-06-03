@@ -1,5 +1,5 @@
 ---
-title: 右边距
+title: MarginRight
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置段落中的右边距，不继承。可读/可写 单精度浮点数。
 type: docs

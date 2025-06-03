@@ -1,5 +1,5 @@
 ---  
-title: AddZoomFrame  
+title: AddZoomFrame
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Fügt ein neues Zoom-Objekt am Ende einer Sammlung hinzu.
 type: docs  

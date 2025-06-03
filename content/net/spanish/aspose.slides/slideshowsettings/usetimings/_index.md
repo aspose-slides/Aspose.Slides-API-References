@@ -1,5 +1,5 @@
 ---
-title: UsarTiempos
+title: UseTimings
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Usar Tiempos en la Presentación de Diapositivas
 type: docs

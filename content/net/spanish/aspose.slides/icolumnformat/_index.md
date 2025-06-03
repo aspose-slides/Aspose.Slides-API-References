@@ -1,5 +1,5 @@
 ---  
-title: IColumnFormat  
+title: IColumnFormat
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa el formato de una columna de tabla.
 type: docs  

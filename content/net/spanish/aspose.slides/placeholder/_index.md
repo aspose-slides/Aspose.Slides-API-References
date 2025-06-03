@@ -1,5 +1,5 @@
 ---
-title: Marcador de posición
+title: Placeholder
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un marcador de posición en una diapositiva.
 type: docs

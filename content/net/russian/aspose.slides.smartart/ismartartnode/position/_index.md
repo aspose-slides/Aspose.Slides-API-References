@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает нулевой индекс позиции узла среди узлов-соседей. Читаемое/записываемое значение Int32.
 type: docs

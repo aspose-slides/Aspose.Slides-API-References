@@ -1,5 +1,5 @@
 ---
-title: StyleDeMotif
+title: PatternStyle
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le style de motif.
 type: docs

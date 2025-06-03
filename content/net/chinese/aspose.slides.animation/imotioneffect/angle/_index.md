@@ -1,5 +1,5 @@
 ---
-title: 角度
+title: Angle
 second_title: Aspose.Slides for .NET API 参考
 description: 描述运动路径的相对角度。可读写单精度浮点数。
 type: docs

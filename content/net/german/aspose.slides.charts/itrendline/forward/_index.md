@@ -1,5 +1,5 @@
 ---
-title: Vorwärts
+title: Forward
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Anzahl der Kategorien oder Einheiten auf einem Streudiagramm an, die die Trendlinie nach den Daten für die Serie, die trendiert wird, verlängert. Bei Streudiagrammen und nicht Streudiagrammen sollte der Wert eine beliebige nicht-negative Zahl sein. Lese-/Schreibzugriff Double.
 type: docs

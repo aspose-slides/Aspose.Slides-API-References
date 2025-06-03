@@ -1,5 +1,5 @@
 ---
-title: 亮度
+title: Luminance
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 HSL 表示中颜色的亮度组成部分。所有颜色转换都被忽略。可读/写 Single。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Формула
+title: Formula
 second_title: Справочник по API Aspose.Slides для .NET
 description: Формулы в значениях from, to, by могут состоять из следующих стандартные арифметические операторы -  /   mod Константы pi e Условные операторы abs min max  if Операторы сравнения  gt    Тригонометрические операторы sin cos tan asin acos atan Натуральный логарифм ln Ссылки на свойства поддерживаемые хостом, например ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Чтение/запись строка.
 type: docs

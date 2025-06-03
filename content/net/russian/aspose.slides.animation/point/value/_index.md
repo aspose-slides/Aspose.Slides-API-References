@@ -1,5 +1,5 @@
 ---
-title: Значение
+title: Value
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет значение точки. Только bool ColorFormat float int string. Чтение/запись Object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Горизонтальная Полоса
+title: HorizontalBanding
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, нужно ли отображать четные строки с другим форматированием. Читаемое/записываемое логическое значение.
 type: docs

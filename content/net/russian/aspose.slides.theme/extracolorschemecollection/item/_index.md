@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает цветовую схему по индексу. Только для чтения ExtraColorSchemeaspose.slides.theme/extracolorscheme.
 type: docs

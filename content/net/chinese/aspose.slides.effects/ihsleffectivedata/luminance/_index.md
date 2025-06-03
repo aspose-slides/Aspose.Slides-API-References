@@ -1,5 +1,5 @@
 ---
-title: 亮度
+title: Luminance
 second_title: Aspose.Slides for .NET API 参考
 description: 返回亮度百分比。只读单一值。
 type: docs

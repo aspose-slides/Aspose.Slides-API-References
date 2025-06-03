@@ -1,5 +1,5 @@
 ---
-title: Forme
+title: Shape
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une forme sur une diapositive.
 type: docs

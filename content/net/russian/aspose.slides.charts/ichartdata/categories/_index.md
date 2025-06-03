@@ -1,5 +1,5 @@
 ---
-title: Категории
+title: Categories
 second_title: Справочник API Aspose.Slides для .NET
 description: Получает основные категории или как основные, так и вторичные категории, если свойство UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories ложно. Только для чтения IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs

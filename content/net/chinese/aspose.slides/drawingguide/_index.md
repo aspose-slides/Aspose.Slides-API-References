@@ -1,5 +1,5 @@
 ---
-title: 绘图指南
+title: DrawingGuide
 second_title: Aspose.Sildes for .NET API 参考
 description: 代表一个可调整的绘图指南。
 type: docs

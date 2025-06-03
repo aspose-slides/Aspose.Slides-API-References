@@ -1,5 +1,5 @@
 ---
-title: 阈值
+title: Threshold
 second_title: Aspose.Slides for .NET API 参考
 description: 返回效果阈值。可读/写 Single。
 type: docs

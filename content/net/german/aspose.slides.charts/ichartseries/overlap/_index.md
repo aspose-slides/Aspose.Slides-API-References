@@ -1,5 +1,5 @@
 ---
-title: Überlappung
+title: Overlap
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, wie stark sich Balken und Säulen in 2-D-Diagrammen prozentual von -100 bis 100 überlappen. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe. Es ist eine Projektion der entsprechenden Eigenschaft in der übergeordneten Seriengruppe, und daher ist diese Eigenschaft schreibgeschützt. Um den Wert zu ändern, verwenden Sie die lesbare/schreibbare Eigenschaft ParentSeriesGroup.Overlap. Schreibgeschützter SByte.
 type: docs

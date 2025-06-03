@@ -1,5 +1,5 @@
 ---  
-title: ICommentAuthor  
+title: ICommentAuthor
 second_title: Aspose.Slides для .NET Справочник по API  
 description: Представляет автора комментариев.
 type: docs  

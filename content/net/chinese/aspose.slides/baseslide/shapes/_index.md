@@ -1,5 +1,5 @@
 ---
-title: 形状
+title: Shapes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片的形状。只读 IShapeCollection aspose.slides/ishapecollection。
 type: docs

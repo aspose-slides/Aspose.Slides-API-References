@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime tous les arrêts de dégradé d'une collection.
 type: docs

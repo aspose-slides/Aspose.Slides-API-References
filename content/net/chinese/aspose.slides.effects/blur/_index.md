@@ -1,5 +1,5 @@
 ---
-title: 模糊
+title: Blur
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示应用于整个形状的模糊效果，包括其填充。所有颜色通道，包括 alpha，都受到影响。
 type: docs

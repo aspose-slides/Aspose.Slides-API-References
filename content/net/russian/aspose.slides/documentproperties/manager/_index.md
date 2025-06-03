@@ -1,5 +1,5 @@
 ---
-title: Менеджер
+title: Manager
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает свойство менеджера. Читаемое/записываемое строковое значение.
 type: docs

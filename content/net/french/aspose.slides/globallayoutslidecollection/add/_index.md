@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute une nouvelle diapositive de mise en page à la présentation.
 type: docs

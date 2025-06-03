@@ -1,5 +1,5 @@
 ---
-title: CrearEfectoFiltro
+title: CreateFilterEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea efecto filtro.
 type: docs

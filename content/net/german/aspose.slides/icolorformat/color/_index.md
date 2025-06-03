@@ -1,5 +1,5 @@
 ---
-title: Farbe
+title: Color
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die resultierende Farbe mit allen angewendeten Farbtransformationen zurück. Setzt RGB-Farben und löscht alle Farbtransformationen. Lese-/Schreibe-Farbe.
 type: docs

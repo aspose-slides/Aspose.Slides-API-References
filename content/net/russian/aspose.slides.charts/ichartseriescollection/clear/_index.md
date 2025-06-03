@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет все элементы, включая стиль диаграммы, из коллекции.
 type: docs

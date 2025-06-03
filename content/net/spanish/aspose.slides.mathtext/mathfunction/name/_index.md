@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Nombre de la función Por ejemplo, los nombres de las funciones son sin y cos
 type: docs

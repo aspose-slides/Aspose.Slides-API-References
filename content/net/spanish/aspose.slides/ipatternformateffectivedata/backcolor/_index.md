@@ -1,5 +1,5 @@
 ---
-title: ColorDeFondo
+title: BackColor
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el color del patrón de fondo. Color de solo lectura.
 type: docs

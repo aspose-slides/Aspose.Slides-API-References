@@ -1,5 +1,5 @@
 ---
-title: 实际最大值
+title: ActualMaxValue
 second_title: Aspose.Slides for .NET API 参考
 description: 指定坐标轴上的实际最大值。请先调用 IChart.ValidateChartLayout 方法以获取实际值。
 type: docs

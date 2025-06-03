@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el ancho de una línea. Solo lectura Double.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Предупреждение
+title: Warning
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Метод обратного вызова, который получает предупреждение и решает, следует ли прервать операцию.
 type: docs

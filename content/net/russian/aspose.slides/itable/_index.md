@@ -1,5 +1,5 @@
 ---  
-title: ITable  
+title: ITable
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет таблицу на слайде.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: TitreTexteAlternatif
+title: AlternativeTextTitle
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le titre du texte alternatif associé à une forme. Chaîne lisible/écrite.
 type: docs

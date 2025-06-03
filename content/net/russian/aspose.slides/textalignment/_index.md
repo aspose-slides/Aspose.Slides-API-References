@@ -1,5 +1,5 @@
 ---
-title: ВыравниваниеТекста
+title: TextAlignment
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет различные стили выравнивания текста.
 type: docs

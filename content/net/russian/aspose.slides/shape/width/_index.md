@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает или задает ширину фигуры. Читаемое/записываемое значение типа Single.
 type: docs

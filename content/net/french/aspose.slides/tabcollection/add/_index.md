@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API Aspose.Slidess pour .NET
 description: Ajoute un onglet à la collection.
 type: docs

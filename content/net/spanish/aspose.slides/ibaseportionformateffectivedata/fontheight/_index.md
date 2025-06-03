@@ -1,5 +1,5 @@
 ---
-title: AlturaDeFuente
+title: FontHeight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la altura de la fuente de una porción. Solo lectura Single.
 type: docs

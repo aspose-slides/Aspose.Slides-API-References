@@ -1,5 +1,5 @@
 ---
-title: 插入克隆
+title: InsertClone
 second_title: Aspose.Slides for .NET API 参考
 description: 在集合的指定位置插入指定幻灯片的副本。
 type: docs

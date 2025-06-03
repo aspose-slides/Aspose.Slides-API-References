@@ -1,5 +1,5 @@
 ---
-title: 几何形状
+title: GeometryShape
 second_title: Aspose.Slides for .NET API 参考
 description: 表示所有几何形状的父类。
 type: docs

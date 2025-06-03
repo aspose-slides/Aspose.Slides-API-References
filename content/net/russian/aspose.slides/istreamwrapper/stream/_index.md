@@ -1,5 +1,5 @@
 ---
-title: Поток
+title: Stream
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает поток. Только для чтения.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: УдалитьРаздел
+title: RemoveSection
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Удалить раздел. Слайды, содержащиеся в разделе, будут объединены с предыдущим разделом.
 type: docs

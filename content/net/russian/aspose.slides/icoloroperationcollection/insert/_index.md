@@ -1,5 +1,5 @@
 ---
-title: Вставка
+title: Insert
 second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет новую операцию в коллекцию.
 type: docs

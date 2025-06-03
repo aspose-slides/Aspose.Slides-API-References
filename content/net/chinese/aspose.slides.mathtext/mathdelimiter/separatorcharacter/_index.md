@@ -1,5 +1,5 @@
 ---
-title: 分隔符字符
+title: SeparatorCharacter
 second_title: Aspose.Slides for .NET API 参考
 description: 分隔符字符指定在分隔符对象中分隔参数的字符。默认值为 x7C。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 相关图例条目
+title: RelatedLegendEntry
 second_title: Aspose.Slides for .NET API 参考
 description: 当图表类型为此列表中的值时，相应图例条目的属性：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。只读 ILegendEntryProperties aspose.slides.charts/ilegendentryproperties。
 type: docs

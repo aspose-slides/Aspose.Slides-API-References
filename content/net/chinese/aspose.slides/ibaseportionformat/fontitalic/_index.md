@@ -1,5 +1,5 @@
 ---
-title: 字体斜体
+title: FontItalic
 second_title: Aspose.Slides for .NET API 参考
 description: 确定字体是否为斜体。没有应用继承。读/写 NullableBool aspose.slides/nullablebool。
 type: docs

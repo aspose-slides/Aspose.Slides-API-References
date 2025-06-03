@@ -1,5 +1,5 @@
 ---
-title: ВстраиваниеПолныхШрифтов
+title: EmbedFullFonts
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, должны ли быть встроены все символы шрифта или только используемая подсеть. Чтение/запись Boolean.
 type: docs

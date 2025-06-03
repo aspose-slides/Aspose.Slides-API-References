@@ -1,5 +1,5 @@
 ---
-title: 按宽度拆分
+title: SplitByWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 按宽度拆分单元格。
 type: docs

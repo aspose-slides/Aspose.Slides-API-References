@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник по API Aspose.Slidess для .NET
 description: Вставляет новое свойство с указанным значением свойства в коллекцию по указанному индексу.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AxesÀDroitAngle
+title: RightAngleAxes
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si les axes du graphique sont à angles droits plutôt que dessinés en perspective. En d'autres termes, cela détermine si les angles des axes du graphique sont indépendants de la rotation ou de l'élévation du graphique. Lecture/écriture booléen.
 type: docs

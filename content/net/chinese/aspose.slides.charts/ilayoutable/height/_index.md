@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 指定图表元素的高度作为图表高度的一个分数。可读写单精度浮点数。
 type: docs

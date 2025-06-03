@@ -1,5 +1,5 @@
 ---
-title: 添加颜色变化效果
+title: AddColorChangeEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的颜色变化效果添加到集合的末尾。
 type: docs

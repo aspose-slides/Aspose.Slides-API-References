@@ -1,5 +1,5 @@
 ---
-title: ФактическаяВысота
+title: ActualHeight
 second_title: Aspose.Slides для .NET API Reference
 description: Указывает фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout перед получением фактических значений. Чтение Единственного.
 type: docs

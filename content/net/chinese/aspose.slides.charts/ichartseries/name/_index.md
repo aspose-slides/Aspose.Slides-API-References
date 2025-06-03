@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Slides for .NET API 参考
 description: 返回系列名称。只读 IStringChartValue aspose.slides.charts/istringchartvalue。
 type: docs

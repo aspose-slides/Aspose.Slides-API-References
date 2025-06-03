@@ -1,5 +1,5 @@
 ---
-title: 获取帧
+title: GetFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 获取使用 SetTimePosition../settimeposition 方法之前设置的当前时间位置的帧。
 type: docs

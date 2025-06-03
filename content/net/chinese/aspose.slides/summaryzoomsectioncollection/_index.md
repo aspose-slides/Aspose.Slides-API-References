@@ -1,5 +1,5 @@
 ---
-title: 摘要缩放节集合
+title: SummaryZoomSectionCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示摘要缩放节对象的集合。
 type: docs

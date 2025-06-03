@@ -1,5 +1,5 @@
 ---  
-title: CreateColorChange  
+title: CreateColorChange
 second_title: Référence API Aspose.Slides pour .NET  
 description: Crée un effet de changement de couleur.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: InsertarMarcoDeVideo
+title: InsertVideoFrame
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un nuevo marco de video e inserta en una colección en el índice especificado.
 type: docs

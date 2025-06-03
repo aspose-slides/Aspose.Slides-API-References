@@ -1,5 +1,5 @@
 ---
-title: 幻灯片放映设置
+title: SlideShowSettings
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示演示文稿的幻灯片放映设置。
 type: docs

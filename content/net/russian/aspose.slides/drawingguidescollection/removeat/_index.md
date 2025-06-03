@@ -1,5 +1,5 @@
 ---
-title: УдалитьПоИндексу
+title: RemoveAt
 second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет направляющую рисования по заданному индексу.
 type: docs

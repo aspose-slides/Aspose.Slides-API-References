@@ -1,5 +1,5 @@
 ---
-title: УдалитьЗаполнитель
+title: RemovePlaceholder
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, что эта фигура не является заполнителем.
 type: docs

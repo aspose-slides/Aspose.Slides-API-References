@@ -1,5 +1,5 @@
 ---
-title: 外部阴影效果
+title: OuterShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 外部阴影。只读 IOuterShadowEffectiveData aspose.slides.effects/ioutershadoweffectivedata。
 type: docs

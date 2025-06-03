@@ -1,5 +1,5 @@
 ---  
-title: SetHeaderVisibility  
+title: SetHeaderVisibility
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ändert die Sichtbarkeit des Platzhalters für den Folienkopf.
 type: docs  

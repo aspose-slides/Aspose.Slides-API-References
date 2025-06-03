@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el tipo de barras de error. Lectura/escritura ErrorBarTypeaspose.slides.charts/errorbartype.
 type: docs

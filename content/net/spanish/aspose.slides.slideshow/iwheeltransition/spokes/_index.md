@@ -1,5 +1,5 @@
 ---
-title: Radios
+title: Spokes
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Número de radios de la transición de rueda. Leer/escribir UInt32.
 type: docs

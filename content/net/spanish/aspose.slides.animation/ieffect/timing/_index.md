@@ -1,5 +1,5 @@
 ---
-title: Temporización
+title: Timing
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Define el valor de temporización para el efecto. Lectura/escritura ITimingaspose.slides.animation/itiming.
 type: docs

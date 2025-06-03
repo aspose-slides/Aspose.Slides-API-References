@@ -1,5 +1,5 @@
 ---
-title: 重新排序
+title: Reorder
 second_title: Aspose.Slides for .NET API 参考
 description: 将布局幻灯片从集合中移动到指定位置。
 type: docs

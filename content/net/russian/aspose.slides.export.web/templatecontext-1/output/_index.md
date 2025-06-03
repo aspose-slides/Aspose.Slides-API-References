@@ -1,5 +1,5 @@
 ---
-title: Вывод
+title: Output
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию элементов вывода хост-документа. Только для чтения Output.
 type: docs

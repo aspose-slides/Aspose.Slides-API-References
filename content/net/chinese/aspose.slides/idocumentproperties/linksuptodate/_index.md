@@ -1,5 +1,5 @@
 ---
-title: 链接是否最新
+title: LinksUpToDate
 second_title: Aspose.Slides for .NET API 参考
 description: 指示文档中的超链接是否是最新的。将此元素设置为 true，以指示超链接已更新。将此元素设置为 false，以指示超链接已过时。可读写布尔值。
 type: docs

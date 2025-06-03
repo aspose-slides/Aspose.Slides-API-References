@@ -1,5 +1,5 @@
 ---
-title: Axe
+title: Axis
 second_title: Référence API Aspose.Slides pour .NET
 description: Encapsule l'objet qui représente l'axe des graphiques.
 type: docs

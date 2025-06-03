@@ -1,5 +1,5 @@
 ---
-title: TítulosDePartes
+title: TitlesOfParts
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. Cadena de solo lectura.
 type: docs

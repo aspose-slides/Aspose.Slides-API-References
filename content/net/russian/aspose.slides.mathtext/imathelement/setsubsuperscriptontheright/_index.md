@@ -1,5 +1,5 @@
 ---
-title: УстановитьПодстрочныйИНадстрочныйСправа
+title: SetSubSuperscriptOnTheRight
 second_title: Aspose.Sildes для .NET API Reference
 description: Создает подстрочный и надстрочный справа
 type: docs

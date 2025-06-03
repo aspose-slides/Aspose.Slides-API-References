@@ -1,5 +1,5 @@
 ---
-title: EstablecerVisibilidadDeTodosLosEncabezados
+title: SetAllHeadersVisibility
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Cambia la visibilidad de todos los marcadores de encabezado, incluidos el maestro de notas, las diapositivas de notas y el maestro de folletos.
 type: docs

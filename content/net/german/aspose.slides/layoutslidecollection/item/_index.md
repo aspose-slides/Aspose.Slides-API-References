@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Layout-Slide anhand des Index zurück. Nur-lesbarer LayoutSlideaspose.slides/layoutslide.
 type: docs

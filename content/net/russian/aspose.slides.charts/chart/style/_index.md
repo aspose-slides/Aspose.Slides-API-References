@@ -1,5 +1,5 @@
 ---
-title: Стиль
+title: Style
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает стиль диаграммы. Чтение/запись StyleTypeaspose.slides.charts/styletype.
 type: docs

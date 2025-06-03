@@ -1,5 +1,5 @@
 ---
-title: 填充源
+title: FillSource
 second_title: Aspose.Slides for .NET API 参考
 description: 返回有关如何填充元素的信息。只读 ShapeElementFillSource aspose.slides/shapeelementfillsource。
 type: docs

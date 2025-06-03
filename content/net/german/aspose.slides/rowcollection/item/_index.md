@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Zeile am angegebenen Index zurück. Nur-lesbare Zeile aspose.slides/row.
 type: docs

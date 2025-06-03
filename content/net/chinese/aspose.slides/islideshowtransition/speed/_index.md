@@ -1,5 +1,5 @@
 ---
-title: 速度
+title: Speed
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在从当前幻灯片切换到下一张幻灯片时使用的过渡速度。可读写 TransitionSpeedaspose.slides/../aspose.slides.slideshow/transitionspeed。
 type: docs

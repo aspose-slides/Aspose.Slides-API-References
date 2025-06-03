@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Holt das Element am angegebenen Index. Schreibgeschütztes IMathElementaspose.slides.mathtext/imathelement.
 type: docs

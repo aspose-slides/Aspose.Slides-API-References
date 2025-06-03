@@ -1,5 +1,5 @@
 ---
-title: Учёт
+title: Metered
 second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр этого класса.
 type: docs

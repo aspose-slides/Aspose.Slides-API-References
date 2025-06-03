@@ -1,5 +1,5 @@
 ---
-title: Punkt
+title: Point
 second_title: Aspose.Slides für .NET API Referenz
 description: Standardkonstruktor.
 type: docs

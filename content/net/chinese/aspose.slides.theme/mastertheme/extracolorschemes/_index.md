@@ -1,5 +1,5 @@
 ---
-title: 额外颜色方案
+title: ExtraColorSchemes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回额外颜色方案的集合。这些方案不会影响演示文稿的外观，它们可以作为幻灯片的主颜色方案进行选择。为只读的 IExtraColorSchemeCollectionaspose.slides/iextracolorschemecollection。
 type: docs

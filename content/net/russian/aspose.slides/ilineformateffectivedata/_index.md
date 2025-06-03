@@ -1,5 +1,5 @@
 ---  
-title: ILineFormatEffectiveData  
+title: ILineFormatEffectiveData
 second_title: Aspose.Sildes для .NET API Справка  
 description: Неизменяемый объект, который содержит свойства эффективного форматирования линии.
 type: docs  

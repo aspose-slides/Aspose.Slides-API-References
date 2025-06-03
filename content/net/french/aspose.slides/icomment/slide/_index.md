@@ -1,5 +1,5 @@
 ---
-title: Diapositive
+title: Slide
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la diapositive parent d'un commentaire. Lecture seule ISlideaspose.slides/islide.
 type: docs

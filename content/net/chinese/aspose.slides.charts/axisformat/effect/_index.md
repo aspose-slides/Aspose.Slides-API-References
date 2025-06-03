@@ -1,5 +1,5 @@
 ---
-title: 效果
+title: Effect
 second_title: Aspose.Slides for .NET API 参考
 description: 返回用于轴的效果。只读 IEffectFormat aspose.slides/ieffectformat。
 type: docs

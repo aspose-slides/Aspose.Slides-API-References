@@ -1,5 +1,5 @@
 ---
-title: Orientación
+title: Orientation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Orientación de la transición dividida. Leer/escribir Orientationaspose.slides/orientation.
 type: docs

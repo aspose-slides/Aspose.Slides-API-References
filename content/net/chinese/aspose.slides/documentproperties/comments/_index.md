@@ -1,5 +1,5 @@
 ---
-title: 注释
+title: Comments
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的注释。可读/写字符串。
 type: docs

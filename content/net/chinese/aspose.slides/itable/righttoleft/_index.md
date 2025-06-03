@@ -1,5 +1,5 @@
 ---
-title: 从右到左
+title: RightToLeft
 second_title: Aspose.Sildes for .NET API 参考
 description: 确定表格是否具有从右到左的阅读顺序。可读写布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Sichtfeldwinkel
+title: FieldOfViewAngle
 second_title: Aspose.Slides für .NET API-Referenz
 description: Kamera FOV 0-180 Grad Sichtfeld Lesen/Schreiben Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Limite
+title: Limit
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Argument limite
 type: docs

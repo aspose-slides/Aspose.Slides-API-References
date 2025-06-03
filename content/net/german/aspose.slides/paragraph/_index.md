@@ -1,5 +1,5 @@
 ---
-title: Absatz
+title: Paragraph
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Absatz von Text dar.
 type: docs

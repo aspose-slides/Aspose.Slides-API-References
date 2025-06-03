@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает эффекты заливки стен, линии, 3d-стили. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает последовательность по заданному индексу.
 type: docs

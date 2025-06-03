@@ -1,5 +1,5 @@
 ---
-title: 坐标轴
+title: Axes
 second_title: Aspose.Slides for .NET API 参考
 description: 提供对图表坐标轴的访问。只读 IAxesManager aspose.slides.charts/iaxesmanager。
 type: docs

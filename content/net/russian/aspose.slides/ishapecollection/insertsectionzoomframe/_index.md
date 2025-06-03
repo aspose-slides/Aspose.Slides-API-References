@@ -1,5 +1,5 @@
 ---
-title: ВставитьSectionZoomFrame
+title: InsertSectionZoomFrame
 second_title: Aspose.Slides для .NET API Справочник
 description: Создает новый объект Section Zoom и вставляет его в коллекцию по указанному индексу.
 type: docs

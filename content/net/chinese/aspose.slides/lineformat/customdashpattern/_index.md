@@ -1,5 +1,5 @@
 ---
-title: 自定义虚线模式
+title: CustomDashPattern
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置自定义虚线模式。可读/可写 Single。
 type: docs

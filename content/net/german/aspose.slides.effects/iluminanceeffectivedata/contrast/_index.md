@@ -1,5 +1,5 @@
 ---
-title: Kontrast
+title: Contrast
 second_title: Aspose.Slides für .NET API Referenz
 description: Kontrast. Nur-Lese Einzelwert.
 type: docs

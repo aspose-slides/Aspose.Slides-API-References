@@ -1,5 +1,5 @@
 ---
-title: SoundIstEingebaut
+title: SoundIsBuiltIn
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, ob dieser Sound ein eingebauter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die generierende Anwendung benachrichtigt, das Namensattribut zu überprüfen, das für diesen Sound in ihrer Liste der eingebauten Sounds angegeben ist, und kann dann bei Bedarf einen benutzerdefinierten Namen oder eine Benutzeroberfläche anzeigen. Lese-Schreib-Boolean.
 type: docs

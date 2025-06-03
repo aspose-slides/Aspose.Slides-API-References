@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回背景填充的类型。可读/可写 BackgroundTypeaspose.slides/backgroundtype。
 type: docs

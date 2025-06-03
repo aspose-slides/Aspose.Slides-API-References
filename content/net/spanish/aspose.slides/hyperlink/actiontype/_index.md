@@ -1,5 +1,5 @@
 ---
-title: TipoDeAcción
+title: ActionType
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el tipo de acción de los hipervínculos. Tipo de solo lectura HyperlinkActionTypeaspose.slides/hyperlinkactiontype.
 type: docs

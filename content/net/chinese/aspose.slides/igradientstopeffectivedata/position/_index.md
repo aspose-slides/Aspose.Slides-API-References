@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 返回渐变停靠的 0..1 位置。只读单精度浮点数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Размер заметок
+title: NotesSize
 second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет размер слайда заметок.
 type: docs

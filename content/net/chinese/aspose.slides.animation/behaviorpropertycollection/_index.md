@@ -1,5 +1,5 @@
 ---
-title: 行为属性集合
+title: BehaviorPropertyCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示效果行为的时序属性。
 type: docs

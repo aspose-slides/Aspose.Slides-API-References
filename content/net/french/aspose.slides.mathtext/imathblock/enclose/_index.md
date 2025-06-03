@@ -1,5 +1,5 @@
 ---
-title: Enclore
+title: Enclose
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Enclore les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou d'autres comme encadrement et les délimiter avec un caractère de séparateur.
 type: docs

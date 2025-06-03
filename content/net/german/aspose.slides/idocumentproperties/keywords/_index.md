@@ -1,5 +1,5 @@
 ---
-title: Schlüsselwörter
+title: Keywords
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Schlüsselwörter einer Präsentation zurück oder legt sie fest. Lese-/Schreibzeichenfolge.
 type: docs

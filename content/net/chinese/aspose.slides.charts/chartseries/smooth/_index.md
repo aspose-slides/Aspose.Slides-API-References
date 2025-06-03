@@ -1,5 +1,5 @@
 ---
-title: 平滑
+title: Smooth
 second_title: Aspose.Slides for .NET API 参考
 description: 代表曲线平滑。如果线图或散点图启用了曲线平滑，则为 True。仅适用于通过线连接的线图和散点图。可读写布尔值。
 type: docs

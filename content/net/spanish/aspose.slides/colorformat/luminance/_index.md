@@ -1,5 +1,5 @@
 ---
-title: Luminancia
+title: Luminance
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el componente de luminancia de un color en representación HSL. Se ignoran todas las transformaciones de color. Lectura/escritura Simple.
 type: docs

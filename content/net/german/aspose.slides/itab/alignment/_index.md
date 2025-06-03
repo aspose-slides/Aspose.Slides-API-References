@@ -1,5 +1,5 @@
 ---
-title: Ausrichtung
+title: Alignment
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Ausrichtungsstil eines Tabs zurück oder legt ihn fest. Lese-/Schreibzugriff auf TabAlignmentaspose.slides/tabalignment.
 type: docs

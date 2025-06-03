@@ -1,5 +1,5 @@
 ---
-title: Bilder
+title: Images
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Sammlung aller Bilder in der Präsentation zurück. Nur-Lese IImageCollectionaspose.slides/iimagecollection.
 type: docs

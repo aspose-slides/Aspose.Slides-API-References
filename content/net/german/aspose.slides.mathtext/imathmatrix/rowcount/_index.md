@@ -1,5 +1,5 @@
 ---
-title: Zeilenanzahl
+title: RowCount
 second_title: Aspose.Slides für .NET API-Referenz
 description: Anzahl der Zeilen in der Matrix
 type: docs

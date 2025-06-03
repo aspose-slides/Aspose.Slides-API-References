@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 根据索引从集合中返回一个 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
 type: docs

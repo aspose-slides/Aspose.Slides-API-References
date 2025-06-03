@@ -1,5 +1,5 @@
 ---
-title: Diapositive
+title: Slide
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la diapositive parent. Lecture seule IBaseSlideaspose.slides/ibaseslide.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 主幻灯片页眉页脚管理器
+title: MasterSlideHeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
 description: 表示管理主幻灯片页脚、日期时间、页码占位符及所有子占位符行为的管理器。子占位符意味着占位符包含在依赖的布局幻灯片和依赖的幻灯片上。依赖的布局幻灯片和幻灯片使用并依赖于主幻灯片。
 type: docs

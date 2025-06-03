@@ -1,5 +1,5 @@
 ---  
-title: SizeLocked  
+title: SizeLocked
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob eine Größenänderung dieser Form verboten ist. Schreib-/Lese-Boolean.
 type: docs  

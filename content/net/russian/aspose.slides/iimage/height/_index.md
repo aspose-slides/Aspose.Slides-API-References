@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает высоту изображения в пикселях.
 type: docs

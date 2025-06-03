@@ -1,5 +1,5 @@
 ---
-title: Radio
+title: Radius
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica el radio de desenfoque que se aplicará a los bordes. Solo lectura Doble.
 type: docs

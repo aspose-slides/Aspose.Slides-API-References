@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 通过其在父系列点集合中的索引添加数据点。
 type: docs

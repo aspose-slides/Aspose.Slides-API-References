@@ -1,5 +1,5 @@
 ---
-title: Obergrenze
+title: UpperLimit
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt obere oder untere Grenze an
 type: docs

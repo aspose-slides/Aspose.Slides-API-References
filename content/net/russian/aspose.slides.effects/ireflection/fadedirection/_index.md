@@ -1,5 +1,5 @@
 ---
-title: НаправлениеЗатухания
+title: FadeDirection
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает направление смещения отражения. угол. Читаемый/записываемый тип Single.
 type: docs

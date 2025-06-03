@@ -1,5 +1,5 @@
 ---
-title: Плеер
+title: Player
 second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Получить плеер презентации
 type: docs

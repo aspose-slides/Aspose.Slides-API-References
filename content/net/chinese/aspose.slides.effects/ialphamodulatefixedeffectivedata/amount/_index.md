@@ -1,5 +1,5 @@
 ---
-title: 数量
+title: Amount
 second_title: Aspose.Slides for .NET API 参考
 description: 返回效果的百分比数量。只读 Single。
 type: docs

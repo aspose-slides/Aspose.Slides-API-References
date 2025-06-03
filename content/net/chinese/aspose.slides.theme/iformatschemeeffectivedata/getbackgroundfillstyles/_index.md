@@ -1,5 +1,5 @@
 ---
-title: 获取背景填充样式
+title: GetBackgroundFillStyles
 second_title: Aspose.Slides for .NET API 参考
 description: 返回主题定义的背景填充样式集合。
 type: docs

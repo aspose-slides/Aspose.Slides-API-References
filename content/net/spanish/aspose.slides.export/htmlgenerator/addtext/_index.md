@@ -1,5 +1,5 @@
 ---
-title: AgregarTexto
+title: AddText
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Agrega texto sin formato a los archivos html reemplazando caracteres especiales con entidades html. Saltos de línea y espacios en blanco no se reemplazan.
 type: docs

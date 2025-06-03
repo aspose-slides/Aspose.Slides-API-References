@@ -1,5 +1,5 @@
 ---
-title: 正常视图属性
+title: NormalViewProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 表示正常视图属性。正常视图由三个内容区域组成：幻灯片本身、一个侧内容区域和一个底部内容区域。
 type: docs

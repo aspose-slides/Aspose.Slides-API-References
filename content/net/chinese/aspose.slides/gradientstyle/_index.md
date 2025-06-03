@@ -1,5 +1,5 @@
 ---
-title: 渐变样式
+title: GradientStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示可用的渐变样式。
 type: docs

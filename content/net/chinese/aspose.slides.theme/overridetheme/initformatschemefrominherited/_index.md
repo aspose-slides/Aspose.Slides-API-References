@@ -1,5 +1,5 @@
 ---
-title: 从继承主题初始化格式方案
+title: InitFormatSchemeFromInherited
 second_title: Aspose.Slides for .NET API 参考
 description: 使用新对象初始化格式方案，以覆盖继承主题的格式方案。并使用继承主题的格式方案的数据初始化该新对象的数据。
 type: docs

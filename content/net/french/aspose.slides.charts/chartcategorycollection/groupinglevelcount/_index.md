@@ -1,5 +1,5 @@
 ---  
-title: GroupingLevelCount  
+title: GroupingLevelCount
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie le nombre de niveaux de regroupement de catégories utilisés. Est supérieur à un pour les catégories multi-niveaux. Lecture seule Int32.
 type: docs  

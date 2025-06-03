@@ -1,5 +1,5 @@
 ---
-title: 值1
+title: Value1
 second_title: Aspose.Slides for .NET API 参考
 description: 定义偏移的第二个值。读/写单精度浮点数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Label
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置闭合字幕的标签。可读/写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Диаграмма
+title: Chart
 second_title: Справка по API Aspose.Slides для .NET
 description: Представляет графическую диаграмму на слайде.
 type: docs

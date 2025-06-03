@@ -1,5 +1,5 @@
 ---
-title: 隐藏右边缘
+title: HideRight
 second_title: Aspose.Slides for .NET API 参考
 description: 隐藏右边缘默认值为 false - 指定边框盒子右边缘的隐藏或显示状态。
 type: docs

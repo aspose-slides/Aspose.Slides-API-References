@@ -1,5 +1,5 @@
 ---
-title: 从单元格获取连接值
+title: GetConcatenatedValuesFromCells
 second_title: Aspose.Sildes for .NET API 参考
 description: 从所有单元格字符串值中连接字符串。
 type: docs

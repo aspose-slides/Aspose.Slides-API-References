@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la ligne à l'index spécifié. En lecture seule Rowaspose.slides/row.
 type: docs

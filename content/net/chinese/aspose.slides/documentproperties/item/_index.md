@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置与指定名称相关联的自定义属性。可读/写对象。
 type: docs

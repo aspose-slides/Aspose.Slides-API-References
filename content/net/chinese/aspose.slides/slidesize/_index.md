@@ -1,5 +1,5 @@
 ---
-title: 幻灯片大小
+title: SlideSize
 second_title: Aspose.Slides for .NET API 参考
 description: 表示幻灯片的大小。
 type: docs

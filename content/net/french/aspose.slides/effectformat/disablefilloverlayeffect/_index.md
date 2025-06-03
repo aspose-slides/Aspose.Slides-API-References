@@ -1,5 +1,5 @@
 ---
-title: DésactiverEffetRemplissageSuperposé
+title: DisableFillOverlayEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Désactive l'effet de remplissage superposé.
 type: docs

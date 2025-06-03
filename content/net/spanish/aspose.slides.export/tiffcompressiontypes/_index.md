@@ -1,5 +1,5 @@
 ---
-title: TiposDeCompresiónTiff
+title: TiffCompressionTypes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Proporciona opciones que controlan cómo se comprime una presentación en formato TIFF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: UnidadMenor
+title: MinorUnit
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa las unidades menores para el eje de fecha o valor. Lectura/escritura Double.
 type: docs

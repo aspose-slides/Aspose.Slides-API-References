@@ -1,5 +1,5 @@
 ---
-title: Ursprung
+title: Origin
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, worauf sich der Ursprung des Bewegungswegs bezieht, wie das Layout der Folie oder das Elternelement. Lese-/Schreibzugriff auf MotionOriginTypeaspose.slides.animation/motionorigintype.
 type: docs

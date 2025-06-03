@@ -1,5 +1,5 @@
 ---
-title: 播放循环模式
+title: PlayLoopMode
 second_title: Aspose.Slides for .NET API 参考
 description: 确定视频是否循环。可读/可写布尔值。
 type: docs

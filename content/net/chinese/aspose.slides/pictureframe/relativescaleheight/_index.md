@@ -1,5 +1,5 @@
 ---
-title: 相对高度比例
+title: RelativeScaleHeight
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置图片框相对于原始图片大小的高度比例。值 1.0 对应于 100。可读/可写单精度浮点数。
 type: docs

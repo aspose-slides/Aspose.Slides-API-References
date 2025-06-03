@@ -1,5 +1,5 @@
 ---
-title: Etiquetas
+title: Tags
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de Etiquetas de Datos del Cliente. Solo lectura ITagCollectionaspose.slides/itagcollection.
 type: docs

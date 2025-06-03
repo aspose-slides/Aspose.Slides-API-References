@@ -1,5 +1,5 @@
 ---
-title: Lire
+title: Read
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Lit une séquence d'octets à partir du flux actuel et avance la position dans le flux d'un nombre d'octets lu.
 type: docs

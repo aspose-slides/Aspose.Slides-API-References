@@ -1,5 +1,5 @@
 ---
-title: 添加气泡系列数据点
+title: AddDataPointForBubbleSeries
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的数据点并将其添加到集合的末尾。适用于 chartType 为气泡子类型之一的系列，另见 ChartTypeCharacterizer.IsChartTypeBubbleChartType 方法。
 type: docs

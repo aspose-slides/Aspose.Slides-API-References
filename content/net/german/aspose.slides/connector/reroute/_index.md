@@ -1,5 +1,5 @@
 ---
-title: Umleiten
+title: Reroute
 second_title: Aspose.Slides für .NET API-Referenz
 description: Leitet den Connector um, sodass er den kürzestmöglichen Weg zwischen den verbundenen Formen nimmt.
 type: docs

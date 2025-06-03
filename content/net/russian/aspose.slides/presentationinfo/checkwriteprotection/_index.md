@@ -1,5 +1,5 @@
 ---
-title: ПроверкаЗащитыЗаписи
+title: CheckWriteProtection
 second_title: Справка по API Aspose.Slides для .NET
 description: Проверяет, правильный ли пароль для изменения для защищенной от записи презентации.
 type: docs

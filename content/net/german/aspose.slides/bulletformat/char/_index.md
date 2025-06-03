@@ -1,5 +1,5 @@
 ---
-title: Zeichen
+title: Char
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt es. Lese- und Schreibzugriff auf Zeichen.
 type: docs

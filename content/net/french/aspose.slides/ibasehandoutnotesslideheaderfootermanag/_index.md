@@ -1,5 +1,5 @@
 ---  
-title: IBaseHandoutNotesSlideHeaderFooterManag  
+title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente le gestionnaire qui maintient le comportement des espaces réservés, y compris l'espace réservé pour l'en-tête de tous les types de diapositives de remise et de notes.
 type: docs  

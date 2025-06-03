@@ -1,5 +1,5 @@
 ---
-title: PointDAncrage
+title: AnchorPoint
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit un point dans l'espace 3D. Ce point est le point dans l'espace qui ancre le plan de fond. Point 3D représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Равенство
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, равен ли указанный ColorChangeaspose.slides.effects/colorchange текущему ColorChangeaspose.slides.effects/colorchange.
 type: docs

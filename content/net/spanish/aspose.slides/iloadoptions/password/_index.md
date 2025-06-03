@@ -1,5 +1,5 @@
 ---
-title: Contraseña
+title: Password
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece la contraseña. Cadena de lectura y escritura.
 type: docs

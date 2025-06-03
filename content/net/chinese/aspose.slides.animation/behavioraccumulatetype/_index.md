@@ -1,5 +1,5 @@
 ---
-title: 行为累积类型
+title: BehaviorAccumulateType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示效果行为的累积类型。
 type: docs

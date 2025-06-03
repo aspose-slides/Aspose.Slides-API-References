@@ -1,5 +1,5 @@
 ---
-title: 设置外部超链接点击
+title: SetExternalHyperlinkClick
 second_title: Aspose.Slides for .NET API 参考
 description: 在点击时设置外部超链接。
 type: docs

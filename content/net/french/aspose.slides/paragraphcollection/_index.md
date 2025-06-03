@@ -1,5 +1,5 @@
 ---
-title: CollectionDeParagraphes
+title: ParagraphCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de paragraphes.
 type: docs

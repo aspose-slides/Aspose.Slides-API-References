@@ -1,5 +1,5 @@
 ---
-title: 评论
+title: Comments
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此作者所做评论的集合。只读 ICommentCollection aspose.slides/icommentcollection。
 type: docs

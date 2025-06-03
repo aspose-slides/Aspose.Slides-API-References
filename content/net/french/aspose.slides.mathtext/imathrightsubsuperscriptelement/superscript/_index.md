@@ -1,5 +1,5 @@
 ---
-title: Exposant
+title: Superscript
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Argument d'exposant
 type: docs

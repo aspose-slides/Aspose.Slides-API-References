@@ -1,5 +1,5 @@
 ---
-title: Chronologie
+title: Timeline
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Retourne l'objet de chronologie d'animation. Lecture seule IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs

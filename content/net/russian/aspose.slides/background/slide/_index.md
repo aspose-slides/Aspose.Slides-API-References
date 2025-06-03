@@ -1,5 +1,5 @@
 ---
-title: Слайд
+title: Slide
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает родительский слайд фигуры. Только для чтения IBaseSlide aspose.slides/ibaseslide.
 type: docs

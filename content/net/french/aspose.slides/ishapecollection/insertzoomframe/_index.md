@@ -1,5 +1,5 @@
 ---
-title: InsérerZoomFrame
+title: InsertZoomFrame
 second_title: Référence API Aspose.Slides pour .NET
 description: Crée un nouvel objet Zoom et l'insère dans une collection à l'index spécifié.
 type: docs

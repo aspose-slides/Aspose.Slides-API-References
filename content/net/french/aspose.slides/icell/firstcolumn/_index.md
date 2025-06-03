@@ -1,5 +1,5 @@
 ---
-title: PremièreColonne
+title: FirstColumn
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la première colonne de la cellule. En lecture seule IColumnaspose.slides/icolumn.
 type: docs

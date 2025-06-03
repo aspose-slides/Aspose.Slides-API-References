@@ -1,5 +1,5 @@
 ---
-title: FormatoDeBoceto
+title: SketchFormat
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el formato de boceto de una línea. Solo lectura ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata.
 type: docs

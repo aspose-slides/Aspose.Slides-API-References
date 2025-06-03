@@ -1,5 +1,5 @@
 ---
-title: JustificationVerticale
+title: VerticalJustification
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, la JustificationVerticale de Haut signifie que le haut de l'objet est aligné avec la ligne de base ; lorsque la JustificationVerticale est définie sur Bas, le bas de l'objet est sur la ligne de base. Par défaut  Bas pour Position=Haut, et Haut pour Position=Bas
 type: docs

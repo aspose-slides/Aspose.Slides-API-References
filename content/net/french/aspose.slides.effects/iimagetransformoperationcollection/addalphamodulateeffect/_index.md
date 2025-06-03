@@ -1,5 +1,5 @@
 ---
-title: AjouterEffetAlphaModulate
+title: AddAlphaModulateEffect
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Ajoute le nouvel effet Alpha Modulate à la fin d'une collection.
 type: docs

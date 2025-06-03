@@ -1,5 +1,5 @@
 ---
-title: Sauvegarder
+title: Save
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Sauvegarde les diapositives spécifiées d'une présentation dans un fichier avec le format spécifié en conservant le numéro de page.
 type: docs

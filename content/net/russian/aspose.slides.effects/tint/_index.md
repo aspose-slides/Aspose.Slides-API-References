@@ -1,5 +1,5 @@
 ---
-title: Тон
+title: Tint
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет эффект Тона. Сдвигает значения цвета эффекта к оттенку/от оттенка на указанное количество.
 type: docs

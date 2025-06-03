@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置形状的高度。可读/写的单精度浮点数。
 type: docs

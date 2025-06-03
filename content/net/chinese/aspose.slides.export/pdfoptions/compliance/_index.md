@@ -1,5 +1,5 @@
 ---
-title: 合规性
+title: Compliance
 second_title: Aspose.Slides for .NET API 参考
 description: 生成的 PDF 文档所需的符合性级别。读/写 PdfComplianceaspose.slides.export/pdfcompliance。
 type: docs

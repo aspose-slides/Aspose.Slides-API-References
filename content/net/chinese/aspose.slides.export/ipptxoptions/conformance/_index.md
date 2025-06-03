@@ -1,5 +1,5 @@
 ---
-title: 合规性
+title: Conformance
 second_title: Aspose.Slides for .NET API 参考
 description: 指定演示文档所符合的合规性类。默认值为 Ecma376_2006
 type: docs

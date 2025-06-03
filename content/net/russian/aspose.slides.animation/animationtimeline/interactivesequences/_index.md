@@ -1,5 +1,5 @@
 ---
-title: ИнтерактивныеПоследовательности
+title: InteractiveSequences
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты при "нажатии на фигуру" с указанной целевой фигурой. Доступно только для чтения ISequenceCollectionaspose.slides.animation/isequencecollection.
 type: docs

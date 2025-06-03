@@ -1,5 +1,5 @@
 ---
-title: Sous-type
+title: Subtype
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le sous-type d'effet de filtre. Lecture/écriture de FilterEffectSubtype aspose.slides.animation/filtereffectsubtype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Quellcode
+title: SourceCode
 second_title: Aspose.Slides für .NET API-Referenz
 description: Quellcode des Moduls. Lese-/Schreib-String.
 type: docs

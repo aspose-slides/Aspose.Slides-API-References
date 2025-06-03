@@ -1,5 +1,5 @@
 ---
-title: 上下标
+title: Escapement
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置上标或下标文本。值从 -100 下标到 100 上标。 **float.NaN** 表示值未定义，应从母版继承。读/写单精度。
 type: docs

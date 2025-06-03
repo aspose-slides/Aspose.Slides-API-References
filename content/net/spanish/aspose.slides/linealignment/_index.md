@@ -1,5 +1,5 @@
 ---
-title: AlineaciónDeLíneas
+title: LineAlignment
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el tipo de alineación de las líneas.
 type: docs

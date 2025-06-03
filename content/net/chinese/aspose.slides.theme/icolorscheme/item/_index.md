@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 获取指定索引的元素。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

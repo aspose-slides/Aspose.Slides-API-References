@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Sildes for .NET API 参考
 description: 从 ICollection 中移除特定对象的第一个出现。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Добавляет новое правило замены шрифта в коллекцию
 type: docs

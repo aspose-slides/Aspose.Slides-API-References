@@ -1,5 +1,5 @@
 ---
-title: 片段
+title: Portion
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化一个新的 Portion 类实例。
 type: docs

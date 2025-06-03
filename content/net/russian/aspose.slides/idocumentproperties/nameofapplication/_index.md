@@ -1,5 +1,5 @@
 ---
-title: НазваниеПриложения
+title: NameOfApplication
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или задает название приложения. Читаемая/записываемая строка.
 type: docs

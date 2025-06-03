@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Tags
 second_title: Aspose.Slides for .NET API 参考
 description: 返回客户数据标签集合。只读 ITagCollectionaspose.slides/itagcollection。
 type: docs

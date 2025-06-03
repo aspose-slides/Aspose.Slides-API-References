@@ -1,5 +1,5 @@
 ---
-title: 分子
+title: Numerator
 second_title: Aspose.Slides for .NET API 参考
 description: 分子
 type: docs

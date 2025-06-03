@@ -1,5 +1,5 @@
 ---
-title: DonnéesBinaires
+title: BinaryData
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie une copie des données audio. En cas de grande quantité de données, envisagez d'utiliser la méthode GetStream../getstream pour éviter le chargement inutile des données audio en mémoire ou même une OutOfMemoryException. En lecture seule Byte.
 type: docs

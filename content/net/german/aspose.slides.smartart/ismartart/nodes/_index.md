@@ -1,5 +1,5 @@
 ---
-title: Knoten
+title: Nodes
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt Sammlungen von Wurzelknoten im SmartArt-Objekt zurück. Schreibgeschützte ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs

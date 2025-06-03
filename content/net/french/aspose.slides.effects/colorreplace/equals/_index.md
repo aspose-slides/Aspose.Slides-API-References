@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le ColorReplacespose.slides.effects/colorreplace spécifié est égal au ColorReplacespose.slides.effects/colorreplace actuel.
 type: docs

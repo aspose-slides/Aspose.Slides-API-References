@@ -1,5 +1,5 @@
 ---
-title: 到
+title: To
 second_title: Aspose.Slides for .NET API 参考
 description: 指定动画的结束值。可读/可写字符串。
 type: docs

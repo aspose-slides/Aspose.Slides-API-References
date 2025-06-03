@@ -1,5 +1,5 @@
 ---
-title: Límite de Miter
+title: MiterLimit
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el límite de miter de una línea. Solo lectura Single.
 type: docs

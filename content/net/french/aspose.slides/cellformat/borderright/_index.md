@@ -1,5 +1,5 @@
 ---
-title: BordureDroite
+title: BorderRight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un objet de propriétés de ligne de bordure droite. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs

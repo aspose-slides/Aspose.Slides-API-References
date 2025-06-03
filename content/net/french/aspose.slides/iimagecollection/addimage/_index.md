@@ -1,5 +1,5 @@
 ---
-title: AjouterImage
+title: AddImage
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajouter une image à une présentation.
 type: docs

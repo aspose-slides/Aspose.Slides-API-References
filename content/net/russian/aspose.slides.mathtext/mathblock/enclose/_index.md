@@ -1,5 +1,5 @@
 ---
-title: Обрамление
+title: Enclose
 second_title: Справочник API Aspose.Slides для .NET
 description: Обрамляет дочерние элементы этого блока в заданные символы, такие как скобки или другие символы как обрамление
 type: docs

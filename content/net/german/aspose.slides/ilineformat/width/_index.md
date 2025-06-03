@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Breite einer Linie zurück oder legt sie fest. Lese-/Schreibzugriff Double.
 type: docs

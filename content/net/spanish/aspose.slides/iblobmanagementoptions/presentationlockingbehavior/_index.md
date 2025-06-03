@@ -1,5 +1,5 @@
 ---
-title: Comportamiento deBloqueoDePresentacion
+title: PresentationLockingBehavior
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Esta propiedad define si una instancia de la clase Presentation puede ser propietaria de la fuente - archivo o flujo durante la vida útil de la instancia. Si la instancia es propietaria, bloquea la fuente. Esto ayuda a mejorar el consumo de memoria y el rendimiento al trabajar con BLOBs, pero el flujo o archivo fuente no puede ser cambiado durante la vida útil de la instancia de Presentación. Este es un ejemplo
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 图像格式
+title: ImageFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图像的文件格式。
 type: docs

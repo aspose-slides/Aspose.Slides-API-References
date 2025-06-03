@@ -1,5 +1,5 @@
 ---
-title: Licence
+title: License
 second_title: Référence API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de cette classe.
 type: docs

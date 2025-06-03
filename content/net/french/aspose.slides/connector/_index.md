@@ -1,5 +1,5 @@
 ---
-title: Connecteur
+title: Connector
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un connecteur.
 type: docs

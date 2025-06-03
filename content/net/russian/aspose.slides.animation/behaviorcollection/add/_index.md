@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Добавьте новое поведение в коллекцию.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Eingabe
+title: Input
 second_title: Aspose.Slides für .NET API Referenz
 description: type docs
 weight: 30

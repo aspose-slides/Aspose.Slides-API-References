@@ -1,5 +1,5 @@
 ---  
-title: TextAutofitType  
+title: TextAutofitType
 second_title: Référence API d'Aspose.Slides pour .NET  
 description: Représente le mode d'ajustement automatique du texte.
 type: docs  

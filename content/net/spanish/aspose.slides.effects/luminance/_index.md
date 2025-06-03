@@ -1,5 +1,5 @@
 ---
-title: Luminancia
+title: Luminance
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un efecto de Luminancia. El brillo desplaza linealmente todos los colores más cerca de blanco o negro. El contraste escala todos los colores para que estén más cerca o más alejados.
 type: docs

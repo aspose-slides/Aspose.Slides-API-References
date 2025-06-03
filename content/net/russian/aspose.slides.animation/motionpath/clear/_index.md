@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все команды из коллекции.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Устойчивость
+title: Persistence
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения PersistenceTypeaspose.slides/persistencetype.
 type: docs

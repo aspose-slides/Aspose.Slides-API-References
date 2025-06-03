@@ -1,5 +1,5 @@
 ---
-title: 获取几何路径
+title: GetGeometryPaths
 second_title: Aspose.Slides for .NET API 参考
 description: 返回几何形状的路径副本。坐标相对于形状的左上角。
 type: docs

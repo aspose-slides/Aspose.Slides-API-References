@@ -1,5 +1,5 @@
 ---
-title: 透明度
+title: Transparency
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取填充颜色的透明度。读取单一值。
 type: docs

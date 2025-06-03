@@ -1,5 +1,5 @@
 ---
-title: ÚltimaHoraGuardada
+title: LastSavedTime
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la fecha en que se modificó por última vez una presentación. Los valores están en UTC.P Solo lectura en el caso de Presentation.DocumentProperties porque se actualizará internamente durante el proceso de guardado del objeto IPresentation. Se puede cambiar a través de la instancia de DocumentProperties devuelta por el método ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties. Consulte el ejemplo en el resumen del método UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties.
 type: docs

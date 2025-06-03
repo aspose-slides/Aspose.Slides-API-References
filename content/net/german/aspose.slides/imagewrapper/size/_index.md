@@ -1,5 +1,5 @@
 ---  
-title: Größe  
+title: Size
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft die Breite und Höhe in Pixeln des Bildes ab. Nur-Lese Sizeaspose.slides/imagewrapper/size.
 type: docs  

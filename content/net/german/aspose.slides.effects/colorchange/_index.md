@@ -1,5 +1,5 @@
 ---
-title: Farbwechsel
+title: ColorChange
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Farbwechsel-Effekt dar. Instanzen von FromColor werden durch Instanzen von ToColor ersetzt.
 type: docs

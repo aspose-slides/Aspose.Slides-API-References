@@ -1,5 +1,5 @@
 ---
-title: Ángulo
+title: Angle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Describe el ángulo relativo de la trayectoria del movimiento. Lectura/escritura Single.
 type: docs

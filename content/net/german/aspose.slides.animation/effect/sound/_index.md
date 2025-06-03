@@ -1,5 +1,5 @@
 ---
-title: Ton
+title: Sound
 second_title: Aspose.Slides für .NET API-Referenz
 description: Definierter eingebetteter Ton für den Effekt. Lesen/Speichern von IAudioaspose.slides/iaudio.
 type: docs

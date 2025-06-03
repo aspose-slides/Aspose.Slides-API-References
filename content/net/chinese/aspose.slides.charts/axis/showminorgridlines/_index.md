@@ -1,5 +1,5 @@
 ---
-title: 显示次网格线
+title: ShowMinorGridLines
 second_title: Aspose.Slides for .NET API 参考
 description: 要隐藏次网格线，请将 MinorGridLinesFormat.Line.FillFormat.FillType 设置为 FillType.NoFill。只读布尔值。
 type: docs

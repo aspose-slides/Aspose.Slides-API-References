@@ -1,5 +1,5 @@
 ---
-title: Glätten
+title: Smooth
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die Kurvenverarbeitung dar. Wahr, wenn die Kurvenverarbeitung für das Liniendiagramm oder das Punktdiagramm aktiviert ist. Gilt nur für Linien- und Punktdiagramme, die durch Linien verbunden sind. Lese- und schreibbares Boolesches.
 type: docs

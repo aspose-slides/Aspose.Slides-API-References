@@ -1,5 +1,5 @@
 ---
-title: Изображение
+title: Image
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает копию изображения. Только для чтения IImageaspose.slides/iimage.
 type: docs

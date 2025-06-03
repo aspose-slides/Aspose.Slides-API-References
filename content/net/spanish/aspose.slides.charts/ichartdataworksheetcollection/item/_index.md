@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve la hoja de cálculo por índice.
 type: docs

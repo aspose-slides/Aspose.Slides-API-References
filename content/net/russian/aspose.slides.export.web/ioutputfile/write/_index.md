@@ -1,5 +1,5 @@
 ---
-title: Запись
+title: Write
 second_title: Справочник по API Aspose.Slides для .NET
 description: Записывает содержимое файла в поток.
 type: docs

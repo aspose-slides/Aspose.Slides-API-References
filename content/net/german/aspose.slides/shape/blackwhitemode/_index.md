@@ -1,5 +1,5 @@
 ---
-title: SchwarzWeißModus
+title: BlackWhiteMode
 second_title: Aspose.Slides für .NET API-Referenz
 description: Die Eigenschaft gibt an, wie eine Form im Schwarz-Weiß-Anzeigemodus gerendert wird.. Lese-/Schreibeigenschaft BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs

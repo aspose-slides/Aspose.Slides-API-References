@@ -1,5 +1,5 @@
 ---  
-title: DisableFontLigatures  
+title: DisableFontLigatures
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 type: docs  

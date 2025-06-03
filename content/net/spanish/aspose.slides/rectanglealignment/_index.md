@@ -1,5 +1,5 @@
 ---
-title: AlineaciónRectángulo
+title: RectangleAlignment
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Define la alineación en 2 dimensiones.
 type: docs

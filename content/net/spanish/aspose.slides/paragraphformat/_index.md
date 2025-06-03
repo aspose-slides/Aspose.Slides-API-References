@@ -1,5 +1,5 @@
 ---
-title: FormatoDeParrafo
+title: ParagraphFormat
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Esta clase contiene las propiedades de formato de párrafo. A diferencia de IParagraphFormatEffectiveData, todas las propiedades de esta clase son editables.
 type: docs

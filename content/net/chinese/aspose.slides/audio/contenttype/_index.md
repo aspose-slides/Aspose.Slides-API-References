@@ -1,5 +1,5 @@
 ---
-title: 内容类型
+title: ContentType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回音频的 MIME 类型，编码在 BinaryDataaspose.slides/audio/binarydata 中。只读字符串。
 type: docs

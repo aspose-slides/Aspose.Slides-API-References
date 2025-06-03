@@ -1,5 +1,5 @@
 ---
-title: Medien
+title: Media
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen speziellen Hyperlink zum "Abspielen von Mediendateien" zurück. Wird in AudioFrame und VideoFrame verwendet. Nur lesbarer Hyperlink aspose.slides/hyperlink.
 type: docs

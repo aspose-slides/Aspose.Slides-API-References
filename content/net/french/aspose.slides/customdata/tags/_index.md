@@ -1,5 +1,5 @@
 ---
-title: Étiquettes
+title: Tags
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Retourne la collection des étiquettes de données client. Lecture seule ITagCollectionaspose.slides/itagcollection.
 type: docs

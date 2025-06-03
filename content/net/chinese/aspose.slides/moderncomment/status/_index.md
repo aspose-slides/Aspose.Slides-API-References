@@ -1,5 +1,5 @@
 ---
-title: 状态
+title: Status
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置评论的状态。可读/写 ModernCommentStatusaspose.slides/moderncommentstatus。
 type: docs

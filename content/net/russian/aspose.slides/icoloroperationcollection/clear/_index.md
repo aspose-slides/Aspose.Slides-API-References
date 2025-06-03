@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Удаляет все операции с цветом.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält die Höhe des Bildes in Pixeln.
 type: docs

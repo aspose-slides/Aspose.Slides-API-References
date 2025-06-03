@@ -1,5 +1,5 @@
 ---
-title: ColecciónDeAutoresDeComentarios
+title: CommentAuthorCollection
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una colección de autores de comentarios.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: WriteAsMathMl  
+title: WriteAsMathMl
 second_title: Aspose.Slides für .NET API Referenz  
 description: Speichert den Inhalt dieses MathBlockaspose.slides.mathtext/mathblock als MathML
 type: docs  

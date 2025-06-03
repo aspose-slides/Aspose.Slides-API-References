@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справка по API Aspose.Slides для .NET
 description: Добавить новую ячейку в коллекцию.
 type: docs

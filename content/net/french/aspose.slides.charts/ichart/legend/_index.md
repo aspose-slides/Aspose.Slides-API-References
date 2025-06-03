@@ -1,5 +1,5 @@
 ---
-title: Légende
+title: Legend
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit une légende pour un graphique. Lecture seule ILegend aspose.slides.charts/ilegend.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AppliquerImageTransparent
+title: ApplyImageTransparent
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Applique la couleur transparente spécifiée à une image si vrai.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Соответствие
+title: Compliance
 second_title: Справочник по API Aspose.Slides для .NET
 description: Желаемый уровень соответствия для создаваемого PDF-документа. Чтение/запись PdfComplianceaspose.slides.export/pdfcompliance.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 选项卡
+title: Tabs
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回段落的制表符。没有应用继承。只读 ITabCollectionaspose.slides/itabcollection。
 type: docs

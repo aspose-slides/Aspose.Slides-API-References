@@ -1,5 +1,5 @@
 ---  
-title: ShapeLock  
+title: ShapeLock
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Devuelve los bloqueos de formas. Solo lectura IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs  

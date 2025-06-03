@@ -1,5 +1,5 @@
 ---
-title: Dirección
+title: Direction
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Dirección de la división de transición. Lectura/escritura TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs

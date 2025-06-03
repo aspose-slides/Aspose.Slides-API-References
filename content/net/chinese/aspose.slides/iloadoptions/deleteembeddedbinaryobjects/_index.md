@@ -1,5 +1,5 @@
 ---
-title: 删除嵌入的二进制对象
+title: DeleteEmbeddedBinaryObjects
 second_title: Aspose.Slides for .NET API 参考
 description: 确定在演示文稿加载时 Aspose.Slides 是否会删除所有嵌入的二进制对象。
 type: docs

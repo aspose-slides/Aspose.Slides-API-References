@@ -1,5 +1,5 @@
 ---
-title: TipoDeEjeDeCategoria
+title: CategoryAxisType
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un tipo de eje de categoría.
 type: docs

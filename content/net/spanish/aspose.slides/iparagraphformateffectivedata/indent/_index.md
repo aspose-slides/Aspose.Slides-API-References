@@ -1,5 +1,5 @@
 ---
-title: Sangría
+title: Indent
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve la Sangría de la Primera Línea/Sangría Colgante del párrafo. La Sangría Colgante se puede definir con valores negativos. Solo lectura Simple.
 type: docs

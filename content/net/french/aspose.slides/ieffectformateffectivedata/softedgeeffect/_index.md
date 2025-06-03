@@ -1,5 +1,5 @@
 ---
-title: Effet de bord doux
+title: SoftEdgeEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Bord doux. Données ISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata en lecture seule.
 type: docs

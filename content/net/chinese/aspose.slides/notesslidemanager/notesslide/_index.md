@@ -1,5 +1,5 @@
 ---
-title: 注释幻灯片
+title: NotesSlide
 second_title: Aspose.Slides for .NET API 参考
 description: 返回当前幻灯片的注释幻灯片。如果幻灯片没有注释幻灯片，则返回 null。为只读 INotesSlideaspose.slides/inotesslide。
 type: docs

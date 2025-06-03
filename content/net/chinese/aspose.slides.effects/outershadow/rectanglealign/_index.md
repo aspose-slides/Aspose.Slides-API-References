@@ -1,5 +1,5 @@
 ---
-title: 矩形对齐
+title: RectangleAlign
 second_title: Aspose.Slides for .NET API 参考
 description: 矩形对齐。读/写 RectangleAlignmentaspose.slides/../aspose.slides/rectanglealignment。
 type: docs

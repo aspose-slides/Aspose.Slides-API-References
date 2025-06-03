@@ -1,5 +1,5 @@
 ---
-title: 调整值集合
+title: AdjustValueCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示形状调整的集合。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Présentation
+title: Presentation
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie la présentation parent. Lecture seule IPresentationaspose.slides/ipresentation.
 type: docs

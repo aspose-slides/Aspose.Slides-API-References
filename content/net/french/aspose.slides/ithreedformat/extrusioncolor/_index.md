@@ -1,5 +1,5 @@
 ---
-title: CouleurExtrusion
+title: ExtrusionColor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la couleur d'une extrusion. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

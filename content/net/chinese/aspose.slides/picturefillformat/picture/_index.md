@@ -1,5 +1,5 @@
 ---
-title: 图片
+title: Picture
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图片。只读 ISlidesPictureaspose.slides/islidespicture。
 type: docs

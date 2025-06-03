@@ -1,5 +1,5 @@
 ---  
-title: ShowLeftPane  
+title: ShowLeftPane
 second_title: Aspose.Slides für .NET API Referenz  
 description: Zeige/verborgenes linkes Paneel. Kann in flashvars überschrieben werden. Standard ist true.
 type: docs  

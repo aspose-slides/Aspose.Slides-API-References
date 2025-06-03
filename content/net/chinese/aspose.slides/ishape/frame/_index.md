@@ -1,5 +1,5 @@
 ---
-title: 框架
+title: Frame
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置形状框架属性。可读写 IShapeFrameaspose.slides/ishapeframe。
 type: docs

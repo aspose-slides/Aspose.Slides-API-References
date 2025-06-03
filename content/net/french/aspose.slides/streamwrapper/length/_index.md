@@ -1,5 +1,5 @@
 ---
-title: Longueur
+title: Length
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la longueur en octets du flux. Lecture seule Int64.
 type: docs

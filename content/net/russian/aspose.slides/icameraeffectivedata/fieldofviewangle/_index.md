@@ -1,5 +1,5 @@
 ---
-title: УголОбзора
+title: FieldOfViewAngle
 second_title: Справка по Aspose.Slides для .NET
 description: Угол обзора камеры FOV 0-180 градусов. Только для чтения одиночное значение.
 type: docs

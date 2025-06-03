@@ -1,5 +1,5 @@
 ---
-title: Füllformat
+title: FillFormat
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Füllformat einer Linie zurück. Nur lesbarer ILineFillFormatEffectiveDataaspose.slides/ilinefillformateffectivedata.
 type: docs

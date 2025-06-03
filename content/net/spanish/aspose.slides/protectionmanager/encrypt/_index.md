@@ -1,5 +1,5 @@
 ---
-title: Cifrar
+title: Encrypt
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Cifra la presentación con la contraseña especificada.
 type: docs

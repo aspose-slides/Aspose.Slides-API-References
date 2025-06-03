@@ -1,5 +1,5 @@
 ---
-title: 爆炸
+title: Explosion
 second_title: Aspose.Slides for .NET API 参考
 description: 开放的饼状切片距离饼图中心的距离以饼直径的百分比表示。读/写 Int32。
 type: docs

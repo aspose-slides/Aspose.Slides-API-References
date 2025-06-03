@@ -1,5 +1,5 @@
 ---
-title: 修订号
+title: RevisionNumber
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的修订号。可读/可写 Int32。
 type: docs

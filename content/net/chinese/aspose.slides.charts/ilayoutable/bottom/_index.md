@@ -1,5 +1,5 @@
 ---
-title: 底部
+title: Bottom
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取图表元素的顶部作为图表高度的一个分数。只读单精度浮点数。
 type: docs

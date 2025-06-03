@@ -1,5 +1,5 @@
 ---
-title: Цвет
+title: Color
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает или устанавливает цвет кисти для линии.
 type: docs

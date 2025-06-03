@@ -1,5 +1,5 @@
 ---
-title: 添加作者
+title: AddAuthor
 second_title: Aspose.Slides for .NET API 参考
 description: 在集合的末尾添加新作者。
 type: docs

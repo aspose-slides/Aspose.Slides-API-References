@@ -1,5 +1,5 @@
 ---
-title: 列间距规则
+title: ColumnGapRule
 second_title: Aspose.Slides for .NET API 参考
 description: 矩阵列之间的水平间距类型；水平间距单位可以是 ems 或点（以 twip 存储）。默认值：单间距（0）
 type: docs

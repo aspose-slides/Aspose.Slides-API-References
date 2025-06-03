@@ -1,5 +1,5 @@
 ---
-title: Zu
+title: To
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Zielort für einen Animation-Motion-Effekt in Prozent an. Lese-/Schreibfähige PointF.
 type: docs

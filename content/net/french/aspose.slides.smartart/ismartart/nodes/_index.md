@@ -1,5 +1,5 @@
 ---
-title: Nœuds
+title: Nodes
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie des collections de nœuds racines dans l'objet SmartArt. Lecture seule ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs

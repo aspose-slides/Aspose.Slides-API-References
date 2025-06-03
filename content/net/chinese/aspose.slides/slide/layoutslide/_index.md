@@ -1,5 +1,5 @@
 ---
-title: 布局幻灯片
+title: LayoutSlide
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置当前幻灯片的布局幻灯片。可读/可写 ILayoutSlideaspose.slides/ilayoutslide。
 type: docs

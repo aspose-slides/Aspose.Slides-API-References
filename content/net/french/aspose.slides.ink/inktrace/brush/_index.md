@@ -1,5 +1,5 @@
 ---
-title: Pinceau
+title: Brush
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient le Pinceau pour le IInkLine IInkBrushaspose.slides.ink/iinkbrush en lecture seule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DesactivarEfectoBrillo
+title: DisableGlowEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Desactivar efecto de brillo.
 type: docs

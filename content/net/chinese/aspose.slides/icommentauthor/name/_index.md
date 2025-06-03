@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取或设置作者的名称。可读/可写 字符串。
 type: docs

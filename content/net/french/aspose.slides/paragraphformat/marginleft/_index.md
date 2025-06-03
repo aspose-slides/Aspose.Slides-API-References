@@ -1,5 +1,5 @@
 ---
-title: MargeGauche
+title: MarginLeft
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la marge gauche dans un paragraphe sans héritage. Lecture/écriture Simple.
 type: docs

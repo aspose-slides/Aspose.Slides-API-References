@@ -1,5 +1,5 @@
 ---
-title: 布局幻灯片
+title: LayoutSlides
 second_title: Aspose.Slides for .NET API参考
 description: 返回演示文稿中定义的所有布局幻灯片的列表。只读IGlobalLayoutSlideCollection aspose.slides/igloballayoutslidecollection。
 type: docs

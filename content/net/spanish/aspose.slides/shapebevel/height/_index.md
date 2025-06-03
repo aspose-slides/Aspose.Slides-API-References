@@ -1,5 +1,5 @@
 ---
-title: Altura
+title: Height
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Altura del bisel. Lectura/escritura Doble.
 type: docs

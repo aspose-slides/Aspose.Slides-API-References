@@ -1,5 +1,5 @@
 ---
-title: 格式
+title: Format
 second_title: Aspose.Slides for .NET API 参考
 description: 表示误差线的格式。可读/写 IFormataspose.slides.charts/iformat。
 type: docs

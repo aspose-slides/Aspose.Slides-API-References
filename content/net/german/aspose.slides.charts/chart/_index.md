@@ -1,5 +1,5 @@
 ---
-title: Diagramm
+title: Chart
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt ein grafisches Diagramm in einer Folie dar.
 type: docs

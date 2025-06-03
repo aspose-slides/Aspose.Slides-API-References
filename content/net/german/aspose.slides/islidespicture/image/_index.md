@@ -1,5 +1,5 @@
 ---
-title: Bild
+title: Image
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das eingebettete Bild zurück oder setzt es. Lese-/Schreibzugriff auf IPPImageaspose.slides/ippimage.
 type: docs

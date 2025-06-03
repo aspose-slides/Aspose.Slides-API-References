@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает высоту заголовка как долю от высоты графика. Чтение/запись Single.
 type: docs

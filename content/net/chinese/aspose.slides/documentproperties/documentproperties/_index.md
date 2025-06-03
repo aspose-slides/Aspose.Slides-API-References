@@ -1,5 +1,5 @@
 ---
-title: 文档属性
+title: DocumentProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化类 DocumentProperties 的新实例aspose.slides/documentproperties。
 type: docs

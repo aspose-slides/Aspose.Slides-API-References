@@ -1,5 +1,5 @@
 ---
-title: 底部
+title: Bottom
 second_title: Aspose.Slides for .NET API 参考
 description: 底部。只读单精度浮点数。
 type: docs

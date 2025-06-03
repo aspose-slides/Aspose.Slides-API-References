@@ -1,5 +1,5 @@
 ---
-title: Piso
+title: Floor
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un objeto que permite cambiar el formato del piso de un gráfico 3D. Solo lectura IChartWallaspose.slides.charts/ichartwall.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: Unternehmen  
+title: Company
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Unternehmens-Eigenschaft zurück oder setzt sie. Lese-/Schreibzeichenfolge.
 type: docs  

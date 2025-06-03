@@ -1,5 +1,5 @@
 ---
-title: Seuil
+title: Threshold
 second_title: Référence de l'API Aspose.Slide pour .NET
 description: Renvoie le seuil de l'effet. Lecture/écriture Single.
 type: docs

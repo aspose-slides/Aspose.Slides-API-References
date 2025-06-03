@@ -1,5 +1,5 @@
 ---
-title: CopierVers
+title: CopyTo
 second_title: Aspose.Sildes pour .NET Référence API
 description: Copie tous les éléments de la collection vers le tableau spécifié.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 更新文档属性
+title: UpdateDocumentProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 更新绑定演示文稿的属性。
 type: docs

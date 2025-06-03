@@ -1,5 +1,5 @@
 ---
-title: Operador
+title: Operator
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Carácter del operador Nario Por ejemplo
 type: docs

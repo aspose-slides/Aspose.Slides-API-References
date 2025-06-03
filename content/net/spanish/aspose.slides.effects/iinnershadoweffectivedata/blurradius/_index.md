@@ -1,5 +1,5 @@
 ---
-title: RadioDeDesenfoque
+title: BlurRadius
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Radio de desenfoque. Solo lectura Double.
 type: docs

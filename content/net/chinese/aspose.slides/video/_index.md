@@ -1,5 +1,5 @@
 ---
-title: 视频
+title: Video
 second_title: Aspose.Slides for .NET API 参考
 description: 表示嵌入到演示文稿中的图像。
 type: docs

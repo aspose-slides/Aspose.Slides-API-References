@@ -1,5 +1,5 @@
 ---
-title: 计量
+title: Metered
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化此类的新实例。
 type: docs

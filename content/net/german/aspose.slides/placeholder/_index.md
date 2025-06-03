@@ -1,5 +1,5 @@
 ---
-title: Platzhalter
+title: Placeholder
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Platzhalter auf einer Folie dar.
 type: docs

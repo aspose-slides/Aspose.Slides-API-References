@@ -1,5 +1,5 @@
 ---
-title: 图表
+title: Chart
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片上的图形图表。
 type: docs

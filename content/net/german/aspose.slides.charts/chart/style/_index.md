@@ -1,5 +1,5 @@
 ---
-title: Stil
+title: Style
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Diagrammstil zurück oder setzt ihn. Lesen/Schreiben von StyleTypeaspose.slides.charts/styletype.
 type: docs

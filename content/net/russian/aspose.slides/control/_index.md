@@ -1,5 +1,5 @@
 ---
-title: Управление
+title: Control
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет элемент управления ActiveX.
 type: docs

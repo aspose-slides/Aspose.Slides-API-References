@@ -1,5 +1,5 @@
 ---
-title: Ausführen
+title: Run
 second_title: Aspose.Slides für .NET API Referenz
 description: Führen Sie die Generierung der Animationsereignisse für jede Folie aus.
 type: docs

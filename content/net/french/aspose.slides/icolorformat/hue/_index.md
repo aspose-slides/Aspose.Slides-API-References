@@ -1,5 +1,5 @@
 ---
-title: Teinte
+title: Hue
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
 type: docs

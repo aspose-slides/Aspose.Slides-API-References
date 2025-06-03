@@ -1,5 +1,5 @@
 ---
-title: 嵌入ASCII字符的TrueType字体
+title: EmbedTrueTypeFontsForASCII
 second_title: Aspose.Slides for .NET API 参考
 description: 为ASCII字符32-127嵌入TrueType字体。大于127的字符代码的字体始终被嵌入。读/写布尔值。
 type: docs

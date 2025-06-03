@@ -1,5 +1,5 @@
 ---
-title: Palabras clave
+title: Keywords
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece las palabras clave de una presentación. Lectura/escritura String.
 type: docs

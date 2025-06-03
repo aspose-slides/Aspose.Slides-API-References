@@ -1,5 +1,5 @@
 ---
-title: Niveau
+title: Level
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le niveau d'imbrication du nœud. En lecture seule Int32.
 type: docs

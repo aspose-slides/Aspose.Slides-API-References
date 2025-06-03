@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Höhe des Diagrammelements als Bruchteil der Höhe des Diagramms an. Lese-/Schreibzugriff Single.
 type: docs

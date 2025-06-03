@@ -1,5 +1,5 @@
 ---
-title: 嵌入TrueType字体用于ASCII
+title: EmbedTrueTypeFontsForASCII
 second_title: Aspose.Slides for .NET API参考
 description: 确定Aspose.Slides是否将为ASCII（33..127代码范围）文本嵌入常用字体。字符代码大于127的字体总是被嵌入。常用字体列表包括PDF的基础14种字体和额外用户指定的字体。可读/可写布尔值。
 type: docs

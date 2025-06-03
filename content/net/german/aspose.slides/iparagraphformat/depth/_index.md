@@ -1,5 +1,5 @@
 ---
-title: Tiefe
+title: Depth
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Tiefe des Absatzes zurück oder setzt sie. Der Wert 0 bedeutet undefinierten Wert. Lese-/Schreibzugriff Int16.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Kommentar
+title: Comment
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Kommentar zu einer Folie dar.
 type: docs

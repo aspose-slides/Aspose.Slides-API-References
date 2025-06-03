@@ -1,5 +1,5 @@
 ---
-title: FarbRichtung
+title: ColorDirection
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die Farbrichtung für das Verhalten von Farbeffekten dar.
 type: docs

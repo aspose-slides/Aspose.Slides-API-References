@@ -1,5 +1,5 @@
 ---
-title: Par
+title: By
 second_title: Référence API Aspose.Slides pour .NET
 description: Décrit la valeur d'offset relative pour l'animation en pourcentages. Read/write PointF.
 type: docs

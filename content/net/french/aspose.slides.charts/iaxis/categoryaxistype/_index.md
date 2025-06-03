@@ -1,5 +1,5 @@
 ---
-title: TypeD'AxeDeCatégorie
+title: CategoryAxisType
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le type de l'axe de catégorie. Lecture/écriture CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
 type: docs

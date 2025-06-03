@@ -1,5 +1,5 @@
 ---
-title: 深度百分比
+title: DepthPercents
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 3D 图表的深度，作为图表宽度的百分比，范围在 20 到 2000 之间。可读写 UInt16。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Zeichnungsrichtlinien
+title: DrawingGuides
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Sammlung der Zeichnungsrichtlinien zurück. Nur lesezugängliche IDrawingGuidesCollection aspose.slides/idrawingguidescollection
 type: docs

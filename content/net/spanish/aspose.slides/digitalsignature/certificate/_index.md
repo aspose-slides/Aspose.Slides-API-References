@@ -1,5 +1,5 @@
 ---
-title: Certificado
+title: Certificate
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Objeto Certificado que se utilizó para firmar el documento. Solo lectura X509Certificate2.
 type: docs

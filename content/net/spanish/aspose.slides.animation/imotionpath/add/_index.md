@@ -1,5 +1,5 @@
 ---
-title: Agregar
+title: Add
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Agregar un nuevo comando a la ruta
 type: docs

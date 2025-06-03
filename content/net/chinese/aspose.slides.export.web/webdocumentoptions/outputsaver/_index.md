@@ -1,5 +1,5 @@
 ---
-title: 输出保存器
+title: OutputSaver
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置输出保存器。读/写 IOutputSaveraspose.slides.export.web/ioutputsaver。
 type: docs

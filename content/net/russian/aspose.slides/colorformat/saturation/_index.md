@@ -1,5 +1,5 @@
 ---
-title: Насыщенность
+title: Saturation
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает компонент насыщенности цвета в представлении HSL. Все цветовые преобразования игнорируются. Читаемый/записываемый тип Single.
 type: docs

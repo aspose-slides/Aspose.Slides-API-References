@@ -1,5 +1,5 @@
 ---
-title: Оттенок
+title: Hue
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает процент оттенка. Только для чтения Single.
 type: docs

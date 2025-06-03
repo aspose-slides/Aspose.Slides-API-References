@@ -1,5 +1,5 @@
 ---  
-title: IBaseChartValue  
+title: IBaseChartValue
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt einen Wert eines Diagramms dar.
 type: docs  

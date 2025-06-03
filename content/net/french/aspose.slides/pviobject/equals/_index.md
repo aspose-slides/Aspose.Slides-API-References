@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Compare avec l'objet spécifié.
 type: docs

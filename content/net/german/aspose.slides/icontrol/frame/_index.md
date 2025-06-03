@@ -1,5 +1,5 @@
 ---
-title: Rahmen
+title: Frame
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Rahmen des Steuerelements zurück oder legt ihn fest. Lese-/Schreibzugriff auf IShapeFrameaspose.slides/ishapeframe.
 type: docs

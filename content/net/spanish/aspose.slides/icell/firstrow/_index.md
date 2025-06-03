@@ -1,5 +1,5 @@
 ---
-title: PrimeraFila
+title: FirstRow
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene la primera fila de la celda. Solo lectura IRowaspose.slides/irow.
 type: docs

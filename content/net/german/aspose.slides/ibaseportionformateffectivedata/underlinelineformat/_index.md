@@ -1,5 +1,5 @@
 ---
-title: UnterstreichLinienFormat
+title: UnderlineLineFormat
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die LineFormat-Eigenschaften zurück, die verwendet werden, um die unterstrichene Linie zu umreißen. Nur-lesbare ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs

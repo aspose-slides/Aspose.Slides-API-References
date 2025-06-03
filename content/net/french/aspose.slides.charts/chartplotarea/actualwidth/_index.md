@@ -1,5 +1,5 @@
 ---
-title: LargeurRéelle
+title: ActualWidth
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie la largeur réelle de l'élément de graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir des valeurs réelles. Lire Simple.
 type: docs

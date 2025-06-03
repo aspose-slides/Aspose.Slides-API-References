@@ -1,5 +1,5 @@
 ---
-title: Надстрочный знак
+title: Superscript
 second_title: Aspose.Slides для .NET Справочник по API
 description: Указывает аргумент надстрочного знака, который, например, в случае интеграла задает верхний предел
 type: docs

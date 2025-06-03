@@ -1,5 +1,5 @@
 ---
-title: РазмерИзображенияСлайда
+title: SlideImageSize
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает размер изображения слайда. Только для чтения SizeF.
 type: docs

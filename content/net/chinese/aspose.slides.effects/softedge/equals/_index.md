@@ -1,5 +1,5 @@
 ---
-title: 相等
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定的 SoftEdgeaspose.slides.effects/softedge 是否等于当前的 SoftEdgeaspose.slides.effects/softedge。
 type: docs

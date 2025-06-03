@@ -1,5 +1,5 @@
 ---
-title: Символ
+title: Character
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Акцентный символ Значение должно находиться в диапазоне U0300U036F или U20D0U20EF Значение по умолчанию Комбинирующий циркумфлекс U0302
 type: docs

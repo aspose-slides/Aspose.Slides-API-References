@@ -1,5 +1,5 @@
 ---
-title: 数学文本
+title: MathematicalText
 second_title: Aspose.Slides for .NET API 参考
 description: 数学文本
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 横杠线的位置。默认值：顶部
 type: docs

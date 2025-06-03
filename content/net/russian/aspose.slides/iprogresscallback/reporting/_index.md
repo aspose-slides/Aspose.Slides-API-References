@@ -1,5 +1,5 @@
 ---
-title: Отчетность
+title: Reporting
 second_title: Справочник по API Aspose.Slides для .NET
 description: Сообщает об обновлении прогресса.
 type: docs

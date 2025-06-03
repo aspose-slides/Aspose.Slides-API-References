@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Указывает ширину элемента диаграммы как долю ширины диаграммы. Чтение/запись Single.
 type: docs

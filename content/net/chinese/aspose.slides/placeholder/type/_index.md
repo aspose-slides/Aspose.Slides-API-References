@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置占位符的类型。只读 PlaceholderTypeaspose.slides/placeholdertype。
 type: docs

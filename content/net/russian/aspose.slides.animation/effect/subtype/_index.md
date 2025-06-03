@@ -1,5 +1,5 @@
 ---
-title: Подтип
+title: Subtype
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет подтип эффекта. Чтение/запись EffectSubtypeaspose.slides.animation/effectsubtype.
 type: docs

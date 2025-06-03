@@ -1,5 +1,5 @@
 ---
-title: 嵌入式文件扩展名
+title: EmbeddedFileExtension
 second_title: Aspose.Slides for .NET API 参考
 description: 返回当前嵌入的 OLE 对象的文件扩展名，只读字符串。
 type: docs

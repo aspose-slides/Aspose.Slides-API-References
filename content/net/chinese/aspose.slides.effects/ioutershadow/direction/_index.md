@@ -1,5 +1,5 @@
 ---
-title: 方向
+title: Direction
 second_title: Aspose.Slides for .NET API 参考
 description: 阴影的方向。可读/可写的单精度浮点数。
 type: docs

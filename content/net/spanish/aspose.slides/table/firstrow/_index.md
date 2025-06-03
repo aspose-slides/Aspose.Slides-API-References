@@ -1,5 +1,5 @@
 ---
-title: PrimeraFila
+title: FirstRow
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la primera fila de una tabla debe dibujarse con un formato especial. Booleano de lectura/escritura.
 type: docs

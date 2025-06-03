@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет все элементы из коллекции.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 预设颜色
+title: PresetColor
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置颜色预设。可读写 PresetColoraspose.slides/presetcolor。
 type: docs

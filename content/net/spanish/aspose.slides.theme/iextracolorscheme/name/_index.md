@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve un nombre de este esquema. Solo lectura String.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: EfectoDeRotación
+title: RotationEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: El constructor predeterminado.
 type: docs

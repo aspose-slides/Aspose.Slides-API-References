@@ -1,5 +1,5 @@
 ---
-title: 超级链接已更改
+title: HyperlinksChanged
 second_title: Aspose.Slides for .NET API 参考
 description: 指定此部分中的一个或多个超链接是由生成器在此部分中独立更新的。下一个打开此文档的生成器应使用此部分中指定的新超链接更新超链接关系。可读/可写布尔值。
 type: docs

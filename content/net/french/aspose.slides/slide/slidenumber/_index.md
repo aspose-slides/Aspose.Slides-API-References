@@ -1,5 +1,5 @@
 ---
-title: NuméroDeDiapositive
+title: SlideNumber
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un numéro de diapositive. L'index de la diapositive dans la collection Slidesaspose.slides/presentation/slides est toujours égal à NuméroDeDiapositive - Presentation.FirstSlideNumber. Lecture/écriture Int32.
 type: docs

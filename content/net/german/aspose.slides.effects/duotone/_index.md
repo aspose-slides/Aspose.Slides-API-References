@@ -1,5 +1,5 @@
 ---
-title: Duoton
+title: Duotone
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Duoton-Effekt dar. Kombiniert für jeden Pixel Color1 und Color2 durch eine lineare Interpolation, um die neue Farbe für diesen Pixel zu bestimmen.
 type: docs

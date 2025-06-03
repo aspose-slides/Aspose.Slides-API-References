@@ -1,5 +1,5 @@
 ---
-title: 动画效果类型
+title: EffectType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示动画效果的类型。
 type: docs

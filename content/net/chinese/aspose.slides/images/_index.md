@@ -1,5 +1,5 @@
 ---
-title: 图像
+title: Images
 second_title: Aspose.Slides for .NET API 参考
 description: 实例化和操作 IImage 的方法。
 type: docs

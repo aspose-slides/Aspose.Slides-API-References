@@ -1,5 +1,5 @@
 ---
-title: CrearEfectoDeRotación
+title: CreateRotationEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea el efecto de rotación.
 type: docs

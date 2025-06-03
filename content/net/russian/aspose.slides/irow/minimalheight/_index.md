@@ -1,5 +1,5 @@
 ---
-title: МинимальнаяВысота
+title: MinimalHeight
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает или устанавливает минимальную возможную высоту строки. Читаемое/записываемое Double.
 type: docs

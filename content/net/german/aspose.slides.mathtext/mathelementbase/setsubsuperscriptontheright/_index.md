@@ -1,5 +1,5 @@
 ---  
-title: SetSubSuperscriptOnTheRight  
+title: SetSubSuperscriptOnTheRight
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt Subscript und Superscript auf der rechten Seite
 type: docs  

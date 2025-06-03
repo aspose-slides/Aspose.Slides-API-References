@@ -1,5 +1,5 @@
 ---
-title: 类别
+title: Categories
 second_title: Aspose.Slides for .NET API 参考
 description: 获取主要类别，或者如果 UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories 属性为 false，则获取主要和次要类别。只读 IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Вставить новую команду в путь
 type: docs

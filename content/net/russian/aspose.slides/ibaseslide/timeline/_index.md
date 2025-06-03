@@ -1,5 +1,5 @@
 ---
-title: Таймлайн
+title: Timeline
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает объект таймлайна анимации. Только для чтения IAnimationTimeLine aspose.slides/ianimationtimeline.
 type: docs

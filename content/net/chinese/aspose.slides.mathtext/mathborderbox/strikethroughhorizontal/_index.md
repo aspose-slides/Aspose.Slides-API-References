@@ -1,5 +1,5 @@
 ---
-title: 删除线水平
+title: StrikethroughHorizontal
 second_title: Aspose.Slides for .NET API 参考
 description: 删除线水平默认值为 false - 指定删除线水平线的隐藏或显示状态。
 type: docs

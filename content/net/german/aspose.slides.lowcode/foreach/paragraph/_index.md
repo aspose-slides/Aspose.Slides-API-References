@@ -1,5 +1,5 @@
 ---
-title: Absatz
+title: Paragraph
 second_title: Aspose.Slides für .NET API-Referenz
 description: Durchlaufen Sie jeden Absatzaspose.slides.lowcode/foreach/paragraph in der Präsentationaspose.slides/presentation. Formen werden in allen Arten von Folien durchlaufen - Folieaspose.slides.lowcode/foreach/slide MasterFolieaspose.slides.lowcode/foreach/masterslide und LayoutFolieaspose.slides.lowcode/foreach/layoutslide
 type: docs

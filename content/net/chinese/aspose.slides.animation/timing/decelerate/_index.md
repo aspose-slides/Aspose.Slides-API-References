@@ -1,5 +1,5 @@
 ---
-title: 减速
+title: Decelerate
 second_title: Aspose.Sildes for .NET API 参考
 description: 描述持续时间减速行为效果的百分比。可读/可写 Single。
 type: docs

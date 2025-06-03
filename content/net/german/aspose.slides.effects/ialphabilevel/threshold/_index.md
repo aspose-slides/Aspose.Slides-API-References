@@ -1,5 +1,5 @@
 ---
-title: Schwelle
+title: Threshold
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Effekt-Schwellenwert zurück. Lese-/Schreibzugriff auf Single.
 type: docs

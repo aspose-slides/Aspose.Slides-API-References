@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Posición de la línea de barra. Predeterminado Superior
 type: docs

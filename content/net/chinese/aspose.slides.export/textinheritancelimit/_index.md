@@ -1,5 +1,5 @@
 ---
-title: 文本继承限制
+title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API 参考
 description: 控制文本属性继承的深度。
 type: docs

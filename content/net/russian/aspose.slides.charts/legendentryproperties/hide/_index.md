@@ -1,5 +1,5 @@
 ---
-title: Скрыть
+title: Hide
 second_title: Справочник API Aspose.Slides для .NET
 description: Определяет, скрыт ли элемент легенды. Чтение/запись логического.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Гиперссылка
+title: Hyperlink
 second_title: Справочник по API Aspose.Slides для .NET
 description: Цвет для гиперссылок. Только для чтения Color.
 type: docs

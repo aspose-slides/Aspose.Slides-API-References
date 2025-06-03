@@ -1,5 +1,5 @@
 ---
-title: 克隆
+title: Clone
 second_title: Aspose.Slides for .NET API 参考
 description: 克隆
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 创建反射
+title: CreateReflection
 second_title: Aspose.Slides for .NET API 参考
 description: 创建反射效果。
 type: docs

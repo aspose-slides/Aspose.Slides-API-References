@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справка по API Aspose.Sildes для .NET
 description: Создает новые серии графиков и вставляет их в коллекцию.
 type: docs

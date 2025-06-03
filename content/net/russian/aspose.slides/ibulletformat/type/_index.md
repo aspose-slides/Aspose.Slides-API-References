@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или задает тип маркера абзаца без наследования. Чтение/запись BulletTypeaspose.slides/bullettype.
 type: docs

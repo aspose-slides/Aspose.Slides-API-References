@@ -1,5 +1,5 @@
 ---
-title: Точки
+title: Points
 second_title: Справочник API Aspose.Slides для .NET
 description: Определяет точки анимации. Чтение/запись IPointCollectionaspose.slides.animation/ipointcollection.
 type: docs

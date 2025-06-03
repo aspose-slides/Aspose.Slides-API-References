@@ -1,5 +1,5 @@
 ---
-title: 清除
+title: Clear
 second_title: Aspose.Slides for .NET API 参考
 description: 从集合中移除所有元素，包括图表样式。
 type: docs

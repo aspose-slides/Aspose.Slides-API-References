@@ -1,5 +1,5 @@
 ---
-title: Hintergrund
+title: Background
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Hintergrund der Folie zurück. Schreibgeschütztes IBackgroundaspose.slides/ibackground.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 加速
+title: Accelerate
 second_title: Aspose.Slides for .NET API 参考
 description: 描述持续时间加速行为效果的百分比。可读/写单精度浮点数。
 type: docs

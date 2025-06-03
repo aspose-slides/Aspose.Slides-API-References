@@ -1,5 +1,5 @@
 ---
-title: 幻灯片方向
+title: SlideOrientation
 second_title: Aspose.Slides for .NET API 参考
 description: 表示幻灯片方向。
 type: docs

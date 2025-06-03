@@ -1,5 +1,5 @@
 ---
-title: 颜色
+title: Color
 second_title: Aspose.Slides for .NET API 参考
 description: 返回段落子弹的颜色格式，无继承。为只读 IColorFormataspose.slides/icolorformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 幻灯片
+title: Slides
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿中定义的所有幻灯片的列表。只读 ISlideCollection aspose.slides/islidecollection。
 type: docs

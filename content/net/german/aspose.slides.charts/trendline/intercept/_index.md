@@ -1,5 +1,5 @@
 ---
-title: Schnittpunkt
+title: Intercept
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Wert an, an dem die Trendlinie die y-Achse schneidet. Diese Eigenschaft wird nur unterstützt, wenn der Typ der Trendlinie exp, linear oder poly ist. Lese-/Schreib-Doppel.
 type: docs

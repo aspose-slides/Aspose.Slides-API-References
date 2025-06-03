@@ -1,5 +1,5 @@
 ---
-title: 平滑
+title: Smooth
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示曲线平滑。如果为真，则表示线图或散点图的曲线平滑功能已开启。仅适用于用线连接的线图和散点图。可读/可写布尔值。
 type: docs

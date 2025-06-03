@@ -1,5 +1,5 @@
 ---  
-title: ToString  
+title: ToString
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt einen String zurück, der das aktuelle Farbformat darstellt.
 type: docs  

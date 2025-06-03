@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Vérifie si ce champ est égal à un autre.
 type: docs

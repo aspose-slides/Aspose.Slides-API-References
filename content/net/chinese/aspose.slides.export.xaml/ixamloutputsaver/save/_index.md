@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Slides for .NET API 参考
 description: 将字节数组保存到目标位置。
 type: docs

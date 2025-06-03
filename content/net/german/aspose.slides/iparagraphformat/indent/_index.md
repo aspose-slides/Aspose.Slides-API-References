@@ -1,5 +1,5 @@
 ---
-title: Einzug
+title: Indent
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Einzug der ersten Zeile/den hängenden Einzug des Absatzes ohne Vererbung zurück oder setzt ihn. Der hängende Einzug kann mit negativen Werten definiert werden. Lese/Schreibwert Einzel.
 type: docs

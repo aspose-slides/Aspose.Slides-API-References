@@ -1,5 +1,5 @@
 ---
-title: Направление
+title: Direction
 second_title: Справка по API Aspose.Slides для .NET
 description: Направление тени. Чтение/запись Single.
 type: docs

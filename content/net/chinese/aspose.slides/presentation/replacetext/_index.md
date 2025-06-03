@@ -1,5 +1,5 @@
 ---
-title: 替换文本
+title: ReplaceText
 second_title: Aspose.Slides for .NET API 参考
 description: 将所有指定文本的出现替换为另一个指定文本。
 type: docs

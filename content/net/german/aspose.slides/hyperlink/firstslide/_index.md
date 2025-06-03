@@ -1,5 +1,5 @@
 ---
-title: ErsteFolien
+title: FirstSlide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen Hyperlink zur ersten Folie der Präsentation zurück. Nur-lesbarer Hyperlinkaspose.slides/hyperlink.
 type: docs

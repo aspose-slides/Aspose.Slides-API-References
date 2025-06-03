@@ -1,5 +1,5 @@
 ---
-title: Numérateur
+title: Numerator
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Numérateur
 type: docs

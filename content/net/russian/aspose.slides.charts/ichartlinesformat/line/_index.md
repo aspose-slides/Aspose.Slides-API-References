@@ -1,5 +1,5 @@
 ---
-title: Линия
+title: Line
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает свойства стиля линий графика. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs

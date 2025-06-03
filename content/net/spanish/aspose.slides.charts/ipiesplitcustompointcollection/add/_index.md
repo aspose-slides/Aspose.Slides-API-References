@@ -1,5 +1,5 @@
 ---
-title: Agregar
+title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agrega un punto de datos por su índice en la colección de puntos de la serie principal.
 type: docs

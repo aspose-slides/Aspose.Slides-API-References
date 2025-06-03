@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si les deux instances de SlideShowTransition sont égales. Booléen en lecture/écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает количество градиентных остановок в коллекции. Только для чтения Int32.
 type: docs

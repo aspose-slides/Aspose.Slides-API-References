@@ -1,5 +1,5 @@
 ---
-title: Bas
+title: Bottom
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient le haut de l'élément de graphique en tant que fraction de la hauteur du graphique. En lecture seule Single.
 type: docs

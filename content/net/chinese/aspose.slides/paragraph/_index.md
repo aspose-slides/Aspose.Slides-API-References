@@ -1,5 +1,5 @@
 ---
-title: 段落
+title: Paragraph
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一段文本。
 type: docs

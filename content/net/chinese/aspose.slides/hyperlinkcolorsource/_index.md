@@ -1,5 +1,5 @@
 ---
-title: 超链接颜色来源
+title: HyperlinkColorSource
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示超链接颜色的来源。
 type: docs

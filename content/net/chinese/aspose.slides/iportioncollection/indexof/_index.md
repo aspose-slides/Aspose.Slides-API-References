@@ -1,5 +1,5 @@
 ---
-title: 索引
+title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
 description: 确定集合中特定部分的索引。
 type: docs

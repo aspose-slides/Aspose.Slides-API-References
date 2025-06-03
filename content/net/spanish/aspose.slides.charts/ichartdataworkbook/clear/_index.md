@@ -1,5 +1,5 @@
 ---
-title: Borrar
+title: Clear
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Borrar todos los valores de las celdas en la hoja
 type: docs

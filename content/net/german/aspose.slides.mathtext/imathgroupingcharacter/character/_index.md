@@ -1,5 +1,5 @@
 ---  
-title: Zeichen  
+title: Character
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gruppierungszeichen Standardwert U+23DF UNTERE GESCHEITE KLAMMER
 type: docs  

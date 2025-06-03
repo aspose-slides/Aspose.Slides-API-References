@@ -1,5 +1,5 @@
 ---
-title: DésactiverEffetLumineux
+title: DisableGlowEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Désactiver l'effet lumineux.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Schriftquellen
+title: FontSources
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bietet Datei- und Speicherquellen für externe Schriftarten.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Form
+title: Shape
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Form auf einer Folie dar.
 type: docs

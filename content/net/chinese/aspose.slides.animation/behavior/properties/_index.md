@@ -1,5 +1,5 @@
 ---
-title: 属性
+title: Properties
 second_title: Aspose.Slides for .NET API 参考
 description: 表示行为的属性。只读 IBehaviorPropertyCollectionaspose.slides/ibehaviorpropertycollection。
 type: docs

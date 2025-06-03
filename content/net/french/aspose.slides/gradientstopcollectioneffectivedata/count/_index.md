@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seule Int32.
 type: docs

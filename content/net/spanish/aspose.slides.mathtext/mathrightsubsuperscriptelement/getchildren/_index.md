@@ -1,5 +1,5 @@
 ---
-title: ObtenerHijos
+title: GetChildren
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtener elementos hijos
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: 除法  
+title: Divide
 second_title: Aspose.Slides for .NET API 参考  
 description: 使用此分子和指定分母创建一个分数
 type: docs  

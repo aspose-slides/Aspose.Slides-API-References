@@ -1,5 +1,5 @@
 ---  
-title: FontFallBackRulesCollection  
+title: FontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API 参考  
 description: 默认构造函数。
 type: docs  

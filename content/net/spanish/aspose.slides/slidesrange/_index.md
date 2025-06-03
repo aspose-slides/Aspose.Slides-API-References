@@ -1,5 +1,5 @@
 ---  
-title: RangoDeDiapositivas  
+title: SlidesRange
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Rango de diapositivas
 type: docs  

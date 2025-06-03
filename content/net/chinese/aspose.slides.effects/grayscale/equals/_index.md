@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定的 GrayScaleaspose.slides.effects/grayscale 是否等于当前的 GrayScaleaspose.slides.effects/grayscale。
 type: docs

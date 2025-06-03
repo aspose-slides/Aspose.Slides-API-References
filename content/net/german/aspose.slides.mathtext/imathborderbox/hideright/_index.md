@@ -1,5 +1,5 @@
 ---  
-title: HideRight  
+title: HideRight
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Hide Right Edge, Standardwert ist false - gibt den versteckten oder angezeigten Zustand der rechten Kante des Rahmenfelds an.
 type: docs  

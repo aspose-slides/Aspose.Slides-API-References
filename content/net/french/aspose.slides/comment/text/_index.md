@@ -1,5 +1,5 @@
 ---
-title: Texte
+title: Text
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String.
 type: docs

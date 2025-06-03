@@ -1,5 +1,5 @@
 ---
-title: Füllstile
+title: FillStyles
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Sammlung von themendefinierten Füllstilen zurück. Nur-Lesen IFillFormatCollectionaspose.slides/ifillformatcollection.
 type: docs

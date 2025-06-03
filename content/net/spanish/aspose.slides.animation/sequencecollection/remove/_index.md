@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina la secuencia especificada de una colección.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient le nombre de lignes effectivement contenues dans la collection. En lecture seule Int32.
 type: docs

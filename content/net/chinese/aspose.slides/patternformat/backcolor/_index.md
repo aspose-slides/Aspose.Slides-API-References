@@ -1,5 +1,5 @@
 ---
-title: 背景颜色
+title: BackColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回背景图案颜色。只读 IColorFormataspose.slides/icolorformat。
 type: docs

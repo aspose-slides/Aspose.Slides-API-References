@@ -1,5 +1,5 @@
 ---
-title: Слайд
+title: Slide
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает родительский слайд комментария. Только для чтения ISlideaspose.slides/islide.
 type: docs

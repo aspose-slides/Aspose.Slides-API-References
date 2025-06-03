@@ -1,5 +1,5 @@
 ---
-title: FormatoGradiente
+title: GradientFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el formato de relleno de degradado. Solo lectura IGradientFormat aspose.slides/igradientformat.
 type: docs

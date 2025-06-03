@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定的 PresetShadowaspose.slides.effects/presetshadow 是否等于当前的 PresetShadowaspose.slides.effects/presetshadow。
 type: docs

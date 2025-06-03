@@ -1,5 +1,5 @@
 ---
-title: 重音
+title: Accent
 second_title: Aspose.Slides for .NET API 参考
 description: 在此元素的顶部设置一个重音符号
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Superposición
+title: Overlay
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si otros elementos del gráfico pueden superponerse a la leyenda. Booleano de lectura/escritura.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CouleurDePolice
+title: FontColor
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la couleur de police d'une forme. En lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CentroDeRotaciónDeBloqueoDeExtrusión
+title: ExtrusionLockRotationCenter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad extrusion.lockrotationcenter
 type: docs

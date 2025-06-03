@@ -1,5 +1,5 @@
 ---
-title: Schreiben
+title: Write
 second_title: Aspose.Slides für .NET API-Referenz
 description: Schreibt den Dateinhalt in den Stream.
 type: docs

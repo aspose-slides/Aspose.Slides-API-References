@@ -1,5 +1,5 @@
 ---
-title: Marcador
+title: Marker
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el marcador de la serie. Solo lectura IMarkeraspose.slides.charts/imarker.
 type: docs

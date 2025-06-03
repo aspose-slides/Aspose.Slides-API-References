@@ -1,5 +1,5 @@
 ---
-title: Fuente
+title: Font
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la fuente de viñetas de un párrafo. Solo lectura IFontDataaspose.slides/ifontdata.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AlturaFuente
+title: FontHeight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la altura de fuente de una porción. float.NaN significa que la altura no está definida y debe heredarse del Maestro. Lectura/escritura Single.
 type: docs

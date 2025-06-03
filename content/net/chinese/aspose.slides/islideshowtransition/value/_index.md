@@ -1,5 +1,5 @@
 ---
-title: 值
+title: Value
 second_title: Aspose.Slides for .NET API 参考
 description: 幻灯片放映过渡值。只读 ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase。
 type: docs

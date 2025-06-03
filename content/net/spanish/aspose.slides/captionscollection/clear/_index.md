@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los subtítulos de la colección.
 type: docs

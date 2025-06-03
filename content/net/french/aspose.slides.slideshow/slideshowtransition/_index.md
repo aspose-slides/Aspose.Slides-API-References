@@ -1,5 +1,5 @@
 ---
-title: TransitionDiaporama
+title: SlideShowTransition
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente la transition de diaporama.
 type: docs

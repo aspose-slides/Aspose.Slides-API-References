@@ -1,5 +1,5 @@
 ---
-title: 大小
+title: Size
 second_title: Aspose.Slides for .NET API 参考
 description: 获取占位符的大小。只读 PlaceholderSizeaspose.slides/placeholdersize。
 type: docs

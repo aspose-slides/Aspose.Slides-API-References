@@ -1,5 +1,5 @@
 ---  
-title: AddAlphaModulateFixedEffect  
+title: AddAlphaModulateFixedEffect
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Agrega el nuevo efecto Alpha Modulate Fixed al final de una colección.
 type: docs  

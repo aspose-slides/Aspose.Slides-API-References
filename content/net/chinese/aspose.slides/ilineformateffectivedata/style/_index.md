@@ -1,5 +1,5 @@
 ---
-title: 样式
+title: Style
 second_title: Aspose.Slides for .NET API 参考
 description: 返回线条样式。为只读 LineStyleaspose.slides/linestyle。
 type: docs

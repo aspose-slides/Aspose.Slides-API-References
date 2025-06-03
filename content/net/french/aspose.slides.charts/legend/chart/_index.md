@@ -1,5 +1,5 @@
 ---
-title: Diagramme
+title: Chart
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le diagramme. Lecture seule IChartaspose.slides.charts/ichart.
 type: docs

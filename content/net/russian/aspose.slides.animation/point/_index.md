@@ -1,5 +1,5 @@
 ---
-title: Точка
+title: Point
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет анимационную точку.
 type: docs

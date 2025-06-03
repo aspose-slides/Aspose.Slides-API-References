@@ -1,5 +1,5 @@
 ---
-title: 风格颜色
+title: StyleColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个 ColorFormat，以用于 BackgroundType.Themed 填充。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DesactivarLigadurasDeFuente
+title: DisableFontLigatures
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece un valor que indica si el texto se representa sin usar ligaduras. Cuando se establece en verdadero, las ligaduras se desactivarán en la salida renderizada. Por defecto, esta propiedad está establecida en falso.
 type: docs

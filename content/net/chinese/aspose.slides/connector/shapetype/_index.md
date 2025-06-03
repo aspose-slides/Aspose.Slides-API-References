@@ -1,5 +1,5 @@
 ---
-title: 形状类型
+title: ShapeType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置自动形状类型。可读写 ShapeTypeaspose.slides/shapetype。
 type: docs

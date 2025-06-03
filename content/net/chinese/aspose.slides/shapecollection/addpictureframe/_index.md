@@ -1,5 +1,5 @@
 ---
-title: 添加图片框
+title: AddPictureFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的图片框并将其添加到集合的末尾。
 type: docs

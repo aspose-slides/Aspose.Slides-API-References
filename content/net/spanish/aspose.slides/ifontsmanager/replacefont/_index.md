@@ -1,5 +1,5 @@
 ---
-title: ReemplazarFuente
+title: ReplaceFont
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Reemplazar fuente en presentación
 type: docs

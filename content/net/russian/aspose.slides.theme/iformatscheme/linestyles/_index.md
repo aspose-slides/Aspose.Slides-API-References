@@ -1,5 +1,5 @@
 ---
-title: Стиль линий
+title: LineStyles
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию стилей линий, определенных темой. Только для чтения ILineFormatCollection aspose.slides.theme/ilineformatcollection.
 type: docs

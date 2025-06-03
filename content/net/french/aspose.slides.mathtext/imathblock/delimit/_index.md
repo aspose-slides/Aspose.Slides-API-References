@@ -1,5 +1,5 @@
 ---
-title: Délimiter
+title: Delimit
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Délimite tous les éléments enfants avec un caractère séparateur sans les crochets
 type: docs

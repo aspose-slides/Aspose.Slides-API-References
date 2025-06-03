@@ -1,5 +1,5 @@
 ---
-title: Право
+title: Right
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Право. Только для чтения Single.
 type: docs

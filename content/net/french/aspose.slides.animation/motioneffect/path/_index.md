@@ -1,5 +1,5 @@
 ---
-title: Chemin
+title: Path
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le chemin primitif suivi par les coordonnées pour le mouvement d'animation. Lecture/écriture IMotionPathaspose.slides/imotionpath.
 type: docs

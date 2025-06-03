@@ -1,5 +1,5 @@
 ---
-title: Горизонтальная Зебра
+title: HorizontalBanding
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, должны ли четные строки отображаться с другим форматированием. Чтение/запись логическое значение.
 type: docs

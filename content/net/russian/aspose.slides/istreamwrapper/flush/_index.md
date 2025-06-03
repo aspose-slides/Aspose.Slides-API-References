@@ -1,5 +1,5 @@
 ---
-title: Сброс
+title: Flush
 second_title: Справочник по API Aspose.Slides для .NET
 description: Очищает все буферы для этого потока и вызывает запись любых буферизованных данных на основное устройство.
 type: docs

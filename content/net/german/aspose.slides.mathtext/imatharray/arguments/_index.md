@@ -1,5 +1,5 @@
 ---
-title: Argumente
+title: Arguments
 second_title: Aspose.Slides für .NET API Referenz
 description: Die Menge der Elemente des Arrays
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Равенство
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, равен ли указанный SoftEdgeaspose.slides.effects/softedge текущему SoftEdgeaspose.slides.effects/softedge.
 type: docs

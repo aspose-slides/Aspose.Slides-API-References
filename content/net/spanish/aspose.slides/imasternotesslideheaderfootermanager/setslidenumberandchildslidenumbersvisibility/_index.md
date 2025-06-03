@@ -1,5 +1,5 @@
 ---
-title: EstablecerVisibilidadDeNumeroDeDiapositivaYNumeroDeDiapositivasSecundarias
+title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Cambia la visibilidad del marcador de número de página de la diapositiva de notas maestro y todos los marcadores de número de página de las diapositivas secundarias. Los marcadores secundarios significan que los marcadores están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva de notas maestro.
 type: docs

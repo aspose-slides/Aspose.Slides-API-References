@@ -1,5 +1,5 @@
 ---
-title: TiempoTotalDeEdición
+title: TotalEditingTime
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Tiempo total de edición de una presentación. Lectura/escritura TimeSpan.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Aspose.Slides pour .NET Référence API
 description: Supprime une mise en page de la collection.
 type: docs

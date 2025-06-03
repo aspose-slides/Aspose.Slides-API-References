@@ -1,5 +1,5 @@
 ---
-title: 距离
+title: Distance
 second_title: Aspose.Sildes for .NET API 参考
 description: 阴影的距离。只读双精度浮点数。
 type: docs

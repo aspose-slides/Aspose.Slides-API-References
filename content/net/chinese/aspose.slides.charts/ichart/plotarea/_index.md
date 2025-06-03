@@ -1,5 +1,5 @@
 ---
-title: 绘图区域
+title: PlotArea
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图表的绘图区域。只读 IChartPlotAreaaspose.slides.charts/ichartplotarea。
 type: docs

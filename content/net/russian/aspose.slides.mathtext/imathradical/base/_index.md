@@ -1,5 +1,5 @@
 ---
-title: База
+title: Base
 second_title: Ссылки на API Aspose.Slides для .NET
 description: Аргумент базы
 type: docs

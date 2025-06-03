@@ -1,5 +1,5 @@
 ---
-title: 从左上角到右下角的删除线
+title: StrikethroughTopLeftToBottomRight
 second_title: Aspose.Slides for .NET API 参考
 description: 从左上角到右下角的删除线，默认值为 false。指定边框框的左上角到右下角的对角线的隐藏或显示状态。
 type: docs

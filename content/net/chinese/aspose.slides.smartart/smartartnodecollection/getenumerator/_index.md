@@ -1,5 +1,5 @@
 ---
-title: 获取枚举器
+title: GetEnumerator
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回一个迭代集合的枚举器。
 type: docs

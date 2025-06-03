@@ -1,5 +1,5 @@
 ---
-title: Objekt
+title: Object
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Modellobjekt zurück. Nur zum Lesen !TObject.
 type: docs

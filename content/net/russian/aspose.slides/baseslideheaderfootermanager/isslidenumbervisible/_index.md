@@ -1,5 +1,5 @@
 ---
-title: ВидимостьНомераСлайда
+title: IsSlideNumberVisible
 second_title: Aspose.Slides для .NET API Reference
 description: Получает значение, указывающее на наличие заполнитель номера страницы. ReadBoolean.
 type: docs

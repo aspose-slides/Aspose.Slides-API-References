@@ -1,5 +1,5 @@
 ---
-title: HauteurDePolice
+title: FontHeight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la hauteur de police d'une portion. En lecture seule, Single.
 type: docs

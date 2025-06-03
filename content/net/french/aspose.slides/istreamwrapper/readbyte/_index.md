@@ -1,5 +1,5 @@
 ---  
-title: ReadByte  
+title: ReadByte
 second_title: Référence API Aspose.Slides pour .NET  
 description: Lit un octet du flux et avance la position dans le flux d'un octet ou retourne -1 si à la fin du flux.
 type: docs  

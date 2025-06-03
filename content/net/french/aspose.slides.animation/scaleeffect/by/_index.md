@@ -1,5 +1,5 @@
 ---
-title: Par
+title: By
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: décrit la valeur de décalage relative pour l'animation en pourcentages. Lecture/écriture PointF.
 type: docs

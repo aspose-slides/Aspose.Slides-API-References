@@ -1,5 +1,5 @@
 ---
-title: InsertarComentario
+title: InsertComment
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Insertar un nuevo comentario en una colección en el índice especificado.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 路径
+title: Path
 second_title: Aspose.Slides for .NET API 参考
 description: 指定动画运动的路径原语，后跟坐标。可读/可写 IMotionPathaspose.slides/imotionpath。
 type: docs

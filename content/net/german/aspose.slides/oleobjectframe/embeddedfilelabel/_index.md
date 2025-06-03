@@ -1,5 +1,5 @@
 ---  
-title: EmbeddedFileLabel  
+title: EmbeddedFileLabel
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Dateinamen des eingebetteten OLE-Objekts zurück
 type: docs  

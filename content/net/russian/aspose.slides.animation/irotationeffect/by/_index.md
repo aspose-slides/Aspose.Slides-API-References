@@ -1,5 +1,5 @@
 ---
-title: По
+title: By
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает значение относительного смещения для анимации. Чтение/запись Single.
 type: docs

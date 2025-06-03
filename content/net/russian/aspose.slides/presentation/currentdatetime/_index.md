@@ -1,5 +1,5 @@
 ---
-title: ТекущаяДатаВремя
+title: CurrentDateTime
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает дату и время, которые будут заменять содержимое полей даты и времени. По умолчанию время создания этого объекта Presentation. Чтение/запись DateTime.
 type: docs

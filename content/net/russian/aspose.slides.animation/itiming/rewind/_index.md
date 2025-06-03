@@ -1,5 +1,5 @@
 ---
-title: Перемотка
+title: Rewind
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Этот атрибут указывает, будет ли эффект перематываться после завершения воспроизведения. Читаемый/записываемый Boolean.
 type: docs

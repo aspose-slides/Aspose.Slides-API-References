@@ -1,5 +1,5 @@
 ---
-title: 源格式
+title: SourceFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片加载时使用的格式信息。 read-only SourceFormataspose.slides/sourceformat。
 type: docs

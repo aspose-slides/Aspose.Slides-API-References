@@ -1,5 +1,5 @@
 ---
-title: 子类型
+title: Subtype
 second_title: Aspose.Slides for .NET API 参考
 description: 表示滤镜效果的子类型。读写 FilterEffectSubtypeaspose.slides/filtereffectsubtype。
 type: docs

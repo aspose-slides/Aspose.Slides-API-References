@@ -1,5 +1,5 @@
 ---
-title: 布局幻灯片
+title: LayoutSlides
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此母版幻灯片的子布局幻灯片集合。只读 IMasterLayoutSlideCollection aspose.slides/imasterlayoutslidecollection。
 type: docs

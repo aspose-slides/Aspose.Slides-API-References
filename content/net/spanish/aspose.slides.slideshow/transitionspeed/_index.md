@@ -1,5 +1,5 @@
 ---
-title: VelocidadDeTransición
+title: TransitionSpeed
 second_title: Referencia de API de Aspose.Slidess para .NET
 description: Representa tipos de velocidad de transición.
 type: docs

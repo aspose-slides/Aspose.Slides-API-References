@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence API Aspose.Sildes pour .NET
 description: Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32.
 type: docs

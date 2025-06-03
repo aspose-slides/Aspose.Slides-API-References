@@ -1,5 +1,5 @@
 ---
-title: 下划线格式
+title: UnderlineLineFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回用于概述下划线的 LineFormat 属性。只读 ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata。
 type: docs

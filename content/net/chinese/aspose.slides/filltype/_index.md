@@ -1,5 +1,5 @@
 ---
-title: 填充类型
+title: FillType
 second_title: Aspose.Slides for .NET API 参考
 description: 指定各种视觉对象的内部填充类型。
 type: docs

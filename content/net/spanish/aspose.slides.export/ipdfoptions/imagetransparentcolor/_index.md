@@ -1,5 +1,5 @@
 ---
-title: ColorTransparenteImagen
+title: ImageTransparentColor
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el color transparente de la imagen.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: NombresDePropiedades
+title: NamesOfProperties
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de nombres de propiedades. ICollection de solo lectura.
 type: docs

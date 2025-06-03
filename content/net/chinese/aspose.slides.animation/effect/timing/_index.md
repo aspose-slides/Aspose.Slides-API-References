@@ -1,5 +1,5 @@
 ---
-title: 时序
+title: Timing
 second_title: Aspose.Slides for .NET API 参考
 description: 定义效果的时序值。读/写 ITimingaspose.slides.animation/itiming。
 type: docs

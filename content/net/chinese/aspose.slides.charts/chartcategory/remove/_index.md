@@ -1,5 +1,5 @@
 ---
-title: 删除
+title: Remove
 second_title: Aspose.Sildes for .NET API 参考
 description: 从图表中删除类别。
 type: docs

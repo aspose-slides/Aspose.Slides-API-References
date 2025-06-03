@@ -1,5 +1,5 @@
 ---
-title: Secuencia
+title: Sequence
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de secuencias de efectos.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 小单位
+title: MinorUnit
 second_title: Aspose.Slides for .NET API 参考
 description: 表示日期或数值轴的小单位。可读/可写的 Double。
 type: docs

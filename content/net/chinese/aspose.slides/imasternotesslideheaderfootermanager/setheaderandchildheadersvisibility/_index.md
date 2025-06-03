@@ -1,5 +1,5 @@
 ---
-title: 设置主笔记幻灯片标题和所有子标题的可见性
+title: SetHeaderAndChildHeadersVisibility
 second_title: Aspose.Slidess for .NET API 参考
 description: 更改主笔记幻灯片标题占位符和所有子标题占位符的可见性。子占位符是指包含在依赖的笔记幻灯片上的占位符。依赖的笔记幻灯片使用并依赖于主笔记幻灯片。
 type: docs

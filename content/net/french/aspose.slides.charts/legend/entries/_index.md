@@ -1,5 +1,5 @@
 ---
-title: Entrées
+title: Entries
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les entrées de légende. Collection ILegendEntryCollection en lecture seule aspose.slides.charts/ilegendentrycollection.
 type: docs

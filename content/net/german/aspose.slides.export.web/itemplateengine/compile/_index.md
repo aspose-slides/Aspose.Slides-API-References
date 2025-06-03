@@ -1,5 +1,5 @@
 ---  
-title: Kompilieren  
+title: Compile
 second_title: Aspose.Slides für .NET API Referenz  
 description: Transformiert die Vorlage mit dem gegebenen Schlüssel und Modellobjekt in die Ausgabe.
 type: docs  

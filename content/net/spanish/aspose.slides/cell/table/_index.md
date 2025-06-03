@@ -1,5 +1,5 @@
 ---
-title: Tabla
+title: Table
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto Table padre para una celda. Solo lectura ITableaspose.slides/itable.
 type: docs

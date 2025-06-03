@@ -1,5 +1,5 @@
 ---
-title: 左右方向过渡
+title: LeftRightDirectionTransition
 second_title: Aspose.Slides for .NET API 参考
 description: 左右方向幻灯片过渡效果。
 type: docs

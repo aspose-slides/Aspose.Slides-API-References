@@ -1,5 +1,5 @@
 ---
-title: 默认制表符大小
+title: DefaultTabSize
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回默认制表符大小。只读单精度数。
 type: docs

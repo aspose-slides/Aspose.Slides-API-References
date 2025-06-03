@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Bullet-Höhe eines Absatzes zurück. Nur lesbar Single.
 type: docs

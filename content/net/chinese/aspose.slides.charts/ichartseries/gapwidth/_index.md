@@ -1,5 +1,5 @@
 ---
-title: 间距宽度
+title: GapWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 指定条形或柱形簇之间的空间，作为条形或柱形宽度的百分比。这不仅是此系列的属性，也是父系列组所有系列的属性 - 这是适当组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.GapWidth 读写属性更改值。只读 Int32。
 type: docs

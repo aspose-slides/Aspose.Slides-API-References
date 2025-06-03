@@ -1,5 +1,5 @@
 ---
-title: 视频帧
+title: VideoFrame
 second_title: Aspose.Slides for .NET API参考
 description: 表示幻灯片上的视频剪辑。
 type: docs

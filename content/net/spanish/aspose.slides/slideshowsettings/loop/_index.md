@@ -1,5 +1,5 @@
 ---
-title: Bucle
+title: Loop
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Bucle de presentación de diapositivas
 type: docs

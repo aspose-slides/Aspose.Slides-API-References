@@ -1,5 +1,5 @@
 ---
-title: 阴影颜色
+title: ShadowColor
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 shadow.color 属性
 type: docs

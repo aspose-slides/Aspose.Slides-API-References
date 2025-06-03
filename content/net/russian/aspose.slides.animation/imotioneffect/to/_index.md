@@ -1,5 +1,5 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает целевое местоположение для эффекта движения анимации в процентах. Чтение/запись PointF.
 type: docs

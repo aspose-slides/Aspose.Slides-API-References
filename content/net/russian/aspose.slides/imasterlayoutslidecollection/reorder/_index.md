@@ -1,5 +1,5 @@
 ---
-title: Перестановка
+title: Reorder
 second_title: Справочник по API Aspose.Slides для .NET
 description: Перемещает макетный слайд из коллекции в указанную позицию.
 type: docs

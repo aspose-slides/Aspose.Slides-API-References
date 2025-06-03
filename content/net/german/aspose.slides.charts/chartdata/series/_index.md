@@ -1,5 +1,5 @@
 ---
-title: Serien
+title: Series
 second_title: Aspose.Sildes für .NET API Referenz
 description: Ruft die Serien ab. Nur zur Lektüre IChartSeriesCollection aspose.slides.charts/ichartseriescollection.
 type: docs

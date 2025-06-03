@@ -1,5 +1,5 @@
 ---
-title: 插入
+title: Insert
 second_title: Aspose.Slides for .NET API 参考
 description: 在指定索引处将具有指定属性值的新属性插入到集合中。
 type: docs

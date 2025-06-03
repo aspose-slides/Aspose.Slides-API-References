@@ -1,5 +1,5 @@
 ---
-title: Élement
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié.
 type: docs

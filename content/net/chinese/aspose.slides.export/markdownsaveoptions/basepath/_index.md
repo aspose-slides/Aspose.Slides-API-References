@@ -1,5 +1,5 @@
 ---
-title: 基础路径
+title: BasePath
 second_title: Aspose.Slides for .NET API 参考
 description: 指定保存带资源的文档的基础路径。默认值是应用程序的当前目录。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Wert
+title: Value
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft den Wert einer Zelle ab oder setzt ihn. Lese-/Schreibobjekt.
 type: docs

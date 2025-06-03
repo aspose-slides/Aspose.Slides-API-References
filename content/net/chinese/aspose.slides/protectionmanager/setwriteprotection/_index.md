@@ -1,5 +1,5 @@
 ---
-title: 设置写保护
+title: SetWriteProtection
 second_title: Aspose.Slides for .NET API 参考
 description: 使用指定密码为该演示文稿设置写保护。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Berechnen
+title: Calculate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Wenn die Zelle eine Formel enthält, wird der Wert basierend auf dieser Formel aktualisiert.
 type: docs

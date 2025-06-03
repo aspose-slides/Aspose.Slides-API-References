@@ -1,5 +1,5 @@
 ---
-title: Lisse
+title: Smooth
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente l'adoucissement des courbes. Vrai si l'adoucissement des courbes est activé pour le graphique linéaire ou le graphique de dispersion. S'applique uniquement aux graphiques linéaires et de dispersion reliés par des lignes. Écriture/lecture Boolean.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 设置文本格式
+title: SetTextFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 将定义的部分格式属性设置为所有元素的分区。
 type: docs

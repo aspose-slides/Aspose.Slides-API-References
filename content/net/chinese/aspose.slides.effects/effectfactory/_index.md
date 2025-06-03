@@ -1,5 +1,5 @@
 ---  
-title: EffectFactory  
+title: EffectFactory
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许创建效果
 type: docs  

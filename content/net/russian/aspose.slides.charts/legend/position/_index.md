@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает позицию легенды на графике. Ненулевые значения свойств X, Y, Width, Height переопределяют эффект этого свойства. Чтение/запись LegendPositionTypeaspose.slides/legendpositiontype.
 type: docs

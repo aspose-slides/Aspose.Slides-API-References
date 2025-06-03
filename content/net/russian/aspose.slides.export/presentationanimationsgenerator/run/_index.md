@@ -1,5 +1,5 @@
 ---
-title: Запуск
+title: Run
 second_title: Справка по API Aspose.Sildes для .NET
 description: Запустите генерацию событий анимации для каждого слайда.
 type: docs

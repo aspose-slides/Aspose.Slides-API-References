@@ -1,5 +1,5 @@
 ---  
-title: RemoveEmbeddedFont  
+title: RemoveEmbeddedFont
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina la fuente incrustada
 type: docs  

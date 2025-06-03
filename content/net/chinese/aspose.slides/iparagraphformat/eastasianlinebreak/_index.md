@@ -1,5 +1,5 @@
 ---
-title: 东亚换行
+title: EastAsianLineBreak
 second_title: Aspose.Slides for .NET API 参考
 description: 确定段落中是否使用东亚换行。没有应用继承。读/写 NullableBoolaspose.slides/nullablebool。
 type: docs

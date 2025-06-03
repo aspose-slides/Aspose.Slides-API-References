@@ -1,5 +1,5 @@
 ---
-title: Перезапуск
+title: Restart
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает, должен ли эффект перезапускаться после завершения. Чтение/запись EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs

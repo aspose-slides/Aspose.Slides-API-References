@@ -1,5 +1,5 @@
 ---
-title: IstZahlenformatMitQuelleVerbunden
+title: IsNumberFormatLinkedToSource
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, ob das Format mit Quelldaten verknüpft ist. Lese-/Schreibbooleans.
 type: docs

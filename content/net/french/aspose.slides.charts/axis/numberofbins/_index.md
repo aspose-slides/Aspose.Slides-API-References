@@ -1,5 +1,5 @@
 ---
-title: NombreDeBacs
+title: NumberOfBins
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le nombre de bacs lorsque la valeur de la propriété AggregationType est définie sur AxisAggregationType.ByNumberOfBins. S'applique aux axes de catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
 type: docs

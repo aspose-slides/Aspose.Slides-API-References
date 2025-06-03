@@ -1,5 +1,5 @@
 ---
-title: 重叠
+title: Overlap
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在 2-D 图表中条形图和柱状图的重叠程度，百分比范围从 -100 到 100。这不仅是该系列的属性，也是父系列组中所有系列的属性。它是父系列组中适当属性的投影，因此该属性为只读。要更改值，请使用 ParentSeriesGroup.Overlap 可读写属性。只读 SByte。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 实例
+title: Instance
 second_title: Aspose.Sildes for .NET API 参考
 description: 演示文稿工厂静态实例。只读 PresentationFactoryaspose.slides/presentationfactory。
 type: docs

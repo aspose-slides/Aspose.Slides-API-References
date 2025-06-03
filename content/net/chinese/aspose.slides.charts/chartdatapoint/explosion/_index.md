@@ -1,5 +1,5 @@
 ---  
-title: 爆炸  
+title: Explosion
 second_title: Aspose.Slides for .NET API 参考  
 description: 指定数据点从饼图的中心移动的距离。可读/可写 Int32。
 type: docs  

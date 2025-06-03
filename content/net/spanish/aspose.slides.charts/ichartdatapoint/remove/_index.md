@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina DataPoint de la serie de gráficos.
 type: docs

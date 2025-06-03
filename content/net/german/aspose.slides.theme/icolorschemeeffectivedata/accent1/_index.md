@@ -1,5 +1,5 @@
 ---
-title: Akzent1
+title: Accent1
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erste Akzentfarbe im Schema. Schreibgeschützter Farbwert.
 type: docs

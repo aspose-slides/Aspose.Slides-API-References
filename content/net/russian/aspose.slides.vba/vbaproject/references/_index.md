@@ -1,5 +1,5 @@
 ---
-title: Ссылки
+title: References
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает список всех ссылок, которые содержатся в проекте VBA. Только для чтения IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
 type: docs

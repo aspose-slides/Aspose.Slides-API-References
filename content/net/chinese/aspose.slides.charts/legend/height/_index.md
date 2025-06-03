@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置图例的高度，作为图表高度的一个比例。可读写 Single。
 type: docs

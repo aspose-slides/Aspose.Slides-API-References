@@ -1,5 +1,5 @@
 ---
-title: 声音
+title: Sound
 second_title: Aspose.Slides for .NET API 参考
 description: 定义嵌入的声音效果。读/写 IAudioaspose.slides/../aspose.slides/iaudio。
 type: docs

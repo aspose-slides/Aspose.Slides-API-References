@@ -1,5 +1,5 @@
 ---
-title: 布局
+title: Layout
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 SmartArt 对象的布局。可读写 SmartArtLayoutType aspose.slides.smartart/smartartlayouttype。
 type: docs

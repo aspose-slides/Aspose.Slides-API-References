@@ -1,5 +1,5 @@
 ---
-title: Unterstrich
+title: Underbar
 second_title: Aspose.Slides für .NET API Referenz
 description: Setzt einen Strich an den unteren Rand dieses Elements
 type: docs

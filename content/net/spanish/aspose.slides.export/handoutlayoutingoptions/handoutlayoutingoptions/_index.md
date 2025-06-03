@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeDiseñoDeManuscritos
+title: HandoutLayoutingOptions
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Inicializa los valores predeterminados.
 type: docs

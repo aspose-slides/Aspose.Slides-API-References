@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Вставляет абзац в коллекцию по указанному индексу.
 type: docs

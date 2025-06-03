@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置误差条的类型。可读写 ErrorBarTypeaspose.slides/errorbartype。
 type: docs

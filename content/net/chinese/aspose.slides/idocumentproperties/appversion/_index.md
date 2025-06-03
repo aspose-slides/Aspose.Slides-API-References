@@ -1,5 +1,5 @@
 ---
-title: 应用版本
+title: AppVersion
 second_title: Aspose.Slides for .NET API 参考
 description: 返回应用版本。只读字符串。
 type: docs

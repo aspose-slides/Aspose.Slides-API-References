@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 通过其位置返回一个单元格。只读 Cellaspose.slides/cell。
 type: docs

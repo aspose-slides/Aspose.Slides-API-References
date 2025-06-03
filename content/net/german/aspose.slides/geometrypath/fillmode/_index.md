@@ -1,5 +1,5 @@
 ---
-title: Füllmodus
+title: FillMode
 second_title: Aspose.Slides für .NET API-Referenz
 description: Setzt den Füllmodus
 type: docs

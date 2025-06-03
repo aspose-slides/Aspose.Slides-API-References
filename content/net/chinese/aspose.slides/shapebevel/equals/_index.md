@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API参考
 description: type docs
 weight: 50

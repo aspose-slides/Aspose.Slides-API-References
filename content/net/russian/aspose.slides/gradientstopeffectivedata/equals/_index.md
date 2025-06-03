@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник API Aspose.Sildes для .NET
 description: Определяет, равны ли указанные GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata текущему GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata.
 type: docs

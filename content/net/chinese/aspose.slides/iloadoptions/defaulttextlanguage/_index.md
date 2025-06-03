@@ -1,5 +1,5 @@
 ---
-title: 默认文本语言
+title: DefaultTextLanguage
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿文本的默认语言。可读写字符串。
 type: docs

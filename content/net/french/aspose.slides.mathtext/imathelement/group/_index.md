@@ -1,5 +1,5 @@
 ---
-title: Groupe
+title: Group
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Place cet élément dans un groupe à l'aide d'une accolade ouvrante
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Reiniciar
+title: Restart
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica si un efecto debe reiniciarse después de completarse. Lectura/escritura EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs

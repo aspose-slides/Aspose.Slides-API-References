@@ -1,5 +1,5 @@
 ---
-title: Ausblenden
+title: Hide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Machen Sie das Datenetikett unsichtbar, indem Sie alle Show-Flags ShowValue ... auf den Status falsch setzen. IsVisible wird danach falsch sein.
 type: docs

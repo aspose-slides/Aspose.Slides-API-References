@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник API Aspose.Slides для .NET
 description: Удаляет комментарий и все его ответы из родительской коллекции.
 type: docs

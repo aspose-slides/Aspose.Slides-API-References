@@ -1,5 +1,5 @@
 ---
-title: 索引
+title: Index
 second_title: Aspose.Slides for .NET API 参考
 description: 获取占位符的索引。只读 UInt32。
 type: docs

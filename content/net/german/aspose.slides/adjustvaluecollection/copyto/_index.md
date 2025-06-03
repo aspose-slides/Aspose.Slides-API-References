@@ -1,5 +1,5 @@
 ---
-title: KopierenNach
+title: CopyTo
 second_title: Aspose.Slides für .NET API Referenz
 description: Kopiert alle Elemente aus der Sammlung in das angegebene Array.
 type: docs

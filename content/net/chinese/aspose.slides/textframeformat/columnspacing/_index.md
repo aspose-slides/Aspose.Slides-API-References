@@ -1,5 +1,5 @@
 ---
-title: 列间距
+title: ColumnSpacing
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置文本区域中文本列之间的间距（以点为单位）。这仅在存在多个列时适用。该值必须是一个正数。否则，该值将被设为零。可读写的双精度浮点数。
 type: docs

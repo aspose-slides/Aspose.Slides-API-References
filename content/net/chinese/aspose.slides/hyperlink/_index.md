@@ -1,5 +1,5 @@
 ---
-title: 超链接
+title: Hyperlink
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个超链接。
 type: docs

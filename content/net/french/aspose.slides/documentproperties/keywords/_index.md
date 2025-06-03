@@ -1,5 +1,5 @@
 ---
-title: Mots-clés
+title: Keywords
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit les mots-clés d'une présentation. Chaîne en lecture/écriture.
 type: docs

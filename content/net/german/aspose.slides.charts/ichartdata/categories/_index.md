@@ -1,5 +1,5 @@
 ---
-title: Kategorien
+title: Categories
 second_title: Aspose.Slides für .NET API Referenz
 description: Ruft die primären Kategorien oder sowohl primäre als auch sekundäre Kategorien ab, wenn die Eigenschaft UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories falsch ist. Nur lesbare IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs

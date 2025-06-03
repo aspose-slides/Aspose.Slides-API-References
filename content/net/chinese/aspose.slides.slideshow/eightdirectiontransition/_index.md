@@ -1,5 +1,5 @@
 ---
-title: 八方向过渡
+title: EightDirectionTransition
 second_title: Aspose.Slides for .NET API 参考
 description: 八方向幻灯片过渡效果。
 type: docs

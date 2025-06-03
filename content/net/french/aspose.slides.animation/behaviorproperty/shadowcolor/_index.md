@@ -1,5 +1,5 @@
 ---
-title: Couleur d'Ombre
+title: ShadowColor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la propriété shadow.color
 type: docs

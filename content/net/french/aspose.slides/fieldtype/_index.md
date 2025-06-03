@@ -1,5 +1,5 @@
 ---
-title: TypeDeChamp
+title: FieldType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un type de champ. Cette valeur détermine quel texte sera défini sur la portion de champ lorsqu'il sera mis à jour.
 type: docs

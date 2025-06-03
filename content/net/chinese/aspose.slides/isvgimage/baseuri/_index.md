@@ -1,5 +1,5 @@
 ---
-title: 基础URI
+title: BaseUri
 second_title: Aspose.Slides for .NET API 参考
 description: 返回指定SVG的基础URI。用于解析相对链接。只读字符串。
 type: docs

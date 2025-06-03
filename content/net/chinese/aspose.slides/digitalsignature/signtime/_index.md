@@ -1,5 +1,5 @@
 ---
-title: 签名时间
+title: SignTime
 second_title: Aspose.Slides for .NET API 参考
 description: 文档签署的时间。只读 DateTime。
 type: docs

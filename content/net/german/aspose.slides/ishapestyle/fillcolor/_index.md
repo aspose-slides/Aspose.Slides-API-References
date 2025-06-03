@@ -1,5 +1,5 @@
 ---
-title: Füllfarbe
+title: FillColor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Füllfarbe einer Form zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
 type: docs

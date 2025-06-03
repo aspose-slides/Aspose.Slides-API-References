@@ -1,5 +1,5 @@
 ---
-title: От
+title: From
 second_title: Справочник по API Aspose.Slides для .NET
 description: Это значение используется для указания начального цвета поведения. Чтение/запись IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ÚltimaDiapositivaVista
+title: LastVievedSlide
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un hipervínculo a la última diapositiva vista. Solo lectura Hyperlinkaspose.slides/hyperlink.
 type: docs

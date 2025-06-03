@@ -1,5 +1,5 @@
 ---
-title: Ausrichtung
+title: Orientation
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die Ausrichtung einer Form dar.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Яркость
+title: Brightness
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Яркость. Только для чтения Single.
 type: docs

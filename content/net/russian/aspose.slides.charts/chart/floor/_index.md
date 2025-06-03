@@ -1,5 +1,5 @@
 ---
-title: Пол
+title: Floor
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает объект, который позволяет изменить формат пола 3D-графика. Только для чтения IChartWall aspose.slides.charts/ichartwall.
 type: docs

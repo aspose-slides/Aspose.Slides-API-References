@@ -1,5 +1,5 @@
 ---
-title: Подстрочный индекс
+title: Subscript
 second_title: Aspose.Slides для .NET API Справочник
 description: Указывает аргумент подстрочного индекса, который, например, в случае интеграла устанавливает нижний предел
 type: docs

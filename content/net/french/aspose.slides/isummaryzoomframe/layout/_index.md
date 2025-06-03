@@ -1,5 +1,5 @@
 ---
-title: Mise en page
+title: Layout
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la mise en page des sections de zoom récapitulatif dans le cadre. La valeur par défaut est GridLayout.
 type: docs

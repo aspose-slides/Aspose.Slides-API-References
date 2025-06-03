@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置标题的高度，作为图表高度的一个比率。可读/可写 Single。
 type: docs

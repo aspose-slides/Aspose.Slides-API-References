@@ -1,5 +1,5 @@
 ---
-title: Leyenda
+title: Legend
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa las propiedades de la leyenda de gráficos.
 type: docs

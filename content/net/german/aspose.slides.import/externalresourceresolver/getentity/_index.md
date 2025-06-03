@@ -1,5 +1,5 @@
 ---  
-title: GetEntity  
+title: GetEntity
 second_title: Aspose.Slides für .NET API Referenz  
 description: Verknüpft eine URI mit einem Objekt, das die tatsächliche Ressource enthält.
 type: docs  

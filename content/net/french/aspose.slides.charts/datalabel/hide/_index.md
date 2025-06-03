@@ -1,5 +1,5 @@
 ---
-title: Cacher
+title: Hide
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Masquez l'étiquette de données en définissant tous les indicateurs Show-* ShowValue, ... à false. IsVisible sera faux après cela.
 type: docs

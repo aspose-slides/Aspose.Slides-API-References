@@ -1,5 +1,5 @@
 ---
-title: Рамка
+title: Frame
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает рамку управления. Чтение/запись IShapeFrame aspose.slides/ishapeframe.
 type: docs

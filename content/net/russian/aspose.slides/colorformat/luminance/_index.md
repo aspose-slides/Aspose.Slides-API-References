@@ -1,5 +1,5 @@
 ---
-title: Яркость
+title: Luminance
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает компонент яркости цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
 type: docs

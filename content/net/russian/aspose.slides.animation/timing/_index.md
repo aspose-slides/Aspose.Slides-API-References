@@ -1,5 +1,5 @@
 ---
-title: Время
+title: Timing
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет тайминг анимации.
 type: docs

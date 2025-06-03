@@ -1,5 +1,5 @@
 ---
-title: 结束段落部分格式
+title: EndParagraphPortionFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在最后一个部分之后插入另一个部分时要使用的部分属性。
 type: docs

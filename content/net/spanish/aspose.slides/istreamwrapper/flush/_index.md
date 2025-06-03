@@ -1,5 +1,5 @@
 ---
-title: Vaciar
+title: Flush
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Limpia todos los búferes para este flujo y provoca que cualquier dato almacenado en búfer se escriba en el dispositivo subyacente.
 type: docs

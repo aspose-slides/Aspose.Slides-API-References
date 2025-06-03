@@ -1,5 +1,5 @@
 ---
-title: Клонировать
+title: Clone
 second_title: Справка по API Aspose.Sildes для .NET
 description: Создает копию коллекции ColorOperationCollection.
 type: docs

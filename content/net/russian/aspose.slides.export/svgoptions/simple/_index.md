@@ -1,5 +1,5 @@
 ---
-title: Простой
+title: Simple
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает настройки для самой простой и наименьшей генерации SVG файлов. Только для чтения SVGOptionsaspose.slides.export/svgoptions.
 type: docs

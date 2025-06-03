@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el formato del eje. Solo lectura IAxisFormataspose.slides.charts/iaxisformat.
 type: docs

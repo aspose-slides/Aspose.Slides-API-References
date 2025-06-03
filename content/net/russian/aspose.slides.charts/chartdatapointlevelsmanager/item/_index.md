@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает объект IChartDataPointLevel для заданного уровня.
 type: docs

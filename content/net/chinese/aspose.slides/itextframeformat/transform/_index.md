@@ -1,5 +1,5 @@
 ---
-title: 变换
+title: Transform
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置文本包裹形状。读/写 TextShapeTypeaspose.slides/textshapetype。
 type: docs

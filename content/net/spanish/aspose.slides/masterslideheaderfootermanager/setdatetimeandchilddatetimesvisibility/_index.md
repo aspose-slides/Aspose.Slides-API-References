@@ -1,5 +1,5 @@
 ---
-title: EstablecerVisibilidadFechaHoraYFechaHoraHijas
+title: SetDateTimeAndChildDateTimesVisibility
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva maestra y de todos los marcadores de posición de fecha y hora hijos. Los marcadores de posición hijos significan que los marcadores de posición están contenidos en las diapositivas de diseño dependientes y las diapositivas dependientes. Las diapositivas de diseño dependientes y las diapositivas usan y dependen de la diapositiva maestra.
 type: docs

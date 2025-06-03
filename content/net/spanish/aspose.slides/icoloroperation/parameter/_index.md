@@ -1,5 +1,5 @@
 ---
-title: Parámetro
+title: Parameter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un parámetro de una operación. Solo para lectura, Single.
 type: docs

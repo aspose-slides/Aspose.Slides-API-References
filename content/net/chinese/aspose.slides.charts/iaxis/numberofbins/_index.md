@@ -1,5 +1,5 @@
 ---
-title: 直方图数量
+title: NumberOfBins
 second_title: Aspose.Slides for .NET API Reference
 description: 当 AggregationType 属性值设置为 AxisAggregationType.ByNumberOfBins 时，指定直方图的数量。适用于类别轴。仅与 Histogram 或 HistogramPareto 系列一起使用。
 type: docs

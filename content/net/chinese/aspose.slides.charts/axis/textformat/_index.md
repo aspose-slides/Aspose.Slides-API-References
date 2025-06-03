@@ -1,5 +1,5 @@
 ---
-title: 文本格式
+title: TextFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 表示文本的格式。只读 IChartTextFormataspose.slides/icharttextformat。
 type: docs

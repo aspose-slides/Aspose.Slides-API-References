@@ -1,5 +1,5 @@
 ---
-title: Reflexion
+title: Reflection
 second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt einen Reflexionseffekt dar.
 type: docs

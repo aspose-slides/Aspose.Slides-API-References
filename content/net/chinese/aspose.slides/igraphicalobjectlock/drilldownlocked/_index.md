@@ -1,5 +1,5 @@
 ---  
-title: DrilldownLocked  
+title: DrilldownLocked
 second_title: Aspose.Slides for .NET API 参考  
 description: 确定是否禁止选择此对象的子形状。可读/可写布尔值。
 type: docs  

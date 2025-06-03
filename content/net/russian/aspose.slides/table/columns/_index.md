@@ -1,5 +1,5 @@
 ---
-title: Колонки
+title: Columns
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает коллекцию колонок. Только для чтения IColumnCollection aspose.slides/icolumncollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 清除
+title: Clear
 second_title: Aspose.Slides for .NET API 参考
 description: 将 ColorScheme FontScheme FormatScheme 设置为 null 以禁用此主题对象的任何覆盖。
 type: docs

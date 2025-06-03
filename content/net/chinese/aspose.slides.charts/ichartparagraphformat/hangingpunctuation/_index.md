@@ -1,5 +1,5 @@
 ---
-title: 悬挂标点
+title: HangingPunctuation
 second_title: Aspose.Slides for .NET API 参考
 description: 确定段落中是否使用悬挂标点。可读/可写 NullableBoolaspose.slides/nullablebool。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 数量
+title: Amount
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回效果的百分比量。可读写单精度浮点数。
 type: docs

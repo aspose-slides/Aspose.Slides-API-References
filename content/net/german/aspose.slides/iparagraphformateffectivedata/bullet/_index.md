@@ -1,5 +1,5 @@
 ---
-title: Aufzählung
+title: Bullet
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Aufzählungsformat eines Absatzes zurück. Nur-Lese IBulletFormatEffectiveDataaspose.slides/ibulletformateffectivedata.
 type: docs

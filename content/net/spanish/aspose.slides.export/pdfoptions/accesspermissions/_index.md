@@ -1,5 +1,5 @@
 ---
-title: Permisos de Acceso
+title: AccessPermissions
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Contiene un conjunto de flags que especifican qué permisos de acceso deben ser otorgados cuando el documento se abre con acceso de usuario. Ver PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions.
 type: docs

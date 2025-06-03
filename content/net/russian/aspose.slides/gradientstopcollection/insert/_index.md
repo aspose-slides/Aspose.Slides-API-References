@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справка по API Aspose.Slides для .NET
 description: Создает новый градиентный стоп и вставляет его в указанном индексе в коллекцию.
 type: docs

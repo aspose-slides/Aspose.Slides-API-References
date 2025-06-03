@@ -1,5 +1,5 @@
 ---
-title: 超链接管理器
+title: HyperlinkManager
 second_title: Aspose.Slides for .NET API 参考
 description: 返回超链接管理器。只读 IHyperlinkManageraspose.slides/ihyperlinkmanager。
 type: docs

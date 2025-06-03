@@ -1,5 +1,5 @@
 ---
-title: Recolectar
+title: Collect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un grupo de métodos destinados a recolectar objetos modelo de diferentes tipos de Presentation../aspose.slides/presentation.
 type: docs

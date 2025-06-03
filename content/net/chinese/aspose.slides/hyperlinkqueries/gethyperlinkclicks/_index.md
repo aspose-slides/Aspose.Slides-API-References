@@ -1,5 +1,5 @@
 ---
-title: 获取超链接点击
+title: GetHyperlinkClicks
 second_title: Aspose.Slides for .NET API参考
 description: 获取所有包含非空HyperlinkClick的IHyperlinkContainer子对象。使用给定的IHyperlinkContainer对象，您可以管理其超链接（读取、更新或删除）。请参见IHyperlinkContainer接口。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el ajuste por índice.
 type: docs

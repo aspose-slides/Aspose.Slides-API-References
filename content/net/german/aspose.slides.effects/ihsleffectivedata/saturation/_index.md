@@ -1,5 +1,5 @@
 ---
-title: Sättigung
+title: Saturation
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Sättigungsprozentsatz zurück. Nur-lesender Single.
 type: docs

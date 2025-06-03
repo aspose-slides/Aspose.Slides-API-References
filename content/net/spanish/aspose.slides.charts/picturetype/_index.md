@@ -1,5 +1,5 @@
 ---  
-title: PictureType  
+title: PictureType
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Determina el modo de llenado de imágenes de barras.
 type: docs  

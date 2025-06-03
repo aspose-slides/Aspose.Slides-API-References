@@ -1,5 +1,5 @@
 ---  
-title: CreateMathArray  
+title: CreateMathArray
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建一个数学数组并将指定元素放置其中
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Campo
+title: Field
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un campo de esta porción. Solo lectura IFieldaspose.slides/ifield.
 type: docs

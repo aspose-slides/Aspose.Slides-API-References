@@ -1,5 +1,5 @@
 ---
-title: 时间设置
+title: Timing
 second_title: Aspose.Slides for .NET API 参考
 description: 表示动画时间设置。
 type: docs

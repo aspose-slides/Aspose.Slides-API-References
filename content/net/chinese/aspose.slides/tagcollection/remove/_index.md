@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Slides for .NET API 参考
 description: 从集合中移除具有指定名称的标签。
 type: docs

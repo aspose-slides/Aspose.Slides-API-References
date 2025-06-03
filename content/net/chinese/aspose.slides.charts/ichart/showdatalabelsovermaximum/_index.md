@@ -1,5 +1,5 @@
 ---
-title: 显示超过最大值的数据标签
+title: ShowDataLabelsOverMaximum
 second_title: Aspose.Slides for .NET API 参考
 description: 指定是否显示图表超过最大值的数据标签。可读/写的布尔值。
 type: docs

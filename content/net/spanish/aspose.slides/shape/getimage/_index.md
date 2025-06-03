@@ -1,5 +1,5 @@
 ---
-title: ObtenerImagen
+title: GetImage
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la miniatura de la forma. El tipo de límites de miniatura de forma ShapeThumbnailBounds.Shape se utiliza por defecto.
 type: docs

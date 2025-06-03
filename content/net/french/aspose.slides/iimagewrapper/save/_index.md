@@ -1,5 +1,5 @@
 ---
-title: Enregistrer
+title: Save
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Enregistre l'image dans le fichier spécifié
 type: docs

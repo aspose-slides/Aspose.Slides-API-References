@@ -1,5 +1,5 @@
 ---
-title: MostrarControlesDeMedios
+title: ShowMediaControls
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Mostrar Controles de Medios
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: AsIAccessiblePVIObject  
+title: AsIAccessiblePVIObject
 second_title: Aspose.Slides for .NET API Reference  
 description: 允许获取基本的 IAccessiblePVIObject 接口。只读 IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1。
 type: docs  

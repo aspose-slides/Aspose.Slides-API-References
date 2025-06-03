@@ -1,5 +1,5 @@
 ---
-title: 行为
+title: Behavior
 second_title: Aspose.Slides for .NET API 参考
 description: 表示效果的基类行为。
 type: docs

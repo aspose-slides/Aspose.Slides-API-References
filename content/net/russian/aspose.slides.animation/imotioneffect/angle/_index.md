@@ -1,5 +1,5 @@
 ---
-title: Угол
+title: Angle
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает относительный угол движения. Читаемое/записываемое значение типа Single.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: StreamWrapper  
+title: StreamWrapper
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Aspose.IO.Stream-Wrapper für die COM-Schnittstelle.
 type: docs  

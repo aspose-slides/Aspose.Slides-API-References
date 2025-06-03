@@ -1,5 +1,5 @@
 ---
-title: Contiene
+title: Contains
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina si el ICollection contiene un valor específico.
 type: docs

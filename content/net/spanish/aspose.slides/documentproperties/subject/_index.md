@@ -1,5 +1,5 @@
 ---
-title: Asunto
+title: Subject
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el asunto de una presentación. Cadena de lectura/escritura.
 type: docs

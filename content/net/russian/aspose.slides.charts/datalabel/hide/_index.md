@@ -1,5 +1,5 @@
 ---
-title: Скрыть
+title: Hide
 second_title: Aspose.Sildes для .NET API Справочник
 description: Скрыть метку данных, установив все Show-флаги ShowValue ... в состояние false. IsVisible будет false после этого.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 渐变停止
+title: GradientStop
 second_title: Aspose.Slides for .NET API 参考
 description: 表示渐变格式。
 type: docs

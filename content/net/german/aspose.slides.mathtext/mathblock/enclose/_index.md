@@ -1,5 +1,5 @@
 ---
-title: Umschließen
+title: Enclose
 second_title: Aspose.Sildes für .NET API Referenz
 description: Umschließt die Kindelemente dieses Blocks in angegebenen Zeichen wie Klammern oder anderen Zeichen als Rahmen
 type: docs

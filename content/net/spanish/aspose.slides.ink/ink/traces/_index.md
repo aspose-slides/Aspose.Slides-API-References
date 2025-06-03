@@ -1,5 +1,5 @@
 ---
-title: Trazas
+title: Traces
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene todas las trazas que contienen el elemento IInk IInkTraceaspose.slides/iinktrace. Solo lectura.
 type: docs

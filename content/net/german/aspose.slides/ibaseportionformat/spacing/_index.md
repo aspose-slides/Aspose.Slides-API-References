@@ -1,5 +1,5 @@
 ---
-title: Abstände
+title: Spacing
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Abstand zwischen Zeichen zurück oder setzt ihn. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
 type: docs

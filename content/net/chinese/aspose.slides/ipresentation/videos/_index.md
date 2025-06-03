@@ -1,5 +1,5 @@
 ---
-title: 视频
+title: Videos
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿中所有嵌入视频文件的集合。只读IVideoCollectionaspose.slides/ivideocollection。
 type: docs

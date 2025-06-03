@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft das Element am angegebenen Index ab. Nur-lesbares IShape aspose.slides/ishape.
 type: docs

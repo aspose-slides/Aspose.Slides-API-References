@@ -1,5 +1,5 @@
 ---
-title: Hintergrundfüllstile
+title: BackgroundFillStyles
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Sammlung von themendefinierten Hintergrundfüllstilen zurück. Nur-lesbare IFillFormatCollection aspose.slides.theme/ifillformatcollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Schriftfarbe
+title: FontColor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Schriftfarbe einer Form zurück. Nur-Lese IColorFormat aspose.slides/icolorformat.
 type: docs

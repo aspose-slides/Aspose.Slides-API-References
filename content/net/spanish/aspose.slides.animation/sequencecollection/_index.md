@@ -1,5 +1,5 @@
 ---
-title: Colección de Secuencias
+title: SequenceCollection
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una colección de secuencias interactivas.
 type: docs

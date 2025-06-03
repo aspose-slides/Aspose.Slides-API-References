@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt die angegebene Sequenz aus einer Sammlung.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 占位符
+title: Placeholder
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片上的占位符。
 type: docs

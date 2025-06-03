@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nombre de balises dans la collection. Lecture seule Int32.
 type: docs

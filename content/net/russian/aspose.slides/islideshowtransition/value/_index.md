@@ -1,5 +1,5 @@
 ---
-title: Значение
+title: Value
 second_title: Справка по API Aspose.Sldes для .NET
 description: Значение перехода слайд-шоу. Только для чтения ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs

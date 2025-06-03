@@ -1,5 +1,5 @@
 ---
-title: 笔颜色
+title: PenColor
 second_title: Aspose.Sildes for .NET API 参考
 description: 幻灯片放映的笔颜色
 type: docs

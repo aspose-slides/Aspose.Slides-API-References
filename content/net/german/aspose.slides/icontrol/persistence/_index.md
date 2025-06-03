@@ -1,5 +1,5 @@
 ---
-title: Persistenz
+title: Persistence
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die Methode ab, die verwendet wird, um die Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesbarer PersistenceTypeaspose.slides/persistencetype.
 type: docs

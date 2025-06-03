@@ -1,5 +1,5 @@
 ---
-title: Helligkeit
+title: Luminance
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Helligkeitskomponente einer Farbe in HSL-Darstellung zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben von Single.
 type: docs

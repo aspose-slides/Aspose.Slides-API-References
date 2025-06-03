@@ -1,5 +1,5 @@
 ---
-title: 字体加粗
+title: FontBold
 second_title: Aspose.Slides for .NET API 参考
 description: 确定字体是否为加粗。没有继承应用。可读/可写 NullableBool aspose.slides/nullablebool。
 type: docs

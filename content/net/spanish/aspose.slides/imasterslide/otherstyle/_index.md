@@ -1,5 +1,5 @@
 ---
-title: OtroEstilo
+title: OtherStyle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el estilo de un otro texto. Solo lectura ITextStyleaspose.slides/itextstyle.
 type: docs

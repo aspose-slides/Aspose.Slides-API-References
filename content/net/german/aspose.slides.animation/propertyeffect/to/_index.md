@@ -1,5 +1,5 @@
 ---
-title: Zu
+title: To
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Endwert für die Animation an. Lese-/Schreibzeichenfolge.
 type: docs

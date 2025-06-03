@@ -1,5 +1,5 @@
 ---
-title: CollectionDesRèglesDeRemplacementDePolice
+title: FontFallBackRulesCollection
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente une collection d'utilisateurs de règles de remplacement de police pour gérer des collections de polices pour des substitutions appropriées par la fonctionnalité de remplacement Lecture/écriture IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs

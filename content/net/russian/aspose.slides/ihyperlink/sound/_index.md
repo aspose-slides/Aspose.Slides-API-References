@@ -1,5 +1,5 @@
 ---
-title: Звук
+title: Sound
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет воспроизводимый звук гиперссылки. Чтение/запись IAudioaspose.slides/iaudio.
 type: docs

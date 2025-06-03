@@ -1,5 +1,5 @@
 ---
-title: ПолучитьИзображение
+title: GetImage
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает объект миниатюры изображения с пользовательским масштабированием.
 type: docs

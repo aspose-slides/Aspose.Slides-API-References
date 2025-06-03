@@ -1,5 +1,5 @@
 ---
-title: Bild
+title: Image
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Kopie eines Bildes zurück. Nur-lesbares Imageaspose.slides/ippimage/image.
 type: docs

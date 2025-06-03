@@ -1,5 +1,5 @@
 ---
-title: Explosión
+title: Explosion
 second_title: Referencia de API de Aspose.Slides para .NET
 description: La distancia de una porción de pastel abierta desde el centro del gráfico de pastel se expresa como un porcentaje del diámetro del pastel. Lectura/escritura Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Artikel
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Arbeitsblatt nach Index zurück.
 type: docs

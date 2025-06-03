@@ -1,5 +1,5 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die Größe des Bildes ab.
 type: docs

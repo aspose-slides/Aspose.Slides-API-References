@@ -1,5 +1,5 @@
 ---
-title: Wert1
+title: Value1
 second_title: Aspose.Slides für .NET API-Referenz
 description: Definiert den zweiten Wert des Offsets. Lese-/Schreibzugriff auf Single.
 type: docs

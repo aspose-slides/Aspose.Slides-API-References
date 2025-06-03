@@ -1,5 +1,5 @@
 ---
-title: ВключитьЭффектОтражения
+title: EnableReflectionEffect
 second_title: Справочник по API Aspose.Slides для .NET
 description: Включает эффект отражения.
 type: docs

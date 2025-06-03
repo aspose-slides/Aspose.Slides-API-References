@@ -1,5 +1,5 @@
 ---
-title: 无
+title: None
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个空的中断令牌。使用此令牌时，长时间运行的操作将永远不会通过 Interruptaspose.slides/interruptiontokensource/interrupt 被中断。
 type: docs

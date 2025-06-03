@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 定义命令效果的行为类型。读/写 CommandEffectTypeaspose.slides.animation/commandeffecttype。
 type: docs

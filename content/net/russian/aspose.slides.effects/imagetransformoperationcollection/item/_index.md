@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает ImageTransformOperationaspose.slides.effects/imagetransformoperation из коллекции по её индексу.
 type: docs

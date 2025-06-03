@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 判断两个 IBaseSlide 实例是否相等。返回值的计算基于幻灯片的结构和静态内容。两个幻灯片相等的前提是所有形状、样式、文本、动画以及其他设置等都是相等的。比较时不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。
 type: docs

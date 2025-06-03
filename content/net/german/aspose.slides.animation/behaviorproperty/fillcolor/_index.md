@@ -1,5 +1,5 @@
 ---
-title: Füllfarbe
+title: FillColor
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Füllfarben-Eigenschaft dar
 type: docs

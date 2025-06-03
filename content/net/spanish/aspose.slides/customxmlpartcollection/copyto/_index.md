@@ -1,5 +1,5 @@
 ---
-title: CopiarA
+title: CopyTo
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Copiar al array especificado.
 type: docs

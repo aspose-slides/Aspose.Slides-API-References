@@ -1,5 +1,5 @@
 ---
-title: Palabras
+title: Words
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el número total de palabras contenidas en un documento. Solo lectura Int32.
 type: docs

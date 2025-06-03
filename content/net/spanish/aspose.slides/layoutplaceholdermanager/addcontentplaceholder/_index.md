@@ -1,5 +1,5 @@
 ---
-title: AgregarContenidoMarcador
+title: AddContentPlaceholder
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agrega una nueva forma de marcador al diseño de la diapositiva para contener contenido como una imagen, tabla, medio o texto.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: HangingPunctuation  
+title: HangingPunctuation
 second_title: Справочник по API Aspose.Sildes для .NET  
 description: Определяет, используется ли висячая пунктуация в абзаце. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs  

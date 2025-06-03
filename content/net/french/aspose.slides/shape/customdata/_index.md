@@ -1,5 +1,5 @@
 ---
-title: Données personnalisées
+title: CustomData
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les données personnalisées des formes. Lecture seule ICustomDataaspose.slides/icustomdata.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Orientierung
+title: Orientation
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Ausrichtung des Zeichnungsleitfadens zurück oder legt sie fest. Lese-/Schreibzugriff auf Orientationaspose.slides/orientation.
 type: docs

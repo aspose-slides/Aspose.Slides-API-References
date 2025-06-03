@@ -1,5 +1,5 @@
 ---
-title: Séries
+title: Series
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les séries. Lecture seule IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs

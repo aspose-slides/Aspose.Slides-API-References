@@ -1,5 +1,5 @@
 ---  
-title: TriggerDelayTime  
+title: TriggerDelayTime
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Describe el tiempo de retraso después del disparador. Lectura/escritura Single.
 type: docs  

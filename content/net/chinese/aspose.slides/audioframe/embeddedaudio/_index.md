@@ -1,5 +1,5 @@
 ---
-title: 嵌入音频
+title: EmbeddedAudio
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置嵌入的音频对象。读/写 IAudioaspose.slides/iaudio。
 type: docs

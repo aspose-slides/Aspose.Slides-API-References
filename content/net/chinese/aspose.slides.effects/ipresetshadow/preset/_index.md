@@ -1,5 +1,5 @@
 ---
-title: 预设
+title: Preset
 second_title: Aspose.Slides for .NET API 参考
 description: 预设。读/写 PresetShadowType aspose.slides/presetshadowtype。
 type: docs

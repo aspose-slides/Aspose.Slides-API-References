@@ -1,5 +1,5 @@
 ---
-title: Шрифты
+title: Fonts
 second_title: Справочник по API Aspose.Slides для .NET
 description: Коллекция шрифтов.
 type: docs

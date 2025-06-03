@@ -1,5 +1,5 @@
 ---  
-title: AlignmentPoint  
+title: AlignmentPoint
 second_title: Référence API Aspose.Slides pour .NET  
 description: Lorsqu'il est vrai, cet émulateur d'opérateur sert de point d'alignement; c'est-à-dire que les points d'alignement désignés dans d'autres équations peuvent y être alignés. Par défaut  faux
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: EliminarFila
+title: DeleteRow
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina la fila especificada
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Параграф
+title: Paragraph
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет собой параграф текста.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Spielmodus
+title: PlayMode
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Audio-Spielmodus zurück oder setzt ihn. Lese-/Schreibzugriff auf AudioPlayModePresetaspose.slides/audioplaymodepreset.
 type: docs

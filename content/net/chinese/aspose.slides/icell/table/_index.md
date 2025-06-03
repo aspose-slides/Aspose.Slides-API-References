@@ -1,5 +1,5 @@
 ---
-title: 表
+title: Table
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格的父 Table 对象。只读 ITableaspose.slides/itable。
 type: docs

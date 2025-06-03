@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回段落的项目符号类型。只读 BulletTypeaspose.slides/bullettype。
 type: docs

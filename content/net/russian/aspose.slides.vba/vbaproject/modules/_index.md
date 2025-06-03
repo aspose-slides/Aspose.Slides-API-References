@@ -1,5 +1,5 @@
 ---
-title: Модули
+title: Modules
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения IVbaModuleCollectionaspose.slides/ivbamodulecollection.
 type: docs

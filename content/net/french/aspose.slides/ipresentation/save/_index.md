@@ -1,5 +1,5 @@
 ---
-title: Enregistrer
+title: Save
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Enregistre toutes les diapositives d'une présentation dans un fichier avec le format spécifié.
 type: docs

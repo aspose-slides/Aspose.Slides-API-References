@@ -1,5 +1,5 @@
 ---
-title: Tabelle
+title: Table
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Tabelle auf einer Folie dar.
 type: docs

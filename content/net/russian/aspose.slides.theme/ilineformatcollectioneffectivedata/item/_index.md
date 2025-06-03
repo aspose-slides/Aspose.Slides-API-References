@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает элемент по заданному индексу. Только для чтения ILineFormatEffectiveData aspose.slides/ilineformateffectivedata.
 type: docs

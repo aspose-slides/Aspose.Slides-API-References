@@ -1,5 +1,5 @@
 ---
-title: Символ группировки
+title: Character
 second_title: Справочник по API Aspose.Slides для .NET
 description: Значение по умолчанию символа группировки U23DF НИЖНЯЯ КАВЫЧКА
 type: docs

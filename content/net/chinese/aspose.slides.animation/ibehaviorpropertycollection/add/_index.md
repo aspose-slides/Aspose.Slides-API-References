@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Sildes for .NET API 参考
 description: 向集合添加一个新属性。
 type: docs

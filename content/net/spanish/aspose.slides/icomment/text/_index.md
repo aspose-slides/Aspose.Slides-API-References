@@ -1,5 +1,5 @@
 ---
-title: Texto
+title: Text
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el texto plano de un comentario de diapositiva. Lectura/escritura String.
 type: docs

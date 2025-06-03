@@ -1,5 +1,5 @@
 ---
-title: Глубина
+title: Depth
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает глубину абзаца. Значение 0 означает неопределенное значение. Доступно для чтения/записи Int16.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ВторичныеКатегории
+title: SecondaryCategories
 second_title: Aspose.Slides для .NET API Справочник
 description: Получает вторичные категории, если свойство UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories истинно. Только для чтения IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs

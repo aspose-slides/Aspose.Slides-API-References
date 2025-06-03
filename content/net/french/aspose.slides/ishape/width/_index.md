@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie ou définit la largeur de la forme. Lecture/écriture Single.
 type: docs

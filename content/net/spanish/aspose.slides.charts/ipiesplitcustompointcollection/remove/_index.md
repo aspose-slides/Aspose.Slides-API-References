@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina un elemento de la colección por su índice en la colección de puntos de la serie principal.
 type: docs

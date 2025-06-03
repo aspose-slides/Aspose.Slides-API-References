@@ -1,5 +1,5 @@
 ---
-title: Колонка
+title: Column
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает индекс колонки рабочего листа, в которой расположена ячейка. Только для чтения Int32.
 type: docs

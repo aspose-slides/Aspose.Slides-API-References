@@ -1,5 +1,5 @@
 ---
-title: Réorganiser
+title: Reorder
 second_title: Référence API Aspose.Slides pour .NET
 description: Déplace un diaporama de mise en page de la collection vers la position spécifiée.
 type: docs

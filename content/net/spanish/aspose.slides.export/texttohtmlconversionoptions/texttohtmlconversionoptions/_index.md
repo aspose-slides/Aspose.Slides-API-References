@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeConversiónTextoAHtml
+title: TextToHtmlConversionOptions
 second_title: Aspose.Slides para .NET Referencia de API
 description: El constructor por defecto.
 type: docs

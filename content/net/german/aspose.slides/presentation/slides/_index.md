@@ -1,5 +1,5 @@
 ---
-title: Folien
+title: Slides
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt eine Liste aller Folien zurück, die in der Präsentation definiert sind. Nur-lesbare ISlideCollectionaspose.slides/islidecollection.
 type: docs

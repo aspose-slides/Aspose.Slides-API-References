@@ -1,5 +1,5 @@
 ---
-title: BordGauche
+title: BorderLeft
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un objet de propriétés de ligne de bordure gauche. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: ToSvg  
+title: ToSvg
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Konvertiert Presentationaspose.slides/presentation in SVG.
 type: docs  

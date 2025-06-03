@@ -1,5 +1,5 @@
 ---
-title: 创建文件流包装器
+title: CreateFileStreamWrapper
 second_title: Aspose.Slides for .NET API 参考
 description: 使用指定的路径和创建模式创建 FileStream。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 释放
+title: Dispose
 second_title: Aspose.Sildes for .NET API 参考
 description: 释放此 Presentation 对象使用的所有资源。
 type: docs

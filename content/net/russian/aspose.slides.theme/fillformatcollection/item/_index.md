@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Aspose.Sildes для .NET API Reference
 description: Получает элемент по указанному индексу. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs

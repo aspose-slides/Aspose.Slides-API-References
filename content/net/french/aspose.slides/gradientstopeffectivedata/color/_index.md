@@ -1,5 +1,5 @@
 ---
-title: Couleur
+title: Color
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la couleur d'un point d'arrêt de dégradé. Couleur en lecture seule.
 type: docs

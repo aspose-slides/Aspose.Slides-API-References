@@ -1,5 +1,5 @@
 ---
-title: Входные данные
+title: Input
 second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Представляет собой коллекцию шаблонов элементов ввода.
 type: docs

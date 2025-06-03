@@ -1,5 +1,5 @@
 ---
-title: 图片类型
+title: PictureType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图片类型。可读/写 PictureTypeaspose.slides.charts/picturetype。
 type: docs

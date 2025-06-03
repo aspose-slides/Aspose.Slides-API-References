@@ -1,5 +1,5 @@
 ---
-title: CrearEfectoDeMovimiento
+title: CreateMotionEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea efecto de movimiento.
 type: docs

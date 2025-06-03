@@ -1,5 +1,5 @@
 ---
-title: 插入
+title: Insert
 second_title: Aspose.Sildes for .NET API 参考
 description: 创建新的图表系列并将其插入到集合中。
 type: docs

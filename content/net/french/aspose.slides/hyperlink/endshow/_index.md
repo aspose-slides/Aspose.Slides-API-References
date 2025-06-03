@@ -1,5 +1,5 @@
 ---
-title: FinDeSpectacle
+title: EndShow
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un hyperlien qui met fin au spectacle. Hyperlien en lecture seule aspose.slides/hyperlink.
 type: docs

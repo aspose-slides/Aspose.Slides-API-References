@@ -1,5 +1,5 @@
 ---
-title: 字符
+title: Character
 second_title: Aspose.Slides for .NET API 参考
 description: 重音字符 值应在 U0300-U036F 或 U20D0-U20EF 的范围内 默认值 组合抑扬符 U0302
 type: docs

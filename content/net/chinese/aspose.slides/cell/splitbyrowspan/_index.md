@@ -1,5 +1,5 @@
 ---
-title: 按行跨度拆分
+title: SplitByRowSpan
 second_title: Aspose.Sildes for .NET API 参考
 description: 按行索引将单元格拆分为两个单元格。
 type: docs

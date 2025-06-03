@@ -1,5 +1,5 @@
 ---
-title: MargenDerecho
+title: MarginRight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece los puntos del margen derecho en un TextFrame. Lectura/escritura Doble.
 type: docs

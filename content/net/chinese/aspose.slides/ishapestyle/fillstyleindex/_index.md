@@ -1,5 +1,5 @@
 ---
-title: 填充样式索引
+title: FillStyleIndex
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置样式矩阵中形状的填充列索引。0表示无填充，正值表示主题填充样式的索引，负值表示主题背景样式的索引。可读/可写 Int16。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или задает высоту границы области построения в долях высоты графика от 0 до 1. Читаемое/записываемое значение Single.
 type: docs

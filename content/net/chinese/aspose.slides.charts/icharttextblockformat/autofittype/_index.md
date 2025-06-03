@@ -1,5 +1,5 @@
 ---
-title: 自动调整类型
+title: AutofitType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置文本自动调整模式。更改此属性仅对这些图表部分产生某种影响：数据标签和数据标签格式（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。读/写 TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Subíndice
+title: Subscript
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Subíndice
 type: docs

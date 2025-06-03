@@ -1,5 +1,5 @@
 ---
-title: Точка
+title: Point
 second_title: Справочник по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs

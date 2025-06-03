@@ -1,5 +1,5 @@
 ---
-title: 文本格式
+title: TextFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回图表文本格式。该属性不适用于以下类型：Treemap、Sunburst、Waterfall、Histogram、Funnel、BoxAndWhisker。只读 IChartTextFormataspose.slides/icharttextformat。
 type: docs

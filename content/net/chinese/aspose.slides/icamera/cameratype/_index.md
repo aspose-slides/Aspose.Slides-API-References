@@ -1,5 +1,5 @@
 ---
-title: 相机类型
+title: CameraType
 second_title: Aspose.Slides for .NET API 参考
 description: 相机类型 读/写 CameraPresetTypeaspose.slides/camerapresettype.
 type: docs

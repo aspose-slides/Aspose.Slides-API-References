@@ -1,5 +1,5 @@
 ---  
-title: IPortionFormatEffectiveData  
+title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 参考  
 description: 不可变对象，包含有效的文本部分格式化属性。
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Комментарии
+title: Comments
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Назначение подписи. Чтение/запись строка.
 type: docs

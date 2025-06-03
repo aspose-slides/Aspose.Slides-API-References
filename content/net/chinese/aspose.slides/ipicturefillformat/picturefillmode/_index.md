@@ -1,5 +1,5 @@
 ---
-title: 图片填充模式
+title: PictureFillMode
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图片填充模式。可读/可写 PictureFillModeaspose.slides/picturefillmode。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Взрыв
+title: Explosion
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает, на сколько данных точка будет смещена от центра круговой диаграммы. Чтение/запись Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Formen
+title: Shapes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt Sammlungen aller Formen zurück, die mit dem Knoten verknüpft sind. Nur lesbare ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: OdpException  
+title: OdpException
 second_title: Aspose.Sildes для .NET Справочник по API  
 description: Представляет стандартный внутренний тип исключения.
 type: docs  

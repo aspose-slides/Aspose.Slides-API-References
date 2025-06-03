@@ -1,5 +1,5 @@
 ---
-title: Настройки
+title: Adjustments
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию значений настроек фигур. Только для чтения IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs

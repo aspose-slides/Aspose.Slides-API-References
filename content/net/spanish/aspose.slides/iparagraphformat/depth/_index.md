@@ -1,5 +1,5 @@
 ---
-title: Profundidad
+title: Depth
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la profundidad del párrafo. El valor 0 significa valor indefinido. Lectura/escritura Int16.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Соответствие
+title: Conformance
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает класс соответствия, которому соответствует документ PresentationML.
 type: docs

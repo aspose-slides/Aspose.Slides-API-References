@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura ISlideaspose.slides/islide.
 type: docs

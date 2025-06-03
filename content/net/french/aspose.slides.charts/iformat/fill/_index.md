@@ -1,5 +1,5 @@
 ---
-title: Remplir
+title: Fill
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les propriétés de style de remplissage d'un graphique. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs

@@ -1,5 +1,5 @@
 --- 
-title: FlipV 
+title: FlipV
 second_title: Справочник по API Aspose.Slides для .NET 
 description: Определяет, перевернут ли кадр вертикально. Только для чтения NullableBoolaspose.slides/nullablebool.
 type: docs 

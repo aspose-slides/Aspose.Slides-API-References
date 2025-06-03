@@ -1,5 +1,5 @@
 ---
-title: ComprimirImagen
+title: CompressImage
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Comprime la imagen reduciendo su tamaño en función del tamaño de la forma y la resolución especificada. Opcionalmente, también elimina las áreas recortadas.
 type: docs

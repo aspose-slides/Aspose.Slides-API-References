@@ -1,5 +1,5 @@
 ---
-title: EingebettetesVideo
+title: EmbeddedVideo
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lesen/Schreiben IVideoaspose.slides/ivideo.
 type: docs

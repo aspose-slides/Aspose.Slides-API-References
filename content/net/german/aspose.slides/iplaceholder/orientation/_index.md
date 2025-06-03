@@ -1,5 +1,5 @@
 ---
-title: Orientierung
+title: Orientation
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält die Orientierung eines Platzhalters. Nur-Lese Orientierung aspose.slides/orientation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Diapositives
+title: Slides
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Plage de diapositives
 type: docs

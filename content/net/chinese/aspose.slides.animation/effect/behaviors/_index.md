@@ -1,5 +1,5 @@
 ---
-title: 行为
+title: Behaviors
 second_title: Aspose.Slides for .NET API 参考
 description: 返回效果的行为集合。读/写 IBehaviorCollectionaspose.slides/ibehaviorcollection。
 type: docs

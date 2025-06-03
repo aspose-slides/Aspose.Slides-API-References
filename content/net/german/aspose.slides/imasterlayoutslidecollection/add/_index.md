@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt eine neue Layout-Folie am Ende der Sammlung hinzu.
 type: docs

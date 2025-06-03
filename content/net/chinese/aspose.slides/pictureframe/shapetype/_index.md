@@ -1,5 +1,5 @@
 ---
-title: 形状类型
+title: ShapeType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 PictureFrame 的 AutoShape 类型。除了所有类型的线条外，允许使用 ShapeTypeaspose.slides/shapetype 集合中的所有项目：
 type: docs

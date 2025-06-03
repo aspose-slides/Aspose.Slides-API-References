@@ -1,5 +1,5 @@
 ---  
-title: MasterTheme  
+title: MasterTheme
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt ein Master-Thema dar.
 type: docs  

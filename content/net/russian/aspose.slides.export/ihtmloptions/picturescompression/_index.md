@@ -1,5 +1,5 @@
 ---
-title: СжатиеИзображений
+title: PicturesCompression
 second_title: Aspose.Slides для .NET API Справочник
 description: Представляет уровень сжатия изображений Чтение/запись PicturesCompressionaspose.slides.export/ihtmloptions/picturescompression.
 type: docs

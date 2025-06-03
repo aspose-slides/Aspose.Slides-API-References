@@ -1,5 +1,5 @@
 ---
-title: Wachsen
+title: Grow
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob die Grenzen des Objekts aufgrund des Verwischens vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
 type: docs

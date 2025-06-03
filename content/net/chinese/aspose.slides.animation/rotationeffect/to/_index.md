@@ -1,5 +1,5 @@
 ---
-title: 到
+title: To
 second_title: Aspose.Slides for .NET API 参考
 description: 描述动画的结束值。可读可写的单精度浮点数。
 type: docs

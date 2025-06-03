@@ -1,5 +1,5 @@
 ---
-title: 格式
+title: Format
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示数据点级别的格式属性。可读/写 IFormataspose.slides/iformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 最小列宽
+title: MinColumnWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 列的最小宽度以 twips 表示（1/20 点）。间隔距也称为列间距或间隔宽度，加到 MinColumnWidth 上以确定不同列相同边缘之间的总矩阵列间距。默认值：0。
 type: docs

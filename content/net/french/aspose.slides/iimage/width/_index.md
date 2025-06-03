@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la largeur de l'image en pixels.
 type: docs

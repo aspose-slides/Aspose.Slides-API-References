@@ -1,5 +1,5 @@
 ---
-title: Maßstab
+title: Scale
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Sichtskalierungsverhältnis in Prozent an. Lese-/Schreibzugriff Int32.
 type: docs

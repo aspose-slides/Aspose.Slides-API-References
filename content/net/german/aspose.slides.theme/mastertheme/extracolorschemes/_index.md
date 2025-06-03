@@ -1,5 +1,5 @@
 ---
-title: ExtraFarbSchemas
+title: ExtraColorSchemes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Sammlung zusätzlicher Farbschemas zurück. Diese Schemata beeinträchtigen nicht das Aussehen der Präsentation, sie können als Hauptfarbschema für eine Folie ausgewählt werden. Nur lesbar IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ActiverEffetLueur
+title: EnableGlowEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Active l'effet de lueur.
 type: docs

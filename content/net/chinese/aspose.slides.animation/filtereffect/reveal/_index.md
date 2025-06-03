@@ -1,5 +1,5 @@
 ---
-title: 显示
+title: Reveal
 second_title: Aspose.Slides for .NET API 参考
 description: 表示具有必须揭示（进/出）行为的效果。可以读写 FilterEffectRevealTypeaspose.slides/filtereffectrevealtype。
 type: docs

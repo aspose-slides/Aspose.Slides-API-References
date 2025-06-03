@@ -1,5 +1,5 @@
 ---
-title: Argumentos
+title: Arguments
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Uno o más elementos matemáticos separados por caracteres delimitadores
 type: docs

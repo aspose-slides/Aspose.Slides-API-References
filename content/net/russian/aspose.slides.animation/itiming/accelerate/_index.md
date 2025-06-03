@@ -1,5 +1,5 @@
 ---
-title: Ускорение
+title: Accelerate
 second_title: Справочник API Aspose.Sildes для .NET
 description: Описание процента эффекта ускорения длительности. Чтение/запись Single.
 type: docs

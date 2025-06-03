@@ -1,5 +1,5 @@
 ---
-title: Klang
+title: Sound
 second_title: Aspose.Slides für .NET API-Referenz
 description: Eingebetteten Klang für Effekt definiert. Lesen/Schreiben IAudioaspose.slides/../aspose.slides/iaudio.
 type: docs

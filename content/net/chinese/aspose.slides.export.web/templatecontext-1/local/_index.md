@@ -1,5 +1,5 @@
 ---
-title: 本地
+title: Local
 second_title: Aspose.Slides for .NET API 参考
 description: 返回当前模板上下文的本地存储。只读Storageaspose.slides.export.web/storage。
 type: docs

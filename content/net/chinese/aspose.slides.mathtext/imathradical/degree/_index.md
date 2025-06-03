@@ -1,5 +1,5 @@
 ---
-title: 度
+title: Degree
 second_title: Aspose.Slides for .NET API 参考
 description: 度参数
 type: docs

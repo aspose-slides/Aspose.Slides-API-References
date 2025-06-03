@@ -1,5 +1,5 @@
 ---
-title: Konformität
+title: Conformance
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Konformitätsklasse an, der das PresentationML-Dokument entspricht.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 视场角
+title: FieldOfViewAngle
 second_title: Aspose.Slides for .NET API 参考
 description: 相机视场 0-180 度 视野 读/写 单精度浮点数。
 type: docs

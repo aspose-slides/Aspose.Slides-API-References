@@ -1,5 +1,5 @@
 ---
-title: Ausrichtung
+title: Alignment
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Textausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Schreib-/Lesezugriff auf TextAlignmentaspose.slides/textalignment.
 type: docs

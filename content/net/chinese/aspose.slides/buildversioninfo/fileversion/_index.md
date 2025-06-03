@@ -1,5 +1,5 @@
 ---
-title: 文件版本
+title: FileVersion
 second_title: Aspose.Slides for .NET API 参考
 description: 程序集文件的版本。
 type: docs

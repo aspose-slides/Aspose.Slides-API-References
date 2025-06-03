@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, равны ли два экземпляра SlideShowTransition. Читаемое/записываемое логическое значение.
 type: docs

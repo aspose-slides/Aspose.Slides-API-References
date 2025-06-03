@@ -1,5 +1,5 @@
 ---
-title: CrearPárrafoMatemático
+title: CreateMathParagraph
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crear párrafo matemático vacío
 type: docs

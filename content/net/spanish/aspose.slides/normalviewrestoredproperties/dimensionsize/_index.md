@@ -1,5 +1,5 @@
 ---  
-title: DimensionSize  
+title: DimensionSize
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica el tamaño de la región de diapositivas ancho cuando es un hijo de RestoredTop, altura cuando es un hijo de RestoredLeft. Lectura/escritura Single.
 type: docs  

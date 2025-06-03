@@ -1,5 +1,5 @@
 ---
-title: Размер
+title: Size
 second_title: Ссылки на API Aspose.Sildes для .NET
 description: Представляет размер маркера в линейном графике, разбросанном графике или радарном графике. Чтение/запись Int32.
 type: docs

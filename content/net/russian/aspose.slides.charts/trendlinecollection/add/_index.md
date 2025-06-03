@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Добавляет новую трендовую линию в конец коллекции и возвращает ее.
 type: docs

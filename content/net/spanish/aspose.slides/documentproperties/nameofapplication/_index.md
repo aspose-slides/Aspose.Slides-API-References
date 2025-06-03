@@ -1,5 +1,5 @@
 ---
-title: NombreDeLaAplicación
+title: NameOfApplication
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el nombre de la aplicación. Cadena de lectura/escritura.
 type: docs

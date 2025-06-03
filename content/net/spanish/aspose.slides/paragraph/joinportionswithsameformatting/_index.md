@@ -1,5 +1,5 @@
 ---
-title: UnirPorcionesConElMismoFormato
+title: JoinPortionsWithSameFormatting
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Une las ejecuciones con el mismo formato.
 type: docs

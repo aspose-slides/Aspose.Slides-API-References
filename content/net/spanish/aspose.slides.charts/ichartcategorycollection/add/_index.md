@@ -1,5 +1,5 @@
 ---
-title: Agregar
+title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Si la categoría existe en la colección, devuélvela. De lo contrario, crea una nueva categoría de gráfico a partir de IChartDataCellaspose.slides.charts/ichartdatacell y la añade a la colección.
 type: docs

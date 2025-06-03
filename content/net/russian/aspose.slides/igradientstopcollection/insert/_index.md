@@ -1,5 +1,5 @@
 ---
-title: Вставка
+title: Insert
 second_title: Ссылка по API Aspose.Slides для .NET
 description: Создает новую градиентную остановку и вставляет ее в указанном индексе в коллекцию.
 type: docs

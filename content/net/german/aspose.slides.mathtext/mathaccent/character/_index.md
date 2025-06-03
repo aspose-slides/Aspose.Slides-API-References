@@ -1,5 +1,5 @@
 ---
-title: Zeichen
+title: Character
 second_title: Aspose.Slides für .NET API Referenz
 description: Akzent Zeichen Der Wert sollte im Bereich von U0300U036F oder U20D0U20EF liegen. Standardwert kombinierender Zirkumflex-Akzent U0302
 type: docs

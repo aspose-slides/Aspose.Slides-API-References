@@ -1,5 +1,5 @@
 ---
-title: 四分位数方法
+title: QuartileMethod
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示四分位数方法。仅适用于箱线图。
 type: docs

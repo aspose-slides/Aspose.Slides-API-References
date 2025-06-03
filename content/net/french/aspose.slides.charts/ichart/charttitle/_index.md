@@ -1,5 +1,5 @@
 ---
-title: TitreDuGraphique
+title: ChartTitle
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit un titre de graphique Lecture seule IChartTitleaspose.slides.charts/icharttitle.
 type: docs

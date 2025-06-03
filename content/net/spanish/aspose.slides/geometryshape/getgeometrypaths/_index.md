@@ -1,5 +1,5 @@
 ---
-title: ObtenerRutasGeometricas
+title: GetGeometryPaths
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una copia de la ruta de la forma geométrica. Las coordenadas son relativas a la esquina superior izquierda de la forma.
 type: docs

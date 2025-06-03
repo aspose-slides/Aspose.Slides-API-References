@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 添加新的交互式序列。读取/写入 Sequenceaspose.slides.animation/sequence。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Article
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'objet IChartDataCell pour le niveau défini.
 type: docs

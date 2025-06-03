@@ -1,5 +1,5 @@
 ---
-title: 在指定列之前插入列
+title: InsertColumnBefore
 second_title: Aspose.Sildes for .NET API 参考
 description: 在指定列之前插入一列。初始时新列中的所有元素均为 null。
 type: docs

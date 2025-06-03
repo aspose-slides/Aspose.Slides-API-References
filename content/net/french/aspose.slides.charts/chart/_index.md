@@ -1,5 +1,5 @@
 ---
-title: Graphique
+title: Chart
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un graphique sur une diapositive.
 type: docs

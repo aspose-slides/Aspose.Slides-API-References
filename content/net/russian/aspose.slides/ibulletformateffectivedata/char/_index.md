@@ -1,5 +1,5 @@
 ---
-title: Символ
+title: Char
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает символ маркера абзаца. Свойство только для чтения Char.
 type: docs

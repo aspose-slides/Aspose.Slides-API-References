@@ -1,5 +1,5 @@
 ---  
-title: PremièreDiapositive  
+title: FirstSlide
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie un lien hypertexte vers la première diapositive de la présentation. En lecture seule Hyperlinkaspose.slides/hyperlink.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 使用框架大小
+title: UseFrameSize
 second_title: Aspose.Slides for .NET API 参考
 description: 确定文本框是否包含在渲染区域中。可读/可写布尔值。默认值为 false。
 type: docs

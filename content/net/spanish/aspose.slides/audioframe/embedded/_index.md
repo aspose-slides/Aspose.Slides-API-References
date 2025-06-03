@@ -1,5 +1,5 @@
 ---
-title: Incrustado
+title: Embedded
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si un sonido está incrustado en una presentación. Solo lectura booleano.
 type: docs

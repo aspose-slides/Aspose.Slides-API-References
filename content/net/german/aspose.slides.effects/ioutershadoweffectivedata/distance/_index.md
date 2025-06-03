@@ -1,5 +1,5 @@
 ---
-title: Abstand
+title: Distance
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Abstand des Schattens. Schreibgeschütztes Double.
 type: docs

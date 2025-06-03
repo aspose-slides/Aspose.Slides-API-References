@@ -1,5 +1,5 @@
 ---
-title: 文本对齐
+title: TextAlignment
 second_title: Aspose.Slides for .NET API 参考
 description: 表示不同的文本对齐样式。
 type: docs

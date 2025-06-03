@@ -1,5 +1,5 @@
 ---
-title: CacherHaut
+title: HideTop
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Cacher le bord supérieur par défaut est faux - spécifie l'état caché ou affiché du bord supérieur de la zone de bordure.
 type: docs

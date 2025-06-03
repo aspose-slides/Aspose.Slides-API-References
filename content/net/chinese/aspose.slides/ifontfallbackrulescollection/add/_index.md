@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 在集合的末尾添加一个新的 FallBack 规则。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 获取有效部分
+title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
 description: 获取应用继承的有效部分格式数据。
 type: docs

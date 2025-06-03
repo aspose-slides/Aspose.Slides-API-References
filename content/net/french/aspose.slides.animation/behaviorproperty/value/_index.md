@@ -1,5 +1,5 @@
 ---
-title: Valeur
+title: Value
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Valeur de la propriété
 type: docs

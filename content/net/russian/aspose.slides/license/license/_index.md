@@ -1,5 +1,5 @@
 ---
-title: Лицензия
+title: License
 second_title: Aspose.Slides для .NET API Справочник
 description: Инициализирует новый экземпляр этого класса.
 type: docs

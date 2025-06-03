@@ -1,5 +1,5 @@
 ---
-title: 阴影颜色
+title: ShadowColor
 second_title: Aspose.Slides for .NET API 参考
 description: 阴影的颜色。只读 IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs

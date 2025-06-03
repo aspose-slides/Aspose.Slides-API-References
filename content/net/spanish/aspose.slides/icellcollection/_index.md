@@ -1,5 +1,5 @@
 ---  
-title: ICellCollection  
+title: ICellCollection
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa una colección de celdas.
 type: docs  

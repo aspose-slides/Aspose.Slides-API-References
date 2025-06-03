@@ -1,5 +1,5 @@
 ---
-title: Значение
+title: Value
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Если UseCell равно true, то это свойство представляет AsCell.Value свойство. Если UseCell равно false, то это свойство представляет AsLiteral свойство. Читаемое/записываемое Объект.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa la posición de la etiqueta de datos. Lectura/escritura LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Tinte
+title: Ink
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt ein Tintenobjekt auf einer Folie dar.
 type: docs

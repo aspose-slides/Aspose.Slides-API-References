@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Sildes for .NET API 参考
 description: 从演示文稿中移除幻灯片。
 type: docs

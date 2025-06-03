@@ -1,5 +1,5 @@
 ---
-title: 次要垂直轴
+title: SecondaryVerticalAxis
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图表的次要垂直轴。只读 IAxisaspose.slides.charts/iaxis。
 type: docs

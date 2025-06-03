@@ -1,5 +1,5 @@
 ---
-title: 是否可见
+title: IsVisible
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置误差条的可见性。可读/写布尔值。
 type: docs

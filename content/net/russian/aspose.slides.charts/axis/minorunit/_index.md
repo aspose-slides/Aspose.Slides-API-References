@@ -1,5 +1,5 @@
 ---
-title: МинимальнаяЕдиница
+title: MinorUnit
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет минимальные единицы для оси даты или значения. Чтение/запись Double.
 type: docs

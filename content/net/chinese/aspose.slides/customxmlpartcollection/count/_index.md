@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Slides for .NET API 参考
 description: 返回集合中自定义 XML 部件的计数。只读 Int32。
 type: docs

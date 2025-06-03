@@ -1,5 +1,5 @@
 ---
-title: Kameratyp
+title: CameraType
 second_title: Aspose.Slides für .NET API-Referenz
 description: Kameratyp. Lese/Schreibe CameraPresetType aspose.slides/camerapresettype.
 type: docs

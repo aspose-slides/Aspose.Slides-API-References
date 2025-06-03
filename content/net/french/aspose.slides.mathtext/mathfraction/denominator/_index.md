@@ -1,5 +1,5 @@
 ---
-title: Dénominateur
+title: Denominator
 second_title: Référence API Aspose.Slides pour .NET
 description: Dénominateur
 type: docs

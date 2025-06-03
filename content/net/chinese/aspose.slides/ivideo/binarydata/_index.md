@@ -1,5 +1,5 @@
 ---
-title: 二进制数据
+title: BinaryData
 second_title: Aspose.Slides for .NET API 参考
 description: 返回音频数据的副本。如果数据量较大，考虑使用 GetStream../getstream 方法以防止不必要的加载视频数据到内存中，甚至避免内存溢出异常。只读 Byte。
 type: docs

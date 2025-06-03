@@ -1,5 +1,5 @@
 ---  
-title: AddDataPointForBoxAndWhiskerSeries  
+title: AddDataPointForBoxAndWhiskerSeries
 second_title: Aspose.Slides pour la référence API .NET  
 description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est BoxAndWhisker.
 type: docs  

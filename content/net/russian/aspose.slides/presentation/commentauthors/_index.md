@@ -1,5 +1,5 @@
 ---
-title: КомментарииАвторы
+title: CommentAuthors
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает коллекцию авторов комментариев. Только для чтения ICommentAuthorCollection aspose.slides/icommentauthorcollection.
 type: docs

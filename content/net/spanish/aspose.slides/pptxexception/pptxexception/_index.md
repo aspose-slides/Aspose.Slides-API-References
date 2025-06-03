@@ -1,5 +1,5 @@
 ---  
-title: PptxException  
+title: PptxException
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Constructor por defecto.
 type: docs  

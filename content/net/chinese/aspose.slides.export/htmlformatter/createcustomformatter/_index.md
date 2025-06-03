@@ -1,5 +1,5 @@
 ---
-title: 创建自定义格式化程序
+title: CreateCustomFormatter
 second_title: Aspose.Slides for .NET API 参考
 description: 创建并返回用于自定义回调驱动的 HTML 生成的 HTML 格式化程序。
 type: docs

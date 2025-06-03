@@ -1,5 +1,5 @@
 ---  
-title: SetAllHeadersText  
+title: SetAllHeadersText
 second_title: Справочник по API Aspose.Sildes для .NET  
 description: Устанавливает текст для всех заполнитель заголовков, включая основные заметки, слайды заметок и основные раздачи.
 type: docs  

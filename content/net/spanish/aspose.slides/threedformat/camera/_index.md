@@ -1,5 +1,5 @@
 ---
-title: Cámara
+title: Camera
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la configuración de una cámara. Solo lectura ICameraaspose.slides/icamera.
 type: docs

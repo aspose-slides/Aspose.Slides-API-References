@@ -1,5 +1,5 @@
 ---
-title: 插入评论
+title: InsertComment
 second_title: Aspose.Slides for .NET API 参考
 description: 在指定索引处向集合插入新评论。
 type: docs

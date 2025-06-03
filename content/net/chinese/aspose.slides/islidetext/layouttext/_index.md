@@ -1,5 +1,5 @@
 ---
-title: 布局文本
+title: LayoutText
 second_title: Aspose.Sildes for .NET API 参考
 description: 此幻灯片布局页形状上的文本
 type: docs

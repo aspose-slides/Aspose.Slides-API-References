@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置选项卡的位置。分配此属性可能会改变集合中选项卡的索引并使枚举变得无效。可读/写双精度浮点数。
 type: docs

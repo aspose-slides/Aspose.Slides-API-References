@@ -1,6 +1,6 @@
 ---
 
-title: ColorOperation  
+title: ColorOperation
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Crea una nueva operación de transformación de color.
 type: docs  

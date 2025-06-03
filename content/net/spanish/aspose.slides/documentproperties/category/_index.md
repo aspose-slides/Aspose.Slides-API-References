@@ -1,5 +1,5 @@
 ---
-title: Categoría
+title: Category
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la categoría de una presentación. Cadena de lectura/escritura.
 type: docs

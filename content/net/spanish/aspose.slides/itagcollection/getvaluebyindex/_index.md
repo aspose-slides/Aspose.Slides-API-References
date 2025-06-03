@@ -1,5 +1,5 @@
 ---  
-title: GetValueByIndex  
+title: GetValueByIndex
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el valor de una etiqueta en el índice especificado.
 type: docs  

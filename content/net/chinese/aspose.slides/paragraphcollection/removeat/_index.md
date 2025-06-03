@@ -1,5 +1,5 @@
 ---
-title: 移除指定索引处的元素
+title: RemoveAt
 second_title: Aspose.Sildes for .NET API 参考
 description: 移除集合中指定索引处的元素。
 type: docs

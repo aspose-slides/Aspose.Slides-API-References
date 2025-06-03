@@ -1,5 +1,5 @@
 ---
-title: 幻灯片转换
+title: SlideShowTransition
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片转换。
 type: docs

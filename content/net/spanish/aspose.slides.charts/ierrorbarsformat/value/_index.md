@@ -1,5 +1,5 @@
 ---
-title: Valor
+title: Value
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Obtiene o establece el valor que se utiliza con los tipos de valor de Porcentaje Fijo y Desviación Estándar para determinar la longitud de las barras de error. Lectura/escritura Simple.
 type: docs

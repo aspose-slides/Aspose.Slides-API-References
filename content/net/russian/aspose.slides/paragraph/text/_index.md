@@ -1,5 +1,5 @@
 ---
-title: Текст
+title: Text
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или устанавливает простой текст абзаца. Чтение/запись String.
 type: docs

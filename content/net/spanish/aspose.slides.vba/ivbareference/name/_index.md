@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el nombre de la referencia del proyecto VBA. Lectura/escritura String.
 type: docs

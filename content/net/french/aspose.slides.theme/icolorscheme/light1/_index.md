@@ -1,5 +1,5 @@
 ---  
-title: Light1  
+title: Light1
 second_title: Référence API Aspose.Slides pour .NET  
 description: Première couleur claire dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs  

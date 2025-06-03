@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Breite eines Plotbereichs als Bruchteil der Breite des Diagramms von 0 bis 1 zurück oder setzt diese. Read/write Single.
 type: docs

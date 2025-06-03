@@ -1,5 +1,5 @@
 ---
-title: Verbinden
+title: Join
 second_title: Aspose.Slides für .NET API-Referenz
 description: Verbindet ein mathematisches Element mit diesem mathematischen Block
 type: docs

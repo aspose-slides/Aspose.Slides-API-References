@@ -1,5 +1,5 @@
 ---
-title: UntertitelSpuren
+title: CaptionTracks
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Sammlung der geschlossenen Untertitel des Videos zurück. Schreibgeschützte ICaptionsCollectionaspose.slides/icaptionscollection.
 type: docs

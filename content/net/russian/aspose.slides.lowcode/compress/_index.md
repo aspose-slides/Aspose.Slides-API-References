@@ -1,5 +1,5 @@
 ---
-title: Сжатие
+title: Compress
 second_title: Aspose.Slides для .NET API Справочник
 description: Представляет собой группу методов, предназначенных для сжатия Presentation../aspose.slides/presentation.
 type: docs

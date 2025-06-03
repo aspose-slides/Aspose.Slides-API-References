@@ -1,5 +1,5 @@
 ---
-title: LirePropriétésDuDocument
+title: ReadDocumentProperties
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les propriétés du document de la présentation liée.
 type: docs

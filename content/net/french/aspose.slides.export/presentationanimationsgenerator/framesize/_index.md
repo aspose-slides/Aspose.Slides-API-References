@@ -1,5 +1,5 @@
 ---
-title: TailleDuCadre
+title: FrameSize
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la taille du cadre.
 type: docs

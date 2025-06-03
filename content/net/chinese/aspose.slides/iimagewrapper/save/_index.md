@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Slides for .NET API 参考
 description: 将图像保存到指定文件
 type: docs

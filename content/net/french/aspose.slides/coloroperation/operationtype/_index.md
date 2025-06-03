@@ -1,5 +1,5 @@
 ---
-title: TypeDOperation
+title: OperationType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit le type d'une opération. En lecture seule ColorTransformOperation aspose.slides/colortransformoperation.
 type: docs

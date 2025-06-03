@@ -1,5 +1,5 @@
 ---
-title: Licence
+title: License
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Fournit des méthodes pour autoriser le composant.
 type: docs

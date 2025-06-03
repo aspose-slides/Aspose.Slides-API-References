@@ -1,5 +1,5 @@
 ---  
-title: Konformität  
+title: Compliance
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gewünschtes Konformitätsniveau für das generierte PDF-Dokument. Lesen/Schreiben von PdfCompliance aspose.slides.export/pdfcompliance.
 type: docs  

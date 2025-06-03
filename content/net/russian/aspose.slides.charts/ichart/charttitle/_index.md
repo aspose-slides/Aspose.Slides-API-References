@@ -1,5 +1,5 @@
 ---
-title: ЗаголовокГрафика
+title: ChartTitle
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает или задает заголовок графика Только для чтения IChartTitle aspose.slides.charts/icharttitle.
 type: docs

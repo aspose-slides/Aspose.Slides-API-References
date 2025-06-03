@@ -1,5 +1,5 @@
 ---
-title: JpegQualität
+title: JpegQuality
 second_title: Aspose.Slides für .NET API-Referenz
 description: Legt die Qualität von JPEG-Bildern fest. Standard ist 95.
 type: docs

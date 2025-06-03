@@ -1,5 +1,5 @@
 ---
-title: EstLicencié
+title: IsLicensed
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Vérifiez si une licence est appliquée au composant
 type: docs

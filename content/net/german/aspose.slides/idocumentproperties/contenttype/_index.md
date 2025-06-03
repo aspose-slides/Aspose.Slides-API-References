@@ -1,5 +1,5 @@
 ---
-title: Inhaltstyp
+title: ContentType
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Inhaltstyp einer Präsentation zurück oder legt ihn fest. Lese-/Schreibzeichenfolge.
 type: docs

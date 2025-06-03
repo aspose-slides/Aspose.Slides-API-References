@@ -1,5 +1,5 @@
 ---  
-title: 厚度  
+title: Thickness
 second_title: Aspose.Sildes for .NET API 参考  
 description: 返回或设置墙的厚度，作为图表体积最大尺寸的百分比。可读写 Int32。
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Звук
+title: Sound
 second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет встроенный звук для эффекта. Чтение/запись IAudioaspose.slides/iaudio.
 type: docs

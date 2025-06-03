@@ -1,5 +1,5 @@
 ---
-title: Pinsel
+title: Brush
 second_title: Aspose.Slides für .NET API Referenz
 description: Erhält den Pinsel für die IInkLine IInkBrushaspose.slides/iinkbrush Nur lesbar.
 type: docs

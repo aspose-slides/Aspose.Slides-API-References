@@ -1,5 +1,5 @@
 ---
-title: 自动调整
+title: AutoAdjust
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在调整包含视图的窗口大小时，侧边内容区域的大小是否应该补偿新大小。可读/可写布尔值。
 type: docs

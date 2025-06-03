@@ -1,5 +1,5 @@
 ---
-title: StyleDePucesNumérotées
+title: NumberedBulletStyle
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le style d'une puce numérotée. En lecture seule NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs

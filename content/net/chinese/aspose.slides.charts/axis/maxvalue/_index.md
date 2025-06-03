@@ -1,5 +1,5 @@
 ---
-title: 最大值
+title: MaxValue
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示值轴上的最大值。可读/写 Double。
 type: docs

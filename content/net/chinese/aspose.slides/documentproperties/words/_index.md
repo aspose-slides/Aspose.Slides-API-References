@@ -1,5 +1,5 @@
 ---
-title: 词语
+title: Words
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文档中包含的总词数。只读 Int32。
 type: docs

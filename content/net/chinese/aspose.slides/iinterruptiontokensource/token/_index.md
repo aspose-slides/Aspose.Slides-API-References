@@ -1,5 +1,5 @@
 ---
-title: 令牌
+title: Token
 second_title: Aspose.Slides for .NET API 参考
 description: 返回绑定到此 IInterruptionTokenSource 的新令牌 aspose.slides/iinterruptiontokensource。
 type: docs

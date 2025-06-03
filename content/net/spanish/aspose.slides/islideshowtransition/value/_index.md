@@ -1,5 +1,5 @@
 ---
-title: Valor
+title: Value
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Valor de transición de presentación de diapositivas. Solo lectura ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs

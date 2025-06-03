@@ -1,5 +1,5 @@
 ---
-title: AñadirMóduloVacío
+title: AddEmptyModule
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agrega un nuevo módulo vacío al Proyecto VBA.
 type: docs

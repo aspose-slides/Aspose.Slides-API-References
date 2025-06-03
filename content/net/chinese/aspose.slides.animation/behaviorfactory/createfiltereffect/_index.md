@@ -1,5 +1,5 @@
 ---
-title: 创建滤镜效果
+title: CreateFilterEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 创建滤镜效果。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: MathMatrixFactory  
+title: MathMatrixFactory
 second_title: Ссылка по API Aspose.Sildes для .NET  
 description: Позволяет создать математическую матрицу
 type: docs  

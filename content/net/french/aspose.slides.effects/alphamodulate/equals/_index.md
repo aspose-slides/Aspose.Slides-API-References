@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si l'AlphaModulateaspose.slides.effects/alphamodulate spécifié est égal à l'AlphaModulateaspose.slides.effects/alphamodulate actuel.
 type: docs

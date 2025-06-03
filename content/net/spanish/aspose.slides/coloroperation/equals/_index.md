@@ -1,5 +1,5 @@
 ---
-title: Equivalente
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si las dos instancias de ColorOperation son iguales.
 type: docs

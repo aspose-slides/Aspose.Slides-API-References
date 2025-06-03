@@ -1,5 +1,5 @@
 ---
-title: CrearFormateadorPersonalizado
+title: CreateCustomFormatter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea y devuelve un formateador HTML para la generación de HTML impulsada por callbacks personalizados.
 type: docs

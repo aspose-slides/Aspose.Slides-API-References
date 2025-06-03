@@ -1,5 +1,5 @@
 ---
-title: IstVerschlüsselt
+title: IsEncrypted
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Wert zurück, der angibt, ob diese Instanz verschlüsselt ist. Nur-Lesen Boolean.
 type: docs

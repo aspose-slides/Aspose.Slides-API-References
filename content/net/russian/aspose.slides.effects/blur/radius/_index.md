@@ -1,5 +1,5 @@
 ---
-title: Радиус
+title: Radius
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает радиус размытия. Чтение/запись Double.
 type: docs

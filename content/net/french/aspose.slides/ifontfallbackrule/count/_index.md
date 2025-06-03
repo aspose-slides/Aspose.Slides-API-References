@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient le nombre de polices réellement définies pour la plage.
 type: docs

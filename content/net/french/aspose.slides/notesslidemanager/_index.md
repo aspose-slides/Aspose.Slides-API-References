@@ -1,5 +1,5 @@
 ---
-title: GestionnaireDeDiaposDeNotes
+title: NotesSlideManager
 second_title: Documentation de l'API Aspose.Slides pour .NET
 description: Gestionnaire de diapos de notes.
 type: docs

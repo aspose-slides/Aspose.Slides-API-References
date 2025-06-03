@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el tipo de campos. Lectura/escritura IFieldTypeaspose.slides/ifieldtype.
 type: docs

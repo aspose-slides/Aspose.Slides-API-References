@@ -1,5 +1,5 @@
 ---
-title: Contraseña
+title: Password
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establecer una contraseña de usuario para proteger el documento PDF. Cadena de lectura/escritura.
 type: docs

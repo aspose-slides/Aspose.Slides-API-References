@@ -1,5 +1,5 @@
 ---
-title: Präsentation
+title: Presentation
 second_title: Aspose.Slides für .NET API Referenz
 description: Dieser Konstruktor erstellt eine neue Präsentation von Grund auf. Die erstellte Präsentation hat eine leere Folie.
 type: docs

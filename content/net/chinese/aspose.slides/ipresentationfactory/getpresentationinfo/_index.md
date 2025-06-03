@@ -1,5 +1,5 @@
 ---
-title: 获取演示文稿信息
+title: GetPresentationInfo
 second_title: Aspose.Slides for .NET API 参考
 description: 获取指定文件中演示文稿的信息。
 type: docs

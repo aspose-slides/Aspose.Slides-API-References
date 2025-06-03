@@ -1,5 +1,5 @@
 ---
-title: Avertissement
+title: Warning
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Méthode de rappel qui reçoit un avertissement et décide si l'opération doit être interrompue.
 type: docs

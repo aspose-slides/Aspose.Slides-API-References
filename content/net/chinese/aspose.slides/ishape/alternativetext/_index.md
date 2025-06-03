@@ -1,5 +1,5 @@
 ---
-title: 替代文本
+title: AlternativeText
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置与形状相关联的替代文本。读/写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Verifica si este campo es igual a otro.
 type: docs

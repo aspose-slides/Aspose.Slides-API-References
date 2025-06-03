@@ -1,5 +1,5 @@
 ---
-title: Фигуры
+title: Shapes
 second_title: Справка по API Aspose.Slides для .NET
 description: Собирает все экземпляры Shapeaspose.slides/shape в Presentationaspose.slides/presentation.
 type: docs

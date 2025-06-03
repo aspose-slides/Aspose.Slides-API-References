@@ -1,5 +1,5 @@
 ---
-title: Insérer
+title: Insert
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
 type: docs

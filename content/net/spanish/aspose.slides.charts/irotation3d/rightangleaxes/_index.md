@@ -1,5 +1,5 @@
 ---
-title: EjesDeÁnguloRecto
+title: RightAngleAxes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si los ejes del gráfico están en ángulos rectos en lugar de dibujarse en perspectiva. En otras palabras, determina si los ángulos del gráfico de los ejes son independientes de la rotación o elevación del gráfico. Booleano de lectura/escritura.
 type: docs

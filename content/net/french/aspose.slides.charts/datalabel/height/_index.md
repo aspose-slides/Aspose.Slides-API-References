@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la hauteur d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Unique.
 type: docs

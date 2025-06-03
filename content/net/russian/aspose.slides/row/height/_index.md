@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Возвращает высоту строки. Свойство только для чтения Double.
 type: docs

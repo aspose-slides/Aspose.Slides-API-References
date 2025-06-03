@@ -1,5 +1,5 @@
 ---
-title: Точки
+title: Points
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает точки для IInkLine PointF только для чтения.
 type: docs

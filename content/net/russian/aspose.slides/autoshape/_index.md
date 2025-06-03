@@ -1,5 +1,5 @@
 ---
-title: АвтоФорма
+title: AutoShape
 second_title: Aspose.Sildes для .NET API Справка
 description: Представляет АвтоФорму.
 type: docs

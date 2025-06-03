@@ -1,5 +1,5 @@
 ---
-title: Zip64模式
+title: Zip64Mode
 second_title: Aspose.Slides for .NET API 参考
 description: 指定是否使用 ZIP64 格式用于演示文档。默认值为 IfNecessary
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la hauteur de l'élément graphique en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Speichen
+title: Spokes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Anzahl der Speichen der Radübergänge. Lesen/Schreiben UInt32.
 type: docs

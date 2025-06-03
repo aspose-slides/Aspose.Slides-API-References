@@ -1,5 +1,5 @@
 ---
-title: Ordre
+title: Order
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'ordre d'une série. Lire/écrire Int32.
 type: docs

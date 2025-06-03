@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Breite einer Spalte zurück oder setzt sie. Lese-/Schreib-Wert vom Typ Double.
 type: docs

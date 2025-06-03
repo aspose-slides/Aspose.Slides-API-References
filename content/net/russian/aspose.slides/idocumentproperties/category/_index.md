@@ -1,5 +1,5 @@
 ---
-title: Категория
+title: Category
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает категорию презентации. Чтение/запись Строка.
 type: docs

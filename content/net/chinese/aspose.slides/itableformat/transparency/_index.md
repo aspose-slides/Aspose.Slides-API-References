@@ -1,5 +1,5 @@
 ---
-title: 透明度
+title: Transparency
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置填充颜色的透明度。可读/写的单精度浮点数。
 type: docs

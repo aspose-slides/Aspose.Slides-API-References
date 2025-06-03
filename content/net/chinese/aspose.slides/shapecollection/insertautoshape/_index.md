@@ -1,5 +1,5 @@
 ---
-title: 插入自动形状
+title: InsertAutoShape
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的自动形状，从默认模板中调整并插入到指定索引的集合中。注意，形状的类型将由 shapeType 参数确定。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 警告类型
+title: WarningType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回警告的类型。只读 WarningTypeaspose.slides.warnings/iwarninginfo/warningtype。
 type: docs

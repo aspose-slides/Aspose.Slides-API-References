@@ -1,5 +1,5 @@
 ---
-title: Spalten
+title: Columns
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Sammlung von Spalten zurück. Schreibgeschützte IColumnCollection aspose.slides/icolumncollection.
 type: docs

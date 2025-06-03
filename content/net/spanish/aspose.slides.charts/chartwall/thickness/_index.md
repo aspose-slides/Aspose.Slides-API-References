@@ -1,5 +1,5 @@
 ---
-title: Grosor
+title: Thickness
 second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el grosor de las paredes como un porcentaje de la dimensión más grande del volumen del gráfico. Lectura/escritura Int32.
 type: docs

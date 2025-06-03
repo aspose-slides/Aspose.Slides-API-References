@@ -1,5 +1,5 @@
 ---  
-title: GetHashCode  
+title: GetHashCode
 second_title: Aspose.Slides pour .NET Référence API  
 description: Sert de fonction de hachage pour un type particulier.
 type: docs  

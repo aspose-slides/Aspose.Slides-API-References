@@ -1,5 +1,5 @@
 ---
-title: Forma
+title: Shape
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una forma asociada con el comentario. Solo lectura IShapeaspose.slides/ishape.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 参考
+title: Reference
 second_title: Aspose.Slides for .NET API 参考
 description: 获取无效的单元格引用。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: 获取字体文件夹  
+title: GetFontFolders
 second_title: Aspose.Slides for .NET API 参考  
 description: 获取字体文件夹。返回通过 LoadExternalFonts 方法添加的文件夹以及系统字体文件夹
 type: docs  

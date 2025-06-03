@@ -1,5 +1,5 @@
 ---
-title: Начало
+title: Start
 second_title: Справочник по API Aspose.Slides для .NET
 description: Начало
 type: docs

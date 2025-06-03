@@ -1,5 +1,5 @@
 ---
-title: Objektverteilung
+title: ObjectDistribution
 second_title: Aspose.Slides für .NET API-Referenz
 description: Objektverteilung Wenn wahr, sind die Inhalte des Arrays auf die maximale Breite des Array-Objekts verteilt.
 type: docs

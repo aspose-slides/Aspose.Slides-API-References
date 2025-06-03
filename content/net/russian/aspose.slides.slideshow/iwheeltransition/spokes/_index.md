@@ -1,5 +1,5 @@
 ---
-title: Спицы
+title: Spokes
 second_title: Справочник по API Aspose.Slides для .NET
 description: Количество спиц перехода колеса. Чтение/запись UInt32.
 type: docs

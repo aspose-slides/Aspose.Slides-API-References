@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает элемент по указанному индексу. Только для чтения ISummaryZoomSectionaspose.slides/isummaryzoomsection.
 type: docs

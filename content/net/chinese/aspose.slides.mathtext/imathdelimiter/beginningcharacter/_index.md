@@ -1,5 +1,5 @@
 ---
-title: 开始字符
+title: BeginningCharacter
 second_title: Aspose.Slides for .NET API 参考
 description: 定界符开始字符指定开始或开括号字符。数学定界符是封闭字符，例如括号、方括号和大括号。默认值为 '.
 type: docs

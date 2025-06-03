@@ -1,5 +1,5 @@
 ---
-title: 默认符号字体
+title: DefaultSymbolFont
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置在找不到源字体时使用的符号字体。可读写字符串。
 type: docs

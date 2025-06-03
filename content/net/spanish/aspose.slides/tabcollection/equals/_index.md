@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina si dos instancias de TabsEx son iguales.
 type: docs

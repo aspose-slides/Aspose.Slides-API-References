@@ -1,5 +1,5 @@
 ---
-title: Teilen
+title: Divide
 second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt einen Bruch mit diesem Zähler und dem angegebenen Nenner
 type: docs

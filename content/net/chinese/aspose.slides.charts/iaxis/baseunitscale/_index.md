@@ -1,5 +1,5 @@
 ---
-title: 基础单位比例
+title: BaseUnitScale
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在日期轴上表示的最小时间单位。可读写 TimeUnitTypeaspose.slides/timeunittype。
 type: docs

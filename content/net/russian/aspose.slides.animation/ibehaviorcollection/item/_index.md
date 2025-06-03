@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает поведение по указанному индексу.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Представляет тип эффекта фильтра. Чтение/запись FilterEffectTypeaspose.slides.animation/filtereffecttype.
 type: docs

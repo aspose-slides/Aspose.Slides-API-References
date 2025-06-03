@@ -1,5 +1,5 @@
 ---
-title: 线条样式
+title: LineStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示线条的样式。
 type: docs

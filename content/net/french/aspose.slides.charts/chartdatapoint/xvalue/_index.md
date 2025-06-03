@@ -1,5 +1,5 @@
 ---  
-title: XValue  
+title: XValue
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: XValue. Propriété en lecture seule IStringOrDoubleChartValue aspose.slides.charts/istringordoublechartvalue.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 获取平铺图像
+title: GetTile
 second_title: Aspose.Slides for .NET API 参考
 description: 使用指定颜色为图案填充创建平铺图像。
 type: docs

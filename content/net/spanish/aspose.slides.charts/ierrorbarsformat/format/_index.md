@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa el formato de los barras de error. Lectura/escritura IFormataspose.slides.charts/iformat.
 type: docs

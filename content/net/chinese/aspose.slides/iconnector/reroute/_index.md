@@ -1,5 +1,5 @@
 ---
-title: 重新路由
+title: Reroute
 second_title: Aspose.Sildes for .NET API 参考
 description: 重新路由连接器，使其在连接的形状之间采取最短路径。
 type: docs

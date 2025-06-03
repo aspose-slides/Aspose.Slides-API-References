@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les propriétés de l'entrée de légende correspondant à Chart.ChartData.Series0.DataPointsindex dans le cas d'un type de graphique de cette liste  ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie ou correspondant à Chart.ChartData.Seriesindex pour d'autres types de graphiques.
 type: docs

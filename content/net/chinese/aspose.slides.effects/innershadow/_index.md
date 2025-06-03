@@ -1,5 +1,5 @@
 ---
-title: 内阴影
+title: InnerShadow
 second_title: Aspose.Slides for .NET API 参考
 description: 表示内阴影效果。
 type: docs

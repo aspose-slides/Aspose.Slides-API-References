@@ -1,5 +1,5 @@
 ---
-title: 对齐点
+title: AlignmentPoint
 second_title: Aspose.Slides for .NET API 参考
 description: 当为真时，此操作符仿真器作为一个对齐点，指定其他方程中的对齐点可以与它对齐。默认值：假
 type: docs

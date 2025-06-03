@@ -1,5 +1,5 @@
 ---
-title: 经理
+title: Manager
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置经理属性。可读/写字符串。
 type: docs

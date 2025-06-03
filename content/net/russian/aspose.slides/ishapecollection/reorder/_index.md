@@ -1,5 +1,5 @@
 ---
-title: Перемещение
+title: Reorder
 second_title: Справка по API Aspose.Slides для .NET
 description: Перемещает фигуру из коллекции на указанную позицию.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: BandaVertical
+title: VerticalBanding
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina si las columnas pares deben dibujarse con un formato diferente. Booleano de lectura/escritura.
 type: docs

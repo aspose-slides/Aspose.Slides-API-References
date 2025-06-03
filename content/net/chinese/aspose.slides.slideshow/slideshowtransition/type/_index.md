@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 过渡的类型。读/写 TransitionTypeaspose.slides.slideshow/transitiontype。
 type: docs

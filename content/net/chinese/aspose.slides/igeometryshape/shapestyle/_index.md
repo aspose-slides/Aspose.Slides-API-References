@@ -1,5 +1,5 @@
 ---
-title: 形状样式
+title: ShapeStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状样式对象。只读 IShapeStyleaspose.slides/ishapestyle。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 写入
+title: Write
 second_title: Aspose.Slides for .NET API 参考
 description: 将字节序列写入当前流，并按写入的字节数推进该流中的当前位置。
 type: docs

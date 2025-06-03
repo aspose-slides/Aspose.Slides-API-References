@@ -1,5 +1,5 @@
 ---
-title: CopiarA
+title: CopyTo
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Copia el formato de texto al marco de texto especificado.
 type: docs

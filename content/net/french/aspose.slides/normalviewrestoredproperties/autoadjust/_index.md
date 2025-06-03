@@ -1,5 +1,5 @@
 ---  
-title: AutoAdjust  
+title: AutoAdjust
 second_title: Aspose.Slides pour la référence d'API .NET  
 description: Spécifie si la taille de la région de contenu latérale doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application. Lecture/écriture Booléen.
 type: docs  

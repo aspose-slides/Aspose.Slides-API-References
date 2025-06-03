@@ -1,5 +1,5 @@
 ---  
-title: ThemeManager  
+title: ThemeManager
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Überschreibungs-Themen-Manager zurück. Nur-lesen IOverrideThemeManageraspose.slides/ioverridethememanager.
 type: docs  

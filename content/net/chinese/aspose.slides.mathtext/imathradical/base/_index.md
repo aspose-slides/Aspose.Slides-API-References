@@ -1,5 +1,5 @@
 ---
-title: 基本
+title: Base
 second_title: Aspose.Slides for .NET API 参考
 description: 基本参数
 type: docs

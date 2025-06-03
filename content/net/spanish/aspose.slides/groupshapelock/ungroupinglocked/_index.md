@@ -1,5 +1,5 @@
 ---
-title: DesbloqueoDeGrupo
+title: UngroupingLocked
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina si se prohíbe dividir esta forma de grupo. Booleano de lectura/escritura.
 type: docs

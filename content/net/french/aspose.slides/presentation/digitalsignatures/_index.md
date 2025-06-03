@@ -1,5 +1,5 @@
 ---
-title: SignaturesNumériques
+title: DigitalSignatures
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la collection de signatures utilisées pour signer la présentation. Lecture seule IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs

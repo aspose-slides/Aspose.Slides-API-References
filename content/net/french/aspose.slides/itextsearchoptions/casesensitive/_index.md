@@ -1,5 +1,5 @@
 ---
-title: SensDesMajuscules
+title: CaseSensitive
 second_title: Référence API Aspose.Slides pour .NET
 description: Définir true pour utiliser une recherche sensible à la casse, false - sinon. Booléen en lecture/écriture.
 type: docs

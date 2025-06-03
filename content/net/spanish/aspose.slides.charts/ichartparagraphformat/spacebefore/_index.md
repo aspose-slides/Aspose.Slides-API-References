@@ -1,5 +1,5 @@
 ---
-title: EspacioAntes
+title: SpaceBefore
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la cantidad de espacio antes de la primera línea en un párrafo. Lectura/escritura Simple.
 type: docs

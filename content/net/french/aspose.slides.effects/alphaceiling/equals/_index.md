@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si l'AlphaCeilingaspose.slides.effects/alphaceiling spécifié est égal à l'AlphaCeilingaspose.slides.effects/alphaceiling actuel.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 实际次单位
+title: ActualMinorUnit
 second_title: Aspose.Slides for .NET API参考
 description: 指定轴的实际次单位。请先调用方法 IChart.ValidateChartLayout 获取实际值。
 type: docs

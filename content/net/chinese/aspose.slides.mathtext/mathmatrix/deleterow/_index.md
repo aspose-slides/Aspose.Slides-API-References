@@ -1,5 +1,5 @@
 ---
-title: 删除行
+title: DeleteRow
 second_title: Aspose.Slides for .NET API 参考
 description: 删除指定的行
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 圆环图孔的大小
+title: DoughnutHoleSize
 second_title: Aspose.Slides for .NET API 参考
 description: 指定圆环图中孔的大小，可以介于绘图区域大小的 0 到 90 百分比之间。可读/写字节。
 type: docs

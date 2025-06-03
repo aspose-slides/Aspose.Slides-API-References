@@ -1,5 +1,5 @@
 ---
-title: 创建数学下标元素
+title: CreateMathSubscriptElement
 second_title: Aspose.Slides for .NET API 参考
 description: 创建 IMathSubscriptElement
 type: docs

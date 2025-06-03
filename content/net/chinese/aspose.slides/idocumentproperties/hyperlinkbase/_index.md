@@ -1,5 +1,5 @@
 ---
-title: 超链接基
+title: HyperlinkBase
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 HyperlinkBase 文档属性。可读写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает точку данных диаграммы по индексу.
 type: docs

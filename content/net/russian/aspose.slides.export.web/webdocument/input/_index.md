@@ -1,5 +1,5 @@
 ---
-title: Ввод
+title: Input
 second_title: Справочник по API Aspose.Slides для .NET
 description: type docs
 weight: 30

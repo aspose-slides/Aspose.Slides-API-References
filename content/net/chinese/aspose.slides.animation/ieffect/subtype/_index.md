@@ -1,5 +1,5 @@
 ---
-title: 子类型
+title: Subtype
 second_title: Aspose.Slides for .NET API 参考
 description: 定义效果的子类型。可读/写 EffectSubtype aspose.slides.animation/effectsubtype。
 type: docs

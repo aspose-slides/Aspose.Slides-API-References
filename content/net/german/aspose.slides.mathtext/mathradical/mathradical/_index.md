@@ -1,5 +1,5 @@
 ---  
-title: MathRadical  
+title: MathRadical
 second_title: Aspose.Slides für .NET API Referenz  
 description: Initialisiert eine neue Instanz der MathRadical-Klasse.
 type: docs  

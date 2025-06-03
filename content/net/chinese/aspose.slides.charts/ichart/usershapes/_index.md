@@ -1,5 +1,5 @@
 ---
-title: 用户形状
+title: UserShapes
 second_title: Aspose.Slides for .NET API 参考
 description: 指定绘制在图表顶部的形状。只读 IGroupShape aspose.slides/igroupshape。
 type: docs

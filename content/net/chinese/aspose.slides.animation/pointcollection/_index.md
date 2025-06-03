@@ -1,5 +1,5 @@
 ---
-title: 点集合
+title: PointCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示动画点的集合。
 type: docs

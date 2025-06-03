@@ -1,5 +1,5 @@
 ---
-title: 线条虚线样式
+title: LineDashStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示线条虚线样式。
 type: docs

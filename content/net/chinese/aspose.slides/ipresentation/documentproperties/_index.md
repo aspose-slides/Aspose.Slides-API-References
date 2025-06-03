@@ -1,5 +1,5 @@
 ---
-title: 文档属性
+title: DocumentProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含标准和自定义文档属性的 DocumentProperties 对象。 只读 IDocumentPropertiesaspose.slides/idocumentproperties。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 计量
+title: Metered
 second_title: Aspose.Slides for .NET API 参考
 description: 提供设置计量密钥的方法。
 type: docs

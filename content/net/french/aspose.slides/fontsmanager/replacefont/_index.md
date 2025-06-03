@@ -1,5 +1,5 @@
 ---
-title: RemplacerPolice
+title: ReplaceFont
 second_title: Référence API Aspose.Slides pour .NET
 description: Remplacer la police dans la présentation
 type: docs

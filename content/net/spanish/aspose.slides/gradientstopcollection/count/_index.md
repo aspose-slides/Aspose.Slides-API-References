@@ -1,5 +1,5 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve el número de paradas de degradado en una colección. Solo lectura Int32.
 type: docs

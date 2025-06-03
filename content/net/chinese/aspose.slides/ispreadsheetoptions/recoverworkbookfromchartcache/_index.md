@@ -1,5 +1,5 @@
 ---
-title: 从图表缓存中恢复工作簿
+title: RecoverWorkbookFromChartCache
 second_title: Aspose.Sildes for .NET API 参考
 description: 如果图表的数据源是外部工作簿且不可用，则将从图表缓存中恢复。
 type: docs

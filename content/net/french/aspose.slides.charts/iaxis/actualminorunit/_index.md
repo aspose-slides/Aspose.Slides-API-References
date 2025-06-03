@@ -1,5 +1,5 @@
 ---
-title: UnitéMineureActuelle
+title: ActualMinorUnit
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie l'unité mineure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout au préalable pour obtenir la valeur réelle.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置幻灯片大小的类型。分配任何值（除了 Custom）将相应地更改 Size../size，但将保持 Orientation../orientation 不变。读/写 SlideSizeTypeaspose.slides/slidesizetype。
 type: docs

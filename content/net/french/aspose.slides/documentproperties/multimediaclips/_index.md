@@ -1,5 +1,5 @@
 ---
-title: ClipsMultimédia
+title: MultimediaClips
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nombre total de clips audio ou vidéo présents dans le document. En lecture seule Int32.
 type: docs

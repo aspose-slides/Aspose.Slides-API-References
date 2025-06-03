@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne ou définit la hauteur de la forme. Lecture/écriture Single.
 type: docs

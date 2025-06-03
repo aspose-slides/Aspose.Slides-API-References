@@ -1,5 +1,5 @@
 ---
-title: Arrière
+title: Backward
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le nombre de catégories ou d'unités sur un graphique de dispersion que la ligne de tendance s'étend avant les données pour la série en cours de tendance. Sur les graphiques de dispersion et non-dispersion, la valeur doit être une valeur non négative. Lecture/écriture Double.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: Égal  
+title: Equals
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Détermine si le Duotone spécifié aspose.slides.effects/duotone est égal au Duotone actuel aspose.slides.effects/duotone.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 上升条格式
+title: UpBarsFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回上升条的格式。唯读 IFormat aspose.slides.charts/iformat。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: LoadExternalFonts  
+title: LoadExternalFonts
 second_title: Aspose.Slides pour .NET API Référence  
 description: Ajoute des dossiers supplémentaires pour rechercher des polices.
 type: docs  

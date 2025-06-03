@@ -1,5 +1,5 @@
 ---  
-title: AsILayoutSlideCollection  
+title: AsILayoutSlideCollection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Retourne l'interface ILayoutSlideCollection. Lecture seule ILayoutSlideCollection aspose.slides/ilayoutslidecollection.
 type: docs  

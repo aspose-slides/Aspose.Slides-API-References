@@ -1,5 +1,5 @@
 ---
-title: Zählen
+title: Count
 second_title: Aspose.Slides für .NET API-Dokumentation
 description: Erhält die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente. Nur lesender Int32.
 type: docs

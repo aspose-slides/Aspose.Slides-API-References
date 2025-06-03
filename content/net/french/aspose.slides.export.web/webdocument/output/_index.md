@@ -1,5 +1,5 @@
 ---
-title: Sortie
+title: Output
 second_title: Référence API Aspose.Sldes pour .NET
 description: Renvoie la collection d'éléments de sortie du document. Lecture seule Output.
 type: docs

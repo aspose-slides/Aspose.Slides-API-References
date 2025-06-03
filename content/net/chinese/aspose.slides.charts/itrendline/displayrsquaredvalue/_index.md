@@ -1,5 +1,5 @@
 ---
-title: 显示R平方值
+title: DisplayRSquaredValue
 second_title: Aspose.Slides for .NET API 参考
 description: 指定趋势线的R平方值在图表上与方程在同一标签中显示。可读/可写布尔值。
 type: docs

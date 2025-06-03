@@ -1,5 +1,5 @@
 ---
-title: PunktSammlung
+title: PointCollection
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Sammlung von Animationspunkten dar.
 type: docs

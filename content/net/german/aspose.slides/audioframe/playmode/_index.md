@@ -1,5 +1,5 @@
 ---
-title: Wiedergabemodus
+title: PlayMode
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Audio-Wiedergabemodus zurück oder setzt ihn. Lese-/schreibbarer AudioPlayModePresetaspose.slides/audioplaymodepreset.
 type: docs

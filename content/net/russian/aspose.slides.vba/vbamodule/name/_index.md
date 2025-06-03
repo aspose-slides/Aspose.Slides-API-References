@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает имя модуля. Только для чтения строка.
 type: docs

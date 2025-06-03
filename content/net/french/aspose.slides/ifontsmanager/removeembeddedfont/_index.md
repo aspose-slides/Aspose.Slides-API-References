@@ -1,5 +1,5 @@
 ---
-title: SupprimerPoliceIncorporeé
+title: RemoveEmbeddedFont
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la police incorporée
 type: docs

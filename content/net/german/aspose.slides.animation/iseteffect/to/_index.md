@@ -1,5 +1,5 @@
 ---
-title: Zu
+title: To
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das bestimmte Attribut eines Effekts nach einem Animationseffekt an. Stellt den Punktwert dar. Nur bool, ColorFormat, float, int, string. Lese-/Schreibobjekt.
 type: docs

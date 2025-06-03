@@ -1,5 +1,5 @@
 ---
-title: Справка
+title: Reference
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает недопустимую ссылку на ячейку.
 type: docs

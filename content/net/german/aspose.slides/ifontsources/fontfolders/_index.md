@@ -1,5 +1,5 @@
 ---
-title: Schriftordner
+title: FontFolders
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ordner, die Schriftdateien enthalten. Alle Schriftdateien, die sich in diesen Ordnern befinden, sind in der Sammlung enthalten. Ordner, die rekursiv durchsucht werden.
 type: docs

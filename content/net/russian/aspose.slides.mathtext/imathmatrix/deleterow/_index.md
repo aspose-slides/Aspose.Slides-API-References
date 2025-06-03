@@ -1,5 +1,5 @@
 ---
-title: Удалить строку
+title: DeleteRow
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Удаляет указанную строку
 type: docs

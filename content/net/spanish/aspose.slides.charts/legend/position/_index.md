@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica la posición de la leyenda en un gráfico. Los valores no NaN de las propiedades X, Y, Width, Heigt anulan el efecto de esta propiedad. Lectura/escritura LegendPositionTypeaspose.slides/legendpositiontype.
 type: docs

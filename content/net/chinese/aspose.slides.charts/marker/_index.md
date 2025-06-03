@@ -1,5 +1,5 @@
 ---
-title: 标记
+title: Marker
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图表的标记。
 type: docs

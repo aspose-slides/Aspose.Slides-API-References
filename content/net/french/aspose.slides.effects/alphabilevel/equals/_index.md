@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le AlphaBiLevelaspose.slides.effects/alphabilevel spécifié est égal au AlphaBiLevelaspose.slides.effects/alphabilevel actuel.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Intégré
+title: Embedded
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si un son est intégré à une présentation. Boolean en lecture seule.
 type: docs

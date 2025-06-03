@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne un élément à la position spécifiée. Lecture seule EffectStyleaspose.slides.theme/effectstyle.
 type: docs

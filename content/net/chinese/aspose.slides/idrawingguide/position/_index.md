@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置绘图指南位置，从幻灯片左上角起以点为单位。可读/可写单精度浮点数。
 type: docs

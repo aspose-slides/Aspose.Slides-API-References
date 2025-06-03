@@ -1,5 +1,5 @@
 ---  
-title: EmbedImages  
+title: EmbedImages
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie ou définit l'option d'intégration des images. Booléen en lecture/écriture.
 type: docs  

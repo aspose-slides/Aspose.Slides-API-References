@@ -1,5 +1,5 @@
 ---
-title: Расстояние
+title: Distance
 second_title: Справка по API Aspose.Slides для .NET
 description: Расстояние тени. Чтение/запись Double.
 type: docs

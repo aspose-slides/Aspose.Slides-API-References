@@ -1,5 +1,5 @@
 ---
-title: ОтключитьЭффектОтражения
+title: DisableReflectionEffect
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Отключает эффект отражения.
 type: docs

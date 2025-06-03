@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina una propiedad con el nombre especificado.
 type: docs

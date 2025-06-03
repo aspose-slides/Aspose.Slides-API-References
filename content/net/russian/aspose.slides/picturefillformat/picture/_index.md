@@ -1,5 +1,5 @@
 ---
-title: Картинка
+title: Picture
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает картинку. Только для чтения ISlidesPictureaspose.slides/islidespicture.
 type: docs

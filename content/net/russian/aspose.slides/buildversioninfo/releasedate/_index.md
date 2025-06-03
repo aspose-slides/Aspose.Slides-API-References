@@ -1,5 +1,5 @@
 ---
-title: ДатаРелиза
+title: ReleaseDate
 second_title: Справочник по API Aspose.Slides для .NET
 description: Дата релиза сборки.
 type: docs

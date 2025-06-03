@@ -1,5 +1,5 @@
 ---
-title: 添加股票系列数据点
+title: AddDataPointForStockSeries
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为股票子类型之一的系列，另见 IsChartTypeStockaspose.slides/charttypecharacterizer/ischarttypestock 方法。
 type: docs

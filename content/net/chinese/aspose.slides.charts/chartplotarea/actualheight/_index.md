@@ -1,5 +1,5 @@
 ---
-title: 实际高度
+title: ActualHeight
 second_title: Aspose.Slides for .NET API 参考
 description: 指定图表元素的实际高度。在获取实际值之前，请调用方法 IChart.ValidateChartLayout。阅读单一值。
 type: docs

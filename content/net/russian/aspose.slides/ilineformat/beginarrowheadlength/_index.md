@@ -1,5 +1,5 @@
 ---
-title: НачальнаяДлинаСтрелки
+title: BeginArrowheadLength
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает длину стрелки в начале линии. Чтение/запись LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs

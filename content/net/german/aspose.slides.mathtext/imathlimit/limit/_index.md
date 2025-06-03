@@ -1,5 +1,5 @@
 ---
-title: Grenzwert
+title: Limit
 second_title: Aspose.Slides für .NET API-Referenz
 description: Grenzwert-Argument
 type: docs

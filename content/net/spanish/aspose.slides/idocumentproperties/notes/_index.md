@@ -1,5 +1,5 @@
 ---
-title: Notas
+title: Notes
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica el número de diapositivas en una presentación que contiene notas. Solo lectura Int32.
 type: docs

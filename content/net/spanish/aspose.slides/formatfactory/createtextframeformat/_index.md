@@ -1,5 +1,5 @@
 ---
-title: CrearFormatoDeMarcoDeTexto
+title: CreateTextFrameFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un nuevo ITextFrameFormataspose.slides/itextframeformat.
 type: docs

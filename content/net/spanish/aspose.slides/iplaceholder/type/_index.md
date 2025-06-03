@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el tipo de un marcador de posición. Solo lectura PlaceholderTypeaspose.slides/placeholdertype.
 type: docs

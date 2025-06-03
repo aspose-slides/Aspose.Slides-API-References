@@ -1,5 +1,5 @@
 ---
-title: 定义
+title: Orientation
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置幻灯片的方向。更改此值将交换幻灯片的尺寸。可读/可写 SlideOrientation。
 type: docs

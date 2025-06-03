@@ -1,5 +1,5 @@
 ---
-title: SupprimerLesObjetsBinairesEmbarqués
+title: DeleteEmbeddedBinaryObjects
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si Aspose.Slides supprimera tous les objets binaires embarqués lors du chargement de la présentation.
 type: docs

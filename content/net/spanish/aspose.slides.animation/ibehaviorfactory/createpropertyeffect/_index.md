@@ -1,5 +1,5 @@
 ---
-title: CrearEfectoPropiedad
+title: CreatePropertyEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea efecto de propiedad.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Насыщенность
+title: Saturation
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает процент насыщенности. Только для чтения Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 子模型
+title: SubModel
 second_title: Aspose.Slides for .NET API 参考
 description: type docs
 weight: 50

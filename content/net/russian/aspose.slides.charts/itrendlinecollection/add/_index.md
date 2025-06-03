@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Добавляет новую Trendline в конец коллекции и возвращает её.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Mise en page
+title: Layout
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la mise en page de l'objet SmartArt. Lecture/écriture SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs

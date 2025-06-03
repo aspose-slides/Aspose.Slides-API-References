@@ -1,5 +1,5 @@
 ---
-title: Знаменатель
+title: Denominator
 second_title: Справочник API Aspose.Slides для .NET
 description: Знаменатель
 type: docs

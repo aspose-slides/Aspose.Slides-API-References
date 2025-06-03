@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или устанавливает имя автора. Чтение/запись Строка.
 type: docs

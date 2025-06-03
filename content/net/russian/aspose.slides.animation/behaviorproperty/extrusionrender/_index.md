@@ -1,5 +1,5 @@
 ---  
-title: ExtrusionRender  
+title: ExtrusionRender
 second_title: Aspose.Slides для .NET API Справочник  
 description: Представляет свойство extrusion.render
 type: docs  

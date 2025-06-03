@@ -1,5 +1,5 @@
 ---
-title: Empresa
+title: Company
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la propiedad de empresa. Cadena de lectura/escritura.
 type: docs

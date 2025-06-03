@@ -1,5 +1,5 @@
 ---  
-title: 控件  
+title: Control
 second_title: Aspose.Slides for .NET API 参考  
 description: 表示一个 ActiveX 控件。
 type: docs  

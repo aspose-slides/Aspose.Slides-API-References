@@ -1,5 +1,5 @@
 ---
-title: Artikel
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Diagrammdatenpunkt für den angegebenen Index zurück.
 type: docs

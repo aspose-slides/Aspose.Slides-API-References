@@ -1,5 +1,5 @@
 ---  
-title: IMathAccentFactory  
+title: IMathAccentFactory
 second_title: Aspose.Sildes для .NET API Reference  
 description: Позволяет создавать математический акцент
 type: docs  

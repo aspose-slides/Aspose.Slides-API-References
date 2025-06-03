@@ -1,5 +1,5 @@
 ---  
-title: HasTitle  
+title: HasTitle
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob ein Diagramm einen sichtbaren Titel hat. Lese-/Schreib-Boolean.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Porción
+title: Portion
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una porción de texto dentro de un párrafo de texto.
 type: docs

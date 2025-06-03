@@ -1,5 +1,5 @@
 ---
-title: 按列拆分文本
+title: SplitTextByColumns
 second_title: Aspose.Slides for .NET API 参考
 description: 将 ITextFrameaspose.slides/itextframe 的文本内容拆分为字符串数组，其中每个元素对应于框内的一个单独文本列。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: КоллекцияChartSeries
+title: ChartSeriesCollection
 second_title: Aspose.Slides для .NET Справочник по API
 description: Представляет коллекцию ChartSeries./chartseries
 type: docs

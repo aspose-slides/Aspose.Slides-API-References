@@ -1,5 +1,5 @@
 ---
-title: UnitésMineures
+title: MinorUnit
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente les unités mineures pour l'axe des dates ou des valeurs. Lecture/écriture Double.
 type: docs

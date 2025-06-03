@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nom d'un thème. Chaîne en lecture/écriture.
 type: docs

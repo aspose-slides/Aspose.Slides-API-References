@@ -1,5 +1,5 @@
 ---
-title: УказателиРисования
+title: DrawingGuides
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию указателей рисования. Only-read IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Радиус размытия
+title: BlurRadius
 second_title: Справка по API Aspose.Slides для .NET
 description: Радиус размытия. Свойство только для чтения Double.
 type: docs

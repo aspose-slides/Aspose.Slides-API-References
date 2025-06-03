@@ -1,5 +1,5 @@
 ---
-title: Маркер
+title: Marker
 second_title: Справочник по API Aspose.Slides для .NET
 description: Маркер. Только для чтения IMarker aspose.slides.charts/imarker.
 type: docs

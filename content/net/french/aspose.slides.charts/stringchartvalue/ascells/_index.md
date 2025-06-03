@@ -1,5 +1,5 @@
 ---  
-title: AsCells  
+title: AsCells
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: L'attribution d'une valeur nulle n'est pas autorisée. La valeur retournée n'est jamais nulle. Lecture/écriture IChartCellCollection aspose.slides.charts/ichartcellcollection.
 type: docs  

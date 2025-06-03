@@ -1,5 +1,5 @@
 ---
-title: FormatoDeLineasDeCuadriculaPrincipales
+title: MajorGridLinesFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el formato de líneas de cuadrícula principales en un eje de gráfico. Solo lectura IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs

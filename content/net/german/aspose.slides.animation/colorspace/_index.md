@@ -1,5 +1,5 @@
 ---
-title: Farbraum
+title: ColorSpace
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den Farbraum für das Verhalten von Farbeffekten dar.
 type: docs

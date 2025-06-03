@@ -1,5 +1,5 @@
 ---
-title: 序列
+title: Sequence
 second_title: Aspose.Slides for .NET API 参考
 description: 表示效果的序列集合。
 type: docs

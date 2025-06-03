@@ -1,5 +1,5 @@
 ---
-title: 单元格
+title: Cell
 second_title: Aspose.Slides for .NET API 参考
 description: 表示表格中的一个单元格。
 type: docs

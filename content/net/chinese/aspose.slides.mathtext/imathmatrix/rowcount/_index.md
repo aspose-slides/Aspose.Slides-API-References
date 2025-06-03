@@ -1,5 +1,5 @@
 ---
-title: 行数
+title: RowCount
 second_title: Aspose.Sildes for .NET API 参考
 description: 矩阵中的行数
 type: docs

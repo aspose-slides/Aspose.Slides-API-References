@@ -1,5 +1,5 @@
 ---
-title: 按
+title: By
 second_title: Aspose.Slides for .NET API 参考
 description: 描述动画的相对偏移值（以百分比表示）。可读写 PointF。
 type: docs

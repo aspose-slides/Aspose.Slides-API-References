@@ -1,5 +1,5 @@
 ---
-title: FormatoDeRellenoDeImagen
+title: PictureFillFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el formato de relleno de imagen. Solo lectura IPictureFillFormat aspose.slides/ipicturefillformat.
 type: docs

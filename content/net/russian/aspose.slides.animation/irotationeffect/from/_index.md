@@ -1,5 +1,5 @@
 ---
-title: От
+title: From
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Описывает начальное значение для анимации. Чтение/запись Single.
 type: docs

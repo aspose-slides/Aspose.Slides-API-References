@@ -1,5 +1,5 @@
 ---  
-title: AsIBasePortionFormat  
+title: AsIBasePortionFormat
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die IBasePortionFormat-Schnittstelle zurück. Nur lesbare IBasePortionFormataspose.slides/ibaseportionformat.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Метка
+title: Label
 second_title: Справка по API Aspose.Slides для .NET
 description: Представляет метку данных на уровне точки данных. Применяется для типов серии Treemap и Sunburst. Только для чтения IDataLabelaspose.slides/idatalabel.
 type: docs

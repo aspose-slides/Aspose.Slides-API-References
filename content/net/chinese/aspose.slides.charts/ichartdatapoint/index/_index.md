@@ -1,5 +1,5 @@
 ---
-title: 索引
+title: Index
 second_title: Aspose.Slides for .NET API 参考
 description: 确定该数据点适用于父级的哪个子集合。读取 UInt32。
 type: docs

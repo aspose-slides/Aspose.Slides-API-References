@@ -1,5 +1,5 @@
 ---
-title: FuenteAsiáticaPredeterminada
+title: DefaultAsianFont
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la fuente asiática utilizada en caso de que no se encuentre la fuente de origen. Cadena de lectura y escritura.
 type: docs

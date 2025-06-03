@@ -1,5 +1,5 @@
 ---
-title: 水平轴
+title: HorizontalAxis
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图表的水平轴。 只读 IAxisaspose.slides.charts/iaxis。
 type: docs

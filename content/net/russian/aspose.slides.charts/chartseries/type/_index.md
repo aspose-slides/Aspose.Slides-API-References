@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает тип этой серии. Чтение/запись ChartTypeaspose.slides.charts/charttype.
 type: docs

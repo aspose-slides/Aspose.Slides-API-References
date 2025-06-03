@@ -1,5 +1,5 @@
 ---
-title: ObtenirImage
+title: GetFrame
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtenez l'image pour la position temporelle actuelle précédemment définie avec la méthode SetTimePosition../settimeposition.
 type: docs

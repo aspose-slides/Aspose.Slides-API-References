@@ -1,5 +1,5 @@
 ---
-title: 压缩嵌入字体
+title: CompressEmbeddedFonts
 second_title: Aspose.Slides for .NET API 参考
 description: 通过删除嵌入字体中未使用的字符来压缩 Presentationaspose.slides/../aspose.slides/presentation。
 type: docs

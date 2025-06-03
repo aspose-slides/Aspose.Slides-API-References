@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el ancho de la forma. Lectura/escritura Single.
 type: docs

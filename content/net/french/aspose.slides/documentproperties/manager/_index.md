@@ -1,5 +1,5 @@
 ---
-title: Gestionnaire
+title: Manager
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la propriété gestionnaire. Chaîne en lecture/écriture.
 type: docs

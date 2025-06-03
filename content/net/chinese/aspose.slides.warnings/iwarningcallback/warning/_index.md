@@ -1,5 +1,5 @@
 ---
-title: 警告
+title: Warning
 second_title: Aspose.Slides for .NET API 参考
 description: 接收警告并决定是否应中止操作的回调方法。
 type: docs

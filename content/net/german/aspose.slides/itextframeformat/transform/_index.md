@@ -1,5 +1,5 @@
 ---  
-title: Transform  
+title: Transform
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft die Form der Textumbrüche ab oder legt sie fest. Lese-/Schreibzugriff auf TextShapeTypeaspose.slides/textshapetype.
 type: docs  

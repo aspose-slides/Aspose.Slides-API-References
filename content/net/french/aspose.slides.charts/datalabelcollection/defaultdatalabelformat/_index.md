@@ -1,5 +1,5 @@
 ---
-title: FormatDeLabelDeDonnéesParDéfaut
+title: DefaultDataLabelFormat
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient le format de label de données par défaut. Lecture seule IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs

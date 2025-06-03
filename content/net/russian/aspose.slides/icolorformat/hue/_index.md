@@ -1,5 +1,5 @@
 ---
-title: Оттенок
+title: Hue
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или задает компонент оттенка цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'objet RemplissageFormat qui contient les propriétés de formatage de remplissage pour une forme. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs

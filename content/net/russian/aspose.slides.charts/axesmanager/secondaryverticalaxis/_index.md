@@ -1,5 +1,5 @@
 ---
-title: ВторичнаяВертикальнаяОсь
+title: SecondaryVerticalAxis
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает вторичную вертикальную ось графика. Только для чтения IAxisaspose.slides.charts/iaxis.
 type: docs

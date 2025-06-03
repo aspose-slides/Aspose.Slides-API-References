@@ -1,5 +1,5 @@
 ---
-title: Счет
+title: Count
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает количество поведений в коллекции. Только для чтения Int32.
 type: docs

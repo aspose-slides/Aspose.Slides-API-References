@@ -1,5 +1,5 @@
 ---
-title: Строка
+title: Row
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет строку в таблице.
 type: docs

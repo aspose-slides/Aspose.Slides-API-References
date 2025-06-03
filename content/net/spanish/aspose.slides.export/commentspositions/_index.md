@@ -1,5 +1,5 @@
 ---
-title: ComentariosPosiciones
+title: CommentsPositions
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la regla para renderizar comentarios en el documento exportado
 type: docs

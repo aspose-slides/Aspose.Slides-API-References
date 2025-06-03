@@ -1,5 +1,5 @@
 ---
-title: 表格格式
+title: TableFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含该表格格式属性的 TableFormat 对象。只读 ITableFormat aspose.slides/itableformat。
 type: docs

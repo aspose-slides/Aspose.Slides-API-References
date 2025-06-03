@@ -1,5 +1,5 @@
 ---
-title: Borrar
+title: Clear
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Elimina todos los elementos de la colección.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 字体回退规则集合
+title: FontFallBackRulesCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示用户定义的字体回退规则的集合
 type: docs

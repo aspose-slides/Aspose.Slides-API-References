@@ -1,5 +1,5 @@
 ---
-title: 周期
+title: Period
 second_title: Aspose.Slides for .NET API 参考
 description: 指定移动平均趋势线的趋势线周期。对其他趋势线变体忽略。值必须在 2 到 255 之间。可读写字节。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Presentación
+title: Presentation
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve la presentación principal de una diapositiva. Solo lectura IPresentationaspose.slides/ipresentation.
 type: docs

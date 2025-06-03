@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справка по API Aspose.Sildes для .NET
 description: Удаляет все подписи из коллекции.
 type: docs

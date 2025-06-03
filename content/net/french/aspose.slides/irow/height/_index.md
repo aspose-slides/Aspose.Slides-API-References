@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la hauteur d'une ligne. Lecture seule Double.
 type: docs

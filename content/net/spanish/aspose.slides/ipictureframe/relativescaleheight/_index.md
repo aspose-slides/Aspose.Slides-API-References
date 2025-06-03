@@ -1,5 +1,5 @@
 ---
-title: EscalaAlturaRelativa
+title: RelativeScaleHeight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la escala de altura en relación con el tamaño original de la imagen del marco de la imagen. El valor 1.0 corresponde a 100. Lectura/escritura Single.
 type: docs

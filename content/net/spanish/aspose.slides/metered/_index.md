@@ -1,5 +1,5 @@
 ---
-title: Medido
+title: Metered
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Proporciona métodos para establecer clave medida.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Einfach
+title: Simple
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt Einstellungen für die einfachste und kleinste SVG-Dateigenerierung zurück. Nur-lesbare SVGOptionsaspose.slides.export/svgoptions.
 type: docs

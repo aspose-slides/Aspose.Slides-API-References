@@ -1,5 +1,5 @@
 ---
-title: 合并单元格
+title: MergeCells
 second_title: Aspose.Slides for .NET API 参考
 description: 合并相邻的单元格。
 type: docs

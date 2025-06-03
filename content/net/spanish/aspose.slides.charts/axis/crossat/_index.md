@@ -1,5 +1,5 @@
 ---  
-title: CrossAt  
+title: CrossAt
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Representa el punto en el eje donde el eje perpendicular lo cruza. Lectura/escritura Single.
 type: docs  

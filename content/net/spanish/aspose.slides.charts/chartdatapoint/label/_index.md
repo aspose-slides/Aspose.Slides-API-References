@@ -1,5 +1,5 @@
 ---
-title: Etiqueta
+title: Label
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Etiqueta. Solo lectura IDataLabelaspose.slides/idatalabel.
 type: docs

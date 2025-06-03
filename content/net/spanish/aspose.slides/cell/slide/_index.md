@@ -1,5 +1,5 @@
 ---
-title: Diapositiva
+title: Slide
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la diapositiva principal de una celda. Solo lectura IBaseSlideaspose.slides/ibaseslide.
 type: docs

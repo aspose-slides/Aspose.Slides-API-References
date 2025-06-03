@@ -1,5 +1,5 @@
 ---
-title: 设置页脚可见性
+title: SetFooterVisibility
 second_title: Aspose.Sildes for .NET API 参考
 description: 修改幻灯片页脚占位符的可见性。
 type: docs

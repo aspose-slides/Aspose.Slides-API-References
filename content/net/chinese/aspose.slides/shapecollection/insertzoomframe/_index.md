@@ -1,5 +1,5 @@
 ---
-title: 插入缩放框
+title: InsertZoomFrame
 second_title: Aspose.Sildes for .NET API 参考
 description: 创建一个新的缩放对象并将其插入到指定索引的集合中。
 type: docs

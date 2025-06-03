@@ -1,5 +1,5 @@
 ---
-title: 插入嵌入音频框
+title: InsertAudioFrameEmbedded
 second_title: Aspose.Slides for .NET API参考
 description: 插入一个带有嵌入音频文件的音频框。嵌入的音频文件声音只能是WAV格式。
 type: docs

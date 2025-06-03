@@ -1,5 +1,5 @@
 ---
-title: ColecciónDeReglasDeUsoDeFuentes
+title: FontFallBackRulesCollection
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una colección de reglas de uso de fuentes definidas por el usuario
 type: docs

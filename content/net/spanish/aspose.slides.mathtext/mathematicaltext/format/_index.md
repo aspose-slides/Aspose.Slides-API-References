@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia API de Aspose.Slides para .NET
 description: Propiedades de formato de texto
 type: docs

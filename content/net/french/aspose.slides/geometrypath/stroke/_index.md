@@ -1,5 +1,5 @@
 ---
-title: Trait
+title: Stroke
 second_title: Référence API Aspose.Slides pour .NET
 description: Définit l'apparence du trait
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Füllformat
+title: FillFormat
 second_title: Aspose.Slides für .NET API-Referenz
 description: Füllformat. Nur lesbares IFillFormataspose.slides/ifillformat.
 type: docs

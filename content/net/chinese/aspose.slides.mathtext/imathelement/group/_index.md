@@ -1,5 +1,5 @@
 ---
-title: 组
+title: Group
 second_title: Aspose.Slides for .NET API 参考
 description: 使用底部大括号将此元素放入组中
 type: docs

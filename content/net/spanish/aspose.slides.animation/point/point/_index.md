@@ -1,5 +1,5 @@
 ---
-title: Punto
+title: Point
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Constructor predeterminado.
 type: docs

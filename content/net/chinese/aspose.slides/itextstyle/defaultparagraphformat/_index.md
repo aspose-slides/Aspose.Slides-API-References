@@ -1,5 +1,5 @@
 ---
-title: 默认段落格式
+title: DefaultParagraphFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 默认段落属性。只读 IParagraphFormat aspose.slides/iparagraphformat。
 type: docs

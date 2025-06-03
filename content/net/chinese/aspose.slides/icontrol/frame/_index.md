@@ -1,5 +1,5 @@
 ---
-title: 框架
+title: Frame
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置控件的框架。可读/可写 IShapeFrameaspose.slides/ishapeframe。
 type: docs

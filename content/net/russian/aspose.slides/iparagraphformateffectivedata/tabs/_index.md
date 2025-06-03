@@ -1,5 +1,5 @@
 ---
-title: Вкладки
+title: Tabs
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает табуляции абзаца. Только для чтения ITabEffectiveDataaspose.slides/itabeffectivedata.
 type: docs

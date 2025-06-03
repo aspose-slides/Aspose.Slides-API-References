@@ -1,5 +1,5 @@
 ---
-title: Párrafos
+title: Paragraphs
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve la lista de todos los párrafos en un marco. Solo lectura IParagraphCollection aspose.slides/iparagraphcollection.
 type: docs

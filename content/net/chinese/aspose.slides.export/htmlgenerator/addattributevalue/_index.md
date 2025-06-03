@@ -1,5 +1,5 @@
 ---
-title: 添加属性值
+title: AddAttributeValue
 second_title: Aspose.Slides for .NET API 参考
 description: 引号属性值并将其添加到 HTML 文件中。
 type: docs

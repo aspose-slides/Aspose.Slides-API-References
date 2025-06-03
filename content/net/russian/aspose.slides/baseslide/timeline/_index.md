@@ -1,5 +1,5 @@
 ---
-title: Хронология
+title: Timeline
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает объект временной шкалы анимации. Только для чтения IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs

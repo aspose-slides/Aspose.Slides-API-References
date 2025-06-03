@@ -1,5 +1,5 @@
 ---
-title: 类别
+title: Category
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的类别。可读写字符串。
 type: docs

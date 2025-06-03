@@ -1,5 +1,5 @@
 ---
-title: 多媒体剪辑
+title: MultimediaClips
 second_title: Aspose.Slides for .NET API 参考
 description: 指定文档中存在的声音或视频剪辑的总数。只读 Int32。
 type: docs

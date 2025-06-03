@@ -1,5 +1,5 @@
 ---
-title: Argumente
+title: Arguments
 second_title: Aspose.Slides für .NET API Referenz
 description: Eins oder mehrere mathematische Elemente, die durch Trennzeichen getrennt sind
 type: docs

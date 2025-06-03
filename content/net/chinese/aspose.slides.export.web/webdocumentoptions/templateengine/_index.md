@@ -1,5 +1,5 @@
 ---
-title: 模板引擎
+title: TemplateEngine
 second_title: Aspose.Slides for .NET API参考
 description: 返回或设置模板引擎。读/写 ITemplateEngineaspose.slides.export.web/itemplateengine。
 type: docs

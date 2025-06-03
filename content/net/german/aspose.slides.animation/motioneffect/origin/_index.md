@@ -1,5 +1,5 @@
 ---
-title: Ursprung
+title: Origin
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, was der Ursprung des Bewegungspfads relativ zu ist, wie z.B. das Layout der Folie oder das übergeordnete Element. Lese-/Schreibzugriff auf MotionOriginTypeaspose.slides.animation/motionorigintype.
 type: docs

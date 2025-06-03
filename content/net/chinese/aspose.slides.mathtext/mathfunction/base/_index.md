@@ -1,5 +1,5 @@
 ---
-title: 基础
+title: Base
 second_title: Aspose.Sildes for .NET API 参考
 description: 函数参数
 type: docs

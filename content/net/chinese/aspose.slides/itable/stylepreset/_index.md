@@ -1,5 +1,5 @@
 ---
-title: 样式预设
+title: StylePreset
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置内置表格样式。读写 TableStylePreset aspose.slides/tablestylepreset。
 type: docs

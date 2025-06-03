@@ -1,5 +1,5 @@
 ---
-title: Marco
+title: Frame
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el marco de controles. Lectura/escritura IShapeFrameaspose.slides/ishapeframe.
 type: docs

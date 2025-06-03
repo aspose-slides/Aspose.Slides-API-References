@@ -1,5 +1,5 @@
 ---
-title: 超链接基础
+title: HyperlinkBase
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置 HyperlinkBase 文档属性。可读/写字符串。
 type: docs

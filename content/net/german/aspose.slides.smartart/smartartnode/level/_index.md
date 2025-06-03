@@ -1,5 +1,5 @@
 ---
-title: Ebene
+title: Level
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Verschachtelungsebene des Knotens zurück. Schreibgeschützter Int32.
 type: docs

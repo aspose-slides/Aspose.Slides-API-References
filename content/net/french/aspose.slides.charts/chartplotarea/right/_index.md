@@ -1,5 +1,5 @@
 ---
-title: Droit
+title: Right
 second_title: Référence API Aspose.Slides pour .NET
 description: Droit. Lecture seule Simple.
 type: docs

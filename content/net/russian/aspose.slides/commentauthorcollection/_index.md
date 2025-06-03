@@ -1,5 +1,5 @@
 ---
-title: КоллекцияАвторовКомментариев
+title: CommentAuthorCollection
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет коллекцию авторов комментариев.
 type: docs

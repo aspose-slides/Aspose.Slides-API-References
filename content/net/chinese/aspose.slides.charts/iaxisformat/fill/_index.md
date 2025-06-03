@@ -1,5 +1,5 @@
 ---
-title: 填充
+title: Fill
 second_title: Aspose.Slides for .NET API 参考
 description: 返回轴的填充样式属性。仅用于读取 IFillFormataspose.slides/../aspose.slides/ifillformat。
 type: docs

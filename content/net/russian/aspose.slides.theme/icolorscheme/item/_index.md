@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slidеs для .NET
 description: Получает элемент по указанному индексу. Доступ только для чтения IColorFormataspose.slides/icolorformat.
 type: docs

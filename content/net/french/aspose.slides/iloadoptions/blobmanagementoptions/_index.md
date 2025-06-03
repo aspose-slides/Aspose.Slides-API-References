@@ -1,5 +1,5 @@
 ---  
-title: BlobManagementOptions  
+title: BlobManagementOptions
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente les options qui peuvent être utilisées pour gérer le comportement de traitement des Objets Binaires Larges BLOBs, tels que l'utilisation de fichiers temporaires ou le nombre maximal d'octets de BLOB en mémoire. Ces options visent à établir le meilleur ratio performance/consommation de mémoire pour un environnement ou des exigences particuliers. Un Objet Binaire Large BLOB est une donnée binaire stockée comme une seule entité - c'est-à-dire qu'un BLOB peut être un audio, une vidéo ou la présentation elle-même.
 type: docs  

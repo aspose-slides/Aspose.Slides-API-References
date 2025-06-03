@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет имя ссылки на проект VBA. Читаемый/записываемый String.
 type: docs

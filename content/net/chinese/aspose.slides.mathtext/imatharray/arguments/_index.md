@@ -1,5 +1,5 @@
 ---
-title: 参数
+title: Arguments
 second_title: Aspose.Slides for .NET API 参考
 description: 数组的项集合
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Ячейка
+title: Cell
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет ячейку таблицы.
 type: docs

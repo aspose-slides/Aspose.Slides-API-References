@@ -1,5 +1,5 @@
 ---
-title: От
+title: From
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает начальное значение для анимации. Для чтения/записи Single.
 type: docs

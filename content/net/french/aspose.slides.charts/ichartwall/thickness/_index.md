@@ -1,5 +1,5 @@
 ---
-title: Épaisseur
+title: Thickness
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit l'épaisseur des murs en tant que pourcentage de la plus grande dimension du volume de tracé. Lecture/écriture Int32.
 type: docs

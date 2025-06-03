@@ -1,5 +1,5 @@
 ---
-title: ИменаСвойств
+title: NamesOfProperties
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает коллекцию имен свойств. Только для чтения ICollection.
 type: docs

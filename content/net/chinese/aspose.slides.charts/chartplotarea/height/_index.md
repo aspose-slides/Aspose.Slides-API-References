@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置绘图区边界框的高度，作为图表高度的一个比例，范围从 0 到 1。可读写单精度浮点数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 右
+title: Right
 second_title: Aspose.Sildes for .NET API 参考
 description: 右。只读单精度浮点数。
 type: docs

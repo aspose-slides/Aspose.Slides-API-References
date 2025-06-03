@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft den Typ der Fehlerbalken ab oder legt ihn fest. Lese-/Schreibzugriff auf ErrorBarTypeaspose.slides.charts/errorbartype.
 type: docs

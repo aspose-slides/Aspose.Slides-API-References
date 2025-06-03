@@ -1,5 +1,5 @@
 ---
-title: Cronología
+title: Timeline
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el objeto de cronología de animación. Solo lectura IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs

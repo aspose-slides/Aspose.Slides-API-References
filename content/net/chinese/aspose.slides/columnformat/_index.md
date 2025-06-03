@@ -1,5 +1,5 @@
 ---
-title: 列格式
+title: ColumnFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 表示表格列的格式。
 type: docs

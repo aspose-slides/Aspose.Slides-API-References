@@ -1,5 +1,5 @@
 ---
-title: Alignement
+title: Alignment
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'alignement des lignes. Propriété en lecture seule LineAlignmentaspose.slides/linealignment.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ИсходныйКод
+title: SourceCode
 second_title: Aspose.Slides для .NET API Справочник
 description: Исходный код модуля. Чтение/запись Строка.
 type: docs

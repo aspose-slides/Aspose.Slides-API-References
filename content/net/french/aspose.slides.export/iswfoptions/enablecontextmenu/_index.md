@@ -1,5 +1,5 @@
 ---
-title: ActiverMenuContextuel
+title: EnableContextMenu
 second_title: Référence API Aspose.Sildes pour .NET
 description: Activer/désactiver le menu contextuel. Par défaut, c'est vrai.
 type: docs

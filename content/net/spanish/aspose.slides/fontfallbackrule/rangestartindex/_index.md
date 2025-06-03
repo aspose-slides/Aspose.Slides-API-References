@@ -1,5 +1,5 @@
 ---
-title: ÍndiceDeInicioDeRango
+title: RangeStartIndex
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el primer índice de un rango unicode continuo.
 type: docs

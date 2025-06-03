@@ -1,5 +1,5 @@
 ---
-title: 在指定行之后插入行
+title: InsertRowAfter
 second_title: Aspose.Slides for .NET API 参考
 description: 在指定行之后插入一新行，初始时新行中的所有元素均为 null。
 type: docs

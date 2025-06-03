@@ -1,5 +1,5 @@
 ---
-title: 文本框
+title: TextFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置节点的文本。只读 ITextFrame aspose.slides/itextframe。
 type: docs

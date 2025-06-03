@@ -1,5 +1,5 @@
 ---  
-title: IFontsManager  
+title: IFontsManager
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Administra fuentes a través de la presentación.
 type: docs  

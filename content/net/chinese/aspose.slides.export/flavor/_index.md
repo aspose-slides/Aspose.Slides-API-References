@@ -1,5 +1,5 @@
 ---
-title: 风格
+title: Flavor
 second_title: Aspose.Sildes for .NET API 参考
 description: 程序中使用的所有 markdown 规范。
 type: docs

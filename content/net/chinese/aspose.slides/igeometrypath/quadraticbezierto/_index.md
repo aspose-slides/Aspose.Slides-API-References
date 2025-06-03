@@ -1,5 +1,5 @@
 ---
-title: 二次贝塞尔曲线
+title: QuadraticBezierTo
 second_title: Aspose.Slides for .NET API 参考
 description: 在路径末尾添加二次贝塞尔曲线
 type: docs

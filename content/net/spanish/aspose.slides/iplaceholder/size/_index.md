@@ -1,5 +1,5 @@
 ---
-title: Tamaño
+title: Size
 second_title: Referencia API de Aspose.Slides para .NET
 description: Obtiene el tamaño de un marcador de posición. Solo lectura PlaceholderSizeaspose.slides/placeholdersize.
 type: docs

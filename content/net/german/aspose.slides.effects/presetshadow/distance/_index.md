@@ -1,5 +1,5 @@
 ---
-title: Distanz
+title: Distance
 second_title: Aspose.Slides für .NET API-Referenz
 description: Distanz des Schattens. Schreib-/lesbarer Double.
 type: docs

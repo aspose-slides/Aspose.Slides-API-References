@@ -1,5 +1,5 @@
 ---
-title: 超链接点击
+title: HyperlinkClick
 second_title: Aspose.Slides for .NET API 参考
 description: 返回为鼠标点击定义的超链接. 仅供读取 IHyperlinkaspose.slides/ihyperlink.
 type: docs

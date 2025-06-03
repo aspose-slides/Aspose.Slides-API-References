@@ -1,5 +1,5 @@
 ---
-title: StyleDePointNuméroté
+title: NumberedBulletStyle
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le style d'un point numéroté sans héritage. Lecture/écriture NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs

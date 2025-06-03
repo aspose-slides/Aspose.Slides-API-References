@@ -1,5 +1,5 @@
 ---
-title: Colección de Imágenes
+title: ImageCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la colección de PPImage.
 type: docs

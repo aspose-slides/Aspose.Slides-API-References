@@ -1,5 +1,5 @@
 ---
-title: VerPropiedades
+title: ViewProperties
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene propiedades de vista en toda la presentación. Solo lectura IViewPropertiesaspose.slides/iviewproperties.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 列跨度
+title: ColSpan
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回当前单元格将在父表的表网格中跨越的网格列的数量。此属性允许单元格具有合并的外观，因为它们跨越表中其他单元格的垂直边界。只读 Int32。
 type: docs

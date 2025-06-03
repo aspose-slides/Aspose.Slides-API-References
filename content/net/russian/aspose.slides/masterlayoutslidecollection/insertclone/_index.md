@@ -1,5 +1,5 @@
 ---  
-title: InsertClone  
+title: InsertClone
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Вставляет копию указанного слайда макета в заданную позицию коллекции.
 type: docs  

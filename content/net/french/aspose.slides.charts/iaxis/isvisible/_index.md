@@ -1,5 +1,5 @@
 ---
-title: EstVisible
+title: IsVisible
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente si l'axe est visible. Booléen en lecture/écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Cantidad
+title: Amount
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una cantidad de efecto en porcentajes. Lectura/escritura Single.
 type: docs

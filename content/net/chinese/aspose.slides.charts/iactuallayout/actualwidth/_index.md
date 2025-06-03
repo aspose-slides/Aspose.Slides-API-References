@@ -1,5 +1,5 @@
 ---
-title: 实际宽度
+title: ActualWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 指定图表元素的实际宽度。请在获取实际值之前调用 IChart.ValidateChartLayout 方法。阅读单个值。
 type: docs

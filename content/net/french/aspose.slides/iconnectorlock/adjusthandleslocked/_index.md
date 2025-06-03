@@ -1,5 +1,5 @@
 ---
-title: AjusterLesPoignéesVerrouillées
+title: AdjustHandlesLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture.
 type: docs

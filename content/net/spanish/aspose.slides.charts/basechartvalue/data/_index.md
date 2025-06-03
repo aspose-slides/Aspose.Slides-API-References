@@ -1,5 +1,5 @@
 ---
-title: Datos
+title: Data
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Datos. Objeto de lectura/escritura.
 type: docs

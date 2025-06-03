@@ -1,5 +1,5 @@
 ---
-title: 图片
+title: Images
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿中所有图像的集合。只读 IImageCollection aspose.slides/iimagecollection。
 type: docs

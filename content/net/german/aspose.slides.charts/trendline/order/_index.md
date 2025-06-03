@@ -1,5 +1,5 @@
 ---
-title: Reihenfolge
+title: Order
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Reihenfolge der polynomialen Trendlinie an. Sie wird für andere Trendlinientypen ignoriert. Der Wert muss zwischen 2 und 6 liegen. Lese-/Schreib-Byte.
 type: docs

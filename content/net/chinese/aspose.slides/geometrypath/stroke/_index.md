@@ -1,5 +1,5 @@
 ---
-title: 描边
+title: Stroke
 second_title: Aspose.Slides for .NET API 参考
 description: 设置描边外观
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 包含
+title: Contains
 second_title: Aspose.Sildes for .NET API 参考
 description: 确定 ICollection 是否包含特定值。
 type: docs

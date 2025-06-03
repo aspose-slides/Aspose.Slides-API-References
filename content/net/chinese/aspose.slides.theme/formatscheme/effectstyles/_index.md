@@ -1,5 +1,5 @@
 ---
-title: 效果样式
+title: EffectStyles
 second_title: Aspose.Slides for .NET API 参考
 description: 返回主题定义的效果样式集合。只读 IEffectStyleCollection。
 type: docs

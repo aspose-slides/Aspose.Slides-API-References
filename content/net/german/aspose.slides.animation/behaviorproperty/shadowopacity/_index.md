@@ -1,5 +1,5 @@
 ---
-title: Schattenopacity
+title: ShadowOpacity
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaft shadow.opacity dar
 type: docs

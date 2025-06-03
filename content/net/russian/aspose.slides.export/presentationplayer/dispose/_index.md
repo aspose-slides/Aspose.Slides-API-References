@@ -1,5 +1,5 @@
 ---
-title: Освобождение
+title: Dispose
 second_title: Справочная документация по Aspose.Slides для .NET
 description: Освобождает экземпляр PresentationPlayer aspose.slides.export/presentationplayer.
 type: docs

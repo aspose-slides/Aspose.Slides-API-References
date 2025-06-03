@@ -1,5 +1,5 @@
 ---
-title: 应用外部主题到相关幻灯片
+title: ApplyExternalThemeToDependingSlides
 second_title: Aspose.Slides for .NET API 参考
 description: 基于当前母版幻灯片创建一个新的母版幻灯片，并将外部主题应用于其上，并将创建的母版幻灯片应用于所有依赖幻灯片。
 type: docs

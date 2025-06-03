@@ -1,5 +1,5 @@
 ---
-title: Данные
+title: Data
 second_title: Справочник по API Aspose.Slides для .NET
 description: Чтение/запись объекта.
 type: docs

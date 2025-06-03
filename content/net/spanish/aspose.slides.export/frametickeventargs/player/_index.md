@@ -1,5 +1,5 @@
 ---
-title: Reproductor
+title: Player
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtén el reproductor de presentaciones
 type: docs

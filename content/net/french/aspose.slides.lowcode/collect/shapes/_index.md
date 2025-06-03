@@ -1,5 +1,5 @@
 ---
-title: Formes
+title: Shapes
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Rassemble toutes les instances de Shapeaspose.slides/shape dans la Présentationaspose.slides/presentation.
 type: docs

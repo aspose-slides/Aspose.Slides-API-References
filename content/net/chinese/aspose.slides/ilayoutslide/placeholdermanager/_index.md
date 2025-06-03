@@ -1,5 +1,5 @@
 ---
-title: 占位符管理器
+title: PlaceholderManager
 second_title: Aspose.Slides for .NET API 参考
 description: 返回布局幻灯片的占位符管理器。只读 ILayoutPlaceholderManager。
 type: docs

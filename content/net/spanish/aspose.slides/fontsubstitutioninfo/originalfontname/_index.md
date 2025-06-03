@@ -1,5 +1,5 @@
 ---  
-title: OriginalFontName  
+title: OriginalFontName
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Indica el nombre de la fuente original en la presentación. Solo lectura String
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: ObtenirPlage
+title: GetRange
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la plage de données du graphique.
 type: docs

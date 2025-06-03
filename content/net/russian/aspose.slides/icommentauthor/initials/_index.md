@@ -1,5 +1,5 @@
 ---
-title: Инициалы
+title: Initials
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает инициалы авторов. Читаемая/записываемая строка.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Пресет
+title: Preset
 second_title: Справочник API Aspose.Slides для .NET
 description: Пресет. Свойство только для чтения PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs

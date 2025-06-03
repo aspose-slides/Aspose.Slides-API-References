@@ -1,5 +1,5 @@
 ---
-title: 创建预设阴影
+title: CreatePresetShadow
 second_title: Aspose.Slides for .NET API 参考
 description: 创建预设阴影效果。
 type: docs

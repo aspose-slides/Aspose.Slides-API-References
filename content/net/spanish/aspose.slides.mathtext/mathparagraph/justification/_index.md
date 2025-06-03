@@ -1,5 +1,5 @@
 ---
-title: Justificación
+title: Justification
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Justificación de párrafo Valor predeterminado CentradoComoGrupo
 type: docs

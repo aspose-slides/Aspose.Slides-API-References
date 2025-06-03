@@ -1,5 +1,5 @@
 ---  
-title: ShowBottomPane  
+title: ShowBottomPane
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Mostrar/ocultar el panel inferior. Se puede sobrescribir en flashvars. El valor predeterminado es verdadero.
 type: docs  

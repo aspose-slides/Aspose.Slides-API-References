@@ -1,5 +1,5 @@
 ---
-title: 由
+title: By
 second_title: Aspose.Sildes for .NET API 参考
 description: 描述颜色动画的相对偏移值。可读/可写 IColorOffsetaspose.slides/icoloroffset。
 type: docs

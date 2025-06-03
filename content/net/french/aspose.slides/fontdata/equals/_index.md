@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine si deux instances de FontData sont égales.
 type: docs

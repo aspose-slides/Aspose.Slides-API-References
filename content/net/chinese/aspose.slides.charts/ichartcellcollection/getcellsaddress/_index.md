@@ -1,5 +1,5 @@
 ---
-title: 获取单元格地址
+title: GetCellsAddress
 second_title: Aspose.Slides for .NET API 参考
 description: 返回工作簿中一组单元格的地址。
 type: docs

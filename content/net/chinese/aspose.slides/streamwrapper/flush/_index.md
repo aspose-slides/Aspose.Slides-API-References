@@ -1,5 +1,5 @@
 ---
-title: 刷新
+title: Flush
 second_title: Aspose.Slides for .NET API 参考
 description: 清除此流的所有缓冲区，并导致任何缓冲的数据写入基础设备。
 type: docs

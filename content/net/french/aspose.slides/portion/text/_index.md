@@ -1,5 +1,5 @@
 ---
-title: Texte
+title: Text
 second_title: Aspose.Slides pour .NET Référence API
 description: Obtient ou définit le texte brut d'une portion. Lecture/écriture String.
 type: docs

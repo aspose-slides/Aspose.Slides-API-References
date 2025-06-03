@@ -1,5 +1,5 @@
 ---
-title: 按高度分割
+title: SplitByHeight
 second_title: Aspose.Slides for .NET API 参考
 description: 按高度分割单元格。
 type: docs

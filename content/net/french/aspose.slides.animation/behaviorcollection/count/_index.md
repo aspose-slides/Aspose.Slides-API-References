@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne le nombre de comportements dans une collection. En lecture seule Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 添加自动形状
+title: AddAutoShape
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的自动形状，基于默认模板进行调整，并将其添加到集合的末尾。
 type: docs

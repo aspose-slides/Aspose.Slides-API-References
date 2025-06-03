@@ -1,5 +1,5 @@
 ---
-title: Cacher
+title: Hide
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si l'entrée de légende est cachée. Booléen en lecture/écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Guardar
+title: Save
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Guarda diapositivas específicas de una presentación en un archivo con el formato especificado manteniendo el número de página.
 type: docs

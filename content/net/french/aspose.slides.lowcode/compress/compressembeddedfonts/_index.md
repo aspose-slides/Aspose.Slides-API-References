@@ -1,5 +1,5 @@
 ---
-title: CompresserLesPolicesIntégrées
+title: CompressEmbeddedFonts
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Réalise la compression de la Presentationaspose.slides/../aspose.slides/presentation en supprimant les caractères inutilisés des polices intégrées.
 type: docs

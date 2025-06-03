@@ -1,5 +1,5 @@
 ---
-title: FuncionesMatemáticasDeDosArgumentos
+title: MathFunctionsOfTwoArguments
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Funciones matemáticas comunes de dos argumentos
 type: docs

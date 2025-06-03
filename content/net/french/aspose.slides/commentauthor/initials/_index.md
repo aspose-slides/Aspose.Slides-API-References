@@ -1,5 +1,5 @@
 ---
-title: Initiales
+title: Initials
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit les initiales des auteurs. Chaîne en lecture/écriture.
 type: docs

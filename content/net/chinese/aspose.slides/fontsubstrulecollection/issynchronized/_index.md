@@ -1,5 +1,5 @@
 ---
-title: 是否同步
+title: IsSynchronized
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回一个值，指示对集合的访问是否是同步线程安全的。只读布尔值。
 type: docs

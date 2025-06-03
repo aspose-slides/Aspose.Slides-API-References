@@ -1,5 +1,5 @@
 ---
-title: InvertirSiNegativo
+title: InvertIfNegative
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica que el punto de datos invertirá sus colores si el valor es negativo. Booleano de lectura/escritura.
 type: docs

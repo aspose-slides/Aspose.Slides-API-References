@@ -1,5 +1,5 @@
 ---
-title: Perspectiva
+title: Perspective
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el valor de perspectiva ángulo de campo de visión para gráficos 3D entre 0 y 100. Se ignora si el valor de la propiedad RightAngleAxes es verdadero. Lectura/escritura Byte.
 type: docs

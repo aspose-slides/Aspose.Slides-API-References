@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Zelle an den angegebenen Spalten- und Zeilenindizes zurück. Nur lesen ICellaspose.slides/icell.
 type: docs

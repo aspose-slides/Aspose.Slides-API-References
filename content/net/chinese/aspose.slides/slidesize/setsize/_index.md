@@ -1,5 +1,5 @@
 ---
-title: 设置大小
+title: SetSize
 second_title: Aspose.Sildes for .NET API 参考
 description: 设置幻灯片大小类型并使用缩放类型缩放内容。赋值为非自定义的任何值都会相应地更改Sizeaspose.slides/slidesize/size，但会保持Orientationaspose.slides/slidesize/orientation不变。
 type: docs

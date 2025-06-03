@@ -1,5 +1,5 @@
 ---
-title: График
+title: Chart
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает родительский график. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs

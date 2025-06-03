@@ -1,5 +1,5 @@
 ---
-title: 获取行数
+title: GetLinesCount
 second_title: Aspose.Slides for .NET API 参考
 description: 获取段落中的行数。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: CheminDeMouvement  
+title: MotionPath
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente le chemin de mouvement.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 VBA 项目引用的名称。可读写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 字体高度
+title: FontHeight
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回部分的字体高度。只读 Single。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Efecto de Borde Suave
+title: SoftEdgeEffect
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Borde suave. Solo lectura ISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata.
 type: docs

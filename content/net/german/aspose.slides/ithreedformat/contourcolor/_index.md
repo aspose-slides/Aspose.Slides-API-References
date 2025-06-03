@@ -1,5 +1,5 @@
 ---
-title: ContourFarbe
+title: ContourColor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Farbe eines Konturs zurück oder setzt sie. Lesezugriff IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справочник по API Aspose.Silides для .NET
 description: Представляет формат погрешностей. Читаемый/записываемый IFormataspose.slides/iformat.
 type: docs

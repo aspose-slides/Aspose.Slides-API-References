@@ -1,5 +1,5 @@
 ---
-title: Право
+title: Right
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает право элемента диаграммы как дробь от ширины диаграммы. Только для чтения Single.
 type: docs

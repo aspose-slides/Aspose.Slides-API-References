@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает имя. Свойство только для чтения типа String.
 type: docs

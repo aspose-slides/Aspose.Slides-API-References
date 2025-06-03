@@ -1,5 +1,5 @@
 ---
-title: EsSoloLectura
+title: IsReadOnly
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene un valor que indica si ICollection es de solo lectura. Booleano de solo lectura.
 type: docs

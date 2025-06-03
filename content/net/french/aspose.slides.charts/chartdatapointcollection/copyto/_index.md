@@ -1,5 +1,5 @@
 ---
-title: CopierVers
+title: CopyTo
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Copier vers un tableau spécifié.
 type: docs

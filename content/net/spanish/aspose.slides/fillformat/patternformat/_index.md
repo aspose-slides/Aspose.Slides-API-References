@@ -1,5 +1,5 @@
 ---
-title: FormatoPatrón
+title: PatternFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el formato de relleno por patrón. Solo lectura IPatternFormataspose.slides/ipatternformat.
 type: docs

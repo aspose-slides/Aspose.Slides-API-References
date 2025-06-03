@@ -1,5 +1,5 @@
 ---
-title: AjouterUnEspaceDeTexteVertical
+title: AddVerticalTextPlaceholder
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute une nouvelle forme de remplacement à la diapositive de mise en page pour contenir le contenu textuel dans une direction verticale.
 type: docs

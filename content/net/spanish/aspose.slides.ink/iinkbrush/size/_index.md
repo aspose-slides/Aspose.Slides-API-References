@@ -1,5 +1,5 @@
 ---
-title: Tamaño
+title: Size
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene o establece el tamaño del pincel para una línea en puntos.
 type: docs

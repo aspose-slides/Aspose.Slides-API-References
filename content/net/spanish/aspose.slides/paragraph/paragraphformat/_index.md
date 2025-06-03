@@ -1,5 +1,5 @@
 ---
-title: FormatoDePárrafo
+title: ParagraphFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto de formato para este párrafo. Solo lectura IParagraphFormat aspose.slides/iparagraphformat.
 type: docs

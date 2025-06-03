@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает метку данных для точки данных с указанным индексом.
 type: docs

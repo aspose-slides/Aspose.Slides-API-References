@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le ColorChangeaspose.slides/colorchange spécifié est égal au ColorChangeaspose.slides/colorchange actuel.
 type: docs

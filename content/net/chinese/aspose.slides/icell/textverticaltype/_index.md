@@ -1,5 +1,5 @@
 ---
-title: 文本垂直类型
+title: TextVerticalType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置垂直文本的类型。可读可写 TextVerticalType aspose.slides/textverticaltype。
 type: docs

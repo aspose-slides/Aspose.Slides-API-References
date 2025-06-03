@@ -1,5 +1,5 @@
 ---
-title: 反射方向
+title: Direction
 second_title: Aspose.Slides for .NET API 参考
 description: 反射的方向。只读单精度浮点数。
 type: docs

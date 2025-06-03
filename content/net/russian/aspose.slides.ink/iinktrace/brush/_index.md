@@ -1,5 +1,5 @@
 ---
-title: Кисть
+title: Brush
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Получает кисть для IInkLine IInkBrushaspose.slides/iinkbrush Только для чтения.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TypeDeSupport
+title: HandoutType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie combien de diapositives et dans quel ordre seront placées sur la page.
 type: docs

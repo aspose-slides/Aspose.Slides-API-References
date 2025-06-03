@@ -1,5 +1,5 @@
 ---
-title: EliminarÁreasRecortadasDeImagen
+title: DeletePictureCroppedAreas
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Eliminar áreas recortadas de la imagen de relleno.
 type: docs

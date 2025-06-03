@@ -1,5 +1,5 @@
 ---
-title: Titel
+title: Title
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Titel einer Präsentation zurück oder setzt ihn. Lese-/Schreib-String.
 type: docs

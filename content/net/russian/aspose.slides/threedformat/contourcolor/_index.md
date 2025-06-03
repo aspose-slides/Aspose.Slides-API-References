@@ -1,5 +1,5 @@
 ---
-title: КонтурЦвет
+title: ContourColor
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает цвет контура. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Замедление
+title: Decelerate
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает процентное соотношение эффекта замедления поведения по времени. Чтение/запись Single.
 type: docs

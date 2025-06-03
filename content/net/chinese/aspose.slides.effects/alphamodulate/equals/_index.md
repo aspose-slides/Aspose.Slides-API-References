@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 确定指定的 AlphaModulateaspose.slides.effects/alphamodulate 是否等于当前的 AlphaModulateaspose.slides.effects/alphamodulate。
 type: docs

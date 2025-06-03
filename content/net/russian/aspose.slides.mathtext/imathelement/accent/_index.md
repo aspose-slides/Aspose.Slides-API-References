@@ -1,5 +1,5 @@
 ---
-title: Акцент
+title: Accent
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Устанавливает акцентный знак символ на верхней части этого элемента
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 限制
+title: Limit
 second_title: Aspose.Sildes for .NET API 参考
 description: 限制参数
 type: docs

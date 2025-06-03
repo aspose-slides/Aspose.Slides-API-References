@@ -1,5 +1,5 @@
 ---
-title: Cacher
+title: Hide
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Rendre l'étiquette de données cachée en réglant tous les drapeaux Show-flags ShowValue ... sur l'état faux. IsVisible sera faux après cela.
 type: docs

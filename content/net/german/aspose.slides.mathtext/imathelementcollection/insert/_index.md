@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt ein Mathe-Element an der angegebenen Indexstelle in die Sammlung ein.
 type: docs

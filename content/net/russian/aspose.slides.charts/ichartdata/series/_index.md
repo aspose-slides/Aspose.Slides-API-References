@@ -1,5 +1,5 @@
 ---
-title: Серия
+title: Series
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Получает серию. Только для чтения IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs

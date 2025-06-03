@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или задает ширину рамки области построения в виде доли ширины графика от 0 до 1. Чтение/запись Single.
 type: docs

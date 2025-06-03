@@ -1,5 +1,5 @@
 ---
-title: Paragraphes
+title: Paragraphs
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nombre total de paragraphes trouvés dans un document si applicable. Lecture seule Int32.
 type: docs

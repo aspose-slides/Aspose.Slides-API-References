@@ -1,5 +1,5 @@
 ---
-title: Efecto de RellenoOverlay
+title: FillOverlayEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Efecto de superposición de relleno. Leer/escribir IFillOverlay aspose.slides.effects/ifilloverlay.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 数学部分
+title: MathPortion
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个包含数学上下文的部分。
 type: docs

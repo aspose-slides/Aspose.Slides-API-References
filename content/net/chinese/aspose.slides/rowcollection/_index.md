@@ -1,5 +1,5 @@
 ---
-title: 行集合
+title: RowCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示表格行集合。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Aspose.Slides для .NET API Справочник
 description: Представляет формат метки данных. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs

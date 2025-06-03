@@ -1,5 +1,5 @@
 ---
-title: 仅加载文档属性
+title: OnlyLoadDocumentProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 该属性在演示文稿文件受到密码保护时才有意义。值为 true 表示只需从加密的演示文稿文件中加载文档属性，而应忽略密码。值为 false 表示必须使用正确的密码加载整个加密的演示文稿。如果演示文稿未加密，则属性值始终会被忽略。如果加密文件的文档属性不是公共的，并且属性值为 true，则无法加载文档属性，并将抛出异常。可读可写布尔值。
 type: docs

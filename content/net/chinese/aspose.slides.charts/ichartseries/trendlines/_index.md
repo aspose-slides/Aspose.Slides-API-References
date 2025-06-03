@@ -1,5 +1,5 @@
 ---
-title: 趋势线
+title: TrendLines
 second_title: Aspose.Slides for .NET API 参考
 description: 系列趋势线的集合 只读 ITrendlineCollectionaspose.slides/itrendlinecollection.
 type: docs

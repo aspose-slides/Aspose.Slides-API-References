@@ -1,5 +1,5 @@
 ---
-title: 移除嵌入字体
+title: RemoveEmbeddedFont
 second_title: Aspose.Sildes for .NET API 参考
 description: 移除嵌入的字体
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Surbarre
+title: Overbar
 second_title: Aspose.Slides pour .NET Référence API
 description: Définit une barre en haut de cet élément
 type: docs

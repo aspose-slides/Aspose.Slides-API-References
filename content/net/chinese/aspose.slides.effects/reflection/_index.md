@@ -1,5 +1,5 @@
 ---
-title: 反射
+title: Reflection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个反射效果。
 type: docs

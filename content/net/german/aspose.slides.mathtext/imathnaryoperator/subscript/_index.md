@@ -1,5 +1,5 @@
 ---  
-title: Subskript  
+title: Subscript
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt ein Subskript-Argument an, das beispielsweise im Fall eines Integrals die untere Grenze festlegt
 type: docs  

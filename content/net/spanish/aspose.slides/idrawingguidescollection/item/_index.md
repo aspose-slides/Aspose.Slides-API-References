@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve la guía de dibujo por índice. Solo lectura IDrawingGuideaspose.slides/idrawingguide.
 type: docs

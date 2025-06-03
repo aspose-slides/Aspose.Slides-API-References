@@ -1,5 +1,5 @@
 ---
-title: PrimeraCol
+title: FirstCol
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la primera columna de una tabla debe ser dibujada con un formato especial. Booleano de lectura/escritura.
 type: docs

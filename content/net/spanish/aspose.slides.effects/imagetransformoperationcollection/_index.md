@@ -1,5 +1,5 @@
 ---
-title: ColecciónDeOperacionesDeTransformaciónDeImagen
+title: ImageTransformOperationCollection
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa una colección de efectos aplicados a una imagen.
 type: docs

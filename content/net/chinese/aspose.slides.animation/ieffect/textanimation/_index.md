@@ -1,5 +1,5 @@
 ---
-title: 文本动画
+title: TextAnimation
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回文本动画。只读 ITextAnimation aspose.slides.animation/itextanimation。
 type: docs

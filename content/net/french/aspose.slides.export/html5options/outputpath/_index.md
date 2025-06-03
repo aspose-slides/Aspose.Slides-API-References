@@ -1,5 +1,5 @@
 ---  
-title: OutputPath  
+title: OutputPath
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine où les ressources externes doivent être stockées. Chaîne en lecture/écriture.
 type: docs  

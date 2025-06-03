@@ -1,5 +1,5 @@
 ---
-title: 合并具有相同格式的段落
+title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes for .NET API 参考
 description: 合并所有可接受形状中所有段落中具有相同格式的文本。
 type: docs

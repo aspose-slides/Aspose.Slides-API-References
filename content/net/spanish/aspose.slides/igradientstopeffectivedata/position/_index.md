@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la posición 0..1 de un punto de parada de gradiente. Solo lectura Single.
 type: docs

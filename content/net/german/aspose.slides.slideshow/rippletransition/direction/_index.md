@@ -1,5 +1,5 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API Referenz
 description: Richtung der Übergang. Lesen/Schreiben TransitionCornerAndCenterDirectionTypeaspose.slides/transitioncornerandcenterdirectiontype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Basisrechtfertigung
+title: BaseJustification
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Ausrichtung des Arrays im Verhältnis zum umgebenden Text an. Text außerhalb des Arrays kann mit der Unterkante, Oberkante oder Mitte eines Array-Objekts ausgerichtet werden. Standardwert Mitte
 type: docs

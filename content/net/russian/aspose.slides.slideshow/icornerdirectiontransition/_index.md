@@ -1,5 +1,5 @@
 ---  
-title: ICornerDirectionTransition  
+title: ICornerDirectionTransition
 second_title: Aspose.Slides для .NET API Справочник  
 description: Эффект перехода слайда по угловому направлению.
 type: docs  

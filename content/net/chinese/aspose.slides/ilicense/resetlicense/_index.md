@@ -1,5 +1,5 @@
 ---
-title: 重置许可证
+title: ResetLicense
 second_title: Aspose.Slides for .NET API 参考
 description: 重置许可证
 type: docs

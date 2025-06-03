@@ -1,5 +1,5 @@
 ---
-title: Tamaño
+title: Size
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF.
 type: docs

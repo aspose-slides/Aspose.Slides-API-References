@@ -1,5 +1,5 @@
 ---
-title: Société
+title: Company
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit la propriété de l'entreprise. Chaîne en lecture/écriture.
 type: docs

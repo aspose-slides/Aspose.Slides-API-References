@@ -1,5 +1,5 @@
 ---
-title: Von
+title: By
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Beschreibt den relativen Offset-Wert für die Farbanimation. Lesen/Schreiben IColorOffsetaspose.slides/icoloroffset.
 type: docs

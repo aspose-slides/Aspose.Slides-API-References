@@ -1,5 +1,5 @@
 ---
-title: EfectoSombraExterior
+title: OuterShadowEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Sombra exterior. Lectura/escritura IOuterShadowaspose.slides.effects/ioutershadow.
 type: docs

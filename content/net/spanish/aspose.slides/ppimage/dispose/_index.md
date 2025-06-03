@@ -1,5 +1,5 @@
 ---
-title: Desechar
+title: Dispose
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Desecha el objeto.
 type: docs

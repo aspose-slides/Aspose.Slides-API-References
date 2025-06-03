@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Sildes for .NET API 参考
 description: 将一个 Tab 添加到集合中。
 type: docs

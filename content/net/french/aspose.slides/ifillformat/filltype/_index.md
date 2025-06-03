@@ -1,5 +1,5 @@
 ---
-title: TypeDeRemplissage
+title: FillType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le type de remplissage. Lecture/écriture FillTypeaspose.slides/filltype.
 type: docs

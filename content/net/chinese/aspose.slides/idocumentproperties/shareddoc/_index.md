@@ -1,5 +1,5 @@
 ---
-title: 共享文档
+title: SharedDoc
 second_title: Aspose.Slides for .NET API 参考
 description: 确定演示文稿是否在多个人之间共享。可读写布尔值。
 type: docs

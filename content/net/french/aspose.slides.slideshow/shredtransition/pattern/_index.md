@@ -1,5 +1,5 @@
 ---
-title: Motif
+title: Pattern
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie la forme des visuels utilisés pendant la transition. Lecture/écriture TransitionShredPattern aspose.slides.slideshow/transitionshredpattern.
 type: docs

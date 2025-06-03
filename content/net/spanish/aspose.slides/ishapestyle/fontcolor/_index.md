@@ -1,5 +1,5 @@
 ---
-title: ColorDeFuente
+title: FontColor
 second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve el color de fuente de una forma. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs

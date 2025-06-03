@@ -1,5 +1,5 @@
 ---
-title: Masquer les espaces réservés
+title: HidePlaceholders
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Masquer les espaces réservés pour les éléments de matrice vides. Valeur par défaut  faux
 type: docs

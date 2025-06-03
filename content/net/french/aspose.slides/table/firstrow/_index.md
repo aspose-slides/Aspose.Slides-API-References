@@ -1,5 +1,5 @@
 ---
-title: PremièreLigne
+title: FirstRow
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen lisible/écrivable.
 type: docs

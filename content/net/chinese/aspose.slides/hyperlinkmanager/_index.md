@@ -1,5 +1,5 @@
 ---
-title: 超链接管理器
+title: HyperlinkManager
 second_title: Aspose.Sildes .NET API 参考
 description: 提供超链接管理，添加和删除。
 type: docs

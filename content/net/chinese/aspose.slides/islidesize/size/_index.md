@@ -1,5 +1,5 @@
 ---
-title: 尺寸
+title: Size
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置以点为单位的大小。分配任何值将重置 Typeaspose.slides/islidesize/type 属性为 Custom，并设置 Orientationaspose.slides/islidesize/orientation。可读写 SizeF。
 type: docs

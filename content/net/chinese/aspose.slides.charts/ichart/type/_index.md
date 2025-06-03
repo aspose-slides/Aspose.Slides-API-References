@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图表类型。可读/可写 ChartType aspose.slides.charts/charttype。
 type: docs

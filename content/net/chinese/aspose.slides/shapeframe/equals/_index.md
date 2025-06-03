@@ -1,5 +1,5 @@
 ---
-title: 等于
+title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个值，指示此实例是否等于指定对象。
 type: docs

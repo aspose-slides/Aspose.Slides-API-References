@@ -1,5 +1,5 @@
 ---
-title: 写入字体
+title: WriteFont
 second_title: Aspose.Slides for .NET API 参考
 description: 将数据作为 base64 写入 HTML 文档本身
 type: docs

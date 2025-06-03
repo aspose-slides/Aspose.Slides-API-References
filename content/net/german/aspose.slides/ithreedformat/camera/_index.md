@@ -1,5 +1,5 @@
 ---
-title: Kamera
+title: Camera
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Nur lesbar ICameraaspose.slides/icamera.
 type: docs

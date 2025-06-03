@@ -1,5 +1,5 @@
 ---
-title: Igual
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si las dos instancias de SlideShowTransition son iguales. Booleano de lectura/escritura.
 type: docs

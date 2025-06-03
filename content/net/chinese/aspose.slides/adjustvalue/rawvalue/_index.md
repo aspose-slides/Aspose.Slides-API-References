@@ -1,5 +1,5 @@
 ---
-title: 原始值
+title: RawValue
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置调整值 "原样"。可读/可写 Int64。
 type: docs

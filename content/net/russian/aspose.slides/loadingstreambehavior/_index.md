@@ -1,6 +1,6 @@
 ---
 
-title: LoadingStreamBehavior  
+title: LoadingStreamBehavior
 second_title: Aspose.Sildes для .NET API Reference  
 description: Поток, переданный методу, рассматривается как Большой Бинарный Объект BLOB см. описание IBlobManagementOptions../iblobmanagementoptions. Значения этой перечисления определяют, как поток должен обрабатываться, когда он передан методу. В зависимости от требований могут быть приняты разные решения для обеспечения наиболее эффективного поведения.
 type: docs  

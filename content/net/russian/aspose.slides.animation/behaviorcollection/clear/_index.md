@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет все поведения из коллекции.
 type: docs

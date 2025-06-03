@@ -1,5 +1,5 @@
 ---
-title: RemplissageMiseAuPoint
+title: FillFocus
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente la propriété fill.focus
 type: docs

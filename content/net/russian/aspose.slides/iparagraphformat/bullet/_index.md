@@ -1,5 +1,5 @@
 ---
-title: Буллет
+title: Bullet
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает формат буллета абзаца. Только для чтения IBulletFormataspose.slides/ibulletformat.
 type: docs

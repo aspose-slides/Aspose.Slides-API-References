@@ -1,5 +1,5 @@
 ---
-title: 显示顶部面板
+title: ShowTopPane
 second_title: Aspose.Slides for .NET API 参考
 description: 显示/隐藏整个顶部面板。可以在 flashvars 中被重写。默认值为 true。
 type: docs

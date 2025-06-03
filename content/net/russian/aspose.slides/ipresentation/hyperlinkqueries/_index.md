@@ -1,5 +1,5 @@
 ---
-title: ГиперссылкиЗапросы
+title: HyperlinkQueries
 second_title: Справочник API Aspose.Slides для .NET
 description: Обеспечивает легкий доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации, исключая мастер-шаблоны и слайды заметок. Только для чтения IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs

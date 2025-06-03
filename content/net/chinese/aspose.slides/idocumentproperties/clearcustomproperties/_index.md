@@ -1,5 +1,5 @@
 ---
-title: 清除自定义属性
+title: ClearCustomProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 移除所有自定义属性。
 type: docs

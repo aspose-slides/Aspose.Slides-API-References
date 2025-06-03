@@ -1,5 +1,5 @@
 ---
-title: 右边框
+title: BorderRight
 second_title: Aspose.Slides for .NET API 参考
 description: 返回右边框线格式有效值。只读 ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata。
 type: docs

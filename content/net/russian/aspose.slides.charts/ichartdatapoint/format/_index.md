@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойства форматирования. Чтение/запись IFormataspose.slides.charts/iformat.
 type: docs

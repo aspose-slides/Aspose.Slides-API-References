@@ -1,5 +1,5 @@
 ---
-title: 索引
+title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
 description: 返回集合中指定 DataLabel 的索引。
 type: docs

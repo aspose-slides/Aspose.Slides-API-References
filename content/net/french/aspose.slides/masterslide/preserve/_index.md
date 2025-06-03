@@ -1,5 +1,5 @@
 ---
-title: Préserver
+title: Preserve
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le master correspondant est supprimé lorsque toutes les diapositives qui suivent ce master sont supprimées. Notez qu'Aspose.Slides ne supprimera jamais de master inutilisé par lui-même, pour réellement supprimer des masters inutilisés, appelez RemoveUnusedaspose.slides/masterslidecollection/removeunused Lecture/écriture booléen.
 type: docs

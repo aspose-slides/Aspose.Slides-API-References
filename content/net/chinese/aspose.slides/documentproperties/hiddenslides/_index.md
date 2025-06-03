@@ -1,5 +1,5 @@
 ---
-title: 隐藏幻灯片
+title: HiddenSlides
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文档中的隐藏幻灯片数量。 仅限读取的 Int32。
 type: docs

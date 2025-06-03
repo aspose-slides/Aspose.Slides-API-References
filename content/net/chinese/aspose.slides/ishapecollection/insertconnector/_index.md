@@ -1,5 +1,5 @@
 ---
-title: 插入连接器
+title: InsertConnector
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的连接器，从默认模板调整并将其插入到指定索引的集合中。
 type: docs

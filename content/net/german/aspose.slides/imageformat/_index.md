@@ -1,5 +1,5 @@
 ---
-title: Bildformat
+title: ImageFormat
 second_title: Aspose.Slides für .NET API-Referenz
 description: Repräsentiert das Dateiformat des Bildes.
 type: docs

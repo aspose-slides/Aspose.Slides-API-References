@@ -1,5 +1,5 @@
 ---
-title: 方案颜色
+title: SchemeColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置由颜色方案标识的颜色。读/写 SchemeColoraspose.slides/schemecolor。
 type: docs

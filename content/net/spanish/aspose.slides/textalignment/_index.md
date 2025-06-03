@@ -1,5 +1,5 @@
 ---
-title: AlineaciónDeTexto
+title: TextAlignment
 second_title: Aspose.Sildes para referencia de API .NET
 description: Representa diferentes estilos de alineación de texto.
 type: docs

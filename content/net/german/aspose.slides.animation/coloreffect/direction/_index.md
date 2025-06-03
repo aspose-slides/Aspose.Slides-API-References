@@ -1,5 +1,5 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, in welche Richtung der Farbton auf dem Farbkreis gedreht werden soll. Lese-/Schreibzugriff auf ColorDirectionaspose.slides.animation/colordirection.
 type: docs

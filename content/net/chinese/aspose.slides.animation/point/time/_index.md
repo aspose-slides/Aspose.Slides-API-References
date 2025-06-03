@@ -1,5 +1,5 @@
 ---
-title: 时间
+title: Time
 second_title: Aspose.Slides for .NET API 参考
 description: 表示时间值。可读写单精度浮点数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Winkel
+title: Angle
 second_title: Aspose.Slides für .NET API-Referenz
 description: Beschreibt den relativen Winkel des Bewegungsweges. Lese-/Schreibzugriff auf Single.
 type: docs

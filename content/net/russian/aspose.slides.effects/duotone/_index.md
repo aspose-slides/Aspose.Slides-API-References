@@ -1,5 +1,5 @@
 ---
-title: Дуотон
+title: Duotone
 second_title: Aspose.Sildes для справочника по API .NET
 description: Представляет эффект дуотон. Для каждого пикселя комбинирует Color1 и Color2 через линейную интерполяцию, чтобы определить новый цвет для этого пикселя.
 type: docs

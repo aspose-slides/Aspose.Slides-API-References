@@ -1,5 +1,5 @@
 ---
-title: CouleurDePremierPlan
+title: ForeColor
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la couleur du motif de premier plan. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

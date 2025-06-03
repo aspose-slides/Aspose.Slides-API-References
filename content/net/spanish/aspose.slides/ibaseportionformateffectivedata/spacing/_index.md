@@ -1,5 +1,5 @@
 ---
-title: Espaciado
+title: Spacing
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el incremento de espaciado entre caracteres. Solo lectura Single.
 type: docs

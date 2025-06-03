@@ -1,5 +1,5 @@
 ---
-title: 写
+title: Write
 second_title: Aspose.Slides for .NET API 参考
 description: 将文件内容写入流。
 type: docs

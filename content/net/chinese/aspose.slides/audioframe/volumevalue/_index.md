@@ -1,5 +1,5 @@
 ---
-title: 音量值
+title: VolumeValue
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置音频音量的百分比。可读/写单精度浮点数。
 type: docs

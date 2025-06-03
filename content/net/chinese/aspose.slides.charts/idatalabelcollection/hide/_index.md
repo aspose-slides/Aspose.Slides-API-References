@@ -1,5 +1,5 @@
 ---
-title: 隐藏
+title: Hide
 second_title: Aspose.Slides for .NET API 参考
 description: 通过将 DefaultDataLabelFormat 属性的所有 Show-* 标志 ShowValue, ... 设置为 false 状态，使数据标签默认隐藏。此时 IsVisible 将为 false。
 type: docs

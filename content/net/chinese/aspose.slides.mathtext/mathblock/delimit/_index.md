@@ -1,5 +1,5 @@
 ---
-title: 分隔
+title: Delimit
 second_title: Aspose.Slides for .NET API 参考
 description: 用分隔符字符分隔子元素（不带括号）
 type: docs

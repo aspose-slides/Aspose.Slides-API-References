@@ -1,5 +1,5 @@
 ---  
-title: IChartSeriesReadonlyCollection  
+title: IChartSeriesReadonlyCollection
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt eine schreibgeschützte Sammlung von IChartSeries dar.
 type: docs  

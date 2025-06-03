@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочная документация по Aspose.Slides для .NET
 description: Добавляет новую анимацию текста в коллекцию.
 type: docs

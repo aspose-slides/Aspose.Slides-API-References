@@ -1,5 +1,5 @@
 ---
-title: 四分位数方法类型
+title: QuartileMethodType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回四分位数方法类型
 type: docs

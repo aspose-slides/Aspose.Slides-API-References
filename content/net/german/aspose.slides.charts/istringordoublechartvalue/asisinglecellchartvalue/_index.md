@@ -1,5 +1,5 @@
 ---  
-title: AsISingleCellChartValue  
+title: AsISingleCellChartValue
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht den Zugriff auf die Basisschnittstelle ISingleCellChartValue. Schreibgeschütztes ISingleCellChartValueaspose.slides.charts/isinglecellchartvalue.
 type: docs  

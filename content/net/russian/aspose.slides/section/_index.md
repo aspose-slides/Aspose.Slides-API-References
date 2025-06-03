@@ -1,5 +1,5 @@
 ---
-title: Раздел
+title: Section
 second_title: Справка по API Aspose.Slides для .NET
 description: Представляет раздел слайдов.
 type: docs

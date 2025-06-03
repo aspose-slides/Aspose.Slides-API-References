@@ -1,5 +1,5 @@
 ---
-title: 占位符类型
+title: PlaceholderType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示占位符的类型。
 type: docs

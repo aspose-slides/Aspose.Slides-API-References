@@ -1,5 +1,5 @@
 ---
-title: 背景类型
+title: BackgroundType
 second_title: Aspose.Slides for .NET API 参考
 description: 定义幻灯片背景填充源。
 type: docs

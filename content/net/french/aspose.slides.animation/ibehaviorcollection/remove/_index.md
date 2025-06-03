@@ -1,5 +1,5 @@
 ---
-title: Retirer
+title: Remove
 second_title: Aspose.Slides pour .NET Référence API
 description: Retire le comportement spécifié d'une collection.
 type: docs

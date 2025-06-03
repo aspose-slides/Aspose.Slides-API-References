@@ -1,5 +1,5 @@
 ---
-title: 从文件创建
+title: FromFile
 second_title: Aspose.Slides for .NET API 参考
 description: 从文件创建一个图像。
 type: docs

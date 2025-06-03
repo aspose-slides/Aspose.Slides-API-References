@@ -1,5 +1,5 @@
 ---
-title: 系列组
+title: SeriesGroups
 second_title: Aspose.Slides for .NET API 参考
 description: 获取系列的组。只读 IChartSeriesGroupCollection aspose.slides.charts/ichartseriesgroupcollection。
 type: docs

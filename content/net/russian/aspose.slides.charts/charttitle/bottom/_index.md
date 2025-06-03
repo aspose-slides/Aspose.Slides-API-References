@@ -1,5 +1,5 @@
 ---
-title: Нижний
+title: Bottom
 second_title: Справочник по API Aspose.Slides для .NET
 description: Нижний. Только для чтения Single.
 type: docs

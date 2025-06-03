@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne le nombre de nœuds dans la collection Read-only Int32 Read-only Int32.
 type: docs

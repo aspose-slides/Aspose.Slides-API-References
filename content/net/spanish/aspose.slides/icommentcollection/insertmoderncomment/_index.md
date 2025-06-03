@@ -1,5 +1,5 @@
 ---
-title: InsertarComentarioModerno
+title: InsertModernComment
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta un nuevo comentario moderno en una colección en el índice especificado.
 type: docs

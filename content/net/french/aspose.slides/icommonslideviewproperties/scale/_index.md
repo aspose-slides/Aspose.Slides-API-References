@@ -1,5 +1,5 @@
 ---
-title: Échelle
+title: Scale
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie le rapport d'échelle de la vue en pourcentages. Lecture/écriture Int32.
 type: docs

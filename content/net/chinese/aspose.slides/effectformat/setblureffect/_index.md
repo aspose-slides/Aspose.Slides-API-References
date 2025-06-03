@@ -1,5 +1,5 @@
 ---
-title: 设置模糊效果
+title: SetBlurEffect
 second_title: Aspose.Sildes for .NET API 参考
 description: 设置模糊效果。
 type: docs

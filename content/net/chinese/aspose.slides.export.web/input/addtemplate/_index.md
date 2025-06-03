@@ -1,5 +1,5 @@
 ---
-title: 添加模板
+title: AddTemplate
 second_title: Aspose.Sildes for .NET API 参考
 description: type docs
 weight: 10

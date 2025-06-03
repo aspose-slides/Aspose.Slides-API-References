@@ -1,5 +1,5 @@
 ---
-title: Décélérer
+title: Decelerate
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Décrit le pourcentage de l'effet de comportement de décélération de la durée. Lecture/écriture Single.
 type: docs

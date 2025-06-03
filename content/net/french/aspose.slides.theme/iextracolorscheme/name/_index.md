@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne un nom de ce schéma. Chaîne en lecture seule.
 type: docs

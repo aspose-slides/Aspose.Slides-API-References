@@ -1,5 +1,5 @@
 ---
-title: 覆盖主题
+title: OverrideTheme
 second_title: Aspose.Slides for .NET API 参考
 description: 返回覆盖的主题对象。读/写 IMasterThemeaspose.slides.theme/imastertheme。
 type: docs

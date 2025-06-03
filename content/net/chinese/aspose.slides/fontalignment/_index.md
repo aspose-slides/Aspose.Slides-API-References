@@ -1,5 +1,5 @@
 ---  
-title: FontAlignment  
+title: FontAlignment
 second_title: Aspose.Sildes for .NET API Reference  
 description: 代表垂直字体对齐。
 type: docs  

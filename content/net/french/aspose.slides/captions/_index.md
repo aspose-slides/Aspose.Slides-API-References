@@ -1,5 +1,5 @@
 ---
-title: Sous-titres
+title: Captions
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente les sous-titres fermés WebVTT.
 type: docs

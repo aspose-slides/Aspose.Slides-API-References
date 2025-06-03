@@ -1,5 +1,5 @@
 ---
-title: Contient
+title: Contains
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Détermine si la collection contient une valeur spécifique.
 type: docs

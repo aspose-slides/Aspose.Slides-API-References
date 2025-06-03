@@ -1,5 +1,5 @@
 ---
-title: NummerierterAufzählungsstil
+title: NumberedBulletStyle
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Stil eines nummerierten Aufzählungszeichens ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 填充角度
+title: FillAngle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 fill.angle 属性
 type: docs

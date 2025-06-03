@@ -1,5 +1,5 @@
 ---
-title: EfectoSombraPredeterminado
+title: PresetShadowEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Sombra predeterminada. Leer/escribir IPresetShadowaspose.slides.effects/ipresetshadow.
 type: docs

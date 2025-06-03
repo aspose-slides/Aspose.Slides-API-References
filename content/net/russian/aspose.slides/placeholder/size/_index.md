@@ -1,5 +1,5 @@
 ---
-title: Размер
+title: Size
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или задаёт размер заполнителя. Только для чтения PlaceholderSizeaspose.slides/placeholdersize.
 type: docs

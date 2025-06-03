@@ -1,5 +1,5 @@
 ---
-title: К
+title: To
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает конечное значение для анимации. Чтение/запись Float.
 type: docs

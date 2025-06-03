@@ -1,5 +1,5 @@
 ---
-title: AlineaciónDeFuente
+title: FontAlignment
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa la alineación vertical de la fuente.
 type: docs

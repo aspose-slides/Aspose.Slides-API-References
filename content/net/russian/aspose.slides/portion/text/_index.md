@@ -1,5 +1,5 @@
 ---
-title: Текст
+title: Text
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает или устанавливает простой текст части. Читаемый/записываемый String.
 type: docs

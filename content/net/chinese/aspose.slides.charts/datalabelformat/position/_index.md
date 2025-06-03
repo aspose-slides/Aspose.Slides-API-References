@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API参考
 description: 表示数据标签的位置。可读写 LegendDataLabelPositionaspose.slides/legenddatalabelposition。
 type: docs

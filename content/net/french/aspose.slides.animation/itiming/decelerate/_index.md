@@ -1,5 +1,5 @@
 ---
-title: Décélérer
+title: Decelerate
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Décrit le pourcentage de la durée de l'effet de comportement de décélération. Lecture/écriture Single.
 type: docs

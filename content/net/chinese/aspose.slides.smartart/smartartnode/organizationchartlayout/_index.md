@@ -1,5 +1,5 @@
 ---
-title: 组织结构图布局
+title: OrganizationChartLayout
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置与当前节点关联的组织结构图布局类型。可读/可写 OrganizationChartLayoutTypeaspose.slides/organizationchartlayouttype。
 type: docs

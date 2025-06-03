@@ -1,5 +1,5 @@
 ---
-title: 从左下到右上的删除线
+title: StrikethroughBottomLeftToTopRight
 second_title: Aspose.Sildes for .NET API 参考
 description: 从左下到右上的删除线默认是false。指定从边框框的左下角到右上角的删除线的隐藏或显示状态。
 type: docs

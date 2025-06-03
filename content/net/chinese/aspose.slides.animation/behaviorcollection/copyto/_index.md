@@ -1,5 +1,5 @@
 ---
-title: 复制到
+title: CopyTo
 second_title: Aspose.Slides for .NET API 参考
 description: 从特定的数组索引开始，将 ICollection 的元素复制到数组。
 type: docs

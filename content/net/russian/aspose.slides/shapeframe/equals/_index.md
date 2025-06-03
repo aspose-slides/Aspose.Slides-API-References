@@ -1,5 +1,5 @@
 ---
-title: Равенство
+title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает значение, указывающее, равно ли это экземпляр заданному объекту.
 type: docs

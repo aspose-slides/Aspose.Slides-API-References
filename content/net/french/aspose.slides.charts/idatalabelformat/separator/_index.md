@@ -1,5 +1,5 @@
 ---
-title: Séparateur
+title: Separator
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit ou renvoie un Variant représentant le séparateur utilisé pour les étiquettes de données sur un graphique. Chaîne lisible/écrivable.
 type: docs

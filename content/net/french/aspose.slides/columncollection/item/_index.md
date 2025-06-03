@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la colonne à l'index spécifié. Lecture seule Columnaspose.slides/column.
 type: docs

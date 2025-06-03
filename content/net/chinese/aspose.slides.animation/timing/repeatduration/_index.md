@@ -1,5 +1,5 @@
 ---
-title: 重复持续时间
+title: RepeatDuration
 second_title: Aspose.Slides for .NET API 参考
 description: 描述效果应重复的次数。可读/写单精度浮点数。
 type: docs

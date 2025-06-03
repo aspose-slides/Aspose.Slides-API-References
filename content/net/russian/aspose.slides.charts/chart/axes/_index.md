@@ -1,5 +1,5 @@
 ---
-title: Оси
+title: Axes
 second_title: Справка по API Aspose.Slides для .NET
 description: Предоставьте доступ к осям диаграммы. Только для чтения IAxesManager aspose.slides.charts/iaxesmanager.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Accélérer
+title: Accelerate
 second_title: Référence API Aspose.Slides pour .NET
 description: Décrit le pourcentage de l'effet de comportement d'accélération de durée. Lecture/écriture Single.
 type: docs

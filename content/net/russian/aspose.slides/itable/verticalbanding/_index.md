@@ -1,5 +1,5 @@
 ---
-title: ВертикальнаяЗебра
+title: VerticalBanding
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, должны ли четные столбцы отображаться с другим форматированием. Читаемый/записываемый логический тип.
 type: docs

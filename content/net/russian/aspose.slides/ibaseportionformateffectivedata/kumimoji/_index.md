@@ -1,5 +1,5 @@
 ---
-title: Кумимодзи
+title: Kumimoji
 second_title: Aspose.Slides для .NET Справочник API
 description: Определяет, следует ли игнорировать числам вертикальную компоновку текста, специфичную для восточных языков. Только для чтения Boolean.
 type: docs

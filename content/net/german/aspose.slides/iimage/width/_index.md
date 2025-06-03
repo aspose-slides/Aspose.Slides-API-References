@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Breite des Bildes in Pixeln zurück.
 type: docs

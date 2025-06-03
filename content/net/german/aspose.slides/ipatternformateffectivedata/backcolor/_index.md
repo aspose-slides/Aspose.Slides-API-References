@@ -1,5 +1,5 @@
 ---
-title: Hintergrundfarbe
+title: BackColor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Hintergrundmusterfarbe zurück. Nur lesbares Color.
 type: docs

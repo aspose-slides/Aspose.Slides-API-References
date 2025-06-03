@@ -1,5 +1,5 @@
 ---
-title: Пароль
+title: Password
 second_title: Справочник API Aspose.Slides для .NET
 description: Установка пользовательского пароля для защиты PDF-документа. Чтение/запись Строка.
 type: docs

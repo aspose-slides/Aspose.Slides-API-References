@@ -1,5 +1,5 @@
 ---
-title: Ausblenden
+title: Hide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob der Legendeintrag ausgeblendet ist. Lese-/Schreibbare Boolean.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Taille
+title: Size
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient ou définit la taille du pinceau pour une ligne en points.
 type: docs

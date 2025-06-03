@@ -1,5 +1,5 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el número de todas las etiquetas de datos en la colección. Solo lectura Int32.
 type: docs

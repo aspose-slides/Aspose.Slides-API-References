@@ -1,5 +1,5 @@
 ---
-title: 下标
+title: Subscript
 second_title: Aspose.Slides for .NET API 参考
 description: 指定一个下标参数，例如在积分的情况下设置下限
 type: docs

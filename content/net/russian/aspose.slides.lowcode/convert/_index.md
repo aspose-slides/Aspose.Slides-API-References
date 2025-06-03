@@ -1,5 +1,5 @@
 ---
-title: Конвертировать
+title: Convert
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет собой группу методов, предназначенных для конвертации Presentationaspose.slides/aspose.slides/presentation.
 type: docs

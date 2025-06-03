@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Elimina el comportamiento especificado de una colección.
 type: docs

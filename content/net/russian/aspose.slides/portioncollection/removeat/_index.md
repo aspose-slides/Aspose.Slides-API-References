@@ -1,5 +1,5 @@
 ---
-title: УдалитьПоИндексу
+title: RemoveAt
 second_title: Aspose.Sildes для .NET API Справка
 description: Удаляет элемент по указанному индексу коллекции.
 type: docs

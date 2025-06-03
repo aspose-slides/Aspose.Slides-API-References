@@ -1,5 +1,5 @@
 ---
-title: Envelopper
+title: Enclose
 second_title: Aspose.Slides pour la référence API .NET
 description: Enveloppe un élément mathématique dans des parenthèses
 type: docs

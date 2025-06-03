@@ -1,5 +1,5 @@
 ---
-title: 插入图表
+title: InsertChart
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的图表，用示例系列数据和设置初始化它，并将其插入到集合中的指定位置。
 type: docs

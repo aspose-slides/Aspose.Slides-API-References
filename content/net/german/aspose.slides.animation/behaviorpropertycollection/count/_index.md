@@ -1,5 +1,5 @@
 ---
-title: Zählen
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Anzahl der in der Sammlung gespeicherten Eigenschaften zurück. Nur-Lesen Int32.
 type: docs

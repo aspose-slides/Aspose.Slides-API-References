@@ -1,5 +1,5 @@
 ---
-title: Majeur
+title: Major
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la collection de polices pour une partie "titre" de la diapositive. Lecture seule IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs

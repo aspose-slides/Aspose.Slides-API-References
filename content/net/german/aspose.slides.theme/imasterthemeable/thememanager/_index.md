@@ -1,5 +1,5 @@
 ---  
-title: ThemeManager  
+title: ThemeManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Master-Theme-Manager zurück. Nur lesender IMasterThemeManageraspose.slides.theme/imasterthememanager.
 type: docs  

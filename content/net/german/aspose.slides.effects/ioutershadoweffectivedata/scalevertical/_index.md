@@ -1,5 +1,5 @@
 ---  
-title: ScaleVertical  
+title: ScaleVertical
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den vertikalen Skalierungsfaktor an, negativer Maßstab führt zu einer Umkehrung. Schreibgeschütztes Double.
 type: docs  

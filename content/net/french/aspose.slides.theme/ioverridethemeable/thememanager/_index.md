@@ -1,5 +1,5 @@
 ---
-title: GestionnaireDeThème
+title: ThemeManager
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le gestionnaire de thème de substitution. Lecture seule IOverrideThemeManageraspose.slides.theme/ioverridethememanager.
 type: docs

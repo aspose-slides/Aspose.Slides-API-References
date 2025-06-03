@@ -1,5 +1,5 @@
 ---
-title: 部分
+title: Portion
 second_title: Aspose.Slides for .NET API 参考
 description: 遍历演示文稿中的每个部分 aspose.slides.lowcode/foreach/portion。所有类型的幻灯片 - 幻灯片 aspose.slides.lowcode/foreach/slide，母版幻灯片 aspose.slides.lowcode/foreach/masterslide 和布局幻灯片 aspose.slides.lowcode/foreach/layoutslide 中的部分将被遍历。
 type: docs

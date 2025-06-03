@@ -1,5 +1,5 @@
 ---
-title: EstablecerProtecciónDeEscritura
+title: SetWriteProtection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establezca la protección contra escritura para esta presentación con la contraseña especificada.
 type: docs

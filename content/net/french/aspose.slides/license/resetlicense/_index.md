@@ -1,5 +1,5 @@
 ---  
-title: ResetLicense  
+title: ResetLicense
 second_title: Référence API Aspose.Slides pour .NET  
 description: Réinitialiser la licence
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Relleno
+title: Fill
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve las propiedades del estilo de relleno de un eje. Solo lectura IFillFormat aspose.slides/ifillformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 实际主要单位
+title: ActualMajorUnit
 second_title: Aspose.Slides for .NET API 参考
 description: 指定轴的实际主要单位。请先调用方法 IChart.ValidateChartLayout 以获得实际值。
 type: docs

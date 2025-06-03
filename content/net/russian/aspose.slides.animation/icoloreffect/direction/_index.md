@@ -1,5 +1,5 @@
 ---
-title: Направление
+title: Direction
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, в каком направлении следует изменять оттенок вокруг цветового колеса. Чтение/запись ColorDirectionaspose.slides.animation/colordirection.
 type: docs

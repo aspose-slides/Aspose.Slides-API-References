@@ -1,5 +1,5 @@
 ---
-title: AlineaciónDeAzulejos
+title: TileAlignment
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece cómo se alinea la textura dentro de la forma. Esta configuración controla el punto de partida del patrón de textura y cómo se repite a lo largo de la forma. Lectura/escritura RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs

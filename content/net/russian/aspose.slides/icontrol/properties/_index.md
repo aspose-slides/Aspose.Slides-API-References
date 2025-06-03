@@ -1,5 +1,5 @@
 ---
-title: Свойства
+title: Properties
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию свойств ActiveX. Только для чтения IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
 type: docs

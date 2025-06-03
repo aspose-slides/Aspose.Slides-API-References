@@ -1,5 +1,5 @@
 ---
-title: 右到左
+title: RightToLeft
 second_title: Aspose.Slides for .NET API 参考
 description: 确定段落中是否使用右到左的书写方式。不应用继承。可读/写 NullableBoolaspose.slides/nullablebool。
 type: docs

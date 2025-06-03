@@ -1,5 +1,5 @@
 ---  
-title: ClearCache  
+title: ClearCache
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Libera todas las fuentes personalizadas definidas por el usuario
 type: docs  

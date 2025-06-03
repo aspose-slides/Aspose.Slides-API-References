@@ -1,5 +1,5 @@
 ---
-title: 保留
+title: Preserve
 second_title: Aspose.Slides for .NET API 参考
 description: 确定在删除所有跟随该母版的幻灯片时，是否删除相应的母版。注意：Aspose.Slides 不会主动删除任何未使用的母版，要实际删除未使用的母版，请调用 RemoveUnusedaspose.slides/masterslidecollection/removeunused 可读/写布尔值。
 type: docs

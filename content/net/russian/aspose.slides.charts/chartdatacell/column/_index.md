@@ -1,5 +1,5 @@
 ---
-title: Столбец
+title: Column
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает индекс столбца рабочего листа, в котором находится ячейка. Только для чтения Int32.
 type: docs

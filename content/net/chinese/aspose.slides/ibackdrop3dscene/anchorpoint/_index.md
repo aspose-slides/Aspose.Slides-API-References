@@ -1,5 +1,5 @@
 ---
-title: 锚点
+title: AnchorPoint
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 3D 空间中的一个点。此点是锚定背景平面的空间点。3D 点由 3 个浮点值的数组表示，这些值定义 X、Y 和 Z 坐标。可读/可写单个值。
 type: docs

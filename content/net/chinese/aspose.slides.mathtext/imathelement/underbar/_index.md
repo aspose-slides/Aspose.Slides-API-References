@@ -1,5 +1,5 @@
 ---
-title: 下划线
+title: Underbar
 second_title: Aspose.Sildes for .NET API 参考
 description: 在该元素的底部设置一个下划线
 type: docs

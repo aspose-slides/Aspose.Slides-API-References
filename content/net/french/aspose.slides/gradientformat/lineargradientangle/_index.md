@@ -1,5 +1,5 @@
 ---
-title: AngleDeDégradéLinéaire
+title: LinearGradientAngle
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Simple.
 type: docs

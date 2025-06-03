@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает или задает ширину столбца. Читаемый/записываемый Double.
 type: docs

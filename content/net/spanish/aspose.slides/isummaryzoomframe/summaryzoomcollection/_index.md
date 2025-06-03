@@ -1,5 +1,5 @@
 ---
-title: ResumenColecciónZoom
+title: SummaryZoomCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene ISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollection para el objeto Marco de Resumen Zoom.
 type: docs

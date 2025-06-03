@@ -1,5 +1,5 @@
 ---
-title: Konformität
+title: Conformance
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Konformitätsklasse an, zu der das Präsentationsdokument gehört. Standardwert ist Ecma376_2006
 type: docs

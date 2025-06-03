@@ -1,5 +1,5 @@
 ---
-title: 文本
+title: Text
 second_title: Aspose.Slides for .NET API 参考
 description: 幻灯片形状上的文本
 type: docs

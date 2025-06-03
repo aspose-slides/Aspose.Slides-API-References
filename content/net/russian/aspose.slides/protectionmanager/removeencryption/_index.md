@@ -1,5 +1,5 @@
 ---
-title: УдалитьШифрование
+title: RemoveEncryption
 second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет шифрование.
 type: docs

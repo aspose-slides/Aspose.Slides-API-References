@@ -1,5 +1,5 @@
 ---
-title: 距离
+title: Distance
 second_title: Aspose.Sildes for .NET API 参考
 description: 反射的距离。读/写 Double。
 type: docs

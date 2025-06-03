@@ -1,5 +1,5 @@
 ---
-title: Superposition
+title: Overlay
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si d'autres éléments de graphique peuvent chevaucher la légende. Booléen en lecture/écriture.
 type: docs

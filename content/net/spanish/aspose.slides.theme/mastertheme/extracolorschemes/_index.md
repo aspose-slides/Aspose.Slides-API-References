@@ -1,5 +1,5 @@
 ---
-title: EsquemasDeColorExtra
+title: ExtraColorSchemes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de esquemas de color adicionales. Estos esquemas no afectan la apariencia de las presentaciones, pueden seleccionarse como el esquema de color principal para una diapositiva. Solo lectura IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
 type: docs

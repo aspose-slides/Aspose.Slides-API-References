@@ -1,5 +1,5 @@
 ---
-title: 压缩类型
+title: CompressionType
 second_title: Aspose.Slides for .NET API 参考
 description: 指定压缩类型。可读/写 TiffCompressionTypes aspose.slides.export/tiffcompressiontypes。
 type: docs

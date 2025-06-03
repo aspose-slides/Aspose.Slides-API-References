@@ -1,5 +1,5 @@
 ---
-title: TextoMarco
+title: TextFrame
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el marco de texto del nodo. Solo lectura ITextFrame aspose.slides/itextframe.
 type: docs

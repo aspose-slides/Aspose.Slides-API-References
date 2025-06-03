@@ -1,5 +1,5 @@
 ---
-title: DésactiverEffetFlou
+title: DisableBlurEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Désactive l'effet flou.
 type: docs

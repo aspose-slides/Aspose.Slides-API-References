@@ -1,5 +1,5 @@
 ---
-title: Transparencia
+title: Transparency
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Obtiene la transparencia del color de relleno. Leer Single.
 type: docs

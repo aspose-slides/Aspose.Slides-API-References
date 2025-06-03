@@ -1,5 +1,5 @@
 ---
-title: Höhe
+title: Height
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Höhe eines Rahmens zurück. Nur-Lese Single.
 type: docs

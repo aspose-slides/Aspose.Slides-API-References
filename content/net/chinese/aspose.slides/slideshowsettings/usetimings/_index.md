@@ -1,5 +1,5 @@
 ---
-title: 使用时间
+title: UseTimings
 second_title: Aspose.Slides for .NET API 参考
 description: 在幻灯片放映中使用时间
 type: docs

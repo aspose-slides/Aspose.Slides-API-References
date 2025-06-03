@@ -1,5 +1,5 @@
 ---
-title: Catégories
+title: Categories
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les catégories principales ou à la fois les catégories principales et secondaires si la propriété UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories est fausse. Collection IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection en lecture seule.
 type: docs

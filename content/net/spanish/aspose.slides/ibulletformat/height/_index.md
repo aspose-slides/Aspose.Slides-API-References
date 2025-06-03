@@ -1,5 +1,5 @@
 ---
-title: Altura
+title: Height
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la altura del viñeta de un párrafo sin herencia. El valor float.NaN determina que la viñeta hereda la altura de la primera porción en el párrafo. Lectura/escritura Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ObtenerFuentes
+title: GetFonts
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve las fuentes utilizadas en la presentación
 type: docs

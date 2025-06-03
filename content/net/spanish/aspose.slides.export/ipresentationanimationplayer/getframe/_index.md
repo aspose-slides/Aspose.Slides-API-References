@@ -1,5 +1,5 @@
 ---
-title: ObtenerCuadro
+title: GetFrame
 second_title: Referencia API de Aspose.Slides para .NET
 description: Obtiene el cuadro para la posición de tiempo actual previamente establecida con el método SetTimePositionaspose.slides.export/ipresentationanimationplayer/settimeposition.
 type: docs

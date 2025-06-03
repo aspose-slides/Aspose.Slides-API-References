@@ -1,5 +1,5 @@
 ---
-title: 字体源
+title: FontSources
 second_title: Aspose.Slides for .NET API 参考
 description: 提供外部字体的文件和内存源。
 type: docs

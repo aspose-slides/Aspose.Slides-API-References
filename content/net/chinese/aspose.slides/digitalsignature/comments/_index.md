@@ -1,5 +1,5 @@
 ---
-title: 注释
+title: Comments
 second_title: Aspose.Slides for .NET API 参考
 description: 签名的目的。读/写字符串。
 type: docs

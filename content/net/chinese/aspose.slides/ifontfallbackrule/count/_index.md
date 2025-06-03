@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Slides for .NET API 参考
 description: 获取实际为范围定义的字体数量。
 type: docs

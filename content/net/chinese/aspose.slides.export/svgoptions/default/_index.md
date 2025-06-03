@@ -1,5 +1,5 @@
 ---
-title: 默认
+title: Default
 second_title: Aspose.Slides for .NET API 参考
 description: 返回默认设置。只读 SVGOptionsaspose.slides.export/svgoptions。
 type: docs

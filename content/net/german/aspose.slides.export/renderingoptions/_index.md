@@ -1,5 +1,5 @@
 ---  
-title: RenderingOptions  
+title: RenderingOptions
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Bietet Optionen, die steuern, wie eine Präsentation/Folie gerendert wird.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Rapport
+title: Reporting
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Informe d'une mise à jour de progression.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 使用背景填充
+title: UseBackgroundFill
 second_title: Aspose.Slides for .NET API 参考
 description: 确定此自动形状是否应使用幻灯片的背景填充，而不是由样式或填充格式指定。可读/可写布尔值。
 type: docs

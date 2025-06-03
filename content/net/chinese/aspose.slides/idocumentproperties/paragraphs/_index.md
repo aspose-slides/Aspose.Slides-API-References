@@ -1,5 +1,5 @@
 ---
-title: 段落
+title: Paragraphs
 second_title: Aspose.Slides for .NET API 参考
 description: 指定文档中找到的段落总数（如适用）。只读 Int32。
 type: docs

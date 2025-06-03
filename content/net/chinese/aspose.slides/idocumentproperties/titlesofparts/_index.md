@@ -1,5 +1,5 @@
 ---
-title: 部分的标题
+title: TitlesOfParts
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定每个文档部分的标题。这些部分不是文档部分，而是文档部分的概念性表示。只读字符串。
 type: docs

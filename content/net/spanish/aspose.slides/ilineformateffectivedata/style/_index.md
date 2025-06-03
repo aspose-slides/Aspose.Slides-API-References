@@ -1,5 +1,5 @@
 ---
-title: Estilo
+title: Style
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el estilo de línea. Solo lectura LineStyleaspose.slides/linestyle.
 type: docs

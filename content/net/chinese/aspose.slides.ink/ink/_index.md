@@ -1,5 +1,5 @@
 ---
-title: 墨水
+title: Ink
 second_title: Aspose.Slides for .NET API参考
 description: 表示幻灯片上的墨水对象。
 type: docs

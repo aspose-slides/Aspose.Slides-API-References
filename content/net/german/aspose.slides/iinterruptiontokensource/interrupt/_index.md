@@ -1,5 +1,5 @@
 ---
-title: Unterbrechung
+title: Interrupt
 second_title: Aspose.Slides für .NET API Referenz
 description: Anfrage zur Unterbrechung initialisieren.
 type: docs

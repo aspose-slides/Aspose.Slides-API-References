@@ -1,5 +1,5 @@
 ---
-title: 获取有效格式
+title: GetEffective
 second_title: Aspose.Slidess for .NET API 参考
 description: 获取应用了继承和表样式的有效表格格式属性。
 type: docs

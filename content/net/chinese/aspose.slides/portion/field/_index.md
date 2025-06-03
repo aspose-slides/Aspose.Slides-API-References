@@ -1,5 +1,5 @@
 ---
-title: 字段
+title: Field
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此部分的字段。只读 IField aspose.slides/ifield。
 type: docs

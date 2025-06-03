@@ -1,5 +1,5 @@
 ---
-title: HauteurRéelle
+title: ActualHeight
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie la hauteur réelle de l'élément du graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir les valeurs réelles. Lire Single.
 type: docs

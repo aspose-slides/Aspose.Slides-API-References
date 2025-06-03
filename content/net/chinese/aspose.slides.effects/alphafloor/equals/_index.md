@@ -1,5 +1,5 @@
 ---
-title: 相等
+title: Equals
 second_title: Aspose.Sildes for .NET API 参考
 description: 确定指定的 AlphaFlooraspose.slides.effects/alphafloor 是否与当前的 AlphaFlooraspose.slides.effects/alphafloor 相等。
 type: docs

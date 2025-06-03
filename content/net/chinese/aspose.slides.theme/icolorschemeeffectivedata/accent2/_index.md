@@ -1,5 +1,5 @@
 ---  
-title: Accent2  
+title: Accent2
 second_title: Aspose.Slides for .NET API 参考  
 description: 方案中的第二种强调色。仅限读取的颜色。
 type: docs  

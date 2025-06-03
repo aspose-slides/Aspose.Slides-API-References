@@ -1,5 +1,5 @@
 ---
-title: Medido
+title: Metered
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Inicializa una nueva instancia de esta clase.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置段落中无继承的项目符号高度。值 float.NaN 表示项目符号从段落的第一个部分继承高度。读/写单精度浮点数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 分类轴类型
+title: CategoryAxisType
 second_title: Aspose.Slides for .NET API 参考
 description: 指定分类轴的类型。可读/可写 CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype。
 type: docs

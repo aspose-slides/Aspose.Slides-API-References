@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne un schéma de couleurs par index. En lecture seule ExtraColorSchemeaspose.slides/extracolorscheme.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 旋转角度
+title: RotationAngle
 second_title: Aspose.Slides for .NET API 参考
 description: 指定应用于边界框内文本的自定义旋转。如果未指定，则使用伴随形状的旋转。如果指定，则独立于形状应用。也就是说，形状可以有一个旋转，而文本本身也可以有一个旋转。此属性和预定义的垂直类型 TextVerticalType 的视觉文本旋转的最终值汇总。读/写 单一精度浮点数。
 type: docs

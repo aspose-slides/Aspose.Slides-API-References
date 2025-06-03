@@ -1,5 +1,5 @@
 ---
-title: 前景色
+title: ForeColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回前景图案颜色。仅读 IColorFormat aspose.slides/icolorformat。
 type: docs

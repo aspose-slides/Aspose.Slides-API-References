@@ -1,5 +1,5 @@
 ---
-title: Flou
+title: Blur
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un effet de flou appliqué à la forme entière, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 根据索引返回布局幻灯片。只读 LayoutSlide aspose.slides/layoutslide。
 type: docs

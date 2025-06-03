@@ -1,5 +1,5 @@
 ---
-title: Zurücksetzen
+title: Reset
 second_title: Aspose.Slides für .NET API-Referenz
 description: Setzt die Positionsgröße und das Format jeder Form zurück, die ein Prototyp auf LayoutSlide hat.
 type: docs

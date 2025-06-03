@@ -1,5 +1,5 @@
 ---
-title: 显示主要网格线
+title: ShowMajorGridLines
 second_title: Aspose.Slides for .NET API 参考
 description: 要隐藏主要网格线，将 MajorGridLinesFormat.Line.FillFormat.FillType 设置为 FillType.NoFill。只读布尔值。
 type: docs

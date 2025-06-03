@@ -1,5 +1,5 @@
 ---
-title: 工作表
+title: Worksheets
 second_title: Aspose.Slides for .NET API 参考
 description: 获取工作表的集合。
 type: docs

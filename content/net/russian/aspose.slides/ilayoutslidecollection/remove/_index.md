@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Удаляет макет из коллекции.
 type: docs

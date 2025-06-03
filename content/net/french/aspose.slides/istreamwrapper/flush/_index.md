@@ -1,5 +1,5 @@
 ---
-title: Vider
+title: Flush
 second_title: Référence API Aspose.Slides pour .NET
 description: Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en tampon sur le périphérique sous-jacent.
 type: docs

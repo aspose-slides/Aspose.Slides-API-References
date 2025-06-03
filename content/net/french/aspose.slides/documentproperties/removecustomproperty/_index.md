@@ -1,5 +1,5 @@
 ---
-title: SupprimerPropriétéPersonnalisée
+title: RemoveCustomProperty
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprimer une propriété personnalisée associée à un nom spécifié.
 type: docs

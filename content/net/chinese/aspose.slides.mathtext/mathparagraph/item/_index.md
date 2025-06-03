@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 获取指定索引处的项目。只读 IMathBlockaspose.slides.mathtext/imathblock。
 type: docs

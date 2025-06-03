@@ -1,5 +1,5 @@
 ---
-title: PropriétésDuDocument
+title: DocumentProperties
 second_title: Référence API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de la classe DocumentPropertiesaspose.slides/documentproperties.
 type: docs

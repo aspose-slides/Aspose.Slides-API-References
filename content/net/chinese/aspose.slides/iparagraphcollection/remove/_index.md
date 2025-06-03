@@ -1,5 +1,5 @@
 ---
-title: 删除
+title: Remove
 second_title: Aspose.Slides for .NET API 参考
 description: 删除特定段落的第一个出现。
 type: docs

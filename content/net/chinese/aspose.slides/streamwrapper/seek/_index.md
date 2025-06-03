@@ -1,5 +1,5 @@
 ---
-title: 寻找
+title: Seek
 second_title: Aspose.Slides for .NET API 参考
 description: 设置当前流中的位置
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: ColorStyle  
+title: ColorStyle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Farbstil des SmartArt-Objekts zurück oder setzt ihn. Lese-/Schreibzugriff auf SmartArtColorTypeaspose.slides/smartartcolortype.
 type: docs  

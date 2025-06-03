@@ -1,5 +1,5 @@
 ---
-title: Explosión
+title: Explosion
 second_title: Referencia de API de Aspose.Slides para .NET
 description: La distancia de una porción de tarta abierta desde el centro del gráfico de tarta se expresa como un porcentaje del diámetro de la tarta. Lectura/escritura de Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: ISmartArtNode  
+title: ISmartArtNode
 second_title: Aspose.Slides pour la référence API .NET  
 description: Représente un nœud d'un diagramme SmartArt.
 type: docs  

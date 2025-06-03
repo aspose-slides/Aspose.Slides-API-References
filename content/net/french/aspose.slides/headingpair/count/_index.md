@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le nombre de parties dans le groupe. Lecture seule Int32.
 type: docs

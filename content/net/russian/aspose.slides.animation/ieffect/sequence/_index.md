@@ -1,5 +1,5 @@
 ---
-title: Последовательность
+title: Sequence
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает последовательность для эффекта. Свойство только для чтения ISequenceaspose.slides.animation/isequence.
 type: docs

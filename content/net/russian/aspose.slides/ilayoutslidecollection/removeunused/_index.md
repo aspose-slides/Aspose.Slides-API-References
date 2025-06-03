@@ -1,5 +1,5 @@
 ---
-title: УдалитьНеиспользуемые
+title: RemoveUnused
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Удаляет неиспользуемые слайды макета, для которых HasDependingSlides равно false.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Ausblenden
+title: Hide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Machen Sie das Datenlabel standardmäßig unsichtbar, indem Sie alle Show-Flags ShowValue ... der DefaultDataLabelFormat-Eigenschaft auf den falschen Zustand setzen. IsVisible wird danach falsch sein.
 type: docs

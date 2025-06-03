@@ -1,5 +1,5 @@
 ---  
-title: AddDuotoneEffect  
+title: AddDuotoneEffect
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Fügt den neuen Duotone-Effekt am Ende einer Sammlung hinzu.
 type: docs  

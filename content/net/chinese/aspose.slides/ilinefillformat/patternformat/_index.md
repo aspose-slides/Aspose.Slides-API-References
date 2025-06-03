@@ -1,5 +1,5 @@
 ---
-title: 图案格式
+title: PatternFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图案填充格式。只读 IPatternFormataspose.slides/ipatternformat。
 type: docs

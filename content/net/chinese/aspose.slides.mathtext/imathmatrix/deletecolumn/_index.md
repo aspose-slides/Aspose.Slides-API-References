@@ -1,5 +1,5 @@
 ---
-title: 删除列
+title: DeleteColumn
 second_title: Aspose.Slides for .NET API 参考
 description: 删除指定的列
 type: docs

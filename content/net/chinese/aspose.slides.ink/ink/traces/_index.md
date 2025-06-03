@@ -1,5 +1,5 @@
 ---
-title: 跡象
+title: Traces
 second_title: Aspose.Slides for .NET API 参考
 description: 获取 IInk 元素中包含的所有跡象 IInkTraceaspose.slides.ink/iinktrace。只读。
 type: docs

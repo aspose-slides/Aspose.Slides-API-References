@@ -1,5 +1,5 @@
 ---
-title: Diapositivas
+title: Slides
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una lista de todas las diapositivas que están definidas en la presentación. Solo lectura ISlideCollectionaspose.slides/islidecollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 添加节点
+title: AddNode
 second_title: Aspose.Slides for .NET API 参考
 description: 添加新节点或子节点。
 type: docs

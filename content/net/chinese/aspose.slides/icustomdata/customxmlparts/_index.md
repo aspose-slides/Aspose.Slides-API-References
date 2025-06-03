@@ -1,5 +1,5 @@
 ---
-title: 自定义XML部分
+title: CustomXmlParts
 second_title: Aspose.Slides for .NET API 参考
 description: 返回自定义 XML 部分集合。只读 ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection。
 type: docs

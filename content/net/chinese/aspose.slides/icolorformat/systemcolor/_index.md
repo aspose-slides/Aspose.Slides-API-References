@@ -1,5 +1,5 @@
 ---
-title: 系统颜色
+title: SystemColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置由系统颜色表标识的颜色。可读/写 SystemColor aspose.slides/systemcolor。
 type: docs

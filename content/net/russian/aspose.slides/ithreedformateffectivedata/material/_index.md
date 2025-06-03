@@ -1,5 +1,5 @@
 ---
-title: Материал
+title: Material
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает тип материала. Можно только для чтения MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs

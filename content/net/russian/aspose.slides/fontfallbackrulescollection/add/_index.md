@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
 description: Добавьте указанное правило FallBack в конец коллекции.
 type: docs

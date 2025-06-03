@@ -1,5 +1,5 @@
 ---
-title: Saturación
+title: Saturation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el porcentaje de saturación. Solo lectura Single.
 type: docs

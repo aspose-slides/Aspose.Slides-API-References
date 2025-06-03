@@ -1,5 +1,5 @@
 ---
-title: AgregarVideo
+title: AddVideo
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Agrega una copia de un archivo de video de otra presentación.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 嵌入级别
+title: EmbeddingLevel
 second_title: Aspose.Slides for .NET API 参考
 description: 表示嵌入字体的许可权利。
 type: docs

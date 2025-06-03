@@ -1,5 +1,5 @@
 ---
-title: Richtung
+title: Direction
 second_title: Aspose.Slides für .NET API Referenz
 description: Lichtrichtung. Nur-lesbares LightingDirectionaspose.slides/lightingdirection.
 type: docs

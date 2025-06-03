@@ -1,5 +1,5 @@
 ---
-title: AjouterCadreImage
+title: AddPictureFrame
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouveau cadre d'image et l'ajoute à la fin de la collection.
 type: docs

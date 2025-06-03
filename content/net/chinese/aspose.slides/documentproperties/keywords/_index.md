@@ -1,5 +1,5 @@
 ---
-title: 关键字
+title: Keywords
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置演示文稿的关键字。可读/可写字符串。
 type: docs

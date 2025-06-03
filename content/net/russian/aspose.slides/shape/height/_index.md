@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает или задает высоту фигуры. Чтение/запись Single.
 type: docs

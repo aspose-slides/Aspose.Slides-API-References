@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit la hauteur des puces d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion du paragraphe. Lecture/écriture Simple.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Éléments
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la diapositive de mise en page par index. Lecture seule ILayoutSlide aspose.slides/ilayoutslide.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Texto
+title: Text
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene o establece el texto en formato plano para un TextFrame. Cadena de lectura/escritura.
 type: docs

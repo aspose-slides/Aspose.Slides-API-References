@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si le Reflection spécifié aspose.slides.effects/reflection est égal au Reflection actuel aspose.slides.effects/reflection.
 type: docs

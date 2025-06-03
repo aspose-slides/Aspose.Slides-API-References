@@ -1,5 +1,5 @@
 ---
-title: 流
+title: Stream
 second_title: Aspose.Slides for .NET API 参考
 description: 获取一个流。只读流。
 type: docs

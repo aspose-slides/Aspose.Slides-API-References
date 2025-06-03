@@ -1,5 +1,5 @@
 ---
-title: Skala
+title: Scale
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Ansichts-Skalierungsverhältnis in Prozent an. Lese-/schreibbar Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Токен
+title: Token
 second_title: Справочник по API Aspose.Slidеs для .NET
 description: Возвращает новый токен, связанный с этим IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs

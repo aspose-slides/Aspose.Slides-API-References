@@ -1,5 +1,5 @@
 ---
-title: Überstrich
+title: Overbar
 second_title: Aspose.Slides für .NET API-Referenz
 description: Setzt einen Strich über dieses Element
 type: docs

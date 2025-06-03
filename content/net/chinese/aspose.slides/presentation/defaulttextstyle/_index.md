@@ -1,5 +1,5 @@
 ---
-title: 默认文本样式
+title: DefaultTextStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的默认文本样式。为只读 ITextStyle aspose.slides/itextstyle。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или задает позицию 0..1 градиентной остановки. Чтение/запись Single.
 type: docs

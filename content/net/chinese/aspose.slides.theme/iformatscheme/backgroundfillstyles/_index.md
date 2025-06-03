@@ -1,5 +1,5 @@
 ---
-title: 背景填充样式
+title: BackgroundFillStyles
 second_title: Aspose.Slides for .NET API 参考
 description: 返回主题定义的背景填充样式集合。只读 IFillFormatCollection aspose.slides.theme/ifillformatcollection。
 type: docs

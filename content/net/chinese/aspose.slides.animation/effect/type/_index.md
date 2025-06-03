@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 定义效果的类型。可读/写 EffectTypeaspose.slides.animation/effecttype。
 type: docs

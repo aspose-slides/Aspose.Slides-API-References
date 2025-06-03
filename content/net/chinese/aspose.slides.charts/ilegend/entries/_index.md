@@ -1,5 +1,5 @@
 ---
-title: 条目
+title: Entries
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图例条目。只读 ILegendEntryCollection aspose.slides.charts/ilegendentrycollection。
 type: docs

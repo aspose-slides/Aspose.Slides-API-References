@@ -1,5 +1,5 @@
 ---
-title: Sección
+title: Section
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una sección de diapositivas.
 type: docs

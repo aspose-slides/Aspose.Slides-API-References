@@ -1,5 +1,5 @@
 ---
-title: Создание серого масштаба
+title: CreateGrayScale
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Создает эффект серого масштаба.
 type: docs

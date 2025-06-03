@@ -1,5 +1,5 @@
 ---
-title: 符合性
+title: Conformance
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定PresentationML文档符合的符合性类别。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Gleich
+title: Equals
 second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der zurückgegebene Wert wird basierend auf der Struktur der Folien und dem statischen Inhalt berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine eindeutigen Identifikatorwerte, z.B. SlideId, und dynamischen Inhalt, z.B. den aktuellen Datumswert im Datum- Platzhalter.
 type: docs

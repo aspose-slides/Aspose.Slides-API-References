@@ -1,5 +1,5 @@
 ---
-title: Шифрование
+title: Encrypt
 second_title: Справка по API Aspose.Sildes для .NET
 description: Шифрует презентацию с указанным паролем.
 type: docs

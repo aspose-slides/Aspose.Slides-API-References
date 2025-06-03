@@ -1,5 +1,5 @@
 ---
-title: 设置旋转
+title: SetRotation
 second_title: Aspose.Slides for .NET API 参考
 description: 旋转通过使用纬度坐标、经度坐标和关于轴的旋转来定义，作为纬度和经度坐标。如果任何坐标值为 float.NaN，则所有旋转是未定义的。
 type: docs

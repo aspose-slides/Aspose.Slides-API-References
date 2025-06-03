@@ -1,5 +1,5 @@
 ---
-title: Слова
+title: Words
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает общее количество слов, содержащихся в документе. Только для чтения Int32.
 type: docs

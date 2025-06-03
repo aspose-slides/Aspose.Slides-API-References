@@ -1,5 +1,5 @@
 ---
-title: Abstand
+title: Distance
 second_title: Aspose.Slides für .NET API-Referenz
 description: Abstand der Reflexion. Nur-lesbarer Double.
 type: docs

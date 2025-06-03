@@ -1,5 +1,5 @@
 ---
-title: Couleur de fond
+title: BackColor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la couleur du motif de fond. En lecture seule IColorFormat aspose.slides/icolorformat.
 type: docs

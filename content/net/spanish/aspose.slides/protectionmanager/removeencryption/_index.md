@@ -1,5 +1,5 @@
 ---
-title: RemoverEncriptación
+title: RemoveEncryption
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina la encriptación.
 type: docs

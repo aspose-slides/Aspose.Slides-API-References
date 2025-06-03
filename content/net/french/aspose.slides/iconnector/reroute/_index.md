@@ -1,5 +1,5 @@
 ---
-title: Réacheminer
+title: Reroute
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Réachemine le connecteur afin qu'il prenne le chemin le plus court possible entre les formes qu'il connecte.
 type: docs

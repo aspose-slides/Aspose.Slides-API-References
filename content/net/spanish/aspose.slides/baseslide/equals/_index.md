@@ -1,5 +1,5 @@
 ---
-title: Igual
+title: Equals
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si las dos instancias de IBaseSlide son iguales. El valor de retorno se calcula en función de la estructura de las diapositivas y el contenido estático. Dos diapositivas son iguales si todos los estilos, textos, animaciones y otras configuraciones son iguales, etc. La comparación no toma en cuenta los valores de identificador únicos, p. ej. SlideId y contenido dinámico, p. ej. el valor de la fecha actual en Date Placeholder.
 type: docs

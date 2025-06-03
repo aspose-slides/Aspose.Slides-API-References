@@ -1,5 +1,5 @@
 ---
-title: Duotono
+title: Duotone
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un efecto de Duotono. Para cada píxel combina Color1 y Color2 a través de una interpolación lineal para determinar el nuevo color para ese píxel.
 type: docs

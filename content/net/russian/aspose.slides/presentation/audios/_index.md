@@ -1,5 +1,5 @@
 ---
-title: Аудио
+title: Audios
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения IAudioCollection aspose.slides/iaudiocollection.
 type: docs

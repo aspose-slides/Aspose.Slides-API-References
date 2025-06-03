@@ -1,5 +1,5 @@
 ---
-title: 样式索引
+title: StyleIndex
 second_title: Aspose.Slides for .NET API 参考
 description: 返回背景主题集合中 BackgroundType.Themed 填充的索引。0表示无填充。1..999 - 索引。可读/可写 UInt16。
 type: docs

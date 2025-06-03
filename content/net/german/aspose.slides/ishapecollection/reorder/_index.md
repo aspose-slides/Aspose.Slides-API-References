@@ -1,5 +1,5 @@
 ---
-title: Reihenfolge ändern
+title: Reorder
 second_title: Aspose.Slides für .NET API-Referenz
 description: Verschiebt eine Form aus der Sammlung an die angegebene Position.
 type: docs

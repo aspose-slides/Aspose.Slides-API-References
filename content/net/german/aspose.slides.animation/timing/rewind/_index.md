@@ -1,5 +1,5 @@
 ---
-title: Rückspulen
+title: Rewind
 second_title: Aspose.Sildes für .NET API Referenz
 description: Dieses Attribut gibt an, ob der Effekt beim Beenden der Wiedergabe zurückgespult wird. Lese-/Schreib-Boolean.
 type: docs

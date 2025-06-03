@@ -1,5 +1,5 @@
 ---  
-title: AsIFillParamSource  
+title: AsIFillParamSource
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite obtener la interfaz base IFillParamSource. IFillParamSource de solo lectura aspose.slides/ifillparamsource.
 type: docs  

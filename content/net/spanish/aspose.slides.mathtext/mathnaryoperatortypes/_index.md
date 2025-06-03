@@ -1,5 +1,5 @@
 ---
-title: TiposDeOperadorNario
+title: MathNaryOperatorTypes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Tipos de operador nario IMathNaryOperator excluyendo integrales Para integrales MathIntegralTypes./mathintegraltypes
 type: docs

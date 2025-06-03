@@ -1,5 +1,5 @@
 ---
-title: Направление света
+title: LightingDirection
 second_title: Справочник по API Aspose.Slides для .NET
 description: Константы, определяющие направления света.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Überlagerung
+title: Overlay
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob andere Diagrammelemente die Überschrift überlappen dürfen. Lese-/Schreib-Boolean.
 type: docs

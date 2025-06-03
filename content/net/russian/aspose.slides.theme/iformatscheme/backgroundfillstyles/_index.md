@@ -1,5 +1,5 @@
 ---
-title: Стиль заливки фона
+title: BackgroundFillStyles
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию стилей заливки фона, определенных темой. Только для чтения IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs

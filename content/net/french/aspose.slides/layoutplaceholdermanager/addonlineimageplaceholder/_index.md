@@ -1,5 +1,5 @@
 ---
-title: Ajouter un espace réservé pour image en ligne
+title: AddOnlineImagePlaceholder
 second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir une image en ligne.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Подписи
+title: Captions
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет закрытые подписи WebVTT.
 type: docs

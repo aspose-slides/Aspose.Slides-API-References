@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Slides for .NET API 参考
 description: 返回数据点级别的计数。
 type: docs

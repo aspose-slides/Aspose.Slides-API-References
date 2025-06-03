@@ -1,5 +1,5 @@
 ---
-title: 距离
+title: Distance
 second_title: Aspose.Slides for .NET API 参考
 description: 反射的距离。只读 Double。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Passwort
+title: Password
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft das Passwort ab oder legt es fest. Lese-/Schreib-String.
 type: docs

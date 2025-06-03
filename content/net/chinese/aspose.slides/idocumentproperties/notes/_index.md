@@ -1,5 +1,5 @@
 ---
-title: 笔记
+title: Notes
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定包含笔记的演示文稿中的幻灯片数量。只读 Int32。
 type: docs

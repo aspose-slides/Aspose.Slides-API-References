@@ -1,5 +1,5 @@
 ---
-title: InsertarFilaAntes
+title: InsertRowBefore
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Insertar una nueva fila antes de la especificada Inicialmente todos los elementos de la nueva fila son nulos.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 距离
+title: Distance
 second_title: Aspose.Slides for .NET API 参考
 description: 阴影的距离。读/写 Double。
 type: docs

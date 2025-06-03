@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Aspose.Sildes для .NET API Справка
 description: Удаляет первое вхождение конкретного объекта из ICollection.
 type: docs

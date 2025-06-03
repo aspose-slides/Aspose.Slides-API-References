@@ -1,5 +1,5 @@
 ---
-title: 组织结构图布局类型
+title: OrganizationChartLayoutType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示组织结构图中子节点的格式类型
 type: docs

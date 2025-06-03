@@ -1,5 +1,5 @@
 ---
-title: Commentaires
+title: Comments
 second_title: Référence de l’API Aspose.Slides pour .NET
 description: Renvoie ou définit les commentaires d'une présentation. Lecture/écriture Chaîne.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die Regel am angegebenen Index ab. Nur lesbare IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs

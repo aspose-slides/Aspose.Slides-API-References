@@ -1,5 +1,5 @@
 ---
-title: 插入表格
+title: InsertTable
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的表格并将其插入到指定索引的集合中。
 type: docs

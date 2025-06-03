@@ -1,5 +1,5 @@
 ---
-title: 音频
+title: Audios
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回演示文稿中所有嵌入音频文件的集合。只读 IAudioCollection aspose.slides/iaudiocollection。
 type: docs

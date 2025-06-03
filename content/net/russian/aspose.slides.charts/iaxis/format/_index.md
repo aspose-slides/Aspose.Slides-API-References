@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет формат оси. Только для чтения IAxisFormat aspose.slides.charts/iaxisformat.
 type: docs

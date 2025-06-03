@@ -1,5 +1,5 @@
 ---
-title: 超链接鼠标悬停
+title: HyperlinkMouseOver
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置为鼠标悬停定义的超链接。可读写 IHyperlinkaspose.slides/ihyperlink。
 type: docs

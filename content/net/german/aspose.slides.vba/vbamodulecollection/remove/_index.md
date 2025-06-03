@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt die erste Instanz eines bestimmten Objekts aus der Sammlung.
 type: docs

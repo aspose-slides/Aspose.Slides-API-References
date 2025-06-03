@@ -1,5 +1,5 @@
 ---
-title: Tabellenformat
+title: TableFormat
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das TableFormat-Objekt zurück, das Formatierungs Eigenschaften für diese Tabelle enthält. Nur-Lese ITableFormataspose.slides/itableformat.
 type: docs

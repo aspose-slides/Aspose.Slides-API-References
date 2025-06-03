@@ -1,5 +1,5 @@
 ---
-title: Puce
+title: Bullet
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de puce du paragraphe. Lecture seule IBulletFormataspose.slides/ibulletformat.
 type: docs

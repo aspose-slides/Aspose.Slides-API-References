@@ -1,5 +1,5 @@
 ---
-title: 格式
+title: Format
 second_title: Aspose.Slides for .NET API 参考
 description: 表示数据标签的格式。只读 IFormataspose.slides.charts/iformat。
 type: docs

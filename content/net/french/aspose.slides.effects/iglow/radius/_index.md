@@ -1,5 +1,5 @@
 ---
-title: Rayon
+title: Radius
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Rayon. Lecture/écriture Double.
 type: docs

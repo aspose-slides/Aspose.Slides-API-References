@@ -1,5 +1,5 @@
 ---
-title: 获取子元素
+title: GetChildren
 second_title: Aspose.Slides for .NET API 参考
 description: 获取子元素
 type: docs

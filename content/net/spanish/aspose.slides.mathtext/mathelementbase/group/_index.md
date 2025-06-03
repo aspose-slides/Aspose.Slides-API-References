@@ -1,5 +1,5 @@
 ---
-title: Grupo
+title: Group
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Coloca este elemento en un grupo utilizando una llave curvada inferior
 type: docs

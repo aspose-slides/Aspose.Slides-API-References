@@ -1,5 +1,5 @@
 ---
-title: Superposition
+title: Overlay
 second_title: Aspose.Slides pour .NET Référence de l'API
 description: Détermine si d'autres éléments de graphique peuvent chevaucher le titre. Booléen lisible/écrivable.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 收集
+title: Collect
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一组用于从 Presentationaspose.slides/aspose.slides/presentation 收集不同类型模型对象的方法。
 type: docs

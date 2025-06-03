@@ -1,5 +1,5 @@
 ---
-title: Название
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает название схемы шрифта. Только для чтения String.
 type: docs

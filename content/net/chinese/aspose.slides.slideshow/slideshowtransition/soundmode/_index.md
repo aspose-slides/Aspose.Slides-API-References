@@ -1,5 +1,5 @@
 ---
-title: 声音模式
+title: SoundMode
 second_title: Aspose.Slides for .NET API 参考
 description: 设置或返回幻灯片切换的声音模式。可读/可写 TransitionSoundModeaspose.slides.slideshow/transitionsoundmode。
 type: docs

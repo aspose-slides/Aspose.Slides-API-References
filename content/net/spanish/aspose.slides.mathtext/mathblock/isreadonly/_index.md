@@ -1,5 +1,5 @@
 ---  
-title: IsReadOnly  
+title: IsReadOnly
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve false porque la colección de elementos hijos puede ser modificada.
 type: docs  

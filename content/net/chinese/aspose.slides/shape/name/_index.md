@@ -1,5 +1,5 @@
 ---  
-title: 名称  
+title: Name
 second_title: Aspose.Slides for .NET API 参考  
 description: 返回或设置形状的名称。必须不为 null。如有需要使用空字符串值。可读/可写 字符串。
 type: docs  

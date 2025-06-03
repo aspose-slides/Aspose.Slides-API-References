@@ -1,5 +1,5 @@
 ---
-title: Löschen
+title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
 description: Setzen Sie ColorScheme, FontScheme, FormatScheme auf null, um eine Überschreibung mit diesem Themenobjekt zu deaktivieren.
 type: docs

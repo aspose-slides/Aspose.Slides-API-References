@@ -1,5 +1,5 @@
 ---
-title: 实例
+title: Instance
 second_title: Aspose.Slides for .NET API 参考
 description: VBA 项目工厂静态实例。仅读的 VbaProjectFactory aspose.slides.vba/vbaprojectfactory。
 type: docs

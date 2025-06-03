@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справка по API Aspose.Slides для .NET
 description: Возврат ширины ячейки. Только для чтения Double.
 type: docs

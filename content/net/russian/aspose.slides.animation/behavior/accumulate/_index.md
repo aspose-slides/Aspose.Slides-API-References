@@ -1,5 +1,5 @@
 ---
-title: Накопление
+title: Accumulate
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет, накоплены ли анимационные поведения. Запись/чтение NullableBoolaspose.slides/nullablebool.
 type: docs

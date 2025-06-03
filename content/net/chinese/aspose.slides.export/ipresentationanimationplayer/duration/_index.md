@@ -1,5 +1,5 @@
 ---
-title: 持续时间
+title: Duration
 second_title: Aspose.Slides for .NET API参考
 description: 获取动画持续时间ms
 type: docs

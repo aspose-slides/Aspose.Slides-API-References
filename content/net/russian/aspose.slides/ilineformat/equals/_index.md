@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Определяет, равны ли два экземпляра LineFormat.
 type: docs

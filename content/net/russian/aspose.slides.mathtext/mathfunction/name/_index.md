@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Название функции Например, названия функций - это sin и cos
 type: docs

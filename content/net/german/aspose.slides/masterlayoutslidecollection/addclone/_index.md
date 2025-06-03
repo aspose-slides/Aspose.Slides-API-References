@@ -1,6 +1,6 @@
 ---
 
-title: AddClone  
+title: AddClone
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fügt eine Kopie einer bestimmten Layoutfolie am Ende der Sammlung hinzu.
 type: docs  

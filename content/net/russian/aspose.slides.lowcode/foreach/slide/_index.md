@@ -1,5 +1,5 @@
 ---
-title: Слайд
+title: Slide
 second_title: Справочник API Aspose.Slides для .NET
 description: Перебор каждого Слайда aspose.slides.lowcode/foreach/slide в Презентации aspose.slides/presentation.
 type: docs

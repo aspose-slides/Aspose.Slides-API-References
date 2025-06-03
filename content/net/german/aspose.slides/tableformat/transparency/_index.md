@@ -1,5 +1,5 @@
 ---
-title: Transparenz
+title: Transparency
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die Transparenz der Füllfarbe ab oder legt sie fest. Lese-/Schreibzugriff auf Single.
 type: docs

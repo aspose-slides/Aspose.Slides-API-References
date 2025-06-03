@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne le nombre de points dans la collection. En lecture seule Int32.
 type: docs

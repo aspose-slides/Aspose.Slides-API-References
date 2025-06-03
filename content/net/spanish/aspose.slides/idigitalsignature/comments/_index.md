@@ -1,5 +1,5 @@
 ---
-title: Comentarios
+title: Comments
 second_title: Referencia de API de Aspose.Slides para .NET
 description: El propósito de la firma. Cadena de lectura/escritura.
 type: docs

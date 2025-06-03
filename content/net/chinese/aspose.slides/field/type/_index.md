@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置字段类型。可读写 IFieldTypeaspose.slides/ifieldtype。
 type: docs

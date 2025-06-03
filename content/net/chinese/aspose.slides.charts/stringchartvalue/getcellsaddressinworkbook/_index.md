@@ -1,5 +1,5 @@
 ---
-title: 获取工作簿中的单元格地址
+title: GetCellsAddressInWorkbook
 second_title: Aspose.Slides for .NET API 参考
 description: 如果 DataSourceType 属性为 DataSourceType.Worksheet，则此方法返回表示字符串数据的工作簿中单元格的地址。否则返回空字符串。
 type: docs

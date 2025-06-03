@@ -1,5 +1,5 @@
 ---
-title: 添加数学形状
+title: AddMathShape
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个从默认模板调整到数学内容的新自动形状，并将其添加到集合的末尾。
 type: docs

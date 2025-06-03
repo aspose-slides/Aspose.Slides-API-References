@@ -1,5 +1,5 @@
 ---
-title: 最后保存时间
+title: LastSavedTime
 second_title: Aspose.Slides for .NET API 参考
 description: 返回演示文稿最后修改的日期。值为 UTC。对于 Presentation.DocumentProperties 是只读的，因为它将在 IPresentation 对象保存过程中内部更新。可以通过方法 ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties 返回的 DocumentProperties 实例进行更改。请参见 UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties 方法摘要中的示例。
 type: docs

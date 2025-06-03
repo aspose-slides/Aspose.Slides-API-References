@@ -1,5 +1,5 @@
 ---
-title: 刻度标签旋转角度
+title: TickLabelRotationAngle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示刻度标签的旋转角度 读/写 单精度浮点数。
 type: docs

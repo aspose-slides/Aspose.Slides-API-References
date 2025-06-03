@@ -1,5 +1,5 @@
 ---
-title: OrganizaciónDiagramaLayout
+title: OrganizationChartLayout
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el tipo de diseño de diagrama organizativo asociado con el nodo actual. Lectura/escritura OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 气泡大小表示
+title: BubbleSizeRepresentation
 second_title: Aspose.Slides for .NET API 参考
 description: 指定气泡图中气泡大小值的表示方式。可读/可写 BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype。
 type: docs

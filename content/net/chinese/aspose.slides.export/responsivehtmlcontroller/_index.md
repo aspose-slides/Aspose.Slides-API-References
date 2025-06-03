@@ -1,5 +1,5 @@
 ---
-title: 响应式HTML控制器
+title: ResponsiveHtmlController
 second_title: Aspose.Slides for .NET API参考
 description: 响应式HTML控制器
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MostrarAnimación
+title: ShowAnimation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Mostrar Animación en Presentación
 type: docs

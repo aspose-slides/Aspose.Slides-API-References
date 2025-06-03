@@ -1,5 +1,5 @@
 ---
-title: Transición de Orientación
+title: OrientationTransition
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Efecto de transición de diapositivas de orientación.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Radio de Difuminado
+title: BlurRadius
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Radio de difuminado. Lectura/escritura Doble.
 type: docs

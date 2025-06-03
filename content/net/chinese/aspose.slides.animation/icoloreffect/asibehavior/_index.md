@@ -1,5 +1,5 @@
 ---  
-title: AsIBehavior  
+title: AsIBehavior
 second_title: Aspose.Slides for .NET API 参考  
 description: 允许获取基本的 IBehavior 接口。只读 IBehavior aspose.slides.animation/ibehavior。
 type: docs  

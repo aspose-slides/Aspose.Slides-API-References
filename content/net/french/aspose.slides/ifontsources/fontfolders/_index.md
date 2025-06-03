@@ -1,5 +1,5 @@
 ---
-title: DossiersDePolices
+title: FontFolders
 second_title: Référence API Aspose.Slides pour .NET
 description: Dossiers contenant des fichiers de police. Tous les fichiers de police situés dans ces dossiers sont inclus dans la collection. Dossiers qui sont recherchés de manière récursive.
 type: docs

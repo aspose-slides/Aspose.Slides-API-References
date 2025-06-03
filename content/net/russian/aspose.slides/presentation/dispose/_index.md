@@ -1,5 +1,5 @@
 ---
-title: Освободить
+title: Dispose
 second_title: Справочник по API Aspose.Slides для .NET
 description: Освобождает все ресурсы, используемые этим объектом Presentation.
 type: docs

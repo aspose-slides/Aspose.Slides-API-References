@@ -1,6 +1,6 @@
 ---
 
-title: IsTextBox  
+title: IsTextBox
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Especifica si la forma es un cuadro de texto.
 type: docs  

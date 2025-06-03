@@ -1,5 +1,5 @@
 ---
-title: 下标
+title: Subscript
 second_title: Aspose.Slides for .NET API 参考
 description: 下标参数
 type: docs

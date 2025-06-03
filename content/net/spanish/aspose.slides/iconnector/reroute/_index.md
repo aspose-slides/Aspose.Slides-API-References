@@ -1,5 +1,5 @@
 ---
-title: Reenviar
+title: Reroute
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Reenvía el conector para que tome el camino más corto posible entre las formas que conecta.
 type: docs

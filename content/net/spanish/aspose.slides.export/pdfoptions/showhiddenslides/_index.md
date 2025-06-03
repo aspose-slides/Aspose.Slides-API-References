@@ -1,5 +1,5 @@
 ---
-title: MostrarDiapositivasOcultas
+title: ShowHiddenSlides
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica si el documento generado debe incluir diapositivas ocultas o no. El valor predeterminado es falso.
 type: docs

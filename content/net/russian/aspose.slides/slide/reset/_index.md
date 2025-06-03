@@ -1,5 +1,5 @@
 ---
-title: Сброс
+title: Reset
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Сбрасывает размер позиции и форматирование каждой фигуры, которая имеет прототип на LayoutSlide.
 type: docs

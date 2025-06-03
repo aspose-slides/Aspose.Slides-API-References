@@ -1,5 +1,5 @@
 ---
-title: Камера
+title: Camera
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет Камеру.
 type: docs

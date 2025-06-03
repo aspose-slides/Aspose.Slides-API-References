@@ -1,5 +1,5 @@
 ---  
-title: IControlCollection  
+title: IControlCollection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Une collection de contrôles ActiveX.
 type: docs  

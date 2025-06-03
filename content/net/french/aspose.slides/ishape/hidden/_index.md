@@ -1,5 +1,5 @@
 ---
-title: Caché
+title: Hidden
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si la forme est cachée. Booléen en lecture/écriture.
 type: docs

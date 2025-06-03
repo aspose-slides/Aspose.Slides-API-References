@@ -1,5 +1,5 @@
 ---
-title: EstablecerTamaño
+title: SetSize
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establece el tipo de tamaño de diapositiva y escala el contenido usando el tipo de escala. Asignar cualquier valor excepto Personalizado cambiará Sizeaspose.slides/islidesize/size en consecuencia, pero mantendrá Orientationaspose.slides/islidesize/orientation intacto.
 type: docs

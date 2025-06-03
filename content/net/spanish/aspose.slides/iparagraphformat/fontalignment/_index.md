@@ -1,5 +1,5 @@
 ---
-title: AlineaciónFuente
+title: FontAlignment
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece una alineación de fuente en un párrafo sin herencia. Lectura/escritura FontAlignmentaspose.slides/fontalignment.
 type: docs

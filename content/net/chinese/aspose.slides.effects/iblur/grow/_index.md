@@ -1,5 +1,5 @@
 ---
-title: 扩展
+title: Grow
 second_title: Aspose.Slides for .NET API 参考
 description: 确定对象的边界是否应因模糊而扩展。True 表示边界被扩展，而 false 表示没有扩展。可读写布尔值。
 type: docs

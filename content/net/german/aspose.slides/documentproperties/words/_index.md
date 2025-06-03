@@ -1,5 +1,5 @@
 ---
-title: Wörter
+title: Words
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Gesamtzahl der in einem Dokument enthaltenen Wörter zurück. Nur lesbare Int32.
 type: docs

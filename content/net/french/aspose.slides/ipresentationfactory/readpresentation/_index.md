@@ -1,5 +1,5 @@
 ---
-title: LirePrésentation
+title: ReadPresentation
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Lit une présentation existante à partir d'un tableau
 type: docs

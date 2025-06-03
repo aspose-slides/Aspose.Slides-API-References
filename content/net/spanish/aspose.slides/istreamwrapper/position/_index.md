@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene la posición dentro del flujo actual. Solo lectura Int64.
 type: docs

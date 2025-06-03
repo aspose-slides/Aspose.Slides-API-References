@@ -1,5 +1,5 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el conteo de niveles de puntos de datos.
 type: docs

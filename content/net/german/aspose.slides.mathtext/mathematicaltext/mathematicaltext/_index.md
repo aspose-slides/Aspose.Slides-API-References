@@ -1,5 +1,5 @@
 ---
-title: MathematischerText
+title: MathematicalText
 second_title: Aspose.Slides für .NET API-Referenz
 description: Standardkonstruktor erstellt String.Empty-Wert
 type: docs

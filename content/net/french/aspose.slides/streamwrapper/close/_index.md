@@ -1,5 +1,5 @@
 ---
-title: Fermer
+title: Close
 second_title: Référence API Aspose.Slides pour .NET
 description: Ferme le flux actuel et libère toutes les ressources.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Marcador
+title: Marker
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa un marcador de un gráfico.
 type: docs

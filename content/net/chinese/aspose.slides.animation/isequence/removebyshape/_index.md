@@ -1,5 +1,5 @@
 ---
-title: 按形状删除
+title: RemoveByShape
 second_title: Aspose.Slidess for .NET API 参考
 description: 针对指定形状删除效果。
 type: docs

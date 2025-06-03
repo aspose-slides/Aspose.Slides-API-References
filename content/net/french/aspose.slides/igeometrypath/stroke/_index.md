@@ -1,5 +1,5 @@
 ---
-title: Contour
+title: Stroke
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit l'apparence du contour
 type: docs

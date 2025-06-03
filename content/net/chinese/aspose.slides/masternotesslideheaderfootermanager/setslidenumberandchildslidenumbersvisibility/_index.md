@@ -1,5 +1,5 @@
 ---
-title: 设置幻灯片号码和子幻灯片号码的可见性
+title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Slides for .NET API 参考
 description: 更改母版幻灯片页码占位符和所有子页码占位符的可见性。子占位符是指在依赖的备注幻灯片上包含的占位符。依赖的备注幻灯片使用并依赖于母版备注幻灯片。
 type: docs

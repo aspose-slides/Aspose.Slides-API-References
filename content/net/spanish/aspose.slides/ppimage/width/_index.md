@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el ancho de una imagen. Solo lectura Int32.
 type: docs

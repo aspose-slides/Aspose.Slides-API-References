@@ -1,5 +1,5 @@
 ---
-title: Серии
+title: Series
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает доступную только для чтения коллекцию серий диаграмм. Доступная только для чтения IChartSeriesReadonlyCollectionaspose.slides/ichartseriesreadonlycollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 字体
+title: Fonts
 second_title: Aspose.Slides for .NET API 参考
 description: 字体集合。
 type: docs

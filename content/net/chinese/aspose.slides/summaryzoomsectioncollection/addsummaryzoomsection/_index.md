@@ -1,5 +1,5 @@
 ---
-title: 添加摘要缩放部分
+title: AddSummaryZoomSection
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的摘要缩放部分对象并将其添加到集合中
 type: docs

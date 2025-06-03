@@ -1,5 +1,5 @@
 ---
-title: ModoDeConversiónBlancoNegro
+title: BlackWhiteConversionMode
 second_title: Referencia API de Aspose.Slides para .NET
 description: Proporciona opciones que controlan cómo se convertirán las imágenes de las diapositivas en imágenes bitonales.
 type: docs

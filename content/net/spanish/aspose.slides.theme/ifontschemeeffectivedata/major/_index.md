@@ -1,5 +1,5 @@
 ---
-title: Mayor
+title: Major
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de fuentes para una parte de "encabezado" de la diapositiva. Solo lectura IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs

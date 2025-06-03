@@ -1,5 +1,5 @@
 ---
-title: Направление
+title: Direction
 second_title: Справочная документация по Aspose.Slides для .NET
 description: Направление перехода. Чтение/запись TransitionLeftRightDirectionTypeaspose.slides.slideshow/transitionleftrightdirectiontype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 命令字符串
+title: CommandString
 second_title: Aspose.Slides for .NET API 参考
 description: 定义命令字符串。可读/可写字符串。
 type: docs

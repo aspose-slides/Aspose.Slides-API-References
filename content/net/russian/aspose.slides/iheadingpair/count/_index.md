@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество частей в группе. Только для чтения Int32.
 type: docs

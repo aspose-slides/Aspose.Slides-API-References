@@ -1,5 +1,5 @@
 ---
-title: InsertarTabla
+title: InsertTable
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea una nueva tabla e inserta en la colección en el índice especificado.
 type: docs

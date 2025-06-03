@@ -1,5 +1,5 @@
 ---
-title: СкрытьСлева
+title: HideLeft
 second_title: Aspose.Slides для .NET Справочник по API
 description: Скрыть левый край значение по умолчанию - ложь - указывает на скрытое или видимое состояние левого края рамки.
 type: docs

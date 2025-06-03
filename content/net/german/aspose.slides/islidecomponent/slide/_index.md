@@ -1,5 +1,5 @@
 ---
-title: Folie
+title: Slide
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Basisfolie zurück. Schreibgeschützt IBaseSlideaspose.slides/ibaseslide.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Коннектор
+title: Connector
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет собой соединительный элемент.
 type: docs

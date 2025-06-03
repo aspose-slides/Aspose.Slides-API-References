@@ -1,5 +1,5 @@
 ---
-title: 动画文本类型
+title: AnimateTextType
 second_title: Aspose.Slides for .NET API 参考
 description: 定义动画文本效果类型。形状文本可以按字母、按单词或一次性进行动画效果。读取/写入 AnimateTextType。
 type: docs

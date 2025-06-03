@@ -1,5 +1,5 @@
 ---
-title: 项目
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 返回指定位置的元素。只读 IEffectStyleaspose.slides.theme/ieffectstyle。
 type: docs

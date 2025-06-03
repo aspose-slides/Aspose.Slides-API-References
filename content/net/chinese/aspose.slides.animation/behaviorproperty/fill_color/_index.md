@@ -1,5 +1,5 @@
 ---
-title: 填充颜色
+title: Fill_Color
 second_title: Aspose.Slides for .NET API 参考
 description: 代表 fill.color 属性
 type: docs

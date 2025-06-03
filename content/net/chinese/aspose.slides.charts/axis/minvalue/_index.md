@@ -1,5 +1,5 @@
 ---
-title: 最小值
+title: MinValue
 second_title: Aspose.Slides for .NET API 参考
 description: 表示值轴上的最小值。可读/写 Double。
 type: docs

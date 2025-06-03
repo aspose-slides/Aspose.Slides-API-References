@@ -1,5 +1,5 @@
 ---
-title: Отражение
+title: Reflection
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Представляет эффект отражения.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: IDigitalSignature  
+title: IDigitalSignature
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Firma digital en archivo firmado.
 type: docs  

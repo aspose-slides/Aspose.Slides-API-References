@@ -1,5 +1,5 @@
 ---
-title: Disposition
+title: Layout
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la disposition des sections de résumé zoom dans le cadre. La valeur par défaut est GridLayout.
 type: docs

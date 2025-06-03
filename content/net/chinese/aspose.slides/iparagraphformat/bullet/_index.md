@@ -1,5 +1,5 @@
 ---
-title: 项目符号
+title: Bullet
 second_title: Aspose.Slides for .NET API 参考
 description: 返回段落的项目符号格式。只读 IBulletFormataspose.slides/ibulletformat。
 type: docs

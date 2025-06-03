@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft den Schriftschnittnamen am angegebenen Index ab. Nur lesen IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Объект
+title: Object
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает объект модели. Только для чтения TObject.
 type: docs

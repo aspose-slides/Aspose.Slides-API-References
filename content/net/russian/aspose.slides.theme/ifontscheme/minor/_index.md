@@ -1,5 +1,5 @@
 ---
-title: Минор
+title: Minor
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию шрифтов для части "тела" слайда. Только для чтения IFontsaspose.slides/ifonts.
 type: docs

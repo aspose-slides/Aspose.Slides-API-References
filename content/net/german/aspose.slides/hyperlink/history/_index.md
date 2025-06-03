@@ -1,5 +1,5 @@
 ---
-title: Geschichte
+title: History
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob das Ziel des übergeordneten Hyperlinks zu einer Liste der angesehenen Hyperlinks hinzugefügt werden soll, wenn es aufgerufen wird. Lese-/Schreibbare Boolean.
 type: docs

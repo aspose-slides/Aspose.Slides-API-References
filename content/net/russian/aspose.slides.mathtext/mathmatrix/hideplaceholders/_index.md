@@ -1,5 +1,5 @@
 ---
-title: СкрытьЗаполнители
+title: HidePlaceholders
 second_title: Aspose.Slides для .NET API Справочник
 description: Скрыть заполнители для пустых элементов матрицы По умолчанию false
 type: docs

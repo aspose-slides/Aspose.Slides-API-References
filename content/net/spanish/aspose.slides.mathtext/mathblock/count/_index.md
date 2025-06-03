@@ -1,5 +1,5 @@
 ---
-title: Contar
+title: Count
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Obtiene el número de elementos matemáticos hijos que se encuentran realmente en la colección. Solo lectura Int32.
 type: docs

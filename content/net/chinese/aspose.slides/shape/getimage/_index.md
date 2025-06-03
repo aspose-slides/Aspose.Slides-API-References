@@ -1,5 +1,5 @@
 ---
-title: 获取图像
+title: GetImage
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状缩略图。ShapeThumbnailBounds.Shape 形状缩略图边界类型是默认使用的。
 type: docs

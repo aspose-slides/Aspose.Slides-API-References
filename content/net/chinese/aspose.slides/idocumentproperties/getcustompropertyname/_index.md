@@ -1,5 +1,5 @@
 ---
-title: 获取自定义属性名称
+title: GetCustomPropertyName
 second_title: Aspose.Slides for .NET API 参考
 description: 返回指定索引处的自定义属性名称。
 type: docs

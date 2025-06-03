@@ -1,5 +1,5 @@
 ---
-title: 验证图表布局
+title: ValidateChartLayout
 second_title: Aspose.Sildes for .NET API 参考
 description: 计算图表元素的实际值。实际值包括实现 IActualLayout 接口的元素的位置（IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight）以及实际坐标轴值（IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale）
 type: docs

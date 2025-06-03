@@ -1,5 +1,5 @@
 ---
-title: 从 HTML 插入
+title: InsertFromHtml
 second_title: Aspose.Slides for .NET API 参考
 description: 从 HTML 文本创建幻灯片，并将其插入到指定位置的集合中。
 type: docs

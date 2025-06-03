@@ -1,5 +1,5 @@
 ---
-title: 字体颜色
+title: FontColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的字体颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

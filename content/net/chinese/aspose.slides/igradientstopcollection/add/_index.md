@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的渐变停靠点并将其添加到集合的末尾。
 type: docs

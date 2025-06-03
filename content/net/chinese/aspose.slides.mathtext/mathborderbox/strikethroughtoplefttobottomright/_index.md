@@ -1,5 +1,5 @@
 ---
-title: 斜线从左上角到右下角
+title: StrikethroughTopLeftToBottomRight
 second_title: Aspose.Sildes for .NET API 参考
 description: 斜线从左上角到右下角的默认值为 false。指定从边框盒子的左上角到右下角的斜线的隐藏或显示状态。
 type: docs

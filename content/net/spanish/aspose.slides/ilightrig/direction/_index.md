@@ -1,5 +1,5 @@
 ---
-title: Dirección
+title: Direction
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Dirección de la luz. Leer/escribir LightingDirectionaspose.slides/lightingdirection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справка по API Aspose.Slidес для .NET
 description: Получает элемент по указанному индексу.
 type: docs

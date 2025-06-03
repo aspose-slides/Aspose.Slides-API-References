@@ -1,5 +1,5 @@
 ---
-title: SustituirFormatoDeImagen
+title: SubstitutePictureFormat
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el objeto de propiedades de relleno de imagen OleObject. Solo lectura IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs

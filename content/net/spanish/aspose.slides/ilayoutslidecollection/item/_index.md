@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve la diapositiva de diseño por índice. Solo lectura ILayoutSlideaspose.slides/ilayoutslide.
 type: docs

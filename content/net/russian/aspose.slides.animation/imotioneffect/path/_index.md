@@ -1,5 +1,5 @@
 ---
-title: Путь
+title: Path
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает примитив пути, за которым следуют координаты для анимационного движения. Чтение/запись IMotionPathaspose.slides.animation/imotionpath.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 设置自定义属性值
+title: SetCustomPropertyValue
 second_title: Aspose.Slides for .NET API 参考
 description: 设置一个命名的布尔自定义属性。
 type: docs

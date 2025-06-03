@@ -1,5 +1,5 @@
 ---
-title: Avancer
+title: Forward
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le nombre de catégories ou d'unités sur un graphique en nuage de points que la ligne de tendance prolonge après les données pour la série qui est en tendance. Sur les graphiques en nuage de points et non en nuage de points, la valeur doit être toute valeur non négative. Lecture/écriture Double.
 type: docs

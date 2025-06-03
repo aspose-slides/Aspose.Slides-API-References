@@ -1,5 +1,5 @@
 ---
-title: 嵌入文件标签
+title: EmbeddedFileLabel
 second_title: Aspose.Slides for .NET API 参考
 description: 返回嵌入 OLE 对象的文件名
 type: docs

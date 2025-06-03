@@ -1,5 +1,5 @@
 ---
-title: Différentiel
+title: Differential
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Différentiel Lorsque vrai, la case agit comme un différentiel, par exemple, dans un intégrande et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut  faux
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Mots
+title: Words
 second_title: Référence API Aspose.Slides pour .NET
 description: Retourne le nombre total de mots contenus dans un document. Lecture seule Int32.
 type: docs

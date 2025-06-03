@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API-Dokumentation
 description: Gibt die Breite eines Bildes zurück. Nur-Lese Int32.
 type: docs

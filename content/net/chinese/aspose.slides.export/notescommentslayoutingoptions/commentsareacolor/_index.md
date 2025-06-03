@@ -1,5 +1,5 @@
 ---
-title: 评论区域颜色
+title: CommentsAreaColor
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置评论区域的颜色仅在右侧显示评论时适用。
 type: docs

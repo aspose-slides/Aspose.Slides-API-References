@@ -1,5 +1,5 @@
 ---
-title: FechaHora
+title: DateTime
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Fecha y hora actuales en formato de fecha y hora predeterminado para la aplicación de renderizado. Campo de solo lectura FieldTypeaspose.slides/fieldtype.
 type: docs

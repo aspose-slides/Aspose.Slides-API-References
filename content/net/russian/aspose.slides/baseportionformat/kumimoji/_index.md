@@ -1,5 +1,5 @@
 ---
-title: Кумимоиджи
+title: Kumimoji
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, должны ли числа игнорировать текстовое специфическое для восточных языков вертикальное оформление текста. Наследование не применяется. Чтение/запись NullableBool aspose.slides/nullablebool.
 type: docs

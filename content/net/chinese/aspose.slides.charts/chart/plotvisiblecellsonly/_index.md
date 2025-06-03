@@ -1,5 +1,5 @@
 ---
-title: 仅绘制可见单元格
+title: PlotVisibleCellsOnly
 second_title: Aspose.Slides for .NET API 参考
 description: 确定是否仅绘制可见单元格。设置为 False 将绘制可见和隐藏的单元格。可读写布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 高度
+title: Height
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置一个段落的子弹高度，且不进行继承。值 float.NaN 表示子弹从段落中的第一部分继承高度。可读/可写单精度浮点数。
 type: docs

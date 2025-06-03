@@ -1,5 +1,5 @@
 ---
-title: 持续时间
+title: Duration
 second_title: Aspose.Slides for .NET API 参考
 description: 描述动画效果的持续时间。可读可写的单精度浮点数。
 type: docs

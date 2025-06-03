@@ -1,5 +1,5 @@
 ---  
-title: ZoomObject  
+title: ZoomObject
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет объект Zoom в слайде.
 type: docs  

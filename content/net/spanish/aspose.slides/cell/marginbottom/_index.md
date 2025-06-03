@@ -1,5 +1,5 @@
 ---
-title: MargenInferior
+title: MarginBottom
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el margen inferior en un TextFrame. Lectura/escritura Double.
 type: docs

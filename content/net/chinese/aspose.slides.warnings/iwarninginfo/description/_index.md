@@ -1,5 +1,5 @@
 ---
-title: 描述
+title: Description
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回此警告的人类可读描述。只读字符串。
 type: docs

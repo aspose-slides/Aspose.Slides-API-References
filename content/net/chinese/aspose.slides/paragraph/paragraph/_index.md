@@ -1,5 +1,5 @@
 ---
-title: 段落
+title: Paragraph
 second_title: Aspose.Slides for .NET API 参考
 description: 用默认属性初始化 Paragraph 类的新实例。
 type: docs

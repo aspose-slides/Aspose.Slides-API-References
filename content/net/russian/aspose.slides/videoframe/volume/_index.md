@@ -1,5 +1,5 @@
 ---
-title: Громкость
+title: Volume
 second_title: Справка по API Aspose.Slide для .NET
 description: Возвращает или устанавливает громкость аудио. Читаемое/записываемое AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs

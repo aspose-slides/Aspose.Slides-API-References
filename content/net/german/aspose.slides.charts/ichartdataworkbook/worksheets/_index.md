@@ -1,5 +1,5 @@
 ---
-title: Arbeitsblätter
+title: Worksheets
 second_title: Aspose.Sildes für .NET API Referenz
 description: Ruft eine Sammlung von Arbeitsblättern ab.
 type: docs

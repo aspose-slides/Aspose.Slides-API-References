@@ -1,5 +1,5 @@
 ---
-title: 字数
+title: Words
 second_title: Aspose.Slides for .NET API 参考
 description: 指定文档中包含的总字数。只读 Int32。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ReprésentationTailleBulle
+title: BubbleSizeRepresentation
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie comment les valeurs de taille des bulles sont représentées sur le diagramme à bulles. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeRepresentation pour changer la valeur.
 type: docs

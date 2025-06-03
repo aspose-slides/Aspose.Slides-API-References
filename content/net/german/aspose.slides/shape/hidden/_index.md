@@ -1,5 +1,5 @@
 ---
-title: Verborgen
+title: Hidden
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob die Form verborgen ist. Lese/schreibbare boolesche Variable.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Auteur
+title: Author
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'auteur d'un commentaire. Lecture seule ICommentAuthor aspose.slides/icommentauthor.
 type: docs

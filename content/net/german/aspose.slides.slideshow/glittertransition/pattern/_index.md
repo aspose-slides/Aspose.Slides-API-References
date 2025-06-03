@@ -1,5 +1,5 @@
 ---
-title: Muster
+title: Pattern
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Form der visuellen Effekte an, die während der Übergangs verwendet werden. Lese-/Schreibzugriff auf TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs

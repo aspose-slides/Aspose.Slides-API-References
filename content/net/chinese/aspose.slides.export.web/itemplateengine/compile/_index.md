@@ -1,5 +1,5 @@
 ---
-title: 编译
+title: Compile
 second_title: Aspose.Slides for .NET API 参考
 description: 将给定键和模型对象的模板转换为输出。
 type: docs

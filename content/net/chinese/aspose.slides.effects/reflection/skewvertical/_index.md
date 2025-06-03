@@ -1,5 +1,5 @@
 ---
-title: 斜切垂直
+title: SkewVertical
 second_title: Aspose.Slides for .NET API 参考
 description: 指定垂直斜切角度。可读写 Double。
 type: docs

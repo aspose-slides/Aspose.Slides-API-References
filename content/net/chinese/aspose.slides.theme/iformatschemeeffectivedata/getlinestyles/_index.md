@@ -1,5 +1,5 @@
 ---
-title: 获取线条样式
+title: GetLineStyles
 second_title: Aspose.Slides for .NET API 参考
 description: 返回主题定义的线条样式集合。
 type: docs

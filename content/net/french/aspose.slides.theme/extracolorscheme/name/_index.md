@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie un nom de ce schéma. Chaîne en lecture seule.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Aspose.Sildes для .NET API Справочник
 description: Вставляет Параграф в коллекцию по указанному индексу.
 type: docs

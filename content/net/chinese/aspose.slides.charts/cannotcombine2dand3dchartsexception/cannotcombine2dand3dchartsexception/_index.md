@@ -1,5 +1,5 @@
 ---
-title: 不能合并2D和3D图表异常
+title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Slides for .NET API参考
 description: 默认构造函数。
 type: docs

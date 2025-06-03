@@ -1,5 +1,5 @@
 ---
-title: Platzhalter
+title: Placeholder
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Platzhalter für eine Form zurück. Nur-Lesen IPlaceholderaspose.slides/iplaceholder.
 type: docs

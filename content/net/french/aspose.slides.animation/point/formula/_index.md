@@ -1,5 +1,5 @@
 ---
-title: Formule
+title: Formula
 second_title: Référence API Aspose.Slides pour .NET
 description: Les formules dans les valeurs de, à, par les attributs peuvent être composées de ces opérateurs arithmétiques standard - / mod Constants pi e Opérateurs conditionnels abs min max if Opérateurs de comparaison gt Opérateurs trigonométriques sin cos tan asin acos atan Logarithme naturel ln Références de propriété propriétés prises en charge par l'hôte par exemple ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Lire/écrire chaîne.
 type: docs

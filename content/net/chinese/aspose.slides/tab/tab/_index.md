@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Tab
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新标签
 type: docs

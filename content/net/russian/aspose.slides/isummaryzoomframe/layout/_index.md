@@ -1,5 +1,5 @@
 ---
-title: Макет
+title: Layout
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает макет разделов сводного зума в рамке. Значение по умолчанию - GridLayout.
 type: docs

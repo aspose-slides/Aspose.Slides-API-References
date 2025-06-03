@@ -1,5 +1,5 @@
 ---
-title: Persistance
+title: Persistence
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. Lecture seule PersistenceType aspose.slides/persistencetype.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: PptX  
+title: PptX
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente la propriété 'ppt_x'
 type: docs  

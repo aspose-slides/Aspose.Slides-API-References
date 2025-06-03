@@ -1,5 +1,5 @@
 ---
-title: 目标形状
+title: TargetShape
 second_title: Aspose.Slides for .NET API 参考
 description: 返回效果的目标形状。只读 IShape aspose.slides/ishape。
 type: docs

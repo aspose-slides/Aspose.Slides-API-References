@@ -1,5 +1,5 @@
 ---
-title: Contraste
+title: Contrast
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Contraste. Solo lectura de tipo Single.
 type: docs

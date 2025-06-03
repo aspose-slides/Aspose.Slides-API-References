@@ -1,5 +1,5 @@
 ---
-title: VérifierMotDePasse
+title: CheckPassword
 second_title: Référence API Aspose.Slides pour .NET
 description: Vérifie si un mot de passe est correct pour une présentation protégée par un mot de passe ouvert.
 type: docs

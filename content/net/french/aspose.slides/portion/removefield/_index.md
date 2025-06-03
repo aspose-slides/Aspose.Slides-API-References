@@ -1,5 +1,5 @@
 ---  
-title: RemoveField  
+title: RemoveField
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Convertit cette portion de champ en portion simple.
 type: docs  

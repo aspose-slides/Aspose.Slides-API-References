@@ -1,5 +1,5 @@
 ---  
-title: ShapeLock  
+title: ShapeLock
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie les verrous de formes. Lecture seule IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs  

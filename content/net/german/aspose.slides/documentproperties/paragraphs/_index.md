@@ -1,5 +1,5 @@
 ---
-title: Absätze
+title: Paragraphs
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Gesamtzahl der in einem Dokument gefundenen Absätze zurück, falls zutreffend. Nur-Lese Int32.
 type: docs

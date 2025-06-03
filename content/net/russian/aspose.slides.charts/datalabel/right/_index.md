@@ -1,5 +1,5 @@
 ---
-title: Правый
+title: Right
 second_title: Справочник по API Aspose.Slides для .NET
 description: Правый. Свойство только для чтения типа Single.
 type: docs

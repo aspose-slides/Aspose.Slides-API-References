@@ -1,5 +1,5 @@
 ---
-title: 旋转中心
+title: RotationCenter
 second_title: Aspose.Slides for .NET API 参考
 description: 描述用于按 X 角度旋转运动路径的旋转中心。可读写 PointF。
 type: docs

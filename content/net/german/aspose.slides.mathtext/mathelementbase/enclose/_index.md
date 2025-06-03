@@ -1,5 +1,5 @@
 ---
-title: Einschließen
+title: Enclose
 second_title: Aspose.Slides für .NET API-Referenz
 description: Schließt ein Mathe-Element in angegebenen Zeichen wie Klammern oder anderen Zeichen als Rahmen ein
 type: docs

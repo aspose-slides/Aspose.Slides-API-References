@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или задаёт имя основного слайда. Читаемая/записываемая строка.
 type: docs

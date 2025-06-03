@@ -1,5 +1,5 @@
 ---
-title: Speichern
+title: Save
 second_title: Aspose.Sildes für .NET API Referenz
 description: Speichert das Bild in einer Datei.
 type: docs

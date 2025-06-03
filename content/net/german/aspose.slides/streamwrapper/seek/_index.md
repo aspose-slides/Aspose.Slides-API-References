@@ -1,5 +1,5 @@
 ---
-title: Suchen
+title: Seek
 second_title: Aspose.Slides für .NET API-Referenz
 description: Setzt die Position innerhalb des aktuellen Streams
 type: docs

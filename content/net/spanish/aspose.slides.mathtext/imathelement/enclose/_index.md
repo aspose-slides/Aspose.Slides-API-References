@@ -1,5 +1,5 @@
 ---
-title: Encerrar
+title: Enclose
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Encierra un elemento matemático entre paréntesis
 type: docs

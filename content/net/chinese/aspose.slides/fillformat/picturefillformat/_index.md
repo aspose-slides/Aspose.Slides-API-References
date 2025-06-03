@@ -1,5 +1,5 @@
 ---
-title: 图片填充格式
+title: PictureFillFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图片填充格式。只读 IPictureFillFormataspose.slides/ipicturefillformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 创建图像包装器
+title: CreateImageWrapper
 second_title: Aspose.Slides for .NET API 参考
 description: 从指定的现有图像初始化 ImageWrapper 类的新实例。
 type: docs

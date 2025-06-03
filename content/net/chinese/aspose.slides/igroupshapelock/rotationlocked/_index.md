@@ -1,5 +1,5 @@
 ---
-title: 旋转锁定
+title: RotationLocked
 second_title: Aspose.Sildes for .NET API 参考
 description: 确定是否禁止更改该形状的旋转角度。可读/可写布尔值。
 type: docs

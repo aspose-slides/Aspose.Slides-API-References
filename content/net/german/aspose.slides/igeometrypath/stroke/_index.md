@@ -1,5 +1,5 @@
 ---
-title: Strich
+title: Stroke
 second_title: Aspose.Slides für .NET API-Referenz
 description: Legt das Aussehen des Strichs fest
 type: docs

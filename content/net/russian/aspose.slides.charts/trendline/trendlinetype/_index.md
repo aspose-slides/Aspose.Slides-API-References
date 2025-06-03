@@ -1,5 +1,5 @@
 ---
-title: ТипТрендовойЛинии
+title: TrendlineType
 second_title: Aspose.Slides для .NET API Справочник
 description: Получает или задает тип трендовой линии. Чтение/запись TrendlineTypeaspose.slides.charts/trendlinetype.
 type: docs

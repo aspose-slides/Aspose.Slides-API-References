@@ -1,5 +1,5 @@
 ---
-title: 显示异常点
+title: ShowOutlierPoints
 second_title: Aspose.Slides for .NET API 参考
 description: 表示异常点。如果在 BoxAndWhisker 图上显示异常点，则为 True。仅适用于 BoxAndWhisker 图。可读/写布尔值。
 type: docs

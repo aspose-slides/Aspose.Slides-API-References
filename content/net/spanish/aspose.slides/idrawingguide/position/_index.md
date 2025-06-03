@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece la posición de la guía de dibujo en puntos desde la esquina superior izquierda de la diapositiva. Lectura/escritura Simple.
 type: docs

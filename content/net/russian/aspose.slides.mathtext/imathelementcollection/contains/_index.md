@@ -1,5 +1,5 @@
 ---
-title: Содержит
+title: Contains
 second_title: Aspose.Slides для .NET Справочник API
 description: Определяет, содержит ли коллекция определенное значение.
 type: docs

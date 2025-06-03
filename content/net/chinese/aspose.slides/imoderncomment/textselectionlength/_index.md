@@ -1,5 +1,5 @@
 ---
-title: 文本选择长度
+title: TextSelectionLength
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置与自动形状关联的文本框中的文本选择长度。可读/可写 Int32。
 type: docs

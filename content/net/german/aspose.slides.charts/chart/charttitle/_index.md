@@ -1,5 +1,5 @@
 ---
-title: Diagrammtitel
+title: ChartTitle
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Diagrammtitel zurück oder legt ihn fest. Nur-Lese IChartTitleaspose.slides/icharttitle.
 type: docs

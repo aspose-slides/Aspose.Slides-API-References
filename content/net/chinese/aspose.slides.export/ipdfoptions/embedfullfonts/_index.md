@@ -1,5 +1,5 @@
 ---
-title: 嵌入全部字体
+title: EmbedFullFonts
 second_title: Aspose.Slides for .NET API 参考
 description: 确定是否应嵌入字体的所有字符或仅使用子集。 可读/写布尔值。
 type: docs

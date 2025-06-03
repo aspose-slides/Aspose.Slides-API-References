@@ -1,5 +1,5 @@
 ---
-title: 重排序
+title: Reorder
 second_title: Aspose.Slides for .NET API 参考
 description: 将形状从集合中移动到指定位置。
 type: docs

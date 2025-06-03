@@ -1,5 +1,5 @@
 ---
-title: Keine
+title: None
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt ein leeres Unterbrechungstoken dar. Lang laufende Operationen werden niemals über Interruptaspose.slides/interruptiontokensource/interrupt unterbrochen, wenn dieses Token verwendet wird.
 type: docs

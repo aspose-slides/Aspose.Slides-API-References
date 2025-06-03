@@ -1,5 +1,5 @@
 ---
-title: 复杂脚本字体
+title: ComplexScriptFont
 second_title: Aspose.Slides for .NET API 参考
 description: 返回复杂脚本字体信息。只读 IFontData aspose.slides/ifontdata。
 type: docs

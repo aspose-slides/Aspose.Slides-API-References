@@ -1,5 +1,5 @@
 ---
-title: Поведения
+title: Behaviors
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию поведений для эффекта. Чтение/Запись IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs

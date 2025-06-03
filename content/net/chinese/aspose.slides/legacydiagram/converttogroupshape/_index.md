@@ -1,5 +1,5 @@
 ---
-title: 转换为群组形状
+title: ConvertToGroupShape
 second_title: Aspose.Slides for .NET API 参考
 description: 将遗留图表转换为可编辑的群组形状。创建的 GroupShape 对象在相同位置添加到父群组形状中。
 type: docs

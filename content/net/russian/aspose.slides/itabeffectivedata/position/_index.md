@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать недействительным Enumerator. Только для чтения Double.
 type: docs

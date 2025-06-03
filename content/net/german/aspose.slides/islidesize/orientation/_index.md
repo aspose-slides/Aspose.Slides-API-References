@@ -1,5 +1,5 @@
 ---
-title: Ausrichtung
+title: Orientation
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Folienausrichtung zurück oder legt sie fest. Ändern dieses Wertes tauscht die Abmessungen der Folie aus. Lese-/Schreibzugriff auf SlideOrientation aspose.slides/slideorientation.
 type: docs

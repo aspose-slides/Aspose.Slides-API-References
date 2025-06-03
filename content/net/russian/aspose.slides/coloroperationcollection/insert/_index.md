@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Вставляет новую операцию в коллекцию.
 type: docs

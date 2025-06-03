@@ -1,5 +1,5 @@
 ---
-title: Buscar
+title: Seek
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Establece la posición dentro del flujo actual
 type: docs

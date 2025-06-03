@@ -1,5 +1,5 @@
 ---
-title: Groß/Kleinschreibung
+title: CaseSensitive
 second_title: Aspose.Slides für .NET API-Referenz
 description: Setzen Sie true, um eine groß-/kleinschreibungsabhängige Suche zu verwenden, false - andernfalls. Lese-/Schreib-Boolean.
 type: docs

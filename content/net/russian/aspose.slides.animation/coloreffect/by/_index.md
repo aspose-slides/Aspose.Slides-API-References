@@ -1,5 +1,5 @@
 ---
-title: По
+title: By
 second_title: Справка по API Aspose.Slides для .NET
 description: Описывает значение относительного смещения для цветовой анимации. Чтение/запись IColorOffsetaspose.slides.animation/icoloroffset.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Boden
+title: Floor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Objekt zurück, das es ermöglicht, das Format des Bodens eines 3D-Diagramms zu ändern. Nur lesbar IChartWallaspose.slides.charts/ichartwall.
 type: docs

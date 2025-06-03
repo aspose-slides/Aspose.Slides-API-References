@@ -1,5 +1,5 @@
 ---  
-title: Name  
+title: Name
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Namen des VBA-Projekts zurück. Nur-Lese-String.
 type: docs  

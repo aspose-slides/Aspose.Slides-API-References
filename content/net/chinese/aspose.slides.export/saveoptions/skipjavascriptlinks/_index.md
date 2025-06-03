@@ -1,5 +1,5 @@
 ---  
-title: SkipJavaScriptLinks  
+title: SkipJavaScriptLinks
 second_title: Aspose.Slides for .NET API Reference  
 description: 指定在保存演示文稿时是否跳过带有 JavaScript 调用的超链接。可读/可写布尔值。默认值为 false。
 type: docs  

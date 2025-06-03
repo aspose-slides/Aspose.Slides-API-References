@@ -1,5 +1,5 @@
 ---
-title: 获取节的幻灯片列表
+title: GetSlidesListOfSection
 second_title: Aspose.Slides for .NET API 参考
 description: 返回节中的幻灯片列表。
 type: docs

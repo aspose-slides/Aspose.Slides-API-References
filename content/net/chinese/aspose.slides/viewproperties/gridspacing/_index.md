@@ -1,5 +1,5 @@
 ---
-title: 网格间距
+title: GridSpacing
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置用于演示文档底层网格的网格间距（以点为单位）。可读/写单精度浮点数。
 type: docs

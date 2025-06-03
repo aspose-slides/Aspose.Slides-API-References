@@ -1,5 +1,5 @@
 ---
-title: Тайминг
+title: Timing
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Определяет значение тайминга для эффекта. Чтение/запись ITimingaspose.slides.animation/itiming.
 type: docs

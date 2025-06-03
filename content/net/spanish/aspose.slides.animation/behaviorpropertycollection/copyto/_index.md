@@ -1,5 +1,5 @@
 ---
-title: CopiarA
+title: CopyTo
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Copia los elementos de ICollection a un Array comenzando en un índice particular de Array.
 type: docs

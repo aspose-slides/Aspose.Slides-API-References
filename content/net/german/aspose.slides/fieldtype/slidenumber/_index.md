@@ -1,5 +1,5 @@
 ---
-title: Foliennummer
+title: SlideNumber
 second_title: Aspose.Slides für .NET API Referenz
 description: Aktuelle Foliennummer. Schreibgeschütztes FieldTypeaspose.slides/fieldtype.
 type: docs

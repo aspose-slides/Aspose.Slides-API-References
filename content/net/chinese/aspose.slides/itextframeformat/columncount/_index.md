@@ -1,5 +1,5 @@
 ---
-title: 列数
+title: ColumnCount
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置文本区域中的列数。该值必须是正数。否则，该值将被设置为零。值为0意味着未定义值。可读/可写 Int32。
 type: docs

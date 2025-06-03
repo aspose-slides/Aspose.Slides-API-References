@@ -1,5 +1,5 @@
 ---
-title: EstiloDeEfecto
+title: EffectStyle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un estilo de efecto.
 type: docs

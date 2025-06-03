@@ -1,5 +1,5 @@
 ---  
-title: InsertGroupShape  
+title: InsertGroupShape
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée un nouvel objet GroupShape et l'insère dans la collection à l'index spécifié. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
 type: docs  

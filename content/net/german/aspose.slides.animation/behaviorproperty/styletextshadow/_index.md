@@ -1,5 +1,5 @@
 ---  
-title: StyleTextShadow  
+title: StyleTextShadow
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt die Eigenschaft style.textShadow dar
 type: docs  

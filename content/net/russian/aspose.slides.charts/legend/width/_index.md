@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или задает ширину легенды как долю ширины диаграммы. Чтение/запись Single.
 type: docs

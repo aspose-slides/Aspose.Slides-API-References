@@ -1,5 +1,5 @@
 ---
-title: ФорматМинорныхСеток
+title: MinorGridLinesFormat
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Представляет формат минорных сеток на оси диаграммы. Только для чтения IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs

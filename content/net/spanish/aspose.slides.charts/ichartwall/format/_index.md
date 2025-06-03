@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Devuelve los estilos 3D del efecto de línea de relleno de pared. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs

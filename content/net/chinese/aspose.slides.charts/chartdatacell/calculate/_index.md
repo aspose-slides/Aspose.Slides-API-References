@@ -1,5 +1,5 @@
 ---
-title: 计算
+title: Calculate
 second_title: Aspose.Slides for .NET API 参考
 description: 如果单元格包含公式，值将根据该公式更新。
 type: docs

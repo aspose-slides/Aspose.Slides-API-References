@@ -1,5 +1,5 @@
 ---
-title: Cadre
+title: Frame
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit les propriétés des cadres de forme. Lecture/écriture IShapeFrameaspose.slides/ishapeframe.
 type: docs

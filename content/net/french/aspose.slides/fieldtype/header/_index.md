@@ -1,5 +1,5 @@
 ---
-title: En-tête
+title: Header
 second_title: Référence API Aspose.Slides pour .NET
 description: En-tête des diapositives. Champ en lecture seule FieldTypeaspose.slides/fieldtype.
 type: docs

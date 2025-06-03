@@ -1,5 +1,5 @@
 ---
-title: TipoDeEfecto
+title: EffectType
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el tipo de un efecto de animación.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 段落
+title: Paragraph
 second_title: Aspose.Slides for .NET API 参考
 description: 遍历每个段落aspose.slides.lowcode/foreach/paragraph 在演示文稿aspose.slides/presentation中。形状将在所有类型的幻灯片中遍历 - 幻灯片aspose.slides.lowcode/foreach/slide 主幻灯片aspose.slides.lowcode/foreach/masterslide 和布局幻灯片aspose.slides.lowcode/foreach/layoutslide
 type: docs

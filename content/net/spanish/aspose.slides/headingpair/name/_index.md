@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el nombre del grupo de partes del documento. Solo lectura String.
 type: docs

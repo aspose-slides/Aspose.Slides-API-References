@@ -1,5 +1,5 @@
 ---
-title: Diseño
+title: Layout
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el diseño de las Secciones de Resumen de Zoom en el marco. El valor predeterminado es GridLayout.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: 格式方案  
+title: FormatScheme
 second_title: Aspose.Slides for .NET API 参考  
 description: 返回形状格式方案。只读 IFormatScheme aspose.slides.theme/iformatscheme。
 type: docs  

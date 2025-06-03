@@ -1,5 +1,5 @@
 ---
-title: AnimaciónDeTexto
+title: TextAnimation
 second_title: Referencia de API de Aspose.Slides para .NET
 description: AnimaciónDeTexto Solo lectura ITextAnimationaspose.slides.animation/itextanimation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 内容类型
+title: ContentType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回视频的 MIME 类型，编码为 BinaryDataaspose.slides/video/binarydata。只读字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Увеличение
+title: Zoom
 second_title: Справочник по API Aspose.Slides для .NET
 description: Параметр увеличения камеры, положительное значение в процентах. Чтение/запись Single.
 type: docs

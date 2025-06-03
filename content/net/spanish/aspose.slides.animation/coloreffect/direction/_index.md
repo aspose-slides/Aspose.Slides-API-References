@@ -1,5 +1,5 @@
 ---
-title: Dirección
+title: Direction
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica en qué dirección ciclar el matiz alrededor de la rueda de colores. Lectura/escritura ColorDirectionaspose.slides.animation/colordirection.
 type: docs

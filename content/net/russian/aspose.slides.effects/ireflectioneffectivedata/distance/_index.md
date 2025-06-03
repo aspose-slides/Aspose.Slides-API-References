@@ -1,5 +1,5 @@
 ---
-title: Расстояние
+title: Distance
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Расстояние отражения. Только для чтения Double.
 type: docs

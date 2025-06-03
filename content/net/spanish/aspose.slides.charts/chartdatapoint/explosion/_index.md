@@ -1,5 +1,5 @@
 ---
-title: Explosión
+title: Explosion
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la cantidad que el punto de datos se moverá desde el centro de la gráfica circular. Lectura/escritura Int32.
 type: docs

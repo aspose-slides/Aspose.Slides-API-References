@@ -1,5 +1,5 @@
 ---
-title: Данные
+title: Data
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает объект Data. Читаемый/записываемый объект.
 type: docs

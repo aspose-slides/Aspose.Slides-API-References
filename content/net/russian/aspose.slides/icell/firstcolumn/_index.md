@@ -1,5 +1,5 @@
 ---
-title: ПерваяКолонка
+title: FirstColumn
 second_title: Справочник API Aspose.Slides для .NET
 description: Получает первую колонку ячейки. Только для чтения IColumn aspose.slides/icolumn.
 type: docs

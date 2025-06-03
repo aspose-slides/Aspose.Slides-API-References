@@ -1,5 +1,5 @@
 ---  
-title: InterruptionToken  
+title: InterruptionToken
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Esta clase representa el token a utilizar para señalar tareas de larga duración si se solicitó la interrupción.
 type: docs  

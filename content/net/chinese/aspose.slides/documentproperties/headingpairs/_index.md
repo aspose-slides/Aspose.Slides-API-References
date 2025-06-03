@@ -1,5 +1,5 @@
 ---
-title: 章节对
+title: HeadingPairs
 second_title: Aspose.Slides for .NET API 参考
 description: 表示文档部分的分组以及每组中的部分数量。只读 IHeadingPair。
 type: docs

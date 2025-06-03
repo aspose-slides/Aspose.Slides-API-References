@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает имя шрифта по указанному индексу. Только для чтения IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs

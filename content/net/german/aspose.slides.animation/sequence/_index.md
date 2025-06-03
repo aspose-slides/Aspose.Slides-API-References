@@ -1,5 +1,5 @@
 ---  
-title: Sequenz  
+title: Sequence
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt eine Sequenzsammlung von Effekten dar.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Выравнивание
+title: Alignment
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает стиль выравнивания таба. Свойство только для чтения TabAlignmentaspose.slides/tabalignment.
 type: docs

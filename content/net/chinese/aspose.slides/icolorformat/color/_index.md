@@ -1,5 +1,5 @@
 ---
-title: 颜色
+title: Color
 second_title: Aspose.Slides for .NET API 参考
 description: 返回应用所有颜色变换后的结果颜色。设置 RGB 颜色并清除所有颜色变换。读/写 Color。
 type: docs

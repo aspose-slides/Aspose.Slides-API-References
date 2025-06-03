@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает высоту изображения. Только для чтения Int32.
 type: docs

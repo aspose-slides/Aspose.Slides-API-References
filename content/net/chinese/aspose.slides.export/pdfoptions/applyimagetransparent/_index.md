@@ -1,5 +1,5 @@
 ---
-title: 应用图像透明
+title: ApplyImageTransparent
 second_title: Aspose.Slides for .NET API 参考
 description: 如果为真，则对图像应用指定的透明颜色。
 type: docs

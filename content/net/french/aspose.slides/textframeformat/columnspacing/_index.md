@@ -1,5 +1,5 @@
 ---
-title: EspacementDesColonnes
+title: ColumnSpacing
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit l'espace entre les colonnes de texte dans la zone de texte en points. Cela ne devrait s'appliquer que lorsqu'il y a plus d'une colonne présente. Cette valeur doit être un nombre positif. Sinon, la valeur sera fixée à zéro. Lecture/écriture Double.
 type: docs

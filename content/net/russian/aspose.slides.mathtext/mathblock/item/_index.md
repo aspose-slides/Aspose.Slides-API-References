@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник API Aspose.Slides для .NET
 description: Получает или задает IMathElement по указанному индексу.
 type: docs

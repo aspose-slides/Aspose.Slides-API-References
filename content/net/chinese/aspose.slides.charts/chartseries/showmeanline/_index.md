@@ -1,5 +1,5 @@
 ---
-title: 显示均值线
+title: ShowMeanLine
 second_title: Aspose.Slides for .NET API 参考
 description: 表示均值线。如果在箱形图中显示均值线，则为真。仅适用于箱形图。可读/写布尔值。
 type: docs

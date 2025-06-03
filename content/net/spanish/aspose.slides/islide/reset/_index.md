@@ -1,5 +1,5 @@
 ---
-title: Reiniciar
+title: Reset
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Reinicia el tamaño de posición y el formato de cada forma que tiene un prototipo en LayoutSlide.
 type: docs

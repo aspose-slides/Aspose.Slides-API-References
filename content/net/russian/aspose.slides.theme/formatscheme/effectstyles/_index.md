@@ -1,5 +1,5 @@
 ---
-title: Эффектные стили
+title: EffectStyles
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает коллекцию стилей эффектов, определенных темой. Только для чтения IEffectStyleCollectionaspose.slides.theme/ieffectstylecollection.
 type: docs

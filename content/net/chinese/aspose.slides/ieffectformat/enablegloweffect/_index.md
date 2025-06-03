@@ -1,5 +1,5 @@
 ---
-title: 启用发光效果
+title: EnableGlowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 启用发光效果。
 type: docs

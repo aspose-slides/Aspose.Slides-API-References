@@ -1,5 +1,5 @@
 ---
-title: 多媒体片段
+title: MultimediaClips
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文档中存在的音频或视频片段的总数。只读 Int32。
 type: docs

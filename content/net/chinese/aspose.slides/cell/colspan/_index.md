@@ -1,5 +1,5 @@
 ---
-title: 列合并
+title: ColSpan
 second_title: Aspose.Slides for .NET API 参考
 description: 返回当前单元格应跨越的父表的表格网格中的列数。该属性允许单元格看起来像是合并的，因为它们跨越了表中其他单元格的垂直边界。只读 Int32。
 type: docs

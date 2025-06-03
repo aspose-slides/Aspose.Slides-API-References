@@ -1,5 +1,5 @@
 ---
-title: 像素格式
+title: PixelFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 指定生成图像的像素格式。可读/写 ImagePixelFormataspose.slides/imagepixelformat。
 type: docs

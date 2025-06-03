@@ -1,5 +1,5 @@
 ---
-title: 布局幻灯片
+title: LayoutSlide
 second_title: Aspose.Slides for .NET API 参考
 description: 迭代每个 LayoutSlide aspose.slides.lowcode/foreach/layoutslide 在 Presentation aspose.slides/presentation 中。
 type: docs

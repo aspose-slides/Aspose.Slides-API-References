@@ -1,5 +1,5 @@
 ---
-title: Fondo
+title: Background
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el fondo de las diapositivas. Solo lectura IBackground aspose.slides/ibackground.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Метка
+title: Label
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет метку точки данных диаграммы. Только для чтения IDataLabelaspose.slides.charts/idatalabel.
 type: docs

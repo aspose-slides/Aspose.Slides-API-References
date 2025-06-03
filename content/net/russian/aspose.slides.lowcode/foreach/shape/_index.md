@@ -1,5 +1,5 @@
 ---
-title: Фигура
+title: Shape
 second_title: Aspose.Slides для .NET API Справочник
 description: Итерация каждой Фигуры aspose.slides.lowcode/foreach/shape в Презентации aspose.slides/presentation. Фигуры будут итерироваться на всех типах слайдов - Слайд aspose.slides.lowcode/foreach/slide, ГлавныйСлайд aspose.slides.lowcode/foreach/masterslide и МакетныйСлайд aspose.slides.lowcode/foreach/layoutslide
 type: docs

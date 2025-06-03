@@ -1,5 +1,5 @@
 ---
-title: Efecto
+title: Effect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un efecto de animación.
 type: docs

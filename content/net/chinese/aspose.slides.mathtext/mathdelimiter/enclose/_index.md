@@ -1,5 +1,5 @@
 ---
-title: 包围
+title: Enclose
 second_title: Aspose.Slides for .NET API 参考
 description: 将数学元素用指定字符包围，例如括号或其他用于框架的字符
 type: docs

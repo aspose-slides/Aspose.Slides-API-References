@@ -1,5 +1,5 @@
 ---  
-title: GetEffective  
+title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取应用了继承的有效三维格式数据。
 type: docs  

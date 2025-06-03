@@ -1,5 +1,5 @@
 ---
-title: 颜色格式
+title: ColorFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 表示在演示文稿中使用的颜色。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Tono
+title: Hue
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el componente de tono de un color en representación HSL. Se ignoran todas las transformaciones de color. Lectura/escritura Single.
 type: docs

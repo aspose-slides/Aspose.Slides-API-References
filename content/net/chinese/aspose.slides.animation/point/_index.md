@@ -1,5 +1,5 @@
 ---
-title: 点
+title: Point
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示动画点。
 type: docs

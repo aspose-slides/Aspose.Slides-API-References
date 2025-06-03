@@ -1,5 +1,5 @@
 ---
-title: 渐变停靠点
+title: GradientStops
 second_title: Aspose.Slides for .NET API 参考
 description: 返回渐变停靠点的集合。只读 IGradientStopCollectionaspose.slides/igradientstopcollection。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 过渡模式
+title: TransitionPattern
 second_title: Aspose.Slides for .NET API 参考
 description: 指定一个几何图案，拼接在一起以填充更大的区域。
 type: docs

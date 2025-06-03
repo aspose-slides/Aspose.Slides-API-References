@@ -1,5 +1,5 @@
 ---
-title: LinksAktuell
+title: LinksUpToDate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, ob Hyperlinks in einem Dokument aktuell sind. Setzen Sie dieses Element auf true, um anzugeben, dass die Hyperlinks aktualisiert sind. Setzen Sie dieses Element auf false, um anzugeben, dass die Hyperlinks veraltet sind. Lese-/schreibbarer Boolescher Wert.
 type: docs

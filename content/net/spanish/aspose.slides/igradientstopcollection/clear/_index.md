@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los puntos de degradado de una colección.
 type: docs

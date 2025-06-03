@@ -1,5 +1,5 @@
 ---
-title: 三维格式
+title: ThreeDFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含形状线条格式属性的 ThreeDFormat 对象。只读 IThreeDFormat aspose.slides/ithreedformat。
 type: docs

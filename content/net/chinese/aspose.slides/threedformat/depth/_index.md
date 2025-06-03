@@ -1,5 +1,5 @@
 ---
-title: 深度
+title: Depth
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 3D 形状的深度。可读写 Double 类型。
 type: docs

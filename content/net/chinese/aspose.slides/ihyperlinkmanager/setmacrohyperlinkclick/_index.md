@@ -1,5 +1,5 @@
 ---
-title: 设置宏超链接点击
+title: SetMacroHyperlinkClick
 second_title: Aspose.Slides for .NET API 参考
 description: 在点击时设置宏超链接。
 type: docs

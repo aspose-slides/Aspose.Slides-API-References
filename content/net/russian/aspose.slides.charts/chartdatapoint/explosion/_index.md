@@ -1,5 +1,5 @@
 ---
-title: Взрыв
+title: Explosion
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает, на сколько следует сместить точку данных от центра пирога. Чтение/запись Int32.
 type: docs

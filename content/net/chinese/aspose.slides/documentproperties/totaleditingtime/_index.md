@@ -1,5 +1,5 @@
 ---
-title: 总编辑时间
+title: TotalEditingTime
 second_title: Aspose.Slides for .NET API 参考
 description: 演示文稿的总编辑时间。可读/写 TimeSpan。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: УдалитьПоИндексу
+title: RemoveAt
 second_title: Aspose.Slides для .NET Справочник по API
 description: Удаляет элемент по указанному индексу из коллекции.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: SombraOpacidad
+title: ShadowOpacity
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad shadow.opacity
 type: docs

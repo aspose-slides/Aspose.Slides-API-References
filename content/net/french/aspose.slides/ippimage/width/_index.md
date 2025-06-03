@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie une largeur d'une image. Lecture seule Int32.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 获取替代字体
+title: GetSubstitutions
 second_title: Aspose.Slides for .NET API 参考
 description: 获取将在演示文稿渲染时被替换的字体信息。
 type: docs

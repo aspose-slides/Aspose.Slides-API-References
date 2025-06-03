@@ -1,5 +1,5 @@
 ---
-title: 图像
+title: Image
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置嵌入的图像。读/写 IPPImageaspose.slides/ippimage。
 type: docs

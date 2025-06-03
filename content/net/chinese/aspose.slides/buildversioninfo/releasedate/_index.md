@@ -1,5 +1,5 @@
 ---
-title: 发行日期
+title: ReleaseDate
 second_title: Aspose.Slides for .NET API 参考
 description: 程序集的发行日期。
 type: docs

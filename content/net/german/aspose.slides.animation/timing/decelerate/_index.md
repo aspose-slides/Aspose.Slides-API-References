@@ -1,5 +1,5 @@
 ---
-title: Verzögern
+title: Decelerate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Beschreibt den Prozentsatz der Dauerverzögerungseffektverhaltens. Lesbar/schreibbar Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Saveur
+title: Flavor
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie la spécification markdown pour convertir la présentation. Par défaut, c'est Multi-markdown.
 type: docs

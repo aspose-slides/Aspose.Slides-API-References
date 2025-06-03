@@ -1,5 +1,5 @@
 ---
-title: 调整值
+title: AdjustValue
 second_title: Aspose.Slides for .NET API 参考
 description: 表示几何形状的调整值。这些值影响形状的形式。
 type: docs

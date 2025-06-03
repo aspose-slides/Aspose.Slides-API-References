@@ -1,5 +1,5 @@
 ---
-title: Мастера
+title: Masters
 second_title: Справочник по Aspose.Slides для .NET API
 description: Возвращает список всех главных слайдов, определенных в презентации. Только для чтения IMasterSlideCollection aspose.slides/imasterslidecollection.
 type: docs

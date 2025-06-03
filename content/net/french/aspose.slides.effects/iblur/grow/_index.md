@@ -1,5 +1,5 @@
 ---
-title: Agrandir
+title: Grow
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Booléen en lecture/écriture.
 type: docs

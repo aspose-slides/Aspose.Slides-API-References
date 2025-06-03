@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Slides for .NET API 参考
 description: 返回字体方案名称。可读/写字符串。
 type: docs

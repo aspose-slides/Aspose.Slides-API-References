@@ -1,5 +1,5 @@
 ---
-title: ОбъединениеЯчеек
+title: MergeCells
 second_title: Справочник по API Aspose.Slides для .NET
 description: Объединяет соседние ячейки.
 type: docs

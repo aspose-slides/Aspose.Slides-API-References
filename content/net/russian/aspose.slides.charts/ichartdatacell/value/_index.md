@@ -1,5 +1,5 @@
 ---
-title: Значение
+title: Value
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает или устанавливает значение ячейки. Читаемый/записываемый объект.
 type: docs

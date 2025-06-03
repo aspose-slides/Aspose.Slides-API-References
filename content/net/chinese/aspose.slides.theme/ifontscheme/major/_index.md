@@ -1,5 +1,5 @@
 ---
-title: 主要
+title: Major
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片标题部分的字体集合。仅限读取 IFonts aspose.slides/ifonts。
 type: docs

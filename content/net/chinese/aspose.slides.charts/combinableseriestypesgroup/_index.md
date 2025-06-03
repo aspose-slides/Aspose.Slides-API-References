@@ -1,5 +1,5 @@
 ---
-title: 可组合系列类型组
+title: CombinableSeriesTypesGroup
 second_title: Aspose.Sildes for .NET API 参考
 description: 可组合系列类型组的枚举。每个元素与可以同时在一个 ChartSeriesGroup 中存在的图表系列类型组相关。例如，ChartType.PercentsStackedArea 系列不能和 ChartType.StackedArea 系列同时存在于一个 ChartSeriesGroup 中。但是两个或更多的 ChartType.PercentsStackedArea 可以同时存在于一个 ChartSeriesGroup 中 CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea。并且 ChartType.Line 系列可以与 ChartType.LineWithMarkers 系列同时存在于一个 CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup 中。
 type: docs

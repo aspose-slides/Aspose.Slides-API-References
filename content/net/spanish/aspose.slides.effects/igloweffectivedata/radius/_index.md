@@ -1,5 +1,5 @@
 ---
-title: Radio
+title: Radius
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Radio. Solo lectura Double.
 type: docs

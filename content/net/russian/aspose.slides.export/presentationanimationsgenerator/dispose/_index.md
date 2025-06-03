@@ -1,5 +1,5 @@
 ---
-title: Освобождение
+title: Dispose
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Освобождает экземпляр PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs

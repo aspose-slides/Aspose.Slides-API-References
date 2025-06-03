@@ -1,5 +1,5 @@
 ---
-title: 函数
+title: Function
 second_title: Aspose.Slidеs for .NET API 参考
 description: 使用此实例作为函数名来处理一个参数的函数
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: RotateWithShape  
+title: RotateWithShape
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine si le remplissage doit être rotatif avec une forme. Booléen en lecture seule.
 type: docs  

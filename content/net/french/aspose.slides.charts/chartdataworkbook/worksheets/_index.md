@@ -1,5 +1,5 @@
 ---
-title: Feuilles de calcul
+title: Worksheets
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient une collection de feuilles de calcul.
 type: docs

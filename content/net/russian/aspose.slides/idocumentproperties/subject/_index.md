@@ -1,5 +1,5 @@
 ---
-title: Тема
+title: Subject
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Возвращает или задает тему презентации. Свойство для чтения/записи строк.
 type: docs

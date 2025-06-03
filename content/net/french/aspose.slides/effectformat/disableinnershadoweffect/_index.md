@@ -1,5 +1,5 @@
 ---
-title: Désactiver l'effet d'ombre interne
+title: DisableInnerShadowEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Désactive l'effet d'ombre interne.
 type: docs

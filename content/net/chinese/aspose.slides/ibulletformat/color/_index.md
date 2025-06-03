@@ -1,5 +1,5 @@
 ---
-title: 颜色
+title: Color
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个段落中无继承的项目符号的颜色格式。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

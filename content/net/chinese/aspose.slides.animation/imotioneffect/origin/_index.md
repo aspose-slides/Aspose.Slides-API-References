@@ -1,5 +1,5 @@
 ---
-title: 源
+title: Origin
 second_title: Aspose.Slidess for .NET API 参考
 description: 指定运动路径的起点相对于幻灯片的布局或父级的位置。可读/写 MotionOriginTypeaspose.slides.animation/motionorigintype。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: CreateMathBar  
+title: CreateMathBar
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Créez une barre mathématique en l'appliquant à l'élément
 type: docs  

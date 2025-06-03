@@ -1,5 +1,5 @@
 ---
-title: 目标框架
+title: TargetFrame
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回父超链接的目标在父 HTML 框架集中的框架（如果存在）。可读/可写字符串。
 type: docs

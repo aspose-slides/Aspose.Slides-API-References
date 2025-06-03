@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API Referenz
 description: Erhält den Typ eines Platzhalters. Nur-Lese PlaceholderTypeaspose.slides/placeholdertype.
 type: docs

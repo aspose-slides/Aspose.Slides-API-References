@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справка по API Aspose.Sildes для .NET
 description: Добавляет подпись в конце коллекции.
 type: docs

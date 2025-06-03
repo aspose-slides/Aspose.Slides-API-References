@@ -1,5 +1,5 @@
 ---
-title: FadeInDauer
+title: FadeInDuration
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Zeitdauer für das anfängliche Einblenden des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ВыравниваниеШрифта
+title: FontAlignment
 second_title: Aspose.Slides для .NET API Reference
 description: Представляет вертикальное выравнивание шрифта.
 type: docs

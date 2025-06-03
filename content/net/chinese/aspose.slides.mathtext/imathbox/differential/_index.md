@@ -1,5 +1,5 @@
 ---
-title: 微分
+title: Differential
 second_title: Aspose.Sildes for .NET API 参考
 description: 微分。当为真时，框作为微分（例如，在积分中为 𝑑𝑥），并获得数学微分的适当水平间距。默认值为 false
 type: docs

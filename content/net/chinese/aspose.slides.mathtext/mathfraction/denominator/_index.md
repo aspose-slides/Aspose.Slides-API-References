@@ -1,5 +1,5 @@
 ---
-title: 分母
+title: Denominator
 second_title: Aspose.Slides for .NET API 参考
 description: 分母
 type: docs

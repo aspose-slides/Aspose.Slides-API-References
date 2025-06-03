@@ -1,5 +1,5 @@
 ---
-title: 默认延迟
+title: DefaultDelay
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置默认延迟时间 ms。如果未设置 AdvanceAfterTimeaspose.slides/../aspose.slides/islideshowtransition/advanceaftertime，将使用此值。默认值为 1000。
 type: docs

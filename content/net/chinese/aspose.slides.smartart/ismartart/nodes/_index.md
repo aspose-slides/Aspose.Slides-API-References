@@ -1,5 +1,5 @@
 ---
-title: 节点
+title: Nodes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回 SmartArt 对象中的根节点集合。只读 ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection。
 type: docs

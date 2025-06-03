@@ -1,5 +1,5 @@
 ---
-title: Oculto
+title: Hidden
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la forma está oculta. Booleano de lectura/escritura.
 type: docs

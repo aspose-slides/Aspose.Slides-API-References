@@ -1,5 +1,5 @@
 ---
-title: Agregar
+title: Add
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Agrega una nueva línea de tendencia al final de una colección y la devuelve.
 type: docs

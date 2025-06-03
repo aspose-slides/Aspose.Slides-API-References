@@ -1,5 +1,5 @@
 ---
-title: ValeursPersonnaliséesDesBarresDErreur
+title: ErrorBarsCustomValues
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente les valeurs des barres d'erreur de la série dans le cas du type de valeur personnalisée. Lecture seule IErrorBarsCustomValuesaspose.slides/ierrorbarscustomvalues.
 type: docs

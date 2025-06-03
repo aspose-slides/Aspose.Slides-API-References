@@ -1,5 +1,5 @@
 ---
-title: 替换字体条件
+title: ReplaceFontCondition
 second_title: Aspose.Slides for .NET API 参考
 description: 应用于替换的规则 只读 FontSubstConditionaspose.slides/fontsubstcondition。
 type: docs

@@ -1,5 +1,5 @@
 --- 
-title: SaveFormat 
+title: SaveFormat
 second_title: Referencia de la API de Aspose.Slides para .NET 
 description: Constantes que definen el formato de una presentación guardada.
 type: docs 

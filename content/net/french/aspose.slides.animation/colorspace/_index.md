@@ -1,5 +1,5 @@
 ---
-title: EspaceCouleur
+title: ColorSpace
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente l'espace colorimétrique pour le comportement des effets de couleur.
 type: docs

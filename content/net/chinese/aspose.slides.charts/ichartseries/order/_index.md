@@ -1,5 +1,5 @@
 ---
-title: 顺序
+title: Order
 second_title: Aspose.Slides for .NET API 参考
 description: 返回系列的顺序。可读写 Int32。
 type: docs

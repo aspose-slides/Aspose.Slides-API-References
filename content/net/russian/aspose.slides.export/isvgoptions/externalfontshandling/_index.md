@@ -1,5 +1,5 @@
 ---
-title: ОбработкаВнешнихШрифтов
+title: ExternalFontsHandling
 second_title: Aspose.Slides для .NET API Справочник
 description: Определяет способ обработки внешне загруженных шрифтов. Чтение/запись SvgExternalFontsHandling aspose.slides.export/svgexternalfontshandling.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 添加Section
+title: AddSection
 second_title: Aspose.Slides for .NET API参考
 description: 从特定幻灯片开始添加幻灯片部分。
 type: docs

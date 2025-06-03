@@ -1,5 +1,5 @@
 ---
-title: 参考
+title: References
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含在 VBA 项目中的所有引用的列表。只读 IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection。
 type: docs

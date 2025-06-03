@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die benutzerdefinierte Eigenschaft zurück oder setzt diese, die mit einem angegebenen Namen verbunden ist. Lese-/schreibbares Objekt.
 type: docs

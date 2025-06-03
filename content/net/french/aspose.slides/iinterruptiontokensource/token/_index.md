@@ -1,5 +1,5 @@
 ---
-title: Jeton
+title: Token
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un nouveau jeton lié à cet IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs

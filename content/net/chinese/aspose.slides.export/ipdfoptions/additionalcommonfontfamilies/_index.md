@@ -1,5 +1,5 @@
 ---
-title: 额外的常用字体系列
+title: AdditionalCommonFontFamilies
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 Aspose.Slides 应该考虑为常用的用户定义字体系列名称的数组。可读/写字符串。
 type: docs

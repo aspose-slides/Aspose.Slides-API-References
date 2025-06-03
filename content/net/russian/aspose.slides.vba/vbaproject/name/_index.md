@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает имя проекта VBA. Только для чтения строка.
 type: docs

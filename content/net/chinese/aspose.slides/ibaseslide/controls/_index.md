@@ -1,5 +1,5 @@
 ---
-title: 控件
+title: Controls
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片上的 ActiveX 控件集合。只读 IControlCollectionaspose.slides/icontrolcollection。
 type: docs

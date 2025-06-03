@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник по API Aspose.Slides для .NET
 description: Высота скоса. Только для чтения Double.
 type: docs

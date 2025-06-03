@@ -1,5 +1,5 @@
 ---
-title: 背景
+title: Background
 second_title: Aspose.Slides for .NET API 参考
 description: 返回幻灯片背景。只读 IBackground aspose.slides/ibackground。
 type: docs

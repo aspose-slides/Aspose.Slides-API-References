@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un comando en el índice especificado.
 type: docs

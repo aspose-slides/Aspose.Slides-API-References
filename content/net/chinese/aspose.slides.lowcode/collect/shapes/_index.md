@@ -1,5 +1,5 @@
 ---
-title: 形状
+title: Shapes
 second_title: Aspose.Sildes for .NET API 参考
 description: 收集所有在Presentation中实例的Shapeaspose.slides/shape。
 type: docs

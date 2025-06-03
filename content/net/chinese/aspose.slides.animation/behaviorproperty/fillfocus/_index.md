@@ -1,5 +1,5 @@
 ---
-title: 填充焦点
+title: FillFocus
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 fill.focus 属性
 type: docs

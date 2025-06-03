@@ -1,5 +1,5 @@
 ---
-title: Серии
+title: Series
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает серии. Только для чтения IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs

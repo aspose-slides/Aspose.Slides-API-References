@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprime tous les effets d'image d'une collection.
 type: docs

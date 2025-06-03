@@ -1,5 +1,5 @@
 ---
-title: 宽度
+title: Width
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图例的宽度，占图表宽度的比例。可读写 Single。
 type: docs

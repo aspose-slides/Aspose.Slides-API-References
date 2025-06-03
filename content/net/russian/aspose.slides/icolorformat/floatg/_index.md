@@ -1,5 +1,5 @@
 ---  
-title: FloatG  
+title: FloatG
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает или задает зеленый компонент цвета. Все цветовые преобразования игнорируются. Чтение/запись Single.
 type: docs  

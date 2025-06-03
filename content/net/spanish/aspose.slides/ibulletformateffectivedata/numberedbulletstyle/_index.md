@@ -1,5 +1,5 @@
 ---
-title: EstiloDeViñetasNumeradas
+title: NumberedBulletStyle
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el estilo de una viñeta numerada. Solo lectura NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs

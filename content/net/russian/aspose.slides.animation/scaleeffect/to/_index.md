@@ -1,5 +1,5 @@
 ---
-title: До
+title: To
 second_title: Справочник API Aspose.Slides для .NET
 description: Указывает целевое местоположение для эффекта масштабирования анимации в процентах. Чтение/запись PointF.
 type: docs

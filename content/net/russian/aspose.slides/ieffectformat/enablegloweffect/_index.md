@@ -1,5 +1,5 @@
 ---
-title: ВключитьЭффектСияния
+title: EnableGlowEffect
 second_title: Справочник по API Aspose.Slides для .NET
 description: Включает эффект сияния.
 type: docs

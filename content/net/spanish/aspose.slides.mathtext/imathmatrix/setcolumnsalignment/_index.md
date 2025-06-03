@@ -1,5 +1,5 @@
 ---
-title: EstablecerAlineacionColumnas
+title: SetColumnsAlignment
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establecer la alineación horizontal de las columnas especificadas
 type: docs

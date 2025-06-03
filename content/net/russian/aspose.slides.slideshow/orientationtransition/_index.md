@@ -1,5 +1,5 @@
 ---
-title: ПереходОриентации
+title: OrientationTransition
 second_title: Справочник по API Aspose.Slides для .NET
 description: Эффект перехода слайда ориентации.
 type: docs

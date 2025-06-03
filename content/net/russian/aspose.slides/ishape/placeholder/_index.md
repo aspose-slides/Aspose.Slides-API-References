@@ -1,5 +1,5 @@
 ---
-title: Заполнитель
+title: Placeholder
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает заполнитель для фигуры. Только для чтения IPlaceholderaspose.slides/iplaceholder.
 type: docs

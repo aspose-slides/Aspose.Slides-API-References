@@ -1,5 +1,5 @@
 ---
-title: ЦифроваяПодпись
+title: DigitalSignature
 second_title: Справочник по API Aspose.Slides для .NET
 description: Цифровая подпись в подписанном файле.
 type: docs

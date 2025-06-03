@@ -1,5 +1,5 @@
 ---
-title: Folie
+title: Slide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Durchlaufe jede Folie aspose.slides.lowcode/foreach/slide in der Präsentation aspose.slides/presentation.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si el BiLevelaspose.slides.effects/bilevel especificado es igual al BiLevelaspose.slides.effects/bilevel actual.
 type: docs

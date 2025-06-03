@@ -1,5 +1,5 @@
 ---
-title: Helligkeit
+title: Brightness
 second_title: Aspose.Slides für .NET API-Referenz
 description: Helligkeit. Schreibgeschütztes Single.
 type: docs

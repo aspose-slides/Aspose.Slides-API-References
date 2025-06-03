@@ -1,5 +1,5 @@
 ---  
-title: PreviousSlideIndex  
+title: PreviousSlideIndex
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Index der zuvor gerenderten Folie zurück oder -1, wenn die erste Folie gerendert wird. Nur-Lese Int32.
 type: docs  

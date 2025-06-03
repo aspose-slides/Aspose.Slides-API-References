@@ -1,5 +1,5 @@
 ---  
-title: AsIGraphicalObject  
+title: AsIGraphicalObject
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht den Zugriff auf die basale IGraphicalObject-Schnittstelle. Nur-Lese IGraphicalObject aspose.slides/igraphicalobject.
 type: docs  

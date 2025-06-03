@@ -1,5 +1,5 @@
 ---
-title: 显示全屏
+title: ShowFullScreen
 second_title: Aspose.Slides for .NET API 参考
 description: 显示/隐藏全屏按钮。可以在 flashvars 中重写。默认值为 true。
 type: docs

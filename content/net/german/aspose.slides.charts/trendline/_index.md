@@ -1,5 +1,5 @@
 ---
-title: Trendlinie
+title: Trendline
 second_title: Aspose.Slides für .NET API-Referenz
 description: Klasse stellt die Trendlinie einer Diagrammreihe dar
 type: docs

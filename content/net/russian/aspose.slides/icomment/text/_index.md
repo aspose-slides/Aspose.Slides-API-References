@@ -1,5 +1,5 @@
 ---
-title: Текст
+title: Text
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает простой текст комментария слайда. Чтение/запись String.
 type: docs

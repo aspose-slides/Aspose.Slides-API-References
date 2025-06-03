@@ -1,5 +1,5 @@
 ---
-title: Замедление
+title: Decelerate
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Описывает процент длительности эффекта замедления поведения. Чтение/запись Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 备忘录文本
+title: NotesText
 second_title: Aspose.Slides for .NET API 参考
 description: 此幻灯片的备忘录页面形状上的文本
 type: docs

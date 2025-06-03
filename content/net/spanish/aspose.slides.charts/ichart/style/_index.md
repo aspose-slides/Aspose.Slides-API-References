@@ -1,5 +1,5 @@
 ---
-title: Estilo
+title: Style
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el estilo del gráfico. Lectura/escritura StyleTypeaspose.slides.charts/styletype.
 type: docs

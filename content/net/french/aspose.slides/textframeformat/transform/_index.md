@@ -1,5 +1,5 @@
 ---
-title: Transforme
+title: Transform
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient ou définit la forme de retour à la ligne du texte. Lecture/écriture TextShapeType aspose.slides/textshapetype.
 type: docs

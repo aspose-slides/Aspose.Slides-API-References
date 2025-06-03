@@ -1,5 +1,5 @@
 ---
-title: 处置
+title: Dispose
 second_title: Aspose.Slides for .NET API 参考
 description: 处置 ImageWrapper
 type: docs

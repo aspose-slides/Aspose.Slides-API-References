@@ -1,5 +1,5 @@
 ---
-title: 布局幻灯片集合
+title: LayoutSlideCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示布局幻灯片集合的基类。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Слайды
+title: Slides
 second_title: Справка по API Aspose.Slides для .NET
 description: Диапазон слайдов
 type: docs

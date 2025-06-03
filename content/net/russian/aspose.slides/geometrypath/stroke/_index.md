@@ -1,5 +1,5 @@
 ---
-title: Обводка
+title: Stroke
 second_title: Справочник по API Aspose.Slides для .NET
 description: Устанавливает внешний вид обводки
 type: docs

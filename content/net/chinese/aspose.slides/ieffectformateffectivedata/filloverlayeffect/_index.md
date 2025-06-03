@@ -1,5 +1,5 @@
 ---
-title: 填充叠加效果
+title: FillOverlayEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 填充叠加效果。只读 IFillOverlayEffectiveData aspose.slides.effects/ifilloverlayeffectivedata。
 type: docs

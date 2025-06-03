@@ -1,5 +1,5 @@
 ---
-title: 类别 Id
+title: ClassId
 second_title: Aspose.Slides for .NET API 参考
 description: 获取此控件的类别 ID。只读 Guid。
 type: docs

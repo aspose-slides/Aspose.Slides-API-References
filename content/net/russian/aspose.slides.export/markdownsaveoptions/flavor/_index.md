@@ -1,5 +1,5 @@
 ---
-title: Вкус
+title: Flavor
 second_title: Справочник API Aspose.Slides для .NET
 description: Указывает спецификацию markdown для преобразования презентации. По умолчанию используется Multi-markdown.
 type: docs

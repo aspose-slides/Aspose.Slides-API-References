@@ -1,5 +1,5 @@
 ---
-title: DateHeureCourante
+title: CurrentDateTime
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit la date et l'heure qui remplaceront le contenu des champs datetime. Heure de création par défaut de cet objet Présentation. Lecture/écriture DateTime.
 type: docs

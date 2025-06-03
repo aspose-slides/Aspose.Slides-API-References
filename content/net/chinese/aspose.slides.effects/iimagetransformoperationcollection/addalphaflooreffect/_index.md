@@ -1,5 +1,5 @@
 ---
-title: 添加AlphaFloor效果
+title: AddAlphaFloorEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的Alpha Floor效果添加到集合的末尾。
 type: docs

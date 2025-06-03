@@ -1,5 +1,5 @@
 ---
-title: Скрыть
+title: Hide
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или устанавливает флаг скрытия элемента легенды. Чтение/запись, булевское значение.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Étiquette
+title: Label
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente l'étiquette du point de données du graphique. Lecture seule IDataLabelaspose.slides.charts/idatalabel.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: AbsatzFormat
+title: ParagraphFormat
 second_title: Aspose.Slides für .NET API-Referenz
 description: Initialisiert eine neue Instanz der ParagraphFormataspose.slides/paragraphformat-Klasse.
 type: docs

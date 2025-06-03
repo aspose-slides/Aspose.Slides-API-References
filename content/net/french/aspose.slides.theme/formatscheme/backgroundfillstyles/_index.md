@@ -1,5 +1,5 @@
 ---
-title: StylesDeRemplissageDeFond
+title: BackgroundFillStyles
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie une collection de styles de remplissage de fond définis par le thème. IFillFormatCollection en lecture seule aspose.slides.theme/ifillformatcollection.
 type: docs

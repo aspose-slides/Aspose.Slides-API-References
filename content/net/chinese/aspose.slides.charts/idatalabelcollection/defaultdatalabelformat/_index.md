@@ -1,5 +1,5 @@
 ---
-title: 默认数据标签格式
+title: DefaultDataLabelFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回集合中所有数据标签的默认格式。为只读 IDataLabelFormataspose.slides.charts/idatalabelformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Компиляция
+title: Compile
 second_title: Справочник по API Aspose.Slides для .NET
 description: Преобразует шаблон с заданным ключом и объектом модели в вывод.
 type: docs

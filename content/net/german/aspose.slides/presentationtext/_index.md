@@ -1,5 +1,5 @@
 ---
-title: Präsentationstext
+title: PresentationText
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den aus der Präsentation extrahierten Text dar
 type: docs

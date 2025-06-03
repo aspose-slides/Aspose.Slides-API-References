@@ -1,5 +1,5 @@
 ---
-title: 矩形对齐
+title: RectangleAlignment
 second_title: Aspose.Slides for .NET API 参考
 description: 定义二维对齐方式。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: TipoDeFondo
+title: BackgroundType
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Define la fuente de relleno del fondo de la diapositiva.
 type: docs

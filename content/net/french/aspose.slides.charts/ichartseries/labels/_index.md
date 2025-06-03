@@ -1,5 +1,5 @@
 ---  
-title: Étiquettes  
+title: Labels
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie les Étiquettes d'une série. Collection IDataLabelCollectionaspose.slides.charts/idatalabelcollection en lecture seule.
 type: docs  

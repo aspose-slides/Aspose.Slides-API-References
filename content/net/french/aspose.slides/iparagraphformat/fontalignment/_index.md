@@ -1,5 +1,5 @@
 ---
-title: AlignementDePolice
+title: FontAlignment
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit un alignement de police dans un paragraphe sans héritage. Propriété en lecture/écriture FontAlignmentaspose.slides/fontalignment.
 type: docs

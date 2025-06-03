@@ -1,5 +1,5 @@
 ---  
-title: XmlData  
+title: XmlData
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt xml-Daten zurück oder legt sie fest. Lesen/Schreiben Byte. Wert ist null. Wert ist leer oder xml-Daten sind ungültig.
 type: docs  

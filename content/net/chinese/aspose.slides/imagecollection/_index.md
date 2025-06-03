@@ -1,5 +1,5 @@
 ---
-title: 图像集合
+title: ImageCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 PPImage 的集合。
 type: docs

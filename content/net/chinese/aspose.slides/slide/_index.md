@@ -1,5 +1,5 @@
 ---
-title: 幻灯片
+title: Slide
 second_title: Aspose.Sildes for .NET API 参考
 description: 代表演示文稿中的一张幻灯片。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 索引
+title: Index
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取工作表的索引。只读 Int32。
 type: docs

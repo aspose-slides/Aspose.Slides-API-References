@@ -1,5 +1,5 @@
 ---
-title: Tipo
+title: Type
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el tipo de ajuste de la forma. Solo de lectura ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype.
 type: docs

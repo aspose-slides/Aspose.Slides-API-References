@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el nombre del módulo. Solo lectura String.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Радиус
+title: Radius
 second_title: Ссылки на API Aspose.Slides для .NET
 description: Радиус. Чтение/запись Double.
 type: docs

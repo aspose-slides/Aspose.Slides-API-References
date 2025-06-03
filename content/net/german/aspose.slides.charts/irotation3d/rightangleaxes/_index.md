@@ -1,5 +1,5 @@
 ---
-title: RechtwinkligeAchsen
+title: RightAngleAxes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob die Diagrammachsen rechtwinklig sind, anstatt perspektivisch dargestellt zu werden. Mit anderen Worten, es wird bestimmt, ob die Diagrammwinkel der Achsen unabhängig von der Diagrammrotation oder -erhebung sind. Lese-/Schreib-Boolescher Wert.
 type: docs

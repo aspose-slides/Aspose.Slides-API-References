@@ -1,5 +1,5 @@
 ---
-title: 当前日期时间
+title: CurrentDateTime
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置将替换日期时间字段内容的日期和时间。 默认情况下为此演示文稿对象创建的时间。 读/写 DateTime。
 type: docs

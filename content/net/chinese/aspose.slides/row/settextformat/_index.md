@@ -1,5 +1,5 @@
 ---
-title: 设置文本格式
+title: SetTextFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 将定义的部分格式属性应用于所有行单元格的部分。
 type: docs

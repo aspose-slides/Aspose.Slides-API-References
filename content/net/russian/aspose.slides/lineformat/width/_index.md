@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает ширину линии. Читаемое/записываемое значение типа Double.
 type: docs

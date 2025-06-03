@@ -1,5 +1,5 @@
 ---
-title: 创建辉光
+title: CreateGlow
 second_title: Aspose.Slides for .NET API 参考
 description: 创建辉光效果。
 type: docs

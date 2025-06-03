@@ -1,5 +1,5 @@
 ---
-title: 类型
+title: Type
 second_title: Aspose.Slides for .NET API 参考
 description: 返回此系列组的类型。只读 CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup。
 type: docs

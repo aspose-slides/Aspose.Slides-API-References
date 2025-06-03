@@ -1,5 +1,5 @@
 ---
-title: 重叠
+title: Overlap
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定 2D 图表中条形和柱形图重叠的百分比，从 -100 到 100。这不仅是此系列的属性，也是父系列组中所有系列的属性。这是父系列组中相应属性的投影，因此该属性是只读的。要更改值，请使用 ParentSeriesGroup.Overlap 读写属性。只读 SByte。
 type: docs

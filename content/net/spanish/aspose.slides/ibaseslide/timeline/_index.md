@@ -1,5 +1,5 @@
 ---
-title: Línea de tiempo
+title: Timeline
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto de línea de tiempo de animación. Solo lectura IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Порог
+title: Threshold
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает порог эффекта. Чтение/запись Single.
 type: docs

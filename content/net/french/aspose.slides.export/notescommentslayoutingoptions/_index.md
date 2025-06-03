@@ -1,5 +1,5 @@
 ---
-title: OptionsDeMiseEnPageDesNotesEtCommentaires
+title: NotesCommentsLayoutingOptions
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Fournit des options qui contrôlent l'apparence de la mise en page des notes et des commentaires dans le document exporté.
 type: docs

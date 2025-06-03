@@ -1,5 +1,5 @@
 ---
-title: По
+title: By
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Описывает относительное значение смещения для анимации. Чтение/запись Single.
 type: docs

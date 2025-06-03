@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置指定索引处的操作。可读/写 IColorOperation aspose.slides/icoloroperation。
 type: docs

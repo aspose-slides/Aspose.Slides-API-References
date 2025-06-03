@@ -1,5 +1,5 @@
 ---
-title: ÜbergangsDauer
+title: TransitionDuration
 second_title: Aspose.Sildes für .NET API Referenz
 description: Ruft die Dauer des Übergangs zwischen Zoom und Folie ab oder legt diese fest. Lese-/schreibbarer Single. Standardwert 1.0f
 type: docs

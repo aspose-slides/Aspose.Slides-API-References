@@ -1,5 +1,5 @@
 ---
-title: Texto
+title: Text
 second_title: Referencia de API de Aspose.Slides para .NET
 description: El texto en las formas de las diapositivas
 type: docs

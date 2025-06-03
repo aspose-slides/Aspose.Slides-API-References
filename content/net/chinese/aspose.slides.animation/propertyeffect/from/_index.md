@@ -1,5 +1,5 @@
 ---
-title: 从
+title: From
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定动画的起始值。可读写字符串。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 隐藏度
+title: HideDegree
 second_title: Aspose.Slides for .NET API 参考
 description: 当为真时，度数不显示
 type: docs

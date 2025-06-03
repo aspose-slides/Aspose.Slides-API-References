@@ -1,5 +1,5 @@
 ---  
-title: SetHeaderAndChildHeadersText  
+title: SetHeaderAndChildHeadersText
 second_title: Aspose.Slides для .NET API Справочник  
 description: Устанавливает текст для заголовка слайда с основными заметками и всех дочерних заголовков. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 type: docs  

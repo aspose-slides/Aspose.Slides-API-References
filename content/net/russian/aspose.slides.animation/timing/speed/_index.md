@@ -1,5 +1,5 @@
 ---
-title: Скорость
+title: Speed
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает процент, на который необходимо увеличить или уменьшить время. Чтение/запись Single.
 type: docs

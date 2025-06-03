@@ -1,5 +1,5 @@
 ---
-title: AlleCustomXmlTeile
+title: AllCustomXmlParts
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt alle benutzerdefinierten Datenteile in der Präsentation zurück. Nur lesbar ICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 文本
+title: Text
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置部分的纯文本。可读/写字符串。
 type: docs

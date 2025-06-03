@@ -1,5 +1,5 @@
 ---  
-title: FindCommentByIdx  
+title: FindCommentByIdx
 second_title: Aspose.Slides für .NET API Referenz  
 description: Findet einen Kommentar in der Sammlung nach Index.
 type: docs  

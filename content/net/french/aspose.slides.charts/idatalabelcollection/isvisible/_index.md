@@ -1,5 +1,5 @@
 ---
-title: EstVisible
+title: IsVisible
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Faux signifie que l'étiquette de données n'est pas visible par défaut et que tous les indicateurs Show ShowValue, ... de la propriété DefaultDataLabelFormat sont faux. Booléen en lecture seule.
 type: docs

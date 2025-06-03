@@ -1,5 +1,5 @@
 ---
-title: 图表
+title: Chart
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图表。只读 IChartaspose.slides/ichart.
 type: docs

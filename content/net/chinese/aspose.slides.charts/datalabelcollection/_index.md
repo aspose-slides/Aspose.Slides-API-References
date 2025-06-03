@@ -1,5 +1,5 @@
 ---
-title: 数据标签集合
+title: DataLabelCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一组系列标签。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 插入克隆
+title: InsertClone
 second_title: Aspose.Sildes for .NET API参考
 description: 将指定形状的副本插入到集合的指定位置。
 type: docs

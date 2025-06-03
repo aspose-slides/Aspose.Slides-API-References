@@ -1,5 +1,5 @@
 ---
-title: DatosPersonalizados
+title: CustomData
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve los datos personalizados de las formas. Solo lectura ICustomData aspose.slides/icustomdata.
 type: docs

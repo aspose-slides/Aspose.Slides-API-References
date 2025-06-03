@@ -1,5 +1,5 @@
 ---  
-title: DrawSlidesFrame  
+title: DrawSlidesFrame
 second_title: Aspose.Slides for .NET API 参考  
 description: 为每个幻灯片绘制黑色框。读/写布尔值。
 type: docs  

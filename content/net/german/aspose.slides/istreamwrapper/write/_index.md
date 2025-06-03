@@ -1,5 +1,5 @@
 ---
-title: Schreiben
+title: Write
 second_title: Aspose.Slides für .NET API-Referenz
 description: Schreibt eine Bytefolge in den aktuellen Stream und verschiebt die aktuelle Position innerhalb dieses Streams um die Anzahl der geschriebenen Bytes.
 type: docs

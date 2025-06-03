@@ -1,5 +1,5 @@
 ---  
-title: IsLicensed  
+title: IsLicensed
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Проверить, применена ли лицензия к компоненту
 type: docs  

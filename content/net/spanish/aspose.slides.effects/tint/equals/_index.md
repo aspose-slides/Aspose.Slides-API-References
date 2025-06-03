@@ -1,5 +1,5 @@
 ---  
-title: Iguales  
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Determina si el Tintaspose.slides.effects/tint especificado es igual al Tintaspose.slides.effects/tint actual.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: VertikaleAusrichtung
+title: VerticalJustification
 second_title: Aspose.Slides für .NET API Referenz
 description: Vertikale Ausrichtung des Gruppierungszeichens. Gibt die Ausrichtung des Objekts in Bezug auf die Grundlinie an. Zum Beispiel, wenn das Gruppierungszeichen über dem Objekt ist, bedeutet die VertikaleAusrichtung von Oben, dass die Oberkante des Objekts auf der Grundlinie liegt; wenn die VertikaleAusrichtung auf Unten gesetzt ist, liegt die Unterkante des Objekts auf der Grundlinie. Standard Unten für Position=Oben und Oben für Position=Unten
 type: docs

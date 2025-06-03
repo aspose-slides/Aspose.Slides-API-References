@@ -1,5 +1,5 @@
 ---
-title: 段落
+title: Portions
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文本部分的集合。 只读 IPortionCollectionaspose.slides/iportioncollection。
 type: docs

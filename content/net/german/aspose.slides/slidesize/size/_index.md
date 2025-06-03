@@ -1,5 +1,5 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Größe in Punkten zurück oder legt sie fest. Das Zuweisen eines beliebigen Werts setzt die Eigenschaft Typeaspose.slides/slidesize/type auf Benutzerdefiniert und legt Orientationaspose.slides/slidesize/orientation fest. Lese-/Schreibzugriff auf SizeF.
 type: docs

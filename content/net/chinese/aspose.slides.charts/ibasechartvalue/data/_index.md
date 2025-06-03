@@ -1,5 +1,5 @@
 ---
-title: 数据
+title: Data
 second_title: Aspose.Sildes for .NET API 参考
 description: 读/写对象。
 type: docs

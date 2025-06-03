@@ -1,5 +1,5 @@
 ---
-title: Compilar
+title: Compile
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Transforma la plantilla con la clave y el objeto modelo dados en salida.
 type: docs

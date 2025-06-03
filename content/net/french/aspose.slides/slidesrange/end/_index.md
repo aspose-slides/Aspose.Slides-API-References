@@ -1,5 +1,5 @@
 ---
-title: Fin
+title: End
 second_title: Référence API Aspose.Sildes pour .NET
 description: Fin
 type: docs

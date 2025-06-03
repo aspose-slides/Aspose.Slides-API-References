@@ -1,5 +1,5 @@
 ---
-title: ДополнительныеОбщиеСемействаШрифтов
+title: AdditionalCommonFontFamilies
 second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или устанавливает массив имен семейств шрифтов, определенных пользователем, которые Aspose.Slides должен считать общими. Чтение/запись String.
 type: docs

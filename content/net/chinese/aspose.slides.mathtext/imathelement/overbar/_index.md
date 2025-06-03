@@ -1,5 +1,5 @@
 ---
-title: 上划线
+title: Overbar
 second_title: Aspose.Slides for .NET API 参考
 description: 在该元素的顶部设置一个线条
 type: docs

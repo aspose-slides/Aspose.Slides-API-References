@@ -1,5 +1,5 @@
 ---
-title: Offenbaren
+title: Reveal
 second_title: Aspose.Slides für .NET API-Referenz
 description: Repräsentiert den Effekt, bei dem das Verhalten offenbart werden muss ein/aus Lesen/Schreiben FilterEffectRevealTypeaspose.slides/filtereffectrevealtype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 对比度
+title: Contrast
 second_title: Aspose.Slides for .NET API 参考
 description: 对比度。只读单精度浮点数。
 type: docs

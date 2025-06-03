@@ -1,5 +1,5 @@
 ---
-title: ObtenerComentariosDiapositiva
+title: GetSlideComments
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve todos los comentarios de diapositivas añadidos por un autor específico.
 type: docs

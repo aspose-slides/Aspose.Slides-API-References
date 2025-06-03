@@ -1,5 +1,5 @@
 ---
-title: Historique
+title: History
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si la cible du lien hypertexte parent doit être ajoutée à une liste de liens hypertextes consultés lors de son invocation. Booléen en lecture/écriture.
 type: docs

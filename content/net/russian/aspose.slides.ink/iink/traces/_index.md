@@ -1,5 +1,5 @@
 ---
-title: Следы
+title: Traces
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает все следы, содержащиеся в элементе IInk IInkTraceaspose.slides/iinktrace. Только для чтения.
 type: docs

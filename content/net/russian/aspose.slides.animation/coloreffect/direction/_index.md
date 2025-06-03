@@ -1,5 +1,5 @@
 ---
-title: Направление
+title: Direction
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает, в каком направлении изменять оттенок вокруг цветового круга. Чтение/запись ColorDirectionaspose.slides.animation/colordirection.
 type: docs

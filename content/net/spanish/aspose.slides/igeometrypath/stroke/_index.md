@@ -1,5 +1,5 @@
 ---
-title: Trazo
+title: Stroke
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Establece la apariencia del trazo
 type: docs

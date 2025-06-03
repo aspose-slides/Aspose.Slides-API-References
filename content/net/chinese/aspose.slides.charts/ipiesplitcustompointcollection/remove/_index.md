@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Slides for .NET API 参考
 description: 根据父系列点集合中的索引从集合中移除项目。
 type: docs

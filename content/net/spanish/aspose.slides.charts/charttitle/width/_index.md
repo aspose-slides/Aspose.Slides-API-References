@@ -1,5 +1,5 @@
 ---
-title: Ancho
+title: Width
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Devuelve o establece el ancho de un título como una fracción del ancho del gráfico. Lectura/escritura Single.
 type: docs

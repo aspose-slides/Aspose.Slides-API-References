@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справка по API Aspose.Sildes для .NET
 description: Позиция линии бара. По умолчанию Вверху
 type: docs

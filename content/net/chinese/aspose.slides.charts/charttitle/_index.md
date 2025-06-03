@@ -1,5 +1,5 @@
 ---
-title: 图表标题
+title: ChartTitle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图表标题属性。
 type: docs

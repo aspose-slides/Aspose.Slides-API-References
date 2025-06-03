@@ -1,5 +1,5 @@
 ---
-title: 播放器
+title: Player
 second_title: Aspose.Slides for .NET API 参考
 description: 获取演示文稿播放器
 type: docs

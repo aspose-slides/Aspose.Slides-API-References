@@ -1,5 +1,5 @@
 ---
-title: 相对高度缩放
+title: RelativeScaleHeight
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置与原始图片大小相对的图片框的高度缩放。值为 1.0 对应于 100%。可读/可写单精度浮点数。
 type: docs

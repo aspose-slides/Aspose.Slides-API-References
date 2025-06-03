@@ -1,5 +1,5 @@
 ---
-title: Индекс
+title: Index
 second_title: Справочник по API Aspose.Slidess для .NET
 description: Получает индекс рабочего листа. Только для чтения Int32.
 type: docs

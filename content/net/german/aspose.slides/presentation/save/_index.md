@@ -1,5 +1,5 @@
 ---
-title: Speichern
+title: Save
 second_title: Aspose.Slides für .NET API-Referenz
 description: Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
 type: docs

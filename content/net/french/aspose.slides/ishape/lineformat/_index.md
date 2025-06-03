@@ -1,5 +1,5 @@
 ---  
-title: LineFormat  
+title: LineFormat
 second_title: Aspose.Slides pour l'API .NET  
 description: Renvoie l'objet LineFormat qui contient les propriétés de formatage de ligne pour une forme. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs  

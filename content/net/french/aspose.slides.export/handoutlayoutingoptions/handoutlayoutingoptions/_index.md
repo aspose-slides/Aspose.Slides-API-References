@@ -1,5 +1,5 @@
 ---
-title: OptionsDeMiseEnPageDesSupports
+title: HandoutLayoutingOptions
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Initialise les valeurs par défaut.
 type: docs

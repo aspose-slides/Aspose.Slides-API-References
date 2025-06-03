@@ -1,5 +1,5 @@
 ---
-title: EspaciadoFilas
+title: RowSpacing
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Espaciado entre filas de un array. Se utiliza solo cuando RowSpacingRule está establecido en 3. Exactamente en qué caso la unidad de medida son puntos o Múltiple en qué caso la unidad de medida son media líneas. Predeterminado 0
 type: docs

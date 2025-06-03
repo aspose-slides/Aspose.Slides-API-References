@@ -1,5 +1,5 @@
 ---
-title: 添加效果
+title: AddEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 在序列末尾添加新效果。
 type: docs

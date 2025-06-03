@@ -1,5 +1,5 @@
 ---
-title: Imagen
+title: Image
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad de imagen
 type: docs

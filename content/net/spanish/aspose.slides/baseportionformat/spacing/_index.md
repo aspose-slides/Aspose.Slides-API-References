@@ -1,5 +1,5 @@
 ---
-title: Espaciado
+title: Spacing
 second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve o establece el incremento de espaciado entre caracteres. float.NaN significa que el valor no está definido y debe heredarse del Master. Lectura/escritura Single.
 type: docs

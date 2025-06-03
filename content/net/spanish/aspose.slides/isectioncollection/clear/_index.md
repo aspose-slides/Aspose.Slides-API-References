@@ -1,5 +1,5 @@
 ---
-title: Borrar
+title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todas las secciones de la colección.
 type: docs

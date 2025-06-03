@@ -1,5 +1,5 @@
 ---
-title: FormatoDeNúmeroDeValoresY
+title: NumberFormatOfYValues
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el formato de número para los valores y de la serie. Cadena de lectura/escritura.
 type: docs

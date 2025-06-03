@@ -1,5 +1,5 @@
 ---
-title: 轮廓宽度
+title: ContourWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 3D 轮廓的宽度。可读写 Double。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: Operator  
+title: Operator
 second_title: Aspose.Slides für .NET API-Referenz  
 description: N-ary Operator Zeichen Zum Beispiel
 type: docs  

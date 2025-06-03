@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft Eigenschaften des Legendeneintrags ab, der dem Chart.ChartData.Series0.DataPointsindex im Falle eines Diagrammtyps aus dieser Liste entspricht ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder dem Chart.ChartData.Seriesindex für andere Diagrammtypen.
 type: docs

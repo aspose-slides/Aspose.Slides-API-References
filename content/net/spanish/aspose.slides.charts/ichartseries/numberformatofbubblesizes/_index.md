@@ -1,5 +1,5 @@
 ---
-title: FormatoNúmeroDeTamañosDeBurbujas
+title: NumberFormatOfBubbleSizes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el formato de número para los tamaños de burbujas de la serie. Leyendo/escribiendo String.
 type: docs

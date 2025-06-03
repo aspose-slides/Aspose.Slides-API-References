@@ -1,5 +1,5 @@
 ---
-title: 添加图像
+title: AddImage
 second_title: Aspose.Sildes for .NET API 参考
 description: 从另一个演示文稿添加图像的副本。
 type: docs

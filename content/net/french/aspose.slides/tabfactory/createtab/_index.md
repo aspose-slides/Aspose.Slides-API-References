@@ -1,5 +1,5 @@
 ---  
-title: CreateTab  
+title: CreateTab
 second_title: Référence API Aspose.Slides pour .NET  
 description: Crée une nouvelle instance d'ITab.
 type: docs  

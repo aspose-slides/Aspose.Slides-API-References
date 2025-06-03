@@ -1,5 +1,5 @@
 ---
-title: Redémarrer
+title: Restart
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie si un effet doit redémarrer après son achèvement. Lecture/écriture EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs

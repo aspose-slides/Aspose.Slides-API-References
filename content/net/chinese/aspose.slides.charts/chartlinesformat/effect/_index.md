@@ -1,5 +1,5 @@
 ---
-title: 效果
+title: Effect
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回用于图表线的效果。只读 IEffectFormataspose.slides/ieffectformat。
 type: docs

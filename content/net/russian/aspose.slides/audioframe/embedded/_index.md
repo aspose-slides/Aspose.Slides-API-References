@@ -1,5 +1,5 @@
 ---
-title: Встраивание
+title: Embedded
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, встроен ли звук в презентацию. Свойство только для чтения типа Boolean.
 type: docs

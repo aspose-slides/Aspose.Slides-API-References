@@ -1,5 +1,5 @@
 ---
-title: RectánguloAlinear
+title: RectangleAlign
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Alineación de rectángulo. Leer/escribir RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs

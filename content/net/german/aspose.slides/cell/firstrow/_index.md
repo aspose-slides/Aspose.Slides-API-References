@@ -1,5 +1,5 @@
 ---
-title: ErsteZeile
+title: FirstRow
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ermöglicht den Zugriff auf die erste Zeile der Zelle. Nur-Lesen IRowaspose.slides/irow.
 type: docs

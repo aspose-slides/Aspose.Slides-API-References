@@ -1,5 +1,5 @@
 ---
-title: 许可证
+title: License
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化此类的新实例。
 type: docs

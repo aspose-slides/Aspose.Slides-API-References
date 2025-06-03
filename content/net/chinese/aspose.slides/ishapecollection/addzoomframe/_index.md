@@ -1,5 +1,5 @@
 ---
-title: 添加缩放框
+title: AddZoomFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的缩放对象添加到集合的末尾。
 type: docs

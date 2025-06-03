@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Labels
 second_title: Aspose.Slides for .NET API 参考
 description: 返回系列的标签。只读 IDataLabelCollection aspose.slides.charts/idatalabelcollection。
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: ResolveUri  
+title: ResolveUri
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Определяет абсолютный URI на основе базового и относительного URI.
 type: docs  

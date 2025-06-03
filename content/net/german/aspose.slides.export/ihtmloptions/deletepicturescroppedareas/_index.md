@@ -1,5 +1,5 @@
 ---  
-title: DeletePicturesCroppedAreas  
+title: DeletePicturesCroppedAreas
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ein boolesches Flag zeigt an, ob diebeschnittene Teile als Teil des Dokuments verbleiben. Wenn true, werden die beschnittenen Teile entfernt, wenn false, werden sie im Dokument serialisiert was möglicherweise zu einer größeren Datei führen kann Lesen/Schreiben Boolean.
 type: docs  

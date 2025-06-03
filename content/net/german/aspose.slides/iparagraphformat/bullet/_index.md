@@ -1,5 +1,5 @@
 ---
-title: Aufzählungszeichen
+title: Bullet
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Aufzählungszeichenformat des Absatzes zurück. Nur-Lese IBulletFormataspose.slides/ibulletformat.
 type: docs

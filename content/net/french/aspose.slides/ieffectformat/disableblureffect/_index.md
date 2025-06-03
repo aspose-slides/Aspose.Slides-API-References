@@ -1,5 +1,5 @@
 ---
-title: DésactiverEffetFlou
+title: DisableBlurEffect
 second_title: Référence API Aspose.Sildes pour .NET
 description: Désactive l'effet de flou.
 type: docs

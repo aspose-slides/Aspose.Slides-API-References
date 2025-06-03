@@ -1,5 +1,5 @@
 ---
-title: Эффект свечения
+title: GlowEffect
 second_title: Справка по API Aspose.Slides для .NET
 description: Эффект свечения. Чтение/запись IGlowaspose.slides.effects/iglow.
 type: docs

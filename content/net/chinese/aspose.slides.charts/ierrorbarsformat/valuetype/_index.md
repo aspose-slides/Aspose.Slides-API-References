@@ -1,5 +1,5 @@
 ---
-title: 值类型
+title: ValueType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示确定误差线长度的可能方法。在自定义值类型的情况下，要指定值，请使用系列的 DataPoints 集合中特定数据点的 ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues 属性。读/写 ErrorBarValueTypeaspose.slides/errorbarvaluetype。
 type: docs

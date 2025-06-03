@@ -1,5 +1,5 @@
 ---
-title: 颜色
+title: Color
 second_title: Aspose.Slides for .NET API 参考
 description: 返回将替换每个像素颜色的颜色格式。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

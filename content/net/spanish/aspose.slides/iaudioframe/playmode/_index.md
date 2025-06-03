@@ -1,5 +1,5 @@
 ---
-title: ModoDeReproducción
+title: PlayMode
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el modo de reproducción de audio. Lectura/escritura AudioPlayModePresetaspose.slides/audioplaymodepreset.
 type: docs

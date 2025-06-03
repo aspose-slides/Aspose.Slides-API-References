@@ -1,5 +1,5 @@
 ---
-title: Verlangsamen
+title: Decelerate
 second_title: Aspose.Sildes für .NET API Referenz
 description: Beschreibt den Prozentsatz des Zeitraums für den Verlangsamungseffekt. Lese-/Schreibzugriff auf Single.
 type: docs

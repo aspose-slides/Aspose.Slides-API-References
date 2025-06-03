@@ -1,5 +1,5 @@
 ---
-title: 开始反射透明度
+title: StartReflectionOpacity
 second_title: Aspose.Slides for .NET API 参考
 description: 开始反射透明度。百分比。唯读 Single。
 type: docs

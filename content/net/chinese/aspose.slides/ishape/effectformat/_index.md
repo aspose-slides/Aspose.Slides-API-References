@@ -1,5 +1,5 @@
 ---
-title: 效果格式
+title: EffectFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含应用于形状的像素效果的 EffectFormat 对象。只读 IEffectFormat aspose.slides/ieffectformat。
 type: docs

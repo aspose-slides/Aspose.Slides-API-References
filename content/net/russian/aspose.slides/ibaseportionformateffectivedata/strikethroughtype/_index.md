@@ -1,5 +1,5 @@
 ---
-title: ТипЗачеркивания
+title: StrikethroughType
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает тип зачеркивания текста. Только для чтения TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs

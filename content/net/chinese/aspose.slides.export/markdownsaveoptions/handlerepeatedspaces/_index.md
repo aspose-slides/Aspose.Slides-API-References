@@ -1,5 +1,5 @@
 ---
-title: 处理重复空格
+title: HandleRepeatedSpaces
 second_title: Aspose.Slides for .NET API 参考
 description: type docs
 weight: 50

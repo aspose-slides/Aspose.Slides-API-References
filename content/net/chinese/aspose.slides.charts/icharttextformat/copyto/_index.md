@@ -1,5 +1,5 @@
 ---
-title: 复制到
+title: CopyTo
 second_title: Aspose.Slides for .NET API 参考
 description: 将文本格式复制到指定的文本框。
 type: docs

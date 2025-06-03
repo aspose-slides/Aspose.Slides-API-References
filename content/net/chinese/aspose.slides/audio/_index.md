@@ -1,5 +1,5 @@
 ---
-title: 音频
+title: Audio
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示嵌入的音频文件。
 type: docs

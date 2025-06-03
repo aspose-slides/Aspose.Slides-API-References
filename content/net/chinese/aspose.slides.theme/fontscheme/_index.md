@@ -1,5 +1,5 @@
 ---
-title: 字体方案
+title: FontScheme
 second_title: Aspose.Slides for .NET API 参考
 description: 存储主题定义的字体。
 type: docs

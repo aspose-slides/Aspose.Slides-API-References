@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置当前流中的位置。只读 Int64。
 type: docs

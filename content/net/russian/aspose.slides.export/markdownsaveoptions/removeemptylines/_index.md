@@ -1,5 +1,5 @@
 ---
-title: УдалитьПустыеСтроки
+title: RemoveEmptyLines
 second_title: Справка по API Aspose.Sildes для .NET
 description: Если установлено в true, удаляет пустые строки или строки, содержащие только пробелы, из финального Markdown-вывода. По умолчанию false.
 type: docs

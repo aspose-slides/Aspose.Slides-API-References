@@ -1,5 +1,5 @@
 ---
-title: 图片压缩
+title: PicturesCompression
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图片的压缩级别
 type: docs

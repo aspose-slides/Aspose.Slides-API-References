@@ -1,5 +1,5 @@
 ---
-title: 效果触发类型
+title: EffectTriggerType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示效果的触发类型。
 type: docs

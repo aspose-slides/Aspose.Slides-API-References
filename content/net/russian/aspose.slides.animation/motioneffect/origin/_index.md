@@ -1,5 +1,5 @@
 ---
-title: Происхождение
+title: Origin
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает, относительно чего является происхождение пути движения, например, расположение слайда или родительский элемент. Чтение/запись MotionOriginTypeaspose.slides.animation/motionorigintype.
 type: docs

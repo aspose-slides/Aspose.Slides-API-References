@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справка по API Aspose.Slides для .NET
 description: Получает ширину изображения в пикселях.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: 字体替代规则列表  
+title: FontSubstRuleList
 second_title: Aspose.Slides for .NET API 参考  
 description: 在渲染可读/写 IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection 时使用的字体替代。
 type: docs  

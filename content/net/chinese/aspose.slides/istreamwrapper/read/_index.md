@@ -1,5 +1,5 @@
 ---
-title: 读取
+title: Read
 second_title: Aspose.Sildes for .NET API 参考
 description: 从当前流中读取字节序列，并根据读取的字节数推进流中的位置。
 type: docs

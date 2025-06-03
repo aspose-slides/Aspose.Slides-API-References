@@ -1,5 +1,5 @@
 ---
-title: УдалитьСекциюРезюмеЗума
+title: RemoveSummaryZoomSection
 second_title: Справка по API Aspose.Slides для .NET
 description: Удалить объект секции резюме зума из коллекции.
 type: docs

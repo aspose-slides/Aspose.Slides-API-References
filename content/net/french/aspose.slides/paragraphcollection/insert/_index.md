@@ -1,5 +1,5 @@
 ---
-title: Insérer
+title: Insert
 second_title: Référence API Aspose.Sildes pour .NET
 description: Insère un paragraphe dans la collection à l'index spécifié.
 type: docs

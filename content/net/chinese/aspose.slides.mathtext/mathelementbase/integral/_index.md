@@ -1,5 +1,5 @@
 ---
-title: 积分
+title: Integral
 second_title: Aspose.Sildes for .NET API 参考
 description: 计算积分
 type: docs

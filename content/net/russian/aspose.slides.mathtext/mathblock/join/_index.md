@@ -1,5 +1,5 @@
 ---
-title: Присоединить
+title: Join
 second_title: Справочник по API Aspose.Slides для .NET
 description: Присоединяет математический элемент к этому математическому блоку
 type: docs

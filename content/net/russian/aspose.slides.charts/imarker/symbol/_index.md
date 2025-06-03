@@ -1,5 +1,5 @@
 ---
-title: Символ
+title: Symbol
 second_title: Справочник API Aspose.Sildes для .NET
 description: Представляет стиль маркера в линейном графике, диаграмме разброса или радарном графике. Чтение/запись MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs

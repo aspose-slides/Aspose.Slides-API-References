@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Сравнивает с указанным объектом.
 type: docs

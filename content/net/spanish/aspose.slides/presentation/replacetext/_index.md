@@ -1,5 +1,5 @@
 ---
-title: ReemplazarTexto
+title: ReplaceText
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Reemplaza todas las ocurrencias del texto especificado por otro texto especificado.
 type: docs

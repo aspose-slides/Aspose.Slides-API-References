@@ -1,5 +1,5 @@
 ---
-title: Zu
+title: To
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Zielort für einen Animations-Skalierungseffekt in Prozent an. Lese-/Schreibzugriff auf PointF.
 type: docs

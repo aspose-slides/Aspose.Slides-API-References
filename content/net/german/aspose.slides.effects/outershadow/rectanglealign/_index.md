@@ -1,5 +1,5 @@
 ---
-title: RechteckAusrichtung
+title: RectangleAlign
 second_title: Aspose.Slides für .NET API-Referenz
 description: Rechteckausrichtung. Lesen/ Schreiben von RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs

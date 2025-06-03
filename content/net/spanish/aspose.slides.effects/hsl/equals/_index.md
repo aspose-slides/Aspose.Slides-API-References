@@ -1,5 +1,5 @@
 ---
-title: Igual
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el HSL especificado asp.net/hsl es igual al HSL actual asp.net/hsl.
 type: docs

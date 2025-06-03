@@ -1,5 +1,5 @@
 ---
-title: Révéler
+title: Reveal
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente que cet effet avec le comportement doit révéler entrer/sortir Lire/écrire FilterEffectRevealTypeaspose.slides.animation/filtereffectrevealtype.
 type: docs

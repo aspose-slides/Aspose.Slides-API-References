@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 在集合末尾添加新的趋势线并返回它。
 type: docs

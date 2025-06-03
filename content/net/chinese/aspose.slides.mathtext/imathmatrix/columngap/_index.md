@@ -1,5 +1,5 @@
 ---
-title: 列间距
+title: ColumnGap
 second_title: Aspose.Slides for .NET API 参考
 description: 矩阵列之间的水平间距值。如果 ColumnGapRule 设置为 3（“精确”），则单位被解释为 twips（1/20 点）。如果 ColumnGapRule 设置为 4（“多重”），则单位被解释为 0.5 em 的增量。在其他情况下将被忽略。默认值：0
 type: docs

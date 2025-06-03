@@ -1,5 +1,5 @@
 ---  
-title: FontAlignment  
+title: FontAlignment
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt eine Schriftartausrichtung in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff auf FontAlignmentaspose.slides/fontalignment.
 type: docs  

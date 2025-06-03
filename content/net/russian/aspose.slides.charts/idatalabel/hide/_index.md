@@ -1,5 +1,5 @@
 ---
-title: Скрыть
+title: Hide
 second_title: Справочник по API Aspose.Slides для .NET
 description: Сделайте метку данных скрытой, установив все флаги Show ShowValue, ... в состояние false. IsVisible будет равен false после этого.
 type: docs

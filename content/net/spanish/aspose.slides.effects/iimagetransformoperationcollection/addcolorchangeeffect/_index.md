@@ -1,5 +1,5 @@
 ---
-title: AgregarEfectoCambioColor
+title: AddColorChangeEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agrega el nuevo efecto de Cambio de Color al final de una colección.
 type: docs

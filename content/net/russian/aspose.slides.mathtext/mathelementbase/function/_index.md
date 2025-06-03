@@ -1,5 +1,5 @@
 ---
-title: Функция
+title: Function
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 type: docs

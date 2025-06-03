@@ -1,5 +1,5 @@
 ---
-title: Marqueur
+title: Marker
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie un marqueur de données. En lecture seule IMarker aspose.slides.charts/imarker.
 type: docs

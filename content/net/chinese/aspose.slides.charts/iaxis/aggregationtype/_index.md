@@ -1,5 +1,5 @@
 ---
-title: 聚合类型
+title: AggregationType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示类别轴（分箱）的聚合类型。应用于类别。仅与 Histogram 或 HistogramPareto 系列一起使用。
 type: docs

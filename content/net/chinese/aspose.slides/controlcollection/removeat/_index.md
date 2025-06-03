@@ -1,5 +1,5 @@
 ---
-title: 移除指定位置的控件
+title: RemoveAt
 second_title: Aspose.Sildes for .NET API 参考
 description: 从集合中移除存储在指定位置的 ActiveX 控件。
 type: docs

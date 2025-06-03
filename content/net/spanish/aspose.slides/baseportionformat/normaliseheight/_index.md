@@ -1,5 +1,5 @@
 ---
-title: NormalizarAltura
+title: NormaliseHeight
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la altura de un texto debe ser normalizada. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs

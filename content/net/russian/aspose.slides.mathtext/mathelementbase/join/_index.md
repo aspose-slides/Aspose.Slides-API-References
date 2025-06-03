@@ -1,5 +1,5 @@
 ---
-title: Объединить
+title: Join
 second_title: Справочник API Aspose.Sildes для .NET
 description: Объединяет математический элемент и формирует математический блок
 type: docs

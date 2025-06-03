@@ -1,5 +1,5 @@
 ---
-title: 计算公式
+title: CalculateFormulas
 second_title: Aspose.Slidess for .NET API 参考
 description: 计算工作簿中的所有公式并更新相应单元格的值。
 type: docs

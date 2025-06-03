@@ -1,5 +1,5 @@
 ---
-title: 加载格式
+title: LoadFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 获取绑定演示文稿的格式。只读 LoadFormat aspose.slides/loadformat。
 type: docs

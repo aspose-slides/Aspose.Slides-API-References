@@ -1,5 +1,5 @@
 ---
-title: 从
+title: From
 second_title: Aspose.Slides for .NET API 参考
 description: 此值用于指定行为的起始颜色。可读/写 IColorFormataspose.slides/../aspose.slides/icolorformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 亮度
+title: Brightness
 second_title: Aspose.Slides for .NET API 参考
 description: 亮度。只读单一值。
 type: docs

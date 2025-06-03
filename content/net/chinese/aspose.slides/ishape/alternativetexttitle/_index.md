@@ -1,5 +1,5 @@
 ---
-title: 替代文本标题
+title: AlternativeTextTitle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置与形状关联的替代文本的标题。可读/可写字符串。
 type: docs

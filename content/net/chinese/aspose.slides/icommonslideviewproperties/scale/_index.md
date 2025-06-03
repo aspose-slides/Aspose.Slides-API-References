@@ -1,5 +1,5 @@
 ---
-title: 缩放
+title: Scale
 second_title: Aspose.Slides for .NET API 参考
 description: 指定视图缩放比例（以百分比表示）。可读写 Int32。
 type: docs

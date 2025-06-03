@@ -1,5 +1,5 @@
 ---  
-title: HighlightColor  
+title: HighlightColor
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie la couleur utilisée pour surligner un texte. Pas d'héritage appliqué. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Escribir
+title: Write
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Escribe el contenido del archivo en el flujo.
 type: docs

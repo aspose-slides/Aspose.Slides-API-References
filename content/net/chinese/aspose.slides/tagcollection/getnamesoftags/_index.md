@@ -1,5 +1,5 @@
 ---
-title: 获取标签名称
+title: GetNamesOfTags
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回标签名称。
 type: docs

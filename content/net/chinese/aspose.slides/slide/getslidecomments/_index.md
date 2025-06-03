@@ -1,5 +1,5 @@
 ---
-title: 获取幻灯片评论
+title: GetSlideComments
 second_title: Aspose.Slides for .NET API 参考
 description: 返回由特定作者添加的所有幻灯片评论。
 type: docs

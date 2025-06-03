@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un ImageTransformOperationaspose.slides.effects/imagetransformoperation de la colección por su índice.
 type: docs

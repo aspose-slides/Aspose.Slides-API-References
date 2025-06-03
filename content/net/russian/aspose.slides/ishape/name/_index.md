@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает имя фигуры. Читаемое и записываемое значение String.
 type: docs

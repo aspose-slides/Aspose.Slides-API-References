@@ -1,5 +1,5 @@
 ---  
-title: FromColor  
+title: FromColor
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Couleur qui sera remplacée. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Beschriftung
+title: Label
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Beschriftung der Untertitel zurück oder legt sie fest. Lese-/Schreib-String.
 type: docs

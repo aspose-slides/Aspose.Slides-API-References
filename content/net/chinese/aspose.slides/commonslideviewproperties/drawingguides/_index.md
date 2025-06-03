@@ -1,5 +1,5 @@
 ---
-title: 绘图指南
+title: DrawingGuides
 second_title: Aspose.Slides for .NET API 参考
 description: 返回绘图指南的集合。只读 IDrawingGuidesCollection aspose.slides/idrawingguidescollection
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Заполнение
+title: Fill
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает свойства стиля заливки графика. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs

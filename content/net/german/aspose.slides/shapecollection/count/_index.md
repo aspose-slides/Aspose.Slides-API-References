@@ -1,5 +1,5 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Anzahl der Elemente an, die tatsächlich in der Sammlung enthalten sind. Nur lesbare Int32.
 type: docs

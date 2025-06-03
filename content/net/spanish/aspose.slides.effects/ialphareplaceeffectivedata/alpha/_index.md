@@ -1,5 +1,5 @@
 ---
-title: Alfa
+title: Alpha
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un nuevo valor alfa en el intervalo 0..1 Solo lectura Single.
 type: docs

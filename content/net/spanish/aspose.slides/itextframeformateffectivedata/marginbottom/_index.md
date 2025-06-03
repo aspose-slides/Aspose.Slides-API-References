@@ -1,5 +1,5 @@
 ---
-title: MargenInferior
+title: MarginBottom
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve los puntos del margen inferior en un TextFrame. Solo lectura Double.
 type: docs

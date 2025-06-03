@@ -1,5 +1,5 @@
 ---
-title: 数学分数类型
+title: MathFractionTypes
 second_title: Aspose.Slides for .NET API 参考
 description: 分数类型
 type: docs

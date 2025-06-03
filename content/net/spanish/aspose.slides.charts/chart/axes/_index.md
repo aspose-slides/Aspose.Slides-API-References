@@ -1,5 +1,5 @@
 ---
-title: Ejes
+title: Axes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Proporcionar acceso a los ejes de los gráficos. Solo lectura IAxesManager aspose.slides.charts/iaxesmanager.
 type: docs

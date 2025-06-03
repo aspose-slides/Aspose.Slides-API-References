@@ -1,5 +1,5 @@
 ---
-title: Interruption
+title: Interrupt
 second_title: Référence API Aspose.Slides pour .NET
 description: Initialiser une demande d'interruption.
 type: docs

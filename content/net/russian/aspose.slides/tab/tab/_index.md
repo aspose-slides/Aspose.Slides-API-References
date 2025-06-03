@@ -1,5 +1,5 @@
 ---
-title: Вкладка
+title: Tab
 second_title: Справка по API Aspose.Sildes для .NET
 description: Создает новую Вкладку
 type: docs

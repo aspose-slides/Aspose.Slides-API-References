@@ -1,5 +1,5 @@
 ---
-title: 公司
+title: Company
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置公司属性。可读/写字符串。
 type: docs

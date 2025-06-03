@@ -1,5 +1,5 @@
 ---
-title: ВысотаШрифта
+title: FontHeight
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает высоту шрифта части. Только для чтения Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Nivel
+title: Level
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nivel de anidamiento del nodo. Solo de lectura Int32.
 type: docs

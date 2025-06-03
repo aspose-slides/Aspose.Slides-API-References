@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Elimina los subtítulos cerrados especificados de la colección.
 type: docs

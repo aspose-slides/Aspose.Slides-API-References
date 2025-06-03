@@ -1,5 +1,5 @@
 ---
-title: Lissage
+title: Smooth
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le lissage des courbes. Vrai si le lissage des courbes est activé pour le graphique linéaire ou le graphique en nuage de points. S'applique uniquement aux graphiques linéaires et aux graphiques en nuage de points connectés par des lignes. Lecture/écriture de type Booléen.
 type: docs

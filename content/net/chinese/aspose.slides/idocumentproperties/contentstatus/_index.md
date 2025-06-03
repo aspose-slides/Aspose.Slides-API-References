@@ -1,5 +1,5 @@
 ---
-title: 内容状态
+title: ContentStatus
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的内容状态。可读写字符串。
 type: docs

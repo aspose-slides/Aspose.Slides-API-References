@@ -1,5 +1,5 @@
 ---
-title: EspaceInterne
+title: SpaceWithin
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la quantité d'espace entre les lignes de base dans un paragraphe. Lecture seule de type Single.
 type: docs

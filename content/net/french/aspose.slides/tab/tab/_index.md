@@ -1,5 +1,5 @@
 ---
-title: Onglet
+title: Tab
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouvel Onglet
 type: docs

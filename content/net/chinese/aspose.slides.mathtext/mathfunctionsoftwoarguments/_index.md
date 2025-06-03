@@ -1,5 +1,5 @@
 ---
-title: 两个参数的数学函数
+title: MathFunctionsOfTwoArguments
 second_title: Aspose.Slides for .NET API 参考
 description: 两个参数的常见数学函数
 type: docs

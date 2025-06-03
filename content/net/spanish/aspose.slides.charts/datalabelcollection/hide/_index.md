@@ -1,5 +1,5 @@
 ---
-title: Ocultar
+title: Hide
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Haga que la etiqueta de datos esté oculta por defecto configurando todos los Show-flags ShowValue, ... de la propiedad DefaultDataLabelFormat en estado false. IsVisible será false después de esto.
 type: docs

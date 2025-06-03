@@ -1,5 +1,5 @@
 ---
-title: DonnéesEnChaine
+title: DataAsString
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les données des sous-titres fermés sous forme de chaîne encodée en UTF-8 en lecture seule.
 type: docs

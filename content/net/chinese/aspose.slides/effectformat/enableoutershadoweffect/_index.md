@@ -1,5 +1,5 @@
 ---
-title: 启用外部阴影效果
+title: EnableOuterShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 启用外部阴影效果。
 type: docs

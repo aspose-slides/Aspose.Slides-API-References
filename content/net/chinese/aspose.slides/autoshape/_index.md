@@ -1,5 +1,5 @@
 ---
-title: 自动形状
+title: AutoShape
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个自动形状。
 type: docs

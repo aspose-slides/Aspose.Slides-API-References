@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Slides for .NET API 参考
 description: 部分的名称。
 type: docs

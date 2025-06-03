@@ -1,5 +1,5 @@
 ---
-title: Onglets
+title: Tabs
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les tabulations d'un paragraphe. Aucun héritage appliqué. Lecture seule ITabCollectionaspose.slides/itabcollection.
 type: docs

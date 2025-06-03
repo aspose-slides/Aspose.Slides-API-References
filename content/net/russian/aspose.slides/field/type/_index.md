@@ -1,5 +1,5 @@
 ---
-title: Тип
+title: Type
 second_title: Aspose.Slides для справки по API .NET
 description: Возвращает или устанавливает тип поля. Чтение/запись IFieldTypeaspose.slides/ifieldtype.
 type: docs

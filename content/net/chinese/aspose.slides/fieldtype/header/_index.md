@@ -1,5 +1,5 @@
 ---
-title: 标头
+title: Header
 second_title: Aspose.Slides for .NET API 参考
 description: 幻灯片的标头。只读 FieldType aspose.slides/fieldtype。
 type: docs

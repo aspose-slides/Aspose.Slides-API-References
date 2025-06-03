@@ -1,5 +1,5 @@
 ---
-title: ЭффектТениВнутри
+title: InnerShadowEffect
 second_title: Справочник по API Aspose.Slides для .NET
 description: Внутренняя тень. Чтение/запись IInnerShadowaspose.slides.effects/iinnershadow.
 type: docs

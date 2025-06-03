@@ -1,5 +1,5 @@
 ---
-title: 图像转换操作
+title: ImageTransformOperation
 second_title: Aspose.Slides for .NET API 参考
 description: 表示抽象图像转换效果。
 type: docs

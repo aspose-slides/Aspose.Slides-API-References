@@ -1,5 +1,5 @@
 ---
-title: Données binaires
+title: BinaryData
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les données binaires des sous-titres. En lecture seule Byte.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Schriftartschema
+title: FontScheme
 second_title: Aspose.Slides für .NET API-Referenz
 description: Enthält themendefinierte Schriftarten.
 type: docs

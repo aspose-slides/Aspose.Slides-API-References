@@ -1,5 +1,5 @@
 ---
-title: 图像大小
+title: ImageSize
 second_title: Aspose.Slides for .NET API 参考
 description: 指定生成的 TIFF 图像的大小。默认值为 0x0，这意味着生成的图像大小将基于演示文稿幻灯片的大小值进行计算。读/写 Size。
 type: docs

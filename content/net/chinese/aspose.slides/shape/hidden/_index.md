@@ -1,5 +1,5 @@
 ---
-title: 隐藏
+title: Hidden
 second_title: Aspose.Slides for .NET API 参考
 description: 确定形状是否隐藏。 可读/可写布尔值。
 type: docs

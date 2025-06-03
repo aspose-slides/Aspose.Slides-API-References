@@ -1,5 +1,5 @@
 ---
-title: 从流中创建
+title: FromStream
 second_title: Aspose.Slides for .NET API 参考
 description: 从流中创建图像。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: HorizontalAchse
+title: HorizontalAxis
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält die horizontale Achse des Diagramms. Schreibgeschützt IAxisaspose.slides.charts/iaxis.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Champ
+title: Field
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un champ.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 获取矩形
+title: GetRect
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取包含部分的矩形坐标。矩形包括部分中的所有文本行，包括空行。
 type: docs

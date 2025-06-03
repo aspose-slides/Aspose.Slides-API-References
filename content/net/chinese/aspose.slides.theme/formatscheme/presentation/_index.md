@@ -1,5 +1,5 @@
 ---
-title: 演示文稿
+title: Presentation
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回父演示文稿。只读 IPresentation aspose.slides/ipresentation。
 type: docs

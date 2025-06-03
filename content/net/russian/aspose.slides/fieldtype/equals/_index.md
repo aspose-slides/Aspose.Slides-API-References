@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Проверяет, равно ли это поле другому.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: SlideImageFormat  
+title: SlideImageFormat
 second_title: Aspose.Sildes для .NET API Reference  
 description: Возвращает или устанавливает параметры формата изображения слайда. Чтение/запись ISlideImageFormat aspose.slides.export/islideimageformat.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: ObtenerDiapositivasDependientes
+title: GetDependingSlides
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un arreglo con todas las diapositivas que dependen de esta diapositiva de diseño.
 type: docs

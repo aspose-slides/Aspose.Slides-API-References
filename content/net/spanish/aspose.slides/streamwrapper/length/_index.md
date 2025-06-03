@@ -1,5 +1,5 @@
 ---
-title: Longitud
+title: Length
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene la longitud en bytes del flujo. Solo lectura Int64.
 type: docs

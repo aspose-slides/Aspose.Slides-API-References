@@ -1,5 +1,5 @@
 ---
-title: Описание
+title: Description
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает человекочитаемое описание этого предупреждения. Только для чтения строка.
 type: docs

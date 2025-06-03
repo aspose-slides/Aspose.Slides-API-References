@@ -1,5 +1,5 @@
 ---
-title: Bild
+title: Picture
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Bild zurück, das als Aufzählungszeichen in einem Absatz ohne Vererbung verwendet wird. Nur lesbares ISlidesPictureaspose.slides/islidespicture.
 type: docs

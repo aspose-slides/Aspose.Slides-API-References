@@ -1,5 +1,5 @@
 ---
-title: 内阴影效果
+title: InnerShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 内阴影。只读 IInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Form
+title: Shape
 second_title: Aspose.Slides für .NET API Referenz
 description: Iterieren Sie jede Form aspose.slides.lowcode/foreach/shape in der Präsentation aspose.slides/presentation. Formen werden in allen Arten von Folien iteriert - Folie aspose.slides.lowcode/foreach/slide MasterFolie aspose.slides.lowcode/foreach/masterslide und LayoutFolie aspose.slides.lowcode/foreach/layoutslide
 type: docs

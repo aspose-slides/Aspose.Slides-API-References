@@ -1,5 +1,5 @@
 ---
-title: Compiler
+title: Compile
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Transforme le modèle avec la clé donnée et l'objet modèle en un résultat.
 type: docs

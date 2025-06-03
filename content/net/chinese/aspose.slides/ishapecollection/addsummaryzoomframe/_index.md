@@ -1,5 +1,5 @@
 ---
-title: 添加摘要缩放框
+title: AddSummaryZoomFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 将新的摘要缩放对象添加到集合的末尾。
 type: docs

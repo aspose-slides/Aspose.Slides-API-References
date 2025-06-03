@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Slides for .NET API 参考
 description: 返回文档部分的组名称。仅支持读取的字符串。
 type: docs

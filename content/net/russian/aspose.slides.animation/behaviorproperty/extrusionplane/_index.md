@@ -1,5 +1,5 @@
 ---
-title: ЭкструзияПлоскость
+title: ExtrusionPlane
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет свойство extrusion.plane
 type: docs

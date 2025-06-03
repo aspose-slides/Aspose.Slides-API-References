@@ -1,5 +1,5 @@
 ---
-title: 设置日期时间可见性
+title: SetDateTimeVisibility
 second_title: Aspose.Slides for .NET API 参考
 description: 更改幻灯片日期时间占位符的可见性。
 type: docs

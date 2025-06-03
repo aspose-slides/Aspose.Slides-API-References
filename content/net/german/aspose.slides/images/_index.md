@@ -1,5 +1,5 @@
 ---
-title: Bilder
+title: Images
 second_title: Aspose.Slides für .NET API Referenz
 description: Methoden zur Instanziierung und Arbeit mit IImage./iimage.
 type: docs

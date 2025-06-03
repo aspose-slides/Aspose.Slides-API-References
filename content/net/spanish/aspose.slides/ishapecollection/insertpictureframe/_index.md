@@ -1,5 +1,5 @@
 ---
-title: InsertarMarcoDeImagen
+title: InsertPictureFrame
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un nuevo MarcoDeImagen y lo inserta en la colección en el índice especificado.
 type: docs

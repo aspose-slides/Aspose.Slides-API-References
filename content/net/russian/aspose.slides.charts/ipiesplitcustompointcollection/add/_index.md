@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Ссылки на API Aspose.Sildes для .NET
 description: Добавляет точку данных по индексу в коллекции точек родительской серии.
 type: docs

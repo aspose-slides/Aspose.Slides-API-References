@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Sildes for .NET API 参考
 description: 将图像保存到文件。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 获取坐标
+title: GetCoordinates
 second_title: Aspose.Slides for .NET API 参考
 description: 获取部分起始点的坐标。点的 X 坐标表示从第一个字符开始的部分，包括左侧边距。Y 坐标包括上侧边距。
 type: docs

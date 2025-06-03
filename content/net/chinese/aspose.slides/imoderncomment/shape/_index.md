@@ -1,5 +1,5 @@
 ---
-title: 形状
+title: Shape
 second_title: Aspose.Slides for .NET API 参考
 description: 返回与评论关联的形状。只读 IShape aspose.slides/ishape。
 type: docs

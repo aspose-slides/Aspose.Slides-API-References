@@ -1,5 +1,5 @@
 ---
-title: ModeNoirBlanc
+title: BlackWhiteMode
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: La propriété spécifie comment une forme sera rendue en mode d'affichage noir et blanc.. Lecture/écriture BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs

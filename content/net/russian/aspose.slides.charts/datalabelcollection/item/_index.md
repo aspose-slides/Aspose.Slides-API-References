@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Aspose.Slides для .NET API Справочник
 description: Получает метку данных для точки данных с указанным индексом.
 type: docs

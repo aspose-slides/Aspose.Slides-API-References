@@ -1,5 +1,5 @@
 ---
-title: HatAbgerundeteEcken
+title: HasRoundedCorners
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, dass der Diagrammbereich abgerundete Ecken haben soll. Schreib-/Lese-Boolescher Wert.
 type: docs

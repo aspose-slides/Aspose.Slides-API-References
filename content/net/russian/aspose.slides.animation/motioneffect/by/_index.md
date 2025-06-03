@@ -1,5 +1,5 @@
 ---
-title: По
+title: By
 second_title: Справка по API Aspose.Sildes для .NET
 description: Описывает относительное значение смещения для анимации в процентах. Чтение/запись PointF.
 type: docs

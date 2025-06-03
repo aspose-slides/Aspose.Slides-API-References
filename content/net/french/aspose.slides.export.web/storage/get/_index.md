@@ -1,5 +1,5 @@
 ---
-title: Obtenir
+title: Get
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: type docs
 weight: 30

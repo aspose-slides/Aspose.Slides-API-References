@@ -1,5 +1,5 @@
 ---
-title: EstablecerVisibilidadDeNumerosDeDiapositivas
+title: SetAllSlideNumbersVisibility
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Cambia la visibilidad de todos los marcadores de números de página, incluidos los diseños de diapositivas maestras y diapositivas.
 type: docs

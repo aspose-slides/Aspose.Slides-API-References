@@ -1,5 +1,5 @@
 ---
-title: Enregistrer
+title: Save
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Enregistre un tableau d'octets à un emplacement de destination.
 type: docs

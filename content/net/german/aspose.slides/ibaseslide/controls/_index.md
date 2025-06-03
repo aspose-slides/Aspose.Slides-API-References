@@ -1,5 +1,5 @@
 ---
-title: Steuerungen
+title: Controls
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur-Lese IControlCollectionaspose.slides/icontrolcollection.
 type: docs

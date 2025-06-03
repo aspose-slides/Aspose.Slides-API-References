@@ -1,5 +1,5 @@
 ---
-title: 获取摘要缩放部分
+title: GetSummarySection
 second_title: Aspose.Slides for .NET API 参考
 description: 返回给定部分的摘要缩放部分元素。
 type: docs

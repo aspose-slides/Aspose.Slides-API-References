@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt den neuen Verlauf-Stopp und fügt ihn am Ende der Sammlung hinzu.
 type: docs

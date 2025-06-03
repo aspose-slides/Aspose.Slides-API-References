@@ -1,5 +1,5 @@
 ---
-title: Transparence
+title: Transparency
 second_title: Référence API Aspose.Sildes pour .NET
 description: Obtient la transparence de la couleur de remplissage. Lire Single.
 type: docs

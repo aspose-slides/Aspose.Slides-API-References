@@ -1,5 +1,5 @@
 ---
-title: Delimitar
+title: Delimit
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Delimita elementos secundarios con un carácter separador sin los corchetes
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справка по API Aspose.Sildes для .NET
 description: Представляет формат метки данных. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs

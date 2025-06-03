@@ -1,5 +1,5 @@
 ---
-title: 宽度
+title: Width
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置标题的宽度，作为图表宽度的一个分数。可读写单精度浮点数。
 type: docs

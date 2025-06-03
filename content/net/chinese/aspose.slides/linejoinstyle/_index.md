@@ -1,5 +1,5 @@
 ---
-title: 线连接样式
+title: LineJoinStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 表示线条的连接样式。
 type: docs

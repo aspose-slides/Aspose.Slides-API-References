@@ -1,5 +1,5 @@
 ---
-title: 帧滴
+title: FrameTick
 second_title: Aspose.Slides for .NET API 参考
 description: 帧滴事件。 当由 PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator 创建的动画的每一帧被播放器生成时发生。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает высоту ячейки. Только для чтения Double.
 type: docs

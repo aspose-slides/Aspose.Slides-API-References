@@ -1,5 +1,5 @@
 ---
-title: AnchoDeBin
+title: BinWidth
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica el ancho del bin cuando el valor de la propiedad AggregationType está configurado en AxisAggregationType.ByBinWidth. Aplicado a ejes de categoría. Usado solo con series Histogram o HistogramPareto.
 type: docs

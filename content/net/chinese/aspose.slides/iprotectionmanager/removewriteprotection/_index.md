@@ -1,5 +1,5 @@
 ---
-title: 移除写保护
+title: RemoveWriteProtection
 second_title: Aspose.Slides for .NET API 参考
 description: 移除此演示文稿的写保护。
 type: docs

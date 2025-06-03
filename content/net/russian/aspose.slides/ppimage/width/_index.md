@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочная информация по API Aspose.Sildes для .NET
 description: Возвращает ширину изображения. Только для чтения Int32.
 type: docs

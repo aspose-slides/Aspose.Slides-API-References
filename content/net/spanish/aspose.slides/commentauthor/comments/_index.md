@@ -1,5 +1,5 @@
 ---
-title: Comentarios
+title: Comments
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de comentarios realizados por este autor. Solo lectura ICommentCollectionaspose.slides/icommentcollection.
 type: docs

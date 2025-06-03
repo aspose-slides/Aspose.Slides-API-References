@@ -1,5 +1,5 @@
 ---
-title: 方向
+title: Direction
 second_title: Aspose.Slides for .NET API 参考
 description: 转场方向。可读写 TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype。
 type: docs

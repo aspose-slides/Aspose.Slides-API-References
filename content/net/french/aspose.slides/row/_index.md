@@ -1,5 +1,5 @@
 ---
-title: Ligne
+title: Row
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente une ligne dans un tableau.
 type: docs

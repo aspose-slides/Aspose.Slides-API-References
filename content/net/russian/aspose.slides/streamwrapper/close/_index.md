@@ -1,5 +1,5 @@
 ---
-title: Закрыть
+title: Close
 second_title: Справочник по API Aspose.Slides для .NET
 description: Закрывает текущий поток и освобождает все ресурсы.
 type: docs

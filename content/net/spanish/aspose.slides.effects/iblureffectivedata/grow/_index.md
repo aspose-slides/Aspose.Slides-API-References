@@ -1,5 +1,5 @@
 ---
-title: Crecer
+title: Grow
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si los límites del objeto deben ser ampliados como resultado del desenfoque. Verdadero indica que los límites se amplían, mientras que falso indica que no. Booleano de solo lectura.
 type: docs

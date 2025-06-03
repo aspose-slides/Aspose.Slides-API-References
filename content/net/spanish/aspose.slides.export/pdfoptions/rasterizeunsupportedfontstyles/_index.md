@@ -1,5 +1,5 @@
 ---
-title: RasterizarEstilosDeFuenteNoSoportados
+title: RasterizeUnsupportedFontStyles
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Indica si el texto debe rasterizarse como un bitmap y guardarse en PDF cuando la fuente no admite el estilo negrita. Este enfoque puede mejorar la calidad del texto en el PDF resultante para ciertas fuentes. Booleano de lectura/escritura.
 type: docs

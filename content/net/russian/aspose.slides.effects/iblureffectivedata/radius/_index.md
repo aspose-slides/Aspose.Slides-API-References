@@ -1,5 +1,5 @@
 ---
-title: Радиус
+title: Radius
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает радиус размытия. Только для чтения Double.
 type: docs

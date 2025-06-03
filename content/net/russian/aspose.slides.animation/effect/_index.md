@@ -1,5 +1,5 @@
 ---
-title: Эффект
+title: Effect
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет анимационный эффект.
 type: docs

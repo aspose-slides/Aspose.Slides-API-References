@@ -1,5 +1,5 @@
 ---
-title: 输出
+title: Output
 second_title: Aspose.Slides for .NET API 参考
 description: 返回宿主文档的输出元素集合。只读 Output。
 type: docs

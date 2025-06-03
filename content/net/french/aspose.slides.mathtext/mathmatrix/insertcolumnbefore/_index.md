@@ -1,5 +1,5 @@
 ---
-title: InsererColonneAvant
+title: InsertColumnBefore
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insérer une nouvelle colonne avant la colonne spécifiée. Initialement, tous les éléments de la nouvelle colonne sont null.
 type: docs

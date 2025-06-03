@@ -1,5 +1,5 @@
 ---
-title: Limpiar
+title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Limpia todos los valores de las celdas en la hoja
 type: docs

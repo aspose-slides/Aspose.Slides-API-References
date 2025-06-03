@@ -1,5 +1,5 @@
 ---
-title: 填充类型
+title: FillType
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置填充的类型。可读写 FillTypeaspose.slides/filltype。
 type: docs

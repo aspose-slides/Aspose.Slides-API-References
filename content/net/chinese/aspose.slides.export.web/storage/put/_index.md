@@ -1,5 +1,5 @@
 ---
-title: 放置
+title: Put
 second_title: Aspose.Slides for .NET API 参考
 description: type docs
 weight: 40

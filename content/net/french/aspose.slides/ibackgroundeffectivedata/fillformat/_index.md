@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de remplissage effectif. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs

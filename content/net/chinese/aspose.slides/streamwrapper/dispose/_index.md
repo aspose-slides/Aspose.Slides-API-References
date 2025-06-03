@@ -1,5 +1,5 @@
 ---
-title: 处理
+title: Dispose
 second_title: Aspose.Slides for .NET API 参考
 description: 处理对象。
 type: docs

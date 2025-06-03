@@ -1,5 +1,5 @@
 ---
-title: Картина
+title: Picture
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет картину в презентации.
 type: docs

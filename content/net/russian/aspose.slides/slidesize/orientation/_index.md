@@ -1,5 +1,5 @@
 ---
-title: Ориентация
+title: Orientation
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает ориентацию слайда. Изменение этого значения поменяет размеры слайда местами. Чтение/запись SlideOrientationaspose.slides/slideorientation.
 type: docs

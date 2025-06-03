@@ -1,5 +1,5 @@
 ---
-title: DirectionDeL'éclairage
+title: LightingDirection
 second_title: Référence API Aspose.Slides pour .NET
 description: Constantes qui définissent les directions de la lumière.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Füllen
+title: Fill
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Füllstil-Eigenschaften einer Achse zurück. Nur-Lesen IFillFormataspose.slides/ifillformat.
 type: docs

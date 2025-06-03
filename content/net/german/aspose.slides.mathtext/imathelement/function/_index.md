@@ -1,5 +1,5 @@
 ---
-title: Funktion
+title: Function
 second_title: Aspose.Slides für .NET API-Referenz
 description: Nimmt eine Funktion eines Arguments unter Verwendung dieser Instanz als Funktionsnamen
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 演示文稿
+title: Presentation
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格的父演示文稿。仅读的 IPresentationaspose.slides/ipresentation。
 type: docs

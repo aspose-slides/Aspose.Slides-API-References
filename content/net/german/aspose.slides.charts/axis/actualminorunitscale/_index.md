@@ -1,5 +1,5 @@
 ---  
-title: ActualMinorUnitScale  
+title: ActualMinorUnitScale
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die tatsächliche kleinere Einheitenskala der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 隐藏墨水
+title: HideInk
 second_title: Aspose.Slides for .NET API 参考
 description: 显示或隐藏导出文档中的墨水元素。
 type: docs

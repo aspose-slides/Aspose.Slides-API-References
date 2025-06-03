@@ -1,5 +1,5 @@
 ---
-title: TypeDeRemplissage
+title: FillType
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie le type de remplissage intérieur de divers objets visuels.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Вставляет новый макетный слайд в указанную позицию коллекции.
 type: docs

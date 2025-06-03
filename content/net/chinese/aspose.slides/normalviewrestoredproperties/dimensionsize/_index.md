@@ -1,5 +1,5 @@
 ---
-title: 尺寸大小
+title: DimensionSize
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定 slide 区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。可读写的 Single。
 type: docs

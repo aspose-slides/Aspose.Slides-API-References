@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает нулевой основанный индекс узла среди соседних узлов. Чтение/запись Int32.
 type: docs

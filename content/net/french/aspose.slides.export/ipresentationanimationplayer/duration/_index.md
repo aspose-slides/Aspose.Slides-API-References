@@ -1,5 +1,5 @@
 ---
-title: Durée
+title: Duration
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtenir la durée d'animation en ms
 type: docs

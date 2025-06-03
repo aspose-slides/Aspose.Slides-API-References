@@ -1,5 +1,5 @@
 ---
-title: OpacitéDeFinDeRéflexion
+title: EndReflectionOpacity
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Opacité de fin de réflexion. pourcentages. Lecture/écriture Simple.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ObtenerEsquemaDeColor
+title: GetColorScheme
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el esquema de color.
 type: docs

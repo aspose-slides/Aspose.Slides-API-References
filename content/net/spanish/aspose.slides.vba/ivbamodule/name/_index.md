@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Nombre del módulo. Cadena de solo lectura.
 type: docs

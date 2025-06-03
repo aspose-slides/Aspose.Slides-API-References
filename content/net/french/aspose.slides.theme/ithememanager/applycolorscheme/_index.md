@@ -1,5 +1,5 @@
 ---
-title: AppliquerSchémaCouleur
+title: ApplyColorScheme
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Applique un schéma de couleur supplémentaire à une diapositive.
 type: docs

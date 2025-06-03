@@ -1,5 +1,5 @@
 ---
-title: FormatDeLigne
+title: RowFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le format d'une ligne de tableau.
 type: docs

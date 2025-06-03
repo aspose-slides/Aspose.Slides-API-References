@@ -1,5 +1,5 @@
 ---
-title: Компания
+title: Company
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает свойство компании. Читаемое/Записываемое String.
 type: docs

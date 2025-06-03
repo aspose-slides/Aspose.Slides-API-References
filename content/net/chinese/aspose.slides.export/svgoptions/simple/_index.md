@@ -1,5 +1,5 @@
 ---
-title: 简单
+title: Simple
 second_title: Aspose.Slides for .NET API 参考
 description: 返回用于生成最简单和最小的 SVG 文件的设置。为只读 SVGOptionsaspose.slides/svgoptions。
 type: docs

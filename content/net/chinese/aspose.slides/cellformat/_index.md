@@ -1,5 +1,5 @@
 ---  
-title: CellFormat  
+title: CellFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示表格单元格的格式。
 type: docs  

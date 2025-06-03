@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajouter une nouvelle séquence interactive. Lire/écrire Sequenceaspose.slides.animation/sequence.
 type: docs

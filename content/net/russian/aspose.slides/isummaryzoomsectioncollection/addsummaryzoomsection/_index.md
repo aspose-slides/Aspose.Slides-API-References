@@ -1,5 +1,5 @@
 ---
-title: ДобавитьСекциюСуммарногоМасштаба
+title: AddSummaryZoomSection
 second_title: Ссылка по API Aspose.Slides для .NET
 description: Создает новый объект секции суммарного масштаба и добавляет его в коллекцию
 type: docs

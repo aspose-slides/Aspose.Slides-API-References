@@ -1,5 +1,5 @@
 ---
-title: 评论作者
+title: CommentAuthor
 second_title: Aspose.Slides for .NET API 参考
 description: 表示评论的作者。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Taille
+title: Size
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la taille de l'image.
 type: docs

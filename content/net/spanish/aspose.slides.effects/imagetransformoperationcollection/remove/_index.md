@@ -1,5 +1,5 @@
 ---
-title: Eliminar
+title: Remove
 second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina la primera ocurrencia de un objeto específico del ICollection.
 type: docs

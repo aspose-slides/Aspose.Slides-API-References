@@ -1,5 +1,5 @@
 ---
-title: BandesHorizontales
+title: HorizontalBanding
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si les lignes paires doivent être dessinées avec un formatage différent. Lecture/écriture Booléen.
 type: docs

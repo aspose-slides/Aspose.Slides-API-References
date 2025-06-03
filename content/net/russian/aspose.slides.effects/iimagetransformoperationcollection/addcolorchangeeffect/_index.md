@@ -1,5 +1,5 @@
 ---
-title: Добавить эффект изменения цвета
+title: AddColorChangeEffect
 second_title: Справка по API Aspose.Slides для .NET
 description: Добавляет новый эффект изменения цвета в конец коллекции.
 type: docs

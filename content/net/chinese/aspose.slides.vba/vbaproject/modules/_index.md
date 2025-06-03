@@ -1,5 +1,5 @@
 ---
-title: 模块
+title: Modules
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含在 VBA 项目中的所有模块的列表。只读 IVbaModuleCollectionaspose.slides/ivbamodulecollection。
 type: docs

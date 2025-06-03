@@ -1,5 +1,5 @@
 ---
-title: Efecto
+title: Effect
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve efectos utilizados para una línea de gráfico. Solo lectura IEffectFormataspose.slides/ieffectformat.
 type: docs

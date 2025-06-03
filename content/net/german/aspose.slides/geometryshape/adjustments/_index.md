@@ -1,5 +1,5 @@
 ---
-title: Anpassungen
+title: Adjustments
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Sammlung von Anpassungswerten für Formen zurück. Nur-Lese IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs

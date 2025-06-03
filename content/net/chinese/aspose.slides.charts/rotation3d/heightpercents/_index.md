@@ -1,5 +1,5 @@
 ---
-title: 高度百分比
+title: HeightPercents
 second_title: Aspose.Slides for .NET API 参考
 description: 指定 3D 图表的高度为图表宽度的百分比，范围在 5 到 500 之间。可读写 UInt16。
 type: docs

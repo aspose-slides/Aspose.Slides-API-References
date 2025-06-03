@@ -1,5 +1,5 @@
 ---
-title: ЧерноБелыйРежим
+title: BlackWhiteMode
 second_title: Справочник API Aspose.Slides для .NET
 description: Свойство определяет, как форма будет отображаться в черно-белом режиме. Читаемое/Записываемое BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs

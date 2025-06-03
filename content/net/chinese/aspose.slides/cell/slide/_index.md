@@ -1,5 +1,5 @@
 ---
-title: 幻灯片
+title: Slide
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格的父幻灯片。只读 IBaseSlide aspose.slides/ibaseslide。
 type: docs

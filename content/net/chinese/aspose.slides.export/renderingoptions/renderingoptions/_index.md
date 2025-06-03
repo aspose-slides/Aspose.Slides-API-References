@@ -1,5 +1,5 @@
 ---
-title: 渲染选项
+title: RenderingOptions
 second_title: Aspose.Slides for .NET API 参考
 description: 默认构造函数。
 type: docs

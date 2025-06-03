@@ -1,5 +1,5 @@
 ---
-title: Farbe
+title: Color
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzt. Nur lesbare Farbe.
 type: docs

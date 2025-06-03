@@ -1,5 +1,5 @@
 ---
-title: ModeDeRemplissage
+title: FillMode
 second_title: Référence API Aspose.Slides pour .NET
 description: Définit le mode de remplissage
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Ausblenden
+title: Hide
 second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt das Ausblendeflag für den Legenden-Eintrag zurück oder legt es fest. Lese-/Schreib-Boolean.
 type: docs

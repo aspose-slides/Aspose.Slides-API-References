@@ -1,5 +1,5 @@
 ---
-title: 移除
+title: Remove
 second_title: Aspose.Sildes for .NET API 参考
 description: 从图表系列中移除数据点。
 type: docs

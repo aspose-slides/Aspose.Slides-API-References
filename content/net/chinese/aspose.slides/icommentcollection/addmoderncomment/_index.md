@@ -1,5 +1,5 @@
 ---
-title: 添加现代评论
+title: AddModernComment
 second_title: Aspose.Slides for .NET API 参考
 description: 在集合的末尾添加新的现代评论。
 type: docs

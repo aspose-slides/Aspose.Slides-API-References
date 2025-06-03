@@ -1,5 +1,5 @@
 ---
-title: 下划线填充格式
+title: UnderlineFillFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回下划线线条的填充格式属性。无继承应用。仅限于读取 IFillFormataspose.slides/ifillformat。
 type: docs

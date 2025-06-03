@@ -1,5 +1,5 @@
 ---
-title: Temporización
+title: Timing
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa la temporización de la animación.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 演示文稿播放器
+title: PresentationPlayer
 second_title: Aspose.Sildes for .NET API 参考
 description: 创建 PresentationPlayer 的新实例 aspose.slides.export/presentationplayer。
 type: docs

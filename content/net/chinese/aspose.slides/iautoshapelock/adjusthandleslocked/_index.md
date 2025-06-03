@@ -1,5 +1,5 @@
 ---  
-title: AdjustHandlesLocked  
+title: AdjustHandlesLocked
 second_title: Aspose.Slides for .NET API Reference  
 description: 确定是否禁止更改调整值。可读写布尔值。
 type: docs  

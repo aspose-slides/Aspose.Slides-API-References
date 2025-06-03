@@ -1,5 +1,5 @@
 ---
-title: Índice
+title: Index
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene el índice. Solo lectura Int32.
 type: docs

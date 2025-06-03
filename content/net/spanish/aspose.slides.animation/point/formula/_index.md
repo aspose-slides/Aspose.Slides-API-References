@@ -1,5 +1,5 @@
 ---
-title: Fórmula
+title: Formula
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Las fórmulas dentro de los valores de los atributos from, to, by pueden estar compuestas por estos operadores aritméticos estándar - / mod Constantes pi e Operadores condicionales abs min max if Operadores de comparación gt Operadores trigonométricos sin cos tan asin acos atan Logaritmo natural ln Referencias de propiedades propiedades compatibles con el host, por ejemplo ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Leer/escribir cadena.
 type: docs

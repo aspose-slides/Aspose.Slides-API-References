@@ -1,5 +1,5 @@
 ---
-title: Línea de Tendencia
+title: Trendline
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Clase que representa la línea de tendencia de las series de gráficos
 type: docs

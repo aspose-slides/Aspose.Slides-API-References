@@ -1,5 +1,5 @@
 ---
-title: Teinte
+title: Hue
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le pourcentage de teinte. Lecture seule Single.
 type: docs

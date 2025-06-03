@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie un comportement à l'index spécifié.
 type: docs

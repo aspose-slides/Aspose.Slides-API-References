@@ -1,5 +1,5 @@
 ---
-title: Niveau d'intégration
+title: EmbeddingLevel
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente les droits de licence pour l'intégration de la police.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 删除图片裁剪区域
+title: DeletePicturesCroppedAreas
 second_title: Aspose.Slides for .NET API 参考
 description: 一个布尔标志，用于指示裁剪部分是否作为文档的一部分保留。如果为 true，则裁剪部分将被移除；如果为 false，它们将被序列化到文档中（这可能导致文件变大）读/写 布尔值。
 type: docs

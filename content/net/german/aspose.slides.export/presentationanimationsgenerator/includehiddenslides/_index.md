@@ -1,5 +1,5 @@
 ---  
-title: IncludeHiddenSlides  
+title: IncludeHiddenSlides
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob versteckte Folien einbezogen werden sollen.
 type: docs  

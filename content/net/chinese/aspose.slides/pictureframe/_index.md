@@ -1,5 +1,5 @@
 ---
-title: 图片框
+title: PictureFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个内含图片的框架。
 type: docs

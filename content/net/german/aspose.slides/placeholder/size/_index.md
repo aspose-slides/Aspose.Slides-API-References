@@ -1,5 +1,5 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die Größe eines Platzhalters ab oder legt sie fest. Nur lesbare PlaceholderSizeaspose.slides/placeholdersize.
 type: docs

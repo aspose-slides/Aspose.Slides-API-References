@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el AlphaReplaceaspose.slides.effects/alphareplace especificado es igual al AlphaReplaceaspose.slides.effects/alphareplace actual.
 type: docs

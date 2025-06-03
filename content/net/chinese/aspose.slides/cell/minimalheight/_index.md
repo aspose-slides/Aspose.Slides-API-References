@@ -1,5 +1,5 @@
 ---
-title: 最小高度
+title: MinimalHeight
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格的最小高度。这是单元格覆盖的所有行的最小高度之和。只读 Double。
 type: docs

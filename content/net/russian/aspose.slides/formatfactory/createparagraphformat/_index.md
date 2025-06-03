@@ -1,5 +1,5 @@
 ---
-title: СоздатьПараграфныйФормат
+title: CreateParagraphFormat
 second_title: Справка по API Aspose.Slides для .NET
 description: Создает новый IParagraphFormataspose.slides/iparagraphformat.
 type: docs

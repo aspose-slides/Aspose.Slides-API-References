@@ -1,5 +1,5 @@
 ---
-title: 尺寸
+title: Size
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图像的大小。
 type: docs

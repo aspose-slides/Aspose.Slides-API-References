@@ -1,5 +1,5 @@
 ---  
-title: Name  
+title: Name
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Namen einer Form zurück oder legt ihn fest. Darf nicht null sein. Verwenden Sie einen leeren Zeichenfolgenwert, wenn nötig. Lese-/Schreibzeichenfolge.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: ModeSonTransition
+title: TransitionSoundMode
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente le mode sonore de la transition.
 type: docs

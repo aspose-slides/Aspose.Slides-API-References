@@ -1,5 +1,5 @@
 ---
-title: Hyperlien
+title: Hyperlink
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée une instance d'un hyperlien.
 type: docs

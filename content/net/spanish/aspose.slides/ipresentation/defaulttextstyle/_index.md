@@ -1,5 +1,5 @@
 ---
-title: EstiloDeTextoPredeterminado
+title: DefaultTextStyle
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el estilo de texto predeterminado para formas. Solo lectura ITextStyle aspose.slides/itextstyle.
 type: docs

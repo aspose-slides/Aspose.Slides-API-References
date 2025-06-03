@@ -1,5 +1,5 @@
 ---  
-title: CreateLuminance  
+title: CreateLuminance
 second_title: Aspose.Sildes for .NET API Reference  
 description: 生成亮度效果。
 type: docs  

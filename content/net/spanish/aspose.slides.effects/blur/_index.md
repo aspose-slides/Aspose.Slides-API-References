@@ -1,5 +1,5 @@
 ---
-title: Desenfoque
+title: Blur
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un efecto de desenfoque que se aplica a toda la forma, incluido su relleno. Todos los canales de color, incluido el alfa, se ven afectados.
 type: docs

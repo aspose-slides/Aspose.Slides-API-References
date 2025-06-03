@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence API Aspose.Sildes pour .NET
 description: Ajoute une nouvelle opération à la fin de la collection.
 type: docs

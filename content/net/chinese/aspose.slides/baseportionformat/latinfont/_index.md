@@ -1,5 +1,5 @@
 ---
-title: 拉丁字体
+title: LatinFont
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置拉丁字体信息。空值表示字体未定义，应从母版继承。可读/可写 IFontDataaspose.slides/ifontdata。
 type: docs

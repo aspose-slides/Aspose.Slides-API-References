@@ -1,5 +1,5 @@
 ---
-title: Intégré
+title: Embedded
 second_title: Référence API Aspose.Sildes pour .NET
 description: Détermine si un son est intégré à une présentation. Booléen en lecture seule.
 type: docs

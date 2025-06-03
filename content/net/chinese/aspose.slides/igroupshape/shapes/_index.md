@@ -1,5 +1,5 @@
 ---
-title: 图形
+title: Shapes
 second_title: Aspose.Slides for .NET API 参考
 description: 返回组内形状的集合。唯读的 IShapeCollection aspose.slides/ishapecollection。
 type: docs

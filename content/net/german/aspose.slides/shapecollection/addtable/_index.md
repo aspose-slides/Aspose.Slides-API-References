@@ -1,5 +1,5 @@
 ---  
-title: AddTable  
+title: AddTable
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt eine neue Tabelle und fügt sie am Ende der Sammlung hinzu.
 type: docs  

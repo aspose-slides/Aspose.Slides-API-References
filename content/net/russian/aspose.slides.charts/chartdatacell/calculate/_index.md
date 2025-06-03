@@ -1,5 +1,5 @@
 ---
-title: Рассчитать
+title: Calculate
 second_title: Справочник по API Aspose.Slides для .NET
 description: Если ячейка содержит формулу, значение будет обновлено на основе этой формулы.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Встраивание изображений
+title: EmbedImages
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает или устанавливает опцию встраивания изображений. Чтение/запись логическое значение.
 type: docs

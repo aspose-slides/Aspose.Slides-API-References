@@ -1,5 +1,5 @@
 ---
-title: Compte
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne un nombre d'ajustements. Lecture seule Int32.
 type: docs

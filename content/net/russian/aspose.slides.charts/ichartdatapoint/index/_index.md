@@ -1,5 +1,5 @@
 ---
-title: Индекс
+title: Index
 second_title: Справочник по API Aspose.Slides для .NET
 description: Определяет, к какой из дочерних коллекций родителя относится эта точка данных. Чтение UInt32.
 type: docs

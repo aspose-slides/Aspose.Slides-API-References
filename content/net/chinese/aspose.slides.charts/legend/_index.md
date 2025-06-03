@@ -1,5 +1,5 @@
 ---
-title: 图例
+title: Legend
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示图表的图例属性。
 type: docs

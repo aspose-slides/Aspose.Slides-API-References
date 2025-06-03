@@ -1,5 +1,5 @@
 ---
-title: 更新自动
+title: UpdateAutomatic
 second_title: Aspose.Slides for .NET API 参考
 description: 确定链接的嵌入对象在打开或打印演示文稿时是否自动更新。可读/可写布尔值。
 type: docs

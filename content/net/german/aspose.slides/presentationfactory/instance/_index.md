@@ -1,5 +1,5 @@
 ---
-title: Instanz
+title: Instance
 second_title: Aspose.Slides für .NET API Referenz
 description: Präsentationsfabrik statische Instanz. Nur-Lese Präsentationsfabrik aspose.slides/presentationfactory.
 type: docs

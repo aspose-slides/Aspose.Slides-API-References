@@ -1,5 +1,5 @@
 ---
-title: 行间距
+title: RowSpacing
 second_title: Aspose.Slides for .NET API 参考
 description: 数组行之间的间距，仅在 RowSpacingRule 设置为 3 时使用，确切地说，在这种情况下，单位是磅或 Multiple，在这种情况下，单位是半行。默认值：0
 type: docs

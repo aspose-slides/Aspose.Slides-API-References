@@ -1,5 +1,5 @@
 ---
-title: 从末尾修剪
+title: TrimFromEnd
 second_title: Aspose.Slides for .NET API 参考
 description: 指定在播放期间要从媒体的末尾删除的时间持续时间，以毫秒为单位。可读/写 Single。
 type: docs

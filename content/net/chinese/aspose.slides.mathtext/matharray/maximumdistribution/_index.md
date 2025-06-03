@@ -1,5 +1,5 @@
 ---
-title: 最大分布
+title: MaximumDistribution
 second_title: Aspose.Slides for .NET API 参考
 description: 最大分布 当为true时，数组的间距被设置为包含元素（页面、列、单元格等）的最大宽度。
 type: docs

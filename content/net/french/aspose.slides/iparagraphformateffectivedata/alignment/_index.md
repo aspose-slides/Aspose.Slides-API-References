@@ -1,5 +1,5 @@
 ---
-title: Alignement
+title: Alignment
 second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie l'alignement du texte dans un paragraphe. Lecture seule TextAlignmentaspose.slides/textalignment.
 type: docs

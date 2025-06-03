@@ -1,5 +1,5 @@
 ---
-title: 描述
+title: Description
 second_title: Aspose.Slides for .NET API 参考
 description: 返回摘要缩放节对象的文本描述。
 type: docs

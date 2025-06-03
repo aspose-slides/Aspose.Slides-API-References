@@ -1,5 +1,5 @@
 ---
-title: TypeAggregationAxe
+title: AxisAggregationType
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente le type d'agrégation de l'axe des catégories. Utilisé uniquement avec les séries Histogramme ou HistogrammePareto.
 type: docs

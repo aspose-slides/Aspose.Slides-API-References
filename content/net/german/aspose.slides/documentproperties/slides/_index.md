@@ -1,5 +1,5 @@
 ---
-title: Folien
+title: Slides
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Gesamtzahl der Folien in einem Präsentationsdokument zurück. Nur-Lese Int32.
 type: docs

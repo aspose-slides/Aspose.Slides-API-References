@@ -1,5 +1,5 @@
 ---
-title: 音效
+title: Sound
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义效果的嵌入音效。读取/写入 IAudio。
 type: docs

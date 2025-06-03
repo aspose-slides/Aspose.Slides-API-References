@@ -1,5 +1,5 @@
 ---
-title: По умолчанию
+title: Default
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает настройки по умолчанию. Только для чтения SVGOptionsaspose.slides.export/svgoptions.
 type: docs

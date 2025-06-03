@@ -1,5 +1,5 @@
 ---
-title: База
+title: Base
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Аргумент функции
 type: docs

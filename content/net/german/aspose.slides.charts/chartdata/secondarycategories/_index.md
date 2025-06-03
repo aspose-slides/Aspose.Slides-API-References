@@ -1,5 +1,5 @@
 ---
-title: SekundäreKategorien
+title: SecondaryCategories
 second_title: Aspose.Slides für .NET API-Referenz
 description: Ruft die sekundären Kategorien ab, wenn die Eigenschaft UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories wahr ist. Nur-lesbare IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs

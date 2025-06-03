@@ -1,5 +1,5 @@
 ---  
-title: 转换为数组  
+title: ToArray
 second_title: Aspose.Slides for .NET API 参考  
 description: 创建并返回此规则的所有 FallBack 字体的数组。
 type: docs  

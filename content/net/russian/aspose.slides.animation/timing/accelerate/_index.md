@@ -1,5 +1,5 @@
 ---
-title: Ускорение
+title: Accelerate
 second_title: Справочник API Aspose.Slides для .NET
 description: Описывает процент эффекта ускорения поведения продолжительности. Читаемое/записываемое значение типа Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 重叠
+title: Overlap
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定在二维图表中条形和柱状图重叠的程度，范围百分比从 -100 到 100。 - -100 最大间距条形图完全分开。 - 0 条形图并排放置，没有重叠或间距。 - 100 最大重叠条形图完全重叠。此属性是可读/可写的 SByte。
 type: docs

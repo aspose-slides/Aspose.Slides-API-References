@@ -1,5 +1,5 @@
 ---
-title: Überlappung
+title: Overlap
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, wie stark Balken und Spalten in 2-D-Diagrammen als Prozentsatz von -100 bis 100 überlappen sollen. - -100 Maximale Abstände, Balken sind vollständig getrennt. - 0 Balken sind seitenständig ohne Überlappung oder Abstand. - 100 Maximale Überlappung, Balken überlappen sich vollständig. Diese Eigenschaft ist schreibbar SByte.
 type: docs

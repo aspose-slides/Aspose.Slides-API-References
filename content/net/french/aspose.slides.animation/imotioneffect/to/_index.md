@@ -1,5 +1,5 @@
 ---
-title: À
+title: To
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie l'emplacement cible pour un effet de mouvement d'animation en pourcentages. Lecture/écriture PointF.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 创建数学函数
+title: CreateMathFunction
 second_title: Aspose.Slides for .NET API 参考
 description: 创建数学函数
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Fuentes
+title: Fonts
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Colección de fuentes.
 type: docs

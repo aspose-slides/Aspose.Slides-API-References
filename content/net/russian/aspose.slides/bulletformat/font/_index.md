@@ -1,5 +1,5 @@
 ---
-title: Шрифт
+title: Font
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает шрифт метки абзаца без наследования. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs

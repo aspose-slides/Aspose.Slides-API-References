@@ -1,5 +1,5 @@
 ---
-title: 查看属性
+title: ViewProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 获取演示文稿广泛的视图属性。只读 IViewProperties aspose.slides/iviewproperties。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 名称
+title: Name
 second_title: Aspose.Slides for .NET API 参考
 description: 函数名称，例如，函数名称为 sin 和 cos
 type: docs

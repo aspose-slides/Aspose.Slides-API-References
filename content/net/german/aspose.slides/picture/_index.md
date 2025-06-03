@@ -1,5 +1,5 @@
 ---
-title: Bild
+title: Picture
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt ein Bild in einer Präsentation dar.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 阴影不透明度
+title: ShadowOpacity
 second_title: Aspose.Slides for .NET API 参考
 description: 表示 shadow.opacity 属性
 type: docs

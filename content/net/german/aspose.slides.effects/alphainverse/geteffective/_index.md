@@ -1,5 +1,5 @@
 ---  
-title: GetEffective  
+title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Holt effektive Alpha Inverse-Effektdaten mit der angewandten Vererbung.
 type: docs  

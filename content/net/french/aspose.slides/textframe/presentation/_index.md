@@ -1,5 +1,5 @@
 ---
-title: Présentation
+title: Presentation
 second_title: Référence API Aspose.Slidess pour .NET
 description: Renvoie la présentation parente d'un TextFrame. En lecture seule IPresentation aspose.slides/ipresentation.
 type: docs

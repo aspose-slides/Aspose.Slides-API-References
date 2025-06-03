@@ -1,5 +1,5 @@
 ---
-title: 循环
+title: Loop
 second_title: Aspose.Slides for .NET API 参考
 description: 循环幻灯片放映
 type: docs

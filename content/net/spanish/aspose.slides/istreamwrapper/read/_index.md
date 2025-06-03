@@ -1,5 +1,5 @@
 ---
-title: Leer
+title: Read
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Lee una secuencia de bytes del flujo actual y avanza la posición dentro del flujo por el número de bytes leídos.
 type: docs

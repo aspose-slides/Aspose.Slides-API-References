@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit une paire clé-valeur d'un tag.
 type: docs

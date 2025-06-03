@@ -1,5 +1,5 @@
 ---
-title: 运算符
+title: Operator
 second_title: Aspose.Slides for .NET API 参考
 description: N元运算符字符，例如
 type: docs

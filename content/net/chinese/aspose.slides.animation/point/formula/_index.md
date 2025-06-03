@@ -1,5 +1,5 @@
 ---
-title: 公式
+title: Formula
 second_title: Aspose.Slides for .NET API 参考
 description: 值中的公式，从到通过属性可由以下组成：标准算术运算符 - / mod 常量 pi e 条件运算符 abs min max if 比较运算符 gt 三角函数运算符 sin cos tan asin acos atan 自然对数 ln 属性引用（主机支持的属性），例如 ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- 读/写字符串。
 type: docs

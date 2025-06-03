@@ -1,5 +1,5 @@
 ---
-title: 元素
+title: Item
 second_title: Aspose.Sildes for .NET API 参考
 description: 通过索引返回元素。
 type: docs

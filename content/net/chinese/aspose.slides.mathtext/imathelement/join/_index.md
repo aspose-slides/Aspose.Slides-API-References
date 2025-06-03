@@ -1,5 +1,5 @@
 ---
-title: 合并
+title: Join
 second_title: Aspose.Slides for .NET API 参考
 description: 合并一个数学元素并形成一个数学块
 type: docs

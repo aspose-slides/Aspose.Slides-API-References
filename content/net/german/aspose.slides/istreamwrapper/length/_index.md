@@ -1,5 +1,5 @@
 ---
-title: Länge
+title: Length
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Länge in Bytes des Streams zurück. Nur lesbar Int64.
 type: docs

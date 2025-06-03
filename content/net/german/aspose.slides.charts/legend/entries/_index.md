@@ -1,5 +1,5 @@
 ---
-title: Einträge
+title: Entries
 second_title: Aspose.Slides für .NET API Referenz
 description: Holt Legenden-Einträge. Schreibgeschützte ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
 type: docs

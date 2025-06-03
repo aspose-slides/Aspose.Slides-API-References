@@ -1,5 +1,5 @@
 ---
-title: 预设阴影效果
+title: PresetShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 预设阴影。只读 IPresetShadowEffectiveData aspose.slides.effects/ipresetshadoweffectivedata。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Ориентация
+title: Orientation
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает ориентацию заполнителя. Только для чтения Orientationaspose.slides/orientation.
 type: docs

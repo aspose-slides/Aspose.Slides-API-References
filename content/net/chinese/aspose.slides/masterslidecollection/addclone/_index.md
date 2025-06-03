@@ -1,5 +1,5 @@
 ---  
-title: AddClone  
+title: AddClone
 second_title: Aspose.Slides for .NET API Reference  
 description: 将指定的母版幻灯片的副本添加到集合的末尾。链接的布局幻灯片也会被复制。
 type: docs  

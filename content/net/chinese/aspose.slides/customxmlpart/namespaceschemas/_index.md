@@ -1,5 +1,5 @@
 ---
-title: 命名空间架构
+title: NamespaceSchemas
 second_title: Aspose.Slides for .NET API 参考
 description: 返回与自定义 XML 部件关联的集合 XML 架构。只读字符串。
 type: docs

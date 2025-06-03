@@ -1,5 +1,5 @@
 ---
-title: Сертификат
+title: Certificate
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Объект сертификата, который использовался для подписания документа. Только для чтения X509Certificate2.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Warnung
+title: Warning
 second_title: Aspose.Slides für .NET API Referenz
 description: Callback-Methode, die eine Warnung erhält und entscheidet, ob der Vorgang abgebrochen werden soll.
 type: docs

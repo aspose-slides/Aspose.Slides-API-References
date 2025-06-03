@@ -1,5 +1,5 @@
 ---
-title: IndexDébutPlage
+title: RangeStartIndex
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtenir le premier index d'une plage unicode continue.
 type: docs

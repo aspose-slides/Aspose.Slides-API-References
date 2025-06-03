@@ -1,5 +1,5 @@
 ---
-title: Wert
+title: Value
 second_title: Aspose.Slides für .NET API Referenz
 description: Wert der Diaübergang. Nur-lesbar ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Контраст
+title: Contrast
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Контраст. Только для чтения одинарное значение.
 type: docs

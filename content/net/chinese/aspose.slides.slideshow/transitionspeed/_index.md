@@ -1,5 +1,5 @@
 ---
-title: 过渡速度
+title: TransitionSpeed
 second_title: Aspose.Slides for .NET API 参考
 description: 表示过渡速度类型。
 type: docs

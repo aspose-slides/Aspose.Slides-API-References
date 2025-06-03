@@ -1,5 +1,5 @@
 ---
-title: Abstände
+title: Spacing
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Interzeichenabstands-Inkremente zurück oder legt sie fest. **float.NaN** bedeutet, dass der Wert undefiniert ist und von der Masterfolie übernommen werden sollte. Lesbar/schreibbar Single.
 type: docs

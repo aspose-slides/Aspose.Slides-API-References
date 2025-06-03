@@ -1,5 +1,5 @@
 ---
-title: DistributionDObjet
+title: ObjectDistribution
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Distribution d'Objet Quand vrai, le contenu du tableau est réparti sur la largeur maximale de l'objet tableau.
 type: docs

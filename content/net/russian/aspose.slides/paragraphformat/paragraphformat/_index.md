@@ -1,5 +1,5 @@
 ---
-title: ФорматАбзаца
+title: ParagraphFormat
 second_title: Справочник API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса ParagraphFormat aspose.slides/paragraphformat.
 type: docs

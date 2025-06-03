@@ -1,5 +1,5 @@
 ---
-title: 占位符
+title: Placeholder
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的占位符。只读 IPlaceholder aspose.slides/iplaceholder。
 type: docs

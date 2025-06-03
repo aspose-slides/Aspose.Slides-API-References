@@ -1,5 +1,5 @@
 ---
-title: Rembobiner
+title: Rewind
 second_title: Références API Aspose.Sildes pour .NET
 description: Cet attribut spécifie si l'effet sera rembobiné une fois la lecture terminée. Booléen en lecture/écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Диаграмма
+title: Chart
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает родительскую диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs

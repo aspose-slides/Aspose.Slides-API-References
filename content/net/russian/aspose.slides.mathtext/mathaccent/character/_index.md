@@ -1,5 +1,5 @@
 ---
-title: Символ
+title: Character
 second_title: Справочник по API Aspose.Slides для .NET
 description: Символ с акцентом Значение должно находиться в диапазоне U0300U036F илиU20D0U20EF Значение по умолчанию Объединенный акцент ^ U0302
 type: docs

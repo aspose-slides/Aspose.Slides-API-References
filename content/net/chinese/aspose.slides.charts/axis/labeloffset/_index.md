@@ -1,5 +1,5 @@
 ---
-title: 标签偏移
+title: LabelOffset
 second_title: Aspose.Slides for .NET API 参考
 description: 指定标签与轴之间的距离。适用于类别或日期轴。值必须在 0 到 1000 之间。可读写 UInt16。
 type: docs

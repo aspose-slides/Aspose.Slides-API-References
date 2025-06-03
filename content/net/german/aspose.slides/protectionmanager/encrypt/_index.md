@@ -1,5 +1,5 @@
 ---
-title: Verschlüsseln
+title: Encrypt
 second_title: Aspose.Slides für .NET API-Referenz
 description: Verschlüsselt die Präsentation mit dem angegebenen Passwort.
 type: docs

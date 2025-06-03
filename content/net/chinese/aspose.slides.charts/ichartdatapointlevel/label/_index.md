@@ -1,5 +1,5 @@
 ---
-title: 标签
+title: Label
 second_title: Aspose.Slides for .NET API参考
 description: 表示数据点级别的数据标签。适用于Treemap和Sunburst系列类型。只读IDataLabel。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 模糊半径
+title: BlurRadius
 second_title: Aspose.Slides for .NET API 参考
 description: 模糊半径。可读写的双精度浮点数。
 type: docs

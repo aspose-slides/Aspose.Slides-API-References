@@ -1,5 +1,5 @@
 ---
-title: ZusätzlicheGemeinsameSchriftfamilien
+title: AdditionalCommonFontFamilies
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Array von benutzerdefinierten Namen von Schriftfamilien zurück oder legt es fest, die Aspose.Slides als allgemein betrachten soll. Lese-/Schreibzeichenfolge.
 type: docs

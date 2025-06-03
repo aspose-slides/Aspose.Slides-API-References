@@ -1,5 +1,5 @@
 ---
-title: Tono
+title: Hue
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el porcentaje de tono. Solo lectura Single.
 type: docs

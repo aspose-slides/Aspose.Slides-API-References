@@ -1,5 +1,5 @@
 ---  
-title: Tiempo  
+title: Timing
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Define el valor de tiempo para el efecto. Leer/escribir ITimingaspose.slides.animation/itiming.
 type: docs  

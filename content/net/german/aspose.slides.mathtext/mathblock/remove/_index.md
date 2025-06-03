@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt die erste Vorkommen eines bestimmten Objekts aus der Sammlung.
 type: docs

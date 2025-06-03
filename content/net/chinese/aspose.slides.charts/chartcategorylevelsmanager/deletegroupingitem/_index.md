@@ -1,5 +1,5 @@
 ---
-title: 删除分组项
+title: DeleteGroupingItem
 second_title: Aspose.Sildes for .NET API 参考
 description: 删除定义级别的分组项。
 type: docs

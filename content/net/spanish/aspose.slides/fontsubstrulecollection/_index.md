@@ -1,5 +1,5 @@
 ---
-title: Colección de Reglas de Sustitución de Fuentes
+title: FontSubstRuleCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de sustituciones de fuentes.
 type: docs

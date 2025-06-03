@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un nombre de propriétés dans la collection. Lecture seule Int32.
 type: docs

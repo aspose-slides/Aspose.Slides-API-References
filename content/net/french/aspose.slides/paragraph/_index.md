@@ -1,5 +1,5 @@
 ---
-title: Paragraphe
+title: Paragraph
 second_title: Référence API Aspose.Sldes pour .NET
 description: Représente un paragraphe de texte.
 type: docs

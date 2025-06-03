@@ -1,5 +1,5 @@
 ---
-title: 显示母版形状
+title: ShowMasterShapes
 second_title: Aspose.Slides for .NET API 参考
 description: 指定母版幻灯片上的形状是否应该在幻灯片上显示。可读/可写布尔值。
 type: docs

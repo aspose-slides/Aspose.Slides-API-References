@@ -1,5 +1,5 @@
 ---
-title: 关闭
+title: Close
 second_title: Aspose.Slides for .NET API 参考
 description: 关闭当前流并释放任何资源。
 type: docs

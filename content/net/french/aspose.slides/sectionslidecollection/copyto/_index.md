@@ -1,5 +1,5 @@
 ---
-title: CopieVers
+title: CopyTo
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Copie l'ensemble de la collection dans le tableau spécifié.
 type: docs

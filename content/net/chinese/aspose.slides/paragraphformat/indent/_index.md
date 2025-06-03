@@ -1,5 +1,5 @@
 ---
-title: 缩进
+title: Indent
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置段落首行缩进/悬挂缩进，不带继承。悬挂缩进可以用负值定义。可读/可写 Single。
 type: docs

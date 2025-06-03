@@ -1,5 +1,5 @@
 ---
-title: DroiteÀGauche
+title: RightToLeft
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs

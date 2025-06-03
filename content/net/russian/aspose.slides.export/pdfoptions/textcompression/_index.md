@@ -1,5 +1,5 @@
 ---
-title: Сжатие текста
+title: TextCompression
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись PdfTextCompressionaspose.slides.export/pdftextcompression.
 type: docs

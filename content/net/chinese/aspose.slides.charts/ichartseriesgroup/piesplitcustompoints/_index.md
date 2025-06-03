@@ -1,5 +1,5 @@
 ---
-title: 饼图自定义分割点
+title: PieSplitCustomPoints
 second_title: Aspose.Slides for .NET API 参考
 description: 带有自定义分割的饼图或条形图的自定义分割信息。包含将在饼图或条形图的第二个饼图或条形中绘制的数据点。只读 IPieSplitCustomPointCollection aspose.slides.charts/ipiesplitcustompointcollection。
 type: docs

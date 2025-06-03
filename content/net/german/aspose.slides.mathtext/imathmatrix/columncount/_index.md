@@ -1,5 +1,5 @@
 ---
-title: Spaltenanzahl
+title: ColumnCount
 second_title: Aspose.Slides für .NET API-Referenz
 description: Anzahl der Spalten in der Matrix
 type: docs

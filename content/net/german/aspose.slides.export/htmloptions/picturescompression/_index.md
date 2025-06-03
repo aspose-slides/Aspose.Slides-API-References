@@ -1,5 +1,5 @@
 ---
-title: BilderKompression
+title: PicturesCompression
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt das Kompressionsniveau der Bilder dar
 type: docs

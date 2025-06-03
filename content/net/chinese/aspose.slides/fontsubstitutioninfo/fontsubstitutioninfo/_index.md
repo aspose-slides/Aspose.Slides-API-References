@@ -1,5 +1,5 @@
 ---
-title: 字体替换信息
+title: FontSubstitutionInfo
 second_title: Aspose.Sildes for .NET API 参考
 description: 创建一个 FontSubstitutionInfoaspose.slides/fontsubstitutioninfo 类的实例。
 type: docs

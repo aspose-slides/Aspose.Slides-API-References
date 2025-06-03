@@ -1,5 +1,5 @@
 ---
-title: Цвет
+title: Color
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает цвет градиентной точки. Только для чтения Color.
 type: docs

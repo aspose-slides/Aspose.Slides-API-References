@@ -1,5 +1,5 @@
 ---
-title: Перспектива
+title: Perspective
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает значение перспективы угол обзора для 3D-диаграмм в диапазоне от 0 до 240. Игнорируется, если значение свойства RightAngleAxes истинно. Чтение/запись Byte.
 type: docs

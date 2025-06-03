@@ -1,5 +1,5 @@
 ---
-title: Fin
+title: End
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Fin
 type: docs

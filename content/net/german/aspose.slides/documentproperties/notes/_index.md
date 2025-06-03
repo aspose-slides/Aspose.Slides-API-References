@@ -1,5 +1,5 @@
 ---
-title: Notizen
+title: Notes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Anzahl der Folien in einer Präsentation mit Notizen zurück. Nur-lesbare Int32.
 type: docs

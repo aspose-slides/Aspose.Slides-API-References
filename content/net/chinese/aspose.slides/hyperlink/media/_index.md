@@ -1,5 +1,5 @@
 ---
-title: 媒体
+title: Media
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个特殊的播放媒体文件超链接。用于 AudioFrame 和 VideoFrame。只读 Hyperlink aspose.slides/hyperlink。
 type: docs

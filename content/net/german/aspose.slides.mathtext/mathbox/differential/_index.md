@@ -1,5 +1,5 @@
 ---  
-title: Differential  
+title: Differential
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Differential Wenn true, fungiert das Feld als Differential, z.B. in einem Integranden, und erhält den entsprechenden horizontalen Abstand für das mathematische Differential. Standard false
 type: docs  

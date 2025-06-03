@@ -1,5 +1,5 @@
 ---
-title: 公式
+title: Formula
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置 A1 风格的公式。
 type: docs

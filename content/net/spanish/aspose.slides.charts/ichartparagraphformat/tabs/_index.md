@@ -1,5 +1,5 @@
 ---
-title: Pestañas
+title: Tabs
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve las tabulaciones de un párrafo. Solo lectura ITabCollectionaspose.slides/itabcollection.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: Zone de graphique  
+title: PlotArea
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente la zone de graphique d'un diagramme. Lecture seule IChartPlotAreaaspose.slides.charts/ichartplotarea.
 type: docs  

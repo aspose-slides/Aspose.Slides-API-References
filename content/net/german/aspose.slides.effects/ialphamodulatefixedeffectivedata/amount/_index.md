@@ -1,5 +1,5 @@
 ---
-title: Betrag
+title: Amount
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Betrag des Effekts in Prozent an. Nur lesbar Single.
 type: docs

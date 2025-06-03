@@ -1,5 +1,5 @@
 ---
-title: Название
+title: Name
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает название этой схемы. Только для чтения строка.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Von
+title: By
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen relativen Versatzwert für die Animation im Vergleich zu ihrer Position vor dem Beginn der Animation an. Lese-/Schreibzeichenfolge.
 type: docs

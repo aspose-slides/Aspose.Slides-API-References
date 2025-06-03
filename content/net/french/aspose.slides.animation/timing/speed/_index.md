@@ -1,5 +1,5 @@
 ---
-title: Vitesse
+title: Speed
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie le pourcentage par lequel accélérer ou ralentir le timing. Lecture/écriture Simple.
 type: docs

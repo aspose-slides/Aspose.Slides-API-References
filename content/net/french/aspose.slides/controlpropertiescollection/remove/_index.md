@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime une propriété avec le nom spécifié.
 type: docs

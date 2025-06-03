@@ -1,5 +1,5 @@
 ---
-title: Kategorie
+title: Category
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Kategorie einer Präsentation zurück oder legt sie fest. Lesen/Schreiben String.
 type: docs

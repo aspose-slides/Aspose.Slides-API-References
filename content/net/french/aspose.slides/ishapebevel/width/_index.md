@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence API Aspose.Slides pour .NET
 description: Largeur de biseau. Lecture/écriture Double.
 type: docs

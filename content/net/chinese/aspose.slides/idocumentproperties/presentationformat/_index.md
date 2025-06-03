@@ -1,5 +1,5 @@
 ---
-title: 演示文稿格式
+title: PresentationFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置演示文稿的预期格式。可读写字符串。
 type: docs

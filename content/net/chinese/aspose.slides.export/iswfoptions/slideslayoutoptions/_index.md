@@ -1,5 +1,5 @@
 ---
-title: 幻灯片布局选项
+title: SlidesLayoutOptions
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置在导出演示文稿时幻灯片放置在页面上的模式 ISlidesLayoutOptionsaspose.slides/islideslayoutoptions。此属性不支持分配类型为 Aspose.Slides.Export.HandoutLayoutingOptions 的对象
 type: docs

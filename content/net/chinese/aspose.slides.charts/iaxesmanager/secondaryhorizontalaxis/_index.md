@@ -1,5 +1,5 @@
 ---
-title: 次要水平轴
+title: SecondaryHorizontalAxis
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图表的次要水平轴。只读 IAxisaspose.slides.charts/iaxis.
 type: docs

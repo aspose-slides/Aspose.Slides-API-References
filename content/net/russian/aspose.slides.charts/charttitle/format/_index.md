@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справочник API Aspose.Sildes для .NET
 description: Возвращает стили заполнения, линии и эффектов заголовка. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs

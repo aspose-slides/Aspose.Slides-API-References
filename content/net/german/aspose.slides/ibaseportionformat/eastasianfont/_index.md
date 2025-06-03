@@ -1,5 +1,5 @@
 ---
-title: OstasiatischeSchriftart
+title: EastAsianFont
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Information zur ostasiatischen Schriftart zurück oder legt sie fest. Null bedeutet, dass die Schriftart undefiniert ist und von der Masterseite übernommen werden sollte. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs

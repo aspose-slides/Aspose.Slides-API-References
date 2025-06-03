@@ -1,5 +1,5 @@
 ---
-title: LargeurDeBin
+title: BinWidth
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie la largeur de bin lorsque la valeur de la propriété AggregationType est définie sur AxisAggregationType.ByBinWidth. S'applique aux axes de catégorie. Utilisé uniquement avec les séries Histogramme ou HistogramPareto.
 type: docs

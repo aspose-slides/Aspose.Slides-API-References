@@ -1,5 +1,5 @@
 ---  
-title: ISvgTSpan  
+title: ISvgTSpan
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa opciones para la porción de texto SVG "tspan".
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: AxeVertical
+title: VerticalAxis
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'axe vertical des graphiques. Lecture seule IAxisaspose.slides.charts/iaxis.
 type: docs

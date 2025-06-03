@@ -1,5 +1,5 @@
 ---
-title: Aditivo
+title: Additive
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa si el comportamiento de animación actual se combina con otras animaciones en ejecución. Lectura/escritura BehaviorAdditiveType aspose.slides.animation/behavioradditivetype.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 主文本
+title: MasterText
 second_title: Aspose.Slides for .NET API 参考
 description: 此幻灯片主页面形状上的文本
 type: docs

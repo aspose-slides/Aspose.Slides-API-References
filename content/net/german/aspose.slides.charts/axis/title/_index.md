@@ -1,5 +1,5 @@
 ---
-title: Titel
+title: Title
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält den Achsentitel. Nur lesender IChartTitle aspose.slides.charts/icharttitle.
 type: docs

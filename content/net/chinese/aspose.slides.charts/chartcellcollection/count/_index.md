@@ -1,5 +1,5 @@
 ---
-title: 计数
+title: Count
 second_title: Aspose.Slides for .NET API 参考
 description: 获取集合中的单元格数量。只读 Int32。
 type: docs

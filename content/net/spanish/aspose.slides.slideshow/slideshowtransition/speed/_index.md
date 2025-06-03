@@ -1,5 +1,5 @@
 ---
-title: Velocidad
+title: Speed
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la velocidad de transición que se utilizará al pasar de la diapositiva actual a la siguiente. Lectura/escritura TransitionSpeedaspose.slides.slideshow/transitionspeed.
 type: docs

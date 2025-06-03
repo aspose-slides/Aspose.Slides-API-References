@@ -1,5 +1,5 @@
 ---
-title: 最佳图像压缩比
+title: BestImagesCompressionRatio
 second_title: Aspose.Slides for .NET API 参考
 description: 指示是否必须自动选择每个图像的最有效压缩（而不是默认的）。如果对演示文稿中的每个图像设置为 Boolean.true，则将选择最合适的压缩算法，这将导致生成的 PDF 文档的大小更小。最佳图像压缩比的选择计算成本高，并且需要额外的 RAM，此选项默认是 Boolean.false。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает точку данных серии по индексу, ее порядковый номер в этой коллекции.
 type: docs

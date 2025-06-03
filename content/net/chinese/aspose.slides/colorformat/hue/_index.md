@@ -1,5 +1,5 @@
 ---
-title: 色相
+title: Hue
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 HSL 表示法中色彩的色相分量。所有颜色转换将被忽略。可读/可写 单精度浮点数。
 type: docs

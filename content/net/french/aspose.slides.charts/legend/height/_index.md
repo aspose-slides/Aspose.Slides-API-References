@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Retourne ou définit la hauteur d'une légende comme une fraction de la hauteur du graphique. Lecture/écriture Simple.
 type: docs

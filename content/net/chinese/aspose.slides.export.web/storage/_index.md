@@ -1,5 +1,5 @@
 ---
-title: 存储
+title: Storage
 second_title: Aspose.Sildes for .NET API 参考
 description: 代表 WebDocument 的临时数据存储。/webdocument。
 type: docs

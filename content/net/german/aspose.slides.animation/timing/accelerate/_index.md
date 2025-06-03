@@ -1,5 +1,5 @@
 ---
-title: Beschleunigen
+title: Accelerate
 second_title: Aspose.Slides für .NET API-Referenz
 description: Beschreibt den Prozentsatz des Dauerbeschleunigungsverhaltens. Lesen/Schreiben von Single.
 type: docs

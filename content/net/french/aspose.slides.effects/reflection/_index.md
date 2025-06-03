@@ -1,5 +1,5 @@
 ---
-title: Réflexion
+title: Reflection
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un effet de réflexion.
 type: docs

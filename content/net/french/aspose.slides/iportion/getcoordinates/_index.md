@@ -1,5 +1,5 @@
 ---
-title: ObtenirCoordonnées
+title: GetCoordinates
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtenir les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le port latéral gauche. La coordonnée Y inclut le port supérieur.
 type: docs

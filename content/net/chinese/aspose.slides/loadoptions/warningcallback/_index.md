@@ -1,5 +1,5 @@
 ---
-title: 警告回调
+title: WarningCallback
 second_title: Aspose.Slides for .NET API参考
 description: 返回或设置一个接收警告的对象，并决定加载过程是继续还是中止。读/写 IWarningCallbackaspose.slides/../aspose.slides.warnings/iwarningcallback。
 type: docs

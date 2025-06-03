@@ -1,5 +1,5 @@
 ---
-title: 页脚
+title: Footer
 second_title: Aspose.Slides for .NET API 参考
 description: 幻灯片页脚。只读 FieldType aspose.slides/fieldtype。
 type: docs

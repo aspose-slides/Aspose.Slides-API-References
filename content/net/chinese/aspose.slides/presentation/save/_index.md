@@ -1,5 +1,5 @@
 ---
-title: 保存
+title: Save
 second_title: Aspose.Sildes for .NET API 参考
 description: 将指定的演示文稿幻灯片保存到指定格式的文件，保留页码。
 type: docs

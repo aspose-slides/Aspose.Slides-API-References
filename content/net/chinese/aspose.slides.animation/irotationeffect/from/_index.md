@@ -1,5 +1,5 @@
 ---
-title: 从
+title: From
 second_title: Aspose.Slides for .NET API 参考
 description: 描述动画的起始值。可读/可写的 Single。
 type: docs

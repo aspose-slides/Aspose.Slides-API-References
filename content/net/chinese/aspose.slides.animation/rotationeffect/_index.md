@@ -1,5 +1,5 @@
 ---
-title: 旋转效果
+title: RotationEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 表示效果的旋转行为。
 type: docs

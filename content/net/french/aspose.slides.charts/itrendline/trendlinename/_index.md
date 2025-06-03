@@ -1,5 +1,5 @@
 ---
-title: NomDeLaTendance
+title: TrendlineName
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient ou définit le nom de la tendance. Lecture/écriture String.
 type: docs

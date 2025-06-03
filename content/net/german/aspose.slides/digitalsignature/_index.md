@@ -1,5 +1,5 @@
 ---
-title: DigitaleSignatur
+title: DigitalSignature
 second_title: Aspose.Slides für .NET API-Referenz
 description: Digitale Signatur in signierter Datei.
 type: docs

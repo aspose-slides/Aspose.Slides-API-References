@@ -1,5 +1,5 @@
 ---
-title: Zählen
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Anzahl der Operationen in einer Sammlung zurück. Nur-Lese Int32.
 type: docs

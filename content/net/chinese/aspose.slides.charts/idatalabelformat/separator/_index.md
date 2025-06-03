@@ -1,5 +1,5 @@
 ---
-title: 分隔符
+title: Separator
 second_title: Aspose.Sildes for .NET API 参考
 description: 设置或返回一个表示图表上数据标签使用的分隔符的 Variant。可读写字符串。
 type: docs

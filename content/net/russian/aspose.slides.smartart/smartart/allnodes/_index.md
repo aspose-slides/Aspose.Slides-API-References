@@ -1,5 +1,5 @@
 ---
-title: ВсеУзлы
+title: AllNodes
 second_title: Aspose.Slides для .NET Справочник по API
 description: Возвращает коллекции всех узлов в объекте SmartArt. Только для чтения ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs

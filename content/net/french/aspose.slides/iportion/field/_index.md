@@ -1,5 +1,5 @@
 ---
-title: Champ
+title: Field
 second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie un champ de cette portion. Lecture seule IFieldaspose.slides/ifield.
 type: docs

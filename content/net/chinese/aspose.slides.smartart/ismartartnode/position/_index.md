@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置节点在同级节点中的零基位置。可读写 Int32。
 type: docs

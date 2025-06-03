@@ -1,5 +1,5 @@
 ---
-title: 从
+title: From
 second_title: Aspose.Slides for .NET API 参考
 description: 指定动画开始的 x/y 坐标（以百分比表示）。可读/写 PointF。
 type: docs

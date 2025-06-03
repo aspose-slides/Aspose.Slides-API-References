@@ -1,5 +1,5 @@
 ---
-title: 倒带
+title: Rewind
 second_title: Aspose.Sildes for .NET API 参考
 description: 此属性指定效果完成播放后是否将倒带。可读写布尔值。
 type: docs

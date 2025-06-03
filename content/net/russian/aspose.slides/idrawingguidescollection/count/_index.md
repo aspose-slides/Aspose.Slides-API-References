@@ -1,5 +1,5 @@
 ---
-title: Количество
+title: Count
 second_title: Справочник API Aspose.Slides для .NET
 description: Получает количество всех элементов в коллекции. Только для чтения Int32.
 type: docs

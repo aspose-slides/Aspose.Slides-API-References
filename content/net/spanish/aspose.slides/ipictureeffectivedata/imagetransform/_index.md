@@ -1,5 +1,5 @@
 ---
-title: TransformaciónDeImagen
+title: ImageTransform
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de efectos de transformación de imagen. Solo lectura IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
 type: docs

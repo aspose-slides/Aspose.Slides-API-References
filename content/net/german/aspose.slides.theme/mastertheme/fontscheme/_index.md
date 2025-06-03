@@ -1,5 +1,5 @@
 ---
-title: SchriftartSchema
+title: FontScheme
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Schriftartschema zurück. Nur lesendes IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs

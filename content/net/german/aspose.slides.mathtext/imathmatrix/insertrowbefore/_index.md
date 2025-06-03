@@ -1,5 +1,5 @@
 ---
-title: ZeileVorEinfügen
+title: InsertRowBefore
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügen Sie eine neue Zeile vor der angegebenen ein. Zu Beginn sind alle Elemente in der neuen Zeile null.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DesactivarEfectoSombraInterna
+title: DisableInnerShadowEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Desactiva el efecto de sombra interna.
 type: docs

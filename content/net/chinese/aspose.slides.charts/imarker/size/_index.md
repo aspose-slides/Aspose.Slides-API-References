@@ -1,5 +1,5 @@
 ---
-title: 尺寸
+title: Size
 second_title: Aspose.Slides for .NET API 参考
 description: 表示线形图、散点图或雷达图中的标记大小。可读/写 Int32。
 type: docs

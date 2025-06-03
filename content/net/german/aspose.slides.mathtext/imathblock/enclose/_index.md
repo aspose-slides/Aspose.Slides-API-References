@@ -1,5 +1,5 @@
 ---  
-title: Einschließen  
+title: Enclose
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Schließt die Kind-Elemente dieses Blocks in angegebenen Zeichen wie Klammern oder anderen als Rahmen ein und trennt sie mit einem Trennzeichen
 type: docs  

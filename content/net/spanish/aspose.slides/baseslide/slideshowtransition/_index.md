@@ -1,5 +1,5 @@
 ---
-title: TransiciónDePresentación
+title: SlideShowTransition
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve el objeto Transition que contiene información sobre cómo avanza la diapositiva especificada durante una presentación. Solo lectura ISlideShowTransition aspose.slides/islideshowtransition.
 type: docs

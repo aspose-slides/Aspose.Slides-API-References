@@ -1,5 +1,5 @@
 ---
-title: 半径
+title: Radius
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置模糊半径。只读 Double。
 type: docs

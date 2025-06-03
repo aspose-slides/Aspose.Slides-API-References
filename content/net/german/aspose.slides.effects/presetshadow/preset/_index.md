@@ -1,5 +1,5 @@
 ---
-title: Voreinstellung
+title: Preset
 second_title: Aspose.Slides für .NET API-Referenz
 description: Voreinstellung. Lesen/Schreiben von PresetShadowType aspose.slides/presetshadowtype.
 type: docs

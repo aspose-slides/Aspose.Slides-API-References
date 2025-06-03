@@ -1,5 +1,5 @@
 ---
-title: PropiedadesLegendEntry
+title: LegendEntryProperties
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa las propiedades de leyenda de un gráfico.
 type: docs

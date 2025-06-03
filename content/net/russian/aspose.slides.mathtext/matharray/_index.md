@@ -1,5 +1,5 @@
 ---  
-title: MathArray  
+title: MathArray
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Определяет вертикальный массив уравнений или любых математических объектов
 type: docs  

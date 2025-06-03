@@ -1,5 +1,5 @@
 ---
-title: СкоростьПерехода
+title: TransitionSpeed
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет типы скорости перехода.
 type: docs

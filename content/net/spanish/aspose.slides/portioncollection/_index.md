@@ -1,5 +1,5 @@
 ---
-title: CollectionDePorciones
+title: PortionCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de porciones.
 type: docs

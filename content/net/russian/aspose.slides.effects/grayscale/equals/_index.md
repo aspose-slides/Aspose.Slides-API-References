@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Определяет, равен ли указанный GrayScale aspose.slides.effects/grayscale текущему GrayScale aspose.slides.effects/grayscale.
 type: docs

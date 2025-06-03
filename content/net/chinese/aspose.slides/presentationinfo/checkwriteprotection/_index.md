@@ -1,5 +1,5 @@
 ---
-title: 检查写保护
+title: CheckWriteProtection
 second_title: Aspose.Sildes for .NET API 参考
 description: 检查用于修改的密码是否正确，适用于写保护的演示文稿。
 type: docs

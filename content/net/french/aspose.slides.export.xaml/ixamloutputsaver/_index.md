@@ -1,5 +1,5 @@
 ---  
-title: IXamlOutputSaver  
+title: IXamlOutputSaver
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une implémentation de sauvegarde de sortie pour transférer des données vers le stockage externe.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Indentation
+title: Indent
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'indentation de première ligne/indentation suspendue du paragraphe. L'indentation suspendue peut être définie avec des valeurs négatives. Lecture seule Simple.
 type: docs

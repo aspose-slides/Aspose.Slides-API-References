@@ -1,5 +1,5 @@
 ---  
-title: InOutTransition  
+title: InOutTransition
 second_title: Aspose.Sildes für .NET API Referenz  
 description: In-Out-Folienübergangseffekt.
 type: docs  

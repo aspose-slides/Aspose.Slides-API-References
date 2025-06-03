@@ -1,5 +1,5 @@
 ---
-title: ДобавитьТочкуДанныхДляГрафикаРазброса
+title: AddDataPointForScatterSeries
 second_title: Справочник API Aspose.Slides для .NET
 description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых тип графика является одним из подтипов разброса, см. также метод ChartTypeCharacterizer.IsChartTypeScatterChartType.
 type: docs

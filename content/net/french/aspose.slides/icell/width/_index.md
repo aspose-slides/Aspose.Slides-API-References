@@ -1,5 +1,5 @@
 ---
-title: Largeur
+title: Width
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie la largeur de la cellule. En lecture seule Double.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: Contexte  
+title: Background
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie l'arrière-plan des diapositives. Lecture seule IBackground aspose.slides/ibackground.
 type: docs  

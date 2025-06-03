@@ -1,5 +1,5 @@
 ---  
-title: SourceFormat  
+title: SourceFormat
 second_title: Справка по API Aspose.Slides для .NET  
 description: Возвращает информацию о том, из какого формата была загружена презентация. Свойство только для чтения SourceFormat aspose.slides/ipresentation/sourceformat.
 type: docs  

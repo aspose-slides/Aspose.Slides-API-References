@@ -1,5 +1,5 @@
 ---
-title: Направление
+title: Direction
 second_title: Справочник API Aspose.Slides для .NET
 description: Направление света. Чтение/запись LightingDirectionaspose.slides/lightingdirection.
 type: docs

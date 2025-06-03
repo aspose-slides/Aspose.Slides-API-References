@@ -1,5 +1,5 @@
 ---  
-title: HyperlinkActionType  
+title: HyperlinkActionType
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente un type d'action de lien hypertexte.
 type: docs  

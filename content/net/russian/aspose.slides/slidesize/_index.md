@@ -1,5 +1,5 @@
 ---
-title: РазмерСлайда
+title: SlideSize
 second_title: Справка по API Aspose.Slides для .NET
 description: Представляет размер слайда.
 type: docs

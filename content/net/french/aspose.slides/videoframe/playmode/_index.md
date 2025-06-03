@@ -1,5 +1,5 @@
 ---
-title: Mode de lecture
+title: PlayMode
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le mode de lecture vidéo. Lecture/écriture VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Werttyp
+title: ValueType
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Falle eines benutzerdefinierten Werttyps verwenden Sie die Eigenschaft ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues eines bestimmten Datenpunktes in der DataPoints-Sammlung der Serie, um den Wert anzugeben. Lese-/schreibbare ErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
 type: docs

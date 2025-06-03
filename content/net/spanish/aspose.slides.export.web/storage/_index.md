@@ -1,5 +1,5 @@
 ---
-title: Almacenamiento
+title: Storage
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un almacenamiento de datos temporal para WebDocument./webdocument.
 type: docs

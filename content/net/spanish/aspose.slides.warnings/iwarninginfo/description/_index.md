@@ -1,5 +1,5 @@
 ---
-title: Descripción
+title: Description
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una descripción legible por humanos de esta advertencia. Solo lectura String.
 type: docs

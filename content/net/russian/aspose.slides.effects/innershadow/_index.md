@@ -1,5 +1,5 @@
 ---
-title: Внутренняя тень
+title: InnerShadow
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет эффект внутренней тени.
 type: docs

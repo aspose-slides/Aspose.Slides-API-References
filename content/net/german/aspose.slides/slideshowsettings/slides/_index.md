@@ -1,5 +1,5 @@
 ---
-title: Folien
+title: Slides
 second_title: Aspose.Slides für .NET API-Referenz
 description: Folienbereich
 type: docs

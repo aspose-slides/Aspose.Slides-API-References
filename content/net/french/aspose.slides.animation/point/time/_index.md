@@ -1,5 +1,5 @@
 ---
-title: Temps
+title: Time
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une valeur temporelle. Lecture/écriture Simple.
 type: docs

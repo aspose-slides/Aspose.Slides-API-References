@@ -1,5 +1,5 @@
 ---
-title: Abstand
+title: Escapement
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den hochgestellten oder tiefgestellten Text zurück. Wert von -100 Tiefgestellt bis 100 Hochgestellt. Schreibgeschützter Single.
 type: docs

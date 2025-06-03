@@ -1,5 +1,5 @@
 ---
-title: Метки
+title: Labels
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает Метки серии. Только для чтения IDataLabelCollection aspose.slides.charts/idatalabelcollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 启用填充叠加效果
+title: EnableFillOverlayEffect
 second_title: Aspose.Sildes for .NET API 参考
 description: 启用填充叠加效果。
 type: docs

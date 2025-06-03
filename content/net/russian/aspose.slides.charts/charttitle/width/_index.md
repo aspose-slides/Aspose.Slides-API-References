@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает ширину заголовка как долю ширины диаграммы. Читаемый/записываемый тип Single.
 type: docs

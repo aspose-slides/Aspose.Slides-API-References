@@ -1,5 +1,5 @@
 ---
-title: Couleur
+title: Color
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient ou définit la couleur du pinceau pour une ligne.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Масштаб
+title: Scale
 second_title: Справочник API Aspose.Slides для .NET
 description: Указывает коэффициент масштабирования представления в процентах. Читаемое/Записываемое Int32.
 type: docs

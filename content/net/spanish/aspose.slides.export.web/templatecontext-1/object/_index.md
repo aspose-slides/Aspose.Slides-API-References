@@ -1,5 +1,5 @@
 ---
-title: Objeto
+title: Object
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el objeto modelo. Solo lectura TObject.
 type: docs

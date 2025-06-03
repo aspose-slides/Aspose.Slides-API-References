@@ -1,5 +1,5 @@
 ---
-title: Группа
+title: Group
 second_title: Справочник по API Aspose.Slides для .NET
 description: Размещает этот элемент в группе, используя нижние фигурные скобки
 type: docs

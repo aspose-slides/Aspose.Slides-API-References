@@ -1,5 +1,5 @@
 ---
-title: InsertarDesdeHtml
+title: InsertFromHtml
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea diapositivas a partir de texto HTML e inserta en la colección en la posición especificada.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Por
+title: By
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica un valor de desplazamiento relativo para la animación con respecto a su posición antes del inicio de la animación. Lectura/escritura String.
 type: docs

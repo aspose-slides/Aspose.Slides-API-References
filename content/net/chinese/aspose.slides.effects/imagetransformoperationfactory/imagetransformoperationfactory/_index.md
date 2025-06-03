@@ -1,5 +1,5 @@
 ---
-title: 图像转换操作工厂
+title: ImageTransformOperationFactory
 second_title: Aspose.Slides for .NET API 参考
 description: 默认构造函数。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Порция
+title: Portion
 second_title: Справочник по API Aspose.Slides для .NET
 description: Итерация каждой Порции aspose.slides.lowcode/foreach/portion в Презентации aspose.slides/presentation. Порции будут итеративно обрабатываться во всех типах слайдов - Slide aspose.slides.lowcode/foreach/slide, MasterSlide aspose.slides.lowcode/foreach/masterslide и LayoutSlide aspose.slides.lowcode/foreach/layoutslide
 type: docs

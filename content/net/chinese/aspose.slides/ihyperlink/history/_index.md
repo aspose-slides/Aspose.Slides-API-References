@@ -1,5 +1,5 @@
 ---
-title: 历史
+title: History
 second_title: Aspose.Slides for .NET API 参考
 description: 确定当调用父级超链接时，其目标是否应添加到已查看超链接的列表中。可读写布尔值。
 type: docs

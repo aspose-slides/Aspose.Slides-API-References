@@ -1,5 +1,5 @@
 ---
-title: EstiloPredefinido
+title: StylePreset
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece el estilo de tabla incorporado. Lectura/escritura TableStylePresetaspose.slides/tablestylepreset.
 type: docs

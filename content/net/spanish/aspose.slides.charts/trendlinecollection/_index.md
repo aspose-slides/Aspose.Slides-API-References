@@ -1,5 +1,5 @@
 ---
-title: Colección de Tendencias
+title: TrendlineCollection
 second_title: Referencia API de Aspose.Slides para .NET
 description: Representa una colección de Tendencia
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Retirer
+title: Remove
 second_title: Référence API Aspose.Slides pour .NET
 description: Retire l'auteur de la collection parente.
 type: docs

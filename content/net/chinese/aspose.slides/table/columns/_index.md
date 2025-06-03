@@ -1,5 +1,5 @@
 ---
-title: 列
+title: Columns
 second_title: Aspose.Slides for .NET API 参考
 description: 返回列的集合。只读 IColumnCollection aspose.slides/icolumncollection。
 type: docs

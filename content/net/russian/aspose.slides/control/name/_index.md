@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает или задает имя этого элемента управления. Читаемое/записываемое строковое значение.
 type: docs

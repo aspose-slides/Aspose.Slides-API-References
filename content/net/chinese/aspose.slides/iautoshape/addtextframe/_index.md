@@ -1,5 +1,5 @@
 ---
-title: 添加文本框
+title: AddTextFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 向形状添加一个新的文本框。如果形状已经有文本框，则仅更改其文本。
 type: docs

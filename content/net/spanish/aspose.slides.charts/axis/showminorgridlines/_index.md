@@ -1,5 +1,5 @@
 ---
-title: MostrarLíneasDeCuadrículaMenores
+title: ShowMinorGridLines
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Para ocultar las líneas de cuadrícula menores, establezca MinorGridLinesFormat.Line.FillFormat.FillType en FillType.NoFill. Solo de lectura Boolean.
 type: docs

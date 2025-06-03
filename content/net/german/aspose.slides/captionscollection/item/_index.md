@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Untertitel am angegebenen Index zurück. Nur lesen ICaptionsaspose.slides/icaptions.
 type: docs

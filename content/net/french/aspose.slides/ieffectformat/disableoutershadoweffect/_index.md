@@ -1,5 +1,5 @@
 ---
-title: DésactiverEffetOmbreExtérieure
+title: DisableOuterShadowEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Désactive l'effet ombre extérieure.
 type: docs

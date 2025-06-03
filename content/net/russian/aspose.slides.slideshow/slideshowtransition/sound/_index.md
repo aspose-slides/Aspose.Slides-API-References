@@ -1,5 +1,5 @@
 ---
-title: Звук
+title: Sound
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает или устанавливает встроенные аудиоданные. Чтение/запись IAudio aspose.slides/iaudio.
 type: docs

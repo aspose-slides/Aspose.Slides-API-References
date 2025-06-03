@@ -1,5 +1,5 @@
 ---
-title: Datos
+title: Data
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Leer/escribir Objeto.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 数据点级别
+title: DataPointLevels
 second_title: Aspose.Slides for .NET API 参考
 description: 返回数据点级别的容器。适用于树图和旭日图系列。数据点级别的索引是基于零的。
 type: docs

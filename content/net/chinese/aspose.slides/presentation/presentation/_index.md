@@ -1,5 +1,5 @@
 ---
-title: 演示文稿
+title: Presentation
 second_title: Aspose.Slides for .NET API 参考
 description: 此构造函数从头开始创建新的演示文稿。创建的演示文稿包含一张空白幻灯片。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Von
+title: From
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Startwert der Animation an. Lese-/Schreib-Zeichenfolge.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Sujeto
+title: Subject
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el sujeto de una presentación. Lectura/escritura String.
 type: docs

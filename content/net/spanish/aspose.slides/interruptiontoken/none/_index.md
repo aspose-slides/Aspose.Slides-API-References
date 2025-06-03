@@ -1,5 +1,5 @@
 ---
-title: Ninguno
+title: None
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un token de interrupción vacío. Las operaciones de larga duración nunca serán interrumpidas a través de Interruptaspose.slides/interruptiontokensource/interrupt al usar este token.
 type: docs

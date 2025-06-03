@@ -1,5 +1,5 @@
 ---
-title: Contraste
+title: Contrast
 second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Contraste. Lecture seule Single.
 type: docs

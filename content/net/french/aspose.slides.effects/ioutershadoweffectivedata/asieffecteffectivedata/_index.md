@@ -1,5 +1,5 @@
 ---  
-title: AsIEffectEffectiveData  
+title: AsIEffectEffectiveData
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs  

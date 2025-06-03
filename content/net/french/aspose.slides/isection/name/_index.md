@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Nom de la section.
 type: docs

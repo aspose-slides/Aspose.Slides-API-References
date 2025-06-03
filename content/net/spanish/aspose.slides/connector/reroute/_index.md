@@ -1,5 +1,5 @@
 ---
-title: Redirigir
+title: Reroute
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Redirige el conector para que tome el camino más corto posible entre las formas que conecta.
 type: docs

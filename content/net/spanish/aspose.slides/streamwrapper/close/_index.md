@@ -1,5 +1,5 @@
 ---
-title: Cerrar
+title: Close
 second_title: Referencia de la API de Aspose.Slidess para .NET
 description: Cierra el flujo actual y libera cualquier recurso.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Прозрачность
+title: Transparency
 second_title: Справка по API Aspose.Sildes для .NET
 description: Получает или задает прозрачность цвета заливки. Чтение/запись Single.
 type: docs

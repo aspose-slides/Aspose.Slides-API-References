@@ -1,5 +1,5 @@
 ---
-title: Unschärfe
+title: Blur
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt einen Unschärfeeffekt dar, der auf die gesamte Form einschließlich ihrer Füllung angewendet wird. Alle Farbkanäle, einschließlich Alpha, sind betroffen.
 type: docs

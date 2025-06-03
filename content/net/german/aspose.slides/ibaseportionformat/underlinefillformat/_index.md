@@ -1,5 +1,5 @@
 ---
-title: Unterstreichungsfüllformat
+title: UnderlineFillFormat
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Eigenschaften des Unterstreichungsfüllformats zurück. Keine Vererbung angewendet. Nur-Lesen IFillFormataspose.slides/ifillformat.
 type: docs

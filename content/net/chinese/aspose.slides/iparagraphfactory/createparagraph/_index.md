@@ -1,5 +1,5 @@
 ---
-title: 创建段落
+title: CreateParagraph
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个新的空段落。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 数学积分类型
+title: MathIntegralTypes
 second_title: Aspose.Sildes for .NET API 参考
 description: 数学积分类型
 type: docs

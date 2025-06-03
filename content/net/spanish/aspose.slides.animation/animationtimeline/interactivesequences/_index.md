@@ -1,5 +1,5 @@
 ---
-title: SecuenciasInteractivas
+title: InteractiveSequences
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una colección de secuencias interactivas. Estas secuencias pueden contener solo efectos de "clic en forma" con una forma objetivo especificada. Solo lectura ISequenceCollectionaspose.slides.animation/isequencecollection.
 type: docs

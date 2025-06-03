@@ -1,5 +1,5 @@
 ---
-title: 垂直条纹
+title: VerticalBanding
 second_title: Aspose.Slides for .NET API 参考
 description: 确定偶数列是否需要使用不同的格式绘制。可读/可写布尔值。
 type: docs

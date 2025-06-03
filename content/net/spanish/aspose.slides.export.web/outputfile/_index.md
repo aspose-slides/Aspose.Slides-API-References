@@ -1,5 +1,5 @@
 ---
-title: Archivo de Salida
+title: OutputFile
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un archivo de salida.
 type: docs

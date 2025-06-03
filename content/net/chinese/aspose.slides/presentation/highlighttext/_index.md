@@ -1,5 +1,5 @@
 ---
-title: 高亮文本
+title: HighlightText
 second_title: Aspose.Sildes for .NET API 参考
 description: 使用指定颜色高亮显示所有匹配的示例文本。
 type: docs

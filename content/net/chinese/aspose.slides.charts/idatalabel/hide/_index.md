@@ -1,5 +1,5 @@
 ---
-title: 隐藏
+title: Hide
 second_title: Aspose.Slides for .NET API 参考
 description: 通过将所有 Show-flags 的 ShowValue ... 设置为 false 状态来隐藏数据标签。执行此操作后，IsVisible 将为 false。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Цвет
+title: Color
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает цвет градиентной точки. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs

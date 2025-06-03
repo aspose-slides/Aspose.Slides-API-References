@@ -1,5 +1,5 @@
 ---
-title: Disponer
+title: Dispose
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Dispone la instancia del PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs

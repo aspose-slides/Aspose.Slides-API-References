@@ -1,5 +1,5 @@
 ---
-title: ДатаВремя
+title: DateTime
 second_title: Aspose.Sildes для .NET API Справочник
 description: Текущая дата и время в стандартном формате даты и времени для приложения рендеринга. Поле только для чтения FieldTypeaspose.slides/fieldtype.
 type: docs

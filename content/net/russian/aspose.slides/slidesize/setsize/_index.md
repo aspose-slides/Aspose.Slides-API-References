@@ -1,5 +1,5 @@
 ---
-title: УстановитьРазмер
+title: SetSize
 second_title: Справочник по API Aspose.Slides для .NET
 description: Устанавливает тип размера слайда и масштабирует содержимое с использованием типа масштаба. Присвоение любого значения, кроме Custom, изменит Size../size соответственно, но сохранит Orientation../orientation неизменным.
 type: docs

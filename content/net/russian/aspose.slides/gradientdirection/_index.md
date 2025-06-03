@@ -1,5 +1,5 @@
 ---
-title: НаправлениеГрадиента
+title: GradientDirection
 second_title: Ссылка на API Aspose.Slides для .NET
 description: Представляет стиль градиента.
 type: docs

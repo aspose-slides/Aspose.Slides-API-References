@@ -1,5 +1,5 @@
 ---
-title: Rayon
+title: Radius
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie le rayon de flou à appliquer aux bords. Lecture seule Double.
 type: docs

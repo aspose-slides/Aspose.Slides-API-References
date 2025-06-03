@@ -1,5 +1,5 @@
 ---
-title: Эффект3D
+title: Effect3D
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает 3D формат графика. Только для чтения IThreeDFormat aspose.slides/ithreedformat.
 type: docs

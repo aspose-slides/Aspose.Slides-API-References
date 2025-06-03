@@ -1,5 +1,5 @@
 ---
-title: InitFarbSchema
+title: InitColorScheme
 second_title: Aspose.Slides für .NET API Referenz
 description: Init FarbSchema mit neuem Objekt zum Überschreiben des FarbSchemas des ErbesThemas.
 type: docs

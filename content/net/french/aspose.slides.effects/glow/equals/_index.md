@@ -1,5 +1,5 @@
 ---  
-title: Égale  
+title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine si le Glow spécifié Glow est égal au Glow actuel Glow.
 type: docs  

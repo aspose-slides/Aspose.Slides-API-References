@@ -1,5 +1,5 @@
 ---
-title: Сохранение
+title: Save
 second_title: Aspose.Slides для .NET API Reference
 description: Сохраняет все слайды презентации в файл указанного формата.
 type: docs

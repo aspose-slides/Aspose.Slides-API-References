@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Element an der angegebenen Position zurück. Nur lesbarer EffectStyleaspose.slides.theme/effectstyle.
 type: docs

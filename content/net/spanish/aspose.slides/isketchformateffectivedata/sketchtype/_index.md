@@ -1,6 +1,6 @@
 ---
 
-title: SketchType  
+title: SketchType
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el tipo de boceto. Solo lectura LineSketchTypeaspose.slides/linesketchtype.
 type: docs  

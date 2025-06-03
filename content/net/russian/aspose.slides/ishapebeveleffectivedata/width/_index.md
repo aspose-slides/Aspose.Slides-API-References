@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Slides для .NET
 description: Ширина среза. Только для чтения Double.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет указанное значение.
 type: docs

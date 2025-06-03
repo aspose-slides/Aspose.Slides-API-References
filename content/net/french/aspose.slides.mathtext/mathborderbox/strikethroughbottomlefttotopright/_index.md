@@ -1,5 +1,5 @@
 ---
-title: BarrerBasGaucheÀHautDroit
+title: StrikethroughBottomLeftToTopRight
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: La barre de Bas-Gauche à Haut-Droit est désactivée par défaut. Spécifie l'état masqué ou affiché d'une ligne diagonale barrée du coin inférieur gauche au coin supérieur droit de la boîte de bordure.
 type: docs

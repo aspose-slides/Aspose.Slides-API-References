@@ -1,5 +1,5 @@
 ---
-title: Transparence
+title: Transparency
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la transparence de la couleur de remplissage. Lecture Unique.
 type: docs

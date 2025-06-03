@@ -1,5 +1,5 @@
 ---
-title: 添加文本
+title: AddText
 second_title: Aspose.Slides for .NET API 参考
 description: 将纯文本添加到 html 文件中，替换特殊字符为 html 实体。行间距和空格不会被替换。
 type: docs

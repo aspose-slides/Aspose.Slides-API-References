@@ -1,5 +1,5 @@
 ---
-title: Serien
+title: Series
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine schreibgeschützte Sammlung von Diagrammserien zurück. Schreibgeschützte IChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection.
 type: docs

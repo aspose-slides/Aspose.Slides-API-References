@@ -1,5 +1,5 @@
 ---
-title: Betrag
+title: Amount
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Effektbetrag zurück. Nur lesbar Single.
 type: docs

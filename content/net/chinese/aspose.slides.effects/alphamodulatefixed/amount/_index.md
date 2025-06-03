@@ -1,5 +1,5 @@
 ---
-title: 数量
+title: Amount
 second_title: Aspose.Sldes for .NET API 参考
 description: 返回以百分比表示的效果数量。可读写单精度浮点数。
 type: docs

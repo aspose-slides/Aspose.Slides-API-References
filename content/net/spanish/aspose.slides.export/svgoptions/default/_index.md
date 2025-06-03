@@ -1,5 +1,5 @@
 ---
-title: Predeterminado
+title: Default
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve configuraciones predeterminadas. Solo lectura SVGOptionsaspose.slides.export/svgoptions.
 type: docs

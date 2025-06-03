@@ -1,5 +1,5 @@
 ---
-title: 触发类型
+title: TriggerType
 second_title: Aspose.Slides for .NET API 参考
 description: 描述触发类型。可读/可写 EffectTriggerType aspose.slides.animation/effecttriggertype。
 type: docs

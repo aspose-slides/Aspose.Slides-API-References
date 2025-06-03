@@ -1,5 +1,5 @@
 ---
-title: 设置数据范围
+title: SetRange
 second_title: Aspose.Slides for .NET API 参考
 description: 设置图表数据范围。系列和类别将根据新的数据范围进行更新。如果数据范围内系列的数量大于图表数据中的系列数量，则会在当前集合的末尾添加与当前集合中的最后一个系列相同类型的附加系列。
 type: docs

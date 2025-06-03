@@ -1,5 +1,5 @@
 ---
-title: FormatoNúmero
+title: NumberFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la cadena de formato para el objeto DataLabels. Leer/escribir String.
 type: docs

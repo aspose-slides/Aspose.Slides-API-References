@@ -1,5 +1,5 @@
 ---
-title: Élément
+title: Item
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie une cellule par sa position. Lecture seule ICellaspose.slides/icell.
 type: docs

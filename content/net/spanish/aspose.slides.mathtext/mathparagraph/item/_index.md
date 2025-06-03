@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el ítem en el índice especificado. Solo lectura IMathBlockaspose.slides.mathtext/imathblock.
 type: docs

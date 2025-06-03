@@ -1,5 +1,5 @@
 ---
-title: Retirer
+title: Remove
 second_title: Référence API d'Aspose.Slides pour .NET
 description: Supprime un contrôle ActiveX de la collection.
 type: docs

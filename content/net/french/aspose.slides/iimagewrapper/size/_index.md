@@ -1,5 +1,5 @@
 ---
-title: Taille
+title: Size
 second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la largeur et la hauteur en pixels de l'image Read-only Size.
 type: docs

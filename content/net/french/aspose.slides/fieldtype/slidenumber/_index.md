@@ -1,5 +1,5 @@
 ---
-title: NuméroDeDiapositive
+title: SlideNumber
 second_title: Référence API Aspose.Slides pour .NET
 description: Numéro de la diapositive courante. Champ de type lecture seule aspose.slides/fieldtype.
 type: docs

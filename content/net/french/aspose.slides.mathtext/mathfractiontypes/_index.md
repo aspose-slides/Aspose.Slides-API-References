@@ -1,5 +1,5 @@
 ---
-title: TypesDeFractionsMathématiques
+title: MathFractionTypes
 second_title: Référence API Aspose.Slides pour .NET
 description: Types de fractions
 type: docs

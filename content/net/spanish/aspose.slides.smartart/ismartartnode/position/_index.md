@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la posición basada en cero del nodo entre nodos hermanos. Lectura/escritura Int32.
 type: docs

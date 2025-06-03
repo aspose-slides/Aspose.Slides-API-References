@@ -1,5 +1,5 @@
 ---
-title: 创建演示文稿
+title: CreatePresentation
 second_title: Aspose.Slidсes for .NET API 参考
 description: 创建新的演示文稿。
 type: docs

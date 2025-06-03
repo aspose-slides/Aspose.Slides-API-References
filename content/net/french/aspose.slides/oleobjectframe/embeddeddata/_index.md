@@ -1,5 +1,5 @@
 ---
-title: Données intégrées
+title: EmbeddedData
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit des informations sur les données OLE intégrées. Lecture/écriture IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Escala de Grises
+title: GrayScale
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa un efecto de Escala de Grises. Convierte todos los valores de color del efecto a una sombra de gris correspondiente a su luminancia. Los valores de opacidad alfa del efecto no se ven afectados.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Entfernen
+title: Remove
 second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt das Tag mit einem bestimmten Namen aus der Sammlung.
 type: docs

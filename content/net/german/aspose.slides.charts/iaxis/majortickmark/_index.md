@@ -1,5 +1,5 @@
 ---  
-title: MajorTickMark  
+title: MajorTickMark
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt den Typ des Hauptstrichs für die angegebene Achse dar. Lese-/Schreibzugriff auf TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs  

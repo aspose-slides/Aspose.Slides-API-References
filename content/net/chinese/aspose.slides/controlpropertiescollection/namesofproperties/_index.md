@@ -1,5 +1,5 @@
 ---
-title: 属性名称
+title: NamesOfProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 返回属性名称集合。只读 ICollection。
 type: docs

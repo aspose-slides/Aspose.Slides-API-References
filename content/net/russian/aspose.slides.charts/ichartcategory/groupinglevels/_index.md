@@ -1,5 +1,5 @@
 ---
-title: УровниГруппировки
+title: GroupingLevels
 second_title: Справочник по API Aspose.Slides для .NET
 description: Управляемый контейнер значений уровней группировки категорий диаграмм. Многоуровневая категория содержит более одного уровня группировки. Индексация уровней группировки начинается с нуля. Только для чтения IChartCategoryLevelsManageraspose.slides/ichartcategorylevelsmanager.
 type: docs

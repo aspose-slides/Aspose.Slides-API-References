@@ -1,5 +1,5 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Markierungsgröße in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff Int32.
 type: docs

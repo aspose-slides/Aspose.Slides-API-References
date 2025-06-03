@@ -1,5 +1,5 @@
 ---
-title: 移除节点
+title: RemoveNode
 second_title: Aspose.Slides for .NET API 参考
 description: 通过索引移除节点或子节点
 type: docs

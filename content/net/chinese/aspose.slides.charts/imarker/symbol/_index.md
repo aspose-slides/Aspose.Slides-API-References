@@ -1,5 +1,5 @@
 ---
-title: 符号
+title: Symbol
 second_title: Aspose.Slides for .NET API参考
 description: 表示线性图、散点图或雷达图中的标记样式。读/写 MarkerStyleTypeaspose.slides/markerstyletype。
 type: docs

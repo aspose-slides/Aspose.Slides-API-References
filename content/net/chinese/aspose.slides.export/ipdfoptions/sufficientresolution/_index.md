@@ -1,5 +1,5 @@
 ---
-title: 足够的分辨率
+title: SufficientResolution
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置一个值，以确定 PDF 文档中图像的分辨率。
 type: docs

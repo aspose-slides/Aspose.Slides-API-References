@@ -1,5 +1,5 @@
 ---
-title: 数据
+title: Data
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置 Data 对象。可读写对象。
 type: docs

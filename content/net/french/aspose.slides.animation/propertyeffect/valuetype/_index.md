@@ -1,5 +1,5 @@
 ---
-title: TypeDeValeur
+title: ValueType
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le type d'une valeur de propriété. Propriété en lecture/écriture PropertyValueTypeaspose.slides.animation/propertyvaluetype.
 type: docs

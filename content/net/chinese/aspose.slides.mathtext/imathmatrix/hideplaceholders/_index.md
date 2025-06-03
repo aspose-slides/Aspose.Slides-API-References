@@ -1,5 +1,5 @@
 ---
-title: 隐藏占位符
+title: HidePlaceholders
 second_title: Aspose.Slides for .NET API 参考
 description: 隐藏空矩阵元素的占位符 默认值 false
 type: docs

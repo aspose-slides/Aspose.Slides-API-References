@@ -1,5 +1,5 @@
 ---
-title: 样式
+title: Style
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图表样式。可读写 StyleTypeaspose.slides.charts/styletype。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Document
+title: Handout
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie combien de diapositives et dans quel ordre seront placées sur la page HandoutTypeaspose.slides/handouttype.
 type: docs

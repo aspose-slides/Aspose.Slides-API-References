@@ -1,5 +1,5 @@
 ---
-title: Degré
+title: Degree
 second_title: Référence API Aspose.Slides pour .NET
 description: Argument de degré
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: CompresiónDeImágenes
+title: PicturesCompression
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el nivel de compresión de imágenes Lectura/escritura PicturesCompression.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 添加垂直文本占位符
+title: AddVerticalTextPlaceholder
 second_title: Aspose.Slides for .NET API 参考
 description: 向布局幻灯片添加一个新的占位符形状，以垂直方向容纳文本内容。
 type: docs

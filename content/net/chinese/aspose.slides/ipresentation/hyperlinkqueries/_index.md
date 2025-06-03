@@ -1,5 +1,5 @@
 ---
-title: 超链接查询
+title: HyperlinkQueries
 second_title: Aspose.Slides for .NET API 参考
 description: 提供对所有演示幻灯片中包含的超链接的简单访问，不包括母版布局和注释幻灯片。只读 IHyperlinkQueries aspose.slides/ihyperlinkqueries。
 type: docs

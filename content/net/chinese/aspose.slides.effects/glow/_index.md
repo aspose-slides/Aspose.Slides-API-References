@@ -1,5 +1,5 @@
 ---
-title: 发光
+title: Glow
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示一种发光效果，其中一个颜色模糊的轮廓添加到对象的边缘外部。
 type: docs

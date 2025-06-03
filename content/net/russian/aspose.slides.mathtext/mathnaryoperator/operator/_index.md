@@ -1,5 +1,5 @@
 ---
-title: Оператор
+title: Operator
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Символ Nary Оператор Например
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Сохранить
+title: Save
 second_title: Справочник по API Aspose.Slides для .NET
 description: Сохраняет выходной файл по заданному пути.
 type: docs

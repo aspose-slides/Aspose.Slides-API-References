@@ -1,5 +1,5 @@
 ---
-title: Igual
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata especificado es igual al GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata actual.
 type: docs

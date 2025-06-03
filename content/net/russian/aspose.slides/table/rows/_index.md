@@ -1,5 +1,5 @@
 ---
-title: Строки
+title: Rows
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию строк. Только для чтения IRowCollection aspose.slides/irowcollection.
 type: docs

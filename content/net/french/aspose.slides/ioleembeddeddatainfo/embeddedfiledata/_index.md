@@ -1,5 +1,5 @@
 ---
-title: DonnéesFichierIntégrées
+title: EmbeddedFileData
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les données du fichier de l'objet OLE intégré, lecture seule Byte.
 type: docs

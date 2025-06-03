@@ -1,5 +1,5 @@
 ---
-title: 音量
+title: Volume
 second_title: Aspose.Slides for .NET API参考
 description: 返回或设置音频音量。可读/可写 AudioVolumeModeaspose.slides/audiovolumemode。
 type: docs

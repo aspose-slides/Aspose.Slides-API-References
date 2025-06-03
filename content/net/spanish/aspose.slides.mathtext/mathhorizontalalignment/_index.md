@@ -1,5 +1,5 @@
 ---
-title: AlineaciónHorizontalMatemática
+title: MathHorizontalAlignment
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Alineación Horizontal
 type: docs

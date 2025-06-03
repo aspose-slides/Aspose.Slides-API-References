@@ -1,5 +1,5 @@
 ---
-title: Цвет пера
+title: PenColor
 second_title: Справочник по API Aspose.Slides для .NET
 description: Цвет пера для слайд-шоу
 type: docs

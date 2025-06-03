@@ -1,5 +1,5 @@
 ---  
-title: ShowSearch  
+title: ShowSearch
 second_title: Aspose.Slides für .NET API Referenz  
 description: Sucht Abschnitt ein-/ausblenden. Kann in flashvars überschrieben werden. Standard ist true.
 type: docs  

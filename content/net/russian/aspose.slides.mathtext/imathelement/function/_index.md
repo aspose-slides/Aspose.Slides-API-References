@@ -1,5 +1,5 @@
 ---
-title: Функция
+title: Function
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 type: docs

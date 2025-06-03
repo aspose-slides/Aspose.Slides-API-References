@@ -1,5 +1,5 @@
 ---
-title: Par
+title: By
 second_title: Référence API Aspose.Slides pour .NET
 description: Décrit la valeur de décalage relatif pour l'animation de couleur. Lecture/écriture IColorOffsetaspose.slides.animation/icoloroffset.
 type: docs

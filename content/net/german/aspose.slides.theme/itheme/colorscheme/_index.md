@@ -1,5 +1,5 @@
 ---
-title: Farbpalette
+title: ColorScheme
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Farbschema zurück. Nur-lesend IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs

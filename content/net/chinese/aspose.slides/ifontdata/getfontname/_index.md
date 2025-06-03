@@ -1,5 +1,5 @@
 ---
-title: 获取字体名称
+title: GetFontName
 second_title: Aspose.Slides for .NET API 参考
 description: 返回字体名称，将主题引用替换为实际使用的字体。
 type: docs

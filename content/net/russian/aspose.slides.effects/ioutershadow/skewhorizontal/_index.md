@@ -1,5 +1,5 @@
 ---  
-title: SkewHorizontal  
+title: SkewHorizontal
 second_title: Aspose.Sildes для .NET Справочник по API  
 description: Устанавливает угол горизонтального искажения в градусах. Читаемый/записываемый Double.
 type: docs  

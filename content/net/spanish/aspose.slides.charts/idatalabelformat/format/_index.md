@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa el formato de la etiqueta de datos. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeManejoDeBlob
+title: BlobManagementOptions
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea nuevas opciones de manejo de blob por defecto.
 type: docs

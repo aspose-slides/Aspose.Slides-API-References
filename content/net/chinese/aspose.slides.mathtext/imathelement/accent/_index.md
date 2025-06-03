@@ -1,5 +1,5 @@
 ---
-title: 重音
+title: Accent
 second_title: Aspose.Sildes for .NET API 参考
 description: 在该元素的顶部设置一个重音标记
 type: docs

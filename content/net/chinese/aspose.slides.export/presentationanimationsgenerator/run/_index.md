@@ -1,5 +1,5 @@
 ---
-title: 运行
+title: Run
 second_title: Aspose.Slides for .NET API 参考
 description: 为每个幻灯片生成动画事件。
 type: docs

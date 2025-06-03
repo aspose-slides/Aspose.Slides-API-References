@@ -1,5 +1,5 @@
 ---
-title: Ausrichtung
+title: Alignment
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Linienausrichtung zurück oder setzt sie. Lese-/Schreibzugriff auf LineAlignmentaspose.slides/linealignment.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 设置所有日期时间占位符的可见性
+title: SetAllDateTimesVisibility
 second_title: Aspose.Slides for .NET API 参考
 description: 更改所有日期时间占位符的可见性，包括母版幻灯片、布局幻灯片和幻灯片。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Слайды
+title: Slides
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает список всех слайдов, определенных в презентации. Только для чтения ISlideCollection aspose.slides/islidecollection.
 type: docs

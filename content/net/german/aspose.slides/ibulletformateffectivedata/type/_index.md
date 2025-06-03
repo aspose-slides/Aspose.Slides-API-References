@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Bullet-Typ eines Absatzes zurück. Schreibgeschützter BulletTypeaspose.slides/bullettype.
 type: docs

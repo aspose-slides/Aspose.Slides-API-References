@@ -1,5 +1,5 @@
 ---
-title: 行
+title: Row
 second_title: Aspose.Slides for .NET API 参考
 description: 返回单元格所在工作表的行索引。只读 Int32。
 type: docs

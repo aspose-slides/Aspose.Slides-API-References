@@ -1,5 +1,5 @@
 ---
-title: EspaceAprès
+title: SpaceAfter
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la quantité d'espace après la dernière ligne d'un paragraphe. Lecture/écriture Single.
 type: docs

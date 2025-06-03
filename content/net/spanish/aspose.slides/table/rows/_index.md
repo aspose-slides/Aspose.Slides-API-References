@@ -1,5 +1,5 @@
 ---
-title: Filas
+title: Rows
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de filas. Solo lectura IRowCollectionaspose.slides/irowcollection.
 type: docs

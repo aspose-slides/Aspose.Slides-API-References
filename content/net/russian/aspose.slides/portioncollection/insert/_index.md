@@ -1,5 +1,5 @@
 ---
-title: Вставить
+title: Insert
 second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет Portion в коллекцию по указанному индексу.
 type: docs

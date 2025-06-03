@@ -1,5 +1,5 @@
 ---  
-title: GetEffective  
+title: GetEffective
 second_title: Aspose.Slides для .NET API Справочник  
 description: Получает данные об эффективном форматировании порции с применением наследования.
 type: docs  

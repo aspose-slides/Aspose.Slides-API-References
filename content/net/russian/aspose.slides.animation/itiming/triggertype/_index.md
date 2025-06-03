@@ -1,5 +1,5 @@
 ---
-title: ТипТриггера
+title: TriggerType
 second_title: Справочник по API Aspose.Slides для .NET
 description: Описывает тип триггера. Чтение/запись EffectTriggerTypeaspose.slides.animation/effecttriggertype.
 type: docs

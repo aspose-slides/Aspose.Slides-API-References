@@ -1,5 +1,5 @@
 ---
-title: AgregarFuenteEmpotrada
+title: AddEmbeddedFont
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Agrega la fuente empotrada Tenga en cuenta al copiar cualquier fuente que la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente de antemano y verifique que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está empotrada
 type: docs

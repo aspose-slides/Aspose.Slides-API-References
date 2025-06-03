@@ -1,5 +1,5 @@
 ---
-title: BerechneFormeln
+title: CalculateFormulas
 second_title: Aspose.Slides für .NET API-Referenz
 description: Berechnet alle Formeln im Arbeitsbuch und aktualisiert die entsprechenden Zellwerte.
 type: docs

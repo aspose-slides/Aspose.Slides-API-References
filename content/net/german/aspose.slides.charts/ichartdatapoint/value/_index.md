@@ -1,5 +1,5 @@
 ---  
-title: Wert  
+title: Value
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Wert des Diagrammdatenpunkts zurück. Nur lesender IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs  

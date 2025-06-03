@@ -1,5 +1,5 @@
 ---
-title: 嵌入图像
+title: EmbedImages
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置图像嵌入选项。可读/可写布尔值。
 type: docs

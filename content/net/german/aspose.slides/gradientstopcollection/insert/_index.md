@@ -1,5 +1,5 @@
 ---
-title: Einfügen
+title: Insert
 second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt den neuen Farbverlauf-Halt und fügt ihn an dem angegebenen Index in die Sammlung ein.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 行为集合
+title: BehaviorCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示行为效果的集合。
 type: docs

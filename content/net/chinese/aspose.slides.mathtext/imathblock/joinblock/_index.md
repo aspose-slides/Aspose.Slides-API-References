@@ -1,5 +1,5 @@
 ---  
-title: JoinBlock  
+title: JoinBlock
 second_title: Aspose.Sildes for .NET API Reference  
 description: 将另一个数学块与此块连接
 type: docs  

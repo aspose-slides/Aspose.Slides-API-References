@@ -1,5 +1,5 @@
 ---  
-title: HighlightClick  
+title: HighlightClick
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Détermine si l'hyperlien doit être mis en surbrillance au clic. Booléen en lecture/écriture.
 type: docs  

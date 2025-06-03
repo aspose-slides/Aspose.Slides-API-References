@@ -1,5 +1,5 @@
 ---
-title: Ocultar
+title: Hide
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Haga que la etiqueta de datos esté oculta configurando todas las flags de Show ShowValue, ... en estado falso. IsVisible será falso después de esto.
 type: docs

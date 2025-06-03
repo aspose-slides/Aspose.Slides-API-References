@@ -1,5 +1,5 @@
 ---
-title: 渲染选项
+title: RenderingOptions
 second_title: Aspose.Slides for .NET API 参考
 description: 提供控制演示文稿/幻灯片渲染方式的选项。
 type: docs

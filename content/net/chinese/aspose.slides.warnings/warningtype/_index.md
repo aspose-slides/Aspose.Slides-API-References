@@ -1,5 +1,5 @@
 ---
-title: 警告类型
+title: WarningType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一种警告类型。
 type: docs

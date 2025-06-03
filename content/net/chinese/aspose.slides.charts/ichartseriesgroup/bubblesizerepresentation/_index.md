@@ -1,5 +1,5 @@
 ---
-title: 泡沫大小表示
+title: BubbleSizeRepresentation
 second_title: Aspose.Slides for .NET API 参考
 description: 指定泡沫大小值在泡沫图上的表示方式。读/写 BubbleSizeRepresentationType aspose.slides.charts/bubblesizerepresentationtype。
 type: docs

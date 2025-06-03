@@ -1,5 +1,5 @@
 ---
-title: 首字母
+title: Initials
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置作者的首字母。可读/可写字符串。
 type: docs

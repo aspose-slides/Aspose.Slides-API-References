@@ -1,5 +1,5 @@
 ---
-title: Добавить
+title: Add
 second_title: Справочник по API Aspose.Slides для .NET
 description: Создает новую остановку градиента и добавляет ее в конец коллекции.
 type: docs

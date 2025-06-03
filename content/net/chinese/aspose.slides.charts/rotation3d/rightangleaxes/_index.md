@@ -1,5 +1,5 @@
 ---
-title: 直角轴
+title: RightAngleAxes
 second_title: Aspose.Slides for .NET API 参考
 description: 确定图表轴是否为直角，而不是以透视方式绘制。换句话说，它确定图表轴的角度是否与图表的旋转或高度独立。可读写布尔值。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 文本框
+title: TextFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 返回 SmartArt 形状的文本。只读 ITextFrameaspose.slides/../aspose.slides/itextframe。
 type: docs

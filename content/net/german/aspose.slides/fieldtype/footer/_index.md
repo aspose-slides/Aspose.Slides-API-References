@@ -1,5 +1,5 @@
 ---
-title: Fußzeile
+title: Footer
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fußzeile der Folie. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
 type: docs

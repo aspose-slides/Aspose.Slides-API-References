@@ -1,5 +1,5 @@
 ---
-title: Ширина
+title: Width
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает ширину рамки. Только для чтения Single.
 type: docs

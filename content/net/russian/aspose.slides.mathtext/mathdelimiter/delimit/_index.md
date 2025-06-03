@@ -1,5 +1,5 @@
 ---
-title: Разделить
+title: Delimit
 second_title: Справочник по API Aspose.Slides для .NET
 description: Разделяет аргументы, используя указанный символ-разделитель
 type: docs

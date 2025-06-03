@@ -1,5 +1,5 @@
 ---
-title: Columna
+title: Column
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una columna en una tabla.
 type: docs

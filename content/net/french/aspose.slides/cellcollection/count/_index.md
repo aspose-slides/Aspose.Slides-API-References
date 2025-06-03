@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie le nombre de cellules dans une collection. En lecture seule Int32.
 type: docs

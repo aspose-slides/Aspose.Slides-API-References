@@ -1,5 +1,5 @@
 ---
-title: Удалить по индексу
+title: RemoveAt
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет пользовательскую xml-часть по указанному индексу.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 行跨越
+title: RowSpan
 second_title: Aspose.Slides for .NET API 参考
 description: 返回合并单元格所跨越的行数。与其他单元格上的 vMerge 属性结合使用，以指定水平合并的起始单元格。仅读 Int32。
 type: docs

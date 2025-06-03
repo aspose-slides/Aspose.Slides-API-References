@@ -1,5 +1,5 @@
 ---  
-title: NumberFormatOfYValues  
+title: NumberFormatOfYValues
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das Zahlenformat für die y-Werte der Serie zurück oder legt es fest. Lese-/Schreibzeichenfolge.
 type: docs  

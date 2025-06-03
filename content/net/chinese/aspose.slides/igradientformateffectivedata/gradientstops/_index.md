@@ -1,5 +1,5 @@
 ---
-title: 渐变停止
+title: GradientStops
 second_title: Aspose.Slides for .NET API 参考
 description: 返回渐变停止的集合。只读 IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata。
 type: docs

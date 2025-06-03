@@ -1,5 +1,5 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Anzahl der Effekte in einer Sequenz zurück. Nur-lesbarer Int32.
 type: docs

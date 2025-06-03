@@ -1,5 +1,5 @@
 ---  
-title: Kumimoji  
+title: Kumimoji
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Determina si los números deben ignorar el diseño de texto vertical específico del idioma oriental. Booleano de solo lectura.
 type: docs  

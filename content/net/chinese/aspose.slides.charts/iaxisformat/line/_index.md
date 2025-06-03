@@ -1,5 +1,5 @@
 ---
-title: 线
+title: Line
 second_title: Aspose.Slides for .NET API 参考
 description: 返回轴的线条样式属性。只读 ILineFormataspose.slides/../aspose.slides/ilineformat。
 type: docs

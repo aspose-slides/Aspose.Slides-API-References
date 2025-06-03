@@ -1,5 +1,5 @@
 ---
-title: 动画过渡
+title: AnimateTransitions
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置过渡动画选项。可读/可写布尔值。
 type: docs

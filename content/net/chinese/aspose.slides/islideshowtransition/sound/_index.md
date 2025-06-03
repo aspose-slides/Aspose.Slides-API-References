@@ -1,5 +1,5 @@
 ---
-title: 音频
+title: Sound
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置嵌入的音频数据。可读写 IAudioaspose.slides/iaudio。
 type: docs

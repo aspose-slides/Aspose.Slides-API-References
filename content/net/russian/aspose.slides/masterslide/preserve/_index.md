@@ -1,5 +1,5 @@
 ---
-title: Сохранить
+title: Preserve
 second_title: Справочная документация Aspose.Slides для .NET
 description: Определяет, удаляется ли соответствующий мастер при удалении всех слайдов, следующих за этим мастером. Обратите внимание, что Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите RemoveUnusedaspose.slides/masterslidecollection/removeunused Чтение/запись Логический.
 type: docs

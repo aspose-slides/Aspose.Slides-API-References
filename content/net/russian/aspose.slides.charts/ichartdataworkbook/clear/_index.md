@@ -1,5 +1,5 @@
 ---
-title: Очистить
+title: Clear
 second_title: Справочник API Aspose.Slides для .NET
 description: Очистить все значения ячеек на листе
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Клонировать
+title: Clone
 second_title: Справочник по API Aspose.Slides для .NET
 description: Клонирует текущий объект
 type: docs

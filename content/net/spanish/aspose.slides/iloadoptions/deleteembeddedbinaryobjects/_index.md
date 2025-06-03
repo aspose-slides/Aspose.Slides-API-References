@@ -1,5 +1,5 @@
 ---
-title: EliminarObjetosBinariosIncrustados
+title: DeleteEmbeddedBinaryObjects
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si Aspose.Slides eliminará todos los objetos binarios incrustados durante la carga de la presentación.
 type: docs

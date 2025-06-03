@@ -1,5 +1,5 @@
 ---  
-title: 添加表格  
+title: AddTable
 second_title: Aspose.Slides for .NET API 参考  
 description: 创建一个新表格并将其添加到集合的末尾。
 type: docs  

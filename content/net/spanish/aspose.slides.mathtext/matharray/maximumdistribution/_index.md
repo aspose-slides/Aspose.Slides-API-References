@@ -1,5 +1,5 @@
 ---
-title: DistribuciónMáxima
+title: MaximumDistribution
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Distribución Máxima Cuando es verdadero, el arreglo está espaciado al ancho máximo del elemento contenedor página, columna, celda, etc..
 type: docs

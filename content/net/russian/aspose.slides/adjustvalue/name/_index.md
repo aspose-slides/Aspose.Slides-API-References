@@ -1,5 +1,5 @@
 ---
-title: Имя
+title: Name
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает имя этого значения настройки. Только для чтения строка.
 type: docs

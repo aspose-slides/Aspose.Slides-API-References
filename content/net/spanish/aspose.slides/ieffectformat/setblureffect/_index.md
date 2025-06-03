@@ -1,5 +1,5 @@
 ---
-title: EstablecerEfectoDesenfoque
+title: SetBlurEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establece el efecto de desenfoque.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: DurchSchwarz
+title: ThroughBlack
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, ob die Übergang durch Schwarz verblasst. Lese-/Schreibbare Boolean.
 type: docs

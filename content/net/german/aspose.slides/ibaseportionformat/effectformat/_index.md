@@ -1,5 +1,5 @@
 ---  
-title: EffectFormat  
+title: EffectFormat
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Eigenschaften des Text-EffectFormat zurück. Keine Vererbung angewendet. Nur lesend IEffectFormataspose.slides/ieffectformat.
 type: docs  

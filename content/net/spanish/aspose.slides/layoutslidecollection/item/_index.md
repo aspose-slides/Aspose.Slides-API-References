@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la diapositiva de diseño por índice. Solo lectura LayoutSlideaspose.slides/layoutslide.
 type: docs

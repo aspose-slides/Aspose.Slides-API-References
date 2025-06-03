@@ -1,5 +1,5 @@
 ---
-title: 返回操作
+title: ReturnAction
 second_title: Aspose.Slides for .NET API 参考
 description: 表示警告回调决策选项。
 type: docs

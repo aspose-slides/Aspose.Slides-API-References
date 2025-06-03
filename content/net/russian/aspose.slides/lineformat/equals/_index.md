@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Aspose.Sildes для .NET API Reference
 description: type docs
 weight: 180

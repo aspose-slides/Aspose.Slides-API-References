@@ -1,5 +1,5 @@
 ---
-title: Равенство
+title: Equals
 second_title: Справка по API Aspose.Slides для .NET
 description: Определяет, равен ли указанный Reflectionaspose.slides.effects/reflection текущему Reflectionaspose.slides.effects/reflection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Разделитель
+title: Separator
 second_title: Справочник по API Aspose.Slides для .NET
 description: Устанавливает или возвращает Variant, представляющий разделитель, используемый для меток данных на графике. Чтение/запись строка.
 type: docs

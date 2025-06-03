@@ -1,5 +1,5 @@
 ---
-title: DatosBinarios
+title: BinaryData
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una copia de los datos de un audio. En caso de una gran cantidad de datos, considera usar el método GetStream para evitar la carga innecesaria de los datos de video en la memoria o incluso OutOfMemoryException. Solo de lectura Byte.
 type: docs

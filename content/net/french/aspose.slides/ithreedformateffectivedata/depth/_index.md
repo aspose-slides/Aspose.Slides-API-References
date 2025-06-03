@@ -1,5 +1,5 @@
 ---
-title: Profondeur
+title: Depth
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la profondeur d'une forme 3D. En lecture seule Double.
 type: docs

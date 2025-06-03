@@ -1,5 +1,5 @@
 ---
-title: Порядок
+title: Order
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает порядок серии. Читаемый/записываемый Int32.
 type: docs

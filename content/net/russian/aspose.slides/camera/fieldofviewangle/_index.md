@@ -1,5 +1,5 @@
 ---
-title: УголОбзора
+title: FieldOfViewAngle
 second_title: Справка по API Aspose.Slides для .NET
 description: Угол обзора камеры 0-180 градусов. Чтение/запись Single.
 type: docs

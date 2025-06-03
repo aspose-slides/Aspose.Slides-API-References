@@ -1,5 +1,5 @@
 ---
-title: Название
+title: Name
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает название серии. Только для чтения IStringChartValueaspose.slides.charts/istringchartvalue.
 type: docs

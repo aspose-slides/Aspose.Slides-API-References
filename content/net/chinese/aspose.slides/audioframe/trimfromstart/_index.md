@@ -1,5 +1,5 @@
 ---
-title: 从开始修剪
+title: TrimFromStart
 second_title: Aspose.Sildes for .NET API 参考
 description: 指定在播放过程中要从媒体开头删除的时间持续时间（以毫秒为单位）。可读/写单精度浮点数。
 type: docs

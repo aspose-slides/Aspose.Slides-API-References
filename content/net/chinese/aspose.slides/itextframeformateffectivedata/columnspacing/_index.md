@@ -1,5 +1,5 @@
 ---
-title: 列间距
+title: ColumnSpacing
 second_title: Aspose.Slides for .NET API 参考
 description: 指定文本区域中文本列之间的间距（以磅为单位）。只读单精度浮点数。
 type: docs

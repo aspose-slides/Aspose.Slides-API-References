@@ -1,5 +1,5 @@
 ---
-title: 半径
+title: Radius
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回或设置模糊半径。读/写 Double。
 type: docs

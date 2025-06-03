@@ -1,5 +1,5 @@
 ---
-title: TransitionDiaporama
+title: SlideShowTransition
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'objet Transition qui contient des informations sur la façon dont la diapositive spécifiée avance lors d'un diaporama. Lecture seule ISlideShowTransitionaspose.slides/islideshowtransition.
 type: docs

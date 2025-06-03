@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el AlphaModulateFixedaspose.slides.effects/alphamodulatefixed especificado es igual al AlphaModulateFixedaspose.slides.effects/alphamodulatefixed actual.
 type: docs

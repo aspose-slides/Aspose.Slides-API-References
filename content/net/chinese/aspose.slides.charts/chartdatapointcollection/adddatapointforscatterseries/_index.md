@@ -1,5 +1,5 @@
 ---
-title: 添加散点系列的数据点
+title: AddDataPointForScatterSeries
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列，另请参见 IsChartTypeScatteraspose.slides.charts/charttypecharacterizer/ischarttypescatter 方法。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Farbe
+title: Color
 second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt das Farbschema einer Aufzählung in einem Absatz ohne Vererbung zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
 type: docs

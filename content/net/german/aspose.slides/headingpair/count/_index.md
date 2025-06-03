@@ -1,5 +1,5 @@
 ---
-title: Anzahl
+title: Count
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Anzahl der Teile in der Gruppe zurück. Nur-Lesen Int32.
 type: docs

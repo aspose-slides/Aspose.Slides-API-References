@@ -1,5 +1,5 @@
 ---
-title: Índice
+title: Index
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina a cuál de la colección de hijos del padre se aplica este punto de datos. Leer UInt32.
 type: docs

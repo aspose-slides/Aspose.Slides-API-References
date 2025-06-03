@@ -1,5 +1,5 @@
 ---
-title: Éclat
+title: Glow
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un effet d'Éclat dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Зачеркнутый Горизонтально
+title: StrikethroughHorizontal
 second_title: Справочник по API Aspose.Slides для .NET
 description: Зачеркнутый горизонтально по умолчанию имеет значение false - определяет скрытое или отображаемое состояние линии, зачеркивающей горизонтально.
 type: docs

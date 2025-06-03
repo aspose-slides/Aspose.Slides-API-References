@@ -1,5 +1,5 @@
 ---
-title: 方向
+title: Direction
 second_title: Aspose.Slides for .NET API 参考
 description: 转换的方向。读/写 Orientationaspose.slides/orientation。
 type: docs

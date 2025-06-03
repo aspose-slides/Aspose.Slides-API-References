@@ -1,5 +1,5 @@
 ---
-title: Configuración de Presentación
+title: SlideShowSettings
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la configuración de la presentación del espectáculo de diapositivas.
 type: docs

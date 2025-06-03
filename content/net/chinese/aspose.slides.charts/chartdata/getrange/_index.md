@@ -1,5 +1,5 @@
 ---
-title: 获取范围
+title: GetRange
 second_title: Aspose.Slides for .NET API 参考
 description: 获取图表数据范围。
 type: docs

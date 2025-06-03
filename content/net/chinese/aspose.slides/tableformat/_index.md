@@ -1,5 +1,5 @@
 ---
-title: 表格格式
+title: TableFormat
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示表格的格式。
 type: docs

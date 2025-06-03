@@ -1,5 +1,5 @@
 ---
-title: Grado
+title: Degree
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Argumento de grado
 type: docs

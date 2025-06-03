@@ -1,5 +1,5 @@
 ---
-title: Sous-script
+title: Subscript
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Sous-script
 type: docs

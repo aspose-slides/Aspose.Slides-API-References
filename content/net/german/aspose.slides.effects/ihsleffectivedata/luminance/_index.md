@@ -1,5 +1,5 @@
 ---
-title: Luminanz
+title: Luminance
 second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt den Prozentsatz der Luminanz zurück. Nur-lesender Single.
 type: docs

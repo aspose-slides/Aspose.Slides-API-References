@@ -1,5 +1,5 @@
 ---
-title: Клонировать
+title: Clone
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Клонирует
 type: docs

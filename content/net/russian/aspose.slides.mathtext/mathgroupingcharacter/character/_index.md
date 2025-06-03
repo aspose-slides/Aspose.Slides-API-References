@@ -1,5 +1,5 @@
 ---
-title: Символ
+title: Character
 second_title: Справочник по API Aspose.Slides для .NET
 description: Группировка Символ Значение по умолчанию U23DF НИЖНЯЯ ФИГУРНАЯ СКОБОЧКА
 type: docs

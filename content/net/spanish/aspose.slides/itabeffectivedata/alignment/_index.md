@@ -1,5 +1,5 @@
 ---
-title: Alineación
+title: Alignment
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el estilo de alineación de una pestaña. Solo lectura TabAlignmentaspose.slides/tabalignment.
 type: docs

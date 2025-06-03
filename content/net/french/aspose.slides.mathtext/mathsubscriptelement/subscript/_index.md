@@ -1,5 +1,5 @@
 ---
-title: Indice inférieur
+title: Subscript
 second_title: Référence API Aspose.Sldes pour .NET
 description: Indice inférieur
 type: docs

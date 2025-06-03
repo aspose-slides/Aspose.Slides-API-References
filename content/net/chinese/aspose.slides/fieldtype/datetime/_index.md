@@ -1,5 +1,5 @@
 ---
-title: 日期时间
+title: DateTime
 second_title: Aspose.Slides for .NET API 参考
 description: 渲染应用程序的默认日期时间格式的当前日期和时间。只读字段类型 aspose.slides/fieldtype。
 type: docs

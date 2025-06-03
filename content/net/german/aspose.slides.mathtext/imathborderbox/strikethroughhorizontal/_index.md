@@ -1,5 +1,5 @@
 ---
-title: DurchgestrichenHorizontal
+title: StrikethroughHorizontal
 second_title: Aspose.Slides für .NET API-Referenz
 description: Durchgestrichen Horizontal ist standardmäßig false - gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen horizontalen Linie an.
 type: docs

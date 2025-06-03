@@ -1,5 +1,5 @@
 ---
-title: Размер
+title: Size
 second_title: Справочная информация по API Aspose.Slides для .NET
 description: Возвращает или устанавливает размер в пунктах. Присвоение любого значения сбросит свойство Typeaspose.slides/islidesize/type на Custom и установит Orientationaspose.slides/islidesize/orientation. Чтение/запись SizeF.
 type: docs

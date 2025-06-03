@@ -1,5 +1,5 @@
 ---  
-title: MotionCmdPath  
+title: MotionCmdPath
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa un comando de una ruta.
 type: docs  

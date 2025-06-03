@@ -1,5 +1,5 @@
 ---
-title: 克隆
+title: Clone
 second_title: Aspose.Sildes for .NET API 参考
 description: 克隆当前对象
 type: docs

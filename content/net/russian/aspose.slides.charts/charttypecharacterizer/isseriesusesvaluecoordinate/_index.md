@@ -1,6 +1,6 @@
 ---
 
-title: IsSeriesUsesValueCoordinate  
+title: IsSeriesUsesValueCoordinate
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает, использует ли указанный тип серии координаты значений.
 type: docs  

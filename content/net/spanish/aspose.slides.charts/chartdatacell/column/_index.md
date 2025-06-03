@@ -1,5 +1,5 @@
 ---
-title: Columna
+title: Column
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el índice de la columna de la hoja de cálculo en la que se encuentra la celda. Solo lectura Int32.
 type: docs

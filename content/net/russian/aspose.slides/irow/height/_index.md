@@ -1,5 +1,5 @@
 ---
-title: Высота
+title: Height
 second_title: Справка по API Aspose.Sildes для .NET
 description: Возвращает высоту строки. Только для чтения Double.
 type: docs

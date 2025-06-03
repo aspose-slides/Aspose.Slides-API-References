@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置评论在幻灯片上的位置。可读/写 PointF。
 type: docs

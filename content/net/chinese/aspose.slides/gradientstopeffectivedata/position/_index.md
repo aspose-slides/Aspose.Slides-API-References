@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回渐变停靠点的位置 0..1。只读 Single。
 type: docs

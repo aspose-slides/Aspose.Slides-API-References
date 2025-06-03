@@ -1,5 +1,5 @@
 ---
-title: Y值的数字格式
+title: NumberFormatOfYValues
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置系列 y 值的数字格式。可读/写字符串。
 type: docs

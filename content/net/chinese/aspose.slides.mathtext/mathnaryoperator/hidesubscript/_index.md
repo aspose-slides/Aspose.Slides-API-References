@@ -1,5 +1,5 @@
 ---
-title: 隐藏下标
+title: HideSubscript
 second_title: Aspose.Sildes for .NET API 参考
 description: 隐藏下标
 type: docs

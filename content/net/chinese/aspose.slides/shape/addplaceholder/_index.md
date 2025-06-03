@@ -1,5 +1,5 @@
 ---
-title: 添加占位符
+title: AddPlaceholder
 second_title: Aspose.Slides for .NET API 参考
 description: 如果没有占位符则添加一个新的占位符，并将占位符属性设置为指定的属性。
 type: docs

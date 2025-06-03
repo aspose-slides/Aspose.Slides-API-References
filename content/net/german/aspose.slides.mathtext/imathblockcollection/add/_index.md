@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen
+title: Add
 second_title: Aspose.Sildes für .NET API Referenz
 description: Fügen Sie IMathBlock am Ende der Sammlung hinzu.
 type: docs

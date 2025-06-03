@@ -1,5 +1,5 @@
 ---
-title: Ton
+title: Sound
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt den abgespielten Ton des Hyperlinks dar. Lese/Schreibe IAudioaspose.slides/iaudio.
 type: docs

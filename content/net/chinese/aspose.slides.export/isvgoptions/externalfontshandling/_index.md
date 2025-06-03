@@ -1,5 +1,5 @@
 ---
-title: 外部字体处理
+title: ExternalFontsHandling
 second_title: Aspose.Slides for .NET API 参考
 description: 确定外部加载字体的处理方式。读/写 SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling。
 type: docs

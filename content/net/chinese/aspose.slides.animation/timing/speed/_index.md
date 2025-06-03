@@ -1,5 +1,5 @@
 ---
-title: 速度
+title: Speed
 second_title: Aspose.Slides for .NET API 参考
 description: 指定加速或减慢时间的百分比。可读/可写单精度浮点数。
 type: docs

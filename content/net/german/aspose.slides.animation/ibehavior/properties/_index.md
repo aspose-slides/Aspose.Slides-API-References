@@ -1,5 +1,5 @@
 ---
-title: Eigenschaften
+title: Properties
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt Eigenschaften des Verhaltens dar. Nur-lesbare IBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection.
 type: docs

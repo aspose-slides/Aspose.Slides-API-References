@@ -1,5 +1,5 @@
 ---  
-title: DataSourceTypeForBubbleSizes  
+title: DataSourceTypeForBubbleSizes
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt an, ob die Eigenschaft AsCell oder AsLiteralString oder AsLiteralDouble in den Datenpunkt-BubbleSize-Eigenschaftenobjekten aktuell ist. Mit anderen Worten gibt es den Typ des Wertes der Eigenschaft ChartDataPointEx.BubbleSize.Data an. Schreib-/Lesezugriff auf DataSourceTypeaspose.slides/datasourcetype.
 type: docs  

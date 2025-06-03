@@ -1,5 +1,5 @@
 ---
-title: AudioIntégré
+title: EmbeddedAudio
 second_title: Référence API Aspose.Sildes pour .NET
 description: Récupère ou définit l'objet audio intégré. Lecture/écriture IAudioaspose.slides/iaudio.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 路径编辑模式
+title: PathEditMode
 second_title: Aspose.Slides for .NET API 参考
 description: 指定当形状移动时，运动路径的移动方式。读取/写入 MotionPathEditModeaspose.slides.animation/motionpatheditmode。
 type: docs

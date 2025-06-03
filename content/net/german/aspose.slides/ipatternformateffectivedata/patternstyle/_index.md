@@ -1,5 +1,5 @@
 ---  
-title: PatternStyle  
+title: PatternStyle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Musterstil zurück. Schreibgeschützter PatternStyleaspose.slides/patternstyle.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Supprimer
+title: Remove
 second_title: Référence API Aspose.Slides pour .NET
 description: Supprime un élément de la collection par son index dans la collection de points de la série parente.
 type: docs

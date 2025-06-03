@@ -1,5 +1,5 @@
 ---
-title: ModeLecture
+title: PlayMode
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit le mode de lecture audio. Lecture/écriture AudioPlayModePreset aspose.slides/audioplaymodepreset.
 type: docs

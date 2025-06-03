@@ -1,5 +1,5 @@
 ---
-title: 获取图像
+title: GetImage
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个带有自定义缩放的缩略图像对象。
 type: docs

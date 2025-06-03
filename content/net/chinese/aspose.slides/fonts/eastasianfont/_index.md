@@ -1,5 +1,5 @@
 ---
-title: 东亚字体
+title: EastAsianFont
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置东亚字体。可读/写 IFontData aspose.slides/ifontdata。
 type: docs

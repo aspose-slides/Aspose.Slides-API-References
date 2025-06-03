@@ -1,5 +1,5 @@
 ---
-title: Mettre à jour les propriétés du document
+title: UpdateDocumentProperties
 second_title: Référence API Aspose.Slides pour .NET
 description: Met à jour les propriétés de la présentation liée.
 type: docs

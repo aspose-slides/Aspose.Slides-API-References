@@ -1,5 +1,5 @@
 ---
-title: Párrafo
+title: Paragraph
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un párrafo de texto.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 轮廓颜色
+title: ContourColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置轮廓的颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs

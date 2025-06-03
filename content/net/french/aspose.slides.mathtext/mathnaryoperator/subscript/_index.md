@@ -1,5 +1,5 @@
 ---
-title: Sous-indice
+title: Subscript
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie un argument de sous-indice qui, par exemple, dans le cas d'un intégral, définit la limite inférieure
 type: docs

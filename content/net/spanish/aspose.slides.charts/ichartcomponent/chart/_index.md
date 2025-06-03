@@ -1,5 +1,5 @@
 ---
-title: Gráfico
+title: Chart
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el gráfico. Solo lectura IChart aspose.slides.charts/ichart.
 type: docs

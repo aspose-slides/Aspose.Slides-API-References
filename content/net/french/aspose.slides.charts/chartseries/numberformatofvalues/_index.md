@@ -1,5 +1,5 @@
 ---  
-title: NumberFormatOfValues  
+title: NumberFormatOfValues
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: NumberFormatOfValues. Lire/écrire String.
 type: docs  

@@ -1,5 +1,5 @@
 ---  
-title: BorderBottom  
+title: BorderBottom
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie la valeur effective du format de la ligne de bord inférieur. Lecture seule ILineFormatEffectiveData aspose.slides/ilineformateffectivedata.
 type: docs  

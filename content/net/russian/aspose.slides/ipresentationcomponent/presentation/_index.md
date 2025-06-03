@@ -1,5 +1,5 @@
 ---
-title: Презентация
+title: Presentation
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает презентацию. Только для чтения IPresentationaspose.slides/ipresentation.
 type: docs

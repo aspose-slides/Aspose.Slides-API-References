@@ -1,5 +1,5 @@
 ---
-title: Позиция
+title: Position
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает или устанавливает позицию комментария на слайде. Чтение/запись PointF.
 type: docs

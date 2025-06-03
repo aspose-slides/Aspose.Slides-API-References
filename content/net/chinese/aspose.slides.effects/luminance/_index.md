@@ -1,5 +1,5 @@
 ---
-title: 亮度
+title: Luminance
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个亮度效果。亮度线性地将所有颜色向白色或黑色移动。对比度将所有颜色缩放得更接近或更远。
 type: docs

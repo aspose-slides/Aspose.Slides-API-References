@@ -1,5 +1,5 @@
 ---
-title: EntferneBei
+title: RemoveAt
 second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt die Untertitel am angegebenen Index.
 type: docs

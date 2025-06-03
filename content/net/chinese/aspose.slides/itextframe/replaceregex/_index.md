@@ -1,5 +1,5 @@
 ---
-title: 替换正则表达式
+title: ReplaceRegex
 second_title: Aspose.Slides for .NET API 参考
 description: 用指定的字符串替换正则表达式的所有匹配项。
 type: docs

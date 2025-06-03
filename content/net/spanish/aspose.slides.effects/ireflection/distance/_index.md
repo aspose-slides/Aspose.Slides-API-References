@@ -1,5 +1,5 @@
 ---
-title: Distancia
+title: Distance
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Distancia de reflexión. Leer/escribir Doble.
 type: docs

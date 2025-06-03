@@ -1,5 +1,5 @@
 ---
-title: 音频播放模式预设
+title: AudioPlayModePreset
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义声音播放方式的常量。
 type: docs

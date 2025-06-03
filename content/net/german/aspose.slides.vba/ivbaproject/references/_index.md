@@ -1,5 +1,5 @@
 ---
-title: Referenzen
+title: References
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Liste aller Referenzen zurück, die im VBA-Projekt enthalten sind. Nur-lese IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
 type: docs

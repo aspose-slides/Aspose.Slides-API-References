@@ -1,5 +1,5 @@
 ---
-title: Exposant
+title: Superscript
 second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie un argument d'exposant qui, par exemple, dans le cas d'une intégrale, définit la limite supérieure
 type: docs

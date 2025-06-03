@@ -1,5 +1,5 @@
 ---
-title: 灰度
+title: GrayScale
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一种灰度效果。将所有效果颜色值转换为对应于其亮度的灰色阴影。效果的 alpha 不透明度值不受影响。
 type: docs

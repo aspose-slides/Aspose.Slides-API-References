@@ -1,5 +1,5 @@
 ---
-title: 单元格格式
+title: CellFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含此单元格格式化属性的 CellFormat 对象。只读 ICellFormat aspose.slides/icellformat。
 type: docs

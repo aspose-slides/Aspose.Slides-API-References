@@ -1,5 +1,5 @@
 ---
-title: 风格
+title: Flavor
 second_title: Aspose.Slides for .NET API 参考
 description: 指定用于转换演示文稿的markdown规范。默认值为多重markdown。
 type: docs

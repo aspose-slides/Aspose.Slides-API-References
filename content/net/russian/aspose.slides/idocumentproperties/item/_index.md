@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает или устанавливает настраиваемое свойство, связанное с указанным именем. Чтение/запись Object.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Versatz
+title: Escapement
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Hoch- oder Tiefstellungstext zurück oder setzt ihn. Wert von -100 Tiefstellung bis 100 Hochstellung. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff Einzel.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Эффект
+title: Effect
 second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает эффекты, используемые для оси. Только для чтения IEffectFormataspose.slides/ieffectformat.
 type: docs

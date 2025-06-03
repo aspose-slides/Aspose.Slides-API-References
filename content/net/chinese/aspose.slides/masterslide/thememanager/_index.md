@@ -1,5 +1,5 @@
 ---
-title: 主题管理器
+title: ThemeManager
 second_title: Aspose.Slides for .NET API 参考
 description: 返回主题管理器。只读 IMasterThemeManageraspose.slides.theme/imasterthememanager。
 type: docs

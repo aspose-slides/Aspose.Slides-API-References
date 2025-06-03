@@ -1,5 +1,5 @@
 ---
-title: AnimerFormes
+title: AnimateShapes
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit l'option d'animation des formes. Booléen en lecture/écriture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: StylesDeLigne
+title: LineStyles
 second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie une collection de styles de ligne définis par le thème. Collection ILineFormatCollection en lecture seule aspose.slides.theme/ilineformatcollection.
 type: docs

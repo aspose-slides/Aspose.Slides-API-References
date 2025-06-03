@@ -1,5 +1,5 @@
 ---
-title: Breite
+title: Width
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder legt diese fest. Lese-/Schreibzugriff auf Single.
 type: docs

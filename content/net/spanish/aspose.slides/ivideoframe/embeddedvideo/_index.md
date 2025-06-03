@@ -1,5 +1,5 @@
 ---
-title: VideoIncrustado
+title: EmbeddedVideo
 second_title: Referencia API de Aspose.Sildes para .NET
 description: Devuelve o establece el objeto de video incrustado. Lectura/escritura IVideoaspose.slides/ivideo.
 type: docs

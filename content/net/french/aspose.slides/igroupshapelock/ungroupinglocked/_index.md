@@ -1,5 +1,5 @@
 ---
-title: DéverrouillageDuGroupe
+title: UngroupingLocked
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si la séparation de cette forme de groupe est interdite. Booléen en lecture/écriture.
 type: docs

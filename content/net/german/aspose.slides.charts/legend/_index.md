@@ -1,5 +1,5 @@
 ---
-title: Legende
+title: Legend
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaften der Legendendarstellung von Diagrammen dar.
 type: docs

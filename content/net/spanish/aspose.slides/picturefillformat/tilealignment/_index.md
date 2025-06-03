@@ -1,5 +1,5 @@
 ---
-title: AlineaciónDeMosaicos
+title: TileAlignment
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece cómo la textura está alineada dentro de la forma. Esta configuración controla el punto de inicio del patrón de textura y cómo se repite a través de la forma. Lectura/escritura RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs

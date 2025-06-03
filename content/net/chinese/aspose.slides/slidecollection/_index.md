@@ -1,5 +1,5 @@
 ---
-title: 幻灯片集合
+title: SlideCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示幻灯片的集合。
 type: docs

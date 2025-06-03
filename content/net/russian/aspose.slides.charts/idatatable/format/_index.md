@@ -1,5 +1,5 @@
 ---
-title: Формат
+title: Format
 second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает стили линий заполнения и эффектов объекта. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs

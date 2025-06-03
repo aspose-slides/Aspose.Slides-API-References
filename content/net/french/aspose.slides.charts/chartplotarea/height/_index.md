@@ -1,5 +1,5 @@
 ---
-title: Hauteur
+title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne ou définit la hauteur d'une zone de tracé comme une fraction de la hauteur du graphique, de 0 à 1. Lecture/écriture Simple.
 type: docs

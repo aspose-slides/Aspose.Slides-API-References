@@ -1,5 +1,5 @@
 ---
-title: 线条颜色
+title: LineColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的轮廓颜色。只读 IColorFormataspose.slides/icolorformat。
 type: docs

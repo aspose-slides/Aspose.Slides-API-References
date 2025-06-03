@@ -1,5 +1,5 @@
 ---
-title: 三维格式
+title: ThreeDFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个 ThreeDFormat 对象，该对象包含一个形状的 3D 效果属性。注意：对于某些没有 3D 属性的形状类型，可以返回 null。只读 IThreeDFormataspose.slides/ithreedformat。
 type: docs

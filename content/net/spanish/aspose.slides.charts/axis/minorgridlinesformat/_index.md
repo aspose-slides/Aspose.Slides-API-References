@@ -1,5 +1,5 @@
 ---
-title: FormatoDeLineasDeCuadrículaMenores
+title: MinorGridLinesFormat
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Representa el formato de las líneas de cuadrícula menores en un eje de gráfico. Solo lectura IChartLinesFormat aspose.slides.charts/ichartlinesformat.
 type: docs

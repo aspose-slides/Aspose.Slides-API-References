@@ -1,5 +1,5 @@
 ---
-title: Folie
+title: Slide
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die übergeordnete Folie einer Form zurück. Nur-lesbar IBaseSlideaspose.slides/ibaseslide.
 type: docs

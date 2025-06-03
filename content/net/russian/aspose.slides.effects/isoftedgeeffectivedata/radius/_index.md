@@ -1,5 +1,5 @@
 ---
-title: Радиус
+title: Radius
 second_title: Справочник по API Aspose.Slides для .NET
 description: Указывает радиус размытия, который следует применить к краям. Только для чтения Double.
 type: docs

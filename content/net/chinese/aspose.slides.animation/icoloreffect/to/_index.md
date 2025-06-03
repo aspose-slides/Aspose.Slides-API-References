@@ -1,5 +1,5 @@
 ---
-title: 到
+title: To
 second_title: Aspose.Slides for .NET API 参考
 description: 描述动画颜色更改的结果颜色。读/写 IColorFormataspose.slides/../aspose.slides/icolorformat。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: NivelesDePuntoDeDatos
+title: DataPointLevels
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el contenedor de niveles de punto de datos. Aplicado para series Treeamp y Sunburst. El índice de niveles de puntos de datos comienza en cero.
 type: docs

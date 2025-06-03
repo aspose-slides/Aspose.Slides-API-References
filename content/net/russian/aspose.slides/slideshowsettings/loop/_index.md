@@ -1,5 +1,5 @@
 ---
-title: Цикл
+title: Loop
 second_title: Справочник по API Aspose.Slides для .NET
 description: Цикл слайд-шоу
 type: docs

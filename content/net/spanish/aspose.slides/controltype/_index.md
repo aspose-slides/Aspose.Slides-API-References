@@ -1,5 +1,5 @@
 ---  
-title: ControlType  
+title: ControlType
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Define un tipo de control que debe ser incrustado por AddControl./icontrolcollection/addcontrol.
 type: docs  

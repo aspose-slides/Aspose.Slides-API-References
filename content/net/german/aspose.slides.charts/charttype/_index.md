@@ -1,5 +1,5 @@
 ---
-title: DiagrammTyp
+title: ChartType
 second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt einen Typ von Diagramm dar.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 动画时间线
+title: AnimationTimeLine
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示动画的时间线。
 type: docs

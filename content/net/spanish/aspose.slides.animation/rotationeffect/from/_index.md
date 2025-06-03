@@ -1,5 +1,5 @@
 ---
-title: Desde
+title: From
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Describe el valor inicial para la animación. Lectura/escritura Single.
 type: docs

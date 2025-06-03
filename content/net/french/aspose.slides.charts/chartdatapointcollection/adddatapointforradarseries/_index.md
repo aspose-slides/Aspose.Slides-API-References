@@ -1,5 +1,5 @@
 ---
-title: AjouterPointDeDonnéesPourSériesRadar
+title: AddDataPointForRadarSeries
 second_title: Référence API Aspose.Slides pour .NET
 description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Radar voir aussi la méthode IsChartTypeRadaraspose.slides.charts/charttypecharacterizer/ischarttyperadar.
 type: docs

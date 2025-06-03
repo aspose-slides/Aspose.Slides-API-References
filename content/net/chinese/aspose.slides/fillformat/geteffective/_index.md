@@ -1,5 +1,5 @@
 ---  
-title: 获取有效填充  
+title: GetEffective
 second_title: Aspose.Slides for .NET API 参考  
 description: 获取应用继承的有效填充格式数据。
 type: docs  

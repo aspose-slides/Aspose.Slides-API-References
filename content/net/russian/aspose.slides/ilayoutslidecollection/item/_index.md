@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает макетный слайд по индексу. Только для чтения ILayoutSlide aspose.slides/ilayoutslide.
 type: docs

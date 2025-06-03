@@ -1,5 +1,5 @@
 ---
-title: 从末尾修剪
+title: TrimFromEnd
 second_title: Aspose.Slides for .NET API 参考
 description: 修剪末尾毫秒
 type: docs

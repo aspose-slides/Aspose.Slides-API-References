@@ -1,5 +1,5 @@
 ---
-title: Klang
+title: Sound
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die eingebetteten Audiodaten zurück oder legt sie fest. Lese- und schreibbar IAudioaspose.slides/iaudio.
 type: docs

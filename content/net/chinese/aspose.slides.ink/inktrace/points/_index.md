@@ -1,5 +1,5 @@
 ---
-title: 点
+title: Points
 second_title: Aspose.Slides for .NET API 参考
 description: 获取 IInkLine 的 PointF 只读点。
 type: docs

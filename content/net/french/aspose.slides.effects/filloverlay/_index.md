@@ -1,5 +1,5 @@
 ---
-title: RemplissageSuperposition
+title: FillOverlay
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente un effet de Remplissage Superposé. Un remplissage superposé peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et mélanger les deux remplissages ensemble.
 type: docs

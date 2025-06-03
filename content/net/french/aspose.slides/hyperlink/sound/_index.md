@@ -1,5 +1,5 @@
 ---
-title: Son
+title: Sound
 second_title: Référence API Aspose.Sildes pour .NET
 description: Représente le son en lecture de l'hyperlien. Lecture/écriture IAudioaspose.slides/iaudio.
 type: docs

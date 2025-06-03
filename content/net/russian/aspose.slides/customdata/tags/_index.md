@@ -1,5 +1,5 @@
 ---
-title: Теги
+title: Tags
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию тегов пользовательских данных. Только для чтения ITagCollectionaspose.slides/itagcollection.
 type: docs

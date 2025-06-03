@@ -1,5 +1,5 @@
 ---
-title: Корректировки
+title: Adjustments
 second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает коллекцию значений корректировок фигур. Только для чтения IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs

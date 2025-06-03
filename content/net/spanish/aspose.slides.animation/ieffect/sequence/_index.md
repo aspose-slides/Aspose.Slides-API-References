@@ -1,5 +1,5 @@
 ---
-title: Secuencia
+title: Sequence
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una secuencia para un efecto. Solo lectura ISequenceaspose.slides.animation/isequence.
 type: docs

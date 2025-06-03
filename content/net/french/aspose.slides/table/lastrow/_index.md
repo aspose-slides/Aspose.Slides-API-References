@@ -1,5 +1,5 @@
 ---
-title: DernièreLigne
+title: LastRow
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si la dernière ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 type: docs

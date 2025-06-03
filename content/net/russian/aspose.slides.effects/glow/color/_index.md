@@ -1,5 +1,5 @@
 ---
-title: Цвет
+title: Color
 second_title: Справочник по API Aspose.Slides для .NET
 description: Цветовой формат. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs

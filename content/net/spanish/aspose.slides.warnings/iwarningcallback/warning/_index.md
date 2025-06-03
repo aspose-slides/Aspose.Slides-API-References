@@ -1,5 +1,5 @@
 ---
-title: Advertencia
+title: Warning
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Método de callback que recibe advertencias y decide si la operación debe ser abortada.
 type: docs

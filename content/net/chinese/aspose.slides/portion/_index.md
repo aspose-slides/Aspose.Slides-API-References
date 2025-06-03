@@ -1,5 +1,5 @@
 ---
-title: 部分
+title: Portion
 second_title: Aspose.Slides for .NET API 参考
 description: 表示文本段落中的一部分文本。
 type: docs

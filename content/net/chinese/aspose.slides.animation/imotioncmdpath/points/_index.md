@@ -1,5 +1,5 @@
 ---
-title: 点
+title: Points
 second_title: Aspose.Slides for .NET API 参考
 description: 指定命令的点。读/写 PointF。
 type: docs

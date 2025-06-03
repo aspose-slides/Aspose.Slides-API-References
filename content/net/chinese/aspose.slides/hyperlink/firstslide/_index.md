@@ -1,5 +1,5 @@
 ---
-title: 第一张幻灯片
+title: FirstSlide
 second_title: Aspose.Slides for .NET API 参考
 description: 返回指向演示文稿第一张幻灯片的超链接。只读 Hyperlinkaspose.slides/hyperlink。
 type: docs

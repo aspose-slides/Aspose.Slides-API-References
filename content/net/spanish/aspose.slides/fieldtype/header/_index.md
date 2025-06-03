@@ -1,5 +1,5 @@
 ---
-title: Encabezado
+title: Header
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Encabezado de las diapositivas. Campo de solo lectura Typeaspose.slides/fieldtype.
 type: docs

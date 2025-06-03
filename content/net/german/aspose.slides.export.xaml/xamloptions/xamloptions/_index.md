@@ -1,5 +1,5 @@
 ---  
-title: XamlOptions  
+title: XamlOptions
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt die XamlOptions-Instanz.
 type: docs  

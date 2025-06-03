@@ -1,5 +1,5 @@
 ---
-title: VerrouGraphiqueObjet
+title: GraphicalObjectLock
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Retourne les verroux des formes. Lecture seule IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Ruft das Datenlabel für den Datenpunkt mit dem angegebenen Index ab.
 type: docs

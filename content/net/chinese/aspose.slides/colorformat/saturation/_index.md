@@ -1,5 +1,5 @@
 ---
-title: 饱和度
+title: Saturation
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置颜色在 HSL 表示中的饱和度组件。所有颜色转换均被忽略。可读/可写的单精度浮点数。
 type: docs

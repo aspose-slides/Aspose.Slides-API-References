@@ -1,5 +1,5 @@
 ---  
-title: TiffOptions  
+title: TiffOptions
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Proporciona opciones que controlan cómo se guarda una presentación en formato TIFF.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: 幻灯片编号
+title: SlideNumber
 second_title: Aspose.Slides for .NET API 参考
 description: 当前幻灯片的编号。只读 FieldTypeaspose.slides/fieldtype。
 type: docs

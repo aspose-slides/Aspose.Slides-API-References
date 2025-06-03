@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Aspose.Slides для .NET Справочник по API
 description: Удаляет категорию из диаграммы.
 type: docs

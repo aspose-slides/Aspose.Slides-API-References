@@ -1,5 +1,5 @@
 ---
-title: Надстрочный индекс
+title: Superscript
 second_title: Справочник по API Aspose.Slides для .NET
 description: Надстрочный индекс
 type: docs

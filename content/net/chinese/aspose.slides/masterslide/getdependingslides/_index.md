@@ -1,5 +1,5 @@
 ---
-title: 获取依赖幻灯片
+title: GetDependingSlides
 second_title: Aspose.Slides for .NET API 参考
 description: 返回一个包含所有依赖于该母版幻灯片的幻灯片的数组。
 type: docs

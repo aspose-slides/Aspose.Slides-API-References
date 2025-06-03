@@ -1,5 +1,5 @@
 ---
-title: Acento
+title: Accent
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Establece un signo de acento un carácter en la parte superior de este elemento
 type: docs

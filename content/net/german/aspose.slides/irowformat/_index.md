@@ -1,5 +1,5 @@
 ---  
-title: IRowFormat  
+title: IRowFormat
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt das Format einer Tabellenzeile dar.
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: Nom
+title: Name
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le nom du schéma de police. Lecture/écriture Chaîne.
 type: docs

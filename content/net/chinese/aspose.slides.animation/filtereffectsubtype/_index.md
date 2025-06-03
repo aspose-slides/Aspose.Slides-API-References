@@ -1,5 +1,5 @@
 ---
-title: 过滤效果子类型
+title: FilterEffectSubtype
 second_title: Aspose.Slides for .NET API 参考
 description: 表示过滤效果的子类型。
 type: docs

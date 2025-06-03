@@ -1,5 +1,5 @@
 ---
-title: Schattenfarbe
+title: ShadowColor
 second_title: Aspose.Slides für .NET API-Referenz
 description: Farbe des Schattens. Schreibgeschütztes IColorFormat aspose.slides/icolorformat.
 type: docs

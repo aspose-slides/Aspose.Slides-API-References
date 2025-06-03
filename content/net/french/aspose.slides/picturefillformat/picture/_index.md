@@ -1,5 +1,5 @@
 ---
-title: Image
+title: Picture
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie l'image. Lecture seule ISlidesPicture aspose.slides/islidespicture.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Comportamientos
+title: Behaviors
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve la colección de comportamientos para el efecto. Leer/escribir IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs

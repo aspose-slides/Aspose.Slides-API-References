@@ -1,5 +1,5 @@
 ---
-title: 限定
+title: Delimit
 second_title: Aspose.Slides for .NET API 参考
 description: 使用指定的分隔符字符来限定参数
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Formato
+title: Format
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el formato de una leyenda. Solo lectura IFormataspose.slides.charts/iformat.
 type: docs

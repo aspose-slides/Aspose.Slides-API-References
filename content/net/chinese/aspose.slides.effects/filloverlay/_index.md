@@ -1,5 +1,5 @@
 ---
-title: 填充覆盖
+title: FillOverlay
 second_title: Aspose.Slides for .NET API 参考
 description: 表示填充覆盖效果。填充覆盖可以用来指定对象的额外填充并将两种填充混合在一起。
 type: docs

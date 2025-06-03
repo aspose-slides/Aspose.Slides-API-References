@@ -1,5 +1,5 @@
 ---
-title: Параграфы
+title: Paragraphs
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает общее количество параграфов, найденных в документе, если это применимо. Только для чтения Int32.
 type: docs

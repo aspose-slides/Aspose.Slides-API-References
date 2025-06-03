@@ -1,5 +1,5 @@
 ---
-title: Хранение
+title: Storage
 second_title: Справка по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs

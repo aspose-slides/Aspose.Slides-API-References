@@ -1,5 +1,5 @@
 ---
-title: 对齐
+title: Alignment
 second_title: Aspose.Slides for .NET API 参考
 description: 返回段落中的文本对齐方式。只读 TextAlignment aspose.slides/textalignment。
 type: docs

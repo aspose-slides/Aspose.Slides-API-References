@@ -1,5 +1,5 @@
 ---
-title: Значение
+title: Value
 second_title: Справочник API Aspose.Slides для .NET
 description: Текстовое значение
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Formas
+title: Shapes
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la colección de formas dentro del grupo. Solo lectura IShapeCollection aspose.slides/ishapecollection.
 type: docs

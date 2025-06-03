@@ -1,5 +1,5 @@
 ---
-title: 应用默认段落缩进移动
+title: ApplyDefaultParagraphIndentsShifts
 second_title: Aspose.Slides for .NET API 参考
 description: 在启用项目符号时为有效段落缩进和 MarginLeft 设置默认非零移动，就像 PowerPoint 在启用段落项目符号/编号时所做的那样。如果禁用项目符号，则仅重置段落缩进和 MarginLeft，就像 PowerPoint 在禁用段落项目符号/编号时所做的那样。缩进移动是根据当前项目符号上下文应用的 - IBulletFormat.Type, .NumberedBulletStyle 和第一部分的 FontHeight。非零缩进移动应用于当前段落的有效缩进和 MarginLeft，使结果值成为本地值。
 type: docs

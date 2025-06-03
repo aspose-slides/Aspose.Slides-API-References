@@ -1,5 +1,5 @@
 ---
-title: 获取图块
+title: GetTile
 second_title: Aspose.Slides for .NET API 参考
 description: 为指定颜色的图案填充创建图块图像。
 type: docs

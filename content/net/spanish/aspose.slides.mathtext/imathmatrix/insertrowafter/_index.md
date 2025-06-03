@@ -1,5 +1,5 @@
 ---
-title: InsertarFilaDespués
+title: InsertRowAfter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta una nueva fila después de la especificada. Inicialmente, todos los elementos en la nueva fila son nulos.
 type: docs

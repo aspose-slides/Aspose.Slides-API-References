@@ -1,5 +1,5 @@
 ---
-title: DesactivarEfectoDesenfoque
+title: DisableBlurEffect
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Desactiva el efecto de desenfoque.
 type: docs

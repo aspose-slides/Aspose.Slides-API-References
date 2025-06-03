@@ -1,5 +1,5 @@
 ---
-title: 线条样式
+title: LineStyles
 second_title: Aspose.Slides for .NET API 参考
 description: 返回主题定义的线条样式集合。只读 ILineFormatCollection aspose.slides.theme/ilineformatcollection。
 type: docs

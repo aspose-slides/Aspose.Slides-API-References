@@ -1,5 +1,5 @@
 ---
-title: 相关宽度比例
+title: RelativeScaleWidth
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置相对于原始图片大小的图片框的宽度比例。值 1.0 对应于 100。可读/写 单精度浮点数。
 type: docs

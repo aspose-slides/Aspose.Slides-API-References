@@ -1,5 +1,5 @@
 ---
-title: 添加
+title: Add
 second_title: Aspose.Slides for .NET API 参考
 description: 如果集合中存在类别，返回该类别。否则，从 IChartDataCell 创建新的图表类别并将其添加到集合中。
 type: docs

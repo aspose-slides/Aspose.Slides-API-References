@@ -1,5 +1,5 @@
 ---
-title: Wachsen
+title: Grow
 second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die Grenzen des Objekts als Ergebnis der Unschärfe vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass sie es nicht sind. Nur-Lese Boolean.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Größe
+title: Size
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Breite und Höhe in Pixeln des Bildes, schreibgeschützte Size, zurück.
 type: docs

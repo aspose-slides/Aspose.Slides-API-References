@@ -1,5 +1,5 @@
 ---  
-title: AddAutoShape  
+title: AddAutoShape
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Crée une nouvelle forme AutoShape, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
 type: docs  

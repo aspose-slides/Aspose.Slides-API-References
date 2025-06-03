@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie un objet de propriétés de remplissage de cellule. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs

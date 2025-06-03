@@ -1,5 +1,5 @@
 ---
-title: Равно
+title: Equals
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Определяет, равен ли указанный PresetShadowaspose.slides.effects/presetshadow текущему PresetShadowaspose.slides.effects/presetshadow.
 type: docs

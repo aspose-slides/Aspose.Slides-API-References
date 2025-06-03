@@ -1,5 +1,5 @@
 ---
-title: Taille
+title: Size
 second_title: Aspose.Slides pour la référence API .NET
 description: Obtient ou définit la taille d'un espace réservé. Lecture seule PlaceholderSizeaspose.slides/placeholdersize.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: ActiverEffetDeRéflexion
+title: EnableReflectionEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Active l'effet de réflexion.
 type: docs

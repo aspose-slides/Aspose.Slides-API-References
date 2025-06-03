@@ -1,5 +1,5 @@
 ---
-title: Achsen
+title: Axes
 second_title: Aspose.Slides für .NET API-Referenz
 description: Zugriff auf Diagrammachsen bereitstellen. Nur-lesender IAxesManageraspose.slides/iaxesmanager.
 type: docs

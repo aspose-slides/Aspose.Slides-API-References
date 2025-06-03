@@ -1,5 +1,5 @@
 ---
-title: Folleto
+title: Handout
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica cuántas diapositivas y en qué secuencia se colocarán en la página HandoutTypeaspose.slides.export/handouttype.
 type: docs

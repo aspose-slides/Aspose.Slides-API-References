@@ -1,5 +1,5 @@
 ---
-title: 混合
+title: Blend
 second_title: Aspose.Slides for .NET API 参考
 description: FillBlendMode。读/写 FillBlendModeaspose.slides/fillblendmode。
 type: docs

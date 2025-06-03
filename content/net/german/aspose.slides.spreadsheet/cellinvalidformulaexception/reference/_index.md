@@ -1,5 +1,5 @@
 ---
-title: Referenz
+title: Reference
 second_title: Aspose.Slides für .NET API Referenz
 description: Erhält einen Zellenverweis, der die ungültige Formel enthält.
 type: docs

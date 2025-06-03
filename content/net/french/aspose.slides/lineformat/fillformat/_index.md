@@ -1,5 +1,5 @@
 ---
-title: RemplissageFormat
+title: FillFormat
 second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie le format de remplissage d'une ligne. Lecture seule ILineFillFormataspose.slides/ilinefillformat.
 type: docs

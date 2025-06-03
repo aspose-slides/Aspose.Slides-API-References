@@ -1,5 +1,5 @@
 ---
-title: 清除缓存
+title: ClearCache
 second_title: Aspose.Slides for .NET API 参考
 description: 释放所有用户定义的自定义字体
 type: docs

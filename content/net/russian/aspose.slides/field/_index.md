@@ -1,5 +1,5 @@
 ---
-title: Поле
+title: Field
 second_title: Aspose.Slides для .NET API Справочник
 description: Представляет поле.
 type: docs

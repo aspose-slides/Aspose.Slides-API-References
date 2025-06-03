@@ -1,5 +1,5 @@
 ---
-title: Spuren
+title: Traces
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält alle Spuren, die im IInk-Element IInkTraceaspose.slides.ink/iinktrace enthalten sind. Nur lesbar.
 type: docs

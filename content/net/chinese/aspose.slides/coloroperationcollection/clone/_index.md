@@ -1,5 +1,5 @@
 ---
-title: 克隆
+title: Clone
 second_title: Aspose.Slides for .NET API 参考
 description: 创建一个 ColorOperationCollection 集合的副本。
 type: docs

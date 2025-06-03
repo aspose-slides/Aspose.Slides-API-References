@@ -1,5 +1,5 @@
 ---
-title: Подчеркивание
+title: Underbar
 second_title: Справка по API Aspose.Slides для .NET
 description: Устанавливает полосу внизу данного элемента
 type: docs

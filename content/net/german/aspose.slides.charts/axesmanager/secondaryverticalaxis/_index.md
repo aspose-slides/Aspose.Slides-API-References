@@ -1,5 +1,5 @@
 ---
-title: SekundäreVertikaleAchse
+title: SecondaryVerticalAxis
 second_title: Aspose.Slides für .NET API-Referenz
 description: Erhält die sekundäre vertikale Achse des Diagramms. Schreibgeschütztes IAxisaspose.slides.charts/iaxis.
 type: docs

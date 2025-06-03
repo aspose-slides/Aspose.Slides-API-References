@@ -1,5 +1,5 @@
 ---
-title: Сбор
+title: Collect
 second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет собой группу методов, предназначенных для сбора объектных моделей разных типов из Presentation../aspose.slides/presentation.
 type: docs

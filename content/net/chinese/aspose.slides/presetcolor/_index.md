@@ -1,5 +1,5 @@
 ---
-title: 预设颜色
+title: PresetColor
 second_title: Aspose.Slidess for .NET API 参考
 description: 表示预定义的颜色预设。
 type: docs

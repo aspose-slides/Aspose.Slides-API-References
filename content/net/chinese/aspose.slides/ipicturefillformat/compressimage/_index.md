@@ -1,5 +1,5 @@
 ---
-title: 压缩图像
+title: CompressImage
 second_title: Aspose.Slides for .NET API 参考
 description: 通过根据形状大小和指定分辨率来减小图像的大小来压缩图像。可选地，它还会删除剪裁区域。
 type: docs

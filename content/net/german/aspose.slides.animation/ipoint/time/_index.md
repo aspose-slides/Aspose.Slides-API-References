@@ -1,5 +1,5 @@
 ---
-title: Zeit
+title: Time
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Zeitwert dar. Lese-/Schreibzugriff auf Single.
 type: docs

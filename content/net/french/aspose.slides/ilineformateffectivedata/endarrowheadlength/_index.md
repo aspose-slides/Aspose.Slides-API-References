@@ -1,5 +1,5 @@
 ---
-title: Longueur de la tête de flèche finale
+title: EndArrowheadLength
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie la longueur de la tête de flèche à la fin d'une ligne. En lecture seule LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs

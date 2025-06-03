@@ -1,5 +1,5 @@
 ---
-title: Son
+title: Sound
 second_title: Référence API Aspose.Slides pour .NET
 description: Définit le son intégré pour l'effet. Lire/écrire IAudioaspose.slides/iaudio.
 type: docs

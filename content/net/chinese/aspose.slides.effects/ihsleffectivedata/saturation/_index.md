@@ -1,5 +1,5 @@
 ---
-title: 饱和度
+title: Saturation
 second_title: Aspose.Slides for .NET API 参考
 description: 返回饱和度百分比。只读 Single。
 type: docs

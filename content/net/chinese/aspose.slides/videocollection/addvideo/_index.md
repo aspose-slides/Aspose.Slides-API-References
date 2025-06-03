@@ -1,5 +1,5 @@
 ---
-title: 添加视频
+title: AddVideo
 second_title: Aspose.Slides for .NET API 参考
 description: 从另一个演示文稿中添加视频文件的副本。
 type: docs

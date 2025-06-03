@@ -1,5 +1,5 @@
 ---
-title: Iniciales
+title: Initials
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece las iniciales del autor. String de lectura/escritura.
 type: docs

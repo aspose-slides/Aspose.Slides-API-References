@@ -1,5 +1,5 @@
 ---
-title: AudioIntégré
+title: EmbeddedAudio
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit l'objet audio intégré. Lecture/écriture IAudioaspose.slides/iaudio.
 type: docs

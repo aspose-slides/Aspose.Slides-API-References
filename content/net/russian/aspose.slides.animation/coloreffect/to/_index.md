@@ -1,5 +1,5 @@
 ---
-title: Для
+title: To
 second_title: Ссылка на API Aspose.Sildes для .NET
 description: Описывает конечный цвет для изменения цвета анимации. Чтение/запись IColorFormataspose.slides/icolorformat.
 type: docs

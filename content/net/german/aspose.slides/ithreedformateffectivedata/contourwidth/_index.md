@@ -1,5 +1,5 @@
 ---
-title: KonturBreite
+title: ContourWidth
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Breite eines 3D-Konturs zurück. Schreibgeschütztes Double.
 type: docs

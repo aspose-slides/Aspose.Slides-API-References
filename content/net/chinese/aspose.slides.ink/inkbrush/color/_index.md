@@ -1,5 +1,5 @@
 ---
-title: 颜色
+title: Color
 second_title: Aspose.Sildes for .NET API 参考
 description: 获取或设置线条的画笔颜色。
 type: docs

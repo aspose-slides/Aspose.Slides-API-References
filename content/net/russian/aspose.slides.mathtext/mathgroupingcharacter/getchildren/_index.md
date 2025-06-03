@@ -1,5 +1,5 @@
 ---
-title: ПолучитьДочерниеЭлементы
+title: GetChildren
 second_title: Aspose.Slides для .NET Справочник по API
 description: Получить дочерние элементы
 type: docs

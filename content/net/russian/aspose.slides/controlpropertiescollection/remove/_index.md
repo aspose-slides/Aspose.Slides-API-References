@@ -1,5 +1,5 @@
 ---
-title: Удалить
+title: Remove
 second_title: Справочник API Aspose.Sildes для .NET
 description: Удаляет свойство с указанным именем.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: CreatePortionFormat  
+title: CreatePortionFormat
 second_title: Référence API Aspose.Slides pour .NET  
 description: Crée un nouvel IPortionFormataspose.slides/iportionformat.
 type: docs  

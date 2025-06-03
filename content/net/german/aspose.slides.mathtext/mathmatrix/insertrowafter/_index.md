@@ -1,5 +1,5 @@
 ---
-title: ZeileNachEinfügen
+title: InsertRowAfter
 second_title: Aspose.Slides für .NET API-Referenz
 description: Fügen Sie eine neue Zeile nach der angegebenen ein. Zunächst sind alle Elemente in der neuen Zeile null.
 type: docs

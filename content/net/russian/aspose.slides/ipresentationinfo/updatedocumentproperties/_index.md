@@ -1,5 +1,5 @@
 ---  
-title: UpdateDocumentProperties  
+title: UpdateDocumentProperties
 second_title: Aspose.Sildes для .NET Справочник API  
 description: Обновляет свойства связанной презентации.
 type: docs  

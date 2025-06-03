@@ -1,5 +1,5 @@
 ---
-title: Яркость
+title: Luminance
 second_title: Ссылка по API Aspose.Slides для .NET
 description: Возвращает процент яркости. Только для чтения Single.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Compter
+title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient le nombre de polices réellement définies pour la plage. Lecture seule Int32.
 type: docs

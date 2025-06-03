@@ -1,6 +1,6 @@
 ---
 
-title: AddColorReplaceEffect  
+title: AddColorReplaceEffect
 second_title: Référence API Aspose.Slides pour .NET  
 description: Ajoute le nouvel effet de remplacement de couleur à la fin d'une collection.
 type: docs  

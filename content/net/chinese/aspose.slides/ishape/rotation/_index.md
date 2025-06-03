@@ -1,5 +1,5 @@
 ---
-title: 旋转
+title: Rotation
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置指定形状围绕 z 轴旋转的度数。正值表示顺时针旋转，负值表示逆时针旋转。可读/可写 Single。
 type: docs

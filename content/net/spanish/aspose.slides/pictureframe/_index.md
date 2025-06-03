@@ -1,5 +1,5 @@
 ---
-title: MarcoDeImagen
+title: PictureFrame
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un marco con una imagen dentro.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 画笔
+title: Brush
 second_title: Aspose.Slides for .NET API 参考
 description: 获取 IInkLine 的 Brush IInkBrushaspose.slides.ink/iinkbrush 只读。
 type: docs

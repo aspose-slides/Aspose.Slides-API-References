@@ -1,5 +1,5 @@
 ---  
-title: GradientStyle  
+title: GradientStyle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt die verfügbaren Farbverläufe dar.
 type: docs  

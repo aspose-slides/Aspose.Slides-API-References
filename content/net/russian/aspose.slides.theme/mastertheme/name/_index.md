@@ -1,5 +1,5 @@
 ---
-title: Название
+title: Name
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает название темы. Читаемый/записываемый String.
 type: docs

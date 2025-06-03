@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nombre de la serie. Solo lectura IStringChartValueaspose.slides.charts/istringchartvalue.
 type: docs

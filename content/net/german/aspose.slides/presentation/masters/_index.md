@@ -1,5 +1,5 @@
 ---
-title: Master
+title: Masters
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. Nur-Lese IMasterSlideCollection aspose.slides/imasterslidecollection.
 type: docs

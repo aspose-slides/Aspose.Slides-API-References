@@ -1,5 +1,5 @@
 ---
-title: AchseZwischenKategorien
+title: AxisBetweenCategories
 second_title: Aspose.Slides für .NET API Referenz
 description: Stellt dar, ob die Wertachse die Kategorienachse zwischen den Kategorien schneidet. Diese Eigenschaft gilt nur für Kategorienachsen und nicht für 3-D-Diagramme. Lese-/Schreib-Boolean.
 type: docs

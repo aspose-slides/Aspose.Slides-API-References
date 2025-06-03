@@ -1,5 +1,5 @@
 ---
-title: 图像
+title: Image
 second_title: Aspose.Sildes for .NET API 参考
 description: 返回图像的副本。只读 Imageaspose.slides/ippimage/image。
 type: docs

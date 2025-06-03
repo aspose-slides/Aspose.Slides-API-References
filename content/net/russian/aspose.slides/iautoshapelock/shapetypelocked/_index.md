@@ -1,5 +1,5 @@
 ---  
-title: ShapeTypeLocked  
+title: ShapeTypeLocked
 second_title: Aspose.Slides для .NET API Reference  
 description: Определяет, запрещено ли изменение типа фигуры. Читаемое и записываемое логическое значение.
 type: docs  

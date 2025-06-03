@@ -1,5 +1,5 @@
 ---
-title: 启用预设阴影效果
+title: EnablePresetShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 启用预设阴影效果。
 type: docs

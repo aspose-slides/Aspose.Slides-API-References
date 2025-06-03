@@ -1,5 +1,5 @@
 ---
-title: 糖圈图孔径大小
+title: DoughnutHoleSize
 second_title: Aspose.Slides for .NET API 参考
 description: 指定糖圈图中孔的大小，可以在绘图区域大小的 10% 到 90% 之间。这个属性不仅适用于这个系列，也适用于所有父系列组中的系列 - 这是相应组属性的投影。因此这个属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.DoughnutHoleSize 可读/写属性来更改值。只读字节。
 type: docs

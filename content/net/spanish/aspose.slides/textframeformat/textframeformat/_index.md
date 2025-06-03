@@ -1,5 +1,5 @@
 ---
-title: FormatoDelMarcoDeTexto
+title: TextFrameFormat
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase TextFrameFormataspose.slides/textframeformat.
 type: docs

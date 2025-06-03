@@ -1,5 +1,5 @@
 ---  
-title: InvalidPasswordException  
+title: InvalidPasswordException
 second_title: Aspose.Slides for .NET API Reference  
 description: 当演示文稿文件格式不受支持时抛出的异常。
 type: docs  

@@ -1,5 +1,5 @@
 ---
-title: СкрытьВерх
+title: HideTop
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Скрыть верхний край по умолчанию false - указывает скрытое или показанное состояние верхнего края рамки.
 type: docs

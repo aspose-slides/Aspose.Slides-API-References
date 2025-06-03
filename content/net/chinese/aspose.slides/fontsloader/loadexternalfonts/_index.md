@@ -1,5 +1,5 @@
 ---
-title: 加载外部字体
+title: LoadExternalFonts
 second_title: Aspose.Slides for .NET API 参考
 description: 添加额外的文件夹以查找字体。
 type: docs

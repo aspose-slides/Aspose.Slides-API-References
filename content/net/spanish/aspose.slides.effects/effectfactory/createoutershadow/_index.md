@@ -1,5 +1,5 @@
 ---
-title: CrearSombraExterior
+title: CreateOuterShadow
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un efecto de sombra exterior.
 type: docs

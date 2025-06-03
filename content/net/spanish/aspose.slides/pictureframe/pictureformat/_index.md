@@ -1,5 +1,5 @@
 ---
-title: FormatoDeImagen
+title: PictureFormat
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el objeto PictureFillFormat para un marco de imagen. Solo lectura IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs

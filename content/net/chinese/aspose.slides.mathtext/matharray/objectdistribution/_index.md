@@ -1,5 +1,5 @@
 ---
-title: 对象分布
+title: ObjectDistribution
 second_title: Aspose.Slides for .NET API 参考
 description: 对象分布 当为真时，数组的内容被间隔到数组对象的最大宽度。
 type: docs

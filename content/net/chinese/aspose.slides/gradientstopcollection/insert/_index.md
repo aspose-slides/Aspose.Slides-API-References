@@ -1,5 +1,5 @@
 ---
-title: 插入
+title: Insert
 second_title: Aspose.Sildes for .NET API 参考
 description: 创建新的渐变停靠点，并将其插入到指定索引的集合中。
 type: docs

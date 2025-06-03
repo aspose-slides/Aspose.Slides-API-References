@@ -1,5 +1,5 @@
 ---
-title: Estilo de flecha final
+title: EndArrowheadStyle
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el estilo de la flecha al final de una línea. Lectura/escritura LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs

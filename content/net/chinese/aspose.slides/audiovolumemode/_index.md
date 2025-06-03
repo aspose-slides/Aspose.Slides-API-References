@@ -1,5 +1,5 @@
 ---
-title: 音频音量模式
+title: AudioVolumeMode
 second_title: Aspose.Sildes for .NET API 参考
 description: 定义音频音量的常量。
 type: docs

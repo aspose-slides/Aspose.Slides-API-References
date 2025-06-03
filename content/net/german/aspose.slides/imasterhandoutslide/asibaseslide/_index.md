@@ -1,5 +1,5 @@
 ---  
-title: AsIBaseSlide  
+title: AsIBaseSlide
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur-lesbares IBaseSlide aspose.slides/ibaseslide.
 type: docs  

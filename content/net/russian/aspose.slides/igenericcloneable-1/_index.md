@@ -1,5 +1,5 @@
 ---  
-title: IGenericCloneableT  
+title: IGenericCloneableT
 second_title: Aspose.Slides для .NET API Справочник  
 description: Представляет обобщенную версию ICloneable
 type: docs  

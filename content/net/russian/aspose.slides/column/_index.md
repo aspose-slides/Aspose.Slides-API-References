@@ -1,5 +1,5 @@
 ---
-title: Колонка
+title: Column
 second_title: Справочник API Aspose.Slides для .NET
 description: Представляет колонку в таблице.
 type: docs

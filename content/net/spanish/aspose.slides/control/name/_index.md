@@ -1,5 +1,5 @@
 ---
-title: Nombre
+title: Name
 second_title: Referencia de API de Aspose.Sildes para .NET
 description: Obtiene o establece el nombre de este control. Lectura/escritura String.
 type: docs

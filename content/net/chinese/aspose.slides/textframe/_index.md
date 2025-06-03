@@ -1,5 +1,5 @@
 ---
-title: 文本框
+title: TextFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 表示一个文本框。
 type: docs

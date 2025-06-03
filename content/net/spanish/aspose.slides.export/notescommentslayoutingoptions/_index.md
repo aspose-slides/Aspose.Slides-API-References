@@ -1,5 +1,5 @@
 ---  
-title: OpcionesDeDiseñoDeNotasYComentarios  
+title: NotesCommentsLayoutingOptions
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Proporciona opciones que controlan la apariencia del diseño de notas y comentarios en el documento exportado.
 type: docs  

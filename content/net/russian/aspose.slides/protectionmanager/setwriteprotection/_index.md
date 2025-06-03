@@ -1,5 +1,5 @@
 ---
-title: УстановитьЗащитуОтЗаписи
+title: SetWriteProtection
 second_title: Справка по API Aspose.Slides для .NET
 description: Установите защиту от записи для этой презентации с указанным паролем.
 type: docs

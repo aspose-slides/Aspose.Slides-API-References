@@ -1,5 +1,5 @@
 ---
-title: 获取实际标签文本
+title: GetActualLabelText
 second_title: Aspose.Slides for .NET API 参考
 description: 根据 DataLabelFormat 设置或 TextFrameForOverriding.Text 值返回实际标签文本。
 type: docs

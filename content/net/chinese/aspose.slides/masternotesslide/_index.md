@@ -1,5 +1,5 @@
 ---  
-title: MasterNotesSlide  
+title: MasterNotesSlide
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示用于备注的母版幻灯片。
 type: docs  

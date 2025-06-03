@@ -1,5 +1,5 @@
 ---
-title: OpcionesDeDiseñoDeNotasYComentarios
+title: NotesCommentsLayoutingOptions
 second_title: Referencia de la API Aspose.Sildes para .NET
 description: Constructor predeterminado.
 type: docs

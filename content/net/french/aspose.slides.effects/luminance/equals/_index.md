@@ -1,5 +1,5 @@
 ---
-title: Égal
+title: Equals
 second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si la Luminanceaspose.slides.effects/spécifiée est égale à la Luminanceaspose.slides.effects/courante.
 type: docs

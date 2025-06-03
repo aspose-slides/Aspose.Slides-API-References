@@ -1,5 +1,5 @@
 ---
-title: 自动设置类别轴类型
+title: SetCategoryAxisTypeAutomatically
 second_title: Aspose.Slides for .NET API 参考
 description: 根据轴数据自动确定的值设置 IAxis.CategoryAxisType 属性。
 type: docs

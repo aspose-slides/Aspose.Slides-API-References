@@ -1,5 +1,5 @@
 ---
-title: 实际主单位刻度
+title: ActualMajorUnitScale
 second_title: Aspose.Slides for .NET API 参考
 description: 指定轴的实际主单位刻度。请先调用 IChart.ValidateChartLayout 方法以获取实际值。
 type: docs

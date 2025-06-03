@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si el Glowaspose.slides.effects/glow especificado es igual al Glowaspose.slides.effects/glow actual.
 type: docs

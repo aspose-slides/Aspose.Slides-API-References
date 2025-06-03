@@ -1,5 +1,5 @@
 ---
-title: Выравнивание
+title: Justification
 second_title: Справочник по API Aspose.Slides для .NET
 description: Выравнивание абзаца Значение по умолчанию CenteredAsGroup
 type: docs

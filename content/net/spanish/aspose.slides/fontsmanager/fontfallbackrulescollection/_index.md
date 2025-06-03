@@ -1,5 +1,5 @@
 ---
-title: Colección deReglasFontFallBack
+title: FontFallBackRulesCollection
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una colección de reglas FontFallBack del usuario para gestionar conjuntos de fuentes para sustituciones adecuadas mediante la funcionalidad de respaldo. Lectura/escritura IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs

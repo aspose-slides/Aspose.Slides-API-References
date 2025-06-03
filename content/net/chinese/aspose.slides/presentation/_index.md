@@ -1,5 +1,5 @@
 ---
-title: 演示文稿
+title: Presentation
 second_title: Aspose.Slides for .NET API 参考
 description: 代表一个 Microsoft PowerPoint 演示文稿。
 type: docs

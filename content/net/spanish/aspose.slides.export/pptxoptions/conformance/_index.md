@@ -1,5 +1,5 @@
 ---
-title: Conformidad
+title: Conformance
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica la clase de conformidad a la que se ajusta el documento de Presentación. El valor predeterminado es Ecma376_2006
 type: docs

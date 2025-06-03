@@ -1,5 +1,5 @@
 ---
-title: DirectionDuGradient
+title: GradientDirection
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente le style de gradient.
 type: docs

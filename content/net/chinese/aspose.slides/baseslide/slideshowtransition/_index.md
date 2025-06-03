@@ -1,5 +1,5 @@
 ---
-title: 幻灯片过渡
+title: SlideShowTransition
 second_title: Aspose.Slides for .NET API 参考
 description: 返回包含有关指定幻灯片在幻灯片放映期间如何推进的信息的 Transition 对象。只读 ISlideShowTransitionaspose.slides/islideshowtransition。
 type: docs

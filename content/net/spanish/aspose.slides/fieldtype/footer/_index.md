@@ -1,5 +1,5 @@
 ---
-title: Pie de página
+title: Footer
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Pie de página de las diapositivas. Campo de solo lecturaFieldTypeaspose.slides/fieldtype.
 type: docs

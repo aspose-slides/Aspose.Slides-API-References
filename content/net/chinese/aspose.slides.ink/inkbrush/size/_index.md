@@ -1,5 +1,5 @@
 ---
-title: 大小
+title: Size
 second_title: Aspose.Slides for .NET API 参考
 description: 获取或设置线条的笔刷大小（以点为单位）。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 字符
+title: Char
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置一个段落的符号字符，不包含继承。可读写字符。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: MargeDroite
+title: MarginRight
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la marge droite dans un paragraphe sans héritage. Lecture/écriture Simple.
 type: docs

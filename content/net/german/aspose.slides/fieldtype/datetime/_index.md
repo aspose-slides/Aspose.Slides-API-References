@@ -1,5 +1,5 @@
 ---
-title: DatumUhrzeit
+title: DateTime
 second_title: Aspose.Slides für .NET API-Referenz
 description: Aktuelles Datum und Uhrzeit im Standard-Datumsformat für die Rendering-Anwendung. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
 type: docs

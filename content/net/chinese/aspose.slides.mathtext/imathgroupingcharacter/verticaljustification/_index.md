@@ -1,5 +1,5 @@
 ---
-title: 垂直对齐
+title: VerticalJustification
 second_title: Aspose.Slides for .NET API 参考
 description: 组字符的垂直对齐。指定对象相对于基线的对齐方式。例如，当组字符在对象上方时，VerticalJustification 为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，对象的底部位于基线上。默认值：对于 Position=Top，Bottom；对于 Position=Bottom，Top
 type: docs

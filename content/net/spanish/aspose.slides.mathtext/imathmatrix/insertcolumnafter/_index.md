@@ -1,5 +1,5 @@
 ---
-title: InsertarColumnaDespues
+title: InsertColumnAfter
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Inserta una nueva columna después de la especificada. Inicialmente, todos los elementos en la nueva columna son nulos.
 type: docs

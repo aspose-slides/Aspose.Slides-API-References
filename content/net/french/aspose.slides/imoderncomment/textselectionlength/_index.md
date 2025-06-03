@@ -1,5 +1,5 @@
 ---
-title: LongueurDeSélectionDeTexte
+title: TextSelectionLength
 second_title: Aspose.Slides pour .NET Référence API
 description: Retourne ou définit la longueur de sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32.
 type: docs

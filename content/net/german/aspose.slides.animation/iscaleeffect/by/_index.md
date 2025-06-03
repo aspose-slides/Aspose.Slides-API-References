@@ -1,5 +1,5 @@
 ---
-title: Nach
+title: By
 second_title: Aspose.Slides für .NET API Referenz
 description: beschreibt den relativen Offsetwert für die Animation in Prozent. Lese-/Schreibzugriff PointF.
 type: docs

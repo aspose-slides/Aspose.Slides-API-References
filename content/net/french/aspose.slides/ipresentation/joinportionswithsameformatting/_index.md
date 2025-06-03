@@ -1,5 +1,5 @@
 ---
-title: JoindreDesPortionsAvecLaMemeMiseEnForme
+title: JoinPortionsWithSameFormatting
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Joint les composants avec la même mise en forme dans tous les paragraphes de toutes les formes acceptables dans toutes les diapositives.
 type: docs

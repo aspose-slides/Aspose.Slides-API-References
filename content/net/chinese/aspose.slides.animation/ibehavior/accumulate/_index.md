@@ -1,5 +1,5 @@
 ---
-title: 累积
+title: Accumulate
 second_title: Aspose.Slides for .NET API 参考
 description: 表示动画行为是否被累积。读/写 NullableBool aspose.slides/nullablebool。
 type: docs

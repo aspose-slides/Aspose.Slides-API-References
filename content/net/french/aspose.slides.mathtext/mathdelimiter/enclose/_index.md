@@ -1,5 +1,5 @@
 ---
-title: Enclure
+title: Enclose
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Enclut un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
 type: docs

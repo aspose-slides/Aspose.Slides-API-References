@@ -1,5 +1,5 @@
 ---
-title: 字体文件夹
+title: FontFolders
 second_title: Aspose.Slides for .NET API 参考
 description: 包含字体文件的文件夹。所有位于这些文件夹中的字体文件都包含在集合中。递归搜索的文件夹。
 type: docs

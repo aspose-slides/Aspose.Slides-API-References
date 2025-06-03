@@ -1,5 +1,5 @@
 ---
-title: Ajouter
+title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée de nouvelles séries de graphiques et les ajoute à la collection.
 type: docs

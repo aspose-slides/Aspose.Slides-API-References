@@ -1,5 +1,5 @@
 ---
-title: 创建段落格式
+title: CreateParagraphFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的 IParagraphFormat aspose.slides/iparagraphformat。
 type: docs

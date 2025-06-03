@@ -1,5 +1,5 @@
 ---
-title: 项
+title: Item
 second_title: Aspose.Slides for .NET API 参考
 description: 获取指定索引处的字体名称。只读 IFontFallBackRule aspose.slides/ifontfallbackrule。
 type: docs

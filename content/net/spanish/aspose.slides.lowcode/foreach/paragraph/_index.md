@@ -1,5 +1,5 @@
 ---
-title: Párrafo
+title: Paragraph
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Iterar cada párrafo aspose.slides.lowcode/foreach/paragraph en la Presentación aspose.slides/presentation. Las formas se iterarán en todo tipo de diapositivas - Diapositiva aspose.slides.lowcode/foreach/slide MasterSlide aspose.slides.lowcode/foreach/masterslide y LayoutSlide aspose.slides.lowcode/foreach/layoutslide
 type: docs

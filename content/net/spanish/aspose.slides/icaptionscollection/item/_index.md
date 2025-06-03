@@ -1,5 +1,5 @@
 ---
-title: Ítem
+title: Item
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve los subtítulos cerrados en el índice especificado. Solo lectura ICaptionsaspose.slides/icaptions.
 type: docs

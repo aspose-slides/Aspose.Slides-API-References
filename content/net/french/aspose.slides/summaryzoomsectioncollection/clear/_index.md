@@ -1,5 +1,5 @@
 ---
-title: Effacer
+title: Clear
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime tous les objets SummaryZoomSection de la collection.
 type: docs

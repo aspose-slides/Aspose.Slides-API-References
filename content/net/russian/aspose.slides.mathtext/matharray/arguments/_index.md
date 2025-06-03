@@ -1,5 +1,5 @@
 ---
-title: Аргументы
+title: Arguments
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Набор элементов массива
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Вывод
+title: Output
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет собой коллекцию выходных элементов для IWebDocument.
 type: docs

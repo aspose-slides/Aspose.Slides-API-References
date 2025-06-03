@@ -1,5 +1,5 @@
 ---
-title: Элемент
+title: Item
 second_title: Справочник API Aspose.Slides для .NET
 description: Получает правило по указанному индексу. Только для чтения IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs

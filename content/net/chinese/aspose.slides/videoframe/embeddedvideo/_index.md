@@ -1,5 +1,5 @@
 ---  
-title: 嵌入视频  
+title: EmbeddedVideo
 second_title: Aspose.Sildes for .NET API 参考  
 description: 返回或设置嵌入视频对象。可读取/写入 IVideoaspose.slides/ivideo。
 type: docs  

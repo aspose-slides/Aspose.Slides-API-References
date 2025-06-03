@@ -1,5 +1,5 @@
 ---
-title: 位置
+title: Position
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置标签的位置。赋值此属性可能会改变标签在集合中的索引并使枚举器失效。可读写 Double。
 type: docs

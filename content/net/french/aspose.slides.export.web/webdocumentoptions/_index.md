@@ -1,5 +1,5 @@
 ---  
-title: WebDocumentOptions  
+title: WebDocumentOptions
 second_title: Référence de l'API Aspose.Slidess pour .NET  
 description: Représente un ensemble d'options pour l'enregistrement de WebDocument./webdocument.
 type: docs  

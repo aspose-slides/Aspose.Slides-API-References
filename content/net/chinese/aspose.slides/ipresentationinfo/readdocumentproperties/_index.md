@@ -1,5 +1,5 @@
 ---
-title: 读取文档属性
+title: ReadDocumentProperties
 second_title: Aspose.Slides for .NET API 参考
 description: 获取绑定演示文稿的文档属性。
 type: docs

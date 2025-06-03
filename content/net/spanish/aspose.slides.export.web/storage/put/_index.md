@@ -1,5 +1,5 @@
 ---
-title: Poner
+title: Put
 second_title: Referencia de la API Aspose.Slides para .NET
 description: type docs
 weight: 40

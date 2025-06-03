@@ -1,5 +1,5 @@
 ---
-title: УдалитьКолонку
+title: DeleteColumn
 second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет указанную колонку
 type: docs

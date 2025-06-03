@@ -1,5 +1,5 @@
 ---
-title: MéthodeQuartile
+title: QuartileMethod
 second_title: Référence API Aspose.Slides pour .NET
 description: Représente la méthode quartile. S'applique uniquement aux graphiques BoxAndWhisker.
 type: docs

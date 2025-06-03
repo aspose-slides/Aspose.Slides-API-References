@@ -1,5 +1,5 @@
 ---
-title: 坐标轴格式
+title: AxisFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 表示图表格式属性。
 type: docs

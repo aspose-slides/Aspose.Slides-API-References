@@ -1,5 +1,5 @@
 ---  
-title: ViewerIncluded  
+title: ViewerIncluded
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Précise si le document SWF généré doit inclure le visualiseur de documents intégré ou non. La valeur par défaut est true.
 type: docs  

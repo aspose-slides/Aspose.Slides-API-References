@@ -1,5 +1,5 @@
 ---
-title: 值
+title: Value
 second_title: Aspose.Slides for .NET API参考
 description: 表示点值。仅支持：bool ColorFormat float int string。可读/写对象。
 type: docs

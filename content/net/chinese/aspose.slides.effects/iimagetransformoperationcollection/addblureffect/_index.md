@@ -1,5 +1,5 @@
 ---
-title: 添加模糊效果
+title: AddBlurEffect
 second_title: Aspose.Sildes for .NET API 参考
 description: 在集合的末尾添加新的模糊效果。
 type: docs

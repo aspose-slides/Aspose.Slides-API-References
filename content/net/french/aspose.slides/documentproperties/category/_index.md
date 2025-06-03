@@ -1,5 +1,5 @@
 ---
-title: Catégorie
+title: Category
 second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la catégorie d'une présentation. Chaîne en lecture/écriture.
 type: docs

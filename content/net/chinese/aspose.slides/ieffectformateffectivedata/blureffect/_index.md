@@ -1,5 +1,5 @@
 ---
-title: 模糊效果
+title: BlurEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 模糊效果。只读 IBlurEffectiveData aspose.slides.effects/iblureffectivedata。
 type: docs

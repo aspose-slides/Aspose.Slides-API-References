@@ -1,5 +1,5 @@
 ---
-title: 聚合类型
+title: AggregationType
 second_title: Aspose.Slides for .NET API 参考
 description: 表示类别轴的聚合类型（分箱）。应用于类别。仅与直方图或直方图帕累托系列协作使用。
 type: docs

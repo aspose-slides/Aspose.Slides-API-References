@@ -1,5 +1,5 @@
 ---
-title: От
+title: From
 second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает начальное значение анимации. Чтение/запись String.
 type: docs

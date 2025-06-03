@@ -1,5 +1,5 @@
 ---
-title: 添加空白幻灯片
+title: AddEmptySlide
 second_title: Aspose.Slides for .NET API 参考
 description: 将一个新的空白幻灯片添加到集合的末尾。
 type: docs

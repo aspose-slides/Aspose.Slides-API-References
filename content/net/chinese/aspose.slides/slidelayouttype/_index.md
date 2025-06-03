@@ -1,5 +1,5 @@
 ---
-title: 幻灯片布局类型
+title: SlideLayoutType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示幻灯片布局类型。
 type: docs

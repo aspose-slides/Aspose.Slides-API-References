@@ -1,5 +1,5 @@
 ---
-title: Elemento
+title: Item
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un control en la posición especificada.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: StyleCouleur
+title: StyleColor
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un ColorFormat pour un fond de type BackgroundType.Themed. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs

@@ -1,5 +1,5 @@
 ---  
-title: WriteAsEmf  
+title: WriteAsEmf
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Speichert das SVG-Bild als EMF-Datei.
 type: docs  

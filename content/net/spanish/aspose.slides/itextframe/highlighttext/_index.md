@@ -1,5 +1,5 @@
 ---
-title: ResaltarTexto
+title: HighlightText
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Resalta todas las coincidencias del texto de muestra con el color especificado.
 type: docs

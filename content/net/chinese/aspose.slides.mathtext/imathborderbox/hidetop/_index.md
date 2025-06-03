@@ -1,5 +1,5 @@
 ---
-title: 隐藏顶部
+title: HideTop
 second_title: Aspose.Slides for .NET API 参考
 description: 隐藏顶部边缘，默认值为 false - 指定边框盒子顶部边缘的隐藏或显示状态。
 type: docs

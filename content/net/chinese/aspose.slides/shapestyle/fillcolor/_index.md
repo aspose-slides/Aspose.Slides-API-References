@@ -1,5 +1,5 @@
 ---
-title: 填充颜色
+title: FillColor
 second_title: Aspose.Slides for .NET API 参考
 description: 返回形状的填充颜色。只读 IColorFormataspose.slides/icolorformat。
 type: docs

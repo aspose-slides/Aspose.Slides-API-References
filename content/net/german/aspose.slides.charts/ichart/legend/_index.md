@@ -1,5 +1,5 @@
 ---
-title: Legende
+title: Legend
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt eine Legende für ein Diagramm zurück oder setzt diese. Nur lesbare ILegendaspose.slides.charts/ilegend.
 type: docs

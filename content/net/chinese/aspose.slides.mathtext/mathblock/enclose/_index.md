@@ -1,5 +1,5 @@
 ---
-title: 包围
+title: Enclose
 second_title: Aspose.Slidess for .NET API 参考
 description: 用指定字符如括号或其他字符将此块的子元素包围起来
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Zeichnungsleitfäden
+title: DrawingGuides
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Sammlung der Zeichnungsleitfäden zurück. Nur lesbarer IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
 type: docs

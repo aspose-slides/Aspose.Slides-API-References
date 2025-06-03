@@ -1,5 +1,5 @@
 ---
-title: SupprimerÀ
+title: RemoveAt
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs

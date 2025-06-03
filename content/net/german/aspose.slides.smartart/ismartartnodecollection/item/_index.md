@@ -1,5 +1,5 @@
 ---
-title: Element
+title: Item
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Knoten nach Index zurück. Schreibgeschützter ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs

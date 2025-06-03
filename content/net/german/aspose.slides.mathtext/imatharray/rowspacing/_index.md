@@ -1,5 +1,5 @@
 ---
-title: Zeilenabstand
+title: RowSpacing
 second_title: Aspose.Slides für .NET API-Referenz
 description: Abstand zwischen den Zeilen eines Arrays. Er wird nur verwendet, wenn RowSpacingRule auf 3 gesetzt ist. Genau in diesem Fall ist die Einheit Maßpunkte oder Multiple, in welchem Fall die Einheit halbe Zeilen beträgt. Standard 0
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 交叉类型
+title: CrossType
 second_title: Aspose.Sildes for .NET API 参考
 description: 表示指定轴上其他轴交叉的位置的交叉类型。可读写 CrossesTypeaspose.slides/crossestype。
 type: docs

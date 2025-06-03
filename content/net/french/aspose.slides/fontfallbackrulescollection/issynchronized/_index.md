@@ -1,5 +1,5 @@
 ---  
-title: IsSynchronized  
+title: IsSynchronized
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Retourne une valeur indiquant si l'accès à la collection est synchronisé et sécurisé pour les threads. Lecture seule Booléen.
 type: docs  

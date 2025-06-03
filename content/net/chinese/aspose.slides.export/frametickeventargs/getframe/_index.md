@@ -1,5 +1,5 @@
 ---
-title: 获取帧
+title: GetFrame
 second_title: Aspose.Slides for .NET API 参考
 description: 获取当前 PresentationPlayer 的 aspose.slides.export/presentationplayer 帧。
 type: docs

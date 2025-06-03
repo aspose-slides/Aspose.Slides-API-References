@@ -1,5 +1,5 @@
 ---
-title: Ruta
+title: Path
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica la primitiva de ruta seguida por coordenadas para el movimiento de la animación. Lectura/escritura IMotionPathaspose.slides.animation/imotionpath.
 type: docs

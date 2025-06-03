@@ -1,5 +1,5 @@
 ---
-title: 音频循环
+title: SoundLoop
 second_title: Aspose.Slides for .NET API 参考
 description: 此属性指定音频是否会循环，直到下一个音频事件在幻灯片放映中发生。可读/可写布尔值。
 type: docs

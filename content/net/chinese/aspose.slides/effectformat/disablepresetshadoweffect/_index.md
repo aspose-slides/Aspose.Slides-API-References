@@ -1,5 +1,5 @@
 ---
-title: 禁用预设阴影效果
+title: DisablePresetShadowEffect
 second_title: Aspose.Slides for .NET API 参考
 description: 禁用预设阴影效果。
 type: docs

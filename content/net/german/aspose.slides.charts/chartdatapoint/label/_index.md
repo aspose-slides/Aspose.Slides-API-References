@@ -1,5 +1,5 @@
 ---
-title: Etiket
+title: Label
 second_title: Aspose.Slides für .NET API Referenz
 description: Etiket. Nur-Lese IDataLabelaspose.slides.charts/idatalabel.
 type: docs

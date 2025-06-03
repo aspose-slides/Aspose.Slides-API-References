@@ -1,5 +1,5 @@
 ---
-title: A
+title: To
 second_title: Referencia de la API Aspose.Slides para .NET
 description: Especifica el cierto atributo de un efecto después de un efecto de animación. Representa un valor puntual. Solo bool, ColorFormat, float, int, string. Objeto de lectura/escritura.
 type: docs

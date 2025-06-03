@@ -1,5 +1,5 @@
 ---
-title: 向后
+title: Backward
 second_title: Aspose.Slides for .NET API 参考
 description: 指定趋势线在被趋势的数据之前扩展的类别或单位数量。在散点图和非散点图中，该值应为任何非负值。可读/写的 Double。
 type: docs

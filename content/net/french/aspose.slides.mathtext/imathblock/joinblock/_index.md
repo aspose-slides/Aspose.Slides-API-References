@@ -1,5 +1,5 @@
 ---  
-title: JoinBlock  
+title: JoinBlock
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Joint un autre bloc mathématique avec celui-ci
 type: docs  

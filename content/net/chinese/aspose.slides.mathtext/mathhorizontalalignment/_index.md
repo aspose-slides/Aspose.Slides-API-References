@@ -1,5 +1,5 @@
 ---
-title: 数学水平对齐
+title: MathHorizontalAlignment
 second_title: Aspose.Slides for .NET API 参考
 description: 水平对齐
 type: docs

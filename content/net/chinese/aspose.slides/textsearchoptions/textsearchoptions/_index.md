@@ -1,5 +1,5 @@
 ---
-title: 文本搜索选项
+title: TextSearchOptions
 second_title: Aspose.Slides for .NET API 参考
 description: 创建新的默认文本搜索选项。
 type: docs

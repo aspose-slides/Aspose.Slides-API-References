@@ -1,5 +1,5 @@
 ---
-title: Posición
+title: Position
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la posición del eje. Lectura/escritura AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs

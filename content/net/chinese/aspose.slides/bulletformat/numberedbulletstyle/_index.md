@@ -1,5 +1,5 @@
 ---
-title: 编号项目符号样式
+title: NumberedBulletStyle
 second_title: Aspose.Slides for .NET API 参考
 description: 返回或设置没有继承的编号项目符号的样式。读/写 NumberedBulletStyleaspose.slides/numberedbulletstyle。
 type: docs

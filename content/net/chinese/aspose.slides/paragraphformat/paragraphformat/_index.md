@@ -1,5 +1,5 @@
 ---
-title: 段落格式
+title: ParagraphFormat
 second_title: Aspose.Slides for .NET API 参考
 description: 初始化 ParagraphFormataspose.slides/paragraphformat 类的新实例。
 type: docs

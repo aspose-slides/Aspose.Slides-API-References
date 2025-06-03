@@ -1,5 +1,5 @@
 ---
-title: Reordenar
+title: Reorder
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Mueve la diapositiva de diseño de la colección a la posición especificada.
 type: docs

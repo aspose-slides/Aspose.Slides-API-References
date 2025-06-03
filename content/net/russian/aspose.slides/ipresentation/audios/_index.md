@@ -1,5 +1,5 @@
 ---
-title: Аудио
+title: Audios
 second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает коллекцию всех встроенных аудиофайлов в презентации. Только для чтения IAudioCollectionaspose.slides/iaudiocollection.
 type: docs

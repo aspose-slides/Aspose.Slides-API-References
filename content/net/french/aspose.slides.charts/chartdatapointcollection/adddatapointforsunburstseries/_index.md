@@ -1,5 +1,5 @@
 ---
-title: AjouterPointDeDonnéesPourSérieSunburst
+title: AddDataPointForSunburstSeries
 second_title: Référence API Aspose.Slides pour .NET
 description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le type de graphique est Sunburst.
 type: docs

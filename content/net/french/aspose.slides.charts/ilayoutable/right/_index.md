@@ -1,5 +1,5 @@
 ---
-title: Droit
+title: Right
 second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient le droit de l'élément de graphique en tant que fraction de la largeur du graphique. Lecture seule Single.
 type: docs

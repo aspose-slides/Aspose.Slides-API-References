@@ -1,5 +1,5 @@
 ---
-title: Viñeta
+title: Bullet
 second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el formato de viñeta del párrafo. Solo lectura IBulletFormataspose.slides/ibulletformat.
 type: docs

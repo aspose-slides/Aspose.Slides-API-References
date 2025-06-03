@@ -1,5 +1,5 @@
 ---
-title: 二进制数据
+title: BinaryData
 second_title: Aspose.Slides for .NET API 参考
 description: 返回图像数据的副本。只读 Byte。
 type: docs

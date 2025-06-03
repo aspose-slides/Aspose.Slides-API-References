@@ -1,5 +1,5 @@
 ---
-title: 创建数学段落
+title: CreateMathParagraph
 second_title: Aspose.Slides for .NET API 参考
 description: 创建空的数学段落
 type: docs

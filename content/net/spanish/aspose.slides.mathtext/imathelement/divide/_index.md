@@ -1,5 +1,5 @@
 ---
-title: Dividir
+title: Divide
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea una fracción con este numerador y denominador especificado
 type: docs

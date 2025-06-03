@@ -1,5 +1,5 @@
 ---
-title: Präsentation
+title: Presentation
 second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die übergeordnete Präsentation einer Folie zurück. Nur-Lese IPresentation aspose.slides/ipresentation.
 type: docs

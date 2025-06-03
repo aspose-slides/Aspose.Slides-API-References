@@ -1,5 +1,5 @@
 ---
-title: LímiteSuperior
+title: UpperLimit
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica un límite superior o inferior
 type: docs

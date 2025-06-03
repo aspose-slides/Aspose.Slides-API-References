@@ -1,5 +1,5 @@
 ---
-title: 嵌入文件数据
+title: EmbeddedFileData
 second_title: Aspose.Slides for .NET API 参考
 description: 返回嵌入 OLE 对象的文件数据，只读 Byte。
 type: docs

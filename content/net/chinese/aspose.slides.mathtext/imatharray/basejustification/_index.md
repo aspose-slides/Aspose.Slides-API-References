@@ -1,5 +1,5 @@
 ---
-title: 基本对齐方式
+title: BaseJustification
 second_title: Aspose.Slides for .NET API 参考
 description: 指定数组相对于周围文本的对齐方式 数组外的文本可以与数组对象的底部、顶部或中心对齐 默认值：中心
 type: docs

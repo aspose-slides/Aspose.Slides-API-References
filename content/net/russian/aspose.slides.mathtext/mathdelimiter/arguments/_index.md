@@ -1,5 +1,5 @@
 ---
-title: Аргументы
+title: Arguments
 second_title: Справочник API Aspose.Sildes для .NET
 description: Один или несколько математических элементов, разделенных символами-разделителями
 type: docs

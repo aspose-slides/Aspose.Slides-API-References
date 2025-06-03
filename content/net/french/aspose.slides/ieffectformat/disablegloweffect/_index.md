@@ -1,5 +1,5 @@
 ---
-title: DésactiverEffetLueur
+title: DisableGlowEffect
 second_title: Référence API Aspose.Slides pour .NET
 description: Désactiver l'effet de lueur.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: 段落集合
+title: ParagraphCollection
 second_title: Aspose.Slides for .NET API 参考
 description: 表示段落的集合。
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Iguales
+title: Equals
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el Reflectionaspose.slides/reflection especificado es igual al Reflectionaspose.slides/reflection actual.
 type: docs

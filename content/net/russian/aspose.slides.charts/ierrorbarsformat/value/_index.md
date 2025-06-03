@@ -1,5 +1,5 @@
 ---
-title: Значение
+title: Value
 second_title: Справочник по API Aspose.Slides для .NET
 description: Получает или задает значение, которое используется с типами значений Fixed Percentage и StandardDeviation для определения длины линий ошибок. Чтение/запись Single.
 type: docs

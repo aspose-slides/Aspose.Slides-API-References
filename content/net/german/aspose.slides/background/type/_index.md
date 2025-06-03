@@ -1,5 +1,5 @@
 ---
-title: Typ
+title: Type
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen Typ der Hintergrundfüllung zurück. Lese-/Schreibzugriff auf BackgroundTypeaspose.slides/backgroundtype.
 type: docs

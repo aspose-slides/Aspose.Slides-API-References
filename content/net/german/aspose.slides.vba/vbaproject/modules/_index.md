@@ -1,5 +1,5 @@
 ---
-title: Module
+title: Modules
 second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Liste aller Module zurück, die im VBA-Projekt enthalten sind. Nur Lesezugriff auf IVbaModuleCollectionaspose.slides.vba/ivbamodulecollection.
 type: docs

@@ -1,5 +1,5 @@
 ---
-title: Презентация
+title: Presentation
 second_title: Справочник по API Aspose.Slides для .NET
 description: Этот конструктор создает новую презентацию с нуля. Созданная презентация имеет один пустой слайд.
 type: docs

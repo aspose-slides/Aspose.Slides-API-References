@@ -1,5 +1,5 @@
 ---
-title: Orden
+title: Order
 second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el orden de una serie. Lectura/escritura Int32.
 type: docs
