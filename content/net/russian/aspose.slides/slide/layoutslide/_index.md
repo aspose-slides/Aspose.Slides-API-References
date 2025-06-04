@@ -1,6 +1,6 @@
 ---
 title: LayoutSlide
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает макетный слайд для текущего слайда. Чтение/запись ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/slide/layoutslide/
 public ILayoutSlide LayoutSlide { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [ILayoutSlide](../../ilayoutslide)
 * класс [Slide](../../slide)

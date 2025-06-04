@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 50
 url: /es/aspose.slides.effects/glow/gethashcode/
 ---
 
-## Método Glow.GetHashCode
+## Glow.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -21,8 +21,8 @@ Un código hash para el objeto actual.
 
 ### Véase También
 
-* class [Glow](../../glow)
+* clase [Glow](../../glow)
 * namespace [Aspose.Slides.Effects](../../glow)
-* assembly [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

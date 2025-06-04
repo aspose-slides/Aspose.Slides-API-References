@@ -1,7 +1,7 @@
 ---
 title: ITextSearchOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示可用于在演示文稿幻灯片或文本框中搜索文本的选项。
+description: 表示可以用于在演示文稿幻灯片或文本框中搜索文本的选项。
 type: docs
 weight: 7080
 url: /zh/aspose.slides/itextsearchoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextsearchoptions/
 
 ## ITextSearchOptions 接口
 
-表示可用于在演示文稿、幻灯片或文本框中搜索文本的选项。
+表示可以用于在演示文稿、幻灯片或文本框中搜索文本的选项。
 
 ```csharp
 public interface ITextSearchOptions
@@ -19,8 +19,8 @@ public interface ITextSearchOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 设置为 true 以使用区分大小写的搜索，false - 反之亦然。可读写布尔值。 |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 设置为 true 以仅匹配完整单词，false - 反之亦然。可读写布尔值。 |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 设置为 true 以使用区分大小写的搜索，false - 否则。可读写布尔值。 |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 设置为 true 以仅匹配完整单词，false - 否则。可读写布尔值。 |
 
 ### 另请参阅
 

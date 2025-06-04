@@ -18,11 +18,11 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle la section Zoom frame doit être insérée. |
-| x | Single | Coordonnée X d'une nouvelle Section Zoom frame Single. |
-| y | Single | Coordonnée Y d'une nouvelle Section Zoom frame Single. |
-| width | Single | Largeur d'une nouvelle Section Zoom frame Single. |
-| height | Single | Hauteur d'une nouvelle Section Zoom frame Single. |
+| index | Int32 | L'index basé sur zéro où le cadre de Section Zoom doit être inséré. |
+| x | Single | Coordonnée X d'un nouveau cadre de Section Zoom. |
+| y | Single | Coordonnée Y d'un nouveau cadre de Section Zoom. |
+| width | Single | Largeur d'un nouveau cadre de Section Zoom. |
+| height | Single | Hauteur d'un nouveau cadre de Section Zoom. |
 
 ### Valeur de Retour
 
@@ -32,15 +32,15 @@ Objet Summary Zoom créé [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Il n’y a pas de sections dans la présentation, ou la diapositive cible n’appartient à aucune section. |
+| [PptxEditException](../../pptxeditexception) | Il n'y a pas de sections dans la présentation, ou la diapositive cible n'appartient à aucune section. |
 
 ### Remarques
 
-Cette méthode crée un nouveau Summary Zoom et place une collection d'objets à l'intérieur pour toutes les sections de cette présentation.
+Cette méthode crée un nouveau Summary Zoom et y place une collection d'objets pour toutes les sections de cette présentation.
 
 ### Exemples
 
-Cet exemple démontre la création et l'insertion d'un objet Summary Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple montre la création et l'insertion d'un objet Summary Zoom à l'index spécifié d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx") :
 
 ```csharp
 [C#]

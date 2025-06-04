@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+description: Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /de/aspose.slides/paragraphformat/hangingpunctuation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraphformat/hangingpunctuation/
 
 ## ParagraphFormat.HangingPunctuation-Eigenschaft
 
-Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }

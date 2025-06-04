@@ -1,7 +1,7 @@
 ---
 title: TriggerShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает цель фигуры для ИНТЕРАКТИВной последовательности. Если последовательность не интерактивная, то возвращает null. Чтение/запись IShapeaspose.slides/../aspose.slides/ishape.
+second_title: Aspose.Slides для .NET Справочник API
+description: Возвращает или устанавливает целевую форму для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не является интерактивной, то возвращает null. Чтение/запись IShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/sequence/triggershape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/sequence/triggershape/
 
 ## Свойство Sequence.TriggerShape
 
-Возвращает или устанавливает цель фигуры для ИНТЕРАКТИВной последовательности. Если последовательность не интерактивная, то возвращает null. Чтение/запись [`IShape`](../../../aspose.slides/ishape).
+Возвращает или устанавливает целевую форму для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не является интерактивной, то возвращает null. Чтение/запись [`IShape`](../../../aspose.slides/ishape).
 
 ```csharp
 public IShape TriggerShape { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht das Erstellen eines mathematischen Akzents
+description: Ermöglicht die Erstellung eines mathematischen Akzents
 type: docs
 weight: 8280
 url: /de/aspose.slides.mathtext/mathaccentfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathaccentfactory/
 
 ## MathAccentFactory-Klasse
 
-Ermöglicht das Erstellen eines mathematischen Akzents
+Ermöglicht die Erstellung eines mathematischen Akzents
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
@@ -25,14 +25,14 @@ public class MathAccentFactory : IMathAccentFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Erstellt einen mathematischen Akzent, der auf ein bestimmtes mathematisches Element mit dem Standardwert für das Akzentzeichen angewendet wird |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Erstellt einen mathematischen Akzent, der auf ein bestimmtes mathematisches Element mit dem Standardwert des Akzentzeichens angewendet wird |
 | [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Erstellt einen mathematischen Akzent, der auf ein bestimmtes mathematisches Element angewendet wird |
 
-### Anmerkungen
+### Hinweise
 
-Für COM-Kompatibilität
+Für die COM-Kompatibilität
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathAccentFactory](../imathaccentfactory)
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

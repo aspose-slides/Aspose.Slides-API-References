@@ -7,7 +7,7 @@ weight: 160
 url: /zh/aspose.slides.animation/coloroffset/
 ---
 
-## ColorOffset 类
+## ColorOffset class
 
 表示颜色偏移。
 
@@ -29,7 +29,7 @@ public class ColorOffset : IColorOffset
 | [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | 定义偏移的第二个值。可读写单精度浮点数。 |
 | [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | 定义偏移的第三个值。可读写单精度浮点数。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IColorOffset](../icoloroffset)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

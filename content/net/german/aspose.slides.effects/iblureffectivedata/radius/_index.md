@@ -1,15 +1,15 @@
 ---
 title: Radius
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Unschärferadius zurück oder setzt ihn. Schreibgeschützter Double.
+description: Gibt den Weichzeichnungsradius zurück oder legt ihn fest. Nur lesbar Double.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/iblureffectivedata/radius/
 ---
 
-## IBlurEffectiveData.Radius-Eigenschaft
+## IBlurEffectiveData.Radius Eigenschaft
 
-Gibt den Unschärferadius zurück oder setzt ihn. Schreibgeschützter Double.
+Gibt den Weichzeichnungsradius zurück oder legt ihn fest. Nur lesbar Double.
 
 ```csharp
 public double Radius { get; }

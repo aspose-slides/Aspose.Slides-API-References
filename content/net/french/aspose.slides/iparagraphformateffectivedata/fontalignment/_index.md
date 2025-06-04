@@ -1,13 +1,13 @@
 ---
 title: FontAlignment
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie un alignement de police dans un paragraphe. Lecture seule FontAlignmentaspose.slides/fontalignment.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iparagraphformateffectivedata/fontalignment/
 ---
 
-## Propriété IParagraphFormatEffectiveData.FontAlignment
+## IParagraphFormatEffectiveData.FontAlignment propriété
 
 Renvoie un alignement de police dans un paragraphe. Lecture seule [`FontAlignment`](../../fontalignment).
 

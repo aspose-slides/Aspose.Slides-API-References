@@ -1,7 +1,7 @@
 ---
 title: Light2
-second_title: Aspose.Slides für .NET API-Referenz
-description: Zweite Lichtfarbe im Schema. Nur-Lese-Farbe.
+second_title: Aspose.Slides für .NET API Referenz
+description: Zweite helle Farbe im Farbschema. Nur-lesbare Farbe.
 type: docs
 weight: 130
 url: /de/aspose.slides.theme/icolorschemeeffectivedata/light2/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/icolorschemeeffectivedata/light2/
 
 ## IColorSchemeEffectiveData.Light2-Eigenschaft
 
-Zweite Lichtfarbe im Schema. Nur-Lese-Farbe.
+Zweite helle Farbe im Farbschema. Nur-lesbare Farbe.
 
 ```csharp
 public Color Light2 { get; }

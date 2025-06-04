@@ -1,6 +1,6 @@
 ---
 title: Input
-second_title: Справочная информация по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет собой коллекцию шаблонов элементов ввода.
 type: docs
 weight: 4440
@@ -21,7 +21,7 @@ public sealed class Input
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) |  |
 
-### Также смотрите
+### См. также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

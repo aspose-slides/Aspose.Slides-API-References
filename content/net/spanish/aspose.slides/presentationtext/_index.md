@@ -19,12 +19,12 @@ public class PresentationText : IPresentationText
 
 | Nombre | Descripción |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Un array de [`SlideText`](../islidetext) contiene el texto de una presentación. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Un array de [`SlideText`](../islidetext) que contiene el texto de una presentación. |
 
-### Ver También
+### Véase también
 
 * interfaz [IPresentationText](../ipresentationtext)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

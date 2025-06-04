@@ -19,14 +19,14 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBaseShapeLock. Nur-lesbar [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-/Schreib-Booleans. |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Booleans. |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-/Schreib-Booleans. |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Bestimmt, ob das Ändern des Rotationswinkels dieser Form verboten ist. Lese-/Schreib-Booleans. |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Booleans. |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/Schreib-Booleans. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Bestimmt, ob das Teilen dieser GroupShape verboten ist. Lese-/Schreib-Booleans. |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IBaseShapeLock. Schreibgeschütztes [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Bestimmt, ob die Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-/Schreib-Boolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Bestimmt, ob das Hinzufügen dieser Form zu einer Gruppe verboten ist. Lese-/Schreib-Boolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Bestimmt, ob das Ändern des Drehwinkels dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Bestimmt, ob das Ändern der Größe dieser Form verboten ist. Lese-/Schreib-Boolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Bestimmt, ob das Aufteilen dieser GroupShape verboten ist. Lese-/Schreib-Boolean. |
 
 ### Siehe Auch
 

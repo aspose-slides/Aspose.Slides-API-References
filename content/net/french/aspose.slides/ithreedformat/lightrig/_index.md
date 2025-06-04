@@ -1,7 +1,7 @@
 ---
 title: LightRig
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le type d'une lumière. En lecture seule ILightRigaspose.slides/ilightrig.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le type d'une lumière. Lecture seule ILightRigaspose.slides/ilightrig.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ithreedformat/lightrig/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ithreedformat/lightrig/
 
 ## Propriété IThreeDFormat.LightRig
 
-Renvoie ou définit le type d'une lumière. En lecture seule [`ILightRig`](../../ilightrig).
+Renvoie ou définit le type d'une lumière. Lecture seule [`ILightRig`](../../ilightrig).
 
 ```csharp
 public ILightRig LightRig { get; }

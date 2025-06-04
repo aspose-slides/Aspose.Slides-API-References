@@ -1,7 +1,7 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Slides for .NET API参考
-description: 为OLE对象创建新的嵌入数据信息。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的 OLE 对象嵌入数据信息。
 type: docs
 weight: 10
 url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/
 
 ## OleEmbeddedDataInfo() {#constructor}
 
-为OLE对象创建新的嵌入数据信息。
+创建新的 OLE 对象嵌入数据信息。
 
 ```csharp
 public OleEmbeddedDataInfo()
 ```
 
-### 另见
+### 参见
 
 * class [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 * namespace [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)
@@ -25,13 +25,13 @@ public OleEmbeddedDataInfo()
 
 ## OleEmbeddedDataInfo(byte[], string) {#constructor_1}
 
-为OLE对象创建一个新的嵌入数据信息实例。嵌入OLE对象的文件数据 Byte[]。当前嵌入OLE对象的文件扩展名 String。
+为 OLE 对象创建嵌入数据信息的新实例。嵌入 OLE 对象的文件数据 Byte[]。当前嵌入 OLE 对象的文件扩展名 String。
 
 ```csharp
 public OleEmbeddedDataInfo(byte[] embeddedFileData, string embeddedFileExtension)
 ```
 
-### 另见
+### 参见
 
 * class [OleEmbeddedDataInfo](../../oleembeddeddatainfo)
 * namespace [Aspose.Slides.DOM.Ole](../../oleembeddeddatainfo)

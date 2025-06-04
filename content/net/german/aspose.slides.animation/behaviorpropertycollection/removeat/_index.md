@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt die Eigenschaft am angegebenen Index.
 type: docs
 weight: 120
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index der Eigenschaft, die gelöscht werden soll. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * Namespace [Aspose.Slides.Animation](../../behaviorpropertycollection)

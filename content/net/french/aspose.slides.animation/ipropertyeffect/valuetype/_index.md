@@ -1,13 +1,13 @@
 ---
 title: ValueType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le type d'une valeur de propriété. Propriété lisible/écrivable PropertyValueTypeaspose.slides.animation/propertyvaluetype.
 type: docs
 weight: 70
 url: /fr/aspose.slides.animation/ipropertyeffect/valuetype/
 ---
 
-## Propriété IPropertyEffect.ValueType
+## IPropertyEffect.ValueType propriété
 
 Spécifie le type d'une valeur de propriété. Propriété lisible/écrivable [`PropertyValueType`](../../propertyvaluetype).
 
@@ -15,7 +15,7 @@ Spécifie le type d'une valeur de propriété. Propriété lisible/écrivable [`
 public PropertyValueType ValueType { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [PropertyValueType](../../propertyvaluetype)
 * interface [IPropertyEffect](../../ipropertyeffect)

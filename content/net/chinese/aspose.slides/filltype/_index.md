@@ -1,6 +1,6 @@
 ---
 title: FillType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定各种视觉对象的内部填充类型。
 type: docs
 weight: 4600
@@ -20,14 +20,14 @@ public enum FillType : sbyte
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 填充类型未定义。 |
-| NoFill | `0` | 无填充。 |
-| Solid | `1` | 以纯色填充。 |
+| NoFill | `0` | 无填充应用。 |
+| Solid | `1` | 用纯色填充。 |
 | Gradient | `2` | 填充为渐变。 |
-| Pattern | `3` | 使用重复模式填充对象。 |
-| Picture | `4` | 使用单一图片填充对象。 |
+| Pattern | `3` | 使用重复图案填充对象。 |
+| Picture | `4` | 使用单个图片填充对象。 |
 | Group | `5` | 视觉对象从组中继承填充属性。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

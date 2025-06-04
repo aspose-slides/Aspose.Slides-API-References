@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API Reference
-description: 从集合中删除颜色操作。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除颜色操作。
 type: docs
 weight: 50
 url: /zh/aspose.slides/icoloroperationcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icoloroperationcollection/removeat/
 
 ## IColorOperationCollection.RemoveAt 方法
 
-从集合中删除颜色操作。
+从集合中移除颜色操作。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的颜色操作的索引。 |
+| index | Int32 | 要移除的颜色操作的索引。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IColorOperationCollection](../../icoloroperationcollection)
 * 命名空间 [Aspose.Slides](../../icoloroperationcollection)

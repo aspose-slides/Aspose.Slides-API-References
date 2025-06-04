@@ -1,6 +1,6 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 使用用户指定的值初始化内部包含的 Excel 工作簿。
 type: docs
 weight: 140
@@ -19,7 +19,7 @@ public void WriteWorkbookStream(MemoryStream ms)
 | --- | --- | --- |
 | ms | MemoryStream | 用户提供的包含整个 Excel 工作簿的流。 |
 
-### 另见
+### 另请参阅
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)

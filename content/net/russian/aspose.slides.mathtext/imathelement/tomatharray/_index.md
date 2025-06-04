@@ -1,6 +1,6 @@
 ---
 title: ToMathArray
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Помещает в вертикальный массив
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.mathtext/imathelement/tomatharray/
 public IMathArray ToMathArray()
 ```
 
-### Значение возврата
+### Возвращаемое значение
 
 Новый экземпляр типа [`IMathArray`](../../imatharray)
 

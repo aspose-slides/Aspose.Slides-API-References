@@ -24,7 +24,7 @@ public enum TextStrikethroughType : sbyte
 | Single | `1` |  |
 | Double | `2` |  |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

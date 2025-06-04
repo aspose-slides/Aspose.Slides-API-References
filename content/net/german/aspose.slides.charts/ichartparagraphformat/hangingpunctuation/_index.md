@@ -1,6 +1,6 @@
 ---
 title: HangingPunctuation
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50

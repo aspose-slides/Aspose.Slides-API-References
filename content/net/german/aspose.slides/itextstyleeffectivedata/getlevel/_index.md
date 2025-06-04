@@ -1,6 +1,6 @@
 ---
 title: GetLevel
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das Niveau des effektiven Stils zurück.
 type: docs
 weight: 20

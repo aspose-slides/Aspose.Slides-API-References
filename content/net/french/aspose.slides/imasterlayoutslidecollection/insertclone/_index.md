@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Insère une copie d'une diapositive de mise en page spécifiée à une position spécifiée de la collection.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Insère une copie d'une diapositive de mise en page spécifiée à la position spécifiée de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/imasterlayoutslidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasterlayoutslidecollection/insertclone/
 
 ## IMasterLayoutSlideCollection.InsertClone méthode
 
-Insère une copie d'une diapositive de mise en page spécifiée à une position spécifiée de la collection.
+Insère une copie d'une diapositive de mise en page spécifiée à la position spécifiée de la collection.
 
 ```csharp
 public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
@@ -26,7 +26,7 @@ Diapositive insérée.
 
 ### Remarques
 
-La nouvelle mise en page sera liée à la diapositive maître parent pour cette collection de diapositives de mise en page. Il s'agit donc de l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint.
+La nouvelle mise en page sera liée à la diapositive maître parent pour cette collection de diapositives de mise en page. C'est donc l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint.
 
 ### Voir aussi
 

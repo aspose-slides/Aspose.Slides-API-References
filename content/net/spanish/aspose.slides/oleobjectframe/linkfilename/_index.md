@@ -15,10 +15,10 @@ Devuelve la ruta completa a un archivo vinculado. Se utilizará el nombre de arc
 public string LinkFileName { get; }
 ```
 
-### Vea También
+### Véase también
 
 * clase [OleObjectFrame](../../oleobjectframe)
 * espacio de nombres [Aspose.Slides](../../oleobjectframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

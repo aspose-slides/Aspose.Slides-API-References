@@ -1,21 +1,21 @@
 ---
 title: Chart
-second_title: Справочник по API Aspose.Sildes для .NET
-description: График. Только для чтения IChart aspose.slides.charts/ichart.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Chart. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/chartplotarea/chart/
 ---
 
-## Свойство ChartPlotArea.Chart
+## ChartPlotArea.Chart свойство
 
-График. Только для чтения [`IChart`](../../ichart).
+Chart. Только для чтения [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IChart](../../ichart)
 * класс [ChartPlotArea](../../chartplotarea)

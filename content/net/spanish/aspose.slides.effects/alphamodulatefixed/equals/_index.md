@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | El [`AlphaModulateFixed`](../../alphamodulatefixed) para comparar. |
+| obj | Object | El [`AlphaModulateFixed`](../../alphamodulatefixed) a comparar. |
 
 ### Valor de Retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Ver También
+### Véase También
 
 * clase [AlphaModulateFixed](../../alphamodulatefixed)
 * espacio de nombres [Aspose.Slides.Effects](../../alphamodulatefixed)

@@ -1,6 +1,6 @@
 ---
 title: CreateScaleEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un efecto de escala.
 type: docs
 weight: 80
@@ -15,11 +15,11 @@ Crea un efecto de escala.
 public IScaleEffect CreateScaleEffect()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Efecto de escala.
 
-### Ver también
+### Ver También
 
 * interfaz [IScaleEffect](../../iscaleeffect)
 * clase [BehaviorFactory](../../behaviorfactory)

@@ -1,6 +1,6 @@
 ---
 title: ParentComment
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene o establece el comentario padre. Lectura/escritura ICommentaspose.slides/icomment.
 type: docs
 weight: 30
@@ -19,13 +19,13 @@ public IComment ParentComment { get; set; }
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Se lanza cuando establecer el valor conduce a una referencia circular |
+| [PptxEditException](../../pptxeditexception) | Lanzado cuando establecer el valor conduce a una referencia circular |
 
-### Ver También
+### Véase También
 
-* interfaz [IComment](../../icomment)
-* clase [Comment](../../comment)
-* espacio de nombres [Aspose.Slides](../../comment)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IComment](../../icomment)
+* clase [Comment](../../comment)
+* espacio de nombres [Aspose.Slides](../../comment)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

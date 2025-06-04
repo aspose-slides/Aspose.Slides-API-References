@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die x-Koordinate einer Legende als Bruchteil der Breite des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+description: Gibt die x-Koordinate einer Legende als Bruchteil der Breite des Diagramms zurück oder setzt diese. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/legend/x/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/legend/x/
 
 ## Legend.X-Eigenschaft
 
-Gibt die x-Koordinate einer Legende als Bruchteil der Breite des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+Gibt die x-Koordinate einer Legende als Bruchteil der Breite des Diagramms zurück oder setzt diese. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float X { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Legend](../../legend)
 * Namespace [Aspose.Slides.Charts](../../legend)

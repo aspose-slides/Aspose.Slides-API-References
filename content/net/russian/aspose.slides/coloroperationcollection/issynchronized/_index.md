@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным потоко-безопасным. Только для чтения Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает значение, указывающее, безопасен ли доступ к коллекции в многопоточном режиме. Только для чтения Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/coloroperationcollection/issynchronized/
 ---
 
-## Свойство ColorOperationCollection.IsSynchronized
+## ColorOperationCollection.IsSynchronized свойство
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потоко-безопасным). Только для чтения Boolean.
+Возвращает значение, указывающее, безопасен ли доступ к коллекции (многопоточно). Только для чтения Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [ColorOperationCollection](../../coloroperationcollection)
 * пространство имен [Aspose.Slides](../../coloroperationcollection)

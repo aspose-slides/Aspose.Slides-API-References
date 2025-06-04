@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置文本自适应模式。读/写 TextAutofitTypeaspose.slides/textautofittype。
+description: 返回或设置文本的自动适应模式。可读/写 TextAutofitTypeaspose.slides/textautofittype。
 type: docs
 weight: 30
 url: /zh/aspose.slides/textframeformat/autofittype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/textframeformat/autofittype/
 
 ## TextFrameFormat.AutofitType 属性
 
-返回或设置文本的自适应模式。读/写 [`TextAutofitType`](../../textautofittype)。
+返回或设置文本的自动适应模式。可读/写 [`TextAutofitType`](../../textautofittype)。
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }
@@ -17,7 +17,7 @@ public TextAutofitType AutofitType { get; set; }
 
 ### 示例
 
-以下示例代码演示了如何在 PowerPoint 演示文稿中调整形状以适应文本。
+以下示例代码演示如何调整形状大小以适应 PowerPoint 演示文稿中的文本。
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ public TextAutofitType AutofitType { get; set; }
 }
 ```
 
-以下示例代码演示了如何在溢出时缩小文本。
+以下示例代码演示如何在文本溢出时缩小文本。
 
 ```csharp
 [C#]
@@ -48,12 +48,12 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.FillType = FillType.Solid;
     autoShape.TextFrame.Paragraphs[0].Portions.Add(portion);
     ITextFrameFormat textFrameFormat = autoShape.TextFrame.TextFrameFormat;
-    textFrameFormat.AutofitType = TextAutofitType.Normal;
+    textFrameFormat.AutofitType = TextAutofitType .Normal;
     pres.Save("Output-presentation.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [TextAutofitType](../../textautofittype)
 * class [TextFrameFormat](../../textframeformat)

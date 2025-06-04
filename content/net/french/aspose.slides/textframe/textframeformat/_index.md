@@ -1,7 +1,7 @@
 ---
 title: TextFrameFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'objet de formatage pour cet objet TextFrame. Lecture seule ITextFrameFormataspose.slides/itextframeformat.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Renvoie l'objet de mise en forme pour cet objet TextFrame. Lecture seule ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 80
 url: /fr/aspose.slides/textframe/textframeformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframe/textframeformat/
 
 ## Propriété TextFrame.TextFrameFormat
 
-Renvoie l'objet de formatage pour cet objet TextFrame. Lecture seule [`ITextFrameFormat`](../../itextframeformat).
+Renvoie l'objet de mise en forme pour cet objet TextFrame. Lecture seule [`ITextFrameFormat`](../../itextframeformat).
 
 ```csharp
 public ITextFrameFormat TextFrameFormat { get; }

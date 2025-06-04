@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает макетный слайд по индексу. Только для чтения ILayoutSlide aspose.slides/ilayoutslide.
+description: Возвращает макетный слайд по индексу. Только для чтения ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ilayoutslidecollection/item/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ilayoutslidecollection/item/
 public ILayoutSlide this[int index] { get; }
 ```
 
-### См. Также
+### Также см.
 
 * интерфейс [ILayoutSlide](../../ilayoutslide)
 * интерфейс [ILayoutSlideCollection](../../ilayoutslidecollection)

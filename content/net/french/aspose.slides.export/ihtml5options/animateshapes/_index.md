@@ -1,7 +1,7 @@
 ---
 title: AnimateShapes
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'option d'animation des formes. Lecture/écriture booléen.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie ou définit l'option d'animation des formes. Lecture/écriture Booléen.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/ihtml5options/animateshapes/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtml5options/animateshapes/
 
 ## Propriété IHtml5Options.AnimateShapes
 
-Renvoie ou définit l'option d'animation des formes. Lecture/écriture booléen.
+Renvoie ou définit l'option d'animation des formes. Lecture/écriture Booléen.
 
 ```csharp
 public bool AnimateShapes { get; set; }
@@ -17,7 +17,7 @@ public bool AnimateShapes { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHtml5Options](../../ihtml5options)
 * namespace [Aspose.Slides.Export](../../ihtml5options)

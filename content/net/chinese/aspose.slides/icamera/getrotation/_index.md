@@ -1,7 +1,7 @@
 ---
 title: GetRotation
-second_title: Aspose.Slides for .NET API 参考
-description: 旋转是通过使用纬度坐标、经度坐标和围绕轴的旋转定义的，纬度和经度坐标作为基础。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果没有定义旋转，则返回 null。
+second_title: Aspose.Sildes for .NET API Reference
+description: 旋转通过使用一个纬度坐标，一个经度坐标以及围绕轴的革命来定义，这些坐标作为纬度和经度坐标。返回数组的第一个元素 - 纬度，第二个 - 经度，第三个 - 革命。如果未定义旋转，则返回null。
 type: docs
 weight: 40
 url: /zh/aspose.slides/icamera/getrotation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icamera/getrotation/
 
 ## ICamera.GetRotation 方法
 
-旋转是通过使用纬度坐标、经度坐标和围绕轴的旋转定义的，纬度和经度坐标作为基础。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果没有定义旋转，则返回 null。
+旋转通过使用一个纬度坐标，一个经度坐标，以及围绕轴的革命来定义，这些坐标作为纬度和经度坐标。返回数组的第一个元素 - 纬度，第二个 - 经度，第三个 - 革命。如果未定义旋转，则返回null。
 
 ```csharp
 public float[] GetRotation()
@@ -19,7 +19,7 @@ public float[] GetRotation()
 
 旋转值的数组，类型为 Single[]。
 
-### 参见
+### 另请参阅
 
 * 接口 [ICamera](../../icamera)
 * 命名空间 [Aspose.Slides](../../icamera)

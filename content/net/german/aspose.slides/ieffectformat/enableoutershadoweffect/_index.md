@@ -1,6 +1,6 @@
 ---
 title: EnableOuterShadowEffect
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Aktiviert den äußeren Schatteneffekt.
 type: docs
 weight: 220

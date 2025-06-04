@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides for .NET API Reference
 description: Lichtrichtung. Lesen/Schreiben von LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Lichtrichtung. Lesen/Schreiben von [`LightingDirection`](../../lightingdirection
 public LightingDirection Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [LightingDirection](../../lightingdirection)
 * interface [ILightRig](../../ilightrig)

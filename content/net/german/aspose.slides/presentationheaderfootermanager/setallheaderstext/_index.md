@@ -1,7 +1,7 @@
 ---
 title: SetAllHeadersText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt den Text für alle Kopfbereich-Platzhalter, einschließlich Notizenmaster, Notizenfolien und Handout-Master.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzt Text für alle Header-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handout-Master.
 type: docs
 weight: 50
 url: /de/aspose.slides/presentationheaderfootermanager/setallheaderstext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentationheaderfootermanager/setallheaderstext/
 
 ## PresentationHeaderFooterManager.SetAllHeadersText-Methode
 
-Setzt den Text für alle Kopfbereich-Platzhalter, einschließlich Notizenmaster, Notizenfolien und Handout-Master.
+Setzt Text für alle Header-Platzhalter, einschließlich Notizen-Master, Notizen-Folien und Handout-Master.
 
 ```csharp
 public void SetAllHeadersText(string text)

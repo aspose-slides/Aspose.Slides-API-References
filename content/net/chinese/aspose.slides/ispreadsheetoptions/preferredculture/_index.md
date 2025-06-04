@@ -1,7 +1,7 @@
 ---
 title: PreferredCulture
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置用于计算某些函数的首选文化信息，这些函数旨在用于使用双字节字符集 DBCS 的语言。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置用于计算一些适用于使用双字节字符集 DBCS 的语言的函数的首选文化信息。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ispreadsheetoptions/preferredculture/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ispreadsheetoptions/preferredculture/
 
 ## ISpreadsheetOptions.PreferredCulture 属性
 
-获取或设置用于计算某些函数的首选文化信息，这些函数旨在用于使用双字节字符集 (DBCS) 的语言。
+获取或设置用于计算一些适用于使用双字节字符集 (DBCS) 的语言的函数的首选文化信息。
 
 ```csharp
 public CultureInfo PreferredCulture { get; set; }
 ```
 
-### 另请查看
+### 另请参阅
 
 * 接口 [ISpreadsheetOptions](../../ispreadsheetoptions)
 * 命名空间 [Aspose.Slides](../../ispreadsheetoptions)

@@ -1,7 +1,7 @@
 ---
 title: ColumnSpacing
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie l'espace entre les colonnes de texte dans la zone de texte en points. En lecture seule Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie l'espace entre les colonnes de texte dans la zone de texte en points. Lecture seule Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides/itextframeformateffectivedata/columnspacing/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/itextframeformateffectivedata/columnspacing/
 
 ## Propriété ITextFrameFormatEffectiveData.ColumnSpacing
 
-Spécifie l'espace entre les colonnes de texte dans la zone de texte (en points). En lecture seule Single.
+Spécifie l'espace entre les colonnes de texte dans la zone de texte (en points). Lecture seule Single.
 
 ```csharp
 public float ColumnSpacing { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * namespace [Aspose.Slides](../../itextframeformateffectivedata)

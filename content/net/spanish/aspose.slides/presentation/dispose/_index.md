@@ -15,7 +15,7 @@ Libera todos los recursos utilizados por este objeto Presentation.
 public void Dispose()
 ```
 
-### Ver También
+### Véase También
 
 * clase [Presentation](../../presentation)
 * espacio de nombres [Aspose.Slides](../../presentation)

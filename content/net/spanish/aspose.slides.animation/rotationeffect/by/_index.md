@@ -15,10 +15,10 @@ Describe el valor de desplazamiento relativo para la animación. Lectura/escritu
 public float By { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* clase [RotationEffect](../../rotationeffect)
-* espacio de nombres [Aspose.Slides.Animation](../../rotationeffect)
-* ensamblado [Aspose.Slides](../../../)
+* clase [RotationEffect](../../rotationeffect)
+* espacio de nombres [Aspose.Slides.Animation](../../rotationeffect)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seule Int32.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie le nombre d'arrêts de dégradé dans une collection. Int32 en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/gradientstopcollectioneffectivedata/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/gradientstopcollectioneffectivedata/count/
 
 ## Propriété GradientStopCollectionEffectiveData.Count
 
-Renvoie le nombre d'arrêts de dégradé dans une collection. Lecture seule Int32.
+Renvoie le nombre d'arrêts de dégradé dans une collection. Int32 en lecture seule.
 
 ```csharp
 public int Count { get; }

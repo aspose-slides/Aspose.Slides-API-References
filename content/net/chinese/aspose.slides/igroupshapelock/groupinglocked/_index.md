@@ -1,7 +1,7 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定将此形状添加到组是否被禁止。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定将此形状添加到组是否被禁止。可读写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/igroupshapelock/groupinglocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igroupshapelock/groupinglocked/
 
 ## IGroupShapeLock.GroupingLocked 属性
 
-确定将此形状添加到组是否被禁止。可读/可写布尔值。
+确定将此形状添加到组是否被禁止。可读写布尔值。
 
 ```csharp
 public bool GroupingLocked { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGroupShapeLock](../../igroupshapelock)
 * 命名空间 [Aspose.Slides](../../igroupshapelock)

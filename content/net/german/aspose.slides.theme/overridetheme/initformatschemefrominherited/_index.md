@@ -1,7 +1,7 @@
 ---
 title: InitFormatSchemeFromInherited
-second_title: Aspose.Slides für .NET API-Referenz
-description: Initialisieren Sie das FormatScheme mit einem neuen Objekt, um das FormatScheme von InheritedTheme zu überschreiben. Und initialisieren Sie die Daten dieses neuen Objekts mit den Daten des FormatScheme von InheritedTheme.
+second_title: Aspose.Slides für .NET API Referenz
+description: Init FormatScheme mit neuem Objekt zum Überschreiben des FormatScheme von InheritedTheme. Und initialisieren Sie die Daten dieses neuen Objekts mit den Daten des FormatScheme von InheritedTheme.
 type: docs
 weight: 140
 url: /de/aspose.slides.theme/overridetheme/initformatschemefrominherited/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/overridetheme/initformatschemefrominherited/
 
 ## OverrideTheme.InitFormatSchemeFromInherited Methode
 
-Initialisieren Sie das FormatScheme mit einem neuen Objekt, um das FormatScheme von InheritedTheme zu überschreiben. Und initialisieren Sie die Daten dieses neuen Objekts mit den Daten des FormatScheme von InheritedTheme.
+Init FormatScheme mit neuem Objekt zum Überschreiben des FormatScheme von InheritedTheme. Und initialisieren Sie die Daten dieses neuen Objekts mit den Daten des FormatScheme von InheritedTheme.
 
 ```csharp
 public void InitFormatSchemeFromInherited()
@@ -19,9 +19,9 @@ public void InitFormatSchemeFromInherited()
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wird ausgelöst, wenn das FormatScheme bereits initialisiert ist (nicht null). |
+| InvalidOperationException | Ausgelöst, wenn das FormatScheme bereits initialisiert ist (nicht null). |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OverrideTheme](../../overridetheme)
 * Namespace [Aspose.Slides.Theme](../../overridetheme)

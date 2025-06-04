@@ -1,7 +1,7 @@
 ---
 title: ImageWrapper
 second_title: Référence API Aspose.Slides pour .NET
-description: Wrapper de System.Drawing.Image pour l'interface COM.
+description: Wrapper System.Drawing.Image pour l'interface COM.
 type: docs
 weight: 7220
 url: /fr/aspose.slides/imagewrapper/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imagewrapper/
 
 ## Classe ImageWrapper
 
-Wrapper de System.Drawing.Image pour l'interface COM.
+Wrapper System.Drawing.Image pour l'interface COM.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -19,8 +19,8 @@ public class ImageWrapper : IImageWrapper
 
 | Nom | Description |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Obtient l'image. Lecture seule [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Obtient la largeur et la hauteur, en pixels, de l'image. Lecture seule [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Obtient l'image. En lecture seule [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Obtient la largeur et la hauteur, en pixels, de l'image. En lecture seule [`Size`](./size). |
 
 ## Méthodes
 
@@ -31,7 +31,7 @@ public class ImageWrapper : IImageWrapper
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Enregistre l'image dans le flux spécifié dans le format spécifié. |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Enregistre l'image dans le fichier spécifié dans le format spécifié. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImageWrapper](../iimagewrapper)
 * namespace [Aspose.Slides](../../aspose.slides)

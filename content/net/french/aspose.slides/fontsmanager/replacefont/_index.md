@@ -1,15 +1,15 @@
 ---
 title: ReplaceFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Remplacer la police dans la présentation
+second_title: Aspose.Slides pour .NET Référence API
+description: Remplacer une police dans la présentation
 type: docs
 weight: 100
 url: /fr/aspose.slides/fontsmanager/replacefont/
 ---
 
-## RemplacerPolice(IFontData, IFontData) {#replacefont}
+## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-Remplacer la police dans la présentation
+Remplacer une police dans la présentation
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -20,7 +20,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 | sourceFont | IFontData | Police source |
 | destFont | IFontData | Police de destination |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontData](../../ifontdata)
 * classe [FontsManager](../../fontsmanager)
@@ -29,9 +29,9 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## RemplacerPolice(IFontSubstRule) {#replacefont_1}
+## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-Remplacer la police dans la présentation en utilisant les informations fournies dans [`FontSubstRule`](../../fontsubstrule)
+Remplacer une police dans la présentation en utilisant les informations fournies dans [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -39,9 +39,9 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Infos de substitution de police |
+| substRule | IFontSubstRule | Informations sur la substitution de police |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontSubstRule](../../ifontsubstrule)
 * classe [FontsManager](../../fontsmanager)
@@ -50,9 +50,9 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ---
 
-## RemplacerPolice(IFontSubstRuleCollection) {#replacefont_2}
+## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Remplacer la police dans la présentation en utilisant les informations fournies dans la collection de [`FontSubstRule`](../../fontsubstrule)
+Remplacer une police dans la présentation en utilisant les informations fournies dans une collection de [`FontSubstRule`](../../fontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -62,7 +62,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 | --- | --- | --- |
 | substRules | IFontSubstRuleCollection | Collection de règles de substitution de police |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontSubstRuleCollection](../../ifontsubstrulecollection)
 * classe [FontsManager](../../fontsmanager)

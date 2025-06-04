@@ -1,7 +1,7 @@
 ---
 title: PositionMove
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-/schreibbare Boolesche Variable.
+description: Bestimmt, ob das Verschieben dieser Form verboten ist. Schreib-/Lese-Boolescher Wert.
 type: docs
 weight: 60
 url: /de/aspose.slides/connectorlock/positionmove/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/connectorlock/positionmove/
 
 ## ConnectorLock.PositionMove-Eigenschaft
 
-Bestimmt, ob das Verschieben dieser Form verboten ist. Lese-/schreibbare Boolesche Variable.
+Bestimmt, ob das Verschieben dieser Form verboten ist. Schreib-/Lese-Boolescher Wert.
 
 ```csharp
 public bool PositionMove { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ConnectorLock](../../connectorlock)
 * Namespace [Aspose.Slides](../../connectorlock)

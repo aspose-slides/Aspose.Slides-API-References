@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет указанное значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет заданное значение.
 type: docs
 weight: 120
 url: /ru/aspose.slides.charts/chartcategorycollection/remove/
 ---
 
-## Метод ChartCategoryCollection.Remove
+## ChartCategoryCollection.Remove метод
 
-Удаляет указанное значение.
+Удаляет заданное значение.
 
 ```csharp
 public void Remove(IChartCategory value)
@@ -23,9 +23,9 @@ public void Remove(IChartCategory value)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Параметр value не был найден в коллекции. |
+| ArgumentException | Параметр value не найден в коллекции. |
 
-### См. также
+### См. Также
 
 * интерфейс [IChartCategory](../../ichartcategory)
 * класс [ChartCategoryCollection](../../chartcategorycollection)

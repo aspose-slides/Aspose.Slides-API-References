@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Datenpunkte im Diagramm zurück oder setzt diese. Nur-lesbares Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Diagramm-Datenpunkte zurück oder legt sie fest. Nur lesezugängliches Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/piesplitcustompointcollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/piesplitcustompointcollection/count/
 
 ## PieSplitCustomPointCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Datenpunkte im Diagramm zurück oder setzt diese. Nur-lesbares Int32.
+Gibt die Anzahl der Diagramm-Datenpunkte zurück oder legt sie fest. Nur lesezugängliches Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * Namespace [Aspose.Slides.Charts](../../piesplitcustompointcollection)

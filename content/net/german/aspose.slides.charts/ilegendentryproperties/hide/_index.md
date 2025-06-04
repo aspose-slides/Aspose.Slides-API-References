@@ -1,7 +1,7 @@
 ---
 title: Hide
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt das Ausblendeflag für den Legenden-Eintrag zurück oder legt es fest. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Ausblendeflag des Legendentrags zurück oder setzt es. Lese-/Schreib-Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ilegendentryproperties/hide/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ilegendentryproperties/hide/
 
 ## ILegendEntryProperties.Hide-Eigenschaft
 
-Gibt das Ausblendeflag für den Legenden-Eintrag zurück oder legt es fest. Lese-/Schreib-Boolean.
+Gibt das Ausblendeflag des Legendentrags zurück oder setzt es. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Hide { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILegendEntryProperties](../../ilegendentryproperties)
 * Namespace [Aspose.Slides.Charts](../../ilegendentryproperties)

@@ -1,7 +1,7 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Slides für .NET API-Referenz
-description: Verwalteter Container der Werte der Kategorienebenen des Diagramms.
+description: Verwalteter Container der Werte der Diagrammkategorieebenen.
 type: docs
 weight: 1210
 url: /de/aspose.slides.charts/chartcategorylevelsmanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartcategorylevelsmanager/
 
 ## ChartCategoryLevelsManager-Klasse
 
-Verwalteter Container der Werte der Kategorienebenen des Diagramms.
+Verwalteter Container der Werte der Diagrammkategorieebenen.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -25,8 +25,8 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Löscht das Gruppierungsobjekt für die definierte Ebene. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Setzt das Gruppierungsobjekt für die definierte Ebene. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Löscht das Gruppierungselement für die definierte Ebene. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Setzt das Gruppierungselement für die definierte Ebene. |
 
 ### Siehe auch
 

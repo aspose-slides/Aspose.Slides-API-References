@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iportioncollection/count/
 ---
 
-## Свойство IPortionCollection.Count
+## IPortionCollection.Count property
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iportioncollection/count/
 public int Count { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IPortionCollection](../../iportioncollection)
 * пространство имен [Aspose.Slides](../../iportioncollection)

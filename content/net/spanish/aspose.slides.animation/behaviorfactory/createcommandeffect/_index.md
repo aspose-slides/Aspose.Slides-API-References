@@ -1,7 +1,7 @@
 ---
 title: CreateCommandEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea efecto de comando.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Crea el efecto de comando.
 type: docs
 weight: 30
 url: /es/aspose.slides.animation/behaviorfactory/createcommandeffect/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.animation/behaviorfactory/createcommandeffect/
 
 ## Método BehaviorFactory.CreateCommandEffect
 
-Crea efecto de comando.
+Crea el efecto de comando.
 
 ```csharp
 public ICommandEffect CreateCommandEffect()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Efecto de comando.
 
-### Ver también
+### Véase También
 
 * interfaz [ICommandEffect](../../icommandeffect)
 * clase [BehaviorFactory](../../behaviorfactory)

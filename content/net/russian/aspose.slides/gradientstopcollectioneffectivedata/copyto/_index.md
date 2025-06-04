@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 50
 url: /ru/aspose.slides/gradientstopcollectioneffectivedata/copyto/
 ---
 
-## Метод GradientStopCollectionEffectiveData.CopyTo
+## GradientStopCollectionEffectiveData.CopyTo метод
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### См. также
+### См. Также
 
 * класс [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
 * пространство имен [Aspose.Slides](../../gradientstopcollectioneffectivedata)

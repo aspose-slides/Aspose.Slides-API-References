@@ -1,6 +1,6 @@
 ---
 title: ShowLeftPane
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 显示/隐藏左侧面板。可以在 flashvars 中覆盖。默认值为 true。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/swfoptions/showleftpane/
 public bool ShowLeftPane { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

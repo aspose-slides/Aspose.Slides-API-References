@@ -1,7 +1,7 @@
 ---
 title: StopSoundOnClick
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le son doit être arrêté lors du clic sur un lien hypertexte. Boolean en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si le son doit être arrêté lors du clic sur un hyperlien. Boolean en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ihyperlink/stopsoundonclick/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ihyperlink/stopsoundonclick/
 
 ## Propriété IHyperlink.StopSoundOnClick
 
-Détermine si le son doit être arrêté lors du clic sur un lien hypertexte. Boolean en lecture/écriture.
+Détermine si le son doit être arrêté lors du clic sur un hyperlien. Boolean en lecture/écriture.
 
 ```csharp
 public bool StopSoundOnClick { get; set; }

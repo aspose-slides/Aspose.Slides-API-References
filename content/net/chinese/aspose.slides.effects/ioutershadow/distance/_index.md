@@ -1,7 +1,7 @@
 ---
 title: Distance
-second_title: Aspose.Slides for .NET API 参考
-description: 阴影的距离。读/写 Double。
+second_title: Aspose.Sildes for .NET API 参考
+description: 阴影的距离。可读写的双精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides.effects/ioutershadow/distance/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ioutershadow/distance/
 
 ## IOuterShadow.Distance 属性
 
-阴影的距离。读/写 Double。
+阴影的距离。可读写的双精度浮点数。
 
 ```csharp
 public double Distance { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IOuterShadow](../../ioutershadow)
 * 命名空间 [Aspose.Slides.Effects](../../ioutershadow)

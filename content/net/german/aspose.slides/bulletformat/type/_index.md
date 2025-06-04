@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Aufzählungstyp eines Absatzes ohne Vererbung zurück oder setzt ihn. Schreib-/Lesezugriff auf BulletTypeaspose.slides/bullettype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Aufzählungstyp eines Absatzes ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /de/aspose.slides/bulletformat/type/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/bulletformat/type/
 
 ## BulletFormat.Type-Eigenschaft
 
-Gibt den Aufzählungstyp eines Absatzes ohne Vererbung zurück oder setzt ihn. Schreib-/Lesezugriff auf [`BulletType`](../../bullettype).
+Gibt den Aufzählungstyp eines Absatzes ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf [`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [BulletType](../../bullettype)
 * class [BulletFormat](../../bulletformat)

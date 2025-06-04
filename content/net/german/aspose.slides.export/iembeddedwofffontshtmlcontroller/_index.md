@@ -1,7 +1,7 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Slides für .NET API-Referenz
-description: Eingebetteter woff-Schriftarten-HTML-Controller.
+second_title: Aspose.Slides für .NET API Referenz
+description: Eingebetteter woff Schriften HTML-Controller.
 type: docs
 weight: 3740
 url: /de/aspose.slides.export/iembeddedwofffontshtmlcontroller/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 
 ## IEmbeddedWoffFontsHtmlController-Schnittstelle
 
-Eingebetteter woff-Schriftarten-HTML-Controller.
+Eingebetteter woff Schriften HTML-Controller.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController

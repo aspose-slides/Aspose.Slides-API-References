@@ -1,25 +1,25 @@
 ---
 title: BubbleSizeScale
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie le facteur d'échelle pour le graphique en bulles qui peut être compris entre 0 et 300 pourcents de la taille par défaut. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété de groupe appropriée. Et donc cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeScale pour changer la valeur.
+second_title: Aspose.Slides pour .NET API Reference
+description: Spécifie le facteur d'échelle pour le graphique à bulles, qui peut varier entre 0 et 300 pourcents de la taille par défaut. Il s'agit d'une propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété du groupe approprié. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeScale pour changer la valeur.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartseries/bubblesizescale/
 ---
 
-## Propriété IChartSeries.BubbleSizeScale
+## IChartSeries.BubbleSizeScale property
 
-Spécifie le facteur d'échelle pour le graphique en bulles (peut être compris entre 0 et 300 pourcents de la taille par défaut). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété de groupe appropriée. Et donc cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeScale pour changer la valeur.
+Spécifie le facteur d'échelle pour le graphique à bulles (peut varier entre 0 et 300 pourcents de la taille par défaut). Il s'agit d'une propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété du groupe approprié. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.BubbleSizeScale pour changer la valeur.
 
 ```csharp
 public int BubbleSizeScale { get; }
 ```
 
-### Remarques
+### Remarks
 
-C'est la projection de la propriété ParentSeriesGroup.BubbleSizeScale.
+Ceci est la projection de la propriété ParentSeriesGroup.BubbleSizeScale.
 
-### Voir Aussi
+### See Also
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

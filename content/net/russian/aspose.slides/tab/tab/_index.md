@@ -1,7 +1,7 @@
 ---
 title: Tab
-second_title: Справка по API Aspose.Sildes для .NET
-description: Создает новую Вкладку
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую вкладку
 type: docs
 weight: 10
 url: /ru/aspose.slides/tab/tab/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/tab/tab/
 
 ## Конструктор Tab
 
-Создает новую Вкладку
+Создает новую вкладку
 
 ```csharp
 public Tab(double position, TabAlignment align)
@@ -20,7 +20,7 @@ public Tab(double position, TabAlignment align)
 | position | Double | Позиция вкладки. |
 | align | TabAlignment | Выравнивание. |
 
-### См. также
+### Смотрите также
 
 * enum [TabAlignment](../../tabalignment)
 * class [Tab](../../tab)

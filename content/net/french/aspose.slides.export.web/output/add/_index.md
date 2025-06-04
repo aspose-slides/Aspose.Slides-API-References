@@ -13,7 +13,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
     TContextObject contextObject)
 ```
 
-### Voir Aussi
+### Voir Également
 
 * interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)
@@ -33,13 +33,13 @@ public IOutputFile Add(string path, IPPImage image)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | path | String | Chemin de sortie. |
-| image | IPPImage | Image à exporter. |
+| image | IPPImage | Image à sortir. |
 
 ### Valeur de Retour
 
 [`IOutputFile`](../../ioutputfile) objet pour l'image.
 
-### Voir Aussi
+### Voir Également
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IPPImage](../../../aspose.slides/ippimage)
@@ -60,13 +60,13 @@ public IOutputFile Add(string path, IImage image)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | path | String | Chemin de sortie. |
-| image | IImage | Image à exporter. |
+| image | IImage | Image à sortir. |
 
 ### Valeur de Retour
 
 [`IOutputFile`](../../ioutputfile) objet pour l'image.
 
-### Voir Aussi
+### Voir Également
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IImage](../../../aspose.slides/iimage)
@@ -87,13 +87,13 @@ public IOutputFile Add(string path, IVideo video)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | path | String | Chemin de sortie. |
-| video | IVideo | Vidéo à exporter. |
+| video | IVideo | Vidéo à sortir. |
 
 ### Valeur de Retour
 
 [`IOutputFile`](../../ioutputfile) objet pour la vidéo.
 
-### Voir Aussi
+### Voir Également
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IVideo](../../../aspose.slides/ivideo)
@@ -114,14 +114,14 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | path | String | Chemin de sortie. |
-| fontData | IFontData | Police à exporter. |
+| fontData | IFontData | Police à sortir. |
 | fontStyle | FontStyle | Style de police. |
 
 ### Valeur de Retour
 
 [`IOutputFile`](../../ioutputfile) objet pour la police.
 
-### Voir Aussi
+### Voir Également
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IFontData](../../../aspose.slides/ifontdata)
@@ -142,13 +142,13 @@ public IOutputFile Add(string path, string textContent)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | path | String | Chemin de sortie. |
-| textContent | String | Contenu à exporter. |
+| textContent | String | Contenu à sortir. |
 
 ### Valeur de Retour
 
 [`IOutputFile`](../../ioutputfile) objet pour le contenu textuel.
 
-### Voir Aussi
+### Voir Également
 
 * interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)

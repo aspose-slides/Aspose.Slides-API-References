@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickLabelSpacing
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Wert des automatischen Abstands der Tick-Labels an. Wenn false verwenden Sie die TickLabelSpacing-Eigenschaft. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Wert für den automatischen Abstand von Tick-Beschriftungen an. Wenn falsch, verwenden Sie die Eigenschaft TickLabelSpacing. Lese-/Schreib-Boolean.
 type: docs
 weight: 230
 url: /de/aspose.slides.charts/iaxis/isautomaticticklabelspacing/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iaxis/isautomaticticklabelspacing/
 
 ## IAxis.IsAutomaticTickLabelSpacing-Eigenschaft
 
-Gibt den Wert des automatischen Abstands der Tick-Labels an. Wenn false: verwenden Sie die TickLabelSpacing-Eigenschaft. Lese-/Schreib-Boolescher Wert.
+Gibt den Wert für den automatischen Abstand von Tick-Beschriftungen an. Wenn falsch: verwenden Sie die Eigenschaft TickLabelSpacing. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsAutomaticTickLabelSpacing { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Namespace [Aspose.Slides.Charts](../../iaxis)

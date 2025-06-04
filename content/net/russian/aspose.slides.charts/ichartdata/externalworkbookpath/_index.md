@@ -1,21 +1,21 @@
 ---
 title: ExternalWorkbookPath
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет путь к внешней книге, если источник данных внешний, иначе null
+second_title: Aspose.Slides для .NET API Ссылка
+description: Представляет путь к внешней рабочей книге, если источник данных является внешним, иначе null
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartdata/externalworkbookpath/
 ---
 
-## Свойство IChartData.ExternalWorkbookPath
+## IChartData.ExternalWorkbookPath свойство
 
-Представляет путь к внешней книге, если источник данных внешний, иначе null
+Представляет путь к внешней рабочей книге, если источник данных является внешним, иначе null
 
 ```csharp
 public string ExternalWorkbookPath { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IChartData](../../ichartdata)
 * пространство имен [Aspose.Slides.Charts](../../ichartdata)

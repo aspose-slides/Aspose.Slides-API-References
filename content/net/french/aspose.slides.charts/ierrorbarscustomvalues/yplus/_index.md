@@ -1,15 +1,15 @@
 ---
 title: YPlus
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la valeur de la barre d'erreur dans la direction positive. Disponible si le type de valeur des barres d'erreur est personnalisé et que ErrorBarsYFormat est autorisé. Dans tous les autres cas, cette propriété renvoie null. Lecture seule IDoubleChartValueaspose.slides/idoublechartvalue.
+second_title: Aspose.Slides pour .NET API Reference
+description: Spécifie la valeur de la barre d'erreur dans la direction positive. Disponible si le type de valeur des barres d'erreur est Personnalisé et si ErrorBarsYFormat est autorisé. Dans tous les autres cas, cette propriété retourne null. Lecture seule IDoubleChartValueaspose.slides/idoublechartvalue.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ierrorbarscustomvalues/yplus/
 ---
 
-## Propriété IErrorBarsCustomValues.YPlus
+## IErrorBarsCustomValues.YPlus propriété
 
-Spécifie la valeur de la barre d'erreur dans la direction positive. Disponible si le type de valeur des barres d'erreur est personnalisé et que ErrorBarsYFormat est autorisé. Dans tous les autres cas, cette propriété renvoie null. Lecture seule [`IDoubleChartValue`](../../idoublechartvalue).
+Spécifie la valeur de la barre d'erreur dans la direction positive. Disponible si le type de valeur des barres d'erreur est Personnalisé et si ErrorBarsYFormat est autorisé. Dans tous les autres cas, cette propriété retourne null. Lecture seule [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YPlus { get; }

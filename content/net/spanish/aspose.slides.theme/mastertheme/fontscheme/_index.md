@@ -1,7 +1,7 @@
 ---
 title: FontScheme
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el esquema de fuente. Solo lectura IFontSchemeaspose.slides.theme/ifontscheme.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve el esquema de fuentes. Solo lectura IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 30
 url: /es/aspose.slides.theme/mastertheme/fontscheme/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.theme/mastertheme/fontscheme/
 
 ## Propiedad MasterTheme.FontScheme
 
-Devuelve el esquema de fuente. Solo lectura [`IFontScheme`](../../ifontscheme).
+Devuelve el esquema de fuentes. Solo lectura [`IFontScheme`](../../ifontscheme).
 
 ```csharp
 public override IFontScheme FontScheme { get; }
 ```
 
-### Vea También
+### Véase También
 
 * interfaz [IFontScheme](../../ifontscheme)
 * clase [MasterTheme](../../mastertheme)
 * espacio de nombres [Aspose.Slides.Theme](../../mastertheme)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

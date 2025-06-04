@@ -19,9 +19,9 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesen [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Ruft das Element am angegebenen Index ab. Nur lesbar [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * Schnittstelle [IFillFormat](../../aspose.slides/ifillformat)

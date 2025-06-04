@@ -1,7 +1,7 @@
 ---
 title: Libid
-second_title: Справочник API Aspose.Sildes для .NET
-description: Представляет идентификатор библиотеки типов Automation. Читаемый/записываемый String.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет собой идентификатор библиотеки типов Automation. Чтение/запись String.
 type: docs
 weight: 20
 url: /ru/aspose.slides.vba/vbareferenceoletypelib/libid/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.vba/vbareferenceoletypelib/libid/
 
 ## VbaReferenceOleTypeLib.Libid свойство
 
-Представляет идентификатор библиотеки типов Automation. Читаемый/записываемый String.
+Представляет собой идентификатор библиотеки типов Automation. Чтение/запись String.
 
 ```csharp
 public string Libid { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
 * пространство имен [Aspose.Slides.Vba](../../vbareferenceoletypelib)

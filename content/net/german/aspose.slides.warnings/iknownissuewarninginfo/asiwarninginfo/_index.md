@@ -1,7 +1,7 @@
 ---
 title: AsIWarningInfo
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IWarningInfo-Interface zurück. Nur-Lese IWarningInfo aspose.slides.warnings/iwarninginfo.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das IWarningInfo-Interface zurück. Nur-lesbares IWarningInfoaspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
 url: /de/aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo/
 
 ## IKnownIssueWarningInfo.AsIWarningInfo-Eigenschaft
 
-Gibt das IWarningInfo-Interface zurück. Nur-Lese [`IWarningInfo`](../../iwarninginfo).
+Gibt das IWarningInfo-Interface zurück. Nur-lesbares [`IWarningInfo`](../../iwarninginfo).
 
 ```csharp
 public IWarningInfo AsIWarningInfo { get; }

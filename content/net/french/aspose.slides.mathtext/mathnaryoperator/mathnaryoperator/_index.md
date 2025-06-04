@@ -1,105 +1,105 @@
----
+---  
 title: MathNaryOperator
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference  
 description: Initialise une nouvelle instance de la classe MathNaryOperator.
-type: docs
-weight: 10
+type: docs  
+weight: 10  
 url: /fr/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
----
+---  
 
-## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}
+## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}  
 
-Initialise une nouvelle instance de la classe MathNaryOperator.
+Initialise une nouvelle instance de la classe MathNaryOperator.  
 
-```csharp
-public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit, 
-    IMathElement upperLimit)
-```
+```csharp  
+public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit,  
+    IMathElement upperLimit)  
+```  
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| operatorSymbol | Char | Symbole de l'opérateur n-aire |
-| baseArgument | IMathElement | Argument de base |
-| lowerLimit | IMathElement | Limite inférieure |
-| upperLimit | IMathElement | Limite supérieure |
+| Paramètre | Type | Description |  
+| --- | --- | --- |  
+| operatorSymbol | Char | Symbole de l'opérateur n-aire |  
+| baseArgument | IMathElement | Argument de base |  
+| lowerLimit | IMathElement | Limite inférieure |  
+| upperLimit | IMathElement | Limite supérieure |  
 
-### Exemples
+### Exemples  
 
-Exemple:
+Exemple :  
 
-```csharp
-[C#]
-IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));
-```
+```csharp  
+[C#]  
+IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i=0"), new MathematicalText("𝑛"));  
+```  
 
-### Voir aussi
+### Voir aussi  
 
-* interface [IMathElement](../../imathelement)
-* classe [MathNaryOperator](../../mathnaryoperator)
-* namespace [Aspose.Slides.MathText](../../mathnaryoperator)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)  
+* class [MathNaryOperator](../../mathnaryoperator)  
+* namespace [Aspose.Slides.MathText](../../mathnaryoperator)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## MathNaryOperator(char, IMathElement, IMathElement) {#constructor_1}
+## MathNaryOperator(char, IMathElement, IMathElement) {#constructor_1}  
 
-Initialise une nouvelle instance de la classe MathNaryOperator.
+Initialise une nouvelle instance de la classe MathNaryOperator.  
 
-```csharp
-public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit)
-```
+```csharp  
+public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit)  
+```  
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| operatorSymbol | Char | Symbole de l'opérateur n-aire |
-| baseArgument | IMathElement | Argument de base |
-| lowerLimit | IMathElement | Limite inférieure |
+| Paramètre | Type | Description |  
+| --- | --- | --- |  
+| operatorSymbol | Char | Symbole de l'opérateur n-aire |  
+| baseArgument | IMathElement | Argument de base |  
+| lowerLimit | IMathElement | Limite inférieure |  
 
-### Exemples
+### Exemples  
 
-Exemple:
+Exemple :  
 
-```csharp
-[C#]
-IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i"));
-```
+```csharp  
+[C#]  
+IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"), new MathematicalText("i"));  
+```  
 
-### Voir aussi
+### Voir aussi  
 
-* interface [IMathElement](../../imathelement)
-* classe [MathNaryOperator](../../mathnaryoperator)
-* namespace [Aspose.Slides.MathText](../../mathnaryoperator)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)  
+* class [MathNaryOperator](../../mathnaryoperator)  
+* namespace [Aspose.Slides.MathText](../../mathnaryoperator)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## MathNaryOperator(char, IMathElement) {#constructor}
+## MathNaryOperator(char, IMathElement) {#constructor}  
 
-Initialise une nouvelle instance de la classe MathNaryOperator.
+Initialise une nouvelle instance de la classe MathNaryOperator.  
 
-```csharp
-public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
-```
+```csharp  
+public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)  
+```  
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| operatorSymbol | Char | Symbole de l'opérateur n-aire |
-| baseArgument | IMathElement | Argument de base |
+| Paramètre | Type | Description |  
+| --- | --- | --- |  
+| operatorSymbol | Char | Symbole de l'opérateur n-aire |  
+| baseArgument | IMathElement | Argument de base |  
 
-### Exemples
+### Exemples  
 
-Exemple:
+Exemple :  
 
-```csharp
-[C#]
-IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));
-```
+```csharp  
+[C#]  
+IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalText("i"));  
+```  
 
-### Voir aussi
+### Voir aussi  
 
-* interface [IMathElement](../../imathelement)
-* classe [MathNaryOperator](../../mathnaryoperator)
-* namespace [Aspose.Slides.MathText](../../mathnaryoperator)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)  
+* class [MathNaryOperator](../../mathnaryoperator)  
+* namespace [Aspose.Slides.MathText](../../mathnaryoperator)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

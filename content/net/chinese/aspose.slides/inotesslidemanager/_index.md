@@ -1,7 +1,7 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Slides for .NET API 参考
-description: 注释幻灯片管理器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 备注幻灯片管理器。
 type: docs
 weight: 6320
 url: /zh/aspose.slides/inotesslidemanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/inotesslidemanager/
 
 ## INotesSlideManager 接口
 
-注释幻灯片管理器。
+备注幻灯片管理器。
 
 ```csharp
 public interface INotesSlideManager
@@ -19,16 +19,16 @@ public interface INotesSlideManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | 返回当前幻灯片的注释幻灯片。如果幻灯片没有注释幻灯片，则返回 null。只读 [`INotesSlide`](../inotesslide)。 |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | 返回当前幻灯片的备注幻灯片。如果幻灯片没有备注幻灯片，则返回 null。为只读 [`INotesSlide`](../inotesslide)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | 返回当前幻灯片的注释幻灯片，如果不存在则创建一个。 |
-| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | 移除当前幻灯片的注释幻灯片。 |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | 返回当前幻灯片的备注幻灯片，如果没有则创建一个。 |
+| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | 移除当前幻灯片的备注幻灯片。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

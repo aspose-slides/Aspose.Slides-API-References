@@ -1,7 +1,7 @@
 ---
 title: GetTileIImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建一个指定颜色的图案填充的瓷砖图像。
+description: 创建具有指定颜色的模式填充的瓷砖图像。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ipatternformateffectivedata/gettileiimage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipatternformateffectivedata/gettileiimage/
 
 ## IPatternFormatEffectiveData.GetTileIImage 方法
 
-创建一个指定颜色的图案填充的瓷砖图像。
+创建具有指定颜色的模式填充的瓷砖图像。
 
 ```csharp
 public IImage GetTileIImage(Color background, Color foreground)
@@ -17,14 +17,14 @@ public IImage GetTileIImage(Color background, Color foreground)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| background | Color | 图案的背景颜色。 |
-| foreground | Color | 图案的前景颜色。 |
+| background | Color | 模式的背景颜色。 |
+| foreground | Color | 模式的前景颜色。 |
 
 ### 返回值
 
 瓷砖 [`IImage`](../../iimage)。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImage](../../iimage)
 * 接口 [IPatternFormatEffectiveData](../../ipatternformateffectivedata)

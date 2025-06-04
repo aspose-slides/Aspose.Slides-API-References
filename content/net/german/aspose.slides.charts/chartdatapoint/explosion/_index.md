@@ -1,7 +1,7 @@
 ---
 title: Explosion
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, um wie viel der Datenpunkt vom Zentrum des Kuchens verschoben werden soll. Lese-/Schreibbarer Int32.
+description: Gibt an, um wie viel der Datenpunkt vom Mittelpunkt des Tortendiagramms verschoben werden soll. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/chartdatapoint/explosion/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapoint/explosion/
 
 ## ChartDataPoint.Explosion-Eigenschaft
 
-Gibt an, um wie viel der Datenpunkt vom Zentrum des Kuchens verschoben werden soll. Lese-/Schreibbarer Int32.
+Gibt an, um wie viel der Datenpunkt vom Mittelpunkt des Tortendiagramms verschoben werden soll. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int Explosion { get; set; }

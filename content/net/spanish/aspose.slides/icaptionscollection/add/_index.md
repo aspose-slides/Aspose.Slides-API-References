@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Agrega subtítulos cerrados WebVTT al final de la colección.
 type: docs
 weight: 30
 url: /es/aspose.slides/icaptionscollection/add/
 ---
 
-## Agregar(string, string) {#add_1}
+## Add(string, string) {#add_1}
 
 Agrega subtítulos cerrados WebVTT al final de la colección.
 
@@ -20,18 +20,18 @@ public ICaptions Add(string label, string filePath)
 | label | String | La etiqueta de los subtítulos cerrados. |
 | filePath | String | La ruta al archivo WebVTT. |
 
-### Valor de retorno
+### Valor de Retorno
 
-La instancia [`ICaptions`](../../icaptions) agregada.
+La instancia agregada de [`ICaptions`](../../icaptions).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza si *filePath* es `null`. |
-| ArgumentException | Se lanza si *filePath* está vacío. |
+| ArgumentNullException | Lanzada si *filePath* es `null`. |
+| ArgumentException | Lanzada si *filePath* está vacío. |
 
-### Véase también
+### Véase También
 
 * interfaz [ICaptions](../../icaptions)
 * interfaz [ICaptionsCollection](../../icaptionscollection)
@@ -40,9 +40,9 @@ La instancia [`ICaptions`](../../icaptions) agregada.
 
 ---
 
-## Agregar(string, Stream) {#add}
+## Add(string, Stream) {#add}
 
-Agrega subtítulos cerrados WebVTT al final de la colección desde un flujo.
+Agrega subtítulos cerrados WebVTT al final de la colección desde un stream.
 
 ```csharp
 public ICaptions Add(string label, Stream stream)
@@ -51,20 +51,20 @@ public ICaptions Add(string label, Stream stream)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | label | String | La etiqueta de los subtítulos cerrados. |
-| stream | Stream | El flujo de entrada que contiene datos en formato WebVTT. |
+| stream | Stream | El stream de entrada que contiene datos en formato WebVTT. |
 
-### Valor de retorno
+### Valor de Retorno
 
-La instancia [`ICaptions`](../../icaptions) agregada.
+La instancia agregada de [`ICaptions`](../../icaptions).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentNullException | Se lanza si *stream* es `null`. |
-| ArgumentException | Se lanza si los datos de entrada no están en formato WebVTT. |
+| ArgumentNullException | Lanzada si *stream* es `null`. |
+| ArgumentException | Lanzada si los datos de entrada no están en formato WebVTT. |
 
-### Véase también
+### Véase También
 
 * interfaz [ICaptions](../../icaptions)
 * interfaz [ICaptionsCollection](../../icaptionscollection)

@@ -1,7 +1,7 @@
 ---
 title: Footer
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Pie de página de las diapositivas. Campo de solo lecturaFieldTypeaspose.slides/fieldtype.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Pie de página de las diapositivas. Propiedad de solo lectura FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 160
 url: /es/aspose.slides/fieldtype/footer/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/fieldtype/footer/
 
 ## Propiedad FieldType.Footer
 
-Pie de página de la diapositiva. Solo lectura [`FieldType`](../../fieldtype).
+Pie de página de la diapositiva. Propiedad de solo lectura [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType Footer { get; }
 ```
 
-### Ver También
+### Véase También
 
-* clase [FieldType](../../fieldtype)
-* espacio de nombres [Aspose.Slides](../../fieldtype)
-* ensamblaje [Aspose.Slides](../../../)
+* class [FieldType](../../fieldtype)
+* namespace [Aspose.Slides](../../fieldtype)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

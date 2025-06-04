@@ -1,15 +1,15 @@
 ---
 title: Accent1
-second_title: Référence API Aspose.Slides pour .NET
-description: Première couleur d'accent dans le schéma. Couleur en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Première couleur d'accent dans le schéma. Propriété de couleur en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 ---
 
-## Propriété IColorSchemeEffectiveData.Accent1
+## IColorSchemeEffectiveData.Accent1 propriété
 
-Première couleur d'accent dans le schéma. Couleur en lecture seule.
+Première couleur d'accent dans le schéma. Propriété de couleur en lecture seule.
 
 ```csharp
 public Color Accent1 { get; }

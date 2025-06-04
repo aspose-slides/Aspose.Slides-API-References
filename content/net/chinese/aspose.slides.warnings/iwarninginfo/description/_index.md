@@ -1,7 +1,7 @@
 ---
 title: Description
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回此警告的人类可读描述。只读字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回此警告的可读描述。只读字符串。
 type: docs
 weight: 10
 url: /zh/aspose.slides.warnings/iwarninginfo/description/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.warnings/iwarninginfo/description/
 
 ## IWarningInfo.Description 属性
 
-返回此警告的人类可读描述。只读字符串。
+返回此警告的可读描述。只读字符串。
 
 ```csharp
 public string Description { get; }

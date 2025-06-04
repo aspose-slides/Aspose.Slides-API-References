@@ -1,7 +1,7 @@
 ---
 title: BorderDiagonalUp
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Objekt mit Eigenschaften für eine diagonale Linie von unten links nach oben rechts zurück. Nur-Lesen ILineFormataspose.slides/ilineformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein Objekt für die Eigenschaften der diagonalen Linie von unten links nach oben rechts zurück. Schreibgeschütztes ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/icellformat/borderdiagonalup/
@@ -9,16 +9,16 @@ url: /de/aspose.slides/icellformat/borderdiagonalup/
 
 ## ICellFormat.BorderDiagonalUp-Eigenschaft
 
-Gibt ein Objekt mit Eigenschaften für eine diagonale Linie von unten links nach oben rechts zurück. Nur-Lesen [`ILineFormat`](../../ilineformat).
+Gibt ein Objekt für die Eigenschaften der diagonalen Linie von unten links nach oben rechts zurück. Schreibgeschützt [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderDiagonalUp { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [ILineFormat](../../ilineformat)
-* Interface [ICellFormat](../../icellformat)
+* Schnittstelle [ILineFormat](../../ilineformat)
+* Schnittstelle [ICellFormat](../../icellformat)
 * Namespace [Aspose.Slides](../../icellformat)
 * Assembly [Aspose.Slides](../../../)
 

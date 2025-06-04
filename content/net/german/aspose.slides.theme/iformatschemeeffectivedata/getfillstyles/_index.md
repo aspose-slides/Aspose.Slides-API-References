@@ -15,9 +15,9 @@ Gibt eine Sammlung von themendefinierten Füllstilen zurück.
 public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
 ```
 
-| Parameter  | Typ   | Beschreibung      |
-|------------|-------|-------------------|
-| styleColor | Color | Farbstil          |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| styleColor | Color | Farbe Color |
 
 ### Rückgabewert
 

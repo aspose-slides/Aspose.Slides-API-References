@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 转换的方向。读/写 TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.slideshow/cornerdirectiontransition/direction/
 public TransitionCornerDirectionType Direction { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [TransitionCornerDirectionType](../../transitioncornerdirectiontype)
 * class [CornerDirectionTransition](../../cornerdirectiontransition)

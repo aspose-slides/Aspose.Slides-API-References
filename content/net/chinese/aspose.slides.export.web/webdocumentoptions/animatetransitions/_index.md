@@ -1,7 +1,7 @@
 ---
 title: AnimateTransitions
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置过渡动画选项。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置过渡动画选项。可读写的布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export.web/webdocumentoptions/animatetransitions/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export.web/webdocumentoptions/animatetransitions/
 
 ## WebDocumentOptions.AnimateTransitions 属性
 
-返回或设置过渡动画选项。可读写布尔值。
+返回或设置过渡动画选项。可读写的布尔值。
 
 ```csharp
 public bool AnimateTransitions { get; set; }
 ```
 
-### 参见
+### 另见
 
 * class [WebDocumentOptions](../../webdocumentoptions)
 * namespace [Aspose.Slides.Export.Web](../../webdocumentoptions)

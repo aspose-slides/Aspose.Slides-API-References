@@ -1,6 +1,6 @@
 ---
 title: NotesStyle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回备注文本的样式。只读 ITextStyleaspose.slides/itextstyle。
 type: docs
 weight: 40

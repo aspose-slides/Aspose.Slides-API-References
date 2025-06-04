@@ -1,21 +1,21 @@
 ---
 title: IsEmpty
-second_title: Référence API Aspose.Slides pour .NET
-description: La valeur vraie signifie que ColorScheme, FontScheme, FormatScheme est null et que tout dépassement avec cet objet thème est désactivé. Booléen en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Une valeur vraie signifie que ColorScheme, FontScheme, FormatScheme est null et tout remplacement avec cet objet de thème est désactivé. Booléen en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides.theme/overridetheme/isempty/
 ---
 
-## Propriété OverrideTheme.IsEmpty
+## OverrideTheme.IsEmpty property
 
-La valeur vraie signifie que ColorScheme, FontScheme, FormatScheme est null et que tout dépassement avec cet objet thème est désactivé. Booléen en lecture seule.
+Une valeur vraie signifie que ColorScheme, FontScheme, FormatScheme est null et tout remplacement avec cet objet de thème est désactivé. Booléen en lecture seule.
 
 ```csharp
 public bool IsEmpty { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [OverrideTheme](../../overridetheme)
 * espace de noms [Aspose.Slides.Theme](../../overridetheme)

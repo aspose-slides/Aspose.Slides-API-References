@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/commentauthorcollection/count/
 ---
 
-## Свойство CommentAuthorCollection.Count
+## CommentAuthorCollection.Count property
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/commentauthorcollection/count/
 public int Count { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [CommentAuthorCollection](../../commentauthorcollection)
 * пространство имен [Aspose.Slides](../../commentauthorcollection)

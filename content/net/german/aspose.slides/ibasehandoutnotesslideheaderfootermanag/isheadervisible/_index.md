@@ -1,7 +1,7 @@
 ---
 title: IsHeaderVisible
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Wert zurück, der angibt, dass ein Header-Platzhalter vorhanden ist. Lese Boolean.
+description: Gibt den Wert an, der darauf hinweist, dass ein Header-Platzhalter vorhanden ist. Lese Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/
 
 ## IBaseHandoutNotesSlideHeaderFooterManag.IsHeaderVisible-Eigenschaft
 
-Gibt den Wert zurück, der angibt, dass ein Header-Platzhalter vorhanden ist. Lese Boolean.
+Gibt den Wert an, der darauf hinweist, dass ein Header-Platzhalter vorhanden ist. Lese Boolean.
 
 ```csharp
 public bool IsHeaderVisible { get; }

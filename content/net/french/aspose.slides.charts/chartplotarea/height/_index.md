@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit la hauteur d'une zone de tracé comme une fraction de la hauteur du graphique, de 0 à 1. Lecture/écriture Simple.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la hauteur d'une boîte englobante de zone de tracé comme une fraction de la hauteur du graphique, de 0 à 1. Lecture/écriture Single.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/chartplotarea/height/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartplotarea/height/
 
 ## Propriété ChartPlotArea.Height
 
-Retourne ou définit la hauteur d'une zone de tracé comme une fraction de la hauteur du graphique (de 0 à 1). Lecture/écriture Simple.
+Renvoie ou définit la hauteur d'une boîte englobante de zone de tracé comme une fraction de la hauteur du graphique (de 0 à 1). Lecture/écriture Single.
 
 ```csharp
 public float Height { get; set; }

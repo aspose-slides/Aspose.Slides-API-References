@@ -1,7 +1,7 @@
 ---
 title: IsFooterVisible
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指示页脚占位符是否存在的值。读取布尔值。
+description: 获取表示页脚占位符存在的值。读取布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ibaseslideheaderfootermanager/isfootervisible/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibaseslideheaderfootermanager/isfootervisible/
 
 ## IBaseSlideHeaderFooterManager.IsFooterVisible 属性
 
-获取指示页脚占位符是否存在的值。读取布尔值。
+获取表示页脚占位符存在的值。读取布尔值。
 
 ```csharp
 public bool IsFooterVisible { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../ibaseslideheaderfootermanager)

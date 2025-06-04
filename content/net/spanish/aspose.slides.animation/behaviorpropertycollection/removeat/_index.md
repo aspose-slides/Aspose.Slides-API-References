@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina la propiedad en el índice especificado.
 type: docs
 weight: 120
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Índice de la propiedad que debe ser eliminada. |
 
-### Ver También
+### Véase también
 
 * clase [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorpropertycollection)

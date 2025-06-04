@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Éléments de la matrice
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/imathmatrix/item/
 ---
 
-## Indice IMathMatrix
+## IMathMatrix indexer
 
 Éléments de la matrice
 
@@ -22,7 +22,7 @@ public IMathElement this[int row, int column] { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: AutoReverse
-second_title: Aspose.Slides for .NET API 参考
-description: 描述在向前播放动画后是否自动反向播放动画。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述在向前播放动画后是否自动反向播放动画。可读写的布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/itiming/autoreverse/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/itiming/autoreverse/
 
 ## ITiming.AutoReverse 属性
 
-描述在向前播放动画后是否自动反向播放动画。可读/可写布尔值。
+描述在向前播放动画后是否自动反向播放动画。可读写的布尔值。
 
 ```csharp
 public bool AutoReverse { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ITiming](../../itiming)
 * 命名空间 [Aspose.Slides.Animation](../../itiming)

@@ -1,21 +1,21 @@
 ---
 title: RightToLeft
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Schreiben von rechts nach links in einem Absatz verwendet wird. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Schreiben von rechts nach links in einem Absatz verwendet wird. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/ichartparagraphformat/righttoleft/
 ---
 
-## IChartParagraphFormat.RightToLeft-Eigenschaft
+## IChartParagraphFormat.RightToLeft Eigenschaft
 
-Bestimmt, ob das Schreiben von rechts nach links in einem Absatz verwendet wird. Lese-/Schreibzugriff auf [`NullableBool`](../../../aspose.slides/nullablebool).
+Bestimmt, ob das Schreiben von rechts nach links in einem Absatz verwendet wird. Lese-/Schreibbarer [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool RightToLeft { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IChartParagraphFormat](../../ichartparagraphformat)

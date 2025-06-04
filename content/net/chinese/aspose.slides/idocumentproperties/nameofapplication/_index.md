@@ -1,6 +1,6 @@
 ---
 title: NameOfApplication
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回或设置应用程序的名称。可读写字符串。
 type: docs
 weight: 230

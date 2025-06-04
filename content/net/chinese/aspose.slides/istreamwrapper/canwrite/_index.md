@@ -1,6 +1,6 @@
 ---
 title: CanWrite
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取一个值，指示当前流是否支持写入。只读布尔值。
 type: docs
 weight: 40

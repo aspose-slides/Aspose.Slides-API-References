@@ -1,6 +1,6 @@
 ---
 title: Volume
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el volumen de audio. Lectura/escritura AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs
 weight: 180
@@ -15,7 +15,7 @@ Devuelve o establece el volumen de audio. Lectura/escritura [`AudioVolumeMode`](
 public AudioVolumeMode Volume { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * enum [AudioVolumeMode](../../audiovolumemode)
 * interface [IAudioFrame](../../iaudioframe)

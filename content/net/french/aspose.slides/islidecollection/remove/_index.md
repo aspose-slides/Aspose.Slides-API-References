@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la première occurrence d'un objet spécifique de la collection.
 type: docs
 weight: 100
 url: /fr/aspose.slides/islidecollection/remove/
 ---
 
-## Méthode ISlideCollection.Remove
+## ISlideCollection.Remove method
 
 Supprime la première occurrence d'un objet spécifique de la collection.
 

@@ -1,6 +1,6 @@
 ---
 title: StartShapeConnectionSiteIndex
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Renvoie ou définit l'index du site de connexion pour la forme de départ. Lecture/écriture UInt32.
 type: docs
 weight: 70
@@ -19,9 +19,9 @@ public uint StartShapeConnectionSiteIndex { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lancé lorsque la valeur est inférieure à StartShapeConnectedTo.ConnectionSiteCount |
+| ArgumentException | Lancée lorsque la valeur est inférieure à StartShapeConnectedTo.ConnectionSiteCount |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IConnector](../../iconnector)
 * namespace [Aspose.Slides](../../iconnector)

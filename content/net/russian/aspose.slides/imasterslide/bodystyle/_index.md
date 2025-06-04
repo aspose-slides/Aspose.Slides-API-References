@@ -1,13 +1,13 @@
 ---
 title: BodyStyle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает стиль основного текста. Только для чтения ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imasterslide/bodystyle/
 ---
 
-## Свойство IMasterSlide.BodyStyle
+## IMasterSlide.BodyStyle свойство
 
 Возвращает стиль основного текста. Только для чтения [`ITextStyle`](../../itextstyle).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/imasterslide/bodystyle/
 public ITextStyle BodyStyle { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [ITextStyle](../../itextstyle)
 * интерфейс [IMasterSlide](../../imasterslide)

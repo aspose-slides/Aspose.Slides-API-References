@@ -1,7 +1,7 @@
 ---
 title: FadeDirection
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定反射的偏移方向。（角度）。读/写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定反射的偏移方向。（角度）。可读写单精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides.effects/ireflection/fadedirection/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/fadedirection/
 
 ## IReflection.FadeDirection 属性
 
-指定反射的偏移方向。（角度）。读/写单精度浮点数。
+指定反射的偏移方向。（角度）。可读写单精度浮点数。
 
 ```csharp
 public float FadeDirection { get; set; }
 ```
 
-### 另见
+### 相关内容
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

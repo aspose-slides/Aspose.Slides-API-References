@@ -1,23 +1,23 @@
----
+---  
 title: ILineParamSource
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Interfaz de parámetros de línea auxiliares.
-type: docs
-weight: 6130
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Interfaz de parámetros auxiliares de línea.
+type: docs  
+weight: 6130  
 url: /es/aspose.slides/ilineparamsource/
----
+---  
 
-## Interfaz ILineParamSource
+## ILineParamSource interface  
 
-Interfaz de parámetros de línea auxiliares.
+Interfaz de parámetros auxiliares de línea.  
 
-```csharp
-public interface ILineParamSource
-```
+```csharp  
+public interface ILineParamSource  
+```  
 
-### Ver también
+### Ver También  
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)  
+* assembly [Aspose.Slides](../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

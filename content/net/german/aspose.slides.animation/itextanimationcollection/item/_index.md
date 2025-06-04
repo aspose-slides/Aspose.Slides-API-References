@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Element anhand des Index zurück.
+description: Gibt das Element nach Index zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/itextanimationcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/itextanimationcollection/item/
 
 ## ITextAnimationCollection-Indexer (1 von 2)
 
-Gibt ein Element anhand des Index zurück.
+Gibt das Element nach Index zurück.
 
 ```csharp
 public ITextAnimation this[int index] { get; }
@@ -17,8 +17,8 @@ public ITextAnimation this[int index] { get; }
 
 ### Siehe auch
 
-* Interface [ITextAnimation](../../itextanimation)
-* Interface [ITextAnimationCollection](../../itextanimationcollection)
+* Schnittstelle [ITextAnimation](../../itextanimation)
+* Schnittstelle [ITextAnimationCollection](../../itextanimationcollection)
 * Namespace [Aspose.Slides.Animation](../../itextanimationcollection)
 * Assembly [Aspose.Slides](../../../)
 
@@ -38,9 +38,9 @@ public ITextAnimation[] this[IShape shape] { get; }
 
 ### Siehe auch
 
-* Interface [ITextAnimation](../../itextanimation)
-* Interface [IShape](../../../aspose.slides/ishape)
-* Interface [ITextAnimationCollection](../../itextanimationcollection)
+* Schnittstelle [ITextAnimation](../../itextanimation)
+* Schnittstelle [IShape](../../../aspose.slides/ishape)
+* Schnittstelle [ITextAnimationCollection](../../itextanimationcollection)
 * Namespace [Aspose.Slides.Animation](../../itextanimationcollection)
 * Assembly [Aspose.Slides](../../../)
 

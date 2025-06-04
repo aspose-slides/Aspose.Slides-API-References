@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/smartartnode/ishidden/
 public bool IsHidden { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [SmartArtNode](../../smartartnode)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartnode)

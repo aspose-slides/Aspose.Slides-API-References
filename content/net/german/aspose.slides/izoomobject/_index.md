@@ -1,6 +1,6 @@
 ---
 title: IZoomObject
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt ein Zoom-Objekt in einer Folie dar.
 type: docs
 weight: 7190
@@ -19,14 +19,14 @@ public interface IZoomObject : IGraphicalObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Ermöglicht den Zugriff auf die Basis-IGräfischeObjekt-Schnittstelle. Nur-lesend [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Ruft den Bildtyp eines Zoom-Objekts ab oder legt ihn fest. Lesen/Schreiben [`ZoomImageType`](../zoomimagetype). Standardwert: Vorschau |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Ruft das Navigationsverhalten in der Diashow ab oder legt es fest. Lesen/Schreiben Boolean. Standardwert: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Ruft den Wert ab oder legt fest, ob das Zoom den Hintergrund der Ziel-Folie verwenden soll. Lesen/Schreiben Boolean. Standardwert: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Ruft die Dauer der Übergangs zwischen Zoom und Folie ab oder legt sie fest. Lesen/Schreiben Single. Standardwert: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Ruft das Bild für das Zoom-Objekt ab oder legt es fest. Lesen/Schreiben [`IPPImage`](../ippimage). |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Ermöglicht das Abrufen der Basis-IGraphicalObject-Schnittstelle. Nur-Lese [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Ruft den Bildtyp eines Zoom-Objekts ab oder legt ihn fest. Lese-/Schreibzugriff [`ZoomImageType`](../zoomimagetype). Standardwert: Vorschau |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Ruft das Navigationsverhalten in der Präsentation ab oder legt es fest. Lese-/Schreibzugriff Boolean. Standardwert: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Ruft den Wert ab oder legt ihn fest, der angibt, ob der Zoom den Hintergrund der Ziel-Folie verwenden soll. Lese-/Schreibzugriff Boolean. Standardwert: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Ruft die Dauer der Übergangs zwischen Zoom und Folie ab oder legt sie fest. Lese-/Schreibzugriff Single. Standardwert: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Ruft das Bild für das Zoom-Objekt ab oder legt es fest. Lese-/Schreibzugriff [`IPPImage`](../ippimage). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGraphicalObject](../igraphicalobject)
 * Namespace [Aspose.Slides](../../aspose.slides)

@@ -1,6 +1,6 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示现代评论的状态。
 type: docs
 weight: 8830

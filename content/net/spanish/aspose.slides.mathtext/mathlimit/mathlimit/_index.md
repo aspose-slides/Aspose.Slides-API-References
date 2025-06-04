@@ -1,13 +1,13 @@
 ---
 title: MathLimit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Inicializa una nueva instancia de la clase MathLimit.
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/mathlimit/mathlimit/
 ---
 
-## MathLimit(IMathElement, IMathElement, bool) {#constructor_1}
+## MathLimit(IMathElement, IMathElement, bool) {#constructor_1}
 
 Inicializa una nueva instancia de la clase MathLimit.
 
@@ -33,7 +33,7 @@ MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathemat
 
 ---
 
-## MathLimit(IMathElement, IMathElement) {#constructor}
+## MathLimit(IMathElement, IMathElement) {#constructor}
 
 Inicializa una nueva instancia de la clase MathLimit con límite inferior
 

@@ -1,13 +1,13 @@
 ---
 title: Format
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойства форматирования. Чтение/запись IFormataspose.slides.charts/iformat.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartdatapoint/format/
 ---
 
-## Свойство ChartDataPoint.Format
+## ChartDataPoint.Format свойство
 
 Представляет свойства форматирования. Чтение/запись [`IFormat`](../../iformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartdatapoint/format/
 public IFormat Format { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IFormat](../../iformat)
 * класс [ChartDataPoint](../../chartdatapoint)

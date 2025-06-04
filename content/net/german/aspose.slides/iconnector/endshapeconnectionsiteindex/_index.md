@@ -1,7 +1,7 @@
 ---
 title: EndShapeConnectionSiteIndex
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Index des Verbindungspunkts für die Endform zurück oder legt ihn fest. Lese-/schreibfähiges UInt32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Index der Verbindung für die Endform zurück oder setzt ihn. Lese-/Schreibzugriff UInt32.
 type: docs
 weight: 40
 url: /de/aspose.slides/iconnector/endshapeconnectionsiteindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iconnector/endshapeconnectionsiteindex/
 
 ## IConnector.EndShapeConnectionSiteIndex-Eigenschaft
 
-Gibt den Index des Verbindungspunkts für die Endform zurück oder legt ihn fest. Lese-/schreibfähiges UInt32.
+Gibt den Index der Verbindung für die Endform zurück oder setzt ihn. Lese-/Schreibzugriff UInt32.
 
 ```csharp
 public uint EndShapeConnectionSiteIndex { get; set; }

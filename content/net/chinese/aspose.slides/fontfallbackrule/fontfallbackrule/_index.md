@@ -7,7 +7,7 @@ weight: 10
 url: /zh/aspose.slides/fontfallbackrule/fontfallbackrule/
 ---
 
-## FontFallBackRule(uint, uint, string) {#constructor}
+## FontFallBackRule(uint, uint, string) {#constructor}
 
 创建新实例。
 
@@ -15,20 +15,20 @@ url: /zh/aspose.slides/fontfallbackrule/fontfallbackrule/
 public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| startIndex | UInt32 | Unicode 范围的起始索引 |
-| endIndex | UInt32 | Unicode 范围的结束索引 |
-| fontNames | String | 字体名称或名称（用逗号分隔）用于后备 |
+| 参数      | 类型     | 描述                         |
+| --------- | -------- | ---------------------------- |
+| startIndex | UInt32   | Unicode 范围的起始索引      |
+| endIndex   | UInt32   | Unicode 范围的结束索引      |
+| fontNames  | String   | 要用于回退的字体名称（逗号分隔） |
 
 ### 示例
 
 ```csharp
 [C#]
-// 创建一个包含一个字体的 FontFallBackRule 新实例。
+// 创建一个带有一个字体的 FontFallBackRule 新实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-// 创建一个包含多个字体的 FontFallBackRule 新实例。
+// 创建一个带有多个字体的 FontFallBackRule 新实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
@@ -40,7 +40,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 
 ---
 
-## FontFallBackRule(uint, uint, string[]) {#constructor_1}
+## FontFallBackRule(uint, uint, string[]) {#constructor_1}
 
 创建新实例。
 
@@ -48,20 +48,20 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| startIndex | UInt32 | Unicode 范围的起始索引 |
-| endIndex | UInt32 | Unicode 范围的结束索引 |
-| fontNames | String[] | 字体名称或名称（用逗号分隔）用于后备 |
+| 参数      | 类型     | 描述                         |
+| --------- | -------- | ---------------------------- |
+| startIndex | UInt32   | Unicode 范围的起始索引      |
+| endIndex   | UInt32   | Unicode 范围的结束索引      |
+| fontNames  | String[] | 要用于回退的字体名称（逗号分隔） |
 
 ### 示例
 
 ```csharp
 [C#]
-// 创建一个包含两个字体的 FontFallBackRule 新实例
+// 创建一个带有两个字体的 FontFallBackRule 新实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
-// 创建一个包含多个字体的 FontFallBackRule 新实例。
+// 创建一个带有多个字体的 FontFallBackRule 新实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 

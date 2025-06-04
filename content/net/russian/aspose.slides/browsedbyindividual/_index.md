@@ -1,15 +1,15 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Slides для .NET API Справочник
-description: Просмотр в отдельном окне
+second_title: Aspose.Sildes для .NET API Справочник
+description: Просмотренный индивидуально окно
 type: docs
 weight: 970
 url: /ru/aspose.slides/browsedbyindividual/
 ---
 
-## Класс BrowsedByIndividual
+## BrowsedByIndividual class
 
-Просмотр в отдельном окне
+Просмотренный индивидуально (окно)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Также см.
 
 * класс [SlideShowType](../slideshowtype)
 * пространство имен [Aspose.Slides](../../aspose.slides)

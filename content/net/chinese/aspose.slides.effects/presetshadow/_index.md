@@ -1,13 +1,13 @@
 ---
 title: PresetShadow
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示预设阴影效果。
 type: docs
 weight: 3510
 url: /zh/aspose.slides.effects/presetshadow/
 ---
 
-## PresetShadow 类
+## PresetShadow class
 
 表示预设阴影效果。
 
@@ -30,9 +30,9 @@ public sealed class PresetShadow : IPresetShadow
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | 确定指定的 [`PresetShadow`](../presetshadow) 是否等于当前的 [`PresetShadow`](../presetshadow)。 |
 | [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 获取应用继承的有效预设阴影效果数据。 |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 作为特定类型的哈希函数。 |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 为特定类型提供哈希函数。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IPresetShadow](../ipresetshadow)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

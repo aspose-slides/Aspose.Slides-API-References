@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Направление перехода. Чтение/запись TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/flythroughtransition/direction/
 ---
 
-## Свойство FlyThroughTransition.Direction
+## FlyThroughTransition.Direction свойство
 
 Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 

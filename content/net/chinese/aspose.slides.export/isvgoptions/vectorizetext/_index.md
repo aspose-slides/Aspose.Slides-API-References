@@ -1,7 +1,7 @@
 ---
 title: VectorizeText
-second_title: Aspose.Slides for .NET API Reference
-description: 确定幻灯片上的文本是否将作为图形保存。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定幻灯片上的文本是否将作为图形保存。可读/可写布尔值。
 type: docs
 weight: 150
 url: /zh/aspose.slides.export/isvgoptions/vectorizetext/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/isvgoptions/vectorizetext/
 
 ## ISVGOptions.VectorizeText 属性
 
-确定幻灯片上的文本是否将作为图形保存。可读写布尔值。
+确定幻灯片上的文本是否将作为图形保存。可读/可写布尔值。
 
 ```csharp
 public bool VectorizeText { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISVGOptions](../../isvgoptions)
 * 命名空间 [Aspose.Slides.Export](../../isvgoptions)

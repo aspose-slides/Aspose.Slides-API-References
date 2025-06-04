@@ -18,15 +18,15 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArg | IMathElement | Базовый аргумент для применения индексов |
+| baseArg | IMathElement | Основной аргумент для применения индексов |
 | subScript | IMathElement | нижний правый индекс |
 | superScript | IMathElement | верхний правый индекс |
 
-### Возвращаемое значение
+### Значение Возврата
 
 новый IMathLeftSubSuperscriptElement
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * интерфейс [IMathElement](../../imathelement)

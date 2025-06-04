@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si hay líneas de serie para esta serie y series afines. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre esta es una proyección de la propiedad apropiada del grupo. Por lo tanto, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad de lectura/escritura ParentSeriesGroup.HasSeriesLines para cambiar el valor. Utilice la propiedad ParentSeriesGroup.SeriesLinesFormat para dar formato a las líneas de serie. Booleano de solo lectura.
+description: Determina si hay líneas de series para esta serie y series afines. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre esta es una proyección de la propiedad del grupo correspondiente. Y así, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad ParentSeriesGroup.HasSeriesLines de lectura/escritura para cambiar el valor. Utilice la propiedad ParentSeriesGroup.SeriesLinesFormat para formatear las líneas de la serie. Booleano de solo lectura.
 type: docs
 weight: 140
 url: /es/aspose.slides.charts/ichartseries/hasserieslines/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichartseries/hasserieslines/
 
 ## IChartSeries.HasSeriesLines property
 
-Determina si hay líneas de serie para esta serie y series afines. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre: esta es una proyección de la propiedad apropiada del grupo. Por lo tanto, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad de lectura/escritura ParentSeriesGroup.HasSeriesLines para cambiar el valor. Utilice la propiedad ParentSeriesGroup.SeriesLinesFormat para dar formato a las líneas de serie. Booleano de solo lectura.
+Determina si hay líneas de series para esta serie y series afines. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre: esta es una proyección de la propiedad del grupo correspondiente. Y así, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad ParentSeriesGroup.HasSeriesLines de lectura/escritura para cambiar el valor. Utilice la propiedad ParentSeriesGroup.SeriesLinesFormat para formatear las líneas de la serie. Booleano de solo lectura.
 
 ```csharp
 public bool HasSeriesLines { get; }

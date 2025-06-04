@@ -1,6 +1,6 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 定义效果的后动画类型。读/写 AfterAnimationTypeaspose.slides.animation/ieffect/afteranimationtype。
 type: docs
 weight: 20
@@ -24,12 +24,12 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // 获取第一张幻灯片的第一个效果。
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // 将效果的后动画更改为“在下次鼠标点击时隐藏”
+    // 将效果的后动画更改为“下次鼠标点击时隐藏”
     firstSlideEffect.AfterAnimationType = AfterAnimationType.HideOnNextMouseClick;
 }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [AfterAnimationType](../../afteranimationtype)
 * interface [IEffect](../../ieffect)

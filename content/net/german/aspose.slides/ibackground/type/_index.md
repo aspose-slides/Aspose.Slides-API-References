@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Typ der Hintergrundfüllung zurück. Lese-/Schreibzugriff auf BackgroundTypeaspose.slides/backgroundtype.
+description: Gibt einen Typ von Hintergrundfüllung zurück. Lese-/Schreibzugriff auf BackgroundTypeaspose.slides/backgroundtype.
 type: docs
 weight: 70
 url: /de/aspose.slides/ibackground/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibackground/type/
 
 ## IBackground.Type-Eigenschaft
 
-Gibt einen Typ der Hintergrundfüllung zurück. Lese-/Schreibzugriff auf [`BackgroundType`](../../backgroundtype).
+Gibt einen Typ von Hintergrundfüllung zurück. Lese-/Schreibzugriff auf [`BackgroundType`](../../backgroundtype).
 
 ```csharp
 public BackgroundType Type { get; set; }

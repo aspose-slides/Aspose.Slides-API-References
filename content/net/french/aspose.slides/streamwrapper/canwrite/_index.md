@@ -1,15 +1,15 @@
 ---
 title: CanWrite
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Booléen en lecture seule.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Boolean en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/streamwrapper/canwrite/
 ---
 
-## Propriété StreamWrapper.CanWrite
+## StreamWrapper.CanWrite propriété
 
-Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Booléen en lecture seule.
+Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Boolean en lecture seule.
 
 ```csharp
 public bool CanWrite { get; }

@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Copiar al array especificado.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Copiar a un array especificado.
 type: docs
 weight: 70
 url: /es/aspose.slides/customxmlpartcollection/copyto/
 ---
 
-## Método CustomXmlPartCollection.CopyTo
+## CustomXmlPartCollection.CopyTo método
 
-Copiar al array especificado.
+Copiar a un array especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -23,7 +23,7 @@ public void CopyTo(Array array, int index)
 ### Ver También
 
 * clase [CustomXmlPartCollection](../../customxmlpartcollection)
-* espacio de nombres [Aspose.Slides](../../customxmlpartcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../customxmlpartcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

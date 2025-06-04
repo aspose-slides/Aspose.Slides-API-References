@@ -1,15 +1,15 @@
 ---
 title: BackWall
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает объект, который позволяет изменить формат задней стены 3D-диаграммы. Только для чтения IChartWallaspose.slides.charts/ichartwall.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает объект, который позволяет изменить формат задней стенки 3D графика. Только для чтения IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichart/backwall/
 ---
 
-## Свойство IChart.BackWall
+## IChart.BackWall свойство
 
-Возвращает объект, который позволяет изменить формат задней стены 3D-диаграммы. Только для чтения [`IChartWall`](../../ichartwall).
+Возвращает объект, который позволяет изменить формат задней стенки 3D графика. Только для чтения [`IChartWall`](../../ichartwall).
 
 ```csharp
 public IChartWall BackWall { get; }

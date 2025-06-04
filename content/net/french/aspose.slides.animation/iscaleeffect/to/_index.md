@@ -1,21 +1,21 @@
 ---
 title: To
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'emplacement cible pour un effet d'échelle d'animation en pourcentages. Lecture/écriture PointF.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie l'emplacement cible pour un effet de mise à l'échelle d'animation en pourcentages. Lecture/écriture PointF.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/iscaleeffect/to/
 ---
 
-## Propriété IScaleEffect.To
+## IScaleEffect.To propriété
 
-Spécifie l'emplacement cible pour un effet d'échelle d'animation (en pourcentages). Lecture/écriture PointF.
+Spécifie l'emplacement cible pour un effet de mise à l'échelle d'animation (en pourcentages). Lecture/écriture PointF.
 
 ```csharp
 public PointF To { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IScaleEffect](../../iscaleeffect)
 * namespace [Aspose.Slides.Animation](../../iscaleeffect)

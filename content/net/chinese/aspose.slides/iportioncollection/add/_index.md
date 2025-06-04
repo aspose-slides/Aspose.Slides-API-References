@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 将一个 Portion 添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将 Portion 添加到集合的末尾。
 type: docs
 weight: 40
 url: /zh/aspose.slides/iportioncollection/add/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iportioncollection/add/
 
 ## IPortionCollection.Add 方法
 
-将一个 Portion 添加到集合的末尾。
+将 Portion 添加到集合的末尾。
 
 ```csharp
 public void Add(IPortion value)

@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Slides para referencia de API .NET
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/hsl/gethashcode/
 ---
 
-## Método HSL.GetHashCode
+## HSL.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -15,11 +15,11 @@ Sirve como una función hash para un tipo particular.
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Un código hash para el objeto actual.
 
-### Véase También
+### Véase también
 
 * clase [HSL](../../hsl)
 * espacio de nombres [Aspose.Slides.Effects](../../hsl)

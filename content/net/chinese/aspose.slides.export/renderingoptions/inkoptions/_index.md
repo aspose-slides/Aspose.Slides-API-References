@@ -1,7 +1,7 @@
 ---
 title: InkOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 提供控制导出文档中 Ink 对象外观的选项。只读 IInkOptionsaspose.slides.export/iinkoptions
+description: 提供控制导出文档中Ink对象外观的选项。只读 IInkOptionsaspose.slides.export/iinkoptions
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/renderingoptions/inkoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/renderingoptions/inkoptions/
 
 ## RenderingOptions.InkOptions 属性
 
-提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../../iinkoptions)
+提供控制导出文档中Ink对象外观的选项。只读 [`IInkOptions`](../../iinkoptions)
 
 ```csharp
 public IInkOptions InkOptions { get; }

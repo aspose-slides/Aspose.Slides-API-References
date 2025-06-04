@@ -1,15 +1,15 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhält effektive Tabellenzellenformatierungseigenschaften mit angewendeter Vererbung und Tabellenstilen.
+description: Erhält die effektiven Formatierungseigenschaften von Tabellenzellen mit angewandter Vererbung und Tabellenstilen.
 type: docs
 weight: 90
 url: /de/aspose.slides/icellformat/geteffective/
 ---
 
-## ICellFormat.GetEffective Methode
+## ICellFormat.GetEffective-Methode
 
-Erhält effektive Tabellenzellenformatierungseigenschaften mit angewendeter Vererbung und Tabellenstilen.
+Erhält die effektiven Formatierungseigenschaften von Tabellenzellen mit angewandter Vererbung und Tabellenstilen.
 
 ```csharp
 public ICellFormatEffectiveData GetEffective()

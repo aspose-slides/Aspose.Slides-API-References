@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Determina si las dos instancias de Hyperlink son iguales.
 type: docs
 weight: 120
@@ -19,14 +19,14 @@ public bool Equals(IHyperlink hlink)
 | --- | --- | --- |
 | hlink | IHyperlink | El Hyperlink con el que comparar el Hyperlink actual. |
 
-### Valor de retorno
+### Valor de Retorno
 
 **true** si el Hyperlink especificado es igual al Hyperlink actual; de lo contrario, **false**.
 
-### Véase también
+### Ver También
 
 * interfaz [IHyperlink](../../ihyperlink)
 * espacio de nombres [Aspose.Slides](../../ihyperlink)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

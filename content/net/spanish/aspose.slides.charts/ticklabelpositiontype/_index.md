@@ -1,7 +1,7 @@
 ---
 title: TickLabelPositionType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el tipo de posición de las etiquetas de marcas de ticks en el eje especificado.
+second_title: Aspose.Slides para .NET API Reference
+description: Representa el tipo de posición de las etiquetas de marcas en el eje especificado.
 type: docs
 weight: 2360
 url: /es/aspose.slides.charts/ticklabelpositiontype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ticklabelpositiontype/
 
 ## Enumeración TickLabelPositionType
 
-Representa el tipo de posición de las etiquetas de marcas de ticks en el eje especificado.
+Representa el tipo de posición de las etiquetas de marcas en el eje especificado.
 
 ```csharp
 public enum TickLabelPositionType
@@ -19,9 +19,9 @@ public enum TickLabelPositionType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| High | `0` | Especifica que las etiquetas del eje deben estar en el extremo alto del eje perpendicular. |
-| Low | `1` | Especifica que las etiquetas del eje deben estar en el extremo bajo del eje perpendicular. |
-| NextTo | `2` | Especifica que las etiquetas del eje deben estar al lado del eje. |
+| High | `0` | Especifica que las etiquetas del eje estarán en el extremo alto del eje perpendicular. |
+| Low | `1` | Especifica que las etiquetas del eje estarán en el extremo bajo del eje perpendicular. |
+| NextTo | `2` | Especifica que las etiquetas del eje estarán junto al eje. |
 | None | `3` | Especifica que las etiquetas del eje no se dibujan. |
 
 ### Ver También

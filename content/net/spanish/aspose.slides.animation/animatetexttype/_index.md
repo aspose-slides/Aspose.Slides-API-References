@@ -20,12 +20,12 @@ public enum AnimateTextType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | AllAtOnce | `0` | Animar todo el texto a la vez. |
-| ByWord | `1` | Animar el texto palabra por palabra. |
-| ByLetter | `2` | Animar el texto letra por letra. |
+| ByWord | `1` | Animar el texto por palabra. |
+| ByLetter | `2` | Animar el texto por letra. |
 
-### Ver También
+### Véase También
 
-* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

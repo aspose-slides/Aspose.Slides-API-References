@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有闭合字幕。
 type: docs
 weight: 40

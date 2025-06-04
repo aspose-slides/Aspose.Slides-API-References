@@ -1,7 +1,7 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides для справочника API .NET
-description: Определяет, запрещена ли смена типа фигуры. Свойство типа Boolean для чтения и записи.
+second_title: Aspose.Slides для .NET API Reference
+description: Определяет, запрещено ли изменение типа фигуры. Считываемый/записываемый логический тип.
 type: docs
 weight: 90
 url: /ru/aspose.slides/autoshapelock/shapetypelocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/autoshapelock/shapetypelocked/
 
 ## AutoShapeLock.ShapeTypeLocked свойство
 
-Определяет, запрещена ли смена типа фигуры. Свойство типа Boolean для чтения и записи.
+Определяет, запрещено ли изменение типа фигуры. Считываемый/записываемый логический тип.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [AutoShapeLock](../../autoshapelock)
 * пространство имен [Aspose.Slides](../../autoshapelock)

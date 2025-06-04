@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 80
 url: /de/aspose.slides.animation/behaviorcollection/getenumerator/
 ---
 
-## BehaviorCollection.GetEnumerator Methode
+## BehaviorCollection.GetEnumerator-Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 
@@ -19,7 +19,7 @@ public IEnumerator<IBehavior> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehavior](../../ibehavior)
 * Klasse [BehaviorCollection](../../behaviorcollection)

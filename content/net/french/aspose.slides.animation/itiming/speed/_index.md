@@ -1,7 +1,7 @@
 ---
 title: Speed
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le pourcentage par lequel accélérer ou ralentir le timing. Lecture/écriture Single.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie le pourcentage par lequel accélérer ou ralentir le timing. Lire/écrire Single.
 type: docs
 weight: 110
 url: /fr/aspose.slides.animation/itiming/speed/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/itiming/speed/
 
 ## Propriété ITiming.Speed
 
-Spécifie le pourcentage par lequel accélérer (ou ralentir) le timing. Lecture/écriture Single.
+Spécifie le pourcentage par lequel accélérer (ou ralentir) le timing. Lire/écrire Single.
 
 ```csharp
 public float Speed { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITiming](../../itiming)
 * namespace [Aspose.Slides.Animation](../../itiming)

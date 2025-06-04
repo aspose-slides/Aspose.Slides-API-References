@@ -1,6 +1,6 @@
 ---
 title: IChartSeriesReadonlyCollection
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет собой коллекцию только для чтения IChartSeries./ichartseries
 type: docs
 weight: 1890
@@ -21,7 +21,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Получает элемент по указанному индексу. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * интерфейс [IChartSeries](../ichartseries)

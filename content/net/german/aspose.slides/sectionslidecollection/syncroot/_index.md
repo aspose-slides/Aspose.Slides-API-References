@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Synchronisierungswurzel zurück. Nur lesbares Objekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine Synchronisationswurzel zurück. Nur-lesbares Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides/sectionslidecollection/syncroot/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/sectionslidecollection/syncroot/
 
 ## SectionSlideCollection.SyncRoot-Eigenschaft
 
-Gibt eine Synchronisierungswurzel zurück. Nur lesbares Objekt.
+Gibt eine Synchronisationswurzel zurück. Nur-lesbares Objekt.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [SectionSlideCollection](../../sectionslidecollection)
 * Namespace [Aspose.Slides](../../sectionslidecollection)

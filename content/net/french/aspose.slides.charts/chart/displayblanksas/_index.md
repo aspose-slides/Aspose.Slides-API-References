@@ -1,6 +1,6 @@
 ---
 title: DisplayBlanksAs
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie ou définit la manière de tracer les cellules vides sur un graphique. Lecture/écriture DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype.
 type: docs
 weight: 80

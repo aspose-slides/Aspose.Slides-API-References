@@ -1,13 +1,13 @@
 ---
 title: MathPortion
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une portion avec un contexte mathématique à l'intérieur.
 type: docs
 weight: 8660
 url: /fr/aspose.slides.mathtext/mathportion/
 ---
 
-## Classe MathPortion
+## MathPortion class
 
 Représente une portion avec un contexte mathématique à l'intérieur.
 
@@ -27,7 +27,7 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Retourne un champ de cette portion. Lecture seule [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Paragraphe mathématique |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retourne l'objet de formatage qui contient les propriétés de formatage explicitement définies de la portion de texte sans hébergement appliqué. Lecture seule [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Retourne un objet de formatage qui contient des propriétés de formatage explicitement définies de la portion de texte sans héritage appliqué. Lecture seule [`IPortionFormat`](../../aspose.slides/iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | Obtient ou définit le texte brut d'une portion. Lecture/écriture String. |
 
 ## Méthodes
@@ -36,8 +36,8 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Convertit cette portion en champ mis à jour automatiquement. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Convertit cette portion en champ mis à jour automatiquement. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtient les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère y compris le décalage latéral gauche. La coordonnée Y inclut le décalage supérieur. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Obtient les coordonnées du rectangle qui délimite la portion. Le rectangle inclut toutes les lignes de texte dans la portion, y compris les vides. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Obtient les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le décalage gauche. La coordonnée Y inclut le décalage supérieur. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Obtient les coordonnées du rectangle qui délimite la portion. Le rectangle inclut toutes les lignes de texte dans la portion, y compris celles vides. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Convertit cette portion de champ en portion simple. |
 
 ### Exemples
@@ -55,7 +55,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Portion](../../aspose.slides/portion)
 * interface [IMathPortion](../imathportion)

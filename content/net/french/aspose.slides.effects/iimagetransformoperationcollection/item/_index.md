@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un IImageTransformOperationaspose.slides.effects/iimagetransformoperation de la collection par son index.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/iimagetransformoperationcollection/item/
 ---
 
-## Indice de IImageTransformOperationCollection
+## IImageTransformOperationCollection indexer
 
 Renvoie un [`IImageTransformOperation`](../../iimagetransformoperation) de la collection par son index.
 

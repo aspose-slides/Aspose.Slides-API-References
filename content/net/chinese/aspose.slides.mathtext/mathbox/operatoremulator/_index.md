@@ -1,7 +1,7 @@
 ---
 title: OperatorEmulator
-second_title: Aspose.Slides for .NET API 参考
-description: 操作符仿真器。当为真时，框及其内容作为单个操作符行为并继承操作符的属性。这意味着，例如，字符可以作为换行点并可以与其他操作符对齐。操作符仿真器通常在一个或多个字形组合形成操作符时使用，例如 '=='。默认值：false
+second_title: Aspose.Sildes for .NET API Reference
+description: 操作符仿真器。当为真时，框及其内容作为一个单一的操作符来表现，并继承操作符的属性。这意味着，例如，字符可以作为换行的一个点，并且可以对齐到其他操作符。操作符仿真器通常在一个或多个字形组合形成操作符时使用，例如 '=='. 默认值：false
 type: docs
 weight: 70
 url: /zh/aspose.slides.mathtext/mathbox/operatoremulator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbox/operatoremulator/
 
 ## MathBox.OperatorEmulator 属性
 
-操作符仿真器。当为真时，框及其内容作为单个操作符行为并继承操作符的属性。这意味着，例如，字符可以作为换行点并可以与其他操作符对齐。操作符仿真器通常在一个或多个字形组合形成操作符时使用，例如 '=='. 默认值：false
+操作符仿真器。当为真时，框及其内容作为一个单一的操作符来表现，并继承操作符的属性。这意味着，例如，字符可以作为换行的一个点，并且可以对齐到其他操作符。操作符仿真器通常在一个或多个字形组合形成操作符时使用，例如 '=='. 默认值：false
 
 ```csharp
 public bool OperatorEmulator { get; set; }
@@ -25,7 +25,7 @@ MathBox box = new MathBox(new MathematicalText("=="));
 box.OperatorEmulator = true;
 ```
 
-### 参见
+### 另请参阅
 
 * class [MathBox](../../mathbox)
 * namespace [Aspose.Slides.MathText](../../mathbox)

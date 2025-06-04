@@ -1,13 +1,13 @@
 ---
 title: BorderRight
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает объект свойств линии правой границы. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icellformat/borderright/
 ---
 
-## Свойство ICellFormat.BorderRight
+## ICellFormat.BorderRight свойство
 
 Возвращает объект свойств линии правой границы. Только для чтения [`ILineFormat`](../../ilineformat).
 

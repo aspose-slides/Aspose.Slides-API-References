@@ -1,15 +1,15 @@
 ---
 title: Color
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Farbformat eines Aufzählungszeichens eines Absatzes ohne Vererbung zurück. Nur lesbar IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Farbformat einer Aufzählung eines Absatzes ohne Vererbung zurück. Schreibgeschütztes IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /de/aspose.slides/ibulletformat/color/
 ---
 
-## IBulletFormat.Color-Eigenschaft
+## IBulletFormat.Color Eigenschaften
 
-Gibt das Farbformat eines Aufzählungszeichens eines Absatzes ohne Vererbung zurück. Nur lesbar [`IColorFormat`](../../icolorformat).
+Gibt das Farbformat einer Aufzählung eines Absatzes ohne Vererbung zurück. Schreibgeschützt [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }

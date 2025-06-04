@@ -1,6 +1,6 @@
 ---
 title: GradientFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie le format de remplissage dégradé. Lecture seule IGradientFormataspose.slides/igradientformat.
 type: docs
 weight: 30

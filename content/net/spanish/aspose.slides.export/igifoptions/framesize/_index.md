@@ -1,13 +1,13 @@
 ---
 title: FrameSize
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene o establece el tamaño del marco.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/igifoptions/framesize/
 ---
 
-## Propiedad IGifOptions.FrameSize
+## IGifOptions.FrameSize propiedad
 
 Obtiene o establece el tamaño del marco.
 
@@ -17,12 +17,12 @@ public Size FrameSize { get; set; }
 
 ### Observaciones
 
-Si el tamaño está vacío, entonces el valor se tomará de [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
+Si el tamaño está vacío, entonces se tomará el valor de [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
 
-### Véase También
+### Véase también
 
 * interfaz [IGifOptions](../../igifoptions)
-* namespace [Aspose.Slides.Export](../../igifoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Export](../../igifoptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

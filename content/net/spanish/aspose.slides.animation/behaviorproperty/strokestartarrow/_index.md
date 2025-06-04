@@ -15,7 +15,7 @@ Representa la propiedad 'stroke.startArrow'
 public static BehaviorProperty StrokeStartArrow { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

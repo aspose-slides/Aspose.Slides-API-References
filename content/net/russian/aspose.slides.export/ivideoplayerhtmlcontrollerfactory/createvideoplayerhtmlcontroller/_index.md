@@ -1,15 +1,15 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Aspose.Slides для .NET API Reference
-description: Создать контроллер HTML видеоплеера.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создание контроллера HTML видео плеера.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
 
-## Метод IVideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController
+## IVideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController метод
 
-Создать контроллер HTML видеоплеера.
+Создание контроллера HTML видео плеера.
 
 ```csharp
 public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, string fileName, 
@@ -24,7 +24,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 
 ### Возвращаемое значение
 
-Контроллер HTML видеоплеера [`IVideoPlayerHtmlController`](../../ivideoplayerhtmlcontroller)
+Контроллер HTML видео плеера [`IVideoPlayerHtmlController`](../../ivideoplayerhtmlcontroller)
 
 ### См. также
 

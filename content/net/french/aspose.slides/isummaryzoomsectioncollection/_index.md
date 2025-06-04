@@ -1,7 +1,7 @@
 ---
 title: ISummaryZoomSectionCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection d'objets Summary Zoom Section.
+description: Représente une collection d'objets de section de zoom résumé.
 type: docs
 weight: 6950
 url: /fr/aspose.slides/isummaryzoomsectioncollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/isummaryzoomsectioncollection/
 
 ## Interface ISummaryZoomSectionCollection
 
-Représente une collection d'objets Summary Zoom Section.
+Représente une collection d'objets de section de zoom résumé.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -25,13 +25,13 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Nom | Description |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Crée un nouvel objet Summary Zoom Section et l'ajoute à la collection |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Crée un nouvel objet de section de zoom résumé et l'ajoute à la collection |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Supprime tous les objets SummaryZoomSection de la collection. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Renvoie l'élément Summary Zoom Section pour la section donnée. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Renvoie l'élément de section de zoom résumé pour la section donnée. |
 | [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Renvoie un index de l'objet SummaryZoomSection spécifié. |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Supprime l'objet Summary Zoom Section de la collection. |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Supprime l'objet de section de zoom résumé de la collection. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [ISummaryZoomSection](../isummaryzoomsection)

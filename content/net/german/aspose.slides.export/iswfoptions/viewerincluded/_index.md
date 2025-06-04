@@ -1,6 +1,6 @@
 ---
 title: ViewerIncluded
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt an, ob das generierte SWF-Dokument den integrierten Dokumentenbetrachter enthalten soll oder nicht. Standard ist true.
 type: docs
 weight: 170
@@ -15,7 +15,7 @@ Gibt an, ob das generierte SWF-Dokument den integrierten Dokumentenbetrachter en
 public bool ViewerIncluded { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISwfOptions](../../iswfoptions)
 * Namespace [Aspose.Slides.Export](../../iswfoptions)

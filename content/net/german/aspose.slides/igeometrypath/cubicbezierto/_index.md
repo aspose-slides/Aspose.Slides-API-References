@@ -1,6 +1,6 @@
 ---
 title: CubicBezierTo
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt eine kubische Bezier-Kurve am Ende des Pfades hinzu
 type: docs
 weight: 60
@@ -17,11 +17,11 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point1 | PointF | Erster Richtungspunkt |
-| point2 | PointF | Zweiter Richtungspunkt |
+| point1 | PointF | Erster Richtungs-Punkt |
+| point2 | PointF | Zweiter Richtungs-Punkt |
 | point3 | PointF | Endpunkt |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGeometryPath](../../igeometrypath)
 * Namespace [Aspose.Slides](../../igeometrypath)
@@ -39,14 +39,14 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x1 | Single | X-Koordinate des ersten Richtungspunkts |
-| y1 | Single | Y-Koordinate des ersten Richtungspunkts |
-| x2 | Single | X-Koordinate des zweiten Richtungspunkts |
-| y2 | Single | Y-Koordinate des zweiten Richtungspunkts |
+| x1 | Single | X-Koordinate des ersten Richtungs-Punkts |
+| y1 | Single | Y-Koordinate des ersten Richtungs-Punkts |
+| x2 | Single | X-Koordinate des zweiten Richtungs-Punkts |
+| y2 | Single | Y-Koordinate des zweiten Richtungs-Punkts |
 | x3 | Single | X-Koordinate des Endpunkts |
 | y3 | Single | Y-Koordinate des Endpunkts |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGeometryPath](../../igeometrypath)
 * Namespace [Aspose.Slides](../../igeometrypath)
@@ -64,8 +64,8 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point1 | PointF | Erster Richtungspunkt |
-| point2 | PointF | Zweiter Richtungspunkt |
+| point1 | PointF | Erster Richtungs-Punkt |
+| point2 | PointF | Zweiter Richtungs-Punkt |
 | point3 | PointF | Endpunkt |
 | index | UInt32 | Index des Segments in PathData |
 
@@ -75,7 +75,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 | --- | --- |
 | ArgumentOutOfRangeException | Segmentindex liegt außerhalb des PathData-Bereichs |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGeometryPath](../../igeometrypath)
 * Namespace [Aspose.Slides](../../igeometrypath)
@@ -93,10 +93,10 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x1 | Single | X-Koordinate des ersten Richtungspunkts |
-| y1 | Single | Y-Koordinate des ersten Richtungspunkts |
-| x2 | Single | X-Koordinate des zweiten Richtungspunkts |
-| y2 | Single | Y-Koordinate des zweiten Richtungspunkts |
+| x1 | Single | X-Koordinate des ersten Richtungs-Punkts |
+| y1 | Single | Y-Koordinate des ersten Richtungs-Punkts |
+| x2 | Single | X-Koordinate des zweiten Richtungs-Punkts |
+| y2 | Single | Y-Koordinate des zweiten Richtungs-Punkts |
 | x3 | Single | X-Koordinate des Endpunkts |
 | y3 | Single | Y-Koordinate des Endpunkts |
 | index | UInt32 | Index des Segments in PathData |
@@ -107,7 +107,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 | --- | --- |
 | ArgumentOutOfRangeException | Segmentindex liegt außerhalb des PathData-Bereichs |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGeometryPath](../../igeometrypath)
 * Namespace [Aspose.Slides](../../igeometrypath)

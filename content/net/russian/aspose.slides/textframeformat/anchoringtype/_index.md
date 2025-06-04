@@ -1,21 +1,21 @@
 ---
 title: AnchoringType
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает вертикальный якорный текст в TextFrame. Чтение/запись TextAnchorTypeaspose.slides/textanchortype.
+description: Возвращает или устанавливает вертикальный текст якоря в TextFrame. Чтение/запись TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/textframeformat/anchoringtype/
 ---
 
-## Свойство TextFrameFormat.AnchoringType
+## TextFrameFormat.AnchoringType property
 
-Возвращает или устанавливает вертикальный якорный текст в TextFrame. Чтение/запись [`TextAnchorType`](../../textanchortype).
+Возвращает или устанавливает вертикальный текст якоря в TextFrame. Чтение/запись [`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType AnchoringType { get; set; }
 ```
 
-### Также смотри
+### See Also
 
 * enum [TextAnchorType](../../textanchortype)
 * class [TextFrameFormat](../../textframeformat)

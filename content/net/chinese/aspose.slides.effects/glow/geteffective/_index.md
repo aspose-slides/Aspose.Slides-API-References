@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取有效的 Glow 效果数据，应用了继承。
+description: 获取应用继承的有效 Glow 效果数据。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/glow/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/glow/geteffective/
 
 ## Glow.GetEffective 方法
 
-获取有效的 Glow 效果数据，应用了继承。
+获取应用继承的有效 Glow 效果数据。
 
 ```csharp
 public IGlowEffectiveData GetEffective()

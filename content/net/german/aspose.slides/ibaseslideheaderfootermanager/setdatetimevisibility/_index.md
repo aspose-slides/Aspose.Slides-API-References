@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeVisibility
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Folie.
+description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit der Folie.
 type: docs
 weight: 60
 url: /de/aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility/
 
 ## IBaseSlideHeaderFooterManager.SetDateTimeVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Folie.
+Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit der Folie.
 
 ```csharp
 public void SetDateTimeVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetDateTimeVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für Datum und Uhrzeit sichtbar, andernfalls - blendet ihn aus. |
+| isVisible | Boolean | true - macht einen Platzhalter für Datum und Uhrzeit sichtbar, andernfalls - versteckt ihn. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../ibaseslideheaderfootermanager)

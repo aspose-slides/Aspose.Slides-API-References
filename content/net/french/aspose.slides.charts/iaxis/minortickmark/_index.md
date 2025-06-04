@@ -1,7 +1,7 @@
 ---
 title: MinorTickMark
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le type de marque de graduation mineure pour l'axe spécifié. Propriété en lecture/écriture TickMarkTypeaspose.slides.charts/tickmarktype.
+description: Représente le type de marque de graduation mineure pour l'axe spécifié. Lecture/écriture TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 400
 url: /fr/aspose.slides.charts/iaxis/minortickmark/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/minortickmark/
 
 ## Propriété IAxis.MinorTickMark
 
-Représente le type de marque de graduation mineure pour l'axe spécifié. Propriété en lecture/écriture [`TickMarkType`](../../tickmarktype).
+Représente le type de marque de graduation mineure pour l'axe spécifié. Lecture/écriture [`TickMarkType`](../../tickmarktype).
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }

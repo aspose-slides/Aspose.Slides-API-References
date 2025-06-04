@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnit
 second_title: Aspose.Slides for .NET API 参考
-description: 指定轴的实际主要单位。在获取实际值之前，请调用方法 IChart.ValidateChartLayout。
+description: 指定轴的实际主单位。请先调用方法 IChart.ValidateChartLayout 以获取实际值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/axis/actualmajorunit/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/actualmajorunit/
 
 ## Axis.ActualMajorUnit 属性
 
-指定轴的实际主要单位。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。
+指定轴的实际主单位。请先调用方法 IChart.ValidateChartLayout() 以获取实际值。
 
 ```csharp
 public double ActualMajorUnit { get; }
 ```
 
-### 另请参见
+### 参见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

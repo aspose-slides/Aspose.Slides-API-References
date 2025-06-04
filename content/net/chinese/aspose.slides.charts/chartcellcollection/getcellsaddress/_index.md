@@ -1,6 +1,6 @@
 ---
 title: GetCellsAddress
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回工作簿中一组单元格的地址。
 type: docs
 weight: 40

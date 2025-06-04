@@ -1,7 +1,7 @@
 ---
 title: CreateMathematicalText
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstelle leeres mathematisches Textelement
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erstellen Sie leeres mathematisches Textelement
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext/
 
 ## CreateMathematicalText() {#createmathematicaltext}
 
-Erstelle leeres mathematisches Textelement
+Erstellen Sie ein leeres mathematisches Textelement
 
 ```csharp
 public IMathematicalText CreateMathematicalText()
@@ -30,7 +30,7 @@ neues mathematisches Text
 
 ## CreateMathematicalText(char) {#createmathematicaltext_1}
 
-Erstelle mathematisches Textelement mit dem angegebenen Wert
+Erstellen Sie ein mathematisches Textelement mit dem angegebenen Wert
 
 ```csharp
 public IMathematicalText CreateMathematicalText(char mathSymbol)
@@ -55,7 +55,7 @@ neues mathematisches Text
 
 ## CreateMathematicalText(string) {#createmathematicaltext_2}
 
-Erstelle leeres mathematisches Textelement mit dem angegebenen Wert
+Erstellen Sie ein leeres mathematisches Textelement mit dem angegebenen Wert
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText)
@@ -80,7 +80,7 @@ neues mathematisches Text
 
 ## CreateMathematicalText(string, IPortionFormat) {#createmathematicaltext_3}
 
-Erstelle leeres mathematisches Textelement mit dem angegebenen Wert und den Formatierungseigenschaften
+Erstellen Sie ein leeres mathematisches Textelement mit dem angegebenen Wert und den Formatierungseigenschaften
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat portionFormat)

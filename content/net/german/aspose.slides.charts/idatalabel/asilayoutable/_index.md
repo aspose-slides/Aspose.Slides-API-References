@@ -1,7 +1,7 @@
 ---
 title: AsILayoutable
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das ILayoutable-Interface zurück. Nur lesendes ILayoutableaspose.slides.charts/ilayoutable.
+description: Gibt die ILayoutable-Schnittstelle zurück. Nur-Lese ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/idatalabel/asilayoutable/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/idatalabel/asilayoutable/
 
 ## IDataLabel.AsILayoutable-Eigenschaft
 
-Gibt das ILayoutable-Interface zurück. Nur lesendes [`ILayoutable`](../../ilayoutable).
+Gibt die ILayoutable-Schnittstelle zurück. Nur-Lese [`ILayoutable`](../../ilayoutable).
 
 ```csharp
 public ILayoutable AsILayoutable { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILayoutable](../../ilayoutable)
 * Schnittstelle [IDataLabel](../../idatalabel)

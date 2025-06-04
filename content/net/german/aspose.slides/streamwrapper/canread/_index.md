@@ -1,7 +1,7 @@
 ---
 title: CanRead
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der anzeigt, ob der aktuelle Stream das Lesen unterstützt. Nur-Lese-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der aktuelle Stream das Lesen unterstützt. Nur-Lese-Boolescher Wert.
 type: docs
 weight: 20
 url: /de/aspose.slides/streamwrapper/canread/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/streamwrapper/canread/
 
 ## StreamWrapper.CanRead-Eigenschaft
 
-Gibt einen Wert zurück, der anzeigt, ob der aktuelle Stream das Lesen unterstützt. Nur-Lese-Boolean.
+Gibt einen Wert zurück, der angibt, ob der aktuelle Stream das Lesen unterstützt. Nur-Lese-Boolescher Wert.
 
 ```csharp
 public bool CanRead { get; }

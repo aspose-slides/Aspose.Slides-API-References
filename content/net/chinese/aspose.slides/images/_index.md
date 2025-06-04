@@ -1,15 +1,15 @@
 ---
 title: Images
-second_title: Aspose.Slides for .NET API 参考
-description: 实例化和操作 IImage 的方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 方法来实例化并处理 IImage./iimage.
 type: docs
 weight: 7240
 url: /zh/aspose.slides/images/
 ---
 
-## 图像类
+## Images class
 
-实例化和操作 [`IImage`](../iimage) 的方法。
+方法来实例化并处理 [`IImage`](../iimage)。
 
 ```csharp
 public static class Images
@@ -19,11 +19,11 @@ public static class Images
 
 | 名称 | 描述 |
 | --- | --- |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | 从文件创建图像。 |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | 从文件创建图像。 |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | 从流创建图像。 |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | 从流创建图像。 |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | 从流创建图像。 |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | 从文件创建图像 . |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | 从文件创建图像 |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | 从流创建图像 . |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | 从流创建图像 . |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | 从流创建图像 . |
 
 ### 另见
 

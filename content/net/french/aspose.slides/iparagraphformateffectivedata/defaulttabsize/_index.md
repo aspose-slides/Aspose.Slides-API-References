@@ -1,21 +1,21 @@
 ---
 title: DefaultTabSize
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la taille de tabulation par défaut. Propriété en lecture seule de type Single.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie la taille de tabulation par défaut. License de lecture seule Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides/iparagraphformateffectivedata/defaulttabsize/
 ---
 
-## Propriété IParagraphFormatEffectiveData.DefaultTabSize
+## IParagraphFormatEffectiveData.DefaultTabSize propriété
 
-Renvoie la taille de tabulation par défaut. Propriété en lecture seule de type Single.
+Renvoie la taille de tabulation par défaut. License de lecture seule Single.
 
 ```csharp
 public float DefaultTabSize { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * namespace [Aspose.Slides](../../iparagraphformateffectivedata)

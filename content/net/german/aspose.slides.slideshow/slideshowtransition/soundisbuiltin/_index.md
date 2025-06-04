@@ -1,7 +1,7 @@
 ---
 title: SoundIsBuiltIn
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob dieser Sound ein eingebauter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die generierende Anwendung benachrichtigt, das Namensattribut zu überprüfen, das für diesen Sound in ihrer Liste der eingebauten Sounds angegeben ist, und kann dann bei Bedarf einen benutzerdefinierten Namen oder eine Benutzeroberfläche anzeigen. Lese-Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt an, ob dieser Ton ein integrierter Ton ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die erzeugende Anwendung aufgefordert, das im Attribut "name" angegebene Attribut für diesen Ton in ihrer Liste der integrierten Töne zu überprüfen und kann dann, falls erforderlich, einen benutzerdefinierten Namen oder eine Benutzeroberfläche bereitstellen. Lese- und schreibbarer Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides.slideshow/slideshowtransition/soundisbuiltin/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.slideshow/slideshowtransition/soundisbuiltin/
 
 ## SlideShowTransition.SoundIsBuiltIn-Eigenschaft
 
-Gibt an, ob dieser Sound ein eingebauter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die generierende Anwendung benachrichtigt, das Namensattribut zu überprüfen, das für diesen Sound in seiner Liste der eingebauten Sounds angegeben ist, und kann dann bei Bedarf einen benutzerdefinierten Namen oder eine Benutzeroberfläche anzeigen. Lese-Schreib-Boolean.
+Gibt an, ob dieser Ton ein integrierter Ton ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die erzeugende Anwendung aufgefordert, das im Attribut "name" angegebene Attribut für diesen Ton in ihrer Liste der integrierten Töne zu überprüfen und kann dann, falls erforderlich, einen benutzerdefinierten Namen oder eine Benutzeroberfläche bereitstellen. Lese- und schreibbarer Boolean.
 
 ```csharp
 public bool SoundIsBuiltIn { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SlideShowTransition](../../slideshowtransition)
 * Namespace [Aspose.Slides.SlideShow](../../slideshowtransition)

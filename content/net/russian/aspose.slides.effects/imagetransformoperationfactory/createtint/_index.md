@@ -1,7 +1,7 @@
 ---
 title: CreateTint
-second_title: Справка по API Aspose.Slides для .NET
-description: Создает эффект Tint.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает эффект оттенка.
 type: docs
 weight: 180
 url: /ru/aspose.slides.effects/imagetransformoperationfactory/createtint/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/imagetransformoperationfactory/createtint/
 
 ## ImageTransformOperationFactory.CreateTint метод
 
-Создает эффект Tint.
+Создает эффект оттенка.
 
 ```csharp
 public ITint CreateTint(float hue, float amount)
@@ -22,7 +22,7 @@ public ITint CreateTint(float hue, float amount)
 
 ### Возвращаемое значение
 
-Эффект Tint.
+Эффект оттенка.
 
 ### См. также
 

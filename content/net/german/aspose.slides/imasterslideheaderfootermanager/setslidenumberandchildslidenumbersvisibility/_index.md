@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Masterfolie und aller Platzhalter für die Seitenzahl der untergeordneten Folien. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Master-Folie und aller Platzhalter für die Seitenzahlen der untergeordneten Folien. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Master-Folie ab.
 type: docs
 weight: 60
 url: /de/aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildsli
 
 ## IMasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Masterfolie und aller Platzhalter für die Seitenzahl der untergeordneten Folien. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Master-Folie und aller Platzhalter für die Seitenzahlen der untergeordneten Folien. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Master-Folie ab.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht Platzhalter für die Seitenzahl sichtbar, andernfalls - blendet sie aus. |
+| isVisible | Boolean | true - macht einen Platzhalter für die Seitenzahl sichtbar, andernfalls - versteckt ihn. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../imasterslideheaderfootermanager)

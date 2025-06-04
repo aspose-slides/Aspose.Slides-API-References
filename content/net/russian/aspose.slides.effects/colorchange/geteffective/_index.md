@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes для .NET API Справочник
-description: Получает данные о действии смены цвета с применением наследования.
+description: Получает данные эффективного эффекта изменения цвета с примененным наследованием.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/colorchange/geteffective/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/colorchange/geteffective/
 
 ## ColorChange.GetEffective метод
 
-Получает данные о действии смены цвета с применением наследования.
+Получает данные эффективного эффекта изменения цвета с примененным наследованием.
 
 ```csharp
 public IColorChangeEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IColorChangeEffectiveData GetEffective()
 
 [`IColorChangeEffectiveData`](../../icolorchangeeffectivedata).
 
-### См. также
+### Смотрите также
 
 * интерфейс [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
 * класс [ColorChange](../../colorchange)

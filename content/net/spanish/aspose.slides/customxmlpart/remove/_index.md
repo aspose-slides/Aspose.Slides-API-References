@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Elimina la parte de xml personalizado de la presentación.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Elimina la parte xml personalizada de la presentación.
 type: docs
 weight: 50
 url: /es/aspose.slides/customxmlpart/remove/
 ---
 
-## Método CustomXmlPart.Remove
+## CustomXmlPart.Remove método
 
-Elimina la parte de xml personalizado de la presentación.
+Elimina la parte xml personalizada de la presentación.
 
 ```csharp
 public void Remove()
@@ -19,9 +19,9 @@ public void Remove()
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lanzada si la parte de xml ya ha sido eliminada. |
+| [PptxEditException](../../pptxeditexception) | Lanzado si la parte xml ya ha sido eliminada. |
 
-### Véase También
+### Ver También
 
 * clase [CustomXmlPart](../../customxmlpart)
 * espacio de nombres [Aspose.Slides](../../customxmlpart)

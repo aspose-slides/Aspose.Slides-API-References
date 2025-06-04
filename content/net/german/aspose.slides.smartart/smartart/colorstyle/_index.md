@@ -1,7 +1,7 @@
 ---
 title: ColorStyle
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Farbstil des SmartArt-Objekts zurück oder setzt diesen. Lese-/schreibbarer SmartArtColorTypeaspose.slides.smartart/smartartcolortype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Farbstil des SmartArt-Objekts zurück oder legt ihn fest. Lese-/Schreibzugriff auf SmartArtColorTypeaspose.slides.smartart/smartartcolortype.
 type: docs
 weight: 20
 url: /de/aspose.slides.smartart/smartart/colorstyle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartart/colorstyle/
 
 ## SmartArt.ColorStyle-Eigenschaft
 
-Gibt den Farbstil des SmartArt-Objekts zurück oder setzt diesen. Lese-/schreibbarer [`SmartArtColorType`](../../smartartcolortype).
+Gibt den Farbstil des SmartArt-Objekts zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`SmartArtColorType`](../../smartartcolortype).
 
 ```csharp
 public SmartArtColorType ColorStyle { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [SmartArtColorType](../../smartartcolortype)
 * class [SmartArt](../../smartart)

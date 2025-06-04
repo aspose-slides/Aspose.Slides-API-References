@@ -1,21 +1,21 @@
 ---
 title: NamespaceSchemas
-second_title: Aspose.Slides для .NET Справочник API
-description: Возвращает коллекцию XML-схем, связанных с пользовательской частью XML. Только для чтения String.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает коллекцию XML-схем, ассоциированных с пользовательской XML-частью. Только для чтения String.
 type: docs
 weight: 20
 url: /ru/aspose.slides/customxmlpart/namespaceschemas/
 ---
 
-## Свойство CustomXmlPart.NamespaceSchemas
+## CustomXmlPart.NamespaceSchemas свойство
 
-Возвращает коллекцию XML-схем, связанных с пользовательской частью XML. Только для чтения String[].
+Возвращает коллекцию XML-схем, ассоциированных с пользовательской XML-частью. Только для чтения String[].
 
 ```csharp
 public string[] NamespaceSchemas { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [CustomXmlPart](../../customxmlpart)
 * пространство имен [Aspose.Slides](../../customxmlpart)

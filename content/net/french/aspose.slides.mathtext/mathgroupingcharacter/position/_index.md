@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Position du caractère de groupement. Par défaut  Bas
+second_title: Aspose.Sildes pour la référence API .NET
+description: Position du caractère de regroupement. Par défaut Bas
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathgroupingcharacter/position/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathgroupingcharacter/position/
 
 ## Propriété MathGroupingCharacter.Position
 
-Position du caractère de groupement. Par défaut : Bas
+Position du caractère de regroupement. Par défaut : Bas
 
 ```csharp
 public MathTopBotPositions Position { get; set; }
@@ -17,7 +17,7 @@ public MathTopBotPositions Position { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

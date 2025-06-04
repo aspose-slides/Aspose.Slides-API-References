@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
-second_title: Aspose.Slides for .NET API 参考
-description: 返回链接文件的完整路径。将使用长文件名。可读/写字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回链接文件的完整路径。将使用长文件名。可读写字符串。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ioleobjectframe/linkpathlong/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ioleobjectframe/linkpathlong/
 
 ## IOleObjectFrame.LinkPathLong 属性
 
-返回链接文件的完整路径。将使用长文件名。可读/写字符串。
+返回链接文件的完整路径。将使用长文件名。可读写字符串。
 
 ```csharp
 public string LinkPathLong { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IOleObjectFrame](../../ioleobjectframe)
 * 命名空间 [Aspose.Slides](../../ioleobjectframe)

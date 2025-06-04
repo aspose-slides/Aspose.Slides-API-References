@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt die Farboperation aus einer Sammlung.
 type: docs
 weight: 120
 url: /de/aspose.slides/coloroperationcollection/removeat/
 ---
 
-## ColorOperationCollection.RemoveAt Methode
+## ColorOperationCollection.RemoveAt-Methode
 
 Entfernt die Farboperation aus einer Sammlung.
 

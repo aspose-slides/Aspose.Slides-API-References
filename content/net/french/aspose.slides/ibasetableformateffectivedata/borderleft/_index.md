@@ -1,21 +1,21 @@
 ---
 title: BorderLeft
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la valeur effective du format de ligne de la bordure gauche. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la valeur effective du format de ligne de bordure gauche. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibasetableformateffectivedata/borderleft/
 ---
 
-## Propriété IBaseTableFormatEffectiveData.BorderLeft
+## IBaseTableFormatEffectiveData.BorderLeft propriété
 
-Renvoie la valeur effective du format de ligne de la bordure gauche. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Renvoie la valeur effective du format de ligne de bordure gauche. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderLeft { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * interface [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

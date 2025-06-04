@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API Aspose.Slides para .NET
 description: Devuelve la celda en los índices de columna y fila especificados. Solo lectura Cellaspose.slides/cell.
 type: docs
 weight: 60
@@ -15,11 +15,11 @@ Devuelve la celda en los índices de columna y fila especificados. Solo lectura 
 public ICell this[int columnIndex, int rowIndex] { get; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [ICell](../../icell)
-* clase [Table](../../table)
-* espacio de nombres [Aspose.Slides](../../table)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ICell](../../icell)
+* class [Table](../../table)
+* namespace [Aspose.Slides](../../table)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

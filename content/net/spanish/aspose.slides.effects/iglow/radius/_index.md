@@ -1,7 +1,7 @@
 ---
 title: Radius
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Radio. Leer/escribir Doble.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Radius. Leer/escribir Doble.
 type: docs
 weight: 40
 url: /es/aspose.slides.effects/iglow/radius/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/iglow/radius/
 
 ## Propiedad IGlow.Radius
 
-Radio. Leer/escribir Doble.
+Radius. Leer/escribir Doble.
 
 ```csharp
 public double Radius { get; set; }

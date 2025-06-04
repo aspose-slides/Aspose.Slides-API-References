@@ -1,6 +1,6 @@
 ---
 title: PatternFormat
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de remplissage de motif. Lecture seule IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 30

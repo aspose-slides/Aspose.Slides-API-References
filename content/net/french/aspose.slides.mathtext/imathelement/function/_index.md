@@ -1,15 +1,15 @@
 ---
 title: Function
-second_title: Référence API Aspose.Slides pour .NET
-description: Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction
+second_title: Aspose.Sildes pour .NET API Reference
+description: Prend une fonction d'un argument en utilisant cette instance comme le nom de la fonction
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/imathelement/function/
 ---
 
-## Fonction(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
-Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction
+Prend une fonction d'un argument en utilisant cette instance comme le nom de la fonction
 
 ```csharp
 public IMathFunction Function(IMathElement functionArgument)
@@ -19,7 +19,7 @@ public IMathFunction Function(IMathElement functionArgument)
 | --- | --- | --- |
 | functionArgument | IMathElement | Un argument de la fonction |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
@@ -43,9 +43,9 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## Fonction(string) {#function_1}
+## Function(string) {#function_1}
 
-Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction
+Prend une fonction d'un argument en utilisant cette instance comme le nom de la fonction
 
 ```csharp
 public IMathFunction Function(string functionArgument)
@@ -55,7 +55,7 @@ public IMathFunction Function(string functionArgument)
 | --- | --- | --- |
 | functionArgument | String | Un argument de la fonction |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 

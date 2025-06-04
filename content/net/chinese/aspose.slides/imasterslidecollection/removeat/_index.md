@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 移除集合中指定索引的元素。
+description: 删除集合中指定索引的元素。
 type: docs
 weight: 50
 url: /zh/aspose.slides/imasterslidecollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterslidecollection/removeat/
 
 ## IMasterSlideCollection.RemoveAt 方法
 
-移除集合中指定索引的元素。
+删除集合中指定索引的元素。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要移除的元素的零基索引。 |
+| index | Int32 | 要删除的元素的零基索引。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IMasterSlideCollection](../../imasterslidecollection)
 * 命名空间 [Aspose.Slides](../../imasterslidecollection)

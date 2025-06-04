@@ -1,7 +1,7 @@
 ---
 title: FirstCol
 second_title: Aspose.Slides for .NET API Reference
-description: 确定表格的第一列是否必须使用特殊格式绘制。可读/写的布尔值。
+description: 确定表格的第一列是否需要以特殊格式绘制。可读写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides/itable/firstcol/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itable/firstcol/
 
 ## ITable.FirstCol 属性
 
-确定表格的第一列是否必须使用特殊格式绘制。可读/写的布尔值。
+确定表格的第一列是否需要以特殊格式绘制。可读写布尔值。
 
 ```csharp
 public bool FirstCol { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ITable](../../itable)
 * 命名空间 [Aspose.Slides](../../itable)

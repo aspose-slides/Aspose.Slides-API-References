@@ -1,15 +1,15 @@
 ---
 title: Numerator
-second_title: Справочник по API Aspose.Slides для .NET
-description: Числитель
+second_title: Aspose.Sildes для .NET API Справочник
+description: Номинатор
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathfraction/numerator/
 ---
 
-## Свойство MathFraction.Numerator
+## MathFraction.Numerator свойство
 
-Числитель
+Номинатор
 
 ```csharp
 public IMathElement Numerator { get; }

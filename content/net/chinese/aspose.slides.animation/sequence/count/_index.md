@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回序列中的效果数量。只读 Int32。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/sequence/count/
 public int Count { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [Sequence](../../sequence)
 * namespace [Aspose.Slides.Animation](../../sequence)

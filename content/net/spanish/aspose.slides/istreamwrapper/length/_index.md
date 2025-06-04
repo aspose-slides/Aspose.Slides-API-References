@@ -15,10 +15,10 @@ Obtiene la longitud en bytes del flujo. Solo lectura Int64.
 public long Length { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IStreamWrapper](../../istreamwrapper)
 * espacio de nombres [Aspose.Slides](../../istreamwrapper)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

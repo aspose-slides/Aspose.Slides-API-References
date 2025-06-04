@@ -7,7 +7,7 @@ weight: 60
 url: /es/aspose.slides/picturefillformat/picture/
 ---
 
-## Propiedad PictureFillFormat.Picture
+## PictureFillFormat.Picture property
 
 Devuelve la imagen. Solo lectura [`ISlidesPicture`](../../islidespicture).
 
@@ -17,9 +17,9 @@ public ISlidesPicture Picture { get; }
 
 ### Ver También
 
-* interfaz [ISlidesPicture](../../islidespicture)
-* clase [PictureFillFormat](../../picturefillformat)
-* espacio de nombres [Aspose.Slides](../../picturefillformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISlidesPicture](../../islidespicture)
+* clase [PictureFillFormat](../../picturefillformat)
+* espacio de nombres [Aspose.Slides](../../picturefillformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Slides for .NET API 参考
-description: 表示管理器，该管理器持有占位符的行为，包括所有类型的手稿和注释幻灯片的页眉占位符。
+description: 表示一个管理器，包含占位符的行为，包括所有类型的讲义和备注幻灯片的页眉占位符。
 type: docs
 weight: 5090
 url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 
 ## IBaseHandoutNotesSlideHeaderFooterManag 接口
 
-表示管理器，该管理器持有占位符的行为，包括所有类型的手稿和注释幻灯片的页眉占位符。
+表示一个管理器，包含占位符的行为，包括所有类型的讲义和备注幻灯片的页眉占位符。
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -20,18 +20,18 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | 名称 | 描述 |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | 返回 IBaseSlideHeaderFooterManager 接口。 |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 获取表示页眉占位符存在的值。读取布尔值。 |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 获取指示页眉占位符存在的值。读取布尔值。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 设置文本到幻灯片页眉占位符。 |
-| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 更改幻灯片页眉占位符的可见性。 |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 设置幻灯片页眉占位符的文本。 |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 改变幻灯片页眉占位符的可见性。 |
 
 ### 备注
 
-原始接口名称 "IBaseHandoutNotesSlideHeaderFooterManager" 截断为 "IBaseHandoutNotesSlideHeaderFooterManag"，以兼容 COM（类型名称长度不得超过 39）。
+原接口名称 "IBaseHandoutNotesSlideHeaderFooterManager" 为了 COM 兼容性被截断为 "IBaseHandoutNotesSlideHeaderFooterManag"（类型名称长度不能超过 39 个字符）。
 
 ### 另见
 

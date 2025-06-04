@@ -7,7 +7,7 @@ weight: 2410
 url: /de/aspose.slides.charts/trendlinetype/
 ---
 
-## TrendlineType-Enumerationen
+## TrendlineType-Enumeration
 
 Stellt den Typ der Trendlinie dar
 
@@ -17,14 +17,14 @@ public enum TrendlineType
 
 ### Werte
 
-| Name            | Wert | Beschreibung                                                                  |
-|-----------------|------|-------------------------------------------------------------------------------|
-| Exponential     | `0`  | Gibt an, dass die Trendlinie eine exponentielle Kurve in der Form sein soll.  |
-| Linear          | `1`  | Gibt an, dass die Trendlinie eine Linie in der Form sein soll.                |
-| Logarithmisch   | `2`  | Gibt an, dass die Trendlinie eine logarithmische Kurve in der Form sein soll, wobei log der natürliche Logarithmus ist. |
-| Gleitschritt    | `3`  | Gibt an, dass die Trendlinie ein gleitender Durchschnitt der Periode Period sein soll. |
-| Polynom         | `4`  | Gibt an, dass die Trendlinie eine polynomiale Kurve der Ordnung Order in der Form sein soll. |
-| Power           | `5`  | Gibt an, dass die Trendlinie eine Potenzkurve in der Form sein soll.         |
+| Name | Wert | Beschreibung |
+| --- | --- | --- |
+| Exponential | `0` | Gibt an, dass die Trendlinie eine exponentielle Kurve in der Form sein soll. |
+| Linear | `1` | Gibt an, dass die Trendlinie eine Linie in der Form sein soll. |
+| Logarithmisch | `2` | Gibt an, dass die Trendlinie eine logarithmische Kurve in der Form sein soll, wobei log der natürliche Logarithmus ist. |
+| GleitenderDurchschnitt | `3` | Gibt an, dass die Trendlinie ein gleitender Durchschnitt der Periode Period sein soll. |
+| Polynomial | `4` | Gibt an, dass die Trendlinie eine polynomiale Kurve der Ordnung Order in der Form sein soll. |
+| Potenz | `5` | Gibt an, dass die Trendlinie eine Potenzkurve in der Form sein soll. |
 
 ### Siehe auch
 

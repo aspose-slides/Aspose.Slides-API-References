@@ -1,13 +1,13 @@
 ---
 title: AsIChartComponent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IChartComponent. Только для чтения IChartComponentaspose.slides.charts/ichartcomponent.
+description: Позволяет получить базовый интерфейс IChartComponent. Только для чтения IChartComponent aspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ilayoutable/asichartcomponent/
 ---
 
-## Свойство ILayoutable.AsIChartComponent
+## ILayoutable.AsIChartComponent свойство
 
 Позволяет получить базовый интерфейс IChartComponent. Только для чтения [`IChartComponent`](../../ichartcomponent).
 

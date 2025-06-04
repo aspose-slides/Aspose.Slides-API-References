@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt Text für das Datum-Uhrzeit-Platzhalter der Master-Folie und alle untergeordneten Datum-Uhrzeit-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in den abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+description: Setzt Text für den Platzhalter Datum-Zeit der Master-Folie und alle untergeordneten Platzhalter für Datum-Zeit. Untergeordnete Platzhalter bedeuten, dass die Platzhalter auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 10
 url: /de/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchildda
 
 ## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText Methode
 
-Setzt Text für das Datum-Uhrzeit-Platzhalter der Master-Folie und alle untergeordneten Datum-Uhrzeit-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in den abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Setzt Text für den Platzhalter Datum-Zeit der Master-Folie und alle untergeordneten Platzhalter für Datum-Zeit. Untergeordnete Platzhalter bedeuten, dass die Platzhalter auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)

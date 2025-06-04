@@ -15,7 +15,7 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [VbaModuleCollection](../../vbamodulecollection)
 * espacio de nombres [Aspose.Slides.Vba](../../vbamodulecollection)

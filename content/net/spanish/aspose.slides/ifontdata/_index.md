@@ -25,11 +25,11 @@ public interface IFontData
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Devuelve el nombre de la fuente, reemplazando la referencia del tema con una fuente real utilizada. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Devuelve el nombre de la fuente, reemplazando la referencia de tema con una fuente real utilizada. |
 
-### Ver También
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

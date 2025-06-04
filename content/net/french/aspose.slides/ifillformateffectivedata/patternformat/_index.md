@@ -1,13 +1,13 @@
 ---
 title: PatternFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de remplissage par motif. Lecture seule IPatternFormatEffectiveDataaspose.slides/ipatternformateffectivedata.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ifillformateffectivedata/patternformat/
 ---
 
-## Propriété IFillFormatEffectiveData.PatternFormat
+## IFillFormatEffectiveData.PatternFormat propriété
 
 Renvoie le format de remplissage par motif. Lecture seule [`IPatternFormatEffectiveData`](../../ipatternformateffectivedata).
 

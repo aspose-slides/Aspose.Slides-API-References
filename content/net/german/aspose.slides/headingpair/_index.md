@@ -1,7 +1,7 @@
 ---
 title: HeadingPair
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert eine Heading-Paar-Eigenschaft des Dokuments. Es gibt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Überschrift-Paar-Eigenschaft des Dokuments dar. Es zeigt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
 type: docs
 weight: 4910
 url: /de/aspose.slides/headingpair/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/headingpair/
 
 ## HeadingPair-Klasse
 
-Repräsentiert eine 'Heading-Paar'-Eigenschaft des Dokuments. Es gibt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
+Stellt eine 'Überschrift-Paar'-Eigenschaft des Dokuments dar. Es zeigt den Gruppennamen der Dokumentteile und die Anzahl der Teile in der Gruppe an.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -19,8 +19,8 @@ public sealed class HeadingPair : IHeadingPair
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/headingpair/count) { get; } | Gibt die Anzahl der Teile in der Gruppe zurück. Nur-Lese Int32. |
-| [Name](../../aspose.slides/headingpair/name) { get; } | Gibt den Gruppennamen der Dokumentteile zurück. Nur-Lese String. |
+| [Count](../../aspose.slides/headingpair/count) { get; } | Gibt die Anzahl der Teile in der Gruppe zurück. Nur-lesender Int32. |
+| [Name](../../aspose.slides/headingpair/name) { get; } | Gibt den Gruppennamen der Dokumentteile zurück. Nur-lesender String. |
 
 ### Siehe auch
 

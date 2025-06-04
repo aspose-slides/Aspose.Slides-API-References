@@ -1,13 +1,13 @@
 ---
 title: SetBlurEffect
-second_title: Aspose.Slides для справки по API .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Устанавливает эффект размытия.
 type: docs
 weight: 260
 url: /ru/aspose.slides/effectformat/setblureffect/
 ---
 
-## Метод EffectFormat.SetBlurEffect
+## EffectFormat.SetBlurEffect метод
 
 Устанавливает эффект размытия.
 

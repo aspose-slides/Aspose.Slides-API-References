@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Supprime la première occurrence d'un objet spécifique de la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icustomxmlpartcollection/remove/
 ---
 
-## Méthode ICustomXmlPartCollection.Remove
+## ICustomXmlPartCollection.Remove méthode
 
 Supprime la première occurrence d'un objet spécifique de la collection.
 
@@ -17,7 +17,7 @@ public bool Remove(ICustomXmlPart item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| item | ICustomXmlPart | La partie XML personnalisée à supprimer. |
+| item | ICustomXmlPart | La partie xml personnalisée à supprimer. |
 
 ### Valeur de Retour
 

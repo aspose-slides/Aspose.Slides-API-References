@@ -1,7 +1,7 @@
 ---
 title: IAlphaBiLevel
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa un efecto Alpha Bi-Level. Los valores de opacidad alfa menores que el umbral se cambian a 0 totalmente transparente y los valores de alfa mayores o iguales al umbral se cambian a 100 totalmente opaco.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa un efecto Alpha Bi-Level. Los valores de opacidad Alfa inferiores al umbral se cambian a 0 totalmente transparente y los valores de alfa mayores o iguales al umbral se cambian a 100 totalmente opaco.
 type: docs
 weight: 2920
 url: /es/aspose.slides.effects/ialphabilevel/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/ialphabilevel/
 
 ## Interfaz IAlphaBiLevel
 
-Representa un efecto Alpha Bi-Level. Los valores de Alpha (Opacidad) menores que el umbral se cambian a 0 (totalmente transparente) y los valores de alfa mayores o iguales al umbral se cambian a 100% (totalmente opaco).
+Representa un efecto Alpha Bi-Level. Los valores de Alpha (Opacidad) inferiores al umbral se cambian a 0 (totalmente transparente) y los valores de alfa mayores o iguales al umbral se cambian a 100% (totalmente opaco).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -28,12 +28,12 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 Utilice ImageTransformOperationFactory para crear instancias en COM.
 
-### Véase También
+### Vea También
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)
 * interfaz [IImageTransformOperation](../iimagetransformoperation)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

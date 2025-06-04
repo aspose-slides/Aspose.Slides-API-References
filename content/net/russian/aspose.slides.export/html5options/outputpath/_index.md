@@ -1,7 +1,7 @@
 ---
 title: OutputPath
-second_title: Справочник API Aspose.Slides для .NET
-description: Определяет, где должны храниться внешние ресурсы. Читаемая/записываемая строка.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, где должны храниться внешние ресурсы. Читаемая/записываемая Строка.
 type: docs
 weight: 60
 url: /ru/aspose.slides.export/html5options/outputpath/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/html5options/outputpath/
 
 ## Html5Options.OutputPath свойство
 
-Определяет, где должны храниться внешние ресурсы. Читаемая/записываемая строка.
+Определяет, где должны храниться внешние ресурсы. Читаемая/записываемая Строка.
 
 ```csharp
 public string OutputPath { get; set; }

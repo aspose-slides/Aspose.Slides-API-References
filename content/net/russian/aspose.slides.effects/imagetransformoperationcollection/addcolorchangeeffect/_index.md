@@ -1,6 +1,6 @@
 ---
 title: AddColorChangeEffect
-second_title: Справочная информация по Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый эффект изменения цвета в конец коллекции.
 type: docs
 weight: 140

@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Slides for .NET API 参考
-description: 此属性定义了 Presentation 类的实例在其生命周期内是否可以拥有源文件或流。如果实例是所有者，它会锁定源。这有助于提高处理 BLOB 时的内存消耗和性能，但在 Presentation 实例的生命周期内，源流或文件无法更改。这是一个示例
+second_title: Aspose.Sildes for .NET API Reference
+description: 此属性定义了在实例生命周期内，Presentation 类的实例是否可以成为源文件或流的所有者。如果实例是所有者，它将锁定源。这有助于在处理 BLOB 时提高内存消耗和性能，但在 Presentation 的实例生命周期内，源（流或文件）不能更改。这是一个例子
 type: docs
 weight: 30
 url: /zh/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
 
 ## IBlobManagementOptions.PresentationLockingBehavior 属性
 
-此属性定义了 Presentation 类的实例在其生命周期内是否可以拥有源文件或流。如果实例是所有者，它会锁定源。这有助于提高处理 BLOB 时的内存消耗和性能，但在 Presentation 实例的生命周期内，源（流或文件）无法更改。这是一个示例：
+此属性定义了在实例生命周期内，Presentation 类的实例是否可以成为源文件或流的所有者。如果实例是所有者，它将锁定源。这有助于在处理 BLOB 时提高内存消耗和性能，但在 Presentation 的实例生命周期内，源（流或文件）不能更改。这是一个例子：
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
@@ -21,14 +21,14 @@ public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 LoadOptions loadOptions = new LoadOptions { 
   BlobManagementOptions = {PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked} };
 using (Presentation pres = new Presentation("pres.pptx", loadOptions)) {
-  // IOException 将会抛出，因为 pres.pptx 在 Presentation 生命周期内被锁定
+  // IOException 将被抛出，因为 pres.pptx 在 Presentation 生命周期内被锁定
   // File.Delete("pres.pptx");
 }
-// 在 Presentation 对象处置后，文件被解锁，可以被删除
+// 在 Presentation 对象释放后，文件被解锁并可以被删除
 File.Delete("pres.pptx");
 ```
 
-### 另请参见
+### 另见
 
 * enum [PresentationLockingBehavior](../../presentationlockingbehavior)
 * interface [IBlobManagementOptions](../../iblobmanagementoptions)

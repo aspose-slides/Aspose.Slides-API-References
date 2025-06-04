@@ -1,15 +1,15 @@
 ---
 title: AddContentPlaceholder
 second_title: Aspose.Slides für .NET API Referenz
-description: Fügt der Layoutfolie eine neue Platzhalter-Form hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text zu halten.
+description: Fügt eine neue Platzhalterform zur Layoutfolie hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text zu halten.
 type: docs
 weight: 20
 url: /de/aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder/
 ---
 
-## ILayoutPlaceholderManager.AddContentPlaceholder-Methode
+## ILayoutPlaceholderManager.AddContentPlaceholder Methode
 
-Fügt der Layoutfolie eine neue Platzhalter-Form hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text zu halten.
+Fügt eine neue Platzhalterform zur Layoutfolie hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text zu halten.
 
 ```csharp
 public IAutoShape AddContentPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddContentPlaceholder(float x, float y, float width, float hei
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Einzel | Die X-Koordinate der neuen Platzhalter-Form. |
-| y | Einzel | Die Y-Koordinate der neuen Platzhalter-Form. |
-| width | Einzel | Die Breite der neuen Platzhalter-Form. |
-| height | Einzel | Die Höhe der neuen Platzhalter-Form. |
+| x | Single | Die X-Koordinate der neuen Platzhalterform. |
+| y | Single | Die Y-Koordinate der neuen Platzhalterform. |
+| width | Single | Die Breite der neuen Platzhalterform. |
+| height | Single | Die Höhe der neuen Platzhalterform. |
 
 ### Rückgabewert
 
-Erstellt ein [`IAutoShape`](../../iautoshape) mit einem Inhaltsplatzhalter.
+Erstellt [`IAutoShape`](../../iautoshape) mit einem Inhaltsplatzhalter.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Inhaltsplatzhalter-Form zur Layoutfolie hinzufügt.
+Das folgende Beispiel zeigt, wie man die Inhaltsplatzhalterform zur Layoutfolie hinzufügt.
 
 ```csharp
 [C#]

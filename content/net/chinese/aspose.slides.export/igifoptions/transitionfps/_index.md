@@ -1,7 +1,7 @@
 ---
 title: TransitionFps
-second_title: Aspose.Sildes for .NET API参考
-description: 获取或设置过渡FPS帧/秒 默认值为25。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置过渡帧率 FPS 帧/秒 默认值为 25。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/igifoptions/transitionfps/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/igifoptions/transitionfps/
 
 ## IGifOptions.TransitionFps 属性
 
-获取或设置过渡FPS [帧/秒] 默认值为25。
+获取或设置过渡 FPS [帧/秒] 默认值为 25。
 
 ```csharp
 public int TransitionFps { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IGifOptions](../../igifoptions)
 * 命名空间 [Aspose.Slides.Export](../../igifoptions)

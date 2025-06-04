@@ -1,7 +1,7 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui contient les propriétés du schéma de police effectif.
+second_title: Référence API Aspose.Slides pour .NET
+description: Objet immuable contenant les propriétés efficaces du schéma de police.
 type: docs
 weight: 10950
 url: /fr/aspose.slides.theme/ifontschemeeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/ifontschemeeffectivedata/
 
 ## Interface IFontSchemeEffectiveData
 
-Objet immuable qui contient les propriétés du schéma de police effectif.
+Objet immuable contenant les propriétés efficaces du schéma de police.
 
 ```csharp
 public interface IFontSchemeEffectiveData

@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Вставляет новую операцию в коллекцию.
 type: docs
 weight: 110
 url: /ru/aspose.slides/coloroperationcollection/insert/
 ---
 
-## Вставить(int, ColorTransformOperation, float) {#insert_1}
+## Insert(int, ColorTransformOperation, float) {#insert_1}
 
 Вставляет новую операцию в коллекцию.
 
@@ -21,11 +21,11 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 | operation | ColorTransformOperation | Тип операции. |
 | parameter | Single | Параметр операции. |
 
-### Значение возврата
+### Возвращаемое значение
 
 Вставленная операция.
 
-### См. Также
+### См. также
 
 * интерфейс [IColorOperation](../../icoloroperation)
 * перечисление [ColorTransformOperation](../../colortransformoperation)
@@ -35,7 +35,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 
 ---
 
-## Вставить(int, ColorTransformOperation) {#insert}
+## Insert(int, ColorTransformOperation) {#insert}
 
 Вставляет новую операцию в коллекцию.
 
@@ -48,11 +48,11 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 | position | Int32 | Индекс, по которому будет вставлена операция. |
 | operation | ColorTransformOperation | Тип операции. |
 
-### Значение возврата
+### Возвращаемое значение
 
 Вставленная операция.
 
-### См. Также
+### См. также
 
 * интерфейс [IColorOperation](../../icoloroperation)
 * перечисление [ColorTransformOperation](../../colortransformoperation)

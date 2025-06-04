@@ -1,25 +1,25 @@
 ---
 title: ColorScheme
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le schéma de couleurs. Lecture seule IColorScheme aspose.slides.theme/icolorscheme.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le schéma de couleur. Lecture seule IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/overridetheme/colorscheme/
 ---
 
-## Propriété OverrideTheme.ColorScheme
+## OverrideTheme.ColorScheme propriété
 
-Renvoie le schéma de couleurs. Lecture seule [`IColorScheme`](../../icolorscheme).
+Renvoie le schéma de couleur. Lecture seule [`IColorScheme`](../../icolorscheme).
 
 ```csharp
 public override IColorScheme ColorScheme { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorScheme](../../icolorscheme)
 * classe [OverrideTheme](../../overridetheme)
 * espace de noms [Aspose.Slides.Theme](../../overridetheme)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS ÉDITEZ : généré par xmldocmd pour Aspose.Slides.dll -->

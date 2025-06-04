@@ -1,7 +1,7 @@
 ---
 title: Color
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цветовой формат маркера абзаца без наследования. Только для чтения IColorFormat aspose.slides/icolorformat.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает цветовой формат маркера абзаца без наследования. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibulletformat/color/

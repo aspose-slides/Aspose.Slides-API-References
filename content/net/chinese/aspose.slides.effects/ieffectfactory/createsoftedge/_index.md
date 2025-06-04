@@ -1,7 +1,7 @@
 ---
 title: CreateSoftEdge
 second_title: Aspose.Slides for .NET API Reference
-description: 创建软边缘效果。
+description: 创建柔和边缘效果。
 type: docs
 weight: 70
 url: /zh/aspose.slides.effects/ieffectfactory/createsoftedge/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ieffectfactory/createsoftedge/
 
 ## IEffectFactory.CreateSoftEdge 方法
 
-创建软边缘效果。
+创建柔和边缘效果。
 
 ```csharp
 public ISoftEdge CreateSoftEdge()
@@ -17,9 +17,9 @@ public ISoftEdge CreateSoftEdge()
 
 ### 返回值
 
-软边缘效果。
+柔和边缘效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [ISoftEdge](../../isoftedge)
 * 接口 [IEffectFactory](../../ieffectfactory)

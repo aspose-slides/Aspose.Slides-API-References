@@ -1,15 +1,15 @@
 ---
 title: IndexOf
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает индекс указанного слайда в коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает индекс заданного слайда в коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides/slidecollection/indexof/
 ---
 
-## Метод SlideCollection.IndexOf
+## SlideCollection.IndexOf метод
 
-Возвращает индекс указанного слайда в коллекции.
+Возвращает индекс заданного слайда в коллекции.
 
 ```csharp
 public int IndexOf(ISlide slide)
@@ -23,7 +23,7 @@ public int IndexOf(ISlide slide)
 
 Индекс слайда или -1, если слайд не из этой коллекции.
 
-### Также см. 
+### См. Также
 
 * интерфейс [ISlide](../../islide)
 * класс [SlideCollection](../../slidecollection)

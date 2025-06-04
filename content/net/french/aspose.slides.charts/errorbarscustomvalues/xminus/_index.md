@@ -1,21 +1,21 @@
 ---
 title: XMinus
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la valeur de la barre d'erreur dans la direction négative. Disponible si le type de valeur des barres d'erreur est Personnalisé et que ErrorBarsXFormat est autorisé. Dans tous les autres cas, cette propriété retourne null. Lecture seule IDoubleChartValueaspose.slides/idoublechartvalue.
+description: Spécifie la valeur de la barre d'erreur dans la direction négative. Disponible si le type de valeur de la barre d'erreur est Personnalisé et si ErrorBarsXFormat est autorisé. Dans tous les autres cas, cette propriété retourne null. Propriété en lecture seule IDoubleChartValueaspose.slides/idoublechartvalue.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/errorbarscustomvalues/xminus/
 ---
 
-## Propriété ErrorBarsCustomValues.XMinus
+## ErrorBarsCustomValues.XMinus property
 
-Spécifie la valeur de la barre d'erreur dans la direction négative. Disponible si le type de valeur des barres d'erreur est Personnalisé et que ErrorBarsXFormat est autorisé. Dans tous les autres cas, cette propriété retourne null. Lecture seule [`IDoubleChartValue`](../../idoublechartvalue).
+Spécifie la valeur de la barre d'erreur dans la direction négative. Disponible si le type de valeur de la barre d'erreur est Personnalisé et si ErrorBarsXFormat est autorisé. Dans tous les autres cas, cette propriété retourne null. Propriété en lecture seule [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue XMinus { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDoubleChartValue](../../idoublechartvalue)
 * class [ErrorBarsCustomValues](../../errorbarscustomvalues)

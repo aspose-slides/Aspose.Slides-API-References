@@ -1,15 +1,15 @@
 ---
 title: Chart
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le graphique parent. Lecture seule IChartaspose.slides.charts/ichart.
+description: Retourne le graphique parent. Lecture seule IChartaspose.slides.charts/ichart.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/charttitle/chart/
 ---
 
-## Propriété Chart de ChartTitle
+## ChartTitle.Chart property
 
-Renvoie le graphique parent. Lecture seule [`IChart`](../../ichart).
+Retourne le graphique parent. Lecture seule [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

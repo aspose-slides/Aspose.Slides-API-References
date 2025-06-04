@@ -1,7 +1,7 @@
 ---
 title: IPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 演示文档文件的信息
+description: 演示文稿文件的信息
 type: docs
 weight: 6590
 url: /zh/aspose.slides/ipresentationinfo/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipresentationinfo/
 
 ## IPresentationInfo 接口
 
-演示文档文件的信息
+演示文稿文件的信息
 
 ```csharp
 public interface IPresentationInfo
@@ -19,21 +19,21 @@ public interface IPresentationInfo
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | 如果绑定的演示文档被加密，则返回 True，否则返回 False。只读布尔值。 |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | 获取一个值，该值指示绑定的演示文档是否受到密码保护以供打开。 |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | 获取一个值，该值指示绑定的演示文档是否受到写保护。 |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | 获取绑定的演示文档的格式。只读 [`LoadFormat`](../loadformat)。 |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | 如果绑定的演示文稿被加密则返回 True， 否则返回 False。 只读布尔值。 |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | 获取一个值，该值指示绑定的演示文稿是否受到打开密码的保护。 |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | 获取一个值，该值指示绑定的演示文稿是否受到写保护。 |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | 获取绑定的演示文稿的格式。 只读 [`LoadFormat`](../loadformat)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | 检查打开受密码保护的演示文档的密码是否正确。 |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | 检查修改受写保护的演示文档的密码是否正确。 |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | 获取绑定的演示文档的文档属性。 |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | 更新绑定的演示文档的属性。 |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | 将绑定的演示文档写入流。 |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | 将绑定的演示文档写入文件。 |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | 检查密码是否正确，用于受打开密码保护的演示文稿。 |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | 检查修改密码是否正确，用于写保护的演示文稿。 |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | 获取绑定演示文稿的文档属性。 |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | 更新绑定演示文稿的属性。 |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | 将绑定的演示文稿写入流。 |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | 将绑定的演示文稿写入文件。 |
 
 ### 另请参阅
 

@@ -1,6 +1,6 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 揭示幻灯片过渡效果。
 type: docs
 weight: 9970
@@ -19,17 +19,17 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 过渡的方向。可读写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | 指示过渡是否通过黑色淡出。可读写布尔值。 |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 过渡方向。可读/可写 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | 指定过渡是否通过黑色淡出。可读/可写布尔值。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和数据结构，如哈希表。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。 |
 
-### 另请参阅
+### 另见
 
 * 类 [TransitionValueBase](../transitionvaluebase)
 * 接口 [IRevealTransition](../irevealtransition)

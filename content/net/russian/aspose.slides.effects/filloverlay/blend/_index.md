@@ -1,13 +1,13 @@
 ---
 title: Blend
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: FillBlendMode. Чтение/запись FillBlendModeaspose.slides/fillblendmode.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/filloverlay/blend/
 ---
 
-## Свойство FillOverlay.Blend
+## FillOverlay.Blend свойство
 
 FillBlendMode. Чтение/запись [`FillBlendMode`](../../../aspose.slides/fillblendmode).
 

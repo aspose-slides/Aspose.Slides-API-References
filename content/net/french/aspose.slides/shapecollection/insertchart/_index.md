@@ -1,15 +1,15 @@
 ---
 title: InsertChart
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée un nouveau graphique, l'initialise avec des données de séries d'exemple et des paramètres, et l'insère à la position spécifiée dans la collection.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée un nouveau graphique, l'initialise avec des données et paramètres d'échantillon et l'insère à la position spécifiée dans la collection.
 type: docs
 weight: 310
 url: /fr/aspose.slides/shapecollection/insertchart/
 ---
 
-## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
+## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
-Crée un nouveau graphique, l'initialise avec des données de séries d'exemple et des paramètres, et l'insère à la position spécifiée dans la collection.
+Crée un nouveau graphique, l'initialise avec des données et paramètres d'échantillon et l'insère à la position spécifiée dans la collection.
 
 ```csharp
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
@@ -18,8 +18,8 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | type | ChartType | Type de graphique. |
-| x | Single | Coordonné X d'un nouveau graphique. |
-| y | Single | Coordonné Y d'un nouveau graphique. |
+| x | Single | Coordonnée X d'un nouveau graphique. |
+| y | Single | Coordonnée Y d'un nouveau graphique. |
 | width | Single | Largeur du graphique. |
 | height | Single | Hauteur du graphique. |
 | index | Int32 | Position du graphique dans la collection. |
@@ -38,7 +38,7 @@ Graphique créé.
 
 ---
 
-## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
+## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
 
 Crée un nouveau graphique et l'insère à la position spécifiée dans la collection.
 
@@ -50,12 +50,12 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | type | ChartType | Type de graphique. |
-| x | Single | Coordonné X d'un nouveau graphique. |
-| y | Single | Coordonné Y d'un nouveau graphique. |
+| x | Single | Coordonnée X d'un nouveau graphique. |
+| y | Single | Coordonnée Y d'un nouveau graphique. |
 | width | Single | Largeur du graphique. |
 | height | Single | Hauteur du graphique. |
 | index | Int32 | Position du graphique dans la collection. |
-| initWithSample | Boolean | Si vrai, le nouveau graphique sera initialisé avec des données de séries d'exemple et des paramètres. Si faux, le nouveau graphique n'aura pas de série et des paramètres minimum. Dans ce cas, la création du graphique sera plus rapide. |
+| initWithSample | Boolean | Si vrai, le nouveau graphique sera initialisé avec des données et paramètres d'échantillon. Si faux, le nouveau graphique n'aura pas de séries et des paramètres minimaux. Dans ce cas, la création du graphique sera plus rapide. |
 
 ### Valeur de Retour
 

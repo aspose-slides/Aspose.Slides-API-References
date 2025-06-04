@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Basisargument
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ MathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathemat
 IMathElement baseArg = limitElement.Base;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathLimit](../../mathlimit)

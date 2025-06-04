@@ -1,7 +1,7 @@
 ---
 title: DoughnutHoleSize
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la taille du trou dans un graphique en anneau, qui peut être comprise entre 10 et 90 % de la taille de la zone de tracé. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété du groupe approprié. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.DoughnutHoleSize en lecture/écriture pour changer la valeur. Lecture seule, Byte.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie la taille du trou dans un graphique en anneau, qui peut être compris entre 10 et 90 pourcents de la taille de la zone de traçage. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.DoughnutHoleSize pour changer la valeur. Byte en lecture seule.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartseries/doughnutholesize/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/doughnutholesize/
 
 ## Propriété IChartSeries.DoughnutHoleSize
 
-Spécifie la taille du trou dans un graphique en anneau (peut être comprise entre 10 et 90 % de la taille de la zone de tracé). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété du groupe approprié. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.DoughnutHoleSize en lecture/écriture pour changer la valeur. Lecture seule, Byte.
+Spécifie la taille du trou dans un graphique en anneau (peut être comprise entre 10 et 90 pourcents de la taille de la zone de traçage). C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.DoughnutHoleSize pour changer la valeur. Byte en lecture seule.
 
 ```csharp
 public byte DoughnutHoleSize { get; }
@@ -19,7 +19,7 @@ public byte DoughnutHoleSize { get; }
 
 C'est la projection de la propriété ParentSeriesGroup.DoughnutHoleSize.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

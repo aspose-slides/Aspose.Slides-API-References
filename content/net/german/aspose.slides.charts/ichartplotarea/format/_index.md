@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt das Format eines Diagrammbereichs zurück. Nur-Lesen IFormataspose.slides.charts/iformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Format eines Diagrammbereichs zurück. Schreibgeschützt IFormataspose.slides.charts/iformat.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ichartplotarea/format/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartplotarea/format/
 
 ## IChartPlotArea.Format-Eigenschaft
 
-Gibt das Format eines Diagrammbereichs zurück. Nur-Lesen [`IFormat`](../../iformat).
+Gibt das Format eines Diagrammbereichs zurück. Schreibgeschützt [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFormat](../../iformat)
 * Schnittstelle [IChartPlotArea](../../ichartplotarea)

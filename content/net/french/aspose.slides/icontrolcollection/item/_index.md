@@ -1,15 +1,15 @@
 ---
 title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un contrôle à la position spécifiée.
+description: Renvoie un contrôle à la position spécifiée.
 type: docs
 weight: 10
 url: /fr/aspose.slides/icontrolcollection/item/
 ---
 
-## Indiceur IControlCollection
+## IControlCollection indexer
 
-Retourne un contrôle à la position spécifiée.
+Renvoie un contrôle à la position spécifiée.
 
 ```csharp
 public IControl this[int index] { get; }
@@ -17,7 +17,7 @@ public IControl this[int index] { get; }
 
 | Paramètre | Description |
 | --- | --- |
-| index | Index d'un contrôle. |
+| index | Indice d'un contrôle. |
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Slides für .NET API Referenz
-description: Richtung des Übergangs. Lese-/Schreibmodus TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
+description: Richtung der Übergänge. Lesen/Schreiben TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/ishredtransition/direction/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.slideshow/ishredtransition/direction/
 
 ## IShredTransition.Direction-Eigenschaft
 
-Richtung des Übergangs. Lese-/Schreibmodus [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
+Richtung der Übergänge. Lesen/Schreiben [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * interface [IShredTransition](../../ishredtransition)

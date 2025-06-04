@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForScatterSeries
-second_title: Aspose.Slides for .NET API 参考
-description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列，另请参见 IsChartTypeScatteraspose.slides.charts/charttypecharacterizer/ischarttypescatter 方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为散点子类型之一的系列，另请参见 IsChartTypeScatteraspose.slides/charttypecharacterizer/ischarttypescatter 方法。
 type: docs
 weight: 210
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/
@@ -22,9 +22,9 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -49,9 +49,9 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -76,9 +76,9 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -103,9 +103,9 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -130,9 +130,9 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)
@@ -156,9 +156,9 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

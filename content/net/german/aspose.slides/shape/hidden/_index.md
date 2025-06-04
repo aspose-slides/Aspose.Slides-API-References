@@ -1,7 +1,7 @@
 ---
 title: Hidden
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Form verborgen ist. Lese/schreibbare boolesche Variable.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob die Form verborgen ist. Lese-/schreibbares Boolean.
 type: docs
 weight: 100
 url: /de/aspose.slides/shape/hidden/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/shape/hidden/
 
 ## Shape.Hidden-Eigenschaft
 
-Bestimmt, ob die Form verborgen ist. Lese/schreibbare boolesche Variable.
+Bestimmt, ob die Form verborgen ist. Lese-/schreibbares Boolean.
 
 ```csharp
 public bool Hidden { get; set; }
 ```
 
-### Siehe Auch
+### Weitere Informationen
 
 * Klasse [Shape](../../shape)
 * Namespace [Aspose.Slides](../../shape)

@@ -1,7 +1,7 @@
 ---
 title: DataAsString
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne les données des sous-titres fermés sous forme de chaîne codée en UTF-8 Lecture seule String.
+description: Renvoie les données des sous-titres fermés sous forme de chaîne encodée en UTF-8 Chaîne en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/captions/dataasstring/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/captions/dataasstring/
 
 ## Propriété Captions.DataAsString
 
-Retourne les données des sous-titres fermés sous forme de chaîne codée en UTF-8 Lecture seule String.
+Renvoie les données des sous-titres fermés sous forme de chaîne encodée en UTF-8 Chaîne en lecture seule.
 
 ```csharp
 public string DataAsString { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Captions](../../captions)
 * espace de noms [Aspose.Slides](../../captions)

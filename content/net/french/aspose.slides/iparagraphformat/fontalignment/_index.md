@@ -1,7 +1,7 @@
 ---
 title: FontAlignment
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit un alignement de police dans un paragraphe sans héritage. Propriété en lecture/écriture FontAlignmentaspose.slides/fontalignment.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie ou définit un alignement de police dans un paragraphe sans héritage. Lecture/écriture FontAlignmentaspose.slides/fontalignment.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iparagraphformat/fontalignment/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iparagraphformat/fontalignment/
 
 ## Propriété IParagraphFormat.FontAlignment
 
-Renvoie ou définit un alignement de police dans un paragraphe sans héritage. Propriété en lecture/écriture [`FontAlignment`](../../fontalignment).
+Renvoie ou définit un alignement de police dans un paragraphe sans héritage. Lecture/écriture [`FontAlignment`](../../fontalignment).
 
 ```csharp
 public FontAlignment FontAlignment { get; set; }

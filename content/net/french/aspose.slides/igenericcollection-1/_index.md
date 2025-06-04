@@ -1,15 +1,15 @@
 ---
 title: IGenericCollectionT
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Interface générique auxiliaire de collection.
+second_title: Aspose.Slides pour .NET API Référence
+description: Interface de collection générique auxiliaire.
 type: docs
 weight: 5760
 url: /fr/aspose.slides/igenericcollection-1/
 ---
 
-## Interface IGenericCollection&lt;T&gt;
+## IGenericCollection&lt;T&gt; interface
 
-Interface générique auxiliaire de collection.
+Interface de collection générique auxiliaire.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -24,9 +24,9 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | Nom | Description |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Renvoie l'interface ICollection. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Renvoie l'interface IEnumerable. En rédaction seule IEnumerable. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Renvoie l'interface IEnumerable. Lecture seule IEnumerable. |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

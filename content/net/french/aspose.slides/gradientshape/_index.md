@@ -1,13 +1,13 @@
 ---
 title: GradientShape
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente la forme de remplissage dégradé.
 type: docs
 weight: 4810
 url: /fr/aspose.slides/gradientshape/
 ---
 
-## Enumération GradientShape
+## Énumération GradientShape
 
 Représente la forme de remplissage dégradé.
 
@@ -25,7 +25,7 @@ public enum GradientShape : sbyte
 | Radial | `2` |  |
 | Path | `3` |  |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

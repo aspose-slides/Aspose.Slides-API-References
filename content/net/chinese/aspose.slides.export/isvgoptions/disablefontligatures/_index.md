@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置一个值，指示文本是否不使用连字进行渲染。当设置为 true 时，渲染输出将禁用连字。默认情况下，此属性设置为 false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 true 时，连字将在渲染的输出中被禁用。默认情况下，此属性设置为 false。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/isvgoptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isvgoptions/disablefontligatures/
 
 ## ISVGOptions.DisableFontLigatures 属性
 
-获取或设置一个值，指示文本是否不使用连字进行渲染。当设置为 `true` 时，渲染输出将禁用连字。默认情况下，此属性设置为 `false`。
+获取或设置一个值，指示文本是否在不使用连字的情况下呈现。当设置为 `true` 时，连字将在渲染的输出中被禁用。默认情况下，此属性设置为 `false`。
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -17,7 +17,7 @@ public bool DisableFontLigatures { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     SVGOptions options = new SVFOptions
     {
-        DisableFontLigatures = true // 在文本渲染中禁用连字
+        DisableFontLigatures = true // 禁用文本渲染中的连字
     };
     
     using (FileStream fileStream = new FileStream("slide-0.svg", FileMode.Create, FileAccess.Write))
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 相关内容
+### 另请参阅
 
 * 接口 [ISVGOptions](../../isvgoptions)
 * 命名空间 [Aspose.Slides.Export](../../isvgoptions)

@@ -1,7 +1,7 @@
 ---
 title: IImageWrapper
-second_title: Aspose.Slides für .NET API-Referenz
-description: System.Drawing.Image-Wrapper für COM-Schnittstelle.
+second_title: Aspose.Slides für .NET API Referenz
+description: System.Drawing.Image-Wrapper für die COM-Schnittstelle.
 type: docs
 weight: 5970
 url: /de/aspose.slides/iimagewrapper/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iimagewrapper/
 
 ## IImageWrapper-Schnittstelle
 
-System.Drawing.Image-Wrapper für COM-Schnittstelle.
+System.Drawing.Image-Wrapper für die COM-Schnittstelle.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -19,15 +19,15 @@ public interface IImageWrapper : IDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Gibt die IDisposable-Schnittstelle zurück. Nur-lesbare IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Holt das Bild. Nur-lesbares Bild. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Holt die Breite und Höhe in Pixeln des Bildes. Nur-lesbare [`Size`](./size). |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Gibt die IDisposable-Schnittstelle zurück. Nur-lesbar IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Ruft das Bild ab. Nur-lesbares Bild. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Ruft die Breite und Höhe in Pixeln des Bilds ab. Nur-lesbare [`Size`](./size). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Speichert das Bild in der angegebenen Datei. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Speichert das Bild in der angegebenen Datei |
 | [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Speichert das Bild im angegebenen Stream im angegebenen Format. |
 | [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Speichert das Bild in der angegebenen Datei im angegebenen Format. |
 

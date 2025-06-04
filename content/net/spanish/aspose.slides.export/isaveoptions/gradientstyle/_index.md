@@ -1,6 +1,6 @@
 ---
 title: GradientStyle
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el estilo visual del degradado. Lectura/escritura GradientStyleaspose.slides/gradientstyle.
 type: docs
 weight: 20

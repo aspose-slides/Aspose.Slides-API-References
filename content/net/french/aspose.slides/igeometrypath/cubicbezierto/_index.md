@@ -1,7 +1,7 @@
 ---
 title: CubicBezierTo
-second_title: Aspose.Slides pour .NET Référence API
-description: Ajoute une courbe de Bezier cubique à la fin du chemin
+second_title: Référence API Aspose.Slides pour .NET
+description: Ajoute une courbe de Bézier cubique à la fin du chemin
 type: docs
 weight: 60
 url: /fr/aspose.slides/igeometrypath/cubicbezierto/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igeometrypath/cubicbezierto/
 
 ## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
-Ajoute une courbe de Bezier cubique à la fin du chemin
+Ajoute une courbe de Bézier cubique à la fin du chemin
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
@@ -21,7 +21,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 | point2 | PointF | Deuxième point de direction |
 | point3 | PointF | Point final |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)
@@ -31,7 +31,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ## CubicBezierTo(float, float, float, float, float, float) {#cubicbezierto}
 
-Ajoute une courbe de Bezier cubique à la fin du chemin
+Ajoute une courbe de Bézier cubique à la fin du chemin
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
@@ -46,7 +46,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 | x3 | Single | Coordonnée X du point final |
 | y3 | Single | Coordonnée Y du point final |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)
@@ -56,7 +56,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 ## CubicBezierTo(PointF, PointF, PointF, uint) {#cubicbezierto_3}
 
-Ajoute une courbe de Bezier cubique au lieu spécifié du chemin
+Ajoute une courbe de Bézier cubique à l'endroit spécifié du chemin
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint index)
@@ -73,9 +73,9 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | L'index de segment est hors de la plage de PathData |
+| ArgumentOutOfRangeException | L'index du segment est en dehors de la plage de PathData |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)
@@ -85,7 +85,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 ## CubicBezierTo(float, float, float, float, float, float, uint) {#cubicbezierto_1}
 
-Ajoute une courbe de Bezier cubique au lieu spécifié du chemin
+Ajoute une courbe de Bézier cubique à l'endroit spécifié du chemin
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, uint index)
@@ -105,9 +105,9 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | L'index de segment est hors de la plage de PathData |
+| ArgumentOutOfRangeException | L'index du segment est en dehors de la plage de PathData |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)

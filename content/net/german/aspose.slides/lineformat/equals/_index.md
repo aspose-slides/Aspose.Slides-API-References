@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: type docs
 weight: 180
 url: /de/aspose.slides/lineformat/equals/
@@ -30,11 +30,11 @@ public bool Equals(ILineFormat lineFormat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| lineFormat | ILineFormat | Das LineFormat, mit dem das aktuelle LineFormat verglichen werden soll. |
+| lineFormat | ILineFormat | Das LineFormat, das mit dem aktuellen LineFormat verglichen werden soll. |
 
 ### Rückgabewert
 
-**true** wenn das angegebene LineFormat gleich dem aktuellen LineFormat ist; andernfalls **false**.
+**true**, wenn das angegebene LineFormat gleich dem aktuellen LineFormat ist; andernfalls **false**.
 
 ### Siehe auch
 

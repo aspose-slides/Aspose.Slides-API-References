@@ -1,6 +1,6 @@
 ---
 title: BinaryData
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve los datos binarios de los subtítulos. Solo lectura Byte.
 type: docs
 weight: 10
@@ -17,8 +17,8 @@ public byte[] BinaryData { get; }
 
 ### Véase también
 
-* clase [Captions](../../captions)
-* espacio de nombres [Aspose.Slides](../../captions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Captions](../../captions)
+* namespace [Aspose.Slides](../../captions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

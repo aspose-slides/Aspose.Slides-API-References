@@ -1,21 +1,21 @@
 ---
 title: Compressed
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定生成的 SWF 文档是否应被压缩。默认值为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定生成的 SWF 文档是否应该被压缩。默认值为 true。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/swfoptions/compressed/
 ---
 
-## SwfOptions.Compressed 属性
+## SwfOptions.Compressed property
 
-指定生成的 SWF 文档是否应被压缩。默认值为 `true`。
+指定生成的 SWF 文档是否应该被压缩。默认值为 `true`。
 
 ```csharp
 public bool Compressed { get; set; }
 ```
 
-### 另请参见
+### 参考
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

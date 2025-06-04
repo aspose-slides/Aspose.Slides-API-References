@@ -1,21 +1,21 @@
 ---
 title: UnderflowBin
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la valeur personnalisée de la boîte sous-flux. Appliqué lorsque la propriété IsAutomaticUnderflowBin est définie sur false et que la propriété IsUnderflowBin est vraie.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la valeur personnalisée du bac de sous-dépassement. Appliqué lorsque la propriété IsAutomaticUnderflowBin est définie sur false et que la propriété IsUnderflowBin est égale à true.
 type: docs
 weight: 550
 url: /fr/aspose.slides.charts/iaxis/underflowbin/
 ---
 
-## Propriété IAxis.UnderflowBin
+## IAxis.UnderflowBin property
 
-Spécifie la valeur personnalisée de la boîte sous-flux. Appliqué lorsque la propriété IsAutomaticUnderflowBin est définie sur false et que la propriété IsUnderflowBin est vraie.
+Spécifie la valeur personnalisée du bac de sous-dépassement. Appliqué lorsque la propriété IsAutomaticUnderflowBin est définie sur false et que la propriété IsUnderflowBin est égale à true.
 
 ```csharp
 public double UnderflowBin { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

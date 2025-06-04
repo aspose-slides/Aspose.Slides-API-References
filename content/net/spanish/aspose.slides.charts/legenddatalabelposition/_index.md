@@ -1,6 +1,6 @@
 ---
 title: LegendDataLabelPosition
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Determina la posición de las etiquetas de datos.
 type: docs
 weight: 2210
@@ -28,7 +28,7 @@ public enum LegendDataLabelPosition
 | Left | `5` | Especifica que las etiquetas de datos se mostrarán a la izquierda del marcador de datos. |
 | OutsideEnd | `6` | Especifica que las etiquetas de datos se mostrarán fuera del extremo del marcador de datos. |
 | Right | `7` | Especifica que las etiquetas de datos se mostrarán a la derecha del marcador de datos. |
-| Top | `8` | Especifica que las etiquetas de datos se mostrarán por encima del marcador de datos. |
+| Top | `8` | Especifica que las etiquetas de datos se mostrarán encima del marcador de datos. |
 
 ### Ver También
 

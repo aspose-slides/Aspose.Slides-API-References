@@ -1,13 +1,13 @@
 ---
 title: IsWriteProtected
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt einen Wert zurück, der angibt, ob eine gebundene Präsentation schreibgeschützt ist.
 type: docs
 weight: 30
 url: /de/aspose.slides/presentationinfo/iswriteprotected/
 ---
 
-## PresentationInfo.IsWriteProtected Eigenschaft
+## PresentationInfo.IsWriteProtected-Eigenschaft
 
 Gibt einen Wert zurück, der angibt, ob eine gebundene Präsentation schreibgeschützt ist.
 
@@ -15,9 +15,9 @@ Gibt einen Wert zurück, der angibt, ob eine gebundene Präsentation schreibgesc
 public NullableBool IsWriteProtected { get; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Wenn die Präsentation durch ein Passwort zum Öffnen geschützt ist, entspricht der Eigenschaftswert NotDefined.
+Wenn die Präsentation durch ein Passwort zum Öffnen geschützt ist, entspricht der Wert der Eigenschaft NotDefined.
 
 ### Beispiele
 

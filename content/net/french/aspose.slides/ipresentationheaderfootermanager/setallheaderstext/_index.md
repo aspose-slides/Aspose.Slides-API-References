@@ -1,21 +1,21 @@
 ---
 title: SetAllHeadersText
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit le texte pour tous les espaces réservés d'en-tête, y compris le maître des notes, les diapositives de notes et le maître des documents.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit le texte pour tous les espaces réservés d'en-tête, y compris le maître des notes, les diapositives de notes et le maître de remise.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ipresentationheaderfootermanager/setallheaderstext/
 ---
 
-## Méthode IPresentationHeaderFooterManager.SetAllHeadersText
+## IPresentationHeaderFooterManager.SetAllHeadersText method
 
-Définit le texte pour tous les espaces réservés d'en-tête, y compris le maître des notes, les diapositives de notes et le maître des documents.
+Définit le texte pour tous les espaces réservés d'en-tête, y compris le maître des notes, les diapositives de notes et le maître de remise.
 
 ```csharp
 public void SetAllHeadersText(string text)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | String | Texte à définir. |
 

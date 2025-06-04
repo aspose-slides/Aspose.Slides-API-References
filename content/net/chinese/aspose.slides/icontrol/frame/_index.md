@@ -1,7 +1,7 @@
 ---
 title: Frame
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置控件的框架。可读/可写 IShapeFrameaspose.slides/ishapeframe。
+description: 返回或设置控件框架。读/写 IShapeFrameaspose.slides/ishapeframe。
 type: docs
 weight: 40
 url: /zh/aspose.slides/icontrol/frame/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icontrol/frame/
 
 ## IControl.Frame 属性
 
-返回或设置控件的框架。可读/可写 [`IShapeFrame`](../../ishapeframe)。
+返回或设置控件的框架。读/写 [`IShapeFrame`](../../ishapeframe)。
 
 ```csharp
 public IShapeFrame Frame { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 接口 [IControl](../../icontrol)

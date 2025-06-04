@@ -1,15 +1,15 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de l'espace réservé du pied de page de la diapositive maître et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+second_title: Référence API d'Aspose.Slides pour .NET
+description: Change la visibilité du remplacement de pied de page de la diapositive maîtresse et de tous les remplacements de pied de page enfant. Les remplacements enfants signifient que les remplacements sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives et mises en page dépendantes utilisent et dépendent de la diapositive maîtresse.
 type: docs
 weight: 50
 url: /fr/aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
 
-## Méthode IMasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility
+## IMasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility méthode
 
-Modifie la visibilité de l'espace réservé du pied de page de la diapositive maître et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+Change la visibilité du remplacement de pied de page de la diapositive maîtresse et de tous les remplacements de pied de page enfant. Les remplacements enfants signifient que les remplacements sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives et mises en page dépendantes utilisent et dépendent de la diapositive maîtresse.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés du pied de page visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les remplacements de pied de page visibles, sinon - les cache. |
 
 ### Voir aussi
 

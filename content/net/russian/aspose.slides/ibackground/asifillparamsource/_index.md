@@ -1,6 +1,6 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides для .NET API Ссылка
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс IFillParamSource. Только для чтения IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ url: /ru/aspose.slides/ibackground/asifillparamsource/
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 
-### Также смотри
+### См. также
 
 * интерфейс [IFillParamSource](../../ifillparamsource)
 * интерфейс [IBackground](../../ibackground)

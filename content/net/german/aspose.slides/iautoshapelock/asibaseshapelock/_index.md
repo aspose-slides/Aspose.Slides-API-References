@@ -1,21 +1,21 @@
 ---
 title: AsIBaseShapeLock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IBaseShapeLock-Schnittstelle. Nur-Lese-IBaseShapeLock aspose.slides/ibaseshapelock.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IBaseShapeLock-Schnittstelle. Nur-lesbares IBaseShapeLock aspose.slides/ibaseshapelock.
 type: docs
 weight: 30
 url: /de/aspose.slides/iautoshapelock/asibaseshapelock/
 ---
 
-## IAutoShapeLock.AsIBaseShapeLock Eigenschaft
+## IAutoShapeLock.AsIBaseShapeLock-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IBaseShapeLock-Schnittstelle. Nur-Lese [`IBaseShapeLock`](../../ibaseshapelock).
+Ermöglicht den Zugriff auf die Basis-IBaseShapeLock-Schnittstelle. Nur-lesbares [`IBaseShapeLock`](../../ibaseshapelock).
 
 ```csharp
 public IBaseShapeLock AsIBaseShapeLock { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseShapeLock](../../ibaseshapelock)
 * Schnittstelle [IAutoShapeLock](../../iautoshapelock)

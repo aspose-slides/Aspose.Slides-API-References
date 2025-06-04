@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/idatalabelformat/format/
 public IFormat Format { get; }
 ```
 
-### Замечания
+### Примечания
 
 Если родительским объектом этого DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство представляет собой формат по умолчанию для новых меток данных в коллекции DataLabelCollection.
 

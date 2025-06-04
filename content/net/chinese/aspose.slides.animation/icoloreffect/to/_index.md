@@ -1,7 +1,7 @@
 ---
 title: To
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画颜色更改的结果颜色。读/写 IColorFormataspose.slides/../aspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述动画颜色变化的结果颜色。可读/写 IColorFormataspose.slides/../aspose.slides/icolorformat。
 type: docs
 weight: 60
 url: /zh/aspose.slides.animation/icoloreffect/to/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/icoloreffect/to/
 
 ## IColorEffect.To 属性
 
-描述动画颜色更改的结果颜色。读/写 [`IColorFormat`](../../../aspose.slides/icolorformat)。
+描述动画颜色变化的结果颜色。可读/写 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat To { get; set; }
 ```
 
-### 另请参阅
+### 相关内容
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 接口 [IColorEffect](../../icoloreffect)

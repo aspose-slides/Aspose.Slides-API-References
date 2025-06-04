@@ -1,6 +1,6 @@
 ---
 title: IControlCollection
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Una colección de controles ActiveX.
 type: docs
 weight: 5440
@@ -30,7 +30,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Elimina un control ActiveX de la colección. |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Elimina un control ActiveX almacenado en la posición especificada de la colección. |
 
-### Véase También
+### Ver También
 
 * interfaz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfaz [IControl](../icontrol)

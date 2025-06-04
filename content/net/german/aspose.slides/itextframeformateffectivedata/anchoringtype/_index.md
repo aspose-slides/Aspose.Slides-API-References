@@ -15,7 +15,7 @@ Gibt den vertikalen Ankertext in einem TextFrame zurück. Nur-Lese [`TextAnchorT
 public TextAnchorType AnchoringType { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TextAnchorType](../../textanchortype)
 * interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)

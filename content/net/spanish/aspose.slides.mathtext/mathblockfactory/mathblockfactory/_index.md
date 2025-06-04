@@ -1,24 +1,24 @@
 ---
 title: MathBlockFactory
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: El constructor por defecto.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: El constructor predeterminado.
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/mathblockfactory/mathblockfactory/
 ---
 
-## Constructor de MathBlockFactory
+## Constructor MathBlockFactory
 
-El constructor por defecto.
+El constructor predeterminado.
 
 ```csharp
 public MathBlockFactory()
 ```
 
-### Véase también
+### Ver También
 
-* clase [MathBlockFactory](../../mathblockfactory)
-* espacio de nombres [Aspose.Slides.MathText](../../mathblockfactory)
-* ensamblado [Aspose.Slides](../../../)
+* class [MathBlockFactory](../../mathblockfactory)
+* namespace [Aspose.Slides.MathText](../../mathblockfactory)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

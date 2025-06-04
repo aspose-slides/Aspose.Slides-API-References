@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Determina si las dos instancias de ColorOperation son iguales.
 type: docs
 weight: 40
 url: /es/aspose.slides/coloroperation/equals/
 ---
 
-## Método ColorOperation.Equals
+## ColorOperation.Equals method
 
 Determina si las dos instancias de ColorOperation son iguales.
 
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| obj | Object | La ColorOperation a comparar con la ColorOperation actual. |
+| obj | Object | El ColorOperation con el que comparar el ColorOperation actual. |
 
-### Valor de retorno
+### Valor de Retorno
 
-**true** si la ColorOperation especificada es igual a la ColorOperation actual; de lo contrario, **false**.
+**true** si el ColorOperation especificado es igual al ColorOperation actual; de lo contrario, **false**.
 
-### Véase también
+### También Vea
 
 * class [ColorOperation](../../coloroperation)
 * namespace [Aspose.Slides](../../coloroperation)

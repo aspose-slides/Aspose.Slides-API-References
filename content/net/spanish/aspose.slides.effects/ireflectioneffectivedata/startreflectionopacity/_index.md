@@ -1,13 +1,13 @@
 ---
 title: StartReflectionOpacity
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Opacidad de reflexión inicial. porcentajes. Solo lectura Single.
 type: docs
 weight: 150
 url: /es/aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity/
 ---
 
-## Propiedad IReflectionEffectiveData.StartReflectionOpacity
+## IReflectionEffectiveData.StartReflectionOpacity property
 
 Opacidad de reflexión inicial. (porcentajes). Solo lectura Single.
 
@@ -15,10 +15,10 @@ Opacidad de reflexión inicial. (porcentajes). Solo lectura Single.
 public float StartReflectionOpacity { get; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

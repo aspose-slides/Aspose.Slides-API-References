@@ -1,7 +1,7 @@
 ---
 title: TextFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le format du texte. Lecture seule IChartTextFormataspose.slides.charts/icharttextformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le format de texte. Lecture seule IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/trendline/textformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/trendline/textformat/
 
 ## Propriété Trendline.TextFormat
 
-Renvoie le format du texte. Lecture seule [`IChartTextFormat`](../../icharttextformat).
+Renvoie le format de texte. Lecture seule [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartTextFormat](../../icharttextformat)
 * classe [Trendline](../../trendline)

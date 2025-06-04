@@ -1,7 +1,7 @@
 ---
 title: Tags
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la collection de balises de données client. Lecture seule ITagCollectionaspose.slides/itagcollection.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la collection de balises de données client. Lecture seule ITagCollectionaspose.slides/itagcollection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icustomdata/tags/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icustomdata/tags/
 
 ## Propriété ICustomData.Tags
 
-Retourne la collection de balises de données client. Lecture seule [`ITagCollection`](../../itagcollection).
+Renvoie la collection de balises de données client. Lecture seule [`ITagCollection`](../../itagcollection).
 
 ```csharp
 public ITagCollection Tags { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITagCollection](../../itagcollection)
 * interface [ICustomData](../../icustomdata)

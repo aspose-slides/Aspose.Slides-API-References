@@ -1,13 +1,13 @@
 ---
 title: Hue
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
 type: docs
 weight: 100
 url: /fr/aspose.slides/icolorformat/hue/
 ---
 
-## Propriété IColorFormat.Hue
+## IColorFormat.Hue property
 
 Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
 

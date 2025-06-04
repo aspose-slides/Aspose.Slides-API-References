@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API Reference
-description: 返回一个迭代集合的枚举器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个枚举器，用于遍历集合。
 type: docs
 weight: 60
 url: /zh/aspose.slides/sectionslidecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/sectionslidecollection/getenumerator/
 
 ## SectionSlideCollection.GetEnumerator 方法
 
-返回一个迭代集合的枚举器。
+返回一个枚举器，用于遍历集合。
 
 ```csharp
 public IEnumerator<ISlide> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<ISlide> GetEnumerator()
 
 ### 返回值
 
-一个可以用于迭代集合的 IEnumerator。
+一个可以用于遍历集合的 IEnumerator。
 
-### 另请参见
+### 相关内容
 
 * 接口 [ISlide](../../islide)
 * 类 [SectionSlideCollection](../../sectionslidecollection)

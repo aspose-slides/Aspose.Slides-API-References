@@ -1,13 +1,13 @@
 ---
 title: CreatePropertyEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Crée un effet de propriété.
 type: docs
 weight: 50
 url: /fr/aspose.slides.animation/ibehaviorfactory/createpropertyeffect/
 ---
 
-## Méthode IBehaviorFactory.CreatePropertyEffect
+## IBehaviorFactory.CreatePropertyEffect méthode
 
 Crée un effet de propriété.
 

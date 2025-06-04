@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.export/slideimageformat/slideimageformat/
 ---
 
-## SlideImageFormat Konstruktor
+## SlideImageFormat-Konstruktor
 
 Der Standardkonstruktor.
 

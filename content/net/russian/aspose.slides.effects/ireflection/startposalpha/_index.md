@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
-second_title: Справочник API Aspose.Sildes для .NET
-description: Указывает начальную позицию по градиенту альфа-канала для начального значения альфа в процентах. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает начальную позицию вдоль альфа-градиента для начального значения альфа в процентах. Читаемое/записываемое значение Single.
 type: docs
 weight: 150
 url: /ru/aspose.slides.effects/ireflection/startposalpha/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.effects/ireflection/startposalpha/
 
 ## IReflection.StartPosAlpha свойство
 
-Указывает начальную позицию (по градиенту альфа-канала) для начального значения альфа (в процентах). Чтение/запись Single.
+Указывает начальную позицию (вдоль альфа-градиента) начального значения альфа (в процентах). Читаемое/записываемое значение Single.
 
 ```csharp
 public float StartPosAlpha { get; set; }
 ```
 
-### Также смотрите
+### Также смотри
 
 * интерфейс [IReflection](../../ireflection)
 * пространство имен [Aspose.Slides.Effects](../../ireflection)

@@ -19,7 +19,7 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [TextAnimationCollection](textanimationcollection)() | El constructor por defecto. |
+| [TextAnimationCollection](textanimationcollection)() | El constructor predeterminado. |
 
 ## Propiedades
 
@@ -34,11 +34,11 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.slides.animation/textanimationcollection/add)() | Agrega una nueva animación de texto a la colección. |
-| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
+| [Add](../../aspose.slides.animation/textanimationcollection/add)() | Añade una nueva animación de texto a la colección. |
+| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copia todos los elementos de la colección en la matriz especificada. |
 | [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 
-### Vea También
+### Véase También
 
 * interfaz [ITextAnimationCollection](../itextanimationcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)

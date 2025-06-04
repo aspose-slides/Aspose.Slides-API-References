@@ -1,15 +1,15 @@
 ---
 title: ShapeLock
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Formschlösser zurück. Nur-lesend IBaseShapeLockaspose.slides/ibaseshapelock.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sperren von Formen zurück. Nur-Lese IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 230
 url: /de/aspose.slides/ishape/shapelock/
 ---
 
-## IShape.ShapeLock-Eigenschaft
+## IShape.ShapeLock Eigenschaft
 
-Gibt die Schlösser der Form zurück. Nur-lesend [`IBaseShapeLock`](../../ibaseshapelock).
+Gibt die Sperren der Form zurück. Nur-Lese [`IBaseShapeLock`](../../ibaseshapelock).
 
 ```csharp
 public IBaseShapeLock ShapeLock { get; }

@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene o establece IMathElement en el índice especificado.
 type: docs
 weight: 40

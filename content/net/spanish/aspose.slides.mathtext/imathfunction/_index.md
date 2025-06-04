@@ -1,6 +1,6 @@
 ---
 title: IMathFunction
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica una función de un argumento.
 type: docs
 weight: 8020
@@ -21,7 +21,7 @@ public interface IMathFunction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Permite obtener la interfaz base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Argumento de la función |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nombre de la función. Por ejemplo, los nombres de las funciones son sin y cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nombre de la función. Por ejemplo, los nombres de funciones son sin y cos |
 
 ### Ejemplos
 
@@ -36,6 +36,6 @@ IMathFunction sinX = new MathematicalText("sin").Function("x");
 
 * interfaz [IMathElement](../imathelement)
 * espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

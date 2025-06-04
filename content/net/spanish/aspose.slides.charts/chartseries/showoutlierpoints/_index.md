@@ -1,24 +1,24 @@
 ---
 title: ShowOutlierPoints
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa puntos atípicos. Verdadero si se muestran puntos atípicos en el gráfico BoxAndWhisker. Se aplica solo a gráficos BoxAndWhisker. Lectura/escritura Booleano.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Representa puntos atípicos. Verdadero si los puntos atípicos se muestran en el gráfico BoxAndWhisker. Aplica solo a gráficos BoxAndWhisker. Lectura/escritura Booleano.
 type: docs
 weight: 410
 url: /es/aspose.slides.charts/chartseries/showoutlierpoints/
 ---
 
-## Propiedad ChartSeries.ShowOutlierPoints
+## ChartSeries.ShowOutlierPoints property
 
-Representa puntos atípicos. Verdadero si se muestran puntos atípicos en el gráfico BoxAndWhisker. Se aplica solo a gráficos BoxAndWhisker. Lectura/escritura Booleano.
+Representa puntos atípicos. Verdadero si los puntos atípicos se muestran en el gráfico BoxAndWhisker. Aplica solo a gráficos BoxAndWhisker. Lectura/escritura Booleano.
 
 ```csharp
 public bool ShowOutlierPoints { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [ChartSeries](../../chartseries)
-* espacio de nombres [Aspose.Slides.Charts](../../chartseries)
-* ensamblaje [Aspose.Slides](../../../)
+* class [ChartSeries](../../chartseries)
+* namespace [Aspose.Slides.Charts](../../chartseries)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

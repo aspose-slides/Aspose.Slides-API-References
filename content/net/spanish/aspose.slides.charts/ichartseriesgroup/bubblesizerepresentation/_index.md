@@ -1,21 +1,21 @@
 ---
 title: BubbleSizeRepresentation
-second_title: Referencia API de Aspose.Slides para .NET
-description: Especifica cómo se representan los valores del tamaño de las burbujas en el gráfico de burbujas. Lectura/escritura BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Especifica cómo se representan los valores del tamaño de burbuja en el gráfico de burbujas. Lectura/escritura BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation/
 ---
 
-## Propiedad IChartSeriesGroup.BubbleSizeRepresentation
+## IChartSeriesGroup.BubbleSizeRepresentation propiedad
 
-Especifica cómo se representan los valores del tamaño de las burbujas en el gráfico de burbujas. Lectura/escritura [`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).
+Especifica cómo se representan los valores del tamaño de burbuja en el gráfico de burbujas. Lectura/escritura [`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).
 
 ```csharp
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; set; }
 ```
 
-### Véase También
+### Ver también
 
 * enum [BubbleSizeRepresentationType](../../bubblesizerepresentationtype)
 * interface [IChartSeriesGroup](../../ichartseriesgroup)

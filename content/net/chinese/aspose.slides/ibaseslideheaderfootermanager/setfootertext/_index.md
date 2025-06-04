@@ -1,6 +1,6 @@
 ---
 title: SetFooterText
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 设置幻灯片页脚占位符的文本。
 type: docs
 weight: 70

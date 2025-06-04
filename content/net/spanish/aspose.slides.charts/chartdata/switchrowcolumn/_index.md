@@ -1,21 +1,21 @@
 ---
 title: SwitchRowColumn
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Intercambiar los datos sobre el eje. Los datos que se grafican en el eje X se moverán al eje Y y viceversa.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Intercambiar los datos a través del eje. Los datos que se grafican en el eje X se moverán al eje Y y viceversa.
 type: docs
 weight: 130
 url: /es/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 
-## Método ChartData.SwitchRowColumn
+## ChartData.SwitchRowColumn método
 
-Intercambiar los datos sobre el eje. Los datos que se grafican en el eje X se moverán al eje Y y viceversa.
+Intercambiar los datos a través del eje. Los datos que se grafican en el eje X se moverán al eje Y y viceversa.
 
 ```csharp
 public void SwitchRowColumn()
 ```
 
-### Véase también
+### Ver También
 
 * clase [ChartData](../../chartdata)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdata)

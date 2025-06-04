@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'angle de déformation horizontale. Lecture seule Double.
+description: Spécifie l'angle de déformation horizontal. Double en lecture seule.
 type: docs
 weight: 120
 url: /fr/aspose.slides.effects/ireflectioneffectivedata/skewhorizontal/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ireflectioneffectivedata/skewhorizontal/
 
 ## Propriété IReflectionEffectiveData.SkewHorizontal
 
-Spécifie l'angle de déformation horizontale. Lecture seule Double.
+Spécifie l'angle de déformation horizontal. Double en lecture seule.
 
 ```csharp
 public double SkewHorizontal { get; }

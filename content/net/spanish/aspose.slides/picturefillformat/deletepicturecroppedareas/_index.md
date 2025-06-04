@@ -7,7 +7,7 @@ weight: 190
 url: /es/aspose.slides/picturefillformat/deletepicturecroppedareas/
 ---
 
-## Método PictureFillFormat.DeletePictureCroppedAreas
+## PictureFillFormat.DeletePictureCroppedAreas method
 
 Eliminar áreas recortadas de la imagen de relleno.
 
@@ -15,15 +15,15 @@ Eliminar áreas recortadas de la imagen de relleno.
 public IPPImage DeletePictureCroppedAreas()
 ```
 
-### Valor de Retorno
+### Return Value
 
-Imagen recortada o imagen original si no es necesario recortar.
+Imagen recortada o imagen original si el recorte no es necesario.
 
-### Observaciones
+### Remarks
 
-Este método convierte archivos metafile WMF/EMF a imagen raster PNG mientras recorta.
+Este método convierte archivos metafiles WMF/EMF a imágenes raster PNG mientras recorta.
 
-### Ejemplos
+### Examples
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Vea También
+### See Also
 
 * interface [IPPImage](../../ippimage)
 * class [PictureFillFormat](../../picturefillformat)

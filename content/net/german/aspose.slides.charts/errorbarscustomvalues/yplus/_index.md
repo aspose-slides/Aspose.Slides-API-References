@@ -1,7 +1,7 @@
 ---
 title: YPlus
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Fehlerbalkenwert in positiver Richtung an. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Schreibgeschützte IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Fehlerbalkenwert in positiver Richtung an. Verfügbar, wenn der Wertetyp der Fehlerbalken benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-lesbares IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/errorbarscustomvalues/yplus/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/errorbarscustomvalues/yplus/
 
 ## ErrorBarsCustomValues.YPlus-Eigenschaft
 
-Gibt den Fehlerbalkenwert in positiver Richtung an. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Schreibgeschützte [`IDoubleChartValue`](../../idoublechartvalue).
+Gibt den Fehlerbalkenwert in positiver Richtung an. Verfügbar, wenn der Wertetyp der Fehlerbalken benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-lesbares [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YPlus { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDoubleChartValue](../../idoublechartvalue)
 * Klasse [ErrorBarsCustomValues](../../errorbarscustomvalues)

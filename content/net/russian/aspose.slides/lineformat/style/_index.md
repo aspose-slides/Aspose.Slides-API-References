@@ -1,13 +1,13 @@
 ---
 title: Style
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает стиль линии. Чтение/запись LineStyleaspose.slides/linestyle.
 type: docs
 weight: 160
 url: /ru/aspose.slides/lineformat/style/
 ---
 
-## Свойство LineFormat.Style
+## LineFormat.Style свойство
 
 Возвращает или устанавливает стиль линии. Чтение/запись [`LineStyle`](../../linestyle).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/lineformat/style/
 public LineStyle Style { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [LineStyle](../../linestyle)
 * class [LineFormat](../../lineformat)

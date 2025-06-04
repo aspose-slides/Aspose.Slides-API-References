@@ -19,13 +19,13 @@ public enum FontCollectionIndex : byte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Ninguno | `0` |  |
-| Menor | `1` |  |
-| Mayor | `2` |  |
+| None | `0` |  |
+| Minor | `1` |  |
+| Major | `2` |  |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

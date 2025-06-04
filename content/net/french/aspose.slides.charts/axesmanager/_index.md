@@ -1,7 +1,7 @@
 ---
 title: AxesManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit un accès aux axes de diagramme.
+description: Fournit un accès aux axes des graphiques.
 type: docs
 weight: 1090
 url: /fr/aspose.slides.charts/axesmanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/axesmanager/
 
 ## Classe AxesManager
 
-Fournit un accès aux axes de diagramme.
+Fournit un accès aux axes des graphiques.
 
 ```csharp
 public class AxesManager : DomObject<Chart>, IAxesManager
@@ -19,11 +19,11 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | Nom | Description |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Obtient l'axe horizontal du diagramme. Lecture seule [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Obtient l'axe horizontal secondaire du diagramme. Lecture seule [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Obtient l'axe vertical secondaire du diagramme. Lecture seule [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Obtient l'axe des séries du diagramme. Lecture seule [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Obtient l'axe vertical du diagramme. Lecture seule [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Obtient l'axe horizontal du graphique. Lecture seule [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Obtient l'axe horizontal secondaire du graphique. Lecture seule [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Obtient l'axe vertical secondaire du graphique. Lecture seule [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Obtient l'axe des séries du graphique. Lecture seule [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Obtient l'axe vertical du graphique. Lecture seule [`IAxis`](../iaxis). |
 
 ### Voir aussi
 

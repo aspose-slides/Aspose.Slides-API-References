@@ -1,7 +1,7 @@
 ---
 title: MinimalHeight
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die minimal mögliche Höhe einer Zeile zurück oder setzt sie. Lese-/Schreibzugriff Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die minimal mögliche Höhe einer Zeile zurück oder setzt sie. Lese-/Schreibdouble.
 type: docs
 weight: 40
 url: /de/aspose.slides/irow/minimalheight/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/irow/minimalheight/
 
 ## IRow.MinimalHeight-Eigenschaft
 
-Gibt die minimal mögliche Höhe einer Zeile zurück oder setzt sie. Lese-/Schreibzugriff Double.
+Gibt die minimal mögliche Höhe einer Zeile zurück oder setzt sie. Lese-/Schreibdouble.
 
 ```csharp
 public double MinimalHeight { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IRow](../../irow)
 * Namespace [Aspose.Slides](../../irow)

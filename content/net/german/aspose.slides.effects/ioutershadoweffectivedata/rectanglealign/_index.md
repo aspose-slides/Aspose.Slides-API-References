@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
-second_title: Aspose.Slides für .NET API-Referenz
-description: Rechteckausrichtung. Nur-Lese Rechteckausrichtung RectangleAlignmentaspose.slides/../aspose.slides/rectanglealignment.
+second_title: Aspose.Slides für .NET API Referenz
+description: Rechteckausrichtung. Nur-Lesen RectangleAlignment aspose.slides/rectanglealignment.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/ioutershadoweffectivedata/rectanglealign/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ioutershadoweffectivedata/rectanglealign/
 
 ## IOuterShadowEffectiveData.RectangleAlign-Eigenschaft
 
-Rechteckausrichtung. Nur-Lese [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Rechteckausrichtung. Nur-Lesen [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; }

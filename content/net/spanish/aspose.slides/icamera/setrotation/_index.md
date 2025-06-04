@@ -1,15 +1,15 @@
 ---
 title: SetRotation
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución sobre el eje como las coordenadas de latitud y longitud. Si alguno de los valores de coordenada es float.NaN, toda rotación es indefinida.
+description: Una rotación se define a través del uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. Si alguno de los valores de coordenadas es float.NaN, toda la rotación es indefinida.
 type: docs
 weight: 50
 url: /es/aspose.slides/icamera/setrotation/
 ---
 
-## Método ICamera.SetRotation
+## ICamera.SetRotation method
 
-Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución sobre el eje como las coordenadas de latitud y longitud. Si alguno de los valores de coordenada es float.NaN, toda rotación es indefinida.
+Una rotación se define a través del uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. Si alguno de los valores de coordenadas es float.NaN, toda la rotación es indefinida.
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)
@@ -21,10 +21,10 @@ public void SetRotation(float latitude, float longitude, float revolution)
 | longitude | Single | Valor de longitud Single |
 | revolution | Single | Valor de revolución Single |
 
-### Véase También
+### Ver También
 
 * interfaz [ICamera](../../icamera)
 * espacio de nombres [Aspose.Slides](../../icamera)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

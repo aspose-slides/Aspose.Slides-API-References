@@ -1,15 +1,15 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает или задает значение, указывающее, будет ли текст отображаться без использования лигатур. Если установить значение в true, лигатуры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в false.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в значение true лигатуры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в значение false.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/irenderingoptions/disablefontligatures/
 ---
 
-## Свойство IRenderingOptions.DisableFontLigatures
+## IRenderingOptions.DisableFontLigatures свойство
 
-Получает или задает значение, указывающее, будет ли текст отображаться без использования лигатур. Если установить значение в `true`, лигатуры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в `false`.
+Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установке в значение `true` лигатуры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в значение `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IRenderingOptions](../../irenderingoptions)
 * пространство имен [Aspose.Slides.Export](../../irenderingoptions)

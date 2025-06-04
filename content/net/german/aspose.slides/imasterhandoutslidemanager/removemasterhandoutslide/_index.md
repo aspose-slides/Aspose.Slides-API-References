@@ -1,13 +1,13 @@
 ---
 title: RemoveMasterHandoutSlide
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slidese für .NET API Referenz
 description: Entfernt die Master-Handout-Folie.
 type: docs
 weight: 20
 url: /de/aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide/
 ---
 
-## IMasterHandoutSlideManager.RemoveMasterHandoutSlide-Methode
+## IMasterHandoutSlideManager.RemoveMasterHandoutSlide Methode
 
 Entfernt die Master-Handout-Folie.
 

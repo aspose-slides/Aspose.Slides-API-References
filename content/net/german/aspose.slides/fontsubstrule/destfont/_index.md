@@ -1,7 +1,7 @@
 ---
 title: DestFont
-second_title: Aspose.Slides für .NET API Dokumentation
-description: Schriftart, die für die Substitution verwendet werden soll. Nur lesbare IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Schriftart, die für die Substitution verwendet werden soll. Nur-Lese IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /de/aspose.slides/fontsubstrule/destfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsubstrule/destfont/
 
 ## FontSubstRule.DestFont-Eigenschaft
 
-Schriftart, die für die Substitution verwendet werden soll. Nur lesbare [`IFontData`](../../ifontdata).
+Schriftart, die für die Substitution verwendet werden soll. Nur-Lese [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData DestFont { get; }

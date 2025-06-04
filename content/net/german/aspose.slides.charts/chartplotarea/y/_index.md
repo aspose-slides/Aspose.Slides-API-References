@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die y-Koordinate der oberen linken Ecke des Begrenzungsrahmens des Plots als Bruchteil der Höhe des Diagramms von 0 bis 1 zurück oder setzt sie. Lese-/Schreibzugriff für Single.
+second_title: Aspose.Slidess für .NET API-Referenz
+description: Gibt die y-Koordinate der oberen linken Ecke des Begrenzungsrahmens des Plotbereichs als Bruchteil der Höhe des Diagramms von 0 bis 1 zurück oder setzt sie. Lese-/Schreibtyp Single.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/chartplotarea/y/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartplotarea/y/
 
 ## ChartPlotArea.Y-Eigenschaft
 
-Gibt die y-Koordinate der oberen linken Ecke des Begrenzungsrahmens des Plots als Bruchteil der Höhe des Diagramms (von 0 bis 1) zurück oder setzt sie. Lese-/Schreibzugriff für Single.
+Gibt die y-Koordinate der oberen linken Ecke des Begrenzungsrahmens des Plotbereichs als Bruchteil der Höhe des Diagramms (von 0 bis 1) zurück oder setzt sie. Lese-/Schreibtyp Single.
 
 ```csharp
 public float Y { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: Operator
 second_title: Aspose.Slides für .NET API Referenz
-description: Nary Operator Charakter Zum Beispiel
+description: Nary Operator Zeichen Zum Beispiel
 type: docs
 weight: 70
 url: /de/aspose.slides.mathtext/mathnaryoperator/operator/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathnaryoperator/operator/
 
 ## MathNaryOperator.Operator Eigenschaft
 
-Nary Operator Charakter Zum Beispiel: '∑', '∫'
+Nary Operator Zeichen Zum Beispiel: '∑', '∫'
 
 ```csharp
 public char Operator { get; set; }
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 char operatorSymbol = naryOperator.Operator;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [MathNaryOperator](../../mathnaryoperator)
 * Namespace [Aspose.Slides.MathText](../../mathnaryoperator)

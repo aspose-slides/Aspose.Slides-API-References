@@ -1,7 +1,7 @@
 ---
 title: OriginalUri
-second_title: Aspose.Slides für .NET API Referenz
-description: Ursprüngliche URI der Ressource, wie in der importierten Präsentation angegeben.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ursprüngliche URI der Ressource, wie sie in der importierten Präsentation angegeben ist.
 type: docs
 weight: 10
 url: /de/aspose.slides/iresourceloadingargs/originaluri/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iresourceloadingargs/originaluri/
 
 ## IResourceLoadingArgs.OriginalUri-Eigenschaft
 
-Ursprüngliche URI der Ressource, wie in der importierten Präsentation angegeben.
+Ursprüngliche URI der Ressource, wie sie in der importierten Präsentation angegeben ist.
 
 ```csharp
 public string OriginalUri { get; }

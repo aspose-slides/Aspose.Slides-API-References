@@ -1,21 +1,21 @@
 ---
 title: Value
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Punktwert dar. Nur bool ColorFormat float int string. Lese-/Schreibobjekt.
+description: Stellt den Punktwert dar. Nur bool ColorFormat float int string. Lesen/Schreiben Objekt.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/ipoint/value/
 ---
 
-## IPoint.Value Eigenschaft
+## IPoint.Value-Eigenschaft
 
-Stellt den Punktwert dar. Nur: bool, ColorFormat, float, int, string. Lese-/Schreibobjekt.
+Stellt den Punktwert dar. Nur: bool, ColorFormat, float, int, string. Lesen/Schreiben Objekt.
 
 ```csharp
 public object Value { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPoint](../../ipoint)
 * Namespace [Aspose.Slides.Animation](../../ipoint)

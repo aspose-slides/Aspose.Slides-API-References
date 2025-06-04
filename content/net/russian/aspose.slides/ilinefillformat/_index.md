@@ -1,13 +1,13 @@
 ---
 title: ILineFillFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slidеs для .NET API Справочник
 description: Представляет свойства для заливки линий.
 type: docs
 weight: 6090
 url: /ru/aspose.slides/ilinefillformat/
 ---
 
-## Интерфейс ILineFillFormat
+## ILineFillFormat интерфейс
 
 Представляет свойства для заливки линий.
 

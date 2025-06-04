@@ -1,15 +1,15 @@
 ---
 title: Integral
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Prend l'intégral
+second_title: Référence API Aspose.Slides pour .NET
+description: Prend l'intégrale
 type: docs
 weight: 80
 url: /fr/aspose.slides.mathtext/imathelement/integral/
 ---
 
-## Intégral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
-Prend l'intégral
+Prend l'intégrale
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -18,14 +18,14 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Type d'intégral |
-| lowerLimit | IMathElement | Limite inférieure de l'intégral |
-| upperLimit | IMathElement | Limite supérieure de l'intégral |
+| integralType | MathIntegralTypes | Type d'intégrale |
+| lowerLimit | IMathElement | Limite inférieure de l'intégrale |
+| upperLimit | IMathElement | Limite supérieure de l'intégrale |
 | limitLocations | MathLimitLocations | emplacement des limites |
 
 ### Valeur de retour
 
-Nouvelle instance de type [`IMathNaryOperator`](../../imathnaryoperator)
+Nouvelle instance du type [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Exemples
 
@@ -50,9 +50,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ---
 
-## Intégral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
-Prend l'intégral
+Prend l'intégrale
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -61,13 +61,13 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Type d'intégral |
-| lowerLimit | IMathElement | Limite inférieure de l'intégral |
-| upperLimit | IMathElement | Limite supérieure de l'intégral |
+| integralType | MathIntegralTypes | Type d'intégrale |
+| lowerLimit | IMathElement | Limite inférieure de l'intégrale |
+| upperLimit | IMathElement | Limite supérieure de l'intégrale |
 
 ### Valeur de retour
 
-Nouvelle instance de type [`IMathNaryOperator`](../../imathnaryoperator)
+Nouvelle instance du type [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Exemples
 
@@ -91,9 +91,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ---
 
-## Intégral(MathIntegralTypes) {#integral}
+## Integral(MathIntegralTypes) {#integral}
 
-Prend l'intégral sans limites
+Prend l'intégrale sans limites
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
@@ -101,11 +101,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Type d'intégral |
+| integralType | MathIntegralTypes | Type d'intégrale |
 
 ### Valeur de retour
 
-Nouvelle instance de type [`IMathNaryOperator`](../../imathnaryoperator)
+Nouvelle instance du type [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Exemples
 
@@ -127,9 +127,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 
 ---
 
-## Intégral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
-Prend l'intégral
+Prend l'intégrale
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -138,14 +138,14 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Type d'intégral |
-| lowerLimit | String | Limite inférieure de l'intégral |
-| upperLimit | String | Limite supérieure de l'intégral |
+| integralType | MathIntegralTypes | Type d'intégrale |
+| lowerLimit | String | Limite inférieure de l'intégrale |
+| upperLimit | String | Limite supérieure de l'intégrale |
 | limitLocations | MathLimitLocations | emplacement des limites |
 
 ### Valeur de retour
 
-Nouvelle instance de type [`IMathNaryOperator`](../../imathnaryoperator)
+Nouvelle instance du type [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Exemples
 
@@ -168,9 +168,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 
 ---
 
-## Intégral(MathIntegralTypes, string, string) {#integral_3}
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
-Prend l'intégral
+Prend l'intégrale
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -179,13 +179,13 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Type d'intégral |
-| lowerLimit | String | Limite inférieure de l'intégral |
-| upperLimit | String | Limite supérieure de l'intégral |
+| integralType | MathIntegralTypes | Type d'intégrale |
+| lowerLimit | String | Limite inférieure de l'intégrale |
+| upperLimit | String | Limite supérieure de l'intégrale |
 
 ### Valeur de retour
 
-Nouvelle instance de type [`IMathNaryOperator`](../../imathnaryoperator)
+Nouvelle instance du type [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### Exemples
 

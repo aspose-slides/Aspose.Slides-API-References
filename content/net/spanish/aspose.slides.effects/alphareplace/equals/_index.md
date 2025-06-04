@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | El [`AlphaReplace`](../../alphareplace) a comparar. |
 
-### Valor de retorno
+### Valor de Retorno
 
 true si los objetos son iguales; de lo contrario, false.
 
-### Véase también
+### Véase También
 
 * clase [AlphaReplace](../../alphareplace)
 * espacio de nombres [Aspose.Slides.Effects](../../alphareplace)

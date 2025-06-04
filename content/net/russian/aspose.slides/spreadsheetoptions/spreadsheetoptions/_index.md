@@ -1,6 +1,6 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Инициализирует новый экземпляр класса SpreadsheetOptionsaspose.slides/spreadsheetoptions.
 type: docs
 weight: 10

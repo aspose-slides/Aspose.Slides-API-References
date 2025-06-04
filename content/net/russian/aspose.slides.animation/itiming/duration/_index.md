@@ -1,7 +1,7 @@
 ---
 title: Duration
-second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает длительность анимационного эффекта. Свойство для чтения/записи типа Single.
+second_title: Справочник API Aspose.Slides для .NET
+description: Описывает продолжительность анимационного эффекта. Чтение/запись Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/itiming/duration/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.animation/itiming/duration/
 
 ## Свойство ITiming.Duration
 
-Описывает длительность анимационного эффекта. Свойство для чтения/записи типа Single.
+Описывает продолжительность анимационного эффекта. Чтение/запись Single.
 
 ```csharp
 public float Duration { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITiming](../../itiming)
 * пространство имен [Aspose.Slides.Animation](../../itiming)

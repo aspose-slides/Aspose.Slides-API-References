@@ -1,6 +1,6 @@
 ---
 title: Size
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el tamaño en puntos. Asignar cualquier valor restablecerá la propiedad Typeaspose.slides/islidesize/type a Custom y establecerá Orientationaspose.slides/islidesize/orientation. Lectura/escritura SizeF.
 type: docs
 weight: 20
@@ -15,10 +15,10 @@ Devuelve o establece el tamaño en puntos. Asignar cualquier valor restablecerá
 public SizeF Size { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlideSize](../../islidesize)
 * espacio de nombres [Aspose.Slides](../../islidesize)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

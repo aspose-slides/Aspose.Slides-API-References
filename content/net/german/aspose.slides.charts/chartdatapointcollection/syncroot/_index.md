@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Synchronisierungswurzel zurück. Nur-Lese-Objekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine Synchronisierungswurzel zurück. Nur lesbares Objekt.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/chartdatapointcollection/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/syncroot/
 
 ## ChartDataPointCollection.SyncRoot-Eigenschaft
 
-Gibt einen Synchronisierungswurzel zurück. Nur-Lese-Objekt.
+Gibt eine Synchronisierungswurzel zurück. Nur lesbares Objekt.
 
 ```csharp
 public object SyncRoot { get; }

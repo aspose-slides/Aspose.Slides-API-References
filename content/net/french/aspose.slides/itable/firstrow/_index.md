@@ -1,7 +1,7 @@
 ---
 title: FirstRow
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
+description: Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen lisible/écrivable.
 type: docs
 weight: 50
 url: /fr/aspose.slides/itable/firstrow/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/itable/firstrow/
 
 ## Propriété ITable.FirstRow
 
-Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
+Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen lisible/écrivable.
 
 ```csharp
 public bool FirstRow { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITable](../../itable)
 * namespace [Aspose.Slides](../../itable)

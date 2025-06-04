@@ -1,15 +1,15 @@
 ---
 title: DelimiterShape
 second_title: Aspose.Slides für .NET API Referenz
-description: Spezifiziert die Form der Trennzeichen im Trennobjekt. Wenn MathDelimiterShape.Centered verwendet wird, sind die Trennzeichen um die mathematische Achse des mathematischen Textes zentriert und können an die gesamte Höhe ihres Inhalts angepasst werden. Wenn MathDelimiterShape.Match verwendet wird, werden ihre Höhe und Form genau an ihren Inhalt angepasst.
+description: Spezifiziert die Form von Trennzeichen im Trennobjekt. Wenn MathDelimiterShape.Centered ist, sind die Trennzeichen um die mathematische Achse des mathematischen Textes zentriert und können so angepasst werden, dass sie die gesamte Höhe ihres Inhalts ausfüllen. Wenn MathDelimiterShape.Match ist, werden ihre Höhe und Form so geändert, dass sie genau mit ihrem Inhalt übereinstimmen.
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/mathdelimiter/delimitershape/
 ---
 
-## MathDelimiter.DelimiterShape Eigenschaft
+## MathDelimiter.DelimiterShape-Eigenschaft
 
-Spezifiziert die Form der Trennzeichen im Trennobjekt. Wenn MathDelimiterShape.Centered verwendet wird, sind die Trennzeichen um die mathematische Achse des mathematischen Textes zentriert und können an die gesamte Höhe ihres Inhalts angepasst werden. Wenn MathDelimiterShape.Match verwendet wird, werden ihre Höhe und Form genau an ihren Inhalt angepasst.
+Spezifiziert die Form von Trennzeichen im Trennobjekt. Wenn MathDelimiterShape.Centered ist, sind die Trennzeichen um die mathematische Achse des mathematischen Textes zentriert und können so angepasst werden, dass sie die gesamte Höhe ihres Inhalts ausfüllen. Wenn MathDelimiterShape.Match ist, werden ihre Höhe und Form so geändert, dass sie genau mit ihrem Inhalt übereinstimmen.
 
 ```csharp
 public MathDelimiterShape DelimiterShape { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: From
-second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Beschreibt den Startwert für die Animation. Lese-/Schreibwert Einzel.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/rotationeffect/from/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/rotationeffect/from/
 
 ## RotationEffect.From-Eigenschaft
 
-Beschreibt den Startwert für die Animation. Lese-/Schreibzugriff auf Single.
+Beschreibt den Startwert für die Animation. Lese-/Schreibwert Einzel.
 
 ```csharp
 public float From { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [RotationEffect](../../rotationeffect)
 * Namespace [Aspose.Slides.Animation](../../rotationeffect)

@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la coordonnée y d'une légende en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit la coordonnée y d'une légende en fraction de la hauteur du graphique. Lecture/écriture Single.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/legend/y/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/legend/y/
 
 ## Propriété Legend.Y
 
-Renvoie ou définit la coordonnée y d'une légende en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
+Renvoie ou définit la coordonnée y d'une légende en fraction de la hauteur du graphique. Lecture/écriture Single.
 
 ```csharp
 public float Y { get; set; }

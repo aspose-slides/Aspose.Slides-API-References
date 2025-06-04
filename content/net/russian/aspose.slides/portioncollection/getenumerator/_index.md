@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/portioncollection/getenumerator/
 ---
 
-## Метод PortionCollection.GetEnumerator
+## PortionCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 

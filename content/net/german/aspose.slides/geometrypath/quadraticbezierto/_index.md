@@ -1,7 +1,7 @@
 ---
 title: QuadraticBezierTo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt eine quadratische Bezierkurve am Ende des Pfades hinzu
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt am Ende des Pfades eine quadratische Bezierkurve hinzu
 type: docs
 weight: 100
 url: /de/aspose.slides/geometrypath/quadraticbezierto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/geometrypath/quadraticbezierto/
 
 ## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
-Fügt eine quadratische Bezierkurve am Ende des Pfades hinzu
+Fügt am Ende des Pfades eine quadratische Bezierkurve hinzu
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2)
@@ -17,7 +17,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point1 | PointF | Richtungs Punkt |
+| point1 | PointF | Richtungs-Punkt |
 | point2 | PointF | Endpunkt |
 
 ### Siehe auch
@@ -30,7 +30,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 ## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
 
-Fügt eine quadratische Bezierkurve am Ende des Pfades hinzu
+Fügt am Ende des Pfades eine quadratische Bezierkurve hinzu
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
@@ -38,8 +38,8 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x1 | Single | X-Koordinate des Richtungs Punktes |
-| y1 | Single | Y-Koordinate des Richtungs Punktes |
+| x1 | Single | X-Koordinate des Richtungs-Punkts |
+| y1 | Single | Y-Koordinate des Richtungs-Punkts |
 | x2 | Single | X-Koordinate des Endpunkts |
 | y2 | Single | Y-Koordinate des Endpunkts |
 
@@ -61,7 +61,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point1 | PointF | Richtungs Punkt |
+| point1 | PointF | Richtungs-Punkt |
 | point2 | PointF | Endpunkt |
 | index | UInt32 | Index des Segments in PathData |
 
@@ -89,8 +89,8 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x1 | Single | X-Koordinate des Richtungs Punktes |
-| y1 | Single | Y-Koordinate des Richtungs Punktes |
+| x1 | Single | X-Koordinate des Richtungs-Punkts |
+| y1 | Single | Y-Koordinate des Richtungs-Punkts |
 | x2 | Single | X-Koordinate des Endpunkts |
 | y2 | Single | Y-Koordinate des Endpunkts |
 | index | UInt32 | Index des Segments in PathData |

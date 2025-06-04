@@ -1,7 +1,7 @@
 ---
 title: WriteAsSvg
-second_title: Aspose.Slides for .NET API 参考
-description: 将形状的内容保存为 SVG 文件。
+second_title: Aspose.Sildes for .NET API Reference
+description: 以SVG文件格式保存形状的内容。
 type: docs
 weight: 370
 url: /zh/aspose.slides/shape/writeassvg/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shape/writeassvg/
 
 ## WriteAsSvg(Stream) {#writeassvg}
 
-将形状的内容保存为 SVG 文件。
+以SVG文件格式保存形状的内容。
 
 ```csharp
 public void WriteAsSvg(Stream stream)
@@ -19,7 +19,7 @@ public void WriteAsSvg(Stream stream)
 | --- | --- | --- |
 | stream | Stream | 目标流 |
 
-### 另请参阅
+### 相关内容
 
 * class [Shape](../../shape)
 * namespace [Aspose.Slides](../../shape)
@@ -29,7 +29,7 @@ public void WriteAsSvg(Stream stream)
 
 ## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
-将形状的内容保存为 SVG 文件。
+以SVG文件格式保存形状的内容。
 
 ```csharp
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
@@ -38,9 +38,9 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 目标流 |
-| svgOptions | ISVGOptions | SVG 生成选项 |
+| svgOptions | ISVGOptions | SVG生成选项 |
 
-### 另请参阅
+### 相关内容
 
 * interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
 * class [Shape](../../shape)

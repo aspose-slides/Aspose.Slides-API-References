@@ -1,13 +1,13 @@
 ---
 title: HorizontalBarState
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Especifica el estado en el que se debe mostrar la barra divisoria horizontal. Una barra divisoria horizontal separa la diapositiva de la región de contenido debajo de la diapositiva.
 type: docs
 weight: 10
 url: /es/aspose.slides/normalviewproperties/horizontalbarstate/
 ---
 
-## Propiedad NormalViewProperties.HorizontalBarState
+## NormalViewProperties.HorizontalBarState property
 
 Especifica el estado en el que se debe mostrar la barra divisoria horizontal. Una barra divisoria horizontal separa la diapositiva de la región de contenido debajo de la diapositiva.
 
@@ -15,7 +15,7 @@ Especifica el estado en el que se debe mostrar la barra divisoria horizontal. Un
 public SplitterBarStateType HorizontalBarState { get; set; }
 ```
 
-### Véase también
+### See Also
 
 * enum [SplitterBarStateType](../../splitterbarstatetype)
 * class [NormalViewProperties](../../normalviewproperties)

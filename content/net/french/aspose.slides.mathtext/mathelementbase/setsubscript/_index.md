@@ -17,9 +17,9 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| subscript | IMathElement | Indice inférieur (indice inférieur à droite) |
+| subscript | IMathElement | Indice inférieur (index inférieur à droite) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel élément mathématique de type [`IMathSubscriptElement`](../../imathsubscriptelement)
 
@@ -34,7 +34,7 @@ IMathElement index = new MathematicalText("i");
 IMathSubscriptElement subscript = element.SetSubscript(index);
 ```
 
-### Voir Également
+### Voir aussi
 
 * interface [IMathSubscriptElement](../../imathsubscriptelement)
 * interface [IMathElement](../../imathelement)
@@ -54,9 +54,9 @@ public IMathSubscriptElement SetSubscript(string subscript)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| subscript | String | Indice inférieur (indice inférieur à droite) |
+| subscript | String | Indice inférieur (index inférieur à droite) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel élément mathématique de type [`IMathSubscriptElement`](../../imathsubscriptelement)
 
@@ -70,7 +70,7 @@ IMathElement element = new MathematicalText("N");
 IMathSubscriptElement subscript = element.SetSubscript("i");
 ```
 
-### Voir Également
+### Voir aussi
 
 * interface [IMathSubscriptElement](../../imathsubscriptelement)
 * class [MathElementBase](../../mathelementbase)

@@ -1,7 +1,7 @@
 ---
 title: EncryptionPassword
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le mot de passe utilisé pour le chiffrement de la présentation. Chaîne en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient le mot de passe utilisé pour le cryptage de la présentation. Chaîne en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/protectionmanager/encryptionpassword/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/protectionmanager/encryptionpassword/
 
 ## Propriété ProtectionManager.EncryptionPassword
 
-Obtient le mot de passe utilisé pour le chiffrement de la présentation. Chaîne en lecture seule.
+Obtient le mot de passe utilisé pour le cryptage de la présentation. Chaîne en lecture seule.
 
 ```csharp
 public string EncryptionPassword { get; }

@@ -1,6 +1,6 @@
 ---
 title: Save
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Speichert ein Byte-Array an einem Zielort.
 type: docs
 weight: 10
@@ -18,9 +18,9 @@ public void Save(string path, byte[] data)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | path | String | Der Zielpfad. |
-| data | Byte[] | Binäre Daten zum Speichern an einem Zielort. |
+| data | Byte[] | Ein binäres Datenpaket zum Speichern an einem Zielort. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IXamlOutputSaver](../../ixamloutputsaver)
 * Namespace [Aspose.Slides.Export.Xaml](../../ixamloutputsaver)

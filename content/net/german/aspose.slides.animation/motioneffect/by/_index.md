@@ -1,7 +1,7 @@
 ---
 title: By
-second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt den relativen Offset-Wert für die Animation in Prozent. Lese-/Schreibzugriff auf PointF.
+second_title: Aspose.Slides für .NET API Referenz
+description: Beschreibt den relativen Offsetwert für die Animation in Prozent. Lese-/Schreibpunkt PointF.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/motioneffect/by/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/motioneffect/by/
 
 ## MotionEffect.By-Eigenschaft
 
-Beschreibt den relativen Offset-Wert für die Animation (in Prozent). Lese-/Schreibzugriff auf PointF.
+Beschreibt den relativen Offsetwert für die Animation (in Prozent). Lese-/Schreibpunkt PointF.
 
 ```csharp
 public PointF By { get; set; }

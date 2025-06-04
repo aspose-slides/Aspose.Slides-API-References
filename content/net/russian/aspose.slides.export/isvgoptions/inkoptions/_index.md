@@ -1,15 +1,15 @@
 ---
 title: InkOptions
-second_title: Aspose.Slides для .NET API Справка
-description: Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения IInkOptionsaspose.slides.export/iinkoptions
+second_title: Aspose.Sildes для .NET API Reference
+description: Предоставляет параметры, которые контролируют внешний вид объектов чернил в экспортированном документе. Только для чтения IInkOptionsaspose.slides.export/iinkoptions
 type: docs
 weight: 80
 url: /ru/aspose.slides.export/isvgoptions/inkoptions/
 ---
 
-## Свойство ISVGOptions.InkOptions
+## ISVGOptions.InkOptions свойство
 
-Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../../iinkoptions)
+Предоставляет параметры, которые контролируют внешний вид объектов чернил в экспортированном документе. Только для чтения [`IInkOptions`](../../iinkoptions)
 
 ```csharp
 public IInkOptions InkOptions { get; }

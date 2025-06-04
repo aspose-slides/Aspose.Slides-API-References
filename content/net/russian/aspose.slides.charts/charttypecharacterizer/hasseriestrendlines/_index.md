@@ -1,7 +1,7 @@
 ---
 title: HasSeriesTrendLines
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает, есть ли линии тренда для заданного типа серии.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает, есть ли линии тренда для указанных типов серий.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
 
 ## ChartTypeCharacterizer.HasSeriesTrendLines метод
 
-Возвращает, есть ли линии тренда для заданного типа серии.
+Возвращает, есть ли линии тренда для указанных типов серий.
 
 ```csharp
 public static bool HasSeriesTrendLines(ChartType seriesType)
@@ -21,9 +21,9 @@ public static bool HasSeriesTrendLines(ChartType seriesType)
 
 ### Возвращаемое значение
 
-True, если присутствует, в противном случае false.
+True, если присутствует, иначе false.
 
-### Также см. 
+### См. также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

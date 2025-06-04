@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции безопасен для потоков. Только для чтения Boolean.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции безопасен для потоков. Только для чтения логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/chartdataworksheetcollection/issynchronized/
 ---
 
-## ChartDataWorksheetCollection.IsSynchronized свойство
+## Свойство ChartDataWorksheetCollection.IsSynchronized
 
-Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean.
+Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения логическое значение.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworksheetcollection)

@@ -1,7 +1,7 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Непередаваемый объект, который содержит свойства заполнения картинки.
+second_title: Aspose.Sildes для .NET API Reference
+description: Невозможный объект, который содержит свойства заливки изображения.
 type: docs
 weight: 6460
 url: /ru/aspose.slides/ipicturefillformateffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipicturefillformateffectivedata/
 
 ## Интерфейс IPictureFillFormatEffectiveData
 
-Непередаваемый объект, который содержит свойства заполнения картинки.
+Невозможный объект, который содержит свойства заливки изображения.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -20,15 +20,15 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Возвращает количество процентов от истинной высоты изображения, которые отрезаны снизу картинки. Только для чтения Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Возвращает количество процентов от истинной ширины изображения, которые отрезаны слева картинки. Только для чтения Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Возвращает количество процентов от истинной ширины изображения, которые отрезаны справа картинки. Только для чтения Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Возвращает количество процентов от истинной высоты изображения, которые отрезаны сверху картинки. Только для чтения Single. |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Возвращает количество процентов от реальной высоты изображения, отрезанного снизу картинки. Только для чтения Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Возвращает количество процентов от реальной ширины изображения, отрезанного слева картинки. Только для чтения Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Возвращает количество процентов от реальной ширины изображения, отрезанного справа картинки. Только для чтения Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Возвращает количество процентов от реальной высоты изображения, отрезанного сверху картинки. Только для чтения Single. |
 | [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Возвращает dpi, который используется для заполнения картинки. Только для чтения Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Возвращает картинку. Только для чтения [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Возвращает режим заполнения картинки. Только для чтения [`PictureFillMode`](../picturefillmode). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Возвращает режим заливки изображения. Только для чтения [`PictureFillMode`](../picturefillmode). |
 
-### Примечания
+### комментарии
 
 Этот интерфейс используется как часть [`IFillFormatEffectiveData`](../ifillformateffectivedata).
 

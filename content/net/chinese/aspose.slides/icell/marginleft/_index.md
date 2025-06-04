@@ -1,6 +1,6 @@
 ---
 title: MarginLeft
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置 TextFrame 中的左边距。可读写的 Double。
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icell/marginleft/
 public double MarginLeft { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ICell](../../icell)
 * 命名空间 [Aspose.Slides](../../icell)

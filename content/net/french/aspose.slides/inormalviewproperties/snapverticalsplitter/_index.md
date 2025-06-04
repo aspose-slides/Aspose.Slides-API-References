@@ -1,15 +1,15 @@
 ---
 title: SnapVerticalSplitter
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Spécifie si le diviseur vertical doit s'enclencher dans un état minimisé lorsque la région latérale est suffisamment petite. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Spécifie si le diviseur vertical doit se fixer à un état minimisé lorsque la région latérale est suffisamment petite. Booléen en lecture/écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/inormalviewproperties/snapverticalsplitter/
 ---
 
-## Propriété INormalViewProperties.SnapVerticalSplitter
+## INormalViewProperties.SnapVerticalSplitter propriété
 
-Spécifie si le diviseur vertical doit s'enclencher dans un état minimisé lorsque la région latérale est suffisamment petite. Booléen en lecture/écriture.
+Spécifie si le diviseur vertical doit se fixer à un état minimisé lorsque la région latérale est suffisamment petite. Booléen en lecture/écriture.
 
 ```csharp
 public bool SnapVerticalSplitter { get; set; }

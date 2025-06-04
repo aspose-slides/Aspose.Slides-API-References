@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет направляющую рисования в конец коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/idrawingguidescollection/add/
 ---
 
-## Метод IDrawingGuidesCollection.Add
+## IDrawingGuidesCollection.Add метод
 
 Добавляет направляющую рисования в конец коллекции.
 
@@ -18,9 +18,9 @@ public IDrawingGuide Add(Orientation orientation, float position)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | orientation | Orientation | Ориентация направляющей рисования. |
-| position | Single | Положение направляющей рисования в пунктах. |
+| position | Single | Позиция направляющей рисования в пунктах. |
 
-### См. также
+### См. Также
 
 * интерфейс [IDrawingGuide](../../idrawingguide)
 * перечисление [Orientation](../../orientation)

@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/iconnector/asigeometryshape/
 ---
 
-## Propriété IConnector.AsIGeometryShape
+## IConnector.AsIGeometryShape propriété
 
 Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometryShape`](../../igeometryshape).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometrySh
 public IGeometryShape AsIGeometryShape { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGeometryShape](../../igeometryshape)
 * interface [IConnector](../../iconnector)

@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatures
-second_title: Aspose.Slides for .NET API 参考
-description: 返回用于签署演示文稿的签名集合。 只读 IDigitalSignatureCollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回用于签署演示文稿的签名集合。只读 IDigitalSignatureCollection。
 type: docs
 weight: 80
 url: /zh/aspose.slides/presentation/digitalsignatures/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentation/digitalsignatures/
 
 ## Presentation.DigitalSignatures 属性
 
-返回用于签署演示文稿的签名集合。 只读 [`IDigitalSignatureCollection`](../../idigitalsignaturecollection)。
+返回用于签署演示文稿的签名集合。只读 [`IDigitalSignatureCollection`](../../idigitalsignaturecollection)。
 
 ```csharp
 public IDigitalSignatureCollection DigitalSignatures { get; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     {
         bool allSignaturesAreValid = true;
 
-        Console.WriteLine("用于签署演示文稿的签名: ");
+        Console.WriteLine("用于签署演示文稿的签名： ");
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "
@@ -36,12 +36,12 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
         if (allSignaturesAreValid)
             Console.WriteLine("演示文稿是真实的，所有签名都是有效的。");
         else
-            Console.WriteLine("演示文稿自签署以来已被修改。");
+            Console.WriteLine("演示文稿在签署后已被修改。");
     }
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * 类 [Presentation](../../presentation)

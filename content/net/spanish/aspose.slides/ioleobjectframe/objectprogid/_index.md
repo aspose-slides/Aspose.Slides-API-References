@@ -15,10 +15,10 @@ Devuelve el ProgID de un objeto. Solo lectura String.
 public string ObjectProgId { get; set; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IOleObjectFrame](../../ioleobjectframe)
-* espacio de nombres [Aspose.Slides](../../ioleobjectframe)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IOleObjectFrame](../../ioleobjectframe)
+* espacio de nombres [Aspose.Slides](../../ioleobjectframe)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

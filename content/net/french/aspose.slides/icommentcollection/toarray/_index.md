@@ -1,7 +1,7 @@
 ---
 title: ToArray
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée et retourne un tableau avec tous les commentaires.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée et renvoie un tableau avec tous les commentaires.
 type: docs
 weight: 90
 url: /fr/aspose.slides/icommentcollection/toarray/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icommentcollection/toarray/
 
 ## ToArray() {#toarray}
 
-Crée et retourne un tableau avec tous les commentaires.
+Crée et renvoie un tableau avec tous les commentaires.
 
 ```csharp
 public IComment[] ToArray()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Tableau de [`IComment`](../../icomment).
 
@@ -30,18 +30,18 @@ Tableau de [`IComment`](../../icomment).
 
 ## ToArray(int, int) {#toarray_1}
 
-Crée et retourne un tableau avec tous les commentaires dans la plage spécifiée.
+Crée et renvoie un tableau avec tous les commentaires de la plage spécifiée.
 
 ```csharp
 public IComment[] ToArray(int startIndex, int count)
 ```
 
-| Paramètre  | Type   | Description                                        |
-|------------|--------|----------------------------------------------------|
-| startIndex | Int32  | Un index du premier commentaire à retourner.       |
-| count      | Int32  | Un nombre de commentaires à retourner.             |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| startIndex | Int32 | Un index du premier commentaire à renvoyer. |
+| count | Int32 | Un nombre de commentaires à renvoyer. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Tableau de [`IComment`](../../icomment).
 

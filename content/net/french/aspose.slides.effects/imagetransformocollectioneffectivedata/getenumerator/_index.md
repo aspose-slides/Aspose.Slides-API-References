@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator/
 ---
 
-## Méthode ImageTransformOCollectionEffectiveData.GetEnumerator
+## ImageTransformOCollectionEffectiveData.GetEnumerator méthode
 
 Renvoie un énumérateur qui itère à travers la collection.
 
@@ -22,7 +22,7 @@ Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 ### Voir aussi
 
 * interface [IEffectEffectiveData](../../ieffecteffectivedata)
-* classe [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
+* class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)
 * assembly [Aspose.Slides](../../../)
 

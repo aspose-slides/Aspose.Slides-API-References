@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipresentation/slides/
 
 ## Propriété IPresentation.Slides
 
-Renvoie une liste de toutes les diapositives qui sont définies dans la présentation. Lecture seule [`ISlideCollection`](../../islidecollection).
+Renvoie une liste de toutes les diapositives définies dans la présentation. Lecture seule [`ISlideCollection`](../../islidecollection).
 
 ```csharp
 public ISlideCollection Slides { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlideCollection](../../islidecollection)
 * interface [IPresentation](../../ipresentation)

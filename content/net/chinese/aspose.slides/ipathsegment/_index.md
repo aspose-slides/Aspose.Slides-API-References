@@ -1,6 +1,6 @@
 ---
 title: IPathSegment
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 GeometryShape 的图形路径段
 type: docs
 weight: 6410
@@ -22,7 +22,7 @@ public interface IPathSegment
 | [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | 段的路径类型 |
 | [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | 段的路径数据 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

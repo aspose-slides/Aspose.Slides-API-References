@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masterslide/applyexternalthemetodependingslides/
 
 ## MasterSlide.ApplyExternalThemeToDependingSlides méthode
 
-Crée une nouvelle diapositive maître basée sur la diapositive actuelle, en appliquant un thème externe et applique la diapositive maître créée à toutes les diapositives dépendantes.
+Crée une nouvelle diapositive maître basée sur la diapositive actuelle, appliquant un thème externe à celle-ci et applique la diapositive maître créée à toutes les diapositives dépendantes.
 
 ```csharp
 public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
@@ -21,7 +21,7 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 
 ### Valeur de retour
 
-Nouvelle diapositive maître thématisée.
+Nouvelle MasterSlide thématique.
 
 ### Exceptions
 

@@ -1,15 +1,15 @@
 ---
 title: AddEmbeddedFont
-second_title: Aspose.Slides for .NET API 参考
-description: 添加嵌入字体。请注意，复制任何字体时，大多数字体都是有版权的。在复制之前，请先找到字体的许可证，并验证它们是否可以自由转移到另一台机器上。如果字体数据为 null 或该字体已经嵌入，则可能会抛出 ArgumentException。
+second_title: Aspose.Sildes for .NET API Reference
+description: 添加嵌入字体。在复制任何字体时，请记住大多数字体都受版权保护。首先提前找到字体的许可证，并确认它们可以自由转移到另一台机器。如果字体数据为 null 或该字体已嵌入，则可能会抛出 ArgumentException。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ifontsmanager/addembeddedfont/
 ---
 
-## 添加嵌入字体(IFontData, EmbedFontCharacters) {#addembeddedfont}
+## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-添加嵌入字体。请注意，复制任何字体时，大多数字体都是有版权的。在复制之前，请先找到字体的许可证，并验证它们是否可以自由转移到另一台机器上。如果字体数据为 null 或该字体已经嵌入，则可能会抛出 ArgumentException。
+添加嵌入字体。在复制任何字体时，请记住大多数字体都受版权保护。首先提前找到字体的许可证，并确认它们可以自由转移到另一台机器。如果字体数据为 null 或该字体已嵌入，则可能会抛出 ArgumentException。
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -20,7 +20,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 | fontData | IFontData | 字体数据对象 [`IFontData`](../../ifontdata) |
 | embedFontRule | EmbedFontCharacters | 嵌入字体规则 [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontData](../../ifontdata)
 * 枚举 [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
@@ -30,9 +30,9 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ---
 
-## 添加嵌入字体(byte[], EmbedFontCharacters) {#addembeddedfont_1}
+## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-添加嵌入字体。请注意，添加任何字体时，大多数字体都是有版权的。在添加之前，请先找到字体的许可证，并验证它们是否可以自由转移到另一台机器上。如果字体数据为 null 或该字体已经嵌入，则可能会抛出 ArgumentException。
+添加嵌入字体。在添加任何字体时，请记住大多数字体都受版权保护。首先提前找到字体的许可证，并确认它们可以自由转移到另一台机器。如果字体数据为 null 或该字体已嵌入，则可能会抛出 ArgumentException。
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
@@ -43,7 +43,7 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 | fontData | Byte[] | 字体数据 Byte[] |
 | embedFontRule | EmbedFontCharacters | 嵌入字体规则 [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
-### 另见
+### 另请参阅
 
 * 枚举 [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters)
 * 接口 [IFontsManager](../../ifontsmanager)

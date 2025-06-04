@@ -1,7 +1,7 @@
 ---
 title: InterpretMaskOpAsOpacity
-second_title: Aspose.Slides for .NET API Reference
-description: 使用 ROP 操作或不透明度进行刷子渲染。
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用 ROP 操作或不透明度进行画笔渲染。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/inkoptions/interpretmaskopasopacity/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/inkoptions/interpretmaskopasopacity/
 
 ## InkOptions.InterpretMaskOpAsOpacity 属性
 
-使用 ROP 操作或不透明度进行刷子渲染。
+使用 ROP 操作或不透明度进行画笔渲染。
 
 ```csharp
 public bool InterpretMaskOpAsOpacity { get; set; }
@@ -21,7 +21,7 @@ public bool InterpretMaskOpAsOpacity { get; set; }
 
 ### 示例
 
-下一个示例演示如何设置使用 ROP 导出墨水元素：
+下面的示例演示如何设置使用 ROP 来导出 Ink 元素：
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * class [InkOptions](../../inkoptions)
 * namespace [Aspose.Slides.Export](../../inkoptions)

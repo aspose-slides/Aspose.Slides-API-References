@@ -15,7 +15,7 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Véase también
+### Véase También
 
 * clase [DigitalSignatureCollection](../../digitalsignaturecollection)
 * espacio de nombres [Aspose.Slides](../../digitalsignaturecollection)

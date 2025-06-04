@@ -1,15 +1,15 @@
 ---
 title: EffectFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les propriétés EffectFormat du texte. Lecture seule IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie les propriétés de format d'effet de texte. Lecture seule IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibaseportionformateffectivedata/effectformat/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.EffectFormat
+## IBasePortionFormatEffectiveData.EffectFormat propriété
 
-Renvoie les propriétés EffectFormat du texte. Lecture seule [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
+Renvoie les propriétés de format d'effet de texte. Lecture seule [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }

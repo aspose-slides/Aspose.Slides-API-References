@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: type docs
 weight: 7690
 url: /zh/aspose.slides.lowcode/foreach.foreachparagraphcallback/

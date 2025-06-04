@@ -17,14 +17,14 @@ public interface IHyperlinkContainer
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Возвращает или устанавливает гиперссылку, определённую для щелчка мыши. Чтение/запись [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Возвращает или устанавливает гиперссылку, определенную для нажатия мышью. Чтение/запись [`IHyperlink`](../ihyperlink). |
 | [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Менеджер гиперссылок только для чтения [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Возвращает или устанавливает гиперссылку, определённую для наведения мыши. Чтение/запись [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Возвращает или устанавливает гиперссылку, определенную для наведения мыши. Чтение/запись [`IHyperlink`](../ihyperlink). |
 
-### См. также
-
+### Также см.
+  
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)
 

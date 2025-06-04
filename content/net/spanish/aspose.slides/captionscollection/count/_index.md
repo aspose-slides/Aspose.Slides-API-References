@@ -15,7 +15,7 @@ Devuelve el número de elementos en la colección. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Véase También
+### Vea También
 
 * clase [CaptionsCollection](../../captionscollection)
 * espacio de nombres [Aspose.Slides](../../captionscollection)

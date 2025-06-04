@@ -1,7 +1,7 @@
 ---
 title: RemoveUnused
-second_title: Aspose.Slides für .NET API Referenz
-description: Entfernt unbenutzte Master-Folien.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Entfernt ungenutzte Master-Folien.
 type: docs
 weight: 110
 url: /de/aspose.slides/masterslidecollection/removeunused/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masterslidecollection/removeunused/
 
 ## MasterSlideCollection.RemoveUnused Methode
 
-Entfernt unbenutzte Master-Folien.
+Entfernt ungenutzte Master-Folien.
 
 ```csharp
 public void RemoveUnused(bool ignorePreserveField)
@@ -17,9 +17,9 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | Bestimmt, ob diese Methode unbenutzte Master-Folien entfernen soll, selbst wenn die [`Preserve`](../../masterslide/preserve) Eigenschaft auf true gesetzt ist. |
+| ignorePreserveField | Boolean | Bestimmt, ob diese Methode ungenutzte Master entfernen soll, selbst wenn die [`Preserve`](../../masterslide/preserve) Eigenschaft auf true gesetzt ist. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MasterSlideCollection](../../masterslidecollection)
 * Namespace [Aspose.Slides](../../masterslidecollection)

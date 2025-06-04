@@ -1,7 +1,7 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Slides for .NET API 参考
-description: 表示错误条的类型
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示误差条的类型
 type: docs
 weight: 1560
 url: /zh/aspose.slides.charts/errorbartype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/errorbartype/
 
 ## ErrorBarType 枚举
 
-表示错误条的类型
+表示误差条的类型
 
 ```csharp
 public enum ErrorBarType
@@ -19,11 +19,11 @@ public enum ErrorBarType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Both | `0` | 指定错误条应在正负方向上显示。 |
-| Minus | `1` | 指定错误条仅应在负方向上显示。 |
-| Plus | `2` | 指定错误条仅应在正方向上显示。 |
+| Both | `0` | 指定误差条应在正负方向均显示。 |
+| Minus | `1` | 指定误差条仅应在负方向显示。 |
+| Plus | `2` | 指定误差条仅应在正方向显示。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

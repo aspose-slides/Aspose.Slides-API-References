@@ -1,7 +1,7 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Platzhalter auf einer Folie dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt ein Platzhalter auf einer Folie dar.
 type: docs
 weight: 6490
 url: /de/aspose.slides/iplaceholder/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iplaceholder/
 
 ## IPlaceholder-Schnittstelle
 
-Stellt einen Platzhalter auf einer Folie dar.
+Stellt ein Platzhalter auf einer Folie dar.
 
 ```csharp
 public interface IPlaceholder
@@ -19,10 +19,10 @@ public interface IPlaceholder
 
 | Name | Beschreibung |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Gibt den Index eines Platzhalters zurück. Nur-Lese UInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Gibt die Ausrichtung eines Platzhalters zurück. Nur-Lese [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Gibt die Größe eines Platzhalters zurück. Nur-Lese [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Gibt den Typ eines Platzhalters zurück. Nur-Lese [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Gibt den Index eines Platzhalters zurück. Nur lesbar UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Gibt die Ausrichtung eines Platzhalters zurück. Nur lesbar [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Gibt die Größe eines Platzhalters zurück. Nur lesbar [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Gibt den Typ eines Platzhalters zurück. Nur lesbar [`PlaceholderType`](../placeholdertype). |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个值指示对集合的访问是否是同步的（线程安全）。只读布尔值。
+description: 返回一个值，指示对集合的访问是否是同步的（线程安全）。只读布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/chartdatapointcollection/issynchronized/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/issynchronized/
 
 ## ChartDataPointCollection.IsSynchronized 属性
 
-返回一个值指示对集合的访问是否是同步的（线程安全）。只读布尔值。
+返回一个值，指示对集合的访问是否是同步的（线程安全）。只读布尔值。
 
 ```csharp
 public bool IsSynchronized { get; }

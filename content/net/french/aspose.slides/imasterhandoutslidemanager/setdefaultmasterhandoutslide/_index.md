@@ -1,7 +1,7 @@
 ---
 title: SetDefaultMasterHandoutSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit la diapositive de remise maître par défaut à la diapositive de remise associée.
+second_title: Aspose.Slides pour .NET API Référence
+description: Définit le diapo de référence maître par défaut au diapo de référence associé.
 type: docs
 weight: 30
 url: /fr/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
 
 ## IMasterHandoutSlideManager.SetDefaultMasterHandoutSlide méthode
 
-Définit la diapositive de remise maître par défaut à la diapositive de remise associée.
+Définit le diapo de référence maître par défaut au diapo de référence associé.
 
 ```csharp
 public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Diapositive de remise maître [`IMasterHandoutSlide`](../../imasterhandoutslide)
+Diapo de référence maître [`IMasterHandoutSlide`](../../imasterhandoutslide)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMasterHandoutSlide](../../imasterhandoutslide)
 * interface [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)

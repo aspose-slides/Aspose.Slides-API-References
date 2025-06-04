@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET Справочник по API
-description: Получает данные форматирования текстового фрейма с применением наследования.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает данные об эффективном форматировании текстового поля с применением наследования.
 type: docs
 weight: 170
 url: /ru/aspose.slides/textframeformat/geteffective/
 ---
 
-## Метод TextFrameFormat.GetEffective
+## TextFrameFormat.GetEffective метод
 
-Получает данные форматирования текстового фрейма с применением наследования.
+Получает данные об эффективном форматировании текстового поля с применением наследования.
 
 ```csharp
 public ITextFrameFormatEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых свойств эффективного форматирования текстового фрейма.
+В этом примере демонстрируется получение некоторых свойств эффективного форматирования текстового поля.
 
 ```csharp
 [C#]
@@ -30,10 +30,10 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
     ITextFrameFormatEffectiveData effectiveTextFrameFormat = shape.TextFrame.TextFrameFormat.GetEffective();
    
-    Console.WriteLine("Тип якоря: " + effectiveTextFrameFormat.AnchoringType);
-    Console.WriteLine("Тип автоподгонки: " + effectiveTextFrameFormat.AutofitType);
+    Console.WriteLine("Тип закрепления: " + effectiveTextFrameFormat.AnchoringType);
+    Console.WriteLine("Тип автоподгона: " + effectiveTextFrameFormat.AutofitType);
     Console.WriteLine("Вертикальный тип текста: " + effectiveTextFrameFormat.TextVerticalType);
-    Console.WriteLine("Полосы");
+    Console.WriteLine("Поля");
     Console.WriteLine("   Слева: " + effectiveTextFrameFormat.MarginLeft);
     Console.WriteLine("   Сверху: " + effectiveTextFrameFormat.MarginTop);
     Console.WriteLine("   Справа: " + effectiveTextFrameFormat.MarginRight);

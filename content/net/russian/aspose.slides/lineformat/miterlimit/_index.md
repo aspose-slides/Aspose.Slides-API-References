@@ -1,7 +1,7 @@
 ---
 title: MiterLimit
-second_title: Aspose.Sildes для .NET Справочник API
-description: Возвращает или задает предел наклона линии. Чтение/запись Single.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает предел мита линии. Чтение/запись Single.
 type: docs
 weight: 140
 url: /ru/aspose.slides/lineformat/miterlimit/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/lineformat/miterlimit/
 
 ## Свойство LineFormat.MiterLimit
 
-Возвращает или задает предел наклона линии. Чтение/запись Single.
+Возвращает или задает предел мита линии. Чтение/запись Single.
 
 ```csharp
 public float MiterLimit { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [LineFormat](../../lineformat)
 * пространство имен [Aspose.Slides](../../lineformat)

@@ -1,7 +1,7 @@
 ---
 title: GetImage
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein Thumbnail-Bildobjekt mit benutzerdefinierter Skalierung zurück.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt ein Thumbnail-Image-Objekt mit benutzerdefinierter Skalierung zurück.
 type: docs
 weight: 80
 url: /de/aspose.slides/slide/getimage/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slide/getimage/
 
 ## GetImage(float, float) {#getimage_5}
 
-Gibt ein Thumbnail-Bildobjekt mit benutzerdefinierter Skalierung zurück.
+Gibt ein Thumbnail-Image-Objekt mit benutzerdefinierter Skalierung zurück.
 
 ```csharp
 public IImage GetImage(float scaleX, float scaleY)
@@ -17,8 +17,8 @@ public IImage GetImage(float scaleX, float scaleY)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| scaleX | Single | Der Wert, um den dieses Thumbnail in Richtung der x-Achse skaliert werden soll. |
-| scaleY | Single | Der Wert, um den dieses Thumbnail in Richtung der y-Achse skaliert werden soll. |
+| scaleX | Single | Der Wert, um den dieses Thumbnail in x-Achsen-Richtung skaliert werden soll. |
+| scaleY | Single | Der Wert, um den dieses Thumbnail in y-Achsen-Richtung skaliert werden soll. |
 
 ### Rückgabewert
 
@@ -26,11 +26,11 @@ IImage-Objekt.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man Thumbnails aus einer PowerPoint-Präsentation erstellt.
+Das folgende Beispiel zeigt, wie man Thumbnails aus einer PowerPoint-Präsentation erzeugt.
 
 ```csharp
 [C#]
-// Erstelle eine Präsentationsklasse, die die Präsentationsdatei repräsentiert
+// Instanziiere eine Präsentationsklasse, die die Präsentationsdatei darstellt
 using (Presentation pres = new Presentation("ThumbnailFromSlide.pptx"))
 {
     // Greife auf die erste Folie zu
@@ -106,7 +106,7 @@ using (Presentation pres = new Presentation("PowerPoint-Presentation.pptx"))
 
 ## GetImage() {#getimage}
 
-Gibt ein Thumbnail-Bildobjekt (20% der tatsächlichen Größe) zurück.
+Gibt ein Thumbnail-Image-Objekt (20% der echten Größe) zurück.
 
 ```csharp
 public IImage GetImage()
@@ -123,7 +123,7 @@ public IImage GetImage()
 
 ## GetImage(Size) {#getimage_6}
 
-Gibt ein Thumbnail-Bildobjekt mit der angegebenen Größe zurück.
+Gibt ein Thumbnail-Image-Objekt mit einer bestimmten Größe zurück.
 
 ```csharp
 public IImage GetImage(Size imageSize)
@@ -135,11 +135,11 @@ public IImage GetImage(Size imageSize)
 
 ### Rückgabewert
 
-Bildobjekt.
+Image-Objekt.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man Folien in Bilder mit benutzerdefinierten Größen unter Verwendung von C# konvertiert.
+Das folgende Beispiel zeigt, wie man Folien in Bilder mit benutzerdefinierten Größen konvertiert.
 
 ```csharp
 using (Presentation pres = new Presentation("Presentation.pptx"))
@@ -164,7 +164,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## GetImage(ITiffOptions) {#getimage_4}
 
-Gibt ein Thumbnail-Tiff-Bildobjekt mit den angegebenen Parametern zurück.
+Gibt ein Thumbnail-TIFF-Image-Objekt mit bestimmten Parametern zurück.
 
 ```csharp
 public IImage GetImage(ITiffOptions options)
@@ -172,17 +172,17 @@ public IImage GetImage(ITiffOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | ITiffOptions | Tiff-Optionen. |
+| options | ITiffOptions | TIFF-Optionen. |
 
 ### Rückgabewert
 
-Bildobjekt.
+Image-Objekt.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wird ausgelöst, wenn options.SlideLayoutOption NotesCommentsLayoutingOptions ist und dessen Eigenschaft NotesPosition den Wert NotesPositions.BottomFull hat. |
+| InvalidOperationException | Wird ausgelöst, wenn options.SlideLayoutOption NotesCommentsLayoutingOptions ist und die Eigenschaft NotesPosition den Wert NotesPositions.BottomFull annimmt. |
 
 ### Siehe auch
 
@@ -196,7 +196,7 @@ Bildobjekt.
 
 ## GetImage(IRenderingOptions) {#getimage_1}
 
-Gibt ein Thumbnail-Bildobjekt zurück.
+Gibt ein Thumbnail-Image-Objekt zurück.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options)
@@ -208,13 +208,13 @@ public IImage GetImage(IRenderingOptions options)
 
 ### Rückgabewert
 
-Bildobjekt.
+Image-Objekt.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wird ausgelöst, wenn notesCommentsLayouting.NotesPosition den Wert NotesPositions.BottomFull hat. |
+| InvalidOperationException | Wird ausgelöst, wenn notesCommentsLayouting.NotesPosition den Wert NotesPositions.BottomFull annimmt. |
 
 ### Siehe auch
 
@@ -228,7 +228,7 @@ Bildobjekt.
 
 ## GetImage(IRenderingOptions, float, float) {#getimage_2}
 
-Gibt ein Thumbnail-Bildobjekt mit benutzerdefinierter Skalierung zurück.
+Gibt ein Thumbnail-Image-Objekt mit benutzerdefinierter Skalierung zurück.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
@@ -237,8 +237,8 @@ public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering-Optionen. |
-| scaleX | Single | Der Wert, um den dieses Thumbnail in Richtung der x-Achse skaliert werden soll. |
-| scaleY | Single | Der Wert, um den dieses Thumbnail in Richtung der y-Achse skaliert werden soll. |
+| scaleX | Single | Der Wert, um den dieses Thumbnail in x-Achsen-Richtung skaliert werden soll. |
+| scaleY | Single | Der Wert, um den dieses Thumbnail in y-Achsen-Richtung skaliert werden soll. |
 
 ### Rückgabewert
 
@@ -248,28 +248,28 @@ Bitmap-Objekte.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wird ausgelöst, wenn notesCommentsLayouting.NotesPosition den Wert NotesPositions.BottomFull hat. |
+| InvalidOperationException | Wird ausgelöst, wenn notesCommentsLayouting.NotesPosition den Wert NotesPositions.BottomFull annimmt. |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man Folien mit Notizen und Kommentaren in Bilder unter Verwendung von C# konvertiert.
+Das folgende Beispiel zeigt, wie man Folien mit Notizen und Kommentaren in Bilder konvertiert.
 
 ```csharp
 using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
 {
     // Erstelle die Rendering-Optionen
     IRenderingOptions options = new RenderingOptions();
-    // Erstelle Notizen- und Kommentaranordnung-Optionen
+    // Erstelle Notizen- und Kommentaranordnung
     NotesCommentsLayoutingOptions notesCommentsLayouting = new NotesCommentsLayoutingOptions();
-    // Setze die Position der Notizen auf der Seite
+    // Setzt die Position der Notizen auf der Seite
     notesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
-    // Setze die Position der Kommentare auf der Seite
+    // Setzt die Position der Kommentare auf der Seite
     notesCommentsLayouting.CommentsPosition = CommentsPositions.Right;
-    // Setze die Breite des Kommentarbereichs
+    // Setzt die Breite des Kommentar-Ausgabebereichs
     notesCommentsLayouting.CommentsAreaWidth = 500;
-    // Setze die Farbe für den Kommentarbereich
+    // Setzt die Farbe für den Kommentarbereich
     notesCommentsLayouting.CommentsAreaColor = Color.AntiqueWhite;
-    // Setze Layout-Optionen für das Rendering
+    // Setzt Layout-Optionen für das Rendering
     options.SlidesLayoutOptions = notesCommentsLayouting;
     // Konvertiert die erste Folie der Präsentation in ein IImage-Objekt
     IImage image = pres.Slides[0].GetImage(options, 2f, 2f);
@@ -290,7 +290,7 @@ using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
 
 ## GetImage(IRenderingOptions, Size) {#getimage_3}
 
-Gibt ein Thumbnail-Bildobjekt mit der angegebenen Größe zurück.
+Gibt ein Thumbnail-Image-Objekt mit einer bestimmten Größe zurück.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, Size imageSize)
@@ -303,13 +303,13 @@ public IImage GetImage(IRenderingOptions options, Size imageSize)
 
 ### Rückgabewert
 
-Bildobjekt.
+Image-Objekt.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Wird ausgelöst, wenn options.SlideLayoutOption NotesCommentsLayoutingOptions ist und dessen Eigenschaft NotesPosition den Wert NotesPositions.BottomFull hat. |
+| InvalidOperationException | Wird ausgelöst, wenn options.SlideLayoutOption NotesCommentsLayoutingOptions ist und die Eigenschaft NotesPosition den Wert NotesPositions.BottomFull annimmt. |
 
 ### Siehe auch
 

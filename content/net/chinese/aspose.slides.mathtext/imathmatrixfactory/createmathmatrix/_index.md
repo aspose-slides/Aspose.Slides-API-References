@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrixfactory/createmathmatrix/
 
 ## IMathMatrixFactory.CreateMathMatrix 方法
 
-创建数学矩阵
+创建一个数学矩阵
 
 ```csharp
 public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
@@ -24,7 +24,7 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 
 新的数学矩阵
 
-### 另见
+### 参见
 
 * 接口 [IMathMatrix](../../imathmatrix)
 * 接口 [IMathMatrixFactory](../../imathmatrixfactory)

@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает перечислитель, который проходит по коллекции.
 type: docs
 weight: 80
@@ -15,11 +15,11 @@ url: /ru/aspose.slides.animation/textanimationcollection/getenumerator/
 public IEnumerator<ITextAnimation> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для итерации по коллекции.
 
-### См. Также
+### См. также
 
 * интерфейс [ITextAnimation](../../itextanimation)
 * класс [TextAnimationCollection](../../textanimationcollection)

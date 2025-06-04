@@ -1,7 +1,7 @@
 ---
 title: ShowOutlineIcons
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, следует ли приложению отображать иконки при показе содержимого схемы в любых областях содержимого нормального режима просмотра. Читаемый/записываемый логический.
+second_title: Aspose.Sldes для .NET API Reference
+description: Указывает, следует ли приложению показывать значки при отображении контента из оглавления в любом из регионов контента обычного режима просмотра. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/inormalviewproperties/showoutlineicons/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/inormalviewproperties/showoutlineicons/
 
 ## INormalViewProperties.ShowOutlineIcons свойство
 
-Указывает, следует ли приложению отображать иконки при показе содержимого схемы в любых областях содержимого нормального режима просмотра. Читаемый/записываемый логический.
+Указывает, следует ли приложению показывать значки при отображении контента из оглавления в любом из регионов контента обычного режима просмотра. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool ShowOutlineIcons { get; set; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [INormalViewProperties](../../inormalviewproperties)
 * пространство имен [Aspose.Slides](../../inormalviewproperties)

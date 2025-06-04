@@ -1,7 +1,7 @@
 ---
 title: Timing
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés de timing pour le comportement des effets. Lire/écrire ITimingaspose.slides.animation/itiming.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente les propriétés de timing pour le comportement de l'effet. Lecture/écriture ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/behavior/timing/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/behavior/timing/
 
 ## Propriété Behavior.Timing
 
-Représente les propriétés de timing pour le comportement des effets. Lire/écrire [`ITiming`](../../itiming).
+Représente les propriétés de timing pour le comportement de l'effet. Lecture/écriture [`ITiming`](../../itiming).
 
 ```csharp
 public ITiming Timing { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: ICommentAuthor
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un autor de comentarios.
 type: docs
 weight: 5370
@@ -27,7 +27,7 @@ public interface ICommentAuthor
 
 | Nombre | Descripción |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | Elimina al autor de la colección principal. |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | Elimina al autor de la colección padre. |
 
 ### Vea También
 

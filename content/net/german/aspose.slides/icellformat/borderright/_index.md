@@ -1,7 +1,7 @@
 ---
 title: BorderRight
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein Objekt mit Eigenschaften für die rechte Randlinie zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
+description: Gibt ein Objekt mit Eigenschaften der rechten Rahmenlinie zurück. Nur lesbar ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 50
 url: /de/aspose.slides/icellformat/borderright/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icellformat/borderright/
 
 ## ICellFormat.BorderRight-Eigenschaft
 
-Gibt ein Objekt mit Eigenschaften für die rechte Randlinie zurück. Nur lesbar [`ILineFormat`](../../ilineformat).
+Gibt ein Objekt mit Eigenschaften der rechten Rahmenlinie zurück. Nur lesbar [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderRight { get; }

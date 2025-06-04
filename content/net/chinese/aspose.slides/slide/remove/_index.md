@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 从演示文稿中移除幻灯片。
 type: docs
 weight: 110
@@ -19,9 +19,9 @@ public void Remove()
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果幻灯片已经从演示文稿中移除，则会抛出。 |
+| [PptxEditException](../../pptxeditexception) | 如果幻灯片已经从演示文稿中移除，则抛出。 |
 
-### 参见
+### 另见
 
 * class [Slide](../../slide)
 * namespace [Aspose.Slides](../../slide)

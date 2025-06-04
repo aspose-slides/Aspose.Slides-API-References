@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置段落的左边距，不继承。可读/写 Single。
+description: 返回或设置段落中的左边距，不继承。可读/写单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides/iparagraphformat/marginleft/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformat/marginleft/
 
 ## IParagraphFormat.MarginLeft 属性
 
-返回或设置段落的左边距，不继承。可读/写 Single。
+返回或设置段落中的左边距，不继承。可读/写单精度浮点数。
 
 ```csharp
 public float MarginLeft { get; set; }

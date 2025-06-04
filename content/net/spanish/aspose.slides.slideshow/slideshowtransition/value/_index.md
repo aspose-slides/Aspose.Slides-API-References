@@ -1,25 +1,25 @@
 ---
 title: Value
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Valor de la transición de presentación de diapositivas. Solo lectura ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+description: Valor de transición de diapositivas. Solo de lectura ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 110
 url: /es/aspose.slides.slideshow/slideshowtransition/value/
 ---
 
-## Propiedad SlideShowTransition.Value
+## SlideShowTransition.Value property
 
-Valor de la transición de presentación de diapositivas. Solo lectura [`ITransitionValueBase`](../../itransitionvaluebase).
+Valor de transición de diapositivas. Solo de lectura [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase Value { get; }
 ```
 
-### Ver también
+### Ver También
 
 * interfaz [ITransitionValueBase](../../itransitionvaluebase)
 * clase [SlideShowTransition](../../slideshowtransition)
 * espacio de nombres [Aspose.Slides.SlideShow](../../slideshowtransition)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

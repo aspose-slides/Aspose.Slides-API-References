@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los comentarios de una colección.
 type: docs
 weight: 70
@@ -15,10 +15,10 @@ Elimina todos los comentarios de una colección.
 public void Clear()
 ```
 
-### Ver también
+### Véase también
 
 * clase [CommentCollection](../../commentcollection)
 * espacio de nombres [Aspose.Slides](../../commentcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

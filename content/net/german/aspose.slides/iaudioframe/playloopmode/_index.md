@@ -1,7 +1,7 @@
 ---
 title: PlayLoopMode
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob ein Audio in einer Schleife wiedergegeben wird. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob ein Audio wiederholt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 130
 url: /de/aspose.slides/iaudioframe/playloopmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iaudioframe/playloopmode/
 
 ## IAudioFrame.PlayLoopMode-Eigenschaft
 
-Bestimmt, ob ein Audio in einer Schleife wiedergegeben wird. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob ein Audio wiederholt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }

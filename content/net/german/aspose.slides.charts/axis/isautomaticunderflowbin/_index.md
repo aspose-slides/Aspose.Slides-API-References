@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Wert für den automatischen Unterlauf-Bereich an. Wenn false, verwenden Sie die Eigenschaft UnderflowBin.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Wert des automatischen Unterlaufbehälters an. Wenn false, verwenden Sie die UnderflowBin-Eigenschaft.
 type: docs
 weight: 250
 url: /de/aspose.slides.charts/axis/isautomaticunderflowbin/
 ---
 
-## Axis.IsAutomaticUnderflowBin Eigenschaft
+## Axis.IsAutomaticUnderflowBin-Eigenschaft
 
-Gibt den Wert für den automatischen Unterlauf-Bereich an. Wenn false: verwenden Sie die Eigenschaft UnderflowBin.
+Gibt den Wert des automatischen Unterlaufbehälters an. Wenn false: verwenden Sie die UnderflowBin-Eigenschaft.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }

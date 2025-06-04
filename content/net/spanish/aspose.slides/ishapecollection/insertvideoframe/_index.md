@@ -1,13 +1,13 @@
 ---
 title: InsertVideoFrame
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Crea un nuevo marco de video e inserta en una colección en el índice especificado.
 type: docs
 weight: 350
 url: /es/aspose.slides/ishapecollection/insertvideoframe/
 ---
 
-## Método IShapeCollection.InsertVideoFrame
+## IShapeCollection.InsertVideoFrame método
 
 Crea un nuevo marco de video e inserta en una colección en el índice especificado.
 
@@ -22,7 +22,7 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 | x | Single | Coordenada X de un nuevo marco de video. |
 | y | Single | Coordenada Y de un nuevo marco de video. |
 | width | Single | Ancho de un nuevo marco de video. |
-| height | Single | Altura de un nuevo marco de video. |
+| height | Single | Alto de un nuevo marco de video. |
 | fname | String | Nombre del archivo de video. |
 
 ### Valor de Retorno

@@ -1,21 +1,21 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der Anpassungen zurück. Schreibgeschütztes Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt eine Anzahl von Anpassungen zurück. Schreibgeschütztes Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/adjustvaluecollection/count/
 ---
 
-## AdjustValueCollection.Count Eigenschaft
+## AdjustValueCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Anpassungen zurück. Schreibgeschütztes Int32.
+Gibt eine Anzahl von Anpassungen zurück. Schreibgeschütztes Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [AdjustValueCollection](../../adjustvaluecollection)
 * Namespace [Aspose.Slides](../../adjustvaluecollection)

@@ -1,7 +1,7 @@
 ---
 title: FieldOfViewAngle
 second_title: Aspose.Slides für .NET API Referenz
-description: Kamera FOV 0-180 Grad Sichtfeld. Lesen/Schreiben einzelner Wert.
+description: Kamera FOV 0-180 Grad Sichtfeld. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 20
 url: /de/aspose.slides/camera/fieldofviewangle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/camera/fieldofviewangle/
 
 ## Camera.FieldOfViewAngle-Eigenschaft
 
-Kamera FOV (0-180 Grad, Sichtfeld). Lesen/Schreiben einzelner Wert.
+Kamera FOV (0-180 Grad, Sichtfeld). Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float FieldOfViewAngle { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Camera](../../camera)
 * Namespace [Aspose.Slides](../../camera)

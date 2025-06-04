@@ -1,15 +1,15 @@
 ---
 title: AdvanceOnClick
-second_title: Aspose.Slides for .NET API Reference
-description: 指定鼠标点击是否会推进幻灯片。如果未指定此属性，则假定其值为 true。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定鼠标点击是否会推进幻灯片。如果未指定该属性，则假定值为 true。可读/写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.slideshow/slideshowtransition/advanceonclick/
 ---
 
-## SlideShowTransition.AdvanceOnClick 属性
+## SlideShowTransition.AdvanceOnClick property
 
-指定鼠标点击是否会推进幻灯片。如果未指定此属性，则假定其值为 true。可读/可写布尔值。
+指定鼠标点击是否会推进幻灯片。如果未指定该属性，则假定值为 true。可读/写布尔值。
 
 ```csharp
 public bool AdvanceOnClick { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina todas las secciones de la colección.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Elimina todas las secciones de la colección.
 public void Clear()
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ISectionCollection](../../isectioncollection)
 * espacio de nombres [Aspose.Slides](../../isectioncollection)

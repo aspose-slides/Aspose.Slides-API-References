@@ -1,7 +1,7 @@
 ---
 title: WriteDocumentEnd
 second_title: Aspose.Slides für .NET API-Referenz
-description: Wird aufgerufen, um den HTML-Dokumentfuß zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
+description: Wird aufgerufen, um den HTML-Dokumentfuß zu schreiben. Wird einmal pro Präsentationskonversion aufgerufen.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
 
 ## EmbedAllFontsHtmlController.WriteDocumentEnd-Methode
 
-Wird aufgerufen, um den HTML-Dokumentfuß zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
+Wird aufgerufen, um den HTML-Dokumentfuß zu schreiben. Wird einmal pro Präsentationskonversion aufgerufen.
 
 ```csharp
 public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
@@ -17,8 +17,8 @@ public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation pre
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Ausgabobjekt. |
-| presentation | IPresentation | Präsentation, die gerade gerendert wird. |
+| generator | IHtmlGenerator | Ausgabesobjekt. |
+| presentation | IPresentation | Die aktuell gerenderte Präsentation. |
 
 ### Siehe auch
 

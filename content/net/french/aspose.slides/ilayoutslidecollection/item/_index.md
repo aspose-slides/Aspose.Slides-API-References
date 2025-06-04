@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la diapositive de mise en page par index. Lecture seule ILayoutSlide aspose.slides/ilayoutslide.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie la diapositive de mise en page par index. Lecture seule ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ilayoutslidecollection/item/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilayoutslidecollection/item/
 
 ## Indexeur ILayoutSlideCollection
 
-Retourne la diapositive de mise en page par index. Lecture seule [`ILayoutSlide`](../../ilayoutslide).
+Renvoie la diapositive de mise en page par index. Lecture seule [`ILayoutSlide`](../../ilayoutslide).
 
 ```csharp
 public ILayoutSlide this[int index] { get; }

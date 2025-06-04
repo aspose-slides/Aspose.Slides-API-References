@@ -1,7 +1,7 @@
 ---
 title: GetImage
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Miniaturbild einer Form zurück. Standardmäßig wird der Typ ShapeThumbnailBounds.Shape für die Miniaturbildgrenzen verwendet.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Miniaturbild einer Form zurück. Der Typ ShapeThumbnailBounds.Shape, der die Miniaturbildgrenzen der Form beschreibt, wird standardmäßig verwendet.
 type: docs
 weight: 350
 url: /de/aspose.slides/shape/getimage/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/getimage/
 
 ## GetImage() {#getimage}
 
-Gibt das Miniaturbild einer Form zurück. Standardmäßig wird der Typ ShapeThumbnailBounds.Shape für die Miniaturbildgrenzen verwendet.
+Gibt das Miniaturbild einer Form zurück. Der Typ ShapeThumbnailBounds.Shape, der die Miniaturbildgrenzen der Form beschreibt, wird standardmäßig verwendet.
 
 ```csharp
 public IImage GetImage()
@@ -38,13 +38,13 @@ public IImage GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| bounds | ShapeThumbnailBounds | Typ der Miniaturbildgrenzen. |
-| scaleX | Single | X-Skala |
-| scaleY | Single | Y-Skala |
+| bounds | ShapeThumbnailBounds | Typ der Miniaturbildgrenzen der Form. |
+| scaleX | Single | X-Skalierung |
+| scaleY | Single | Y-Skalierung |
 
 ### Rückgabewert
 
-Miniaturbild der Form oder null, falls der ShapeThumbnailBounds.Appearance verwendet wird und eine Form keine sichtbaren Elemente hat.
+Miniaturbild der Form oder null, wenn ShapeThumbnailBounds.Appearance verwendet wird und eine Form keine sichtbaren Elemente hat.
 
 ### Siehe auch
 

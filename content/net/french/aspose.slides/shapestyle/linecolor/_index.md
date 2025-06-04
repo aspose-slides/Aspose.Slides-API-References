@@ -1,7 +1,7 @@
 ---
 title: LineColor
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la couleur de contour d'une forme. En lecture seule IColorFormataspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la couleur de contour d'une forme. Lecture seule IColorFormat aspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /fr/aspose.slides/shapestyle/linecolor/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/shapestyle/linecolor/
 
 ## Propriété ShapeStyle.LineColor
 
-Renvoie la couleur de contour d'une forme. En lecture seule [`IColorFormat`](../../icolorformat).
+Renvoie la couleur de contour d'une forme. Lecture seule [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat LineColor { get; }
 ```
 
-### Voir aussi
+### À voir aussi
 
 * interface [IColorFormat](../../icolorformat)
 * classe [ShapeStyle](../../shapestyle)

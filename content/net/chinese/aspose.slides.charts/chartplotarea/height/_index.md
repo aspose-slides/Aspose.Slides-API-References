@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置绘图区边界框的高度，作为图表高度的一个比例，范围从 0 到 1。可读写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置绘图区边界框的高度作为图表高度的一个比例，从 0 到 1。可读写单精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/chartplotarea/height/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartplotarea/height/
 
 ## ChartPlotArea.Height 属性
 
-返回或设置绘图区边界框的高度，作为图表高度的一个比例（范围从 0 到 1）。可读写单精度浮点数。
+返回或设置绘图区边界框的高度作为图表高度的一个比例（从 0 到 1）。可读写单精度浮点数。
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ChartPlotArea](../../chartplotarea)
 * namespace [Aspose.Slides.Charts](../../chartplotarea)

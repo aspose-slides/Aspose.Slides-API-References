@@ -1,7 +1,7 @@
 ---
 title: IVbaProject
-second_title: Aspose.Slidес для .NET API Reference
-description: Представляет VBA-проект с макросами презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет проект VBA с макросами презентации.
 type: docs
 weight: 11240
 url: /ru/aspose.slides.vba/ivbaproject/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.vba/ivbaproject/
 
 ## Интерфейс IVbaProject
 
-Представляет VBA-проект с макросами презентации.
+Представляет проект VBA с макросами презентации.
 
 ```csharp
 public interface IVbaProject
@@ -19,18 +19,18 @@ public interface IVbaProject
 
 | Имя | Описание |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Указывает, защищен ли VBAProject паролем для просмотра свойств проекта. Только для чтения Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в VBA-проекте. Только для чтения [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Возвращает имя VBA-проекта. Только для чтения String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в VBA-проекте. Только для чтения [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Указывает, защищен ли проект VBA паролем для просмотра свойств проекта. Только для чтения Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Возвращает имя проекта VBA. Только для чтения String. |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Возвращает двоичное представление VBA-проекта в качестве контейнера OLE. Только для чтения Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Возвращает бинарное представление проекта VBA как контейнера OLE. Только для чтения Byte[]. |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)
 * сборка [Aspose.Slides](../../)

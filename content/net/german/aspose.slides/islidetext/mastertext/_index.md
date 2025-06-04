@@ -1,7 +1,7 @@
 ---
 title: MasterText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Der Text auf den Formen der Masterseiten für diese Folie
+second_title: Aspose.Slides für .NET API Referenz
+description: Der Text auf den Masterseitenformen für diese Folie
 type: docs
 weight: 30
 url: /de/aspose.slides/islidetext/mastertext/

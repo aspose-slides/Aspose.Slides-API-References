@@ -1,7 +1,7 @@
 ---
 title: AddVerticalTextPlaceholder
-second_title: Aspose.Slides pour .NET Référence API
-description: Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du texte dans une direction verticale.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Ajoute une nouvelle forme de zone de texte au diapositive de mise en page pour contenir le contenu textuel dans une direction verticale.
 type: docs
 weight: 100
 url: /fr/aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder/
 
 ## LayoutPlaceholderManager.AddVerticalTextPlaceholder méthode
 
-Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du texte dans une direction verticale.
+Ajoute une nouvelle forme de zone de texte au diapositive de mise en page pour contenir le contenu textuel dans une direction verticale.
 
 ```csharp
 public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, floa
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme d'espace réservé. |
-| y | Single | La coordonnée Y de la nouvelle forme d'espace réservé. |
-| width | Single | La largeur de la nouvelle forme d'espace réservé. |
-| height | Single | La hauteur de la nouvelle forme d'espace réservé. |
+| x | Single | La coordonnée X de la nouvelle forme de zone de texte. |
+| y | Single | La coordonnée Y de la nouvelle forme de zone de texte. |
+| width | Single | La largeur de la nouvelle forme de zone de texte. |
+| height | Single | La hauteur de la nouvelle forme de zone de texte. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Créé [`IAutoShape`](../../iautoshape) avec un espace réservé de texte (vertical).
+Créé un [`IAutoShape`](../../iautoshape) avec un espace réservé de texte (vertical).
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme d'espace réservé de texte (vertical) à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de zone de texte (vertical) à la diapositive de mise en page.
 
 ```csharp
 [C#]

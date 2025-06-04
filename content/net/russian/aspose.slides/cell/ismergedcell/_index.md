@@ -1,15 +1,15 @@
 ---
 title: IsMergedCell
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true, если ячейка объединена с любой скорректированной ячейкой, иначе false. Только для чтения логическое значение.
+description: Возвращает true, если ячейка объединена с любой измененной ячейкой, false в противном случае. Только для чтения Boolean.
 type: docs
 weight: 90
 url: /ru/aspose.slides/cell/ismergedcell/
 ---
 
-## Свойство Cell.IsMergedCell
+## Cell.IsMergedCell свойство
 
-Возвращает true, если ячейка объединена с любой скорректированной ячейкой, иначе false. Только для чтения логическое значение.
+Возвращает true, если ячейка объединена с любой измененной ячейкой, false в противном случае. Только для чтения Boolean.
 
 ```csharp
 public bool IsMergedCell { get; }

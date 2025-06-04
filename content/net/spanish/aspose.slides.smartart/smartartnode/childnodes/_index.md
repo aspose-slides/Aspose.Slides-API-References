@@ -1,6 +1,6 @@
 ---
 title: ChildNodes
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve colecciones de todos los nodos hijos del nodo actual. Solo lectura ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 20

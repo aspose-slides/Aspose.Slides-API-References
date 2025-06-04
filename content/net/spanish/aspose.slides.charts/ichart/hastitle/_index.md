@@ -19,6 +19,6 @@ public bool HasTitle { get; set; }
 
 * interfaz [IChart](../../ichart)
 * espacio de nombres [Aspose.Slides.Charts](../../ichart)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

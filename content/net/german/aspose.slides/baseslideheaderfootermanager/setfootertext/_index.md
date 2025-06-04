@@ -1,7 +1,7 @@
 ---
 title: SetFooterText
-second_title: Aspose.Sildes für .NET API Referenz
-description: Setzt Text für den Fußzeilenplatzhalter der Folie.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt Text für den Platzhalter im Fußbereich der Folie.
 type: docs
 weight: 60
 url: /de/aspose.slides/baseslideheaderfootermanager/setfootertext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslideheaderfootermanager/setfootertext/
 
 ## BaseSlideHeaderFooterManager.SetFooterText-Methode
 
-Setzt Text für den Fußzeilenplatzhalter der Folie.
+Setzt Text für den Platzhalter im Fußbereich der Folie.
 
 ```csharp
 public void SetFooterText(string text)
@@ -19,7 +19,7 @@ public void SetFooterText(string text)
 | --- | --- | --- |
 | text | String | Zu setzender Text. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../baseslideheaderfootermanager)

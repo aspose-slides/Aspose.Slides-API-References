@@ -1,6 +1,6 @@
 ---
 title: ForeColor
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回前景图案颜色。只读颜色。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ipatternformateffectivedata/forecolor/
 public Color ForeColor { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ipatternformateffectivedata)

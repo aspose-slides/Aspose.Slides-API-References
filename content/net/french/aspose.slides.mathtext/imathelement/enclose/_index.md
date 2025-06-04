@@ -1,7 +1,7 @@
 ---
 title: Enclose
-second_title: Aspose.Slides pour la référence API .NET
-description: Enveloppe un élément mathématique dans des parenthèses
+second_title: Aspose.Sildes pour .NET API Reference
+description: Encloses a math element in parenthesis
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathelement/enclose/
@@ -9,19 +9,19 @@ url: /fr/aspose.slides.mathtext/imathelement/enclose/
 
 ## Enclose() {#enclose}
 
-Enveloppe un élément mathématique dans des parenthèses
+Encloses a math element in parenthesis
 
 ```csharp
 public IMathDelimiter Enclose()
 ```
 
-### Valeur de retour
+### Return Value
 
-L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui comprend les parenthèses
+The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes the parenthesis
 
-### Exemples
+### Examples
 
-Exemple:
+Example:
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### Voir Aussi
+### See Also
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * interface [IMathElement](../../imathelement)
@@ -38,26 +38,26 @@ IMathDelimiter delimiter = element.Enclose();
 
 ---
 
-## Enclose(char, char) {#enclose_1}
+## Enclose(char, char) {#enclose_1}
 
-Enveloppe cet élément dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
+Encloses this element in specified characters such as parenthesis or another characters as framing
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | Char | Caractère de début (généralement crochet gauche) |
-| endingCharacter | Char | Caractère de fin (généralement crochet droit) |
+| beginningCharacter | Char | Beginning character (usually left bracket) |
+| endingCharacter | Char | Ending character (usually right bracket) |
 
-### Valeur de retour
+### Return Value
 
-L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui comprend les caractères spécifiés comme encadrement
+The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes specified characters as framing
 
-### Exemples
+### Examples
 
-Exemple:
+Example:
 
 ```csharp
 [C#]
@@ -65,7 +65,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose('[', ']');
 ```
 
-### Voir Aussi
+### See Also
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * interface [IMathElement](../../imathelement)

@@ -1,13 +1,13 @@
 ---
 title: ExtrusionOrientationAngle
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Extrusion.orientationangle Eigenschaft dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die 'extrusion.orientationangle' Eigenschaft dar
 type: docs
 weight: 80
 url: /de/aspose.slides.animation/behaviorproperty/extrusionorientationangle/
 ---
 
-## BehaviorProperty.ExtrusionOrientationAngle Eigenschaft
+## BehaviorProperty.ExtrusionOrientationAngle-Eigenschaft
 
 Stellt die 'extrusion.orientationangle' Eigenschaft dar
 

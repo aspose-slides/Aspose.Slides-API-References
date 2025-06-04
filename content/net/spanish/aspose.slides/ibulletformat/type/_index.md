@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Devuelve o establece el tipo de viñeta de un párrafo sin herencia. Lectura/escritura BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de viñeta de un párrafo sin herencia. Lectura/esc
 public BulletType Type { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [BulletType](../../bullettype)
 * interface [IBulletFormat](../../ibulletformat)

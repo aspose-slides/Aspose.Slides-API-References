@@ -1,6 +1,6 @@
 ---
 title: IChartCategory
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt Diagrammkategorien dar.
 type: docs
 weight: 1670
@@ -19,11 +19,11 @@ public interface IChartCategory
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Gibt das IChartDataCell-Objekt zurück oder setzt es. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für die Ebene "0" verwendet. Lese-/Schreibzugriff [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Gibt AsLiteral zurück oder setzt es, wenn UseCell falsch ist. Lese-/Schreibzugriff Object. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | Gibt das IChartDataCell-Objekt zurück oder setzt es. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für die Stufe "0" verwendet. Lesen/Schreiben [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | Gibt AsLiteral zurück oder setzt es, wenn UseCell falsch ist. Lesen/Schreiben Objekt. |
 | [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | Verwalteter Container der Werte der Gruppierungsebenen der Diagrammkategorie. Mehrstufige Kategorien enthalten mehr als eine Gruppierungsebene. Die Indizierung der Gruppierungsebenen ist nullbasiert. Nur Lesezugriff [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Wenn wahr, ist die AsCell-Eigenschaft aktuell. Mit anderen Worten, das Arbeitsblatt wird zur Speicherung der Kategorie verwendet (in diesem Fall wird eine mehrstufige Kategorie unterstützt). Wenn falsch, ist die AsLiteral-Eigenschaft aktuell. Mit anderen Worten, das Arbeitsblatt wird NICHT zur Speicherung der Kategorie verwendet (und in diesem Fall wird keine mehrstufige Kategorie unterstützt). Nur Lesezugriff Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Wenn UseCell wahr ist, dann stellt diese Eigenschaft die AsCell.Value-Eigenschaft dar. Wenn UseCell falsch ist, dann stellt diese Eigenschaft die AsLiteral-Eigenschaft dar. Lese-/Schreibzugriff Object. |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | Wenn wahr, ist die AsCell-Eigenschaft aktuell. Mit anderen Worten, das Arbeitsblatt wird verwendet, um die Kategorie zu speichern (in diesem Fall wird eine mehrstufige Kategorie unterstützt). Wenn falsch, ist die AsLiteral-Eigenschaft aktuell. Mit anderen Worten, das Arbeitsblatt wird NICHT verwendet, um die Kategorie zu speichern (und dieser Fall unterstützt keine mehrstufigen Kategorien). Nur Lesezugriff Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | Wenn UseCell wahr ist, repräsentiert diese Eigenschaft die AsCell.Value-Eigenschaft. Wenn UseCell falsch ist, repräsentiert diese Eigenschaft die AsLiteral-Eigenschaft. Lesen/Schreiben Objekt. |
 
 ## Methoden
 
@@ -31,7 +31,7 @@ public interface IChartCategory
 | --- | --- |
 | [Remove](../../aspose.slides.charts/ichartcategory/remove)() | Entfernt die Kategorie aus dem Diagramm. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * Assembly [Aspose.Slides](../../)

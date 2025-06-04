@@ -1,7 +1,7 @@
 ---
 title: Convert
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un groupe de méthodes destinées à convertir Presentationaspose.slides/aspose.slides/presentation.
+second_title: Aspose.Slides pour .NET API Référence
+description: Représente un groupe de méthodes destinées à convertir Presentation../aspose.slides/presentation.
 type: docs
 weight: 7640
 url: /fr/aspose.slides.lowcode/convert/

@@ -1,13 +1,13 @@
 ---
 title: RestoredTop
-second_title: Référence API Aspose.Slides pour .NET
-description: Cet élément spécifie la taille de la région supérieure de la diapositive de la vue normale lorsque la région a une taille restaurée variable, ni minimisée ni maximisée. Lecture seule INormalViewRestoredProperties aspose.slides/inormalviewrestoredproperties.
+second_title: Aspose.Slides pour référence API .NET
+description: Cet élément spécifie la taille de la région supérieure de la diapositive de la vue normale lorsque la région a une taille restaurée variable ni minimisée ni maximisée. Lecture seule INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 40
 url: /fr/aspose.slides/inormalviewproperties/restoredtop/
 ---
 
-## Propriété INormalViewProperties.RestoredTop
+## INormalViewProperties.RestoredTop propriété
 
 Cet élément spécifie la taille de la région supérieure de la diapositive de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). Lecture seule [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
@@ -15,7 +15,7 @@ Cet élément spécifie la taille de la région supérieure de la diapositive de
 public INormalViewRestoredProperties RestoredTop { get; }
 ```
 
-### Voir Également
+### Voir Aussi
 
 * interface [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
 * interface [INormalViewProperties](../../inormalviewproperties)

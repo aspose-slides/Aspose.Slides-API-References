@@ -1,6 +1,6 @@
 ---
 title: Luminance
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回亮度百分比。只读单一值。
 type: docs
 weight: 30

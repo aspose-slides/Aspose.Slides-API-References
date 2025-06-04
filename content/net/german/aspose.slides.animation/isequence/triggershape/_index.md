@@ -1,7 +1,7 @@
 ---
 title: TriggerShape
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Zielobjekt für die INTERAKTIVE Sequenz zurück oder legt es fest. Wenn die Sequenz nicht interaktiv ist, wird null zurückgegeben. Lese-/Schreibzugriff auf IShapeaspose.slides/../aspose.slides/ishape.
+description: Gibt das Shape-Ziel für die INTERAKTIVE Sequenz zurück oder setzt es. Wenn die Sequenz nicht interaktiv ist, wird null zurückgegeben. Lese-/Schreibzugriff auf IShapeaspose.slides/../aspose.slides/ishape.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/isequence/triggershape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/isequence/triggershape/
 
 ## ISequence.TriggerShape-Eigenschaft
 
-Gibt das Zielobjekt für die INTERAKTIVE Sequenz zurück oder legt es fest. Wenn die Sequenz nicht interaktiv ist, wird null zurückgegeben. Lese-/Schreibzugriff auf [`IShape`](../../../aspose.slides/ishape).
+Gibt das Shape-Ziel für die INTERAKTIVE Sequenz zurück oder setzt es. Wenn die Sequenz nicht interaktiv ist, wird null zurückgegeben. Lese-/Schreibzugriff auf [`IShape`](../../../aspose.slides/ishape).
 
 ```csharp
 public IShape TriggerShape { get; set; }

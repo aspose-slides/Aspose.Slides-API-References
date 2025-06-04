@@ -1,7 +1,7 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides für .NET API Referenz
-description: Initialisiert eine neue Instanz der Klasse Paragraph mit Standard-Eigenschaften.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Initialisiert eine neue Instanz der Paragraph-Klasse mit Standard-Eigenschaften.
 type: docs
 weight: 10
 url: /de/aspose.slides/paragraph/paragraph/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/paragraph/paragraph/
 
 ## Paragraph() {#constructor}
 
-Initialisiert eine neue Instanz der Klasse Paragraph mit Standard-Eigenschaften.
+Initialisiert eine neue Instanz der Paragraph-Klasse mit Standard-Eigenschaften.
 
 ```csharp
 public Paragraph()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Paragraph](../../paragraph)
 * Namespace [Aspose.Slides](../../paragraph)
@@ -25,13 +25,13 @@ public Paragraph()
 
 ## Paragraph(Paragraph) {#constructor_1}
 
-Kopie-Konstruktor, der eine neue Instanz einer Paragraph-Klasse initialisiert.
+Copy-Konstruktor, der eine neue Instanz einer Paragraph-Klasse initialisiert.
 
 ```csharp
 public Paragraph(Paragraph para)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Paragraph](../../paragraph)
 * Namespace [Aspose.Slides](../../paragraph)

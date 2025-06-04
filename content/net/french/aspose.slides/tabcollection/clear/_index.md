@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [TabCollection](../../tabcollection)
 * espace de noms [Aspose.Slides](../../tabcollection)

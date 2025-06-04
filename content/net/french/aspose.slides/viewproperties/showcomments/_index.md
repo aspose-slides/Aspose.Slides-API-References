@@ -1,13 +1,13 @@
 ---
 title: ShowComments
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie si les commentaires de la diapositive doivent être affichés. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /fr/aspose.slides/viewproperties/showcomments/
 ---
 
-## Propriété ViewProperties.ShowComments
+## ViewProperties.ShowComments propriété
 
 Spécifie si les commentaires de la diapositive doivent être affichés. Lecture/écriture [`NullableBool`](../../nullablebool).
 

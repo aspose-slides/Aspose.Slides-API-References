@@ -1,13 +1,13 @@
 ---
 title: Conformance
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает класс соответствия, которому соответствует документ Презентации. Значение по умолчанию - Ecma376_2006
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ipptxoptions/conformance/
 ---
 
-## Свойство IPptxOptions.Conformance
+## IPptxOptions.Conformance свойство
 
 Указывает класс соответствия, которому соответствует документ Презентации. Значение по умолчанию - Ecma376_2006
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ipptxoptions/conformance/
 public Conformance Conformance { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [Conformance](../../conformance)
 * interface [IPptxOptions](../../ipptxoptions)

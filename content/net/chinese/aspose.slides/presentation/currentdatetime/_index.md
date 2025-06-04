@@ -1,7 +1,7 @@
 ---
 title: CurrentDateTime
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置将替换日期时间字段内容的日期和时间。 默认情况下为此演示文稿对象创建的时间。 读/写 DateTime。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置将替代日期时间字段内容的日期和时间。默认情况下，此演示文稿对象的创建时间。可读可写的 DateTime。
 type: docs
 weight: 50
 url: /zh/aspose.slides/presentation/currentdatetime/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentation/currentdatetime/
 
 ## Presentation.CurrentDateTime 属性
 
-返回或设置将替换日期时间字段内容的日期和时间。 默认情况下为此演示文稿对象创建的时间。 读/写 DateTime。
+返回或设置将替代日期时间字段内容的日期和时间。默认情况下，此演示文稿对象的创建时间。可读可写的 DateTime。
 
 ```csharp
 public DateTime CurrentDateTime { get; set; }

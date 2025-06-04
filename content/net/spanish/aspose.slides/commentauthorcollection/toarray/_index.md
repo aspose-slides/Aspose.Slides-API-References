@@ -1,7 +1,7 @@
 ---
 title: ToArray
-second_title: Referencia de API Aspose.Slides para .NET
-description: Crea y devuelve un arreglo con todos los autores.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea y devuelve un array con todos los autores.
 type: docs
 weight: 130
 url: /es/aspose.slides/commentauthorcollection/toarray/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/commentauthorcollection/toarray/
 
 ## Método CommentAuthorCollection.ToArray
 
-Crea y devuelve un arreglo con todos los autores.
+Crea y devuelve un array con todos los autores.
 
 ```csharp
 public ICommentAuthor[] ToArray()
@@ -17,7 +17,7 @@ public ICommentAuthor[] ToArray()
 
 ### Valor de Retorno
 
-Arreglo de [`ICommentAuthor`](../../icommentauthor)
+Array de [`ICommentAuthor`](../../icommentauthor)
 
 ### Véase También
 

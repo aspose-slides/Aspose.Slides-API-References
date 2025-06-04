@@ -1,13 +1,13 @@
 ---
 title: Zip64Mode
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica si se utiliza el formato ZIP64 para el documento de Presentación. El valor predeterminado es IfNecessary
 type: docs
 weight: 40
 url: /es/aspose.slides.export/pptxoptions/zip64mode/
 ---
 
-## Propiedad PptxOptions.Zip64Mode
+## PptxOptions.Zip64Mode propiedad
 
 Especifica si se utiliza el formato ZIP64 para el documento de Presentación. El valor predeterminado es IfNecessary
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Ver también
+### Ver También
 
 * enum [Zip64Mode](../../zip64mode)
 * class [PptxOptions](../../pptxoptions)

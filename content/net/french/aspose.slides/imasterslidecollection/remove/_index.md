@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Supprime la première occurrence d'un objet spécifique de la collection.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public void Remove(IMasterSlide value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | IMasterSlide | La diapositive maître à supprimer de la collection. |
+| value | IMasterSlide | La diapositive maîtresse à supprimer de la collection. |
 
 ### Voir Aussi
 

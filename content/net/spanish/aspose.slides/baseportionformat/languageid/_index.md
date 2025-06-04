@@ -1,7 +1,7 @@
 ---
 title: LanguageId
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Devuelve o establece el Id de un idioma de corrección. Se utiliza para comprobar la ortografía y la gramática. Leer/escribir String.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece el Id de un idioma de revisión. Utilizado para verificar la ortografía y la gramática. Cadena de lectura/escritura.
 type: docs
 weight: 160
 url: /es/aspose.slides/baseportionformat/languageid/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/baseportionformat/languageid/
 
 ## Propiedad BasePortionFormat.LanguageId
 
-Devuelve o establece el Id de un idioma de corrección. Se utiliza para comprobar la ortografía y la gramática. Leer/escribir String.
+Devuelve o establece el Id de un idioma de revisión. Utilizado para verificar la ortografía y la gramática. Cadena de lectura/escritura.
 
 ```csharp
 public string LanguageId { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BasePortionFormat](../../baseportionformat)
 * espacio de nombres [Aspose.Slides](../../baseportionformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

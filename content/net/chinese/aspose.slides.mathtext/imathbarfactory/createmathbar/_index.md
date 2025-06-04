@@ -1,7 +1,7 @@
 ---
 title: CreateMathBar
 second_title: Aspose.Sildes for .NET API Reference
-description: 通过应用于元素创建数学条
+description: 通过应用于元素创建数学栏
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/imathbarfactory/createmathbar/
@@ -9,21 +9,21 @@ url: /zh/aspose.slides.mathtext/imathbarfactory/createmathbar/
 
 ## CreateMathBar(IMathElement) {#createmathbar}
 
-通过应用于元素创建数学条
+通过应用于元素创建数学栏
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| element | IMathElement | 应用条的数学元素 |
+| 参数    | 类型          | 描述                  |
+| ------- | ------------- | --------------------- |
+| element | IMathElement  | 应用栏的数学元素      |
 
 ### 返回值
 
-新的数学条元素
+新的数学栏元素
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathBar](../../imathbar)
 * 接口 [IMathElement](../../imathelement)
@@ -35,22 +35,22 @@ public IMathBar CreateMathBar(IMathElement element)
 
 ## CreateMathBar(IMathElement, MathTopBotPositions) {#createmathbar_1}
 
-通过应用于元素创建数学条
+通过应用于元素创建数学栏
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| element | IMathElement | 应用条的数学元素 |
-| position | MathTopBotPositions | 条的位置信息 |
+| 参数    | 类型                    | 描述                  |
+| ------- | ----------------------- | --------------------- |
+| element | IMathElement            | 应用栏的数学元素      |
+| position | MathTopBotPositions    | 栏的位置              |
 
 ### 返回值
 
-新的数学条元素
+新的数学栏元素
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathBar](../../imathbar)
 * 接口 [IMathElement](../../imathelement)

@@ -1,7 +1,7 @@
 ---
 title: PlaceholderManager
-second_title: Aspose.Slides for .NET API 参考
-description: 返回布局幻灯片的占位符管理器。只读 ILayoutPlaceholderManageraspose.slides/ilayoutplaceholdermanager。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回布局幻灯片的占位符管理器。只读 ILayoutPlaceholderManager aspose.slides/ilayoutplaceholdermanager。
 type: docs
 weight: 50
 url: /zh/aspose.slides/layoutslide/placeholdermanager/

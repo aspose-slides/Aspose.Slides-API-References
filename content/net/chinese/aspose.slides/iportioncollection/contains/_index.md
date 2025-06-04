@@ -1,6 +1,6 @@
 ---
 title: Contains
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定 ICollection 是否包含特定值。
 type: docs
 weight: 60
@@ -17,13 +17,13 @@ public bool Contains(IPortion item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IPortion | 要在 ICollection 中查找的对象。 |
+| item | IPortion | 要在 ICollection 中定位的对象。 |
 
 ### 返回值
 
-如果在 ICollection 中找到了 *item*，则为 true；否则为 false。
+如果在 ICollection 中找到 *item*，则为 true；否则为 false。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPortion](../../iportion)
 * 接口 [IPortionCollection](../../iportioncollection)

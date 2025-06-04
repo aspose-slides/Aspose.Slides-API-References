@@ -7,7 +7,7 @@ weight: 8440
 url: /zh/aspose.slides.mathtext/mathfractionfactory/
 ---
 
-## MathFractionFactory 类
+## MathFractionFactory class
 
 允许创建数学分数
 
@@ -30,9 +30,9 @@ public class MathFractionFactory : IMathFractionFactory
 
 ### 备注
 
-为了与 COM 兼容
+为了与COM兼容
 
-### 另见
+### 参见
 
 * 接口 [IMathFractionFactory](../imathfractionfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

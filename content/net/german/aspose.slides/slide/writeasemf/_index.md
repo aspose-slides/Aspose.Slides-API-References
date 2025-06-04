@@ -1,13 +1,13 @@
 ---
 title: WriteAsEmf
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Speichert den Inhalt der Folie als EMF-Datei.
 type: docs
 weight: 130
 url: /de/aspose.slides/slide/writeasemf/
 ---
 
-## Slide.WriteAsEmf-Methode
+## Slide.WriteAsEmf Methode
 
 Speichert den Inhalt der Folie als EMF-Datei.
 
@@ -27,7 +27,7 @@ public void WriteAsEmf(Stream stream)
 
 ### Beispiele
 
-Das folgende Codebeispiel zeigt, wie die erste Folie einer PowerPoint-Präsentation in eine Metadatei konvertiert wird.
+Das folgende Codebeispiel zeigt, wie man die erste Folie einer PowerPoint-Präsentation in eine Metadatei konvertiert.
 
 ```csharp
 [C#]

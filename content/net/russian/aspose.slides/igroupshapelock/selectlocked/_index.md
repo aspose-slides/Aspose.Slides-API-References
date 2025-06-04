@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое Boolean.
+second_title: Aspose.Sildes для справки по API .NET
+description: Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/igroupshapelock/selectlocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/igroupshapelock/selectlocked/
 
 ## IGroupShapeLock.SelectLocked свойство
 
-Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое Boolean.
+Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGroupShapeLock](../../igroupshapelock)
 * пространство имен [Aspose.Slides](../../igroupshapelock)

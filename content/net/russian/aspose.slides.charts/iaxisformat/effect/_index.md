@@ -1,13 +1,13 @@
 ---
 title: Effect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает эффекты, используемые для оси. Только для чтения IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/iaxisformat/effect/
 ---
 
-## Свойство IAxisFormat.Effect
+## IAxisFormat.Effect property
 
 Возвращает эффекты, используемые для оси. Только для чтения [`IEffectFormat`](../../../aspose.slides/ieffectformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/iaxisformat/effect/
 public IEffectFormat Effect { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectFormat](../../../aspose.slides/ieffectformat)
 * интерфейс [IAxisFormat](../../iaxisformat)

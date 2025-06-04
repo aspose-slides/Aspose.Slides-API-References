@@ -1,6 +1,6 @@
 ---
 title: AddDataPointForMapSeries
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справка
 description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых - Карта.
 type: docs
 weight: 180

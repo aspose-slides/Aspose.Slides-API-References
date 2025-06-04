@@ -1,21 +1,21 @@
 ---
 title: ExportType
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает спецификацию markdown для конвертации презентации. По умолчанию - TextOnly.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает спецификацию markdown для преобразования презентации. По умолчанию - TextOnly.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/markdownsaveoptions/exporttype/
 ---
 
-## Свойство MarkdownSaveOptions.ExportType
+## MarkdownSaveOptions.ExportType property
 
-Указывает спецификацию markdown для конвертации презентации. По умолчанию - `TextOnly`.
+Указывает спецификацию markdown для преобразования презентации. По умолчанию - `TextOnly`.
 
 ```csharp
 public MarkdownExportType ExportType { get; set; }
 ```
 
-### См. также
+### See Also
 
 * enum [MarkdownExportType](../../markdownexporttype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

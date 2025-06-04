@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft das Element am angegebenen Index ab. Nur-Lese IVideoaspose.slides/ivideo.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Element am angegebenen Index zurück. Schreibgeschütztes IVideoaspose.slides/ivideo.
 type: docs
 weight: 30
 url: /de/aspose.slides/videocollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/videocollection/item/
 
 ## VideoCollection-Indexer
 
-Ruht das Element am angegebenen Index ab. Nur-Lese [`IVideo`](../../ivideo).
+Gibt das Element am angegebenen Index zurück. Schreibgeschütztes [`IVideo`](../../ivideo).
 
 ```csharp
 public IVideo this[int index] { get; }

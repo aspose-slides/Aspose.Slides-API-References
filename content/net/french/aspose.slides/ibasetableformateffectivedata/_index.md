@@ -19,13 +19,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Renvoie la valeur effective du format de ligne de bord inférieur. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Renvoie la valeur effective du format de ligne diagonale vers le bas. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Renvoie la valeur effective du format de ligne diagonale vers le haut. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Renvoie la valeur effective du format de ligne de bord gauche. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Renvoie la valeur effective du format de ligne de bord droit. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Renvoie la valeur effective du format de ligne de bord supérieur. Lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Renvoie la valeur effective du format de remplissage. Lecture seule [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Renvoie la valeur effective du format de la ligne de bord inférieur. En lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Renvoie la valeur effective du format de la ligne diagonale vers le bas. En lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Renvoie la valeur effective du format de la ligne diagonale vers le haut. En lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Renvoie la valeur effective du format de la ligne de bord gauche. En lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Renvoie la valeur effective du format de la ligne de bord droit. En lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Renvoie la valeur effective du format de la ligne de bord supérieur. En lecture seule [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Renvoie la valeur effective du format de remplissage. En lecture seule [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Voir aussi
 

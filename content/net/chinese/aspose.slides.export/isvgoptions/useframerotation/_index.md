@@ -1,7 +1,7 @@
 ---
 title: UseFrameRotation
-second_title: Aspose.Slides for .NET API 参考
-description: 确定在渲染时是否执行指定的形状旋转。可读写布尔值。默认值为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定在渲染时是否执行指定的形状旋转。可读/可写布尔值。默认值为 true。
 type: docs
 weight: 130
 url: /zh/aspose.slides.export/isvgoptions/useframerotation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/isvgoptions/useframerotation/
 
 ## ISVGOptions.UseFrameRotation 属性
 
-确定在渲染时是否执行指定的形状旋转。可读写布尔值。默认值为 true。
+确定在渲染时是否执行指定的形状旋转。可读/可写布尔值。默认值为 true。
 
 ```csharp
 public bool UseFrameRotation { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ISVGOptions](../../isvgoptions)
 * 命名空间 [Aspose.Slides.Export](../../isvgoptions)

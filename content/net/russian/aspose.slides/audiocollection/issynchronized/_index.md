@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает значение, указывающее на то, синхронизирован ли доступ к коллекции потоко-безопасно. Только для чтения Boolean.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным безопасным для потоков. Свойство только для чтения типа Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/audiocollection/issynchronized/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/audiocollection/issynchronized/
 
 ## AudioCollection.IsSynchronized свойство
 
-Возвращает значение, указывающее на то, синхронизирован ли доступ к коллекции (потоко-безопасно). Только для чтения Boolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (безопасным для потоков). Свойство только для чтения типа Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [AudioCollection](../../audiocollection)
 * пространство имен [Aspose.Slides](../../audiocollection)

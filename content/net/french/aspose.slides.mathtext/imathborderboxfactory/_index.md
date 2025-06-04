@@ -1,7 +1,7 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet de créer une boîte de bordure mathématique
+second_title: Aspose.Sildes pour la référence API .NET
+description: Permet de créer une boîte de délimitation mathématique
 type: docs
 weight: 7930
 url: /fr/aspose.slides.mathtext/imathborderboxfactory/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathborderboxfactory/
 
 ## Interface IMathBorderBoxFactory
 
-Permet de créer une boîte de bordure mathématique
+Permet de créer une boîte de délimitation mathématique
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -19,8 +19,8 @@ public interface IMathBorderBoxFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crée une boîte de bordure mathématique en l'appliquant à l'élément |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crée une boîte de bordure mathématique en l'appliquant à l'élément |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crée une boîte de délimitation mathématique en l'appliquant à l'élément |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crée une boîte de délimitation mathématique en l'appliquant à l'élément |
 
 ### Remarques
 

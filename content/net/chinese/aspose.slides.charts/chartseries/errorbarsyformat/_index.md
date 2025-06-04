@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsYFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 表示具有 Y 方向的系列的误差条。 Y 方向的误差条适用于区域、条形、折线、散点和气泡类型的系列。 对于任何其他类型的图表，此属性返回 null，包括 3D 图表。 如果使用自定义值，请使用 DataPoints 集合通过 ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues 属性指定值。 该属性是只读的 IErrorBarsFormataspose.slides/ierrorbarsformat。
+second_title: Aspose.Slildes for .NET API Reference
+description: 表示方向为 Y 的系列的误差条。 Y 方向的误差条适用于区域、条形、折线、散点和气泡类型的系列。 对于任何其他类型的图表，此属性返回 null（包括 3D 图表）。 在自定义值的情况下，使用 DataPoints 集合指定值（使用 ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues 属性）。 只读 IErrorBarsFormataspose.slides/ierrorbarsformat。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/chartseries/errorbarsyformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseries/errorbarsyformat/
 
 ## ChartSeries.ErrorBarsYFormat 属性
 
-表示具有 Y 方向的系列的误差条。 Y 方向的误差条适用于区域、条形、折线、散点和气泡类型的系列。 对于任何其他类型的图表，此属性返回 null（包括 3D 图表）。 如果使用自定义值，请使用 DataPoints 集合通过 [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) 属性指定值。 该属性是只读的 [`IErrorBarsFormat`](../../ierrorbarsformat)。
+表示方向为 Y 的系列的误差条。 Y 方向的误差条适用于区域、条形、折线、散点和气泡类型的系列。 对于任何其他类型的图表，此属性返回 null（包括 3D 图表）。 在自定义值的情况下，使用 DataPoints 集合指定值（使用 [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) 属性）。 只读 [`IErrorBarsFormat`](../../ierrorbarsformat)。
 
 ```csharp
 public IErrorBarsFormat ErrorBarsYFormat { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IErrorBarsFormat](../../ierrorbarsformat)
 * 类 [ChartSeries](../../chartseries)

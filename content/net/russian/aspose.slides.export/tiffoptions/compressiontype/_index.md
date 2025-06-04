@@ -1,21 +1,21 @@
 ---
 title: CompressionType
 second_title: Aspose.Slides для .NET API Справочник
-description: Задает тип сжатия. Чтение/запись TiffCompressionTypesaspose.slides.export/tiffcompressiontypes.
+description: Указывает тип сжатия. Чтение/запись TiffCompressionTypesaspose.slides.export/tiffcompressiontypes.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/tiffoptions/compressiontype/
 ---
 
-## Свойство TiffOptions.CompressionType
+## TiffOptions.CompressionType свойство
 
-Задает тип сжатия. Чтение/запись [`TiffCompressionTypes`](../../tiffcompressiontypes).
+Указывает тип сжатия. Чтение/запись [`TiffCompressionTypes`](../../tiffcompressiontypes).
 
 ```csharp
 public TiffCompressionTypes CompressionType { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [TiffCompressionTypes](../../tiffcompressiontypes)
 * class [TiffOptions](../../tiffoptions)

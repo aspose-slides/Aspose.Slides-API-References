@@ -1,6 +1,6 @@
 ---
 title: Y
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la coordenada y de un título como una fracción de la altura del gráfico. Lectura/escritura Single.
 type: docs
 weight: 170
@@ -15,10 +15,10 @@ Devuelve o establece la coordenada y de un título como una fracción de la altu
 public float Y { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [DataLabel](../../datalabel)
 * espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

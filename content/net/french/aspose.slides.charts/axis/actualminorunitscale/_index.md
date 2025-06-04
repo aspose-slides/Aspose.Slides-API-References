@@ -1,6 +1,6 @@
 ---
 title: ActualMinorUnitScale
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Spécifie l'échelle des unités mineures réelles de l'axe. Appelez la méthode IChart.ValidateChartLayout au préalable pour obtenir la valeur réelle.
 type: docs
 weight: 50

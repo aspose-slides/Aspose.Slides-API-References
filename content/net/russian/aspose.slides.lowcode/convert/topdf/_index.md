@@ -1,128 +1,128 @@
----
+---  
 title: ToPdf
-second_title: Aspose.Sildes для .NET API Справочник
-description: Конвертирует Presentationaspose.slides/presentation в PDF.
-type: docs
-weight: 20
+second_title: Справочник по API Aspose.Slides для .NET  
+description: Преобразует Presentationaspose.slides/presentation в PDF.
+type: docs  
+weight: 20  
 url: /ru/aspose.slides.lowcode/convert/topdf/
----
+---  
 
-## ToPdf(string, string) {#topdf_2}
+## ToPdf(string, string) {#topdf_2}  
 
-Конвертирует [`Presentation`](../../../aspose.slides/presentation) в PDF.
+Преобразует [`Presentation`](../../../aspose.slides/presentation) в PDF.  
 
-```csharp
-public static void ToPdf(string presPath, string outPath)
-```
+```csharp  
+public static void ToPdf(string presPath, string outPath)  
+```  
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| presPath | String | Путь к входной презентации |
-| outPath | String | Путь к выходному файлу |
+| Параметр | Тип | Описание |  
+| --- | --- | --- |  
+| presPath | String | Путь к входной презентации |  
+| outPath | String | Путь к выходному файлу |  
 
-### Примеры
+### Примеры  
 
-```csharp
-Convert.ToPdf("pres.pptx", "pres.pdf");
-```
+```csharp  
+Convert.ToPdf("pres.pptx", "pres.pdf");  
+```  
 
-### См. также
+### См. также  
 
-* класс [Convert](../../convert)
-* пространство имен [Aspose.Slides.LowCode](../../convert)
-* сборка [Aspose.Slides](../../../)
+* класс [Convert](../../convert)  
+* пространство имен [Aspose.Slides.LowCode](../../convert)  
+* сборка [Aspose.Slides](../../../)  
 
----
+---  
 
-## ToPdf(string, string, IPdfOptions) {#topdf_3}
+## ToPdf(string, string, IPdfOptions) {#topdf_3}  
 
-Конвертирует [`Presentation`](../../../aspose.slides/presentation) в PDF.
+Преобразует [`Presentation`](../../../aspose.slides/presentation) в PDF.  
 
-```csharp
-public static void ToPdf(string presPath, string outPath, IPdfOptions options)
-```
+```csharp  
+public static void ToPdf(string presPath, string outPath, IPdfOptions options)  
+```  
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| presPath | String | Путь к входной презентации |
-| outPath | String | Путь к выходному файлу |
-| options | IPdfOptions | Параметры выходного PDF |
+| Параметр | Тип | Описание |  
+| --- | --- | --- |  
+| presPath | String | Путь к входной презентации |  
+| outPath | String | Путь к выходному файлу |  
+| options | IPdfOptions | Опции выходного PDF |  
 
-### Примеры
+### Примеры  
 
-```csharp
-Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });
-```
+```csharp  
+Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });  
+```  
 
-### См. также
+### См. также  
 
-* интерфейс [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
-* класс [Convert](../../convert)
-* пространство имен [Aspose.Slides.LowCode](../../convert)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IPdfOptions](../../../aspose.slides.export/ipdfoptions)  
+* класс [Convert](../../convert)  
+* пространство имен [Aspose.Slides.LowCode](../../convert)  
+* сборка [Aspose.Slides](../../../)  
 
----
+---  
 
-## ToPdf(Presentation, string) {#topdf}
+## ToPdf(Presentation, string) {#topdf}  
 
-Конвертирует [`Presentation`](../../../aspose.slides/presentation) в PDF.
+Преобразует [`Presentation`](../../../aspose.slides/presentation) в PDF.  
 
-```csharp
-public static void ToPdf(Presentation pres, string outPath)
-```
+```csharp  
+public static void ToPdf(Presentation pres, string outPath)  
+```  
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| pres | Presentation | Входная презентация |
-| outPath | String | Путь к выходному файлу |
+| Параметр | Тип | Описание |  
+| --- | --- | --- |  
+| pres | Presentation | Входная презентация |  
+| outPath | String | Путь к выходному файлу |  
 
-### Примеры
+### Примеры  
 
-```csharp
+```csharp  
 using (Presentation pres = new Presentation("input.pptx"))    
-{
-    Convert.ToPdf(pres, "output.pdf");
-} 
-```
+{  
+    Convert.ToPdf(pres, "output.pdf");  
+}  
+```  
 
-### См. также
+### См. также  
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* класс [Convert](../../convert)
-* пространство имен [Aspose.Slides.LowCode](../../convert)
-* сборка [Aspose.Slides](../../../)
+* класс [Presentation](../../../aspose.slides/presentation)  
+* класс [Convert](../../convert)  
+* пространство имен [Aspose.Slides.LowCode](../../convert)  
+* сборка [Aspose.Slides](../../../)  
 
----
+---  
 
-## ToPdf(Presentation, string, IPdfOptions) {#topdf_1}
+## ToPdf(Presentation, string, IPdfOptions) {#topdf_1}  
 
-Конвертирует [`Presentation`](../../../aspose.slides/presentation) в PDF.
+Преобразует [`Presentation`](../../../aspose.slides/presentation) в PDF.  
 
-```csharp
-public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
-```
+```csharp  
+public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)  
+```  
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| pres | Presentation | Входная презентация |
-| outPath | String | Путь к выходному файлу |
-| options | IPdfOptions | Параметры выходного PDF |
+| Параметр | Тип | Описание |  
+| --- | --- | --- |  
+| pres | Presentation | Входная презентация |  
+| outPath | String | Путь к выходному файлу |  
+| options | IPdfOptions | Опции выходного PDF |  
 
-### Примеры
+### Примеры  
 
-```csharp
+```csharp  
 using (Presentation pres = new Presentation("input.pptx"))    
-{
-    Convert.ToPdf(pres, "output.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });
-} 
-```
+{  
+    Convert.ToPdf(pres, "output.pdf", new PdfOptions{ Compliance = PdfCompliance.PdfUa });  
+}  
+```  
 
-### См. также
+### См. также  
 
-* класс [Presentation](../../../aspose.slides/presentation)
-* интерфейс [IPdfOptions](../../../aspose.slides.export/ipdfoptions)
-* класс [Convert](../../convert)
-* пространство имен [Aspose.Slides.LowCode](../../convert)
-* сборка [Aspose.Slides](../../../)
+* класс [Presentation](../../../aspose.slides/presentation)  
+* интерфейс [IPdfOptions](../../../aspose.slides.export/ipdfoptions)  
+* класс [Convert](../../convert)  
+* пространство имен [Aspose.Slides.LowCode](../../convert)  
+* сборка [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

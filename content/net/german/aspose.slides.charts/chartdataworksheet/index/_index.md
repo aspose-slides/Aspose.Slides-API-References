@@ -1,7 +1,7 @@
 ---
 title: Index
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Index des Arbeitsblatts zurück. Schreibgeschützter Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Index des Arbeitsblatts zurück. Nur-lesbares Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartdataworksheet/index/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdataworksheet/index/
 
 ## ChartDataWorksheet.Index-Eigenschaft
 
-Gibt den Index des Arbeitsblatts zurück. Schreibgeschützter Int32.
+Gibt den Index des Arbeitsblatts zurück. Nur-lesbares Int32.
 
 ```csharp
 public int Index { get; }

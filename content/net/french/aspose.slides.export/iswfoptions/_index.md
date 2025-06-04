@@ -1,6 +1,6 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Fournit des options qui contrôlent comment une présentation est enregistrée au format SWF.
 type: docs
 weight: 3980
@@ -19,28 +19,28 @@ public interface ISwfOptions : ISaveOptions
 
 | Nom | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. En lecture seule [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Spécifie si le document SWF généré doit être compressé ou non. La valeur par défaut est `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Active/désactive le menu contextuel. La valeur par défaut est vraie. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Spécifie la qualité des images JPEG. La valeur par défaut est 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Image qui sera affichée comme logo dans le coin supérieur droit du visualiseur. L'image doit être une image PNG de 32x64 pixels, sinon le logo peut s'afficher de manière incorrecte. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Obtient ou définit l'adresse hyperlien complète pour un logo. N'a un effet que si un [`LogoImageBytes`](./logoimagebytes) est spécifié. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Affiche/cache le panneau inférieur. Peut être remplacé dans flashvars. La valeur par défaut est vraie. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Affiche/cache le bouton de plein écran. Peut être remplacé dans flashvars. La valeur par défaut est vraie. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure des diapositives cachées ou non. La valeur par défaut est `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Affiche/cache le panneau de gauche. Peut être remplacé dans flashvars. La valeur par défaut est vraie. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Spécifie si la bordure autour des pages doit être affichée. La valeur par défaut est vraie. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Affiche/cache le sélecteur de page. Peut être remplacé dans flashvars. La valeur par défaut est vraie. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Affiche/cache la section de recherche. Peut être remplacé dans flashvars. La valeur par défaut est vraie. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Affiche/cache l'ensemble du panneau supérieur. Peut être remplacé dans flashvars. La valeur par défaut est vraie. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'export d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). Cette propriété ne prend pas en charge l'attribution d'objets de type `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Commence avec le panneau de gauche ouvert. Peut être remplacé dans flashvars. La valeur par défaut est false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Spécifie si le document SWF généré doit inclure le visualiseur de documents intégré ou non. La valeur par défaut est `true`. |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Retourne l'interface ISaveOptions. En lecture seule [`ISaveOptions`](../isaveoptions). |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Spécifie si le document SWF généré doit être compressé ou non. Par défaut, c'est `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Activer/désactiver le menu contextuel. Par défaut, c'est vrai. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Spécifie la qualité des images JPEG. Par défaut, c'est 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Image qui sera affichée comme logo dans le coin supérieur droit du visualiseur. L'image doit être une image PNG de 32x64 pixels, sinon le logo peut être affiché de manière incorrecte. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Obtient ou définit l'adresse hypertexte complète pour un logo. A un effet uniquement si un [`LogoImageBytes`](./logoimagebytes) est spécifié. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Afficher/masquer le panneau inférieur. Peut être remplacé dans les flashvars. Par défaut, c'est vrai. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Afficher/masquer le bouton plein écran. Peut être remplacé dans les flashvars. Par défaut, c'est vrai. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Spécifie si le document généré doit inclure des diapositives cachées ou non. Par défaut, c'est `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Afficher/masquer le panneau gauche. Peut être remplacé dans les flashvars. Par défaut, c'est vrai. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Spécifie si la bordure autour des pages doit être affichée. Par défaut, c'est vrai. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Afficher/masquer le sélecteur de page. Peut être remplacé dans les flashvars. Par défaut, c'est vrai. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Afficher/masquer la section de recherche. Peut être remplacé dans les flashvars. Par défaut, c'est vrai. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Afficher/masquer l'ensemble du panneau supérieur. Peut être remplacé dans les flashvars. Par défaut, c'est vrai. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Obtient ou définit le mode dans lequel les diapositives sont placées sur la page lors de l'exportation d'une présentation [`ISlidesLayoutOptions`](../islideslayoutoptions). Cette propriété ne prend pas en charge l'attribution d'objets de type `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Commencer avec le panneau gauche ouvert. Peut être remplacé dans les flashvars. Par défaut, c'est faux. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Spécifie si le document SWF généré doit inclure le visualiseur de documents intégré ou non. Par défaut, c'est `true`. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISaveOptions](../isaveoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

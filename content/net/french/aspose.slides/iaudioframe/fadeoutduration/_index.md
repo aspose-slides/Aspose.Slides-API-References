@@ -1,15 +1,15 @@
 ---
 title: FadeOutDuration
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la durée de temps pour le fondu final du média en millisecondes. Lecture/écriture Simple.
+second_title: Aspose.Slides pour la référence API .NET
+description: Spécifie la durée de temps pour la transition de fondu final du média en millisecondes. Lecture/écriture Single.
 type: docs
 weight: 90
 url: /fr/aspose.slides/iaudioframe/fadeoutduration/
 ---
 
-## Propriété IAudioFrame.FadeOutDuration
+## IAudioFrame.FadeOutDuration propriété
 
-Spécifie la durée de temps pour le fondu final du média en millisecondes. Lecture/écriture Simple.
+Spécifie la durée de temps pour la transition de fondu final du média en millisecondes. Lecture/écriture Single.
 
 ```csharp
 public float FadeOutDuration { get; set; }
@@ -27,14 +27,14 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Définir la durée du fondu final à 500ms
+    // Définir la durée de la transition de fondu final à 500 ms
     audioFrame.FadeOutDuration = 500f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudioFrame](../../iaudioframe)
 * namespace [Aspose.Slides](../../iaudioframe)

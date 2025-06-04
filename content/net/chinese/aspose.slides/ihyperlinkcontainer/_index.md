@@ -1,6 +1,6 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 表示超链接对象。
 type: docs
 weight: 5920
@@ -19,9 +19,9 @@ public interface IHyperlinkContainer
 
 | 名称 | 描述 |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | 返回或设置为鼠标点击定义的超链接。可读写 [`IHyperlink`](../ihyperlink)。 |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | 超链接管理器 只读 [`IHyperlinkManager`](../ihyperlinkmanager)。 |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | 返回或设置为鼠标悬停定义的超链接。可读写 [`IHyperlink`](../ihyperlink)。 |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | 返回或设置定义为鼠标单击的超链接。可读/可写 [`IHyperlink`](../ihyperlink)。 |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | 超链接管理器只读 [`IHyperlinkManager`](../ihyperlinkmanager)。 |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | 返回或设置定义为鼠标悬停的超链接。可读/可写 [`IHyperlink`](../ihyperlink)。 |
 
 ### 另见
 

@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.mathtext/mathdelimiterfactory/mathdelimiterfactory/
 ---
 
-## MathDelimiterFactory Konstruktor
+## MathDelimiterFactory-Konstruktor
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public MathDelimiterFactory()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathDelimiterFactory](../../mathdelimiterfactory)
 * Namensraum [Aspose.Slides.MathText](../../mathdelimiterfactory)

@@ -1,7 +1,7 @@
 ---
 title: CreateScaleEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект масштаба.
+second_title: Aspose.Sildes для справки по API .NET
+description: Создает эффект масштабирования.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/ibehaviorfactory/createscaleeffect/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.animation/ibehaviorfactory/createscaleeffect/
 
 ## IBehaviorFactory.CreateScaleEffect метод
 
-Создает эффект масштаба.
+Создает эффект масштабирования.
 
 ```csharp
 public IScaleEffect CreateScaleEffect()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-Эффект масштаба.
+Эффект масштабирования.
 
-### См. Также
+### См. также
 
 * интерфейс [IScaleEffect](../../iscaleeffect)
 * интерфейс [IBehaviorFactory](../../ibehaviorfactory)

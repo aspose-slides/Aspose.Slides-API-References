@@ -1,13 +1,13 @@
 ---
 title: AddTextPlaceholder
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügt der Layout-Folie eine neue Platzhalterform hinzu, um Textinhalte zu halten.
 type: docs
 weight: 80
 url: /de/aspose.slides/ilayoutplaceholdermanager/addtextplaceholder/
 ---
 
-## ILayoutPlaceholderManager.AddTextPlaceholder-Methode
+## ILayoutPlaceholderManager.AddTextPlaceholder Methode
 
 Fügt der Layout-Folie eine neue Platzhalterform hinzu, um Textinhalte zu halten.
 
@@ -19,7 +19,7 @@ public IAutoShape AddTextPlaceholder(float x, float y, float width, float height
 | --- | --- | --- |
 | x | Single | Die X-Koordinate der neuen Platzhalterform. |
 | y | Single | Die Y-Koordinate der neuen Platzhalterform. |
-| width | Single | die Breite der neuen Platzhalterform. |
+| width | Single | Die Breite der neuen Platzhalterform. |
 | height | Single | Die Höhe der neuen Platzhalterform. |
 
 ### Rückgabewert
@@ -28,7 +28,7 @@ Erstellt [`IAutoShape`](../../iautoshape) mit einem Textplatzhalter.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Textplatzhalterform zur Layout-Folie hinzugefügt.
+Das folgende Beispiel zeigt, wie die Textplatzhalterform zur Layout-Folie hinzugefügt wird.
 
 ```csharp
 [C#]

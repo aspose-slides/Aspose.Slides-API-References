@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Obtiene datos de fondo efectivos con la herencia aplicada.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ Obtiene datos de fondo efectivos con la herencia aplicada.
 public IBackgroundEffectiveData GetEffective()
 ```
 
-### Valor devuelto
+### Valor de retorno
 
 Un [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IBackgroundEffectiveData effectiveBackground = pres.Slides[0].Background.GetEffective();
 
 	Console.WriteLine("Tipo de relleno de fondo: " + effectiveBackground.FillFormat.FillType);
-	Console.WriteLine("Cualquier efecto aplicado: " + !effectiveBackground.EffectFormat.IsNoEffects);
+	Console.WriteLine("Efectos aplicados: " + !effectiveBackground.EffectFormat.IsNoEffects);
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den HeaderFooter-Manager der Präsentation zurück. Schreibgeschützter IPresentationHeaderFooterManager aspose.slides/ipresentationheaderfootermanager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den HeaderFooter-Manager der Präsentation zurück. Nur lesender IPresentationHeaderFooterManager aspose.slides/ipresentationheaderfootermanager.
 type: docs
 weight: 130
 url: /de/aspose.slides/ipresentation/headerfootermanager/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipresentation/headerfootermanager/
 
 ## IPresentation.HeaderFooterManager-Eigenschaft
 
-Gibt den HeaderFooter-Manager der Präsentation zurück. Schreibgeschützter [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
+Gibt den HeaderFooter-Manager der Präsentation zurück. Nur lesend [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
 
 ```csharp
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * Schnittstelle [IPresentation](../../ipresentation)

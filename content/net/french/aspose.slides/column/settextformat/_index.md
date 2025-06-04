@@ -1,6 +1,6 @@
 ---
 title: SetTextFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit les propriétés de format de portion définies pour toutes les portions des cellules de colonne.
 type: docs
 weight: 30

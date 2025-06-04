@@ -1,6 +1,6 @@
 ---
 title: AddImage
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Ajoute une copie d'une image d'une autre présentation.
 type: docs
 weight: 50
@@ -34,7 +34,7 @@ Image ajoutée.
 
 ## AddImage(IImage) {#addimage}
 
-Ajoute une image à une présentation.
+Ajouter une image à une présentation.
 
 ```csharp
 public IPPImage AddImage(IImage image)
@@ -50,7 +50,7 @@ Image ajoutée.
 
 ### Remarques
 
-Cette méthode convertit les mét fichiers WMF/EMF en image PNG raster avant de les insérer dans une présentation.
+Cette méthode convertit les métadonnées WMF/EMF en image PNG raster avant de les insérer dans une présentation.
 
 ### Voir aussi
 
@@ -64,7 +64,7 @@ Cette méthode convertit les mét fichiers WMF/EMF en image PNG raster avant de 
 
 ## AddImage(MemoryStream) {#addimage_5}
 
-Ajoute une image à une présentation à partir d'un flux.
+Ajouter une image à une présentation à partir d'un flux.
 
 ```csharp
 public IPPImage AddImage(MemoryStream stream)
@@ -80,7 +80,7 @@ Image ajoutée.
 
 ### Remarques
 
-Cette méthode peut ajouter des mét fichiers WMF/EMF à une présentation sans les convertir en image PNG raster.
+Cette méthode peut ajouter des fichiers WMF/EMF à une présentation sans les convertir en image PNG raster.
 
 ### Voir aussi
 
@@ -93,7 +93,7 @@ Cette méthode peut ajouter des mét fichiers WMF/EMF à une présentation sans 
 
 ## AddImage(Stream) {#addimage_6}
 
-Ajoute une image à une présentation à partir d'un flux.
+Ajouter une image à une présentation à partir d'un flux.
 
 ```csharp
 public IPPImage AddImage(Stream stream)
@@ -109,7 +109,7 @@ Image ajoutée.
 
 ### Remarques
 
-Cette méthode peut ajouter des mét fichiers WMF/EMF à une présentation sans les convertir en image PNG raster.
+Cette méthode peut ajouter des fichiers WMF/EMF à une présentation sans les convertir en image PNG raster.
 
 ### Voir aussi
 
@@ -149,7 +149,7 @@ Image ajoutée [`IPPImage`](../../ippimage).
 
 ## AddImage(byte[]) {#addimage_3}
 
-Ajoute une image à une présentation à partir du tampon spécifié.
+Ajoute une image à une présentation à partir d'un tampon spécifié.
 
 ```csharp
 public IPPImage AddImage(byte[] buffer)
@@ -174,7 +174,7 @@ Image ajoutée.
 
 ## AddImage(ISvgImage) {#addimage_2}
 
-Ajoute une image à une présentation à partir d'un objet Svg.
+Ajouter une image à une présentation à partir d'un objet Svg.
 
 ```csharp
 public IPPImage AddImage(ISvgImage svgImage)
@@ -182,7 +182,7 @@ public IPPImage AddImage(ISvgImage svgImage)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| svgImage | ISvgImage | Objet d'image Svg [`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | Objet image Svg [`ISvgImage`](../../isvgimage) |
 
 ### Valeur de retour
 
@@ -192,7 +192,7 @@ Image ajoutée.
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lorsque le paramètre svgImage est null. |
+| ArgumentNullException | Lorsque le paramètre svgImage est nul. |
 
 ### Voir aussi
 

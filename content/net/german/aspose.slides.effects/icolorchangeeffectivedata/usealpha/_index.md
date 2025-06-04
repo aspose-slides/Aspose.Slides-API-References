@@ -1,7 +1,7 @@
 ---
 title: UseAlpha
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen booleschen Wert zurück, der bestimmt, ob die Alpha-Komponente verwendet werden sollte. Nur-Lese-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen booleschen Wert zurück, der bestimmt, ob die Alpha-Komponente verwendet werden soll. Nur-lesbarer Boolescher Wert.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/icolorchangeeffectivedata/usealpha/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/icolorchangeeffectivedata/usealpha/
 
 ## IColorChangeEffectiveData.UseAlpha-Eigenschaft
 
-Gibt einen booleschen Wert zurück, der bestimmt, ob die Alpha-Komponente verwendet werden sollte. Nur-Lese-Boolean.
+Gibt einen booleschen Wert zurück, der bestimmt, ob die Alpha-Komponente verwendet werden soll. Nur-lesbarer Boolescher Wert.
 
 ```csharp
 public bool UseAlpha { get; }

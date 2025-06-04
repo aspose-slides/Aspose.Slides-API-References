@@ -1,6 +1,6 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет комментарий на слайде.
 type: docs
 weight: 6260
@@ -20,10 +20,10 @@ public interface IModernComment : IComment
 | Имя | Описание |
 | --- | --- |
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Позволяет получить базовый интерфейс IComment. Только для чтения [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает форму, связанную с комментарием. Только для чтения [`IShape`](../ishape). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает фигуру, связанную с комментарием. Только для чтения [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Возвращает или устанавливает статус комментария. Чтение/запись [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Возвращает или устанавливает длину выделенного текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Возвращает или устанавливает стартовую позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Возвращает или устанавливает длину выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Возвращает или устанавливает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/запись Int32. |
 
 ### Примеры
 
@@ -31,8 +31,8 @@ public interface IModernComment : IComment
 [C#]
 using (Presentation pres = new Presentation())
 {
-    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Некоторый Автор", "SA");
-    IModernComment modernComment = newAuthor.Comments.AddModernComment("Это современный комментарий", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
+    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
+    IModernComment modernComment = newAuthor.Comments.AddModernComment("This is modern comment", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
 
     pres.Save(outPptxFileName, SaveFormat.Pptx);
 }

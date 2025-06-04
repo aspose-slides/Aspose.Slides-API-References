@@ -1,25 +1,25 @@
 ---
 title: GetCoordinates
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtenir les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le port latéral gauche. La coordonnée Y inclut le port supérieur.
+description: Obtenez les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le déport du côté gauche. La coordonnée Y inclut le déport du côté supérieur.
 type: docs
 weight: 60
 url: /fr/aspose.slides/iportion/getcoordinates/
 ---
 
-## Méthode IPortion.GetCoordinates
+## IPortion.GetCoordinates method
 
-Obtenir les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le port latéral gauche. La coordonnée Y inclut le port supérieur.
+Obtenez les coordonnées du début de la portion. La coordonnée X du point représente le début de la portion à partir du premier caractère, y compris le déport du côté gauche. La coordonnée Y inclut le déport du côté supérieur.
 
 ```csharp
 public PointF GetCoordinates()
 ```
 
-### Valeur de retour
+### Return Value
 
 Coordonnées du début de la portion PointF
 
-### Voir aussi
+### See Also
 
 * interface [IPortion](../../iportion)
 * namespace [Aspose.Slides](../../iportion)

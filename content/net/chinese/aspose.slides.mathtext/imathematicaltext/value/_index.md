@@ -1,6 +1,6 @@
 ---
 title: Value
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 文本值
 type: docs
 weight: 30
@@ -25,7 +25,7 @@ IMathematicalText mathText = new MathematicalText("x+y");
 string textValue = mathText.Value;
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IMathematicalText](../../imathematicaltext)
 * 命名空间 [Aspose.Slides.MathText](../../imathematicaltext)

@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die X-Koordinate der oberen linken Ecke eines Rahmens zurück. Schreibgeschützter Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die X-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur-lesbar Single.
 type: docs
 weight: 90
 url: /de/aspose.slides/ishapeframe/x/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapeframe/x/
 
 ## IShapeFrame.X-Eigenschaft
 
-Gibt die X-Koordinate der oberen linken Ecke eines Rahmens zurück. Schreibgeschützter Single.
+Gibt die X-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur-lesbar Single.
 
 ```csharp
 public float X { get; }

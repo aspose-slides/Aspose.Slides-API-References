@@ -1,21 +1,21 @@
 ---
 title: AsIHyperlinkContainer
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IHyperlinkContainer-Schnittstelle. Nur lesbare IHyperlinkContainer aspose.slides/ihyperlinkcontainer.
+description: Ermöglicht den Zugriff auf die Basis-IHyperlinkContainer-Schnittstelle. Schreibgeschützter IHyperlinkContainer aspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 20
 url: /de/aspose.slides/iportionformat/asihyperlinkcontainer/
 ---
 
-## IPortionFormat.AsIHyperlinkContainer Eigenschaft
+## IPortionFormat.AsIHyperlinkContainer-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IHyperlinkContainer-Schnittstelle. Nur lesbare [`IHyperlinkContainer`](../../ihyperlinkcontainer).
+Ermöglicht den Zugriff auf die Basis-IHyperlinkContainer-Schnittstelle. Schreibgeschützter [`IHyperlinkContainer`](../../ihyperlinkcontainer).
 
 ```csharp
 public IHyperlinkContainer AsIHyperlinkContainer { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IHyperlinkContainer](../../ihyperlinkcontainer)
 * Schnittstelle [IPortionFormat](../../iportionformat)

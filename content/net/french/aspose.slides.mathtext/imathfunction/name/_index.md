@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Référence API Aspose.Slides pour .NET
-description: Nom de la fonction Par exemple, les noms de fonction sont sin et cos
+description: Nom de la fonction Par exemple, les noms de fonctions sont sin et cos
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathfunction/name/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathfunction/name/
 
 ## Propriété IMathFunction.Name
 
-Nom de la fonction Par exemple, les noms de fonction sont sin et cos
+Nom de la fonction Par exemple, les noms de fonctions sont sin et cos
 
 ```csharp
 public IMathElement Name { get; }

@@ -1,7 +1,7 @@
 ---
 title: AsIBehavior
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IBehavior-Schnittstelle. Schreibgeschützte IBehavior aspose.slides.animation/ibehavior.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht das Abrufen der Basis-IBehavior-Schnittstelle. Schreibgeschützte IBehavior aspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/irotationeffect/asibehavior/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/irotationeffect/asibehavior/
 
 ## IRotationEffect.AsIBehavior-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IBehavior-Schnittstelle. Schreibgeschützte [`IBehavior`](../../ibehavior).
+Ermöglicht das Abrufen der Basis-IBehavior-Schnittstelle. Schreibgeschützte [`IBehavior`](../../ibehavior).
 
 ```csharp
 public IBehavior AsIBehavior { get; }

@@ -30,7 +30,7 @@ Array von [`Shape`](../../shape)
 
 ## ToArray(int, int) {#toarray_1}
 
-Erstellt und gibt ein Array mit allen Formen aus dem angegebenen Bereich zurück. Ein Index der ersten zurückzugebenden Form. Eine Anzahl von Formen, die zurückgegeben werden sollen.
+Erstellt und gibt ein Array mit allen Formen aus dem angegebenen Bereich zurück. Ein Index der ersten zurückzugebenden Form. Eine Anzahl von zurückzugebenden Formen.
 
 ```csharp
 public IShape[] ToArray(int startIndex, int count)

@@ -1,6 +1,6 @@
 ---
 title: GradientShape
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示渐变填充的形状。
 type: docs
 weight: 4810

@@ -1,21 +1,21 @@
 ---
 title: NewLineType
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定生成的文档应该使用 \\rMacintosh 的新行，\\nUnix 或 \\r\\nWindows。默认值为 Unix。
+description: 指定生成的文档是否应具有新的行 \\r Macintosh  的 \\n Unix  或 \\r\\n Windows 。默认值是 Unix。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/markdownsaveoptions/newlinetype/
 ---
 
-## MarkdownSaveOptions.NewLineType 属性
+## MarkdownSaveOptions.NewLineType property
 
-指定生成的文档应该使用新行 \\r(Macintosh) 的新行，\\n(Unix) 或 \\r\\n(Windows)。默认值为 `Unix`。
+指定生成的文档是否应具有新的行 \\r( Macintosh ) 的 \\n( Unix ) 或 \\r\\n( Windows )。默认值是 `Unix`。
 
 ```csharp
 public NewLineType NewLineType { get; set; }
 ```
 
-### 另请参见
+### See Also
 
 * enum [NewLineType](../../newlinetype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

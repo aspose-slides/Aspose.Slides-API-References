@@ -1,7 +1,7 @@
 ---
 title: Light1
-second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第一个亮色。只读Color。
+second_title: Aspose.Sildes for .NET API Reference
+description: 方案中的第一种亮色。只能读取的颜色。
 type: docs
 weight: 120
 url: /zh/aspose.slides.theme/icolorschemeeffectivedata/light1/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/icolorschemeeffectivedata/light1/
 
 ## IColorSchemeEffectiveData.Light1 属性
 
-方案中的第一个亮色。只读Color。
+方案中的第一种亮色。只能读取的颜色。
 
 ```csharp
 public Color Light1 { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * 命名空间 [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

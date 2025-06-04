@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中无继承的项目符号高度。值 float.NaN 表示项目符号从段落的第一个部分继承高度。读/写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置没有继承的段落的项目符号高度。值 float.NaN 表示项目符号从段落中的第一个部分继承高度。可读/可写单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ibulletformat/height/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibulletformat/height/
 
 ## IBulletFormat.Height 属性
 
-返回或设置段落中无继承的项目符号高度。值 float.NaN 表示项目符号从段落的第一个部分继承高度。读/写单精度浮点数。
+返回或设置没有继承的段落的项目符号高度。值 float.NaN 表示项目符号从段落中的第一个部分继承高度。可读/可写单精度浮点数。
 
 ```csharp
 public float Height { get; set; }

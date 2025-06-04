@@ -1,13 +1,13 @@
 ---
 title: OffsetX
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie une distance du côté gauche d'un tableau au côté gauche d'une cellule. Lecture seule Double.
 type: docs
 weight: 150
 url: /fr/aspose.slides/cell/offsetx/
 ---
 
-## Cell.OffsetX propriété
+## Propriété Cell.OffsetX
 
 Renvoie une distance du côté gauche d'un tableau au côté gauche d'une cellule. Lecture seule Double.
 

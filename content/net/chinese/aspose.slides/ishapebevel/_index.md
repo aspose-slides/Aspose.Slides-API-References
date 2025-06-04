@@ -19,9 +19,9 @@ public interface IShapeBevel
 
 | 名称 | 描述 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | 倒角类型。可读写 [`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 倒角高度。可读写 Double。 |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 倒角宽度。可读写 Double。 |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | 倾斜类型。可读写 [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 倾斜高度。可读写 Double。 |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 倾斜宽度。可读写 Double。 |
 
 ### 另请参阅
 

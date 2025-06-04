@@ -1,7 +1,7 @@
 ---
 title: FirstColumnIndex
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает индекс первого столбца, занимаемого ячейкой. Только для чтения Int32.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает индекс первого столбца, охватываемого ячейкой. Свойство только для чтения типа Int32.
 type: docs
 weight: 50
 url: /ru/aspose.slides/cell/firstcolumnindex/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/cell/firstcolumnindex/
 
 ## Свойство Cell.FirstColumnIndex
 
-Возвращает индекс первого столбца, занимаемого ячейкой. Только для чтения Int32.
+Возвращает индекс первого столбца, охватываемого ячейкой. Свойство только для чтения типа Int32.
 
 ```csharp
 public int FirstColumnIndex { get; }

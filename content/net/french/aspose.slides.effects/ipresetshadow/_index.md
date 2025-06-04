@@ -1,7 +1,7 @@
 ---
 title: IPresetShadow
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet d'ombre prédéfinie.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un effet d'ombre prédéfini.
 type: docs
 weight: 3360
 url: /fr/aspose.slides.effects/ipresetshadow/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ipresetshadow/
 
 ## Interface IPresetShadow
 
-Représente un effet d'ombre prédéfinie.
+Représente un effet d'ombre prédéfini.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -20,12 +20,12 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. En lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Direction de l'ombre. Lecture/écriture Unique. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Distance de l'ombre. Lecture/écriture Double. |
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Préréglage. Lecture/écriture [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Couleur de l'ombre. En lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Voir aussi
 

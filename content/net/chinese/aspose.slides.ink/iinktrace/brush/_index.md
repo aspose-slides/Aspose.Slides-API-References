@@ -1,7 +1,7 @@
 ---
 title: Brush
-second_title: Aspose.Slides for .NET API 参考
-description: 获取 IInkLine 的 Brush IInkBrushaspose.slides/iinkbrush 只读。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取 IInkLine 的画刷 IInkBrushaspose.slides/iinkbrush 只读。
 type: docs
 weight: 10
 url: /zh/aspose.slides.ink/iinktrace/brush/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.ink/iinktrace/brush/
 
 ## IInkTrace.Brush 属性
 
-获取 IInkLine 的 Brush [`IInkBrush`](../../iinkbrush) 只读。
+获取 IInkLine 的画刷 [`IInkBrush`](../../iinkbrush) 只读。
 
 ```csharp
 public IInkBrush Brush { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IInkBrush](../../iinkbrush)
 * 接口 [IInkTrace](../../iinktrace)

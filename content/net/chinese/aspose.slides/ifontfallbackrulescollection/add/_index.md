@@ -1,15 +1,15 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合的末尾添加一个新的 FallBack 规则。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的 FallBack 规则添加到集合末尾。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ifontfallbackrulescollection/add/
 ---
 
-## IFontFallBackRulesCollection.Add 方法
+## IFontFallBackRulesCollection.Add method
 
-在集合的末尾添加一个新的 FallBack 规则。
+将新的 FallBack 规则添加到集合末尾。
 
 ```csharp
 public void Add(IFontFallBackRule sourceRule)
@@ -17,7 +17,7 @@ public void Add(IFontFallBackRule sourceRule)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceRule | IFontFallBackRule | 要添加的指定规则 |
+| sourceRule | IFontFallBackRule | 用于添加的指定规则 |
 
 ### 示例
 
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation ())
     // 从 FontsManager 获取空或预初始化的规则集合
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-    // 向集合添加新规则
+    // 将新规则添加到集合
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 }
 ```

@@ -1,7 +1,7 @@
 ---
 title: YMinus
-second_title: Aspose.Slides for .NET API 参考
-description: 指定负方向的误差条值。如果误差条值类型为自定义且允许 ErrorBarsYFormat，则可用。在其他情况下，此属性返回 null。只读 IDoubleChartValueaspose.slides/idoublechartvalue。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定负方向的误差条值。如果误差条值类型为自定义并且允许ErrorBarsYFormat，则可用。在任何其他情况下，此属性返回null。只读 IDoubleChartValue aspose.slides.charts/idoublechartvalue。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/errorbarscustomvalues/yminus/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/errorbarscustomvalues/yminus/
 
 ## ErrorBarsCustomValues.YMinus 属性
 
-指定负方向的误差条值。如果误差条值类型为自定义且允许 ErrorBarsYFormat，则可用。在其他情况下，此属性返回 null。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
+指定负方向的误差条值。如果误差条值类型为自定义并且允许ErrorBarsYFormat，则可用。在任何其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../../idoublechartvalue)。
 
 ```csharp
 public IDoubleChartValue YMinus { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IDoubleChartValue](../../idoublechartvalue)
 * 类 [ErrorBarsCustomValues](../../errorbarscustomvalues)

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene datos de formato de relleno efectivos con la herencia aplicada.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene datos de formato de relleno efectivo con la herencia aplicada.
 type: docs
 weight: 70
 url: /es/aspose.slides/fillformat/geteffective/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/fillformat/geteffective/
 
 ## Método FillFormat.GetEffective
 
-Obtiene datos de formato de relleno efectivos con la herencia aplicada.
+Obtiene datos de formato de relleno efectivo con la herencia aplicada.
 
 ```csharp
 public IFillFormatEffectiveData GetEffective()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
@@ -36,13 +36,13 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 			Console.WriteLine("Color de relleno: " + effectiveFillFormat.SolidFillColor);
 			break;
 		case FillType.Pattern:
-			Console.WriteLine("Estilo de patrón: " + effectiveFillFormat.PatternFormat.PatternStyle);
+			Console.WriteLine("Estilo del patrón: " + effectiveFillFormat.PatternFormat.PatternStyle);
 			Console.WriteLine("Color frontal: " + effectiveFillFormat.PatternFormat.ForeColor);
 			Console.WriteLine("Color de fondo: " + effectiveFillFormat.PatternFormat.BackColor);
 			break;
 		case FillType.Gradient:
 			Console.WriteLine("Dirección del degradado: " + effectiveFillFormat.GradientFormat.GradientDirection);
-			Console.WriteLine("Cantidad de paradas de degradado: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
+			Console.WriteLine("Cantidad de paradas del degradado: " + effectiveFillFormat.GradientFormat.GradientStops.Count);
 			break;
 		case FillType.Picture:
 			Console.WriteLine("Ancho de la imagen: " + effectiveFillFormat.PictureFillFormat.Picture.Image.Width);
@@ -52,11 +52,11 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IFillFormatEffectiveData](../../ifillformateffectivedata)
-* clase [FillFormat](../../fillformat)
-* espacio de nombres [Aspose.Slides](../../fillformat)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
+* class [FillFormat](../../fillformat)
+* namespace [Aspose.Slides](../../fillformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

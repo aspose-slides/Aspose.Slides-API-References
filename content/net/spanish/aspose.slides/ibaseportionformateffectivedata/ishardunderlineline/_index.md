@@ -1,15 +1,15 @@
 ---
 title: IsHardUnderlineLine
-second_title: Aspose.Sildes para .NET Referencia de API
-description: Determina si el estilo de subrayado tiene propiedades de LineFormat propias o las hereda de las propiedades de LineFormat del texto. Solo lectura Booleano.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si el estilo de subrayado tiene propiedades propias de LineFormat o las hereda de las propiedades de LineFormat del texto. Solo lectura Booleano.
 type: docs
 weight: 130
 url: /es/aspose.slides/ibaseportionformateffectivedata/ishardunderlineline/
 ---
 
-## Propiedad IBasePortionFormatEffectiveData.IsHardUnderlineLine
+## IBasePortionFormatEffectiveData.IsHardUnderlineLine property
 
-Determina si el estilo de subrayado tiene propiedades de LineFormat propias o las hereda de las propiedades de LineFormat del texto. Solo lectura Booleano.
+Determina si el estilo de subrayado tiene propiedades propias de LineFormat o las hereda de las propiedades de LineFormat del texto. Solo lectura Booleano.
 
 ```csharp
 public bool IsHardUnderlineLine { get; }

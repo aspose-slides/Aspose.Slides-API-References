@@ -1,6 +1,6 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет эффект внешней тени.
 type: docs
 weight: 3340
@@ -18,20 +18,20 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Расстояние до тени. Чтение/запись Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Указывает, должна ли тень вращаться вместе с формой, если форма вращается. Чтение/запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование вызывает зеркальное отображение. Чтение/запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает зеркальное отображение. Чтение/запись Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Радиус размытия. Чтение / запись Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Направление тени. Чтение / запись Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Расстояние до тени. Чтение / запись Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение / запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Указывает, должна ли тень вращаться с формой, если форма повернута. Чтение / запись Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное значение приводит к отражению. Чтение / запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное значение приводит к отражению. Чтение / запись Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Указывает угол горизонтального искажения (в градусах). Чтение/запись Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Указывает угол вертикального искажения (в градусах). Чтение/запись Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Указывает угол горизонтального искажения (в градусах). Чтение / запись Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Указывает угол вертикального искажения (в градусах). Чтение / запись Double. |
 
 ### См. также
 

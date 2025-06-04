@@ -1,7 +1,7 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Aspose.Slides für .NET API Referenz
-description: Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, wird einfach sein Text geändert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändern Sie einfach seinen Text.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/trendline/addtextframeforoverriding/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/trendline/addtextframeforoverriding/
 
 ## Trendline.AddTextFrameForOverriding-Methode
 
-Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, wird einfach sein Text geändert.
+Initialisieren Sie TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändern Sie einfach seinen Text.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)

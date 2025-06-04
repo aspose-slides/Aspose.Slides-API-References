@@ -1,6 +1,6 @@
 ---
 title: ScaleY
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die ScaleY-Eigenschaft dar
 type: docs
 weight: 590
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/behaviorproperty/scaley/
 
 ## BehaviorProperty.ScaleY-Eigenschaft
 
-Stellt die Eigenschaft 'ScaleY' dar
+Stellt die 'ScaleY'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ScaleY { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

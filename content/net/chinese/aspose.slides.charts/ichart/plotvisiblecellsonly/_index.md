@@ -1,7 +1,7 @@
 ---
 title: PlotVisibleCellsOnly
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定是否仅绘制可见单元格。设置为 False 将绘制可见和隐藏单元格。可读/写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定是否仅绘制可见单元格。False表示绘制可见和隐藏的单元格。可读/可写布尔值。
 type: docs
 weight: 170
 url: /zh/aspose.slides.charts/ichart/plotvisiblecellsonly/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichart/plotvisiblecellsonly/
 
 ## IChart.PlotVisibleCellsOnly 属性
 
-确定是否仅绘制可见单元格。设置为 False 将绘制可见和隐藏单元格。可读/写布尔值。
+确定是否仅绘制可见单元格。False表示绘制可见和隐藏的单元格。可读/可写布尔值。
 
 ```csharp
 public bool PlotVisibleCellsOnly { get; set; }

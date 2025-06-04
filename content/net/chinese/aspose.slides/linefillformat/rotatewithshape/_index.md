@@ -1,21 +1,21 @@
 ---
 title: RotateWithShape
-second_title: Aspose.Slides for .NET API 参考
-description: 确定填充是否应随形状旋转。可读/写 NullableBool aspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定填充是否应该随形状旋转。可读写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 40
 url: /zh/aspose.slides/linefillformat/rotatewithshape/
 ---
 
-## LineFillFormat.RotateWithShape 属性
+## LineFillFormat.RotateWithShape property
 
-确定填充是否应随形状旋转。可读/写 [`NullableBool`](../../nullablebool)。
+确定填充是否应该随形状旋转。可读写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool RotateWithShape { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * enum [NullableBool](../../nullablebool)
 * class [LineFillFormat](../../linefillformat)

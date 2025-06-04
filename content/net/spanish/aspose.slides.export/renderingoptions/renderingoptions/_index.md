@@ -15,10 +15,10 @@ Constructor predeterminado.
 public RenderingOptions()
 ```
 
-### Véase También
+### Ver También
 
 * clase [RenderingOptions](../../renderingoptions)
 * espacio de nombres [Aspose.Slides.Export](../../renderingoptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

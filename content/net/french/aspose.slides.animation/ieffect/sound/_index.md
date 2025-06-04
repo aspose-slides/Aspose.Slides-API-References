@@ -1,7 +1,7 @@
 ---
 title: Sound
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit le son intégré pour l'effet. Lire/écrire IAudioaspose.slides/iaudio.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Son intégré défini pour l'effet. Lire/écrire IAudioaspose.slides/iaudio.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/ieffect/sound/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ieffect/sound/
 
 ## Propriété IEffect.Sound
 
-Définit le son intégré pour l'effet. Lire/écrire [`IAudio`](../../../aspose.slides/iaudio).
+Son intégré défini pour l'effet. Lire/écrire [`IAudio`](../../../aspose.slides/iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }
@@ -23,7 +23,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     
-    // Obtient la séquence des effets pour la diapositive
+    // Obtient la séquence d'effets pour la diapositive
     ISequence effectsSequence = slide.Timeline.MainSequence;
        
     foreach (IEffect effect in effectsSequence)
@@ -31,13 +31,13 @@ using (Presentation presentation = new Presentation("demo.pptx"))
         if (effect.Sound == null)
             continue;
         
-        // Extrait le son de l'effet sous forme de tableau d'octets
+        // Extrait le son de l'effet dans un tableau de bits
         byte[] audio = effect.Sound.BinaryData;
     }
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAudio](../../../aspose.slides/iaudio)
 * interface [IEffect](../../ieffect)

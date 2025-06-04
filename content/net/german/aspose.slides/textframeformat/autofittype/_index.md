@@ -1,7 +1,7 @@
 ---
 title: AutofitType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Autofit-Modus für Texte zurück oder setzt ihn. Schreib-/Lesefunktion für TextAutofitTypeaspose.slides/textautofittype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Autofit-Modus von Texten zurück oder setzt ihn. Lese-/Schreib-Zugriff auf TextAutofitTypeaspose.slides/textautofittype.
 type: docs
 weight: 30
 url: /de/aspose.slides/textframeformat/autofittype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframeformat/autofittype/
 
 ## TextFrameFormat.AutofitType-Eigenschaft
 
-Gibt den Autofit-Modus für Texte zurück oder setzt ihn. Schreib-/Lesefunktion für [`TextAutofitType`](../../textautofittype).
+Gibt den Autofit-Modus des Textes zurück oder setzt ihn. Lese-/Schreibzugriff auf [`TextAutofitType`](../../textautofittype).
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }
@@ -17,7 +17,7 @@ public TextAutofitType AutofitType { get; set; }
 
 ### Beispiele
 
-Der folgende Beispielcode zeigt, wie man die Form anpasst, um den Text in einer PowerPoint-Präsentation einzupassen.
+Der folgende Beispielcode zeigt, wie man eine Form anpasst, um Text in einer PowerPoint-Präsentation anzupassen.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ Der folgende Beispielcode zeigt, wie man die Form anpasst, um den Text in einer 
 }
 ```
 
-Der folgende Beispielcode zeigt, wie man den Text bei Überlauf verkleinert.
+Der folgende Beispielcode zeigt, wie man Text bei Überlauf verkleinert.
 
 ```csharp
 [C#]

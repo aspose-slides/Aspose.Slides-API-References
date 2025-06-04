@@ -1,6 +1,6 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ermöglicht die Erstellung von IMathNaryOperator
 type: docs
 weight: 8120
@@ -23,9 +23,9 @@ public interface IMathNaryOperatorFactory
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Erstellt IMathNaryOperator |
 | [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | Erstellt IMathNaryOperator |
 
-### Anmerkungen
+### Bemerkungen
 
-Für die COM-Kompatibilität
+Für COM-Kompatibilität
 
 ### Siehe auch
 

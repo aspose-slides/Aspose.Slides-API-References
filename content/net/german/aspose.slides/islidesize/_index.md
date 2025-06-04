@@ -1,6 +1,6 @@
 ---
 title: ISlideSize
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Größe der Folie dar.
 type: docs
 weight: 6870
@@ -19,18 +19,18 @@ public interface ISlideSize
 
 | Name | Beschreibung |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Gibt die Ausrichtung der Folie zurück oder setzt sie. Ändern dieses Wertes wird die Dimensionen der Folie vertauschen. Lesen/Schreiben [`SlideOrientation`](../slideorientation). |
-| [Size](../../aspose.slides/islidesize/size) { get; } | Gibt die Größe in Punkten zurück oder setzt sie. Wenn Sie einen Wert zuweisen, wird die [`Type`](./type) Eigenschaft auf Benutzerdefiniert zurückgesetzt und die [`Orientation`](./orientation) gesetzt. Lesen/Schreiben SizeF. |
-| [Type](../../aspose.slides/islidesize/type) { get; } | Gibt den Typ der Foliengröße zurück oder setzt ihn. Wenn Sie einen Wert außer Benutzerdefiniert zuweisen, wird die [`Size`](./size) entsprechend ändern, aber die [`Orientation`](./orientation) bleibt unverändert. Lesen/Schreiben [`SlideSizeType`](../slidesizetype). |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | Gibt die Ausrichtung der Folie zurück oder setzt sie. Eine Änderung dieses Wertes tauscht die Abmessungen der Folie aus. Lese-/Schreibzugriff [`SlideOrientation`](../slideorientation). |
+| [Size](../../aspose.slides/islidesize/size) { get; } | Gibt die Größe in Punkten zurück oder setzt sie. Das Zuweisen eines beliebigen Wertes setzt die [`Type`](./type)-Eigenschaft auf Custom und setzt die [`Orientation`](./orientation). Lese-/Schreibzugriff SizeF. |
+| [Type](../../aspose.slides/islidesize/type) { get; } | Gibt den Typ der Foliengröße zurück oder setzt ihn. Das Zuweisen eines beliebigen Wertes außer Custom ändert entsprechend die [`Size`](./size), lässt jedoch die [`Orientation`](./orientation) unverändert. Lese-/Schreibzugriff [`SlideSizeType`](../slidesizetype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Setzt den Typ der Foliengröße und skaliert den Inhalt unter Verwendung des Skalierungstyps. Wenn Sie einen Wert außer Benutzerdefiniert zuweisen, wird die [`Size`](./size) entsprechend ändern, aber die [`Orientation`](./orientation) bleibt unverändert. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Setzt die Größe in Punkten und skaliert den Inhalt unter Verwendung des Skalierungstyps. Wenn Sie einen Wert zuweisen, wird die [`Type`](./type) Eigenschaft auf Benutzerdefiniert zurückgesetzt und die [`Orientation`](./orientation) gesetzt. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Setzt den Typ der Foliengröße und skaliert den Inhalt mit dem Skalierungstyp. Das Zuweisen eines beliebigen Wertes außer Custom ändert entsprechend die [`Size`](./size), lässt jedoch die [`Orientation`](./orientation) unverändert. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Setzt die Größe in Punkten und skaliert den Inhalt mit dem Skalierungstyp. Das Zuweisen eines beliebigen Wertes setzt die [`Type`](./type)-Eigenschaft auf Custom und setzt die [`Orientation`](./orientation). |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

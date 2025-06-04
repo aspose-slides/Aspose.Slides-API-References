@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/columncollection/item/
 ---
 
-## Indexador de ColumnCollection
+## Indexador ColumnCollection
 
 Devuelve la columna en el índice especificado. Solo lectura [`Column`](../../column).
 
@@ -17,9 +17,9 @@ public IColumn this[int index] { get; }
 
 ### Ver También
 
-* interfaz [IColumn](../../icolumn)
-* clase [ColumnCollection](../../columncollection)
-* espacio de nombres [Aspose.Slides](../../columncollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IColumn](../../icolumn)
+* clase [ColumnCollection](../../columncollection)
+* espacio de nombres [Aspose.Slides](../../columncollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

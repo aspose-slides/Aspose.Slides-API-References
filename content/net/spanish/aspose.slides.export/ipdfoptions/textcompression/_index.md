@@ -15,11 +15,11 @@ Especifica el tipo de compresión que se utilizará para todo el contenido textu
 public PdfTextCompression TextCompression { get; set; }
 ```
 
-### Comentarios
+### Observaciones
 
 El valor predeterminado es Flate.
 
-### Véase También
+### Ver También
 
 * enum [PdfTextCompression](../../pdftextcompression)
 * interface [IPdfOptions](../../ipdfoptions)

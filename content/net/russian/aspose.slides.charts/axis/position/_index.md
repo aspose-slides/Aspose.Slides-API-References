@@ -1,15 +1,15 @@
 ---
 title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет позицию оси. Чтение/запись AxisPositionTypeaspose.slides.charts/axispositiontype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет положение оси. Чтение/запись AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs
 weight: 470
 url: /ru/aspose.slides.charts/axis/position/
 ---
 
-## Свойство Axis.Position
+## Axis.Position свойство
 
-Представляет позицию оси. Чтение/запись [`AxisPositionType`](../../axispositiontype).
+Представляет положение оси. Чтение/запись [`AxisPositionType`](../../axispositiontype).
 
 ```csharp
 public AxisPositionType Position { get; set; }

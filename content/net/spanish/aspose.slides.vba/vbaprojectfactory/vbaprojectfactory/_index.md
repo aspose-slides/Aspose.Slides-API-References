@@ -1,7 +1,7 @@
 ---
 title: VbaProjectFactory
 second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor predeterminado.
+description: El constructor por defecto.
 type: docs
 weight: 10
 url: /es/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/
 
 ## Constructor de VbaProjectFactory
 
-El constructor predeterminado.
+El constructor por defecto.
 
 ```csharp
 public VbaProjectFactory()
 ```
 
-### Véase también
+### Véase También
 
 * clase [VbaProjectFactory](../../vbaprojectfactory)
 * espacio de nombres [Aspose.Slides.Vba](../../vbaprojectfactory)

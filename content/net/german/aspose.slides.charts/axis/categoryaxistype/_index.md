@@ -1,7 +1,7 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Kategoriewelle an. Lese-/Schreibzugriff auf CategoryAxisTypeaspose.slides.charts/categoryaxistype.
+description: Gibt den Typ der Kategoriewelle an. Lesen/Schreiben von CategoryAxisTypeaspose.slides.charts/categoryaxistype.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/axis/categoryaxistype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/categoryaxistype/
 
 ## Axis.CategoryAxisType-Eigenschaft
 
-Gibt den Typ der Kategoriewelle an. Lese-/Schreibzugriff auf [`CategoryAxisType`](../../categoryaxistype).
+Gibt den Typ der Kategoriewelle an. Lesen/Schreiben von [`CategoryAxisType`](../../categoryaxistype).
 
 ```csharp
 public CategoryAxisType CategoryAxisType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [CategoryAxisType](../../categoryaxistype)
 * class [Axis](../../axis)

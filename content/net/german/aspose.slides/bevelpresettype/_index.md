@@ -1,13 +1,13 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Konstanten, die den 3D-Fasen von Formen definieren.
 type: docs
 weight: 930
 url: /de/aspose.slides/bevelpresettype/
 ---
 
-## BevelPresetType Aufzählung
+## BevelPresetType Enumeration
 
 Konstanten, die den 3D-Fasen von Formen definieren.
 
@@ -33,7 +33,7 @@ public enum BevelPresetType
 | Slope | `10` |  |
 | SoftRound | `11` |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

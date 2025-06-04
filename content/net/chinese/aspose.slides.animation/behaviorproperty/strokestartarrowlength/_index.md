@@ -1,6 +1,6 @@
 ---
 title: StrokeStartArrowLength
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 stroke.startArrowLength 属性
 type: docs
 weight: 1020

@@ -1,6 +1,6 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定在父连接器上禁用哪些操作。
 type: docs
 weight: 5420
@@ -19,19 +19,19 @@ public interface IConnectorLock : IBaseShapeLock
 
 | 名称 | 描述 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止调整值的更改。可读写布尔值。 |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | 确定是否禁止箭头的更改。可读写布尔值。 |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | 允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。可读写布尔值。 |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。可读写布尔值。 |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。可读写布尔值。 |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | 确定是否禁止移动此形状。可读写布尔值。 |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。可读写布尔值。 |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。可读写布尔值。 |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。可读写布尔值。 |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。可读写布尔值。 |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。可读/可写布尔值。 |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。可读/可写布尔值。 |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | 允许获取基本的 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否需要保持宽高比。可读/可写布尔值。 |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。可读/可写布尔值。 |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。可读/可写布尔值。 |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | 确定是否禁止移动此形状。可读/可写布尔值。 |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。可读/可写布尔值。 |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。可读/可写布尔值。 |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。可读/可写布尔值。 |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。可读/可写布尔值。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IBaseShapeLock](../ibaseshapelock)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

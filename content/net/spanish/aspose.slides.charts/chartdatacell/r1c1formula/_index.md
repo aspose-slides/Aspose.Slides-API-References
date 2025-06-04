@@ -1,6 +1,6 @@
 ---
 title: R1C1Formula
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sldes para .NET
 description: Obtiene o establece la fórmula en estilo R1C1.
 type: docs
 weight: 70
@@ -23,10 +23,10 @@ IChartDataCell cell = workbook.GetCell(0, "C2");
 cell.R1C1Formula = "MAX(R2C6:R5C8) / 3";
 ```
 
-### Vea También
+### Ver También
 
 * clase [ChartDataCell](../../chartdatacell)
-* namespace [Aspose.Slides.Charts](../../chartdatacell)
+* espacio de nombres [Aspose.Slides.Charts](../../chartdatacell)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Nur-Lese IGraphicalObject aspose.slides/igraphicalobject.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IGraphicalObject-Schnittstelle. Nur-Lese-IGraphicalObjectaspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /de/aspose.slides/ioleobjectframe/asigraphicalobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ioleobjectframe/asigraphicalobject/
 
 ## IOleObjectFrame.AsIGraphicalObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Nur-Lese [`IGraphicalObject`](../../igraphicalobject).
+Ermöglicht den Zugriff auf die Basis-IGraphicalObject-Schnittstelle. Nur-Lese- [`IGraphicalObject`](../../igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }

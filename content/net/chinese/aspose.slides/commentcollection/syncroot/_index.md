@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个同步根。只读对象。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回同步根。仅限读取的对象。
 type: docs
 weight: 40
 url: /zh/aspose.slides/commentcollection/syncroot/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentcollection/syncroot/
 
 ## CommentCollection.SyncRoot 属性
 
-返回一个同步根。只读对象。
+返回同步根。仅限读取的对象。
 
 ```csharp
 public object SyncRoot { get; }

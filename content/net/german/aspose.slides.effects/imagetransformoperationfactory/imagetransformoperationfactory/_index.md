@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public ImageTransformOperationFactory()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * Namespace [Aspose.Slides.Effects](../../imagetransformoperationfactory)

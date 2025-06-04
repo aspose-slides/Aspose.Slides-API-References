@@ -1,15 +1,15 @@
 ---
 title: HideSubscript
-second_title: Aspose.Slides para .NET API Referencia
-description: Ocultar Subíndice
+second_title: Aspose.Sildes para .NET API Referencia
+description: Ocultar subíndice
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/mathnaryoperator/hidesubscript/
 ---
 
-## Propiedad MathNaryOperator.HideSubscript
+## MathNaryOperator.HideSubscript propiedad
 
-Ocultar Subíndice
+Ocultar subíndice
 
 ```csharp
 public bool HideSubscript { get; set; }
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSubscript = true;
 ```
 
-### Ver También
+### Véase También
 
 * clase [MathNaryOperator](../../mathnaryoperator)
 * espacio de nombres [Aspose.Slides.MathText](../../mathnaryoperator)

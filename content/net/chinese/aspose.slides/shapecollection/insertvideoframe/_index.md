@@ -1,7 +1,7 @@
 ---
 title: InsertVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建一个新的视频帧并将其插入到指定索引的集合中。
+description: 创建一个新的视频帧，并将其插入到指定索引的集合中。
 type: docs
 weight: 400
 url: /zh/aspose.slides/shapecollection/insertvideoframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/insertvideoframe/
 
 ## ShapeCollection.InsertVideoFrame 方法
 
-创建一个新的视频帧并将其插入到指定索引的集合中。
+创建一个新的视频帧，并将其插入到指定索引的集合中。
 
 ```csharp
 public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, float height, 
@@ -19,17 +19,17 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 视频帧应该插入的零基索引。 |
-| x | Single | 新视频帧的 X 坐标。 |
-| y | Single | 新视频帧的 Y 坐标。 |
-| width | Single | 新视频帧的宽度。 |
-| height | Single | 新视频帧的高度。 |
+| x | Single | 新的视频帧的 X 坐标。 |
+| y | Single | 新的视频帧的 Y 坐标。 |
+| width | Single | 新的视频帧的宽度。 |
+| height | Single | 新的视频帧的高度。 |
 | fname | String | 视频文件名。 |
 
 ### 返回值
 
 创建的 VideoFrame 对象。
 
-### 另见
+### 另请参见
 
 * 接口 [IVideoFrame](../../ivideoframe)
 * 类 [ShapeCollection](../../shapecollection)

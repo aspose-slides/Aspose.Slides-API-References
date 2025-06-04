@@ -1,6 +1,6 @@
 ---
 title: AddMediaPlaceholder
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 向布局幻灯片添加一个新的占位符形状以容纳媒体对象。
 type: docs
 weight: 30
@@ -24,7 +24,7 @@ public IAutoShape AddMediaPlaceholder(float x, float y, float width, float heigh
 
 ### 返回值
 
-创建的 [`IAutoShape`](../../iautoshape) 作为媒体占位符。
+创建的 [`IAutoShape`](../../iautoshape) 具有媒体占位符。
 
 ### 示例
 

@@ -1,7 +1,7 @@
 ---
 title: CaseSensitive
-second_title: Aspose.Slides for .NET API 参考
-description: 设置为 true 以使用大小写敏感搜索，false - 否则。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置为 true 以使用区分大小写的搜索，否则设置为 false。可读/可写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/itextsearchoptions/casesensitive/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itextsearchoptions/casesensitive/
 
 ## ITextSearchOptions.CaseSensitive 属性
 
-设置为 true 以使用大小写敏感搜索，false - 否则。可读/可写布尔值。
+设置为 true 以使用区分大小写的搜索，否则设置为 false。可读/可写布尔值。
 
 ```csharp
 public bool CaseSensitive { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ITextSearchOptions](../../itextsearchoptions)
 * 命名空间 [Aspose.Slides](../../itextsearchoptions)

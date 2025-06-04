@@ -1,6 +1,6 @@
 ---
 title: StyleTextEffectOutline
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad style.textEffectOutline
 type: docs
 weight: 1160
@@ -15,10 +15,10 @@ Representa la propiedad 'style.textEffectOutline'
 public static BehaviorProperty StyleTextEffectOutline { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
-* namespace [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

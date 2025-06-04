@@ -1,6 +1,6 @@
 ---
 title: ApplyColorScheme
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将额外的颜色方案应用于幻灯片。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public void ApplyColorScheme(IExtraColorScheme scheme)
 | --- | --- | --- |
 | scheme | IExtraColorScheme |  |
 
-### 另见
+### 另请参阅
 
 * 接口 [IExtraColorScheme](../../iextracolorscheme)
 * 类 [BaseOverrideThemeManager](../../baseoverridethememanager)

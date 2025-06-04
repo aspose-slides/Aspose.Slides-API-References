@@ -1,7 +1,7 @@
 ---
 title: Transform
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit la forme de retour à la ligne du texte. Lecture/écriture TextShapeType aspose.slides/textshapetype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient ou définit la forme de découpage du texte. Lecture/écriture TextShapeTypeaspose.slides/textshapetype.
 type: docs
 weight: 150
 url: /fr/aspose.slides/textframeformat/transform/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframeformat/transform/
 
 ## Propriété TextFrameFormat.Transform
 
-Obtient ou définit la forme de retour à la ligne du texte. Lecture/écriture [`TextShapeType`](../../textshapetype).
+Obtient ou définit la forme de découpage du texte. Lecture/écriture [`TextShapeType`](../../textshapetype).
 
 ```csharp
 public TextShapeType Transform { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine à quelle collection d'enfants du parent ce point de données s'applique. Lire UInt32.
+description: Détermine à laquelle des collections d'enfants du parent ce point de données s'applique. Lire UInt32.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichartdatapoint/index/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapoint/index/
 
 ## Propriété IChartDataPoint.Index
 
-Détermine à quelle collection d'enfants du parent ce point de données s'applique. Lire UInt32.
+Détermine à laquelle de la collection d'enfants du parent ce point de données s'applique. Lire UInt32.
 
 ```csharp
 public uint Index { get; }

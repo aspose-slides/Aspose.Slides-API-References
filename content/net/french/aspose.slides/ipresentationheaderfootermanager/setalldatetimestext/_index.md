@@ -1,15 +1,15 @@
 ---
 title: SetAllDateTimesText
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit le texte de tous les espaces réservés de date-heure, y compris les diapositives maîtresses, les diapositives de mise en page et les diapositives.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Définit le texte de tous les espaces réservés de date-heure, y compris les diapositives maîtres, les diapositives de mise en page et les diapositives.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ipresentationheaderfootermanager/setalldatetimestext/
 ---
 
-## Méthode IPresentationHeaderFooterManager.SetAllDateTimesText
+## IPresentationHeaderFooterManager.SetAllDateTimesText méthode
 
-Définit le texte de tous les espaces réservés de date-heure, y compris les diapositives maîtresses, les diapositives de mise en page et les diapositives.
+Définit le texte de tous les espaces réservés de date-heure, y compris les diapositives maîtres, les diapositives de mise en page et les diapositives.
 
 ```csharp
 public void SetAllDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetAllDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Texte à définir. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * namespace [Aspose.Slides](../../ipresentationheaderfootermanager)

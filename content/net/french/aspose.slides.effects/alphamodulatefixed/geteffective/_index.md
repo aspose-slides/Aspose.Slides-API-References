@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Obtient les données d'effet Alpha Modulate Fixed effectives avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Récupère les données de l'effet Alpha Modulate Fixed effectif avec l'héritage appliqué.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/alphamodulatefixed/geteffective/
 ---
 
-## Méthode AlphaModulateFixed.GetEffective
+## AlphaModulateFixed.GetEffective méthode
 
-Obtient les données d'effet Alpha Modulate Fixed effectives avec l'héritage appliqué.
+Récupère les données de l'effet Alpha Modulate Fixed effectif avec l'héritage appliqué.
 
 ```csharp
 public IAlphaModulateFixedEffectiveData GetEffective()

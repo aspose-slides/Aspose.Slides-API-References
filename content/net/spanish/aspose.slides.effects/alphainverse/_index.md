@@ -1,7 +1,7 @@
 ---
 title: AlphaInverse
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa un efecto de Alpha Inverso. Los valores de opacidad alpha se invierten al sustraer 100.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa un efecto de Alpha Inverse. Los valores de opacidad Alpha se invierten al restar de 100.
 type: docs
 weight: 2780
 url: /es/aspose.slides.effects/alphainverse/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/alphainverse/
 
 ## Clase AlphaInverse
 
-Representa un efecto de Alpha Inverso. Los valores de Alpha (opacidad) se invierten al sustraer de 100%.
+Representa un efecto de Alpha Inverse. Los valores de Alpha (opacidad) se invierten al restar de 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -26,14 +26,14 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Determina si el [`AlphaInverse`](../alphainverse) especificado es igual al [`AlphaInverse`](../alphainverse) actual. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Obtiene los datos del efecto Alpha Inverso efectivo con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Obtiene los datos del efecto Alpha Inverse efectivo con la herencia aplicada. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Sirve como una función hash para un tipo particular. |
 
-### Ver También
+### Véase también
 
 * clase [ImageTransformOperation](../imagetransformoperation)
 * interfaz [IAlphaInverse](../ialphainverse)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

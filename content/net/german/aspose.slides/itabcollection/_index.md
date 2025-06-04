@@ -19,7 +19,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-lesend [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`ITab`](../itab). |
 
 ## Methoden
 

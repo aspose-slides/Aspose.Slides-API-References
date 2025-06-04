@@ -1,6 +1,6 @@
 ---
 title: FillType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el tipo de relleno. Lectura/escritura FillTypeaspose.slides/filltype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../../fi
 public FillType FillType { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * enum [FillType](../../filltype)
 * class [FillFormat](../../fillformat)

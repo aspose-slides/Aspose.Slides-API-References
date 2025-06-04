@@ -17,7 +17,7 @@ public override string ToString()
 
 ### Valeur de retour
 
-Représentation sous forme de chaîne.
+Représentation de chaîne.
 
 ### Voir aussi
 

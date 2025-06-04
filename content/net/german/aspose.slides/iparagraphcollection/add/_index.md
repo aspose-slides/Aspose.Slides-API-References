@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt einen Absatz am Ende der Sammlung hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt einen Paragraph am Ende der Sammlung hinzu.
 type: docs
 weight: 50
 url: /de/aspose.slides/iparagraphcollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphcollection/add/
 
 ## Add(IParagraph) {#add_1}
 
-Fügt einen Absatz am Ende der Sammlung hinzu.
+Fügt einen Paragraph am Ende der Sammlung hinzu.
 
 ```csharp
 public void Add(IParagraph value)
@@ -17,9 +17,9 @@ public void Add(IParagraph value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | IParagraph | Der Absatz, der am Ende der Sammlung hinzugefügt werden soll. |
+| value | IParagraph | Der Paragraph, der am Ende der Sammlung hinzugefügt werden soll. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IParagraph](../../iparagraph)
 * Schnittstelle [IParagraphCollection](../../iparagraphcollection)
@@ -42,9 +42,9 @@ public int Add(IParagraphCollection value)
 
 ### Rückgabewert
 
-Der Index, an dem der Absatz hinzugefügt wurde, oder -1, wenn nichts hinzuzufügen ist.
+Der Index, an dem der Paragraph hinzugefügt wurde, oder -1, wenn nichts hinzuzufügen ist.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IParagraphCollection](../../iparagraphcollection)
 * Namespace [Aspose.Slides](../../iparagraphcollection)

@@ -15,10 +15,10 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Véase también
+### También Visto
 
 * clase [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
-* namespace [Aspose.Slides](../../gradientstopcollectioneffectivedata)
+* espacio de nombres [Aspose.Slides](../../gradientstopcollectioneffectivedata)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: IGradientFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un format dégradé.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente un format de dégradé.
 type: docs
 weight: 5800
 url: /fr/aspose.slides/igradientformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igradientformat/
 
 ## Interface IGradientFormat
 
-Représente un format dégradé.
+Représente un format de dégradé.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -22,7 +22,7 @@ public interface IGradientFormat : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Permet d'obtenir l'interface de base IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Renvoie ou définit le style d'un dégradé. Lecture/écriture [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Renvoie ou définit la forme d'un dégradé. Lecture/écriture [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Renvoie la collection de points d'arrêt du dégradé. Lecture seule [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Renvoie la collection des arrêts de dégradé. Lecture seule [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Détermine si un dégradé est mis à l'échelle. Lecture/écriture [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Renvoie ou définit le mode de retournement pour un dégradé. Lecture/écriture [`TileFlip`](../tileflip). |

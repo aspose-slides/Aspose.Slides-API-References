@@ -1,13 +1,13 @@
 ---
 title: ThemeManager
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает менеджер тем. Только для чтения IOverrideThemeManager aspose.slides.theme/ioverridethememanager.
 type: docs
 weight: 220
 url: /ru/aspose.slides.charts/chart/thememanager/
 ---
 
-## Свойство Chart.ThemeManager
+## Св property Chart.ThemeManager
 
 Возвращает менеджер тем. Только для чтения [`IOverrideThemeManager`](../../../aspose.slides.theme/ioverridethememanager).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chart/thememanager/
 public IOverrideThemeManager ThemeManager { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IOverrideThemeManager](../../../aspose.slides.theme/ioverridethememanager)
 * класс [Chart](../../chart)

@@ -1,7 +1,7 @@
 ---
 title: DpiY
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die vertikale Auflösung in Punkten pro Zoll an. Lese-/Schreibzugriff auf UInt32.
+second_title: Aspose.Slides for .NET API Referenz
+description: Gibt die vertikale Auflösung in Punkt pro Zoll an. Lesen/Schreiben UInt32.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/tiffoptions/dpiy/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/tiffoptions/dpiy/
 
 ## TiffOptions.DpiY-Eigenschaft
 
-Gibt die vertikale Auflösung in Punkten pro Zoll an. Lese-/Schreibzugriff auf UInt32.
+Gibt die vertikale Auflösung in Punkt pro Zoll an. Lesen/Schreiben UInt32.
 
 ```csharp
 public uint DpiY { get; set; }

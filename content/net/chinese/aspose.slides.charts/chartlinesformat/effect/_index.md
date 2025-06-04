@@ -1,7 +1,7 @@
 ---
 title: Effect
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回用于图表线的效果。只读 IEffectFormataspose.slides/ieffectformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回用于图表线的效果。为只读 IEffectFormataspose.slides/../aspose.slides/ieffectformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/chartlinesformat/effect/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartlinesformat/effect/
 
 ## ChartLinesFormat.Effect 属性
 
-返回用于图表线的效果。只读 [`IEffectFormat`](../../../aspose.slides/ieffectformat)。
+返回用于图表线的效果。为只读 [`IEffectFormat`](../../../aspose.slides/ieffectformat)。
 
 ```csharp
 public IEffectFormat Effect { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IEffectFormat](../../../aspose.slides/ieffectformat)
 * 类 [ChartLinesFormat](../../chartlinesformat)

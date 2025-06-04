@@ -1,15 +1,15 @@
 ---
 title: ShowPageStepper
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Afficher/masquer le sélecteur de page. Peut être remplacé dans les flashvars. La valeur par défaut est true.
+second_title: Référence API Aspose.Slides pour .NET
+description: Afficher/cacher le sélecteur de pages. Peut être remplacé dans les flashvars. La valeur par défaut est vraie.
 type: docs
 weight: 120
 url: /fr/aspose.slides.export/iswfoptions/showpagestepper/
 ---
 
-## Propriété ISwfOptions.ShowPageStepper
+## ISwfOptions.ShowPageStepper property
 
-Afficher/masquer le sélecteur de page. Peut être remplacé dans les flashvars. La valeur par défaut est true.
+Afficher/cacher le sélecteur de pages. Peut être remplacé dans les flashvars. La valeur par défaut est vraie.
 
 ```csharp
 public bool ShowPageStepper { get; set; }

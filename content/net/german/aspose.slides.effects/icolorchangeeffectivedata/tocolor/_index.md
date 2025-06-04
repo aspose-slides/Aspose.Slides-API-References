@@ -1,7 +1,7 @@
 ---
 title: ToColor
-second_title: Aspose.Slides für .NET API Referenz
-description: Farbe, die ersetzt wird. Nur lesbare Farbe.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Farbe, die ersetzt wird. Nur-Lese-Farbe.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 
 ## IColorChangeEffectiveData.ToColor-Eigenschaft
 
-Farbe, die ersetzt wird. Nur lesbare Farbe.
+Farbe, die ersetzt wird. Nur-Lese-Farbe.
 
 ```csharp
 public Color ToColor { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IColorChangeEffectiveData](../../icolorchangeeffectivedata)
 * Namespace [Aspose.Slides.Effects](../../icolorchangeeffectivedata)

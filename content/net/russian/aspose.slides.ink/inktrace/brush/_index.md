@@ -1,15 +1,15 @@
 ---
 title: Brush
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает кисть для IInkLine IInkBrushaspose.slides/iinkbrush только для чтения.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Получает Brush для IInkLine IInkBrushaspose.slides.ink/iinkbrush Только для чтения.
 type: docs
 weight: 10
 url: /ru/aspose.slides.ink/inktrace/brush/
 ---
 
-## Свойство InkTrace.Brush
+## InkTrace.Brush свойство
 
-Получает кисть для IInkLine [`IInkBrush`](../../iinkbrush) только для чтения.
+Получает Brush для IInkLine [`IInkBrush`](../../iinkbrush) Только для чтения.
 
 ```csharp
 public IInkBrush Brush { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IInkBrush](../../iinkbrush)
 * класс [InkTrace](../../inktrace)

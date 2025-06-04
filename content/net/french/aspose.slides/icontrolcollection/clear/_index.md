@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Supprime tous les contrôles de la collection.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Supprime tous les contrôles de la collection.
 public void Clear()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IControlCollection](../../icontrolcollection)
 * namespace [Aspose.Slides](../../icontrolcollection)

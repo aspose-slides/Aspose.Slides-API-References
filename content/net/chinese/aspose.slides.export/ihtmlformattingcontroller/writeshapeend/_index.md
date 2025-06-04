@@ -1,7 +1,7 @@
 ---
 title: WriteShapeEnd
 second_title: Aspose.Sildes for .NET API Reference
-description: 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，当前幻灯片图像生成将结束，添加的 HTML 片段将插入，新图像将开始在前一个图像的顶部。
+description: 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，添加的 HTML 片段将插入，并将在之前的图像顶部开始新的图像。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/ihtmlformattingcontroller/writeshapeend/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ihtmlformattingcontroller/writeshapeend/
 
 ## IHtmlFormattingController.WriteShapeEnd 方法
 
-在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，当前幻灯片图像生成将结束，添加的 HTML 片段将插入，新图像将开始在前一个图像的顶部。
+在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，添加的 HTML 片段将插入，并将在之前的图像顶部开始新的图像。
 
 ```csharp
 public void WriteShapeEnd(IHtmlGenerator generator, IShape shape)
@@ -20,7 +20,7 @@ public void WriteShapeEnd(IHtmlGenerator generator, IShape shape)
 | generator | IHtmlGenerator | 输出对象。 |
 | shape | IShape | 最后渲染的形状。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 接口 [IShape](../../../aspose.slides/ishape)

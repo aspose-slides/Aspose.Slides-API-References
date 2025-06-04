@@ -1,6 +1,6 @@
 ---
 title: PptxEditException
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/pptxeditexception/pptxeditexception/
 public PptxEditException()
 ```
 
-### 另请参阅
+### 另见
 
 * class [PptxEditException](../../pptxeditexception)
 * namespace [Aspose.Slides](../../pptxeditexception)
@@ -35,7 +35,7 @@ public PptxEditException(string message)
 | --- | --- | --- |
 | message | String | 消息 |
 
-### 另请参阅
+### 另见
 
 * class [PptxEditException](../../pptxeditexception)
 * namespace [Aspose.Slides](../../pptxeditexception)
@@ -56,7 +56,7 @@ public PptxEditException(string message, Exception exception)
 | message | String | 消息 |
 | exception | Exception | 原始异常 |
 
-### 另请参阅
+### 另见
 
 * class [PptxEditException](../../pptxeditexception)
 * namespace [Aspose.Slides](../../pptxeditexception)

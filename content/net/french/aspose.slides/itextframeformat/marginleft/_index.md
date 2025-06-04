@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit les points de marge gauche dans un TextFrame. Lecture/écriture Double.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Renvoie ou définit les points de la marge gauche dans un TextFrame. Lecture/écriture Double.
 type: docs
 weight: 80
 url: /fr/aspose.slides/itextframeformat/marginleft/

@@ -1,7 +1,7 @@
 ---
 title: IsPasswordProtected
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient une valeur qui indique si une présentation liée est protégée par un mot de passe pour l'ouvrir.
+description: Obtient une valeur qui indique si une présentation liée est protégée par un mot de passe pour s'ouvrir.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ipresentationinfo/ispasswordprotected/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentationinfo/ispasswordprotected/
 
 ## Propriété IPresentationInfo.IsPasswordProtected
 
-Obtient une valeur qui indique si une présentation liée est protégée par un mot de passe pour l'ouvrir.
+Obtient une valeur qui indique si une présentation liée est protégée par un mot de passe pour s'ouvrir.
 
 ```csharp
 public bool IsPasswordProtected { get; }
@@ -22,7 +22,7 @@ public bool IsPasswordProtected { get; }
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presentationFilePath);
 if (info.IsPasswordProtected)
 {
-    Console.WriteLine("La présentation '" + presentationFilePath + "' est protégée par un mot de passe pour l'ouvrir.");
+    Console.WriteLine("La présentation '" + presentationFilePath + "' est protégée par un mot de passe pour s'ouvrir.");
 }
 ```
 

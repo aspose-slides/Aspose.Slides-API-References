@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
-second_title: Aspose.Slides für .NET API Referenz
-description: Die Art des vertikalen Abstands zwischen Zeilen einer Matrix. Vertikale Abstandseinheiten können Linien oder Punkte als Twips gespeichert sein. Standard SingleSpacingGap 0
+second_title: Aspose.Slildes für .NET API-Referenz
+description: Die Art des vertikalen Abstands zwischen Zeilen einer Matrix. Die Einheiten für den vertikalen Abstand können Linien oder Punkte als Twips gespeichert sein. Standard SingleSpacingGap 0
 type: docs
 weight: 110
 url: /de/aspose.slides.mathtext/imathmatrix/rowgaprule/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathmatrix/rowgaprule/
 
 ## IMathMatrix.RowGapRule-Eigenschaft
 
-Die Art des vertikalen Abstands zwischen Zeilen einer Matrix; Vertikale Abstandseinheiten können Linien oder Punkte (als Twips gespeichert) sein. Standard: SingleSpacingGap (0)
+Die Art des vertikalen Abstands zwischen Zeilen einer Matrix; Die Einheiten für den vertikalen Abstand können Linien oder Punkte (als Twips gespeichert) sein. Standard: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules RowGapRule { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.RowGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * interface [IMathMatrix](../../imathmatrix)

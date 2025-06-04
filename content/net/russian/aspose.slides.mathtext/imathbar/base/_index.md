@@ -1,13 +1,13 @@
 ---
 title: Base
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathbar/base/
 ---
 
-## Свойство IMathBar.Base
+## IMathBar.Base свойство
 
 Базовый аргумент
 
@@ -25,7 +25,7 @@ IMathBar mathBar = new MathBar(new MathematicalText("x"));
 IMathElement base = mathBar.Base;
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathBar](../../imathbar)

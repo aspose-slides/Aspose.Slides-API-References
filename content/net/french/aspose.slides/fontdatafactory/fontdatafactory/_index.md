@@ -1,6 +1,6 @@
 ---
 title: FontDataFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Le constructeur par défaut.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public FontDataFactory()
 
 ### Voir aussi
 
-* classe [FontDataFactory](../../fontdatafactory)
+* class [FontDataFactory](../../fontdatafactory)
 * namespace [Aspose.Slides](../../fontdatafactory)
 * assembly [Aspose.Slides](../../../)
 

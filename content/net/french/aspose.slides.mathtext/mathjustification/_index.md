@@ -1,6 +1,6 @@
 ---
 title: MathJustification
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Spécifie la justification du paragraphe mathématique, une série d'instances adjacentes de texte mathématique dans le même paragraphe
 type: docs
 weight: 8540
@@ -22,9 +22,9 @@ public enum MathJustification
 | LeftJustified | `1` | Aligner le texte mathématique à gauche |
 | RightJustified | `2` | Aligner le texte mathématique à droite |
 | Centered | `3` | Aligner le texte mathématique au centre |
-| CenteredAsGroup | `4` | Centrer sur la page l'ensemble du groupe de blocs mathématiques en tant qu'unité unique. Cela signifie que les instances de texte mathématique peuvent être alignées les unes par rapport aux autres, mais l'ensemble du groupe de texte mathématique est centré dans son intégralité. |
+| CenteredAsGroup | `4` | Centrer sur la page l'ensemble du groupe de blocs mathématiques en une seule unité. Cela signifie que les instances de texte mathématique peuvent être alignées les unes par rapport aux autres, mais que l'ensemble du groupe de texte mathématique est centré dans son ensemble. |
 
-### Voir aussi
+### Voir Aussi
 
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

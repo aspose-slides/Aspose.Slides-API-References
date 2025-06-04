@@ -19,11 +19,11 @@ public interface IColorOffset
 
 | 名称 | 描述 |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 定义偏移的第一个值。可读写单精度浮点数。 |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 定义偏移的第二个值。可读写单精度浮点数。 |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 定义偏移的第三个值。可读写单精度浮点数。 |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 定义偏移的第一个值。可读写 Single。 |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 定义偏移的第二个值。可读写 Single。 |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 定义偏移的第三个值。可读写 Single。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

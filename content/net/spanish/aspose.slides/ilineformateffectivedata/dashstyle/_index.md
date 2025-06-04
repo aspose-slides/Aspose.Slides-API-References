@@ -1,25 +1,25 @@
 ---
 title: DashStyle
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve el estilo de línea discontinua. Solo lectura LineDashStyleaspose.slides/linedashstyle.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve el estilo de línea de guiones. Solo lectura LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 80
 url: /es/aspose.slides/ilineformateffectivedata/dashstyle/
 ---
 
-## Propiedad ILineFormatEffectiveData.DashStyle
+## ILineFormatEffectiveData.DashStyle propiedad
 
-Devuelve el estilo de línea discontinua. Solo lectura [`LineDashStyle`](../../linedashstyle).
+Devuelve el estilo de línea de guiones. Solo lectura [`LineDashStyle`](../../linedashstyle).
 
 ```csharp
 public LineDashStyle DashStyle { get; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [LineDashStyle](../../linedashstyle)
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
-* namespace [Aspose.Slides](../../ilineformateffectivedata)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* espacio de nombres [Aspose.Slides](../../ilineformateffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

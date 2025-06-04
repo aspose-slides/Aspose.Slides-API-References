@@ -1,7 +1,7 @@
 ---
 title: RotationY
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit le degré de rotation autour de l'axe Y, c'est-à-dire dans la direction X pour les graphiques 3D entre 0 et 360 degrés. La propriété correspond à l'élément 21.2.2.158 rotY Rotation Y dans ECMA-376 et à l'option "Rotation X" dans PowerPoint 2007. Lecture/écriture UInt16.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie ou définit le degré de rotation autour de l'axe Y, c'est-à-dire dans la direction X pour les graphiques 3D entre 0 et 360 degrés. La propriété correspond à l'élément 21.2.2.158 rotY rotation Y dans ECMA-376 et à l'option "Rotation X" dans PowerPoint 2007. Lecture/écriture UInt16.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/rotation3d/rotationy/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/rotation3d/rotationy/
 
 ## Propriété Rotation3D.RotationY
 
-Retourne ou définit le degré de rotation autour de l'axe Y, c'est-à-dire dans la direction X pour les graphiques 3D (entre 0 et 360 degrés). La propriété correspond à l'élément 21.2.2.158 rotY (Rotation Y) dans ECMA-376 et à l'option "Rotation X" dans PowerPoint 2007+. Lecture/écriture UInt16.
+Renvoie ou définit le degré de rotation autour de l'axe Y, c'est-à-dire dans la direction X pour les graphiques 3D (entre 0 et 360 degrés). La propriété correspond à l'élément 21.2.2.158 rotY (Rotation Y) dans ECMA-376 et à l'option "Rotation X" dans PowerPoint 2007+. Lecture/écriture UInt16.
 
 ```csharp
 public ushort RotationY { get; set; }
 ```
 
-### Voir également
+### Voir aussi
 
 * classe [Rotation3D](../../rotation3d)
 * espace de noms [Aspose.Slides.Charts](../../rotation3d)

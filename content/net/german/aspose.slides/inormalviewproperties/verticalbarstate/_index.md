@@ -1,7 +1,7 @@
 ---
 title: VerticalBarState
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Zustand an, in dem die vertikale Trennleiste angezeigt werden soll. Eine vertikale Trennleiste trennt die Folie vom Bereich für seitliche Inhalte.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Zustand an, in dem die vertikale Teilungsleiste angezeigt werden soll. Eine vertikale Teilungsleiste trennt die Folie vom Inhaltsbereich an der Seite.
 type: docs
 weight: 70
 url: /de/aspose.slides/inormalviewproperties/verticalbarstate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inormalviewproperties/verticalbarstate/
 
 ## INormalViewProperties.VerticalBarState-Eigenschaft
 
-Gibt den Zustand an, in dem die vertikale Trennleiste angezeigt werden soll. Eine vertikale Trennleiste trennt die Folie vom Bereich für seitliche Inhalte.
+Gibt den Zustand an, in dem die vertikale Teilungsleiste angezeigt werden soll. Eine vertikale Teilungsleiste trennt die Folie vom Inhaltsbereich an der Seite.
 
 ```csharp
 public SplitterBarStateType VerticalBarState { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: SetRange
-second_title: Référence API Aspose.Slides pour .NET
-description: Définir la plage de données du graphique. Les séries et les catégories seront mises à jour en fonction de la nouvelle plage de données. Si le nombre de séries dans la plage de données est supérieur au nombre de séries dans les données du graphique, des séries supplémentaires du même type que la dernière série de la collection actuelle seront ajoutées à la fin de la collection.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définir la plage de données du graphique. Les séries et les catégories seront mises à jour en fonction de la nouvelle plage de données. Si le nombre de séries dans la plage de données est supérieur au nombre de séries dans les données du graphique, alors des séries supplémentaires du même type que la dernière série dans la collection actuelle seront ajoutées à la fin de la collection.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/ichartdata/setrange/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdata/setrange/
 
 ## Méthode IChartData.SetRange
 
-Définir la plage de données du graphique. Les séries et les catégories seront mises à jour en fonction de la nouvelle plage de données. Si le nombre de séries dans la plage de données est supérieur au nombre de séries dans les données du graphique, des séries supplémentaires du même type que la dernière série de la collection actuelle seront ajoutées à la fin de la collection.
+Définir la plage de données du graphique. Les séries et les catégories seront mises à jour en fonction de la nouvelle plage de données. Si le nombre de séries dans la plage de données est supérieur au nombre de séries dans les données du graphique, alors des séries supplémentaires du même type que la dernière série dans la collection actuelle seront ajoutées à la fin de la collection.
 
 ```csharp
 public void SetRange(string formula)
@@ -17,7 +17,7 @@ public void SetRange(string formula)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| formula | String | La formule de la plage de données des cellules. Par ex : "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
+| formula | String | La formule de la plage de données des cellules. Par exemple : "Sheet1!$A$1:$C$4", "SomeSheetName!A1:B100", "Sheet1!$A$1:$B$5;Sheet1!$D$1:$D$5". |
 
 ### Exceptions
 

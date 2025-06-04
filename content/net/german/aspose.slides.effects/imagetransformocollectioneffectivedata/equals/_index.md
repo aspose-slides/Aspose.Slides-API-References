@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist.
 type: docs
 weight: 70
 url: /de/aspose.slides.effects/imagetransformocollectioneffectivedata/equals/
 ---
 
-## ImageTransformOCollectionEffectiveData.Equals Methode
+## ImageTransformOCollectionEffectiveData.Equals-Methode
 
 Bestimmt, ob das angegebene Objekt gleich dem aktuellen Objekt ist.
 
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 true, wenn das angegebene Objekt gleich dem aktuellen Objekt ist; andernfalls false.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * Namespace [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

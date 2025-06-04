@@ -21,7 +21,7 @@ public class FontScheme : IFontScheme
 | --- | --- |
 | [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Renvoie la collection de polices pour une partie "titre" de la diapositive. Lecture seule [`IFonts`](../../aspose.slides/ifonts). |
 | [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Renvoie la collection de polices pour une partie "corps" de la diapositive. Lecture seule [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Renvoie le nom du schéma de police. Lecture/écriture String. |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Renvoie le nom du schéma de polices. Lecture/écriture String. |
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除指定评论的第一次出现。
+second_title: Aspose.Sildes for .NET API Reference
+description: 删除集合中指定评论的第一个出现。
 type: docs
 weight: 130
 url: /zh/aspose.slides/commentcollection/remove/
@@ -9,24 +9,24 @@ url: /zh/aspose.slides/commentcollection/remove/
 
 ## CommentCollection.Remove 方法
 
-从集合中移除指定评论的第一次出现。
+删除集合中指定评论的第一个出现。
 
 ```csharp
 public void Remove(IComment comment)
 ```
 
-| 参数       | 类型       | 描述                          |
-| ---------- | ---------- | ----------------------------- |
-| comment    | IComment   | 要从集合中移除的评论。        |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| comment | IComment | 要从集合中删除的评论。 |
 
 ### 异常
 
-| 异常                    | 条件                             |
-| ----------------------- | -------------------------------- |
-| ArgumentNullException   | 如果 comment 为 `null`          |
+| 异常 | 条件 |
+| --- | --- |
+| ArgumentNullException | 如果评论为 `null` |
 | [PptxEditException](../../pptxeditexception) | 如果评论已经被删除，则抛出。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IComment](../../icomment)
 * 类 [CommentCollection](../../commentcollection)

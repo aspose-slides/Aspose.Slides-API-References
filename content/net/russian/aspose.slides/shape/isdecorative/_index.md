@@ -1,15 +1,15 @@
 ---
 title: IsDecorative
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает опцию 'Отметить как декоративный' Чтение/запись Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает опцию «Отметить как декоративный» чтение/запись Boolean.
 type: docs
 weight: 140
 url: /ru/aspose.slides/shape/isdecorative/
 ---
 
-## Свойство Shape.IsDecorative
+## Shape.IsDecorative свойство
 
-Получает или устанавливает опцию 'Отметить как декоративный' Чтение/запись Boolean.
+Получает или устанавливает опцию «Отметить как декоративный» чтение/запись Boolean.
 
 ```csharp
 public bool IsDecorative { get; set; }
@@ -24,7 +24,7 @@ using (Presentation pres = new Presentation("sample.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)

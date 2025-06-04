@@ -1,7 +1,7 @@
 ---
 title: SlidesText
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Un array de SlideTextaspose.slides/islidetext contiene el texto de una presentación.
+second_title: Aspose.Slides para referencia de API de .NET
+description: Un array de SlideText aspose.slides/islidetext contiene el texto de una presentación.
 type: docs
 weight: 10
 url: /es/aspose.slides/presentationtext/slidestext/
@@ -15,11 +15,11 @@ Un array de [`SlideText`](../../islidetext) contiene el texto de una presentaci�
 public ISlideText[] SlidesText { get; }
 ```
 
-### Véase también
+### Consulta También
 
 * interfaz [ISlideText](../../islidetext)
 * clase [PresentationText](../../presentationtext)
 * espacio de nombres [Aspose.Slides](../../presentationtext)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

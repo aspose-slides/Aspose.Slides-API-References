@@ -15,10 +15,10 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Vea También
+### Véase También
 
 * clase [CellCollection](../../cellcollection)
-* namespace [Aspose.Slides](../../cellcollection)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../cellcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

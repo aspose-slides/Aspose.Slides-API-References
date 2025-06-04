@@ -1,15 +1,15 @@
 ---
 title: AsISaveOptions
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das ISaveOptions-Schnittstelle zurück. Nur lesbare ISaveOptions aspose.slides.export/isaveoptions.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die ISaveOptions-Schnittstelle zurück. Nur lesbare ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/iswfoptions/asisaveoptions/
 ---
 
-## ISwfOptions.AsISaveOptions Eigenschaft
+## ISwfOptions.AsISaveOptions-Eigenschaft
 
-Gibt das ISaveOptions-Schnittstelle zurück. Nur lesbare [`ISaveOptions`](../../isaveoptions).
+Gibt die ISaveOptions-Schnittstelle zurück. Nur lesbare [`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
@@ -17,9 +17,9 @@ public ISaveOptions AsISaveOptions { get; }
 
 ### Bemerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISaveOptions](../../isaveoptions)
 * Schnittstelle [ISwfOptions](../../iswfoptions)

@@ -1,13 +1,13 @@
 ---
 title: FontBold
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定字体是否为粗体。只读布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ibaseportionformateffectivedata/fontbold/
 ---
 
-## IBasePortionFormatEffectiveData.FontBold 属性
+## IBasePortionFormatEffectiveData.FontBold property
 
 确定字体是否为粗体。只读布尔值。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/fontbold/
 public bool FontBold { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibaseportionformateffectivedata)

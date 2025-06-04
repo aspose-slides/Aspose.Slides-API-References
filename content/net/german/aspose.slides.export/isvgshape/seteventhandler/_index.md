@@ -15,10 +15,10 @@ Setzt den Ereignis-Handler für die Form
 public void SetEventHandler(SvgEvent eventType, string handler)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| eventType | SvgEvent | Typ des Ereignisses. |
-| handler | String | Javascript-Funktion zur Verarbeitung des Ereignisses. Null-Wert entfernt den Handler. |
+| Parameter  | Typ      | Beschreibung                             |
+|------------|----------|-----------------------------------------|
+| eventType  | SvgEvent | Art des Ereignisses.                    |
+| handler    | String   | Javascript-Funktion zur Verarbeitung des Ereignisses. Ein Nullwert entfernt den Handler. |
 
 ### Siehe auch
 

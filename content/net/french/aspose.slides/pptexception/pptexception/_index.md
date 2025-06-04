@@ -54,7 +54,7 @@ public PptException(string message, Exception exception)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | message | String | message |
-| exception | Exception | exception d'origine |
+| exception | Exception | exception originale |
 
 ### Voir aussi
 

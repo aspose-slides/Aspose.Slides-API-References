@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt Text für den Platzhalter für Datum und Uhrzeit der Layout-Folie sowie für alle untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layout-Folie ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt Text für den Platzhalter für Datum und Uhrzeit der Layout-Folie sowie für alle untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass die Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layout-Folie ab.
 type: docs
 weight: 10
 url: /de/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
 
-## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText-Methode
+## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText Methode
 
-Setzt Text für den Platzhalter für Datum und Uhrzeit der Layout-Folie sowie für alle untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layout-Folie ab.
+Setzt Text für den Platzhalter für Datum und Uhrzeit der Layout-Folie sowie für alle untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass die Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layout-Folie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)

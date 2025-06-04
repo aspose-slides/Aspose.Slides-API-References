@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMajorUnit
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Haupt Einheit der Achse automatisch zugewiesen wird. Lese-/Schreib-Boolescher Wert.
+description: Gibt an, ob die Haupteinheit der Achse automatisch zugewiesen wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/iaxis/isautomaticmajorunit/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/isautomaticmajorunit/
 
 ## IAxis.IsAutomaticMajorUnit-Eigenschaft
 
-Gibt an, ob die Haupt Einheit der Achse automatisch zugewiesen wird. Lese-/Schreib-Boolescher Wert.
+Gibt an, ob die Haupteinheit der Achse automatisch zugewiesen wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsAutomaticMajorUnit { get; set; }

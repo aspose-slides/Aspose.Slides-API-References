@@ -1,7 +1,7 @@
 ---
 title: Loop
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Bucle de presentación de diapositivas
+description: Presentación de diapositivas en bucle
 type: docs
 weight: 10
 url: /es/aspose.slides/slideshowsettings/loop/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/slideshowsettings/loop/
 
 ## Propiedad SlideShowSettings.Loop
 
-Bucle de presentación de diapositivas
+Presentación de diapositivas en bucle
 
 ```csharp
 public bool Loop { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [SlideShowSettings](../../slideshowsettings)
 * espacio de nombres [Aspose.Slides](../../slideshowsettings)

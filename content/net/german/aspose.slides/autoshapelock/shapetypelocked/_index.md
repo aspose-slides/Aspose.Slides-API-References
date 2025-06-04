@@ -1,7 +1,7 @@
 ---
 title: ShapeTypeLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine Änderung des Formttyps verboten ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-/Schreib Boolean.
 type: docs
 weight: 90
 url: /de/aspose.slides/autoshapelock/shapetypelocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/autoshapelock/shapetypelocked/
 
 ## AutoShapeLock.ShapeTypeLocked-Eigenschaft
 
-Bestimmt, ob eine Änderung des Formttyps verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob eine Änderung des Formtyps verboten ist. Lese-/Schreib Boolean.
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [AutoShapeLock](../../autoshapelock)
 * Namespace [Aspose.Slides](../../autoshapelock)

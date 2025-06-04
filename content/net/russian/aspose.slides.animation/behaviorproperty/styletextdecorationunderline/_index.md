@@ -1,13 +1,13 @@
 ---
 title: StyleTextDecorationUnderline
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойство style.textDecorationUnderline
 type: docs
 weight: 1140
 url: /ru/aspose.slides.animation/behaviorproperty/styletextdecorationunderline/
 ---
 
-## Свойство BehaviorProperty.StyleTextDecorationUnderline
+## BehaviorProperty.StyleTextDecorationUnderline свойство
 
 Представляет свойство 'style.textDecorationUnderline'
 

@@ -1,7 +1,7 @@
 ---
 title: Series
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les séries. Lecture seule IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
+second_title: Aspose.Slides pour .NET Référence API
+description: Obtient les séries. Lecture seule IChartSeriesCollection aspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartdata/series/

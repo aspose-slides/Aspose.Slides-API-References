@@ -1,15 +1,15 @@
 ---
 title: Compress
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Gruppe von Methoden dar, die zur Komprimierung von Presentation../aspose.slides/presentation bestimmt sind.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine Gruppe von Methoden dar, die dazu bestimmt sind, Präsentationen zu komprimieren../aspose.slides/presentation.
 type: docs
 weight: 7630
 url: /de/aspose.slides.lowcode/compress/
 ---
 
-## Komprimieren-Klasse
+## Compress-Klasse
 
-Stellt eine Gruppe von Methoden dar, die zur Komprimierung von [`Presentation`](../../aspose.slides/presentation) bestimmt sind.
+Stellt eine Gruppe von Methoden dar, die dazu bestimmt sind, [`Presentation`](../../aspose.slides/presentation) zu komprimieren.
 
 ```csharp
 public static class Compress

@@ -1,7 +1,7 @@
 ---
 title: ExtrusionColor
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Eigenschaft extrusion.color dar
+description: Stellt die Eigenschaft 'extrusion.color' dar
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/behaviorproperty/extrusioncolor/

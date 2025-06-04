@@ -1,7 +1,7 @@
 ---
 title: ShowLabelValueFromCell
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente le comportement d'affichage de la valeur de la cellule de l'étiquette de données d'un graphique spécifié. True affiche la valeur de la cellule. False pour cacher. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un comportement d'affichage de la valeur de cellule de l'étiquette de données d'un graphique spécifié. True affiche la valeur de la cellule. False pour masquer. Boolean en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/datalabelformat/showlabelvaluefromcell/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datalabelformat/showlabelvaluefromcell/
 
 ## Propriété DataLabelFormat.ShowLabelValueFromCell
 
-Représente le comportement d'affichage de la valeur de la cellule de l'étiquette de données d'un graphique spécifié. True affiche la valeur de la cellule. False pour cacher. Booléen en lecture/écriture.
+Représente un comportement d'affichage de la valeur de cellule de l'étiquette de données d'un graphique spécifié. True affiche la valeur de la cellule. False pour masquer. Boolean en lecture/écriture.
 
 ```csharp
 public bool ShowLabelValueFromCell { get; set; }
@@ -17,9 +17,9 @@ public bool ShowLabelValueFromCell { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLabelValueFromCell pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLabelValueFromCell pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.ShowLabelValueFromCell = val;" entraîne que toutes les DataLabels[i].ShowLabelValueFromCell sont égales à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLabelValueFromCell pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLabelValueFromCell de toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowLabelValueFromCell = val;" cause que toutes les DataLabels[i].ShowLabelValueFromCell soient égales à val).
 
-### Voir aussi
+### Voir Aussi
 
 * classe [DataLabelFormat](../../datalabelformat)
 * espace de noms [Aspose.Slides.Charts](../../datalabelformat)

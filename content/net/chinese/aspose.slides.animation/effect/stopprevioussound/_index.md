@@ -1,7 +1,7 @@
 ---
 title: StopPreviousSound
-second_title: Aspose.Slides for .NET API 参考
-description: 此属性指定动画效果是否停止前一个声音。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 此属性指定动画效果是否停止之前的声音。可读/写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides.animation/effect/stopprevioussound/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/effect/stopprevioussound/
 
 ## Effect.StopPreviousSound 属性
 
-此属性指定动画效果是否停止前一个声音。可读写布尔值。
+此属性指定动画效果是否停止之前的声音。可读/写布尔值。
 
 ```csharp
 public bool StopPreviousSound { get; set; }
@@ -29,7 +29,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
        
     if (firstSlideEffect.Sound != null)
     {
-        // 将第二个效果的增强/声音更改为“停止前一个声音”
+        // 将第二个效果的 Enhancements/Sound 更改为“停止之前的声音”
         secondSlideEffect.StopPreviousSound = true;
     }
 }

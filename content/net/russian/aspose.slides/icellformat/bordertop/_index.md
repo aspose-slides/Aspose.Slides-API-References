@@ -7,7 +7,7 @@ weight: 60
 url: /ru/aspose.slides/icellformat/bordertop/
 ---
 
-## Свойство ICellFormat.BorderTop
+## ICellFormat.BorderTop свойство
 
 Возвращает объект свойств верхней границы линии. Только для чтения [`ILineFormat`](../../ilineformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icellformat/bordertop/
 public ILineFormat BorderTop { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ILineFormat](../../ilineformat)
 * интерфейс [ICellFormat](../../icellformat)

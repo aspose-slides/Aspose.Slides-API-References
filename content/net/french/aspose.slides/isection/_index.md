@@ -1,6 +1,6 @@
 ---
 title: ISection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une section de diapositives.
 type: docs
 weight: 6690
@@ -20,14 +20,14 @@ public interface ISection
 | Nom | Description |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Nom de la section. |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Identifiant de la section. |
-| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Renvoie la première diapositive de la section. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | ID de la section. |
+| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Retourne la première diapositive de la section. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Renvoie la liste des diapositives dans la section. |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Retourne la liste des diapositives dans la section. |
 
 ### Voir aussi
 

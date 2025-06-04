@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果 chartType 是 Bubble 子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（参见 PowerPoint 中的“更改图表类型”对话框）：Bubble, BubbleWith3D。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果chartType是某个气泡子类型，则返回true。子类型集合对应于PowerPoint中的相应集合（请参见PowerPoint中的“更改图表类型”对话框）：气泡、带3D的气泡。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/
 
 ## ChartTypeCharacterizer.IsChartTypeBubble 方法
 
-如果 chartType 是 Bubble 子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（参见“更改图表类型”对话框）：Bubble, BubbleWith3D。
+如果chartType是某个气泡子类型，则返回true。子类型集合对应于PowerPoint中的相应集合（请参见“更改图表类型”对话框）：气泡、带3D的气泡。
 
 ```csharp
 public static bool IsChartTypeBubble(ChartType chartType)

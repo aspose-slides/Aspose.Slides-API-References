@@ -1,7 +1,7 @@
 ---
 title: Volume
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Audio-Lautstärke zurück oder setzt sie. Lese-/Schreibzugriff auf AudioVolumeModeaspose.slides/audiovolumemode.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Audio-Lautstärke zurück oder legt sie fest. Lese-/Schreibzugriff auf AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs
 weight: 110
 url: /de/aspose.slides/videoframe/volume/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/videoframe/volume/
 
 ## VideoFrame.Volume-Eigenschaft
 
-Gibt die Audio-Lautstärke zurück oder setzt sie. Lese-/Schreibzugriff auf [`AudioVolumeMode`](../../audiovolumemode).
+Gibt die Audio-Lautstärke zurück oder legt sie fest. Lese-/Schreibzugriff auf [`AudioVolumeMode`](../../audiovolumemode).
 
 ```csharp
 public AudioVolumeMode Volume { get; set; }

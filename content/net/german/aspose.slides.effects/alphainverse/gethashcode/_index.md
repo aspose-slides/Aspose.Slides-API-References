@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Rückgabewert
 
-Ein Hashcode für das aktuelle Objekt.
+Ein Hash-Code für das aktuelle Objekt.
 
 ### Siehe auch
 

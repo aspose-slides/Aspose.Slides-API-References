@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime le tag avec un nom spécifié de la collection.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Supprime la balise avec un nom spécifié de la collection.
 type: docs
 weight: 90
 url: /fr/aspose.slides/itagcollection/remove/
 ---
 
-## Méthode ITagCollection.Remove
+## ITagCollection.Remove méthode
 
-Supprime le tag avec un nom spécifié de la collection.
+Supprime la balise avec un nom spécifié de la collection.
 
 ```csharp
 public void Remove(string name)
@@ -17,7 +17,7 @@ public void Remove(string name)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| name | String | Le nom du tag à supprimer. |
+| name | String | Le nom de la balise à supprimer. |
 
 ### Voir aussi
 

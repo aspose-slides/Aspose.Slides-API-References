@@ -1,6 +1,6 @@
 ---
 title: ReplaceFontCondition
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Правило для применения замены Read-only FontSubstConditionaspose.slides/fontsubstcondition.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ifontsubstrule/replacefontcondition/
 public FontSubstCondition ReplaceFontCondition { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * enum [FontSubstCondition](../../fontsubstcondition)
 * interface [IFontSubstRule](../../ifontsubstrule)

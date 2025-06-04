@@ -1,6 +1,6 @@
 ---
 title: AsIImageTransformOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Permet d'obtenir l'interface de base IImageTransformOperation. IImageTransformOperation en lecture seule aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ireflection/asiimagetransformoperation/
 
 ## IReflection.AsIImageTransformOperation propriété
 
-Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
+Permet d'obtenir l'interface de base IImageTransformOperation. [`IImageTransformOperation`](../../iimagetransformoperation) en lecture seule.
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImageTransformOperation](../../iimagetransformoperation)
 * interface [IReflection](../../ireflection)

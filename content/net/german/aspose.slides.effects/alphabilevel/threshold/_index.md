@@ -1,7 +1,7 @@
 ---
 title: Threshold
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Effekt-Schwelle zurück. Lese-/schreibbar Single.
+description: Gibt den Effekt-Threshold zurück. Lese-/Schreib-Single.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/alphabilevel/threshold/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/alphabilevel/threshold/
 
 ## AlphaBiLevel.Threshold-Eigenschaft
 
-Gibt die Effekt-Schwelle zurück. Lese-/schreibbar Single.
+Gibt den Effekt-Threshold zurück. Lese-/Schreib-Single.
 
 ```csharp
 public float Threshold { get; set; }

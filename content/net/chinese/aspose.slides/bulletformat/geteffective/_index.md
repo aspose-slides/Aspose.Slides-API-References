@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效项目符号格式数据。
 type: docs
 weight: 120
@@ -21,7 +21,7 @@ public IBulletFormatEffectiveData GetEffective()
 
 ### 示例
 
-此示例演示了获取一些有效项目符号格式属性。
+此示例演示如何获取一些有效的项目符号格式属性。
 
 ```csharp
 [C#]

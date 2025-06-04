@@ -1,7 +1,7 @@
 ---
 title: ColorOffset
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representar el desplazamiento de color.
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Representa el desplazamiento de color.
 type: docs
 weight: 160
 url: /es/aspose.slides.animation/coloroffset/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/coloroffset/
 
 ## Clase ColorOffset
 
-Representar el desplazamiento de color.
+Representa el desplazamiento de color.
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -19,7 +19,7 @@ public class ColorOffset : IColorOffset
 
 | Nombre | Descripción |
 | --- | --- |
-| [ColorOffset](coloroffset)() | El constructor por defecto. |
+| [ColorOffset](coloroffset)() | El constructor predeterminado. |
 
 ## Propiedades
 

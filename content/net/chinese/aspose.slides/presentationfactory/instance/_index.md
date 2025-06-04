@@ -1,6 +1,6 @@
 ---
 title: Instance
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 演示文稿工厂静态实例。只读 PresentationFactoryaspose.slides/presentationfactory。
 type: docs
 weight: 20

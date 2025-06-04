@@ -1,6 +1,6 @@
 ---
 title: ToArray
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建并返回一个包含所有作者的数组。
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public ICommentAuthor[] ToArray()
 
 [`ICommentAuthor`](../../icommentauthor) 的数组
 
-### 另见
+### 另请参阅
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 接口 [ICommentAuthorCollection](../../icommentauthorcollection)

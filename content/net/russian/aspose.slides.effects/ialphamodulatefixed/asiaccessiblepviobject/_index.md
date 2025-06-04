@@ -1,13 +1,13 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Sildes для .NET API Reference
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
 ---
 
-## Свойство IAlphaModulateFixed.AsIAccessiblePVIObject
+## IAlphaModulateFixed.AsIAccessiblePVIObject свойство
 
 Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
@@ -15,8 +15,8 @@ url: /ru/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
 public IAccessiblePVIObject<IAlphaModulateFixedEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Дополнительно
-
+### Также см.
+ 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
 * интерфейс [IAlphaModulateFixed](../../ialphamodulatefixed)

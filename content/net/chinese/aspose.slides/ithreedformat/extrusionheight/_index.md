@@ -1,7 +1,7 @@
 ---
 title: ExtrusionHeight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置挤出效果的高度。可读写的 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置挤压效果的高度。可读写的双精度浮点数。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ithreedformat/extrusionheight/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ithreedformat/extrusionheight/
 
 ## IThreeDFormat.ExtrusionHeight 属性
 
-返回或设置挤出效果的高度。可读写的 Double。
+返回或设置挤压效果的高度。可读写的双精度浮点数。
 
 ```csharp
 public double ExtrusionHeight { get; set; }

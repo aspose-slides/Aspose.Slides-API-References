@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve o establece el tipo de gráfico. Lectura/escritura ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 220
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de gráfico. Lectura/escritura [`ChartType`](../../
 public ChartType Type { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * enum [ChartType](../../charttype)
 * interface [IChart](../../ichart)

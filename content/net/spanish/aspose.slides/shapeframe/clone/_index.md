@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapeframe/clone/
 
 ## Método ShapeFrame.Clone
 
-Clona
+Clones
 
 ```csharp
 public object Clone()

@@ -1,7 +1,7 @@
 ---
 title: FromColor
-second_title: Aspose.Sildes for .NET API Reference
-description: 将被替换的颜色。只读 IColorFormat aspose.slides/icolorformat。
+second_title: Aspose.Slides for .NET API Reference
+description: 将被替换的颜色。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/colorchange/fromcolor/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/colorchange/fromcolor/
 public IColorFormat FromColor { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 类 [ColorChange](../../colorchange)

@@ -1,7 +1,7 @@
 ---
 title: Slide
-second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的父幻灯片。只读 IBaseSlide aspose.slides/ibaseslide。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回单元格的父幻灯片。只读 IBaseSlideaspose.slides/ibaseslide。
 type: docs
 weight: 190
 url: /zh/aspose.slides/cell/slide/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/cell/slide/
 public IBaseSlide Slide { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 类 [Cell](../../cell)

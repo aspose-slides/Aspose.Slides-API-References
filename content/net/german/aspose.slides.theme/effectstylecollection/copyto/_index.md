@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Ziel-Array. |
 | index | Int32 | Startindex im Ziel-Array. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [EffectStyleCollection](../../effectstylecollection)
 * Namespace [Aspose.Slides.Theme](../../effectstylecollection)

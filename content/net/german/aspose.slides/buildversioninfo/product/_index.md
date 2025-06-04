@@ -1,6 +1,6 @@
 ---
 title: Product
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Produktname von Aspose.Slides
 type: docs
 weight: 30

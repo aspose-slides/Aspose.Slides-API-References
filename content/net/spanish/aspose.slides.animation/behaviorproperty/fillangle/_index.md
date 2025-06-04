@@ -1,6 +1,6 @@
 ---
 title: FillAngle
-second_title: Aspose.Slides para .NET API Reference
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad fill.angle
 type: docs
 weight: 270

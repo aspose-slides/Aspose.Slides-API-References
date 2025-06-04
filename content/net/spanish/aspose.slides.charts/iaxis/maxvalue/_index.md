@@ -15,10 +15,10 @@ Representa el valor máximo en el eje de valores. Lectura/escritura Double.
 public double MaxValue { get; set; }
 ```
 
-### Véase también
+### Vea también
 
-* interfaz [IAxis](../../iaxis)
-* espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAxis](../../iaxis)
+* espacio de nombres [Aspose.Slides.Charts](../../iaxis)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

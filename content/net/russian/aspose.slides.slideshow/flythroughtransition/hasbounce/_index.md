@@ -1,21 +1,21 @@
 ---
 title: HasBounce
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, что движение слайдов презентации во время перехода включает в себя отскок. Читаемый/записываемый булевый тип.
+second_title: Aspose.Slide для .NET API Reference
+description: Указывает, что движение слайдов презентации во время перехода включает в себя подпрыгивание. Свойство типа Boolean для чтения и записи.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/flythroughtransition/hasbounce/
 ---
 
-## Свойство FlyThroughTransition.HasBounce
+## FlyThroughTransition.HasBounce свойство
 
-Указывает, что движение слайдов презентации во время перехода включает в себя отскок. Читаемый/записываемый булевый тип.
+Указывает, что движение слайдов презентации во время перехода включает в себя подпрыгивание. Свойство типа Boolean для чтения и записи.
 
 ```csharp
 public bool HasBounce { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [FlyThroughTransition](../../flythroughtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../flythroughtransition)

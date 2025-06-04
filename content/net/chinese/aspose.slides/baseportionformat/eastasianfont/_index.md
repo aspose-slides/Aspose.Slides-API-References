@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置东亚字体信息。null表示字体未定义，应从母版继承。可读/可写 IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置东亚字体信息。空值表示字体未定义，应从母版继承。可读/写 IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /zh/aspose.slides/baseportionformat/eastasianfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/eastasianfont/
 
 ## BasePortionFormat.EastAsianFont 属性
 
-返回或设置东亚字体信息。null表示字体未定义，应从母版继承。可读/可写 [`IFontData`](../../ifontdata).
+返回或设置东亚字体信息。空值表示字体未定义，应从母版继承。可读/写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData EastAsianFont { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [BasePortionFormat](../../baseportionformat)

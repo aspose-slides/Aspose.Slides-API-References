@@ -1,7 +1,7 @@
 ---
 title: ShowMinorGridLines
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente si les lignes de grille mineures sont affichées. Boolean en lecture seule.
+description: Représente si les lignes de grille mineures sont affichées. Valeur Boolean en lecture seule.
 type: docs
 weight: 490
 url: /fr/aspose.slides.charts/iaxis/showminorgridlines/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/iaxis/showminorgridlines/
 
 ## Propriété IAxis.ShowMinorGridLines
 
-Représente si les lignes de grille mineures sont affichées. Boolean en lecture seule.
+Représente si les lignes de grille mineures sont affichées. Valeur Boolean en lecture seule.
 
 ```csharp
 public bool ShowMinorGridLines { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

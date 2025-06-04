@@ -1,7 +1,7 @@
 ---
 title: HideSubscript
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Masquer le sous-script
+description: Masquer l'indice
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript/
 
 ## Propriété IMathNaryOperatorProperties.HideSubscript
 
-Masquer le sous-script
+Masquer l'indice
 
 ```csharp
 public bool HideSubscript { get; set; }
@@ -17,7 +17,7 @@ public bool HideSubscript { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

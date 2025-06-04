@@ -1,6 +1,6 @@
 ---
 title: Images
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Métodos para instanciar y trabajar con IImage./iimage.
 type: docs
 weight: 7240
@@ -21,11 +21,11 @@ public static class Images
 | --- | --- |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Crear una imagen a partir del archivo. |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Crear una imagen a partir del archivo. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Crear una imagen a partir del flujo. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Crear una imagen a partir del flujo. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Crear una imagen a partir del flujo. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Crear una imagen a partir del stream. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Crear una imagen a partir del stream. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Crear una imagen a partir del stream. |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

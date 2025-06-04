@@ -1,25 +1,25 @@
----
+---  
 title: Effect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve efectos utilizados para un eje. Solo lectura IEffectFormataspose.slides/ieffectformat.
-type: docs
-weight: 10
+second_title: Aspose.Slides para .NET API Reference  
+description: Devuelve los efectos utilizados para un eje. Solo lectura IEffectFormataspose.slides/ieffectformat.
+type: docs  
+weight: 10  
 url: /es/aspose.slides.charts/iaxisformat/effect/
----
+---  
 
-## Propiedad IAxisFormat.Effect
+## Propiedad IAxisFormat.Effect  
 
-Devuelve efectos utilizados para un eje. Solo lectura [`IEffectFormat`](../../../aspose.slides/ieffectformat).
+Devuelve los efectos utilizados para un eje. Solo lectura [`IEffectFormat`](../../../aspose.slides/ieffectformat).  
 
-```csharp
-public IEffectFormat Effect { get; }
-```
+```csharp  
+public IEffectFormat Effect { get; }  
+```  
 
-### Véase también
+### Ver También  
 
-* interfaz [IEffectFormat](../../../aspose.slides/ieffectformat)
-* interfaz [IAxisFormat](../../iaxisformat)
-* espacio de nombres [Aspose.Slides.Charts](../../iaxisformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IEffectFormat](../../../aspose.slides/ieffectformat)  
+* interfaz [IAxisFormat](../../iaxisformat)  
+* espacio de nombres [Aspose.Slides.Charts](../../iaxisformat)  
+* ensamblaje [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

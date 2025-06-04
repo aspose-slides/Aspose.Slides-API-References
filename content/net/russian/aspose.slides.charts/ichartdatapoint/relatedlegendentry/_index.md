@@ -1,21 +1,21 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Slides для .NET API Справочник
-description: Свойства соответствующего элемента легенды в случае типа диаграммы из этого списка ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Только для чтения ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+second_title: Aspose.Slides для .NET API Reference
+description: Свойства соответствующей записи легенды в случае типа диаграммы из этого списка ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Только для чтения ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
 
-## IChartDataPoint.RelatedLegendEntry свойство
+## IChartDataPoint.RelatedLegendEntry property
 
-Свойства соответствующего элемента легенды в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Только для чтения [`ILegendEntryProperties`](../../ilegendentryproperties).
+Свойства соответствующей записи легенды в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Только для чтения [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ILegendEntryProperties](../../ilegendentryproperties)
 * интерфейс [IChartDataPoint](../../ichartdatapoint)

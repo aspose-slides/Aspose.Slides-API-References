@@ -1,7 +1,7 @@
 ---
 title: Pattern
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Form der visuellen Elemente an, die während der Übergangs verwendet werden. Lese-/Schreibzugriff auf TransitionPatternaspose.slides.slideshow/transitionpattern.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Form der visuellen Elemente an, die während der Übergangs verwendet werden. Lesen/Schreiben TransitionPattern aspose.slides.slideshow/transitionpattern.
 type: docs
 weight: 30
 url: /de/aspose.slides.slideshow/iglittertransition/pattern/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.slideshow/iglittertransition/pattern/
 
 ## IGlitterTransition.Pattern-Eigenschaft
 
-Gibt die Form der visuellen Elemente an, die während des Übergangs verwendet werden. Lese-/Schreibzugriff auf [`TransitionPattern`](../../transitionpattern).
+Gibt die Form der visuellen Elemente an, die während des Übergangs verwendet werden. Lesen/Schreiben [`TransitionPattern`](../../transitionpattern).
 
 ```csharp
 public TransitionPattern Pattern { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionPattern](../../transitionpattern)
 * interface [IGlitterTransition](../../iglittertransition)

@@ -1,13 +1,13 @@
 ---
 title: BorderDiagonalDown
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un objeto de propiedades de línea diagonal de arriba a la izquierda a abajo a la derecha. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 20
 url: /es/aspose.slides/icellformat/borderdiagonaldown/
 ---
 
-## Propiedad ICellFormat.BorderDiagonalDown
+## ICellFormat.BorderDiagonalDown property
 
 Devuelve un objeto de propiedades de línea diagonal de arriba a la izquierda a abajo a la derecha. Solo lectura [`ILineFormat`](../../ilineformat).
 
@@ -15,7 +15,7 @@ Devuelve un objeto de propiedades de línea diagonal de arriba a la izquierda a 
 public ILineFormat BorderDiagonalDown { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILineFormat](../../ilineformat)
 * interfaz [ICellFormat](../../icellformat)

@@ -1,13 +1,13 @@
 ---
 title: SoftEdgeEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Bord doux. Données ISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata en lecture seule.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ieffectformateffectivedata/softedgeeffect/
 ---
 
-## Propriété IEffectFormatEffectiveData.SoftEdgeEffect
+## IEffectFormatEffectiveData.SoftEdgeEffect propriété
 
 Bord doux. Données [`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata) en lecture seule.
 
@@ -15,7 +15,7 @@ Bord doux. Données [`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/is
 public ISoftEdgeEffectiveData SoftEdgeEffect { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISoftEdgeEffectiveData](../../../aspose.slides.effects/isoftedgeeffectivedata)
 * interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

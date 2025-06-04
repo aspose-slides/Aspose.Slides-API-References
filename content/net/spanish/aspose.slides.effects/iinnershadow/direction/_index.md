@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Dirección de la sombra. Lectura/escritura Simple.
 type: docs
 weight: 40
@@ -15,10 +15,10 @@ Dirección de la sombra. Lectura/escritura Simple.
 public float Direction { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IInnerShadow](../../iinnershadow)
-* espacio de nombres [Aspose.Slides.Effects](../../iinnershadow)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IInnerShadow](../../iinnershadow)
+* espacio de nombres [Aspose.Slides.Effects](../../iinnershadow)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

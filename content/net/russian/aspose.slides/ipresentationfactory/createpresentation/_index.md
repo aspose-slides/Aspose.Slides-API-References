@@ -1,6 +1,6 @@
 ---
 title: CreatePresentation
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новую презентацию.
 type: docs
 weight: 10

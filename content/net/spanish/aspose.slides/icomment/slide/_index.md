@@ -15,7 +15,7 @@ Devuelve o establece la diapositiva principal de un comentario. Solo lectura [`I
 public ISlide Slide { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlide](../../islide)
 * interfaz [IComment](../../icomment)

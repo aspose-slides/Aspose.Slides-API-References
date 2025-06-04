@@ -1,7 +1,7 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник
-description: Неизменяемый объект, который содержит свойства табуляции эффективного текста.
+description: Невозможный объект, который содержит свойства табуляции эффективного текста.
 type: docs
 weight: 6990
 url: /ru/aspose.slides/itabeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itabeffectivedata/
 
 ## Интерфейс ITabEffectiveData
 
-Неизменяемый объект, который содержит свойства табуляции эффективного текста.
+Невозможный объект, который содержит свойства табуляции эффективного текста.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -17,17 +17,17 @@ public interface ITabEffectiveData : IComparable
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Возвращает стиль выравнивания табуляции. Только для чтения [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтения IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию табуляции. Присвоение этому свойству может изменить индекс табуляции в коллекции и недействительным сделать перечислитель. Только для чтения Double. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию табуляции. Присвоение этого свойства может изменить индекс табуляции в коллекции и сделать Enumerator недействительным. Только для чтения Double. |
 
-### Замечания
+### Примечания
 
-Этот интерфейс используется в качестве части [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+Этот интерфейс используется как часть [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

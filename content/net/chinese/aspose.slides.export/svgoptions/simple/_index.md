@@ -1,7 +1,7 @@
 ---
 title: Simple
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于生成最简单和最小的 SVG 文件的设置。为只读 SVGOptionsaspose.slides/svgoptions。
+description: 返回用于生成最简单和最小SVG文件的设置。只读 SVGOptionsaspose.slides.export/svgoptions。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/svgoptions/simple/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/svgoptions/simple/
 
 ## SVGOptions.Simple 属性
 
-返回用于生成最简单和最小的 SVG 文件的设置。为只读 [`SVGOptions`](../../svgoptions)。
+返回用于生成最简单和最小SVG文件的设置。只读 [`SVGOptions`](../../svgoptions)。
 
 ```csharp
 public static SVGOptions Simple { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [SVGOptions](../../svgoptions)
 * 命名空间 [Aspose.Slides.Export](../../svgoptions)

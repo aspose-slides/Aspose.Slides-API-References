@@ -1,6 +1,6 @@
 ---
 title: AddModernComment
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 在集合的末尾添加新的现代评论。
 type: docs
 weight: 30
@@ -18,10 +18,10 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| text | 字符串 | 新的现代评论的纯文本。 |
-| slide | ISlide | 在演示文稿中要添加新的现代评论的幻灯片。 |
-| shape | IShape | 与新的现代评论关联的幻灯片上的形状。 |
-| position | PointF | 在幻灯片上添加新的现代评论的位置。 |
+| text | String | 新现代评论的纯文本。 |
+| slide | ISlide | 在演示文稿中添加新现代评论的幻灯片。 |
+| shape | IShape | 与新现代评论相关联的幻灯片中的形状。 |
+| position | PointF | 在幻灯片上添加新现代评论的位置。 |
 | creationTime | DateTime | 现代评论创建的时间。 |
 
 ### 返回值
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IModernComment](../../imoderncomment)
 * 接口 [ISlide](../../islide)

@@ -1,7 +1,7 @@
 ---
 title: WriteWorkbookStream
-second_title: Aspose.Sildes для .NET API Референс
-description: Инициализирует внутренне содержащуюся Excel книгу с заданным пользователем значением.
+second_title: Aspose.Slides для .NET API Справочник
+description: Инициализирует внутренне содержащуюся книгу Excel со значением, заданным пользователем.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/ichartdata/writeworkbookstream/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdata/writeworkbookstream/
 
 ## IChartData.WriteWorkbookStream метод
 
-Инициализирует внутренне содержащуюся Excel книгу с заданным пользователем значением.
+Инициализирует внутренне содержащуюся книгу Excel со значением, заданным пользователем.
 
 ```csharp
 public void WriteWorkbookStream(MemoryStream ms)
@@ -17,9 +17,9 @@ public void WriteWorkbookStream(MemoryStream ms)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ms | MemoryStream | Поток, предоставленный пользователем, содержащий всю Excel книгу. |
+| ms | MemoryStream | Переданный пользователем поток, содержащий всю книгу Excel. |
 
-### См. также
+### Также смотри
 
 * интерфейс [IChartData](../../ichartdata)
 * пространство имен [Aspose.Slides.Charts](../../ichartdata)

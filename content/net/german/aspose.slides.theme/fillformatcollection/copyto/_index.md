@@ -17,10 +17,10 @@ public void CopyTo(Array array, int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| array | Array | Zieldatenarray. |
-| index | Int32 | Startindex im Zieldatenarray. |
+| array | Array | Ziel-Array. |
+| index | Int32 | Startindex im Ziel-Array. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FillFormatCollection](../../fillformatcollection)
 * Namespace [Aspose.Slides.Theme](../../fillformatcollection)

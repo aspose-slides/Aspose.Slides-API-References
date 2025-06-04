@@ -1,15 +1,15 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Если категория существует в коллекции, верните ее. В противном случае создайте новую категорию графика из IChartDataCellaspose.slides.charts/ichartdatacell и добавьте ее в коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Если категория существует в коллекции, верните ее. В противном случае создается новая категория графика из IChartDataCellaspose.slides.charts/ichartdatacell и добавляется в коллекцию.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/chartcategorycollection/add/
 ---
 
-## Добавить(IChartDataCell) {#add}
+## Add(IChartDataCell) {#add}
 
-Если категория существует в коллекции, верните ее. В противном случае создайте новую категорию графика из [`IChartDataCell`](../../ichartdatacell) и добавьте ее в коллекцию.
+Если категория существует в коллекции, верните ее. В противном случае создается новая категория графика из [`IChartDataCell`](../../ichartdatacell) и добавляется в коллекцию.
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -23,7 +23,7 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 Добавленная или существующая категория.
 
-### См. также
+### Также см. 
 
 * интерфейс [IChartCategory](../../ichartcategory)
 * интерфейс [IChartDataCell](../../ichartdatacell)
@@ -33,9 +33,9 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 ---
 
-## Добавить(object) {#add_1}
+## Add(object) {#add_1}
 
-Создает новую [`ChartCategory`](../../chartcategory) из значения и добавляет ее в коллекцию.
+Создает новый [`ChartCategory`](../../chartcategory) из значения и добавляет его в коллекцию.
 
 ```csharp
 public IChartCategory Add(object value)
@@ -47,7 +47,7 @@ public IChartCategory Add(object value)
 
 ### Возвращаемое значение
 
-Добавленная [`IChartCategory`](../../ichartcategory).
+Добавленный [`IChartCategory`](../../ichartcategory).
 
 ### Исключения
 
@@ -55,11 +55,11 @@ public IChartCategory Add(object value)
 | --- | --- |
 | InvalidOperationException | если превышен лимит |
 
-### Примечания
+### Замечания
 
-Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет все значения туда. Если вы используете [`ChartDataWorkbook`](../../chartdataworkbook) для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист. Максимальное количество значений, добавленных с помощью этого метода, не должно превышать 16711680.
+Этот метод добавляет рабочий лист с именем AUTO_DATA и помещает все значения туда. Если вы используете [`ChartDataWorkbook`](../../chartdataworkbook) для добавления или редактирования значений в ячейках, убедитесь, что вы не используете этот рабочий лист. Максимальное количество значений, добавленных с помощью этого метода, не должно превышать 16711680.
 
-### См. также
+### Также см. 
 
 * интерфейс [IChartCategory](../../ichartcategory)
 * класс [ChartCategoryCollection](../../chartcategorycollection)

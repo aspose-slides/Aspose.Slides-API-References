@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Ruft effektive Alpha Modulate Fixed Effektdaten mit der angewendeten Vererbung ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält effektive Alpha Modulate Fixed Effekt-Daten mit der angewandten Vererbung.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/alphamodulatefixed/geteffective/
 ---
 
-## AlphaModulateFixed.GetEffective-Methode
+## AlphaModulateFixed.GetEffective Methode
 
-Ruft effektive Alpha Modulate Fixed Effektdaten mit der angewendeten Vererbung ab.
+Erhält effektive Alpha Modulate Fixed Effekt-Daten mit der angewandten Vererbung.
 
 ```csharp
 public IAlphaModulateFixedEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IAlphaModulateFixedEffectiveData GetEffective()
 
 Ein [`IAlphaModulateFixedEffectiveData`](../../ialphamodulatefixedeffectivedata).
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
 * Klasse [AlphaModulateFixed](../../alphamodulatefixed)

@@ -1,7 +1,7 @@
 ---
 title: ISlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示持有幻灯片页脚、日期时间和页码占位符行为的管理器。
+description: 表示管理器，该管理器持有幻灯片页脚、日期时间和页码占位符的行为。
 type: docs
 weight: 6850
 url: /zh/aspose.slides/islideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/islideheaderfootermanager/
 
 ## ISlideHeaderFooterManager 接口
 
-表示持有幻灯片页脚、日期时间和页码占位符行为的管理器。
+表示管理器，该管理器持有幻灯片页脚、日期时间和页码占位符的行为。
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -21,7 +21,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | 返回 IBaseSlideHeaderFooterManager 接口。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

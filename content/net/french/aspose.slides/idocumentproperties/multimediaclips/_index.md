@@ -1,21 +1,21 @@
 ---
 title: MultimediaClips
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le nombre total de clips audio ou vidéo présents dans le document. Lecture seule Int32.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Spécifie le nombre total de clips audio ou vidéo présents dans le document. En lecture seule Int32.
 type: docs
 weight: 220
 url: /fr/aspose.slides/idocumentproperties/multimediaclips/
 ---
 
-## Propriété IDocumentProperties.MultimediaClips
+## IDocumentProperties.MultimediaClips propriété
 
-Spécifie le nombre total de clips audio ou vidéo présents dans le document. Lecture seule Int32.
+Spécifie le nombre total de clips audio ou vidéo présents dans le document. En lecture seule Int32.
 
 ```csharp
 public int MultimediaClips { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

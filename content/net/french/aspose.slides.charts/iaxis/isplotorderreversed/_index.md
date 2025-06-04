@@ -1,7 +1,7 @@
 ---
 title: IsPlotOrderReversed
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Représente si MS PowerPoint trace des points de données de la fin vers le début. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente si MS PowerPoint trace des points de données de la fin au début. Booléen en lecture/écriture.
 type: docs
 weight: 290
 url: /fr/aspose.slides.charts/iaxis/isplotorderreversed/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/isplotorderreversed/
 
 ## Propriété IAxis.IsPlotOrderReversed
 
-Représente si MS PowerPoint trace des points de données de la fin vers le début. Booléen en lecture/écriture.
+Représente si MS PowerPoint trace des points de données de la fin au début. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsPlotOrderReversed { get; set; }

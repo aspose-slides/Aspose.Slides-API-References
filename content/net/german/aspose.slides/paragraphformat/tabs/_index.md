@@ -1,7 +1,7 @@
 ---
 title: Tabs
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Tabulatoren eines Absatzes zurück. Keine Vererbung angewendet. Schreibgeschütztes ITabCollectionaspose.slides/itabcollection.
+description: Gibt die Tabulatoren eines Absatzes zurück. Keine Vererbung angewendet. Nur lesen ITabCollection aspose.slides/itabcollection.
 type: docs
 weight: 150
 url: /de/aspose.slides/paragraphformat/tabs/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/paragraphformat/tabs/
 
 ## ParagraphFormat.Tabs-Eigenschaft
 
-Gibt die Tabulatoren eines Absatzes zurück. Keine Vererbung angewendet. Schreibgeschütztes [`ITabCollection`](../../itabcollection).
+Gibt die Tabulatoren eines Absatzes zurück. Keine Vererbung angewendet. Nur lesen [`ITabCollection`](../../itabcollection).
 
 ```csharp
 public ITabCollection Tabs { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITabCollection](../../itabcollection)
 * Klasse [ParagraphFormat](../../paragraphformat)

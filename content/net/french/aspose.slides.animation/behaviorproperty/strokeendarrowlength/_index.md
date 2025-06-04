@@ -1,6 +1,6 @@
 ---
 title: StrokeEndArrowLength
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la propriété stroke.endArrowLength
 type: docs
 weight: 920

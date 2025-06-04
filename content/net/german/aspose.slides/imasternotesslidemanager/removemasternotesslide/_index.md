@@ -7,7 +7,7 @@ weight: 20
 url: /de/aspose.slides/imasternotesslidemanager/removemasternotesslide/
 ---
 
-## IMasterNotesSlideManager.RemoveMasterNotesSlide-Methode
+## IMasterNotesSlideManager.RemoveMasterNotesSlide Methode
 
 Entfernt die Master-Notizenfolie.
 
@@ -15,7 +15,7 @@ Entfernt die Master-Notizenfolie.
 public void RemoveMasterNotesSlide()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMasterNotesSlideManager](../../imasternotesslidemanager)
 * Namespace [Aspose.Slides](../../imasternotesslidemanager)

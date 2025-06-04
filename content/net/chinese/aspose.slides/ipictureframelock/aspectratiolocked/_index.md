@@ -1,7 +1,7 @@
 ---
 title: AspectRatioLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定形状在调整大小时是否需要保持宽高比。可读/可写布尔值。
+description: 确定形状在调整大小时是否需要保持纵横比。读/写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ipictureframelock/aspectratiolocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframelock/aspectratiolocked/
 
 ## IPictureFrameLock.AspectRatioLocked 属性
 
-确定形状在调整大小时是否需要保持宽高比。可读/可写布尔值。
+确定形状在调整大小时是否需要保持纵横比。读/写布尔值。
 
 ```csharp
 public bool AspectRatioLocked { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

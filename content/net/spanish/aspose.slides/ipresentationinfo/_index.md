@@ -1,6 +1,6 @@
 ---
 title: IPresentationInfo
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Información sobre el archivo de presentación
 type: docs
 weight: 6590
@@ -19,9 +19,9 @@ public interface IPresentationInfo
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Obtiene verdadero si la presentación vinculada está encriptada, de lo contrario falso. Booleano de solo lectura. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Obtiene un valor que indica si una presentación vinculada está protegida por una contraseña para abrir. |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Obtiene un valor que indica si una presentación vinculada está protegida contra escritura. |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Obtiene True si la presentación vinculada está encriptada, de lo contrario, False. Solo lectura Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Obtiene un valor que indica si la presentación vinculada está protegida por una contraseña para abrir. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Obtiene un valor que indica si la presentación vinculada está protegida contra escritura. |
 | [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Obtiene el formato de la presentación vinculada. Solo lectura [`LoadFormat`](../loadformat). |
 
 ## Métodos
@@ -32,10 +32,10 @@ public interface IPresentationInfo
 | [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Verifica si una contraseña para modificar es correcta para una presentación protegida contra escritura. |
 | [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Obtiene las propiedades del documento de la presentación vinculada. |
 | [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Actualiza las propiedades de la presentación vinculada. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Escribe la presentación vinculada en un flujo. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Escribe la presentación vinculada en el flujo. |
 | [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Escribe la presentación vinculada en un archivo. |
 
-### Véase También
+### Vea También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

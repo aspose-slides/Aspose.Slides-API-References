@@ -1,7 +1,7 @@
 ---
 title: QuadraticBezierTo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega una curva Bezier cuadrática al final de la ruta
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Agrega una curva Bezier cuadrática al final del camino
 type: docs
 weight: 100
 url: /es/aspose.slides/geometrypath/quadraticbezierto/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/geometrypath/quadraticbezierto/
 
 ## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
-Agrega una curva Bezier cuadrática al final de la ruta
+Agrega una curva Bezier cuadrática al final del camino
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2)
@@ -20,7 +20,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 | point1 | PointF | Punto de dirección |
 | point2 | PointF | Punto final |
 
-### Véase También
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -30,7 +30,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 ## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
 
-Agrega una curva Bezier cuadrática al final de la ruta
+Agrega una curva Bezier cuadrática al final del camino
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
@@ -38,12 +38,12 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x1 | Single | Coordenada X del punto de dirección |
-| y1 | Single | Coordenada Y del punto de dirección |
-| x2 | Single | Coordenada X del punto final |
-| y2 | Single | Coordenada Y del punto final |
+| x1 | Single | Coordinada X del punto de dirección |
+| y1 | Single | Coordinada Y del punto de dirección |
+| x2 | Single | Coordinada X del punto final |
+| y2 | Single | Coordinada Y del punto final |
 
-### Véase También
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -53,7 +53,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 ## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
 
-Agrega una curva Bezier cuadrática en el lugar especificado de la ruta
+Agrega una curva Bezier cuadrática en el lugar especificado del camino
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
@@ -71,7 +71,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 | --- | --- |
 | ArgumentOutOfRangeException | El índice del segmento está fuera del rango de PathData |
 
-### Véase También
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -81,7 +81,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 ## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
 
-Agrega una curva Bezier cuadrática en el lugar especificado de la ruta
+Agrega una curva Bezier cuadrática en el lugar especificado del camino
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index)
@@ -89,10 +89,10 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x1 | Single | Coordenada X del punto de dirección |
-| y1 | Single | Coordenada Y del punto de dirección |
-| x2 | Single | Coordenada X del punto final |
-| y2 | Single | Coordenada Y del punto final |
+| x1 | Single | Coordinada X del punto de dirección |
+| y1 | Single | Coordinada Y del punto de dirección |
+| x2 | Single | Coordinada X del punto final |
+| y2 | Single | Coordinada Y del punto final |
 | index | UInt32 | Índice del segmento en PathData |
 
 ### Excepciones
@@ -101,7 +101,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 | --- | --- |
 | ArgumentOutOfRangeException | El índice del segmento está fuera del rango de PathData |
 
-### Véase También
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)

@@ -1,7 +1,7 @@
 ---
 title: IFormattedTextContainer
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le format de texte du graphique.
+description: Représente le format du texte des graphiques.
 type: docs
 weight: 2030
 url: /fr/aspose.slides.charts/iformattedtextcontainer/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iformattedtextcontainer/
 
 ## Interface IFormattedTextContainer
 
-Représente le format de texte du graphique.
+Représente le format du texte des graphiques.
 
 ```csharp
 public interface IFormattedTextContainer : IChartComponent
@@ -19,8 +19,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | Nom | Description |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Renvoie l'interface IChartComponent. Lecture seule [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Renvoie le format de texte du graphique. Lecture seule [`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Renvoie l'interface IChartComponent. En lecture seule [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Renvoie le format du texte des graphiques. En lecture seule [`IChartTextFormat`](../icharttextformat). |
 
 ### Voir aussi
 

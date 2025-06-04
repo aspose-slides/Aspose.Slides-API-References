@@ -1,15 +1,15 @@
 ---
 title: PlaceholderSize
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa el tamaño de un marcador.
+description: Representa el tamaño de un marcador de posición.
 type: docs
 weight: 9170
 url: /es/aspose.slides/placeholdersize/
 ---
 
-## Enumeración TamañoDelMarcador
+## Enumeración PlaceholderSize
 
-Representa el tamaño de un marcador.
+Representa el tamaño de un marcador de posición.
 
 ```csharp
 public enum PlaceholderSize : sbyte
@@ -19,13 +19,13 @@ public enum PlaceholderSize : sbyte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Completo | `0` | Completo. |
-| Mitad | `1` | Mitad. |
-| Cuarto | `2` | Cuarto. |
+| Full | `0` | Completo. |
+| Half | `1` | Mitad. |
+| Quarter | `2` | Cuarto. |
 
 ### Véase También
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

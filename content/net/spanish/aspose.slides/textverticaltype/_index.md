@@ -1,6 +1,6 @@
 ---
 title: TextVerticalType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Determina el modo de escritura vertical para un texto.
 type: docs
 weight: 10720
@@ -24,7 +24,7 @@ public enum TextVerticalType : sbyte
 | Vertical | `1` | Texto vertical. |
 | Vertical270 | `2` | Texto vertical a 270 grados. |
 | WordArtVertical | `3` | Texto vertical de WordArt. |
-| EastAsianVertical | `4` | Texto vertical asiático oriental. |
+| EastAsianVertical | `4` | Texto vertical de Asia oriental. |
 | MongolianVertical | `5` | Texto vertical mongol. |
 | WordArtVerticalRightToLeft | `6` | Texto vertical de WordArt de derecha a izquierda. |
 

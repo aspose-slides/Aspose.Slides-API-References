@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForAreaSeries
-second_title: Aspose.Slides para .NET API Reference
-description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área ver también el método ChartTypeCharacterizer.IsChartTypeAreaChartType.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Crea un nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área ver también el método ChartTypeCharacterizer.IsChartTypeAreaChartType.
 type: docs
 weight: 70
 url: /es/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaseries/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaserie
 
 ## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
-Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área (ver también el método ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
+Crea un nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área (ver también el método ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nuevo punto de datos.
 
 ## AddDataPointForAreaSeries(double) {#adddatapointforareaseries_1}
 
-Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área (ver también el método ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
+Crea un nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Área (ver también el método ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(double value)

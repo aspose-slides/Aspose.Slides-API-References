@@ -1,7 +1,7 @@
 ---
 title: LightRig
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ eines Lichts zurück oder legt ihn fest. Nur lesbar ILightRigaspose.slides/ilightrig.
+description: Gibt den Typ eines Lichts zurück oder setzt ihn. Schreibgeschützt ILightRigaspose.slides/ilightrig.
 type: docs
 weight: 90
 url: /de/aspose.slides/threedformat/lightrig/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/threedformat/lightrig/
 
 ## ThreeDFormat.LightRig-Eigenschaft
 
-Gibt den Typ eines Lichts zurück oder legt ihn fest. Nur lesbar [`ILightRig`](../../ilightrig).
+Gibt den Typ eines Lichts zurück oder setzt ihn. Schreibgeschützt [`ILightRig`](../../ilightrig).
 
 ```csharp
 public ILightRig LightRig { get; }

@@ -1,13 +1,13 @@
 ---
 title: InsertTable
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новую таблицу и вставляет ее в коллекцию по указанному индексу.
 type: docs
 weight: 390
 url: /ru/aspose.slides/shapecollection/inserttable/
 ---
 
-## Метод ShapeCollection.InsertTable
+## ShapeCollection.InsertTable метод
 
 Создает новую таблицу и вставляет ее в коллекцию по указанному индексу.
 
@@ -17,15 +17,15 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс на основе нуля, по которому должно быть вставлено значение. |
+| index | Int32 | Нулевой индекс, по которому должно быть вставлено значение. |
 | x | Single | X-координата для левой стороны рамки формы. |
 | y | Single | Y-координата для верхней стороны рамки формы. |
-| columnWidths | Double[] | Массив чисел с плавающей точкой, представляющий ширины столбцов в таблице. |
-| rowHeights | Double[] | Массив чисел с плавающей точкой, представляющий высоты строк в таблице. |
+| columnWidths | Double[] | Массив чисел с плавающей запятой, который представляет ширины столбцов в таблице. |
+| rowHeights | Double[] | Массив чисел с плавающей запятой, который представляет высоты строк в таблице. |
 
 ### Возвращаемое значение
 
-Созданный объект Table.
+Созданный объект таблицы.
 
 ### См. также
 

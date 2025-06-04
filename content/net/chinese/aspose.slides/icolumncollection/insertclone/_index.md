@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides for .NET API Reference
-description: 创建指定模板列的副本并在表中指定位置插入。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建指定模板列的副本，并将其插入到表中的指定位置。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icolumncollection/insertclone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icolumncollection/insertclone/
 
 ## IColumnCollection.InsertClone 方法
 
-创建指定模板列的副本并在表中指定位置插入。
+创建指定模板列的副本，并将其插入到表中的指定位置。
 
 ```csharp
 public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
@@ -19,13 +19,13 @@ public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 | --- | --- | --- |
 | index | Int32 | 新列的索引。 |
 | templ | IColumn | 用作模板的列。 |
-| withAttachedColumns | Boolean | 为 true 时也复制所有附加到模板列的列。 |
+| withAttachedColumns | Boolean | 如果为 true，则还复制所有附加到模板列的列。 |
 
 ### 返回值
 
 插入的列。
 
-### 参见
+### 另见
 
 * 接口 [IColumn](../../icolumn)
 * 接口 [IColumnCollection](../../icolumncollection)

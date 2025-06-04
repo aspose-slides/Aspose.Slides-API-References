@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Breite der Zelle zurück. Schreibgeschützter Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Breite der Zelle zurück. Nur-lesbarer Double.
 type: docs
 weight: 230
 url: /de/aspose.slides/icell/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icell/width/
 
 ## ICell.Width-Eigenschaft
 
-Gibt die Breite der Zelle zurück. Schreibgeschützter Double.
+Gibt die Breite der Zelle zurück. Nur-lesbarer Double.
 
 ```csharp
 public double Width { get; }

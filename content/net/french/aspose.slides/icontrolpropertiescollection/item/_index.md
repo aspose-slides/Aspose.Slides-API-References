@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit une propriété.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icontrolpropertiescollection/item/
 ---
 
-## Indiceur IControlPropertiesCollection
+## Indexeur IControlPropertiesCollection
 
 Renvoie ou définit une propriété.
 

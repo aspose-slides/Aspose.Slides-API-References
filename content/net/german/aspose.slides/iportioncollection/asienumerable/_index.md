@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die IEnumerable-Schnittstelle zurück. Nur lesbare IEnumerable.
 type: docs
 weight: 10
 url: /de/aspose.slides/iportioncollection/asienumerable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportioncollection/asienumerable/
 
 ## IPortionCollection.AsIEnumerable-Eigenschaft
 
-Gibt die IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable.
+Gibt die IEnumerable-Schnittstelle zurück. Nur lesbare IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -17,7 +17,7 @@ public IEnumerable AsIEnumerable { get; }
 
 ### Hinweise
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

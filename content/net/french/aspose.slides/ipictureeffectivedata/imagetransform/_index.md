@@ -1,6 +1,6 @@
 ---
 title: ImageTransform
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie la collection des effets de transformation d'image. En lecture seule IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie la collection des effets de transformation d'image. En lecture seule [`I
 public IImageTransformOCollectionEffectiveData ImageTransform { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImageTransformOCollectionEffectiveData](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata)
 * interface [IPictureEffectiveData](../../ipictureeffectivedata)

@@ -1,24 +1,24 @@
 ---
 title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el nombre de una diapositiva maestra. Lectura/escritura String.
+description: Devuelve o establece el nombre de una diapositiva maestra. Cadena de lectura/escritura.
 type: docs
 weight: 50
 url: /es/aspose.slides/masterslide/name/
 ---
 
-## Propiedad MasterSlide.Name
+## MasterSlide.Name property
 
-Devuelve o establece el nombre de una diapositiva maestra. Lectura/escritura String.
+Devuelve o establece el nombre de una diapositiva maestra. Cadena de lectura/escritura.
 
 ```csharp
 public override string Name { get; set; }
 ```
 
-### Véase También
+### Ver También
 
-* class [MasterSlide](../../masterslide)
-* namespace [Aspose.Slides](../../masterslide)
-* assembly [Aspose.Slides](../../../)
+* clase [MasterSlide](../../masterslide)
+* espacio de nombres [Aspose.Slides](../../masterslide)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

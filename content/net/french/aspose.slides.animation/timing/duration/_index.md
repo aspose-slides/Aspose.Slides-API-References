@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Référence API Aspose.Slides pour .NET
-description: Décrit la durée de l'effet d'animation. Lis/écrit Simple.
+description: Décrit la durée de l'effet d'animation. Lecture/écriture Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/timing/duration/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/timing/duration/
 
 ## Propriété Timing.Duration
 
-Décrit la durée de l'effet d'animation. Lis/écrit Simple.
+Décrit la durée de l'effet d'animation. Lecture/écriture Single.
 
 ```csharp
 public float Duration { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Timing](../../timing)
 * espace de noms [Aspose.Slides.Animation](../../timing)

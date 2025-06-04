@@ -17,9 +17,9 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| summaryZoomSection | ISummaryZoomSection | Объект SummaryZoomSection, который необходимо найти [`ISummaryZoomSection`](../../isummaryzoomsection). |
+| summaryZoomSection | ISummaryZoomSection | Объект SummaryZoomSection для поиска [`ISummaryZoomSection`](../../isummaryzoomsection). |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Индекс объекта SummaryZoomSection или -1, если объект SummaryZoomSection не из этой коллекции.
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
 * интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)

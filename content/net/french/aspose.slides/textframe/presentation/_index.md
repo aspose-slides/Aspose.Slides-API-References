@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Référence API Aspose.Slidess pour .NET
-description: Renvoie la présentation parente d'un TextFrame. En lecture seule IPresentation aspose.slides/ipresentation.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la présentation parente d'un TextFrame. Lecture seule IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 50
 url: /fr/aspose.slides/textframe/presentation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframe/presentation/
 
 ## Propriété TextFrame.Presentation
 
-Renvoie la présentation parente d'un TextFrame. En lecture seule [`IPresentation`](../../ipresentation).
+Renvoie la présentation parente d'un TextFrame. Lecture seule [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

@@ -1,6 +1,6 @@
 ---
 title: CreateOleTypeLibReference
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新的 OLE 自动化类型库引用。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 
 新的 OLE 自动化类型库引用
 
-### 另请参阅
+### 另见
 
 * 接口 [IVbaReferenceOleTypeLib](../../ivbareferenceoletypelib)
 * 类 [VbaReferenceFactory](../../vbareferencefactory)

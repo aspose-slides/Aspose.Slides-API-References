@@ -1,15 +1,15 @@
 ---
 title: BaseJustification
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica la alineación de la matriz en relación con el texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o centro de un objeto de matriz. Valor predeterminado Centro
+second_title: Aspose.Slides para .NET Referencia de API
+description: Especifica la alineación del array en relación con el texto circundante. El texto fuera del array se puede alinear con la parte inferior, la parte superior o el centro de un objeto array. Valor por defecto Centro
 type: docs
 weight: 30
 url: /es/aspose.slides.mathtext/matharray/basejustification/
 ---
 
-## Propiedad MathArray.BaseJustification
+## MathArray.BaseJustification property
 
-Especifica la alineación de la matriz en relación con el texto circundante. El texto fuera de la matriz puede alinearse con la parte inferior, superior o centro de un objeto de matriz. Valor predeterminado: Centro
+Especifica la alineación del array en relación con el texto circundante. El texto fuera del array se puede alinear con la parte inferior, la parte superior o el centro de un objeto array. Valor por defecto: Centro
 
 ```csharp
 public MathVerticalAlignment BaseJustification { get; set; }
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.BaseJustification = MathVerticalAlignment.Top;
 ```
 
-### Véase También
+### Ver También
 
 * enum [MathVerticalAlignment](../../mathverticalalignment)
 * class [MathArray](../../matharray)

@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置渐变的翻转模式。可读/写 TileFlipaspose.slides/tileflip。
+second_title: Aspose.Slildes for .NET API Reference
+description: 返回或设置渐变的翻转模式。读/写 TileFlipaspose.slides/tileflip。
 type: docs
 weight: 60
 url: /zh/aspose.slides/gradientformat/tileflip/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/gradientformat/tileflip/
 
 ## GradientFormat.TileFlip 属性
 
-返回或设置渐变的翻转模式。可读/写 [`TileFlip`](../../tileflip)。
+返回或设置渐变的翻转模式。读/写 [`TileFlip`](../../tileflip)。
 
 ```csharp
 public TileFlip TileFlip { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 枚举 [TileFlip](../../tileflip)
 * 类 [GradientFormat](../../gradientformat)

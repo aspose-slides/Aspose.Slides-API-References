@@ -1,6 +1,6 @@
 ---
 title: CreatePresetShadow
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建预设阴影效果。
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public IPresetShadow CreatePresetShadow()
 
 预设阴影效果。
 
-### 另请参阅
+### 参见
 
 * 接口 [IPresetShadow](../../ipresetshadow)
 * 接口 [IEffectFactory](../../ieffectfactory)

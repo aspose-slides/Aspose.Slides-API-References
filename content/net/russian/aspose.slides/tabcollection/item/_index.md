@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Получает элемент по указанному индексу. Только для чтения Tabaspose.slides/tab.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/tabcollection/item/
 public ITab this[int index] { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [ITab](../../itab)
 * класс [TabCollection](../../tabcollection)

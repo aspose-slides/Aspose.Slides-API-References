@@ -1,7 +1,7 @@
 ---
 title: HasBorderOutline
-second_title: Aspose.Slides für .NET API Referenz
-description: Wahr, wenn die Datentabelle des Diagramms Umrandungsrahmen hat. Lese-/schreibbares Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Wahr, wenn die Datentabelle des Diagramms Rahmengrenzen hat. Lese-/Schreibbare Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/datatable/hasborderoutline/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datatable/hasborderoutline/
 
 ## DataTable.HasBorderOutline-Eigenschaft
 
-Wahr, wenn die Datentabelle des Diagramms Umrandungsrahmen hat. Lese-/schreibbares Boolean.
+Wahr, wenn die Datentabelle des Diagramms Rahmengrenzen hat. Lese-/Schreibbare Boolean.
 
 ```csharp
 public bool HasBorderOutline { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: ParentGroup
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回形状集合的父 GroupShape 对象。只读 IGroupShape aspose.slides/igroupshape。
 type: docs
 weight: 40

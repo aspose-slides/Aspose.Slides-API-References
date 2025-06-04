@@ -1,7 +1,7 @@
 ---
 title: ShowDataLabelsOverMaximum
-second_title: Aspose.Slides for .NET API 参考
-description: 指定将显示图表的最大值之上的数据标签。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定将在图表的最大值之上显示数据标签。可读写布尔值。
 type: docs
 weight: 180
 url: /zh/aspose.slides.charts/chart/showdatalabelsovermaximum/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chart/showdatalabelsovermaximum/
 
 ## Chart.ShowDataLabelsOverMaximum 属性
 
-指定将显示图表的最大值之上的数据标签。可读写布尔值。
+指定将在图表的最大值之上显示数据标签。可读写布尔值。
 
 ```csharp
 public bool ShowDataLabelsOverMaximum { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Chart](../../chart)
 * namespace [Aspose.Slides.Charts](../../chart)

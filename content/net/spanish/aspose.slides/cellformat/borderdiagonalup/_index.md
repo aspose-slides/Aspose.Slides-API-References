@@ -1,13 +1,13 @@
 ---
 title: BorderDiagonalUp
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Devuelve un objeto de propiedades de línea diagonal de abajo a la izquierda a arriba a la derecha. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /es/aspose.slides/cellformat/borderdiagonalup/
 ---
 
-## Propiedad CellFormat.BorderDiagonalUp
+## CellFormat.BorderDiagonalUp propiedad
 
 Devuelve un objeto de propiedades de línea diagonal de abajo a la izquierda a arriba a la derecha. Solo lectura [`ILineFormat`](../../ilineformat).
 
@@ -15,11 +15,11 @@ Devuelve un objeto de propiedades de línea diagonal de abajo a la izquierda a a
 public ILineFormat BorderDiagonalUp { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILineFormat](../../ilineformat)
 * clase [CellFormat](../../cellformat)
 * espacio de nombres [Aspose.Slides](../../cellformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

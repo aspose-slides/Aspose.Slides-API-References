@@ -20,7 +20,7 @@ public sealed class FontsLoader : IFontsLoader
 | Nom | Description |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Libère toutes les polices personnalisées définies par l'utilisateur |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Obtient les dossiers de polices. Retourne les dossiers qui ont été ajoutés avec la méthode LoadExternalFonts ainsi que les dossiers de polices système |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Obtient les dossiers de polices. Renvoie les dossiers qui ont été ajoutés avec la méthode LoadExternalFonts ainsi que les dossiers de polices systèmes |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Ajoute une police à partir des données binaires |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Ajoute des dossiers supplémentaires pour rechercher des polices. |
 

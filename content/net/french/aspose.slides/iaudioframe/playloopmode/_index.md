@@ -1,7 +1,7 @@
 ---
 title: PlayLoopMode
-second_title: Aspose.Slides pour .NET Référence API
-description: Détermine si un audio est en boucle. Propriété booléenne en lecture et écriture.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Détermine si un audio est en boucle. Booléen en lecture/écriture.
 type: docs
 weight: 130
 url: /fr/aspose.slides/iaudioframe/playloopmode/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iaudioframe/playloopmode/
 
 ## Propriété IAudioFrame.PlayLoopMode
 
-Détermine si un audio est en boucle. Propriété booléenne en lecture et écriture.
+Détermine si un audio est en boucle. Booléen en lecture/écriture.
 
 ```csharp
 public bool PlayLoopMode { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudioFrame](../../iaudioframe)
 * namespace [Aspose.Slides](../../iaudioframe)

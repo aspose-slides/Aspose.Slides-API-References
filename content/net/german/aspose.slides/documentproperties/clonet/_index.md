@@ -1,15 +1,15 @@
 ---
 title: CloneT
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Klont das aktuelle Objekt
 type: docs
 weight: 400
 url: /de/aspose.slides/documentproperties/clonet/
 ---
 
-## DocumentProperties.CloneT-Methode
+## DocumentProperties.CloneT Methode
 
-Klonen das aktuelle Objekt
+Klont das aktuelle Objekt
 
 ```csharp
 public IDocumentProperties CloneT()
@@ -17,7 +17,7 @@ public IDocumentProperties CloneT()
 
 ### Rückgabewert
 
-Klonen
+Klon
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: FormatScheme
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Хранит форматы, определенные темой, для фигур.
 type: docs
 weight: 10830
@@ -17,7 +17,7 @@ public class FormatScheme : IFormatScheme
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Возвращает коллекцию стилей заливки фона, определенных темой. Только для чтения [`IFillFormatCollection`](../ifillformatcollection). |
 | [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Возвращает коллекцию стилей эффектов, определенных темой. Только для чтения [`IEffectStyleCollection`](../ieffectstylecollection). |

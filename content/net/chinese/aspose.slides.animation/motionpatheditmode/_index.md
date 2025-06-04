@@ -1,7 +1,7 @@
 ---
 title: MotionPathEditMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定目标形状移动时运动路径的移动方式
+description: 指定了当目标形状移动时，运动路径如何移动
 type: docs
 weight: 620
 url: /zh/aspose.slides.animation/motionpatheditmode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/motionpatheditmode/
 
 ## MotionPathEditMode 枚举
 
-指定目标形状移动时运动路径的移动方式
+指定了当目标形状移动时，运动路径如何移动
 
 ```csharp
 public enum MotionPathEditMode
@@ -23,7 +23,7 @@ public enum MotionPathEditMode
 | Relative | `0` |  |
 | Fixed | `1` |  |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

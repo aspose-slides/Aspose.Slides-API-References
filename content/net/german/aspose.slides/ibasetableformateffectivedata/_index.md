@@ -1,7 +1,7 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Basisschnittstelle für unveränderliche Objekte, die effektive Tabellenformatierungs Eigenschaften enthalten.
+second_title: Aspose.Slides für .NET API Referenz
+description: Basisschnittstelle für unveränderliche Objekte, die effektive Eigenschaften der Tabellenformatierung enthalten.
 type: docs
 weight: 5160
 url: /de/aspose.slides/ibasetableformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibasetableformateffectivedata/
 
 ## IBaseTableFormatEffectiveData-Schnittstelle
 
-Basisschnittstelle für unveränderliche Objekte, die effektive Tabellenformatierungs Eigenschaften enthalten.
+Basisschnittstelle für unveränderliche Objekte, die effektive Eigenschaften der Tabellenformatierung enthalten.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -19,15 +19,15 @@ public interface IBaseTableFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Gibt den effektiven Wert des Formatierungsstils der unteren Randlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Gibt den effektiven Wert des Formatierungsstils der nach unten diagonal verlaufenden Linie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Gibt den effektiven Wert des Formatierungsstils der nach oben diagonal verlaufenden Linie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Gibt den effektiven Wert des Formatierungsstils der linken Randlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Gibt den effektiven Wert des Formatierungsstils der rechten Randlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Gibt den effektiven Wert des Formatierungsstils der oberen Randlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Gibt den effektiven Wert des Füllformatierungsstils zurück. Nur-lesend [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Gibt den effektiven Wert des Formates der unteren Rahmenlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Gibt den effektiven Wert des Formates der diagonalen Linie nach unten zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Gibt den effektiven Wert des Formates der diagonalen Linie nach oben zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Gibt den effektiven Wert des Formates der linken Rahmenlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Gibt den effektiven Wert des Formates der rechten Rahmenlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Gibt den effektiven Wert des Formates der oberen Rahmenlinie zurück. Nur-lesend [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Gibt den effektiven Wert des Füllformats zurück. Nur-lesend [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

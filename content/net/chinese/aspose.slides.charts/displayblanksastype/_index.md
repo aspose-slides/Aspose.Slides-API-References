@@ -1,15 +1,15 @@
 ---
 title: DisplayBlanksAsType
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定缺失数据将如何显示。
+description: 确定缺失数据的显示方式。
 type: docs
 weight: 1530
 url: /zh/aspose.slides.charts/displayblanksastype/
 ---
 
-## DisplayBlanksAsType枚举
+## DisplayBlanksAsType 枚举
 
-确定缺失数据将如何显示。
+确定缺失数据的显示方式。
 
 ```csharp
 public enum DisplayBlanksAsType
@@ -19,11 +19,11 @@ public enum DisplayBlanksAsType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Gap | `0` | 指定空白值应作为间隙留空。 |
-| Span | `1` | 指定空白值应由一条线连接。 |
+| Gap | `0` | 指定空白值应保留为空隙。 |
+| Span | `1` | 指定空白值应用线段连接。 |
 | Zero | `2` | 指定空白值应视为零。 |
 
-### 另请参阅
+### 参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

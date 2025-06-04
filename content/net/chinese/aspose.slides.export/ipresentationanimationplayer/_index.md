@@ -1,15 +1,15 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示动画播放器。动画由PresentationAnimationsGenerator通过其NewAnimation事件生成。
+description: 表示动画播放器。由PresentationAnimationsGenerator../presentationanimationsgenerator通过其NewAnimation../presentationanimationsgenerator/newanimation事件生成的动画。
 type: docs
 weight: 3860
 url: /zh/aspose.slides.export/ipresentationanimationplayer/
 ---
 
-## IPresentationAnimationPlayer 接口
+## IPresentationAnimationPlayer接口
 
-表示动画的播放器。动画由[`PresentationAnimationsGenerator`](../presentationanimationsgenerator)通过其[`NewAnimation`](../presentationanimationsgenerator/newanimation)事件生成。
+表示动画播放器。由[`PresentationAnimationsGenerator`](../presentationanimationsgenerator)通过其[`NewAnimation`](../presentationanimationsgenerator/newanimation)事件生成的动画。
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -19,14 +19,14 @@ public interface IPresentationAnimationPlayer
 
 | 名称 | 描述 |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | 获取动画持续时间 [毫秒] |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | 获取动画持续时间 [ms] |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 获取当前时间位置的帧，此位置以前通过[`SetTimePosition`](./settimeposition)方法设置。 |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | 在[`Duration`](./duration)范围内设置动画时间位置。 |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 获取之前通过[`SetTimePosition`](./settimeposition)方法设置的当前时间位置的帧。 |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | 在[`Duration`](./duration)内设置动画时间位置。 |
 
 ### 示例
 
@@ -52,7 +52,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

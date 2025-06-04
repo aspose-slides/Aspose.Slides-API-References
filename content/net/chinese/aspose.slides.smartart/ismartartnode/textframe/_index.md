@@ -1,7 +1,7 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置节点的文本。只读 ITextFrame aspose.slides/itextframe。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置节点的文本。ITextFrame为只读。aspose.slides/itextframe。
 type: docs
 weight: 90
 url: /zh/aspose.slides.smartart/ismartartnode/textframe/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.smartart/ismartartnode/textframe/
 
 ## ISmartArtNode.TextFrame 属性
 
-获取或设置节点的文本。只读 [`ITextFrame`](../../../aspose.slides/itextframe)。
+返回或设置节点的文本。只读 [`ITextFrame`](../../../aspose.slides/itextframe)。
 
 ```csharp
 public ITextFrame TextFrame { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ITextFrame](../../../aspose.slides/itextframe)
 * 接口 [ISmartArtNode](../../ismartartnode)

@@ -1,6 +1,6 @@
 ---
 title: ColorScheme
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает цветовую схему. Только для чтения IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10

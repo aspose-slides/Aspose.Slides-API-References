@@ -1,13 +1,13 @@
 ---
 title: IFillOverlay
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Représente un effet de remplissage superposé. Un remplissage superposé peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et mélanger les deux remplissages ensemble.
 type: docs
 weight: 3180
 url: /fr/aspose.slides.effects/ifilloverlay/
 ---
 
-## Interface IFillOverlay
+## IFillOverlay interface
 
 Représente un effet de remplissage superposé. Un remplissage superposé peut être utilisé pour spécifier un remplissage supplémentaire pour un objet et mélanger les deux remplissages ensemble.
 
@@ -20,10 +20,10 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. En lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Lecture/écriture [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Format de remplissage. En lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Format de remplissage. Lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Voir aussi
 

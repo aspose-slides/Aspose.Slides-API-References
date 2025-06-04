@@ -1,15 +1,15 @@
 ---
 title: AddSmartArtPlaceholder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новую плоскость для заполнителя на слайде макета для хранения диаграммы SmartArt.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новую фигуру-заполнитель на слайд макета для размещения диаграммы SmartArt.
 type: docs
 weight: 60
 url: /ru/aspose.slides/layoutplaceholdermanager/addsmartartplaceholder/
 ---
 
-## Метод LayoutPlaceholderManager.AddSmartArtPlaceholder
+## LayoutPlaceholderManager.AddSmartArtPlaceholder метод
 
-Добавляет новую плоскость для заполнителя на слайде макета для хранения диаграммы SmartArt.
+Добавляет новую фигуру-заполнитель на слайд макета для размещения диаграммы SmartArt.
 
 ```csharp
 public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X новой плоскости для заполнителя. |
-| y | Single | Координата Y новой плоскости для заполнителя. |
-| width | Single | Ширина новой плоскости для заполнителя. |
-| height | Single | Высота новой плоскости для заполнителя. |
+| x | Single | Координата X новой фигуры-заполнителя. |
+| y | Single | Координата Y новой фигуры-заполнителя. |
+| width | Single | Ширина новой фигуры-заполнителя. |
+| height | Single | Высота новой фигуры-заполнителя. |
 
-### Значение, возвращаемое методом
+### Возвращаемое значение
 
 Созданный [`IAutoShape`](../../iautoshape) с заполнителем SmartArt.
 
 ### Примеры
 
-Следующий пример показывает, как добавить плоскость для заполнителя SmartArt на слайд макета.
+Следующий пример демонстрирует, как добавить фигуру-заполнитель SmartArt на слайд макета.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * класс [LayoutPlaceholderManager](../../layoutplaceholdermanager)

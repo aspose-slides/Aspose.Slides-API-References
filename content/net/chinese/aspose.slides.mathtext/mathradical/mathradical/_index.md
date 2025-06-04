@@ -1,6 +1,6 @@
 ---
 title: MathRadical
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 初始化 MathRadical 类的新实例。
 type: docs
 weight: 10
@@ -29,7 +29,7 @@ public MathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 MathRadical radical = new MathRadical(new MathematicalText("x"), new MathematicalText("3"));
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathRadical](../../mathradical)

@@ -1,6 +1,6 @@
 ---
 title: CreateMotionEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建运动效果。
 type: docs
 weight: 50

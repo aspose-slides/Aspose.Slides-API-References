@@ -1,7 +1,7 @@
 ---
 title: IsFormatNotDefined
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt true zurück, wenn das Linienformat nicht als gerade erstellt, Standard, definiert ist. Nur lesbare Boolesche Variable.
+description: Gibt true zurück, wenn das Linienformat nicht definiert ist wie gerade erstellt, Standard. Schreibgeschütztes Boolean.
 type: docs
 weight: 120
 url: /de/aspose.slides/lineformat/isformatnotdefined/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/lineformat/isformatnotdefined/
 
 ## LineFormat.IsFormatNotDefined-Eigenschaft
 
-Gibt true zurück, wenn das Linienformat nicht definiert ist (als gerade erstellt, Standard). Nur lesbare Boolesche Variable.
+Gibt true zurück, wenn das Linienformat nicht definiert ist (wie gerade erstellt, Standard). Schreibgeschütztes Boolean.
 
 ```csharp
 public bool IsFormatNotDefined { get; }

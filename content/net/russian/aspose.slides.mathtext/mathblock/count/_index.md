@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество дочерних математических элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 int count = mathBlock.Count;
 ```
 
-### См. также
+### См. Также
 
 * класс [MathBlock](../../mathblock)
 * пространство имен [Aspose.Slides.MathText](../../mathblock)

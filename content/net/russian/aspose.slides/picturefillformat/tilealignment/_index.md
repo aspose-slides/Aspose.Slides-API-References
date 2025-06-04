@@ -1,25 +1,25 @@
 ---
 title: TileAlignment
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает или устанавливает, как текстура выровнена внутри формы. Эта настройка контролирует начальную точку текстурного узора и то, как он повторяется по всей форме. Чтение/запись RectangleAlignmentaspose.slides/rectanglealignment.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или задает, как текстура выровнена внутри фигуры. Эта настройка контролирует начальную точку текстурного рисунка и то, как он повторяется по всей фигуре. Чтение/запись RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 120
 url: /ru/aspose.slides/picturefillformat/tilealignment/
 ---
 
-## Свойство PictureFillFormat.TileAlignment
+## PictureFillFormat.TileAlignment property
 
-Возвращает или устанавливает, как текстура выровнена внутри формы. Эта настройка контролирует начальную точку текстурного узора и то, как он повторяется по всей форме. Чтение/запись [`RectangleAlignment`](../../rectanglealignment).
+Возвращает или задает, как текстура выровнена внутри фигуры. Эта настройка контролирует начальную точку текстурного рисунка и то, как он повторяется по всей фигуре. Чтение/запись [`RectangleAlignment`](../../rectanglealignment).
 
 ```csharp
 public RectangleAlignment TileAlignment { get; set; }
 ```
 
-### Примечания
+### Remarks
 
-По умолчанию – TopLeft.
+По умолчанию - TopLeft.
 
-### Примеры
+### Examples
 
 ```csharp
 [C#]
@@ -27,18 +27,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Получает формат заливки картинки формы
+    // Получает формат заливки изображения фигуры
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Устанавливает режим заливки картины в Tile
+    // Устанавливает режим заливки изображения в Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Устанавливает выравнивание для тайлов в правый нижний угол
+    // Устанавливает выравнивание для плитки в правый нижний угол
     pictureFillFormat.TileAlignment = RectangleAlignment.BottomRight;
 }
 ```
 
-### См. также
+### See Also
 
 * enum [RectangleAlignment](../../rectanglealignment)
 * class [PictureFillFormat](../../picturefillformat)

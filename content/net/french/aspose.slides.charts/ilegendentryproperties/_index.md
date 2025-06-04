@@ -1,6 +1,6 @@
 ---
 title: ILegendEntryProperties
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente les propriétés de légende d'un graphique.
 type: docs
 weight: 2070
@@ -20,9 +20,9 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 | Nom | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Renvoie ou définit le drapeau de masquage de l'entrée de légende. Lecture/écriture Booléen. |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Renvoie ou définit le drapeau de masquage de l'entrée de la légende. Lecture/écriture Boolean. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFormattedTextContainer](../iformattedtextcontainer)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

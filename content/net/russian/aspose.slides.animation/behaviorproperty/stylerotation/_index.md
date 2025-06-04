@@ -1,6 +1,6 @@
 ---
 title: StyleRotation
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справка
 description: Представляет свойство style.rotation
 type: docs
 weight: 1110
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/stylerotation/
 public static BehaviorProperty StyleRotation { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

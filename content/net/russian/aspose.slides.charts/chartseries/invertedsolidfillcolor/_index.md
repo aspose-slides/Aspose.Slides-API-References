@@ -1,7 +1,7 @@
 ---
 title: InvertedSolidFillColor
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает инвертированный цвет для серии. Чтобы применить настройки цвета, установите формат серии FillType в FillType.Solid. Читаемое/записываемое ColorFormataspose.slides/../aspose.slides/colorformat.
+second_title: Aspose.Sildes для справки по API .NET
+description: Указывает инвертированный сплошной цвет для серии. Чтобы применить настройки цвета, установите формат серии FillType в FillType.Solid. Чтение/запись ColorFormataspose.slides/../aspose.slides/colorformat.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/chartseries/invertedsolidfillcolor/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/chartseries/invertedsolidfillcolor/
 
 ## ChartSeries.InvertedSolidFillColor свойство
 
-Указывает инвертированный цвет для серии. Чтобы применить настройки цвета, установите формат серии FillType в FillType.Solid. Читаемое/записываемое [`ColorFormat`](../../../aspose.slides/colorformat).
+Указывает инвертированный сплошной цвет для серии. Чтобы применить настройки цвета, установите формат серии FillType в FillType.Solid. Чтение/запись [`ColorFormat`](../../../aspose.slides/colorformat).
 
 ```csharp
 public IColorFormat InvertedSolidFillColor { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * класс [ChartSeries](../../chartseries)

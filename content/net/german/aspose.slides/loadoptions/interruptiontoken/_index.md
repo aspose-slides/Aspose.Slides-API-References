@@ -1,7 +1,7 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Slides für .NET API-Referenz
-description: Das Token zur Überwachung von Unterbrechungsanfragen. Dieses Token verwaltet die gesamte Lebensdauer der IPresentationaspose.slides/ipresentation Instanz. Jede langwierige Operation, wie das Laden oder Speichern einer Präsentation, wird durch den Aufruf der Interruptaspose.slides/interruptiontokensource/interrupt Methode der InterruptionTokenSourceaspose.slides/interruptiontokensource unterbrochen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Das Token zur Überwachung von Unterbrechungsanfragen. Dieses Token verwaltet die gesamte Lebensdauer der IPresentationaspose.slides/ipresentation Instanz. Jede lang andauernde Operation, wie das Laden oder Speichern einer Präsentation, wird durch den Aufruf der Interruptaspose.slides/interruptiontokensource/interrupt Methode des InterruptionTokenSourceaspose.slides/interruptiontokensource unterbrochen.
 type: docs
 weight: 90
 url: /de/aspose.slides/loadoptions/interruptiontoken/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/loadoptions/interruptiontoken/
 
 ## LoadOptions.InterruptionToken-Eigenschaft
 
-Das Token zur Überwachung von Unterbrechungsanfragen. Dieses Token verwaltet die gesamte [`IPresentation`](../../ipresentation) Instanzlebensdauer. Jede langwierige Operation, wie das Laden oder Speichern einer Präsentation, wird durch den Aufruf der [`Interrupt`](../../interruptiontokensource/interrupt) Methode der [`InterruptionTokenSource`](../../interruptiontokensource) unterbrochen.
+Das Token zur Überwachung von Unterbrechungsanfragen. Dieses Token verwaltet die gesamte [`IPresentation`](../../ipresentation) Instanzlaufzeit. Jede lang andauernde Operation, wie das Laden oder Speichern einer Präsentation, wird durch den Aufruf der [`Interrupt`](../../interruptiontokensource/interrupt) Methode des [`InterruptionTokenSource`](../../interruptiontokensource) unterbrochen.
 
 ```csharp
 public IInterruptionToken InterruptionToken { get; set; }

@@ -19,7 +19,7 @@ public IAlphaCeilingEffectiveData GetEffective()
 
 一个 [`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata)。
 
-### 参见
+### 另请参阅
 
 * 接口 [IAlphaCeilingEffectiveData](../../ialphaceilingeffectivedata)
 * 类 [AlphaCeiling](../../alphaceiling)

@@ -19,7 +19,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | Der Name der zu entfernenden Eigenschaft. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ControlPropertiesCollection](../../controlpropertiescollection)
 * Namespace [Aspose.Slides](../../controlpropertiescollection)

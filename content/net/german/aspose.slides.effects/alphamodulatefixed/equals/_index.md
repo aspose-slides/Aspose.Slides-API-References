@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, ob das angegebene AlphaModulateFixedaspose.slides.effects/alphamodulatefixed gleich dem aktuellen AlphaModulateFixedaspose.slides.effects/alphamodulatefixed ist.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/alphamodulatefixed/equals/
 ---
 
-## AlphaModulateFixed.Equals-Methode
+## AlphaModulateFixed.Equals Methode
 
 Bestimmt, ob das angegebene [`AlphaModulateFixed`](../../alphamodulatefixed) gleich dem aktuellen [`AlphaModulateFixed`](../../alphamodulatefixed) ist.
 

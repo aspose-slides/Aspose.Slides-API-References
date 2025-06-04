@@ -1,15 +1,15 @@
 ---
 title: WriteSlideEnd
-second_title: Aspose.Sildes для .NET API Справка
-description: Вызывается для записи нижнего колонтитула слайда в формате HTML. Вызывается один раз для каждого слайда.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вызывается для записи нижнего колонтитула html слайда. Вызывается один раз для каждого слайда.
 type: docs
 weight: 80
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writeslideend/
 ---
 
-## Метод EmbedAllFontsHtmlController.WriteSlideEnd
+## EmbedAllFontsHtmlController.WriteSlideEnd метод
 
-Вызывается для записи нижнего колонтитула слайда в формате HTML. Вызывается один раз для каждого слайда.
+Вызывается для записи нижнего колонтитула html слайда. Вызывается один раз для каждого слайда.
 
 ```csharp
 public virtual void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
@@ -17,10 +17,10 @@ public virtual void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Объект вывода. |
+| generator | IHtmlGenerator | Выходной объект. |
 | slide | ISlide | Слайд, который в данный момент отображается. |
 
-### Также см. 
+### См. также
 
 * интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * интерфейс [ISlide](../../../aspose.slides/islide)

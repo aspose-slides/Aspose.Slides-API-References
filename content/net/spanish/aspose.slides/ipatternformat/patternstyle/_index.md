@@ -15,7 +15,7 @@ Devuelve o establece el estilo de patrón. Lectura/escritura [`PatternStyle`](..
 public PatternStyle PatternStyle { get; set; }
 ```
 
-### Véase También
+### También Visto
 
 * enum [PatternStyle](../../patternstyle)
 * interface [IPatternFormat](../../ipatternformat)

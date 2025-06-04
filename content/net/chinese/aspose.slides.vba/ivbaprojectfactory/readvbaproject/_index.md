@@ -1,7 +1,7 @@
 ---
 title: ReadVbaProject
-second_title: Aspose.Slides for .NET API 参考
-description: 从 OLE 容器读取 VBA 项目。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从OLE容器读取VBA项目。
 type: docs
 weight: 20
 url: /zh/aspose.slides.vba/ivbaprojectfactory/readvbaproject/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbaprojectfactory/readvbaproject/
 
 ## IVbaProjectFactory.ReadVbaProject 方法
 
-从 OLE 容器读取 VBA 项目。
+从OLE容器读取VBA项目。
 
 ```csharp
 public IVbaProject ReadVbaProject(byte[] data)
@@ -17,13 +17,13 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| data | Byte[] | Ole 数据 Byte[] |
+| data | Byte[] | Ole数据 Byte[] |
 
 ### 返回值
 
-读取的 VBA 项目
+读取的VBA项目
 
-### 参见
+### 另见
 
 * 接口 [IVbaProject](../../ivbaproject)
 * 接口 [IVbaProjectFactory](../../ivbaprojectfactory)

@@ -1,6 +1,6 @@
 ---
 title: DefaultPortionFormat
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el formato de porción predeterminado de un párrafo. No se aplica herencia. Solo lectura IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Devuelve el formato de porción predeterminado de un párrafo. No se aplica here
 public IPortionFormat DefaultPortionFormat { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [IPortionFormat](../../iportionformat)
-* interfaz [IParagraphFormat](../../iparagraphformat)
-* espacio de nombres [Aspose.Slides](../../iparagraphformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IPortionFormat](../../iportionformat)
+* interfaz [IParagraphFormat](../../iparagraphformat)
+* espacio de nombres [Aspose.Slides](../../iparagraphformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

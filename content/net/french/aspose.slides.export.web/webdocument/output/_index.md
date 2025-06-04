@@ -1,7 +1,7 @@
 ---
 title: Output
-second_title: Référence API Aspose.Sldes pour .NET
-description: Renvoie la collection d'éléments de sortie du document. Lecture seule Output.
+second_title: Aspose.Slides pour référence API .NET
+description: Renvoie une collection d'éléments de sortie du document. Lecture seule Output.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export.web/webdocument/output/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export.web/webdocument/output/
 
 ## Propriété WebDocument.Output
 
-Renvoie la collection d'éléments de sortie du document. Lecture seule `Output`.
+Renvoie une collection d'éléments de sortie du document. Lecture seule `Output`.
 
 ```csharp
 public Output Output { get; }
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Output](../../output)
 * classe [WebDocument](../../webdocument)

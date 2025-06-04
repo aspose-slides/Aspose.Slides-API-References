@@ -1,6 +1,6 @@
 ---
 title: LegendDataLabelPosition
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence API .NET
 description: Détermine la position des étiquettes de données.
 type: docs
 weight: 2210
@@ -22,15 +22,15 @@ public enum LegendDataLabelPosition
 | NotDefined | `-1` | La position n'est pas définie. |
 | Bottom | `0` | Spécifie que les étiquettes de données doivent être affichées en dessous du marqueur de données. |
 | BestFit | `1` | Spécifie que les étiquettes de données doivent être affichées à la meilleure position. |
-| Center | `2` | Spécifie que les étiquettes de données doivent être affichées au centre du marqueur de données. |
+| Center | `2` | Spécifie que les étiquettes de données doivent être affichées centrées sur le marqueur de données. |
 | InsideBase | `3` | Spécifie que les étiquettes de données doivent être affichées à l'intérieur de la base du marqueur de données. |
-| InsideEnd | `4` | Spécifie que les étiquettes de données doivent être affichées à l'intérieur de la fin du marqueur de données. |
+| InsideEnd | `4` | Spécifie que les étiquettes de données doivent être affichées à l'intérieur de l'extrémité du marqueur de données. |
 | Left | `5` | Spécifie que les étiquettes de données doivent être affichées à gauche du marqueur de données. |
-| OutsideEnd | `6` | Spécifie que les étiquettes de données doivent être affichées à l'extérieur de la fin du marqueur de données. |
+| OutsideEnd | `6` | Spécifie que les étiquettes de données doivent être affichées à l'extérieur de l'extrémité du marqueur de données. |
 | Right | `7` | Spécifie que les étiquettes de données doivent être affichées à droite du marqueur de données. |
 | Top | `8` | Spécifie que les étiquettes de données doivent être affichées au-dessus du marqueur de données. |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

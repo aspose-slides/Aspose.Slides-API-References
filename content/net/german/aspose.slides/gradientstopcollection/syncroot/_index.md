@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Synchronisierungsstamm zurück. Nur-Lese-Objekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides/gradientstopcollection/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/gradientstopcollection/syncroot/
 
 ## GradientStopCollection.SyncRoot-Eigenschaft
 
-Gibt einen Synchronisierungsstamm zurück. Nur-Lese-Objekt.
+Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
 
 ```csharp
 public object SyncRoot { get; }

@@ -1,13 +1,13 @@
 ---
 title: AsIBaseShapeLock
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IBaseShapeLock. Lire seulemen l'IBaseShapeLockaspose.slides/ibaseshapelock.
+description: Permet d'obtenir l'interface de base IBaseShapeLock. Lecture seule IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ipictureframelock/asibaseshapelock/
 ---
 
-## Propriété IPictureFrameLock.AsIBaseShapeLock
+## IPictureFrameLock.AsIBaseShapeLock propriété
 
 Permet d'obtenir l'interface de base IBaseShapeLock. Lecture seule [`IBaseShapeLock`](../../ibaseshapelock).
 

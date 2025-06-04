@@ -1,7 +1,7 @@
 ---
 title: IsNoEffects
-second_title: Aspose.Sildes for .NET API Reference
-description: 如果所有效果都被禁用（如刚创建的默认 EffectFormat 对象），则返回 true。只读布尔值。
+second_title: Aspose.Sildes for .NET API 参考
+description: 如果所有效果都已禁用（如刚创建的默认 EffectFormat 对象），则返回 true。只读布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/effectformat/isnoeffects/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/effectformat/isnoeffects/
 
 ## EffectFormat.IsNoEffects 属性
 
-如果所有效果都被禁用（如刚创建的默认 EffectFormat 对象），则返回 true。只读布尔值。
+如果所有效果都已禁用（如刚创建的默认 EffectFormat 对象），则返回 true。只读布尔值。
 
 ```csharp
 public bool IsNoEffects { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [EffectFormat](../../effectformat)
 * namespace [Aspose.Slides](../../effectformat)

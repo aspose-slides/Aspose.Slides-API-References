@@ -1,7 +1,7 @@
 ---
 title: AddFromHtml
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Agrega texto de la cadena HTML especificada a la colección.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Agrega texto desde una cadena HTML especificada a la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides/paragraphcollection/addfromhtml/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/paragraphcollection/addfromhtml/
 
 ## AddFromHtml(string) {#addfromhtml}
 
-Agrega texto de la cadena HTML especificada a la colección.
+Agrega texto desde una cadena HTML especificada a la colección.
 
 ```csharp
 public void AddFromHtml(string text)
@@ -19,7 +19,7 @@ public void AddFromHtml(string text)
 | --- | --- | --- |
 | text | String | Texto HTML. |
 
-### También Visto
+### Ver También
 
 * class [ParagraphCollection](../../paragraphcollection)
 * namespace [Aspose.Slides](../../paragraphcollection)
@@ -29,7 +29,7 @@ public void AddFromHtml(string text)
 
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_1}
 
-Agrega texto de la cadena HTML especificada a la colección.
+Agrega texto desde una cadena HTML especificada a la colección.
 
 ```csharp
 public void AddFromHtml(string text, IExternalResourceResolver resolver, string uri)
@@ -38,14 +38,14 @@ public void AddFromHtml(string text, IExternalResourceResolver resolver, string 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | text | String | Texto HTML. |
-| resolver | IExternalResourceResolver | Objeto de callback de resolutor que resuelve URIs y obtiene objetos referenciados. |
-| uri | String | URI para agregar el documento HTML. Usado para resolver enlaces relativos. |
+| resolver | IExternalResourceResolver | Objeto de callback del resolvedor que resuelve URIs y obtiene objetos referenciados. |
+| uri | String | URI para agregar documento HTML. Usado para resolver enlaces relativos. |
 
-### Observaciones
+### Comentarios
 
-Especificar un resolutor puede potencialmente introducir una vulnerabilidad. Úselo con precaución.
+Especificar el resolvedor puede potencialmente introducir una vulnerabilidad. Usar con precaución.
 
-### También Visto
+### Ver También
 
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [ParagraphCollection](../../paragraphcollection)

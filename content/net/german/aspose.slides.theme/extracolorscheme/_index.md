@@ -1,6 +1,6 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt ein zusätzliches Farbschema dar, das einer Folie zugewiesen werden kann.
 type: docs
 weight: 10790
@@ -19,8 +19,8 @@ public class ExtraColorScheme : IExtraColorScheme
 
 | Name | Beschreibung |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Gibt ein Farbschema zurück. Nur-lesender [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Gibt den Namen dieses Schemas zurück. Nur-lesender String. |
+| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Gibt ein Farbschema zurück. Nur lesbar [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Gibt den Namen dieses Schemas zurück. Nur lesbar String. |
 
 ### Siehe auch
 

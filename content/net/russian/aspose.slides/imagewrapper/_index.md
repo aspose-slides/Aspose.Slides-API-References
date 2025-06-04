@@ -1,7 +1,7 @@
 ---
 title: ImageWrapper
-second_title: Справочник по API Aspose.Slides для .NET
-description: Обертка System.Drawing.Image для интерфейса COM.
+second_title: Aspose.Sildes для .NET API Reference
+description: Обертка для System.Drawing.Image для COM интерфейса.
 type: docs
 weight: 7220
 url: /ru/aspose.slides/imagewrapper/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imagewrapper/
 
 ## Класс ImageWrapper
 
-Обертка System.Drawing.Image для интерфейса COM.
+Обертка для System.Drawing.Image для COM интерфейса.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -20,16 +20,16 @@ public class ImageWrapper : IImageWrapper
 | Название | Описание |
 | --- | --- |
 | [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Получает изображение. Только для чтения [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Получает ширину и высоту изображения в пикселях. Только для чтения [`Size`](./size). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Получает ширину и высоту в пикселях изображения. Только для чтения [`Size`](./size). |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Освобождает ресурсы ImageWrapper |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Освобождает ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Сохраняет изображение в указанный файл |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Сохраняет изображение в указанный поток в заданном формате. |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Сохраняет изображение в указанный файл в заданном формате. |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Сохраняет изображение в указанный поток в указанном формате. |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Сохраняет изображение в указанный файл в указанном формате. |
 
 ### См. также
 

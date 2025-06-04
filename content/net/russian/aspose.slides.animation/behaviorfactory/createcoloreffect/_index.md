@@ -1,13 +1,13 @@
 ---
 title: CreateColorEffect
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает цветовой эффект.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/behaviorfactory/createcoloreffect/
 ---
 
-## Метод BehaviorFactory.CreateColorEffect
+## BehaviorFactory.CreateColorEffect метод
 
 Создает цветовой эффект.
 

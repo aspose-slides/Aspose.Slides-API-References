@@ -1,13 +1,13 @@
 ---
 title: FollowedHyperlink
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Color para los hipervínculos visitados. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 90
 url: /es/aspose.slides.theme/colorscheme/followedhyperlink/
 ---
 
-## Propiedad ColorScheme.FollowedHyperlink
+## ColorScheme.FollowedHyperlink propiedad
 
 Color para los hipervínculos visitados. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,11 +15,11 @@ Color para los hipervínculos visitados. Solo lectura [`IColorFormat`](../../../
 public IColorFormat FollowedHyperlink { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
-* clase [ColorScheme](../../colorscheme)
-* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
+* clase [ColorScheme](../../colorscheme)
+* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->

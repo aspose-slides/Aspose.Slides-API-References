@@ -1,6 +1,6 @@
 ---
 title: X
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回框架左上角的 X 坐标。只读单精度浮点数。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shapeframe/x/
 public float X { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [ShapeFrame](../../shapeframe)
 * namespace [Aspose.Slides](../../shapeframe)

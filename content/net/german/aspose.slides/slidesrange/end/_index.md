@@ -1,7 +1,7 @@
 ---
 title: End
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ende
+second_title: Aspose.Slides für .NET API Referenz
+description: End
 type: docs
 weight: 20
 url: /de/aspose.slides/slidesrange/end/
@@ -15,7 +15,7 @@ Ende
 public uint End { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SlidesRange](../../slidesrange)
 * Namespace [Aspose.Slides](../../slidesrange)

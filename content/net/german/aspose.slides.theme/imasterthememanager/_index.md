@@ -1,7 +1,7 @@
 ---
 title: IMasterThemeManager
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bietet Zugriff auf das Master-Theme der Präsentation.
+description: Bietet Zugriff auf das Hauptthema der Präsentation.
 type: docs
 weight: 11010
 url: /de/aspose.slides.theme/imasterthememanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/imasterthememanager/
 
 ## IMasterThemeManager-Schnittstelle
 
-Bietet Zugriff auf das Master-Theme der Präsentation.
+Bietet Zugriff auf das Hauptthema der Präsentation.
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -19,11 +19,11 @@ public interface IMasterThemeManager : IThemeManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IThemeManager. Nur-lesend [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Bestimmt, ob das OverrideTheme das ererbte effektive Thema (Presentation.MasterTheme) überschreibt oder nicht. Lese-/schreibbares Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Gibt das übergeordnete Themenobjekt zurück. Lese-/schreibbar [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Ermöglicht den Zugriff auf die Basis-Interface IThemeManager. Nur-lesbar [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Bestimmt, ob das OverrideTheme das übernommene effektive Thema (Presentation.MasterTheme) überschreibt oder nicht. Schreib-/lesbar Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Gibt das überschreibende Themenobjekt zurück. Schreib-/lesbar [`IMasterTheme`](../imastertheme). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IThemeManager](../ithememanager)
 * Namespace [Aspose.Slides.Theme](../../aspose.slides.theme)

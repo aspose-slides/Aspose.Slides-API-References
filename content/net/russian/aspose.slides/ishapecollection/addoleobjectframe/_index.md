@@ -1,7 +1,7 @@
 ---
 title: AddOleObjectFrame
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новый OLE объект в конец коллекции.
+second_title: Aspose.Slides для справки по API .NET
+description: Добавляет новый OLE-объект в конец коллекции.
 type: docs
 weight: 120
 url: /ru/aspose.slides/ishapecollection/addoleobjectframe/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapecollection/addoleobjectframe/
 
 ## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
-Добавляет новый OLE объект в конец коллекции.
+Добавляет новый OLE-объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -18,17 +18,17 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового OLE фрейма. |
-| y | Single | Координата Y нового OLE фрейма. |
-| width | Single | Ширина нового OLE фрейма. |
-| height | Single | Высота нового OLE фрейма. |
+| x | Single | Координата X нового OLE-рамки. |
+| y | Single | Координата Y нового OLE-рамки. |
+| width | Single | Ширина нового OLE-рамки. |
+| height | Single | Высота нового OLE-рамки. |
 | dataInfo | IOleEmbeddedDataInfo | Информация о встроенных данных [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### Возвращаемое значение
 
-Созданный OLE объект.
+Созданный OLE-объект.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * интерфейс [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
@@ -40,7 +40,7 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 ## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
-Добавляет новый OLE объект в конец коллекции.
+Добавляет новый OLE-объект в конец коллекции.
 
 ```csharp
 public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float height, 
@@ -49,18 +49,18 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового OLE фрейма. |
-| y | Single | Координата Y нового OLE фрейма. |
-| width | Single | Ширина нового OLE фрейма. |
-| height | Single | Высота нового OLE фрейма. |
-| className | String | Имя OLE класса. |
+| x | Single | Координата X нового OLE-рамки. |
+| y | Single | Координата Y нового OLE-рамки. |
+| width | Single | Ширина нового OLE-рамки. |
+| height | Single | Высота нового OLE-рамки. |
+| className | String | Имя OLE-класса. |
 | path | String | путь к связанному файлу. |
 
 ### Возвращаемое значение
 
-Созданный OLE объект.
+Созданный OLE-объект.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IOleObjectFrame](../../ioleobjectframe)
 * интерфейс [IShapeCollection](../../ishapecollection)

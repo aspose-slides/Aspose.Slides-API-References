@@ -1,7 +1,7 @@
 ---
 title: IEmptyTransition
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet de transition de diapositive vide.
+second_title: Aspose.Slidés pour .NET Référence de l'API
+description: Éffet de transition de diapositive vide.
 type: docs
 weight: 9770
 url: /fr/aspose.slides.slideshow/iemptytransition/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/iemptytransition/
 
 ## Interface IEmptyTransition
 
-Effet de transition de diapositive vide.
+Éffet de transition de diapositive vide.
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase

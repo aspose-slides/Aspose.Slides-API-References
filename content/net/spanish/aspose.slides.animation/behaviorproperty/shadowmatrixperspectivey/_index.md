@@ -1,6 +1,6 @@
 ---
 title: ShadowMatrixPerspectiveY
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa la propiedad shadow.matrix.perspectiveY
 type: docs
 weight: 630
@@ -15,7 +15,7 @@ Representa la propiedad 'shadow.matrix.perspectiveY'
 public static BehaviorProperty ShadowMatrixPerspectiveY { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

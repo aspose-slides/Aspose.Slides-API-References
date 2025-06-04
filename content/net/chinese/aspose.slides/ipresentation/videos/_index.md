@@ -1,7 +1,7 @@
 ---
 title: Videos
-second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中所有嵌入视频文件的集合。只读IVideoCollectionaspose.slides/ivideocollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回演示文稿中所有嵌入视频文件的集合。只读 IVideoCollectionaspose.slides/ivideocollection。
 type: docs
 weight: 280
 url: /zh/aspose.slides/ipresentation/videos/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ipresentation/videos/
 public IVideoCollection Videos { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IVideoCollection](../../ivideocollection)
 * 接口 [IPresentation](../../ipresentation)

@@ -1,7 +1,7 @@
 ---
 title: AsIWarningInfo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IWarningInfo-Interface zurück. Nur-Lesen IWarningInfoaspose.slides.warnings/iwarninginfo.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das IWarningInfo-Interface zurück. Nur lesbares IWarningInfoaspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
 url: /de/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarni
 
 ## IObsoletePresLockingBehaviorWarningInfo.AsIWarningInfo-Eigenschaft
 
-Gibt das IWarningInfo-Interface zurück. Nur-Lesen [`IWarningInfo`](../../iwarninginfo).
+Gibt das IWarningInfo-Interface zurück. Nur lesbares [`IWarningInfo`](../../iwarninginfo).
 
 ```csharp
 public IWarningInfo AsIWarningInfo { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [IWarningInfo](../../iwarninginfo)
 * Interface [IObsoletePresLockingBehaviorWarningInfo](../../iobsoletepreslockingbehaviorwarninginfo)

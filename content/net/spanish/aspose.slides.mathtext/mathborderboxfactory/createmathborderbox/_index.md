@@ -1,7 +1,7 @@
 ---
 title: CreateMathBorderBox
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Cree un cuadro de borde matemático aplicándolo al elemento
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Cree un cuadro de borde matemático aplicando al elemento
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
 
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-Cree un cuadro de borde matemático aplicándolo al elemento
+Cree un cuadro de borde matemático aplicando al elemento
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -19,7 +19,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | elemento matemático al que aplicar el cuadro de borde |
 
-### Valor de Retorno
+### Valor de retorno
 
 nuevo elemento de cuadro de borde
 
@@ -35,7 +35,7 @@ nuevo elemento de cuadro de borde
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-Cree un cuadro de borde matemático aplicándolo al elemento
+Cree un cuadro de borde matemático aplicando al elemento
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -46,16 +46,16 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | element | IMathElement | elemento matemático al que aplicar el cuadro de borde |
-| hideTop | Boolean | Ocultar el borde superior |
-| hideBottom | Boolean | Ocultar el borde inferior |
-| hideLeft | Boolean | Ocultar el borde izquierdo |
-| hideRight | Boolean | Ocultar el borde derecho |
-| strikethroughHorizontal | Boolean | Tacha horizontal del cuadro de borde |
-| strikethroughVertical | Boolean | Tacha vertical del cuadro de borde |
-| strikethroughBottomLeftToTopRight | Boolean | Tacha del cuadro de borde de abajo-izquierda a arriba-derecha |
-| strikethroughTopLeftToBottomRight | Boolean | Tacha del cuadro de borde de arriba-izquierda a abajo-derecha |
+| hideTop | Boolean | Ocultar borde superior |
+| hideBottom | Boolean | Ocultar borde inferior |
+| hideLeft | Boolean | Ocultar borde izquierdo |
+| hideRight | Boolean | Ocultar borde derecho |
+| strikethroughHorizontal | Boolean | Tachar cuadro de borde horizontal |
+| strikethroughVertical | Boolean | Tachar cuadro de borde vertical |
+| strikethroughBottomLeftToTopRight | Boolean | Tachar cuadro de borde de abajo-izquierda a arriba-derecha |
+| strikethroughTopLeftToBottomRight | Boolean | Tachar cuadro de borde de arriba-izquierda a abajo-derecha |
 
-### Valor de Retorno
+### Valor de retorno
 
 nuevo elemento de cuadro de borde
 

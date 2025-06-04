@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Справочник API Aspose.Sildes для .NET
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает перечислитель, который проходит через коллекцию.
 type: docs
 weight: 60
 url: /ru/aspose.slides/drawingguidescollection/getenumerator/
@@ -9,15 +9,15 @@ url: /ru/aspose.slides/drawingguidescollection/getenumerator/
 
 ## Метод DrawingGuidesCollection.GetEnumerator
 
-Возвращает enumerator, который перебирает коллекцию.
+Возвращает перечислитель, который проходит через коллекцию.
 
 ```csharp
 public IEnumerator<IDrawingGuide> GetEnumerator()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для итерации по коллекции.
 
 ### См. Также
 

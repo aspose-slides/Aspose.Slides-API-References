@@ -1,6 +1,6 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Constructeur par défaut.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Constructeur par défaut.
 public PptUnsupportedFormatException()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * espace de noms [Aspose.Slides](../../pptunsupportedformatexception)
@@ -35,7 +35,7 @@ public PptUnsupportedFormatException(string message)
 | --- | --- | --- |
 | message | String | message |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * espace de noms [Aspose.Slides](../../pptunsupportedformatexception)
@@ -45,7 +45,7 @@ public PptUnsupportedFormatException(string message)
 
 ## PptUnsupportedFormatException(string, Exception) {#constructor_2}
 
-Constructeur pour une exception contenant un message et une exception embarquée.
+Constructeur pour une exception contenant un message et une exception imbriquée.
 
 ```csharp
 public PptUnsupportedFormatException(string message, Exception exception)
@@ -56,7 +56,7 @@ public PptUnsupportedFormatException(string message, Exception exception)
 | message | String | message |
 | exception | Exception | exception d'origine |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * espace de noms [Aspose.Slides](../../pptunsupportedformatexception)

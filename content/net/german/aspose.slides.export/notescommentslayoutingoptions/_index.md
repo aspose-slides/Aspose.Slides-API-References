@@ -1,7 +1,7 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Bietet Optionen, die das Aussehen des Layouts von Notizen und Kommentaren im exportierten Dokument steuern.
+description: Bietet Optionen, die das Aussehen der Anordnung von Notizen und Kommentaren im exportierten Dokument steuern.
 type: docs
 weight: 4100
 url: /de/aspose.slides.export/notescommentslayoutingoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/notescommentslayoutingoptions/
 
 ## NotesCommentsLayoutingOptions-Klasse
 
-Bietet Optionen, die das Aussehen des Layouts von Notizen und Kommentaren im exportierten Dokument steuern.
+Bietet Optionen, die das Aussehen der Anordnung von Notizen und Kommentaren im exportierten Dokument steuern.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : INotesCommentsLayoutingOptions
@@ -25,11 +25,11 @@ public class NotesCommentsLayoutingOptions : INotesCommentsLayoutingOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Ruft die Farbe des Kommentarbereichs ab oder legt sie fest (Gilt nur, wenn Kommentare rechts angezeigt werden). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Ruft die Breite des Kommentar-Ausgabebereichs in Pixeln ab oder legt sie fest (Gilt nur, wenn Kommentare rechts angezeigt werden). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Ruft die Farbe des Kommentarbetriebsbereichs ab oder legt sie fest (Gilt nur, wenn Kommentare rechts angezeigt werden). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Ruft die Breite des Kommentarbereichs in Pixeln ab oder legt sie fest (Gilt nur, wenn Kommentare rechts angezeigt werden). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Ruft die Position der Kommentare auf der Seite ab oder legt sie fest. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Ruft die Position der Notizen auf der Seite ab oder legt sie fest. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Ruft die Sichtbarkeit von Kommentaren ab oder legt sie fest, die keinen Autor haben. Wenn wahr, werden die Kommentare angezeigt. (Gilt nur, wenn Kommentare angezeigt werden). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Ruft die Sichtbarkeit von Kommentaren ab oder legt sie fest, die keinen Autor haben. Wenn true, werden Kommentare angezeigt. (Gilt nur, wenn Kommentare angezeigt werden). |
 
 ### Siehe auch
 

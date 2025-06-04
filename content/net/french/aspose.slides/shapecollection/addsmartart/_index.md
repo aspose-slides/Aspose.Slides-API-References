@@ -1,13 +1,13 @@
 ---
 title: AddSmartArt
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajouter un diagramme SmartArt.
 type: docs
 weight: 180
 url: /fr/aspose.slides/shapecollection/addsmartart/
 ---
 
-## Méthode ShapeCollection.AddSmartArt
+## ShapeCollection.AddSmartArt méthode
 
 Ajouter un diagramme SmartArt.
 
@@ -24,7 +24,7 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 | height | Single | La hauteur du cadre du diagramme. |
 | layoutType | SmartArtLayoutType | Le type de diagramme SmartArt |
 
-### Valeur de Retour
+### Valeur de retour
 
 Créer un diagramme SmartArt
 

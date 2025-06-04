@@ -7,7 +7,7 @@ weight: 50
 url: /ru/aspose.slides/ipresentation/commentauthors/
 ---
 
-## Свойство IPresentation.CommentAuthors
+## IPresentation.CommentAuthors свойство
 
 Возвращает коллекцию авторов комментариев. Только для чтения [`ICommentAuthorCollection`](../../icommentauthorcollection).
 
@@ -19,7 +19,7 @@ public ICommentAuthorCollection CommentAuthors { get; }
 
 * интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)
 * интерфейс [IPresentation](../../ipresentation)
-* пространство имен [Aspose.Slides](../../ipresentation)
+* пространство имён [Aspose.Slides](../../ipresentation)
 * сборка [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: сгенерировано xmldocmd для Aspose.Slides.dll -->

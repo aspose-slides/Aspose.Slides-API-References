@@ -1,6 +1,6 @@
 ---
 title: IAlphaModulateEffectiveData
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Objet immuable qui représente un effet de modulation alpha. Les valeurs d'opacité alpha de l'effet sont multipliées par un pourcentage fixe. Le conteneur d'effet spécifie un effet contenant des valeurs alpha à moduler.
 type: docs
 weight: 3010
@@ -19,9 +19,9 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

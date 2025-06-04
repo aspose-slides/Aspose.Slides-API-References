@@ -1,6 +1,6 @@
 ---
 title: Size
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Obtient la largeur et la hauteur en pixels de l'image. Taille en lecture seule aspose.slides/imagewrapper/size.
 type: docs
 weight: 20
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/imagewrapper/size/
 
 ## Propriété ImageWrapper.Size
 
-Obtient la largeur et la hauteur, en pixels, de l'image. `Size` en lecture seule.
+Obtient la largeur et la hauteur, en pixels, de l'image. Lecture seule `Size`.
 
 ```csharp
 public Size Size { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ImageWrapper](../../imagewrapper)
 * espace de noms [Aspose.Slides](../../imagewrapper)

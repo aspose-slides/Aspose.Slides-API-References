@@ -1,15 +1,15 @@
 ---
 title: Value
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Si UseCell est vrai, alors cette propriété représente la propriété AsCell.Value. Si UseCell est faux, alors cette propriété représente la propriété AsLiteral. Objet en lecture/écriture.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Si UseCell est vrai, alors cette propriété représente la propriété AsCell.Value. Si UseCell est faux, alors cette propriété représente la propriété AsLiteral. Objet lisible/écrivible.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/chartcategory/value/
 ---
 
-## Propriété ChartCategory.Value
+## ChartCategory.Value property
 
-Si UseCell est vrai, alors cette propriété représente la propriété AsCell.Value. Si UseCell est faux, alors cette propriété représente la propriété AsLiteral. Objet en lecture/écriture.
+Si UseCell est vrai, alors cette propriété représente la propriété AsCell.Value. Si UseCell est faux, alors cette propriété représente la propriété AsLiteral. Objet lisible/écrivable.
 
 ```csharp
 public object Value { get; set; }

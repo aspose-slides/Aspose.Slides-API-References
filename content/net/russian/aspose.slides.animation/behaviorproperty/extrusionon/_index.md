@@ -1,13 +1,13 @@
 ---
 title: ExtrusionOn
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API справочник
 description: Представляет свойство extrusion.on
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionon/
 ---
 
-## Свойство BehaviorProperty.ExtrusionOn
+## BehaviorProperty.ExtrusionOn свойство
 
 Представляет свойство 'extrusion.on'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionon/
 public static BehaviorProperty ExtrusionOn { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

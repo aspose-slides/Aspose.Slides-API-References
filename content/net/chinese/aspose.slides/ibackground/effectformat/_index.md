@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 BackgroundType.OwnBackground 填充的 EffectFormat。只读 IEffectFormataspose.slides/ieffectformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回用于 BackgroundType.OwnBackground 填充的 EffectFormat。读取属性 IEffectFormat aspose.slides/ieffectformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ibackground/effectformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibackground/effectformat/
 
 ## IBackground.EffectFormat 属性
 
-返回 BackgroundType.OwnBackground 填充的 EffectFormat。只读 [`IEffectFormat`](../../ieffectformat)。
+返回用于 BackgroundType.OwnBackground 填充的 EffectFormat。只读 [`IEffectFormat`](../../ieffectformat)。
 
 ```csharp
 public IEffectFormat EffectFormat { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 接口 [IBackground](../../ibackground)

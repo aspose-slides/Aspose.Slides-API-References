@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置垂直文本的类型。可读可写 TextVerticalType aspose.slides/textverticaltype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置垂直文本的类型。可读写 TextVerticalTypeaspose.slides/textverticaltype。
 type: docs
 weight: 220
 url: /zh/aspose.slides/icell/textverticaltype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icell/textverticaltype/
 
 ## ICell.TextVerticalType 属性
 
-返回或设置垂直文本的类型。可读可写 [`TextVerticalType`](../../textverticaltype)。
+返回或设置垂直文本的类型。可读写 [`TextVerticalType`](../../textverticaltype)。
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 枚举 [TextVerticalType](../../textverticaltype)
 * 接口 [ICell](../../icell)

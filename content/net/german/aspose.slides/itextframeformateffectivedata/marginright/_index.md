@@ -1,6 +1,6 @@
 ---
 title: MarginRight
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die rechten Randpunkte in einem TextFrame zurück. Nur-Lese Double.
 type: docs
 weight: 80

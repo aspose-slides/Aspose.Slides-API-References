@@ -1,13 +1,13 @@
 ---
 title: BlurRadius
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Rayon de flou. Lecture/écriture Double.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/innershadow/blurradius/
 ---
 
-## Propriété InnerShadow.BlurRadius
+## InnerShadow.BlurRadius propriété
 
 Rayon de flou. Lecture/écriture Double.
 

@@ -1,7 +1,7 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes для .NET API справочник
-description: Представляет эффект Двухтональности.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект Двухцветности.
 type: docs
 weight: 3140
 url: /ru/aspose.slides.effects/iduotone/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iduotone/
 
 ## Интерфейс IDuotone
 
-Представляет эффект Двухтональности.
+Представляет эффект Двухцветности.
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -17,7 +17,7 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |

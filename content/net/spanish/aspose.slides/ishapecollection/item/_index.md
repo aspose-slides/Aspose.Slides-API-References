@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/ishapecollection/item/
 ---
 
-## Indexador IShapeCollection
+## IShapeCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IShape`](../../ishape).
 

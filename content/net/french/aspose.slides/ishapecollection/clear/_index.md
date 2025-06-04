@@ -7,7 +7,7 @@ weight: 200
 url: /fr/aspose.slides/ishapecollection/clear/
 ---
 
-## Méthode IShapeCollection.Clear
+## IShapeCollection.Clear méthode
 
 Supprime toutes les formes de la collection.
 
@@ -15,7 +15,7 @@ Supprime toutes les formes de la collection.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShapeCollection](../../ishapecollection)
 * namespace [Aspose.Slides](../../ishapecollection)

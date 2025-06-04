@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartdataworksheetcollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [ChartDataWorksheetCollection](../../chartdataworksheetcollection)
 * пространство имен [Aspose.Slides.Charts](../../chartdataworksheetcollection)

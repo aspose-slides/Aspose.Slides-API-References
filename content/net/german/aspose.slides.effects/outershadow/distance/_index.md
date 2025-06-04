@@ -1,15 +1,15 @@
 ---
 title: Distance
-second_title: Aspose.Slides für .NET API-Referenz
-description: Distanz des Schattens. Lese-/Schreib Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Abstand des Schattens. Lese-/Schreib Double.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/outershadow/distance/
 ---
 
-## OuterShadow.Distance-Eigenschaft
+## OuterShadow.Distance Eigenschaften
 
-Distanz des Schattens. Lese-/Schreib Double.
+Abstand des Schattens. Lese-/Schreib Double.
 
 ```csharp
 public double Distance { get; set; }

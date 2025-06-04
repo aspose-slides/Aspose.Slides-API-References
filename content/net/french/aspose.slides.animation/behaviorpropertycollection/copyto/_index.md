@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides pour .NET API Référence
-description: Copie les éléments de l'ICollection dans un tableau en commençant à un index particulier.
+second_title: Référence API Aspose.Slides pour .NET
+description: Copie les éléments de l'ICollection dans un tableau en commençant à un index de tableau particulier.
 type: docs
 weight: 70
 url: /fr/aspose.slides.animation/behaviorpropertycollection/copyto/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/behaviorpropertycollection/copyto/
 
 ## Méthode BehaviorPropertyCollection.CopyTo
 
-Copie les éléments de l'ICollection dans un tableau, en commençant à un index particulier.
+Copie les éléments de l'ICollection dans un tableau, en commençant à un index de tableau particulier.
 
 ```csharp
 public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
@@ -17,8 +17,8 @@ public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| array | IBehaviorProperty[] | Le tableau unidimensionnel qui est la destination des éléments copiés depuis l'ICollection. Le tableau doit avoir un index basé sur zéro. |
-| arrayIndex | Int32 | L'index basé sur zéro dans *array* où commence la copie. |
+| array | IBehaviorProperty[] | Le tableau unidimensionnel qui est la destination des éléments copiés depuis l'ICollection. Le tableau doit avoir un index de base zéro. |
+| arrayIndex | Int32 | L'index de base zéro dans *array* où commence la copie. |
 
 ### Exceptions
 
@@ -26,7 +26,7 @@ public void CopyTo(IBehaviorProperty[] array, int arrayIndex)
 | --- | --- |
 | ArgumentNullException | *array* est nul. |
 | ArgumentOutOfRangeException | *arrayIndex* est inférieur à 0. |
-| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible de *arrayIndex* jusqu'à la fin du *array* de destination. |
+| ArgumentException | Le nombre d'éléments dans l'ICollection source est supérieur à l'espace disponible depuis *arrayIndex* jusqu'à la fin du *array* destination. |
 
 ### Voir aussi
 

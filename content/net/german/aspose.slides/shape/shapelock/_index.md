@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sperren von Formen zurück. Schreibgeschützte IBaseShapeLockaspose.slides/ibaseshapelock.
+description: Gibt die Sperren von Formen zurück. Schreibgeschütztes IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 250
 url: /de/aspose.slides/shape/shapelock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/shapelock/
 
 ## Shape.ShapeLock-Eigenschaft
 
-Gibt die Sperren der Form zurück. Schreibgeschützt [`IBaseShapeLock`](../../ibaseshapelock).
+Gibt die Sperren der Form zurück. Schreibgeschütztes [`IBaseShapeLock`](../../ibaseshapelock).
 
 ```csharp
 public IBaseShapeLock ShapeLock { get; }

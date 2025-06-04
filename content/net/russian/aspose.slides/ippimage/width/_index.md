@@ -1,6 +1,6 @@
 ---
 title: Width
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Возвращает ширину изображения. Только для чтения Int32.
 type: docs
 weight: 60

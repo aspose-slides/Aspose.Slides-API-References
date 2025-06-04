@@ -1,6 +1,6 @@
 ---
 title: HyperlinkBase
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece la propiedad del documento HyperlinkBase. Cadena de lectura/escritura.
 type: docs
 weight: 130
@@ -15,10 +15,10 @@ Devuelve o establece la propiedad del documento HyperlinkBase. Cadena de lectura
 public string HyperlinkBase { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

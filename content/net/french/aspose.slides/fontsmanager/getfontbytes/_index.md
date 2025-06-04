@@ -1,15 +1,15 @@
 ---
 title: GetFontBytes
-second_title: Aspose.Slides pour .NET Référence API
-description: Récupère le tableau d'octets représentant les données de la police pour un style de police et des données de police spécifiés.
+second_title: Aspose.Slides pour la référence API .NET
+description: Récupère le tableau d'octets représentant les données de police pour un style de police et des données de police spécifiés.
 type: docs
 weight: 50
 url: /fr/aspose.slides/fontsmanager/getfontbytes/
 ---
 
-## Méthode FontsManager.GetFontBytes
+## FontsManager.GetFontBytes méthode
 
-Récupère le tableau d'octets représentant les données de la police pour un style de police et des données de police spécifiés.
+Récupère le tableau d'octets représentant les données de police pour un style de police et des données de police spécifiés.
 
 ```csharp
 public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
@@ -17,12 +17,12 @@ public byte[] GetFontBytes(IFontData fontData, FontStyle fontStyle)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontData | IFontData | L'objet de données de police contenant des informations sur la police [`FontData`](../../fontdata). |
+| fontData | IFontData | L'objet de données de police contenant les informations sur la police [`FontData`](../../fontdata). |
 | fontStyle | FontStyle | Le style de la police pour lequel les données doivent être récupérées FontStyle. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Un tableau d'octets contenant les données de la police pour le style de police spécifié. Si les données ou le style de la police ne sont pas trouvés, retourne null.
+Un tableau d'octets contenant les données de police pour le style de police spécifié. Si les données de police ou le style ne sont pas trouvés, retourne null.
 
 ### Exemples
 

@@ -1,6 +1,6 @@
 ---
 title: AddFromPdf
-second_title: Aspose.Sildes pour la référence de l'API .NET
+second_title: Aspose.Sildes pour l'API .NET Référence
 description: Crée des diapositives à partir du document PDF et les ajoute à la fin de la collection.
 type: docs
 weight: 80
@@ -25,7 +25,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
 
-Crée des diapositives à partir du document PDF et les ajoute à la fin de la collection en considérant les options d'importation PDF.
+Crée des diapositives à partir du document PDF et les ajoute à la fin de la collection en tenant compte des options d'importation PDF.
 
 ```csharp
 public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
@@ -64,7 +64,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -103,7 +103,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -146,7 +146,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

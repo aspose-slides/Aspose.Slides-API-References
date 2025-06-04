@@ -7,7 +7,7 @@ weight: 370
 url: /es/aspose.slides/idocumentproperties/clearcustomproperties/
 ---
 
-## Método IDocumentProperties.ClearCustomProperties
+## IDocumentProperties.ClearCustomProperties método
 
 Elimina todas las propiedades personalizadas.
 
@@ -19,6 +19,6 @@ public void ClearCustomProperties()
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

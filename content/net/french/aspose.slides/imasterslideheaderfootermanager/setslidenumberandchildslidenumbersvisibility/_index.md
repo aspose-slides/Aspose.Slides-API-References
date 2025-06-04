@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Aspose.Sildes pour la référence API .NET
-description: Modifie la visibilité de l'espace réservé au numéro de page de la diapositive maîtresse et de tous les espaces réservés au numéro de page des diapositives enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
+second_title: Aspose.Slides pour .NET Référence API
+description: Modifie la visibilité de l'espace réservé du numéro de page de la diapositive maîtresse et de tous les espaces réservés du numéro de page des diapositives enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
 type: docs
 weight: 60
 url: /fr/aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildsli
 
 ## IMasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility méthode
 
-Modifie la visibilité de l'espace réservé au numéro de page de la diapositive maîtresse et de tous les espaces réservés au numéro de page des diapositives enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans les diapositives de mise en page dépendantes et les diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
+Modifie la visibilité de l'espace réservé du numéro de page de la diapositive maîtresse et de tous les espaces réservés du numéro de page des diapositives enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés de numéro de page visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les espaces réservés du numéro de page visibles, sinon - les cache. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * namespace [Aspose.Slides](../../imasterslideheaderfootermanager)

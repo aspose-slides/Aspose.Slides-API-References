@@ -1,7 +1,7 @@
 ---
 title: GetPresentationText
-second_title: Aspose.Sildes для справочника API .NET
-description: Извлекает необработанный текст из слайдов
+second_title: Aspose.Sildes для .NET API Справочник
+description: Извлекает сырой текст из слайдов
 type: docs
 weight: 50
 url: /ru/aspose.slides/presentationfactory/getpresentationtext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentationfactory/getpresentationtext/
 
 ## GetPresentationText(string, TextExtractionArrangingMode) {#getpresentationtext_2}
 
-Извлекает необработанный текст из слайдов
+Извлекает сырой текст из слайдов
 
 ```csharp
 public IPresentationText GetPresentationText(string file, TextExtractionArrangingMode mode)
@@ -22,7 +22,7 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 
 ### Возвращаемое значение
 
-Экземпляр PresentationText, содержащий массив SlideText, представляющий необработанный текст слайдов
+Экземпляр PresentationText, содержащий массив SlideText, представляющий сырой текст слайдов
 
 ### См. также
 
@@ -36,7 +36,7 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 
 ## GetPresentationText(Stream, TextExtractionArrangingMode) {#getpresentationtext}
 
-Извлекает необработанный текст из слайдов
+Извлекает сырой текст из слайдов
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode)
@@ -49,7 +49,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ### Возвращаемое значение
 
-Экземпляр PresentationText, содержащий массив SlideText, представляющий необработанный текст слайдов
+Экземпляр PresentationText, содержащий массив SlideText, представляющий сырой текст слайдов
 
 ### См. также
 
@@ -63,7 +63,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ## GetPresentationText(Stream, TextExtractionArrangingMode, ILoadOptions) {#getpresentationtext_1}
 
-Извлекает необработанный текст из слайдов
+Извлекает сырой текст из слайдов
 
 ```csharp
 public IPresentationText GetPresentationText(Stream stream, TextExtractionArrangingMode mode, 
@@ -74,11 +74,11 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 | --- | --- | --- |
 | stream | Stream | Входной поток |
 | mode | TextExtractionArrangingMode | Режим извлечения |
-| options | ILoadOptions | Опции загрузки |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
-Экземпляр PresentationText, содержащий массив SlideText, представляющий необработанный текст слайдов
+Экземпляр PresentationText, содержащий массив SlideText, представляющий сырой текст слайдов
 
 ### См. также
 

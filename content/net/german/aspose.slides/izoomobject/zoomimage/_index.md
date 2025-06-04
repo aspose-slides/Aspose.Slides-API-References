@@ -1,7 +1,7 @@
 ---
 title: ZoomImage
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Bild für das Zoomobjekt ab oder legt es fest. Lese-/schreibbarer IPPImageaspose.slides/ippimage.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft das Bild für das Zoom-Objekt ab oder legt es fest. Lese-/Schreibzugriff auf IPPImageaspose.slides/ippimage.
 type: docs
 weight: 60
 url: /de/aspose.slides/izoomobject/zoomimage/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/izoomobject/zoomimage/
 
 ## IZoomObject.ZoomImage-Eigenschaft
 
-Ruhrt das Bild für das Zoomobjekt ab oder legt es fest. Lese-/schreibbar [`IPPImage`](../../ippimage).
+Ruft das Bild für das Zoom-Objekt ab oder legt es fest. Lese-/Schreibzugriff auf [`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage ZoomImage { get; set; }
@@ -17,7 +17,7 @@ public IPPImage ZoomImage { get; set; }
 
 ### Beispiele
 
-Das Beispiel demonstriert das Ändern eines Bildes eines Zoomobjekts:
+Das Beispiel demonstriert, wie man das Bild eines Zoom-Objekts ändert:
 
 ```csharp
 [C#]

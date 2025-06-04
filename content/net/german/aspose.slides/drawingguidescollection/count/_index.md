@@ -15,7 +15,7 @@ Gibt die Anzahl der Elemente in der Sammlung zurück. Schreibgeschützter Int32.
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DrawingGuidesCollection](../../drawingguidescollection)
 * Namespace [Aspose.Slides](../../drawingguidescollection)

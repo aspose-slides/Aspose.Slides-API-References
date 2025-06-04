@@ -7,7 +7,7 @@ weight: 170
 url: /es/aspose.slides.effects/imagetransformoperationfactory/createluminance/
 ---
 
-## Método ImageTransformOperationFactory.CreateLuminance
+## ImageTransformOperationFactory.CreateLuminance method
 
 Crea el efecto de Luminancia.
 
@@ -29,6 +29,6 @@ Efecto de Luminancia.
 * interfaz [ILuminance](../../iluminance)
 * clase [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * espacio de nombres [Aspose.Slides.Effects](../../imagetransformoperationfactory)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

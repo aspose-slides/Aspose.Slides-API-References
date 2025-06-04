@@ -1,7 +1,7 @@
 ---
 title: SketchType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Skizzen-Typ zurück oder legt ihn fest. Lese-/Schreibzugriff auf LineSketchTypeaspose.slides/linesketchtype.
+description: Gibt den Skizzen-Typ zurück oder legt ihn fest. Lese-/schreibbar LineSketchType aspose.slides/linesketchtype.
 type: docs
 weight: 10
 url: /de/aspose.slides/sketchformat/sketchtype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/sketchformat/sketchtype/
 
 ## SketchFormat.SketchType-Eigenschaft
 
-Gibt den Skizzen-Typ zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`LineSketchType`](../../linesketchtype).
+Gibt den Skizzen-Typ zurück oder legt ihn fest. Lese-/schreibbar [`LineSketchType`](../../linesketchtype).
 
 ```csharp
 public LineSketchType SketchType { get; set; }

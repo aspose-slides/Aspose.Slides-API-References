@@ -1,21 +1,21 @@
 ---
 title: IsChartTypeScatter
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает true, если chartType является одним из подтипов Scatter. Множество подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает true, если chartType является одним из подтипов Scatter. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
 ---
 
-## Метод ChartTypeCharacterizer.IsChartTypeScatter
+## ChartTypeCharacterizer.IsChartTypeScatter метод
 
-Возвращает true, если chartType является одним из подтипов Scatter. Множество подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Изменить тип диаграммы" в PowerPoint): ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+Возвращает true, если chartType является одним из подтипов Scatter. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Изменить тип диаграммы" в PowerPoint): ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
 
 ```csharp
 public static bool IsChartTypeScatter(ChartType chartType)
 ```
 
-### См. также
+### См. Также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

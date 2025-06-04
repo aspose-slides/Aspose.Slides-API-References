@@ -1,6 +1,6 @@
 ---
 title: Threshold
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie la valeur du seuil. Lecture seule Single.
 type: docs
 weight: 20

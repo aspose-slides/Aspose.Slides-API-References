@@ -1,21 +1,21 @@
 ---
 title: Comments
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает коллекцию комментариев, сделанных данным автором. Только для чтения ICommentCollectionaspose.slides/icommentcollection.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает коллекцию комментариев, сделанных этим автором. Только для чтения ICommentCollectionaspose.slides/icommentcollection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/commentauthor/comments/
 ---
 
-## Свойство CommentAuthor.Comments
+## CommentAuthor.Comments свойство
 
-Возвращает коллекцию комментариев, сделанных данным автором. Только для чтения [`ICommentCollection`](../../icommentcollection).
+Возвращает коллекцию комментариев, сделанных этим автором. Только для чтения [`ICommentCollection`](../../icommentcollection).
 
 ```csharp
 public ICommentCollection Comments { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ICommentCollection](../../icommentcollection)
 * класс [CommentAuthor](../../commentauthor)

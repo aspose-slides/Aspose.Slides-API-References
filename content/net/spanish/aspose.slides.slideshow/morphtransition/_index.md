@@ -1,7 +1,7 @@
 ---
 title: MorphTransition
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Efecto de transición de diapositivas en forma de onda.
+second_title: Aspose.Sildes para .NET API Reference
+description: Efecto de transición de diapositivas de ondas.
 type: docs
 weight: 9940
 url: /es/aspose.slides.slideshow/morphtransition/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.slideshow/morphtransition/
 
 ## Clase MorphTransition
 
-Efecto de transición de diapositivas en forma de onda.
+Efecto de transición de diapositivas de ondas.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -19,16 +19,16 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Nombre | Descripción |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Tipo de transición en forma de onda. Lectura/escritura [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Tipo de transición morfológica. Lectura/escritura [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina si las dos instancias de TransitionValueBase son iguales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como una función hash para un tipo particular, adecuada para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sirve como una función hash para un tipo particular, adecuado para su uso en algoritmos de hash y estructuras de datos como una tabla hash. |
 
-### Véase También
+### Véase también
 
 * clase [TransitionValueBase](../transitionvaluebase)
 * interfaz [IMorphTransition](../imorphtransition)

@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Ajoute une nouvelle propriété à la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/behaviorpropertycollection/add/
 ---
 
-## Ajouter(IBehaviorProperty) {#add}
+## Add(IBehaviorProperty) {#add}
 
 Ajoute une nouvelle propriété à la collection.
 
@@ -19,7 +19,7 @@ public void Add(IBehaviorProperty item)
 | --- | --- | --- |
 | item | IBehaviorProperty | Propriété à ajouter. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBehaviorProperty](../../ibehaviorproperty)
 * class [BehaviorPropertyCollection](../../behaviorpropertycollection)
@@ -28,7 +28,7 @@ public void Add(IBehaviorProperty item)
 
 ---
 
-## Ajouter(string) {#add_1}
+## Add(string) {#add_1}
 
 Ajoute une nouvelle propriété à la collection.
 
@@ -40,7 +40,7 @@ public void Add(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Valeur de la propriété à ajouter. |
 
-### Voir Aussi
+### Voir aussi
 
 * class [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * namespace [Aspose.Slides.Animation](../../behaviorpropertycollection)

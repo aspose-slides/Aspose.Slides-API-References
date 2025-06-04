@@ -1,13 +1,13 @@
 ---
 title: Name
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve o establece el nombre del autor. Cadena de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides/icommentauthor/name/
 ---
 
-## Propiedad ICommentAuthor.Name
+## ICommentAuthor.Name propiedad
 
 Devuelve o establece el nombre del autor. Cadena de lectura/escritura.
 
@@ -15,10 +15,10 @@ Devuelve o establece el nombre del autor. Cadena de lectura/escritura.
 public string Name { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* interface [ICommentAuthor](../../icommentauthor)
-* namespace [Aspose.Slides](../../icommentauthor)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ICommentAuthor](../../icommentauthor)
+* espacio de nombres [Aspose.Slides](../../icommentauthor)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

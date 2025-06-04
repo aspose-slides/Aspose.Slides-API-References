@@ -1,21 +1,21 @@
 ---
 title: DimensionSize
-second_title: Aspose.Slides for .NET API 参考
-description: 指定幻灯片区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。可读/可写的 Single。在值小于 0 或大于 100 时抛出异常。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定幻灯片区域的大小（当是RestoredTop的子项时为宽度，当是RestoredLeft的子项时为高度）。可读写单精度浮点数。当值小于0或大于100时会抛出异常。
 type: docs
 weight: 20
 url: /zh/aspose.slides/inormalviewrestoredproperties/dimensionsize/
 ---
 
-## INormalViewRestoredProperties.DimensionSize 属性
+## INormalViewRestoredProperties.DimensionSize property
 
-指定幻灯片区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。可读/可写的 Single。在值小于 0 或大于 100 时抛出异常。
+指定幻灯片区域的大小（当是RestoredTop的子项时为宽度，当是RestoredLeft的子项时为高度）。可读写单精度浮点数。当值小于0或大于100时会抛出异常。
 
 ```csharp
 public float DimensionSize { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
 * 命名空间 [Aspose.Slides](../../inormalviewrestoredproperties)

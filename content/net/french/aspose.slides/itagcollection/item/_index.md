@@ -1,15 +1,15 @@
 ---
 title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit une paire clé-valeur d'un tag.
+description: Renvoie ou définit une paire clé-valeur d'une balise.
 type: docs
 weight: 10
 url: /fr/aspose.slides/itagcollection/item/
 ---
 
-## Indexeur ITagCollection
+## Indice ITagCollection
 
-Retourne ou définit une paire clé-valeur d'un tag.
+Renvoie ou définit une paire clé-valeur d'une balise.
 
 ```csharp
 public string this[string name] { get; set; }
@@ -17,13 +17,13 @@ public string this[string name] { get; set; }
 
 | Paramètre | Description |
 | --- | --- |
-| name | Clé d'un tag. |
+| name | Clé d'une balise. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Valeur d'un tag.
+Valeur d'une balise.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITagCollection](../../itagcollection)
 * namespace [Aspose.Slides](../../itagcollection)

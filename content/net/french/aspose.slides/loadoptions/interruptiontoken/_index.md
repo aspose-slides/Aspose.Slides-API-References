@@ -1,7 +1,7 @@
 ---
 title: InterruptionToken
-second_title: Référence API Aspose.Slides pour .NET
-description: Le jeton pour surveiller les demandes d'interruption. Ce jeton gère toute la durée de vie de l'instance IPresentationaspose.slides/ipresentation d'Aspose.Slides. Toute opération de longue durée, telle que le chargement ou l'enregistrement de la présentation, sera interrompue en appelant la méthode Interruptaspose.slides/interruptiontokensource/interrupt de la classe InterruptionTokenSourceaspose.slides/interruptiontokensource.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Le jeton pour surveiller les demandes d'interruption. Ce jeton gère toute la durée de vie de l'instance IPresentationaspose.slides/ipresentation. Toute opération longue, telle que le chargement ou l'enregistrement de la présentation, sera interrompue par l'appel de la méthode Interruptaspose.slides/interruptiontokensource/interrupt de l'InterruptionTokenSourceaspose.slides/interruptiontokensource.
 type: docs
 weight: 90
 url: /fr/aspose.slides/loadoptions/interruptiontoken/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/loadoptions/interruptiontoken/
 
 ## Propriété LoadOptions.InterruptionToken
 
-Le jeton pour surveiller les demandes d'interruption. Ce jeton gère toute la durée de vie de l'instance [`IPresentation`](../../ipresentation). Toute opération de longue durée, telle que le chargement ou l'enregistrement de la présentation, sera interrompue en appelant la méthode [`Interrupt`](../../interruptiontokensource/interrupt) de la classe [`InterruptionTokenSource`](../../interruptiontokensource).
+Le jeton pour surveiller les demandes d'interruption. Ce jeton gère toute la durée de vie de l'instance [`IPresentation`](../../ipresentation). Toute opération longue, comme le chargement ou l'enregistrement de la présentation, sera interrompue par l'appel de la méthode [`Interrupt`](../../interruptiontokensource/interrupt) de l'[`InterruptionTokenSource`](../../interruptiontokensource).
 
 ```csharp
 public IInterruptionToken InterruptionToken { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IInterruptionToken](../../iinterruptiontoken)
 * class [LoadOptions](../../loadoptions)

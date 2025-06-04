@@ -19,7 +19,7 @@ public void SplitByHeight(double height)
 | --- | --- | --- |
 | height | Double | Höhe einer Zeile. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

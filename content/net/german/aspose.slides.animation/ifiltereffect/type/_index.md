@@ -15,7 +15,7 @@ Stellt den Typ des Filtereffekts dar. Lese-/Schreibzugriff auf [`FilterEffectTyp
 public FilterEffectType Type { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [FilterEffectType](../../filtereffecttype)
 * interface [IFilterEffect](../../ifiltereffect)

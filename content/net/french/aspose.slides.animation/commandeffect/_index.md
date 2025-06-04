@@ -1,13 +1,13 @@
 ---
 title: CommandEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la Référence API .NET
 description: Représente un effet de commande pour un comportement d'animation.
 type: docs
 weight: 180
 url: /fr/aspose.slides.animation/commandeffect/
 ---
 
-## Classe CommandEffect
+## CommandEffect class
 
 Représente un effet de commande pour un comportement d'animation.
 
@@ -30,7 +30,7 @@ public class CommandEffect : Behavior, ICommandEffect
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Définit la chaîne de commande. Lecture/écriture String. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Définit la cible de forme de l'effet de commande. Lecture/écriture [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de synchronisation pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de timing pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Définit le type d'effet de commande du comportement. Lecture/écriture [`CommandEffectType`](../commandeffecttype). |
 
 ### Voir aussi

@@ -1,6 +1,6 @@
 ---
 title: TextVerticalType
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Détermine le mode d'écriture vertical pour un texte.
 type: docs
 weight: 10720

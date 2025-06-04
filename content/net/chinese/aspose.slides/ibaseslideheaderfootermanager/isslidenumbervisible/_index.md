@@ -1,7 +1,7 @@
 ---
 title: IsSlideNumberVisible
-second_title: Aspose.Slides for .NET API Reference
-description: 获取表示页面编号占位符存在的值。 ReadBoolean。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取指示页面编号占位符是否存在的值。ReadBoolean。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible/
 
 ## IBaseSlideHeaderFooterManager.IsSlideNumberVisible 属性
 
-获取表示页面编号占位符存在的值。 ReadBoolean。
+获取指示页面编号占位符是否存在的值。ReadBoolean。
 
 ```csharp
 public bool IsSlideNumberVisible { get; }
 ```
 
-### 另请参见
+### 相关链接
 
 * 接口 [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../ibaseslideheaderfootermanager)

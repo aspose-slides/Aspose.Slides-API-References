@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl zurück. Schreibgeschütztes Int32.
+description: Gibt die Anzahl zurück. Nur lesender Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartdataworksheetcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdataworksheetcollection/count/
 
 ## ChartDataWorksheetCollection.Count-Eigenschaft
 
-Gibt die Anzahl zurück. Schreibgeschütztes Int32.
+Gibt die Anzahl zurück. Nur lesender Int32.
 
 ```csharp
 public int Count { get; }

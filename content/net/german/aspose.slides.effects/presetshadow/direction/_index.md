@@ -15,7 +15,7 @@ Richtung des Schattens. Lese-/Schreibzugriff auf Single.
 public float Direction { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PresetShadow](../../presetshadow)
 * Namespace [Aspose.Slides.Effects](../../presetshadow)

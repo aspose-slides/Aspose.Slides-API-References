@@ -1,7 +1,7 @@
 ---
 title: ImageTransform
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回图像变换效果的集合。只读 IImageTransformOperationCollection aspose.slides.effects/iimagetransformoperationcollection。
+second_title: Aspose.Slidess for .NET API Reference
+description: 返回图像变换效果的集合。只读 IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection。
 type: docs
 weight: 30
 url: /zh/aspose.slides/picture/imagetransform/

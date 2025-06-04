@@ -1,6 +1,6 @@
 ---
 title: ReflectionEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 反射。只读 IReflectionEffectiveDataaspose.slides.effects/ireflectioneffectivedata。
 type: docs
 weight: 90

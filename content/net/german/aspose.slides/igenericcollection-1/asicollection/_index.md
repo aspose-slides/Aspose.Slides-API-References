@@ -1,7 +1,7 @@
 ---
 title: AsICollection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die ICollection-Schnittstelle zurück.
+description: Gibt das ICollection-Interface zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/igenericcollection-1/asicollection/
@@ -9,19 +9,19 @@ url: /de/aspose.slides/igenericcollection-1/asicollection/
 
 ## IGenericCollection&lt;T&gt;.AsICollection-Eigenschaft
 
-Gibt die ICollection-Schnittstelle zurück.
+Gibt das ICollection-Interface zurück.
 
 ```csharp
 public ICollection AsICollection { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Für die COM-Kompatibilität.
 
 ### Siehe auch
 
-* Schnittstelle [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
+* Interface [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
 * Namespace [Aspose.Slides](../../igenericcollection-1)
 * Assembly [Aspose.Slides](../../../)
 

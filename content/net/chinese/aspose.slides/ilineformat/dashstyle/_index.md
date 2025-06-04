@@ -1,6 +1,6 @@
 ---
 title: DashStyle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置线条虚线样式。可读/写 LineDashStyleaspose.slides/linedashstyle。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ilineformat/dashstyle/
 public LineDashStyle DashStyle { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 枚举 [LineDashStyle](../../linedashstyle)
 * 接口 [ILineFormat](../../ilineformat)

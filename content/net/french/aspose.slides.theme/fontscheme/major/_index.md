@@ -1,7 +1,7 @@
 ---
 title: Major
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la collection de polices pour une partie "titre" de la diapositive. Lecture seule IFontsaspose.slides/ifonts.
+description: Renvoie la collection de polices pour une partie "titre" de la diapositive. En lecture seule IFontsaspose.slides/ifonts.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/fontscheme/major/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/fontscheme/major/
 
 ## Propriété FontScheme.Major
 
-Renvoie la collection de polices pour une partie "titre" de la diapositive. Lecture seule [`IFonts`](../../../aspose.slides/ifonts).
+Renvoie la collection de polices pour une partie "titre" de la diapositive. En lecture seule [`IFonts`](../../../aspose.slides/ifonts).
 
 ```csharp
 public IFonts Major { get; }

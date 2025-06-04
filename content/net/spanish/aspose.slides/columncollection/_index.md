@@ -1,6 +1,6 @@
 ---
 title: ColumnCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Representa una colección de columnas en una tabla.
 type: docs
 weight: 2510
@@ -20,7 +20,7 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides/columncollection/count) { get; } | Devuelve el número de columnas en una colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | Devuelve la columna en el índice especificado. Solo lectura [`Column`](../column). |
 | [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -28,13 +28,13 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Crea una copia de la fila plantilla especificada e inserta al final de una tabla. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Crea una copia de la fila de plantilla especificada e inserta en la parte inferior de una tabla. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Crea una copia de la columna plantilla especificada e inserta en la posición especificada en una tabla. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Crea una copia de la columna de plantilla especificada e inserta en la posición especificada en una tabla. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Elimina una columna en la posición especificada de una tabla. |
 
-### Véase también
+### Ver También
 
 * clase [DomObject&lt;TParent&gt;](../domobject-1)
 * clase [RowCollection](../rowcollection)

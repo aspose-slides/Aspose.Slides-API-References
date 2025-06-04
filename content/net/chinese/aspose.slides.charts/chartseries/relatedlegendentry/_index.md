@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Slides for .NET API 参考
-description: 表示与此系列相关的图例条目 只读 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示与此系列相关的图例条目 仅限读取 ILegendEntryPropertiesaspose.slides/ilegendentryproperties。
 type: docs
 weight: 350
 url: /zh/aspose.slides.charts/chartseries/relatedlegendentry/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseries/relatedlegendentry/
 
 ## ChartSeries.RelatedLegendEntry 属性
 
-表示与此系列相关的图例条目 只读 [`ILegendEntryProperties`](../../ilegendentryproperties)。
+表示与此系列相关的图例条目 仅限读取 [`ILegendEntryProperties`](../../ilegendentryproperties)。
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ILegendEntryProperties](../../ilegendentryproperties)
 * 类 [ChartSeries](../../chartseries)

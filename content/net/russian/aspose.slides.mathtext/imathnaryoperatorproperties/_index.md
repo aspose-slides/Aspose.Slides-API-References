@@ -1,6 +1,6 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает свойства IMathNaryOperator
 type: docs
 weight: 8130
@@ -20,12 +20,12 @@ public interface IMathNaryOperatorProperties
 | Имя | Описание |
 | --- | --- |
 | [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Символ оператора растет вертикально, чтобы соответствовать высоте его операнда |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Скрыть нижний индекс |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Скрыть верхний индекс |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Место расположения пределов (нижний и верхний индексы) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Символ многозначного оператора, например '∑', '∫' |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Скрыть Нижний индекс |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Скрыть Верхний индекс |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Местоположение пределoв (нижний и верхний индекс) |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Символ n-арного оператора, например: '∑', '∫' |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

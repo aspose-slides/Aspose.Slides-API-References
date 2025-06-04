@@ -1,15 +1,15 @@
 ---
 title: Output
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию элементов вывода хост-документа. Только для чтения Output.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает коллекцию выходных элементов хост-документа. Только для чтения Output.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export.web/templatecontext-1/output/
 ---
 
-## Свойство TemplateContext&lt;TObject&gt;.Output
+## TemplateContext&lt;TObject&gt;.Output свойство
 
-Возвращает коллекцию элементов вывода хост-документа. Только для чтения `Output`.
+Возвращает коллекцию выходных элементов хост-документа. Только для чтения `Output`.
 
 ```csharp
 public Output Output { get; }

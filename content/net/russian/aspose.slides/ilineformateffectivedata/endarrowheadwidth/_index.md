@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadWidth
-second_title: Aspose.Slides для .NET API Справка
-description: Возвращает ширину стрелки в конце линии. Только для чтения LineArrowheadWidthaspose.slides/linearrowheadwidth.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает ширину стрелки на конце линии. Только для чтения LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ilineformateffectivedata/endarrowheadwidth/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ilineformateffectivedata/endarrowheadwidth/
 
 ## ILineFormatEffectiveData.EndArrowheadWidth свойство
 
-Возвращает ширину стрелки в конце линии. Только для чтения [`LineArrowheadWidth`](../../linearrowheadwidth).
+Возвращает ширину стрелки на конце линии. Только для чтения [`LineArrowheadWidth`](../../linearrowheadwidth).
 
 ```csharp
 public LineArrowheadWidth EndArrowheadWidth { get; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [LineArrowheadWidth](../../linearrowheadwidth)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

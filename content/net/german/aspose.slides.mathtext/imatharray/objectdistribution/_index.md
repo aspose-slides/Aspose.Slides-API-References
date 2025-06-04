@@ -1,7 +1,7 @@
 ---
 title: ObjectDistribution
-second_title: Aspose.Slides für .NET API-Referenz
-description: Objektverteilung Wenn true, werden die Inhalte des Arrays auf die maximale Breite des Array-Objekts verteilt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Objektverteilung Wenn wahr, werden die Inhalte des Arrays auf die maximale Breite des Array-Objekts verteilt.
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/imatharray/objectdistribution/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imatharray/objectdistribution/
 
 ## IMathArray.ObjectDistribution-Eigenschaft
 
-Objektverteilung Wenn true, werden die Inhalte des Arrays auf die maximale Breite des Array-Objekts verteilt.
+Objektverteilung Wenn wahr, werden die Inhalte des Arrays auf die maximale Breite des Array-Objekts verteilt.
 
 ```csharp
 public bool ObjectDistribution { get; set; }
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.ObjectDistribution = true;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathArray](../../imatharray)
 * Namespace [Aspose.Slides.MathText](../../imatharray)

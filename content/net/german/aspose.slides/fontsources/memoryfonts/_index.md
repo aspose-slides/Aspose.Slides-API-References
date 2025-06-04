@@ -1,6 +1,6 @@
 ---
 title: MemoryFonts
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Eine Sammlung von Schriftarten, die als Byte-Arrays dargestellt werden.
 type: docs
 weight: 30

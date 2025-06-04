@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public override int GetHashCode()
 
 Un código hash para el objeto actual.
 
-### Véase También
+### Véase también
 
 * clase [PresetShadow](../../presetshadow)
 * espacio de nombres [Aspose.Slides.Effects](../../presetshadow)

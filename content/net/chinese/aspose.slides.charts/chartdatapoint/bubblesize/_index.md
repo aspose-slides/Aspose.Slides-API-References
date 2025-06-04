@@ -1,7 +1,7 @@
 ---
 title: BubbleSize
-second_title: Aspose.Slides for .NET API Reference
-description: BubbleSize. 只读 IDoubleChartValue aspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes for .NET API Reference
+description: BubbleSize. 只读 IDoubleChartValueaspose.slides.charts/idoublechartvalue。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/chartdatapoint/bubblesize/
@@ -15,7 +15,7 @@ BubbleSize. 只读 [`IDoubleChartValue`](../../idoublechartvalue)。
 public IDoubleChartValue BubbleSize { get; }
 ```
 
-### 另见
+### 相关信息
 
 * 接口 [IDoubleChartValue](../../idoublechartvalue)
 * 类 [ChartDataPoint](../../chartdatapoint)

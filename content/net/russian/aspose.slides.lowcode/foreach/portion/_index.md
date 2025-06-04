@@ -1,7 +1,7 @@
 ---
 title: Portion
-second_title: Справочник по API Aspose.Slides для .NET
-description: Итерация каждой Порции aspose.slides.lowcode/foreach/portion в Презентации aspose.slides/presentation. Порции будут итеративно обрабатываться во всех типах слайдов - Slide aspose.slides.lowcode/foreach/slide, MasterSlide aspose.slides.lowcode/foreach/masterslide и LayoutSlide aspose.slides.lowcode/foreach/layoutslide
+second_title: Aspose.Sildes для .NET API Справочник
+description: Итерация каждого Portionaspose.slides.lowcode/foreach/portion в Презентацииaspose.slides/presentation. Portions будут итерироваться во всех типах слайдов - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide и LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 40
 url: /ru/aspose.slides.lowcode/foreach/portion/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.lowcode/foreach/portion/
 
 ## Portion(Presentation, ForEachPortionCallback) {#portion_1}
 
-Итерация каждой `Portion` в [`Presentation`](../../../aspose.slides/presentation). Порции будут итеративно обрабатываться во всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide) и [`LayoutSlide`](../layoutslide)
+Итерация каждого `Portion` в [`Presentation`](../../../aspose.slides/presentation). Portions будут итерироваться во всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide) и [`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Portion(Presentation pres, ForEachPortionCallback forEachPortion)
@@ -18,7 +18,7 @@ public static void Portion(Presentation pres, ForEachPortionCallback forEachPort
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pres | Presentation | Презентация для итерации порций |
-| forEachPortion | ForEachPortionCallback | Обратный вызов, который будет вызван для каждой порции |
+| forEachPortion | ForEachPortionCallback | Колбэк, который будет вызываться для каждой порции |
 
 ### Примеры
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### См. также
+### См. Также
 
 * класс [Presentation](../../../aspose.slides/presentation)
 * делегат [ForEachPortionCallback](../../foreach.foreachportioncallback)
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Portion(Presentation, bool, ForEachPortionCallback) {#portion}
 
-Итерация каждой [`Portion`](../portion) в [`Presentation`](../../../aspose.slides/presentation). Порции будут итеративно обрабатываться во всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) и [`NotesSlide`](../../../aspose.slides/notesslide)
+Итерация каждой [`Portion`](../portion) в [`Presentation`](../../../aspose.slides/presentation). Portions будут итерироваться во всех типах слайдов - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) и [`NotesSlide`](../../../aspose.slides/notesslide)
 
 ```csharp
 public static void Portion(Presentation pres, bool includeNotes, 
@@ -54,8 +54,8 @@ public static void Portion(Presentation pres, bool includeNotes,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pres | Presentation | Презентация для итерации порций |
-| includeNotes | Boolean | Флаг, который указывает, следует ли включать слайды заметок в обработку. |
-| forEachPortion | ForEachPortionCallback | Обратный вызов, который будет вызван для каждой порции |
+| includeNotes | Boolean | Флаг, который указывает, должны ли NotesSlides быть включены в обработку. |
+| forEachPortion | ForEachPortionCallback | Колбэк, который будет вызываться для каждой порции |
 
 ### Примеры
 
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### См. также
+### См. Также
 
 * класс [Presentation](../../../aspose.slides/presentation)
 * делегат [ForEachPortionCallback](../../foreach.foreachportioncallback)

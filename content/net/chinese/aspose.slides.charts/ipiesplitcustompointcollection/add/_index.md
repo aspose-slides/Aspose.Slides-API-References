@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 通过父系列点集合中的索引添加数据点。
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过索引在父系列点集合中添加数据点。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ipiesplitcustompointcollection/add/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ipiesplitcustompointcollection/add/
 
 ## IPieSplitCustomPointCollection.Add 方法
 
-通过父系列点集合中的索引添加数据点。
+通过索引在父系列点集合中添加数据点。
 
 ```csharp
 public void Add(int dataPointIndex)
@@ -17,9 +17,9 @@ public void Add(int dataPointIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| dataPointIndex | Int32 | 在父系列点集合中的数据点索引。 |
+| dataPointIndex | Int32 | 父系列点集合中数据点的索引。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
 * 命名空间 [Aspose.Slides.Charts](../../ipiesplitcustompointcollection)

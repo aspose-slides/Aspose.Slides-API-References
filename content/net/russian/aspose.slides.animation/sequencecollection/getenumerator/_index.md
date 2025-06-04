@@ -1,25 +1,25 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает перечислитель, который выполняет итерацию по коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/sequencecollection/getenumerator/
 ---
 
-## Метод SequenceCollection.GetEnumerator
+## SequenceCollection.GetEnumerator метод
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<ISequence> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для итерации по коллекции.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISequence](../../isequence)
 * класс [SequenceCollection](../../sequencecollection)

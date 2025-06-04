@@ -1,7 +1,7 @@
 ---
 title: MarginTop
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает верхнее поле в TextFrame. Только для чтения Double.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает верхний отступ в текстовом кадре. Только для чтения Double.
 type: docs
 weight: 90
 url: /ru/aspose.slides/itextframeformateffectivedata/margintop/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/itextframeformateffectivedata/margintop/
 
 ## ITextFrameFormatEffectiveData.MarginTop свойство
 
-Возвращает верхнее поле (в пунктах) в TextFrame. Только для чтения Double.
+Возвращает верхний отступ (пункты) в текстовом кадре. Только для чтения Double.
 
 ```csharp
 public double MarginTop { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * пространство имен [Aspose.Slides](../../itextframeformateffectivedata)

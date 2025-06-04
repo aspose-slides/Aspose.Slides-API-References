@@ -1,6 +1,6 @@
 ---
 title: IMotionCmdPath
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет одну команду пути.
 type: docs
 weight: 430
@@ -17,14 +17,14 @@ public interface IMotionCmdPath
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | Указывает тип команды. Чтение/запись [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | Определяет, являются ли координаты команды относительными или нет. Чтение/запись Boolean. |
 | [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | Указывает точки команды. Чтение/запись PointF[]. |
-| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Указывает тип точек команды. Чтение/запись [`MotionPathPointsType`](../motionpathpointstype). |
+| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Указывает тип точек команды Чтение/запись [`MotionPathPointsType`](../motionpathpointstype). |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

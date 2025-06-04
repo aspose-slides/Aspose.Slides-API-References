@@ -1,21 +1,21 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte du champ de date-heure de la diapositive maître et de tous les champs de date-heure enfant. Les champs enfant désignent les champs contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+second_title: Référence API Aspose.Slides pour .NET
+description: Définit le texte du champ de date-heure de la diapositive maître et de tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître.
 type: docs
 weight: 20
 url: /fr/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
 
-## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText méthode
+## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
-Définit le texte du champ de date-heure de la diapositive maître et de tous les champs de date-heure enfant. Les champs enfant désignent les champs contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+Définit le texte du champ de date-heure de la diapositive maître et de tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives et les mises en page dépendantes utilisent et dépendent de la diapositive maître.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | text | String | Texte à définir. |
 

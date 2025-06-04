@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
-description: 部分的名称。
+second_title: Aspose.Slides for .NET API Reference
+description: 本节的名称。
 type: docs
 weight: 10
 url: /zh/aspose.slides/section/name/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/section/name/
 
 ## Section.Name 属性
 
-部分的名称。
+本节的名称。
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### 参考
+### 另见
 
 * class [Section](../../section)
 * namespace [Aspose.Slides](../../section)

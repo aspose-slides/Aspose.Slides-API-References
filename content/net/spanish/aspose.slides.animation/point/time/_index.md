@@ -1,6 +1,6 @@
 ---
 title: Time
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Representa el valor del tiempo. Lectura/escritura de tipo Single.
 type: docs
 weight: 30

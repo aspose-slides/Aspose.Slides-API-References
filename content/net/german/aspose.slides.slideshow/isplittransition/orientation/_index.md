@@ -1,6 +1,6 @@
 ---
 title: Orientation
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Orientierung des Übergangssplits. Lese-/Schreibzugriff auf Orientationaspose.slides/orientation.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Orientierung des Übergangssplits. Lese-/Schreibzugriff auf [`Orientation`](../.
 public Orientation Orientation { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [Orientation](../../../aspose.slides/orientation)
 * interface [ISplitTransition](../../isplittransition)

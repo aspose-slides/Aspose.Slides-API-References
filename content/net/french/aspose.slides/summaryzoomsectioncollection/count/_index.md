@@ -1,15 +1,15 @@
 ---
 title: Count
-second_title: Référence de l'API Aspose.Slide pour .NET
-description: Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient le nombre d'éléments réellement contenus dans la collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/summaryzoomsectioncollection/count/
 ---
 
-## Propriété SummaryZoomSectionCollection.Count
+## SummaryZoomSectionCollection.Count propriété
 
-Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32.
+Obtient le nombre d'éléments réellement contenus dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

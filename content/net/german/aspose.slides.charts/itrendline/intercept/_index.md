@@ -1,21 +1,21 @@
 ---
 title: Intercept
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Wert an, bei dem die Trendlinie die y-Achse schneiden soll. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lese-/Schreib Double.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Wert an, an dem die Trendlinie die y-Achse schneiden soll. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lese-/Schreibbare Double.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/itrendline/intercept/
 ---
 
-## ITrendline.Intercept-Eigenschaft
+## ITrendline.Intercept Eigenschaft
 
-Gibt den Wert an, bei dem die Trendlinie die y-Achse schneiden soll. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lese-/Schreib Double.
+Gibt den Wert an, an dem die Trendlinie die y-Achse schneiden soll. Diese Eigenschaft wird nur unterstützt, wenn der Trendlinientyp exp, linear oder poly ist. Lese-/Schreibbare Double.
 
 ```csharp
 public double Intercept { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITrendline](../../itrendline)
 * Namespace [Aspose.Slides.Charts](../../itrendline)

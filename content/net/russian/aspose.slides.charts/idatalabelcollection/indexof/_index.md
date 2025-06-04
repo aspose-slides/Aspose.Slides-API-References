@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Aspose.Slildes для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает индекс указанного DataLabel в коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides.charts/idatalabelcollection/indexof/
 ---
 
-## Метод IDataLabelCollection.IndexOf
+## IDataLabelCollection.IndexOf метод
 
 Возвращает индекс указанного DataLabel в коллекции.
 
@@ -21,7 +21,7 @@ public int IndexOf(IDataLabel value)
 
 ### Возвращаемое значение
 
-Индекс DataLabel или -1, если DataLabel нет в этой коллекции.
+Индекс DataLabel или -1, если DataLabel не из этой коллекции.
 
 ### См. также
 

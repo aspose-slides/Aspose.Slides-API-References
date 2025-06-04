@@ -1,6 +1,6 @@
 ---
 title: HideInk
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Показывает или скрывает элементы Ink в экспортированном документе.
 type: docs
 weight: 10
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * класс [InkOptions](../../inkoptions)
 * пространство имен [Aspose.Slides.Export](../../inkoptions)

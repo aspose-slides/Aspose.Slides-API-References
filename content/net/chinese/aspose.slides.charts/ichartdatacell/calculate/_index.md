@@ -1,7 +1,7 @@
 ---
 title: Calculate
-second_title: Aspose.Slides for .NET API 参考
-description: 如果单元格包含公式，则值将根据该公式更新。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果单元格包含公式，值将根据该公式进行更新。
 type: docs
 weight: 100
 url: /zh/aspose.slides.charts/ichartdatacell/calculate/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatacell/calculate/
 
 ## IChartDataCell.Calculate 方法
 
-如果单元格包含公式，则值将根据该公式更新。
+如果单元格包含公式，值将根据该公式进行更新。
 
 ```csharp
 public void Calculate(bool updateValues)
@@ -17,9 +17,9 @@ public void Calculate(bool updateValues)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| updateValues | Boolean | 如果为 false，则不会执行实际计算。使用 true 进行可能的异常检查。 |
+| updateValues | Boolean | 如果为 false，将不执行实际计算。使用 true 进行可能的异常检查。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatacell)

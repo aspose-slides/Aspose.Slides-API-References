@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置渐变的视觉样式。可读/可写 GradientStyleaspose.slides/gradientstyle。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置渐变的视觉样式。可读写GradientStyleaspose.slides/gradientstyle。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/isaveoptions/gradientstyle/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isaveoptions/gradientstyle/
 
 ## ISaveOptions.GradientStyle 属性
 
-返回或设置渐变的视觉样式。可读/可写 [`GradientStyle`](../../../aspose.slides/gradientstyle)。
+返回或设置渐变的视觉样式。可读写 [`GradientStyle`](../../../aspose.slides/gradientstyle)。
 
 ```csharp
 public GradientStyle GradientStyle { get; set; }

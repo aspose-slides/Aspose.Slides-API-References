@@ -21,8 +21,8 @@ El valor devuelto siempre está definido (no es float.NaN). El valor asignado de
 
 ### Véase también
 
-* interfaz [IShape](../../ishape)
-* espacio de nombres [Aspose.Slides](../../ishape)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IShape](../../ishape)
+* espacio de nombres [Aspose.Slides](../../ishape)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: CreateMathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
-description: 通过应用到元素来创建数学分隔符
+description: 通过应用于元素创建数学分隔符
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter/
 
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
-通过应用到元素来创建数学分隔符
+通过应用于元素创建数学分隔符
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElement element)
@@ -23,7 +23,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 新的数学分隔符
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMathDelimiter](../../imathdelimiter)
 * 接口 [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 ## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
-通过应用到元素来创建数学分隔符
+通过应用于元素创建数学分隔符
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
@@ -49,7 +49,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 
 新的数学分隔符
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMathDelimiter](../../imathdelimiter)
 * 接口 [IMathElementCollection](../../imathelementcollection)

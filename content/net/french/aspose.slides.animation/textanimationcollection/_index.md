@@ -1,15 +1,15 @@
 ---
 title: TextAnimationCollection
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente une collection d'animations de texte.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente la collection d'animations de texte.
 type: docs
 weight: 750
 url: /fr/aspose.slides.animation/textanimationcollection/
 ---
 
-## Classe TextAnimationCollection
+## TextAnimationCollection class
 
-Représente une collection d'animations de texte.
+Représente la collection d'animations de texte.
 
 ```csharp
 public class TextAnimationCollection : ITextAnimationCollection
@@ -25,10 +25,10 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Retourne le nombre d'éléments dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Lecture seule Boolean. |
-| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Retourne un élément par index. (2 indexeurs) |
-| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Retourne une racine de synchronisation. Lecture seule Object. |
+| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Renvoie le nombre d'éléments dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Renvoie un élément par index. (2 indexeurs) |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
@@ -36,7 +36,7 @@ public class TextAnimationCollection : ITextAnimationCollection
 | --- | --- |
 | [Add](../../aspose.slides.animation/textanimationcollection/add)() | Ajoute une nouvelle animation de texte à la collection. |
 | [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
+| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 
 ### Voir aussi
 

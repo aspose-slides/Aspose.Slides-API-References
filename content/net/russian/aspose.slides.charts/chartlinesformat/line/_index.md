@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides.charts/chartlinesformat/line/
 ---
 
-## Свойство ChartLinesFormat.Line
+## ChartLinesFormat.Line свойство
 
 Возвращает свойства стиля линии графика. Только для чтения [`ILineFormat`](../../../aspose.slides/ilineformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartlinesformat/line/
 public ILineFormat Line { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ILineFormat](../../../aspose.slides/ilineformat)
 * класс [ChartLinesFormat](../../chartlinesformat)

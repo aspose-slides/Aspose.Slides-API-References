@@ -1,7 +1,7 @@
 ---
 title: AddFallBackFonts
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine neue Schriftart zur Liste der FallBack-Schriftarten hinzu.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügt neue Schriftarten zur Liste der FallBack-Schriftarten hinzu.
 type: docs
 weight: 60
 url: /de/aspose.slides/fontfallbackrule/addfallbackfonts/
@@ -32,7 +32,7 @@ newRule.AddFallBackFonts("MS Gothic");
 newRule.AddFallBackFonts("Tahoma, Times New Roman");
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRule](../../fontfallbackrule)
 * Namespace [Aspose.Slides](../../fontfallbackrule)
@@ -42,7 +42,7 @@ newRule.AddFallBackFonts("Tahoma, Times New Roman");
 
 ## AddFallBackFonts(string[]) {#addfallbackfonts_1}
 
-Fügt eine neue Schriftart zur Liste der FallBack-Schriftarten hinzu.
+Fügt neue Schriftarten zur Liste der FallBack-Schriftarten hinzu.
 
 ```csharp
 public void AddFallBackFonts(string[] fontNames)
@@ -63,7 +63,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 newRule.AddFallBackFonts(new string [] {"MS Gothic","Tahoma, Times New Roman"});
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRule](../../fontfallbackrule)
 * Namespace [Aspose.Slides](../../fontfallbackrule)

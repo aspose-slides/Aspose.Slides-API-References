@@ -1,6 +1,6 @@
 ---
 title: Save
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将字节数组保存到目标位置。
 type: docs
 weight: 10
@@ -20,7 +20,7 @@ public void Save(string path, byte[] data)
 | path | String | 目标路径。 |
 | data | Byte[] | 要保存到目标位置的二进制数据。 |
 
-### 参见
+### 相关内容
 
 * 接口 [IXamlOutputSaver](../../ixamloutputsaver)
 * 命名空间 [Aspose.Slides.Export.Xaml](../../ixamloutputsaver)

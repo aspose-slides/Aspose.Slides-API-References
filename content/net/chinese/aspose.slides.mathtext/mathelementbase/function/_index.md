@@ -1,15 +1,15 @@
 ---
 title: Function
-second_title: Aspose.Slidеs for .NET API 参考
-description: 使用此实例作为函数名来处理一个参数的函数
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用此实例作为函数名称来接受一个参数的函数
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/mathelementbase/function/
 ---
 
-## 函数(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
-使用此实例作为函数名来处理一个参数的函数
+使用此实例作为函数名称来接受一个参数的函数
 
 ```csharp
 public IMathFunction Function(IMathElement functionArgument)
@@ -21,7 +21,7 @@ public IMathFunction Function(IMathElement functionArgument)
 
 ### 返回值
 
-返回类型为 [`IMathFunction`](../../imathfunction) 的新数学元素
+新数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
@@ -34,7 +34,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionName.Function(functionArg);
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathFunction](../../imathfunction)
 * 接口 [IMathElement](../../imathelement)
@@ -44,9 +44,9 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## 函数(string) {#function_1}
+## Function(string) {#function_1}
 
-使用此实例作为函数名来处理一个参数的函数
+使用此实例作为函数名称来接受一个参数的函数
 
 ```csharp
 public IMathFunction Function(string functionArgument)
@@ -58,7 +58,7 @@ public IMathFunction Function(string functionArgument)
 
 ### 返回值
 
-返回类型为 [`IMathFunction`](../../imathfunction) 的新数学元素
+新数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
@@ -70,7 +70,7 @@ IMathElement functionName = new MathematicalText("sin");
 IMathFunction func = functionName.Function("x");
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathFunction](../../imathfunction)
 * 类 [MathElementBase](../../mathelementbase)

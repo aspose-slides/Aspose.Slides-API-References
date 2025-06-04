@@ -1,15 +1,15 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет собой коллекцию основных слайдов.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет коллекцию мастер-слайдов.
 type: docs
 weight: 7790
 url: /ru/aspose.slides/masterslidecollection/
 ---
 
-## Класс MasterSlideCollection
+## MasterSlideCollection class
 
-Представляет собой коллекцию основных слайдов.
+Представляет коллекцию мастер-слайдов.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -28,13 +28,13 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Название | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного основного слайда в конец коллекции. Связанные слайды макета также будут скопированы. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайд- макеты также будут скопированы. |
 | [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 | [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного основного слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы. |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайд-макеты также будут скопированы. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение конкретного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Удаляет неиспользуемые основные слайды. |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | Удаляет неиспользуемые мастер-слайды. |
 
 ### См. также
 

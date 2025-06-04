@@ -1,21 +1,21 @@
 ---
 title: Paragraphs
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает общее количество параграфов, найденных в документе, если это применимо. Только для чтения Int32.
+second_title: Aspose.Slidess для .NET API Reference
+description: Указывает общее количество параграфов, найденных в документе, если применимо. Только для чтения Int32.
 type: docs
 weight: 250
 url: /ru/aspose.slides/idocumentproperties/paragraphs/
 ---
 
-## Свойство IDocumentProperties.Paragraphs
+## IDocumentProperties.Paragraphs свойство
 
-Указывает общее количество параграфов, найденных в документе, если это применимо. Только для чтения Int32.
+Указывает общее количество параграфов, найденных в документе, если применимо. Только для чтения Int32.
 
 ```csharp
 public int Paragraphs { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

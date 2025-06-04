@@ -1,6 +1,6 @@
 ---
 title: FontScheme
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Almacena fuentes definidas por el tema.
 type: docs
 weight: 10820
@@ -19,9 +19,9 @@ public class FontScheme : IFontScheme
 
 | Nombre | Descripción |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Retorna la colección de fuentes para una parte de "título" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Retorna la colección de fuentes para una parte de "cuerpo" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Retorna el nombre del esquema de fuentes. Lectura/escritura String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Devuelve la colección de fuentes para una parte de "encabezado" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Devuelve la colección de fuentes para una parte de "cuerpo" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Devuelve el nombre del esquema de fuentes. Lectura/escritura de String. |
 
 ### Véase También
 

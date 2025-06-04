@@ -7,7 +7,7 @@ weight: 80
 url: /zh/aspose.slides.mathtext/imathelementcollection/indexof/
 ---
 
-## IMathElementCollection.IndexOf 方法
+## IMathElementCollection.IndexOf method
 
 确定集合中特定数学元素的索引。
 
@@ -17,11 +17,11 @@ public int IndexOf(IMathElement item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMathElement | 要在集合中查找的元素。 |
+| item | IMathElement | 要在集合中定位的元素。 |
 
 ### 返回值
 
-如果在集合中找到*item*，则返回其索引；否则，返回-1。
+如果在集合中找到 *item* 的索引；否则，返回 -1。
 
 ### 示例
 
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 int index = collection.IndexOf(plusElement);
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

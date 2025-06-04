@@ -1,6 +1,6 @@
 ---
 title: CreateBiLevel
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt den BiLevel-Effekt.
 type: docs
 weight: 90
@@ -17,7 +17,7 @@ public IBiLevel CreateBiLevel(float threshold)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| threshold | Single | Schwelle. |
+| threshold | Single | Schwellenwert. |
 
 ### Rückgabewert
 

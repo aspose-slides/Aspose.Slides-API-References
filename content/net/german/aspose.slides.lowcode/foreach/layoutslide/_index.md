@@ -1,7 +1,7 @@
 ---
 title: LayoutSlide
-second_title: Aspose.Slidese für .NET API-Referenz
-description: Iterieren Sie über jeden LayoutSlide aspose.slides.lowcode/foreach/layoutslide in der Präsentation aspose.slides/presentation.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Iteriere durch jedes LayoutSlideaspose.slides.lowcode/foreach/layoutslide in der Presentationaspose.slides/presentation.
 type: docs
 weight: 10
 url: /de/aspose.slides.lowcode/foreach/layoutslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.lowcode/foreach/layoutslide/
 
 ## ForEach.LayoutSlide-Methode
 
-Iterieren Sie über jeden `LayoutSlide` in der [`Presentation`](../../../aspose.slides/presentation).
+Iteriere durch jedes `LayoutSlide` in der [`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback forEachLayoutSlide)
@@ -17,8 +17,8 @@ public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback for
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Präsentation, um Layout-Slides zu iterieren |
-| forEachLayoutSlide | ForEachLayoutSlideCallback | Callback, der für jeden Layout-Slide aufgerufen wird |
+| pres | Presentation | Präsentation, um Layoutfolien zu iterieren |
+| forEachLayoutSlide | ForEachLayoutSlideCallback | Callback, der für jede Layoutfolie aufgerufen wird |
 
 ### Beispiele
 
@@ -32,10 +32,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Presentation](../../../aspose.slides/presentation)
-* Delegat [ForEachLayoutSlideCallback](../../foreach.foreachlayoutslidecallback)
+* Delegate [ForEachLayoutSlideCallback](../../foreach.foreachlayoutslidecallback)
 * Klasse [ForEach](../../foreach)
 * Namespace [Aspose.Slides.LowCode](../../foreach)
 * Assembly [Aspose.Slides](../../../)

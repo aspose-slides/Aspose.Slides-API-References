@@ -19,7 +19,7 @@ public void Save(string filename)
 | --- | --- | --- |
 | filename | String | Der Pfad zur Datei, in der das Bild gespeichert wird. |
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IImage](../../iimage)
 * namespace [Aspose.Slides](../../iimage)
@@ -40,7 +40,7 @@ public void Save(string filename, ImageFormat format)
 | filename | String | Der Pfad zur Datei, in der das Bild gespeichert wird. |
 | format | ImageFormat | Das Bildformat. |
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)
@@ -62,7 +62,7 @@ public void Save(Stream stream, ImageFormat format)
 | stream | Stream | Der Stream, in dem das Bild gespeichert wird. |
 | format | ImageFormat | Das Bildformat. |
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)
@@ -83,9 +83,9 @@ public void Save(string filename, ImageFormat format, int quality)
 | --- | --- | --- |
 | filename | String | Der Pfad zur Datei, in der das Bild gespeichert wird. |
 | format | ImageFormat | Das Bildformat. |
-| quality | Int32 | Die Qualität des gespeicherten Bildes (0 bis 100). Dieser Parameter hat nur Einfluss auf das Speichern im Jpeg-Format; für alle anderen Formate wird er ignoriert. |
+| quality | Int32 | Die Qualität des gespeicherten Bildes (0 bis 100). Dieser Parameter beeinflusst nur das Speichern im Jpeg-Format; für alle anderen Formate wird er ignoriert. |
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)
@@ -106,9 +106,9 @@ public void Save(Stream stream, ImageFormat format, int quality)
 | --- | --- | --- |
 | stream | Stream | Der Stream, in dem das Bild gespeichert wird. |
 | format | ImageFormat | Das Bildformat. |
-| quality | Int32 | Die Qualität des gespeicherten Bildes (0 bis 100). Dieser Parameter hat nur Einfluss auf das Speichern im Jpeg-Format; für alle anderen Formate wird er ignoriert. |
+| quality | Int32 | Die Qualität des gespeicherten Bildes (0 bis 100). Dieser Parameter beeinflusst nur das Speichern im Jpeg-Format; für alle anderen Formate wird er ignoriert. |
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ImageFormat](../../imageformat)
 * interface [IImage](../../iimage)

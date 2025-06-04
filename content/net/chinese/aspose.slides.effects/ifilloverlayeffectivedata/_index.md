@@ -1,7 +1,7 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表填充覆盖效果的不可变对象。填充覆盖可用于为对象指定附加填充并将两种填充混合在一起。
+description: 不可变对象，表示填充覆盖效果。填充覆盖可用于为对象指定附加填充，并将两种填充结合在一起。
 type: docs
 weight: 3190
 url: /zh/aspose.slides.effects/ifilloverlayeffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ifilloverlayeffectivedata/
 
 ## IFillOverlayEffectiveData 接口
 
-代表填充覆盖效果的不可变对象。填充覆盖可用于为对象指定附加填充并将两种填充混合在一起。
+不可变对象，表示填充覆盖效果。填充覆盖可用于为对象指定附加填充，并将两种填充结合在一起。
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本的 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode。只读 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
 | [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | 填充格式。只读 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
 

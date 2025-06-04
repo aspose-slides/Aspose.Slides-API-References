@@ -1,6 +1,6 @@
 ---
 title: PresetShadow
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет эффект предустановленной тени.
 type: docs
 weight: 3510
@@ -17,7 +17,7 @@ public sealed class PresetShadow : IPresetShadow
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Расстояние тени. Чтение/запись Double. |
@@ -26,13 +26,13 @@ public sealed class PresetShadow : IPresetShadow
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Определяет, равен ли указанный [`PresetShadow`](../presetshadow) текущему [`PresetShadow`](../presetshadow). |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Получает данные об эффекте предустановленной тени с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Используется в качестве хеш-функции для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Определяет, равен ли заданный [`PresetShadow`](../presetshadow) текущему [`PresetShadow`](../presetshadow). |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Получает данные об эффективном эффекте предустановленной тени с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IPresetShadow](../ipresetshadow)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

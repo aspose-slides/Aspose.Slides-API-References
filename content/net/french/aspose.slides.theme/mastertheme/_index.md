@@ -1,7 +1,7 @@
 ---
 title: MasterTheme
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un thème maître.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente un thème master.
 type: docs
 weight: 11120
 url: /fr/aspose.slides.theme/mastertheme/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/mastertheme/
 
 ## Classe MasterTheme
 
-Représente un thème maître.
+Représente un thème master.
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -19,12 +19,12 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Nom | Description |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Retourne le schéma de couleurs. Lecture seule [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Retourne la collection de schémas de couleurs supplémentaires. Ces schémas n'affectent pas l'apparence de la présentation, ils peuvent être sélectionnés comme schéma de couleur principal pour une diapositive. Lecture seule [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Retourne le schéma de police. Lecture seule [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Retourne le schéma de format de forme. Lecture seule [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Retourne le nom d'un thème. Lecture/écriture String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Retourne la présentation parent. Lecture seule [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Renvoie le schéma de couleurs. Lecture seule [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Renvoie la collection de schémas de couleurs supplémentaires. Ces schémas n'affectent pas l'apparence de la présentation, ils peuvent être sélectionnés comme schéma de couleurs principal pour une diapositive. Lecture seule [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Renvoie le schéma de polices. Lecture seule [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Renvoie le schéma de format de forme. Lecture seule [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Renvoie le nom d'un thème. Lecture/écriture Chaîne. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Renvoie la présentation parente. Lecture seule [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Méthodes
 

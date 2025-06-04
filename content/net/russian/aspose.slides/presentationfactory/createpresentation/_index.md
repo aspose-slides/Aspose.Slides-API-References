@@ -1,6 +1,6 @@
 ---
 title: CreatePresentation
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новую презентацию.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ url: /ru/aspose.slides/presentationfactory/createpresentation/
 public IPresentation CreatePresentation()
 ```
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новая презентация
 
-### Также смотрите
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * класс [PresentationFactory](../../presentationfactory)
@@ -30,7 +30,7 @@ public IPresentation CreatePresentation()
 
 ## CreatePresentation(ILoadOptions) {#createpresentation_1}
 
-Создает новую презентацию с дополнительными вариантами загрузки
+Создает новую презентацию с дополнительными параметрами загрузки
 
 ```csharp
 public IPresentation CreatePresentation(ILoadOptions options)
@@ -38,13 +38,13 @@ public IPresentation CreatePresentation(ILoadOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ILoadOptions | Варианты загрузки |
+| options | ILoadOptions | Параметры загрузки |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новая презентация
 
-### Также смотрите
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * интерфейс [ILoadOptions](../../iloadoptions)

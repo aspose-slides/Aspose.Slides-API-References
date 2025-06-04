@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes для .NET API справочник
-description: Получает эффективные данные форматирования линий с применением наследования.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Получает эффективные данные форматирования линии с примененным наследованием.
 type: docs
 weight: 190
 url: /ru/aspose.slides/lineformat/geteffective/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/lineformat/geteffective/
 
 ## Метод LineFormat.GetEffective
 
-Получает эффективные данные форматирования линий с применением наследования.
+Получает эффективные данные форматирования линии с примененным наследованием.
 
 ```csharp
 public ILineFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ public ILineFormatEffectiveData GetEffective()
 
 ### Примеры
 
-Этот пример демонстрирует получение свойств эффективного формата линий фигуры.
+Этот пример демонстрирует получение свойств эффективного форматирования линии фигуры.
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: AdjustHandlesLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли изменение значений настроек. Доступно для чтения/записи логическое значение.
+second_title: Aspose.Sildes для .NET API Справка
+description: Определяет, запрещены ли изменяемые значения. Чтение/запись логическое значение.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iconnectorlock/adjusthandleslocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/iconnectorlock/adjusthandleslocked/
 
 ## IConnectorLock.AdjustHandlesLocked свойство
 
-Определяет, запрещено ли изменение значений настроек. Доступно для чтения/записи логическое значение.
+Определяет, запрещены ли изменяемые значения. Чтение/запись логическое значение.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IConnectorLock](../../iconnectorlock)
 * пространство имен [Aspose.Slides](../../iconnectorlock)

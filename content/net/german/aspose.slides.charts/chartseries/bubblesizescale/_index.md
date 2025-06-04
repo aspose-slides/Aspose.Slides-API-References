@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeScale
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Skalierungsfaktor für das Blasendiagramm an, der zwischen 0 und 300 Prozent der Standardgröße liegen kann. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriensgruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriensgruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeScale, um den Wert zu ändern.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Skalierungsfaktor für das Blasendiagramm an, der zwischen 0 und 300 Prozent der Standardgröße liegen kann. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeScale, um den Wert zu ändern.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/chartseries/bubblesizescale/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartseries/bubblesizescale/
 
 ## ChartSeries.BubbleSizeScale-Eigenschaft
 
-Gibt den Skalierungsfaktor für das Blasendiagramm an (kann zwischen 0 und 300 Prozent der Standardgröße liegen). Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriensgruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriensgruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeScale, um den Wert zu ändern.
+Gibt den Skalierungsfaktor für das Blasendiagramm an (kann zwischen 0 und 300 Prozent der Standardgröße liegen). Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeScale, um den Wert zu ändern.
 
 ```csharp
 public int BubbleSizeScale { get; }
 ```
 
-### Hinweise
+### Anmerkungen
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.BubbleSizeScale.
 

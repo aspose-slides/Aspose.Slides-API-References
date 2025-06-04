@@ -1,7 +1,7 @@
 ---
 title: CustomDashPattern
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置自定义虚线模式。可读/可写 Single。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回或设置自定义虚线模式。可读写 Single。
 type: docs
 weight: 60
 url: /zh/aspose.slides/lineformat/customdashpattern/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/lineformat/customdashpattern/
 
 ## LineFormat.CustomDashPattern 属性
 
-返回或设置自定义虚线模式。可读/可写 Single[]。
+返回或设置自定义虚线模式。可读写 Single[]。
 
 ```csharp
 public float[] CustomDashPattern { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: IPathSegment
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa un segmento de la ruta gráfica de GeometryShape
 type: docs
 weight: 6410
@@ -25,6 +25,6 @@ public interface IPathSegment
 ### Ver También
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -15,7 +15,7 @@ Veröffentlichungsdatum der Assembly.
 public static readonly DateTime ReleaseDate;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BuildVersionInfo](../../buildversioninfo)
 * Namespace [Aspose.Slides](../../buildversioninfo)

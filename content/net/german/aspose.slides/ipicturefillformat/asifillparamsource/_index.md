@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IFillParamSource-Schnittstelle. Nur-Lese IFillParamSource aspose.slides/ifillparamsource.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-I…Füllparameterquelle-Schnittstelle. Nur lesbare IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/ipicturefillformat/asifillparamsource/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformat/asifillparamsource/
 
 ## IPictureFillFormat.AsIFillParamSource-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IFillParamSource-Schnittstelle. Nur-Lese [`IFillParamSource`](../../ifillparamsource).
+Ermöglicht den Zugriff auf die Basis-I…Füllparameterquelle-Schnittstelle. Nur lesbar [`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }

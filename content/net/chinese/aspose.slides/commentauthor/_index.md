@@ -1,13 +1,13 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示评论的作者。
 type: docs
 weight: 2540
 url: /zh/aspose.slides/commentauthor/
 ---
 
-## CommentAuthor 类
+## CommentAuthor class
 
 表示评论的作者。
 
@@ -20,8 +20,8 @@ public sealed class CommentAuthor : ICommentAuthor
 | 名称 | 描述 |
 | --- | --- |
 | [Comments](../../aspose.slides/commentauthor/comments) { get; } | 返回此作者所做的评论集合。只读 [`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 返回或设置作者的缩写。可读写字符串。 |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 返回或设置作者的姓名。可读写字符串。 |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 返回或设置作者的首字母。读写字符串。 |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 返回或设置作者的名称。读写字符串。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public sealed class CommentAuthor : ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/commentauthor/remove)() | 从父集合中移除作者。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ICommentAuthor](../icommentauthor)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

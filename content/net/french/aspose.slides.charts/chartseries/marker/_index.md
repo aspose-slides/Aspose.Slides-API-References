@@ -1,7 +1,7 @@
 ---
 title: Marker
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Marqueur. IMarker en lecture seule aspose.slides.charts/imarker.
+second_title: Aspose.Slides pour .NET API Reference
+description: Marker. Lecture seule IMarker aspose.slides.charts/imarker.
 type: docs
 weight: 200
 url: /fr/aspose.slides.charts/chartseries/marker/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseries/marker/
 
 ## Propriété ChartSeries.Marker
 
-Marqueur. [`IMarker`](../../imarker) en lecture seule.
+Marker. Lecture seule [`IMarker`](../../imarker).
 
 ```csharp
 public IMarker Marker { get; }
@@ -18,7 +18,7 @@ public IMarker Marker { get; }
 ### Voir aussi
 
 * interface [IMarker](../../imarker)
-* classe [ChartSeries](../../chartseries)
+* class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)
 * assembly [Aspose.Slides](../../../)
 

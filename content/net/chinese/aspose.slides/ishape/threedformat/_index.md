@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回包含形状线条格式属性的 ThreeDFormat 对象。只读 IThreeDFormat aspose.slides/ithreedformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回包含形状线条格式属性的 ThreeDFormat 对象。只读 IThreeDFormataspose.slides/ithreedformat。
 type: docs
 weight: 240
 url: /zh/aspose.slides/ishape/threedformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishape/threedformat/
 public IThreeDFormat ThreeDFormat { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IThreeDFormat](../../ithreedformat)
 * 接口 [IShape](../../ishape)

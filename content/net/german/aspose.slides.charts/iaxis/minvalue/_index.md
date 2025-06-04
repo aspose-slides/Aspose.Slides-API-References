@@ -1,15 +1,15 @@
 ---
 title: MinValue
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Mindestwert auf der Werteachse dar. Lese-/Schreibzugriff auf Double.
+description: Stellt den minimalen Wert auf der Wertachse dar. Lese-/Schreibzugriff Double.
 type: docs
 weight: 430
 url: /de/aspose.slides.charts/iaxis/minvalue/
 ---
 
-## IAxis.MinValue Eigenschaft
+## IAxis.MinValue-Eigenschaft
 
-Stellt den Mindestwert auf der Werteachse dar. Lese-/Schreibzugriff auf Double.
+Stellt den minimalen Wert auf der Wertachse dar. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double MinValue { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Bullet
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回段落的项目符号格式。只读 IBulletFormataspose.slides/ibulletformat。
 type: docs
 weight: 20

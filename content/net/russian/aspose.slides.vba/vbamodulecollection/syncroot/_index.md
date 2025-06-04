@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 40

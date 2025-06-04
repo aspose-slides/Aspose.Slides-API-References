@@ -1,7 +1,7 @@
 ---
 title: BevelType
-second_title: Aspose.Slides for .NET API 参考
-description: 倾斜类型。读/写 BevelPresetType aspose.slides/bevelpresettype。
+second_title: Aspose.Slides for .NET API Reference
+description: 倾斜类型。读/写 BevelPresetTypeaspose.slides/bevelpresettype。
 type: docs
 weight: 20
 url: /zh/aspose.slides/shapebevel/beveltype/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shapebevel/beveltype/
 public BevelPresetType BevelType { get; set; }
 ```
 
-### 另见
+### 参考
 
 * 枚举 [BevelPresetType](../../bevelpresettype)
 * 类 [ShapeBevel](../../shapebevel)

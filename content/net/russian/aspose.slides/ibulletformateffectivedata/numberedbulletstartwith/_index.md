@@ -1,13 +1,13 @@
 ---
 title: NumberedBulletStartWith
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справка
 description: Возвращает первое число, которое используется для группы нумерованных маркеров. Только для чтения Int16.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ibulletformateffectivedata/numberedbulletstartwith/
 ---
 
-## Свойство IBulletFormatEffectiveData.NumberedBulletStartWith
+## IBulletFormatEffectiveData.NumberedBulletStartWith свойство
 
 Возвращает первое число, которое используется для группы нумерованных маркеров. Только для чтения Int16.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibulletformateffectivedata/numberedbulletstartwith/
 public short NumberedBulletStartWith { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibulletformateffectivedata)

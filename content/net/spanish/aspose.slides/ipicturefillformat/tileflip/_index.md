@@ -1,15 +1,15 @@
 ---
 title: TileFlip
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Voltea el tile de textura alrededor de su eje horizontal, vertical o ambos. Leer/escribir TileFlipaspose.slides/tileflip.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Voltea el azulejo de textura alrededor de su eje horizontal, vertical o ambos. Leer/escribir TileFlipaspose.slides/tileflip.
 type: docs
 weight: 140
 url: /es/aspose.slides/ipicturefillformat/tileflip/
 ---
 
-## Propiedad IPictureFillFormat.TileFlip
+## IPictureFillFormat.TileFlip propiedad
 
-Voltea el tile de textura alrededor de su eje horizontal, vertical o ambos. Leer/escribir [`TileFlip`](../../tileflip).
+Voltea el azulejo de textura alrededor de su eje horizontal, vertical o ambos. Leer/escribir [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Establece el modo de relleno de imagen a Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Voltea el tile de textura alrededor de su eje vertical.
+    // Voltea el azulejo de textura alrededor de su eje vertical.
     pictureFillFormat.TileFlip = TileFlip.FlipY;
 }
 ```

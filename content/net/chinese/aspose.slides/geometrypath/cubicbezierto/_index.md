@@ -1,7 +1,7 @@
 ---
 title: CubicBezierTo
-second_title: Aspose.Sildes for .NET API 参考
-description: 在路径末尾添加三次贝塞尔曲线
+second_title: Aspose.Sildes for .NET API Reference
+description: 在路径末尾添加立方贝塞尔曲线
 type: docs
 weight: 70
 url: /zh/aspose.slides/geometrypath/cubicbezierto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/geometrypath/cubicbezierto/
 
 ## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
-在路径末尾添加三次贝塞尔曲线
+在路径末尾添加立方贝塞尔曲线
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
@@ -17,8 +17,8 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | PointF | 第一个方向点 |
-| point2 | PointF | 第二个方向点 |
+| point1 | PointF | 第一点方向 |
+| point2 | PointF | 第二点方向 |
 | point3 | PointF | 结束点 |
 
 ### 另请参见
@@ -31,7 +31,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ## CubicBezierTo(float, float, float, float, float, float) {#cubicbezierto}
 
-在路径末尾添加三次贝塞尔曲线
+在路径末尾添加立方贝塞尔曲线
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
@@ -39,12 +39,12 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | 第一个方向点的 X 坐标 |
-| y1 | Single | 第一个方向点的 Y 坐标 |
-| x2 | Single | 第二个方向点的 X 坐标 |
-| y2 | Single | 第二个方向点的 Y 坐标 |
-| x3 | Single | 结束点的 X 坐标 |
-| y3 | Single | 结束点的 Y 坐标 |
+| x1 | Single | 第一方向点的X坐标 |
+| y1 | Single | 第一方向点的Y坐标 |
+| x2 | Single | 第二方向点的X坐标 |
+| y2 | Single | 第二方向点的Y坐标 |
+| x3 | Single | 结束点的X坐标 |
+| y3 | Single | 结束点的Y坐标 |
 
 ### 另请参见
 
@@ -56,7 +56,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 ## CubicBezierTo(PointF, PointF, PointF, uint) {#cubicbezierto_3}
 
-在路径的指定位置添加三次贝塞尔曲线
+在路径的指定位置添加立方贝塞尔曲线
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint index)
@@ -64,16 +64,16 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | PointF | 第一个方向点 |
-| point2 | PointF | 第二个方向点 |
+| point1 | PointF | 第一点方向 |
+| point2 | PointF | 第二点方向 |
 | point3 | PointF | 结束点 |
-| index | UInt32 | PathData 中段的索引 |
+| index | UInt32 | PathData中段的索引 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
+| ArgumentOutOfRangeException | 段索引超出PathData范围 |
 
 ### 另请参见
 
@@ -85,7 +85,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 ## CubicBezierTo(float, float, float, float, float, float, uint) {#cubicbezierto_1}
 
-在路径的指定位置添加三次贝塞尔曲线
+在路径的指定位置添加立方贝塞尔曲线
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, uint index)
@@ -93,19 +93,19 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | 第一个方向点的 X 坐标 |
-| y1 | Single | 第一个方向点的 Y 坐标 |
-| x2 | Single | 第二个方向点的 X 坐标 |
-| y2 | Single | 第二个方向点的 Y 坐标 |
-| x3 | Single | 结束点的 X 坐标 |
-| y3 | Single | 结束点的 Y 坐标 |
-| index | UInt32 | PathData 中段的索引 |
+| x1 | Single | 第一方向点的X坐标 |
+| y1 | Single | 第一方向点的Y坐标 |
+| x2 | Single | 第二方向点的X坐标 |
+| y2 | Single | 第二方向点的Y坐标 |
+| x3 | Single | 结束点的X坐标 |
+| y3 | Single | 结束点的Y坐标 |
+| index | UInt32 | PathData中段的索引 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
+| ArgumentOutOfRangeException | 段索引超出PathData范围 |
 
 ### 另请参见
 

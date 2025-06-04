@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'angle de déformation horizontal en degrés. Lectible/écrivable Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie l'angle de distorsion horizontale en degrés. Lecture/écriture Double.
 type: docs
 weight: 110
 url: /fr/aspose.slides.effects/ioutershadow/skewhorizontal/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ioutershadow/skewhorizontal/
 
 ## Propriété IOuterShadow.SkewHorizontal
 
-Spécifie l'angle de déformation horizontal (en degrés). Lectible/écrivable Double.
+Spécifie l'angle de distorsion horizontale (en degrés). Lecture/écriture Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }

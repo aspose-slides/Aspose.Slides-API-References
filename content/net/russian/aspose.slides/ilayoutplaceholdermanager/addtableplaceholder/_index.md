@@ -1,7 +1,7 @@
 ---
 title: AddTablePlaceholder
-second_title: Aspose.Slides для .NET API Reference
-description: Добавляет новую форму-заполнитель на слайд макета для размещения таблицы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новую фигуру-заполнитель на макетный слайд для удержания таблицы.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ilayoutplaceholdermanager/addtableplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutplaceholdermanager/addtableplaceholder/
 
 ## ILayoutPlaceholderManager.AddTablePlaceholder метод
 
-Добавляет новую форму-заполнитель на слайд макета для размещения таблицы.
+Добавляет новую фигуру-заполнитель на макетный слайд для удержания таблицы.
 
 ```csharp
 public IAutoShape AddTablePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddTablePlaceholder(float x, float y, float width, float heigh
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата новой формы-заполнителя. |
-| y | Single | Y-координата новой формы-заполнителя. |
-| width | Single | Ширина новой формы-заполнителя. |
-| height | Single | Высота новой формы-заполнителя. |
+| x | Single | X координата новой фигуры-заполнителя. |
+| y | Single | Y координата новой фигуры-заполнителя. |
+| width | Single | Ширина новой фигуры-заполнителя. |
+| height | Single | Высота новой фигуры-заполнителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем для таблицы.
+Созданный [`IAutoShape`](../../iautoshape) с заполнителем для Таблицы.
 
 ### Примеры
 
-Следующий пример показывает, как добавить форму-заполнитель для таблицы на слайд макета.
+Следующий пример показывает, как добавить фигуру-заполнитель Таблицы на макетный слайд.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * интерфейс [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

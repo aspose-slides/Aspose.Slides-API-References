@@ -1,7 +1,7 @@
 ---
 title: GetCount
-second_title: Aspose.Slides for .NET API 参考
-description: 返回指定形状的效果计数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定形状的效果数量。
 type: docs
 weight: 70
 url: /zh/aspose.slides.animation/isequence/getcount/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/isequence/getcount/
 
 ## ISequence.GetCount 方法
 
-返回指定形状的效果计数。
+返回指定形状的效果数量。
 
 ```csharp
 public int GetCount(IShape shape)
@@ -21,7 +21,7 @@ public int GetCount(IShape shape)
 
 ### 返回值
 
-效果计数 Int32
+效果数量 Int32
 
 ### 另请参阅
 

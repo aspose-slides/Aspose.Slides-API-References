@@ -25,11 +25,11 @@ IMathBar mathBar = new MathBar(new MathematicalText("x"));
 IMathElement base = mathBar.Base;
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IMathElement](../../imathelement)
 * interfaz [IMathBar](../../imathbar)
 * espacio de nombres [Aspose.Slides.MathText](../../imathbar)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

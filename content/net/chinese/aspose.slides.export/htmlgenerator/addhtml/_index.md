@@ -1,7 +1,7 @@
 ---
 title: AddHtml
-second_title: Aspose.Slides for .NET API 参考
-description: 添加格式化的 HTML 文本。
+second_title: Aspose.Sildes for .NET API Reference
+description: 添加格式化的HTML文本。
 type: docs
 weight: 80
 url: /zh/aspose.slides.export/htmlgenerator/addhtml/
@@ -9,15 +9,15 @@ url: /zh/aspose.slides.export/htmlgenerator/addhtml/
 
 ## AddHtml(string) {#addhtml_2}
 
-添加格式化的 HTML 文本。
+添加格式化的HTML文本。
 
 ```csharp
 public void AddHtml(string html)
 ```
 
-| 参数     | 类型     | 描述         |
-|----------|----------|--------------|
-| html     | String   | 要添加的文本。 |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| html | String | 要添加的文本。 |
 
 ### 另请参见
 
@@ -29,15 +29,15 @@ public void AddHtml(string html)
 
 ## AddHtml(char[]) {#addhtml}
 
-添加格式化的 HTML 文本。
+添加格式化的HTML文本。
 
 ```csharp
 public void AddHtml(char[] html)
 ```
 
-| 参数     | 类型     | 描述         |
-|----------|----------|--------------|
-| html     | Char[]   | 要添加的文本。 |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| html | Char[] | 要添加的文本。 |
 
 ### 另请参见
 
@@ -49,17 +49,17 @@ public void AddHtml(char[] html)
 
 ## AddHtml(char[], int, int) {#addhtml_1}
 
-添加格式化的 HTML 文本。
+添加格式化的HTML文本。
 
 ```csharp
 public void AddHtml(char[] html, int startIndex, int length)
 ```
 
-| 参数       | 类型     | 描述                     |
-|------------|----------|--------------------------|
-| html       | Char[]   | 要添加的文本。           |
-| startIndex | Int32    | 要添加部分的起始索引。   |
-| length     | Int32    | 要添加部分的长度。       |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| html | Char[] | 要添加的文本。 |
+| startIndex | Int32 | 要添加部分的起始索引。 |
+| length | Int32 | 要添加部分的长度。 |
 
 ### 另请参见
 

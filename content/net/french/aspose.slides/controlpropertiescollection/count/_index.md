@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un nombre de propriétés dans la collection. Lecture seule Int32.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie le nombre de propriétés dans la collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/controlpropertiescollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/controlpropertiescollection/count/
 
 ## Propriété ControlPropertiesCollection.Count
 
-Renvoie un nombre de propriétés dans la collection. Lecture seule Int32.
+Renvoie le nombre de propriétés dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

@@ -1,7 +1,7 @@
 ---
 title: Escapement
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текст надстрочного или подстрочного формата. Значение от -100 подстрочника до 100 надстрочника. Только для чтения Single.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает текст в верхнем или нижнем индексе. Значение от -100 в нижнем индексе до 100 в верхнем индексе. Только для чтения Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ibaseportionformateffectivedata/escapement/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/escapement/
 
 ## IBasePortionFormatEffectiveData.Escapement свойство
 
-Возвращает текст надстрочного или подстрочного формата. Значение от -100% (подстрочник) до 100% (надстрочник). Только для чтения Single.
+Возвращает текст в верхнем или нижнем индексе. Значение от -100% (нижний индекс) до 100% (верхний индекс). Только для чтения Single.
 
 ```csharp
 public float Escapement { get; }

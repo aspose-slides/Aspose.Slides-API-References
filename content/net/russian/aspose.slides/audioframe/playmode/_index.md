@@ -7,7 +7,7 @@ weight: 130
 url: /ru/aspose.slides/audioframe/playmode/
 ---
 
-## Свойство AudioFrame.PlayMode
+## AudioFrame.PlayMode свойство
 
 Возвращает или устанавливает режим воспроизведения аудио. Чтение/запись [`AudioPlayModePreset`](../../audioplaymodepreset).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/audioframe/playmode/
 public AudioPlayModePreset PlayMode { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [AudioPlayModePreset](../../audioplaymodepreset)
 * class [AudioFrame](../../audioframe)

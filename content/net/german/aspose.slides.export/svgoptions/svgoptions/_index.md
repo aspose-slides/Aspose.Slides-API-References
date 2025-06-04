@@ -1,6 +1,6 @@
 ---
 title: SVGOptions
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Initialisiert eine neue Instanz der SVGOptions-Klasse.
 type: docs
 weight: 10
@@ -33,15 +33,15 @@ public SVGOptions(ILinkEmbedController linkEmbedController)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | Die Referenz auf den Link-Embedding-Controller. |
+| linkEmbedController | ILinkEmbedController | Die Referenz zum Link-Embedding-Controller. |
 
 ### Bemerkungen
 
-Der Link-Embedding-Controller ist ein Delegat-Objekt, das dafür verantwortlich ist, Entscheidungen zu treffen, ob Ressourcen (wie Bilder) eingebettet oder als externe Ressourcen referenziert werden müssen.
+Der Link-Embedding-Controller ist ein Delegatenobjekt, das dafür verantwortlich ist, Entscheidungen zu treffen, ob Ressourcen (wie Bilder) eingebettet oder als externe Ressourcen referenziert werden müssen.
 
 ### Siehe Auch
 
-* Schnittstelle [ILinkEmbedController](../../ilinkembedcontroller)
+* Interface [ILinkEmbedController](../../ilinkembedcontroller)
 * Klasse [SVGOptions](../../svgoptions)
 * Namespace [Aspose.Slides.Export](../../svgoptions)
 * Assembly [Aspose.Slides](../../../)

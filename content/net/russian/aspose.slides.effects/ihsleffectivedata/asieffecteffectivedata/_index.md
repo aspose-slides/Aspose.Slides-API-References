@@ -1,6 +1,6 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata/
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### Также смотри
+### Смотрите Также
 
 * интерфейс [IEffectEffectiveData](../../ieffecteffectivedata)
 * интерфейс [IHSLEffectiveData](../../ihsleffectivedata)

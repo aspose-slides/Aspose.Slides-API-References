@@ -18,12 +18,12 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нулевой базой, по которому должен быть вставлен объект Zoom. |
-| x | Single | X координата нового объекта Zoom. |
-| y | Single | Y координата нового объекта Zoom. |
-| width | Single | Ширина нового объекта Zoom. |
-| height | Single | Высота нового объекта Zoom. |
-| slide | ISlide | Объект слайда, на который ссылается объект Zoom [`ISlide`](../../islide). |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен кадр Zoom. |
+| x | Single | X-координата нового кадра Zoom Single. |
+| y | Single | Y-координата нового кадра Zoom Single. |
+| width | Single | Ширина нового кадра Zoom Single. |
+| height | Single | Высота нового кадра Zoom Single. |
+| slide | ISlide | Объект слайда, на который ссылается кадр Zoom [`ISlide`](../../islide). |
 
 ### Возвращаемое значение
 
@@ -37,7 +37,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекцию (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IZoomFrame](../../izoomframe)
 * интерфейс [ISlide](../../islide)
@@ -68,12 +68,12 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нулевой базой, по которому должен быть вставлен объект Zoom. |
-| x | Single | X координата нового объекта Zoom. |
-| y | Single | Y координата нового объекта Zoom. |
-| width | Single | Ширина нового объекта Zoom. |
-| height | Single | Высота нового объекта Zoom. |
-| slide | ISlide | Объект слайда, на который ссылается объект Zoom [`ISlide`](../../islide). |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен кадр Zoom. |
+| x | Single | X-координата нового кадра Zoom Single. |
+| y | Single | Y-координата нового кадра Zoom Single. |
+| width | Single | Ширина нового кадра Zoom Single. |
+| height | Single | Высота нового кадра Zoom Single. |
+| slide | ISlide | Объект слайда, на который ссылается кадр Zoom [`ISlide`](../../islide). |
 | image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
@@ -88,7 +88,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекцию (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]
@@ -99,7 +99,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IZoomFrame](../../izoomframe)
 * интерфейс [ISlide](../../islide)

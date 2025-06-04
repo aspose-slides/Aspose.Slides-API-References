@@ -1,6 +1,6 @@
 ---
 title: AsIChartComponent
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API справочник
 description: Возвращает интерфейс IChartComponent. Только для чтения IChartComponent aspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ url: /ru/aspose.slides.charts/iformattedtextcontainer/asichartcomponent/
 public IChartComponent AsIChartComponent { get; }
 ```
 
-### Замечания
+### Примечания
 
 Для совместимости с COM.
 
-### Также См.
+### Также см.
 
 * интерфейс [IChartComponent](../../ichartcomponent)
 * интерфейс [IFormattedTextContainer](../../iformattedtextcontainer)

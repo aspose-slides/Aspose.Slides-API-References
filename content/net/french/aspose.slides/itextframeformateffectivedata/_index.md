@@ -1,44 +1,44 @@
----
+---  
 title: ITextFrameFormatEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immutable qui contient les propriétés de formatage effectives du cadre de texte.
-type: docs
-weight: 7070
+second_title: Aspose.Sildes pour la référence API .NET  
+description: Objet immuable qui contient les propriétés de formatage de cadre de texte effectives.
+type: docs  
+weight: 7070  
 url: /fr/aspose.slides/itextframeformateffectivedata/
----
+---  
 
-## Interface ITextFrameFormatEffectiveData
+## Interface ITextFrameFormatEffectiveData  
 
-Objet immutable qui contient les propriétés de formatage effectives du cadre de texte.
+Objet immuable qui contient les propriétés de formatage de cadre de texte effectives.  
 
-```csharp
-public interface ITextFrameFormatEffectiveData
-```
+```csharp  
+public interface ITextFrameFormatEffectiveData  
+```  
 
-## Propriétés
+## Propriétés  
 
-| Nom | Description |
-| --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Renvoie l'ancre verticale du texte dans un TextFrame. En lecture seule [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Renvoie le mode d'ajustement automatique du texte. En lecture seule [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Renvoie si le texte doit être centré dans la boîte horizontalement. Booléen en lecture seule. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Spécifie le nombre de colonnes de texte dans le rectangle de délimitation. Int32 en lecture seule. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Spécifie l'espace entre les colonnes de texte dans la zone de texte (en points). Single en lecture seule. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Renvoie la marge inférieure (points) dans un TextFrame. Double en lecture seule. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Renvoie la marge gauche (points) dans un TextFrame. Double en lecture seule. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Renvoie la marge droite (points) dans un TextFrame. Double en lecture seule. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Renvoie la marge supérieure (points) dans un TextFrame. Double en lecture seule. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Renvoie le style effectif du texte. En lecture seule [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Renvoie l'orientation du texte. En lecture seule [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Renvoie si le texte est renfermé dans les marges du TextFrame. Booléen en lecture seule. |
+| Nom | Description |  
+| --- | --- |  
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Renvoie l'ancrage vertical du texte dans un TextFrame. Lecture seule [`TextAnchorType`](../textanchortype). |  
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Renvoie le mode d'ajustement automatique du texte. Lecture seule [`TextAutofitType`](../textautofittype). |  
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Indique si le texte doit être centré horizontalement dans la zone. Lecture seule Boolean. |  
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Spécifie le nombre de colonnes de texte dans le rectangle englobant. Lecture seule Int32. |  
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Spécifie l'espace entre les colonnes de texte dans la zone de texte (en points). Lecture seule Single. |  
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Renvoie la marge inférieure (en points) dans un TextFrame. Lecture seule Double. |  
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Renvoie la marge gauche (en points) dans un TextFrame. Lecture seule Double. |  
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Renvoie la marge droite (en points) dans un TextFrame. Lecture seule Double. |  
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Renvoie la marge supérieure (en points) dans un TextFrame. Lecture seule Double. |  
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Renvoie le style du texte effectif. Lecture seule [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |  
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Renvoie l'orientation du texte. Lecture seule [`TextVerticalType`](../textverticaltype). |  
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Indique si le texte est enveloppé aux marges du TextFrame. Lecture seule Boolean. |  
 
-### Remarques
+### Remarques  
 
-Cette interface est utilisée en conjonction avec l'interface [`ITextFrameFormat`](../itextframeformat) pour renvoyer des valeurs de formatage effectif avec héritage appliqué.
+Cette interface est utilisée en conjonction avec l'interface [`ITextFrameFormat`](../itextframeformat) pour retourner des valeurs de formatage effectives avec héritage appliqué.  
 
-### Voir Aussi
+### Voir aussi  
 
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)  
+* assembly [Aspose.Slides](../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

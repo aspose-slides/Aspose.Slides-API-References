@@ -1,6 +1,6 @@
 ---
 title: Presentation
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает презентацию. Только для чтения IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipresentationcomponent/presentation/
 public IPresentation Presentation { get; }
 ```
 
-### Смотри также
+### См. Также
 
 * интерфейс [IPresentation](../../ipresentation)
 * интерфейс [IPresentationComponent](../../ipresentationcomponent)

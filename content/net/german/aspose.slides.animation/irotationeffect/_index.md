@@ -1,7 +1,7 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt das Rotationsverhalten des Effekts dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Repräsentiert das Rotationsverhalten des Effekts.
 type: docs
 weight: 490
 url: /de/aspose.slides.animation/irotationeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/irotationeffect/
 
 ## IRotationEffect-Schnittstelle
 
-Stellt das Rotationsverhalten des Effekts dar.
+Repräsentiert das Rotationsverhalten des Effekts.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -19,10 +19,10 @@ public interface IRotationEffect : IBehavior
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur lesbar [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Beschreibt den relativen Offset-Wert für die Animation. Lesen/Schreiben Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Beschreibt den Startwert für die Animation. Lesen/Schreiben Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Beschreibt den Endwert für die Animation. Lesen/Schreiben Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur-Lese [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation. Lesen/ schreiben Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Beschreibt den Startwert für die Animation. Lesen/ schreiben Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Beschreibt den Endwert für die Animation. Lesen/ schreiben Single. |
 
 ### Siehe auch
 

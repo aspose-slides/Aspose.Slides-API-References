@@ -1,6 +1,6 @@
 ---
 title: PathCommandType
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente les commandes de chemin graphique
 type: docs
 weight: 9050
@@ -19,12 +19,12 @@ public enum PathCommandType : byte
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| Close | `0` | Ferme le chemin de géométrie |
-| MoveTo | `1` | Définit la position du prochain point du chemin de géométrie |
-| LineTo | `2` | Ajoute une ligne au chemin de géométrie |
-| ArcTo | `3` | Ajoute l'arc spécifié au chemin de géométrie. |
-| QuadBezierTo | `4` | Ajoute une courbe de Bézier quadratique au chemin de géométrie |
-| CubicBezierTo | `5` | Ajoute une courbe de Bézier cubique au chemin de géométrie |
+| Close | `0` | Ferme le chemin géométrique |
+| MoveTo | `1` | Définit la position du prochain point du chemin géométrique |
+| LineTo | `2` | Ajoute une ligne au chemin géométrique |
+| ArcTo | `3` | Ajoute l'arc spécifié au chemin géométrique. |
+| QuadBezierTo | `4` | Ajoute une courbe de Bézier quadratique au chemin géométrique |
+| CubicBezierTo | `5` | Ajoute une courbe de Bézier cubique au chemin géométrique |
 
 ### Voir Aussi
 

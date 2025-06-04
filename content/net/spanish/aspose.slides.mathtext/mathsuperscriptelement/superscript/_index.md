@@ -1,15 +1,15 @@
 ---
 title: Superscript
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Superíndice
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Superscript
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/mathsuperscriptelement/superscript/
 ---
 
-## Propiedad MathSuperscriptElement.Superscript
+## MathSuperscriptElement.Superscript propiedad
 
-Superíndice
+Superscript
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -27,11 +27,11 @@ MathSuperscriptElement superscriptElement = new MathSuperscriptElement(baseEleme
 IMathElement super = superscriptElement.Superscript;
 ```
 
-### Véase También
+### Véase también
 
-* interfaz [IMathElement](../../imathelement)
-* clase [MathSuperscriptElement](../../mathsuperscriptelement)
-* espacio de nombres [Aspose.Slides.MathText](../../mathsuperscriptelement)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)
+* class [MathSuperscriptElement](../../mathsuperscriptelement)
+* namespace [Aspose.Slides.MathText](../../mathsuperscriptelement)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

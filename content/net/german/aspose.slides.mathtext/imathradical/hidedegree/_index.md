@@ -1,7 +1,7 @@
 ---
 title: HideDegree
-second_title: Aspose.Sildes für .NET API Referenz
-description: Grad ausblenden Wenn true ist, wird der Grad nicht angezeigt wie in
+second_title: Aspose.Slides für .NET API-Referenz
+description: Grad ausblenden Wenn wahr, wird der Grad nicht angezeigt, wie in
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathradical/hidedegree/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathradical/hidedegree/
 
 ## IMathRadical.HideDegree-Eigenschaft
 
-Grad ausblenden Wenn true ist, wird der Grad nicht angezeigt, wie in √𝑥
+Grad ausblenden Wenn wahr, wird der Grad nicht angezeigt, wie in √𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -25,7 +25,7 @@ IMathRadical radical = new MathematicalText("x").Radical("3"); // Kubikwurzel
 radical.HideDegree = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathRadical](../../imathradical)
 * Namespace [Aspose.Slides.MathText](../../imathradical)

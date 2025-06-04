@@ -1,13 +1,13 @@
 ---
 title: CreateMathFunction
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Crea una función matemática
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/imathfunctionfactory/createmathfunction/
 ---
 
-## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
+## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
 
 Crea una función matemática
 
@@ -17,10 +17,10 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| funcName | IMathElement | Elemento utilizado como nombre de la función |
-| baseArgument | IMathElement | Elemento utilizado como argumento de la función |
+| funcName | IMathElement | Elemento utilizado como nombre de función |
+| baseArgument | IMathElement | Elemento utilizado como argumento de función |
 
-### Valor de Retorno
+### Valor de regreso
 
 nueva función matemática
 
@@ -34,7 +34,7 @@ nueva función matemática
 
 ---
 
-## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
+## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
 
 Crea una función matemática
 
@@ -45,9 +45,9 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | funcName | String | Nombre de la función |
-| baseArgument | IMathElement | Elemento utilizado como argumento de la función |
+| baseArgument | IMathElement | Elemento utilizado como argumento de función |
 
-### Valor de Retorno
+### Valor de regreso
 
 nueva función matemática
 

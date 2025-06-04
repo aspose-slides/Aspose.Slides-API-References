@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片的名称。可读写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置幻灯片的名称。可读/写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ibaseslide/name/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibaseslide/name/
 
 ## IBaseSlide.Name 属性
 
-返回或设置幻灯片的名称。可读写字符串。
+返回或设置幻灯片的名称。可读/写字符串。
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 命名空间 [Aspose.Slides](../../ibaseslide)

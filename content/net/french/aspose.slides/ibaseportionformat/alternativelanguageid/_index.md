@@ -1,21 +1,21 @@
 ---
 title: AlternativeLanguageId
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'Id d'une langue alternative. Lecture/écriture String.
+description: Renvoie ou définit l'Id d'une langue alternative. Chaîne en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibaseportionformat/alternativelanguageid/
 ---
 
-## Propriété IBasePortionFormat.AlternativeLanguageId
+## IBasePortionFormat.AlternativeLanguageId propriété
 
-Renvoie ou définit l'Id d'une langue alternative. Lecture/écriture String.
+Renvoie ou définit l'Id d'une langue alternative. Chaîne en lecture/écriture.
 
 ```csharp
 public string AlternativeLanguageId { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormat](../../ibaseportionformat)
 * namespace [Aspose.Slides](../../ibaseportionformat)

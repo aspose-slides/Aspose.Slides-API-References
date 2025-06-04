@@ -1,7 +1,7 @@
 ---
 title: EffectStyles
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine Sammlung von themenbasierten Effektstilen zurück. Nur-lesbare IEffectStyleCollectionaspose.slides.theme/ieffectstylecollection.
+description: Gibt eine Sammlung von themendefinierten Effektstilen zurück. Schreibgeschützte IEffectStyleCollectionaspose.slides.theme/ieffectstylecollection.
 type: docs
 weight: 30
 url: /de/aspose.slides.theme/iformatscheme/effectstyles/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/iformatscheme/effectstyles/
 
 ## IFormatScheme.EffectStyles-Eigenschaft
 
-Gibt eine Sammlung von themenbasierten Effektstilen zurück. Nur-lesbare [`IEffectStyleCollection`](../../ieffectstylecollection).
+Gibt eine Sammlung von themendefinierten Effektstilen zurück. Schreibgeschützte [`IEffectStyleCollection`](../../ieffectstylecollection).
 
 ```csharp
 public IEffectStyleCollection EffectStyles { get; }

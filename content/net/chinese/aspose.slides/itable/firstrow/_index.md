@@ -1,7 +1,7 @@
 ---
 title: FirstRow
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定表格的第一行是否必须采用特殊格式绘制。可读写布尔值。
+description: 决定表格的第一行是否需要以特殊格式绘制。可读/可写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/itable/firstrow/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itable/firstrow/
 
 ## ITable.FirstRow 属性
 
-确定表格的第一行是否必须采用特殊格式绘制。可读写布尔值。
+决定表格的第一行是否需要以特殊格式绘制。可读/可写布尔值。
 
 ```csharp
 public bool FirstRow { get; set; }
 ```
 
-### 相关内容
+### 参见
 
 * 接口 [ITable](../../itable)
 * 命名空间 [Aspose.Slides](../../itable)

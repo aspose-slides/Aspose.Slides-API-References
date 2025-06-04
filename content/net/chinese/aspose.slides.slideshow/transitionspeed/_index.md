@@ -1,6 +1,6 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示过渡速度类型。
 type: docs
 weight: 10130
@@ -19,11 +19,11 @@ public enum TransitionSpeed
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Fast | `0` |  |
-| Medium | `1` |  |
-| Slow | `2` |  |
+| 快速 | `0` |  |
+| 中等 | `1` |  |
+| 慢速 | `2` |  |
 
-### 参见
+### 参考
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: ParentLabelLayout
-second_title: Aspose.Slides for .NET API 参考
-description: 表示父类别标签的布局。仅适用于树状图。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示父类别标签的布局。仅适用于树图表。
 type: docs
 weight: 280
 url: /zh/aspose.slides.charts/ichartseries/parentlabellayout/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseries/parentlabellayout/
 
 ## IChartSeries.ParentLabelLayout 属性
 
-表示父类别标签的布局。仅适用于树状图。
+表示父类别标签的布局。仅适用于树图表。
 
 ```csharp
 public ParentLabelLayoutType ParentLabelLayout { get; set; }
 ```
 
-### 另见
+### 相关内容
 
 * enum [ParentLabelLayoutType](../../parentlabellayouttype)
 * interface [IChartSeries](../../ichartseries)

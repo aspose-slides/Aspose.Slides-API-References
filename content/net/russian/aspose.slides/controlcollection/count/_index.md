@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает количество объектов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/controlcollection/count/
 ---
 
-## Свойство ControlCollection.Count
+## ControlCollection.Count свойство
 
 Возвращает количество объектов в коллекции. Только для чтения Int32.
 

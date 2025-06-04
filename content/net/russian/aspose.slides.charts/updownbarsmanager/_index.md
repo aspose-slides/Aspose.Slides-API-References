@@ -1,15 +1,15 @@
 ---
 title: UpDownBarsManager
-second_title: Справка по API Aspose.Sildes для .NET
-description: Обеспечивает доступ к вверх/вниз полосам линейного или фондового графика.
+second_title: Aspose.Sildes для .NET API Справка
+description: Предоставляет доступ к верхним/нижним полосам линейного или фондового графика.
 type: docs
 weight: 2420
 url: /ru/aspose.slides.charts/updownbarsmanager/
 ---
 
-## Класс UpDownBarsManager
+## UpDownBarsManager class
 
-Обеспечивает доступ к вверх/вниз полосам линейного или фондового графика.
+Предоставляет доступ к верхним/нижним полосам линейного или фондового графика.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -17,14 +17,14 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Возвращает формат DownBars. Только для чтения [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | Ширина промежутка. Читаемое/записываемое значение Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | Наличие UpDownBars. Читаемое/записываемое значение Boolean. |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | Ширина пробела. Чтение/запись Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | Имеет верхние/нижние полосы. Чтение/запись Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Возвращает формат UpBars. Только для чтения [`IFormat`](../iformat). |
 
-### См. также
+### Также см. 
 
 * класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * класс [ChartSeriesGroup](../chartseriesgroup)

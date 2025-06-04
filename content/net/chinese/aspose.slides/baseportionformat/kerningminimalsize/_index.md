@@ -1,7 +1,7 @@
 ---
 title: KerningMinimalSize
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置应开启字距调整的最小字体大小。 **float.NaN** 表示值未定义，应从母版继承。读/写单精度数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置应启用字距调整的最小字体大小。 **float.NaN** 表示值未定义，应从母版继承。可读写单精度浮点数。
 type: docs
 weight: 140
 url: /zh/aspose.slides/baseportionformat/kerningminimalsize/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/kerningminimalsize/
 
 ## BasePortionFormat.KerningMinimalSize 属性
 
-返回或设置应开启字距调整的最小字体大小。 **float.NaN** 表示值未定义，应从母版继承。读/写单精度数。
+返回或设置应启用字距调整的最小字体大小。 **float.NaN** 表示值未定义，应从母版继承。可读写单精度浮点数。
 
 ```csharp
 public float KerningMinimalSize { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [BasePortionFormat](../../baseportionformat)
 * 命名空间 [Aspose.Slides](../../baseportionformat)

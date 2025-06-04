@@ -1,6 +1,6 @@
 ---
 title: ParentGroup
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Возвращает родительский объект GroupShape для коллекции фигур. Только для чтения IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 20

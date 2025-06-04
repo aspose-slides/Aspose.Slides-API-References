@@ -1,7 +1,7 @@
 ---
 title: Perspective
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la valeur de perspective angle de champ de vision pour les graphiques 3D entre 0 et 100. Ignoré si la valeur de la propriété RightAngleAxes est true. Lecture/écriture Byte.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit la valeur de perspective angle de champ de vision pour les graphiques 3D entre 0 et 100. Ignoré si la valeur de la propriété RightAngleAxes est vraie. Lecture/écriture Byte.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/irotation3d/perspective/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/irotation3d/perspective/
 
 ## Propriété IRotation3D.Perspective
 
-Renvoie ou définit la valeur de perspective (angle de champ de vision) pour les graphiques 3D (entre 0 et 100). Ignoré si la valeur de la propriété RightAngleAxes est true. Lecture/écriture Byte.
+Renvoie ou définit la valeur de perspective (angle de champ de vision) pour les graphiques 3D (entre 0 et 100). Ignoré si la valeur de la propriété RightAngleAxes est vraie. Lecture/écriture Byte.
 
 ```csharp
 public byte Perspective { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sperren von Connectors zurück. Nur-lesbare IConnectorLockaspose.slides/iconnectorlock.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sperren von Connectors zurück. Nur-Lese IConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 20
 url: /de/aspose.slides/iconnector/connectorlock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iconnector/connectorlock/
 
 ## IConnector.ConnectorLock-Eigenschaft
 
-Gibt die Sperren des Connectors zurück. Nur-lesbare [`IConnectorLock`](../../iconnectorlock).
+Gibt die Sperren des Connectors zurück. Nur-Lese [`IConnectorLock`](../../iconnectorlock).
 
 ```csharp
 public IConnectorLock ConnectorLock { get; }

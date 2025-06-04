@@ -1,6 +1,6 @@
 ---
 title: IEffect
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示动画效果。
 type: docs
 weight: 410
@@ -19,22 +19,22 @@ public interface IEffect
 
 | 名称 | 描述 |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | 定义效果的动画之后颜色。读/写 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | 定义效果的动画之后类型。读/写 [`AfterAnimationType`](./afteranimationtype)。 |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | 定义效果的动画文本类型。形状文本可以按字母、按单词或全部同时动画。读/写 [`AnimateTextType`](./animatetexttype)。 |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | 返回效果的行为集合。读/写 [`IBehaviorCollection`](../ibehaviorcollection)。 |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | 定义动画文本部分（单词或字母）之间的延迟。正值指定效果持续时间的百分比，负值指定延迟的秒数。读/写 Single。 |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | 定义效果的类。读/写 [`EffectPresetClassType`](../effectpresetclasstype)。 |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | 定义效果的动画结束颜色。可读/可写 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | 定义效果的动画结束类型。可读/可写 [`AfterAnimationType`](./afteranimationtype)。 |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | 定义效果的文本动画类型。形状文本可以按字母、按单词或一次全部动画。可读/可写 [`AnimateTextType`](./animatetexttype)。 |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | 返回效果的行为集合。可读/可写 [`IBehaviorCollection`](../ibehaviorcollection)。 |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | 定义动画文本部分（单词或字母）之间的延迟。正值指定效果持续时间的百分比，负值指定以秒为单位的延迟。可读/可写 Single。 |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | 定义效果的类别。可读/可写 [`EffectPresetClassType`](../effectpresetclasstype)。 |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | 返回效果的序列。只读 [`ISequence`](../isequence)。 |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | 定义效果的嵌入声音。读/写 [`IAudio`](../../aspose.slides/iaudio)。 |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | 此属性指定动画效果是否停止先前的声音。读/写 Boolean。 |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | 定义效果的子类型。读/写 [`EffectSubtype`](../effectsubtype)。 |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | 定义效果的嵌入声音。可读/可写 [`IAudio`](../../aspose.slides/iaudio)。 |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | 此属性指定动画效果是否停止先前的声音。可读/可写 Boolean。 |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | 定义效果的子类型。可读/可写 [`EffectSubtype`](../effectsubtype)。 |
 | [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | 返回效果的目标形状。只读 [`IShape`](../../aspose.slides/ishape)。 |
 | [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | 返回文本动画。只读 [`ITextAnimation`](../itextanimation)。 |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | 定义效果的时间值。读/写 [`ITiming`](../itiming)。 |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | 定义效果的类型。读/写 [`EffectType`](../effecttype)。 |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | 定义效果的时间值。可读/可写 [`ITiming`](../itiming)。 |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | 定义效果的类型。可读/可写 [`EffectType`](../effecttype)。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

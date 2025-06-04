@@ -19,7 +19,7 @@ public IAlphaFloorEffectiveData GetEffective()
 
 一个 [`IAlphaFloorEffectiveData`](../../ialphaflooreffectivedata)。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAlphaFloorEffectiveData](../../ialphaflooreffectivedata)
 * 类 [AlphaFloor](../../alphafloor)

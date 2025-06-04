@@ -1,7 +1,7 @@
 ---
 title: Underbar
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzt einen Strich an den unteren Rand dieses Elements
+second_title: Aspose.Slides für .NET API-Referenz
+description: Setzt eine Linie am unteren Ende dieses Elements
 type: docs
 weight: 210
 url: /de/aspose.slides.mathtext/mathelementbase/underbar/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathelementbase/underbar/
 
 ## MathElementBase.Underbar-Methode
 
-Setzt einen Strich an den unteren Rand dieses Elements
+Setzt eine Linie am unteren Ende dieses Elements
 
 ```csharp
 public IMathBar Underbar()
@@ -17,7 +17,7 @@ public IMathBar Underbar()
 
 ### Rückgabewert
 
-Neue Instanz des Typs [`IMathBar`](../../imathbar)
+Neue Instanz vom Typ [`IMathBar`](../../imathbar)
 
 ### Beispiele
 

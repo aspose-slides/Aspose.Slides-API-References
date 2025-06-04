@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Supprime un élément à l'index spécifié de la collection.
 type: docs
 weight: 100
 url: /fr/aspose.slides.mathtext/imathblockcollection/removeat/
 ---
 
-## Méthode IMathBlockCollection.RemoveAt
+## IMathBlockCollection.RemoveAt méthode
 
 Supprime un élément à l'index spécifié de la collection.
 

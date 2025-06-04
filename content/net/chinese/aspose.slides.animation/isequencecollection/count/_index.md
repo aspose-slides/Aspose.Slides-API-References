@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中元素的数量，只读 Int32。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回集合中元素的数量只读 Int32。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/isequencecollection/count/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/isequencecollection/count/
 
 ## ISequenceCollection.Count 属性
 
-返回集合中元素的数量，只读 Int32。
+返回集合中元素的数量只读 Int32。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISequenceCollection](../../isequencecollection)
 * 命名空间 [Aspose.Slides.Animation](../../isequencecollection)

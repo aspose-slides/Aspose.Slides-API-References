@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime la première occurrence d'un objet spécifique de la collection.
 type: docs
 weight: 160
@@ -19,9 +19,9 @@ public bool Remove(IMathElement item)
 | --- | --- | --- |
 | item | IMathElement | L'objet à supprimer de la collection. |
 
-### Valeur de Retour
+### Valeur de retour
 
-true si *item* a été supprimé avec succès de la collection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans la collection originale.
+true si *item* a été supprimé avec succès de la collection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans la collection d'origine.
 
 ### Exemples
 

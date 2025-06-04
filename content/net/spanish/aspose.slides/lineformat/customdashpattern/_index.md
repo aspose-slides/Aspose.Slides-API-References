@@ -15,7 +15,7 @@ Devuelve o establece el patrón de guiones personalizado. Lectura/escritura Sing
 public float[] CustomDashPattern { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [LineFormat](../../lineformat)
 * espacio de nombres [Aspose.Slides](../../lineformat)

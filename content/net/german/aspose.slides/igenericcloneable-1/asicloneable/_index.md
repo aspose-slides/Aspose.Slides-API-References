@@ -1,6 +1,6 @@
 ---
 title: AsICloneable
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das ICloneable-Interface zurück.
 type: docs
 weight: 10
@@ -15,9 +15,9 @@ Gibt das ICloneable-Interface zurück.
 public ICloneable AsICloneable { get; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

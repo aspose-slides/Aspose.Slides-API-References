@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineLine
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder sie von den LineFormat-Eigenschaften des Textes erbt. Nur lesbarer Boolean.
+description: Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder sie von den LineFormat-Eigenschaften des Textes erbt. Nur-lesbare Boolean.
 type: docs
 weight: 130
 url: /de/aspose.slides/ibaseportionformateffectivedata/ishardunderlineline/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/ishardunderlineline/
 
 ## IBasePortionFormatEffectiveData.IsHardUnderlineLine-Eigenschaft
 
-Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder sie von den LineFormat-Eigenschaften des Textes erbt. Nur lesbarer Boolean.
+Bestimmt, ob der Unterstreichungsstil eigene LineFormat-Eigenschaften hat oder sie von den LineFormat-Eigenschaften des Textes erbt. Nur-lesbare Boolean.
 
 ```csharp
 public bool IsHardUnderlineLine { get; }

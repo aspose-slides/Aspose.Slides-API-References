@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le nombre de cellules dans la collection. Int32 en lecture seule.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient le nombre de cellules dans la collection. Lecture seule Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ichartcellcollection/count/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartcellcollection/count/
 
 ## Propriété IChartCellCollection.Count
 
-Obtient le nombre de cellules dans la collection. Int32 en lecture seule.
+Obtient le nombre de cellules dans la collection. Lecture seule Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCellCollection](../../ichartcellcollection)
 * namespace [Aspose.Slides.Charts](../../ichartcellcollection)

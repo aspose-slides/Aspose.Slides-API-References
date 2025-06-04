@@ -1,7 +1,7 @@
 ---
 title: Join
-second_title: Справочник API Aspose.Slides для .NET
-description: Соединяет математический элемент и формирует математический блок
+second_title: Aspose.Sildes для .NET API Reference
+description: Объединяет математический элемент и формирует математический блок
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/imathelement/join/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathelement/join/
 
 ## Join(IMathElement) {#join}
 
-Соединяет математический элемент и формирует математический блок
+Объединяет математический элемент и формирует математический блок
 
 ```csharp
 public IMathBlock Join(IMathElement mathElement)
@@ -17,9 +17,9 @@ public IMathBlock Join(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Элемент, который нужно соединить |
+| mathElement | IMathElement | Элемент, который нужно объединить |
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
 Новый IMathBlock, содержащий этот экземпляр и указанный аргумент
 
@@ -34,7 +34,7 @@ IMathElement element2 = new MathematicalText("y");
 IMathBlock block = element1.Join(element2);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathBlock](../../imathblock)
 * интерфейс [IMathElement](../../imathelement)
@@ -45,7 +45,7 @@ IMathBlock block = element1.Join(element2);
 
 ## Join(string) {#join_1}
 
-Соединяет математический текст и формирует математический блок
+Объединяет математический текст и формирует математический блок
 
 ```csharp
 public IMathBlock Join(string mathText)
@@ -53,11 +53,11 @@ public IMathBlock Join(string mathText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | Математический текст, который нужно соединить |
+| mathText | String | Математический текст для объединения |
 
-### Возвращаемое значение
+### Значение, возвращаемое методом
 
-Новый IMathBlock, содержащий этот экземпляр и указанный аргумент
+Н новый IMathBlock, содержащий этот экземпляр и указанный аргумент
 
 ### Примеры
 
@@ -69,7 +69,7 @@ IMathElement element = new MathematicalText("x");
 IMathBlock block = element.Join("+y");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathBlock](../../imathblock)
 * интерфейс [IMathElement](../../imathelement)

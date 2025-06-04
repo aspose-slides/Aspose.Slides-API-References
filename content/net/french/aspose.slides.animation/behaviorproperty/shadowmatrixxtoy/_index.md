@@ -1,6 +1,6 @@
 ---
 title: ShadowMatrixXtoY
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour les références de l'API .NET
 description: Représente la propriété shadow.matrix.xtoy
 type: docs
 weight: 650
@@ -15,7 +15,7 @@ Représente la propriété 'shadow.matrix.xtoy'
 public static BehaviorProperty ShadowMatrixXtoY { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

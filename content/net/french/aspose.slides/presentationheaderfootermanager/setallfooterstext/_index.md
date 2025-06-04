@@ -1,15 +1,15 @@
 ---
 title: SetAllFootersText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte pour tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, les notes maîtres, les diapositives de notes et le maître de support.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Définit le texte de tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des documents.
 type: docs
 weight: 30
 url: /fr/aspose.slides/presentationheaderfootermanager/setallfooterstext/
 ---
 
-## Méthode PresentationHeaderFooterManager.SetAllFootersText
+## PresentationHeaderFooterManager.SetAllFootersText méthode
 
-Définit le texte pour tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de mise en page, les diapositives, les notes maîtres, les diapositives de notes et le maître de support.
+Définit le texte de tous les espaces réservés de pied de page, y compris les diapositives maîtres, les diapositives de disposition, les diapositives, le maître des notes, les diapositives de notes et le maître des documents.
 
 ```csharp
 public void SetAllFootersText(string text)

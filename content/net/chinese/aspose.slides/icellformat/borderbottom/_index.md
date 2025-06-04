@@ -1,21 +1,21 @@
 ---
 title: BorderBottom
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回底部边框线属性对象。只读 ILineFormataspose.slides/ilineformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回下边框线属性对象。只读 ILineFormat aspose.slides/ilineformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides/icellformat/borderbottom/
 ---
 
-## ICellFormat.BorderBottom 属性
+## ICellFormat.BorderBottom属性
 
-返回一个底部边框线属性对象。只读 [`ILineFormat`](../../ilineformat)。
+返回下边框线属性对象。只读 [`ILineFormat`](../../ilineformat)。
 
 ```csharp
 public ILineFormat BorderBottom { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [ILineFormat](../../ilineformat)
 * 接口 [ICellFormat](../../icellformat)

@@ -15,7 +15,7 @@ Gibt das Element am angegebenen Index zurück.
 public IChartSeries this[int index] { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartSeries](../../ichartseries)
 * Schnittstelle [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)

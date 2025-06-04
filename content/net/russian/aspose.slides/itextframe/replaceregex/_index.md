@@ -1,7 +1,7 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides для .NET API справочник
-description: Заменяет все вхождения регулярного выражения на заданную строку.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Заменяет все совпадения регулярного выражения на указанную строку.
 type: docs
 weight: 110
 url: /ru/aspose.slides/itextframe/replaceregex/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itextframe/replaceregex/
 
 ## ITextFrame.ReplaceRegex метод
 
-Заменяет все совпадения регулярного выражения на заданную строку.
+Заменяет все совпадения регулярного выражения на указанную строку.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -18,12 +18,12 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | regex | Regex | Регулярное выражение Regex для получения строк для замены. |
-| newText | String | Строка для замены всех вхождений заменяемых строк. |
+| newText | String | Строка, на которую будут заменены все вхождения строк для замены. |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий код показывает, как заменить текст с использованием регулярного выражения на заданную строку.
+Приведенный ниже образец кода показывает, как заменить текст с использованием регулярного выражения на указанную строку.
 
 ```csharp
 [C#]

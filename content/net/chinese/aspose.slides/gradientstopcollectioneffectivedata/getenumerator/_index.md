@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个枚举器，用于迭代集合。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 60
 url: /zh/aspose.slides/gradientstopcollectioneffectivedata/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/gradientstopcollectioneffectivedata/getenumerator/
 
 ## GradientStopCollectionEffectiveData.GetEnumerator 方法
 
-返回一个枚举器，用于迭代集合。
+返回一个迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<IGradientStopEffectiveData> GetEnumerator()
@@ -19,7 +19,7 @@ public IEnumerator<IGradientStopEffectiveData> GetEnumerator()
 
 一个可以用于迭代集合的 IEnumerator。
 
-### 参见
+### 另请参阅
 
 * 接口 [IGradientStopEffectiveData](../../igradientstopeffectivedata)
 * 类 [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)

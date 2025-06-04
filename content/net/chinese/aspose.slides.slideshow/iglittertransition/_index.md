@@ -1,7 +1,7 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Slides for .NET API Reference
-description: 闪光幻灯片过渡效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 闪光幻灯片切换效果。
 type: docs
 weight: 9790
 url: /zh/aspose.slides.slideshow/iglittertransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/iglittertransition/
 
 ## IGlitterTransition 接口
 
-闪光幻灯片过渡效果。
+闪光幻灯片切换效果。
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -20,10 +20,10 @@ public interface IGlitterTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | 过渡方向。读写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 指定过渡期间使用的视觉形状。读写 [`TransitionPattern`](../transitionpattern)。 |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | 切换的方向。读写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 指定切换时使用的视觉效果的形状。读写 [`TransitionPattern`](../transitionpattern)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

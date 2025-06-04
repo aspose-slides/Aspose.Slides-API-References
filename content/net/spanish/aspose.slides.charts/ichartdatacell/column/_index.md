@@ -15,10 +15,10 @@ Devuelve el índice de la columna de la hoja de cálculo en la que se encuentra 
 public int Column { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IChartDataCell](../../ichartdatacell)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartdatacell)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartDataCell](../../ichartdatacell)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartdatacell)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

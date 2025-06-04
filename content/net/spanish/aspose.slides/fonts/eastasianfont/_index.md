@@ -1,6 +1,6 @@
 ---
 title: EastAsianFont
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Devuelve o establece la fuente de Asia Oriental. Lectura/escritura IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Devuelve o establece la fuente de Asia Oriental. Lectura/escritura [`IFontData`]
 public IFontData EastAsianFont { get; set; }
 ```
 
-### Véase También
+### También vea
 
 * interfaz [IFontData](../../ifontdata)
 * clase [Fonts](../../fonts)

@@ -1,15 +1,15 @@
 ---
 title: SpaceWithin
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает количество пространства между базовыми линиями в абзаце. Только для чтения Single.
+description: Возвращает величину пространства между базовыми линиями в абзаце. Только для чтения Single.
 type: docs
 weight: 160
 url: /ru/aspose.slides/iparagraphformateffectivedata/spacewithin/
 ---
 
-## Свойство IParagraphFormatEffectiveData.SpaceWithin
+## IParagraphFormatEffectiveData.SpaceWithin свойство
 
-Возвращает количество пространства между базовыми линиями в абзаце. Только для чтения Single.
+Возвращает величину пространства между базовыми линиями в абзаце. Только для чтения Single.
 
 ```csharp
 public float SpaceWithin { get; }

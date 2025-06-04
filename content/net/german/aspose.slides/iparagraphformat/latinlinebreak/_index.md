@@ -1,7 +1,7 @@
 ---
 title: LatinLineBreak
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Schreib-/lesbarer NullableBoolaspose.slides/nullablebool.
+description: Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /de/aspose.slides/iparagraphformat/latinlinebreak/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformat/latinlinebreak/
 
 ## IParagraphFormat.LatinLineBreak-Eigenschaft
 
-Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Schreib-/lesbar [`NullableBool`](../../nullablebool).
+Bestimmt, ob der lateinische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/schreibbarer [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LatinLineBreak { get; set; }

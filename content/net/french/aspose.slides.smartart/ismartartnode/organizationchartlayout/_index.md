@@ -1,7 +1,7 @@
 ---
 title: OrganizationChartLayout
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le type de disposition de graphique organisationnel associé au nœud actuel. Lecture/écriture OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le type de disposition du graphique organisationnel associé au nœud actuel. Lecture/écriture OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs
 weight: 60
 url: /fr/aspose.slides.smartart/ismartartnode/organizationchartlayout/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/ismartartnode/organizationchartlayout/
 
 ## Propriété ISmartArtNode.OrganizationChartLayout
 
-Renvoie ou définit le type de disposition de graphique organisationnel associé au nœud actuel. Lecture/écriture [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
+Renvoie ou définit le type de disposition du graphique organisationnel associé au nœud actuel. Lecture/écriture [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
 
 ```csharp
 public OrganizationChartLayoutType OrganizationChartLayout { get; set; }

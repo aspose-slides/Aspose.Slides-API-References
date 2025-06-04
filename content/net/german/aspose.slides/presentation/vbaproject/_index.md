@@ -1,7 +1,7 @@
 ---
 title: VbaProject
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das VBA-Projekt mit Präsentations-Makros ab oder setzt es. Lese-/Schreibzugriff auf IVbaProjectaspose.slides/../aspose.slides.vba/ivbaproject.
+description: Ruft das VBA-Projekt mit Präsentations-Makros ab oder legt es fest. Lese-/Schreibzugriff auf IVbaProjectaspose.slides/../aspose.slides.vba/ivbaproject.
 type: docs
 weight: 270
 url: /de/aspose.slides/presentation/vbaproject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentation/vbaproject/
 
 ## Presentation.VbaProject-Eigenschaft
 
-Ruft das VBA-Projekt mit Präsentations-Makros ab oder setzt es. Lese-/Schreibzugriff auf [`IVbaProject`](../../../aspose.slides.vba/ivbaproject).
+Ruft das VBA-Projekt mit Präsentations-Makros ab oder legt es fest. Lese-/Schreibzugriff auf [`IVbaProject`](../../../aspose.slides.vba/ivbaproject).
 
 ```csharp
 public IVbaProject VbaProject { get; set; }

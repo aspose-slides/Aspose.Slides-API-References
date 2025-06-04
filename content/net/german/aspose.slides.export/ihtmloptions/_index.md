@@ -1,6 +1,6 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt Optionen für den HTML-Export dar.
 type: docs
 weight: 3800
@@ -19,17 +19,17 @@ public interface IHtmlOptions : ISaveOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Ein Boolescher Wert, der angibt, ob die beschnittenen Teile als Teil des Dokuments verbleiben. Wenn true, werden die beschnittenen Teile entfernt, wenn false, werden sie im Dokument serialisiert (was möglicherweise zu einer größeren Datei führen kann). Lesen/ Schreiben Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Ruft einen Wert ab oder setzt ihn, der angibt, ob der Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Gibt die HTML-Vorlage zurück oder setzt sie. Lesen/ Schreiben [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Bietet Optionen, die das Aussehen von Tinte-Objekten im exportierten Dokument steuern. Nur lesbar [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Gibt einen Wert zurück oder setzt ihn, der die Qualität der JPEG-Bilder im PDF-Dokument bestimmt. Lesen/ Schreiben Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Stellt das Kompressionsniveau der Bilder dar. Lesen/ Schreiben [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Gibt an, ob das erzeugte Dokument versteckte Folien enthalten soll oder nicht. Standardwert ist `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Gibt die Optionen für das Folienbildformat zurück oder setzt sie. Lesen/ Schreiben [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Ruft den Modus ab oder setzt ihn, in dem Folien beim Export einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True, um Breite- und Höheattribute aus dem SVG-Container auszuschließen - das macht das Layout responsiv. False - andernfalls. Lesen/ Schreiben Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur lesend [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Ein boolesches Flag, das angibt, ob die zugeschnittenen Teile Teil des Dokuments bleiben. Wenn true, werden die zugeschnittenen Teile entfernt, wenn false, werden sie im Dokument serialisiert (was möglicherweise zu einer größeren Datei führen kann). Lese-/schreibbarer Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | Ruft einen Wert ab oder legt fest, ob der Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Gibt das HTML-Template zurück oder legt es fest. Lese-/schreibbar [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | Bietet Optionen, die das Erscheinungsbild von Tintenobjekten im exportierten Dokument steuern. Nur lesend [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Gibt einen Wert zurück oder legt ihn fest, der die Qualität der JPEG-Bilder im PDF-Dokument bestimmt. Lese-/schreibbarer Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Stellt das Kompressionsniveau für Bilder dar. Lese-/schreibbar [`PicturesCompression`](./picturescompression). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist `false`. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Gibt die Optionen für das Folienbildformat zurück oder legt sie fest. Lese-/schreibbar [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | Ruft den Modus ab oder legt ihn fest, in dem Folien beim Export einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True, um Breiten- und Höhenattribute aus dem SVG-Container auszuschließen – das macht das Layout responsiv. False – andernfalls. Lese-/schreibbarer Boolean. |
 
 ### Siehe auch
 

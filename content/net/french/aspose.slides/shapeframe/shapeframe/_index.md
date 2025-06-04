@@ -1,7 +1,7 @@
 ---
 title: ShapeFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée les nouvelles propriétés des cadres de forme.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée les propriétés de nouveaux cadres de forme.
 type: docs
 weight: 10
 url: /fr/aspose.slides/shapeframe/shapeframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapeframe/shapeframe/
 
 ## Constructeur ShapeFrame
 
-Crée les nouvelles propriétés d'un cadre de forme.
+Crée les propriétés du nouveau cadre de forme.
 
 ```csharp
 public ShapeFrame(float x, float y, float width, float height, NullableBool flipH, 
@@ -22,8 +22,8 @@ public ShapeFrame(float x, float y, float width, float height, NullableBool flip
 | y | Single | Coordonnée Y d'un cadre. |
 | width | Single | Largeur d'un cadre. |
 | height | Single | Hauteur d'un cadre. |
-| flipH | NullableBool | Vrai si un cadre est retourné horizontalement. |
-| flipV | NullableBool | Vrai si un cadre est retourné verticalement. |
+| flipH | NullableBool | True si un cadre est retourné horizontalement. |
+| flipV | NullableBool | True si un cadre est retourné verticalement. |
 | rotationAngle | Single | Nombre de degrés qu'un cadre est tourné. |
 
 ### Voir aussi

@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Справочник по API Aspose.Slides для .NET
-description: Направление перехода. Чтение/запись TransitionCornerAndCenterDirectionType aspose.slides.slideshow/transitioncornerandcenterdirectiontype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Направление перехода. Чтение/запись TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype.
 type: docs
 weight: 10
 url: /ru/aspose.slides.slideshow/rippletransition/direction/

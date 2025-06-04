@@ -15,11 +15,11 @@ Devuelve el objeto Table padre para una celda. Solo lectura [`ITable`](../../ita
 public ITable Table { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ITable](../../itable)
-* interfaz [ICell](../../icell)
-* espacio de nombres [Aspose.Slides](../../icell)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ITable](../../itable)
+* interfaz [ICell](../../icell)
+* espacio de nombres [Aspose.Slides](../../icell)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

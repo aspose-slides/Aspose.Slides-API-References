@@ -1,6 +1,6 @@
 ---
 title: MarginLeft
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Renvoie ou définit la marge gauche dans un TextFrame. Lecture/écriture Double.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ Renvoie ou définit la marge gauche dans un TextFrame. Lecture/écriture Double.
 public double MarginLeft { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Cell](../../cell)
 * espace de noms [Aspose.Slides](../../cell)

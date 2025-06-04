@@ -1,7 +1,7 @@
 ---
 title: IsColorVaried
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.IsColorVaried, um den Wert zu ändern. Schreibgeschützter Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.IsColorVaried, um den Wert zu ändern. Schreibgeschützter Boolescher Wert.
 type: docs
 weight: 180
 url: /de/aspose.slides.charts/chartseries/iscolorvaried/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartseries/iscolorvaried/
 
 ## ChartSeries.IsColorVaried-Eigenschaft
 
-Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.IsColorVaried, um den Wert zu ändern. Schreibgeschützter Boolean.
+Gibt an, dass jeder Datenmarker in der Serie eine andere Farbe hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.IsColorVaried, um den Wert zu ändern. Schreibgeschützter Boolescher Wert.
 
 ```csharp
 public bool IsColorVaried { get; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.IsColorVaried.
 

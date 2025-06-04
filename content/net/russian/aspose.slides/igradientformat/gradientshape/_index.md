@@ -1,13 +1,13 @@
 ---
 title: GradientShape
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает форму градиента. Чтение/запись GradientShape aspose.slides/gradientshape.
+second_title: Справочник API Aspose.Slides для .NET
+description: Возвращает или устанавливает форму градиента. Чтение/запись GradientShapeaspose.slides/gradientshape.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igradientformat/gradientshape/
 ---
 
-## Свойство IGradientFormat.GradientShape
+## IGradientFormat.GradientShape свойство
 
 Возвращает или устанавливает форму градиента. Чтение/запись [`GradientShape`](../../gradientshape).
 

@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el formato de relleno de patrón. Solo lectura IPatternFormat aspose.slides/ipatternformat.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el formato de relleno de patrón. Solo lectura IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 40
 url: /es/aspose.slides/ifillformat/patternformat/
@@ -15,7 +15,7 @@ Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormat`](../..
 public IPatternFormat PatternFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IPatternFormat](../../ipatternformat)
 * interfaz [IFillFormat](../../ifillformat)

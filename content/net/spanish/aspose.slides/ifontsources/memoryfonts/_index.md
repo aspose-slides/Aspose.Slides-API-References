@@ -1,13 +1,13 @@
 ---
 title: MemoryFonts
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Referencia
 description: Una colección de fuentes representadas como arreglos de bytes.
 type: docs
 weight: 20
 url: /es/aspose.slides/ifontsources/memoryfonts/
 ---
 
-## Propiedad IFontSources.MemoryFonts
+## IFontSources.MemoryFonts propiedad
 
 Una colección de fuentes representadas como arreglos de bytes.
 
@@ -15,10 +15,10 @@ Una colección de fuentes representadas como arreglos de bytes.
 public byte[][] MemoryFonts { get; set; }
 ```
 
-### Ver También
+### Véase También
 
-* interfaz [IFontSources](../../ifontsources)
-* espacio de nombres [Aspose.Slides](../../ifontsources)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IFontSources](../../ifontsources)
+* espacio de nombres [Aspose.Slides](../../ifontsources)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

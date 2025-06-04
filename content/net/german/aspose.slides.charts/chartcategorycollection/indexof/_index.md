@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides für .NET API-Referenz
-description: Sucht nach der angegebenen ChartCategoryaspose.slides.charts/chartcategory und gibt den nullbasierten Index des ersten Vorkommens innerhalb der gesamten Sammlung zurück.
+description: Sucht nach der angegebenen ChartCategoryaspose.slides.charts/chartcategory und gibt den nullbasierten Index des ersten Auftretens innerhalb der gesamten Sammlung zurück.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/chartcategorycollection/indexof/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartcategorycollection/indexof/
 
 ## ChartCategoryCollection.IndexOf Methode
 
-Sucht nach der angegebenen [`ChartCategory`](../../chartcategory) und gibt den nullbasierten Index des ersten Vorkommens innerhalb der gesamten Sammlung zurück.
+Sucht nach der angegebenen [`ChartCategory`](../../chartcategory) und gibt den nullbasierten Index des ersten Auftretens innerhalb der gesamten Sammlung zurück.
 
 ```csharp
 public int IndexOf(IChartCategory value)
@@ -21,7 +21,7 @@ public int IndexOf(IChartCategory value)
 
 ### Rückgabewert
 
-Der nullbasierte Index des ersten Vorkommens von value innerhalb der gesamten CollectionBase, wenn gefunden; andernfalls -1.
+Der nullbasierte Index des ersten Auftretens von value innerhalb der gesamten CollectionBase, wenn gefunden; andernfalls -1.
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: InsertPictureFrame
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建一个新的 PictureFrame，并将其插入到指定索引的集合中。
 type: docs
 weight: 310
@@ -19,18 +19,18 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 应该插入值的零基索引。 |
-| shapeType | ShapeType | 所包含的一组形状 [`ShapeType`](../../shapetype) 中的形状，除了各种线条： |
-| x | Single | 图形框左侧的 X 坐标。 |
-| y | Single | 图形框顶部的 Y 坐标。 |
-| width | Single | 图形框的宽度。 |
-| height | Single | 图形框的高度。 |
-| image | IPPImage | 图片框的图像。 |
+| shapeType | ShapeType | 包含在集合 [`ShapeType`](../../shapetype) 中的形状，除所有种类的线外： |
+| x | Single | 形状框左侧的 X 坐标。 |
+| y | Single | 形状框顶部的 Y 坐标。 |
+| width | Single | 形状框的宽度。 |
+| height | Single | 形状框的高度。 |
+| image | IPPImage | 图片框的图片。 |
 
 ### 返回值
 
 创建的 PictureFrame 对象。
 
-### 另请参见
+### 另见
 
 * 接口 [IPictureFrame](../../ipictureframe)
 * 枚举 [ShapeType](../../shapetype)

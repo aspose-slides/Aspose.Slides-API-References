@@ -1,7 +1,7 @@
 ---
 title: Sound
-second_title: Aspose.Slides for .NET API 参考
-description: 定义嵌入的声音效果。读/写 IAudioaspose.slides/../aspose.slides/iaudio。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义嵌入效果的声音。读/写 IAudioaspose.slides/../aspose.slides/iaudio。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/ieffect/sound/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/ieffect/sound/
 
 ## IEffect.Sound 属性
 
-定义嵌入的声音效果。读/写 [`IAudio`](../../../aspose.slides/iaudio)。
+定义嵌入效果的声音。读/写 [`IAudio`](../../../aspose.slides/iaudio)。
 
 ```csharp
 public IAudio Sound { get; set; }
@@ -31,13 +31,13 @@ using (Presentation presentation = new Presentation("demo.pptx"))
         if (effect.Sound == null)
             continue;
         
-        // 提取效果声音为字节数组
+        // 提取效果声音的字节数组
         byte[] audio = effect.Sound.BinaryData;
     }
 }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IAudio](../../../aspose.slides/iaudio)
 * 接口 [IEffect](../../ieffect)

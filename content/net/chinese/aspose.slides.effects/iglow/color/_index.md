@@ -1,7 +1,7 @@
 ---
 title: Color
-second_title: Aspose.Slides for .NET API 参考
-description: 颜色格式。只读 IColorFormataspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 颜色格式。只读 IColorFormataspose.slides/../aspose.slides/icolorformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/iglow/color/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/iglow/color/
 public IColorFormat Color { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 接口 [IGlow](../../iglow)

@@ -1,15 +1,15 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft effektive Alpha Modulate-Effektdaten mit der angewendeten Vererbung ab.
+description: Ruft die effektiven Alpha Modulate Effekt-Daten mit der angewendeten Vererbung ab.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/alphamodulate/geteffective/
 ---
 
-## AlphaModulate.GetEffective-Methode
+## AlphaModulate.GetEffective Methode
 
-Ruft effektive Alpha Modulate-Effektdaten mit der angewendeten Vererbung ab.
+Ruft die effektiven Alpha Modulate Effekt-Daten mit der angewendeten Vererbung ab.
 
 ```csharp
 public IAlphaModulateEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IAlphaModulateEffectiveData GetEffective()
 
 Ein [`IAlphaModulateEffectiveData`](../../ialphamodulateeffectivedata).
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAlphaModulateEffectiveData](../../ialphamodulateeffectivedata)
 * Klasse [AlphaModulate](../../alphamodulate)

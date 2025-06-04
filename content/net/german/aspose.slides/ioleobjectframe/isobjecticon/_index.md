@@ -1,7 +1,7 @@
 ---
 title: IsObjectIcon
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Objekt als Symbol sichtbar ist. Lese-/Schreib-Boolean.
+description: Bestimmt, ob ein Objekt als Symbol sichtbar ist. Lese-/schreibbare Boolesche Variable.
 type: docs
 weight: 50
 url: /de/aspose.slides/ioleobjectframe/isobjecticon/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ioleobjectframe/isobjecticon/
 
 ## IOleObjectFrame.IsObjectIcon-Eigenschaft
 
-Bestimmt, ob ein Objekt als Symbol sichtbar ist. Lese-/Schreib-Boolean.
+Bestimmt, ob ein Objekt als Symbol sichtbar ist. Lese-/schreibbare Boolesche Variable.
 
 ```csharp
 public bool IsObjectIcon { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: AddVerticalContentPlaceholder
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine neue Platzhalterform zur Layout-Folie hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text in vertikaler Richtung zu halten.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Fügt eine neue Platzhalterform zur Layoutfolie hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text in vertikaler Richtung zu halten.
 type: docs
 weight: 90
 url: /de/aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder/
 ---
 
-## ILayoutPlaceholderManager.AddVerticalContentPlaceholder Methode
+## ILayoutPlaceholderManager.AddVerticalContentPlaceholder-Methode
 
-Fügt eine neue Platzhalterform zur Layout-Folie hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text in vertikaler Richtung zu halten.
+Fügt eine neue Platzhalterform zur Layoutfolie hinzu, um Inhalte wie ein Bild, eine Tabelle, Medien oder Text in vertikaler Richtung zu halten.
 
 ```csharp
 public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, float height)
@@ -24,11 +24,11 @@ public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, f
 
 ### Rückgabewert
 
-Erstellt [`IAutoShape`](../../iautoshape) mit einem Inhalts (Vertikal) Platzhalter.
+Erstellt [`IAutoShape`](../../iautoshape) mit einem Inhalt (Vertikal) Platzhalter.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Inhalts (Vertikal) Platzhalterform zur Layout-Folie hinzufügt.
+Das folgende Beispiel zeigt, wie man die Platzhalterform Inhalt (Vertikal) zur Layoutfolie hinzufügt.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IAutoShape](../../iautoshape)
 * interface [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

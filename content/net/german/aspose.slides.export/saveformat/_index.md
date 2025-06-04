@@ -7,7 +7,7 @@ weight: 4250
 url: /de/aspose.slides.export/saveformat/
 ---
 
-## SaveFormat Enumeration
+## SaveFormat Aufzählung
 
 Konstanten, die das Format einer gespeicherten Präsentation definieren.
 
@@ -26,10 +26,10 @@ public enum SaveFormat
 | Ppsx | `4` | Präsentation im PPSX (Diashow) Format speichern. |
 | Tiff | `5` | Präsentation als mehrseitiges TIFF-Bild speichern. |
 | Odp | `6` | Präsentation im ODP-Format speichern. |
-| Pptm | `7` | Präsentation im PPTM (makroaktivierte Präsentation) Format speichern. |
-| Ppsm | `9` | Präsentation im PPSM (makroaktivierte Diashow) Format speichern. |
-| Potx | `10` | Präsentation im POTX (Vorlagen) Format speichern. |
-| Potm | `11` | Präsentation im POTM (makroaktivierte Vorlage) Format speichern. |
+| Pptm | `7` | Präsentation im PPTM (Makro-fähige Präsentation) Format speichern. |
+| Ppsm | `9` | Präsentation im PPSM (Makro-fähige Diashow) Format speichern. |
+| Potx | `10` | Präsentation im POTX (Vorlage) Format speichern. |
+| Potm | `11` | Präsentation im POTM (makro-fähige Vorlage) Format speichern. |
 | Html | `13` | Präsentation im HTML-Format speichern. |
 | Swf | `15` | Präsentation im SWF-Format speichern. |
 | Otp | `17` | Präsentation im OTP (Präsentationsvorlage) Format speichern. |
@@ -38,7 +38,7 @@ public enum SaveFormat
 | Fodp | `21` | Präsentation im FODP-Format speichern. |
 | Gif | `22` | Präsentation im GIF-Format speichern. |
 | Html5 | `23` | Präsentation im HTML-Format mit neuem HTML5-Templating-System speichern. |
-| Md | `24` | Präsentation im Markdown-Format speichern. |
+| Md | `24` | Präsentation im Markdown-Format speichern |
 | Xml | `25` | Präsentation im PowerPoint XML Präsentationsformat speichern. |
 
 ### Siehe auch

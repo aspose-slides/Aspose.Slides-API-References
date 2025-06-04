@@ -1,15 +1,15 @@
 ---
 title: StopPreviousSound
-second_title: Aspose.Sildes для .NET API Справочник
-description: Этот атрибут указывает, остановит ли анимационный эффект предыдущий звук. Читаемый/записываемый логический.
+second_title: Aspose.Sildes для .NET API Reference
+description: Этот атрибут указывает, остановит ли анимационный эффект предыдущее звуковое сопровождение. Читаемая/записываемая логическая величина.
 type: docs
 weight: 90
 url: /ru/aspose.slides.animation/effect/stopprevioussound/
 ---
 
-## Свойство Effect.StopPreviousSound
+## Effect.StopPreviousSound property
 
-Этот атрибут указывает, остановит ли анимационный эффект предыдущий звук. Читаемый/записываемый логический.
+Этот атрибут указывает, остановит ли анимационный эффект предыдущее звуковое сопровождение. Читаемая/записываемая логическая величина.
 
 ```csharp
 public bool StopPreviousSound { get; set; }
@@ -29,7 +29,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
        
     if (firstSlideEffect.Sound != null)
     {
-        // Изменить второй эффект Enhancements/Sound на "Остановить предыдущий звук"
+        // Измените второй эффект Enhancements/Sound на "Остановить предыдущее звуковое сопровождение"
         secondSlideEffect.StopPreviousSound = true;
     }
 }

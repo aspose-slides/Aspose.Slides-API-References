@@ -15,7 +15,7 @@ url: /ru/aspose.slides/oleobjectframe/objectprogid/
 public string ObjectProgId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)

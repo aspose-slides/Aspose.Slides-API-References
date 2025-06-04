@@ -1,13 +1,13 @@
 ---
 title: Contains
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die Sammlung einen bestimmten Namen enthält.
 type: docs
 weight: 40
 url: /de/aspose.slides/itagcollection/contains/
 ---
 
-## ITagCollection.Contains-Methode
+## ITagCollection.Contains Methode
 
 Bestimmt, ob die Sammlung einen bestimmten Namen enthält.
 

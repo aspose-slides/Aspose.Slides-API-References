@@ -15,7 +15,7 @@ Devuelve datos SVG. Solo lectura Byte[].
 public byte[] SvgData { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [SvgImage](../../svgimage)
 * espacio de nombres [Aspose.Slides](../../svgimage)

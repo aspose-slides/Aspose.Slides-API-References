@@ -1,6 +1,6 @@
 ---
 title: GetColumnAlignment
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 获取指定列的水平对齐方式
 type: docs
 weight: 150
@@ -15,9 +15,9 @@ url: /zh/aspose.slides.mathtext/mathmatrix/getcolumnalignment/
 public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| columnIndex | Int32 | 基于零的列索引 |
+| 参数       | 类型     | 描述                   |
+| ---------- | -------- | ---------------------- |
+| columnIndex | Int32   | 基于零的列索引        |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 MathHorizontalAlignment alignment = matrix.GetColumnAlignment(0);
 ```
 
-### 另请参阅
+### 另见
 
 * enum [MathHorizontalAlignment](../../mathhorizontalalignment)
 * class [MathMatrix](../../mathmatrix)

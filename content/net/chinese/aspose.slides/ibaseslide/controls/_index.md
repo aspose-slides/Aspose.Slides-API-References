@@ -1,6 +1,6 @@
 ---
 title: Controls
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回幻灯片上的 ActiveX 控件集合。只读 IControlCollectionaspose.slides/icontrolcollection。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseslide/controls/
 public IControlCollection Controls { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IControlCollection](../../icontrolcollection)
 * 接口 [IBaseSlide](../../ibaseslide)

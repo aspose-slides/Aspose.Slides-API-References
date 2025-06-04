@@ -1,7 +1,7 @@
 ---
 title: MinorUnit
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert die kleineren Einheiten für die Daten- oder Wertachse. Lese-/Schreibzugriff auf Double.
+description: Stellt die minor units für die Daten- oder Werteachse dar. Lesen/Schreiben Double.
 type: docs
 weight: 410
 url: /de/aspose.slides.charts/axis/minorunit/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/minorunit/
 
 ## Axis.MinorUnit-Eigenschaft
 
-Repräsentiert die kleineren Einheiten für die Daten- oder Wertachse. Lese-/Schreibzugriff auf Double.
+Stellt die minor units für die Daten- oder Werteachse dar. Lesen/Schreiben Double.
 
 ```csharp
 public double MinorUnit { get; set; }

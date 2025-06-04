@@ -1,7 +1,7 @@
 ---
 title: PreviousSlide
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Hyperlink zur vorherigen Folie zurück. Nur-lesbarer Hyperlinkaspose.slides/hyperlink.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen Hyperlink zur vorherigen Folie zurück. Nur lesen Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 90
 url: /de/aspose.slides/hyperlink/previousslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/previousslide/
 
 ## Hyperlink.PreviousSlide-Eigenschaft
 
-Gibt einen Hyperlink zur vorherigen Folie zurück. Nur-lesbarer [`Hyperlink`](../../hyperlink).
+Gibt einen Hyperlink zur vorherigen Folie zurück. Nur lesen [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink PreviousSlide { get; }

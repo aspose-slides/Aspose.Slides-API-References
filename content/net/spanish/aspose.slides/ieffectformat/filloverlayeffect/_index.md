@@ -15,7 +15,7 @@ Efecto de superposición de relleno. Leer/escribir [`IFillOverlay`](../../../asp
 public IFillOverlay FillOverlayEffect { get; set; }
 ```
 
-### Vea También
+### Ver también
 
 * interfaz [IFillOverlay](../../../aspose.slides.effects/ifilloverlay)
 * interfaz [IEffectFormat](../../ieffectformat)

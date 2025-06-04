@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides/ipatternformateffectivedata/forecolor/
 ---
 
-## Свойство IPatternFormatEffectiveData.ForeColor
+## IPatternFormatEffectiveData.ForeColor свойство
 
 Возвращает цвет переднего плана узора. Только для чтения Color.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipatternformateffectivedata/forecolor/
 public Color ForeColor { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
 * пространство имен [Aspose.Slides](../../ipatternformateffectivedata)

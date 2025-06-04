@@ -1,7 +1,7 @@
 ---
 title: ApplicationTemplate
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le modèle d'une application. Lecture/écriture Chaîne.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie ou définit le modèle d'une application. Lecture/écriture String.
 type: docs
 weight: 20
 url: /fr/aspose.slides/documentproperties/applicationtemplate/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/documentproperties/applicationtemplate/
 
 ## Propriété DocumentProperties.ApplicationTemplate
 
-Renvoie ou définit le modèle d'une application. Lecture/écriture Chaîne.
+Renvoie ou définit le modèle d'une application. Lecture/écriture String.
 
 ```csharp
 public string ApplicationTemplate { get; set; }

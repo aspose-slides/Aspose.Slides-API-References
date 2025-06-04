@@ -1,21 +1,21 @@
 ---
 title: HyperlinkClick
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает гиперссылку, определенную для щелчка мыши. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает гиперссылку, определенную для нажатия мыши. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ihyperlinkcontainer/hyperlinkclick/
 ---
 
-## Свойство IHyperlinkContainer.HyperlinkClick
+## IHyperlinkContainer.HyperlinkClick свойство
 
-Возвращает или устанавливает гиперссылку, определенную для щелчка мыши. Чтение/запись [`IHyperlink`](../../ihyperlink).
+Возвращает или устанавливает гиперссылку, определенную для нажатия мыши. Чтение/запись [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }
 ```
 
-### См. также
+### Также см. 
 
 * интерфейс [IHyperlink](../../ihyperlink)
 * интерфейс [IHyperlinkContainer](../../ihyperlinkcontainer)

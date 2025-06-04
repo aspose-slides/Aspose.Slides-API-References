@@ -1,6 +1,6 @@
 ---
 title: RawValue
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie ou définit la valeur d'ajustement telle quelle. Lecture/écriture Int64.
 type: docs
 weight: 30

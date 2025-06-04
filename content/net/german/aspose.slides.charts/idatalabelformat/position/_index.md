@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Position des Datenbeschriftungstags dar. Lesen/Schreiben von LegendDataLabelPositionaspose.slides/legenddatalabelposition.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Position des Datenbeschriftung dar. Lese-/Schreibzugriff auf LegendDataLabelPosition.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/idatalabelformat/position/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/idatalabelformat/position/
 
 ## IDataLabelFormat.Position-Eigenschaft
 
-Stellt die Position des Datenbeschriftungstags dar. Lesen/Schreiben von [`LegendDataLabelPosition`](../../legenddatalabelposition).
+Stellt die Position der Datenbeschriftung dar. Lese-/Schreibzugriff auf [`LegendDataLabelPosition`](../../legenddatalabelposition).
 
 ```csharp
 public LegendDataLabelPosition Position { get; set; }
 ```
 
-### Hinweise
+### Anmerkungen
 
-Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection Sammlung von Datenbeschriftungen ist, wird diese Eigenschaft verwendet, um den Standardwert der Positionseigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung zu erhalten oder festzulegen. Stellt die Position für die DataLabel-Objekte dar. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die Positionseigenschaft für alle Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.Position = val;" bewirkt, dass alle DataLabels[i].Position gleich val ist).
+Wenn der übergeordnete Datensatz dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann wird mit dieser Eigenschaft der Standardwert der Positionseigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung abgerufen oder festgelegt. Stellt die Position für die DataLabel-Objekte dar. Setzen Sie diese Eigenschaft mit einem Wert, wird dieser Wert auch für die Positionseigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung gesetzt (d.h. "DataLabels.DefaultDataLabelFormat.Position = val;" bewirkt, dass alle DataLabels[i].Position gleich val ist).
 
 ### Siehe auch
 

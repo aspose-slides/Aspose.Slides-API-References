@@ -1,7 +1,7 @@
 ---
 title: GapDepth
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la distance en pourcentage de la largeur du marqueur entre les séries de données dans un graphique 3D. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapDepth en lecture/écriture pour changer la valeur. En lecture seule Int32.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la distance en pourcentage de la largeur du marqueur entre les séries de données dans un graphique 3D. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété du groupe approprié. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.GapDepth pour changer la valeur. Lecture seule Int32.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/ichartseries/gapdepth/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/gapdepth/
 
 ## Propriété IChartSeries.GapDepth
 
-Renvoie ou définit la distance, en pourcentage de la largeur du marqueur, entre les séries de données dans un graphique 3D. Il s'agit de la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapDepth en lecture/écriture pour changer la valeur. En lecture seule Int32.
+Renvoie ou définit la distance, en pourcentage de la largeur du marqueur, entre les séries de données dans un graphique 3D. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété du groupe approprié. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.GapDepth pour changer la valeur. Lecture seule Int32.
 
 ```csharp
 public int GapDepth { get; }

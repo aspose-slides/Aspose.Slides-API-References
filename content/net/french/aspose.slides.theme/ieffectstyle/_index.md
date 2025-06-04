@@ -19,8 +19,8 @@ public interface IEffectStyle
 
 | Nom | Description |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Renvoie un format d'effet. Lecture seule [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Renvoie un format 3D. Lecture seule [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Renvoie un format d'effet. En lecture seule [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Renvoie un format 3D. En lecture seule [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### Voir aussi
 

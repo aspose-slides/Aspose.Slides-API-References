@@ -15,7 +15,7 @@ Determina si un video se muestra en modo de pantalla completa. Booleano de lectu
 public bool FullScreenMode { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IVideoFrame](../../ivideoframe)
 * espacio de nombres [Aspose.Slides](../../ivideoframe)

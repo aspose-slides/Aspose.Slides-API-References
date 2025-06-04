@@ -1,15 +1,15 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Füllformat einer Linie zurück. Schreibgeschütztes ILineFillFormataspose.slides/ilinefillformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Füllformat einer Linie zurück. Nur-Lese ILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 110
 url: /de/aspose.slides/lineformat/fillformat/
 ---
 
-## LineFormat.FillFormat-Eigenschaft
+## LineFormat.FillFormat Eigenschaft
 
-Gibt das Füllformat einer Linie zurück. Schreibgeschützt [`ILineFillFormat`](../../ilinefillformat).
+Gibt das Füllformat einer Linie zurück. Nur-Lese [`ILineFillFormat`](../../ilinefillformat).
 
 ```csharp
 public ILineFillFormat FillFormat { get; }

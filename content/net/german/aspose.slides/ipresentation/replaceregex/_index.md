@@ -1,7 +1,7 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch den angegebenen String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ersetzt alle Übereinstimmungen des regulären Ausdrucks mit dem angegebenen String.
 type: docs
 weight: 350
 url: /de/aspose.slides/ipresentation/replaceregex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/replaceregex/
 
 ## IPresentation.ReplaceRegex Methode
 
-Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch den angegebenen String.
+Ersetzt alle Übereinstimmungen des regulären Ausdrucks mit dem angegebenen String.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -17,26 +17,26 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regex | Regex | Der reguläre Ausdruck Regex, um Zeichenfolgen zu erhalten, die ersetzt werden sollen. |
-| newText | String | Der String, um alle Vorkommen der zu ersetzenden Zeichenfolgen zu ersetzen. |
-| callback | IFindResultCallback | Das Callback-Objekt zum Empfangen der Suchergebnisse [`IFindResultCallback`](../../ifindresultcallback). |
+| regex | Regex | Der reguläre Ausdruck Regex, um Strings zu erhalten, die ersetzt werden sollen. |
+| newText | String | Der String, der alle Vorkommen der zu ersetzenden Strings ersetzen soll. |
+| callback | IFindResultCallback | Das Callback-Objekt zum Empfang von Suchergebnissen [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Beispiele
 
-Das folgende Codebeispiel zeigt, wie man Text mithilfe eines regulären Ausdrucks mit dem angegebenen String ersetzt.
+Das folgende Codebeispiel zeigt, wie man Text mit regulären Ausdrücken durch den angegebenen String ersetzt.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Ersetze alle Wörter mit 10 oder mehr Zeichen durch '***'
+	// Ersetze alle Wörter mit 10 oder mehr Zeichen mit '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFindResultCallback](../../ifindresultcallback)
 * Schnittstelle [IPresentation](../../ipresentation)

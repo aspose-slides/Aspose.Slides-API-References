@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides.export/ipptxoptions/zip64mode/
 ---
 
-## Свойство IPptxOptions.Zip64Mode
+## IPptxOptions.Zip64Mode свойство
 
 Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию - IfNecessary
 

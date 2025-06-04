@@ -1,7 +1,7 @@
 ---
 title: LayoutSlide
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Layout-Diagramm für das aktuelle Diagramm zurück oder setzt es. Lese-/Schreibzugriff auf ILayoutSlideaspose.slides/ilayoutslide.
+description: Gibt die Layoutfolie für die aktuelle Folie zurück oder setzt sie. Lese-/Schreibzugriff auf ILayoutSlide aspose.slides/ilayoutslide.
 type: docs
 weight: 30
 url: /de/aspose.slides/slide/layoutslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slide/layoutslide/
 
 ## Slide.LayoutSlide-Eigenschaft
 
-Gibt das Layout-Diagramm für das aktuelle Diagramm zurück oder setzt es. Lese-/Schreibzugriff auf [`ILayoutSlide`](../../ilayoutslide).
+Gibt die Layoutfolie für die aktuelle Folie zurück oder setzt sie. Lese-/Schreibzugriff auf [`ILayoutSlide`](../../ilayoutslide).
 
 ```csharp
 public ILayoutSlide LayoutSlide { get; set; }

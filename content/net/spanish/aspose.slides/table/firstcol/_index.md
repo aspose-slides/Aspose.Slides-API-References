@@ -1,6 +1,6 @@
 ---
 title: FirstCol
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Determina si la primera columna de una tabla debe ser dibujada con un formato especial. Booleano de lectura/escritura.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Determina si la primera columna de una tabla debe ser dibujada con un formato es
 public bool FirstCol { get; set; }
 ```
 
-### Ver También
+### También Véase
 
 * clase [Table](../../table)
 * espacio de nombres [Aspose.Slides](../../table)

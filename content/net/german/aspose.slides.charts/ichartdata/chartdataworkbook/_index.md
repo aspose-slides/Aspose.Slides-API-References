@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die Zellenfabrik zur Erstellung von Zellen, die für Diagrammserien oder -kategorien verwendet werden. Nur-Lese IChartDataWorkbookaspose.slides/ichartdataworkbook.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft die Zellenfabrik ab, um Zellen zu erstellen, die für Diagrammserien oder Kategorien verwendet werden. Nur lesbar IChartDataWorkbookaspose.slides.charts/ichartdataworkbook.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartdata/chartdataworkbook/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartdata/chartdataworkbook/
 
 ## IChartData.ChartDataWorkbook-Eigenschaft
 
-Erhält die Zellenfabrik zur Erstellung von Zellen, die für Diagrammserien oder -kategorien verwendet werden. Nur-Lese [`IChartDataWorkbook`](../../ichartdataworkbook).
+Ruft die Zellenfabrik ab, um Zellen zu erstellen, die für Diagrammserien oder Kategorien verwendet werden. Nur lesbar [`IChartDataWorkbook`](../../ichartdataworkbook).
 
 ```csharp
 public IChartDataWorkbook ChartDataWorkbook { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
 * Schnittstelle [IChartData](../../ichartdata)

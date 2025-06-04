@@ -1,21 +1,21 @@
 ---
 title: IsAutomaticMaxValue
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, используется ли автоматически присвоенное максимальное значение. Свойство для чтения/записи типа Boolean.
+description: Указывает, назначено ли максимальное значение автоматически. Для чтения/записи Boolean.
 type: docs
 weight: 190
 url: /ru/aspose.slides.charts/axis/isautomaticmaxvalue/
 ---
 
-## Свойство Axis.IsAutomaticMaxValue
+## Axis.IsAutomaticMaxValue свойство
 
-Указывает, используется ли автоматически присвоенное максимальное значение. Свойство для чтения/записи типа Boolean.
+Указывает, назначено ли максимальное значение автоматически. Для чтения/записи Boolean.
 
 ```csharp
 public bool IsAutomaticMaxValue { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

@@ -1,7 +1,7 @@
 ---
 title: StopPreviousSound
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cet attribut spécifie si l'effet d'animation arrête le son précédent. Booléen en lecture/écriture.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Cet attribut spécifie si l'effet d'animation arrête le son précédent. Valeur booléenne en lecture/écriture.
 type: docs
 weight: 90
 url: /fr/aspose.slides.animation/ieffect/stopprevioussound/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ieffect/stopprevioussound/
 
 ## Propriété IEffect.StopPreviousSound
 
-Cet attribut spécifie si l'effet d'animation arrête le son précédent. Booléen en lecture/écriture.
+Cet attribut spécifie si l'effet d'animation arrête le son précédent. Valeur booléenne en lecture/écriture.
 
 ```csharp
 public bool StopPreviousSound { get; set; }
@@ -21,15 +21,15 @@ public bool StopPreviousSound { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Obtenir le premier effet de la première diapositive.
+    // Obtenez le premier effet de la première diapositive.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Obtenir le premier effet de la deuxième diapositive.
+    // Obtenez le premier effet de la deuxième diapositive.
     IEffect secondSlideEffect = presentation.Slides[1].Timeline.MainSequence[0];
        
     if (firstSlideEffect.Sound != null)
     {
-        // Changer le deuxième effet Améliorations/Son en "Arrêter le son précédent"
+        // Changez le deuxième effet Améliorations/Son à "Arrêter le son précédent"
         secondSlideEffect.StopPreviousSound = true;
     }
 }

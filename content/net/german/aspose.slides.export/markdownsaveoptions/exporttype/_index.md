@@ -1,7 +1,7 @@
 ---
 title: ExportType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Markdown-Spezifikation zum Konvertieren der Präsentation an. Standard ist TextOnly.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Markdown-Spezifikation an, um die Präsentation zu konvertieren. Standard ist TextOnly.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/markdownsaveoptions/exporttype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/markdownsaveoptions/exporttype/
 
 ## MarkdownSaveOptions.ExportType-Eigenschaft
 
-Gibt die Markdown-Spezifikation zum Konvertieren der Präsentation an. Standard ist `TextOnly`.
+Gibt die Markdown-Spezifikation an, um die Präsentation zu konvertieren. Standard ist `TextOnly`.
 
 ```csharp
 public MarkdownExportType ExportType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MarkdownExportType](../../markdownexporttype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

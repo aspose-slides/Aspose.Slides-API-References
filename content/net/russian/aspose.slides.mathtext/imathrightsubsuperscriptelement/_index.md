@@ -1,15 +1,15 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает объект подстрочного и надстрочного текста, который состоит из основы и подстрочного и надстрочного текста, расположенных справа от основы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает на объект Sub-Superscript, который состоит из основания и подстрочного и надстрочного знаков, размещенных справа от основания.
 type: docs
 weight: 8190
 url: /ru/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 
-## Интерфейс IMathRightSubSuperscriptElement
+## IMathRightSubSuperscriptElement интерфейс
 
-Указывает объект подстрочного и надстрочного текста, который состоит из основы и подстрочного и надстрочного текста, расположенных справа от основы.
+Указывает на объект Sub-Superscript, который состоит из основания и подстрочного и надстрочного знаков, размещенных справа от основания.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -19,11 +19,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Имя | Описание |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Указывает выравнивание подстрочного/надстрочного текста. Если true, подстрочный и надстрочный текст выравниваются по горизонтали относительно друг друга. Если false, они располагаются в соответствии с формой основы. Значение по умолчанию - false. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Указывает на выравнивание подстрочного/надстрочного знаков. Если true, подстрочный и надстрочный знаки выравниваются по горизонтали друг относительно друга. Если false, они размещаются в соответствии с формой основания. Значение по умолчанию - false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Аргумент базы |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Аргумент подстрочного текста |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Аргумент надстрочного текста |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Аргумент основания |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Аргумент подстрочного знака |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Аргумент надстрочного знака |
 
 ### Примеры
 

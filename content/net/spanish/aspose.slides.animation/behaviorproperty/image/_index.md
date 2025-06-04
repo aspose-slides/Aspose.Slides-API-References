@@ -1,13 +1,13 @@
 ---
 title: Image
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa la propiedad de imagen
 type: docs
 weight: 410
 url: /es/aspose.slides.animation/behaviorproperty/image/
 ---
 
-## Propiedad BehaviorProperty.Image
+## BehaviorProperty.Image propiedad
 
 Representa la propiedad 'imagen'
 
@@ -15,7 +15,7 @@ Representa la propiedad 'imagen'
 public static BehaviorProperty Image { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

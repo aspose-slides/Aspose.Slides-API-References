@@ -1,7 +1,7 @@
 ---
 title: Bottom
-second_title: Référence API Aspose.Slides pour .NET
-description: Bas. Lecture seule Single.
+second_title: Aspose.Slides pour .NET Référence API
+description: Bottom. Lecture seule Single.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/datalabel/bottom/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/datalabel/bottom/
 
 ## Propriété DataLabel.Bottom
 
-Bas. Lecture seule Single.
+Bottom. Lecture seule Single.
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DataLabel](../../datalabel)
 * espace de noms [Aspose.Slides.Charts](../../datalabel)

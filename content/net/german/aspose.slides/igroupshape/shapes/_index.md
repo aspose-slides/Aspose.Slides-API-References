@@ -1,7 +1,7 @@
 ---
 title: Shapes
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sammlung der Formen innerhalb der Gruppe zurück. Nur-Lese IShapeCollectionaspose.slides/ishapecollection.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Sammlung von Formen innerhalb der Gruppe zurück. Nur-lesbare IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 40
 url: /de/aspose.slides/igroupshape/shapes/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/igroupshape/shapes/
 
 ## IGroupShape.Shapes-Eigenschaft
 
-Gibt die Sammlung der Formen innerhalb der Gruppe zurück. Nur-Lese [`IShapeCollection`](../../ishapecollection).
+Gibt die Sammlung von Formen innerhalb der Gruppe zurück. Nur-lesbare [`IShapeCollection`](../../ishapecollection).
 
 ```csharp
 public IShapeCollection Shapes { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Schnittstelle [IGroupShape](../../igroupshape)

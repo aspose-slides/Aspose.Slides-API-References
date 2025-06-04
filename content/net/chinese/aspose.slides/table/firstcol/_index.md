@@ -1,7 +1,7 @@
 ---
 title: FirstCol
 second_title: Aspose.Slides for .NET API Reference
-description: 确定表的第一列是否必须使用特殊格式绘制。可读/写布尔值。
+description: 确定表的第一列是否必须以特殊格式绘制。可读/可写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/table/firstcol/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/table/firstcol/
 
 ## Table.FirstCol 属性
 
-确定表的第一列是否必须使用特殊格式绘制。可读/写布尔值。
+确定表的第一列是否必须以特殊格式绘制。可读/可写布尔值。
 
 ```csharp
 public bool FirstCol { get; set; }

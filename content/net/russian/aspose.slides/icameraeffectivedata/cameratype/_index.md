@@ -1,15 +1,15 @@
 ---
 title: CameraType
-second_title: Aspose.Slides для .NET Справочник по API
-description: Тип камеры. Свойство CameraPresetType только для чтения aspose.slides/camerapresettype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Тип камеры. Тольо для чтения CameraPresetTypeaspose.slides/camerapresettype.
 type: docs
 weight: 10
 url: /ru/aspose.slides/icameraeffectivedata/cameratype/
 ---
 
-## Свойство ICameraEffectiveData.CameraType
+## ICameraEffectiveData.CameraType свойство
 
-Тип камеры. Свойство только для чтения [`CameraPresetType`](../../camerapresettype).
+Тип камеры. Только для чтения [`CameraPresetType`](../../camerapresettype).
 
 ```csharp
 public CameraPresetType CameraType { get; }

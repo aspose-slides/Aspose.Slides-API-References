@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft effektive Tinteneffekt-Daten mit der angewendeten Vererbung ab.
+description: Gibt die effektiven Tint-Effekt-Daten mit angewendeter Vererbung zurück.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/tint/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/tint/geteffective/
 
 ## Tint.GetEffective-Methode
 
-Ruft effektive Tinteneffekt-Daten mit der angewendeten Vererbung ab.
+Gibt die effektiven Tint-Effekt-Daten mit angewendeter Vererbung zurück.
 
 ```csharp
 public ITintEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public ITintEffectiveData GetEffective()
 
 Ein [`ITintEffectiveData`](../../itinteffectivedata).
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITintEffectiveData](../../itinteffectivedata)
 * Klasse [Tint](../../tint)

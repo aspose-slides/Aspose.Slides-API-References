@@ -1,21 +1,21 @@
 ---
 title: RotateWithShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定填充是否应随形状旋转。只读布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定填充是否应与形状一起旋转。只读布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ifillformateffectivedata/rotatewithshape/
 ---
 
-## IFillFormatEffectiveData.RotateWithShape 属性
+## IFillFormatEffectiveData.RotateWithShape property
 
-确定填充是否应随形状旋转。只读布尔值。
+确定填充是否应与形状一起旋转。只读布尔值。
 
 ```csharp
 public bool RotateWithShape { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ifillformateffectivedata)

@@ -1,21 +1,21 @@
 ---
 title: BlobManagementOptions
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea nuevas opciones de manejo de blob por defecto.
+description: Crea nuevas opciones de gestión de blobs predeterminadas.
 type: docs
 weight: 10
 url: /es/aspose.slides/blobmanagementoptions/blobmanagementoptions/
 ---
 
-## Constructor de OpcionesDeManejoDeBlob
+## Constructor BlobManagementOptions
 
-Crea nuevas opciones de manejo de blob por defecto.
+Crea nuevas opciones de gestión de blobs predeterminadas.
 
 ```csharp
 public BlobManagementOptions()
 ```
 
-### Ver También
+### Véase también
 
 * clase [BlobManagementOptions](../../blobmanagementoptions)
 * espacio de nombres [Aspose.Slides](../../blobmanagementoptions)

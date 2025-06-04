@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprimer le nœud actuel.
+second_title: Référence API Aspose.Slides pour .NET
+description: Supprime le nœud actuel.
 type: docs
 weight: 100
 url: /fr/aspose.slides.smartart/ismartartnode/remove/
 ---
 
-## Méthode ISmartArtNode.Remove
+## ISmartArtNode.Remove méthode
 
-Supprimer le nœud actuel.
+Supprime le nœud actuel.
 
 ```csharp
 public bool Remove()

@@ -1,6 +1,6 @@
 ---
 title: SkewMatrixPerspectiveX
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет свойство skew.matrix.perspectiveX
 type: docs
 weight: 770
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/skewmatrixperspectivex/
 public static BehaviorProperty SkewMatrixPerspectiveX { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

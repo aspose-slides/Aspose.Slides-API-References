@@ -1,15 +1,15 @@
 ---
 title: DelimiterShape
-second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет форму разделителей в объекте разделителей. Когда MathDelimiterShape.Centered, разделители центрируются вокруг математической оси математического текста и все еще могут быть сделаны такими, чтобы соответствовать полной высоте их содержимого. Когда MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать их содержимому.
+second_title: Aspose.Slides для .NET API Справочник
+description: Указывает форму разделителей в объекте разделителя. Когда используется MathDelimiterShape.Centered, разделители центрированы вокруг математической оси математического текста и по-прежнему могут быть подогнаны под всю высоту их содержимого. Когда используется MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать их содержимому.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathdelimiter/delimitershape/
 ---
 
-## Свойство MathDelimiter.DelimiterShape
+## MathDelimiter.DelimiterShape свойство
 
-Определяет форму разделителей в объекте разделителей. Когда MathDelimiterShape.Centered, разделители центрируются вокруг математической оси математического текста и все еще могут быть сделаны такими, чтобы соответствовать полной высоте их содержимого. Когда MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать их содержимому.
+Указывает форму разделителей в объекте разделителя. Когда используется MathDelimiterShape.Centered, разделители центрированы вокруг математической оси математического текста и по-прежнему могут быть подогнаны под всю высоту их содержимого. Когда используется MathDelimiterShape.Match, их высота и форма изменяются так, чтобы точно соответствовать их содержимому.
 
 ```csharp
 public MathDelimiterShape DelimiterShape { get; set; }
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Divide("y").Enclose();
 delimiter.DelimiterShape = MathDelimiterShape.Match;
 ```
 
-### Также смотри
+### Также см.
 
 * enum [MathDelimiterShape](../../mathdelimitershape)
 * class [MathDelimiter](../../mathdelimiter)

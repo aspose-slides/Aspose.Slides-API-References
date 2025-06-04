@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersText
-second_title: Aspose.Slides for .NET API 参考
-description: 设置主幻灯片页脚占位符和所有子页脚占位符的文本。子占位符指的是在依赖的备注幻灯片中包含的占位符。依赖的备注幻灯片使用并依赖主备注幻灯片。
+second_title: Aspose.Slid es for .NET API Reference
+description: 设置主幻灯片页脚占位符和所有子页脚占位符的文本。子占位符意味着占位符包含在依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 type: docs
 weight: 30
 url: /zh/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfoot
 
 ## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText 方法
 
-设置主幻灯片页脚占位符和所有子页脚占位符的文本。子占位符指的是在依赖的备注幻灯片中包含的占位符。依赖的备注幻灯片使用并依赖主备注幻灯片。
+设置主幻灯片页脚占位符和所有子页脚占位符的文本。子占位符意味着占位符包含在依赖的备注幻灯片上。依赖的备注幻灯片使用并依赖于主备注幻灯片。
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)
@@ -19,7 +19,7 @@ public void SetFooterAndChildFootersText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 另请参见
+### 另请参阅
 
 * class [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * namespace [Aspose.Slides](../../masternotesslideheaderfootermanager)

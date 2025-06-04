@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Sldes para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura IAudioaspose.slides/iaudio.
 type: docs
 weight: 30
 url: /es/aspose.slides/audiocollection/item/
 ---
 
-## Indexador de AudioCollection
+## Índice de AudioCollection
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IAudio`](../../iaudio).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`IAudio`](../../ia
 public IAudio this[int index] { get; }
 ```
 
-### Ver también
+### También Visto
 
 * interfaz [IAudio](../../iaudio)
 * clase [AudioCollection](../../audiocollection)

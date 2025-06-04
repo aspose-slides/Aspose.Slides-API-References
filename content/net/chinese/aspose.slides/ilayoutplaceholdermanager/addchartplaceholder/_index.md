@@ -24,11 +24,11 @@ public IAutoShape AddChartPlaceholder(float x, float y, float width, float heigh
 
 ### 返回值
 
-创建的 [`IAutoShape`](../../iautoshape) 具有图表占位符。
+创建的 [`IAutoShape`](../../iautoshape) 带有图表占位符。
 
-### 示例
+### 例子
 
-以下示例演示如何将图表占位符形状添加到布局幻灯片中。
+以下示例演示如何将图表占位符形状添加到布局幻灯片。
 
 ```csharp
 [C#]

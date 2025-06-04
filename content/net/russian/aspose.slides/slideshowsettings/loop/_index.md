@@ -1,21 +1,21 @@
 ---
 title: Loop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Цикл слайд-шоу
+second_title: Aspose.Sildes для .NET API Справочник
+description: Зациклить Слайды
 type: docs
 weight: 10
 url: /ru/aspose.slides/slideshowsettings/loop/
 ---
 
-## Свойство SlideShowSettings.Loop
+## SlideShowSettings.Loop свойство
 
-Цикл слайд-шоу
+Зациклить Слайды
 
 ```csharp
 public bool Loop { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [SlideShowSettings](../../slideshowsettings)
 * пространство имен [Aspose.Slides](../../slideshowsettings)

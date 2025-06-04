@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个枚举器，用于遍历集合。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 290
 url: /zh/aspose.slides.charts/chartdatapointcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/getenumerator/
 
 ## ChartDataPointCollection.GetEnumerator 方法
 
-返回一个枚举器，用于遍历集合。
+返回一个迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<IChartDataPoint> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IChartDataPoint> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用于迭代该集合的 IEnumerator。
 
-### 参见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

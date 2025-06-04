@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Удаляет все поведения из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/ibehaviorcollection/clear/
 ---
 
-## Метод IBehaviorCollection.Clear
+## IBehaviorCollection.Clear метод
 
 Удаляет все поведения из коллекции.
 
@@ -15,8 +15,8 @@ url: /ru/aspose.slides.animation/ibehaviorcollection/clear/
 public void Clear()
 ```
 
-### Также см.
- 
+### См. также
+
 * интерфейс [IBehaviorCollection](../../ibehaviorcollection)
 * пространство имен [Aspose.Slides.Animation](../../ibehaviorcollection)
 * сборка [Aspose.Slides](../../../)

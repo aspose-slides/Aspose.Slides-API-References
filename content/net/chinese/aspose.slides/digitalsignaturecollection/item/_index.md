@@ -15,7 +15,7 @@ url: /zh/aspose.slides/digitalsignaturecollection/item/
 public IDigitalSignature this[int index] { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 类 [DigitalSignatureCollection](../../digitalsignaturecollection)

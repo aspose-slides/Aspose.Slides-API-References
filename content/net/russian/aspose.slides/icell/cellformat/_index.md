@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides/icell/cellformat/
 ---
 
-## Свойство ICell.CellFormat
+## ICell.CellFormat свойство
 
 Возвращает объект CellFormat, который содержит свойства форматирования для этой ячейки. Только для чтения [`ICellFormat`](../../icellformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icell/cellformat/
 public ICellFormat CellFormat { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ICellFormat](../../icellformat)
 * интерфейс [ICell](../../icell)

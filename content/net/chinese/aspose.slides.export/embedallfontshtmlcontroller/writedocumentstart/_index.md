@@ -1,7 +1,7 @@
 ---
 title: WriteDocumentStart
 second_title: Aspose.Sildes for .NET API Reference
-description: 调用以写入HTML文档头。每次演示文稿转换时调用一次。
+description: 调用以写入 html 文档头。每次演示文稿转换时调用一次。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
 
 ## EmbedAllFontsHtmlController.WriteDocumentStart 方法
 
-调用以写入HTML文档头。每次演示文稿转换时调用一次。
+调用以写入 html 文档头。每次演示文稿转换时调用一次。
 
 ```csharp
 public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
@@ -20,7 +20,7 @@ public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation p
 | generator | IHtmlGenerator | 输出对象。 |
 | presentation | IPresentation | 当前正在渲染的演示文稿。 |
 
-### 另见
+### 参见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 接口 [IPresentation](../../../aspose.slides/ipresentation)

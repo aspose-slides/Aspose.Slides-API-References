@@ -1,13 +1,13 @@
 ---
 title: Title
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le titre d'une présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 320
 url: /fr/aspose.slides/idocumentproperties/title/
 ---
 
-## Propriété IDocumentProperties.Title
+## IDocumentProperties.Title property
 
 Renvoie ou définit le titre d'une présentation. Chaîne en lecture/écriture.
 
@@ -15,7 +15,7 @@ Renvoie ou définit le titre d'une présentation. Chaîne en lecture/écriture.
 public string Title { get; set; }
 ```
 
-### Voir aussi
+### See Also
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

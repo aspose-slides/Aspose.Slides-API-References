@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides.mathtext/imathelementcollection/copyto/
 ---
 
-## IMathElementCollection.CopyTo Methode
+## IMathElementCollection.CopyTo-Methode
 
 In das angegebene Array kopieren.
 
@@ -17,8 +17,8 @@ public void CopyTo(IMathElement[] array, int arrayIndex)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| array | IMathElement[] | Array, in das kopiert werden soll. |
-| arrayIndex | Int32 | Index, an dem das Kopieren beginnen soll. |
+| array | IMathElement[] | Zu kopierendes Array. |
+| arrayIndex | Int32 | Index, ab dem das Kopieren beginnt. |
 
 ### Beispiele
 

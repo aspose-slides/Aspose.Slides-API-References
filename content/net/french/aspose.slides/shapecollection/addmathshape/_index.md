@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une nouvelle forme Autoshape adaptée du modèle par défaut au contenu mathématique et l'ajoute à la fin de la collection.
+second_title: Aspose.Slides pour .NET API Reference
+description: Crée un nouvel Autoshape adapté du modèle par défaut au contenu mathématique et l'ajoute à la fin de la collection.
 type: docs
 weight: 140
 url: /fr/aspose.slides/shapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapecollection/addmathshape/
 
 ## ShapeCollection.AddMathShape méthode
 
-Crée une nouvelle forme Autoshape adaptée du modèle par défaut au contenu mathématique et l'ajoute à la fin de la collection.
+Crée un nouvel Autoshape adapté du modèle par défaut au contenu mathématique et l'ajoute à la fin de la collection.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -22,13 +22,13 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet AutoShape créé.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter une Équation Mathématique dans une Présentation PowerPoint.
+L'exemple suivant montre comment ajouter une équation mathématique dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -49,7 +49,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAutoShape](../../iautoshape)
 * class [ShapeCollection](../../shapecollection)

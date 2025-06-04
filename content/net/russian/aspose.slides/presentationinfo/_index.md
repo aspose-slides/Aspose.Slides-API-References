@@ -1,6 +1,6 @@
 ---
 title: PresentationInfo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справки по .NET API
 description: Информация о файле презентации
 type: docs
 weight: 9350
@@ -17,25 +17,25 @@ public sealed class PresentationInfo : IPresentationInfo
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Возвращает True, если связанная презентация зашифрована, в противном случае False. Только для чтения Boolean. |
-| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Получает значение, указывающее, защищена ли связанная презентация паролем для открытия. |
-| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Получает значение, указывающее, защищена ли связанная презентация от записи. |
-| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Получает формат связанной презентации. Только для чтения [`LoadFormat`](../loadformat). |
+| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Возвращает значение, указывающее, защищена ли связанная презентация паролем для открытия. |
+| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Возвращает значение, указывающее, защищена ли связанная презентация от записи. |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Возвращает формат связанной презентации. Только для чтения [`LoadFormat`](../loadformat). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Проверяет, правильный ли пароль для презентации, защищенной паролем на открытие. |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Проверяет, правильный ли пароль для изменения для защиты от записи. |
+| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Проверяет, правильный ли пароль для презентации, защищенной паролем для открытия. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Проверяет, правильный ли пароль для изменения для презентации с защитой от записи. |
 | [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Получает свойства документа связанной презентации. |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Обновляет свойства связанной презентации. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Записывает связанную презентацию в поток. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Записывает связанную презентацию в файл. |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IPresentationInfo](../ipresentationinfo)
 * пространство имен [Aspose.Slides](../../aspose.slides)

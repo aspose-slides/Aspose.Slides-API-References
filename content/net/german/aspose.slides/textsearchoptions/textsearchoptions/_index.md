@@ -1,15 +1,15 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt neue Standardoptionen für die Textsuche.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt neue Standard-Textsuchoptionen.
 type: docs
 weight: 10
 url: /de/aspose.slides/textsearchoptions/textsearchoptions/
 ---
 
-## TextSearchOptions-Konstruktor
+## TextSearchOptions Konstruktor
 
-Erstellt neue Standardoptionen für die Textsuche.
+Erstellt neue Standard-Textsuchoptionen.
 
 ```csharp
 public TextSearchOptions()

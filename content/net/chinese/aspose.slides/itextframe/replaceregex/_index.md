@@ -1,6 +1,6 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 用指定的字符串替换正则表达式的所有匹配项。
 type: docs
 weight: 110
@@ -17,26 +17,26 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| regex | Regex | 用于获取待替换字符串的正则表达式。 |
-| newText | String | 用于替换所有待替换字符串的字符串。 |
+| regex | Regex | 正则表达式 Regex，用于获取要替换的字符串。 |
+| newText | String | 用于替换所有要替换字符串出现的字符串。 |
 | callback | IFindResultCallback | 用于接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 示例
 
-以下代码示例演示如何使用正则表达式用指定字符串替换文本。
+以下代码示例演示如何使用正则表达式替换指定字符串中的文本。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 用 '***' 替换所有包含 10 个或更多字符的单词
+	// 将所有字符数为10个或更多的单词替换为'***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFindResultCallback](../../ifindresultcallback)
 * 接口 [ITextFrame](../../itextframe)

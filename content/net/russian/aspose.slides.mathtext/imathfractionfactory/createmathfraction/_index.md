@@ -1,6 +1,6 @@
 ---
 title: CreateMathFraction
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Создает математическую дробь
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 Новая математическая дробь [`IMathFraction`](../../imathfraction)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathFraction](../../imathfraction)
 * интерфейс [IMathElement](../../imathelement)
@@ -54,7 +54,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 Новая математическая дробь [`IMathFraction`](../../imathfraction)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathFraction](../../imathfraction)
 * интерфейс [IMathElement](../../imathelement)

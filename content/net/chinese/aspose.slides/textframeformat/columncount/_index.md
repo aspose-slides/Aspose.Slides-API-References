@@ -1,7 +1,7 @@
 ---
 title: ColumnCount
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本区域中的列数。该值必须为正数。否则，值将设置为零。值 0 表示未定义值。可读/可写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置文本区域中的列数。此值必须是正数。否则，将该值设置为零。值为0表示未定义值。读/写 Int32。
 type: docs
 weight: 50
 url: /zh/aspose.slides/textframeformat/columncount/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/textframeformat/columncount/
 
 ## TextFrameFormat.ColumnCount 属性
 
-返回或设置文本区域中的列数。该值必须为正数。否则，将设置该值为零。值 0 表示未定义值。可读/可写 Int32。
+返回或设置文本区域中的列数。此值必须是正数。否则，值将被设置为零。值为0表示未定义值。读/写 Int32。
 
 ```csharp
 public int ColumnCount { get; set; }
@@ -17,7 +17,7 @@ public int ColumnCount { get; set; }
 
 ### 示例
 
-以下示例代码显示如何在 PowerPoint 演示文稿中的文本框内添加列。
+以下示例代码演示如何在 PowerPoint 演示文稿中的文本框内添加列。
 
 ```csharp
 [C#]
@@ -27,10 +27,9 @@ using (Presentation pres = new Presentation())
     IAutoShape shape1 = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
     TextFrameFormat format = (TextFrameFormat)shape1.TextFrame.TextFrameFormat;
     format.ColumnCount = 2;
-    shape1.TextFrame.Text = "所有这些列都被强制限制在一个单一的文本容器内 -- " +
-                                "您可以添加或删除文本，而新的或剩余的文本会自动调整 " +
-                                "以保持在容器内。然而，您不能让文本从一个容器溢出到另一个容器，" +
-                                "因为 PowerPoint 的文本列选项是有限的！";
+    shape1.TextFrame.Text = "所有这些列都被强制保留在一个单一的文本容器中 -- " +
+                                "您可以添加或删除文本 - 新增或剩余的文本会自动调整 " +
+                                "以保持在容器内。然而，您不能让文本从一个容器溢出到另一个容器，因为 PowerPoint 的文本列选项是有限的！";
     pres.Save(outPptxFileName, SaveFormat.Pptx);
     using (Presentation test = new Presentation(outPptxFileName))
     {
@@ -55,7 +54,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [TextFrameFormat](../../textframeformat)
 * namespace [Aspose.Slides](../../textframeformat)

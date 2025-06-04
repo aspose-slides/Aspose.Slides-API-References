@@ -1,15 +1,15 @@
 ---
 title: SetAllSlideNumbersVisibility
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de tous les espaces réservés pour les numéros de page, y compris les diapositives maîtres, les diapositives de mise en page et les diapositives.
+description: Modifie la visibilité de tous les espaces réservés de numéros de page, y compris les diapositives maître, les diapositives de mise en page et les diapositives.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility/
 ---
 
-## Méthode IPresentationHeaderFooterManager.SetAllSlideNumbersVisibility
+## IPresentationHeaderFooterManager.SetAllSlideNumbersVisibility méthode
 
-Modifie la visibilité de tous les espaces réservés pour les numéros de page, y compris les diapositives maîtres, les diapositives de mise en page et les diapositives.
+Modifie la visibilité de tous les espaces réservés de numéros de page, y compris les diapositives maître, les diapositives de mise en page et les diapositives.
 
 ```csharp
 public void SetAllSlideNumbersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetAllSlideNumbersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés pour les numéros de page visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les espaces réservés de numéros de page visibles, sinon - les cache. |
 
 ### Voir aussi
 

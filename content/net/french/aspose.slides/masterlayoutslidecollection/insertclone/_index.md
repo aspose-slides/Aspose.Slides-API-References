@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides/masterlayoutslidecollection/insertclone/
 ---
 
-## Méthode MasterLayoutSlideCollection.InsertClone
+## MasterLayoutSlideCollection.InsertClone method
 
 Insère une copie d'une diapositive de mise en page spécifiée à une position spécifiée de la collection.
 
@@ -26,7 +26,7 @@ Diapositive insérée.
 
 ### Remarques
 
-La nouvelle mise en page sera liée à la diapositive maître parent pour cette collection de diapositives de mise en page. Ainsi, c'est l'analogue de la fonction copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint.
+La nouvelle mise en page sera liée à la diapositive maîtresse parente pour cette collection de diapositives de mise en page. C'est donc l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint.
 
 ### Voir aussi
 

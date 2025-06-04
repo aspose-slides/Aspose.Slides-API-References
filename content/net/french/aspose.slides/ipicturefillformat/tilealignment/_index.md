@@ -1,7 +1,7 @@
 ---
 title: TileAlignment
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie ou définit comment la texture est alignée au sein de la forme. Ce paramètre contrôle le point de départ du motif de texture et comment il se répète à travers la forme. Lecture/écriture RectangleAlignmentaspose.slides/rectanglealignment.
+second_title: Aspose.Sildes pour référence API .NET
+description: Retourne ou définit comment la texture est alignée dans la forme. Ce paramètre contrôle le point de départ du motif de texture et comment il se répète à travers la forme. Lecture/écriture RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 130
 url: /fr/aspose.slides/ipicturefillformat/tilealignment/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipicturefillformat/tilealignment/
 
 ## Propriété IPictureFillFormat.TileAlignment
 
-Renvoie ou définit comment la texture est alignée au sein de la forme. Ce paramètre contrôle le point de départ du motif de texture et comment il se répète à travers la forme. Lecture/écriture [`RectangleAlignment`](../../rectanglealignment).
+Retourne ou définit comment la texture est alignée dans la forme. Ce paramètre contrôle le point de départ du motif de texture et comment il se répète à travers la forme. Lecture/écriture [`RectangleAlignment`](../../rectanglealignment).
 
 ```csharp
 public RectangleAlignment TileAlignment { get; set; }
@@ -27,10 +27,10 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Obtient le format de remplissage d'image de la forme
+    // Récupère le format de remplissage d'image de la forme
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Définit le mode de remplissage d'image sur Tiling
+    // Définit le mode de remplissage d'image sur Carreaux
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
     // Définit l'alignement pour le carrelage en bas à droite

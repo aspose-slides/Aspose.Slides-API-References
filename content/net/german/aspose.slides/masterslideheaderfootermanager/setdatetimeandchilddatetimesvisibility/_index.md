@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass die Platzhalter in abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
 type: docs
 weight: 20
 url: /de/aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
 
-## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility-Methode
+## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility Methode
 
-Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass die Platzhalter in abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - macht die Platzhalter für Datum und Uhrzeit sichtbar, andernfalls - versteckt sie. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../masterslideheaderfootermanager)

@@ -1,6 +1,6 @@
 ---
 title: AddSectionZoomFrame
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Ajoute un nouvel objet Section Zoom à la fin d'une collection.
 type: docs
 weight: 140
@@ -24,7 +24,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 | height | Single | Hauteur d'un nouveau cadre Section Zoom Single. |
 | section | ISection | L'objet section référencé par le cadre Section Zoom [`ISection`](../../isection). |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -36,7 +36,7 @@ Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exemples
 
-Cet exemple démontre l'ajout d'un objet Section Zoom à la fin d'une collection (en supposant qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre l'ajout d'un objet Section Zoom à la fin d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
@@ -74,7 +74,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 | section | ISection | L'objet section référencé par le cadre Section Zoom [`ISection`](../../isection). |
 | image | IPPImage | L'image pour la diapositive référencée [`IPPImage`](../../ippimage) |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -86,7 +86,7 @@ Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exemples
 
-Cet exemple démontre l'ajout d'un objet Section Zoom à la fin d'une collection (en supposant qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre l'ajout d'un objet Section Zoom à la fin d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -97,7 +97,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)

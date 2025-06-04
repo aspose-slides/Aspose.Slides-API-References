@@ -1,21 +1,21 @@
 ---
 title: CopyFrom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Farbformat von Farbe kopieren.
+description: Kopiere Farbformat von Farbe.
 type: docs
 weight: 160
 url: /de/aspose.slides/colorformat/copyfrom/
 ---
 
-## ColorFormat.CopyFrom-Methode
+## ColorFormat.CopyFrom Methode
 
-Kopiere das Farbformat von "color".
+Kopiere Farbformat von "Farbe".
 
 ```csharp
 public void CopyFrom(IColorFormat color)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IColorFormat](../../icolorformat)
 * Klasse [ColorFormat](../../colorformat)

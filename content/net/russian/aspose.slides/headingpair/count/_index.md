@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает количество частей в группе. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/headingpair/count/
 ---
 
-## Свойство HeadingPair.Count
+## HeadingPair.Count свойство
 
 Возвращает количество частей в группе. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/headingpair/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [HeadingPair](../../headingpair)
 * пространство имен [Aspose.Slides](../../headingpair)

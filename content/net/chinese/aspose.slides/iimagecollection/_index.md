@@ -25,7 +25,7 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 从指定的缓冲区向演示文稿添加图像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 从指定缓冲区向演示文稿添加图像。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | 向演示文稿添加图像。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | 从另一个演示文稿添加图像的副本。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | 从 SVG 对象向演示文稿添加图像。 |

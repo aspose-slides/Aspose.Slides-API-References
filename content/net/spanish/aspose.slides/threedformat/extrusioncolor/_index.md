@@ -1,7 +1,7 @@
 ---
 title: ExtrusionColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el color de una extrusión. Solo lectura IColorFormat aspose.slides/icolorformat.
+second_title: Aspose.Sildes para referencia de API .NET
+description: Devuelve o establece el color de una extrusion. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /es/aspose.slides/threedformat/extrusioncolor/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/threedformat/extrusioncolor/
 
 ## Propiedad ThreeDFormat.ExtrusionColor
 
-Devuelve o establece el color de una extrusión. Solo lectura [`IColorFormat`](../../icolorformat).
+Devuelve o establece el color de una extrusion. Solo lectura [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ExtrusionColor { get; }

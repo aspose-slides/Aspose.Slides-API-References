@@ -20,7 +20,7 @@ public class TransitionValueBase : ITransitionValueBase
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist. |
 
 ### Siehe auch
 

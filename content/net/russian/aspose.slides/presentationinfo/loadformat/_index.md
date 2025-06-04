@@ -1,6 +1,6 @@
 ---
 title: LoadFormat
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочная информация по Aspose.Slides для .NET
 description: Получает формат связанной презентации. Только для чтения LoadFormataspose.slides/loadformat.
 type: docs
 weight: 40

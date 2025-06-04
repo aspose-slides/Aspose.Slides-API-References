@@ -1,15 +1,15 @@
 ---
 title: EnableContextMenu
-second_title: Справка по API Aspose.Slides для .NET
-description: Включить/выключить контекстное меню. По умолчанию true.
+second_title: Aspose.Slides для .NET API Справочник
+description: Включение/выключение контекстного меню. По умолчанию true.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/iswfoptions/enablecontextmenu/
 ---
 
-## Свойство ISwfOptions.EnableContextMenu
+## ISwfOptions.EnableContextMenu свойство
 
-Включить/выключить контекстное меню. По умолчанию true.
+Включение/выключение контекстного меню. По умолчанию true.
 
 ```csharp
 public bool EnableContextMenu { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 定义音频音量的常量。
 type: docs
 weight: 810
@@ -17,12 +17,12 @@ public enum AudioVolumeMode
 
 ### 值
 
-| 名称 | 值 | 说明 |
+| 名称 | 值 | 描述 |
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Mute | `0` | 零音量。 |
 | Low | `1` | 低音量。 |
-| Medium | `2` | 中等音量。 |
+| Medium | `2` | 中音量。 |
 | Loud | `3` | 大音量。 |
 
 ### 另请参见

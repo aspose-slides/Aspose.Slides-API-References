@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides for .NET API 参考
-description: 将 ICollection 的元素复制到从特定数组索引开始的数组中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将 ICollection 的元素复制到一个数组，从特定的数组索引开始。
 type: docs
 weight: 240
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/copyto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/copyto/
 
 ## ImageTransformOperationCollection.CopyTo 方法
 
-将 ICollection 的元素复制到数组中，从特定数组索引开始。
+将 ICollection 的元素复制到数组，从特定的数组索引开始。
 
 ```csharp
 public void CopyTo(IImageTransformOperation[] array, int arrayIndex)
@@ -17,8 +17,8 @@ public void CopyTo(IImageTransformOperation[] array, int arrayIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| array | IImageTransformOperation[] | 一维数组，是从 ICollection 复制的元素的目标。数组必须具有零基索引。 |
-| arrayIndex | Int32 | 复制开始时在 *array* 中的零基索引。 |
+| array | IImageTransformOperation[] | 目标数组，该数组是一维的，来自 ICollection 复制的元素将放入此数组中。数组必须具有零基础索引。 |
+| arrayIndex | Int32 | 在 *array* 中开始复制的零基础索引。 |
 
 ### 异常
 

@@ -1,7 +1,7 @@
 ---
 title: VbaProject
 second_title: Aspose.Slides für .NET API Referenz
-description: Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird im 1252 Windows Latin 1 ANSI-Zeichensatz erstellt.
+description: Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird im 1252 Windows Latin 1 ANSI-Codepage erstellt
 type: docs
 weight: 10
 url: /de/aspose.slides.vba/vbaproject/vbaproject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/vbaproject/vbaproject/
 
 ## VbaProject() {#constructor}
 
-Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird im 1252 Windows Latin 1 (ANSI) Zeichensatz erstellt.
+Dieser Konstruktor erstellt ein neues VBA-Projekt von Grund auf. Das Projekt wird im 1252 Windows Latin 1 (ANSI) Codepage erstellt
 
 ```csharp
 public VbaProject()

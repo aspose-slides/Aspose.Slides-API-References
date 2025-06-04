@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Aspose.Sildes for .NET API 参考
-description: 模糊半径。只读 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 模糊半径。唯读 Double。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/ireflectioneffectivedata/blurradius/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/blurradius/
 
 ## IReflectionEffectiveData.BlurRadius 属性
 
-模糊半径。只读 Double。
+模糊半径。唯读 Double。
 
 ```csharp
 public double BlurRadius { get; }

@@ -1,70 +1,70 @@
----
+---  
 title: CreateMathBorderBox
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellen Sie eine mathematische Rahmenbox, indem Sie sie auf das Element anwenden
-type: docs
-weight: 10
+type: docs  
+weight: 10  
 url: /de/aspose.slides.mathtext/imathborderboxfactory/createmathborderbox/
----
+---  
 
-## CreateMathBorderBox(IMathElement) {#createmathborderbox}
+## CreateMathBorderBox(IMathElement) {#createmathborderbox}  
 
-Erstellen Sie eine mathematische Rahmenbox, indem Sie sie auf das Element anwenden
+Erstellen Sie eine mathematische Rahmenbox, indem Sie sie auf das Element anwenden  
 
-```csharp
-public IMathBorderBox CreateMathBorderBox(IMathElement element)
-```
+```csharp  
+public IMathBorderBox CreateMathBorderBox(IMathElement element)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| element | IMathElement | Mathematisches Element, auf das die Rahmenbox angewendet wird |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| element | IMathElement | Mathematisches Element, um die Rahmenbox anzuwenden |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Neues Rahmenboxelement
+neues Rahmenboxelement  
 
-### Siehe Auch
+### Siehe auch  
 
-* Schnittstelle [IMathBorderBox](../../imathborderbox)
-* Schnittstelle [IMathElement](../../imathelement)
-* Schnittstelle [IMathBorderBoxFactory](../../imathborderboxfactory)
-* Namespace [Aspose.Slides.MathText](../../imathborderboxfactory)
-* Assembly [Aspose.Slides](../../../)
+* Schnittstelle [IMathBorderBox](../../imathborderbox)  
+* Schnittstelle [IMathElement](../../imathelement)  
+* Schnittstelle [IMathBorderBoxFactory](../../imathborderboxfactory)  
+* Namespace [Aspose.Slides.MathText](../../imathborderboxfactory)  
+* Assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
+## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}  
 
-Erstellen Sie eine mathematische Rahmenbox, indem Sie sie auf das Element anwenden
+Erstellen Sie eine mathematische Rahmenbox, indem Sie sie auf das Element anwenden  
 
-```csharp
-public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
-    bool hideLeft, bool hideRight, bool strikethroughHorizontal, bool strikethroughVertical, 
-    bool strikethroughBottomLeftToTopRight, bool strikethroughTopLeftToBottomRight)
-```
+```csharp  
+public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom,  
+    bool hideLeft, bool hideRight, bool strikethroughHorizontal, bool strikethroughVertical,  
+    bool strikethroughBottomLeftToTopRight, bool strikethroughTopLeftToBottomRight)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| element | IMathElement | Mathematisches Element, auf das die Rahmenbox angewendet wird |
-| hideTop | Boolean | Ob die obere Kante verborgen werden soll |
-| hideBottom | Boolean | Ob die untere Kante verborgen werden soll |
-| hideLeft | Boolean | Ob die linke Kante verborgen werden soll |
-| hideRight | Boolean | Ob die rechte Kante verborgen werden soll |
-| strikethroughHorizontal | Boolean | Rahmenbox Durchstreichung horizontal |
-| strikethroughVertical | Boolean | Rahmenbox Durchstreichung vertikal |
-| strikethroughBottomLeftToTopRight | Boolean | Rahmenbox Durchstreichung von unten links nach oben rechts |
-| strikethroughTopLeftToBottomRight | Boolean | Rahmenbox Durchstreichung von oben links nach unten rechts |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| element | IMathElement | Mathematisches Element, um die Rahmenbox anzuwenden |  
+| hideTop | Boolean | Oberkante ausblenden |  
+| hideBottom | Boolean | Unterkante ausblenden |  
+| hideLeft | Boolean | Linke Kante ausblenden |  
+| hideRight | Boolean | Rechte Kante ausblenden |  
+| strikethroughHorizontal | Boolean | Rahmenbox durchgestrichen horizontal |  
+| strikethroughVertical | Boolean | Rahmenbox durchgestrichen vertikal |  
+| strikethroughBottomLeftToTopRight | Boolean | Rahmenbox durchgestrichen von unten links nach oben rechts |  
+| strikethroughTopLeftToBottomRight | Boolean | Rahmenbox durchgestrichen von oben links nach unten rechts |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Neues Rahmenboxelement
+neues Rahmenboxelement  
 
-### Siehe Auch
+### Siehe auch  
 
-* Schnittstelle [IMathBorderBox](../../imathborderbox)
-* Schnittstelle [IMathElement](../../imathelement)
-* Schnittstelle [IMathBorderBoxFactory](../../imathborderboxfactory)
-* Namespace [Aspose.Slides.MathText](../../imathborderboxfactory)
-* Assembly [Aspose.Slides](../../../)
+* Schnittstelle [IMathBorderBox](../../imathborderbox)  
+* Schnittstelle [IMathElement](../../imathelement)  
+* Schnittstelle [IMathBorderBoxFactory](../../imathborderboxfactory)  
+* Namespace [Aspose.Slides.MathText](../../imathborderboxfactory)  
+* Assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

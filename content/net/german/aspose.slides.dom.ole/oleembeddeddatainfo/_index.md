@@ -1,7 +1,7 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt Informationen über eingebettete Daten für OLE-Objekte dar.
+description: Stellt Informationen zu eingebetteten Daten für OLE-Objekte dar.
 type: docs
 weight: 2670
 url: /de/aspose.slides.dom.ole/oleembeddeddatainfo/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.dom.ole/oleembeddeddatainfo/
 
 ## OleEmbeddedDataInfo-Klasse
 
-Stellt Informationen über eingebettete Daten für OLE-Objekte dar.
+Stellt Informationen zu eingebetteten Daten für OLE-Objekte dar.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -19,8 +19,8 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Name | Beschreibung |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Erstellt neue eingebettete Dateninformationen für ein OLE-Objekt. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Erstellt eine neue Instanz von eingebetteten Dateninformationen für ein OLE-Objekt. Dateidaten eines eingebetteten OLE-Objekts Byte[].Dateiendung für das aktuelle eingebettete OLE-Objekt String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | Erstellt neue Informationen zu eingebetteten Daten für ein OLE-Objekt. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | Erstellt eine neue Instanz von Informationen zu eingebetteten Daten für ein OLE-Objekt. Dateidaten eines eingebetteten OLE-Objekts Byte[].Dateiendung für das aktuelle eingebettete OLE-Objekt String. |
 
 ## Eigenschaften
 
@@ -29,7 +29,7 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 | [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Gibt die Dateidaten eines eingebetteten OLE-Objekts zurück. Nur lesbar Byte[]. |
 | [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Gibt die Dateiendung für das aktuelle eingebettete OLE-Objekt zurück. Nur lesbar String. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
 * Namespace [Aspose.Slides.DOM.Ole](../../aspose.slides.dom.ole)

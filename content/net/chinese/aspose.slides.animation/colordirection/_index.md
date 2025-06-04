@@ -1,6 +1,6 @@
 ---
 title: ColorDirection
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示颜色效果行为的颜色方向。
 type: docs
 weight: 140
@@ -23,7 +23,7 @@ public enum ColorDirection
 | Clockwise | `0` |  |
 | CounterClockwise | `1` |  |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

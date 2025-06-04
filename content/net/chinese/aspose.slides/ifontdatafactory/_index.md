@@ -1,6 +1,6 @@
 ---
 title: IFontDataFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: FontData 工厂接口
 type: docs
 weight: 5640
@@ -19,9 +19,9 @@ public interface IFontDataFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | 使用指定的字体名称创建 FontData。 |
+| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | 创建指定字体名称的 FontData。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

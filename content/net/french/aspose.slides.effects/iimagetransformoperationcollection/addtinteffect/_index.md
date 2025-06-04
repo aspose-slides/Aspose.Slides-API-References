@@ -1,6 +1,6 @@
 ---
 title: AddTintEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour l'API .NET Référence
 description: Ajoute le nouvel effet de teinte à la fin d'une collection.
 type: docs
 weight: 190
@@ -17,10 +17,10 @@ public ITint AddTintEffect(float hue, float amount)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| hue | Single | La teinte vers laquelle teindre. |
+| hue | Single | La teinte vers laquelle teinter. |
 | amount | Single | Spécifie de combien la valeur de couleur est décalée. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Index du nouvel effet d'image dans une collection.
 

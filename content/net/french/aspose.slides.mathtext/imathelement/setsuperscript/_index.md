@@ -1,6 +1,6 @@
 ---
 title: SetSuperscript
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour API .NET Référence
 description: Crée un exposant
 type: docs
 weight: 170
@@ -34,7 +34,7 @@ IMathElement index = new MathematicalText("4");
 IMathSuperscriptElement superscript = element.SetSuperscript(index);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathSuperscriptElement](../../imathsuperscriptelement)
 * interface [IMathElement](../../imathelement)
@@ -69,7 +69,7 @@ IMathElement element = new MathematicalText("N");
 IMathSuperscriptElement superscript = element.SetSuperscript("4");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathSuperscriptElement](../../imathsuperscriptelement)
 * interface [IMathElement](../../imathelement)

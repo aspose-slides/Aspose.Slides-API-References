@@ -1,6 +1,6 @@
 ---
 title: ZoomImageType
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Определяет, использует ли объект Zoom предварительный просмотр слайда или изображение обложки.
 type: docs
 weight: 11540
@@ -22,7 +22,7 @@ public enum ZoomImageType
 | Preview | `1` | Использовать изображение слайда или секции. |
 | Cover | `2` | Использовать пользовательское изображение. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: Differential
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Différentiel. Lorsque vrai, la boîte agit comme un différentiel, par exemple dans un intégrande, et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut, faux
+second_title: Référence API Aspose.Slides pour .NET
+description: Différentiel. Lorsqu'il est vrai, la boîte agit comme un différentiel, par exemple, dans un intégrande et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut, faux
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathbox/differential/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathbox/differential/
 
 ## Propriété IMathBox.Differential
 
-Différentiel. Lorsque vrai, la boîte agit comme un différentiel (par exemple, 𝑑𝑥 dans un intégrande), et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut : faux
+Différentiel. Lorsqu'il est vrai, la boîte agit comme un différentiel (par exemple, 𝑑𝑥 dans un intégrande), et reçoit l'espacement horizontal approprié pour le différentiel mathématique. Par défaut : faux
 
 ```csharp
 public bool Differential { get; set; }
@@ -27,7 +27,7 @@ IMathBlock baseArg = new MathematicalText("x").Join(differential);
 IMathNaryOperator integral = baseArg.Integral(MathIntegralTypes.Simple, "0", "1");
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBox](../../imathbox)
 * namespace [Aspose.Slides.MathText](../../imathbox)

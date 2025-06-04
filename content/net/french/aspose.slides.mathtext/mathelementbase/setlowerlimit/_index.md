@@ -1,6 +1,6 @@
 ---
 title: SetLowerLimit
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Prend la limite inférieure
 type: docs
 weight: 120
@@ -25,7 +25,7 @@ Nouvelle instance de type [`IMathLimit`](../../imathlimit)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -62,7 +62,7 @@ Nouvelle instance de type [`IMathLimit`](../../imathlimit)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

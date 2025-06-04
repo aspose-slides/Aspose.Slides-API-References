@@ -1,7 +1,7 @@
 ---
 title: HyperlinkClick
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve o establece el hipervínculo definido para el clic del mouse. Lectura/escritura IHyperlinkaspose.slides/ihyperlink.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve o establece el hipervínculo definido para el clic del ratón. Lectura/escritura IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /es/aspose.slides/portionformat/hyperlinkclick/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/portionformat/hyperlinkclick/
 
 ## Propiedad PortionFormat.HyperlinkClick
 
-Devuelve o establece el hipervínculo definido para el clic del mouse. Lectura/escritura [`IHyperlink`](../../ihyperlink).
+Devuelve o establece el hipervínculo definido para el clic del ratón. Lectura/escritura [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }
 ```
 
-### También Vea
+### También Visto
 
 * interfaz [IHyperlink](../../ihyperlink)
 * clase [PortionFormat](../../portionformat)

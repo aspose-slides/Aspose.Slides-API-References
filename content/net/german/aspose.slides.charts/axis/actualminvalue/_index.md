@@ -1,6 +1,6 @@
 ---
 title: ActualMinValue
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den tatsächlichen Minimalwert auf der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
 type: docs
 weight: 60

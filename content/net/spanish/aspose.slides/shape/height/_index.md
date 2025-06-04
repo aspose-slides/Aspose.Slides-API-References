@@ -15,14 +15,14 @@ Devuelve o establece la altura de la forma. Lectura/escritura Single.
 public float Height { get; set; }
 ```
 
-### Comentarios
+### Observaciones
 
-El valor devuelto siempre está definido (no es float.NaN). El valor asignado debe estar definido (no float.NaN). Puedes establecer valores indefinidos para las propiedades de la instancia RawFrame.
+El valor devuelto siempre está definido (no es float.NaN). El valor asignado debe estar definido (no float.NaN). Puedes establecer valores no definidos para las propiedades de la instancia RawFrame.
 
-### Véase también
+### Véase También
 
 * clase [Shape](../../shape)
 * espacio de nombres [Aspose.Slides](../../shape)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

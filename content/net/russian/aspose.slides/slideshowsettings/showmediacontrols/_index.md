@@ -1,7 +1,7 @@
 ---
 title: ShowMediaControls
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Показать элементы управления медиа
+second_title: Aspose.Sildes для .NET API Reference
+description: Показывать элементы управления медиа
 type: docs
 weight: 40
 url: /ru/aspose.slides/slideshowsettings/showmediacontrols/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/slideshowsettings/showmediacontrols/
 
 ## SlideShowSettings.ShowMediaControls свойство
 
-Показать элементы управления медиа
+Показывать элементы управления медиа
 
 ```csharp
 public bool ShowMediaControls { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [SlideShowSettings](../../slideshowsettings)
 * пространство имен [Aspose.Slides](../../slideshowsettings)

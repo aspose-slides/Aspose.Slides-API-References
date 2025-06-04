@@ -1,21 +1,21 @@
 ---
 title: ActualX
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定图表元素的实际 x 位置（左侧），相对于图表左上角。请先调用方法 IChart.ValidateChartLayout 以获取实际值。阅读单个。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定图表元素相对于图表左上角的实际 x 位置（左侧）。在获取实际值之前，请调用方法 IChart.ValidateChartLayout。读取单个值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/chartplotarea/actualx/
 ---
 
-## ChartPlotArea.ActualX 属性
+## ChartPlotArea.ActualX property
 
-指定图表元素的实际 x 位置（左侧），相对于图表左上角。请先调用方法 IChart.ValidateChartLayout() 以获取实际值。阅读单个。
+指定图表元素相对于图表左上角的实际 x 位置（左侧）。在获取实际值之前，请调用方法 IChart.ValidateChartLayout()。读取单个值。
 
 ```csharp
 public float ActualX { get; }
 ```
 
-### 另见
+### 另请参见
 
 * class [ChartPlotArea](../../chartplotarea)
 * namespace [Aspose.Slides.Charts](../../chartplotarea)

@@ -1,7 +1,7 @@
 ---
 title: DefaultRegularFont
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает шрифт, используемый в случае отсутствия исходного шрифта. Читаемая и пишемая строка.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка.
 type: docs
 weight: 10
 url: /ru/aspose.slides.export/isaveoptions/defaultregularfont/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/isaveoptions/defaultregularfont/
 
 ## ISaveOptions.DefaultRegularFont свойство
 
-Возвращает или устанавливает шрифт, используемый в случае отсутствия исходного шрифта. Читаемая и пишемая строка.
+Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка.
 
 ```csharp
 public string DefaultRegularFont { get; set; }
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ISaveOptions](../../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../isaveoptions)

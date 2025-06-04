@@ -1,13 +1,13 @@
 ---
 title: Storage
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen temporären Datenspeicher für WebDocument./webdocument dar.
+description: Stellt einen temporären Datenspeicher für WebDocument dar./webdocument.
 type: docs
 weight: 4470
 url: /de/aspose.slides.export.web/storage/
 ---
 
-## Speicherklasse
+## Storage-Klasse
 
 Stellt einen temporären Datenspeicher für [`WebDocument`](../webdocument) dar.
 

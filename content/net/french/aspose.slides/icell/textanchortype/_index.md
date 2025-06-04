@@ -1,6 +1,6 @@
 ---
 title: TextAnchorType
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit le type d'ancre de texte. Lecture/écriture TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 200

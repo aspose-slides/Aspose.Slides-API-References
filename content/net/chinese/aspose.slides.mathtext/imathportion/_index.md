@@ -23,7 +23,7 @@ public interface IMathPortion
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

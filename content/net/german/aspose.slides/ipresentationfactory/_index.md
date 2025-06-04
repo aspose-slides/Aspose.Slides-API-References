@@ -21,11 +21,11 @@ public interface IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Erstellt eine neue Präsentation. |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Erstellt eine neue Präsentation mit zusätzlichen Ladeoptionen |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Holt Informationen über die Präsentation im angegebenen Stream. |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Holt Informationen über die Präsentation in der angegebenen Datei. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ruft den reinen Text aus den Folien ab |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ruft den reinen Text aus den Folien ab |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ruft den reinen Text aus den Folien ab |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Erhält Informationen über die Präsentation im angegebenen Stream. |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Erhält Informationen über die Präsentation in der angegebenen Datei. |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Ruft den Rohtext von den Folien ab |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Ruft den Rohtext von den Folien ab |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Ruft den Rohtext von den Folien ab |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Liest eine vorhandene Präsentation aus dem Array |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Liest eine vorhandene Präsentation aus dem Stream |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Liest eine vorhandene Präsentation aus der Datei |

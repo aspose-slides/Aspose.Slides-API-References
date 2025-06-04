@@ -1,6 +1,6 @@
 ---
 title: ColorStringFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Ссылка на API Aspose.Slides для .NET
 description: Представляет тип действия гиперссылки.
 type: docs
 weight: 2470
@@ -19,9 +19,9 @@ public enum ColorStringFormat
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Vml | `0` | Формат цветовой строки VML. |
+| Vml | `0` | Формат строки цвета VML. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

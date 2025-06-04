@@ -1,7 +1,7 @@
 ---
 title: PlayLoopMode
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si une vidéo est en boucle. Booléen lisible/écrivable.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si une vidéo est en boucle. Booléen en lecture/écriture.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ivideoframe/playloopmode/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ivideoframe/playloopmode/
 
 ## Propriété IVideoFrame.PlayLoopMode
 
-Détermine si une vidéo est en boucle. Booléen lisible/écrivable.
+Détermine si une vidéo est en boucle. Booléen en lecture/écriture.
 
 ```csharp
 public bool PlayLoopMode { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Aspose.Sildes для .NET API Reference
-description: Добавляет копию заданного слайда в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет копию указанного слайда в конец коллекции.
 type: docs
 weight: 20
 url: /ru/aspose.slides/islidecollection/addclone/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/islidecollection/addclone/
 
 ## AddClone(ISlide) {#addclone}
 
-Добавляет копию заданного слайда в конец коллекции.
+Добавляет копию указанного слайда в конец коллекции.
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide)
@@ -19,13 +19,13 @@ public ISlide AddClone(ISlide sourceSlide)
 | --- | --- | --- |
 | sourceSlide | ISlide | Слайд для клонирования. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый слайд.
 
-### Примечания
+### Заметки
 
-При клонировании слайда между различными презентациями, мастер слайда также может быть склонирован. Внутренний реестр используется для автоматического отслеживания клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же мастер-слайда. Ручное клонирование мастер-слайдов не будет предотвращено и не будет зарегистрировано. Если вам нужна большая степень контроля над процессом клонирования, используйте [`AddClone`](../addclone) или [`AddClone`](../addclone) для клонирования слайдов, [`AddClone`](../../igloballayoutslidecollection/addclone) или [`AddClone`](../../igloballayoutslidecollection/addclone) для клонирования макетов и [`AddClone`](../../imasterslidecollection/addclone) для клонирования мастеров.
+При клонировании слайда между разными презентациями также может быть клонирован мастер слайда. Внутренний реестр используется для отслеживания автоматически клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же мастер-слайда. Ручное клонирование мастер-слайдов не будет запрещено и не будет зарегистрировано. Если вам нужна больший контроль над процессом клонирования, используйте [`AddClone`](../addclone) или [`AddClone`](../addclone) для клонирования слайдов, [`AddClone`](../../igloballayoutslidecollection/addclone) или [`AddClone`](../../igloballayoutslidecollection/addclone) для клонирования макетов и [`AddClone`](../../imasterslidecollection/addclone) для клонирования мастеров.
 
 ### См. также
 
@@ -38,7 +38,7 @@ public ISlide AddClone(ISlide sourceSlide)
 
 ## AddClone(ISlide, ISection) {#addclone_3}
 
-Добавляет копию заданного слайда в конец заданного раздела.
+Добавляет копию указанного слайда в конец указанного раздела.
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, ISection section)
@@ -49,7 +49,7 @@ public ISlide AddClone(ISlide sourceSlide, ISection section)
 | sourceSlide | ISlide | Слайд для клонирования. |
 | section | ISection | Раздел для нового слайда. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый слайд.
 
@@ -88,7 +88,7 @@ using (IPresentation presentation = new Presentation())
 
 ## AddClone(ISlide, ILayoutSlide) {#addclone_1}
 
-Добавляет копию заданного слайда в конец коллекции.
+Добавляет копию указанного слайда в конец коллекции.
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
@@ -99,7 +99,7 @@ public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 | sourceSlide | ISlide | Слайд для клонирования. |
 | destLayout | ILayoutSlide | Макет слайда для нового слайда. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый слайд.
 
@@ -115,7 +115,7 @@ public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 
 ## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
 
-Добавляет копию заданного исходного слайда в конец коллекции. Подходящий макет будет автоматически выбран из указанного мастера (подходящий макет - это макет с тем же типом или именем, что и макет исходного слайда). Если подходящего макета нет, то будет склонирован макет исходного слайда (если allowCloneMissingLayout равно истинно) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно ложно).
+Добавляет копию указанного исходного слайда в конец коллекции. Подходящий макет будет автоматически выбран из указанного мастера (подходящий макет - это макет с тем же типом или именем, что и у макета исходного слайда). Если подходящего макета нет, то макет исходного слайда будет клонирован (если allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно false).
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
@@ -124,10 +124,10 @@ public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceSlide | ISlide | Слайд для клонирования. |
-| destMaster | IMasterSlide | Мастер-слайд для нового слайда. |
-| allowCloneMissingLayout | Boolean | Если нет подходящего макета в указанном мастере, то макет исходного слайда будет склонирован (если allowCloneMissingLayout истинно) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout ложно). |
+| destMaster | IMasterSlide | Мастер слайда для нового слайда. |
+| allowCloneMissingLayout | Boolean | Если в указанном мастере нет подходящего макета, то макет исходного слайда будет клонирован (если allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно false). |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый слайд.
 
@@ -135,7 +135,7 @@ public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCl
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если в указанном мастере нет подходящего макета и allowCloneMissingLayout равно ложно. |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если в указанном мастере нет подходящего макета и allowCloneMissingLayout равно false. |
 
 ### См. также
 

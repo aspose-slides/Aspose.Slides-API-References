@@ -1,15 +1,15 @@
 ---
 title: Enclose
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Envolverse en un elemento matemático en caracteres especificados como paréntesis u otros caracteres como marco
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Encierra un elemento matemático en caracteres especificados como paréntesis u otros caracteres como marco
 type: docs
 weight: 90
 url: /es/aspose.slides.mathtext/mathdelimiter/enclose/
 ---
 
-## MathDelimiter.Enclose método
+## MathDelimiter.Enclose method
 
-Envolverse en un elemento matemático en caracteres especificados como paréntesis u otros caracteres como marco
+Encierra un elemento matemático en caracteres especificados como paréntesis u otros caracteres como marco
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -17,12 +17,12 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| beginningCharacter | Char | Carácter de inicio (generalmente corchete izquierdo) |
-| endingCharacter | Char | Carácter de fin (generalmente corchete derecho) |
+| beginningCharacter | Char | Carácter inicial (generalmente corchete izquierdo) |
+| endingCharacter | Char | Carácter final (generalmente corchete derecho) |
 
 ### Valor de Retorno
 
-Si *beginningCharacter* y *endingCharacter* son nulos, las propiedades correspondientes se asignan valores únicamente y no se crea un nuevo objeto (devuelve esta instancia). De lo contrario, devuelve un nuevo elemento matemático de tipo Delimiter que incluye caracteres especificados como marco y esta instancia de [`MathDelimiter`](../../mathdelimiter) enmarcada dentro.
+Si *beginningCharacter* y *endingCharacter* son nulos, se asignan valores únicamente a las propiedades correspondientes y no se crea un nuevo objeto (devuelve esta instancia). De lo contrario, devuelve un nuevo elemento matemático de tipo Delimiter que incluye caracteres especificados como marco y esta instancia de [`MathDelimiter`](../../mathdelimiter) enmarcada dentro.
 
 ### Ejemplos
 
@@ -34,7 +34,7 @@ IMathDelimiter innerDelimiter = new MathematicalText("x").Join(",y").Enclose('{'
 IMathDelimiter outerDelimiter = innerDelimiter.Enclose('[', ']');
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IMathDelimiter](../../imathdelimiter)
 * clase [MathDelimiter](../../mathdelimiter)

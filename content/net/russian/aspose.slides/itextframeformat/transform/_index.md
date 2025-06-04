@@ -1,21 +1,21 @@
 ---
 title: Transform
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает или задает форму обтекания текста. Чтение/запись TextShapeTypeaspose.slides/textshapetype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает форму обертки текста. Чтение/запись TextShapeType aspose.slides/textshapetype.
 type: docs
 weight: 150
 url: /ru/aspose.slides/itextframeformat/transform/
 ---
 
-## Свойство ITextFrameFormat.Transform
+## ITextFrameFormat.Transform свойство
 
-Получает или задает форму обтекания текста. Чтение/запись [`TextShapeType`](../../textshapetype).
+Получает или задает форму обертки текста. Чтение/запись [`TextShapeType`](../../textshapetype).
 
 ```csharp
 public TextShapeType Transform { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [TextShapeType](../../textshapetype)
 * interface [ITextFrameFormat](../../itextframeformat)

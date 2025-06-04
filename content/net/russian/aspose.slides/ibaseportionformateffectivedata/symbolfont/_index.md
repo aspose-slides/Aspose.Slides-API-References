@@ -1,6 +1,6 @@
 ---
 title: SymbolFont
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает информацию о символьном шрифте. Только для чтения IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 240

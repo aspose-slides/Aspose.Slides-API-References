@@ -1,7 +1,7 @@
 ---
 title: IFontDataFactory
 second_title: Aspose.Slides für .NET API-Referenz
-description: FontData-Fabrik-Schnittstelle
+description: FontData-Fabrikschnittstelle
 type: docs
 weight: 5640
 url: /de/aspose.slides/ifontdatafactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifontdatafactory/
 
 ## IFontDataFactory-Schnittstelle
 
-FontData-Fabrik-Schnittstelle
+FontData-Fabrikschnittstelle
 
 ```csharp
 public interface IFontDataFactory

@@ -1,13 +1,13 @@
 ---
 title: Contains
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Détermine si la collection contient une valeur spécifique.
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/mathparagraph/contains/
 ---
 
-## La méthode MathParagraph.Contains
+## MathParagraph.Contains méthode
 
 Détermine si la collection contient une valeur spécifique.
 
@@ -19,9 +19,9 @@ public bool Contains(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | L'objet à localiser dans la collection. |
 
-### Valeur de Retour
+### Valeur de retour
 
-true si *mathBlock* est trouvé dans la collection; sinon, false.
+true si *mathBlock* est trouvé dans la collection ; sinon, false.
 
 ### Exemples
 

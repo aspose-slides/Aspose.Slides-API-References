@@ -1,15 +1,15 @@
 ---
 title: ObjectDistribution
 second_title: Référence API Aspose.Slides pour .NET
-description: Distribution d'objet Lorsque vrai, le contenu du tableau est espacé à la largeur maximale de l'objet tableau.
+description: Distribution des objets Lorsque vrai, le contenu du tableau est réparti sur la largeur maximale de l'objet tableau.
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/matharray/objectdistribution/
 ---
 
-## Propriété MathArray.ObjectDistribution
+## MathArray.ObjectDistribution propriété
 
-Distribution d'objet Lorsque vrai, le contenu du tableau est espacé à la largeur maximale de l'objet tableau.
+Distribution des objets Lorsque vrai, le contenu du tableau est réparti sur la largeur maximale de l'objet tableau.
 
 ```csharp
 public bool ObjectDistribution { get; set; }
@@ -17,7 +17,7 @@ public bool ObjectDistribution { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

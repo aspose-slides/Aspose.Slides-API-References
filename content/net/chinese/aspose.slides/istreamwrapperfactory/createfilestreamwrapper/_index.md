@@ -1,7 +1,7 @@
 ---
 title: CreateFileStreamWrapper
-second_title: Aspose.Slides for .NET API 参考
-description: 使用指定的路径和创建模式创建 FileStream。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建具有指定路径和创建模式的 FileStream。
 type: docs
 weight: 10
 url: /zh/aspose.slides/istreamwrapperfactory/createfilestreamwrapper/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/istreamwrapperfactory/createfilestreamwrapper/
 
 ## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
 
-使用指定的路径和创建模式创建 FileStream。
+创建具有指定路径和创建模式的 FileStream。
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode)
@@ -24,7 +24,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 用于 COM 接口 [`IStreamWrapper`](../../istreamwrapper) 的流包装器
 
-### 另请参见
+### 另见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 接口 [IStreamWrapperFactory](../../istreamwrapperfactory)
@@ -35,7 +35,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 ## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
 
-使用指定的路径、创建模式和读/写权限创建 FileStream。
+创建具有指定路径、创建模式和读/写权限的 FileStream。
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode, 
@@ -52,7 +52,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 用于 COM 接口 [`IStreamWrapper`](../../istreamwrapper) 的流包装器
 
-### 另请参见
+### 另见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 接口 [IStreamWrapperFactory](../../istreamwrapperfactory)

@@ -1,7 +1,7 @@
 ---
 title: MasterHandoutSlideManager
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retournent le gestionnaire de master de remise. Lecture seule IMasterHandoutSlideManageraspose.slides/imasterhandoutslidemanager.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne le gestionnaire de maquettes de remise. Lecture seule IMasterHandoutSlideManageraspose.slides/imasterhandoutslidemanager.
 type: docs
 weight: 170
 url: /fr/aspose.slides/ipresentation/masterhandoutslidemanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/masterhandoutslidemanager/
 
 ## Propriété IPresentation.MasterHandoutSlideManager
 
-Retournent le gestionnaire de master de remise. Lecture seule [`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager).
+Retourne le gestionnaire de maquettes de remise. Lecture seule [`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager).
 
 ```csharp
 public IMasterHandoutSlideManager MasterHandoutSlideManager { get; }

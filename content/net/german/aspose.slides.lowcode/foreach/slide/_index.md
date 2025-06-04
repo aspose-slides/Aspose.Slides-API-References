@@ -1,7 +1,7 @@
 ---
 title: Slide
 second_title: Aspose.Slides für .NET API-Referenz
-description: Durchlaufe jede Folie aspose.slides.lowcode/foreach/slide in der Präsentation aspose.slides/presentation.
+description: Iterieren Sie über jede Slide aspose.slides.lowcode/foreach/slide in der Presentation aspose.slides/presentation.
 type: docs
 weight: 60
 url: /de/aspose.slides.lowcode/foreach/slide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.lowcode/foreach/slide/
 
 ## ForEach.Slide-Methode
 
-Durchlaufe jede `Slide` in der [`Presentation`](../../../aspose.slides/presentation).
+Iterieren Sie über jede `Slide` in der [`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)
@@ -17,7 +17,7 @@ public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Präsentation, um Folien zu durchlaufen |
+| pres | Presentation | Präsentation, um Folien zu iterieren |
 | forEachSlide | ForEachSlideCallback | Callback, der für jede Folie aufgerufen wird |
 
 ### Beispiele
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     ForEach.Slide(pres, (slide, index) =>
     {
-        slide.Name = $"Folie #{index}";
+        slide.Name = $"Slide #{index}";
     });
 } 
 ```

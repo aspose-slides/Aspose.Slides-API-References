@@ -1,7 +1,7 @@
 ---
 title: IThemeEffectiveData
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Неподвижный объект, содержащий свойства эффективной темы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Неизменяемый объект, содержащий эффективные свойства темы.
 type: docs
 weight: 11070
 url: /ru/aspose.slides.theme/ithemeeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ithemeeffectivedata/
 
 ## Интерфейс IThemeEffectiveData
 
-Неподвижный объект, содержащий свойства эффективной темы.
+Неизменяемый объект, содержащий эффективные свойства темы.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -17,20 +17,20 @@ public interface IThemeEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата фигур. Только для чтения [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифтов. Только для чтения [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата фигуры. Только для чтения [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Возвращает цветовую схему. |
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`ITheme`](../itheme), чтобы вернуть эффективные значения форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`ITheme`](../itheme) для возврата эффективных значений форматирования с применением наследования.
 
 ### См. также
 

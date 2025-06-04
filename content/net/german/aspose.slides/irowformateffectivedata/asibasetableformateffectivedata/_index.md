@@ -1,15 +1,15 @@
 ---
 title: AsIBaseTableFormatEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erlaubt den Zugriff auf die Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur-Lese-IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IBaseTableFormatEffectiveData-Schnittstelle. Schreibgeschützte IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides/irowformateffectivedata/asibasetableformateffectivedata/
 ---
 
-## IRowFormatEffectiveData.AsIBaseTableFormatEffectiveData-Eigenschaft
+## IRowFormatEffectiveData.AsIBaseTableFormatEffectiveData Eigenschaft
 
-Erlaubt den Zugriff auf die Basis-IBaseTableFormatEffectiveData-Schnittstelle. Nur-Lese [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).
+Ermöglicht den Zugriff auf die Basis-IBaseTableFormatEffectiveData-Schnittstelle. Schreibgeschützte [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).
 
 ```csharp
 public IBaseTableFormatEffectiveData AsIBaseTableFormatEffectiveData { get; }

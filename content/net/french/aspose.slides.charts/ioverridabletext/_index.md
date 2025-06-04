@@ -20,7 +20,7 @@ public interface IOverridableText : IFormattedTextContainer
 | Nom | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Peut contenir un texte richement formaté. Si cette propriété n'est pas nulle, alors cette valeur de texte formaté remplace le texte généré automatiquement. Le texte généré automatiquement est une propriété implicite de l'étiquette de données, de l'étiquette d'unité d'affichage de l'axe des valeurs, du titre de l'axe, du titre du graphique, de l'étiquette de la ligne de tendance. Le texte généré automatiquement est formaté avec la propriété IFormattedTextContainer.TextFormat. Lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Peut contenir un texte riche formaté. Si cette propriété n'est pas nulle, alors cette valeur de texte formaté remplace le texte auto-généré. Le texte auto-généré est une propriété implicite de l'étiquette de données, l'étiquette de l'unité d'affichage de l'axe de valeur, le titre de l'axe, le titre du graphique, l'étiquette de la ligne de tendance. Le texte auto-généré est formaté avec la propriété IFormattedTextContainer.TextFormat. Lecture seule [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Méthodes
 

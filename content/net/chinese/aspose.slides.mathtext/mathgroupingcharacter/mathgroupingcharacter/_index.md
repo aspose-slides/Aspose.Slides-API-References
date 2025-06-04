@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
-使用默认分组字符 U+23DF (BOTTOM CURLY BRACKET) 初始化 MathGroupingCharacter 类的新实例。
+使用默认分组字符 U+23DF (BOTTOM CURLY BRACKET) 初始化 MathGroupingCharacter 类的新实例
 
 ```csharp
 public MathGroupingCharacter(IMathElement element)
@@ -17,7 +17,7 @@ public MathGroupingCharacter(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用于基元素的条形符。 |
+| element | IMathElement | 应用该条形符的基本元素 |
 
 ### 示例
 
@@ -48,10 +48,10 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用于基元素的条形符。 |
-| character | Char | 分组字符。 |
-| position | MathTopBotPositions | 分组字符的位置。 |
-| verticalJustification | MathTopBotPositions | 分组字符的垂直对齐。 |
+| element | IMathElement | 应用该条形符的基本元素 |
+| character | Char | 分组字符 |
+| position | MathTopBotPositions | 分组字符的位置 |
+| verticalJustification | MathTopBotPositions | 分组字符的垂直对齐方式 |
 
 ### 示例
 

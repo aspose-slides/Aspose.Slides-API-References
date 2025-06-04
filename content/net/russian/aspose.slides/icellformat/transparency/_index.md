@@ -1,7 +1,7 @@
 ---
 title: Transparency
-second_title: Справка по API Aspose.Sildes для .NET
-description: Получает или задает прозрачность цвета заливки. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает прозрачность цвета заливки. Читаемый/записываемый Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides/icellformat/transparency/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icellformat/transparency/
 
 ## Свойство ICellFormat.Transparency
 
-Получает или задает прозрачность цвета заливки. Чтение/запись Single.
+Получает или устанавливает прозрачность цвета заливки. Читаемый/записываемый Single.
 
 ```csharp
 public float Transparency { get; set; }

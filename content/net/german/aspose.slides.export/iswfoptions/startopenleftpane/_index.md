@@ -1,15 +1,15 @@
 ---
 title: StartOpenLeftPane
 second_title: Aspose.Slides für .NET API Referenz
-description: Starten mit geöffnetem linken Bereich. Kann in Flashvars überschrieben werden. Standard ist falsch.
+description: Beginnen Sie mit dem geöffneten linken Bereich. Kann in flashvars überschrieben werden. Standard ist false.
 type: docs
 weight: 160
 url: /de/aspose.slides.export/iswfoptions/startopenleftpane/
 ---
 
-## ISwfOptions.StartOpenLeftPane Eigenschaft
+## ISwfOptions.StartOpenLeftPane-Eigenschaft
 
-Starten mit geöffnetem linken Bereich. Kann in Flashvars überschrieben werden. Standard ist falsch.
+Beginnen Sie mit dem geöffneten linken Bereich. Kann in flashvars überschrieben werden. Standard ist false.
 
 ```csharp
 public bool StartOpenLeftPane { get; set; }

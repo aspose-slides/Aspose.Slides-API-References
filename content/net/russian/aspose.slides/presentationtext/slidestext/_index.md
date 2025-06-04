@@ -1,6 +1,6 @@
 ---
 title: SlidesText
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Массив SlideText aspose.slides/islidetext содержит текст презентации.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/presentationtext/slidestext/
 public ISlideText[] SlidesText { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISlideText](../../islidetext)
 * класс [PresentationText](../../presentationtext)

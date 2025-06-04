@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/imasterslidecollection/item/
 ---
 
-## Índice de IMasterSlideCollection
+## IMasterSlideCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IMasterSlide`](../../imasterslide).
 
@@ -17,9 +17,9 @@ public IMasterSlide this[int index] { get; }
 
 ### Ver También
 
-* interfaz [IMasterSlide](../../imasterslide)
-* interfaz [IMasterSlideCollection](../../imasterslidecollection)
-* espacio de nombres [Aspose.Slides](../../imasterslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMasterSlide](../../imasterslide)
+* interfaz [IMasterSlideCollection](../../imasterslidecollection)
+* espacio de nombres [Aspose.Slides](../../imasterslidecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

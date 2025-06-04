@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le format d'une zone de tracé. Lecture seule IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie le format d'une zone de tracé. En lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartplotarea/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartplotarea/format/
 
 ## Propriété IChartPlotArea.Format
 
-Renvoie le format d'une zone de tracé. Lecture seule [`IFormat`](../../iformat).
+Renvoie le format d'une zone de tracé. En lecture seule [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

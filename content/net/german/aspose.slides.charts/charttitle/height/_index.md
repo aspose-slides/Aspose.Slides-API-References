@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lesen/Schreiben Single.
+description: Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder legt diese fest. Schreib-/Lesezugriff auf Single.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/charttitle/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/charttitle/height/
 
 ## ChartTitle.Height-Eigenschaft
 
-Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lesen/Schreiben Single.
+Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder legt diese fest. Schreib-/Lesezugriff auf Single.
 
 ```csharp
 public float Height { get; set; }

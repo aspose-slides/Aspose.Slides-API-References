@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ein expliziter Umbruch gibt an, ob es am Anfang des Box-Objekts einen Zeilenumbruch gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Texts an, die als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Texts verwendet werden soll, mögliche Werte 1..255 Standard 0 kein expliziter Umbruch
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Der explizite Bruch gibt an, ob es einen Zeilenumbruch zu Beginn des Box-Objekts gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Textes an, der als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Textes verwendet werden soll. Mögliche Werte 1..255. Standard 0 kein expliziter Bruch.
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/imathbox/explicitbreak/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathbox/explicitbreak/
 
 ## IMathBox.ExplicitBreak-Eigenschaft
 
-Ein expliziter Umbruch gibt an, ob es am Anfang des Box-Objekts einen Zeilenumbruch gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Texts an, die als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Texts verwendet werden soll, mögliche Werte: 1..255 Standard: 0 (kein expliziter Umbruch)
+Der explizite Bruch gibt an, ob es einen Zeilenumbruch zu Beginn des Box-Objekts gibt, sodass die Zeile am Anfang des Box-Objekts umbricht. Gibt die Nummer des Operators in der vorherigen Zeile des mathematischen Textes an, der als Ausrichtungspunkt für die aktuelle Zeile des mathematischen Textes verwendet werden soll. Mögliche Werte: 1..255. Standard: 0 (kein expliziter Bruch).
 
 ```csharp
 public byte ExplicitBreak { get; set; }

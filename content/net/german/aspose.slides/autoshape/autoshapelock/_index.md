@@ -1,15 +1,15 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sperren von Autoshapes zurück. Nur-Lese IAutoShapeLockaspose.slides/iautoshapelock.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sperren von Autoshapes zurück. Schreibgeschütztes IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 10
 url: /de/aspose.slides/autoshape/autoshapelock/
 ---
 
-## AutoShape.AutoShapeLock-Eigenschaft
+## AutoShape.AutoShapeLock Eigenschaft
 
-Gibt die Sperren des Autoshapes zurück. Nur-Lese [`IAutoShapeLock`](../../iautoshapelock).
+Gibt die Sperren des Autoshapes zurück. Schreibgeschütztes [`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock AutoShapeLock { get; }

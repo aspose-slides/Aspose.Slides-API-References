@@ -1,7 +1,7 @@
 ---
 title: FillType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Typ der Füllung zurück. Nur-lesbarer FillTypeaspose.slides/filltype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Typ der Füllung zurück. Nur-Lese FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /de/aspose.slides/ifillformateffectivedata/filltype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ifillformateffectivedata/filltype/
 
 ## IFillFormatEffectiveData.FillType-Eigenschaft
 
-Gibt den Typ der Füllung zurück. Nur-lesbarer [`FillType`](../../filltype).
+Gibt den Typ der Füllung zurück. Nur-Lese [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [FillType](../../filltype)
 * interface [IFillFormatEffectiveData](../../ifillformateffectivedata)

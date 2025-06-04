@@ -1,15 +1,15 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Slides für .NET API Referenz
-description: Diese Eigenschaft definiert, ob eine Instanz der Presentation-Klasse während der Lebensdauer der Instanz Eigentümer der Quelle - Datei oder Stream sein kann. Wenn die Instanz Eigentümer ist, sperrt sie die Quelle. Dies hilft, den Speicherverbrauch und die Leistung beim Arbeiten mit BLOBs zu verbessern, aber der Quellstream oder die Datei kann während der Lebensdauer der Präsentationsinstanz nicht geändert werden. Dies ist ein Beispiel
+second_title: Aspose.Slides für .NET API-Referenz
+description: Diese Eigenschaft definiert, ob eine Instanz der Presentation-Klasse während der Lebensdauer der Instanz Eigentümer der Quelle - Datei oder Stream - sein kann. Wenn die Instanz Eigentümer ist, wird die Quelle gesperrt. Dies hilft, den Speicherverbrauch und die Leistung beim Arbeiten mit BLOBs zu verbessern, aber der Quellstream oder die Datei kann während der Lebensdauer der Präsentationsinstanz nicht geändert werden. Dies ist ein Beispiel
 type: docs
 weight: 30
 url: /de/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
 ---
 
-## IBlobManagementOptions.PresentationLockingBehavior Eigenschaft
+## IBlobManagementOptions.PresentationLockingBehavior-Eigenschaft
 
-Diese Eigenschaft definiert, ob eine Instanz der Presentation-Klasse während der Lebensdauer der Instanz Eigentümer der Quelle - Datei oder Stream sein kann. Wenn die Instanz Eigentümer ist, sperrt sie die Quelle. Dies hilft, den Speicherverbrauch und die Leistung beim Arbeiten mit BLOBs zu verbessern, aber die Quelle (Stream oder Datei) kann während der Lebensdauer der Präsentationsinstanz nicht geändert werden. Dies ist ein Beispiel:
+Diese Eigenschaft definiert, ob eine Instanz der Presentation-Klasse während der Lebensdauer der Instanz Eigentümer der Quelle - Datei oder Stream - sein kann. Wenn die Instanz Eigentümer ist, wird die Quelle gesperrt. Dies hilft, den Speicherverbrauch und die Leistung beim Arbeiten mit BLOBs zu verbessern, aber die Quelle (Stream oder Datei) kann während der Lebensdauer der Präsentationsinstanz nicht geändert werden. Dies ist ein Beispiel:
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
@@ -21,10 +21,10 @@ public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 LoadOptions loadOptions = new LoadOptions { 
   BlobManagementOptions = {PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked} };
 using (Presentation pres = new Presentation("pres.pptx", loadOptions)) {
-  // IOException wird ausgelöst, weil pres.pptx für die Lebensdauer einer Präsentation gesperrt ist
+  // IOException wird ausgelöst, da pres.pptx für eine Präsentationslebensdauer gesperrt ist
   // File.Delete("pres.pptx");
 }
-// nachdem das Presentation-Objekt freigegeben wurde, ist die Datei entsperrt und kann gelöscht werden
+// Nach der Entsorgung des Presentation-Objekts ist die Datei entsperrt und kann gelöscht werden
 File.Delete("pres.pptx");
 ```
 

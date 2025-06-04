@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/stylefontsize/
 public static BehaviorProperty StyleFontSize { get; }
 ```
 
-### 另见
+### 查看其他
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

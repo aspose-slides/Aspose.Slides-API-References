@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Renvoie le nom du projet VBA. Chaîne en lecture seule.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Renvoie le nom du projet VBA. Chaîne en lecture seule.
 public string Name { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [VbaProject](../../vbaproject)
 * espace de noms [Aspose.Slides.Vba](../../vbaproject)

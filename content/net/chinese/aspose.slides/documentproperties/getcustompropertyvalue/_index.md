@@ -20,7 +20,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 | name | String | 要获取的自定义属性名称 |
 | value | Boolean& | 自定义属性值 |
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -41,7 +41,7 @@ public void GetCustomPropertyValue(string name, out int value)
 | name | String | 要获取的自定义属性名称 |
 | value | Int32& | 自定义属性值 |
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -62,7 +62,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 | name | String | 要获取的自定义属性名称 |
 | value | DateTime& | 自定义属性值 |
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -83,7 +83,7 @@ public void GetCustomPropertyValue(string name, out string value)
 | name | String | 要获取的自定义属性名称 |
 | value | String& | 自定义属性值 |
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -104,7 +104,7 @@ public void GetCustomPropertyValue(string name, out float value)
 | name | String | 要获取的自定义属性名称 |
 | value | Single& | 自定义属性值 |
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -125,7 +125,7 @@ public void GetCustomPropertyValue(string name, out double value)
 | name | String | 要获取的自定义属性名称。 |
 | value | Double& | 自定义属性值 |
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

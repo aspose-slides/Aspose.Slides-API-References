@@ -1,7 +1,7 @@
 ---
 title: From
-second_title: Aspose.Slides for .NET API 参考
-description: 指定从百分比开始动画的 x/y 坐标。可读写 PointF。
+second_title: Aspose.Slide 适用于 .NET API 参考
+description: 指定动画开始的 x/y 坐标（以百分比表示）。可读写 PointF。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/motioneffect/from/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/motioneffect/from/
 
 ## MotionEffect.From 属性
 
-指定从（百分比）开始动画的 x/y 坐标。可读写 PointF。
+指定动画开始的 x/y 坐标（以百分比表示）。可读写 PointF。
 
 ```csharp
 public PointF From { get; set; }

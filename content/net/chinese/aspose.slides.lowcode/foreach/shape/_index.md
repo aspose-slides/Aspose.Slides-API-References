@@ -1,117 +1,117 @@
----
+---  
 title: Shape
-second_title: Aspose.Sildes for .NET API 参考
-description: 迭代演示文稿中的每个 Shape aspose.slides.lowcode/foreach/shape。所有类型的幻灯片中都将迭代形状 - Slide aspose.slides.lowcode/foreach/slide、MasterSlide aspose.slides.lowcode/foreach/masterslide 和 LayoutSlide aspose.slides.lowcode/foreach/layoutslide
-type: docs
-weight: 50
+second_title: Aspose.Sildes for .NET API Reference  
+description: 遍历每个 Shape aspose.slides.lowcode/foreach/shape 在 Presentation aspose.slides/presentation 中。形状将在所有类型的幻灯片中迭代 - Slide aspose.slides.lowcode/foreach/slide、MasterSlide aspose.slides.lowcode/foreach/masterslide 和 LayoutSlide aspose.slides.lowcode/foreach/layoutslide
+type: docs  
+weight: 50  
 url: /zh/aspose.slides.lowcode/foreach/shape/
----
+---  
 
-## Shape(Presentation, ForEachShapeCallback) {#shape_2}
+## Shape(Presentation, ForEachShapeCallback) {#shape_2}  
 
-迭代 [`Presentation`](../../../aspose.slides/presentation) 中的每个 `Shape`。所有类型的幻灯片中都将迭代形状 - [`Slide`](../slide)、[`MasterSlide`](../masterslide) 和 [`LayoutSlide`](../layoutslide)
+遍历每个 `Shape` 在 [`Presentation`](../../../aspose.slides/presentation) 中。形状将在所有类型的幻灯片中迭代 - [`Slide`](../slide)、[`MasterSlide`](../masterslide) 和 [`LayoutSlide`](../layoutslide)  
 
-```csharp
-public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
-```
+```csharp  
+public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)  
+```  
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| pres | Presentation | 要迭代布局形状的演示文稿 |
-| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| pres | Presentation | 用于迭代布局形状的演示文稿 |  
+| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |  
 
-### 示例
+### 示例  
 
-```csharp
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-    ForEach.Shape(pres, (shape, slide, index) => 
-    {
-        System.Console.WriteLine($"{shape.Name}, index: {index}");
-    });
-} 
-```
+```csharp  
+using (Presentation pres = new Presentation("pres.pptx"))  
+{  
+    ForEach.Shape(pres, (shape, slide, index) =>  
+    {  
+        System.Console.WriteLine($"{shape.Name}, index: {index}");  
+    });  
+}  
+```  
 
-### 另请参见
+### 另见  
 
-* 类 [Presentation](../../../aspose.slides/presentation)
-* 委托 [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* 类 [ForEach](../../foreach)
-* 命名空间 [Aspose.Slides.LowCode](../../foreach)
-* 程序集 [Aspose.Slides](../../../)
+* class [Presentation](../../../aspose.slides/presentation)  
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)  
+* class [ForEach](../../foreach)  
+* namespace [Aspose.Slides.LowCode](../../foreach)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## Shape(Presentation, bool, ForEachShapeCallback) {#shape_1}
+## Shape(Presentation, bool, ForEachShapeCallback) {#shape_1}  
 
-迭代 [`Presentation`](../../../aspose.slides/presentation) 中的每个 [`Shape`](../shape)。所有类型的幻灯片中都将迭代形状 - [`Slide`](../slide)、[`MasterSlide`](../masterslide)、[`LayoutSlide`](../layoutslide) 和 [`NotesSlide`](../../../aspose.slides/notesslide)，如果需要的话。
+遍历每个 [`Shape`](../shape) 在 [`Presentation`](../../../aspose.slides/presentation) 中。形状将在所有类型的幻灯片中迭代 - [`Slide`](../slide)、[`MasterSlide`](../masterslide)、[`LayoutSlide`](../layoutslide) 和 [`NotesSlide`](../../../aspose.slides/notesslide)（如有需要）。  
 
-```csharp
-public static void Shape(Presentation pres, bool includeNotes, ForEachShapeCallback forEachShape)
-```
+```csharp  
+public static void Shape(Presentation pres, bool includeNotes, ForEachShapeCallback forEachShape)  
+```  
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| pres | Presentation | 要迭代布局形状的演示文稿 |
-| includeNotes | Boolean | 指示是否应该在处理时包含 NotesSlides 的标志。 |
-| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| pres | Presentation | 用于迭代布局形状的演示文稿 |  
+| includeNotes | Boolean | 指示是否应在处理过程中包含 NotesSlides 的标志。 |  
+| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |  
 
-### 示例
+### 示例  
 
-```csharp
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-    ForEach.Shape(pres, true, (shape, slide, index) => 
-    {
-        System.Console.WriteLine($"{shape.Name}, index: {index}");
-    });
-} 
-```
+```csharp  
+using (Presentation pres = new Presentation("pres.pptx"))  
+{  
+    ForEach.Shape(pres, true, (shape, slide, index) =>  
+    {  
+        System.Console.WriteLine($"{shape.Name}, index: {index}");  
+    });  
+}  
+```  
 
-### 另请参见
+### 另见  
 
-* 类 [Presentation](../../../aspose.slides/presentation)
-* 委托 [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* 类 [ForEach](../../foreach)
-* 命名空间 [Aspose.Slides.LowCode](../../foreach)
-* 程序集 [Aspose.Slides](../../../)
+* class [Presentation](../../../aspose.slides/presentation)  
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)  
+* class [ForEach](../../foreach)  
+* namespace [Aspose.Slides.LowCode](../../foreach)  
+* assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## Shape(BaseSlide, ForEachShapeCallback) {#shape}
+## Shape(BaseSlide, ForEachShapeCallback) {#shape}  
 
-迭代 [`BaseSlide`](../../../aspose.slides/baseslide) 中的每个 [`Shape`](../shape)。[`BaseSlide`](../../../aspose.slides/baseslide) 是 [`Slide`](../slide)、[`MasterSlide`](../masterslide) 和 [`LayoutSlide`](../layoutslide) 的基础类型
+遍历每个 [`Shape`](../shape) 在 [`BaseSlide`](../../../aspose.slides/baseslide) 中。 [`BaseSlide`](../../../aspose.slides/baseslide) 是 [`Slide`](../slide)、[`MasterSlide`](../masterslide) 和 [`LayoutSlide`](../layoutslide) 的基类型  
 
-```csharp
-public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
-```
+```csharp  
+public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)  
+```  
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| baseSlide | BaseSlide | 要迭代布局形状的幻灯片 |
-| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |
+| 参数 | 类型 | 描述 |  
+| --- | --- | --- |  
+| baseSlide | BaseSlide | 用于迭代布局形状的幻灯片 |  
+| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |  
 
-### 示例
+### 示例  
 
-```csharp
-(Presentation pres = new Presentation("pres.pptx"))
-{
-    ForEach.Slide(pres, (slide, index) =>
-    {
-        ForEach.Shape(slide, (shape, baseSlide, shapeIndex) =>
-        {
-            System.Console.WriteLine($"{shape.Name}, index: {shapeIndex}");
-        });
-    });
-} 
-```
+```csharp  
+(Presentation pres = new Presentation("pres.pptx"))  
+{  
+    ForEach.Slide(pres, (slide, index) =>  
+    {  
+        ForEach.Shape(slide, (shape, baseSlide, shapeIndex) =>  
+        {  
+            System.Console.WriteLine($"{shape.Name}, index: {shapeIndex}");  
+        });  
+    });  
+}  
+```  
 
-### 另请参见
+### 另见  
 
-* 类 [BaseSlide](../../../aspose.slides/baseslide)
-* 委托 [ForEachShapeCallback](../../foreach.foreachshapecallback)
-* 类 [ForEach](../../foreach)
-* 命名空间 [Aspose.Slides.LowCode](../../foreach)
-* 程序集 [Aspose.Slides](../../../)
+* class [BaseSlide](../../../aspose.slides/baseslide)  
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)  
+* class [ForEach](../../foreach)  
+* namespace [Aspose.Slides.LowCode](../../foreach)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的项目。只读 IMathBlockaspose.slides.mathtext/imathblock。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取指定索引处的项。只读 IMathBlockaspose.slides.mathtext/imathblock。
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathblockcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblockcollection/item/
 
 ## IMathBlockCollection 索引器
 
-获取指定索引处的项目。只读 [`IMathBlock`](../../imathblock)。
+获取指定索引处的项。只读 [`IMathBlock`](../../imathblock)。
 
 ```csharp
 public IMathBlock this[int index] { get; set; }
@@ -17,7 +17,7 @@ public IMathBlock this[int index] { get; set; }
 
 | 参数 | 描述 |
 | --- | --- |
-| index | 要获取的项目的零基索引 |
+| index | 要获取的项的零基索引 |
 
 ### 返回值
 
@@ -35,7 +35,7 @@ blockCollection.Add(new MathBlock(new MathematicalText("block2")));
 IMathBlock block = blockCollection[1];
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBlock](../../imathblock)
 * 接口 [IMathBlockCollection](../../imathblockcollection)

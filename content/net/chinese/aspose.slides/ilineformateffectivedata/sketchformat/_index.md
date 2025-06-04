@@ -1,7 +1,7 @@
 ---
 title: SketchFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回线条的草图格式。只读 ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一条线的草图格式。只读 ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata。
 type: docs
 weight: 150
 url: /zh/aspose.slides/ilineformateffectivedata/sketchformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilineformateffectivedata/sketchformat/
 
 ## ILineFormatEffectiveData.SketchFormat 属性
 
-返回线条的草图格式。只读 [`ISketchFormatEffectiveData`](../../isketchformateffectivedata)。
+返回一条线的草图格式。只读 [`ISketchFormatEffectiveData`](../../isketchformateffectivedata)。
 
 ```csharp
 public ISketchFormatEffectiveData SketchFormat { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ISketchFormatEffectiveData](../../isketchformateffectivedata)
 * 接口 [ILineFormatEffectiveData](../../ilineformateffectivedata)

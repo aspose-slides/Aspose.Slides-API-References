@@ -7,7 +7,7 @@ weight: 110
 url: /es/aspose.slides/islidecollection/removeat/
 ---
 
-## Método ISlideCollection.RemoveAt
+## ISlideCollection.RemoveAt método
 
 Elimina el elemento en el índice especificado de la colección.
 
@@ -25,7 +25,7 @@ public void RemoveAt(int index)
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### Véase También
+### Ver También
 
 * interfaz [ISlideCollection](../../islidecollection)
 * espacio de nombres [Aspose.Slides](../../islidecollection)

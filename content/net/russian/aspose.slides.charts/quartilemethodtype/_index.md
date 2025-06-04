@@ -1,6 +1,6 @@
 ---
 title: QuartileMethodType
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API справочника
 description: Возвращает тип метода квартиля
 type: docs
 weight: 2310
@@ -17,10 +17,10 @@ public enum QuartileMethodType
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
-| Exclusive | `0` | Представляет метод квартиля исключительного. |
-| Inclusive | `1` | Представляет метод квартиля включительного. |
+| Exclusive | `0` | Представляет эксклюзивный метод квартиля. |
+| Inclusive | `1` | Представляет включающий метод квартиля. |
 
 ### См. Также
 

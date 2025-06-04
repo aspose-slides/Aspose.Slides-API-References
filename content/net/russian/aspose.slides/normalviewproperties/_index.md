@@ -1,39 +1,39 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет свойства нормального просмотра. Нормальный просмотр состоит из трех регионов содержимого самого слайда, бокового региона содержимого и нижнего региона содержимого.
+second_title: Aspose.Sildes для справочника по API .NET
+description: Представляет свойства обычного вида. Обычный вид состоит из трех областей содержимого самого слайда, боковой области содержимого и нижней области содержимого.
 type: docs
 weight: 8840
 url: /ru/aspose.slides/normalviewproperties/
 ---
 
-## Класс NormalViewProperties
+## NormalViewProperties class
 
-Представляет свойства нормального просмотра. Нормальный просмотр состоит из трех регионов содержимого: самого слайда, бокового региона содержимого и нижнего региона содержимого.
+Представляет свойства обычного вида. Обычный вид состоит из трех областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
 ```
 
-## Свойства
+## Properties
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Указывает состояние, в котором должна отображаться горизонтальная разделительная панель. Горизонтальная разделительная панель разделяет слайд и регион содержимого ниже слайда. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Указывает, предпочитает ли пользователь видеть полноэкранный регион содержимого в одиночном режиме вместо стандартного нормального просмотра с тремя регионами содержимого. Если включено, приложение может выбрать отображение одного из регионов содержимого на весь экран. Чтение/запись Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Этот элемент определяет размер бокового региона содержимого нормального просмотра, когда регион имеет переменный восстановленный размер (не минимизирован и не максимизирован). Только для чтения [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Этот элемент определяет размер верхнего слайдового региона нормального просмотра, когда регион имеет переменный восстановленный размер (не минимизирован и не максимизирован). Только для чтения [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Указывает, должна ли программа показывать иконки, если отображает контент с заголовками в любом из регионов содержимого режима нормального просмотра. Чтение/запись Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Указывает, должна ли вертикальная разделительная панель прилипать к минимизированному состоянию, когда боковой регион достаточно мал. Чтение/запись Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Указывает состояние, в котором должна отображаться вертикальная разделительная панель. Вертикальная разделительная панель разделяет слайд и боковой регион содержимого. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Указывает состояние, в котором должен отображаться горизонтальный раздельный бар. Горизонтальный раздельный бар отделяет слайд от области содержимого под слайдом. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Указывает, предпочитает ли пользователь видеть полноэкранную область содержимого вместо стандартного обычного вида с тремя областями содержимого. Если включено, приложение может выбрать отображение одной из областей содержимого на весь экран. Чтение/запись Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Этот элемент указывает размер боковой области содержимого обычного вида, когда область находится в переменном восстановленном размере (не минимизирована и не максимизирована). Только для чтения [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Этот элемент указывает размер верхней области слайда обычного вида, когда область находится в переменном восстановленном размере (не минимизирована и не максимизирована). Только для чтения [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Указывает, должно ли приложение показывать значки, если отображает контент в виде структуры в любой из областей содержимого в режиме обычного вида. Чтение/запись Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Указывает, должен ли вертикальный раздельный бар «щелкать» в минимизированном состоянии, когда боковая область достаточно мала. Чтение/запись Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Указывает состояние, в котором должен отображаться вертикальный раздельный бар. Вертикальный раздельный бар отделяет слайд от боковой области содержимого. |
 
-### Примеры
+### Examples
 
 Следующий пример показывает, как настроить свойства ViewProperties.NormalViewProperties презентации PowerPoint.
 
 ```csharp
 [C#]
-//Создайте объект презентации, который представляет файл презентации
+//Создание объекта презентации, представляющего файл презентации
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -45,10 +45,10 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### See Also
 
-* интерфейс [INormalViewProperties](../inormalviewproperties)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* interface [INormalViewProperties](../inormalviewproperties)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

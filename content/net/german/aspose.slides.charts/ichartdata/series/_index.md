@@ -1,7 +1,7 @@
 ---
 title: Series
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Serien zurück. Nur-Lese IChartSeriesCollectionaspose.slides/ichartseriescollection.
+description: Ruft die Serien ab. Nur lesender IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/ichartdata/series/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdata/series/
 
 ## IChartData.Series-Eigenschaft
 
-Gibt die Serien zurück. Nur-Lese [`IChartSeriesCollection`](../../ichartseriescollection).
+Ruft die Serien ab. Nur lesender [`IChartSeriesCollection`](../../ichartseriescollection).
 
 ```csharp
 public IChartSeriesCollection Series { get; }

@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt oder erhält die ID für die Form
+description: Legt die ID für die Form fest oder ruft sie ab
 type: docs
 weight: 10
 url: /de/aspose.slides.export/isvgshape/id/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isvgshape/id/
 
 ## ISvgShape.Id-Eigenschaft
 
-Setzt oder erhält die ID für die Form
+Legt die ID für die Form fest oder ruft sie ab
 
 ```csharp
 public string Id { get; set; }

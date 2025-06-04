@@ -7,7 +7,7 @@ weight: 240
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/copyto/
 ---
 
-## Метод ImageTransformOperationCollection.CopyTo
+## ImageTransformOperationCollection.CopyTo метод
 
 Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 
@@ -17,16 +17,16 @@ public void CopyTo(IImageTransformOperation[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IImageTransformOperation[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь индексацию с нуля. |
-| arrayIndex | Int32 | Индекс с нуля в *array*, с которого начинается копирование. |
+| array | IImageTransformOperation[] | Одномерный массив, который является местом назначения элементов, скопированных из ICollection. Массив должен иметь нулевую индексацию. |
+| arrayIndex | Int32 | Индекс с нулевой основой в *array*, с которого начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array* равно null. |
+| ArgumentNullException | *array* является null. |
 | ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
-| ArgumentException | Число элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
+| ArgumentException | Количество элементов в исходном ICollection больше доступного места с *arrayIndex* до конца целевого *array*. |
 
 ### См. также
 

@@ -1,7 +1,7 @@
 ---
 title: AsIOverrideThemeable
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IOverrideThemeable. IOverrideThemeable en lecture seule aspose.slides.theme/ioverridethemeable.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie l'interface IOverrideThemeable. Lecture seule IOverrideThemeable aspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichart/asioverridethemeable/

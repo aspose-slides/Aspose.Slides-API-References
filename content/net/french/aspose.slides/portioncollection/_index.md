@@ -19,8 +19,8 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/portioncollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
-| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Obtient une valeur indiquant si ICollection est en lecture seule. Lecture seule Boolean. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | Obtient le nombre d'éléments effectivement contenus dans la collection. Lecture seule Int32. |
+| [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Obtient une valeur indiquant si l'ICollection est en lecture seule. Lecture seule Boolean. |
 | [Item](../../aspose.slides/portioncollection/item) { get; set; } | Obtient l'élément à l'index spécifié. |
 
 ## Méthodes
@@ -30,14 +30,14 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 | [Add](../../aspose.slides/portioncollection/add)(IPortion) | Ajoute une Portion à la fin de la collection. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Supprime tous les éléments de la collection. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Détermine si l'ICollection contient une valeur spécifique. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Copie les éléments de l'ICollection dans un tableau, en commençant à un index de tableau particulier. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Copie les éléments de l'ICollection dans un tableau, en commençant à un index particulier du tableau. |
 | [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Détermine l'index d'un élément spécifique dans l'IList. |
 | [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Insère une Portion dans la collection à l'index spécifié. |
 | [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Supprime la première occurrence d'un objet spécifique de l'ICollection. |
 | [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Supprime l'élément à l'index spécifié de la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Paragraph](../paragraph)

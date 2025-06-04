@@ -15,7 +15,7 @@ Renvoie ou définit le nom de l'application. Chaîne en lecture/écriture.
 public string NameOfApplication { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

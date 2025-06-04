@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные эффективного форматирования эффекта с примененной наследственностью.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает данные об эффективном форматировании эффектов с применением наследования.
 type: docs
 weight: 250
 url: /ru/aspose.slides/effectformat/geteffective/
 ---
 
-## Метод EffectFormat.GetEffective
+## EffectFormat.GetEffective метод
 
-Получает данные эффективного форматирования эффекта с примененной наследственностью.
+Получает данные об эффективном форматировании эффектов с применением наследования.
 
 ```csharp
 public IEffectFormatEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых эффективных свойств эффекта фигуры.
+Этот пример демонстрирует получение некоторых эффективных свойств эффекта формы.
 
 ```csharp
 [C#]
@@ -31,12 +31,12 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 
 	if (effectiveEffectFormat.IsNoEffects)
 	{
-		Console.WriteLine("На фигуре нет примененных эффектов.");
+		Console.WriteLine("На фигуру не применены эффекты.");
 	}
 	else
 	{
 		if (effectiveEffectFormat.BlurEffect != null)
-			Console.WriteLine("Радиус размытия эффекта: " + effectiveEffectFormat.BlurEffect.Radius);
+			Console.WriteLine("Радиус эффекта размытия: " + effectiveEffectFormat.BlurEffect.Radius);
 		if (effectiveEffectFormat.FillOverlayEffect != null)
 			Console.WriteLine("Тип заливки эффекта наложения: " + effectiveEffectFormat.FillOverlayEffect.FillFormat.FillType);
 		if (effectiveEffectFormat.GlowEffect != null)
@@ -50,12 +50,12 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 		if (effectiveEffectFormat.ReflectionEffect != null)
 			Console.WriteLine("Расстояние эффекта отражения: " + effectiveEffectFormat.ReflectionEffect.Distance);
 		if (effectiveEffectFormat.SoftEdgeEffect != null)
-			Console.WriteLine("Радиус мягкого края эффекта: " + effectiveEffectFormat.SoftEdgeEffect.Radius);
+			Console.WriteLine("Радиус эффекта мягких краев: " + effectiveEffectFormat.SoftEdgeEffect.Radius);
 	}
 }
 ```
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * класс [EffectFormat](../../effectformat)

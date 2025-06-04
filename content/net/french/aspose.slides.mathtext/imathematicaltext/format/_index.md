@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Propriétés de formatage de texte
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Propriétés de formatage du texte
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathematicaltext/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathematicaltext/format/
 
 ## Propriété IMathematicalText.Format
 
-Propriétés de formatage de texte
+Propriétés de formatage du texte
 
 ```csharp
 public IPortionFormat Format { get; }
@@ -25,7 +25,7 @@ IMathematicalText mathText = new MathematicalText("x+y");
 mathText.Format.FontHeight = 28;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortionFormat](../../../aspose.slides/iportionformat)
 * interface [IMathematicalText](../../imathematicaltext)

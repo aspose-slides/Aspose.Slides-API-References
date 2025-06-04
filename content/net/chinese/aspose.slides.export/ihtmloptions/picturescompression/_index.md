@@ -1,7 +1,7 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Slides for .NET API 参考
-description: 表示图片的压缩级别 读/写 PicturesCompression。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示图片压缩级别 读/写 PicturesCompressionaspose.slides.export/ihtmloptions/picturescompression。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/ihtmloptions/picturescompression/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/ihtmloptions/picturescompression/
 
 ## IHtmlOptions.PicturesCompression 属性
 
-表示图片的压缩级别 读/写 `PicturesCompression`。
+表示图片压缩级别 读/写 `PicturesCompression`。
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [PicturesCompression](../../picturescompression)
 * interface [IHtmlOptions](../../ihtmloptions)

@@ -1,7 +1,7 @@
 ---
 title: BinaryData
-second_title: Aspose.Slides for .NET API 参考
-description: 返回音频数据的副本。如果数据量较大，考虑使用 GetStream../getstream 方法以防止不必要的加载视频数据到内存中，甚至避免内存溢出异常。只读 Byte。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回音频数据的副本。如果数据量大，请考虑使用 GetStream../getstream 方法，以防止将视频数据不必要地加载到内存中，甚至导致 OutOfMemoryException。只读 Byte。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ivideo/binarydata/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ivideo/binarydata/
 
 ## IVideo.BinaryData 属性
 
-返回音频数据的副本。如果数据量较大，考虑使用 [`GetStream`](../getstream) 方法以防止不必要的加载视频数据到内存中，甚至避免内存溢出异常。只读 Byte[]。
+返回音频数据的副本。如果数据量大，请考虑使用 [`GetStream`](../getstream) 方法，以防止将视频数据不必要地加载到内存中，甚至导致 OutOfMemoryException。只读 Byte[]。
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IVideo](../../ivideo)
 * 命名空间 [Aspose.Slides](../../ivideo)

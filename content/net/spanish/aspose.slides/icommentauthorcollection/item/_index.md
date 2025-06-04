@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Obtiene el elemento en el índice especificado. Solo lectura ICommentAuthoraspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /es/aspose.slides/icommentauthorcollection/item/
 ---
 
-## Indexador ICommentAuthorCollection
+## ICommentAuthorCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`ICommentAuthor`](../../icommentauthor).
 
@@ -15,11 +15,11 @@ Obtiene el elemento en el índice especificado. Solo lectura [`ICommentAuthor`](
 public ICommentAuthor this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ICommentAuthor](../../icommentauthor)
 * interfaz [ICommentAuthorCollection](../../icommentauthorcollection)
 * espacio de nombres [Aspose.Slides](../../icommentauthorcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

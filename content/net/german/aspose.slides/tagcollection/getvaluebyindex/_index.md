@@ -1,13 +1,13 @@
 ---
 title: GetValueByIndex
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Wert eines Tags am angegebenen Index zurück.
 type: docs
 weight: 120
 url: /de/aspose.slides/tagcollection/getvaluebyindex/
 ---
 
-## TagCollection.GetValueByIndex-Methode
+## TagCollection.GetValueByIndex Methode
 
 Gibt den Wert eines Tags am angegebenen Index zurück.
 
@@ -17,7 +17,7 @@ public string GetValueByIndex(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index eines Tags, der zurückgegeben werden soll. |
+| index | Int32 | Index eines zurückzugebenden Tags. |
 
 ### Rückgabewert
 

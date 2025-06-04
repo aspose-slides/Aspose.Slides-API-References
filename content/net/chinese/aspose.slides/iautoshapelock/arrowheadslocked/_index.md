@@ -1,6 +1,6 @@
 ---
 title: ArrowheadsLocked
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定是否禁止更改箭头。可读写布尔值。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iautoshapelock/arrowheadslocked/
 public bool ArrowheadsLocked { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAutoShapeLock](../../iautoshapelock)
 * 命名空间 [Aspose.Slides](../../iautoshapelock)

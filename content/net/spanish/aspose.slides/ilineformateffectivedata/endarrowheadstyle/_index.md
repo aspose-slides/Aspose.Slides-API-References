@@ -1,15 +1,15 @@
 ---
 title: EndArrowheadStyle
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el estilo de la punta de flecha al final de una línea. Solo lectura LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Slildes para .NET API Reference
+description: Devuelve el estilo de cabeza de flecha al final de una línea. Solo lectura LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 100
 url: /es/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
 ---
 
-## Propiedad ILineFormatEffectiveData.EndArrowheadStyle
+## ILineFormatEffectiveData.EndArrowheadStyle property
 
-Devuelve el estilo de la punta de flecha al final de una línea. Solo lectura [`LineArrowheadStyle`](../../linearrowheadstyle).
+Devuelve el estilo de cabeza de flecha al final de una línea. Solo lectura [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; }

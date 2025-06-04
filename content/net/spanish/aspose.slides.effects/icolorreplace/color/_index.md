@@ -1,13 +1,13 @@
 ---
 title: Color
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el formato de color que reemplazará el color de cada píxel. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/icolorreplace/color/
 ---
 
-## Propiedad IColorReplace.Color
+## IColorReplace.Color property
 
 Devuelve el formato de color que reemplazará el color de cada píxel. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,11 +15,11 @@ Devuelve el formato de color que reemplazará el color de cada píxel. Solo lect
 public IColorFormat Color { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * interfaz [IColorReplace](../../icolorreplace)
 * espacio de nombres [Aspose.Slides.Effects](../../icolorreplace)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

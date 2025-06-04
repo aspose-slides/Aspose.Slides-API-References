@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Y-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur Lesezugriff Single.
+second_title: Aspose.Slidese für .NET API Referenz
+description: Gibt die Y-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur lesbarer Single.
 type: docs
 weight: 100
 url: /de/aspose.slides/ishapeframe/y/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ishapeframe/y/
 
 ## IShapeFrame.Y-Eigenschaft
 
-Gibt die Y-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur Lesezugriff Single.
+Gibt die Y-Koordinate der oberen linken Ecke eines Rahmens zurück. Nur lesbarer Single.
 
 ```csharp
 public float Y { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IShapeFrame](../../ishapeframe)
 * Namespace [Aspose.Slides](../../ishapeframe)

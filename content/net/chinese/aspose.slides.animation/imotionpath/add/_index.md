@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 向路径添加新命令
 type: docs
 weight: 40
@@ -19,9 +19,9 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | type | MotionCommandPathType | 动画运动效果行为的命令类型 [`MotionCommandPathType`](../../motioncommandpathtype) |
-| pts | PointF[] | 点数组 PointF[] |
+| pts | PointF[] | Points 数组 PointF[] |
 | ptsType | MotionPathPointsType | 动画运动路径中的点类型 [`MotionPathPointsType`](../../motionpathpointstype) |
-| bRelativeCoord | 布尔值 | 指示是否使用相对坐标的布尔值 |
+| bRelativeCoord | Boolean | 指示是否使用相对坐标 Boolean |
 
 ### 返回值
 

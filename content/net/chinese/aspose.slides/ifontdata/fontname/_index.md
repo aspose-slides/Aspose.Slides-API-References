@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ifontdata/fontname/
 public string FontName { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 命名空间 [Aspose.Slides](../../ifontdata)

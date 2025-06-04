@@ -1,15 +1,15 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides для .NET API Справка
-description: Заменяет все совпадения регулярного выражения на указанную строку.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Заменяет все совпадения регулярного выражения на заданную строку.
 type: docs
 weight: 360
 url: /ru/aspose.slides/presentation/replaceregex/
 ---
 
-## Метод Presentation.ReplaceRegex
+## Presentation.ReplaceRegex метод
 
-Заменяет все совпадения регулярного выражения на указанную строку.
+Заменяет все совпадения регулярного выражения на заданную строку.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -18,25 +18,25 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | regex | Regex | Регулярное выражение Regex для получения строк для замены. |
-| newText | String | Строка, заменяющая все вхождения строк, подлежащих замене. |
+| newText | String | Строка, которая заменит все вхождения строк, подлежащих замене. |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий пример кода демонстрирует, как заменить текст с использованием регулярного выражения на указанную строку.
+Следующий фрагмент кода показывает, как заменить текст с использованием регулярного выражения на заданную строку.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// Заменить все слова длиной 10 или более символов на '***'
+	// Заменить все слова длиной 10 и более символов на '***'
 	presentation.ReplaceRegex(regex, "***", null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFindResultCallback](../../ifindresultcallback)
 * класс [Presentation](../../presentation)

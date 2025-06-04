@@ -1,7 +1,7 @@
 ---
 title: Limit
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Argument limite
+description: Argument de limite
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathlimit/limit/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathlimit/limit/
 
 ## Propriété IMathLimit.Limit
 
-Argument limite
+Argument de limite
 
 ```csharp
 public IMathElement Limit { get; }

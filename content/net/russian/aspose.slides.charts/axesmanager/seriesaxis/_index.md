@@ -1,13 +1,13 @@
 ---
 title: SeriesAxis
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает ось серии графиков. Только для чтения IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/axesmanager/seriesaxis/
 ---
 
-## Свойство AxesManager.SeriesAxis
+## AxesManager.SeriesAxis свойство
 
 Получает ось серии графика. Только для чтения [`IAxis`](../../iaxis).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/axesmanager/seriesaxis/
 public IAxis SeriesAxis { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IAxis](../../iaxis)
 * класс [AxesManager](../../axesmanager)

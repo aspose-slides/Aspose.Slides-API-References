@@ -1,6 +1,6 @@
 ---
 title: DpiX
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence d'API .NET
 description: Spécifie la résolution horizontale en points par pouce. Lecture/écriture UInt32.
 type: docs
 weight: 40

@@ -1,7 +1,7 @@
 ---
 title: IsPasswordProtected
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält einen Wert, der angibt, ob eine gebundene Präsentation durch ein Passwort zum Öffnen geschützt ist.
+description: Gibt einen Wert zurück, der angibt, ob eine gebundene Präsentation durch ein Passwort zum Öffnen geschützt ist.
 type: docs
 weight: 20
 url: /de/aspose.slides/presentationinfo/ispasswordprotected/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentationinfo/ispasswordprotected/
 
 ## PresentationInfo.IsPasswordProtected-Eigenschaft
 
-Erhält einen Wert, der angibt, ob eine gebundene Präsentation durch ein Passwort zum Öffnen geschützt ist.
+Gibt einen Wert zurück, der angibt, ob eine gebundene Präsentation durch ein Passwort zum Öffnen geschützt ist.
 
 ```csharp
 public bool IsPasswordProtected { get; }
@@ -26,7 +26,7 @@ if (info.IsPasswordProtected)
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationInfo](../../presentationinfo)
 * Namespace [Aspose.Slides](../../presentationinfo)

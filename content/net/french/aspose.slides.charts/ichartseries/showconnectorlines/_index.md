@@ -1,15 +1,15 @@
 ---
 title: ShowConnectorLines
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente des lignes de connexion. S'applique uniquement aux graphiques en cascade.
+description: Représente des lignes de connecteur. S'applique uniquement aux graphiques en cascade.
 type: docs
 weight: 370
 url: /fr/aspose.slides.charts/ichartseries/showconnectorlines/
 ---
 
-## Propriété IChartSeries.ShowConnectorLines
+## IChartSeries.ShowConnectorLines propriété
 
-Représente des lignes de connexion. S'applique uniquement aux graphiques en cascade.
+Représente des lignes de connecteur. S'applique uniquement aux graphiques en cascade.
 
 ```csharp
 public bool ShowConnectorLines { get; set; }

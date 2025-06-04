@@ -1,13 +1,13 @@
 ---
 title: PptY
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Представляет свойство ppt_y
 type: docs
 weight: 560
 url: /ru/aspose.slides.animation/behaviorproperty/ppty/
 ---
 
-## Свойство BehaviorProperty.PptY
+## BehaviorProperty.PptY свойство
 
 Представляет свойство 'ppt_y'
 

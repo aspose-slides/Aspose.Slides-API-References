@@ -1,7 +1,7 @@
 ---
 title: ActualWidth
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/iactuallayout/actualwidth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iactuallayout/actualwidth/
 
 ## IActualLayout.ActualWidth-Eigenschaft
 
-Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
+Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
 
 ```csharp
 public float ActualWidth { get; }

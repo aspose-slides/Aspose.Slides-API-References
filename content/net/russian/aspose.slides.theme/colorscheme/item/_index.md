@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes для справочника API .NET
+description: Получает элемент по указанному индексу. Только для чтения IColorFormat aspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /ru/aspose.slides.theme/colorscheme/item/

@@ -1,7 +1,7 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Slides für .NET API-Referenz
-description: Initialisiert eine neue Instanz der CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception-Klasse.
+description: Initialisiert eine neue Instanz der CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/
@@ -45,7 +45,7 @@ public CellInvalidReferenceException(string message)
 
 ## CellInvalidReferenceException(string, Exception) {#constructor_2}
 
-Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einer Referenz auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
+Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
 
 ```csharp
 public CellInvalidReferenceException(string message, Exception innerException)

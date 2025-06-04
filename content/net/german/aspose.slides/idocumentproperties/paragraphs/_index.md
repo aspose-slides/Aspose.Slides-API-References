@@ -1,7 +1,7 @@
 ---
 title: Paragraphs
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Gesamtanzahl der in einem Dokument gefundenen Absätze an, sofern zutreffend. Nur lesbarer Int32.
+description: Gibt die Gesamtzahl der Absätze an, die in einem Dokument gefunden wurden, sofern zutreffend. Nur-Lesen Int32.
 type: docs
 weight: 250
 url: /de/aspose.slides/idocumentproperties/paragraphs/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idocumentproperties/paragraphs/
 
 ## IDocumentProperties.Paragraphs-Eigenschaft
 
-Gibt die Gesamtanzahl der in einem Dokument gefundenen Absätze an, sofern zutreffend. Nur lesbarer Int32.
+Gibt die Gesamtzahl der Absätze an, die in einem Dokument gefunden wurden, sofern zutreffend. Nur-Lesen Int32.
 
 ```csharp
 public int Paragraphs { get; }

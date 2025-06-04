@@ -7,7 +7,7 @@ weight: 30
 url: /de/aspose.slides/fontsloader/loadexternalfont/
 ---
 
-## FontsLoader.LoadExternalFont Methode
+## FontsLoader.LoadExternalFont-Methode
 
 Fügt Schriftart aus den Binärdaten hinzu
 
@@ -17,7 +17,7 @@ public static void LoadExternalFont(byte[] data)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| data | Byte[] | Schriftartdaten |
+| data | Byte[] | Daten der Schriftart |
 
 ### Siehe auch
 

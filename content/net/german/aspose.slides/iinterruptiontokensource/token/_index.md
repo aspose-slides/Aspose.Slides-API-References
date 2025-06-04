@@ -1,7 +1,7 @@
 ---
 title: Token
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein neues Token zurück, das an dieses IInterruptionTokenSource gebunden ist.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt ein neues Token zurück, das an dieses IInterruptionTokenSourceaspose.slides/iinterruptiontokensource gebunden ist.
 type: docs
 weight: 20
 url: /de/aspose.slides/iinterruptiontokensource/token/
@@ -15,7 +15,7 @@ Gibt ein neues Token zurück, das an dieses [`IInterruptionTokenSource`](../../i
 public IInterruptionToken Token { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInterruptionToken](../../iinterruptiontoken)
 * Schnittstelle [IInterruptionTokenSource](../../iinterruptiontokensource)

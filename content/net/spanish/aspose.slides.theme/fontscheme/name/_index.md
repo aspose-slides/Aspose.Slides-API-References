@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el nombre del esquema de fuente. Cadena de lectura/escritura.
+description: Devuelve el nombre del esquema de fuente. Lectura/escritura String.
 type: docs
 weight: 30
 url: /es/aspose.slides.theme/fontscheme/name/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.theme/fontscheme/name/
 
 ## Propiedad FontScheme.Name
 
-Devuelve el nombre del esquema de fuente. Cadena de lectura/escritura.
+Devuelve el nombre del esquema de fuente. Lectura/escritura String.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Véase también
+### También vea
 
 * clase [FontScheme](../../fontscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../fontscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

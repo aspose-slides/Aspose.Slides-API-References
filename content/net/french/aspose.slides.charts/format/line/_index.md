@@ -1,13 +1,13 @@
 ---
 title: Line
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les propriétés de style de ligne d'un graphique. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/format/line/
 ---
 
-## Propriété Format.Line
+## Format.Line propriété
 
 Renvoie les propriétés de style de ligne d'un graphique. Lecture seule [`ILineFormat`](../../../aspose.slides/ilineformat).
 
@@ -18,7 +18,7 @@ public ILineFormat Line { get; }
 ### Voir Aussi
 
 * interface [ILineFormat](../../../aspose.slides/ilineformat)
-* classe [Format](../../format)
+* class [Format](../../format)
 * namespace [Aspose.Slides.Charts](../../format)
 * assembly [Aspose.Slides](../../../)
 

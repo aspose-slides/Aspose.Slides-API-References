@@ -1,6 +1,6 @@
 ---
 title: CommandString
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slidese for .NET API 参考
 description: 定义命令字符串。可读写字符串。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/commandeffect/commandstring/
 public string CommandString { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [CommandEffect](../../commandeffect)
 * namespace [Aspose.Slides.Animation](../../commandeffect)

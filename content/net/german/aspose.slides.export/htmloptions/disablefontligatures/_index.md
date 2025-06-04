@@ -1,15 +1,15 @@
 ---
 title: DisableFontLigatures
 second_title: Aspose.Sildes für .NET API Referenz
-description: Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
+description: Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/htmloptions/disablefontligatures/
 ---
 
-## HtmlOptions.DisableFontLigatures-Eigenschaft
+## HtmlOptions.DisableFontLigatures Eigenschaft
 
-Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [HtmlOptions](../../htmloptions)
 * Namespace [Aspose.Slides.Export](../../htmloptions)

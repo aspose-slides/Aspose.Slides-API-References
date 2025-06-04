@@ -1,15 +1,15 @@
 ---
 title: Spokes
-second_title: Aspose.Slides für .NET API-Referenz
-description: Anzahl der Speichen der Radübergänge. Lesen/Schreiben UInt32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Anzahl der Speichen der Radübergangs. Lesen/Schreiben UInt32.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/wheeltransition/spokes/
 ---
 
-## WheelTransition.Spokes-Eigenschaft
+## WheelTransition.Spokes Eigenschaft
 
-Anzahl der Speichen der Radübergänge. Lesen/Schreiben UInt32.
+Anzahl der Speichen der Radübergangs. Lesen/Schreiben UInt32.
 
 ```csharp
 public uint Spokes { get; set; }

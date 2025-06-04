@@ -15,7 +15,7 @@ url: /zh/aspose.slides/imasterslide/bodystyle/
 public ITextStyle BodyStyle { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ITextStyle](../../itextstyle)
 * 接口 [IMasterSlide](../../imasterslide)

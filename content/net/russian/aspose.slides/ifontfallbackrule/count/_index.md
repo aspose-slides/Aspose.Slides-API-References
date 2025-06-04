@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Получает количество шрифтов, фактически определённых для диапазона.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ifontfallbackrule/count/
 ---
 
-## Свойство IFontFallBackRule.Count
+## IFontFallBackRule.Count свойство
 
 Получает количество шрифтов, фактически определённых для диапазона.
 

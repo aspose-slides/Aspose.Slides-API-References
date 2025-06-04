@@ -1,7 +1,7 @@
 ---
 title: WriteDocumentStart
-second_title: Aspose.Slides для .NET API Справочник
-description: Вызывается для записи заголовка html документа. Вызывается один раз на каждое преобразование презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вызывается для записи заголовка html документа. Вызывается один раз при конвертации презентации.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
 
 ## EmbedAllFontsHtmlController.WriteDocumentStart метод
 
-Вызывается для записи заголовка html документа. Вызывается один раз на каждое преобразование презентации.
+Вызывается для записи заголовка html документа. Вызывается один раз при конвертации презентации.
 
 ```csharp
 public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
@@ -17,10 +17,10 @@ public virtual void WriteDocumentStart(IHtmlGenerator generator, IPresentation p
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| generator | IHtmlGenerator | Объект вывода. |
+| generator | IHtmlGenerator | Выходной объект. |
 | presentation | IPresentation | Презентация, которая в данный момент отображается. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IHtmlGenerator](../../ihtmlgenerator)
 * интерфейс [IPresentation](../../../aspose.slides/ipresentation)

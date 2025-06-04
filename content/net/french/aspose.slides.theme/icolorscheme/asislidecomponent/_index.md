@@ -1,6 +1,6 @@
 ---
 title: AsISlideComponent
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie l'interface ISlideComponent. Lecture seule ISlideComponent aspose.slides/islidecomponent.
 type: docs
 weight: 70

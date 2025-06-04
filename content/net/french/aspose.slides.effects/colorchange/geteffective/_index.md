@@ -1,21 +1,21 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides pour .NET Référence API
-description: Obtient les données effectives de l'effet de changement de couleur avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient les données effectives de l'effet Changement de couleur avec l'héritage appliqué.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/colorchange/geteffective/
 ---
 
-## Méthode ColorChange.GetEffective
+## ColorChange.GetEffective méthode
 
-Obtient les données effectives de l'effet de changement de couleur avec l'héritage appliqué.
+Obtient les données effectives de l'effet Changement de couleur avec l'héritage appliqué.
 
 ```csharp
 public IColorChangeEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`IColorChangeEffectiveData`](../../icolorchangeeffectivedata).
 

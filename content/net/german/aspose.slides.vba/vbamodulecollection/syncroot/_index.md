@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Synchronisierungs-Wurzelobjekt zurück. Nur-Lese-Objekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt einen Synchronisierungsstamm zurück. Nur-Lese-Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides.vba/vbamodulecollection/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/vbamodulecollection/syncroot/
 
 ## VbaModuleCollection.SyncRoot-Eigenschaft
 
-Gibt ein Synchronisierungs-Wurzelobjekt zurück. Nur-Lese-Objekt.
+Gibt einen Synchronisierungsstamm zurück. Nur-Lese-Objekt.
 
 ```csharp
 public object SyncRoot { get; }

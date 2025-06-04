@@ -1,15 +1,15 @@
 ---
 title: AsIImageTransformOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Permet d'obtenir l'interface de base IImageTransformOperation. IImageTransformOperation en lecture seule aspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation/
 ---
 
-## Propriété IAlphaModulateFixed.AsIImageTransformOperation
+## IAlphaModulateFixed.AsIImageTransformOperation propriété
 
-Permet d'obtenir l'interface de base IImageTransformOperation. [`IImageTransformOperation`](../../iimagetransformoperation) en lecture seule.
+Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

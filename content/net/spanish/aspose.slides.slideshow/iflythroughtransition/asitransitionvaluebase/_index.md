@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase/
 ---
 
-## Propiedad IFlyThroughTransition.AsITransitionValueBase
+## IFlyThroughTransition.AsITransitionValueBase propiedad
 
 Permite obtener la interfaz base ITransitionValueBase. Solo lectura [`ITransitionValueBase`](../../itransitionvaluebase).
 
@@ -15,11 +15,11 @@ Permite obtener la interfaz base ITransitionValueBase. Solo lectura [`ITransitio
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [ITransitionValueBase](../../itransitionvaluebase)
 * interfaz [IFlyThroughTransition](../../iflythroughtransition)
 * espacio de nombres [Aspose.Slides.SlideShow](../../iflythroughtransition)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

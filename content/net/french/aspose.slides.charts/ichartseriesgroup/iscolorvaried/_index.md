@@ -1,7 +1,7 @@
 ---
 title: IsColorVaried
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie que chaque marqueur de données dans la série a une couleur différente. Valeur booléenne en lecture/écriture.
+description: Spécifie que chaque marqueur de données dans la série a une couleur différente. Booléen en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/ichartseriesgroup/iscolorvaried/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartseriesgroup/iscolorvaried/
 
 ## Propriété IChartSeriesGroup.IsColorVaried
 
-Spécifie que chaque marqueur de données dans la série a une couleur différente. Valeur booléenne en lecture/écriture.
+Spécifie que chaque marqueur de données dans la série a une couleur différente. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsColorVaried { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeriesGroup](../../ichartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../ichartseriesgroup)

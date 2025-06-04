@@ -1,7 +1,7 @@
 ---
 title: ISoftEdge
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet de bord doux. Les bords de la forme sont flous, tandis que le remplissage n'est pas affecté.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un effet de contour flou. Les contours de la forme sont flous tandis que le remplissage n'est pas affecté.
 type: docs
 weight: 3400
 url: /fr/aspose.slides.effects/isoftedge/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/isoftedge/
 
 ## Interface ISoftEdge
 
-Représente un effet de bord doux. Les bords de la forme sont flous, tandis que le remplissage n'est pas affecté.
+Représente un effet de contour flou. Les contours de la forme sont flous, tandis que le remplissage n'est pas affecté.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -19,9 +19,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. En lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Spécifie le rayon de flou à appliquer aux bords. En lecture/écriture Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Spécifie le rayon de flou à appliquer aux contours. Lecture/écriture Double. |
 
 ### Voir aussi
 

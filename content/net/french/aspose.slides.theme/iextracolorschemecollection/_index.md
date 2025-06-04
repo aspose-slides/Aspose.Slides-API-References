@@ -1,6 +1,6 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection de schémas de couleurs supplémentaires.
 type: docs
 weight: 10910

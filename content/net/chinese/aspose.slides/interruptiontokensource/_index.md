@@ -1,15 +1,15 @@
 ---
 title: InterruptionTokenSource
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示中断令牌的源。/interruptiontoken。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示中断令牌的来源./interruptiontoken。
 type: docs
 weight: 7370
 url: /zh/aspose.slides/interruptiontokensource/
 ---
 
-## InterruptionTokenSource 类
+## InterruptionTokenSource class
 
-表示 [`InterruptionToken`](../interruptiontoken) 的源。
+表示[`InterruptionToken`](../interruptiontoken)的来源。
 
 ```csharp
 public class InterruptionTokenSource : IInterruptionTokenSource
@@ -19,14 +19,14 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | 名称 | 描述 |
 | --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | 创建一个新的 [`InterruptionTokenSource`](../interruptiontokensource)。 |
+| [InterruptionTokenSource](interruptiontokensource)() | 创建一个新的[`InterruptionTokenSource`](../interruptiontokensource)。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | 如果请求中断则返回true，否则返回false。 |
-| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | 返回绑定到此 [`InterruptionTokenSource`](../interruptiontokensource) 的新令牌。 |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | 如果请求了中断，则返回true，否则返回false。 |
+| [Token](../../aspose.slides/interruptiontokensource/token) { get; } | 返回绑定到此[`InterruptionTokenSource`](../interruptiontokensource)的新令牌。 |
 
 ## 方法
 
@@ -34,7 +34,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | 初始化中断请求。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IInterruptionTokenSource](../iinterruptiontokensource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

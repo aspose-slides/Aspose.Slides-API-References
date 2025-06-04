@@ -1,7 +1,7 @@
 ---
 title: HighlightClick
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si el hipervínculo debe ser destacado al hacer clic. Booleano de lectura/escritura.
+description: Determina si el hipervínculo debe ser resaltado al hacer clic. Booleano de lectura/escritura.
 type: docs
 weight: 140
 url: /es/aspose.slides/hyperlink/highlightclick/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/hyperlink/highlightclick/
 
 ## Propiedad Hyperlink.HighlightClick
 
-Determina si el hipervínculo debe ser destacado al hacer clic. Booleano de lectura/escritura.
+Determina si el hipervínculo debe ser resaltado al hacer clic. Booleano de lectura/escritura.
 
 ```csharp
 public bool HighlightClick { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Hyperlink](../../hyperlink)
 * espacio de nombres [Aspose.Slides](../../hyperlink)

@@ -1,24 +1,24 @@
 ---
 title: BlurRadius
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Radio de difuminado. Lectura/escritura Doble.
+description: Radio de desenfoque. Lectura/escritura Doble.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/ioutershadow/blurradius/
 ---
 
-## Propiedad IOuterShadow.BlurRadius
+## IOuterShadow.BlurRadius propiedad
 
-Radio de difuminado. Lectura/escritura Doble.
+Radio de desenfoque. Lectura/escritura Doble.
 
 ```csharp
 public double BlurRadius { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IOuterShadow](../../ioutershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../ioutershadow)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

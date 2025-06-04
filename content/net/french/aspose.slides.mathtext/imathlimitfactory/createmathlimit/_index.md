@@ -1,13 +1,13 @@
 ---
 title: CreateMathLimit
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Crée IMathLimit
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathlimitfactory/createmathlimit/
 ---
 
-## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
+## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
 
 Crée IMathLimit
 
@@ -35,9 +35,9 @@ nouvelle limite mathématique
 
 ---
 
-## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
+## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
-Crée IMathLimit avec la limite en bas
+Crée IMathLimit avec limite en bas
 
 ```csharp
 public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)

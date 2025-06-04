@@ -1,15 +1,15 @@
 ---
 title: Depth
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Tiefe einer 3D-Form zurück oder legt sie fest. Lese-/Schreib-Doppel.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Tiefe einer 3D-Form zurück oder setzt sie. Lese-/Schreib-Doppel.
 type: docs
 weight: 60
 url: /de/aspose.slides/threedformat/depth/
 ---
 
-## ThreeDFormat.Depth-Eigenschaft
+## ThreeDFormat.Depth Eigenschaft
 
-Gibt die Tiefe einer 3D-Form zurück oder legt sie fest. Lese-/Schreib-Doppel.
+Gibt die Tiefe einer 3D-Form zurück oder setzt sie. Lese-/Schreib-Doppel.
 
 ```csharp
 public double Depth { get; set; }

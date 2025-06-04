@@ -1,7 +1,7 @@
 ---
 title: PictureType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit le type d'image. Lecture/écriture PictureTypeaspose.slides.charts/picturetype.
+description: Renvoie ou définit le type d'image. Lecture/écriture PictureTypeaspose.slides.charts/picturetype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/chartwall/picturetype/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/chartwall/picturetype/
 
 ## Propriété ChartWall.PictureType
 
-Retourne ou définit le type d'image. Lecture/écriture [`PictureType`](../../picturetype).
+Renvoie ou définit le type d'image. Lecture/écriture [`PictureType`](../../picturetype).
 
 ```csharp
 public PictureType PictureType { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [PictureType](../../picturetype)
 * class [ChartWall](../../chartwall)

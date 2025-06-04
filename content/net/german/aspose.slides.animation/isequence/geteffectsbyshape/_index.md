@@ -7,7 +7,7 @@ weight: 90
 url: /de/aspose.slides.animation/isequence/geteffectsbyshape/
 ---
 
-## ISequence.GetEffectsByShape Methode
+## ISequence.GetEffectsByShape-Methode
 
 Gibt ein Array von Effekten für die angegebene Form zurück.
 

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkClick
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Hyperlink zurück oder setzt ihn, der für den Mausklick definiert ist. Lese-/Schreibe-IHyperlinkaspose.slides/ihyperlink.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den für den Mausklick definierten Hyperlink zurück oder legt ihn fest. Lese-/Schreibzugriff auf IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 110
 url: /de/aspose.slides/shape/hyperlinkclick/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/hyperlinkclick/
 
 ## Shape.HyperlinkClick-Eigenschaft
 
-Gibt den Hyperlink zurück oder setzt ihn, der für den Mausklick definiert ist. Lese-/Schreibe- [`IHyperlink`](../../ihyperlink).
+Gibt den für den Mausklick definierten Hyperlink zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }

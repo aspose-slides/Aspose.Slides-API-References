@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置在导出演示文稿时幻灯片放置在页面上的模式 ISlidesLayoutOptionsaspose.slides/islideslayoutoptions。此属性不支持分配类型为 Aspose.Slides.Export.HandoutLayoutingOptions 的对象
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置在导出演示文稿时幻灯片在页面上放置的模式 ISlidesLayoutOptionsaspose.slides/islideslayoutoptions。此属性不支持分配类型为 Aspose.Slides.Export.HandoutLayoutingOptions 的对象
 type: docs
 weight: 150
 url: /zh/aspose.slides.export/iswfoptions/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/iswfoptions/slideslayoutoptions/
 
 ## ISwfOptions.SlidesLayoutOptions 属性
 
-获取或设置在导出演示文稿时幻灯片放置在页面上的模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。此属性不支持分配类型为 `Aspose.Slides.Export.HandoutLayoutingOptions` 的对象
+获取或设置在导出演示文稿时幻灯片在页面上放置的模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。此属性不支持分配类型为 `Aspose.Slides.Export.HandoutLayoutingOptions` 的对象
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -17,7 +17,7 @@ public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

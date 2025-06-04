@@ -1,7 +1,7 @@
 ---
 title: SoundLoop
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Cet attribut spécifie si le son va boucler jusqu'à ce que le prochain événement sonore se produise dans le diaporama. Booléen en lecture-écriture.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Cet attribut spécifie si le son va boucler jusqu'à ce que le prochain événement sonore se produise dans la présentation. Booléen en lecture-écriture.
 type: docs
 weight: 60
 url: /fr/aspose.slides/islideshowtransition/soundloop/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islideshowtransition/soundloop/
 
 ## Propriété ISlideShowTransition.SoundLoop
 
-Cet attribut spécifie si le son va boucler jusqu'à ce que le prochain événement sonore se produise dans le diaporama. Booléen en lecture-écriture.
+Cet attribut spécifie si le son va boucler jusqu'à ce que le prochain événement sonore se produise dans la présentation. Booléen en lecture-écriture.
 
 ```csharp
 public bool SoundLoop { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: InsertClone
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une copie de la colonne de modèle spécifiée et l'insère à la position spécifiée dans un tableau.
+description: Crée une copie de la colonne de modèle spécifiée et l'insère à la position spécifiée dans une table.
 type: docs
 weight: 80
 url: /fr/aspose.slides/columncollection/insertclone/
 ---
 
-## Méthode ColumnCollection.InsertClone
+## ColumnCollection.InsertClone méthode
 
-Crée une copie de la colonne de modèle spécifiée et l'insère à la position spécifiée dans un tableau.
+Crée une copie de la colonne de modèle spécifiée et l'insère à la position spécifiée dans une table.
 
 ```csharp
 public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
@@ -19,7 +19,7 @@ public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 | --- | --- | --- |
 | index | Int32 | Index d'une nouvelle colonne. |
 | templ | IColumn | Colonne utilisée comme modèle. |
-| withAttachedColumns | Boolean | Vrai pour copier aussi toutes les colonnes attachées à la colonne de modèle. |
+| withAttachedColumns | Boolean | Vrai pour copier également toutes les colonnes attachées à la colonne modèle. |
 
 ### Valeur de retour
 

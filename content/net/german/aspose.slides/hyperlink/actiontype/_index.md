@@ -1,7 +1,7 @@
 ---
 title: ActionType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Aktionen von Hyperlinks zurück. Schreibgeschützter HyperlinkActionTypeaspose.slides/hyperlinkactiontype.
+description: Gibt den Typ der Hyperlink-Aktion zurück. Schreibgeschützter HyperlinkActionTypeaspose.slides/hyperlinkactiontype.
 type: docs
 weight: 100
 url: /de/aspose.slides/hyperlink/actiontype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/actiontype/
 
 ## Hyperlink.ActionType-Eigenschaft
 
-Gibt den Typ der Aktion eines Hyperlinks zurück. Schreibgeschützt [`HyperlinkActionType`](../../hyperlinkactiontype).
+Gibt den Typ der Aktion des Hyperlinks zurück. Schreibgeschützter [`HyperlinkActionType`](../../hyperlinkactiontype).
 
 ```csharp
 public HyperlinkActionType ActionType { get; }

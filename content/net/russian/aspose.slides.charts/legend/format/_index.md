@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает формат легенды. Только для чтения IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40

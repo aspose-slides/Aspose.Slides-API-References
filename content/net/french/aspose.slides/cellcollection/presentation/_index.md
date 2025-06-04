@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la présentation parente d'une CellCollection. Lecture seule IPresentationaspose.slides/ipresentation.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie la présentation parent d'une CellCollection. En lecture seule IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 40
 url: /fr/aspose.slides/cellcollection/presentation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/cellcollection/presentation/
 
 ## Propriété CellCollection.Presentation
 
-Renvoie la présentation parente d'une CellCollection. Lecture seule [`IPresentation`](../../ipresentation).
+Renvoie la présentation parent d'une CellCollection. En lecture seule [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

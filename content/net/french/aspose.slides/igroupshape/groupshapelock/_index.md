@@ -1,7 +1,7 @@
 ---
 title: GroupShapeLock
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les verrouillages des formes. Lecture seule IGroupShapeLockaspose.slides/igroupshapelock.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie les verrous des formes. Lecture seule IGroupShapeLockaspose.slides/igroupshapelock.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igroupshape/groupshapelock/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igroupshape/groupshapelock/
 
 ## Propriété IGroupShape.GroupShapeLock
 
-Renvoie les verrouillages de la forme. Lecture seule [`IGroupShapeLock`](../../igroupshapelock).
+Renvoie les verrous de la forme. Lecture seule [`IGroupShapeLock`](../../igroupshapelock).
 
 ```csharp
 public IGroupShapeLock GroupShapeLock { get; }

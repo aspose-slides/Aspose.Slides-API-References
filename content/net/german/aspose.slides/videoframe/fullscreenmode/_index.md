@@ -1,7 +1,7 @@
 ---
 title: FullScreenMode
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Schreib-/Lese-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/videoframe/fullscreenmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/videoframe/fullscreenmode/
 
 ## VideoFrame.FullScreenMode-Eigenschaft
 
-Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Lese-/Schreib-Boolean.
+Bestimmt, ob ein Video im Vollbildmodus angezeigt wird. Schreib-/Lese-Boolean.
 
 ```csharp
 public bool FullScreenMode { get; set; }

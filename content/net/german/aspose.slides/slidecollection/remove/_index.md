@@ -17,7 +17,7 @@ public void Remove(ISlide value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | ISlide | Die Folie, die aus der Sammlung entfernt werden soll. |
+| value | ISlide | Der Slide, der aus der Sammlung entfernt werden soll. |
 
 ### Siehe auch
 

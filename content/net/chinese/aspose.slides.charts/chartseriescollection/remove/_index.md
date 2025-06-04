@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 移除指定的值。
 type: docs
 weight: 110
@@ -23,9 +23,9 @@ public void Remove(IChartSeries value)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 找不到值参数在集合中。 |
+| ArgumentException | 在集合中找不到值参数。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IChartSeries](../../ichartseries)
 * 类 [ChartSeriesCollection](../../chartseriescollection)

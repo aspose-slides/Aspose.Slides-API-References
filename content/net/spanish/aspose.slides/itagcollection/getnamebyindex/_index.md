@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides/itagcollection/getnamebyindex/
 ---
 
-## Método ITagCollection.GetNameByIndex
+## ITagCollection.GetNameByIndex método
 
 Devuelve la clave de una etiqueta en el índice especificado.
 
@@ -17,7 +17,7 @@ public string GetNameByIndex(int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice de una etiqueta a devolver. |
+| index | Int32 | Índice de una etiqueta que se debe devolver. |
 
 ### Valor de Retorno
 
@@ -27,6 +27,6 @@ Clave de una etiqueta.
 
 * interfaz [ITagCollection](../../itagcollection)
 * espacio de nombres [Aspose.Slides](../../itagcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

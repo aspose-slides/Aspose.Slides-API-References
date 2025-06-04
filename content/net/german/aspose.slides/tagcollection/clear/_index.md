@@ -7,7 +7,7 @@ weight: 60
 url: /de/aspose.slides/tagcollection/clear/
 ---
 
-## TagCollection.Clear Methode
+## TagCollection.Clear-Methode
 
 Entfernt alle Tags aus der Sammlung.
 

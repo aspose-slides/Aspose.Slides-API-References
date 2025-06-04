@@ -1,15 +1,15 @@
 ---
 title: Slide
-second_title: Aspose.Sildes for .NET API 参考
-description: 代表演示文稿中的一张幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示演示文稿中的幻灯片。
 type: docs
 weight: 9650
 url: /zh/aspose.slides/slide/
 ---
 
-## 幻灯片类
+## Slide class
 
-代表演示文稿中的一张幻灯片。
+表示演示文稿中的幻灯片。
 
 ```csharp
 public sealed class Slide : BaseSlide, ISlide
@@ -22,18 +22,18 @@ public sealed class Slide : BaseSlide, ISlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | 返回幻灯片的背景。只读 [`IBackground`](../ibackground)。 |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | 返回幻灯片上的 ActiveX 控件集合。只读 [`IControlCollection`](../icontrolcollection)。 |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 返回幻灯片的自定义数据。只读 [`ICustomData`](../icustomdata)。 |
-| [HeaderFooterManager](../../aspose.slides/slide/headerfootermanager) { get; } | 返回幻灯片的页眉页脚管理器。只读 [`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
-| [Hidden](../../aspose.slides/slide/hidden) { get; set; } | 决定指定的幻灯片在幻灯片放映期间是否隐藏。读/写布尔值。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的便捷访问。只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [LayoutSlide](../../aspose.slides/slide/layoutslide) { get; set; } | 返回或设置当前幻灯片的布局幻灯片。读/写 [`ILayoutSlide`](../ilayoutslide)。 |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | 返回或设置幻灯片的名称。读/写字符串。 |
-| [NotesSlideManager](../../aspose.slides/slide/notesslidemanager) { get; } | 允许访问便签幻灯片，添加和删除便签幻灯片。只读 [`INotesSlideManager`](../inotesslidemanager)。 |
+| [HeaderFooterManager](../../aspose.slides/slide/headerfootermanager) { get; } | 返回幻灯片的页眉和页脚管理器。只读 [`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
+| [Hidden](../../aspose.slides/slide/hidden) { get; set; } | 确定指定的幻灯片在幻灯片放映期间是否隐藏。读写布尔值。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的简单访问。只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [LayoutSlide](../../aspose.slides/slide/layoutslide) { get; set; } | 返回或设置当前幻灯片的布局幻灯片。读写 [`ILayoutSlide`](../ilayoutslide)。 |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | 返回或设置幻灯片的名称。读写字符串。 |
+| [NotesSlideManager](../../aspose.slides/slide/notesslidemanager) { get; } | 允许访问备注幻灯片，添加和删除它。只读 [`INotesSlideManager`](../inotesslidemanager)。 |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 返回 IPresentation 接口。只读 [`IPresentation`](../ipresentation)。 |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 返回幻灯片的形状。只读 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/slide/showmastershapes) { get; set; } | 指定主幻灯片上的形状是否应显示在幻灯片上。读/写布尔值。 |
+| override [ShowMasterShapes](../../aspose.slides/slide/showmastershapes) { get; set; } | 指定是否在幻灯片上显示母版幻灯片的形状。读写布尔值。 |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 返回幻灯片的 ID。只读 UInt32。 |
-| [SlideNumber](../../aspose.slides/slide/slidenumber) { get; set; } | 返回幻灯片的编号。在 [`Slides`](../presentation/slides) 集合中的幻灯片索引始终等于 SlideNumber - Presentation.FirstSlideNumber。读/写 Int32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回 Transition 对象，其中包含有关指定幻灯片在幻灯片放映期间如何推进的信息。只读 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [SlideNumber](../../aspose.slides/slide/slidenumber) { get; set; } | 返回幻灯片的编号。幻灯片在 [`Slides`](../presentation/slides) 集合中的索引始终等于 SlideNumber - Presentation.FirstSlideNumber。读写 Int32。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回包含有关指定幻灯片在幻灯片放映期间如何推进的信息的过渡对象。只读 [`ISlideShowTransition`](../islideshowtransition)。 |
 | [ThemeManager](../../aspose.slides/slide/thememanager) { get; } | 返回覆盖的主题管理器。只读 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 返回动画时间线对象。只读 [`IAnimationTimeLine`](../ianimationtimeline)。 |
 
@@ -42,29 +42,29 @@ public sealed class Slide : BaseSlide, ISlide
 | 名称 | 描述 |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 返回此幻灯片的有效主题。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。返回值是基于幻灯片的结构和静态内容计算得出的。如果所有形状、样式、文本、动画及其他设置等都相等，则两个幻灯片相等。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 查找具有指定替代文本的形状的第一次出现。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage)() | 返回缩略图像对象（实际大小的 20%）。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_1)(IRenderingOptions) | 返回缩略图像对象。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_4)(ITiffOptions) | 返回具有指定参数的缩略图 TIFF 图像对象。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_6)(Size) | 返回具有指定大小的缩略图像对象。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_5)(float, float) | 返回具有自定义缩放的缩略图像对象。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_3)(IRenderingOptions, Size) | 返回具有指定大小的缩略图像对象。 |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_2)(IRenderingOptions, float, float) | 返回具有自定义缩放的缩略图像对象。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。返回值基于幻灯片的结构和静态内容计算。如果所有形状、样式、文本、动画和其他设置等都相等，则两个幻灯片相等。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 查找具有指定替代文本的形状的第一个实例。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage)() | 返回缩略图图像对象 (真实大小的 20%)。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_1)(IRenderingOptions) | 返回缩略图图像对象。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_4)(ITiffOptions) | 返回具有指定参数的缩略图 tiff 图像对象。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_6)(Size) | 返回具有指定大小的缩略图图像对象。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_5)(float, float) | 返回具有自定义缩放的缩略图图像对象。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_3)(IRenderingOptions, Size) | 返回具有指定大小的缩略图图像对象。 |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_2)(IRenderingOptions, float, float) | 返回具有自定义缩放的缩略图图像对象。 |
 | [GetSlideComments](../../aspose.slides/slide/getslidecomments)(ICommentAuthor) | 返回特定作者添加的所有幻灯片评论。 |
-| override [JoinPortionsWithSameFormatting](../../aspose.slides/slide/joinportionswithsameformatting#joinportionswithsameformatting)() | 在所有可接受的形状中的所有段落中连接具有相同格式的运行。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受的形状中的所有段落中连接具有相同格式的运行。 |
-| [Remove](../../aspose.slides/slide/remove)() | 从演示文稿中移除幻灯片。 |
-| [Reset](../../aspose.slides/slide/reset)() | 重置具有 LayoutSlide 原型的每个形状的位置、大小和格式。 |
+| override [JoinPortionsWithSameFormatting](../../aspose.slides/slide/joinportionswithsameformatting#joinportionswithsameformatting)() | 在所有可接受形状的所有段落中连接具有相同格式的运行。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受形状的所有段落中连接具有相同格式的运行。 |
+| [Remove](../../aspose.slides/slide/remove)() | 从演示文稿中删除幻灯片。 |
+| [Reset](../../aspose.slides/slide/reset)() | 重置每个在 LayoutSlide 上有原型的形状的位置、大小和格式。 |
 | [WriteAsEmf](../../aspose.slides/slide/writeasemf)(Stream) | 将幻灯片内容保存为 EMF 文件。 |
 | [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg)(Stream) | 将幻灯片内容保存为 SVG 文件。 |
 | [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | 将幻灯片内容保存为 SVG 文件。 |
 
-### 参见
+### 另见
 
-* 类 [BaseSlide](../baseslide)
-* 接口 [ISlide](../islide)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* class [BaseSlide](../baseslide)
+* interface [ISlide](../islide)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

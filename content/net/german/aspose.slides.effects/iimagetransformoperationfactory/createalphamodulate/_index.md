@@ -1,15 +1,15 @@
 ---
 title: CreateAlphaModulate
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt den Alpha-Modulations-Effekt.
+description: Erstellt Alpha-Modulations-Effekt.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate/
 ---
 
-## IImageTransformOperationFactory.CreateAlphaModulate-Methode
+## IImageTransformOperationFactory.CreateAlphaModulate Methode
 
-Erstellt den Alpha-Modulations-Effekt.
+Erstellt Alpha-Modulations-Effekt.
 
 ```csharp
 public IAlphaModulate CreateAlphaModulate()

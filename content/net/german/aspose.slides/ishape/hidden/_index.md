@@ -1,7 +1,7 @@
 ---
 title: Hidden
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Form versteckt ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob die Form verborgen ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 120
 url: /de/aspose.slides/ishape/hidden/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ishape/hidden/
 
 ## IShape.Hidden-Eigenschaft
 
-Bestimmt, ob die Form versteckt ist. Lese-/Schreib-Boolean.
+Bestimmt, ob die Form verborgen ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Hidden { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IShape](../../ishape)
 * Namespace [Aspose.Slides](../../ishape)

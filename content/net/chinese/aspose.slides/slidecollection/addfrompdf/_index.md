@@ -1,6 +1,6 @@
 ---
 title: AddFromPdf
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从PDF文档创建幻灯片并将其添加到集合的末尾。
 type: docs
 weight: 80
@@ -15,9 +15,9 @@ url: /zh/aspose.slides/slidecollection/addfrompdf/
 public ISlide[] AddFromPdf(string path)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| path | String | PDF文档的路径 |
+| 参数      | 类型     | 描述                        |
+| --------- | -------- | --------------------------- |
+| path      | String   | PDF文档的路径              |
 
 ### 返回值
 
@@ -25,7 +25,7 @@ public ISlide[] AddFromPdf(string path)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -47,16 +47,16 @@ using (Presentation pres = new Presentation())
 
 ## AddFromPdf(string, PdfImportOptions) {#addfrompdf_3}
 
-基于PDF导入选项，从PDF文档创建幻灯片并将其添加到集合的末尾。
+从PDF文档创建幻灯片并考虑PDF导入选项将其添加到集合的末尾。
 
 ```csharp
 public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| path | String | PDF文档的路径 |
-| pdfImportOptions | PdfImportOptions | PDF导入选项 |
+| 参数      | 类型     | 描述                        |
+| --------- | -------- | --------------------------- |
+| path      | String   | PDF文档的路径              |
+| pdfImportOptions | PdfImportOptions | PDF导入选项               |
 
 ### 返回值
 
@@ -64,7 +64,7 @@ public ISlide[] AddFromPdf(string path, PdfImportOptions pdfImportOptions)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -93,9 +93,9 @@ using (Presentation pres = new Presentation())
 public ISlide[] AddFromPdf(Stream pdfStream)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| pdfStream | Stream | 将用作PDF文档源的流 |
+| 参数      | 类型     | 描述                        |
+| --------- | -------- | --------------------------- |
+| pdfStream | Stream   | 将用作PDF文档源的流      |
 
 ### 返回值
 
@@ -103,7 +103,7 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -135,10 +135,10 @@ using (Presentation pres = new Presentation())
 public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| pdfStream | Stream | 将用作PDF文档源的流 |
-| pdfImportOptions | PdfImportOptions | PDF导入选项 |
+| 参数      | 类型     | 描述                        |
+| --------- | -------- | --------------------------- |
+| pdfStream | Stream   | 将用作PDF文档源的流      |
+| pdfImportOptions | PdfImportOptions | PDF导入选项               |
 
 ### 返回值
 
@@ -146,7 +146,7 @@ public ISlide[] AddFromPdf(Stream pdfStream, PdfImportOptions pdfImportOptions)
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,15 +1,15 @@
 ---
 title: TileOffsetX
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit le décalage horizontal de la texture par rapport à l'origine de la forme en points. Une valeur positive déplace la texture vers la droite, tandis qu'une valeur négative la déplace vers la gauche. Lecture/écriture Simple.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie ou définit le décalage horizontal de la texture par rapport à l'origine des formes en points. Une valeur positive déplace la texture vers la droite tandis qu'une valeur négative la déplace vers la gauche. Lecture/écriture Simple.
 type: docs
 weight: 140
 url: /fr/aspose.slides/picturefillformat/tileoffsetx/
 ---
 
-## Propriété PictureFillFormat.TileOffsetX
+## PictureFillFormat.TileOffsetX propriété
 
-Retourne ou définit le décalage horizontal de la texture par rapport à l'origine de la forme en points. Une valeur positive déplace la texture vers la droite, tandis qu'une valeur négative la déplace vers la gauche. Lecture/écriture Simple.
+Renvoie ou définit le décalage horizontal de la texture par rapport à l'origine de la forme en points. Une valeur positive déplace la texture vers la droite, tandis qu'une valeur négative la déplace vers la gauche. Lecture/écriture Simple.
 
 ```csharp
 public float TileOffsetX { get; set; }
@@ -26,7 +26,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Obtient le format de remplissage d'image de la forme
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Définit le mode de remplissage d'image sur Carreaux
+    // Définit le mode de remplissage d'image sur Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
     // Définit le décalage horizontal de la texture à 20 points

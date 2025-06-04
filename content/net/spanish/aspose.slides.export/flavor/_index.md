@@ -1,13 +1,13 @@
 ---
 title: Flavor
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Todas las especificaciones de markdown utilizadas en el programa.
 type: docs
 weight: 3630
 url: /es/aspose.slides.export/flavor/
 ---
 
-## Enumeración Sabor
+## Enumeración Flavor
 
 Todas las especificaciones de markdown utilizadas en el programa.
 
@@ -19,29 +19,29 @@ public enum Flavor
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Github | `0` | Sabor Github. |
-| Gruber | `1` | Sabor Gruber. |
-| MultiMarkdown | `2` | Sabor Multi markdown. |
-| CommonMark | `3` | Sabor Common mark. |
-| MarkdownExtra | `4` | Sabor Markdown extra. |
-| Pandoc | `5` | Sabor Pandoc. |
-| Kramdown | `6` | Sabor Kramdown. |
-| Markua | `7` | Sabor Markua. |
-| Maruku | `8` | Sabor Maruku. |
-| Markdown2 | `9` | Sabor Markdown2. |
-| Remarkable | `10` | Sabor Remarkable |
-| Showdown | `11` | Sabor Showdown. |
-| Ghost | `12` | Sabor Ghost. |
-| GitLab | `13` | Sabor Gitlab. |
-| Haroopad | `14` | Sabor Haroopad. |
-| IaWriter | `15` | Sabor IAWriter. |
-| Redcarpet | `16` | Sabor Redcarpet. |
-| ScholarlyMarkdown | `17` | Sabor Scholarly markdown. |
-| Taiga | `18` | Sabor Taiga. |
-| Trello | `19` | Sabor Trello. |
-| S9ETextFormatter | `20` | Sabor de formateador de texto S9E. |
-| XWiki | `21` | Sabor XWiki. |
-| StackOverflow | `22` | Sabor Stack overflow. |
+| Github | `0` | Sabor de Github. |
+| Gruber | `1` | Sabor de Gruber. |
+| MultiMarkdown | `2` | Sabor de Multi markdown. |
+| CommonMark | `3` | Sabor de Common mark. |
+| MarkdownExtra | `4` | Sabor de Markdown extra. |
+| Pandoc | `5` | Sabor de Pandoc. |
+| Kramdown | `6` | Sabor de Kramdown. |
+| Markua | `7` | Sabor de Markua. |
+| Maruku | `8` | Sabor de Maruku. |
+| Markdown2 | `9` | Sabor de Markdown2. |
+| Remarkable | `10` | Sabor de Remarkable. |
+| Showdown | `11` | Sabor de Showdown. |
+| Ghost | `12` | Sabor de Ghost. |
+| GitLab | `13` | Sabor de Gitlab. |
+| Haroopad | `14` | Sabor de Haroopad. |
+| IaWriter | `15` | Sabor de IAWriter. |
+| Redcarpet | `16` | Sabor de Redcarpet. |
+| ScholarlyMarkdown | `17` | Sabor de scholarly markdown. |
+| Taiga | `18` | Sabor de Taiga. |
+| Trello | `19` | Sabor de Trello. |
+| S9ETextFormatter | `20` | Sabor de S9E text formatter. |
+| XWiki | `21` | Sabor de XWiki. |
+| StackOverflow | `22` | Sabor de Stack overflow. |
 | Default | `23` | Sabor de markdown predeterminado. |
 
 ### Ejemplos

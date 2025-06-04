@@ -1,7 +1,7 @@
 ---
 title: FontItalic
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si la fuente es cursiva. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Determina si la fuente es cursiva. No se aplica herencia. Lectura/escritura NullableBool aspose.slides/nullablebool.
 type: docs
 weight: 90
 url: /es/aspose.slides/baseportionformat/fontitalic/
@@ -15,7 +15,7 @@ Determina si la fuente es cursiva. No se aplica herencia. Lectura/escritura [`Nu
 public NullableBool FontItalic { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

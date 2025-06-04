@@ -1,6 +1,6 @@
 ---
 title: LastRow
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean.
 type: docs
 weight: 80

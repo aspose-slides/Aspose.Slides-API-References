@@ -1,7 +1,7 @@
 ---
 title: HasDataTable
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob ein Diagramm eine Datentabelle hat. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob ein Diagramm eine Datentabelle hat. Schreib-/Lese-Booleans.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/chart/hasdatatable/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chart/hasdatatable/
 
 ## Chart.HasDataTable-Eigenschaft
 
-Bestimmt, ob ein Diagramm eine Datentabelle hat. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob ein Diagramm eine Datentabelle hat. Schreib-/Lese-Booleans.
 
 ```csharp
 public bool HasDataTable { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Chart](../../chart)
 * Namespace [Aspose.Slides.Charts](../../chart)

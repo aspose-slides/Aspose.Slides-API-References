@@ -1,6 +1,6 @@
 ---
 title: StrokeEndArrowWidth
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente la propriété stroke.endArrowWidth
 type: docs
 weight: 930
@@ -15,7 +15,7 @@ Représente la propriété 'stroke.endArrowWidth'
 public static BehaviorProperty StrokeEndArrowWidth { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

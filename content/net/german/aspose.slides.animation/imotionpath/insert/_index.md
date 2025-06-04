@@ -1,7 +1,7 @@
 ---
 title: Insert
-second_title: Aspose.Sildes für .NET API Referenz
-description: Fügen Sie einen neuen Befehl zum Pfad hinzu
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fügen Sie einen neuen Befehl zu einem Pfad hinzu
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/imotionpath/insert/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/imotionpath/insert/
 
 ## IMotionPath.Insert-Methode
 
-Fügen Sie einen neuen Befehl zum Pfad hinzu
+Fügen Sie einen neuen Befehl zu einem Pfad hinzu
 
 ```csharp
 public void Insert(int index, MotionCommandPathType type, PointF[] pts, 
@@ -18,13 +18,13 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index für die Befehlsinsertion Int32 |
-| type | MotionCommandPathType | Typ des Befehls für das Verhalten des Animationsbewegungseffekts [`MotionCommandPathType`](../../motioncommandpathtype) |
-| pts | PointF[] | Punkte-Array PointF[] |
-| ptsType | MotionPathPointsType | Typ der Punkte im Animationsbewegungspfad [`MotionPathPointsType`](../../motionpathpointstype) |
+| index | Int32 | Index für die Befehls Einfügung Int32 |
+| type | MotionCommandPathType | Art des Befehls für das Verhalten des Animationseffekts [`MotionCommandPathType`](../../motioncommandpathtype) |
+| pts | PointF[] | Punkte Array PointF[] |
+| ptsType | MotionPathPointsType | Art der Punkte im Animationsbewegungspfad [`MotionPathPointsType`](../../motionpathpointstype) |
 | bRelativeCoord | Boolean | Gibt an, ob relative Koordinaten verwendet werden sollen oder nicht Boolean |
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * enum [MotionPathPointsType](../../motionpathpointstype)

@@ -1,7 +1,7 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes для .NET API Справка
-description: Представляет собой коллекцию вкладок.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет коллекцию вкладок.
 type: docs
 weight: 6980
 url: /ru/aspose.slides/itabcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itabcollection/
 
 ## Интерфейс ITabCollection
 
-Представляет собой коллекцию вкладок.
+Представляет коллекцию вкладок.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -28,7 +28,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Добавляет вкладку в коллекцию. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Добавляет вкладку в коллекцию. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Удаляет все элементы из коллекции. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Удаляет элемент по указанному индексу из коллекции. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### См. также
 

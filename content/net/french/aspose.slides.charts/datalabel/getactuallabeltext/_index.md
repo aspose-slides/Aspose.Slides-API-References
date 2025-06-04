@@ -1,21 +1,21 @@
 ---
 title: GetActualLabelText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le texte d'étiquette réel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie le texte de l'étiquette réel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
 type: docs
 weight: 190
 url: /fr/aspose.slides.charts/datalabel/getactuallabeltext/
 ---
 
-## Méthode DataLabel.GetActualLabelText
+## DataLabel.GetActualLabelText méthode
 
-Renvoie le texte d'étiquette réel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
+Renvoie le texte de l'étiquette réel basé sur les paramètres de DataLabelFormat ou la valeur de TextFrameForOverriding.Text.
 
 ```csharp
 public string GetActualLabelText()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DataLabel](../../datalabel)
 * espace de noms [Aspose.Slides.Charts](../../datalabel)

@@ -1,15 +1,15 @@
 ---
 title: Hyperlink
-second_title: Référence API Aspose.Slides pour .NET
-description: Couleur des hyperliens. Couleur en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Couleur pour les hyperliens. Couleur en lecture seule.
 type: docs
 weight: 100
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 ---
 
-## Propriété IColorSchemeEffectiveData.Hyperlink
+## IColorSchemeEffectiveData.Hyperlink property
 
-Couleur des hyperliens. Couleur en lecture seule.
+Couleur pour les hyperliens. Couleur en lecture seule.
 
 ```csharp
 public Color Hyperlink { get; }

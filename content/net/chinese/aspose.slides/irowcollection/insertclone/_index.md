@@ -1,7 +1,7 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建指定模板行的副本，并将其插入到表中的指定位置。
+description: 创建指定模板行的副本并将其插入到表中指定的位置。
 type: docs
 weight: 30
 url: /zh/aspose.slides/irowcollection/insertclone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/irowcollection/insertclone/
 
 ## IRowCollection.InsertClone 方法
 
-创建指定模板行的副本，并将其插入到表中的指定位置。
+创建指定模板行的副本并将其插入到表中指定的位置。
 
 ```csharp
 public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
@@ -19,13 +19,13 @@ public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 | --- | --- | --- |
 | index | Int32 | 新行的索引。 |
 | templ | IRow | 用作模板的行。 |
-| withAttachedRows | Boolean | 如果为 True，则还会复制所有附加到模板行的行。 |
+| withAttachedRows | Boolean | 如果为真，则还复制所有附加到模板行的行。 |
 
 ### 返回值
 
 插入的行。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IRow](../../irow)
 * 接口 [IRowCollection](../../irowcollection)

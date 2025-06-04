@@ -1,15 +1,15 @@
 ---
 title: SetExternalHyperlinkMouseOver
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit le survol de lien hypertexte externe.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Définit le survol de l'hyperlien externe.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover/
 ---
 
-## Méthode IHyperlinkManager.SetExternalHyperlinkMouseOver
+## IHyperlinkManager.SetExternalHyperlinkMouseOver méthode
 
-Définit le survol de lien hypertexte externe.
+Définit le survol de l'hyperlien externe.
 
 ```csharp
 public IHyperlink SetExternalHyperlinkMouseOver(string url)
@@ -17,11 +17,11 @@ public IHyperlink SetExternalHyperlinkMouseOver(string url)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| url | String | URL du lien hypertexte. |
+| url | String | URL de l'hyperlien. |
 
 ### Valeur de retour
 
-Liaison hypertexte.
+Hyperlien.
 
 ### Voir aussi
 

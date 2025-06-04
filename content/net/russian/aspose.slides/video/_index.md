@@ -1,13 +1,13 @@
 ---
 title: Video
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Представляет изображение, встроенное в презентацию.
 type: docs
 weight: 11390
 url: /ru/aspose.slides/video/
 ---
 
-## Класс Video
+## Video class
 
 Представляет изображение, встроенное в презентацию.
 
@@ -17,18 +17,18 @@ public class Video : IVideo
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объема данных рекомендуется использовать метод [`GetStream`](./getstream), чтобы избежать ненужной загрузки данных видео в память или даже возникновения исключения OutOfMemoryException. Только для чтения Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Возвращает MIME-тип видео, закодированного в [`BinaryData`](./binarydata). Только для чтения String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Возвращает копию данных аудио. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](./getstream), чтобы предотвратить ненужную загрузку данных видео в память или даже OutOfMemoryException. Только для чтения Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Возвращает MIME тип видео, закодированного в [`BinaryData`](./binarydata). Только для чтения String. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [GetStream](../../aspose.slides/video/getstream)() | Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования. |
 
-### См. Также
+### Смотрите Также
 
 * интерфейс [IVideo](../ivideo)
 * пространство имен [Aspose.Slides](../../aspose.slides)

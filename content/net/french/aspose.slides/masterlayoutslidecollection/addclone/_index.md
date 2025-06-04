@@ -1,15 +1,15 @@
 ---
 title: AddClone
-second_title: Aspose.Slides pour la référence API .NET
-description: Ajoute une copie d'une diapositive de disposition spécifiée à la fin de la collection.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Ajoute une copie d'une diapositive de mise en page spécifiée à la fin de la collection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/masterlayoutslidecollection/addclone/
 ---
 
-## Méthode MasterLayoutSlideCollection.AddClone
+## MasterLayoutSlideCollection.AddClone méthode
 
-Ajoute une copie d'une diapositive de disposition spécifiée à la fin de la collection.
+Ajoute une copie d'une diapositive de mise en page spécifiée à la fin de la collection.
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
@@ -19,15 +19,15 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 | --- | --- | --- |
 | sourceLayout | ILayoutSlide | Diapositive à cloner. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Diapositive ajoutée.
 
 ### Remarques
 
-1) La nouvelle disposition sera liée à la diapositive maître parente pour cette collection de diapositives de disposition. Il s'agit donc d'un analogique de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint. 2) L'analogique de cette méthode est la méthode [`AddClone`](../../igloballayoutslidecollection/addclone) accessible avec la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
+1) La nouvelle mise en page sera liée à la diapositive maître parente pour cette collection de diapositives de mise en page. Donc, c'est l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint. 2) L'analogue de cette méthode est la méthode [`AddClone`](../../igloballayoutslidecollection/addclone) accessible avec la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILayoutSlide](../../ilayoutslide)
 * classe [MasterLayoutSlideCollection](../../masterlayoutslidecollection)

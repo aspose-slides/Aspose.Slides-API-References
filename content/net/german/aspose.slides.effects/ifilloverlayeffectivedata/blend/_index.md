@@ -1,7 +1,7 @@
 ---
 title: Blend
 second_title: Aspose.Slides für .NET API-Referenz
-description: FillBlendMode. Schreibgeschützter FillBlendModeaspose.slides/fillblendmode.
+description: FillBlendMode. Nur-Lese FillBlendMode aspose.slides/fillblendmode.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/ifilloverlayeffectivedata/blend/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ifilloverlayeffectivedata/blend/
 
 ## IFillOverlayEffectiveData.Blend-Eigenschaft
 
-FillBlendMode. Schreibgeschützter [`FillBlendMode`](../../../aspose.slides/fillblendmode).
+FillBlendMode. Nur-Lese [`FillBlendMode`](../../../aspose.slides/fillblendmode).
 
 ```csharp
 public FillBlendMode Blend { get; }

@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajoutez une règle FallBack spécifiée à la fin de la collection.
 type: docs
 weight: 60
@@ -25,7 +25,7 @@ public void Add(IFontFallBackRule sourceRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    //Récupération de la collection de règles vide ou préinitialisée depuis FontsManager
+    //Obtention de la collection de règles vide ou préinitialisée depuis FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     //Ajout d'une nouvelle règle à la collection
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontFallBackRule](../../ifontfallbackrule)
 * class [FontFallBackRulesCollection](../../fontfallbackrulescollection)

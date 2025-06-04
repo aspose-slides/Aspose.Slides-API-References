@@ -1,7 +1,7 @@
 ---
 title: CaseSensitive
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Establezca verdadero para usar búsqueda sensible a mayúsculas y minúsculas, falso - de lo contrario. Booleano de lectura/escritura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Establecer verdadero para usar búsqueda sensible a mayúsculas y minúsculas, falso - de lo contrario. Booleano de lectura/escritura.
 type: docs
 weight: 20
 url: /es/aspose.slides/textsearchoptions/casesensitive/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/textsearchoptions/casesensitive/
 
 ## Propiedad TextSearchOptions.CaseSensitive
 
-Establezca verdadero para usar búsqueda sensible a mayúsculas y minúsculas, falso - de lo contrario. Booleano de lectura/escritura.
+Establecer verdadero para usar búsqueda sensible a mayúsculas y minúsculas, falso - de lo contrario. Booleano de lectura/escritura.
 
 ```csharp
 public bool CaseSensitive { get; set; }

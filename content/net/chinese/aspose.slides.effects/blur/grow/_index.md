@@ -1,21 +1,21 @@
 ---
 title: Grow
-second_title: Aspose.Slides for .NET API 参考
-description: 确定对象的边界是否应因模糊而扩大。True 表示边界扩大，而 false 表示不扩大。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定对象的边界是否应该因模糊而扩展。True 表示边界被扩展，而 false 表示不扩展。读/写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/blur/grow/
 ---
 
-## Blur.Grow 属性
+## Blur.Grow property
 
-确定对象的边界是否应因模糊而扩大。True 表示边界扩大，而 false 表示不扩大。可读/可写布尔值。
+确定对象的边界是否应该因模糊而扩展。True 表示边界被扩展，而 false 表示不扩展。读/写布尔值。
 
 ```csharp
 public bool Grow { get; set; }
 ```
 
-### 参见
+### See Also
 
 * class [Blur](../../blur)
 * namespace [Aspose.Slides.Effects](../../blur)

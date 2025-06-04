@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForBarSeries
-second_title: Référence API Aspose.Sildes pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Column ou Bar, voir aussi ChartTypeCharacterizer.IsChartTypeColumnChartType et ChartTypeCharacterizer.IsChartTypeBarChartType méthode.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Column ou Bar, voir aussi ChartTypeCharacterizer.IsChartTypeColumnChartType et ChartTypeCharacterizer.IsChartTypeBarChartType méthode.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries
 
 ## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Column ou Bar (voir aussi ChartTypeCharacterizer.IsChartTypeColumn(ChartType) et ChartTypeCharacterizer.IsChartTypeBar(ChartType) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Column ou Bar (voir aussi ChartTypeCharacterizer.IsChartTypeColumn(ChartType) et ChartTypeCharacterizer.IsChartTypeBar(ChartType) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
@@ -19,11 +19,11 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Valeur du point de données |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Column ou Bar (voir aussi ChartTypeCharacterizer.IsChartTypeColumn(ChartType) et ChartTypeCharacterizer.IsChartTypeBar(ChartType) méthode).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Column ou Bar (voir aussi ChartTypeCharacterizer.IsChartTypeColumn(ChartType) et ChartTypeCharacterizer.IsChartTypeBar(ChartType) méthode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(double value)
@@ -45,11 +45,11 @@ public IChartDataPoint AddDataPointForBarSeries(double value)
 | --- | --- | --- |
 | value | Double | Valeur du point de données |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouveau point de données.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)

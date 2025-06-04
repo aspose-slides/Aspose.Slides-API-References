@@ -1,7 +1,7 @@
 ---
 title: TriggerType
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Describe el tipo de activador. Leer/escribir EffectTriggerTypeaspose.slides.animation/effecttriggertype.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Describe el tipo de activador. Lectura/escritura EffectTriggerTypeaspose.slides.animation/effecttriggertype.
 type: docs
 weight: 130
 url: /es/aspose.slides.animation/timing/triggertype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/timing/triggertype/
 
 ## Propiedad Timing.TriggerType
 
-Describe el tipo de activador. Leer/escribir [`EffectTriggerType`](../../effecttriggertype).
+Describe el tipo de activador. Lectura/escritura [`EffectTriggerType`](../../effecttriggertype).
 
 ```csharp
 public EffectTriggerType TriggerType { get; set; }

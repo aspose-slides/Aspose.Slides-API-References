@@ -1,7 +1,7 @@
 ---
 title: HasBorderVertical
-second_title: Aspose.Slides for .NET API 参考
-description: 如果图表数据表具有垂直单元格边框，则为 True。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果图表数据表具有垂直单元格边框，则为真。可读/可写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/datatable/hasbordervertical/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/datatable/hasbordervertical/
 
 ## DataTable.HasBorderVertical 属性
 
-如果图表数据表具有垂直单元格边框，则为 True。可读/写布尔值。
+如果图表数据表具有垂直单元格边框，则为真。可读/可写布尔值。
 
 ```csharp
 public bool HasBorderVertical { get; set; }
 ```
 
-### 参见
+### 另见
 
 * class [DataTable](../../datatable)
 * namespace [Aspose.Slides.Charts](../../datatable)

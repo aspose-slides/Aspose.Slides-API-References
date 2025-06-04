@@ -1,15 +1,15 @@
 ---
 title: CropTop
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le pourcentage de la hauteur réelle de l'image qui est coupé en haut de l'image. Lecture/écriture Simple.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Renvoie ou définit le nombre de pourcentages de la hauteur réelle de l'image qui sont rognés en haut de la photo. Lecture/écriture Simple.
 type: docs
 weight: 40
 url: /fr/aspose.slides/picturefillformat/croptop/
 ---
 
-## Propriété PictureFillFormat.CropTop
+## PictureFillFormat.CropTop property
 
-Renvoie ou définit le pourcentage de la hauteur réelle de l'image qui est coupé en haut de l'image. Lecture/écriture Simple.
+Renvoie ou définit le nombre de pourcentages de la hauteur réelle de l'image qui sont rognés en haut de la photo. Lecture/écriture Simple.
 
 ```csharp
 public float CropTop { get; set; }
@@ -17,7 +17,7 @@ public float CropTop { get; set; }
 
 ### Voir aussi
 
-* classe [PictureFillFormat](../../picturefillformat)
+* class [PictureFillFormat](../../picturefillformat)
 * namespace [Aspose.Slides](../../picturefillformat)
 * assembly [Aspose.Slides](../../../)
 

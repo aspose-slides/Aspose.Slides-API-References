@@ -15,10 +15,10 @@ Devuelve o establece la coordenada y de un título como una fracción de la altu
 public float Y { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [ChartTitle](../../charttitle)
 * espacio de nombres [Aspose.Slides.Charts](../../charttitle)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

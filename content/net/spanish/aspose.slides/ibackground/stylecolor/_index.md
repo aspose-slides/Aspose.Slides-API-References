@@ -1,25 +1,25 @@
 ---
 title: StyleColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un ColorFormat para un relleno de tipo BackgroundType.Themed. Solo lectura IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve un ColorFormat para un BackgroundType.Themed fill. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /es/aspose.slides/ibackground/stylecolor/
 ---
 
-## Propiedad IBackground.StyleColor
+## IBackground.StyleColor property
 
-Devuelve un ColorFormat para un relleno de tipo BackgroundType.Themed. Solo lectura [`IColorFormat`](../../icolorformat).
+Devuelve un ColorFormat para un BackgroundType.Themed fill. Solo lectura [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat StyleColor { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IColorFormat](../../icolorformat)
-* interfaz [IBackground](../../ibackground)
-* espacio de nombres [Aspose.Slides](../../ibackground)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IColorFormat](../../icolorformat)
+* interface [IBackground](../../ibackground)
+* namespace [Aspose.Slides](../../ibackground)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

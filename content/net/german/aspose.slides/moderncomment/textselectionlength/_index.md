@@ -1,7 +1,7 @@
 ---
 title: TextSelectionLength
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Länge der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit AutoShape verknüpft ist. Lese-/Schreibbarer Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht das Abrufen oder Festlegen der Textauswahl Länge im Textfeld, wenn der Kommentar mit AutoShape verbunden ist. Lese-/schreibbarer Int32.
 type: docs
 weight: 30
 url: /de/aspose.slides/moderncomment/textselectionlength/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/moderncomment/textselectionlength/
 
 ## ModernComment.TextSelectionLength-Eigenschaft
 
-Ruft die Länge der Textauswahl im Textfeld ab oder legt sie fest, wenn der Kommentar mit AutoShape verknüpft ist. Lese-/Schreibbarer Int32.
+Ermöglicht das Abrufen oder Festlegen der Textauswahl Länge im Textfeld, wenn der Kommentar mit AutoShape verbunden ist. Lese-/schreibbarer Int32.
 
 ```csharp
 public int TextSelectionLength { get; set; }

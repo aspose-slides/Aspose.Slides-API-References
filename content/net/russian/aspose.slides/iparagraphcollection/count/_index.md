@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iparagraphcollection/count/
 ---
 
-## Свойство IParagraphCollection.Count
+## IParagraphCollection.Count свойство
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 

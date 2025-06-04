@@ -1,7 +1,7 @@
 ---
 title: IsGrouped
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Form gruppiert ist. Nur-lesbare Boolesche Eigenschaft.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob die Form gruppiert ist. Nur lesbarer Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides/ishape/isgrouped/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/isgrouped/
 
 ## IShape.IsGrouped-Eigenschaft
 
-Bestimmt, ob die Form gruppiert ist. Nur-lesbare Boolesche Eigenschaft.
+Bestimmt, ob die Form gruppiert ist. Nur lesbarer Boolean.
 
 ```csharp
 public bool IsGrouped { get; }

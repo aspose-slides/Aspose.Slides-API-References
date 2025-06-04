@@ -1,13 +1,13 @@
 ---
 title: GetColumnAlignment
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Получить горизонтальное выравнивание указанного столбца
 type: docs
 weight: 140
 url: /ru/aspose.slides.mathtext/imathmatrix/getcolumnalignment/
 ---
 
-## Метод IMathMatrix.GetColumnAlignment
+## IMathMatrix.GetColumnAlignment метод
 
 Получить горизонтальное выравнивание указанного столбца
 
@@ -17,7 +17,7 @@ public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Индекс столбца с нулевым основанием |
+| columnIndex | Int32 | Индекс столбца с нулевой базой |
 
 ### Возвращаемое значение
 

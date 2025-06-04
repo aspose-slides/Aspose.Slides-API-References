@@ -1,7 +1,7 @@
 ---
 title: AsIPictureFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IPictureFrame 接口。只读 IPictureFrame aspose.slides/ipictureframe。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IPictureFrame 接口。只读 IPictureFrameaspose.slides/ipictureframe。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iaudioframe/asipictureframe/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iaudioframe/asipictureframe/
 public IPictureFrame AsIPictureFrame { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPictureFrame](../../ipictureframe)
 * 接口 [IAudioFrame](../../iaudioframe)

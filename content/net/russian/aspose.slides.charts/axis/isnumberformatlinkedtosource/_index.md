@@ -1,13 +1,13 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает, связано ли формат с исходными данными. Читаемое/записываемое логическое значение.
 type: docs
 weight: 270
 url: /ru/aspose.slides.charts/axis/isnumberformatlinkedtosource/
 ---
 
-## Свойство Axis.IsNumberFormatLinkedToSource
+## Axis.IsNumberFormatLinkedToSource свойство
 
 Указывает, связано ли формат с исходными данными. Читаемое/записываемое логическое значение.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/axis/isnumberformatlinkedtosource/
 public bool IsNumberFormatLinkedToSource { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

@@ -1,7 +1,7 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет ширину конуса стрелки.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет ширину наконечника стрелки.
 type: docs
 weight: 7510
 url: /ru/aspose.slides/linearrowheadwidth/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/linearrowheadwidth/
 
 ## Перечисление LineArrowheadWidth
 
-Представляет ширину конуса стрелки.
+Представляет ширину наконечника стрелки.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte
@@ -24,7 +24,7 @@ public enum LineArrowheadWidth : sbyte
 | Medium | `1` |  |
 | Wide | `2` |  |
 
-### Также см.
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

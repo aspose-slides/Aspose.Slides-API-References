@@ -1,15 +1,15 @@
 ---
 title: Transparency
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die Transparenz der Füllfarbe. Lesen Sie Einzelwert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält die Transparenz der Füllfarbe. Lesen Sie Single.
 type: docs
 weight: 20
 url: /de/aspose.slides/itableformateffectivedata/transparency/
 ---
 
-## ITableFormatEffectiveData.Transparenz-Eigenschaft
+## ITableFormatEffectiveData.Transparency-Eigenschaft
 
-Erhält die Transparenz der Füllfarbe. Lesen Sie Einzelwert.
+Erhält die Transparenz der Füllfarbe. Lesen Sie Single.
 
 ```csharp
 public float Transparency { get; }
@@ -17,7 +17,7 @@ public float Transparency { get; }
 
 ### Siehe auch
 
-* Schnittstelle [ITableFormatEffectiveData](../../itableformateffectivedata)
+* Interface [ITableFormatEffectiveData](../../itableformateffectivedata)
 * Namespace [Aspose.Slides](../../itableformateffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

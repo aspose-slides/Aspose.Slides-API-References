@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 type: docs
 weight: 80
@@ -17,18 +17,18 @@ public void CopyTo(IParagraph[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IParagraph[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь основание индексации равное нулю. |
-| arrayIndex | Int32 | Индекс на основе нуля в *array*, с которого начинается копирование. |
+| array | IParagraph[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь индексацию с нуля. |
+| arrayIndex | Int32 | Индекс с нуля в *array*, с которого начинается копирование. |
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
 | ArgumentNullException | *array* равно null. |
 | ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
 | ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
 
-### См. также
+### Также см.
 
 * интерфейс [IParagraph](../../iparagraph)
 * класс [ParagraphCollection](../../paragraphcollection)

@@ -1,7 +1,7 @@
 ---
 title: AsLiteralDouble
-second_title: Aspose.Slides for .NET API Reference
-description: 以字面值双精度返回或设置值。读/写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置值为字面双精度数。可读/可写双精度数。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/stringordoublechartvalue/asliteraldouble/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/stringordoublechartvalue/asliteraldouble/
 
 ## StringOrDoubleChartValue.AsLiteralDouble 属性
 
-以字面值双精度返回或设置值。读/写 Double。
+返回或设置值为字面双精度数。可读/可写双精度数。
 
 ```csharp
 public double AsLiteralDouble { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: GetCellCollection
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Obtient l'ensemble des cellules.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ichartdataworkbook/getcellcollection/
 ---
 
-## Méthode IChartDataWorkbook.GetCellCollection
+## IChartDataWorkbook.GetCellCollection méthode
 
 Obtient l'ensemble des cellules.
 
@@ -18,13 +18,13 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | formula | String | Formule Excel comme "Sheet1!$A$2:$A$5". |
-| skipHiddenCells | Boolean | Si vrai, la méthode renvoie la collection sans les cellules cachées. |
+| skipHiddenCells | Boolean | Si vrai, la méthode renvoie la collection sans cellules cachées. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Ensemble de cellules [`IChartCellCollection`](../../ichartcellcollection)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCellCollection](../../ichartcellcollection)
 * interface [IChartDataWorkbook](../../ichartdataworkbook)

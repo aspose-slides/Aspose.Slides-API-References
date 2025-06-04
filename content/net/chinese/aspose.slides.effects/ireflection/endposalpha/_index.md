@@ -1,7 +1,7 @@
 ---
 title: EndPosAlpha
 second_title: Aspose.Slides for .NET API Reference
-description: 指定结束 alpha 值（百分比）沿 alpha 渐变斜坡的结束位置。可读写单精度浮点数。
+description: 指定结束 alpha 值百分比的 alpha 渐变坡道的结束位置。可读写 Single。
 type: docs
 weight: 60
 url: /zh/aspose.slides.effects/ireflection/endposalpha/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/endposalpha/
 
 ## IReflection.EndPosAlpha 属性
 
-指定结束 alpha 值（百分比）沿 alpha 渐变斜坡的结束位置。可读写单精度浮点数。
+指定结束 alpha 值（百分比）的结束位置（沿 alpha 渐变坡道）。可读写 Single。
 
 ```csharp
 public float EndPosAlpha { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

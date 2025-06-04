@@ -1,7 +1,7 @@
 ---
 title: HorizontalAxis
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el eje horizontal de los gráficos. Solo lectura IAxisaspose.slides.charts/iaxis.
+description: Obtiene el eje horizontal del gráfico. Solo lectura IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/axesmanager/horizontalaxis/

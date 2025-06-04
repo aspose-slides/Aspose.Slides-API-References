@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справочника API .NET
 description: Вставить новую команду в путь
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/imotionpath/insert/
 ---
 
-## Метод IMotionPath.Insert
+## IMotionPath.Insert метод
 
 Вставить новую команду в путь
 
@@ -19,12 +19,12 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Индекс для вставки команды Int32 |
-| type | MotionCommandPathType | Тип команды для поведения анимационного эффекта движения [`MotionCommandPathType`](../../motioncommandpathtype) |
+| type | MotionCommandPathType | Тип команды для поведения анимационного эффекта [`MotionCommandPathType`](../../motioncommandpathtype) |
 | pts | PointF[] | Массив точек PointF[] |
-| ptsType | MotionPathPointsType | Тип точек в анимационном пути движения [`MotionPathPointsType`](../../motionpathpointstype) |
-| bRelativeCoord | Boolean | Указывает, использовать ли относительные координаты или нет Boolean |
+| ptsType | MotionPathPointsType | Тип точек в анимационном пути [`MotionPathPointsType`](../../motionpathpointstype) |
+| bRelativeCoord | Boolean | Указывает, следует ли использовать относительные координаты или нет Boolean |
 
-### См. также
+### Также см.
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * enum [MotionPathPointsType](../../motionpathpointstype)

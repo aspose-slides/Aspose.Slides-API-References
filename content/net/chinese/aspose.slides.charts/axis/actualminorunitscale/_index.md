@@ -1,7 +1,7 @@
 ---
 title: ActualMinorUnitScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定坐标轴的实际次单位比例。请先调用方法 IChart.ValidateChartLayout 获取实际值。
+description: 指定轴的实际次要单位刻度。首先调用方法 IChart.ValidateChartLayout 获取实际值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/axis/actualminorunitscale/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/actualminorunitscale/
 
 ## Axis.ActualMinorUnitScale 属性
 
-指定坐标轴的实际次单位比例。请先调用方法 IChart.ValidateChartLayout() 获取实际值。
+指定轴的实际次要单位刻度。首先调用方法 IChart.ValidateChartLayout() 获取实际值。
 
 ```csharp
 public TimeUnitType ActualMinorUnitScale { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * enum [TimeUnitType](../../timeunittype)
 * class [Axis](../../axis)

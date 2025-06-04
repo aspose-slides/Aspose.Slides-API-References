@@ -1,6 +1,6 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса CellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception.
 type: docs
 weight: 10
@@ -66,7 +66,7 @@ public CellCircularReferenceException(string message, Exception innerException)
 
 ## CellCircularReferenceException(string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке и циклической ссылкой на ячейку.
+Инициализирует новый экземпляр класса [`CellCircularReferenceException`](../../cellcircularreferenceexception) с указанным сообщением об ошибке и круговой ссылкой на ячейку.
 
 ```csharp
 public CellCircularReferenceException(string message, string reference)
@@ -75,7 +75,7 @@ public CellCircularReferenceException(string message, string reference)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
-| reference | String | Циклическая ссылка на ячейку. |
+| reference | String | Круговая ссылка на ячейку. |
 
 ### См. Также
 

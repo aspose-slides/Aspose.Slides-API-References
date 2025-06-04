@@ -1,6 +1,6 @@
 ---
 title: INotesSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente une diapositive de notes dans une présentation.
 type: docs
 weight: 6300
@@ -19,11 +19,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Renvoie l'interface IOverrideThemeable. Lecture seule [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Renvoie le gestionnaire de HeaderFooter de la diapositive de notes. Lecture seule [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Renvoie un TextFrame avec le texte des notes s'il y en a un. Lecture seule [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Renvoie un ParentSlide Lecture seule [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. En lecture seule [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Renvoie l'interface IOverrideThemeable. En lecture seule [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Renvoie le gestionnaire d'en-têtes et de pieds de page de la diapositive de notes. En lecture seule [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Renvoie un TextFrame avec le texte des notes s'il y en a un. En lecture seule [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Renvoie une ParentSlide En lecture seule [`ISlide`](../islide). |
 
 ### Voir aussi
 

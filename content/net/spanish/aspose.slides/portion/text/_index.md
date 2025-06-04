@@ -1,7 +1,7 @@
 ---
 title: Text
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Obtiene o establece el texto plano de una porción. Lectura/escritura String.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene o establece el texto sin formato de una porción. Lectura/escritura String.
 type: docs
 weight: 40
 url: /es/aspose.slides/portion/text/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/portion/text/
 
 ## Propiedad Portion.Text
 
-Obtiene o establece el texto plano de una porción. Lectura/escritura String.
+Obtiene o establece el texto sin formato de una porción. Lectura/escritura String.
 
 ```csharp
 public string Text { get; set; }
@@ -19,7 +19,7 @@ public string Text { get; set; }
 
 El texto.
 
-### Ver También
+### Véase también
 
 * clase [Portion](../../portion)
 * espacio de nombres [Aspose.Slides](../../portion)

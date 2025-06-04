@@ -1,7 +1,7 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Joint des portions avec la même mise en forme dans tous les paragraphes.
+second_title: Référence API Aspose.Slides pour .NET
+description: Combine les runs ayant la même mise en forme dans tous les paragraphes.
 type: docs
 weight: 110
 url: /fr/aspose.slides/textframe/joinportionswithsameformatting/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/textframe/joinportionswithsameformatting/
 
 ## Méthode TextFrame.JoinPortionsWithSameFormatting
 
-Joint des portions avec la même mise en forme dans tous les paragraphes.
+Combine les runs ayant la même mise en forme dans tous les paragraphes.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [TextFrame](../../textframe)
 * espace de noms [Aspose.Slides](../../textframe)

@@ -1,7 +1,7 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Référence API Aspose.Slides pour .NET
-description: Contrôle la génération de formes SVG et de texte.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Contrôle la génération de formes et de texte SVG.
 type: docs
 weight: 3950
 url: /fr/aspose.slides.export/isvgshapeandtextformattingcontroller/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/isvgshapeandtextformattingcontroller/
 
 ## Interface ISvgShapeAndTextFormattingController
 
-Contrôle la génération de formes SVG et de texte.
+Contrôle la génération de formes et de texte SVG.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -29,7 +29,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

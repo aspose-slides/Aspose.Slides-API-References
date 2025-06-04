@@ -1,15 +1,15 @@
 ---
 title: AsIBasePortionFormat
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Retourne l'interface IBasePortionFormat.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie l'interface IBasePortionFormat.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartportionformat/asibaseportionformat/
 ---
 
-## Propriété IChartPortionFormat.AsIBasePortionFormat
+## IChartPortionFormat.AsIBasePortionFormat propriété
 
-Retourne l'interface IBasePortionFormat.
+Renvoie l'interface IBasePortionFormat.
 
 ```csharp
 public IBasePortionFormat AsIBasePortionFormat { get; }
@@ -19,7 +19,7 @@ public IBasePortionFormat AsIBasePortionFormat { get; }
 
 Pour la compatibilité COM.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormat](../../../aspose.slides/ibaseportionformat)
 * interface [IChartPortionFormat](../../ichartportionformat)

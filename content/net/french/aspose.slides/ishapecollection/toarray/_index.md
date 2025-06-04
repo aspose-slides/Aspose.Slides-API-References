@@ -1,6 +1,6 @@
 ---
 title: ToArray
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée et renvoie un tableau contenant toutes les formes.
 type: docs
 weight: 400

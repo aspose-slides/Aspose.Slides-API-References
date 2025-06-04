@@ -1,7 +1,7 @@
 ---
 title: VerticalAxis
-second_title: Aspose.Slides for .NET API 参考
-description: 获取图表的垂直轴。只读 IAxisaspose.slides.charts/iaxis。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取图表的纵轴。只读 IAxisaspose.slides.charts/iaxis。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/iaxesmanager/verticalaxis/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxesmanager/verticalaxis/
 
 ## IAxesManager.VerticalAxis 属性
 
-获取图表的垂直轴。只读 [`IAxis`](../../iaxis)。
+获取图表的纵轴。只读 [`IAxis`](../../iaxis)。
 
 ```csharp
 public IAxis VerticalAxis { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IAxis](../../iaxis)
 * 接口 [IAxesManager](../../iaxesmanager)

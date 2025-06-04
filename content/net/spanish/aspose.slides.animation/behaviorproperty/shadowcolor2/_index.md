@@ -1,6 +1,6 @@
 ---
 title: ShadowColor2
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Representa la propiedad shadow.color2
 type: docs
 weight: 610
@@ -15,10 +15,10 @@ Representa la propiedad 'shadow.color2'
 public static BehaviorProperty ShadowColor2 { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
-* namespace [Aspose.Slides.Animation](../../behaviorproperty)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

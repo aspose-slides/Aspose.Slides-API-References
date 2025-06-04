@@ -1,7 +1,7 @@
 ---
 title: Group
-second_title: Aspose.Slides für .NET API-Referenz
-description: Platziert dieses Element in einer Gruppe unter Verwendung einer unteren geschweiften Klammer
+second_title: Aspose.Slides für .NET API Referenz
+description: Platziert dieses Element in einer Gruppe mit einer unteren geschweiften Klammer
 type: docs
 weight: 70
 url: /de/aspose.slides.mathtext/imathelement/group/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathelement/group/
 
 ## Group() {#group}
 
-Platziert dieses Element in einer Gruppe unter Verwendung einer unteren geschweiften Klammer
+Platziert dieses Element in einer Gruppe mit einer unteren geschweiften Klammer
 
 ```csharp
 public IMathGroupingCharacter Group()
@@ -17,7 +17,7 @@ public IMathGroupingCharacter Group()
 
 ### Rückgabewert
 
-Neue Instanz des Typs [`IMathGroupingCharacter`](../../imathgroupingcharacter)
+Neue Instanz vom Typ [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### Beispiele
 
@@ -39,7 +39,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
-Platziert dieses Element in einer Gruppe unter Verwendung eines Gruppierungszeichens wie einer unteren geschweiften Klammer oder einem anderen
+Platziert dieses Element in einer Gruppe mit einem Gruppierungszeichen wie einer unteren geschweiften Klammer oder einem anderen
 
 ```csharp
 public IMathGroupingCharacter Group(char character, MathTopBotPositions position, 
@@ -50,11 +50,11 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 | --- | --- | --- |
 | character | Char | Gruppierungszeichen wie UNTERE GESCHWEIFTE KLAMMER (U+23DF) oder ein anderes |
 | position | MathTopBotPositions | Position des Gruppierungszeichens |
-| verticalJustification | MathTopBotPositions | Vertikale Ausrichtung des Gruppierungszeichens. Gibt die Ausrichtung des Objekts in Bezug auf die Grundlinie an. Wenn das Gruppierungszeichen über dem Objekt steht, bedeutet VerticalJustification von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn VerticalJustification auf Unten eingestellt ist, liegt die Unterseite des Objekts auf der Grundlinie |
+| verticalJustification | MathTopBotPositions | Vertikale Ausrichtung des Gruppenzeichens. Gibt die Ausrichtung des Objekts in Bezug auf die Basislinie an. Zum Beispiel, wenn das Gruppenzeichen über dem Objekt ist, bedeutet VerticalJustification von Top, dass die Oberkante des Objekts auf der Basislinie liegt; wenn VerticalJustification auf Bottom gesetzt ist, liegt die Unterkante des Objekts auf der Basislinie |
 
 ### Rückgabewert
 
-Neue Instanz des Typs [`IMathGroupingCharacter`](../../imathgroupingcharacter)
+Neue Instanz vom Typ [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### Beispiele
 

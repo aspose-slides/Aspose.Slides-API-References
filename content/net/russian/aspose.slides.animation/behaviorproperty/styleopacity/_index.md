@@ -1,13 +1,13 @@
 ---
 title: StyleOpacity
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство style.opacity
 type: docs
 weight: 1100
 url: /ru/aspose.slides.animation/behaviorproperty/styleopacity/
 ---
 
-## Свойство BehaviorProperty.StyleOpacity
+## BehaviorProperty.StyleOpacity свойство
 
 Представляет свойство 'style.opacity'
 

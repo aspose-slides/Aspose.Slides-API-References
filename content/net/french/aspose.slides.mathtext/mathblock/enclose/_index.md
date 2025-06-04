@@ -1,6 +1,6 @@
 ---
 title: Enclose
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Enclut les éléments enfants de ce bloc dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
 type: docs
 weight: 100
@@ -17,16 +17,16 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | Char | Caractère de début (généralement une parenthèse gauche) |
-| endingCharacter | Char | Caractère de fin (généralement une parenthèse droite) |
+| beginningCharacter | Char | Caractère de début (généralement crochet gauche) |
+| endingCharacter | Char | Caractère de fin (généralement crochet droit) |
 
-### Valeur de retour
+### Valeur de Retour
 
-L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut des caractères spécifiés comme encadrement
+L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut les caractères spécifiés comme encadrement
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ IMathBlock block = new MathematicalText("x").Join("+y");
 IMathDelimiter delimiter = block.Enclose('[', ']');
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * class [MathBlock](../../mathblock)
@@ -54,17 +54,17 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | Char | Caractère de début (généralement une parenthèse gauche) |
-| endingCharacter | Char | Caractère de fin (généralement une parenthèse droite) |
+| beginningCharacter | Char | Caractère de début (généralement crochet gauche) |
+| endingCharacter | Char | Caractère de fin (généralement crochet droit) |
 | separatorCharacter | Char | Caractère séparateur |
 
-### Valeur de retour
+### Valeur de Retour
 
-L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut des caractères spécifiés comme encadrement et délimiteur
+L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut les caractères spécifiés comme encadrement et délimiteur
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -72,7 +72,7 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Enclose('{', '}', '%');
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * class [MathBlock](../../mathblock)

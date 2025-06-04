@@ -1,15 +1,15 @@
 ---
 title: DimensionSize
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la taille de la région de diapositive largeur lorsqu'elle est enfant de RestoredTop, hauteur lorsqu'elle est enfant de RestoredLeft. Lecture/écriture Single. Lève une exception lorsque la valeur est inférieure à 0 ou supérieure à 100.
+description: Spécifie la taille de la largeur de la région de la diapositive lorsqu'un enfant de RestoredTop, hauteur lorsqu'un enfant de RestoredLeft. Lecture/écriture Simple. Provoque une exception lorsque la valeur est inférieure à 0 ou supérieure à 100.
 type: docs
 weight: 20
 url: /fr/aspose.slides/inormalviewrestoredproperties/dimensionsize/
 ---
 
-## Propriété INormalViewRestoredProperties.DimensionSize
+## INormalViewRestoredProperties.DimensionSize property
 
-Spécifie la taille de la région de diapositive (largeur lorsqu'elle est enfant de RestoredTop, hauteur lorsqu'elle est enfant de RestoredLeft). Lecture/écriture Single. Lève une exception lorsque la valeur est inférieure à 0 ou supérieure à 100.
+Spécifie la taille de la région de la diapositive (largeur lorsqu'un enfant de RestoredTop, hauteur lorsqu'un enfant de RestoredLeft). Lecture/écriture Simple. Provoque une exception lorsque la valeur est inférieure à 0 ou supérieure à 100.
 
 ```csharp
 public float DimensionSize { get; set; }

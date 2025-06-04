@@ -20,8 +20,8 @@ public interface IXamlOptions : ISaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../../aspose.slides.export/isaveoptions)。 |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | 决定是否导出隐藏的幻灯片。 |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | 表示 IOutputSaver 接口的实现。 |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | 决定是否导出隐藏幻灯片。 |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | 代表 IOutputSaver 接口的实现。 |
 
 ### 示例
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * 命名空间 [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)

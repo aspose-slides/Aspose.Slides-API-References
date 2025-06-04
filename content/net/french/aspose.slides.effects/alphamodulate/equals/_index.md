@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si l'AlphaModulateaspose.slides.effects/alphamodulate spécifié est égal à l'AlphaModulateaspose.slides.effects/alphamodulate actuel.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/alphamodulate/equals/
 
 ## Méthode AlphaModulate.Equals
 
-Détermine si l'[`AlphaModulate`](../../alphamodulate) spécifié est égal à l'[`AlphaModulate`](../../alphamodulate) actuel.
+Détermine si l'[`AlphaModulate`](../../alphamodulate) spécifié est égal à l[`AlphaModulate`](../../alphamodulate) actuel.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | L'[`AlphaModulate`](../../alphamodulate) à comparer. |
+| obj | Object | L[`AlphaModulate`](../../alphamodulate) à comparer. |
 
 ### Valeur de retour
 

@@ -1,7 +1,7 @@
 ---
 title: IParagraphCollection
-second_title: Aspose.Slides for .NET API Reference
-description: 表示段落集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一组段落的集合。
 type: docs
 weight: 6370
 url: /zh/aspose.slides/iparagraphcollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphcollection/
 
 ## IParagraphCollection 接口
 
-表示段落集合。
+表示一组段落的集合。
 
 ```csharp
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
@@ -29,17 +29,17 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | 将一个段落添加到集合的末尾。 |
-| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | 将一个 ParagraphCollection 的内容添加到集合的末尾。 |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | 从指定的 HTML 字符串向集合中添加文本。 |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | 从指定的 HTML 字符串向集合中添加文本。 |
+| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | 将一个段落集合的内容添加到集合的末尾。 |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | 从指定的 HTML 字符串向集合添加文本。 |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | 从指定的 HTML 字符串向集合添加文本。 |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | 从集合中移除所有元素。 |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | 将指定的段落转换为 HTML 并以字符串对象返回。 |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | 在指定索引处向集合中插入一个段落。 |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | 在指定索引处将 ParagraphCollection 的内容插入到集合中。 |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | 将指定的段落转换为 HTML，并作为字符串对象返回。 |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | 在指定索引处将一个段落插入到集合中。 |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | 在指定索引处将一个段落集合的内容插入到集合中。 |
 | [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | 移除特定段落的第一次出现。 |
 | [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
-### 参见
+### 另见
 
 * 接口 [IParagraph](../iparagraph)
 * 接口 [ISlideComponent](../islidecomponent)

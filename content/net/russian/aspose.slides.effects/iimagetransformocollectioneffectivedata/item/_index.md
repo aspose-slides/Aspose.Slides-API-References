@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает элемент по индексу.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IEffectEffectiveData this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Также смотри
+### См. также
 
 * интерфейс [IEffectEffectiveData](../../ieffecteffectivedata)
 * интерфейс [IImageTransformOCollectionEffectiveData](../../iimagetransformocollectioneffectivedata)

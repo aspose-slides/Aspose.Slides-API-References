@@ -1,7 +1,7 @@
 ---
 title: AddText
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoute du texte brut aux fichiers html en remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces blancs ne sont pas remplacés.
+second_title: Aspose.Slides pour .NET API Reference
+description: Ajoute du texte brut aux fichiers html en remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
 type: docs
 weight: 90
 url: /fr/aspose.slides.export/ihtmlgenerator/addtext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtmlgenerator/addtext/
 
 ## AddText(string) {#addtext_2}
 
-Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces blancs ne sont pas remplacés.
+Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
 
 ```csharp
 public void AddText(string text)
@@ -19,7 +19,7 @@ public void AddText(string text)
 | --- | --- | --- |
 | text | String | Texte à ajouter. |
 
-### Voir également
+### Voir Aussi
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * namespace [Aspose.Slides.Export](../../ihtmlgenerator)
@@ -29,7 +29,7 @@ public void AddText(string text)
 
 ## AddText(char[]) {#addtext}
 
-Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces blancs ne sont pas remplacés.
+Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
 
 ```csharp
 public void AddText(char[] text)
@@ -39,7 +39,7 @@ public void AddText(char[] text)
 | --- | --- | --- |
 | text | Char[] | Texte à ajouter. |
 
-### Voir également
+### Voir Aussi
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * namespace [Aspose.Slides.Export](../../ihtmlgenerator)
@@ -49,7 +49,7 @@ public void AddText(char[] text)
 
 ## AddText(char[], int, int) {#addtext_1}
 
-Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les sauts de ligne et les espaces blancs ne sont pas remplacés.
+Ajoute du texte brut aux fichiers html, remplaçant les caractères spéciaux par des entités html. Les retours à la ligne et les espaces blancs ne sont pas remplacés.
 
 ```csharp
 public void AddText(char[] text, int startIndex, int length)
@@ -61,7 +61,7 @@ public void AddText(char[] text, int startIndex, int length)
 | startIndex | Int32 | Index de départ de la portion à ajouter. |
 | length | Int32 | Longueur de la portion à ajouter. |
 
-### Voir également
+### Voir Aussi
 
 * interface [IHtmlGenerator](../../ihtmlgenerator)
 * namespace [Aspose.Slides.Export](../../ihtmlgenerator)

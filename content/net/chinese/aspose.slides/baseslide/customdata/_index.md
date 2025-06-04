@@ -1,6 +1,6 @@
 ---
 title: CustomData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回幻灯片的自定义数据。只读 ICustomDataaspose.slides/icustomdata。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/baseslide/customdata/
 public ICustomData CustomData { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ICustomData](../../icustomdata)
 * 类 [BaseSlide](../../baseslide)

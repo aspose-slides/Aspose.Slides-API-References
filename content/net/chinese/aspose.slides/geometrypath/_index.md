@@ -7,7 +7,7 @@ weight: 4760
 url: /zh/aspose.slides/geometrypath/
 ---
 
-## GeometryPath 类
+## GeometryPath class
 
 表示 GeometryShape 的几何路径
 
@@ -19,14 +19,14 @@ public sealed class GeometryPath : IGeometryPath
 
 | 名称 | 描述 |
 | --- | --- |
-| [GeometryPath](geometrypath)() | 创建 GeometryPath 的实例 |
+| [GeometryPath](geometrypath)() | 创建 GeometryPath 实例 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
 | [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | 设置填充模式 |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | 返回 GeometryShape 的几何路径，作为路径段的数组。 |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | 作为路径段数组返回 GeometryShape 的几何路径。 |
 | [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | 设置描边外观 |
 
 ## 方法
@@ -49,7 +49,7 @@ public sealed class GeometryPath : IGeometryPath
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 在路径的指定位置添加二次贝塞尔曲线 |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路径末尾添加二次贝塞尔曲线 |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 在路径的指定位置添加二次贝塞尔曲线 |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | 移除几何路径中指定索引的段。 |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | 删除几何路径中指定索引的段。 |
 
 ### 另见
 

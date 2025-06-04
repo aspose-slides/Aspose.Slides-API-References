@@ -1,7 +1,7 @@
 ---
 title: EndPosAlpha
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Endposition entlang der Alpha-Gradientenrampe des End-Alpha-Wertprozents an. Nur-Lese Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Endposition entlang der Alpha-Gradientenrampe des End-Alpha-Werts Prozentsätze an. Nur lesbar Single.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/ireflectioneffectivedata/endposalpha/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ireflectioneffectivedata/endposalpha/
 
 ## IReflectionEffectiveData.EndPosAlpha-Eigenschaft
 
-Gibt die Endposition (entlang der Alpha-Gradientenrampe) des End-Alpha-Werts (Prozentsätze) an. Nur-Lese Single.
+Gibt die Endposition (entlang der Alpha-Gradientenrampe) des End-Alpha-Werts (Prozentsätze) an. Nur lesbar Single.
 
 ```csharp
 public float EndPosAlpha { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * Namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)

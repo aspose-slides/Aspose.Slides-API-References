@@ -1,13 +1,13 @@
 ---
 title: DisableGlowEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Desactivar el efecto de resplandor.
 type: docs
 weight: 120
 url: /es/aspose.slides/effectformat/disablegloweffect/
 ---
 
-## Método EffectFormat.DisableGlowEffect
+## EffectFormat.DisableGlowEffect método
 
 Desactivar el efecto de resplandor.
 
@@ -15,10 +15,10 @@ Desactivar el efecto de resplandor.
 public void DisableGlowEffect()
 ```
 
-### Véase también
+### Ver También
 
 * clase [EffectFormat](../../effectformat)
 * espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

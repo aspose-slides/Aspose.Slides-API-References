@@ -1,7 +1,7 @@
 ---
 title: EmbedTrueTypeFontsForASCII
-second_title: Aspose.Sildes для .NET API Справочник
-description: Истина для встраивания шрифтов TrueType для символов ASCII 32-127. Шрифты для кодов символов больше 127 всегда встраиваются. Чтение/запись логическое значение.
+second_title: Aspose.Sildes для справки по API .NET
+description: Истина, чтобы встроить шрифты TrueType для ASCII-символов 32-127. Шрифты для кодов символов, превышающих 127, всегда встраиваются. Читаемое/записываемое логическое значение.
 type: docs
 weight: 90
 url: /ru/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/
 
 ## IPdfOptions.EmbedTrueTypeFontsForASCII свойство
 
-Истина для встраивания шрифтов TrueType для символов ASCII 32-127. Шрифты для кодов символов больше 127 всегда встраиваются. Чтение/запись логическое значение.
+Истина, чтобы встроить шрифты TrueType для ASCII-символов 32-127. Шрифты для кодов символов, превышающих 127, всегда встраиваются. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool EmbedTrueTypeFontsForASCII { get; set; }
@@ -19,7 +19,7 @@ public bool EmbedTrueTypeFontsForASCII { get; set; }
 
 По умолчанию **истина**.
 
-### Также смотрите
+### См. также
 
 * интерфейс [IPdfOptions](../../ipdfoptions)
 * пространство имен [Aspose.Slides.Export](../../ipdfoptions)

@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Obtient l'élément à l'index spécifié.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iportioncollection/item/
 ---
 
-## Indice de IPortionCollection
+## IPortionCollection indexer
 
 Obtient l'élément à l'index spécifié.
 

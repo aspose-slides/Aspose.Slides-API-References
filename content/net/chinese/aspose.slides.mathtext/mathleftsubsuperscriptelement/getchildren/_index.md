@@ -1,6 +1,6 @@
 ---
 title: GetChildren
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取子元素
 type: docs
 weight: 40

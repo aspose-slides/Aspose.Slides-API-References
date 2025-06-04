@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 50

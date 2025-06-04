@@ -1,6 +1,6 @@
 ---
 title: ClassId
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Получает идентификатор класса этого элемента управления. Только для чтения Guid.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/control/classid/
 public Guid ClassId { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [Control](../../control)
 * пространство имен [Aspose.Slides](../../control)

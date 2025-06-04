@@ -7,7 +7,7 @@ weight: 890
 url: /es/aspose.slides.animation/behaviorproperty/strokecolor2/
 ---
 
-## Propiedad BehaviorProperty.StrokeColor2
+## BehaviorProperty.StrokeColor2 property
 
 Representa la propiedad 'stroke.color2'
 
@@ -15,10 +15,10 @@ Representa la propiedad 'stroke.color2'
 public static BehaviorProperty StrokeColor2 { get; }
 ```
 
-### Consulta También
+### Véase también
 
-* clase [BehaviorProperty](../../behaviorproperty)
-* espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* class [BehaviorProperty](../../behaviorproperty)
+* namespace [Aspose.Slides.Animation](../../behaviorproperty)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

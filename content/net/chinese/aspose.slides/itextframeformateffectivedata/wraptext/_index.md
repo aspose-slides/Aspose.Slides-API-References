@@ -1,7 +1,7 @@
 ---
 title: WrapText
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回文本是否在 TextFrames 的边距处换行。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回文本是否在 TextFrames 边距处换行。只读布尔值。
 type: docs
 weight: 120
 url: /zh/aspose.slides/itextframeformateffectivedata/wraptext/

@@ -1,7 +1,7 @@
 ---
 title: Contains
-second_title: Aspose.Slides for .NET API 参考
-description: 确定集合中是否包含特定值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定集合是否包含特定值。
 type: docs
 weight: 70
 url: /zh/aspose.slides.mathtext/mathblock/contains/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathblock/contains/
 
 ## MathBlock.Contains 方法
 
-确定集合中是否包含特定值。
+确定集合是否包含特定值。
 
 ```csharp
 public bool Contains(IMathElement item)
@@ -36,7 +36,7 @@ mathBlock.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3
 bool contains = mathBlock.Contains(plusElement);
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBlock](../../mathblock)

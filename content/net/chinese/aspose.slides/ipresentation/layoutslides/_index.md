@@ -1,6 +1,6 @@
 ---
 title: LayoutSlides
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回演示文稿中定义的所有布局幻灯片的列表。只读 IGlobalLayoutSlideCollectionaspose.slides/igloballayoutslidecollection。
 type: docs
 weight: 160
@@ -19,7 +19,7 @@ public IGlobalLayoutSlideCollection LayoutSlides { get; }
 
 您可以通过使用 IMasterSlide.LayoutSlides 属性访问用于添加/插入/删除/克隆布局幻灯片的替代 API。
 
-### 另见
+### 另请参见
 
 * 接口 [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
 * 接口 [IPresentation](../../ipresentation)

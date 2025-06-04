@@ -1,15 +1,15 @@
 ---
 title: DisableSoftEdgeEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Deaktiviert den Weichkanteffekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Deaktiviert den Weichkante-Effekt.
 type: docs
 weight: 180
 url: /de/aspose.slides/ieffectformat/disablesoftedgeeffect/
 ---
 
-## IEffectFormat.DisableSoftEdgeEffect Methode
+## IEffectFormat.DisableSoftEdgeEffect-Methode
 
-Deaktiviert den Weichkanteffekt.
+Deaktiviert den Weichkante-Effekt.
 
 ```csharp
 public void DisableSoftEdgeEffect()
@@ -17,7 +17,7 @@ public void DisableSoftEdgeEffect()
 
 ### Siehe auch
 
-* Interface [IEffectFormat](../../ieffectformat)
+* Schnittstelle [IEffectFormat](../../ieffectformat)
 * Namespace [Aspose.Slides](../../ieffectformat)
 * Assembly [Aspose.Slides](../../../)
 

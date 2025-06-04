@@ -1,6 +1,6 @@
 ---
 title: ZOrderPosition
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie la position d'une forme dans l'ordre z. Shapes0 renvoie la forme à l'arrière de l'ordre z et ShapesShapes.Count - 1 renvoie la forme à l'avant de l'ordre z. En lecture seule Int32.
 type: docs
 weight: 320
@@ -15,7 +15,7 @@ Renvoie la position d'une forme dans l'ordre z. Shapes[0] renvoie la forme à l'
 public virtual int ZOrderPosition { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Shape](../../shape)
 * espace de noms [Aspose.Slides](../../shape)

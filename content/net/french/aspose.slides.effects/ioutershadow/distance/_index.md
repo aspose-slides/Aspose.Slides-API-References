@@ -1,6 +1,6 @@
 ---
 title: Distance
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Distance de l'ombre. Lecture/écriture Double.
 type: docs
 weight: 50

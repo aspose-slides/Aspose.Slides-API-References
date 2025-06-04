@@ -1,6 +1,6 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetrans
 public ImageTransformOCollectionEffectiveData()
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

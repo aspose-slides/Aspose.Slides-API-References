@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает эффективные свойства форматирования строк таблицы с учетом наследования и примененных стилей таблицы.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает эффективные свойства форматирования строк таблицы с применением наследования и стилей таблицы.
 type: docs
 weight: 10
 url: /ru/aspose.slides/irowformat/geteffective/
 ---
 
-## Метод IRowFormat.GetEffective
+## IRowFormat.GetEffective метод
 
-Получает эффективные свойства форматирования строк таблицы с учетом наследования и примененных стилей таблицы.
+Получает эффективные свойства форматирования строк таблицы с применением наследования и стилей таблицы.
 
 ```csharp
 public IRowFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IRowFormatEffectiveData GetEffective()
 
 [`IRowFormatEffectiveData`](../../irowformateffectivedata).
 
-### Также см.
+### См. также
 
 * интерфейс [IRowFormatEffectiveData](../../irowformateffectivedata)
 * интерфейс [IRowFormat](../../irowformat)

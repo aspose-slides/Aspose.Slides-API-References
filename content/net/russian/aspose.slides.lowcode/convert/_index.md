@@ -1,7 +1,7 @@
 ---
 title: Convert
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет собой группу методов, предназначенных для конвертации Presentationaspose.slides/aspose.slides/presentation.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет группу методов, предназначенных для конвертации Presentationaspose.slides/aspose.slides/presentation.
 type: docs
 weight: 7640
 url: /ru/aspose.slides.lowcode/convert/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.lowcode/convert/
 
 ## Класс Convert
 
-Представляет собой группу методов, предназначенных для конвертации [`Presentation`](../../aspose.slides/presentation).
+Представляет группу методов, предназначенных для конвертации [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Convert
@@ -17,9 +17,9 @@ public static class Convert
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Конвертирует [`Presentation`](../../aspose.slides/presentation) с использованием переданного пути выходного расширения для определения необходимого формата экспорта. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Конвертирует [`Presentation`](../../aspose.slides/presentation), используя переданное расширение выходного пути для определения требуемого формата экспорта. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | Конвертирует [`Presentation`](../../aspose.slides/presentation) в PDF. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | Конвертирует [`Presentation`](../../aspose.slides/presentation) в PDF. |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | Конвертирует [`Presentation`](../../aspose.slides/presentation) в PDF. |
@@ -30,9 +30,9 @@ public static class Convert
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Конвертирует [`Presentation`](../../aspose.slides/presentation) в SVG. |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Конвертирует [`Presentation`](../../aspose.slides/presentation) в SVG. |
 
-## Другие члены
+## Другие Члены
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | delegate [GetOutPathCallback](convert.getoutpathcallback) |  |
 
@@ -42,7 +42,7 @@ public static class Convert
 Convert.AutoByExtension("pres.pptx", "pres.pdf");
 ```
 
-### См. также
+### Смотрите Также
 
 * namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * assembly [Aspose.Slides](../../)

@@ -1,15 +1,15 @@
 ---
 title: IncludeOleData
-second_title: Справочник по API Aspose.Slides для .NET
-description: true для преобразования всех OLE данных из презентации в встроенные файлы в результирующем PDF. Чтение/запись Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: true для преобразования всех OLE данных из презентации в встроенные файлы в результирующем PDF. Чтение/запись логическое значение.
 type: docs
 weight: 110
 url: /ru/aspose.slides.export/ipdfoptions/includeoledata/
 ---
 
-## Свойство IPdfOptions.IncludeOleData
+## IPdfOptions.IncludeOleData свойство
 
-true для преобразования всех OLE данных из презентации в встроенные файлы в результирующем PDF. Чтение/запись Boolean.
+true для преобразования всех OLE данных из презентации в встроенные файлы в результирующем PDF. Чтение/запись логическое значение.
 
 ```csharp
 public bool IncludeOleData { get; set; }

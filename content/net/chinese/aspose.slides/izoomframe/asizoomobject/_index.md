@@ -1,6 +1,6 @@
 ---
 title: AsIZoomObject
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 返回 IZoomObject 接口。
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public IZoomObject AsIZoomObject { get; }
 
 ### 备注
 
-为了兼容 COM。
+用于 COM 兼容性。
 
-### 另见
+### 参见
 
 * 接口 [IZoomObject](../../izoomobject)
 * 接口 [IZoomFrame](../../izoomframe)

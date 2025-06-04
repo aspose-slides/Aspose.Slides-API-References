@@ -1,6 +1,6 @@
 ---
 title: Portions
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie la collection de portions de texte. Lecture seule IPortionCollectionaspose.slides/iportioncollection.
 type: docs
 weight: 40

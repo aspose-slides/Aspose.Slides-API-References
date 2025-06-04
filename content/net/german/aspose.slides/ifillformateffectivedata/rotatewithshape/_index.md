@@ -1,15 +1,15 @@
 ---
 title: RotateWithShape
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die Füllung zusammen mit der Form rotiert werden soll. Schreibgeschütztes Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob die Füllung mit der Form rotiert werden soll. Nur-Lese-Boolescher Wert.
 type: docs
 weight: 60
 url: /de/aspose.slides/ifillformateffectivedata/rotatewithshape/
 ---
 
-## IFillFormatEffectiveData.RotateWithShape Eigenschaft
+## IFillFormatEffectiveData.RotateWithShape-Eigenschaft
 
-Bestimmt, ob die Füllung zusammen mit der Form rotiert werden soll. Schreibgeschütztes Boolean.
+Bestimmt, ob die Füllung mit der Form rotiert werden soll. Nur-Lese-Boolescher Wert.
 
 ```csharp
 public bool RotateWithShape { get; }

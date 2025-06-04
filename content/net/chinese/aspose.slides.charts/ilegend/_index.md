@@ -1,6 +1,6 @@
 ---
 title: ILegend
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表的图例属性。
 type: docs
 weight: 2050
@@ -19,12 +19,12 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | 允许获取基础的 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | 允许获取基础的 ILayoutable 接口。只读 [`ILayoutable`](../ilayoutable)。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | 允许获取基类 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | 允许获取基类 ILayoutable 接口。只读 [`ILayoutable`](../ilayoutable)。 |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | 获取图例条目。只读 [`ILegendEntryCollection`](../ilegendentrycollection)。 |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | 返回图例的格式。只读 [`IFormat`](../iformat)。 |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 确定是否允许其他图表元素重叠图例。读写布尔值。 |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 指定图例在图表上的位置。X、Y、Width、Height 属性的非 NaN 值将覆盖此属性的效果。读写 [`LegendPositionType`](../legendpositiontype)。 |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 决定是否允许其他图表元素与图例重叠。读写布尔值。 |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 指定图例在图表上的位置。X、Y、宽度、高度属性的非NaN值会覆盖此属性的效果。读写 [`LegendPositionType`](../legendpositiontype)。 |
 
 ### 另见
 

@@ -1,7 +1,7 @@
 ---
 title: IChartSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示系列的组合。
+description: 表示系列的组。
 type: docs
 weight: 1870
 url: /zh/aspose.slides.charts/ichartseriesgroup/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/
 
 ## IChartSeriesGroup 接口
 
-表示系列的组合。
+表示系列的组。
 
 ```csharp
 public interface IChartSeriesGroup : IChartComponent
@@ -19,32 +19,32 @@ public interface IChartSeriesGroup : IChartComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | 允许获取基本 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | 指定气泡大小值在气泡图上的表示方式。读写 [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype)。 |
-| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | 指定气泡图的缩放因子（可以在默认大小的 0 到 300 之间）。读写 Int32。 |
-| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | 指定甜甜圈图中孔的大小（可以在绘图区大小的 10% 到 90% 之间）。读写 Byte。 |
-| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | 获取或设置第一个饼图或甜甜圈图切片的角度，单位为度（顺时针方向从上方，范围为 0 到 360 度）。读写 UInt16。 |
-| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | 返回或设置 3D 图中数据系列之间的距离，作为标记宽度的百分比。读写 UInt16。 |
-| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | 指定柱状图或列簇之间的间隔，作为柱或列宽度的百分比。读写 UInt16。 |
-| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | 如果图表有系列线，则为真。适用于堆叠条形图和饼图类型。读写 Boolean。 |
-| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | 指定 HiLowLines 格式。HiLowLines 应用于 HiLowClose、OpenHiLowClose、VolumeHiLowClose 和 VolumeOpenHiLowClose 图表类型。 |
-| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | 指定系列中的每个数据标记具有不同的颜色。读写 Boolean。 |
+| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | 允许获取基础的 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | 指定气泡大小值在气泡图上的表示方式。读/写 [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype)。 |
+| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | 指定气泡图的缩放因子（可以在默认大小的 0% 到 300% 之间）。读/写 Int32。 |
+| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | 指定甜甜圈图中孔的大小（可以在绘图区大小的 10% 到 90% 之间）。读/写 Byte。 |
+| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | 获取或设置第一个饼图或甜甜圈图切片的角度，以度为单位（从上方顺时针，范围为 0 到 360 度）。读/写 UInt16。 |
+| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | 返回或设置三维图中数据系列之间的距离，作为标记宽度的百分比。读/写 UInt16。 |
+| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | 指定条形图或柱形图簇之间的空间，作为条形图或柱形图宽度的百分比。读/写 UInt16。 |
+| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | 如果图表有系列线，则为真。适用于堆叠条形图和饼图。读/写 Boolean。 |
+| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | 指定 HiLowLines 格式。HiLowLines 适用于 HiLowClose、OpenHiLowClose、VolumeHiLowClose 和 VolumeOpenHiLowClose 图表类型。 |
+| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | 指定系列中的每个数据标记具有不同的颜色。读/写 Boolean。 |
 | [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | 获取指定索引处的元素。 |
-| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | 指定柱子和列在 2D 图表上的重叠程度，作为百分比（从 -100% 到 100%）。 - -100%: 最大间距（柱子完全分开）。 - 0%: 柱子并排放置，无重叠或间距。 - 100%: 最大重叠（柱子完全重叠）。此属性可读写 SByte。 |
-| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | 指定如何确定饼图或条形图的第二个饼或条形数据点。读写 [`PieSplitType`](../piesplittype)。 |
-| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | 自定义分割饼图或条形图的自定义拆分信息。包含将在饼图或条形图中显示的第二个饼或条形的数据点。只读 [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection)。 |
-| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | 指定一个值，用于确定饼图或条形图的第二个饼或条形中的数据点。与 PieSplitBy 属性一起使用。读写 Double。 |
-| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | 指示该组的系列是否绘制在第二坐标轴上。只读 Boolean。 |
-| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | 指定饼图或条形图的第二个饼或条形的大小，作为第一个饼的百分比（可以在 5% 到 200% 之间）。读写 UInt16。 |
+| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | 指定在 2D 图表上条形图和柱形图应重叠的程度，作为百分比（从 -100% 到 100%）。 - -100%: 最大间距（条形图完全分开）。 - 0%: 条形图在没有重叠或间距的情况下并排放置。 - 100%: 最大重叠（条形图完全重叠）。此属性为读/写 SByte。 |
+| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | 指定如何确定哪些数据点位于饼图或者条形图的第二部分。读/写 [`PieSplitType`](../piesplittype)。 |
+| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | 自定义拆分信息，对于具有自定义拆分的饼图或条形图，包含将在饼图或条形图的第二部分中绘制的数据点。只读 [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection)。 |
+| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | 指定用于确定哪些数据点位于饼图或条形图的第二部分的值。与 PieSplitBy 属性一起使用。读/写 Double。 |
+| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | 指示此组的系列是否在副轴上绘制。只读 Boolean。 |
+| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | 指定饼图或条形图的第二部分的大小，作为第一个饼的大小的百分比（可以在 5% 到 200% 之间）。读/写 UInt16。 |
 | [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | 返回只读的图表系列集合。只读 [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection)。 |
 | [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | 返回该系列组的类型。只读 [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup)。 |
-| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | 提供访问线图或股票图的上/下栏。只读 [`IUpDownBarsManager`](../iupdownbarsmanager)。 |
+| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | 提供对线性图或股票图的上下条的访问。只读 [`IUpDownBarsManager`](../iupdownbarsmanager)。 |
 
 ### 备注
 
-1) 请参见 ChartSeriesGroupCollection 类和 CombinableSeriesTypesGroup 枚举的摘要和备注。 2) 系列组包含许多系列属性，这些属性对组中的每个系列都是通用的（“系列组属性”）。在 ChartSeriesGroup 类中的“系列组属性”是可读写的。每个“系列组属性”在 ChartSeries 类中可以具有只读的投影。
+1) 查看 ChartSeriesGroupCollection 类和 CombinableSeriesTypesGroup 枚举的摘要和备注。 2) 系列组包含一些对组中每个系列通用的系列属性（“系列组属性”）。 ChartSeriesGroup 类中的“系列组属性”为读/写。每个“系列组属性”在 ChartSeries 类中可以具有只读投影。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChartComponent](../ichartcomponent)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

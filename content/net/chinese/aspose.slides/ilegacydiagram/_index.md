@@ -19,14 +19,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | 允许获取基础的 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | 允许获取基础 IGraphicalObject 接口。只读 [`IGraphicalObject`](../igraphicalobject)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | 将遗留图表转换为可编辑的组合形状。创建的 GroupShape 对象在同一位置添加到父组合形状中。 |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | 将遗留图表转换为可编辑的 SmartArt 对象。创建的 SmartArt 对象在同一位置添加到父组合形状中。 |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | 将遗留图表转换为可编辑的组合形状。创建的 GroupShape 对象以相同位置添加到父组合形状。 |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | 将遗留图表转换为可编辑的 SmartArt 对象。创建的 SmartArt 对象以相同位置添加到父组合形状。 |
 
 ### 另见
 

@@ -1,7 +1,7 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Slides für .NET API Referenz
-description: Rückgabeschnittstelle für die Lösung externer Ressourcen während des Imports von SVG-Dokumenten. Nur lesbar IExternalResourceResolveraspose.slides.import/iexternalresourceresolver.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Rückgabeschnittstelle für den Callback, die verwendet wird, um externe Ressourcen während des Imports von SVG-Dokumenten aufzulösen. Nur-lesendes IExternalResourceResolveraspose.slides.import/iexternalresourceresolver.
 type: docs
 weight: 20
 url: /de/aspose.slides/isvgimage/externalresourceresolver/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isvgimage/externalresourceresolver/
 
 ## ISvgImage.ExternalResourceResolver-Eigenschaft
 
-Rückgabeschnittstelle zur Lösung externer Ressourcen während des Imports von SVG-Dokumenten. Nur lesbar [`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver).
+Rückgabeschnittstelle für den Callback, die verwendet wird, um externe Ressourcen während des Imports von SVG-Dokumenten aufzulösen. Nur-lesend [`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver).
 
 ```csharp
 public IExternalResourceResolver ExternalResourceResolver { get; }

@@ -1,13 +1,13 @@
 ---
 title: FillMethod
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство fill.method
 type: docs
 weight: 350
 url: /ru/aspose.slides.animation/behaviorproperty/fillmethod/
 ---
 
-## Свойство BehaviorProperty.FillMethod
+## BehaviorProperty.FillMethod свойство
 
 Представляет свойство 'fill.method'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/fillmethod/
 public static BehaviorProperty FillMethod { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

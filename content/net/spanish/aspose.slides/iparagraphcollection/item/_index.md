@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene el elemento en el índice especificado.
 type: docs
 weight: 40
 url: /es/aspose.slides/iparagraphcollection/item/
 ---
 
-## Indexador IParagraphCollection
+## IParagraphCollection indexer
 
 Obtiene el elemento en el índice especificado.
 
@@ -15,11 +15,11 @@ Obtiene el elemento en el índice especificado.
 public IParagraph this[int index] { get; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IParagraph](../../iparagraph)
-* interfaz [IParagraphCollection](../../iparagraphcollection)
-* espacio de nombres [Aspose.Slides](../../iparagraphcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IParagraph](../../iparagraph)
+* interfaz [IParagraphCollection](../../iparagraphcollection)
+* espacio de nombres [Aspose.Slides](../../iparagraphcollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

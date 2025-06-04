@@ -1,6 +1,6 @@
 ---
 title: PatternStyle
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Musterstil zurück oder legt ihn fest. Lese-/Schreibzugriff auf PatternStyleaspose.slides/patternstyle.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Gibt den Musterstil zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`Patte
 public PatternStyle PatternStyle { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PatternStyle](../../patternstyle)
 * interface [IPatternFormat](../../ipatternformat)

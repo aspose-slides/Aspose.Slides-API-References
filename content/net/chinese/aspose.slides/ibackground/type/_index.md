@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides for .NET API 参考
-description: 返回背景填充的类型。可读/写 BackgroundTypeaspose.slides/backgroundtype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回背景填充类型。读/写 BackgroundTypeaspose.slides/backgroundtype。
 type: docs
 weight: 70
 url: /zh/aspose.slides/ibackground/type/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibackground/type/
 
 ## IBackground.Type 属性
 
-返回背景填充的类型。可读/写 [`BackgroundType`](../../backgroundtype)。
+返回背景填充类型。读/写 [`BackgroundType`](../../backgroundtype)。
 
 ```csharp
 public BackgroundType Type { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 枚举 [BackgroundType](../../backgroundtype)
 * 接口 [IBackground](../../ibackground)

@@ -1,6 +1,6 @@
 ---
 title: GetNamesOfTags
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回标签名称。
 type: docs
 weight: 60
@@ -19,7 +19,7 @@ public string[] GetNamesOfTags()
 
 标签名称。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITagCollection](../../itagcollection)
 * 命名空间 [Aspose.Slides](../../itagcollection)

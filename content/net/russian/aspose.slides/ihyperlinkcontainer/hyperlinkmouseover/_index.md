@@ -1,7 +1,7 @@
 ---
 title: HyperlinkMouseOver
-second_title: Справочная документация Aspose.Slides для .NET
-description: Возвращает или задает гиперссылку, определенную для наведения мыши. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает гиперссылку, определенную для наведения мыши. Читаемое/записываемое IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ihyperlinkcontainer/hyperlinkmouseover/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ihyperlinkcontainer/hyperlinkmouseover/
 
 ## IHyperlinkContainer.HyperlinkMouseOver свойство
 
-Возвращает или задает гиперссылку, определенную для наведения мыши. Чтение/запись [`IHyperlink`](../../ihyperlink).
+Возвращает или задает гиперссылку, определенную для наведения мыши. Читаемое/записываемое [`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; set; }

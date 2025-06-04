@@ -1,15 +1,15 @@
 ---
 title: ReplaceRegex
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Remplace toutes les occurrences de l'expression régulière par la chaîne spécifiée.
 type: docs
 weight: 110
 url: /fr/aspose.slides/itextframe/replaceregex/
 ---
 
-## Méthode ITextFrame.ReplaceRegex
+## ITextFrame.ReplaceRegex méthode
 
-Remplace toutes les correspondances de l'expression régulière par la chaîne spécifiée.
+Remplace toutes les occurrences de l'expression régulière par la chaîne spécifiée.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -19,11 +19,11 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 | --- | --- | --- |
 | regex | Regex | L'expression régulière Regex pour obtenir les chaînes à remplacer. |
 | newText | String | La chaîne pour remplacer toutes les occurrences des chaînes à remplacer. |
-| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de recherche [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de la recherche [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemples
 
-L'exemple de code suivant montre comment remplacer du texte en utilisant une expression régulière avec la chaîne spécifiée.
+L'exemple de code suivant montre comment remplacer du texte à l'aide d'une expression régulière avec la chaîne spécifiée.
 
 ```csharp
 [C#]

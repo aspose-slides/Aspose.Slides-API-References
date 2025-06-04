@@ -1,15 +1,15 @@
 ---
 title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Позиция группирующего символа. Значение по умолчанию Низ
+second_title: Aspose.Sildes для .NET API Справочник
+description: Положение группирующего символа. По умолчанию Внизу
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathgroupingcharacter/position/
 ---
 
-## Свойство IMathGroupingCharacter.Position
+## IMathGroupingCharacter.Position свойство
 
-Позиция группирующего символа. Значение по умолчанию: Низ
+Положение группирующего символа. По умолчанию: Внизу
 
 ```csharp
 public MathTopBotPositions Position { get; set; }
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.Position = MathTopBotPositions.Top;
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * interface [IMathGroupingCharacter](../../imathgroupingcharacter)

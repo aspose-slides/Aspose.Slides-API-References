@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 60
 url: /es/aspose.slides/drawingguidescollection/getenumerator/
 ---
 
-## Método DrawingGuidesCollection.GetEnumerator
+## DrawingGuidesCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IDrawingGuide> GetEnumerator()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un IEnumerator que se puede utilizar para iterar a través de la colección.
 
-### Véase también
+### Véase También
 
 * interfaz [IDrawingGuide](../../idrawingguide)
 * clase [DrawingGuidesCollection](../../drawingguidescollection)
 * espacio de nombres [Aspose.Slides](../../drawingguidescollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

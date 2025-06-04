@@ -7,7 +7,7 @@ weight: 80
 url: /de/aspose.slides/iportion/removefield/
 ---
 
-## IPortion.RemoveField Methode
+## IPortion.RemoveField-Methode
 
 Konvertiert diesen Feldanteil in den einfachen Anteil.
 

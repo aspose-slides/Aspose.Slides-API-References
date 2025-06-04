@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置与 Slide Zoom 对象链接的幻灯片对象。可读写 ISlideaspose.slides/islide.
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置幻灯片缩放对象链接的幻灯片对象。可读写 ISlideaspose.slides/islide。
 type: docs
 weight: 20
 url: /zh/aspose.slides/izoomframe/targetslide/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/izoomframe/targetslide/
 
 ## IZoomFrame.TargetSlide 属性
 
-获取或设置与 Slide Zoom 对象链接的幻灯片对象。可读写 [`ISlide`](../../islide)。
+获取或设置幻灯片缩放对象链接的幻灯片对象。可读写 [`ISlide`](../../islide)。
 
 ```csharp
 public ISlide TargetSlide { get; set; }
@@ -17,7 +17,7 @@ public ISlide TargetSlide { get; set; }
 
 ### 示例
 
-下一个示例演示了如何更改目标幻灯片并为 Slide Zoom 对象创建新图像：
+下一个例子演示了如何更改目标幻灯片并为幻灯片缩放对象创建新图像：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.
 zoomFrame.TargetSlide = pres.Slides[2];
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISlide](../../islide)
 * 接口 [IZoomFrame](../../izoomframe)

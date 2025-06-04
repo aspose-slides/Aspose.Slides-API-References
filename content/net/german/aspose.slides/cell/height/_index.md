@@ -15,7 +15,7 @@ Gibt die Höhe der Zelle zurück. Nur-Lese Double.
 public double Height { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

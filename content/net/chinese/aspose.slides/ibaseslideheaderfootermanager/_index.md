@@ -1,7 +1,7 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示管理器，它 holds footer日期时间页码占位符的行为，适用于所有幻灯片类型。
+second_title: Aspose.Slides for .NET API 参考
+description: 表示管理所有幻灯片类型的页脚日期时间页码占位符行为的管理器。
 type: docs
 weight: 5150
 url: /zh/aspose.slides/ibaseslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseslideheaderfootermanager/
 
 ## IBaseSlideHeaderFooterManager 接口
 
-表示管理器，它 holds footer、日期时间、页码占位符的行为，适用于所有幻灯片类型。
+表示管理所有幻灯片类型的页脚、日期时间、页码占位符行为的管理器。
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -20,9 +20,9 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | 名称 | 描述 |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | 返回 IBaseHeaderFooterManager 接口。 |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 获取表示日期时间占位符存在的值。 ReadBoolean。 |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | 获取表示页脚占位符存在的值。 Read Boolean。 |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取表示页码占位符存在的值。 ReadBoolean。 |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示是否存在日期时间占位符的值。读取布尔值。 |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | 获取指示是否存在页脚占位符的值。读取布尔值。 |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示是否存在页码占位符的值。读取布尔值。 |
 
 ## 方法
 
@@ -34,7 +34,7 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片页脚占位符的可见性。 |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符的可见性。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

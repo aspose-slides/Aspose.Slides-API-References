@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
-description: 删除集合中指定索引的元素。
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除集合中指定索引处的元素。
 type: docs
 weight: 100
 url: /zh/aspose.slides/masterslidecollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/masterslidecollection/removeat/
 
 ## MasterSlideCollection.RemoveAt 方法
 
-删除集合中指定索引的元素。
+移除集合中指定索引处的元素。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,19 +17,19 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的元素的零基索引。 |
+| index | Int32 | 要移除的元素的零基索引。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果要删除的母版在演示文稿中使用（其 HasDependingSlides 属性为 true），则抛出。 |
+| [PptxEditException](../../pptxeditexception) | 如果要移除的母版在演示文稿中被使用（其 HasDependingSlides 属性为 true）则抛出。 |
 
 ### 备注
 
-在删除之前，请检查母版的 HasDependingSlides 属性，以避免抛出 PptxEditException。
+在抛出 PptxEditException 之前，请检查母版的 HasDependingSlides 属性。
 
-### 另见
+### 另请参阅
 
 * 类 [MasterSlideCollection](../../masterslidecollection)
 * 命名空间 [Aspose.Slides](../../masterslidecollection)

@@ -1,15 +1,15 @@
 ---
 title: OuterShadow
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект Внешней Тени.
+second_title: Aspose.Sildes для справки по API .NET
+description: Представляет эффект внешней тени.
 type: docs
 weight: 3500
 url: /ru/aspose.slides.effects/outershadow/
 ---
 
-## Класс Внешней Тени
+## Класс OuterShadow
 
-Представляет эффект Внешней Тени.
+Представляет эффект внешней тени.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -23,22 +23,22 @@ public sealed class OuterShadow : IOuterShadow
 | [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
 | [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Расстояние тени. Чтение/запись Double. |
 | [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Указывает, должна ли тень вращаться вместе с фигурой, если фигура вращается. Чтение/запись Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Указывает коэффициент горизонтального масштабирования, отрицательное масштабирование приводит к перевороту. Чтение/запись Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Указывает коэффициент вертикального масштабирования, отрицательное масштабирование приводит к перевороту. Чтение/запись Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Указывает, должна ли тень вращаться вместе с фигурой, если фигура поворачивается. Чтение/запись Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование вызывает переворот. Чтение/запись Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает переворот. Чтение/запись Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Указывает угол горизонтальной подрезки (в градусах). Чтение/запись Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Указывает угол вертикальной подрезки (в градусах). Чтение/запись Double. |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Указывает угол горизонтального наклона (в градусах). Чтение/запись Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Указывает угол вертикального наклона (в градусах). Чтение/запись Double. |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | Определяет, равен ли указанный [`OuterShadow`](../outershadow) текущему [`OuterShadow`](../outershadow). |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Получает данные о действительном эффекте Внешней Тени с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Используется в качестве хеш-функции для определенного типа. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | Получает данные эффективного эффекта внешней тени с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | Служит хэш-функцией для определенного типа. |
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IOuterShadow](../ioutershadow)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

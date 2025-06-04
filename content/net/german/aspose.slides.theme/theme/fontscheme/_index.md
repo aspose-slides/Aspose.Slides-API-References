@@ -1,15 +1,15 @@
 ---
 title: FontScheme
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Schriftartschema zurück. Nur-Lesen IFontSchemeaspose.slides.theme/ifontscheme.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Schriftschema zurück. Nur-Lesen IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/theme/fontscheme/
 ---
 
-## Theme.FontScheme Eigenschaft
+## Theme.FontScheme-Eigenschaft
 
-Gibt das Schriftartschema zurück. Nur-Lesen [`IFontScheme`](../../ifontscheme).
+Gibt das Schriftschema zurück. Nur-Lesen [`IFontScheme`](../../ifontscheme).
 
 ```csharp
 public abstract IFontScheme FontScheme { get; }
@@ -17,7 +17,7 @@ public abstract IFontScheme FontScheme { get; }
 
 ### Siehe Auch
 
-* Schnittstelle [IFontScheme](../../ifontscheme)
+* Interface [IFontScheme](../../ifontscheme)
 * Klasse [Theme](../../theme)
 * Namespace [Aspose.Slides.Theme](../../theme)
 * Assembly [Aspose.Slides](../../../)

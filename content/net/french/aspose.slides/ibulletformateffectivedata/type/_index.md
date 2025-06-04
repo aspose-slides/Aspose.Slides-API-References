@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le type de puce d'un paragraphe. Lecture seule BulletTypeaspose.slides/bullettype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne le type de puce d'un paragraphe. Lecture seule BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ibulletformateffectivedata/type/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibulletformateffectivedata/type/
 
 ## Propriété IBulletFormatEffectiveData.Type
 
-Renvoie le type de puce d'un paragraphe. Lecture seule [`BulletType`](../../bullettype).
+Retourne le type de puce d'un paragraphe. Lecture seule [`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; }

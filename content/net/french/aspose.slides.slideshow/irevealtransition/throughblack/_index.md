@@ -1,7 +1,7 @@
 ---
 title: ThroughBlack
-second_title: Aspose.Sildes pour la référence API .NET
-description: Spécifie si la transition se fond dans le noir. Booléen en lecture/écriture.
+second_title: Référence API d'Aspose.Slides pour .NET
+description: Spécifie si la transition s'estompe à travers le noir. Booléen lisible/écrivable.
 type: docs
 weight: 30
 url: /fr/aspose.slides.slideshow/irevealtransition/throughblack/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.slideshow/irevealtransition/throughblack/
 
 ## Propriété IRevealTransition.ThroughBlack
 
-Spécifie si la transition se fond dans le noir. Booléen en lecture/écriture.
+Spécifie si la transition s'estompe à travers le noir. Booléen lisible/écrivable.
 
 ```csharp
 public bool ThroughBlack { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRevealTransition](../../irevealtransition)
 * namespace [Aspose.Slides.SlideShow](../../irevealtransition)

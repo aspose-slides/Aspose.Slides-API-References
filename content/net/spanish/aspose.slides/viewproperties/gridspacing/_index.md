@@ -1,15 +1,15 @@
 ---
 title: GridSpacing
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el espaciado de la rejilla que se debe utilizar para la rejilla subyacente del documento de presentación en puntos. Lectura/escritura Single.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve o establece el espaciado de la cuadrícula que debe usarse para la cuadrícula subyacente del documento de presentación en puntos. Lectura/escritura Simple.
 type: docs
 weight: 10
 url: /es/aspose.slides/viewproperties/gridspacing/
 ---
 
-## Propiedad ViewProperties.GridSpacing
+## ViewProperties.GridSpacing propiedad
 
-Devuelve o establece el espaciado de la rejilla que se debe utilizar para la rejilla subyacente del documento de presentación, en puntos. Lectura/escritura Single.
+Devuelve o establece el espaciado de la cuadrícula que debe usarse para la cuadrícula subyacente del documento de presentación, en puntos. Lectura/escritura Simple.
 
 ```csharp
 public float GridSpacing { get; set; }
@@ -17,11 +17,11 @@ public float GridSpacing { get; set; }
 
 ### Observaciones
 
-El valor del espaciado de la rejilla debe ser un número positivo. El rango de valores típico es de 1 mm (2.8349607 puntos) a 2 pulgadas (144 puntos).
+El valor del espaciado de la cuadrícula debe ser un número positivo. El rango típico de valores es de 1 mm (2.8349607 puntos) a 2 pulgadas (144 puntos).
 
 ### Ejemplos
 
-El siguiente código de muestra muestra cómo cambiar el espaciado de la rejilla en una presentación de PowerPoint.
+El siguiente código de ejemplo muestra cómo cambiar el espaciado de la cuadrícula en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -32,10 +32,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ViewProperties](../../viewproperties)
 * espacio de nombres [Aspose.Slides](../../viewproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

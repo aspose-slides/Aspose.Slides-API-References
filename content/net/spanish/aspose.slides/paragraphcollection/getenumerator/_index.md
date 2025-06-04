@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 100
 url: /es/aspose.slides/paragraphcollection/getenumerator/
 ---
 
-## Método ParagraphCollection.GetEnumerator
+## ParagraphCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -21,9 +21,9 @@ Un IEnumerator que se puede usar para iterar a través de la colección.
 
 ### Véase también
 
-* interfaz [IParagraph](../../iparagraph)
-* clase [ParagraphCollection](../../paragraphcollection)
-* espacio de nombres [Aspose.Slides](../../paragraphcollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IParagraph](../../iparagraph)
+* clase [ParagraphCollection](../../paragraphcollection)
+* espacio de nombres [Aspose.Slides](../../paragraphcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

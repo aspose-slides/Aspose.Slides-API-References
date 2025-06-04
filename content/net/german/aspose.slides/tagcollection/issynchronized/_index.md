@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur lesbares Boolesches.
+description: Gibt einen Wert zurück, der anzeigt, ob der Zugriff auf die Sammlung synchronisiert threadsicher ist. Nur lesbare Boolesche Eigenschaft.
 type: docs
 weight: 20
 url: /de/aspose.slides/tagcollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/tagcollection/issynchronized/
 
 ## TagCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbares Boolesches.
+Gibt einen Wert zurück, der anzeigt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur lesbare Boolesche Eigenschaft.
 
 ```csharp
 public bool IsSynchronized { get; }

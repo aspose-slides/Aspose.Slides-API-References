@@ -1,15 +1,15 @@
 ---
 title: SetAllFootersVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit aller Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Master-Notizen, Notizfolien und Handout-Master.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ändert die Sichtbarkeit aller Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handout-Master.
 type: docs
 weight: 40
 url: /de/aspose.slides/presentationheaderfootermanager/setallfootersvisibility/
 ---
 
-## PresentationHeaderFooterManager.SetAllFootersVisibility-Methode
+## PresentationHeaderFooterManager.SetAllFootersVisibility Methode
 
-Ändert die Sichtbarkeit aller Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Master-Notizen, Notizfolien und Handout-Master.
+Ändert die Sichtbarkeit aller Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handout-Master.
 
 ```csharp
 public void SetAllFootersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetAllFootersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht Fußzeilen-Platzhalter sichtbar, andernfalls - verbirgt sie. |
+| isVisible | Boolean | true - macht Fußzeilen-Platzhalter sichtbar, sonst - verbirgt sie. |
 
 ### Siehe auch
 

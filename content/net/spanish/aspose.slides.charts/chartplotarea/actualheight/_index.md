@@ -17,8 +17,8 @@ public float ActualHeight { get; }
 
 ### Ver También
 
-* clase [ChartPlotArea](../../chartplotarea)
-* espacio de nombres [Aspose.Slides.Charts](../../chartplotarea)
-* ensamblaje [Aspose.Slides](../../../)
+* class [ChartPlotArea](../../chartplotarea)
+* namespace [Aspose.Slides.Charts](../../chartplotarea)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

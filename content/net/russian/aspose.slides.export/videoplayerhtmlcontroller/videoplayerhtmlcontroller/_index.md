@@ -1,6 +1,6 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sldes для .NET API Справочник
 description: Создает новый экземпляр контроллера
 type: docs
 weight: 10
@@ -19,9 +19,9 @@ public VideoPlayerHtmlController(string path, string fileName, string baseUri)
 | --- | --- | --- |
 | path | String | Путь, по которому будут создаваться видео- и аудиофайлы |
 | fileName | String | Имя HTML файла |
-| baseUri | String | Базовый URI, который будет использоваться для генерирования ссылок |
+| baseUri | String | Базовый URI, который будет использоваться для генерации ссылок |
 
-### Смотрите также
+### См. также
 
 * класс [VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../videoplayerhtmlcontroller)

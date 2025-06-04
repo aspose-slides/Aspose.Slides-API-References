@@ -1,13 +1,13 @@
 ---
 title: GapWidth
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает расстояние между группами столбцов или баров в процентах от ширины столбца или бара. Чтение/запись UInt16.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---
 
-## IChartSeriesGroup.GapWidth свойство
+## IChartSeriesGroup.GapWidth property
 
 Указывает расстояние между группами столбцов или баров в процентах от ширины столбца или бара. Чтение/запись UInt16.
 

@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den AutoShape-Typ zurück oder setzt ihn. Lese-/Schreibzugriff auf ShapeType aspose.slides/shapetype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den AutoShape-Typ zurück oder setzt ihn. Lese-/Schreibzugriff auf ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 50
 url: /de/aspose.slides/connector/shapetype/

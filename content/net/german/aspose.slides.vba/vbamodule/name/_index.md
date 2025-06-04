@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen des Moduls zurück. Nur lesender String.
+description: Erhält den Namen des Moduls. Nur-Lese-String.
 type: docs
 weight: 10
 url: /de/aspose.slides.vba/vbamodule/name/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.vba/vbamodule/name/
 
 ## VbaModule.Name-Eigenschaft
 
-Gibt den Namen des Moduls zurück. Nur lesender String.
+Erhält den Namen des Moduls. Nur-Lese-String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [VbaModule](../../vbamodule)
 * Namespace [Aspose.Slides.Vba](../../vbamodule)

@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides/commentauthorcollection/addauthor/
 ---
 
-## CommentAuthorCollection.AddAuthor Methode
+## CommentAuthorCollection.AddAuthor-Methode
 
 Fügen Sie einen neuen Autor am Ende einer Sammlung hinzu.
 
@@ -28,11 +28,11 @@ Neues [`ICommentAuthor`](../../icommentauthor) Objekt.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn ein Autor mit demselben Namen und denselben Initialen bereits hinzugefügt wurde. |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn ein Autor mit dem gleichen Namen und den gleichen Initialen bereits hinzugefügt wurde. |
 
 ### Siehe auch
 
-* Schnittstelle [ICommentAuthor](../../icommentauthor)
+* Interface [ICommentAuthor](../../icommentauthor)
 * Klasse [CommentAuthorCollection](../../commentauthorcollection)
 * Namespace [Aspose.Slides](../../commentauthorcollection)
 * Assembly [Aspose.Slides](../../../)

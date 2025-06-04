@@ -1,72 +1,72 @@
----
+---  
 title: InsertOleObjectFrame
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea un nuevo objeto OLE e inserta en una colección en el índice especificado.
-type: docs
-weight: 300
+second_title: Aspose.Sildes for .NET API Reference  
+description: Crea un nuevo objeto OLE y lo inserta en una colección en el índice especificado.
+type: docs  
+weight: 300  
 url: /es/aspose.slides/ishapecollection/insertoleobjectframe/
----
-
-## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
-
-Crea un nuevo objeto OLE e inserta en una colección en el índice especificado.
-
-```csharp
-public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
-    IOleEmbeddedDataInfo dataInfo)
-```
-
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| index | Int32 | El índice basado en cero en el que se debe insertar el objeto OLE. |
-| x | Single | Coordenada X de un nuevo marco OLE. |
-| y | Single | Coordenada Y de un nuevo marco OLE. |
-| width | Single | Ancho de un nuevo marco OLE. |
-| height | Single | Altura de un nuevo marco OLE. |
-| dataInfo | IOleEmbeddedDataInfo | Información de datos incrustada [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
-
-### Valor de Retorno
-
-Objeto OLE creado.
-
-### Véase También
-
-* interfaz [IOleObjectFrame](../../ioleobjectframe)
-* interfaz [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
-* interfaz [IShapeCollection](../../ishapecollection)
-* espacio de nombres [Aspose.Slides](../../ishapecollection)
-* ensamblado [Aspose.Slides](../../../)
-
----
-
-## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
-
-Crea un nuevo objeto OLE e inserta en una colección en el índice especificado.
-
-```csharp
-public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height, 
-    string className, string path)
-```
-
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| index | Int32 | El índice basado en cero en el que se debe insertar el objeto OLE. |
-| x | Single | Coordenada X de un nuevo marco OLE. |
-| y | Single | Coordenada Y de un nuevo marco OLE. |
-| width | Single | Ancho de un nuevo marco OLE. |
-| height | Single | Altura de un nuevo marco OLE. |
-| className | String | Nombre de una clase OLE. |
-| path | String | Ruta al archivo vinculado. |
-
-### Valor de Retorno
-
-Objeto OLE creado.
-
-### Véase También
-
-* interfaz [IOleObjectFrame](../../ioleobjectframe)
-* interfaz [IShapeCollection](../../ishapecollection)
-* espacio de nombres [Aspose.Slides](../../ishapecollection)
-* ensamblado [Aspose.Slides](../../../)
-
+---  
+  
+## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}  
+  
+Crea un nuevo objeto OLE y lo inserta en una colección en el índice especificado.  
+  
+```csharp  
+public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height,  
+    IOleEmbeddedDataInfo dataInfo)  
+```  
+  
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| index | Int32 | El índice basado en cero en el que se debe insertar el objeto OLE. |  
+| x | Single | Coordenada X de un nuevo marco OLE. |  
+| y | Single | Coordenada Y de un nuevo marco OLE. |  
+| width | Single | Ancho de un nuevo marco OLE. |  
+| height | Single | Altura de un nuevo marco OLE. |  
+| dataInfo | IOleEmbeddedDataInfo | Información de datos incrustados [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |  
+  
+### Valor de retorno  
+  
+Objeto OLE creado.  
+  
+### Véase también  
+  
+* interfaz [IOleObjectFrame](../../ioleobjectframe)  
+* interfaz [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)  
+* interfaz [IShapeCollection](../../ishapecollection)  
+* espacio de nombres [Aspose.Slides](../../ishapecollection)  
+* ensamblaje [Aspose.Slides](../../../)  
+  
+---  
+  
+## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}  
+  
+Crea un nuevo objeto OLE y lo inserta en una colección en el índice especificado.  
+  
+```csharp  
+public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float width, float height,  
+    string className, string path)  
+```  
+  
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| index | Int32 | El índice basado en cero en el que se debe insertar el objeto OLE. |  
+| x | Single | Coordenada X de un nuevo marco OLE. |  
+| y | Single | Coordenada Y de un nuevo marco OLE. |  
+| width | Single | Ancho de un nuevo marco OLE. |  
+| height | Single | Altura de un nuevo marco OLE. |  
+| className | String | Nombre de una clase OLE. |  
+| path | String | Ruta al archivo vinculado. |  
+  
+### Valor de retorno  
+  
+Objeto OLE creado.  
+  
+### Véase también  
+  
+* interfaz [IOleObjectFrame](../../ioleobjectframe)  
+* interfaz [IShapeCollection](../../ishapecollection)  
+* espacio de nombres [Aspose.Slides](../../ishapecollection)  
+* ensamblaje [Aspose.Slides](../../../)  
+  
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

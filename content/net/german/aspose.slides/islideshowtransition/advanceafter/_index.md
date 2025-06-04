@@ -1,7 +1,7 @@
 ---
 title: AdvanceAfter
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Dieses Attribut gibt an, ob die Diashow nach einer bestimmten Zeit zur nächsten Folie übergeht. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Dieses Attribut gibt an, ob die Diashow nach einer bestimmten Zeit zur nächsten Folie wechseln wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/islideshowtransition/advanceafter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/islideshowtransition/advanceafter/
 
 ## ISlideShowTransition.AdvanceAfter-Eigenschaft
 
-Dieses Attribut gibt an, ob die Diashow nach einer bestimmten Zeit zur nächsten Folie übergeht. Lese-/Schreib-Boolean.
+Dieses Attribut gibt an, ob die Diashow nach einer bestimmten Zeit zur nächsten Folie wechseln wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool AdvanceAfter { get; set; }
@@ -21,19 +21,19 @@ public bool AdvanceAfter { get; set; }
 [C#]
 using (Presentation pres = new Presentation("demo.pptx"))
 {
-    // Holen Sie sich die Übergangsfolie der ersten Folie
+    // Erhalte die Übergangsfolie der ersten Folie
     ISlideShowTransition slideTransition = pres.Slides[0].SlideShowTransition;
     
-    // Überprüfen Sie, ob das Flag "Nachfolienübergang aktivieren" aktiviert ist
+    // Überprüfe, ob das "Advance Slide After"-Flag aktiviert ist
     if (slideTransition.AdvanceAfter)
     {
-        // Holen Sie sich den Wert der Zeit für den Folienübergang
+        // Erhalte den Wert der Zeit für das Fortgeschrittene Folienwechsel
         uint advanceAfterTime = slideTransition.AdvanceAfterTime;
     }
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideShowTransition](../../islideshowtransition)
 * Namespace [Aspose.Slides](../../islideshowtransition)

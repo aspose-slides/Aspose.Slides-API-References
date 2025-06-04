@@ -1,7 +1,7 @@
 ---
 title: OutputSaver
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Ausgabespeicher zurück oder legt diesen fest. Lese-/Schreibzugriff auf IOutputSaveraspose.slides/ioutputsaver.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Ausgabespeicher zurück oder setzt ihn. Lesen/Schreiben von IOutputSaveraspose.slides.export.web/ioutputsaver.
 type: docs
 weight: 50
 url: /de/aspose.slides.export.web/webdocumentoptions/outputsaver/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export.web/webdocumentoptions/outputsaver/
 
 ## WebDocumentOptions.OutputSaver-Eigenschaft
 
-Gibt den Ausgabespeicher zurück oder legt diesen fest. Lese-/Schreibzugriff auf [`IOutputSaver`](../../ioutputsaver).
+Gibt den Ausgabespeicher zurück oder setzt ihn. Lesen/Schreiben von [`IOutputSaver`](../../ioutputsaver).
 
 ```csharp
 public IOutputSaver OutputSaver { get; set; }

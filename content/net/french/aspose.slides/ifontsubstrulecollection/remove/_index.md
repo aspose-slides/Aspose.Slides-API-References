@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Supprime la première occurrence d'un objet spécifique de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ifontsubstrulecollection/remove/
 ---
 
-## Méthode IFontSubstRuleCollection.Remove
+## IFontSubstRuleCollection.Remove méthode
 
 Supprime la première occurrence d'un objet spécifique de la collection.
 
@@ -19,7 +19,7 @@ public void Remove(IFontSubstRule value)
 | --- | --- | --- |
 | value | IFontSubstRule | Le module à supprimer de la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontSubstRule](../../ifontsubstrule)
 * interface [IFontSubstRuleCollection](../../ifontsubstrulecollection)

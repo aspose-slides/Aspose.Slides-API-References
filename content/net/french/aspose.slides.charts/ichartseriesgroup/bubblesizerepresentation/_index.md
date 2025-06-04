@@ -1,13 +1,13 @@
 ---
 title: BubbleSizeRepresentation
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence API .NET
 description: Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. Lecture/écriture BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation/
 ---
 
-## Propriété IChartSeriesGroup.BubbleSizeRepresentation
+## IChartSeriesGroup.BubbleSizeRepresentation propriété
 
 Spécifie comment les valeurs de taille des bulles sont représentées sur le graphique à bulles. Lecture/écriture [`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).
 
@@ -15,7 +15,7 @@ Spécifie comment les valeurs de taille des bulles sont représentées sur le gr
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [BubbleSizeRepresentationType](../../bubblesizerepresentationtype)
 * interface [IChartSeriesGroup](../../ichartseriesgroup)

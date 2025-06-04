@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides for .NET API 参考
-description: 获取集合中实际包含的元素数量。只读 Int32。
+second_title: Aspose.Slides for .NET API Reference
+description: 获取实际包含在集合中的元素数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides/slidecollection/count/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/slidecollection/count/
 
 ## SlideCollection.Count 属性
 
-获取集合中实际包含的元素数量。只读 Int32。
+获取实际包含在集合中的元素数量。只读 Int32。
 
 ```csharp
 public int Count { get; }

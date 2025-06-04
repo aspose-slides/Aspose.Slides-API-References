@@ -1,7 +1,7 @@
 ---
 title: AddChart
-second_title: Aspose.Sildes для .NET API Reference
-description: Создает новый график, инициализирует его примером данных серии и настройками и добавляет его в конец коллекции.
+second_title: Aspose.Sildes для справочника API .NET
+description: Создает новый график, инициализирует его с помощью образцов данных и настроек и добавляет в конец коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides/shapecollection/addchart/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shapecollection/addchart/
 
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
-Создает новый график, инициализирует его примером данных серии и настройками и добавляет его в конец коллекции.
+Создает новый график, инициализирует его с помощью образцов данных и настроек и добавляет в конец коллекции.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height)
@@ -23,7 +23,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | width | Single | Ширина графика. |
 | height | Single | Высота графика. |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Созданный график.
 
@@ -95,7 +95,7 @@ using(Presentation pres = new Presentation()) {
 }
 ```
 
-### Также посмотрите
+### См. также
 
 * interface [IChart](../../../aspose.slides.charts/ichart)
 * enum [ChartType](../../../aspose.slides.charts/charttype)
@@ -121,13 +121,13 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | y | Single | Координата Y нового графика. |
 | width | Single | Ширина графика. |
 | height | Single | Высота графика. |
-| initWithSample | Boolean | Если true, новый график будет инициализирован примером данных серии и настройками. Если false, новый график не будет иметь серий и минимальных настроек. В этом случае создание графика будет быстрее. |
+| initWithSample | Boolean | Если true, то новый график будет инициализирован с помощью образцов данных и настроек. Если false, то новый график не будет иметь серий и минимальных настроек. В этом случае создание графика будет быстрее. |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Созданный график.
 
-### Также посмотрите
+### См. также
 
 * interface [IChart](../../../aspose.slides.charts/ichart)
 * enum [ChartType](../../../aspose.slides.charts/charttype)

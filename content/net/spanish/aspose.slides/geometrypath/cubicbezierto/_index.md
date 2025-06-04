@@ -1,6 +1,6 @@
 ---
 title: CubicBezierTo
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Agrega una curva Bezier cúbica al final del camino
 type: docs
 weight: 70
@@ -21,7 +21,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 | point2 | PointF | Segundo punto de dirección |
 | point3 | PointF | Punto final |
 
-### Véase también
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -39,14 +39,14 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x1 | Single | Coordenada X del primer punto de dirección |
-| y1 | Single | Coordenada Y del primer punto de dirección |
-| x2 | Single | Coordenada X del segundo punto de dirección |
-| y2 | Single | Coordenada Y del segundo punto de dirección |
-| x3 | Single | Coordenada X del punto final |
-| y3 | Single | Coordenada Y del punto final |
+| x1 | Single | Coordinada X del primer punto de dirección |
+| y1 | Single | Coordinada Y del primer punto de dirección |
+| x2 | Single | Coordinada X del segundo punto de dirección |
+| y2 | Single | Coordinada Y del segundo punto de dirección |
+| x3 | Single | Coordinada X del punto final |
+| y3 | Single | Coordinada Y del punto final |
 
-### Véase también
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -67,7 +67,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 | point1 | PointF | Primer punto de dirección |
 | point2 | PointF | Segundo punto de dirección |
 | point3 | PointF | Punto final |
-| index | UInt32 | Índice del segmento en PathData |
+| index | UInt32 | Índice de segmento en PathData |
 
 ### Excepciones
 
@@ -75,7 +75,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 | --- | --- |
 | ArgumentOutOfRangeException | El índice del segmento está fuera del rango de PathData |
 
-### Véase también
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -93,13 +93,13 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x1 | Single | Coordenada X del primer punto de dirección |
-| y1 | Single | Coordenada Y del primer punto de dirección |
-| x2 | Single | Coordenada X del segundo punto de dirección |
-| y2 | Single | Coordenada Y del segundo punto de dirección |
-| x3 | Single | Coordenada X del punto final |
-| y3 | Single | Coordenada Y del punto final |
-| index | UInt32 | Índice del segmento en PathData |
+| x1 | Single | Coordinada X del primer punto de dirección |
+| y1 | Single | Coordinada Y del primer punto de dirección |
+| x2 | Single | Coordinada X del segundo punto de dirección |
+| y2 | Single | Coordinada Y del segundo punto de dirección |
+| x3 | Single | Coordinada X del punto final |
+| y3 | Single | Coordinada Y del punto final |
+| index | UInt32 | Índice de segmento en PathData |
 
 ### Excepciones
 
@@ -107,7 +107,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 | --- | --- |
 | ArgumentOutOfRangeException | El índice del segmento está fuera del rango de PathData |
 
-### Véase también
+### Ver También
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)

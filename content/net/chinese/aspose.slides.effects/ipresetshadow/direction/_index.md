@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
-description: 阴影的方向。可读写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 阴影方向。可读写单精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/ipresetshadow/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ipresetshadow/direction/
 
 ## IPresetShadow.Direction 属性
 
-阴影的方向。可读写 Single。
+阴影方向。可读写单精度浮点数。
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IPresetShadow](../../ipresetshadow)
 * 命名空间 [Aspose.Slides.Effects](../../ipresetshadow)

@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет указанное значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/itrendlinecollection/remove/
 ---
 
-## Метод ITrendlineCollection.Remove
+## ITrendlineCollection.Remove метод
 
 Удаляет указанное значение.
 
@@ -17,9 +17,9 @@ public void Remove(ITrendline value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | ITrendline | Трендовая линия для удаления [`ITrendline`](../../itrendline) |
+| value | ITrendline | Линия тренда для удаления [`ITrendline`](../../itrendline) |
 
-### См. также
+### См. Также
 
 * интерфейс [ITrendline](../../itrendline)
 * интерфейс [ITrendlineCollection](../../itrendlinecollection)

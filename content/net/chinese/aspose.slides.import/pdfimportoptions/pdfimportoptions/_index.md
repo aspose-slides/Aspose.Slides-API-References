@@ -15,7 +15,7 @@ url: /zh/aspose.slides.import/pdfimportoptions/pdfimportoptions/
 public PdfImportOptions()
 ```
 
-### 参见
+### 另请参见
 
 * 类 [PdfImportOptions](../../pdfimportoptions)
 * 命名空间 [Aspose.Slides.Import](../../pdfimportoptions)

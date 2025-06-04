@@ -1,7 +1,7 @@
 ---
 title: PlayLoopMode
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si un video se reproduce en bucle. Booleano de lectura/escritura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Determina si un video se repite. Booleano de lectura/escritura.
 type: docs
 weight: 70
 url: /es/aspose.slides/ivideoframe/playloopmode/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ivideoframe/playloopmode/
 
 ## Propiedad IVideoFrame.PlayLoopMode
 
-Determina si un video se reproduce en bucle. Booleano de lectura/escritura.
+Determina si un video se repite. Booleano de lectura/escritura.
 
 ```csharp
 public bool PlayLoopMode { get; set; }

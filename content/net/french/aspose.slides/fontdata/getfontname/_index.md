@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides/fontdata/getfontname/
 ---
 
-## Méthode FontData.GetFontName
+## FontData.GetFontName méthode
 
 Renvoie le nom de la police, en remplaçant la référence de thème par une police réelle utilisée.
 
@@ -17,7 +17,7 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | Thème à partir duquel le nom de la police de thème doit être pris. Il appartient à l'appelant de fournir une valeur correcte. Voir [`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
+| theme | IThemeEffectiveData | Thème à partir duquel le nom de la police thématique doit être pris. Il appartient à l'appelant de fournir une valeur correcte. Voir [`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
 
 ### Valeur de retour
 

@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour l'API .NET Référence
 description: Obtient les données effectives de l'effet de superposition de remplissage avec l'héritage appliqué.
 type: docs
 weight: 40

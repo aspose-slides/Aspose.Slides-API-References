@@ -1,13 +1,13 @@
 ---
 title: AsIGraphicalObject
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IGraphicalObject. IGraphicalObject solo de lectura aspose.slides/igraphicalobject.
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Permite obtener la interfaz base IGraphicalObject. Solo lectura IGraphicalObjectaspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /es/aspose.slides/ilegacydiagram/asigraphicalobject/
 ---
 
-## Propiedad ILegacyDiagram.AsIGraphicalObject
+## ILegacyDiagram.AsIGraphicalObject propiedad
 
 Permite obtener la interfaz base IGraphicalObject. Solo lectura [`IGraphicalObject`](../../igraphicalobject).
 

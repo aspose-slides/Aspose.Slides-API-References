@@ -1,7 +1,7 @@
 ---
 title: DefaultTextStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style de texte par défaut pour les formes. Lecture seule ITextStyleaspose.slides/itextstyle.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le style de texte par défaut pour les formes. Lecture seule ITextStyle aspose.slides/itextstyle.
 type: docs
 weight: 70
 url: /fr/aspose.slides/presentation/defaulttextstyle/
@@ -15,7 +15,7 @@ Renvoie le style de texte par défaut pour les formes. Lecture seule [`ITextStyl
 public ITextStyle DefaultTextStyle { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextStyle](../../itextstyle)
 * classe [Presentation](../../presentation)

@@ -1,6 +1,6 @@
 ---
 title: GetEmbeddedFonts
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает шрифты, встроенные в презентацию
 type: docs
 weight: 40

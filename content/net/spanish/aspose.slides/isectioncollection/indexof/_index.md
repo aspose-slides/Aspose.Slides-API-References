@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Devuelve un índice de la sección especificada en la colección.
 type: docs
 weight: 60
@@ -23,11 +23,11 @@ public int IndexOf(ISection section)
 
 Índice de una sección o -1 si la sección no pertenece a esta colección.
 
-### Vea También
+### Véase También
 
 * interfaz [ISection](../../isection)
 * interfaz [ISectionCollection](../../isectioncollection)
 * espacio de nombres [Aspose.Slides](../../isectioncollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

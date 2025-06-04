@@ -1,7 +1,7 @@
 ---
 title: Value
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el valor del punto de datos del gráfico. Solo lectura IDoubleChartValue aspose.slides.charts/idoublechartvalue.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Devuelve el valor del punto de datos del gráfico. Solo lectura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 160
 url: /es/aspose.slides.charts/ichartdatapoint/value/
@@ -15,7 +15,7 @@ Devuelve el valor del punto de datos del gráfico. Solo lectura [`IDoubleChartVa
 public IDoubleChartValue Value { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IDoubleChartValue](../../idoublechartvalue)
 * interfaz [IChartDataPoint](../../ichartdatapoint)

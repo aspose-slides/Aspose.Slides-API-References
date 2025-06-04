@@ -1,13 +1,13 @@
 ---
 title: SetExternalHyperlinkClick
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Définir un lien hypertexte externe au clic.
 type: docs
 weight: 30
 url: /fr/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/
 ---
 
-## Méthode HyperlinkManager.SetExternalHyperlinkClick
+## HyperlinkManager.SetExternalHyperlinkClick méthode
 
 Définir un lien hypertexte externe au clic.
 
@@ -27,16 +27,16 @@ Le code d'exemple suivant montre comment ajouter une zone de texte avec un lien 
 [C#]
 // Instancie une classe Presentation qui représente un PPTX
 using(Presentation pptxPresentation = new Presentation()) {
-  // Obtient la première diapositive de la présentation
+  // Obtient la première diapositive dans la présentation
   ISlide slide = pptxPresentation.Slides[0];
   // Ajoute un objet AutoShape avec le type défini comme Rectangle
   IShape pptxShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
-  // Convertit la forme en AutoShape
+  // Cast le shape en AutoShape
   IAutoShape pptxAutoShape = (IAutoShape) pptxShape;
   // Accède à la propriété ITextFrame associée à l'AutoShape
   pptxAutoShape.AddTextFrame("");
   ITextFrame textFrame = pptxAutoShape.TextFrame;
-  // Ajoute du texte à la trame
+  // Ajoute du texte au cadre
   textFrame.Paragraphs[0].Portions[0].Text = "Aspose.Slides";
   // Définit le lien hypertexte pour le texte de la portion
   IHyperlinkManager HypMan = textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkManager;

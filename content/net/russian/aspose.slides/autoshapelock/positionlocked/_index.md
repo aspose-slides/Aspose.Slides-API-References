@@ -1,15 +1,15 @@
 ---
 title: PositionLocked
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли перемещение этой формы. Свойство типа Boolean для чтения и записи.
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, запрещено ли перемещение этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/autoshapelock/positionlocked/
 ---
 
-## Свойство AutoShapeLock.PositionLocked
+## AutoShapeLock.PositionLocked свойство
 
-Определяет, запрещено ли перемещение этой формы. Свойство типа Boolean для чтения и записи.
+Определяет, запрещено ли перемещение этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool PositionLocked { get; set; }

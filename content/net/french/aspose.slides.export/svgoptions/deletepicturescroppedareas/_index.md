@@ -1,21 +1,21 @@
 ---
 title: DeletePicturesCroppedAreas
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Un indicateur booléen indique si les parties découpées restent en tant que partie du document. Si vrai, les parties découpées seront supprimées ; si faux, elles seront sérialisées dans le document, ce qui peut entraîner un fichier plus volumineux.
+second_title: Aspose.Slides pour .NET Référence API
+description: Un indicateur booléen indique si les parties recadrées restent comme partie du document. Si vrai, les parties recadrées seront supprimées, si faux, elles seront serialisées dans le document, ce qui peut éventuellement mener à un fichier plus volumineux.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/svgoptions/deletepicturescroppedareas/
 ---
 
-## Propriété SVGOptions.DeletePicturesCroppedAreas
+## SVGOptions.DeletePicturesCroppedAreas propriété
 
-Un indicateur booléen indique si les parties découpées restent en tant que partie du document. Si vrai, les parties découpées seront supprimées ; si faux, elles seront sérialisées dans le document (ce qui peut entraîner un fichier plus volumineux).
+Un indicateur booléen indique si les parties recadrées restent comme partie du document. Si vrai, les parties recadrées seront supprimées, si faux, elles seront serialisées dans le document (ce qui peut éventuellement mener à un fichier plus volumineux).
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SVGOptions](../../svgoptions)
 * espace de noms [Aspose.Slides.Export](../../svgoptions)

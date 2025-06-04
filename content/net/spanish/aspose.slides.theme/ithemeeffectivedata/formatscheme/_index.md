@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.theme/ithemeeffectivedata/formatscheme/
 ---
 
-## Propiedad IThemeEffectiveData.FormatScheme
+## IThemeEffectiveData.FormatScheme propiedad
 
 Devuelve el esquema de formato de la forma. Solo lectura [`IFormatSchemeEffectiveData`](../../iformatschemeeffectivedata).
 
@@ -15,11 +15,11 @@ Devuelve el esquema de formato de la forma. Solo lectura [`IFormatSchemeEffectiv
 public IFormatSchemeEffectiveData FormatScheme { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)
 * interfaz [IThemeEffectiveData](../../ithemeeffectivedata)
 * espacio de nombres [Aspose.Slides.Theme](../../ithemeeffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

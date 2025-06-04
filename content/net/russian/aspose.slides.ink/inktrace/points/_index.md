@@ -1,6 +1,6 @@
 ---
 title: Points
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает точки для IInkLine PointF только для чтения.
 type: docs
 weight: 20

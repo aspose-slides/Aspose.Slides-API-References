@@ -1,7 +1,7 @@
 ---
 title: AddChart
-second_title: Aspose.Sildes for .NET API Reference
-description: Создает новый график, инициализирует его образцовыми данными и настройками, и добавляет его в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый график, инициализирует его с образцом данных серии и настройками, и добавляет его в конец коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ishapecollection/addchart/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapecollection/addchart/
 
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
-Создает новый график, инициализирует его образцовыми данными и настройками, и добавляет его в конец коллекции.
+Создает новый график, инициализирует его с образцом данных серии и настройками, и добавляет его в конец коллекции.
 
 ```csharp
 public IChart AddChart(ChartType type, float x, float y, float width, float height)
@@ -18,8 +18,8 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | ChartType | Тип графика. |
-| x | Single | X-координата нового графика. |
-| y | Single | Y-координата нового графика. |
+| x | Single | X координата нового графика. |
+| y | Single | Y координата нового графика. |
 | width | Single | Ширина графика. |
 | height | Single | Высота графика. |
 
@@ -27,7 +27,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 Созданный график.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChart](../../../aspose.slides.charts/ichart)
 * перечисление [ChartType](../../../aspose.slides.charts/charttype)
@@ -49,17 +49,17 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | ChartType | Тип графика. |
-| x | Single | X-координата нового графика. |
-| y | Single | Y-координата нового графика. |
+| x | Single | X координата нового графика. |
+| y | Single | Y координата нового графика. |
 | width | Single | Ширина графика. |
 | height | Single | Высота графика. |
-| initWithSample | Boolean | Если true, новый график будет инициализирован образцовыми данными и настройками. Если false, новый график не будет иметь серий и минимальных настроек. В этом случае создание графика будет быстрее. |
+| initWithSample | Boolean | Если true, новый график будет инициализирован с образцом данных серии и настройками. Если false, новый график не будет иметь серий и минимальных настроек. В этом случае создание графика будет происходить быстрее. |
 
 ### Возвращаемое значение
 
 Созданный график.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChart](../../../aspose.slides.charts/ichart)
 * перечисление [ChartType](../../../aspose.slides.charts/charttype)

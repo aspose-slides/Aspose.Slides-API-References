@@ -1,6 +1,6 @@
 ---
 title: EffectFormat
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回文本 EffectFormat 属性。只读 IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/effectformat/
 public IEffectFormatEffectiveData EffectFormat { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

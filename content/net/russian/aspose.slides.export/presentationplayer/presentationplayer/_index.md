@@ -1,6 +1,6 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник API Aspose.Slides для .NET
 description: Создает новый экземпляр PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs
 weight: 10
@@ -20,7 +20,7 @@ public PresentationPlayer(PresentationAnimationsGenerator generator, double fps)
 | generator | PresentationAnimationsGenerator |  |
 | fps | Double | Кадры в секунду (FPS) |
 
-### См. Также
+### См. также
 
 * класс [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * класс [PresentationPlayer](../../presentationplayer)

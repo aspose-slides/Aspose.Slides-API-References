@@ -1,6 +1,6 @@
 ---
 title: Orientation
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient l'orientation d'un espace réservé. Lecture seule Orientationaspose.slides/orientation.
 type: docs
 weight: 20

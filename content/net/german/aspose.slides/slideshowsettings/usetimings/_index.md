@@ -1,15 +1,15 @@
 ---
 title: UseTimings
-second_title: Aspose.Slides für .NET API Referenz
-description: Verwenden Sie Timings in der Diashow
+second_title: Aspose.Sildes für .NET API Referenz
+description: Verwenden von Timings in der Präsentation
 type: docs
 weight: 80
 url: /de/aspose.slides/slideshowsettings/usetimings/
 ---
 
-## SlideShowSettings.UseTimings Eigenschaft
+## SlideShowSettings.UseTimings-Eigenschaft
 
-Verwenden Sie Timings in der Diashow
+Verwenden von Timings in der Präsentation
 
 ```csharp
 public bool UseTimings { get; set; }

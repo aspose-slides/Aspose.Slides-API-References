@@ -1,7 +1,7 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Slides for .NET API 参考
-description: 表示一个 GradientStopDataEx 对象的集合。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示 GradientStopDataEx 对象的集合。
 type: docs
 weight: 5840
 url: /zh/aspose.slides/igradientstopcollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igradientstopcollectioneffectivedata/
 
 ## IGradientStopCollectionEffectiveData 接口
 
-表示一个 GradientStopDataEx 对象的集合。
+表示 GradientStopDataEx 对象的集合。
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
@@ -20,9 +20,9 @@ public interface IGradientStopCollectionEffectiveData :
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 根据索引返回渐变位置。 |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 根据索引返回渐变停靠点。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IGradientStopEffectiveData](../igradientstopeffectivedata)

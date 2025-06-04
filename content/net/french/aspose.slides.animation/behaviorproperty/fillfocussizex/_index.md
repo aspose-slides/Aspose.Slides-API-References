@@ -1,6 +1,6 @@
 ---
 title: FillFocusSizeX
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Slides pour la référence API .NET
 description: Représente la propriété fill.focussize.x
 type: docs
 weight: 330

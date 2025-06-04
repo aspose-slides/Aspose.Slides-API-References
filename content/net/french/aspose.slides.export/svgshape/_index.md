@@ -1,15 +1,15 @@
 ---
 title: SvgShape
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les options pour la forme SVG.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente les options pour une forme SVG.
 type: docs
 weight: 4320
 url: /fr/aspose.slides.export/svgshape/
 ---
 
-## Classe SvgShape
+## SvgShape class
 
-Représente les options pour la forme SVG.
+Représente les options pour une forme SVG.
 
 ```csharp
 public sealed class SvgShape : ISvgShape

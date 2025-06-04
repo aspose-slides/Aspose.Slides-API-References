@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает ячейку IChartDataCell по индексу.
 type: docs
 weight: 30
@@ -19,11 +19,11 @@ public IChartDataCell this[int index] { get; }
 | --- | --- |
 | index | Индекс ячейки. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Ячейка с данными.
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataCell](../../ichartdatacell)
 * интерфейс [IChartCellCollection](../../ichartcellcollection)

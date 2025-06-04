@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaModulate
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建 Alpha 调制效果。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public IAlphaModulate CreateAlphaModulate()
 
 Alpha 调制效果。
 
-### 参见
+### 另请参阅
 
 * 接口 [IAlphaModulate](../../ialphamodulate)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

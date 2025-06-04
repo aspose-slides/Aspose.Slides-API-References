@@ -15,7 +15,7 @@ Devuelve un ParentSlide de solo lectura [`ISlide`](../../islide).
 public ISlide ParentSlide { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlide](../../islide)
 * interfaz [INotesSlide](../../inotesslide)

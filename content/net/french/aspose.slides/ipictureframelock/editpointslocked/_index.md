@@ -1,6 +1,6 @@
 ---
 title: EditPointsLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 60

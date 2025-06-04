@@ -1,7 +1,7 @@
 ---
 title: Indent
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Einzug der ersten Zeile/den hängenden Einzug des Absatzes ohne Vererbung zurück oder setzt ihn. Der hängende Einzug kann mit negativen Werten definiert werden. Lese/Schreibwert Einzel.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den ersten Zeileneinzug/den hängenden Einzug eines Absatzes ohne Vererbung zurück oder setzt ihn. Der hängende Einzug kann mit negativen Werten definiert werden. Schreib-/Lesezugriff auf Single.
 type: docs
 weight: 90
 url: /de/aspose.slides/iparagraphformat/indent/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformat/indent/
 
 ## IParagraphFormat.Indent-Eigenschaft
 
-Gibt den Einzug der ersten Zeile/den hängenden Einzug des Absatzes ohne Vererbung zurück oder setzt ihn. Der hängende Einzug kann mit negativen Werten definiert werden. Lese/Schreibwert Einzel.
+Gibt den ersten Zeileneinzug/den hängenden Einzug eines Absatzes ohne Vererbung zurück oder setzt ihn. Der hängende Einzug kann mit negativen Werten definiert werden. Schreib-/Lesezugriff auf Single.
 
 ```csharp
 public float Indent { get; set; }

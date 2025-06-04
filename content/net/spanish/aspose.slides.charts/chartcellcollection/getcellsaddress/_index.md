@@ -1,13 +1,13 @@
 ---
 title: GetCellsAddress
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la dirección del conjunto de celdas en el libro de trabajo.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/chartcellcollection/getcellsaddress/
 ---
 
-## Método ChartCellCollection.GetCellsAddress
+## ChartCellCollection.GetCellsAddress método
 
 Devuelve la dirección del conjunto de celdas en el libro de trabajo.
 
@@ -15,10 +15,10 @@ Devuelve la dirección del conjunto de celdas en el libro de trabajo.
 public string GetCellsAddress()
 ```
 
-### Ver También
+### Véase también
 
 * clase [ChartCellCollection](../../chartcellcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartcellcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

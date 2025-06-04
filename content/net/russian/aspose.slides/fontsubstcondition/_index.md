@@ -1,7 +1,7 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Slides для .NET API Справка
-description: Представляет правило для подстановки шрифтов
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет правило для подстановки шрифта
 type: docs
 weight: 4680
 url: /ru/aspose.slides/fontsubstcondition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/fontsubstcondition/
 
 ## Перечисление FontSubstCondition
 
-Представляет правило для подстановки шрифтов
+Представляет правило для подстановки шрифта
 
 ```csharp
 public enum FontSubstCondition
@@ -17,12 +17,12 @@ public enum FontSubstCondition
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Подстановка, когда шрифт не найден |
-| Always | `1` | Подстановка всегда |
+| WhenInaccessible | `0` | Подставлять, когда шрифт не найден |
+| Always | `1` | Всегда подставлять |
 
-### См. также
+### Также см. 
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

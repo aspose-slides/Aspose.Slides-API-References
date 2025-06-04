@@ -1,7 +1,7 @@
 ---
 title: Subtype
-second_title: Aspose.Slides for .NET API 参考
-description: 定义效果的子类型。可读/写 EffectSubtype aspose.slides.animation/effectsubtype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义效果的子类型。读/写 EffectSubtypeaspose.slides.animation/effectsubtype。
 type: docs
 weight: 100
 url: /zh/aspose.slides.animation/ieffect/subtype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/ieffect/subtype/
 
 ## IEffect.Subtype 属性
 
-定义效果的子类型。可读/写 [`EffectSubtype`](../../effectsubtype)。
+定义效果的子类型。读/写 [`EffectSubtype`](../../effectsubtype)。
 
 ```csharp
 public EffectSubtype Subtype { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 枚举 [EffectSubtype](../../effectsubtype)
 * 接口 [IEffect](../../ieffect)

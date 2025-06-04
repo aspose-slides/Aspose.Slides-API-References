@@ -1,15 +1,15 @@
 ---
 title: ShadowMatrixPerspectiveY
-second_title: Aspose.Slides для .NET API Справочник
-description: О Represents свойство shadow.matrix.perspectiveY
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойство shadow.matrix.perspectiveY
 type: docs
 weight: 630
 url: /ru/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivey/
 ---
 
-## Свойство BehaviorProperty.ShadowMatrixPerspectiveY
+## BehaviorProperty.ShadowMatrixPerspectiveY свойство
 
-О Represents свойство 'shadow.matrix.perspectiveY'
+Представляет свойство 'shadow.matrix.perspectiveY'
 
 ```csharp
 public static BehaviorProperty ShadowMatrixPerspectiveY { get; }

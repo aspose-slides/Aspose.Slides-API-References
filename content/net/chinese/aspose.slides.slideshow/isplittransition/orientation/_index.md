@@ -1,7 +1,7 @@
 ---
 title: Orientation
-second_title: Aspose.Slides for .NET API 参考
-description: 切换的分割方向。读/写 Orientationaspose.slides/../aspose.slides/orientation。
+second_title: Aspose.Sildes for .NET API Reference
+description: 过渡拆分的方向。读/写 Orientationaspose.slides/../aspose.slides/orientation.
 type: docs
 weight: 30
 url: /zh/aspose.slides.slideshow/isplittransition/orientation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/isplittransition/orientation/
 
 ## ISplitTransition.Orientation 属性
 
-切换的分割方向。读/写 [`Orientation`](../../../aspose.slides/orientation)。
+过渡拆分的方向。读/写 [`Orientation`](../../../aspose.slides/orientation).
 
 ```csharp
 public Orientation Orientation { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 枚举 [Orientation](../../../aspose.slides/orientation)
 * 接口 [ISplitTransition](../../isplittransition)

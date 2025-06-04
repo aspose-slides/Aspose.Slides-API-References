@@ -1,15 +1,15 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает значение, указывающее, безопасен ли доступ к коллекции в многопоточном режиме. Только для чтения Boolean.
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным потоко-безопасным. Свойство только для чтения, тип Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/effectstylecollection/issynchronized/
 ---
 
-## Свойство EffectStyleCollection.IsSynchronized
+## EffectStyleCollection.IsSynchronized свойство
 
-Возвращает значение, указывающее, безопасен ли доступ к коллекции (многопоточно). Только для чтения Boolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потоко-безопасным). Свойство только для чтения, тип Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

@@ -1,7 +1,7 @@
 ---
 title: TitlesOfParts
-second_title: Aspose.Slides for .NET API 参考
-description: 指定每个文档部件的标题。这些部件不是文档部件，而是文档部分的概念表示。只读字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定每个文档部分的标题。这些部分不是文档部分，而是文档节的概念表示。只读字符串。
 type: docs
 weight: 340
 url: /zh/aspose.slides/documentproperties/titlesofparts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/documentproperties/titlesofparts/
 
 ## DocumentProperties.TitlesOfParts 属性
 
-指定每个文档部件的标题。这些部件不是文档部件，而是文档部分的概念表示。只读字符串数组。[string[]]
+指定每个文档部分的标题。这些部分不是文档部分，而是文档节的概念表示。只读字符串数组。
 
 ```csharp
 public string[] TitlesOfParts { get; }

@@ -1,6 +1,6 @@
 ---
 title: AsLiteralDouble
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie ou définit une valeur double littérale si DataSourceType = Charts.DataSourceType.DoubleLiterals. Lecture/écriture Double.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie ou définit une valeur double littérale si DataSourceType = Charts.Data
 public double AsLiteralDouble { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDoubleChartValue](../../idoublechartvalue)
 * namespace [Aspose.Slides.Charts](../../idoublechartvalue)

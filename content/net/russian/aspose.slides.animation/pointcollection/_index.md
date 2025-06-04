@@ -1,15 +1,15 @@
 ---
 title: PointCollection
 second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой коллекцию точек анимации.
+description: Представляет коллекцию анимационных точек.
 type: docs
 weight: 650
 url: /ru/aspose.slides.animation/pointcollection/
 ---
 
-## Класс PointCollection
+## PointCollection класс
 
-Представляет собой коллекцию точек анимации.
+Представляет коллекцию анимационных точек.
 
 ```csharp
 public class PointCollection : IPointCollection
@@ -25,16 +25,16 @@ public class PointCollection : IPointCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Возвращает количество точек в коллекции. Свойство только для чтения Int32. |
-| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Возвращает точку по заданному индексу. |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Возвращает количество точек в коллекции. Только для чтения Int32. |
+| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Возвращает точку по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Возвращает перечислитель, который проходит по коллекции. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
-### См. Также
+### См. также
 
 * интерфейс [IPointCollection](../ipointcollection)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)

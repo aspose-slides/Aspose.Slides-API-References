@@ -1,6 +1,6 @@
 ---
 title: DeleteGroupingItem
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справка по API Aspose.Slides для .NET
 description: Удалить элемент группировки для определенного уровня.
 type: docs
 weight: 20

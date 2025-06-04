@@ -1,6 +1,6 @@
 ---
 title: AsIBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IBaseSlideHeaderFooterManager 接口。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IBaseSlideHeaderFooterManager AsIBaseSlideHeaderFooterManager { get; }
 
 为了兼容 COM。
 
-### 另请参见
+### 参见
 
 * 接口 [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * 接口 [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)

@@ -1,15 +1,15 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет собой коллекцию корректировок форм.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию настроек фигур.
 type: docs
 weight: 20
 url: /ru/aspose.slides/adjustvaluecollection/
 ---
 
-## Класс AdjustValueCollection
+## AdjustValueCollection class
 
-Представляет собой коллекцию корректировок формы.
+Представляет собой коллекцию настроек фигур.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -17,18 +17,18 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Возвращает количество корректировок. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (потокобезопасно). Только для чтения Boolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Возвращает корректировку по индексу. |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Возвращает количество настроек. Только для чтения Int32. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Возвращает настройку по индексу. |
 | [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Копирует все элементы из коллекции в заданный массив. |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
 
 ### См. также
 

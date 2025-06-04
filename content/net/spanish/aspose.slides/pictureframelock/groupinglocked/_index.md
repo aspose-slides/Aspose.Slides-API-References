@@ -1,7 +1,7 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Slides para .NET Referencia de API
-description: Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si se prohíbe añadir esta forma a un grupo. Booleano de lectura/escritura.
 type: docs
 weight: 60
 url: /es/aspose.slides/pictureframelock/groupinglocked/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/pictureframelock/groupinglocked/
 
 ## Propiedad PictureFrameLock.GroupingLocked
 
-Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/escritura.
+Determina si se prohíbe añadir esta forma a un grupo. Booleano de lectura/escritura.
 
 ```csharp
 public bool GroupingLocked { get; set; }
 ```
 
-### Véase También
+### Véase también
 
-* class [PictureFrameLock](../../pictureframelock)
-* namespace [Aspose.Slides](../../pictureframelock)
-* assembly [Aspose.Slides](../../../)
+* clase [PictureFrameLock](../../pictureframelock)
+* espacio de nombres [Aspose.Slides](../../pictureframelock)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

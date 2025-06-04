@@ -1,6 +1,6 @@
 ---
 title: ApplyColorScheme
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Aplica un esquema de color adicional a una diapositiva.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public void ApplyColorScheme(IExtraColorScheme scheme)
 | --- | --- | --- |
 | scheme | IExtraColorScheme | Esquema de color adicional [`IExtraColorScheme`](../../iextracolorscheme) |
 
-### Ver También
+### Véase también
 
 * interfaz [IExtraColorScheme](../../iextracolorscheme)
 * interfaz [IThemeManager](../../ithememanager)

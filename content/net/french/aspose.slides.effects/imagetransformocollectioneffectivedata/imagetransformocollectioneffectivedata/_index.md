@@ -1,6 +1,6 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Le constructeur par défaut.
 type: docs
 weight: 10

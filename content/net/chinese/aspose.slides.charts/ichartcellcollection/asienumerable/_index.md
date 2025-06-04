@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 ICollection 接口。只能读取的 IEnumerable。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 ICollection 接口。只读 IEnumerable。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ichartcellcollection/asienumerable/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcellcollection/asienumerable/
 
 ## IChartCellCollection.AsIEnumerable 属性
 
-返回 ICollection 接口。只能读取的 IEnumerable。
+返回 ICollection 接口。只读 IEnumerable。
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
@@ -17,9 +17,9 @@ public IEnumerable AsIEnumerable { get; }
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另请参见
+### 另见
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcellcollection)

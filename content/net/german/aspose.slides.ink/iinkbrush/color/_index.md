@@ -1,7 +1,7 @@
 ---
 title: Color
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Pinsel-Farbe für eine Linie ab oder legt sie fest.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Pinsel- oder Strichfarbe für eine Linie an oder erhält sie.
 type: docs
 weight: 10
 url: /de/aspose.slides.ink/iinkbrush/color/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.ink/iinkbrush/color/
 
 ## IInkBrush.Color-Eigenschaft
 
-Ruft die Pinsel-Farbe für eine Linie ab oder legt sie fest.
+Gibt die Pinsel- oder Strichfarbe für eine Linie an oder erhält sie.
 
 ```csharp
 public Color Color { get; set; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInkBrush](../../iinkbrush)
 * Namespace [Aspose.Slides.Ink](../../iinkbrush)

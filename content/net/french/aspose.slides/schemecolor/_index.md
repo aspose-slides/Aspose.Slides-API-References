@@ -1,15 +1,15 @@
 ---
 title: SchemeColor
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les couleurs dans un schéma de couleurs.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Représente des couleurs dans un schéma de couleurs.
 type: docs
 weight: 9470
 url: /fr/aspose.slides/schemecolor/
 ---
 
-## Énumération SchemeColor
+## Enumération SchemeColor
 
-Représente les couleurs dans un schéma de couleurs.
+Représente des couleurs dans un schéma de couleurs.
 
 ```csharp
 public enum SchemeColor
@@ -38,7 +38,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

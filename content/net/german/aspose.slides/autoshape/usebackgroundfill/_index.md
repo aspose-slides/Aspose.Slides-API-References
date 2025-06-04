@@ -1,7 +1,7 @@
 ---
 title: UseBackgroundFill
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob diese Autoform mit dem Hintergrundfüllung der Folie anstelle des durch Stil oder Füllformat angegebenen gefüllt werden soll. Lese-/schreibbare Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob diese Autoshape mit dem Hintergrundfüllung der Folie gefüllt werden soll, anstatt durch den Stil oder das Füllformat festgelegt zu werden. Lese-/schreibbarer Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/autoshape/usebackgroundfill/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/autoshape/usebackgroundfill/
 
 ## AutoShape.UseBackgroundFill-Eigenschaft
 
-Bestimmt, ob diese Autoform mit der Hintergrundfüllung der Folie anstelle des durch Stil oder Füllformat angegebenen gefüllt werden soll. Lese-/schreibbare Boolean.
+Bestimmt, ob diese Autoshape mit der Hintergrundfüllung der Folie gefüllt werden soll, anstatt durch den Stil oder das Füllformat festgelegt zu werden. Lese-/schreibbarer Boolean.
 
 ```csharp
 public bool UseBackgroundFill { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: ShowLabelAsDataCallout
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si l'étiquette de données du graphique spécifié sera affichée en tant qu'appel de données ou en tant qu'étiquette de données. Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLabelAsDataCallout pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLabelAsDataCallout pour toutes les étiquettes de données dans la collection DataLabelCollection, c'est-à-dire que "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" entraîne que toutes les DataLabelsi.ShowLabelAsDataCallout soient égales à val.
+description: Détermine si l'étiquette de données du graphique spécifié sera affichée en tant qu'appel de données ou en tant qu'étiquette de données. Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLabelAsDataCallout pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLabelAsDataCallout de toutes les étiquettes de données dans la collection DataLabelCollection c'est-à-dire que "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" entraîne que toutes les DataLabelsi.ShowLabelAsDataCallout sont égales à val.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/datalabelformat/showlabelasdatacallout/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/datalabelformat/showlabelasdatacallout/
 
 ## Propriété DataLabelFormat.ShowLabelAsDataCallout
 
-Détermine si l'étiquette de données du graphique spécifié sera affichée en tant qu'appel de données ou en tant qu'étiquette de données. Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLabelAsDataCallout pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLabelAsDataCallout pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" entraîne que toutes les DataLabels[i].ShowLabelAsDataCallout soient égales à val).
+Détermine si l'étiquette de données du graphique spécifié sera affichée en tant qu'appel de données ou en tant qu'étiquette de données. Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowLabelAsDataCallout pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowLabelAsDataCallout de toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" entraîne que toutes les DataLabels[i].ShowLabelAsDataCallout sont égales à val).
 
 ```csharp
 public bool ShowLabelAsDataCallout { get; set; }

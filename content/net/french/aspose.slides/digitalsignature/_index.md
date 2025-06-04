@@ -1,13 +1,13 @@
 ---
 title: DigitalSignature
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Signature numérique dans le fichier signé.
 type: docs
 weight: 2680
 url: /fr/aspose.slides/digitalsignature/
 ---
 
-## Classe SignatureNumérique
+## DigitalSignature class
 
 Signature numérique dans le fichier signé.
 
@@ -15,29 +15,29 @@ Signature numérique dans le fichier signé.
 public class DigitalSignature : IDigitalSignature
 ```
 
-## Constructeurs
+## Constructors
 
 | Nom | Description |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Crée un nouvel objet DigitalSignature avec le certificat spécifié. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crée un nouvel objet DigitalSignature avec le chemin de fichier du certificat spécifié et le mot de passe. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crée un nouvel objet DigitalSignature avec le chemin du fichier de certificat spécifié et le mot de passe. |
 
-## Propriétés
+## Properties
 
 | Nom | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objet certificat qui a été utilisé pour signer le document. Lecture seule X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Le but de la signature. Lecture/écriture String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si cette signature numérique est valide et que le document n'a pas été altéré, cette valeur sera vraie. Lecture seule Booléen. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Le moment où le document a été signé. Lecture seule DateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objet certificat utilisé pour signer le document. En lecture seule X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Le but de la signature. Chaîne en lecture/écriture. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si cette signature numérique est valide et que le document n'a pas été altéré, cette valeur sera vraie. Booléen en lecture seule. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Le moment où le document a été signé. DateTime en lecture seule. |
 
-### Exemples
+### Examples
 
 L'exemple suivant démontre comment ajouter une signature numérique à partir d'un certificat PFX dans une présentation PowerPoint.
 
 ```csharp
 [C#]
-// Initialiser l'instance de la présentation
+// Initialiser l'instance de Présentation
 using (Presentation pres = new Presentation())
 {
     // Créer un objet DigitalSignature avec le fichier PFX et le mot de passe PFX
@@ -55,7 +55,7 @@ Le code d'exemple suivant démontre comment valider la signature numérique d'un
 
 ```csharp
 [C#]
-// Initialiser l'instance de la présentation
+// Initialiser l'instance de Présentation
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
@@ -77,7 +77,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### Voir Aussi
+### See Also
 
 * interface [IDigitalSignature](../idigitalsignature)
 * namespace [Aspose.Slides](../../aspose.slides)

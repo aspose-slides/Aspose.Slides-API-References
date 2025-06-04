@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides/fontdata/gethashcode/
 ---
 
-## Método FontData.GetHashCode
+## FontData.GetHashCode método
 
 Sirve como una función hash para un tipo particular, adecuado para su uso en algoritmos de hash y estructuras de datos como una tabla hash.
 
@@ -15,14 +15,14 @@ Sirve como una función hash para un tipo particular, adecuado para su uso en al
 public override int GetHashCode()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Código hash del FontData.
+Código hash de FontData.
 
-### Véase También
+### Véase también
 
-* clase [FontData](../../fontdata)
-* espacio de nombres [Aspose.Slides](../../fontdata)
-* ensamblado [Aspose.Slides](../../../)
+* class [FontData](../../fontdata)
+* namespace [Aspose.Slides](../../fontdata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

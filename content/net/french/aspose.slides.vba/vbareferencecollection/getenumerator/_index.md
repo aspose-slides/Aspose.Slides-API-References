@@ -1,25 +1,25 @@
 ---
 title: GetEnumerator
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un énumérateur qui parcourt la collection.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 70
 url: /fr/aspose.slides.vba/vbareferencecollection/getenumerator/
 ---
 
-## Méthode VbaReferenceCollection.GetEnumerator
+## VbaReferenceCollection.GetEnumerator méthode
 
-Renvoie un énumérateur qui parcourt la collection.
+Renvoie un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<IVbaReference> GetEnumerator()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Un IEnumerator qui peut être utilisé pour parcourir la collection.
+Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVbaReference](../../ivbareference)
 * classe [VbaReferenceCollection](../../vbareferencecollection)

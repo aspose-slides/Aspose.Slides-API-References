@@ -1,6 +1,6 @@
 ---
 title: OverflowBin
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Especifica el valor personalizado del contenedor de desbordamiento. Se aplica cuando la propiedad IsAutomaticOverflowBin se establece en falso y la propiedad IsOverflowBin es verdadera.
 type: docs
 weight: 460
@@ -15,7 +15,7 @@ Especifica el valor personalizado del contenedor de desbordamiento. Se aplica cu
 public double OverflowBin { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)

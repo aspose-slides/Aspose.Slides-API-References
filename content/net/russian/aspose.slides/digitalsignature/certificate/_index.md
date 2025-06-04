@@ -1,21 +1,21 @@
 ---
 title: Certificate
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Объект сертификата, который использовался для подписания документа. Только для чтения X509Certificate2.
+second_title: Aspose.Sildes для .NET API Reference
+description: Объект сертификата, который использовался для подписи документа. Только для чтения X509Certificate2.
 type: docs
 weight: 20
 url: /ru/aspose.slides/digitalsignature/certificate/
 ---
 
-## Свойство DigitalSignature.Certificate
+## DigitalSignature.Certificate свойство
 
-Объект сертификата, который использовался для подписания документа. Только для чтения X509Certificate2.
+Объект сертификата, который использовался для подписи документа. Только для чтения X509Certificate2.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)

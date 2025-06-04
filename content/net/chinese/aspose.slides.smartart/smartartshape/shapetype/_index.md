@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置几何预设类型。注意：值变更时，所有调整值将重置为默认值。读/写 ShapeTypeaspose.slides/../aspose.slides/shapetype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置几何预设类型。注意：值变化时，所有调整值将重置为默认值。读/写 ShapeTypeaspose.slides/shapetype。
 type: docs
 weight: 10
 url: /zh/aspose.slides.smartart/smartartshape/shapetype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.smartart/smartartshape/shapetype/
 
 ## SmartArtShape.ShapeType 属性
 
-返回或设置几何预设类型。注意：值变更时，所有调整值将重置为默认值。读/写 [`ShapeType`](../../../aspose.slides/shapetype)。
+返回或设置几何预设类型。注意：值变化时，所有调整值将重置为默认值。读/写 [`ShapeType`](../../../aspose.slides/shapetype)。
 
 ```csharp
 public override ShapeType ShapeType { get; set; }
@@ -19,7 +19,7 @@ public override ShapeType ShapeType { get; set; }
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentException | 当值为 ShapeType.NotDefined 或 ShapeType.Custom 时抛出 |
+| ArgumentException | 当值为 ShapeType.NotDefined 或 ShapeType.Custom 时引发 |
 
 ### 另见
 

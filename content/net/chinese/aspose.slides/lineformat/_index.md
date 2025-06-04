@@ -7,7 +7,7 @@ weight: 7550
 url: /zh/aspose.slides/lineformat/
 ---
 
-## LineFormat 类
+## LineFormat class
 
 表示线条的格式。
 
@@ -15,43 +15,43 @@ url: /zh/aspose.slides/lineformat/
 public sealed class LineFormat : PVIObject, ILineFormat
 ```
 
-## 属性
+## Properties
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | 返回或设置线条对齐方式。可读写 [`LineAlignment`](../linealignment)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基础的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | 返回或设置线条开始处的箭头长度。可读写 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | 返回或设置线条开始处的箭头样式。可读写 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | 返回或设置线条开始处的箭头宽度。可读写 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | 返回或设置线条的封头样式。可读写 [`LineCapStyle`](../linecapstyle)。 |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | 返回或设置自定义虚线模式。可读写 Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | 返回或设置线条的虚线样式。可读写 [`LineDashStyle`](../linedashstyle)。 |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | 返回或设置线条结束处的箭头长度。可读写 [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | 返回或设置线条结束处的箭头样式。可读写 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | 返回或设置线条结束处的箭头宽度。可读写 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | 返回线条的填充格式。只读 [`ILineFillFormat`](../ilinefillformat)。 |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | 如果线条格式未定义（创建时默认为此），则返回 true。只读 Boolean。 |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | 返回或设置线条的连接样式。可读写 [`LineJoinStyle`](../linejoinstyle)。 |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | 返回或设置线条的斜角限制。可读写 Single。 |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | 返回线条的草图格式。只读 [`ILineFillFormat`](../ilinefillformat)。 |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | 返回或设置线条样式。可读写 [`LineStyle`](../linestyle)。 |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | 返回或设置线条的宽度。可读写 Double。 |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | 返回或设置线条的对齐方式。 可读写 [`LineAlignment`](../linealignment)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本的 IPresentationComponent 接口。 只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | 返回或设置线条起始处的箭头长度。 可读写 [`LineArrowheadLength`](../linearrowheadlength)。 |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | 返回或设置线条起始处的箭头样式。 可读写 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | 返回或设置线条起始处的箭头宽度。 可读写 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | 返回或设置线条的端点样式。 可读写 [`LineCapStyle`](../linecapstyle)。 |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | 返回或设置自定义虚线模式。 可读写 Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | 返回或设置线条的虚线样式。 可读写 [`LineDashStyle`](../linedashstyle)。 |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | 返回或设置线条结束处的箭头长度。 可读写 [`LineArrowheadLength`](../linearrowheadlength)。 |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | 返回或设置线条结束处的箭头样式。 可读写 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | 返回或设置线条结束处的箭头宽度。 可读写 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | 返回线条的填充格式。 只读 [`ILineFillFormat`](../ilinefillformat)。 |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | 如果线条格式未定义（如刚创建时，默认值），则返回 true。 只读 Boolean。 |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | 返回或设置线条的连接样式。 可读写 [`LineJoinStyle`](../linejoinstyle)。 |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | 返回或设置线条的斜接限制。 可读写 Single。 |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | 返回线条的草图格式。 只读 [`ILineFillFormat`](../ilinefillformat)。 |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | 返回或设置线条样式。 可读写 [`LineStyle`](../linestyle)。 |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | 返回或设置线条的宽度。 可读写 Double。 |
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | 确定两个 LineFormat 实例是否相等。 |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
 | [GetEffective](../../aspose.slides/lineformat/geteffective)() | 获取应用继承的有效线条格式数据。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
-### 另请参阅
+### See Also
 
-* 类 [PVIObject](../pviobject)
-* 接口 [ILineFormat](../ilineformat)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../) 
+* class [PVIObject](../pviobject)
+* interface [ILineFormat](../ilineformat)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: NormalVector
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ibackdrop3dscene/normalvector/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibackdrop3dscene/normalvector/
 
 ## Propriété IBackdrop3DScene.NormalVector
 
-Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Simple[].
+Renvoie ou définit un vecteur normal. Pour être plus précis, cet attribut définit un vecteur normal à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single[].
 
 ```csharp
 public float[] NormalVector { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBackdrop3DScene](../../ibackdrop3dscene)
 * namespace [Aspose.Slides](../../ibackdrop3dscene)

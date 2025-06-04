@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Dient als Hash-Funktion für einen bestimmten Typ.
 type: docs
 weight: 30

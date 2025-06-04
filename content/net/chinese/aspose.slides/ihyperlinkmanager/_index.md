@@ -1,7 +1,7 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 提供超链接管理，包括添加和删除。
+description: 提供超链接管理添加和删除功能。
 type: docs
 weight: 5930
 url: /zh/aspose.slides/ihyperlinkmanager/
@@ -19,15 +19,15 @@ public interface IHyperlinkManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | 在点击时移除超链接。 |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | 移除鼠标悬停的超链接。 |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | 在点击时设置外部超链接。 |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | 设置鼠标悬停的外部超链接。 |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | 在点击时设置内部超链接。 |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 设置鼠标悬停的内部超链接。 |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | 在点击时设置宏超链接。 |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | 删除点击时的超链接。 |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | 删除鼠标悬停时的超链接。 |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | 设置点击时的外部超链接。 |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | 设置鼠标悬停时的外部超链接。 |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | 设置点击时的内部超链接。 |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 设置鼠标悬停时的内部超链接。 |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | 设置点击时的宏超链接。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

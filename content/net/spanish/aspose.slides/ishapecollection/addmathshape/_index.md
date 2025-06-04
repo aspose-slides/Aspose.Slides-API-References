@@ -1,15 +1,15 @@
 ---
 title: AddMathShape
-second_title: Referencia API de Aspose.Slides para .NET
-description: Crea un nuevo AutoShape del tipo Rectángulo para alojar contenido matemático dentro y lo agrega al final de la colección.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea un nuevo AutoShape del tipo Rectángulo para albergar contenido matemático dentro y lo agrega al final de la colección.
 type: docs
 weight: 110
 url: /es/aspose.slides/ishapecollection/addmathshape/
 ---
 
-## Método IShapeCollection.AddMathShape
+## IShapeCollection.AddMathShape method
 
-Crea un nuevo AutoShape del tipo Rectángulo para alojar contenido matemático dentro y lo agrega al final de la colección.
+Crea un nuevo AutoShape del tipo Rectángulo para albergar contenido matemático dentro y lo agrega al final de la colección.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -26,7 +26,7 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 Objeto AutoShape creado.
 
-### Véase También
+### Ver También
 
 * interfaz [IAutoShape](../../iautoshape)
 * interfaz [IShapeCollection](../../ishapecollection)

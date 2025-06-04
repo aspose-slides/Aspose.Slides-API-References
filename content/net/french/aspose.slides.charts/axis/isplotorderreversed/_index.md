@@ -1,6 +1,6 @@
 ---
 title: IsPlotOrderReversed
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente si MS PowerPoint trace les points de données du dernier au premier. Lecture/écriture Booléen.
 type: docs
 weight: 290

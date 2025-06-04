@@ -1,24 +1,24 @@
 ---
 title: CloseFigure
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Cierra la figura actual de esta ruta
+second_title: Aspose.Slides para .NET API Reference
+description: Cierra la figura actual de este camino
 type: docs
 weight: 50
 url: /es/aspose.slides/igeometrypath/closefigure/
 ---
 
-## Método IGeometryPath.CloseFigure
+## IGeometryPath.CloseFigure método
 
-Cierra la figura actual de esta ruta
+Cierra la figura actual de este camino
 
 ```csharp
 public void CloseFigure()
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IGeometryPath](../../igeometrypath)
-* espacio de nombres [Aspose.Slides](../../igeometrypath)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IGeometryPath](../../igeometrypath)
+* namespace [Aspose.Slides](../../igeometrypath)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

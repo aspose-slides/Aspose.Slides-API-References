@@ -1,15 +1,15 @@
 ---
 title: SlideShowType
-second_title: Aspose.Slides для .NET API Reference
-description: Основные настройки слайд-шоу. Предки представляют типы слайд-шоу PresentedBySpeaker./presentedbyspeaker Представлено докладчиком на полный экран BrowsedByIndividual./browsedbyindividual Просмотрено индивидуально в окне BrowsedAtKiosk./browsedatkiosk Просмотрено на киоске на полный экран
+second_title: Aspose.Sildes для .NET API Reference
+description: Основные настройки слайд-шоу. Предки представляют типы слайд-шоу PresentedBySpeaker../presentedbyspeaker Представлено оратором на весь экран BrowsedByIndividual../browsedbyindividual Просмотрено индивидуально в окне BrowsedAtKiosk../browsedatkiosk Просмотрено на киоске на весь экран
 type: docs
 weight: 10180
 url: /ru/aspose.slides/slideshowtype/
 ---
 
-## Класс SlideShowType
+## SlideShowType class
 
-Основные настройки слайд-шоу. Предки представляют типы слайд-шоу: [`PresentedBySpeaker`](../presentedbyspeaker) Представлено докладчиком (на полный экран) [`BrowsedByIndividual`](../browsedbyindividual) Просмотрено индивидуально (в окне) [`BrowsedAtKiosk`](../browsedatkiosk) Просмотрено на киоске (на полный экран)
+Основные настройки слайд-шоу. Предки представляют типы слайд-шоу: [`PresentedBySpeaker`](../presentedbyspeaker) Представлено оратором (на весь экран) [`BrowsedByIndividual`](../browsedbyindividual) Просмотрено индивидуально (в окне) [`BrowsedAtKiosk`](../browsedatkiosk) Просмотрено на киоске (на весь экран)
 
 ```csharp
 public abstract class SlideShowType
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

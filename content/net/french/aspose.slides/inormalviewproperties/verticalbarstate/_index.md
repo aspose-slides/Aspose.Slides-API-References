@@ -1,13 +1,13 @@
 ---
 title: VerticalBarState
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Spécifie l'état dans lequel la barre de séparation verticale doit être affichée. Une barre de séparation verticale sépare la diapositive de la région de contenu latéral.
 type: docs
 weight: 70
 url: /fr/aspose.slides/inormalviewproperties/verticalbarstate/
 ---
 
-## Propriété INormalViewProperties.VerticalBarState
+## INormalViewProperties.VerticalBarState propriété
 
 Spécifie l'état dans lequel la barre de séparation verticale doit être affichée. Une barre de séparation verticale sépare la diapositive de la région de contenu latéral.
 

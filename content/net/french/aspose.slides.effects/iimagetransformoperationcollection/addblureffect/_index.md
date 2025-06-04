@@ -1,13 +1,13 @@
 ---
 title: AddBlurEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slidés pour .NET API Référence
 description: Ajoute le nouvel effet de flou à la fin d'une collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides.effects/iimagetransformoperationcollection/addblureffect/
 ---
 
-## Méthode IImageTransformOperationCollection.AddBlurEffect
+## IImageTransformOperationCollection.AddBlurEffect méthode
 
 Ajoute le nouvel effet de flou à la fin d'une collection.
 
@@ -18,9 +18,9 @@ public IBlur AddBlurEffect(double radius, bool grow)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | radius | Double | Le rayon du flou. |
-| grow | Boolean | Spécifie si les limites de l'objet doivent être augmentées à la suite du flou. True indique que les limites sont augmentées tandis que false indique qu'elles ne le sont pas. |
+| grow | Boolean | Indique si les limites de l'objet doivent être agrandies en raison du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Index du nouvel effet d'image dans une collection.
 

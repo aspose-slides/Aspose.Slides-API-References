@@ -1,7 +1,7 @@
 ---
 title: GroupingLevelCount
-second_title: Aspose.Slides for .NET API 参考
-description: 返回使用的类别分组级别的数量。对于多级类别来说，数量大于一。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回使用的类别分组级别的数量。对于多级类别，数量超过一个。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ichartcategorycollection/groupinglevelcount/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartcategorycollection/groupinglevelcount/
 
 ## IChartCategoryCollection.GroupingLevelCount 属性
 
-返回使用的类别分组级别的数量。对于多级类别来说，数量大于一。只读 Int32。
+返回使用的类别分组级别的数量。对于多级类别，数量超过一个。只读 Int32。
 
 ```csharp
 public int GroupingLevelCount { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IChartCategoryCollection](../../ichartcategorycollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcategorycollection)

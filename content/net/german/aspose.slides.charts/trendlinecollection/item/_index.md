@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt das Element am angegebenen Index. Schreibgeschützte Trendlinie aspose.slides.charts/trendline.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält das Element am angegebenen Index. Nur lesbarer Trendlineaspose.slides.charts/trendline.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/trendlinecollection/item/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/trendlinecollection/item/
 
 ## TrendlineCollection-Indexer
 
-Holt das Element am angegebenen Index. Schreibgeschützte [`Trendline`](../../trendline).
+Erhält das Element am angegebenen Index. Nur lesbare [`Trendline`](../../trendline).
 
 ```csharp
 public ITrendline this[int index] { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [ITrendline](../../itrendline)
 * class [TrendlineCollection](../../trendlinecollection)

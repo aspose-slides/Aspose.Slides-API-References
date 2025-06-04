@@ -1,13 +1,13 @@
 ---
 title: SketchType
-second_title: Aspose.Slides для .NET документация
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает тип эскиза. Только для чтения LineSketchTypeaspose.slides/linesketchtype.
 type: docs
 weight: 10
 url: /ru/aspose.slides/isketchformateffectivedata/sketchtype/
 ---
 
-## ISketchFormatEffectiveData.SketchType свойство
+## ISketchFormatEffectiveData.SketchType property
 
 Возвращает тип эскиза. Только для чтения [`LineSketchType`](../../linesketchtype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/isketchformateffectivedata/sketchtype/
 public LineSketchType SketchType { get; }
 ```
 
-### См. также
+### См. Также
 
 * enum [LineSketchType](../../linesketchtype)
 * interface [ISketchFormatEffectiveData](../../isketchformateffectivedata)

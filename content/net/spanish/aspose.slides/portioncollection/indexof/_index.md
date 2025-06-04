@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Determina el índice de un elemento específico en el IList.
 type: docs
 weight: 90
@@ -23,7 +23,7 @@ public int IndexOf(IPortion item)
 
 El índice de *item* si se encuentra en la lista; de lo contrario, -1.
 
-### Véase También
+### Ver También
 
 * interfaz [IPortion](../../iportion)
 * clase [PortionCollection](../../portioncollection)

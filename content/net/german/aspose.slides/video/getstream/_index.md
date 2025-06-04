@@ -1,15 +1,15 @@
 ---
 title: GetStream
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Stream stream zum Lesen zurück. Verwenden Sie 'using' oder schließen Sie den Stream nach der Verwendung.
+description: Gibt den Stream zum Lesen zurück. Verwenden Sie 'using' oder schließen Sie den Stream nach der Benutzung.
 type: docs
 weight: 30
 url: /de/aspose.slides/video/getstream/
 ---
 
-## Video.GetStream Methode
+## Video.GetStream-Methode
 
-Gibt Stream stream zum Lesen zurück. Verwenden Sie 'using' oder schließen Sie den Stream nach der Verwendung.
+Gibt den Stream zum Lesen zurück. Verwenden Sie 'using' oder schließen Sie den Stream nach der Benutzung.
 
 ```csharp
 public Stream GetStream()
@@ -19,7 +19,7 @@ public Stream GetStream()
 
 Stream zum Lesen.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Video](../../video)
 * Namespace [Aspose.Slides](../../video)

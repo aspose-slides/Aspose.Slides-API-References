@@ -15,10 +15,10 @@ Devuelve o establece un valor que indica si se deben agregar encabezados de port
 public bool AddClipboardFragmentHeader { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [TextToHtmlConversionOptions](../../texttohtmlconversionoptions)
 * espacio de nombres [Aspose.Slides.Export](../../texttohtmlconversionoptions)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

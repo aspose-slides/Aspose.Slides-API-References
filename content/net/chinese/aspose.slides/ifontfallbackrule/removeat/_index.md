@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
-description: 删除指定索引处的 FallBack 字体。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在列表的指定索引处移除 FallBack 字体。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ifontfallbackrule/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifontfallbackrule/removeat/
 
 ## IFontFallBackRule.RemoveAt 方法
 
-删除指定索引处的 FallBack 字体。
+在列表的指定索引处移除 FallBack 字体。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的字体的零基索引。 |
+| index | Int32 | 要移除的字体的零基索引。 |
 
 ### 示例
 

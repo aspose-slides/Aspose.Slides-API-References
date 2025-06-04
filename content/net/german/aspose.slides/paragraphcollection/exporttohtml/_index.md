@@ -1,15 +1,15 @@
 ---
 title: ExportToHtml
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Konvertiert angegebene Absätze in HTML und gibt sie als String-Objekt zurück.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Konvertiert die angegebenen Absätze in HTML und gibt sie als String-Objekt zurück.
 type: docs
 weight: 90
 url: /de/aspose.slides/paragraphcollection/exporttohtml/
 ---
 
-## ParagraphCollection.ExportToHtml-Methode
+## ParagraphCollection.ExportToHtml Methode
 
-Konvertiert angegebene Absätze in HTML und gibt sie als String-Objekt zurück.
+Konvertiert die angegebenen Absätze in HTML und gibt sie als String-Objekt zurück.
 
 ```csharp
 public string ExportToHtml(int firstParagraphIndex, int paragraphsCount, 
@@ -26,7 +26,7 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 
 Generiertes HTML.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITextToHtmlConversionOptions](../../../aspose.slides.export/itexttohtmlconversionoptions)
 * Klasse [ParagraphCollection](../../paragraphcollection)

@@ -1,7 +1,7 @@
 ---
 title: Transparency
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit la transparence de la couleur de remplissage. Lecture/écriture Simple.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Obtient ou définit la transparence de la couleur de remplissage. Lecture/écriture Single.
 type: docs
 weight: 80
 url: /fr/aspose.slides/icellformat/transparency/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icellformat/transparency/
 
 ## Propriété ICellFormat.Transparency
 
-Obtient ou définit la transparence de la couleur de remplissage. Lecture/écriture Simple.
+Obtient ou définit la transparence de la couleur de remplissage. Lecture/écriture Single.
 
 ```csharp
 public float Transparency { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICellFormat](../../icellformat)
 * namespace [Aspose.Slides](../../icellformat)

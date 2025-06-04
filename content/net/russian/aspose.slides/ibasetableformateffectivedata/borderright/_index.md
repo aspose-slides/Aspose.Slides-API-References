@@ -1,21 +1,21 @@
 ---
 title: BorderRight
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффективное значение формата правой границы линии. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Aspose.Sildes для справки по API .NET
+description: Возвращает эффективное значение формата линии правой границы. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ibasetableformateffectivedata/borderright/
 ---
 
-## IBaseTableFormatEffectiveData.BorderRight свойство
+## IBaseTableFormatEffectiveData.BorderRight property
 
-Возвращает эффективное значение формата правой границы линии. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Возвращает эффективное значение формата линии правой границы. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderRight { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * интерфейс [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

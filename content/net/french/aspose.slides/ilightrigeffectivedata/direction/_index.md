@@ -1,21 +1,21 @@
 ---
 title: Direction
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la lumière. Lecture seule LightingDirectionaspose.slides/lightingdirection.
+description: Direction de la lumière. Read-only LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ilightrigeffectivedata/direction/
 ---
 
-## Propriété ILightRigEffectiveData.Direction
+## ILightRigEffectiveData.Direction property
 
-Direction de la lumière. Lecture seule [`LightingDirection`](../../lightingdirection).
+Direction de la lumière. Read-only [`LightingDirection`](../../lightingdirection).
 
 ```csharp
 public LightingDirection Direction { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [LightingDirection](../../lightingdirection)
 * interface [ILightRigEffectiveData](../../ilightrigeffectivedata)

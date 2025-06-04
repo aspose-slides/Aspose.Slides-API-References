@@ -1,7 +1,7 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте SVG-документов. Только для чтения IExternalResourceResolveraspose.slides.import/iexternalresourceresolver.
+description: Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов SVG. Только для чтения IExternalResourceResolveraspose.slides.import/iexternalresourceresolver.
 type: docs
 weight: 20
 url: /ru/aspose.slides/isvgimage/externalresourceresolver/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/isvgimage/externalresourceresolver/
 
 ## ISvgImage.ExternalResourceResolver свойство
 
-Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте SVG-документов. Только для чтения [`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver).
+Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов SVG. Только для чтения [`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver).
 
 ```csharp
 public IExternalResourceResolver ExternalResourceResolver { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * интерфейс [ISvgImage](../../isvgimage)

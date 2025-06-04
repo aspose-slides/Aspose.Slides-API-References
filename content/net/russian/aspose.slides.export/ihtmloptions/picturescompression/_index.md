@@ -1,6 +1,6 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет уровень сжатия изображений Чтение/запись PicturesCompressionaspose.slides.export/ihtmloptions/picturescompression.
 type: docs
 weight: 70

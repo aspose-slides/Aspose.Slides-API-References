@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 返回按索引的单元格 IChartDataCell。
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过索引返回一个单元格 IChartDataCell。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/chartcellcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartcellcollection/item/
 
 ## ChartCellCollection 索引器
 
-按索引返回单元格 (IChartDataCell)。
+通过索引返回一个单元格（IChartDataCell）。
 
 ```csharp
 public IChartDataCell this[int index] { get; }

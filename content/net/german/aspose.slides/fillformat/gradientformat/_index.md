@@ -1,7 +1,7 @@
 ---
 title: GradientFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Gradientfüllformat zurück. Nur zum Lesen IGradientFormataspose.slides/igradientformat.
+description: Gibt das gradient fill format zurück. Schreibgeschütztes IGradientFormataspose.slides/igradientformat.
 type: docs
 weight: 20
 url: /de/aspose.slides/fillformat/gradientformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fillformat/gradientformat/
 
 ## FillFormat.GradientFormat-Eigenschaft
 
-Gibt das Gradientfüllformat zurück. Nur zum Lesen [`IGradientFormat`](../../igradientformat).
+Gibt das gradient fill format zurück. Schreibgeschütztes [`IGradientFormat`](../../igradientformat).
 
 ```csharp
 public IGradientFormat GradientFormat { get; }

@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, равен ли указанный AlphaReplaceaspose.slides.effects/alphareplace текущему AlphaReplaceaspose.slides.effects/alphareplace.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphareplace/equals/
 ---
 
-## Метод AlphaReplace.Equals
+## AlphaReplace.Equals метод
 
 Определяет, равен ли указанный [`AlphaReplace`](../../alphareplace) текущему [`AlphaReplace`](../../alphareplace).
 
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaReplace`](../../alphareplace), с которым необходимо сравнить. |
+| obj | Object | [`AlphaReplace`](../../alphareplace) для сравнения. |
 
-### Значение, возвращаемое методом
+### Значение Возврата
 
 true, если объекты равны; в противном случае false.
 
-### См. также
+### См. Также
 
 * класс [AlphaReplace](../../alphareplace)
 * пространство имен [Aspose.Slides.Effects](../../alphareplace)

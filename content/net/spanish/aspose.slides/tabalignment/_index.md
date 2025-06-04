@@ -1,15 +1,15 @@
 ---
 title: TabAlignment
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa la alineación de tabulaciones.
+description: Representa la alineación de tabulación.
 type: docs
 weight: 10520
 url: /es/aspose.slides/tabalignment/
 ---
 
-## Enumeración AlineaciónDeTabulación
+## Enumeración TabAlignment
 
-Representa la alineación de tabulaciones.
+Representa la alineación de tabulación.
 
 ```csharp
 public enum TabAlignment
@@ -24,7 +24,7 @@ public enum TabAlignment
 | Derecha | `2` | Alineación a la derecha |
 | Decimal | `3` | Alineación decimal |
 
-### Ver También
+### Véase también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

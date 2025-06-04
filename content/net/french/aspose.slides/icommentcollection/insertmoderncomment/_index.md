@@ -1,13 +1,13 @@
 ---
 title: InsertModernComment
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insérer un nouveau commentaire moderne dans une collection à l'index spécifié.
 type: docs
 weight: 60
 url: /fr/aspose.slides/icommentcollection/insertmoderncomment/
 ---
 
-## Méthode ICommentCollection.InsertModernComment
+## ICommentCollection.InsertModernComment méthode
 
 Insérer un nouveau commentaire moderne dans une collection à l'index spécifié.
 
@@ -25,11 +25,11 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 | position | PointF | Position sur une diapositive où ajouter un nouveau commentaire moderne. |
 | creationTime | DateTime | Heure de création d'un commentaire moderne. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Commentaire moderne inséré.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IModernComment](../../imoderncomment)
 * interface [ISlide](../../islide)

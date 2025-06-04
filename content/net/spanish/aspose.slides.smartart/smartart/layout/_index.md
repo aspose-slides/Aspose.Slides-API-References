@@ -15,7 +15,7 @@ Devuelve o establece el diseño del objeto SmartArt. Lectura/escritura [`SmartAr
 public SmartArtLayoutType Layout { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [SmartArtLayoutType](../../smartartlayouttype)
 * class [SmartArt](../../smartart)

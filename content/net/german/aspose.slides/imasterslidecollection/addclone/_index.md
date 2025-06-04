@@ -1,15 +1,15 @@
 ---
 title: AddClone
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt eine Kopie einer angegebenen Masterfolie am Ende der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt eine Kopie einer bestimmten Masterfolie ans Ende der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert.
 type: docs
 weight: 20
 url: /de/aspose.slides/imasterslidecollection/addclone/
 ---
 
-## IMasterSlideCollection.AddClone-Methode
+## IMasterSlideCollection.AddClone Methode
 
-Fügt eine Kopie einer angegebenen Masterfolie am Ende der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert.
+Fügt eine Kopie einer bestimmten Masterfolie ans Ende der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert.
 
 ```csharp
 public IMasterSlide AddClone(IMasterSlide sourceMaster)
@@ -17,7 +17,7 @@ public IMasterSlide AddClone(IMasterSlide sourceMaster)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| sourceMaster | IMasterSlide | Folie zum Klonen. |
+| sourceMaster | IMasterSlide | Folie, die kloniert werden soll. |
 
 ### Rückgabewert
 

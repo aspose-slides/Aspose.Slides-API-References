@@ -1,6 +1,6 @@
 ---
 title: Worksheets
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slide para .NET
 description: Obtiene una colección de hojas de trabajo.
 type: docs
 weight: 10
@@ -32,11 +32,11 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase también
+### Véase También
 
-* interface [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)
-* interface [IChartDataWorkbook](../../ichartdataworkbook)
-* namespace [Aspose.Slides.Charts](../../ichartdataworkbook)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)
+* interfaz [IChartDataWorkbook](../../ichartdataworkbook)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartdataworkbook)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

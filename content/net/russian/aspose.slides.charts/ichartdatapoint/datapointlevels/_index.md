@@ -1,21 +1,21 @@
 ---
 title: DataPointLevels
-second_title: Aspose.Sildes для справочника API .NET
-description: Возвращает контейнер уровней данных. Применяется для серий Treeamp и Sunburst. Индексация уровней данных начинается с нуля.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных основана на нуле.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartdatapoint/datapointlevels/
 ---
 
-## Свойство IChartDataPoint.DataPointLevels
+## IChartDataPoint.DataPointLevels свойство
 
-Возвращает контейнер уровней данных. Применяется для серий Treeamp и Sunburst. Индексация уровней данных начинается с нуля.
+Возвращает контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных основана на нуле.
 
 ```csharp
 public IChartDataPointLevelsManager DataPointLevels { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * интерфейс [IChartDataPoint](../../ichartdatapoint)

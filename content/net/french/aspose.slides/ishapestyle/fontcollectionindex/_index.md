@@ -1,7 +1,7 @@
 ---
 title: FontCollectionIndex
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'index de police des formes dans une collection de polices. Lecture/écriture FontCollectionIndexaspose.slides/fontcollectionindex.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit l'index de la police des formes dans une collection de polices. Lecture/écriture FontCollectionIndexaspose.slides/fontcollectionindex.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ishapestyle/fontcollectionindex/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishapestyle/fontcollectionindex/
 
 ## Propriété IShapeStyle.FontCollectionIndex
 
-Renvoie ou définit l'index de police d'une forme dans une collection de polices. Lecture/écriture [`FontCollectionIndex`](../../fontcollectionindex).
+Renvoie ou définit l'index de la police de la forme dans une collection de polices. Lecture/écriture [`FontCollectionIndex`](../../fontcollectionindex).
 
 ```csharp
 public FontCollectionIndex FontCollectionIndex { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [FontCollectionIndex](../../fontcollectionindex)
 * interface [IShapeStyle](../../ishapestyle)

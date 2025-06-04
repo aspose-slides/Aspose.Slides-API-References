@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le nom d'une diapositive. Chaîne en lecture/écriture.
+description: Retourne ou définit le nom d'une diapositive. Chaîne en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/baseslide/name/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseslide/name/
 
 ## Propriété BaseSlide.Name
 
-Renvoie ou définit le nom d'une diapositive. Chaîne en lecture/écriture.
+Retourne ou définit le nom d'une diapositive. Chaîne en lecture/écriture.
 
 ```csharp
 public virtual string Name { get; set; }

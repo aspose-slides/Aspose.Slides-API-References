@@ -1,15 +1,15 @@
 ---
 title: ValidateChartLayout
-second_title: Aspose.Slides для .NET API Reference
-description: Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, реализующих интерфейс IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale
 type: docs
 weight: 260
 url: /ru/aspose.slides.charts/chart/validatechartlayout/
 ---
 
-## Метод Chart.ValidateChartLayout
+## Chart.ValidateChartLayout метод
 
-Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, реализующих интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+Вычисляет фактические значения элементов графика. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()

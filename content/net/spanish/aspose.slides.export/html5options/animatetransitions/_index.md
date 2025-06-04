@@ -1,15 +1,15 @@
 ---
 title: AnimateTransitions
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece la opción de animación de transiciones. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece la opción de animación de transiciones. Lectura/escritura Booleano.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/html5options/animatetransitions/
 ---
 
-## Propiedad Html5Options.AnimateTransitions
+## Html5Options.AnimateTransitions property
 
-Devuelve o establece la opción de animación de transiciones. Booleano de lectura/escritura.
+Devuelve o establece la opción de animación de transiciones. Lectura/escritura Booleano.
 
 ```csharp
 public bool AnimateTransitions { get; set; }
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase También
+### Consulta También
 
 * class [Html5Options](../../html5options)
 * namespace [Aspose.Slides.Export](../../html5options)

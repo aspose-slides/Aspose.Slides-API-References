@@ -15,7 +15,7 @@ Fournit un accès facile aux hyperliens contenus. Lecture seule [`IHyperlinkQuer
 public IHyperlinkQueries HyperlinkQueries { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlinkQueries](../../ihyperlinkqueries)
 * interface [IBaseSlide](../../ibaseslide)

@@ -1,7 +1,7 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示幻灯片上的一组形状。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示幻灯片上的形状组。
 type: docs
 weight: 5880
 url: /zh/aspose.slides/igroupshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igroupshape/
 
 ## IGroupShape 接口
 
-表示幻灯片上的一组形状。
+表示幻灯片上的形状组。
 
 ```csharp
 public interface IGroupShape : IShape
@@ -19,9 +19,9 @@ public interface IGroupShape : IShape
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 允许获取基础 IShape 接口。只读 [`IShape`](../ishape)。 |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 返回形状的锁定信息。只读 [`IGroupShapeLock`](../igroupshapelock)。 |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 返回形状的锁定信息。只读 [`IGroupShapeLock`](../igroupshapelock)。 |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 允许获取基础的 IShape 接口。只读 [`IShape`](../ishape)。 |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 返回形状的锁定状态。只读 [`IGroupShapeLock`](../igroupshapelock)。 |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 返回形状的锁定状态。只读 [`IGroupShapeLock`](../igroupshapelock)。 |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 返回组内形状的集合。只读 [`IShapeCollection`](../ishapecollection)。 |
 
 ### 另见

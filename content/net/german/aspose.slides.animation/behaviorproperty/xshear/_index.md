@@ -1,21 +1,21 @@
 ---
 title: XShear
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die xshear-Eigenschaft dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die 'xshear' Eigenschaft dar
 type: docs
 weight: 1200
 url: /de/aspose.slides.animation/behaviorproperty/xshear/
 ---
 
-## BehaviorProperty.XShear-Eigenschaft
+## BehaviorProperty.XShear Eigenschaft
 
-Stellt die 'xshear'-Eigenschaft dar
+Stellt die 'xshear' Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty XShear { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

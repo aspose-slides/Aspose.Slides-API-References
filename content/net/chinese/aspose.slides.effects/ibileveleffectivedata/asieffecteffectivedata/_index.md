@@ -1,7 +1,7 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IEffectEffectiveData 接口。只读 IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IEffectEffectiveData 接口。 只读 IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata/
 
 ## IBiLevelEffectiveData.AsIEffectEffectiveData 属性
 
-允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../../ieffecteffectivedata)。
+允许获取基本的 IEffectEffectiveData 接口。 只读 [`IEffectEffectiveData`](../../ieffecteffectivedata)。
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IEffectEffectiveData](../../ieffecteffectivedata)
 * 接口 [IBiLevelEffectiveData](../../ibileveleffectivedata)

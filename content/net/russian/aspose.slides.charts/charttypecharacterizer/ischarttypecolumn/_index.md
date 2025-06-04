@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
-second_title: Aspose.Slides для .NET API Справочник
-description: Вернет true, если chartType является одним из подтипов столбцовой диаграммы. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает true, если chartType является одним из подтипов Column. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Сменить тип диаграммы" в PowerPoint ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
 
 ## ChartTypeCharacterizer.IsChartTypeColumn метод
 
-Вернет true, если chartType является одним из подтипов столбцовой диаграммы. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Изменить тип диаграммы" в PowerPoint): ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+Возвращает true, если chartType является одним из подтипов Column. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Сменить тип диаграммы" в PowerPoint): ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
 
 ```csharp
 public static bool IsChartTypeColumn(ChartType chartType)
 ```
 
-### См. Также
+### См. также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

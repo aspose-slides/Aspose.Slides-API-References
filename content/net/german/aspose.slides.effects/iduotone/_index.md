@@ -19,12 +19,12 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesend [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-lesend [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Gibt das Ziel-Farbformat für dunkle Pixel zurück. Nur-lesend [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Gibt das Ziel-Farbformat für helle Pixel zurück. Nur-lesend [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IAccessiblePVIObject. Nur-lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IImageTransformOperation. Nur-lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Gibt das Zielfarbformat für dunkle Pixel zurück. Nur-lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Gibt das Zielfarbformat für helle Pixel zurück. Nur-lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * Schnittstelle [IDuotoneEffectiveData](../iduotoneeffectivedata)

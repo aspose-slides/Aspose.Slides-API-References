@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将数学元素添加到集合的末尾。
 type: docs
 weight: 40
@@ -30,7 +30,7 @@ collection.Add(new MathematicalText("+"));
 collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

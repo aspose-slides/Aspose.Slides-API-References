@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Layoutfolie und aller untergeordneten Fußzeilen-Platzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Masterfolie ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für den Fußzeilenbereich der Layoutfolie und aller Kind-Platzhalter für Fußzeilen. Kind-Platzhalter sind Platzhalter, die in abhängigen Folien enthalten sind. Abhängige Folien nutzen und hängen von der Masterfolie ab.
 type: docs
 weight: 40
 url: /de/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvi
 
 ## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility-Methode
 
-Ändert die Sichtbarkeit des Fußzeilen-Platzhalters der Layoutfolie und aller untergeordneten Fußzeilen-Platzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Masterfolie ab.
+Ändert die Sichtbarkeit des Platzhalters für den Fußzeilenbereich der Layoutfolie und aller Kind-Platzhalter für Fußzeilen. Kind-Platzhalter sind Platzhalter, die in abhängigen Folien enthalten sind. Abhängige Folien nutzen und hängen von der Masterfolie ab.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht Fußzeilen-Platzhalter sichtbar, andernfalls - versteckt sie. |
+| isVisible | Boolean | true - macht einen Fußzeilenplatzhalter sichtbar, andernfalls - blendet ihn aus. |
 
 ### Siehe auch
 

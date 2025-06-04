@@ -1,7 +1,7 @@
 ---
 title: ActionType
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le type de l'action des Hyperliens. HyperlinkActionTypeaspose.slides/hyperlinkactiontype en lecture seule.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie le type d'action des Hyperliens. HyperlinkActionTypeaspose.slides/hyperlinkactiontype en lecture seule.
 type: docs
 weight: 100
 url: /fr/aspose.slides/hyperlink/actiontype/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/hyperlink/actiontype/
 
 ## Propriété Hyperlink.ActionType
 
-Renvoie le type de l'action de l'Hyperlien. [`HyperlinkActionType`](../../hyperlinkactiontype) en lecture seule.
+Renvoie le type d'action de l'Hyperlien. [`HyperlinkActionType`](../../hyperlinkactiontype) en lecture seule.
 
 ```csharp
 public HyperlinkActionType ActionType { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [HyperlinkActionType](../../hyperlinkactiontype)
 * class [Hyperlink](../../hyperlink)

@@ -1,21 +1,21 @@
 ---
 title: SketchType
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или задает тип рисунка. Чтение/запись LineSketchTypeaspose.slides/linesketchtype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает тип эскиза. Чтение/запись LineSketchTypeaspose.slides/linesketchtype.
 type: docs
 weight: 10
 url: /ru/aspose.slides/sketchformat/sketchtype/
 ---
 
-## Свойство SketchFormat.SketchType
+## SketchFormat.SketchType свойство
 
-Возвращает или задает тип рисунка. Чтение/запись [`LineSketchType`](../../linesketchtype).
+Возвращает или задает тип эскиза. Чтение/запись [`LineSketchType`](../../linesketchtype).
 
 ```csharp
 public LineSketchType SketchType { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * enum [LineSketchType](../../linesketchtype)
 * class [SketchFormat](../../sketchformat)

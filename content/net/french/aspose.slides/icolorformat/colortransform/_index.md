@@ -1,13 +1,13 @@
 ---
 title: ColorTransform
-second_title: Aspose.Slides pour l'API .NET Référence
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie la collection de transformations de couleur appliquées à une couleur. Lecture seule IColorOperationCollection aspose.slides/icoloroperationcollection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icolorformat/colortransform/
 ---
 
-## Propriété IColorFormat.ColorTransform
+## IColorFormat.ColorTransform propriété
 
 Renvoie la collection de transformations de couleur appliquées à une couleur. Lecture seule [`IColorOperationCollection`](../../icoloroperationcollection).
 
@@ -15,7 +15,7 @@ Renvoie la collection de transformations de couleur appliquées à une couleur. 
 public IColorOperationCollection ColorTransform { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorOperationCollection](../../icoloroperationcollection)
 * interface [IColorFormat](../../icolorformat)

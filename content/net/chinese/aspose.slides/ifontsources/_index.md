@@ -19,10 +19,10 @@ public interface IFontSources
 
 | 名称 | 描述 |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | 包含字体文件的文件夹。这些文件夹中的所有字体文件都包含在集合中。文件夹会递归搜索。 |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | 作为字节数组表示的字体集合。 |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | 包含字体文件的文件夹。这些文件夹中的所有字体文件都包含在集合中。文件夹被递归搜索。 |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | 表示为字节数组的字体集合。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

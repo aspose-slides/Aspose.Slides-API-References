@@ -1,15 +1,15 @@
 ---
 title: IDataLabel
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt ein Serienlabel dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt eine Serie von Beschriftungen dar.
 type: docs
 weight: 1940
 url: /de/aspose.slides.charts/idatalabel/
 ---
 
-## IDataLabel Schnittstelle
+## IDataLabel-Schnittstelle
 
-Stellt ein Serienlabel dar.
+Stellt eine Serie von Beschriftungen dar.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,18 +22,18 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Gibt die IActualLayout-Schnittstelle zurück. |
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Gibt die ILayoutable-Schnittstelle zurück. Nur lesbar [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Gibt die IOverridableText-Schnittstelle zurück. Nur lesbar [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Gibt das Format des Datenlabels zurück. Nur lesbar [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False bedeutet, dass das Datenlabel nicht sichtbar ist (und somit alle Show*-Flags (ShowValue, ...) false sind). Nur lesbar Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Erhält oder setzt die Datenzelle des Arbeitsbuchs. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell true ist. |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Gibt das Format der Datenbeschriftung zurück. Nur lesbar [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False bedeutet, dass die Datenbeschriftung nicht sichtbar ist (und alle Show*-Flags (ShowValue, ...) false sind). Nur lesbar Boolean. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Holt oder setzt die Datenzelle des Arbeitsbuchs. Wird angewendet, wenn die Eigenschaft IDataLabelFormat.ShowLabelValueFromCell gleich true ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Gibt den tatsächlichen Labeltext basierend auf den Einstellungen von DataLabelFormat oder dem Wert von TextFrameForOverriding.Text zurück. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Macht das Datenlabel unsichtbar, indem alle Show*-Flags (ShowValue, ...) auf den Zustand false gesetzt werden. IsVisible wird nach dieser Aktion false sein. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Gibt den aktuellen Beschriftungstext basierend auf den Einstellungen von DataLabelFormat oder dem Wert von TextFrameForOverriding.Text zurück. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Macht die Datenbeschriftung unsichtbar, indem alle Show*-Flags (ShowValue, ...) auf den Status false gesetzt werden. IsVisible wird danach false sein. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IActualLayout](../iactuallayout)
 * Schnittstelle [ILayoutable](../ilayoutable)

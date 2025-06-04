@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie vrai si chartType est l'un des sous-types de Scatter. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint  ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+second_title: Aspose.Slides pour .NET Référence API
+description: Retourne vrai si chartType est l'un des sous-types de Scatter. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue Changer le type de graphique dans PowerPoint ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
 
 ## ChartTypeCharacterizer.IsChartTypeScatter méthode
 
-Renvoie vrai si chartType est l'un des sous-types de Scatter. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint) : ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
+Retourne vrai si chartType est l'un des sous-types de Scatter. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint) : ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.
 
 ```csharp
 public static bool IsChartTypeScatter(ChartType chartType)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

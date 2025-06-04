@@ -1,6 +1,6 @@
 ---
 title: AddFromPdf
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée des diapositives à partir du document PDF et les ajoute à la fin de la collection.
 type: docs
 weight: 50
@@ -25,7 +25,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -64,13 +64,13 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation())
 {
-    pres.Slides.AddFromPdf("document.pdf", new PdfImportOptions { DetectTables = true });
+    pres.Slides.AddFromPdf("document.pdf, new PdfImportOptions { DetectTables = true });
     pres.Save("fromPdfDocument.pptx", SaveFormat.Pptx);
 }
 ```
@@ -104,7 +104,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -147,7 +147,7 @@ Diapositives ajoutées
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

@@ -13,16 +13,16 @@ Contient des classes pour travailler avec l'encre.
 
 | Classe | Description |
 | --- | --- |
-| [Ink](./ink) | Représente un objet d'encre sur une diapositive. |
+| [Ink](./ink) | Représente un objet encre sur une diapositive. |
 | [InkActions](./inkactions) | Représente la racine des actions d'encre. |
 | [InkBrush](./inkbrush) | Représente un objet InkBrush. |
-| [InkTrace](./inktrace) | Représente un objet Trace. Un élément Trace est utilisé pour enregistrer les données capturées par le numériseur. Il contient une séquence de points codés selon la spécification donnée par l'objet InkTraceFormat. |
+| [InkTrace](./inktrace) | Représente un objet Trace. Un élément Trace est utilisé pour enregistrer les données captées par le numériseur. Il contient une séquence de points encodés selon la spécification donnée par l'objet InkTraceFormat. |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
-| [IInk](./iink) | Représente un objet d'encre sur une diapositive. |
-| [IInkActions](./iinkactions) | Représente un objet d'encre sur une diapositive. |
+| [IInk](./iink) | Représente un objet encre sur une diapositive. |
+| [IInkActions](./iinkactions) | Représente un objet encre sur une diapositive. |
 | [IInkBrush](./iinkbrush) | Représente un pinceau de trace. |
 | [IInkTrace](./iinktrace) | Représente une ligne manuscrite dans un objet Ink. |
 

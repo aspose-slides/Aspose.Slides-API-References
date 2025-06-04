@@ -1,6 +1,6 @@
 ---
 title: AsIThemeable
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Permet d'obtenir l'interface de base IThemeable. IThemeable en lecture seule aspose.slides.theme/ithemeable.
 type: docs
 weight: 20
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/chart/asithemeable/
 
 ## Propriété Chart.AsIThemeable
 
-Permet d'obtenir l'interface de base IThemeable. Lecture seule [`IThemeable`](../../../aspose.slides.theme/ithemeable).
+Permet d'obtenir l'interface de base IThemeable. IThemeable en lecture seule [`IThemeable`](../../../aspose.slides.theme/ithemeable).
 
 ```csharp
 public IThemeable AsIThemeable { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThemeable](../../../aspose.slides.theme/ithemeable)
 * classe [Chart](../../chart)

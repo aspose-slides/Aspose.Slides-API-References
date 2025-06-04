@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Aspose.Slides für .NET API Referenz
-description: Richtung des Übergangs. Lese-/Schreibzugriff auf TransitionEightDirectionTypeaspose.slides.slideshow/transitioneightdirectiontype.
+second_title: Aspose.Slides for .NET API Reference
+description: Richtung der Übergänge. Lese-/Schreibzugriff auf TransitionEightDirectionTypeaspose.slides.slideshow/transitioneightdirectiontype.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/ieightdirectiontransition/direction/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.slideshow/ieightdirectiontransition/direction/
 
 ## IEightDirectionTransition.Direction-Eigenschaft
 
-Richtung des Übergangs. Lese-/Schreibzugriff auf [`TransitionEightDirectionType`](../../transitioneightdirectiontype).
+Richtung der Übergänge. Lese-/Schreibzugriff auf [`TransitionEightDirectionType`](../../transitioneightdirectiontype).
 
 ```csharp
 public TransitionEightDirectionType Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionEightDirectionType](../../transitioneightdirectiontype)
 * interface [IEightDirectionTransition](../../ieightdirectiontransition)

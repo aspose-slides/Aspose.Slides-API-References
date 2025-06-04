@@ -1,15 +1,15 @@
 ---
 title: IMotionEffect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Bewegungsverhalten des Effekts dar.
+description: Stellt das Verhalten des Bewegungseffekts dar.
 type: docs
 weight: 440
 url: /de/aspose.slides.animation/imotioneffect/
 ---
 
-## IMotionEffect-Schnittstelle
+## IMotionEffect-Interface
 
-Stellt das Bewegungsverhalten des Effekts dar.
+Stellt das Verhalten des Bewegungseffekts dar.
 
 ```csharp
 public interface IMotionEffect : IBehavior
@@ -19,15 +19,15 @@ public interface IMotionEffect : IBehavior
 
 | Name | Beschreibung |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfads. Lese-/Schreibzugriff Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur-Lesezugriff [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der die Animation gestartet wird (in Prozent). Lese-/Schreibzugriff PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Gibt an, was der Ursprung des Bewegungspfads relativ zu etwas ist, z. B. dem Layout der Folie oder dem übergeordneten Element. Lese-/Schreibzugriff [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Gibt das pfadprimitive an, dem bei der Animation gefolgt wird. Lese-/Schreibzugriff [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form bewegt wird. Lese-/Schreibzugriff [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Beschreibt das Zentrum der Rotation, das verwendet wird, um einen Bewegungspfad um einen X-Winkel zu drehen. Lese-/Schreibzugriff PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Gibt den Zielort für einen Animationseffekt an (in Prozent). Lese-/Schreibzugriff PointF. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfades. Lese-/Schreibzugriff auf Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur Leseberechtigung [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Beschreibt den relativen Offsetswert für die Animation (in Prozent). Lese-/Schreibzugriff auf PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der die Animation gestartet wird (in Prozent). Lese-/Schreibzugriff auf PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Gibt an, was der Ursprung des Bewegungspfades relativ ist, z. B. das Layout der Folie oder das übergeordnete Element. Lese-/Schreibzugriff auf [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Gibt das Pfadprimitive an, das von Koordinaten für die Animationsbewegung gefolgt wird. Lese-/Schreibzugriff auf [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form verschoben wird. Lese-/Schreibzugriff auf [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Beschreibt das Zentrum der Drehung, das verwendet wird, um einen Bewegungspfad um den X-Winkel zu drehen. Lese-/Schreibzugriff auf PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Gibt den Zielort für einen Bewegungseffekt der Animation an (in Prozent). Lese-/Schreibzugriff auf PointF. |
 
 ### Siehe auch
 

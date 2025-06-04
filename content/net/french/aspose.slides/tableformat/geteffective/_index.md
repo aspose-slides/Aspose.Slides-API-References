@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les propriétés de formatage de tableau effectives avec héritage et styles de tableau appliqués.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient les propriétés de formatage de table effectives avec héritage et styles de table appliqués.
 type: docs
 weight: 30
 url: /fr/aspose.slides/tableformat/geteffective/
 ---
 
-## Méthode TableFormat.GetEffective
+## TableFormat.GetEffective method
 
-Obtient les propriétés de formatage de tableau effectives avec héritage et styles de tableau appliqués.
+Obtient les propriétés de formatage de table effectives avec héritage et styles de table appliqués.
 
 ```csharp
 public ITableFormatEffectiveData GetEffective()
 ```
 
-### Valeur Retour
+### Return Value
 
 Un [`ITableFormatEffectiveData`](../../itableformateffectivedata).
 
-### Exemples
+### Examples
 
-Cet exemple montre comment obtenir un format de remplissage effectif pour différentes parties logiques du tableau. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, le formatage des lignes - plus haut que celui des colonnes, le formatage des colonnes - plus haut que celui du tableau entier. Ainsi, les propriétés CellFormatEffectiveData sont toujours utilisées pour dessiner le tableau. Le code suivant est juste un exemple d'API.
+Cet exemple démontre comment obtenir le format de remplissage effectif pour différentes parties logiques de la table. Veuillez noter que le formatage des cellules a toujours une priorité plus élevée que le formatage des lignes, que le formatage des lignes a une priorité plus élevée que celui des colonnes, et que le formatage des colonnes a une priorité plus élevée que celui de la table entière. Ainsi, les propriétés de CellFormatEffectiveData sont toujours utilisées pour dessiner la table. Le code suivant est juste un exemple de l'API.
 
 ```csharp
 [C#]
@@ -32,14 +32,14 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     IFillFormatEffectiveData rowFillFormatEffective = tbl.Rows[0].RowFormat.GetEffective().FillFormat;
     IFillFormatEffectiveData columnFillFormatEffective = tbl.Columns[0].ColumnFormat.GetEffective().FillFormat;
     IFillFormatEffectiveData cellFillFormatEffective = tbl[0, 0].CellFormat.GetEffective().FillFormat;
-    /* Sortie et comparaison */
+    /* Output and comparison */
 }
 ```
 
-### Voir Aussi
+### See Also
 
 * interface [ITableFormatEffectiveData](../../itableformateffectivedata)
-* classe [TableFormat](../../tableformat)
+* class [TableFormat](../../tableformat)
 * namespace [Aspose.Slides](../../tableformat)
 * assembly [Aspose.Slides](../../../)
 

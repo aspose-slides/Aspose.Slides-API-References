@@ -1,6 +1,6 @@
 ---
 title: InsertComment
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 在指定索引处向集合插入新评论。
 type: docs
 weight: 110
@@ -18,17 +18,17 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 集合中要插入评论的元素索引。 |
+| index | Int32 | 要插入评论的集合中元素的索引。 |
 | text | String | 新评论的纯文本。 |
-| slide | ISlide | 在演示文稿中要添加新评论的幻灯片。 |
-| position | PointF | 在幻灯片上添加新评论的位置。 |
+| slide | ISlide | 在演示文稿中添加新评论的幻灯片。 |
+| position | PointF | 在幻灯片上添加新评论的位置信息。 |
 | creationTime | DateTime | 评论创建的时间。 |
 
 ### 返回值
 
 插入的评论。
 
-### 另见
+### 另请参见
 
 * 接口 [IComment](../../icomment)
 * 接口 [ISlide](../../islide)

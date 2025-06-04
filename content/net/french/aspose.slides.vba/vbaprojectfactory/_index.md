@@ -7,7 +7,7 @@ weight: 11350
 url: /fr/aspose.slides.vba/vbaprojectfactory/
 ---
 
-## Classe VbaProjectFactory
+## VbaProjectFactory class
 
 Permet de créer un projet VBA via l'interface COM
 
@@ -32,7 +32,7 @@ public class VbaProjectFactory : IVbaProjectFactory
 | Nom | Description |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Crée un nouveau projet VBA. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Lit le projet VBA à partir d'un conteneur OLE. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Lit le projet VBA à partir du conteneur OLE. |
 
 ### Voir aussi
 

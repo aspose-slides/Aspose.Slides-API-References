@@ -15,7 +15,7 @@ Décrit la durée de l'effet d'animation. Lecture/écriture Single.
 public float Duration { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITiming](../../itiming)
 * namespace [Aspose.Slides.Animation](../../itiming)

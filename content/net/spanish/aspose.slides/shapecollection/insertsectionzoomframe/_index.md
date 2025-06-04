@@ -1,15 +1,15 @@
 ---
 title: InsertSectionZoomFrame
-second_title: Aspose.Slides para .NET Referencia de API
-description: Crea un nuevo objeto Section Zoom e inserta en una colección en el índice especificado.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Crea un nuevo objeto de Sección Zoom y lo inserta en una colección en el índice especificado.
 type: docs
 weight: 370
 url: /es/aspose.slides/shapecollection/insertsectionzoomframe/
 ---
 
-## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
+## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
-Crea un nuevo objeto Section Zoom e inserta en una colección en el índice especificado.
+Crea un nuevo objeto de Sección Zoom y lo inserta en una colección en el índice especificado.
 
 ```csharp
 public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, float width, 
@@ -18,16 +18,16 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice basado en cero en el que se debe insertar el marco de Section Zoom. |
-| x | Single | Coordenada X de un nuevo marco de Section Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco de Section Zoom Single. |
-| width | Single | Ancho de un nuevo marco de Section Zoom Single. |
-| height | Single | Altura de un nuevo marco de Section Zoom Single. |
-| section | ISection | El objeto de diapositiva referenciado por el marco de Section Zoom [`ISection`](../../isection). |
+| index | Int32 | El índice basado en cero en el cual se debería insertar el marco de Sección Zoom. |
+| x | Single | Coordenada X de un nuevo marco de Sección Zoom. |
+| y | Single | Coordenada Y de un nuevo marco de Sección Zoom. |
+| width | Single | Ancho de un nuevo marco de Sección Zoom. |
+| height | Single | Altura de un nuevo marco de Sección Zoom. |
+| section | ISection | El objeto de diapositiva referenciado por el marco de Sección Zoom [`ISection`](../../isection). |
 
-### Valor de Retorno
+### Valor de retorno
 
-Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
+Objeto de Sección Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Excepciones
 
@@ -37,7 +37,7 @@ Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Ejemplos
 
-Este ejemplo demuestra la creación e inserción de un objeto Section Zoom en el índice especificado de una colección (supongamos que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra la creación e inserción de un objeto de Sección Zoom en el índice especificado de una colección (suponiendo que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -47,19 +47,19 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Véase También
+### Vea también
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ISectionZoomFrame](../../isectionzoomframe)
+* interfaz [ISection](../../isection)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
-## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
+## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
 
-Crea un nuevo objeto Section Zoom e inserta en una colección en el índice especificado.
+Crea un nuevo objeto de Sección Zoom y lo inserta en una colección en el índice especificado.
 
 ```csharp
 public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, float width, 
@@ -68,17 +68,17 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | El índice basado en cero en el que se debe insertar el marco de Section Zoom. |
-| x | Single | Coordenada X de un nuevo marco de Section Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco de Section Zoom Single. |
-| width | Single | Ancho de un nuevo marco de Section Zoom Single. |
-| height | Single | Altura de un nuevo marco de Section Zoom Single. |
-| section | ISection | El objeto de diapositiva referenciado por el marco de Section Zoom [`ISection`](../../isection). |
-| image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage) |
+| index | Int32 | El índice basado en cero en el cual se debería insertar el marco de Sección Zoom. |
+| x | Single | Coordenada X de un nuevo marco de Sección Zoom. |
+| y | Single | Coordenada Y de un nuevo marco de Sección Zoom. |
+| width | Single | Ancho de un nuevo marco de Sección Zoom. |
+| height | Single | Altura de un nuevo marco de Sección Zoom. |
+| section | ISection | El objeto de diapositiva referenciado por el marco de Sección Zoom [`ISection`](../../isection). |
+| image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage). |
 
-### Valor de Retorno
+### Valor de retorno
 
-Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
+Objeto de Sección Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Excepciones
 
@@ -88,7 +88,7 @@ Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Ejemplos
 
-Este ejemplo demuestra la creación e inserción de un objeto Section Zoom en el índice especificado de una colección (supongamos que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra la creación e inserción de un objeto de Sección Zoom en el índice especificado de una colección (suponiendo que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -99,13 +99,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Véase También
+### Vea también
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* interface [IPPImage](../../ippimage)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ISectionZoomFrame](../../isectionzoomframe)
+* interfaz [ISection](../../isection)
+* interfaz [IPPImage](../../ippimage)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

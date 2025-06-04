@@ -1,13 +1,13 @@
 ---
 title: CommentsPosition
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit la position des commentaires sur la page.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/notescommentslayoutingoptions/commentsposition/
 ---
 
-## Propriété NotesCommentsLayoutingOptions.CommentsPosition
+## NotesCommentsLayoutingOptions.CommentsPosition propriété
 
 Obtient ou définit la position des commentaires sur la page.
 

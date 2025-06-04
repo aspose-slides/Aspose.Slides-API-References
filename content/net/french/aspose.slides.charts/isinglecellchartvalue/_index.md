@@ -19,10 +19,10 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Nom | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Retourne ou définit la cellule de données du graphique. Lecture/écriture [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Renvoie ou définit la cellule de données du graphique. Lecture/écriture [`IChartDataCell`](../ichartdatacell). |
 | [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Permet d'obtenir l'interface de base IBaseChartValue. Lecture seule [`IBaseChartValue`](../ibasechartvalue). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBaseChartValue](../ibasechartvalue)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

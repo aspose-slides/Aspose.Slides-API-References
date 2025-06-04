@@ -1,7 +1,7 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Farbton/Sättigung/Luminanz-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Farbton-/Sättigungs-/Helligkeitseffekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 type: docs
 weight: 3250
 url: /de/aspose.slides.effects/ihsleffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ihsleffectivedata/
 
 ## IHSLEffectiveData-Schnittstelle
 
-Stellt einen Farbton/Sättigung/Luminanz-Effekt dar. Der Farbton, die Sättigung und die Luminanz können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
+Stellt einen Farbton-/Sättigungs-/Helligkeitseffekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -19,12 +19,12 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Gibt den Farbtonprozentsatz zurück. Nur lesbar Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Gibt den Luminanzprozentsatz zurück. Nur lesbar Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Gibt den Sättigungsprozentsatz zurück. Nur lesbar Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IEffectEffectiveData. Nur-lesendes [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Gibt den Farbtonprozentsatz zurück. Nur-lesend Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Gibt den Helligkeitsprozentsatz zurück. Nur-lesend Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Gibt den Sättigungsprozentsatz zurück. Nur-lesend Single. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

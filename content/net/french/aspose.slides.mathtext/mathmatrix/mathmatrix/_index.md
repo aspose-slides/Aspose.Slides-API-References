@@ -1,6 +1,6 @@
 ---
 title: MathMatrix
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Initialise une nouvelle instance de la classe MathMatrix.
 type: docs
 weight: 10
@@ -22,7 +22,7 @@ public MathMatrix(int rowCount, int columnCount)
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

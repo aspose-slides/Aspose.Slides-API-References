@@ -1,7 +1,7 @@
 ---
 title: DelayBetweenTextParts
-second_title: Aspose.Slides for .NET API参考
-description: 定义动画文本部分（单词或字母）之间的延迟。正值指定效果持续时间的百分比。负值指定延迟的秒数。可读/可写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义动画文本部分（单词或字母）之间的延迟。正值指定效果持续时间的百分比。负值指定延迟的秒数。可读写的单精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides.animation/ieffect/delaybetweentextparts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/ieffect/delaybetweentextparts/
 
 ## IEffect.DelayBetweenTextParts 属性
 
-定义动画文本部分（单词或字母）之间的延迟。正值指定效果持续时间的百分比。负值指定延迟的秒数。可读/可写单精度浮点数。
+定义动画文本部分（单词或字母）之间的延迟。正值指定效果持续时间的百分比。负值指定延迟的秒数。可读写的单精度浮点数。
 
 ```csharp
 public float DelayBetweenTextParts { get; set; }
@@ -21,10 +21,10 @@ public float DelayBetweenTextParts { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // 获取第一个幻灯片的第一个效果。
+    // 获取第一张幻灯片的第一个效果。
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // 将效果的文本动画类型更改为“按单词”
+    // 将效果的动画文本类型更改为“按单词”
     firstSlideEffect.AnimateTextType = AnimateTextType.ByWord;
     
     // 将动画文本部分之间的延迟设置为效果持续时间的20%。

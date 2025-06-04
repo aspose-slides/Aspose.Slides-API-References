@@ -1,7 +1,7 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示管理器，它持有主讲义幻灯片占位符的行为，包括页眉占位符。
+description: 表示管理器，该管理器持有主讲义幻灯片占位符的行为，包括页眉占位符。
 type: docs
 weight: 6160
 url: /zh/aspose.slides/imasterhandoutslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterhandoutslideheaderfootermanager/
 
 ## IMasterHandoutSlideHeaderFooterManager 接口
 
-表示管理器，它持有主讲义幻灯片占位符的行为，包括页眉占位符。
+表示管理器，该管理器持有主讲义幻灯片占位符的行为，包括页眉占位符。
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -21,7 +21,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | 返回 IBaseHandoutNotesSlideHeaderFooterManag 接口。 |
 
-### 参见
+### 另见
 
 * 接口 [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

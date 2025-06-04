@@ -1,7 +1,7 @@
 ---
 title: ColumnCount
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le nombre de colonnes dans la zone de texte. Cette valeur doit être un nombre positif. Sinon, la valeur sera fixée à zéro. La valeur 0 signifie valeur indéfinie. Lecture/écriture Int32.
+description: Renvoie ou définit le nombre de colonnes dans la zone de texte. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie à zéro. La valeur 0 signifie valeur indéfinie. Lecture/écriture Int32.
 type: docs
 weight: 50
 url: /fr/aspose.slides/textframeformat/columncount/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframeformat/columncount/
 
 ## Propriété TextFrameFormat.ColumnCount
 
-Renvoie ou définit le nombre de colonnes dans la zone de texte. Cette valeur doit être un nombre positif. Sinon, la valeur sera fixée à zéro. La valeur 0 signifie valeur indéfinie. Lecture/écriture Int32.
+Renvoie ou définit le nombre de colonnes dans la zone de texte. Cette valeur doit être un nombre positif. Sinon, la valeur sera définie à zéro. La valeur 0 signifie valeur indéfinie. Lecture/écriture Int32.
 
 ```csharp
 public int ColumnCount { get; set; }
@@ -17,7 +17,7 @@ public int ColumnCount { get; set; }
 
 ### Exemples
 
-Le code d'exemple suivant montre comment ajouter une colonne dans une zone de texte à l'intérieur d'une présentation PowerPoint.
+Le code d'exemple suivant montre comment ajouter des colonnes dans un cadre de texte à l'intérieur d'une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -27,11 +27,10 @@ using (Presentation pres = new Presentation())
     IAutoShape shape1 = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
     TextFrameFormat format = (TextFrameFormat)shape1.TextFrame.TextFrameFormat;
     format.ColumnCount = 2;
-    shape1.TextFrame.Text = "Toutes ces colonnes sont forcées de rester dans un seul conteneur de texte -- " +
-                                "vous pouvez ajouter ou supprimer du texte - et le nouveau texte ou le texte restant " +
-                                "s'ajuste automatiquement pour rester dans le conteneur. Vous ne pouvez pas avoir de texte " +
-                                "débordant d'un conteneur à un autre, cependant -- car les options de colonnes de PowerPoint " +
-                                "pour le texte sont limitées!";
+    shape1.TextFrame.Text = "Toutes ces colonnes sont forcées de rester à l'intérieur d'un seul conteneur de texte -- " +
+                                "vous pouvez ajouter ou supprimer du texte - et le nouveau texte ou le texte restant s'ajuste automatiquement " +
+                                "pour rester dans le conteneur. Vous ne pouvez pas avoir de texte qui déborde d'un conteneur " +
+                                "à un autre, cependant -- parce que les options de colonnes de PowerPoint pour le texte sont limitées !";
     pres.Save(outPptxFileName, SaveFormat.Pptx);
     using (Presentation test = new Presentation(outPptxFileName))
     {

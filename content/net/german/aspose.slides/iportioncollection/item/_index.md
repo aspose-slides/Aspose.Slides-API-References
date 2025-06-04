@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Element am angegebenen Index zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Holt das Element am angegebenen Index.
 type: docs
 weight: 30
 url: /de/aspose.slides/iportioncollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportioncollection/item/
 
 ## IPortionCollection-Indexer
 
-Gibt das Element am angegebenen Index zurück.
+Holt das Element am angegebenen Index.
 
 ```csharp
 public IPortion this[int index] { get; }

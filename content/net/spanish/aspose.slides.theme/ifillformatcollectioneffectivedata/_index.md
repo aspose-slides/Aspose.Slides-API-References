@@ -21,7 +21,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Observaciones
+### Comentarios
 
 Esta interfaz se utiliza como parte de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 

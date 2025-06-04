@@ -1,6 +1,6 @@
 ---
 title: AsIFillParamSource
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve la interfaz IFillParamSource.
 type: docs
 weight: 10
@@ -19,11 +19,11 @@ public IFillParamSource AsIFillParamSource { get; }
 
 Para compatibilidad con COM.
 
-### Ver También
+### Véase también
 
 * interfaz [IFillParamSource](../../ifillparamsource)
 * interfaz [IBackgroundEffectiveData](../../ibackgroundeffectivedata)
 * espacio de nombres [Aspose.Slides](../../ibackgroundeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

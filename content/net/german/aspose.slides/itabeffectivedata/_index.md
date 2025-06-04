@@ -1,15 +1,15 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderliches Objekt, das die Eigenschaften von effektiven Texteinstellungshaltepunkten enthält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das die Eigenschaften der Tabulatorstopps für effektive Texte enthält.
 type: docs
 weight: 6990
 url: /de/aspose.slides/itabeffectivedata/
 ---
 
-## ITabEffectiveData-Schnittstelle
+## ITabEffectiveData Schnittstelle
 
-Unveränderliches Objekt, das die Eigenschaften der effektiven Texteinstellungshaltepunkte enthält.
+Unveränderliches Objekt, das die Eigenschaften der Tabulatorstopps für effektive Texte enthält.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -19,11 +19,11 @@ public interface ITabEffectiveData : IComparable
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Gibt den Ausrichtungsstil eines Tabs zurück. Nur lesbar [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Gibt die IComparable-Schnittstelle zurück. Nur lesbar IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Gibt die Position eines Tabs zurück. Das Zuweisen dieser Eigenschaft kann den Index des Tabs in der Sammlung ändern und den Enumerator ungültig machen. Nur lesbar Double. |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Gibt den Ausrichtungsstil eines Tabulators zurück. Nur-Lesen [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Gibt die IComparable-Schnittstelle zurück. Nur-Lesen IComparable. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Gibt die Position eines Tabulators zurück. Das Zuweisen dieser Eigenschaft kann den Index des Tabulators in der Sammlung ändern und den Enumerator ungültig machen. Nur-Lesen Double. |
 
-### Anmerkungen
+### Bemerkungen
 
 Diese Schnittstelle wird als Teil von [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) verwendet.
 

@@ -1,6 +1,6 @@
 ---
 title: CreateMathematicalText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Crear elemento de texto matemático vacío
 type: docs
 weight: 10
@@ -38,7 +38,7 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| mathSymbol | Char | símbolo único para usar como valor de texto |
+| mathSymbol | Char | símbolo único a utilizar como valor de texto |
 
 ### Valor de Retorno
 

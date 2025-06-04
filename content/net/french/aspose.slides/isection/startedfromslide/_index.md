@@ -1,6 +1,6 @@
 ---
 title: StartedFromSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Retourne la première diapositive de la section.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Retourne la première diapositive de la section.
 public ISlide StartedFromSlide { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlide](../../islide)
 * interface [ISection](../../isection)

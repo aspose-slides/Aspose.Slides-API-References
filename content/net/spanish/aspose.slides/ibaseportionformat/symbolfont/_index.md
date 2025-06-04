@@ -1,21 +1,21 @@
 ---
 title: SymbolFont
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece la información de la fuente simbólica. Null significa que la fuente no está definida y debe heredarse del Maestro. Lectura/escritura IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve o establece la información de la fuente simbólica. Null significa que la fuente no está definida y debe heredarse del Master. Lectura/escritura IFontData aspose.slides/ifontdata.
 type: docs
 weight: 230
 url: /es/aspose.slides/ibaseportionformat/symbolfont/
 ---
 
-## Propiedad IBasePortionFormat.SymbolFont
+## IBasePortionFormat.SymbolFont property
 
-Devuelve o establece la información de la fuente simbólica. Null significa que la fuente no está definida y debe heredarse del Maestro. Lectura/escritura [`IFontData`](../../ifontdata).
+Devuelve o establece la información de la fuente simbólica. Null significa que la fuente no está definida y debe heredarse del Master. Lectura/escritura [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SymbolFont { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IFontData](../../ifontdata)
 * interfaz [IBasePortionFormat](../../ibaseportionformat)

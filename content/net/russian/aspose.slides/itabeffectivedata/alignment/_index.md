@@ -1,7 +1,7 @@
 ---
 title: Alignment
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль выравнивания таба. Свойство только для чтения TabAlignmentaspose.slides/tabalignment.
+second_title: Aspose.Slides для .NET Справочник API
+description: Возвращает стиль выравнивания вкладки. Только для чтения TabAlignmentaspose.slides/tabalignment.
 type: docs
 weight: 10
 url: /ru/aspose.slides/itabeffectivedata/alignment/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/itabeffectivedata/alignment/
 
 ## Свойство ITabEffectiveData.Alignment
 
-Возвращает стиль выравнивания таба. Свойство только для чтения [`TabAlignment`](../../tabalignment).
+Возвращает стиль выравнивания вкладки. Только для чтения [`TabAlignment`](../../tabalignment).
 
 ```csharp
 public TabAlignment Alignment { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [TabAlignment](../../tabalignment)
 * interface [ITabEffectiveData](../../itabeffectivedata)

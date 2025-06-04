@@ -1,7 +1,7 @@
 ---
 title: AddPicturePlaceholder
-second_title: Справочник API Aspose.Slides для .NET
-description: Добавляет новую фигурку-заполнитель на слайд макета для размещения изображения.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Добавляет новую фигуру-заполнитель на макетный слайд для удержания изображения.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder/
 
 ## ILayoutPlaceholderManager.AddPicturePlaceholder метод
 
-Добавляет новую фигурку-заполнитель на слайд макета для размещения изображения.
+Добавляет новую фигуру-заполнитель на макетный слайд для удержания изображения.
 
 ```csharp
 public IAutoShape AddPicturePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddPicturePlaceholder(float x, float y, float width, float hei
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X новой фигурки-заполнителя. |
-| y | Single | Координата Y новой фигурки-заполнителя. |
-| width | Single | Ширина новой фигурки-заполнителя. |
-| height | Single | Высота новой фигурки-заполнителя. |
+| x | Single | Координата X новой фигуры-заполнителя. |
+| y | Single | Координата Y новой фигуры-заполнителя. |
+| width | Single | Ширина новой фигуры-заполнителя. |
+| height | Single | Высота новой фигуры-заполнителя. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем изображения.
+Созданный [`IAutoShape`](../../iautoshape) с изображением-заполнителем.
 
 ### Примеры
 
-Следующий пример показывает, как добавить фигурку-заполнитель изображения на слайд макета.
+Следующий пример показывает, как добавить фигуру-заполнитель для изображения на макетный слайд.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * интерфейс [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

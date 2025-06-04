@@ -1,13 +1,13 @@
 ---
 title: ShowLeftPane
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Mostrar/ocultar el panel izquierdo. Se puede anular en flashvars. El valor predeterminado es verdadero.
 type: docs
 weight: 100
 url: /es/aspose.slides.export/iswfoptions/showleftpane/
 ---
 
-## Propiedad ISwfOptions.ShowLeftPane
+## ISwfOptions.ShowLeftPane property
 
 Mostrar/ocultar el panel izquierdo. Se puede anular en flashvars. El valor predeterminado es verdadero.
 

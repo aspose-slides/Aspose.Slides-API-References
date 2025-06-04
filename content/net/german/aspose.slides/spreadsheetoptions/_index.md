@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt Optionen dar, die verwendet werden können, um ein zusätzliches Verhalten von Tabellenkalkulationen zu spezifizieren.
+description: Stellt Optionen dar, die verwendet werden können, um das Verhalten von Tabellenkalkulationen zusätzlich anzugeben.
 type: docs
 weight: 10430
 url: /de/aspose.slides/spreadsheetoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/spreadsheetoptions/
 
 ## SpreadsheetOptions-Klasse
 
-Stellt Optionen dar, die verwendet werden können, um ein zusätzliches Verhalten von Tabellenkalkulationen zu spezifizieren.
+Stellt Optionen dar, die verwendet werden können, um das Verhalten von Tabellenkalkulationen zusätzlich anzugeben.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -19,14 +19,14 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | Initialisiert eine neue Instanz der [`SpreadsheetOptions`](../spreadsheetoptions)-Klasse. |
+| [SpreadsheetOptions](spreadsheetoptions)() | Initialisiert eine neue Instanz der [`SpreadsheetOptions`](../spreadsheetoptions) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Gibt die bevorzugte Kulturinformation für die Berechnung einiger Funktionen zurück oder legt sie fest, die für Sprachen gedacht sind, die den Doppeltbyte-Zeichensatz (DBCS) verwenden. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Ruft die bevorzugten Kulturinformationen ab oder legt sie fest, die für die Berechnung bestimmter Funktionen vorgesehen sind, die mit Sprachen verwendet werden, die das Double-Byte-Zeichensatz (DBCS) verwenden. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Wenn die Datenquelle für das Diagramm eine externe Arbeitsmappe ist und diese nicht verfügbar ist, wird sie aus dem Diagramm-Cache wiederhergestellt. |
 
 ### Siehe auch
 

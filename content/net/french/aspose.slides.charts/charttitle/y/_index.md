@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Simple.
+description: Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture de type Single.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/charttitle/y/
@@ -9,15 +9,15 @@ url: /fr/aspose.slides.charts/charttitle/y/
 
 ## Propriété ChartTitle.Y
 
-Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture Simple.
+Renvoie ou définit la coordonnée y d'un titre en tant que fraction de la hauteur du graphique. Lecture/écriture de type Single.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [ChartTitle](../../charttitle)
+* class [ChartTitle](../../charttitle)
 * namespace [Aspose.Slides.Charts](../../charttitle)
 * assembly [Aspose.Slides](../../../)
 

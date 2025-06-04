@@ -1,7 +1,7 @@
 ---
 title: PropertyEffect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor por defecto.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: El constructor predeterminado.
 type: docs
 weight: 10
 url: /es/aspose.slides.animation/propertyeffect/propertyeffect/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.animation/propertyeffect/propertyeffect/
 
 ## Constructor de PropertyEffect
 
-El constructor por defecto.
+El constructor predeterminado.
 
 ```csharp
 public PropertyEffect()
 ```
 
-### Ver también
+### Ver También
 
 * clase [PropertyEffect](../../propertyeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../propertyeffect)

@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajouter une nouvelle commande au chemin
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/imotionpath/add/
 ---
 
-## Méthode IMotionPath.Add
+## IMotionPath.Add method
 
 Ajouter une nouvelle commande au chemin
 

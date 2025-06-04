@@ -1,7 +1,7 @@
 ---
 title: GetSubstitutions
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält Informationen über Schriftarten, die bei der Präsentationsdarstellung ersetzt werden.
+description: Holt die Informationen über Schriftarten, die bei der Präsentationsdarstellung ersetzt werden.
 type: docs
 weight: 80
 url: /de/aspose.slides/fontsmanager/getsubstitutions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsmanager/getsubstitutions/
 
 ## FontsManager.GetSubstitutions-Methode
 
-Erhält Informationen über Schriftarten, die bei der Darstellung der Präsentation ersetzt werden.
+Holt die Informationen über Schriftarten, die bei der Darstellung der Präsentation ersetzt werden.
 
 ```csharp
 public IEnumerable<FontSubstitutionInfo> GetSubstitutions()

@@ -1,15 +1,15 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den Animation-Skalierungseffekt dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Animationsskaleneffekt dar.
 type: docs
 weight: 700
 url: /de/aspose.slides.animation/scaleeffect/
 ---
 
-## ScaleEffect Klasse
+## ScaleEffect-Klasse
 
-Stellt den Animation-Skalierungseffekt dar.
+Stellt den Animationsskaleneffekt dar.
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
@@ -27,14 +27,14 @@ public class ScaleEffect : Behavior, IScaleEffect
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der die Animation startet (in Prozent). Lese-/Schreibzugriff PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Schreibgeschützt [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Zeitgestaltungseigenschaften für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Gibt den Zielort für einen Animationsskalierungseffekt an (in Prozent). Lese-/Schreibzugriff PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Bestimmt, ob ein Inhalt vergrößert werden soll. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | beschreibt den relativen Offsetwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der aus die Animation startet (in Prozent). Lese-/Schreibzugriff PointF. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Nur-Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Timing-Eigenschaften für das Effektverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Gibt den Zielort für einen Animationsskaleneffekt an (in Prozent). Lese-/Schreibzugriff PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Bestimmt, ob ein Inhalt gezoomt werden soll. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Behavior](../behavior)
 * Schnittstelle [IScaleEffect](../iscaleeffect)

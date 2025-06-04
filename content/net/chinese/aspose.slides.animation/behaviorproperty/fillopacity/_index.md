@@ -1,6 +1,6 @@
 ---
 title: FillOpacity
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 fill.opacity 属性
 type: docs
 weight: 370
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/fillopacity/
 public static BehaviorProperty FillOpacity { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,13 +1,13 @@
 ---
 title: AddEmptyModule
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute un nouveau module vide au projet VBA.
 type: docs
 weight: 50
 url: /fr/aspose.slides.vba/vbamodulecollection/addemptymodule/
 ---
 
-## Méthode VbaModuleCollection.AddEmptyModule
+## VbaModuleCollection.AddEmptyModule méthode
 
 Ajoute un nouveau module vide au projet VBA.
 

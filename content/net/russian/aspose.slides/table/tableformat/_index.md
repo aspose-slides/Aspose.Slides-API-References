@@ -1,6 +1,6 @@
 ---
 title: TableFormat
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает объект TableFormat, который содержит свойства форматирования для этой таблицы. Только для чтения ITableFormataspose.slides/itableformat.
 type: docs
 weight: 120

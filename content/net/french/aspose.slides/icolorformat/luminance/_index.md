@@ -1,7 +1,7 @@
 ---
 title: Luminance
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le composant luminance d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
+second_title: Aspose.Sildes pour la référence d'API .NET
+description: Renvoie ou définit le composant de luminance d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Simple.
 type: docs
 weight: 110
 url: /fr/aspose.slides/icolorformat/luminance/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icolorformat/luminance/
 
 ## Propriété IColorFormat.Luminance
 
-Renvoie ou définit le composant luminance d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
+Renvoie ou définit le composant de luminance d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Simple.
 
 ```csharp
 public float Luminance { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColorFormat](../../icolorformat)
 * namespace [Aspose.Slides](../../icolorformat)

@@ -1,15 +1,15 @@
 ---
 title: PptR
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die 'ppt_r' Eigenschaft dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Eigenschaft 'ppt_r' dar
 type: docs
 weight: 530
 url: /de/aspose.slides.animation/behaviorproperty/pptr/
 ---
 
-## BehaviorProperty.PptR Eigenschaft
+## BehaviorProperty.PptR-Eigenschaft
 
-Stellt die 'ppt_r' Eigenschaft dar
+Stellt die Eigenschaft 'ppt_r' dar
 
 ```csharp
 public static BehaviorProperty PptR { get; }

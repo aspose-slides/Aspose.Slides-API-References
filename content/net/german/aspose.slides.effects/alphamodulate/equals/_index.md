@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, ob das angegebene AlphaModulateaspose.slides.effects/alphamodulate gleich dem aktuellen AlphaModulateaspose.slides.effects/alphamodulate ist.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Das [`AlphaModulate`](../../alphamodulate), das verglichen werden soll. |
+| obj | Objekt | Das [`AlphaModulate`](../../alphamodulate), das verglichen werden soll. |
 
 ### Rückgabewert
 

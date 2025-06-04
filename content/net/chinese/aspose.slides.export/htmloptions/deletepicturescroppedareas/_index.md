@@ -1,7 +1,7 @@
 ---
 title: DeletePicturesCroppedAreas
-second_title: Aspose.Slidеs for .NET API 参考
-description: 一个布尔标志指示剪裁的部分是否作为文档的一部分保留。如果为真，剪裁的部分将被移除；如果为假，它们将被序列化到文档中（这可能导致文件更大）。
+second_title: Aspose.Sildes for .NET API Reference
+description: 一个布尔标志，指示裁剪部分是否作为文档的一部分保留。如果为 true，裁剪部分将被删除；如果为 false，它们将在文档中被序列化，这可能导致文件更大。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/htmloptions/deletepicturescroppedareas/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/htmloptions/deletepicturescroppedareas/
 
 ## HtmlOptions.DeletePicturesCroppedAreas 属性
 
-一个布尔标志指示剪裁的部分是否作为文档的一部分保留。如果为真，剪裁的部分将被移除；如果为假，它们将被序列化到文档中（这可能导致文件更大）。
+一个布尔标志，指示裁剪部分是否作为文档的一部分保留。如果为 true，裁剪部分将被删除；如果为 false，它们将在文档中被序列化（这可能导致文件更大）
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [HtmlOptions](../../htmloptions)
 * namespace [Aspose.Slides.Export](../../htmloptions)

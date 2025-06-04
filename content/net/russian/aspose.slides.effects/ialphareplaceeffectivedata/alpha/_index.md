@@ -1,13 +1,13 @@
 ---
 title: Alpha
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает новое значение альфа в интервале 0..1 Только для чтения Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 ---
 
-## Свойство IAlphaReplaceEffectiveData.Alpha
+## IAlphaReplaceEffectiveData.Alpha свойство
 
 Возвращает новое значение альфа в интервале [0..1] Только для чтения Single.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 public float Alpha { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IAlphaReplaceEffectiveData](../../ialphareplaceeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ialphareplaceeffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置标题的高度，作为图表高度的一个比率。可读/可写 Single。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回或设置标题的高度作为图表高度的一个分数。可读/可写单精度浮点数。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/datalabel/height/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/datalabel/height/
 
 ## DataLabel.Height 属性
 
-返回或设置标题的高度，作为图表高度的一个比率。可读/可写 Single。
+返回或设置标题的高度作为图表高度的一个分数。可读/可写单精度浮点数。
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [DataLabel](../../datalabel)
 * namespace [Aspose.Slides.Charts](../../datalabel)

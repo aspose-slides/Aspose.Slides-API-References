@@ -7,7 +7,7 @@ weight: 50
 url: /ru/aspose.slides.charts/chartdata/secondarycategories/
 ---
 
-## Свойство ChartData.SecondaryCategories
+## ChartData.SecondaryCategories свойство
 
 Получает вторичные категории, если свойство [`UseSecondaryCategories`](../usesecondarycategories) истинно. Только для чтения [`IChartCategoryCollection`](../../ichartcategorycollection).
 
@@ -17,7 +17,7 @@ public IChartCategoryCollection SecondaryCategories { get; }
 
 ### Примечания
 
-Если свойство [`UseSecondaryCategories`](../usesecondarycategories) ложно, то это свойство `SecondaryCategories` возвращает null, и данные в свойстве [`Categories`](../categories) используются как для первичных, так и для вторичных серий. Если свойство [`UseSecondaryCategories`](../usesecondarycategories) истинно, то данные в этом свойстве `SecondaryCategories` используются для вторичных серий, а данные в свойстве [`Categories`](../categories) используются для первичных серий.
+Если свойство [`UseSecondaryCategories`](../usesecondarycategories) ложно, то это свойство `SecondaryCategories` возвращает null, и данные из свойства [`Categories`](../categories) используются как для первичных, так и для вторичных серий. Если свойство [`UseSecondaryCategories`](../usesecondarycategories) истинно, то данные в этом свойстве `SecondaryCategories` используются для вторичных серий, а данные в свойстве [`Categories`](../categories) используются для первичных серий.
 
 ### Примеры
 
@@ -26,15 +26,15 @@ public IChartCategoryCollection SecondaryCategories { get; }
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-    // связанные категории - series.Chart.ChartData.SecondaryCategories
+    // связанные категории это series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-    // связанные категории - series.Chart.ChartData.Categories
+    // связанные категории это series.Chart.ChartData.Categories
 }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IChartCategoryCollection](../../ichartcategorycollection)
 * класс [ChartData](../../chartdata)

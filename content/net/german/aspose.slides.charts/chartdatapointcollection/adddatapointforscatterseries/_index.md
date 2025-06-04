@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForScatterSeries
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Scatter-Untertypen ist siehe auch die Methode IsChartTypeScatteraspose.slides/charttypecharacterizer/ischarttypescatter.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Scatter-Untertypen ist, siehe auch die Methode IsChartTypeScatteraspose.slides.charts/charttypecharacterizer/ischarttypescatter.
 type: docs
 weight: 210
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/

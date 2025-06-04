@@ -1,13 +1,13 @@
 ---
 title: Contains
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, содержит ли коллекция конкретное значение.
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/mathparagraph/contains/
 ---
 
-## Метод MathParagraph.Contains
+## MathParagraph.Contains метод
 
 Определяет, содержит ли коллекция конкретное значение.
 
@@ -36,7 +36,7 @@ mathParagraph.Add(block);
 bool contains = mathParagraph.Contains(block);
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IMathBlock](../../imathblock)
 * класс [MathParagraph](../../mathparagraph)

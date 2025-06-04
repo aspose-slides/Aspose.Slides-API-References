@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 70
@@ -21,7 +21,7 @@ Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
 ### Siehe auch
 
-* Interface [IRow](../../irow)
+* Schnittstelle [IRow](../../irow)
 * Klasse [RowCollection](../../rowcollection)
 * Namespace [Aspose.Slides](../../rowcollection)
 * Assembly [Aspose.Slides](../../../)

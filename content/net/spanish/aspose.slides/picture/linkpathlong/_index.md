@@ -1,6 +1,6 @@
 ---
 title: LinkPathLong
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve la URL de las imágenes vinculadas. Lectura/escritura String.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Devuelve la URL de la imagen vinculada. Lectura/escritura String.
 public string LinkPathLong { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Picture](../../picture)
 * espacio de nombres [Aspose.Slides](../../picture)

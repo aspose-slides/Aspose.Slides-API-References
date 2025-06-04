@@ -15,7 +15,7 @@ Número de versión principal.
 public const int ProductMajor;
 ```
 
-### Ver también
+### Véase También
 
 * clase [BuildVersionInfo](../../buildversioninfo)
 * espacio de nombres [Aspose.Slides](../../buildversioninfo)

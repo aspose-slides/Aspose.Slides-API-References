@@ -1,7 +1,7 @@
 ---
 title: SetAllHeadersVisibility
-second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit aller Kopfplatzhalter, einschließlich der Notizenmaster, Notizfolien und Handouts-Master.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ändert die Sichtbarkeit aller Kopfplatzhalter, einschließlich Notizen-Master, Notizen-Folien und Handout-Master.
 type: docs
 weight: 70
 url: /de/aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility/
 
 ## IPresentationHeaderFooterManager.SetAllHeadersVisibility-Methode
 
-Ändert die Sichtbarkeit aller Kopfplatzhalter, einschließlich Notizenmaster, Notizfolien und Handouts-Master.
+Ändert die Sichtbarkeit aller Kopfplatzhalter, einschließlich Notizen-Master, Notizen-Folien und Handout-Master.
 
 ```csharp
 public void SetAllHeadersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetAllHeadersVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Kopfplatzhalter sichtbar, andernfalls - blendet ihn aus. |
+| isVisible | Boolean | true - macht einen Kopfplatzhalter sichtbar, andernfalls - verbirgt sie. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * Namespace [Aspose.Slides](../../ipresentationheaderfootermanager)

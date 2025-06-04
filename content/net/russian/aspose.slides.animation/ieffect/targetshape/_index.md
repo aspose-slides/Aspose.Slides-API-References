@@ -1,13 +1,13 @@
 ---
 title: TargetShape
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает целевую фигуру для эффекта. Только для чтения IShapeaspose.slides/ishape.
 type: docs
 weight: 110
 url: /ru/aspose.slides.animation/ieffect/targetshape/
 ---
 
-## Свойство IEffect.TargetShape
+## IEffect.TargetShape свойство
 
 Возвращает целевую фигуру для эффекта. Только для чтения [`IShape`](../../../aspose.slides/ishape).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/ieffect/targetshape/
 public IShape TargetShape { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IShape](../../../aspose.slides/ishape)
 * интерфейс [IEffect](../../ieffect)

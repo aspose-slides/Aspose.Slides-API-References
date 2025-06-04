@@ -17,8 +17,8 @@ public FieldType(string str)
 
 ### Ver También
 
-* class [FieldType](../../fieldtype)
-* namespace [Aspose.Slides](../../fieldtype)
-* assembly [Aspose.Slides](../../../)
+* clase [FieldType](../../fieldtype)
+* espacio de nombres [Aspose.Slides](../../fieldtype)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

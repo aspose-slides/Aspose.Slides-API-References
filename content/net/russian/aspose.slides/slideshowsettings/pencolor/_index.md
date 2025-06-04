@@ -1,15 +1,15 @@
 ---
 title: PenColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Цвет пера для слайд-шоу
+second_title: Aspose.Sildes для .NET API Reference
+description: Цвет пера для показа слайдов
 type: docs
 weight: 20
 url: /ru/aspose.slides/slideshowsettings/pencolor/
 ---
 
-## Свойство SlideShowSettings.PenColor
+## SlideShowSettings.PenColor свойство
 
-Цвет пера для слайд-шоу
+Цвет пера для показа слайдов
 
 ```csharp
 public IColorFormat PenColor { get; }

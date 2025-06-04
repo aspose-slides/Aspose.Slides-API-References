@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Dient als Hash-Funktion für einen bestimmten Typ.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/softedge/gethashcode/
 ---
 
-## SoftEdge.GetHashCode Methode
+## SoftEdge.GetHashCode-Methode
 
 Dient als Hash-Funktion für einen bestimmten Typ.
 

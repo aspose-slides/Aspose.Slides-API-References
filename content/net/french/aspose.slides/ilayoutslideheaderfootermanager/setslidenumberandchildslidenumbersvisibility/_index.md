@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Référence API Aspose.Slides pour .NET
-description: Modifie la visibilité des espaces réservés pour les numéros de page des diapositives de mise en page et de tous les espaces réservés pour les numéros de page des diapositives enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
+second_title: Aspose.Slides pour .NET Référence API
+description: Modifie la visibilité des espaces réservés pour les numéros de page de la diapositive de mise en page et tous les espaces réservés pour les numéros de page des diapositives enfants. Les espaces réservés enfants désignent les espaces réservés contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildsli
 
 ## ILayoutSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility méthode
 
-Modifie la visibilité des espaces réservés pour les numéros de page des diapositives de mise en page et de tous les espaces réservés pour les numéros de page des diapositives enfants. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
+Modifie la visibilité des espaces réservés pour les numéros de page de la diapositive de mise en page et tous les espaces réservés pour les numéros de page des diapositives enfants. Les espaces réservés enfants désignent les espaces réservés contenus dans les diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive de mise en page.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)

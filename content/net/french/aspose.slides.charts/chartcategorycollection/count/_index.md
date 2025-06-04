@@ -1,21 +1,21 @@
 ---
 title: Count
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un nombre d'éléments dans la collection. Lecture seule Int32.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie le nombre d'éléments dans la collection. Int32 en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/chartcategorycollection/count/
 ---
 
-## Propriété ChartCategoryCollection.Count
+## ChartCategoryCollection.Count propriété
 
-Renvoie un nombre d'éléments dans la collection. Lecture seule Int32.
+Renvoie le nombre d'éléments dans la collection. Int32 en lecture seule.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ChartCategoryCollection](../../chartcategorycollection)
 * espace de noms [Aspose.Slides.Charts](../../chartcategorycollection)

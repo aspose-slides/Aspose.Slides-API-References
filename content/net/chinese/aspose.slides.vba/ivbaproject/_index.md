@@ -1,7 +1,7 @@
 ---
 title: IVbaProject
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示带有演示文稿宏的VBA项目。
+description: 表示具有演示宏的VBA项目。
 type: docs
 weight: 11240
 url: /zh/aspose.slides.vba/ivbaproject/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbaproject/
 
 ## IVbaProject接口
 
-表示带有演示文稿宏的VBA项目。
+表示具有演示宏的VBA项目。
 
 ```csharp
 public interface IVbaProject
@@ -19,16 +19,16 @@ public interface IVbaProject
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | 指示VBAProject是否受密码保护以查看项目属性。只读布尔值。 |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | 返回VBA项目中包含的所有模块的列表。只读 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | 指示VBAProject是否受到密码保护以查看项目属性。只读布尔值。 |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | 返回包含在VBA项目中的所有模块的列表。只读 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | 返回VBA项目的名称。只读字符串。 |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | 返回VBA项目中包含的所有引用的列表。只读 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | 返回包含在VBA项目中的所有引用的列表。只读 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | 返回VBA项目的二进制表示作为OLE容器。只读字节数组。 |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | 返回VBA项目的OLE容器的二进制表示。只读Byte[]。 |
 
 ### 另见
 

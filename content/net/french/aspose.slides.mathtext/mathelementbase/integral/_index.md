@@ -7,7 +7,7 @@ weight: 70
 url: /fr/aspose.slides.mathtext/mathelementbase/integral/
 ---
 
-## Intégrale(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
 Prend l'intégrale
 
@@ -21,7 +21,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 | integralType | MathIntegralTypes | Type d'intégrale |
 | lowerLimit | IMathElement | Limite inférieure de l'intégrale |
 | upperLimit | IMathElement | Limite supérieure de l'intégrale |
-| limitLocations | MathLimitLocations | Emplacement des limites |
+| limitLocations | MathLimitLocations | Lieu des limites |
 
 ### Valeur de retour
 
@@ -39,19 +39,19 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### Voir également
+### Voir aussi
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
-* enum [MathLimitLocations](../../mathlimitlocations)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathNaryOperator](../../imathnaryoperator)
+* enum [MathIntegralTypes](../../mathintegraltypes)
+* interface [IMathElement](../../imathelement)
+* enum [MathLimitLocations](../../mathlimitlocations)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Intégrale(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
 Prend l'intégrale
 
@@ -82,18 +82,18 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### Voir également
+### Voir aussi
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* interface [IMathElement](../../imathelement)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathNaryOperator](../../imathnaryoperator)
+* enum [MathIntegralTypes](../../mathintegraltypes)
+* interface [IMathElement](../../imathelement)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Intégrale(MathIntegralTypes) {#integral}
+## Integral(MathIntegralTypes) {#integral}
 
 Prend l'intégrale sans limites
 
@@ -119,17 +119,17 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ```
 
-### Voir également
+### Voir aussi
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathNaryOperator](../../imathnaryoperator)
+* enum [MathIntegralTypes](../../mathintegraltypes)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Intégrale(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
 Prend l'intégrale
 
@@ -143,7 +143,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 | integralType | MathIntegralTypes | Type d'intégrale |
 | lowerLimit | String | Limite inférieure de l'intégrale |
 | upperLimit | String | Limite supérieure de l'intégrale |
-| limitLocations | MathLimitLocations | Emplacement des limites |
+| limitLocations | MathLimitLocations | Lieu des limites |
 
 ### Valeur de retour
 
@@ -159,18 +159,18 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5", MathLimitLocations.UnderOver);
 ```
 
-### Voir également
+### Voir aussi
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* enum [MathLimitLocations](../../mathlimitlocations)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathNaryOperator](../../imathnaryoperator)
+* enum [MathIntegralTypes](../../mathintegraltypes)
+* enum [MathLimitLocations](../../mathlimitlocations)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## Intégrale(MathIntegralTypes, string, string) {#integral_3}
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
 Prend l'intégrale
 
@@ -199,12 +199,12 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5");
 ```
 
-### Voir également
+### Voir aussi
 
-* interface [IMathNaryOperator](../../imathnaryoperator)
-* enum [MathIntegralTypes](../../mathintegraltypes)
-* class [MathElementBase](../../mathelementbase)
-* namespace [Aspose.Slides.MathText](../../mathelementbase)
-* assembly [Aspose.Slides](../../../)
+* interface [IMathNaryOperator](../../imathnaryoperator)
+* enum [MathIntegralTypes](../../mathintegraltypes)
+* class [MathElementBase](../../mathelementbase)
+* namespace [Aspose.Slides.MathText](../../mathelementbase)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

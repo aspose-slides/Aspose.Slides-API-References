@@ -1,15 +1,15 @@
 ---
 title: Password
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает пароль. Читаемая-записываемая строка.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает пароль. Читаемая и записываемая строка.
 type: docs
 weight: 110
 url: /ru/aspose.slides/iloadoptions/password/
 ---
 
-## Свойство ILoadOptions.Password
+## ILoadOptions.Password свойство
 
-Получает или задает пароль. Читаемая-записываемая строка.
+Получает или устанавливает пароль. Читаемая и записываемая строка.
 
 ```csharp
 public string Password { get; set; }
@@ -19,7 +19,7 @@ public string Password { get; set; }
 
 Пароль.
 
-### Также смотрите
+### См. также
 
 * интерфейс [ILoadOptions](../../iloadoptions)
 * пространство имен [Aspose.Slides](../../iloadoptions)

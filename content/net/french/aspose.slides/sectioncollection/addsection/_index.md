@@ -1,7 +1,7 @@
 ---
 title: AddSection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajouter une section de diapositives à partir d'une diapositive spécifique.
+description: Ajouter une section de diapositives commencée par une diapositive spécifique.
 type: docs
 weight: 60
 url: /fr/aspose.slides/sectioncollection/addsection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/sectioncollection/addsection/
 
 ## SectionCollection.AddSection méthode
 
-Ajouter une section de diapositives à partir d'une diapositive spécifique.
+Ajouter une section de diapositives commencée par une diapositive spécifique.
 
 ```csharp
 public ISection AddSection(string name, ISlide startedFromSlide)

@@ -1,13 +1,13 @@
 ---
 title: AutofitType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает режим автоматической подгонки текста. Только для чтения TextAutofitTypeaspose.slides/textautofittype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает режим автоматической подгонки текста. Только для чтения TextAutofitType aspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itextframeformateffectivedata/autofittype/
 ---
 
-## Свойство ITextFrameFormatEffectiveData.AutofitType
+## ITextFrameFormatEffectiveData.AutofitType свойство
 
 Возвращает режим автоматической подгонки текста. Только для чтения [`TextAutofitType`](../../textautofittype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/itextframeformateffectivedata/autofittype/
 public TextAutofitType AutofitType { get; }
 ```
 
-### Также смотрите
+### Смотрите Также
 
 * enum [TextAutofitType](../../textautofittype)
 * interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)

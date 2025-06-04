@@ -1,7 +1,7 @@
 ---
 title: RowSpacing
-second_title: Aspose.Slides für .NET API-Referenz
-description: Abstand zwischen den Zeilen eines Arrays. Wird nur verwendet, wenn RowSpacingRule auf 3 gesetzt ist, genau in welchem Fall die Maßeinheit Punkte ist oder Multiple, in welchem Fall die Maßeinheit halbe Zeilen ist. Standard 0
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Abstände zwischen den Zeilen eines Arrays. Es wird nur verwendet, wenn RowSpacingRule auf 3 gesetzt ist, genau in diesem Fall ist die Einheit in Punkten oder Multiple, in welchem Fall die Einheit in halben Zeilen ist. Standard 0
 type: docs
 weight: 60
 url: /de/aspose.slides.mathtext/matharray/rowspacing/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/matharray/rowspacing/
 
 ## MathArray.RowSpacing-Eigenschaft
 
-Abstand zwischen den Zeilen eines Arrays. Wird nur verwendet, wenn RowSpacingRule auf 3 gesetzt ist, genau in welchem Fall die Maßeinheit Punkte ist oder Multiple, in welchem Fall die Maßeinheit halbe Zeilen ist. Standard: 0
+Abstände zwischen den Zeilen eines Arrays. Es wird nur verwendet, wenn RowSpacingRule auf 3 gesetzt ist, genau in diesem Fall ist die Einheit in Punkten oder Multiple, in welchem Fall die Einheit in halben Zeilen ist. Standard: 0
 
 ```csharp
 public uint RowSpacing { get; set; }

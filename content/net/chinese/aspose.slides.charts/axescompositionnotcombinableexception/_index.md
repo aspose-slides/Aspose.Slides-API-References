@@ -1,7 +1,7 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes for .NET API 参考
-description: 当系列的轴组合无法与图表中的当前轴组合结合时，引发的异常。
+second_title: Aspose.Slides for .NET API Reference
+description: 当系列的坐标轴组合无法与图表中当前的坐标轴组合结合时抛出的异常。
 type: docs
 weight: 1080
 url: /zh/aspose.slides.charts/axescompositionnotcombinableexception/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/axescompositionnotcombinableexception/
 
 ## AxesCompositionNotCombinableException 类
 
-当系列的轴组合无法与图表中的当前轴组合结合时，引发的异常。
+当系列的坐标轴组合无法与图表中当前的坐标轴组合结合时抛出的异常。
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -20,8 +20,8 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | 名称 | 描述 |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | 默认构造函数。 |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | 允许为此异常添加消息的构造函数。 |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | 用于包含消息和嵌套异常的异常的构造函数。 |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | 允许向此异常添加消息的构造函数。 |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | 包含消息和嵌套异常的构造函数。 |
 
 ### 另见
 

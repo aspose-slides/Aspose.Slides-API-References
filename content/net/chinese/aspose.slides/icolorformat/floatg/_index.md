@@ -1,7 +1,7 @@
 ---
 title: FloatG
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置颜色的绿色组件。所有的颜色转换都将被忽略。可读/可写单精度浮点数。
+description: 返回或设置颜色的绿色组件。所有颜色转换都被忽略。读/写单精度浮点数。
 type: docs
 weight: 70
 url: /zh/aspose.slides/icolorformat/floatg/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icolorformat/floatg/
 
 ## IColorFormat.FloatG 属性
 
-返回或设置颜色的绿色组件。所有的颜色转换都将被忽略。可读/可写单精度浮点数。
+返回或设置颜色的绿色组件。所有颜色转换都被忽略。读/写单精度浮点数。
 
 ```csharp
 public float FloatG { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IColorFormat](../../icolorformat)
 * 命名空间 [Aspose.Slides](../../icolorformat)

@@ -1,13 +1,13 @@
 ---
 title: FontItalic
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定字体是否为斜体。只读布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ibaseportionformateffectivedata/fontitalic/
 ---
 
-## IBasePortionFormatEffectiveData.FontItalic 属性
+## IBasePortionFormatEffectiveData.FontItalic property
 
 确定字体是否为斜体。只读布尔值。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/fontitalic/
 public bool FontItalic { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibaseportionformateffectivedata)

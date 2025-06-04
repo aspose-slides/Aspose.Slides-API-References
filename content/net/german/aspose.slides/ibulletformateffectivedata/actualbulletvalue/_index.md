@@ -1,15 +1,15 @@
 ---
 title: ActualBulletValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den tatsächlichen Aufzählungswert für den übergeordneten Absatz zurück. Schreibgeschützter String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den aktuellen Listenwert für den übergeordneten Absatz zurück. Schreibgeschützter String.
 type: docs
 weight: 10
 url: /de/aspose.slides/ibulletformateffectivedata/actualbulletvalue/
 ---
 
-## IBulletFormatEffectiveData.ActualBulletValue-Eigenschaft
+## IBulletFormatEffectiveData.ActualBulletValue Eigenschaft
 
-Gibt den tatsächlichen Aufzählungswert für den übergeordneten Absatz zurück. Schreibgeschützter String.
+Gibt den aktuellen Listenwert für den übergeordneten Absatz zurück. Schreibgeschützter String.
 
 ```csharp
 public string ActualBulletValue { get; }

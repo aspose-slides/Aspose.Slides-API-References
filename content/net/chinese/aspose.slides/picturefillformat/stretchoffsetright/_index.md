@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetRight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置填充矩形的右边缘，该边缘由相对于形状边界框右边缘的百分比偏移量定义。正百分比指定内缩，而负百分比指定外扩。可读写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置填充矩形的右边缘，该边缘由距离形状边界框右边缘的百分比偏移量定义。正百分比指定内缩，而负百分比指定外缩。可读/可写单精度浮点数。
 type: docs
 weight: 100
 url: /zh/aspose.slides/picturefillformat/stretchoffsetright/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/picturefillformat/stretchoffsetright/
 
 ## PictureFillFormat.StretchOffsetRight 属性
 
-返回或设置填充矩形的右边缘，该边缘由相对于形状边界框右边缘的百分比偏移量定义。正百分比指定内缩，而负百分比指定外扩。可读写单精度浮点数。
+返回或设置填充矩形的右边缘，该边缘由距离形状边界框右边缘的百分比偏移量定义。正百分比指定内缩，而负百分比指定外缩。可读/可写单精度浮点数。
 
 ```csharp
 public float StretchOffsetRight { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает элемент по указанному индексу. Только для чтения IEffectStyleEffectiveDataaspose.slides.theme/ieffectstyleeffectivedata.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/ieffectstylecollectioneffectivedata/item/
 public IEffectStyleEffectiveData this[int index] { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IEffectStyleEffectiveData](../../ieffectstyleeffectivedata)
 * интерфейс [IEffectStyleCollectionEffectiveData](../../ieffectstylecollectioneffectivedata)

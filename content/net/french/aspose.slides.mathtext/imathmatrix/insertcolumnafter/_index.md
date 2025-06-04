@@ -1,15 +1,15 @@
 ---
 title: InsertColumnAfter
-second_title: Aspose.Slides pour .NET Référence API
-description: Insérer une nouvelle colonne après la colonne spécifiée. Au départ, tous les éléments de la nouvelle colonne sont nuls.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Insérer une nouvelle colonne après celle spécifiée. Au départ, tous les éléments de la nouvelle colonne sont nuls.
 type: docs
 weight: 150
 url: /fr/aspose.slides.mathtext/imathmatrix/insertcolumnafter/
 ---
 
-## Méthode IMathMatrix.InsertColumnAfter
+## IMathMatrix.InsertColumnAfter méthode
 
-Insérer une nouvelle colonne après la colonne spécifiée. Au départ, tous les éléments de la nouvelle colonne sont nuls.
+Insérer une nouvelle colonne après celle spécifiée. Au départ, tous les éléments de la nouvelle colonne sont nuls.
 
 ```csharp
 public void InsertColumnAfter(int columnIndex)
@@ -17,11 +17,11 @@ public void InsertColumnAfter(int columnIndex)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| columnIndex | Int32 | Index de la colonne après laquelle insérer une nouvelle |
+| columnIndex | Int32 | Index de la colonne après laquelle insérer une nouvelle colonne |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

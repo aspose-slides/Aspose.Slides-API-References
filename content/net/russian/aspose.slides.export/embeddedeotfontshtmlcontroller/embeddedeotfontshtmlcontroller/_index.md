@@ -1,6 +1,6 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новый экземпляр.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/embeddedeotfontshtmlcontroller/embeddedeotfontshtm
 public EmbeddedEotFontsHtmlController()
 ```
 
-### См. также
+### См. Также
 
 * класс [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller)
 * пространство имен [Aspose.Slides.Export](../../embeddedeotfontshtmlcontroller)
@@ -35,7 +35,7 @@ public EmbeddedEotFontsHtmlController(IHtmlFormattingController controller)
 | --- | --- | --- |
 | controller | IHtmlFormattingController | Контроллер форматирования HTML. |
 
-### См. также
+### См. Также
 
 * интерфейс [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * класс [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller)

@@ -1,6 +1,6 @@
 ---
 title: GetImage
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Devuelve un objeto de imagen en miniatura con escalado personalizado.
 type: docs
 weight: 80
@@ -20,13 +20,13 @@ public IImage GetImage(float scaleX, float scaleY)
 | scaleX | Single | El valor por el cual escalar esta miniatura en la dirección del eje x. |
 | scaleY | Single | El valor por el cual escalar esta miniatura en la dirección del eje y. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto IImage.
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo generar miniaturas a partir de presentaciones de PowerPoint.
+El siguiente ejemplo muestra cómo generar miniaturas de una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -37,12 +37,12 @@ using (Presentation pres = new Presentation("ThumbnailFromSlide.pptx"))
     ISlide sld = pres.Slides[0];
     // Crear una imagen a escala completa
     IImage bmp = sld.GetImage(1f, 1f);
-    // Guardar la imagen en disco en formato JPEG
+    // Guardar la imagen en el disco en formato JPEG
     bmp.Save("Thumbnail_out.jpg", ImageFormat.Jpeg);
 }
 ```
 
-El siguiente ejemplo muestra cómo convertir diapositivas a bitmap y guardar las imágenes en formato PNG.
+El siguiente ejemplo muestra cómo convertir diapositivas a bitmap y guardar las imágenes en PNG.
 
 ```csharp
 [C#]
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-El siguiente ejemplo muestra cómo convertir presentaciones PowerPoint PPT/PPTX a JPG.
+El siguiente ejemplo muestra cómo convertir PowerPoint PPT/PPTX a JPG.
 
 ```csharp
 [C#]
@@ -67,13 +67,13 @@ using (Presentation pres = new Presentation("PowerPoint-Presentation.ppt"))
 	{
 		// Crear una imagen a escala completa
 		IImage bmp = sld.GetImage(1f, 1f);
-		// Guardar la imagen en disco en formato JPEG
+		// Guardar la imagen en el disco en formato JPEG
 		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), ImageFormat.Jpeg);
 	}
 }
 ```
 
-El siguiente ejemplo muestra cómo convertir presentaciones PowerPoint PPT/PPTX a JPG con dimensiones personalizadas.
+El siguiente ejemplo muestra cómo convertir PowerPoint PPT/PPTX a JPG con dimensiones personalizadas.
 
 ```csharp
 [C#]
@@ -82,25 +82,25 @@ using (Presentation pres = new Presentation("PowerPoint-Presentation.pptx"))
 	// Definir dimensiones
 	int desiredX = 1200;
 	int desiredY = 800;
-	// Obtener valores escalados de X y Y
+	// Obtener valores escalados de X e Y
 	float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
 	float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
 	foreach (ISlide sld in pres.Slides)
 	{
 		// Crear una imagen a escala completa
 		IImage bmp = sld.GetImage(ScaleX, ScaleY);
-		// Guardar la imagen en disco en formato JPEG
+		// Guardar la imagen en el disco en formato JPEG
 		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), ImageFormat.Jpeg);
 	}
 }
 ```
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -112,12 +112,12 @@ Devuelve un objeto de imagen en miniatura (20% del tamaño real).
 public IImage GetImage()
 ```
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -133,18 +133,18 @@ public IImage GetImage(Size imageSize)
 | --- | --- | --- |
 | imageSize | Size | Tamaño de la imagen a crear. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto de imagen.
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo convertir diapositivas a imágenes con tamaños personalizados usando C#.
+El siguiente ejemplo muestra cómo convertir diapositivas a imágenes con tamaños personalizados utilizando C#.
 
 ```csharp
 using (Presentation pres = new Presentation("Presentation.pptx"))
 {
-    // Convierte la primera diapositiva en la presentación a un Bitmap con el tamaño especificado
+    // Convierte la primera diapositiva de la presentación a un Bitmap con el tamaño especificado
     using (IImage bmp = pres.Slides[0].GetImage(new Size(1820, 1040)))
     {
         // Guarda la imagen en formato JPEG
@@ -153,12 +153,12 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -174,7 +174,7 @@ public IImage GetImage(ITiffOptions options)
 | --- | --- | --- |
 | options | ITiffOptions | Opciones de Tiff. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto de imagen.
 
@@ -182,15 +182,15 @@ Objeto de imagen.
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Se lanza cuando options.SlideLayoutOption es NotesCommentsLayoutingOptions y su propiedad NotesPosition toma el valor NotesPositions.BottomFull. |
+| InvalidOperationException | Lanzado cuando options.SlideLayoutOption es NotesCommentsLayoutingOptions y su propiedad NotesPosition toma el valor NotesPositions.BottomFull. |
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* interfaz [ITiffOptions](../../../aspose.slides.export/itiffoptions)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -206,7 +206,7 @@ public IImage GetImage(IRenderingOptions options)
 | --- | --- | --- |
 | options | IRenderingOptions | Opciones de renderizado. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto de imagen.
 
@@ -214,15 +214,15 @@ Objeto de imagen.
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Se lanza cuando notesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
+| InvalidOperationException | Lanzado cuando notesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* interfaz [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -240,7 +240,7 @@ public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
 | scaleX | Single | El valor por el cual escalar esta miniatura en la dirección del eje x. |
 | scaleY | Single | El valor por el cual escalar esta miniatura en la dirección del eje y. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objetos Bitmap.
 
@@ -248,7 +248,7 @@ Objetos Bitmap.
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Se lanza cuando notesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
+| InvalidOperationException | Lanzado cuando notesCommentsLayouting.NotesPosition toma el valor NotesPositions.BottomFull |
 
 ### Ejemplos
 
@@ -259,7 +259,7 @@ using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
 {
     // Crear las opciones de renderizado
     IRenderingOptions options = new RenderingOptions();
-    // Crear opciones de disposición de notas y comentarios
+    // Crear opciones de diseño para notas y comentarios
     NotesCommentsLayoutingOptions notesCommentsLayouting = new NotesCommentsLayoutingOptions();
     // Establecer la posición de las notas en la página
     notesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
@@ -269,7 +269,7 @@ using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
     notesCommentsLayouting.CommentsAreaWidth = 500;
     // Establecer el color para el área de comentarios
     notesCommentsLayouting.CommentsAreaColor = Color.AntiqueWhite;
-    // Establecer opciones de disposición para renderizado
+    // Establecer opciones de diseño para el renderizado
     options.SlidesLayoutOptions = notesCommentsLayouting;
     // Convierte la primera diapositiva de la presentación a un objeto IImage
     IImage image = pres.Slides[0].GetImage(options, 2f, 2f);
@@ -278,13 +278,13 @@ using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
 }
 ```
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* interfaz [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -301,7 +301,7 @@ public IImage GetImage(IRenderingOptions options, Size imageSize)
 | options | IRenderingOptions | Opciones de renderizado. |
 | imageSize | Size | Tamaño de la imagen a crear. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto de imagen.
 
@@ -309,14 +309,14 @@ Objeto de imagen.
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Se lanza cuando options.SlideLayoutOption es NotesCommentsLayoutingOptions y su propiedad NotesPosition toma el valor NotesPositions.BottomFull. |
+| InvalidOperationException | Lanzado cuando options.SlideLayoutOption es NotesCommentsLayoutingOptions y su propiedad NotesPosition toma el valor NotesPositions.BottomFull. |
 
-### Ver también
+### Véase También
 
-* interfaz [IImage](../../iimage)
-* interfaz [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* clase [Slide](../../slide)
-* espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IImage](../../iimage)
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* namespace [Aspose.Slides](../../slide)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

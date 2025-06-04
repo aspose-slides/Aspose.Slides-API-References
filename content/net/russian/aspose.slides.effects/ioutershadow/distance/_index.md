@@ -1,6 +1,6 @@
 ---
 title: Distance
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Расстояние тени. Чтение/запись Double.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/ioutershadow/distance/
 public double Distance { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IOuterShadow](../../ioutershadow)
 * пространство имен [Aspose.Slides.Effects](../../ioutershadow)

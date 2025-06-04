@@ -1,6 +1,6 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Constructeur par défaut.
 type: docs
 weight: 10

@@ -1,25 +1,25 @@
 ---
 title: Calculate
-second_title: Référence API Aspose.Slidess pour .NET
-description: Si la cellule contient une formule, la valeur sera mise à jour sur la base de cette formule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Si la cellule contient une formule, la valeur sera mise à jour en fonction de cette formule.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/ichartdatacell/calculate/
 ---
 
-## Méthode IChartDataCell.Calculate
+## IChartDataCell.Calculate method
 
-Si la cellule contient une formule, la valeur sera mise à jour sur la base de cette formule.
+Si la cellule contient une formule, la valeur sera mise à jour en fonction de cette formule.
 
 ```csharp
 public void Calculate(bool updateValues)
 ```
 
-| Paramètre | Type | Description |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | updateValues | Boolean | Si faux, aucun calcul réel ne sera effectué. Utilisez vrai pour vérifier les exceptions possibles. |
 
-### Voir aussi
+### See Also
 
 * interface [IChartDataCell](../../ichartdatacell)
 * namespace [Aspose.Slides.Charts](../../ichartdatacell)

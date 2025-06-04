@@ -1,15 +1,15 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Slides для .NET API Справочник
-description: Содержит свойства рельефа главной стороны формы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Содержит свойства рельефа основной стороны фигур.
 type: docs
 weight: 9540
 url: /ru/aspose.slides/shapebevel/
 ---
 
-## Класс ShapeBevel
+## ShapeBevel class
 
-Содержит свойства рельефа главной стороны формы.
+Содержит свойства рельефа основной стороны фигуры.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -35,9 +35,9 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеширования. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### См. также
+### См. Также
 
 * класс [PVIObject](../pviobject)
 * интерфейс [IShapeBevel](../ishapebevel)

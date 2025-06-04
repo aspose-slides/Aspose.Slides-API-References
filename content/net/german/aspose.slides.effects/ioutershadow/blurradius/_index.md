@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unschärfestrahl. Lese-/Schreib-Doppel.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unschärferadius. Lese-/Schreib-Doppel.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/ioutershadow/blurradius/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ioutershadow/blurradius/
 
 ## IOuterShadow.BlurRadius-Eigenschaft
 
-Unschärfestrahl. Lese-/Schreib-Doppel.
+Unschärferadius. Lese-/Schreib-Doppel.
 
 ```csharp
 public double BlurRadius { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IOuterShadow](../../ioutershadow)
 * Namespace [Aspose.Slides.Effects](../../ioutershadow)

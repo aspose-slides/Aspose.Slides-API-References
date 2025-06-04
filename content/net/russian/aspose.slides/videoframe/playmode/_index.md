@@ -1,6 +1,6 @@
 ---
 title: PlayMode
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или устанавливает режим воспроизведения видео. Чтение/запись VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs
 weight: 70

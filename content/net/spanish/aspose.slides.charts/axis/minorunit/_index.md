@@ -15,7 +15,7 @@ Representa las unidades menores para el eje de fecha o valor. Lectura/escritura 
 public double MinorUnit { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)

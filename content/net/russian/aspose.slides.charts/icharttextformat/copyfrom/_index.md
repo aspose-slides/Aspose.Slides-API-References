@@ -1,15 +1,15 @@
 ---
 title: CopyFrom
-second_title: Aspose.Slides для .NET Справочник по API
-description: Копирует формат текста из указанного текстового фрейма.
+second_title: Aspose.Slides для .NET API Справочник
+description: Копирует текстовый формат из указанного текстового текста.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/icharttextformat/copyfrom/
 ---
 
-## Метод IChartTextFormat.CopyFrom
+## IChartTextFormat.CopyFrom метод
 
-Копирует формат текста из указанного текстового фрейма.
+Копирует текстовый формат из указанного текстового фрейма.
 
 ```csharp
 public void CopyFrom(ITextFrame sourceTextFrame)
@@ -17,9 +17,9 @@ public void CopyFrom(ITextFrame sourceTextFrame)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceTextFrame | ITextFrame | Текстовый фрейм для копирования формата текста. |
+| sourceTextFrame | ITextFrame | Текстовый фрейм для копирования текстового формата. |
 
-### См. также
+### См. Также
 
 * интерфейс [ITextFrame](../../../aspose.slides/itextframe)
 * интерфейс [IChartTextFormat](../../icharttextformat)

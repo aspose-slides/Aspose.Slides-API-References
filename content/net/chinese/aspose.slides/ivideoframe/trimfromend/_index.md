@@ -1,7 +1,7 @@
 ---
 title: TrimFromEnd
-second_title: Aspose.Slides for .NET API 参考
-description: 修剪末尾毫秒
+second_title: Aspose.Sildes for .NET API Reference
+description: 剪切结束 ms
 type: docs
 weight: 100
 url: /zh/aspose.slides/ivideoframe/trimfromend/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ivideoframe/trimfromend/
 
 ## IVideoFrame.TrimFromEnd 属性
 
-修剪末尾 [ms]
+剪切结束 [ms]
 
 ```csharp
 public float TrimFromEnd { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IVideoFrame](../../ivideoframe)
 * 命名空间 [Aspose.Slides](../../ivideoframe)

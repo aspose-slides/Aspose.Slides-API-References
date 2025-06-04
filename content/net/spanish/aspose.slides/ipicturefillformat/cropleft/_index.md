@@ -1,24 +1,24 @@
 ---
 title: CropLeft
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el número de por ciento del ancho real de la imagen que se recorta en la parte izquierda de la imagen. Lectura/escritura Simple.
+description: Devuelve o establece el número de porcentajes del ancho real de la imagen que se recortan en la izquierda de la imagen. Lectura/escritura Simple.
 type: docs
 weight: 30
 url: /es/aspose.slides/ipicturefillformat/cropleft/
 ---
 
-## Propiedad IPictureFillFormat.CropLeft
+## IPictureFillFormat.CropLeft property
 
-Devuelve o establece el número de por ciento del ancho real de la imagen que se recorta en la parte izquierda de la imagen. Lectura/escritura Simple.
+Devuelve o establece el número de porcentajes del ancho real de la imagen que se recortan en la izquierda de la imagen. Lectura/escritura Simple.
 
 ```csharp
 public float CropLeft { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IPictureFillFormat](../../ipicturefillformat)
-* espacio de nombres [Aspose.Slides](../../ipicturefillformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IPictureFillFormat](../../ipicturefillformat)
+* namespace [Aspose.Slides](../../ipicturefillformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

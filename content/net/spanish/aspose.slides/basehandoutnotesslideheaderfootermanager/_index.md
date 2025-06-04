@@ -1,47 +1,47 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa el administrador que mantiene el comportamiento de los marcadores de posición, incluido el marcador de posición del encabezado para todos los tipos de diapositivas de entrega y notas.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa el administrador que sostiene el comportamiento de los marcadores de posición, incluyendo el marcador de posición de encabezado para todos los tipos de diapositivas de entrega y notas.
 type: docs
 weight: 870
 url: /es/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 
-## Clase BaseHandoutNotesSlideHeaderFooterManager
+## BaseHandoutNotesSlideHeaderFooterManager class
 
-Representa el administrador que mantiene el comportamiento de los marcadores de posición, incluido el marcador de posición del encabezado para todos los tipos de diapositivas de entrega y notas.
+Representa el administrador que sostiene el comportamiento de los marcadores de posición, incluyendo el marcador de posición de encabezado para todos los tipos de diapositivas de entrega y notas.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
     IBaseHandoutNotesSlideHeaderFooterManag
 ```
 
-## Propiedades
+## Properties
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
 | [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtiene un valor que indica que un marcador de posición de fecha y hora está presente. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtiene un valor que indica que un marcador de posición de pie de página está presente. Read Boolean. |
 | [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Obtiene un valor que indica que un marcador de posición de encabezado está presente. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtiene un valor que indica que un marcador de posición de número de página está presente. ReadBoolean. |
 
-## Métodos
+## Methods
 
-| Nombre | Descripción |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto para el marcador de posición de fecha y hora de la diapositiva. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Establece el texto en el marcador de posición de fecha y hora de la diapositiva. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Establece el texto para el marcador de posición de pie de página de la diapositiva. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Establece el texto en el marcador de posición de pie de página de la diapositiva. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Cambia la visibilidad del marcador de posición de pie de página de la diapositiva. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Establece el texto para el marcador de posición de encabezado de la diapositiva. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Establece el texto en el marcador de posición de encabezado de la diapositiva. |
 | [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Cambia la visibilidad del marcador de posición de encabezado de la diapositiva. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición del número de página de la diapositiva. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Cambia la visibilidad del marcador de posición de número de página de la diapositiva. |
 
-### Ver También
+### See Also
 
-* clase [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
-* interfaz [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* class [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
+* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

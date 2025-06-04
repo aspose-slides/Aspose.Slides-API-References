@@ -1,21 +1,21 @@
 ---
 title: IsEmpty
-second_title: Aspose.Slides für .NET API Referenz
-description: Wahr bedeutet, dass ColorScheme FontScheme FormatScheme null ist und alle Überschreibungen mit diesem Themenobjekt deaktiviert sind. Schreibgeschütztes Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Wahr bedeutet, dass ColorScheme, FontScheme, FormatScheme null sind und jede Überschreibung mit diesem Themenobjekt deaktiviert ist. Schreibgeschütztes Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/ioverridetheme/isempty/
 ---
 
-## IOverrideTheme.IsEmpty Eigenschaft
+## IOverrideTheme.IsEmpty-Eigenschaft
 
-Wahr bedeutet, dass ColorScheme, FontScheme, FormatScheme null ist und alle Überschreibungen mit diesem Themenobjekt deaktiviert sind. Schreibgeschütztes Boolean.
+Wahr bedeutet, dass ColorScheme, FontScheme, FormatScheme null sind und jede Überschreibung mit diesem Themenobjekt deaktiviert ist. Schreibgeschütztes Boolean.
 
 ```csharp
 public bool IsEmpty { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IOverrideTheme](../../ioverridetheme)
 * Namespace [Aspose.Slides.Theme](../../ioverridetheme)

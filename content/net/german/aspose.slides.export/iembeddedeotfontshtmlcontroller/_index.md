@@ -1,7 +1,7 @@
 ---
 title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Slides für .NET API Referenz
-description: Eingebetteter Eot-Schriftarten HTML-Controller.
+description: Eingebettete Eot-Schriftarten HTML-Controller.
 type: docs
 weight: 3730
 url: /de/aspose.slides.export/iembeddedeotfontshtmlcontroller/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 
 ## IEmbeddedEotFontsHtmlController-Schnittstelle
 
-Eingebetteter Eot-Schriftarten HTML-Controller.
+Eingebettete Eot-Schriftarten HTML-Controller.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController

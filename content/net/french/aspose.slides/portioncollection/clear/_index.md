@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/portioncollection/clear/
 ---
 
-## Méthode PortionCollection.Clear
+## PortionCollection.Clear méthode
 
 Supprime tous les éléments de la collection.
 
@@ -15,7 +15,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Voir aussi
+### Voir Également
 
 * classe [PortionCollection](../../portioncollection)
 * espace de noms [Aspose.Slides](../../portioncollection)

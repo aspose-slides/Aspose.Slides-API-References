@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: type docs
 weight: 10
 url: /de/aspose.slides.export.web/output/add/
@@ -13,7 +13,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
     TContextObject contextObject)
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)
@@ -39,7 +39,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 [`IOutputFile`](../../ioutputfile) Objekt für das Bild.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IPPImage](../../../aspose.slides/ippimage)
@@ -66,7 +66,7 @@ public IOutputFile Add(string path, IImage image)
 
 [`IOutputFile`](../../ioutputfile) Objekt für das Bild.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IImage](../../../aspose.slides/iimage)
@@ -93,7 +93,7 @@ public IOutputFile Add(string path, IVideo video)
 
 [`IOutputFile`](../../ioutputfile) Objekt für das Video.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IVideo](../../../aspose.slides/ivideo)
@@ -115,13 +115,13 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 | --- | --- | --- |
 | path | String | Ausgabepfad. |
 | fontData | IFontData | Schriftart zum Ausgeben. |
-| fontStyle | FontStyle | Schriftart-Stil. |
+| fontStyle | FontStyle | Schriftstil. |
 
 ### Rückgabewert
 
 [`IOutputFile`](../../ioutputfile) Objekt für die Schriftart.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IOutputFile](../../ioutputfile)
 * interface [IFontData](../../../aspose.slides/ifontdata)
@@ -148,7 +148,7 @@ public IOutputFile Add(string path, string textContent)
 
 [`IOutputFile`](../../ioutputfile) Objekt für den Textinhalt.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IOutputFile](../../ioutputfile)
 * class [Output](../../output)

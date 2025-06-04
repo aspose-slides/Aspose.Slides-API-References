@@ -1,7 +1,7 @@
 ---
 title: FirstRow
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen lisible/écrivable.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides/table/firstrow/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/table/firstrow/
 
 ## Propriété Table.FirstRow
 
-Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen lisible/écrivable.
+Détermine si la première ligne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 
 ```csharp
 public bool FirstRow { get; set; }

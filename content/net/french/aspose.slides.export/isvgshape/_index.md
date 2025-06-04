@@ -1,6 +1,6 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes pour .NET API Référence
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente les options pour la forme SVG.
 type: docs
 weight: 3940
@@ -19,7 +19,7 @@ public interface ISvgShape
 
 | Nom | Description |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Définit ou obtient l'identifiant de la forme |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Définit ou obtient l'identifiant pour la forme |
 
 ## Méthodes
 
@@ -27,7 +27,7 @@ public interface ISvgShape
 | --- | --- |
 | [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Définit le gestionnaire d'événements pour la forme |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: CreateMathDelimiter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellen Sie einen mathematischen Trennzeichen durch Anwenden auf das Element
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erstellen Sie einen Mathematik-Delimiter, indem Sie ihn auf das Element anwenden
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter/
 
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
-Erstellen Sie einen mathematischen Trennzeichen durch Anwenden auf das Element
+Erstellen Sie einen Mathematik-Delimiter, indem Sie ihn auf das Element anwenden
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElement element)
@@ -17,11 +17,11 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | mathematisches Element, auf das der Trennzeichen angewendet werden soll |
+| element | IMathElement | Mathematisches Element, auf das der Delimiter angewendet werden soll |
 
 ### Rückgabewert
 
-neuer mathematischer Trennzeichen
+neuer Mathematik-Delimiter
 
 ### Siehe auch
 
@@ -35,7 +35,7 @@ neuer mathematischer Trennzeichen
 
 ## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
-Erstellen Sie einen mathematischen Trennzeichen durch Anwenden auf das Element
+Erstellen Sie einen Mathematik-Delimiter, indem Sie ihn auf das Element anwenden
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
@@ -43,11 +43,11 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | mathematische Elemente, auf die der Trennzeichen angewendet werden soll |
+| mathElements | IMathElementCollection | Mathematische Elemente, auf die der Delimiter angewendet werden soll |
 
 ### Rückgabewert
 
-neuer mathematischer Trennzeichen
+neuer Mathematik-Delimiter
 
 ### Siehe auch
 

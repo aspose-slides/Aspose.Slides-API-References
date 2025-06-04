@@ -1,7 +1,7 @@
 ---
 title: Origin
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, was der Ursprung des Bewegungspfads relativ zu ist, wie z.B. das Layout der Folie oder das übergeordnete Element. Lese-/Schreibzugriff auf MotionOriginTypeaspose.slides.animation/motionorigintype.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt an, was der Ursprung des Bewegungspfades im Verhältnis zu anderen Elementen ist, wie z.B. dem Layout der Folie oder dem übergeordneten Element. Lese-/Schreibzugriff auf MotionOriginTypeaspose.slides.animation/motionorigintype.
 type: docs
 weight: 50
 url: /de/aspose.slides.animation/motioneffect/origin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/motioneffect/origin/
 
 ## MotionEffect.Origin-Eigenschaft
 
-Gibt an, was der Ursprung des Bewegungspfads relativ zu ist, wie z.B. das Layout der Folie oder das übergeordnete Element. Lese-/Schreibzugriff auf [`MotionOriginType`](../../motionorigintype).
+Gibt an, was der Ursprung des Bewegungspfades im Verhältnis zu anderen Elementen ist, wie z.B. dem Layout der Folie oder dem übergeordneten Element. Lese-/Schreibzugriff auf [`MotionOriginType`](../../motionorigintype).
 
 ```csharp
 public MotionOriginType Origin { get; set; }

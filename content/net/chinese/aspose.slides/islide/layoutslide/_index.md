@@ -1,6 +1,6 @@
 ---
 title: LayoutSlide
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置当前幻灯片的布局幻灯片。可读写 ILayoutSlideaspose.slides/ilayoutslide。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/islide/layoutslide/
 public ILayoutSlide LayoutSlide { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ILayoutSlide](../../ilayoutslide)
 * 接口 [ISlide](../../islide)

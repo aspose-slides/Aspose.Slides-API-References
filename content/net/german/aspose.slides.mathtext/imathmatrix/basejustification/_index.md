@@ -1,15 +1,15 @@
 ---
 title: BaseJustification
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die vertikale Ausrichtung im Verhältnis zum umgebenden Text an. Mögliche Werte sind oben, unten und zentriert. Standard Zentriert
+description: Gibt die vertikale Ausrichtung in Bezug auf umgebenden Text an. Mögliche Werte sind oben, unten und zentriert. Standard Zentriert
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathmatrix/basejustification/
 ---
 
-## IMathMatrix.BaseJustification-Eigenschaft
+## IMathMatrix.BaseJustification Eigenschaft
 
-Gibt die vertikale Ausrichtung im Verhältnis zum umgebenden Text an. Mögliche Werte sind oben, unten und zentriert. Standard: Zentriert
+Gibt die vertikale Ausrichtung in Bezug auf umgebenden Text an. Mögliche Werte sind oben, unten und zentriert. Standard: Zentriert
 
 ```csharp
 public MathVerticalAlignment BaseJustification { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.BaseJustification = MathVerticalAlignment.Center;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [MathVerticalAlignment](../../mathverticalalignment)
 * interface [IMathMatrix](../../imathmatrix)

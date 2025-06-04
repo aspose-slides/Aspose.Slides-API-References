@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardFont
-second_title: Aspose.Sildes pour .NET API Référence
-description: Détermine si la puce a sa propre police ou l'hérite de la première portion dans le paragraphe. Renvoie **true** si la puce a sa propre police et **true** si la puce hérite de la police de la première portion dans le paragraphe. Booléen en lecture seule.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Détermine si la puce a sa propre police ou l'hérite de la première portion du paragraphe. Renvoie **true** si la puce a sa propre police et **true** si la puce hérite de la police de la première portion du paragraphe. Booléen en lecture seule.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ibulletformateffectivedata/isbullethardfont/
 ---
 
-## Propriété IBulletFormatEffectiveData.IsBulletHardFont
+## IBulletFormatEffectiveData.IsBulletHardFont propriété
 
-Détermine si la puce a sa propre police ou l'hérite de la première portion dans le paragraphe. Renvoie **true** si la puce a sa propre police et **true** si la puce hérite de la police de la première portion dans le paragraphe. Booléen en lecture seule.
+Détermine si la puce a sa propre police ou l'hérite de la première portion du paragraphe. Renvoie **true** si la puce a sa propre police et **true** si la puce hérite de la police de la première portion du paragraphe. Booléen en lecture seule.
 
 ```csharp
 public bool IsBulletHardFont { get; }

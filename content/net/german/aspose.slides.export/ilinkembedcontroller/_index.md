@@ -1,7 +1,7 @@
 ---
 title: ILinkEmbedController
 second_title: Aspose.Slides für .NET API-Referenz
-description: Callback-Schnittstelle, die verwendet wird, um zu bestimmen, wie ein Objekt während des Speicherns verarbeitet werden soll.
+description: Callback-Schnittstelle, die verwendet wird, um zu bestimmen, wie das Objekt während des Speicherns verarbeitet werden soll.
 type: docs
 weight: 3820
 url: /de/aspose.slides.export/ilinkembedcontroller/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ilinkembedcontroller/
 
 ## ILinkEmbedController-Schnittstelle
 
-Callback-Schnittstelle, die verwendet wird, um zu bestimmen, wie ein Objekt während des Speicherns verarbeitet werden soll.
+Callback-Schnittstelle, die verwendet wird, um zu bestimmen, wie das Objekt während des Speicherns verarbeitet werden soll.
 
 ```csharp
 public interface ILinkEmbedController
@@ -19,9 +19,9 @@ public interface ILinkEmbedController
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Bestimmt, wo das Objekt gespeichert werden soll. Diese Methode wird einmal für jede Objekt-ID aufgerufen. Es ist nicht garantiert, dass es keine zwei Objekte mit denselben Daten, semanticName und contentType, aber mit unterschiedlicher ID gibt. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Gibt eine URL zu einem externen Objekt zurück. Diese Methode wird immer aufgerufen, wenn [`GetObjectStoringLocation`](./getobjectstoringlocation) Link zurückgibt und kann aufgerufen werden, wenn [`GetObjectStoringLocation`](./getobjectstoringlocation) Embed zurückgibt, aber das Einbetten unmöglich ist. Kann mehrmals für dieselbe Objekt-ID aufgerufen werden. |
-| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Speichert ein externes Objekt. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Bestimmt, wo das Objekt gespeichert werden soll. Diese Methode wird einmal für jede Objekt-ID aufgerufen. Es ist nicht garantiert, dass es nicht zwei Objekte mit denselben Daten, semanticName und contentType, aber mit unterschiedlicher ID gibt. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Gibt eine URL zu einem externen Objekt zurück. Diese Methode wird immer aufgerufen, wenn [`GetObjectStoringLocation`](./getobjectstoringlocation) Link zurückgegeben hat und kann aufgerufen werden, wenn [`GetObjectStoringLocation`](./getobjectstoringlocation) Embed zurückgegeben hat, das Einbetten jedoch unmöglich ist. Kann mehrmals für dieselbe Objekt-ID aufgerufen werden. |
+| [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Speichert das externe Objekt. |
 
 ### Siehe auch
 

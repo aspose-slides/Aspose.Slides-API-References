@@ -1,21 +1,21 @@
 ---
 title: SkipJavaScriptLinks
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемое/записываемое логическое значение. Значение по умолчанию - false.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый/записываемый логический тип. Значение по умолчанию - false.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/isaveoptions/skipjavascriptlinks/
 ---
 
-## Свойство ISaveOptions.SkipJavaScriptLinks
+## ISaveOptions.SkipJavaScriptLinks свойство
 
-Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемое/записываемое логическое значение. Значение по умолчанию - **false**.
+Определяет, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый/записываемый логический тип. Значение по умолчанию - **false**.
 
 ```csharp
 public bool SkipJavaScriptLinks { get; set; }
 ```
 
-### Замечания
+### Примечания
 
 Когда это свойство установлено в **true**, гиперссылки с вызовами JavaScript будут проигнорированы при сохранении.
 

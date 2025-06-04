@@ -1,7 +1,7 @@
 ---
 title: UniqueId
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el identificador único de forma en el ámbito de la presentación. Solo lectura UInt32. Consulte también OfficeInteropShapeIdaspose.slides/shape/officeinteropshapeid para obtener el identificador único de forma en el ámbito de la diapositiva.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene el identificador de forma único en el alcance de la presentación. Solo lectura UInt32. Consulte también OfficeInteropShapeIdaspose.slides/shape/officeinteropshapeid para obtener el identificador de forma único en el alcance de la diapositiva.
 type: docs
 weight: 280
 url: /es/aspose.slides/shape/uniqueid/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/shape/uniqueid/
 
 ## Propiedad Shape.UniqueId
 
-Obtiene el identificador único de forma en el ámbito de la presentación. Solo lectura UInt32. Consulte también [`OfficeInteropShapeId`](../officeinteropshapeid) para obtener el identificador único de forma en el ámbito de la diapositiva.
+Obtiene el identificador de forma único en el alcance de la presentación. Solo lectura UInt32. Consulte también [`OfficeInteropShapeId`](../officeinteropshapeid) para obtener el identificador de forma único en el alcance de la diapositiva.
 
 ```csharp
 public uint UniqueId { get; }
 ```
 
-### Véase también
+### Ver También
 
-* class [Shape](../../shape)
-* namespace [Aspose.Slides](../../shape)
-* assembly [Aspose.Slides](../../../)
+* clase [Shape](../../shape)
+* espacio de nombres [Aspose.Slides](../../shape)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

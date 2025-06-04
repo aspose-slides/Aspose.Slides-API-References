@@ -1,24 +1,24 @@
----  
+---
 title: DepthPercents
-second_title: Referencia de API de Aspose.Slides para .NET  
-description: Devuelve o establece la profundidad de un gráfico 3D como un porcentaje del ancho del gráfico, entre el 20 y el 2000 por ciento. Lectura/escritura UInt16.
-type: docs  
-weight: 10  
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve o establece la profundidad de un gráfico 3D como un porcentaje del ancho del gráfico entre 20 y 2000 por ciento. Lectura/escritura UInt16.
+type: docs
+weight: 10
 url: /es/aspose.slides.charts/rotation3d/depthpercents/
----  
+---
 
-## Propiedad Rotation3D.DepthPercents  
+## Propiedad Rotation3D.DepthPercents
 
-Devuelve o establece la profundidad de un gráfico 3D como un porcentaje del ancho del gráfico (entre el 20 y el 2000 por ciento). Lectura/escritura UInt16.  
+Devuelve o establece la profundidad de un gráfico 3D como un porcentaje del ancho del gráfico (entre 20 y 2000 por ciento). Lectura/escritura UInt16.
 
-```csharp  
-public ushort DepthPercents { get; set; }  
-```  
+```csharp
+public ushort DepthPercents { get; set; }
+```
 
-### Ver también  
+### Ver También
 
-* clase [Rotation3D](../../rotation3d)  
-* espacio de nombres [Aspose.Slides.Charts](../../rotation3d)  
-* ensamblaje [Aspose.Slides](../../../)  
+* clase [Rotation3D](../../rotation3d)
+* espacio de nombres [Aspose.Slides.Charts](../../rotation3d)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

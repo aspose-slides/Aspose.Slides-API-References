@@ -1,15 +1,15 @@
 ---
 title: FloatB
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die blaue Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lesen/ Schreiben Single.
+description: Gibt die blaue Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/schreibbares Single.
 type: docs
 weight: 50
 url: /de/aspose.slides/colorformat/floatb/
 ---
 
-## ColorFormat.FloatB Eigenschaft
+## ColorFormat.FloatB-Eigenschaft
 
-Gibt die blaue Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lesen/ Schreiben Single.
+Gibt die blaue Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/schreibbares Single.
 
 ```csharp
 public float FloatB { get; set; }

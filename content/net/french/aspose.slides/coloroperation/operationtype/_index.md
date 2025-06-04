@@ -1,7 +1,7 @@
 ---
 title: OperationType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit le type d'une opération. En lecture seule ColorTransformOperation aspose.slides/colortransformoperation.
+description: Renvoie ou définit le type d'une opération. Lecture seule ColorTransformOperationaspose.slides/colortransformoperation.
 type: docs
 weight: 20
 url: /fr/aspose.slides/coloroperation/operationtype/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/coloroperation/operationtype/
 
 ## Propriété ColorOperation.OperationType
 
-Retourne ou définit le type d'une opération. En lecture seule [`ColorTransformOperation`](../../colortransformoperation).
+Renvoie ou définit le type d'une opération. Lecture seule [`ColorTransformOperation`](../../colortransformoperation).
 
 ```csharp
 public ColorTransformOperation OperationType { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)

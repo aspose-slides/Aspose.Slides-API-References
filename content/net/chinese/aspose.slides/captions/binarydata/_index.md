@@ -1,6 +1,6 @@
 ---
 title: BinaryData
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回闭合字幕的二进制数据。只读 Byte。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/captions/binarydata/
 public byte[] BinaryData { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [Captions](../../captions)
 * namespace [Aspose.Slides](../../captions)

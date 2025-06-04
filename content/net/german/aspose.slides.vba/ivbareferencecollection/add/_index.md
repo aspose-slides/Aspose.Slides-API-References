@@ -7,7 +7,7 @@ weight: 20
 url: /de/aspose.slides.vba/ivbareferencecollection/add/
 ---
 
-## IVbaReferenceCollection.Add-Methode
+## IVbaReferenceCollection.Add Methode
 
 Fügt die neue Referenz zur Referenzsammlung hinzu
 

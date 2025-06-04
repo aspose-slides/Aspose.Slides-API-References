@@ -1,6 +1,6 @@
 ---
 title: CreateAlphCeiling
-second_title: Aspose.Slidess для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект Alpha Ceiling.
 type: docs
 weight: 80

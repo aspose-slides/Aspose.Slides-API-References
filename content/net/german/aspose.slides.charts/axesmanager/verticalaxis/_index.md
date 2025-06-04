@@ -1,7 +1,7 @@
 ---
 title: VerticalAxis
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die vertikale Achse des Diagramms. Nur-Lese IAxisaspose.slides.charts/iaxis.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft die vertikale Achse des Diagramms ab. Schreibgeschütztes IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/axesmanager/verticalaxis/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axesmanager/verticalaxis/
 
 ## AxesManager.VerticalAxis-Eigenschaft
 
-Erhält die vertikale Achse des Diagramms. Nur-Lese [`IAxis`](../../iaxis).
+Ruft die vertikale Achse des Diagramms ab. Schreibgeschützt [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis VerticalAxis { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Klasse [AxesManager](../../axesmanager)

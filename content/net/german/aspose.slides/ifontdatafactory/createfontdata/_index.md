@@ -1,6 +1,6 @@
 ---
 title: CreateFontData
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Erstellt FontData mit dem angegebenen Schriftartnamen.
 type: docs
 weight: 10
@@ -9,15 +9,15 @@ url: /de/aspose.slides/ifontdatafactory/createfontdata/
 
 ## IFontDataFactory.CreateFontData-Methode
 
-Erstellt FontData mit dem angegebenen Schriftartnamen.
+Erschafft FontData mit dem angegebenen Schriftartnamen.
 
 ```csharp
 public IFontData CreateFontData(string fontName)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| fontName | String | Schriftartname |
+| Parameter  | Typ     | Beschreibung            |
+|------------|---------|-------------------------|
+| fontName   | String  | Schriftartname          |
 
 ### Rückgabewert
 

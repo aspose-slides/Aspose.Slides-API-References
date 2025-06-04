@@ -15,7 +15,7 @@ Renvoie ou définit le numéro de révision de la présentation. Lecture/écritu
 public int RevisionNumber { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

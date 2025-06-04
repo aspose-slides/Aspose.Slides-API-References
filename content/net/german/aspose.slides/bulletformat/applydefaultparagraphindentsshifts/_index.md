@@ -1,15 +1,15 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt standardmäßige, nicht null Werte für effektive Paragrapheneinzüge und MarginLeft, wenn Aufzählungen aktiviert sind, wie PowerPoint es tut, wenn Aufzählungen/Nummerierung in ihm aktiviert sind. Wenn Aufzählungen deaktiviert sind, setzen Sie einfach den Paragrapheneinzug und MarginLeft zurück, wie PowerPoint es tut, wenn man Aufzählungen/Nummerierung deaktiviert. Die Einzugsverschiebungen werden in Bezug auf den aktuellen Aufzählungskontext angewendet - IBulletFormat.Type .NumberedBulletStyle und FontHeight des ersten Abschnitts. Nicht null Einzugsverschiebungen werden auf den effektiven Einzug und MarginLeft des aktuellen Paragraphen angewendet machen Sie die Ergebniswerte zu lokalen Werten.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt standardmäßige, von Null verschiedene Verschiebungen für effektive Absatz-Indentationen und MarginLeft, wenn Aufzählungszeichen aktiviert sind, wie PowerPoint es tut, wenn Aufzählungszeichen/Nummerierungen aktiviert sind. Wenn Aufzählungszeichen deaktiviert sind, wird die Absatz-Indentation und MarginLeft einfach zurückgesetzt, wie PowerPoint es tut, wenn Aufzählungszeichen/Nummerierungen deaktiviert sind. Die Einzugverschiebungen werden in Bezug auf den aktuellen Aufzählungskontext angewendet - IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Teils. Nicht-null Einzugverschiebungen werden auf die effektive Einrückung und MarginLeft des aktuellen Absatzes angewendet machen die Ergebniswerte zu lokalen Werten.
 type: docs
 weight: 110
 url: /de/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
 ---
 
-## BulletFormat.ApplyDefaultParagraphIndentsShifts-Methode
+## BulletFormat.ApplyDefaultParagraphIndentsShifts Methode
 
-Setzt standardmäßige, nicht null Werte für effektive Paragrapheneinzüge und MarginLeft, wenn Aufzählungen aktiviert sind (wie PowerPoint es tut, wenn Aufzählungen/Nummerierung aktiviert sind). Wenn Aufzählungen deaktiviert sind, setzen Sie einfach den Paragrapheneinzug und MarginLeft zurück (wie PowerPoint es tut, wenn man Aufzählungen/Nummerierung deaktiviert). Die Einzugsverschiebungen werden in Bezug auf den aktuellen Aufzählungskontext angewendet - IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Abschnitts. Nicht null Einzugsverschiebungen werden auf den effektiven Einzug und MarginLeft des aktuellen Paragraphen angewendet (machen Sie die Ergebniswerte zu lokalen Werten).
+Setzt standardmäßige, von Null verschiedene Verschiebungen für effektive Absatz-Indentation und MarginLeft, wenn Aufzählungszeichen aktiviert sind (wie PowerPoint es tut, wenn Aufzählungszeichen/Nummerierungen aktiviert sind). Wenn Aufzählungszeichen deaktiviert sind, wird die Absatz-Indentation und MarginLeft einfach zurückgesetzt (wie PowerPoint es tut, wenn Aufzählungszeichen/Nummerierungen deaktiviert sind). Die Einzugverschiebungen werden in Bezug auf den aktuellen Aufzählungskontext angewendet - IBulletFormat.Type, .NumberedBulletStyle und FontHeight des ersten Teils. Nicht-null Einzugverschiebungen werden auf die effektive Einrückung und MarginLeft des aktuellen Absatzes angewendet (machen die Ergebniswerte zu lokalen Werten).
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -19,9 +19,9 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Der Aufruf dieser Methode hat keine Bedeutung und wirft in folgenden Fällen eine InvalidOperationException: wenn das übergeordnete formatierte Objekt kein Paragraph ist (zum Beispiel führt der Aufruf von ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() zu einer Ausnahme); oder wenn der Paragraph nicht zu einer ITextFrame.Paragraphs-Sammlung hinzugefügt wurde (fügen Sie ihn zuerst hinzu); |
+| InvalidOperationException | Der Aufruf dieser Methode hat keine Bedeutung und löst in folgenden Fällen eine InvalidOperationException aus: wenn das übergeordnete formatierte Objekt kein Absatz ist (zum Beispiel löst der Aufruf von ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() eine Ausnahme aus); oder wenn der Absatz nicht zu einer ITextFrame.Paragraphs-Sammlung hinzugefügt wurde (füge ihn zuerst hinzu); |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BulletFormat](../../bulletformat)
 * Namespace [Aspose.Slides](../../bulletformat)

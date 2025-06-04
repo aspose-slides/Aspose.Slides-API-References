@@ -1,7 +1,7 @@
 ---
 title: ContourColor
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la couleur d'un contour. Couleur en lecture seule.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie la couleur d'un contour. Couleur en lecture seule.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ithreedformateffectivedata/contourcolor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ithreedformateffectivedata/contourcolor/
 
 ## Propriété IThreeDFormatEffectiveData.ContourColor
 
-Retourne la couleur d'un contour. Couleur en lecture seule.
+Renvoie la couleur d'un contour. Couleur en lecture seule.
 
 ```csharp
 public Color ContourColor { get; }

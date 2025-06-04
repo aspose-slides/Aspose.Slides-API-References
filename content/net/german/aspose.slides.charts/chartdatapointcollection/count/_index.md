@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der tatsächlich enthaltenen Elemente in der Sammlung zurück. Nur-Lese Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lese Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartdatapointcollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdatapointcollection/count/
 
 ## ChartDataPointCollection.Count Eigenschaft
 
-Gibt die Anzahl der tatsächlich enthaltenen Elemente in der Sammlung zurück. Nur-Lese Int32.
+Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lese Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataPointCollection](../../chartdatapointcollection)
 * Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)

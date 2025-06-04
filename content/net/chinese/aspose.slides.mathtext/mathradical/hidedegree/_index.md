@@ -1,7 +1,7 @@
 ---
 title: HideDegree
-second_title: Aspose.Slides for .NET API 参考
-description: 当隐藏度数为真时，度数不会显示，如 √𝑥
+second_title: Aspose.Sildes for .NET API Reference
+description: 隐藏度数 当值为真时，度数不显示，如 √𝑥
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/mathradical/hidedegree/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathradical/hidedegree/
 
 ## MathRadical.HideDegree 属性
 
-当隐藏度数为真时，度数不会显示，如 √𝑥
+隐藏度数 当值为真时，度数不显示，如 √𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -25,7 +25,7 @@ MathRadical radical = new MathRadical(new MathematicalText("x"), new Mathematica
 radical.HideDegree = true;
 ```
 
-### 另请参见
+### 另请参阅
 
 * 类 [MathRadical](../../mathradical)
 * 命名空间 [Aspose.Slides.MathText](../../mathradical)

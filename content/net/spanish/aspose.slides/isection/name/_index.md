@@ -15,10 +15,10 @@ Nombre de la sección.
 public string Name { get; set; }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [ISection](../../isection)
 * espacio de nombres [Aspose.Slides](../../isection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

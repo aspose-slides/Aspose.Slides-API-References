@@ -1,7 +1,7 @@
 ---
 title: FontItalic
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Schriftart kursiv ist. Keine Vererbung angewendet. Lese-/Schreibzugriff NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob die Schriftart kursiv ist. Keine Vererbung angewendet. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 90
 url: /de/aspose.slides/ibaseportionformat/fontitalic/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseportionformat/fontitalic/
 
 ## IBasePortionFormat.FontItalic-Eigenschaft
 
-Bestimmt, ob die Schriftart kursiv ist. Keine Vererbung angewendet. Lese-/Schreibzugriff [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Schriftart kursiv ist. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FontItalic { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [NullableBool](../../nullablebool)
 * interface [IBasePortionFormat](../../ibaseportionformat)

@@ -1,7 +1,7 @@
 ---
 title: LayoutTargetType
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe organizar el área del gráfico por su interior sin incluir ejes y etiquetas de ejes o por fuera incluyendo ejes y etiquetas de ejes. Lectura/escritura LayoutTargetType.
+description: Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe diseñar el área del gráfico por dentro sin incluir los ejes y las etiquetas de los ejes o por fuera incluyendo los ejes y las etiquetas de los ejes. Lectura/escritura LayoutTargetTypeaspose.slides.charts/chartplotarea/layouttargettype.
 type: docs
 weight: 100
 url: /es/aspose.slides.charts/chartplotarea/layouttargettype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/chartplotarea/layouttargettype/
 
 ## Propiedad ChartPlotArea.LayoutTargetType
 
-Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe organizar el área del gráfico por su interior (sin incluir ejes y etiquetas de ejes) o por fuera (incluyendo ejes y etiquetas de ejes). Lectura/escritura `LayoutTargetType`.
+Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe diseñar el área del gráfico por dentro (sin incluir los ejes y las etiquetas de los ejes) o por fuera (incluyendo los ejes y las etiquetas de los ejes). Lectura/escritura `LayoutTargetType`.
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }

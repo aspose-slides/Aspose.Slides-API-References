@@ -1,6 +1,6 @@
 ---
 title: Frame
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает свойства рамки фигуры. Чтение/запись IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 80
@@ -17,7 +17,7 @@ public IShapeFrame Frame { get; set; }
 
 ### Примечания
 
-Значение каждого свойства возвращенного экземпляра IShapeFrame не определено (не NaN или NotDefined). Значение каждого свойства назначенного экземпляра IShapeFrame должно быть определено (не должно быть NaN или NotDefined). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
+Значение каждого свойства возвращаемого экземпляра IShapeFrame не является неопределённым (не является NaN или NotDefined). Значение каждого свойства назначенного экземпляра IShapeFrame не должно быть неопределённым (не должно быть NaN или NotDefined). Вы можете установить неопределённые значения для свойств экземпляра RawFrame.
 
 ### Смотрите также
 

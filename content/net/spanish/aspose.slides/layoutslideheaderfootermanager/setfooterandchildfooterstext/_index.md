@@ -1,15 +1,15 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Establece el texto en el marcador de posición del pie de página de la diapositiva de diseño y en todos los marcadores de posición de los pies de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas dependientes. Las diapositivas dependientes utilizan y dependen de la diapositiva de diseño.
+description: Establece el texto en el marcador de pie de página de la diapositiva de diseño y en todos los marcadores de pie de página hijos. Los marcadores hijos significan que los marcadores están contenidas en diapositivas dependientes. Las diapositivas dependientes utilizan y dependen de la diapositiva de diseño.
 type: docs
 weight: 30
 url: /es/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext/
 ---
 
-## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersText método
+## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-Establece el texto en el marcador de posición del pie de página de la diapositiva de diseño y en todos los marcadores de posición de los pies de página secundarios. Los marcadores de posición secundarios significan que los marcadores de posición están contenidos en las diapositivas dependientes. Las diapositivas dependientes utilizan y dependen de la diapositiva de diseño.
+Establece el texto en el marcador de pie de página de la diapositiva de diseño y en todos los marcadores de pie de página hijos. Los marcadores hijos significan que los marcadores están contenidas en diapositivas dependientes. Las diapositivas dependientes utilizan y dependen de la diapositiva de diseño.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)

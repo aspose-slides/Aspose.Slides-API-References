@@ -1,13 +1,13 @@
 ---
 title: Join
-second_title: Référence de l'API Aspose.Slides for .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Joint un élément mathématique avec ce bloc mathématique
 type: docs
 weight: 140
 url: /fr/aspose.slides.mathtext/mathblock/join/
 ---
 
-## Joindre(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
 Joint un élément mathématique avec ce bloc mathématique
 
@@ -19,13 +19,13 @@ public override IMathBlock Join(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | L'élément à joindre |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'instance actuelle de IMathBlock
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ IMathElement element2 = new MathematicalText("y");
 IMathBlock block = element1.Join(element2);
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [IMathBlock](../../imathblock)
 * interface [IMathElement](../../imathelement)
@@ -44,7 +44,7 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Joindre(string) {#join_1}
+## Join(string) {#join_1}
 
 Joint un texte mathématique avec ce bloc mathématique
 
@@ -56,13 +56,13 @@ public override IMathBlock Join(string mathText)
 | --- | --- | --- |
 | mathText | String | Texte mathématique à joindre |
 
-### Valeur de retour
+### Valeur de Retour
 
 Un nouveau IMathBlock contenant cette instance et l'argument spécifié
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ IMathElement element = new MathematicalText("x");
 IMathBlock block = element.Join("+y");
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [IMathBlock](../../imathblock)
 * class [MathBlock](../../mathblock)

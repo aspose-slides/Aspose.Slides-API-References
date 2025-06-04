@@ -19,7 +19,7 @@ public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 
 | Nom | Description |
 | --- | --- |
-| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Crée une nouvelle instance de contrôleur |
+| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Crée une nouvelle instance du contrôleur |
 
 ### Voir aussi
 

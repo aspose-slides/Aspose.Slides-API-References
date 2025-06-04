@@ -1,13 +1,13 @@
 ---
 title: MathBoxFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: El constructor predeterminado.
 type: docs
 weight: 10
 url: /es/aspose.slides.mathtext/mathboxfactory/mathboxfactory/
 ---
 
-## Constructor de MathBoxFactory
+## Constructor MathBoxFactory
 
 El constructor predeterminado.
 
@@ -15,10 +15,10 @@ El constructor predeterminado.
 public MathBoxFactory()
 ```
 
-### Ver También
+### Véase También
 
 * clase [MathBoxFactory](../../mathboxfactory)
 * espacio de nombres [Aspose.Slides.MathText](../../mathboxfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

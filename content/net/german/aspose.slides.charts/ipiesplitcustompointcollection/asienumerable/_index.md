@@ -15,9 +15,9 @@ Gibt das IEnumerable-Interface zurück.
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Anmerkungen
+### Hinweise
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

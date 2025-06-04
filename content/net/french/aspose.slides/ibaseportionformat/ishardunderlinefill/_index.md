@@ -1,6 +1,6 @@
 ---
 title: IsHardUnderlineFill
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Détermine si le style de soulignement a ses propres propriétés FillFormat ou les hérite des propriétés FillFormat du texte. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 120

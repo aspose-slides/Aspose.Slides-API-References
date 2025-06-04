@@ -1,21 +1,21 @@
 ---
 title: GradientStops
-second_title: Référence API Aspose.Sildes pour .NET
-description: Renvoie la collection des arrêts de dégradé. IGradientStopCollectionaspose.slides/igradientstopcollection en lecture seule.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie la collection des arrêts de gradient. Lecture seule IGradientStopCollectionaspose.slides/igradientstopcollection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/gradientformat/gradientstops/
 ---
 
-## Propriété GradientFormat.GradientStops
+## GradientFormat.GradientStops propriété
 
-Renvoie la collection des arrêts de dégradé. En lecture seule [`IGradientStopCollection`](../../igradientstopcollection).
+Renvoie la collection des arrêts de gradient. Lecture seule [`IGradientStopCollection`](../../igradientstopcollection).
 
 ```csharp
 public IGradientStopCollection GradientStops { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGradientStopCollection](../../igradientstopcollection)
 * classe [GradientFormat](../../gradientformat)

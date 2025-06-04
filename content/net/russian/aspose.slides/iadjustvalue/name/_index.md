@@ -1,13 +1,13 @@
 ---
 title: Name
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает имя этого значения настройки. Только для чтения строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/iadjustvalue/name/
 ---
 
-## Свойство IAdjustValue.Name
+## IAdjustValue.Name свойство
 
 Возвращает имя этого значения настройки. Только для чтения строка.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iadjustvalue/name/
 public string Name { get; }
 ```
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [IAdjustValue](../../iadjustvalue)
 * пространство имен [Aspose.Slides](../../iadjustvalue)

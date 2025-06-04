@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Elimina la primera ocurrencia de un objeto específico de la ICollection.
 type: docs
 weight: 110
@@ -17,11 +17,11 @@ public bool Remove(IPortion item)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | IPortion | El objeto a eliminar de la ICollection. |
+| item | IPortion | El objeto que se va a eliminar de la ICollection. |
 
 ### Valor de Retorno
 
-true si *item* fue eliminado exitosamente de la ICollection; de lo contrario, false. Este método también devuelve false si *item* no se encuentra en la ICollection original.
+true si *item* fue eliminado con éxito de la ICollection; de lo contrario, false. Este método también devuelve false si *item* no se encuentra en la ICollection original.
 
 ### Excepciones
 

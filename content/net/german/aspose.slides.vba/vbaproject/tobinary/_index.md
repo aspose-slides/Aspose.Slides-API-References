@@ -1,13 +1,13 @@
 ---
 title: ToBinary
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die binäre Darstellung des VBA-Projekts als OLE-Container zurück
 type: docs
 weight: 60
 url: /de/aspose.slides.vba/vbaproject/tobinary/
 ---
 
-## VbaProject.ToBinary-Methode
+## VbaProject.ToBinary Methode
 
 Gibt die binäre Darstellung des VBA-Projekts als OLE-Container zurück
 
@@ -19,7 +19,7 @@ public byte[] ToBinary()
 
 Binäre Darstellung des VBA-Projekts als OLE-Container
 
-### Siehe auch
+### Weitere Informationen
 
 * Klasse [VbaProject](../../vbaproject)
 * Namespace [Aspose.Slides.Vba](../../vbaproject)

@@ -1,21 +1,21 @@
 ---
 title: Style
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль диаграммы. Читается/записывается StyleTypeaspose.slides.charts/styletype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает стиль диаграммы. Чтение/запись StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 210
 url: /ru/aspose.slides.charts/ichart/style/
 ---
 
-## Свойство IChart.Style
+## IChart.Style свойство
 
-Возвращает или задает стиль диаграммы. Читается/записывается [`StyleType`](../../styletype).
+Возвращает или устанавливает стиль диаграммы. Чтение/запись [`StyleType`](../../styletype).
 
 ```csharp
 public StyleType Style { get; set; }
 ```
 
-### См. Также
+### Также смотрите
 
 * enum [StyleType](../../styletype)
 * interface [IChart](../../ichart)

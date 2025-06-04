@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
-description: Richtung des Übergangs. Lese-/Schreibeigenschaft TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
+description: Richtung der Übergänge. Lesen/Schreiben von TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/sidedirectiontransition/direction/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/sidedirectiontransition/direction/
 
 ## SideDirectionTransition.Direction-Eigenschaft
 
-Richtung des Übergangs. Lese-/Schreibeigenschaft [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
+Richtung des Übergangs. Lesen/Schreiben von [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
 
 ```csharp
 public TransitionSideDirectionType Direction { get; set; }

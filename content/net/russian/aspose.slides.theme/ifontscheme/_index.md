@@ -1,7 +1,7 @@
 ---
 title: IFontScheme
 second_title: Aspose.Slides для .NET API Reference
-description: Хранит шрифты, определенные темой.
+description: Хранит шрифты, заданные темой.
 type: docs
 weight: 10940
 url: /ru/aspose.slides.theme/ifontscheme/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ifontscheme/
 
 ## Интерфейс IFontScheme
 
-Хранит шрифты, определенные темой.
+Хранит шрифты, заданные темой.
 
 ```csharp
 public interface IFontScheme
@@ -20,10 +20,10 @@ public interface IFontScheme
 | Имя | Описание |
 | --- | --- |
 | [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Возвращает коллекцию шрифтов для части "заголовка" слайда. Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Возвращает коллекцию шрифтов для части "тела" слайда. Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Возвращает имя схемы шрифтов. Читается и записывается строка. |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Возвращает коллекцию шрифтов для части "основного текста" слайда. Только для чтения [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Возвращает имя схемы шрифтов. Читаемое/записываемое строковое значение. |
 
-### См. также
+### Также см. 
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

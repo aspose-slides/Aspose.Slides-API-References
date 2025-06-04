@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
-second_title: Aspose.Slides for .NET API 参考
-description: 组字符的垂直对齐。指定对象相对于基线的对齐方式。例如，当组字符在对象上方时，VerticalJustification 为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，对象的底部位于基线上。默认值：对于 Position=Top，Bottom；对于 Position=Bottom，Top
+second_title: Aspose.Sildes for .NET API Reference
+description: 组字符的垂直对齐。指定对象相对于基线的对齐。比如当组字符位于对象上方时，VerticalJustification 为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，对象的底部落在基线上。默认值：Position=Top 时为 Bottom，Position=Bottom 时为 Top
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/imathgroupingcharacter/verticaljustification/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathgroupingcharacter/verticaljustification/
 
 ## IMathGroupingCharacter.VerticalJustification 属性
 
-组字符的垂直对齐。指定对象相对于基线的对齐方式。例如，当组字符在对象上方时，VerticalJustification 为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，对象的底部位于基线上。默认值：对于 Position=Top，Bottom；对于 Position=Bottom，Top
+组字符的垂直对齐。指定对象相对于基线的对齐。比如，当组字符位于对象上方时，VerticalJustification 为 Top 表示对象的顶部落在基线上；当 VerticalJustification 设置为 Bottom 时，对象的底部落在基线上。默认值：Position=Top 时为 Bottom，Position=Bottom 时为 Top
 
 ```csharp
 public MathTopBotPositions VerticalJustification { get; set; }
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.VerticalJustification = MathTopBotPositions.Top;
 ```
 
-### 另见
+### 另请参阅
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * interface [IMathGroupingCharacter](../../imathgroupingcharacter)

@@ -1,6 +1,6 @@
 ---
 title: SolidFillColor
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает цвет заливки. Только для чтения Color.
 type: docs
 weight: 70

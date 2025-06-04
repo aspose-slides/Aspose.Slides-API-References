@@ -1,6 +1,6 @@
 ---
 title: AddVerticalTextPlaceholder
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет новую форму-заполнитель на слайд макета для размещения текстового содержимого в вертикальном направлении.
 type: docs
 weight: 100
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalTextPlaceholder(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата новой формы-заполнителя. |
-| y | Single | Y координата новой формы-заполнителя. |
+| x | Single | X-координата новой формы-заполнителя. |
+| y | Single | Y-координата новой формы-заполнителя. |
 | width | Single | Ширина новой формы-заполнителя. |
 | height | Single | Высота новой формы-заполнителя. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Созданный [`IAutoShape`](../../iautoshape) с текстовым (вертикальным) заполнителем.
+Созданный [`IAutoShape`](../../iautoshape) с заплеснителем Текст (Вертикальный).
 
 ### Примеры
 
-Следующий пример показывает, как добавить форму-заполнитель текста (вертикального) на слайд макета.
+Следующий пример показывает, как добавить форму-заполнитель Текст (Вертикальный) на слайд макета.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * класс [LayoutPlaceholderManager](../../layoutplaceholdermanager)

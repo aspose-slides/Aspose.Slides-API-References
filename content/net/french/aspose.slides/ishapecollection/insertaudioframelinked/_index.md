@@ -1,6 +1,6 @@
 ---
 title: InsertAudioFrameLinked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée un nouveau cadre audio avec un fichier audio lié et l'insère dans une collection à l'index spécifié.
 type: docs
 weight: 240
@@ -18,7 +18,7 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à lequel le cadre audio doit être inséré. |
+| index | Int32 | L'index basé sur zéro où le cadre audio doit être inséré. |
 | x | Single | Coordonnée X d'un nouveau cadre audio. |
 | y | Single | Coordonnée Y d'un nouveau cadre audio. |
 | width | Single | Largeur d'un nouveau cadre audio. |

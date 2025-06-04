@@ -1,7 +1,7 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Slides для .NET API Справочник
-description: Позволяет создавать математический массив
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет создать математический массив
 type: docs
 weight: 7860
 url: /ru/aspose.slides.mathtext/imatharrayfactory/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imatharrayfactory/
 
 ## Интерфейс IMathArrayFactory
 
-Позволяет создавать математический массив
+Позволяет создать математический массив
 
 ```csharp
 public interface IMathArrayFactory
@@ -22,11 +22,11 @@ public interface IMathArrayFactory
 | [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Создает математический массив и помещает в него указанный элемент |
 | [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Создает математический массив и помещает в него указанные элементы |
 
-### Примечания
+### Замечания
 
 Для совместимости с COM
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: Indent
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den ersten Zeilen-Einzug / hängenden Einzug des Absatzes zurück oder legt ihn fest. Ein hängender Einzug kann mit negativen Werten definiert werden. Lesen/Schreiben von Single.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Einzug der ersten Zeile/den hängenden Einzug eines Absatzes zurück oder legt ihn fest. Der hängende Einzug kann mit negativen Werten definiert werden. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/ichartparagraphformat/indent/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartparagraphformat/indent/
 
 ## IChartParagraphFormat.Indent-Eigenschaft
 
-Gibt den ersten Zeilen-Einzug / hängenden Einzug des Absatzes zurück oder legt ihn fest. Ein hängender Einzug kann mit negativen Werten definiert werden. Lesen/Schreiben von Single.
+Gibt den Einzug der ersten Zeile/den hängenden Einzug eines Absatzes zurück oder legt ihn fest. Der hängende Einzug kann mit negativen Werten definiert werden. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float Indent { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartParagraphFormat](../../ichartparagraphformat)
 * Namespace [Aspose.Slides.Charts](../../ichartparagraphformat)

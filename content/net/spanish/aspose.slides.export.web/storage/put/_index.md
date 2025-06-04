@@ -1,6 +1,6 @@
 ---
 title: Put
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: type docs
 weight: 40
 url: /es/aspose.slides.export.web/storage/put/
@@ -16,6 +16,6 @@ public void Put<TValue>(string key, TValue value)
 
 * clase [Storage](../../storage)
 * espacio de nombres [Aspose.Slides.Export.Web](../../storage)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

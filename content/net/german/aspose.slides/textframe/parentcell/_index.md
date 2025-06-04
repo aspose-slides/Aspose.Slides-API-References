@@ -1,7 +1,7 @@
 ---
 title: ParentCell
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die übergeordnete Zelle zurück oder null, wenn das übergeordnete Objekt das ICell-Interface nicht implementiert. Nur lesbar ICellaspose.slides/icell.
+description: Gibt die übergeordnete Zelle zurück oder null, wenn das übergeordnete Objekt das ICell-Interface nicht implementiert. Nur-Lesen ICellaspose.slides/icell.
 type: docs
 weight: 30
 url: /de/aspose.slides/textframe/parentcell/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframe/parentcell/
 
 ## TextFrame.ParentCell-Eigenschaft
 
-Gibt die übergeordnete Zelle zurück oder null, wenn das übergeordnete Objekt das ICell-Interface nicht implementiert. Nur lesbar [`ICell`](../../icell).
+Gibt die übergeordnete Zelle zurück oder null, wenn das übergeordnete Objekt das ICell-Interface nicht implementiert. Nur-Lesen [`ICell`](../../icell).
 
 ```csharp
 public ICell ParentCell { get; }
@@ -17,7 +17,7 @@ public ICell ParentCell { get; }
 
 ### Beispiele
 
-Das folgende Codebeispiel zeigt
+Das folgende Code-Beispiel zeigt
 
 ```csharp
 [C#]

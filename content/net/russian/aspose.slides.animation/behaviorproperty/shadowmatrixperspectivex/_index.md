@@ -1,13 +1,13 @@
 ---
 title: ShadowMatrixPerspectiveX
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойство shadow.matrix.perspectiveX
 type: docs
 weight: 620
 url: /ru/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 ---
 
-## Свойство BehaviorProperty.ShadowMatrixPerspectiveX
+## BehaviorProperty.ShadowMatrixPerspectiveX свойство
 
 Представляет свойство 'shadow.matrix.perspectiveX'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 public static BehaviorProperty ShadowMatrixPerspectiveX { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

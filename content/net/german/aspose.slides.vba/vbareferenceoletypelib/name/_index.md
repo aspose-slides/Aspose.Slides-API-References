@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Sildes für .NET API Referenz
-description: Repräsentiert den Namen der VBA-Projektreferenz. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Namen der VBA-Projektreferenz dar. Lese-/Schreib-String.
 type: docs
 weight: 30
 url: /de/aspose.slides.vba/vbareferenceoletypelib/name/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/vbareferenceoletypelib/name/
 
 ## VbaReferenceOleTypeLib.Name-Eigenschaft
 
-Repräsentiert den Namen der VBA-Projektreferenz. Lese-/Schreibzeichenfolge.
+Stellt den Namen der VBA-Projektreferenz dar. Lese-/Schreib-String.
 
 ```csharp
 public string Name { get; set; }

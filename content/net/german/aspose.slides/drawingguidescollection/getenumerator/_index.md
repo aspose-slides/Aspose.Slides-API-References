@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 60
 url: /de/aspose.slides/drawingguidescollection/getenumerator/
 ---
 
-## DrawingGuidesCollection.GetEnumerator Methode
+## DrawingGuidesCollection.GetEnumerator-Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 

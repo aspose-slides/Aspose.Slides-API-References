@@ -1,13 +1,13 @@
 ---
 title: Accent6
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Шестой акцентный цвет в схеме. Только для чтения Color.
 type: docs
 weight: 60
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 ---
 
-## IColorSchemeEffectiveData.Accent6 свойство
+## IColorSchemeEffectiveData.Accent6 property
 
 Шестой акцентный цвет в схеме. Только для чтения Color.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 public Color Accent6 { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

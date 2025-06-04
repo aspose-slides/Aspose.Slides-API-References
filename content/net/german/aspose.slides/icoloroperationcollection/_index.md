@@ -1,6 +1,6 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Sammlung von Farbtransformationsoperationen dar.
 type: docs
 weight: 5310
@@ -20,7 +20,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Gibt die Operation am angegebenen Index zurück oder setzt sie. Lese-/Schreibzugriff [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Gibt die Operation am angegebenen Index zurück oder setzt sie. Lesen/Speichern [`IColorOperation`](../icoloroperation). |
 
 ## Methoden
 
@@ -29,8 +29,8 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Fügt eine neue Operation am Ende der Sammlung hinzu. |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Fügt eine neue Operation am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Entfernt alle Farboperationen. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Fügt die neue Operation in eine Sammlung ein. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Fügt die neue Operation in eine Sammlung ein. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Fügt die neue Operation einer Sammlung hinzu. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Fügt die neue Operation einer Sammlung hinzu. |
 | [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Entfernt die Farboperation aus einer Sammlung. |
 
 ### Siehe auch

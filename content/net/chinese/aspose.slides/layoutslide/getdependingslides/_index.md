@@ -1,6 +1,6 @@
 ---
 title: GetDependingSlides
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回一个包含所有依赖于此布局幻灯片的幻灯片的数组。
 type: docs
 weight: 80

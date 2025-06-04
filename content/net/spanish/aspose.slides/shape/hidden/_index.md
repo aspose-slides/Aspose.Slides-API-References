@@ -15,10 +15,10 @@ Determina si la forma está oculta. Booleano de lectura/escritura.
 public bool Hidden { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * clase [Shape](../../shape)
 * espacio de nombres [Aspose.Slides](../../shape)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

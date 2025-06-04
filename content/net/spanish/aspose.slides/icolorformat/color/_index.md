@@ -1,7 +1,7 @@
 ---
 title: Color
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el color resultante con todas las transformaciones de color aplicadas. Establece colores RGB y limpia todas las transformaciones de color. Propiedad Color de lectura/escritura.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el color resultante con todas las transformaciones de color aplicadas. Establece colores RGB y borra todas las transformaciones de color. Leer/escribir Color.
 type: docs
 weight: 30
 url: /es/aspose.slides/icolorformat/color/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/icolorformat/color/
 
 ## Propiedad IColorFormat.Color
 
-Devuelve el color resultante (con todas las transformaciones de color aplicadas). Establece colores RGB y limpia todas las transformaciones de color. Propiedad Color de lectura/escritura.
+Devuelve el color resultante (con todas las transformaciones de color aplicadas). Establece colores RGB y borra todas las transformaciones de color. Leer/escribir Color.
 
 ```csharp
 public Color Color { get; set; }
@@ -19,6 +19,6 @@ public Color Color { get; set; }
 
 * interfaz [IColorFormat](../../icolorformat)
 * espacio de nombres [Aspose.Slides](../../icolorformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

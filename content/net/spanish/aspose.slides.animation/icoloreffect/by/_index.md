@@ -15,11 +15,11 @@ Describe el valor de desplazamiento relativo para la animación de color. Lectur
 public IColorOffset By { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IColorOffset](../../icoloroffset)
 * interfaz [IColorEffect](../../icoloreffect)
 * espacio de nombres [Aspose.Slides.Animation](../../icoloreffect)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

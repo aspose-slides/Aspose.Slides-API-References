@@ -1,7 +1,7 @@
 ---
 title: EmbeddedVideo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lesen/Schreiben IVideoaspose.slides/ivideo.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt ein eingebettetes Videoobjekt zurück oder setzt es. Lese-/Schreibzugriff auf IVideoaspose.slides/ivideo.
 type: docs
 weight: 20
 url: /de/aspose.slides/videoframe/embeddedvideo/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/videoframe/embeddedvideo/
 
 ## VideoFrame.EmbeddedVideo-Eigenschaft
 
-Gibt das eingebettete Videoobjekt zurück oder legt es fest. Lesen/Sclreiben [`IVideo`](../../ivideo).
+Gibt ein eingebettetes Videoobjekt zurück oder setzt es. Lese-/Schreibzugriff auf [`IVideo`](../../ivideo).
 
 ```csharp
 public IVideo EmbeddedVideo { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVideo](../../ivideo)
 * Klasse [VideoFrame](../../videoframe)

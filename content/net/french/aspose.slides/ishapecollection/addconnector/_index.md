@@ -1,7 +1,7 @@
 ---
 title: AddConnector
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau Connecteur, le paramètre selon le modèle par défaut et l'ajoute à la fin de la collection.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Crée un nouveau connecteur, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ishapecollection/addconnector/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapecollection/addconnector/
 
 ## AddConnector(ShapeType, float, float, float, float) {#addconnector}
 
-Crée un nouveau Connecteur, le paramètre selon le modèle par défaut et l'ajoute à la fin de la collection.
+Crée un nouveau connecteur, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height)
@@ -18,16 +18,16 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | shapeType | ShapeType | Le [`ShapeType`](../../shapetype) de la forme. |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
-| width | Single | La largeur du cadre de la forme. |
-| height | Single | La hauteur du cadre de la forme. |
+| x | Single | La coordonnée X pour le côté gauche de la forme. |
+| y | Single | La coordonnée Y pour le côté supérieur de la forme. |
+| width | Single | La largeur de la forme. |
+| height | Single | La hauteur de la forme. |
 
 ### Valeur de retour
 
 L'index basé sur zéro de la forme créée.
 
-Objet Connecteur créé.
+Objet connecteur créé.
 
 ### Voir aussi
 
@@ -41,7 +41,7 @@ Objet Connecteur créé.
 
 ## AddConnector(ShapeType, float, float, float, float, bool) {#addconnector_1}
 
-Crée un nouveau Connecteur et l'ajoute à la fin de la collection.
+Crée un nouveau connecteur et l'ajoute à la fin de la collection.
 
 ```csharp
 public IConnector AddConnector(ShapeType shapeType, float x, float y, float width, float height, 
@@ -51,17 +51,17 @@ public IConnector AddConnector(ShapeType shapeType, float x, float y, float widt
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | shapeType | ShapeType | Le [`ShapeType`](../../shapetype) de la forme. |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
-| width | Single | La largeur du cadre de la forme. |
-| height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera paramétrée selon le modèle par défaut. Un nom non vide, un style simple, et du texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| x | Single | La coordonnée X pour le côté gauche de la forme. |
+| y | Single | La coordonnée Y pour le côté supérieur de la forme. |
+| width | Single | La largeur de la forme. |
+| height | Single | La hauteur de la forme. |
+| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, un style simple, un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
 ### Valeur de retour
 
 L'index basé sur zéro de la forme créée.
 
-Objet Connecteur créé.
+Objet connecteur créé.
 
 ### Voir aussi
 

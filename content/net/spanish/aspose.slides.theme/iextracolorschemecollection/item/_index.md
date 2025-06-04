@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un esquema de color por índice. Solo lectura IExtraColorSchemeaspose.slides.theme/iextracolorscheme.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/iextracolorschemecollection/item/
 ---
 
-## Indexador IExtraColorSchemeCollection
+## IExtraColorSchemeCollection indexer
 
 Devuelve un esquema de color por índice. Solo lectura [`IExtraColorScheme`](../../iextracolorscheme).
 
@@ -15,7 +15,7 @@ Devuelve un esquema de color por índice. Solo lectura [`IExtraColorScheme`](../
 public IExtraColorScheme this[int index] { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IExtraColorScheme](../../iextracolorscheme)
 * interfaz [IExtraColorSchemeCollection](../../iextracolorschemecollection)

@@ -25,7 +25,7 @@ IMathFunction func = new MathematicalText("sin").Function("x");
 IMathElement base = func.Base;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Schnittstelle [IMathFunction](../../imathfunction)

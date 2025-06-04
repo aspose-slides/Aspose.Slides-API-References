@@ -1,6 +1,6 @@
 ---
 title: Behavior
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Représente le comportement de la classe de base des effets.
 type: docs
 weight: 60
@@ -24,7 +24,7 @@ public abstract class Behavior : IBehavior
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Représente les propriétés du comportement. Lecture seule [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Représente les propriétés de timing pour le comportement de l'effet. Lecture/écriture [`ITiming`](../itiming). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

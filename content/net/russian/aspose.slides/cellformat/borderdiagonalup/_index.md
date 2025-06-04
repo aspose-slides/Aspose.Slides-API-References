@@ -1,7 +1,7 @@
 ---
 title: BorderDiagonalUp
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект свойств диагональной линии от нижнего левого угла к верхнему правому. Только для чтения ILineFormataspose.slides/ilineformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает объект свойств диагональной линии от нижнего левого к верхнему правому углу. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/cellformat/borderdiagonalup/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/cellformat/borderdiagonalup/
 
 ## CellFormat.BorderDiagonalUp свойство
 
-Возвращает объект свойств диагональной линии от нижнего левого угла к верхнему правому. Только для чтения [`ILineFormat`](../../ilineformat).
+Возвращает объект свойств диагональной линии от нижнего левого к верхнему правому углу. Только для чтения [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderDiagonalUp { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [ILineFormat](../../ilineformat)
 * класс [CellFormat](../../cellformat)

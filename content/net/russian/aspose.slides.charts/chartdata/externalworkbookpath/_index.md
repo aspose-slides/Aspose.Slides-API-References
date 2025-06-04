@@ -1,21 +1,21 @@
 ---
 title: ExternalWorkbookPath
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет источник данных диаграммы
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет источник данных графика
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/chartdata/externalworkbookpath/
 ---
 
-## Свойство ChartData.ExternalWorkbookPath
+## ChartData.ExternalWorkbookPath свойство
 
-Представляет источник данных диаграммы
+Представляет источник данных графика
 
 ```csharp
 public string ExternalWorkbookPath { get; }
 ```
 
-### См. Такжи
+### Смотрите также
 
 * класс [ChartData](../../chartdata)
 * пространство имен [Aspose.Slides.Charts](../../chartdata)

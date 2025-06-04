@@ -1,7 +1,7 @@
 ---
 title: IGlow
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet de Glow dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un effet de Glow dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
 type: docs
 weight: 3200
 url: /fr/aspose.slides.effects/iglow/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iglow/
 
 ## Interface IGlow
 
-Représente un effet de Glow, dans lequel un contour flou coloré est ajouté à l'extérieur des bords de l'objet.
+Représente un effet de Glow, dans lequel un contour flou de couleur est ajouté à l'extérieur des bords de l'objet.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -24,7 +24,7 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Format de couleur. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Rayon. Lecture/écriture Double. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IGlowEffectiveData](../igloweffectivedata)

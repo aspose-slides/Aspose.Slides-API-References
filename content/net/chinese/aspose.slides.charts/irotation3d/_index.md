@@ -19,12 +19,12 @@ public interface IRotation3D
 
 | 名称 | 描述 |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 返回或设置3D图表的深度，作为图表宽度的百分比（在20到2000百分比之间）。可读/写 UInt16。 |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 指定3D图表的高度，作为图表宽度的百分比（在5到500百分比之间）。可读/写 UInt16。 |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 返回或设置3D图表的透视值（视场角），范围在0到100之间。如果RightAngleAxes属性值为true，则被忽略。可读/写 Byte。 |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | 确定图表坐标轴是否为直角，而不是按透视绘制。换句话说，它决定图表坐标轴的角度是否与图表的旋转或升高独立。可读/写 Boolean。 |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | 返回或设置绕X轴的旋转度，即在Y方向上的3D图表旋转（在-90到90度之间）。该属性对应于ECMA-376中的21.2.2.157 rotX（X旋转）项，以及PowerPoint 2007+中的“Y旋转”选项。可读/写 SByte。 |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | 返回或设置绕Y轴的旋转度，即在X方向上的3D图表旋转（在0到360度之间）。该属性对应于ECMA-376中的21.2.2.158 rotY（Y旋转）项，以及PowerPoint 2007+中的“X旋转”选项。可读/写 UInt16。 |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 返回或设置3D图表的深度，以图表宽度的百分比表示（介于20%和2000%之间）。可读/可写 UInt16。 |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 指定3D图表的高度，以图表宽度的百分比表示（介于5%和500%之间）。可读/可写 UInt16。 |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 返回或设置3D图表的透视值（视场角）（介于0和100之间）。如果RightAngleAxes属性值为true，则此值被忽略。可读/可写 Byte。 |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | 确定图表坐标轴是否为直角，而不是以透视方式绘制。换句话说，它决定图表轴的角度是否独立于图表的旋转或升高。可读/可写 Boolean。 |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | 返回或设置围绕X轴的旋转角度，即3D图表在Y方向的旋转角度（介于-90度和90度之间）。该属性与ECMA-376中的21.2.2.157 rotX (X Rotation) 项匹配，并且与PowerPoint 2007+中的“Y Rotation”选项匹配。可读/可写 SByte。 |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | 返回或设置围绕Y轴的旋转角度，即3D图表在X方向的旋转角度（介于0度和360度之间）。该属性与ECMA-376中的21.2.2.158 rotY (Y Rotation) 项匹配，并且与PowerPoint 2007+中的“X Rotation”选项匹配。可读/可写 UInt16。 |
 
 ### 参见
 

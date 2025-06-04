@@ -15,7 +15,7 @@ url: /zh/aspose.slides/pptreadexception/pptreadexception/
 public PptReadException()
 ```
 
-### 另请参见
+### 另见
 
 * class [PptReadException](../../pptreadexception)
 * namespace [Aspose.Slides](../../pptreadexception)
@@ -35,7 +35,7 @@ public PptReadException(string message)
 | --- | --- | --- |
 | message | String | 消息 |
 
-### 另请参见
+### 另见
 
 * class [PptReadException](../../pptreadexception)
 * namespace [Aspose.Slides](../../pptreadexception)
@@ -45,7 +45,7 @@ public PptReadException(string message)
 
 ## PptReadException(string, Exception) {#constructor_2}
 
-包含消息和嵌入异常的异常构造函数。
+包含消息和嵌入异常的构造函数。
 
 ```csharp
 public PptReadException(string message, Exception exception)
@@ -56,7 +56,7 @@ public PptReadException(string message, Exception exception)
 | message | String | 消息 |
 | exception | Exception | 原始异常 |
 
-### 另请参见
+### 另见
 
 * class [PptReadException](../../pptreadexception)
 * namespace [Aspose.Slides](../../pptreadexception)

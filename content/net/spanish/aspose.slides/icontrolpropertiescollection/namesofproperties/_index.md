@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides/icontrolpropertiescollection/namesofproperties/
 ---
 
-## Propiedad IControlPropertiesCollection.NamesOfProperties
+## IControlPropertiesCollection.NamesOfProperties property
 
 Devuelve un número de propiedades en la colección. Solo lectura ICollection.
 

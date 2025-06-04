@@ -1,13 +1,13 @@
 ---
 title: CreatePresetShadow
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt einen vordefinierten Schatteneffekt.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/ieffectfactory/createpresetshadow/
 ---
 
-## IEffectFactory.CreatePresetShadow-Methode
+## IEffectFactory.CreatePresetShadow Methode
 
 Erstellt einen vordefinierten Schatteneffekt.
 

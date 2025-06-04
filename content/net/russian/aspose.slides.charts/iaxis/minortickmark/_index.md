@@ -1,15 +1,15 @@
 ---
 title: MinorTickMark
-second_title: Справка по API Aspose.Slides для .NET
-description: Представляет тип малой делёнки для указанной оси. Чтение/запись TickMarkTypeaspose.slides.charts/tickmarktype.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет тип малой делительной отметки для указанной оси. Чтение/запись TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 400
 url: /ru/aspose.slides.charts/iaxis/minortickmark/
 ---
 
-## IAxis.MinorTickMark свойство
+## IAxis.MinorTickMark property
 
-Представляет тип малой делёнки для указанной оси. Чтение/запись [`TickMarkType`](../../tickmarktype).
+Представляет тип малой делительной отметки для указанной оси. Чтение/запись [`TickMarkType`](../../tickmarktype).
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }

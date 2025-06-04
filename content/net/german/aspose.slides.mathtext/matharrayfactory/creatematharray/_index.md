@@ -1,7 +1,7 @@
 ---
 title: CreateMathArray
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt ein Mathematikarray und platziert das angegebene Element darin
+description: Erstellt ein Mathematik-Array und platziert das angegebene Element darin
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/matharrayfactory/creatematharray/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/matharrayfactory/creatematharray/
 
 ## CreateMathArray(IMathElement) {#creatematharray}
 
-Erstellt ein Mathematikarray und platziert das angegebene Element darin
+Erstellt ein Mathematik-Array und platziert das angegebene Element darin
 
 ```csharp
 public IMathArray CreateMathArray(IMathElement element)
@@ -17,16 +17,16 @@ public IMathArray CreateMathArray(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Mathematikelement, das im Array platziert werden soll |
+| element | IMathElement | Mathematik-Element, das im Array platziert werden soll |
 
 ### Rückgabewert
 
-neues Mathematikarray
+neues Mathematik-Array
 
 ### Siehe auch
 
-* Interface [IMathArray](../../imatharray)
-* Interface [IMathElement](../../imathelement)
+* Schnittstelle [IMathArray](../../imatharray)
+* Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathArrayFactory](../../matharrayfactory)
 * Namespace [Aspose.Slides.MathText](../../matharrayfactory)
 * Assembly [Aspose.Slides](../../../)
@@ -35,7 +35,7 @@ neues Mathematikarray
 
 ## CreateMathArray(IMathElementCollection) {#creatematharray_1}
 
-Erstellt ein Mathematikarray und platziert die angegebenen Elemente darin
+Erstellt ein Mathematik-Array und platziert angegebene Elemente darin
 
 ```csharp
 public IMathArray CreateMathArray(IMathElementCollection elements)
@@ -43,16 +43,16 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| elements | IMathElementCollection | Mathematikelemente, die im Array platziert werden sollen |
+| elements | IMathElementCollection | Mathematik-Elemente, die im Array platziert werden sollen |
 
 ### Rückgabewert
 
-neues Mathematikarray
+neues Mathematik-Array
 
 ### Siehe auch
 
-* Interface [IMathArray](../../imatharray)
-* Interface [IMathElementCollection](../../imathelementcollection)
+* Schnittstelle [IMathArray](../../imatharray)
+* Schnittstelle [IMathElementCollection](../../imathelementcollection)
 * Klasse [MathArrayFactory](../../matharrayfactory)
 * Namespace [Aspose.Slides.MathText](../../matharrayfactory)
 * Assembly [Aspose.Slides](../../../)

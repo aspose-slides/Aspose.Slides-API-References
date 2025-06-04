@@ -1,6 +1,6 @@
 ---
 title: RemoveEmbeddedFont
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Supprime la police intégrée
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Supprime la police intégrée
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontData](../../ifontdata)
 * classe [FontsManager](../../fontsmanager)

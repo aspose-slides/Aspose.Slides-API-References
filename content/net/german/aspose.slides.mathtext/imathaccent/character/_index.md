@@ -1,15 +1,15 @@
 ---
 title: Character
-second_title: Aspose.Slides für .NET API-Referenz
-description: Akzentzeichen Der Wert sollte im Bereich von U0300 bis U036F oder U20D0 bis U20EF liegen. Standardwert Kombinierender Zirkumflex-Akzent U0302
+second_title: Aspose.Slides für .NET API Referenz
+description: Akzentzeichen Der Wert sollte im Bereich von U0300 bis U036F oder U20D0 bis U20EF liegen. Standardwert Kombinierter Zirkumflex-Akzent U0302
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathaccent/character/
 ---
 
-## IMathAccent.Character-Eigenschaft
+## IMathAccent.Character Eigenschaften
 
-Akzentzeichen Der Wert sollte im Bereich von (U+0300–U+036F) oder (U+20D0–U+20EF) liegen. Standardwert: Kombinierender Zirkumflex-Akzent (U+0302)
+Akzentzeichen Der Wert sollte im Bereich von (U+0300–U+036F) oder (U+20D0–U+20EF) liegen. Standardwert: Kombinierter Zirkumflex-Akzent (U+0302)
 
 ```csharp
 public char Character { get; set; }

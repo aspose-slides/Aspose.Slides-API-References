@@ -19,7 +19,7 @@ public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 | --- | --- | --- |
 | index | Int32 | Index d'une nouvelle colonne. |
 | templ | IColumn | Colonne utilisée comme modèle. |
-| withAttachedColumns | Boolean | True pour copier également toutes les colonnes attachées à la colonne modèle. |
+| withAttachedColumns | Boolean | Vrai pour copier également toutes les colonnes attachées à la colonne modèle. |
 
 ### Valeur de retour
 

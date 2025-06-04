@@ -1,6 +1,6 @@
 ---
 title: XPlus
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Spécifie la valeur de la barre d'erreur dans la direction positive. Disponible si le type de valeur des barres d'erreur est Personnalisé et si ErrorBarsXFormat est autorisé. Dans tout autre cas, cette propriété retourne null. Lecture seule IDoubleChartValueaspose.slides/idoublechartvalue.
 type: docs
 weight: 20

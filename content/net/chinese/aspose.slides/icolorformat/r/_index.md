@@ -1,7 +1,7 @@
 ---
 title: R
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置颜色的红色成分。所有颜色转换都会被忽略。可读/可写 Byte。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置颜色的红色分量。所有颜色转换都会被忽略。可读/可写字节。
 type: docs
 weight: 130
 url: /zh/aspose.slides/icolorformat/r/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icolorformat/r/
 
 ## IColorFormat.R 属性
 
-返回或设置颜色的红色成分。所有颜色转换都会被忽略。可读/可写 Byte。
+返回或设置颜色的红色分量。所有颜色转换都会被忽略。可读/可写字节。
 
 ```csharp
 public byte R { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 命名空间 [Aspose.Slides](../../icolorformat)

@@ -1,15 +1,15 @@
 ---
 title: Integral
-second_title: Aspose.Slides for .NET API 参考
-description: 获取积分
+second_title: Aspose.Sildes for .NET API Reference
+description: 计算积分
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/imathelement/integral/
 ---
 
-## 积分(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
-获取积分
+计算积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -25,11 +25,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathNaryOperator](../../imathnaryoperator)
 * 枚举 [MathIntegralTypes](../../mathintegraltypes)
@@ -50,9 +50,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ---
 
-## 积分(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
-获取积分
+计算积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -67,11 +67,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -81,7 +81,7 @@ IMathElement upperLimit = new MathematicalText("2");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowerLimit, upperLimit, MathLimitLocations.UnderOver);
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathNaryOperator](../../imathnaryoperator)
 * 枚举 [MathIntegralTypes](../../mathintegraltypes)
@@ -91,9 +91,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ---
 
-## 积分(MathIntegralTypes) {#integral}
+## Integral(MathIntegralTypes) {#integral}
 
-获取没有限制的积分
+计算没有限制的积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
@@ -105,11 +105,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType)
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -117,7 +117,7 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathNaryOperator](../../imathnaryoperator)
 * 枚举 [MathIntegralTypes](../../mathintegraltypes)
@@ -127,9 +127,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 
 ---
 
-## 积分(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
-获取积分
+计算积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -145,11 +145,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -157,7 +157,7 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5", MathLimitLocations.UnderOver);
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathNaryOperator](../../imathnaryoperator)
 * 枚举 [MathIntegralTypes](../../mathintegraltypes)
@@ -168,9 +168,9 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 
 ---
 
-## 积分(MathIntegralTypes, string, string) {#integral_3}
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
-获取积分
+计算积分
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -185,11 +185,11 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 ### 返回值
 
-返回类型为 [`IMathNaryOperator`](../../imathnaryoperator) 的新实例
+新实例类型 [`IMathNaryOperator`](../../imathnaryoperator)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -197,7 +197,7 @@ IMathElement baseElement = new MathematicalText("𝑥");
 IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1", "5");
 ```
 
-### 参见
+### 另见
 
 * 接口 [IMathNaryOperator](../../imathnaryoperator)
 * 枚举 [MathIntegralTypes](../../mathintegraltypes)

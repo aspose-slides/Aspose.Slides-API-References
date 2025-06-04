@@ -1,15 +1,15 @@
 ---
 title: LatinLineBreak
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si se utiliza el salto de línea latino en un párrafo. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si se utiliza el salto de línea latino en un párrafo. Sin herencia aplicada. Leer/escribir NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /es/aspose.slides/iparagraphformat/latinlinebreak/
 ---
 
-## Propiedad IParagraphFormat.LatinLineBreak
+## IParagraphFormat.LatinLineBreak property
 
-Determina si se utiliza el salto de línea latino en un párrafo. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
+Determina si se utiliza el salto de línea latino en un párrafo. Sin herencia aplicada. Leer/escribir [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LatinLineBreak { get; set; }

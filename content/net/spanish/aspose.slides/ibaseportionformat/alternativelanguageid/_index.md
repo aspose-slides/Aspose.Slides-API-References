@@ -1,13 +1,13 @@
 ---
 title: AlternativeLanguageId
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia API de .NET
 description: Devuelve o establece el Id de un idioma alternativo. Lectura/escritura String.
 type: docs
 weight: 10
 url: /es/aspose.slides/ibaseportionformat/alternativelanguageid/
 ---
 
-## Propiedad IBasePortionFormat.AlternativeLanguageId
+## IBasePortionFormat.AlternativeLanguageId propiedad
 
 Devuelve o establece el Id de un idioma alternativo. Lectura/escritura String.
 
@@ -15,10 +15,10 @@ Devuelve o establece el Id de un idioma alternativo. Lectura/escritura String.
 public string AlternativeLanguageId { get; set; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IBasePortionFormat](../../ibaseportionformat)
-* espacio de nombres [Aspose.Slides](../../ibaseportionformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IBasePortionFormat](../../ibaseportionformat)
+* namespace [Aspose.Slides](../../ibaseportionformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

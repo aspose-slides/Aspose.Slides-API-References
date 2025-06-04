@@ -1,6 +1,6 @@
 ---
 title: RevisionNumber
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Ссылка
 description: Возвращает или устанавливает номер ревизии презентации. Чтение/запись Int32.
 type: docs
 weight: 280

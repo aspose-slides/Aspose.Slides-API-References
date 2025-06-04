@@ -1,7 +1,7 @@
 ---
 title: GetAllTextBoxes
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回PPTX演示文稿中幻灯片上的所有文本框。
+description: 返回PPTX演示文稿中幻灯片上的所有文本框架。
 type: docs
 weight: 40
 url: /zh/aspose.slides.util/slideutil/getalltextboxes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.util/slideutil/getalltextboxes/
 
 ## SlideUtil.GetAllTextBoxes 方法
 
-返回PPTX演示文稿中幻灯片上的所有文本框。
+返回PPTX演示文稿中幻灯片上的所有文本框架。
 
 ```csharp
 public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
@@ -17,13 +17,13 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| slide | IBaseSlide | 被扫描的幻灯片。 |
+| slide | IBaseSlide | 扫描的幻灯片。 |
 
 ### 返回值
 
-[`TextFrame`](../../../aspose.slides/textframe) 对象数组。
+[`TextFrame`](../../../aspose.slides/textframe) 对象的数组。
 
-### 另请参阅
+### 参见
 
 * 接口 [ITextFrame](../../../aspose.slides/itextframe)
 * 接口 [IBaseSlide](../../../aspose.slides/ibaseslide)

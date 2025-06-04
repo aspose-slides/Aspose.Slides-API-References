@@ -1,7 +1,7 @@
 ---
 title: FillColor
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Füllfarben-Eigenschaft dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die FillColor-Eigenschaft dar
 type: docs
 weight: 280
 url: /de/aspose.slides.animation/behaviorproperty/fillcolor/

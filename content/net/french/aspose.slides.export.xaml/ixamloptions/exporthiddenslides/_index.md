@@ -1,15 +1,15 @@
 ---
 title: ExportHiddenSlides
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si les diapositives cachées seront exportées.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si les diapositives masquées seront exportées.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export.xaml/ixamloptions/exporthiddenslides/
 ---
 
-## Propriété IXamlOptions.ExportHiddenSlides
+## IXamlOptions.ExportHiddenSlides property
 
-Détermine si les diapositives cachées seront exportées.
+Détermine si les diapositives masquées seront exportées.
 
 ```csharp
 public bool ExportHiddenSlides { get; set; }

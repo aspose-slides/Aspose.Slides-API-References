@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Modus ab oder setzt ihn, in dem Folien beim Exportieren einer Präsentation auf der Seite platziert werden ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft den Modus ab oder setzt ihn, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/renderingoptions/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/renderingoptions/slideslayoutoptions/
 
 ## RenderingOptions.SlidesLayoutOptions-Eigenschaft
 
-Ruft den Modus ab oder setzt ihn, in dem Folien beim Exportieren einer Präsentation [`ISlidesLayoutOptions`](../../islideslayoutoptions) auf der Seite platziert werden.
+Ruht den Modus ab oder setzt ihn, in dem Folien auf der Seite platziert werden, wenn eine Präsentation exportiert wird [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -35,8 +35,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
     Bitmap[] handoutSlides = pres.GetThumbnails(options);
     for (var index = 0; index < handoutSlides.Length; index++)
     {
-        var handoutSllide = handoutSlides[index];
-        handoutSllide.Save($"handout-{index}.png");
+        var handoutSlide = handoutSlides[index];
+        handoutSlide.Save($"handout-{index}.png");
     }
 }
 ```

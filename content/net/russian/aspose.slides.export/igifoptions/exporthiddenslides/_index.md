@@ -1,6 +1,6 @@
 ---
 title: ExportHiddenSlides
-second_title: Aspose.Slildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию - false.
 type: docs
 weight: 30

@@ -1,7 +1,7 @@
 ---
 title: SmartTagClean
-second_title: Aspose.Slides for .NET API Reference
-description: 确定智能标签是否应该被清理。未应用继承。读/写布尔值。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定智能标签是否应该被清除。未应用继承。可读写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides/iportionformat/smarttagclean/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iportionformat/smarttagclean/
 
 ## IPortionFormat.SmartTagClean 属性
 
-确定智能标签是否应该被清理。未应用继承。读/写布尔值。
+确定智能标签是否应该被清除。未应用继承。可读写布尔值。
 
 ```csharp
 public bool SmartTagClean { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IPortionFormat](../../iportionformat)
 * 命名空间 [Aspose.Slides](../../iportionformat)

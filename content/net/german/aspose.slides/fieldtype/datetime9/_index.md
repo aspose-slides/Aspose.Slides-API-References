@@ -1,21 +1,21 @@
 ---
 title: DateTime9
-second_title: Aspose.Slides für .NET API Referenz
-description: Aktuelles Datum und Uhrzeit in einem neunten vordefinierten Format MM/DD/YYYY hhmmss AM/PM für Englisch. Nur-lesender FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Aktuelles Datum und Uhrzeit in einem neunten vordefinierten Format MM/DD/YYYY hhmmss AM/PM für Englisch. Nur-Lese FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 150
 url: /de/aspose.slides/fieldtype/datetime9/
 ---
 
-## FieldType.DateTime9 Eigenschaft
+## FieldType.DateTime9-Eigenschaft
 
-Aktuelles Datum und Uhrzeit in einem neunten vordefinierten Format (MM/DD/YYYY hh:mm:ss AM/PM für Englisch). Nur-lesender [`FieldType`](../../fieldtype).
+Aktuelles Datum und Uhrzeit in einem neunten vordefinierten Format (MM/DD/YYYY hh:mm:ss AM/PM für Englisch). Nur-Lese [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime9 { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

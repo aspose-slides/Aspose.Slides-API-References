@@ -1,6 +1,6 @@
 ---
 title: IMathDelimiterFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Permet de créer un délimiteur mathématique
 type: docs
 weight: 7970
@@ -19,14 +19,14 @@ public interface IMathDelimiterFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Créer un délimiteur mathématique en l'appliquant à l'élément |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Créer un délimiteur mathématique en l'appliquant à l'élément |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Crée un délimiteur mathématique en l'appliquant à l'élément |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Crée un délimiteur mathématique en l'appliquant à l'élément |
 
 ### Remarques
 
 Pour la compatibilité COM
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

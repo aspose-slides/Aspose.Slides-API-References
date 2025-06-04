@@ -7,15 +7,15 @@ weight: 1110
 url: /de/aspose.slides.animation/behaviorproperty/stylerotation/
 ---
 
-## BehaviorProperty.StyleRotation Eigenschaft
+## BehaviorProperty.StyleRotation-Eigenschaft
 
-Stellt die Eigenschaft 'style.rotation' dar
+Stellt die 'style.rotation'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty StyleRotation { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

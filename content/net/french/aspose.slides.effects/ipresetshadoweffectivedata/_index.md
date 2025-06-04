@@ -1,6 +1,6 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Objet immuable qui représente un effet d'ombre prédéfini.
 type: docs
 weight: 3370
@@ -19,11 +19,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Direction de l'ombre. En lecture seule Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Distance de l'ombre. En lecture seule Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Préréglage. En lecture seule [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Couleur de l'ombre. En lecture seule Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Direction de l'ombre. Lecture seule Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Distance de l'ombre. Lecture seule Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Prédéfini. Lecture seule [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Couleur de l'ombre. Lecture seule Color. |
 
 ### Voir Aussi
 

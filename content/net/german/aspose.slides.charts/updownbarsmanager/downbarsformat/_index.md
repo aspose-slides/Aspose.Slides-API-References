@@ -1,7 +1,7 @@
 ---
 title: DownBarsFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das DownBars-Format zurück. Schreibgeschütztes IFormataspose.slides.charts/iformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das DownBars-Format zurück. Nur lesbares IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/updownbarsmanager/downbarsformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/updownbarsmanager/downbarsformat/
 
 ## UpDownBarsManager.DownBarsFormat-Eigenschaft
 
-Gibt das DownBars-Format zurück. Schreibgeschützt [`IFormat`](../../iformat).
+Gibt das DownBars-Format zurück. Nur lesbar [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat DownBarsFormat { get; }

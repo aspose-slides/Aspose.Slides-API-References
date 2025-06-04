@@ -1,6 +1,6 @@
 ---
 title: ModernCommentStatus
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa el estado de un comentario moderno.
 type: docs
 weight: 8830
@@ -24,7 +24,7 @@ public enum ModernCommentStatus : sbyte
 | Resolved | `2` | Resuelto. |
 | Closed | `3` | Cerrado. |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie la position de départ le long de la rampe de gradient alpha de la valeur alpha de départ en pourcentages. Lecture/écriture Simple.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la position de départ le long de la rampe de dégradé alpha de la valeur alpha de départ en pourcentages. Lecture/écriture Simple.
 type: docs
 weight: 130
 url: /fr/aspose.slides.effects/reflection/startposalpha/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/reflection/startposalpha/
 
 ## Propriété Reflection.StartPosAlpha
 
-Spécifie la position de départ (le long de la rampe de gradient alpha) de la valeur alpha de départ (en pourcentages). Lecture/écriture Simple.
+Spécifie la position de départ (le long de la rampe de dégradé alpha) de la valeur alpha de départ (en pourcentages). Lecture/écriture Simple.
 
 ```csharp
 public float StartPosAlpha { get; set; }

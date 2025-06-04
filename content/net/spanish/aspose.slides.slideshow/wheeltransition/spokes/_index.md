@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.slideshow/wheeltransition/spokes/
 ---
 
-## Propiedad WheelTransition.Radios
+## Propiedad WheelTransition.Spokes
 
 Número de radios de la transición de rueda. Leer/escribir UInt32.
 
@@ -15,10 +15,10 @@ Número de radios de la transición de rueda. Leer/escribir UInt32.
 public uint Spokes { get; set; }
 ```
 
-### Véase También
+### Ver También
 
-* clase [WheelTransition](../../wheeltransition)
-* espacio de nombres [Aspose.Slides.SlideShow](../../wheeltransition)
-* ensamblaje [Aspose.Slides](../../../)
+* class [WheelTransition](../../wheeltransition)
+* namespace [Aspose.Slides.SlideShow](../../wheeltransition)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

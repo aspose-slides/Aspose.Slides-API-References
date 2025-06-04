@@ -1,21 +1,21 @@
 ---
 title: StartReflectionOpacity
-second_title: Aspose.Slides for .NET API 参考
-description: 开始反射透明度。百分比。唯读 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 起始反射不透明度。 百分比。 只读 Single。
 type: docs
 weight: 150
 url: /zh/aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity/
 ---
 
-## IReflectionEffectiveData.StartReflectionOpacity 属性
+## IReflectionEffectiveData.StartReflectionOpacity property
 
-开始反射透明度。（百分比）。唯读 Single。
+起始反射不透明度。 （百分比）。 只读 Single。
 
 ```csharp
 public float StartReflectionOpacity { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ireflectioneffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: Write
-second_title: Aspose.Slides for .NET API 参考
-description: 将字节序列写入当前流，并通过写入的字节数推进此流中的当前位置信息。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将一系列字节写入当前流，并通过写入的字节数推进当前在此流中的位置。
 type: docs
 weight: 130
 url: /zh/aspose.slides/istreamwrapper/write/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/istreamwrapper/write/
 
 ## IStreamWrapper.Write 方法
 
-将字节序列写入当前流，并通过写入的字节数推进此流中的当前位置信息。
+将一系列字节写入当前流，并通过写入的字节数推进当前在此流中的位置。
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)
@@ -18,10 +18,10 @@ public void Write(byte[] buffer, int offset, int count)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | buffer | Byte[] | 字节数组 Byte[] |
-| offset | Int32 | 在 buffer 中的零基字节偏移量，表示开始将字节复制到当前流的起始位置 Int32 |
+| offset | Int32 | 在 buffer 中开始将字节复制到当前流的零基字节偏移量 Int32 |
 | count | Int32 | 要写入当前流的字节数 Int32 |
 
-### 另请参见
+### 另见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 命名空间 [Aspose.Slides](../../istreamwrapper)

@@ -7,7 +7,7 @@ weight: 30
 url: /de/aspose.slides.effects/alphaceiling/gethashcode/
 ---
 
-## AlphaCeiling.GetHashCode-Methode
+## AlphaCeiling.GetHashCode Methode
 
 Dient als Hash-Funktion für einen bestimmten Typ.
 
@@ -19,7 +19,7 @@ public override int GetHashCode()
 
 Ein Hash-Code für das aktuelle Objekt.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [AlphaCeiling](../../alphaceiling)
 * Namespace [Aspose.Slides.Effects](../../alphaceiling)

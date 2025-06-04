@@ -1,21 +1,21 @@
 ---
 title: SegmentData
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Datos de la ruta del segmento
+description: Datos del camino del segmento
 type: docs
 weight: 20
 url: /es/aspose.slides/ipathsegment/segmentdata/
 ---
 
-## Propiedad IPathSegment.SegmentData
+## IPathSegment.SegmentData property
 
-Datos de la ruta del segmento
+Datos del camino del segmento
 
 ```csharp
 public float[] SegmentData { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IPathSegment](../../ipathsegment)
 * espacio de nombres [Aspose.Slides](../../ipathsegment)

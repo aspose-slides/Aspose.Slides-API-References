@@ -1,13 +1,13 @@
 ---
 title: ExtrusionLockRotationCenter
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство extrusion.lockrotationcenter
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter/
 ---
 
-## Свойство BehaviorProperty.ExtrusionLockRotationCenter
+## BehaviorProperty.ExtrusionLockRotationCenter свойство
 
 Представляет свойство 'extrusion.lockrotationcenter'
 

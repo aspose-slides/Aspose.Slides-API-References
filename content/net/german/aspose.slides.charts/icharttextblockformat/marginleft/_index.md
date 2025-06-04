@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die linken Margin-Punkte in einem TextFrame zurück oder setzt sie. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile DataLabel und DataLabelFormat volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat es keinen Effekt auf das Rendering ausüben. Lese-/schreibbare Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die linken Margenpunkte in einem TextFrame zurück oder legt sie fest. Das Ändern dieser Eigenschaft kann nur für diese Diagrammteile einen bestimmten Einfluss haben DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat es keinen Einfluss auf das Rendering. Lese-/Schreibzugriff Double.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/icharttextblockformat/marginleft/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/icharttextblockformat/marginleft/
 
 ## IChartTextBlockFormat.MarginLeft-Eigenschaft
 
-Gibt den linken Rand (Punkte) in einem TextFrame zurück oder setzt ihn. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile: DataLabel und DataLabelFormat (volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat es keinen Effekt auf das Rendering) ausüben. Lese-/schreibbares Double.
+Gibt die linke Marge (Punkte) in einem TextFrame zurück oder legt sie fest. Das Ändern dieser Eigenschaft kann nur für diese Diagrammteile einen bestimmten Einfluss haben: DataLabel und DataLabelFormat (vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat es keinen Einfluss auf das Rendering). Lese-/Schreibzugriff Double.
 
 ```csharp
 public double MarginLeft { get; set; }
@@ -17,7 +17,7 @@ public double MarginLeft { get; set; }
 
 ### Siehe auch
 
-* Interface [IChartTextBlockFormat](../../icharttextblockformat)
+* Schnittstelle [IChartTextBlockFormat](../../icharttextblockformat)
 * Namespace [Aspose.Slides.Charts](../../icharttextblockformat)
 * Assembly [Aspose.Slides](../../../)
 

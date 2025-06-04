@@ -1,7 +1,7 @@
 ---
 title: ToBorderBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 将此元素放置在边框框中
+description: 将此元素放置在边框框内
 type: docs
 weight: 190
 url: /zh/aspose.slides.mathtext/imathelement/toborderbox/
@@ -9,26 +9,26 @@ url: /zh/aspose.slides.mathtext/imathelement/toborderbox/
 
 ## ToBorderBox() {#toborderbox}
 
-将此元素放置在边框框中
+将此元素放置在边框框内
 
 ```csharp
 public IMathBorderBox ToBorderBox()
 ```
 
-### 返回值
+### Return Value
 
 包含此元素的边框框
 
-### 示例
+### Examples
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### 另见
+### See Also
 
 * interface [IMathBorderBox](../../imathborderbox)
 * interface [IMathElement](../../imathelement)
@@ -39,7 +39,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 ## ToBorderBox(bool, bool, bool, bool, bool, bool, bool, bool) {#toborderbox_1}
 
-将此元素放置在边框框中
+将此元素放置在边框框内
 
 ```csharp
 public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, bool hideRight, 
@@ -47,7 +47,7 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
     bool strikethroughBottomLeftToTopRight, bool strikethroughTopLeftToBottomRight)
 ```
 
-| 参数 | 类型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | hideTop | Boolean | 隐藏顶部边缘 |
 | hideBottom | Boolean | 隐藏底部边缘 |
@@ -55,23 +55,23 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 | hideRight | Boolean | 隐藏右侧边缘 |
 | strikethroughHorizontal | Boolean | 边框框水平删除线 |
 | strikethroughVertical | Boolean | 边框框垂直删除线 |
-| strikethroughBottomLeftToTopRight | Boolean | 边框框从左下到右上的删除线 |
-| strikethroughTopLeftToBottomRight | Boolean | 边框框从左上到右下的删除线 |
+| strikethroughBottomLeftToTopRight | Boolean | 边框框底左到顶右删除线 |
+| strikethroughTopLeftToBottomRight | Boolean | 边框框顶左到底右删除线 |
 
-### 返回值
+### Return Value
 
 包含此元素的边框框
 
-### 示例
+### Examples
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox(false, false, true, true, false, false, false, false);
 ```
 
-### 另见
+### See Also
 
 * interface [IMathBorderBox](../../imathborderbox)
 * interface [IMathElement](../../imathelement)

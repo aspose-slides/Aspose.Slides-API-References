@@ -1,15 +1,15 @@
 ---
 title: TickMarksSpacing
-second_title: Aspose.Slides pour .NET API Reference
-description: Spécifie combien de marques de graduation doivent être sautées avant que la suivante soit tracée. Appliqué à l'axe de catégorie ou de série. Lecture/écriture UInt16.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie combien de marques de graduation doivent être sautées avant que la suivante ne soit tracée. Appliqué à l'axe de catégorie ou de série. Lecture/écriture UInt16.
 type: docs
 weight: 530
 url: /fr/aspose.slides.charts/iaxis/tickmarksspacing/
 ---
 
-## Propriété IAxis.TickMarksSpacing
+## IAxis.TickMarksSpacing propriété
 
-Spécifie combien de marques de graduation doivent être sautées avant que la suivante soit tracée. Appliqué à l'axe de catégorie ou de série. Lecture/écriture UInt16.
+Spécifie combien de marques de graduation doivent être sautées avant que la suivante ne soit tracée. Appliqué à l'axe de catégorie ou de série. Lecture/écriture UInt16.
 
 ```csharp
 public uint TickMarksSpacing { get; set; }

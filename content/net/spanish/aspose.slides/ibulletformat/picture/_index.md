@@ -1,13 +1,13 @@
 ---
 title: Picture
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la imagen utilizada como viñeta en un párrafo sin herencia. Solo lectura ISlidesPicture aspose.slides/islidespicture.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Devuelve la imagen utilizada como viñeta en un párrafo sin herencia. Solo lectura ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 90
 url: /es/aspose.slides/ibulletformat/picture/
 ---
 
-## Propiedad IBulletFormat.Picture
+## IBulletFormat.Picture property
 
 Devuelve la imagen utilizada como viñeta en un párrafo sin herencia. Solo lectura [`ISlidesPicture`](../../islidespicture).
 
@@ -15,7 +15,7 @@ Devuelve la imagen utilizada como viñeta en un párrafo sin herencia. Solo lect
 public ISlidesPicture Picture { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ISlidesPicture](../../islidespicture)
 * interfaz [IBulletFormat](../../ibulletformat)

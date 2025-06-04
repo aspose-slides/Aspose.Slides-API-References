@@ -1,7 +1,7 @@
 ---
 title: AddSummaryZoomSection
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea un nuevo objeto de sección de Zoom de resumen y lo agrega a la colección
+description: Crea un nuevo objeto de Sección de Zoom Resumido y lo añade a la colección
 type: docs
 weight: 20
 url: /es/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
 
 ## ISummaryZoomSectionCollection.AddSummaryZoomSection método
 
-Crea un nuevo objeto de sección de Zoom de resumen y lo agrega a la colección
+Crea un nuevo objeto de Sección de Zoom Resumido y lo añade a la colección
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -17,7 +17,7 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| section | ISection | Sección para un nuevo elemento de sección de Zoom de resumen [`ISection`](../../isection) |
+| section | ISection | Sección para un nuevo elemento de Sección de Zoom Resumido [`ISection`](../../isection) |
 
 ### Valor de Retorno
 
@@ -25,11 +25,11 @@ Elemento añadido [`ISummaryZoomFrame`](../../isummaryzoomframe)
 
 ### Observaciones
 
-Si un elemento para esta sección ya existe en la colección, se devuelve el elemento existente.
+Si ya existe un elemento para esta sección en la colección, se devuelve el elemento existente.
 
 ### Ejemplos
 
-El ejemplo demuestra cómo obtener el elemento de sección de Zoom de resumen por índice:
+El ejemplo demuestra cómo obtener un elemento de Sección de Zoom Resumido por índice:
 
 ```csharp
 [C#]
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Vea también
+### Véase también
 
 * interfaz [ISummaryZoomSection](../../isummaryzoomsection)
 * interfaz [ISection](../../isection)

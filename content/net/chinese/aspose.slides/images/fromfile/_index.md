@@ -1,7 +1,7 @@
 ---
 title: FromFile
-second_title: Aspose.Slides for .NET API 参考
-description: 从文件创建一个图像。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从文件创建图像。
 type: docs
 weight: 10
 url: /zh/aspose.slides/images/fromfile/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/images/fromfile/
 
 ## FromFile(string) {#fromfile}
 
-从文件创建一个图像。
+从文件创建图像。
 
 ```csharp
 public static IImage FromFile(string filename)
 ```
 
-### 另见
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 类 [Images](../../images)
@@ -26,13 +26,13 @@ public static IImage FromFile(string filename)
 
 ## FromFile(string, bool) {#fromfile_1}
 
-从文件创建一个图像
+从文件创建图像
 
 ```csharp
 public static IImage FromFile(string filename, bool useEmbeddedColorManagement)
 ```
 
-### 另见
+### 参见
 
 * 接口 [IImage](../../iimage)
 * 类 [Images](../../images)

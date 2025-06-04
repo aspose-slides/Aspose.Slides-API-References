@@ -1,25 +1,25 @@
 ---
 title: SecondPieSize
-second_title: Aspose.Slides for .NET API 参考
-description: 指定饼图或条形图中第二个饼或条的大小，作为第一个饼大小的百分比，范围可以在5%到200%之间。这不仅是此系列的属性，也是所有父系列组系列的属性 - 这是相应组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.SecondPieSize 读/写属性更改值。只读 UInt16。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定第二个饼图或柱状图在饼图-饼图或柱状图中的大小, 作为第一个饼图大小的百分比，可以在 5 到 200 之间。这不仅是该系列的属性，也是所有父系列组系列的属性 - 这是相应组属性的投影。因此，该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.SecondPieSize 可读/写属性更改值。只读 UInt16。
 type: docs
 weight: 360
 url: /zh/aspose.slides.charts/chartseries/secondpiesize/
 ---
 
-## ChartSeries.SecondPieSize 属性
+## ChartSeries.SecondPieSize property
 
-指定饼图或条形图中第二个饼或条的大小，作为第一个饼大小的百分比（范围可以在5%到200%之间）。这不仅是此系列的属性，也是所有父系列组系列的属性 - 这是相应组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.SecondPieSize 读/写属性更改值。只读 UInt16。
+指定第二个饼图或柱状图在饼图-饼图或柱状图中的大小，作为第一个饼图大小的百分比（可以在 5 到 200 之间）。这不仅是该系列的属性，也是所有父系列组系列的属性 - 这是相应组属性的投影。因此，该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.SecondPieSize 可读/写属性更改值。只读 UInt16。
 
 ```csharp
 public ushort SecondPieSize { get; }
 ```
 
-### 备注
+### Remarks
 
 这是属性 ParentSeriesGroup.SecondPieSize 的投影。
 
-### 另见
+### See Also
 
 * class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)

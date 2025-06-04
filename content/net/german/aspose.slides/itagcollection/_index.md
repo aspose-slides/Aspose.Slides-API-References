@@ -1,7 +1,7 @@
 ---
 title: ITagCollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Sammlung von Tags dar, die benutzerdefinierte Paare von Zeichenfolgen sind
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Sammlung von Tags dar benutzerdefinierte Paare von Zeichenfolgen
 type: docs
 weight: 7040
 url: /de/aspose.slides/itagcollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itagcollection/
 
 ## ITagCollection-Schnittstelle
 
-Stellt die Sammlung von Tags dar (benutzerdefinierte Paare von Zeichenfolgen)
+Stellt die Sammlung von Tags (benutzerdefinierte Paare von Zeichenfolgen) dar
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -32,10 +32,10 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Gibt die Namen der Tags zurück. |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Gibt den Wert eines Tags am angegebenen Index zurück. |
 | [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Gibt den nullbasierten Index des angegebenen Schlüssels in der Sammlung zurück. |
-| [Remove](../../aspose.slides/itagcollection/remove)(string) | Entfernt das Tag mit dem angegebenen Namen aus der Sammlung. |
+| [Remove](../../aspose.slides/itagcollection/remove)(string) | Entfernt das Tag mit einem angegebenen Namen aus der Sammlung. |
 | [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Entfernt das Tag am angegebenen Index. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * Namespace [Aspose.Slides](../../aspose.slides)

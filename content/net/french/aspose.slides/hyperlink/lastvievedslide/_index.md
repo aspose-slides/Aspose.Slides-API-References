@@ -1,7 +1,7 @@
 ---
 title: LastVievedSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un hyperlien vers la dernière diapositive consultée. Hyperlien en lecture seule aspose.slides/hyperlink.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie un hyperlien vers la dernière diapositive vue. Hyperlien en lecture seule aspose.slides/hyperlink.
 type: docs
 weight: 50
 url: /fr/aspose.slides/hyperlink/lastvievedslide/
@@ -9,15 +9,15 @@ url: /fr/aspose.slides/hyperlink/lastvievedslide/
 
 ## Propriété Hyperlink.LastVievedSlide
 
-Renvoie un hyperlien vers la dernière diapositive consultée. Hyperlien en lecture seule [`Hyperlink`](../../hyperlink).
+Renvoie un hyperlien vers la dernière diapositive vue. Hyperlien en lecture seule [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink LastVievedSlide { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [Hyperlink](../../hyperlink)
+* class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)
 * assembly [Aspose.Slides](../../../)
 

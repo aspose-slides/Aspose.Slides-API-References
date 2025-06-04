@@ -1,29 +1,29 @@
----
+---  
 title: GetEffective
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia  
 description: Obtiene datos de formato de porción efectiva con la herencia aplicada.
-type: docs
-weight: 50
+type: docs  
+weight: 50  
 url: /es/aspose.slides/iportionformat/geteffective/
----
+---  
 
-## Método IPortionFormat.GetEffective
+## IPortionFormat.GetEffective método  
 
-Obtiene datos de formato de porción efectiva con la herencia aplicada.
+Obtiene datos de formato de porción efectiva con la herencia aplicada.  
 
-```csharp
-public IPortionFormatEffectiveData GetEffective()
-```
+```csharp  
+public IPortionFormatEffectiveData GetEffective()  
+```  
 
-### Valor de Retorno
+### Valor de Retorno  
 
-Una [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
+Un [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).  
 
-### Ver También
+### Véase También  
 
-* interfaz [IPortionFormatEffectiveData](../../iportionformateffectivedata)
-* interfaz [IPortionFormat](../../iportionformat)
-* espacio de nombres [Aspose.Slides](../../iportionformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPortionFormatEffectiveData](../../iportionformateffectivedata)  
+* interfaz [IPortionFormat](../../iportionformat)  
+* espacio de nombres [Aspose.Slides](../../iportionformat)  
+* ensamblado [Aspose.Slides](../../../)  
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

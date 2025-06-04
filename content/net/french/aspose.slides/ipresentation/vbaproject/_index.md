@@ -1,7 +1,7 @@
 ---
 title: VbaProject
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le projet VBA avec les macros de présentation. Lecture/écriture de IVbaProjectaspose.slides.vba/ivbaproject.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Obtient le projet VBA avec des macros de présentation. Lecture/écriture IVbaProjectaspose.slides.vba/ivbaproject.
 type: docs
 weight: 270
 url: /fr/aspose.slides/ipresentation/vbaproject/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipresentation/vbaproject/
 
 ## Propriété IPresentation.VbaProject
 
-Obtient le projet VBA avec les macros de présentation. Lecture/écriture de [`IVbaProject`](../../../aspose.slides.vba/ivbaproject).
+Obtient le projet VBA avec des macros de présentation. Lecture/écriture [`IVbaProject`](../../../aspose.slides.vba/ivbaproject).
 
 ```csharp
 public IVbaProject VbaProject { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVbaProject](../../../aspose.slides.vba/ivbaproject)
 * interface [IPresentation](../../ipresentation)

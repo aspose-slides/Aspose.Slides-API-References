@@ -15,10 +15,10 @@ Representa la propiedad 'style.sRotation'
 public static BehaviorProperty StyleSRotation { get; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

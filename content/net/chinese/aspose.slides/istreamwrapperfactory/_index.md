@@ -1,7 +1,7 @@
 ---
 title: IStreamWrapperFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: StreamWrappers 工厂。用于 COM 接口。
+description: StreamWrappers的工厂。用于COM接口。
 type: docs
 weight: 6920
 url: /zh/aspose.slides/istreamwrapperfactory/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/istreamwrapperfactory/
 
 ## IStreamWrapperFactory 接口
 
-StreamWrappers 工厂。用于 COM 接口。
+StreamWrappers的工厂。用于COM接口。
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -19,10 +19,10 @@ public interface IStreamWrapperFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | 使用指定的路径和创建模式创建 FileStream。 |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 使用指定的路径、创建模式和读写权限创建 FileStream。 |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | 创建 MemoryStream 包装器。 |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 基于指定的字节数组创建 MemoryStream 包装器。 |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | 使用指定的路径和创建模式创建FileStream。 |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 使用指定路径、创建模式和读/写权限创建FileStream。 |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | 创建MemoryStream封装。 |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 基于指定字节数组创建MemoryStream封装。 |
 
 ### 另请参见
 

@@ -1,7 +1,7 @@
 ---
 title: SplitTransition
-second_title: Aspose.Slides für .NET API Referenz
-description: Effekt der Split-Folienübergänge.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Effekt der Aufteilung der Folienübergänge.
 type: docs
 weight: 10020
 url: /de/aspose.slides.slideshow/splittransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/splittransition/
 
 ## SplitTransition-Klasse
 
-Effekt der Split-Folienübergänge.
+Effekt der Aufteilung der Folienübergänge.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -19,17 +19,17 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Name | Beschreibung |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Richtung des Übergangssplits. Lese-/Schreibzugriff [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Ausrichtung des Übergangssplits. Lese-/Schreibzugriff [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Richtung des Übergangsplits. Lese-/Schreibzugriff [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientierung des Übergangsplits. Lese-/Schreibzugriff [`Orientation`](../../aspose.slides/orientation). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hashalgorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TransitionValueBase](../transitionvaluebase)
 * Schnittstelle [ISplitTransition](../isplittransition)

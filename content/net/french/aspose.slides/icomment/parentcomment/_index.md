@@ -21,7 +21,7 @@ public IComment ParentComment { get; set; }
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Lancé si la définition de la valeur entraîne une référence circulaire |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IComment](../../icomment)
 * namespace [Aspose.Slides](../../icomment)

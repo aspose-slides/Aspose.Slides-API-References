@@ -1,21 +1,21 @@
 ---
 title: Preserve
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le maître correspondant est supprimé lorsque toutes les diapositives qui suivent ce maître sont supprimées. Remarque  Aspose.Slides ne supprimera jamais de maître inutilisé par lui-même, pour réellement supprimer des maîtres inutilisés, appelez RemoveUnusedaspose.slides/imasterslidecollection/removeunused Lecture/écriture Booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si le maître correspondant est supprimé lorsque toutes les diapositives qui suivent ce maître sont supprimées. Remarque  Aspose.Slides ne supprimera jamais de maître inutilisé par lui-même, pour réellement supprimer des maîtres inutilisés appelez RemoveUnusedaspose.slides/imasterslidecollection/removeunused Lecture/écriture Booléen.
 type: docs
 weight: 80
 url: /fr/aspose.slides/imasterslide/preserve/
 ---
 
-## Propriété IMasterSlide.Preserve
+## IMasterSlide.Preserve property
 
-Détermine si le maître correspondant est supprimé lorsque toutes les diapositives qui suivent ce maître sont supprimées. Remarque : Aspose.Slides ne supprimera jamais de maître inutilisé par lui-même, pour réellement supprimer des maîtres inutilisés, appelez [`RemoveUnused`](../../imasterslidecollection/removeunused) Lecture/écriture Booléen.
+Détermine si le maître correspondant est supprimé lorsque toutes les diapositives qui suivent ce maître sont supprimées. Remarque : Aspose.Slides ne supprimera jamais de maître inutilisé par lui-même, pour réellement supprimer des maîtres inutilisés appelez [`RemoveUnused`](../../imasterslidecollection/removeunused) Lecture/écriture Booléen.
 
 ```csharp
 public bool Preserve { get; set; }
 ```
 
-### Voir Aussi
+### Voir Également
 
 * interface [IMasterSlide](../../imasterslide)
 * namespace [Aspose.Slides](../../imasterslide)

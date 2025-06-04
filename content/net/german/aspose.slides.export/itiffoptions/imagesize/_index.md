@@ -1,7 +1,7 @@
 ---
 title: ImageSize
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Größe eines generierten TIFF-Bildes an. Der Standardwert ist 0x0, was bedeutet, dass die generierten Bildgrößen basierend auf dem Wert der Präsentationsfoliengröße berechnet werden. Lese-/Schreibzugriff auf Size.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Größe eines erzeugten TIFF-Bildes an. Der Standardwert ist 0x0, was bedeutet, dass die erzeugten Bildgrößen basierend auf dem Wert der Präsentationsfoliogröße berechnet werden. Lese-/Schreibzugriff auf Size.
 type: docs
 weight: 60
 url: /de/aspose.slides.export/itiffoptions/imagesize/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/itiffoptions/imagesize/
 
 ## ITiffOptions.ImageSize-Eigenschaft
 
-Gibt die Größe eines generierten TIFF-Bildes an. Der Standardwert ist 0x0, was bedeutet, dass die generierten Bildgrößen basierend auf dem Wert der Präsentationsfoliengröße berechnet werden. Lese-/Schreibzugriff auf Size.
+Gibt die Größe eines erzeugten TIFF-Bildes an. Der Standardwert ist 0x0, was bedeutet, dass die erzeugten Bildgrößen basierend auf dem Wert der Präsentationsfoliogröße berechnet werden. Lese-/Schreibzugriff auf Size.
 
 ```csharp
 public Size ImageSize { get; set; }

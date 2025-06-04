@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Überprüft, ob dieses Objekt gleich einem anderen ist.
 type: docs
 weight: 1250
 url: /de/aspose.slides.animation/behaviorproperty/equals/
 ---
 
-## BehaviorProperty.Equals Methode
+## BehaviorProperty.Equals-Methode
 
 Überprüft, ob dieses Objekt gleich einem anderen ist.
 
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| obj | Object | Objekt zum Vergleichen. |
+| obj | Object | Objekt zum Vergleich. |
 
 ### Rückgabewert
 

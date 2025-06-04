@@ -1,6 +1,6 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建数学边框框
 type: docs
 weight: 8360
@@ -30,9 +30,9 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 ### 备注
 
-用于 COM 兼容性
+为了与 COM 兼容
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathBorderBoxFactory](../imathborderboxfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -19,10 +19,10 @@ public void Add(IPortion value)
 | --- | --- | --- |
 | value | IPortion | Die Portion, die am Ende der Sammlung hinzugefügt werden soll. |
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IPortion](../../iportion)
-* Schnittstelle [IPortionCollection](../../iportioncollection)
+* Interface [IPortion](../../iportion)
+* Interface [IPortionCollection](../../iportioncollection)
 * Namespace [Aspose.Slides](../../iportioncollection)
 * Assembly [Aspose.Slides](../../../)
 

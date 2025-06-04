@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iportion/asislidecomponent/
 
 ## Propriété IPortion.AsISlideComponent
 
-Permet d'obtenir l'interface de base ISlideComponent. Lecture seule [`ISlideComponent`](../../islidecomponent).
+Permet d'obtenir l'interface de base ISlideComponent. ISlideComponent en lecture seule [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideComponent](../../islidecomponent)
 * interface [IPortion](../../iportion)

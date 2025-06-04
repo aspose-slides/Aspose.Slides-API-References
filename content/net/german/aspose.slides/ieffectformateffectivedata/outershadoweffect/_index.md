@@ -1,7 +1,7 @@
 ---
 title: OuterShadowEffect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Äußerer Schatten. Nur-Lese IOuterShadowEffectiveDataaspose.slides/../aspose.slides.effects/ioutershadoweffectivedata.
+description: Äußerer Schatten. Schreibgeschütztes IOuterShadowEffectiveDataaspose.slides.effects/ioutershadoweffectivedata.
 type: docs
 weight: 70
 url: /de/aspose.slides/ieffectformateffectivedata/outershadoweffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ieffectformateffectivedata/outershadoweffect/
 
 ## IEffectFormatEffectiveData.OuterShadowEffect-Eigenschaft
 
-Äußerer Schatten. Nur-Lese [`IOuterShadowEffectiveData`](../../../aspose.slides.effects/ioutershadoweffectivedata).
+Äußerer Schatten. Schreibgeschütztes [`IOuterShadowEffectiveData`](../../../aspose.slides.effects/ioutershadoweffectivedata).
 
 ```csharp
 public IOuterShadowEffectiveData OuterShadowEffect { get; }

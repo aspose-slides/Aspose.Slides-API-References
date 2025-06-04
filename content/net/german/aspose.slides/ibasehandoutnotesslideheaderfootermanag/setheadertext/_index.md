@@ -1,7 +1,7 @@
 ---
 title: SetHeaderText
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzt den Text für den Platzhalter des Folienkopfes.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Setzt den Text für den Platzhalter des Folientitels.
 type: docs
 weight: 30
 url: /de/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext/
 
 ## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderText Methode
 
-Setzt den Text für den Platzhalter des Folienkopfes.
+Setzt den Text für den Platzhalter des Folientitels.
 
 ```csharp
 public void SetHeaderText(string text)

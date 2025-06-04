@@ -1,7 +1,7 @@
 ---
 title: DefaultTextLanguage
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает язык по умолчанию для текста презентации. Чтение/запись String.
+second_title: Ссылки на API Aspose.Sildes для .NET
+description: Возвращает или устанавливает язык по умолчанию для текста презентации. Чтение/запись строки.
 type: docs
 weight: 60
 url: /ru/aspose.slides/loadoptions/defaulttextlanguage/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/loadoptions/defaulttextlanguage/
 
 ## LoadOptions.DefaultTextLanguage свойство
 
-Возвращает или устанавливает язык по умолчанию для текста презентации. Чтение/запись String.
+Возвращает или устанавливает язык по умолчанию для текста презентации. Чтение/запись строки.
 
 ```csharp
 public string DefaultTextLanguage { get; set; }
@@ -26,7 +26,7 @@ LoadOptions loadOptions = new LoadOptions();
 loadOptions.DefaultTextLanguage = "en-US";
 using (Presentation pres = new Presentation(loadOptions))
  {
-    // Добавить новую прямоугольную фигуру с текстом
+    // Добавить новую фигуру прямоугольной формы с текстом
     IAutoShape shp = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
     shp.TextFrame.Text = "New Text";
 
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation(loadOptions))
 }
 ```
 
-### См. также
+### Также см. 
 
 * класс [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)

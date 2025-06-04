@@ -1,15 +1,15 @@
 ---
 title: DisableFontLigatures
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsque la valeur est définie sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/ihtml5options/disablefontligatures/
 ---
 
-## Propriété IHtml5Options.DisableFontLigatures
+## IHtml5Options.DisableFontLigatures property
 
-Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'elle est définie sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
+Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsque la valeur est définie sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -25,14 +25,14 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     Html5Options options = new Html5Options
     {
-        DisableFontLigatures = true // Désactiver les ligatures dans le rendu du texte
+        DisableFontLigatures = true // Désactiver les ligatures dans le rendu de texte
     };
     
     pres.Save(outputSlidePath, SaveFormat.Html5, options);
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHtml5Options](../../ihtml5options)
 * namespace [Aspose.Slides.Export](../../ihtml5options)

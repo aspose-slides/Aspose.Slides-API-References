@@ -1,15 +1,15 @@
 ---
 title: PointsType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Typ der Befehlsdatenpunkte an, schreibbar, MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Typ der Befehls-Punkte an. Lese-/Schreibzugriff auf MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/imotioncmdpath/pointstype/
 ---
 
-## IMotionCmdPath.PointsType-Eigenschaft
+## IMotionCmdPath.PointsType Eigenschaft
 
-Gibt den Typ der Befehlsdatenpunkte an, schreibbar [`MotionPathPointsType`](../../motionpathpointstype).
+Gibt den Typ der Befehls-Punkte an. Lese-/Schreibzugriff auf [`MotionPathPointsType`](../../motionpathpointstype).
 
 ```csharp
 public MotionPathPointsType PointsType { get; set; }

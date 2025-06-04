@@ -1,6 +1,6 @@
 ---
 title: HideAtShowing
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Détermine si un AudioFrame est caché. Booléen en lecture/écriture.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Détermine si un AudioFrame est caché. Booléen en lecture/écriture.
 public bool HideAtShowing { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudioFrame](../../iaudioframe)
 * namespace [Aspose.Slides](../../iaudioframe)

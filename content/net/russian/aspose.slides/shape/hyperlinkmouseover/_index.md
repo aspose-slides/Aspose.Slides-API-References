@@ -1,13 +1,13 @@
 ---
 title: HyperlinkMouseOver
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает гиперссылку, определенную для наведения мыши. Чтение/запись IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 130
 url: /ru/aspose.slides/shape/hyperlinkmouseover/
 ---
 
-## Свойство Shape.HyperlinkMouseOver
+## Shape.HyperlinkMouseOver свойство
 
 Возвращает или устанавливает гиперссылку, определенную для наведения мыши. Чтение/запись [`IHyperlink`](../../ihyperlink).
 

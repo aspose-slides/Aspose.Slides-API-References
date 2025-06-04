@@ -1,7 +1,7 @@
 ---
 title: ActualHeight
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la hauteur réelle de l'élément de graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir les valeurs réelles. Lire Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la hauteur réelle de l'élément du graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir les valeurs réelles. Lire Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/datalabel/actualheight/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/datalabel/actualheight/
 
 ## Propriété DataLabel.ActualHeight
 
-Spécifie la hauteur réelle de l'élément de graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir les valeurs réelles. Lire Single.
+Spécifie la hauteur réelle de l'élément du graphique. Appelez la méthode IChart.ValidateChartLayout() avant d'obtenir les valeurs réelles. Lire Single.
 
 ```csharp
 public float ActualHeight { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DataLabel](../../datalabel)
 * espace de noms [Aspose.Slides.Charts](../../datalabel)

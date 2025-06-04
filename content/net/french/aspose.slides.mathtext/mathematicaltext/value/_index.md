@@ -1,6 +1,6 @@
 ---
 title: Value
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Valeur de texte
 type: docs
 weight: 30

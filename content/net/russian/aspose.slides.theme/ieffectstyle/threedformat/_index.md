@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes для .NET API Ссылка
-description: Возвращает 3D формат. Только для чтения IThreeDFormat aspose.slides/ithreedformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает 3D формат. Только для чтения IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ieffectstyle/threedformat/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/ieffectstyle/threedformat/
 public IThreeDFormat ThreeDFormat { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IThreeDFormat](../../../aspose.slides/ithreedformat)
 * интерфейс [IEffectStyle](../../ieffectstyle)

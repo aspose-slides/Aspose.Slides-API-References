@@ -1,6 +1,6 @@
 ---
 title: CreateMathParagraph
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Créer un paragraphe mathématique vide
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IMathParagraph CreateMathParagraph()
 
 nouveau paragraphe mathématique
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathParagraph](../../imathparagraph)
 * interface [IMathParagraphFactory](../../imathparagraphfactory)
@@ -30,7 +30,7 @@ nouveau paragraphe mathématique
 
 ## CreateMathParagraph(IMathBlock) {#createmathparagraph_1}
 
-Crée un paragraphe mathématique et place le bloc mathématique spécifié à l'intérieur
+Crée un paragraphe mathématique et place le bloc mathématique spécifié dedans
 
 ```csharp
 public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
@@ -44,7 +44,7 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 
 nouveau paragraphe mathématique
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathParagraph](../../imathparagraph)
 * interface [IMathBlock](../../imathblock)

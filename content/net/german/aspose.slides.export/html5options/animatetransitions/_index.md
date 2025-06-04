@@ -1,7 +1,7 @@
 ---
 title: AnimateTransitions
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Übergangsanimationsoption zurück oder setzt sie. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Option für Übergangsanimation zurück oder setzt sie. Lese-/Schreibbare Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/html5options/animatetransitions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/html5options/animatetransitions/
 
 ## Html5Options.AnimateTransitions-Eigenschaft
 
-Gibt die Übergangsanimationsoption zurück oder setzt sie. Lese-/Schreib-Boolean.
+Gibt die Option für Übergangsanimation zurück oder setzt sie. Lese-/Schreibbare Boolean.
 
 ```csharp
 public bool AnimateTransitions { get; set; }
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * class [Html5Options](../../html5options)
 * namespace [Aspose.Slides.Export](../../html5options)

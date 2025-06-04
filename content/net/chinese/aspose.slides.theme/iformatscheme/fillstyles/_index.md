@@ -1,7 +1,7 @@
 ---
 title: FillStyles
-second_title: Aspose.Slides for .NET API 参考
-description: 返回主题定义的填充样式集合。只读 IFillFormatCollection aspose.slides.theme/ifillformatcollection.
+second_title: Aspose.Slides for .NET API Reference
+description: 返回主题定义的填充样式集合。只读 IFillFormatCollectionaspose.slides.theme/ifillformatcollection。
 type: docs
 weight: 40
 url: /zh/aspose.slides.theme/iformatscheme/fillstyles/

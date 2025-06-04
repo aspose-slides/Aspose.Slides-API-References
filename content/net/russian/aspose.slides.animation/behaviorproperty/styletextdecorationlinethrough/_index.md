@@ -1,6 +1,6 @@
 ---
 title: StyleTextDecorationLineThrough
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slildes для .NET API Справочник
 description: Представляет свойство style.textDecorationLineThrough
 type: docs
 weight: 1130

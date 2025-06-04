@@ -1,7 +1,7 @@
 ---
 title: Hue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la teinte. Lecture seule Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la teinte. Lecture seule Simple.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/itinteffectivedata/hue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/itinteffectivedata/hue/
 
 ## Propriété ITintEffectiveData.Hue
 
-Retourne la teinte. Lecture seule Single.
+Renvoie la teinte. Lecture seule Simple.
 
 ```csharp
 public float Hue { get; }

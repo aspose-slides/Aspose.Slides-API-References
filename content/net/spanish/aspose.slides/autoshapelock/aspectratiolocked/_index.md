@@ -1,15 +1,15 @@
 ---
 title: AspectRatioLocked
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si una forma debe preservar la relación de aspecto al redimensionar. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si una forma debe preservar la relación de aspecto al redimensionarse. Booleano de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides/autoshapelock/aspectratiolocked/
 ---
 
-## AutoShapeLock.AspectRatioLocked propiedad
+## AutoShapeLock.AspectRatioLocked property
 
-Determina si una forma debe preservar la relación de aspecto al redimensionar. Booleano de lectura/escritura.
+Determina si una forma debe preservar la relación de aspecto al redimensionarse. Booleano de lectura/escritura.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }

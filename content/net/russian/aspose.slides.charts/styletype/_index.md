@@ -1,6 +1,6 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет стиль диаграммы.
 type: docs
 weight: 2350
@@ -17,7 +17,7 @@ public enum StyleType
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Style1 | `0` | Стиль 1 |
 | Style2 | `1` | Стиль 2 |
@@ -68,7 +68,7 @@ public enum StyleType
 | Style47 | `46` | Стиль 47 |
 | Style48 | `47` | Стиль 48 |
 
-### Смотрите Также
+### Также см.
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

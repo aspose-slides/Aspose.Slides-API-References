@@ -1,7 +1,7 @@
 ---
 title: SourceFont
-second_title: Aspose.Slides для .NET API Справочник
-description: Шрифт для замены. Только для чтения IFontData aspose.slides/ifontdata.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Шрифт для замены. Только для чтения IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/fontsubstrule/sourcefont/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fontsubstrule/sourcefont/
 public IFontData SourceFont { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFontData](../../ifontdata)
 * класс [FontSubstRule](../../fontsubstrule)

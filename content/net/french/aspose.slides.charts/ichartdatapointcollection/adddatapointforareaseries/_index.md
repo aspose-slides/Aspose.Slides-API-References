@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForAreaSeries
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Zone, voir aussi la méthode ChartTypeCharacterizer.IsChartTypeAreaChartType.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Zone, voir aussi la méthode ChartTypeCharacterizer.IsChartTypeAreaChartType.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaserie
 
 ## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Zone (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Zone (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
@@ -19,7 +19,7 @@ public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Valeur du point de données |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouveau point de données.
 
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForAreaSeries(double) {#adddatapointforareaseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont chartType est l'un des sous-types de Zone (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Zone (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeArea(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(double value)
@@ -45,7 +45,7 @@ public IChartDataPoint AddDataPointForAreaSeries(double value)
 | --- | --- | --- |
 | value | Double | Valeur du point de données |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouveau point de données.
 

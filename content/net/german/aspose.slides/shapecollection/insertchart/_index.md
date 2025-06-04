@@ -15,9 +15,9 @@ Erstellt ein neues Diagramm, initialisiert es mit Beispieldaten und Einstellunge
 public IChart InsertChart(ChartType type, float x, float y, float width, float height, int index)
 ```
 
-| Parameter | Typ | Beschreibung |
+| Parameter | Type | Beschreibung |
 | --- | --- | --- |
-| type | ChartType | Art des Diagramms. |
+| type | ChartType | Typ des Diagramms. |
 | x | Single | X-Koordinate eines neuen Diagramms. |
 | y | Single | Y-Koordinate eines neuen Diagramms. |
 | width | Single | Breite des Diagramms. |
@@ -47,15 +47,15 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
     bool initWithSample)
 ```
 
-| Parameter | Typ | Beschreibung |
+| Parameter | Type | Beschreibung |
 | --- | --- | --- |
-| type | ChartType | Art des Diagramms. |
+| type | ChartType | Typ des Diagramms. |
 | x | Single | X-Koordinate eines neuen Diagramms. |
 | y | Single | Y-Koordinate eines neuen Diagramms. |
 | width | Single | Breite des Diagramms. |
 | height | Single | Höhe des Diagramms. |
 | index | Int32 | Position des Diagramms in der Sammlung. |
-| initWithSample | Boolean | Wenn true, wird das neue Diagramm mit Beispieldaten und Einstellungen initialisiert. Wenn false, hat das neue Diagramm keine Serien und minimale Einstellungen. In diesem Fall wird die Diagrammerstellung schneller sein. |
+| initWithSample | Boolean | Wenn wahr, wird das neue Diagramm mit Beispieldaten und -einstellungen initialisiert. Wenn falsch, hat das neue Diagramm keine Datenreihen und minimale Einstellungen. In diesem Fall wird die Diagrammerstellung schneller erfolgen. |
 
 ### Rückgabewert
 

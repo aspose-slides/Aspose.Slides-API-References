@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Ajoute une nouvelle partie xml personnalisée.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icustomxmlpartcollection/add/
 ---
 
-## Ajouter(byte[]) {#add}
+## Add(byte[]) {#add}
 
 Ajoute une nouvelle partie xml personnalisée.
 
@@ -15,9 +15,9 @@ Ajoute une nouvelle partie xml personnalisée.
 public ICustomXmlPart Add(byte[] xmlData)
 ```
 
-| Paramètre | Type   | Description                                                       |
-| --------- | ------ | ----------------------------------------------------------------- |
-| xmlData   | Byte[] | Les données xml de la nouvelle partie à ajouter.                 |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| xmlData | Byte[] | Les données xml de la nouvelle partie à ajouter. |
 
 ### Valeur de retour
 
@@ -25,10 +25,10 @@ Partie xml personnalisée créée.
 
 ### Exceptions
 
-| exception             | condition                                |
-|----------------------|------------------------------------------|
-| ArgumentNullException | xmlData est `null`.                     |
-| ArgumentException     | xmlData est vide ou invalide.           |
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | xmlData est `null`. |
+| ArgumentException | xmlData est vide ou invalide. |
 
 ### Voir aussi
 
@@ -39,7 +39,7 @@ Partie xml personnalisée créée.
 
 ---
 
-## Ajouter(string) {#add_2}
+## Add(string) {#add_2}
 
 Ajoute une nouvelle partie xml personnalisée.
 
@@ -47,9 +47,9 @@ Ajoute une nouvelle partie xml personnalisée.
 public ICustomXmlPart Add(string xmlString)
 ```
 
-| Paramètre | Type    | Description                                                       |
-| --------- | ------- | ----------------------------------------------------------------- |
-| xmlString | String  | La chaîne xml de la nouvelle partie à ajouter.                   |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| xmlString | String | La chaîne xml de la nouvelle partie à ajouter. |
 
 ### Valeur de retour
 
@@ -57,10 +57,10 @@ Partie xml personnalisée créée.
 
 ### Exceptions
 
-| exception             | condition                                      |
-|----------------------|------------------------------------------------|
-| ArgumentNullException | xmlString est `null`.                          |
-| ArgumentException     | xmlString est vide ou les données xml sont invalides. |
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | xmlString est `null`. |
+| ArgumentException | xmlString est vide ou les données xml sont invalides. |
 
 ### Voir aussi
 
@@ -71,7 +71,7 @@ Partie xml personnalisée créée.
 
 ---
 
-## Ajouter(Stream) {#add_1}
+## Add(Stream) {#add_1}
 
 Ajoute une nouvelle partie xml personnalisée.
 
@@ -79,9 +79,9 @@ Ajoute une nouvelle partie xml personnalisée.
 public ICustomXmlPart Add(Stream inputStream)
 ```
 
-| Paramètre  | Type    | Description                                                       |
-|------------|---------|-------------------------------------------------------------------|
-| inputStream| Stream  | Le flux d'entrée contenant les données xml de la nouvelle partie à ajouter. |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| inputStream | Stream | Le flux d'entrée contenant les données xml de la nouvelle partie à ajouter. |
 
 ### Valeur de retour
 
@@ -89,10 +89,10 @@ Partie xml personnalisée créée.
 
 ### Exceptions
 
-| exception             | condition                                 |
-|----------------------|-------------------------------------------|
-| ArgumentNullException | inputStream est `null`.                  |
-| ArgumentException     | Les données dans inputStream sont vides ou invalides. |
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | inputStream est `null`. |
+| ArgumentException | Les données dans inputStream sont vides ou invalides. |
 
 ### Voir aussi
 

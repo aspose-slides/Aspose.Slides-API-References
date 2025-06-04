@@ -1,7 +1,7 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Slides für .NET API-Referenz
-description: System.Drawing.Image Wrapper für die COM-Schnittstelle.
+second_title: Aspose.Slides für .NET API Referenz
+description: System.Drawing.Image Wrapper für COM-Schnittstelle.
 type: docs
 weight: 7220
 url: /de/aspose.slides/imagewrapper/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imagewrapper/
 
 ## ImageWrapper-Klasse
 
-System.Drawing.Image Wrapper für die COM-Schnittstelle.
+System.Drawing.Image Wrapper für COM-Schnittstelle.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -26,12 +26,12 @@ public class ImageWrapper : IImageWrapper
 
 | Name | Beschreibung |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Gibt den ImageWrapper frei |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Dispose ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Speichert das Bild in der angegebenen Datei |
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Speichert das Bild im angegebenen Stream im angegebenen Format. |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Speichert das Bild in der angegebenen Datei im angegebenen Format. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IImageWrapper](../iimagewrapper)
 * Namespace [Aspose.Slides](../../aspose.slides)

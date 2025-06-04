@@ -1,7 +1,7 @@
 ---
 title: FirstRowIndex
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Index der ersten Reihe zurück, die von der Zelle abgedeckt wird. Nur-lesend Int32.
+description: Gibt den Index der ersten Zeile zurück, die von der Zelle abgedeckt wird. Nur-lesender Int32.
 type: docs
 weight: 80
 url: /de/aspose.slides/icell/firstrowindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icell/firstrowindex/
 
 ## ICell.FirstRowIndex-Eigenschaft
 
-Gibt den Index der ersten Reihe zurück, die von der Zelle abgedeckt wird. Nur-lesend Int32.
+Gibt den Index der ersten Zeile zurück, die von der Zelle abgedeckt wird. Nur-lesender Int32.
 
 ```csharp
 public int FirstRowIndex { get; }

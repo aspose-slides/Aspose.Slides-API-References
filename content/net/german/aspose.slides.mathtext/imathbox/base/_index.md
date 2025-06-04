@@ -1,13 +1,13 @@
 ---
 title: Base
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Basisargument
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathbox/base/
 ---
 
-## IMathBox.Base Eigenschaft
+## IMathBox.Base-Eigenschaft
 
 Basisargument
 

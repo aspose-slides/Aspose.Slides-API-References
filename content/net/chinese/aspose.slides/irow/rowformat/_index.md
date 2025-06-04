@@ -1,7 +1,7 @@
 ---
 title: RowFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回包含此行格式属性的 RowFormat 对象。只读 IRowFormataspose.slides/irowformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回包含该行格式属性的 RowFormat 对象。只读 IRowFormataspose.slides/irowformat。
 type: docs
 weight: 50
 url: /zh/aspose.slides/irow/rowformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/irow/rowformat/
 
 ## IRow.RowFormat 属性
 
-返回包含此行格式属性的 RowFormat 对象。只读 [`IRowFormat`](../../irowformat)。
+返回包含该行格式属性的 RowFormat 对象。只读 [`IRowFormat`](../../irowformat)。
 
 ```csharp
 public IRowFormat RowFormat { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IRowFormat](../../irowformat)
 * 接口 [IRow](../../irow)

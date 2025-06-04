@@ -1,7 +1,7 @@
 ---
 title: GetRect
-second_title: Références de l'API Aspose.Slides pour .NET
-description: Obtenez les coordonnées du rectangle qui délimite la portion. Le rectangle inclut toutes les lignes de texte de la portion, y compris celles vides.
+second_title: Aspose.Slides pour .NET Référence API
+description: Obtenez les coordonnées du rectangle qui entoure la portion. Le rectangle inclut toutes les lignes de texte dans la portion, y compris celles vides.
 type: docs
 weight: 70
 url: /fr/aspose.slides/portion/getrect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/portion/getrect/
 
 ## Méthode Portion.GetRect
 
-Obtenez les coordonnées du rectangle qui délimite la portion. Le rectangle inclut toutes les lignes de texte de la portion, y compris celles vides.
+Obtenez les coordonnées du rectangle qui entoure la portion. Le rectangle inclut toutes les lignes de texte dans la portion, y compris celles vides.
 
 ```csharp
 public RectangleF GetRect()
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Portion](../../portion)
 * espace de noms [Aspose.Slides](../../portion)

@@ -1,7 +1,7 @@
 ---
 title: GetImage
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Возвращает миниатюру фигуры. По умолчанию используется тип границ миниатюры фигуры ShapeThumbnailBounds.Shape.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает миниатюру фигуры. По умолчанию используется тип границ миниатюры ShapeThumbnailBounds.Shape.
 type: docs
 weight: 320
 url: /ru/aspose.slides/ishape/getimage/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishape/getimage/
 
 ## GetImage() {#getimage}
 
-Возвращает миниатюру фигуры. По умолчанию используется тип границ миниатюры фигуры ShapeThumbnailBounds.Shape.
+Возвращает миниатюру фигуры. По умолчанию используется тип границ миниатюры ShapeThumbnailBounds.Shape.
 
 ```csharp
 public IImage GetImage()
@@ -19,7 +19,7 @@ public IImage GetImage()
 
 Миниатюра фигуры.
 
-### См. также
+### Также смотри
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IShape](../../ishape)
@@ -44,9 +44,9 @@ public IImage GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
 
 ### Возвращаемое значение
 
-Миниатюра фигуры или null, если используется ShapeThumbnailBounds.Appearance и фигура не имеет видимых элементов.
+Миниатюра фигуры или null в случае, если используется ShapeThumbnailBounds.Appearance и фигура не имеет видимых элементов.
 
-### См. также
+### Также смотри
 
 * интерфейс [IImage](../../iimage)
 * перечисление [ShapeThumbnailBounds](../../shapethumbnailbounds)

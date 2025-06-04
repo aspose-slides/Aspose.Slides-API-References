@@ -1,6 +1,6 @@
 ---
 title: PathEditMode
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt an, wie sich der Bewegungsweg bewegt, wenn die Form verschoben wird. Lese-/Schreibzugriff auf MotionPathEditModeaspose.slides.animation/motionpatheditmode.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Gibt an, wie sich der Bewegungsweg bewegt, wenn die Form verschoben wird. Lese-/
 public MotionPathEditMode PathEditMode { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [MotionPathEditMode](../../motionpatheditmode)
 * interface [IMotionEffect](../../imotioneffect)

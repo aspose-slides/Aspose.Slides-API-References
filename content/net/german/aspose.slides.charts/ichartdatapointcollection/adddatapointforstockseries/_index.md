@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForStockSeries
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Stock-Untertypen ist, siehe auch die Methode ChartTypeCharacterizer.IsChartTypeStockChartType.
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Subtypen von Stock ist, siehe auch die Methode ChartTypeCharacterizer.IsChartTypeStockChartType.
 type: docs
 weight: 190
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforstockseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforstockseri
 
 ## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Stock-Untertypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Subtypen von Stock ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
@@ -17,7 +17,7 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | IChartDataCell | Wert des Datenpunkts. |
+| value | IChartDataCell | Datenpunktwert. |
 
 ### Rückgabewert
 
@@ -35,7 +35,7 @@ Neuer Datenpunkt.
 
 ## AddDataPointForStockSeries(double) {#adddatapointforstockseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Stock-Untertypen ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Subtypen von Stock ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeStock(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(double value)
@@ -43,7 +43,7 @@ public IChartDataPoint AddDataPointForStockSeries(double value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | Double | Wert des Datenpunkts. |
+| value | Double | Datenpunktwert. |
 
 ### Rückgabewert
 

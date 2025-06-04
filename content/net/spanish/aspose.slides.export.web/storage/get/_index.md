@@ -1,6 +1,6 @@
 ---
 title: Get
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: type docs
 weight: 30
 url: /es/aspose.slides.export.web/storage/get/
@@ -12,10 +12,10 @@ url: /es/aspose.slides.export.web/storage/get/
 public TValue Get<TValue>(string key)
 ```
 
-### Véase también
+### Ver También
 
 * clase [Storage](../../storage)
 * espacio de nombres [Aspose.Slides.Export.Web](../../storage)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

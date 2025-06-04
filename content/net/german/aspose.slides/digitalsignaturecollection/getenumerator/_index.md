@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 80
 url: /de/aspose.slides/digitalsignaturecollection/getenumerator/
 ---
 
-## DigitalSignatureCollection.GetEnumerator-Methode
+## DigitalSignatureCollection.GetEnumerator Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 
@@ -19,7 +19,7 @@ public IEnumerator<IDigitalSignature> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDigitalSignature](../../idigitalsignature)
 * Klasse [DigitalSignatureCollection](../../digitalsignaturecollection)

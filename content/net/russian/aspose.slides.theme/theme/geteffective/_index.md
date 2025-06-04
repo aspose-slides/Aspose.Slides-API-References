@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает эффективные данные темы с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает данные эффективной темы с примененным наследованием.
 type: docs
 weight: 50
 url: /ru/aspose.slides.theme/theme/geteffective/
 ---
 
-## Метод Theme.GetEffective
+## Theme.GetEffective метод
 
-Получает эффективные данные темы с примененным наследованием.
+Получает данные эффективной темы с примененным наследованием.
 
 ```csharp
 public IThemeEffectiveData GetEffective()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 [`IThemeEffectiveData`](../../ithemeeffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение эффективных свойств темы.
+Этот пример демонстрирует получение свойств эффективной темы.
 
 ```csharp
 [C#]
@@ -31,11 +31,11 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 
 	Console.WriteLine("Имя схемы шрифта: " + effectiveTheme.FontScheme.Name);
 	Console.WriteLine("Основной латинский шрифт: " + effectiveTheme.FontScheme.Major.LatinFont.FontName);
-	Console.WriteLine("Второстепенный латинский шрифт: " + effectiveTheme.FontScheme.Minor.LatinFont.FontName);
+	Console.WriteLine("Вторичный латинский шрифт: " + effectiveTheme.FontScheme.Minor.LatinFont.FontName);
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IThemeEffectiveData](../../ithemeeffectivedata)
 * класс [Theme](../../theme)

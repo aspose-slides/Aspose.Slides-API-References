@@ -1,15 +1,15 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Tipos de operador nario IMathNaryOperator excluyendo integrales Para integrales MathIntegralTypes./mathintegraltypes
+second_title: Referencia de API de Aspose.Slildes para .NET
+description: Tipos de operador n-ario IMathNaryOperator excluyendo integrales. Para integrales, consulte MathIntegralTypes../mathintegraltypes.
 type: docs
 weight: 8630
 url: /es/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 
-## Enumeración TiposDeOperadorNario
+## Enumeración MathNaryOperatorTypes
 
-Tipos de operador nario IMathNaryOperator (excluyendo integrales) Para integrales [`MathIntegralTypes`](../mathintegraltypes)
+Tipos de operador n-ario IMathNaryOperator (excluyendo integrales). Para integrales, consulte [`MathIntegralTypes`](../mathintegraltypes).
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -19,17 +19,17 @@ public enum MathNaryOperatorTypes
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Suma | `0` | Suma: '∑' |
-| Producto | `1` | Producto: '∏' |
-| CoProducto | `2` | Coproducto: '∐' |
-| Intersección | `3` | Intersección: '∩' |
-| Unión | `4` | Unión: '∪' |
-| YLogico | `5` | Y Lógico: '∧' |
-| OLogico | `6` | O Lógico: '∨' |
+| Summation | `0` | Suma: '∑' |
+| Product | `1` | Producto: '∏' |
+| CoProduct | `2` | Coproducto: '∐' |
+| Intersection | `3` | Intersección: '∩' |
+| Union | `4` | Unión: '∪' |
+| LogicalAnd | `5` | Y Lógico: '∧' |
+| LogicalOr | `6` | O Lógico: '∨' |
 
-### Véase También
+### Ver También
 
-* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

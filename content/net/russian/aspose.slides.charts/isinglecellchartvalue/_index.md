@@ -1,7 +1,7 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет ячейку данных графика.
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет ячейку данных диаграммы.
 type: docs
 weight: 2130
 url: /ru/aspose.slides.charts/isinglecellchartvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/isinglecellchartvalue/
 
 ## Интерфейс ISingleCellChartValue
 
-Представляет ячейку данных графика.
+Представляет ячейку данных диаграммы.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -19,7 +19,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Название | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных графика. Чтение/запись [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Возвращает или задает ячейку данных диаграммы. Чтение/запись [`IChartDataCell`](../ichartdatacell). |
 | [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения [`IBaseChartValue`](../ibasechartvalue). |
 
 ### См. также

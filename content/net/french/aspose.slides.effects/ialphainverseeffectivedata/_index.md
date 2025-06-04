@@ -1,7 +1,7 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Objet immutable qui représente un effet Inverse Alpha. Les valeurs d'opacité Alpha sont inversées en soustrayant de 100.
+second_title: Aspose.Sildes pour référence API .NET
+description: Objet immuable qui représente un effet Alpha Inverse. Les valeurs d'opacité Alpha sont inversées en soustrayant de 100.
 type: docs
 weight: 2990
 url: /fr/aspose.slides.effects/ialphainverseeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ialphainverseeffectivedata/
 
 ## Interface IAlphaInverseEffectiveData
 
-Objet immutable qui représente un effet Inverse Alpha. Les valeurs Alpha (opacité) sont inversées en soustrayant de 100%.
+Objet immuable qui représente un effet Alpha Inverse. Les valeurs Alpha (opacité) sont inversées en soustrayant de 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData

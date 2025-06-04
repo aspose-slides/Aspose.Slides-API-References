@@ -1,6 +1,6 @@
 ---
 title: Value
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Значение свойства
 type: docs
 weight: 1240

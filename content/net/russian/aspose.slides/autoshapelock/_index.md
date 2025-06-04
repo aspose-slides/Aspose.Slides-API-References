@@ -1,6 +1,6 @@
 ---
 title: AutoShapeLock
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, какие операции отключены для родительского AutoshapeEx.
 type: docs
 weight: 830
@@ -19,20 +19,20 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | Название | Описание |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Определяет, запрещена ли смена значений настройки. Читаемое/записываемое логическое значение. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Определяет, запрещена ли смена концов стрелок. Читаемое/записываемое логическое значение. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Читаемое/записываемое логическое значение. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Определяет, запрещена ли прямая смена контура этой фигуры. Читаемое/записываемое логическое значение. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Читаемое/записываемое логическое значение. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только для чтения логическое значение. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Читаемое/записываемое логическое значение. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Определяет, запрещена ли смена угла поворота этой фигуры. Читаемое/записываемое логическое значение. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этой фигуры. Читаемое/записываемое логическое значение. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Определяет, запрещена ли смена типа фигуры. Читаемое/записываемое логическое значение. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Читаемое/записываемое логическое значение. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Определяет, запрещено ли редактирование текста. Читаемое/записываемое логическое значение. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений регулировки. Boolean для чтения/записи. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение стрелок. Boolean для чтения/записи. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Определяет, должно ли сохраняться соотношение сторон при изменении размера фигуры. Boolean для чтения/записи. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой фигуры. Boolean для чтения/записи. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Boolean для чтения/записи. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Boolean только для чтения. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Boolean для чтения/записи. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Boolean для чтения/записи. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этой фигуры. Boolean для чтения/записи. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа фигуры. Boolean для чтения/записи. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Boolean для чтения/записи. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Определяет, запрещено ли редактирование текста. Boolean для чтения/записи. |
 
-### Смотрите также
+### См. Также
 
 * класс [BaseShapeLock](../baseshapelock)
 * интерфейс [IAutoShapeLock](../iautoshapelock)

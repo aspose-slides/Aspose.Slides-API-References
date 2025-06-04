@@ -1,7 +1,7 @@
 ---
 title: OverflowBin
-second_title: Aspose.Slides for .NET API 参考
-description: 指定溢出箱的自定义值。当 IsAutomaticOverflowBin 属性设置为 false 且 IsOverflowBin 属性为 true 时应用。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定溢出箱自定义值。当 IsAutomaticOverflowBin 属性设置为 false 且 IsOverflowBin 属性等于 true 时应用。
 type: docs
 weight: 460
 url: /zh/aspose.slides.charts/iaxis/overflowbin/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iaxis/overflowbin/
 
 ## IAxis.OverflowBin 属性
 
-指定溢出箱的自定义值。当 IsAutomaticOverflowBin 属性设置为 false 且 IsOverflowBin 属性为 true 时应用。
+指定溢出箱自定义值。当 IsAutomaticOverflowBin 属性设置为 false 且 IsOverflowBin 属性等于 true 时应用。
 
 ```csharp
 public double OverflowBin { get; set; }

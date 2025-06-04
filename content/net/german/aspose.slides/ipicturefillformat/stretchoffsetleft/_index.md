@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetLeft
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die linke Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Versatz von der linken Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Einschnitt an, während ein negativer Prozentsatz einen Überstand angibt. Lese-/Schreibzugriff auf Single.
+description: Gibt die linke Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Versatz von der linken Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt einen Innenabstand an, während ein negativer Prozentsatz einen Außenabstand angibt. Lesen/Schreiben Einfach.
 type: docs
 weight: 100
 url: /de/aspose.slides/ipicturefillformat/stretchoffsetleft/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformat/stretchoffsetleft/
 
 ## IPictureFillFormat.StretchOffsetLeft-Eigenschaft
 
-Gibt die linke Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Versatz von der linken Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Einschnitt an, während ein negativer Prozentsatz einen Überstand angibt. Lese-/Schreibzugriff auf Single.
+Gibt die linke Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Versatz von der linken Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt einen Innenabstand an, während ein negativer Prozentsatz einen Außenabstand angibt. Lesen/Schreiben Einfach.
 
 ```csharp
 public float StretchOffsetLeft { get; set; }

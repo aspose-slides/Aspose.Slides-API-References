@@ -7,7 +7,7 @@ weight: 190
 url: /zh/aspose.slides/lineformat/geteffective/
 ---
 
-## LineFormat.GetEffective方法
+## LineFormat.GetEffective 方法
 
 获取应用继承的有效线条格式数据。
 
@@ -17,11 +17,11 @@ public ILineFormatEffectiveData GetEffective()
 
 ### 返回值
 
-一个[`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
+一个 [`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
 
 ### 示例
 
-此示例演示如何获取形状的有效线条格式属性。
+此示例演示获取形状的有效线条格式属性。
 
 ```csharp
 [C#]

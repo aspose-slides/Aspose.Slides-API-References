@@ -1,15 +1,15 @@
 ---
 title: Transparency
-second_title: Référence API Aspose.Sildes pour .NET
-description: Obtient la transparence de la couleur de remplissage. Lire Single.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Obtient la transparence de la couleur de remplissage. Lecture Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icellformateffectivedata/transparency/
 ---
 
-## Propriété ICellFormatEffectiveData.Transparency
+## ICellFormatEffectiveData.Transparency property
 
-Obtient la transparence de la couleur de remplissage. Lire Single.
+Obtient la transparence de la couleur de remplissage. Lecture Single.
 
 ```csharp
 public float Transparency { get; }

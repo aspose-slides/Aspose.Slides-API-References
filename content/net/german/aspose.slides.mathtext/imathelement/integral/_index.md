@@ -1,15 +1,15 @@
 ---
 title: Integral
-second_title: Aspose.Slides für .NET API Referenz
-description: Nimmt das Integral
+second_title: Aspose.Slides für .NET API-Referenz
+description: Berechnet das Integral
 type: docs
 weight: 80
 url: /de/aspose.slides.mathtext/imathelement/integral/
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
-Nimmt das Integral
+Berechnet das Integral
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -18,10 +18,10 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Integrartyp |
+| integralType | MathIntegralTypes | Integraltyp |
 | lowerLimit | IMathElement | Untere Grenze des Integrals |
 | upperLimit | IMathElement | Obere Grenze des Integrals |
-| limitLocations | MathLimitLocations | Lage der Grenzen |
+| limitLocations | MathLimitLocations | Position der Grenzen |
 
 ### Rückgabewert
 
@@ -42,17 +42,17 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 ### Siehe Auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathIntegralTypes](../../mathintegraltypes)
-* Enum [MathLimitLocations](../../mathlimitlocations)
+* Aufzählung [MathIntegralTypes](../../mathintegraltypes)
+* Aufzählung [MathLimitLocations](../../mathlimitlocations)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
-Nimmt das Integral
+Berechnet das Integral
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement lowerLimit, 
@@ -61,7 +61,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, IMathElement l
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Integrartyp |
+| integralType | MathIntegralTypes | Integraltyp |
 | lowerLimit | IMathElement | Untere Grenze des Integrals |
 | upperLimit | IMathElement | Obere Grenze des Integrals |
 
@@ -84,7 +84,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 ### Siehe Auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathIntegralTypes](../../mathintegraltypes)
+* Aufzählung [MathIntegralTypes](../../mathintegraltypes)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
@@ -93,7 +93,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ## Integral(MathIntegralTypes) {#integral}
 
-Nimmt das Integral ohne Grenzen
+Berechnet das Integral ohne Grenzen
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType)
@@ -101,7 +101,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Integrartyp |
+| integralType | MathIntegralTypes | Integraltyp |
 
 ### Rückgabewert
 
@@ -120,16 +120,16 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 ### Siehe Auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathIntegralTypes](../../mathintegraltypes)
+* Aufzählung [MathIntegralTypes](../../mathintegraltypes)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
-Nimmt das Integral
+Berechnet das Integral
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -138,10 +138,10 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Integrartyp |
+| integralType | MathIntegralTypes | Integraltyp |
 | lowerLimit | String | Untere Grenze des Integrals |
 | upperLimit | String | Obere Grenze des Integrals |
-| limitLocations | MathLimitLocations | Lage der Grenzen |
+| limitLocations | MathLimitLocations | Position der Grenzen |
 
 ### Rückgabewert
 
@@ -160,17 +160,17 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 ### Siehe Auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathIntegralTypes](../../mathintegraltypes)
-* Enum [MathLimitLocations](../../mathlimitlocations)
+* Aufzählung [MathIntegralTypes](../../mathintegraltypes)
+* Aufzählung [MathLimitLocations](../../mathlimitlocations)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
 
 ---
 
-## Integral(MathIntegralTypes, string, string) {#integral_3}
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
-Nimmt das Integral
+Berechnet das Integral
 
 ```csharp
 public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLimit, 
@@ -179,7 +179,7 @@ public IMathNaryOperator Integral(MathIntegralTypes integralType, string lowerLi
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| integralType | MathIntegralTypes | Integrartyp |
+| integralType | MathIntegralTypes | Integraltyp |
 | lowerLimit | String | Untere Grenze des Integrals |
 | upperLimit | String | Obere Grenze des Integrals |
 
@@ -200,7 +200,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 ### Siehe Auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathIntegralTypes](../../mathintegraltypes)
+* Aufzählung [MathIntegralTypes](../../mathintegraltypes)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)

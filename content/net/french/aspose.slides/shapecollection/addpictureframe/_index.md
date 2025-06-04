@@ -1,13 +1,13 @@
 ---
 title: AddPictureFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Crée un nouveau PictureFrame et l'ajoute à la fin de la collection.
 type: docs
 weight: 160
 url: /fr/aspose.slides/shapecollection/addpictureframe/
 ---
 
-## Méthode ShapeCollection.AddPictureFrame
+## ShapeCollection.AddPictureFrame méthode
 
 Crée un nouveau PictureFrame et l'ajoute à la fin de la collection.
 
@@ -18,18 +18,18 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| shapeType | ShapeType | La forme contenue dans l'ensemble [`ShapeType`](../../shapetype) de formes, sauf tous types de lignes : |
+| shapeType | ShapeType | La forme contenue dans l'ensemble [`ShapeType`](../../shapetype) de formes, sauf tous les types de lignes : |
 | x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 | image | IPPImage | L'image du cadre photo. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet PictureFrame créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPictureFrame](../../ipictureframe)
 * enum [ShapeType](../../shapetype)

@@ -1,29 +1,29 @@
 ---
 title: SetGeometryPath
-second_title: Aspose.Slides für .NET API-Referenz
-description: Aktualisiert die Formgeometrie aus einem IGeometryPathaspose.slides/igeometrypath-Objekt. Die Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ShapeTypeaspose.slides/igeometryshape/shapetype auf Benutzerdefiniert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Aktualisiert die Formgeometrie aus dem IGeometryPathaspose.slides/igeometrypath Objekt. Die Koordinaten müssen relativ zur oberen linken Ecke der Form sein. Ändert den Typ der Form ShapeTypeaspose.slides/igeometryshape/shapetype in Benutzerdefiniert.
 type: docs
 weight: 70
 url: /de/aspose.slides/igeometryshape/setgeometrypath/
 ---
 
-## IGeometryShape.SetGeometryPath-Methode
+## IGeometryShape.SetGeometryPath Methode
 
-Aktualisiert die Formgeometrie aus einem [`IGeometryPath`](../../igeometrypath)-Objekt. Die Koordinaten müssen relativ zur linken oberen Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](../shapetype)) auf Benutzerdefiniert.
+Aktualisiert die Formgeometrie aus dem [`IGeometryPath`](../../igeometrypath) Objekt. Die Koordinaten müssen relativ zur oberen linken Ecke der Form sein. Ändert den Typ der Form ([`ShapeType`](../shapetype)) in Benutzerdefiniert.
 
 ```csharp
 public void SetGeometryPath(IGeometryPath geometryPath)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| geometryPath | IGeometryPath | Geometriepfad |
+| Parameter    | Typ            | Beschreibung        |
+|--------------|----------------|---------------------|
+| geometryPath | IGeometryPath  | Geometriepfad      |
 
 ### Ausnahmen
 
-| Ausnahme | Bedingung |
-| --- | --- |
-| ArgumentException | Kein Pfad gefunden |
+| Ausnahme         | Bedingung          |
+|------------------|--------------------|
+| ArgumentException | Kein Pfad gefunden  |
 | ArgumentException | Leerer Pfad gefunden |
 
 ### Beispiele

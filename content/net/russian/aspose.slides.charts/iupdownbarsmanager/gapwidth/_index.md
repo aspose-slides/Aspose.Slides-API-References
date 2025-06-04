@@ -1,7 +1,7 @@
 ---
 title: GapWidth
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает или устанавливает ширину промежутка. Чтение/запись Int32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает ширину промежутка. Чтение/запись Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/iupdownbarsmanager/gapwidth/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/iupdownbarsmanager/gapwidth/
 
 ## IUpDownBarsManager.GapWidth свойство
 
-Возвращает или устанавливает ширину промежутка. Чтение/запись Int32.
+Возвращает или задает ширину промежутка. Чтение/запись Int32.
 
 ```csharp
 public int GapWidth { get; set; }

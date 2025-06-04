@@ -1,7 +1,7 @@
 ---
 title: AsCells
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von Diagrammzellen zurück oder setzt sie. Lese-/schreibbare IChartCellCollectionaspose.slides.charts/ichartcellcollection.
+description: Gibt die Sammlung von Diagrammzellen zurück oder legt sie fest. Lese-/Schreibzugriff auf IChartCellCollectionaspose.slides.charts/ichartcellcollection.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/imultiplecellchartvalue/ascells/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/imultiplecellchartvalue/ascells/
 
 ## IMultipleCellChartValue.AsCells-Eigenschaft
 
-Gibt die Sammlung von Diagrammzellen zurück oder setzt sie. Lese-/schreibbar [`IChartCellCollection`](../../ichartcellcollection).
+Gibt die Sammlung von Diagrammzellen zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IChartCellCollection`](../../ichartcellcollection).
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Die Zuweisung eines Nullwerts ist nicht zulässig.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartCellCollection](../../ichartcellcollection)
 * Schnittstelle [IMultipleCellChartValue](../../imultiplecellchartvalue)

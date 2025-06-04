@@ -1,13 +1,13 @@
 ---
 title: LatinLineBreak
 second_title: Справка по API Aspose.Slides для .NET
-description: Определяет, используется ли латинский перенос строки в абзаце. Чтение/запись NullableBoolaspose.slides/nullablebool.
+description: Определяет, используется ли латинский перенос строки в абзаце. Чтение/запись NullableBool aspose.slides/nullablebool.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/ichartparagraphformat/latinlinebreak/
 ---
 
-## Свойство IChartParagraphFormat.LatinLineBreak
+## IChartParagraphFormat.LatinLineBreak свойство
 
 Определяет, используется ли латинский перенос строки в абзаце. Чтение/запись [`NullableBool`](../../../aspose.slides/nullablebool).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartparagraphformat/latinlinebreak/
 public NullableBool LatinLineBreak { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IChartParagraphFormat](../../ichartparagraphformat)

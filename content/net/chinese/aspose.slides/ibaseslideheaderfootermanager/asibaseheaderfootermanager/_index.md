@@ -1,15 +1,15 @@
 ---
 title: AsIBaseHeaderFooterManager
-second_title: Aspose.Slides for .NET API参考
-description: 返回IBaseHeaderFooterManager接口。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回 IBaseHeaderFooterManager 接口。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager/
 ---
 
-## IBaseSlideHeaderFooterManager.AsIBaseHeaderFooterManager属性
+## IBaseSlideHeaderFooterManager.AsIBaseHeaderFooterManager 属性
 
-返回IBaseHeaderFooterManager接口。
+返回 IBaseHeaderFooterManager 接口。
 
 ```csharp
 public IBaseHeaderFooterManager AsIBaseHeaderFooterManager { get; }
@@ -17,9 +17,9 @@ public IBaseHeaderFooterManager AsIBaseHeaderFooterManager { get; }
 
 ### 备注
 
-用于COM兼容性。
+用于 COM 兼容性。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBaseHeaderFooterManager](../../ibaseheaderfootermanager)
 * 接口 [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)

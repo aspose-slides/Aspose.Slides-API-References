@@ -1,15 +1,15 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示可用于管理 BLOB 处理规则和其他 BLOB 设置的选项。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示用于管理 BLOB 处理规则和其他 BLOB 设置的选项。
 type: docs
 weight: 950
 url: /zh/aspose.slides/blobmanagementoptions/
 ---
 
-## BlobManagementOptions 类
+## BlobManagementOptions class
 
-表示可用于管理 BLOB 处理规则和其他 BLOB 设置的选项。
+表示用于管理 BLOB 处理规则和其他 BLOB 设置的选项。
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -19,18 +19,18 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | 创建新的默认 blob 管理选项。 |
+| [BlobManagementOptions](blobmanagementoptions)() | 创建新的默认 BLOB 管理选项。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | 此属性定义在处理 BLOB 时是否可以创建临时文件，这大大减少了内存消耗，但需要创建文件的权限。所有文件将在演示文稿工作完成后被删除。 |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 定义所有 BLOB 在内存中可以占用的最大字节数。首先，所有 BLOB 将作为默认行为加载到内存中，只有当达到此属性定义的限制时，才可以采用其他机制（如临时文件）。从性能角度来看，最有效的方式是将 BLOB 存储在内存中，但另一方面，这会导致高内存消耗，这是可能不希望的。使用此属性，您可以为您的环境或其他要求设置最佳行为。如果 [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) 设置为 false，则此属性将被忽略。限制内存中最大 BLOB 数没有意义，因为如果 [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) 设置为 false，内存是唯一可以存储 BLOB 的地方。默认值为 629,145,600 字节（600MB）。 |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | 此属性定义在实例生命周期内 Presentation 类的实例是否可以拥有源 - 文件或流。如果实例是所有者，则会锁定源。这有助于在处理 BLOB 时改善内存消耗和性能，但在 Presentation 实例生命周期内源（流或文件）不能被更改。 |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 将创建临时文件的根路径。默认情况下将使用系统临时目录。托管过程应具有在此处创建文件和文件夹的权限。 |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | 此属性定义在处理 BLOB 时是否可以创建临时文件，这大大减少了内存消耗，但需要创建文件的权限。所有文件将在处理演示文稿后被删除。 |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 定义所有 BLOB 在内存中占用的最大量（以字节为单位）。首先，所有 BLOB 按默认行为加载到内存中，仅当达到此属性定义的限制时，才可以使用其他机制（如临时文件）。在性能方面，最有效的方式是将 BLOB 存储在内存中，但这会导致高内存消耗，这是不希望的。使用此属性，您可以为您的环境或其他要求设置最佳行为。如果 [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) 设置为 false，此属性将被忽略。限制内存中的最大 BLOB 是没有意义的，因为如果 [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) 设置为 false，内存是唯一可以存储 BLOB 的地方。默认值为 629,145,600 字节（600Mb）。 |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | 此属性定义在实例生命周期内，Presentation 类的实例是否可以是源文件或流的所有者。如果该实例是所有者，则会锁定源。这有助于改善处理 BLOB 时的内存消耗和性能，但在 Presentation 实例生命周期内，源（流或文件）不能更改。 |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 临时文件将被创建的根路径。默认情况下将使用系统临时目录。托管过程应具有在此处创建文件和文件夹的权限。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBlobManagementOptions](../iblobmanagementoptions)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

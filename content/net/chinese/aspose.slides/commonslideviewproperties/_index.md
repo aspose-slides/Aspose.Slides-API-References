@@ -1,15 +1,15 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示常见的幻灯片视图属性。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示常见幻灯片视图属性。
 type: docs
 weight: 2570
 url: /zh/aspose.slides/commonslideviewproperties/
 ---
 
-## CommonSlideViewProperties 类
+## CommonSlideViewProperties class
 
-表示常见的幻灯片视图属性。
+表示常见幻灯片视图属性。
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -20,8 +20,8 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 | 名称 | 描述 |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | 返回绘图指南的集合。只读 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | 指定视图缩放比例（以百分比表示）。可读写 Int32。 |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | 指定视图内容应自动缩放以最佳适应当前窗口大小。可读写 Boolean。 |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | 指定视图缩放比率，以百分比表示。读/写 Int32。 |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | 指定视图内容应自动缩放，以最佳适应当前窗口大小。读/写 Boolean。 |
 
 ### 示例
 
@@ -29,7 +29,7 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 ```csharp
 [C#]
-// 创建一个代表演示文稿文件的 Presentation 对象
+// 实例化一个表示演示文稿文件的 Presentation 对象
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
     // 设置演示文稿的视图属性
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ICommonSlideViewProperties](../icommonslideviewproperties)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

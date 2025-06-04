@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+description: Permite obtener la interfaz base IAccessiblePVIObject. Solo de lectura IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/iblur/asiaccessiblepviobject/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/iblur/asiaccessiblepviobject/
 
 ## Propiedad IBlur.AsIAccessiblePVIObject
 
-Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Permite obtener la interfaz base IAccessiblePVIObject. Solo de lectura [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IBlurEffectiveData> AsIAccessiblePVIObject { get; }

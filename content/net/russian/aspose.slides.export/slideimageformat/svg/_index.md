@@ -1,15 +1,15 @@
 ---
 title: Svg
-second_title: Справка по API Aspose.Slides для .NET
-description: Слайды должны быть конвертированы в формат SVG.
+second_title: Aspose.Slides для .NET API Справочник
+description: Презентации должны быть преобразованы в формат SVG.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/slideimageformat/svg/
 ---
 
-## Метод SlideImageFormat.Svg
+## SlideImageFormat.Svg метод
 
-Слайды должны быть конвертированы в формат SVG.
+Презентации должны быть преобразованы в формат SVG.
 
 ```csharp
 public static SlideImageFormat Svg(SVGOptions options)
@@ -19,7 +19,7 @@ public static SlideImageFormat Svg(SVGOptions options)
 | --- | --- | --- |
 | options | SVGOptions | Параметры для экспорта в SVG. |
 
-### Смотрите также
+### См. также
 
 * класс [SVGOptions](../../svgoptions)
 * класс [SlideImageFormat](../../slideimageformat)

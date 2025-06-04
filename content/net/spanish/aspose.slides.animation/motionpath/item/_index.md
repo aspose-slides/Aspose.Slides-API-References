@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un comando en el índice especificado.
 type: docs
 weight: 30
 url: /es/aspose.slides.animation/motionpath/item/
 ---
 
-## Indexador de MotionPath
+## Indexador MotionPath
 
 Devuelve un comando en el índice especificado.
 
@@ -24,6 +24,6 @@ public IMotionCmdPath this[int index] { get; }
 * interfaz [IMotionCmdPath](../../imotioncmdpath)
 * clase [MotionPath](../../motionpath)
 * espacio de nombres [Aspose.Slides.Animation](../../motionpath)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

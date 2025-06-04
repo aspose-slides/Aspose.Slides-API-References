@@ -1,7 +1,7 @@
 ---
 title: Alignment
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Textausrichtung in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff auf TextAlignmentaspose.slides/textalignment.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Textausrichtung in einem Absatz zurück oder legt sie fest. Lese-/Schreibzugriff auf TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartparagraphformat/alignment/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartparagraphformat/alignment/
 
 ## IChartParagraphFormat.Alignment-Eigenschaft
 
-Gibt die Textausrichtung in einem Absatz zurück oder setzt sie. Lese-/Schreibzugriff auf [`TextAlignment`](../../../aspose.slides/textalignment).
+Gibt die Textausrichtung in einem Absatz zurück oder legt sie fest. Lese-/Schreibzugriff auf [`TextAlignment`](../../../aspose.slides/textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TextAlignment](../../../aspose.slides/textalignment)
 * interface [IChartParagraphFormat](../../ichartparagraphformat)

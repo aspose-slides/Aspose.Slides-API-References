@@ -1,6 +1,6 @@
 ---
 title: AddPictureFrame
-second_title: Aspose.Slides для .NET - Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новый PictureFrame и добавляет его в конец коллекции.
 type: docs
 weight: 130
@@ -19,17 +19,17 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | shapeType | ShapeType | Фигура, содержащаяся в наборе [`ShapeType`](../../shapetype) фигур, за исключением всех видов линий: |
-| x | Single | Координата X для левой стороны рамки фигуры. |
-| y | Single | Координата Y для верхней стороны рамки фигуры. |
+| x | Single | X-координата для левой стороны рамки фигуры. |
+| y | Single | Y-координата для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| image | IPPImage | Изображение рамки. |
+| image | IPPImage | Изображение рамки картинки. |
 
 ### Возвращаемое значение
 
 Созданный объект PictureFrame.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IPictureFrame](../../ipictureframe)
 * перечисление [ShapeType](../../shapetype)

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un objeto TableFormat.FillFormat que contiene el formato de relleno para la tabla. Solo lectura IFillFormataspose.slides/ifillformat.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve un objeto TableFormat.FillFormat que contiene el formato de relleno para la Tabla. Solo lectura IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20
 url: /es/aspose.slides/table/fillformat/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/table/fillformat/
 
 ## Propiedad Table.FillFormat
 
-Devuelve un objeto TableFormat.FillFormat que contiene el formato de relleno para la tabla. Solo lectura [`IFillFormat`](../../ifillformat).
+Devuelve un objeto TableFormat.FillFormat que contiene el formato de relleno para la Tabla. Solo lectura [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public override IFillFormat FillFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IFillFormat](../../ifillformat)
 * clase [Table](../../table)

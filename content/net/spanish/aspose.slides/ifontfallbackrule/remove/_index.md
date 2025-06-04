@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Elimina la primera ocurrencia de una fuente de FallBack específica de la lista.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Elimina la primera ocurrencia de una fuente FallBack específica de la lista.
 type: docs
 weight: 80
 url: /es/aspose.slides/ifontfallbackrule/remove/
 ---
 
-## Método IFontFallBackRule.Remove
+## IFontFallBackRule.Remove método
 
-Elimina la primera ocurrencia de una fuente de FallBack específica de la lista.
+Elimina la primera ocurrencia de una fuente FallBack específica de la lista.
 
 ```csharp
 public void Remove(string fontName)
@@ -17,7 +17,7 @@ public void Remove(string fontName)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| fontName | String | El nombre de la fuente a eliminar de la lista. |
+| fontName | String | El nombre de la fuente que se desea eliminar de la lista. |
 
 ### Ejemplos
 
@@ -26,11 +26,11 @@ public void Remove(string fontName)
 // Crear una regla que contiene una lista de fuentes.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// Eliminando Tahoma de la lista
+// Eliminación de Tahoma de la lista
 newRule.Remove ("Tahoma");
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IFontFallBackRule](../../ifontfallbackrule)
 * espacio de nombres [Aspose.Slides](../../ifontfallbackrule)

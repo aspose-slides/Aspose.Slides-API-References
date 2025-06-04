@@ -1,7 +1,7 @@
 ---
 title: AddTemplate
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt die Vorlage der Vorlagenkollektion hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt die Vorlage zur Vorlagenkollektion hinzu.
 type: docs
 weight: 10
 url: /de/aspose.slides.export.web/itemplateengine/addtemplate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export.web/itemplateengine/addtemplate/
 
 ## ITemplateEngine.AddTemplate-Methode
 
-Fügt die Vorlage der Vorlagenkollektion hinzu.
+Fügt die Vorlage zur Vorlagenkollektion hinzu.
 
 ```csharp
 public void AddTemplate(string key, string template, Type modelType)
@@ -18,10 +18,10 @@ public void AddTemplate(string key, string template, Type modelType)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | key | String | Schlüssel für die Vorlage in der Vorlagenkollektion. |
-| template | String | Inhalt der Vorlage. |
+| template | String | Vorlageninhalt. |
 | modelType | Type | Typ eines Modellobjekts für die Vorlage. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITemplateEngine](../../itemplateengine)
 * Namespace [Aspose.Slides.Export.Web](../../itemplateengine)

@@ -1,7 +1,7 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection de règles FontFallBack définies par l'utilisateur
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente une collection de règles de FontFallBack définies par l'utilisateur
 type: docs
 weight: 5660
 url: /fr/aspose.slides/ifontfallbackrulescollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifontfallbackrulescollection/
 
 ## Interface IFontFallBackRulesCollection
 
-Représente une collection de règles FontFallBack, définies par l'utilisateur
+Représente une collection de règles de FontFallBack, définies par l'utilisateur
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -19,16 +19,16 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Obtient la règle à l'index spécifié. Lecture seule [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | Obtient la règle à l'index spécifié. En lecture seule [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Ajoute une nouvelle règle FallBack à la fin de la collection. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Supprime la première occurrence d'une règle FallBack spécifique de la collection. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Ajoute une nouvelle règle de FallBack à la fin de la collection. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Supprime la première occurrence d'une règle de FallBack spécifique de la collection. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IFontFallBackRule](../ifontfallbackrule)

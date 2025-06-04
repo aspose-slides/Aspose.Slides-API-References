@@ -7,7 +7,7 @@ weight: 2690
 url: /zh/aspose.slides/digitalsignaturecollection/
 ---
 
-## DigitalSignatureCollection 类
+## DigitalSignatureCollection class
 
 表示附加到文档的数字签名集合。
 
@@ -19,9 +19,9 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | 返回集合中元素的数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否经过同步（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | 通过索引返回签名。 |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | 返回集合中的元素数。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否是同步的（线程安全）。只读 Boolean。 |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | 根据索引返回签名。 |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
@@ -31,10 +31,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | 将签名添加到集合末尾。 |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | 从集合中删除所有签名。 |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | 返回一个枚举器，遍历集合。 |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | 返回一个枚举器，用于迭代集合。 |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | 删除指定索引处的签名。 |
 
-### 另请参阅
+### 另请参见
 
 * class [DomObject&lt;TParent&gt;](../domobject-1)
 * class [Presentation](../presentation)

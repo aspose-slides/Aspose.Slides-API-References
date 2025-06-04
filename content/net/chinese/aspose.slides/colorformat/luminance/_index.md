@@ -1,7 +1,7 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置 HSL 表示中颜色的亮度组件。所有颜色转换都被忽略。可读/可写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 HSL 表示中颜色的亮度分量。所有颜色转换都被忽略。可读/可写单精度浮点数。
 type: docs
 weight: 100
 url: /zh/aspose.slides/colorformat/luminance/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/colorformat/luminance/
 
 ## ColorFormat.Luminance 属性
 
-返回或设置 HSL 表示中颜色的亮度组件。所有颜色转换都被忽略。可读/可写 Single。
+返回或设置 HSL 表示中颜色的亮度分量。所有颜色转换都被忽略。可读/可写单精度浮点数。
 
 ```csharp
 public float Luminance { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [ColorFormat](../../colorformat)
 * namespace [Aspose.Slides](../../colorformat)

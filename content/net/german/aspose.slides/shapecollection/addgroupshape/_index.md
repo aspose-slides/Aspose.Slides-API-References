@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues GroupShape und fügt es am Ende der Sammlung hinzu. Die Größe und Position des GroupShape-Rahmens werden an den Inhalt angepasst, wenn eine neue Form in das GroupShape hinzugefügt wird.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt eine neue GroupShape und fügt sie am Ende der Sammlung hinzu. Die Größe und Position des GroupShape-Rahmens werden an den Inhalt angepasst, wenn eine neue Form in das GroupShape hinzugefügt wird.
 type: docs
 weight: 130
 url: /de/aspose.slides/shapecollection/addgroupshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/addgroupshape/
 
 ## AddGroupShape() {#addgroupshape}
 
-Erstellt ein neues GroupShape und fügt es am Ende der Sammlung hinzu. Die Größe und Position des GroupShape-Rahmens werden an den Inhalt angepasst, wenn eine neue Form in das GroupShape hinzugefügt wird.
+Erstellt eine neue GroupShape und fügt sie am Ende der Sammlung hinzu. Die Größe und Position des GroupShape-Rahmens werden an den Inhalt angepasst, wenn eine neue Form in das GroupShape hinzugefügt wird.
 
 ```csharp
 public IGroupShape AddGroupShape()
@@ -21,27 +21,27 @@ Erstelltes GroupShape-Objekt.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man eine Gruppierung von Formen zu einer Folie einer PowerPoint-Präsentation hinzufügt.
+Das folgende Beispiel zeigt, wie man eine Gruppenform zu einer Folie der PowerPoint-Präsentation hinzufügt.
 
 ```csharp
 [C#]
-// Instanziieren der Präsentation-Klasse
+// Präsentation-Klasse instanziieren
 using (Presentation pres = new Presentation())
 {
-    // Erhalten der ersten Folie
+    // Die erste Folie abrufen
     ISlide sld = pres.Slides[0];
     // Zugriff auf die Formensammlung der Folien
     IShapeCollection slideShapes = sld.Shapes;
-    // Hinzufügen einer Gruppierung von Formen zur Folie
+    // Eine Gruppenform zur Folie hinzufügen
     IGroupShape groupShape = slideShapes.AddGroupShape();
-    // Hinzufügen von Formen innerhalb der hinzugefügten Gruppe
+    // Formen innerhalb der hinzugefügten Gruppenform hinzufügen
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
-    // Hinzufügen des Rahmens für die Gruppierung
+    // Gruppenformrahmen hinzufügen
     groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
-    // Speichern der PPTX-Datei auf der Festplatte
+    // Die PPTX-Datei auf der Festplatte speichern
     pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation())
 
 ## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
 
-Erstellt ein neues GroupShape, füllt es mit konvertierten Formen aus SVG und fügt es am Ende der Sammlung hinzu.
+Erstellt eine neue GroupShape, füllt sie mit konvertierten Formen aus SVG und fügt sie am Ende der Sammlung hinzu.
 
 ```csharp
 public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
@@ -66,10 +66,10 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | svgImage | ISvgImage | Svg-Bildobjekt [`ISvgImage`](../../isvgimage) |
-| x | Single | Die X-Koordinate für die linke Seite des Formgruppenrahmens. |
-| y | Single | Die Y-Koordinate für die obere Seite des Formgruppenrahmens. |
-| width | Single | Die Breite der Gruppe des Formgruppenrahmens. |
-| height | Single | Die Höhe einer Gruppe des Formgruppenrahmens. |
+| x | Single | Die X-Koordinate für die linke Seite des Gruppenformrahmens. |
+| y | Single | Die Y-Koordinate für die obere Seite des Gruppenformrahmens. |
+| width | Single | Die Breite der Gruppe des Gruppenformrahmens. |
+| height | Single | Die Höhe einer Gruppe des Gruppenformrahmens. |
 
 ### Rückgabewert
 

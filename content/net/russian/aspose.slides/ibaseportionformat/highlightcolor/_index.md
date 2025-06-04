@@ -1,15 +1,15 @@
 ---
 title: HighlightColor
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает цвет, используемый для выделения текста. Наследование не применяется. Свойство только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает цвет, используемый для выделения текста. Наследование не применяется. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ibaseportionformat/highlightcolor/
 ---
 
-## Свойство IBasePortionFormat.HighlightColor
+## IBasePortionFormat.HighlightColor свойство
 
-Возвращает цвет, используемый для выделения текста. Наследование не применяется. Свойство только для чтения [`IColorFormat`](../../icolorformat).
+Возвращает цвет, используемый для выделения текста. Наследование не применяется. Только для чтения [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat HighlightColor { get; }

@@ -15,10 +15,10 @@ Determina si se prohíbe cambiar los valores de ajuste. Booleano de lectura/escr
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [IConnectorLock](../../iconnectorlock)
-* espacio de nombres [Aspose.Slides](../../iconnectorlock)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IConnectorLock](../../iconnectorlock)
+* espacio de nombres [Aspose.Slides](../../iconnectorlock)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

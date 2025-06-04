@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la valeur automatique du compartiment d'underflow. Si faux, utilisez la propriété UnderflowBin.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie la valeur du compartiment de sous-flux automatique. Si faux, utilisez la propriété UnderflowBin.
 type: docs
 weight: 250
 url: /fr/aspose.slides.charts/iaxis/isautomaticunderflowbin/
 ---
 
-## Propriété IAxis.IsAutomaticUnderflowBin
+## IAxis.IsAutomaticUnderflowBin property
 
-Spécifie la valeur automatique du compartiment d'underflow. Si faux : utilisez la propriété UnderflowBin.
+Spécifie la valeur du compartiment de sous-flux automatique. Si faux : utilisez la propriété UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }

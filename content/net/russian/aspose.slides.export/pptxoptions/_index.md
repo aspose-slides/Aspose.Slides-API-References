@@ -1,7 +1,7 @@
 ---
 title: PptxOptions
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет собой параметры для сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет параметры для сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
 weight: 4180
 url: /ru/aspose.slides.export/pptxoptions/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/pptxoptions/
 
 ## Класс PptxOptions
 
-Представляет собой параметры для сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Представляет параметры для сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public sealed class PptxOptions : SaveOptions, IPptxOptions
@@ -25,16 +25,16 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | Название | Описание |
 | --- | --- |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию: Ecma376_2006 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый, если исходный шрифт не найден. Чтение-запись String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Чтение/запись [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления состояния сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Указывает, будет ли обновлен миниатюра презентации. Чтение/запись Boolean. Значение по умолчанию: **true**. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Чтение/запись Boolean. Значение по умолчанию: **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, будет ли продолжен процесс загрузки или отменен. Чтение/запись [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию: IfNecessary |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Указывает на класс соответствия, которому соответствует документ Презентации. Значение по умолчанию - Ecma376_2006 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае отсутствия исходного шрифта. Читаемое и записываемое значение String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемое и записываемое значение [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновлений прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | Определяет, будет ли обновлен миниатюра презентации. Читаемое и записываемое значение Boolean. Значение по умолчанию - **true**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Определяет, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемое и записываемое значение Boolean. Значение по умолчанию - **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Читаемое и записываемое значение [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Определяет, используется ли формат ZIP64 для документа Презентации. Значение по умолчанию - IfNecessary |
 
-### Смотрите также
+### Дополнительно
 
 * класс [SaveOptions](../saveoptions)
 * интерфейс [IPptxOptions](../ipptxoptions)

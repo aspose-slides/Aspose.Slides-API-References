@@ -7,7 +7,7 @@ weight: 60
 url: /de/aspose.slides/controlpropertiescollection/getenumerator/
 ---
 
-## ControlPropertiesCollection.GetEnumerator Methode
+## ControlPropertiesCollection.GetEnumerator-Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 
@@ -19,7 +19,7 @@ public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ControlPropertiesCollection](../../controlpropertiescollection)
 * Namespace [Aspose.Slides](../../controlpropertiescollection)

@@ -1,6 +1,6 @@
 ---
 title: HideAtShowing
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si un AudioFrame está oculto. Booleano de lectura/escritura.
 type: docs
 weight: 90

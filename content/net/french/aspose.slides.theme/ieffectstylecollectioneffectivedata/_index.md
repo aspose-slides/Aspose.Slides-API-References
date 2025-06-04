@@ -1,7 +1,7 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immutable qui représente une collection en lecture seule de styles d'effet efficaces.
+second_title: Aspose.Slidess pour .NET API Reference
+description: Objet immuable qui représente une collection en lecture seule de styles d'effet effectifs.
 type: docs
 weight: 10880
 url: /fr/aspose.slides.theme/ieffectstylecollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 
 ## Interface IEffectStyleCollectionEffectiveData
 
-Objet immutable qui représente une collection en lecture seule de styles d'effet efficaces.
+Objet immuable qui représente une collection en lecture seule de styles d'effet effectifs.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -23,9 +23,9 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 ### Remarques
 
-Cette interface est utilisée comme partie de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Cette interface est utilisée comme une partie de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [IEffectStyleEffectiveData](../ieffectstyleeffectivedata)

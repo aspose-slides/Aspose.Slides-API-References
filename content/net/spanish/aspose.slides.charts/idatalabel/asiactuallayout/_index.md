@@ -1,13 +1,13 @@
 ---
 title: AsIActualLayout
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la interfaz IActualLayout.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/idatalabel/asiactuallayout/
 ---
 
-## Propiedad IDataLabel.AsIActualLayout
+## IDataLabel.AsIActualLayout propiedad
 
 Devuelve la interfaz IActualLayout.
 
@@ -19,11 +19,11 @@ public IActualLayout AsIActualLayout { get; }
 
 Para compatibilidad con COM.
 
-### Vea También
+### Ver también
 
 * interfaz [IActualLayout](../../iactuallayout)
 * interfaz [IDataLabel](../../idatalabel)
 * espacio de nombres [Aspose.Slides.Charts](../../idatalabel)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

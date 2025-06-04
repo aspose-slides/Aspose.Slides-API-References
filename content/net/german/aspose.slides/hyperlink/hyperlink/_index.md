@@ -1,6 +1,6 @@
 ---
 title: Hyperlink
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt eine Instanz eines Hyperlinks.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public Hyperlink(string url)
 | --- | --- | --- |
 | url | String | Hyperlink-URL. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Hyperlink](../../hyperlink)
 * Namespace [Aspose.Slides](../../hyperlink)
@@ -29,7 +29,7 @@ public Hyperlink(string url)
 
 ## Hyperlink(ISlide) {#constructor_1}
 
-Erstellt eine Instanz eines Hyperlinks, der auf eine bestimmte Folie zeigt. Hinweis: Der erstellte Hyperlink sollte einem Objekt aus der gleichen Präsentation zugewiesen werden, andernfalls wird der Link als NoAction gespeichert.
+Erstellt eine Instanz eines Hyperlinks, die auf eine bestimmte Folie zeigt. Hinweis: Der erstellte Hyperlink sollte einem Objekt aus derselben Präsentation zugewiesen werden, andernfalls wird der Link als NoAction gespeichert.
 
 ```csharp
 public Hyperlink(ISlide slide)
@@ -39,9 +39,9 @@ public Hyperlink(ISlide slide)
 | --- | --- | --- |
 | slide | ISlide | Ziel-Folie. |
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [ISlide](../../islide)
+* Interface [ISlide](../../islide)
 * Klasse [Hyperlink](../../hyperlink)
 * Namespace [Aspose.Slides](../../hyperlink)
 * Assembly [Aspose.Slides](../../../)
@@ -50,7 +50,7 @@ public Hyperlink(ISlide slide)
 
 ## Hyperlink(Hyperlink, string, string, bool, bool, bool) {#constructor}
 
-Erstellt eine Instanz eines Hyperlinks unter Verwendung eines anderen Hyperlinks als Quelle und überschreibt sekundäre Eigenschaften.
+Erstellt eine Instanz eines Hyperlinks mit einem anderen Hyperlink als Quelle, wobei sekundäre Eigenschaften überschrieben werden.
 
 ```csharp
 public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool history, 
@@ -60,13 +60,13 @@ public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool hist
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | source | Hyperlink | Quell-Hyperlink |
-| targetFrame | String | Ziel-Frame |
+| targetFrame | String | Zielrahmen |
 | tooltip | String | Tooltip-Text |
 | history | Boolean |  |
 | stopSoundsOnClick | Boolean |  |
 | highlightClick | Boolean |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Hyperlink](../../hyperlink)
 * Namespace [Aspose.Slides](../../hyperlink)

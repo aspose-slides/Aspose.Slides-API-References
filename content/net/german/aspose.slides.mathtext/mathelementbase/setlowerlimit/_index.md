@@ -1,7 +1,7 @@
 ---
 title: SetLowerLimit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Nimmt die untere Grenze
+second_title: Aspose.Slides für .NET API Referenz
+description: Nimmt untere Grenze
 type: docs
 weight: 120
 url: /de/aspose.slides.mathtext/mathelementbase/setlowerlimit/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathelementbase/setlowerlimit/
 
 ## SetLowerLimit(IMathElement) {#setlowerlimit}
 
-Nimmt die untere Grenze
+Nimmt untere Grenze
 
 ```csharp
 public IMathLimit SetLowerLimit(IMathElement limit)
@@ -46,7 +46,7 @@ var limitElement = baseElement.SetLowerLimit(limitValue);
 
 ## SetLowerLimit(string) {#setlowerlimit_1}
 
-Nimmt die untere Grenze
+Nimmt untere Grenze
 
 ```csharp
 public IMathLimit SetLowerLimit(string limit)

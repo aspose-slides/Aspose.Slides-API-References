@@ -1,7 +1,7 @@
 ---
 title: Slide
-second_title: Aspose.Slides for .NET API 参考
-description: 返回基础幻灯片。只读 IBaseSlide aspose.slides/ibaseslide。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回基本幻灯片。只读 IBaseSlideaspose.slides/ibaseslide。
 type: docs
 weight: 20
 url: /zh/aspose.slides/islidecomponent/slide/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/islidecomponent/slide/
 
 ## ISlideComponent.Slide 属性
 
-返回基础幻灯片。只读 [`IBaseSlide`](../../ibaseslide)。
+返回基本幻灯片。只读 [`IBaseSlide`](../../ibaseslide)。
 
 ```csharp
 public IBaseSlide Slide { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 接口 [ISlideComponent](../../islidecomponent)

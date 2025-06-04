@@ -1,6 +1,6 @@
 ---
 title: ParagraphFormat
-second_title: Referencia de API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Inicializa una nueva instancia de la clase ParagraphFormataspose.slides/paragraphformat.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Inicializa una nueva instancia de la clase [`ParagraphFormat`](../../paragraphfo
 public ParagraphFormat()
 ```
 
-### Véase también
+### Ver También
 
 * clase [ParagraphFormat](../../paragraphformat)
 * espacio de nombres [Aspose.Slides](../../paragraphformat)

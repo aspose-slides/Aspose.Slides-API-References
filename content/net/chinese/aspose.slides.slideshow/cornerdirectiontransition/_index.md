@@ -1,7 +1,7 @@
 ---
 title: CornerDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 角落方向幻灯片过渡效果。
+description: 角落方向滑动转换效果。
 type: docs
 weight: 9700
 url: /zh/aspose.slides.slideshow/cornerdirectiontransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/cornerdirectiontransition/
 
 ## CornerDirectionTransition class
 
-角落方向幻灯片过渡效果。
+角落方向滑动转换效果。
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -19,14 +19,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | 名称 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 过渡的方向。可读/可写 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 转换方向。可读/可写 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 确定两个 TransitionValueBase 实例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适合在哈希算法和数据结构中使用，如哈希表。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作为特定类型的哈希函数，适用于哈希算法和数据结构，如哈希表。 |
 
 ### 另请参阅
 

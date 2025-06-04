@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
 second_title: Aspose.Slides für .NET API Referenz
-description: Ändert die Sichtbarkeit des Datums-Uhrzeit-Platzhalters der Master-Folie und aller untergeordneten Datums-Uhrzeit-Platzhalter. Untergeordnete Platzhalter bedeuten Platzhalter, die auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die sich auf abhängigen Layoutfolien und abhängigen Folien befinden. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
 type: docs
 weight: 30
 url: /de/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
 
-## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility Methode
+## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility-Methode
 
-Ändert die Sichtbarkeit des Datums-Uhrzeit-Platzhalters der Master-Folie und aller untergeordneten Datums-Uhrzeit-Platzhalter. Untergeordnete Platzhalter bedeuten Platzhalter, die auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die sich auf abhängigen Layoutfolien und abhängigen Folien befinden. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Datums-Uhrzeit-Platzhalter sichtbar, andernfalls - versteckt sie. |
+| isVisible | Boolean | true - macht einen Platzhalter für Datum und Uhrzeit sichtbar, andernfalls - blendet sie aus. |
 
 ### Siehe auch
 

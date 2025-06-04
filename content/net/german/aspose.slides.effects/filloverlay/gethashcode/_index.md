@@ -1,15 +1,15 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides für .NET API Referenz
-description: Dient als Hashfunktion für einen bestimmten Typ.
+description: Dient als Hash-Funktion für einen bestimmten Typ.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/filloverlay/gethashcode/
 ---
 
-## FillOverlay.GetHashCode-Methode
+## FillOverlay.GetHashCode Methode
 
-Dient als Hashfunktion für einen bestimmten Typ.
+Dient als Hash-Funktion für einen bestimmten Typ.
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Rückgabewert
 
-Ein Hashcode für das aktuelle Objekt.
+Ein Hash-Code für das aktuelle Objekt.
 
 ### Siehe auch
 

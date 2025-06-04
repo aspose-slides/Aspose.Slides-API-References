@@ -1,6 +1,6 @@
 ---
 title: IComment
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示幻灯片上的评论。
 type: docs
 weight: 5360
@@ -20,17 +20,17 @@ public interface IComment
 | 名称 | 描述 |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | 返回评论的作者。只读 [`ICommentAuthor`](../icommentauthor)。 |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | 返回或设置评论创建的时间。将此属性设置为 MinValue 表示未设置评论时间。读写 DateTime。 |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | 获取或设置评论创建的时间。将此属性设置为 MinValue 意味着没有设置评论时间。读写 DateTime。 |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | 获取或设置父评论。读写 [`IComment`](../icomment)。 |
-| [Position](../../aspose.slides/icomment/position) { get; set; } | 返回或设置评论在幻灯片上的位置。读写 PointF。 |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | 获取或设置评论在幻灯片上的位置。读写 PointF。 |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | 返回或设置评论的父幻灯片。只读 [`ISlide`](../islide)。 |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | 返回或设置幻灯片评论的纯文本。读写 String。 |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | 获取或设置幻灯片评论的纯文本。读写 String。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | 从父集合中移除评论及其所有回复。 |
+| [Remove](../../aspose.slides/icomment/remove)() | 从父集合中删除评论及其所有回复。 |
 
 ### 另见
 

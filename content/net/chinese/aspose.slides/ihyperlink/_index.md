@@ -1,7 +1,7 @@
 ---  
 title: IHyperlink
-second_title: Aspose.Sildes for .NET API 参考  
-description: 表示超链接。
+second_title: Aspose.Sildes for .NET API Reference  
+description: 表示一个超链接。
 type: docs  
 weight: 5910  
 url: /zh/aspose.slides/ihyperlink/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ihyperlink/
 
 ## IHyperlink 接口  
 
-表示超链接。  
+表示一个超链接。  
 
 ```csharp  
 public interface IHyperlink  
@@ -20,22 +20,22 @@ public interface IHyperlink
 | 名称 | 描述 |  
 | --- | --- |  
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | 返回 HyperLinkEx 的动作类型。只读 [`HyperlinkActionType`](../hyperlinkactiontype)。 |  
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 表示超链接颜色的来源 - 可以是样式或部分格式。读/写 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |  
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 指定外部 URL。如果此属性不为 null，则属性 TargetSlide 变为 null。只读字符串。 |  
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | 表示为此部分设置的超链接，不考虑该部分的实际内容。 PowerPoint 对链接及其相应文本的行为特别。它允许以有效 URL 的形式创建超链接文本，与链接的真实地址不同。在这种情况下，当您在编辑窗口查看链接时，它将被更改为匹配文本部分。此属性表示超链接的原始值。 |  
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 确定单击时是否应突出显示超链接。读/写布尔值。 |  
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 确定父超链接的目标在被调用时是否应添加到已查看超链接的列表中。读/写布尔值。 |  
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | 表示超链接的播放声音。读/写 [`IAudio`](../iaudio)。 |  
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 确定是否应在超链接点击时停止声音。读/写布尔值。 |  
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 返回父 HTML 框架集中的目标框架（如果存在）。读/写字符串。 |  
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | 如果 HyperlinkEx 目标为特定幻灯片，则返回此幻灯片。如果该属性不为 null，则属性 ExternalUrl 变为 null。只读 [`ISlide`](../islide)。 |  
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 返回字符串，可能在用户界面中显示，作为与父超链接相关联的内容。读/写字符串。 |  
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 表示超链接颜色的来源 - 可以是样式或部分格式。读写 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |  
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 指定外部 URL 如果此属性变为非空，则属性 TargetSlide 变为 null。只读字符串。 |  
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | 表示为该部分设置的超链接，而不考虑部分的实际内容。 PowerPoint 对超链接及其对应文本的行为是特定的。它允许以有效 URL 的形式为超链接创建文本，这与链接的真实地址不同。在这种情况下，当您在编辑窗口查看该链接时，它会更改为与文本部分匹配。该属性表示超链接的原始值。 |  
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 确定超链接是否在点击时应突出显示。读写布尔值。 |  
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 确定父超链接的目标是否在调用时添加到查看过的超链接列表中。读写布尔值。 |  
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | 表示超链接播放的声音。读写 [`IAudio`](../iaudio)。 |  
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 确定在超链接点击时声音是否应停止。读写布尔值。 |  
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 返回存在时父超链接的目标在父 HTML frameset 中的框架。读写字符串。 |  
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | 如果 HyperlinkEx 目标为特定幻灯片，则返回该幻灯片。如果属性变为非空，则属性 ExternalUrl 变为 null。只读 [`ISlide`](../islide)。 |  
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 返回字符串，该字符串可能在用户界面中与父超链接相关联。读写字符串。 |  
 
 ## 方法  
 
 | 名称 | 描述 |  
 | --- | --- |  
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | 确定两个 Hyperlink 实例是否相等。 |  
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | 确定两个超链接实例是否相等。 |  
 
 ### 另见  
 

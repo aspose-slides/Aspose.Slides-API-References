@@ -1,15 +1,15 @@
 ---
 title: RemoveEncryption
-second_title: Référence API Aspose.Sildes pour .NET
-description: Supprime le cryptage.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Supprime le chiffrement.
 type: docs
 weight: 90
 url: /fr/aspose.slides/protectionmanager/removeencryption/
 ---
 
-## Méthode ProtectionManager.RemoveEncryption
+## ProtectionManager.RemoveEncryption méthode
 
-Supprime le cryptage.
+Supprime le chiffrement.
 
 ```csharp
 public void RemoveEncryption()

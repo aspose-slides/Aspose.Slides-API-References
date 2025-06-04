@@ -1,7 +1,7 @@
 ---
 title: SourceFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el formato de archivo fuente.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Representa el formato del archivo de origen.
 type: docs
 weight: 10370
 url: /es/aspose.slides/sourceformat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/sourceformat/
 
 ## Enumeración SourceFormat
 
-Representa el formato de archivo fuente.
+Representa el formato del archivo de origen.
 
 ```csharp
 public enum SourceFormat
@@ -23,9 +23,9 @@ public enum SourceFormat
 | Pptx | `1` | Formato Pptx. |
 | Odp | `2` | Formato Odp. |
 
-### Véase También
+### Ver También
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,24 +1,24 @@
----
+---  
 title: ExternalUrlOriginal
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa un hipervínculo que se establece para esta porción sin tener en cuenta el contenido real de la porción. PowerPoint se comporta específicamente con respecto a los enlaces y su texto correspondiente en una porción. Permite crear texto para el hipervínculo en forma de una URL válida diferente de la dirección real del enlace. En este caso, cuando visualiza el enlace en la ventana de edición, se cambiará para coincidir con la porción de texto. Esta propiedad representa el valor original del hipervínculo.
-type: docs
-weight: 130
+second_title: Aspose.Slides para .NET Referencia de API  
+description: Representa un hipervínculo que se establece para esta porción sin tener en cuenta el contenido real de la porción. PowerPoint se comporta específicamente para los enlaces y su texto correspondiente en una porción. Permite crear texto para el hipervínculo en forma de una URL válida diferente de la dirección real del enlace. En este caso, cuando veas el enlace en la ventana de edición, se cambiará para que coincida con la porción de texto. Esta propiedad representa el valor original del hipervínculo.
+type: docs  
+weight: 130  
 url: /es/aspose.slides/hyperlink/externalurloriginal/
----
+---  
 
-## Propiedad Hyperlink.ExternalUrlOriginal
+## Propiedad Hyperlink.ExternalUrlOriginal  
 
-Representa un hipervínculo que se establece para esta porción sin tener en cuenta el contenido real de la porción. PowerPoint se comporta específicamente con respecto a los enlaces y su texto correspondiente en una porción. Permite crear texto para el hipervínculo en forma de una URL válida, diferente de la dirección real del enlace. En este caso, cuando visualiza el enlace en la ventana de edición, se cambiará para coincidir con la porción de texto. Esta propiedad representa el valor original del hipervínculo.
+Representa un hipervínculo que se establece para esta porción sin tener en cuenta el contenido real de la porción. PowerPoint se comporta específicamente para los enlaces y su texto correspondiente en una porción. Permite crear texto para el hipervínculo en forma de una URL válida, diferente de la dirección real del enlace. En este caso, cuando veas el enlace en la ventana de edición, se cambiará para que coincida con la porción de texto. Esta propiedad representa el valor original del hipervínculo.  
 
-```csharp
-public string ExternalUrlOriginal { get; }
-```
+```csharp  
+public string ExternalUrlOriginal { get; }  
+```  
 
-### Ver También
+### Ver También  
 
-* class [Hyperlink](../../hyperlink)
-* namespace [Aspose.Slides](../../hyperlink)
-* assembly [Aspose.Slides](../../../)
+* clase [Hyperlink](../../hyperlink)  
+* espacio de nombres [Aspose.Slides](../../hyperlink)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

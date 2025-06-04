@@ -1,7 +1,7 @@
 ---
 title: Depth
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Tiefe des Absatzes zurück oder setzt sie. Der Wert 0 bedeutet undefinierten Wert. Lese-/Schreibzugriff Int16.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Tiefe des Absatzes zurück oder legt sie fest. Der Wert 0 bedeutet undefinierter Wert. Schreib-/Lesezugriff Int16.
 type: docs
 weight: 50
 url: /de/aspose.slides/iparagraphformat/depth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformat/depth/
 
 ## IParagraphFormat.Depth-Eigenschaft
 
-Gibt die Tiefe des Absatzes zurück oder setzt sie. Der Wert 0 bedeutet undefinierten Wert. Lese-/Schreibzugriff Int16.
+Gibt die Tiefe des Absatzes zurück oder legt sie fest. Der Wert 0 bedeutet undefinierter Wert. Schreib-/Lesezugriff Int16.
 
 ```csharp
 public short Depth { get; set; }

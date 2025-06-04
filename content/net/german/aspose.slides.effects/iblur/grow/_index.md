@@ -1,7 +1,7 @@
 ---
 title: Grow
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Grenzen des Objekts aufgrund des Verwischens vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob die Grenzen des Objekts als Ergebnis der Unschärfe vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/iblur/grow/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/iblur/grow/
 
 ## IBlur.Grow-Eigenschaft
 
-Bestimmt, ob die Grenzen des Objekts aufgrund des Verwischens vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
+Bestimmt, ob die Grenzen des Objekts als Ergebnis der Unschärfe vergrößert werden sollen. Wahr bedeutet, dass die Grenzen vergrößert werden, während falsch bedeutet, dass dies nicht der Fall ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Grow { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBlur](../../iblur)
 * Namespace [Aspose.Slides.Effects](../../iblur)

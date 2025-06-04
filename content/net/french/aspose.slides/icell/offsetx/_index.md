@@ -1,7 +1,7 @@
 ---
 title: OffsetX
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie une distance du côté gauche d'un tableau au côté gauche d'une cellule. Read-only Double.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie une distance du côté gauche d'un tableau au côté gauche d'une cellule. Lecture seule Double.
 type: docs
 weight: 160
 url: /fr/aspose.slides/icell/offsetx/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/icell/offsetx/
 
 ## Propriété ICell.OffsetX
 
-Renvoie une distance du côté gauche d'un tableau au côté gauche d'une cellule. Read-only Double.
+Renvoie une distance du côté gauche d'un tableau au côté gauche d'une cellule. Lecture seule Double.
 
 ```csharp
 public double OffsetX { get; }
 ```
 
-### Voir Également
+### Voir aussi
 
 * interface [ICell](../../icell)
 * namespace [Aspose.Slides](../../icell)

@@ -25,9 +25,9 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Erstellt und fügt eine Audio zu einer Präsentation aus einem Byte-Array hinzu. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Erstellt und fügt eine Audiodatei aus einem Byte-Array zu einer Präsentation hinzu. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Fügt eine Kopie einer Audiodatei aus einer anderen Präsentation hinzu. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Erstellt und fügt eine Audio zu einer Präsentation aus einem Stream hinzu. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Erstellt und fügt eine Audiodatei aus einem Stream zu einer Präsentation hinzu. |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesbares IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Nur-lesbarer IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/igrayscale/asiaccessiblepviobject/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/igrayscale/asiaccessiblepviobject/
 
 ## IGrayScale.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesbares [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Nur-lesbare [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IGrayScaleEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * Schnittstelle [IGrayScaleEffectiveData](../../igrayscaleeffectivedata)

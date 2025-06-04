@@ -1,7 +1,7 @@
 ---
 title: FontColor
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la couleur de police d'une forme. En lecture seule IColorFormataspose.slides/icolorformat.
+description: Renvoie la couleur de la police d'une forme. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /fr/aspose.slides/shapestyle/fontcolor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapestyle/fontcolor/
 
 ## Propriété ShapeStyle.FontColor
 
-Renvoie la couleur de police d'une forme. En lecture seule [`IColorFormat`](../../icolorformat).
+Renvoie la couleur de la police d'une forme. Lecture seule [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat FontColor { get; }

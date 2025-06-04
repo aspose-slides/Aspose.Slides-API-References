@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/iinkoptions/hideink/
 public bool HideInk { get; set; }
 ```
 
-### Заметки
+### Примечания
 
 Значение по умолчанию - false.
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IInkOptions](../../iinkoptions)
 * пространство имен [Aspose.Slides.Export](../../iinkoptions)

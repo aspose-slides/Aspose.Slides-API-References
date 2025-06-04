@@ -1,21 +1,21 @@
 ---
 title: By
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen relativen Offset-Wert für die Animation in Bezug auf ihre Position vor Beginn der Animation an. Lese-/Schreibzugriff String.
+description: Spezifiziert einen relativen Offsetwert für die Animation im Hinblick auf ihre Position vor Beginn der Animation. Lese-/Schreib-String.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/ipropertyeffect/by/
 ---
 
-## IPropertyEffect.By Eigenschaft
+## IPropertyEffect.By-Eigenschaft
 
-Gibt einen relativen Offset-Wert für die Animation in Bezug auf ihre Position vor Beginn der Animation an. Lese-/Schreibzugriff String.
+Spezifiziert einen relativen Offsetwert für die Animation im Hinblick auf ihre Position vor Beginn der Animation. Lese-/Schreib-String.
 
 ```csharp
 public string By { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPropertyEffect](../../ipropertyeffect)
 * Namespace [Aspose.Slides.Animation](../../ipropertyeffect)

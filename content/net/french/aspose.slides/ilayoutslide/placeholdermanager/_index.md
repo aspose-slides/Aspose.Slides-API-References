@@ -1,15 +1,15 @@
 ---
 title: PlaceholderManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le gestionnaire de placeholder de la diapositive de mise en page. En lecture seule ILayoutPlaceholderManageraspose.slides/ilayoutplaceholdermanager.
+description: Renvoie le gestionnaire de place holders de la diapositive de mise en page. Lecture seule ILayoutPlaceholderManageraspose.slides/ilayoutplaceholdermanager.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ilayoutslide/placeholdermanager/
 ---
 
-## Propriété ILayoutSlide.PlaceholderManager
+## ILayoutSlide.PlaceholderManager property
 
-Renvoie le gestionnaire de placeholder de la diapositive de mise en page. En lecture seule [`ILayoutPlaceholderManager`](../../ilayoutplaceholdermanager).
+Renvoie le gestionnaire de place holders de la diapositive de mise en page. Lecture seule [`ILayoutPlaceholderManager`](../../ilayoutplaceholdermanager).
 
 ```csharp
 public ILayoutPlaceholderManager PlaceholderManager { get; }

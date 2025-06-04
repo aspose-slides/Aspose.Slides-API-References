@@ -1,12 +1,12 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: type docs
 weight: 7670
 url: /de/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 
-## ForEach.ForEachLayoutSlideCallback Delegate
+## ForEach.ForEachLayoutSlideCallback-Delegat
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);

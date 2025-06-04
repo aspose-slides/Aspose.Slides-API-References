@@ -1,23 +1,23 @@
 ---
 title: GetDependingSlides
-second_title: Aspose.Slides pour .NET Référence API
-description: Retourne un tableau avec toutes les diapositives qui dépendent de cette diapositive de mise en page.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un tableau contenant toutes les diapositives qui dépendent de cette diapositive de mise en page.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ilayoutslide/getdependingslides/
 ---
 
-## Méthode ILayoutSlide.GetDependingSlides
+## ILayoutSlide.GetDependingSlides méthode
 
-Retourne un tableau avec toutes les diapositives qui dépendent de cette diapositive de mise en page.
+Renvoie un tableau contenant toutes les diapositives qui dépendent de cette diapositive de mise en page.
 
 ```csharp
 public ISlide[] GetDependingSlides()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Tableau avec toutes les diapositives qui dépendent de cette diapositive de mise en page
+Tableau contenant toutes les diapositives qui dépendent de cette diapositive de mise en page
 
 ### Voir aussi
 

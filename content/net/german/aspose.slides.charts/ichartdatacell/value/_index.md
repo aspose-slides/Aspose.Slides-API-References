@@ -1,7 +1,7 @@
 ---
 title: Value
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Wert einer Zelle ab oder legt diesen fest. Lese-/Schreibobjekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft den Wert einer Zelle ab oder legt ihn fest. Lese-/Schreibobjekt.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/ichartdatacell/value/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatacell/value/
 
 ## IChartDataCell.Value-Eigenschaft
 
-Ruht den Wert einer Zelle ab oder legt diesen fest. Lese-/Schreibobjekt.
+Ruft den Wert einer Zelle ab oder legt ihn fest. Lese-/Schreibobjekt.
 
 ```csharp
 public object Value { get; set; }
@@ -23,7 +23,7 @@ workbook.GetCell(0, "F2").Value = -2.5;
 workbook.GetCell(0, "G3").Value = 6.3;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IChartDataCell](../../ichartdatacell)
 * Namespace [Aspose.Slides.Charts](../../ichartdatacell)

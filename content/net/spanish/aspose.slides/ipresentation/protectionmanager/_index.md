@@ -1,7 +1,7 @@
 ---
 title: ProtectionManager
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene el administrador de permisos para esta presentación. Solo lectura IProtectionManageraspose.slides/iprotectionmanager.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtiene el administrador de los permisos para esta presentación. Solo lectura IProtectionManager aspose.slides/iprotectionmanager.
 type: docs
 weight: 220
 url: /es/aspose.slides/ipresentation/protectionmanager/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/ipresentation/protectionmanager/
 
 ## Propiedad IPresentation.ProtectionManager
 
-Obtiene el administrador de permisos para esta presentación. Solo lectura [`IProtectionManager`](../../iprotectionmanager).
+Obtiene el administrador de los permisos para esta presentación. Solo lectura [`IProtectionManager`](../../iprotectionmanager).
 
 ```csharp
 public IProtectionManager ProtectionManager { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IProtectionManager](../../iprotectionmanager)
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

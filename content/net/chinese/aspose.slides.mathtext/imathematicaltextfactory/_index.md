@@ -20,13 +20,13 @@ public interface IMathematicalTextFactory
 | 名称 | 描述 |
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 创建空的数学文本元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 创建具有指定值的数学文本元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 创建具有指定值的空数学文本元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 创建具有指定值和格式属性的空数学文本元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 使用指定值创建数学文本元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 使用指定值创建空的数学文本元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 使用指定值和格式属性创建空的数学文本元素 |
 
 ### 备注
 
-为了与 COM 的兼容性
+为了与 COM 兼容
 
 ### 另见
 

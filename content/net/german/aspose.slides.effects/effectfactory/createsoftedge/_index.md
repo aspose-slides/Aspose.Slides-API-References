@@ -1,15 +1,15 @@
 ---
 title: CreateSoftEdge
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt einen Soft Edge Effekt.
+description: Erstellt einen Soft Edge-Effekt.
 type: docs
 weight: 80
 url: /de/aspose.slides.effects/effectfactory/createsoftedge/
 ---
 
-## EffectFactory.CreateSoftEdge Methode
+## EffectFactory.CreateSoftEdge-Methode
 
-Erstellt einen Soft Edge Effekt.
+Erstellt einen Soft Edge-Effekt.
 
 ```csharp
 public ISoftEdge CreateSoftEdge()
@@ -17,11 +17,11 @@ public ISoftEdge CreateSoftEdge()
 
 ### Rückgabewert
 
-Soft Edge Effekt.
+Soft Edge-Effekt.
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [ISoftEdge](../../isoftedge)
+* Interface [ISoftEdge](../../isoftedge)
 * Klasse [EffectFactory](../../effectfactory)
 * Namespace [Aspose.Slides.Effects](../../effectfactory)
 * Assembly [Aspose.Slides](../../../)

@@ -1,13 +1,13 @@
 ---
 title: IsHidden
-second_title: Aspose.Slid.es for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定单元格是否隐藏。只读布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/chartdatacell/ishidden/
 ---
 
-## ChartDataCell.IsHidden 属性
+## ChartDataCell.IsHidden property
 
 确定单元格是否隐藏。只读布尔值。
 

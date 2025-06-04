@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie si les formes sur le diapositive maître doivent être affichées ou non sur les diapositives. Lecture/écriture Boolean.
 type: docs
 weight: 50
 url: /fr/aspose.slides/slide/showmastershapes/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slide/showmastershapes/
 
 ## Propriété Slide.ShowMasterShapes
 
-Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Booléen en lecture/écriture.
+Spécifie si les formes sur le diapositive maître doivent être affichées ou non sur les diapositives. Lecture/écriture Boolean.
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }

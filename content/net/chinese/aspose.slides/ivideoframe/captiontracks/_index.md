@@ -1,7 +1,7 @@
 ---
 title: CaptionTracks
-second_title: Aspose.Slides for .NET API 参考
-description: 返回视频的隐藏字幕集合。只读 ICaptionsCollection aspose.slides/icaptionscollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回视频的闭合字幕集合。只读 ICaptionsCollectionaspose.slides/icaptionscollection。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ivideoframe/captiontracks/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ivideoframe/captiontracks/
 
 ## IVideoFrame.CaptionTracks 属性
 
-返回视频的隐藏字幕集合。只读 [`ICaptionsCollection`](../../icaptionscollection)。
+返回视频的闭合字幕集合。只读 [`ICaptionsCollection`](../../icaptionscollection)。
 
 ```csharp
 public ICaptionsCollection CaptionTracks { get; }
@@ -29,14 +29,14 @@ using (Presentation pres = new Presentation("video with captions.pptx"))
 
         foreach (var captionTrack in videoFrame.CaptionTracks)
         {
-            // 提取字幕二进制数据并保存到文件
+            // 提取字幕的二进制数据并保存到文件
             System.IO.File.WriteAllBytes(captionTrack.CaptionId + ".vtt", captionTrack.BinaryData);
         }
     }
 }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ICaptionsCollection](../../icaptionscollection)
 * 接口 [IVideoFrame](../../ivideoframe)

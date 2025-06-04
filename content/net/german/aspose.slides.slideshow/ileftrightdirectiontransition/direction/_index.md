@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Richtung der Transition. Lese-/Schreibzugriff auf TransitionLeftRightDirectionTypeaspose.slides.slideshow/transitionleftrightdirectiontype.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/ileftrightdirectiontransition/direction/
 ---
 
-## ILeftRightDirectionTransition.Richtung-Eigenschaft
+## ILeftRightDirectionTransition.Direction-Eigenschaft
 
 Richtung der Transition. Lese-/Schreibzugriff auf [`TransitionLeftRightDirectionType`](../../transitionleftrightdirectiontype).
 
@@ -15,7 +15,7 @@ Richtung der Transition. Lese-/Schreibzugriff auf [`TransitionLeftRightDirection
 public TransitionLeftRightDirectionType Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionLeftRightDirectionType](../../transitionleftrightdirectiontype)
 * interface [ILeftRightDirectionTransition](../../ileftrightdirectiontransition)

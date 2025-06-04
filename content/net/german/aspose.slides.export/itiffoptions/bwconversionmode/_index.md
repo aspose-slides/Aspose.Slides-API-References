@@ -1,7 +1,7 @@
 ---
 title: BwConversionMode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Algorithmus für die Umwandlung eines Farbbildes in ein Schwarzweißbild an. Diese Option wird nur angewendet, wenn CompressionTypeaspose.slides.export/itiffoptions/compressiontype auf CCITT4 oder CCITT3 eingestellt ist. Lesen/Schreiben von BlackWhiteConversionModeaspose.slides.export/blackwhiteconversionmode. Standard ist Default.
+description: Gibt den Algorithmus zum Konvertieren eines Farbbildes in ein schwarz-weiß Bild an. Diese Option wird nur angewendet, wenn CompressionType aspose.slides.export/itiffoptions/compressiontype auf CCITT4 oder CCITT3 gesetzt ist. Lesen/Schreiben von BlackWhiteConversionMode aspose.slides.export/blackwhiteconversionmode. Standard ist Default.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/itiffoptions/bwconversionmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/itiffoptions/bwconversionmode/
 
 ## ITiffOptions.BwConversionMode-Eigenschaft
 
-Gibt den Algorithmus für die Umwandlung eines Farbbildes in ein Schwarzweißbild an. Diese Option wird nur angewendet, wenn [`CompressionType`](../compressiontype) auf CCITT4 oder CCITT3 eingestellt ist. Lesen/Schreiben von [`BlackWhiteConversionMode`](../../blackwhiteconversionmode). Standard ist Default.
+Gibt den Algorithmus zum Konvertieren eines Farbbildes in ein schwarz-weiß Bild an. Diese Option wird nur angewendet, wenn [`CompressionType`](../compressiontype) auf CCITT4 oder CCITT3 gesetzt ist. Lesen/Schreiben von [`BlackWhiteConversionMode`](../../blackwhiteconversionmode). Standard ist Default.
 
 ```csharp
 public BlackWhiteConversionMode BwConversionMode { get; set; }
@@ -29,7 +29,7 @@ using (var presentation = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [BlackWhiteConversionMode](../../blackwhiteconversionmode)
 * interface [ITiffOptions](../../itiffoptions)

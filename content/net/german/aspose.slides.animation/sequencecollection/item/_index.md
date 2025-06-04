@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt eine Sequenz am angegebenen Index zurück.
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public ISequence this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Siehe Auch
+### Siehe auch
 
 * interface [ISequence](../../isequence)
 * class [SequenceCollection](../../sequencecollection)

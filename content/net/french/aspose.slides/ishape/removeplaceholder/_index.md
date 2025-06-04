@@ -7,7 +7,7 @@ weight: 330
 url: /fr/aspose.slides/ishape/removeplaceholder/
 ---
 
-## Méthode IShape.RemovePlaceholder
+## IShape.RemovePlaceholder méthode
 
 Définit que cette forme n'est pas un espace réservé.
 
@@ -15,7 +15,7 @@ Définit que cette forme n'est pas un espace réservé.
 public void RemovePlaceholder()
 ```
 
-### Voir Également
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * namespace [Aspose.Slides](../../ishape)

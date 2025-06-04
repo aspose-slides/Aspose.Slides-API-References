@@ -1,21 +1,21 @@
 ---
 title: Shapes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию форм в группе. Только для чтения IShapeCollectionaspose.slides/ishapecollection.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает коллекцию фигур внутри группы. Только для чтения IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 40
 url: /ru/aspose.slides/igroupshape/shapes/
 ---
 
-## Свойство IGroupShape.Shapes
+## IGroupShape.Shapes свойство
 
-Возвращает коллекцию форм внутри группы. Только для чтения [`IShapeCollection`](../../ishapecollection).
+Возвращает коллекцию фигур внутри группы. Только для чтения [`IShapeCollection`](../../ishapecollection).
 
 ```csharp
 public IShapeCollection Shapes { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IShapeCollection](../../ishapecollection)
 * интерфейс [IGroupShape](../../igroupshape)

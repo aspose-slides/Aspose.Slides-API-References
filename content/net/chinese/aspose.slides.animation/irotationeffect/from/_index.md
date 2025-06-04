@@ -1,7 +1,7 @@
 ---
 title: From
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的起始值。可读/可写的 Single。
+second_title: Aspose.Slides for .NET API Reference
+description: 描述动画的起始值。可读写单精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/irotationeffect/from/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/irotationeffect/from/
 
 ## IRotationEffect.From 属性
 
-描述动画的起始值。可读/可写的 Single。
+描述动画的起始值。可读写单精度浮点数。
 
 ```csharp
 public float From { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IRotationEffect](../../irotationeffect)
 * 命名空间 [Aspose.Slides.Animation](../../irotationeffect)

@@ -1,15 +1,15 @@
 ---
 title: IsSeriesUsesXValueCoordinate
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает, использует ли указанный тип серии координаты X-значения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает, использует ли указанный тип серии координаты X.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/charttypecharacterizer/isseriesusesxvaluecoordinate/
 ---
 
-## Метод ChartTypeCharacterizer.IsSeriesUsesXValueCoordinate
+## ChartTypeCharacterizer.IsSeriesUsesXValueCoordinate метод
 
-Возвращает, использует ли указанный тип серии координаты X-значения.
+Возвращает, использует ли указанный тип серии координаты X.
 
 ```csharp
 public static bool IsSeriesUsesXValueCoordinate(ChartType seriesType)
@@ -19,11 +19,11 @@ public static bool IsSeriesUsesXValueCoordinate(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Тип серии. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-True, если используется, в противном случае false.
+Истина, если используется, в противном случае ложь.
 
-### См. также
+### См. Также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

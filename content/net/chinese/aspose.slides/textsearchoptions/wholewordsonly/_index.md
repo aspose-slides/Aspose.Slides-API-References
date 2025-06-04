@@ -1,7 +1,7 @@
 ---
 title: WholeWordsOnly
-second_title: Aspose.Slides for .NET API 参考
-description: 设置为 true 仅匹配完整单词，false - 反之。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置为 true 以仅匹配完整单词，false - 否则。读/写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/textsearchoptions/wholewordsonly/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/textsearchoptions/wholewordsonly/
 
 ## TextSearchOptions.WholeWordsOnly 属性
 
-设置为 true 仅匹配完整单词，false - 反之。可读/可写布尔值。
+设置为 true 以仅匹配完整单词，false - 否则。读/写布尔值。
 
 ```csharp
 public bool WholeWordsOnly { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 类 [TextSearchOptions](../../textsearchoptions)
 * 命名空间 [Aspose.Slides](../../textsearchoptions)

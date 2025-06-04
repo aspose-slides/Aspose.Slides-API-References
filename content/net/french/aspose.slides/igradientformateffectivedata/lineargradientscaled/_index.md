@@ -1,13 +1,13 @@
 ---
 title: LinearGradientScaled
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Détermine si un dégradé est mis à l'échelle. Booléen en lecture seule.
 type: docs
 weight: 60
 url: /fr/aspose.slides/igradientformateffectivedata/lineargradientscaled/
 ---
 
-## Propriété IGradientFormatEffectiveData.LinearGradientScaled
+## IGradientFormatEffectiveData.LinearGradientScaled propriété
 
 Détermine si un dégradé est mis à l'échelle. Booléen en lecture seule.
 

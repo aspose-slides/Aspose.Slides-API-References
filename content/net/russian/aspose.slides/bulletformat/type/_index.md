@@ -1,21 +1,21 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип маркировки абзаца без наследования. Чтение/запись BulletTypeaspose.slides/bullettype.
+description: Возвращает или устанавливает тип маркера параграфа без наследования. Чтение/запись BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /ru/aspose.slides/bulletformat/type/
 ---
 
-## Свойство BulletFormat.Type
+## BulletFormat.Type property
 
-Возвращает или устанавливает тип маркировки абзаца без наследования. Чтение/запись [`BulletType`](../../bullettype).
+Возвращает или устанавливает тип маркера параграфа без наследования. Чтение/запись [`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; set; }
 ```
 
-### Смотрите также
+### See Also
 
 * enum [BulletType](../../bullettype)
 * class [BulletFormat](../../bulletformat)

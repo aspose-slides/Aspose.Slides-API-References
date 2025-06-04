@@ -1,21 +1,21 @@
 ---
 title: ExternalUrlOriginal
 second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt einen Hyperlink dar, der für diesen Abschnitt festgelegt ist, unabhängig vom tatsächlichen Inhalt des Abschnitts. PowerPoint verhält sich speziell gegenüber Links und ihrem entsprechenden Text in einem Abschnitt. Es ermöglicht die Erstellung von Text für den Hyperlink in Form einer gültigen URL, die sich von der echten Adresse des Links unterscheidet. In diesem Fall wird der Link im Bearbeitungsfenster geändert, um dem Textabschnitt zu entsprechen. Diese Eigenschaft stellt den ursprünglichen Wert des Hyperlinks dar.
+description: Stellt einen Hyperlink dar, der für diesen Abschnitt festgelegt ist, unabhängig vom tatsächlichen Inhalt des Abschnitts. PowerPoint verhält sich speziell gegenüber Links und ihrem entsprechenden Text in einem Abschnitt. Es ermöglicht, Text für den Hyperlink in Form einer gültigen URL zu erstellen, die von der tatsächlichen Adresse des Links abweicht. In diesem Fall wird der Link im Bearbeitungsfenster geändert, um mit dem Textabschnitt übereinzustimmen. Diese Eigenschaft stellt den ursprünglichen Wert des Hyperlinks dar.
 type: docs
 weight: 40
 url: /de/aspose.slides/ihyperlink/externalurloriginal/
 ---
 
-## IHyperlink.ExternalUrlOriginal-Eigenschaft
+## IHyperlink.ExternalUrlOriginal Eigenschaft
 
-Stellt einen Hyperlink dar, der für diesen Abschnitt festgelegt ist, unabhängig vom tatsächlichen Inhalt des Abschnitts. PowerPoint verhält sich speziell gegenüber Links und ihrem entsprechenden Text in einem Abschnitt. Es ermöglicht die Erstellung von Text für den Hyperlink in Form einer gültigen URL, die sich von der echten Adresse des Links unterscheidet. In diesem Fall wird der Link im Bearbeitungsfenster geändert, um dem Textabschnitt zu entsprechen. Diese Eigenschaft stellt den ursprünglichen Wert des Hyperlinks dar.
+Stellt einen Hyperlink dar, der für diesen Abschnitt festgelegt ist, unabhängig vom tatsächlichen Inhalt des Abschnitts. PowerPoint verhält sich speziell gegenüber Links und ihrem entsprechenden Text in einem Abschnitt. Es ermöglicht, Text für den Hyperlink in Form einer gültigen URL zu erstellen, die von der tatsächlichen Adresse des Links abweicht. In diesem Fall wird der Link im Bearbeitungsfenster geändert, um mit dem Textabschnitt übereinzustimmen. Diese Eigenschaft stellt den ursprünglichen Wert des Hyperlinks dar.
 
 ```csharp
 public string ExternalUrlOriginal { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHyperlink](../../ihyperlink)
 * Namespace [Aspose.Slides](../../ihyperlink)

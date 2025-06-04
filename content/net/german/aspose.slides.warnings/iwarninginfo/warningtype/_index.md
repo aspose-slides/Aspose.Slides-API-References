@@ -1,21 +1,21 @@
 ---
 title: WarningType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Warnungstyp zurück. Schreibgeschützte WarningTypeaspose.slides.warnings/iwarninginfo/warningtype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Warnungstyp zurück. Nur-lesender WarningTypeaspose.slides.warnings/iwarninginfo/warningtype.
 type: docs
 weight: 20
 url: /de/aspose.slides.warnings/iwarninginfo/warningtype/
 ---
 
-## IWarningInfo.WarningType Eigenschaft
+## IWarningInfo.WarningType-Eigenschaft
 
-Gibt einen Warnungstyp zurück. Schreibgeschützte `WarningType`.
+Gibt einen Warnungstyp zurück. Nur-lesender `WarningType`.
 
 ```csharp
 public WarningType WarningType { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [WarningType](../../warningtype)
 * interface [IWarningInfo](../../iwarninginfo)

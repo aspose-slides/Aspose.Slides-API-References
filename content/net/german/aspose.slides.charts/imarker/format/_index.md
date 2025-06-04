@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Markierungsfüllung ab. Nur lesend IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ruft die Markerfüllung ab. Nur lesend IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/imarker/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/imarker/format/
 
 ## IMarker.Format-Eigenschaft
 
-Ruft die Markierungsfüllung ab. Nur lesend [`IFormat`](../../iformat).
+Ruft die Markerfüllung ab. Nur lesend [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

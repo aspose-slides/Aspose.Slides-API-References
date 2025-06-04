@@ -1,7 +1,7 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holen Sie sich Kindelemente
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Kinder-Elemente abrufen
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/mathleftsubsuperscriptelement/getchildren/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathleftsubsuperscriptelement/getchildren/
 
 ## MathLeftSubSuperscriptElement.GetChildren-Methode
 
-Holen Sie sich Kindelemente
+Kinder-Elemente abrufen
 
 ```csharp
 public IMathElement[] GetChildren()

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果chartType是Bar子类型之一，则返回true。子类型集合对应于PowerPoint中的相应集合，参见PowerPoint中的“更改图表类型”对话框：ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid。
+description: 如果chartType是Bar子类型之一，则返回true。子类型集对应于PowerPoint中的适当集合（请参见PowerPoint中的“更改图表类型”对话框）：ClusteredBar、ClusteredBar3D、PercentsStackedBar、PercentsStackedBar3D、StackedBar、StackedBar3D、ClusteredHorizontalCone、ClusteredHorizontalCylinder、ClusteredHorizontalPyramid、StackedHorizontalCone、StackedHorizontalCylinder、StackedHorizontalPyramid、PercentsStackedHorizontalCone、PercentsStackedHorizontalCylinder、PercentsStackedHorizontalPyramid。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypebar/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypebar/
 
 ## ChartTypeCharacterizer.IsChartTypeBar 方法
 
-如果chartType是Bar子类型之一，则返回true。子类型集合对应于PowerPoint中的相应集合（参见“更改图表类型”对话框）：ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid。
+如果chartType是Bar子类型之一，则返回true。子类型集对应于PowerPoint中的适当集合（请参见“更改图表类型”对话框）：ClusteredBar、ClusteredBar3D、PercentsStackedBar、PercentsStackedBar3D、StackedBar、StackedBar3D、ClusteredHorizontalCone、ClusteredHorizontalCylinder、ClusteredHorizontalPyramid、StackedHorizontalCone、StackedHorizontalCylinder、StackedHorizontalPyramid、PercentsStackedHorizontalCone、PercentsStackedHorizontalCylinder、PercentsStackedHorizontalPyramid。
 
 ```csharp
 public static bool IsChartTypeBar(ChartType chartType)
 ```
 
-### 另请参见
+### 参见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

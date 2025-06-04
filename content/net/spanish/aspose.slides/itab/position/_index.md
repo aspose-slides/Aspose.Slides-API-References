@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/itab/position/
 ---
 
-## Propiedad ITab.Position
+## ITab.Position property
 
 Devuelve o establece la posición de una pestaña. Asignar esta propiedad puede cambiar el índice de la pestaña en la colección e invalidar el enumerador. Lectura/escritura Double.
 
@@ -17,8 +17,8 @@ public double Position { get; set; }
 
 ### Ver También
 
-* interfaz [ITab](../../itab)
-* espacio de nombres [Aspose.Slides](../../itab)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [ITab](../../itab)
+* namespace [Aspose.Slides](../../itab)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

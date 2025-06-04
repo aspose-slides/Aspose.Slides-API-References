@@ -1,13 +1,13 @@
 ---
 title: HangingPunctuation
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Booléen en lecture seule.
 type: docs
 weight: 80
 url: /fr/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
 ---
 
-## Propriété IParagraphFormatEffectiveData.HangingPunctuation
+## IParagraphFormatEffectiveData.HangingPunctuation propriété
 
 Détermine si la ponctuation suspendue est utilisée dans un paragraphe. Booléen en lecture seule.
 

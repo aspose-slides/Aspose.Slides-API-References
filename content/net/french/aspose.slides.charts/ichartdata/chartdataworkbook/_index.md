@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorkbook
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient l'usine de cellules pour créer des cellules utilisées pour les séries ou catégories de graphique. Lecture seule IChartDataWorkbook aspose.slides.charts/ichartdataworkbook.
+description: Obtient la fabrique de cellules pour créer des cellules utilisées pour les séries ou catégories de graphiques. En lecture seule IChartDataWorkbook aspose.slides.charts/ichartdataworkbook.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ichartdata/chartdataworkbook/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartdata/chartdataworkbook/
 
 ## Propriété IChartData.ChartDataWorkbook
 
-Obtient l'usine de cellules pour créer des cellules utilisées pour les séries ou catégories de graphique. Lecture seule [`IChartDataWorkbook`](../../ichartdataworkbook).
+Obtient la fabrique de cellules pour créer des cellules utilisées pour les séries ou catégories de graphiques. En lecture seule [`IChartDataWorkbook`](../../ichartdataworkbook).
 
 ```csharp
 public IChartDataWorkbook ChartDataWorkbook { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
 * interface [IChartData](../../ichartdata)

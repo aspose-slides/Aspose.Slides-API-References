@@ -1,6 +1,6 @@
 ---
 title: OperationType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回或设置操作的类型。只读 ColorTransformOperationaspose.slides/colortransformoperation。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/coloroperation/operationtype/
 public ColorTransformOperation OperationType { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * class [ColorOperation](../../coloroperation)

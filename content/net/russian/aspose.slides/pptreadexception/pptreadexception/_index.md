@@ -1,6 +1,6 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -45,7 +45,7 @@ public PptReadException(string message)
 
 ## PptReadException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащего сообщение и вложенное исключение.
+Конструктор для исключения, содержащего сообщение и встроенное исключение.
 
 ```csharp
 public PptReadException(string message, Exception exception)

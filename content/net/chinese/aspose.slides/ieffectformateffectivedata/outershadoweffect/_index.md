@@ -1,6 +1,6 @@
 ---
 title: OuterShadowEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 外部阴影。只读 IOuterShadowEffectiveData aspose.slides.effects/ioutershadoweffectivedata。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ieffectformateffectivedata/outershadoweffect/
 public IOuterShadowEffectiveData OuterShadowEffect { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IOuterShadowEffectiveData](../../../aspose.slides.effects/ioutershadoweffectivedata)
 * 接口 [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

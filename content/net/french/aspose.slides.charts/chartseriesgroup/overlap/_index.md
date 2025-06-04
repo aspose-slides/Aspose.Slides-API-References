@@ -1,15 +1,15 @@
 ---
 title: Overlap
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie combien de barres et de colonnes doivent se chevaucher sur les graphiques 2-D en pourcentage de -100 à 100. - -100 Espacement maximum, les barres sont complètement séparées. - 0 Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 Chevauchement maximum, les barres se chevauchent complètement. Cette propriété est en lecture/écriture SByte.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Spécifie combien de barres et de colonnes doivent se chevaucher sur des graphiques 2-D en pourcentage de -100 à 100. - -100 Espacement maximum, les barres sont complètement séparées. - 0 Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 Chevauchement maximum, les barres se chevauchent complètement. Cette propriété est en lecture/écriture SByte.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/chartseriesgroup/overlap/
 ---
 
-## Propriété ChartSeriesGroup.Overlap
+## ChartSeriesGroup.Overlap property
 
-Spécifie combien de barres et de colonnes doivent se chevaucher sur les graphiques 2-D, en pourcentage (de -100 % à 100 %). - -100 % : Espacement maximum (les barres sont complètement séparées). - 0 % : Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 % : Chevauchement maximum (les barres se chevauchent complètement). Cette propriété est en lecture/écriture SByte.
+Spécifie combien de barres et de colonnes doivent se chevaucher sur des graphiques 2-D, en pourcentage (de -100 % à 100 %). - -100 % : Espacement maximum (les barres sont complètement séparées). - 0 % : Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 % : Chevauchement maximum (les barres se chevauchent complètement). Cette propriété est en lecture/écriture SByte.
 
 ```csharp
 public sbyte Overlap { get; set; }
@@ -19,9 +19,9 @@ public sbyte Overlap { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lancé lorsque la valeur est définie en dehors de la plage valide de -100 à 100. |
+| ArgumentOutOfRangeException | Lancée lorsque la valeur est définie en dehors de la plage valide de -100 à 100. |
 
-### Exemples
+### Examples
 
 L'exemple suivant montre comment définir le chevauchement pour un groupe de séries de graphiques et rendre le graphique résultant sur un formulaire :
 
@@ -30,14 +30,14 @@ using (Presentation pres = new Presentation())
 {
     IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.ClusteredColumn, 10, 10, 600, 300);
     IChartSeriesCollection series = chart.ChartData.Series;
-    series[0].ParentSeriesGroup.Overlap = 55; // Définir le chevauchement à 55 %
+    series[0].ParentSeriesGroup.Overlap = 55; // Set overlap to 55%
 
     var image=pres.Slides[0].GetImage(1, 1);
     image.Save("image.png",ImageFormat.Png);
 }
 ```
 
-### Voir Aussi
+### See Also
 
 * class [ChartSeriesGroup](../../chartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../chartseriesgroup)

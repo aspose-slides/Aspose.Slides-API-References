@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 从集合中移除指定的命令。
 type: docs
 weight: 70
@@ -17,7 +17,7 @@ public void Remove(IMotionCmdPath item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMotionCmdPath | 要移除的动画路径 [`IMotionCmdPath`](../../imotioncmdpath) |
+| item | IMotionCmdPath | 要移除的运动路径 [`IMotionCmdPath`](../../imotioncmdpath) |
 
 ### 另见
 

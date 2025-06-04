@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente la chaîne de format pour l'objet DataLabels. Chaîne en lecture/écriture.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente la chaîne de format pour l'objet DataLabels. Lecture/écriture String.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/idatalabelformat/numberformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatalabelformat/numberformat/
 
 ## Propriété IDataLabelFormat.NumberFormat
 
-Représente la chaîne de format pour l'objet DataLabels. Chaîne en lecture/écriture.
+Représente la chaîne de format pour l'objet DataLabels. Lecture/écriture String.
 
 ```csharp
 public string NumberFormat { get; set; }
@@ -17,7 +17,7 @@ public string NumberFormat { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection de labels de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété NumberFormat pour les nouveaux labels de données dans la collection DataLabelCollection. Lorsque cette propriété est définie avec une valeur, cette valeur est également définie pour la propriété NumberFormat pour tous les labels de données dans la collection DataLabelCollection (c’est-à-dire que "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" entraîne que tous les DataLabels[i].NumberFormat soient égaux à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété NumberFormat pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Lorsque cette propriété est définie avec une valeur, cette valeur est également définie pour la propriété NumberFormat de toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" fait en sorte que toutes les DataLabels[i].NumberFormat soient égales à val).
 
 ### Exemples
 

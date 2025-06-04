@@ -1,13 +1,13 @@
 ---
 title: CreateInnerShadow
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Slildes для .NET API Reference
 description: Создает эффект внутренней тени.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/effectfactory/createinnershadow/
 ---
 
-## Метод EffectFactory.CreateInnerShadow
+## EffectFactory.CreateInnerShadow метод
 
 Создает эффект внутренней тени.
 

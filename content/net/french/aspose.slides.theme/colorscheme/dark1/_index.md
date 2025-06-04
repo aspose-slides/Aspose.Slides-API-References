@@ -15,7 +15,7 @@ Première couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../.
 public IColorFormat Dark1 { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
 * classe [ColorScheme](../../colorscheme)

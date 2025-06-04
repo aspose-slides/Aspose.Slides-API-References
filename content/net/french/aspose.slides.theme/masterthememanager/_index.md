@@ -1,15 +1,15 @@
 ---
 title: MasterThemeManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Fournit l'accès au thème principal de la présentation.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Fournit un accès au thème maître de la présentation.
 type: docs
 weight: 11130
 url: /fr/aspose.slides.theme/masterthememanager/
 ---
 
-## Classe MasterThemeManager
+## MasterThemeManager class
 
-Fournit l'accès au thème principal de la présentation.
+Fournit un accès au thème maître de la présentation.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -20,18 +20,18 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 | Nom | Description |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Détermine si OverrideTheme remplace le thème effectif hérité (Presentation.MasterTheme) ou non. Booléen en lecture/écriture. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Renvoie l'objet thème de substitution. Lecture/écriture [`IMasterTheme`](../imastertheme). |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Renvoie l'objet de thème de remplacement. Lecture/écriture [`IMasterTheme`](../imastertheme). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleurs supplémentaires à une diapositive. |
-| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Renvoie l'objet thème. |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Renvoie l'objet de thème. |
 
-### Voir Aussi
+### Voir aussi
 
-* classe [BaseThemeManager](../basethememanager)
+* class [BaseThemeManager](../basethememanager)
 * interface [IMasterThemeManager](../imasterthememanager)
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

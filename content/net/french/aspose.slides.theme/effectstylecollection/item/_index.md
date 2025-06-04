@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne un élément à la position spécifiée. Lecture seule EffectStyleaspose.slides.theme/effectstyle.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie un élément à la position spécifiée. Lecture seule EffectStyleaspose.slides.theme/effectstyle.
 type: docs
 weight: 30
 url: /fr/aspose.slides.theme/effectstylecollection/item/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/effectstylecollection/item/
 
 ## Indexeur EffectStyleCollection
 
-Retourne un élément à la position spécifiée. Lecture seule [`EffectStyle`](../../effectstyle).
+Renvoie un élément à la position spécifiée. Lecture seule [`EffectStyle`](../../effectstyle).
 
 ```csharp
 public IEffectStyle this[int index] { get; }

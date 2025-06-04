@@ -1,7 +1,7 @@
 ---
 title: Keywords
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Schlüsselwörter einer Präsentation zurück oder setzt sie. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Schlüsselwörter einer Präsentation zurück oder setzt sie. Lese-/Schreib-String.
 type: docs
 weight: 170
 url: /de/aspose.slides/documentproperties/keywords/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/keywords/
 
 ## DocumentProperties.Keywords-Eigenschaft
 
-Gibt die Schlüsselwörter einer Präsentation zurück oder setzt sie. Lese-/Schreibzeichenfolge.
+Gibt die Schlüsselwörter einer Präsentation zurück oder setzt sie. Lese-/Schreib-String.
 
 ```csharp
 public string Keywords { get; set; }

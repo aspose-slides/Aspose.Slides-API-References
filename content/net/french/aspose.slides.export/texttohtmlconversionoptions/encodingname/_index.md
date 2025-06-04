@@ -1,7 +1,7 @@
 ---
 title: EncodingName
 second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Renvoie ou définit le nom d'encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais c'est à l'appelant de s'assurer que le fichier sera enregistré avec cet encodage. Lecture/écriture chaîne.
+description: Retourne ou définit le nom d'encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais il appartient à l'appelant de s'assurer que le fichier sera enregistré dans cet encodage. Lecture/écriture String.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/texttohtmlconversionoptions/encodingname/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/texttohtmlconversionoptions/encodingname/
 
 ## Propriété TextToHtmlConversionOptions.EncodingName
 
-Renvoie ou définit le nom d'encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais c'est à l'appelant de s'assurer que le fichier sera enregistré avec cet encodage. Lecture/écriture chaîne.
+Retourne ou définit le nom d'encodage HTML. Cette valeur sera enregistrée dans le fichier HTML généré, mais il appartient à l'appelant de s'assurer que le fichier sera enregistré dans cet encodage. Lecture/écriture String.
 
 ```csharp
 public string EncodingName { get; set; }

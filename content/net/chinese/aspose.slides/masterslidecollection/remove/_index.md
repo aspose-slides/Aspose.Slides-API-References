@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除特定对象的第一次出现。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除特定对象的第一个实例。
 type: docs
 weight: 90
 url: /zh/aspose.slides/masterslidecollection/remove/
@@ -9,17 +9,17 @@ url: /zh/aspose.slides/masterslidecollection/remove/
 
 ## MasterSlideCollection.Remove 方法
 
-从集合中移除特定对象的第一次出现。
+从集合中移除特定对象的第一个实例。
 
 ```csharp
 public void Remove(IMasterSlide value)
 ```
 
-| 参数     | 类型        | 描述                           |
-| -------- | ----------- | ------------------------------ |
-| value    | IMasterSlide| 要从集合中移除的母板幻灯片。  |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | IMasterSlide | 要从集合中移除的母版幻灯片。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMasterSlide](../../imasterslide)
 * 类 [MasterSlideCollection](../../masterslidecollection)

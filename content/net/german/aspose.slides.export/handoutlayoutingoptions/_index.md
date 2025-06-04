@@ -1,7 +1,7 @@
 ---
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt den Layoutmodus für Handouts bei der Exportierung dar.
+description: Stellt den Layoutmodus der Handout-Präsentation für den Export dar.
 type: docs
 weight: 3670
 url: /de/aspose.slides.export/handoutlayoutingoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/handoutlayoutingoptions/
 
 ## HandoutLayoutingOptions Klasse
 
-Stellt den Layoutmodus für Handouts bei der Exportierung dar.
+Stellt den Layoutmodus der Handout-Präsentation für den Export dar.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -30,7 +30,7 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 | [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Gibt an, ob Rahmen um die angezeigten Folien gezeichnet werden sollen oder nicht. |
 | [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Gibt an, ob die angezeigten Foliennummern gedruckt werden sollen oder nicht. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlidesLayoutOptions](../islideslayoutoptions)
 * Namespace [Aspose.Slides.Export](../../aspose.slides.export)

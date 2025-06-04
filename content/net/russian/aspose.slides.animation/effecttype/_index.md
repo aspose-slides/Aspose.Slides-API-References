@@ -21,7 +21,7 @@ public enum EffectType
 | --- | --- | --- |
 | Appear | `0` | Эффект появления. Класс **Entrance** или **Exit**. |
 | CurveUpDown | `1` | Эффект CurveUpDown. Класс **Entrance** или **Exit**. |
-| Ascend | `2` | Эффект восхождения. Класс **Entrance** или **Exit**. |
+| Ascend | `2` | Эффект подъема. Класс **Entrance** или **Exit**. |
 | FloatUp | `2` | Эффект плавания с направлением вверх. Это псевдоним для типа Ascend. Класс **Entrance** или **Exit**. |
 | Blast | `3` | Эффект взрыва. Класс **Emphasis**. |
 | Blinds | `4` | Эффект жалюзи. Класс **Entrance** или **Exit**. |
@@ -30,16 +30,16 @@ public enum EffectType
 | BoldReveal | `7` | Эффект BoldReveal. Класс **Emphasis**. |
 | Boomerang | `8` | Эффект бумеранга. Класс **Entrance** или **Exit**. |
 | Bounce | `9` | Эффект отскока. Класс **Entrance** или **Exit**. |
-| Box | `10` | Эффект коробки. Класс **Entrance** или **Exit**. |
+| Box | `10` | Эффект границы. Класс **Entrance** или **Exit**. |
 | BrushOnColor | `11` | Эффект BrushOnColor. Класс **Emphasis**. |
 | BrushOnUnderline | `12` | Эффект BrushOnUnderline. Класс **Emphasis**. |
 | CenterRevolve | `13` | Эффект CenterRevolve. Класс **Entrance** или **Exit**. |
-| ChangeFillColor | `14` | Эффект ChangeFillColor. Класс **Emphasis**. |
-| ChangeFont | `15` | Эффект ChangeFont. Класс **Emphasis**. |
-| ChangeFontColor | `16` | Эффект ChangeFontColor. Класс **Emphasis**. |
-| ChangeFontSize | `17` | Эффект ChangeFontSize. Класс **Emphasis**. |
-| ChangeFontStyle | `18` | Эффект ChangeFontSize. Класс **Emphasis**. |
-| ChangeLineColor | `19` | Эффект ChangeLineColor. Класс **Emphasis**. |
+| ChangeFillColor | `14` | Эффект изменения цвета заливки. Класс **Emphasis**. |
+| ChangeFont | `15` | Эффект изменения шрифта. Класс **Emphasis**. |
+| ChangeFontColor | `16` | Эффект изменения цвета шрифта. Класс **Emphasis**. |
+| ChangeFontSize | `17` | Эффект изменения размера шрифта. Класс **Emphasis**. |
+| ChangeFontStyle | `18` | Эффект изменения стиля шрифта. Класс **Emphasis**. |
+| ChangeLineColor | `19` | Эффект изменения цвета линии. Класс **Emphasis**. |
 | Checkerboard | `20` | Эффект шахматной доски. Класс **Entrance** или **Exit**. |
 | Circle | `21` | Эффект ColorBlend. Класс **Entrance** или **Exit**. |
 | ColorBlend | `22` | Эффект BrushOnUnderline. Класс **Emphasis**. |
@@ -50,17 +50,17 @@ public enum EffectType
 | Compress | `27` | Эффект сжатия. Класс **Entrance** или **Exit**. |
 | ContrastingColor | `28` | Эффект ContrastingColor. Класс **Emphasis**. |
 | Crawl | `29` | Эффект ползания. Класс **Entrance** или **Exit**. |
-| Credits | `30` | Эффект кредитов. Класс **Entrance** или **Exit**. |
+| Credits | `30` | Эффект титров. Класс **Entrance** или **Exit**. |
 | Custom | `31` | Пользовательский эффект. |
 | Darken | `32` | Эффект затемнения. Класс **Emphasis**. |
-| Desaturate | `33` | Эффект десатурации. Класс **Emphasis**. |
+| Desaturate | `33` | Эффект обесцвечивания. Класс **Emphasis**. |
 | Descend | `34` | Эффект спуска. Класс **Entrance** или **Exit**. |
 | FloatDown | `34` | Эффект плавания с направлением вниз. Это псевдоним для типа Descend. Класс **Entrance** или **Exit**. |
-| Diamond | `35` | Эффект ромба. Класс **Entrance** или **Exit**. |
+| Diamond | `35` | Эффект алмаза. Класс **Entrance** или **Exit**. |
 | Dissolve | `36` | Эффект растворения. Класс **Entrance** или **Exit**. |
 | EaseInOut | `37` | Эффект растворения. Класс **Entrance** или **Exit**. |
 | Expand | `38` | Эффект расширения. Класс **Entrance** или **Exit**. |
-| Fade | `39` | Эффект исчезновения. Класс **Entrance** или **Exit**. |
+| Fade | `39` | Эффект затухания. Класс **Entrance** или **Exit**. |
 | FadedSwivel | `40` | Эффект FadedSwivel. Класс **Entrance** или **Exit**. |
 | FadedZoom | `41` | Эффект FadedZoom. Класс **Entrance** или **Exit**. |
 | FlashBulb | `42` | Эффект FlashBulb. Класс **Emphasis**. |
@@ -69,11 +69,11 @@ public enum EffectType
 | Flip | `45` | Эффект переворота. Класс **Entrance** или **Exit**. |
 | Float | `46` | Эффект плавания. Класс **Entrance** или **Exit**. |
 | Fly | `47` | Эффект полета. Класс **Entrance** или **Exit**. |
-| Fold | `48` | Эффект сгибания. Класс **Entrance** или **Exit**. |
+| Fold | `48` | Эффект складки. Класс **Entrance** или **Exit**. |
 | Glide | `49` | Эффект скольжения. Класс **Entrance** или **Exit**. |
 | GrowAndTurn | `50` | Эффект GrowAndTurn. Класс **Entrance** или **Exit**. |
-| GrowShrink | `51` | Эффект GrowShrink. Класс **Emphasis**. |
-| GrowWithColor | `52` | Эффект GrowWithColor. Класс **Emphasis**. |
+| GrowShrink | `51` | Эффект увеличения/уменьшения. Класс **Emphasis**. |
+| GrowWithColor | `52` | Эффект увеличения с цветом. Класс **Emphasis**. |
 | Lighten | `53` | Эффект осветления. Класс **Emphasis**. |
 | LightSpeed | `54` | Эффект LightSpeed. Класс **Entrance** или **Exit**. |
 | MediaPause | `55` | Эффект MediaPause. Класс **Media**. |
@@ -163,7 +163,7 @@ public enum EffectType
 | Swivel | `139` | Эффект Swivel. Класс **Entrance** или **Exit**. |
 | Teeter | `140` | Эффект Teeter. Класс **Emphasis**. |
 | Thread | `141` | Эффект Thread. Класс **Emphasis**. |
-| Transparency | `142` | Эффект прозрачности. Класс **Emphasis**. |
+| Transparency | `142` | Эффект Transparency. Класс **Emphasis**. |
 | Unfold | `143` | Эффект Unfold. Класс **Entrance** или **Exit**. |
 | VerticalGrow | `144` | Эффект VerticalGrow. Класс **Emphasis**. |
 | Wave | `145` | Эффект Wave. Класс **Emphasis**. |
@@ -177,7 +177,7 @@ public enum EffectType
 | OLEObjectEdit | `153` | Эффект OLEObjectEdit. Класс **OLEActionVerbs**. |
 | OLEObjectOpen | `154` | Эффект OLEObjectOpen. Класс **OLEActionVerbs**. |
 
-### Также см.
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

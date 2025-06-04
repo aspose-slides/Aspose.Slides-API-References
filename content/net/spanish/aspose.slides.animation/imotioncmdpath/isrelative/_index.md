@@ -1,15 +1,15 @@
 ---
 title: IsRelative
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si las coordenadas del comando son relativas o no. Lectura/escritura booleana.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Determina si las coordenadas del comando son relativas o no. Lectura/escritura Booleano.
 type: docs
 weight: 20
 url: /es/aspose.slides.animation/imotioncmdpath/isrelative/
 ---
 
-## Propiedad IMotionCmdPath.IsRelative
+## IMotionCmdPath.IsRelative property
 
-Determina si las coordenadas del comando son relativas o no. Lectura/escritura booleana.
+Determina si las coordenadas del comando son relativas o no. Lectura/escritura Booleano.
 
 ```csharp
 public bool IsRelative { get; set; }

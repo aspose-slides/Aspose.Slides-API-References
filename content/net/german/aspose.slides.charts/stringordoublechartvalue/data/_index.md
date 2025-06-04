@@ -1,7 +1,7 @@
 ---
 title: Data
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Data-Objekt zurück oder legt es fest. Lese-/Schreibobjekt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt das Data-Objekt zurück oder setzt es. Lese-/Schreib-Objekt.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/stringordoublechartvalue/data/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/stringordoublechartvalue/data/
 
 ## StringOrDoubleChartValue.Data-Eigenschaft
 
-Gibt das Data-Objekt zurück oder legt es fest. Lese-/Schreibobjekt.
+Gibt das Data-Objekt zurück oder setzt es. Lese-/Schreib-Objekt.
 
 ```csharp
 public override object Data { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * Namespace [Aspose.Slides.Charts](../../stringordoublechartvalue)

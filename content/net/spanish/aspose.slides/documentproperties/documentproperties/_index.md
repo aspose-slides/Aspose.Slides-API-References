@@ -1,6 +1,6 @@
 ---
 title: DocumentProperties
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Inicializa una nueva instancia de la clase DocumentPropertiesaspose.slides/documentproperties.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ Inicializa una nueva instancia de la clase [`DocumentProperties`](../../document
 public DocumentProperties()
 ```
 
-### Véase También
+### Ver También
 
 * clase [DocumentProperties](../../documentproperties)
 * espacio de nombres [Aspose.Slides](../../documentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

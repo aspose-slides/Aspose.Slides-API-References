@@ -7,7 +7,7 @@ weight: 20
 url: /de/aspose.slides.animation/ieffect/afteranimationtype/
 ---
 
-## IEffect.AfterAnimationType-Eigenschaft
+## IEffect.AfterAnimationType Eigenschaft
 
 Definiert einen Nachanimations-Typ für den Effekt. Lese-/Schreibzugriff auf `AfterAnimationType`.
 
@@ -21,10 +21,10 @@ public AfterAnimationType AfterAnimationType { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Holen Sie sich den ersten Effekt der ersten Folie.
+    // Hole den ersten Effekt der ersten Folie.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Ändern Sie den Effekt Nachanimation in "Bei nächstem Mausklick ausblenden"
+    // Ändere den Effekt Nachanimation zu "Ausblenden beim nächsten Mausklick"
     firstSlideEffect.AfterAnimationType = AfterAnimationType.HideOnNextMouseClick;
 }
 ```

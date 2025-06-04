@@ -1,15 +1,15 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Typ des Fehlerbalkenwerts dar
+second_title: Aspose.Sildes für .NET API Referenz
+description: Repräsentiert den Typ des Fehlerbalkenwerts
 type: docs
 weight: 1570
 url: /de/aspose.slides.charts/errorbarvaluetype/
 ---
 
-## Aufzählung ErrorBarValueType
+## ErrorBarValueType Enumeration
 
-Stellt den Typ des Fehlerbalkenwerts dar
+Repräsentiert den Typ des Fehlerbalkenwerts
 
 ```csharp
 public enum ErrorBarValueType
@@ -20,10 +20,10 @@ public enum ErrorBarValueType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Custom | `0` | Gibt an, dass die Länge der Fehlerbalken durch die Plus- und Minus-Elemente bestimmt werden soll. |
-| Fixed | `1` | Gibt an, dass die Länge der Fehlerbalken der festen Größe entspricht, die durch den Fehlerbalkenwert bestimmt wird. |
-| Percentage | `2` | Gibt an, dass die Länge der Fehlerbalken ein Fehlerbalkenwert-Prozent der Daten beträgt. |
-| StandardDeviation | `3` | Gibt an, dass die Länge der Fehlerbalken Fehlerbalkenwert-Standardabweichungen der Daten beträgt. |
-| StandardError | `4` | Gibt an, dass die Länge der Fehlerbalken Fehlerbalkenwert-Standardfehler der Daten beträgt. |
+| Fixed | `1` | Gibt an, dass die Länge der Fehlerbalken der festgelegte Wert ist, der durch den Fehlerbalkenwert bestimmt wird. |
+| Percentage | `2` | Gibt an, dass die Länge der Fehlerbalken ein Prozentanteil des Fehlerbalkenwerts der Daten ist. |
+| StandardDeviation | `3` | Gibt an, dass die Länge der Fehlerbalken die Standardabweichungen des Fehlerbalkenwerts der Daten beträgt. |
+| StandardError | `4` | Gibt an, dass die Länge der Fehlerbalken die Standardfehler des Fehlerbalkenwerts der Daten beträgt. |
 
 ### Siehe auch
 

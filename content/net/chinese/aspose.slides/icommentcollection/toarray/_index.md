@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建并返回一个包含所有评论的数组。
+description: 创建并返回包含所有评论的数组。
 type: docs
 weight: 90
 url: /zh/aspose.slides/icommentcollection/toarray/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommentcollection/toarray/
 
 ## ToArray() {#toarray}
 
-创建并返回一个包含所有评论的数组。
+创建并返回包含所有评论的数组。
 
 ```csharp
 public IComment[] ToArray()
@@ -17,9 +17,9 @@ public IComment[] ToArray()
 
 ### 返回值
 
-[`IComment`](../../icomment)数组。
+[`IComment`](../../icomment) 的数组。
 
-### 另请参见
+### 参见
 
 * 接口 [IComment](../../icomment)
 * 接口 [ICommentCollection](../../icommentcollection)
@@ -30,7 +30,7 @@ public IComment[] ToArray()
 
 ## ToArray(int, int) {#toarray_1}
 
-从指定范围创建并返回一个包含所有评论的数组。
+创建并返回指定范围内的所有评论的数组。
 
 ```csharp
 public IComment[] ToArray(int startIndex, int count)
@@ -43,9 +43,9 @@ public IComment[] ToArray(int startIndex, int count)
 
 ### 返回值
 
-[`IComment`](../../icomment)数组。
+[`IComment`](../../icomment) 的数组。
 
-### 另请参见
+### 参见
 
 * 接口 [IComment](../../icomment)
 * 接口 [ICommentCollection](../../icommentcollection)

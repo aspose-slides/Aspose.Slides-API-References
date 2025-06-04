@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides for .NET API 参考
-description: 获取基本 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基础 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
 type: docs
 weight: 10
 url: /zh/aspose.slides.effects/icolorchange/asiaccessiblepviobject/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/icolorchange/asiaccessiblepviobject/
 
 ## IColorChange.AsIAccessiblePVIObject 属性
 
-获取基本 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1)。
+允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1)。
 
 ```csharp
 public IAccessiblePVIObject<IColorChangeEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IColorChangeEffectiveData](../../icolorchangeeffectivedata)

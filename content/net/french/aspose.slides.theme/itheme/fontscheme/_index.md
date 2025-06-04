@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.theme/itheme/fontscheme/
 ---
 
-## Propriété ITheme.FontScheme
+## ITheme.FontScheme propriété
 
 Renvoie le schéma de police. Lecture seule [`IFontScheme`](../../ifontscheme).
 
@@ -15,7 +15,7 @@ Renvoie le schéma de police. Lecture seule [`IFontScheme`](../../ifontscheme).
 public IFontScheme FontScheme { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontScheme](../../ifontscheme)
 * interface [ITheme](../../itheme)

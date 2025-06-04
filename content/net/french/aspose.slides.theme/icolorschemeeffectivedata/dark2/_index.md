@@ -7,7 +7,7 @@ weight: 80
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 ---
 
-## Propriété IColorSchemeEffectiveData.Dark2
+## IColorSchemeEffectiveData.Dark2 propriété
 
 Deuxième couleur sombre dans le schéma. Couleur en lecture seule.
 

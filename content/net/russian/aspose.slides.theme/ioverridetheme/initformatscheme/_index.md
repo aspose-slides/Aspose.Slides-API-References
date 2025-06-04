@@ -1,6 +1,6 @@
 ---
 title: InitFormatScheme
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Инициализация FormatScheme с новым объектом для переопределения FormatScheme у InheritedTheme.
 type: docs
 weight: 100
@@ -19,7 +19,7 @@ public void InitFormatScheme()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Генерируется, если FormatScheme уже инициализирован (не null). |
+| InvalidOperationException | Выбрасывается, если FormatScheme уже инициализирован (не null). |
 
 ### См. Также
 

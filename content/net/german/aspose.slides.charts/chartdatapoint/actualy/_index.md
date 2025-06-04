@@ -1,7 +1,7 @@
 ---
 title: ActualY
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt den tatsächlichen oberen Rand des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/chartdatapoint/actualy/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapoint/actualy/
 
 ## ChartDataPoint.ActualY-Eigenschaft
 
-Gibt den tatsächlichen oberen Rand des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
+Gibt die tatsächliche obere Position des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
 
 ```csharp
 public float ActualY { get; }

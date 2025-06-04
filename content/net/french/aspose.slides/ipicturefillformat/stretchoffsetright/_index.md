@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetRight
-second_title: Aspose.Sildes pour la référence API .NET
-description: Renvoie ou définit le bord droit du rectangle de remplissage défini par un décalage en pourcentage à partir du bord droit de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait tandis qu'un pourcentage négatif spécifie une saillie. Lecture/écriture Single.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie ou définit le bord droit du rectangle de remplissage qui est défini par un décalage en pourcentage depuis le bord droit de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait tandis qu'un pourcentage négatif spécifie un surplomb. Lecture/écriture Simple.
 type: docs
 weight: 110
 url: /fr/aspose.slides/ipicturefillformat/stretchoffsetright/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipicturefillformat/stretchoffsetright/
 
 ## Propriété IPictureFillFormat.StretchOffsetRight
 
-Renvoie ou définit le bord droit du rectangle de remplissage qui est défini par un décalage en pourcentage à partir du bord droit de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait, tandis qu'un pourcentage négatif spécifie une saillie. Lecture/écriture Single.
+Renvoie ou définit le bord droit du rectangle de remplissage qui est défini par un décalage en pourcentage depuis le bord droit de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait, tandis qu'un pourcentage négatif spécifie un surplomb. Lecture/écriture Simple.
 
 ```csharp
 public float StretchOffsetRight { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPictureFillFormat](../../ipicturefillformat)
 * namespace [Aspose.Slides](../../ipicturefillformat)

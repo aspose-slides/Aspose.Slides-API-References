@@ -1,13 +1,13 @@
 ---
 title: GetDependingSlides
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt ein Array mit allen Folien zurück, die von dieser Masterfolie abhängen.
 type: docs
 weight: 120
 url: /de/aspose.slides/masterslide/getdependingslides/
 ---
 
-## MasterSlide.GetDependingSlides-Methode
+## MasterSlide.GetDependingSlides Methode
 
 Gibt ein Array mit allen Folien zurück, die von dieser Masterfolie abhängen.
 
@@ -17,7 +17,7 @@ public ISlide[] GetDependingSlides()
 
 ### Siehe auch
 
-* Interface [ISlide](../../islide)
+* Schnittstelle [ISlide](../../islide)
 * Klasse [MasterSlide](../../masterslide)
 * Namespace [Aspose.Slides](../../masterslide)
 * Assembly [Aspose.Slides](../../../)

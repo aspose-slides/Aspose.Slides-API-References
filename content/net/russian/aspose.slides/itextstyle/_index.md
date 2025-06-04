@@ -17,18 +17,18 @@ public interface ITextStyle
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Свойства абзаца по умолчанию. Только для чтения [`IParagraphFormat`](../iparagraphformat). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Получает данные форматирования стиля текста с применением наследования. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Получает эффективные данные форматирования стиля текста с применённым наследованием. |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, в противном случае возвращает null. |
 
-### См. также
+### Также смотрите
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

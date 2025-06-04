@@ -1,13 +1,13 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет параметры экспорта в HTML.
 type: docs
 weight: 3720
 url: /ru/aspose.slides.export/htmloptions/
 ---
 
-## Класс HtmlOptions
+## HtmlOptions class
 
 Представляет параметры экспорта в HTML.
 
@@ -17,32 +17,32 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 ## Конструкторы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Создает новый объект HtmlOptions для сохранения в одном HTML файле. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Создает новый объект HtmlOptions с указанием обратного вызова. |
+| [HtmlOptions](htmloptions#constructor)() | Создает новый объект HtmlOptions для сохранения в один HTML файл. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Создает новый объект HtmlOptions, указывая коллбек. |
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Читаемая и записываемая строка. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Булевый флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению размера файла). |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, отображается ли текст без использования лигатур. Когда установлено в `true`, лигатуры будут отключены в отображаемом выводе. По умолчанию это свойство устанавливается в `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемая и записываемая [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Возвращает или устанавливает HTML шаблон. Читаемая и записываемая [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Предоставляет параметры, которые управляют внешним видом объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions). |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Возвращает или устанавливает значение, определяющее качество JPEG изображений внутри PDF документа. Читаемая и записываемая byte. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Читаемый и записываемый тип String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Булев флаг, указывающий, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false - они будут сериализованы в документе (что может привести к увеличению размера файла). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отрисован без использования лигатур. При установке в `true`, лигатуры будут отключены в отрисованном выводе. По умолчанию это свойство установлено в `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или устанавливает визуальный стиль градиента. Читаемый и записываемый тип [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Возвращает или устанавливает HTML-шаблон. Читаемый и записываемый тип [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Возвращает или устанавливает значение, определяющее качество изображений JPEG внутри PDF документа. Читаемый и записываемый тип Byte. |
 | [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновлений хода сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления информации о процессе сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, нужно ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемая и записываемая булева переменная. Значение по умолчанию **false**. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Возвращает или устанавливает параметры формата изображения слайда. Читаемая и записываемая [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды располагаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True, чтобы исключить атрибуты ширины и высоты из контейнера svg - это сделает макет отзывчивым. False - в противном случае. Читаемая и записываемая булева переменная. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Читаемая и записываемая [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый и записываемый тип Boolean. Значение по умолчанию **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Возвращает или устанавливает параметры формата изображений слайдов. Читаемый и записываемый тип [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True, чтобы исключить атрибуты ширины и высоты из контейнера svg - это сделает макет отзывчивым. False - в противном случае. Читаемый и записываемый тип Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или прерван. Читаемый и записываемый тип [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Также см. 
+### См. также
 
 * класс [SaveOptions](../saveoptions)
 * интерфейс [IHtmlOptions](../ihtmloptions)

@@ -1,15 +1,15 @@
 ---
 title: AddPicturePlaceholder
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de modèle à la diapositive de mise en page pour contenir une image.
+description: Ajoute une nouvelle forme de zone de texte au diapositif de disposition pour contenir une image.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder/
 ---
 
-## Méthode ILayoutPlaceholderManager.AddPicturePlaceholder
+## ILayoutPlaceholderManager.AddPicturePlaceholder méthode
 
-Ajoute une nouvelle forme de modèle à la diapositive de mise en page pour contenir une image.
+Ajoute une nouvelle forme de zone de texte au diapositif de disposition pour contenir une image.
 
 ```csharp
 public IAutoShape AddPicturePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddPicturePlaceholder(float x, float y, float width, float hei
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de modèle. |
-| y | Single | La coordonnée Y de la nouvelle forme de modèle. |
-| width | Single | La largeur de la nouvelle forme de modèle. |
-| height | Single | La hauteur de la nouvelle forme de modèle. |
+| x | Single | La coordonnée X de la nouvelle forme de zone de texte. |
+| y | Single | La coordonnée Y de la nouvelle forme de zone de texte. |
+| width | Single | La largeur de la nouvelle forme de zone de texte. |
+| height | Single | La hauteur de la nouvelle forme de zone de texte. |
 
 ### Valeur de retour
 
-[`IAutoShape`](../../iautoshape) créé avec un modèle d'image.
+Créé un [`IAutoShape`](../../iautoshape) avec une zone de texte pour une image.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme de modèle d'image à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de zone de texte pour l'image au diapositif de disposition.
 
 ```csharp
 [C#]

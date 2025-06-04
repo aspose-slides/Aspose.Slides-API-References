@@ -1,7 +1,7 @@
 ---
 title: PenColor
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Color del bolígrafo para la presentación de diapositivas
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Color del bolígrafo para la presentación
 type: docs
 weight: 20
 url: /es/aspose.slides/slideshowsettings/pencolor/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/slideshowsettings/pencolor/
 
 ## Propiedad SlideShowSettings.PenColor
 
-Color del bolígrafo para la presentación de diapositivas
+Color del bolígrafo para la presentación
 
 ```csharp
 public IColorFormat PenColor { get; }
 ```
 
-### Vea También
+### Véase También
 
 * interfaz [IColorFormat](../../icolorformat)
 * clase [SlideShowSettings](../../slideshowsettings)
 * espacio de nombres [Aspose.Slides](../../slideshowsettings)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

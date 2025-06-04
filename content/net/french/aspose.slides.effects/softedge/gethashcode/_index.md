@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Sert de fonction de hachage pour un type particulier.
 type: docs
 weight: 40
@@ -15,11 +15,11 @@ Sert de fonction de hachage pour un type particulier.
 public override int GetHashCode()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un code de hachage pour l'objet actuel.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SoftEdge](../../softedge)
 * espace de noms [Aspose.Slides.Effects](../../softedge)

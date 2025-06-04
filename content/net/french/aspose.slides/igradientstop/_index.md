@@ -1,6 +1,6 @@
 ---
 title: IGradientStop
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Représente un format de dégradé.
 type: docs
 weight: 5820
@@ -19,8 +19,8 @@ public interface IGradientStop
 
 | Nom | Description |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Renvoie la couleur d'un point d'arrêt de dégradé. Lecture seule [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Renvoie ou définit la position (0..1) d'un point d'arrêt de dégradé. Lecture/écriture Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Retourne la couleur d'un arrêt de dégradé. Lecture seule [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Retourne ou définit la position (0..1) d'un arrêt de dégradé. Lecture/écriture Simple. |
 
 ### Voir aussi
 

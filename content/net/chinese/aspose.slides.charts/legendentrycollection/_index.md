@@ -7,7 +7,7 @@ weight: 2220
 url: /zh/aspose.slides.charts/legendentrycollection/
 ---
 
-## LegendEntryCollection 类
+## LegendEntryCollection class
 
 表示图例集合。
 
@@ -19,10 +19,10 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | 获取图例条目的数量。唯读 Int32。 |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | 获取与 Chart.ChartData.Series[0].DataPoints[index] 对应的图例条目属性，适用于以下图表类型：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie；或者对于其他图表类型，获取与 Chart.ChartData.Series[index] 对应的图例条目属性。 |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | 获取图例条目的数量。只读 Int32。 |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | 获取与 Chart.ChartData.Series[0].DataPoints[index] 对应的图例条目的属性，适用于以下图表类型：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie；或对于其他图表类型，获取与 Chart.ChartData.Series[index] 对应的图例条目的属性。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ILegendEntryCollection](../ilegendentrycollection)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

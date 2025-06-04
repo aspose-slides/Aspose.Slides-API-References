@@ -1,15 +1,15 @@
 ---
 title: InsertSummaryZoomFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект Summary Zoom и вставляет его в коллекцию по указанному индексу.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новый объект Summary Zoom и вставляет его в коллекцию по заданному индексу.
 type: docs
 weight: 330
 url: /ru/aspose.slides/ishapecollection/insertsummaryzoomframe/
 ---
 
-## Метод IShapeCollection.InsertSummaryZoomFrame
+## IShapeCollection.InsertSummaryZoomFrame метод
 
-Создает новый объект Summary Zoom и вставляет его в коллекцию по указанному индексу.
+Создает новый объект Summary Zoom и вставляет его в коллекцию по заданному индексу.
 
 ```csharp
 public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, float width, 
@@ -18,11 +18,11 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нулевым основанием, по которому должен быть вставлен Section Zoom frame. |
-| x | Single | X координата нового Section Zoom frame Single. |
-| y | Single | Y координата нового Section Zoom frame Single. |
-| width | Single | Ширина нового Section Zoom frame Single. |
-| height | Single | Высота нового Section Zoom frame Single. |
+| index | Int32 | Индекс, основанный на нуле, по которому должен быть вставлен кадр Zoom секции. |
+| x | Single | Координата X нового кадра Zoom секции. |
+| y | Single | Координата Y нового кадра Zoom секции. |
+| width | Single | Ширина нового кадра Zoom секции. |
+| height | Single | Высота нового кадра Zoom секции. |
 
 ### Возвращаемое значение
 
@@ -32,15 +32,15 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | В презентации нет разделов или целевой слайд не принадлежит ни одному разделу. |
+| [PptxEditException](../../pptxeditexception) | В презентации нет секций, или целевой слайд не принадлежит ни одной секции. |
 
 ### Примечания
 
-Этот метод создает новый Summary Zoom и помещает в него коллекцию объектов для всех разделов в этой презентации.
+Этот метод создает новый Summary Zoom и помещает в него коллекцию объектов для всех секций в этой презентации.
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Summary Zoom по указанному индексу в коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум два раздела):
+Этот пример демонстрирует создание и вставку объекта Summary Zoom по заданному индексу в коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум две секции):
 
 ```csharp
 [C#]

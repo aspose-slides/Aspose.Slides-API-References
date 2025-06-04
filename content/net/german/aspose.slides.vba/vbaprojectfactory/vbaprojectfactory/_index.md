@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.vba/vbaprojectfactory/vbaprojectfactory/
 ---
 
-## VbaProjectFactory Konstruktor
+## VbaProjectFactory-Konstruktor
 
 Der Standardkonstruktor.
 
@@ -15,7 +15,7 @@ Der Standardkonstruktor.
 public VbaProjectFactory()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [VbaProjectFactory](../../vbaprojectfactory)
 * Namespace [Aspose.Slides.Vba](../../vbaprojectfactory)

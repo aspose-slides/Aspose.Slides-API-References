@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les verrous de forme. Lecture seule IGraphicalObjectLock aspose.slides/igraphicalobjectlock.
+description: Retourne les verrous de formes. IGraphicalObjectLock en lecture seule aspose.slides/igraphicalobjectlock.
 type: docs
 weight: 30
 url: /fr/aspose.slides/igraphicalobject/shapelock/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igraphicalobject/shapelock/
 
 ## Propriété IGraphicalObject.ShapeLock
 
-Renvoie les verrous de la forme. Lecture seule [`IGraphicalObjectLock`](../../igraphicalobjectlock).
+Retourne les verrous de la forme. Lire seule [`IGraphicalObjectLock`](../../igraphicalobjectlock).
 
 ```csharp
 public IGraphicalObjectLock ShapeLock { get; }

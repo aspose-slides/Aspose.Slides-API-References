@@ -1,15 +1,15 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Stilobjekt der Formen zurück. Nur lesen IShapeStyleaspose.slides/ishapestyle.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Stil-Objekt der Form zurück. Nur Lesen IShapeStyleaspose.slides/ishapestyle.
 type: docs
 weight: 30
 url: /de/aspose.slides/igeometryshape/shapestyle/
 ---
 
-## IGeometryShape.ShapeStyle Eigenschaften
+## IGeometryShape.ShapeStyle-Eigenschaft
 
-Gibt das Stilobjekt der Form zurück. Nur lesen [`IShapeStyle`](../../ishapestyle).
+Gibt das Stil-Objekt der Form zurück. Nur Lesen [`IShapeStyle`](../../ishapestyle).
 
 ```csharp
 public IShapeStyle ShapeStyle { get; }

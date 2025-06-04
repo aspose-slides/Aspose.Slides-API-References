@@ -1,7 +1,7 @@
 ---
 title: Distance
-second_title: Aspose.Slides for .NET API 参考
-description: 反射的距离。只读 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 反射的距离。唯读 Double。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/ireflectioneffectivedata/distance/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/distance/
 
 ## IReflectionEffectiveData.Distance 属性
 
-反射的距离。只读 Double。
+反射的距离。唯读 Double。
 
 ```csharp
 public double Distance { get; }

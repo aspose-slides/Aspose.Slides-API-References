@@ -1,6 +1,6 @@
 ---
 title: SetEventHandler
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Устанавливает обработчик событий для фигуры
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ public void SetEventHandler(SvgEvent eventType, string handler)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | eventType | SvgEvent | Тип события. |
-| handler | String | Javascript функция для обработки события. Значение Null удаляет обработчик. |
+| handler | String | JavaScript функция для обработки события. Значение null удаляет обработчик. |
 
 ### Смотрите также
 

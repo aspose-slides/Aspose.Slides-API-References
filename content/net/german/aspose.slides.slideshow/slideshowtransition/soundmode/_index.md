@@ -1,7 +1,7 @@
 ---
 title: SoundMode
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzt oder gibt den Soundmodus für den Folienübergang zurück. Lese-/Schreibzugriff auf TransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzt oder gibt den Klangmodus für den Folienübergang zurück. Lesen/Schreiben von TransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
 type: docs
 weight: 70
 url: /de/aspose.slides.slideshow/slideshowtransition/soundmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/slideshowtransition/soundmode/
 
 ## SlideShowTransition.SoundMode-Eigenschaft
 
-Setzt oder gibt den Soundmodus für den Folienübergang zurück. Lese-/Schreibzugriff auf [`TransitionSoundMode`](../../transitionsoundmode).
+Setzt oder gibt den Klangmodus für den Folienübergang zurück. Lesen/Schreiben von [`TransitionSoundMode`](../../transitionsoundmode).
 
 ```csharp
 public TransitionSoundMode SoundMode { get; set; }

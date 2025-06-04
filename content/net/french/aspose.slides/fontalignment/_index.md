@@ -1,13 +1,13 @@
 ---
 title: FontAlignment
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slidès pour .NET Référence API
 description: Représente l'alignement vertical de la police.
 type: docs
 weight: 4610
 url: /fr/aspose.slides/fontalignment/
 ---
 
-## énumération AlignementDePolice
+## Énumération FontAlignment
 
 Représente l'alignement vertical de la police.
 
@@ -19,14 +19,14 @@ public enum FontAlignment
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| ParDéfaut | `-1` |  |
+| Par défaut | `-1` |  |
 | Automatique | `0` |  |
 | Haut | `1` |  |
 | Centre | `2` |  |
 | Bas | `3` |  |
-| LigneDeBase | `4` |  |
+| Ligne de base | `4` |  |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -7,9 +7,9 @@ weight: 20
 url: /fr/aspose.slides/ilineformat/asilineparamsource/
 ---
 
-## Propriété ILineFormat.AsILineParamSource
+## ILineFormat.AsILineParamSource propriété
 
-Permet d'obtenir l'interface de base ILineParamSource. En lecture seule [`ILineParamSource`](../../ilineparamsource).
+Permet d'obtenir l'interface de base ILineParamSource. [`ILineParamSource`](../../ilineparamsource) en lecture seule.
 
 ```csharp
 public ILineParamSource AsILineParamSource { get; }

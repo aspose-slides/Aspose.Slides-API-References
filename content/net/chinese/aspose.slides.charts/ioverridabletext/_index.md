@@ -1,7 +1,7 @@
 ---
 title: IOverridableText
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示图表的可重写文本。
+description: 表示图表的可覆盖文本。
 type: docs
 weight: 2100
 url: /zh/aspose.slides.charts/ioverridabletext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ioverridabletext/
 
 ## IOverridableText 接口
 
-表示图表的可重写文本。
+表示图表的可覆盖文本。
 
 ```csharp
 public interface IOverridableText : IFormattedTextContainer
@@ -19,8 +19,8 @@ public interface IOverridableText : IFormattedTextContainer
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | 允许获取基础 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | 可以包含丰富的格式化文本。如果该属性不为 null，则该格式化文本值将覆盖自动生成的文本。自动生成的文本是数据标签、值轴的显示单位标签、轴标题、图表标题、趋势线标签的隐式属性。自动生成的文本使用 IFormattedTextContainer.TextFormat 属性格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | 允许获取基础的 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | 可以包含丰富的格式化文本。如果此属性不为 null，则该格式化文本值将覆盖自动生成的文本。自动生成的文本是数据标记、值轴的显示单位标签、轴标题、图表标题、趋势线标签的隐式属性。自动生成的文本使用 IFormattedTextContainer.TextFormat 属性格式化。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
 
 ## 方法
 

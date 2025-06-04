@@ -1,7 +1,7 @@
 ---
 title: SetAllDateTimesVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit aller Datums- und Zeitplatzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handout-Master.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ändert die Sichtbarkeit aller Platzhalter für Datums- und Uhrzeiten, einschließlich Master-Folien, Layout-Folien, Folien, Notizenmaster, Notizenfolien und Handout-Master.
 type: docs
 weight: 20
 url: /de/aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility
 
 ## PresentationHeaderFooterManager.SetAllDateTimesVisibility-Methode
 
-Ändert die Sichtbarkeit aller Datums- und Zeitplatzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handout-Master.
+Ändert die Sichtbarkeit aller Platzhalter für Datums- und Uhrzeiten, einschließlich Master-Folien, Layout-Folien, Folien, Notizenmaster, Notizenfolien und Handout-Master.
 
 ```csharp
 public void SetAllDateTimesVisibility(bool isVisible)
 ```
 
-| Parameter  | Typ      | Beschreibung                                                                |
-|------------|----------|----------------------------------------------------------------------------|
-| isVisible  | Boolean  | true - macht Datums- und Zeitplatzhalter sichtbar, andernfalls - blendet sie aus. |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| isVisible | Boolean | true - macht einen Platzhalter für Datums- und Uhrzeiten sichtbar, andernfalls - versteckt ihn. |
 
 ### Siehe auch
 

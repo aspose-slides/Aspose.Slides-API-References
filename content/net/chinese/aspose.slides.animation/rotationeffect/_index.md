@@ -1,15 +1,15 @@
 ---
 title: RotationEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 表示效果的旋转行为。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表效果的旋转行为。
 type: docs
 weight: 690
 url: /zh/aspose.slides.animation/rotationeffect/
 ---
 
-## RotationEffect 类
+## RotationEffect class
 
-表示效果的旋转行为。
+代表效果的旋转行为。
 
 ```csharp
 public class RotationEffect : Behavior, IRotationEffect
@@ -25,15 +25,15 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | 名称 | 描述 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示动画行为是否被累积。 读/写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示当前动画行为是否与其他正在运行的动画结合。 读/写 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | 描述动画的相对偏移值。 读/写 Single。 |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | 描述动画的起始值。 读/写 Single。 |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 表示行为的属性。 只读 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 表示效果行为的时间属性。 读/写 [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | 描述动画的结束值。 读/写 Single。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示动画行为是否被累积。可读写 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示当前动画行为是否与其他正在运行的动画组合。可读写 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | 描述动画的相对偏移值。可读写 Single。 |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | 描述动画的起始值。可读写 Single。 |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 代表行为的属性。只读 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 代表效果行为的定时属性。可读写 [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | 描述动画的结束值。可读写 Single。 |
 
-### 另见
+### 另请参见
 
 * 类 [Behavior](../behavior)
 * 接口 [IRotationEffect](../irotationeffect)

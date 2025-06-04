@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.theme/imastertheme/name/
 ---
 
-## Propriété IMasterTheme.Name
+## IMasterTheme.Name propriété
 
 Renvoie le nom d'un thème. Chaîne en lecture/écriture.
 

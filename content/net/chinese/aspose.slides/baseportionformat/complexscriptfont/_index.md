@@ -1,7 +1,7 @@
 ---
 title: ComplexScriptFont
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置复杂脚本字体信息。Null意味着字体未定义，应从主文件中继承。可读/可写 IFontDataaspose.slides/ifontdata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置复杂脚本字体信息。空值意味着字体未定义，应该从主窗体继承。可读/可写 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 20
 url: /zh/aspose.slides/baseportionformat/complexscriptfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/complexscriptfont/
 
 ## BasePortionFormat.ComplexScriptFont 属性
 
-返回或设置复杂脚本字体信息。Null意味着字体未定义，应从主文件中继承。可读/可写 [`IFontData`](../../ifontdata)。
+返回或设置复杂脚本字体信息。空值意味着字体未定义，应该从主窗体继承。可读/可写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData ComplexScriptFont { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [BasePortionFormat](../../baseportionformat)

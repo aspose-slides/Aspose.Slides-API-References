@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides/fonts/eastasianfont/
 ---
 
-## Свойство Fonts.EastAsianFont
+## Fonts.EastAsianFont свойство
 
 Возвращает или устанавливает восточноазиатский шрифт. Чтение/запись [`IFontData`](../../ifontdata).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fonts/eastasianfont/
 public IFontData EastAsianFont { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IFontData](../../ifontdata)
 * класс [Fonts](../../fonts)

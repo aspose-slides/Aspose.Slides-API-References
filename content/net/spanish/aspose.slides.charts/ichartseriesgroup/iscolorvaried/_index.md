@@ -7,7 +7,7 @@ weight: 100
 url: /es/aspose.slides.charts/ichartseriesgroup/iscolorvaried/
 ---
 
-## Propiedad IChartSeriesGroup.IsColorVaried
+## IChartSeriesGroup.IsColorVaried property
 
 Especifica que cada marcador de datos en la serie tiene un color diferente. Booleano de lectura/escritura.
 
@@ -15,7 +15,7 @@ Especifica que cada marcador de datos en la serie tiene un color diferente. Bool
 public bool IsColorVaried { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IChartSeriesGroup](../../ichartseriesgroup)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseriesgroup)

@@ -1,13 +1,13 @@
 ---
 title: RowCount
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 矩阵中的行数
 type: docs
 weight: 90
 url: /zh/aspose.slides.mathtext/mathmatrix/rowcount/
 ---
 
-## MathMatrix.RowCount 属性
+## MathMatrix.RowCount property
 
 矩阵中的行数
 
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 int rowCount = matrix.RowCount;
 ```
 
-### 参见
+### 另请参阅
 
 * class [MathMatrix](../../mathmatrix)
 * namespace [Aspose.Slides.MathText](../../mathmatrix)

@@ -1,7 +1,7 @@
 ---
 title: IMotionCmdPath
-second_title: Aspose.Slides für .NET API-Referenz
-description: Representiert einen Befehl eines Pfades.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert einen Befehl eines Pfades.
 type: docs
 weight: 430
 url: /de/aspose.slides.animation/imotioncmdpath/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/imotioncmdpath/
 
 ## IMotionCmdPath-Schnittstelle
 
-Stellt einen Befehl eines Pfades dar.
+Repräsentiert einen Befehl eines Pfades.
 
 ```csharp
 public interface IMotionCmdPath
@@ -20,9 +20,9 @@ public interface IMotionCmdPath
 | Name | Beschreibung |
 | --- | --- |
 | [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | Gibt den Befehlstyp an. Lese-/Schreibzugriff [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | Bestimmt, ob die Befehlkoordinaten relativ sind oder nicht. Lese-/Schreibzugriff Boolean. |
+| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | Bestimmt, ob die Befehlskoordinaten relativ sind oder nicht. Lese-/Schreibzugriff Boolean. |
 | [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | Gibt die Punkte des Befehls an. Lese-/Schreibzugriff PointF[]. |
-| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Gibt den Typ der Befehlsunkte an. Lese-/Schreibzugriff [`MotionPathPointsType`](../motionpathpointstype). |
+| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | Gibt den Typ der Befehlsparameter an. Lese-/Schreibzugriff [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### Siehe auch
 

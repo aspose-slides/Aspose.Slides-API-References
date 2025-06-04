@@ -1,7 +1,7 @@
 ---
 title: AsIChartComponent
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'interface IChartComponent. Lecture seule IChartComponent aspose.slides.charts/ichartcomponent.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'interface IChartComponent. IChartComponent en lecture seule aspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/iformattedtextcontainer/asichartcomponent/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iformattedtextcontainer/asichartcomponent/
 
 ## Propriété IFormattedTextContainer.AsIChartComponent
 
-Renvoie l'interface IChartComponent. Lecture seule [`IChartComponent`](../../ichartcomponent).
+Renvoie l'interface IChartComponent. En lecture seule [`IChartComponent`](../../ichartcomponent).
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }

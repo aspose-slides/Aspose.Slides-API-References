@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Вставляет IMathBlock в коллекцию по указанному индексу.
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/mathparagraph/insert/
 ---
 
-## Метод MathParagraph.Insert
+## MathParagraph.Insert метод
 
 Вставляет IMathBlock в коллекцию по указанному индексу.
 
@@ -17,8 +17,8 @@ public void Insert(int index, IMathBlock mathBlock)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс на основе нуля, по которому элемент должен быть вставлен. |
-| mathBlock | IMathBlock | IMathBlock для вставки. |
+| index | Int32 | Индекс с нулевым основанием, по которому элемент должен быть вставлен. |
+| mathBlock | IMathBlock | IMathBlock, который нужно вставить. |
 
 ### Примеры
 
@@ -32,7 +32,7 @@ IMathBlock block = new MathBlock(new MathematicalText("y"));
 mathParagraph.Insert(0, block);
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathBlock](../../imathblock)
 * класс [MathParagraph](../../mathparagraph)

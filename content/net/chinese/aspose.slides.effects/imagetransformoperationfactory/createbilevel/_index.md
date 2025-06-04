@@ -23,7 +23,7 @@ public IBiLevel CreateBiLevel(float threshold)
 
 BiLevel 效果。
 
-### 另见
+### 参见
 
 * 接口 [IBiLevel](../../ibilevel)
 * 类 [ImageTransformOperationFactory](../../imagetransformoperationfactory)

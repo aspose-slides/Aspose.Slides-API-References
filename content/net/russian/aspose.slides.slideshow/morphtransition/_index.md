@@ -1,7 +1,7 @@
 ---
 title: MorphTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода слид на зыбь.
+second_title: Aspose.Sildes для справки по API .NET
+description: Эффект перехода слайда «Рябь».
 type: docs
 weight: 9940
 url: /ru/aspose.slides.slideshow/morphtransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/morphtransition/
 
 ## Класс MorphTransition
 
-Эффект перехода слид на зыбь.
+Эффект перехода слайда «Рябь».
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -19,16 +19,16 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Название | Описание |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Тип эффекта перехода. Чтение/запись [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Тип перехода «Рябь». Чтение/запись [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли две инстанции TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Является хэш-функцией для определенного типа, пригодной для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходит для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### См. Также
+### См. также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [IMorphTransition](../imorphtransition)

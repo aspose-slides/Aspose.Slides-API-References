@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 确定指定的 Tintaspose.slides.effects/tint 是否等于当前的 Tintaspose.slides.effects/tint。
 type: docs
 weight: 10
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 如果对象相等，则为 true；否则为 false。
 
-### 另请参阅
+### 另见
 
 * 类 [Tint](../../tint)
 * 命名空间 [Aspose.Slides.Effects](../../tint)

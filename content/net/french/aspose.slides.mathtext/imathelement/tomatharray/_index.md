@@ -1,13 +1,13 @@
 ---
 title: ToMathArray
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Met dans un tableau vertical
 type: docs
 weight: 210
 url: /fr/aspose.slides.mathtext/imathelement/tomatharray/
 ---
 
-## Méthode IMathElement.ToMathArray
+## IMathElement.ToMathArray méthode
 
 Met dans un tableau vertical
 
@@ -15,9 +15,9 @@ Met dans un tableau vertical
 public IMathArray ToMathArray()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Nouvelle instance du type [`IMathArray`](../../imatharray)
+Nouvelle instance de type [`IMathArray`](../../imatharray)
 
 ### Exemples
 
@@ -28,7 +28,7 @@ Exemple:
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathArray](../../imatharray)
 * interface [IMathElement](../../imathelement)

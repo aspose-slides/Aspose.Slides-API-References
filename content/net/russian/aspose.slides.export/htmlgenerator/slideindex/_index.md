@@ -1,6 +1,6 @@
 ---
 title: SlideIndex
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает индекс текущего слайда. Только для чтения Int32.
 type: docs
 weight: 60

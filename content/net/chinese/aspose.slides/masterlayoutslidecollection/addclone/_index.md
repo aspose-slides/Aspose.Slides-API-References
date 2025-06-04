@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Aspose.Slides for .NET API 参考
-description: 将指定布局幻灯片的副本添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将指定的布局幻灯片的副本添加到集合的末尾。
 type: docs
 weight: 20
 url: /zh/aspose.slides/masterlayoutslidecollection/addclone/
@@ -9,15 +9,15 @@ url: /zh/aspose.slides/masterlayoutslidecollection/addclone/
 
 ## MasterLayoutSlideCollection.AddClone 方法
 
-将指定布局幻灯片的副本添加到集合的末尾。
+将指定的布局幻灯片的副本添加到集合的末尾。
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 ```
 
-| 参数        | 类型           | 描述               |
-| ----------- | -------------- | ------------------ |
-| sourceLayout | ILayoutSlide   | 要克隆的幻灯片。   |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| sourceLayout | ILayoutSlide | 要克隆的幻灯片。 |
 
 ### 返回值
 
@@ -25,7 +25,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### 备注
 
-1) 新布局将与此布局幻灯片集合的父母母版幻灯片关联。因此这是与 PowerPoint 中的“使用目的地主题”选项进行复制/粘贴的类似操作。2) 该方法的类似方法是通过 [`LayoutSlides`](../../ipresentation/layoutslides) 属性访问的 [`AddClone`](../../igloballayoutslidecollection/addclone) 方法。
+1) 新布局将与此布局幻灯片集合的父母母版幻灯片链接。因此，这类似于在 PowerPoint 中使用“使用目的地主题”选项的复制/粘贴。2) 此方法的类似方法是通过 [`LayoutSlides`](../../ipresentation/layoutslides) 属性访问的 [`AddClone`](../../igloballayoutslidecollection/addclone) 方法。
 
 ### 另请参阅
 

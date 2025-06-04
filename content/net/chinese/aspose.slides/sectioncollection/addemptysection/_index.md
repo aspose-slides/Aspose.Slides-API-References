@@ -1,7 +1,7 @@
 ---
 title: AddEmptySection
 second_title: Aspose.Sildes for .NET API Reference
-description: 在集合的指定位置添加空节。
+description: 将空节添加到集合的指定位置。
 type: docs
 weight: 50
 url: /zh/aspose.slides/sectioncollection/addemptysection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/sectioncollection/addemptysection/
 
 ## SectionCollection.AddEmptySection 方法
 
-在集合的指定位置添加空节。
+将空节添加到集合的指定位置。
 
 ```csharp
 public ISection AddEmptySection(string name, int index)
@@ -22,9 +22,9 @@ public ISection AddEmptySection(string name, int index)
 
 ### 返回值
 
-添加的节。
+已添加的节。
 
-### 另请参见
+### 参见
 
 * 接口 [ISection](../../isection)
 * 类 [SectionCollection](../../sectioncollection)

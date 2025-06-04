@@ -1,13 +1,13 @@
 ---
 title: GroupingLocked
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/graphicalobjectlock/groupinglocked/
 ---
 
-## Propriété GraphicalObjectLock.GroupingLocked
+## GraphicalObjectLock.GroupingLocked propriété
 
 Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture.
 

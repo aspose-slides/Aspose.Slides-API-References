@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt die JPEG-Kodierungsqualität. Lesen/Schreiben Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt die JPEG-Codierungsqualität. Lese-/Schreibzugriff auf Int32.
 type: docs
 weight: 120
 url: /de/aspose.slides.export/svgoptions/jpegquality/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/svgoptions/jpegquality/
 
 ## SVGOptions.JpegQuality-Eigenschaft
 
-Bestimmt die JPEG-Kodierungsqualität. Lesen/Schreiben Int32.
+Bestimmt die JPEG-Codierungsqualität. Lese-/Schreibzugriff auf Int32.
 
 ```csharp
 public int JpegQuality { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SVGOptions](../../svgoptions)
 * Namespace [Aspose.Slides.Export](../../svgoptions)

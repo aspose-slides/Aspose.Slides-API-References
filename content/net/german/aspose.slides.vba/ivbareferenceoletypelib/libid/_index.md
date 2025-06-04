@@ -1,7 +1,7 @@
 ---
 title: Libid
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Bezeichner einer Automatisierungs-Typbibliothek dar. Lese-/Schreibzeichenfolge.
+description: Stellt den Identifikator einer Automations-Typbibliothek dar. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 20
 url: /de/aspose.slides.vba/ivbareferenceoletypelib/libid/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/ivbareferenceoletypelib/libid/
 
 ## IVbaReferenceOleTypeLib.Libid-Eigenschaft
 
-Stellt den Bezeichner einer Automatisierungs-Typbibliothek dar. Lese-/Schreibzeichenfolge.
+Stellt den Identifikator einer Automations-Typbibliothek dar. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string Libid { get; set; }

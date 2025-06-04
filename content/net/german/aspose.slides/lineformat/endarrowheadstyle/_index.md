@@ -1,15 +1,15 @@
 ---
 title: EndArrowheadStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Stil des Pfeilspitzes am Ende einer Linie zurück oder legt ihn fest. Lese-/Schreibzugriff auf LineArrowheadStyle aspose.slides/linearrowheadstyle.
+description: Gibt den Pfeilspitzenstil am Ende einer Linie zurück oder setzt ihn. Lese-/Schreibzugriff auf LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 90
 url: /de/aspose.slides/lineformat/endarrowheadstyle/
 ---
 
-## LineFormat.EndArrowheadStyle Eigenschaft
+## LineFormat.EndArrowheadStyle-Eigenschaft
 
-Gibt den Stil des Pfeilspitzes am Ende einer Linie zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`LineArrowheadStyle`](../../linearrowheadstyle).
+Gibt den Pfeilspitzenstil am Ende einer Linie zurück oder setzt ihn. Lese-/Schreibzugriff auf [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; set; }

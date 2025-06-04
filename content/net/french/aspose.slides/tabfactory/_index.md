@@ -7,7 +7,7 @@ weight: 10540
 url: /fr/aspose.slides/tabfactory/
 ---
 
-## Classe TabFactory
+## TabFactory class
 
 Permet de créer des instances ITab
 
@@ -29,7 +29,7 @@ public class TabFactory : ITabFactory
 
 ### Remarques
 
-Pour la compatibilité COM.
+Pour la compatibilité avec COM.
 
 ### Voir aussi
 

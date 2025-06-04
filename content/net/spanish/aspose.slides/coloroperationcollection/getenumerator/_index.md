@@ -24,6 +24,6 @@ Un IEnumerator que se puede usar para iterar a través de la colección.
 * interfaz [IColorOperation](../../icoloroperation)
 * clase [ColorOperationCollection](../../coloroperationcollection)
 * espacio de nombres [Aspose.Slides](../../coloroperationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

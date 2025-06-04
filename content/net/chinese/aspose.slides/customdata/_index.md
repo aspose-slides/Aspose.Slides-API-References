@@ -7,7 +7,7 @@ weight: 2640
 url: /zh/aspose.slides/customdata/
 ---
 
-## CustomData 类
+## CustomData class
 
 表示自定义数据的容器。
 
@@ -19,10 +19,10 @@ public class CustomData : ICustomData
 
 | 名称 | 描述 |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | 返回自定义 XML 部分集合。只读 [`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | 返回自定义 xml 部分集合。只读 [`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
 | [Tags](../../aspose.slides/customdata/tags) { get; } | 返回客户数据标签集合。只读 [`ITagCollection`](../itagcollection)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ICustomData](../icustomdata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

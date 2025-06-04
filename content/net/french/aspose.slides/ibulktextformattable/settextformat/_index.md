@@ -1,7 +1,7 @@
 ---
 title: SetTextFormat
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Définit les propriétés de format de portion définies pour toutes les portions d'éléments.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Définit les propriétés de format de portion définies à toutes les portions des éléments.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibulktextformattable/settextformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibulktextformattable/settextformat/
 
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Définit les propriétés de format de portion définies pour toutes les portions de l'élément.
+Définit les propriétés de format de portion définies à toutes les portions de l'élément.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -19,7 +19,7 @@ public void SetTextFormat(IPortionFormat source)
 | --- | --- | --- |
 | source | IPortionFormat | Objet IPortionFormat avec les propriétés nécessaires définies. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortionFormat](../../iportionformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)
@@ -30,7 +30,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Définit les propriétés de format de paragraphe définies pour tous les paragraphes de l'élément.
+Définit les propriétés de format de paragraphe définies à tous les paragraphes de l'élément.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -40,7 +40,7 @@ public void SetTextFormat(IParagraphFormat source)
 | --- | --- | --- |
 | source | IParagraphFormat | Objet IParagraphFormat avec les propriétés nécessaires définies. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte de l'élément.
+Définit les propriétés de format de cadre de texte définies à tous les cadres de texte de l'élément.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -61,7 +61,7 @@ public void SetTextFormat(ITextFrameFormat source)
 | --- | --- | --- |
 | source | ITextFrameFormat | Objet ITextFrameFormat avec les propriétés nécessaires définies. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextFrameFormat](../../itextframeformat)
 * interface [IBulkTextFormattable](../../ibulktextformattable)

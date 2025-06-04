@@ -1,7 +1,7 @@
 ---
 title: Indent
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le retrait de la première ligne du paragraphe / Retrait suspendu sans héritage. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Simple.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie ou définit l'indentation de première ligne/de retrait de paragraphe sans héritage. Le retrait peut être défini avec des valeurs négatives. Lecture/écriture Simple.
 type: docs
 weight: 90
 url: /fr/aspose.slides/iparagraphformat/indent/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iparagraphformat/indent/
 
 ## Propriété IParagraphFormat.Indent
 
-Renvoie ou définit le retrait de la première ligne du paragraphe / Retrait suspendu sans héritage. Le retrait suspendu peut être défini avec des valeurs négatives. Lecture/écriture Simple.
+Renvoie ou définit l'indentation de première ligne/de retrait de paragraphe sans héritage. Le retrait peut être défini avec des valeurs négatives. Lecture/écriture Simple.
 
 ```csharp
 public float Indent { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * namespace [Aspose.Slides](../../iparagraphformat)

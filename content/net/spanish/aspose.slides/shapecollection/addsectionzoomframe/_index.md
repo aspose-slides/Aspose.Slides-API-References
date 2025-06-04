@@ -1,7 +1,7 @@
 ---
 title: AddSectionZoomFrame
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Añade un nuevo objeto Section Zoom al final de una colección.
+second_title: Aspose.Sildes para referencia de API .NET
+description: Agrega un nuevo objeto de Sección Zoom al final de una colección.
 type: docs
 weight: 170
 url: /es/aspose.slides/shapecollection/addsectionzoomframe/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapecollection/addsectionzoomframe/
 
 ## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
-Añade un nuevo objeto Section Zoom al final de una colección.
+Agrega un nuevo objeto de Sección Zoom al final de una colección.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -18,15 +18,15 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco Section Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Section Zoom Single. |
-| width | Single | Ancho de un nuevo marco Section Zoom Single. |
-| height | Single | Altura de un nuevo marco Section Zoom Single. |
-| section | ISection | El objeto de sección referenciado por el marco Section Zoom [`ISection`](../../isection). |
+| x | Single | Coordenada X de un nuevo marco de Sección Zoom Single. |
+| y | Single | Coordenada Y de un nuevo marco de Sección Zoom Single. |
+| width | Single | Ancho de un nuevo marco de Sección Zoom Single. |
+| height | Single | Altura de un nuevo marco de Sección Zoom Single. |
+| section | ISection | El objeto de sección referenciado por el marco de Sección Zoom [`ISection`](../../isection). |
 
 ### Valor de Retorno
 
-Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
+Objeto de Sección Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Excepciones
 
@@ -36,7 +36,7 @@ Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo añadir un objeto Section Zoom al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra cómo agregar un objeto de Sección Zoom al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -46,19 +46,19 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Vea También
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ISectionZoomFrame](../../isectionzoomframe)
+* interfaz [ISection](../../isection)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-Añade un nuevo objeto Section Zoom al final de una colección con una imagen predefinida.
+Agrega un nuevo objeto de Sección Zoom al final de una colección con una imagen predefinida.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -67,16 +67,16 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco Section Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Section Zoom Single. |
-| width | Single | Ancho de un nuevo marco Section Zoom Single. |
-| height | Single | Altura de un nuevo marco Section Zoom Single. |
-| section | ISection | El objeto de sección referenciado por el marco Section Zoom [`ISection`](../../isection). |
+| x | Single | Coordenada X de un nuevo marco de Sección Zoom Single. |
+| y | Single | Coordenada Y de un nuevo marco de Sección Zoom Single. |
+| width | Single | Ancho de un nuevo marco de Sección Zoom Single. |
+| height | Single | Altura de un nuevo marco de Sección Zoom Single. |
+| section | ISection | El objeto de sección referenciado por el marco de Sección Zoom [`ISection`](../../isection). |
 | image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage) |
 
 ### Valor de Retorno
 
-Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
+Objeto de Sección Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Excepciones
 
@@ -86,7 +86,7 @@ Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo añadir un objeto Section Zoom al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra cómo agregar un objeto de Sección Zoom al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -97,13 +97,13 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Vea También
 
-* interface [ISectionZoomFrame](../../isectionzoomframe)
-* interface [ISection](../../isection)
-* interface [IPPImage](../../ippimage)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [ISectionZoomFrame](../../isectionzoomframe)
+* interfaz [ISection](../../isection)
+* interfaz [IPPImage](../../ippimage)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

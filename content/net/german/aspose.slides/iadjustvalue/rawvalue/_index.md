@@ -1,7 +1,7 @@
 ---
 title: RawValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Anpassungswert "wie er ist" zurück oder setzt ihn. Lese-/Schreibzugriff Int64.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Anpassungswert "so wie er ist" zurück oder setzt ihn. Lese-/Schreibzugriff auf Int64.
 type: docs
 weight: 30
 url: /de/aspose.slides/iadjustvalue/rawvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iadjustvalue/rawvalue/
 
 ## IAdjustValue.RawValue-Eigenschaft
 
-Gibt den Anpassungswert "wie er ist" zurück oder setzt ihn. Lese-/Schreibzugriff Int64.
+Gibt den Anpassungswert "so wie er ist" zurück oder setzt ihn. Lese-/Schreibzugriff auf Int64.
 
 ```csharp
 public long RawValue { get; set; }

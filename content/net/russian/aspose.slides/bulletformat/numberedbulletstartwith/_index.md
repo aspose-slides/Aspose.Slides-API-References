@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStartWith
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает первое число, используемое для группы нумерованных маркеров без наследования. Чтение/запись Int16.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает первое число, которое используется для группы нумерованных маркеров без наследования. Чтение/запись Int16.
 type: docs
 weight: 70
 url: /ru/aspose.slides/bulletformat/numberedbulletstartwith/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/bulletformat/numberedbulletstartwith/
 
 ## BulletFormat.NumberedBulletStartWith свойство
 
-Возвращает или устанавливает первое число, используемое для группы нумерованных маркеров без наследования. Чтение/запись Int16.
+Возвращает или устанавливает первое число, которое используется для группы нумерованных маркеров без наследования. Чтение/запись Int16.
 
 ```csharp
 public short NumberedBulletStartWith { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [BulletFormat](../../bulletformat)
 * пространство имен [Aspose.Slides](../../bulletformat)

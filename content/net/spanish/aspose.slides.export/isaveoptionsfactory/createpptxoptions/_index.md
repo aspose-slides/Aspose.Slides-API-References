@@ -1,25 +1,25 @@
 ---
 title: CreatePptxOptions
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea opciones de guardado en PPTX.
+description: Crea opciones de guardado PPTX.
 type: docs
 weight: 10
 url: /es/aspose.slides.export/isaveoptionsfactory/createpptxoptions/
 ---
 
-## Método ISaveOptionsFactory.CreatePptxOptions
+## ISaveOptionsFactory.CreatePptxOptions método
 
-Crea opciones de guardado en PPTX.
+Crea opciones de guardado PPTX.
 
 ```csharp
 public IPptxOptions CreatePptxOptions()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Opciones de guardado.
 
-### Véase También
+### Véase también
 
 * interfaz [IPptxOptions](../../ipptxoptions)
 * interfaz [ISaveOptionsFactory](../../isaveoptionsfactory)

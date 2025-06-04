@@ -1,7 +1,7 @@
 ---
 title: IFontsManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Gère les polices dans la présentation.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Gère les polices à travers la présentation.
 type: docs
 weight: 5730
 url: /fr/aspose.slides/ifontsmanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifontsmanager/
 
 ## Interface IFontsManager
 
-Gère les polices dans la présentation.
+Gère les polices à travers la présentation.
 
 ```csharp
 public interface IFontsManager
@@ -19,28 +19,28 @@ public interface IFontsManager
 
 | Nom | Description |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Représente la collection de règles de remplacement de polices d'un utilisateur pour la gestion des collections de polices pour des substitutions appropriées par la fonctionnalité de secours Lecture/écriture [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Substitutions de polices à utiliser lors du rendu Lecture/écriture [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Représente la collection d'un utilisateur de règles de FontFallBack pour la gestion des collections de polices pour des substitutions appropriées par la fonctionnalité de fallback. Lecture/écriture [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Substitutions de polices à utiliser lors du rendu. Lecture/écriture [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Ajoute la police intégrée Gardez à l'esprit que la plupart des polices sont protégées par des droits d'auteur. Trouvez d'abord la licence d'une police avant de la transférer sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Ajoute la police intégrée. Gardez à l'esprit que la plupart des polices sont protégées par des droits d'auteur. Trouvez d'abord la licence d'une police avant de la transférer sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Renvoie les polices intégrées dans la présentation |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyle) | Récupère le tableau d'octets représentant les données de la police pour un style de police et des données de police spécifiés. |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Détermine le niveau d'intégration d'une police à partir du tableau d'octets donné et du nom de la police. |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Renvoie les polices utilisées dans la présentation |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Ajoute la police intégrée. Gardez à l'esprit que la plupart des polices sont soumises à des droits d'auteur. Localisez d'abord la licence d'une police avant de la transférer sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Ajoute la police intégrée. Gardez à l'esprit que la plupart des polices sont soumises à des droits d'auteur. Localisez d'abord la licence d'une police avant de la transférer sur une autre machine. Une ArgumentException peut être levée si les données de la police sont nulles ou si cette police est déjà intégrée. |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Renvoie les polices intégrées dans la présentation. |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyle) | Récupère le tableau de bytes représentant les données de la police pour un style de police et des données de police spécifiés. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Détermine le niveau d'intégration d'une police à partir du tableau de bytes donné et du nom de la police. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Renvoie les polices utilisées dans la présentation. |
 | [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions)() | Obtient des informations sur les polices qui seront remplacées lors du rendu de la présentation. |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Supprime la police intégrée |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Remplace la police dans la présentation en utilisant les informations fournies dans [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Remplace la police dans la présentation en utilisant les informations fournies dans la collection de [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Remplace la police dans la présentation |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Supprime la police intégrée. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Remplace la police dans la présentation en utilisant les informations fournies dans [`IFontSubstRule`](../ifontsubstrule). |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Remplace la police dans la présentation en utilisant les informations fournies dans la collection de [`IFontSubstRule`](../ifontsubstrule). |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Remplace la police dans la présentation. |
 
 ### Voir aussi
 
-* espace de noms [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

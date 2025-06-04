@@ -1,7 +1,7 @@
 ---
 title: Description
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine für Menschen lesbare Beschreibung dieser Warnung zurück. Nur-Lese-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine menschenlesbare Beschreibung dieser Warnung zurück. Nur lesender String.
 type: docs
 weight: 10
 url: /de/aspose.slides.warnings/iwarninginfo/description/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.warnings/iwarninginfo/description/
 
 ## IWarningInfo.Description-Eigenschaft
 
-Gibt eine für Menschen lesbare Beschreibung dieser Warnung zurück. Nur-Lese-String.
+Gibt eine menschenlesbare Beschreibung dieser Warnung zurück. Nur lesender String.
 
 ```csharp
 public string Description { get; }

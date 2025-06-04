@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Obtiene el elemento en el índice especificado. Solo lectura Commentaspose.slides/comment.
 type: docs
 weight: 30
 url: /es/aspose.slides/commentcollection/item/
 ---
 
-## Índice de CommentCollection
+## Indexador de CommentCollection
 
 Obtiene el elemento en el índice especificado. Solo lectura [`Comment`](../../comment).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`Comment`](../../c
 public IComment this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IComment](../../icomment)
 * clase [CommentCollection](../../commentcollection)

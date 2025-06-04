@@ -7,7 +7,7 @@ weight: 110
 url: /ru/aspose.slides/paragraphcollection/indexof/
 ---
 
-## Метод ParagraphCollection.IndexOf
+## ParagraphCollection.IndexOf метод
 
 Определяет индекс конкретного элемента в IList.
 
@@ -17,11 +17,11 @@ public int IndexOf(IParagraph item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IParagraph | Объект для поиска в IList. |
+| item | IParagraph | Объект, который нужно найти в IList. |
 
 ### Возвращаемое значение
 
-Индекс *item*, если он найден в списке; в противном случае, -1.
+Индекс *item*, если он найден в списке; в противном случае -1.
 
 ### См. также
 

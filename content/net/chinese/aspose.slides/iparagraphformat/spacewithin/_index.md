@@ -1,7 +1,7 @@
 ---
 title: SpaceWithin
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置段落基线之间的距离。正值表示百分比，负值表示点数。没有继承应用。可读/写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置段落中基线之间的空间量。正值表示百分比，负值表示点数大小。未应用继承。可读/写单精度浮点数。
 type: docs
 weight: 160
 url: /zh/aspose.slides/iparagraphformat/spacewithin/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iparagraphformat/spacewithin/
 
 ## IParagraphFormat.SpaceWithin 属性
 
-返回或设置段落基线之间的距离。正值表示百分比，负值表示点数。没有继承应用。可读/写单精度浮点数。
+返回或设置段落中基线之间的空间量。正值表示百分比，负值表示点数大小。未应用继承。可读/写单精度浮点数。
 
 ```csharp
 public float SpaceWithin { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IParagraphFormat](../../iparagraphformat)
 * 命名空间 [Aspose.Slides](../../iparagraphformat)

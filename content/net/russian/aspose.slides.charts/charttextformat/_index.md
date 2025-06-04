@@ -1,15 +1,15 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает форматирование текста по умолчанию для текстовых элементов диаграммы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает форматирование текста по умолчанию для элементов текста диаграмм.
 type: docs
 weight: 1400
 url: /ru/aspose.slides.charts/charttextformat/
 ---
 
-## Класс ChartTextFormat
+## ChartTextFormat class
 
-Указывает форматирование текста по умолчанию для текстовых элементов диаграммы.
+Указывает форматирование текста по умолчанию для элементов текста диаграмм.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -19,7 +19,7 @@ public class ChartTextFormat : IChartTextFormat
 
 | Имя | Описание |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | Формат абзаца. Только для чтения [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | Формат параграфа. Только для чтения [`IChartParagraphFormat`](../ichartparagraphformat). |
 | [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | Формат части. Только для чтения [`IChartPortionFormat`](../ichartportionformat). |
 | [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | Формат текстового блока. Только для чтения [`IChartTextBlockFormat`](../icharttextblockformat). |
 

@@ -1,7 +1,7 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Неизменяемый объект, содержащий эффективные свойства фона.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Ненастраиваемый объект, который содержит эффективные свойства фона.
 type: docs
 weight: 5080
 url: /ru/aspose.slides/ibackgroundeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibackgroundeffectivedata/
 
 ## Интерфейс IBackgroundEffectiveData
 
-Неизменяемый объект, содержащий эффективные свойства фона.
+Ненастраиваемый объект, который содержит эффективные свойства фона.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -25,9 +25,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ### Примечания
 
-Этот интерфейс используется вместе с интерфейсом [`IBackground`](../ibackground) для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с интерфейсом [`IBackground`](../ibackground) для возвращения эффективных значений форматирования с применением наследования.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFillParamSource](../ifillparamsource)
 * пространство имен [Aspose.Slides](../../aspose.slides)

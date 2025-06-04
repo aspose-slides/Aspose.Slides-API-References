@@ -1,7 +1,7 @@
 ---
 title: FromColor
-second_title: Aspose.Sildes для .NET API Reference
-description: Цвет, который будет заменен. Только для чтения Цвет.
+second_title: Aspose.Slides для .NET API Справочник
+description: Цвет, который будет заменен. Только для чтения Color.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/icolorchangeeffectivedata/fromcolor/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/icolorchangeeffectivedata/fromcolor/
 
 ## IColorChangeEffectiveData.FromColor свойство
 
-Цвет, который будет заменен. Только для чтения Цвет.
+Цвет, который будет заменен. Только для чтения Color.
 
 ```csharp
 public Color FromColor { get; }

@@ -1,13 +1,13 @@
 ---
 title: CreateSetEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Crea un efecto de conjunto.
 type: docs
 weight: 80
 url: /es/aspose.slides.animation/ibehaviorfactory/createseteffect/
 ---
 
-## Método IBehaviorFactory.CreateSetEffect
+## IBehaviorFactory.CreateSetEffect método
 
 Crea un efecto de conjunto.
 

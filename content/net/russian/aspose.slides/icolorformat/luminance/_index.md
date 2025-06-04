@@ -1,7 +1,7 @@
 ---
 title: Luminance
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает компонент яркости цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись типа Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает компонент яркости цвета в HSL представлении. Все преобразования цвета игнорируются. Чтение/запись Single.
 type: docs
 weight: 110
 url: /ru/aspose.slides/icolorformat/luminance/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icolorformat/luminance/
 
 ## Свойство IColorFormat.Luminance
 
-Возвращает или устанавливает компонент яркости цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись типа Single.
+Возвращает или задает компонент яркости цвета в HSL представлении. Все преобразования цвета игнорируются. Чтение/запись Single.
 
 ```csharp
 public float Luminance { get; set; }

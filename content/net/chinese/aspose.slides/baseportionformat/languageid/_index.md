@@ -1,7 +1,7 @@
 ---
 title: LanguageId
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置校对语言的 Id。用于检查拼写和语法。可读/写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置校对语言的 Id。用于检查拼写和语法。读/写字符串。
 type: docs
 weight: 160
 url: /zh/aspose.slides/baseportionformat/languageid/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/languageid/
 
 ## BasePortionFormat.LanguageId 属性
 
-返回或设置校对语言的 Id。用于检查拼写和语法。可读/写字符串。
+返回或设置校对语言的 Id。用于检查拼写和语法。读/写字符串。
 
 ```csharp
 public string LanguageId { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * class [BasePortionFormat](../../baseportionformat)
 * namespace [Aspose.Slides](../../baseportionformat)

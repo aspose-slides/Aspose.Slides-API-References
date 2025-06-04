@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/ihyperlinkcontainer/hyperlinkclick/
 ---
 
-## Propiedad IHyperlinkContainer.HyperlinkClick
+## IHyperlinkContainer.HyperlinkClick property
 
 Devuelve o establece el hipervínculo definido para el clic del mouse. Lectura/escritura [`IHyperlink`](../../ihyperlink).
 
@@ -20,6 +20,6 @@ public IHyperlink HyperlinkClick { get; set; }
 * interfaz [IHyperlink](../../ihyperlink)
 * interfaz [IHyperlinkContainer](../../ihyperlinkcontainer)
 * espacio de nombres [Aspose.Slides](../../ihyperlinkcontainer)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

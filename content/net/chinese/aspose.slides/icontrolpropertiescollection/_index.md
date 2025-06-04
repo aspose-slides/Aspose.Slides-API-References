@@ -32,7 +32,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | 移除所有属性。 |
 | [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | 移除具有指定名称的属性。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

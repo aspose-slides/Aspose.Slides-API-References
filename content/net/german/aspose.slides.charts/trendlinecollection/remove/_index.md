@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt den angegebenen Wert.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Entfernt den angegebenen Wert.
 public void Remove(ITrendline value)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ITrendline](../../itrendline)
 * class [TrendlineCollection](../../trendlinecollection)

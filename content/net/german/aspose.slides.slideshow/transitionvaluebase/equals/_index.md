@@ -1,15 +1,15 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/transitionvaluebase/equals/
 ---
 
-## TransitionValueBase.Equals Methode
+## TransitionValueBase.Equals-Methode
 
-Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind.
+Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind.
 
 ```csharp
 public override bool Equals(object obj)

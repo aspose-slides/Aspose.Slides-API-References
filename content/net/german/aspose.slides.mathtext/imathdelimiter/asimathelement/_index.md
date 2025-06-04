@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf das Basis-IMathElement-Interface IMathElementaspose.slides.mathtext/imathelement
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht den Zugriff auf die grundlegende IMathElement-Schnittstelle IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathdelimiter/asimathelement/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathdelimiter/asimathelement/
 
 ## IMathDelimiter.AsIMathElement-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IMathElement-Interface [`IMathElement`](../../imathelement)
+Ermöglicht den Zugriff auf die grundlegende IMathElement-Schnittstelle [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }
@@ -17,8 +17,8 @@ public IMathElement AsIMathElement { get; }
 
 ### Siehe Auch
 
-* Interface [IMathElement](../../imathelement)
-* Interface [IMathDelimiter](../../imathdelimiter)
+* Schnittstelle [IMathElement](../../imathelement)
+* Schnittstelle [IMathDelimiter](../../imathdelimiter)
 * Namespace [Aspose.Slides.MathText](../../imathdelimiter)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,13 +1,13 @@
 ---
 title: GrowToMatchOperandHeight
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Le caractère opérateur grandit verticalement pour correspondre à la hauteur de son opérande
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathnaryoperator/growtomatchoperandheight/
 ---
 
-## Propriété MathNaryOperator.GrowToMatchOperandHeight
+## MathNaryOperator.GrowToMatchOperandHeight propriété
 
 Le caractère opérateur grandit verticalement pour correspondre à la hauteur de son opérande
 
@@ -25,9 +25,9 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.GrowToMatchOperandHeight = true;
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [MathNaryOperator](../../mathnaryoperator)
+* class [MathNaryOperator](../../mathnaryoperator)
 * namespace [Aspose.Slides.MathText](../../mathnaryoperator)
 * assembly [Aspose.Slides](../../../)
 

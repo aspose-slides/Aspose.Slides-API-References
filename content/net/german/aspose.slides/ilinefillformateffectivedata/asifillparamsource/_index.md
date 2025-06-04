@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides/ilinefillformateffectivedata/asifillparamsource/
 ---
 
-## ILineFillFormatEffectiveData.AsIFillParamSource Eigenschaft
+## ILineFillFormatEffectiveData.AsIFillParamSource-Eigenschaft
 
 Gibt das IFillParamSource-Interface zurück. Nur-Lese [`IFillParamSource`](../../ifillparamsource).
 

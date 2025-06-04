@@ -1,7 +1,7 @@
 ---
 title: SetMeteredKey
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit la clé publique et privée mesurée.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit la clé publique et la clé privée mesurées.
 type: docs
 weight: 10
 url: /fr/aspose.slides/imetered/setmeteredkey/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imetered/setmeteredkey/
 
 ## IMetered.SetMeteredKey méthode
 
-Définit la clé publique et privée mesurée.
+Définit la clé publique et la clé privée mesurées.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -20,7 +20,7 @@ public void SetMeteredKey(string publicKey, string privateKey)
 | publicKey | String | Clé publique mesurée. |
 | privateKey | String | Clé privée mesurée. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMetered](../../imetered)
 * namespace [Aspose.Slides](../../imetered)

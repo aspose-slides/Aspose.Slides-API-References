@@ -1,6 +1,6 @@
 ---
 title: IInkTrace
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 Ink 对象中的手写线条。
 type: docs
 weight: 7310
@@ -19,8 +19,8 @@ public interface IInkTrace
 
 | 名称 | 描述 |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | 获取 IInkLine 的画笔 [`IInkBrush`](../iinkbrush) 只读。 |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | 获取 IInkLine 的点 PointF 只读。 |
+| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | 获取 IInkLine 的笔刷 [`IInkBrush`](../iinkbrush)，只读。 |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | 获取 IInkLine 的点，PointF 类型，只读。 |
 
 ### 另见
 

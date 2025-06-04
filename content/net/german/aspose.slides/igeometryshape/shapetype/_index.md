@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Geometrie-Voreinstelltyp zurück oder setzt ihn. Hinweis Bei einer Wertänderung werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lese-/Schreibzugriff auf ShapeTypeaspose.slides/shapetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Geometrie-Preset-Typ zurück oder legt ihn fest. Hinweis Bei einer Wertänderung werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lese-/schreibbare ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 40
 url: /de/aspose.slides/igeometryshape/shapetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igeometryshape/shapetype/
 
 ## IGeometryShape.ShapeType-Eigenschaft
 
-Gibt den Geometrie-Voreinstelltyp zurück oder setzt ihn. Hinweis: Bei einer Wertänderung werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lese-/Schreibzugriff auf [`ShapeType`](../../shapetype).
+Gibt den Geometrie-Preset-Typ zurück oder legt ihn fest. Hinweis: Bei einer Wertänderung werden alle Anpassungswerte auf ihre Standardwerte zurückgesetzt. Lese-/schreibbare [`ShapeType`](../../shapetype).
 
 ```csharp
 public ShapeType ShapeType { get; set; }

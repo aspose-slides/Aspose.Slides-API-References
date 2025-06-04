@@ -1,7 +1,7 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immutable qui représente un effet de changement de couleur. Les instances de FromColor sont remplacées par des instances de ToColor.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Objet immuable qui représente un effet de changement de couleur. Les instances de FromColor sont remplacées par des instances de ToColor.
 type: docs
 weight: 3110
 url: /fr/aspose.slides.effects/icolorchangeeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/icolorchangeeffectivedata/
 
 ## Interface IColorChangeEffectiveData
 
-Objet immutable qui représente un effet de changement de couleur. Les instances de FromColor sont remplacées par des instances de ToColor.
+Objet immuable qui représente un effet de changement de couleur. Les instances de FromColor sont remplacées par des instances de ToColor.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Couleur qui sera remplacée. Couleur en lecture seule. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Couleur qui remplacera. Couleur en lecture seule. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Retourne une valeur booléenne qui détermine si le composant alpha doit être utilisé. Booléen en lecture seule. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Couleur qui sera remplacée. Lecture seule Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Couleur qui remplacera. Lecture seule Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Renvoie une valeur booléenne qui détermine si le composant alpha doit être utilisé. Lecture seule Boolean. |
 
 ### Voir aussi
 

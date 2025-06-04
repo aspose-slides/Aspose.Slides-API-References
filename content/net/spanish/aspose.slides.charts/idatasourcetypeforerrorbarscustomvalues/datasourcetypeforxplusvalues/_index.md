@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXPlusValues
-second_title: Referencia API de Aspose.Slides para .NET
-description: Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es válida en el objeto de propiedad XPlus de los puntos de datos para los valores personalizados de las barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lectura/escritura DataSourceTypeaspose.slides/datasourcetype.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Especifica si la propiedad AsCell o AsLiteralString o AsLiteralDouble es aplicable en los puntos de datos del objeto de propiedad XPlus para los valores personalizados de las barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lectura/escritura DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues property
 
-Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es válida en el objeto de propiedad XPlus de los puntos de datos para los valores personalizados de las barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lectura/escritura [`DataSourceType`](../../datasourcetype).
+Especifica si la propiedad AsCell o AsLiteralString o AsLiteralDouble es aplicable en los puntos de datos del objeto de propiedad XPlus para los valores personalizados de las barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Lectura/escritura [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXPlusValues { get; set; }

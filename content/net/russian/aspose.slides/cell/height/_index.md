@@ -1,6 +1,6 @@
 ---
 title: Height
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает высоту ячейки. Только для чтения Double.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/cell/height/
 public double Height { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)

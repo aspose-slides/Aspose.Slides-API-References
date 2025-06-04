@@ -1,15 +1,15 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt eine neue Instanz des PresentationPlayeraspose.slides.export/presentationplayer.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt eine neue Instanz von der PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/presentationplayer/presentationplayer/
 ---
 
-## Konstruktor des PresentationPlayers
+## PresentationPlayer Konstruktor
 
-Erstellt eine neue Instanz des [`PresentationPlayer`](../../presentationplayer).
+Erstellt eine neue Instanz von der [`PresentationPlayer`](../../presentationplayer).
 
 ```csharp
 public PresentationPlayer(PresentationAnimationsGenerator generator, double fps)
@@ -20,7 +20,7 @@ public PresentationPlayer(PresentationAnimationsGenerator generator, double fps)
 | generator | PresentationAnimationsGenerator |  |
 | fps | Double | Bilder pro Sekunde (FPS) |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * Klasse [PresentationPlayer](../../presentationplayer)

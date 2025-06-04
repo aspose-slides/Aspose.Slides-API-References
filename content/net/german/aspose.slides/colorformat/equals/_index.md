@@ -1,15 +1,15 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
-description: Überprüft die Gleichheit mit dem angegebenen Objekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Überprüft die Gleichheit mit einem bestimmten Objekt.
 type: docs
 weight: 170
 url: /de/aspose.slides/colorformat/equals/
 ---
 
-## ColorFormat.Equals-Methode
+## ColorFormat.Equals Methode
 
-Überprüft die Gleichheit mit dem angegebenen Objekt.
+Überprüft die Gleichheit mit einem bestimmten Objekt.
 
 ```csharp
 public override bool Equals(object obj)

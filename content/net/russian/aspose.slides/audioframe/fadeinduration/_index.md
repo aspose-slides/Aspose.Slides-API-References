@@ -1,7 +1,7 @@
 ---
 title: FadeInDuration
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает время длительности для начального затухания медиа в миллисекундах. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает время длительности начального затухания медиа в миллисекундах. Чтение/запись Single.
 type: docs
 weight: 70
 url: /ru/aspose.slides/audioframe/fadeinduration/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/audioframe/fadeinduration/
 
 ## AudioFrame.FadeInDuration свойство
 
-Указывает время длительности для начального затухания медиа в миллисекундах. Чтение/запись Single.
+Указывает время длительности начального затухания медиа в миллисекундах. Чтение/запись Single.
 
 ```csharp
 public float FadeInDuration { get; set; }
@@ -26,14 +26,14 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Установите длительность начального затухания на 200мс
+    // Установите длительность начального затухания на 200 мс
     audioFrame.FadeInDuration = 200f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)

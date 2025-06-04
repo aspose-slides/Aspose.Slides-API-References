@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定水平倾斜角度（以度为单位）。可读写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定水平倾斜角度（单位：度）。可读写的 Double。
 type: docs
 weight: 110
 url: /zh/aspose.slides.effects/ioutershadow/skewhorizontal/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ioutershadow/skewhorizontal/
 
 ## IOuterShadow.SkewHorizontal 属性
 
-指定水平倾斜角度（以度为单位）。可读写 Double。
+指定水平倾斜角度（单位：度）。可读写的 Double。
 
 ```csharp
 public double SkewHorizontal { get; set; }
 ```
 
-### 参考
+### 另请参阅
 
 * 接口 [IOuterShadow](../../ioutershadow)
 * 命名空间 [Aspose.Slides.Effects](../../ioutershadow)

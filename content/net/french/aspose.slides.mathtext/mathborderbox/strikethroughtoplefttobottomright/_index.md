@@ -1,15 +1,15 @@
 ---
 title: StrikethroughTopLeftToBottomRight
 second_title: Référence API Aspose.Slides pour .NET
-description: La barre oblique diagonale de haut en bas à gauche à droite est désactivée par défaut. Spécifie l'état caché ou affiché d'une ligne diagonale barrée du coin supérieur gauche au coin inférieur droit de la boîte de bordure.
+description: Strikethrough Haut-Gauche à Bas-Droite par défaut est faux. Spécifie l'état caché ou visible d'une ligne diagonale barrée du coin supérieur gauche au coin inférieur droit de la boîte des bordures.
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright/
 ---
 
-## Propriété MathBorderBox.StrikethroughTopLeftToBottomRight
+## MathBorderBox.StrikethroughTopLeftToBottomRight propriété
 
-La barre oblique diagonale de haut en bas à gauche à droite (désactivée par défaut). Spécifie l'état caché ou affiché d'une ligne diagonale barrée du coin supérieur gauche au coin inférieur droit de la boîte de bordure.
+Strikethrough Haut-Gauche à Bas-Droite (par défaut est faux). Spécifie l'état caché ou visible d'une ligne diagonale barrée du coin supérieur gauche au coin inférieur droit de la boîte des bordures.
 
 ```csharp
 public bool StrikethroughTopLeftToBottomRight { get; set; }

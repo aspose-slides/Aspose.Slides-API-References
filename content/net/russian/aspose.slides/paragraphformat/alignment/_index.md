@@ -1,15 +1,15 @@
 ---
 title: Alignment
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает выравнивание текста в абзаце без наследования. Чтение/запись TextAlignmentaspose.slides/textalignment.
+second_title: Aspose.Sildes for .NET API Reference
+description: Возвращает или устанавливает выравнивание текста абзаца без наследования. Чтение/запись TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 20
 url: /ru/aspose.slides/paragraphformat/alignment/
 ---
 
-## Свойство ParagraphFormat.Alignment
+## ParagraphFormat.Alignment property
 
-Возвращает или устанавливает выравнивание текста в абзаце без наследования. Чтение/запись [`TextAlignment`](../../textalignment).
+Возвращает или устанавливает выравнивание текста абзаца без наследования. Чтение/запись [`TextAlignment`](../../textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; set; }
@@ -17,33 +17,33 @@ public TextAlignment Alignment { get; set; }
 
 ### Примеры
 
-Следующий пример кода показывает, как выравнивать текстовые абзацы в презентации PowerPoint.
+Следующий пример кода показывает, как выровнять текстовые абзацы в презентации PowerPoint.
 
 ```csharp
 [C#]
-// Создание объекта Presentation, представляющего файл PPTX
+// Создание объекта Presentation, который представляет файл PPTX
 using (Presentation pres = new Presentation("ParagraphsAlignment.pptx"))
 {
     // Доступ к первому слайду
     ISlide slide = pres.Slides[0];
-    // Доступ к первому и второму контейнерам в слайде и приведение их к типу AutoShape
+    // Доступ к первому и второму заполнителям на слайде и приведение к типу AutoShape
     ITextFrame tf1 = ((IAutoShape)slide.Shapes[0]).TextFrame;
     ITextFrame tf2 = ((IAutoShape)slide.Shapes[1]).TextFrame;
-    // Изменение текста в обоих контейнерах
-    tf1.Text = "Центр по выравниванию от Aspose";
-    tf2.Text = "Центр по выравниванию от Aspose";
-    // Получение первого абзаца контейнеров
+    // Изменение текста в обоих заполнителях
+    tf1.Text = "Центр выравнивания от Aspose";
+    tf2.Text = "Центр выравнивания от Aspose";
+    // Получение первого абзаца заполнителей
     IParagraph para1 = tf1.Paragraphs[0];
     IParagraph para2 = tf2.Paragraphs[0];
-    // Выравнивание текста абзаца по центру
+    // Выравнивание текстового абзаца по центру
     para1.ParagraphFormat.Alignment = TextAlignment.Center;
     para2.ParagraphFormat.Alignment = TextAlignment.Center;
-    // Сохранение презентации в виде файла PPTX
+    // Сохранение презентации как файл PPTX
     pres.Save("Centeralign_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [TextAlignment](../../textalignment)
 * class [ParagraphFormat](../../paragraphformat)

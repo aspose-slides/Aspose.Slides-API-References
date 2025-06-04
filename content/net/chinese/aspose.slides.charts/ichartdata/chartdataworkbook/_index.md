@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Slides for .NET API 参考
-description: 获取用于创建图表系列或类别的单元格工厂。只读 IChartDataWorkbook aspose.slides.charts/ichartdataworkbook。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取用于图表系列或类别的单元格工厂。只读 IChartDataWorkbookaspose.slides.charts/ichartdataworkbook。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ichartdata/chartdataworkbook/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartdata/chartdataworkbook/
 
 ## IChartData.ChartDataWorkbook 属性
 
-获取用于创建图表系列或类别的单元格工厂。只读 [`IChartDataWorkbook`](../../ichartdataworkbook)。
+获取用于图表系列或类别的单元格工厂。只读 [`IChartDataWorkbook`](../../ichartdataworkbook)。
 
 ```csharp
 public IChartDataWorkbook ChartDataWorkbook { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)
 * 接口 [IChartData](../../ichartdata)

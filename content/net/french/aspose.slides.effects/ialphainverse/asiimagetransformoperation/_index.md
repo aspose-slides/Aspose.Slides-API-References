@@ -7,15 +7,15 @@ weight: 20
 url: /fr/aspose.slides.effects/ialphainverse/asiimagetransformoperation/
 ---
 
-## Propriété IAlphaInverse.AsIImageTransformOperation
+## IAlphaInverse.AsIImageTransformOperation propriété
 
-Permet d'obtenir l'interface de base IImageTransformOperation. [`IImageTransformOperation`](../../iimagetransformoperation) en lecture seule.
+Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IImageTransformOperation](../../iimagetransformoperation)
 * interface [IAlphaInverse](../../ialphainverse)

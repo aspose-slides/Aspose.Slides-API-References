@@ -1,6 +1,6 @@
 ---
 title: GetOrCreateByValue
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Ищет существующее свойство поведения по значению или создает новое пользовательское с указанным значением
 type: docs
 weight: 1220

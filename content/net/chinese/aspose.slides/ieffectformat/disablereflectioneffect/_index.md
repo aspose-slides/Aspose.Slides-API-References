@@ -1,6 +1,6 @@
 ---
 title: DisableReflectionEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 禁用反射效果。
 type: docs
 weight: 170

@@ -1,13 +1,13 @@
 ---
 title: FillMode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Establece el modo de relleno
 type: docs
 weight: 10
 url: /es/aspose.slides/igeometrypath/fillmode/
 ---
 
-## Propiedad IGeometryPath.FillMode
+## IGeometryPath.FillMode propiedad
 
 Establece el modo de relleno
 

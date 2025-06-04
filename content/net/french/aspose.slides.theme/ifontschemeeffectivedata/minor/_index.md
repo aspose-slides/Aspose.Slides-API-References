@@ -1,13 +1,13 @@
 ---
 title: Minor
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie la collection de polices pour une partie "corps" de la diapositive. Lecture seule IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs
 weight: 20
 url: /fr/aspose.slides.theme/ifontschemeeffectivedata/minor/
 ---
 
-## Propriété IFontSchemeEffectiveData.Minor
+## IFontSchemeEffectiveData.Minor propriété
 
 Renvoie la collection de polices pour une partie "corps" de la diapositive. Lecture seule [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
 
@@ -15,7 +15,7 @@ Renvoie la collection de polices pour une partie "corps" de la diapositive. Lect
 public IFontsEffectiveData Minor { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontsEffectiveData](../../../aspose.slides/ifontseffectivedata)
 * interface [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: ValueType
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Falle eines benutzerdefinierten Werttyps verwenden Sie die Eigenschaft ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues eines bestimmten Datenpunktes in der DataPoints-Sammlung der Serie, um den Wert anzugeben. Lese-/schreibbare ErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt mögliche Methoden zur Bestimmung der Länge der Fehlerbalken dar. Im Fall eines benutzerdefinierten Wertetyps zur Angabe des Wertes verwenden Sie die ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues-Eigenschaft des spezifischen Datenpunkts in der DataPoints-Sammlung der Serie. Lese-/Schreibe ErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/ierrorbarsformat/valuetype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ierrorbarsformat/valuetype/
 
 ## IErrorBarsFormat.ValueType-Eigenschaft
 
-Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Falle eines benutzerdefinierten Werttyps verwenden Sie die [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) Eigenschaft eines bestimmten Datenpunktes in der DataPoints-Sammlung der Serie, um den Wert anzugeben. Lese-/schreibbar ist [`ErrorBarValueType`](../../errorbarvaluetype).
+Stellt mögliche Methoden zur Bestimmung der Länge der Fehlerbalken dar. Im Fall eines benutzerdefinierten Wertetyps zur Angabe des Wertes verwenden Sie die [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)-Eigenschaft des spezifischen Datenpunkts in der DataPoints-Sammlung der Serie. Lese-/Schreibe [`ErrorBarValueType`](../../errorbarvaluetype).
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }

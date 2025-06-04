@@ -1,6 +1,6 @@
 ---
 title: AssemblyVersion
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для справочника API .NET
 description: Версия сборки Aspose.Slides.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/buildversioninfo/assemblyversion/
 public const string AssemblyVersion;
 ```
 
-### См. Также
+### Также смотрите
 
 * класс [BuildVersionInfo](../../buildversioninfo)
 * пространство имен [Aspose.Slides](../../buildversioninfo)

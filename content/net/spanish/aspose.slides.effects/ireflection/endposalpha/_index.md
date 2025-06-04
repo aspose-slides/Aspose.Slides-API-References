@@ -1,15 +1,15 @@
 ---
 title: EndPosAlpha
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica la posición final a lo largo de la rampa de gradiente alfa del valor final de alfa porcentajes. Lectura/escritura Single.
+description: Especifica la posición final a lo largo de la rampa de gradiente alfa del valor alfa final en porcentajes. Lectura/escritura Single.
 type: docs
 weight: 60
 url: /es/aspose.slides.effects/ireflection/endposalpha/
 ---
 
-## Propiedad IReflection.EndPosAlpha
+## IReflection.EndPosAlpha property
 
-Especifica la posición final (a lo largo de la rampa de gradiente alfa) del valor final de alfa (porcentajes). Lectura/escritura Single.
+Especifica la posición final (a lo largo de la rampa de gradiente alfa) del valor alfa final (porcentajes). Lectura/escritura Single.
 
 ```csharp
 public float EndPosAlpha { get; set; }
@@ -17,8 +17,8 @@ public float EndPosAlpha { get; set; }
 
 ### Ver También
 
-* interfaz [IReflection](../../ireflection)
-* espacio de nombres [Aspose.Slides.Effects](../../ireflection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IReflection](../../ireflection)
+* namespace [Aspose.Slides.Effects](../../ireflection)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

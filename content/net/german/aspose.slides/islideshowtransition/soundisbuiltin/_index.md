@@ -1,21 +1,21 @@
 ---
 title: SoundIsBuiltIn
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob dieser Sound ein integrierter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die erzeugende Anwendung benachrichtigt, den für diesen Sound angegebenen Namen in ihrer Liste der integrierten Sounds zu überprüfen und kann dann einen benutzerdefinierten Namen oder eine Benutzeroberfläche nach Bedarf anzeigen. Lese- und Schreib-Boolean.
+description: Gibt an, ob dieser Sound ein integrierter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die generierende Anwendung benachrichtigt, den für diesen Sound angegebenen Namen in ihrer Liste der integrierten Sounds zu überprüfen und kann dann gegebenenfalls einen benutzerdefinierten Namen oder eine Benutzeroberfläche bereitstellen. Lese-Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/islideshowtransition/soundisbuiltin/
 ---
 
-## ISlideShowTransition.SoundIsBuiltIn Eigenschaft
+## ISlideShowTransition.SoundIsBuiltIn-Eigenschaft
 
-Gibt an, ob dieser Sound ein integrierter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die erzeugende Anwendung benachrichtigt, den für diesen Sound angegebenen Namen in ihrer Liste der integrierten Sounds zu überprüfen und kann dann einen benutzerdefinierten Namen oder eine Benutzeroberfläche nach Bedarf anzeigen. Lese- und Schreib-Boolean.
+Gibt an, ob dieser Sound ein integrierter Sound ist oder nicht. Wenn dieses Attribut auf true gesetzt ist, wird die generierende Anwendung benachrichtigt, den für diesen Sound angegebenen Namen in ihrer Liste der integrierten Sounds zu überprüfen und kann dann gegebenenfalls einen benutzerdefinierten Namen oder eine Benutzeroberfläche bereitstellen. Lese-Schreib-Boolean.
 
 ```csharp
 public bool SoundIsBuiltIn { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideShowTransition](../../islideshowtransition)
 * Namespace [Aspose.Slides](../../islideshowtransition)

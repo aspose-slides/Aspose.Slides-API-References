@@ -1,20 +1,20 @@
 ---
 title: Aspose.Slides.Import
 second_title: Aspose.Slides für .NET API Referenz
-description: Enthält Klassen, die Daten in Microsoft PowerPoint-Präsentationen importieren.
+description: Enthält Klassen zum Importieren von Daten in Microsoft PowerPoint-Präsentationen.
 type: docs
 weight: 90
 url: /de/aspose.slides.import/
 ---
 
-Enthält Klassen, die Daten in Microsoft PowerPoint-Präsentationen importieren.
+Enthält Klassen zum Importieren von Daten in Microsoft PowerPoint-Präsentationen.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [ExternalResourceResolver](./externalresourceresolver) | Callback-Klasse, die verwendet wird, um externe Ressourcen während des Imports von Html- und Svg-Dokumenten aufzulösen. Die Verwendung dieses Resolvers könnte eine Sicherheitsanfälligkeit schaffen, wenn eine vom Client bereitgestellte HTML- oder SVG-Datei das Server-Software dazu bringt, lokale oder Netzwerkdateien zu beschaffen. Mit Vorsicht zu verwenden. Es wird empfohlen, ExternalResourceResolver überhaupt nicht anzugeben (nur eingebettete Objekte werden gelesen) oder eine Unterklasse zu erstellen, die überprüft, ob die angegebene URI gültig ist. |
-| [PdfImportOptions](./pdfimportoptions) | Stellt die PDF-Importoptionen dar |
+| [ExternalResourceResolver](./externalresourceresolver) | Callback-Klasse, die verwendet wird, um externe Ressourcen während des Imports von Html- und Svg-Dokumenten aufzulösen. Die Verwendung dieses Resolvers könnte eine Schwachstelle schaffen, wenn eine vom Client bereitgestellte HTML- oder SVG-Datei dazu führt, dass die Serverse software auf lokale oder Netzwerkdateien zugreift. Vorsicht bei der Verwendung. Es wird empfohlen, den ExternalResourceResolver überhaupt nicht anzugeben (nur eingebettete Objekte werden gelesen) oder eine Unterklasse zu erstellen, die überprüft, ob die angegebene URI gültig ist. |
+| [PdfImportOptions](./pdfimportoptions) | Stellt die PDF-Importoptionen dar. |
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |

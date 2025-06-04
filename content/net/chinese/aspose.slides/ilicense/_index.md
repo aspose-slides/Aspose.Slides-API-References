@@ -1,7 +1,7 @@
 ---
 title: ILicense
-second_title: Aspose.Slides for .NET API 参考
-description: 提供方法以为组件授权。
+second_title: Aspose.Sildes for .NET API Reference
+description: 提供了用于许可组件的方法。
 type: docs
 weight: 6060
 url: /zh/aspose.slides/ilicense/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilicense/
 
 ## ILicense 接口
 
-提供方法以为组件授权。
+提供了用于许可组件的方法。
 
 ```csharp
 public interface ILicense
@@ -19,10 +19,10 @@ public interface ILicense
 
 | 名称 | 描述 |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | 检查是否已为组件应用许可证 |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | 检查是否已将许可证应用于组件 |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | 重置许可证 |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | 为组件授权。 |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | 为组件授权。 |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | 许可组件。 |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | 许可组件。 |
 
 ### 示例
 
@@ -41,7 +41,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

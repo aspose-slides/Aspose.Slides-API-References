@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
-second_title: Aspose.Slides for .NET API 参考
-description: 确定图表是否具有上下条。可读写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定图表是否具有上下条。可读/可写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
 
 ## IUpDownBarsManager.HasUpDownBars 属性
 
-确定图表是否具有上下条。可读写布尔值。
+确定图表是否具有上下条。可读/可写布尔值。
 
 ```csharp
 public bool HasUpDownBars { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IUpDownBarsManager](../../iupdownbarsmanager)
 * 命名空间 [Aspose.Slides.Charts](../../iupdownbarsmanager)

@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft effektive Hintergrunddaten mit angewandter Vererbung ab.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ruft effektive Hintergrunddaten mit der angewendeten Vererbung ab.
 type: docs
 weight: 80
 url: /de/aspose.slides/background/geteffective/
 ---
 
-## Background.GetEffective-Methode
+## Background.GetEffective Methode
 
-Ruft effektive Hintergrunddaten mit angewandter Vererbung ab.
+Ruft effektive Hintergrunddaten mit der angewendeten Vererbung ab.
 
 ```csharp
 public IBackgroundEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
 ### Beispiele
 
-Dieses Beispiel zeigt, wie man effektive Hintergrundeigenschaften abruft.
+Dieses Beispiel demonstriert das Abrufen effektiver Hintergrundeigenschaften.
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IBackgroundEffectiveData effectiveBackground = pres.Slides[0].Background.GetEffective();
 
 	Console.WriteLine("Hintergrundfülltyp: " + effectiveBackground.FillFormat.FillType);
-	Console.WriteLine("Angewendete Effekte: " + !effectiveBackground.EffectFormat.IsNoEffects);
+	Console.WriteLine("Angewandte Effekte: " + !effectiveBackground.EffectFormat.IsNoEffects);
 }
 ```
 

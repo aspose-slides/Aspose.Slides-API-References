@@ -1,15 +1,15 @@
 ---
 title: AdjustValueCollection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Reprasents eine Sammlung von Anpassungen für Formen.
+description: Stellt eine Sammlung von Anpassungen an Formen dar.
 type: docs
 weight: 20
 url: /de/aspose.slides/adjustvaluecollection/
 ---
 
-## AdjustValueCollection-Klasse
+## AdjustValueCollection Klasse
 
-Reprasents eine Sammlung von Anpassungen für Formen.
+Stellt eine Sammlung von Anpassungen an Formen dar.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -19,8 +19,8 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Gibt die Anzahl der Anpassungen zurück. Nur-lesendes Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (threadsicher). Nur-lesendes Boolean. |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Gibt die Anzahl der Anpassungen zurück. Nur-lesender Int32. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur-lesender Boolean. |
 | [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Gibt die Anpassung nach Index zurück. |
 | [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur-lesendes Objekt. |
 
@@ -30,7 +30,7 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 | --- | --- |
 | [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DomObject&lt;TParent&gt;](../domobject-1)
 * Klasse [GeometryShape](../geometryshape)

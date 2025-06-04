@@ -15,7 +15,7 @@ Devuelve el nombre de un tema. Cadena de lectura/escritura.
 public string Name { get; set; }
 ```
 
-### Ver también
+### Véase también
 
 * interfaz [IMasterTheme](../../imastertheme)
 * espacio de nombres [Aspose.Slides.Theme](../../imastertheme)

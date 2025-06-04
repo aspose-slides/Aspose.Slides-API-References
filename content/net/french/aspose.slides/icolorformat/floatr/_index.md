@@ -15,7 +15,7 @@ Renvoie ou définit le composant rouge d'une couleur. Toutes les transformations
 public float FloatR { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../icolorformat)
 * namespace [Aspose.Slides](../../icolorformat)

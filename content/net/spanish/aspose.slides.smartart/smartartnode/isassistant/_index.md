@@ -1,6 +1,6 @@
 ---
 title: IsAssistant
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el nodo como asistente. Booleano de lectura/escritura.
 type: docs
 weight: 30
@@ -19,6 +19,6 @@ public bool IsAssistant { get; set; }
 
 * clase [SmartArtNode](../../smartartnode)
 * espacio de nombres [Aspose.Slides.SmartArt](../../smartartnode)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: PptxOptions
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Crée une nouvelle instance de PptxOptions
 type: docs
 weight: 10

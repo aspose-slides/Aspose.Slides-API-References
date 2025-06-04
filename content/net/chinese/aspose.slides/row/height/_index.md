@@ -1,6 +1,6 @@
 ---
 title: Height
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回行的高度。只读 Double。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/row/height/
 public double Height { get; }
 ```
 
-### 另见
+### 参见
 
 * class [Row](../../row)
 * namespace [Aspose.Slides](../../row)

@@ -1,63 +1,63 @@
----
+---  
 title: RenderingOptions
-second_title: Aspose.Sildes для .NET API Reference
-description: Предоставляет параметры, которые контролируют, как происходит отображение презентации/слайда.
-type: docs
-weight: 4220
+second_title: Aspose.Sildes для .NET API Справочник  
+description: Предоставляет параметры, которые контролируют, как презентация/слайд отображается.
+type: docs  
+weight: 4220  
 url: /ru/aspose.slides.export/renderingoptions/
----
+---  
 
-## Класс RenderingOptions
+## RenderingOptions class  
 
-Предоставляет параметры, которые контролируют, как происходит отображение презентации/слайда.
+Предоставляет параметры, которые контролируют, как презентация/слайд отображается.  
 
-```csharp
-public class RenderingOptions : SaveOptions, IRenderingOptions
-```
+```csharp  
+public class RenderingOptions : SaveOptions, IRenderingOptions  
+```  
 
-## Конструкторы
+## Конструкторы  
 
-| Название | Описание |
-| --- | --- |
-| [RenderingOptions](renderingoptions)() | Конструктор по умолчанию. |
+| Имя | Описание |  
+| --- | --- |  
+| [RenderingOptions](renderingoptions)() | Конструктор по умолчанию. |  
 
-## Свойства
+## Свойства  
 
-| Название | Описание |
-| --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Читаемое и записываемое значение типа String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. Если установлено в `true`, лигатуры будут отключены в сгенерированном выводе. По умолчанию это свойство установлено в `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Читаемое и записываемое значение типа [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для обновления прогресса сохранения в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемое и записываемое значение типа Boolean. Значение по умолчанию **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Получает или устанавливает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или устанавливает объект, который получает предупреждения и решает, продолжится ли процесс загрузки или будет прерван. Читаемое и записываемое значение типа [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| Имя | Описание |  
+| --- | --- |  
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или задает шрифт, используемый в случае, если исходный шрифт не найден. Читаемый и записываемый String. |  
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Получает или задает значение, указывающее, отображается ли текст без использования лигатур. При установленном значении `true` лигатуры будут отключены в рендеринговом выводе. По умолчанию это свойство установлено в `false`. |  
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Возвращает или задает визуальный стиль градиента. Читаемый и записываемый [`GradientStyle`](../../aspose.slides/gradientstyle). |  
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения [`IInkOptions`](../iinkoptions) |  
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений прогресса в процентах. См. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |  
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Указывает, следует ли пропускать гиперссылки с вызовами JavaScript при сохранении презентации. Читаемый и записываемый Boolean. Значение по умолчанию **false**. |  
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../islideslayoutoptions). |  
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает или задает объект, который получает предупреждения и решает, продолжится ли процесс загрузки или будет прерван. Читаемый и записываемый [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |  
 
-### Примеры
+### Примеры  
 
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-  {
-  IRenderingOptions renderingOpts = new RenderingOptions();
-  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomTruncated };
-  
-  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);
-  
-  renderingOpts.DefaultRegularFont = "Arial Black";
-  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialBlackDefault.png", ImageFormat.Png);
-  
-  renderingOpts.DefaultRegularFont = "Arial Narrow";
-  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialNarrowDefault.png", ImageFormat.Png);
-}
-```
+```csharp  
+[C#]  
+using (Presentation pres = new Presentation("pres.pptx"))  
+  {  
+  IRenderingOptions renderingOpts = new RenderingOptions();  
+  renderingOpts.SlidesLayoutOptions = new NotesCommentsLayoutingOptions() { NotesPosition = NotesPositions.BottomTruncated };  
+   
+  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-Original.png", ImageFormat.Png);  
+   
+  renderingOpts.DefaultRegularFont = "Arial Black";  
+  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialBlackDefault.png", ImageFormat.Png);  
+   
+  renderingOpts.DefaultRegularFont = "Arial Narrow";  
+  pres.Slides[0].GetThumbnail(renderingOpts).Save("pres-ArialNarrowDefault.png", ImageFormat.Png);  
+}  
+```  
 
-### См. также
+### См. также  
 
-* класс [SaveOptions](../saveoptions)
-* интерфейс [IRenderingOptions](../irenderingoptions)
-* пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
-* сборка [Aspose.Slides](../../)
+* класс [SaveOptions](../saveoptions)  
+* интерфейс [IRenderingOptions](../irenderingoptions)  
+* пространство имен [Aspose.Slides.Export](../../aspose.slides.export)  
+* сборка [Aspose.Slides](../../)  
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  

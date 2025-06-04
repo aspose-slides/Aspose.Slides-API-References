@@ -1,6 +1,6 @@
 ---
 title: Bitmap
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 幻灯片应转换为光栅图像。
 type: docs
 weight: 20
@@ -20,7 +20,7 @@ public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
 | scale | Single | 图像缩放因子。 |
 | imgFormat | ImageFormat | 图像格式。 |
 
-### 参见
+### 另见
 
 * class [SlideImageFormat](../../slideimageformat)
 * namespace [Aspose.Slides.Export](../../slideimageformat)

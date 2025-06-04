@@ -1,7 +1,7 @@
 ---
 title: AddFallBackFonts
-second_title: Aspose.Slides for .NET API 参考
-description: 将新的字体添加到备用字体列表中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新字体添加到后备字体列表中。
 type: docs
 weight: 60
 url: /zh/aspose.slides/fontfallbackrule/addfallbackfonts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontfallbackrule/addfallbackfonts/
 
 ## AddFallBackFonts(string) {#addfallbackfonts}
 
-将新的字体添加到备用字体列表中。
+将新字体添加到后备字体列表中。
 
 ```csharp
 public void AddFallBackFonts(string fontName)
@@ -17,7 +17,7 @@ public void AddFallBackFonts(string fontName)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | 备用字体的名称或名称列表（用逗号分隔） |
+| fontName | String | 后备字体的字体名称（以逗号分隔） |
 
 ### 示例
 
@@ -26,13 +26,13 @@ public void AddFallBackFonts(string fontName)
 // 创建 FontFallBackRule 的新实例
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-// 为规则添加第二种字体
+// 为规则添加第二个字体
 newRule.AddFallBackFonts("MS Gothic");
-// 为规则添加第三和第四种字体
+// 为规则添加第三和第四个字体
 newRule.AddFallBackFonts("Tahoma, Times New Roman");
 ```
 
-### 另见
+### 相关内容
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)
@@ -42,7 +42,7 @@ newRule.AddFallBackFonts("Tahoma, Times New Roman");
 
 ## AddFallBackFonts(string[]) {#addfallbackfonts_1}
 
-将新的字体添加到备用字体列表中。
+将新字体添加到后备字体列表中。
 
 ```csharp
 public void AddFallBackFonts(string[] fontNames)
@@ -50,7 +50,7 @@ public void AddFallBackFonts(string[] fontNames)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| fontNames | String[] | 备用字体的名称或名称列表（用逗号分隔） |
+| fontNames | String[] | 后备字体的字体名称（以逗号分隔） |
 
 ### 示例
 
@@ -59,11 +59,11 @@ public void AddFallBackFonts(string[] fontNames)
 // 创建 FontFallBackRule 的新实例
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-// 为规则添加另外三种字体
+// 为规则添加另外三个字体
 newRule.AddFallBackFonts(new string [] {"MS Gothic","Tahoma, Times New Roman"});
 ```
 
-### 另见
+### 相关内容
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)

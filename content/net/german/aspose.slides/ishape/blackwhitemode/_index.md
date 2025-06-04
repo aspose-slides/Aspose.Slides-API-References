@@ -1,7 +1,7 @@
 ---
 title: BlackWhiteMode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Die Eigenschaft gibt an, wie eine Form im Schwarzweiß-Anzeigemodus gerendert wird. Lese-/Schreibzugriff auf BlackWhiteModeaspose.slides/blackwhitemode.
+description: Die Eigenschaft gibt an, wie eine Form im Schwarz-Weiß-Anzeigemodus gerendert wird. Lese-/Schreibzugriff auf BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs
 weight: 50
 url: /de/aspose.slides/ishape/blackwhitemode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/blackwhitemode/
 
 ## IShape.BlackWhiteMode-Eigenschaft
 
-Die Eigenschaft gibt an, wie eine Form im Schwarzweiß-Anzeigemodus gerendert wird. Lese-/Schreibzugriff auf [`BlackWhiteMode`](../../blackwhitemode).
+Die Eigenschaft gibt an, wie eine Form im Schwarz-Weiß-Anzeigemodus gerendert wird. Lese-/Schreibzugriff auf [`BlackWhiteMode`](../../blackwhitemode).
 
 ```csharp
 public BlackWhiteMode BlackWhiteMode { get; set; }

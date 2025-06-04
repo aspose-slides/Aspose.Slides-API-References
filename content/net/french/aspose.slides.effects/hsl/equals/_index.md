@@ -1,15 +1,15 @@
 ---
 title: Equals
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le HSL spécifié est égal au HSL actuel.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Détermine si le HSL spécifié HSLaspose.slides.effects/hsl est égal au HSL actuel HSLaspose.slides.effects/hsl.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/hsl/equals/
 ---
 
-## Méthode HSL.Equals
+## HSL.Equals méthode
 
-Détermine si le [`HSL`](../../hsl) spécifié est égal au [`HSL`](../../hsl) actuel.
+Détermine si le `HSL` spécifié [`HSL`](../../hsl) est égal au `HSL` actuel [`HSL`](../../hsl).
 
 ```csharp
 public override bool Equals(object obj)

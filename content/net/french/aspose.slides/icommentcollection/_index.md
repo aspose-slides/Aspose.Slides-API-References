@@ -1,6 +1,6 @@
 ---
 title: ICommentCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une collection de commentaires d'un auteur.
 type: docs
 weight: 5390

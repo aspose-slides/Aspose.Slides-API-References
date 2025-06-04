@@ -1,7 +1,7 @@
 ---
 title: Read
-second_title: Aspose.Slides für .NET API-Referenz
-description: Liest eine Byte-Sequenz aus dem aktuellen Stream und verschiebt die Position innerhalb des Streams um die Anzahl der gelesenen Bytes.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Liest eine Bytefolge aus dem aktuellen Stream und verschiebt die Position innerhalb des Streams um die Anzahl der gelesenen Bytes.
 type: docs
 weight: 110
 url: /de/aspose.slides/streamwrapper/read/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/streamwrapper/read/
 
 ## StreamWrapper.Read Methode
 
-Liest eine Byte-Sequenz aus dem aktuellen Stream und verschiebt die Position innerhalb des Streams um die Anzahl der gelesenen Bytes.
+Liest eine Bytefolge aus dem aktuellen Stream und verschiebt die Position innerhalb des Streams um die Anzahl der gelesenen Bytes.
 
 ```csharp
 public void Read(byte[] buffer, int offset, int count)

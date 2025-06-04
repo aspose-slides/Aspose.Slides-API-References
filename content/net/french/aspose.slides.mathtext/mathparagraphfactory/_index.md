@@ -7,7 +7,7 @@ weight: 8650
 url: /fr/aspose.slides.mathtext/mathparagraphfactory/
 ---
 
-## Classe MathParagraphFactory
+## MathParagraphFactory class
 
 Permet de créer un paragraphe mathématique
 
@@ -25,8 +25,8 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | Créer un paragraphe mathématique vide |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Crée un paragraphe mathématique et place le bloc mathématique spécifié à l'intérieur |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | Crée un paragraphe mathématique vide |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Crée un paragraphe mathématique et place le bloc mathématique spécifié dedans |
 
 ### Remarques
 

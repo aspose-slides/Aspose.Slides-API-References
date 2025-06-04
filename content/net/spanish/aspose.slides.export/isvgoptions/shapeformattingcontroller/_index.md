@@ -1,6 +1,6 @@
 ---
 title: ShapeFormattingController
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve y establece una interfaz de callback que permite al usuario controlar la conversión de formas. Lectura/escritura ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
 weight: 120
@@ -15,11 +15,11 @@ Devuelve y establece una interfaz de callback que permite al usuario controlar l
 public ISvgShapeFormattingController ShapeFormattingController { get; set; }
 ```
 
-### Véase también
+### Véase También
 
-* interfaz [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
-* interfaz [ISVGOptions](../../isvgoptions)
-* espacio de nombres [Aspose.Slides.Export](../../isvgoptions)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
+* interfaz [ISVGOptions](../../isvgoptions)
+* espacio de nombres [Aspose.Slides.Export](../../isvgoptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

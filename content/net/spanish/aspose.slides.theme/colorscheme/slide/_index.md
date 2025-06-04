@@ -1,6 +1,6 @@
 ---
 title: Slide
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve la diapositiva principal. Solo lectura IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 150
@@ -15,11 +15,11 @@ Devuelve la diapositiva principal. Solo lectura [`IBaseSlide`](../../../aspose.s
 public IBaseSlide Slide { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interface [IBaseSlide](../../../aspose.slides/ibaseslide)
-* class [ColorScheme](../../colorscheme)
-* namespace [Aspose.Slides.Theme](../../colorscheme)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IBaseSlide](../../../aspose.slides/ibaseslide)
+* clase [ColorScheme](../../colorscheme)
+* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

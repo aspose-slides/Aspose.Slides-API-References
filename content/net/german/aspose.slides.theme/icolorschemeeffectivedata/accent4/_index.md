@@ -1,7 +1,7 @@
 ---
 title: Accent4
 second_title: Aspose.Slides für .NET API-Referenz
-description: Vierte Akzentfarbe im Farbschema. Nur lesende Farbe.
+description: Vierte Akzentfarbe im Schema. Nur lesen Color.
 type: docs
 weight: 40
 url: /de/aspose.slides.theme/icolorschemeeffectivedata/accent4/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 
 ## IColorSchemeEffectiveData.Accent4-Eigenschaft
 
-Vierte Akzentfarbe im Farbschema. Nur lesende Farbe.
+Vierte Akzentfarbe im Schema. Nur lesen Color.
 
 ```csharp
 public Color Accent4 { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * Namespace [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

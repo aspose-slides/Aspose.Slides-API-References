@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides.mathtext/imatharray/rowspacingrule/
 ---
 
-## IMathArray.RowSpacingRule-Eigenschaft
+## IMathArray.RowSpacingRule Eigenschaft
 
 Die Art des vertikalen Abstands zwischen Array-Elementen
 

@@ -1,7 +1,7 @@
 ---
 title: Pattern
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Form der visuellen Effekte an, die während der Übergangs verwendet werden. Lese-/Schreibzugriff auf TransitionPatternaspose.slides.slideshow/transitionpattern.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Form der Visuals an, die während der Übergangs verwendet werden. Lese/Schreibe TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/glittertransition/pattern/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/glittertransition/pattern/
 
 ## GlitterTransition.Pattern-Eigenschaft
 
-Gibt die Form der visuellen Effekte an, die während des Übergangs verwendet werden. Lese-/Schreibzugriff auf [`TransitionPattern`](../../transitionpattern).
+Gibt die Form der Visuals an, die während des Übergangs verwendet werden. Lese/Schreibe [`TransitionPattern`](../../transitionpattern).
 
 ```csharp
 public TransitionPattern Pattern { get; set; }

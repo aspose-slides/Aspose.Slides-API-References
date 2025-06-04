@@ -1,15 +1,15 @@
 ---
 title: Kumimoji
-second_title: Aspose.Slides pour référence API .NET
-description: Détermine si les nombres doivent ignorer la mise en page verticale spécifique aux langues orientales. Booléen en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si les chiffres doivent ignorer la mise en page verticale spécifique aux langues de l'est. Booléen en lecture seule.
 type: docs
 weight: 150
 url: /fr/aspose.slides/ibaseportionformateffectivedata/kumimoji/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.Kumimoji
+## IBasePortionFormatEffectiveData.Kumimoji property
 
-Détermine si les nombres doivent ignorer la mise en page verticale spécifique aux langues orientales. Booléen en lecture seule.
+Détermine si les chiffres doivent ignorer la mise en page verticale spécifique aux langues de l'est. Booléen en lecture seule.
 
 ```csharp
 public bool Kumimoji { get; }

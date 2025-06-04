@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Elimina el elemento en el índice especificado de la colección.
 type: docs
 weight: 110
 url: /es/aspose.slides/tabcollection/removeat/
 ---
 
-## Método TabCollection.RemoveAt
+## TabCollection.RemoveAt método
 
 Elimina el elemento en el índice especificado de la colección.
 
@@ -19,10 +19,10 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero del elemento a eliminar. |
 
-### Véase también
+### Ver También
 
 * clase [TabCollection](../../tabcollection)
 * espacio de nombres [Aspose.Slides](../../tabcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

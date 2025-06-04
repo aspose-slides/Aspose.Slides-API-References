@@ -1,7 +1,7 @@
 ---
 title: IBlurEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immutable qui représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Objet immuable qui représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 type: docs
 weight: 3090
 url: /fr/aspose.slides.effects/iblureffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iblureffectivedata/
 
 ## Interface IBlurEffectiveData
 
-Objet immutable qui représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
+Objet immuable qui représente un effet de flou appliqué à l'ensemble de la forme, y compris son remplissage. Tous les canaux de couleur, y compris l'alpha, sont affectés.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -19,11 +19,11 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. En lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Détermine si les limites de l'objet doivent être agrandies à la suite du flou. True indique que les limites sont agrandies tandis que false indique qu'elles ne le sont pas. Booléen en lecture seule. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Retourne ou définit le rayon de flou. Double en lecture seule. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Détermine si les limites de l'objet doivent être agrandies à la suite du flou. Vrai indique que les limites sont agrandies tandis que faux indique qu'elles ne le sont pas. Booléen en lecture seule. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Renvoie ou définit le rayon du flou. Double en lecture seule. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

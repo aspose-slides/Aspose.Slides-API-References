@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur-Lese-Boolescher Wert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur lesbares Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/chartdatapointcollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/issynchronized/
 
 ## ChartDataPointCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese-Boolescher Wert.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur lesbares Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

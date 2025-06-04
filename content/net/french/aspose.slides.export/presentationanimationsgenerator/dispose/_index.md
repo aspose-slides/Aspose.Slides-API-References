@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Référence API Aspose.Slides pour .NET
-description: Libère l'instance de PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
+description: Libère l'instance de la classe PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs
 weight: 70
 url: /fr/aspose.slides.export/presentationanimationsgenerator/dispose/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/presentationanimationsgenerator/dispose/
 
 ## Méthode PresentationAnimationsGenerator.Dispose
 
-Libère l'instance de la [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
+Libère l'instance de la classe [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
 
 ```csharp
 public void Dispose()

@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides for .NET API 参考
-description: 过渡类型。可读写 TransitionTypeaspose.slides/../aspose.slides.slideshow/transitiontype.
+second_title: Aspose.Slides for .NET API Reference
+description: 转换类型。可读写 TransitionType aspose.slides.slideshow/transitiontype。
 type: docs
 weight: 100
 url: /zh/aspose.slides/islideshowtransition/type/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/islideshowtransition/type/
 
 ## ISlideShowTransition.Type 属性
 
-过渡类型。可读写 [`TransitionType`](../../../aspose.slides.slideshow/transitiontype)。
+转换类型。可读写 [`TransitionType`](../../../aspose.slides.slideshow/transitiontype)。
 
 ```csharp
 public TransitionType Type { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [TransitionType](../../../aspose.slides.slideshow/transitiontype)
 * 接口 [ISlideShowTransition](../../islideshowtransition)

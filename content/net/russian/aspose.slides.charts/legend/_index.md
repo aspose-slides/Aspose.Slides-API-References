@@ -1,7 +1,7 @@
 ---
 title: Legend
-second_title: Справка по API Aspose.Sildes для .NET
-description: Представляет свойства легенды графиков.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойства легенды диаграмм.
 type: docs
 weight: 2200
 url: /ru/aspose.slides.charts/legend/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/legend/
 
 ## Класс Legend
 
-Представляет свойства легенды графика.
+Представляет свойства легенды диаграммы.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -17,20 +17,20 @@ public class Legend : DomObject<Chart>, ILegend
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Низ. Только для чтения Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает график. Только для чтения [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает элементы легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Нижняя часть. Только для чтения Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает диаграмму. Только для чтения [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает записи легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | Возвращает формат легенды. Только для чтения [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или устанавливает высоту легенды в виде доли высоты графика. Чтение/запись Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, могут ли другие элементы графика перекрывать легенду. Чтение/запись Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на графике. Ненулевые значения свойств X, Y, Width, Height переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Право. Только для чтения Single. |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или устанавливает высоту легенды в долях от высоты диаграммы. Чтение/запись Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, разрешено ли наложение других элементов диаграммы на легенду. Чтение/запись Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на диаграмме. Ненулевые значения свойств X, Y, Width, Height переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Правая сторона. Только для чтения Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или устанавливает ширину легенды в виде доли ширины графика. Чтение/запись Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или устанавливает координату x легенды в виде доли ширины графика. Чтение/запись Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или устанавливает координату y легенды в виде доли высоты графика. Чтение/запись Single. |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или устанавливает ширину легенды в долях от ширины диаграммы. Чтение/запись Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или устанавливает координату x легенды в долях от ширины диаграммы. Чтение/запись Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или устанавливает координату y легенды в долях от высоты диаграммы. Чтение/запись Single. |
 
 ### См. также
 

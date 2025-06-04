@@ -1,13 +1,13 @@
 ---
 title: RemoveHyperlinkMouseOver
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt den Hyperlink-Mouseover.
 type: docs
 weight: 20
 url: /de/aspose.slides/hyperlinkmanager/removehyperlinkmouseover/
 ---
 
-## HyperlinkManager.RemoveHyperlinkMouseOver Methode
+## HyperlinkManager.RemoveHyperlinkMouseOver-Methode
 
 Entfernt den Hyperlink-Mouseover.
 
@@ -15,7 +15,7 @@ Entfernt den Hyperlink-Mouseover.
 public void RemoveHyperlinkMouseOver()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [HyperlinkManager](../../hyperlinkmanager)
 * Namespace [Aspose.Slides](../../hyperlinkmanager)

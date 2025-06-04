@@ -1,21 +1,21 @@
 ---
 title: ReplaceImage
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Reemplaza los datos de la imagen. Los nuevos datos de la imagen. Cuando el parámetro newImageData es nulo.
+second_title: Aspose.Sildes para .NET API Reference
+description: Reemplaza los datos de la imagen. Los nuevos datos de las imágenes. Cuando el parámetro newImageData es nulo.
 type: docs
 weight: 110
 url: /es/aspose.slides/ppimage/replaceimage/
 ---
 
-## ReemplazarImagen(byte[]) {#replaceimage_2}
+## ReplaceImage(byte[]) {#replaceimage_2}
 
-Reemplaza los datos de la imagen. Los nuevos datos de la imagen. Cuando el parámetro newImageData es nulo.
+Reemplaza los datos de la imagen. Los datos de la nueva imagen. Cuando el parámetro newImageData es nulo.
 
 ```csharp
 public void ReplaceImage(byte[] newImageData)
 ```
 
-### Ver También
+### See Also
 
 * class [PPImage](../../ppimage)
 * namespace [Aspose.Slides](../../ppimage)
@@ -23,15 +23,15 @@ public void ReplaceImage(byte[] newImageData)
 
 ---
 
-## ReemplazarImagen(IImage) {#replaceimage}
+## ReplaceImage(IImage) {#replaceimage}
 
-Reemplaza los datos de la imagen. Atención: cuando la imagen es un metafile - se rasterizará. Use ReplaceImage(byte[]) en su lugar. La nueva imagen. Cuando el parámetro newImage es nulo.
+Reemplaza los datos de la imagen. Atención: cuando la imagen es un metafile - será rasterizada. Usa ReplaceImage(byte[]) en su lugar. La nueva imagen. Cuando el parámetro newImage es nulo.
 
 ```csharp
 public void ReplaceImage(IImage newImage)
 ```
 
-### Ver También
+### See Also
 
 * interface [IImage](../../iimage)
 * class [PPImage](../../ppimage)
@@ -40,7 +40,7 @@ public void ReplaceImage(IImage newImage)
 
 ---
 
-## ReemplazarImagen(IPPImage) {#replaceimage_1}
+## ReplaceImage(IPPImage) {#replaceimage_1}
 
 Reemplaza los datos de la imagen. El nuevo IPPImage. Cuando el parámetro newImage es nulo.
 
@@ -48,7 +48,7 @@ Reemplaza los datos de la imagen. El nuevo IPPImage. Cuando el parámetro newIma
 public void ReplaceImage(IPPImage newImage)
 ```
 
-### Ver También
+### See Also
 
 * interface [IPPImage](../../ippimage)
 * class [PPImage](../../ppimage)

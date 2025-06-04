@@ -1,7 +1,7 @@
 ---
 title: TileScaleY
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt oder gibt den vertikalen Maßstab für die Texturfüllung als Prozentsatz zurück. Lese-/Schreibzugriff auf Single.
+description: Gibt die vertikale Skalierung für die Texturfüllung als Prozentsatz zurück oder setzt sie. Lese-/Schreibzugriff Single.
 type: docs
 weight: 170
 url: /de/aspose.slides/picturefillformat/tilescaley/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/tilescaley/
 
 ## PictureFillFormat.TileScaleY-Eigenschaft
 
-Setzt oder gibt den vertikalen Maßstab für die Texturfüllung als Prozentsatz zurück. Lese-/Schreibzugriff auf Single.
+Gibt die vertikale Skalierung für die Texturfüllung als Prozentsatz zurück oder setzt sie. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float TileScaleY { get; set; }
@@ -23,13 +23,13 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Ruft das Bildfüllformat der Form ab
+    // Erhält das Bildfüllformat der Form
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
     // Setzt den Bildfüllmodus auf Kachel
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Setzt den vertikalen Maßstab für die Textur auf 120 Prozent
+    // Setzt die vertikale Skalierung für die Textur auf 120 Prozent
     pictureFillFormat.TileScaleY = 120;
 }
 ```

@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lesen Int32.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Nur-Lesen Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/itrendlinecollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/itrendlinecollection/count/
 
 ## ITrendlineCollection.Count-Eigenschaft
 
-Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lesen Int32.
+Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Nur-Lesen Int32.
 
 ```csharp
 public int Count { get; }

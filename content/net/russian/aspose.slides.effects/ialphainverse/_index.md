@@ -1,7 +1,7 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет эффект Альфа Инверсии. Значения альфа-прозрачности инвертируются вычитанием из 100.
+second_title: Aspose.Slides для справки по API .NET
+description: Представляет эффект Alpha Inverse. Значения альфа-непрозрачности инвертируются вычитанием из 100.
 type: docs
 weight: 2980
 url: /ru/aspose.slides.effects/ialphainverse/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ialphainverse/
 
 ## Интерфейс IAlphaInverse
 
-Представляет эффект Альфа Инверсии. Значения альфа (прозрачности) инвертируются вычитанием из 100%.
+Представляет эффект Alpha Inverse. Значения альфа (непрозрачности) инвертируются вычитанием из 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -18,7 +18,7 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |

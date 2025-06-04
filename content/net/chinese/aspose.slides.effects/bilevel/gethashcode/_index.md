@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides for .NET API 参考
-description: 作为特定类型的哈希函数。
+description: 用作特定类型的哈希函数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/bilevel/gethashcode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/bilevel/gethashcode/
 
 ## BiLevel.GetHashCode 方法
 
-作为特定类型的哈希函数。
+用作特定类型的哈希函数。
 
 ```csharp
 public override int GetHashCode()
@@ -19,7 +19,7 @@ public override int GetHashCode()
 
 当前对象的哈希码。
 
-### 另请参阅
+### 另见
 
 * 类 [BiLevel](../../bilevel)
 * 命名空间 [Aspose.Slides.Effects](../../bilevel)

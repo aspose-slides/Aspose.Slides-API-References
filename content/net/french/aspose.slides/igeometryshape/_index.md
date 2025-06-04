@@ -1,13 +1,13 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la classe parente pour toutes les formes géométriques.
 type: docs
 weight: 5780
 url: /fr/aspose.slides/igeometryshape/
 ---
 
-## Interface IGeometryShape
+## IGeometryShape interface
 
 Représente la classe parente pour toutes les formes géométriques.
 
@@ -21,8 +21,8 @@ public interface IGeometryShape : IShape
 | --- | --- |
 | [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Renvoie une collection des valeurs d'ajustement de la forme. Lecture seule [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Permet d'obtenir l'interface de base IShape. Lecture seule [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Renvoie l'objet de style de la forme. Lecture seule [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Renvoie ou définit le type de préréglage géométrique. Remarque : lors du changement de valeur, toutes les valeurs d'ajustement seront réinitialisées à leurs valeurs par défaut. Lecture/écriture [`ShapeType`](../shapetype). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Renvoie l'objet style de la forme. Lecture seule [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Renvoie ou définit le type de présélection géométrique. Remarque : lors du changement de valeur, toutes les valeurs d'ajustement seront réinitialisées à leurs valeurs par défaut. Lecture/écriture [`ShapeType`](../shapetype). |
 
 ## Méthodes
 

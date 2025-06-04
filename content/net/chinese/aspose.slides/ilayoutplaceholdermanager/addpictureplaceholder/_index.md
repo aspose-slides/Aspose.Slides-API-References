@@ -17,10 +17,10 @@ public IAutoShape AddPicturePlaceholder(float x, float y, float width, float hei
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新占位符形状的 X 坐标。 |
-| y | Single | 新占位符形状的 Y 坐标。 |
-| width | Single | 新占位符形状的宽度。 |
-| height | Single | 新占位符形状的高度。 |
+| x | Single | 新的占位符形状的 X 坐标。 |
+| y | Single | 新的占位符形状的 Y 坐标。 |
+| width | Single | 新的占位符形状的宽度。 |
+| height | Single | 新的占位符形状的高度。 |
 
 ### 返回值
 
@@ -28,7 +28,7 @@ public IAutoShape AddPicturePlaceholder(float x, float y, float width, float hei
 
 ### 示例
 
-以下示例演示如何将图片占位符形状添加到布局幻灯片。
+以下示例展示了如何将图片占位符形状添加到布局幻灯片。
 
 ```csharp
 [C#]

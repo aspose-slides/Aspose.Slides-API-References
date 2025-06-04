@@ -1,7 +1,7 @@
 ---  
 title: Field
-second_title: Référence de l'API Aspose.Slides pour .NET  
-description: Renvoie un champ de cette portion. Lecture seule IFieldaspose.slides/ifield.
+second_title: Référence API Aspose.Slides pour .NET  
+description: Retourne un champ de cette portion. Lecture seule IFieldaspose.slides/ifield.
 type: docs  
 weight: 20  
 url: /fr/aspose.slides/portion/field/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/portion/field/
 
 ## Propriété Portion.Field  
 
-Renvoie un champ de cette portion. Lecture seule [`IField`](../../ifield).  
+Retourne un champ de cette portion. Lecture seule [`IField`](../../ifield).  
 
 ```csharp  
 public IField Field { get; }  

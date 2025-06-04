@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Получает элемент по указанному индексу. Только для чтения ISlideaspose.slides/islide.
 type: docs
 weight: 10

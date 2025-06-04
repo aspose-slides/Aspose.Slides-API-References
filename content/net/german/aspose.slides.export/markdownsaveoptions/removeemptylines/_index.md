@@ -1,6 +1,6 @@
 ---
 title: RemoveEmptyLines
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Wenn auf true gesetzt, entfernt leere oder nur aus Leerzeichen bestehende Zeilen aus dem endgültigen Markdown-Ausgang. Standard ist false.
 type: docs
 weight: 80

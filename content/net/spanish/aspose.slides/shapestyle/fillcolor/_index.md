@@ -1,6 +1,6 @@
 ---
 title: FillColor
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el color de relleno de una forma. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
@@ -15,11 +15,11 @@ Devuelve el color de relleno de una forma. Solo lectura [`IColorFormat`](../../i
 public IColorFormat FillColor { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IColorFormat](../../icolorformat)
 * clase [ShapeStyle](../../shapestyle)
 * espacio de nombres [Aspose.Slides](../../shapestyle)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: SetHeaderVisibility
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Cambia la visibilidad del marcador de posición del encabezado de la diapositiva.
 type: docs
 weight: 30
 url: /es/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility/
 ---
 
-## Método BaseHandoutNotesSlideHeaderFooterManager.SetHeaderVisibility
+## BaseHandoutNotesSlideHeaderFooterManager.SetHeaderVisibility método
 
 Cambia la visibilidad del marcador de posición del encabezado de la diapositiva.
 
@@ -17,9 +17,9 @@ public void SetHeaderVisibility(bool isVisible)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| isVisible | Booleano | true - hace visible un marcador de posición del encabezado, de lo contrario - lo oculta. |
+| isVisible | Boolean | true - hace visible un marcador de posición del encabezado, de lo contrario - lo oculta. |
 
-### Ver También
+### Véase También
 
 * clase [BaseHandoutNotesSlideHeaderFooterManager](../../basehandoutnotesslideheaderfootermanager)
 * espacio de nombres [Aspose.Slides](../../basehandoutnotesslideheaderfootermanager)

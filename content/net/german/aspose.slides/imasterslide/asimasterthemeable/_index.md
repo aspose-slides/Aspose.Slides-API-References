@@ -1,7 +1,7 @@
 ---
 title: AsIMasterThemeable
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IMasterThemeable-Interface zurück. Schreibgeschütztes IMasterThemeable aspose.slides.theme/imasterthemeable.
+description: Gibt das IMasterThemeable-Interface zurück. Nur Lesezugriff auf IMasterThemeableaspose.slides.theme/imasterthemeable.
 type: docs
 weight: 20
 url: /de/aspose.slides/imasterslide/asimasterthemeable/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/imasterslide/asimasterthemeable/
 
 ## IMasterSlide.AsIMasterThemeable-Eigenschaft
 
-Gibt das IMasterThemeable-Interface zurück. Schreibgeschütztes [`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
+Gibt das IMasterThemeable-Interface zurück. Nur Lesezugriff auf [`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
 
 ```csharp
 public IMasterThemeable AsIMasterThemeable { get; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

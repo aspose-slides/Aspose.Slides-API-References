@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет индекс конкретного элемента в IList.
 type: docs
 weight: 70
@@ -17,13 +17,13 @@ public int IndexOf(IBehavior item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehavior | Объект, который нужно найти в IList. |
+| item | IBehavior | Объект для поиска в IList. |
 
 ### Возвращаемое значение
 
 Индекс *item*, если он найден в списке; в противном случае -1.
 
-### См. Также
+### См. также
 
 * интерфейс [IBehavior](../../ibehavior)
 * интерфейс [IBehaviorCollection](../../ibehaviorcollection)

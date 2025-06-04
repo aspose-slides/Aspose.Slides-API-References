@@ -1,7 +1,7 @@
 ---
 title: Amount
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Effektbetrag zurück. Nur lesbar Single.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Effektbetrag zurück. Nur lesbarer Single.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/itinteffectivedata/amount/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/itinteffectivedata/amount/
 
 ## ITintEffectiveData.Amount-Eigenschaft
 
-Gibt den Effektbetrag zurück. Nur lesbar Single.
+Gibt den Effektbetrag zurück. Nur lesbarer Single.
 
 ```csharp
 public float Amount { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITintEffectiveData](../../itinteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../itinteffectivedata)

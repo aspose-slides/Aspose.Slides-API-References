@@ -1,13 +1,13 @@
 ---
 title: WriteByte
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Écrit un octet à la position actuelle dans le flux et avance la position dans le flux d'un octet.
 type: docs
 weight: 140
 url: /fr/aspose.slides/istreamwrapper/writebyte/
 ---
 
-## Méthode IStreamWrapper.WriteByte
+## IStreamWrapper.WriteByte méthode
 
 Écrit un octet à la position actuelle dans le flux et avance la position dans le flux d'un octet.
 
@@ -17,9 +17,9 @@ public void WriteByte(byte value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | Byte | Octet à écrire |
+| value | Byte | Octet à écrire Byte |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IStreamWrapper](../../istreamwrapper)
 * namespace [Aspose.Slides](../../istreamwrapper)

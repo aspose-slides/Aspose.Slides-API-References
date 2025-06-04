@@ -15,7 +15,7 @@ Renvoie ou définit le cadre du contrôle. Lecture/écriture [`IShapeFrame`](../
 public IShapeFrame Frame { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShapeFrame](../../ishapeframe)
 * interface [IControl](../../icontrol)

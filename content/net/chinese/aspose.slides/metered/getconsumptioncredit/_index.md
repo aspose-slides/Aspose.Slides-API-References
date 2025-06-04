@@ -1,7 +1,7 @@
 ---
 title: GetConsumptionCredit
-second_title: Aspose.Slides for .NET API 参考
-description: 获取消费信用
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取消费信贷
 type: docs
 weight: 30
 url: /zh/aspose.slides/metered/getconsumptioncredit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/metered/getconsumptioncredit/
 
 ## Metered.GetConsumptionCredit 方法
 
-获取消费信用
+获取消费信贷
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -19,7 +19,7 @@ public static decimal GetConsumptionCredit()
 
 消费数量
 
-### 另请参见
+### 参见
 
 * class [Metered](../../metered)
 * namespace [Aspose.Slides](../../metered)

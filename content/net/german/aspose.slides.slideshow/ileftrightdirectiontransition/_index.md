@@ -1,7 +1,7 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Slides für .NET API Referenz
-description: Links-rechts Richtung Folienübergangseffekt.
+second_title: Aspose.Slildes für .NET API-Referenz
+description: Effekt der Folienübergänge von links nach rechts.
 type: docs
 weight: 9810
 url: /de/aspose.slides.slideshow/ileftrightdirectiontransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/ileftrightdirectiontransition/
 
 ## ILeftRightDirectionTransition-Schnittstelle
 
-Links-rechts Richtung Folienübergangseffekt.
+Effekt der Folienübergänge von links nach rechts.
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -19,8 +19,8 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lese-/schreibbar [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur-Lese [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### Siehe auch
 

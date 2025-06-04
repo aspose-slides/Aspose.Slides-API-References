@@ -1,7 +1,7 @@
 ---
 title: LimitLocation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Der Standort von Grenzen Subscript und Superscript
+second_title: Aspose.Slides für .NET API Referenz
+description: Der Standort der Grenzen Subscript und Superscript
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
 
 ## IMathNaryOperatorProperties.LimitLocation-Eigenschaft
 
-Der Standort von Grenzen (Subscript und Superscript)
+Der Standort der Grenzen (Subscript und Superscript)
 
 ```csharp
 public MathLimitLocations LimitLocation { get; set; }

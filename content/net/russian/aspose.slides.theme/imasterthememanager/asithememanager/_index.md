@@ -1,7 +1,7 @@
 ---
 title: AsIThemeManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IThemeManager. Только для чтения IThemeManageraspose.slides.theme/ithememanager.
+description: Позволяет получить базовый интерфейс IThemeManager. Интерфейс IThemeManager только для чтения aspose.slides.theme/ithememanager.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/imasterthememanager/asithememanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/imasterthememanager/asithememanager/
 
 ## IMasterThemeManager.AsIThemeManager свойство
 
-Позволяет получить базовый интерфейс IThemeManager. Только для чтения [`IThemeManager`](../../ithememanager).
+Позволяет получить базовый интерфейс IThemeManager. Интерфейс только для чтения [`IThemeManager`](../../ithememanager).
 
 ```csharp
 public IThemeManager AsIThemeManager { get; }

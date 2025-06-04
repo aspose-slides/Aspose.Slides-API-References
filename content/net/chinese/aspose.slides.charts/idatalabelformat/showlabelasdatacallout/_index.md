@@ -1,7 +1,7 @@
 ---
 title: ShowLabelAsDataCallout
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定指定的图表数据标签是显示为数据标注还是作为数据标签。如果此 DataLabelFormat 对象的父级是 DataLabelCollection 数据标签集合，则此属性获取或设置 DataLabelCollection 集合中新数据标签的 ShowLabelAsDataCallout 属性的默认值。使用此属性设置值也会将此值设置为 DataLabelCollection 集合中所有数据标签的 ShowLabelAsDataCallout 属性，即 DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout 的值将导致所有 DataLabelsi.ShowLabelAsDataCallout 等于该值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定指定图表的数据标签是显示为数据调用标注还是数据标签。如果此 DataLabelFormat 对象的父级是数据标签集合的 DataLabelCollection，则此属性获取或设置 DataLabelCollection 中新数据标签的 ShowLabelAsDataCallout 属性的默认值。 设置此属性的值也会将该值设置为 DataLabelCollection 中所有数据标签的 ShowLabelAsDataCallout 属性，即 "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 导致所有 DataLabelsi.ShowLabelAsDataCallout 等于 val。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/idatalabelformat/showlabelasdatacallout/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/idatalabelformat/showlabelasdatacallout/
 
 ## IDataLabelFormat.ShowLabelAsDataCallout 属性
 
-确定指定图表的数据标签将显示为数据标注还是作为数据标签。如果此 DataLabelFormat 对象的父级是 DataLabelCollection 数据标签集合，则此属性获取或设置 DataLabelCollection 集合中新数据标签的 ShowLabelAsDataCallout 属性的默认值。使用此属性设置值也将此值设置为 DataLabelCollection 集合中所有数据标签的 ShowLabelAsDataCallout 属性（即 "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 会导致所有 DataLabels[i].ShowLabelAsDataCallout 等于 val）。
+确定指定图表的数据标签是显示为数据调用标注还是数据标签。如果此 DataLabelFormat 对象的父级是数据标签集合的 DataLabelCollection，则此属性获取或设置 DataLabelCollection 中新数据标签的 ShowLabelAsDataCallout 属性的默认值。 设置此属性的值也会将该值设置为 DataLabelCollection 中所有数据标签的 ShowLabelAsDataCallout 属性（即 "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 导致所有 DataLabels[i].ShowLabelAsDataCallout 等于 val）。
 
 ```csharp
 public bool ShowLabelAsDataCallout { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IDataLabelFormat](../../idatalabelformat)
 * 命名空间 [Aspose.Slides.Charts](../../idatalabelformat)

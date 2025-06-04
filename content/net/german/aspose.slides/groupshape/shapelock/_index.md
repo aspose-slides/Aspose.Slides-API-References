@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sperren von Formen zurück. Nur-Lese IGroupShapeLockaspose.slides/igroupshapelock.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Sperren von Formen zurück. Schreibgeschütztes IGroupShapeLockaspose.slides/igroupshapelock.
 type: docs
 weight: 40
 url: /de/aspose.slides/groupshape/shapelock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/groupshape/shapelock/
 
 ## GroupShape.ShapeLock-Eigenschaft
 
-Gibt die Sperren der Form zurück. Nur-Lese [`IGroupShapeLock`](../../igroupshapelock).
+Gibt die Sperren der Form zurück. Schreibgeschütztes [`IGroupShapeLock`](../../igroupshapelock).
 
 ```csharp
 public IGroupShapeLock ShapeLock { get; }

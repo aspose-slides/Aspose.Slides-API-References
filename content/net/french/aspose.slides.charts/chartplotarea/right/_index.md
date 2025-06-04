@@ -1,7 +1,7 @@
 ---
 title: Right
-second_title: Référence API Aspose.Slides pour .NET
-description: Droit. Lecture seule Simple.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Right. Lecture seule de type Single.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/chartplotarea/right/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartplotarea/right/
 
 ## Propriété ChartPlotArea.Right
 
-Droit. Lecture seule Simple.
+Right. Lecture seule de type Single.
 
 ```csharp
 public float Right { get; }

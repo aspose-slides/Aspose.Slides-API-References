@@ -1,6 +1,6 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente une collection de signatures numériques attachées à un document.
 type: docs
 weight: 5500

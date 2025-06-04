@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert das Format des Datenlabels. Nur-Lese IFormataspose.slides/iformat.
+description: Stellt das Format des Datenlabels dar. Schreibgeschütztes IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/datalabelformat/format/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/datalabelformat/format/
 
 ## DataLabelFormat.Format-Eigenschaft
 
-Repräsentiert das Format des Datenlabels. Nur-Lese [`IFormat`](../../iformat).
+Stellt das Format des Datenlabels dar. Schreibgeschützt [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenlabels ist, dann repräsentiert diese Eigenschaft das Standardformat für die neuen Datenlabels in der DataLabelCollection-Sammlung.
+Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenlabels ist, dann stellt diese Eigenschaft das Standardformat für die neuen Datenlabels in der DataLabelCollection-Sammlung dar.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFormat](../../iformat)
 * Klasse [DataLabelFormat](../../datalabelformat)

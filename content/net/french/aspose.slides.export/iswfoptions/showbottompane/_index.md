@@ -1,21 +1,21 @@
 ---
 title: ShowBottomPane
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Afficher/masquer le panneau inférieur. Peut être remplacé dans flashvars. Par défaut, c'est vrai.
+second_title: Aspose.Slides pour la référence API .NET
+description: Afficher/masquer le panneau inférieur. Peut être remplacé dans les flashvars. La valeur par défaut est true.
 type: docs
 weight: 70
 url: /fr/aspose.slides.export/iswfoptions/showbottompane/
 ---
 
-## Propriété ISwfOptions.ShowBottomPane
+## ISwfOptions.ShowBottomPane propriété
 
-Afficher/masquer le panneau inférieur. Peut être remplacé dans flashvars. Par défaut, c'est vrai.
+Afficher/masquer le panneau inférieur. Peut être remplacé dans les flashvars. La valeur par défaut est true.
 
 ```csharp
 public bool ShowBottomPane { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISwfOptions](../../iswfoptions)
 * namespace [Aspose.Slides.Export](../../iswfoptions)

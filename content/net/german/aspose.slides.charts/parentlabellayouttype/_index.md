@@ -1,7 +1,7 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Layout der Kategorien-Datenlabels dar. Wird nur mit Treemap-Serien verwendet.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt das Layout der Datenbeschriftungen der Kategorien dar. Wird nur mit Treemap-Serien verwendet.
 type: docs
 weight: 2270
 url: /de/aspose.slides.charts/parentlabellayouttype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/parentlabellayouttype/
 
 ## ParentLabelLayoutType Aufzählung
 
-Stellt das Layout der Kategorien-Datenlabels dar. Wird nur mit Treemap-Serien verwendet.
+Stellt das Layout der Datenbeschriftungen der Kategorien dar. Wird nur mit Treemap-Serien verwendet.
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -19,9 +19,9 @@ public enum ParentLabelLayoutType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Banner | `0` | Gibt an, dass die Labels der übergeordneten Kategorien als Banner angezeigt werden |
-| Keine | `1` | Gibt an, dass die Labels der übergeordneten Kategorien nicht gezeichnet werden |
-| Überlappend | `2` | Gibt an, dass die Labels der übergeordneten Kategorien als überlappend angezeigt werden |
+| Banner | `0` | Gibt an, dass Elternkategorien als Banner angezeigt werden |
+| None | `1` | Gibt an, dass Elternkategorien nicht gezeichnet werden |
+| Overlapping | `2` | Gibt an, dass Elternkategorien als überlappend angezeigt werden |
 
 ### Siehe Auch
 

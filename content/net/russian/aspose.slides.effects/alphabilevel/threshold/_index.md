@@ -1,13 +1,13 @@
 ---
 title: Threshold
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает порог эффекта. Чтение/запись Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/alphabilevel/threshold/
 ---
 
-## Свойство AlphaBiLevel.Threshold
+## AlphaBiLevel.Threshold свойство
 
 Возвращает порог эффекта. Чтение/запись Single.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/alphabilevel/threshold/
 public float Threshold { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [AlphaBiLevel](../../alphabilevel)
 * пространство имен [Aspose.Slides.Effects](../../alphabilevel)

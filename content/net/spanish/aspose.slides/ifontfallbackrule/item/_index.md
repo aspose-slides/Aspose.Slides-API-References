@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene el nombre de la fuente en el índice especificado.
 type: docs
 weight: 20
 url: /es/aspose.slides/ifontfallbackrule/item/
 ---
 
-## Indexador IFontFallBackRule
+## IFontFallBackRule indexer
 
 Obtiene el nombre de la fuente en el índice especificado.
 
@@ -15,10 +15,10 @@ Obtiene el nombre de la fuente en el índice especificado.
 public string this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IFontFallBackRule](../../ifontfallbackrule)
-* espacio de nombres [Aspose.Slides](../../ifontfallbackrule)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IFontFallBackRule](../../ifontfallbackrule)
+* namespace [Aspose.Slides](../../ifontfallbackrule)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

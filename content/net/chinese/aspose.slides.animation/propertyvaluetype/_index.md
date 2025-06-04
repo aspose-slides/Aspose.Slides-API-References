@@ -1,6 +1,6 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示属性值类型。
 type: docs
 weight: 680
@@ -24,7 +24,7 @@ public enum PropertyValueType
 | Number | `1` |  |
 | Color | `2` |  |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

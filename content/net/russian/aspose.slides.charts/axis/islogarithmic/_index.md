@@ -1,6 +1,6 @@
 ---
 title: IsLogarithmic
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Sildes для справки по API .NET
 description: Представляет, является ли тип шкалы оси значений логарифмическим или нет. Читаемое/записываемое логическое значение.
 type: docs
 weight: 260

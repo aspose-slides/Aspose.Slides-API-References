@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+description: Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lesen/Schreiben Einfach.
 type: docs
 weight: 280
 url: /de/aspose.slides/ishape/y/
@@ -9,17 +9,17 @@ url: /de/aspose.slides/ishape/y/
 
 ## IShape.Y-Eigenschaft
 
-Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lesen/Schreiben Einfach.
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für die Eigenschaften von RawFrame-Instanzen festlegen.
+Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für Eigenschaften von RawFrame-Instanzen festlegen.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IShape](../../ishape)
 * Namespace [Aspose.Slides](../../ishape)

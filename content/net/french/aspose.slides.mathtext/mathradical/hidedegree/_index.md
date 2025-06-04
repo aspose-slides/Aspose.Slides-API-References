@@ -1,7 +1,7 @@
 ---
 title: HideDegree
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Masquer le degré Quand c'est vrai, le degré n'est pas affiché comme dans
+second_title: Aspose.Slides pour les références API .NET
+description: Masquer le degré Lorsque c'est vrai, le degré n'est pas affiché comme dans
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathradical/hidedegree/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathradical/hidedegree/
 
 ## Propriété MathRadical.HideDegree
 
-Masquer le degré Quand c'est vrai, le degré n'est pas affiché, comme dans √𝑥
+Masquer le degré Lorsque c'est vrai, le degré n'est pas affiché, comme dans √𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -17,7 +17,7 @@ public bool HideDegree { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

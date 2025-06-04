@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает столбец по указанному индексу. Только для чтения Columnaspose.slides/column.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/columncollection/item/
 public IColumn this[int index] { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IColumn](../../icolumn)
 * класс [ColumnCollection](../../columncollection)

@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue/
 ---
 
-## Propriété IMultipleCellChartValue.AsIBaseChartValue
+## IMultipleCellChartValue.AsIBaseChartValue propriété
 
 Permet d'obtenir l'interface de base IBaseChartValue. Lecture seule [`IBaseChartValue`](../../ibasechartvalue).
 

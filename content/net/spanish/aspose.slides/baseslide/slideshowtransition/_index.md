@@ -1,13 +1,13 @@
 ---
 title: SlideShowTransition
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Devuelve el objeto Transition que contiene información sobre cómo avanza la diapositiva especificada durante una presentación. Solo lectura ISlideShowTransition aspose.slides/islideshowtransition.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el objeto Transition que contiene información sobre cómo avanza la diapositiva especificada durante una presentación. Solo lectura ISlideShowTransitionaspose.slides/islideshowtransition.
 type: docs
 weight: 100
 url: /es/aspose.slides/baseslide/slideshowtransition/
 ---
 
-## Propiedad BaseSlide.SlideShowTransition
+## BaseSlide.SlideShowTransition property
 
 Devuelve el objeto Transition que contiene información sobre cómo avanza la diapositiva especificada durante una presentación. Solo lectura [`ISlideShowTransition`](../../islideshowtransition).
 
@@ -15,11 +15,11 @@ Devuelve el objeto Transition que contiene información sobre cómo avanza la di
 public virtual ISlideShowTransition SlideShowTransition { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlideShowTransition](../../islideshowtransition)
 * clase [BaseSlide](../../baseslide)
 * espacio de nombres [Aspose.Slides](../../baseslide)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

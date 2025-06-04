@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Agrega la guía de dibujo al final de la colección.
 type: docs
 weight: 30
 url: /es/aspose.slides/drawingguidescollection/add/
 ---
 
-## Método DrawingGuidesCollection.Add
+## DrawingGuidesCollection.Add método
 
 Agrega la guía de dibujo al final de la colección.
 
@@ -20,12 +20,12 @@ public IDrawingGuide Add(Orientation orientation, float position)
 | orientation | Orientation | Orientación de la guía de dibujo. |
 | position | Single | Posición de la guía de dibujo en puntos. |
 
-### Véase también
+### Ver también
 
-* interface [IDrawingGuide](../../idrawingguide)
+* interfaz [IDrawingGuide](../../idrawingguide)
 * enum [Orientation](../../orientation)
-* class [DrawingGuidesCollection](../../drawingguidescollection)
-* namespace [Aspose.Slides](../../drawingguidescollection)
-* assembly [Aspose.Slides](../../../)
+* clase [DrawingGuidesCollection](../../drawingguidescollection)
+* espacio de nombres [Aspose.Slides](../../drawingguidescollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

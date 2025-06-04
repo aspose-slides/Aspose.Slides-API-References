@@ -1,15 +1,15 @@
 ---
 title: GetSummarySection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'élément Section de Zoom de Sommaire pour la section donnée.
+description: Renvoie l'élément de section de zoom de résumé pour la section donnée.
 type: docs
 weight: 90
 url: /fr/aspose.slides/summaryzoomsectioncollection/getsummarysection/
 ---
 
-## Méthode SummaryZoomSectionCollection.GetSummarySection
+## SummaryZoomSectionCollection.GetSummarySection méthode
 
-Renvoie l'élément Section de Zoom de Sommaire pour la section donnée.
+Renvoie l'élément de section de zoom de résumé pour la section donnée.
 
 ```csharp
 public ISummaryZoomSection GetSummarySection(ISection section)
@@ -25,7 +25,7 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 
 ### Exemples
 
-L'exemple démontre comment obtenir l'élément Section de Zoom de Sommaire par index:
+L'exemple démontre comment obtenir l'élément de section de zoom de résumé par index :
 
 ```csharp
 [C#]

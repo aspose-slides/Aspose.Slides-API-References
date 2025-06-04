@@ -1,15 +1,15 @@
 ---
 title: InnerShadow
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un efecto de Sombra Interna.
+description: Representa un efecto de Sombra Interior.
 type: docs
 weight: 3480
 url: /es/aspose.slides.effects/innershadow/
 ---
 
-## Clase SombraInterna
+## Clase InnerShadow
 
-Representa un efecto de Sombra Interna.
+Representa un efecto de Sombra Interior.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -29,13 +29,13 @@ public sealed class InnerShadow : IInnerShadow
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Determina si el [`InnerShadow`](../innershadow) especificado es igual al [`InnerShadow`](../innershadow) actual. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Obtiene los datos del efecto de Sombra Interna efectivos con la herencia aplicada. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Obtiene los datos efectivos del efecto de Sombra Interior con la herencia aplicada. |
 | override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Sirve como una función hash para un tipo particular. |
 
-### Ver También
+### Véase También
 
 * interfaz [IInnerShadow](../iinnershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

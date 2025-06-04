@@ -1,27 +1,27 @@
 ---
 title: SetRotation
-second_title: Référence API Aspose.Slides pour .NET
-description: Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe en tant que coordonnées de latitude et de longitude.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe comme les coordonnées de latitude et de longitude.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ilightrig/setrotation/
 ---
 
-## Méthode ILightRig.SetRotation
+## ILightRig.SetRotation méthode
 
-Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe en tant que coordonnées de latitude et de longitude.
+Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe comme les coordonnées de latitude et de longitude.
 
 ```csharp
-public void SetRotation(float latitude, float longitude, float revolution)
+public void SetRotation(float latitude, float longitude, float révolution)
 ```
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| latitude | Single | Coordonnée de latitude Single |
-| longitude | Single | Coordonnée de longitude Single |
-| revolution | Single | Coordonnée de révolution Single |
+| latitude | Simple | Coordonnée de latitude Simple |
+| longitude | Simple | Coordonnée de longitude Simple |
+| révolution | Simple | Coordonnée de révolution Simple |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILightRig](../../ilightrig)
 * namespace [Aspose.Slides](../../ilightrig)

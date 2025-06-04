@@ -1,15 +1,15 @@
 ---
 title: UnderlineFillFormat
 second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve las propiedades de FillFormat de la línea subrayada. Sin herencia aplicada. Solo lectura IFillFormataspose.slides/ifillformat.
+description: Devuelve las propiedades de FillFormat de la línea subrayada. No se aplica herencia. Solo lectura IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 250
 url: /es/aspose.slides/ibaseportionformat/underlinefillformat/
 ---
 
-## Propiedad IBasePortionFormat.UnderlineFillFormat
+## IBasePortionFormat.UnderlineFillFormat propiedad
 
-Devuelve las propiedades de FillFormat de la línea subrayada. Sin herencia aplicada. Solo lectura [`IFillFormat`](../../ifillformat).
+Devuelve las propiedades de FillFormat de la línea subrayada. No se aplica herencia. Solo lectura [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat UnderlineFillFormat { get; }
@@ -20,6 +20,6 @@ public IFillFormat UnderlineFillFormat { get; }
 * interfaz [IFillFormat](../../ifillformat)
 * interfaz [IBasePortionFormat](../../ibaseportionformat)
 * espacio de nombres [Aspose.Slides](../../ibaseportionformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

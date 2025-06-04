@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../../imathel
 public IMathElement AsIMathElement { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathematicalText](../../imathematicaltext)

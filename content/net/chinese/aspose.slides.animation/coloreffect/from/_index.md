@@ -1,7 +1,7 @@
 ---
 title: From
-second_title: Aspose.Slides for .NET API参考
-description: 此值用于指定行为的起始颜色。可读/可写 IColorFormataspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 此值用于指定行为的起始颜色。可读写 IColorFormataspose.slides/../aspose.slides/icolorformat。
 type: docs
 weight: 50
 url: /zh/aspose.slides.animation/coloreffect/from/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/coloreffect/from/
 
 ## ColorEffect.From 属性
 
-此值用于指定行为的起始颜色。可读/可写 [`IColorFormat`](../../../aspose.slides/icolorformat)。
+此值用于指定行为的起始颜色。可读写 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat From { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IColorFormat](../../../aspose.slides/icolorformat)
 * 类 [ColorEffect](../../coloreffect)

@@ -1,6 +1,6 @@
 ---
 title: BubbleSize
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: BubbleSize. Свойство только для чтения IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ BubbleSize. Свойство только для чтения [`IDoubleChartValu
 public IDoubleChartValue BubbleSize { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IDoubleChartValue](../../idoublechartvalue)
 * класс [ChartDataPoint](../../chartdatapoint)

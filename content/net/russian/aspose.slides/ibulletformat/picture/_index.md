@@ -1,13 +1,13 @@
 ---
 title: Picture
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает изображение, используемое в качестве маркера в абзаце без наследования. Только для чтения ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ibulletformat/picture/
 ---
 
-## Свойство IBulletFormat.Picture
+## IBulletFormat.Picture свойство
 
 Возвращает изображение, используемое в качестве маркера в абзаце без наследования. Только для чтения [`ISlidesPicture`](../../islidespicture).
 

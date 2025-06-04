@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有签名。
+second_title: Aspose.Slides for .NET API Reference
+description: 从集合中删除所有签名。
 type: docs
 weight: 60
 url: /zh/aspose.slides/digitalsignaturecollection/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/digitalsignaturecollection/clear/
 
 ## DigitalSignatureCollection.Clear 方法
 
-从集合中移除所有签名。
+从集合中删除所有签名。
 
 ```csharp
 public void Clear()
 ```
 
-### 另请参见
+### 另见
 
 * 类 [DigitalSignatureCollection](../../digitalsignaturecollection)
 * 命名空间 [Aspose.Slides](../../digitalsignaturecollection)

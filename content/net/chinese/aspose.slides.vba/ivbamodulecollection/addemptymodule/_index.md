@@ -1,6 +1,6 @@
 ---
 title: AddEmptyModule
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 向 VBA 项目添加一个新的空模块。
 type: docs
 weight: 20
@@ -17,13 +17,13 @@ public IVbaModule AddEmptyModule(string name)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 模块的名称 |
+| name | String | 模块名称 |
 
 ### 返回值
 
 添加的模块。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IVbaModule](../../ivbamodule)
 * 接口 [IVbaModuleCollection](../../ivbamodulecollection)

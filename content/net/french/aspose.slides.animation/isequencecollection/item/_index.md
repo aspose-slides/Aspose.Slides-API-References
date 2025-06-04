@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie une séquence à l'index spécifié.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/isequencecollection/item/
 ---
 
-## Indexeur ISequenceCollection
+## ISequenceCollection indexer
 
 Renvoie une séquence à l'index spécifié.
 

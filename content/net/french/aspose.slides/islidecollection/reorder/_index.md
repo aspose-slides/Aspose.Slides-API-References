@@ -1,15 +1,15 @@
 ---
 title: Reorder
-second_title: Référence API Aspose.Slides pour .NET
-description: Déplace une diapositive de la collection vers la position spécifiée.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Déplace la diapositive de la collection vers la position spécifiée.
 type: docs
 weight: 120
 url: /fr/aspose.slides/islidecollection/reorder/
 ---
 
-## Réorganiser(int, ISlide) {#reorder}
+## Reorder(int, ISlide) {#reorder}
 
-Déplace une diapositive de la collection vers la position spécifiée.
+Déplace la diapositive de la collection vers la position spécifiée.
 
 ```csharp
 public void Reorder(int index, ISlide slide)
@@ -29,9 +29,9 @@ public void Reorder(int index, ISlide slide)
 
 ---
 
-## Réorganiser(int, params ISlide[]) {#reorder_1}
+## Reorder(int, params ISlide[]) {#reorder_1}
 
-Déplace des diapositives de la collection vers la position spécifiée. Les diapositives seront placées à partir de l'index dans l'ordre où elles apparaissent dans la liste.
+Déplace les diapositives de la collection vers la position spécifiée. Les diapositives seront placées à partir de l'index dans l'ordre où elles apparaissent dans la liste.
 
 ```csharp
 public void Reorder(int index, params ISlide[] slides)

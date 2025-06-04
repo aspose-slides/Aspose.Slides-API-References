@@ -1,6 +1,6 @@
 ---
 title: EditPointsLocked
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, запрещено ли прямое изменение контура этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iconnectorlock/editpointslocked/
 public bool EditPointsLocked { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IConnectorLock](../../iconnectorlock)
 * пространство имен [Aspose.Slides](../../iconnectorlock)

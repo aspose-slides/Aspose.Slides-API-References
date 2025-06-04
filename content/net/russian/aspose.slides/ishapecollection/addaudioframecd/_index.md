@@ -1,6 +1,6 @@
 ---
 title: AddAudioFrameCD
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет AudioFrame с CD в конец коллекции.
 type: docs
 weight: 30
@@ -17,16 +17,16 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового аудиофрейма. |
-| y | Single | Координата Y нового аудиофрейма. |
-| width | Single | Ширина нового аудиофрейма. |
-| height | Single | Высота нового аудиофрейма. |
+| x | Single | X координата нового аудио фрейма. |
+| y | Single | Y координата нового аудио фрейма. |
+| width | Single | Ширина нового аудио фрейма. |
+| height | Single | Высота нового аудио фрейма. |
 
 ### Возвращаемое значение
 
 Созданный объект AudioFrame.
 
-### См. также
+### См. Также
 
 * интерфейс [IAudioFrame](../../iaudioframe)
 * интерфейс [IShapeCollection](../../ishapecollection)

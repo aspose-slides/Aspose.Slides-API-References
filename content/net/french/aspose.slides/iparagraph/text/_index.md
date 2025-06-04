@@ -1,25 +1,25 @@
 ---
 title: Text
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture chaîne.
+description: Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String.
 type: docs
 weight: 50
 url: /fr/aspose.slides/iparagraph/text/
 ---
 
-## Propriété IParagraph.Text
+## IParagraph.Text property
 
-Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture chaîne.
+Obtient ou définit le texte brut d'un paragraphe. Lecture/écriture String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Valeur de la Propriété
+### Property Value
 
 Le texte.
 
-### Voir Aussi
+### See Also
 
 * interface [IParagraph](../../iparagraph)
 * namespace [Aspose.Slides](../../iparagraph)

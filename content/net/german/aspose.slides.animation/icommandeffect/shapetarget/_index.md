@@ -1,15 +1,15 @@
 ---
 title: ShapeTarget
-second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert das Zielobjekt einer Befehlswirkung. Lese-/Schreibzugriff auf IShapeaspose.slides/ishape.
+second_title: Aspose.Slides für .NET API Referenz
+description: Definiert das Ziel der Form des Befehls-Effekts. Lesen/Schreiben IShapeaspose.slides/../aspose.slides/ishape.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/icommandeffect/shapetarget/
 ---
 
-## ICommandEffect.ShapeTarget-Eigenschaft
+## ICommandEffect.ShapeTarget Eigenschaft
 
-Definiert das Zielobjekt einer Befehlswirkung. Lese-/Schreibzugriff auf [`IShape`](../../../aspose.slides/ishape).
+Definiert das Ziel der Form des Befehls-Effekts. Lesen/Schreiben [`IShape`](../../../aspose.slides/ishape).
 
 ```csharp
 public IShape ShapeTarget { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: PathCommand
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Тип пути сегмента
 type: docs
 weight: 10
 url: /ru/aspose.slides/pathsegment/pathcommand/
 ---
 
-## Свойство PathSegment.PathCommand
+## PathSegment.PathCommand свойство
 
 Тип пути сегмента
 

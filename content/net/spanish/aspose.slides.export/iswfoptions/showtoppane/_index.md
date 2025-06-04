@@ -7,7 +7,7 @@ weight: 140
 url: /es/aspose.slides.export/iswfoptions/showtoppane/
 ---
 
-## Propiedad ISwfOptions.ShowTopPane
+## ISwfOptions.ShowTopPane property
 
 Mostrar/ocultar todo el panel superior. Se puede sobrescribir en flashvars. El valor predeterminado es verdadero.
 
@@ -15,10 +15,10 @@ Mostrar/ocultar todo el panel superior. Se puede sobrescribir en flashvars. El v
 public bool ShowTopPane { get; set; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [ISwfOptions](../../iswfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../iswfoptions)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISwfOptions](../../iswfoptions)
+* espacio de nombres [Aspose.Slides.Export](../../iswfoptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Slides für .NET API-Referenz
-description: Die Ausnahme, die ausgelöst wird, wenn ein ungültiger Zellbezug gefunden wird.
+second_title: Aspose.Slides für .NET API Referenz
+description: Die Ausnahme, die ausgelöst wird, wenn ein ungültiger Zellbezug festgestellt wird.
 type: docs
 weight: 10410
 url: /de/aspose.slides.spreadsheet/cellinvalidreferenceexception/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 
 ## CellInvalidReferenceException-Klasse
 
-Die Ausnahme, die ausgelöst wird, wenn ein ungültiger Zellbezug gefunden wird.
+Die Ausnahme, die ausgelöst wird, wenn ein ungültiger Zellbezug festgestellt wird.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -19,10 +19,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Name | Beschreibung |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../cellinvalidreferenceexception) Klasse. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Initialisiert eine neue Instanz der [`CellInvalidReferenceException`](../cellinvalidreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Initialisiert eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception) Klasse mit einer angegebenen Fehlermeldung und einem ungültigen Zellbezug. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Erstellt eine neue Instanz der [`CellInvalidReferenceException`](../cellinvalidreferenceexception)-Klasse. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Erstellt eine neue Instanz der [`CellInvalidReferenceException`](../cellinvalidreferenceexception)-Klasse mit einer angegebenen Fehlermeldung. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Erstellt eine neue Instanz der [`CellInvalidReferenceException`](../cellinvalidreferenceexception)-Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Erstellt eine neue Instanz der [`CellCircularReferenceException`](../cellcircularreferenceexception)-Klasse mit einer angegebenen Fehlermeldung und einem ungültigen Zellbezug. |
 
 ## Eigenschaften
 
@@ -30,7 +30,7 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Gibt einen ungültigen Zellbezug zurück. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PptxEditException](../../aspose.slides/pptxeditexception)
 * Namespace [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

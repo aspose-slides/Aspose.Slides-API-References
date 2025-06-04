@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает узел по индексу. Только для чтения ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public ISmartArtNode this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс элемента с нуля. |
+| index | Индекс элемента, основанный на нуле. |
 
-### См. также
+### См. Также
 
 * интерфейс [ISmartArtNode](../../ismartartnode)
 * интерфейс [ISmartArtNodeCollection](../../ismartartnodecollection)

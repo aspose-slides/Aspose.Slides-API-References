@@ -1,6 +1,6 @@
 ---
 title: CreateFileStreamWrapper
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает FileStream с указанным путем и режимом создания.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/streamwrapperfactory/createfilestreamwrapper/
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode)
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * класс [StreamWrapperFactory](../../streamwrapperfactory)
@@ -33,7 +33,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
     FileAccess fileAccess)
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * класс [StreamWrapperFactory](../../streamwrapperfactory)

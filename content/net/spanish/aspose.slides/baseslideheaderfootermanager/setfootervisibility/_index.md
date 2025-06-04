@@ -7,7 +7,7 @@ weight: 70
 url: /es/aspose.slides/baseslideheaderfootermanager/setfootervisibility/
 ---
 
-## Método BaseSlideHeaderFooterManager.SetFooterVisibility
+## BaseSlideHeaderFooterManager.SetFooterVisibility método
 
 Cambia la visibilidad del marcador de posición del pie de página de la diapositiva.
 
@@ -17,9 +17,9 @@ public void SetFooterVisibility(bool isVisible)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| isVisible | Booleano | true - hace visible un marcador de posición del pie de página, de lo contrario - lo oculta. |
+| isVisible | Boolean | true - hace que un marcador de posición del pie de página sea visible, de lo contrario - lo oculta. |
 
-### Véase también
+### Ver También
 
 * clase [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * espacio de nombres [Aspose.Slides](../../baseslideheaderfootermanager)

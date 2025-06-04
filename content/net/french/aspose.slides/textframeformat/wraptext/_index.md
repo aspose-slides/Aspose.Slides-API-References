@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Référence API Aspose.Slides pour .NET
-description: Vrai si le texte est renvoyé aux marges de TextFrames. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+description: Vrai si le texte est enveloppé aux marges des TextFrames. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 160
 url: /fr/aspose.slides/textframeformat/wraptext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/textframeformat/wraptext/
 
 ## Propriété TextFrameFormat.WrapText
 
-**Vrai** si le texte est renvoyé aux marges de TextFrame. Lecture/écriture [`NullableBool`](../../nullablebool).
+**Vrai** si le texte est enveloppé aux marges de TextFrame. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }
@@ -17,7 +17,7 @@ public NullableBool WrapText { get; set; }
 
 ### Exemples
 
-Le code d'exemple suivant montre comment renvoyer le texte dans une présentation.
+Le code d'exemple suivant montre comment envelopper du texte dans une présentation.
 
 ```csharp
 [C#]

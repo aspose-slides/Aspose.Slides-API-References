@@ -1,7 +1,7 @@
 ---
 title: Password
-second_title: Aspose.Slides für .NET API Referenz
-description: Benutzerpasswort festlegen, um das PDF-Dokument zu schützen. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Festlegen des Benutzerpassworts zum Schutz des PDF-Dokuments. Lese-/Schreib-String.
 type: docs
 weight: 140
 url: /de/aspose.slides.export/pdfoptions/password/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/pdfoptions/password/
 
 ## PdfOptions.Password-Eigenschaft
 
-Benutzerpasswort festlegen, um das PDF-Dokument zu schützen. Lese-/Schreib-String.
+Festlegen des Benutzerpassworts zum Schutz des PDF-Dokuments. Lese-/Schreib-String.
 
 ```csharp
 public string Password { get; set; }

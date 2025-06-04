@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un número de elementos en la colección. Solo lectura Int32, solo lectura Int32.
+description: Devuelve el número de elementos en la colección. Solo lectura Int32. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/effectstylecollection/count/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.theme/effectstylecollection/count/
 
 ## Propiedad EffectStyleCollection.Count
 
-Devuelve un número de elementos en la colección. Solo lectura Int32, solo lectura Int32.
+Devuelve el número de elementos en la colección. Solo lectura Int32, Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
@@ -19,6 +19,6 @@ public int Count { get; }
 
 * clase [EffectStyleCollection](../../effectstylecollection)
 * espacio de nombres [Aspose.Slides.Theme](../../effectstylecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

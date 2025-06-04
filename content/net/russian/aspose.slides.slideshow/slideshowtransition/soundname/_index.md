@@ -1,7 +1,7 @@
 ---
 title: SoundName
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает человеко-readable имя для звука перехода. Свойство Sound aspose.slides.slideshow/slideshowtransition/sound должно быть присвоено, чтобы получить или установить имя звука. Читаемое-записываемое строковое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает человекочитаемое имя для звука перехода. Свойство Soundaspose.slides.slideshow/slideshowtransition/sound должно быть назначено для получения или установки имени звука. Читаемое-записываемое значение String.
 type: docs
 weight: 80
 url: /ru/aspose.slides.slideshow/slideshowtransition/soundname/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/slideshowtransition/soundname/
 
 ## SlideShowTransition.SoundName свойство
 
-Указывает человеко-readable имя для звука перехода. Свойство [`Sound`](../sound) должно быть присвоено, чтобы получить или установить имя звука. Читаемое-записываемое строковое значение.
+Указывает человекочитаемое имя для звука перехода. Свойство [`Sound`](../sound) должно быть назначено для получения или установки имени звука. Читаемое-записываемое значение String.
 
 ```csharp
 public string SoundName { get; set; }
@@ -19,13 +19,13 @@ public string SoundName { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| [PptxException](../../../aspose.slides/pptxexception) | Когда свойство [`Sound`](../sound) не присвоено. |
+| [PptxException](../../../aspose.slides/pptxexception) | Когда свойство [`Sound`](../sound) не назначено. |
 
 ### Примечания
 
 Это имя отображается в пользовательском интерфейсе PowerPoint при ручной настройке звука перехода.
 
-### См. также
+### Смотрите также
 
 * класс [SlideShowTransition](../../slideshowtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../slideshowtransition)

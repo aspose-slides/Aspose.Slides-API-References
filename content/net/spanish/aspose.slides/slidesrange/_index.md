@@ -1,36 +1,36 @@
----  
+---
 title: SlidesRange
-second_title: Referencia de API de Aspose.Slides para .NET  
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Rango de diapositivas
-type: docs  
-weight: 10220  
+type: docs
+weight: 10220
 url: /es/aspose.slides/slidesrange/
----  
+---
 
-## Clase SlidesRange  
+## Clase SlidesRange
 
-Rango de diapositivas  
+Rango de diapositivas
 
-```csharp  
-public class SlidesRange  
-```  
+```csharp
+public class SlidesRange
+```
 
-## Constructores  
+## Constructores
 
-| Nombre | Descripción |  
-| --- | --- |  
-| [SlidesRange](slidesrange)() | El constructor predeterminado. |  
+| Nombre | Descripción |
+| --- | --- |
+| [SlidesRange](slidesrange)() | El constructor predeterminado. |
 
-## Propiedades  
+## Propiedades
 
-| Nombre | Descripción |  
-| --- | --- |  
-| [End](../../aspose.slides/slidesrange/end) { get; set; } | Fin |  
-| [Start](../../aspose.slides/slidesrange/start) { get; set; } | Inicio |  
+| Nombre | Descripción |
+| --- | --- |
+| [End](../../aspose.slides/slidesrange/end) { get; set; } | Fin |
+| [Start](../../aspose.slides/slidesrange/start) { get; set; } | Inicio |
 
-### Véase También  
+### Véase también
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)  
-* ensamblaje [Aspose.Slides](../../)  
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

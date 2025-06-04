@@ -1,6 +1,6 @@
 ---
 title: DisableInnerShadowEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 禁用内阴影效果。
 type: docs
 weight: 140
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ieffectformat/disableinnershadoweffect/
 public void DisableInnerShadowEffect()
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 命名空间 [Aspose.Slides](../../ieffectformat)

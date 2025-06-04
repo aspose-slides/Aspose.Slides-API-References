@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekt Eigenschaften für eine Form hat. Hinweis kann null für bestimmte Arten von Formen zurückgeben, die keine 3D-Eigenschaften haben. Nur-lesend IThreeDFormataspose.slides/ithreedformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekteigenschaften für eine Form enthält. Hinweis kann für bestimmte Formen, die keine 3D-Eigenschaften haben, null zurückgeben. Schreibgeschütztes IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 270
 url: /de/aspose.slides/shape/threedformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shape/threedformat/
 
 ## Shape.ThreeDFormat-Eigenschaft
 
-Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekt Eigenschaften für eine Form hat. Hinweis: kann null für bestimmte Arten von Formen zurückgeben, die keine 3D-Eigenschaften haben. Nur-lesend [`IThreeDFormat`](../../ithreedformat).
+Gibt das ThreeDFormat-Objekt zurück, das 3D-Effekteigenschaften für eine Form enthält. Hinweis: kann für bestimmte Formen, die keine 3D-Eigenschaften haben, null zurückgeben. Schreibgeschützt [`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public virtual IThreeDFormat ThreeDFormat { get; }

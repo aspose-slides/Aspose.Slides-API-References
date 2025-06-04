@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve las propiedades LineFormat para el contorno de texto. Solo lectura ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+description: Devuelve las propiedades de LineFormat para el contorno de texto. Solo lectura ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 180
 url: /es/aspose.slides/ibaseportionformateffectivedata/lineformat/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/ibaseportionformateffectivedata/lineformat/
 
 ## Propiedad IBasePortionFormatEffectiveData.LineFormat
 
-Devuelve las propiedades LineFormat para el contorno de texto. Solo lectura [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Devuelve las propiedades de LineFormat para el contorno de texto. Solo lectura [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData LineFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ILineFormatEffectiveData](../../ilineformateffectivedata)
-* interfaz [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ibaseportionformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* namespace [Aspose.Slides](../../ibaseportionformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

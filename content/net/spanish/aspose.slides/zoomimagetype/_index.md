@@ -1,6 +1,6 @@
 ---
 title: ZoomImageType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Define si el objeto Zoom está utilizando la vista previa de la diapositiva o una imagen de portada.
 type: docs
 weight: 11540
@@ -22,9 +22,9 @@ public enum ZoomImageType
 | Preview | `1` | Usar la imagen de la diapositiva o sección. |
 | Cover | `2` | Usar una imagen personalizada. |
 
-### Véase también
+### Ver También
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

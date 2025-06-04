@@ -1,7 +1,7 @@
 ---
 title: Background
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el fondo de las diapositivas. Solo lectura IBackground aspose.slides/ibackground.
+description: Devuelve el fondo de las diapositivas. Solo lectura IBackgroundaspose.slides/ibackground.
 type: docs
 weight: 20
 url: /es/aspose.slides/ibaseslide/background/
@@ -15,11 +15,11 @@ Devuelve el fondo de la diapositiva. Solo lectura [`IBackground`](../../ibackgro
 public IBackground Background { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [IBackground](../../ibackground)
-* interfaz [IBaseSlide](../../ibaseslide)
-* espacio de nombres [Aspose.Slides](../../ibaseslide)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IBackground](../../ibackground)
+* interfaz [IBaseSlide](../../ibaseslide)
+* espacio de nombres [Aspose.Slides](../../ibaseslide)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

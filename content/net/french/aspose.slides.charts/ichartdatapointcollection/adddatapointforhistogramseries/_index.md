@@ -1,15 +1,15 @@
 ---
 title: AddDataPointForHistogramSeries
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est un histogramme.
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Histogram.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforhistogramseries/
 ---
 
-## Méthode IChartDataPointCollection.AddDataPointForHistogramSeries
+## IChartDataPointCollection.AddDataPointForHistogramSeries méthode
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est un histogramme.
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Histogram.
 
 ```csharp
 public IChartDataPoint AddDataPointForHistogramSeries(IChartDataCell value)

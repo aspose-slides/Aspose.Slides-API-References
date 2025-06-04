@@ -1,6 +1,6 @@
 ---
 title: Rectangle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回框架的坐标。只读 RectangleF。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishapeframe/rectangle/
 public RectangleF Rectangle { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 命名空间 [Aspose.Slides](../../ishapeframe)

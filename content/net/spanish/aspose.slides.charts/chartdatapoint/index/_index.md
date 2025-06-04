@@ -1,6 +1,6 @@
 ---
 title: Index
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: type docs
 weight: 110
 url: /es/aspose.slides.charts/chartdatapoint/index/
@@ -12,10 +12,10 @@ url: /es/aspose.slides.charts/chartdatapoint/index/
 public uint Index { get; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [ChartDataPoint](../../chartdatapoint)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: HighlightClick
-second_title: Aspose.Slides for .NET API 参考
-description: 确定超链接在点击时是否应高亮显示。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定超链接在点击时是否应该高亮显示。可读/可写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ihyperlink/highlightclick/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ihyperlink/highlightclick/
 
 ## IHyperlink.HighlightClick 属性
 
-确定超链接在点击时是否应高亮显示。可读写布尔值。
+确定超链接在点击时是否应该高亮显示。可读/可写布尔值。
 
 ```csharp
 public bool HighlightClick { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IHyperlink](../../ihyperlink)
 * 命名空间 [Aspose.Slides](../../ihyperlink)

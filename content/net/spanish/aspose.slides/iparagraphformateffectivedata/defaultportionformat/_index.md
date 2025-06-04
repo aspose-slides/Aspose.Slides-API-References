@@ -1,13 +1,13 @@
 ---
 title: DefaultPortionFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve el formato de porción predeterminado de un párrafo. Solo lectura IPortionFormatEffectiveDataaspose.slides/iportionformateffectivedata.
 type: docs
 weight: 30
 url: /es/aspose.slides/iparagraphformateffectivedata/defaultportionformat/
 ---
 
-## Propiedad IParagraphFormatEffectiveData.DefaultPortionFormat
+## IParagraphFormatEffectiveData.DefaultPortionFormat propiedad
 
 Devuelve el formato de porción predeterminado de un párrafo. Solo lectura [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 
@@ -20,6 +20,6 @@ public IPortionFormatEffectiveData DefaultPortionFormat { get; }
 * interfaz [IPortionFormatEffectiveData](../../iportionformateffectivedata)
 * interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../iparagraphformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

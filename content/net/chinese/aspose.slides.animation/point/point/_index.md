@@ -1,6 +1,6 @@
 ---
 title: Point
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -25,7 +25,7 @@ public Point()
 
 ## Point(float, object, string) {#constructor_1}
 
-创建包含时间、值和公式的动画点。
+使用时间、值和公式创建动画点。
 
 ```csharp
 public Point(float time, object value, string formula)

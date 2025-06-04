@@ -1,6 +1,6 @@
 ---
 title: AddDuotoneEffect
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый эффект Duotone в конец коллекции.
 type: docs
 weight: 140

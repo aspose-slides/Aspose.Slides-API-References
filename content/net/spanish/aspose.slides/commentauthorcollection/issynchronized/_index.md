@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve un valor que indica si el acceso a la colección está sincronizado de manera segura para hilos. Solo lectura de tipo Boolean.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve un valor que indica si el acceso a la colección es seguro para hilos. Solo lectura de tipo Boolean.
 type: docs
 weight: 20
 url: /es/aspose.slides/commentauthorcollection/issynchronized/
@@ -15,7 +15,7 @@ Devuelve un valor que indica si el acceso a la colección está sincronizado (se
 public bool IsSynchronized { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [CommentAuthorCollection](../../commentauthorcollection)
 * espacio de nombres [Aspose.Slides](../../commentauthorcollection)

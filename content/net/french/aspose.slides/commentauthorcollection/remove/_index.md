@@ -7,7 +7,7 @@ weight: 110
 url: /fr/aspose.slides/commentauthorcollection/remove/
 ---
 
-## Méthode CommentAuthorCollection.Remove
+## CommentAuthorCollection.Remove method
 
 Supprime la première occurrence de l'auteur spécifié dans une collection.
 
@@ -24,7 +24,7 @@ public void Remove(ICommentAuthor author)
 | exception | condition |
 | --- | --- |
 | ArgumentNullException | L'auteur est `null` |
-| [PptxEditException](../../pptxeditexception) | Lancé si l'auteur a déjà été supprimé. |
+| [PptxEditException](../../pptxeditexception) | Lancé si l'auteur est déjà supprimé. |
 
 ### Voir Aussi
 

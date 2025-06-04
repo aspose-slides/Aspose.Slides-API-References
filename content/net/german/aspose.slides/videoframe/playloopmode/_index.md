@@ -1,21 +1,21 @@
 ---
 title: PlayLoopMode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Video wiederholt wird. Lese-/Schreib-Boolean.
+description: Bestimmt, ob ein Video in einer Schleife abgespielt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/videoframe/playloopmode/
 ---
 
-## VideoFrame.PlayLoopMode Eigenschaft
+## VideoFrame.PlayLoopMode-Eigenschaft
 
-Bestimmt, ob ein Video wiederholt wird. Lese-/Schreib-Boolean.
+Bestimmt, ob ein Video in einer Schleife abgespielt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [VideoFrame](../../videoframe)
 * Namespace [Aspose.Slides](../../videoframe)

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回有效的填充格式。只读 IFillFormatEffectiveData aspose.slides/ifillformateffectivedata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回有效的填充格式。只读 IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ibackgroundeffectivedata/fillformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibackgroundeffectivedata/fillformat/
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * 接口 [IBackgroundEffectiveData](../../ibackgroundeffectivedata)

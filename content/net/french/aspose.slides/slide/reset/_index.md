@@ -1,15 +1,15 @@
 ---
 title: Reset
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Réinitialise la position, la taille et le formatage de chaque forme ayant un prototype sur LayoutSlide.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Réinitialise la position, la taille et le formatage de chaque forme qui a un prototype sur LayoutSlide.
 type: docs
 weight: 120
 url: /fr/aspose.slides/slide/reset/
 ---
 
-## Méthode Slide.Reset
+## Slide.Reset méthode
 
-Réinitialise la position, la taille et le formatage de chaque forme ayant un prototype sur LayoutSlide.
+Réinitialise la position, la taille et le formatage de chaque forme qui a un prototype sur LayoutSlide.
 
 ```csharp
 public void Reset()

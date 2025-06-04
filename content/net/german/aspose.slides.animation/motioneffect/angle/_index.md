@@ -1,7 +1,7 @@
 ---
 title: Angle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt den relativen Winkel des Bewegungsweges. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Beschreibt den relativen Winkel des Bewegungspfades. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/motioneffect/angle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/motioneffect/angle/
 
 ## MotionEffect.Angle-Eigenschaft
 
-Beschreibt den relativen Winkel des Bewegungsweges. Lese-/Schreibzugriff auf Single.
+Beschreibt den relativen Winkel des Bewegungspfades. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float Angle { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MotionEffect](../../motioneffect)
 * Namespace [Aspose.Slides.Animation](../../motioneffect)

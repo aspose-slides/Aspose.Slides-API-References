@@ -1,6 +1,6 @@
 ---
 title: IMathFunction
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定一个参数的函数。
 type: docs
 weight: 8020
@@ -21,7 +21,7 @@ public interface IMathFunction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | 函数参数 |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 函数名称，例如，函数名称可以是 sin 和 cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 函数名称 例如，函数名称为 sin 和 cos |
 
 ### 示例
 
@@ -32,7 +32,7 @@ public interface IMathFunction : IMathElement
 IMathFunction sinX = new MathematicalText("sin").Function("x");
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,7 +1,7 @@
 ---
 title: Uri
-second_title: Aspose.Slides für .NET API Referenz
-description: URI der Ressource, die zum Herunterladen verwendet wird, wenn ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading Standard zurückgibt. Zuerst ist sie auf die ursprüngliche URI der Ressource eingestellt, kann jedoch auf jeden Wert umdefiniert werden.
+second_title: Aspose.Slides für .NET API-Referenz
+description: URI der Ressource, die zum Herunterladen verwendet wird, wenn ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading Default zurückgibt. Zunächst ist es auf die ursprüngliche URI der Ressource gesetzt, kann aber auf jeden Wert umdefiniert werden.
 type: docs
 weight: 20
 url: /de/aspose.slides/iresourceloadingargs/uri/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iresourceloadingargs/uri/
 
 ## IResourceLoadingArgs.Uri-Eigenschaft
 
-URI der Ressource, die zum Herunterladen verwendet wird, wenn [`ResourceLoading`](../../iresourceloadingcallback/resourceloading) Standard zurückgibt. Zuerst ist sie auf die ursprüngliche URI der Ressource eingestellt, kann jedoch auf jeden Wert umdefiniert werden.
+URI der Ressource, die zum Herunterladen verwendet wird, wenn [`ResourceLoading`](../../iresourceloadingcallback/resourceloading) Default zurückgibt. Zunächst ist es auf die ursprüngliche URI der Ressource gesetzt, kann aber auf jeden Wert umdefiniert werden.
 
 ```csharp
 public string Uri { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IResourceLoadingArgs](../../iresourceloadingargs)
 * Namespace [Aspose.Slides](../../iresourceloadingargs)

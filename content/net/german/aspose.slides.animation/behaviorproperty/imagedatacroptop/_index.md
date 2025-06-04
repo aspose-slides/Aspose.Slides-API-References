@@ -1,7 +1,7 @@
 ---
 title: ImageDataCropTop
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die imageData.cropTop-Eigenschaft dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Eigenschaft imageData.cropTop dar
 type: docs
 weight: 470
 url: /de/aspose.slides.animation/behaviorproperty/imagedatacroptop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/imagedatacroptop/
 
 ## BehaviorProperty.ImageDataCropTop-Eigenschaft
 
-Stellt die 'imageData.cropTop'-Eigenschaft dar
+Stellt die Eigenschaft 'imageData.cropTop' dar
 
 ```csharp
 public static BehaviorProperty ImageDataCropTop { get; }

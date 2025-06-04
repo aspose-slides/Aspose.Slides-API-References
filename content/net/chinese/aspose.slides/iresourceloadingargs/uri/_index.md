@@ -1,7 +1,7 @@
 ---
 title: Uri
-second_title: Aspose.Slides for .NET API 参考
-description: 如果 ResourceLoading 返回 Default，下载资源时使用的 URI。最初设置为资源的原始 URI，但可以重新定义为任何值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 用于下载的资源的 URI，如果 ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading 返回默认值。最初设置为资源的原始 URI，但可以重新定义为任何值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iresourceloadingargs/uri/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iresourceloadingargs/uri/
 
 ## IResourceLoadingArgs.Uri 属性
 
-如果 [`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回 Default，下载资源时使用的 URI。最初设置为资源的原始 URI，但可以重新定义为任何值。
+用于下载的资源的 URI，如果 [`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回默认值。最初设置为资源的原始 URI，但可以重新定义为任何值。
 
 ```csharp
 public string Uri { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IResourceLoadingArgs](../../iresourceloadingargs)
 * 命名空间 [Aspose.Slides](../../iresourceloadingargs)

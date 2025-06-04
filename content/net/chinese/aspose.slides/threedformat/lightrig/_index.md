@@ -1,7 +1,7 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置光源的类型。只读 ILightRigaspose.slides/ilightrig。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回或设置光的类型。只读 ILightRigaspose.slides/ilightrig。
 type: docs
 weight: 90
 url: /zh/aspose.slides/threedformat/lightrig/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/threedformat/lightrig/
 
 ## ThreeDFormat.LightRig 属性
 
-返回或设置光源的类型。只读 [`ILightRig`](../../ilightrig)。
+返回或设置光的类型。只读 [`ILightRig`](../../ilightrig)。
 
 ```csharp
 public ILightRig LightRig { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILightRig](../../ilightrig)
 * 类 [ThreeDFormat](../../threedformat)

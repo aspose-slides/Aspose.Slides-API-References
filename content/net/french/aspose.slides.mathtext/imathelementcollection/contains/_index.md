@@ -1,13 +1,13 @@
 ---
 title: Contains
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Détermine si la collection contient une valeur spécifique.
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/imathelementcollection/contains/
 ---
 
-## Méthode IMathElementCollection.Contains
+## IMathElementCollection.Contains méthode
 
 Détermine si la collection contient une valeur spécifique.
 
@@ -19,7 +19,7 @@ public bool Contains(IMathElement item)
 | --- | --- | --- |
 | item | IMathElement | L'objet à localiser dans la collection. |
 
-### Valeur de Retour
+### Valeur de retour
 
 true si *item* est trouvé dans la collection ; sinon, false.
 
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 bool contains = collection.Contains(plusElement);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathElementCollection](../../imathelementcollection)

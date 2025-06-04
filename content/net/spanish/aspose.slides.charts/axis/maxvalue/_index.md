@@ -1,6 +1,6 @@
 ---
 title: MaxValue
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa el valor máximo en el eje de valores. Lectura/escritura Double.
 type: docs
 weight: 380
@@ -15,10 +15,10 @@ Representa el valor máximo en el eje de valores. Lectura/escritura Double.
 public double MaxValue { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

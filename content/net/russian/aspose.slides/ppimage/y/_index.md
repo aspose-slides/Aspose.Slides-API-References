@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает смещение Y изображения. Свойство доступно только для чтения, Int32.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает смещение Y изображения. Только для чтения Int32.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ppimage/y/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ppimage/y/
 
 ## Свойство PPImage.Y
 
-Возвращает смещение Y изображения. Свойство доступно только для чтения, Int32.
+Возвращает смещение Y изображения. Только для чтения Int32.
 
 ```csharp
 public int Y { get; }

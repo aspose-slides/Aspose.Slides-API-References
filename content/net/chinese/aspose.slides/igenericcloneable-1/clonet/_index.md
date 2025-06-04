@@ -1,6 +1,6 @@
 ---
 title: CloneT
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建一个新对象，该对象是当前实例的副本。
 type: docs
 weight: 20
@@ -17,9 +17,9 @@ public T CloneT()
 
 ### 返回值
 
-一个新对象，它是此实例的副本。
+一个新对象，该对象是该实例的副本。
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
 * 命名空间 [Aspose.Slides](../../igenericcloneable-1)

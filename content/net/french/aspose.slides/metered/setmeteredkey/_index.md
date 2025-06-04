@@ -1,13 +1,13 @@
 ---
 title: SetMeteredKey
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Définit la clé publique et la clé privée mesurées
 type: docs
 weight: 20
 url: /fr/aspose.slides/metered/setmeteredkey/
 ---
 
-## Méthode Metered.SetMeteredKey
+## Metered.SetMeteredKey méthode
 
 Définit la clé publique et la clé privée mesurées
 

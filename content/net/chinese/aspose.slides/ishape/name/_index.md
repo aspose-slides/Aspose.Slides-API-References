@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置形状的名称。可读写字符串。
 type: docs
 weight: 170
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishape/name/
 public string Name { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

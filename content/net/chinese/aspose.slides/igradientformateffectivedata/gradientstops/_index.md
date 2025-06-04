@@ -1,7 +1,7 @@
 ---
 title: GradientStops
-second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变停止的集合。只读 IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回渐变停止点的集合。只读 IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata。
 type: docs
 weight: 40
 url: /zh/aspose.slides/igradientformateffectivedata/gradientstops/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igradientformateffectivedata/gradientstops/
 
 ## IGradientFormatEffectiveData.GradientStops 属性
 
-返回渐变停止的集合。只读 [`IGradientStopCollectionEffectiveData`](../../igradientstopcollectioneffectivedata)。
+返回渐变停止点的集合。只读 [`IGradientStopCollectionEffectiveData`](../../igradientstopcollectioneffectivedata)。
 
 ```csharp
 public IGradientStopCollectionEffectiveData GradientStops { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IGradientStopCollectionEffectiveData](../../igradientstopcollectioneffectivedata)
 * 接口 [IGradientFormatEffectiveData](../../igradientformateffectivedata)

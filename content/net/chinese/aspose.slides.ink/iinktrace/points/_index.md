@@ -1,7 +1,7 @@
 ---
 title: Points
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取 IInkLine PointF 的只读点。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取 IInkLine PointF 的点，只读。
 type: docs
 weight: 20
 url: /zh/aspose.slides.ink/iinktrace/points/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.ink/iinktrace/points/
 
 ## IInkTrace.Points 属性
 
-获取 IInkLine PointF 的只读点。
+获取 IInkLine PointF 的点，只读。
 
 ```csharp
 public PointF[] Points { get; }
@@ -17,7 +17,7 @@ public PointF[] Points { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IInkTrace](../../iinktrace)
 * 命名空间 [Aspose.Slides.Ink](../../iinktrace)

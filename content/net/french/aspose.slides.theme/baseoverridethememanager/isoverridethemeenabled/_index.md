@@ -1,21 +1,21 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init. Pour désactiver OverrideTheme de son remplacement, utilisez la méthode OverrideTheme.Clear. Boolean en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init. Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear. Booléen en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled/
 ---
 
-## Propriété BaseOverrideThemeManager.IsOverrideThemeEnabled
+## BaseOverrideThemeManager.IsOverrideThemeEnabled property
 
-Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme de son remplacement, utilisez la méthode OverrideTheme.Clear(). Boolean en lecture seule.
+Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear(). Booléen en lecture seule.
 
 ```csharp
 public bool IsOverrideThemeEnabled { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BaseOverrideThemeManager](../../baseoverridethememanager)
 * espace de noms [Aspose.Slides.Theme](../../baseoverridethememanager)

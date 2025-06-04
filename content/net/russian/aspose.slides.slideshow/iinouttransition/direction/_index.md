@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Справочный раздел Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Направление эффекта перехода. Чтение/запись TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/iinouttransition/direction/
 ---
 
-## Свойство IInOutTransition.Direction
+## IInOutTransition.Direction свойство
 
 Направление эффекта перехода. Чтение/запись [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 

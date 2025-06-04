@@ -1,7 +1,7 @@
 ---
 title: HyperlinkManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Gestionnaire d'hyperliens Lecture seule IHyperlinkManager aspose.slides/ihyperlinkmanager.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Gestionnaire d'hyperliens Lecture seule IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ihyperlinkcontainer/hyperlinkmanager/
@@ -15,7 +15,7 @@ Gestionnaire d'hyperliens Lecture seule [`IHyperlinkManager`](../../ihyperlinkma
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlinkManager](../../ihyperlinkmanager)
 * interface [IHyperlinkContainer](../../ihyperlinkcontainer)

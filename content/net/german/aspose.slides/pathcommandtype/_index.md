@@ -7,7 +7,7 @@ weight: 9050
 url: /de/aspose.slides/pathcommandtype/
 ---
 
-## Enumeration PathCommandType
+## PathCommandType Aufzählung
 
 Stellt Grafikpfadbefehle dar
 
@@ -20,13 +20,13 @@ public enum PathCommandType : byte
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Close | `0` | Schließt den Geometriepfad |
-| MoveTo | `1` | Setzt die nächste Punktposition des Geometriepfades |
+| MoveTo | `1` | Setzt die nächste Punktposition des Geometriepfads |
 | LineTo | `2` | Fügt eine Linie zum Geometriepfad hinzu |
 | ArcTo | `3` | Fügt den angegebenen Bogen zum Geometriepfad hinzu. |
 | QuadBezierTo | `4` | Fügt eine quadratische Bezierkurve zum Geometriepfad hinzu |
 | CubicBezierTo | `5` | Fügt eine kubische Bezierkurve zum Geometriepfad hinzu |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

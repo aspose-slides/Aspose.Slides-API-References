@@ -1,7 +1,7 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das einen Alpha Bi-Level Effekt darstellt. Alpha-Transparenzwerte unter dem Schwellenwert werden auf 0 vollständig transparent geändert, und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100 vollständig undurchsichtig geändert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das einen Alpha-Bi-Level-Effekt darstellt. Alpha-Transparenzwerte, die kleiner als der Schwellenwert sind, werden auf 0 vollständig transparent geändert und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100 vollständig undurchsichtig geändert.
 type: docs
 weight: 2930
 url: /de/aspose.slides.effects/ialphabileveleffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphabileveleffectivedata/
 
 ## IAlphaBiLevelEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha Bi-Level Effekt darstellt. Alpha (Transparenz) Werte unter dem Schwellenwert werden auf 0 (vollständig transparent) geändert und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100% (vollständig undurchsichtig) geändert.
+Unveränderliches Objekt, das einen Alpha-Bi-Level-Effekt darstellt. Alpha (Transparenz) Werte, die kleiner als der Schwellenwert sind, werden auf 0 (vollständig transparent) geändert und Alpha-Werte, die größer oder gleich dem Schwellenwert sind, werden auf 100% (vollständig undurchsichtig) geändert.
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -19,8 +19,8 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Gibt den Effekt-Schwellenwert zurück. Nur lesbar Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IEffectEffectiveData. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Gibt den Effekt-Schwellenwert zurück. Nur-Lese Single. |
 
 ### Siehe auch
 

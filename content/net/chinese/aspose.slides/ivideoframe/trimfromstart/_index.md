@@ -1,7 +1,7 @@
 ---
 title: TrimFromStart
-second_title: Aspose.Sildes for .NET API 参考
-description: 修剪开始 ms
+second_title: Aspose.Sildes for .NET API Reference
+description: 修剪开始时间 ms
 type: docs
 weight: 110
 url: /zh/aspose.slides/ivideoframe/trimfromstart/

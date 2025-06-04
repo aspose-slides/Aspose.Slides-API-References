@@ -1,13 +1,13 @@
 ---
 title: BehaviorAccumulateType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示效果行为的累积类型。
 type: docs
 weight: 70
 url: /zh/aspose.slides.animation/behavioraccumulatetype/
 ---
 
-## BehaviorAccumulateType 列举
+## BehaviorAccumulateType 枚举
 
 表示效果行为的累积类型。
 
@@ -23,7 +23,7 @@ public enum BehaviorAccumulateType
 | Always | `0` |  |
 | None | `1` |  |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

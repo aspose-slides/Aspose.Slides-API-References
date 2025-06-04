@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Befehle aus der Sammlung.
 type: docs
 weight: 50
 url: /de/aspose.slides.animation/motionpath/clear/
 ---
 
-## MotionPath.Clear Methode
+## MotionPath.Clear-Methode
 
 Entfernt alle Befehle aus der Sammlung.
 

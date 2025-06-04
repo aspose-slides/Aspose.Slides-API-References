@@ -1,7 +1,7 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui représente un effet de remplacement de couleur. Toutes les couleurs des effets sont changées en une couleur fixe. Les valeurs Alpha ne sont pas affectées.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Objet immuable qui représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont changées en une couleur fixe. Les valeurs alpha ne sont pas affectées.
 type: docs
 weight: 3130
 url: /fr/aspose.slides.effects/icolorreplaceeffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/icolorreplaceeffectivedata/
 
 ## Interface IColorReplaceEffectiveData
 
-Objet immuable qui représente un effet de remplacement de couleur. Toutes les couleurs des effets sont changées en une couleur fixe. Les valeurs Alpha ne sont pas affectées.
+Objet immuable qui représente un effet de remplacement de couleur. Toutes les couleurs de l'effet sont changées en une couleur fixe. Les valeurs alpha ne sont pas affectées.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData

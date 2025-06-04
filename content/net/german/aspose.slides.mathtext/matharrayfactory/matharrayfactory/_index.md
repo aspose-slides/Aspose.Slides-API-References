@@ -1,13 +1,13 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Der Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/matharrayfactory/matharrayfactory/
 ---
 
-## MathArrayFactory-Konstruktor
+## Konstruktor von MathArrayFactory
 
 Der Standardkonstruktor.
 

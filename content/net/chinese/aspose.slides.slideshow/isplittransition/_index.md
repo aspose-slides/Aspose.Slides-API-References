@@ -1,7 +1,7 @@
 ---
 title: ISplitTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 切分幻灯片过渡效果。
+description: 分割幻灯片过渡效果。
 type: docs
 weight: 9890
 url: /zh/aspose.slides.slideshow/isplittransition/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/isplittransition/
 
 ## ISplitTransition 接口
 
-切分幻灯片过渡效果。
+分割幻灯片过渡效果。
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -20,10 +20,10 @@ public interface ISplitTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 过渡切分的方向。读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 过渡切分的方向。读写 [`Orientation`](../../aspose.slides/orientation)。 |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 过渡分割的方向。读写 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 过渡分割的方向。读写 [`Orientation`](../../aspose.slides/orientation)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

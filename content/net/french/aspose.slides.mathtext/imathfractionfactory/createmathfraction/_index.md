@@ -1,13 +1,13 @@
 ---
 title: CreateMathFraction
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée une fraction mathématique
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathfractionfactory/createmathfraction/
 ---
 
-## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
+## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
 Crée une fraction mathématique
 
@@ -26,7 +26,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 Nouvelle fraction mathématique [`IMathFraction`](../../imathfraction)
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)
@@ -37,7 +37,7 @@ Nouvelle fraction mathématique [`IMathFraction`](../../imathfraction)
 
 ---
 
-## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
+## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
 
 Crée une fraction mathématique
 
@@ -54,7 +54,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 Nouvelle fraction mathématique [`IMathFraction`](../../imathfraction)
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathFraction](../../imathfraction)
 * interface [IMathElement](../../imathelement)

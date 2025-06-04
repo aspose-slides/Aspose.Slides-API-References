@@ -1,21 +1,21 @@
 ---
 title: Value
-second_title: Aspose.Slides for .NET API 参考
-description: 如果 UseCell 为 true，则此属性代表 AsCell.Value 属性。如果 UseCell 为 false，则此属性代表 AsLiteral 属性。可读/写对象。
+second_title: Aspose.Slides for .NET API Reference
+description: 如果 UseCell 为 true，则此属性表示 AsCell.Value 属性。如果 UseCell 为 false，则此属性表示 AsLiteral 属性。可读/可写对象。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/chartcategory/value/
 ---
 
-## ChartCategory.Value 属性
+## ChartCategory.Value property
 
-如果 UseCell 为 true，则此属性代表 AsCell.Value 属性。如果 UseCell 为 false，则此属性代表 AsLiteral 属性。可读/写对象。
+如果 UseCell 为 true，则此属性表示 AsCell.Value 属性。如果 UseCell 为 false，则此属性表示 AsLiteral 属性。可读/可写对象。
 
 ```csharp
 public object Value { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * class [ChartCategory](../../chartcategory)
 * namespace [Aspose.Slides.Charts](../../chartcategory)

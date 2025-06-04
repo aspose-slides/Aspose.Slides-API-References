@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 删除指定索引处的命令。
 type: docs
 weight: 80

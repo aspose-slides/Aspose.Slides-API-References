@@ -1,7 +1,7 @@
 ---
 title: UseTimings
-second_title: Aspose.Slides for .NET API 参考
-description: 在幻灯片放映中使用时间
+second_title: Aspose.Sildes for .NET API Reference
+description: 在幻灯片放映中使用计时
 type: docs
 weight: 80
 url: /zh/aspose.slides/slideshowsettings/usetimings/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/slideshowsettings/usetimings/
 
 ## SlideShowSettings.UseTimings 属性
 
-在幻灯片放映中使用时间
+在幻灯片放映中使用计时
 
 ```csharp
 public bool UseTimings { get; set; }
 ```
 
-### 相关信息
+### 另请参阅
 
 * class [SlideShowSettings](../../slideshowsettings)
 * namespace [Aspose.Slides](../../slideshowsettings)

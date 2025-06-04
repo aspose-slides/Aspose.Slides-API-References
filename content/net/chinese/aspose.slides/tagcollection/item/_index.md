@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置标签的键值对。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置标签的一对键值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/tagcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/tagcollection/item/
 
 ## TagCollection 索引器
 
-返回或设置标签的键值对。
+返回或设置标签的一对键值。
 
 ```csharp
 public string this[string name] { get; set; }

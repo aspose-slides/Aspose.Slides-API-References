@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
-second_title: Aspose.Slides für .NET API Referenz
-description: Basiseinstellungen für Diashows. Vorfahren repräsentieren Typen der Diashow PresentedBySpeaker../presentedbyspeaker Vorgestellt von einem Sprecher Vollbild BrowsedByIndividual../browsedbyindividual Durchgesehen von einer Einzelperson Fenster BrowsedAtKiosk../browsedatkiosk Durchgesehen an einem Kiosk Vollbild
+second_title: Aspose.Slide für .NET API-Referenz
+description: Basiseinstellungen für die Diashow. Vorfahren repräsentieren Typen der Diashow PresentedBySpeaker../presentedbyspeaker Präsentiert von einem Sprecher Vollbild BrowsedByIndividual../browsedbyindividual Durch einen einzelnen Benutzer betrachtet Fenster BrowsedAtKiosk../browsedatkiosk In einem Kiosk betrachtet Vollbild
 type: docs
 weight: 10180
 url: /de/aspose.slides/slideshowtype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slideshowtype/
 
 ## SlideShowType-Klasse
 
-Basiseinstellungen für Diashows. Vorfahren repräsentieren Typen der Diashow: [`PresentedBySpeaker`](../presentedbyspeaker) Vorgestellt von einem Sprecher (Vollbild) [`BrowsedByIndividual`](../browsedbyindividual) Durchgesehen von einer Einzelperson (Fenster) [`BrowsedAtKiosk`](../browsedatkiosk) Durchgesehen an einem Kiosk (Vollbild)
+Basiseinstellungen für die Diashow. Vorfahren repräsentieren Typen der Diashow: [`PresentedBySpeaker`](../presentedbyspeaker) Präsentiert von einem Sprecher (Vollbild) [`BrowsedByIndividual`](../browsedbyindividual) Durch einen einzelnen Benutzer betrachtet (Fenster) [`BrowsedAtKiosk`](../browsedatkiosk) In einem Kiosk betrachtet (Vollbild)
 
 ```csharp
 public abstract class SlideShowType

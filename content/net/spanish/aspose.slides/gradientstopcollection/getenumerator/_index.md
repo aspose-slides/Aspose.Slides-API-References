@@ -7,7 +7,7 @@ weight: 80
 url: /es/aspose.slides/gradientstopcollection/getenumerator/
 ---
 
-## Método GradientStopCollection.GetEnumerator
+## GradientStopCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IGradientStop> GetEnumerator()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Un IEnumerator que puede ser utilizado para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
-### Véase También
+### Véase también
 
-* interfaz [IGradientStop](../../igradientstop)
-* clase [GradientStopCollection](../../gradientstopcollection)
-* espacio de nombres [Aspose.Slides](../../gradientstopcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IGradientStop](../../igradientstop)
+* class [GradientStopCollection](../../gradientstopcollection)
+* namespace [Aspose.Slides](../../gradientstopcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

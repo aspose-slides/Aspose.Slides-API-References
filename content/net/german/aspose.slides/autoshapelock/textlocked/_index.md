@@ -1,15 +1,15 @@
 ---
 title: TextLocked
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob eine Bearbeitung des Textes verboten ist. Lese-/Schreib-Boolean.
+description: Bestimmt, ob das Bearbeiten von Text verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 110
 url: /de/aspose.slides/autoshapelock/textlocked/
 ---
 
-## AutoShapeLock.TextLocked Eigenschaft
+## AutoShapeLock.TextLocked-Eigenschaft
 
-Bestimmt, ob eine Bearbeitung des Textes verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob das Bearbeiten von Text verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool TextLocked { get; set; }

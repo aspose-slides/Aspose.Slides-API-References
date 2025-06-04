@@ -1,7 +1,7 @@
 ---
 title: GraphicalObjectLock
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve bloqueos de formas. Solo lectura de IGraphicalObjectLock aspose.slides/igraphicalobjectlock.
+description: Devuelve los bloqueos de formas. Solo lectura IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
 type: docs
 weight: 10
 url: /es/aspose.slides/graphicalobject/graphicalobjectlock/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/graphicalobject/graphicalobjectlock/
 
 ## Propiedad GraphicalObject.GraphicalObjectLock
 
-Devuelve los bloqueos de forma. Solo lectura de [`IGraphicalObjectLock`](../../igraphicalobjectlock).
+Devuelve los bloqueos de la forma. Solo lectura [`IGraphicalObjectLock`](../../igraphicalobjectlock).
 
 ```csharp
 public IGraphicalObjectLock GraphicalObjectLock { get; }
 ```
 
-### Véase también
+### También Visto
 
 * interfaz [IGraphicalObjectLock](../../igraphicalobjectlock)
 * clase [GraphicalObject](../../graphicalobject)

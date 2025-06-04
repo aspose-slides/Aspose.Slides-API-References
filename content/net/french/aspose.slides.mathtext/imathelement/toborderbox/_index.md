@@ -1,6 +1,6 @@
 ---
 title: ToBorderBox
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Place cet élément dans une bordure
 type: docs
 weight: 190
@@ -17,11 +17,11 @@ public IMathBorderBox ToBorderBox()
 
 ### Valeur de retour
 
-Bordure dans laquelle cet élément est placé
+Bordure avec cet élément placé à l'intérieur
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -53,18 +53,18 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 | hideBottom | Boolean | Cacher le bord inférieur |
 | hideLeft | Boolean | Cacher le bord gauche |
 | hideRight | Boolean | Cacher le bord droit |
-| strikethroughHorizontal | Boolean | Barré horizontal de la bordure |
-| strikethroughVertical | Boolean | Barré vertical de la bordure |
-| strikethroughBottomLeftToTopRight | Boolean | Barré de la bordure du bas gauche vers le haut droit |
-| strikethroughTopLeftToBottomRight | Boolean | Barré de la bordure du haut gauche vers le bas droit |
+| strikethroughHorizontal | Boolean | Barrer horizontalement la bordure |
+| strikethroughVertical | Boolean | Barrer verticalement la bordure |
+| strikethroughBottomLeftToTopRight | Boolean | Barrer de bas-gauche à haut-droit |
+| strikethroughTopLeftToBottomRight | Boolean | Barrer de haut-gauche à bas-droit |
 
 ### Valeur de retour
 
-Bordure dans laquelle cet élément est placé
+Bordure avec cet élément placé à l'intérieur
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

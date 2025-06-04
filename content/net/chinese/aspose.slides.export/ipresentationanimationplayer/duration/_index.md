@@ -1,7 +1,7 @@
 ---
 title: Duration
-second_title: Aspose.Slides for .NET API参考
-description: 获取动画持续时间ms
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取动画持续时间（毫秒）
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/ipresentationanimationplayer/duration/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/ipresentationanimationplayer/duration/
 public double Duration { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPresentationAnimationPlayer](../../ipresentationanimationplayer)
 * 命名空间 [Aspose.Slides.Export](../../ipresentationanimationplayer)

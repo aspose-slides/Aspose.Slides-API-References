@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Booleans.
 type: docs
 weight: 100
 url: /de/aspose.slides/ipictureframelock/selectlocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipictureframelock/selectlocked/
 
 ## IPictureFrameLock.SelectLocked-Eigenschaft
 
-Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Booleans.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPictureFrameLock](../../ipictureframelock)
 * Namespace [Aspose.Slides](../../ipictureframelock)

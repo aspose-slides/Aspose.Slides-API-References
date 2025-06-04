@@ -1,6 +1,6 @@
 ---
 title: AddTemplate
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将模板添加到模板集合中。
 type: docs
 weight: 10
@@ -21,7 +21,7 @@ public void AddTemplate(string key, string template, Type modelType)
 | template | String | 模板内容。 |
 | modelType | Type | 模板的模型对象类型。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ITemplateEngine](../../itemplateengine)
 * 命名空间 [Aspose.Slides.Export.Web](../../itemplateengine)

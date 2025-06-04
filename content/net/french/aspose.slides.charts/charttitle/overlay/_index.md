@@ -1,7 +1,7 @@
 ---
 title: Overlay
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Détermine si d'autres éléments de graphique peuvent chevaucher le titre. Booléen lisible/écrivable.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si d'autres éléments de graphique peuvent se chevaucher avec le titre. Booléen en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/charttitle/overlay/
@@ -9,16 +9,16 @@ url: /fr/aspose.slides.charts/charttitle/overlay/
 
 ## Propriété ChartTitle.Overlay
 
-Détermine si d'autres éléments de graphique peuvent chevaucher le titre. Booléen lisible/écrivable.
+Détermine si d'autres éléments de graphique peuvent se chevaucher avec le titre. Booléen en lecture/écriture.
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* classe [ChartTitle](../../charttitle)
-* espace de noms [Aspose.Slides.Charts](../../charttitle)
+* class [ChartTitle](../../charttitle)
+* namespace [Aspose.Slides.Charts](../../charttitle)
 * assembly [Aspose.Slides](../../../)
 
 <!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

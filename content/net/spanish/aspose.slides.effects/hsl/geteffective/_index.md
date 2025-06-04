@@ -1,25 +1,25 @@
 ---
 title: GetEffective
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene datos efectivos de efecto de Matiz/Saturación/Luminosidad con la herencia aplicada.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Obtiene los datos efectivos de efecto de Tono/Saturación/Luminancia con la herencia aplicada.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/hsl/geteffective/
 ---
 
-## Método HSL.GetEffective
+## HSL.GetEffective método
 
-Obtiene datos efectivos de efecto de Matiz/Saturación/Luminosidad con la herencia aplicada.
+Obtiene los datos efectivos de efecto de Tono/Saturación/Luminancia con la herencia aplicada.
 
 ```csharp
 public IHSLEffectiveData GetEffective()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un [`IHSLEffectiveData`](../../ihsleffectivedata).
 
-### Véase también
+### Ver También
 
 * interfaz [IHSLEffectiveData](../../ihsleffectivedata)
 * clase [HSL](../../hsl)

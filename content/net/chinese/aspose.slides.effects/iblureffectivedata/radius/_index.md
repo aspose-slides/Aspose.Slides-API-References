@@ -1,6 +1,6 @@
 ---
 title: Radius
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置模糊半径。只读 Double。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/iblureffectivedata/radius/
 public double Radius { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IBlurEffectiveData](../../iblureffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../iblureffectivedata)

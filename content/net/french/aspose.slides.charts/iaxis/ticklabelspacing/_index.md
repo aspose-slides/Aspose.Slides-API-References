@@ -1,7 +1,7 @@
 ---
 title: TickLabelSpacing
-second_title: Aspose.Slides pour l'API .NET
-description: Spécifie combien d'étiquettes de graduation sauter entre l'étiquette dessinée. Lecture/écriture UInt32.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Spécifie combien d'étiquettes de graduation à sauter entre l'étiquette qui est dessinée. Lecture/écriture UInt32.
 type: docs
 weight: 520
 url: /fr/aspose.slides.charts/iaxis/ticklabelspacing/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/ticklabelspacing/
 
 ## Propriété IAxis.TickLabelSpacing
 
-Spécifie combien d'étiquettes de graduation sauter entre l'étiquette dessinée. Lecture/écriture UInt32.
+Spécifie combien d'étiquettes de graduation à sauter entre l'étiquette qui est dessinée. Lecture/écriture UInt32.
 
 ```csharp
 public uint TickLabelSpacing { get; set; }

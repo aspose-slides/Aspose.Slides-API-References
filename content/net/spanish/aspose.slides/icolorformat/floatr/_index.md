@@ -1,7 +1,7 @@
 ---
 title: FloatR
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el componente rojo de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single.
+description: Devuelve o establece el componente rojo de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Simple.
 type: docs
 weight: 80
 url: /es/aspose.slides/icolorformat/floatr/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/icolorformat/floatr/
 
 ## Propiedad IColorFormat.FloatR
 
-Devuelve o establece el componente rojo de un color. Todas las transformaciones de color se ignoran. Lectura/escritura Single.
+Devuelve o establece el componente rojo de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Simple.
 
 ```csharp
 public float FloatR { get; set; }
@@ -19,6 +19,6 @@ public float FloatR { get; set; }
 
 * interfaz [IColorFormat](../../icolorformat)
 * espacio de nombres [Aspose.Slides](../../icolorformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

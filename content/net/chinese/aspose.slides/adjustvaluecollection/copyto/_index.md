@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 将集合中的所有元素复制到指定数组中。
 type: docs
 weight: 50
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | 目标数组。 |
 | index | Int32 | 目标数组中的起始索引。 |
 
-### 另请参阅
+### 另见
 
 * class [AdjustValueCollection](../../adjustvaluecollection)
 * namespace [Aspose.Slides](../../adjustvaluecollection)

@@ -1,7 +1,7 @@
 ---
 title: FadeDirection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la direction pour décaler le reflet. angle. Lecture seule Single.
+description: Spécifie la direction pour décaler la réflexion. angle. En lecture seule Single.
 type: docs
 weight: 70
 url: /fr/aspose.slides.effects/ireflectioneffectivedata/fadedirection/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ireflectioneffectivedata/fadedirection/
 
 ## Propriété IReflectionEffectiveData.FadeDirection
 
-Spécifie la direction pour décaler le reflet. (angle). Lecture seule Single.
+Spécifie la direction pour décaler la réflexion. (angle). En lecture seule Single.
 
 ```csharp
 public float FadeDirection { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)

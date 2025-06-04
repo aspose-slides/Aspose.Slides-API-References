@@ -1,6 +1,6 @@
 ---
 title: Handout
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает, сколько слайдов и в каком порядке будет размещено на странице HandoutTypeaspose.slides/handouttype.
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public HandoutType Handout { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — **HandoutType.Handouts6Horizontal**.
+Значение по умолчанию - **HandoutType.Handouts6Horizontal**.
 
 ### Примеры
 

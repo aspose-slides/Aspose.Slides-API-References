@@ -1,15 +1,15 @@
 ---
 title: Remove
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt ein bestimmtes Verhalten aus einer Sammlung.
+description: Entfernt das angegebene Verhalten aus einer Sammlung.
 type: docs
 weight: 90
 url: /de/aspose.slides.animation/ibehaviorcollection/remove/
 ---
 
-## IBehaviorCollection.Remove Methode
+## IBehaviorCollection.Remove-Methode
 
-Entfernt ein bestimmtes Verhalten aus einer Sammlung.
+Entfernt das angegebene Verhalten aus einer Sammlung.
 
 ```csharp
 public bool Remove(IBehavior item)
@@ -17,11 +17,11 @@ public bool Remove(IBehavior item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IBehavior | Verhalten, das entfernt werden soll. |
+| item | IBehavior | Zu entfernendes Verhalten. |
 
 ### Rückgabewert
 
-True, wenn ein Verhalten erfolgreich entfernt wurde, Boolean
+True, wenn ein Verhalten erfolgreich entfernt wurde. Boolean
 
 ### Siehe auch
 

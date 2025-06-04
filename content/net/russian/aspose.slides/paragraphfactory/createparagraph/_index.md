@@ -1,6 +1,6 @@
 ---
 title: CreateParagraph
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Ссылка
 description: Создает новый пустой абзац.
 type: docs
 weight: 20
@@ -30,7 +30,7 @@ public IParagraph CreateParagraph()
 
 ## CreateParagraph(IParagraph) {#createparagraph_1}
 
-Создает новый абзац с использованием заданных данных абзаца.
+Создает новый абзац с указанными данными абзаца.
 
 ```csharp
 public IParagraph CreateParagraph(IParagraph paragraph)
@@ -38,7 +38,7 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| paragraph | IParagraph | Абзац для использования данных. |
+| paragraph | IParagraph | Абзац, из которого будут использованы данные. |
 
 ### Возвращаемое значение
 

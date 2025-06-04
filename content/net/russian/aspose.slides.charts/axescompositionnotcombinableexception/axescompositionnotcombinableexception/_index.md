@@ -1,6 +1,6 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справка
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/axescompositionnotcombinableexception/axescomposit
 public AxesCompositionNotCombinableException()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * пространство имен [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
@@ -25,7 +25,7 @@ public AxesCompositionNotCombinableException()
 
 ## AxesCompositionNotCombinableException(string) {#constructor_1}
 
-Конструктор, позволяющий добавить сообщение к этому исключению.
+Конструктор, который позволяет добавить сообщение к этому исключению.
 
 ```csharp
 public AxesCompositionNotCombinableException(string message)
@@ -35,7 +35,7 @@ public AxesCompositionNotCombinableException(string message)
 | --- | --- | --- |
 | message | String | сообщение |
 
-### Смотрите также
+### См. также
 
 * класс [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * пространство имен [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)
@@ -45,7 +45,7 @@ public AxesCompositionNotCombinableException(string message)
 
 ## AxesCompositionNotCombinableException(string, Exception) {#constructor_2}
 
-Конструктор для исключения, содержащее сообщение и встроенное исключение.
+Конструктор для исключения, содержашего сообщение и встроенное исключение.
 
 ```csharp
 public AxesCompositionNotCombinableException(string message, Exception exception)
@@ -54,9 +54,9 @@ public AxesCompositionNotCombinableException(string message, Exception exception
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | сообщение |
-| exception | Exception | оригинальное исключение |
+| exception | Exception | исходное исключение |
 
-### Смотрите также
+### См. также
 
 * класс [AxesCompositionNotCombinableException](../../axescompositionnotcombinableexception)
 * пространство имен [Aspose.Slides.Charts](../../axescompositionnotcombinableexception)

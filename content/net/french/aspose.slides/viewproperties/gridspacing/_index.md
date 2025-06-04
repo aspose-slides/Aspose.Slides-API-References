@@ -1,6 +1,6 @@
 ---
 title: GridSpacing
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie ou définit l'espacement de la grille qui doit être utilisé pour la grille sous-jacente du document de présentation en points. Lecture/écriture Simple.
 type: docs
 weight: 10

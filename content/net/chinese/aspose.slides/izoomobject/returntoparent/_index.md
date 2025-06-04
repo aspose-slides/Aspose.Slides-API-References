@@ -1,7 +1,7 @@
 ---
 title: ReturnToParent
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取或设置幻灯片中的导航行为。可读/可写布尔值。默认值为 false
+description: 获取或设置幻灯片放映中的导航行为。可读/写布尔值。默认值为 false
 type: docs
 weight: 30
 url: /zh/aspose.slides/izoomobject/returntoparent/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/izoomobject/returntoparent/
 
 ## IZoomObject.ReturnToParent 属性
 
-获取或设置幻灯片中的导航行为。可读/可写布尔值。默认值：false
+获取或设置幻灯片放映中的导航行为。可读/写布尔值。默认值：false
 
 ```csharp
 public bool ReturnToParent { get; set; }
@@ -17,7 +17,7 @@ public bool ReturnToParent { get; set; }
 
 ### 备注
 
-属性的真值指定在幻灯片中返回到父级的导航行为。
+属性的 True 值指定在幻灯片放映中返回父级的导航行为。
 
 ### 示例
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IZoomObject](../../izoomobject)
 * 命名空间 [Aspose.Slides](../../izoomobject)

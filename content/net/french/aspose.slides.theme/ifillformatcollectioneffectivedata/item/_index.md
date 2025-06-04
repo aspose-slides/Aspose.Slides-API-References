@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'élément à l'index spécifié. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/ifillformatcollectioneffectivedata/item/
 ---
 
-## Indiceur IFillFormatCollectionEffectiveData
+## Indexeur IFillFormatCollectionEffectiveData
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
 

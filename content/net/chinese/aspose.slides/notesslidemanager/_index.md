@@ -1,15 +1,15 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes for .NET API 参考
-description: 幻灯片备注管理器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 注释幻灯片管理器。
 type: docs
 weight: 8890
 url: /zh/aspose.slides/notesslidemanager/
 ---
 
-## NotesSlideManager 类
+## NotesSlideManager class
 
-幻灯片备注管理器。
+注释幻灯片管理器。
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -19,39 +19,39 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | 名称 | 描述 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 返回当前幻灯片的备注幻灯片。如果幻灯片没有备注幻灯片，则返回 null。只读 [`INotesSlide`](../inotesslide)。 |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 返回当前幻灯片的注释幻灯片。如果幻灯片没有注释幻灯片，则返回 null。只读 [`INotesSlide`](../inotesslide)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | 返回当前幻灯片的备注幻灯片，如果没有则创建一个。 |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | 移除当前幻灯片的备注幻灯片。 |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | 返回当前幻灯片的注释幻灯片，如果没有则创建一个。 |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | 删除当前幻灯片的注释幻灯片。 |
 
 ### 示例
 
-以下示例展示了如何将备注添加到特定的 PowerPoint 演示文稿幻灯片。
+以下示例演示如何向特定的 PowerPoint 演示文稿幻灯片添加注释。
 
 ```csharp
 [C#]
-	// 实例化一个表示演示文稿文件的 Presentation 对象
+	// 实例化一个 Presentation 对象，表示一个演示文稿文件
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // 添加备注到第一张幻灯片
+	  // 向第一张幻灯片添加注释
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
-	  noteSlide.NotesTextFrame.Text = "您的备注";
+	  noteSlide.NotesTextFrame.Text = "您的注释";
 	  // 将演示文稿保存到磁盘
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
 
-以下示例展示了如何从 PowerPoint 演示文稿的特定幻灯片中移除备注。
+以下示例演示如何从 PowerPoint 演示文稿的特定幻灯片中删除注释。
 
 ```csharp
 [C#]
-	// 实例化一个表示演示文稿文件的 Presentation 对象
+	// 实例化一个 Presentation 对象，表示一个演示文稿文件
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // 移除第一张幻灯片的备注
+	  // 删除第一张幻灯片的注释
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
 	  // 将演示文稿保存到磁盘
@@ -59,7 +59,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-### 另见
+### 另请参阅
 
 * class [DomObject&lt;TParent&gt;](../domobject-1)
 * class [Slide](../slide)

@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatures
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la collection de signatures utilisées pour signer la présentation. Read-only IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la collection de signatures utilisées pour signer la présentation. Lecture seule IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ipresentation/digitalsignatures/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/digitalsignatures/
 
 ## Propriété IPresentation.DigitalSignatures
 
-Renvoie la collection de signatures utilisées pour signer la présentation. Read-only [`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
+Renvoie la collection de signatures utilisées pour signer la présentation. Lecture seule [`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
 
 ```csharp
 public IDigitalSignatureCollection DigitalSignatures { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "
-                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VALID" : "INVALID"));
+                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VALIDE" : "INVALID"));
             allSignaturesAreValid &= signature.IsValid;
         }
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * interface [IPresentation](../../ipresentation)

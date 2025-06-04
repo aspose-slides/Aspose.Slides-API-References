@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, равен ли указанный BiLevelaspose.slides.effects/bilevel текущему BiLevelaspose.slides.effects/bilevel.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/bilevel/equals/
 ---
 
-## Метод BiLevel.Equals
+## BiLevel.Equals метод
 
 Определяет, равен ли указанный [`BiLevel`](../../bilevel) текущему [`BiLevel`](../../bilevel).
 
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`BiLevel`](../../bilevel) для сравнения. |
+| obj | Object | [`BiLevel`](../../bilevel), который нужно сравнить. |
 
 ### Возвращаемое значение
 

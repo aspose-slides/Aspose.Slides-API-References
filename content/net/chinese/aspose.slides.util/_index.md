@@ -1,13 +1,13 @@
 ---
 title: Aspose.Slides.Util
-second_title: Aspose.Slides for .NET API 参考
-description: 包含帮助处理演示文稿的工具类。
+second_title: Aspose.Sildes for .NET API Reference
+description: 包含帮助处理演示文稿的实用类。
 type: docs
 weight: 170
 url: /zh/aspose.slides.util/
 ---
 
-包含帮助处理演示文稿的工具类。
+包含帮助处理演示文稿的实用类。
 
 ## 类
 

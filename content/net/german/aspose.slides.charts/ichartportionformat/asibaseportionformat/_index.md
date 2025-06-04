@@ -1,21 +1,21 @@
 ---
 title: AsIBasePortionFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IBasePortionFormat-Interface zurück.
+description: Gibt die IBasePortionFormat-Schnittstelle zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartportionformat/asibaseportionformat/
 ---
 
-## IChartPortionFormat.AsIBasePortionFormat-Eigenschaft
+## IChartPortionFormat.AsIBasePortionFormat Eigenschaft
 
-Gibt das IBasePortionFormat-Interface zurück.
+Gibt die IBasePortionFormat-Schnittstelle zurück.
 
 ```csharp
 public IBasePortionFormat AsIBasePortionFormat { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität.
 

@@ -24,37 +24,37 @@ public enum TextShapeType : sbyte
 | Plain | `1` | 普通 |
 | Stop | `2` | 停止标志 |
 | Triangle | `3` | 三角形 |
-| TriangleInverted | `4` | 倒三角形 |
-| Chevron | `5` | 叉形 |
-| ChevronInverted | `6` | 倒叉形 |
-| RingInside | `7` | 内部环形 |
-| RingOutside | `8` | 外部环形 |
-| ArchUp | `9` | 向上的拱形 |
-| ArchDown | `10` | 向下的拱形 |
+| TriangleInverted | `4` | 反向三角形 |
+| Chevron | `5` | 人字形 |
+| ChevronInverted | `6` | 反向人字形 |
+| RingInside | `7` | 内环 |
+| RingOutside | `8` | 外环 |
+| ArchUp | `9` | 向上拱形 |
+| ArchDown | `10` | 向下拱形 |
 | Circle | `11` | 圆形 |
 | Button | `12` | 按钮 |
-| ArchUpPour | `13` | 向上倒的拱形 |
-| ArchDownPour | `14` | 向下倒的拱形 |
-| CirclePour | `15` | 圆形倒 |
-| ButtonPour | `16` | 按钮倒 |
-| CurveUp | `17` | 向上的曲线 |
-| CurveDown | `18` | 向下的曲线 |
-| CanUp | `19` | 向上的罐子 |
-| CanDown | `20` | 向下的罐子 |
+| ArchUpPour | `13` | 向上倒出拱形 |
+| ArchDownPour | `14` | 向下倒出拱形 |
+| CirclePour | `15` | 圆形倒出 |
+| ButtonPour | `16` | 按钮倒出 |
+| CurveUp | `17` | 向上曲线 |
+| CurveDown | `18` | 向下曲线 |
+| CanUp | `19` | 向上罐 |
+| CanDown | `20` | 向下罐 |
 | Wave1 | `21` | 波浪 1 |
 | Wave2 | `22` | 波浪 2 |
 | DoubleWave1 | `23` | 双波浪 1 |
 | Wave4 | `24` | 波浪 4 |
-| Inflate | `25` | 充气 |
-| Deflate | `26` | 放气 |
-| InflateBottom | `27` | 底部充气 |
-| DeflateBottom | `28` | 底部放气 |
-| InflateTop | `29` | 顶部充气 |
-| DeflateTop | `30` | 顶部放气 |
-| DeflateInflate | `31` | 放气-充气 |
-| DeflateInflateDeflate | `32` | 放气-充气-放气 |
-| FadeRight | `33` | 右侧渐变 |
-| FadeLeft | `34` | 左侧渐变 |
+| Inflate | `25` | 膨胀 |
+| Deflate | `26` | 收缩 |
+| InflateBottom | `27` | 底部膨胀 |
+| DeflateBottom | `28` | 底部收缩 |
+| InflateTop | `29` | 顶部膨胀 |
+| DeflateTop | `30` | 顶部收缩 |
+| DeflateInflate | `31` | 收缩-膨胀 |
+| DeflateInflateDeflate | `32` | 收缩-膨胀-收缩 |
+| FadeRight | `33` | 向右渐变 |
+| FadeLeft | `34` | 向左渐变 |
 | FadeUp | `35` | 向上渐变 |
 | FadeDown | `36` | 向下渐变 |
 | SlantUp | `37` | 向上倾斜 |
@@ -63,7 +63,7 @@ public enum TextShapeType : sbyte
 | CascadeDown | `40` | 向下级联 |
 | Custom | `41` | 自定义 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: InitFormatSchemeFromInherited
-second_title: Aspose.Slides for .NET API 参考
-description: 使用新对象初始化格式方案，以覆盖继承主题的格式方案。并使用继承主题的格式方案的数据初始化该新对象的数据。
+second_title: Aspose.Sildes for .NET API Reference
+description: 用新对象初始化 FormatScheme，以覆盖 InheritedTheme 的 FormatScheme。并使用 InheritedTheme 的 FormatScheme 的数据初始化这个新对象的数据。
 type: docs
 weight: 140
 url: /zh/aspose.slides.theme/overridetheme/initformatschemefrominherited/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/overridetheme/initformatschemefrominherited/
 
 ## OverrideTheme.InitFormatSchemeFromInherited 方法
 
-使用新对象初始化格式方案，以覆盖继承主题的格式方案。并使用继承主题的格式方案的数据初始化该新对象的数据。
+用新对象初始化 FormatScheme，以覆盖 InheritedTheme 的 FormatScheme。并使用 InheritedTheme 的 FormatScheme 的数据初始化这个新对象的数据。
 
 ```csharp
 public void InitFormatSchemeFromInherited()
@@ -17,11 +17,11 @@ public void InitFormatSchemeFromInherited()
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| InvalidOperationException | 如果格式方案已初始化（非空），则引发。 |
+| InvalidOperationException | 如果 FormatScheme 已经初始化（不为 null），则引发此异常。 |
 
-### 另请参见
+### 另见
 
 * class [OverrideTheme](../../overridetheme)
 * namespace [Aspose.Slides.Theme](../../overridetheme)

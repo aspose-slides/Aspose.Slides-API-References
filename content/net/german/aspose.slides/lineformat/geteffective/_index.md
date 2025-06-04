@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ruft die effektiven Linienformatierungsdaten mit der angewendeten Vererbung ab.
 type: docs
 weight: 190
 url: /de/aspose.slides/lineformat/geteffective/
 ---
 
-## LineFormat.GetEffective-Methode
+## LineFormat.GetEffective Methode
 
 Ruft die effektiven Linienformatierungsdaten mit der angewendeten Vererbung ab.
 
@@ -21,7 +21,7 @@ Ein [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ### Beispiele
 
-Dieses Beispiel demonstriert das Abrufen der effektiven Linienformat-Eigenschaften einer Form.
+Dieses Beispiel demonstriert, wie die effektiven Linienformat-Eigenschaften einer Form abgerufen werden.
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * Klasse [LineFormat](../../lineformat)

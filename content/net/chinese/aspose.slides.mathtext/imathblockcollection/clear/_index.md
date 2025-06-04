@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有元素。
+second_title: Aspose.Slides for .NET API Reference
+description: 从集合中删除所有元素。
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/imathblockcollection/clear/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblockcollection/clear/
 
 ## IMathBlockCollection.Clear 方法
 
-从集合中移除所有元素。
+从集合中删除所有元素。
 
 ```csharp
 public void Clear()
@@ -17,7 +17,7 @@ public void Clear()
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

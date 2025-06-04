@@ -1,7 +1,7 @@
 ---
 title: IDataTable
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les propriétés de la table de données.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les propriétés du tableau de données.
 type: docs
 weight: 1980
 url: /fr/aspose.slides.charts/idatatable/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatatable/
 
 ## Interface IDataTable
 
-Représente les propriétés de la table de données.
+Représente les propriétés du tableau de données.
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -20,11 +20,11 @@ public interface IDataTable : IFormattedTextContainer
 | Nom | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Permet d'obtenir l'interface de base IFormattedTextContainer. Lecture seule [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Retourne les styles de ligne, de remplissage et d'effet d'un objet. Lecture seule [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Vrai si la table de données du graphique a des bordures de cellule horizontales. Boolean en lecture/écriture. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Vrai si la table de données du graphique a des bordures extérieures. Boolean en lecture/écriture. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Vrai si la table de données du graphique a des bordures de cellule verticales. Boolean en lecture/écriture. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Vrai si la clé de légende de l'étiquette de données est visible. Boolean en lecture/écriture. |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Renvoie les styles de ligne, de remplissage et d'effet d'un objet. Lecture seule [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Vrai si le tableau de données du graphique a des bordures de cellule horizontales. Booléen en lecture/écriture. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Vrai si le tableau de données du graphique a des bordures de contour. Booléen en lecture/écriture. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Vrai si le tableau de données du graphique a des bordures de cellule verticales. Booléen en lecture/écriture. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Vrai si la clé de légende de l'étiquette de données est visible. Booléen en lecture/écriture. |
 
 ### Voir aussi
 

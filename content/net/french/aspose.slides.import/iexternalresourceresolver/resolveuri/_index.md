@@ -1,13 +1,13 @@
 ---
 title: ResolveUri
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Résout l'URI absolu à partir des URIs de base et relatives.
 type: docs
 weight: 20
 url: /fr/aspose.slides.import/iexternalresourceresolver/resolveuri/
 ---
 
-## Méthode IExternalResourceResolver.ResolveUri
+## IExternalResourceResolver.ResolveUri méthode
 
 Résout l'URI absolu à partir des URIs de base et relatives.
 

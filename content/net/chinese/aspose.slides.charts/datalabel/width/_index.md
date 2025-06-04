@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置标题的宽度作为图表宽度的一个比例。可读写 Single。
+second_title: Aspose.Slidess for .NET API Reference
+description: 返回或设置标题的宽度，作为图表宽度的一个分数。可读写 Single。
 type: docs
 weight: 150
 url: /zh/aspose.slides.charts/datalabel/width/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datalabel/width/
 
 ## DataLabel.Width 属性
 
-返回或设置标题的宽度作为图表宽度的一个比例。可读写 Single。
+返回或设置标题的宽度，作为图表宽度的一个分数。可读写 Single。
 
 ```csharp
 public float Width { get; set; }

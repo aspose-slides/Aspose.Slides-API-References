@@ -1,6 +1,6 @@
 ---
 title: Contrast
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 对比度。只读单精度浮点数。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/iluminanceeffectivedata/contrast/
 public float Contrast { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ILuminanceEffectiveData](../../iluminanceeffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../iluminanceeffectivedata)

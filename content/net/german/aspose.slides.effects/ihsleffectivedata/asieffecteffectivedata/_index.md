@@ -1,21 +1,21 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Schreibgeschützte IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur-lesbare IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata/
 ---
 
-## IHSLEffectiveData.AsIEffectEffectiveData-Eigenschaft
+## IHSLEffectiveData.AsIEffectEffectiveData Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Schreibgeschützte [`IEffectEffectiveData`](../../ieffecteffectivedata).
+Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur-lesbare [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectEffectiveData](../../ieffecteffectivedata)
 * Schnittstelle [IHSLEffectiveData](../../ihsleffectivedata)

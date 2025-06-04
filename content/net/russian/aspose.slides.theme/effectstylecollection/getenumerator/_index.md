@@ -7,7 +7,7 @@ weight: 60
 url: /ru/aspose.slides.theme/effectstylecollection/getenumerator/
 ---
 
-## Метод EffectStyleCollection.GetEnumerator
+## EffectStyleCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -15,11 +15,11 @@ url: /ru/aspose.slides.theme/effectstylecollection/getenumerator/
 public IEnumerator<IEffectStyle> GetEnumerator()
 ```
 
-### Значение, возвращаемое методом
+### Возвращаемое значение
 
-Перечислитель IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IEffectStyle](../../ieffectstyle)
 * класс [EffectStyleCollection](../../effectstylecollection)

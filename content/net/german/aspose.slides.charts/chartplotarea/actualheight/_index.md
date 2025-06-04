@@ -1,7 +1,7 @@
 ---
 title: ActualHeight
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzel.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartplotarea/actualheight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartplotarea/actualheight/
 
 ## ChartPlotArea.ActualHeight-Eigenschaft
 
-Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzel.
+Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Einzelwert.
 
 ```csharp
 public float ActualHeight { get; }

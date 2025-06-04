@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Dirección de la sombra. Solo lectura Single.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/ioutershadoweffectivedata/direction/
 ---
 
-## Propiedad IOuterShadowEffectiveData.Direction
+## IOuterShadowEffectiveData.Direction property
 
 Dirección de la sombra. Solo lectura Single.
 
@@ -17,8 +17,8 @@ public float Direction { get; }
 
 ### Ver También
 
-* interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

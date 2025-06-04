@@ -1,7 +1,7 @@
 ---
 title: IPatternFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示填充形状的图案。
+description: 表示用于填充形状的图案。
 type: docs
 weight: 6420
 url: /zh/aspose.slides/ipatternformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipatternformat/
 
 ## IPatternFormat 接口
 
-表示填充形状的图案。
+表示用于填充形状的图案。
 
 ```csharp
 public interface IPatternFormat
@@ -27,8 +27,8 @@ public interface IPatternFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | 创建用于图案填充的图块图像。 |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | 创建带有指定颜色的图案填充的图块图像。 |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | 创建图案填充的瓷砖图像。 |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | 创建带有指定颜色的图案填充瓷砖图像。 |
 
 ### 另见
 

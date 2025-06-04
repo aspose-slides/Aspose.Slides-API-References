@@ -1,13 +1,13 @@
 ---
 title: LimitLocation
 second_title: Aspose.Sildes for .NET API Reference
-description: 限制的下标和上标位置
+description: 限制的下标和上标的位置
 type: docs
 weight: 60
 url: /zh/aspose.slides.mathtext/mathnaryoperator/limitlocation/
 ---
 
-## MathNaryOperator.LimitLocation 属性
+## MathNaryOperator.LimitLocation property
 
 限制的位置（下标和上标）
 
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.LimitLocation = MathLimitLocations.SubscriptSuperscript;
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [MathLimitLocations](../../mathlimitlocations)
 * class [MathNaryOperator](../../mathnaryoperator)

@@ -1,7 +1,7 @@
 ---
 title: EffectRestartType
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Representar tipos de reinicio para sincronización.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa tipos de reinicio para el temporizador.
 type: docs
 weight: 250
 url: /es/aspose.slides.animation/effectrestarttype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/effectrestarttype/
 
 ## Enumeración EffectRestartType
 
-Representar tipos de reinicio para sincronización.
+Representa tipos de reinicio para el temporizador.
 
 ```csharp
 public enum EffectRestartType
@@ -24,9 +24,9 @@ public enum EffectRestartType
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### Ver También
+### Véase también
 
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

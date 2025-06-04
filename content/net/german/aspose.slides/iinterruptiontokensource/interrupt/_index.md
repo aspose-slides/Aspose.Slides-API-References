@@ -15,7 +15,7 @@ Anfrage zur Unterbrechung initialisieren.
 public void Interrupt()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IInterruptionTokenSource](../../iinterruptiontokensource)
 * Namespace [Aspose.Slides](../../iinterruptiontokensource)

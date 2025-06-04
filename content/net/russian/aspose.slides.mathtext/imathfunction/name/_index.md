@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Имя функции Например, имена функций - это sin и cos
 type: docs
 weight: 30
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathfunction/name/
 
 ## Свойство IMathFunction.Name
 
-Имя функции Например, имена функций - это sin и cos
+Имя функции. Например, имена функций - это sin и cos
 
 ```csharp
 public IMathElement Name { get; }

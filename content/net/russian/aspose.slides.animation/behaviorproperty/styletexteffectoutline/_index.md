@@ -1,13 +1,13 @@
 ---
 title: StyleTextEffectOutline
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойство style.textEffectOutline
 type: docs
 weight: 1160
 url: /ru/aspose.slides.animation/behaviorproperty/styletexteffectoutline/
 ---
 
-## BehaviorProperty.StyleTextEffectOutline свойство
+## BehaviorProperty.StyleTextEffectOutline property
 
 Представляет свойство 'style.textEffectOutline'
 

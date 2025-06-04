@@ -1,7 +1,7 @@
 ---
 title: WarningCallback
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou être annulé. Lecture/écriture IWarningCallback aspose.slides.warnings/iwarningcallback.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie ou définit un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou être annulé. Lecture/écriture IWarningCallback aspose.slides.warnings/iwarningcallback.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/saveoptions/warningcallback/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/saveoptions/warningcallback/
 
 ## Propriété SaveOptions.WarningCallback
 
-Retourne ou définit un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou être annulé. Lecture/écriture [`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
+Renvoie ou définit un objet qui reçoit des avertissements et décide si le processus de chargement va continuer ou être annulé. Lecture/écriture [`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IWarningCallback](../../../aspose.slides.warnings/iwarningcallback)
 * class [SaveOptions](../../saveoptions)

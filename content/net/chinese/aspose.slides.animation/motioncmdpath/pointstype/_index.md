@@ -1,6 +1,6 @@
 ---
 title: PointsType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指定命令点类型 读/写 MotionPathPointsTypeaspose.slides.animation/motionpathpointstype。
 type: docs
 weight: 40

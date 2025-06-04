@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Schreibgeschützte IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+description: Ermöglicht den Zugriff auf das Basis-IImageTransformOperation-Interface. Nur-Lese-IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/itint/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/itint/asiimagetransformoperation/
 
 ## ITint.AsIImageTransformOperation-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Schreibgeschützte [`IImageTransformOperation`](../../iimagetransformoperation).
+Ermöglicht den Zugriff auf das Basis-IImageTransformOperation-Interface. Nur-Lese [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
@@ -17,8 +17,8 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 ### Siehe auch
 
-* Schnittstelle [IImageTransformOperation](../../iimagetransformoperation)
-* Schnittstelle [ITint](../../itint)
+* Interface [IImageTransformOperation](../../iimagetransformoperation)
+* Interface [ITint](../../itint)
 * Namespace [Aspose.Slides.Effects](../../itint)
 * Assembly [Aspose.Slides](../../../)
 

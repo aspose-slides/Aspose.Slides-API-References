@@ -1,7 +1,7 @@
 ---
 title: LayoutSlides
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una lista de todas las diapositivas de diseño que están definidas en la presentación. Colección IGlobalLayoutSlideCollection de solo lectura aspose.slides/igloballayoutslidecollection.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve una lista de todas las diapositivas de diseño que están definidas en la presentación. Solo lectura IGlobalLayoutSlideCollectionaspose.slides/igloballayoutslidecollection.
 type: docs
 weight: 150
 url: /es/aspose.slides/presentation/layoutslides/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/presentation/layoutslides/
 
 ## Propiedad Presentation.LayoutSlides
 
-Devuelve una lista de todas las diapositivas de diseño que están definidas en la presentación. Colección [`IGlobalLayoutSlideCollection`](../../igloballayoutslidecollection) de solo lectura.
+Devuelve una lista de todas las diapositivas de diseño que están definidas en la presentación. Solo lectura [`IGlobalLayoutSlideCollection`](../../igloballayoutslidecollection).
 
 ```csharp
 public IGlobalLayoutSlideCollection LayoutSlides { get; }

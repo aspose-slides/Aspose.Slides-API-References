@@ -1,6 +1,6 @@
 ---
 title: ICustomXmlPartCollection
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示自定义 XML 部件的集合。
 type: docs
 weight: 5480
@@ -32,7 +32,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | 从集合中删除特定对象的第一次出现。 |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 删除指定索引处的自定义 XML 部件。 |
 
-### 另见
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [ICustomXmlPart](../icustomxmlpart)

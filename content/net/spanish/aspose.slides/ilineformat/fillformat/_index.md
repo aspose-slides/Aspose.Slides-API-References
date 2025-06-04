@@ -15,11 +15,11 @@ Devuelve el formato de relleno de una línea. Solo lectura [`ILineFillFormat`](.
 public ILineFillFormat FillFormat { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [ILineFillFormat](../../ilinefillformat)
-* interfaz [ILineFormat](../../ilineformat)
-* espacio de nombres [Aspose.Slides](../../ilineformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ILineFillFormat](../../ilinefillformat)
+* interfaz [ILineFormat](../../ilineformat)
+* espacio de nombres [Aspose.Slides](../../ilineformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

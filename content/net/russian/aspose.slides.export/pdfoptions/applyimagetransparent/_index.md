@@ -1,13 +1,13 @@
 ---
 title: ApplyImageTransparent
-second_title: Справочник по API Aspose.Slides для .NET
-description: Применяет указанный прозрачный цвет к изображению, если истинно.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Применяет указанный прозрачный цвет к изображению, если это true.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/pdfoptions/applyimagetransparent/
 ---
 
-## Свойство PdfOptions.ApplyImageTransparent
+## PdfOptions.ApplyImageTransparent свойство
 
 Применяет указанный прозрачный цвет к изображению, если `true`.
 

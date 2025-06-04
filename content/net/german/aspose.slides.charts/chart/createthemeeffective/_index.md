@@ -7,7 +7,7 @@ weight: 250
 url: /de/aspose.slides.charts/chart/createthemeeffective/
 ---
 
-## Chart.CreateThemeEffective Methode
+## Chart.CreateThemeEffective-Methode
 
 Gibt ein effektives Thema für dieses Diagramm zurück.
 
@@ -15,7 +15,7 @@ Gibt ein effektives Thema für dieses Diagramm zurück.
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
 * Klasse [Chart](../../chart)

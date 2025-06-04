@@ -1,13 +1,13 @@
 ---
 title: CreatePortionFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slildes para .NET API Referencia
 description: Crea un nuevo IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 20
 url: /es/aspose.slides/iformatfactory/createportionformat/
 ---
 
-## Método IFormatFactory.CreatePortionFormat
+## IFormatFactory.CreatePortionFormat método
 
 Crea un nuevo [`IPortionFormat`](../../iportionformat).
 
@@ -19,11 +19,11 @@ public IPortionFormat CreatePortionFormat()
 
 Nuevo formato de porción.
 
-### Véase También
+### Véase también
 
-* interfaz [IPortionFormat](../../iportionformat)
-* interfaz [IFormatFactory](../../iformatfactory)
-* espacio de nombres [Aspose.Slides](../../iformatfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPortionFormat](../../iportionformat)
+* interfaz [IFormatFactory](../../iformatfactory)
+* espacio de nombres [Aspose.Slides](../../iformatfactory)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

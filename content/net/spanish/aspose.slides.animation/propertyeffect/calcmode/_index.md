@@ -1,13 +1,13 @@
 ---
 title: CalcMode
-second_title: Aspose.Slides para .NET Referencia de API
-description: Especifica el modo de interpolación para la animación Propiedad de lectura/escritura PropertyCalcModeType aspose.slides.animation/propertycalcmodetype.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Especifica el modo de interpolación para la animación Propiedad de lectura/escritura PropertyCalcModeTypeaspose.slides/propertycalcmodetype.
 type: docs
 weight: 30
 url: /es/aspose.slides.animation/propertyeffect/calcmode/
 ---
 
-## Propiedad PropertyEffect.CalcMode
+## PropertyEffect.CalcMode propiedad
 
 Especifica el modo de interpolación para la animación Propiedad de lectura/escritura [`PropertyCalcModeType`](../../propertycalcmodetype).
 
@@ -15,7 +15,7 @@ Especifica el modo de interpolación para la animación Propiedad de lectura/esc
 public PropertyCalcModeType CalcMode { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [PropertyCalcModeType](../../propertycalcmodetype)
 * class [PropertyEffect](../../propertyeffect)

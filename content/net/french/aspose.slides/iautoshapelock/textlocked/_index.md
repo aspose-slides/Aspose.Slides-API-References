@@ -1,7 +1,7 @@
 ---
 title: TextLocked
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si l'édition de texte est interdite. Booléen en lecture-écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si l'édition du texte est interdite. Booléen en lecture-écriture.
 type: docs
 weight: 120
 url: /fr/aspose.slides/iautoshapelock/textlocked/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iautoshapelock/textlocked/
 
 ## Propriété IAutoShapeLock.TextLocked
 
-Détermine si l'édition de texte est interdite. Booléen en lecture-écriture.
+Détermine si l'édition du texte est interdite. Booléen en lecture-écriture.
 
 ```csharp
 public bool TextLocked { get; set; }

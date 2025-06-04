@@ -1,6 +1,6 @@
 ---
 title: HasDependingSlides
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Ссылка
 description: Возвращает true, если существует хотя бы один слайд, который зависит от этого макета слайда. Только для чтения Boolean.
 type: docs
 weight: 30

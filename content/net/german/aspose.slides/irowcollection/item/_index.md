@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Holt das Element am angegebenen Index.
+description: Gibt das Element am angegebenen Index zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/irowcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/irowcollection/item/
 
 ## IRowCollection-Indexer
 
-Holt das Element am angegebenen Index.
+Gibt das Element am angegebenen Index zurück.
 
 ```csharp
 public IRow this[int index] { get; }

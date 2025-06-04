@@ -1,6 +1,6 @@
 ---
 title: DisableFillOverlayEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 禁用填充覆盖效果。
 type: docs
 weight: 120

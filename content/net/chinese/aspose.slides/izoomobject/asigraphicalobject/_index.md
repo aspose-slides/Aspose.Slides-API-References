@@ -1,6 +1,6 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许获取基础 IGraphicalObject 接口。只读 IGraphicalObject aspose.slides/igraphicalobject。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/izoomobject/asigraphicalobject/
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IGraphicalObject](../../igraphicalobject)
 * 接口 [IZoomObject](../../izoomobject)

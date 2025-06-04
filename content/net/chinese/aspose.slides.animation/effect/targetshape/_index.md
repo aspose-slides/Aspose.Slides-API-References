@@ -1,7 +1,7 @@
 ---
 title: TargetShape
-second_title: Aspose.Slides for .NET API 参考
-description: 返回效果的目标形状。只读 IShape aspose.slides/ishape。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回效果的目标形状。只读 IShapeaspose.slides/../aspose.slides/ishape.
 type: docs
 weight: 110
 url: /zh/aspose.slides.animation/effect/targetshape/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/effect/targetshape/
 public IShape TargetShape { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IShape](../../../aspose.slides/ishape)
 * 类 [Effect](../../effect)

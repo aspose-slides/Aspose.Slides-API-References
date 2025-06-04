@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForDoughnutSeries
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Doughnut voir aussi la méthode ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée le nouveau point de donnée et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Doughnut, voir aussi la méthode ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnutseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnuts
 
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Doughnut (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
+Crée le nouveau point de donnée et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Doughnut (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
@@ -17,11 +17,11 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | IChartDataCell | Valeur du point de données |
+| value | IChartDataCell | Valeur du point de donnée |
 
 ### Valeur de retour
 
-Nouveau point de données.
+Nouveau point de donnée.
 
 ### Voir aussi
 
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Doughnut (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
+Crée le nouveau point de donnée et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Doughnut (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(double value)
@@ -43,11 +43,11 @@ public IChartDataPoint AddDataPointForDoughnutSeries(double value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | Double | Valeur du point de données |
+| value | Double | Valeur du point de donnée |
 
 ### Valeur de retour
 
-Nouveau point de données.
+Nouveau point de donnée.
 
 ### Voir aussi
 

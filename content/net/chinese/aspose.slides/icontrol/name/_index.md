@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回该控件的名称。可读/写字符串。
+description: 返回此控件的名称。可读/写字符串。
 type: docs
 weight: 50
 url: /zh/aspose.slides/icontrol/name/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icontrol/name/
 
 ## IControl.Name 属性
 
-返回该控件的名称。可读/写字符串。
+返回此控件的名称。可读/写字符串。
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IControl](../../icontrol)
 * 命名空间 [Aspose.Slides](../../icontrol)

@@ -1,6 +1,6 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die Eigenschaften der Normalansicht dar. Die Normalansicht besteht aus drei Inhaltsbereichen der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
 type: docs
 weight: 6270
@@ -19,13 +19,13 @@ public interface INormalViewProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Gibt den Zustand an, in dem die horizontale Teilungslinie angezeigt werden soll. Eine horizontale Teilungslinie trennt die Folie vom Inhaltsbereich unterhalb der Folie. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Gibt an, ob der Benutzer es vorzieht, einen Vollfenster-Einzelinhaltbereich anstelle der normalen Ansicht mit drei Inhaltsbereichen zu sehen. Wenn aktiviert, kann die Anwendung wählen, einen der Inhaltsbereiche im gesamten Fenster anzuzeigen. Lese-/ Schreib-Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Dieses Element gibt die Größe des seitlichen Inhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Nur lesbar [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Dieses Element gibt die Größe des oberen Folienbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Nur lesbar [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Gibt an, ob die Anwendung Symbole anzeigen soll, wenn Umrissinhalte in einem der Inhaltsbereiche des Normalansichtsmodus angezeigt werden. Lese-/ Schreib-Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Gibt an, ob der vertikale Splitter in einen minimierten Zustand einrasten soll, wenn der seitliche Bereich ausreichend klein ist. Lese-/ Schreib-Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Gibt den Zustand an, in dem die vertikale Teilungslinie angezeigt werden soll. Eine vertikale Teilungslinie trennt die Folie vom seitlichen Inhaltsbereich. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie vom Inhaltsbereich unter der Folie. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Gibt an, ob der Benutzer es vorzieht, einen Vollbild-Inhaltsbereich anstelle der standardmäßigen Normalansicht mit drei Inhaltsbereichen zu sehen. Wenn aktiviert, kann die Anwendung wählen, einen der Inhaltsbereiche im gesamten Fenster anzuzeigen. Lese-/Schreibboolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Dieses Element gibt die Größe des seitlichen Inhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe (weder minimiert noch maximiert) hat. Nur lesbar [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Dieses Element gibt die Größe des oberen Folienbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe (weder minimiert noch maximiert) hat. Nur lesbar [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Gibt an, ob die Anwendung Icons anzeigen soll, wenn sie Inhalte im Gliederungsformat in einem der Inhaltsbereiche des Normalansichtsmodus anzeigt. Lese-/Schreibboolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Gibt an, ob die vertikale Trennleiste in einen minimierten Zustand einrasten soll, wenn der seitliche Bereich ausreichend klein ist. Lese-/Schreibboolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Gibt den Zustand an, in dem die vertikale Trennleiste angezeigt werden soll. Eine vertikale Trennleiste trennt die Folie vom seitlichen Inhaltsbereich. |
 
 ### Siehe auch
 

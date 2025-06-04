@@ -1,7 +1,7 @@
 ---
 title: IFieldType
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет тип поля. Это значение определяет, какой текст будет установлен в раздел поля, когда он будет обновлён.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет тип поля. Это значение определяет, какой текст будет установлен в части поля, когда оно будет обновлено.
 type: docs
 weight: 5580
 url: /ru/aspose.slides/ifieldtype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifieldtype/
 
 ## Интерфейс IFieldType
 
-Представляет тип поля. Это значение определяет, какой текст будет установлен в раздел поля, когда он будет обновлён.
+Представляет тип поля. Это значение определяет, какой текст будет установлен в части поля, когда оно будет обновлено.
 
 ```csharp
 public interface IFieldType
@@ -19,7 +19,7 @@ public interface IFieldType
 
 | Имя | Описание |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Возвращает внутреннее имя этого объекта FieldTypeEx. Читаемая/записываемая строка. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Возвращает внутреннее имя этого объекта FieldTypeEx. Чтение/запись строки. |
 
 ### См. также
 

@@ -1,7 +1,7 @@
 ---
 title: ParentGroup
-second_title: Aspose.Slides for .NET API 参考
-description: 返回形状集合的父 GroupShape 对象。只读 IGroupShape aspose.slides/igroupshape。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回形状集合的父 GroupShape 对象。只读 IGroupShapeaspose.slides/igroupshape。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ishapecollection/parentgroup/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishapecollection/parentgroup/
 public IGroupShape ParentGroup { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IGroupShape](../../igroupshape)
 * 接口 [IShapeCollection](../../ishapecollection)

@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Slides für .NET API-Referenz
-description: SVG 1.1 fehlt die Möglichkeit, Einzüge für Marker zu definieren. Die SVG-Schreibmaschine von Aspose.Slides hat eine Lösung für dieses Problem Sie schneidet das Ende der Linie mit einem Pfeil ab, sodass die Linie die Marker nicht überlappt. Diese Option schaltet dieses Verhalten aus. Lese-/Schreibboolescher Wert.
+description: SVG 1.1 verfügt nicht über die Möglichkeit, Abstände für Marker zu definieren. Die SVG-Schreibmaschine von Aspose.Slides hat eine Lösung für dieses Problem Sie schneidet das Ende der Linie mit dem Pfeil ab, sodass die Linie die Marker nicht überlappt. Diese Option schaltet ein solches Verhalten aus. Lesen/Schreiben Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides.export/isvgoptions/disablelineendcropping/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isvgoptions/disablelineendcropping/
 
 ## ISVGOptions.DisableLineEndCropping-Eigenschaft
 
-SVG 1.1 fehlt die Möglichkeit, Einzüge für Marker zu definieren. Die SVG-Schreibmaschine von Aspose.Slides hat eine Lösung für dieses Problem: Sie schneidet das Ende der Linie mit einem Pfeil ab, sodass die Linie die Marker nicht überlappt. Diese Option schaltet dieses Verhalten aus. Lese-/Schreibboolescher Wert.
+SVG 1.1 verfügt nicht über die Möglichkeit, Abstände für Marker zu definieren. Die SVG-Schreibmaschine von Aspose.Slides hat eine Lösung für dieses Problem: Sie schneidet das Ende der Linie mit dem Pfeil ab, sodass die Linie die Marker nicht überlappt. Diese Option schaltet ein solches Verhalten aus. Lesen/Schreiben Boolean.
 
 ```csharp
 public bool DisableLineEndCropping { get; set; }

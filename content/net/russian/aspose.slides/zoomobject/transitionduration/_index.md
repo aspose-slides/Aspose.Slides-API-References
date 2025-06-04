@@ -1,7 +1,7 @@
 ---
 title: TransitionDuration
-second_title: Aspose.Slides для .NET API Reference
-description: Получает или задает длительность перехода между Zoom и слайдом. Чтение/запись Single. Значение по умолчанию 1.0f
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает длительность перехода между Zoom и слайдом. Читаемое/записываемое значение типа Single. Значение по умолчанию 1.0f
 type: docs
 weight: 40
 url: /ru/aspose.slides/zoomobject/transitionduration/
@@ -9,15 +9,15 @@ url: /ru/aspose.slides/zoomobject/transitionduration/
 
 ## ZoomObject.TransitionDuration свойство
 
-Получает или задает длительность перехода между Zoom и слайдом. Чтение/запись Single. Значение по умолчанию: 1.0f
+Получает или задает длительность перехода между Zoom и слайдом. Читаемое/записываемое значение типа Single. Значение по умолчанию: 1.0f
 
 ```csharp
 public float TransitionDuration { get; set; }
 ```
 
-### Примечания
+### Заметки
 
-Если не указано (TransitionDur = 0), будет использоваться переход слайдов назначения и временные параметры, связанные с этим переходом.
+Если не указано (TransitionDur = 0), будет использоваться переход на целевой слайд и связанные с этим переходом временные параметры.
 
 ### Примеры
 

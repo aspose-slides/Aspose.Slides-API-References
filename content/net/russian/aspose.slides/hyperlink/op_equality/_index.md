@@ -1,6 +1,6 @@
 ---
 title: op_Equality
-second_title: Aspose.Slidеs для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Тестирует два гиперссылки на равенство.
 type: docs
 weight: 230
@@ -20,11 +20,11 @@ public static bool operator ==(Hyperlink hlink1, Hyperlink hlink2)
 | hlink1 | Hyperlink | Первая гиперссылка для тестирования. |
 | hlink2 | Hyperlink | Вторая гиперссылка для тестирования. |
 
-### Возвращаемое значение
+### Значение Возврата
 
-**True**, если гиперссылки равны.
+**True** если гиперссылки равны.
 
-### См. также
+### См. Также
 
 * класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)

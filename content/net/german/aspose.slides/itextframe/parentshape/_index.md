@@ -1,7 +1,7 @@
 ---
 title: ParentShape
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die übergeordnete Form zurück oder null, wenn das übergeordnete Objekt das IShape-Interface nicht implementiert. Nur-Lese IShapeaspose.slides/ishape.
+description: Gibt die übergeordnete Form zurück oder null, wenn das übergeordnete Objekt das IShape-Interface nicht implementiert. Nur-Lese IShape aspose.slides/ishape.
 type: docs
 weight: 50
 url: /de/aspose.slides/itextframe/parentshape/
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IShape](../../ishape)
 * Schnittstelle [ITextFrame](../../itextframe)

@@ -7,7 +7,7 @@ weight: 180
 url: /de/aspose.slides/shapecollection/addsmartart/
 ---
 
-## ShapeCollection.AddSmartArt Methode
+## ShapeCollection.AddSmartArt-Methode
 
 Fügen Sie ein SmartArt-Diagramm hinzu.
 
@@ -18,10 +18,10 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x | Einzelner | Die X-Koordinate für die linke Seite des Rahmens des Diagramms. |
-| y | Einzelner | Die Y-Koordinate für die linke Seite des Rahmens des Diagramms. |
-| width | Einzelner | Die Breite des Rahmens des Diagramms. |
-| height | Einzelner | Die Höhe des Rahmens des Diagramms. |
+| x | Single | Die X-Koordinate für die linke Seite des Diagrammrahmens. |
+| y | Single | Die Y-Koordinate für die linke Seite des Diagrammrahmens. |
+| width | Single | Die Breite des Diagrammrahmens. |
+| height | Single | Die Höhe des Diagrammrahmens. |
 | layoutType | SmartArtLayoutType | Der Typ des SmartArt-Diagramms |
 
 ### Rückgabewert

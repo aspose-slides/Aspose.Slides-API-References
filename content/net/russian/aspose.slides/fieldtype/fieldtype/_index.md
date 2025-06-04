@@ -1,6 +1,6 @@
 ---
 title: FieldType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Инициализирует новый экземпляр класса FieldType.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fieldtype/fieldtype/
 public FieldType(string str)
 ```
 
-### См. также
+### Также см.
 
 * класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)

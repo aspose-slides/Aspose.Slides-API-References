@@ -1,7 +1,7 @@
 ---
 title: AddAttributeValue
-second_title: Aspose.Slides для .NET API Справочник
-description: Цитирует значение атрибута и добавляет его в html файл.
+second_title: Aspose.Sildes для справки по API .NET
+description: Экранирует значение атрибута и добавляет его в html файл.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/htmlgenerator/addattributevalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/htmlgenerator/addattributevalue/
 
 ## AddAttributeValue(string) {#addattributevalue_2}
 
-Цитирует значение атрибута и добавляет его в html файл.
+Экранирует значение атрибута и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(string value)
@@ -19,7 +19,7 @@ public void AddAttributeValue(string value)
 | --- | --- | --- |
 | value | String | Строка значения атрибута. |
 
-### Смотрите Так же
+### См. также
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
@@ -29,7 +29,7 @@ public void AddAttributeValue(string value)
 
 ## AddAttributeValue(char[]) {#addattributevalue}
 
-Цитирует значение атрибута и добавляет его в html файл.
+Экранирует значение атрибута и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(char[] value)
@@ -39,7 +39,7 @@ public void AddAttributeValue(char[] value)
 | --- | --- | --- |
 | value | Char[] | Строка значения атрибута. |
 
-### Смотрите Так же
+### См. также
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)
@@ -49,7 +49,7 @@ public void AddAttributeValue(char[] value)
 
 ## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
-Цитирует значение атрибута и добавляет его в html файл.
+Экранирует значение атрибута и добавляет его в html файл.
 
 ```csharp
 public void AddAttributeValue(char[] value, int startIndex, int length)
@@ -58,10 +58,10 @@ public void AddAttributeValue(char[] value, int startIndex, int length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | Char[] | Строка значения атрибута. |
-| startIndex | Int32 | Начальный индекс добавляемой части. |
-| length | Int32 | Длина добавляемой части. |
+| startIndex | Int32 | Индекс начала части для добавления. |
+| length | Int32 | Длина части для добавления. |
 
-### Смотрите Так же
+### См. также
 
 * класс [HtmlGenerator](../../htmlgenerator)
 * пространство имен [Aspose.Slides.Export](../../htmlgenerator)

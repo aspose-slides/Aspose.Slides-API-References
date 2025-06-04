@@ -1,25 +1,25 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Aspose.Slides for .NET API 参考
-description: 更改母版幻灯片页码占位符和所有子页码占位符的可见性。子占位符是指包含在相关布局幻灯片和相关幻灯片上的占位符。相关布局幻灯片和幻灯片使用并依赖于母版幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 更改母板幻灯片页码占位符和所有子页码占位符的可见性。子占位符指的是包含在依赖布局幻灯片和依赖幻灯片中的占位符。依赖布局幻灯片和幻灯片使用并依赖于母板幻灯片。
 type: docs
 weight: 60
 url: /zh/aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
 
-## IMasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility 方法
+## IMasterSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method
 
-更改母版幻灯片页码占位符和所有子页码占位符的可见性。子占位符是指包含在相关布局幻灯片和相关幻灯片上的占位符。相关布局幻灯片和幻灯片使用并依赖于母版幻灯片。
+更改母板幻灯片页码占位符和所有子页码占位符的可见性。子占位符指的是包含在依赖布局幻灯片和依赖幻灯片中的占位符。依赖布局幻灯片和幻灯片使用并依赖于母板幻灯片。
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 ```
 
-| 参数      | 类型      | 描述                                       |
-|-----------|-----------|--------------------------------------------|
-| isVisible | Boolean   | true - 使页码占位符可见，false - 隐藏它们。 |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| isVisible | Boolean | true - 使页码占位符可见，false - 隐藏它们。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../imasterslideheaderfootermanager)

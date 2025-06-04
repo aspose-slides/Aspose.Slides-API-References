@@ -1,6 +1,6 @@
 ---
 title: ISectionCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une collection de sections.
 type: docs
 weight: 6700
@@ -19,7 +19,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Obtient l'élément à l'index spécifié. En lecture seule [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`ISection`](../isection). |
 
 ## Méthodes
 
@@ -30,7 +30,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Ajoute une section vide à la fin de la collection. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Supprime toutes les sections de la collection. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Renvoie l'index de la section spécifiée dans la collection. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Supprime la section. Les diapositives contenues dans la section seront fusionnées dans la section précédente. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Supprime la section. Les diapositives contenues dans la section seront fusionnées avec la section précédente. |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Supprime la section et les diapositives contenues dans la section. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Déplace la section et ses diapositives de la collection vers la position spécifiée. |
 

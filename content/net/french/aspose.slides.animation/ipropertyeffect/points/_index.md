@@ -1,6 +1,6 @@
 ---
 title: Points
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Spécifie les points de l'animation. Lecture/écriture IPointCollectionaspose.slides.animation/ipointcollection.
 type: docs
 weight: 50

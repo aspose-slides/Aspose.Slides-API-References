@@ -1,32 +1,32 @@
----
+---  
 title: GetResourcePath
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API  
 description: Devuelve la ruta para un recurso dado.
-type: docs
-weight: 30
+type: docs  
+weight: 30  
 url: /es/aspose.slides.export.web/output/getresourcepath/
----
+---  
 
-## Método Output.GetResourcePath
+## Output.GetResourcePath método  
 
-Devuelve la ruta para un recurso dado.
+Devuelve la ruta para un recurso dado.  
 
-```csharp
-public string GetResourcePath(object obj)
-```
+```csharp  
+public string GetResourcePath(object obj)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| obj | Object | Objeto recurso. |
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| obj | Object | Objeto de recurso. |  
 
-### Valor de Retorno
+### Valor de Retorno  
 
-Ruta del recurso.
+Ruta del recurso.  
 
-### Véase También
+### Véase También  
 
-* clase [Output](../../output)
-* espacio de nombres [Aspose.Slides.Export.Web](../../output)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Output](../../output)  
+* namespace [Aspose.Slides.Export.Web](../../output)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

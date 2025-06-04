@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt WebVTT-Untertitel am Ende der Sammlung hinzu.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt WebVTT Untertitel am Ende der Sammlung hinzu.
 type: docs
 weight: 30
 url: /de/aspose.slides/icaptionscollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icaptionscollection/add/
 
 ## Add(string, string) {#add_1}
 
-Fügt WebVTT-Untertitel am Ende der Sammlung hinzu.
+Fügt WebVTT Untertitel am Ende der Sammlung hinzu.
 
 ```csharp
 public ICaptions Add(string label, string filePath)
@@ -28,10 +28,10 @@ Die hinzugefügte [`ICaptions`](../../icaptions) Instanz.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird geworfen, wenn *filePath* `null` ist. |
-| ArgumentException | Wird geworfen, wenn *filePath* leer ist. |
+| ArgumentNullException | Wird ausgelöst, wenn *filePath* `null` ist. |
+| ArgumentException | Wird ausgelöst, wenn *filePath* leer ist. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ICaptions](../../icaptions)
 * Schnittstelle [ICaptionsCollection](../../icaptionscollection)
@@ -42,7 +42,7 @@ Die hinzugefügte [`ICaptions`](../../icaptions) Instanz.
 
 ## Add(string, Stream) {#add}
 
-Fügt WebVTT-Untertitel am Ende der Sammlung aus einem Stream hinzu.
+Fügt WebVTT Untertitel am Ende der Sammlung aus einem Stream hinzu.
 
 ```csharp
 public ICaptions Add(string label, Stream stream)
@@ -61,10 +61,10 @@ Die hinzugefügte [`ICaptions`](../../icaptions) Instanz.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird geworfen, wenn *stream* `null` ist. |
-| ArgumentException | Wird geworfen, wenn die Eingabedaten nicht im WebVTT-Format vorliegen. |
+| ArgumentNullException | Wird ausgelöst, wenn *stream* `null` ist. |
+| ArgumentException | Wird ausgelöst, wenn die Eingabedaten nicht im WebVTT-Format sind. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ICaptions](../../icaptions)
 * Schnittstelle [ICaptionsCollection](../../icaptionscollection)

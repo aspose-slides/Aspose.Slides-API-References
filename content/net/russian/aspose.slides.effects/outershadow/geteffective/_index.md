@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает эффективные данные эффекта внешней тени с примененным наследованием.
+second_title: Aspose.Slidеs для .NET API Справочник
+description: Получает эффективные данные эффекта внешней тени с применением наследования.
 type: docs
 weight: 120
 url: /ru/aspose.slides.effects/outershadow/geteffective/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/outershadow/geteffective/
 
 ## OuterShadow.GetEffective метод
 
-Получает эффективные данные эффекта внешней тени с примененным наследованием.
+Получает эффективные данные эффекта внешней тени с применением наследования.
 
 ```csharp
 public IOuterShadowEffectiveData GetEffective()

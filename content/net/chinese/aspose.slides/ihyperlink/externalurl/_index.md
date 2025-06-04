@@ -1,7 +1,7 @@
 ---
 title: ExternalUrl
-second_title: Aspose.Slides for .NET API Reference
-description: 指定外部 URL。如果该属性变为非空，则属性 TargetSlide 变为 null。只读字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定外部URL。如果此属性变为非空，则属性TargetSlide将变为null。只读字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ihyperlink/externalurl/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ihyperlink/externalurl/
 
 ## IHyperlink.ExternalUrl 属性
 
-指定外部 URL。如果该属性变为非空，则属性 TargetSlide 变为 null。只读字符串。
+指定外部URL。如果此属性变为非空，则属性TargetSlide将变为null。只读字符串。
 
 ```csharp
 public string ExternalUrl { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IHyperlink](../../ihyperlink)
 * 命名空间 [Aspose.Slides](../../ihyperlink)

@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Aspose.Slides for .NET API 参考
-description: 模糊半径。可读/可写的 Double 类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 模糊半径。可读/写的 Double 类型。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/iinnershadow/blurradius/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iinnershadow/blurradius/
 
 ## IInnerShadow.BlurRadius 属性
 
-模糊半径。可读/可写的 Double 类型。
+模糊半径。可读/写的 Double 类型。
 
 ```csharp
 public double BlurRadius { get; set; }

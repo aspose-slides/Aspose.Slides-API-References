@@ -1,15 +1,15 @@
 ---
 title: DataSourceTypeForYMinusValues
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est active dans l'objet de propriété YMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lecture/écriture DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est applicable dans l'objet de propriété YMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lecture/écriture DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues/
 ---
 
-## Propriété DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues
+## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues property
 
-Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est active dans l'objet de propriété YMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est applicable dans l'objet de propriété YMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYMinusValues { get; set; }

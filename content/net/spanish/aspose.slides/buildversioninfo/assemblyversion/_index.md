@@ -1,24 +1,24 @@
 ---
 title: AssemblyVersion
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Versión del ensamblado de Aspose.Slides.
+description: Versión del ensamblado Aspose.Slides.
 type: docs
 weight: 10
 url: /es/aspose.slides/buildversioninfo/assemblyversion/
 ---
 
-## Campo BuildVersionInfo.AssemblyVersion
+## BuildVersionInfo.AssemblyVersion field
 
-Versión del ensamblado de Aspose.Slides.
+Versión del ensamblado Aspose.Slides.
 
 ```csharp
 public const string AssemblyVersion;
 ```
 
-### Véase también
+### Ver También
 
-* clase [BuildVersionInfo](../../buildversioninfo)
-* espacio de nombres [Aspose.Slides](../../buildversioninfo)
-* ensamblado [Aspose.Slides](../../../)
+* class [BuildVersionInfo](../../buildversioninfo)
+* namespace [Aspose.Slides](../../buildversioninfo)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

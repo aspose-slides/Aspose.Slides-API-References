@@ -1,13 +1,13 @@
 ---
 title: ChartDataTable
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Возвращает таблицу данных графика. Только для чтения IDataTableaspose.slides.charts/idatatable.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/chart/chartdatatable/
 ---
 
-## Свойство Chart.ChartDataTable
+## Chart.ChartDataTable свойство
 
 Возвращает таблицу данных графика. Только для чтения [`IDataTable`](../../idatatable).
 

@@ -1,13 +1,13 @@
 ---
 title: AsIMathElement
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Permite obtener la interfaz base IMathElement IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/imatharray/asimathelement/
 ---
 
-## Propiedad IMathArray.AsIMathElement
+## IMathArray.AsIMathElement propiedad
 
 Permite obtener la interfaz base IMathElement [`IMathElement`](../../imathelement)
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base IMathElement [`IMathElement`](../../imathelemen
 public IMathElement AsIMathElement { get; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IMathElement](../../imathelement)
 * interfaz [IMathArray](../../imatharray)

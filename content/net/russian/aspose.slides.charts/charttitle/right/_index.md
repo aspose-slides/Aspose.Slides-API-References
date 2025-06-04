@@ -1,6 +1,6 @@
 ---
 title: Right
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Право. Только для чтения Single.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/charttitle/right/
 public float Right { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)

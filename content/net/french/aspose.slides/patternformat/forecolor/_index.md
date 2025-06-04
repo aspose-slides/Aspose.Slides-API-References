@@ -1,7 +1,7 @@
 ---
 title: ForeColor
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la couleur du motif de premier plan. Lecture seule IColorFormataspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie la couleur du motif avant. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /fr/aspose.slides/patternformat/forecolor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/patternformat/forecolor/
 
 ## Propriété PatternFormat.ForeColor
 
-Renvoie la couleur du motif de premier plan. Lecture seule [`IColorFormat`](../../icolorformat).
+Renvoie la couleur du motif avant. Lecture seule [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ForeColor { get; }

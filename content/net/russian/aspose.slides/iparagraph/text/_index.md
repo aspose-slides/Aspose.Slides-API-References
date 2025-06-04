@@ -1,15 +1,15 @@
 ---
 title: Text
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает простой текст абзаца. Доступ на чтение/запись String.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает простой текст абзаца. Читаемая/записываемая строка.
 type: docs
 weight: 50
 url: /ru/aspose.slides/iparagraph/text/
 ---
 
-## Свойство IParagraph.Text
+## IParagraph.Text свойство
 
-Получает или задает простой текст абзаца. Доступ на чтение/запись String.
+Получает или задает простой текст абзаца. Читаемая/записываемая строка.
 
 ```csharp
 public string Text { get; set; }

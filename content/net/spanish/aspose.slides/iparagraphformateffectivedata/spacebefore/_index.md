@@ -1,15 +1,15 @@
 ---
 title: SpaceBefore
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve la cantidad de espacio antes de la primera línea en un párrafo. Solo lectura Single.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve la cantidad de espacio antes de la primera línea en un párrafo. Solo de lectura Single.
 type: docs
 weight: 150
 url: /es/aspose.slides/iparagraphformateffectivedata/spacebefore/
 ---
 
-## Propiedad IParagraphFormatEffectiveData.SpaceBefore
+## IParagraphFormatEffectiveData.SpaceBefore property
 
-Devuelve la cantidad de espacio antes de la primera línea en un párrafo. Solo lectura Single.
+Devuelve la cantidad de espacio antes de la primera línea en un párrafo. Solo de lectura Single.
 
 ```csharp
 public float SpaceBefore { get; }
@@ -19,6 +19,6 @@ public float SpaceBefore { get; }
 
 * interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../iparagraphformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

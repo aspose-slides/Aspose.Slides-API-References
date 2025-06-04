@@ -1,6 +1,6 @@
 ---
 title: IsSeriesUsesValueCoordinate
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回指定系列类型是否使用值坐标。
 type: docs
 weight: 190
@@ -21,9 +21,9 @@ public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)
 
 ### 返回值
 
-如果使用则为真，否者为假。
+如果使用则为真，否则为假。
 
-### 另见
+### 另请参阅
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

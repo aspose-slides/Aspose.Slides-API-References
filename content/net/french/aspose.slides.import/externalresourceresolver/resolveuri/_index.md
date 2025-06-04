@@ -1,15 +1,15 @@
 ---
 title: ResolveUri
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Résout l'URI absolue à partir des URI de base et relatives.
+description: Résout l'URI absolu à partir des URIs de base et relatives.
 type: docs
 weight: 30
 url: /fr/aspose.slides.import/externalresourceresolver/resolveuri/
 ---
 
-## Méthode ExternalResourceResolver.ResolveUri
+## ExternalResourceResolver.ResolveUri méthode
 
-Résout l'URI absolue à partir des URI de base et relatives.
+Résout l'URI absolu à partir des URIs de base et relatives.
 
 ```csharp
 public virtual string ResolveUri(string baseUri, string relativeUri)
@@ -22,11 +22,11 @@ public virtual string ResolveUri(string baseUri, string relativeUri)
 
 ### Valeur de retour
 
-URI absolue ou null si l'URI relative ne peut pas être résolue.
+URI absolu ou null si l'URI relative ne peut pas être résolue.
 
 ### Voir aussi
 
-* classe [ExternalResourceResolver](../../externalresourceresolver)
+* class [ExternalResourceResolver](../../externalresourceresolver)
 * namespace [Aspose.Slides.Import](../../externalresourceresolver)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,15 +1,15 @@
 ---
 title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient l'élément à l'index spécifié. Lecture seule Commentaspose.slides/comment.
+description: Récupère l'élément à l'index spécifié. Lecture seule Commentaspose.slides/comment.
 type: docs
 weight: 30
 url: /fr/aspose.slides/commentcollection/item/
 ---
 
-## Indexeur CommentCollection
+## CommentCollection indexer
 
-Obtient l'élément à l'index spécifié. Lecture seule [`Comment`](../../comment).
+Récupère l'élément à l'index spécifié. Lecture seule [`Comment`](../../comment).
 
 ```csharp
 public IComment this[int index] { get; }

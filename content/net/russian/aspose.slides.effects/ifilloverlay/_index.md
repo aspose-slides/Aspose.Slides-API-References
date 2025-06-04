@@ -1,7 +1,7 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект заливки наложения. Эффект заливки наложения может быть использован для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 type: docs
 weight: 3180
 url: /ru/aspose.slides.effects/ifilloverlay/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ifilloverlay/
 
 ## Интерфейс IFillOverlay
 
-Представляет эффект наложения заливки. Наложение заливки может использоваться для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
+Представляет эффект заливки наложения. Эффект заливки наложения может быть использован для указания дополнительной заливки для объекта и смешивания двух заливок вместе.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -25,7 +25,7 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Формат заливки. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### См. также
+### См. Также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

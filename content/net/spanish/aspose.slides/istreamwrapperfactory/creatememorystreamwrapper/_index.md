@@ -1,6 +1,6 @@
 ---
 title: CreateMemoryStreamWrapper
-second_title: Aspose.Sildes para referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un envoltorio de MemoryStream.
 type: docs
 weight: 20
@@ -15,16 +15,16 @@ Crea un envoltorio de MemoryStream.
 public IStreamWrapper CreateMemoryStreamWrapper()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Envoltorio de flujo para la interfaz COM [`IStreamWrapper`](../../istreamwrapper)
 
-### Véase también
+### Véase También
 
-* interfaz [IStreamWrapper](../../istreamwrapper)
-* interfaz [IStreamWrapperFactory](../../istreamwrapperfactory)
-* espacio de nombres [Aspose.Slides](../../istreamwrapperfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IStreamWrapper](../../istreamwrapper)
+* interfaz [IStreamWrapperFactory](../../istreamwrapperfactory)
+* espacio de nombres [Aspose.Slides](../../istreamwrapperfactory)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
@@ -40,15 +40,15 @@ public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
 | --- | --- | --- |
 | buffer | Byte[] | Arreglo de bytes Byte[] |
 
-### Valor de retorno
+### Valor de Retorno
 
 Envoltorio de flujo para la interfaz COM [`IStreamWrapper`](../../istreamwrapper)
 
-### Véase también
+### Véase También
 
-* interfaz [IStreamWrapper](../../istreamwrapper)
-* interfaz [IStreamWrapperFactory](../../istreamwrapperfactory)
-* espacio de nombres [Aspose.Slides](../../istreamwrapperfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IStreamWrapper](../../istreamwrapper)
+* interfaz [IStreamWrapperFactory](../../istreamwrapperfactory)
+* espacio de nombres [Aspose.Slides](../../istreamwrapperfactory)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

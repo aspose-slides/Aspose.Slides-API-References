@@ -1,6 +1,6 @@
 ---
 title: RotateWithShape
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le remplissage doit être tourné avec une forme. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50

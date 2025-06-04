@@ -1,7 +1,7 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gemeinsame mathematische Funktionen mit einem Argument
+second_title: Aspose.Slides für .NET API Referenz
+description: Allgemeine mathematische Funktionen mit einem Argument
 type: docs
 weight: 8480
 url: /de/aspose.slides.mathtext/mathfunctionsofoneargument/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathfunctionsofoneargument/
 
 ## MathFunctionsOfOneArgument Aufzählung
 
-Gemeinsame mathematische Funktionen mit einem Argument
+Allgemeine mathematische Funktionen mit einem Argument
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -33,20 +33,20 @@ public enum MathFunctionsOfOneArgument
 | HyperbolicCot | `11` | Hyperbolischer Kotangens |
 | Lg | `12` | Dezimaler Logarithmus |
 | Ln | `13` | Natürlicher Logarithmus |
-| ArcSin | `14` | Arcsinus |
-| ArcCos | `15` | Arccosinus |
-| ArcTan | `16` | Arctangens |
-| ArcCsc | `17` | Arccosekans |
+| ArcSin | `14` | Arkussinus |
+| ArcCos | `15` | Arkuskosinus |
+| ArcTan | `16` | Arkustangens |
+| ArcCsc | `17` | Arkuskosekans |
 | ArcSec | `18` | Arcsekans |
-| ArcCot | `19` | Arccotangens |
-| HyperbolicArcSin | `20` | Hyperbolischer Arcsinus |
-| HyperbolicArcCos | `21` | Hyperbolischer Arccosinus |
-| HyperbolicArcTan | `22` | Hyperbolischer Arctangens |
-| HyperbolicArcCsc | `23` | Hyperbolischer Arccosekans |
+| ArcCot | `19` | Arkuskotangens |
+| HyperbolicArcSin | `20` | Hyperbolischer Arkussinus |
+| HyperbolicArcCos | `21` | Hyperbolischer Arkuskosinus |
+| HyperbolicArcTan | `22` | Hyperbolischer Arkustangens |
+| HyperbolicArcCsc | `23` | Hyperbolischer Arkuskosekans |
 | HyperbolicArcSec | `24` | Hyperbolischer Arcsekans |
-| HyperbolicArcCot | `25` | Hyperbolischer Arccotangens |
+| HyperbolicArcCot | `25` | Hyperbolischer Arkuskotangens |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

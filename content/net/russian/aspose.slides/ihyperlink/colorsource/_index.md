@@ -1,13 +1,13 @@
 ---
 title: ColorSource
-second_title: Ссылка справки по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Представляет источник цвета гиперссылки - либо стили, либо формат части. Чтение/запись HyperlinkColorSourceaspose.slides/hyperlinkcolorsource.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ihyperlink/colorsource/
 ---
 
-## Свойство IHyperlink.ColorSource
+## IHyperlink.ColorSource property
 
 Представляет источник цвета гиперссылки - либо стили, либо формат части. Чтение/запись [`HyperlinkColorSource`](../../hyperlinkcolorsource).
 
@@ -15,8 +15,8 @@ url: /ru/aspose.slides/ihyperlink/colorsource/
 public HyperlinkColorSource ColorSource { get; set; }
 ```
 
-### Также см.
-  
+### Смотрите также
+
 * enum [HyperlinkColorSource](../../hyperlinkcolorsource)
 * interface [IHyperlink](../../ihyperlink)
 * namespace [Aspose.Slides](../../ihyperlink)

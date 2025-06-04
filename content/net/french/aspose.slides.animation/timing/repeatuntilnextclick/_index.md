@@ -1,7 +1,7 @@
 ---
 title: RepeatUntilNextClick
 second_title: Référence API Aspose.Slides pour .NET
-description: Cet attribut spécifie si l'effet se répétera jusqu'au prochain clic. Lecture/écriture Boolean.
+description: Cet attribut spécifie si l'effet se répétera jusqu'au prochain clic. Boolean lisible/modifiable.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/timing/repeatuntilnextclick/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/timing/repeatuntilnextclick/
 
 ## Propriété Timing.RepeatUntilNextClick
 
-Cet attribut spécifie si l'effet se répétera jusqu'au prochain clic. Lecture/écriture Boolean.
+Cet attribut spécifie si l'effet se répétera jusqu'au prochain clic. Boolean lisible/modifiable.
 
 ```csharp
 public bool RepeatUntilNextClick { get; set; }
@@ -26,7 +26,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Obtenir le premier effet de la séquence principale.
     IEffect effect = effectsSequence[0];
 
-    // Changer le Timing/Répétition de l'effet en "Jusqu'au prochain clic"
+    // Changer le Timing/Repeat de l'effet à "Until Next Click"
     effect.Timing.RepeatUntilNextClick = true;
 }
 ```

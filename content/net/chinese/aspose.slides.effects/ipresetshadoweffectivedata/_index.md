@@ -1,7 +1,7 @@
 ---
 title: IPresetShadowEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表预设阴影效果的不可变对象。
+description: 表示预设阴影效果的不可变对象。
 type: docs
 weight: 3370
 url: /zh/aspose.slides.effects/ipresetshadoweffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ipresetshadoweffectivedata/
 
 ## IPresetShadowEffectiveData 接口
 
-代表预设阴影效果的不可变对象。
+表示预设阴影效果的不可变对象。
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -20,12 +20,12 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 | 名称 | 描述 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基本的 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | 阴影的方向。只读 Single。 |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | 阴影的距离。只读 Double。 |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | 阴影方向。只读 Single。 |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | 阴影距离。只读 Double。 |
 | [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | 预设。只读 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | 阴影的颜色。只读 Color。 |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | 阴影颜色。只读 Color。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

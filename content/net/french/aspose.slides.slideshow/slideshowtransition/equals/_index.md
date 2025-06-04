@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si les deux instances de SlideShowTransition sont égales. Booléen en lecture/écriture.
 type: docs
 weight: 120
 url: /fr/aspose.slides.slideshow/slideshowtransition/equals/
 ---
 
-## Méthode SlideShowTransition.Equals
+## SlideShowTransition.Equals méthode
 
 Détermine si les deux instances de SlideShowTransition sont égales. Booléen en lecture/écriture.
 

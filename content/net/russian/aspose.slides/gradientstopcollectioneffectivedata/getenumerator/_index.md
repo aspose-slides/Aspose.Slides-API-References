@@ -1,15 +1,15 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает перечислитель, который проходит по коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/gradientstopcollectioneffectivedata/getenumerator/
 ---
 
-## Метод GradientStopCollectionEffectiveData.GetEnumerator
+## GradientStopCollectionEffectiveData.GetEnumerator метод
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который проходит по коллекции.
 
 ```csharp
 public IEnumerator<IGradientStopEffectiveData> GetEnumerator()
@@ -17,7 +17,7 @@ public IEnumerator<IGradientStopEffectiveData> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который можно использовать для прохождения по коллекции.
 
 ### См. также
 

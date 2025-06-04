@@ -1,6 +1,6 @@
 ---
 title: From
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie une coordonnée x/y pour commencer l'animation en pourcentages. Lecture/écriture PointF.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Spécifie une coordonnée x/y pour commencer l'animation (en pourcentages). Lect
 public PointF From { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ScaleEffect](../../scaleeffect)
 * espace de noms [Aspose.Slides.Animation](../../scaleeffect)

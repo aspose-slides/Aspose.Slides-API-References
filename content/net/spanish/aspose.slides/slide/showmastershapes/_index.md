@@ -15,10 +15,10 @@ Especifica si las formas en la diapositiva maestra deben mostrarse en las diapos
 public override bool ShowMasterShapes { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * clase [Slide](../../slide)
 * espacio de nombres [Aspose.Slides](../../slide)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

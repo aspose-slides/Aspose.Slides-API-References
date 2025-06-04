@@ -1,13 +1,13 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente une collection de nœuds SmartArt.
 type: docs
 weight: 10250
 url: /fr/aspose.slides.smartart/ismartartnodecollection/
 ---
 
-## interface ISmartArtNodeCollection
+## Interface ISmartArtNodeCollection
 
 Représente une collection de nœuds SmartArt.
 
@@ -26,11 +26,11 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | Nom | Description |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Ajouter un nouveau nœud ou sous-nœud. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Ajouter un nouveau nœud à la position sélectionnée dans la collection de nœuds. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Ajouter un nouveau nœud à la position sélectionnée de la collection de nœuds. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Supprimer un nœud ou un sous-nœud par index. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Supprimer un nœud ou un sous-nœud. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [ISmartArtNode](../ismartartnode)

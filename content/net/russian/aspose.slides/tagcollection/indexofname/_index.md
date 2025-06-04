@@ -1,15 +1,15 @@
 ---
 title: IndexOfName
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает нулевой индекс указанного ключа в коллекции.
+description: Возвращает индекс, основанный на нуле, указанного ключа в коллекции.
 type: docs
 weight: 130
 url: /ru/aspose.slides/tagcollection/indexofname/
 ---
 
-## Метод TagCollection.IndexOfName
+## TagCollection.IndexOfName метод
 
-Возвращает нулевой индекс указанного ключа в коллекции.
+Возвращает индекс, основанный на нуле, указанного ключа в коллекции.
 
 ```csharp
 public int IndexOfName(string name)
@@ -17,13 +17,13 @@ public int IndexOfName(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя, которое нужно найти в коллекции. |
+| name | String | Имя для поиска в коллекции. |
 
-### Возвращаемое значение
+### Значение, возвращаемое
 
-Нулевой индекс ключа, если ключ найден в коллекции; в противном случае, -1.
+Индекс ключа, основанный на нуле, если ключ найден в коллекции; в противном случае, -1.
 
-### Также см.
+### См. Также
 
 * класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)

@@ -1,6 +1,6 @@
 ---
 title: ParentSeries
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Obtient la série parente. Lecture seule IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
 weight: 80

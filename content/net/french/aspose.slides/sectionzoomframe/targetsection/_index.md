@@ -1,15 +1,15 @@
 ---
 title: TargetSection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit l'objet de section auquel l'objet Section Zoom est lié. Lecture/écriture ISectionaspose.slides/isection.
+second_title: Aspose.Slides pour .NET Référence d'API
+description: Obtient ou définit l'objet section auquel l'objet Section Zoom est lié. Lecture/écriture ISectionaspose.slides/isection.
 type: docs
 weight: 10
 url: /fr/aspose.slides/sectionzoomframe/targetsection/
 ---
 
-## SectionZoomFrame.TargetSection propriété
+## Propriété SectionZoomFrame.TargetSection
 
-Obtient ou définit l'objet de section auquel l'objet Section Zoom est lié. Lecture/écriture [`ISection`](../../isection).
+Obtient ou définit l'objet section auquel l'objet Section Zoom est lié. Lecture/écriture [`ISection`](../../isection).
 
 ```csharp
 public ISection TargetSection { get; set; }
@@ -17,7 +17,7 @@ public ISection TargetSection { get; set; }
 
 ### Exemples
 
-L'exemple suivant démontre comment changer la section cible et crée une nouvelle image pour l'objet de zoom de section :
+L'exemple suivant démontre le changement de la section cible et crée une nouvelle image pour l'objet de zoom de section :
 
 ```csharp
 [C#]
@@ -28,10 +28,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISection](../../isection)
-* classe [SectionZoomFrame](../../sectionzoomframe)
+* class [SectionZoomFrame](../../sectionzoomframe)
 * namespace [Aspose.Slides](../../sectionzoomframe)
 * assembly [Aspose.Slides](../../../)
 

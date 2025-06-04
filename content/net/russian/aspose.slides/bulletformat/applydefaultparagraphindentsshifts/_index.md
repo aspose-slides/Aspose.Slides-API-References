@@ -1,7 +1,7 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает значения сдвигов по умолчанию, отличные от нуля, для эффективного отступа параграфа и MarginLeft, когда включены маркеры, как делает PowerPoint, если в нем включены маркеры/нумерация параграфов. Если маркеры отключены, просто сбрасывает отступ параграфа и MarginLeft, как делает PowerPoint, если в нем отключены маркеры/нумерация параграфов. Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги, отличные от нуля, применяются к эффективному отступу и MarginLeft текущего параграфа, делая результирующие значения локальными значениями.
+second_title: Aspose.Sildes для .NET API Reference
+description: Устанавливает значения по умолчанию для смещения не равных нулю для эффективного отступа абзаца и MarginLeft, когда включены точки, как это делает PowerPoint, если в нем включены маркеры/нумерация абзацев. Если маркеры отключены, то просто сбрасывает отступ абзаца и MarginLeft, как это делает PowerPoint, если отключены маркеры/нумерация абзацев. Смещения отступов применяются с учетом текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Смещения не равные нулю применяются к эффективному отступу и MarginLeft текущего абзаца, делая результаты локальными значениями.
 type: docs
 weight: 110
 url: /ru/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/bulletformat/applydefaultparagraphindentsshifts/
 
 ## BulletFormat.ApplyDefaultParagraphIndentsShifts метод
 
-Устанавливает значения сдвигов по умолчанию, отличные от нуля, для эффективного отступа параграфа и MarginLeft, когда включены маркеры (как делает PowerPoint, если в нем включены маркеры/нумерация параграфов). Если маркеры отключены, просто сбрасывает отступ параграфа и MarginLeft (как делает PowerPoint, если в нем отключены маркеры/нумерация параграфов). Сдвиги отступов применяются относительно текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Сдвиги, отличные от нуля, применяются к эффективному отступу и MarginLeft текущего параграфа (делая результирующие значения локальными значениями).
+Устанавливает значения по умолчанию для смещения не равных нулю для эффективного отступа абзаца и MarginLeft, когда включены точки (как это делает PowerPoint, если включены маркеры/нумерация абзацев в нем). Если маркеры отключены, то просто сбрасывает отступ абзаца и MarginLeft (как это делает PowerPoint, если отключены маркеры/нумерация абзацев в нем). Смещения отступов применяются с учетом текущего контекста маркера - IBulletFormat.Type, .NumberedBulletStyle и FontHeight первой части. Смещения не равные нулю применяются к эффективному отступу и MarginLeft текущего абзаца (делая результат локальными значениями).
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -19,7 +19,7 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызов этого метода не имеет значения и выбрасывает InvalidOperationException в следующих случаях: если родительский отформатированный объект не является параграфом (например, вызов ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() вызовет исключение); или если параграф не был добавлен в коллекцию ITextFrame.Paragraphs (добавьте его сначала); |
+| InvalidOperationException | Вызов этого метода не имеет значения и вызывает InvalidOperationException в следующих случаях: если родительский отформатированный объект не является абзацем (например, вызов ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() приведет к исключению); или если абзац не был добавлен ни в одну коллекцию ITextFrame.Paragraphs (добавьте его сначала); |
 
 ### См. также
 

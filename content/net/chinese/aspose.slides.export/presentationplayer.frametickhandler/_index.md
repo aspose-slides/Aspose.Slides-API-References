@@ -12,7 +12,7 @@ url: /zh/aspose.slides.export/presentationplayer.frametickhandler/
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [FrameTickEventArgs](../frametickeventargs)
 * class [PresentationPlayer](../presentationplayer)

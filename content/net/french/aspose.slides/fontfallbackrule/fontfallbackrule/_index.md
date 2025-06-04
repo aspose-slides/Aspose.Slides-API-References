@@ -1,6 +1,6 @@
 ---
 title: FontFallBackRule
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée une nouvelle instance.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| startIndex | UInt32 | Index de début de la plage unicode |
+| startIndex | UInt32 | Index de départ de la plage unicode |
 | endIndex | UInt32 | Index de fin de la plage unicode |
 | fontNames | String | Nom ou noms de la police (délimités par une virgule) pour FallBack |
 
@@ -25,14 +25,14 @@ public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 
 ```csharp
 [C#]
-// Créer une nouvelle instance de FontFallBackRule avec une police.
+// Crée une nouvelle instance de FontFallBackRule avec une police.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-// Créer une nouvelle instance de FontFallBackRule avec plusieurs polices.
+// Crée une nouvelle instance de FontFallBackRule avec plusieurs polices.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [FontFallBackRule](../../fontfallbackrule)
 * espace de noms [Aspose.Slides](../../fontfallbackrule)
@@ -50,7 +50,7 @@ public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| startIndex | UInt32 | Index de début de la plage unicode |
+| startIndex | UInt32 | Index de départ de la plage unicode |
 | endIndex | UInt32 | Index de fin de la plage unicode |
 | fontNames | String[] | Nom ou noms de la police (délimités par une virgule) pour FallBack |
 
@@ -58,14 +58,14 @@ public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 
 ```csharp
 [C#]
-// Créer une nouvelle instance de FontFallBackRule avec deux polices
+// Crée une nouvelle instance de FontFallBackRule avec deux polices
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
-// Créer une nouvelle instance de FontFallBackRule avec plusieurs polices.
+// Crée une nouvelle instance de FontFallBackRule avec plusieurs polices.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [FontFallBackRule](../../fontfallbackrule)
 * espace de noms [Aspose.Slides](../../fontfallbackrule)

@@ -1,7 +1,7 @@
 ---
 title: IMathMatrix
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定由一个或多个行和列排列的子元素组成的矩阵对象。重要的是要注意，矩阵没有内置的分隔符。要将矩阵放在括号中，您应使用分隔符对象 IMathDelimiter。可以使用 Null 参数在矩阵中创建间隙。
+description: 指定由一个或多个行和列布局的子元素组成的矩阵对象。需要注意的是，矩阵没有内置的分隔符。要将矩阵放入括号中，应该使用分隔符对象 IMathDelimiter。可以使用空参数在矩阵中创建间隙。
 type: docs
 weight: 8090
 url: /zh/aspose.slides.mathtext/imathmatrix/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrix/
 
 ## IMathMatrix 接口
 
-指定矩阵对象，由一个或多个行和列排列的子元素组成。重要的是要注意，矩阵没有内置的分隔符。要将矩阵放在括号中，您应使用分隔符对象 (IMathDelimiter)。可以使用 Null 参数在矩阵中创建间隙。
+指定矩阵对象，包含按行和列布局的子元素。需要注意的是，矩阵没有内置的分隔符。要将矩阵放入括号中，应该使用分隔符对象 (IMathDelimiter)。可以使用空参数在矩阵中创建间隙。
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -19,16 +19,16 @@ public interface IMathMatrix : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | 指定相对于周围文本的垂直对齐。可能的值为顶部、底部和居中。默认值：居中 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | 允许获取基本的 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | 指定相对于周围文本的垂直对齐方式。可能的值是 top、bottom 和 center。默认值：Center |
 | [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | 矩阵中的列数 |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | 矩阵列之间的水平间距值；如果 ColumnGapRule 设置为 3 ("Exactly")，则单位被解释为 twips (1/20 点)；如果 ColumnGapRule 设置为 4 ("Multiple")，则单位被解释为 0.5 em 增量。在其他情况下忽略。默认值：0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | 矩阵列之间的水平间距类型；水平间距单位可以是 ems 或点（存储为 twips）。默认值：SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | 隐藏空矩阵元素的占位符。默认值：false |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | 矩阵列之间的水平间距值；如果 ColumnGapRule 设置为 3 （“Exactly”），则单位解释为 twips（1/20 点）；如果 ColumnGapRule 设置为 4 （“Multiple”），则单位解释为 0.5 em 的增量。在其他情况下被忽略。默认值：0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | 矩阵列之间的水平间距类型；水平间距单位可以是 ems 或 points（存储为 twips）。默认值：SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | 隐藏空矩阵元素的占位符 默认值：false |
 | [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | 矩阵的元素 |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | 最小列宽，以 twips (1/20 点) 为单位；间距（也称为“列间距”或“间距宽度”）添加到 MinColumnWidth 以确定总的矩阵列间距（不同列相同边缘之间的距离）。默认值：0 |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | 最小列宽，以 twips 为单位（1/20 点）。间隔（也称为“列间距”或“间隔宽度”）会添加到 MinColumnWidth，以确定矩阵列间距（不同列的相同边缘之间的距离）。默认值：0. |
 | [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | 矩阵中的行数 |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | 矩阵行之间的垂直间距值；如果 RowGapRule 设置为 3 ("Exactly")，则单位被解释为 twips (1/20 点)；如果 RowGapRule 设置为 4 ("Multiple")，则单位被解释为半行。默认值：0 |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | 矩阵行之间的垂直间距值；如果 RowGapRule 设置为 3 （“Exactly”），则单位解释为 twips（1/20 点）；如果 RowGapRule 设置为 4 （“Multiple”），则单位解释为半行。默认值：0 |
 | [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | 矩阵行之间的垂直间距类型；垂直间距单位可以是行或点（存储为 twips）。默认值：SingleSpacingGap (0) |
 
 ## 方法
@@ -37,13 +37,13 @@ public interface IMathMatrix : IMathElement
 | --- | --- |
 | [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | 删除指定的列 |
 | [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | 删除指定的行 |
-| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | 获取指定列的水平对齐 |
-| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | 在指定列后插入新列，最初新列中的所有元素为 null。 |
-| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | 在指定列前插入新列，最初新列中的所有元素为 null。 |
-| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | 在指定行后插入新行，最初新行中的所有元素为 null。 |
-| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | 在指定行前插入新行，最初新行中的所有元素为 null。 |
-| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | 设置指定列的水平对齐 |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | 设置指定列的水平对齐 |
+| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | 获取指定列的水平对齐方式 |
+| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | 在指定列后插入新列，最初新列中的所有元素均为 null。 |
+| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | 在指定列前插入新列，最初新列中的所有元素均为 null。 |
+| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | 在指定行后插入新行，最初新行中的所有元素均为 null。 |
+| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | 在指定行前插入新行，最初新行中的所有元素均为 null。 |
+| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | 设置指定列的水平对齐方式 |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | 设置指定列的水平对齐方式 |
 
 ### 示例
 

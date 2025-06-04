@@ -1,7 +1,7 @@
 ---
 title: GetFontName
 second_title: Aspose.Slides for .NET API 参考
-description: 返回字体名称，将主题引用替换为实际使用的字体。
+description: 返回字体名称，替换主题引用为实际使用的字体。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ifontdata/getfontname/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifontdata/getfontname/
 
 ## IFontData.GetFontName 方法
 
-返回字体名称，将主题引用替换为实际使用的字体。
+返回字体名称，替换主题引用为实际使用的字体。
 
 ```csharp
 public string GetFontName(IThemeEffectiveData theme)
@@ -17,13 +17,13 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | 应从中获取主题字体名称的主题。由调用者提供正确的值。 |
+| theme | IThemeEffectiveData | 应该从中获取主题字体名称的主题。提供正确值的责任在于调用者。 |
 
 ### 返回值
 
 字体名称。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata)
 * 接口 [IFontData](../../ifontdata)

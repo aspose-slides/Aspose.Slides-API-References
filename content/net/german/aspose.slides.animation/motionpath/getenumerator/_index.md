@@ -7,7 +7,7 @@ weight: 60
 url: /de/aspose.slides.animation/motionpath/getenumerator/
 ---
 
-## MotionPath.GetEnumerator-Methode
+## MotionPath.GetEnumerator Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 

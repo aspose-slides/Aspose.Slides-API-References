@@ -1,21 +1,21 @@
 ---
 title: Chart
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает диаграмму. Только для чтения IChartaspose.slides.charts/ichart.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает график. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/datalabelformat/chart/
 ---
 
-## Свойство DataLabelFormat.Chart
+## DataLabelFormat.Chart свойство
 
-Возвращает диаграмму. Только для чтения [`IChart`](../../ichart).
+Возвращает график. Только для чтения [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### Также смотите
+### Также смотри
 
 * интерфейс [IChart](../../ichart)
 * класс [DataLabelFormat](../../datalabelformat)

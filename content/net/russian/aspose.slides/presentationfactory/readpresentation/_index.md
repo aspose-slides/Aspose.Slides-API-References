@@ -1,6 +1,6 @@
 ---
 title: ReadPresentation
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Читает существующую презентацию из массива
 type: docs
 weight: 60
@@ -23,7 +23,7 @@ public IPresentation ReadPresentation(byte[] data)
 
 Прочитанная презентация
 
-### Также см. 
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * класс [PresentationFactory](../../presentationfactory)
@@ -49,7 +49,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 
 Прочитанная презентация
 
-### Также см. 
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * интерфейс [ILoadOptions](../../iloadoptions)
@@ -75,7 +75,7 @@ public IPresentation ReadPresentation(Stream stream)
 
 Прочитанная презентация
 
-### Также см. 
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * класс [PresentationFactory](../../presentationfactory)
@@ -101,7 +101,7 @@ public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 
 Прочитанная презентация
 
-### Также см. 
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * интерфейс [ILoadOptions](../../iloadoptions)
@@ -127,7 +127,7 @@ public IPresentation ReadPresentation(string file)
 
 Прочитанная презентация
 
-### Также см. 
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * класс [PresentationFactory](../../presentationfactory)
@@ -138,7 +138,7 @@ public IPresentation ReadPresentation(string file)
 
 ## ReadPresentation(string, ILoadOptions) {#readpresentation_5}
 
-Читает существующую презентацию из файла с дополнительными опциями загрузки
+Читает существующую презентацию из потока с дополнительными опциями загрузки
 
 ```csharp
 public IPresentation ReadPresentation(string file, ILoadOptions options)
@@ -153,7 +153,7 @@ public IPresentation ReadPresentation(string file, ILoadOptions options)
 
 Прочитанная презентация
 
-### Также см. 
+### См. также
 
 * интерфейс [IPresentation](../../ipresentation)
 * интерфейс [ILoadOptions](../../iloadoptions)

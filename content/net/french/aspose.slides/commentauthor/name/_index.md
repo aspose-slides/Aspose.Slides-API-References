@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le nom de l'auteur. Chaîne en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le nom de l'auteur. Lecture/écriture String.
 type: docs
 weight: 30
 url: /fr/aspose.slides/commentauthor/name/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/commentauthor/name/
 
 ## Propriété CommentAuthor.Name
 
-Renvoie ou définit le nom de l'auteur. Chaîne en lecture/écriture.
+Renvoie ou définit le nom de l'auteur. Lecture/écriture String.
 
 ```csharp
 public string Name { get; set; }

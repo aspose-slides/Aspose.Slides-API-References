@@ -15,7 +15,7 @@ Constructeur par défaut.
 public TiffOptions()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [TiffOptions](../../tiffoptions)
 * espace de noms [Aspose.Slides.Export](../../tiffoptions)

@@ -1,7 +1,7 @@
 ---
 title: AsIPresentationComponent
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule IPresentationComponent aspose.slides/ipresentationcomponent.
+description: Permet d'obtenir l'interface de base IPresentationComponent. IPresentationComponent en lecture seule aspose.slides/ipresentationcomponent.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/itheme/asipresentationcomponent/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.theme/itheme/asipresentationcomponent/
 
 ## Propriété ITheme.AsIPresentationComponent
 
-Permet d'obtenir l'interface de base IPresentationComponent. Lecture seule [`IPresentationComponent`](../../../aspose.slides/ipresentationcomponent).
+Permet d'obtenir l'interface de base IPresentationComponent. En lecture seule [`IPresentationComponent`](../../../aspose.slides/ipresentationcomponent).
 
 ```csharp
 public IPresentationComponent AsIPresentationComponent { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPresentationComponent](../../../aspose.slides/ipresentationcomponent)
 * interface [ITheme](../../itheme)

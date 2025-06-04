@@ -1,7 +1,7 @@
 ---
 title: SetEmbeddedData
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает информацию об OLE встроенных данных.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает информацию о встроенных данных OLE.
 type: docs
 weight: 150
 url: /ru/aspose.slides/ioleobjectframe/setembeddeddata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ioleobjectframe/setembeddeddata/
 
 ## IOleObjectFrame.SetEmbeddedData метод
 
-Устанавливает информацию об OLE встроенных данных.
+Устанавливает информацию о встроенных данных OLE.
 
 ```csharp
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
@@ -27,11 +27,11 @@ public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 
 ### Примечания
 
-Этот метод изменяет свойства объекта, чтобы отразить новые данные и устанавливает флаг IsObjectLink в false, указывая, что OLE объект встроен.
+Этот метод изменяет свойства объекта, чтобы отразить новые данные, и устанавливает флаг IsObjectLink в false, указывая на то, что OLE объект встроен.
 
 ### Примеры
 
-Следующий пример демонстрирует, как изменить OLE встроенные данные и их тип для существующего [`IOleObjectFrame`](../../ioleobjectframe) объекта
+Следующий пример демонстрирует, как изменить встроенные данные OLE и их тип для существующего объекта [`IOleObjectFrame`](../../ioleobjectframe)
 
 ```csharp
 [C#]

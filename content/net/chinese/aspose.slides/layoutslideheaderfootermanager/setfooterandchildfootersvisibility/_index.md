@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Slides for .NET API 参考
-description: 更改布局幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于主幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 更改布局幻灯片页脚占位符及所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于母版幻灯片。
 type: docs
 weight: 40
 url: /zh/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvi
 
 ## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility 方法
 
-更改布局幻灯片页脚占位符和所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于主幻灯片。
+更改布局幻灯片页脚占位符及所有子页脚占位符的可见性。子占位符是指包含在依赖幻灯片上的占位符。依赖幻灯片使用并依赖于母版幻灯片。
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | 布尔 | true - 使页脚占位符可见，否则 - 隐藏它们。 |
+| isVisible | Boolean | true - 使页脚占位符可见，否则隐藏它们。 |
 
-### 另见
+### 另请参见
 
 * class [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 * namespace [Aspose.Slides](../../layoutslideheaderfootermanager)

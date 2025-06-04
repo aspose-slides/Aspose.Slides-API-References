@@ -1,7 +1,7 @@
 ---
 title: AsITransitionValueBase
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basen-Interface ITransitionValueBase. Schreibgeschütztes ITransitionValueBase aspose.slides.slideshow/itransitionvaluebase.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur lesbare ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/iemptytransition/asitransitionvaluebase/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/iemptytransition/asitransitionvaluebase/
 
 ## IEmptyTransition.AsITransitionValueBase-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basen-Interface ITransitionValueBase. Schreibgeschütztes [`ITransitionValueBase`](../../itransitionvaluebase).
+Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur lesbare [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }
@@ -17,8 +17,8 @@ public ITransitionValueBase AsITransitionValueBase { get; }
 
 ### Siehe Auch
 
-* Interface [ITransitionValueBase](../../itransitionvaluebase)
-* Interface [IEmptyTransition](../../iemptytransition)
+* Schnittstelle [ITransitionValueBase](../../itransitionvaluebase)
+* Schnittstelle [IEmptyTransition](../../iemptytransition)
 * Namespace [Aspose.Slides.SlideShow](../../iemptytransition)
 * Assembly [Aspose.Slides](../../../)
 

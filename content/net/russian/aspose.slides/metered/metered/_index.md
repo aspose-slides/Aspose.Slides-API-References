@@ -1,6 +1,6 @@
 ---
 title: Metered
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр этого класса.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/metered/metered/
 public Metered()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [Metered](../../metered)
 * пространство имен [Aspose.Slides](../../metered)

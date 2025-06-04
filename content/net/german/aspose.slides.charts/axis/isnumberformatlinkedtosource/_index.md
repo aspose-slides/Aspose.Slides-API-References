@@ -1,7 +1,7 @@
 ---
 title: IsNumberFormatLinkedToSource
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob das Format mit Quelldaten verknüpft ist. Lese-/Schreibbooleans.
+description: Gibt an, ob das Format mit Quelldaten verknüpft ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 270
 url: /de/aspose.slides.charts/axis/isnumberformatlinkedtosource/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/isnumberformatlinkedtosource/
 
 ## Axis.IsNumberFormatLinkedToSource-Eigenschaft
 
-Gibt an, ob das Format mit Quelldaten verknüpft ist. Lese-/Schreibbooleans.
+Gibt an, ob das Format mit Quelldaten verknüpft ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Axis](../../axis)
 * Namespace [Aspose.Slides.Charts](../../axis)

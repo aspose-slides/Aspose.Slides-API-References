@@ -17,8 +17,8 @@ public IChartSeriesGroup ParentSeriesGroup { get; }
 
 ### Siehe auch
 
-* Schnittstelle [IChartSeriesGroup](../../ichartseriesgroup)
-* Schnittstelle [IChartSeries](../../ichartseries)
+* Interface [IChartSeriesGroup](../../ichartseriesgroup)
+* Interface [IChartSeries](../../ichartseries)
 * Namespace [Aspose.Slides.Charts](../../ichartseries)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Slides pour la référence API .NET
-description: Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu  la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu  la diapositive elle-même, une région de contenu latéral et une région de contenu inférieure.
 type: docs
 weight: 6270
 url: /fr/aspose.slides/inormalviewproperties/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/inormalviewproperties/
 
 ## Interface INormalViewProperties
 
-Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu : la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure.
+Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu : la diapositive elle-même, une région de contenu latéral et une région de contenu inférieure.
 
 ```csharp
 public interface INormalViewProperties
@@ -20,12 +20,12 @@ public interface INormalViewProperties
 | Nom | Description |
 | --- | --- |
 | [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la région de contenu située en dessous de la diapositive. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Spécifie si l'utilisateur préfère voir une région de contenu unique sur toute la fenêtre plutôt que la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans toute la fenêtre. Booléen en lecture/écriture. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Cet élément spécifie la taille de la région de contenu latérale de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). En lecture seule [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Cet élément spécifie la taille de la région de diapositive supérieure de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). En lecture seule [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Spécifie si l'application doit afficher des icônes lors de l'affichage de contenu de plan dans l'une des régions de contenu en mode vue normale. Booléen en lecture/écriture. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Spécifie si l'utilisateur préfère voir une région de contenu unique en pleine fenêtre plutôt que la vue normale standard avec trois régions de contenu. Si activé, l'application peut choisir d'afficher l'une des régions de contenu dans toute la fenêtre. Booléen en lecture/écriture. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Cet élément spécifie la taille de la région de contenu latéral de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). Lecture seule [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Cet élément spécifie la taille de la région supérieure de la diapositive de la vue normale, lorsque la région a une taille restaurée variable (ni minimisée ni maximisée). Lecture seule [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Spécifie si l'application doit afficher des icônes lors de l'affichage du contenu des contours dans l'une des régions de contenu du mode de vue normale. Booléen en lecture/écriture. |
 | [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Spécifie si le séparateur vertical doit se fixer à un état minimisé lorsque la région latérale est suffisamment petite. Booléen en lecture/écriture. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation verticale doit être affichée. Une barre de séparation verticale sépare la diapositive de la région de contenu latérale. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Spécifie l'état dans lequel la barre de séparation verticale doit être affichée. Une barre de séparation verticale sépare la diapositive de la région de contenu latéral. |
 
 ### Voir aussi
 

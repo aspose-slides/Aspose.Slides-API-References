@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la alineación de texto en un párrafo. Solo lectura TextAlignmentaspose.slides/textalignment.
+description: Devuelve la alineación del texto en un párrafo. Solo lectura TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /es/aspose.slides/iparagraphformateffectivedata/alignment/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iparagraphformateffectivedata/alignment/
 
 ## Propiedad IParagraphFormatEffectiveData.Alignment
 
-Devuelve la alineación de texto en un párrafo. Solo lectura [`TextAlignment`](../../textalignment).
+Devuelve la alineación del texto en un párrafo. Solo lectura [`TextAlignment`](../../textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; }

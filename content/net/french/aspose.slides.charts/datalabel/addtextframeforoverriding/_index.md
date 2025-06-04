@@ -1,15 +1,15 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Référence API Aspose.Slides pour .NET
-description: Initialise TextFrameForOverriding avec le texte dans le paramètre "text". Si TextFrameForOverriding est déjà initialisé, alors il suffit de changer son texte.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Initialiser TextFrameForOverriding avec le texte dans le paramètre "text". Si TextFrameForOverriding est déjà initialisé, il suffit de changer son texte.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
 
-## Méthode DataLabel.AddTextFrameForOverriding
+## DataLabel.AddTextFrameForOverriding méthode
 
-Initialise TextFrameForOverriding avec le texte dans le paramètre "text". Si TextFrameForOverriding est déjà initialisé, alors il suffit de changer son texte.
+Initialiser TextFrameForOverriding avec le texte dans le paramètre "text". Si TextFrameForOverriding est déjà initialisé, il suffit de changer son texte.
 
 ```csharp
 public ITextFrame AddTextFrameForOverriding(string text)

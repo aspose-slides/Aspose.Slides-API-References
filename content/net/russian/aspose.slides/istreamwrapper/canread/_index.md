@@ -15,7 +15,7 @@ url: /ru/aspose.slides/istreamwrapper/canread/
 public bool CanRead { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * пространство имен [Aspose.Slides](../../istreamwrapper)

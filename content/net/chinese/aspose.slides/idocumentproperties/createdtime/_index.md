@@ -1,15 +1,15 @@
 ---
 title: CreatedTime
-second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿创建的日期。值为 UTC。可读写 DateTime。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回演示文稿创建的日期。值为UTC。可读/可写的DateTime。
 type: docs
 weight: 100
 url: /zh/aspose.slides/idocumentproperties/createdtime/
 ---
 
-## IDocumentProperties.CreatedTime 属性
+## IDocumentProperties.CreatedTime property
 
-返回演示文稿创建的日期。值为 UTC。可读写 DateTime。
+返回演示文稿创建的日期。值为UTC。可读/可写的DateTime。
 
 ```csharp
 public DateTime CreatedTime { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime le tag à l'index spécifié.
 type: docs
 weight: 100
 url: /fr/aspose.slides/itagcollection/removeat/
 ---
 
-## Méthode ITagCollection.RemoveAt
+## ITagCollection.RemoveAt méthode
 
 Supprime le tag à l'index spécifié.
 
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | L'index basé sur zéro du tag à supprimer. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITagCollection](../../itagcollection)
 * namespace [Aspose.Slides](../../itagcollection)

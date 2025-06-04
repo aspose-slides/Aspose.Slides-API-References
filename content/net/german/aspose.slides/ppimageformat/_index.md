@@ -1,6 +1,6 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bildformate. Dieses Enum ist ein Ersatz für die Klasse System.Drawing.Imaging.ImageFormat. Es ist für die COM-Kompatibilität erforderlich.
 type: docs
 weight: 8990
@@ -20,7 +20,7 @@ public enum PPImageFormat
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Bmp | `0` | Gibt das Bitmap (BMP) Bildformat zurück. |
-| Emf | `1` | Gibt das erweiterte Metafile (EMF) Bildformat zurück. |
+| Emf | `1` | Gibt das erweiterte Metadateiformat (EMF) zurück. |
 | Exif | `2` | Gibt das Exchangeable Image File (Exif) Format zurück. |
 | Gif | `3` | Gibt das Graphics Interchange Format (GIF) Bildformat zurück. |
 | Icon | `4` | Gibt das Windows Icon Bildformat zurück. |

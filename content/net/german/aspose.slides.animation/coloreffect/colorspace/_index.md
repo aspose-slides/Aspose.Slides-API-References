@@ -1,7 +1,7 @@
 ---
 title: ColorSpace
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert den Farbraum des Verhaltens. Lesen/Schreiben von ColorSpaceaspose.slides.animation/colorspace.
+description: Repräsentiert den Farbraum des Verhaltens. Lese/ schreibe ColorSpaceaspose.slides.animation/colorspace.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/coloreffect/colorspace/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/coloreffect/colorspace/
 
 ## ColorEffect.ColorSpace-Eigenschaft
 
-Repräsentiert den Farbraum des Verhaltens. Lesen/Schreiben von [`ColorSpace`](../../colorspace).
+Repräsentiert den Farbraum des Verhaltens. Lese/ schreibe [`ColorSpace`](../../colorspace).
 
 ```csharp
 public ColorSpace ColorSpace { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ColorSpace](../../colorspace)
 * class [ColorEffect](../../coloreffect)

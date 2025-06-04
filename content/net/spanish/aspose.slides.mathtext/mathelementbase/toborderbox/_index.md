@@ -1,6 +1,6 @@
 ---
 title: ToBorderBox
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Coloca este elemento en un border-box
 type: docs
 weight: 180
@@ -15,7 +15,7 @@ Coloca este elemento en un border-box
 public IMathBorderBox ToBorderBox()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Border-box con este elemento colocado dentro
 
@@ -28,7 +28,7 @@ Ejemplo:
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### Véase también
+### Véase También
 
 * interface [IMathBorderBox](../../imathborderbox)
 * class [MathElementBase](../../mathelementbase)
@@ -53,12 +53,12 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 | hideBottom | Boolean | Ocultar borde inferior |
 | hideLeft | Boolean | Ocultar borde izquierdo |
 | hideRight | Boolean | Ocultar borde derecho |
-| strikethroughHorizontal | Boolean | Tachar horizontalmente el border box |
-| strikethroughVertical | Boolean | Tachar verticalmente el border box |
-| strikethroughBottomLeftToTopRight | Boolean | Tachar el border box de abajo-izquierda a arriba-derecha |
-| strikethroughTopLeftToBottomRight | Boolean | Tachar el border box de arriba-izquierda a abajo-derecha |
+| strikethroughHorizontal | Boolean | Tachar horizontal del border box |
+| strikethroughVertical | Boolean | Tachar vertical del border box |
+| strikethroughBottomLeftToTopRight | Boolean | Tachar del border box de esquina inferior izquierda a esquina superior derecha |
+| strikethroughTopLeftToBottomRight | Boolean | Tachar del border box de esquina superior izquierda a esquina inferior derecha |
 
-### Valor de retorno
+### Valor de Retorno
 
 Border-box con este elemento colocado dentro
 
@@ -71,7 +71,7 @@ Ejemplo:
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox(false, false, true, true, false, false, false, false);
 ```
 
-### Véase también
+### Véase También
 
 * interface [IMathBorderBox](../../imathborderbox)
 * class [MathElementBase](../../mathelementbase)

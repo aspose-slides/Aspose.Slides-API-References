@@ -1,6 +1,6 @@
 ---
 title: FilterEffectSubtype
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет подтипы эффектов фильтра.
 type: docs
 weight: 310
@@ -47,7 +47,7 @@ public enum FilterEffectSubtype
 | UpRight | `25` |  |
 | Vertical | `26` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

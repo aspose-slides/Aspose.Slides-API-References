@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与 VideoFrame 链接的音频文件的名称。可读/写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置与 VideoFrame 关联的视频文件的名称。可读/写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ivideoframe/linkpathlong/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ivideoframe/linkpathlong/
 
 ## IVideoFrame.LinkPathLong 属性
 
-返回或设置与 VideoFrame 链接的音频文件的名称。可读/写字符串。
+返回或设置与 VideoFrame 关联的视频文件的名称。可读/写字符串。
 
 ```csharp
 public string LinkPathLong { get; set; }

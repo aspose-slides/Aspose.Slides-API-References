@@ -1,7 +1,7 @@
 ---
 title: FillStyleIndex
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'index de colonne de remplissage des formes dans les matrices de style. 0 signifie pas de remplissage, valeur positive - index dans les styles de remplissage des thèmes, valeur négative - index dans les styles d'arrière-plan des thèmes. Lecture/écriture Int16.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie ou définit l'index de colonne de remplissage des formes dans les matrices de styles. 0 signifie pas de remplissage, valeur positive - index dans les styles de remplissage des thèmes, valeur négative - index dans les styles d'arrière-plan des thèmes. Lecture/écriture Int16.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ishapestyle/fillstyleindex/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishapestyle/fillstyleindex/
 
 ## Propriété IShapeStyle.FillStyleIndex
 
-Renvoie ou définit l'index de colonne de remplissage de la forme dans les matrices de style. 0 signifie pas de remplissage, valeur positive - index dans les styles de remplissage du thème, valeur négative - index dans les styles d'arrière-plan du thème. Lecture/écriture Int16.
+Renvoie ou définit l'index de colonne de remplissage de la forme dans les matrices de styles. 0 signifie pas de remplissage, valeur positive - index dans les styles de remplissage du thème, valeur négative - index dans les styles d'arrière-plan du thème. Lecture/écriture Int16.
 
 ```csharp
 public short FillStyleIndex { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShapeStyle](../../ishapestyle)
 * namespace [Aspose.Slides](../../ishapestyle)

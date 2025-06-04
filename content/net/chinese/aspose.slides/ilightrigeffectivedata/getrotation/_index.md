@@ -1,15 +1,15 @@
 ---
 title: GetRotation
 second_title: Aspose.Sildes for .NET API Reference
-description: 旋转通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义，轴与纬度和经度坐标相同。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。
+description: 旋转是通过使用纬度坐标、经度坐标以及围绕坐标轴的旋转来定义的，这些坐标是纬度和经度坐标。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ilightrigeffectivedata/getrotation/
 ---
 
-## ILightRigEffectiveData.GetRotation 方法
+## ILightRigEffectiveData.GetRotation方法
 
-旋转通过使用纬度坐标、经度坐标以及围绕轴的旋转来定义，轴与纬度和经度坐标相同。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。
+旋转是通过使用纬度坐标、经度坐标以及围绕坐标轴的旋转来定义的，这些坐标是纬度和经度坐标。返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。
 
 ```csharp
 public float[] GetRotation()
@@ -17,9 +17,9 @@ public float[] GetRotation()
 
 ### 返回值
 
-旋转坐标为 Single[]
+旋转坐标作为 Single[]
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ILightRigEffectiveData](../../ilightrigeffectivedata)
 * 命名空间 [Aspose.Slides](../../ilightrigeffectivedata)

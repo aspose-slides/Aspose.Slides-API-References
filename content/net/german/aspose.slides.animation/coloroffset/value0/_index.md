@@ -1,7 +1,7 @@
 ---
 title: Value0
 second_title: Aspose.Slides für .NET API Referenz
-description: Definiert den ersten Wert der Verschiebung. Lese-/Schreibzugriff auf Single.
+description: Definiert den ersten Wert des Offset. Schreib-/Lesezugriff auf Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/coloroffset/value0/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/coloroffset/value0/
 
 ## ColorOffset.Value0-Eigenschaft
 
-Definiert den ersten Wert der Verschiebung. Lese-/Schreibzugriff auf Single.
+Definiert den ersten Wert des Offset. Schreib-/Lesezugriff auf Single.
 
 ```csharp
 public float Value0 { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ColorOffset](../../coloroffset)
 * Namespace [Aspose.Slides.Animation](../../coloroffset)

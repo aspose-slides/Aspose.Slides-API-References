@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishape/asislidecomponent/
 
 ## Propriété IShape.AsISlideComponent
 
-Permet d'obtenir l'interface de base ISlideComponent. En lecture seule [`ISlideComponent`](../../islidecomponent).
+Permet d'obtenir l'interface de base ISlideComponent. [`ISlideComponent`](../../islidecomponent) en lecture seule.
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### À voir aussi
+### Voir Aussi
 
 * interface [ISlideComponent](../../islidecomponent)
 * interface [IShape](../../ishape)

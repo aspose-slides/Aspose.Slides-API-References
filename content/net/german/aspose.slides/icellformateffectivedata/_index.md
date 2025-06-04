@@ -1,7 +1,7 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Formatierungseigenschaften von Tabellenzellen enthält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unveränderliches Objekt, das Eigenschaften für effektive Formatierungen von Tabellenzellen enthält.
 type: docs
 weight: 5280
 url: /de/aspose.slides/icellformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icellformateffectivedata/
 
 ## ICellFormatEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Formatierungseigenschaften von Tabellenzellen enthält.
+Unveränderliches Objekt, das Eigenschaften für effektive Formatierungen von Tabellenzellen enthält.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -22,9 +22,9 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBaseTableFormatEffectiveData. Nur-Lese [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 | [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Gibt die Transparenz der Füllfarbe zurück. Gibt Single zurück. |
 
-### Bemerkungen
+### Anmerkungen
 
-Diese Schnittstelle wird zusammen mit der [`ICellFormat`](../icellformat) Schnittstelle verwendet, um effektive Formatierungswerte mit vererbten und angewendeten Tabellenstilen zurückzugeben.
+Diese Schnittstelle wird zusammen mit der [`ICellFormat`](../icellformat) Schnittstelle verwendet, um effektive Formatierungswerte mit angewendeten Vererbungen und Tabellenstilen zurückzugeben.
 
 ### Siehe auch
 

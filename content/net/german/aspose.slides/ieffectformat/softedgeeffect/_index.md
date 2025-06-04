@@ -1,7 +1,7 @@
 ---
 title: SoftEdgeEffect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Sanfte Kante. Lesen/Schreiben von ISoftEdgeaspose.slides.effects/isoftedge.
+description: Weicher Rand. Lesen/Schreiben von ISoftEdgeaspose.slides.effects/isoftedge.
 type: docs
 weight: 100
 url: /de/aspose.slides/ieffectformat/softedgeeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ieffectformat/softedgeeffect/
 
 ## IEffectFormat.SoftEdgeEffect-Eigenschaft
 
-Sanfte Kante. Lesen/Schreiben von [`ISoftEdge`](../../../aspose.slides.effects/isoftedge).
+Weicher Rand. Lesen/Schreiben von [`ISoftEdge`](../../../aspose.slides.effects/isoftedge).
 
 ```csharp
 public ISoftEdge SoftEdgeEffect { get; set; }

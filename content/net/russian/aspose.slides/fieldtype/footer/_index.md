@@ -1,13 +1,13 @@
 ---
 title: Footer
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Нижний колонтитул слайдов. Поле только для чтения FieldType aspose.slides/fieldtype.
 type: docs
 weight: 160
 url: /ru/aspose.slides/fieldtype/footer/
 ---
 
-## Свойство FieldType.Footer
+## FieldType.Footer свойство
 
 Нижний колонтитул слайда. Поле только для чтения [`FieldType`](../../fieldtype).
 

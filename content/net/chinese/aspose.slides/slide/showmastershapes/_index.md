@@ -1,7 +1,7 @@
 ---
 title: ShowMasterShapes
-second_title: Aspose.Slides for .NET API 参考
-description: 指定母版幻灯片上的形状是否应在幻灯片上显示。可读写布尔值。
+second_title: Aspose.Sildes for .NET API参考
+description: 指定母版幻灯片上的形状是否应在幻灯片上显示。可读写的布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/slide/showmastershapes/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/slide/showmastershapes/
 
 ## Slide.ShowMasterShapes 属性
 
-指定母版幻灯片上的形状是否应在幻灯片上显示。可读写布尔值。
+指定母版幻灯片上的形状是否应在幻灯片上显示。可读写的布尔值。
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }
 ```
 
-### 另请参阅
+### 相关内容
 
 * class [Slide](../../slide)
 * namespace [Aspose.Slides](../../slide)

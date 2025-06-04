@@ -1,21 +1,21 @@
 ---
 title: CropLocked
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Zuschneiden eines Bildes verboten ist. Lese-/Schreib-Boolesch.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob das Zuschneiden eines Bildes verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/ipictureframelock/croplocked/
 ---
 
-## IPictureFrameLock.CropLocked Eigenschaft
+## IPictureFrameLock.CropLocked-Eigenschaft
 
-Bestimmt, ob das Zuschneiden eines Bildes verboten ist. Lese-/Schreib-Boolesch.
+Bestimmt, ob das Zuschneiden eines Bildes verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool CropLocked { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPictureFrameLock](../../ipictureframelock)
 * Namespace [Aspose.Slides](../../ipictureframelock)

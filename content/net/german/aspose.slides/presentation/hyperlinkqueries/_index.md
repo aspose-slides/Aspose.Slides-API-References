@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Slides für .NET API Referenz
-description: Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind nicht in Master-, Layout-, Notizfolien. Nur lesbar IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind nicht in Master-, Layout- oder Notizfolien. Nur lesender Zugriff auf IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 130
 url: /de/aspose.slides/presentation/hyperlinkqueries/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/presentation/hyperlinkqueries/
 
 ## Presentation.HyperlinkQueries-Eigenschaft
 
-Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout-, Notizfolien). Nur lesbar [`IHyperlinkQueries`](../../ihyperlinkqueries).
+Bietet einfachen Zugriff auf alle Hyperlinks, die in allen Präsentationsfolien enthalten sind (nicht in Master-, Layout- oder Notizfolien). Nur lesender Zugriff auf [`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHyperlinkQueries](../../ihyperlinkqueries)
 * Klasse [Presentation](../../presentation)

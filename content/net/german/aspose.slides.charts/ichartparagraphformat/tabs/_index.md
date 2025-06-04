@@ -1,7 +1,7 @@
 ---
 title: Tabs
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Tabulatoren eines Absatzes zurück. Schreibgeschütztes ITabCollection aspose.slides/itabcollection.
+description: Gibt die Tabulatoren eines Absatzes zurück. Nur Lesezugriff auf ITabCollection aspose.slides/itabcollection.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/ichartparagraphformat/tabs/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartparagraphformat/tabs/
 
 ## IChartParagraphFormat.Tabs-Eigenschaft
 
-Gibt die Tabulatoren eines Absatzes zurück. Schreibgeschütztes [`ITabCollection`](../../../aspose.slides/itabcollection).
+Gibt die Tabulatoren eines Absatzes zurück. Nur Lesezugriff auf [`ITabCollection`](../../../aspose.slides/itabcollection).
 
 ```csharp
 public ITabCollection Tabs { get; }

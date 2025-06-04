@@ -1,13 +1,13 @@
 ---
 title: TextBlockFormat
-second_title: Aspose.Slidеs для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: TextBlockFormat. Только для чтения IChartTextBlockFormat aspose.slides.charts/icharttextblockformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/charttextformat/textblockformat/
 ---
 
-## Свойство ChartTextFormat.TextBlockFormat
+## ChartTextFormat.TextBlockFormat свойство
 
 TextBlockFormat. Только для чтения [`IChartTextBlockFormat`](../../icharttextblockformat).
 

@@ -1,13 +1,13 @@
 ---
 title: IsBubble3D
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica que las burbujas tienen un efecto 3-D aplicado a ellas. Booleano de lectura/escritura.
 type: docs
 weight: 130
 url: /es/aspose.slides.charts/chartdatapoint/isbubble3d/
 ---
 
-## Propiedad ChartDataPoint.IsBubble3D
+## ChartDataPoint.IsBubble3D propiedad
 
 Especifica que las burbujas tienen un efecto 3-D aplicado a ellas. Booleano de lectura/escritura.
 
@@ -19,6 +19,6 @@ public bool IsBubble3D { get; set; }
 
 * clase [ChartDataPoint](../../chartdatapoint)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

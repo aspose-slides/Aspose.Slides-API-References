@@ -1,6 +1,6 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает интерфейс IFillParamSource. Только для чтения IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public IFillParamSource AsIFillParamSource { get; }
 
 ### Примечания
 
-Это для совместимости с COM.
+Это необходимо для совместимости с COM.
 
-### Смотрите также
+### Также смотрите
 
 * интерфейс [IFillParamSource](../../ifillparamsource)
 * интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)

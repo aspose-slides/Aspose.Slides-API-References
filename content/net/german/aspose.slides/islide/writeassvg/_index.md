@@ -1,6 +1,6 @@
 ---
 title: WriteAsSvg
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Speichert den Folieninhalt als SVG-Datei.
 type: docs
 weight: 130
@@ -38,7 +38,7 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | stream | Stream | Zielstream |
-| svgOptions | ISVGOptions | Optionen zur SVG-Erstellung |
+| svgOptions | ISVGOptions | SVG-Generierungsoptionen |
 
 ### Siehe auch
 

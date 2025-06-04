@@ -1,6 +1,6 @@
 ---
 title: SetExternalWorkbook
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Définit le classeur externe comme source de données pour le graphique. Les données du graphique seront mises à jour à partir du classeur cible.
 type: docs
 weight: 110
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)

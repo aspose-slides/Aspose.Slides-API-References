@@ -7,7 +7,7 @@ weight: 100
 url: /zh/aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 ---
 
-## ISVGOptions.MetafileRasterizationDpi property
+## ISVGOptions.MetafileRasterizationDpi属性
 
 返回或设置元文件栅格化的最低分辨率限制。可读/写 Int32。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 public int MetafileRasterizationDpi { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ISVGOptions](../../isvgoptions)
 * 命名空间 [Aspose.Slides.Export](../../isvgoptions)

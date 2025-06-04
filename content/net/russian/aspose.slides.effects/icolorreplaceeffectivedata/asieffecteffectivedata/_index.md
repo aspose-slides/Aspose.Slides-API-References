@@ -1,22 +1,22 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Справка по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IEffectEffectiveData. Интерфейс только для чтения IEffectEffectiveData aspose.slides.effects/ieffecteffectivedata.
+second_title: Aspose.Sildes для .NET API Справка
+description: Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata/
 ---
 
-## Свойство IColorReplaceEffectiveData.AsIEffectEffectiveData
+## IColorReplaceEffectiveData.AsIEffectEffectiveData свойство
 
-Позволяет получить базовый интерфейс IEffectEffectiveData. Интерфейс только для чтения [`IEffectEffectiveData`](../../ieffecteffectivedata).
+Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### Также см.
- 
+### См. также
+
 * интерфейс [IEffectEffectiveData](../../ieffecteffectivedata)
 * интерфейс [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../icolorreplaceeffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: PptxEditException
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Fehler beim Bearbeiten der Präsentation festgestellt wird.
+description: Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Bearbeitungsfehler in der Präsentation erkannt wird.
 type: docs
 weight: 9280
 url: /de/aspose.slides/pptxeditexception/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pptxeditexception/
 
 ## PptxEditException-Klasse
 
-Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Fehler beim Bearbeiten der Präsentation festgestellt wird.
+Stellt eine Ausnahme dar, die ausgelöst wird, wenn ein Bearbeitungsfehler in der Präsentation erkannt wird.
 
 ```csharp
 public class PptxEditException : PptxException

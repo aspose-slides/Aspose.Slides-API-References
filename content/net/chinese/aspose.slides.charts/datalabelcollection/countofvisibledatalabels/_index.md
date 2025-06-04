@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/datalabelcollection/countofvisibledatalabels/
 public int CountOfVisibleDataLabels { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * class [DataLabelCollection](../../datalabelcollection)
 * namespace [Aspose.Slides.Charts](../../datalabelcollection)

@@ -1,7 +1,7 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет менеджер, который хранит поведение заполнителей для даты-времени и номера страницы нижнего колонтитула для всех типов слайдов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет менеджер, который управляет поведением подвала, временных меток и заполнительных номеров страниц для всех типов слайдов.
 type: docs
 weight: 5150
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibaseslideheaderfootermanager/
 
 ## Интерфейс IBaseSlideHeaderFooterManager
 
-Представляет менеджер, который хранит поведение заполнителей для нижнего колонтитула, даты-времени и номера страницы для всех типов слайдов.
+Представляет менеджер, который управляет поведением подвала, временных меток и заполнителей номеров страниц для всех типов слайдов.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -17,24 +17,24 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Возвращает интерфейс IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее, что присутствует заполнитель для даты-времени. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель для нижнего колонтитула. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель для номера страницы. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя для даты и времени. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее на наличие заполнителя для подвала. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее на наличие заполнителя для номера страницы. ReadBoolean. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст для заполнителя даты-времени на слайде. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты-времени на слайде. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст для заполнителя нижнего колонтитула на слайде. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула на слайде. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера страницы на слайде. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст для заполнителя даты и времени слайда. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст для заполнителя подвала слайда. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя подвала слайда. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * пространство имен [Aspose.Slides](../../aspose.slides)

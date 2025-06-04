@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除特定对象的第一次出现。
 type: docs
 weight: 90
@@ -21,7 +21,7 @@ public bool Remove(IMathBlock item)
 
 ### 返回值
 
-如果 *item* 成功从集合中移除，则返回 true；否则返回 false。如果 *item* 在原始集合中未找到，该方法也会返回 false。
+如果 *item* 从集合中成功移除，则返回 true；否则，返回 false。如果在原始集合中未找到 *item*，此方法也会返回 false。
 
 ### 示例
 
@@ -35,7 +35,7 @@ blockCollection.Add(block);
 blockCollection.Remove(block);
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathBlock](../../imathblock)
 * 接口 [IMathBlockCollection](../../imathblockcollection)

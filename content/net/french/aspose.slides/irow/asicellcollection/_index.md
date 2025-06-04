@@ -1,21 +1,21 @@
 ---
 title: AsICellCollection
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base ICellCollection. Lecture seule ICellCollectionaspose.slides/icellcollection.
+description: Permet d'obtenir l'interface de base ICellCollection. ICellCollection en lecture seule aspose.slides/icellcollection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/irow/asicellcollection/
 ---
 
-## Propriété IRow.AsICellCollection
+## IRow.AsICellCollection propriété
 
-Permet d'obtenir l'interface de base ICellCollection. Lecture seule [`ICellCollection`](../../icellcollection).
+Permet d'obtenir l'interface de base ICellCollection. ICellCollection en lecture seule [`ICellCollection`](../../icellcollection).
 
 ```csharp
 public ICellCollection AsICellCollection { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICellCollection](../../icellcollection)
 * interface [IRow](../../irow)

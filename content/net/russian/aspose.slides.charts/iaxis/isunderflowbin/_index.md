@@ -1,7 +1,7 @@
 ---
 title: IsUnderflowBin
-second_title: Справочник API Aspose.Slides для .NET
-description: Указывает, применяется ли ящик низких значений. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения ящика низких значений.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, применен ли подающий контейнер. Используйте IsAutomaticUnderflowBin и UnderflowBin для регулировки значения подающего контейнера.
 type: docs
 weight: 300
 url: /ru/aspose.slides.charts/iaxis/isunderflowbin/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/iaxis/isunderflowbin/
 
 ## IAxis.IsUnderflowBin свойство
 
-Указывает, применяется ли ящик низких значений. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения ящика низких значений.
+Указывает, применен ли подающий контейнер. Используйте IsAutomaticUnderflowBin и UnderflowBin для регулировки значения подающего контейнера.
 
 ```csharp
 public bool IsUnderflowBin { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IAxis](../../iaxis)
 * пространство имен [Aspose.Slides.Charts](../../iaxis)

@@ -1,6 +1,6 @@
 ---
 title: ISaveOptionsFactory
-second_title: Referencia de la API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Permite crear instancias de opciones de guardado
 type: docs
 weight: 3910
@@ -19,7 +19,7 @@ public interface ISaveOptionsFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Crea opciones de guardado en PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | Crea opciones de guardado PPTX. |
 
 ### Observaciones
 

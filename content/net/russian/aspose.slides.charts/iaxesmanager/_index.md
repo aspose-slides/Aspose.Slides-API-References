@@ -1,6 +1,6 @@
 ---
 title: IAxesManager
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справка
 description: Предоставляет доступ к осям графика.
 type: docs
 weight: 1620
@@ -25,7 +25,7 @@ public interface IAxesManager
 | [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Получает ось серии графика. Только для чтения [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Получает вертикальную ось графика. Только для чтения [`IAxis`](../iaxis). |
 
-### См. Также
+### Также см.
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

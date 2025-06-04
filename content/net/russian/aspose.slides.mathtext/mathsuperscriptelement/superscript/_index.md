@@ -1,6 +1,6 @@
 ---
 title: Superscript
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Надстрочный текст
 type: docs
 weight: 20

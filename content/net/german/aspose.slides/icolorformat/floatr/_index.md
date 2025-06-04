@@ -1,7 +1,7 @@
 ---
 title: FloatR
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die rote Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/Schreib-Zahl.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die rote Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 80
 url: /de/aspose.slides/icolorformat/floatr/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icolorformat/floatr/
 
 ## IColorFormat.FloatR-Eigenschaft
 
-Gibt die rote Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/Schreib-Zahl.
+Gibt die rote Komponente einer Farbe zurück oder setzt sie. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float FloatR { get; set; }

@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.effects/ifilloverlay/asiaccessiblepviobject/
 ---
 
-## Propiedad IFillOverlay.AsIAccessiblePVIObject
+## IFillOverlay.AsIAccessiblePVIObject propiedad
 
 Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessibl
 public IAccessiblePVIObject<IFillOverlayEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)

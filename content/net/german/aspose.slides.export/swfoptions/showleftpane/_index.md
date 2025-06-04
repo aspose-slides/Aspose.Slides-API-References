@@ -1,7 +1,7 @@
 ---  
 title: ShowLeftPane
-second_title: Aspose.Slides für .NET API Referenz  
-description: Zeige/verborgenes linkes Paneel. Kann in flashvars überschrieben werden. Standard ist true.
+second_title: Aspose.Slides für .NET API-Referenz  
+description: Zeigt/verbirgt das linke Paneel. Kann in flashvars überschrieben werden. Standard ist true.
 type: docs  
 weight: 100  
 url: /de/aspose.slides.export/swfoptions/showleftpane/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/swfoptions/showleftpane/
 
 ## SwfOptions.ShowLeftPane-Eigenschaft  
 
-Zeige/verborgenes linkes Paneel. Kann in flashvars überschrieben werden. Standard ist true.  
+Zeigt/verbirgt das linke Paneel. Kann in flashvars überschrieben werden. Standard ist true.  
 
 ```csharp  
 public bool ShowLeftPane { get; set; }  
 ```  
 
-### Siehe Auch  
+### Siehe auch  
 
 * Klasse [SwfOptions](../../swfoptions)  
 * Namespace [Aspose.Slides.Export](../../swfoptions)  

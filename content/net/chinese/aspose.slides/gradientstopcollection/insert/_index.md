@@ -1,7 +1,7 @@
 ---
 title: Insert
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建新的渐变停靠点，并将其插入到指定索引的集合中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的渐变停靠点并将其按照指定的索引插入到集合中。
 type: docs
 weight: 90
 url: /zh/aspose.slides/gradientstopcollection/insert/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/gradientstopcollection/insert/
 
 ## Insert(int, float, Color) {#insert_2}
 
-创建新的渐变停靠点，并将其插入到指定索引的集合中。
+创建新的渐变停靠点并将其按照指定的索引插入到集合中。
 
 ```csharp
 public void Insert(int index, float position, Color color)
@@ -17,9 +17,9 @@ public void Insert(int index, float position, Color color)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 新渐变停靠点将插入的集合中的索引。 |
-| position | Single | 新渐变停靠点的位置。 |
-| color | Color | 新渐变停靠点的颜色。 |
+| index | Int32 | 新的渐变停靠点将插入的集合中的索引。 |
+| position | Single | 新的渐变停靠点的位置。 |
+| color | Color | 新的渐变停靠点的颜色。 |
 
 ### 另见
 
@@ -31,7 +31,7 @@ public void Insert(int index, float position, Color color)
 
 ## Insert(int, float, PresetColor) {#insert}
 
-创建新的渐变停靠点，并将其插入到指定索引的集合中。
+创建新的渐变停靠点并将其按照指定的索引插入到集合中。
 
 ```csharp
 public void Insert(int index, float position, PresetColor presetColor)
@@ -39,9 +39,9 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 新渐变停靠点将插入的集合中的索引。 |
-| position | Single | 新渐变停靠点的位置。 |
-| presetColor | PresetColor | 新渐变停靠点的颜色。 |
+| index | Int32 | 新的渐变停靠点将插入的集合中的索引。 |
+| position | Single | 新的渐变停靠点的位置。 |
+| presetColor | PresetColor | 新的渐变停靠点的颜色。 |
 
 ### 另见
 
@@ -54,7 +54,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ## Insert(int, float, SchemeColor) {#insert_1}
 
-创建新的渐变停靠点，并将其插入到指定索引的集合中。
+创建新的渐变停靠点并将其按照指定的索引插入到集合中。
 
 ```csharp
 public void Insert(int index, float position, SchemeColor schemeColor)
@@ -62,9 +62,9 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 新渐变停靠点将插入的集合中的索引。 |
-| position | Single | 新渐变停靠点的位置。 |
-| schemeColor | SchemeColor | 新渐变停靠点的颜色。 |
+| index | Int32 | 新的渐变停靠点将插入的集合中的索引。 |
+| position | Single | 新的渐变停靠点的位置。 |
+| schemeColor | SchemeColor | 新的渐变停靠点的颜色。 |
 
 ### 另见
 

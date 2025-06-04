@@ -1,7 +1,7 @@
 ---
 title: Header
-second_title: Aspose.Slides für .NET API Referenz
-description: Kopfzeile der Folie. Schreibgeschütztes FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Header der Folie. Schreibgeschützter FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 170
 url: /de/aspose.slides/fieldtype/header/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fieldtype/header/
 
 ## FieldType.Header-Eigenschaft
 
-Kopfzeile der Folie. Schreibgeschütztes [`FieldType`](../../fieldtype).
+Header der Folie. Schreibgeschützter [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType Header { get; }

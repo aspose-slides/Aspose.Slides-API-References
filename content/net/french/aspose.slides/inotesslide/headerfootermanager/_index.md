@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Renvoie le gestionnaire HeaderFooter de la diapositive de notes. Lecture seule INotesSlideHeaderFooterManageraspose.slides/inotesslideheaderfootermanager.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie le gestionnaire HeaderFooter de la diapositive de notes. Lecture seule INotesSlideHeaderFooterManager aspose.slides/inotesslideheaderfootermanager.
 type: docs
 weight: 30
 url: /fr/aspose.slides/inotesslide/headerfootermanager/
@@ -15,7 +15,7 @@ Renvoie le gestionnaire HeaderFooter de la diapositive de notes. Lecture seule [
 public INotesSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [INotesSlideHeaderFooterManager](../../inotesslideheaderfootermanager)
 * interface [INotesSlide](../../inotesslide)

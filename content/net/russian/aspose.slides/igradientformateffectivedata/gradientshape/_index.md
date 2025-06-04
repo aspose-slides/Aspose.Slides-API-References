@@ -1,21 +1,21 @@
 ---
 title: GradientShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает форму градиента. Только для чтения GradientShapeaspose.slides/gradientshape.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает форму градиента. Свойство только для чтения GradientShapeaspose.slides/gradientshape.
 type: docs
 weight: 30
 url: /ru/aspose.slides/igradientformateffectivedata/gradientshape/
 ---
 
-## IGradientFormatEffectiveData.GradientShape свойство
+## IGradientFormatEffectiveData.GradientShape property
 
-Возвращает форму градиента. Только для чтения [`GradientShape`](../../gradientshape).
+Возвращает форму градиента. Свойство только для чтения [`GradientShape`](../../gradientshape).
 
 ```csharp
 public GradientShape GradientShape { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [GradientShape](../../gradientshape)
 * interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)

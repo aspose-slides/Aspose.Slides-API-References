@@ -1,13 +1,13 @@
 ---
 title: LegendDataLabelPosition
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt die Position der Datenbeschriftungen.
 type: docs
 weight: 2210
 url: /de/aspose.slides.charts/legenddatalabelposition/
 ---
 
-## LegendDataLabelPosition-Enumeration
+## LegendDataLabelPosition Aufzählung
 
 Bestimmt die Position der Datenbeschriftungen.
 
@@ -24,13 +24,13 @@ public enum LegendDataLabelPosition
 | BestFit | `1` | Gibt an, dass die Datenbeschriftungen in der besten Position angezeigt werden sollen. |
 | Center | `2` | Gibt an, dass die Datenbeschriftungen zentriert auf dem Datenmarker angezeigt werden sollen. |
 | InsideBase | `3` | Gibt an, dass die Datenbeschriftungen innerhalb der Basis des Datenmarkers angezeigt werden sollen. |
-| InsideEnd | `4` | Gibt an, dass die Datenbeschriftungen innerhalb des Endes des Datenmarkers angezeigt werden sollen. |
+| InsideEnd | `4` | Gibt an, dass die Datenbeschriftungen innerhalb des Ends des Datenmarkers angezeigt werden sollen. |
 | Left | `5` | Gibt an, dass die Datenbeschriftungen links vom Datenmarker angezeigt werden sollen. |
-| OutsideEnd | `6` | Gibt an, dass die Datenbeschriftungen außerhalb des Endes des Datenmarkers angezeigt werden sollen. |
+| OutsideEnd | `6` | Gibt an, dass die Datenbeschriftungen außerhalb des Ends des Datenmarkers angezeigt werden sollen. |
 | Right | `7` | Gibt an, dass die Datenbeschriftungen rechts vom Datenmarker angezeigt werden sollen. |
 | Top | `8` | Gibt an, dass die Datenbeschriftungen über dem Datenmarker angezeigt werden sollen. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

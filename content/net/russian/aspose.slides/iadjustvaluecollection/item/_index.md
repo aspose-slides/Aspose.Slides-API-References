@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение корректировки по индексу.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает корректировку по индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides/iadjustvaluecollection/item/
 ---
 
-## Индексатор IAdjustValueCollection
+## IAdjustValueCollection индексатор
 
-Возвращает значение корректировки по индексу.
+Возвращает корректировку по индексу.
 
 ```csharp
 public IAdjustValue this[int index] { get; }
@@ -23,7 +23,7 @@ public IAdjustValue this[int index] { get; }
 
 [`IAdjustValue`](../../iadjustvalue).
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IAdjustValue](../../iadjustvalue)
 * интерфейс [IAdjustValueCollection](../../iadjustvaluecollection)

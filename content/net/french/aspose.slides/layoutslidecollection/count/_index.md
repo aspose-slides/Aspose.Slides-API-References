@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le nombre de diapositives de mise en page dans une collection. Lecture seule Int32.
+description: Renvoie le nombre de diapositives de mise en page dans une collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/layoutslidecollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/layoutslidecollection/count/
 
 ## Propriété LayoutSlideCollection.Count
 
-Retourne le nombre de diapositives de mise en page dans une collection. Lecture seule Int32.
+Renvoie le nombre de diapositives de mise en page dans une collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

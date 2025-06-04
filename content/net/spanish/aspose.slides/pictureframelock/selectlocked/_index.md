@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si seleccionar esta forma está prohibido. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si la selección de esta forma está prohibida. Booleano de lectura/escritura.
 type: docs
 weight: 90
 url: /es/aspose.slides/pictureframelock/selectlocked/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/pictureframelock/selectlocked/
 
 ## Propiedad PictureFrameLock.SelectLocked
 
-Determina si seleccionar esta forma está prohibido. Booleano de lectura/escritura.
+Determina si la selección de esta forma está prohibida. Booleano de lectura/escritura.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [PictureFrameLock](../../pictureframelock)
 * espacio de nombres [Aspose.Slides](../../pictureframelock)

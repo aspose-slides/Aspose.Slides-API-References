@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает объект IChartDataCell для заданного уровня.
+description: Возвращает объект IChartDataCell для определенного уровня.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ichartcategorylevelsmanager/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartcategorylevelsmanager/item/
 
 ## Индексатор IChartCategoryLevelsManager
 
-Возвращает объект IChartDataCell для заданного уровня.
+Возвращает объект IChartDataCell для определенного уровня.
 
 ```csharp
 public IChartDataCell this[int level] { get; }

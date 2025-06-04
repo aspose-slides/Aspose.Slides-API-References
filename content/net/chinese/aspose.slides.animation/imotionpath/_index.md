@@ -1,13 +1,13 @@
 ---
 title: IMotionPath
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 表示运动路径。
 type: docs
 weight: 450
 url: /zh/aspose.slides.animation/imotionpath/
 ---
 
-## IMotionPath接口
+## IMotionPath 接口
 
 表示运动路径。
 
@@ -19,19 +19,19 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | 允许获取基本的IBehavior接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | 返回集合中的路径数量。 只读Int32。 |
-| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | 返回指定索引处的命令。 |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | 允许获取基接口 IBehavior. 仅可读的 IEnumerable. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | 返回集合中路径的数量. 仅可读的 Int32. |
+| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | 返回指定索引处的命令. |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 将新命令添加到路径 |
-| [Clear](../../aspose.slides.animation/imotionpath/clear)() | 从集合中删除所有命令。 |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 将新命令插入到路径中 |
-| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | 从集合中删除指定的命令。 |
-| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | 删除指定索引处的命令。 |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 向路径添加新命令 |
+| [Clear](../../aspose.slides.animation/imotionpath/clear)() | 从集合中删除所有命令. |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 向路径插入新命令 |
+| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | 从集合中删除指定命令. |
+| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | 删除指定索引处的命令. |
 
 ### 另见
 

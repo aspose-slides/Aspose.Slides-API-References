@@ -1,6 +1,6 @@
 ---
 title: Style
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie ou définit le style du graphique. Lecture/écriture StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ Renvoie ou définit le style du graphique. Lecture/écriture [`StyleType`](../..
 public StyleType Style { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [StyleType](../../styletype)
 * interface [IChart](../../ichart)

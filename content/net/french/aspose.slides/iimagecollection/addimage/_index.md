@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/iimagecollection/addimage/
 ---
 
-## AjouterImage(IImage) {#addimage}
+## AddImage(IImage) {#addimage}
 
 Ajouter une image à une présentation.
 
@@ -37,7 +37,7 @@ Cette méthode convertit les fichiers WMF/EMF en image PNG raster avant de les i
 
 ---
 
-## AjouterImage(MemoryStream) {#addimage_5}
+## AddImage(MemoryStream) {#addimage_5}
 
 Ajoute une image à partir d'un flux mémoire.
 
@@ -62,7 +62,7 @@ Image ajoutée.
 
 ---
 
-## AjouterImage(Stream) {#addimage_6}
+## AddImage(Stream) {#addimage_6}
 
 Ajouter une image à une présentation à partir d'un flux.
 
@@ -91,7 +91,7 @@ Cette méthode peut ajouter des fichiers WMF/EMF à une présentation sans les c
 
 ---
 
-## AjouterImage(Stream, LoadingStreamBehavior) {#addimage_7}
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
 
 Crée et ajoute une image à une présentation à partir d'un flux.
 
@@ -118,7 +118,7 @@ Image ajoutée [`IPPImage`](../../ippimage).
 
 ---
 
-## AjouterImage(byte[]) {#addimage_3}
+## AddImage(byte[]) {#addimage_3}
 
 Ajoute une image à une présentation à partir d'un tampon spécifié.
 
@@ -143,7 +143,7 @@ Image ajoutée.
 
 ---
 
-## AjouterImage(IPPImage) {#addimage_1}
+## AddImage(IPPImage) {#addimage_1}
 
 Ajoute une copie d'une image d'une autre présentation.
 
@@ -168,7 +168,7 @@ Image ajoutée.
 
 ---
 
-## AjouterImage(ISvgImage) {#addimage_2}
+## AddImage(ISvgImage) {#addimage_2}
 
 Ajouter une image à une présentation à partir d'un objet SVG.
 
@@ -178,7 +178,7 @@ public IPPImage AddImage(ISvgImage svgImage)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| svgImage | ISvgImage | Objet d'image SVG [`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | Objet image SVG [`ISvgImage`](../../isvgimage) |
 
 ### Valeur de Retour
 

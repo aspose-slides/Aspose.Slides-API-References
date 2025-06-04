@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Menge an Platz nach der letzten Zeile in einem Absatz zurück. Nur-lesbare Single.
+description: Gibt die Menge an Platz nach der letzten Zeile in einem Absatz zurück. Nur-lesbarer Single.
 type: docs
 weight: 140
 url: /de/aspose.slides/iparagraphformateffectivedata/spaceafter/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iparagraphformateffectivedata/spaceafter/
 
 ## IParagraphFormatEffectiveData.SpaceAfter-Eigenschaft
 
-Gibt die Menge an Platz nach der letzten Zeile in einem Absatz zurück. Nur-lesbare Single.
+Gibt die Menge an Platz nach der letzten Zeile in einem Absatz zurück. Nur-lesbarer Single.
 
 ```csharp
 public float SpaceAfter { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * Namespace [Aspose.Slides](../../iparagraphformateffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: GradientStops
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve la colección de paradas de degradado. Solo lectura IGradientStopCollectionaspose.slides/igradientstopcollection.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve la colección de paradas de gradiente. Solo lectura IGradientStopCollectionaspose.slides/igradientstopcollection.
 type: docs
 weight: 40
 url: /es/aspose.slides/igradientformat/gradientstops/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/igradientformat/gradientstops/
 
 ## Propiedad IGradientFormat.GradientStops
 
-Devuelve la colección de paradas de degradado. Solo lectura [`IGradientStopCollection`](../../igradientstopcollection).
+Devuelve la colección de paradas de gradiente. Solo lectura [`IGradientStopCollection`](../../igradientstopcollection).
 
 ```csharp
 public IGradientStopCollection GradientStops { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IGradientStopCollection](../../igradientstopcollection)
 * interfaz [IGradientFormat](../../igradientformat)

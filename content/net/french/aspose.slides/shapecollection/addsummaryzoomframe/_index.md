@@ -1,6 +1,6 @@
 ---
 title: AddSummaryZoomFrame
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Ajoute un nouvel objet Summary Zoom à la fin d'une collection.
 type: docs
 weight: 190
@@ -17,10 +17,10 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | Coordonnée X d'une nouvelle trame Section Zoom Single. |
-| y | Single | Coordonnée Y d'une nouvelle trame Section Zoom Single. |
-| width | Single | Largeur d'une nouvelle trame Section Zoom Single. |
-| height | Single | Hauteur d'une nouvelle trame Section Zoom Single. |
+| x | Single | Coordonnée X d'un nouveau cadre Zoom de section Single. |
+| y | Single | Coordonnée Y d'un nouveau cadre Zoom de section Single. |
+| width | Single | Largeur d'un nouveau cadre Zoom de section Single. |
+| height | Single | Hauteur d'un nouveau cadre Zoom de section Single. |
 
 ### Valeur de retour
 
@@ -34,11 +34,11 @@ Objet Summary Zoom créé [`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### Remarques
 
-Cette méthode crée un nouveau Summary Zoom et y met une collection d'objets pour toutes les sections de cette présentation.
+Cette méthode crée un nouveau Summary Zoom et y place une collection d'objets pour toutes les sections de cette présentation.
 
 ### Exemples
 
-Cet exemple montre comment ajouter un objet Summary Zoom à la fin d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre comment ajouter un objet Summary Zoom à la fin d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]

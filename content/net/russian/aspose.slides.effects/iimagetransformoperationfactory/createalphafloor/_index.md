@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaFloor
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает эффект Alpha floor.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/iimagetransformoperationfactory/createalphafloor/
 public IAlphaFloor CreateAlphaFloor()
 ```
 
-### Значение возвращаемого значения
+### Возвращаемое значение
 
 Эффект Alpha floor.
 

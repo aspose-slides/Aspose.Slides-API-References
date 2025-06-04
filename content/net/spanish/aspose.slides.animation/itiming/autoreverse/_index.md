@@ -1,6 +1,6 @@
 ---
 title: AutoReverse
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Describe si se debe reproducir automáticamente la animación en reversa después de reproducirla en la dirección hacia adelante. Booleano de lectura/escritura.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Describe si se debe reproducir automáticamente la animación en reversa despué
 public bool AutoReverse { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ITiming](../../itiming)
 * espacio de nombres [Aspose.Slides.Animation](../../itiming)

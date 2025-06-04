@@ -1,7 +1,7 @@
 ---
 title: IShapeBevel
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства рельефа основной стороны формы.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойства рельефа основной поверхности фигуры.
 type: docs
 weight: 6740
 url: /ru/aspose.slides/ishapebevel/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ishapebevel/
 
 ## Интерфейс IShapeBevel
 
-Представляет свойства рельефа основной стороны формы.
+Представляет свойства рельефа основной поверхности фигуры.
 
 ```csharp
 public interface IShapeBevel
@@ -17,11 +17,11 @@ public interface IShapeBevel
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Тип скошивания. Чтение/запись [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Высота скошивания. Чтение/запись Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Ширина скошивания. Чтение/запись Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Тип скошения. Чтение/запись [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Высота скошения. Чтение/запись Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Ширина скошения. Чтение/запись Double. |
 
 ### См. также
 

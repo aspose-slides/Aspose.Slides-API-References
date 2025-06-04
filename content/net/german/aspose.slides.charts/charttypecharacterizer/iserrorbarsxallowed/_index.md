@@ -1,7 +1,7 @@
 ---
 title: IsErrorBarsXAllowed
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob Fehlerbalken X für den angegebenen Serientyp erlaubt sind.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt zurück, ob Fehlerbalken X für den angegebenen Serientyp erlaubt sind.
 type: docs
 weight: 160
 url: /de/aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed/
@@ -9,19 +9,19 @@ url: /de/aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed/
 
 ## ChartTypeCharacterizer.IsErrorBarsXAllowed-Methode
 
-Gibt an, ob Fehlerbalken X für den angegebenen Serientyp erlaubt sind.
+Gibt zurück, ob Fehlerbalken X für den angegebenen Serientyp erlaubt sind.
 
 ```csharp
 public static bool IsErrorBarsXAllowed(ChartType seriesType)
 ```
 
-| Parameter  | Typ         | Beschreibung         |
-|------------|-------------|----------------------|
-| seriesType | ChartType   | Serientyp.           |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| seriesType | ChartType | Serientyp. |
 
 ### Rückgabewert
 
-True, wenn erlaubt, andernfalls false.
+Wahr, wenn erlaubt, andernfalls falsch.
 
 ### Siehe Auch
 

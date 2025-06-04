@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft das Element am angegebenen Index ab. Nur lesen MasterSlideaspose.slides/masterslide.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft das Element am angegebenen Index ab. Nur-Lese MasterSlideaspose.slides/masterslide.
 type: docs
 weight: 30
 url: /de/aspose.slides/masterslidecollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masterslidecollection/item/
 
 ## MasterSlideCollection-Indexer
 
-Ruft das Element am angegebenen Index ab. Nur lesen [`MasterSlide`](../../masterslide).
+Ruft das Element am angegebenen Index ab. Nur-Lese [`MasterSlide`](../../masterslide).
 
 ```csharp
 public IMasterSlide this[int index] { get; }

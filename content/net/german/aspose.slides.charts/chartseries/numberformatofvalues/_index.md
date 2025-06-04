@@ -1,6 +1,6 @@
 ---
 title: NumberFormatOfValues
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: NumberFormatOfValues. Lese-/Schreib-String.
 type: docs
 weight: 230

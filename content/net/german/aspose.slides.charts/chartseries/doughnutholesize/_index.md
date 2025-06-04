@@ -1,7 +1,7 @@
 ---
 title: DoughnutHoleSize
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Größe des Lochs in einem Doughnut-Diagramm an, das zwischen 10 und 90 Prozent der Größe des Plotbereichs liegen kann. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Lese-/Schreib-Eigenschaft ParentSeriesGroup.DoughnutHoleSize, um den Wert zu ändern. Schreibgeschütztes Byte.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Größe des Lochs in einem Donut-Diagramm an, die zwischen 10 und 90 Prozent der Größe des Zeichenbereichs liegen kann. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.DoughnutHoleSize, um den Wert zu ändern. Schreibgeschützter Byte.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/chartseries/doughnutholesize/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartseries/doughnutholesize/
 
 ## ChartSeries.DoughnutHoleSize-Eigenschaft
 
-Gibt die Größe des Lochs in einem Doughnut-Diagramm an (kann zwischen 10 und 90 Prozent der Größe des Plotbereichs liegen). Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Lese-/Schreib-Eigenschaft ParentSeriesGroup.DoughnutHoleSize, um den Wert zu ändern. Schreibgeschütztes Byte.
+Gibt die Größe des Lochs in einem Donut-Diagramm an (kann zwischen 10 und 90 Prozent der Größe des Zeichenbereichs liegen). Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.DoughnutHoleSize, um den Wert zu ändern. Schreibgeschützter Byte.
 
 ```csharp
 public byte DoughnutHoleSize { get; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.DoughnutHoleSize.
 

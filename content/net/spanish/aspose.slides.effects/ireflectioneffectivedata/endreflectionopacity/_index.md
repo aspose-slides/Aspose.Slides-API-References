@@ -1,7 +1,7 @@
 ---
 title: EndReflectionOpacity
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Opacidad del reflejo final. por cientos. Solo lectura Single.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Opacidad de la reflexión final. porcentajes. Solo para lectura Single.
 type: docs
 weight: 60
 url: /es/aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity/
 
 ## Propiedad IReflectionEffectiveData.EndReflectionOpacity
 
-Opacidad del reflejo final. (por cientos). Solo lectura Single.
+Opacidad de la reflexión final. (porcentajes). Solo para lectura Single.
 
 ```csharp
 public float EndReflectionOpacity { get; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)

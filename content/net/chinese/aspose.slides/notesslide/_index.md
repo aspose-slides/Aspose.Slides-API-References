@@ -1,6 +1,6 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示演示文稿中的注释幻灯片。
 type: docs
 weight: 8870
@@ -19,37 +19,37 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 | 名称 | 描述 |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | 返回幻灯片的背景。 只读 [`IBackground`](../ibackground)。 |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | 返回幻灯片上的 ActiveX 控件集合。 只读 [`IControlCollection`](../icontrolcollection)。 |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 返回幻灯片的自定义数据。 只读 [`ICustomData`](../icustomdata)。 |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | 返回注释幻灯片的页眉和页脚管理器。 只读 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的简单访问。 只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | 返回或设置幻灯片的名称。 读/写字符串。 |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | 如果存在，返回包含注释文本的 TextFrame。 只读 [`ITextFrame`](../itextframe)。 |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | 返回父幻灯片。 只读 [`ISlide`](../islide)。 |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 返回 IPresentation 接口。 只读 [`IPresentation`](../ipresentation)。 |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 返回幻灯片的形状。 只读 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | 指定主幻灯片上的形状是否应显示在幻灯片上。 读/写布尔值。 |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 返回幻灯片的 ID。 只读 UInt32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回包含有关指定幻灯片在幻灯片放映期间如何推进的信息的过渡对象。 只读 [`ISlideShowTransition`](../islideshowtransition)。 |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | 返回覆盖主题管理器。 只读 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 返回动画时间线对象。 只读 [`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [Background](../../aspose.slides/baseslide/background) { get; } | 返回幻灯片的背景。只读 [`IBackground`](../ibackground)。 |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | 返回幻灯片上的 ActiveX 控件集合。只读 [`IControlCollection`](../icontrolcollection)。 |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 返回幻灯片的自定义数据。只读 [`ICustomData`](../icustomdata)。 |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | 返回注释幻灯片的 HeaderFooter 管理器。只读 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 便于访问包含的超链接。只读 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | 返回或设置幻灯片的名称。可读写字符串。 |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | 如果存在，返回包含注释文本的 TextFrame。只读 [`ITextFrame`](../itextframe)。 |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | 返回父幻灯片。只读 [`ISlide`](../islide)。 |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 返回 IPresentation 接口。只读 [`IPresentation`](../ipresentation)。 |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 返回幻灯片的形状。只读 [`IShapeCollection`](../ishapecollection)。 |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | 指定主幻灯片上的形状是否应在幻灯片上显示。可读写布尔值。 |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 返回幻灯片的 ID。只读 UInt32。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回包含有关指定幻灯片在幻灯片放映期间如何推进的信息的 Transition 对象。只读 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | 返回覆盖的主题管理器。只读 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager)。 |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 返回动画时间线对象。只读 [`IAnimationTimeLine`](../ianimationtimeline)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 返回该幻灯片的有效主题。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。 返回值根据幻灯片的结构和静态内容计算。如果所有形状、样式、文本、动画和其他设置等都相等，则两个幻灯片相等。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 查找指定替代文本的形状的第一次出现。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 在所有段落中联接所有可接受形状中具有相同格式的连续文本。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有段落中联接所有可接受形状中具有相同格式的连续文本。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。返回值是基于幻灯片的结构和静态内容计算的。如果所有形状、样式、文本、动画及其他设置等都相等，则两个幻灯片相等。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 查找具有指定替代文本的形状的第一个实例。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 将所有段落中格式相同的运行连接到所有可接受的形状中。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 将所有段落中的格式相同的运行连接到所有可接受的形状中。 |
 
-### 参见
+### 另见
 
-* 类 [BaseSlide](../baseslide)
-* 接口 [INotesSlide](../inotesslide)
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* class [BaseSlide](../baseslide)
+* interface [INotesSlide](../inotesslide)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

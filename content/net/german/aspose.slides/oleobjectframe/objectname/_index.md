@@ -15,7 +15,7 @@ Gibt den Namen eines Objekts zurück oder legt ihn fest. Lese-/Schreibzeichenfol
 public string ObjectName { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [OleObjectFrame](../../oleobjectframe)
 * Namespace [Aspose.Slides](../../oleobjectframe)

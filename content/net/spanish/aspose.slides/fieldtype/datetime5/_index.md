@@ -9,7 +9,7 @@ url: /es/aspose.slides/fieldtype/datetime5/
 
 ## Propiedad FieldType.DateTime5
 
-Fecha y hora actuales en un quinto formato predefinido (DD-Mon-YY para inglés). Campo de solo lectura [`FieldType`](../../fieldtype).
+Fecha y hora actuales en un quinto formato predefinido (DD-Mon-YY para inglés). Solo lectura [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime5 { get; }

@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Typ eines Platzhalters ab oder legt ihn fest. Nur-Lese PlaceholderTypeaspose.slides/placeholdertype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft den Typ eines Platzhalters ab oder legt ihn fest. Nur lesender PlaceholderTypeaspose.slides/placeholdertype.
 type: docs
 weight: 40
 url: /de/aspose.slides/placeholder/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/placeholder/type/
 
 ## Placeholder.Type-Eigenschaft
 
-Ruft den Typ eines Platzhalters ab oder legt ihn fest. Nur-Lese [`PlaceholderType`](../../placeholdertype).
+Ruft den Typ eines Platzhalters ab oder legt ihn fest. Nur lesend [`PlaceholderType`](../../placeholdertype).
 
 ```csharp
 public PlaceholderType Type { get; }

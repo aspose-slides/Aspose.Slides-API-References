@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Slides für .NET API Referenz
-description: Richtung der Übergänge. Lese/Schreibe TransitionInOutDirectionTypeaspose.slides/transitioninoutdirectiontype.
+description: Richtung der Übergänge. Lese-/ Schreibzugriff auf TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /de/aspose.slides.slideshow/iflythroughtransition/direction/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/iflythroughtransition/direction/
 
 ## IFlyThroughTransition.Direction-Eigenschaft
 
-Richtung des Übergangs. Lese/Schreibe [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
+Richtung der Übergänge. Lese-/ Schreibzugriff auf [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }

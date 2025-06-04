@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Вставить новую команду в путь
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/motionpath/insert/
 ---
 
-## Метод MotionPath.Insert
+## MotionPath.Insert метод
 
 Вставить новую команду в путь
 
@@ -24,7 +24,7 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 | ptsType | MotionPathPointsType |  |
 | bRelativeCoord | Boolean |  |
 
-### Смотрите также
+### См. также
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * enum [MotionPathPointsType](../../motionpathpointstype)

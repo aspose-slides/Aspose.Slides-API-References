@@ -1,6 +1,6 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Slidese for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表标题属性。
 type: docs
 weight: 1830
@@ -22,9 +22,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | 返回 IActualLayout 接口。 |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | 允许获取基础 ILayoutable 接口。只读 [`ILayoutable`](../ilayoutable)。 |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | 返回绘图区域的格式。只读 [`IFormat`](../iformat)。 |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 如果绘图区域的布局是手动定义的，则此属性指定是按内部（不包括坐标轴和坐标轴标签）还是按外部（包括坐标轴和坐标轴标签）进行绘图区域的布局。读/写 [`LayoutTargetType`](./layouttargettype)。 |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 如果绘图区域的布局是手动定义的，则此属性指定是按内部（不包括轴和轴标签）还是按外部（包括轴和轴标签）来布局绘图区域。读/写 [`LayoutTargetType`](./layouttargettype)。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IActualLayout](../iactuallayout)
 * 接口 [ILayoutable](../ilayoutable)

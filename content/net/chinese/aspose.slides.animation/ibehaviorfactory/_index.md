@@ -32,7 +32,7 @@ public interface IBehaviorFactory
 
 为了兼容 COM。
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

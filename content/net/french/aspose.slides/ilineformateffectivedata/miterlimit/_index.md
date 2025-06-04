@@ -1,15 +1,15 @@
 ---
 title: MiterLimit
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la limite de l'angle d'une ligne. Lecture seule Single.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne la limite de miter d'une ligne. Lecture seule Single.
 type: docs
 weight: 140
 url: /fr/aspose.slides/ilineformateffectivedata/miterlimit/
 ---
 
-## Propriété ILineFormatEffectiveData.MiterLimit
+## ILineFormatEffectiveData.MiterLimit propriété
 
-Retourne la limite de l'angle d'une ligne. Lecture seule Single.
+Retourne la limite de miter d'une ligne. Lecture seule Single.
 
 ```csharp
 public float MiterLimit { get; }

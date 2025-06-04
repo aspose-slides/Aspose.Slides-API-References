@@ -1,6 +1,6 @@
 ---
 title: InterruptionTokenSource
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea un nuevo InterruptionTokenSourceaspose.slides/interruptiontokensource.
 type: docs
 weight: 10
@@ -19,6 +19,6 @@ public InterruptionTokenSource()
 
 * clase [InterruptionTokenSource](../../interruptiontokensource)
 * espacio de nombres [Aspose.Slides](../../interruptiontokensource)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

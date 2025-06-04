@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf false festgelegt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Wert an, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf true gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf false gesetzt.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/svgoptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/svgoptions/disablefontligatures/
 
 ## SVGOptions.DisableFontLigatures-Eigenschaft
 
-Ruht einen Wert ab oder legt ihn fest, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` festgelegt.
+Gibt einen Wert an, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -23,7 +23,7 @@ Beispiel:
 [C#]
 using (Presentation pres = new Presentation("pres.pptx"))
 {
-    SVGOptions options = new SVGOptions
+    SVGOptions options = new SVFOptions
     {
         DisableFontLigatures = true // Ligaturen im Text-Rendering deaktivieren
     };

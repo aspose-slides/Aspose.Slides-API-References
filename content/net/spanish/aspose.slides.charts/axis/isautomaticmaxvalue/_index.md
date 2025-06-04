@@ -1,6 +1,6 @@
 ---
 title: IsAutomaticMaxValue
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Indica si el valor máximo se asigna automáticamente. Booleano de lectura/escritura.
 type: docs
 weight: 190
@@ -15,10 +15,10 @@ Indica si el valor máximo se asigna automáticamente. Booleano de lectura/escri
 public bool IsAutomaticMaxValue { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

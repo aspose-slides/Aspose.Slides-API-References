@@ -7,7 +7,7 @@ weight: 10
 url: /ru/aspose.slides/coloroperationcollection/count/
 ---
 
-## Свойство ColorOperationCollection.Count
+## ColorOperationCollection.Count свойство
 
 Возвращает количество операций в коллекции. Только для чтения Int32.
 

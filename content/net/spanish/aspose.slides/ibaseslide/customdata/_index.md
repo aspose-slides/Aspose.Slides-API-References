@@ -15,11 +15,11 @@ Devuelve los datos personalizados de la diapositiva. Solo lectura [`ICustomData`
 public ICustomData CustomData { get; }
 ```
 
-### Ver También
+### Véase También
 
-* interfaz [ICustomData](../../icustomdata)
-* interfaz [IBaseSlide](../../ibaseslide)
-* espacio de nombres [Aspose.Slides](../../ibaseslide)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ICustomData](../../icustomdata)
+* interfaz [IBaseSlide](../../ibaseslide)
+* espacio de nombres [Aspose.Slides](../../ibaseslide)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

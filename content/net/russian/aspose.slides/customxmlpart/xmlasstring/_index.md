@@ -1,21 +1,21 @@
 ---
 title: XmlAsString
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или устанавливает xml-данные в виде строки UTF-8. Чтение/запись String. значение равно null. значение пустое или xml-данные недействительны.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает xml-данные в виде строки UTF-8. Чтение/запись String. значение равно null. значение пустое или xml-данные недействительны.
 type: docs
 weight: 30
 url: /ru/aspose.slides/customxmlpart/xmlasstring/
 ---
 
-## Свойство CustomXmlPart.XmlAsString
+## CustomXmlPart.XmlAsString свойство
 
-Возвращает или устанавливает xml-данные в виде строки UTF-8. Чтение/запись String. значение равно `null`. значение пустое или xml-данные недействительны.
+Возвращает или задает xml-данные в виде строки UTF-8. Чтение/запись String. значение равно `null`. значение пустое или xml-данные недействительны.
 
 ```csharp
 public string XmlAsString { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [CustomXmlPart](../../customxmlpart)
 * пространство имен [Aspose.Slides](../../customxmlpart)

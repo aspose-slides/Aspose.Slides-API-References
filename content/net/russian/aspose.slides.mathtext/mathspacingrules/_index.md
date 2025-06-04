@@ -1,15 +1,15 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Slides для .NET API Reference
-description: Типы промежутков горизонтального расстояния между столбцами матрицы
+second_title: Aspose.Sildes для .NET API Reference
+description: Типы горизонтального интервала между столбцами матрицы
 type: docs
 weight: 8720
 url: /ru/aspose.slides.mathtext/mathspacingrules/
 ---
 
-## Перечисление MathSpacingRules
+## MathSpacingRules перечисление
 
-Типы промежутков (горизонтальное расстояние) между столбцами матрицы
+Типы интервала (горизонтального пространства) между столбцами матрицы
 
 ```csharp
 public enum MathSpacingRules
@@ -19,13 +19,13 @@ public enum MathSpacingRules
 
 | Название | Значение | Описание |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Одиночный (1 em для столбцов или 1 линия для строк) |
-| OneAndHalfSpacingGap | `1` | Полуторный (1.5 em для столбцов или 1.5 линии для строк) |
-| DoubleSpacingGap | `2` | Двойной интервал (2 em для столбцов или 2 линии для строк) |
-| Exactly | `3` | Точное значение Для столбцов полагайтесь на значение ColumnGap, измеренное в twips Для строк полагайтесь на значение RowGap, измеренное в twips |
-| Multiple | `4` | Множественный Для столбцов полагайтесь на значение ColumnGap, измеренное в increments 0.5 em Для строк полагайтесь на значение RowGap, измеренное в линиях |
+| SingleSpacingGap | `0` | Одиночный (1 em для столбцов или 1 строка для строк) |
+| OneAndHalfSpacingGap | `1` | Полтора (1.5 em для столбцов или 1.5 строки для строк) |
+| DoubleSpacingGap | `2` | Двойной интервал (2 em для столбцов или 2 строки для строк) |
+| Exactly | `3` | Точное значение Для столбцов полагаться на значение ColumnGap, измеренное в twips Для строк полагаться на значение RowGap, измеренное в twips |
+| Multiple | `4` | Множественный Для столбцов полагаться на значение ColumnGap, измеренное в increments по 0.5 em Для строк полагаться на значение RowGap, измеренное в строках |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

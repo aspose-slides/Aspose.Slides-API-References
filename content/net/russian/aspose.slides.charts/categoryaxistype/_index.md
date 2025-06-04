@@ -1,6 +1,6 @@
 ---
 title: CategoryAxisType
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет тип категории оси.
 type: docs
 weight: 1170
@@ -17,7 +17,7 @@ public enum CategoryAxisType
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | Text | `0` | Указывает, что ось категории является текстовой осью. |
 | Date | `1` | Указывает, что ось категории является осью даты. |

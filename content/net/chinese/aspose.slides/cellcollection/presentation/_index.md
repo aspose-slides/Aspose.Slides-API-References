@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 CellCollection 的父演示文稿。只读 IPresentation aspose.slides/ipresentation。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 CellCollection 的父演示文稿。只读 IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 40
 url: /zh/aspose.slides/cellcollection/presentation/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/cellcollection/presentation/
 public IPresentation Presentation { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IPresentation](../../ipresentation)
 * 类 [CellCollection](../../cellcollection)

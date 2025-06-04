@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt das Element am angegebenen Index.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/chartcategorycollection/removeat/
 ---
 
-## ChartCategoryCollection.RemoveAt-Methode
+## ChartCategoryCollection.RemoveAt Methode
 
 Entfernt das Element am angegebenen Index.
 
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index einer zu entfernenden Kategorie. |
+| index | Int32 | Index einer Kategorie, die entfernt werden soll. |
 
 ### Siehe auch
 

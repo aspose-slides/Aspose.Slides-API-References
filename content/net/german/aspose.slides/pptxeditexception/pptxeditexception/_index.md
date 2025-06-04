@@ -1,6 +1,6 @@
 ---
 title: PptxEditException
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
@@ -54,7 +54,7 @@ public PptxEditException(string message, Exception exception)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | message | String | Nachricht |
-| exception | Exception | Ursprüngliche Ausnahme |
+| exception | Exception | ursprüngliche Ausnahme |
 
 ### Siehe auch
 

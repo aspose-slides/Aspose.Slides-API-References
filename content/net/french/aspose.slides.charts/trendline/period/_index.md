@@ -1,7 +1,7 @@
 ---
 title: Period
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la période de la ligne de tendance pour une ligne de tendance à moyenne mobile. Elle est ignorée pour d'autres variantes de lignes de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Spécifie la période de la ligne de tendance pour une ligne de tendance de moyenne mobile. Elle est ignorée pour d'autres variantes de lignes de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/trendline/period/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/trendline/period/
 
 ## Propriété Trendline.Period
 
-Spécifie la période de la ligne de tendance pour une ligne de tendance à moyenne mobile. Elle est ignorée pour d'autres variantes de lignes de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte.
+Spécifie la période de la ligne de tendance pour une ligne de tendance de moyenne mobile. Elle est ignorée pour d'autres variantes de lignes de tendance. La valeur doit être comprise entre 2 et 255. Lecture/écriture Byte.
 
 ```csharp
 public byte Period { get; set; }

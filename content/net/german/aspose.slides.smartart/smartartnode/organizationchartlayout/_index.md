@@ -1,7 +1,7 @@
 ---
 title: OrganizationChartLayout
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Typ des Organigramm-Layouts zurück oder legt ihn fest, der mit dem aktuellen Knoten verbunden ist. Lesen/Schreiben OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
+description: Gibt den Organisationdiagramm-Layouttyp zurück oder legt ihn fest, der mit dem aktuellen Knoten verknüpft ist. Lese-/Schreibzugriff auf OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs
 weight: 60
 url: /de/aspose.slides.smartart/smartartnode/organizationchartlayout/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartartnode/organizationchartlayout/
 
 ## SmartArtNode.OrganizationChartLayout-Eigenschaft
 
-Gibt den Typ des Organigramm-Layouts zurück oder legt ihn fest, der mit dem aktuellen Knoten verbunden ist. Lesen/Schreiben [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
+Gibt den Organisationdiagramm-Layouttyp zurück oder legt ihn fest, der mit dem aktuellen Knoten verknüpft ist. Lese-/Schreibzugriff auf [`OrganizationChartLayoutType`](../../organizationchartlayouttype).
 
 ```csharp
 public OrganizationChartLayoutType OrganizationChartLayout { get; set; }
 ```
 
-### Siehe auch
+### Weitere Informationen
 
 * enum [OrganizationChartLayoutType](../../organizationchartlayouttype)
 * class [SmartArtNode](../../smartartnode)

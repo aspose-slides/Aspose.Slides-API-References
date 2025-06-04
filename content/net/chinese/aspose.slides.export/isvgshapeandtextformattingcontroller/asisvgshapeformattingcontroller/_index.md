@@ -1,6 +1,6 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 返回 ISvgShapeFormattingController 接口。
 type: docs
 weight: 10

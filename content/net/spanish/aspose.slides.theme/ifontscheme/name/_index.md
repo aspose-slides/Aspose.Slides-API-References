@@ -19,6 +19,6 @@ public string Name { get; set; }
 
 * interfaz [IFontScheme](../../ifontscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../ifontscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

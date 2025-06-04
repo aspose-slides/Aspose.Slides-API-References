@@ -7,7 +7,7 @@ weight: 60
 url: /ru/aspose.slides/ipicturefillformateffectivedata/dpi/
 ---
 
-## Свойство IPictureFillFormatEffectiveData.Dpi
+## IPictureFillFormatEffectiveData.Dpi свойство
 
 Возвращает dpi, который используется для заполнения изображения. Только для чтения Int32.
 

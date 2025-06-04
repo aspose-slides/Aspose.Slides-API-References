@@ -1,7 +1,7 @@
 ---
 title: ShowBackground
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält oder setzt den Wert, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese-/schreibbare Boolesche Werte. Standardwert true
+description: Legt den Wert fest, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese-/Schreibbare Boolean. Standardwert true
 type: docs
 weight: 30
 url: /de/aspose.slides/zoomobject/showbackground/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/zoomobject/showbackground/
 
 ## ZoomObject.ShowBackground-Eigenschaft
 
-Erhält oder setzt den Wert, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese-/schreibbare Boolesche Werte. Standardwert: true
+Legt den Wert fest, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese-/Schreibbare Boolean. Standardwert: true
 
 ```csharp
 public bool ShowBackground { get; set; }
@@ -17,7 +17,7 @@ public bool ShowBackground { get; set; }
 
 ### Beispiele
 
-Das Beispiel zeigt das Entfernen des Hintergrunds eines Bildes eines Zoom-Objekts:
+Das Beispiel zeigt, wie der Hintergrund eines Bildes eines Zoom-Objekts entfernt wird:
 
 ```csharp
 [C#]

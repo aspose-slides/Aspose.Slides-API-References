@@ -1,7 +1,7 @@
 ---
 title: DownBarsFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Format der Abwärtsbalken zurück. Schreibgeschütztes IFormataspose.slides.charts/iformat.
+description: Gibt das Format der Abwärtsbalken zurück. Nur lesbar IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/iupdownbarsmanager/downbarsformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iupdownbarsmanager/downbarsformat/
 
 ## IUpDownBarsManager.DownBarsFormat-Eigenschaft
 
-Gibt das Format der Abwärtsbalken zurück. Schreibgeschütztes [`IFormat`](../../iformat).
+Gibt das Format der Abwärtsbalken zurück. Nur lesbar [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat DownBarsFormat { get; }

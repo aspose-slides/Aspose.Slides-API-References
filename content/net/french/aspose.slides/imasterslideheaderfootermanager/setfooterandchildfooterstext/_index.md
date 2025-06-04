@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Référence API Aspose.Slides pour .NET
-description: Définit le texte pour l'élément de pied de page de la diapositive principale et tous les éléments de pied de page enfants. Les éléments enfants signifient que les éléments sont contenus dans des diapositives de disposition dépendantes et des diapositives dépendantes. Les diapositives de disposition dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+description: Définit le texte du texte de pied de page de la diapositive maîtresse et de tous les emplacements de pied de page enfants. Les emplacements enfants signifient que les emplacements sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
 type: docs
 weight: 40
 url: /fr/aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterst
 
 ## IMasterSlideHeaderFooterManager.SetFooterAndChildFootersText méthode
 
-Définit le texte pour l'élément de pied de page de la diapositive principale et tous les éléments de pied de page enfants. Les éléments enfants signifient que les éléments sont contenus dans des diapositives de disposition dépendantes et des diapositives dépendantes. Les diapositives de disposition dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+Définit le texte du texte de pied de page de la diapositive maîtresse et de tous les emplacements de pied de page enfants. Les emplacements enfants signifient que les emplacements sont contenus dans des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives de mise en page dépendantes et les diapositives utilisent et dépendent de la diapositive maîtresse.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)

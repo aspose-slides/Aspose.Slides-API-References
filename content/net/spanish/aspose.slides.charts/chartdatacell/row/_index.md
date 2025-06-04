@@ -19,6 +19,6 @@ public int Row { get; }
 
 * clase [ChartDataCell](../../chartdatacell)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatacell)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

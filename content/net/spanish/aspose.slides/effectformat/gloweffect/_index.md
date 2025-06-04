@@ -20,6 +20,6 @@ public IGlow GlowEffect { get; set; }
 * interfaz [IGlow](../../../aspose.slides.effects/iglow)
 * clase [EffectFormat](../../effectformat)
 * espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,21 +1,21 @@
 ---
 title: ValueType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет возможные способы определения длины линий ошибок. В случае пользовательского типа значения для указания значения используйте свойство ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues конкретной точки данных в коллекции DataPoints серии. Чтение/запись ErrorBarValueTypeaspose.slides/errorbarvaluetype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет возможные способы определения длины погрешностей. В случае пользовательского типа значения для указания значения используйте свойство ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues конкретной точки данных в коллекции DataPoints серии. Чтение/запись ErrorBarValueTypeaspose.slides/errorbarvaluetype.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/ierrorbarsformat/valuetype/
 ---
 
-## Свойство IErrorBarsFormat.ValueType
+## IErrorBarsFormat.ValueType property
 
-Представляет возможные способы определения длины линий ошибок. В случае пользовательского типа значения для указания значения используйте свойство [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) конкретной точки данных в коллекции DataPoints серии. Чтение/запись [`ErrorBarValueType`](../../errorbarvaluetype).
+Представляет возможные способы определения длины погрешностей. В случае пользовательского типа значения для указания значения используйте свойство [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) конкретной точки данных в коллекции DataPoints серии. Чтение/запись [`ErrorBarValueType`](../../errorbarvaluetype).
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }
 ```
 
-### См. Также
+### See Also
 
 * enum [ErrorBarValueType](../../errorbarvaluetype)
 * interface [IErrorBarsFormat](../../ierrorbarsformat)

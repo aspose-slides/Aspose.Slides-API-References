@@ -17,7 +17,7 @@ public void SetCustomPropertyValue(string name, bool value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| name | String | Name der benutzerdefinierten Eigenschaft, die gesetzt werden soll |
 | value | Boolean | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
@@ -38,7 +38,7 @@ public void SetCustomPropertyValue(string name, int value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| name | String | Name der benutzerdefinierten Eigenschaft, die gesetzt werden soll |
 | value | Int32 | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
@@ -59,7 +59,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| name | String | Name der benutzerdefinierten Eigenschaft, die gesetzt werden soll |
 | value | DateTime | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
@@ -80,7 +80,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| name | String | Name der benutzerdefinierten Eigenschaft, die gesetzt werden soll |
 | value | String | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
@@ -101,7 +101,7 @@ public void SetCustomPropertyValue(string name, float value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| name | String | Name der benutzerdefinierten Eigenschaft, die gesetzt werden soll |
 | value | Single | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch
@@ -122,7 +122,7 @@ public void SetCustomPropertyValue(string name, double value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der zu setzenden benutzerdefinierten Eigenschaft |
+| name | String | Name der benutzerdefinierten Eigenschaft, die gesetzt werden soll |
 | value | Double | Wert der benutzerdefinierten Eigenschaft |
 
 ### Siehe auch

@@ -1,7 +1,7 @@
 ---
 title: RestoredLeft
-second_title: Aspose.Slides für .NET API-Referenz
-description: Dieses Element gibt die Größe des Seiteninhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe weder minimiert noch maximiert hat. Lesen Sie nur INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
+second_title: Aspose.Slides für .NET API Referenz
+description: Dieses Element gibt die Größe des Seiteninhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat weder minimiert noch maximiert. Lesen Sie nur INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 30
 url: /de/aspose.slides/normalviewproperties/restoredleft/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/normalviewproperties/restoredleft/
 
 ## NormalViewProperties.RestoredLeft-Eigenschaft
 
-Dieses Element gibt die Größe des Seiteninhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe (weder minimiert noch maximiert) hat. Lesen Sie nur [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
+Dieses Element gibt die Größe des Seiteninhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Lesen Sie nur [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
 ```csharp
 public INormalViewRestoredProperties RestoredLeft { get; }

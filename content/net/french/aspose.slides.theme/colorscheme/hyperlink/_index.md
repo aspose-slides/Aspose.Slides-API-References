@@ -1,7 +1,7 @@
 ---
 title: Hyperlink
-second_title: Référence API Aspose.Slides pour .NET
-description: Couleur pour les hyperliens. Lecture seule IColorFormataspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Couleur des liens hypertextes. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 100
 url: /fr/aspose.slides.theme/colorscheme/hyperlink/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.theme/colorscheme/hyperlink/
 
 ## Propriété ColorScheme.Hyperlink
 
-Couleur pour les hyperliens. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
+Couleur des liens hypertextes. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Hyperlink { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
 * class [ColorScheme](../../colorscheme)

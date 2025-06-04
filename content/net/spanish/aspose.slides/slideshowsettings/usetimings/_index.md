@@ -7,7 +7,7 @@ weight: 80
 url: /es/aspose.slides/slideshowsettings/usetimings/
 ---
 
-## Propiedad SlideShowSettings.UseTimings
+## SlideShowSettings.UseTimings property
 
 Usar Tiempos en la Presentación de Diapositivas
 
@@ -17,8 +17,8 @@ public bool UseTimings { get; set; }
 
 ### Ver También
 
-* clase [SlideShowSettings](../../slideshowsettings)
-* espacio de nombres [Aspose.Slides](../../slideshowsettings)
-* ensamblaje [Aspose.Slides](../../../)
+* class [SlideShowSettings](../../slideshowsettings)
+* namespace [Aspose.Slides](../../slideshowsettings)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: AlignShapes
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Cambia la colocación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Cambia la colocación de todas las formas en la diapositiva. Alinea las formas a los márgenes o al borde de la diapositiva o alíneelas entre sí.
 type: docs
 weight: 10
 url: /es/aspose.slides.util/slideutil/alignshapes/
@@ -9,18 +9,18 @@ url: /es/aspose.slides.util/slideutil/alignshapes/
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
-Cambia la colocación de todas las formas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de todas las formas en la diapositiva. Alinea las formas a los márgenes o al borde de la diapositiva o alínealas entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IBaseSlide slide)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
-| alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
-| slide | IBaseSlide | Diapositiva principal. |
+| alignToSlide | Boolean | Si es verdadero, las formas se alinearán respecto a los bordes de la diapositiva. |
+| slide | IBaseSlide | Diapositiva padre. |
 
 ### Ejemplos
 
@@ -46,19 +46,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-Cambia la colocación de las formas seleccionadas en la diapositiva. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de formas seleccionadas en la diapositiva. Alinea las formas a los márgenes o al borde de la diapositiva o alínealas entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IBaseSlide slide, int[] shapeIndexes)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
-| alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
-| slide | IBaseSlide | Diapositiva principal. |
-| shapeIndexes | Int32[] | Índices de las formas que se alinearán. |
+| alignToSlide | Boolean | Si es verdadero, las formas se alinearán respecto a los bordes de la diapositiva. |
+| slide | IBaseSlide | Diapositiva padre. |
+| shapeIndexes | Int32[] | Índices de las formas a alinear. |
 
 ### Ejemplos
 
@@ -92,18 +92,18 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
-Cambia la colocación de todas las formas dentro de la forma de grupo. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de todas las formas dentro de un grupo de formas. Alinea las formas a los márgenes o al borde de la diapositiva o alínealas entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IGroupShape groupShape)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
-| alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
-| groupShape | IGroupShape | Forma de grupo principal. |
+| alignToSlide | Boolean | Si es verdadero, las formas se alinearán respecto a los bordes de la diapositiva. |
+| groupShape | IGroupShape | Grupo de formas padre. |
 
 ### Ejemplos
 
@@ -129,19 +129,19 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
-Cambia la colocación de las formas seleccionadas dentro de la forma de grupo. Alinea las formas con los márgenes o el borde de la diapositiva o las alinea entre sí.
+Cambia la colocación de formas seleccionadas dentro de un grupo de formas. Alinea las formas a los márgenes o al borde de la diapositiva o alínealas entre sí.
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
     IGroupShape groupShape, int[] shapeIndexes)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | alignmentType | ShapesAlignmentType | Determina qué tipo de alineación se aplicará. |
-| alignToSlide | Boolean | Si es verdadero, las formas se alinearán en relación con los bordes de la diapositiva. |
-| groupShape | IGroupShape | Forma de grupo principal. |
-| shapeIndexes | Int32[] | Índices de las formas que se alinearán. |
+| alignToSlide | Boolean | Si es verdadero, las formas se alinearán respecto a los bordes de la diapositiva. |
+| groupShape | IGroupShape | Grupo de formas padre. |
+| shapeIndexes | Int32[] | Índices de las formas a alinear. |
 
 ### Ejemplos
 

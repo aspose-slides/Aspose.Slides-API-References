@@ -1,7 +1,7 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Slides for .NET API Referenz
-description: Wenn das Layout des Plotbereichs manuell definiert ist, gibt dieses Property an, ob der Plotbereich innen ohne Achsen und Achsenbeschriftungen oder außen einschließlich Achsen und Achsenbeschriftungen angeordnet werden soll. Lese-/Schreibzugriff auf LayoutTargetType.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Wenn das Layout des Diagrammbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Diagrammbereich von innen ohne Achsen und Achsenbeschriftungen oder von außen einschließlich Achsen und Achsenbeschriftungen angeordnet werden soll. Lese-/Schreibzugriff auf LayoutTargetType.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/chartplotarea/layouttargettype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartplotarea/layouttargettype/
 
 ## ChartPlotArea.LayoutTargetType-Eigenschaft
 
-Wenn das Layout des Plotbereichs manuell definiert ist, gibt dieses Property an, ob der Plotbereich innen (ohne Achsen und Achsenbeschriftungen) oder außen (einschließlich Achsen und Achsenbeschriftungen) angeordnet werden soll. Lese-/Schreibzugriff auf `LayoutTargetType`.
+Wenn das Layout des Diagrammbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Diagrammbereich von innen (ohne Achsen und Achsenbeschriftungen) oder von außen (einschließlich Achsen und Achsenbeschriftungen) angeordnet werden soll. Lese-/Schreibzugriff auf `LayoutTargetType`.
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }

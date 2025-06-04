@@ -1,21 +1,21 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает градиентный стоп по индексу.
+description: Возвращает градиентную остановку по индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igradientstopcollectioneffectivedata/item/
 ---
 
-## Индексатор IGradientStopCollectionEffectiveData
+## IGradientStopCollectionEffectiveData индексатор
 
-Возвращает градиентный стоп по индексу.
+Возвращает градиентную остановку по индексу.
 
 ```csharp
 public IGradientStopEffectiveData this[int index] { get; }
 ```
 
-### Также смотрите
+### См. Также
 
 * интерфейс [IGradientStopEffectiveData](../../igradientstopeffectivedata)
 * интерфейс [IGradientStopCollectionEffectiveData](../../igradientstopcollectioneffectivedata)

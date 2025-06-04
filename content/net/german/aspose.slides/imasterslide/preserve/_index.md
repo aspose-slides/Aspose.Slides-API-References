@@ -1,7 +1,7 @@
 ---
 title: Preserve
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis Aspose.Slides wird niemals einen ungenutzten Master von sich aus entfernen. Um ungenutzte Master tatsächlich zu entfernen, rufen Sie RemoveUnusedaspose.slides/imasterslidecollection/removeunused auf. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis Aspose.Slides wird niemals einen ungenutzten Master von sich aus entfernen; um ungenutzte Master tatsächlich zu entfernen, rufen Sie RemoveUnusedaspose.slides/imasterslidecollection/removeunused auf. Lese-/Schreib-Boolean.
 type: docs
 weight: 80
 url: /de/aspose.slides/imasterslide/preserve/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/imasterslide/preserve/
 
 ## IMasterSlide.Preserve-Eigenschaft
 
-Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis: Aspose.Slides wird niemals einen ungenutzten Master von sich aus entfernen, um ungenutzte Master tatsächlich zu entfernen, rufen Sie [`RemoveUnused`](../../imasterslidecollection/removeunused) auf. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis: Aspose.Slides wird niemals einen ungenutzten Master von sich aus entfernen; um ungenutzte Master tatsächlich zu entfernen, rufen Sie [`RemoveUnused`](../../imasterslidecollection/removeunused) auf. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool Preserve { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMasterSlide](../../imasterslide)
 * Namespace [Aspose.Slides](../../imasterslide)

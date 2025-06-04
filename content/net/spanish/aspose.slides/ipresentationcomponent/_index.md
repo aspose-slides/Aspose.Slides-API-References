@@ -21,9 +21,9 @@ public interface IPresentationComponent
 | --- | --- |
 | [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Devuelve la presentación. Solo lectura [`IPresentation`](../ipresentation). |
 
-### Vea también
+### Véase también
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

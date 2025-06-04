@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDrawingGuidesCollection](../../idrawingguidescollection)
 * namespace [Aspose.Slides](../../idrawingguidescollection)

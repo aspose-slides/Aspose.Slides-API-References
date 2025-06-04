@@ -1,7 +1,7 @@
 ---
 title: StrikethroughVertical
-second_title: Aspose.Slides for .NET API 参考
-description: Strikethrough Vertical 默认是 false - 指定斜线垂直线的隐藏或显示状态。
+second_title: Aspose.Sildes for .NET API Reference
+description: Strikethrough Vertical 默认值为 false - 指定了穿越垂直线的隐藏或显示状态。
 type: docs
 weight: 100
 url: /zh/aspose.slides.mathtext/mathborderbox/strikethroughvertical/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathborderbox/strikethroughvertical/
 
 ## MathBorderBox.StrikethroughVertical 属性
 
-Strikethrough Vertical（默认是 false） - 指定斜线垂直线的隐藏或显示状态。
+Strikethrough Vertical (默认值为 false) - 指定了穿越垂直线的隐藏或显示状态。
 
 ```csharp
 public bool StrikethroughVertical { get; set; }
@@ -17,7 +17,7 @@ public bool StrikethroughVertical { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

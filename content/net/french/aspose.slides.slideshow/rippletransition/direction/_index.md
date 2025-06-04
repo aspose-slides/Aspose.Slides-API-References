@@ -1,21 +1,21 @@
 ---
 title: Direction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la transition. Lecture/écriture TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype.
+second_title: Aspose.Slides pour .NET API Reference
+description: Direction de la transition. Lecture/Écriture TransitionCornerAndCenterDirectionTypeaspose.slides/transitioncornerandcenterdirectiontype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.slideshow/rippletransition/direction/
 ---
 
-## Propriété RippleTransition.Direction
+## RippleTransition.Direction property
 
-Direction de la transition. Lecture/écriture [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).
+Direction de la transition. Lecture/Écriture [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).
 
 ```csharp
 public TransitionCornerAndCenterDirectionType Direction { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [TransitionCornerAndCenterDirectionType](../../transitioncornerandcenterdirectiontype)
 * class [RippleTransition](../../rippletransition)

@@ -15,11 +15,11 @@ Devuelve la colección de fuentes para una parte "cuerpo" de la diapositiva. Sol
 public IFontsEffectiveData Minor { get; }
 ```
 
-### Vea También
+### También Vea
 
 * interfaz [IFontsEffectiveData](../../../aspose.slides/ifontseffectivedata)
 * interfaz [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
 * espacio de nombres [Aspose.Slides.Theme](../../ifontschemeeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

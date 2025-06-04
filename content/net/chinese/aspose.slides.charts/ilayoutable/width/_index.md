@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Aspose.Slides for .NET API 参考
-description: 作为图表宽度的一部分，指定图表元素的宽度。可读写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定图表元素的宽度作为图表宽度的一个比例。可读/可写单精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/ilayoutable/width/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ilayoutable/width/
 
 ## ILayoutable.Width 属性
 
-作为图表宽度的一部分，指定图表元素的宽度。可读写 Single。
+指定图表元素的宽度作为图表宽度的一个比例。可读/可写单精度浮点数。
 
 ```csharp
 public float Width { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ILayoutable](../../ilayoutable)
 * 命名空间 [Aspose.Slides.Charts](../../ilayoutable)

@@ -19,22 +19,22 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Nombre | Descripción |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Crea una nueva instancia de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Crea una nueva instancia de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Crea una nueva instancia del [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Crea una nueva instancia del [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Obtiene o establece el tiempo de retraso por defecto [ms]. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Obtiene el número de las diapositivas exportadas. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Obtiene o establece el tiempo de retraso predeterminado [ms]. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Obtiene el número de la cantidad de diapositivas exportadas. |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Obtiene o establece si se deben incluir las diapositivas ocultas. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Libera la instancia de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Libera la instancia del [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Ejecuta la generación de eventos de animación para cada diapositiva. |
 | [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Ejecuta la generación de eventos de animación para cada diapositiva. |
 

@@ -1,6 +1,6 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示效果的触发类型。
 type: docs
 weight: 270
@@ -23,7 +23,7 @@ public enum EffectTriggerType
 | OnClick | `1` |  |
 | WithPrevious | `2` |  |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

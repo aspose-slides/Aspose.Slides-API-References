@@ -1,7 +1,7 @@
 ---
 title: FillAngle
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die fill.angle Eigenschaft dar
+description: Stellt die Eigenschaft fill.angle dar
 type: docs
 weight: 270
 url: /de/aspose.slides.animation/behaviorproperty/fillangle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/fillangle/
 
 ## BehaviorProperty.FillAngle-Eigenschaft
 
-Stellt die 'fill.angle' Eigenschaft dar
+Stellt die Eigenschaft 'fill.angle' dar
 
 ```csharp
 public static BehaviorProperty FillAngle { get; }

@@ -1,7 +1,7 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt die Form des Markers auf den Datenpunkten von Diagrammen.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt die Form des Markers auf den Datenpunkten des Diagramms.
 type: docs
 weight: 2260
 url: /de/aspose.slides.charts/markerstyletype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/markerstyletype/
 
 ## MarkerStyleType Aufzählung
 
-Bestimmt die Form des Markers auf den Datenpunkten eines Diagramms.
+Bestimmt die Form des Markers auf den Datenpunkten des Diagramms.
 
 ```csharp
 public enum MarkerStyleType
@@ -20,19 +20,19 @@ public enum MarkerStyleType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Gibt an, dass ein Kreis an jedem Datenpunkt gezeichnet wird. |
-| Dash | `1` | Gibt an, dass ein Strich an jedem Datenpunkt gezeichnet wird. |
-| Diamond | `2` | Gibt an, dass ein Diamant an jedem Datenpunkt gezeichnet wird. |
-| Dot | `3` | Gibt an, dass ein Punkt an jedem Datenpunkt gezeichnet wird. |
-| None | `4` | Gibt an, dass an jedem Datenpunkt nichts gezeichnet wird. |
-| Picture | `5` | Gibt an, dass ein Bild an jedem Datenpunkt gezeichnet wird. |
-| Plus | `6` | Gibt an, dass ein Pluszeichen an jedem Datenpunkt gezeichnet wird. |
-| Square | `7` | Gibt an, dass ein Quadrat an jedem Datenpunkt gezeichnet wird. |
-| Star | `8` | Gibt an, dass ein Stern an jedem Datenpunkt gezeichnet wird. |
-| Triangle | `9` | Gibt an, dass ein Dreieck an jedem Datenpunkt gezeichnet wird. |
-| X | `10` | Gibt an, dass ein X an jedem Datenpunkt gezeichnet wird. |
+| Circle | `0` | Gibt an, dass ein Kreis an jedem Datenpunkt gezeichnet werden soll. |
+| Dash | `1` | Gibt an, dass ein Strich an jedem Datenpunkt gezeichnet werden soll. |
+| Diamond | `2` | Gibt an, dass ein Raute an jedem Datenpunkt gezeichnet werden soll. |
+| Dot | `3` | Gibt an, dass ein Punkt an jedem Datenpunkt gezeichnet werden soll. |
+| None | `4` | Gibt an, dass nichts an jedem Datenpunkt gezeichnet werden soll. |
+| Picture | `5` | Gibt an, dass ein Bild an jedem Datenpunkt gezeichnet werden soll. |
+| Plus | `6` | Gibt an, dass ein Pluszeichen an jedem Datenpunkt gezeichnet werden soll. |
+| Square | `7` | Gibt an, dass ein Quadrat an jedem Datenpunkt gezeichnet werden soll. |
+| Star | `8` | Gibt an, dass ein Stern an jedem Datenpunkt gezeichnet werden soll. |
+| Triangle | `9` | Gibt an, dass ein Dreieck an jedem Datenpunkt gezeichnet werden soll. |
+| X | `10` | Gibt an, dass ein X an jedem Datenpunkt gezeichnet werden soll. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

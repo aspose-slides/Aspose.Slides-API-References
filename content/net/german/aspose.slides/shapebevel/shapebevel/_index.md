@@ -1,6 +1,6 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine neue Instanz.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapebevel/shapebevel/
 
 ## ShapeBevel Konstruktor
 
-Erstellt eine neue Instanz.
+Erschafft eine neue Instanz.
 
 ```csharp
 public ShapeBevel(bool bIsTopBevel)
@@ -17,9 +17,9 @@ public ShapeBevel(bool bIsTopBevel)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| bIsTopBevel | Boolean | Ist Oberflächenphase. |
+| bIsTopBevel | Boolean | Ist obere Fase. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ShapeBevel](../../shapebevel)
 * Namespace [Aspose.Slides](../../shapebevel)

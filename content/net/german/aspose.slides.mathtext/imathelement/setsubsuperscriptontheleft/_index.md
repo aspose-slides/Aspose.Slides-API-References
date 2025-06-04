@@ -1,15 +1,15 @@
 ---
 title: SetSubSuperscriptOnTheLeft
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt Subskripte und Supraskripte links
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Erstellt Subskripte und Superskripte auf der linken Seite
 type: docs
 weight: 150
 url: /de/aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft/
 ---
 
-## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
+## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
-Erschafft Subskripte und Supraskripte links
+Erstellt Subskripte und Superskripte auf der linken Seite
 
 ```csharp
 public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement subscript, 
@@ -18,12 +18,12 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| subscript | IMathElement | Subskript (unterer Index links) |
-| superscript | IMathElement | Supraskript (oberer Index links) |
+| subscript | IMathElement | Subscript (unterer Index auf der linken Seite) |
+| superscript | IMathElement | Superscript (oberer Index auf der linken Seite) |
 
 ### Rückgabewert
 
-Neues Mathematikelement vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
+Neues Mathe-Element vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### Beispiele
 
@@ -46,9 +46,9 @@ IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscrip
 
 ---
 
-## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
+## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
 
-Erschafft Subskripte und Supraskripte links
+Erstellt Subskripte und Superskripte auf der linken Seite
 
 ```csharp
 public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscript, 
@@ -57,12 +57,12 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| subscript | String | Subskript (unterer Index links) |
-| superscript | String | Supraskript (oberer Index links) |
+| subscript | String | Subscript (unterer Index auf der linken Seite) |
+| superscript | String | Superscript (oberer Index auf der linken Seite) |
 
 ### Rückgabewert
 
-Neues Mathematikelement vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
+Neues Mathe-Element vom Typ [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### Beispiele
 

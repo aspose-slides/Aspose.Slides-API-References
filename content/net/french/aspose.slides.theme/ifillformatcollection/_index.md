@@ -19,7 +19,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Nom | Description |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Obtient l'élément à l'index spécifié. En lecture seule [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Voir aussi
 

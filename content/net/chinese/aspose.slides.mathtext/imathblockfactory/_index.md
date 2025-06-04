@@ -1,13 +1,13 @@
 ---
 title: IMathBlockFactory
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建数学块
 type: docs
 weight: 7910
 url: /zh/aspose.slides.mathtext/imathblockfactory/
 ---
 
-## IMathBlockFactory 接口
+## IMathBlockFactory接口
 
 允许创建数学块
 
@@ -20,12 +20,12 @@ public interface IMathBlockFactory
 | 名称 | 描述 |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | 创建一个数学块 |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 创建一个数学块并将元素放入其中 |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 创建一个数学块并将元素放入其中 |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 创建一个数学块并在其中放置元素 |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 创建一个数学块并在其中放置元素 |
 
 ### 备注
 
-用于 COM 兼容性
+为了与COM兼容
 
 ### 另请参阅
 

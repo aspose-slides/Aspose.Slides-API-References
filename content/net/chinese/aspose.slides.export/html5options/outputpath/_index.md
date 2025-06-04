@@ -1,15 +1,15 @@
 ---
 title: OutputPath
-second_title: Aspose.Slides for .NET API 参考
-description: 确定外部资源应存储的位置。读/写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定外部资源应该存储的位置。可读/可写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides.export/html5options/outputpath/
 ---
 
-## Html5Options.OutputPath 属性
+## Html5Options.OutputPath property
 
-确定外部资源应存储的位置。读/写字符串。
+确定外部资源应该存储的位置。可读/可写字符串。
 
 ```csharp
 public string OutputPath { get; set; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 相关内容
+### 另请参阅
 
 * class [Html5Options](../../html5options)
 * namespace [Aspose.Slides.Export](../../html5options)

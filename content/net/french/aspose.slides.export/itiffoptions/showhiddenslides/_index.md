@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si le document généré doit inclure des diapositives masquées ou non. Par défaut, c'est false.
+description: Spécifie si le document généré doit inclure des diapositives cachées ou non. La valeur par défaut est false.
 type: docs
 weight: 90
 url: /fr/aspose.slides.export/itiffoptions/showhiddenslides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/itiffoptions/showhiddenslides/
 
 ## Propriété ITiffOptions.ShowHiddenSlides
 
-Spécifie si le document généré doit inclure des diapositives masquées ou non. Par défaut, c'est `false`.
+Spécifie si le document généré doit inclure des diapositives cachées ou non. La valeur par défaut est `false`.
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

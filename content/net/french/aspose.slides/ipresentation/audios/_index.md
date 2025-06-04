@@ -1,7 +1,7 @@
 ---
 title: Audios
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la collection de tous les fichiers audio intégrés dans la présentation. Lecture seule IAudioCollection aspose.slides/iaudiocollection.
+description: Renvoie la collection de tous les fichiers audio intégrés dans la présentation. Lecture seule IAudioCollectionaspose.slides/iaudiocollection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ipresentation/audios/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/audios/
 
 ## Propriété IPresentation.Audios
 
-Retourne la collection de tous les fichiers audio intégrés dans la présentation. Lecture seule [`IAudioCollection`](../../iaudiocollection).
+Renvoie la collection de tous les fichiers audio intégrés dans la présentation. Lecture seule [`IAudioCollection`](../../iaudiocollection).
 
 ```csharp
 public IAudioCollection Audios { get; }

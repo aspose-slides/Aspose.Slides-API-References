@@ -15,7 +15,7 @@ Devuelve la interfaz IChartComponent. Solo lectura [`IChartComponent`](../../ich
 public IChartComponent AsIChartComponent { get; }
 ```
 
-### Comentarios
+### Observaciones
 
 Para compatibilidad con COM.
 

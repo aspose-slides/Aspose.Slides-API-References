@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el elemento en el índice especificado. Solo lectura IFillFormat aspose.slides/ifillformat.
+second_title: Aspose.Slides para .NET API Reference
+description: Obtiene el elemento en el índice especificado. Solo lectura IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/ifillformatcollection/item/
 ---
 
-## Índice de IFillFormatCollection
+## IFillFormatCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IFillFormat`](../../../aspose.slides/ifillformat).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`IFillFormat`](../
 public IFillFormat this[int index] { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IFillFormat](../../../aspose.slides/ifillformat)
 * interfaz [IFillFormatCollection](../../ifillformatcollection)

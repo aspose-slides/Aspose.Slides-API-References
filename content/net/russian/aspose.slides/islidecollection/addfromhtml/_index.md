@@ -1,6 +1,6 @@
 ---
 title: AddFromHtml
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает слайды из HTML текста и добавляет их в конец коллекции.
 type: docs
 weight: 40
@@ -18,14 +18,14 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | htmlText | String | HTML для добавления. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, который используется для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -51,7 +51,7 @@ public ISlide[] AddFromHtml(string htmlText)
 
 Добавленные слайды
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [ISlideCollection](../../islidecollection)
@@ -70,15 +70,15 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, который используется для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться как источник HTML файла. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -98,13 +98,13 @@ public ISlide[] AddFromHtml(TextReader htmlReader)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника HTML файла. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться как источник HTML файла. |
 
 ### Возвращаемое значение
 
 Добавленные слайды
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [ISlideCollection](../../islidecollection)
@@ -123,15 +123,15 @@ public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolve
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
-| resolver | IExternalResourceResolver | Объект обратного вызова, который используется для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
+| htmlStream | Stream | Объект Stream, который будет использоваться как источник HTML файла. |
+| resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен null, все внешние объекты будут проигнорированы. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
 ### Возвращаемое значение
 
 Добавленные слайды.
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
@@ -151,13 +151,13 @@ public ISlide[] AddFromHtml(Stream htmlStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника HTML файла. |
+| htmlStream | Stream | Объект Stream, который будет использоваться как источник HTML файла. |
 
 ### Возвращаемое значение
 
 Добавленные слайды
 
-### Смотрите также
+### См. также
 
 * интерфейс [ISlide](../../islide)
 * интерфейс [ISlideCollection](../../islidecollection)

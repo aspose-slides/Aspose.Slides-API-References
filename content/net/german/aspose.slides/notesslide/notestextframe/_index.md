@@ -1,7 +1,7 @@
 ---
 title: NotesTextFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein TextFrame mit Notizen-Text zurück, falls vorhanden. Schreibgeschütztes ITextFrameaspose.slides/itextframe.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein TextFrame mit Notizen-Text zurück, wenn vorhanden. Nur lesender ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 20
 url: /de/aspose.slides/notesslide/notestextframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/notesslide/notestextframe/
 
 ## NotesSlide.NotesTextFrame-Eigenschaft
 
-Gibt ein TextFrame mit dem Text der Notizen zurück, falls vorhanden. Schreibgeschützt [`ITextFrame`](../../itextframe).
+Gibt ein TextFrame mit dem Text der Notizen zurück, wenn vorhanden. Nur lesend [`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame NotesTextFrame { get; }
@@ -17,7 +17,7 @@ public ITextFrame NotesTextFrame { get; }
 
 ### Siehe auch
 
-* Schnittstelle [ITextFrame](../../itextframe)
+* Interface [ITextFrame](../../itextframe)
 * Klasse [NotesSlide](../../notesslide)
 * Namespace [Aspose.Slides](../../notesslide)
 * Assembly [Aspose.Slides](../../../)

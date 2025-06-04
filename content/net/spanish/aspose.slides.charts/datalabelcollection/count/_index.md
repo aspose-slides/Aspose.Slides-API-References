@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Obtiene el número de todas las etiquetas de datos en la colección. Solo lectura Int32.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Obtiene el número de todas las etiquetas de datos en la colección. Solo lectur
 public int Count { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [DataLabelCollection](../../datalabelcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../datalabelcollection)

@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Endwert für die Animation an. Lese-/Schreibzeichenfolge.
+description: Gibt den Endwert für die Animation an. Lese-/schreibbarer String.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/propertyeffect/to/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/propertyeffect/to/
 
 ## PropertyEffect.To-Eigenschaft
 
-Gibt den Endwert für die Animation an. Lese-/Schreibzeichenfolge.
+Gibt den Endwert für die Animation an. Lese-/schreibbarer String.
 
 ```csharp
 public string To { get; set; }

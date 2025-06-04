@@ -1,15 +1,15 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides für .NET API Referenz
-description: Kinder-Elemente abrufen
+second_title: Aspose.Slid es für .NET API Referenz
+description: Kinder Elemente abrufen
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathfraction/getchildren/
 ---
 
-## MathFraction.GetChildren-Methode
+## MathFraction.GetChildren Methode
 
-Kinder-Elemente abrufen
+Kinder Elemente abrufen
 
 ```csharp
 public IMathElement[] GetChildren()

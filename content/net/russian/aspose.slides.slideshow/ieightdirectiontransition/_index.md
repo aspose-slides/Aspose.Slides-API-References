@@ -1,7 +1,7 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Slides для .NET API Reference
-description: Эффект перехода слайдов в восемь направлений.
+second_title: Aspose.Sildes for .NET API Reference
+description: Эффект слайд-перехода в восьми направлениях.
 type: docs
 weight: 9760
 url: /ru/aspose.slides.slideshow/ieightdirectiontransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/ieightdirectiontransition/
 
 ## Интерфейс IEightDirectionTransition
 
-Эффект перехода слайдов в восемь направлений.
+Эффект слайд-перехода в восьми направлениях.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -17,12 +17,12 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
-### Также смотрите
+### См. также
 
 * интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

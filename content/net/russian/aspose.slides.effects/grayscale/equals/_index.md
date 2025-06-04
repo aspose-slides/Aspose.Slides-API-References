@@ -1,7 +1,7 @@
 ---
 title: Equals
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, равен ли указанный GrayScale aspose.slides.effects/grayscale текущему GrayScale aspose.slides.effects/grayscale.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, равен ли указанный GrayScaleaspose.slides.effects/grayscale текущему GrayScaleaspose.slides.effects/grayscale.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/grayscale/equals/
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`GrayScale`](../../grayscale), который нужно сравнить. |
+| obj | Object | [`GrayScale`](../../grayscale) для сравнения. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 true, если объекты равны; в противном случае false.
 
-### См. также
+### См. Также
 
 * класс [GrayScale](../../grayscale)
 * пространство имен [Aspose.Slides.Effects](../../grayscale)

@@ -1,21 +1,21 @@
 ---
 title: JoinPortionsWithSameFormatting
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Joint les composants avec la même mise en forme dans tous les paragraphes de toutes les formes acceptables dans toutes les diapositives.
+second_title: Référence API Aspose.Slides pour .NET
+description: Joins des segments avec la même mise en forme dans tous les paragraphes dans toutes les formes acceptables dans toutes les diapositives.
 type: docs
 weight: 340
 url: /fr/aspose.slides/ipresentation/joinportionswithsameformatting/
 ---
 
-## Méthode IPresentation.JoinPortionsWithSameFormatting
+## IPresentation.JoinPortionsWithSameFormatting méthode
 
-Joint les composants avec la même mise en forme dans tous les paragraphes de toutes les formes acceptables dans toutes les diapositives.
+Joins des segments avec la même mise en forme dans tous les paragraphes dans toutes les formes acceptables dans toutes les diapositives.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPresentation](../../ipresentation)
 * namespace [Aspose.Slides](../../ipresentation)

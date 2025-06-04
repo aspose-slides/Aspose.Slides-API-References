@@ -1,7 +1,7 @@
 ---
 title: ActualWidth
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el ancho real del elemento del gráfico. Llama al método IChart.ValidateChartLayout antes de obtener los valores reales. Lee Solo.
+second_title: Aspose.Slides for .NET API Reference
+description: Especifica el ancho real del elemento del gráfico. Llama al método IChart.ValidateChartLayout antes de obtener los valores actuales. Lee Single.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/datalabel/actualwidth/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/datalabel/actualwidth/
 
 ## Propiedad DataLabel.ActualWidth
 
-Especifica el ancho real del elemento del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores reales. Lee Solo.
+Especifica el ancho real del elemento del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Lee Single.
 
 ```csharp
 public float ActualWidth { get; }

@@ -1,15 +1,15 @@
 ---
 title: GetTile
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée une image de tuile pour le remplissage de motif avec des couleurs spécifiques.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Crée une image de tuile pour le remplissage de motif avec des couleurs spécifiées.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ipatternformat/gettile/
 ---
 
-## GetTile(Color, Color) {#gettile_1}
+## GetTile(Color, Color) {#gettile_1}
 
-Crée une image de tuile pour le remplissage de motif avec des couleurs spécifiques.
+Crée une image de tuile pour le remplissage de motif avec des couleurs spécifiées.
 
 ```csharp
 public IImage GetTile(Color background, Color foreground)
@@ -17,7 +17,7 @@ public IImage GetTile(Color background, Color foreground)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| background | Color | La couleur d'arrière-plan pour le motif. |
+| background | Color | La couleur de fond pour le motif. |
 | foreground | Color | La couleur de premier plan pour le motif. |
 
 ### Valeur de retour

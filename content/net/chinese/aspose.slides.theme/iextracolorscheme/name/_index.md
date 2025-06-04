@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回此方案的名称。只读字符串。
 type: docs
 weight: 20

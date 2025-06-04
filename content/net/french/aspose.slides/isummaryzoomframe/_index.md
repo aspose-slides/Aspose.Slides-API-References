@@ -1,7 +1,7 @@
 ---
 title: ISummaryZoomFrame
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente un cadre de zoom résumé dans une diapositive.
+description: Représente un cadre de Zoom Résumé dans une diapositive.
 type: docs
 weight: 6930
 url: /fr/aspose.slides/isummaryzoomframe/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/isummaryzoomframe/
 
 ## Interface ISummaryZoomFrame
 
-Représente un cadre de zoom résumé dans une diapositive.
+Représente un cadre de Zoom Résumé dans une diapositive.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -20,10 +20,10 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | Nom | Description |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Renvoie l'interface IGraphicalObject. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Obtient la mise en page des sections de zoom résumé dans le cadre. La valeur par défaut est GridLayout. |
-| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Obtient [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) pour l'objet cadre de zoom résumé. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Obtient la disposition des Sections de Zoom Résumé dans le cadre. La valeur par défaut est GridLayout. |
+| [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Obtient [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) pour l'objet Cadre de Zoom Résumé. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IGraphicalObject](../igraphicalobject)
 * namespace [Aspose.Slides](../../aspose.slides)

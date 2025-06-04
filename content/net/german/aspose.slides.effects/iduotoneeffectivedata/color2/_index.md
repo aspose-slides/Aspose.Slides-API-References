@@ -1,7 +1,7 @@
 ---
 title: Color2
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Zielfarbenformat für helle Pixel zurück. Nur lesende Farbe.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Ziel-Farbformat für helle Pixel zurück. Nur-Lese-Farbe.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/iduotoneeffectivedata/color2/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iduotoneeffectivedata/color2/
 
 ## IDuotoneEffectiveData.Color2-Eigenschaft
 
-Gibt das Zielfarbenformat für helle Pixel zurück. Nur lesende Farbe.
+Gibt das Ziel-Farbformat für helle Pixel zurück. Nur-Lese-Farbe.
 
 ```csharp
 public Color Color2 { get; }
@@ -17,7 +17,7 @@ public Color Color2 { get; }
 
 ### Siehe auch
 
-* Interface [IDuotoneEffectiveData](../../iduotoneeffectivedata)
+* Schnittstelle [IDuotoneEffectiveData](../../iduotoneeffectivedata)
 * Namespace [Aspose.Slides.Effects](../../iduotoneeffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

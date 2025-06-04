@@ -1,7 +1,7 @@
 ---
 title: TotalEditingTime
-second_title: Aspose.Slides for .NET API 参考
-description: 演示文稿的总编辑时间。可读/可写 TimeSpan。
+second_title: Aspose.Sildes for .NET API Reference
+description: 演示文稿的总编辑时间。可读写的 TimeSpan。
 type: docs
 weight: 340
 url: /zh/aspose.slides/idocumentproperties/totaleditingtime/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/idocumentproperties/totaleditingtime/
 
 ## IDocumentProperties.TotalEditingTime 属性
 
-演示文稿的总编辑时间。可读/可写 TimeSpan。
+演示文稿的总编辑时间。可读写的 TimeSpan。
 
 ```csharp
 public TimeSpan TotalEditingTime { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

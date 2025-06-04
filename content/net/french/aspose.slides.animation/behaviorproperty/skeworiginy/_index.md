@@ -1,6 +1,6 @@
 ---
 title: SkewOriginY
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente la propriété skew.origin.y
 type: docs
 weight: 870
@@ -17,7 +17,7 @@ public static BehaviorProperty SkewOriginY { get; }
 
 ### Voir aussi
 
-* class [BehaviorProperty](../../behaviorproperty)
+* classe [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)
 * assembly [Aspose.Slides](../../../)
 

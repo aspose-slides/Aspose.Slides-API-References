@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado. Solo lectura ISlideaspose.slides/islide.
 type: docs
 weight: 10
 url: /es/aspose.slides/isectionslidecollection/item/
 ---
 
-## Indexador ISectionSlideCollection
+## ISectionSlideCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`ISlide`](../../islide).
 
@@ -20,6 +20,6 @@ public ISlide this[int index] { get; }
 * interfaz [ISlide](../../islide)
 * interfaz [ISectionSlideCollection](../../isectionslidecollection)
 * espacio de nombres [Aspose.Slides](../../isectionslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

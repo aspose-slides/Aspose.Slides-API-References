@@ -1,7 +1,7 @@
 ---
 title: SecondaryVerticalAxis
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает вторичную вертикальную ось графика. Только для чтения IAxis aspose.slides.charts/iaxis.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает вторичную вертикальную ось диаграммы. Только для чтения IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
 
 ## IAxesManager.SecondaryVerticalAxis свойство
 
-Получает вторичную вертикальную ось графика. Только для чтения [`IAxis`](../../iaxis).
+Получает вторичную вертикальную ось диаграммы. Только для чтения [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SecondaryVerticalAxis { get; }

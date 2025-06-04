@@ -7,7 +7,7 @@ weight: 40
 url: /ru/aspose.slides.vba/vbareferencecollection/syncroot/
 ---
 
-## Свойство VbaReferenceCollection.SyncRoot
+## VbaReferenceCollection.SyncRoot свойство
 
 Возвращает корень синхронизации. Объект только для чтения.
 

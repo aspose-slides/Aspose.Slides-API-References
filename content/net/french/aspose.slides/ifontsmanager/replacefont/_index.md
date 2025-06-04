@@ -7,7 +7,7 @@ weight: 100
 url: /fr/aspose.slides/ifontsmanager/replacefont/
 ---
 
-## RemplacerPolice(IFontData, IFontData) {#replacefont}
+## ReplaceFont(IFontData, IFontData) {#replacefont}
 
 Remplacer la police dans la présentation
 
@@ -29,7 +29,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## RemplacerPolice(IFontSubstRule) {#replacefont_1}
+## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
 Remplacer la police dans la présentation en utilisant les informations fournies dans [`IFontSubstRule`](../../ifontsubstrule)
 
@@ -39,7 +39,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| substRule | IFontSubstRule | Info de substitution de police |
+| substRule | IFontSubstRule | Informations sur la substitution de police |
 
 ### Voir aussi
 
@@ -50,7 +50,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ---
 
-## RemplacerPolice(IFontSubstRuleCollection) {#replacefont_2}
+## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
 Remplacer la police dans la présentation en utilisant les informations fournies dans la collection de [`IFontSubstRule`](../../ifontsubstrule)
 
@@ -60,7 +60,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | Collection d'infos de substitution de police |
+| substRules | IFontSubstRuleCollection | Collection d'informations sur la substitution de police |
 
 ### Voir aussi
 

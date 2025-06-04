@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iloadoptions/spreadsheetoptions/
 public ISpreadsheetOptions SpreadsheetOptions { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ISpreadsheetOptions](../../ispreadsheetoptions)
 * 接口 [ILoadOptions](../../iloadoptions)

@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberVisibility
-second_title: Aspose.Slides для .NET API Справочник
-description: Изменяет видимость заполнитель номера страницы слайда.
+second_title: Aspose.Silder для .NET API Справочник
+description: Изменяет видимость заполнителя номера страницы слайда.
 type: docs
 weight: 90
 url: /ru/aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility/
@@ -19,7 +19,7 @@ public void SetSlideNumberVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - делает заполнитель номера страницы видимым, в противном случае - скрывает его. |
 
-### Также смотрите
+### См. также
 
 * интерфейс [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ibaseslideheaderfootermanager)

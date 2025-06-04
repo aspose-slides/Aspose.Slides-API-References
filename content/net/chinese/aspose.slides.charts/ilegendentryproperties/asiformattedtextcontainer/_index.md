@@ -1,7 +1,7 @@
 ---
 title: AsIFormattedTextContainer
 second_title: Aspose.Sildes for .NET API Reference
-description: 允许获取基础 IFormattedTextContainer 接口。只读 IFormattedTextContainer aspose.slides.charts/iformattedtextcontainer。
+description: 允许获取基本 IFormattedTextContainer 接口。只读 IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer/
 
 ## ILegendEntryProperties.AsIFormattedTextContainer 属性
 
-允许获取基础 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../../iformattedtextcontainer)。
+允许获取基本 IFormattedTextContainer 接口。只读 [`IFormattedTextContainer`](../../iformattedtextcontainer)。
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }

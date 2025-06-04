@@ -1,7 +1,7 @@
 ---
 title: GraphicalObjectLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne les verroux des formes. Lecture seule IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie les verrous des formes. Lecture seule IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igraphicalobject/graphicalobjectlock/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/igraphicalobject/graphicalobjectlock/
 
 ## Propriété IGraphicalObject.GraphicalObjectLock
 
-Retourne les verroux de la forme. Lecture seule [`IGraphicalObjectLock`](../../igraphicalobjectlock).
+Renvoie les verrous de la forme. Lecture seule [`IGraphicalObjectLock`](../../igraphicalobjectlock).
 
 ```csharp
 public IGraphicalObjectLock GraphicalObjectLock { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGraphicalObjectLock](../../igraphicalobjectlock)
 * interface [IGraphicalObject](../../igraphicalobject)

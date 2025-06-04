@@ -1,6 +1,6 @@
 ---
 title: CreateThemeEffective
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie un thème efficace pour ce graphique.
 type: docs
 weight: 250

@@ -1,7 +1,7 @@
 ---
 title: ActiveXControlBinary
-second_title: Aspose.Slides for .NET API 参考
-description: 指定当用于持久化的方法为 PersistStream、PersistStreamInit 或 PersistStorage 时，ActiveX 控件的持久化方式。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定当使用 PersistStream、PersistStreamInit 或 PersistStorage 方法进行持久化时，ActiveX 控件的持久性。
 type: docs
 weight: 10
 url: /zh/aspose.slides/icontrol/activexcontrolbinary/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icontrol/activexcontrolbinary/
 
 ## IControl.ActiveXControlBinary 属性
 
-指定当用于持久化的方法为 PersistStream、PersistStreamInit 或 PersistStorage 时，ActiveX 控件的持久化方式。
+指定当使用 PersistStream、PersistStreamInit 或 PersistStorage 方法进行持久化时，ActiveX 控件的持久性。
 
 ```csharp
 public byte[] ActiveXControlBinary { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IControl](../../icontrol)
 * 命名空间 [Aspose.Slides](../../icontrol)

@@ -1,6 +1,6 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示系列或类别中图表元素的动画效果类型。
 type: docs
 weight: 220
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/effectchartminorgroupingtype/
 
 ## EffectChartMinorGroupingType 枚举
 
-表示图表中系列或类别的元素的动画效果类型。
+表示系列或类别中图表元素的动画效果类型。
 
 ```csharp
 public enum EffectChartMinorGroupingType
@@ -19,10 +19,10 @@ public enum EffectChartMinorGroupingType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| ByElementInSeries | `0` | 按系列中的元素动画图表 |
-| ByElementInCategory | `1` | 按类别中的元素动画图表 |
+| ByElementInSeries | `0` | 按系列中的元素动画化图表 |
+| ByElementInCategory | `1` | 按类别中的元素动画化图表 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

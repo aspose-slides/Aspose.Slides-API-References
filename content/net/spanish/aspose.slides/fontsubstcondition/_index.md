@@ -1,6 +1,6 @@
 ---
 title: FontSubstCondition
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa una regla para la sustitución de fuentes
 type: docs
 weight: 4680
@@ -19,10 +19,10 @@ public enum FontSubstCondition
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Sustituir cuando la fuente no se encuentra |
+| WhenInaccessible | `0` | Sustituir cuando no se encuentra la fuente |
 | Always | `1` | Sustituir siempre |
 
-### Vea También
+### Véase también
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

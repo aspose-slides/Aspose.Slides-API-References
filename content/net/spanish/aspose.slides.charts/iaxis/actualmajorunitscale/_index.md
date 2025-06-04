@@ -1,6 +1,6 @@
 ---
 title: ActualMajorUnitScale
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica la escala de unidad mayor actual del eje. Llama al método IChart.ValidateChartLayout previamente para obtener el valor actual.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Especifica la escala de unidad mayor actual del eje. Llama al método IChart.Val
 public TimeUnitType ActualMajorUnitScale { get; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [TimeUnitType](../../timeunittype)
 * interface [IAxis](../../iaxis)

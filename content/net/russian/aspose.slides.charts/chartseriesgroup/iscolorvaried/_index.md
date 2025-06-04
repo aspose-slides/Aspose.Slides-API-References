@@ -1,15 +1,15 @@
 ---
 title: IsColorVaried
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, что каждый маркер данных в серии имеет различный цвет. Читаемый/записываемый логический тип.
+description: Указывает, что каждый маркер данных в серии имеет разный цвет. Читаемое/записываемое логическое значение.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartseriesgroup/iscolorvaried/
 ---
 
-## Свойство ChartSeriesGroup.IsColorVaried
+## ChartSeriesGroup.IsColorVaried property
 
-Указывает, что каждый маркер данных в серии имеет различный цвет. Читаемый/записываемый логический тип.
+Указывает, что каждый маркер данных в серии имеет разный цвет. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool IsColorVaried { get; set; }

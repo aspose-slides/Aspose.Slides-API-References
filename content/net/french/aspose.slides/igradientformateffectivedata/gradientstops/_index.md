@@ -1,21 +1,21 @@
 ---
 title: GradientStops
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la collection des arrêts de dégradé. Lecture seule IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata.
+description: Renvoie la collection de dégradés. Lecture seule IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata.
 type: docs
 weight: 40
 url: /fr/aspose.slides/igradientformateffectivedata/gradientstops/
 ---
 
-## Propriété IGradientFormatEffectiveData.GradientStops
+## IGradientFormatEffectiveData.GradientStops propriété
 
-Renvoie la collection des arrêts de dégradé. Lecture seule [`IGradientStopCollectionEffectiveData`](../../igradientstopcollectioneffectivedata).
+Renvoie la collection de dégradés. Lecture seule [`IGradientStopCollectionEffectiveData`](../../igradientstopcollectioneffectivedata).
 
 ```csharp
 public IGradientStopCollectionEffectiveData GradientStops { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGradientStopCollectionEffectiveData](../../igradientstopcollectioneffectivedata)
 * interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)

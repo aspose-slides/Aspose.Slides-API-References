@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de l'ombre. Lecture/écriture Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Direction de l'ombre. Lecture/écriture Simple.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/ioutershadow/direction/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ioutershadow/direction/
 
 ## Propriété IOuterShadow.Direction
 
-Direction de l'ombre. Lecture/écriture Single.
+Direction de l'ombre. Lecture/écriture Simple.
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IOuterShadow](../../ioutershadow)
 * namespace [Aspose.Slides.Effects](../../ioutershadow)

@@ -1,7 +1,7 @@
 ---
 title: PixelFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Pixel-Format für die generierten Bilder an. Lesen/Schreiben von ImagePixelFormataspose.slides.export/imagepixelformat.
+description: Gibt das Pixel-Format für die generierten Bilder an. Lese-/Schreibzugriff auf ImagePixelFormataspose.slides.export/imagepixelformat.
 type: docs
 weight: 80
 url: /de/aspose.slides.export/itiffoptions/pixelformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/itiffoptions/pixelformat/
 
 ## ITiffOptions.PixelFormat-Eigenschaft
 
-Gibt das Pixel-Format für die generierten Bilder an. Lesen/Schreiben von [`ImagePixelFormat`](../../imagepixelformat).
+Gibt das Pixel-Format für die generierten Bilder an. Lese-/Schreibzugriff auf [`ImagePixelFormat`](../../imagepixelformat).
 
 ```csharp
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ImagePixelFormat](../../imagepixelformat)
 * interface [ITiffOptions](../../itiffoptions)

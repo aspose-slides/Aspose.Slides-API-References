@@ -1,7 +1,7 @@
 ---
 title: SetLowerLimit
-second_title: Aspose.Slides for .NET API 参考
-description: 取下限
+second_title: Aspose.Slides for .NET API Reference
+description: 设定下限
 type: docs
 weight: 120
 url: /zh/aspose.slides.mathtext/mathelementbase/setlowerlimit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathelementbase/setlowerlimit/
 
 ## SetLowerLimit(IMathElement) {#setlowerlimit}
 
-取下限
+设定下限
 
 ```csharp
 public IMathLimit SetLowerLimit(IMathElement limit)
@@ -21,7 +21,7 @@ public IMathLimit SetLowerLimit(IMathElement limit)
 
 ### 返回值
 
-新实例类型为 [`IMathLimit`](../../imathlimit)
+新实例类型 [`IMathLimit`](../../imathlimit)
 
 ### 示例
 
@@ -34,7 +34,7 @@ IMathElement limitValue = new MathematicalText("𝑛→∞");
 var limitElement = baseElement.SetLowerLimit(limitValue);
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathLimit](../../imathlimit)
 * 接口 [IMathElement](../../imathelement)
@@ -46,7 +46,7 @@ var limitElement = baseElement.SetLowerLimit(limitValue);
 
 ## SetLowerLimit(string) {#setlowerlimit_1}
 
-取下限
+设定下限
 
 ```csharp
 public IMathLimit SetLowerLimit(string limit)
@@ -58,7 +58,7 @@ public IMathLimit SetLowerLimit(string limit)
 
 ### 返回值
 
-新实例类型为 [`IMathLimit`](../../imathlimit)
+新实例类型 [`IMathLimit`](../../imathlimit)
 
 ### 示例
 
@@ -70,7 +70,7 @@ IMathElement baseElement = new MathematicalText("lim");
 var limitElement = baseElement.SetLowerLimit("𝑛→∞");
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathLimit](../../imathlimit)
 * 类 [MathElementBase](../../mathelementbase)

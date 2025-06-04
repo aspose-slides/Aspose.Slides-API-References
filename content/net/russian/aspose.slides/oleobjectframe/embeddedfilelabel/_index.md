@@ -1,21 +1,21 @@
 ---
 title: EmbeddedFileLabel
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя файла встроенного OLE-объекта
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает имя файла встроенного OLE объекта
 type: docs
 weight: 30
 url: /ru/aspose.slides/oleobjectframe/embeddedfilelabel/
 ---
 
-## Свойство OleObjectFrame.EmbeddedFileLabel
+## OleObjectFrame.EmbeddedFileLabel свойство
 
-Возвращает имя файла встроенного OLE-объекта
+Возвращает имя файла встроенного OLE объекта
 
 ```csharp
 public string EmbeddedFileLabel { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)

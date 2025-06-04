@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Kopiert alle Elemente der Sammlung in das angegebene Array.
 type: docs
 weight: 50
 url: /de/aspose.slides.theme/extracolorschemecollection/copyto/
 ---
 
-## ExtraColorSchemeCollection.CopyTo-Methode
+## ExtraColorSchemeCollection.CopyTo Methode
 
 Kopiert alle Elemente der Sammlung in das angegebene Array.
 

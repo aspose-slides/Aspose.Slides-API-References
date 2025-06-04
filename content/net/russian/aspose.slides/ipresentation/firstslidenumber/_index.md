@@ -1,15 +1,15 @@
 ---
 title: FirstSlideNumber
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет номер первого слайда в презентации. Читаемое/записываемое Int32.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет номер первого слайда в презентации. Чтение/запись Int32.
 type: docs
 weight: 110
 url: /ru/aspose.slides/ipresentation/firstslidenumber/
 ---
 
-## Свойство IPresentation.FirstSlideNumber
+## IPresentation.FirstSlideNumber свойство
 
-Представляет номер первого слайда в презентации. Читаемое/записываемое Int32.
+Представляет номер первого слайда в презентации. Чтение/запись Int32.
 
 ```csharp
 public int FirstSlideNumber { get; set; }

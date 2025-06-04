@@ -23,7 +23,7 @@ public enum CommentsPositions
 | Bottom | `1` | 指定评论应显示在页面底部。 |
 | Right | `2` | 指定评论应显示在页面右侧。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

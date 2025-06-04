@@ -1,15 +1,15 @@
 ---
 title: CenterText
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si le texte doit être centré dans la boîte horizontalement. Boolean en lecture seule.
+description: Indique si le texte doit être centré dans la boîte horizontalement. Booléen en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/itextframeformateffectivedata/centertext/
 ---
 
-## Propriété ITextFrameFormatEffectiveData.CenterText
+## ITextFrameFormatEffectiveData.CenterText property
 
-Indique si le texte doit être centré dans la boîte horizontalement. Boolean en lecture seule.
+Indique si le texte doit être centré dans la boîte horizontalement. Booléen en lecture seule.
 
 ```csharp
 public bool CenterText { get; }

@@ -1,7 +1,7 @@
 ---
 title: Superscript
-second_title: Aspose.Slides для .NET Справочник по API
-description: Указывает аргумент надстрочного знака, который, например, в случае интеграла задает верхний предел
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает аргумент верхнего индекса, который, например, в случае интеграла задает верхний предел
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathnaryoperator/superscript/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathnaryoperator/superscript/
 
 ## IMathNaryOperator.Superscript свойство
 
-Указывает аргумент надстрочного знака, который, например, в случае интеграла задает верхний предел
+Указывает аргумент верхнего индекса, который, например, в случае интеграла, задает верхний предел
 
 ```csharp
 public IMathElement Superscript { get; }
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 IMathElement superscriptArg = naryOperator.Superscript;
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)

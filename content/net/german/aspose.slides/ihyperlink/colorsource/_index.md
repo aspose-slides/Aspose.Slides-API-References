@@ -1,7 +1,7 @@
 ---
 title: ColorSource
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Quelle der Hyperlinkfarbe dar - entweder Stile oder Abschnittsformat. Lesen/Speichern von HyperlinkColorSourceaspose.slides/hyperlinkcolorsource.
+description: Stellt die Quelle der Hyperlinkfarbe dar - entweder Stile oder Abschnittsformat. Lese-/Schreibzugriff auf HyperlinkColorSourceaspose.slides/hyperlinkcolorsource.
 type: docs
 weight: 20
 url: /de/aspose.slides/ihyperlink/colorsource/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ihyperlink/colorsource/
 
 ## IHyperlink.ColorSource-Eigenschaft
 
-Stellt die Quelle der Hyperlinkfarbe dar - entweder Stile oder Abschnittsformat. Lesen/Speichern von [`HyperlinkColorSource`](../../hyperlinkcolorsource).
+Stellt die Quelle der Hyperlinkfarbe dar - entweder Stile oder Abschnittsformat. Lese-/Schreibzugriff auf [`HyperlinkColorSource`](../../hyperlinkcolorsource).
 
 ```csharp
 public HyperlinkColorSource ColorSource { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [HyperlinkColorSource](../../hyperlinkcolorsource)
 * interface [IHyperlink](../../ihyperlink)

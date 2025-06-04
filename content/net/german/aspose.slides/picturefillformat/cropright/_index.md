@@ -1,15 +1,15 @@
 ---
 title: CropRight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Prozentsätze der tatsächlichen Bildbreite zurück oder setzt diese, die rechts vom Bild abgeschnitten werden. Lese-/Schreibzugriff Single.
+description: Gibt die Anzahl der Prozentsätze der tatsächlichen Bildbreite zurück oder setzt diese, die rechts vom Bild abgeschnitten werden. Lese-/Schreibwert Einzelwert.
 type: docs
 weight: 30
 url: /de/aspose.slides/picturefillformat/cropright/
 ---
 
-## PictureFillFormat.CropRight-Eigenschaft
+## PictureFillFormat.CropRight-Propriété
 
-Gibt die Anzahl der Prozentsätze der tatsächlichen Bildbreite zurück oder setzt diese, die rechts vom Bild abgeschnitten werden. Lese-/Schreibzugriff Single.
+Gibt die Anzahl der Prozentsätze der tatsächlichen Bildbreite zurück oder setzt diese, die rechts vom Bild abgeschnitten werden. Lese-/Schreibwert Einzelwert.
 
 ```csharp
 public float CropRight { get; set; }

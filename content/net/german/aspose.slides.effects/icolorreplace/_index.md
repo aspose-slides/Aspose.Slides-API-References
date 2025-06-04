@@ -1,13 +1,13 @@
 ---
 title: IColorReplace
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Farbwechsel-Effekt dar.
 type: docs
 weight: 3120
 url: /de/aspose.slides.effects/icolorreplace/
 ---
 
-## IColorReplace-Interface
+## IColorReplace-Schnittstelle
 
 Stellt einen Farbwechsel-Effekt dar.
 
@@ -20,9 +20,9 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die grundlegende IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzen wird. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IAccessiblePVIObject. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IImageTransformOperation. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Gibt das Farbschema zurück, das die Farbe jedes Pixels ersetzt. Nur lesbar [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Siehe auch
 

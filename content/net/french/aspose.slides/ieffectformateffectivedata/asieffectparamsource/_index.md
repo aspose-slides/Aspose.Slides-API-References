@@ -1,13 +1,13 @@
 ---
 title: AsIEffectParamSource
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet d'obtenir l'interface de base IEffectParamSource. Lecture seule IEffectParamSource aspose.slides/ieffectparamsource.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ieffectformateffectivedata/asieffectparamsource/
 ---
 
-## Propriété IEffectFormatEffectiveData.AsIEffectParamSource
+## IEffectFormatEffectiveData.AsIEffectParamSource propriété
 
 Permet d'obtenir l'interface de base IEffectParamSource. Lecture seule [`IEffectParamSource`](../../ieffectparamsource).
 

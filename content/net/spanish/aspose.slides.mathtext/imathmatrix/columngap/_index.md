@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
-second_title: Referencia de la API Aspose.Slides para .NET
-description: El valor del espaciado horizontal entre las columnas de una matriz. Si el ColumnGapRule se establece en 3 "Exactamente", entonces la unidad se interpreta como twips 1/20 de un punto. Si el ColumnGapRule se establece en 4 "Múltiple", entonces la unidad se interpreta como el número de incrementos de 0.5 em. En otros casos es ignorado. Predeterminado 0
+second_title: Aspose.Sildes para referencia de API de .NET
+description: El valor del espaciado horizontal entre columnas de una matriz. Si ColumnGapRule se establece en 3 "Exactamente", entonces la unidad se interpreta como twips 1/20 de un punto. Si ColumnGapRule se establece en 4 "Múltiple", entonces la unidad se interpreta como el número de incrementos de 0.5 em. En otros casos se ignora. Predeterminado 0
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imathmatrix/columngap/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/imathmatrix/columngap/
 
 ## Propiedad IMathMatrix.ColumnGap
 
-El valor del espaciado horizontal entre las columnas de una matriz; Si el ColumnGapRule se establece en 3 ("Exactamente"), entonces la unidad se interpreta como twips (1/20 de un punto). Si el ColumnGapRule se establece en 4 ("Múltiple"), entonces la unidad se interpreta como el número de incrementos de 0.5 em. En otros casos es ignorado. Predeterminado: 0
+El valor del espaciado horizontal entre columnas de una matriz; Si ColumnGapRule se establece en 3 ("Exactamente"), entonces la unidad se interpreta como twips (1/20 de un punto). Si ColumnGapRule se establece en 4 ("Múltiple"), entonces la unidad se interpreta como el número de incrementos de 0.5 em. En otros casos se ignora. Predeterminado: 0
 
 ```csharp
 public uint ColumnGap { get; set; }
@@ -26,10 +26,10 @@ matrix.ColumnGapRule = MathSpacingRules.Exactly;
 matrix.ColumnGap = 20;
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IMathMatrix](../../imathmatrix)
 * espacio de nombres [Aspose.Slides.MathText](../../imathmatrix)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

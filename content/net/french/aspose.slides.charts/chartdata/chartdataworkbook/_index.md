@@ -1,6 +1,6 @@
 ---
 title: ChartDataWorkbook
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la fabrique de cellules pour créer des cellules utilisées pour les séries ou catégories de graphiques. En lecture seule IChartDataWorkbookaspose.slides.charts/ichartdataworkbook.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Obtient la fabrique de cellules pour créer des cellules utilisées pour les sé
 public IChartDataWorkbook ChartDataWorkbook { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataWorkbook](../../ichartdataworkbook)
 * classe [ChartData](../../chartdata)

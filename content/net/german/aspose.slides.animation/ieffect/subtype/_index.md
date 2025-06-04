@@ -1,7 +1,7 @@
 ---
 title: Subtype
-second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert den Subtyp von Effekt. Lese-/Schreibzugriff auf EffectSubtypeaspose.slides.animation/effectsubtype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Definiert den Subtyp von Effekt. Lese-/SchreibeffectSubtypeaspose.slides.animation/effectsubtype.
 type: docs
 weight: 100
 url: /de/aspose.slides.animation/ieffect/subtype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/ieffect/subtype/
 
 ## IEffect.Subtype-Eigenschaft
 
-Definiert den Subtyp von Effekt. Lese-/Schreibzugriff auf [`EffectSubtype`](../../effectsubtype).
+Definiert den Subtyp von Effekt. Lese-/Schreibe [`EffectSubtype`](../../effectsubtype).
 
 ```csharp
 public EffectSubtype Subtype { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [EffectSubtype](../../effectsubtype)
 * interface [IEffect](../../ieffect)

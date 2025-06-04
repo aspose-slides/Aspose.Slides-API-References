@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert die Formatierungseigenschaften. Lesen/Schreiben von IFormataspose.slides.charts/iformat.
+description: Stellt die Formatierungseigenschaften dar. Lesen/Schreiben IFormataspose.slides.charts/iformat.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/ichartdatapoint/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapoint/format/
 
 ## IChartDataPoint.Format-Eigenschaft
 
-Repräsentiert die Formatierungseigenschaften. Lesen/Schreiben von [`IFormat`](../../iformat).
+Stellt die Formatierungseigenschaften dar. Lesen/Schreiben [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }

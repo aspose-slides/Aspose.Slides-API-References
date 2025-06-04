@@ -1,6 +1,6 @@
 ---
 title: MarginTop
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit la marge supérieure dans un TextFrame. Lecture/écriture Double.
 type: docs
 weight: 140

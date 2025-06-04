@@ -1,13 +1,13 @@
 ---
 title: AsILayoutable
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Permite obtener la interfaz base ILayoutable. Solo lectura ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/icharttitle/asilayoutable/
 ---
 
-## Propiedad IChartTitle.AsILayoutable
+## IChartTitle.AsILayoutable property
 
 Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../../ilayoutable).
 
@@ -15,11 +15,11 @@ Permite obtener la interfaz base ILayoutable. Solo lectura [`ILayoutable`](../..
 public ILayoutable AsILayoutable { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ILayoutable](../../ilayoutable)
 * interfaz [IChartTitle](../../icharttitle)
 * espacio de nombres [Aspose.Slides.Charts](../../icharttitle)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

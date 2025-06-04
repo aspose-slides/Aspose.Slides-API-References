@@ -7,7 +7,7 @@ weight: 120
 url: /es/aspose.slides.theme/icolorscheme/item/
 ---
 
-## Indexador IColorScheme
+## IColorScheme indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorformat).
 

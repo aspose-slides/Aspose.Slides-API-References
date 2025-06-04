@@ -1,6 +1,6 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочная информация
 description: Позволяет создавать эффекты анимации
 type: docs
 weight: 350
@@ -19,20 +19,20 @@ public interface IBehaviorFactory
 
 | Название | Описание |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Создает эффект цвета. |
+| [CreateColorEffect](../../aspose.slides.animation/ibehaviorfactory/createcoloreffect)() | Создает цветовой эффект. |
 | [CreateCommandEffect](../../aspose.slides.animation/ibehaviorfactory/createcommandeffect)() | Создает эффект команды. |
-| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Создает эффект фильтра. |
+| [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Создает фильтровый эффект. |
 | [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Создает эффект движения. |
 | [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Создает эффект свойства. |
 | [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Создает эффект вращения. |
 | [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Создает эффект масштабирования. |
-| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Создает эффект установки. |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Создает комплектный эффект. |
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

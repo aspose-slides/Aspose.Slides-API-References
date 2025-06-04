@@ -15,7 +15,7 @@ Devuelve o establece la posición de un comentario en una diapositiva. Lectura/e
 public PointF Position { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Comment](../../comment)
 * espacio de nombres [Aspose.Slides](../../comment)

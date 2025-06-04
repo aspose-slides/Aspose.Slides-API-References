@@ -1,6 +1,6 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 文本框在文本区域内的对齐方式。
 type: docs
 weight: 10600
@@ -26,7 +26,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

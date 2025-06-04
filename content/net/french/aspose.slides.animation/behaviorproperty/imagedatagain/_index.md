@@ -1,13 +1,13 @@
 ---
 title: ImageDataGain
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente la propriété imageData.gain
 type: docs
 weight: 480
 url: /fr/aspose.slides.animation/behaviorproperty/imagedatagain/
 ---
 
-## Propriété BehaviorProperty.ImageDataGain
+## BehaviorProperty.ImageDataGain propriété
 
 Représente la propriété 'imageData.gain'
 

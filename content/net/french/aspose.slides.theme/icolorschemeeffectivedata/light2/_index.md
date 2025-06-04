@@ -1,13 +1,13 @@
 ---
 title: Light2
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Deuxième couleur claire dans le schéma. Couleur en lecture seule.
 type: docs
 weight: 130
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/light2/
 ---
 
-## Propriété IColorSchemeEffectiveData.Light2
+## IColorSchemeEffectiveData.Light2 propriété
 
 Deuxième couleur claire dans le schéma. Couleur en lecture seule.
 

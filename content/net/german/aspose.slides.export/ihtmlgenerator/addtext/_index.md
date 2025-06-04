@@ -1,7 +1,7 @@
 ---
 title: AddText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt spezielle Zeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
 type: docs
 weight: 90
 url: /de/aspose.slides.export/ihtmlgenerator/addtext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/ihtmlgenerator/addtext/
 
 ## AddText(string) {#addtext_2}
 
-Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt spezielle Zeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
+Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
 
 ```csharp
 public void AddText(string text)
@@ -29,7 +29,7 @@ public void AddText(string text)
 
 ## AddText(char[]) {#addtext}
 
-Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt spezielle Zeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
+Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
 
 ```csharp
 public void AddText(char[] text)
@@ -49,7 +49,7 @@ public void AddText(char[] text)
 
 ## AddText(char[], int, int) {#addtext_1}
 
-Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt spezielle Zeichen durch HTML-Entities. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
+Fügt einfachen Text zu den HTML-Dateien hinzu und ersetzt Sonderzeichen durch HTML-Entitäten. Zeilenumbrüche und Leerzeichen werden nicht ersetzt.
 
 ```csharp
 public void AddText(char[] text, int startIndex, int length)
@@ -58,8 +58,8 @@ public void AddText(char[] text, int startIndex, int length)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | text | Char[] | Hinzuzufügender Text. |
-| startIndex | Int32 | Startindex des hinzuzufügenden Abschnitts. |
-| length | Int32 | Länge des hinzuzufügenden Abschnitts. |
+| startIndex | Int32 | Startindex des hinzuzufügenden Teils. |
+| length | Int32 | Länge des hinzuzufügenden Teils. |
 
 ### Siehe auch
 

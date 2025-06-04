@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt der Sammlung einen Tab zu.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt ein Tab zur Sammlung hinzu.
 type: docs
 weight: 50
 url: /de/aspose.slides/tabcollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/tabcollection/add/
 
 ## Add(double, TabAlignment) {#add}
 
-Fügt der Sammlung einen Tab zu.
+Fügt ein Tab zur Sammlung hinzu.
 
 ```csharp
 public ITab Add(double position, TabAlignment align)
@@ -17,9 +17,9 @@ public ITab Add(double position, TabAlignment align)
 
 ### Rückgabewert
 
-Hinzugefügter Tab.
+Hinzugefügtes Tab.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ITab](../../itab)
 * enum [TabAlignment](../../tabalignment)
@@ -31,7 +31,7 @@ Hinzugefügter Tab.
 
 ## Add(ITab) {#add_1}
 
-Fügt der Sammlung einen Tab zu.
+Fügt ein Tab zur Sammlung hinzu.
 
 ```csharp
 public int Add(ITab value)
@@ -43,9 +43,9 @@ public int Add(ITab value)
 
 ### Rückgabewert
 
-Der Index, an dem der Tab hinzugefügt wurde.
+Der Index, an dem das Tab hinzugefügt wurde.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ITab](../../itab)
 * class [TabCollection](../../tabcollection)

@@ -17,8 +17,8 @@ public int Count { get; }
 
 ### Ver También
 
-* class [Sequence](../../sequence)
-* namespace [Aspose.Slides.Animation](../../sequence)
-* assembly [Aspose.Slides](../../../)
+* clase [Sequence](../../sequence)
+* espacio de nombres [Aspose.Slides.Animation](../../sequence)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: PositionMove
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Bewegen dieser Form verboten ist. Schreib-/Lese-Booleans.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 70
 url: /de/aspose.slides/iconnectorlock/positionmove/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iconnectorlock/positionmove/
 
 ## IConnectorLock.PositionMove-Eigenschaft
 
-Bestimmt, ob das Bewegen dieser Form verboten ist. Schreib-/Lese-Boolean.
+Bestimmt, ob das Bewegen dieser Form verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool PositionMove { get; set; }

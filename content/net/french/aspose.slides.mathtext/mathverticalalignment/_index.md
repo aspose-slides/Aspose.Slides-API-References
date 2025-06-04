@@ -1,13 +1,13 @@
 ---
 title: MathVerticalAlignment
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Alignement vertical
 type: docs
 weight: 8780
 url: /fr/aspose.slides.mathtext/mathverticalalignment/
 ---
 
-## Énumération MathVerticalAlignment
+## Enumération MathVerticalAlignment
 
 Alignement vertical
 

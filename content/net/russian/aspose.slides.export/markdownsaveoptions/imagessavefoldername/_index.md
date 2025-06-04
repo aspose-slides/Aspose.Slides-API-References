@@ -1,13 +1,13 @@
 ---
 title: ImagesSaveFolderName
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает имя папки для сохранения изображений. По умолчанию - Images.
 type: docs
 weight: 60
 url: /ru/aspose.slides.export/markdownsaveoptions/imagessavefoldername/
 ---
 
-## Свойство MarkdownSaveOptions.ImagesSaveFolderName
+## MarkdownSaveOptions.ImagesSaveFolderName свойство
 
 Указывает имя папки для сохранения изображений. По умолчанию - `Images`.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/markdownsaveoptions/imagessavefoldername/
 public string ImagesSaveFolderName { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [MarkdownSaveOptions](../../markdownsaveoptions)
 * пространство имен [Aspose.Slides.Export](../../markdownsaveoptions)

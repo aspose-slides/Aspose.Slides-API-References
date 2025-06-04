@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API 参考
-description: 移除集合中指定作者的第一个出现。
+description: 从集合中移除指定作者的第一次出现。
 type: docs
 weight: 60
 url: /zh/aspose.slides/icommentauthorcollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommentauthorcollection/remove/
 
 ## ICommentAuthorCollection.Remove 方法
 
-移除集合中指定作者的第一个出现。
+从集合中移除指定作者的第一次出现。
 
 ```csharp
 public void Remove(ICommentAuthor author)

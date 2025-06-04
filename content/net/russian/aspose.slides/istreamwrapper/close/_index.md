@@ -1,15 +1,15 @@
 ---
 title: Close
-second_title: Справочник по API Aspose.Slidес для .NET
-description: Закрывает текущий поток и освобождает все ресурсы.
+second_title: Aspose.Slides для .NET API Reference
+description: Закрывает текущий поток и освобождает любые ресурсы.
 type: docs
 weight: 80
 url: /ru/aspose.slides/istreamwrapper/close/
 ---
 
-## Метод IStreamWrapper.Close
+## IStreamWrapper.Close метод
 
-Закрывает текущий поток и освобождает все ресурсы.
+Закрывает текущий поток и освобождает любые ресурсы.
 
 ```csharp
 public void Close()

@@ -1,6 +1,6 @@
 ---
 title: Height
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la altura de una imagen. Solo lectura Int32.
 type: docs
 weight: 30
@@ -15,10 +15,10 @@ Devuelve la altura de una imagen. Solo lectura Int32.
 public int Height { get; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [PPImage](../../ppimage)
-* espacio de nombres [Aspose.Slides](../../ppimage)
-* ensamblado [Aspose.Slides](../../../)
+* clase [PPImage](../../ppimage)
+* espacio de nombres [Aspose.Slides](../../ppimage)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有效果。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/isequence/clear/
 public void Clear()
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ISequence](../../isequence)
 * 命名空间 [Aspose.Slides.Animation](../../isequence)

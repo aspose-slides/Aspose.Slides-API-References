@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置填充矩形的底边，该矩形由从形状边界框底边的百分比偏移量定义。正百分比指定内嵌，而负百分比指定外凸。可读/可写单精度浮点数。
+description: 返回或设置由形状边界框底边的百分比偏移定义的填充矩形的底边。正百分比指定内凹，而负百分比指定外凸。可读/可写单精度浮点数。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ipicturefillformat/stretchoffsetbottom/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipicturefillformat/stretchoffsetbottom/
 
 ## IPictureFillFormat.StretchOffsetBottom 属性
 
-返回或设置填充矩形的底边，该矩形由从形状边界框底边的百分比偏移量定义。正百分比指定内嵌，而负百分比指定外凸。可读/可写单精度浮点数。
+返回或设置由形状边界框底边的百分比偏移定义的填充矩形的底边。正百分比指定内凹，而负百分比指定外凸。可读/可写单精度浮点数。
 
 ```csharp
 public float StretchOffsetBottom { get; set; }

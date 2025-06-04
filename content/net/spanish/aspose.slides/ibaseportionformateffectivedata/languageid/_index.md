@@ -15,10 +15,10 @@ Devuelve el Id de un idioma. Cadena de solo lectura.
 public string LanguageId { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ibaseportionformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* espacio de nombres [Aspose.Slides](../../ibaseportionformateffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

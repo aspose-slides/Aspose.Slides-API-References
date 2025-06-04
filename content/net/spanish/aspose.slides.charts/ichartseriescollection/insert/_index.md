@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides.charts/ichartseriescollection/insert/
 ---
 
-## Método IChartSeriesCollection.Insert
+## IChartSeriesCollection.Insert método
 
 Crea nuevas series de gráficos e inserta en la colección.
 
@@ -17,19 +17,19 @@ public IChartSeries Insert(int index, ChartType type)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice para la inserción Int32 |
+| index | Int32 | Índice para inserción Int32 |
 | type | ChartType | Tipo de gráfico [`ChartType`](../../charttype) |
 
-### Valor de Retorno
+### Valor de retorno
 
 Nueva serie de gráficos [`IChartSeries`](../../ichartseries)
 
-### Véase También
+### Vea también
 
 * interfaz [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)
 * interfaz [IChartSeriesCollection](../../ichartseriescollection)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartseriescollection)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Charts](../../ichartseriescollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

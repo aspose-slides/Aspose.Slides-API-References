@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/ifontdatafactory/createfontdata/
 ---
 
-## Méthode IFontDataFactory.CreateFontData
+## IFontDataFactory.CreateFontData méthode
 
 Crée FontData avec le nom de police spécifié.
 

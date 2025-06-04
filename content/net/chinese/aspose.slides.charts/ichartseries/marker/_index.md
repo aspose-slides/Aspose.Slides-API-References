@@ -1,6 +1,6 @@
 ---
 title: Marker
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回系列标记。只读 IMarkeraspose.slides.charts/imarker。
 type: docs
 weight: 200
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseries/marker/
 public IMarker Marker { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMarker](../../imarker)
 * 接口 [IChartSeries](../../ichartseries)

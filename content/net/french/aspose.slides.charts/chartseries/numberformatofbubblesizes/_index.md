@@ -1,15 +1,15 @@
 ---
 title: NumberFormatOfBubbleSizes
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: NombreFormatDesTaillesDeBulles. Lecture/écriture String.
+description: NumberFormatOfBubbleSizes. Lecture/écriture chaîne.
 type: docs
 weight: 220
 url: /fr/aspose.slides.charts/chartseries/numberformatofbubblesizes/
 ---
 
-## Propriété ChartSeries.NombreFormatDesTaillesDeBulles
+## Propriété ChartSeries.NumberFormatOfBubbleSizes
 
-NombreFormatDesTaillesDeBulles. Lecture/écriture String.
+NumberFormatOfBubbleSizes. Lecture/écriture chaîne.
 
 ```csharp
 public string NumberFormatOfBubbleSizes { get; set; }

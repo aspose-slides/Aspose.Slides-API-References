@@ -1,6 +1,6 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справка
 description: Конструктор по умолчанию
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/odpreadexception/odpreadexception/
 public OdpReadException()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [OdpReadException](../../odpreadexception)
 * пространство имен [Aspose.Slides](../../odpreadexception)
@@ -35,7 +35,7 @@ public OdpReadException(string message)
 | --- | --- | --- |
 | message | String | сообщение |
 
-### См. также
+### Смотрите также
 
 * класс [OdpReadException](../../odpreadexception)
 * пространство имен [Aspose.Slides](../../odpreadexception)
@@ -56,7 +56,7 @@ public OdpReadException(string message, Exception exception)
 | message | String | сообщение |
 | exception | Exception | оригинальное исключение |
 
-### См. также
+### Смотрите также
 
 * класс [OdpReadException](../../odpreadexception)
 * пространство имен [Aspose.Slides](../../odpreadexception)

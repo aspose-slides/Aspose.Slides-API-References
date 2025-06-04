@@ -1,13 +1,13 @@
 ---
 title: MathIntegralTypes
-second_title: Référence de l'API Aspose.Slidess pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Types d'intégrales mathématiques
 type: docs
 weight: 8530
 url: /fr/aspose.slides.mathtext/mathintegraltypes/
 ---
 
-## Enumération MathIntegralTypes
+## Énumération MathIntegralTypes
 
 Types d'intégrales mathématiques
 

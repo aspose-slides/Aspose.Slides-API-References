@@ -1,7 +1,7 @@
 ---
 title: AutofitType
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает или устанавливает режим автоматической подгонки текста. Изменение этого свойства может оказать определенное влияние только на следующие элементы диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013; в PowerPoint 2007 эффект рендеринга отсутствует. Чтение/запись TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает режим автоформатирования текста. Изменение этого свойства может оказать определенное влияние только на эти части диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для отображения. Чтение/запись TextAutofitTypeaspose.slides/../aspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/icharttextblockformat/autofittype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/icharttextblockformat/autofittype/
 
 ## Свойство IChartTextBlockFormat.AutofitType
 
-Возвращает или устанавливает режим автоматической подгонки текста. Изменение этого свойства может оказать определенное влияние только на эти части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 эффект рендеринга отсутствует). Чтение/запись [`TextAutofitType`](../../../aspose.slides/textautofittype).
+Возвращает или устанавливает режим автоформатирования текста. Изменение этого свойства может оказать определенное влияние только на эти части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для отображения). Чтение/запись [`TextAutofitType`](../../../aspose.slides/textautofittype).
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }

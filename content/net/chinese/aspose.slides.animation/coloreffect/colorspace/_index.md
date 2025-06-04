@@ -1,7 +1,7 @@
 ---
 title: ColorSpace
-second_title: Aspose.Slides for .NET API 参考
-description: 表示行为的色彩空间。读取/写入 ColorSpaceaspose.slides.animation/colorspace。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示行为的颜色空间。读/写 ColorSpaceaspose.slides.animation/colorspace。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/coloreffect/colorspace/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/coloreffect/colorspace/
 
 ## ColorEffect.ColorSpace 属性
 
-表示行为的色彩空间。读取/写入 [`ColorSpace`](../../colorspace)。
+表示行为的颜色空间。读/写 [`ColorSpace`](../../colorspace)。
 
 ```csharp
 public ColorSpace ColorSpace { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Contains
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bestimmt, ob die Sammlung einen bestimmten Wert enthält.
 type: docs
 weight: 70
@@ -17,7 +17,7 @@ public bool Contains(IMathElement item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IMathElement | Das Objekt, das in der Sammlung gesucht werden soll. |
+| item | IMathElement | Das Objekt, das in der Sammlung lokalisiert werden soll. |
 
 ### Rückgabewert
 

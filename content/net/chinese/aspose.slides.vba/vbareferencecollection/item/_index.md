@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的元素。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.vba/vbareferencecollection/item/
 public IVbaReference this[int index] { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IVbaReference](../../ivbareference)
 * 类 [VbaReferenceCollection](../../vbareferencecollection)

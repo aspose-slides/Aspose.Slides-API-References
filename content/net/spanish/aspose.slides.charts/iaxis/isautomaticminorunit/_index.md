@@ -1,6 +1,6 @@
 ---
 title: IsAutomaticMinorUnit
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Aspose.Slides para .NET Referencia de API
 description: Indica si la unidad menor del eje se asigna automáticamente. Booleano de lectura/escritura.
 type: docs
 weight: 200
@@ -15,10 +15,10 @@ Indica si la unidad menor del eje se asigna automáticamente. Booleano de lectur
 public bool IsAutomaticMinorUnit { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

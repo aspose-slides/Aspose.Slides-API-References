@@ -1,6 +1,6 @@
 ---
 title: ParentCell
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только для чтения ICellaspose.slides/icell.
 type: docs
 weight: 40

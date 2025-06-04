@@ -12,7 +12,7 @@ url: /zh/aspose.slides.lowcode/convert.getoutpathcallback/
 public delegate string GetOutPathCallback(Slide slide, int index);
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [Slide](../../aspose.slides/slide)
 * class [Convert](../convert)

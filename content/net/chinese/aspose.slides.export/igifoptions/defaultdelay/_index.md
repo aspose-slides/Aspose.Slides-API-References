@@ -1,7 +1,7 @@
 ---
 title: DefaultDelay
-second_title: Aspose.Slidess for .NET API 参考
-description: 获取或设置默认延迟时间（毫秒）。如果未设置 AdvanceAfterTimeaspose.slides/../aspose.slides/islideshowtransition/advanceaftertime，则将使用此值。默认值为 1000。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置默认延迟时间 ms。如果未设置 AdvanceAfterTimeaspose.slides/../aspose.slides/islideshowtransition/advanceaftertime，将使用此值。默认值为 1000。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/igifoptions/defaultdelay/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/igifoptions/defaultdelay/
 
 ## IGifOptions.DefaultDelay 属性
 
-获取或设置默认延迟时间 [ms]。如果未设置 [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime)，则将使用此值。默认值为 1000。
+获取或设置默认延迟时间 [ms]。如果未设置 [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime)，将使用此值。默认值为 1000。
 
 ```csharp
 public int DefaultDelay { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IGifOptions](../../igifoptions)
 * 命名空间 [Aspose.Slides.Export](../../igifoptions)

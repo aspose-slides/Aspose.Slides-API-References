@@ -1,7 +1,7 @@
 ---
 title: Volume
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le volume audio. Lecture/écriture AudioVolumeModeaspose.slides/audiovolumemode.
+second_title: Références de l'API Aspose.Slides pour .NET
+description: Retourne ou définit le volume audio. Lecture/écriture AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs
 weight: 110
 url: /fr/aspose.slides/videoframe/volume/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/videoframe/volume/
 
 ## Propriété VideoFrame.Volume
 
-Renvoie ou définit le volume audio. Lecture/écriture [`AudioVolumeMode`](../../audiovolumemode).
+Retourne ou définit le volume audio. Lecture/écriture [`AudioVolumeMode`](../../audiovolumemode).
 
 ```csharp
 public AudioVolumeMode Volume { get; set; }

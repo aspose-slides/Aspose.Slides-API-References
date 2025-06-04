@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Stelle der Sammlung ein. Verknüpfte Layoutfolien werden ebenfalls kopiert.
+second_title: Aspose.Slidese für .NET API Referenz
+description: Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Position der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert.
 type: docs
 weight: 80
 url: /de/aspose.slides/masterslidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/masterslidecollection/insertclone/
 
 ## MasterSlideCollection.InsertClone-Methode
 
-Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Stelle der Sammlung ein. Verknüpfte Layoutfolien werden ebenfalls kopiert.
+Fügt eine Kopie einer angegebenen Masterfolie an der angegebenen Position der Sammlung hinzu. Verknüpfte Layoutfolien werden ebenfalls kopiert.
 
 ```csharp
 public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
@@ -26,36 +26,36 @@ Eingefügte Masterfolie.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man eine Masterfolie in einer anderen PowerPoint-Präsentation klont.
+Im folgenden Beispiel wird gezeigt, wie man eine Masterfolie in einer anderen PowerPoint-Präsentation klonen kann.
 
 ```csharp
 [C#]
-// Instanziiere die Presentation-Klasse, um die Quellpräsentationsdatei zu laden
+// Instanziieren der Presentation-Klasse, um die Quelldatei der Präsentation zu laden
 using (Presentation srcPres = new Presentation("CloneToAnotherPresentationWithMaster.pptx"))
 {
-    // Instanziiere die Presentation-Klasse für die Zielpräsentation (in die die Folie geklont werden soll)
+    // Instanziieren der Presentation-Klasse für die Zielpräsentation (wo die Folie geklont werden soll)
     using (Presentation destPres = new Presentation())
     {
-        // Instanziiere ISlide aus der Sammlung von Folien in der Quellpräsentation zusammen mit
+        // Instanziieren von ISlide aus der Folienkollektion in der Quellepräsentation zusammen mit
         // Masterfolie
         ISlide SourceSlide = srcPres.Slides[0];
         IMasterSlide SourceMaster = SourceSlide.LayoutSlide.MasterSlide;
-		// Hole Masterfolien der Zielpräsentation
+		// Holen der Masterfolien der Zielpräsentation
         IMasterSlideCollection masters = destPres.Masters;
-        // Klone die gewünschte Masterfolie von der Quellpräsentation in die Sammlung der Masterfolien in der
+        // Klonen der gewünschten Masterfolie von der Quelldpräsentation zur Sammlung der Master in der
         // Zielpräsentation
         IMasterSlide iSlide = masters.AddClone(SourceMaster);
         // Sammlung von Folien in der Zielpräsentation
         ISlideCollection slds = destPres.Slides;
-		// Klone die Quellfolie in die Sammlung der Zielvorlagen.
+		// Klonen der Quelldfolie in die Sammlung der Ziel Folien.
         slds.AddClone(SourceSlide, iSlide, true);
-        // Speichere die Zielpräsentation auf der Festplatte
+        // Speichern der Zielpräsentation auf der Festplatte
         destPres.Save("CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IMasterSlide](../../imasterslide)
 * class [MasterSlideCollection](../../masterslidecollection)

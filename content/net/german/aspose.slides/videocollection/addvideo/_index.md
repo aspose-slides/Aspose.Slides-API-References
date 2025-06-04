@@ -1,6 +1,6 @@
 ---
 title: AddVideo
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Fügt eine Kopie einer Videodatei aus einer anderen Präsentation hinzu.
 type: docs
 weight: 50
@@ -23,9 +23,9 @@ public IVideo AddVideo(IVideo video)
 
 Hinzugefügtes Video.
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IVideo](../../ivideo)
+* Interface [IVideo](../../ivideo)
 * Klasse [VideoCollection](../../videocollection)
 * Namespace [Aspose.Slides](../../videocollection)
 * Assembly [Aspose.Slides](../../../)
@@ -49,9 +49,9 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 Hinzugefügtes [`IVideo`](../../ivideo).
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IVideo](../../ivideo)
+* Interface [IVideo](../../ivideo)
 * Enum [LoadingStreamBehavior](../../loadingstreambehavior)
 * Klasse [VideoCollection](../../videocollection)
 * Namespace [Aspose.Slides](../../videocollection)
@@ -75,9 +75,9 @@ public IVideo AddVideo(byte[] videoData)
 
 Hinzugefügtes Video.
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IVideo](../../ivideo)
+* Interface [IVideo](../../ivideo)
 * Klasse [VideoCollection](../../videocollection)
 * Namespace [Aspose.Slides](../../videocollection)
 * Assembly [Aspose.Slides](../../../)

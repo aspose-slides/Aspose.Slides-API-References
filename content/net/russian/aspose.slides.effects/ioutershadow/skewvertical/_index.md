@@ -1,15 +1,15 @@
 ---
 title: SkewVertical
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает угол вертикального искажения в градусах. Читаемое/записываемое Double.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает угол вертикального искажения в градусах. Чтения/записи Double.
 type: docs
 weight: 120
 url: /ru/aspose.slides.effects/ioutershadow/skewvertical/
 ---
 
-## Свойство IOuterShadow.SkewVertical
+## IOuterShadow.SkewVertical свойство
 
-Указывает угол вертикального искажения (в градусах). Читаемое/записываемое Double.
+Указывает угол вертикального искажения (в градусах). Чтения/записи Double.
 
 ```csharp
 public double SkewVertical { get; set; }

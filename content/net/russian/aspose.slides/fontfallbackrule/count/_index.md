@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество шрифтов, фактически определенных для диапазона. Только для чтения Int32.
 type: docs
 weight: 20

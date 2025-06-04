@@ -1,6 +1,6 @@
 ---
 title: Worksheets
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取工作表集合。
 type: docs
 weight: 10
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)
 * 接口 [IChartDataWorkbook](../../ichartdataworkbook)

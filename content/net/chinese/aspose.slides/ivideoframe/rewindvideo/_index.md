@@ -1,7 +1,7 @@
 ---
 title: RewindVideo
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定视频是否在电影播放完成后自动重绕到开始。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定视频在播放完毕后是否会自动倒回到开始位置。可读/可写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ivideoframe/rewindvideo/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ivideoframe/rewindvideo/
 
 ## IVideoFrame.RewindVideo 属性
 
-确定视频是否在电影播放完成后自动重绕到开始。可读写布尔值。
+确定视频在播放完毕后是否会自动倒回到开始位置。可读/可写布尔值。
 
 ```csharp
 public bool RewindVideo { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IVideoFrame](../../ivideoframe)
 * 命名空间 [Aspose.Slides](../../ivideoframe)

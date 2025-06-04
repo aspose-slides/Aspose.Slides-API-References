@@ -1,6 +1,6 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el tipo de subrayado de texto.
 type: docs
 weight: 10700
@@ -39,9 +39,9 @@ public enum TextUnderlineType : sbyte
 | HeavyWavy | `16` |  |
 | DoubleWavy | `17` |  |
 
-### Vea También
+### Véase También
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

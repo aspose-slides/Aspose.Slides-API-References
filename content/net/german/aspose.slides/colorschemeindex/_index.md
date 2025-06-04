@@ -1,6 +1,6 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt einen Index in einem Farbschema dar.
 type: docs
 weight: 2460
@@ -20,9 +20,9 @@ public enum ColorSchemeIndex : byte
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Dark1 | `0` | Dunkel 1. |
-| Light1 | `1` | Hell 1. |
+| Light1 | `1` | Licht 1. |
 | Dark2 | `2` | Dunkel 2. |
-| Light2 | `3` | Hell 2. |
+| Light2 | `3` | Licht 2. |
 | Accent1 | `4` | Akzent 1. |
 | Accent2 | `5` | Akzent 2. |
 | Accent3 | `6` | Akzent 3. |
@@ -32,7 +32,7 @@ public enum ColorSchemeIndex : byte
 | Hyperlink | `10` | Hyperlink. |
 | FollowedHyperlink | `11` | Gefolgter Hyperlink. |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

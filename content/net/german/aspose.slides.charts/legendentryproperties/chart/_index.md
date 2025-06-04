@@ -1,7 +1,7 @@
 ---
 title: Chart
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das übergeordnete Diagramm zurück. Nur-Lese IChartaspose.slides/ichart.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das übergeordnete Diagramm zurück. Nur-Lesen IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/legendentryproperties/chart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legendentryproperties/chart/
 
 ## LegendEntryProperties.Chart-Eigenschaft
 
-Gibt das übergeordnete Diagramm zurück. Nur-Lese [`IChart`](../../ichart).
+Gibt das übergeordnete Diagramm zurück. Nur-Lesen [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

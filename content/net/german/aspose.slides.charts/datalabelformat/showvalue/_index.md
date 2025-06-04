@@ -1,15 +1,15 @@
 ---
 title: ShowValue
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das Verhalten zur Anzeige des Prozentsatzwerts des angegebenen Diagrammdatenetiketts dar. Wahr zeigt den Prozentsatzwert an. Falsch, um zu verbergen. Schreib-/Lese-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das Verhalten der Anzeige des Prozentwerts des Datenetiketts eines bestimmten Diagramms dar. True zeigt den Prozentwert an. False zum Ausblenden. Lese-/schreibbarer Boolean.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/datalabelformat/showvalue/
 ---
 
-## DataLabelFormat.ShowValue Eigenschaft
+## DataLabelFormat.ShowValue-Eigenschaft
 
-Stellt das Verhalten zur Anzeige des Prozentsatzwerts des angegebenen Diagrammdatenetiketts dar. Wahr zeigt den Prozentsatzwert an. Falsch, um zu verbergen. Schreib-/Lese-Boolean.
+Stellt das Verhalten der Anzeige des Prozentwerts des Datenetiketts eines bestimmten Diagramms dar. True zeigt den Prozentwert an. False zum Ausblenden. Lese-/schreibbarer Boolean.
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -17,9 +17,9 @@ public bool ShowValue { get; set; }
 
 ### Anmerkungen
 
-Wenn der übergeordnete Bestandteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenetiketten ist, dann wird mit dieser Eigenschaft der Standardwert der ShowValue-Eigenschaft für die neuen Datenetiketten in der DataLabelCollection-Sammlung abgerufen oder festgelegt. Das Festlegen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die ShowValue-Eigenschaft aller Datenetiketten in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowValue = val;" bewirkt, dass alle DataLabels[i].ShowValue gleich val ist).
+Wenn der übergeordnete Objekt dieser DataLabelFormat-Instanz eine DataLabelCollection Sammlung von Datenetiketten ist, dann wird diese Eigenschaft auf den Standardwert der ShowValue-Eigenschaft für die neuen Datenetiketten in der DataLabelCollection-Sammlung festgelegt. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die ShowValue-Eigenschaft aller Datenetiketten in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowValue = val;" bewirkt, dass alle DataLabels[i].ShowValue gleich val ist).
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DataLabelFormat](../../datalabelformat)
 * Namespace [Aspose.Slides.Charts](../../datalabelformat)

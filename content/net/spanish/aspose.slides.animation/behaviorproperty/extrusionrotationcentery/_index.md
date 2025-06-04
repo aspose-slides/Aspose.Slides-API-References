@@ -15,10 +15,10 @@ Representa la propiedad 'extrusion.rotationcenter.y'
 public static BehaviorProperty ExtrusionRotationCenterY { get; }
 ```
 
-### Ver También
+### Vea También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

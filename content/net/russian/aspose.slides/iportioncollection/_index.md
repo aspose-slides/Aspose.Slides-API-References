@@ -1,7 +1,7 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Slides для .NET API Справка
-description: Представляет коллекцию порций.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию порций.
 type: docs
 weight: 6510
 url: /ru/aspose.slides/iportioncollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iportioncollection/
 
 ## Интерфейс IPortionCollection
 
-Представляет коллекцию порций.
+Представляет собой коллекцию порций.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,7 +19,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения. |
 | [Count](../../aspose.slides/iportioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Получает элемент по указанному индексу. |
 
@@ -33,7 +33,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Определяет индекс конкретной порции в коллекции. |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Вставляет порцию в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Удаляет первое вхождение конкретного объекта из ICollection. |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 
 ### Смотрите также
 

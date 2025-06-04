@@ -1,6 +1,6 @@
 ---
 title: IFontSources
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Fournit des sources de fichiers et de mémoire pour des polices externes.
 type: docs
 weight: 5670

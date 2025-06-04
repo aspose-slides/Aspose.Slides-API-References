@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回此对象的哈希码。
+description: 返回该对象的哈希码。
 type: docs
 weight: 210
 url: /zh/aspose.slides/fieldtype/gethashcode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fieldtype/gethashcode/
 
 ## FieldType.GetHashCode 方法
 
-返回此对象的哈希码。
+返回该对象的哈希码。
 
 ```csharp
 public override int GetHashCode()
@@ -19,7 +19,7 @@ public override int GetHashCode()
 
 哈希码 Int32。
 
-### 另请参见
+### 另见
 
 * class [FieldType](../../fieldtype)
 * namespace [Aspose.Slides](../../fieldtype)

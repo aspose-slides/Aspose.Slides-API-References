@@ -1,13 +1,13 @@
 ---
 title: ExtrusionRotationAngleX
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaft extrusion.rotationangle.x dar
 type: docs
 weight: 140
 url: /de/aspose.slides.animation/behaviorproperty/extrusionrotationanglex/
 ---
 
-## BehaviorProperty.ExtrusionRotationAngleX Eigenschaft
+## BehaviorProperty.ExtrusionRotationAngleX-Eigenschaft
 
 Stellt die Eigenschaft 'extrusion.rotationangle.x' dar
 
@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'extrusion.rotationangle.x' dar
 public static BehaviorProperty ExtrusionRotationAngleX { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

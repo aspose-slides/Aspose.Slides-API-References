@@ -1,21 +1,21 @@
 ---
 title: ScaleVertical
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает переворот. Чтение/запись Double.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает переворот. Читаемый/записываемый Double.
 type: docs
 weight: 70
 url: /ru/aspose.slides.effects/outershadow/scalevertical/
 ---
 
-## Свойство OuterShadow.ScaleVertical
+## OuterShadow.ScaleVertical свойство
 
-Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает переворот. Чтение/запись Double.
+Указывает вертикальный коэффициент масштабирования, отрицательное масштабирование вызывает переворот. Читаемый/записываемый Double.
 
 ```csharp
 public double ScaleVertical { get; set; }
 ```
 
-### Также см.
+### См. Также
 
 * класс [OuterShadow](../../outershadow)
 * пространство имен [Aspose.Slides.Effects](../../outershadow)

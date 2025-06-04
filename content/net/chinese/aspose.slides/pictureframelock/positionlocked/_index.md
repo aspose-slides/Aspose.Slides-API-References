@@ -1,6 +1,6 @@
 ---
 title: PositionLocked
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定移动此形状是否被禁止。可读/写布尔值。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/pictureframelock/positionlocked/
 public bool PositionLocked { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [PictureFrameLock](../../pictureframelock)
 * namespace [Aspose.Slides](../../pictureframelock)

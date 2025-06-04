@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Obtient la règle à l'index spécifié. Lecture seule IFontFallBackRule aspose.slides/ifontfallbackrule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/fontfallbackrulescollection/item/
 ---
 
-## Indice FontFallBackRulesCollection
+## indexeur FontFallBackRulesCollection
 
 Obtient la règle à l'index spécifié. Lecture seule [`IFontFallBackRule`](../../ifontfallbackrule).
 
@@ -21,11 +21,11 @@ public IFontFallBackRule this[int index] { get; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-    //Obtention d'une collection de règles vide ou préinitialisée depuis FontsManager
+    //Obtention de la collection de règles vide ou préinitialisée à partir de FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
     //Ajout de plusieurs règles à la collection
-    rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
+    rulesList.Add(new FontFallBackRule(0x400, 0x4FF, "Times New Roman"));
     rulesList.Add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho"));
 
     //Récupération de l'objet de la première règle dans la collection
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontFallBackRule](../../ifontfallbackrule)
 * class [FontFallBackRulesCollection](../../fontfallbackrulescollection)

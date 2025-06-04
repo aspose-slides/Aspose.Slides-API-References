@@ -18,13 +18,13 @@ public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | templ | IColumn | 用作模板的列。 |
-| withAttachedColumns | Boolean | 为 true 时还复制所有附加到模板行的列。 |
+| withAttachedColumns | Boolean | 若为真，则还复制所有附加到模板行的列。 |
 
 ### 返回值
 
 添加的列。
 
-### 另见
+### 另请参阅
 
 * 接口 [IColumn](../../icolumn)
 * 类 [ColumnCollection](../../columncollection)

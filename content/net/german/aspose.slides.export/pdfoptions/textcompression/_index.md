@@ -1,7 +1,7 @@
 ---
 title: TextCompression
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt den Kompressionstyp an, der für alle Textinhalte im Dokument verwendet werden soll. Lesen/ Schreiben von PdfTextCompressionaspose.slides.export/pdftextcompression.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den zu verwendenden Kompressionstyp für alle Textinhalte im Dokument an. Lese-/Schreibzugriff auf PdfTextCompressionaspose.slides/pdftextcompression.
 type: docs
 weight: 200
 url: /de/aspose.slides.export/pdfoptions/textcompression/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/pdfoptions/textcompression/
 
 ## PdfOptions.TextCompression-Eigenschaft
 
-Gibt den Kompressionstyp an, der für alle Textinhalte im Dokument verwendet werden soll. Lesen/ Schreiben von [`PdfTextCompression`](../../pdftextcompression).
+Gibt den Kompressionstyp an, der für alle Textinhalte im Dokument verwendet werden soll. Lese-/Schreibzugriff auf [`PdfTextCompression`](../../pdftextcompression).
 
 ```csharp
 public PdfTextCompression TextCompression { get; set; }
@@ -17,7 +17,7 @@ public PdfTextCompression TextCompression { get; set; }
 
 ### Anmerkungen
 
-Der Standardwert ist Flate.
+Standard ist Flate.
 
 ### Siehe auch
 

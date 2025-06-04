@@ -1,13 +1,13 @@
 ---
 title: Angle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 描述运动路径的相对角度。可读写单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/imotioneffect/angle/
 ---
 
-## IMotionEffect.Angle 属性
+## IMotionEffect.Angle property
 
 描述运动路径的相对角度。可读写单精度浮点数。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/imotioneffect/angle/
 public float Angle { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IMotionEffect](../../imotioneffect)
 * 命名空间 [Aspose.Slides.Animation](../../imotioneffect)

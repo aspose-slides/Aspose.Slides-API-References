@@ -1,7 +1,7 @@
 ---
 title: Rewind
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Este atributo especifica si el efecto se rebobinará al finalizar la reproducción. Booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Este atributo especifica si el efecto se rebobinará cuando termine de reproducirse. Booleano de lectura/escritura.
 type: docs
 weight: 100
 url: /es/aspose.slides.animation/timing/rewind/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/timing/rewind/
 
 ## Propiedad Timing.Rewind
 
-Este atributo especifica si el efecto se rebobinará al finalizar la reproducción. Booleano de lectura/escritura.
+Este atributo especifica si el efecto se rebobinará cuando termine de reproducirse. Booleano de lectura/escritura.
 
 ```csharp
 public bool Rewind { get; set; }
@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Ver También
+### También Visto
 
 * class [Timing](../../timing)
 * namespace [Aspose.Slides.Animation](../../timing)

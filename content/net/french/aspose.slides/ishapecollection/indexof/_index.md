@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Renvoie l'index basé sur zéro de la première occurrence d'une forme dans la collection.
 type: docs
 weight: 210
 url: /fr/aspose.slides/ishapecollection/indexof/
 ---
 
-## Méthode IShapeCollection.IndexOf
+## IShapeCollection.IndexOf méthode
 
 Renvoie l'index basé sur zéro de la première occurrence d'une forme dans la collection.
 

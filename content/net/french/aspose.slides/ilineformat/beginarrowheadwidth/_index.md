@@ -1,13 +1,13 @@
 ---
 title: BeginArrowheadWidth
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Renvoie ou définit la largeur de la flèche au début d'une ligne. Lecture/écriture LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ilineformat/beginarrowheadwidth/
 ---
 
-## Propriété ILineFormat.BeginArrowheadWidth
+## ILineFormat.BeginArrowheadWidth propriété
 
 Renvoie ou définit la largeur de la flèche au début d'une ligne. Lecture/écriture [`LineArrowheadWidth`](../../linearrowheadwidth).
 
@@ -15,7 +15,7 @@ Renvoie ou définit la largeur de la flèche au début d'une ligne. Lecture/écr
 public LineArrowheadWidth BeginArrowheadWidth { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [LineArrowheadWidth](../../linearrowheadwidth)
 * interface [ILineFormat](../../ilineformat)

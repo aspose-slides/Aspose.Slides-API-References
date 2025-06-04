@@ -1,6 +1,6 @@
 ---
 title: TitleStyle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回标题文本的样式。只读 ITextStyle aspose.slides/itextstyle。
 type: docs
 weight: 90

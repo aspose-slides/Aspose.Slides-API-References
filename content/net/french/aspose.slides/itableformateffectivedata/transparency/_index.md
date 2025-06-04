@@ -1,7 +1,7 @@
 ---
 title: Transparency
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient la transparence de la couleur de remplissage. Lecture Unique.
+description: Obtient la transparence de la couleur de remplissage. Lire Single.
 type: docs
 weight: 20
 url: /fr/aspose.slides/itableformateffectivedata/transparency/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itableformateffectivedata/transparency/
 
 ## Propriété ITableFormatEffectiveData.Transparency
 
-Obtient la transparence de la couleur de remplissage. Lecture Unique.
+Obtient la transparence de la couleur de remplissage. Lire Single.
 
 ```csharp
 public float Transparency { get; }

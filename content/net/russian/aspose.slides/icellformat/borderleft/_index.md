@@ -1,13 +1,13 @@
 ---
 title: BorderLeft
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает объект свойств левой границы линии. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icellformat/borderleft/
 ---
 
-## Свойство ICellFormat.BorderLeft
+## ICellFormat.BorderLeft свойство
 
 Возвращает объект свойств левой границы линии. Только для чтения [`ILineFormat`](../../ilineformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icellformat/borderleft/
 public ILineFormat BorderLeft { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ILineFormat](../../ilineformat)
 * интерфейс [ICellFormat](../../icellformat)

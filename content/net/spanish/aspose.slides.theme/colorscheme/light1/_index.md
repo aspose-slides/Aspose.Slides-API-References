@@ -1,6 +1,6 @@
 ---
 title: Light1
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slidess para .NET
 description: Primer color claro en el esquema. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 120
@@ -15,11 +15,11 @@ Primer color claro en el esquema. Solo lectura [`IColorFormat`](../../../aspose.
 public IColorFormat Light1 { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
-* clase [ColorScheme](../../colorscheme)
-* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../../aspose.slides/icolorformat)
+* clase [ColorScheme](../../colorscheme)
+* espacio de nombres [Aspose.Slides.Theme](../../colorscheme)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

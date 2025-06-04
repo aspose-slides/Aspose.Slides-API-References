@@ -1,7 +1,7 @@
 ---
 title: Column
-second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格所在工作表的列索引。只读 Int32。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个只读 Int32，表示单元格所在工作表的列索引。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ichartdatacell/column/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatacell/column/
 
 ## IChartDataCell.Column 属性
 
-返回单元格所在工作表的列索引。只读 Int32。
+返回一个只读 Int32，表示单元格所在工作表的列索引。
 
 ```csharp
 public int Column { get; }

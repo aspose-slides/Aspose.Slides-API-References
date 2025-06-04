@@ -15,7 +15,7 @@ url: /zh/aspose.slides/background/effectformat/
 public IEffectFormat EffectFormat { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 类 [Background](../../background)

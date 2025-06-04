@@ -1,7 +1,7 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Slides для .NET API Справочник
-description: Предлагает методы, которые помогают обрабатывать объекты фигур.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Предоставляет методы, которые помогают обрабатывать объекты фигур.
 type: docs
 weight: 11200
 url: /ru/aspose.slides.util/shapeutil/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.util/shapeutil/
 
 ## Класс ShapeUtil
 
-Предлагает методы, которые помогают обрабатывать объекты фигур.
+Предоставляет методы, которые помогают обрабатывать объекты фигур.
 
 ```csharp
 public static class ShapeUtil

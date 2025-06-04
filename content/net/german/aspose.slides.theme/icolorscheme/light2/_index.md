@@ -1,7 +1,7 @@
 ---
 title: Light2
-second_title: Aspose.Slides für .NET API Referenz
-description: Zweite helle Farbe im Schema. Nur-Lese IColorFormat aspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Zweite helle Farbe im Schema. Nur-lesend IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 140
 url: /de/aspose.slides.theme/icolorscheme/light2/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.theme/icolorscheme/light2/
 
 ## IColorScheme.Light2-Eigenschaft
 
-Zweite helle Farbe im Schema. Nur-Lese [`IColorFormat`](../../../aspose.slides/icolorformat).
+Zweite helle Farbe im Schema. Nur-lesend [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Light2 { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IColorFormat](../../../aspose.slides/icolorformat)
 * Schnittstelle [IColorScheme](../../icolorscheme)

@@ -1,7 +1,7 @@
 ---
 title: Floor
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个对象，允许更改3D图表地面的格式。只读 IChartWall aspose.slides.charts/ichartwall。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个对象，允许更改3D图表的地板格式。只读 IChartWallaspose.slides.charts/ichartwall。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/chart/floor/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chart/floor/
 
 ## Chart.Floor 属性
 
-返回一个对象，允许更改3D图表地面的格式。只读 [`IChartWall`](../../ichartwall)。
+返回一个对象，允许更改3D图表的地板格式。只读 [`IChartWall`](../../ichartwall)。
 
 ```csharp
 public IChartWall Floor { get; }

@@ -1,21 +1,21 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes для .NET API Reference
-description: Представляет свойства нормального представления. Нормальное представление состоит из трех областей содержимого самого слайда, боковой области содержимого и нижней области содержимого. Только для чтения INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: Представляет свойства нормального вида. Нормальный вид состоит из трех областей содержания самого слайда, боковой области содержания и нижней области содержания. Только для чтения INormalViewPropertiesaspose.slides/inormalviewproperties.
 type: docs
 weight: 30
 url: /ru/aspose.slides/viewproperties/normalviewproperties/
 ---
 
-## Свойство ViewProperties.NormalViewProperties
+## ViewProperties.NormalViewProperties property
 
-Представляет свойства нормального представления. Нормальное представление состоит из трех областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого. Только для чтения [`INormalViewProperties`](../../inormalviewproperties).
+Представляет свойства нормального вида. Нормальный вид состоит из трех областей содержания: самого слайда, боковой области содержания и нижней области содержания. Только для чтения [`INormalViewProperties`](../../inormalviewproperties).
 
 ```csharp
 public INormalViewProperties NormalViewProperties { get; }
 ```
 
-### Смотрите также
+### See Also
 
 * интерфейс [INormalViewProperties](../../inormalviewproperties)
 * класс [ViewProperties](../../viewproperties)

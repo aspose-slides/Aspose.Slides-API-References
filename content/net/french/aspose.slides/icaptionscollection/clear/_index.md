@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Supprime tous les sous-titres de la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icaptionscollection/clear/
 ---
 
-## Méthode ICaptionsCollection.Clear
+## ICaptionsCollection.Clear méthode
 
 Supprime tous les sous-titres de la collection.
 

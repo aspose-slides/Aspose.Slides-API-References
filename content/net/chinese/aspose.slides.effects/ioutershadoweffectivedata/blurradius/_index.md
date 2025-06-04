@@ -1,6 +1,6 @@
 ---
 title: BlurRadius
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 模糊半径。只读 Double。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ioutershadoweffectivedata/blurradius/
 public double BlurRadius { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ioutershadoweffectivedata)

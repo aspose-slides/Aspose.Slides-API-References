@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 ISlideComponent 接口。只读 ISlideComponent aspose.slides/islidecomponent。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 ISlideComponent 接口。只读 ISlideComponent aspose.slides/islidecomponent。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ishape/asislidecomponent/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishape/asislidecomponent/
 
 ## IShape.AsISlideComponent 属性
 
-允许获取基本 ISlideComponent 接口。只读 [`ISlideComponent`](../../islidecomponent)。
+允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../../islidecomponent)。
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ISlideComponent](../../islidecomponent)
 * 接口 [IShape](../../ishape)

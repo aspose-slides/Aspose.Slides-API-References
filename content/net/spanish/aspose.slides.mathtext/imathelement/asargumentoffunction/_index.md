@@ -1,7 +1,7 @@
 ---
 title: AsArgumentOfFunction
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Toma la función especificada usando esta instancia como argumento
+description: Toma la función especificada usando esta instancia como el argumento
 type: docs
 weight: 20
 url: /es/aspose.slides.mathtext/imathelement/asargumentoffunction/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/imathelement/asargumentoffunction/
 
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-Toma la función especificada usando esta instancia como argumento
+Toma la función especificada usando esta instancia como el argumento
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
@@ -21,7 +21,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 ### Valor de Retorno
 
-Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático de tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -36,16 +36,16 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ### Véase También
 
-* interfaz [IMathFunction](../../imathfunction)
-* interfaz [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-Toma la función especificada usando esta instancia como argumento
+Toma la función especificada usando esta instancia como el argumento
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
@@ -57,7 +57,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 ### Valor de Retorno
 
-Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático de tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -71,16 +71,16 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ### Véase También
 
-* interfaz [IMathFunction](../../imathfunction)
-* interfaz [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathFunction](../../imathfunction)
+* interface [IMathElement](../../imathelement)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-Toma la función especificada usando esta instancia como argumento
+Toma la función especificada usando esta instancia como el argumento
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
@@ -92,7 +92,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 ### Valor de Retorno
 
-Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático de tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -106,17 +106,17 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfOneArgument
 
 ### Véase También
 
-* interfaz [IMathFunction](../../imathfunction)
+* interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
-* interfaz [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-Toma la función especificada usando esta instancia como argumento y el argumento adicional especificado
+Toma la función especificada usando esta instancia como el argumento y el argumento adicional especificado
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -130,7 +130,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 ### Valor de Retorno
 
-Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático de tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -145,17 +145,17 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ### Véase También
 
-* interfaz [IMathFunction](../../imathfunction)
+* interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
-* interfaz [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-Toma la función especificada usando esta instancia como argumento y el argumento adicional especificado
+Toma la función especificada usando esta instancia como el argumento y el argumento adicional especificado
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -169,7 +169,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 ### Valor de Retorno
 
-Nuevo elemento matemático del tipo [`IMathFunction`](../../imathfunction)
+Nuevo elemento matemático de tipo [`IMathFunction`](../../imathfunction)
 
 ### Ejemplos
 
@@ -183,10 +183,10 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ### Véase También
 
-* interfaz [IMathFunction](../../imathfunction)
+* interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
-* interfaz [IMathElement](../../imathelement)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelement)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IMathElement](../../imathelement)
+* namespace [Aspose.Slides.MathText](../../imathelement)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

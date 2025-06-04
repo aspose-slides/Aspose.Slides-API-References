@@ -1,13 +1,13 @@
 ---
 title: Function
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathelement/function/
 ---
 
-## Функция(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
 Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 
@@ -34,7 +34,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionName.Function(functionArg);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathFunction](../../imathfunction)
 * интерфейс [IMathElement](../../imathelement)
@@ -43,7 +43,7 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## Функция(string) {#function_1}
+## Function(string) {#function_1}
 
 Принимает функцию аргумента, используя этот экземпляр в качестве имени функции
 
@@ -69,7 +69,7 @@ IMathElement functionName = new MathematicalText("sin");
 IMathFunction func = functionName.Function("x");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathFunction](../../imathfunction)
 * интерфейс [IMathElement](../../imathelement)

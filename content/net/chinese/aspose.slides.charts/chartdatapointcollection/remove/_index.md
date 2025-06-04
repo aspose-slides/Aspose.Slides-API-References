@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 移除指定的值。
 type: docs
 weight: 310
@@ -17,9 +17,9 @@ public void Remove(IChartDataPoint value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartDataPoint | 值。 |
+| value | IChartDataPoint | 该值。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

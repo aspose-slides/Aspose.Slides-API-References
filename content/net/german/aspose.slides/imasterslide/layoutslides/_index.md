@@ -1,7 +1,7 @@
 ---
 title: LayoutSlides
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von untergeordneten Layoutfolien für diese Masterfolie zurück. Nur-lesbarer IMasterLayoutSlideCollectionaspose.slides/imasterlayoutslidecollection.
+description: Gibt die Sammlung von untergeordneten Layoutfolien für diese Masterfolie zurück. Nur-Lese IMasterLayoutSlideCollectionaspose.slides/imasterlayoutslidecollection.
 type: docs
 weight: 60
 url: /de/aspose.slides/imasterslide/layoutslides/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/imasterslide/layoutslides/
 
 ## IMasterSlide.LayoutSlides-Eigenschaft
 
-Gibt die Sammlung von untergeordneten Layoutfolien für diese Masterfolie zurück. Nur-lesbarer [`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).
+Gibt die Sammlung von untergeordneten Layoutfolien für diese Masterfolie zurück. Nur-Lese [`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).
 
 ```csharp
 public IMasterLayoutSlideCollection LayoutSlides { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-Sie können auf eine alternative API zum Hinzufügen/Einfügen/Entfernen/Klonen von Layoutfolien zugreifen, indem Sie die Eigenschaft [`LayoutSlides`](../../ipresentation/layoutslides) verwenden.
+Sie können auf die alternative API zum Hinzufügen/Einfügen/Entfernen/Kopieren von Layoutfolien zugreifen, indem Sie die [`LayoutSlides`](../../ipresentation/layoutslides)-Eigenschaft verwenden.
 
 ### Siehe auch
 

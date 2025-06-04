@@ -1,7 +1,7 @@
 ---
 title: IndexOfName
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回集合中指定键的零基索引。
+description: 返回集合中指定键的零基础索引。
 type: docs
 weight: 130
 url: /zh/aspose.slides/tagcollection/indexofname/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/tagcollection/indexofname/
 
 ## TagCollection.IndexOfName 方法
 
-返回集合中指定键的零基索引。
+返回集合中指定键的零基础索引。
 
 ```csharp
 public int IndexOfName(string name)
@@ -17,13 +17,13 @@ public int IndexOfName(string name)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 要在集合中定位的名称。 |
+| name | String | 要在集合中查找的名称。 |
 
 ### 返回值
 
-如果在集合中找到键，则返回键的零基索引；否则返回 -1。
+如果在集合中找到键，则返回键的零基础索引；否则，返回 -1。
 
-### 另见
+### 另请参阅
 
 * class [TagCollection](../../tagcollection)
 * namespace [Aspose.Slides](../../tagcollection)

@@ -1,6 +1,6 @@
 ---
 title: Value
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 属性的值
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/ibehaviorproperty/value/
 public string Value { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBehaviorProperty](../../ibehaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../ibehaviorproperty)

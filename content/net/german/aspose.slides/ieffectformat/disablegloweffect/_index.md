@@ -1,13 +1,13 @@
 ---
 title: DisableGlowEffect
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Glüheffekt deaktivieren.
 type: docs
 weight: 130
 url: /de/aspose.slides/ieffectformat/disablegloweffect/
 ---
 
-## IEffectFormat.DisableGlowEffect-Methode
+## IEffectFormat.DisableGlowEffect Methode
 
 Glüheffekt deaktivieren.
 

@@ -1,13 +1,13 @@
 ---
 title: AsIBulkTextFormattable
-second_title: Aspose.Slide для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения IBulkTextFormattableaspose.slides/ibulktextformattable.
 type: docs
 weight: 10
 url: /ru/aspose.slides/irow/asibulktextformattable/
 ---
 
-## IRow.AsIBulkTextFormattable свойство
+## IRow.AsIBulkTextFormattable property
 
 Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения [`IBulkTextFormattable`](../../ibulktextformattable).
 

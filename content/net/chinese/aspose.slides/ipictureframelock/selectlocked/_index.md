@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定是否禁止选择此形状。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定选择此形状是否被禁止。可读写布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides/ipictureframelock/selectlocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframelock/selectlocked/
 
 ## IPictureFrameLock.SelectLocked 属性
 
-确定是否禁止选择此形状。可读/可写布尔值。
+确定选择此形状是否被禁止。可读写布尔值。
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

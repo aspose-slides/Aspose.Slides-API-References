@@ -1,6 +1,6 @@
 ---
 title: ISequence
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente une collection de séquences d'effets.
 type: docs
 weight: 510
@@ -22,7 +22,7 @@ public interface ISequence : IEnumerable<IEffect>
 | [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Permet d'obtenir l'interface de base IEnumerable. En lecture seule IEnumerable. |
 | [Count](../../aspose.slides.animation/isequence/count) { get; } | Retourne le nombre d'effets dans une séquence. En lecture seule Int32. |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | Retourne un effet à l'index spécifié. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Retourne ou définit la forme cible pour une séquence INTERACTIVE. Si la séquence n'est pas interactive, retourne null. Lecture/écriture [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Retourne ou définit la forme cible pour la séquence INTERACTIVE. Si la séquence n'est pas interactive, retourne null. Lecture/écriture [`IShape`](../../aspose.slides/ishape). |
 
 ## Méthodes
 
@@ -30,8 +30,8 @@ public interface ISequence : IEnumerable<IEffect>
 | --- | --- |
 | [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Ajoute un nouvel effet d'animation pour le paragraphe à la fin de la séquence. |
 | [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Ajoute un nouvel effet à la fin de la séquence. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Ajoute le nouvel effet d'animation de graphique pour la catégorie ou la série à la fin de la séquence. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Ajoute le nouvel effet d'animation de graphique pour les éléments dans la catégorie ou la série à la fin de la séquence. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Ajoute un nouvel effet d'animation de graphique pour la catégorie ou la série à la fin de la séquence. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Ajoute un nouvel effet d'animation de graphique pour les éléments dans la catégorie ou la série à la fin de la séquence. |
 | [Clear](../../aspose.slides.animation/isequence/clear)() | Supprime tous les effets d'une collection. |
 | [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Retourne le nombre d'effets pour la forme spécifiée. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Retourne un tableau d'effets pour le paragraphe spécifié. |

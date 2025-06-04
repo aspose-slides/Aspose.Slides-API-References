@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtiene datos de formato de párrafo efectivo con la herencia aplicada.
 type: docs
 weight: 160
@@ -15,13 +15,13 @@ Obtiene datos de formato de párrafo efectivo con la herencia aplicada.
 public IParagraphFormatEffectiveData GetEffective()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Una [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
+Un [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo obtener algunas propiedades efectivas del formato de párrafo.
+Este ejemplo demuestra cómo obtener algunas propiedades del formato de párrafo efectivo.
 
 ```csharp
 [C#]
@@ -30,13 +30,13 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
 	IParagraphFormatEffectiveData effectiveParagraphFormat = shape.TextFrame.Paragraphs[0].ParagraphFormat.GetEffective();
 
-	Console.WriteLine("Alineación de texto: " + effectiveParagraphFormat.Alignment);
-	Console.WriteLine("Sangría: " + effectiveParagraphFormat.Indent);
+	Console.WriteLine("Alineación del texto: " + effectiveParagraphFormat.Alignment);
+	Console.WriteLine("Indentación: " + effectiveParagraphFormat.Indent);
 	Console.WriteLine("Tipo de viñeta: " + effectiveParagraphFormat.Bullet.Type);
 }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * clase [ParagraphFormat](../../paragraphformat)

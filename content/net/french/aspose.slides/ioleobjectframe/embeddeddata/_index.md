@@ -1,7 +1,7 @@
 ---
 title: EmbeddedData
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient des informations sur les données OLE embarquées. Lecture seule IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient des informations sur les données OLE intégrées. Lecture seule IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ioleobjectframe/embeddeddata/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ioleobjectframe/embeddeddata/
 
 ## Propriété IOleObjectFrame.EmbeddedData
 
-Obtient des informations sur les données OLE embarquées. Lecture seule [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).
+Obtient des informations sur les données OLE intégrées. Lecture seule [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).
 
 ```csharp
 public IOleEmbeddedDataInfo EmbeddedData { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
 * interface [IOleObjectFrame](../../ioleobjectframe)

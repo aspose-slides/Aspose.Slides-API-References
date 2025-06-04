@@ -1,7 +1,7 @@
 ---
 title: ShowCommentsByNoAuthor
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Sichtbarkeit von Kommentaren ab oder legt sie fest, die keinen Autor haben. Wenn true, werden die Kommentare angezeigt. Gilt nur, wenn Kommentare angezeigt werden.
+description: Ruft die Sichtbarkeit von Kommentaren ab oder legt sie fest, die keinen Autor haben. Wenn wahr, werden die Kommentare angezeigt. Gilt nur, wenn Kommentare angezeigt werden.
 type: docs
 weight: 60
 url: /de/aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauth
 
 ## NotesCommentsLayoutingOptions.ShowCommentsByNoAuthor-Eigenschaft
 
-Ruft die Sichtbarkeit von Kommentaren ab oder legt sie fest, die keinen Autor haben. Wenn true, werden die Kommentare angezeigt. (Gilt nur, wenn Kommentare angezeigt werden).
+Ruft die Sichtbarkeit von Kommentaren ab oder legt sie fest, die keinen Autor haben. Wenn wahr, werden die Kommentare angezeigt. (Gilt nur, wenn Kommentare angezeigt werden).
 
 ```csharp
 public bool ShowCommentsByNoAuthor { get; set; }

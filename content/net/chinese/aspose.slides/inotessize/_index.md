@@ -1,6 +1,6 @@
 ---
 title: INotesSize
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示备注幻灯片的大小。
 type: docs
 weight: 6290
@@ -19,9 +19,9 @@ public interface INotesSize
 
 | 名称 | 描述 |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | 返回或设置以点为单位的大小。可读写 SizeF。 |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | 返回或设置以点为单位的大小。读/写 SizeF。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Anzeigeverhalten des Prozentwerts eines bestimmten Diagrammdatenetiketts dar. True zeigt den Prozentwert an. False zum Ausblenden. Lese-/Schreib-Boolean.
+description: Stellt das Verhalten der Anzeige des prozentualen Wertes eines bestimmten Diagrammdatenbeschriftungsformats dar. True zeigt den Prozentwert an. False, um ihn zu verbergen. Lese-/Schreibbarer Boolean.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/idatalabelformat/showpercentage/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/idatalabelformat/showpercentage/
 
 ## IDataLabelFormat.ShowPercentage-Eigenschaft
 
-Stellt das Anzeigeverhalten des Prozentwerts eines bestimmten Diagrammdatenetiketts dar. True zeigt den Prozentwert an. False zum Ausblenden. Lese-/Schreib-Boolean.
+Stellt das Verhalten der Anzeige des prozentualen Wertes einer Diagrammdatenbeschriftung dar. True zeigt den Prozentwert an. False, um ihn zu verbergen. Lese-/Schreibbarer Boolean.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -17,7 +17,7 @@ public bool ShowPercentage { get; set; }
 
 ### Anmerkungen
 
-Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenetiketten ist, dann erhält oder setzt diese Eigenschaft den Standardwert der ShowPercentage-Eigenschaft für die neuen Datenetiketten in der DataLabelCollection-Sammlung. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die ShowPercentage-Eigenschaft aller Datenetiketten in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" führt dazu, dass alle DataLabels[i].ShowPercentage gleich val ist).
+Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der ShowPercentage-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die ShowPercentage-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection (d.h. "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" bewirkt, dass alle DataLabels[i].ShowPercentage gleich val ist).
 
 ### Siehe auch
 

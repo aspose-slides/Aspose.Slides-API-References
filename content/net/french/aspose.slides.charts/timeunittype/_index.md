@@ -1,7 +1,7 @@
 ---
 title: TimeUnitType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente l'unité de base pour l'axe de catégorie
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente l'unité de base pour l'axe des catégories
 type: docs
 weight: 2380
 url: /fr/aspose.slides.charts/timeunittype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/timeunittype/
 
 ## Énumération TimeUnitType
 
-Représente l'unité de base pour l'axe de catégorie
+Représente l'unité de base pour l'axe des catégories
 
 ```csharp
 public enum TimeUnitType
@@ -17,14 +17,14 @@ public enum TimeUnitType
 
 ### Valeurs
 
-| Nom   | Valeur | Description                               |
-|-------|--------|-------------------------------------------|
-| None  | `0`    | Les valeurs seront affichées telles quelles. |
-| Days  | `1`    | Spécifie que les données du graphique doivent être affichées en jours. |
-| Months| `2`    | Spécifie que les données du graphique doivent être affichées en mois. |
-| Years | `3`    | Spécifie que les données du graphique doivent être affichées en années. |
+| Nom | Valeur | Description |
+| --- | --- | --- |
+| None | `0` | Les valeurs seront affichées telles quelles. |
+| Days | `1` | Spécifie que les données du graphique doivent être affichées en jours. |
+| Months | `2` | Spécifie que les données du graphique doivent être affichées en mois. |
+| Years | `3` | Spécifie que les données du graphique doivent être affichées en années. |
 
-### Voir aussi
+### Voir Aussi
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

@@ -1,15 +1,15 @@
 ---
 title: PieSplitBy
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie comment déterminer quels points de données se trouvent dans le deuxième camembert ou barre sur un graphique en camembert ou barre en camembert. Lecture/écriture de PieSplitTypeaspose.slides.charts/piesplittype.
+description: Spécifie comment déterminer quels points de données se trouvent dans le second graphique à secteurs ou à barres sur un graphique à secteurs ou à barres à secteurs. Lecture/écriture de PieSplitTypeaspose.slides.charts/piesplittype.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/ichartseriesgroup/piesplitby/
 ---
 
-## Propriété IChartSeriesGroup.PieSplitBy
+## IChartSeriesGroup.PieSplitBy property
 
-Spécifie comment déterminer quels points de données se trouvent dans le deuxième camembert ou barre sur un graphique en camembert ou barre en camembert. Lecture/écriture de [`PieSplitType`](../../piesplittype).
+Spécifie comment déterminer quels points de données se trouvent dans le second graphique à secteurs ou à barres sur un graphique à secteurs ou à barres à secteurs. Lecture/écriture de [`PieSplitType`](../../piesplittype).
 
 ```csharp
 public PieSplitType PieSplitBy { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: BackColor
-second_title: Aspose.Slides for .NET API 参考
-description: 返回背景图案颜色。只读 IColorFormataspose.slides/icolorformat。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回背景图案颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides/patternformat/backcolor/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/patternformat/backcolor/
 public IColorFormat BackColor { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 类 [PatternFormat](../../patternformat)

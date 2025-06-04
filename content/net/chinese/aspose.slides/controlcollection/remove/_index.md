@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除一个 ActiveX 控件。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除一个ActiveX控件。
 type: docs
 weight: 90
 url: /zh/aspose.slides/controlcollection/remove/
 ---
 
-## ControlCollection.Remove 方法
+## ControlCollection.Remove method
 
-从集合中移除一个 ActiveX 控件。
+从集合中移除一个ActiveX控件。
 
 ```csharp
 public void Remove(IControl item)
@@ -19,7 +19,7 @@ public void Remove(IControl item)
 | --- | --- | --- |
 | item | IControl | 要移除的控件。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IControl](../../icontrol)
 * 类 [ControlCollection](../../controlcollection)

@@ -1,15 +1,15 @@
 ---
 title: HidePlaceholders
-second_title: Справочник по API Aspose.Slides для .NET
-description: Скрыть заполнители для пустых элементов матрицы. По умолчанию false
+second_title: Aspose.Sildes для .NET API Справочник
+description: Скрыть заполнители для пустых элементов матрицы По умолчанию false
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/imathmatrix/hideplaceholders/
 ---
 
-## Свойство IMathMatrix.HidePlaceholders
+## IMathMatrix.HidePlaceholders свойство
 
-Скрыть заполнители для пустых элементов матрицы. По умолчанию: false
+Скрыть заполнители для пустых элементов матрицы По умолчанию: false
 
 ```csharp
 public bool HidePlaceholders { get; set; }
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.HidePlaceholders = true;
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathMatrix](../../imathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../imathmatrix)

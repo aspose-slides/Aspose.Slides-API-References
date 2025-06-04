@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime les sous-titres fermés spécifiés de la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/captionscollection/remove/
 ---
 
-## Méthode CaptionsCollection.Remove
+## CaptionsCollection.Remove méthode
 
 Supprime les sous-titres fermés spécifiés de la collection.
 

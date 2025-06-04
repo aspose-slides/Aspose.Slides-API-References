@@ -1,6 +1,6 @@
 ---
 title: TextFormat
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回文本格式。只读 IChartTextFormataspose.slides.charts/icharttextformat。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/charttitle/textformat/
 public IChartTextFormat TextFormat { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartTextFormat](../../icharttextformat)
 * 类 [ChartTitle](../../charttitle)

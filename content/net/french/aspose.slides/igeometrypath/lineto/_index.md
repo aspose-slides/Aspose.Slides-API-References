@@ -1,6 +1,6 @@
 ---
 title: LineTo
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Sildes pour la référence API .NET
 description: Ajoute une ligne à la fin du chemin
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public void LineTo(PointF point)
 | --- | --- | --- |
 | point | PointF | Point final de la ligne |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)
@@ -40,7 +40,7 @@ public void LineTo(float x, float y)
 | x | Single | Coordonnée X du point final de la ligne |
 | y | Single | Coordonnée Y du point final de la ligne |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)
@@ -59,15 +59,15 @@ public void LineTo(PointF point, uint index)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | point | PointF | Point final |
-| index | UInt32 | Index de segment dans PathData |
+| index | UInt32 | Index du segment dans PathData |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | L'index de segment est hors de la plage de PathData |
+| ArgumentOutOfRangeException | L'index du segment est hors de la plage PathData |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)
@@ -87,15 +87,15 @@ public void LineTo(float x, float y, uint index)
 | --- | --- | --- |
 | x | Single | Coordonnée X du point |
 | y | Single | Coordonnée Y du point |
-| index | UInt32 | Index de segment dans PathData |
+| index | UInt32 | Index du segment dans PathData |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | L'index de segment est hors de la plage de PathData |
+| ArgumentOutOfRangeException | L'index du segment est hors de la plage PathData |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)

@@ -1,15 +1,15 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Если категория существует в коллекции, верните ее. В противном случае создайте новую категорию диаграммы из IChartDataCellaspose.slides.charts/ichartdatacell и добавьте ее в коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Если категория существует в коллекции, верните её. Если нет, создаёт новую категорию графика из IChartDataCellaspose.slides.charts/ichartdatacell и добавляет её в коллекцию.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartcategorycollection/add/
 ---
 
-## Добавить(IChartDataCell) {#add}
+## Add(IChartDataCell) {#add}
 
-Если категория существует в коллекции, верните ее. В противном случае создайте новую категорию диаграммы из [`IChartDataCell`](../../ichartdatacell) и добавьте ее в коллекцию.
+Если категория существует в коллекции, верните её. Если нет, создаёт новую категорию графика из [`IChartDataCell`](../../ichartdatacell) и добавляет её в коллекцию.
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -17,13 +17,13 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| chartDataCell | IChartDataCell | Ячейка, используемая для создания категории диаграммы. |
+| chartDataCell | IChartDataCell | Ячейка, используемая для создания категории графика. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Добавленная или существующая категория.
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IChartCategory](../../ichartcategory)
 * интерфейс [IChartDataCell](../../ichartdatacell)
@@ -33,9 +33,9 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 ---
 
-## Добавить(object) {#add_1}
+## Add(object) {#add_1}
 
-Создает новую [`IChartCategory`](../../ichartcategory) из значения и добавляет ее в коллекцию.
+Создаёт новую [`IChartCategory`](../../ichartcategory) из значения и добавляет её в коллекцию.
 
 ```csharp
 public IChartCategory Add(object value)
@@ -45,7 +45,7 @@ public IChartCategory Add(object value)
 | --- | --- | --- |
 | value | Object | Значение. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Добавленная [`IChartCategory`](../../ichartcategory).
 
@@ -53,13 +53,13 @@ public IChartCategory Add(object value)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | если превышен лимит |
+| InvalidOperationException | если превышен предел |
 
 ### Примечания
 
 Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет все значения туда. Если вы используете [`IChartDataWorkbook`](../../ichartdataworkbook) для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист. Максимальное количество значений, добавленных с помощью этого метода, не должно превышать 16711680.
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IChartCategory](../../ichartcategory)
 * интерфейс [IChartCategoryCollection](../../ichartcategorycollection)

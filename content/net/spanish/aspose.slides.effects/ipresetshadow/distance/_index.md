@@ -1,15 +1,15 @@
 ---
 title: Distance
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Distancia de la sombra. Lectura/escritura Doble.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Distancia de la sombra. Leer/escribir Double.
 type: docs
 weight: 40
 url: /es/aspose.slides.effects/ipresetshadow/distance/
 ---
 
-## Propiedad IPresetShadow.Distance
+## IPresetShadow.Distance property
 
-Distancia de la sombra. Lectura/escritura Doble.
+Distancia de la sombra. Leer/escribir Double.
 
 ```csharp
 public double Distance { get; set; }
@@ -19,6 +19,6 @@ public double Distance { get; set; }
 
 * interfaz [IPresetShadow](../../ipresetshadow)
 * espacio de nombres [Aspose.Slides.Effects](../../ipresetshadow)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

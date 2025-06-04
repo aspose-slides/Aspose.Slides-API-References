@@ -1,13 +1,13 @@
 ---
 title: GetLineStyles
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie une collection de styles de ligne définis par le thème.
 type: docs
 weight: 40
 url: /fr/aspose.slides.theme/iformatschemeeffectivedata/getlinestyles/
 ---
 
-## Méthode IFormatSchemeEffectiveData.GetLineStyles
+## IFormatSchemeEffectiveData.GetLineStyles méthode
 
 Renvoie une collection de styles de ligne définis par le thème.
 
@@ -19,11 +19,11 @@ public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Couleur |
 
-### Valeur de Retour
+### Valeur de retour
 
 Collection de formats de ligne effectifs [`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILineFormatCollectionEffectiveData](../../ilineformatcollectioneffectivedata)
 * interface [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: AddEmptyModule
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega un nuevo módulo vacío al Proyecto VBA.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Agrega un nuevo módulo vacío al proyecto VBA.
 type: docs
 weight: 50
 url: /es/aspose.slides.vba/vbamodulecollection/addemptymodule/
 ---
 
-## VbaModuleCollection.AddEmptyModule método
+## VbaModuleCollection.AddEmptyModule method
 
-Agrega un nuevo módulo vacío al Proyecto VBA.
+Agrega un nuevo módulo vacío al proyecto VBA.
 
 ```csharp
 public IVbaModule AddEmptyModule(string name)
@@ -19,15 +19,15 @@ public IVbaModule AddEmptyModule(string name)
 | --- | --- | --- |
 | name | String | Nombre del módulo |
 
-### Valor de Retorno
+### Valor de retorno
 
 Módulo agregado.
 
-### Véase También
+### Véase también
 
-* interfaz [IVbaModule](../../ivbamodule)
-* clase [VbaModuleCollection](../../vbamodulecollection)
-* espacio de nombres [Aspose.Slides.Vba](../../vbamodulecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IVbaModule](../../ivbamodule)
+* class [VbaModuleCollection](../../vbamodulecollection)
+* namespace [Aspose.Slides.Vba](../../vbamodulecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

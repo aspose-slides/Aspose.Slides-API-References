@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides.mathtext/mathleftsubsuperscriptelement/getchildren/
 ---
 
-## MathLeftSubSuperscriptElement.GetChildren método
+## MathLeftSubSuperscriptElement.GetChildren method
 
 Obtener elementos hijos
 
@@ -15,11 +15,11 @@ Obtener elementos hijos
 public IMathElement[] GetChildren()
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IMathElement](../../imathelement)
-* clase [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)
-* espacio de nombres [Aspose.Slides.MathText](../../mathleftsubsuperscriptelement)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMathElement](../../imathelement)
+* clase [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement)
+* espacio de nombres [Aspose.Slides.MathText](../../mathleftsubsuperscriptelement)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

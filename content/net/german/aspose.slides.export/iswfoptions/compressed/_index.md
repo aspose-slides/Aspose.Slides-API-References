@@ -1,7 +1,7 @@
 ---
 title: Compressed
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standardmäßig ist es true.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standardwert ist true.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/iswfoptions/compressed/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/iswfoptions/compressed/
 
 ## ISwfOptions.Compressed-Eigenschaft
 
-Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standardmäßig ist `true`.
+Gibt an, ob das generierte SWF-Dokument komprimiert werden soll oder nicht. Standardwert ist `true`.
 
 ```csharp
 public bool Compressed { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISwfOptions](../../iswfoptions)
 * Namespace [Aspose.Slides.Export](../../iswfoptions)

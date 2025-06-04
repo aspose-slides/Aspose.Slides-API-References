@@ -1,13 +1,13 @@
 ---
 title: CheckPassword
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Vérifie si un mot de passe est correct pour une présentation protégée par un mot de passe ouvert.
 type: docs
 weight: 50
 url: /fr/aspose.slides/presentationinfo/checkpassword/
 ---
 
-## Méthode PresentationInfo.CheckPassword
+## PresentationInfo.CheckPassword method
 
 Vérifie si un mot de passe est correct pour une présentation protégée par un mot de passe ouvert.
 
@@ -21,7 +21,7 @@ public bool CheckPassword(string password)
 
 ### Valeur de retour
 
-Vrai si la présentation est protégée par un mot de passe ouvert et que le mot de passe est correct, sinon faux.
+Vrai si la présentation est protégée par un mot de passe ouvert et que le mot de passe est correct, et faux sinon.
 
 ### Exceptions
 
@@ -42,9 +42,9 @@ IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presen
 bool isPasswordCorrect = info.CheckPassword("my_password");
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* classe [PresentationInfo](../../presentationinfo)
+* class [PresentationInfo](../../presentationinfo)
 * namespace [Aspose.Slides](../../presentationinfo)
 * assembly [Aspose.Slides](../../../)
 

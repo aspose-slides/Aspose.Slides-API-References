@@ -1,7 +1,7 @@
 ---
 title: SolidFillColor
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Füllfarbe zurück. Nur-lesbar IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Füllfarbe zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /de/aspose.slides/fillformat/solidfillcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fillformat/solidfillcolor/
 
 ## FillFormat.SolidFillColor-Eigenschaft
 
-Gibt die Füllfarbe zurück. Nur-lesbar [`IColorFormat`](../../icolorformat).
+Gibt die Füllfarbe zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat SolidFillColor { get; }

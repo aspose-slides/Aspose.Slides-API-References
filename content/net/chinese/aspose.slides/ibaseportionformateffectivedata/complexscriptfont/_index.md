@@ -1,7 +1,7 @@
 ---
 title: ComplexScriptFont
-second_title: Aspose.Slides for .NET API 参考
-description: 返回复杂脚本字体信息。只读 IFontData aspose.slides/ifontdata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回复杂脚本字体信息。仅限读取 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ibaseportionformateffectivedata/complexscriptfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/complexscriptfont/
 
 ## IBasePortionFormatEffectiveData.ComplexScriptFont 属性
 
-返回复杂脚本字体信息。只读 [`IFontData`](../../ifontdata)。
+返回复杂脚本字体信息。仅限读取 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData ComplexScriptFont { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

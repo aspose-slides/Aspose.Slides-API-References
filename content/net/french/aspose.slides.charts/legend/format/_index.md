@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie le format d'une légende. Lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Renvoie le format d'une légende. Lecture seule [`IFormat`](../../iformat).
 public IFormat Format { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFormat](../../iformat)
 * classe [Legend](../../legend)

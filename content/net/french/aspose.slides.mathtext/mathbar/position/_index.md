@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Position de la ligne de la barre. Par défaut  Haut
+second_title: Aspose.Slides pour .NET Référence API
+description: Position de la ligne de barre. Par défaut Haut
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathbar/position/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathbar/position/
 
 ## Propriété MathBar.Position
 
-Position de la ligne de la barre. Par défaut : Haut
+Position de la ligne de barre. Par défaut : Haut
 
 ```csharp
 public MathTopBotPositions Position { get; set; }
@@ -25,7 +25,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 mathBar.Position = MathTopBotPositions.Bottom;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * class [MathBar](../../mathbar)

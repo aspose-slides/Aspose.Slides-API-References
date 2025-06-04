@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-Lese IImageTransformOperation aspose.slides.effects/iimagetransformoperation.
+description: Ermöglicht den Zugriff auf das Basisschnittstelle IImageTransformOperation. Nur lesbares IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/ialphamodulate/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphamodulate/asiimagetransformoperation/
 
 ## IAlphaModulate.AsIImageTransformOperation Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-Lese [`IImageTransformOperation`](../../iimagetransformoperation).
+Ermöglicht den Zugriff auf das Basisschnittstelle IImageTransformOperation. Nur lesbares [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

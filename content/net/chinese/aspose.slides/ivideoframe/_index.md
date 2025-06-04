@@ -21,18 +21,18 @@ public interface IVideoFrame : IPictureFrame
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | 允许获取基本的 IPictureFrame 接口。只读 [`IPictureFrame`](../ipictureframe)。 |
 | [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | 返回视频的字幕集合。只读 [`ICaptionsCollection`](../icaptionscollection)。 |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | 返回或设置嵌入的视频对象。读写 [`IVideo`](../ivideo)。 |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | 决定视频是否以全屏模式显示。读写 Boolean。 |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | 决定 VideoFrame 是否被隐藏。读写 Boolean。 |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | 返回或设置链接到 VideoFrame 的视频文件的名称。读写 String。 |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | 决定视频是否循环播放。读写 Boolean。 |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | 返回或设置嵌入的 视频对象。读写 [`IVideo`](../ivideo)。 |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | 确定视频是否以全屏模式显示。读写布尔值。 |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | 确定 VideoFrame 是否隐藏。读写布尔值。 |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | 返回或设置与 VideoFrame 关联的视频文件的名称。读写字符串。 |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | 确定视频是否循环播放。读写布尔值。 |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | 返回或设置视频播放模式。读写 [`VideoPlayModePreset`](../videoplaymodepreset)。 |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | 决定视频在播放结束后是否自动回放到开始。读写 Boolean。 |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | 确定视频在播放完成后是否自动回放到开始。读写布尔值。 |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | 修剪结束 [毫秒] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | 修剪开始 [毫秒] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | 返回或设置音频音量。读写 [`AudioVolumeMode`](../audiovolumemode)。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPictureFrame](../ipictureframe)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

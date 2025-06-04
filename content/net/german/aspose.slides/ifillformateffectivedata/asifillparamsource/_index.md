@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IFillParamSource-Interface zurück. Schreibgeschütztes IFillParamSource aspose.slides/ifillparamsource.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das IFillParamSource-Interface zurück. Nur-Lese IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/ifillformateffectivedata/asifillparamsource/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ifillformateffectivedata/asifillparamsource/
 
 ## IFillFormatEffectiveData.AsIFillParamSource-Eigenschaft
 
-Gibt das IFillParamSource-Interface zurück. Schreibgeschützt [`IFillParamSource`](../../ifillparamsource).
+Gibt das IFillParamSource-Interface zurück. Nur-Lese [`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
 Dies dient der COM-Kompatibilität.
 

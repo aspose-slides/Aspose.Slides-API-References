@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los elementos de la colección.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Ver también
+### Ver También
 
 * clase [PortionCollection](../../portioncollection)
 * espacio de nombres [Aspose.Slides](../../portioncollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

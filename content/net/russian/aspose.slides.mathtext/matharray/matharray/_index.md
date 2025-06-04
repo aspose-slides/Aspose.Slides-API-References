@@ -1,7 +1,7 @@
 ---
 title: MathArray
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает математический массив и помещает в него заданный элемент
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает математический массив и помещает в него указанный элемент
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/matharray/matharray/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/matharray/matharray/
 
 ## MathArray(IMathElement) {#constructor}
 
-Создает математический массив и помещает в него заданный элемент
+Создает математический массив и помещает в него указанный элемент
 
 ```csharp
 public MathArray(IMathElement element)
@@ -17,7 +17,7 @@ public MathArray(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Элемент, который нужно поместить в массив |
+| element | IMathElement | Элемент, который следует поместить в массив |
 
 ### Примеры
 
@@ -39,7 +39,7 @@ MathArray mathArray = new MathArray(new MathematicalText("item1"));
 
 ## MathArray(IEnumerable&lt;IMathElement&gt;) {#constructor_1}
 
-Создает математический массив и помещает в него заданные элементы
+Создает математический массив и помещает указанные элементы в него
 
 ```csharp
 public MathArray(IEnumerable<IMathElement> elements)

@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Schreibgeschütztes Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung threadsicher synchronisiert ist. Nur-lesendes Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides/sectioncollection/issynchronized/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/sectioncollection/issynchronized/
 
 ## SectionCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Schreibgeschütztes Boolean.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur-lesendes Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SectionCollection](../../sectioncollection)
 * Namespace [Aspose.Slides](../../sectioncollection)

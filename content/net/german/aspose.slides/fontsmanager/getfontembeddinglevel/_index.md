@@ -1,15 +1,15 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt den Einbettungsgrad einer Schriftart aus dem gegebenen Byte-Array und dem Schriftartnamen.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt das Einbettungsniveau einer Schriftart aus dem gegebenen Byte-Array und dem Schriftartnamen.
 type: docs
 weight: 60
 url: /de/aspose.slides/fontsmanager/getfontembeddinglevel/
 ---
 
-## FontsManager.GetFontEmbeddingLevel Methode
+## FontsManager.GetFontEmbeddingLevel-Methode
 
-Bestimmt den Einbettungsgrad einer Schriftart aus dem gegebenen Byte-Array und dem Schriftartnamen.
+Bestimmt das Einbettungsniveau einer Schriftart aus dem gegebenen Byte-Array und dem Schriftartnamen.
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -22,7 +22,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 ### Rückgabewert
 
-Der Einbettungsgrad der angegebenen Schriftart.
+Das Einbettungsniveau der angegebenen Schriftart.
 
 ### Ausnahmen
 
@@ -39,15 +39,15 @@ using (Presentation pres = new Presentation(pptxFileName))
     // Alle in der Präsentation verwendeten Schriftarten abrufen
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // Das Byte-Array abrufen, das den normalen Stil der ersten Schriftart in der Präsentation darstellt
+    // Das Byte-Array abrufen, das den regulären Stil der ersten Schriftart in der Präsentation darstellt
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
-    // Den Einbettungsgrad der Schriftart bestimmen
+    // Das Einbettungsniveau der Schriftart bestimmen
     EmbeddingLevel embeddingLevel = pres.FontsManager.GetFontEmbeddingLevel(bytes, fontDatas[0].FontName);
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [EmbeddingLevel](../../embeddinglevel)
 * class [FontsManager](../../fontsmanager)

@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将集合中的所有元素复制到指定数组中。
 type: docs
 weight: 70
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array |  |
 | index | Int32 |  |
 
-### 另见
+### 另请参阅
 
 * class [SmartArtNodeCollection](../../smartartnodecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)

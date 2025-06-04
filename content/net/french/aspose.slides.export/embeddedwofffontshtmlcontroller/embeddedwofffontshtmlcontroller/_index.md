@@ -1,6 +1,6 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée une nouvelle instance.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Crée une nouvelle instance.
 public EmbeddedWoffFontsHtmlController()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)
 * espace de noms [Aspose.Slides.Export](../../embeddedwofffontshtmlcontroller)
@@ -33,9 +33,9 @@ public EmbeddedWoffFontsHtmlController(IHtmlFormattingController controller)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| controller | IHtmlFormattingController | Contrôleur de formatage HTML. |
+| controller | IHtmlFormattingController | Contrôleur de mise en forme HTML. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * classe [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller)

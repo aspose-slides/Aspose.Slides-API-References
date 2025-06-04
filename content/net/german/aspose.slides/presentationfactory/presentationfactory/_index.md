@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides/presentationfactory/presentationfactory/
 ---
 
-## PräsentationFactory Konstruktor
+## Präsentationsfabrik Konstruktor
 
 Der Standardkonstruktor.
 

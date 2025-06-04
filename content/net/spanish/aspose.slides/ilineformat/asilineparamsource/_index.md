@@ -1,15 +1,15 @@
 ---
 title: AsILineParamSource
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base ILineParamSource. Solo lectura ILineParamSource aspose.slides/ilineparamsource.
+description: Permite obtener la interfaz base ILineParamSource. ILineParamSource de solo lectura aspose.slides/ilineparamsource.
 type: docs
 weight: 20
 url: /es/aspose.slides/ilineformat/asilineparamsource/
 ---
 
-## Propiedad ILineFormat.AsILineParamSource
+## ILineFormat.AsILineParamSource property
 
-Permite obtener la interfaz base ILineParamSource. Solo lectura [`ILineParamSource`](../../ilineparamsource).
+Permite obtener la interfaz base ILineParamSource. De solo lectura [`ILineParamSource`](../../ilineparamsource).
 
 ```csharp
 public ILineParamSource AsILineParamSource { get; }

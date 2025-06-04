@@ -1,7 +1,7 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Slides for .NET API Referenz
-description: Stellt eine Sammlung der Closed Captions dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt eine Sammlung der geschlossenen Untertitel dar.
 type: docs
 weight: 5240
 url: /de/aspose.slides/icaptionscollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icaptionscollection/
 
 ## ICaptionsCollection-Schnittstelle
 
-Stellt eine Sammlung der Closed Captions dar.
+Stellt eine Sammlung der geschlossenen Untertitel dar.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -19,18 +19,18 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-lesbar Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Gibt die Closed Captions am angegebenen Index zurück. Nur-lesbar [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32. |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Gibt die geschlossenen Untertitel am angegebenen Index zurück. Nur-Lese [`ICaptions`](../icaptions). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Fügt am Ende der Sammlung WebVTT Closed Captions aus einem Stream hinzu. |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Fügt am Ende der Sammlung WebVTT Closed Captions hinzu. |
-| [Clear](../../aspose.slides/icaptionscollection/clear)() | Entfernt alle Closed Captions aus der Sammlung. |
-| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Entfernt die angegebenen Closed Captions aus der Sammlung. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Entfernt die Closed Captions am angegebenen Index. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Fügt WebVTT geschlossene Untertitel am Ende der Sammlung aus einem Stream hinzu. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Fügt WebVTT geschlossene Untertitel am Ende der Sammlung hinzu. |
+| [Clear](../../aspose.slides/icaptionscollection/clear)() | Entfernt alle geschlossenen Untertitel aus der Sammlung. |
+| [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Entfernt die angegebenen geschlossenen Untertitel aus der Sammlung. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Entfernt die geschlossenen Untertitel am angegebenen Index. |
 
 ### Siehe auch
 

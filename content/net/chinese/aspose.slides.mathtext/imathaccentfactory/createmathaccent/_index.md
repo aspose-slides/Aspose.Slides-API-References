@@ -1,6 +1,6 @@
 ---
 title: CreateMathAccent
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建一个数学重音，应用于指定的数学元素，使用默认的重音字符值
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public IMathAccent CreateMathAccent(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用重音的数学元素 |
+| element | IMathElement | 要应用重音的数学元素 |
 
 ### 返回值
 
 新的数学重音
 
-### 另请参见
+### 参见
 
 * 接口 [IMathAccent](../../imathaccent)
 * 接口 [IMathElement](../../imathelement)
@@ -43,14 +43,14 @@ public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用重音的数学元素 |
+| element | IMathElement | 要应用重音的数学元素 |
 | accentCharacter | Char | 重音字符 |
 
 ### 返回值
 
 新的数学重音
 
-### 另请参见
+### 参见
 
 * 接口 [IMathAccent](../../imathaccent)
 * 接口 [IMathElement](../../imathelement)

@@ -1,6 +1,6 @@
 ---
 title: Text
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slildes for .NET API Reference
 description: 获取或设置段落的纯文本。可读/写字符串。
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public string Text { get; set; }
 
 文本。
 
-### 另请参见
+### 另见
 
 * 接口 [IParagraph](../../iparagraph)
 * 命名空间 [Aspose.Slides](../../iparagraph)

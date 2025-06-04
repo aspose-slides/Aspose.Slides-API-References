@@ -7,7 +7,7 @@ weight: 90
 url: /fr/aspose.slides/slide/getslidecomments/
 ---
 
-## Slide.GetSlideComments méthode
+## Slide.GetSlideComments method
 
 Renvoie tous les commentaires de diapositive ajoutés par un auteur spécifique.
 
@@ -17,7 +17,7 @@ public IComment[] GetSlideComments(ICommentAuthor author)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| author | ICommentAuthor | Auteur des commentaires à trouver ou null pour retourner tous les commentaires. |
+| author | ICommentAuthor | Auteur des commentaires à trouver ou null pour renvoyer tous les commentaires. |
 
 ### Valeur de retour
 

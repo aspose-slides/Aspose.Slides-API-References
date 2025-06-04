@@ -1,13 +1,13 @@
 ---
 title: Dark1
-second_title: Aspose.Slides pour la référence de l'API .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Première couleur sombre dans le schéma. Couleur en lecture seule.
 type: docs
 weight: 70
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/dark1/
 ---
 
-## Propriété IColorSchemeEffectiveData.Dark1
+## IColorSchemeEffectiveData.Dark1 propriété
 
 Première couleur sombre dans le schéma. Couleur en lecture seule.
 

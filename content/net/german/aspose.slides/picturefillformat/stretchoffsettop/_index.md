@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetTop
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die obere Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Versatz von der oberen Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz spezifiziert eine Einpassung, während ein negativer Prozentsatz eine Auslassung spezifiziert. Lesen/ Schreiben Einzelwert.
+description: Gibt die obere Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Versatz von der oberen Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt eine Einlage an, während ein negativer Prozentsatz einen Auszug angibt. Lese-/Schreibzugriff Einzel.
 type: docs
 weight: 110
 url: /de/aspose.slides/picturefillformat/stretchoffsettop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/stretchoffsettop/
 
 ## PictureFillFormat.StretchOffsetTop-Eigenschaft
 
-Gibt die obere Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Versatz von der oberen Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz spezifiziert eine Einpassung, während ein negativer Prozentsatz eine Auslassung spezifiziert. Lesen/ Schreiben Einzelwert.
+Gibt die obere Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Versatz von der oberen Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt eine Einlage an, während ein negativer Prozentsatz einen Auszug angibt. Lese-/Schreibzugriff Einzel.
 
 ```csharp
 public float StretchOffsetTop { get; set; }

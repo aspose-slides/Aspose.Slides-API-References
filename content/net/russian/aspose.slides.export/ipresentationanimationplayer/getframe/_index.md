@@ -1,13 +1,13 @@
 ---
 title: GetFrame
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для справки по API .NET
 description: Получите кадр для текущей временной позиции, ранее установленной с помощью метода SetTimePosition../settimeposition.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ipresentationanimationplayer/getframe/
 ---
 
-## Метод IPresentationAnimationPlayer.GetFrame
+## IPresentationAnimationPlayer.GetFrame метод
 
 Получите кадр для текущей временной позиции, ранее установленной с помощью метода [`SetTimePosition`](../settimeposition).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ipresentationanimationplayer/getframe/
 public IImage GetFrame()
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IImage](../../../aspose.slides/iimage)
 * интерфейс [IPresentationAnimationPlayer](../../ipresentationanimationplayer)

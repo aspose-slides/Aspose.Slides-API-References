@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает ImageTransformOperationaspose.slides.effects/imagetransformoperation из коллекции по её индексу.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает ImageTransformOperationaspose.slides.effects/imagetransformoperation из коллекции по его индексу.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/item/
@@ -19,7 +19,7 @@ public IImageTransformOperation this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### См. также
+### См. Также
 
 * интерфейс [IImageTransformOperation](../../iimagetransformoperation)
 * класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)

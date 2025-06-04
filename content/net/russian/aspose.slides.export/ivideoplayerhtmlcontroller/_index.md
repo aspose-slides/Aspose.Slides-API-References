@@ -1,7 +1,7 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Slides для .NET API Справочник
-description: Этот класс позволяет экспортировать видео и аудио файлы в HTML
+second_title: Aspose.Slides для .NET API Reference
+description: Этот класс позволяет экспортировать видео и аудиофайлы в HTML
 type: docs
 weight: 4010
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/
 
 ## Интерфейс IVideoPlayerHtmlController
 
-Этот класс позволяет экспортировать видео и аудио файлы в HTML
+Этот класс позволяет экспортировать видео и аудиофайлы в HTML
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -24,7 +24,7 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 | [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Позволяет получить базовый интерфейс ILinkEmbedController. Только для чтения [`ILinkEmbedController`](../ilinkembedcontroller). |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Позволяет получить базовый интерфейс ISvgShapeFormattingController. Только для чтения [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
-### Также см. 
+### См. также
 
 * интерфейс [IHtmlFormattingController](../ihtmlformattingcontroller)
 * интерфейс [ILinkEmbedController](../ilinkembedcontroller)

@@ -1,6 +1,6 @@
 ---
 title: Color
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 颜色。只读颜色。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/igloweffectivedata/color/
 public Color Color { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IGlowEffectiveData](../../igloweffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../igloweffectivedata)

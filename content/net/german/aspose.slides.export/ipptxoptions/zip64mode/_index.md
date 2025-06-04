@@ -1,13 +1,13 @@
 ---
 title: Zip64Mode
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt an, ob das ZIP64-Format für das Präsentationsdokument verwendet wird. Der Standardwert ist IfNecessary
 type: docs
 weight: 40
 url: /de/aspose.slides.export/ipptxoptions/zip64mode/
 ---
 
-## IPptxOptions.Zip64Mode Eigenschaft
+## IPptxOptions.Zip64Mode-Eigenschaft
 
 Gibt an, ob das ZIP64-Format für das Präsentationsdokument verwendet wird. Der Standardwert ist IfNecessary
 

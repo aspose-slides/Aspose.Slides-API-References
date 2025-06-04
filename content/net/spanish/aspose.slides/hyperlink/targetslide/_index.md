@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Si el Hipervínculo apunta a una diapositiva específica, devuelve esta diapositiva. Solo lectura ISlideaspose.slides/islide.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Si el hipervínculo apunta a una diapositiva específica, devuelve esta diapositiva. Solo lectura ISlideaspose.slides/islide.
 type: docs
 weight: 190
 url: /es/aspose.slides/hyperlink/targetslide/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/hyperlink/targetslide/
 
 ## Propiedad Hyperlink.TargetSlide
 
-Si el Hipervínculo apunta a una diapositiva específica, devuelve esta diapositiva. Solo lectura [`ISlide`](../../islide).
+Si el hipervínculo apunta a una diapositiva específica, devuelve esta diapositiva. Solo lectura [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; }

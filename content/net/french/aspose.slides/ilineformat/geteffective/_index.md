@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient les données de formatage de ligne effectif avec l'héritage appliqué.
 type: docs
 weight: 200
 url: /fr/aspose.slides/ilineformat/geteffective/
 ---
 
-## ILineFormat.GetEffective method
+## ILineFormat.GetEffective méthode
 
 Obtient les données de formatage de ligne effectif avec l'héritage appliqué.
 
@@ -15,11 +15,11 @@ Obtient les données de formatage de ligne effectif avec l'héritage appliqué.
 public ILineFormatEffectiveData GetEffective()
 ```
 
-### Return Value
+### Valeur de retour
 
-Une [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Un [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
-### See Also
+### Voir aussi
 
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * interface [ILineFormat](../../ilineformat)

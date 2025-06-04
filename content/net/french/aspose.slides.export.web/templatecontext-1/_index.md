@@ -1,13 +1,13 @@
 ---
 title: TemplateContextTObject
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente une interface d'objet modèle pour un moteur de template.
 type: docs
 weight: 4480
 url: /fr/aspose.slides.export.web/templatecontext-1/
 ---
 
-## Classe TemplateContext&lt;TObject&gt;
+## TemplateContext&lt;TObject&gt; classe
 
 Représente une interface d'objet modèle pour un moteur de template.
 
@@ -19,10 +19,10 @@ public sealed class TemplateContext<TObject>
 
 | Nom | Description |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Renvoie le stockage global du document hôte. Lecture seule [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Renvoie le stockage local du contexte de template actuel. Lecture seule [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Renvoie l'objet modèle. Lecture seule !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Renvoie la collection d'éléments de sortie du document hôte. Lecture seule [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Renvoie le stockage global du document hôte. Usager seul [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Renvoie le stockage local du contexte de template actuel. Usager seul [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Renvoie l'objet modèle. Usager seul !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Renvoie la collection des éléments de sortie du document hôte. Usager seul [`Output`](./output). |
 
 ## Méthodes
 
@@ -30,7 +30,7 @@ public sealed class TemplateContext<TObject>
 | --- | --- |
 | [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) |  |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * assembly [Aspose.Slides](../../)

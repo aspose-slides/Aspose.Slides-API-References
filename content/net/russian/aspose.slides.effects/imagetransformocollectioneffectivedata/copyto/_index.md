@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/
 ---
 
-## Метод ImageTransformOCollectionEffectiveData.CopyTo
+## ImageTransformOCollectionEffectiveData.CopyTo метод
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Массив для заполнения. |
 | index | Int32 | Начальная позиция в целевом массиве. |
 
-### Смотрите также
+### См. Также
 
 * класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

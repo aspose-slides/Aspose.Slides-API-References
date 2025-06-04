@@ -1,6 +1,6 @@
 ---
 title: StyleFontFamily
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente la propriété style.fontFamily
 type: docs
 weight: 1060
@@ -15,7 +15,7 @@ Représente la propriété 'style.fontFamily'
 public static BehaviorProperty StyleFontFamily { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

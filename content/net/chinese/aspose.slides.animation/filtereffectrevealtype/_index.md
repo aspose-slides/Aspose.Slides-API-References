@@ -1,13 +1,13 @@
 ---
 title: FilterEffectRevealType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示过滤器揭示类型。
 type: docs
 weight: 300
 url: /zh/aspose.slides.animation/filtereffectrevealtype/
 ---
 
-## FilterEffectRevealType 枚举
+## FilterEffectRevealType enumeration
 
 表示过滤器揭示类型。
 
@@ -24,7 +24,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

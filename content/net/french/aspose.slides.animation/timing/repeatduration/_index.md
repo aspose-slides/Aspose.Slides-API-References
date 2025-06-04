@@ -15,7 +15,7 @@ Décrit le nombre de fois que l'effet doit se répéter. Lecture/écriture Singl
 public float RepeatDuration { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Timing](../../timing)
 * espace de noms [Aspose.Slides.Animation](../../timing)

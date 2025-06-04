@@ -1,7 +1,7 @@
 ---
 title: HideBottom
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Hide Bottom Edge par défaut est faux - spécifie l'état caché ou affiché de l'arête inférieure de la boîte de bordure.
+second_title: Aspose.Slildes pour la référence API .NET
+description: Cacher le bord inférieur par défaut est faux - spécifie l'état caché ou affiché du bord inférieur de la boîte de bordure.
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathborderbox/hidebottom/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathborderbox/hidebottom/
 
 ## Propriété IMathBorderBox.HideBottom
 
-Hide Bottom Edge (par défaut est faux) - spécifie l'état caché ou affiché de l'arête inférieure de la boîte de bordure.
+Cacher le bord inférieur (le paramètre par défaut est faux) - spécifie l'état caché ou affiché du bord inférieur de la boîte de bordure.
 
 ```csharp
 public bool HideBottom { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.HideBottom = true;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBorderBox](../../imathborderbox)
 * namespace [Aspose.Slides.MathText](../../imathborderbox)

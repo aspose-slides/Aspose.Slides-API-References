@@ -1,6 +1,6 @@
 ---
 title: AsILayoutable
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Возвращает интерфейс ILayoutable. Только для чтения ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20

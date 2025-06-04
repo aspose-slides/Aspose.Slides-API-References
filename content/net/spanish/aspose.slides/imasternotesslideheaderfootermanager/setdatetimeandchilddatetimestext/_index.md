@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Establece texto en el marcador de fecha y hora de la diapositiva maestra de notas y todos los marcadores de fecha y hora secundarios. Los marcadores secundarios significan que los marcadores están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva maestra de notas.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Establece texto en el marcador de fecha y hora de la diapositiva maestra de notas y en todos los marcadores de fecha y hora hijos. Los marcadores hijos son aquellos que están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva maestra de notas.
 type: docs
 weight: 20
 url: /es/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
 
-## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText método
+## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText method
 
-Establece texto en el marcador de fecha y hora de la diapositiva maestra de notas y todos los marcadores de fecha y hora secundarios. Los marcadores secundarios significan que los marcadores están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva maestra de notas.
+Establece texto en el marcador de fecha y hora de la diapositiva maestra de notas y en todos los marcadores de fecha y hora hijos. Los marcadores hijos son aquellos que están contenidos en las diapositivas de notas dependientes. Las diapositivas de notas dependientes utilizan y dependen de la diapositiva maestra de notas.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Texto a establecer. |
 
-### Ver También
+### Ver también
 
 * interfaz [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * espacio de nombres [Aspose.Slides](../../imasternotesslideheaderfootermanager)

@@ -1,15 +1,15 @@
 ---
 title: IsSeriesUsesBubbleSizeCoordinate
-second_title: Referencia API de Aspose.Slides para .NET
-description: Devuelve si se pueden usar las coordenadas de tamaño de burbuja para el tipo de serie especificado.
+second_title: Aspose.Sildes for .NET API Reference
+description: Devuelve si se pueden utilizar coordenadas de tamaño de burbuja para el tipo de serie especificado.
 type: docs
 weight: 180
 url: /es/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate/
 ---
 
-## Método ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate
+## ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate method
 
-Devuelve si se pueden usar las coordenadas de tamaño de burbuja para el tipo de serie especificado.
+Devuelve si se pueden utilizar coordenadas de tamaño de burbuja para el tipo de serie especificado.
 
 ```csharp
 public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
@@ -23,7 +23,7 @@ public static bool IsSeriesUsesBubbleSizeCoordinate(ChartType seriesType)
 
 Verdadero si se puede usar, de lo contrario falso.
 
-### También Vea
+### Véase También
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

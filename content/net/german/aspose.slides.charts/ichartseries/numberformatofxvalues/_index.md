@@ -1,15 +1,15 @@
 ---
 title: NumberFormatOfXValues
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Zahlenformat für die x-Werte der Serie zurück oder legt es fest. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Zahlenformat für die x-Werte der Serie zurück oder setzt es. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 240
 url: /de/aspose.slides.charts/ichartseries/numberformatofxvalues/
 ---
 
-## IChartSeries.NumberFormatOfXValues Eigenschaft
+## IChartSeries.NumberFormatOfXValues-Eigenschaft
 
-Gibt das Zahlenformat für die x-Werte der Serie zurück oder legt es fest. Lese-/Schreibzeichenfolge.
+Gibt das Zahlenformat für die x-Werte der Serie zurück oder setzt es. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string NumberFormatOfXValues { get; set; }

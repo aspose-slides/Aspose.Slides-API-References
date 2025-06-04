@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-lesend Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/captionscollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/captionscollection/count/
 
 ## CaptionsCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32.
+Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-lesend Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CaptionsCollection](../../captionscollection)
 * Namespace [Aspose.Slides](../../captionscollection)

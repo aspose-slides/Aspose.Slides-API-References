@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForDoughnutSeries
-second_title: Aspose.Slides для .NET Справочник API
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Doughnut, см. также метод IsChartTypeDoughnutaspose.slides/charttypecharacterizer/ischarttypedoughnut.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Doughnut, см. также метод IsChartTypeDoughnut из aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries/

@@ -1,7 +1,7 @@
 ---
 title: ActualY
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定图表元素相对于图表左上角的实际顶部。在获取实际值之前调用 IChart.ValidateChartLayout 方法。读取单个值。
+description: 指定图表元素相对于图表左上角的实际顶部。在获取实际值之前，调用方法 IChart.ValidateChartLayout。阅读单一值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/datalabel/actualy/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/datalabel/actualy/
 
 ## DataLabel.ActualY 属性
 
-指定图表元素相对于图表左上角的实际顶部。在获取实际值之前调用 IChart.ValidateChartLayout() 方法。读取单个值。
+指定图表元素相对于图表左上角的实际顶部。在获取实际值之前，调用方法 IChart.ValidateChartLayout()。阅读单一值。
 
 ```csharp
 public float ActualY { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [DataLabel](../../datalabel)
 * 命名空间 [Aspose.Slides.Charts](../../datalabel)

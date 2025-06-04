@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzt Text für den Platzhalter Datum-Uhrzeit der Masterfolie und alle Kind-Platzhalter für Datum-Uhrzeit. Kind-Platzhalter bedeuten, dass Platzhalter auf abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Masterfolie ab.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzt Text für das Datum-Zeit-Platzhalter der Masterfolie und alle untergeordneten Datum-Zeit-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien nutzen und sind von der Masterfolie abhängig.
 type: docs
 weight: 10
 url: /de/aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
 
-## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText-Methode
+## MasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText Methode
 
-Setzt Text für den Platzhalter Datum-Uhrzeit der Masterfolie und alle Kind-Platzhalter für Datum-Uhrzeit. Kind-Platzhalter bedeuten, dass Platzhalter auf abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Masterfolie ab.
+Setzt Text für das Datum-Zeit-Platzhalter der Masterfolie und alle untergeordneten Datum-Zeit-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien nutzen und sind von der Masterfolie abhängig.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -17,9 +17,9 @@ public void SetDateTimeAndChildDateTimesText(string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | String | Text, der gesetzt werden soll. |
+| text | String | Zu setzender Text. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [MasterSlideHeaderFooterManager](../../masterslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../masterslideheaderfootermanager)

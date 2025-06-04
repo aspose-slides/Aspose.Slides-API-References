@@ -1,7 +1,7 @@
 ---
 title: ViewProperties
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les propriétés de vue à l'échelle de la présentation. Lecture seule IViewPropertiesaspose.slides/iviewproperties.
+description: Obtient les propriétés de vue au niveau de la présentation. Lecture seule IViewPropertiesaspose.slides/iviewproperties.
 type: docs
 weight: 290
 url: /fr/aspose.slides/ipresentation/viewproperties/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/viewproperties/
 
 ## Propriété IPresentation.ViewProperties
 
-Obtient les propriétés de vue à l'échelle de la présentation. Lecture seule [`IViewProperties`](../../iviewproperties).
+Obtient les propriétés de vue au niveau de la présentation. Lecture seule [`IViewProperties`](../../iviewproperties).
 
 ```csharp
 public IViewProperties ViewProperties { get; }

@@ -1,6 +1,6 @@
 ---
 title: IDrawingGuide
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt einen anpassbaren Zeichenleitfaden dar.
 type: docs
 weight: 5520
@@ -20,9 +20,9 @@ public interface IDrawingGuide
 | Name | Beschreibung |
 | --- | --- |
 | [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Gibt die Ausrichtung des Zeichenleitfadens zurück oder setzt sie. Lese-/Schreibzugriff [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Gibt die Position des Zeichenleitfadens in Punkten vom oberen linken Eck der Folie zurück oder setzt sie. Lese-/Schreibzugriff Single. |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Gibt die Position des Zeichenleitfadens in Punkten von der oberen linken Ecke der Folie zurück oder setzt sie. Lese-/Schreibzugriff Single. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

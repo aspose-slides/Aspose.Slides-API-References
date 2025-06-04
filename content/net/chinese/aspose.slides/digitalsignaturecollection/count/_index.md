@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中的元素数量。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回集合中元素的数量。只读 Int32。
 type: docs
 weight: 10
 url: /zh/aspose.slides/digitalsignaturecollection/count/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/digitalsignaturecollection/count/
 
 ## DigitalSignatureCollection.Count 属性
 
-返回集合中的元素数量。只读 Int32。
+返回集合中元素的数量。只读 Int32。
 
 ```csharp
 public int Count { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 类 [DigitalSignatureCollection](../../digitalsignaturecollection)
 * 命名空间 [Aspose.Slides](../../digitalsignaturecollection)

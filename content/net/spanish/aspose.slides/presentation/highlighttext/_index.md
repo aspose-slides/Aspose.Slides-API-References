@@ -1,13 +1,13 @@
 ---
 title: HighlightText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de la API de .NET
 description: Resalta todas las coincidencias del texto de muestra con el color especificado.
 type: docs
 weight: 340
 url: /es/aspose.slides/presentation/highlighttext/
 ---
 
-## ResaltarTexto(string, Color) {#highlighttext}
+## HighlightText(string, Color) {#highlighttext}
 
 Resalta todas las coincidencias del texto de muestra con el color especificado.
 
@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Presentation](../../presentation)
 * espacio de nombres [Aspose.Slides](../../presentation)
@@ -42,7 +42,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 
 ---
 
-## ResaltarTexto(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_1}
+## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_1}
 
 Resalta todas las coincidencias del texto de muestra con el color especificado.
 
@@ -56,7 +56,7 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 | text | String | El texto a resaltar. |
 | highlightColor | Color | El color para resaltar el texto. |
 | options | ITextSearchOptions | Opciones de búsqueda de texto [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | El objeto de callback para recibir los resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | El objeto de callback para recibir resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Ejemplos
 
@@ -72,7 +72,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ITextSearchOptions](../../itextsearchoptions)
 * interfaz [IFindResultCallback](../../ifindresultcallback)

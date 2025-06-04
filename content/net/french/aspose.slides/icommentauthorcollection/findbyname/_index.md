@@ -1,13 +1,13 @@
 ---
 title: FindByName
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Trouver un auteur dans une collection par nom.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icommentauthorcollection/findbyname/
 ---
 
-## Méthode ICommentAuthorCollection.FindByName
+## ICommentAuthorCollection.FindByName méthode
 
 Trouver un auteur dans une collection par nom.
 
@@ -17,7 +17,7 @@ public ICommentAuthor[] FindByName(string name)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| name | String | Nom d'un auteur à trouver. |
+| name | String | Nom de l'auteur à trouver. |
 
 ### Valeur de retour
 

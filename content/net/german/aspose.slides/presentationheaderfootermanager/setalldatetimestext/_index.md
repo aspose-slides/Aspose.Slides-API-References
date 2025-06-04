@@ -1,7 +1,7 @@
 ---
 title: SetAllDateTimesText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt Text für alle Platzhalter für Datum und Uhrzeit, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizenfolien und Handout-Master.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Setzt den Text für alle Platzhalter für Datum und Uhrzeit, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handouts-Master.
 type: docs
 weight: 10
 url: /de/aspose.slides/presentationheaderfootermanager/setalldatetimestext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentationheaderfootermanager/setalldatetimestext/
 
 ## PresentationHeaderFooterManager.SetAllDateTimesText-Methode
 
-Setzt Text für alle Platzhalter für Datum und Uhrzeit, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizenfolien und Handout-Master.
+Setzt den Text für alle Platzhalter für Datum und Uhrzeit, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handouts-Master.
 
 ```csharp
 public void SetAllDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetAllDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Zu setzender Text. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * Namespace [Aspose.Slides](../../presentationheaderfootermanager)

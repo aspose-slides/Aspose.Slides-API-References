@@ -1,13 +1,13 @@
 ---
 title: Accent4
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Quatrième couleur d'accent dans le schéma. Couleur en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides.theme/icolorschemeeffectivedata/accent4/
 ---
 
-## IColorSchemeEffectiveData.Accent4 property
+## IColorSchemeEffectiveData.Accent4 propriété
 
 Quatrième couleur d'accent dans le schéma. Couleur en lecture seule.
 

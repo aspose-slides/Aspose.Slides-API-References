@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 转场方向。读/写 TransitionLeftRightDirectionTypeaspose.slides.slideshow/transitionleftrightdirectiontype。
 type: docs
 weight: 20

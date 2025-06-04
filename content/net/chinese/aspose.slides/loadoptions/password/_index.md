@@ -1,13 +1,13 @@
 ---
 title: Password
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置密码。可读写字符串。
 type: docs
 weight: 120
 url: /zh/aspose.slides/loadoptions/password/
 ---
 
-## LoadOptions.Password 属性
+## LoadOptions.Password property
 
 获取或设置密码。可读写字符串。
 
@@ -21,18 +21,18 @@ public string Password { get; set; }
 
 ### 示例
 
-以下示例代码演示如何打开受密码保护的 PowerPoint 演示文稿。
+以下示例代码演示如何打开受密码保护的PowerPoint演示文稿。
 
 ```csharp
 [C#]
 	LoadOptions loadOptions = new LoadOptions {Password = "YOUR_PASSWORD"};
 	using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
 	{
-	  // 与解密后的演示文稿一起工作
+	  // 操作解密后的演示文稿
 	}
 ```
 
-### 另请参阅
+### 另见
 
 * class [LoadOptions](../../loadoptions)
 * namespace [Aspose.Slides](../../loadoptions)

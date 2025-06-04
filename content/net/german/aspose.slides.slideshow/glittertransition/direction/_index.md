@@ -1,15 +1,15 @@
 ---
 title: Direction
-second_title: Aspose.Slides für .NET API Referenz
-description: Richtung der Transition. Lese-/Schreibeigenschaft TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Richtung der Übergänge. Lese-/Schreibeigenschaft TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/glittertransition/direction/
 ---
 
-## GlitterTransition.Direction Eigenschaft
+## GlitterTransition.Direction-Eigenschaft
 
-Richtung der Transition. Lese-/Schreibeigenschaft [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
+Richtung der Übergänge. Lese-/Schreibeigenschaft [`TransitionSideDirectionType`](../../transitionsidedirectiontype).
 
 ```csharp
 public TransitionSideDirectionType Direction { get; set; }

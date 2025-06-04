@@ -1,21 +1,21 @@
 ---
 title: Position
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Указывает позицию легенды на графике. Значения X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись LegendPositionTypeaspose.slides/legendpositiontype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает позицию легенды на графике. Не-NaN значения свойств X, Y, Width, Heigt переопределяют эффект этого свойства. Чтение/запись LegendPositionTypeaspose.slides.charts/legendpositiontype.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ilegend/position/
 ---
 
-## Свойство ILegend.Position
+## ILegend.Position property
 
-Указывает позицию легенды на графике. Значения X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../../legendpositiontype).
+Указывает позицию легенды на графике. Не-NaN значения свойств X, Y, Width, Heigt переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../../legendpositiontype).
 
 ```csharp
 public LegendPositionType Position { get; set; }
 ```
 
-### Также см. 
+### See Also
 
 * enum [LegendPositionType](../../legendpositiontype)
 * interface [ILegend](../../ilegend)

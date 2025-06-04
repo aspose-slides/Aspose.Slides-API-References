@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les styles d'effets de ligne de remplissage d'un titre. En lecture seule IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne les styles d'effet de ligne de remplissage d'un titre. En lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/charttitle/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/charttitle/format/
 
 ## Propriété ChartTitle.Format
 
-Renvoie les styles de remplissage, de ligne et d'effet d'un titre. En lecture seule [`IFormat`](../../iformat).
+Retourne les styles de remplissage, de ligne et d'effet d'un titre. En lecture seule [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

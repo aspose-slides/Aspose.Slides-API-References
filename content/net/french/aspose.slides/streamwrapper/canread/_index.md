@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/streamwrapper/canread/
 ---
 
-## Propriété StreamWrapper.CanRead
+## StreamWrapper.CanRead propriété
 
 Obtient une valeur indiquant si le flux actuel prend en charge la lecture. Booléen en lecture seule.
 
@@ -15,7 +15,7 @@ Obtient une valeur indiquant si le flux actuel prend en charge la lecture. Bool�
 public bool CanRead { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [StreamWrapper](../../streamwrapper)
 * espace de noms [Aspose.Slides](../../streamwrapper)

@@ -1,7 +1,7 @@
 ---
 title: WriteAsEmf
 second_title: Aspose.Sildes for .NET API Reference
-description: 将 SVG 图像保存为 EMF 文件。
+description: 将SVG图像保存为EMF文件。
 type: docs
 weight: 60
 url: /zh/aspose.slides/svgimage/writeasemf/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/svgimage/writeasemf/
 
 ## SvgImage.WriteAsEmf 方法
 
-将 SVG 图像保存为 EMF 文件。
+将SVG图像保存为EMF文件。
 
 ```csharp
 public void WriteAsEmf(Stream stream)
@@ -21,37 +21,37 @@ public void WriteAsEmf(Stream stream)
 
 ### 异常
 
-| 异常 | 条件 |
+| 异常 | 状态 |
 | --- | --- |
-| ArgumentNullException | 目标流为 **null** |
+| ArgumentNullException | 目标流是**null** |
 
 ### 示例
 
-以下示例演示如何将 SVG 图像保存为元文件。
+以下示例演示如何将SVG图像保存到图元文件中。
 
 ```csharp
 [C#]
-// 创建新的 SVG 图像
+// 创建新的SVG图像
 ISvgImage svgImage = new SvgImage(System.IO.File.ReadAllText("content.svg"));
-
-// 将 SVG 图像保存为元文件
+ 
+// 将SVG图像保存为图元文件
 using (var fileStream = System.IO.File.OpenWrite("SvgAsEmf.emf"))
     svgImage.WriteAsEmf(fileStream);
 ```
 
-此示例演示如何将 SVG 图像作为元文件添加到演示文稿图像集合中。
+此示例演示如何将SVG图像作为图元文件添加到演示文稿图像集合中。
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation())
 {
-    // 创建新的 SVG 图像
+    // 创建新的SVG图像
     ISvgImage svgImage = new SvgImage(System.IO.File.ReadAllText("content.svg"));
     using (var memStream = new MemoryStream())
     {
-        // 将 SVG 图像保存为元文件
+        // 将SVG图像保存为图元文件
         svgImage.WriteAsEmf(memStream);
-        // 将元文件添加到图像集合中
+        // 将图元文件添加到图像集合
         pres.Images.AddImage(memStream.ToArray());
     }
 }

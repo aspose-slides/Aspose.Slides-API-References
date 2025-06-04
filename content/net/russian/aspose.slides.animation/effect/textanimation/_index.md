@@ -1,6 +1,6 @@
 ---
 title: TextAnimation
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: TextAnimation Только для чтения ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ TextAnimation Только для чтения [`ITextAnimation`](../../itextani
 public ITextAnimation TextAnimation { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITextAnimation](../../itextanimation)
 * класс [Effect](../../effect)

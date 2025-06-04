@@ -1,7 +1,7 @@
 ---
 title: Subtype
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert den Untertyp des Filtereffekts. Lese-/schreibbarer FilterEffectSubtypeaspose.slides.animation/filtereffectsubtype.
+description: Stellt den Subtyp des Filtereffekts dar. Lese-/Schreibzugriff auf FilterEffectSubtypeaspose.slides.animation/filtereffectsubtype.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/ifiltereffect/subtype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/ifiltereffect/subtype/
 
 ## IFilterEffect.Subtype-Eigenschaft
 
-Repräsentiert den Untertyp des Filtereffekts. Lese-/schreibbarer [`FilterEffectSubtype`](../../filtereffectsubtype).
+Stellt den Subtyp des Filtereffekts dar. Lese-/Schreibzugriff auf [`FilterEffectSubtype`](../../filtereffectsubtype).
 
 ```csharp
 public FilterEffectSubtype Subtype { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [FilterEffectSubtype](../../filtereffectsubtype)
 * interface [IFilterEffect](../../ifiltereffect)

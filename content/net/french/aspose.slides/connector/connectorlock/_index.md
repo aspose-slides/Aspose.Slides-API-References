@@ -1,7 +1,7 @@
 ---
 title: ConnectorLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne les verrouillages des connecteurs. Lecture seule IConnectorLockaspose.slides/iconnectorlock.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie les verrouillages de connecteurs. Lecture seule IConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 10
 url: /fr/aspose.slides/connector/connectorlock/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/connector/connectorlock/
 
 ## Propriété Connector.ConnectorLock
 
-Retourne les verrouillages du connecteur. Lecture seule [`IConnectorLock`](../../iconnectorlock).
+Renvoie les verrouillages du connecteur. Lecture seule [`IConnectorLock`](../../iconnectorlock).
 
 ```csharp
 public IConnectorLock ConnectorLock { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IConnectorLock](../../iconnectorlock)
 * classe [Connector](../../connector)

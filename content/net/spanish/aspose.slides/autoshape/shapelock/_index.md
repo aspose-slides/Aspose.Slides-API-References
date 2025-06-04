@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve bloques de formas. Solo lectura IAutoShapeLockaspose.slides/iautoshapelock.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Devuelve los bloqueos de formas. Solo lectura IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 30
 url: /es/aspose.slides/autoshape/shapelock/
@@ -15,7 +15,7 @@ Devuelve los bloqueos de la forma. Solo lectura [`IAutoShapeLock`](../../iautosh
 public IAutoShapeLock ShapeLock { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IAutoShapeLock](../../iautoshapelock)
 * clase [AutoShape](../../autoshape)

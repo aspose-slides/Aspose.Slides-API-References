@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 IMathElement base = borderBox.Base;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathBorderBox](../../imathborderbox)

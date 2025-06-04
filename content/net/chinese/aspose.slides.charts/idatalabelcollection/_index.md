@@ -1,15 +1,15 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes for .NET API参考
-description: 代表一个系列标签。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示一系列标签。
 type: docs
 weight: 1950
 url: /zh/aspose.slides.charts/idatalabelcollection/
 ---
 
-## IDataLabelCollection接口
+## IDataLabelCollection 接口
 
-代表一个系列标签。
+表示一系列标签。
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -19,24 +19,24 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | 允许获取基接口IChartComponent。只读 [`IChartComponent`](../ichartcomponent)。 |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | 允许获取基接口IEnumerable。只读IEnumerable。 |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | 获取集合中所有数据标签的数量。只读Int32。 |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | 获取集合中可见数据标签的数量。只读Int32。 |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | 允许获取基类 IChartComponent 接口。只读 [`IChartComponent`](../ichartcomponent)。 |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | 允许获取基类 IEnumerable 接口。只读 IEnumerable。 |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | 获取集合中所有数据标签的数量。只读 Int32。 |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | 获取集合中可见数据标签的数量。只读 Int32。 |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | 返回集合中所有数据标签的默认格式。只读 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False意味着数据标签默认不可见（因此DefaultDataLabelFormat属性的所有Show*-标志（ShowValue, ...）都是false）。只读Boolean。 |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 获取具有指定索引的数据点的数据标签。 |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | 代表数据标签的引导线格式。只读 [`IChartLinesFormat`](../ichartlinesformat)。 |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False 意味着数据标签默认不可见（因此 DefaultDataLabelFormat 属性的所有 Show*-标志（ShowValue，...）均为 false）。只读 Boolean。 |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 获取指定索引的数据点的数据标签。 |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | 表示数据标签引导线的格式。只读 [`IChartLinesFormat`](../ichartlinesformat)。 |
 | [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | 返回父图表系列。只读 [`IChartSeries`](../ichartseries)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | 通过将DefaultDataLabelFormat属性的所有Show*-标志（ShowValue, ...）设置为false，默认情况下使数据标签隐藏。IsVisible在此之后将为false。 |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | 返回集合中指定DataLabel的索引。 |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | 通过将 DefaultDataLabelFormat 属性的所有 Show*-标志（ShowValue，...）设置为 false 状态，使数据标签默认隐藏。此后 IsVisible 将为 false。 |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | 返回指定 DataLabel 在集合中的索引。 |
 
-### 另见
+### 参见
 
 * 接口 [IChartComponent](../ichartcomponent)
 * 接口 [IDataLabel](../idatalabel)

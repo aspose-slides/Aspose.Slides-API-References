@@ -1,7 +1,7 @@
 ---
 title: SpaceWithin
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Une valeur positive signifie un pourcentage, une valeur négative - une taille en points. Pas d'héritage appliqué. Lecture/écriture Simple.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Une valeur positive signifie un pourcentage, une valeur négative - taille en points. Pas d'héritage appliqué. Lecture/écriture Simple.
 type: docs
 weight: 140
 url: /fr/aspose.slides/paragraphformat/spacewithin/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/paragraphformat/spacewithin/
 
 ## Propriété ParagraphFormat.SpaceWithin
 
-Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Une valeur positive signifie un pourcentage, une valeur négative - une taille en points. Pas d'héritage appliqué. Lecture/écriture Simple.
+Renvoie ou définit la quantité d'espace entre les lignes de base dans un paragraphe. Une valeur positive signifie un pourcentage, une valeur négative - taille en points. Pas d'héritage appliqué. Lecture/écriture Simple.
 
 ```csharp
 public float SpaceWithin { get; set; }

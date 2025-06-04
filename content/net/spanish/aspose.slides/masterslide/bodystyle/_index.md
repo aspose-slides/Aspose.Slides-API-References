@@ -20,6 +20,6 @@ public ITextStyle BodyStyle { get; }
 * interfaz [ITextStyle](../../itextstyle)
 * clase [MasterSlide](../../masterslide)
 * espacio de nombres [Aspose.Slides](../../masterslide)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

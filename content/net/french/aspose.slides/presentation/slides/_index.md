@@ -1,7 +1,7 @@
 ---
 title: Slides
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une liste de toutes les diapositives définies dans la présentation. ISlideCollection aspose.slides/islidecollection en lecture seule.
+second_title: Aspose.Slides pour .NET API Reference
+description: Renvoie une liste de toutes les diapositives définies dans la présentation. Lecture seule ISlideCollectionaspose.slides/islidecollection.
 type: docs
 weight: 230
 url: /fr/aspose.slides/presentation/slides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/slides/
 
 ## Propriété Presentation.Slides
 
-Renvoie une liste de toutes les diapositives définies dans la présentation. ISlideCollection en lecture seule [`ISlideCollection`](../../islidecollection).
+Renvoie une liste de toutes les diapositives définies dans la présentation. Lecture seule [`ISlideCollection`](../../islidecollection).
 
 ```csharp
 public ISlideCollection Slides { get; }
@@ -24,7 +24,7 @@ L'exemple suivant montre comment définir la couleur de fond des diapositives d'
 // Instancier la classe Presentation qui représente le fichier de présentation
 using (Presentation pres = new Presentation())
 {
-    // Définir la couleur de fond de la première ISlide sur Bleu
+    // Définir la couleur de fond de la première ISlide en bleu
     pres.Slides[0].Background.Type = BackgroundType.OwnBackground;
     pres.Slides[0].Background.FillFormat.FillType = FillType.Solid;
     pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
@@ -53,7 +53,7 @@ using (Presentation pres = new Presentation("SetImageAsBackground.pptx"))
 }
 ```
 
-L'exemple suivant montre comment ajouter une transition de diapositive à la présentation.
+L'exemple suivant montre comment ajouter une transition de diapositive dans une présentation.
 
 ```csharp
 [C#]
@@ -62,7 +62,7 @@ using (Presentation presentation = new Presentation("AccessSlides.pptx"))
 {
     // Appliquer une transition de type cercle sur la diapositive 1
     presentation.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
-    // Appliquer une transition de type peigne sur la diapositive 2
+    // Appliquer une transition de type combinaison sur la diapositive 2
     presentation.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
     // Écrire la présentation sur le disque
     presentation.Save("SampleTransition_out.pptx", SaveFormat.Pptx);
@@ -81,7 +81,7 @@ using (Presentation pres = new Presentation("BetterSlideTransitions.pptx"))
     // Définir le temps de transition à 3 secondes
     pres.Slides[0].SlideShowTransition.AdvanceOnClick = true;
     pres.Slides[0].SlideShowTransition.AdvanceAfterTime = 3000;
-    // Appliquer une transition de type peigne sur la diapositive 2
+    // Appliquer une transition de type combinaison sur la diapositive 2
     pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
     // Définir le temps de transition à 5 secondes
     pres.Slides[1].SlideShowTransition.AdvanceOnClick = true;

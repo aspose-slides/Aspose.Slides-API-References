@@ -1,6 +1,6 @@
 ---
 title: Y
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定图表元素顶部作为图表高度的一个分数。可读写单精度浮点数。
 type: docs
 weight: 70

@@ -1,7 +1,7 @@
 ---
 title: ParentGroup
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das übergeordnete GroupShape-Objekt für eine Sammlung von Formen zurück. Nur zum Lesen IGroupShapeaspose.slides/igroupshape.
+description: Gibt das übergeordnete GroupShape-Objekt für eine Formensammlung zurück. Schreibgeschütztes IGroupShape aspose.slides/igroupshape.
 type: docs
 weight: 40
 url: /de/aspose.slides/shapecollection/parentgroup/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/parentgroup/
 
 ## ShapeCollection.ParentGroup-Eigenschaft
 
-Gibt das übergeordnete GroupShape-Objekt für eine Sammlung von Formen zurück. Nur zum Lesen [`IGroupShape`](../../igroupshape).
+Gibt das übergeordnete GroupShape-Objekt für eine Formensammlung zurück. Schreibgeschützt [`IGroupShape`](../../igroupshape).
 
 ```csharp
 public IGroupShape ParentGroup { get; }

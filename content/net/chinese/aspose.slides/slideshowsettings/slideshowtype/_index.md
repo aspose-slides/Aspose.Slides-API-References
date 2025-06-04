@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置幻灯片放映类型。由以下 SlideShowType 祖先表示：BrowsedAtKioskaspose.slides/browsedatkiosk、PresentedBySpeakeraspose.slides/presentedbyspeaker 和 BrowsedByIndividualaspose.slides/browsedbyindividual
+second_title: Aspose.Slides for .NET API Reference
+description: 获取或设置幻灯片放映类型。由以下 SlideShowType 祖先表示：BrowsedAtKioskaspose.slides/browsedatkiosk，PresentedBySpeakeraspose.slides/presentedbyspeaker 和 BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs
 weight: 70
 url: /zh/aspose.slides/slideshowsettings/slideshowtype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/slideshowsettings/slideshowtype/
 
 ## SlideShowSettings.SlideShowType 属性
 
-获取或设置幻灯片放映类型。由以下 `SlideShowType` 祖先表示：[`BrowsedAtKiosk`](../../browsedatkiosk)、[`PresentedBySpeaker`](../../presentedbyspeaker) 和 [`BrowsedByIndividual`](../../browsedbyindividual)
+获取或设置幻灯片放映类型。由以下 `SlideShowType` 祖先表示：[`BrowsedAtKiosk`](../../browsedatkiosk)，[`PresentedBySpeaker`](../../presentedbyspeaker) 和 [`BrowsedByIndividual`](../../browsedbyindividual)
 
 ```csharp
 public SlideShowType SlideShowType { get; set; }
@@ -21,18 +21,18 @@ public SlideShowType SlideShowType { get; set; }
 [C#]
 using (Presentation pres = new Presentation())
 {
-    // 设置“在自助服务终端浏览（全屏）”类型 
+    // 设置“在信息亭浏览（全屏）”类型 
     pres.SlideShowSettings.SlideShowType = new BrowsedAtKiosk();
     
     // 设置“个人浏览（窗口）”类型
     pres.SlideShowSettings.SlideShowType = new BrowsedByIndividual();
     
-    // 设置“由演讲者展示（全屏）”类型
+    // 设置“由演讲者呈现（全屏）”类型
     pres.SlideShowSettings.SlideShowType = new PresentedBySpeaker();
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 类 [SlideShowType](../../slideshowtype)
 * 类 [SlideShowSettings](../../slideshowsettings)

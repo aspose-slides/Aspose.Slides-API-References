@@ -1,15 +1,15 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Slides für .NET API Referenz
-description: Konstanten, die die Lautstärke definieren.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Konstanten, die die Audio-Lautstärke definieren.
 type: docs
 weight: 810
 url: /de/aspose.slides/audiovolumemode/
 ---
 
-## AudioVolumeMode Aufzählung
+## AudioVolumeMode-Enumerationen
 
-Konstanten, die die Lautstärke definieren.
+Konstanten, die die Audio-Lautstärke definieren.
 
 ```csharp
 public enum AudioVolumeMode
@@ -19,13 +19,13 @@ public enum AudioVolumeMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Gemischt | `-1` |  |
-| Stumm | `0` | Null Lautstärke. |
-| Niedrig | `1` | Niedrige Lautstärke. |
-| Mittel | `2` | Mittlere Lautstärke. |
-| Laut | `3` | Hohe Lautstärke. |
+| Mixed | `-1` |  |
+| Mute | `0` | Keine Lautstärke. |
+| Low | `1` | Niedrige Lautstärke. |
+| Medium | `2` | Mittlere Lautstärke. |
+| Loud | `3` | Hohe Lautstärke. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

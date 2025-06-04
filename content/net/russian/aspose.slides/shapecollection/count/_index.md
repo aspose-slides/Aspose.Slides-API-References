@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/shapecollection/count/
 ---
 
-## Свойство ShapeCollection.Count
+## ShapeCollection.Count свойство
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/shapecollection/count/
 public int Count { get; }
 ```
 
-### Также см. 
+### См. также
 
 * класс [ShapeCollection](../../shapecollection)
 * пространство имен [Aspose.Slides](../../shapecollection)

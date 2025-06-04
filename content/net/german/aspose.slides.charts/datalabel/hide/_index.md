@@ -1,7 +1,7 @@
 ---
 title: Hide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Machen Sie das Datenetikett unsichtbar, indem Sie alle Show-Flags ShowValue ... auf den Status falsch setzen. IsVisible wird danach falsch sein.
+second_title: Aspose.Slides für .NET API Referenz
+description: Machen Sie das Datenlabel unsichtbar, indem Sie alle Show-Flags ShowValue ... auf den Zustand false setzen. IsVisible wird danach false sein.
 type: docs
 weight: 200
 url: /de/aspose.slides.charts/datalabel/hide/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/datalabel/hide/
 
 ## DataLabel.Hide Methode
 
-Machen Sie das Datenetikett unsichtbar, indem Sie alle Show*-Flags (ShowValue, ...) auf den Status falsch setzen. IsVisible wird danach falsch sein.
+Machen Sie das Datenlabel unsichtbar, indem Sie alle Show*-Flags (ShowValue, ...) auf den Zustand false setzen. IsVisible wird danach false sein.
 
 ```csharp
 public void Hide()
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Wenn das Datenetikett nicht sichtbar ist (IsVisible ist falsch), können Sie das Datenetikett sichtbar machen, indem Sie die Show*-Flags (ShowValue, ...) auf den Status wahr setzen.
+Wenn das Datenlabel nicht sichtbar ist (IsVisible ist false), können Sie das Datenlabel sichtbar machen, indem Sie die Show*-Flags (ShowValue, ...) auf den Zustand true setzen.
 
 ### Siehe Auch
 

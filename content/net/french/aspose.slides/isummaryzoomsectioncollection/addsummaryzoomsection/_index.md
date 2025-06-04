@@ -1,15 +1,15 @@
 ---
 title: AddSummaryZoomSection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouvel objet de section de zoom résumé et l'ajoute à la collection
+second_title: Aspose.Slides pour .NET API Reference
+description: Crée un nouvel objet Summary Zoom Section et l'ajoute à la collection
 type: docs
 weight: 20
 url: /fr/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-## Méthode ISummaryZoomSectionCollection.AddSummaryZoomSection
+## ISummaryZoomSectionCollection.AddSummaryZoomSection méthode
 
-Crée un nouvel objet de section de zoom résumé et l'ajoute à la collection
+Crée un nouvel objet Summary Zoom Section et l'ajoute à la collection
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -17,7 +17,7 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| section | ISection | Section pour un nouvel élément de section de zoom résumé [`ISection`](../../isection) |
+| section | ISection | Section pour un nouvel élément Summary Zoom Section [`ISection`](../../isection) |
 
 ### Valeur de retour
 
@@ -29,7 +29,7 @@ Si un élément pour cette section existe déjà dans la collection, l'élément
 
 ### Exemples
 
-L'exemple démontre la récupération d'un élément de section de zoom résumé par index :
+L'exemple démontre comment obtenir un élément Summary Zoom Section par index:
 
 ```csharp
 [C#]

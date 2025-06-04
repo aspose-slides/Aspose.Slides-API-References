@@ -1,7 +1,7 @@
 ---
 title: Author
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Autor einer Präsentation zurück oder setzt ihn. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Autor einer Präsentation zurück oder legt ihn fest. Lese-/Schreib-String.
 type: docs
 weight: 40
 url: /de/aspose.slides/documentproperties/author/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/documentproperties/author/
 
 ## DocumentProperties.Author-Eigenschaft
 
-Gibt den Autor einer Präsentation zurück oder setzt ihn. Lese-/Schreibzeichenfolge.
+Gibt den Autor einer Präsentation zurück oder legt ihn fest. Lese-/Schreib-String.
 
 ```csharp
 public string Author { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DocumentProperties](../../documentproperties)
 * Namespace [Aspose.Slides](../../documentproperties)

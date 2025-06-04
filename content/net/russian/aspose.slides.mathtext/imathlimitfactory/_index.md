@@ -1,6 +1,6 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет создавать IMathLimit
 type: docs
 weight: 8080
@@ -17,16 +17,16 @@ public interface IMathLimitFactory
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Создает IMathLimit с нижним пределом |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Создает IMathLimit с ограничением внизу |
 | [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Создает IMathLimit |
 
-### Примечания
+### Заметки
 
 Для совместимости с COM
 
-### См. также
+### Также смотри
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

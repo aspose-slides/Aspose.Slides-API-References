@@ -1,6 +1,6 @@
 ---
 title: ExtrusionColor
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de la API de .NET
 description: Devuelve o establece el color de una extrusión. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 80
@@ -15,11 +15,11 @@ Devuelve o establece el color de una extrusión. Solo lectura [`IColorFormat`](.
 public IColorFormat ExtrusionColor { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IColorFormat](../../icolorformat)
-* interfaz [IThreeDFormat](../../ithreedformat)
-* espacio de nombres [Aspose.Slides](../../ithreedformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../icolorformat)
+* interfaz [IThreeDFormat](../../ithreedformat)
+* espacio de nombres [Aspose.Slides](../../ithreedformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

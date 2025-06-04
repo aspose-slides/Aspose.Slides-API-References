@@ -19,7 +19,7 @@ public IHtmlFormattingController AsIHtmlFormattingController { get; }
 
 Pour la compatibilité COM.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * interface [IEmbeddedWoffFontsHtmlController](../../iembeddedwofffontshtmlcontroller)

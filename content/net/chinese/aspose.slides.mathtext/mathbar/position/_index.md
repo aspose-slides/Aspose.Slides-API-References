@@ -1,6 +1,6 @@
 ---
 title: Position
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 条形线的位置。默认值：顶部
 type: docs
 weight: 30

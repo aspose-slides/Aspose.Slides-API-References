@@ -1,15 +1,15 @@
 ---
 title: InitFormatSchemeFrom
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Initialiser FormatScheme avec un nouvel objet pour remplacer le FormatScheme d'InheritedTheme.
+second_title: Référence API Aspose.Slides pour .NET
+description: Init FormatScheme avec un nouvel objet pour remplacer le FormatScheme du InheritedTheme.
 type: docs
 weight: 110
 url: /fr/aspose.slides.theme/ioverridetheme/initformatschemefrom/
 ---
 
-## Méthode IOverrideTheme.InitFormatSchemeFrom
+## IOverrideTheme.InitFormatSchemeFrom méthode
 
-Initialiser FormatScheme avec un nouvel objet pour remplacer le FormatScheme d'InheritedTheme.
+Init FormatScheme avec un nouvel objet pour remplacer le FormatScheme du InheritedTheme.
 
 ```csharp
 public void InitFormatSchemeFrom(IFormatScheme formatScheme)
@@ -26,7 +26,7 @@ public void InitFormatSchemeFrom(IFormatScheme formatScheme)
 | InvalidOperationException | Lancé si le FormatScheme est déjà initialisé (non nul). |
 | ArgumentNullException | Lancé si le paramètre formatScheme est nul. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFormatScheme](../../iformatscheme)
 * interface [IOverrideTheme](../../ioverridetheme)

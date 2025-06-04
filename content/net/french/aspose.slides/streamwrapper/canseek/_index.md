@@ -1,15 +1,15 @@
 ---
 title: CanSeek
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Booléen en lecture seule.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Lecture seule Boolean.
 type: docs
 weight: 30
 url: /fr/aspose.slides/streamwrapper/canseek/
 ---
 
-## Propriété StreamWrapper.CanSeek
+## StreamWrapper.CanSeek propriété
 
-Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Booléen en lecture seule.
+Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Lecture seule Boolean.
 
 ```csharp
 public bool CanSeek { get; }
@@ -19,6 +19,6 @@ public bool CanSeek { get; }
 
 * classe [StreamWrapper](../../streamwrapper)
 * espace de noms [Aspose.Slides](../../streamwrapper)
-* assembly [Aspose.Slides](../../../)
+* assemblage [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

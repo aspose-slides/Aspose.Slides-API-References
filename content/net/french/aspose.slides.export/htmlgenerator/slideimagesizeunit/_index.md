@@ -1,6 +1,6 @@
 ---
 title: SlideImageSizeUnit
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie une unité dans laquelle la taille de l'image de la diapositive est spécifiée. Lecture seule SvgCoordinateUnitaspose.slides.export/svgcoordinateunit.
 type: docs
 weight: 40

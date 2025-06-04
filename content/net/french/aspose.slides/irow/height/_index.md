@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la hauteur d'une ligne. Lecture seule Double.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Retourne la hauteur d'une ligne. Double en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/irow/height/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/irow/height/
 
 ## Propriété IRow.Height
 
-Renvoie la hauteur d'une ligne. Lecture seule Double.
+Retourne la hauteur d'une ligne. Double en lecture seule.
 
 ```csharp
 public double Height { get; }

@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/baseportionformat/alternativelanguageid/
 ---
 
-## Propiedad BasePortionFormat.AlternativeLanguageId
+## BasePortionFormat.AlternativeLanguageId property
 
 Devuelve o establece el Id de un idioma alternativo. Lectura/escritura String.
 
@@ -17,8 +17,8 @@ public string AlternativeLanguageId { get; set; }
 
 ### Ver También
 
-* clase [BasePortionFormat](../../baseportionformat)
-* espacio de nombres [Aspose.Slides](../../baseportionformat)
-* ensamblaje [Aspose.Slides](../../../)
+* class [BasePortionFormat](../../baseportionformat)
+* namespace [Aspose.Slides](../../baseportionformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

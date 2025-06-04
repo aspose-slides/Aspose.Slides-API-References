@@ -1,15 +1,15 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Slides for .NET API Reference
-description: 当检测到一个或多个循环引用时抛出的异常，公式直接或间接地引用其自身的单元格。
+second_title: Aspose.Sildes for .NET API Reference
+description: 当检测到一个或多个循环引用时，会抛出此异常，其中一个公式直接或间接地引用了它自己的单元格。
 type: docs
 weight: 10390
 url: /zh/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 
-## CellCircularReferenceException 类
+## CellCircularReferenceException class
 
-当检测到一个或多个循环引用时抛出的异常，公式直接或间接地引用其自身的单元格。
+当检测到一个或多个循环引用时，会抛出此异常，其中一个公式直接或间接地引用了它自己的单元格。
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -20,17 +20,17 @@ public class CellCircularReferenceException : PptxEditException
 | 名称 | 描述 |
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | 初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 用指定的错误消息初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 用指定的错误消息和引起此异常的内部异常的引用初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 用指定的错误消息和循环单元格引用初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 使用指定的错误消息初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 使用指定的错误消息和对导致此异常的内部异常的引用初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 使用指定的错误消息和循环单元格引用初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 类的新实例。 |
 
 ## 属性
 
 | 名称 | 描述 |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | 获取循环单元格引用。 |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | 获取一个循环单元格引用。 |
 
-### 另请参见
+### 另请参阅
 
 * 类 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

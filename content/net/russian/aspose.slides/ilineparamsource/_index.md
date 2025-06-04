@@ -1,6 +1,6 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Вспомогательный интерфейс параметров линии.
 type: docs
 weight: 6130

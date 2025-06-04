@@ -1,7 +1,7 @@
 ---
 title: AsCell
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 IChartDataCell 对象。如果类别是多级的，则使用级别 "0" 的 IChartDataCell 对象。读/写 IChartDataCell aspose.slides.charts/ichartdatacell。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 IChartDataCell 对象。如果类别是多级的，则用于级别 "0" 的 IChartDataCell 对象。读/写 IChartDataCellaspose.slides/ichartdatacell。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ichartcategory/ascell/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartcategory/ascell/
 
 ## IChartCategory.AsCell 属性
 
-返回或设置 IChartDataCell 对象。如果类别是多级的，则使用级别 "0" 的 IChartDataCell 对象。读/写 [`IChartDataCell`](../../ichartdatacell)。
+返回或设置 IChartDataCell 对象。如果类别是多级的，则用于级别 "0" 的 IChartDataCell 对象。读/写 [`IChartDataCell`](../../ichartdatacell)。
 
 ```csharp
 public IChartDataCell AsCell { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 接口 [IChartCategory](../../ichartcategory)

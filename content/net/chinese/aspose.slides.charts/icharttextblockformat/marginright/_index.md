@@ -1,7 +1,7 @@
 ---
 title: MarginRight
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置 TextFrame 中的右边距点。更改此属性仅对这些图表部分 DataLabel 和 DataLabelFormat 产生一定影响（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中渲染没有效果）。读/写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 TextFrame 中的右边距点。此属性的更改仅会对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。可读/可写的 Double。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/icharttextblockformat/marginright/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttextblockformat/marginright/
 
 ## IChartTextBlockFormat.MarginRight 属性
 
-返回或设置 TextFrame 中的右边距（点）。更改此属性仅对这些图表部分：DataLabel 和 DataLabelFormat 产生一定影响（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中渲染没有效果）。读/写 Double。
+返回或设置 TextFrame 中的右边距（点）。此属性的更改仅会对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。可读/可写的 Double。
 
 ```csharp
 public double MarginRight { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartTextBlockFormat](../../icharttextblockformat)
 * 命名空间 [Aspose.Slides.Charts](../../icharttextblockformat)

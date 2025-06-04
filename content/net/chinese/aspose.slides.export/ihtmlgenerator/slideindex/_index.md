@@ -1,6 +1,6 @@
 ---
 title: SlideIndex
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回当前渲染幻灯片的索引。只读 Int32。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/ihtmlgenerator/slideindex/
 public int SlideIndex { get; }
 ```
 
-### 相关内容
+### 另请参见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 命名空间 [Aspose.Slides.Export](../../ihtmlgenerator)

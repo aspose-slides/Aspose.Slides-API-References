@@ -1,6 +1,6 @@
 ---
 title: TextFrameFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Referencia
 description: Inicializa una nueva instancia de la clase TextFrameFormataspose.slides/textframeformat.
 type: docs
 weight: 10
@@ -18,7 +18,7 @@ public TextFrameFormat()
 ### Ver También
 
 * clase [TextFrameFormat](../../textframeformat)
-* espacio de nombres [Aspose.Slides](../../textframeformat)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../textframeformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

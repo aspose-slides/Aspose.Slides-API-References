@@ -1,15 +1,15 @@
 ---
 title: BeginningCharacter
-second_title: Aspose.Slides for .NET API 参考
-description: 定界符开始字符指定开始或开括号字符。数学定界符是封闭字符，例如括号、方括号和大括号。默认值为 '.
+second_title: Aspose.Sildes for .NET API Reference
+description: 定界符开始字符指定开始或打开的定界符字符。数学定界符是包围字符，例如括号、方括号和大括号。默认值：。
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathdelimiter/beginningcharacter/
 ---
 
-## IMathDelimiter.BeginningCharacter 属性
+## IMathDelimiter.BeginningCharacter property
 
-定界符开始字符指定开始或开括号字符。数学定界符是封闭字符，例如括号、方括号和大括号。默认值: '('.
+定界符开始字符指定开始或打开的定界符字符。数学定界符是包围字符，例如括号、方括号和大括号。默认值：'('。
 
 ```csharp
 public char BeginningCharacter { get; set; }
@@ -17,7 +17,7 @@ public char BeginningCharacter { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

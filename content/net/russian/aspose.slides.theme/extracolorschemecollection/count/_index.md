@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.theme/extracolorschemecollection/count/
 ---
 
-## Свойство ExtraColorSchemeCollection.Count
+## ExtraColorSchemeCollection.Count свойство
 
 Возвращает количество элементов в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/extracolorschemecollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [ExtraColorSchemeCollection](../../extracolorschemecollection)
 * пространство имен [Aspose.Slides.Theme](../../extracolorschemecollection)

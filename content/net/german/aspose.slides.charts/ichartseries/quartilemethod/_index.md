@@ -1,7 +1,7 @@
 ---
 title: QuartileMethod
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert die Quartil-Methode. Gilt nur für BoxAndWhisker-Diagramme.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Quartil-Methode dar. Gilt nur für BoxAndWhisker-Diagramme.
 type: docs
 weight: 340
 url: /de/aspose.slides.charts/ichartseries/quartilemethod/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartseries/quartilemethod/
 
 ## IChartSeries.QuartileMethod-Eigenschaft
 
-Repräsentiert die Quartil-Methode. Gilt nur für BoxAndWhisker-Diagramme.
+Stellt die Quartil-Methode dar. Gilt nur für BoxAndWhisker-Diagramme.
 
 ```csharp
 public QuartileMethodType QuartileMethod { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [QuartileMethodType](../../quartilemethodtype)
 * interface [IChartSeries](../../ichartseries)

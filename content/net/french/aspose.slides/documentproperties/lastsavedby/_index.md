@@ -7,7 +7,7 @@ weight: 190
 url: /fr/aspose.slides/documentproperties/lastsavedby/
 ---
 
-## Propriété DocumentProperties.LastSavedBy
+## DocumentProperties.LastSavedBy propriété
 
 Renvoie ou définit le nom de la dernière personne ayant modifié une présentation. Chaîne en lecture/écriture.
 

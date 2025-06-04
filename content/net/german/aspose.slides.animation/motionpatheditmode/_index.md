@@ -1,7 +1,7 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, wie der Bewegungsweg sich bewegt, wenn die Zielform verschoben wird
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt an, wie sich der Bewegungsweg verändert, wenn die Zielform bewegt wird
 type: docs
 weight: 620
 url: /de/aspose.slides.animation/motionpatheditmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/motionpatheditmode/
 
 ## MotionPathEditMode Aufzählung
 
-Gibt an, wie der Bewegungsweg sich bewegt, wenn die Zielform verschoben wird
+Gibt an, wie sich der Bewegungsweg verändert, wenn die Zielform bewegt wird
 
 ```csharp
 public enum MotionPathEditMode
@@ -23,7 +23,7 @@ public enum MotionPathEditMode
 | Relative | `0` |  |
 | Fixed | `1` |  |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

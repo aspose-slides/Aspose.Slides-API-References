@@ -1,6 +1,6 @@
 ---
 title: Radius
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Radio. Solo lectura Double.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Radio. Solo lectura Double.
 public double Radius { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IGlowEffectiveData](../../igloweffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../igloweffectivedata)

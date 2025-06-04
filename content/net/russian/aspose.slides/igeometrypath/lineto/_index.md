@@ -1,6 +1,6 @@
 ---
 title: LineTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Добавляет линию в конец пути
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public void LineTo(PointF point)
 | --- | --- | --- |
 | point | PointF | Конечная точка линии |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
@@ -37,10 +37,10 @@ public void LineTo(float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X конечной точки линии |
-| y | Single | Координата Y конечной точки линии |
+| x | Single | X координата конечной точки линии |
+| y | Single | Y координата конечной точки линии |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
@@ -65,9 +65,9 @@ public void LineTo(PointF point, uint index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
@@ -85,17 +85,17 @@ public void LineTo(float x, float y, uint index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X точки |
-| y | Single | Координата Y точки |
+| x | Single | X координата точки |
+| y | Single | Y координата точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента находится вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)

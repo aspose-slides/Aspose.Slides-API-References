@@ -1,7 +1,7 @@
 ---
 title: GetCustomPropertyValue
-second_title: Aspose.Slides для .NET API Reference
-description: Получает именованное булево значение из пользовательских свойств.
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Получает именованное булевое значение из пользовательских свойств.
 type: docs
 weight: 430
 url: /ru/aspose.slides/documentproperties/getcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/documentproperties/getcustompropertyvalue/
 
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
-Получает именованное булево значение из пользовательских свойств.
+Получает именованное булевое значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out bool value)
@@ -30,7 +30,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
-Получает именованное целочисленное значение из пользовательских свойств.
+Получает именованное целое значение из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out int value)
@@ -93,7 +93,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-Получает именованное значение типа float из пользовательских свойств.
+Получает именованное значение с плавающей запятой из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)
@@ -114,7 +114,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
-Получает именованное значение типа double из пользовательских свойств.
+Получает именованное значение с двойной точностью из пользовательских свойств.
 
 ```csharp
 public void GetCustomPropertyValue(string name, out double value)

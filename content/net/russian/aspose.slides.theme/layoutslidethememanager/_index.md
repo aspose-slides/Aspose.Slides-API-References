@@ -1,15 +1,15 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Slides для .NET API Справка
-description: Предоставляет доступ к переопределенной теме слайда макета.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Обеспечивает доступ к переопределенной теме макета слайда.
 type: docs
 weight: 11100
 url: /ru/aspose.slides.theme/layoutslidethememanager/
 ---
 
-## Класс LayoutSlideThemeManager
+## LayoutSlideThemeManager класс
 
-Предоставляет доступ к переопределенной теме слайда макета.
+Обеспечивает доступ к переопределенной теме макета слайда.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -19,8 +19,8 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить переопределение темы, используйте метод OverrideTheme.Clear(). Только для чтения, Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Читаемое/записываемое [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Для активации OverrideTheme для переопределения используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения логическое значение. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
 
 ## Методы
 

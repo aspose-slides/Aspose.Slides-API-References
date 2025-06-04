@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回框架左上角的 X 坐标。只读单精度浮点数。
+description: 返回框架左上角的 X 坐标。只读单一值。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ishapeframe/x/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishapeframe/x/
 
 ## IShapeFrame.X 属性
 
-返回框架左上角的 X 坐标。只读单精度浮点数。
+返回框架左上角的 X 坐标。只读单一值。
 
 ```csharp
 public float X { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 命名空间 [Aspose.Slides](../../ishapeframe)

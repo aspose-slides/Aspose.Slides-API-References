@@ -1,13 +1,13 @@
 ---
 title: GetRange
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient la plage de données du graphique.
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/ichartdata/getrange/
 ---
 
-## Méthode IChartData.GetRange
+## IChartData.GetRange méthode
 
 Obtient la plage de données du graphique.
 
@@ -15,15 +15,15 @@ Obtient la plage de données du graphique.
 public string GetRange()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Formule de la plage de données des cellules. Par ex : "Sheet1!$A$1:$C$4"
+Formule de la plage de données des cellules. Par exemple : "Sheet1!$A$1:$C$4"
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Le graphique n'utilise pas le classeur comme source de données |
+| InvalidOperationException | Le graphique n'utilise pas un classeur comme source de données |
 
 ### Exemples
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartData](../../ichartdata)
 * namespace [Aspose.Slides.Charts](../../ichartdata)

@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetBottom
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Retourne ou définit le bord inférieur du rectangle de remplissage qui est défini par un décalage en pourcentage par rapport au bord inférieur de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait tandis qu'un pourcentage négatif spécifie une sortie. Lecture/écriture Single.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie ou définit le bord inférieur du rectangle de remplissage qui est défini par un décalage en pourcentage à partir du bord inférieur de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait tandis qu'un pourcentage négatif spécifie un dépassement. Lecture/écriture Simple.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ipicturefillformat/stretchoffsetbottom/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipicturefillformat/stretchoffsetbottom/
 
 ## Propriété IPictureFillFormat.StretchOffsetBottom
 
-Retourne ou définit le bord inférieur du rectangle de remplissage qui est défini par un décalage en pourcentage par rapport au bord inférieur de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait, tandis qu'un pourcentage négatif spécifie une sortie. Lecture/écriture Single.
+Renvoie ou définit le bord inférieur du rectangle de remplissage qui est défini par un décalage en pourcentage à partir du bord inférieur de la boîte englobante de la forme. Un pourcentage positif spécifie un retrait, tandis qu'un pourcentage négatif spécifie un dépassement. Lecture/écriture Simple.
 
 ```csharp
 public float StretchOffsetBottom { get; set; }

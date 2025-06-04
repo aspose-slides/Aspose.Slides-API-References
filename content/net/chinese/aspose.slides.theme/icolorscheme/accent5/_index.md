@@ -1,7 +1,7 @@
 ---
 title: Accent5
-second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第五种强调颜色。只读 IColorFormataspose.slides/../aspose.slides/icolorformat.
+second_title: Aspose.Sildes for .NET API Reference
+description: 方案中的第五种强调色。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 50
 url: /zh/aspose.slides.theme/icolorscheme/accent5/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/icolorscheme/accent5/
 
 ## IColorScheme.Accent5 属性
 
-方案中的第五种强调颜色。只读 [`IColorFormat`](../../../aspose.slides/icolorformat).
+方案中的第五种强调色。只读 [`IColorFormat`](../../../aspose.slides/icolorformat)。
 
 ```csharp
 public IColorFormat Accent5 { get; }

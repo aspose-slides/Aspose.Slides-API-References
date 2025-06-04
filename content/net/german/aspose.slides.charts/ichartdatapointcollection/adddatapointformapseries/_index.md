@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForMapSeries
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp "Karte" ist.
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Karte ist.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointformapseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointformapseries
 
 ## IChartDataPointCollection.AddDataPointForMapSeries-Methode
 
-Erschafft den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp "Karte" ist.
+ Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Karte ist.
 
 ```csharp
 public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)

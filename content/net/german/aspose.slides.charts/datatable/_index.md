@@ -19,13 +19,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Gibt das Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur lesbar [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Wahr, wenn die Datentabelle des Diagramms horizontale Zellengrenzen hat. Lese-/Schreibbooleans. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Wahr, wenn die Datentabelle des Diagramms Umrissgrenzen hat. Lese-/Schreibbooleans. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Wahr, wenn die Datentabelle des Diagramms vertikale Zellengrenzen hat. Lese-/Schreibbooleans. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Wahr, wenn der Legendenschlüssel für das Datenetikett sichtbar ist. Lese-/Schreibbooleans. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Gibt das Textformat zurück. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Gibt das Diagramm zurück. Nur Lesezugriff [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur Lesezugriff [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Wahr, wenn die Datentabelle des Diagramms horizontale Zellengrenzen hat. Lese-/Schreibzugriff Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Wahr, wenn die Datentabelle des Diagramms Umrandungen hat. Lese-/Schreibzugriff Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Wahr, wenn die Datentabelle des Diagramms vertikale Zellengrenzen hat. Lese-/Schreibzugriff Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Wahr, wenn der Schlüssel der Datenbeschriftung sichtbar ist. Lese-/Schreibzugriff Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Gibt das Textformat zurück. Nur Lesezugriff [`IChartTextFormat`](../icharttextformat). |
 
 ### Siehe auch
 

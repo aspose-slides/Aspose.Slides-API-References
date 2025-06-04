@@ -1,7 +1,7 @@
 ---
 title: StrikethroughType
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или задаёт тип зачеркивания текста. Наследование не применяется. Чтение/запись TextStrikethroughTypeaspose.slides/textstrikethroughtype.
+description: Возвращает или устанавливает тип зачеркивания текста. Наследование не применяется. Чтение/запись TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 220
 url: /ru/aspose.slides/baseportionformat/strikethroughtype/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/baseportionformat/strikethroughtype/
 
 ## BasePortionFormat.StrikethroughType свойство
 
-Возвращает или задаёт тип зачеркивания текста. Наследование не применяется. Чтение/запись [`TextStrikethroughType`](../../textstrikethroughtype).
+Возвращает или устанавливает тип зачеркивания текста. Наследование не применяется. Чтение/запись [`TextStrikethroughType`](../../textstrikethroughtype).
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [TextStrikethroughType](../../textstrikethroughtype)
 * class [BasePortionFormat](../../baseportionformat)

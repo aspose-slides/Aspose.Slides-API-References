@@ -1,21 +1,21 @@
 ---
 title: OnlyLoadDocumentProperties
-second_title: Aspose.Slides for .NET API 参考
-description: 该属性在演示文稿文件受到密码保护时才有意义。值为 true 表示只需从加密的演示文稿文件中加载文档属性，而应忽略密码。值为 false 表示必须使用正确的密码加载整个加密的演示文稿。如果演示文稿未加密，则属性值始终会被忽略。如果加密文件的文档属性不是公共的，并且属性值为 true，则无法加载文档属性，并将抛出异常。可读可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果演示文件受到密码保护，则此属性是有意义的。true的值意味着只需从加密的演示文件中加载文档属性，而必须忽略密码。false的值意味着必须使用正确的密码加载整个加密演示。如果演示没有加密，则属性值始终被忽略。如果加密文件的文档属性不是公开的并且属性值为true，则无法加载文档属性，且会抛出异常。可读写的布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides/iloadoptions/onlyloaddocumentproperties/
 ---
 
-## ILoadOptions.OnlyLoadDocumentProperties 属性
+## ILoadOptions.OnlyLoadDocumentProperties property
 
-该属性在演示文稿文件受到密码保护时才有意义。值为 true 表示只需从加密的演示文稿文件中加载文档属性，而应忽略密码。值为 false 表示必须使用正确的密码加载整个加密的演示文稿。如果演示文稿未加密，则属性值始终会被忽略。如果加密文件的文档属性不是公共的，并且属性值为 true，则无法加载文档属性，并将抛出异常。可读可写布尔值。
+如果演示文件受到密码保护，则此属性是有意义的。true的值意味着只需从加密的演示文件中加载文档属性，而必须忽略密码。false的值意味着必须使用正确的密码加载整个加密演示。如果演示没有加密，则属性值始终被忽略。如果加密文件的文档属性不是公开的并且属性值为true，则无法加载文档属性，且会抛出异常。可读写的布尔值。
 
 ```csharp
 public bool OnlyLoadDocumentProperties { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ILoadOptions](../../iloadoptions)
 * 命名空间 [Aspose.Slides](../../iloadoptions)

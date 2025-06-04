@@ -1,6 +1,6 @@
 ---
 title: ProtectionManager
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取此演示文稿的权限管理器。只读 IProtectionManager aspose.slides/iprotectionmanager。
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/presentation/protectionmanager/
 public IProtectionManager ProtectionManager { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IProtectionManager](../../iprotectionmanager)
 * 类 [Presentation](../../presentation)

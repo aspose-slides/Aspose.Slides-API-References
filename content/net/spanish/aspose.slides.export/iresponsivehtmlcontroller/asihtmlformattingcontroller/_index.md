@@ -1,6 +1,6 @@
 ---
 title: AsIHtmlFormattingController
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para la referencia de API de .NET
 description: Devuelve la interfaz IHtmlFormattingController.
 type: docs
 weight: 10
@@ -15,15 +15,15 @@ Devuelve la interfaz IHtmlFormattingController.
 public IHtmlFormattingController AsIHtmlFormattingController { get; }
 ```
 
-### Observaciones
+### Comentarios
 
 Para compatibilidad con COM.
 
-### Véase también
+### Véase También
 
 * interfaz [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * interfaz [IResponsiveHtmlController](../../iresponsivehtmlcontroller)
 * espacio de nombres [Aspose.Slides.Export](../../iresponsivehtmlcontroller)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

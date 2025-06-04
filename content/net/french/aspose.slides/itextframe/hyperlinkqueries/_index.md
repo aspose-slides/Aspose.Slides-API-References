@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides/itextframe/hyperlinkqueries/
 ---
 
-## Propriété ITextFrame.HyperlinkQueries
+## ITextFrame.HyperlinkQueries propriété
 
 Fournit un accès facile aux hyperliens contenus. Lecture seule [`IHyperlinkQueries`](../../ihyperlinkqueries).
 
@@ -15,7 +15,7 @@ Fournit un accès facile aux hyperliens contenus. Lecture seule [`IHyperlinkQuer
 public IHyperlinkQueries HyperlinkQueries { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHyperlinkQueries](../../ihyperlinkqueries)
 * interface [ITextFrame](../../itextframe)

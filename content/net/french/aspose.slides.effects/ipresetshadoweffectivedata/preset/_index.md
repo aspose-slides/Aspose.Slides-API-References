@@ -1,21 +1,21 @@
 ---
 title: Preset
-second_title: Référence API Aspose.Slides pour .NET
-description: Préréglage. Type de OmbrePréréglée en lecture seule aspose.slides/presetshadowtype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Preset. Propriété de type PresetShadowType en lecture seule aspose.slides/presetshadowtype.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/ipresetshadoweffectivedata/preset/
 ---
 
-## Propriété IPresetShadowEffectiveData.Preset
+## IPresetShadowEffectiveData.Preset property
 
-Préréglage. [`PresetShadowType`](../../../aspose.slides/presetshadowtype) en lecture seule.
+Preset. Propriété en lecture seule [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
 
 ```csharp
 public PresetShadowType Preset { get; }
 ```
 
-### Voir aussi
+### See Also
 
 * enum [PresetShadowType](../../../aspose.slides/presetshadowtype)
 * interface [IPresetShadowEffectiveData](../../ipresetshadoweffectivedata)

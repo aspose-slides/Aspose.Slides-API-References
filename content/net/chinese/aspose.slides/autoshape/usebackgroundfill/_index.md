@@ -1,7 +1,7 @@
 ---
 title: UseBackgroundFill
-second_title: Aspose.Slides for .NET API 参考
-description: 确定此自动形状是否应使用幻灯片的背景填充，而不是由样式或填充格式指定。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定此自动形状是否应使用幻灯片的背景填充，而不是由样式或填充格式指定。可读/写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/autoshape/usebackgroundfill/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/autoshape/usebackgroundfill/
 
 ## AutoShape.UseBackgroundFill 属性
 
-确定此自动形状是否应使用幻灯片的背景填充，而不是由样式或填充格式指定。可读/可写布尔值。
+确定此自动形状是否应使用幻灯片的背景填充，而不是由样式或填充格式指定。可读/写布尔值。
 
 ```csharp
 public bool UseBackgroundFill { get; set; }

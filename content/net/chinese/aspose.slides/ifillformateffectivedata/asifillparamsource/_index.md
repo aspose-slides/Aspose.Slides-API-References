@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回 IFillParamSource 接口。只读 IFillParamSourceaspose.slides/ifillparamsource。
+description: 返回 IFillParamSource 接口。 read-only IFillParamSourceaspose.slides/ifillparamsource。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ifillformateffectivedata/asifillparamsource/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifillformateffectivedata/asifillparamsource/
 
 ## IFillFormatEffectiveData.AsIFillParamSource 属性
 
-返回 IFillParamSource 接口。只读 [`IFillParamSource`](../../ifillparamsource)。
+返回 IFillParamSource 接口。 read-only [`IFillParamSource`](../../ifillparamsource)。
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }
@@ -17,9 +17,9 @@ public IFillParamSource AsIFillParamSource { get; }
 
 ### 备注
 
-这用于 COM 兼容性。
+这是为了与 COM 兼容。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFillParamSource](../../ifillparamsource)
 * 接口 [IFillFormatEffectiveData](../../ifillformateffectivedata)

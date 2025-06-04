@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
 second_title: Aspose.Sildes для .NET API Справочник
-description: Получает или устанавливает значение, указывающее, должно ли текст отображаться без использования лигатур. При установке в true лигатуры будут отключены в выводе. По умолчанию это свойство установлено в false.
+description: Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. При установке в true лигатуры будут отключены в выводе. По умолчанию это свойство установлено в false.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/renderingoptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/renderingoptions/disablefontligatures/
 
 ## RenderingOptions.DisableFontLigatures свойство
 
-Получает или устанавливает значение, указывающее, должно ли текст отображаться без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию это свойство установлено в `false`.
+Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. При установке в `true` лигатуры будут отключены в выводе. По умолчанию это свойство установлено в `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     RenderingOptions options = new RenderingOptions
     {
-        DisableFontLigatures = true // Отключение лигатур в отображении текста
+        DisableFontLigatures = true // Отключить лигатуры при отображении текста
     };
     
     Bitmap[] renderedSlides = pres.GetImage(options);
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [RenderingOptions](../../renderingoptions)
 * пространство имен [Aspose.Slides.Export](../../renderingoptions)

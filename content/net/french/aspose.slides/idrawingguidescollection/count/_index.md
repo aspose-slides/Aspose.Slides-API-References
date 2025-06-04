@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Obtient le nombre total d'éléments dans la collection. En lecture seule Int32.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient le nombre de tous les éléments dans la collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/idrawingguidescollection/count/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/idrawingguidescollection/count/
 
 ## Propriété IDrawingGuidesCollection.Count
 
-Obtient le nombre total d'éléments dans la collection. En lecture seule Int32.
+Obtient le nombre de tous les éléments dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDrawingGuidesCollection](../../idrawingguidescollection)
 * namespace [Aspose.Slides](../../idrawingguidescollection)

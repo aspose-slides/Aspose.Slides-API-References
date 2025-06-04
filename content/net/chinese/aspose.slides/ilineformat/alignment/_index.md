@@ -1,6 +1,6 @@
 ---
 title: Alignment
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置行对齐方式。可读/写 LineAlignmentaspose.slides/linealignment。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ilineformat/alignment/
 public LineAlignment Alignment { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 枚举 [LineAlignment](../../linealignment)
 * 接口 [ILineFormat](../../ilineformat)

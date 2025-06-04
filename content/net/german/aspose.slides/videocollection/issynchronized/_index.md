@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Schreibgeschütztes Boolean.
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Schreibgeschützter Boolescher Wert.
 type: docs
 weight: 20
 url: /de/aspose.slides/videocollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/videocollection/issynchronized/
 
 ## VideoCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Schreibgeschütztes Boolean.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Schreibgeschützter Boolescher Wert.
 
 ```csharp
 public bool IsSynchronized { get; }

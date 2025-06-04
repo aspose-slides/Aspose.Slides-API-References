@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает тип заливки фона. Чтение/запись BackgroundTypeaspose.slides/backgroundtype.
 type: docs
 weight: 70

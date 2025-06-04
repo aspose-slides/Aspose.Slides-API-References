@@ -1,6 +1,6 @@
 ---
 title: ImageDataCropRight
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 imageData.cropRight 属性
 type: docs
 weight: 460
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/imagedatacropright/
 public static BehaviorProperty ImageDataCropRight { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,15 +1,15 @@
 ---
 title: ITextAnimation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert die Textanimation.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt Textanimation dar.
 type: docs
 weight: 540
 url: /de/aspose.slides.animation/itextanimation/
 ---
 
-## ITextAnimation-Schnittstelle
+## ITextAnimation Schnittstelle
 
-Repräsentiert die Textanimation.
+Stellt Textanimation dar.
 
 ```csharp
 public interface ITextAnimation
@@ -19,14 +19,14 @@ public interface ITextAnimation
 
 | Name | Beschreibung |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Liste des Aufbau Typs (z.B. Absatz 1,2,3, Alle auf einmal) der Textanimation. Lesen/Schreiben [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Verknüpfte Formwirkung mit Gruppe oder nicht (null) Lesen/Schreiben [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Liste der Bauarten (z.B. Absatz 1,2,3, Alle auf einmal) der Textanimation. Lesen/Schreiben [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Verknüpfte Formeffekte mit Gruppe oder nicht (null). Lesen/Schreiben [`IEffect`](../ieffect). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Füge der aktuellen Sequenz am Ende der Gruppen-Textanimationen einen neuen Effekt hinzu. Nur gültig, wenn die Anzahl der Textabsätze gleich oder größer als die Anzahl der Effekte dieser Gruppe ist! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Fügt am Ende der aktuellen Sequenz einen neuen Effekt zum Ende der Gruppen-Textanimationen hinzu. Nur gültig, wenn die Anzahl der Textabsätze gleich oder größer als die Anzahl der Effekte dieser Gruppe ist! |
 
 ### Siehe Auch
 

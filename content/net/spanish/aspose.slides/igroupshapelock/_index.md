@@ -1,7 +1,7 @@
 ---
 title: IGroupShapeLock
 second_title: Aspose.Slides para .NET Referencia de API
-description: Determina qué operaciones están deshabilitadas en el grupo padre GroupShape.
+description: Determina qué operaciones están deshabilitadas en el GroupShape padre.
 type: docs
 weight: 5890
 url: /es/aspose.slides/igroupshapelock/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/igroupshapelock/
 
 ## Interfaz IGroupShapeLock
 
-Determina qué operaciones están deshabilitadas en el grupo padre GroupShape.
+Determina qué operaciones están deshabilitadas en el GroupShape padre.
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
@@ -26,7 +26,7 @@ public interface IGroupShapeLock : IBaseShapeLock
 | [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Determina si cambiar el ángulo de rotación de esta forma está prohibido. Booleano de lectura/escritura. |
 | [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Determina si seleccionar esta forma está prohibido. Booleano de lectura/escritura. |
 | [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Determina si redimensionar esta forma está prohibido. Booleano de lectura/escritura. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Determina si dividir este grupo de formas está prohibido. Booleano de lectura/escritura. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Determina si dividir este gruposhape está prohibido. Booleano de lectura/escritura. |
 
 ### Véase También
 

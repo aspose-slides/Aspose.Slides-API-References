@@ -1,6 +1,6 @@
 ---
 title: IChartDataWorksheet
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Representa la hoja de trabajo asociada con IChartDataCell./ichartdatacell
 type: docs
 weight: 1790
@@ -24,7 +24,7 @@ public interface IChartDataWorksheet
 
 ### Véase también
 
-* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

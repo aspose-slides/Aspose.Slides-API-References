@@ -1,6 +1,6 @@
 ---
 title: SetTextFormat
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Aspose.Sildes for .NET API Reference
 description: Establece propiedades de formato de porción definidas a todas las porciones de las celdas de la tabla.
 type: docs
 weight: 150
@@ -51,7 +51,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Establece propiedades de formato de marco de texto definidas a todos los marcos de texto de las celdas de la tabla.
+Establece propiedades de formato de cuadro de texto definidas a todos los cuadros de texto de las celdas de la tabla.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)

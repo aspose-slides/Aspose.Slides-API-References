@@ -1,7 +1,7 @@
 ---
 title: Save
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Сохраняет вывод документа.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Сохраняет выходной документ.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export.web/webdocument/save/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export.web/webdocument/save/
 
 ## WebDocument.Save метод
 
-Сохраняет вывод документа.
+Сохраняет выходной документ.
 
 ```csharp
 public void Save()
@@ -30,10 +30,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
     
     WebDocument document = new WebDocument(options);
 
-    // добавьте шаблон "index-template.html" с ключом шаблона "index", чтобы использовать его позже (для Output)
+    // добавить шаблон "index-template.html" с ключом шаблона "index", чтобы использовать его позже (для вывода)
     document.Input.AddTemplate<Aspose.Slides.Presentation>("index", "index-template.html");
 
-    // добавьте "index.html" в выходные файлы, используя шаблон "index" для его генерации и переменную pres в качестве модели
+    // добавить "index.html" в выходные файлы, используя "index" шаблон для его генерации и переменную pres в качестве модели
     document.Output.Add("index.html", "index", pres);
     
     // ... настройте другие параметры документа, а затем сохраните документ
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Также см.
 
 * класс [WebDocument](../../webdocument)
 * пространство имен [Aspose.Slides.Export.Web](../../webdocument)

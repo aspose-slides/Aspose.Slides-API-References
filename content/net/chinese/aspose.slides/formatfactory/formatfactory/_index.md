@@ -1,6 +1,6 @@
 ---
 title: FormatFactory
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/formatfactory/formatfactory/
 public FormatFactory()
 ```
 
-### 另见
+### 另请参阅
 
 * class [FormatFactory](../../formatfactory)
 * namespace [Aspose.Slides](../../formatfactory)

@@ -1,7 +1,7 @@
 ---  
 title: CreateMathArray
 second_title: Aspose.Sildes for .NET API Reference  
-description: 创建一个数学数组并将指定元素放置其中
+description: 创建一个数学数组并将指定元素放入其中
 type: docs  
 weight: 20  
 url: /zh/aspose.slides.mathtext/matharrayfactory/creatematharray/
@@ -9,21 +9,21 @@ url: /zh/aspose.slides.mathtext/matharrayfactory/creatematharray/
 
 ## CreateMathArray(IMathElement) {#creatematharray}  
 
-创建一个数学数组并将指定元素放置其中  
+创建一个数学数组并将指定元素放入其中  
 
 ```csharp  
 public IMathArray CreateMathArray(IMathElement element)  
 ```  
 
-| 参数 | 类型 | 描述 |  
-| --- | --- | --- |  
-| element | IMathElement | 要放入数组的数学元素 |  
+| 参数      | 类型               | 描述                        |  
+|-----------|-------------------|-----------------------------|  
+| element   | IMathElement      | 放入数组中的数学元素       |  
 
 ### 返回值  
 
-新的数学数组  
+新数学数组  
 
-### 另见  
+### 参见  
 
 * interface [IMathArray](../../imatharray)  
 * interface [IMathElement](../../imathelement)  
@@ -35,21 +35,21 @@ public IMathArray CreateMathArray(IMathElement element)
 
 ## CreateMathArray(IMathElementCollection) {#creatematharray_1}  
 
-创建一个数学数组并将指定的元素放置其中  
+创建一个数学数组并将指定元素放入其中  
 
 ```csharp  
 public IMathArray CreateMathArray(IMathElementCollection elements)  
 ```  
 
-| 参数 | 类型 | 描述 |  
-| --- | --- | --- |  
-| elements | IMathElementCollection | 要放入数组的数学元素 |  
+| 参数      | 类型                       | 描述                        |  
+|-----------|---------------------------|-----------------------------|  
+| elements  | IMathElementCollection     | 放入数组中的数学元素       |  
 
 ### 返回值  
 
-新的数学数组  
+新数学数组  
 
-### 另见  
+### 参见  
 
 * interface [IMathArray](../../imatharray)  
 * interface [IMathElementCollection](../../imathelementcollection)  

@@ -1,7 +1,7 @@
 ---
 title: IChartWall
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет стены на 3D графиках.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет стены на 3D диаграммах.
 type: docs
 weight: 1930
 url: /ru/aspose.slides.charts/ichartwall/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartwall/
 
 ## Интерфейс IChartWall
 
-Представляет стены на 3D графиках.
+Представляет стены на 3D диаграммах.
 
 ```csharp
 public interface IChartWall
@@ -19,11 +19,11 @@ public interface IChartWall
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3D стили. Только для чтения [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Возвращает заполнение стены, линию, эффект, 3D стили. Тольо для чтения [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Возвращает или устанавливает тип изображения. Чтение/запись [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Возвращает или устанавливает толщину стен в процентах от наибольшего размера объемного графика. Чтение/запись Int32. |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Возвращает или устанавливает толщину стен как процент от наибольшего измерения объема. Чтение/запись Int32. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

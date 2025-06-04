@@ -1,21 +1,21 @@
 ---
 title: InvertedSolidFillColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica un color sólido invertido para la serie. Para aplicar la configuración del color, establezca el tipo de relleno del formato de la serie en FillType.Solid. Lectura/escritura de IColorFormataspose.slides/../aspose.slides/icolorformat.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Especifica el color sólido invertido para la serie. Para aplicar la configuración de color, establezca el formato de la serie FillType en FillType.Solid. Lectura/escritura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 160
 url: /es/aspose.slides.charts/ichartseries/invertedsolidfillcolor/
 ---
 
-## Propiedad IChartSeries.InvertedSolidFillColor
+## IChartSeries.InvertedSolidFillColor propiedad
 
-Especifica un color sólido invertido para la serie. Para aplicar la configuración del color, establezca el tipo de relleno del formato de la serie en FillType.Solid. Lectura/escritura de [`IColorFormat`](../../../aspose.slides/icolorformat).
+Especifica el color sólido invertido para la serie. Para aplicar la configuración de color, establezca el formato de la serie FillType en FillType.Solid. Lectura/escritura [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat InvertedSolidFillColor { get; }
 ```
 
-### Vea También
+### Véase también
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * interfaz [IChartSeries](../../ichartseries)

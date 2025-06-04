@@ -1,7 +1,7 @@
 ---
 title: IMathRadical
-second_title: Aspose.Slides for .NET API Reference
-description: 指定由基数和可选的度数组成的根号函数。根对象的示例是 .
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定由基数和可选的度数组成的标准函数。标准对象的示例是 .
 type: docs
 weight: 8170
 url: /zh/aspose.slides.mathtext/imathradical/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathradical/
 
 ## IMathRadical 接口
 
-指定根号函数，由基数和可选的度数组成。根对象的示例是 √𝑥。
+指定标准函数，由基数和可选的度数组成。标准对象的示例是 √𝑥。
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -22,7 +22,7 @@ public interface IMathRadical : IMathElement
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | 基数参数 |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | 度数参数 |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | 隐藏度数，当为 true 时，度数不显示，如 √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | 隐藏度数 当为 true 时，度数不显示，如在 √𝑥 中 |
 
 ### 示例
 
@@ -30,10 +30,10 @@ public interface IMathRadical : IMathElement
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3"); // 立方根
+IMathRadical radical = new MathematicalText("x").Radical("3"); // 三次根
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

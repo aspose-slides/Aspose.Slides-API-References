@@ -1,21 +1,21 @@
 ---
 title: IsHidden
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie vrai si ce nœud est un nœud caché dans le modèle de données. Booléen en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne vrai si ce nœud est un nœud caché dans le modèle de données. Booléen en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides.smartart/ismartartnode/ishidden/
 ---
 
-## Propriété ISmartArtNode.IsHidden
+## ISmartArtNode.IsHidden property
 
-Renvoie vrai si ce nœud est un nœud caché dans le modèle de données. Booléen en lecture seule.
+Retourne vrai si ce nœud est un nœud caché dans le modèle de données. Booléen en lecture seule.
 
 ```csharp
 public bool IsHidden { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISmartArtNode](../../ismartartnode)
 * namespace [Aspose.Slides.SmartArt](../../ismartartnode)

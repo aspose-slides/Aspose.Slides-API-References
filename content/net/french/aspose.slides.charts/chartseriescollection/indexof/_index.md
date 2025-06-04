@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Recherche la ChartSeries spécifiée aspose.slides.charts/chartseries et retourne l'index basé sur zéro de la première occurrence dans l'ensemble de la collection
+second_title: Aspose.Slides pour .NET API Reference
+description: Recherche le ChartSeries spécifié aspose.slides.charts/chartseries et retourne l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
 type: docs
 weight: 90
 url: /fr/aspose.slides.charts/chartseriescollection/indexof/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseriescollection/indexof/
 
 ## Méthode ChartSeriesCollection.IndexOf
 
-Recherche la [`ChartSeries`](../../chartseries) spécifiée et retourne l'index basé sur zéro de la première occurrence dans l'ensemble de la collection
+Recherche le [`ChartSeries`](../../chartseries) spécifié et retourne l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
 
 ```csharp
 public int IndexOf(IChartSeries value)
@@ -21,12 +21,12 @@ public int IndexOf(IChartSeries value)
 
 ### Valeur de retour
 
-L'index basé sur zéro de la première occurrence de la valeur dans l'ensemble de CollectionBase, si trouvé ; sinon, -1.
+L'index basé sur zéro de la première occurrence de la valeur dans l'ensemble de la CollectionBase, si trouvé ; sinon, -1.
 
 ### Voir aussi
 
 * interface [IChartSeries](../../ichartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
+* classe [ChartSeriesCollection](../../chartseriescollection)
 * namespace [Aspose.Slides.Charts](../../chartseriescollection)
 * assembly [Aspose.Slides](../../../)
 

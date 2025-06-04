@@ -1,7 +1,7 @@
 ---
 title: ShowFullScreen
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Afficher/masquer le bouton plein écran. Peut être remplacé dans flashvars. Par défaut, c'est vrai.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Afficher/cacher le bouton plein écran. Peut être remplacé dans flashvars. La valeur par défaut est vraie.
 type: docs
 weight: 80
 url: /fr/aspose.slides.export/swfoptions/showfullscreen/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/swfoptions/showfullscreen/
 
 ## Propriété SwfOptions.ShowFullScreen
 
-Afficher/masquer le bouton plein écran. Peut être remplacé dans flashvars. Par défaut, c'est vrai.
+Afficher/cacher le bouton plein écran. Peut être remplacé dans flashvars. La valeur par défaut est vraie.
 
 ```csharp
 public bool ShowFullScreen { get; set; }

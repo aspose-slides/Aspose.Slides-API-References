@@ -1,7 +1,7 @@
 ---
 title: ExtrusionRender
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaft extrusion.render dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die 'extrusion.render' Eigenschaft dar
 type: docs
 weight: 130
 url: /de/aspose.slides.animation/behaviorproperty/extrusionrender/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/extrusionrender/
 
 ## BehaviorProperty.ExtrusionRender-Eigenschaft
 
-Stellt die Eigenschaft 'extrusion.render' dar
+Stellt die 'extrusion.render' Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ExtrusionRender { get; }

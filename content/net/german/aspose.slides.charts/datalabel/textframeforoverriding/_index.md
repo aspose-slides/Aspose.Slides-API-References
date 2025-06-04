@@ -1,7 +1,7 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Slides für .NET API-Referenz
-description: Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, wird dieser formatierte Textwert den automatisch generierten Text des Datenetiketts überschreiben. Der automatisch generierte Text des Datenetiketts bezieht sich auf den Text, der von den Eigenschaften ShowSeriesName, ShowValue, ... verwaltet wird und mit der TextFormatManager.TextFormat-Eigenschaft formatiert ist. Nur-lesbar ITextFrameaspose.slides/../aspose.slides/itextframe.
+description: Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, wird dieser formatierte Textwert als Überschreibung des automatisch generierten Texts des Datenetiketts verwendet. Automatisch generierter Text des Datenetiketts bedeutet Text, der durch die Eigenschaften ShowSeriesName, ShowValue, ... verwaltet wird und mit der Eigenschaft TextFormatManager.TextFormat formatiert ist. Nur lesbar ITextFrameaspose.slides/../aspose.slides/itextframe.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/datalabel/textframeforoverriding/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/datalabel/textframeforoverriding/
 
 ## DataLabel.TextFrameForOverriding-Eigenschaft
 
-Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, wird dieser formatierte Textwert den automatisch generierten Text des Datenetiketts überschreiben. Der automatisch generierte Text des Datenetiketts bezieht sich auf den Text, der von den Eigenschaften ShowSeriesName, ShowValue, ... verwaltet wird und mit der TextFormatManager.TextFormat-Eigenschaft formatiert ist. Nur-lesbar [`ITextFrame`](../../../aspose.slides/itextframe).
+Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, wird dieser formatierte Textwert als Überschreibung des automatisch generierten Texts des Datenetiketts verwendet. Automatisch generierter Text des Datenetiketts bedeutet Text, der durch die Eigenschaften ShowSeriesName, ShowValue, ... verwaltet wird und mit der Eigenschaft TextFormatManager.TextFormat formatiert ist. Nur lesbar [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITextFrame](../../../aspose.slides/itextframe)
 * Klasse [DataLabel](../../datalabel)

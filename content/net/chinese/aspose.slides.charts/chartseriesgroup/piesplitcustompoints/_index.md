@@ -1,7 +1,7 @@
 ---
 title: PieSplitCustomPoints
-second_title: Aspose.Sildes for .NET API 参考
-description: 含有自定义分割的饼图或条形图的自定义分割信息。包含将在饼图或条形图的第二个饼或条中绘制的数据点。只读 PieSplitCustomPointCollectionaspose.slides/piesplitcustompointcollection.
+second_title: Aspose.Sildes for .NET API Reference
+description: 自定义的饼图或条形图的分裂信息，包含将在饼图或条形图中的第二个饼或条中绘制的数据点。只有 PieSplitCustomPointCollection 是只读的 aspose.slides.charts/piesplitcustompointcollection。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/chartseriesgroup/piesplitcustompoints/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseriesgroup/piesplitcustompoints/
 
 ## ChartSeriesGroup.PieSplitCustomPoints 属性
 
-含有自定义分割的饼图或条形图的自定义分割信息。包含将在饼图或条形图的第二个饼或条中绘制的数据点。只读 [`PieSplitCustomPointCollection`](../../piesplitcustompointcollection)。
+自定义的饼图或条形图的分裂信息，包含将在饼图或条形图中的第二个饼或条中绘制的数据点。只有 [`PieSplitCustomPointCollection`](../../piesplitcustompointcollection)。
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
 * 类 [ChartSeriesGroup](../../chartseriesgroup)

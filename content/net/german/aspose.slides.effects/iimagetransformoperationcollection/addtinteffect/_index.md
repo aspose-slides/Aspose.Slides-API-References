@@ -1,13 +1,13 @@
 ---
 title: AddTintEffect
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Fügt den neuen Tint-Effekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 190
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addtinteffect/
 ---
 
-## IImageTransformOperationCollection.AddTintEffect Methode
+## IImageTransformOperationCollection.AddTintEffect-Methode
 
 Fügt den neuen Tint-Effekt am Ende einer Sammlung hinzu.
 
@@ -17,8 +17,8 @@ public ITint AddTintEffect(float hue, float amount)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| hue | Single | Der Farbton, zu dem getönt werden soll. |
-| amount | Single | Bestimmt, um wie viel der Farbwert verschoben wird. |
+| hue | Single | Der Farbton, in den getönt werden soll. |
+| amount | Single | Gibt an, um wie viel der Farbwert verschoben wird. |
 
 ### Rückgabewert
 

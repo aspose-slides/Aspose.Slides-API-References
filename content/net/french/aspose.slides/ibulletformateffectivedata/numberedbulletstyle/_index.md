@@ -1,21 +1,21 @@
 ---
 title: NumberedBulletStyle
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le style d'une puce numérotée. En lecture seule NumberedBulletStyleaspose.slides/numberedbulletstyle.
+second_title: Aspose.Slides pour .NET API Reference
+description: Retourne le style d'une puce numérotée. Lecture seule NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ibulletformateffectivedata/numberedbulletstyle/
 ---
 
-## Propriété IBulletFormatEffectiveData.NumberedBulletStyle
+## IBulletFormatEffectiveData.NumberedBulletStyle propriété
 
-Renvoie le style d'une puce numérotée. En lecture seule [`NumberedBulletStyle`](../../numberedbulletstyle).
+Retourne le style d'une puce numérotée. Lecture seule [`NumberedBulletStyle`](../../numberedbulletstyle).
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [NumberedBulletStyle](../../numberedbulletstyle)
 * interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

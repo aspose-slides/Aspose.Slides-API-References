@@ -1,13 +1,13 @@
 ---
 title: IColorFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Représente une couleur utilisée dans une présentation.
 type: docs
 weight: 5290
 url: /fr/aspose.slides/icolorformat/
 ---
 
-## Interface IColorFormat
+## IColorFormat interface
 
 Représente une couleur utilisée dans une présentation.
 
@@ -19,31 +19,31 @@ public interface IColorFormat : IFillParamSource
 
 | Nom | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Renvoie l'interface IFillParamSource. En lecture seule [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Renvoie ou définit le composant bleu d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Renvoie la couleur résultante (avec toutes les transformations de couleur appliquées). Définit les couleurs RGB et efface toutes les transformations de couleur. Lecture/écriture Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Renvoie la collection de transformations de couleur appliquées à une couleur. En lecture seule [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Renvoie ou définit la méthode de définition de la couleur. Lecture/écriture [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Renvoie ou définit le composant bleu d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Renvoie ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Renvoie ou définit le composant rouge d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | Renvoie ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Renvoie ou définit le composant teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Renvoie ou définit le composant luminance d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Renvoie ou définit le préréglage de couleur. Lecture/écriture [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | Renvoie ou définit le composant rouge d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Renvoie ou définit le composant saturation d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Renvoie ou définit la couleur identifiée par un schéma de couleur. Lecture/écriture [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Renvoie ou définit la couleur identifiée par la table des couleurs du système. Lecture/écriture [`SystemColor`](../systemcolor). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Récupère l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Récupère ou définit le composant bleu d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Récupère la couleur résultante (avec toutes les transformations de couleur appliquées). Définit les couleurs RVB et efface toutes les transformations de couleur. Lecture/écriture Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Récupère la collection des transformations de couleur appliquées à une couleur. Lecture seule [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Récupère ou définit la méthode de définition de la couleur. Lecture/écriture [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Récupère ou définit le composant bleu d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Récupère ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Récupère ou définit le composant rouge d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Récupère ou définit le composant vert d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Récupère ou définit le composant teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Récupère ou définit le composant luminosité d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Récupère ou définit le préréglage de couleur. Lecture/écriture [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Récupère ou définit le composant rouge d'une couleur. Toutes les transformations de couleur sont ignorées. Lecture/écriture Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Récupère ou définit le composant saturation d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Récupère ou définit la couleur identifiée par un schéma de couleur. Lecture/écriture [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Récupère ou définit la couleur identifiée par la table des couleurs système. Lecture/écriture [`SystemColor`](../systemcolor). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Copie le format de couleur de "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Renvoie une chaîne qui représente le format de couleur actuel. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Copie le format de couleur depuis "color". |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Retourne une chaîne qui représente le format de couleur actuel. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,6 +1,6 @@
 ---
 title: Font
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Aufzählungszeichen-Schriftart eines Absatzes zurück. Nur-Lese IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Gibt die Aufzählungszeichen-Schriftart eines Absatzes zurück. Nur-Lese [`IFont
 public IFontData Font { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFontData](../../ifontdata)
 * Schnittstelle [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

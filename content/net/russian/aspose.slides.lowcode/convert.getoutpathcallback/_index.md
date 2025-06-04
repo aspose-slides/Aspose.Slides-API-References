@@ -1,6 +1,6 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Aspose.Slides для .NET Справочник API
 description: type docs
 weight: 7650
 url: /ru/aspose.slides.lowcode/convert.getoutpathcallback/
@@ -12,7 +12,7 @@ url: /ru/aspose.slides.lowcode/convert.getoutpathcallback/
 public delegate string GetOutPathCallback(Slide slide, int index);
 ```
 
-### См. Также
+### Смотрите Также
 
 * класс [Slide](../../aspose.slides/slide)
 * класс [Convert](../convert)

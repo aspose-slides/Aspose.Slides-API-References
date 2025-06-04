@@ -1,6 +1,6 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 初始化默认值。
 type: docs
 weight: 10

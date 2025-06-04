@@ -1,6 +1,6 @@
 ---
 title: NumberFormat
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Formatzeichenfolge für das DataLabels-Objekt dar. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 40
@@ -15,9 +15,9 @@ Stellt die Formatzeichenfolge für das DataLabels-Objekt dar. Lese-/Schreibzeich
 public string NumberFormat { get; set; }
 ```
 
-### Hinweise
+### Anmerkungen
 
-Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der NumberFormat-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung. Wenn diese Eigenschaft mit einem Wert gesetzt wird, wird dieser Wert auch für die NumberFormat-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung gesetzt (d.h. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" führt dazu, dass alle DataLabels[i].NumberFormat gleich val sind).
+Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann wird diese Eigenschaft verwendet, um den Standardwert der NumberFormat-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung abzurufen oder festzulegen. Wenn diese Eigenschaft mit einem Wert festgelegt wird, wird dieser Wert auch für die NumberFormat-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung festgelegt (d.h. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" bewirkt, dass alle DataLabels[i].NumberFormat gleich val sind).
 
 ### Beispiele
 
@@ -28,7 +28,7 @@ series.Labels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = false;
 series.Labels.DefaultDataLabelFormat.NumberFormat = "0.0%";
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDataLabelFormat](../../idatalabelformat)
 * Namespace [Aspose.Slides.Charts](../../idatalabelformat)

@@ -1,15 +1,15 @@
 ---
 title: HeadingPair
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет свойство "Пара заголовков" документа. Указывает имя группы частей документа и количество частей в группе.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойство пары заголовков документа. Оно указывает имя группы частей документа и количество частей в группе.
 type: docs
 weight: 4910
 url: /ru/aspose.slides/headingpair/
 ---
 
-## Класс HeadingPair
+## HeadingPair класс
 
-Представляет свойство "Пара заголовков" документа. Указывает имя группы частей документа и количество частей в группе.
+Представляет свойство 'пара заголовков' документа. Оно указывает имя группы частей документа и количество частей в группе.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -17,7 +17,7 @@ public sealed class HeadingPair : IHeadingPair
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/headingpair/count) { get; } | Возвращает количество частей в группе. Только для чтения Int32. |
 | [Name](../../aspose.slides/headingpair/name) { get; } | Возвращает имя группы частей документа. Только для чтения String. |

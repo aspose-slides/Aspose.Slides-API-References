@@ -1,15 +1,15 @@
 ---
 title: CommentsPosition
-second_title: Aspose.Sildes для .NET API Reference
-description: Получает или задает позицию комментариев на странице.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает положение комментариев на странице.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/notescommentslayoutingoptions/commentsposition/
 ---
 
-## Свойство NotesCommentsLayoutingOptions.CommentsPosition
+## NotesCommentsLayoutingOptions.CommentsPosition свойство
 
-Получает или задает позицию комментариев на странице.
+Получает или задает положение комментариев на странице.
 
 ```csharp
 public CommentsPositions CommentsPosition { get; set; }

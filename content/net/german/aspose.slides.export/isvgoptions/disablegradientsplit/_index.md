@@ -1,7 +1,7 @@
 ---
 title: DisableGradientSplit
 second_title: Aspose.Slides für .NET API Referenz
-description: Deaktiviert das Splitten von FromCornerX und FromCenter Farbverläufen. Lese-/Schreib-Boolean.
+description: Deaktiviert das Aufteilen von FromCornerX und FromCenter Farbverläufen. Lese-/schreibbares Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/isvgoptions/disablegradientsplit/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/isvgoptions/disablegradientsplit/
 
 ## ISVGOptions.DisableGradientSplit-Eigenschaft
 
-Deaktiviert das Splitten von FromCornerX und FromCenter Farbverläufen. Lese-/Schreib-Boolean.
+Deaktiviert das Aufteilen von FromCornerX und FromCenter Farbverläufen. Lese-/schreibbares Boolean.
 
 ```csharp
 public bool DisableGradientSplit { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISVGOptions](../../isvgoptions)
 * Namespace [Aspose.Slides.Export](../../isvgoptions)

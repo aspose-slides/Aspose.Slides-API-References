@@ -1,15 +1,15 @@
 ---
 title: ObjectDistribution
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Distribución de Objetos Cuando es verdadero, los contenidos del array se ajustan al ancho máximo del objeto array.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Distribución de Objetos Cuando es verdadero, el contenido del arreglo se espacia al ancho máximo del objeto de arreglo.
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/imatharray/objectdistribution/
 ---
 
-## Propiedad IMathArray.DistribuciónDeObjetos
+## IMathArray.ObjectDistribution property
 
-Distribución de Objetos Cuando es verdadero, los contenidos del array se ajustan al ancho máximo del objeto array.
+Distribución de Objetos Cuando es verdadero, el contenido del arreglo se espacia al ancho máximo del objeto de arreglo.
 
 ```csharp
 public bool ObjectDistribution { get; set; }
@@ -25,10 +25,10 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.ObjectDistribution = true;
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IMathArray](../../imatharray)
-* espacio de nombres [Aspose.Slides.MathText](../../imatharray)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IMathArray](../../imatharray)
+* namespace [Aspose.Slides.MathText](../../imatharray)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

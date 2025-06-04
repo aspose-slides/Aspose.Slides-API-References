@@ -1,6 +1,6 @@
 ---
 title: AddSectionZoomFrame
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый объект Section Zoom в конец коллекции.
 type: docs
 weight: 140
@@ -18,11 +18,11 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового кадра Section Zoom. |
-| y | Single | Y координата нового кадра Section Zoom. |
-| width | Single | Ширина нового кадра Section Zoom. |
-| height | Single | Высота нового кадра Section Zoom. |
-| section | ISection | Объект секции, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
+| x | Single | X-координата нового фрейма Section Zoom Single. |
+| y | Single | Y-координата нового фрейма Section Zoom Single. |
+| width | Single | Ширина нового фрейма Section Zoom Single. |
+| height | Single | Высота нового фрейма Section Zoom Single. |
+| section | ISection | Объект секции, на который ссылается фрейм Section Zoom [`ISection`](../../isection). |
 
 ### Возвращаемое значение
 
@@ -32,11 +32,11 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Ссылка на секцию не принадлежит текущей презентации или не содержит никаких слайдов. |
+| ArgumentException | Указанная секция не принадлежит текущей презентации или не содержит слайдов. |
 
 ### Примеры
 
-Этот пример демонстрирует добавление объекта Section Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум две секции):
+Этот пример демонстрирует добавление объекта Section Zoom в конец коллекции (предполагая, что в презентации "Presentation.pptx" есть как минимум две секции):
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [ISectionZoomFrame](../../isectionzoomframe)
 * интерфейс [ISection](../../isection)
@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-Добавляет новый объект Section Zoom в конец коллекции с предопределенным изображением.
+Добавляет новый объект Section Zoom в конец коллекции с предустановленным изображением.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -67,12 +67,12 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового кадра Section Zoom. |
-| y | Single | Y координата нового кадра Section Zoom. |
-| width | Single | Ширина нового кадра Section Zoom. |
-| height | Single | Высота нового кадра Section Zoom. |
-| section | ISection | Объект секции, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
-| image | IPPImage | Изображение для слайда, на который ссылаются [`IPPImage`](../../ippimage) |
+| x | Single | X-координата нового фрейма Section Zoom Single. |
+| y | Single | Y-координата нового фрейма Section Zoom Single. |
+| width | Single | Ширина нового фрейма Section Zoom Single. |
+| height | Single | Высота нового фрейма Section Zoom Single. |
+| section | ISection | Объект секции, на который ссылается фрейм Section Zoom [`ISection`](../../isection). |
+| image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
@@ -82,11 +82,11 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Ссылка на секцию не принадлежит текущей презентации или не содержит никаких слайдов. |
+| ArgumentException | Указанная секция не принадлежит текущей презентации или не содержит слайдов. |
 
 ### Примеры
 
-Этот пример демонстрирует добавление объекта Section Zoom в конец коллекции (предполагается, что в презентации "Presentation.pptx" есть как минимум две секции):
+Этот пример демонстрирует добавление объекта Section Zoom в конец коллекции (предполагая, что в презентации "Presentation.pptx" есть как минимум две секции):
 
 ```csharp
 [C#]
@@ -97,7 +97,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [ISectionZoomFrame](../../isectionzoomframe)
 * интерфейс [ISection](../../isection)

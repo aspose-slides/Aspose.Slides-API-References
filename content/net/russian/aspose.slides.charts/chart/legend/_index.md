@@ -1,6 +1,6 @@
 ---
 title: Legend
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает или устанавливает легенду для графика. Только для чтения ILegendaspose.slides.charts/ilegend.
 type: docs
 weight: 140
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chart/legend/
 public ILegend Legend { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ILegend](../../ilegend)
 * класс [Chart](../../chart)

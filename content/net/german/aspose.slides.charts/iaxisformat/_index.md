@@ -1,7 +1,7 @@
 ---
 title: IAxisFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt Diagrammformat-Eigenschaften dar.
+description: Stellt Eigenschaften des Diagrammformats dar.
 type: docs
 weight: 1640
 url: /de/aspose.slides.charts/iaxisformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxisformat/
 
 ## IAxisFormat-Schnittstelle
 
-Stellt Diagrammformat-Eigenschaften dar.
+Stellt Eigenschaften des Diagrammformats dar.
 
 ```csharp
 public interface IAxisFormat
@@ -19,9 +19,9 @@ public interface IAxisFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Gibt die Effekte zurück, die für eine Achse verwendet werden. Nur-lesbar [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Gibt die Füllstil-Eigenschaften einer Achse zurück. Nur-lesbar [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Gibt die Linienstil-Eigenschaften einer Achse zurück. Nur-lesbar [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Gibt die für eine Achse verwendeten Effekte zurück. Nur lesbar [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Gibt die Füllstil-Eigenschaften einer Achse zurück. Nur lesbar [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Gibt die Linienstil-Eigenschaften einer Achse zurück. Nur lesbar [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: SetMeteredKey
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt die gemessene öffentliche und private Schlüssel
+description: Setzt metered öffentliche und private Schlüssel
 type: docs
 weight: 20
 url: /de/aspose.slides/metered/setmeteredkey/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/metered/setmeteredkey/
 
 ## Metered.SetMeteredKey-Methode
 
-Setzt die gemessene öffentliche und private Schlüssel
+Setzt metered öffentliche und private Schlüssel
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)

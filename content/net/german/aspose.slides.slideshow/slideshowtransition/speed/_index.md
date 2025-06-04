@@ -1,6 +1,6 @@
 ---
 title: Speed
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt die Übergangsgeschwindigkeit an, die beim Wechsel von der aktuellen Folie zur nächsten verwendet werden soll. Lese-/Schreibzugriff auf TransitionSpeedaspose.slides.slideshow/transitionspeed.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Gibt die Übergangsgeschwindigkeit an, die beim Wechsel von der aktuellen Folie 
 public TransitionSpeed Speed { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionSpeed](../../transitionspeed)
 * class [SlideShowTransition](../../slideshowtransition)

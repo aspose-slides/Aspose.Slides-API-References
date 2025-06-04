@@ -25,7 +25,7 @@ public ISlide AddClone(ISlide sourceSlide)
 
 ### Примечания
 
-При клонировании слайда между разными презентациями также может быть клонирован мастер слайда. Внутренний реестр используется для автоматического отслеживания клонированных мастеров, чтобы предотвратить создание нескольких клонов одного и того же мастер-слайда. Ручное клонирование мастер-слайдов не будет предотвращено и не будет зарегистрировано. Если вам нужен больший контроль над процессом клонирования, используйте [`AddClone`](../addclone) или [`AddClone`](../addclone) для клонирования слайдов, [`AddClone`](../../igloballayoutslidecollection/addclone) или [`AddClone`](../../igloballayoutslidecollection/addclone) для клонирования макетов и [`AddClone`](../../imasterslidecollection/addclone) для клонирования мастеров.
+При клонировании слайда между разными презентациями может быть клонирован и родительский слайд. Внутренний реестр используется для автоматического отслеживания клонированных родительских слайдов, чтобы предотвратить создание нескольких копий одного и того же родительского слайда. Ручное клонирование родительских слайдов не будет предотвращено и не будет зарегистрировано. Если вам нужна больше контроля над процессом клонирования, используйте [`AddClone`](../addclone) или [`AddClone`](../addclone) для клонирования слайдов, [`AddClone`](../../igloballayoutslidecollection/addclone) или [`AddClone`](../../igloballayoutslidecollection/addclone) для клонирования макетов и [`AddClone`](../../imasterslidecollection/addclone) для клонирования родительских слайдов.
 
 ### См. также
 
@@ -97,7 +97,7 @@ public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceSlide | ISlide | Слайд для клонирования. |
-| destLayout | ILayoutSlide | Макет слайда для нового слайда. |
+| destLayout | ILayoutSlide | Слайд макета для нового слайда. |
 
 ### Возвращаемое значение
 
@@ -115,7 +115,7 @@ public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
 
 ## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
 
-Добавляет копию указанного исходного слайда в конец коллекции. Подходящий макет будет выбран автоматически из указанного мастера (подходящий макет — это макет с тем же типом или именем, что и у макета исходного слайда). Если подходящего макета нет, тогда макет исходного слайда будет клонирован (если allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно false).
+Добавляет копию указанного исходного слайда в конец коллекции. Подходящий макет будет автоматически выбран из указанного родительского слайда (подходящий макет — это макет с тем же типом или именем, что и у макета исходного слайда). Если подходящего макета нет, то макет исходного слайда будет клонирован (если allowCloneMissingLayout истинно) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout ложно).
 
 ```csharp
 public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
@@ -124,8 +124,8 @@ public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceSlide | ISlide | Слайд для клонирования. |
-| destMaster | IMasterSlide | Мастер-слайд для нового слайда. |
-| allowCloneMissingLayout | Boolean | Если нет подходящего макета в указанном мастере, тогда макет исходного слайда будет клонирован (если allowCloneMissingLayout равно true) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout равно false). |
+| destMaster | IMasterSlide | Родительский слайд для нового слайда. |
+| allowCloneMissingLayout | Boolean | Если в указанном родительском слайде нет подходящего макета, то макет исходного слайда будет клонирован (если allowCloneMissingLayout истинно) или будет выброшено исключение PptxEditException (если allowCloneMissingLayout ложно). |
 
 ### Возвращаемое значение
 
@@ -135,7 +135,7 @@ public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCl
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если нет подходящего макета в указанном мастере и allowCloneMissingLayout равно false. |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если в указанном родительском слайде нет подходящего макета и allowCloneMissingLayout ложно. |
 
 ### См. также
 

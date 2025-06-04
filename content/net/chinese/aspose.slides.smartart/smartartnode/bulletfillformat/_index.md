@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 返回包含节点项目符号的填充格式属性的 FillFormat 对象。注意：对于某些不为节点提供项目符号的 SmartArt 布局类型，可能返回 null。仅限读取的 IFillFormataspose.slides/ifillformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回包含节点项目符号填充格式属性的 FillFormat 对象。请注意，对于某些类型的 SmartArt 布局，可能会返回 null，因为这些布局不为节点提供项目符号。只读 IFillFormataspose.slides/ifillformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.smartart/smartartnode/bulletfillformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.smartart/smartartnode/bulletfillformat/
 
 ## SmartArtNode.BulletFillFormat 属性
 
-返回包含节点项目符号的填充格式属性的 FillFormat 对象。注意：对于某些不为节点提供项目符号的 SmartArt 布局类型，可能返回 null。仅限读取的 [`IFillFormat`](../../../aspose.slides/ifillformat)。
+返回包含节点项目符号填充格式属性的 FillFormat 对象。注意：对于某些类型的 SmartArt 布局，可能会返回 null，因为这些布局不为节点提供项目符号。只读 [`IFillFormat`](../../../aspose.slides/ifillformat)。
 
 ```csharp
 public IFillFormat BulletFillFormat { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFillFormat](../../../aspose.slides/ifillformat)
 * 类 [SmartArtNode](../../smartartnode)

@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回定义级别的 IChartDataCell 对象。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartcategorylevelsmanager/item/
 public IChartDataCell this[int level] { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 类 [ChartCategoryLevelsManager](../../chartcategorylevelsmanager)

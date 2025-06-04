@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un point de données de graphique par index.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie le point de données du graphique par index.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/ipiesplitcustompointcollection/item/
 ---
 
-## Indiceur IPieSplitCustomPointCollection
+## IPieSplitCustomPointCollection indexer
 
-Renvoie un point de données de graphique par index.
+Renvoie le point de données du graphique par index.
 
 ```csharp
 public IChartDataPoint this[int index] { get; }
@@ -21,7 +21,7 @@ public IChartDataPoint this[int index] { get; }
 
 ### Valeur de retour
 
-Point de données de graphique.
+Point de données du graphique.
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: DefaultRegularFont
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, falls die Quellschriftart nicht gefunden wird. Lese-/Schreib-String.
+description: Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellet Schriftart nicht gefunden wird. Lese-/Schreib-String.
 type: docs
 weight: 40
 url: /de/aspose.slides/loadoptions/defaultregularfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/loadoptions/defaultregularfont/
 
 ## LoadOptions.DefaultRegularFont-Eigenschaft
 
-Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, falls die Quellschriftart nicht gefunden wird. Lese-/Schreib-String.
+Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellet Schriftart nicht gefunden wird. Lese-/Schreib-String.
 
 ```csharp
 public string DefaultRegularFont { get; set; }
@@ -21,23 +21,23 @@ Das folgende Beispiel zeigt, wie man Standard-Schriftarten für das Rendern von 
 
 ```csharp
 [C#]
-// Verwenden Sie Ladeoptionen, um die Standard-Regular- und Asiatischen Schriftarten zu definieren
+// Verwende Ladeoptionen, um die Standardschriftarten für reguläre und asiatische Schriftarten festzulegen
 LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
 loadOptions.DefaultRegularFont = "Wingdings";
 loadOptions.DefaultAsianFont = "Wingdings";
-// Präsentation laden
+// Lade die Präsentation
 using (Presentation pptx = new Presentation("DefaultFonts.pptx", loadOptions))
 {
-    // Generieren Sie das Miniaturbild der Folie
+    // Generiere ein Miniaturbild der Folie
     pptx.Slides[0].GetThumbnail(1, 1).Save("output_out.png", ImageFormat.Png);
-    // Generieren Sie PDF
+    // Generiere PDF
     pptx.Save("output_out.pdf", SaveFormat.Pdf);
-    // Generieren Sie XPS
+    // Generiere XPS
     pptx.Save("output_out.xps", SaveFormat.Xps);
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [LoadOptions](../../loadoptions)
 * Namespace [Aspose.Slides](../../loadoptions)

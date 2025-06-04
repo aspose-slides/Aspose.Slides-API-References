@@ -1,7 +1,7 @@
 ---
 title: ShowMajorGridLines
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa si se mostraron las líneas de cuadrícula principales. Booleano de solo lectura.
+description: Representa si las líneas de la cuadrícula principales se mostraron. Solo lectura Boolean.
 type: docs
 weight: 480
 url: /es/aspose.slides.charts/iaxis/showmajorgridlines/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/iaxis/showmajorgridlines/
 
 ## Propiedad IAxis.ShowMajorGridLines
 
-Representa si se mostraron las líneas de cuadrícula principales. Booleano de solo lectura.
+Representa si las líneas de la cuadrícula principales se mostraron. Solo lectura Boolean.
 
 ```csharp
 public bool ShowMajorGridLines { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)

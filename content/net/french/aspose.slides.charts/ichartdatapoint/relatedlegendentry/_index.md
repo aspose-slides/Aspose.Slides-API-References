@@ -1,15 +1,15 @@
 ---
 title: RelatedLegendEntry
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Propriétés de l'entrée de légende correspondante en cas de type de graphique de cette liste ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. En lecture seule ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Propriétés de l'entrée de légende correspondante dans le cas d'un type de graphique de cette liste  ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Lecture seule ILegendEntryPropertiesaspose.slides/ilegendentryproperties.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
 
-## Propriété IChartDataPoint.RelatedLegendEntry
+## IChartDataPoint.RelatedLegendEntry property
 
-Propriétés de l'entrée de légende correspondante en cas de type de graphique de cette liste : ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. En lecture seule [`ILegendEntryProperties`](../../ilegendentryproperties).
+Propriétés de l'entrée de légende correspondante dans le cas d'un type de graphique de cette liste : ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Lecture seule [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

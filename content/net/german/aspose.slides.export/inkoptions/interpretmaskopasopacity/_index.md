@@ -1,27 +1,27 @@
 ---
 title: InterpretMaskOpAsOpacity
-second_title: Aspose.Slides für .NET API-Referenz
-description: Verwendet ROP-Operation oder Opazität für die Renderbeschichtung.
+second_title: Aspose.Slides für .NET API Referenz
+description: Verwendet ROP-Operation oder Opazität für das Rendering von Pinsel.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/inkoptions/interpretmaskopasopacity/
 ---
 
-## InkOptions.InterpretMaskOpAsOpacity-Eigenschaft
+## InkOptions.InterpretMaskOpAsOpacity Eigenschaft
 
-Verwendet ROP-Operation oder Opazität für die Renderbeschichtung.
+Verwendet ROP-Operation oder Opazität für das Rendering von Pinsel.
 
 ```csharp
 public bool InterpretMaskOpAsOpacity { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Der Standardwert ist true.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie ROP beim Exportieren von Ink-Elementen verwendet wird:
+Das nächste Beispiel demonstriert, wie man ROP für das Exportieren von Tintelementen einstellt:
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [InkOptions](../../inkoptions)
 * Namespace [Aspose.Slides.Export](../../inkoptions)

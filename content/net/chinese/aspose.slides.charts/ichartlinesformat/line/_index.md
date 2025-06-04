@@ -1,7 +1,7 @@
 ---
 title: Line
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图表线的线型属性。只读 ILineFormataspose.slides/../aspose.slides/ilineformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回图表线的线条样式属性。只读 ILineFormataspose.slides/ilineformat。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/ichartlinesformat/line/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartlinesformat/line/
 
 ## IChartLinesFormat.Line 属性
 
-返回图表线的线型属性。只读 [`ILineFormat`](../../../aspose.slides/ilineformat)。
+返回图表线的线条样式属性。只读 [`ILineFormat`](../../../aspose.slides/ilineformat)。
 
 ```csharp
 public ILineFormat Line { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILineFormat](../../../aspose.slides/ilineformat)
 * 接口 [IChartLinesFormat](../../ichartlinesformat)

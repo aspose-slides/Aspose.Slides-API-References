@@ -1,15 +1,15 @@
 ---
 title: HasDependingSlides
-second_title: Aspose.Slides pour l'API .NET
-description: Renvoie vrai s'il existe au moins une diapositive qui dépend de cette diapositive de mise en page. Boolean en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne true s'il existe au moins une diapositive qui dépend de cette diapositive de disposition. Booléen en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ilayoutslide/hasdependingslides/
 ---
 
-## Propriété ILayoutSlide.HasDependingSlides
+## ILayoutSlide.HasDependingSlides property
 
-Renvoie vrai s'il existe au moins une diapositive qui dépend de cette diapositive de mise en page. Boolean en lecture seule.
+Retourne true s'il existe au moins une diapositive qui dépend de cette diapositive de disposition. Booléen en lecture seule.
 
 ```csharp
 public bool HasDependingSlides { get; }

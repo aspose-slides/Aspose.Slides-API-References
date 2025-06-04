@@ -1,7 +1,7 @@
 ---
 title: SnapVerticalSplitter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob der vertikale Splitter in einen minimierten Zustand schnappen soll, wenn der Seitenbereich ausreichend klein ist. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, ob der vertikale Splitter in einen minimierten Zustand einrasten soll, wenn der Seitenbereich ausreichend klein ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/inormalviewproperties/snapverticalsplitter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inormalviewproperties/snapverticalsplitter/
 
 ## INormalViewProperties.SnapVerticalSplitter-Eigenschaft
 
-Gibt an, ob der vertikale Splitter in einen minimierten Zustand schnappen soll, wenn der Seitenbereich ausreichend klein ist. Lese-/Schreib-Boolescher Wert.
+Gibt an, ob der vertikale Splitter in einen minimierten Zustand einrasten soll, wenn der Seitenbereich ausreichend klein ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool SnapVerticalSplitter { get; set; }

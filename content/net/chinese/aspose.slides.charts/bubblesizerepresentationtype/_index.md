@@ -1,15 +1,15 @@
 ---
 title: BubbleSizeRepresentationType
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定将数据表示为气泡图大小的可能方式。
+description: 指定以气泡图尺寸表示数据的可能方式。
 type: docs
 weight: 1150
 url: /zh/aspose.slides.charts/bubblesizerepresentationtype/
 ---
 
-## BubbleSizeRepresentationType枚举
+## BubbleSizeRepresentationType 枚举
 
-指定将数据表示为气泡图大小的可能方式。
+指定以气泡图尺寸表示数据的可能方式。
 
 ```csharp
 public enum BubbleSizeRepresentationType
@@ -19,10 +19,10 @@ public enum BubbleSizeRepresentationType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Area | `0` | 指定气泡的面积应与气泡大小值成比例。 |
-| Width | `1` | 指定气泡的半径应与气泡大小值成比例。 |
+| Area | `0` | 指定气泡的面积应与气泡大小值成正比。 |
+| Width | `1` | 指定气泡的半径应与气泡大小值成正比。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

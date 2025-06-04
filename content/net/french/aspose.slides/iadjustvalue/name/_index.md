@@ -15,7 +15,7 @@ Renvoie un nom de cette valeur d'ajustement. Chaîne en lecture seule.
 public string Name { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAdjustValue](../../iadjustvalue)
 * namespace [Aspose.Slides](../../iadjustvalue)

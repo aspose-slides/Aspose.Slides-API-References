@@ -1,7 +1,7 @@
 ---
 title: Label
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置闭合字幕的标签。可读/写字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置关闭字幕的标签。可读/写字符串。
 type: docs
 weight: 40
 url: /zh/aspose.slides/captions/label/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/captions/label/
 
 ## Captions.Label 属性
 
-返回或设置闭合字幕的标签。可读/写字符串。
+返回或设置关闭字幕的标签。可读/写字符串。
 
 ```csharp
 public string Label { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [Captions](../../captions)
 * namespace [Aspose.Slides](../../captions)

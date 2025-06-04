@@ -1,7 +1,7 @@
 ---
 title: DisableFontLigatures
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает или устанавливает значение, указывающее, отображается ли текст без использования литер. Если установить в true, литеры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в false.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает или устанавливает значение, указывающее, рендерится ли текст без использования лигатур. Когда это значение установлено в true, лигатуры будут отключены в рендерированном выводе. По умолчанию это свойство установлено в false.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/htmloptions/disablefontligatures/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/htmloptions/disablefontligatures/
 
 ## HtmlOptions.DisableFontLigatures свойство
 
-Получает или устанавливает значение, указывающее, отображается ли текст без использования литер. Если установить в `true`, литеры будут отключены в отображаемом выводе. По умолчанию это свойство установлено в `false`.
+Получает или устанавливает значение, указывающее, рендерится ли текст без использования лигатур. Когда это значение установлено в `true`, лигатуры будут отключены в рендерированном выводе. По умолчанию это свойство установлено в `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -25,14 +25,14 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     HtmlOptions options = new HtmlOptions
     {
-        DisableFontLigatures = true // Отключить литеры при рендеринге текста
+        DisableFontLigatures = true // Отключить лигатуры в рендеринге текста
     };
     
     pres.Save(outputSlidePath, SaveFormat.Html, options);
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)

@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides.effects/softedge/geteffective/
 ---
 
-## Método SoftEdge.GetEffective
+## SoftEdge.GetEffective method
 
 Obtiene datos efectivos del efecto Soft Edge con la herencia aplicada.
 
@@ -15,11 +15,11 @@ Obtiene datos efectivos del efecto Soft Edge con la herencia aplicada.
 public ISoftEdgeEffectiveData GetEffective()
 ```
 
-### Valor de Retorno
+### Return Value
 
 Un [`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata).
 
-### Véase También
+### See Also
 
 * interfaz [ISoftEdgeEffectiveData](../../isoftedgeeffectivedata)
 * clase [SoftEdge](../../softedge)

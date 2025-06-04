@@ -1,13 +1,13 @@
 ---
 title: AddModernComment
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajouter un nouveau commentaire moderne à la fin d'une collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/commentcollection/addmoderncomment/
 ---
 
-## Méthode CommentCollection.AddModernComment
+## CommentCollection.AddModernComment méthode
 
 Ajouter un nouveau commentaire moderne à la fin d'une collection.
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IModernComment](../../imoderncomment)
 * interface [ISlide](../../islide)

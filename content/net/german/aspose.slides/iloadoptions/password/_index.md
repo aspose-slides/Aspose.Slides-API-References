@@ -1,7 +1,7 @@
 ---
 title: Password
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Passwort ab oder setzt es. Lese- und schreibbarer String.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ruft das Passwort ab oder legt es fest. Lese-Schreibe-String.
 type: docs
 weight: 110
 url: /de/aspose.slides/iloadoptions/password/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iloadoptions/password/
 
 ## ILoadOptions.Password-Eigenschaft
 
-Ruft das Passwort ab oder setzt es. Lese- und schreibbarer String.
+Ruft das Passwort ab oder legt es fest. Lese-Schreibe-String.
 
 ```csharp
 public string Password { get; set; }
@@ -19,7 +19,7 @@ public string Password { get; set; }
 
 Das Passwort.
 
-### Siehe auch
+### Siehe Auch
 
 * Interface [ILoadOptions](../../iloadoptions)
 * Namespace [Aspose.Slides](../../iloadoptions)

@@ -1,6 +1,6 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой коллекцию замены шрифтов.
 type: docs
 weight: 5690
@@ -17,13 +17,13 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Получает элемент по заданному индексу. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Добавляет новое правило замены шрифта в коллекцию |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Удаляет первое вхождение конкретного объекта из коллекции. |

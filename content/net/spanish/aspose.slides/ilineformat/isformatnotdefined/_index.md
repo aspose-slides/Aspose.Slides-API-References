@@ -7,7 +7,7 @@ weight: 130
 url: /es/aspose.slides/ilineformat/isformatnotdefined/
 ---
 
-## Propiedad ILineFormat.IsFormatNotDefined
+## ILineFormat.IsFormatNotDefined propiedad
 
 Devuelve verdadero si el formato de línea no está definido (como recién creado, predeterminado). Booleano de solo lectura.
 
@@ -15,7 +15,7 @@ Devuelve verdadero si el formato de línea no está definido (como recién cread
 public bool IsFormatNotDefined { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ILineFormat](../../ilineformat)
 * espacio de nombres [Aspose.Slides](../../ilineformat)

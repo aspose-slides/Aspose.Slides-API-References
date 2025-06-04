@@ -1,7 +1,7 @@
 ---
 title: SetExternalHyperlinkClick
-second_title: Aspose.Slides для .NET Справочник по API
-description: Установить внешнюю гиперссылку при клике.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Установить внешнюю гиперссылку по клику.
 type: docs
 weight: 30
 url: /ru/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/
 
 ## HyperlinkManager.SetExternalHyperlinkClick метод
 
-Установить внешнюю гиперссылку при клике.
+Установить внешнюю гиперссылку по клику.
 
 ```csharp
 public IHyperlink SetExternalHyperlinkClick(string url)
@@ -21,27 +21,27 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 
 ### Примеры
 
-Следующий пример кода показывает, как добавить текстовый блок с гиперссылкой.
+Следующий пример кода показывает, как добавить текстовое поле с гиперссылкой.
 
 ```csharp
 [C#]
-// Создает экземпляр класса Presentation, представляющего PPTX
+// Инициализирует класс Presentation, который представляет PPTX
 using(Presentation pptxPresentation = new Presentation()) {
   // Получает первый слайд в презентации
   ISlide slide = pptxPresentation.Slides[0];
   // Добавляет объект AutoShape с типом, установленным как Прямоугольник
   IShape pptxShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
-  // Приводит форму к AutoShape
+  // Приводит фигуру к AutoShape
   IAutoShape pptxAutoShape = (IAutoShape) pptxShape;
   // Получает свойство ITextFrame, связанное с AutoShape
   pptxAutoShape.AddTextFrame("");
   ITextFrame textFrame = pptxAutoShape.TextFrame;
   // Добавляет текст в рамку
   textFrame.Paragraphs[0].Portions[0].Text = "Aspose.Slides";
-  // Устанавливает гиперссылку для текстовой порции
+  // Устанавливает гиперссылку для текста порции
   IHyperlinkManager HypMan = textFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkManager;
   HypMan.SetExternalHyperlinkClick("http://www.aspose.com");
-  // Сохраняет PPTX-презентацию
+  // Сохраняет презентацию PPTX
   pptxPresentation.Save("hLinkPPTX_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 }
 ```

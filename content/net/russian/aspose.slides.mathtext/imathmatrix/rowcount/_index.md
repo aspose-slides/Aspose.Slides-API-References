@@ -1,13 +1,13 @@
 ---
 title: RowCount
-second_title: Aspose.Slildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справка
 description: Количество строк в матрице
 type: docs
 weight: 90
 url: /ru/aspose.slides.mathtext/imathmatrix/rowcount/
 ---
 
-## Свойство IMathMatrix.RowCount
+## IMathMatrix.RowCount свойство
 
 Количество строк в матрице
 

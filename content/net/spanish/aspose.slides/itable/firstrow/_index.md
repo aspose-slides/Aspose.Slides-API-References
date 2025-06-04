@@ -1,6 +1,6 @@
 ---
 title: FirstRow
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si la primera fila de una tabla debe dibujarse con un formato especial. Booleano de lectura/escritura.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Determina si la primera fila de una tabla debe dibujarse con un formato especial
 public bool FirstRow { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ITable](../../itable)
 * espacio de nombres [Aspose.Slides](../../itable)

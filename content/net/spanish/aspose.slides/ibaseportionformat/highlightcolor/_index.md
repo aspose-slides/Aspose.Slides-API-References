@@ -1,7 +1,7 @@
 ---
 title: HighlightColor
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el color utilizado para resaltar un texto. No se aplica herencia. Solo lectura IColorFormat aspose.slides/icolorformat.
+description: Devuelve el color utilizado para resaltar un texto. No se aplica herencia. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /es/aspose.slides/ibaseportionformat/highlightcolor/
@@ -17,9 +17,9 @@ public IColorFormat HighlightColor { get; }
 
 ### Véase también
 
-* interfaz [IColorFormat](../../icolorformat)
-* interfaz [IBasePortionFormat](../../ibaseportionformat)
-* espacio de nombres [Aspose.Slides](../../ibaseportionformat)
-* asamblea [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../icolorformat)
+* interfaz [IBasePortionFormat](../../ibaseportionformat)
+* espacio de nombres [Aspose.Slides](../../ibaseportionformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

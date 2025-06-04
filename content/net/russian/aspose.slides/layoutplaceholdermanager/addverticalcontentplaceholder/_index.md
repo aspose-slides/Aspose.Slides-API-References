@@ -1,7 +1,7 @@
 ---
 title: AddVerticalContentPlaceholder
-second_title: Aspose.Sildes для .NET API Справочник
-description: Добавляет новую замещающую фигуру на слайд макета для размещения контента, такого как изображение, таблица, мультимедиа или текст в вертикальном направлении.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Добавляет новую форму-заместитель на макетном слайде для содержимого, такого как изображение, таблица, медиа или текст в вертикальном направлении.
 type: docs
 weight: 90
 url: /ru/aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder/
 
 ## LayoutPlaceholderManager.AddVerticalContentPlaceholder метод
 
-Добавляет новую замещающую фигуру на слайд макета для размещения контента, такого как изображение, таблица, мультимедиа или текст в вертикальном направлении.
+Добавляет новую форму-заместитель на макетном слайде для содержимого, такого как изображение, таблица, медиа или текст в вертикальном направлении.
 
 ```csharp
 public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, f
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X новой замещающей фигуры. |
-| y | Single | Координата Y новой замещающей фигуры. |
-| width | Single | Ширина новой замещающей фигуры. |
-| height | Single | Высота новой замещающей фигуры. |
+| x | Single | Координата X новой формы-заместителя. |
+| y | Single | Координата Y новой формы-заместителя. |
+| width | Single | Ширина новой формы-заместителя. |
+| height | Single | Высота новой формы-заместителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с замещающим контентом (Вертикальный).
+Созданный [`IAutoShape`](../../iautoshape) с заполнителем Содержимого (Вертикальный).
 
 ### Примеры
 
-Следующий пример показывает, как добавить замещающую фигуру контента (Вертикальная) на слайд макета.
+Следующий пример показывает, как добавить форму-заместитель Содержимого (Вертикальный) на макетный слайд.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * класс [LayoutPlaceholderManager](../../layoutplaceholdermanager)

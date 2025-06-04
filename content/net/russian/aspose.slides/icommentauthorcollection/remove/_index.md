@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет первое вхождение указанного автора в коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/icommentauthorcollection/remove/
 ---
 
-## Метод ICommentAuthorCollection.Remove
+## ICommentAuthorCollection.Remove метод
 
 Удаляет первое вхождение указанного автора в коллекции.
 
@@ -24,9 +24,9 @@ public void Remove(ICommentAuthor author)
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | Автор равен `null` |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если автор уже удален. |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если автор уже удалён. |
 
-### См. также
+### Также смотри
 
 * интерфейс [ICommentAuthor](../../icommentauthor)
 * интерфейс [ICommentAuthorCollection](../../icommentauthorcollection)

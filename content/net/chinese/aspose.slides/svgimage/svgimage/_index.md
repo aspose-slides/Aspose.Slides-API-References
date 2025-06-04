@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新的 SvgImage 对象。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public SvgImage(byte[] data)
 | --- | --- | --- |
 | data | Byte[] | Svg 数据。 |
 
-### 另请参见
+### 参见
 
 * class [SvgImage](../../svgimage)
 * namespace [Aspose.Slides](../../svgimage)
@@ -39,7 +39,7 @@ public SvgImage(string svgContent)
 | --- | --- | --- |
 | svgContent | String | Svg 内容。 |
 
-### 另请参见
+### 参见
 
 * class [SvgImage](../../svgimage)
 * namespace [Aspose.Slides](../../svgimage)
@@ -59,7 +59,7 @@ public SvgImage(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Svg 流。 |
 
-### 另请参见
+### 参见
 
 * class [SvgImage](../../svgimage)
 * namespace [Aspose.Slides](../../svgimage)
@@ -78,10 +78,10 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | data | Byte[] | Svg 数据。 |
-| externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象将被忽略。 |
-| baseUri | String | 指定 Svg 的基本 URI。用于解析相对链接。 |
+| externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果该参数为 null，将忽略所有外部对象。 |
+| baseUri | String | 指定 Svg 的基础 URI。用于解析相对链接。 |
 
-### 另请参见
+### 参见
 
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SvgImage](../../svgimage)
@@ -101,10 +101,10 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | svgContent | String | Svg 内容。 |
-| externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象将被忽略。 |
-| baseUri | String | 指定 Svg 的基本 URI。用于解析相对链接。 |
+| externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果该参数为 null，将忽略所有外部对象。 |
+| baseUri | String | 指定 Svg 的基础 URI。用于解析相对链接。 |
 
-### 另请参见
+### 参见
 
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SvgImage](../../svgimage)
@@ -124,10 +124,10 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | Svg 流。 |
-| externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象将被忽略。 |
-| baseUri | String | 指定 Svg 的基本 URI。用于解析相对链接。 |
+| externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果该参数为 null，将忽略所有外部对象。 |
+| baseUri | String | 指定 Svg 的基础 URI。用于解析相对链接。 |
 
-### 另请参见
+### 参见
 
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * class [SvgImage](../../svgimage)

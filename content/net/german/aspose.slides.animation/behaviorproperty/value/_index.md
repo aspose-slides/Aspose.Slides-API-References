@@ -15,7 +15,7 @@ Wert der Eigenschaft
 public string Value { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

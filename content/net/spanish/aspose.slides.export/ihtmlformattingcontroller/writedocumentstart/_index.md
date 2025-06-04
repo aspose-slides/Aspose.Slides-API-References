@@ -1,15 +1,15 @@
 ---
 title: WriteDocumentStart
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Se llama para escribir la cabecera del documento html. Se llama una vez por conversión de presentación.
+second_title: Aspose.Slides para .NET API Reference
+description: Se llama para escribir el encabezado del documento html. Se llama una vez por cada conversión de presentación.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---
 
-## Método IHtmlFormattingController.WriteDocumentStart
+## IHtmlFormattingController.WriteDocumentStart método
 
-Se llama para escribir la cabecera del documento html. Se llama una vez por conversión de presentación.
+Se llama para escribir el encabezado del documento html. Se llama una vez por cada conversión de presentación.
 
 ```csharp
 public void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)

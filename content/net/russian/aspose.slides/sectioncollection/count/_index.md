@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество элементов, фактически содержащихся в коллекции. Свойство только для чтения Int32.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/sectioncollection/count/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/sectioncollection/count/
 
 ## Свойство SectionCollection.Count
 
-Получает количество элементов, фактически содержащихся в коллекции. Свойство только для чтения Int32.
+Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }

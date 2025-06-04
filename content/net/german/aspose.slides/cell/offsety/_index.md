@@ -1,21 +1,21 @@
 ---
 title: OffsetY
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Abstand von der oberen Seite einer Tabelle zur oberen Seite einer Zelle zurück. Nur-Lese-Doppel.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine Entfernung von der oberen Seite einer Tabelle zur oberen Seite einer Zelle zurück. Nur-lesbar Double.
 type: docs
 weight: 160
 url: /de/aspose.slides/cell/offsety/
 ---
 
-## Cell.OffsetY-Eigenschaft
+## Cell.OffsetY Eigenschaft
 
-Gibt den Abstand von der oberen Seite einer Tabelle zur oberen Seite einer Zelle zurück. Nur-Lese-Doppel.
+Gibt eine Entfernung von der oberen Seite einer Tabelle zur oberen Seite einer Zelle zurück. Nur-lesbar Double.
 
 ```csharp
 public double OffsetY { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Cell](../../cell)
 * Namespace [Aspose.Slides](../../cell)

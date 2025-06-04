@@ -1,7 +1,7 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un avertissement concernant une fonctionnalité connue non implémentée qui ne sera pas mise en œuvre dans un avenir proche.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente un avertissement concernant une fonctionnalité connue non implémentée qui ne sera pas implémentée dans un proche avenir.
 type: docs
 weight: 11460
 url: /fr/aspose.slides.warnings/inotimplementedwarninginfo/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.warnings/inotimplementedwarninginfo/
 
 ## Interface INotImplementedWarningInfo
 
-Représente un avertissement concernant une fonctionnalité connue non implémentée qui ne sera pas mise en œuvre dans un avenir proche.
+Représente un avertissement concernant une fonctionnalité connue non implémentée qui ne sera pas implémentée dans un proche avenir.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -21,7 +21,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | Renvoie l'interface IWarningInfo. Lecture seule [`IWarningInfo`](../iwarninginfo). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IWarningInfo](../iwarninginfo)
 * namespace [Aspose.Slides.Warnings](../../aspose.slides.warnings)

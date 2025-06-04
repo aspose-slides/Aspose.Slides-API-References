@@ -1,6 +1,6 @@
 ---
 title: AddField
-second_title: Référence API Aspose.SlidEs pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Convertit cette portion en champ mis à jour automatiquement.
 type: docs
 weight: 50
@@ -15,11 +15,11 @@ Convertit cette portion en champ mis à jour automatiquement.
 public void AddField(IFieldType fieldType)
 ```
 
-| Parameter | Type | Description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | fieldType | IFieldType | Type de champ [`IFieldType`](../../ifieldtype) |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFieldType](../../ifieldtype)
 * interface [IPortion](../../iportion)
@@ -36,11 +36,11 @@ Convertit cette portion en champ mis à jour automatiquement.
 public void AddField(string internalString)
 ```
 
-| Parameter | Type | Description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | internalString | String | Nom interne de FieldTypeEx String |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortion](../../iportion)
 * namespace [Aspose.Slides](../../iportion)

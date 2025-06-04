@@ -1,7 +1,7 @@
 ---
 title: ToColor
-second_title: Aspose.Slides для .NET API Справочник
-description: Цвет, который будет заменен. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Цвет, который будет заменен. ТОЛЬКО для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/colorchange/tocolor/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/colorchange/tocolor/
 
 ## ColorChange.ToColor свойство
 
-Цвет, который будет заменен. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
+Цвет, который будет заменен. ТОЛЬКО для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat ToColor { get; }

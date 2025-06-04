@@ -1,6 +1,6 @@
 ---
 title: XpsOptions
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/xpsoptions/xpsoptions/
 public XpsOptions()
 ```
 
-### См. также
+### См. Также
 
 * класс [XpsOptions](../../xpsoptions)
 * пространство имен [Aspose.Slides.Export](../../xpsoptions)

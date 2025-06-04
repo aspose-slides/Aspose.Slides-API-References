@@ -1,7 +1,7 @@
 ---
 title: TargetShape
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la forme cible pour l'effet. En lecture seule IShape aspose.slides/ishape.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie la forme cible pour l'effet. Lecture seule IShape aspose.slides/ishape.
 type: docs
 weight: 110
 url: /fr/aspose.slides.animation/ieffect/targetshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ieffect/targetshape/
 
 ## Propriété IEffect.TargetShape
 
-Renvoie la forme cible pour l'effet. En lecture seule [`IShape`](../../../aspose.slides/ishape).
+Renvoie la forme cible pour l'effet. Lecture seule [`IShape`](../../../aspose.slides/ishape).
 
 ```csharp
 public IShape TargetShape { get; }

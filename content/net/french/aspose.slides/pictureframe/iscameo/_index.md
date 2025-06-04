@@ -1,6 +1,6 @@
 ---
 title: IsCameo
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Détermine si le PictureFrame est un objet Cameo ou non. Booléen en lecture seule.
 type: docs
 weight: 10

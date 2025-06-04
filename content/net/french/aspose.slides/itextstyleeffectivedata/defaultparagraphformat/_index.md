@@ -1,13 +1,13 @@
 ---
 title: DefaultParagraphFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie les propriétés de paragraphe par défaut effectives. Lecture seule IParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata.
 type: docs
 weight: 10
 url: /fr/aspose.slides/itextstyleeffectivedata/defaultparagraphformat/
 ---
 
-## Propriété ITextStyleEffectiveData.DefaultParagraphFormat
+## ITextStyleEffectiveData.DefaultParagraphFormat propriété
 
 Renvoie les propriétés de paragraphe par défaut effectives. Lecture seule [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 

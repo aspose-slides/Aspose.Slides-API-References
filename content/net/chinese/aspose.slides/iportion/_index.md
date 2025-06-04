@@ -1,6 +1,6 @@
 ---
 title: IPortion
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示文本段落中的一部分文本。
 type: docs
 weight: 6500
@@ -19,22 +19,22 @@ public interface IPortion : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 允许获取基本的 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
-| [Field](../../aspose.slides/iportion/field) { get; } | 返回此部分的字段。只读 [`IField`](../ifield)。 |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 返回包含文本部分明确设置的格式属性且不应用继承的格式化对象。只读 [`IPortionFormat`](../iportionformat)。 |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | 获取或设置部分的纯文本。可读可写字符串。 |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 允许获取基础的 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [Field](../../aspose.slides/iportion/field) { get; } | 返回该部分的字段。只读 [`IField`](../ifield)。 |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 返回格式化对象，包含文本部分的显式设置格式属性，且不应用继承。只读 [`IPortionFormat`](../iportionformat)。 |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | 获取或设置部分的纯文本。读写字符串。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | 将此部分转换为自动更新字段。 |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | 将此部分转换为自动更新字段。 |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 获取部分开始的坐标。点的 X 坐标表示部分从第一个字符开始，包括左侧边距。Y 坐标包括顶部边距。 |
-| [GetRect](../../aspose.slides/iportion/getrect)() | 获取包含部分的矩形的坐标。矩形包括部分中的所有文本行，包括空行。 |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | 将此部分转换为自动更新的字段。 |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | 将此部分转换为自动更新的字段。 |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 获取部分开始的坐标。点的 X 坐标表示从第一个字符开始的部分，包括左侧边距。Y 坐标包括顶部边距。 |
+| [GetRect](../../aspose.slides/iportion/getrect)() | 获取包围该部分的矩形坐标。该矩形包括部分中的所有文本行，包括空行。 |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | 将此字段部分转换为简单部分。 |
 
-### 另请参见
+### 参见
 
 * 接口 [ISlideComponent](../islidecomponent)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

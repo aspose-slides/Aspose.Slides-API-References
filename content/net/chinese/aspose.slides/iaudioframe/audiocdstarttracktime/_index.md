@@ -1,7 +1,7 @@
 ---
 title: AudioCdStartTrackTime
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置起始轨道时间。可读写 Int32。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置起始曲目时间。可读写 Int32。
 type: docs
 weight: 50
 url: /zh/aspose.slides/iaudioframe/audiocdstarttracktime/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iaudioframe/audiocdstarttracktime/
 
 ## IAudioFrame.AudioCdStartTrackTime 属性
 
-返回或设置起始轨道时间。可读写 Int32。
+返回或设置起始曲目时间。可读写 Int32。
 
 ```csharp
 public int AudioCdStartTrackTime { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IAudioFrame](../../iaudioframe)
 * 命名空间 [Aspose.Slides](../../iaudioframe)

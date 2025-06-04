@@ -1,6 +1,6 @@
 ---
 title: EffectStyleCollection
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa una colección de estilos de efecto.
 type: docs
 weight: 10780
@@ -19,8 +19,8 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Devuelve un número de elementos en la colección. Solo lectura Int32, Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Devuelve el número de elementos en la colección. Solo lectura Int32, Solo lectura Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para subprocesos). Solo lectura Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Devuelve un elemento en la posición especificada. Solo lectura [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -28,10 +28,10 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Nombre | Descripción |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Copia todos los elementos de la colección a la matriz especificada. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 
-### Ver También
+### Véase También
 
 * clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * clase [FormatScheme](../formatscheme)

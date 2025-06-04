@@ -6,16 +6,16 @@ weight: 50
 url: /es/aspose.slides.export.web/templatecontext-1/submodel/
 ---
 
-## TemplateContext&lt;TObject&gt;.SubModel&lt;TSubModel&gt; método
+## Método TemplateContext&lt;TObject&gt;.SubModel&lt;TSubModel&gt;
 
 ```csharp
 public TemplateContext<TSubModel> SubModel<TSubModel>(TSubModel subModel)
 ```
 
-### También Visto
+### Véase también
 
 * clase [TemplateContext&lt;TObject&gt;](../../templatecontext-1)
-* namespace [Aspose.Slides.Export.Web](../../templatecontext-1)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Export.Web](../../templatecontext-1)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -19,7 +19,7 @@ public IComparable AsIComparable { get; }
 
 Für COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [ITab](../../itab)
 * Namespace [Aspose.Slides](../../itab)

@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDataLabel](../../idatalabel)
 * class [ChartDataPointLevel](../../chartdatapointlevel)

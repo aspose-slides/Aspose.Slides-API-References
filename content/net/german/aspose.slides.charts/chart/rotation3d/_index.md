@@ -1,15 +1,15 @@
 ---
 title: Rotation3D
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine 3D-Rotation eines Diagramms zurück. Nur-Lese IRotation3Daspose.slides/irotation3d.
+description: Gibt eine 3D-Drehung eines Diagramms zurück. Nur-Lese IRotation3Daspose.slides/irotation3d.
 type: docs
 weight: 170
 url: /de/aspose.slides.charts/chart/rotation3d/
 ---
 
-## Chart.Rotation3D Eigenschaft
+## Chart.Rotation3D-Eigenschaft
 
-Gibt eine 3D-Rotation eines Diagramms zurück. Nur-Lese [`IRotation3D`](../../irotation3d).
+Gibt eine 3D-Drehung eines Diagramms zurück. Nur-Lese [`IRotation3D`](../../irotation3d).
 
 ```csharp
 public IRotation3D Rotation3D { get; }

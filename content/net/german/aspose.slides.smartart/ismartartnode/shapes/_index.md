@@ -1,7 +1,7 @@
 ---
 title: Shapes
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Sammlungen aller Formen zurück, die mit dem Knoten verknüpft sind. Nur lesbare ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt Sammlungen aller mit dem Knoten verbundenen Formen zurück. Schreibgeschützte ISmartArtShapeCollection aspose.slides.smartart/ismartartshapecollection.
 type: docs
 weight: 80
 url: /de/aspose.slides.smartart/ismartartnode/shapes/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/ismartartnode/shapes/
 
 ## ISmartArtNode.Shapes-Eigenschaft
 
-Gibt Sammlungen aller Formen zurück, die mit dem Knoten verknüpft sind. Nur lesbare [`ISmartArtShapeCollection`](../../ismartartshapecollection).
+Gibt Sammlungen aller mit dem Knoten verbundenen Formen zurück. Schreibgeschützte [`ISmartArtShapeCollection`](../../ismartartshapecollection).
 
 ```csharp
 public ISmartArtShapeCollection Shapes { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISmartArtShapeCollection](../../ismartartshapecollection)
 * Schnittstelle [ISmartArtNode](../../ismartartnode)

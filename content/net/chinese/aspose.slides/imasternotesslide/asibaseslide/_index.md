@@ -1,7 +1,7 @@
 ---
 title: AsIBaseSlide
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基础 IBaseSlide 接口。只读 IBaseSlide aspose.slides/ibaseslide。
+second_title: Aspose.Slides for .NET API 参考
+description: 允许获取基础 IBaseSlide 接口。只读 IBaseSlideaspose.slides/ibaseslide。
 type: docs
 weight: 10
 url: /zh/aspose.slides/imasternotesslide/asibaseslide/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/imasternotesslide/asibaseslide/
 public IBaseSlide AsIBaseSlide { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 接口 [IMasterNotesSlide](../../imasternotesslide)

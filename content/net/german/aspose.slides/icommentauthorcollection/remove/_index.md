@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt das erste Vorkommen des angegebenen Autors in einer Sammlung.
+description: Entfernt die erste Vorkommen des angegebenen Autors in einer Sammlung.
 type: docs
 weight: 60
 url: /de/aspose.slides/icommentauthorcollection/remove/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icommentauthorcollection/remove/
 
 ## ICommentAuthorCollection.Remove-Methode
 
-Entfernt das erste Vorkommen des angegebenen Autors in einer Sammlung.
+Entfernt die erste Vorkommen des angegebenen Autors in einer Sammlung.
 
 ```csharp
 public void Remove(ICommentAuthor author)
@@ -17,7 +17,7 @@ public void Remove(ICommentAuthor author)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| author | ICommentAuthor | Der Autor, der aus einer Sammlung entfernt werden soll. |
+| author | ICommentAuthor | Der zu entfernende Autor aus einer Sammlung. |
 
 ### Ausnahmen
 
@@ -26,7 +26,7 @@ public void Remove(ICommentAuthor author)
 | ArgumentNullException | Autor ist `null` |
 | [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn der Autor bereits entfernt wurde. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ICommentAuthor](../../icommentauthor)
 * Schnittstelle [ICommentAuthorCollection](../../icommentauthorcollection)

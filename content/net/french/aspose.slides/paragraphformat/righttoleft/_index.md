@@ -1,7 +1,7 @@
 ---
 title: RightToLeft
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Aucun héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 110
 url: /fr/aspose.slides/paragraphformat/righttoleft/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/paragraphformat/righttoleft/
 
 ## Propriété ParagraphFormat.RightToLeft
 
-Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Aucun héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool RightToLeft { get; set; }
 ```
 
-### Voir aussi
+### Voir également
 
 * énum [NullableBool](../../nullablebool)
 * classe [ParagraphFormat](../../paragraphformat)

@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: type docs
 weight: 10
 url: /ru/aspose.slides.export.web/output/add/
@@ -15,10 +15,10 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ### См. Также
 
-* интерфейс [IOutputFile](../../ioutputfile)
-* класс [Output](../../output)
-* пространство имен [Aspose.Slides.Export.Web](../../output)
-* сборка [Aspose.Slides](../../../)
+* interface [IOutputFile](../../ioutputfile)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -32,7 +32,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для вывода. |
+| path | String | Путь вывода. |
 | image | IPPImage | Изображение для вывода. |
 
 ### Возвращаемое значение
@@ -41,11 +41,11 @@ public IOutputFile Add(string path, IPPImage image)
 
 ### См. Также
 
-* интерфейс [IOutputFile](../../ioutputfile)
-* интерфейс [IPPImage](../../../aspose.slides/ippimage)
-* класс [Output](../../output)
-* пространство имен [Aspose.Slides.Export.Web](../../output)
-* сборка [Aspose.Slides](../../../)
+* interface [IOutputFile](../../ioutputfile)
+* interface [IPPImage](../../../aspose.slides/ippimage)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -59,7 +59,7 @@ public IOutputFile Add(string path, IImage image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для вывода. |
+| path | String | Путь вывода. |
 | image | IImage | Изображение для вывода. |
 
 ### Возвращаемое значение
@@ -68,11 +68,11 @@ public IOutputFile Add(string path, IImage image)
 
 ### См. Также
 
-* интерфейс [IOutputFile](../../ioutputfile)
-* интерфейс [IImage](../../../aspose.slides/iimage)
-* класс [Output](../../output)
-* пространство имен [Aspose.Slides.Export.Web](../../output)
-* сборка [Aspose.Slides](../../../)
+* interface [IOutputFile](../../ioutputfile)
+* interface [IImage](../../../aspose.slides/iimage)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -86,7 +86,7 @@ public IOutputFile Add(string path, IVideo video)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для вывода. |
+| path | String | Путь вывода. |
 | video | IVideo | Видео для вывода. |
 
 ### Возвращаемое значение
@@ -95,11 +95,11 @@ public IOutputFile Add(string path, IVideo video)
 
 ### См. Также
 
-* интерфейс [IOutputFile](../../ioutputfile)
-* интерфейс [IVideo](../../../aspose.slides/ivideo)
-* класс [Output](../../output)
-* пространство имен [Aspose.Slides.Export.Web](../../output)
-* сборка [Aspose.Slides](../../../)
+* interface [IOutputFile](../../ioutputfile)
+* interface [IVideo](../../../aspose.slides/ivideo)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -113,7 +113,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для вывода. |
+| path | String | Путь вывода. |
 | fontData | IFontData | Шрифт для вывода. |
 | fontStyle | FontStyle | Стиль шрифта. |
 
@@ -123,17 +123,17 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 ### См. Также
 
-* интерфейс [IOutputFile](../../ioutputfile)
-* интерфейс [IFontData](../../../aspose.slides/ifontdata)
-* класс [Output](../../output)
-* пространство имен [Aspose.Slides.Export.Web](../../output)
-* сборка [Aspose.Slides](../../../)
+* interface [IOutputFile](../../ioutputfile)
+* interface [IFontData](../../../aspose.slides/ifontdata)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## Add(string, string) {#add_5}
 
-Добавляет элемент вывода для текстового содержимого.
+Добавляет элемент вывода для текста.
 
 ```csharp
 public IOutputFile Add(string path, string textContent)
@@ -141,7 +141,7 @@ public IOutputFile Add(string path, string textContent)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для вывода. |
+| path | String | Путь вывода. |
 | textContent | String | Содержимое для вывода. |
 
 ### Возвращаемое значение
@@ -150,9 +150,9 @@ public IOutputFile Add(string path, string textContent)
 
 ### См. Также
 
-* интерфейс [IOutputFile](../../ioutputfile)
-* класс [Output](../../output)
-* пространство имен [Aspose.Slides.Export.Web](../../output)
-* сборка [Aspose.Slides](../../../)
+* interface [IOutputFile](../../ioutputfile)
+* class [Output](../../output)
+* namespace [Aspose.Slides.Export.Web](../../output)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: SizeValue
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Größenwert eines Diagramm-Datenpunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Nur lesbarer IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Gibt den Größenwert eines Diagrammdatapunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Schreibgeschützter IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/ichartdatapoint/sizevalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapoint/sizevalue/
 
 ## IChartDataPoint.SizeValue-Eigenschaft
 
-Gibt den Größenwert eines Diagramm-Datenpunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Nur lesbar [`IDoubleChartValue`](../../idoublechartvalue).
+Gibt den Größenwert eines Diagrammdatapunkts zurück. Wird mit Treemap- und Sunburst-Diagrammen verwendet. Schreibgeschützter [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

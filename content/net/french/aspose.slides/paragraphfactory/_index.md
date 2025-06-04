@@ -1,6 +1,6 @@
 ---
 title: ParagraphFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Permet de créer des paragraphes
 type: docs
 weight: 9030
@@ -32,7 +32,7 @@ public class ParagraphFactory : IParagraphFactory
 
 Pour la compatibilité COM.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraphFactory](../iparagraphfactory)
 * namespace [Aspose.Slides](../../aspose.slides)

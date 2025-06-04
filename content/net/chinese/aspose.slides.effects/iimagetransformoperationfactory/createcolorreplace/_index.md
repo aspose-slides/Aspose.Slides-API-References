@@ -1,6 +1,6 @@
 ---
 title: CreateColorReplace
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API 参考
 description: 创建颜色替换效果。
 type: docs
 weight: 110
@@ -19,7 +19,7 @@ public IColorReplace CreateColorReplace()
 
 颜色替换效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [IColorReplace](../../icolorreplace)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

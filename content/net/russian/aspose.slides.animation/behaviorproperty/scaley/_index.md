@@ -1,13 +1,13 @@
 ---
 title: ScaleY
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство ScaleY
 type: docs
 weight: 590
 url: /ru/aspose.slides.animation/behaviorproperty/scaley/
 ---
 
-## Свойство BehaviorProperty.ScaleY
+## BehaviorProperty.ScaleY свойство
 
 Представляет свойство 'ScaleY'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/scaley/
 public static BehaviorProperty ScaleY { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

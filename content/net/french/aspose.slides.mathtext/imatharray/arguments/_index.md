@@ -1,15 +1,15 @@
 ---
 title: Arguments
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: L'ensemble des éléments du tableau
+description: L'ensemble des éléments de l'array
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imatharray/arguments/
 ---
 
-## Propriété IMathArray.Arguments
+## IMathArray.Arguments propriété
 
-L'ensemble des éléments du tableau
+L'ensemble des éléments de l'array
 
 ```csharp
 public IMathElementCollection Arguments { get; }

@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除所有签名。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idigitalsignaturecollection/clear/
 public void Clear()
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * 命名空间 [Aspose.Slides](../../idigitalsignaturecollection)

@@ -1,15 +1,15 @@
 ---
 title: GetHashCode
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt den Hash-Code eines Bildes zurück.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Hashcode eines Bildes zurück.
 type: docs
 weight: 100
 url: /de/aspose.slides/ppimage/gethashcode/
 ---
 
-## PPImage.GetHashCode Methode
+## PPImage.GetHashCode-Methode
 
-Gibt den Hash-Code eines Bildes zurück.
+Gibt den Hashcode eines Bildes zurück.
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Rückgabewert
 
-Hash-Code.
+Hashcode.
 
 ### Siehe auch
 

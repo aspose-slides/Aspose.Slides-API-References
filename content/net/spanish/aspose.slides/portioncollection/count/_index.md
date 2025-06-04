@@ -19,6 +19,6 @@ public int Count { get; }
 
 * clase [PortionCollection](../../portioncollection)
 * espacio de nombres [Aspose.Slides](../../portioncollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

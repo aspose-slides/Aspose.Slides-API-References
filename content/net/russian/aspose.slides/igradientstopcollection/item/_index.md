@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает градиентную остановку по индексу.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/igradientstopcollection/item/
 public IGradientStop this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGradientStop](../../igradientstop)
 * интерфейс [IGradientStopCollection](../../igradientstopcollection)

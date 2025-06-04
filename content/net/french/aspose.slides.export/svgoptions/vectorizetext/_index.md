@@ -1,7 +1,7 @@
 ---
 title: VectorizeText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le texte sur une diapositive sera enregistré sous forme de graphiques. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Détermine si le texte sur une diapositive sera enregistré en tant que graphiques. Booléen lisible/écrivable.
 type: docs
 weight: 180
 url: /fr/aspose.slides.export/svgoptions/vectorizetext/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/svgoptions/vectorizetext/
 
 ## Propriété SVGOptions.VectorizeText
 
-Détermine si le texte sur une diapositive sera enregistré sous forme de graphiques. Booléen en lecture/écriture.
+Détermine si le texte sur une diapositive sera enregistré en tant que graphiques. Booléen lisible/écrivable.
 
 ```csharp
 public bool VectorizeText { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SVGOptions](../../svgoptions)
 * espace de noms [Aspose.Slides.Export](../../svgoptions)

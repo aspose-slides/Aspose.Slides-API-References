@@ -7,7 +7,7 @@ weight: 10620
 url: /zh/aspose.slides/textcaptype/
 ---
 
-## TextCapType枚举
+## TextCapType 列举
 
 表示文本大写类型。
 

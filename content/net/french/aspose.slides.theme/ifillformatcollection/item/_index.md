@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.theme/ifillformatcollection/item/
 ---
 
-## Indexeur IFillFormatCollection
+## IFillFormatCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IFillFormat`](../../../aspose.slides/ifillformat).
 

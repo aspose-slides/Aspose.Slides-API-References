@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die ostasiatische Schriftart zurück oder legt sie fest. Lese-/schreibbar IFontDataaspose.slides/ifontdata.
+description: Gibt die ostasiatische Schriftart zurück oder legt sie fest. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /de/aspose.slides/ifonts/eastasianfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifonts/eastasianfont/
 
 ## IFonts.EastAsianFont-Eigenschaft
 
-Gibt die ostasiatische Schriftart zurück oder legt sie fest. Lese-/schreibbar [`IFontData`](../../ifontdata).
+Gibt die ostasiatische Schriftart zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData EastAsianFont { get; set; }

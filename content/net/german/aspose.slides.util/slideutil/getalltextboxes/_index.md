@@ -17,13 +17,13 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| slide | IBaseSlide | Durchsuchte Folie. |
+| slide | IBaseSlide | Scannte Folie. |
 
 ### Rückgabewert
 
 Array von [`TextFrame`](../../../aspose.slides/textframe) Objekten.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITextFrame](../../../aspose.slides/itextframe)
 * Schnittstelle [IBaseSlide](../../../aspose.slides/ibaseslide)

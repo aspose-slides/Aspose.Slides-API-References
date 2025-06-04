@@ -1,7 +1,7 @@
 ---
 title: NotesStyle
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style d'un texte de notes. En lecture seule ITextStyleaspose.slides/itextstyle.
+description: Renvoie le style d'un texte de notes. Lecture seule ITextStyle aspose.slides/itextstyle.
 type: docs
 weight: 40
 url: /fr/aspose.slides/imasternotesslide/notesstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslide/notesstyle/
 
 ## Propriété IMasterNotesSlide.NotesStyle
 
-Renvoie le style d'un texte de notes. En lecture seule [`ITextStyle`](../../itextstyle).
+Renvoie le style d'un texte de notes. Lecture seule [`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle NotesStyle { get; }

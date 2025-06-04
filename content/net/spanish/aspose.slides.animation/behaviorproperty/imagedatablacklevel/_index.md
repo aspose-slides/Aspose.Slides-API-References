@@ -1,6 +1,6 @@
 ---
 title: ImageDataBlacklevel
-second_title: Aspose.Slides para referencia de API .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa la propiedad imageData.blacklevel
 type: docs
 weight: 420
@@ -19,6 +19,6 @@ public static BehaviorProperty ImageDataBlacklevel { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

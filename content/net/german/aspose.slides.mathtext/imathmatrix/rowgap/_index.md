@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Aspose.Slides für .NET API Referenz
-description: Der Wert des vertikalen Abstands zwischen den Zeilen einer Matrix. Wenn die RowGapRule auf 3 "Genau" eingestellt ist, wird die Einheit als Twips 1/20 eines Punktes interpretiert. Wenn die RowGapRule auf 4 "Mehrfach" eingestellt ist, wird die Einheit als halbe Zeilen interpretiert. Standard 0
+description: Der Wert des vertikalen Abstands zwischen den Reihen einer Matrix. Wenn die RowGapRule auf 3 "Genau" gesetzt ist, wird die Einheit als Twips 1/20 eines Punktes interpretiert. Wenn die RowGapRule auf 4 "Multipel" gesetzt ist, wird die Einheit als halbe Zeilen interpretiert. Standard 0
 type: docs
 weight: 100
 url: /de/aspose.slides.mathtext/imathmatrix/rowgap/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathmatrix/rowgap/
 
 ## IMathMatrix.RowGap-Eigenschaft
 
-Der Wert des vertikalen Abstands zwischen den Zeilen einer Matrix; Wenn die RowGapRule auf 3 ("Genau") eingestellt ist, wird die Einheit als Twips (1/20 eines Punktes) interpretiert. Wenn die RowGapRule auf 4 ("Mehrfach") eingestellt ist, wird die Einheit als halbe Zeilen interpretiert. Standard: 0
+Der Wert des vertikalen Abstands zwischen den Reihen einer Matrix; Wenn die RowGapRule auf 3 ("Genau") gesetzt ist, wird die Einheit als Twips (1/20 eines Punktes) interpretiert. Wenn die RowGapRule auf 4 ("Multipel") gesetzt ist, wird die Einheit als halbe Zeilen interpretiert. Standard: 0
 
 ```csharp
 public uint RowGap { get; set; }

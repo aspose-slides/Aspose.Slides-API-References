@@ -1,15 +1,15 @@
 ---
 title: DrawingGuides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию указателей рисования. Only-read IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает коллекцию направляющих для рисования. Только для чтения IDrawingGuidesCollectionaspose.slides/idrawingguidescollection
 type: docs
 weight: 10
 url: /ru/aspose.slides/icommonslideviewproperties/drawingguides/
 ---
 
-## Свойство ICommonSlideViewProperties.DrawingGuides
+## ICommonSlideViewProperties.DrawingGuides свойство
 
-Возвращает коллекцию указателей рисования. Only-read [`IDrawingGuidesCollection`](../../idrawingguidescollection)
+Возвращает коллекцию направляющих для рисования. Только для чтения [`IDrawingGuidesCollection`](../../idrawingguidescollection)
 
 ```csharp
 public IDrawingGuidesCollection DrawingGuides { get; }
@@ -17,7 +17,7 @@ public IDrawingGuidesCollection DrawingGuides { get; }
 
 ### Примеры
 
-Следующий образец кода показывает, как добавить новые указатели рисования в презентацию PowerPoint.
+Следующий пример кода показывает, как добавить новые направляющие для рисования в презентацию PowerPoint.
 
 ```csharp
 [C#]
@@ -26,16 +26,16 @@ using (Presentation pres = new Presentation())
     var slideSize = pres.SlideSize.Size;
     
     IDrawingGuidesCollection guides = pres.ViewProperties.SlideViewProperties.DrawingGuides;
-    // Добавление нового вертикального указателя рисования справа от центра слайда
+    // Добавление новой вертикальной направляющей справа от центра слайда
     guides.Add(Orientation.Vertical, slideSize.Width / 2 + 12.5f);
-    // Добавление нового горизонтального указателя рисования под центром слайда
+    // Добавление новой горизонтальной направляющей ниже центра слайда
     guides.Add(Orientation.Horizontal, slideSize.Height / 2 + 12.5f);
     
     pres.Save("DrawingGuides_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IDrawingGuidesCollection](../../idrawingguidescollection)
 * интерфейс [ICommonSlideViewProperties](../../icommonslideviewproperties)

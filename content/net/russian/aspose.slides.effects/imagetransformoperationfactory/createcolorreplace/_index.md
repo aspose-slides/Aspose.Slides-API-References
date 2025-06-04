@@ -1,6 +1,6 @@
 ---
 title: CreateColorReplace
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API справочник
 description: Создает эффект замены цвета.
 type: docs
 weight: 120
@@ -19,7 +19,7 @@ public IColorReplace CreateColorReplace()
 
 Эффект замены цвета.
 
-### См. Также
+### См. также
 
 * интерфейс [IColorReplace](../../icolorreplace)
 * класс [ImageTransformOperationFactory](../../imagetransformoperationfactory)

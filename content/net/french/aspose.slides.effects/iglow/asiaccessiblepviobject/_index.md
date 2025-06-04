@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iglow/asiaccessiblepviobject/
 
 ## Propriété IGlow.AsIAccessiblePVIObject
 
-Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Permet d'obtenir l'interface de base IAccessiblePVIObject. Lire seule [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IGlowEffectiveData> AsIAccessiblePVIObject { get; }

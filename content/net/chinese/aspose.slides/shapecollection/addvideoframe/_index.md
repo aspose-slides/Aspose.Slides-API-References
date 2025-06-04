@@ -1,7 +1,7 @@
 ---
 title: AddVideoFrame
-second_title: Aspose.Sildes for .NET API 参考
-description: 将新的视频框添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的视频帧添加到集合的末尾。
 type: docs
 weight: 210
 url: /zh/aspose.slides/shapecollection/addvideoframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/addvideoframe/
 
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
-将新的视频框添加到集合的末尾。
+将新的视频帧添加到集合的末尾。
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
@@ -17,17 +17,17 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新视频框的 X 坐标。 |
-| y | Single | 新视频框的 Y 坐标。 |
-| width | Single | 新视频框的宽度。 |
-| height | Single | 新视频框的高度。 |
+| x | Single | 新视频帧的 X 坐标。 |
+| y | Single | 新视频帧的 Y 坐标。 |
+| width | Single | 新视频帧的宽度。 |
+| height | Single | 新视频帧的高度。 |
 | fname | String | 视频文件名。 |
 
 ### 返回值
 
 创建的 VideoFrame 对象。
 
-### 另见
+### 另请参见
 
 * 接口 [IVideoFrame](../../ivideoframe)
 * 类 [ShapeCollection](../../shapecollection)
@@ -38,7 +38,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 ## AddVideoFrame(float, float, float, float, IVideo) {#addvideoframe}
 
-将新的视频框添加到集合的末尾。
+将新的视频帧添加到集合的末尾。
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IVideo video)
@@ -46,17 +46,17 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新视频框的 X 坐标。 |
-| y | Single | 新视频框的 Y 坐标。 |
-| width | Single | 新视频框的宽度。 |
-| height | Single | 新视频框的高度。 |
+| x | Single | 新视频帧的 X 坐标。 |
+| y | Single | 新视频帧的 Y 坐标。 |
+| width | Single | 新视频帧的宽度。 |
+| height | Single | 新视频帧的高度。 |
 | video | IVideo | 要添加的视频。 |
 
 ### 返回值
 
 创建的 VideoFrame 对象。
 
-### 另见
+### 另请参见
 
 * 接口 [IVideoFrame](../../ivideoframe)
 * 接口 [IVideo](../../ivideo)

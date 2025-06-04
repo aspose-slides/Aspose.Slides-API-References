@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt den Index der angegebenen Folie in der Sammlung zurück.
 type: docs
 weight: 60
@@ -15,9 +15,9 @@ Gibt den Index der angegebenen Folie in der Sammlung zurück.
 public int IndexOf(ISlide slide)
 ```
 
-| Parameter | Type | Beschreibung |
+| Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| slide | ISlide | Zu findende Folie. |
+| slide | ISlide | Folie, die gefunden werden soll. |
 
 ### Rückgabewert
 

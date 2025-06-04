@@ -1,6 +1,6 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Klasse zum Laden von benutzerdefinierten Schriftarten, die vom Benutzer definiert wurden. Sollte vor der Erstellung von Präsentationsobjekten verwendet werden.
 type: docs
 weight: 5720

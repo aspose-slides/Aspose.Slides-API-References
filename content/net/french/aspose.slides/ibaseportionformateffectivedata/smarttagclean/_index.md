@@ -1,6 +1,6 @@
 ---
 title: SmartTagClean
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Détermine si le smart tag doit être nettoyé. Booléen en lecture seule.
 type: docs
 weight: 210

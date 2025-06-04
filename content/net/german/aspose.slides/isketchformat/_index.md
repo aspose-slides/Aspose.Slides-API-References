@@ -19,9 +19,9 @@ public interface ISketchFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Gibt den Skizzen-Typ zurück oder setzt ihn. Lese-/Schreibzugriff auf [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Gibt den Skizzen-Typ zurück oder setzt ihn. Lesen/Schreiben [`LineSketchType`](../linesketchtype). |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

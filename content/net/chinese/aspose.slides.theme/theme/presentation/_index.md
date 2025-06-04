@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Aspose.Slides for .NET API 参考
-description: 返回父演示文稿。只读 IPresentationaspose.slides/../aspose.slides/ipresentation。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回父演示文稿。只读 IPresentation aspose.slides/ipresentation。
 type: docs
 weight: 40
 url: /zh/aspose.slides.theme/theme/presentation/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/theme/presentation/
 public IPresentation Presentation { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IPresentation](../../../aspose.slides/ipresentation)
 * 类 [Theme](../../theme)

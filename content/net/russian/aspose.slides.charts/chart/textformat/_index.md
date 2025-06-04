@@ -1,7 +1,7 @@
 ---
 title: TextFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает формат текста на графиках. Свойство не применяется для следующих типов Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Только для чтения IChartTextFormataspose.slides/icharttextformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает формат текста диаграммы. Свойство не применяется для следующих типов Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Только для чтения IChartTextFormat aspose.slides.charts/icharttextformat.
 type: docs
 weight: 210
 url: /ru/aspose.slides.charts/chart/textformat/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/chart/textformat/
 
 ## Свойство Chart.TextFormat
 
-Возвращает формат текста на графиках. Свойство не применяется для следующих типов: Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Только для чтения [`IChartTextFormat`](../../icharttextformat).
+Возвращает формат текста диаграммы. Свойство не применяется для следующих типов: Treemap, Sunburst, Waterfall, Histogram, Funnel, BoxAndWhisker. Только для чтения [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IChartTextFormat](../../icharttextformat)
 * класс [Chart](../../chart)

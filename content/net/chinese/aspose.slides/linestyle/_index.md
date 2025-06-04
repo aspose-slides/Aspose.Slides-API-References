@@ -1,21 +1,21 @@
 ---
 title: LineStyle
-second_title: Aspose.Slides for .NET API 参考
-description: 表示线条的样式。
+second_title: Aspose.Slidess for .NET API Reference
+description: 表示线的样式。
 type: docs
 weight: 7580
 url: /zh/aspose.slides/linestyle/
 ---
 
-## LineStyle 枚举
+## LineStyle enumeration
 
-表示线条的样式。
+表示线的样式。
 
 ```csharp
 public enum LineStyle : sbyte
 ```
 
-### 值
+### Values
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |

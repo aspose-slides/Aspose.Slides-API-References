@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 获取指定索引处的字体名称。只读 IFontFallBackRule aspose.slides/ifontfallbackrule。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontfallbackrule/item/
 public string this[int index] { get; }
 ```
 
-### 另见
+### 另请参见
 
 * class [FontFallBackRule](../../fontfallbackrule)
 * namespace [Aspose.Slides](../../fontfallbackrule)

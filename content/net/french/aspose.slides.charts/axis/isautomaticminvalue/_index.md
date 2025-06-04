@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinValue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si la valeur minimale est assignée automatiquement. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence API
+description: Indique si la valeur minimale est automatiquement assignée. Booléen en lecture/écriture.
 type: docs
 weight: 210
 url: /fr/aspose.slides.charts/axis/isautomaticminvalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/axis/isautomaticminvalue/
 
 ## Propriété Axis.IsAutomaticMinValue
 
-Indique si la valeur minimale est assignée automatiquement. Booléen en lecture/écriture.
+Indique si la valeur minimale est automatiquement assignée. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsAutomaticMinValue { get; set; }

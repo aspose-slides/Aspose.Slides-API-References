@@ -1,6 +1,6 @@
 ---
 title: CalcMode
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Указывает режим интерполяции для анимации Read/write PropertyCalcModeTypeaspose.slides.animation/propertycalcmodetype.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/propertyeffect/calcmode/
 public PropertyCalcModeType CalcMode { get; set; }
 ```
 
-### Также см.
+### Смотрите Также
 
 * enum [PropertyCalcModeType](../../propertycalcmodetype)
 * class [PropertyEffect](../../propertyeffect)

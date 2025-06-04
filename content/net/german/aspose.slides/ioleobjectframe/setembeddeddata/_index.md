@@ -1,15 +1,15 @@
 ---
 title: SetEmbeddedData
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt Informationen zu OLE eingebetteten Daten.
+description: Legt Informationen über OLE eingebettete Daten fest.
 type: docs
 weight: 150
 url: /de/aspose.slides/ioleobjectframe/setembeddeddata/
 ---
 
-## IOleObjectFrame.SetEmbeddedData Methode
+## IOleObjectFrame.SetEmbeddedData-Methode
 
-Setzt Informationen zu OLE eingebetteten Daten.
+Legt Informationen über OLE eingebettete Daten fest.
 
 ```csharp
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
@@ -23,15 +23,15 @@ public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wenn der Parameter embeddedData null ist. |
+| ArgumentNullException | Wenn der embeddedData-Parameter null ist. |
 
-### Anmerkungen
+### Bemerkungen
 
-Diese Methode ändert die Eigenschaften des Objekts, um die neuen Daten widerzuspiegeln und setzt das IsObjectLink-Flag auf false, was bedeutet, dass das OLE-Objekt eingebettet ist.
+Diese Methode ändert die Eigenschaften des Objekts, um die neuen Daten widerzuspiegeln, und setzt das IsObjectLink-Flag auf false, was anzeigt, dass das OLE-Objekt eingebettet ist.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man OLE eingebettete Daten und ihren Typ für ein bestehendes [`IOleObjectFrame`](../../ioleobjectframe) Objekt ändern kann.
+Das folgende Beispiel zeigt, wie OLE eingebettete Daten und deren Typ für ein bestehendes [`IOleObjectFrame`](../../ioleobjectframe) Objekt geändert werden können.
 
 ```csharp
 [C#]

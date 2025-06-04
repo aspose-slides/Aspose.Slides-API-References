@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes for .NET API Reference
-description: Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник поток или файл не может быть изменен на протяжении жизни экземпляра Presentation.
+second_title: Aspose.Sildes для .NET API Reference
+description: Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока в течение жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB-ами, но источник поток или файл не может быть изменен в течение жизни экземпляра Presentation.
 type: docs
 weight: 40
 url: /ru/aspose.slides/blobmanagementoptions/presentationlockingbehavior/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/blobmanagementoptions/presentationlockingbehavior/
 
 ## BlobManagementOptions.PresentationLockingBehavior свойство
 
-Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока на протяжении жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB, но источник (поток или файл) не может быть изменен на протяжении жизни экземпляра Presentation.
+Это свойство определяет, может ли экземпляр класса Presentation быть владельцем источника - файла или потока в течение жизни экземпляра. Если экземпляр является владельцем, он блокирует источник. Это помогает улучшить потребление памяти и производительность при работе с BLOB-ами, но источник (поток или файл) не может быть изменен в течение жизни экземпляра Presentation.
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [PresentationLockingBehavior](../../presentationlockingbehavior)
 * class [BlobManagementOptions](../../blobmanagementoptions)

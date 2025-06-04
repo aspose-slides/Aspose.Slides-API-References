@@ -21,7 +21,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Devuelve la interfaz IFillParamSource. Solo lectura [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Devuelve el tipo de relleno. Solo lectura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Devuelve el formato de relleno degradado. Solo lectura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Devuelve el formato de relleno de gradiente. Solo lectura [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Devuelve el formato de relleno de imagen. Solo lectura [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Determina si el relleno debe rotarse con la forma. Solo lectura Boolean. |
@@ -31,7 +31,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 Esta interfaz se utiliza junto con la interfaz [`IFillFormat`](../ifillformat) para devolver valores de formato efectivos con herencia aplicada.
 
-### Véase También
+### Ver También
 
 * interfaz [IFillParamSource](../ifillparamsource)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

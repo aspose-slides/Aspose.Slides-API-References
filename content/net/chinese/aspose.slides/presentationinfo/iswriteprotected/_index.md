@@ -1,7 +1,7 @@
 ---
 title: IsWriteProtected
-second_title: Aspose.Slides for .NET API 参考
-description: 获取一个值，该值指示绑定的演示文稿是否受到写保护。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取一个值，该值指示绑定的演示文稿是否受写保护。
 type: docs
 weight: 30
 url: /zh/aspose.slides/presentationinfo/iswriteprotected/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentationinfo/iswriteprotected/
 
 ## PresentationInfo.IsWriteProtected 属性
 
-获取一个值，该值指示绑定的演示文稿是否受到写保护。
+获取一个值，该值指示绑定的演示文稿是否受写保护。
 
 ```csharp
 public NullableBool IsWriteProtected { get; }
@@ -26,11 +26,11 @@ public NullableBool IsWriteProtected { get; }
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presentationFilePath);
 if (info.IsWriteProtected == NullableBool.True)
 {
-    Console.WriteLine("演示文稿 '" + presentationFilePath + "' 受到密码的写保护.");
+    Console.WriteLine("演示文稿 '" + presentationFilePath + "' 受到密码的写保护。");
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [NullableBool](../../nullablebool)
 * class [PresentationInfo](../../presentationinfo)

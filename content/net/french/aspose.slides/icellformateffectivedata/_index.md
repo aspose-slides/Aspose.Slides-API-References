@@ -1,7 +1,7 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immutable qui contient les propriétés de formatage effectif des cellules de tableau.
+description: Objet immuable contenant les propriétés de mise en forme effectives des cellules de tableau.
 type: docs
 weight: 5280
 url: /fr/aspose.slides/icellformateffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icellformateffectivedata/
 
 ## Interface ICellFormatEffectiveData
 
-Objet immutable qui contient les propriétés de formatage effectif des cellules de tableau.
+Objet immuable contenant les propriétés de mise en forme effectives des cellules de tableau.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -20,11 +20,11 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Nom | Description |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecture seule [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Obtient la transparence de la couleur de remplissage. Lecture d'un nombre décimal. |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Obtient la transparence de la couleur de fond. Lire Single. |
 
 ### Remarques
 
-Cette interface est utilisée conjointement avec l'interface [`ICellFormat`](../icellformat) pour retourner des valeurs de formatage effectif avec héritage et styles de tableau appliqués.
+Cette interface est utilisée conjointement avec l'interface [`ICellFormat`](../icellformat) pour renvoyer les valeurs de mise en forme effectives avec héritage et styles de tableau appliqués.
 
 ### Voir aussi
 

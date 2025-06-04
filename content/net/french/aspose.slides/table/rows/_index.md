@@ -1,7 +1,7 @@
 ---
 title: Rows
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne la collection de lignes. Lecture seule IRowCollection aspose.slides/irowcollection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne la collection de lignes. Lecture seule IRowCollectionaspose.slides/irowcollection.
 type: docs
 weight: 100
 url: /fr/aspose.slides/table/rows/
@@ -15,7 +15,7 @@ Retourne la collection de lignes. Lecture seule [`IRowCollection`](../../irowcol
 public IRowCollection Rows { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRowCollection](../../irowcollection)
 * classe [Table](../../table)

@@ -1,7 +1,7 @@
 ---
 title: SourceFont
-second_title: Aspose.Slides for .NET API 参考
-description: 替代字体。只读 IFontData aspose.slides/ifontdata。
+second_title: Aspose.Slides for .NET API Reference
+description: 替代字体。只读 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 40
 url: /zh/aspose.slides/fontsubstrule/sourcefont/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fontsubstrule/sourcefont/
 public IFontData SourceFont { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [FontSubstRule](../../fontsubstrule)

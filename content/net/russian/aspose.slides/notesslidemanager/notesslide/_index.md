@@ -1,15 +1,15 @@
 ---
 title: NotesSlide
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает слайд заметок для текущего слайда. Возвращает null, если слайд не имеет слайда заметок. Только для чтения INotesSlideaspose.slides/inotesslide.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает слайд заметок для текущего слайда. Возвращает null, если у слайда нет слайда заметок. Только для чтения INotesSlideaspose.slides/inotesslide.
 type: docs
 weight: 10
 url: /ru/aspose.slides/notesslidemanager/notesslide/
 ---
 
-## Свойство NotesSlideManager.NotesSlide
+## NotesSlideManager.NotesSlide свойство
 
-Возвращает слайд заметок для текущего слайда. Возвращает null, если слайд не имеет слайда заметок. Только для чтения [`INotesSlide`](../../inotesslide).
+Возвращает слайд заметок для текущего слайда. Возвращает null, если у слайда нет слайда заметок. Только для чтения [`INotesSlide`](../../inotesslide).
 
 ```csharp
 public INotesSlide NotesSlide { get; }

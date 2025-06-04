@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: type docs
 weight: 7720
 url: /de/aspose.slides.lowcode/foreach.foreachslidecallback/
@@ -12,7 +12,7 @@ url: /de/aspose.slides.lowcode/foreach.foreachslidecallback/
 public delegate void ForEachSlideCallback(Slide slide, int index);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Slide](../../aspose.slides/slide)
 * Klasse [ForEach](../foreach)

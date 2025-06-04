@@ -23,9 +23,9 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 
 ### 返回值
 
-新图像效果在集合中的索引。
+集合中新图像效果的索引。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IHSL](../../ihsl)
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

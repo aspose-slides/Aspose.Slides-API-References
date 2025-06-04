@@ -1,21 +1,21 @@
 ---
 title: MinorUnit
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет минимальные единицы для оси даты или значения. Чтение/запись Double.
+second_title: Aspose.Sildes для справки по .NET API
+description: Представляет меньшие единицы для оси даты или значения. Чтение/запись Double.
 type: docs
 weight: 410
 url: /ru/aspose.slides.charts/axis/minorunit/
 ---
 
-## Свойство Axis.MinorUnit
+## Axis.MinorUnit свойство
 
-Представляет минимальные единицы для оси даты или значения. Чтение/запись Double.
+Представляет меньшие единицы для оси даты или значения. Чтение/запись Double.
 
 ```csharp
 public double MinorUnit { get; set; }
 ```
 
-### Смотрите Также
+### Также смотри
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

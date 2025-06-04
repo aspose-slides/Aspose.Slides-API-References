@@ -1,6 +1,6 @@
 ---
 title: ParentSeriesGroup
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 返回父系列组。只读 IChartSeriesGroup aspose.slides.charts/ichartseriesgroup。
 type: docs
 weight: 290
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseries/parentseriesgroup/
 public IChartSeriesGroup ParentSeriesGroup { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IChartSeriesGroup](../../ichartseriesgroup)
 * 接口 [IChartSeries](../../ichartseries)

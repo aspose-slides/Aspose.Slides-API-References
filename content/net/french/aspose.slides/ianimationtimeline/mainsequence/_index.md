@@ -1,7 +1,7 @@
 ---
 title: MainSequence
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la séquence principale qui peut contenir uniquement une collection d'effets principaux. ISequence en lecture seule aspose.slides.animation/isequence.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Renvoie la séquence principale qui peut contenir uniquement la collection des principaux effets. Lecture seule ISequenceaspose.slides.animation/isequence.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ianimationtimeline/mainsequence/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ianimationtimeline/mainsequence/
 
 ## Propriété IAnimationTimeLine.MainSequence
 
-Renvoie la séquence principale qui peut contenir uniquement une collection d'effets principaux. Lecture seule [`ISequence`](../../../aspose.slides.animation/isequence).
+Renvoie la séquence principale qui peut contenir uniquement la collection des principaux effets. Lecture seule [`ISequence`](../../../aspose.slides.animation/isequence).
 
 ```csharp
 public ISequence MainSequence { get; }

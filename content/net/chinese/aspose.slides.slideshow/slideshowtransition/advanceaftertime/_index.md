@@ -1,21 +1,21 @@
 ---
 title: AdvanceAfterTime
-second_title: Aspose.Slides for .NET API 参考
-description: 指定过渡开始前的时间（以毫秒为单位）。该设置可以与 advClick 属性一起使用。如果没有指定此属性，则假定不会发生自动推进。可读/可写 UInt32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定过渡开始之前的时间，以毫秒为单位。此设置可以与 advClick 属性结合使用。如果此属性未指定，则假定不会发生自动推进。可读/写 UInt32。
 type: docs
 weight: 20
 url: /zh/aspose.slides.slideshow/slideshowtransition/advanceaftertime/
 ---
 
-## SlideShowTransition.AdvanceAfterTime 属性
+## SlideShowTransition.AdvanceAfterTime property
 
-指定过渡开始前的时间（以毫秒为单位）。该设置可以与 advClick 属性一起使用。如果没有指定此属性，则假定不会发生自动推进。可读/可写 UInt32。
+指定过渡开始之前的时间，以毫秒为单位。此设置可以与 advClick 属性结合使用。如果此属性未指定，则假定不会发生自动推进。可读/写 UInt32。
 
 ```csharp
 public uint AdvanceAfterTime { get; set; }
 ```
 
-### 另见
+### See Also
 
 * class [SlideShowTransition](../../slideshowtransition)
 * namespace [Aspose.Slides.SlideShow](../../slideshowtransition)

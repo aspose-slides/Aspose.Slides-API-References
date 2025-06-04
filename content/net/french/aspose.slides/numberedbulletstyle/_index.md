@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente le style des puces numérotées.
+second_title: Aspose.Slides pour .NET API Reference
+description: Représente le style des balles numérotées.
 type: docs
 weight: 8910
 url: /fr/aspose.slides/numberedbulletstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/numberedbulletstyle/
 
 ## Énumération NumberedBulletStyle
 
-Représente le style des puces numérotées.
+Représente le style des balles numérotées.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -26,8 +26,8 @@ public enum NumberedBulletStyle : sbyte
 | BulletArabicPeriod | `3` | Chiffres arabes avec un point. Exemple : 1., 2., 3., ... |
 | BulletRomanLCParenBoth | `4` | Chiffres romains minuscules avec les deux parenthèses. Exemple : (i), (ii), (iii), ... |
 | BulletRomanLCParenRight | `5` | Chiffres romains minuscules avec parenthèse fermante. Exemple : i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Chiffres romains minuscules avec un point. Exemple : i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Chiffres romains majuscules avec un point. Exemple : I., II., III., ... |
+| BulletRomanLCPeriod | `6` | Chiffres romains minuscules avec point. Exemple : i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Chiffres romains majuscules avec point. Exemple : I., II., III., ... |
 | BulletAlphaLCParenBoth | `8` | Caractères alphabétiques minuscules avec les deux parenthèses. Exemple : (a), (b), (c), ... |
 | BulletAlphaLCParenRight | `9` | Caractères alphabétiques minuscules avec parenthèse fermante. Exemple : a), b), c), ... |
 | BulletAlphaUCParenBoth | `10` | Caractères alphabétiques majuscules avec les deux parenthèses. Exemple : (A), (B), (C), ... |
@@ -38,18 +38,18 @@ public enum NumberedBulletStyle : sbyte
 | BulletRomanUCParenRight | `15` | Chiffres romains majuscules avec parenthèse fermante. Exemple : I), II), III), ... |
 | BulletSimpChinPlain | `16` | Chinois simplifié sans point. |
 | BulletSimpChinPeriod | `17` | Chinois simplifié avec un point. |
-| BulletCircleNumDBPlain | `18` | Numéro entouré en double octet pour des valeurs jusqu'à 10, de 11 - chiffres arabes. |
-| BulletCircleNumWDWhitePlain | `19` | Numéro de texte coloré avec un cercle de la même couleur tracé autour (numéros de cercle blanc Wingdings). De 11 - chiffres arabes. |
-| BulletCircleNumWDBlackPlain | `20` | Numéro de couleur d'ombre avec un fond circulaire de la couleur de texte normale (numéros de cercle noir Wingdings). |
+| BulletCircleNumDBPlain | `18` | Numéro encerclé à double octet pour des valeurs jusqu'à 10, à partir de 11 - chiffres arabes. |
+| BulletCircleNumWDWhitePlain | `19` | Numéro coloré avec un cercle de la même couleur autour (numéros de cercle blanc Wingdings). À partir de 11 - chiffres arabes. |
+| BulletCircleNumWDBlackPlain | `20` | Numéro de couleur d'ombre avec un fond circulaire de couleur de texte normal (numéros de cercle noir Wingdings). |
 | BulletTradChinPlain | `21` | Chinois traditionnel sans point. |
 | BulletTradChinPeriod | `22` | Chinois traditionnel avec un point. |
-| BulletArabicAlphaDash | `23` | Caractères alphabétiques en langue arabe avec un tiret. |
+| BulletArabicAlphaDash | `23` | Caractères alphabétiques de la langue arabe avec un tiret. |
 | BulletArabicAbjadDash | `24` | Alphabet arabe Abjad avec un tiret. |
-| BulletHebrewAlphaDash | `25` | Caractères alphabétiques en langue hébraïque avec un tiret. |
+| BulletHebrewAlphaDash | `25` | Caractères alphabétiques de la langue hébraïque avec un tiret. |
 | BulletKanjiKoreanPlain | `26` | Chiffres japonais/coréens sans point. |
 | BulletKanjiKoreanPeriod | `27` | Chiffres japonais/coréens avec un point. |
-| BulletArabicDBPlain | `28` | Schéma de numérotation arabe en double octet (sans ponctuation). |
-| BulletArabicDBPeriod | `29` | Schéma de numérotation arabe en double octet avec un point en double octet. |
+| BulletArabicDBPlain | `28` | Schéma de numérotation arabe à double octet (sans ponctuation). |
+| BulletArabicDBPeriod | `29` | Schéma de numérotation arabe à double octet avec un point à double octet. |
 | BulletThaiAlphaPeriod | `30` | Point de l'alphabet thaï. |
 | BulletThaiAlphaParenRight | `31` | Parenthèses de l'alphabet thaï - droite. |
 | BulletThaiAlphaParenBoth | `32` | Parenthèses de l'alphabet thaï - les deux. |

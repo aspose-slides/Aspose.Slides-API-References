@@ -1,6 +1,6 @@
 ---
 title: Color
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el formato de color que reemplazará el color de cada píxel. Color de solo lectura.
 type: docs
 weight: 20
@@ -19,6 +19,6 @@ public Color Color { get; }
 
 * interfaz [IColorReplaceEffectiveData](../../icolorreplaceeffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../icolorreplaceeffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

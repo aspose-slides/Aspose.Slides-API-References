@@ -1,7 +1,7 @@
 ---
 title: Chart
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Gráfico. Solo lectura IChartaspose.slides.charts/ichart.
+second_title: Referencia API de Aspose.Slides para .NET
+description: Chart. Solo lectura IChartaspose.slides.charts/ichart.
 type: docs
 weight: 60
 url: /es/aspose.slides.charts/chartplotarea/chart/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/chartplotarea/chart/
 
 ## Propiedad Chart de ChartPlotArea
 
-Gráfico. Solo lectura [`IChart`](../../ichart).
+Chart. Solo lectura [`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChart](../../ichart)
 * clase [ChartPlotArea](../../chartplotarea)

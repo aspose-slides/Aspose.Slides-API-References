@@ -7,7 +7,7 @@ weight: 9270
 url: /de/aspose.slides/pptunsupportedformatexception/
 ---
 
-## PptUnsupportedFormatException-Klasse
+## PptUnsupportedFormatException Klasse
 
 Ausnahme, die ausgelöst wird, wenn das Dateiformat der Präsentation nicht unterstützt wird.
 
@@ -23,7 +23,7 @@ public class PptUnsupportedFormatException : PptReadException
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Konstruktor, der es ermöglicht, eine Nachricht zu dieser Ausnahme hinzuzufügen. |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor für eine Ausnahme, die eine Nachricht und eine eingebettete Ausnahme enthält. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PptReadException](../pptreadexception)
 * Namespace [Aspose.Slides](../../aspose.slides)

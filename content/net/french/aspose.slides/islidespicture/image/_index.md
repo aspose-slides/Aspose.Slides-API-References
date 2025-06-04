@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'image intégrée. Lecture/écriture IPPImageaspose.slides/ippimage.
+description: Renvoie ou définit l'image intégrée. Lecture/écriture IPPImage aspose.slides/ippimage.
 type: docs
 weight: 20
 url: /fr/aspose.slides/islidespicture/image/

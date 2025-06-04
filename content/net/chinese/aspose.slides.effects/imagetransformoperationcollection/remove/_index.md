@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 参考
-description: 从 ICollection 中删除特定对象的第一次出现。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从 ICollection 中移除特定对象的第一次出现。
 type: docs
 weight: 260
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/remove/
 
 ## ImageTransformOperationCollection.Remove 方法
 
-从 ICollection 中删除特定对象的第一次出现。
+从 ICollection 中移除特定对象的第一次出现。
 
 ```csharp
 public bool Remove(IImageTransformOperation item)
@@ -17,19 +17,19 @@ public bool Remove(IImageTransformOperation item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IImageTransformOperation | 要从 ICollection 中删除的对象。 |
+| item | IImageTransformOperation | 要从 ICollection 中移除的对象。 |
 
 ### 返回值
 
-如果 *item* 成功从 ICollection 中删除，则为 true；否则为 false。如果 *item* 在原始 ICollection 中未找到，方法也将返回 false。
+如果 *item* 成功从 ICollection 中移除，则返回 true；否则返回 false。如果在原始 ICollection 中未找到 *item*，此方法也会返回 false。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| NotSupportedException | ICollection 是只读的。 |
+| NotSupportedException | ICollection 为只读。 |
 
-### 参见
+### 另见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

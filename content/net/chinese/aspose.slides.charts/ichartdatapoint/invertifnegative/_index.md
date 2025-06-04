@@ -1,7 +1,7 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定数据点在值为负时将其颜色反转。可读写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定数据点如果值为负，则反转其颜色。可读写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/ichartdatapoint/invertifnegative/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapoint/invertifnegative/
 
 ## IChartDataPoint.InvertIfNegative 属性
 
-指定数据点在值为负时将其颜色反转。可读写布尔值。
+指定数据点如果值为负，则反转其颜色。可读写布尔值。
 
 ```csharp
 public bool InvertIfNegative { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: MathematicalTextFactory
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Permet de créer un élément MathematicalText
 type: docs
 weight: 8800
 url: /fr/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 
-## Classe MathematicalTextFactory
+## MathematicalTextFactory class
 
 Permet de créer un élément MathematicalText
 

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient l'élément à l'index spécifié. Lecture seule SmartArtShapeaspose.slides.smartart/smartartshape.gt.
+description: Récupère l'élément à l'index spécifié. Lecture seule SmartArtShapeaspose.slides.smartart/smartartshape.gt.
 type: docs
 weight: 30
 url: /fr/aspose.slides.smartart/smartartshapecollection/item/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.smartart/smartartshapecollection/item/
 
 ## Indexeur SmartArtShapeCollection
 
-Obtient l'élément à l'index spécifié. Lecture seule [`SmartArtShape`](../../smartartshape).&gt;.
+Récupère l'élément à l'index spécifié. Lecture seule [`SmartArtShape`](../../smartartshape).&gt;.
 
 ```csharp
 public ISmartArtShape this[int index] { get; }
@@ -19,7 +19,7 @@ public ISmartArtShape this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Valeur de Retour
+### Valeur de retour
 
 La forme SmartArt
 

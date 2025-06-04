@@ -1,6 +1,6 @@
 ---
 title: SetEventHandler
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Référence API Aspose.Slides pour .NET
 description: Définit le gestionnaire d'événements pour la forme
 type: docs
 weight: 20
@@ -18,7 +18,7 @@ public void SetEventHandler(SvgEvent eventType, string handler)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | eventType | SvgEvent | Type d'événement. |
-| handler | String | Fonction Javascript pour gérer l'événement. La valeur null supprime le gestionnaire. |
+| handler | String | Fonction Javascript pour gérer l'événement. La valeur nulle supprime le gestionnaire. |
 
 ### Voir aussi
 

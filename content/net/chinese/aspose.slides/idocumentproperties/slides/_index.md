@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idocumentproperties/slides/
 public int Slides { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IDocumentProperties](../../idocumentproperties)
 * 命名空间 [Aspose.Slides](../../idocumentproperties)

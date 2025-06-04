@@ -1,13 +1,13 @@
 ---
 title: EastAsianLineBreak
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Determina si se utiliza el salto de línea de Asia Oriental en un párrafo. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/ichartparagraphformat/eastasianlinebreak/
 ---
 
-## Propiedad IChartParagraphFormat.EastAsianLineBreak
+## IChartParagraphFormat.EastAsianLineBreak propiedad
 
 Determina si se utiliza el salto de línea de Asia Oriental en un párrafo. Lectura/escritura [`NullableBool`](../../../aspose.slides/nullablebool).
 
@@ -15,7 +15,7 @@ Determina si se utiliza el salto de línea de Asia Oriental en un párrafo. Lect
 public NullableBool EastAsianLineBreak { get; set; }
 ```
 
-### Vea También
+### Véase también
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IChartParagraphFormat](../../ichartparagraphformat)

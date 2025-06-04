@@ -1,7 +1,7 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Slides для .NET API справочник
-description: Представляет эффект Alpha Bi-Level. Значения альфа-прозрачности ниже порога изменяются на 0 полностью прозрачные, а значения альфа, равные или превышающие порог, изменяются на 100% полностью непрозрачные.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект Alpha Bi-Level. Значения альфа-прозрачности ниже порога изменяются на 0, полностью прозрачные, а альфа-значения, равные или превышающие порог, изменяются на 100, полностью непрозрачные.
 type: docs
 weight: 2750
 url: /ru/aspose.slides.effects/alphabilevel/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/alphabilevel/
 
 ## Класс AlphaBiLevel
 
-Представляет эффект Alpha Bi-Level. Значения альфа (прозрачности) ниже порога изменяются на 0 (полностью прозрачные), а значения альфа, равные или превышающие порог, изменяются на 100% (полностью непрозрачные).
+Представляет эффект Alpha Bi-Level. Значения альфа (прозрачность) меньше порога изменяются на 0 (полностью прозрачные), а альфа-значения, равные или превышающие порог, изменяются на 100% (полностью непрозрачные).
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -20,15 +20,15 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 | Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Возвращает порог эффекта. Читаемое/записываемое значение Single. |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Возвращает порог эффекта. Читаемое/записываемое значение типа Single. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Определяет, равен ли указанный [`AlphaBiLevel`](../alphabilevel) текущему [`AlphaBiLevel`](../alphabilevel). |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Получает данные эффективного Alpha Bi-Level эффекта с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Служит хэш-функцией для конкретного типа. |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Получает данные эффективного эффекта Alpha Bi-Level с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Используется в качестве хеш-функции для определенного типа. |
 
 ### См. также
 

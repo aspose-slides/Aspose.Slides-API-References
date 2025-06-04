@@ -15,7 +15,7 @@ url: /zh/aspose.slides/oleobjectframe/linkfilename/
 public string LinkFileName { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [OleObjectFrame](../../oleobjectframe)
 * 命名空间 [Aspose.Slides](../../oleobjectframe)

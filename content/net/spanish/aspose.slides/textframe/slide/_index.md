@@ -1,7 +1,7 @@
 ---
 title: Slide
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la diapositiva principal de un TextFrame. Solo lectura IBaseSlideaspose.slides/ibaseslide.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Retorna la diapositiva padre de un TextFrame. Solo lectura IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 60
 url: /es/aspose.slides/textframe/slide/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/textframe/slide/
 
 ## Propiedad TextFrame.Slide
 
-Devuelve la diapositiva principal de un TextFrame. Solo lectura [`IBaseSlide`](../../ibaseslide).
+Retorna la diapositiva padre de un TextFrame. Solo lectura [`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }

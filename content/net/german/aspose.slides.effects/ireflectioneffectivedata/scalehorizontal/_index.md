@@ -1,7 +1,7 @@
 ---
 title: ScaleHorizontal
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. Prozentsätze Nur-Lese Double.
+description: Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. Prozentsätze Nur-lesbar Double.
 type: docs
 weight: 100
 url: /de/aspose.slides.effects/ireflectioneffectivedata/scalehorizontal/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ireflectioneffectivedata/scalehorizontal/
 
 ## IReflectionEffectiveData.ScaleHorizontal-Eigenschaft
 
-Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. (Prozentsätze) Nur-Lese Double.
+Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. (Prozentsätze) Nur-lesbar Double.
 
 ```csharp
 public double ScaleHorizontal { get; }

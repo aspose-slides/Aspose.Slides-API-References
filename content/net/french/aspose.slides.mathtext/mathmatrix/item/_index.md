@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Élément de la matrice
+second_title: Aspose.Slides pour .NET API Référence
+description: Élément de matrice
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/mathmatrix/item/
 ---
 
-## Indice de MathMatrix
+## Indexeur MathMatrix
 
-Élément de la matrice
+Élément de matrice
 
 ```csharp
 public IMathElement this[int row, int column] { get; set; }
@@ -17,8 +17,8 @@ public IMathElement this[int row, int column] { get; set; }
 
 | Paramètre | Description |
 | --- | --- |
-| row | L'indice basé sur zéro de la ligne pour obtenir l'élément |
-| column | L'indice basé sur zéro de la colonne pour obtenir l'élément |
+| row | L'index basé sur zéro de la ligne pour obtenir l'élément |
+| column | L'index basé sur zéro de la colonne pour obtenir l'élément |
 
 ### Exemples
 
@@ -30,7 +30,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * class [MathMatrix](../../mathmatrix)

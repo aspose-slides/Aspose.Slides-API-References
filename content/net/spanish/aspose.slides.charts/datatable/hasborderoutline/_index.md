@@ -1,6 +1,6 @@
 ---
 title: HasBorderOutline
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Verdadero si la tabla de datos del gráfico tiene bordes de contorno. Booleano de lectura/escritura.
 type: docs
 weight: 40
@@ -15,10 +15,10 @@ Verdadero si la tabla de datos del gráfico tiene bordes de contorno. Booleano d
 public bool HasBorderOutline { get; set; }
 ```
 
-### Véase también
+### Vea También
 
 * clase [DataTable](../../datatable)
 * espacio de nombres [Aspose.Slides.Charts](../../datatable)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

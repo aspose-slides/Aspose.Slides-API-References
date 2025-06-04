@@ -1,15 +1,15 @@
 ---
 title: Slide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die übergeordnete Folie zurück. Nur-Lese IBaseSlideaspose.slides/ibaseslide.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die übergeordnete Folie zurück. Nur-lesend IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 150
 url: /de/aspose.slides.theme/colorscheme/slide/
 ---
 
-## ColorScheme.Slide-Eigenschaft
+## ColorScheme.Slide Eigenschaft
 
-Gibt die übergeordnete Folie zurück. Nur-Lese [`IBaseSlide`](../../../aspose.slides/ibaseslide).
+Gibt die übergeordnete Folie zurück. Nur-lesend [`IBaseSlide`](../../../aspose.slides/ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }

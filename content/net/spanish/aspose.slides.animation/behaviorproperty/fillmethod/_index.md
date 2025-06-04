@@ -15,10 +15,10 @@ Representa la propiedad 'fill.method'
 public static BehaviorProperty FillMethod { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit un accès facile à tous les hyperliens contenus dans toutes les diapos de présentation, à l'exception des diapositives de notes de mise en page maîtres. Lecture seule IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+description: Fournit un accès facile à tous les liens hypertextes contenus dans toutes les diapositives de présentation pas dans les diapositives de notes de mise en page, de maître. Lecture seule IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 140
 url: /fr/aspose.slides/ipresentation/hyperlinkqueries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/hyperlinkqueries/
 
 ## Propriété IPresentation.HyperlinkQueries
 
-Fournit un accès facile à tous les hyperliens contenus dans toutes les diapos de présentation (pas dans les diapositives maîtres, de mise en page ou de notes). Lecture seule [`IHyperlinkQueries`](../../ihyperlinkqueries).
+Fournit un accès facile à tous les liens hypertextes contenus dans toutes les diapositives de présentation (pas dans les diapositives de maître, de mise en page, de notes). Lecture seule [`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }

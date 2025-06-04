@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтения ISection aspose.slides/isection.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает элемент по указанному индексу. Только для чтения ISectionaspose.slides/isection.
 type: docs
 weight: 30
 url: /ru/aspose.slides/sectioncollection/item/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/sectioncollection/item/
 public ISection this[int index] { get; }
 ```
 
-### См. Также
+### Дополнительные материалы
 
 * интерфейс [ISection](../../isection)
 * класс [SectionCollection](../../sectioncollection)

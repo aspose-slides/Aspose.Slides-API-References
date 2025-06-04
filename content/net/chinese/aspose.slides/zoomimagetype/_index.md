@@ -1,7 +1,7 @@
 ---
 title: ZoomImageType
 second_title: Aspose.Sildes for .NET API Reference
-description: 定义 Zoom 对象是使用幻灯片预览还是封面图像。
+description: 定义 Zoom 对象是否使用幻灯片预览或封面图像。
 type: docs
 weight: 11540
 url: /zh/aspose.slides/zoomimagetype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/zoomimagetype/
 
 ## ZoomImageType 枚举
 
-定义 Zoom 对象是使用幻灯片预览还是封面图像。
+定义 Zoom 对象是否使用幻灯片预览或封面图像。
 
 ```csharp
 public enum ZoomImageType
@@ -22,7 +22,7 @@ public enum ZoomImageType
 | Preview | `1` | 使用幻灯片或部分的图像。 |
 | Cover | `2` | 使用自定义图像。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

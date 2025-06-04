@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/copyto/
 ---
 
-## Метод PieSplitCustomPointCollection.CopyTo
+## PieSplitCustomPointCollection.CopyTo метод
 
 Копирует элементы ICollection в массив, начиная с определенного индекса массива.
 
@@ -17,8 +17,8 @@ public void CopyTo(IChartDataPoint[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IChartDataPoint[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь нулевую индексацию. |
-| arrayIndex | Int32 | Индекс с нулевой индексацией в *array*, с которого начинается копирование. |
+| array | IChartDataPoint[] | Одномерный массив, который является местом назначения для элементов, скопированных из ICollection. Массив должен иметь нулевую индексную разметку. |
+| arrayIndex | Int32 | Нулевой индекс в *array*, с которого начинается копирование. |
 
 ### Исключения
 
@@ -28,7 +28,7 @@ public void CopyTo(IChartDataPoint[] array, int arrayIndex)
 | ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
 | ArgumentException | Количество элементов в исходном ICollection больше доступного пространства от *arrayIndex* до конца целевого *array*. |
 
-### См. Также
+### См. также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)

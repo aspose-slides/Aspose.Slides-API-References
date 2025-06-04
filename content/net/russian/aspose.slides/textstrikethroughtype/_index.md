@@ -1,6 +1,6 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справки по .NET API
 description: Представляет тип зачеркивания текста.
 type: docs
 weight: 10680
@@ -24,7 +24,7 @@ public enum TextStrikethroughType : sbyte
 | Single | `1` |  |
 | Double | `2` |  |
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

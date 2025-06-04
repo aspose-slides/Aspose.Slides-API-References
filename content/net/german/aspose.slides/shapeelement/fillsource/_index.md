@@ -1,7 +1,7 @@
 ---
 title: FillSource
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Informationen darüber zurück, wie man ein Element füllt. Nur lesender ShapeElementFillSourceaspose.slides/shapeelementfillsource.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt Informationen darüber zurück, wie ein Element gefüllt werden kann. Nur lesbarer ShapeElementFillSourceaspose.slides/shapeelementfillsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/shapeelement/fillsource/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/shapeelement/fillsource/
 
 ## ShapeElement.FillSource-Eigenschaft
 
-Gibt Informationen darüber zurück, wie man ein Element füllt. Nur lesend [`ShapeElementFillSource`](../../shapeelementfillsource).
+Gibt Informationen darüber zurück, wie ein Element gefüllt werden kann. Nur lesbarer [`ShapeElementFillSource`](../../shapeelementfillsource).
 
 ```csharp
 public ShapeElementFillSource FillSource { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ShapeElementFillSource](../../shapeelementfillsource)
 * class [ShapeElement](../../shapeelement)

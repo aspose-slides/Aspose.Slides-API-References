@@ -1,6 +1,6 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen benutzerdefinierten XML-Teil dar.
 type: docs
 weight: 2650
@@ -19,10 +19,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Name | Beschreibung |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Gibt einen global eindeutigen Bezeichner (GUID) an, der einen einzelnen benutzerdefinierten XML-Teil innerhalb eines Office Open XML-Dokuments eindeutig identifiziert. Nur-lesbar Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Gibt die Sammlung von XML-Schemata zurück, die mit dem benutzerdefinierten XML-Teil verknüpft sind. Nur-lesbar String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Gibt die XML-Daten als UTF-8-String zurück oder setzt sie. Lese-/Schreibzugriff String. Wert ist `null`. Wert ist leer oder XML-Daten sind ungültig. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Gibt die XML-Daten zurück oder setzt sie. Lese-/Schreibzugriff Byte[]. Wert ist `null`. Wert ist leer oder XML-Daten sind ungültig. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Gibt einen global eindeutigen Bezeichner (GUID) an, der einen einzelnen benutzerdefinierten XML-Teil innerhalb eines Office Open XML-Dokuments eindeutig identifiziert. Nur zum Lesen Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Gibt die Sammlung von XML-Schemas zurück, die mit dem benutzerdefinierten XML-Teil verknüpft sind. Nur zum Lesen String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Gibt XML-Daten als UTF-8-String zurück oder legt sie fest. Lese-/Schreibzugriff String. Wert ist `null`.Wert ist leer oder XML-Daten sind ungültig. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Gibt XML-Daten zurück oder legt sie fest. Lese-/Schreibzugriff Byte[]. Wert ist `null`.Wert ist leer oder XML-Daten sind ungültig. |
 
 ## Methoden
 

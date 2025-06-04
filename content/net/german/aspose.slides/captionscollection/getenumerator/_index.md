@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 type: docs
 weight: 50
 url: /de/aspose.slides/captionscollection/getenumerator/
 ---
 
-## CaptionsCollection.GetEnumerator-Methode
+## CaptionsCollection.GetEnumerator Methode
 
 Gibt einen Enumerator zurück, der durch die Sammlung iteriert.
 
@@ -19,7 +19,7 @@ public IEnumerator<ICaptions> GetEnumerator()
 
 Ein IEnumerator, der verwendet werden kann, um durch die Sammlung zu iterieren.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ICaptions](../../icaptions)
 * Klasse [CaptionsCollection](../../captionscollection)

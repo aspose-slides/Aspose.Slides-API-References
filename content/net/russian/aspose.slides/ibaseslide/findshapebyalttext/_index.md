@@ -1,13 +1,13 @@
 ---
 title: FindShapeByAltText
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Находит первое вхождение фигуры с указанным альтернативным текстом.
 type: docs
 weight: 130
 url: /ru/aspose.slides/ibaseslide/findshapebyalttext/
 ---
 
-## Метод IBaseSlide.FindShapeByAltText
+## IBaseSlide.FindShapeByAltText метод
 
 Находит первое вхождение фигуры с указанным альтернативным текстом.
 
@@ -19,7 +19,7 @@ public IShape FindShapeByAltText(string altText)
 | --- | --- | --- |
 | altText | String | Альтернативный текст. |
 
-### Возврат Значения
+### Возвращаемое Значение
 
 Объект ShapeEx или null.
 

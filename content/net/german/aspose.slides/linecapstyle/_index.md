@@ -1,13 +1,13 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt den Linienstil dar.
 type: docs
 weight: 7520
 url: /de/aspose.slides/linecapstyle/
 ---
 
-## LineCapStyle Aufzählung
+## LineCapStyle Enumeration
 
 Stellt den Linienstil dar.
 

@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Position eines Tabs zurück. Das Zuweisen dieser Eigenschaft kann den Index des Tabs in der Sammlung ändern und den Enumerator ungültig machen. Schreibgeschützter Double.
+description: Gibt die Position eines Tabs zurück. Das Zuweisen dieser Eigenschaft kann den Index des Tabs in der Sammlung ändern und den Enumerator ungültig machen. Nur lesen Double.
 type: docs
 weight: 30
 url: /de/aspose.slides/itabeffectivedata/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itabeffectivedata/position/
 
 ## ITabEffectiveData.Position-Eigenschaft
 
-Gibt die Position eines Tabs zurück. Das Zuweisen dieser Eigenschaft kann den Index des Tabs in der Sammlung ändern und den Enumerator ungültig machen. Schreibgeschützter Double.
+Gibt die Position eines Tabs zurück. Das Zuweisen dieser Eigenschaft kann den Index des Tabs in der Sammlung ändern und den Enumerator ungültig machen. Nur lesen Double.
 
 ```csharp
 public double Position { get; }

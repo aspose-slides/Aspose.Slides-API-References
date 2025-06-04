@@ -1,13 +1,13 @@
 ---
 title: CreatePresetShadow
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un effet d'ombre prédéfini.
 type: docs
 weight: 50
 url: /fr/aspose.slides.effects/ieffectfactory/createpresetshadow/
 ---
 
-## Méthode IEffectFactory.CreatePresetShadow
+## IEffectFactory.CreatePresetShadow méthode
 
 Crée un effet d'ombre prédéfini.
 
@@ -15,11 +15,11 @@ Crée un effet d'ombre prédéfini.
 public IPresetShadow CreatePresetShadow()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Effet d'ombre prédéfini.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPresetShadow](../../ipresetshadow)
 * interface [IEffectFactory](../../ieffectfactory)

@@ -1,7 +1,7 @@
 ---
 title: IsUnderflowBin
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob der Unterlauf-Bin angewendet wurde. Verwenden Sie IsAutomaticUnderflowBin und UnderflowBin, um den Wert des Unterlauf-Bins anzupassen.
+description: Gibt an, ob das Underflow-Bin angewendet wurde. Verwenden Sie IsAutomaticUnderflowBin und UnderflowBin, um den Wert des Underflow-Bins anzupassen.
 type: docs
 weight: 300
 url: /de/aspose.slides.charts/iaxis/isunderflowbin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/isunderflowbin/
 
 ## IAxis.IsUnderflowBin Eigenschaft
 
-Gibt an, ob der Unterlauf-Bin angewendet wurde. Verwenden Sie IsAutomaticUnderflowBin und UnderflowBin, um den Wert des Unterlauf-Bins anzupassen.
+Gibt an, ob das Underflow-Bin angewendet wurde. Verwenden Sie IsAutomaticUnderflowBin und UnderflowBin, um den Wert des Underflow-Bins anzupassen.
 
 ```csharp
 public bool IsUnderflowBin { get; set; }

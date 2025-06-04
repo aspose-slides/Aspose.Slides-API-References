@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回一个枚举器，用于遍历集合。
 type: docs
 weight: 100
@@ -17,7 +17,7 @@ public IEnumerator<ISlide> GetEnumerator()
 
 ### 返回值
 
-一个可以用来遍历集合的 IEnumerator。
+一个可以用于遍历集合的 IEnumerator。
 
 ### 另请参阅
 

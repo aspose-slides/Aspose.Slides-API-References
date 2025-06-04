@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMajorUnit
-second_title: Aspose.Slides for .NET API Reference
-description: 指示轴的主要单位是否自动分配。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指示轴的主要单位是否自动分配。可读/写的布尔值。
 type: docs
 weight: 180
 url: /zh/aspose.slides.charts/iaxis/isautomaticmajorunit/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/isautomaticmajorunit/
 
 ## IAxis.IsAutomaticMajorUnit 属性
 
-指示轴的主要单位是否自动分配。可读/写布尔值。
+指示轴的主要单位是否自动分配。可读/写的布尔值。
 
 ```csharp
 public bool IsAutomaticMajorUnit { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

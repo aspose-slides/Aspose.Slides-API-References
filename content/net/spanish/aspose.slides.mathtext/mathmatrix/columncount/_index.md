@@ -1,6 +1,6 @@
 ---
 title: ColumnCount
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Número de columnas en la matriz
 type: docs
 weight: 30

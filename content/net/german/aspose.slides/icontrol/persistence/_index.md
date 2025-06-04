@@ -1,15 +1,15 @@
 ---
 title: Persistence
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Methode ab, die verwendet wird, um die Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesbarer PersistenceTypeaspose.slides/persistencetype.
+second_title: Aspose.Sildes für .NET API Referenz
+description: erhält die Methode, die verwendet wird, um die Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesbar PersistenceTypeaspose.slides/persistencetype.
 type: docs
 weight: 60
 url: /de/aspose.slides/icontrol/persistence/
 ---
 
-## IControl.Persistence-Eigenschaft
+## IControl.Persistence Eigenschaft
 
-Ruft die Methode ab, die verwendet wird, um die Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesbar [`PersistenceType`](../../persistencetype).
+Erhält die Methode, die verwendet wird, um die Eigenschaften des ActiveX-Steuerelements zu speichern. Nur lesbar [`PersistenceType`](../../persistencetype).
 
 ```csharp
 public PersistenceType Persistence { get; }

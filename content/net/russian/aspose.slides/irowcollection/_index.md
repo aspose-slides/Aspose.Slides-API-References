@@ -1,6 +1,6 @@
 ---
 title: IRowCollection
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет коллекцию строк таблицы.
 type: docs
 weight: 6660
@@ -25,11 +25,11 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Создает копию указанной строки-шаблона и вставляет ее в конец таблицы. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Создает копию указанной строки-шаблона и вставляет ее на указанную позицию в таблице. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Удаляет строку по указанной позиции из таблицы. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Создает копию указанной шаблонной строки и вставляет ее внизу таблицы. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Создает копию указанной шаблонной строки и вставляет ее в указанное положение в таблице. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Удаляет строку в указанной позиции из таблицы. |
 
-### Также см. 
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [IRow](../irow)

@@ -1,7 +1,7 @@
 ---
 title: AspectRatioLocked
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Читаемое/записываемое логическое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Читаемое/записываемое Boolean.
 type: docs
 weight: 40
 url: /ru/aspose.slides/iconnectorlock/aspectratiolocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/iconnectorlock/aspectratiolocked/
 
 ## IConnectorLock.AspectRatioLocked свойство
 
-Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Читаемое/записываемое логическое значение.
+Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Читаемое/записываемое Boolean.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }
 ```
 
-### Также смотрите
+### Также см.
 
 * интерфейс [IConnectorLock](../../iconnectorlock)
 * пространство имен [Aspose.Slides](../../iconnectorlock)

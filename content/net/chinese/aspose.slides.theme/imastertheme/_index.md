@@ -1,7 +1,7 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示一个主主题。
+second_title: Aspose.Slides for .NET API Reference
+description: 代表一个母主题。
 type: docs
 weight: 11000
 url: /zh/aspose.slides.theme/imastertheme/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/imastertheme/
 
 ## IMasterTheme 接口
 
-表示一个主主题。
+代表一个母主题。
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -19,9 +19,9 @@ public interface IMasterTheme : ITheme
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | 允许获取基础 ITheme 接口。只读 [`ITheme`](../itheme)。 |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | 返回附加颜色方案的集合。这些方案不会影响演示文稿的外观，可以被选为幻灯片的主要颜色方案。只读 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | 返回主题的名称。可读写字符串。 |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | 允许获取基本的 ITheme 接口。只读 [`ITheme`](../itheme)。 |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | 返回附加颜色方案的集合。这些方案不影响演示文稿的外观，它们可以被选作幻灯片的主要颜色方案。只读 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | 返回主题的名称。读写字符串。 |
 
 ### 另见
 

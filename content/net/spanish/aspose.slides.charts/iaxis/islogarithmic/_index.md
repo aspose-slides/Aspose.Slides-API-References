@@ -1,13 +1,13 @@
 ---
 title: IsLogarithmic
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa si el tipo de escala del eje de valores es logarítmico o no. Booleano de lectura/escritura.
 type: docs
 weight: 260
 url: /es/aspose.slides.charts/iaxis/islogarithmic/
 ---
 
-## Propiedad IAxis.IsLogarithmic
+## IAxis.IsLogarithmic property
 
 Representa si el tipo de escala del eje de valores es logarítmico o no. Booleano de lectura/escritura.
 
@@ -19,6 +19,6 @@ public bool IsLogarithmic { get; set; }
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

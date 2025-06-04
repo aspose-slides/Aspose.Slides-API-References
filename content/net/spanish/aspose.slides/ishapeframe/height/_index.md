@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides/ishapeframe/height/
 ---
 
-## Propiedad IShapeFrame.Height
+## IShapeFrame.Height property
 
 Devuelve la altura de un marco. Solo lectura Single.
 
@@ -15,10 +15,10 @@ Devuelve la altura de un marco. Solo lectura Single.
 public float Height { get; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IShapeFrame](../../ishapeframe)
 * espacio de nombres [Aspose.Slides](../../ishapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

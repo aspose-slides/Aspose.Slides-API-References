@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberVisibility
-second_title: Aspose.Slildes für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für die Folienseitenzahl.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für die Foliensummennummer.
 type: docs
 weight: 90
 url: /de/aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility/
 
 ## IBaseSlideHeaderFooterManager.SetSlideNumberVisibility-Methode
 
-Ändert die Sichtbarkeit des Platzhalters für die Folienseitenzahl.
+Ändert die Sichtbarkeit des Platzhalters für die Foliensummennummer.
 
 ```csharp
 public void SetSlideNumberVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetSlideNumberVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für die Seitenzahl sichtbar, andernfalls - versteckt ihn. |
+| isVisible | Boolean | true - macht einen Platzhalter für die Foliensummennummer sichtbar, andernfalls - blendet ihn aus. |
 
 ### Siehe auch
 

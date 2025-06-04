@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute le guide de dessin à la fin de la collection.
 type: docs
 weight: 30
@@ -20,7 +20,7 @@ public IDrawingGuide Add(Orientation orientation, float position)
 | orientation | Orientation | Orientation du guide de dessin. |
 | position | Single | Position du guide de dessin en points. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDrawingGuide](../../idrawingguide)
 * enum [Orientation](../../orientation)

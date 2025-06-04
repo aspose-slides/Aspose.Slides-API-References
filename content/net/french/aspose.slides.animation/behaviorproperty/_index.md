@@ -1,23 +1,23 @@
 ---
 title: BehaviorProperty
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les types de propriétés pour le comportement d'animation. Suit la liste des propriétés de https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx et https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les types de propriétés pour le comportement d'animation. Suivez la liste des propriétés de https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx et https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
 weight: 110
 url: /fr/aspose.slides.animation/behaviorproperty/
 ---
 
-## Classe BehaviorProperty
+## BehaviorProperty class
 
-Représente les types de propriétés pour le comportement d'animation. Suit la liste des propriétés de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx et https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Représente les types de propriétés pour le comportement d'animation. Suivez la liste des propriétés de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx et https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public class BehaviorProperty : IBehaviorProperty
 ```
 
-## Propriétés
+## Properties
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
 | static [ExtrusionAutoRotationCenter](../../aspose.slides.animation/behaviorproperty/extrusionautorotationcenter) { get; } | Représente la propriété 'extrusion.autorotationcenter' |
 | static [ExtrusionBackDepth](../../aspose.slides.animation/behaviorproperty/extrusionbackdepth) { get; } | Représente la propriété 'extrusion.backdepth' |
@@ -140,18 +140,18 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | Représente la propriété 'style.visibility' |
 | static [XShear](../../aspose.slides.animation/behaviorproperty/xshear) { get; } | Représente la propriété 'xshear' |
 | static [YShear](../../aspose.slides.animation/behaviorproperty/yshear) { get; } | Représente la propriété 'yshear' |
-| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Indique si cette propriété n'appartient pas à la liste des propriétés prédéfinies dans la spécification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | Indique si cette propriété n'appartient pas à la liste des propriétés prédéfinies dans la spécification : https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/behaviorproperty/value) { get; } | Valeur de la propriété |
 
-## Méthodes
+## Methods
 
-| Nom | Description |
+| Name | Description |
 | --- | --- |
-| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Recherche une propriété de comportement existante par valeur ou en crée une nouvelle personnalisée avec la valeur spécifiée |
+| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | Recherche une propriété de comportement existante par valeur ou crée une nouvelle propriété personnalisée avec la valeur spécifiée |
 | override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | Vérifie si cet objet est égal à un autre. |
 | override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | Calcule et retourne le code de hachage basé sur la propriété [`Value`](./value) |
 
-### Voir aussi
+### See Also
 
 * interface [IBehaviorProperty](../ibehaviorproperty)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -1,6 +1,6 @@
 ---
 title: ChartData
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve información sobre los datos vinculados o incrustados asociados con un gráfico. Solo lectura IChartDataaspose.slides.charts/ichartdata.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Devuelve información sobre los datos vinculados o incrustados asociados con un 
 public IChartData ChartData { get; }
 ```
 
-### Ver También
+### Vea También
 
 * interfaz [IChartData](../../ichartdata)
 * clase [Chart](../../chart)

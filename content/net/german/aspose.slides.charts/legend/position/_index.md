@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Position der Legende auf einem Diagramm an. Nicht-NaN-Werte der Eigenschaften X, Y, Width, Height überschreiben die Wirkung dieser Eigenschaft. Lese-/Schreibzugriff auf LegendPositionTypeaspose.slides/legendpositiontype.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Position der Legende auf einem Diagramm an. Nicht-NaN-Werte der Eigenschaften X, Y, Breite, Höhe überschreiben die Wirkung dieser Eigenschaft. Lese-/Schreibzugriff auf LegendPositionTypeaspose.slides/legendpositiontype.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/legend/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legend/position/
 
 ## Legend.Position-Eigenschaft
 
-Gibt die Position der Legende auf einem Diagramm an. Nicht-NaN-Werte der Eigenschaften X, Y, Width, Height überschreiben die Wirkung dieser Eigenschaft. Lese-/Schreibzugriff auf [`LegendPositionType`](../../legendpositiontype).
+Gibt die Position der Legende auf einem Diagramm an. Nicht-NaN-Werte der Eigenschaften X, Y, Breite, Höhe überschreiben die Wirkung dieser Eigenschaft. Lese-/Schreibzugriff auf [`LegendPositionType`](../../legendpositiontype).
 
 ```csharp
 public LegendPositionType Position { get; set; }

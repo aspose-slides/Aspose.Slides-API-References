@@ -1,7 +1,7 @@
 ---
 title: SlideUtil
 second_title: Aspose.Sildes для .NET API Справочник
-description: Предлагает методы, которые помогают искать фигуры и текст в презентации.
+description: Предоставляет методы, которые помогают искать фигуры и текст в презентации.
 type: docs
 weight: 11210
 url: /ru/aspose.slides.util/slideutil/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.util/slideutil/
 
 ## Класс SlideUtil
 
-Предлагает методы, которые помогают искать фигуры и текст в презентации.
+Предоставляет методы, которые помогают искать фигуры и текст в презентации.
 
 ```csharp
 public static class SlideUtil
@@ -19,15 +19,15 @@ public static class SlideUtil
 
 | Название | Описание |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Изменяет расположение всех фигур на слайде. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Изменяет расположение всех фигур внутри группы фигур. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Изменяет расположение выбранных фигур на слайде. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Изменяет расположение выбранных фигур внутри группы фигур. Выравнивает фигуры по краям или границам слайда или выравнивает их относительно друг друга. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Изменяет размещение всех фигур на слайде. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Изменяет размещение всех фигур внутри групповой фигуры. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Изменяет размещение выбранных фигур на слайде. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Изменяет размещение выбранных фигур внутри групповой фигуры. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
 | static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Находит и заменяет текст в презентации с заданным форматом. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Находит фигуру по альтернативному тексту на слайде в PPTX-презентации. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Находит фигуру по альтернативному тексту в PPTX-презентации. |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Возвращает все текстовые рамки на слайде в PPTX-презентации. |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Возвращает все текстовые рамки в PPTX-презентации. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Находит фигуру по альтернативному тексту на слайде в презентации PPTX. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Находит фигуру по альтернативному тексту в презентации PPTX. |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Возвращает все текстовые рамки на слайде в презентации PPTX. |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Возвращает все текстовые рамки в презентации PPTX. |
 
 ### См. также
 

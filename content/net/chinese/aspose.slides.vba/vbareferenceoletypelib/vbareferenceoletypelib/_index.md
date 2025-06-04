@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 此构造函数创建新的 OLE 自动化类型库引用。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.vba/vbareferenceoletypelib/vbareferenceoletypelib/
 public VbaReferenceOleTypeLib(string name, string libid)
 ```
 
-### 另请参阅
+### 另见
 
 * class [VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
 * namespace [Aspose.Slides.Vba](../../vbareferenceoletypelib)

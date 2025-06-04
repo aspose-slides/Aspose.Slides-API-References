@@ -1,6 +1,6 @@
 ---
 title: AsIActualLayout
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс IActualLayout.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ url: /ru/aspose.slides.charts/idatalabel/asiactuallayout/
 public IActualLayout AsIActualLayout { get; }
 ```
 
-### Примечания
+### Замечания
 
 Для совместимости с COM.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IActualLayout](../../iactuallayout)
 * интерфейс [IDataLabel](../../idatalabel)

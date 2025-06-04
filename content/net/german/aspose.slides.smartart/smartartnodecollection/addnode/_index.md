@@ -1,6 +1,6 @@
 ---
 title: AddNode
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Fügen Sie einen neuen SmartArt-Knoten oder Unterknoten hinzu.
 type: docs
 weight: 50
@@ -21,7 +21,7 @@ Hinzugefügter Knoten
 
 ### Siehe auch
 
-* Interface [ISmartArtNode](../../ismartartnode)
+* Schnittstelle [ISmartArtNode](../../ismartartnode)
 * Klasse [SmartArtNodeCollection](../../smartartnodecollection)
 * Namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * Assembly [Aspose.Slides](../../../)

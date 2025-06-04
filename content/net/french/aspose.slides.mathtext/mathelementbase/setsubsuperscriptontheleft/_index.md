@@ -1,13 +1,13 @@
 ---
 title: SetSubSuperscriptOnTheLeft
-second_title: Aspose.Slides pour .NET API Reference
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Crée des indices inférieurs et supérieurs à gauche
 type: docs
 weight: 140
 url: /fr/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft/
 ---
 
-## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
+## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
 Crée des indices inférieurs et supérieurs à gauche
 
@@ -18,16 +18,16 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| subscript | IMathElement | Indice inférieur (index inférieur à gauche) |
-| superscript | IMathElement | Indice supérieur (index supérieur à gauche) |
+| subscript | IMathElement | Indice inférieur (indice inférieur à gauche) |
+| superscript | IMathElement | Indice supérieur (indice supérieur à gauche) |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvel élément mathématique de type [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ IMathElement superscript = new MathematicalText("j");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft(subscript, superscript);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * interface [IMathElement](../../imathelement)
@@ -47,7 +47,7 @@ IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscrip
 
 ---
 
-## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
+## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
 
 Crée des indices inférieurs et supérieurs à gauche
 
@@ -58,16 +58,16 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| subscript | String | Indice inférieur (index inférieur à gauche) |
-| superscript | String | Indice supérieur (index supérieur à gauche) |
+| subscript | String | Indice inférieur (indice inférieur à gauche) |
+| superscript | String | Indice supérieur (indice supérieur à gauche) |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvel élément mathématique de type [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -75,7 +75,7 @@ IMathElement baseElement = new MathematicalText("N");
 IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)
 * class [MathElementBase](../../mathelementbase)

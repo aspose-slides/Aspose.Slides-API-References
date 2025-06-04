@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET Справочник API
 description: Определяет, равен ли указанный объект текущему объекту.
 type: docs
 weight: 70
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для сравнения с текущим объектом. |
+| obj | Object | Объект, который нужно сравнить с текущим объектом. |
 
-### Значение, которое возвращается
+### Значение Возврата
 
 true, если указанный объект равен текущему объекту; в противном случае false.
 
-### См. также
+### См. Также
 
 * класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

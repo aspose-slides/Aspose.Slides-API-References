@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs
 weight: 100
 url: /fr/aspose.slides/iportioncollection/removeat/
 ---
 
-## Méthode IPortionCollection.RemoveAt
+## IPortionCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié de la collection.
 
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index de base zéro de l'élément à supprimer. |
+| index | Int32 | L'index basé sur zéro de l'élément à supprimer. |
 
 ### Voir aussi
 

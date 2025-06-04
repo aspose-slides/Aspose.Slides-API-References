@@ -1,15 +1,15 @@
 ---
 title: BehaviorAccumulateType
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert Arten der Ansammlung von Effektverhalten.
+description: Stellt Typen der Akkumulation von Effektverhalten dar.
 type: docs
 weight: 70
 url: /de/aspose.slides.animation/behavioraccumulatetype/
 ---
 
-## BehaviorAccumulateType Enumeration
+## BehaviorAccumulateType Aufzählung
 
-Repräsentiert Arten der Ansammlung von Effektverhalten.
+Stellt Typen der Akkumulation von Effektverhalten dar.
 
 ```csharp
 public enum BehaviorAccumulateType
@@ -17,13 +17,13 @@ public enum BehaviorAccumulateType
 
 ### Werte
 
-| Name | Wert | Beschreibung |
-| --- | --- | --- |
-| NotDefined | `-1` |  |
-| Always | `0` |  |
-| None | `1` |  |
+| Name       | Wert | Beschreibung |
+|------------|------|--------------|
+| NotDefined | `-1` |              |
+| Always     | `0`  |              |
+| None       | `1`  |              |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

@@ -1,13 +1,13 @@
 ---
 title: SaveExternal
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Speichert externes Objekt.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/ilinkembedcontroller/saveexternal/
 ---
 
-## ILinkEmbedController.SaveExternal Methode
+## ILinkEmbedController.SaveExternal-Methode
 
 Speichert externes Objekt.
 

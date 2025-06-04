@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Format einer Serie zurück. Nur-lesendes IFormataspose.slides.charts/iformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Format einer Serie zurück. Nur-Lese IFormataspose.slides.charts/iformat.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/ichartseries/format/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ichartseries/format/
 
 ## IChartSeries.Format-Eigenschaft
 
-Gibt das Format einer Serie zurück. Nur-lesend [`IFormat`](../../iformat).
+Gibt das Format einer Serie zurück. Nur-Lese [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFormat](../../iformat)
 * Schnittstelle [IChartSeries](../../ichartseries)

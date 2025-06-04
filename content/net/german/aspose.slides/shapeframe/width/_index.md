@@ -7,7 +7,7 @@ weight: 90
 url: /de/aspose.slides/shapeframe/width/
 ---
 
-## ShapeFrame.Width-Eigenschaft
+## ShapeFrame.Width Eigenschaft
 
 Gibt die Breite eines Rahmens zurück. Nur-Lese Single.
 

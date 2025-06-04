@@ -1,21 +1,21 @@
 ---
 title: Conformance
-second_title: Aspose.Slides for .NET API 参考
-description: 指定演示文档所遵循的兼容性类别。默认值为 Ecma376_2006
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定演示文档所符合的兼容性类别。默认值为 Ecma376_2006
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/pptxoptions/conformance/
 ---
 
-## PptxOptions.Conformance 属性
+## PptxOptions.Conformance property
 
-指定演示文档所遵循的兼容性类别。默认值为 Ecma376_2006
+指定演示文档所符合的兼容性类别。默认值为 Ecma376_2006
 
 ```csharp
 public Conformance Conformance { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [Conformance](../../conformance)
 * class [PptxOptions](../../pptxoptions)

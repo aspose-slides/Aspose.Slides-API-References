@@ -1,6 +1,6 @@
 ---
 title: CreateFileStreamWrapper
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает FileStream с указанным путем и режимом создания.
 type: docs
 weight: 10
@@ -17,14 +17,14 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла String |
-| fileMode | FileMode | Режим файла FileMode |
+| fileName | String | Имя файла (строка) |
+| fileMode | FileMode | Режим файла (FileMode) |
 
 ### Возвращаемое значение
 
-Обертка потока для интерфейса COM [`IStreamWrapper`](../../istreamwrapper)
+Обертка потока для COM-интерфейса [`IStreamWrapper`](../../istreamwrapper)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * интерфейс [IStreamWrapperFactory](../../istreamwrapperfactory)
@@ -35,7 +35,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 ## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
 
-Создает FileStream с указанным путем, режимом создания и разрешением на чтение/запись.
+Создает FileStream с указанным путем, режимом создания и правами на чтение/запись.
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode, 
@@ -44,15 +44,15 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла String |
-| fileMode | FileMode | Режим файла FileMode |
-| fileAccess | FileAccess | Доступ к файлу FileAccess |
+| fileName | String | Имя файла (строка) |
+| fileMode | FileMode | Режим файла (FileMode) |
+| fileAccess | FileAccess | Доступ к файлу (FileAccess) |
 
 ### Возвращаемое значение
 
-Обертка потока для интерфейса COM [`IStreamWrapper`](../../istreamwrapper)
+Обертка потока для COM-интерфейса [`IStreamWrapper`](../../istreamwrapper)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IStreamWrapper](../../istreamwrapper)
 * интерфейс [IStreamWrapperFactory](../../istreamwrapperfactory)

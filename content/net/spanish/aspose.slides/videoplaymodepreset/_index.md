@@ -1,6 +1,6 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Slides para .NET Referencia de la API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Constantes que definen cómo se reproduce un video.
 type: docs
 weight: 11420
@@ -19,13 +19,13 @@ public enum VideoPlayModePreset
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Mixed | `-1` |  |
-| Auto | `0` | Reproducir automáticamente. |
-| OnClick | `1` | Reproducir solo cuando se hace clic en el marco del video. |
-| AllSlides | `2` | Reproducir en todas las diapositivas. |
-| InClickSequence | `3` | Reproducir automáticamente con un clic. |
+| Mezclado | `-1` |  |
+| Automático | `0` | Reproducir automáticamente. |
+| Al hacer clic | `1` | Reproducir solo cuando se hace clic en el cuadro del video. |
+| Todas las diapositivas | `2` | Reproducir en todas las diapositivas. |
+| En secuencia de clics | `3` | Reproducir automáticamente con un clic. |
 
-### Ver También
+### Ver también
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

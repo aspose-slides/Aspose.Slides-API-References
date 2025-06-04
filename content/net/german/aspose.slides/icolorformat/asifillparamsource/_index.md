@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IFillParamSource-Interface zurück. Nur-Lese IFillParamSource aspose.slides/ifillparamsource.
+description: Gibt das IFillParamSource-Interface zurück. Nur-Lese IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/icolorformat/asifillparamsource/
@@ -15,9 +15,9 @@ Gibt das IFillParamSource-Interface zurück. Nur-Lese [`IFillParamSource`](../..
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
 ### Siehe auch
 

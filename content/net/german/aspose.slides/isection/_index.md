@@ -27,7 +27,7 @@ public interface ISection
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Gibt eine Liste der Folien im Abschnitt zurück. |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Gibt die Liste der Folien im Abschnitt zurück. |
 
 ### Siehe auch
 

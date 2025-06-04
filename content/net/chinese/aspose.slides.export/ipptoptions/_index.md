@@ -1,7 +1,7 @@
 ---
 title: IPptOptions
-second_title: Aspose.Slides for .NET API 参考
-description: 提供控制演示文稿以 PPT 格式保存方式的选项。
+second_title: Aspose.Sildes for .NET API Reference
+description: 提供控制演示文稿以 PPT 格式保存的选项。
 type: docs
 weight: 3840
 url: /zh/aspose.slides.export/ipptoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipptoptions/
 
 ## IPptOptions 接口
 
-提供控制演示文稿以 PPT 格式保存方式的选项。
+提供控制演示文稿以 PPT 格式保存的选项。
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -19,10 +19,10 @@ public interface IPptOptions : ISaveOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。为只读 [`ISaveOptions`](../isaveoptions)。 |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | 表示存储在根目录条目中的对象类 GUID (CLSID)。可用于该文档的应用程序的 COM 激活。默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | 表示存储在根目录条目的对象类 GUID (CLSID)。可用于文档应用程序的 COM 激活。默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。 |
 
-### 参见
+### 另见
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

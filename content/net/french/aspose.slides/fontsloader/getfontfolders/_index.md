@@ -1,7 +1,7 @@
 ---
 title: GetFontFolders
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les dossiers de polices. Retourne les dossiers qui ont été ajoutés avec la méthode LoadExternalFonts ainsi que les dossiers de polices système
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient les dossiers de polices. Renvoie les dossiers qui ont été ajoutés avec la méthode LoadExternalFonts ainsi que les dossiers de polices système
 type: docs
 weight: 20
 url: /fr/aspose.slides/fontsloader/getfontfolders/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides/fontsloader/getfontfolders/
 
 ## FontsLoader.GetFontFolders méthode
 
-Obtient les dossiers de polices. Retourne les dossiers qui ont été ajoutés avec la méthode LoadExternalFonts ainsi que les dossiers de polices système
+Obtient les dossiers de polices. Renvoie les dossiers qui ont été ajoutés avec la méthode LoadExternalFonts ainsi que les dossiers de polices système
 
 ```csharp
 public static string[] GetFontFolders()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 tableau contenant les noms de dossiers
 
-### Voir aussi
+### Voir Aussi
 
 * classe [FontsLoader](../../fontsloader)
 * espace de noms [Aspose.Slides](../../fontsloader)

@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 60
 url: /ru/aspose.slides/controlpropertiescollection/getenumerator/
 ---
 
-## Метод ControlPropertiesCollection.GetEnumerator
+## ControlPropertiesCollection.GetEnumerator метод
 
 Возвращает перечислитель, который перебирает коллекцию.
 
@@ -15,9 +15,9 @@ url: /ru/aspose.slides/controlpropertiescollection/getenumerator/
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-IEnumerator, который можно использовать для перебора коллекции.
+IEnumerator, который может быть использован для перебора коллекции.
 
 ### См. также
 

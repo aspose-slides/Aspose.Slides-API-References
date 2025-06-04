@@ -1,25 +1,25 @@
 ---
 title: SetFooterVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für den Folienfuß.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ändert die Sichtbarkeit des Platzhalters für die Fußzeile der Folie.
 type: docs
 weight: 70
 url: /de/aspose.slides/baseslideheaderfootermanager/setfootervisibility/
 ---
 
-## BaseSlideHeaderFooterManager.SetFooterVisibility-Methode
+## BaseSlideHeaderFooterManager.SetFooterVisibility Methode
 
-Ändert die Sichtbarkeit des Platzhalters für den Folienfuß.
+Ändert die Sichtbarkeit des Platzhalters für die Fußzeile der Folie.
 
 ```csharp
 public void SetFooterVisibility(bool isVisible)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| isVisible | Boolean | true - macht einen Fußzeilen-Platzhalter sichtbar, andernfalls - blendet ihn aus. |
+| Parameter  | Typ      | Beschreibung                                                   |
+| ---------- | -------- | ------------------------------------------------------------- |
+| isVisible  | Boolean  | true - macht einen Platzhalter für die Fußzeile sichtbar, andernfalls - blendet ihn aus. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * Namespace [Aspose.Slides](../../baseslideheaderfootermanager)

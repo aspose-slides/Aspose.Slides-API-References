@@ -1,7 +1,7 @@
 ---
 title: AfterAnimationType
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет тип анимации после эффекта анимации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет тип анимации после анимационного эффекта.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/afteranimationtype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/afteranimationtype/
 
 ## Перечисление AfterAnimationType
 
-Представляет тип анимации после эффекта анимации.
+Представляет тип анимации после анимационного эффекта.
 
 ```csharp
 public enum AfterAnimationType
@@ -17,14 +17,14 @@ public enum AfterAnimationType
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | DoNotDim | `0` | Не затемнять после типа анимации. |
 | Color | `1` | Цвет после типа анимации. |
 | HideAfterAnimation | `2` | Скрыть после типа анимации |
 | HideOnNextMouseClick | `3` | Скрыть при следующем клике мыши после типа анимации. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

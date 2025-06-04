@@ -1,7 +1,7 @@
 ---
 title: Depth
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la profondeur d'une forme 3D. En lecture seule Double.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Renvoie la profondeur d'une forme 3D. Lecture seule Double.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ithreedformateffectivedata/depth/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ithreedformateffectivedata/depth/
 
 ## Propriété IThreeDFormatEffectiveData.Depth
 
-Renvoie la profondeur d'une forme 3D. En lecture seule Double.
+Renvoie la profondeur d'une forme 3D. Lecture seule Double.
 
 ```csharp
 public double Depth { get; }

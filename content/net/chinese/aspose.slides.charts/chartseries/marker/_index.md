@@ -1,7 +1,7 @@
 ---
 title: Marker
-second_title: Aspose.Slides for .NET API 参考
-description: 标记。只读 IMarker aspose.slides.charts/imarker。
+second_title: Aspose.Sildes for .NET API Reference
+description: Marker. 仅可读 IMarkeraspose.slides.charts/imarker.
 type: docs
 weight: 200
 url: /zh/aspose.slides.charts/chartseries/marker/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseries/marker/
 
 ## ChartSeries.Marker 属性
 
-标记。只读 [`IMarker`](../../imarker)。
+Marker. 仅可读 [`IMarker`](../../imarker)。
 
 ```csharp
 public IMarker Marker { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMarker](../../imarker)
 * 类 [ChartSeries](../../chartseries)

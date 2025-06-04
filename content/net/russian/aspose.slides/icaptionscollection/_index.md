@@ -1,7 +1,7 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет собой коллекцию скрытых субтитров.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет собой коллекцию закрытых субтитров.
 type: docs
 weight: 5240
 url: /ru/aspose.slides/icaptionscollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icaptionscollection/
 
 ## Интерфейс ICaptionsCollection
 
-Представляет собой коллекцию скрытых субтитров.
+Представляет собой коллекцию закрытых субтитров.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>
@@ -17,14 +17,14 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Возвращает скрытые субтитры по указанному индексу. Только для чтения [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Возвращает закрытые субтитры по указанному индексу. Только для чтения [`ICaptions`](../icaptions). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Добавляет закрытые субтитры WebVTT в конец коллекции из потока. |
 | [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Добавляет закрытые субтитры WebVTT в конец коллекции. |

@@ -1,7 +1,7 @@
 ---
 title: CreateMathBorderBox
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создайте математический блок с рамкой, применив его к элементу
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создайте математическую рамку, применяя к элементу
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
 
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-Создайте математический блок с рамкой, применив его к элементу
+Создайте математическую рамку, применяя к элементу
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -19,11 +19,11 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | математический элемент для применения рамки |
 
-### Возвращаемое значение
+### Возврат Значения
 
 новый элемент рамки
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IMathBorderBox](../../imathborderbox)
 * интерфейс [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-Создайте математический блок с рамкой, применив его к элементу
+Создайте математическую рамку, применяя к элементу
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -50,16 +50,16 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 | hideBottom | Boolean | Скрыть нижний край |
 | hideLeft | Boolean | Скрыть левый край |
 | hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Горизонтальная зачеркивка рамки |
-| strikethroughVertical | Boolean | Вертикальная зачеркивка рамки |
-| strikethroughBottomLeftToTopRight | Boolean | Зачеркивка рамки от нижнего левого к верхнему правому углу |
-| strikethroughTopLeftToBottomRight | Boolean | Зачеркивка рамки от верхнего левого к нижнему правому углу |
+| strikethroughHorizontal | Boolean | Перекрытие горизонтальной рамки |
+| strikethroughVertical | Boolean | Перекрытие вертикальной рамки |
+| strikethroughBottomLeftToTopRight | Boolean | Перекрытие рамки снизу-слева до сверху-справа |
+| strikethroughTopLeftToBottomRight | Boolean | Перекрытие рамки сверху-слева до снизу-справа |
 
-### Возвращаемое значение
+### Возврат Значения
 
 новый элемент рамки
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IMathBorderBox](../../imathborderbox)
 * интерфейс [IMathElement](../../imathelement)

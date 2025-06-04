@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### См. Также
+### См. также
 
 * класс [ColumnCollection](../../columncollection)
 * пространство имен [Aspose.Slides](../../columncollection)

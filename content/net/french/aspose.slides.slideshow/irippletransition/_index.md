@@ -1,7 +1,7 @@
 ---
 title: IRippleTransition
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet de transition de diapositive Ripple.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Effet de transition de diapositive en ondulation.
 type: docs
 weight: 9860
 url: /fr/aspose.slides.slideshow/irippletransition/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/irippletransition/
 
 ## Interface IRippleTransition
 
-Effet de transition de diapositive Ripple.
+Effet de transition de diapositive en ondulation.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase

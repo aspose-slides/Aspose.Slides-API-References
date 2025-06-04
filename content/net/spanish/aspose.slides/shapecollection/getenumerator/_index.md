@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IShape> GetEnumerator()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
-### Véase También
+### Ver también
 
-* interfaz [IShape](../../ishape)
-* clase [ShapeCollection](../../shapecollection)
-* espacio de nombres [Aspose.Slides](../../shapecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IShape](../../ishape)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

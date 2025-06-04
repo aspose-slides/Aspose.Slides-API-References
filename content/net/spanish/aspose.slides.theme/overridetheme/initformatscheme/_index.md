@@ -1,15 +1,15 @@
----
+---  
 title: InitFormatScheme
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Inicializar FormatScheme con un nuevo objeto para anular FormatScheme de InheritedTheme.
-type: docs
-weight: 120
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Inicializar FormatScheme con un nuevo objeto para anular el FormatScheme de InheritedTheme.
+type: docs  
+weight: 120  
 url: /es/aspose.slides.theme/overridetheme/initformatscheme/
----
+---  
 
 ## Método OverrideTheme.InitFormatScheme
 
-Inicializar FormatScheme con un nuevo objeto para anular FormatScheme de InheritedTheme.
+Inicializar FormatScheme con un nuevo objeto para anular el FormatScheme de InheritedTheme.
 
 ```csharp
 public void InitFormatScheme()
@@ -17,14 +17,14 @@ public void InitFormatScheme()
 
 ### Excepciones
 
-| excepción | condición |
-| --- | --- |
-| InvalidOperationException | Lanzada si el FormatScheme ya está inicializado (no nulo). |
+| excepción | condición |  
+| --- | --- |  
+| InvalidOperationException | Se lanza si el FormatScheme ya está inicializado (no nulo). |
 
 ### Ver También
 
-* clase [OverrideTheme](../../overridetheme)
-* espacio de nombres [Aspose.Slides.Theme](../../overridetheme)
-* ensamblado [Aspose.Slides](../../../)
+* clase [OverrideTheme](../../overridetheme)  
+* espacio de nombres [Aspose.Slides.Theme](../../overridetheme)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

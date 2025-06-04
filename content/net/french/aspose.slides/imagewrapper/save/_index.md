@@ -1,6 +1,6 @@
 ---
 title: Save
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Enregistre l'image dans le fichier spécifié
 type: docs
 weight: 40
@@ -33,7 +33,7 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 ### Voir Aussi
 
-* enum [PPImageFormat](../../ppimageformat)
+* énumération [PPImageFormat](../../ppimageformat)
 * classe [ImageWrapper](../../imagewrapper)
 * espace de noms [Aspose.Slides](../../imagewrapper)
 * assembly [Aspose.Slides](../../../)
@@ -50,7 +50,7 @@ public void Save(string fileName, PPImageFormat imageFormat)
 
 ### Voir Aussi
 
-* enum [PPImageFormat](../../ppimageformat)
+* énumération [PPImageFormat](../../ppimageformat)
 * classe [ImageWrapper](../../imagewrapper)
 * espace de noms [Aspose.Slides](../../imagewrapper)
 * assembly [Aspose.Slides](../../../)

@@ -1,6 +1,6 @@
 ---
 title: ImageDataCropBottom
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство imageData.cropBottom
 type: docs
 weight: 440

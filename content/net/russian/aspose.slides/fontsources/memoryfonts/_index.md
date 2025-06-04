@@ -1,6 +1,6 @@
 ---
 title: MemoryFonts
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Коллекция шрифтов, представленных в виде массивов байтов.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fontsources/memoryfonts/
 public byte[][] MemoryFonts { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [FontSources](../../fontsources)
 * пространство имен [Aspose.Slides](../../fontsources)

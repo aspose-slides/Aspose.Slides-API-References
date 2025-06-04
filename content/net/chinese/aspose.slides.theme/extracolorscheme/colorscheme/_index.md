@@ -1,7 +1,7 @@
 ---
 title: ColorScheme
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个颜色方案。只读 IColorScheme aspose.slides.theme/icolorscheme。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个色彩方案。只读 IColorSchemeaspose.slides.theme/icolorscheme。
 type: docs
 weight: 10
 url: /zh/aspose.slides.theme/extracolorscheme/colorscheme/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/extracolorscheme/colorscheme/
 
 ## ExtraColorScheme.ColorScheme 属性
 
-返回一个颜色方案。只读 [`IColorScheme`](../../icolorscheme)。
+返回一个色彩方案。只读 [`IColorScheme`](../../icolorscheme)。
 
 ```csharp
 public IColorScheme ColorScheme { get; }

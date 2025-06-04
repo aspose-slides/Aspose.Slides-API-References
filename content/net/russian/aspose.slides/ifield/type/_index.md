@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип поля. Чтение/запись IFieldTypeaspose.slides/ifieldtype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает тип поля. Чтение/запись IFieldTypeaspose.slides/ifieldtype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ifield/type/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ifield/type/
 
 ## Свойство IField.Type
 
-Возвращает или устанавливает тип поля. Чтение/запись [`IFieldType`](../../ifieldtype).
+Возвращает или задает тип поля. Чтение/запись [`IFieldType`](../../ifieldtype).
 
 ```csharp
 public IFieldType Type { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IFieldType](../../ifieldtype)
 * интерфейс [IField](../../ifield)

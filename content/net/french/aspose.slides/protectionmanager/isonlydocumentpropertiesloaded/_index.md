@@ -1,15 +1,15 @@
 ---
 title: IsOnlyDocumentPropertiesLoaded
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cette propriété a du sens si le fichier de présentation est protégé par un mot de passe et que les propriétés du document de ce fichier sont publiques. Une valeur de true signifie que seules les propriétés du document sont chargées à partir d'un fichier de présentation crypté sans utiliser de mot de passe. Une valeur de false signifie que l'ensemble de la présentation cryptée est chargée avec l'utilisation du mot de passe correct et que seules les propriétés du document ne sont pas chargées. Si la présentation n'est pas cryptée, alors la valeur de la propriété est toujours false. Si les propriétés du document d'un fichier crypté ne sont pas publiques, alors la valeur de la propriété est toujours false. Si Presentation.EncryptDocumentProperties est true, alors la valeur de la propriété IsOnlyDocumentPropertiesLoaded est toujours false. Booléen en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Cette propriété a du sens si le fichier de présentation est protégé par mot de passe et que les propriétés du document de ce fichier sont publiques. Une valeur de true signifie que seules les propriétés du document sont chargées à partir d'un fichier de présentation chiffré sans utilisation de mot de passe. Une valeur de false signifie que l'ensemble de la présentation chiffrée est chargée avec l'utilisation du bon mot de passe, pas seulement les propriétés du document. Si la présentation n'est pas chiffrée, alors la valeur de la propriété est toujours false. Si les propriétés du document d'un fichier chiffré ne sont pas publiques, alors la valeur de la propriété est toujours false. Si Presentation.EncryptDocumentProperties est true, alors la valeur de la propriété IsOnlyDocumentPropertiesLoaded est toujours false. Booléen en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/protectionmanager/isonlydocumentpropertiesloaded/
 ---
 
-## ProtectionManager.IsOnlyDocumentPropertiesLoaded propriété
+## ProtectionManager.IsOnlyDocumentPropertiesLoaded property
 
-Cette propriété a du sens si le fichier de présentation est protégé par un mot de passe et que les propriétés du document de ce fichier sont publiques. Une valeur de true signifie que seules les propriétés du document sont chargées à partir d'un fichier de présentation crypté sans utiliser de mot de passe. Une valeur de false signifie que l'ensemble de la présentation cryptée est chargée avec l'utilisation du mot de passe correct, et que seules les propriétés du document ne sont pas chargées. Si la présentation n'est pas cryptée, alors la valeur de la propriété est toujours false. Si les propriétés du document d'un fichier crypté ne sont pas publiques, alors la valeur de la propriété est toujours false. Si Presentation.EncryptDocumentProperties est true, alors la valeur de la propriété IsOnlyDocumentPropertiesLoaded est toujours false. Booléen en lecture seule.
+Cette propriété a du sens si le fichier de présentation est protégé par mot de passe et que les propriétés du document de ce fichier sont publiques. Une valeur de true signifie que seules les propriétés du document sont chargées à partir d'un fichier de présentation chiffré sans utilisation de mot de passe. Une valeur de false signifie que l'ensemble de la présentation chiffrée est chargée avec l'utilisation du bon mot de passe, pas seulement les propriétés du document. Si la présentation n'est pas chiffrée, alors la valeur de la propriété est toujours false. Si les propriétés du document d'un fichier chiffré ne sont pas publiques, alors la valeur de la propriété est toujours false. Si Presentation.EncryptDocumentProperties est true, alors la valeur de la propriété IsOnlyDocumentPropertiesLoaded est toujours false. Booléen en lecture seule.
 
 ```csharp
 public bool IsOnlyDocumentPropertiesLoaded { get; }

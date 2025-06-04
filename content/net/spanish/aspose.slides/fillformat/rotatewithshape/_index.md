@@ -1,6 +1,6 @@
 ---
 title: RotateWithShape
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API Aspose.Slides para .NET
 description: Determina si el relleno debe rotarse con la forma. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Determina si el relleno debe rotarse con la forma. Lectura/escritura [`NullableB
 public NullableBool RotateWithShape { get; set; }
 ```
 
-### También Ver
+### Ver También
 
 * enum [NullableBool](../../nullablebool)
 * class [FillFormat](../../fillformat)

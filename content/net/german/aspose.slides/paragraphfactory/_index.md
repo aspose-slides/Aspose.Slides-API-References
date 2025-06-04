@@ -28,7 +28,7 @@ public class ParagraphFactory : IParagraphFactory
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Erstellt einen neuen leeren Absatz. |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Erstellt einen neuen Absatz mit den angegebenen Absatzdaten. |
 
-### Anmerkungen
+### Bemerkungen
 
 Für die COM-Kompatibilität.
 

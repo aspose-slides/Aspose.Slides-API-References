@@ -1,13 +1,13 @@
 ---
 title: Subscript
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica un argumento de subíndice que, por ejemplo, en el caso de una integral establece el límite inferior
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Especifica un argumento de subíndice que, por ejemplo, en el caso de una integral, establece el límite inferior
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imathnaryoperator/subscript/
 ---
 
-## IMathNaryOperator.Subscript property
+## Propiedad IMathNaryOperator.Subscript
 
 Especifica un argumento de subíndice que, por ejemplo, en el caso de una integral, establece el límite inferior
 
@@ -30,6 +30,6 @@ IMathElement subscriptArg = naryOperator.Subscript;
 * interfaz [IMathElement](../../imathelement)
 * interfaz [IMathNaryOperator](../../imathnaryoperator)
 * espacio de nombres [Aspose.Slides.MathText](../../imathnaryoperator)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

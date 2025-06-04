@@ -1,21 +1,21 @@
 ---
 title: Style
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve o establece el estilo de línea. Lectura/escritura LineStyleaspose.slides/linestyle.
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Devuelve o establece el estilo de la línea. Lectura/escritura LineStyleaspose.slides/linestyle.
 type: docs
 weight: 170
 url: /es/aspose.slides/ilineformat/style/
 ---
 
-## Propiedad ILineFormat.Style
+## ILineFormat.Style property
 
-Devuelve o establece el estilo de línea. Lectura/escritura [`LineStyle`](../../linestyle).
+Devuelve o establece el estilo de la línea. Lectura/escritura [`LineStyle`](../../linestyle).
 
 ```csharp
 public LineStyle Style { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * enum [LineStyle](../../linestyle)
 * interface [ILineFormat](../../ilineformat)

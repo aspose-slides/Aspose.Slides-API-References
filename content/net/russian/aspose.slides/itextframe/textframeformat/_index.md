@@ -7,7 +7,7 @@ weight: 70
 url: /ru/aspose.slides/itextframe/textframeformat/
 ---
 
-## Свойство ITextFrame.TextFrameFormat
+## ITextFrame.TextFrameFormat свойство
 
 Возвращает объект форматирования для этого объекта TextFrame. Только для чтения [`ITextFrameFormat`](../../itextframeformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/itextframe/textframeformat/
 public ITextFrameFormat TextFrameFormat { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITextFrameFormat](../../itextframeformat)
 * интерфейс [ITextFrame](../../itextframe)

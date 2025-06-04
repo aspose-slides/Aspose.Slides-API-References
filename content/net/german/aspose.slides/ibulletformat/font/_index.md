@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Schriftart der Aufzählung eines Absatzes ohne Vererbung zurück oder legt sie fest. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
+description: Gibt die Schriftart der Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /de/aspose.slides/ibulletformat/font/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibulletformat/font/
 
 ## IBulletFormat.Font-Eigenschaft
 
-Gibt die Schriftart der Aufzählung eines Absatzes ohne Vererbung zurück oder legt sie fest. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
+Gibt die Schriftart der Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData Font { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFontData](../../ifontdata)
 * Schnittstelle [IBulletFormat](../../ibulletformat)

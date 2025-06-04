@@ -1,6 +1,6 @@
 ---
 title: ToMathArray
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Met des éléments enfants dans un tableau vertical
 type: docs
 weight: 180
@@ -21,7 +21,7 @@ Nouvelle instance de type [`IMathArray`](../../imatharray)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

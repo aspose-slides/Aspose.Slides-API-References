@@ -1,7 +1,7 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Справка по API Aspose.Slides для .NET
-description: Менеджер слайдов заметок мастера.
+second_title: Aspose.Sildes for .NET API Reference
+description: Менеджер слайдов мастер-заметок.
 type: docs
 weight: 6210
 url: /ru/aspose.slides/imasternotesslidemanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imasternotesslidemanager/
 
 ## Интерфейс IMasterNotesSlideManager
 
-Менеджер слайдов заметок мастера.
+Менеджер слайдов мастер-заметок.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -19,16 +19,16 @@ public interface IMasterNotesSlideManager
 
 | Название | Описание |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Возвращает мастер для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Возвращает мастера для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
-| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Удаляет мастер слайд заметок. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Устанавливает стандартный мастер слайд заметок для связанных слайдов заметок. |
+| [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Удаляет мастер-слайд заметок. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Устанавливает стандартный мастер-слайд заметок для связанного слайда заметок. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

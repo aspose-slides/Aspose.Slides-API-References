@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le montant d'espace après la dernière ligne d'un paragraphe. Lecture seule Single.
+second_title: Aspose.Slides pour la référence API .NET
+description: Retourne la quantité d'espace après la dernière ligne d'un paragraphe. En lecture seule Single.
 type: docs
 weight: 140
 url: /fr/aspose.slides/iparagraphformateffectivedata/spaceafter/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iparagraphformateffectivedata/spaceafter/
 
 ## Propriété IParagraphFormatEffectiveData.SpaceAfter
 
-Renvoie le montant d'espace après la dernière ligne d'un paragraphe. Lecture seule Single.
+Retourne la quantité d'espace après la dernière ligne d'un paragraphe. En lecture seule Single.
 
 ```csharp
 public float SpaceAfter { get; }

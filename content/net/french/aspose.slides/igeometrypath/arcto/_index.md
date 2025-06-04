@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides/igeometrypath/arcto/
 ---
 
-## Méthode IGeometryPath.ArcTo
+## IGeometryPath.ArcTo méthode
 
 Ajoute l'arc spécifié au chemin.
 
@@ -20,9 +20,9 @@ public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
 | width | Single | Largeur du rectangle |
 | heigth | Single | Hauteur du rectangle |
 | startAngle | Single | Angle de départ. |
-| sweepAngle | Single | Angle de balayage |
+| sweepAngle | Single | Angle d'arc/ |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * namespace [Aspose.Slides](../../igeometrypath)

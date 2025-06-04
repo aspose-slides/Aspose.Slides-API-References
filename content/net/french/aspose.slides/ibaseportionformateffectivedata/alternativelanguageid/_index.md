@@ -1,13 +1,13 @@
 ---
 title: AlternativeLanguageId
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'Id d'une langue alternative. Chaîne en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ibaseportionformateffectivedata/alternativelanguageid/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.AlternativeLanguageId
+## IBasePortionFormatEffectiveData.AlternativeLanguageId propriété
 
 Renvoie l'Id d'une langue alternative. Chaîne en lecture seule.
 
@@ -15,7 +15,7 @@ Renvoie l'Id d'une langue alternative. Chaîne en lecture seule.
 public string AlternativeLanguageId { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

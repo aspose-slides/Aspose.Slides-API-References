@@ -1,6 +1,6 @@
 ---
 title: Hidden
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Determina si la diapositiva especificada está oculta durante una presentación de diapositivas. Booleano de lectura/escritura.
 type: docs
 weight: 40
@@ -15,10 +15,10 @@ Determina si la diapositiva especificada está oculta durante una presentación 
 public bool Hidden { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISlide](../../islide)
 * espacio de nombres [Aspose.Slides](../../islide)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 作为适合用在哈希算法和数据结构（如哈希表）中的特定类型的哈希函数。
+description: 作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。
 type: docs
 weight: 130
 url: /zh/aspose.slides.slideshow/slideshowtransition/gethashcode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/slideshowtransition/gethashcode/
 
 ## SlideShowTransition.GetHashCode 方法
 
-作为适合用在哈希算法和数据结构（如哈希表）中的特定类型的哈希函数。
+作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。
 
 ```csharp
 public override int GetHashCode()
@@ -21,9 +21,9 @@ public override int GetHashCode()
 
 ### 备注
 
-重写以使编译器满意。始终返回常量，因为对象是可变的。
+重写以使编译器满意。总是返回常量，因为对象是可变的。
 
-### 另请参阅
+### 参见
 
 * 类 [SlideShowTransition](../../slideshowtransition)
 * 命名空间 [Aspose.Slides.SlideShow](../../slideshowtransition)

@@ -1,13 +1,13 @@
 ---
 title: SelectLocked
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, запрещено ли выделение этой формы. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/igraphicalobjectlock/selectlocked/
 ---
 
-## Свойство IGraphicalObjectLock.SelectLocked
+## IGraphicalObjectLock.SelectLocked свойство
 
 Определяет, запрещено ли выделение этой формы. Читаемое/записываемое логическое значение.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/igraphicalobjectlock/selectlocked/
 public bool SelectLocked { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IGraphicalObjectLock](../../igraphicalobjectlock)
 * пространство имен [Aspose.Slides](../../igraphicalobjectlock)

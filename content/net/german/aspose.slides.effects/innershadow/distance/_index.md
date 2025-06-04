@@ -1,7 +1,7 @@
 ---
 title: Distance
 second_title: Aspose.Slides für .NET API Referenz
-description: Distanz des Schattens. Lesen/Schreiben Double.
+description: Entfernung des Schattens. Lese-/Schreib-Doppel.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/innershadow/distance/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/innershadow/distance/
 
 ## InnerShadow.Distance-Eigenschaft
 
-Distanz des Schattens. Lesen/Schreiben Double.
+Entfernung des Schattens. Lese-/Schreib-Doppel.
 
 ```csharp
 public double Distance { get; set; }

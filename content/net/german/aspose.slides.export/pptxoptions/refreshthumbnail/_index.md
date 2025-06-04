@@ -1,7 +1,7 @@
 ---
 title: RefreshThumbnail
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob das Präsentationsthumbnail aktualisiert wird. Schreib-/Lese-Boolean. Standardwert ist true.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, ob das Präsentationsminiaturbild aktualisiert wird. Lese-/Schreib-Booleans. Der Standardwert ist true.
 type: docs
 weight: 30
 url: /de/aspose.slides.export/pptxoptions/refreshthumbnail/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/pptxoptions/refreshthumbnail/
 
 ## PptxOptions.RefreshThumbnail-Eigenschaft
 
-Gibt an, ob das Präsentationsthumbnail aktualisiert wird. Schreib-/Lese-Boolean. Standardwert ist **true**.
+Gibt an, ob das Präsentationsminiaturbild aktualisiert wird. Lese-/Schreib-Booleans. Der Standardwert ist **true**.
 
 ```csharp
 public bool RefreshThumbnail { get; set; }
@@ -17,9 +17,9 @@ public bool RefreshThumbnail { get; set; }
 
 ### Bemerkungen
 
-Wenn der Optionswert **true** ist, wird das neue Thumbnail generiert.
+Wenn der Optionswert **true** ist, wird das neue Miniaturbild generiert.
 
-Wenn der Optionswert **false** ist, wird das aktuelle Thumbnail unverändert gespeichert.
+Wenn der Optionswert **false** ist, wird das aktuelle Miniaturbild unverändert gespeichert.
 
 ### Beispiele
 

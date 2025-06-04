@@ -1,7 +1,7 @@
 ---
 title: CreateOleTypeLibReference
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt eine neue OLE-Automatisierungs-Typbibliotheksreferenz.
+description: Erstellt eine neue OLE-Automatisierungstypbibliotheksreferenz.
 type: docs
 weight: 10
 url: /de/aspose.slides.vba/ivbareferencefactory/createoletypelibreference/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/ivbareferencefactory/createoletypelibreference/
 
 ## IVbaReferenceFactory.CreateOleTypeLibReference-Methode
 
-Erstellt eine neue OLE-Automatisierungs-Typbibliotheksreferenz.
+Erstellt eine neue OLE-Automatisierungstypbibliotheksreferenz.
 
 ```csharp
 public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string libid)
@@ -18,11 +18,11 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | name | String | Name der VBA-Projektreferenz String |
-| libid | String | Bezeichner einer Automatisierungs-Typbibliothek String |
+| libid | String | Identifier einer Automatisierungstypbibliothek String |
 
 ### Rückgabewert
 
-Neue OLE-Automatisierungs-Typbibliotheksreferenz [`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
+Neue OLE-Automatisierungstypbibliotheksreferenz [`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 
 ### Siehe auch
 

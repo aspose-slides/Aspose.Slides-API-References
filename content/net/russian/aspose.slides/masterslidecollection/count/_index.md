@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/masterslidecollection/count/
 ---
 
-## Свойство MasterSlideCollection.Count
+## MasterSlideCollection.Count свойство
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/masterslidecollection/count/
 public int Count { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [MasterSlideCollection](../../masterslidecollection)
 * пространство имен [Aspose.Slides](../../masterslidecollection)

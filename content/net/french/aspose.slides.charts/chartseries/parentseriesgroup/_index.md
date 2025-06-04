@@ -1,6 +1,6 @@
 ---
 title: ParentSeriesGroup
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: ParentSeriesGroup. Lecture seule IChartSeriesGroup aspose.slides.charts/ichartseriesgroup.
 type: docs
 weight: 290

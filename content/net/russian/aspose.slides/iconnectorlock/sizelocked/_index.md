@@ -1,7 +1,7 @@
 ---
 title: SizeLocked
-second_title: Справка API Aspose.Sildes для .NET
-description: Определяет, запрещено ли изменение размера этой формы. Свойство доступно для чтения и записи, логическое.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, запрещено ли изменение размера этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 110
 url: /ru/aspose.slides/iconnectorlock/sizelocked/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iconnectorlock/sizelocked/
 
 ## IConnectorLock.SizeLocked свойство
 
-Определяет, запрещено ли изменение размера этой формы. Свойство доступно для чтения и записи, логическое.
+Определяет, запрещено ли изменение размера этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool SizeLocked { get; set; }

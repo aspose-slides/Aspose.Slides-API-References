@@ -1,15 +1,15 @@
 ---
 title: TileOffsetY
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или устанавливает вертикальный смещение текстуры от начала фигуры в пунктах. Положительное значение перемещает текстуру вниз, в то время как отрицательное значение перемещает ее вверх. Чтение/запись Single.
+second_title: Справка по API Aspose.Slides для .NET
+description: Возвращает или задает вертикальный сдвиг текстуры от начальной точки формы в пунктах. Положительное значение сдвигает текстуру вниз, в то время как отрицательное значение сдвигает ее вверх. Чтение/запись Single.
 type: docs
 weight: 150
 url: /ru/aspose.slides/picturefillformat/tileoffsety/
 ---
 
-## Свойство PictureFillFormat.TileOffsetY
+## PictureFillFormat.TileOffsetY property
 
-Возвращает или устанавливает вертикальный смещение текстуры от начала фигуры в пунктах. Положительное значение перемещает текстуру вниз, в то время как отрицательное значение перемещает ее вверх. Чтение/запись Single.
+Возвращает или задает вертикальный сдвиг текстуры от начальной точки формы в пунктах. Положительное значение сдвигает текстуру вниз, в то время как отрицательное значение сдвигает ее вверх. Чтение/запись Single.
 
 ```csharp
 public float TileOffsetY { get; set; }
@@ -23,18 +23,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Получает формат заполнения изображения фигуры
+    // Получает формат заливки изображения формы
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Устанавливает режим заполнения изображения в Tile
+    // Устанавливает режим заливки изображения на Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Устанавливает вертикальное смещение текстуры в -50 пунктов
+    // Устанавливает вертикальный сдвиг текстуры на -50 пунктов
     pictureFillFormat.TileOffsetY = -50;
 }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [PictureFillFormat](../../picturefillformat)
 * пространство имен [Aspose.Slides](../../picturefillformat)

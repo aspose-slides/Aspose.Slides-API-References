@@ -19,8 +19,8 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | Nom | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Read-only [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Read-only [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Voir aussi
 

@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceProject
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示对外部VBA项目的引用。
 type: docs
 weight: 11310
@@ -19,9 +19,9 @@ public interface IVbaReferenceProject : IVbaReference
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | 返回 IVbaReference 接口。只读 [`IVbaReference`](../ivbareference)。 |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | 返回IVbaReference接口。只读 [`IVbaReference`](../ivbareference)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IVbaReference](../ivbareference)
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)

@@ -15,10 +15,10 @@ Devuelve el umbral del efecto. Lectura/escritura Single.
 public float Threshold { get; set; }
 ```
 
-### Véase también
+### Ver también
 
-* interfaz [IAlphaBiLevel](../../ialphabilevel)
-* espacio de nombres [Aspose.Slides.Effects](../../ialphabilevel)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAlphaBiLevel](../../ialphabilevel)
+* espacio de nombres [Aspose.Slides.Effects](../../ialphabilevel)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

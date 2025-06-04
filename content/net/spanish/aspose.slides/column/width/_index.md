@@ -15,7 +15,7 @@ Devuelve o establece el ancho de una columna. Lectura/escritura Doble.
 public double Width { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [Column](../../column)
 * espacio de nombres [Aspose.Slides](../../column)

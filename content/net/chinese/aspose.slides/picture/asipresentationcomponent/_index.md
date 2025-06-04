@@ -1,7 +1,7 @@
 ---
 title: AsIPresentationComponent
-second_title: Aspose.Slides for .NET API 参考
-description: 获取基本 IPresentationComponent 接口。只读 IPresentationComponentaspose.slides/ipresentationcomponent。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IPresentationComponent 接口。只读 IPresentationComponent aspose.slides/ipresentationcomponent。
 type: docs
 weight: 10
 url: /zh/aspose.slides/picture/asipresentationcomponent/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/picture/asipresentationcomponent/
 
 ## Picture.AsIPresentationComponent 属性
 
-获取基本 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../ipresentationcomponent)。
+允许获取基本的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../../ipresentationcomponent)。
 
 ```csharp
 public IPresentationComponent AsIPresentationComponent { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IPresentationComponent](../../ipresentationcomponent)
 * 类 [Picture](../../picture)

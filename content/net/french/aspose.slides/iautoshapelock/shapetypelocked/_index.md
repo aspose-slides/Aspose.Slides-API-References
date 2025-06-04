@@ -1,13 +1,13 @@
 ---
 title: ShapeTypeLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Détermine si un changement de type de forme est interdit. Booléen en lecture-écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides/iautoshapelock/shapetypelocked/
 ---
 
-## Propriété IAutoShapeLock.ShapeTypeLocked
+## IAutoShapeLock.ShapeTypeLocked propriété
 
 Détermine si un changement de type de forme est interdit. Booléen en lecture-écriture.
 

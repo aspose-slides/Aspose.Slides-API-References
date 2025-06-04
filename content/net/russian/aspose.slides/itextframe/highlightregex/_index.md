@@ -1,7 +1,7 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Sildes для .NET API Справочник
-description: Выделяет все совпадения регулярного выражения указанным цветом.
+description: Подсвечивает все совпадения регулярного выражения заданным цветом.
 type: docs
 weight: 80
 url: /ru/aspose.slides/itextframe/highlightregex/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/itextframe/highlightregex/
 
 ## ITextFrame.HighlightRegex метод
 
-Выделяет все совпадения регулярного выражения указанным цветом.
+Подсвечивает все совпадения регулярного выражения заданным цветом.
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -17,26 +17,26 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| regex | Regex | Регулярное выражение Regex для получения строк для выделения. |
-| highlightColor | Color | Цвет для выделения текста. |
+| regex | Regex | Регулярное выражение Regex для получения строк для подсветки. |
+| highlightColor | Color | Цвет для подсветки текста. |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий пример кода показывает, как выделить текст в TextFrame с использованием регулярного выражения.
+Следующий образец кода показывает, как подсветить текст в TextFrame, используя регулярное выражение.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// выделение всех слов длиной 10 или более символов
+	// подсветка всех слов с 10 и более символами
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. Также
+### Также смотри
 
 * интерфейс [IFindResultCallback](../../ifindresultcallback)
 * интерфейс [ITextFrame](../../itextframe)

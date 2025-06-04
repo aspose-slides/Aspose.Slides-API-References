@@ -1,7 +1,7 @@
 ---
 title: AggregationType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert den Aggregationstyp der Kategoriewachstum. Wird auf die Kategorie angewendet. Nur zusammen mit Histogramm- oder HistogrammPareto-Serien verwendet.
+description: Stellt den Aggregationstyp der Kategorachsen-Binning dar. Auf Kategorie angewendet. Nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/iaxis/aggregationtype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/aggregationtype/
 
 ## IAxis.AggregationType-Eigenschaft
 
-Repräsentiert den Aggregationstyp der Kategoriewachstum (binning). Wird auf die Kategorie angewendet. Nur zusammen mit Histogramm- oder HistogrammPareto-Serien verwendet.
+Stellt den Aggregationstyp der Kategorachsen (Binning) dar. Auf Kategorie angewendet. Nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
 
 ```csharp
 public AxisAggregationType AggregationType { get; set; }

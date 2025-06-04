@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Slides for .NET API Reference
-description: 表示自定义值类型情况下的系列误差线值。只读 IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示自定义值类型情况下的系列误差条值。只读 IErrorBarsCustomValuesaspose.slides.charts/ierrorbarscustomvalues。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartdatapoint/errorbarscustomvalues/
 
 ## IChartDataPoint.ErrorBarsCustomValues 属性
 
-表示自定义值类型情况下的系列误差线值。只读 [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues)。
+表示自定义值类型情况下的系列误差条值。只读 [`IErrorBarsCustomValues`](../../ierrorbarscustomvalues)。
 
 ```csharp
 public IErrorBarsCustomValues ErrorBarsCustomValues { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IErrorBarsCustomValues](../../ierrorbarscustomvalues)
 * 接口 [IChartDataPoint](../../ichartdatapoint)

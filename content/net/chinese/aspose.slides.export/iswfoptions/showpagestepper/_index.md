@@ -1,7 +1,7 @@
 ---
 title: ShowPageStepper
-second_title: Aspose.Sildes for .NET API 参考
-description: 显示/隐藏页面步骤器。可以在 flashvars 中覆盖。默认值为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 显示/隐藏页面步骤指示器。可以在 flashvars 中覆盖。默认值为 true。
 type: docs
 weight: 120
 url: /zh/aspose.slides.export/iswfoptions/showpagestepper/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/iswfoptions/showpagestepper/
 
 ## ISwfOptions.ShowPageStepper 属性
 
-显示/隐藏页面步骤器。可以在 flashvars 中覆盖。默认值为 true。
+显示/隐藏页面步骤指示器。可以在 flashvars 中覆盖。默认值为 true。
 
 ```csharp
 public bool ShowPageStepper { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISwfOptions](../../iswfoptions)
 * 命名空间 [Aspose.Slides.Export](../../iswfoptions)

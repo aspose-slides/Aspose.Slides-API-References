@@ -1,7 +1,7 @@
 ---
 title: ShowMinorGridLines
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt dar, ob die kleinen Gitterlinien angezeigt werden. Nur lesbarer Boolescher Wert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt dar, ob die Nebenrasterlinien angezeigt werden. Schreibgeschütztes Boolesches.
 type: docs
 weight: 490
 url: /de/aspose.slides.charts/iaxis/showminorgridlines/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iaxis/showminorgridlines/
 
 ## IAxis.ShowMinorGridLines-Eigenschaft
 
-Stellt dar, ob die kleinen Gitterlinien angezeigt werden. Nur lesbarer Boolescher Wert.
+Stellt dar, ob die Nebenrasterlinien angezeigt werden. Schreibgeschütztes Boolesches.
 
 ```csharp
 public bool ShowMinorGridLines { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Namespace [Aspose.Slides.Charts](../../iaxis)

@@ -1,6 +1,6 @@
 ---
 title: InsertAudioFrameCD
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API справочник
 description: Вставить AudioFrame с CD.
 type: docs
 weight: 270
@@ -17,13 +17,13 @@ public IAudioFrame InsertAudioFrameCD(int index, float x, float y, float width, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, начиная с нуля, по которому должно быть вставлено видео. |
-| x | Single | Координата X новой аудиофрейма. |
-| y | Single | Координата Y новой аудиофрейма. |
-| width | Single | Ширина новой аудиофрейма. |
-| height | Single | Высота новой аудиофрейма. |
+| index | Int32 | Индекс на основе нуля, в который должен быть вставлен видеокадр. |
+| x | Single | Координата X нового аудиофрейма. |
+| y | Single | Координата Y нового аудиофрейма. |
+| width | Single | Ширина нового аудиофрейма. |
+| height | Single | Высота нового аудиофрейма. |
 
-### Значение возвращаемого объекта
+### Возвращаемое значение
 
 Созданный объект AudioFrame.
 

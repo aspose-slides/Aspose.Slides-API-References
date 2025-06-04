@@ -1,25 +1,25 @@
 ---
 title: RectangleAlign
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Alineación de rectángulo. Lectura/escritura de RectangleAlignmentaspose.slides/rectanglealignment.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Alineación del rectángulo. Leer/escribir RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 60
 url: /es/aspose.slides.effects/ioutershadow/rectanglealign/
 ---
 
-## Propiedad IOuterShadow.RectangleAlign
+## IOuterShadow.RectangleAlign propiedad
 
-Alineación de rectángulo. Lectura/escritura de [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Alineación del rectángulo. Leer/escribir [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
-* interface [IOuterShadow](../../ioutershadow)
-* namespace [Aspose.Slides.Effects](../../ioutershadow)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IOuterShadow](../../ioutershadow)
+* espacio de nombres [Aspose.Slides.Effects](../../ioutershadow)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

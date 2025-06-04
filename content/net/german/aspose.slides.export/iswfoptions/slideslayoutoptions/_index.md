@@ -7,9 +7,9 @@ weight: 150
 url: /de/aspose.slides.export/iswfoptions/slideslayoutoptions/
 ---
 
-## ISwfOptions.SlidesLayoutOptions Eigenschaft
+## ISwfOptions.SlidesLayoutOptions-Eigenschaft
 
-Ruht oder legt den Modus fest, in dem Folien beim Exportieren einer Präsentation [`ISlidesLayoutOptions`](../../islideslayoutoptions) auf der Seite platziert werden. Diese Eigenschaft unterstützt nicht das Zuweisen von Objekten des Typs `Aspose.Slides.Export.HandoutLayoutingOptions`
+Ruft den Modus ab oder legt ihn fest, in dem Folien beim Exportieren einer Präsentation auf der Seite platziert werden [`ISlidesLayoutOptions`](../../islideslayoutoptions). Diese Eigenschaft unterstützt nicht das Zuweisen von Objekten des Typs `Aspose.Slides.Export.HandoutLayoutingOptions`
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

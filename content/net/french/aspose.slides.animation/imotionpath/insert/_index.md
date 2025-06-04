@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Insérer une nouvelle commande dans le chemin
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/imotionpath/insert/
 ---
 
-## Méthode IMotionPath.Insert
+## IMotionPath.Insert méthode
 
 Insérer une nouvelle commande dans le chemin
 
@@ -18,7 +18,7 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index pour l'insertion de commande Int32 |
+| index | Int32 | Index pour l'insertion de la commande Int32 |
 | type | MotionCommandPathType | Type de commande pour le comportement de l'effet de mouvement d'animation [`MotionCommandPathType`](../../motioncommandpathtype) |
 | pts | PointF[] | Tableau de points PointF[] |
 | ptsType | MotionPathPointsType | Type de points dans le chemin de mouvement d'animation [`MotionPathPointsType`](../../motionpathpointstype) |

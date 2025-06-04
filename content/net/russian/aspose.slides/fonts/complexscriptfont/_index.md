@@ -1,15 +1,15 @@
 ---
 title: ComplexScriptFont
-second_title: Aspose.Sildes для .NET API Reference
-description: Возвращает или устанавливает шрифт для сложных скриптов. Чтение/запись IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает шрифт сложного текста. Чтение/запись IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 10
 url: /ru/aspose.slides/fonts/complexscriptfont/
 ---
 
-## Свойство Fonts.ComplexScriptFont
+## Fonts.ComplexScriptFont свойство
 
-Возвращает или устанавливает шрифт для сложных скриптов. Чтение/запись [`IFontData`](../../ifontdata).
+Возвращает или устанавливает шрифт сложного текста. Чтение/запись [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData ComplexScriptFont { get; set; }

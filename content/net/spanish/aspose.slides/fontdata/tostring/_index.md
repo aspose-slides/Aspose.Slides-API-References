@@ -1,28 +1,28 @@
----
+---  
 title: ToString
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve representación en cadena.
-type: docs
-weight: 60
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Devuelve la representación en cadena.
+type: docs  
+weight: 60  
 url: /es/aspose.slides/fontdata/tostring/
----
+---  
 
-## Método FontData.ToString
+## Método FontData.ToString  
 
-Devuelve representación en cadena.
+Devuelve la representación en cadena.  
 
-```csharp
-public override string ToString()
-```
+```csharp  
+public override string ToString()  
+```  
 
-### Valor de Retorno
+### Valor de retorno  
 
-Representación en cadena.
+Representación en cadena.  
 
-### Véase También
+### Véase también  
 
-* clase [FontData](../../fontdata)
-* espacio de nombres [Aspose.Slides](../../fontdata)
-* ensamblado [Aspose.Slides](../../../)
+* clase [FontData](../../fontdata)  
+* espacio de nombres [Aspose.Slides](../../fontdata)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

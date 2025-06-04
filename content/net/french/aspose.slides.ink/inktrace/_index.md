@@ -19,10 +19,10 @@ public class InkTrace : IInkTrace
 
 | Nom | Description |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Obtient le pinceau pour l'IInkLine [`IInkBrush`](../iinkbrush) Lecture seule. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Obtient les points pour l'IInkLine PointF Lecture seule. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Obtient le pinceau pour le IInkLine [`IInkBrush`](../iinkbrush) en lecture seule. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Obtient les points pour le IInkLine PointF en lecture seule. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IInkTrace](../iinktrace)
 * namespace [Aspose.Slides.Ink](../../aspose.slides.ink)

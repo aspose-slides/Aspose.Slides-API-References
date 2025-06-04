@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sperren von Formen zurück. Nur lesen IPictureFrameLockaspose.slides/ipictureframelock.
+description: Gibt die Sperren von Formen zurück. Nur lesender IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
 weight: 60
 url: /de/aspose.slides/pictureframe/shapelock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pictureframe/shapelock/
 
 ## PictureFrame.ShapeLock-Eigenschaft
 
-Gibt die Sperren der Form zurück. Nur lesen [`IPictureFrameLock`](../../ipictureframelock).
+Gibt die Sperren der Form zurück. Nur lesend [`IPictureFrameLock`](../../ipictureframelock).
 
 ```csharp
 public IPictureFrameLock ShapeLock { get; }

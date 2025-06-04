@@ -1,13 +1,13 @@
 ---
 title: CreateAlphCeiling
-second_title: Documentation de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Crée un effet de plafond alpha.
 type: docs
 weight: 70
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createalphceiling/
 ---
 
-## Méthode IImageTransformOperationFactory.CreateAlphCeiling
+## IImageTransformOperationFactory.CreateAlphCeiling méthode
 
 Crée un effet de plafond alpha.
 
@@ -19,7 +19,7 @@ public IAlphaCeiling CreateAlphCeiling()
 
 Effet de plafond alpha.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAlphaCeiling](../../ialphaceiling)
 * interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

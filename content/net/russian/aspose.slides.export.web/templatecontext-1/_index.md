@@ -1,7 +1,7 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет интерфейс модели объекта для движка шаблонов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет интерфейс модели объекта для шаблонного движка.
 type: docs
 weight: 4480
 url: /ru/aspose.slides.export.web/templatecontext-1/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export.web/templatecontext-1/
 
 ## TemplateContext&lt;TObject&gt; класс
 
-Представляет интерфейс модели объекта для движка шаблонов.
+Представляет интерфейс модели объекта для шаблонного движка.
 
 ```csharp
 public sealed class TemplateContext<TObject>

@@ -1,13 +1,13 @@
 ---
 title: Aspose.Slides.Animation
-second_title: Aspose.Slides para .NET Referencia de API
-description: Contiene clases para trabajar con animaciones en presentaciones de Microsoft PowerPoint.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Contiene clases para trabajar con animación en presentaciones de Microsoft PowerPoint.
 type: docs
 weight: 20
 url: /es/aspose.slides.animation/
 ---
 
-Contiene clases para trabajar con animaciones en presentaciones de Microsoft PowerPoint.
+Contiene clases para trabajar con animación en presentaciones de Microsoft PowerPoint.
 
 ## Clases
 
@@ -17,14 +17,14 @@ Contiene clases para trabajar con animaciones en presentaciones de Microsoft Pow
 | [Behavior](./behavior) | Representa la clase base del comportamiento del efecto. |
 | [BehaviorCollection](./behaviorcollection) | Representa una colección de efectos de comportamiento. |
 | [BehaviorFactory](./behaviorfactory) | Permite crear efectos de animación. |
-| [BehaviorProperty](./behaviorproperty) | Representa tipos de propiedades para el comportamiento de la animación. Sigue la lista de propiedades de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx y https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
+| [BehaviorProperty](./behaviorproperty) | Representa los tipos de propiedades para el comportamiento de animación. Sigue la lista de propiedades de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx y https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
 | [BehaviorPropertyCollection](./behaviorpropertycollection) | Representa propiedades de temporización para el comportamiento del efecto. |
 | [ColorEffect](./coloreffect) | Representa un efecto de color para un comportamiento de animación. |
 | [ColorOffset](./coloroffset) | Representa el desplazamiento de color. |
 | [CommandEffect](./commandeffect) | Representa un efecto de comando para un comportamiento de animación. |
 | [Effect](./effect) | Representa el efecto de animación. |
 | [FilterEffect](./filtereffect) | Representa el efecto de filtro del comportamiento. |
-| [MotionCmdPath](./motioncmdpath) | Representa un comando de un path. |
+| [MotionCmdPath](./motioncmdpath) | Representa un comando de un camino. |
 | [MotionEffect](./motioneffect) | Representa el comportamiento del efecto de movimiento. |
 | [MotionPath](./motionpath) | Representa el camino de movimiento. |
 | [Point](./point) | Representa un punto de animación. |
@@ -46,18 +46,18 @@ Contiene clases para trabajar con animaciones en presentaciones de Microsoft Pow
 | [IBehavior](./ibehavior) | Representa la clase base del comportamiento del efecto. |
 | [IBehaviorCollection](./ibehaviorcollection) | Representa una colección de efectos de comportamiento. |
 | [IBehaviorFactory](./ibehaviorfactory) | Permite crear efectos de animación. |
-| [IBehaviorProperty](./ibehaviorproperty) | Representa tipos de propiedades para el comportamiento de la animación. Sigue la lista de propiedades de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx y https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
+| [IBehaviorProperty](./ibehaviorproperty) | Representa los tipos de propiedades para el comportamiento de animación. Sigue la lista de propiedades de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx y https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
 | [IBehaviorPropertyCollection](./ibehaviorpropertycollection) | Representa propiedades de temporización para el comportamiento del efecto. |
 | [IColorEffect](./icoloreffect) | Representa un efecto de color para un comportamiento de animación. |
 | [IColorOffset](./icoloroffset) | Representa el desplazamiento de color. |
 | [ICommandEffect](./icommandeffect) | Representa un efecto de comando para un comportamiento de animación. |
 | [IEffect](./ieffect) | Representa el efecto de animación. |
 | [IFilterEffect](./ifiltereffect) | Representa el efecto de filtro del comportamiento. |
-| [IMotionCmdPath](./imotioncmdpath) | Representa un comando de un path. |
+| [IMotionCmdPath](./imotioncmdpath) | Representa un comando de un camino. |
 | [IMotionEffect](./imotioneffect) | Representa el comportamiento del efecto de movimiento. |
 | [IMotionPath](./imotionpath) | Representa el camino de movimiento. |
 | [IPoint](./ipoint) | Representa un punto de animación. |
-| [IPointCollection](./ipointcollection) | Representa una colección de porciones. |
+| [IPointCollection](./ipointcollection) | Representa una colección de partes. |
 | [IPropertyEffect](./ipropertyeffect) | Representa el comportamiento del efecto de propiedad. |
 | [IRotationEffect](./irotationeffect) | Representa el comportamiento de rotación del efecto. |
 | [IScaleEffect](./iscaleeffect) | Representa el efecto de escala de animación. |
@@ -75,27 +75,27 @@ Contiene clases para trabajar con animaciones en presentaciones de Microsoft Pow
 | [AfterAnimationType](./afteranimationtype) | Representa el tipo de animación posterior de un efecto de animación. |
 | [AnimateTextType](./animatetexttype) | Representa el tipo de texto animado de un efecto de animación. |
 | [BehaviorAccumulateType](./behavioraccumulatetype) | Representa tipos de acumulación de comportamientos de efecto. |
-| [BehaviorAdditiveType](./behavioradditivetype) | Representa el tipo aditivo para el comportamiento de efecto. |
+| [BehaviorAdditiveType](./behavioradditivetype) | Representa el tipo aditivo para el comportamiento del efecto. |
 | [BuildType](./buildtype) | Determina cómo aparecerá el texto en una forma durante la animación. |
-| [ColorDirection](./colordirection) | Representa la dirección del color para el comportamiento de efecto de color. |
-| [ColorSpace](./colorspace) | Representa el espacio de color para el comportamiento de efecto de color. |
-| [CommandEffectType](./commandeffecttype) | Representa el tipo de efecto de comando para el comportamiento de efecto de comando. |
-| [EffectChartMajorGroupingType](./effectchartmajorgroupingtype) | Representa el tipo de un efecto de animación para el elemento de un gráfico. |
-| [EffectChartMinorGroupingType](./effectchartminorgroupingtype) | Representa el tipo de un efecto de animación para el elemento de un gráfico en serie o categoría. |
+| [ColorDirection](./colordirection) | Representa la dirección del color para el comportamiento del efecto de color. |
+| [ColorSpace](./colorspace) | Representa el espacio de color para el comportamiento del efecto de color. |
+| [CommandEffectType](./commandeffecttype) | Representa el tipo de efecto de comando para el comportamiento del efecto de comando. |
+| [EffectChartMajorGroupingType](./effectchartmajorgroupingtype) | Representa el tipo de un efecto de animación para el elemento del gráfico. |
+| [EffectChartMinorGroupingType](./effectchartminorgroupingtype) | Representa el tipo de un efecto de animación para el elemento del gráfico en serie o categoría. |
 | [EffectFillType](./effectfilltype) | Representa tipos de relleno. |
 | [EffectPresetClassType](./effectpresetclasstype) | Representa tipos de clase de efecto. |
 | [EffectRestartType](./effectrestarttype) | Representa tipos de reinicio para la temporización. |
-| [EffectSubtype](./effectsubtype) | Representa subtipos de efecto de animación. |
-| [EffectTriggerType](./effecttriggertype) | Representa el tipo de disparador de efecto. |
+| [EffectSubtype](./effectsubtype) | Representa subtipos del efecto de animación. |
+| [EffectTriggerType](./effecttriggertype) | Representa el tipo de activador del efecto. |
 | [EffectType](./effecttype) | Representa el tipo de un efecto de animación. |
-| [FilterEffectRevealType](./filtereffectrevealtype) | Representa el tipo de revelación de filtro. |
+| [FilterEffectRevealType](./filtereffectrevealtype) | Representa el tipo de revelación del filtro. |
 | [FilterEffectSubtype](./filtereffectsubtype) | Representa subtipos de efecto de filtro. |
 | [FilterEffectType](./filtereffecttype) | Representa tipos de efecto de filtro. |
-| [MotionCommandPathType](./motioncommandpathtype) | Representa tipos de comandos para el comportamiento de efecto de movimiento de animación. |
-| [MotionOriginType](./motionorigintype) | Especifica a qué se refiere el origen del camino de movimiento. Tal como el diseño de la diapositiva o el padre. |
-| [MotionPathEditMode](./motionpatheditmode) | Especifica cómo se mueve el camino de movimiento cuando la forma objetivo se mueve. |
-| [MotionPathPointsType](./motionpathpointstype) | Representa tipos de puntos en el camino de movimiento de animación. |
+| [MotionCommandPathType](./motioncommandpathtype) | Representa tipos de comando para el comportamiento del efecto de movimiento de animación. |
+| [MotionOriginType](./motionorigintype) | Especifica cuál es el origen del camino de movimiento en relación con. Como el diseño de la diapositiva o el padre. |
+| [MotionPathEditMode](./motionpatheditmode) | Especifica cómo se mueve el camino de movimiento cuando se mueve la forma objetivo. |
+| [MotionPathPointsType](./motionpathpointstype) | Representa tipos de puntos en el camino de movimiento de la animación. |
 | [PropertyCalcModeType](./propertycalcmodetype) | Representa el modo de cálculo para la propiedad de animación. |
 | [PropertyValueType](./propertyvaluetype) | Representa tipos de valores de propiedad. |
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

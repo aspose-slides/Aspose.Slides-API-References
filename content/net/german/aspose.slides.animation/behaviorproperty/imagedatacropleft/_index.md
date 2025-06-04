@@ -1,15 +1,15 @@
 ---
 title: ImageDataCropLeft
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die imageData.cropLeft Eigenschaft dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die imageData.cropLeft-Eigenschaft dar
 type: docs
 weight: 450
 url: /de/aspose.slides.animation/behaviorproperty/imagedatacropleft/
 ---
 
-## BehaviorProperty.ImageDataCropLeft Eigenschaft
+## BehaviorProperty.ImageDataCropLeft-Eigenschaft
 
-Stellt die 'imageData.cropLeft' Eigenschaft dar
+Stellt die 'imageData.cropLeft'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ImageDataCropLeft { get; }

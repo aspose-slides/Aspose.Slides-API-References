@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides/interruptiontokensource/interruptiontokensource/
 ---
 
-## InterruptionTokenSource-Konstruktor
+## InterruptionTokenSource Konstruktor
 
 Erstellt eine neue [`InterruptionTokenSource`](../../interruptiontokensource).
 
@@ -15,7 +15,7 @@ Erstellt eine neue [`InterruptionTokenSource`](../../interruptiontokensource).
 public InterruptionTokenSource()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [InterruptionTokenSource](../../interruptiontokensource)
 * Namespace [Aspose.Slides](../../interruptiontokensource)

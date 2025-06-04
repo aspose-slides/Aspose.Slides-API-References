@@ -1,6 +1,6 @@
 ---
 title: Distance
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Расстояние тени. Чтение/запись Double.
 type: docs
 weight: 20

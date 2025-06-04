@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 IImageTransformOperation 接口。只读 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 IImageTransformOperation 接口。阅读只读 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/ihsl/asiimagetransformoperation/
@@ -17,9 +17,9 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
-### 另请参见
+### 另见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 接口 [IHSL](../../ihsl)

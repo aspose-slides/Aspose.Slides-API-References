@@ -1,7 +1,7 @@
 ---
 title: GlowEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 发光效果。读/写 IGlowaspose.slides.effects/iglow。
+second_title: Aspose.Slides for .NET API Reference
+description: 发光效果。读/写 IGlow aspose.slides.effects/iglow。
 type: docs
 weight: 30
 url: /zh/aspose.slides/effectformat/gloweffect/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/effectformat/gloweffect/
 public IGlow GlowEffect { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IGlow](../../../aspose.slides.effects/iglow)
 * 类 [EffectFormat](../../effectformat)

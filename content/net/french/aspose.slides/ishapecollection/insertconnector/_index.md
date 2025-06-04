@@ -1,7 +1,7 @@
 ---
 title: InsertConnector
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau connecteur, le paramètre à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée un nouveau Connector, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
 type: docs
 weight: 280
 url: /fr/aspose.slides/ishapecollection/insertconnector/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapecollection/insertconnector/
 
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-Crée un nouveau connecteur, le paramètre à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
+Crée un nouveau Connector, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -18,16 +18,16 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro où la valeur doit être insérée. |
+| index | Int32 | L'index basé sur zéro auquel la valeur doit être insérée. |
 | shapeType | ShapeType | Un [`ShapeType`](../../shapetype) de forme. |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| x | Single | La coordonnée X pour un côté gauche du cadre de la forme. |
+| y | Single | La coordonnée Y pour un côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 
 ### Valeur de retour
 
-Objet Connecteur créé.
+Objet Connector créé.
 
 ### Voir aussi
 
@@ -41,7 +41,7 @@ Objet Connecteur créé.
 
 ## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
-Crée un nouveau connecteur et l'insère dans la collection à l'index spécifié.
+Crée un nouveau Connector et l'insère dans la collection à l'index spécifié.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -50,17 +50,17 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro où la valeur doit être insérée. |
+| index | Int32 | L'index basé sur zéro auquel la valeur doit être insérée. |
 | shapeType | ShapeType | Un [`ShapeType`](../../shapetype) de forme. |
-| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| x | Single | La coordonnée X pour un côté gauche du cadre de la forme. |
+| y | Single | La coordonnée Y pour un côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si vrai, la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, style simple, texte centré sera attribué à la nouvelle forme. Si faux, tous les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera réglée à partir du modèle par défaut. Un nom non vide, un style simple, et un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
 ### Valeur de retour
 
-Objet Connecteur créé.
+Objet Connector créé.
 
 ### Voir aussi
 

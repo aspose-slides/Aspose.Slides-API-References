@@ -17,9 +17,9 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | Объект обратного вызова, который управляет сохранением проекта. |
+| linkEmbedController | ILinkEmbedController | Объект обратного вызова, который контролирует сохранение проекта. |
 
-### См. Также
+### См. также
 
 * интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
 * класс [HtmlOptions](../../htmloptions)
@@ -30,13 +30,13 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 ## HtmlOptions() {#constructor}
 
-Создает новый объект HtmlOptions для сохранения в одном HTML файле.
+Создает новый объект HtmlOptions для сохранения в один HTML-файл.
 
 ```csharp
 public HtmlOptions()
 ```
 
-### См. Также
+### См. также
 
 * класс [HtmlOptions](../../htmloptions)
 * пространство имен [Aspose.Slides.Export](../../htmloptions)

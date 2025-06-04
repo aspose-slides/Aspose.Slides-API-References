@@ -1,7 +1,7 @@
 ---
 title: WrapText
-second_title: Aspose.Slildes для .NET API Справка
-description: True, если текст обернут по краям TextFrames. Изменение этого свойства может оказать определенное влияние только на эти части графика DataLabel и DataLabelFormat полная поддержка в PowerPoint 2007/2013. Чтение/запись NullableBoolaspose.slides/../aspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Reference
+description: Истина, если текст завёрнут по краям TextFrames. Изменение этого свойства может оказать определённое влияние только на эти части диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2007/2013. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/icharttextblockformat/wraptext/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/icharttextblockformat/wraptext/
 
 ## IChartTextBlockFormat.WrapText свойство
 
-**True**, если текст обернут по краям TextFrame. Изменение этого свойства может оказать определенное влияние только на эти части графика: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2007/2013). Чтение/запись [`NullableBool`](../../../aspose.slides/nullablebool).
+**Истина**, если текст завёрнут по краям TextFrame. Изменение этого свойства может оказать определённое влияние только на эти части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2007/2013). Чтение/запись [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }
 ```
 
-### Дополнительно
+### См. также
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IChartTextBlockFormat](../../icharttextblockformat)

@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
-second_title: Aspose.Slides for .NET API 参考
-description: 矩阵行之间的垂直间距类型；垂直间距单位可以是以 twips 存储的行或点。默认值：SingleSpacingGap 0
+second_title: Aspose.Slides for .NET API Reference
+description: 矩阵行之间的垂直间距类型；垂直间距单位可以是行或点（以 twips 存储）。默认值：SingleSpacingGap 0
 type: docs
 weight: 110
 url: /zh/aspose.slides.mathtext/mathmatrix/rowgaprule/
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.RowGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * class [MathMatrix](../../mathmatrix)

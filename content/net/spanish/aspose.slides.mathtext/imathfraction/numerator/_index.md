@@ -1,13 +1,13 @@
 ---
 title: Numerator
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Numerador
 type: docs
 weight: 40
 url: /es/aspose.slides.mathtext/imathfraction/numerator/
 ---
 
-## Propiedad IMathFraction.Numerator
+## IMathFraction.Numerator propiedad
 
 Numerador
 
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathElement numerator = mathFraction.Numerator;
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IMathElement](../../imathelement)
 * interfaz [IMathFraction](../../imathfraction)

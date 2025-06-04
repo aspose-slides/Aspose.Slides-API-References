@@ -1,21 +1,21 @@
 ---
 title: ExtrusionColor
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el color de una extrusión. Color de solo lectura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el color de una extrusión. Solo lectura Color.
 type: docs
 weight: 80
 url: /es/aspose.slides/ithreedformateffectivedata/extrusioncolor/
 ---
 
-## IThreeDFormatEffectiveData.ExtrusionColor propiedad
+## IThreeDFormatEffectiveData.ExtrusionColor property
 
-Devuelve el color de una extrusión. Color de solo lectura.
+Devuelve el color de una extrusión. Solo lectura Color.
 
 ```csharp
 public Color ExtrusionColor { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ithreedformateffectivedata)

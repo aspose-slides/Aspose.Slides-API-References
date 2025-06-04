@@ -1,7 +1,7 @@
 ---
 title: IsValid
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果这个数字签名是有效的，并且文档没有被篡改，这个值将为真。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果此数字签名有效且文档未被篡改，则该值为真。只读布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/idigitalsignature/isvalid/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idigitalsignature/isvalid/
 
 ## IDigitalSignature.IsValid 属性
 
-如果这个数字签名是有效的，并且文档没有被篡改，这个值将为真。只读布尔值。
+如果此数字签名有效且文档未被篡改，则该值为真。只读布尔值。
 
 ```csharp
 public bool IsValid { get; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 命名空间 [Aspose.Slides](../../idigitalsignature)

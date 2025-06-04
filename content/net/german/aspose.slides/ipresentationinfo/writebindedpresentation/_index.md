@@ -1,7 +1,7 @@
 ---
 title: WriteBindedPresentation
-second_title: Aspose.Sildes für .NET API Referenz
-description: Schreibt die gebundene Präsentation in einen Stream.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Schreibt eine gebundene Präsentation in einen Stream.
 type: docs
 weight: 90
 url: /de/aspose.slides/ipresentationinfo/writebindedpresentation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationinfo/writebindedpresentation/
 
 ## WriteBindedPresentation(Stream) {#writebindedpresentation}
 
-Schreibt die gebundene Präsentation in einen Stream.
+Schreibt eine gebundene Präsentation in einen Stream.
 
 ```csharp
 public void WriteBindedPresentation(Stream stream)
@@ -29,7 +29,7 @@ public void WriteBindedPresentation(Stream stream)
 
 ## WriteBindedPresentation(string) {#writebindedpresentation_1}
 
-Schreibt die gebundene Präsentation in eine Datei.
+Schreibt eine gebundene Präsentation in eine Datei.
 
 ```csharp
 public void WriteBindedPresentation(string file)

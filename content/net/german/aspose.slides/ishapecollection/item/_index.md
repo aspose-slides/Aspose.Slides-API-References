@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält das Element am angegebenen Index. Nur-lesend IShape aspose.slides/ishape.
+description: Gibt das Element am angegebenen Index zurück. Nur lesbare IShapeaspose.slides/ishape.
 type: docs
 weight: 10
 url: /de/aspose.slides/ishapecollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/item/
 
 ## IShapeCollection-Indexer
 
-Erhält das Element am angegebenen Index. Nur-lesend [`IShape`](../../ishape).
+Gibt das Element am angegebenen Index zurück. Nur lesbar [`IShape`](../../ishape).
 
 ```csharp
 public IShape this[int index] { get; }

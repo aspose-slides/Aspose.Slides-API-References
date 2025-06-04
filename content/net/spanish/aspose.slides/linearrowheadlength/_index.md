@@ -1,6 +1,6 @@
 ---
 title: LineArrowheadLength
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Representa la longitud de una punta de flecha.
 type: docs
 weight: 7490
@@ -24,7 +24,7 @@ public enum LineArrowheadLength : sbyte
 | Medium | `1` |  |
 | Long | `2` |  |
 
-### Véase también
+### Ver También
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

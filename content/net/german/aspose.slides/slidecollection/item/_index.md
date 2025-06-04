@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Element am angegebenen Index zurück. Nur-Lese Slideaspose.slides/slide.
+description: Holt das Element am angegebenen Index. Nur-lesbare Slideaspose.slides/slide.
 type: docs
 weight: 30
 url: /de/aspose.slides/slidecollection/item/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/slidecollection/item/
 
 ## SlideCollection-Indexer
 
-Gibt das Element am angegebenen Index zurück. Nur-Lese [`Slide`](../../slide).
+Holt das Element am angegebenen Index. Nur-lesbare [`Slide`](../../slide).
 
 ```csharp
 public ISlide this[int index] { get; }
 ```
 
-### Weitere Informationen
+### Siehe auch
 
 * Schnittstelle [ISlide](../../islide)
 * Klasse [SlideCollection](../../slidecollection)

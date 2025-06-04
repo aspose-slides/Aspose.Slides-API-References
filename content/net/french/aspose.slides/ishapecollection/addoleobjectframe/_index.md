@@ -1,6 +1,6 @@
 ---
 title: AddOleObjectFrame
-second_title: Aspose.Slides pour la Référence API .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute un nouvel objet OLE à la fin d'une collection.
 type: docs
 weight: 120
@@ -24,11 +24,11 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | height | Single | Hauteur d'un nouveau cadre OLE. |
 | dataInfo | IOleEmbeddedDataInfo | Informations sur les données intégrées [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet OLE créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOleObjectFrame](../../ioleobjectframe)
 * interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
@@ -54,13 +54,13 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | width | Single | Largeur d'un nouveau cadre OLE. |
 | height | Single | Hauteur d'un nouveau cadre OLE. |
 | className | String | Nom d'une classe OLE. |
-| path | String | chemin vers le fichier lié. |
+| path | String | Chemin vers le fichier lié. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet OLE créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOleObjectFrame](../../ioleobjectframe)
 * interface [IShapeCollection](../../ishapecollection)

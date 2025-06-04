@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 OLE 自动化类型库引用。
 type: docs
 weight: 11300
@@ -20,9 +20,9 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 | 名称 | 描述 |
 | --- | --- |
 | [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | 返回 IVbaReference 接口。只读 [`IVbaReference`](../ivbareference)。 |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示自动化类型库的标识符。可读写字符串。 |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示自动化类型库的标识符。读/写字符串。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IVbaReference](../ivbareference)
 * 命名空间 [Aspose.Slides.Vba](../../aspose.slides.vba)

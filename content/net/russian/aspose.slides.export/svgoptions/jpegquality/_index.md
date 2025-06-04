@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/svgoptions/jpegquality/
 public int JpegQuality { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)

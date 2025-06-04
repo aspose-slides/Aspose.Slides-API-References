@@ -1,6 +1,6 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 不可变对象，包含有效的效果样式属性。
 type: docs
 weight: 10890
@@ -24,9 +24,9 @@ public interface IEffectStyleEffectiveData
 
 ### 备注
 
-此接口用作 [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) 的一部分。
+该接口作为 [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) 的一部分使用。
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

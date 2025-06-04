@@ -1,24 +1,24 @@
 ---
 title: PositionMove
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Determina si se permite mover esta forma. Booleano de lectura/escritura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 70
 url: /es/aspose.slides/iconnectorlock/positionmove/
 ---
 
-## Propiedad IConnectorLock.PositionMove
+## IConnectorLock.PositionMove propiedad
 
-Determina si se permite mover esta forma. Booleano de lectura/escritura.
+Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
 
 ```csharp
 public bool PositionMove { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IConnectorLock](../../iconnectorlock)
 * espacio de nombres [Aspose.Slides](../../iconnectorlock)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

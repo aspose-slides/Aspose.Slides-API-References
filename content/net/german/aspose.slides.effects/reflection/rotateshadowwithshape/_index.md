@@ -1,7 +1,7 @@
 ---
 title: RotateShadowWithShape
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Reflexion mit der Form rotieren soll, wenn die Form rotiert wird. Lese-/Schreibbares Boolean.
+description: Gibt an, ob die Reflexion sich mit der Form drehen sollte, wenn die Form gedreht wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 80
 url: /de/aspose.slides.effects/reflection/rotateshadowwithshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/reflection/rotateshadowwithshape/
 
 ## Reflection.RotateShadowWithShape-Eigenschaft
 
-Gibt an, ob die Reflexion mit der Form rotieren soll, wenn die Form rotiert wird. Lese-/Schreibbares Boolean.
+Gibt an, ob die Reflexion sich mit der Form drehen sollte, wenn die Form gedreht wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }

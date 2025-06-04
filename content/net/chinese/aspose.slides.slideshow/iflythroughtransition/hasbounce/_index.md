@@ -1,7 +1,7 @@
 ---
 title: HasBounce
-second_title: Aspose.Slides for .NET API 参考
-description: 指定在过渡期间演示文稿幻灯片的移动包括一个弹跳。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定过渡期间演示文稿幻灯片的移动包括弹跳。可读写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.slideshow/iflythroughtransition/hasbounce/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/iflythroughtransition/hasbounce/
 
 ## IFlyThroughTransition.HasBounce 属性
 
-指定在过渡期间演示文稿幻灯片的移动包括一个弹跳。可读/可写布尔值。
+指定过渡期间演示文稿幻灯片的移动包括弹跳。可读写布尔值。
 
 ```csharp
 public bool HasBounce { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IFlyThroughTransition](../../iflythroughtransition)
 * 命名空间 [Aspose.Slides.SlideShow](../../iflythroughtransition)

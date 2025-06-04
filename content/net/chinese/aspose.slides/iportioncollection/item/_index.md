@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的元素。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iportioncollection/item/
 public IPortion this[int index] { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IPortion](../../iportion)
 * 接口 [IPortionCollection](../../iportioncollection)

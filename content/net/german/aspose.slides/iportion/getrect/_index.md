@@ -1,7 +1,7 @@
 ---
 title: GetRect
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhalten Sie die Koordinaten des Rechtecks, das die Portion umschließt. Das Rechteck umfasst alle Textzeilen in der Portion, einschließlich leerer.
+description: Erhalte die Koordinaten des Rechtecks, das den Abschnitt umschließt. Das Rechteck umfasst alle Textzeilen im Abschnitt, einschließlich leerer Zeilen.
 type: docs
 weight: 70
 url: /de/aspose.slides/iportion/getrect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportion/getrect/
 
 ## IPortion.GetRect-Methode
 
-Erhalten Sie die Koordinaten des Rechtecks, das die Portion umschließt. Das Rechteck umfasst alle Textzeilen in der Portion, einschließlich leerer.
+Erhalte die Koordinaten des Rechtecks, das den Abschnitt umschließt. Das Rechteck umfasst alle Textzeilen im Abschnitt, einschließlich leerer Zeilen.
 
 ```csharp
 public RectangleF GetRect()
@@ -17,7 +17,7 @@ public RectangleF GetRect()
 
 ### Rückgabewert
 
-Rechteck, das die Portion umschließt RectangleF
+Rechteck, das den Abschnitt umschließt RectangleF
 
 ### Beispiele
 

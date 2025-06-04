@@ -1,7 +1,7 @@
 ---
 title: ProofDisabled
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定文本是否不应被校对。没有应用继承。可读/可写 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定文本是否不应经过校对。未应用继承。可读/可写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 200
 url: /zh/aspose.slides/baseportionformat/proofdisabled/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/proofdisabled/
 
 ## BasePortionFormat.ProofDisabled 属性
 
-确定文本是否不应被校对。没有应用继承。可读/可写 [`NullableBool`](../../nullablebool)。
+确定文本是否不应经过校对。未应用继承。可读/可写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool ProofDisabled { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 枚举 [NullableBool](../../nullablebool)
 * 类 [BasePortionFormat](../../baseportionformat)

@@ -1,6 +1,6 @@
 ---
 title: Position
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Position de la ligne de barre. Par défaut  Haut
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public MathTopBotPositions Position { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

@@ -1,21 +1,21 @@
 ---
 title: TickLabelPosition
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Представляет положение меток отметок на заданной оси. Чтение/запись TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет положение меток делений на указанной оси. Чтение/запись TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
 type: docs
 weight: 510
 url: /ru/aspose.slides.charts/axis/ticklabelposition/
 ---
 
-## Свойство Axis.TickLabelPosition
+## Axis.TickLabelPosition свойство
 
-Представляет положение меток отметок на заданной оси. Чтение/запись [`TickLabelPositionType`](../../ticklabelpositiontype).
+Представляет положение меток делений на указанной оси. Чтение/запись [`TickLabelPositionType`](../../ticklabelpositiontype).
 
 ```csharp
 public TickLabelPositionType TickLabelPosition { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [TickLabelPositionType](../../ticklabelpositiontype)
 * class [Axis](../../axis)

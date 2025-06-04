@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Obtient le groupe de séries par série.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartseriesgroupcollection/item/
 ---
 
-## Indexeur IChartSeriesGroupCollection (1 sur 2)
+## IChartSeriesGroupCollection indexer (1 sur 2)
 
 Obtient le groupe de séries par série.
 
@@ -25,7 +25,7 @@ public IChartSeriesGroup this[IChartSeries ofSeries] { get; }
 
 ---
 
-## Indexeur IChartSeriesGroupCollection (2 sur 2)
+## IChartSeriesGroupCollection indexer (2 sur 2)
 
 Obtient le groupe de séries par index.
 

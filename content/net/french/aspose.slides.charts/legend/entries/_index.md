@@ -1,7 +1,7 @@
 ---
 title: Entries
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les entrées de légende. Collection ILegendEntryCollection en lecture seule aspose.slides.charts/ilegendentrycollection.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Obtient les entrées de légende. Collection ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/legend/entries/
@@ -15,7 +15,7 @@ Obtient les entrées de légende. Collection [`ILegendEntryCollection`](../../il
 public ILegendEntryCollection Entries { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILegendEntryCollection](../../ilegendentrycollection)
 * classe [Legend](../../legend)

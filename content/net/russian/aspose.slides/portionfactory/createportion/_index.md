@@ -1,7 +1,7 @@
 ---
 title: CreatePortion
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает пустую текстовую порцию.
+second_title: Справка по API Aspose.Slides для .NET
+description: Создает пустую текстовую часть.
 type: docs
 weight: 20
 url: /ru/aspose.slides/portionfactory/createportion/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/portionfactory/createportion/
 
 ## CreatePortion() {#createportion}
 
-Создает пустую текстовую порцию.
+Создает пустую текстовую часть.
 
 ```csharp
 public IPortion CreatePortion()
@@ -17,9 +17,9 @@ public IPortion CreatePortion()
 
 ### Возвращаемое значение
 
-Порция.
+Часть.
 
-### См. Также
+### См. также
 
 * интерфейс [IPortion](../../iportion)
 * класс [PortionFactory](../../portionfactory)
@@ -30,7 +30,7 @@ public IPortion CreatePortion()
 
 ## CreatePortion(string) {#createportion_2}
 
-Создает текстовую порцию из указанной строки.
+Создает текстовую часть из указанной строки.
 
 ```csharp
 public IPortion CreatePortion(string str)
@@ -42,9 +42,9 @@ public IPortion CreatePortion(string str)
 
 ### Возвращаемое значение
 
-Порция.
+Часть.
 
-### См. Также
+### См. также
 
 * интерфейс [IPortion](../../iportion)
 * класс [PortionFactory](../../portionfactory)
@@ -55,7 +55,7 @@ public IPortion CreatePortion(string str)
 
 ## CreatePortion(IPortion) {#createportion_1}
 
-Создает порцию, используя данные указанной порции.
+Создает часть, используя данные указанной части.
 
 ```csharp
 public IPortion CreatePortion(IPortion portion)
@@ -63,13 +63,13 @@ public IPortion CreatePortion(IPortion portion)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| portion | IPortion | Порция для использования. |
+| portion | IPortion | Часть для использования. |
 
 ### Возвращаемое значение
 
-Порция.
+Часть.
 
-### См. Также
+### См. также
 
 * интерфейс [IPortion](../../iportion)
 * класс [PortionFactory](../../portionfactory)

@@ -1,6 +1,6 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将外部工作簿设置为图表的数据源。图表数据将从目标工作簿更新。
 type: docs
 weight: 110
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 另请参阅
+### 另见
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)
@@ -56,7 +56,7 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | workbookPath | String | 目标工作簿的路径 |
-| updateChartData | Boolean | 如果值为 false，则只会更新工作簿路径。图表数据不会从目标工作簿加载和更新。可以在目标工作簿不存在或不可用时使用。如果值为 true，图表数据将从目标工作簿更新。 |
+| updateChartData | Boolean | 如果值为 false，则仅更新工作簿路径。图表数据不会从目标工作簿加载和更新。当目标工作簿不存在或不可用时可以使用。如果值为 true，则图表数据将从目标工作簿更新。 |
 
 ### 异常
 
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### 另请参阅
+### 另见
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)

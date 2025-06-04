@@ -1,6 +1,6 @@
 ---
 title: AsIZoomObject
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API Aspose.Slides para .NET
 description: Devuelve la interfaz IZoomObject.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Devuelve la interfaz IZoomObject.
 public IZoomObject AsIZoomObject { get; }
 ```
 
-### Comentarios
+### Notas
 
 Para compatibilidad con COM.
 
-### Véase también
+### Ver también
 
 * interfaz [IZoomObject](../../izoomobject)
 * interfaz [ISectionZoomFrame](../../isectionzoomframe)

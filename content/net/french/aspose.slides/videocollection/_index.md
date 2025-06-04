@@ -1,6 +1,6 @@
 ---
 title: VideoCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Représente une collection d'objets Video.
 type: docs
 weight: 11400
@@ -19,22 +19,22 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Renvoie le nombre de fichiers vidéo dans la collection. En lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). En lecture seule Boolean. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Retourne le nombre de fichiers vidéo dans la collection. En lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). En lecture seule Boolean. |
 | [Item](../../aspose.slides/videocollection/item) { get; } | Obtient l'élément à l'index spécifié. En lecture seule [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Renvoie une racine de synchronisation. En lecture seule Object. |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Retourne une racine de synchronisation. En lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Crée et ajoute une vidéo à une présentation à partir d'un tableau d'octets. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Ajoute une copie d'un fichier vidéo d'une autre présentation. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Ajoute une copie d'un fichier vidéo provenant d'une autre présentation. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Crée et ajoute une vidéo à une présentation à partir d'un flux. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Copie les vidéos dans le tableau spécifié en commençant par l'index spécifié. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Copie les vidéos dans le tableau spécifié en commençant à partir de l'index spécifié. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Presentation](../presentation)

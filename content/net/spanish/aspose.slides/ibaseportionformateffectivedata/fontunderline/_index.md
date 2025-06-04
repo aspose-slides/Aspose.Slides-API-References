@@ -1,6 +1,6 @@
 ---
 title: FontUnderline
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de API de .NET
 description: Devuelve el tipo de subrayado de texto. Solo lectura TextUnderlineTypeaspose.slides/textunderlinetype.
 type: docs
 weight: 100
@@ -15,11 +15,11 @@ Devuelve el tipo de subrayado de texto. Solo lectura [`TextUnderlineType`](../..
 public TextUnderlineType FontUnderline { get; }
 ```
 
-### Ver También
+### Vea también
 
 * enum [TextUnderlineType](../../textunderlinetype)
-* interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
-* namespace [Aspose.Slides](../../ibaseportionformateffectivedata)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* espacio de nombres [Aspose.Slides](../../ibaseportionformateffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

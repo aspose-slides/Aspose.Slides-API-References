@@ -1,7 +1,7 @@
 ---
 title: Brush
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält den Pinsel für die IInkLine IInkBrushaspose.slides/iinkbrush Nur lesbar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ruft den Brush für den IInkLine IInkBrushaspose.slides.ink/iinkbrush Nur-Lese.
 type: docs
 weight: 10
 url: /de/aspose.slides.ink/inktrace/brush/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.ink/inktrace/brush/
 
 ## InkTrace.Brush-Eigenschaft
 
-Erhält den Pinsel für die IInkLine [`IInkBrush`](../../iinkbrush) Nur lesbar.
+Ruft den Brush für den IInkLine [`IInkBrush`](../../iinkbrush) Nur-Lese.
 
 ```csharp
 public IInkBrush Brush { get; }
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IInkBrush](../../iinkbrush)
 * Klasse [InkTrace](../../inktrace)

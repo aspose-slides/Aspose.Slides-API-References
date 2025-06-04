@@ -1,13 +1,13 @@
 ---
 title: SplitByHeight
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Divise la cellule par hauteur.
 type: docs
 weight: 260
 url: /fr/aspose.slides/cell/splitbyheight/
 ---
 
-## Méthode Cell.SplitByHeight
+## Cell.SplitByHeight méthode
 
 Divise la cellule par hauteur.
 
@@ -17,9 +17,9 @@ public void SplitByHeight(double height)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| height | Double | Hauteur d'une rangée. |
+| height | Double | Hauteur d'une ligne. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Cell](../../cell)
 * espace de noms [Aspose.Slides](../../cell)

@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das ISlideComponent-Interface zurück. Nur-lesbares ISlideComponentaspose.slides/islidecomponent.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die ISlideComponent-Schnittstelle zurück. Nur-Lese ISlideComponent aspose.slides/islidecomponent.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ithemeable/asislidecomponent/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ithemeable/asislidecomponent/
 
 ## IThemeable.AsISlideComponent-Eigenschaft
 
-Gibt das ISlideComponent-Interface zurück. Nur-lesbare [`ISlideComponent`](../../../aspose.slides/islidecomponent).
+Gibt die ISlideComponent-Schnittstelle zurück. Nur-Lese [`ISlideComponent`](../../../aspose.slides/islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

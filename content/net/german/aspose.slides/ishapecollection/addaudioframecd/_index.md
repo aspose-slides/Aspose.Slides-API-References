@@ -24,7 +24,7 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 
 ### Rückgabewert
 
-Erstellt ein AudioFrame-Objekt.
+Erstelltes AudioFrame-Objekt.
 
 ### Siehe auch
 

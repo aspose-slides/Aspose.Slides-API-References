@@ -1,7 +1,7 @@
 ---
 title: FlipV
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si un cadre est retourné verticalement. Lecture seule NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes pour l'API .NET Référence
+description: Détermine si un cadre est retourné verticalement. NullableBool en lecture seule aspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /fr/aspose.slides/shapeframe/flipv/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapeframe/flipv/
 
 ## Propriété ShapeFrame.FlipV
 
-Détermine si un cadre est retourné verticalement. Lecture seule [`NullableBool`](../../nullablebool).
+Détermine si un cadre est retourné verticalement. En lecture seule [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipV { get; }

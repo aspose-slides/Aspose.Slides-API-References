@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取或设置缩放对象的图像类型。可读写 ZoomImageTypeaspose.slides/zoomimagetype。默认值为 Preview
+description: 获取或设置缩放对象的图像类型。可读写 ZoomImageTypeaspose.slides/zoomimagetype。默认值为预览
 type: docs
 weight: 20
 url: /zh/aspose.slides/izoomobject/imagetype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/izoomobject/imagetype/
 
 ## IZoomObject.ImageType 属性
 
-获取或设置缩放对象的图像类型。可读写 [`ZoomImageType`](../../zoomimagetype)。默认值：Preview
+获取或设置缩放对象的图像类型。可读写 [`ZoomImageType`](../../zoomimagetype)。默认值：预览
 
 ```csharp
 public ZoomImageType ImageType { get; set; }
@@ -21,7 +21,7 @@ public ZoomImageType ImageType { get; set; }
 
 ### 示例
 
-此示例演示如何将图像类型更改为预览值。在这种情况下，Zoom对象的当前图像将更改为幻灯片图像：
+本示例演示将图像类型更改为预览值。在此情况下，缩放对象的当前图像更改为幻灯片图像：
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * enum [ZoomImageType](../../zoomimagetype)
 * interface [IZoomObject](../../izoomobject)

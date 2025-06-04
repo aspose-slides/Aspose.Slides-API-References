@@ -1,7 +1,7 @@
 ---
 title: BackgroundType
-second_title: Aspose.Slides pour .NET Référence API
-description: Définit la source de remplissage d'arrière-plan de la diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit la source de remplissage de l'arrière-plan de la diapositive.
 type: docs
 weight: 860
 url: /fr/aspose.slides/backgroundtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/backgroundtype/
 
 ## Énumération BackgroundType
 
-Définit la source de remplissage d'arrière-plan de la diapositive.
+Définit la source de remplissage de l'arrière-plan de la diapositive.
 
 ```csharp
 public enum BackgroundType : sbyte
@@ -23,7 +23,7 @@ public enum BackgroundType : sbyte
 | Themed | `0` |  |
 | OwnBackground | `1` |  |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

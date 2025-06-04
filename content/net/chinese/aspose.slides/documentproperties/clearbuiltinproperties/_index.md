@@ -1,6 +1,6 @@
 ---
 title: ClearBuiltInProperties
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 清除并设置所有内置属性的默认值。
 type: docs
 weight: 370
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/documentproperties/clearbuiltinproperties/
 public void ClearBuiltInProperties()
 ```
 
-### 另请参阅
+### 另见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

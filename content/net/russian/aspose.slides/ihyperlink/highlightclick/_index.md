@@ -1,21 +1,21 @@
 ---
 title: HighlightClick
-second_title: Aspose.Slides для .NET API Reference
-description: Определяет, следует ли выделять гиперссылку при нажатии. Доступно для чтения/записи Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, должен ли гиперссылка быть выделена при нажатии. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ihyperlink/highlightclick/
 ---
 
-## IHyperlink.HighlightClick свойство
+## Свойство IHyperlink.HighlightClick
 
-Определяет, следует ли выделять гиперссылку при нажатии. Доступно для чтения/записи Boolean.
+Определяет, должен ли гиперссылка быть выделена при нажатии. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool HighlightClick { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IHyperlink](../../ihyperlink)
 * пространство имен [Aspose.Slides](../../ihyperlink)

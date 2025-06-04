@@ -1,21 +1,21 @@
 ---
 title: DateTime13
-second_title: Aspose.Slides для .NET API Справка
-description: Текущая дата и время в тринадцатом предопределенном формате hhmmss AM/PM для английского. Поле только для чтения FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Текущая дата и время в тринадцатом предопределенном формате hhmmss AM/PM для английского языка. Поле только для чтения FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 70
 url: /ru/aspose.slides/fieldtype/datetime13/
 ---
 
-## Свойство FieldType.DateTime13
+## FieldType.DateTime13 свойство
 
-Текущая дата и время в тринадцатом предопределенном формате (hh:mm:ss AM/PM для английского). Поле только для чтения [`FieldType`](../../fieldtype).
+Текущая дата и время в тринадцатом предопределенном формате (hh:mm:ss AM/PM для английского языка). Только для чтения [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime13 { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)

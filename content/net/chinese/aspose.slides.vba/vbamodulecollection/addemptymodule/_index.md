@@ -15,13 +15,13 @@ url: /zh/aspose.slides.vba/vbamodulecollection/addemptymodule/
 public IVbaModule AddEmptyModule(string name)
 ```
 
-| 参数   | 类型     | 描述               |
-| ------ | -------- | ------------------ |
-| name   | String   | 模块名称           |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| name | String | 模块的名称 |
 
 ### 返回值
 
-添加的模块。
+已添加的模块。
 
 ### 另请参见
 

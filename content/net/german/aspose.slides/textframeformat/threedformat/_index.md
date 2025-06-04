@@ -1,15 +1,15 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das ThreeDFormat-Objekt zurück, das die 3D-Effekteigenschaften für einen Text darstellt. Nur lesbar IThreeDFormataspose.slides/ithreedformat.
+second_title: Aspose.Slid es für .NET API Referenz
+description: Gibt das ThreeDFormat-Objekt zurück, das die 3D-Effekt-Eigenschaften für einen Text darstellt. Nur lesbar IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140
 url: /de/aspose.slides/textframeformat/threedformat/
 ---
 
-## TextFrameFormat.ThreeDFormat-Eigenschaft
+## TextFrameFormat.ThreeDFormat Eigenschaft
 
-Gibt das ThreeDFormat-Objekt zurück, das die 3D-Effekteigenschaften für einen Text darstellt. Nur lesbar [`IThreeDFormat`](../../ithreedformat).
+Gibt das ThreeDFormat-Objekt zurück, das die 3D-Effekt-Eigenschaften für einen Text darstellt. Nur lesbar [`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }
@@ -25,36 +25,36 @@ using (Presentation pres = new Presentation())
 
     ITextFrame textFrame = autoShape.TextFrame;
 
-    textFrame.Text = "Aspose.Slide Test Text";
+    textFrame.Text = "Aspose.Slide Testtext";
 
-    // Texttransformation setzen
+    // Setzen Sie die Texttransformation
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUpPour;
 
-    // Extrusion setzen
+    // Setzen Sie die Extrusion
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionColor.Color = Color.Orange;
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 6;
 
-    // Kontur setzen
+    // Setzen Sie den Kontur
     textFrame.TextFrameFormat.ThreeDFormat.ContourColor.Color = Color.DarkRed;
     textFrame.TextFrameFormat.ThreeDFormat.ContourWidth = 1.5;
 
-    // Tiefe setzen
+    // Setzen Sie die Tiefe
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
 
-    // Material setzen
+    // Setzen Sie das Material
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
 
-    // Beleuchtung setzen
+    // Setzen Sie die Beleuchtung
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
 
-    // Kameratyp setzen
+    // Setzen Sie den Kameratyp
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IThreeDFormat](../../ithreedformat)
 * class [TextFrameFormat](../../textframeformat)

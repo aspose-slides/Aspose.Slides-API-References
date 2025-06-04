@@ -1,6 +1,6 @@
 ---
 title: SplitByHeight
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Divide la celda por altura.
 type: docs
 weight: 260
@@ -19,10 +19,10 @@ public void SplitByHeight(double height)
 | --- | --- | --- |
 | height | Double | Altura de una fila. |
 
-### Véase también
+### Ver También
 
 * clase [Cell](../../cell)
 * espacio de nombres [Aspose.Slides](../../cell)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

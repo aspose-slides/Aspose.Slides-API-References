@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 将 ICollection 的元素复制到一个 Array，从特定的 Array 索引开始。
+description: 将 ICollection 的元素复制到从特定数组索引开始的数组中。
 type: docs
 weight: 70
 url: /zh/aspose.slides/portioncollection/copyto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/portioncollection/copyto/
 
 ## PortionCollection.CopyTo 方法
 
-将 ICollection 的元素复制到一个 Array，从特定的 Array 索引开始。
+将 ICollection 的元素复制到数组中，从特定的数组索引开始。
 
 ```csharp
 public void CopyTo(IPortion[] array, int arrayIndex)
@@ -17,7 +17,7 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| array | IPortion[] | 一维 Array，作为从 ICollection 中复制的元素的目的地。Array 必须具有零基索引。 |
+| array | IPortion[] | 目标数组，是从 ICollection 复制过来的元素。该数组必须具有零基索引。 |
 | arrayIndex | Int32 | 在 *array* 中开始复制的零基索引。 |
 
 ### 异常

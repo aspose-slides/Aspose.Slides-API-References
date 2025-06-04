@@ -1,13 +1,13 @@
 ---
 title: InsertClone
-second_title: Références de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Insère une copie d'une forme spécifiée à une position spécifiée de la collection.
 type: docs
 weight: 320
 url: /fr/aspose.slides/shapecollection/insertclone/
 ---
 
-## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
+## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
 Insère une copie d'une forme spécifiée à une position spécifiée de la collection.
 
@@ -25,11 +25,11 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 | width | Single | Largeur de la nouvelle forme. |
 | height | Single | Hauteur de la nouvelle forme. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Forme insérée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShape](../../ishape)
 * class [ShapeCollection](../../shapecollection)
@@ -38,7 +38,7 @@ Forme insérée.
 
 ---
 
-## InsertClone(int, IShape, float, float) {#insertclone_1}
+## InsertClone(int, IShape, float, float) {#insertclone_1}
 
 Insère une copie d'une forme spécifiée à une position spécifiée de la collection. La largeur et la hauteur de la nouvelle forme sont égales à la largeur et à la hauteur de la *sourceShape*.
 
@@ -53,11 +53,11 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 | x | Single | Coordonnée X de la nouvelle forme. |
 | y | Single | Coordonnée Y de la nouvelle forme. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Forme insérée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShape](../../ishape)
 * class [ShapeCollection](../../shapecollection)
@@ -66,9 +66,9 @@ Forme insérée.
 
 ---
 
-## InsertClone(int, IShape) {#insertclone}
+## InsertClone(int, IShape) {#insertclone}
 
-Insère une copie d'une forme spécifiée à une position spécifiée de la collection. Les coordonnées X, Y, la largeur et la hauteur de la nouvelle forme sont égales à celles de la *sourceShape*.
+Insère une copie d'une forme spécifiée à une position spécifiée de la collection. Les coordonnées X, Y, la largeur et la hauteur de la nouvelle forme sont égales aux coordonnées X, Y, à la largeur et à la hauteur de la *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)
@@ -79,11 +79,11 @@ public IShape InsertClone(int index, IShape sourceShape)
 | index | Int32 | Index de la nouvelle forme. |
 | sourceShape | IShape | Forme à cloner. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Forme insérée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShape](../../ishape)
 * class [ShapeCollection](../../shapecollection)

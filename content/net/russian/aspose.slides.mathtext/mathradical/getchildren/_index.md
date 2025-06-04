@@ -1,6 +1,6 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Получить дочерние элементы
 type: docs
 weight: 50

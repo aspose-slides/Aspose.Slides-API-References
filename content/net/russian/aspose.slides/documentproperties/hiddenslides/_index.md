@@ -1,7 +1,7 @@
 ---
 title: HiddenSlides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество скрытых слайдов в документе презентации. Доступ к чтению только Int32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает количество скрытых слайдов в документе презентации. Только для чтения Int32.
 type: docs
 weight: 130
 url: /ru/aspose.slides/documentproperties/hiddenslides/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/documentproperties/hiddenslides/
 
 ## DocumentProperties.HiddenSlides свойство
 
-Возвращает количество скрытых слайдов в документе презентации. Доступ к чтению только Int32.
+Возвращает количество скрытых слайдов в документе презентации. Только для чтения Int32.
 
 ```csharp
 public int HiddenSlides { get; }

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt effektive Daten mit den angewendeten Erben.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält effektive Daten mit der angewandten Vererbung.
 type: docs
 weight: 10
 url: /de/aspose.slides/iaccessiblepviobject-1/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iaccessiblepviobject-1/geteffective/
 
 ## IAccessiblePVIObject&lt;T&gt;.GetEffective-Methode
 
-Holt effektive Daten mit den angewendeten Erben.
+Erhält effektive Daten mit der angewandten Vererbung.
 
 ```csharp
 public T GetEffective()
@@ -19,7 +19,7 @@ public T GetEffective()
 
 Ein effektives Datenobjekt.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../iaccessiblepviobject-1)
 * Namespace [Aspose.Slides](../../iaccessiblepviobject-1)

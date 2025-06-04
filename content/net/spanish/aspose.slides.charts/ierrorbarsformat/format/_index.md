@@ -1,13 +1,13 @@
 ---
 title: Format
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa el formato de los barras de error. Lectura/escritura IFormataspose.slides.charts/iformat.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa el formato de las barras de error. Lectura/escritura IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ierrorbarsformat/format/
 ---
 
-## Propiedad IErrorBarsFormat.Format
+## IErrorBarsFormat.Format property
 
 Representa el formato de las barras de error. Lectura/escritura [`IFormat`](../../iformat).
 
@@ -15,11 +15,11 @@ Representa el formato de las barras de error. Lectura/escritura [`IFormat`](../.
 public IFormat Format { get; set; }
 ```
 
-### Ver También
+### Ver también
 
-* interface [IFormat](../../iformat)
-* interface [IErrorBarsFormat](../../ierrorbarsformat)
-* namespace [Aspose.Slides.Charts](../../ierrorbarsformat)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IFormat](../../iformat)
+* interfaz [IErrorBarsFormat](../../ierrorbarsformat)
+* espacio de nombres [Aspose.Slides.Charts](../../ierrorbarsformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

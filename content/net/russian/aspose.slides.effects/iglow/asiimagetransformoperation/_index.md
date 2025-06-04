@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides для .NET API Reference
+description: Позволяет получать базовый интерфейс IImageTransformOperation. Рабочий IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/iglow/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iglow/asiimagetransformoperation/
 
 ## IGlow.AsIImageTransformOperation свойство
 
-Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../../iimagetransformoperation).
+Позволяет получать базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

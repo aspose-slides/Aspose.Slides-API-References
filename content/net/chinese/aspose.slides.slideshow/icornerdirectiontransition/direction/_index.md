@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
-description: 转换方向。可读/可写 TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype。
+second_title: Aspose.Slides for .NET API Reference
+description: 转换方向。读/写 TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype。
 type: docs
 weight: 20
 url: /zh/aspose.slides.slideshow/icornerdirectiontransition/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/icornerdirectiontransition/direction/
 
 ## ICornerDirectionTransition.Direction 属性
 
-转换方向。可读/可写 [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype)。
+转换方向。读/写 [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype)。
 
 ```csharp
 public TransitionCornerDirectionType Direction { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 枚举 [TransitionCornerDirectionType](../../transitioncornerdirectiontype)
 * 接口 [ICornerDirectionTransition](../../icornerdirectiontransition)

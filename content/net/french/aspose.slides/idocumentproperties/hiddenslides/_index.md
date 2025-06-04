@@ -1,7 +1,7 @@
 ---
 title: HiddenSlides
-second_title: Référence de l'API Aspose.Slidess pour .NET
-description: Spécifie le nombre de diapositives cachées dans un document de présentation. En lecture seule Int32.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Spécifie le nombre de diapositives masquées dans un document de présentation. En lecture seule Int32.
 type: docs
 weight: 120
 url: /fr/aspose.slides/idocumentproperties/hiddenslides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/idocumentproperties/hiddenslides/
 
 ## Propriété IDocumentProperties.HiddenSlides
 
-Spécifie le nombre de diapositives cachées dans un document de présentation. En lecture seule Int32.
+Spécifie le nombre de diapositives masquées dans un document de présentation. En lecture seule Int32.
 
 ```csharp
 public int HiddenSlides { get; }

@@ -1,7 +1,7 @@
 ---
 title: GetChildren
-second_title: Aspose.Slides für .NET API Referenz
-description: Kinderelemente abrufen
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Kinder-Elemente abrufen
 type: docs
 weight: 60
 url: /de/aspose.slides.mathtext/mathgroupingcharacter/getchildren/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathgroupingcharacter/getchildren/
 
 ## MathGroupingCharacter.GetChildren-Methode
 
-Kinderelemente abrufen
+Kinder-Elemente abrufen
 
 ```csharp
 public IMathElement[] GetChildren()

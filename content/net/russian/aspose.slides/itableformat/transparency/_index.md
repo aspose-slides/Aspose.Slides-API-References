@@ -1,15 +1,15 @@
 ---
 title: Transparency
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает или устанавливает прозрачность цвета заливки. Чтение/запись Single.
+second_title: Aspose.Slides для справочника API .NET
+description: Получает или устанавливает прозрачность цвета заливки. Читаемое/записываемое значение типа Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itableformat/transparency/
 ---
 
-## Свойство ITableFormat.Transparency
+## ITableFormat.Transparency property
 
-Получает или устанавливает прозрачность цвета заливки. Чтение/запись Single.
+Получает или устанавливает прозрачность цвета заливки. Читаемое/записываемое значение типа Single.
 
 ```csharp
 public float Transparency { get; set; }

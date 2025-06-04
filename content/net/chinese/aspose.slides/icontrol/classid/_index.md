@@ -1,7 +1,7 @@
 ---
 title: ClassId
 second_title: Aspose.Slides for .NET API Reference
-description: 获取该控件的类 ID。只读 Guid。
+description: 获取此控件的类 ID。唯读 Guid。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icontrol/classid/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icontrol/classid/
 
 ## IControl.ClassId 属性
 
-获取该控件的类 ID。只读 Guid。
+获取此控件的类 ID。唯读 Guid。
 
 ```csharp
 public Guid ClassId { get; }

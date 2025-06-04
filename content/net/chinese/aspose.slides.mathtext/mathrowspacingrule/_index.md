@@ -1,13 +1,13 @@
 ---
 title: MathRowSpacingRule
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 矩阵或数组中列之间的垂直间距类型
 type: docs
 weight: 8710
 url: /zh/aspose.slides.mathtext/mathrowspacingrule/
 ---
 
-## MathRowSpacingRule 枚举
+## MathRowSpacingRule枚举
 
 矩阵或数组中列之间的垂直间距类型
 
@@ -19,11 +19,11 @@ public enum MathRowSpacingRule
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| SingleLineGap | `0` | 单行间距 |
-| OneAndAHalfLineGap | `1` | 一行半间距 |
-| TwoLineGap | `2` | 两行间距 |
-| Exactly | `3` | 精确（依赖于 RowSpacing 属性的值，按点数计算） |
-| Multiple | `4` | 多倍（依赖于 RowSpacing 属性的值，按行数计算） |
+| SingleLineGap | `0` | 单行间隔 |
+| OneAndAHalfLineGap | `1` | 一行半间隔 |
+| TwoLineGap | `2` | 两行间隔 |
+| Exactly | `3` | 精确（依赖于RowSpacing属性的值，以点为单位） |
+| Multiple | `4` | 多重（依赖于RowSpacing属性的值，以行数为单位） |
 
 ### 另请参见
 

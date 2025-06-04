@@ -1,7 +1,7 @@
 ---
 title: SymbolFont
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Informationen zur symbolischen Schriftart zurück. Nur-Lese IFontDataaspose.slides/ifontdata.
+description: Gibt die symbolische Schriftinformationen zurück. Nur-Lese IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 240
 url: /de/aspose.slides/ibaseportionformateffectivedata/symbolfont/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/symbolfont/
 
 ## IBasePortionFormatEffectiveData.SymbolFont Eigenschaft
 
-Gibt die Informationen zur symbolischen Schriftart zurück. Nur-Lese [`IFontData`](../../ifontdata).
+Gibt die symbolische Schriftinformationen zurück. Nur-Lese [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SymbolFont { get; }

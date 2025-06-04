@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定指定的 Reflectionaspose.slides.effects/reflection 是否等于当前的 Reflectionaspose.slides.effects/reflection。
 type: docs
 weight: 150

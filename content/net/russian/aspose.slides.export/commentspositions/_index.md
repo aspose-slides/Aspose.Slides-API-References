@@ -1,6 +1,6 @@
 ---
 title: CommentsPositions
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Представляет правило для отображения комментариев в экспортированном документе
 type: docs
 weight: 3570
@@ -23,7 +23,7 @@ public enum CommentsPositions
 | Bottom | `1` | Указывает, что комментарии должны отображаться внизу страницы. |
 | Right | `2` | Указывает, что комментарии должны отображаться справа от страницы. |
 
-### См. также
+### Также посмотрите
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

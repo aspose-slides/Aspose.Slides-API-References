@@ -1,15 +1,15 @@
 ---
 title: TickLabelSpacing
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, wie viele Tick-Beschriftungen zwischen der gezeichneten Beschriftung übersprungen werden. Angewendet auf Kategorie- oder Serienachsen. Schreib-/lesbarer UInt32.
+description: Gibt an, wie viele Tick-Labels zwischen dem gezeichneten Label übersprungen werden sollen. Angewendet auf die Kategorie- oder Serienachse. Lese-/schreibbarer UInt32.
 type: docs
 weight: 530
 url: /de/aspose.slides.charts/axis/ticklabelspacing/
 ---
 
-## Axis.TickLabelSpacing Eigenschaft
+## Axis.TickLabelSpacing-Eigenschaft
 
-Gibt an, wie viele Tick-Beschriftungen zwischen der gezeichneten Beschriftung übersprungen werden. Angewendet auf Kategorie- oder Serienachsen. Schreib-/lesbarer UInt32.
+Gibt an, wie viele Tick-Labels zwischen dem gezeichneten Label übersprungen werden sollen. Angewendet auf die Kategorie- oder Serienachse. Lese-/schreibbarer UInt32.
 
 ```csharp
 public uint TickLabelSpacing { get; set; }

@@ -1,21 +1,21 @@
 ---
 title: ProofDisabled
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le texte ne doit pas être vérifié. Booléen en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si le texte ne doit pas être vérifié. Boolean en lecture seule.
 type: docs
 weight: 200
 url: /fr/aspose.slides/ibaseportionformateffectivedata/proofdisabled/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.ProofDisabled
+## IBasePortionFormatEffectiveData.ProofDisabled property
 
-Détermine si le texte ne doit pas être vérifié. Booléen en lecture seule.
+Détermine si le texte ne doit pas être vérifié. Boolean en lecture seule.
 
 ```csharp
 public bool ProofDisabled { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

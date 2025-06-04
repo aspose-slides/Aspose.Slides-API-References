@@ -1,7 +1,7 @@
 ---
 title: ContentStatus
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'état du contenu d'une présentation. Chaîne en lecture/écriture.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Retourne ou définit l'état du contenu d'une présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 70
 url: /fr/aspose.slides/idocumentproperties/contentstatus/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/idocumentproperties/contentstatus/
 
 ## Propriété IDocumentProperties.ContentStatus
 
-Renvoie ou définit l'état du contenu d'une présentation. Chaîne en lecture/écriture.
+Retourne ou définit l'état du contenu d'une présentation. Chaîne en lecture/écriture.
 
 ```csharp
 public string ContentStatus { get; set; }

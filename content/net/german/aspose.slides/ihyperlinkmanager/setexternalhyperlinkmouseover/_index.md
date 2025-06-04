@@ -1,7 +1,7 @@
 ---
 title: SetExternalHyperlinkMouseOver
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt den Mauszeiger über externe Hyperlinks.
+description: Setzt den Mouseover für externe Hyperlinks.
 type: docs
 weight: 40
 url: /de/aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover/
 
 ## IHyperlinkManager.SetExternalHyperlinkMouseOver-Methode
 
-Setzt den Mauszeiger über externe Hyperlinks.
+Setzt den Mouseover für externe Hyperlinks.
 
 ```csharp
 public IHyperlink SetExternalHyperlinkMouseOver(string url)

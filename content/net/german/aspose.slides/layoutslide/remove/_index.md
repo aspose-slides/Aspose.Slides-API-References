@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides for .NET API Referenz
 description: Entfernt das Layout aus der Präsentation.
 type: docs
 weight: 90
 url: /de/aspose.slides/layoutslide/remove/
 ---
 
-## LayoutSlide.Remove-Methode
+## LayoutSlide.Remove Methode
 
 Entfernt das Layout aus der Präsentation.
 
@@ -21,9 +21,9 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn das Layout bereits aus der Präsentation entfernt wurde oder wenn das Layout in der Präsentation verwendet wird (die HasDependingSlides-Eigenschaft ist true). |
 
-### Bemerkungen
+### Anmerkungen
 
-Um das Auslösen der PptxEditException zu vermeiden, überprüfen Sie vorher die HasDependingSlides-Eigenschaft des Layouts.
+Um das Auslösen der PptxEditException zu vermeiden, überprüfen Sie zuvor die HasDependingSlides-Eigenschaft des Layouts.
 
 ### Siehe auch
 

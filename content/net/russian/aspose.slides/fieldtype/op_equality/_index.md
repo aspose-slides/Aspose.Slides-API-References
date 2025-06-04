@@ -1,6 +1,6 @@
 ---
 title: op_Equality
-second_title: Aspose.Slides для .NET API справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Проверяет, равны ли два объекта FieldType.
 type: docs
 weight: 220
@@ -20,7 +20,7 @@ public static bool operator ==(FieldType a, FieldType b)
 | a | FieldType | Первый FieldType для сравнения. |
 | b | FieldType | Второй FieldType для сравнения. |
 
-### Возвращаемое значение
+### Возврат значения
 
 True, если объекты FieldType равны.
 

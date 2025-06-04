@@ -1,6 +1,6 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для справочника API .NET
 description: Интерфейс обратного вызова, используемый для получения результата поиска текста.
 type: docs
 weight: 5620
@@ -21,7 +21,7 @@ public interface IFindResultCallback
 | --- | --- |
 | [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Метод обратного вызова, который получает данные о найденном тексте. |
 
-### См. Также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

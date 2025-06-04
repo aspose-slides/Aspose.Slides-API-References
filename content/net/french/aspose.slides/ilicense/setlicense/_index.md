@@ -1,7 +1,7 @@
 ---
 title: SetLicense
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Licence le composant.
+second_title: Aspose.Slides pour .NET Référence API
+description: License le composant.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ilicense/setlicense/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilicense/setlicense/
 
 ## SetLicense(string) {#setlicense_1}
 
-Licence le composant.
+License le composant.
 
 ```csharp
 public void SetLicense(string licenseName)
@@ -17,31 +17,31 @@ public void SetLicense(string licenseName)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| licenseName | String | Peut être un nom de fichier complet ou court ou le nom d'une ressource intégrée. Utilisez une chaîne vide pour passer en mode d'évaluation. |
+| licenseName | String | Peut être un nom de fichier complet ou court ou le nom d'une ressource intégrée. Utilisez une chaîne vide pour passer en mode évaluation. |
 
 ### Remarques
 
-Essaie de trouver la licence aux emplacements suivants:
+Essaie de trouver la licence dans les emplacements suivants :
 
 1. Chemin explicite.
 
 2. Le dossier de l'assemblage du composant.
 
-3. Le dossier de l'assemblage d'appel du client.
+3. Le dossier de l'assemblage appelant du client.
 
 4. Le dossier de l'assemblage d'entrée.
 
-5. Une ressource intégrée dans l'assemblage d'appel du client.
+5. Une ressource intégrée dans l'assemblage appelant du client.
 
-**Remarque :** Sur le .NET Compact Framework, essaie de trouver la licence uniquement à ces emplacements:
+**Remarque :** Sur le .NET Compact Framework, essaie de trouver la licence uniquement dans ces emplacements :
 
 1. Chemin explicite.
 
-2. Une ressource intégrée dans l'assemblage d'appel du client.
+2. Une ressource intégrée dans l'assemblage appelant du client.
 
 ### Exemples
 
-Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier contenant le composant, dans le dossier contenant l'assemblage d'appel, dans le dossier de l'assemblage d'entrée, puis dans les ressources intégrées de l'assemblage d'appel.
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier qui contient le composant, dans le dossier qui contient l'assemblage appelant, dans le dossier de l'assemblage d'entrée puis dans les ressources intégrées de l'assemblage appelant.
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ license.SetLicense("MyLicense.lic")
 
 ## SetLicense(Stream) {#setlicense}
 
-Licence le composant.
+License le composant.
 
 ```csharp
 public void SetLicense(Stream stream)
@@ -74,7 +74,7 @@ public void SetLicense(Stream stream)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| stream | Stream | Un flux contenant la licence. |
+| stream | Stream | Un flux qui contient la licence. |
 
 ### Remarques
 

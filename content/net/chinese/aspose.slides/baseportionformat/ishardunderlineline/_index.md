@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineLine
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定下划线样式是否具有自己的 LineFormat 属性或从文本的 LineFormat 属性中继承。读/写 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定下划线样式是否具有自己的 LineFormat 属性，或从文本的 LineFormat 属性继承。可读/可写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 130
 url: /zh/aspose.slides/baseportionformat/ishardunderlineline/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/ishardunderlineline/
 
 ## BasePortionFormat.IsHardUnderlineLine 属性
 
-确定下划线样式是否具有自己的 LineFormat 属性或从文本的 LineFormat 属性中继承。读/写 [`NullableBool`](../../nullablebool)。
+确定下划线样式是否具有自己的 LineFormat 属性，或从文本的 LineFormat 属性继承。可读/可写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool IsHardUnderlineLine { get; set; }
 ```
 
-### 其他参见
+### 另请参阅
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

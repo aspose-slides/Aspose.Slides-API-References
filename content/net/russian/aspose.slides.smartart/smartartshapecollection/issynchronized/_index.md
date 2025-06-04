@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции безопасно по потокам. Только для чтения Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным потоко-безопасным. Только для чтения логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.smartart/smartartshapecollection/issynchronized/
 ---
 
-## SmartArtShapeCollection.IsSynchronized свойство
+## SmartArtShapeCollection.IsSynchronized property
 
-Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен по потокам). Только для чтения Boolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потоко-безопасным). Только для чтения логическое значение.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [SmartArtShapeCollection](../../smartartshapecollection)
 * пространство имен [Aspose.Slides.SmartArt](../../smartartshapecollection)

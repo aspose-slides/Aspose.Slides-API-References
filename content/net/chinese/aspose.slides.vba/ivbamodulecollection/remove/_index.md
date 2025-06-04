@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除特定对象的第一次出现。
 type: docs
 weight: 30
@@ -17,9 +17,9 @@ public void Remove(IVbaModule value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IVbaModule | 从集合中移除的模块。 |
+| value | IVbaModule | 要从集合中移除的模块。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IVbaModule](../../ivbamodule)
 * 接口 [IVbaModuleCollection](../../ivbamodulecollection)

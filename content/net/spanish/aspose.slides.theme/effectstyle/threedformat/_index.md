@@ -1,6 +1,6 @@
 ---
 title: ThreeDFormat
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API .NET
 description: Devuelve un formato 3D. Solo lectura IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
@@ -15,11 +15,11 @@ Devuelve un formato 3D. Solo lectura [`IThreeDFormat`](../../../aspose.slides/it
 public IThreeDFormat ThreeDFormat { get; }
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [IThreeDFormat](../../../aspose.slides/ithreedformat)
-* clase [EffectStyle](../../effectstyle)
-* espacio de nombres [Aspose.Slides.Theme](../../effectstyle)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IThreeDFormat](../../../aspose.slides/ithreedformat)
+* clase [EffectStyle](../../effectstyle)
+* espacio de nombres [Aspose.Slides.Theme](../../effectstyle)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

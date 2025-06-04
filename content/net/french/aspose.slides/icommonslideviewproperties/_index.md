@@ -1,7 +1,7 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Représente les propriétés communes de la vue de diapositive.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente les propriétés communes de la vue des diapositives.
 type: docs
 weight: 5400
 url: /fr/aspose.slides/icommonslideviewproperties/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icommonslideviewproperties/
 
 ## Interface ICommonSlideViewProperties
 
-Représente les propriétés communes de la vue de diapositive.
+Représente les propriétés communes de la vue des diapositives.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -20,8 +20,8 @@ public interface ICommonSlideViewProperties
 | Nom | Description |
 | --- | --- |
 | [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Renvoie la collection des guides de dessin. Lecture seule [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Spécifie le rapport de mise à l'échelle de la vue en pourcentages. Lecture/écriture Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Spécifie que le contenu de la vue doit automatiquement s'ajuster pour mieux s'adapter à la taille actuelle de la fenêtre. Lecture/écriture Booléen. |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Spécifie le ratio d'échelle de la vue en pourcentages. Lecture/écriture Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Spécifie que le contenu de la vue doit être automatiquement mis à l'échelle pour s'adapter au mieux à la taille de la fenêtre actuelle. Lecture/écriture Booléen. |
 
 ### Voir aussi
 

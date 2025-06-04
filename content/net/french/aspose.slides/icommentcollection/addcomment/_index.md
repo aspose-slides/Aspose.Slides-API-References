@@ -1,6 +1,6 @@
 ---
 title: AddComment
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Ajouter un nouveau commentaire à la fin d'une collection.
 type: docs
 weight: 20
@@ -17,16 +17,16 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| text | String | Texte brut d'un nouveau commentaire. |
-| slide | ISlide | Diapositive d'une présentation où ajouter un nouveau commentaire. |
+| text | String | Texte en clair d'un nouveau commentaire. |
+| slide | ISlide | Diapositive dans une présentation où ajouter un nouveau commentaire. |
 | position | PointF | Position sur une diapositive où ajouter un nouveau commentaire. |
 | creationTime | DateTime | Heure de création d'un commentaire. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Commentaire ajouté.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IComment](../../icomment)
 * interface [ISlide](../../islide)

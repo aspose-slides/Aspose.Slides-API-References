@@ -1,6 +1,6 @@
 ---
 title: ShowSeriesName
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Documentation de référence
 description: Renvoie ou définit un booléen pour indiquer le comportement d'affichage du nom de la série pour les étiquettes de données sur un graphique. Vrai pour afficher le nom de la série. Faux pour masquer. Booléen en lecture/écriture.
 type: docs
 weight: 140
@@ -17,7 +17,7 @@ public bool ShowSeriesName { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowSeriesName pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété ShowSeriesName de toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" entraîne que toutes les DataLabels[i].ShowSeriesName sont égales à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété ShowSeriesName pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur à la propriété ShowSeriesName pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" entraîne que toutes les DataLabels[i].ShowSeriesName sont égales à val).
 
 ### Voir aussi
 

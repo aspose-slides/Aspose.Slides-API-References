@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinorUnit
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die kleinere Einheit der Achse automatisch zugewiesen wird. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob die kleine Einheit der Achse automatisch zugewiesen wird. Lese-/schreibbares Boolean.
 type: docs
 weight: 200
 url: /de/aspose.slides.charts/iaxis/isautomaticminorunit/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/iaxis/isautomaticminorunit/
 
 ## IAxis.IsAutomaticMinorUnit-Eigenschaft
 
-Gibt an, ob die kleinere Einheit der Achse automatisch zugewiesen wird. Lese-/Schreib-Boolean.
+Gibt an, ob die kleine Einheit der Achse automatisch zugewiesen wird. Lese-/schreibbares Boolean.
 
 ```csharp
 public bool IsAutomaticMinorUnit { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAxis](../../iaxis)
 * Namespace [Aspose.Slides.Charts](../../iaxis)

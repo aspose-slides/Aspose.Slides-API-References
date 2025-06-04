@@ -7,7 +7,7 @@ weight: 130
 url: /fr/aspose.slides/iparagraphformat/righttoleft/
 ---
 
-## Propriété IParagraphFormat.RightToLeft
+## IParagraphFormat.RightToLeft propriété
 
 Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
@@ -15,7 +15,7 @@ Détermine si l'écriture de droite à gauche est utilisée dans un paragraphe. 
 public NullableBool RightToLeft { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [NullableBool](../../nullablebool)
 * interface [IParagraphFormat](../../iparagraphformat)

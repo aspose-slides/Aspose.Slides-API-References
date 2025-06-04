@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit l'objet diapositive auquel l'objet Slide Zoom est lié. Lecture/écriture ISlideaspose.slides/islide.
+description: Obtient ou définit l'objet diapositive auquel l'objet Zoom de diapositive est lié. Lecture/écriture ISlideaspose.slides/islide.
 type: docs
 weight: 20
 url: /fr/aspose.slides/izoomframe/targetslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/izoomframe/targetslide/
 
 ## Propriété IZoomFrame.TargetSlide
 
-Obtient ou définit l'objet diapositive auquel l'objet Slide Zoom est lié. Lecture/écriture [`ISlide`](../../islide).
+Obtient ou définit l'objet diapositive auquel l'objet Zoom de diapositive est lié. Lecture/écriture [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; set; }
@@ -17,7 +17,7 @@ public ISlide TargetSlide { get; set; }
 
 ### Exemples
 
-L'exemple suivant montre comment changer la diapositive cible et créer une nouvelle image pour l'objet Slide Zoom :
+L'exemple suivant démontre comment changer la diapositive cible et crée une nouvelle image pour l'objet Zoom de diapositive :
 
 ```csharp
 [C#]

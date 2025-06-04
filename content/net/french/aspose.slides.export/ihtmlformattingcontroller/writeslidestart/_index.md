@@ -1,15 +1,15 @@
 ---
 title: WriteSlideStart
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Appelé pour écrire l'en-tête de diapositive html. Appelé une fois pour chaque diapositive.
+second_title: Aspose.Slides pour .NET Référence API
+description: Appelé pour écrire l'en-tête de diapositive html. Appelé une fois pour chacune des diapositives.
 type: docs
 weight: 60
 url: /fr/aspose.slides.export/ihtmlformattingcontroller/writeslidestart/
 ---
 
-## Méthode IHtmlFormattingController.WriteSlideStart
+## IHtmlFormattingController.WriteSlideStart méthode
 
-Appelé pour écrire l'en-tête de diapositive html. Appelé une fois pour chaque diapositive.
+Appelé pour écrire l'en-tête de diapositive html. Appelé une fois pour chacune des diapositives.
 
 ```csharp
 public void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
@@ -18,7 +18,7 @@ public void WriteSlideStart(IHtmlGenerator generator, ISlide slide)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | generator | IHtmlGenerator | Objet de sortie. |
-| slide | ISlide | Diapositive actuellement rendue. |
+| slide | ISlide | Diapositive qui est actuellement rendue. |
 
 ### Voir aussi
 

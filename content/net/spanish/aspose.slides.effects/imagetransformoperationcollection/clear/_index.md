@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Elimina todos los efectos de imagen de una colección.
 type: docs
 weight: 220
@@ -19,6 +19,6 @@ public void Clear()
 
 * clase [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * espacio de nombres [Aspose.Slides.Effects](../../imagetransformoperationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

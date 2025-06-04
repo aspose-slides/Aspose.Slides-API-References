@@ -1,7 +1,7 @@
 ---
 title: IBasePortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 这个类包含文本部分格式化属性。与 IPortionFormatEffectiveData../iportionformateffectivedata 不同，这个类的所有属性都是可写的。
+description: 此类包含文本部分格式属性。与 IPortionFormatEffectiveData../iportionformateffectivedata 不同，该类的所有属性均可写。
 type: docs
 weight: 5110
 url: /zh/aspose.slides/ibaseportionformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseportionformat/
 
 ## IBasePortionFormat 接口
 
-这个类包含文本部分格式化属性。与 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 不同，这个类的所有属性都是可写的。
+此类包含文本部分格式属性。与 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 不同，该类的所有属性均可写。
 
 ```csharp
 public interface IBasePortionFormat
@@ -19,38 +19,38 @@ public interface IBasePortionFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [AlternativeLanguageId](../../aspose.slides/ibaseportionformat/alternativelanguageid) { get; set; } | 返回或设置替代语言的 Id。可读/可写字符串。 |
-| [ComplexScriptFont](../../aspose.slides/ibaseportionformat/complexscriptfont) { get; set; } | 返回或设置复杂脚本字体信息。空表示字体未定义，应从母版继承。可读/可写 [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ibaseportionformat/eastasianfont) { get; set; } | 返回或设置东亚字体信息。空表示字体未定义，应从母版继承。可读/可写 [`IFontData`](../ifontdata)。 |
-| [EffectFormat](../../aspose.slides/ibaseportionformat/effectformat) { get; } | 返回文本 EffectFormat 属性。没有应用继承。只读 [`IEffectFormat`](../ieffectformat)。 |
-| [Escapement](../../aspose.slides/ibaseportionformat/escapement) { get; set; } | 返回或设置上标或下标文本。值范围从 -100%（下标）到 100%（上标）。**float.NaN** 表示值未定义，应从母版继承。可读/可写单精度浮点数。 |
-| [FillFormat](../../aspose.slides/ibaseportionformat/fillformat) { get; } | 返回文本 FillFormat 属性。没有应用继承。只读 [`IFillFormat`](../ifillformat)。 |
-| [FontBold](../../aspose.slides/ibaseportionformat/fontbold) { get; set; } | 确定字体是否为粗体。没有应用继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [FontHeight](../../aspose.slides/ibaseportionformat/fontheight) { get; set; } | 返回或设置部分的字体高度。**float.NaN** 表示高度未定义，应从母版继承。可读/可写单精度浮点数。 |
-| [FontItalic](../../aspose.slides/ibaseportionformat/fontitalic) { get; set; } | 确定字体是否倾斜。没有应用继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [FontUnderline](../../aspose.slides/ibaseportionformat/fontunderline) { get; set; } | 返回或设置文本下划线类型。没有应用继承。可读/可写 [`TextUnderlineType`](../textunderlinetype)。 |
-| [HighlightColor](../../aspose.slides/ibaseportionformat/highlightcolor) { get; } | 返回用于突出显示文本的颜色。没有应用继承。只读 [`IColorFormat`](../icolorformat)。 |
-| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformat/ishardunderlinefill) { get; set; } | 确定下划线样式是否具有自己的 FillFormat 属性或从文本的 FillFormat 属性继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformat/ishardunderlineline) { get; set; } | 确定下划线样式是否具有自己的 LineFormat 属性或从文本的 LineFormat 属性继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [KerningMinimalSize](../../aspose.slides/ibaseportionformat/kerningminimalsize) { get; set; } | 返回或设置应启用字距调整的最小字体大小。**float.NaN** 表示值未定义，应从母版继承。可读/可写单精度浮点数。 |
-| [Kumimoji](../../aspose.slides/ibaseportionformat/kumimoji) { get; set; } | 确定数字是否应忽略文本东部语言特定的垂直文本布局。没有应用继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [LanguageId](../../aspose.slides/ibaseportionformat/languageid) { get; set; } | 返回或设置校对语言的 Id。用于检查拼写和语法。可读/可写字符串。 |
-| [LatinFont](../../aspose.slides/ibaseportionformat/latinfont) { get; set; } | 返回或设置拉丁字体信息。空表示字体未定义，应从母版继承。可读/可写 [`IFontData`](../ifontdata)。 |
-| [LineFormat](../../aspose.slides/ibaseportionformat/lineformat) { get; } | 返回用于文本轮廓的 LineFormat 属性。没有应用继承。只读 [`ILineFormat`](../ilineformat)。 |
-| [NormaliseHeight](../../aspose.slides/ibaseportionformat/normaliseheight) { get; set; } | 确定文本的高度是否应被标准化。没有应用继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [ProofDisabled](../../aspose.slides/ibaseportionformat/proofdisabled) { get; set; } | 确定文本是否不应被校对。没有应用继承。可读/可写 [`NullableBool`](../nullablebool)。 |
-| [Spacing](../../aspose.slides/ibaseportionformat/spacing) { get; set; } | 返回或设置字符间距增量。**float.NaN** 表示值未定义，应从母版继承。可读/可写单精度浮点数。 |
-| [StrikethroughType](../../aspose.slides/ibaseportionformat/strikethroughtype) { get; set; } | 返回或设置文本的删除线类型。没有应用继承。可读/可写 [`TextStrikethroughType`](../textstrikethroughtype)。 |
-| [SymbolFont](../../aspose.slides/ibaseportionformat/symbolfont) { get; set; } | 返回或设置符号字体信息。空表示字体未定义，应从母版继承。可读/可写 [`IFontData`](../ifontdata)。 |
-| [TextCapType](../../aspose.slides/ibaseportionformat/textcaptype) { get; set; } | 返回或设置文本大写类型。没有应用继承。可读/可写 [`TextCapType`](../textcaptype)。 |
-| [UnderlineFillFormat](../../aspose.slides/ibaseportionformat/underlinefillformat) { get; } | 返回下划线 FillFormat 属性。没有应用继承。只读 [`IFillFormat`](../ifillformat)。 |
-| [UnderlineLineFormat](../../aspose.slides/ibaseportionformat/underlinelineformat) { get; } | 返回用于描边下划线的 LineFormat 属性。没有应用继承。只读 [`ILineFormat`](../ilineformat)。 |
+| [AlternativeLanguageId](../../aspose.slides/ibaseportionformat/alternativelanguageid) { get; set; } | 返回或设置替代语言的 Id。可读/写字符串。 |
+| [ComplexScriptFont](../../aspose.slides/ibaseportionformat/complexscriptfont) { get; set; } | 返回或设置复杂脚本字体信息。Null 表示字体未定义，应从母版继承。可读/写 [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ibaseportionformat/eastasianfont) { get; set; } | 返回或设置东亚字体信息。Null 表示字体未定义，应从母版继承。可读/写 [`IFontData`](../ifontdata)。 |
+| [EffectFormat](../../aspose.slides/ibaseportionformat/effectformat) { get; } | 返回文本的 EffectFormat 属性。没有应用继承。只读 [`IEffectFormat`](../ieffectformat)。 |
+| [Escapement](../../aspose.slides/ibaseportionformat/escapement) { get; set; } | 返回或设置上标或下标文本。值范围从 -100%（下标）到 100%（上标）。**float.NaN** 表示值未定义，应从母版继承。可读/写单精度浮点数。 |
+| [FillFormat](../../aspose.slides/ibaseportionformat/fillformat) { get; } | 返回文本的 FillFormat 属性。没有应用继承。只读 [`IFillFormat`](../ifillformat)。 |
+| [FontBold](../../aspose.slides/ibaseportionformat/fontbold) { get; set; } | 确定字体是否为粗体。没有应用继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [FontHeight](../../aspose.slides/ibaseportionformat/fontheight) { get; set; } | 返回或设置部分的字体高度。**float.NaN** 表示高度未定义，应从母版继承。可读/写单精度浮点数。 |
+| [FontItalic](../../aspose.slides/ibaseportionformat/fontitalic) { get; set; } | 确定字体是否为斜体。没有应用继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [FontUnderline](../../aspose.slides/ibaseportionformat/fontunderline) { get; set; } | 返回或设置文本下划线类型。没有应用继承。可读/写 [`TextUnderlineType`](../textunderlinetype)。 |
+| [HighlightColor](../../aspose.slides/ibaseportionformat/highlightcolor) { get; } | 返回用于高亮文本的颜色。没有应用继承。只读 [`IColorFormat`](../icolorformat)。 |
+| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformat/ishardunderlinefill) { get; set; } | 确定下划线样式是否具有自己的 FillFormat 属性或是否从文本的 FillFormat 属性继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformat/ishardunderlineline) { get; set; } | 确定下划线样式是否具有自己的 LineFormat 属性或是否从文本的 LineFormat 属性继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [KerningMinimalSize](../../aspose.slides/ibaseportionformat/kerningminimalsize) { get; set; } | 返回或设置最小字体大小，启用字距调整。**float.NaN** 表示值未定义，应从母版继承。可读/写单精度浮点数。 |
+| [Kumimoji](../../aspose.slides/ibaseportionformat/kumimoji) { get; set; } | 确定数字是否应忽略文本东亚语言特定的垂直文本布局。没有应用继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [LanguageId](../../aspose.slides/ibaseportionformat/languageid) { get; set; } | 返回或设置校对语言的 Id。用于拼写和语法检查。可读/写字符串。 |
+| [LatinFont](../../aspose.slides/ibaseportionformat/latinfont) { get; set; } | 返回或设置拉丁字体信息。Null 表示字体未定义，应从母版继承。可读/写 [`IFontData`](../ifontdata)。 |
+| [LineFormat](../../aspose.slides/ibaseportionformat/lineformat) { get; } | 返回文本轮廓的 LineFormat 属性。没有应用继承。只读 [`ILineFormat`](../ilineformat)。 |
+| [NormaliseHeight](../../aspose.slides/ibaseportionformat/normaliseheight) { get; set; } | 确定文本的高度是否应规范化。没有应用继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [ProofDisabled](../../aspose.slides/ibaseportionformat/proofdisabled) { get; set; } | 确定文本是否不应进行校对。没有应用继承。可读/写 [`NullableBool`](../nullablebool)。 |
+| [Spacing](../../aspose.slides/ibaseportionformat/spacing) { get; set; } | 返回或设置字符间距增量。**float.NaN** 表示值未定义，应从母版继承。可读/写单精度浮点数。 |
+| [StrikethroughType](../../aspose.slides/ibaseportionformat/strikethroughtype) { get; set; } | 返回或设置文本的删除线类型。没有应用继承。可读/写 [`TextStrikethroughType`](../textstrikethroughtype)。 |
+| [SymbolFont](../../aspose.slides/ibaseportionformat/symbolfont) { get; set; } | 返回或设置符号字体信息。Null 表示字体未定义，应从母版继承。可读/写 [`IFontData`](../ifontdata)。 |
+| [TextCapType](../../aspose.slides/ibaseportionformat/textcaptype) { get; set; } | 返回或设置文本大写类型。没有应用继承。可读/写 [`TextCapType`](../textcaptype)。 |
+| [UnderlineFillFormat](../../aspose.slides/ibaseportionformat/underlinefillformat) { get; } | 返回下划线的 FillFormat 属性。没有应用继承。只读 [`IFillFormat`](../ifillformat)。 |
+| [UnderlineLineFormat](../../aspose.slides/ibaseportionformat/underlinelineformat) { get; } | 返回用于轮廓下划线的 LineFormat 属性。没有应用继承。只读 [`ILineFormat`](../ilineformat)。 |
 
 ### 备注
 
-这个类用于返回和操作为特定部分定义的文本部分格式化属性。这意味着在获取值时不应用继承，因此在大多数情况下你将得到表示 "未定义" 的值。
+此类用于返回和操作为特定部分定义的文本部分格式属性。这意味着在获取值时不应用继承，因此在大多数情况下，您将获得“未定义”的值。
 
-为了获取有效的格式化参数值，包括继承的值，你需要使用 [`GetEffective`](../iportionformat/geteffective) 方法，它返回一个 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 实例。
+为了获取包括继承的有效格式参数值，您需要使用 [`GetEffective`](../iportionformat/geteffective) 方法，该方法返回一个 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 实例。
 
 ### 另请参见
 

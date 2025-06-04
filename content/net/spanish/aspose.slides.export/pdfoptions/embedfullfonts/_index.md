@@ -1,28 +1,28 @@
----
+---  
 title: EmbedFullFonts
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si todos los caracteres de la fuente deben ser incrustados o solo el subconjunto utilizado. Booleano de lectura/escritura.
-type: docs
-weight: 80
+second_title: Aspose.Sildes para .NET Referencia de API  
+description: Determina si todos los caracteres de la fuente deben ser incrustados o solo un subconjunto utilizado. Lectura/escritura Booleano.
+type: docs  
+weight: 80  
 url: /es/aspose.slides.export/pdfoptions/embedfullfonts/
----
+---  
 
-## Propiedad PdfOptions.EmbedFullFonts
+## PdfOptions.EmbedFullFonts propiedad  
 
-Determina si todos los caracteres de la fuente deben ser incrustados o solo el subconjunto utilizado. Booleano de lectura/escritura.
+Determina si todos los caracteres de la fuente deben ser incrustados o solo un subconjunto utilizado. Lectura/escritura Booleano.  
 
-```csharp
-public bool EmbedFullFonts { get; set; }
-```
+```csharp  
+public bool EmbedFullFonts { get; set; }  
+```  
 
-### Comentarios
+### Observaciones  
 
-El valor predeterminado es **false**.
+El valor predeterminado es **false**.  
 
-### Véase también
+### Véase también  
 
-* clase [PdfOptions](../../pdfoptions)
-* espacio de nombres [Aspose.Slides.Export](../../pdfoptions)
-* ensamblado [Aspose.Slides](../../../)
+* clase [PdfOptions](../../pdfoptions)  
+* namespace [Aspose.Slides.Export](../../pdfoptions)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

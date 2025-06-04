@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 在集合的末尾添加绘图指南。
 type: docs
 weight: 30
@@ -20,7 +20,7 @@ public IDrawingGuide Add(Orientation orientation, float position)
 | orientation | Orientation | 绘图指南的方向。 |
 | position | Single | 绘图指南在点中的位置。 |
 
-### 参见
+### 另请参见
 
 * 接口 [IDrawingGuide](../../idrawingguide)
 * 枚举 [Orientation](../../orientation)

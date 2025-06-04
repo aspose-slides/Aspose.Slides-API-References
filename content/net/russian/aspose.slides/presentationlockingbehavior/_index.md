@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes для .NET Справочник API
-description: Представляет поведение, касающееся обработки источника IPresentation../ipresentation файл или поток при загрузке и работе с экземпляром IPresentation../ipresentation.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет поведение относительно обработки источника IPresentation../ipresentation файла или потока при загрузке и работе с экземпляром IPresentation../ipresentation.
 type: docs
 weight: 9360
 url: /ru/aspose.slides/presentationlockingbehavior/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentationlockingbehavior/
 
 ## Перечисление PresentationLockingBehavior
 
-Представляет поведение, касающееся обработки источника [`IPresentation`](../ipresentation) (файл или поток) при загрузке и работе с экземпляром [`IPresentation`](../ipresentation).
+Представляет поведение относительно обработки источника [`IPresentation`](../ipresentation) (файла или потока) при загрузке и работе с экземпляром [`IPresentation`](../ipresentation).
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -17,14 +17,14 @@ public enum PresentationLockingBehavior
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
-| LoadAndRelease | `0` | Исходный файл будет заблокирован только на время выполнения конструктора [`IPresentation`](../ipresentation). Если свойство [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) установлено в false, все BLOB-объекты будут загружены в память. В противном случае могут быть использованы другие средства, такие как временные файлы. Это поведение медленнее, чем KeepLocked, и если возможно передать право собственности на источник [`IPresentation`](../ipresentation), рекомендуется использовать KeepLocked. |
-| KeepLocked | `1` | Исходный файл будет заблокирован на всю продолжительность жизни экземпляра [`IPresentation`](../ipresentation), пока он не будет освобожден. Свойство [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) должно быть установлено в true для использования этого поведения, в противном случае будет выброшено исключение. Это поведение рекомендуется, оно быстрее и использует меньше памяти, чем LoadAndRelease. |
+| LoadAndRelease | `0` | Источник будет заблокирован только на время выполнения конструктора [`IPresentation`](../ipresentation). Если [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) установлен в false, все BLOB-файлы будут загружены в память. В противном случае могут использоваться другие средства, такие как временные файлы. Это поведение медленнее, чем KeepLocked, и если возможно передать право собственности на источник [`IPresentation`](../ipresentation), рекомендуется использовать KeepLocked. |
+| KeepLocked | `1` | Источник будет заблокирован на всё время жизни экземпляра [`IPresentation`](../ipresentation), пока он не будет освобождён. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) должен быть установлен в true для использования этого поведения, в противном случае будет выброшено исключение. Это поведение рекомендуется, оно быстрее и потребляет меньше памяти, чем LoadAndRelease. |
 
-### Примечания
+### Замечания
 
-Исходный файл — это параметр, передаваемый в конструктор [`IPresentation`](../ipresentation). В примере ниже исходный файл — это документ "pres.pptx":
+Источник — это параметр, переданный конструкторам [`IPresentation`](../ipresentation). В приведённом ниже примере источником является файл "pres.pptx":
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -32,9 +32,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-В этом примере исходный файл ("pres.pptx") будет заблокирован на время жизни экземпляра [`IPresentation`](../ipresentation), т.е. он не может быть изменен или удален другим процессом.
+В этом примере источник (файл "pres.pptx") будет заблокирован на время жизни экземпляра [`IPresentation`](../ipresentation), т.е. не может быть изменён или удалён другим процессом.
 
-### См. также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

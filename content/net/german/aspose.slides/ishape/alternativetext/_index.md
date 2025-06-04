@@ -1,7 +1,7 @@
 ---
 title: AlternativeText
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den alternativen Text zurück oder setzt ihn, der mit einer Form verbunden ist. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den alternativen Text zurück oder legt ihn fest, der mit einer Form verknüpft ist. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 10
 url: /de/aspose.slides/ishape/alternativetext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/alternativetext/
 
 ## IShape.AlternativeText-Eigenschaft
 
-Gibt den alternativen Text zurück oder setzt ihn, der mit einer Form verbunden ist. Lese-/Schreibzeichenfolge.
+Gibt den alternativen Text zurück oder legt ihn fest, der mit einer Form verknüpft ist. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string AlternativeText { get; set; }

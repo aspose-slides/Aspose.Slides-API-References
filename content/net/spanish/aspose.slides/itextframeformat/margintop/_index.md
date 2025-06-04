@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece los puntos del margen superior en un TextFrame. Lectura/escritura Double.
+description: Devuelve o establece el margen superior en puntos en un TextFrame. Lectura/escritura Double.
 type: docs
 weight: 100
 url: /es/aspose.slides/itextframeformat/margintop/
@@ -19,6 +19,6 @@ public double MarginTop { get; set; }
 
 * interfaz [ITextFrameFormat](../../itextframeformat)
 * espacio de nombres [Aspose.Slides](../../itextframeformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

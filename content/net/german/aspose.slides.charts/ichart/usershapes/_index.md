@@ -1,7 +1,7 @@
 ---
 title: UserShapes
-second_title: Aspose.Slides für .NET API Referenz
-description: Definieren Sie die auf dem Diagramm gezeichneten Formen. Nur-Lese IGroupShapeaspose.slides/../aspose.slides/igroupshape.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Geben Sie die Formen an, die über dem Diagramm gezeichnet sind. Schreibgeschützt IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 230
 url: /de/aspose.slides.charts/ichart/usershapes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichart/usershapes/
 
 ## IChart.UserShapes-Eigenschaft
 
-Definieren Sie die auf dem Diagramm gezeichneten Formen. Nur-Lese [`IGroupShape`](../../../aspose.slides/igroupshape).
+Geben Sie die Formen an, die über dem Diagramm gezeichnet sind. Schreibgeschützt [`IGroupShape`](../../../aspose.slides/igroupshape).
 
 ```csharp
 public IGroupShape UserShapes { get; }

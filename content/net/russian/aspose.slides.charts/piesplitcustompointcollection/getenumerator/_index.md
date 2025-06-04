@@ -1,25 +1,25 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Возвращает перечислитель, который итерируется по коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает перечислитель, который перебирает коллекцию.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/getenumerator/
 ---
 
-## Метод PieSplitCustomPointCollection.GetEnumerator
+## PieSplitCustomPointCollection.GetEnumerator метод
 
-Возвращает перечислитель, который итерируется по коллекции.
+Возвращает перечислитель, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<IChartDataPoint> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-IEnumerator, который можно использовать для итерации по коллекции.
+IEnumerator, который может быть использован для перебора коллекции.
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * класс [PieSplitCustomPointCollection](../../piesplitcustompointcollection)

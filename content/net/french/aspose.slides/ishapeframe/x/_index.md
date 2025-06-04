@@ -1,7 +1,7 @@
 ---
 title: X
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la coordonnée X du coin supérieur gauche d'un cadre. En lecture seule Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la coordonnée X du coin supérieur gauche d'un cadre. Lecture seule Single.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ishapeframe/x/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapeframe/x/
 
 ## Propriété IShapeFrame.X
 
-Renvoie la coordonnée X du coin supérieur gauche d'un cadre. En lecture seule Single.
+Renvoie la coordonnée X du coin supérieur gauche d'un cadre. Lecture seule Single.
 
 ```csharp
 public float X { get; }

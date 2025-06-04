@@ -1,7 +1,7 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Slides for .NET API Reference
-description: 指定条形、柱形或气泡系列在值为负时是否反转其颜色。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定柱形、列或气泡系列如果值为负数则反转其颜色。可读写布尔值。
 type: docs
 weight: 170
 url: /zh/aspose.slides.charts/ichartseries/invertifnegative/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartseries/invertifnegative/
 
 ## IChartSeries.InvertIfNegative 属性
 
-指定条形、柱形或气泡系列在值为负时是否反转其颜色。可读写布尔值。
+指定柱形、列或气泡系列如果值为负数则反转其颜色。可读写布尔值。
 
 ```csharp
 public bool InvertIfNegative { get; set; }

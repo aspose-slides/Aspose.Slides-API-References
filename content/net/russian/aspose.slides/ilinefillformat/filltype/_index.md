@@ -1,13 +1,13 @@
 ---
 title: FillType
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает или устанавливает тип заливки. Чтение/запись FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ilinefillformat/filltype/
 ---
 
-## Свойство ILineFillFormat.FillType
+## ILineFillFormat.FillType свойство
 
 Возвращает или устанавливает тип заливки. Чтение/запись [`FillType`](../../filltype).
 

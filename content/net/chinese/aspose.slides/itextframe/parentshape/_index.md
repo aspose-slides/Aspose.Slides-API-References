@@ -1,7 +1,7 @@
 ---
 title: ParentShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回父形状，如果父对象不实现 IShape 接口，则返回 null 只读 IShapeaspose.slides/ishape。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回父形状，如果父对象不实现 IShape 接口则返回 null 只读 IShapeaspose.slides/ishape。
 type: docs
 weight: 50
 url: /zh/aspose.slides/itextframe/parentshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframe/parentshape/
 
 ## ITextFrame.ParentShape 属性
 
-返回父形状，如果父对象不实现 IShape 接口，则返回 null 只读 [`IShape`](../../ishape)。
+返回父形状，如果父对象不实现 IShape 接口则返回 null 只读 [`IShape`](../../ishape)。
 
 ```csharp
 public IShape ParentShape { get; }
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IShape](../../ishape)
 * 接口 [ITextFrame](../../itextframe)

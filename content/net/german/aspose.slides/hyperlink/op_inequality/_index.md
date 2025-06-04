@@ -1,6 +1,6 @@
 ---
 title: op_Inequality
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Testet zwei Hyperlinks auf Ungleichheit.
 type: docs
 weight: 240
@@ -22,7 +22,7 @@ public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 
 ### Rückgabewert
 
-**Falsch**, wenn die Hyperlinks gleich sind.
+**False**, wenn die Hyperlinks gleich sind.
 
 ### Siehe auch
 

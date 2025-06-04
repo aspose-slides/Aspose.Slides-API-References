@@ -1,21 +1,21 @@
 ---
 title: IsRelative
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Определяет, являются ли координаты команды относительными или нет. Чтение/запись Boolean.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Определяет, являются ли координаты команды относительными. Читаемое/записываемое логическое значение.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/imotioncmdpath/isrelative/
 ---
 
-## IMotionCmdPath.IsRelative свойство
+## IMotionCmdPath.IsRelative property
 
-Определяет, являются ли координаты команды относительными или нет. Чтение/запись Boolean.
+Определяет, являются ли координаты команды относительными. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool IsRelative { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IMotionCmdPath](../../imotioncmdpath)
 * пространство имен [Aspose.Slides.Animation](../../imotioncmdpath)

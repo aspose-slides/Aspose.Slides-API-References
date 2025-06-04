@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameEmbedded
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügen Sie ein AudioFrame mit eingebetteter Audiodatei ein. Die eingebettete Audiodatei kann nur WAV sein.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Fügen Sie ein AudioFrame mit eingebettetem Audiofile hinzu. Das eingebettete Audiofile kann nur WAV sein.
 type: docs
 weight: 280
 url: /de/aspose.slides/shapecollection/insertaudioframeembedded/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapecollection/insertaudioframeembedded/
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
-Fügen Sie ein AudioFrame mit eingebetteter Audiodatei ein. Die eingebettete Audiodatei kann nur WAV sein.
+Fügen Sie ein AudioFrame mit eingebettetem Audiofile hinzu. Das eingebettete Audiofile kann nur WAV sein.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -19,11 +19,11 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen AudioFrame. |
-| y | Single | Y-Koordinate eines neuen AudioFrame. |
-| width | Single | Breite eines neuen AudioFrame. |
-| height | Single | Höhe eines neuen AudioFrame. |
-| audio_stream | Stream | Audio-Stream. |
+| x | Single | X-Koordinate eines neuen Audioframes. |
+| y | Single | Y-Koordinate eines neuen Audioframes. |
+| width | Single | Breite eines neuen Audioframes. |
+| height | Single | Höhe eines neuen Audioframes. |
+| audio_stream | Stream | Audiostream. |
 
 ### Rückgabewert
 
@@ -40,7 +40,7 @@ Erstelltes AudioFrame-Objekt.
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-Fügen Sie ein AudioFrame mit eingebetteter Audiodatei ein. Es verwendet die Audiodatei aus der Liste Presentation.Audios.
+Fügen Sie ein AudioFrame mit eingebettetem Audiofile hinzu. Es verwendet die Audiodatei aus der Liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -50,10 +50,10 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen AudioFrame. |
-| y | Single | Y-Koordinate eines neuen AudioFrame. |
-| width | Single | Breite eines neuen AudioFrame. |
-| height | Single | Höhe eines neuen AudioFrame. |
+| x | Single | X-Koordinate eines neuen Audioframes. |
+| y | Single | Y-Koordinate eines neuen Audioframes. |
+| width | Single | Breite eines neuen Audioframes. |
+| height | Single | Höhe eines neuen Audioframes. |
 | audio | IAudio | Audio aus der Liste Presentation.Audios. |
 
 ### Rückgabewert

@@ -1,7 +1,7 @@
 ---
 title: AnchorCenter
-second_title: Aspose.Slides for .NET API 参考
-description: 确定文本框是否居中在单元格内。可读写布尔值。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定文本框是否居中于单元格内。可读写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/cell/anchorcenter/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/cell/anchorcenter/
 
 ## Cell.AnchorCenter 属性
 
-确定文本框是否居中在单元格内。可读写布尔值。
+确定文本框是否居中于单元格内。可读写布尔值。
 
 ```csharp
 public bool AnchorCenter { get; set; }

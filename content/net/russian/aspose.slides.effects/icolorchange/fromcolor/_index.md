@@ -1,21 +1,21 @@
 ---
 title: FromColor
-second_title: Aspose.Sildes для .NET API Справочник
-description: Цвет, который будет заменен. Доступ только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Цвет, который будет заменен. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/icolorchange/fromcolor/
 ---
 
-## Свойство IColorChange.FromColor
+## IColorChange.FromColor свойство
 
-Цвет, который будет заменен. Доступ только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
+Цвет, который будет заменен. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat FromColor { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * интерфейс [IColorChange](../../icolorchange)

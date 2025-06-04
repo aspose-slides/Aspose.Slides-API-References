@@ -1,13 +1,13 @@
 ---
 title: Captions
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 WebVTT 关闭字幕。
 type: docs
 weight: 1030
 url: /zh/aspose.slides/captions/
 ---
 
-## Captions 类
+## Captions class
 
 表示 WebVTT 关闭字幕。
 
@@ -15,16 +15,16 @@ url: /zh/aspose.slides/captions/
 public class Captions : ICaptions
 ```
 
-## 属性
+## Properties
 
 | 名称 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | 返回关闭字幕的二进制数据。只读 Byte[]。 |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | 返回关闭字幕的全局唯一标识符 (GUID)。只读 Guid。 |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | 以 UTF-8 编码的字符串形式返回关闭字幕数据。只读 String。 |
-| [Label](../../aspose.slides/captions/label) { get; set; } | 返回或设置关闭字幕的标签。读写 String。 |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | 返回关闭字幕的二进制数据。只读 Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | 返回关闭字幕的全局唯一标识符 (GUID)。只读 Guid. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | 返回关闭字幕数据作为 UTF-8 编码的字符串。只读 String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | 返回或设置关闭字幕的标签。读写 String. |
 
-### 另请参阅
+### 参考
 
 * 接口 [ICaptions](../icaptions)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

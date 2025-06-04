@@ -1,6 +1,6 @@
 ---
 title: CommandType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает тип команды. Чтение/запись MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/motioncmdpath/commandtype/
 public MotionCommandPathType CommandType { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * enum [MotionCommandPathType](../../motioncommandpathtype)
 * class [MotionCmdPath](../../motioncmdpath)

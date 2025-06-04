@@ -1,15 +1,15 @@
 ---
 title: BevelTop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип верхнего 3D фаски. Только для чтения IShapeBevelaspose.slides/ishapebevel.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает тип верхнего 3D-канта. Только для чтения IShapeBevelaspose.slides/ishapebevel.
 type: docs
 weight: 20
 url: /ru/aspose.slides/threedformat/beveltop/
 ---
 
-## Свойство ThreeDFormat.BevelTop
+## ThreeDFormat.BevelTop свойство
 
-Возвращает или устанавливает тип верхнего 3D фаски. Только для чтения [`IShapeBevel`](../../ishapebevel).
+Возвращает или устанавливает тип верхнего 3D-канта. Только для чтения [`IShapeBevel`](../../ishapebevel).
 
 ```csharp
 public IShapeBevel BevelTop { get; }

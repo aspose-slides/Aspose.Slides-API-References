@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable.
+description: Gibt das IEnumerable-Interface zurück. Nur-lesbares IEnumerable.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/ibehaviorcollection/asienumerable/
@@ -9,19 +9,19 @@ url: /de/aspose.slides.animation/ibehaviorcollection/asienumerable/
 
 ## IBehaviorCollection.AsIEnumerable Eigenschaft
 
-Gibt die IEnumerable-Schnittstelle zurück. Nur-Lese IEnumerable.
+Gibt das IEnumerable-Interface zurück. Nur-lesbares IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Bemerkungen
+### Hinweise
 
 Für COM-Kompatibilität.
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IBehaviorCollection](../../ibehaviorcollection)
+* Interface [IBehaviorCollection](../../ibehaviorcollection)
 * Namespace [Aspose.Slides.Animation](../../ibehaviorcollection)
 * Assembly [Aspose.Slides](../../../)
 

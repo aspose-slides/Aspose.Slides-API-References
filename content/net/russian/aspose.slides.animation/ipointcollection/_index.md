@@ -1,7 +1,7 @@
 ---
 title: IPointCollection
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет собой коллекцию порций.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию частей.
 type: docs
 weight: 470
 url: /ru/aspose.slides.animation/ipointcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/ipointcollection/
 
 ## Интерфейс IPointCollection
 
-Представляет собой коллекцию порций.
+Представляет коллекцию частей.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>

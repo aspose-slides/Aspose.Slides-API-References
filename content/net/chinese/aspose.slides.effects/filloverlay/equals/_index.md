@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定指定的 FillOverlayaspose.slides.effects/filloverlay 是否等于当前的 FillOverlayaspose.slides.effects/filloverlay。
 type: docs
 weight: 30
@@ -21,9 +21,9 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果对象相等，则返回 true；否则，返回 false。
+如果对象相等则为 true；否则为 false。
 
-### 另请参见
+### 另请参阅
 
 * 类 [FillOverlay](../../filloverlay)
 * 命名空间 [Aspose.Slides.Effects](../../filloverlay)

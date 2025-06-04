@@ -1,7 +1,7 @@
 ---
 title: DisableSoftEdgeEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 禁用软边缘效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 禁用柔和边缘效果。
 type: docs
 weight: 180
 url: /zh/aspose.slides/ieffectformat/disablesoftedgeeffect/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ieffectformat/disablesoftedgeeffect/
 
 ## IEffectFormat.DisableSoftEdgeEffect 方法
 
-禁用软边缘效果。
+禁用柔和边缘效果。
 
 ```csharp
 public void DisableSoftEdgeEffect()
 ```
 
-### 另见
+### 参见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 命名空间 [Aspose.Slides](../../ieffectformat)

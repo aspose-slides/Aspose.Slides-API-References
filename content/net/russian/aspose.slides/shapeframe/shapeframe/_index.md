@@ -1,7 +1,7 @@
 ---
 title: ShapeFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новые свойства рамок фигуры.
+second_title: Aspose.Sildes для .NET API справочник
+description: Создает новые свойства рамок фигур.
 type: docs
 weight: 10
 url: /ru/aspose.slides/shapeframe/shapeframe/
@@ -18,13 +18,13 @@ public ShapeFrame(float x, float y, float width, float height, NullableBool flip
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата рамки. |
-| y | Single | Y-координата рамки. |
+| x | Single | Координата X рамки. |
+| y | Single | Координата Y рамки. |
 | width | Single | Ширина рамки. |
 | height | Single | Высота рамки. |
-| flipH | NullableBool | True, если рамка перевернута по горизонтали. |
-| flipV | NullableBool | True, если рамка перевернута по вертикали. |
-| rotationAngle | Single | Число градусов, на которое рамка повернута. |
+| flipH | NullableBool | Истина, если рамка перевёрнута по горизонтали. |
+| flipV | NullableBool | Истина, если рамка перевёрнута по вертикали. |
+| rotationAngle | Single | Угол в градусах, на который рамка повёрнута. |
 
 ### См. также
 

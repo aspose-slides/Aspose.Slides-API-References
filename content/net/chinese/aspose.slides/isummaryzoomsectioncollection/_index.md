@@ -1,7 +1,7 @@
 ---
 title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示一个摘要缩放部分对象的集合。
+description: 表示摘要缩放节对象的集合。
 type: docs
 weight: 6950
 url: /zh/aspose.slides/isummaryzoomsectioncollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isummaryzoomsectioncollection/
 
 ## ISummaryZoomSectionCollection 接口
 
-表示一个摘要缩放部分对象的集合。
+表示摘要缩放节对象的集合。
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -25,11 +25,11 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 创建新的摘要缩放部分对象并将其添加到集合中 |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 从集合中删除所有 SummaryZoomSection 对象。 |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 返回给定部分的摘要缩放部分元素。 |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 返回指定的 SummaryZoomSection 对象的索引。 |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 从集合中移除摘要缩放部分对象。 |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 创建新的摘要缩放节对象并将其添加到集合中 |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 从集合中移除所有 SummaryZoomSection 对象。 |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 返回给定节的摘要缩放节元素。 |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 返回指定 SummaryZoomSection 对象的索引。 |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 从集合中移除摘要缩放节对象。 |
 
 ### 另请参阅
 

@@ -1,7 +1,7 @@
 ---
 title: HasDataTable
 second_title: Aspose.Slides for .NET API Reference
-description: 确定图表是否具有数据表。可读写布尔值。
+description: 确定图表是否具有数据表。可读/可写布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides.charts/chart/hasdatatable/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chart/hasdatatable/
 
 ## Chart.HasDataTable 属性
 
-确定图表是否具有数据表。可读写布尔值。
+确定图表是否具有数据表。可读/可写布尔值。
 
 ```csharp
 public bool HasDataTable { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [Chart](../../chart)
 * namespace [Aspose.Slides.Charts](../../chart)

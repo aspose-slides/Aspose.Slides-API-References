@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置标记填充。只读 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/marker/format/
 public IFormat Format { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFormat](../../iformat)
 * 类 [Marker](../../marker)

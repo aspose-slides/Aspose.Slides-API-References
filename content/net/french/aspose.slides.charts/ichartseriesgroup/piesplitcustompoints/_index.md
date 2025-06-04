@@ -1,7 +1,7 @@
 ---
 title: PieSplitCustomPoints
-second_title: Référence API Aspose.Slides pour .NET
-description: Les informations sur la répartition personnalisée pour un graphique en tarte ou un graphique en barre avec une répartition personnalisée. Contient des points de données qui doivent être dessinés dans la deuxième tarte ou barre dans un graphique en tarte ou en barre. Lecture seule IPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Les informations de séparation personnalisées pour un graphique en secteurs ou en barres avec une séparation personnalisée. Contient les points de données qui doivent être dessinés dans le deuxième secteur ou la barre d'un graphique en secteurs ou en barres. Lecture seule IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
 type: docs
 weight: 140
 url: /fr/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
 
 ## Propriété IChartSeriesGroup.PieSplitCustomPoints
 
-Les informations sur la répartition personnalisée pour un graphique en tarte ou un graphique en barre avec une répartition personnalisée. Contient des points de données qui doivent être dessinés dans la deuxième tarte ou barre dans un graphique en tarte ou en barre. Lecture seule [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
+Les informations de séparation personnalisées pour un graphique en secteurs ou en barres avec une séparation personnalisée. Contient les points de données qui doivent être dessinés dans le deuxième secteur ou la barre d'un graphique en secteurs ou en barres. Lecture seule [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }

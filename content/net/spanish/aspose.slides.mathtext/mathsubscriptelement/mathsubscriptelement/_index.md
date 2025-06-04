@@ -1,36 +1,36 @@
----
+---  
 title: MathSubscriptElement
-second_title: Aspose.Slides para .NET Referencia API
+second_title: Referencia de API de Aspose.Slides para .NET  
 description: Inicializa una nueva instancia de la clase MathSubscriptElement.
-type: docs
-weight: 10
+type: docs  
+weight: 10  
 url: /es/aspose.slides.mathtext/mathsubscriptelement/mathsubscriptelement/
----
+---  
 
-## Constructor de MathSubscriptElement
+## Constructor de MathSubscriptElement  
 
-Inicializa una nueva instancia de la clase MathSubscriptElement.
+Inicializa una nueva instancia de la clase MathSubscriptElement.  
 
-```csharp
-public MathSubscriptElement(IMathElement baseArg, IMathElement subScript)
-```
+```csharp  
+public MathSubscriptElement(IMathElement baseArg, IMathElement subScript)  
+```  
 
-### Ejemplos
+### Ejemplos  
 
-Ejemplo:
+Ejemplo:  
 
-```csharp
-[C#]
-IMathElement baseElement = new MathematicalText("X");
-IMathElement subscript = new MathematicalText("i");
-MathSubscriptElement subscriptElement = new MathSubscriptElement(baseElement, subscript);
-```
+```csharp  
+[C#]  
+IMathElement baseElement = new MathematicalText("X");  
+IMathElement subscript = new MathematicalText("i");  
+MathSubscriptElement subscriptElement = new MathSubscriptElement(baseElement, subscript);  
+```  
 
-### Véase También
+### Ver También  
 
-* interfaz [IMathElement](../../imathelement)
-* clase [MathSubscriptElement](../../mathsubscriptelement)
-* espacio de nombres [Aspose.Slides.MathText](../../mathsubscriptelement)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IMathElement](../../imathelement)  
+* clase [MathSubscriptElement](../../mathsubscriptelement)  
+* espacio de nombres [Aspose.Slides.MathText](../../mathsubscriptelement)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO MODIFICAR: generado por xmldocmd para Aspose.Slides.dll -->  

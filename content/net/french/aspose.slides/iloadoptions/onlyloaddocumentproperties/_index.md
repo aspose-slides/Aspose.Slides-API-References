@@ -1,15 +1,15 @@
 ---
 title: OnlyLoadDocumentProperties
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cette propriété a du sens si le fichier de présentation est protégé par un mot de passe. Une valeur de true signifie que seules les propriétés du document doivent être chargées à partir d'un fichier de présentation chiffré et que le mot de passe doit être ignoré. Une valeur de false signifie que l'ensemble de la présentation chiffrée doit être chargée en utilisant le bon mot de passe. Si la présentation n'est pas chiffrée, la valeur de la propriété est toujours ignorée. Si les propriétés du document d'un fichier chiffré ne sont pas publiques et que la valeur de la propriété est true, alors les propriétés du document ne peuvent pas être chargées et une exception sera levée. Booléen en lecture-écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Cette propriété a du sens si le fichier de présentation est protégé par mot de passe. Une valeur de true signifie que seules les propriétés du document doivent être chargées à partir d'un fichier de présentation chiffré et que le mot de passe doit être ignoré. Une valeur de false signifie que l'intégralité de la présentation chiffrée doit être chargée avec l'utilisation du bon mot de passe. Si la présentation n'est pas chiffrée, alors la valeur de la propriété est toujours ignorée. Si les propriétés du document d'un fichier chiffré ne sont pas publiques et que la valeur de la propriété est true, alors les propriétés du document ne peuvent pas être chargées et une exception sera levée. Booléen en lecture-écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides/iloadoptions/onlyloaddocumentproperties/
 ---
 
-## Propriété ILoadOptions.OnlyLoadDocumentProperties
+## ILoadOptions.OnlyLoadDocumentProperties property
 
-Cette propriété a du sens si le fichier de présentation est protégé par un mot de passe. Une valeur de true signifie que seules les propriétés du document doivent être chargées à partir d'un fichier de présentation chiffré et que le mot de passe doit être ignoré. Une valeur de false signifie que l'ensemble de la présentation chiffrée doit être chargée en utilisant le bon mot de passe. Si la présentation n'est pas chiffrée, la valeur de la propriété est toujours ignorée. Si les propriétés du document d'un fichier chiffré ne sont pas publiques et que la valeur de la propriété est true, alors les propriétés du document ne peuvent pas être chargées et une exception sera levée. Booléen en lecture-écriture.
+Cette propriété a du sens si le fichier de présentation est protégé par mot de passe. Une valeur de true signifie que seules les propriétés du document doivent être chargées à partir d'un fichier de présentation chiffré et que le mot de passe doit être ignoré. Une valeur de false signifie que l'intégralité de la présentation chiffrée doit être chargée avec l'utilisation du bon mot de passe. Si la présentation n'est pas chiffrée, alors la valeur de la propriété est toujours ignorée. Si les propriétés du document d'un fichier chiffré ne sont pas publiques et que la valeur de la propriété est true, alors les propriétés du document ne peuvent pas être chargées et une exception sera levée. Booléen en lecture-écriture.
 
 ```csharp
 public bool OnlyLoadDocumentProperties { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Position der Tick-Mark-Beschriftungen auf der angegebenen Achse dar. Lese-/Schreibzugriff auf TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Position der Beschriftungen der Tick-Marken auf der angegebenen Achse dar. Lese-/Schreibzugriff auf TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
 type: docs
 weight: 510
 url: /de/aspose.slides.charts/axis/ticklabelposition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/ticklabelposition/
 
 ## Axis.TickLabelPosition-Eigenschaft
 
-Stellt die Position der Tick-Mark-Beschriftungen auf der angegebenen Achse dar. Lese-/Schreibzugriff auf [`TickLabelPositionType`](../../ticklabelpositiontype).
+Stellt die Position der Beschriftungen der Tick-Marken auf der angegebenen Achse dar. Lese-/Schreibzugriff auf [`TickLabelPositionType`](../../ticklabelpositiontype).
 
 ```csharp
 public TickLabelPositionType TickLabelPosition { get; set; }

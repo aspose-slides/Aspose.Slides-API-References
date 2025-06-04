@@ -7,7 +7,7 @@ weight: 140
 url: /de/aspose.slides.mathtext/mathblock/join/
 ---
 
-## Verbinden(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
 Verbindet ein mathematisches Element mit diesem mathematischen Block
 
@@ -44,7 +44,7 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Verbinden(string) {#join_1}
+## Join(string) {#join_1}
 
 Verbindet einen mathematischen Text mit diesem mathematischen Block
 
@@ -58,7 +58,7 @@ public override IMathBlock Join(string mathText)
 
 ### Rückgabewert
 
-Ein neuer IMathBlock, der diese Instanz und das angegebene Argument enthält
+Ein neues IMathBlock, das diese Instanz und das angegebene Argument enthält
 
 ### Beispiele
 

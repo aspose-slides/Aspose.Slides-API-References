@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el número de columnas en una colección. Solo lectura Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve el número de columnas en una colección. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ColumnCollection](../../columncollection)
 * espacio de nombres [Aspose.Slides](../../columncollection)

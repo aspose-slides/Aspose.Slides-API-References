@@ -1,6 +1,6 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET Справочник по API
 description: Создает новый VideoPlayerHtmlController.
 type: docs
 weight: 20
@@ -20,9 +20,9 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 | --- | --- | --- |
 | path | String | Путь. |
 | fileName | String | Имя файла. |
-| baseUri | String | Основной URI. |
+| baseUri | String | Базовый URI. |
 
-### См. Также
+### См. также
 
 * интерфейс [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
 * класс [VideoPlayerHtmlControllerFactory](../../videoplayerhtmlcontrollerfactory)

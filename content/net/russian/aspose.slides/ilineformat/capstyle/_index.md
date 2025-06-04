@@ -1,15 +1,15 @@
 ---
 title: CapStyle
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или задает стиль окончания линии. Чтение/запись LineCapStyleaspose.slides/linecapstyle.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает стиль окончания линии. Чтение/запись LineCapStyleaspose.slides/linecapstyle.
 type: docs
 weight: 60
 url: /ru/aspose.slides/ilineformat/capstyle/
 ---
 
-## Свойство ILineFormat.CapStyle
+## ILineFormat.CapStyle свойство
 
-Возвращает или задает стиль окончания линии. Чтение/запись [`LineCapStyle`](../../linecapstyle).
+Возвращает или устанавливает стиль окончания линии. Чтение/запись [`LineCapStyle`](../../linecapstyle).
 
 ```csharp
 public LineCapStyle CapStyle { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: GradientDirection
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置渐变的样式。可读/可写 GradientDirectionaspose.slides/gradientdirection。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/gradientformat/gradientdirection/
 public GradientDirection GradientDirection { get; set; }
 ```
 
-### 另见
+### 相关信息
 
 * enum [GradientDirection](../../gradientdirection)
 * class [GradientFormat](../../gradientformat)

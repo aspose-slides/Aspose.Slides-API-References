@@ -1,6 +1,6 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Этот интерфейс позволяет инициализировать IBitmapWrapper.
 type: docs
 weight: 5980
@@ -17,7 +17,7 @@ public interface IImageWrapperFactory
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Инициализирует новый экземпляр класса ImageWrapper из указанного существующего изображения. |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(Stream) | Инициализирует новый экземпляр класса ImageWrapper из указанного потока данных. |

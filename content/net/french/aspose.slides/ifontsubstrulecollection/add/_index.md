@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Ajoute la nouvelle règle de substitution de police à la collection
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifontsubstrulecollection/add/
 ---
 
-## Méthode IFontSubstRuleCollection.Add
+## IFontSubstRuleCollection.Add méthode
 
 Ajoute la nouvelle règle de substitution de police à la collection
 
@@ -19,7 +19,7 @@ public void Add(IFontSubstRule value)
 | --- | --- | --- |
 | value | IFontSubstRule | Règle de substitution de police [`IFontSubstRule`](../../ifontsubstrule) |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontSubstRule](../../ifontsubstrule)
 * interface [IFontSubstRuleCollection](../../ifontsubstrulecollection)

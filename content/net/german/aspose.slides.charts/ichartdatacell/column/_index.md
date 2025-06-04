@@ -1,7 +1,7 @@
 ---
 title: Column
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Index der Spalte des Arbeitsblatts zurück, in dem sich die Zelle befindet. Schreibgeschütztes Int32.
+description: Gibt den Index der Spalte des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-lesend Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartdatacell/column/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatacell/column/
 
 ## IChartDataCell.Column-Eigenschaft
 
-Gibt den Index der Spalte des Arbeitsblatts zurück, in dem sich die Zelle befindet. Schreibgeschütztes Int32.
+Gibt den Index der Spalte des Arbeitsblatts zurück, in der sich die Zelle befindet. Nur-lesend Int32.
 
 ```csharp
 public int Column { get; }
@@ -17,7 +17,7 @@ public int Column { get; }
 
 ### Siehe auch
 
-* Schnittstelle [IChartDataCell](../../ichartdatacell)
+* Interface [IChartDataCell](../../ichartdatacell)
 * Namespace [Aspose.Slides.Charts](../../ichartdatacell)
 * Assembly [Aspose.Slides](../../../)
 

@@ -1,15 +1,15 @@
 ---
 title: Enclose
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Enveloppe un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
+second_title: Aspose.Slides pour .NET API Reference
+description: Enclot un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme cadre
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/mathelementbase/enclose/
 ---
 
-## Enclose(char, char) {#enclose_1}
+## Enclose(char, char) {#enclose_1}
 
-Enveloppe un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme encadrement
+Enclot un élément mathématique dans des caractères spécifiés tels que des parenthèses ou d'autres caractères comme cadre
 
 ```csharp
 public virtual IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -17,12 +17,12 @@ public virtual IMathDelimiter Enclose(char beginningCharacter, char endingCharac
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | Char | Caractère de début (généralement crochet gauche) |
-| endingCharacter | Char | Caractère de fin (généralement crochet droit) |
+| beginningCharacter | Char | Caractère de début (généralement parenthèse gauche) |
+| endingCharacter | Char | Caractère de fin (généralement parenthèse droite) |
 
 ### Valeur de retour
 
-L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut les caractères spécifiés comme encadrement
+L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter) qui inclut des caractères spécifiés comme cadre
 
 ### Exemples
 
@@ -45,7 +45,7 @@ IMathDelimiter delimiter = element.Enclose('[', ']');
 
 ## Enclose() {#enclose}
 
-Enveloppe un élément mathématique dans des parenthèses
+Enclot un élément mathématique dans des parenthèses
 
 ```csharp
 public IMathDelimiter Enclose()

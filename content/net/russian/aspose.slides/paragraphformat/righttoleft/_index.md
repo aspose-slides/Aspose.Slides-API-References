@@ -1,13 +1,13 @@
 ---
 title: RightToLeft
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, используется ли написание справа налево в абзаце. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 110
 url: /ru/aspose.slides/paragraphformat/righttoleft/
 ---
 
-## Свойство ParagraphFormat.RightToLeft
+## ParagraphFormat.RightToLeft свойство
 
 Определяет, используется ли написание справа налево в абзаце. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/paragraphformat/righttoleft/
 public NullableBool RightToLeft { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [NullableBool](../../nullablebool)
 * class [ParagraphFormat](../../paragraphformat)

@@ -1,21 +1,21 @@
 ---
 title: Height
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la hauteur de puce d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion dans le paragraphe. Lecture/écriture Unique.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit la hauteur des puces d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion du paragraphe. Lecture/écriture Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibulletformat/height/
 ---
 
-## Propriété IBulletFormat.Height
+## IBulletFormat.Height property
 
-Renvoie ou définit la hauteur de puce d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion dans le paragraphe. Lecture/écriture Unique.
+Renvoie ou définit la hauteur des puces d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion du paragraphe. Lecture/écriture Single.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### Voir aussi
+### See Also
 
 * interface [IBulletFormat](../../ibulletformat)
 * namespace [Aspose.Slides](../../ibulletformat)

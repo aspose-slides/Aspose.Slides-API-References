@@ -1,7 +1,7 @@
 ---
 title: FormatScheme
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Format-Schema für Formen zurück. Nur lesbares IFormatSchemeaspose.slides.theme/iformatscheme.
+description: Gibt das Format-Schema der Form zurück. Nur lesbar IFormatSchemeaspose.slides.theme/iformatscheme.
 type: docs
 weight: 40
 url: /de/aspose.slides.theme/mastertheme/formatscheme/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/mastertheme/formatscheme/
 
 ## MasterTheme.FormatScheme-Eigenschaft
 
-Gibt das Format-Schema für Formen zurück. Nur lesbar [`IFormatScheme`](../../iformatscheme).
+Gibt das Format-Schema der Form zurück. Nur lesbar [`IFormatScheme`](../../iformatscheme).
 
 ```csharp
 public override IFormatScheme FormatScheme { get; }

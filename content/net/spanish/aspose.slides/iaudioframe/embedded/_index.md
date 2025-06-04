@@ -1,7 +1,7 @@
 ---
 title: Embedded
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si un sonido está integrado en una presentación. Solo lectura Boolean.
+description: Determina si un sonido está incrustado en una presentación. Solo lectura Boolean.
 type: docs
 weight: 60
 url: /es/aspose.slides/iaudioframe/embedded/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/iaudioframe/embedded/
 
 ## Propiedad IAudioFrame.Embedded
 
-Determina si un sonido está integrado en una presentación. Solo lectura Boolean.
+Determina si un sonido está incrustado en una presentación. Solo lectura Boolean.
 
 ```csharp
 public bool Embedded { get; }
 ```
 
-### Vea también
+### Ver También
 
 * interfaz [IAudioFrame](../../iaudioframe)
 * espacio de nombres [Aspose.Slides](../../iaudioframe)

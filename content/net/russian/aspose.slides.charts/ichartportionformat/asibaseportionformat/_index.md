@@ -1,6 +1,6 @@
 ---
 title: AsIBasePortionFormat
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает интерфейс IBasePortionFormat.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartportionformat/asibaseportionformat/
 public IBasePortionFormat AsIBasePortionFormat { get; }
 ```
 
-### Замечания
+### Примечания
 
 Для совместимости с COM.
 

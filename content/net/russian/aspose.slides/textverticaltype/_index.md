@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет вертикальный режим письма для текста.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет вертикальный режим написания текста.
 type: docs
 weight: 10720
 url: /ru/aspose.slides/textverticaltype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/textverticaltype/
 
 ## Перечисление TextVerticalType
 
-Определяет вертикальный режим письма для текста.
+Определяет вертикальный режим написания текста.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -24,11 +24,11 @@ public enum TextVerticalType : sbyte
 | Vertical | `1` | Вертикальный текст. |
 | Vertical270 | `2` | Вертикальный текст под углом 270 градусов. |
 | WordArtVertical | `3` | Вертикальный текст WordArt. |
-| EastAsianVertical | `4` | Восточноазиатский вертикальный текст. |
-| MongolianVertical | `5` | Монгольский вертикальный текст. |
+| EastAsianVertical | `4` | Вертикальный текст для восточноазиатских языков. |
+| MongolianVertical | `5` | Вертикальный монгольский текст. |
 | WordArtVerticalRightToLeft | `6` | Вертикальный текст WordArt справа налево. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

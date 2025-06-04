@@ -1,6 +1,6 @@
 ---
 title: ExtrusionSkewAngle
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa la propiedad extrusion.skewangle
 type: docs
 weight: 200
@@ -19,6 +19,6 @@ public static BehaviorProperty ExtrusionSkewAngle { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

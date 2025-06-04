@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bietet einfachen Zugang zu enthaltenen Hyperlinks. Nur lesbarer IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur-Lese IHyperlinkQueries aspose.slides/ihyperlinkqueries.
 type: docs
 weight: 20
 url: /de/aspose.slides/itextframe/hyperlinkqueries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframe/hyperlinkqueries/
 
 ## ITextFrame.HyperlinkQueries-Eigenschaft
 
-Bietet einfachen Zugang zu enthaltenen Hyperlinks. Nur lesbarer [`IHyperlinkQueries`](../../ihyperlinkqueries).
+Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur-Lese [`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }

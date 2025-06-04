@@ -1,6 +1,6 @@
 ---
 title: AlternativeLanguageId
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回替代语言的 Id。只读字符串。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformateffectivedata/alternativelanguageid/
 public string AlternativeLanguageId { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibaseportionformateffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: AdvanceOnClick
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica si un clic del ratón avanzará la diapositiva o no. Si este atributo no está especificado, se asume un valor de verdadero. Booleano de lectura/escritura.
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Especifica si un clic del ratón avanzará la diapositiva o no. Si este atributo no se especifica, se asume un valor de verdadero. Booleano de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides.slideshow/slideshowtransition/advanceonclick/
 ---
 
-## Propiedad SlideShowTransition.AdvanceOnClick
+## SlideShowTransition.AdvanceOnClick property
 
-Especifica si un clic del ratón avanzará la diapositiva o no. Si este atributo no está especificado, se asume un valor de verdadero. Booleano de lectura/escritura.
+Especifica si un clic del ratón avanzará la diapositiva o no. Si este atributo no se especifica, se asume un valor de verdadero. Booleano de lectura/escritura.
 
 ```csharp
 public bool AdvanceOnClick { get; set; }

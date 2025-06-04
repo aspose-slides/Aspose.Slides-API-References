@@ -1,13 +1,13 @@
 ---
 title: ShadowMatrixYtoX
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Representa la propiedad shadow.matrix.ytox
 type: docs
 weight: 660
 url: /es/aspose.slides.animation/behaviorproperty/shadowmatrixytox/
 ---
 
-## Propiedad BehaviorProperty.ShadowMatrixYtoX
+## BehaviorProperty.ShadowMatrixYtoX property
 
 Representa la propiedad 'shadow.matrix.ytox'
 
@@ -15,10 +15,10 @@ Representa la propiedad 'shadow.matrix.ytox'
 public static BehaviorProperty ShadowMatrixYtoX { get; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

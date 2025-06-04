@@ -1,6 +1,6 @@
 ---
 title: IBackground
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente l'arrière-plan d'une diapositive.
 type: docs
 weight: 5070
@@ -23,8 +23,8 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Renvoie l'interface ISlideComponent. Lecture seule [`ISlideComponent`](../islidecomponent). |
 | [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Renvoie un EffectFormat pour le remplissage BackgroundType.OwnBackground. Lecture seule [`IEffectFormat`](../ieffectformat). |
 | [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Renvoie un FillFormat pour le remplissage BackgroundType.OwnBackground. Lecture seule [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Renvoie un ColorFormat pour un remplissage BackgroundType.Themed. Lecture seule [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Renvoie un index de remplissage BackgroundType.Themed dans la collection de thèmes d'arrière-plan. 0 signifie aucun remplissage. 1..999 - index. Lecture/écriture UInt16. |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Renvoie un ColorFormat pour un remplissage de type BackgroundType.Themed. Lecture seule [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Renvoie un index de remplissage de type BackgroundType.Themed dans la collection de thèmes d'arrière-plan. 0 signifie aucun remplissage. 1..999 - index. Lecture/écriture UInt16. |
 | [Type](../../aspose.slides/ibackground/type) { get; set; } | Renvoie un type de remplissage d'arrière-plan. Lecture/écriture [`BackgroundType`](../backgroundtype). |
 
 ## Méthodes
@@ -33,7 +33,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | --- | --- |
 | [GetEffective](../../aspose.slides/ibackground/geteffective)() | Obtient les données d'arrière-plan effectives avec l'héritage appliqué. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFillParamSource](../ifillparamsource)
 * interface [ISlideComponent](../islidecomponent)

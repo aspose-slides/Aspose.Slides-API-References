@@ -1,6 +1,6 @@
 ---
 title: ReadPresentation
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Lee una presentación existente desde un arreglo
 type: docs
 weight: 60

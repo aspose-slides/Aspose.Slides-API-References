@@ -1,7 +1,7 @@
 ---
 title: AddLuminanceEffect
-second_title: Aspose.Sildes для .NET API Справочник
-description: Добавляет новый эффект яркости в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новый эффект Люминеции в конец коллекции.
 type: docs
 weight: 180
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addluminanceef
 
 ## IImageTransformOperationCollection.AddLuminanceEffect метод
 
-Добавляет новый эффект яркости в конец коллекции.
+Добавляет новый эффект Люминеции в конец коллекции.
 
 ```csharp
 public ILuminance AddLuminanceEffect(float brightness, float contrast)
@@ -17,8 +17,8 @@ public ILuminance AddLuminanceEffect(float brightness, float contrast)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brightness | Single | Процент изменения яркости. |
-| contrast | Single | Процент изменения контраста. |
+| brightness | Single | Процент для изменения яркости. |
+| contrast | Single | Процент для изменения контраста. |
 
 ### Возвращаемое значение
 

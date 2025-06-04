@@ -1,21 +1,21 @@
 ---
 title: AlternativeTextTitle
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与形状关联的替代文本标题。可读写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置与形状相关联的替代文本的标题。可读/写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides/shape/alternativetexttitle/
 ---
 
-## Shape.AlternativeTextTitle 属性
+## Shape.AlternativeTextTitle property
 
-返回或设置与形状关联的替代文本标题。可读写字符串。
+返回或设置与形状相关联的替代文本的标题。可读/写字符串。
 
 ```csharp
 public string AlternativeTextTitle { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [Shape](../../shape)
 * namespace [Aspose.Slides](../../shape)

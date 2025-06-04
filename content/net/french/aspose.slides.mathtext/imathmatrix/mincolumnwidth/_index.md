@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Largeur minimale de colonne en twips 1/20 d'un point L'espacement des espaces, également appelé espacement entre colonnes ou largeur de l'espace, est ajouté à la MinColumnWidth pour déterminer la distance totale d'espacement des colonnes de la matrice distance entre les mêmes bords de différentes colonnes. Par défaut  0.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Largeur minimale de colonne en twips 1/20ème d'un point L'espacement entre les colonnes, également appelé Espace entre les colonnes ou Largeur de l'écart, est ajouté à la MinColumnWidth pour déterminer la distance totale d'espacement des colonnes de la matrice distance entre les mêmes bords de colonnes différentes. Par défaut  0.
 type: docs
 weight: 80
 url: /fr/aspose.slides.mathtext/imathmatrix/mincolumnwidth/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathmatrix/mincolumnwidth/
 
 ## Propriété IMathMatrix.MinColumnWidth
 
-Largeur minimale de colonne en twips (1/20 d'un point) L'espacement des espaces (également appelé "espacement entre colonnes" ou "largeur de l'espace") est ajouté à la MinColumnWidth pour déterminer la distance totale d'espacement des colonnes de la matrice (distance entre les mêmes bords de différentes colonnes). Par défaut : 0.
+Largeur minimale de colonne en twips (1/20ème d'un point) L'espacement entre les colonnes (également appelé « Espace entre les colonnes » ou « Largeur de l'écart ») est ajouté à la MinColumnWidth pour déterminer l'espacement total des colonnes de la matrice (distance entre les mêmes bords de colonnes différentes). Par défaut : 0.
 
 ```csharp
 public uint MinColumnWidth { get; set; }
@@ -17,7 +17,7 @@ public uint MinColumnWidth { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

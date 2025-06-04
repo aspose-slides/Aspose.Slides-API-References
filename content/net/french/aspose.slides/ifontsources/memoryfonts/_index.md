@@ -1,13 +1,13 @@
 ---
 title: MemoryFonts
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Une collection de polices représentées sous forme de tableaux d'octets.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifontsources/memoryfonts/
 ---
 
-## Propriété IFontSources.MemoryFonts
+## IFontSources.MemoryFonts property
 
 Une collection de polices représentées sous forme de tableaux d'octets.
 

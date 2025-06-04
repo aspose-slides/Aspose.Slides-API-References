@@ -1,15 +1,15 @@
 ---
 title: SetEventHandler
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzt den Ereignisbehandler für die Form
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzt den Ereignishandler für die Form
 type: docs
 weight: 20
 url: /de/aspose.slides.export/svgshape/seteventhandler/
 ---
 
-## SvgShape.SetEventHandler-Methode
+## SvgShape.SetEventHandler Methode
 
-Setzt den Ereignisbehandler für die Form
+Setzt den Ereignishandler für die Form
 
 ```csharp
 public void SetEventHandler(SvgEvent eventType, string handler)
@@ -17,8 +17,8 @@ public void SetEventHandler(SvgEvent eventType, string handler)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| eventType | SvgEvent | Art des Ereignisses. |
-| handler | String | Javascript-Funktion zur Behandlung des Ereignisses. Nullwert entfernt den Handler. |
+| eventType | SvgEvent | Typ des Ereignisses. |
+| handler | String | Javascript-Funktion zum Verarbeiten des Ereignisses. Nullwert entfernt den Handler. |
 
 ### Siehe Auch
 

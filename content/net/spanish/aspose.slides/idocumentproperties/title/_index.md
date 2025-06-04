@@ -7,7 +7,7 @@ weight: 320
 url: /es/aspose.slides/idocumentproperties/title/
 ---
 
-## Propiedad IDocumentProperties.Title
+## IDocumentProperties.Title property
 
 Devuelve o establece el título de una presentación. Cadena de lectura/escritura.
 
@@ -15,10 +15,10 @@ Devuelve o establece el título de una presentación. Cadena de lectura/escritur
 public string Title { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

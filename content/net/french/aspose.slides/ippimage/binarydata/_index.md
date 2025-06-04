@@ -1,7 +1,7 @@
 ---
 title: BinaryData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une copie des données d'une image. Lecteur seul Byte.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie une copie des données d'une image. Lecture seule Byte.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ippimage/binarydata/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ippimage/binarydata/
 
 ## Propriété IPPImage.BinaryData
 
-Renvoie une copie des données d'une image. Lecteur seul Byte[].
+Renvoie une copie des données d'une image. Lecture seule Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPPImage](../../ippimage)
 * namespace [Aspose.Slides](../../ippimage)

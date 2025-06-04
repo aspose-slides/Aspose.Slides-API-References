@@ -1,6 +1,6 @@
 ---
 title: Contains
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour référence API .NET
 description: Détermine si ICollection contient une valeur spécifique.
 type: docs
 weight: 60
@@ -17,11 +17,11 @@ public bool Contains(IBehavior item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| item | IBehavior | L'objet à localiser dans ICollection. |
+| item | IBehavior | L'objet à localiser dans l'ICollection. |
 
-### Valeur de Retour
+### Valeur de retour
 
-true si *item* est trouvé dans ICollection ; sinon, false.
+true si *item* est trouvé dans l'ICollection ; sinon, false.
 
 ### Voir aussi
 

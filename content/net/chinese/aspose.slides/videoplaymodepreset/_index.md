@@ -21,11 +21,11 @@ public enum VideoPlayModePreset
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | 自动播放。 |
-| OnClick | `1` | 仅在点击视频帧时播放。 |
+| OnClick | `1` | 仅在点击视频框时播放。 |
 | AllSlides | `2` | 在所有幻灯片上播放。 |
-| InClickSequence | `3` | 在点击时自动播放。 |
+| InClickSequence | `3` | 自动播放，需点击。 |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

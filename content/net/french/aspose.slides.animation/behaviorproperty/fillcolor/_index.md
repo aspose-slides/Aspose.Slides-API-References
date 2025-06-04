@@ -1,21 +1,21 @@
 ---
 title: FillColor
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente la propriété couleur de remplissage
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente la propriété 'fillcolor'
 type: docs
 weight: 280
 url: /fr/aspose.slides.animation/behaviorproperty/fillcolor/
 ---
 
-## Propriété BehaviorProperty.FillColor
+## BehaviorProperty.FillColor propriété
 
-Représente la propriété 'couleur de remplissage'
+Représente la propriété 'fillcolor'
 
 ```csharp
 public static BehaviorProperty FillColor { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

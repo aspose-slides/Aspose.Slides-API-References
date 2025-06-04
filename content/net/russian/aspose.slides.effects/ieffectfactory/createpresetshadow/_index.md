@@ -1,7 +1,7 @@
 ---
 title: CreatePresetShadow
-second_title: Aspose.Slides для .NET API Reference
-description: Создает эффект предварительно заданной тени.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает эффект предустановленной тени.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/ieffectfactory/createpresetshadow/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ieffectfactory/createpresetshadow/
 
 ## IEffectFactory.CreatePresetShadow метод
 
-Создает эффект предварительно заданной тени.
+Создает эффект предустановленной тени.
 
 ```csharp
 public IPresetShadow CreatePresetShadow()
@@ -17,9 +17,9 @@ public IPresetShadow CreatePresetShadow()
 
 ### Возвращаемое значение
 
-Эффект предварительно заданной тени.
+Эффект предустановленной тени.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPresetShadow](../../ipresetshadow)
 * интерфейс [IEffectFactory](../../ieffectfactory)

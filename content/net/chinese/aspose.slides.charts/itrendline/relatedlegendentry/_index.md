@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
-second_title: Aspose.Slides for .NET API 参考
-description: 表示与此趋势线相关的图例条目 只读 ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表与此趋势线相关的图例条目，只读 ILegendEntryPropertiesaspose.slides/ilegendentryproperties。
 type: docs
 weight: 100
 url: /zh/aspose.slides.charts/itrendline/relatedlegendentry/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/itrendline/relatedlegendentry/
 
 ## ITrendline.RelatedLegendEntry 属性
 
-表示与此趋势线相关的图例条目 只读 [`ILegendEntryProperties`](../../ilegendentryproperties)。
+代表与此趋势线相关的图例条目，只读 [`ILegendEntryProperties`](../../ilegendentryproperties)。
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

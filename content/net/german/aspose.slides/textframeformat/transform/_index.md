@@ -1,15 +1,15 @@
 ---
 title: Transform
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die oder legt die Textumbruchform fest. Lese-/schreibbare TextShapeTypeaspose.slides/textshapetype.
+description: Gibt die Textumbruchform an oder legt sie fest. Lese-/Schreibzugriff auf TextShapeTypeaspose.slides/textshapetype.
 type: docs
 weight: 150
 url: /de/aspose.slides/textframeformat/transform/
 ---
 
-## TextFrameFormat.Transform Eigenschaft
+## TextFrameFormat.Transform-Eigenschaft
 
-Ruht die oder legt die Textumbruchform fest. Lese-/schreibbare [`TextShapeType`](../../textshapetype).
+Gibt die Textumbruchform an oder legt sie fest. Lese-/Schreibzugriff auf [`TextShapeType`](../../textshapetype).
 
 ```csharp
 public TextShapeType Transform { get; set; }

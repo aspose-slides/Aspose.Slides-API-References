@@ -1,7 +1,7 @@
 ---
 title: StrikethroughHorizontal
-second_title: Aspose.Sildes for .NET API Reference
-description: Strikethrough Horizontal 默认值为 false - 指定删除线水平的隐藏或显示状态。
+second_title: Aspose.Slides for .NET API Reference
+description: Strikethrough Horizontal 默认值为 false - 指定删除线水平线的隐藏或显示状态。
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/imathborderbox/strikethroughhorizontal/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathborderbox/strikethroughhorizontal/
 
 ## IMathBorderBox.StrikethroughHorizontal 属性
 
-Strikethrough Horizontal（默认值为 false） - 指定删除线水平的隐藏或显示状态。
+Strikethrough Horizontal（默认值为 false） - 指定删除线水平线的隐藏或显示状态。
 
 ```csharp
 public bool StrikethroughHorizontal { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.StrikethroughHorizontal = true;
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathBorderBox](../../imathborderbox)
 * 命名空间 [Aspose.Slides.MathText](../../imathborderbox)

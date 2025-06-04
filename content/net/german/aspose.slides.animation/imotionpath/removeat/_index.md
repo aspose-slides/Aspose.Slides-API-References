@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt einen Befehl am angegebenen Index.
 type: docs
 weight: 80
 url: /de/aspose.slides.animation/imotionpath/removeat/
 ---
 
-## IMotionPath.RemoveAt-Methode
+## IMotionPath.RemoveAt Methode
 
 Entfernt einen Befehl am angegebenen Index.
 
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index zum Entfernen des Befehls Int32 |
+| index | Int32 | Index für das Entfernen des Befehls Int32 |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMotionPath](../../imotionpath)
 * Namespace [Aspose.Slides.Animation](../../imotionpath)

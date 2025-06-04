@@ -1,15 +1,15 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert die Länge eines Pfeilkopfes.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Länge eines Pfeilspitzen dar.
 type: docs
 weight: 7490
 url: /de/aspose.slides/linearrowheadlength/
 ---
 
-## LineArrowheadLength Enumeration
+## LineArrowheadLength Aufzählung
 
-Repräsentiert die Länge eines Pfeilkopfes.
+Stellt die Länge einer Pfeilspitze dar.
 
 ```csharp
 public enum LineArrowheadLength : sbyte

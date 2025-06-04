@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Füll-, Linien- und Effektstile eines Titels zurück. Nur lesend IFormataspose.slides.charts/iformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Fülllinien effekt Stile eines Titels zurück. Nur lesender IFormataspose.slides.charts/iformat.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/icharttitle/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/icharttitle/format/
 
 ## IChartTitle.Format-Eigenschaft
 
-Gibt die Füll-, Linien- und Effektstile eines Titels zurück. Nur lesend [`IFormat`](../../iformat).
+Gibt die Füll-, Linien-, Effektstile eines Titels zurück. Nur lesender [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

@@ -1,35 +1,35 @@
----
+---  
 title: Remove
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API  
 description: Elimina el valor especificado.
-type: docs
-weight: 110
+type: docs  
+weight: 110  
 url: /es/aspose.slides.charts/chartseriescollection/remove/
----
+---  
 
-## Método ChartSeriesCollection.Remove
+## Método ChartSeriesCollection.Remove  
 
-Elimina el valor especificado.
+Elimina el valor especificado.  
 
-```csharp
-public void Remove(IChartSeries value)
-```
+```csharp  
+public void Remove(IChartSeries value)  
+```  
 
-| Parámetro | Tipo | Descripción |
-| --- | --- | --- |
-| value | IChartSeries | El valor. |
+| Parámetro | Tipo | Descripción |  
+| --- | --- | --- |  
+| value | IChartSeries | El valor. |  
 
-### Excepciones
+### Excepciones  
 
-| excepción | condición |
-| --- | --- |
-| ArgumentException | El parámetro value no se encontró en la colección. |
+| excepción | condición |  
+| --- | --- |  
+| ArgumentException | El parámetro de valor no se encontró en la colección. |  
 
-### Véase También
+### Ver También  
 
-* interface [IChartSeries](../../ichartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* namespace [Aspose.Slides.Charts](../../chartseriescollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IChartSeries](../../ichartseries)  
+* clase [ChartSeriesCollection](../../chartseriescollection)  
+* espacio de nombres [Aspose.Slides.Charts](../../chartseriescollection)  
+* ensamblaje [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

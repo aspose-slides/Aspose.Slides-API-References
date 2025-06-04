@@ -1,15 +1,15 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides для .NET API Справочник
-description: Вставляет копию указанной фигуры в заданное положение коллекции.
+second_title: Aspose.Sildes для справочника API .NET
+description: Вставляет копию указанной фигуры в указанную позицию коллекции.
 type: docs
 weight: 270
 url: /ru/aspose.slides/ishapecollection/insertclone/
 ---
 
-## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
+## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
-Вставляет копию указанной фигуры в заданное положение коллекции.
+Вставляет копию указанной фигуры в указанную позицию коллекции.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y, float width, 
@@ -20,10 +20,10 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 | --- | --- | --- |
 | index | Int32 | Индекс новой фигуры. |
 | sourceShape | IShape | Фигура для клонирования. |
-| x | Single | X координата новой FIGUR. |
-| y | Single | Y координата новой FIGUR. |
-| width | Single | Ширина новой FIGUR. |
-| height | Single | Высота новой FIGUR. |
+| x | Single | X координата новой фигуры. |
+| y | Single | Y координата новой фигуры. |
+| width | Single | Ширина новой фигуры. |
+| height | Single | Высота новой фигуры. |
 
 ### Возвращаемое значение
 
@@ -38,9 +38,9 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 
 ---
 
-## InsertClone(int, IShape, float, float) {#insertclone_1}
+## InsertClone(int, IShape, float, float) {#insertclone_1}
 
-Вставляет копию указанной фигуры в заданное положение коллекции. Ширина и высота новой фигуры равны ширине и высоте *sourceShape*.
+Вставляет копию указанной фигуры в указанную позицию коллекции. Ширина и высота новой фигуры равны ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y)
@@ -50,8 +50,8 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 | --- | --- | --- |
 | index | Int32 | Индекс новой фигуры. |
 | sourceShape | IShape | Фигура для клонирования. |
-| x | Single | X координата новой FIGUR. |
-| y | Single | Y координата новой FIGUR. |
+| x | Single | X координата новой фигуры. |
+| y | Single | Y координата новой фигуры. |
 
 ### Возвращаемое значение
 
@@ -66,9 +66,9 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 
 ---
 
-## InsertClone(int, IShape) {#insertclone}
+## InsertClone(int, IShape) {#insertclone}
 
-Вставляет копию указанной фигуры в заданное положение коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте *sourceShape*.
+Вставляет копию указанной фигуры в указанную позицию коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)

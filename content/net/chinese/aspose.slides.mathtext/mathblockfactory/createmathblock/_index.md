@@ -1,6 +1,6 @@
 ---
 title: CreateMathBlock
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建数学块
 type: docs
 weight: 20
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathblockfactory/createmathblock/
 
 ## CreateMathBlock() {#createmathblock}
 
-创建数学块
+创建一个数学块
 
 ```csharp
 public IMathBlock CreateMathBlock()
@@ -17,9 +17,9 @@ public IMathBlock CreateMathBlock()
 
 ### 返回值
 
-新数学块
+新的数学块
 
-### 参见
+### 另请参阅
 
 * 接口 [IMathBlock](../../imathblock)
 * 类 [MathBlockFactory](../../mathblockfactory)
@@ -30,7 +30,7 @@ public IMathBlock CreateMathBlock()
 
 ## CreateMathBlock(IMathElement) {#createmathblock_1}
 
-创建数学块并将元素放入其中
+创建一个数学块并将元素放入其中
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElement mathElement)
@@ -42,9 +42,9 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 ### 返回值
 
-新数学块
+新的数学块
 
-### 参见
+### 另请参阅
 
 * 接口 [IMathBlock](../../imathblock)
 * 接口 [IMathElement](../../imathelement)
@@ -56,7 +56,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 ## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
-创建数学块并将元素放入其中
+创建一个数学块并将元素放入其中
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
@@ -68,9 +68,9 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 
 ### 返回值
 
-新数学块
+新的数学块
 
-### 参见
+### 另请参阅
 
 * 接口 [IMathBlock](../../imathblock)
 * 接口 [IMathElementCollection](../../imathelementcollection)

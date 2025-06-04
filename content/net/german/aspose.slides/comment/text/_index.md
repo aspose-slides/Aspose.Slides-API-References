@@ -1,7 +1,7 @@
 ---
 title: Text
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den reinen Text eines Folienkommentars zurück oder setzt ihn. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den einfachen Text eines Kommentars auf einer Folie zurück oder legt ihn fest. Lese-/Schreibbarer String.
 type: docs
 weight: 60
 url: /de/aspose.slides/comment/text/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/comment/text/
 
 ## Comment.Text-Eigenschaft
 
-Gibt den reinen Text eines Folienkommentars zurück oder setzt ihn. Lese-/Schreib-String.
+Gibt den einfachen Text eines Kommentars auf einer Folie zurück oder legt ihn fest. Lese-/Schreibbarer String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Comment](../../comment)
 * Namespace [Aspose.Slides](../../comment)

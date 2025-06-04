@@ -23,7 +23,7 @@ public IEffectStyle this[int index] { get; }
 
 指定位置的元素。
 
-### 另见
+### 另请参见
 
 * 接口 [IEffectStyle](../../ieffectstyle)
 * 类 [EffectStyleCollection](../../effectstylecollection)

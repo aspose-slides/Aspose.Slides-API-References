@@ -1,7 +1,7 @@
 ---
 title: SaveMetafilesAsPng
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Lecture/écriture Booléen.
+description: Vrai pour convertir tous les fichiers métas utilisés dans une présentation en images PNG. Lecture/écriture Booléen.
 type: docs
 weight: 160
 url: /fr/aspose.slides.export/ipdfoptions/savemetafilesaspng/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ipdfoptions/savemetafilesaspng/
 
 ## Propriété IPdfOptions.SaveMetafilesAsPng
 
-Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Lecture/écriture Booléen.
+Vrai pour convertir tous les fichiers métas utilisés dans une présentation en images PNG. Lecture/écriture Booléen.
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
@@ -17,7 +17,7 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **vrai**. Un document Pdf peut contenir des graphiques vectoriels et des images raster. Si SaveMetafilesAsPng est défini sur vrai, l'image source du mét fichier est convertie au format Png et enregistrée en Pdf comme une image raster. Si SaveMetafilesAsPng est défini sur faux, le mét fichier source est converti en graphiques vectoriels Pdf. Chaque approche a ses avantages et ses inconvénients. Par exemple, si le mét fichier est converti en PNG, une perte de qualité est possible lors de la mise à l'échelle du document résultant. Si le mét fichier est converti en graphiques vectoriels Pdf, des problèmes de performance dans l'outil de visualisation Pdf sont possibles.
+La valeur par défaut est **vraie**. Le document Pdf peut contenir des graphiques vectoriels et des images matricielles. Si SaveMetafilesAsPng est défini sur vrai, alors l'image Metafile source est convertie au format Png et enregistrée dans le Pdf en tant qu'image matricielle. Si SaveMetafilesAsPng est défini sur faux, alors le Metafile source est converti en graphiques vectoriels Pdf. Chaque approche a ses avantages et ses inconvénients. Par exemple, si le Metafile est converti en PNG, une certaine perte de qualité est possible lors de l'échelle du document résultant. Si le Metafile est converti en graphiques vectoriels Pdf, des problèmes de performance dans l'outil de visualisation Pdf peuvent survenir.
 
 ### Voir aussi
 

@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie l'élément par index.
 type: docs
 weight: 10

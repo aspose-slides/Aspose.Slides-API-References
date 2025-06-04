@@ -1,7 +1,7 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente des données communes pour tous les types de diapositives.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente des données communes pour tous les types de diapos.
 type: docs
 weight: 5140
 url: /fr/aspose.slides/ibaseslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseslide/
 
 ## Interface IBaseSlide
 
-Représente des données communes pour tous les types de diapositives.
+Représente des données communes pour tous les types de diapos.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -19,27 +19,27 @@ public interface IBaseSlide : IThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Permet d'obtenir l'interface de base IThemeable. Lecture seule [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | Retourne l'arrière-plan de la diapositive. Lecture seule [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Retourne la collection de contrôles ActiveX sur une diapositive. Lecture seule [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Retourne les données personnalisées de la diapositive. Lecture seule [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Fournit un accès facile aux hyperliens contenus. Lecture seule [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Retourne ou définit le nom d'une diapositive. Lecture/écriture String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Retourne les formes d'une diapositive. Lecture seule [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété retourne toujours `false`. Lecture/écriture Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Retourne l'ID d'une diapositive. Lecture seule UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Retourne l'objet TransitionEx qui contient des informations sur la façon dont la diapositive spécifiée avance pendant un diaporama. Lecture seule [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Retourne l'objet de timeline d'animation. Lecture seule [`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Permet d'obtenir l'interface de base IThemeable. En lecture seule [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Renvoie le fond de la diapositive. En lecture seule [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Renvoie la collection de contrôles ActiveX sur une diapositive. En lecture seule [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Renvoie les données personnalisées de la diapositive. En lecture seule [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Fournit un accès facile aux hyperliens contenus. En lecture seule [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Renvoie ou définit le nom d'une diapositive. En lecture/écriture String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Renvoie les formes d'une diapositive. En lecture seule [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Spécifie si les formes sur la diapositive maître doivent être affichées sur les diapositives ou non. Pour la diapositive maître elle-même, cette propriété renvoie toujours `false`. En lecture/écriture Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Renvoie l'ID d'une diapositive. En lecture seule UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Renvoie l'objet TransitionEx qui contient des informations sur la façon dont la diapositive spécifiée progresse lors d'un diaporama. En lecture seule [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Renvoie l'objet de chronologie d'animation. En lecture seule [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Détermine si les deux instances de IBaseSlide sont égales. La valeur de retour est calculée en fonction de la structure de la diapositive et du contenu statique. Deux diapositives sont égales si toutes les formes, styles, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identifiant unique, par exemple SlideId et le contenu dynamique, par exemple la valeur de date actuelle dans l'espace réservé Date. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Détermine si les deux instances de IBaseSlide sont égales. La valeur de retour est calculée en fonction de la structure de la diapositive et du contenu statique. Deux diapositives sont égales si toutes les formes, styles, textes, animations et autres réglages, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identifiant unique, par exemple, SlideId et le contenu dynamique, par exemple, la valeur de la date actuelle dans le champ de date. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Trouve la première occurrence d'une forme avec le texte alternatif spécifié. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Joint les portions ayant le même formatage dans tous les paragraphes de toutes les formes acceptables. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Joint les portions avec le même formatage dans tous les paragraphes dans toutes les formes acceptables. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThemeable](../../aspose.slides.theme/ithemeable)
 * namespace [Aspose.Slides](../../aspose.slides)

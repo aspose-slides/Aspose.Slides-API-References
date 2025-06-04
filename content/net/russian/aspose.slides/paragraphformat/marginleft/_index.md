@@ -1,13 +1,13 @@
 ---
 title: MarginLeft
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает левый отступ в абзаце без наследования. Чтение/запись Single.
 type: docs
 weight: 90
 url: /ru/aspose.slides/paragraphformat/marginleft/
 ---
 
-## Свойство ParagraphFormat.MarginLeft
+## ParagraphFormat.MarginLeft свойство
 
 Возвращает или устанавливает левый отступ в абзаце без наследования. Чтение/запись Single.
 

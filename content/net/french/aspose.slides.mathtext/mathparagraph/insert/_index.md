@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Insère IMathBlock dans la collection à l'index spécifié.
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/mathparagraph/insert/
 ---
 
-## Méthode MathParagraph.Insert
+## MathParagraph.Insert méthode
 
 Insère IMathBlock dans la collection à l'index spécifié.
 
@@ -17,8 +17,8 @@ public void Insert(int index, IMathBlock mathBlock)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro auquel un élément doit être inséré. |
-| mathBlock | IMathBlock | Le IMathBlock à insérer. |
+| index | Int32 | L'index basé sur zéro où un élément doit être inséré. |
+| mathBlock | IMathBlock | L'IMathBlock à insérer. |
 
 ### Exemples
 

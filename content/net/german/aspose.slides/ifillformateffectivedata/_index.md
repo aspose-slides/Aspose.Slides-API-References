@@ -1,7 +1,7 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das effektive Füllformatierungs-Eigenschaften enthält.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das effektive Füllformatierungsattribute enthält.
 type: docs
 weight: 5600
 url: /de/aspose.slides/ifillformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifillformateffectivedata/
 
 ## IFillFormatEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Füllformatierungs-Eigenschaften enthält.
+Unveränderliches Objekt, das effektive Füllformatierungsattribute enthält.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -20,11 +20,11 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | Name | Beschreibung |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | Gibt die IFillParamSource-Schnittstelle zurück. Schreibgeschützt [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Gibt den Typ der Füllung zurück. Schreibgeschützt [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | Gibt den Fülltyp zurück. Schreibgeschützt [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | Gibt das Gradientfüllformat zurück. Schreibgeschützt [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | Gibt das Musterfüllformat zurück. Schreibgeschützt [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Gibt das Bildfüllformat zurück. Schreibgeschützt [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Bestimmt, ob die Füllung mit der Form rotiert werden soll. Schreibgeschützt Boolean. |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Bestimmt, ob die Füllung zusammen mit der Form gedreht werden soll. Schreibgeschützt Boolean. |
 | [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Gibt die Füllfarbe zurück. Schreibgeschützt Farbe. |
 
 ### Anmerkungen

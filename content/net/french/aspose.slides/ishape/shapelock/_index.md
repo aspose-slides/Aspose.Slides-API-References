@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne les verrous de formes. Lecture seule IBaseShapeLockaspose.slides/ibaseshapelock.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne les verrouillages de formes. Lecture seule IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 230
 url: /fr/aspose.slides/ishape/shapelock/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishape/shapelock/
 
 ## Propriété IShape.ShapeLock
 
-Retourne les verrous de la forme. Lecture seule [`IBaseShapeLock`](../../ibaseshapelock).
+Retourne les verrouillages de la forme. Lecture seule [`IBaseShapeLock`](../../ibaseshapelock).
 
 ```csharp
 public IBaseShapeLock ShapeLock { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBaseShapeLock](../../ibaseshapelock)
 * interface [IShape](../../ishape)

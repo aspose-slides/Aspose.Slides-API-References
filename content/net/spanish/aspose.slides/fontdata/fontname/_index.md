@@ -15,7 +15,7 @@ Devuelve el nombre de la fuente. Cadena de lectura/escritura.
 public string FontName { get; }
 ```
 
-### Ve también
+### Vea También
 
 * clase [FontData](../../fontdata)
 * espacio de nombres [Aspose.Slides](../../fontdata)

@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne un énumérateur qui itère à travers la collection.
+second_title: Aspose.Slides pour .NET API Référence
+description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/behaviorcollection/getenumerator/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/behaviorcollection/getenumerator/
 
 ## Méthode BehaviorCollection.GetEnumerator
 
-Retourne un énumérateur qui itère à travers la collection.
+Renvoie un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<IBehavior> GetEnumerator()

@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la transition de séparation. Lecture/écriture TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
+second_title: Référence API Aspose.Slides pour .NET
+description: Direction de la transition de fractionnement. Lire/écrire TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.slideshow/splittransition/direction/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/splittransition/direction/
 
 ## Propriété SplitTransition.Direction
 
-Direction de la transition de séparation. Lecture/écriture [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
+Direction de la transition de fractionnement. Lire/écrire [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }

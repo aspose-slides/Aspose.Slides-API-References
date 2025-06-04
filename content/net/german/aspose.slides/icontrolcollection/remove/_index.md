@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt ein ActiveX-Steuerelement aus der Sammlung.
 type: docs
 weight: 40
 url: /de/aspose.slides/icontrolcollection/remove/
 ---
 
-## IControlCollection.Remove Methode
+## IControlCollection.Remove-Methode
 
 Entfernt ein ActiveX-Steuerelement aus der Sammlung.
 
@@ -17,7 +17,7 @@ public void Remove(IControl item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IControl | Ein zu entfernendes Steuerelement. |
+| item | IControl | Ein Steuerelement, das entfernt werden soll. |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: HasEndCap
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, dass kein Endkappe auf den Fehlerbalken gezeichnet wird. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, dass eine Endkappe nicht auf den Fehlerbalken gezeichnet wird. Lese-/Schreibbare Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ierrorbarsformat/hasendcap/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ierrorbarsformat/hasendcap/
 
 ## IErrorBarsFormat.HasEndCap-Eigenschaft
 
-Gibt an, dass kein Endkappe auf den Fehlerbalken gezeichnet wird. Lese-/Schreib-Boolean.
+Gibt an, dass eine Endkappe nicht auf den Fehlerbalken gezeichnet wird. Lese-/Schreibbare Boolean.
 
 ```csharp
 public bool HasEndCap { get; set; }

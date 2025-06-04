@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает элемент управления по указанной позиции.
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public IControl this[int index] { get; }
 | --- | --- |
 | index | Индекс элемента управления. |
 
-### См. также
+### См. Также
 
 * интерфейс [IControl](../../icontrol)
 * класс [ControlCollection](../../controlcollection)

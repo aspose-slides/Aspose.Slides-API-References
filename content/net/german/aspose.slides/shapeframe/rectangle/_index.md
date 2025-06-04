@@ -1,7 +1,7 @@
 ---
 title: Rectangle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Koordinaten eines Rahmens zurück. Nur-lesbares RectangleF.
+description: Gibt die Koordinaten eines Rahmens zurück. Nur-Lese RectangleF.
 type: docs
 weight: 70
 url: /de/aspose.slides/shapeframe/rectangle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapeframe/rectangle/
 
 ## ShapeFrame.Rectangle-Eigenschaft
 
-Gibt die Koordinaten eines Rahmens zurück. Nur-lesbares RectangleF.
+Gibt die Koordinaten eines Rahmens zurück. Nur-Lese RectangleF.
 
 ```csharp
 public RectangleF Rectangle { get; }

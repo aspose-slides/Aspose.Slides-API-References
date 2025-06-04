@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseriesgroup/item/
 public IChartSeries this[int index] { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 接口 [IChartSeriesGroup](../../ichartseriesgroup)

@@ -1,7 +1,7 @@
 ---
 title: AdvanceOnClick
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Legt fest, ob ein Mausklick die Folie voranbringen wird oder nicht. Wenn dieses Attribut nicht angegeben ist, wird der Wert true angenommen. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, ob ein Mausklick die Folie vorwärts bewegt oder nicht. Wenn dieses Attribut nicht angegeben ist, wird der Wert true angenommen. Lesen/schreiben Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.slideshow/slideshowtransition/advanceonclick/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/slideshowtransition/advanceonclick/
 
 ## SlideShowTransition.AdvanceOnClick-Eigenschaft
 
-Legt fest, ob ein Mausklick die Folie voranbringen wird oder nicht. Wenn dieses Attribut nicht angegeben ist, wird der Wert true angenommen. Lese-/Schreib-Boolean.
+Gibt an, ob ein Mausklick die Folie vorwärts bewegt oder nicht. Wenn dieses Attribut nicht angegeben ist, wird der Wert true angenommen. Lesen/schreiben Boolean.
 
 ```csharp
 public bool AdvanceOnClick { get; set; }

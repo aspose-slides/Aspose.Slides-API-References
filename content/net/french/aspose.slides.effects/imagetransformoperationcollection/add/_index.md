@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Ajoute le nouvel effet d'image à la fin d'une collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/add/
 ---
 
-## Méthode ImageTransformOperationCollection.Add
+## ImageTransformOperationCollection.Add méthode
 
 Ajoute le nouvel effet d'image à la fin d'une collection.
 

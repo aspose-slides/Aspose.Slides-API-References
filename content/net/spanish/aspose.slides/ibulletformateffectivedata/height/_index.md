@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la altura de viñeta de un párrafo. Solo lectura Single.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve la altura del viñeta de un párrafo. Solo lectura Single.
 type: docs
 weight: 50
 url: /es/aspose.slides/ibulletformateffectivedata/height/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ibulletformateffectivedata/height/
 
 ## Propiedad IBulletFormatEffectiveData.Height
 
-Devuelve la altura de viñeta de un párrafo. Solo lectura Single.
+Devuelve la altura del viñeta de un párrafo. Solo lectura Single.
 
 ```csharp
 public float Height { get; }

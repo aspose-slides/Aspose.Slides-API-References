@@ -1,6 +1,6 @@
 ---
 title: MathBlockFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Le constructeur par défaut.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Le constructeur par défaut.
 public MathBlockFactory()
 ```
 
-### Voir aussi
+### Voir également
 
 * classe [MathBlockFactory](../../mathblockfactory)
 * espace de noms [Aspose.Slides.MathText](../../mathblockfactory)

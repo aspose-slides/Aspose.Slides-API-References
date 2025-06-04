@@ -1,6 +1,6 @@
 ---
 title: AddNodeByPosition
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Ajouter un nouveau nœud à la position sélectionnée de la collection de nœuds
 type: docs
 weight: 60
@@ -21,7 +21,7 @@ public ISmartArtNode AddNodeByPosition(int position)
 
 ### Valeur de retour
 
-Nouveau nœud ajouté
+Nœud ajouté
 
 ### Exceptions
 
@@ -32,7 +32,7 @@ Nouveau nœud ajouté
 ### Voir aussi
 
 * interface [ISmartArtNode](../../ismartartnode)
-* classe [SmartArtNodeCollection](../../smartartnodecollection)
+* class [SmartArtNodeCollection](../../smartartnodecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartnodecollection)
 * assembly [Aspose.Slides](../../../)
 

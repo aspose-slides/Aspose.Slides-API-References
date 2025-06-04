@@ -1,7 +1,7 @@
 ---
 title: Insert
-second_title: Aspose.Slides for .NET API 参考
-description: 在指定的索引处向集合插入新的行为。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定索引处向集合插入新行为。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/ibehaviorcollection/insert/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/ibehaviorcollection/insert/
 
 ## IBehaviorCollection.Insert 方法
 
-在指定的索引处向集合插入新的行为。
+在指定索引处向集合插入新行为。
 
 ```csharp
 public void Insert(int index, IBehavior item)
@@ -17,10 +17,10 @@ public void Insert(int index, IBehavior item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 新行为应插入的索引。 |
+| index | Int32 | 应插入新行为的索引。 |
 | item | IBehavior | 要插入的行为。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IBehavior](../../ibehavior)
 * 接口 [IBehaviorCollection](../../ibehaviorcollection)

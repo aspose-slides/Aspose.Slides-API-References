@@ -1,7 +1,7 @@
 ---
 title: SharedDoc
-second_title: Aspose.Slides for .NET API 参考
-description: 确定演示文稿是否在多个人之间共享。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定演示文稿是否在多个人之间共享。可读/可写布尔值。
 type: docs
 weight: 290
 url: /zh/aspose.slides/idocumentproperties/shareddoc/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idocumentproperties/shareddoc/
 
 ## IDocumentProperties.SharedDoc 属性
 
-确定演示文稿是否在多个人之间共享。可读写布尔值。
+确定演示文稿是否在多个人之间共享。可读/可写布尔值。
 
 ```csharp
 public bool SharedDoc { get; set; }

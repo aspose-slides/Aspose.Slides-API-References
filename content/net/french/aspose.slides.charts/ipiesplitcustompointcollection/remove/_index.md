@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Supprime un élément de la collection par son index dans la collection de points de la série parente.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ipiesplitcustompointcollection/remove/
 ---
 
-## Méthode IPieSplitCustomPointCollection.Remove
+## IPieSplitCustomPointCollection.Remove méthode
 
 Supprime un élément de la collection par son index dans la collection de points de la série parente.
 

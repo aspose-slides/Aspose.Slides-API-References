@@ -1,7 +1,7 @@
 ---
 title: RowCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la collection de lignes de tableau.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Représente la collection de lignes de table.
 type: docs
 weight: 9450
 url: /fr/aspose.slides/rowcollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/rowcollection/
 
 ## Classe RowCollection
 
-Représente la collection de lignes de tableau.
+Représente la collection de lignes de table.
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -19,8 +19,8 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Obtient le nombre de lignes effectivement contenues dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Lecture seule Boolean. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Obtient le nombre de lignes réellement contenues dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | Renvoie la ligne à l'index spécifié. Lecture seule [`Row`](../row). |
 | [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
@@ -28,13 +28,13 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Nom | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère au bas d'un tableau. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère en bas d'une table. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans un tableau. |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Supprime une ligne à la position spécifiée d'un tableau. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans une table. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Supprime une ligne à la position spécifiée d'une table. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Table](../table)

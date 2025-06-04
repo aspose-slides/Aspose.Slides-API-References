@@ -1,7 +1,7 @@
 ---
 title: Camera
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Einstellungen einer Kamera zurück oder setzt sie. Nur-Lese ICameraaspose.slides/icamera.
+description: Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Nur lesbar ICameraaspose.slides/icamera.
 type: docs
 weight: 30
 url: /de/aspose.slides/threedformat/camera/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/threedformat/camera/
 
 ## ThreeDFormat.Camera-Eigenschaft
 
-Gibt die Einstellungen einer Kamera zurück oder setzt sie. Nur-Lese [`ICamera`](../../icamera).
+Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Nur lesbar [`ICamera`](../../icamera).
 
 ```csharp
 public ICamera Camera { get; }

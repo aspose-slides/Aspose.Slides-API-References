@@ -1,7 +1,7 @@
 ---
 title: IControlCollection
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Коллекция элементов управления ActiveX.
+second_title: Aspose.Sildes для .NET API Reference
+description: Коллекция ActiveX контролов.
 type: docs
 weight: 5440
 url: /ru/aspose.slides/icontrolcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icontrolcollection/
 
 ## Интерфейс IControlCollection
 
-Коллекция элементов управления ActiveX.
+Коллекция ActiveX контролов.
 
 ```csharp
 public interface IControlCollection : IGenericCollection<IControl>
@@ -19,18 +19,18 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Возвращает элемент управления по указанной позиции. |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | Возвращает контрол по указанной позиции. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет новый элемент управления в коллекцию. |
-| [Clear](../../aspose.slides/icontrolcollection/clear)() | Удаляет все элементы управления из коллекции. |
-| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Удаляет элемент управления ActiveX из коллекции. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся по указанной позиции, из коллекции. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет новый контрол в коллекцию. |
+| [Clear](../../aspose.slides/icontrolcollection/clear)() | Удаляет все контролы из коллекции. |
+| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Удаляет ActiveX контрол из коллекции. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Удаляет ActiveX контрол, хранящийся по указанной позиции, из коллекции. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [IControl](../icontrol)

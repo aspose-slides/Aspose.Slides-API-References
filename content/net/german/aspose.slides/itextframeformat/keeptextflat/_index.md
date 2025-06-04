@@ -1,7 +1,7 @@
 ---
 title: KeepTextFlat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an oder legt fest, ob Text vollständig aus der 3D-Szene entfernt wird. Lese-/Schreib-Booleans.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an oder setzt, dass der Text vollständig aus der 3D-Szene herausgehalten wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/itextframeformat/keeptextflat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformat/keeptextflat/
 
 ## ITextFrameFormat.KeepTextFlat-Eigenschaft
 
-Gibt an oder legt fest, ob Text vollständig aus der 3D-Szene entfernt wird. Lese-/Schreib-Booleans.
+Gibt an oder setzt, dass der Text vollständig aus der 3D-Szene herausgehalten wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool KeepTextFlat { get; set; }

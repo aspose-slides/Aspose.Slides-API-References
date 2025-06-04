@@ -1,15 +1,15 @@
 ---
 title: AutoAdjust
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application Lecture/écriture Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue au sein de l'application Lecture/écriture Booléen.
 type: docs
 weight: 10
 url: /fr/aspose.slides/inormalviewrestoredproperties/autoadjust/
 ---
 
-## Propriété INormalViewRestoredProperties.AutoAdjust
+## INormalViewRestoredProperties.AutoAdjust property
 
-Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue dans l'application Lecture/écriture Booléen.
+Spécifie si la taille de la région de contenu latéral doit compenser la nouvelle taille lors du redimensionnement de la fenêtre contenant la vue au sein de l'application Lecture/écriture Booléen.
 
 ```csharp
 public bool AutoAdjust { get; set; }

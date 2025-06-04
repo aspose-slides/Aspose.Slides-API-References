@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung/&gt;.
 type: docs
 weight: 100
@@ -21,7 +21,7 @@ public bool Remove(IMathBlock mathBlock)
 
 ### Rückgabewert
 
-true, wenn *mathBlock* erfolgreich aus der Sammlung entfernt wurde; andernfalls false. Diese Methode gibt auch false zurück, wenn *mathBlock* nicht in der ursprünglichen Sammlung/&gt; gefunden wird.
+true, wenn *mathBlock* erfolgreich aus der Sammlung entfernt wurde; andernfalls false. Diese Methode gibt auch false zurück, wenn *mathBlock* in der ursprünglichen Sammlung/&gt; nicht gefunden wurde.
 
 ### Beispiele
 

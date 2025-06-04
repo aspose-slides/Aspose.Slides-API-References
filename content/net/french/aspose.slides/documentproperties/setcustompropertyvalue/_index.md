@@ -1,6 +1,6 @@
 ---
 title: SetCustomPropertyValue
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Définit une propriété personnalisée booléenne nommée.
 type: docs
 weight: 450
@@ -20,7 +20,7 @@ public void SetCustomPropertyValue(string name, bool value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Boolean | Valeur de la propriété personnalisée |
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -41,7 +41,7 @@ public void SetCustomPropertyValue(string name, int value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Int32 | Valeur de la propriété personnalisée |
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -62,7 +62,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | DateTime | Valeur de la propriété personnalisée |
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -83,7 +83,7 @@ public void SetCustomPropertyValue(string name, string value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | String | Valeur de la propriété personnalisée |
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -104,7 +104,7 @@ public void SetCustomPropertyValue(string name, float value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Single | Valeur de la propriété personnalisée |
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -125,7 +125,7 @@ public void SetCustomPropertyValue(string name, double value)
 | name | String | Nom de la propriété personnalisée à définir |
 | value | Double | Valeur de la propriété personnalisée |
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

@@ -1,6 +1,6 @@
 ---
 title: IChartComponent
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt eine Komponente eines Diagramms dar.
 type: docs
 weight: 1710
@@ -19,10 +19,10 @@ public interface IChartComponent : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ISlideComponent. Nur lesbar [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Gibt das Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basis-ISlideComponent-Schnittstelle. Nur-lesend [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Gibt das Diagramm zurück. Nur-lesend [`IChart`](../ichart). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISlideComponent](../../aspose.slides/islidecomponent)
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

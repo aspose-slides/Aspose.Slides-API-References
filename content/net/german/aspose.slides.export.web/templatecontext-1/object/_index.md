@@ -1,7 +1,7 @@
 ---
 title: Object
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Modellobjekt zurück. Nur zum Lesen !TObject.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Modellobjekt zurück. Nur lesbares TObject.
 type: docs
 weight: 30
 url: /de/aspose.slides.export.web/templatecontext-1/object/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export.web/templatecontext-1/object/
 
 ## TemplateContext&lt;TObject&gt;.Object-Eigenschaft
 
-Gibt das Modellobjekt zurück. Nur zum Lesen !:TObject.
+Gibt das Modellobjekt zurück. Nur lesbar !:TObject.
 
 ```csharp
 public TObject Object { get; }

@@ -1,15 +1,15 @@
 ---
 title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя этого элемента управления. Читаемый/Записываемый String.
+description: Возвращает имя этого элемента управления. Чтение/запись String.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icontrol/name/
 ---
 
-## Свойство IControl.Name
+## IControl.Name property
 
-Возвращает имя этого элемента управления. Читаемый/Записываемый String.
+Возвращает имя этого элемента управления. Чтение/запись String.
 
 ```csharp
 public string Name { get; set; }

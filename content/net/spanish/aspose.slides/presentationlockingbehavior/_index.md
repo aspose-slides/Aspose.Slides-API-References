@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el comportamiento respecto al tratamiento del archivo fuente o Stream de IPresentation../ipresentation al cargar y trabajar con una instancia de IPresentation../ipresentation.
+description: Representa el comportamiento respecto al tratamiento del archivo o flujo de origen IPresentation../ipresentation al cargar y trabajar con una instancia de IPresentation../ipresentation.
 type: docs
 weight: 9360
 url: /es/aspose.slides/presentationlockingbehavior/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/presentationlockingbehavior/
 
 ## Enumeración PresentationLockingBehavior
 
-Representa el comportamiento respecto al tratamiento de la fuente [`IPresentation`](../ipresentation) (archivo o Stream) al cargar y trabajar con una instancia de [`IPresentation`](../ipresentation).
+Representa el comportamiento respecto al tratamiento del origen [`IPresentation`](../ipresentation) (archivo o flujo) al cargar y trabajar con una instancia de [`IPresentation`](../ipresentation).
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -19,12 +19,12 @@ public enum PresentationLockingBehavior
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| LoadAndRelease | `0` | La fuente será bloqueada solo durante el tiempo de ejecución del constructor de [`IPresentation`](../ipresentation). Si [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) está configurado como falso, todos los BLOBs se cargarán en memoria. De lo contrario, se podrían utilizar otros medios como archivos temporales. Este comportamiento es más lento que KeepLocked, y si es posible transferir la propiedad de la fuente a [`IPresentation`](../ipresentation), se recomienda usar KeepLocked. |
-| KeepLocked | `1` | La fuente estará bloqueada durante toda la vida de la instancia de [`IPresentation`](../ipresentation), hasta que sea eliminada. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) debe estar configurado como verdadero para utilizar este comportamiento; de lo contrario, se lanzará una excepción. Este comportamiento se recomienda, es más rápido y consume menos memoria que LoadAndRelease. |
+| LoadAndRelease | `0` | El origen será bloqueado solo por el tiempo de ejecución del constructor [`IPresentation`](../ipresentation). Si [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) se establece en falso, todos los BLOBs se cargarán en memoria. De lo contrario, se podrían utilizar otros medios como archivos temporales. Este comportamiento es más lento que KeepLocked, y si es posible transferir la propiedad del origen a [`IPresentation`](../ipresentation), se recomienda usar KeepLocked. |
+| KeepLocked | `1` | El origen estará bloqueado durante toda la vida útil de la instancia [`IPresentation`](../ipresentation), hasta que se elimine. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) debe estar establecido en verdadero para usar este comportamiento; de lo contrario, se lanzará una excepción. Este comportamiento es recomendado, es más rápido y consume menos memoria que LoadAndRelease. |
 
 ### Observaciones
 
-La fuente es el parámetro pasado al constructor de [`IPresentation`](../ipresentation). En el ejemplo a continuación, la fuente es el archivo "pres.pptx":
+El origen es el parámetro pasado al constructor [`IPresentation`](../ipresentation). En el siguiente ejemplo, el origen es el archivo "pres.pptx":
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -32,9 +32,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-Para este ejemplo, la fuente (archivo "pres.pptx") estará bloqueada para la vida de la instancia de [`IPresentation`](../ipresentation), es decir, no se puede cambiar ni eliminar por otro proceso.
+Para este ejemplo, el origen (archivo "pres.pptx") estará bloqueado durante la vida útil de la instancia [`IPresentation`](../ipresentation), es decir, no puede ser cambiado o eliminado por otro proceso.
 
-### Véase También
+### Vea también
 
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
 * ensamblado [Aspose.Slides](../../)

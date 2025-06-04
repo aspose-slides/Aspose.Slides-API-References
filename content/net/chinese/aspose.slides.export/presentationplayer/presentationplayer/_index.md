@@ -1,7 +1,7 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建 PresentationPlayer 的新实例 aspose.slides.export/presentationplayer。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的 PresentationPlayer 实例aspose.slides.export/presentationplayer。
 type: docs
 weight: 10
 url: /zh/aspose.slides.export/presentationplayer/presentationplayer/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/presentationplayer/presentationplayer/
 
 ## PresentationPlayer 构造函数
 
-创建 [`PresentationPlayer`](../../presentationplayer) 的新实例。
+创建新的 [`PresentationPlayer`](../../presentationplayer) 实例。
 
 ```csharp
 public PresentationPlayer(PresentationAnimationsGenerator generator, double fps)
@@ -20,7 +20,7 @@ public PresentationPlayer(PresentationAnimationsGenerator generator, double fps)
 | generator | PresentationAnimationsGenerator |  |
 | fps | Double | 每秒帧数 (FPS) |
 
-### 另见
+### 另请参阅
 
 * class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * class [PresentationPlayer](../../presentationplayer)

@@ -1,15 +1,15 @@
 ---
 title: EndParagraphPortionFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie les propriétés de portion à utiliser si une autre portion est insérée après la dernière.
+description: Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iparagraph/endparagraphportionformat/
 ---
 
-## Propriété IParagraph.EndParagraphPortionFormat
+## IParagraph.EndParagraphPortionFormat property
 
-Spécifie les propriétés de portion à utiliser si une autre portion est insérée après la dernière.
+Spécifie les propriétés de la portion à utiliser si une autre portion est insérée après la dernière.
 
 ```csharp
 public IPortionFormat EndParagraphPortionFormat { get; set; }

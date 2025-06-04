@@ -17,7 +17,7 @@ public IDigitalSignature this[int index] { get; }
 
 ### Siehe auch
 
-* Interface [IDigitalSignature](../../idigitalsignature)
+* Schnittstelle [IDigitalSignature](../../idigitalsignature)
 * Klasse [DigitalSignatureCollection](../../digitalsignaturecollection)
 * Namespace [Aspose.Slides](../../digitalsignaturecollection)
 * Assembly [Aspose.Slides](../../../)

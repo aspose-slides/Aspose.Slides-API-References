@@ -1,7 +1,7 @@
 ---
 title: CheckWriteProtection
-second_title: Aspose.Sildes for .NET API 参考
-description: 检查用于修改的密码是否正确，适用于写保护的演示文稿。
+second_title: Aspose.Sildes for .NET API Reference
+description: 检查用于修改的密码是否正确，以便处理受写保护的演示文稿。
 type: docs
 weight: 60
 url: /zh/aspose.slides/presentationinfo/checkwriteprotection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentationinfo/checkwriteprotection/
 
 ## PresentationInfo.CheckWriteProtection 方法
 
-检查用于修改的密码是否正确，适用于写保护的演示文稿。
+检查用于修改的密码是否正确，以便处理受写保护的演示文稿。
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -21,7 +21,7 @@ public bool CheckWriteProtection(string password)
 
 ### 返回值
 
-如果演示文稿是写保护的且密码正确，则返回 true。否则返回 false。
+如果演示文稿受到写保护且密码正确，则返回 true。否则返回 false。
 
 ### 异常
 
@@ -31,7 +31,7 @@ public bool CheckWriteProtection(string password)
 
 ### 备注
 
-1. 在调用此方法之前，您应该检查 [`IsWriteProtected`](../iswriteprotected) 属性。 2. 当密码为 null 或空时，此方法返回 false。
+1. 您应该在调用此方法之前检查 [`IsWriteProtected`](../iswriteprotected) 属性。 2. 当密码为 null 或为空时，此方法返回 false。
 
 ### 示例
 

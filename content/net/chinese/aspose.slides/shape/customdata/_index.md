@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shape/customdata/
 public ICustomData CustomData { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ICustomData](../../icustomdata)
 * 类 [Shape](../../shape)

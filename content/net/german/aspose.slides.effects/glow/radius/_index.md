@@ -1,7 +1,7 @@
 ---
 title: Radius
 second_title: Aspose.Slides für .NET API-Referenz
-description: Radius. Lese/Schreibe Double.
+description: Radius. Lesen/ Schreiben Double.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/glow/radius/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/glow/radius/
 
 ## Glow.Radius-Eigenschaft
 
-Radius. Lese/Schreibe Double.
+Radius. Lesen/ Schreiben Double.
 
 ```csharp
 public double Radius { get; set; }

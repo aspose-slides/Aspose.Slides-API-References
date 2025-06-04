@@ -7,7 +7,7 @@ weight: 160
 url: /ru/aspose.slides/colorformat/copyfrom/
 ---
 
-## Метод ColorFormat.CopyFrom
+## ColorFormat.CopyFrom метод
 
 Копировать цветовой формат из "color".
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/colorformat/copyfrom/
 public void CopyFrom(IColorFormat color)
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * класс [ColorFormat](../../colorformat)

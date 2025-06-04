@@ -1,7 +1,7 @@
 ---
 title: To
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur ponctuelle. Seulement  bool, ColorFormat, float, int, string. Objet en lecture/écriture.
+second_title: Aspose.Slides pour .NET Documentation d'API
+description: Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur de point. Seulement  bool, ColorFormat, float, int, string. Objet en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/seteffect/to/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/seteffect/to/
 
 ## Propriété SetEffect.To
 
-Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur ponctuelle. Seulement : bool, ColorFormat, float, int, string. Objet en lecture/écriture.
+Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur de point. Seulement : bool, ColorFormat, float, int, string. Objet en lecture/écriture.
 
 ```csharp
 public object To { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [SetEffect](../../seteffect)
 * espace de noms [Aspose.Slides.Animation](../../seteffect)

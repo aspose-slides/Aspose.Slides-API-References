@@ -1,7 +1,7 @@
 ---
 title: HyperlinkColorSource
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la source de la couleur du lien hypertexte.
+description: Représente la source de la couleur de l'hyperlien.
 type: docs
 weight: 4940
 url: /fr/aspose.slides/hyperlinkcolorsource/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/hyperlinkcolorsource/
 
 ## Énumération HyperlinkColorSource
 
-Représente la source de la couleur du lien hypertexte.
+Représente la source de la couleur de l'hyperlien.
 
 ```csharp
 public enum HyperlinkColorSource
@@ -20,9 +20,9 @@ public enum HyperlinkColorSource
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | Styles | `0` | Styles. |
-| PortionFormat | `1` | Format de portion. |
+| PortionFormat | `1` | Format de la portion. |
 
-### Voir aussi
+### Voir Aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

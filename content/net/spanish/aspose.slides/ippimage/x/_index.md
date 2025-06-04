@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un desplazamiento X de una imagen. Solo lectura Int32.
+description: Devuelve un desplazamiento en X de una imagen. Solo de lectura Int32.
 type: docs
 weight: 70
 url: /es/aspose.slides/ippimage/x/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ippimage/x/
 
 ## Propiedad IPPImage.X
 
-Devuelve un desplazamiento X de una imagen. Solo lectura Int32.
+Devuelve un desplazamiento en X de una imagen. Solo de lectura Int32.
 
 ```csharp
 public int X { get; }

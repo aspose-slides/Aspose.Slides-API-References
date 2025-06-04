@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Namen der VBA-Projektverweisung dar. Lese-/Schreib-String.
+description: Stellt den Namen der VBA-Projektreferenz dar. Lese-/Schreib-String.
 type: docs
 weight: 10
 url: /de/aspose.slides.vba/ivbareference/name/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.vba/ivbareference/name/
 
 ## IVbaReference.Name-Eigenschaft
 
-Stellt den Namen der VBA-Projektverweisung dar. Lese-/Schreib-String.
+Stellt den Namen der VBA-Projektreferenz dar. Lese-/Schreib-String.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVbaReference](../../ivbareference)
 * Namespace [Aspose.Slides.Vba](../../ivbareference)

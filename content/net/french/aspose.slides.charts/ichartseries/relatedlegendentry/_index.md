@@ -1,15 +1,15 @@
 ---
 title: RelatedLegendEntry
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une entrée de légende liée à cette série Propriété en lecture seule ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
+description: Représente l'entrée de légende liée à cette série Propriété en lecture seule ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 350
 url: /fr/aspose.slides.charts/ichartseries/relatedlegendentry/
 ---
 
-## Propriété IChartSeries.RelatedLegendEntry
+## IChartSeries.RelatedLegendEntry property
 
-Représente une entrée de légende liée à cette série Propriété en lecture seule [`ILegendEntryProperties`](../../ilegendentryproperties).
+Représente l'entrée de légende liée à cette série Propriété en lecture seule [`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

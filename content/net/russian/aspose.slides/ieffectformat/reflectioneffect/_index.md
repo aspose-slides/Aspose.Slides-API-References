@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ieffectformat/reflectioneffect/
 public IReflection ReflectionEffect { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [IReflection](../../../aspose.slides.effects/ireflection)
 * интерфейс [IEffectFormat](../../ieffectformat)

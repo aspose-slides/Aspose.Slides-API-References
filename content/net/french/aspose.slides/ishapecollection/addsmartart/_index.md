@@ -1,13 +1,13 @@
 ---
 title: AddSmartArt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Ajouter un diagramme SmartArt.
 type: docs
 weight: 150
 url: /fr/aspose.slides/ishapecollection/addsmartart/
 ---
 
-## Méthode IShapeCollection.AddSmartArt
+## IShapeCollection.AddSmartArt méthode
 
 Ajouter un diagramme SmartArt.
 

@@ -1,7 +1,7 @@
 ---
 title: Entries
-second_title: Aspose.Slides for .NET API 参考
-description: 获取图例条目。只读 ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection。
+second_title: Aspose.Slides for .NET API Reference
+description: 获取图例条目。只读 ILegendEntryCollection aspose.slides.charts/ilegendentrycollection.
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/legend/entries/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/legend/entries/
 public ILegendEntryCollection Entries { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILegendEntryCollection](../../ilegendentrycollection)
 * 类 [Legend](../../legend)

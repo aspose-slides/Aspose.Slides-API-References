@@ -1,6 +1,6 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Initialisiert eine neue Instanz der BrowsedByIndividual-Klasse.
 type: docs
 weight: 10

@@ -12,7 +12,7 @@ url: /zh/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
 ```
 
-### 参见
+### 另见
 
 * class [MasterSlide](../../aspose.slides/masterslide)
 * class [ForEach](../foreach)

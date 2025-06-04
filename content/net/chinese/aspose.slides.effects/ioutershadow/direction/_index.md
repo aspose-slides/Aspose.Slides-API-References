@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
-description: 阴影的方向。可读/可写的单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 阴影的方向。可读/写单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/ioutershadow/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ioutershadow/direction/
 
 ## IOuterShadow.Direction 属性
 
-阴影的方向。可读/可写的单精度浮点数。
+阴影的方向。可读/写单精度浮点数。
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IOuterShadow](../../ioutershadow)
 * 命名空间 [Aspose.Slides.Effects](../../ioutershadow)

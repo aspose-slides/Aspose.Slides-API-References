@@ -1,7 +1,7 @@
 ---
 title: HeadingPairs
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает группировку частей документа и количество частей в каждой группе. Доступ только для чтения IHeadingPair.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает на группировку частей документа и количество частей в каждой группе. Только для чтения IHeadingPair.
 type: docs
 weight: 110
 url: /ru/aspose.slides/idocumentproperties/headingpairs/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/idocumentproperties/headingpairs/
 
 ## IDocumentProperties.HeadingPairs свойство
 
-Указывает группировку частей документа и количество частей в каждой группе. Доступ только для чтения IHeadingPair[].
+Указывает на группировку частей документа и количество частей в каждой группе. Только для чтения IHeadingPair[].
 
 ```csharp
 public IHeadingPair[] HeadingPairs { get; }
 ```
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IHeadingPair](../../iheadingpair)
 * интерфейс [IDocumentProperties](../../idocumentproperties)

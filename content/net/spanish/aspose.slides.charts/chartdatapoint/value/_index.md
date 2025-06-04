@@ -1,7 +1,7 @@
 ---
 title: Value
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Valor. IDoubleChartValue de solo lectura aspose.slides.charts/idoublechartvalue.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Value. Solo lectura IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 190
 url: /es/aspose.slides.charts/chartdatapoint/value/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.charts/chartdatapoint/value/
 
 ## Propiedad ChartDataPoint.Value
 
-Valor. [`IDoubleChartValue`](../../idoublechartvalue) de solo lectura.
+Value. Solo lectura [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IDoubleChartValue](../../idoublechartvalue)
-* clase [ChartDataPoint](../../chartdatapoint)
-* espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IDoubleChartValue](../../idoublechartvalue)
+* clase [ChartDataPoint](../../chartdatapoint)
+* espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

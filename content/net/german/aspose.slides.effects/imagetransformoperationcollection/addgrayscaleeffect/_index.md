@@ -1,13 +1,13 @@
 ---
 title: AddGrayScaleEffect
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Fügt den neuen Graustufen-Effekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 180
 url: /de/aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect/
 ---
 
-## ImageTransformOperationCollection.AddGrayScaleEffect-Methode
+## ImageTransformOperationCollection.AddGrayScaleEffect Methode
 
 Fügt den neuen Graustufen-Effekt am Ende einer Sammlung hinzu.
 

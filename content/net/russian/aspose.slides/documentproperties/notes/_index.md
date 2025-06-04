@@ -1,13 +1,13 @@
 ---
 title: Notes
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество слайдов в презентации, содержащих заметки. Только для чтения Int32.
 type: docs
 weight: 250
 url: /ru/aspose.slides/documentproperties/notes/
 ---
 
-## Свойство DocumentProperties.Notes
+## DocumentProperties.Notes свойство
 
 Возвращает количество слайдов в презентации, содержащих заметки. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/documentproperties/notes/
 public int Notes { get; }
 ```
 
-### Также смотри
+### См. Также
 
 * класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)

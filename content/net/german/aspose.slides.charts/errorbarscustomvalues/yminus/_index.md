@@ -1,7 +1,7 @@
 ---
 title: YMinus
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Werttyp der Fehlerbalken benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-lesbarer IDoubleChartValueaspose.slides.charts/idoublechartvalue.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-leer IDoubleChartValueaspose.slides/idoublechartvalue.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/errorbarscustomvalues/yminus/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/errorbarscustomvalues/yminus/
 
 ## ErrorBarsCustomValues.YMinus-Eigenschaft
 
-Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Werttyp der Fehlerbalken benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-lesbarer [`IDoubleChartValue`](../../idoublechartvalue).
+Gibt den Fehlerbalkenwert in negativer Richtung an. Verfügbar, wenn der Fehlerbalkenwerttyp benutzerdefiniert ist und ErrorBarsYFormat zulässig ist. In jedem anderen Fall gibt diese Eigenschaft null zurück. Nur-leer [`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YMinus { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDoubleChartValue](../../idoublechartvalue)
 * Klasse [ErrorBarsCustomValues](../../errorbarscustomvalues)

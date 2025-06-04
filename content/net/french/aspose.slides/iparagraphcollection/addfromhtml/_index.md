@@ -1,6 +1,6 @@
 ---
 title: AddFromHtml
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Aspose.Slides pour .NET API Reference
 description: Ajoute du texte à partir de la chaîne html spécifiée à la collection.
 type: docs
 weight: 60
@@ -19,7 +19,7 @@ public void AddFromHtml(string text)
 | --- | --- | --- |
 | text | String | Texte HTML. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraphCollection](../../iparagraphcollection)
 * namespace [Aspose.Slides](../../iparagraphcollection)
@@ -38,14 +38,14 @@ public void AddFromHtml(string text, IExternalResourceResolver resolver, string 
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | text | String | Texte HTML. |
-| resolver | IExternalResourceResolver | Objet de rappel de résolution qui résout les URI et récupère les objets référencés. |
-| uri | String | URI pour ajouter le document HTML. Utilisé pour résoudre les liens relatifs. |
+| resolver | IExternalResourceResolver | Objet de callback de résolution qui résout les URI et récupère les objets référencés. |
+| uri | String | URI pour ajouter un document HTML. Utilisé pour résoudre les liens relatifs. |
 
 ### Remarques
 
-Spécifier un résolveur peut potentiellement introduire une vulnérabilité. À utiliser avec précaution.
+La spécification d'un résolveur peut potentiellement introduire une vulnérabilité. Utiliser avec précaution.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * interface [IParagraphCollection](../../iparagraphcollection)

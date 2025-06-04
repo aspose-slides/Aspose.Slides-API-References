@@ -1,25 +1,25 @@
 ---
 title: CreateGlow
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea efecto Glow.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Crea un efecto de resplandor.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/ieffectfactory/createglow/
 ---
 
-## Método IEffectFactory.CreateGlow
+## IEffectFactory.CreateGlow método
 
-Crea efecto Glow.
+Crea un efecto de resplandor.
 
 ```csharp
 public IGlow CreateGlow()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Efecto Glow.
+Efecto de resplandor.
 
-### Véase También
+### Ver también
 
 * interfaz [IGlow](../../iglow)
 * interfaz [IEffectFactory](../../ieffectfactory)

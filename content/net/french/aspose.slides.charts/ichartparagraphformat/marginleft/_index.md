@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la marge gauche dans un paragraphe. Lisible/écrivable Single.
+description: Renvoie ou définit la marge gauche dans un paragraphe. Lecture/écriture Unique.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichartparagraphformat/marginleft/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartparagraphformat/marginleft/
 
 ## Propriété IChartParagraphFormat.MarginLeft
 
-Renvoie ou définit la marge gauche dans un paragraphe. Lisible/écrivable Single.
+Renvoie ou définit la marge gauche dans un paragraphe. Lecture/écriture Unique.
 
 ```csharp
 public float MarginLeft { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartParagraphFormat](../../ichartparagraphformat)
 * namespace [Aspose.Slides.Charts](../../ichartparagraphformat)

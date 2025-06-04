@@ -1,6 +1,6 @@
 ---
 title: BaseShapeLock
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt eine Basisklasse für gesperrte deaktivierte Operationen dar.
 type: docs
 weight: 900
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseshapelock/
 
 ## BaseShapeLock-Klasse
 
-Stellt eine Basisklasse für Sperren (deaktivierte Operation).
+Stellt eine Basisklasse für Sperren (deaktivierte Operation). 
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -19,9 +19,9 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Name | Beschreibung |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperr-Flags deaktiviert sind. Schreibgeschützter Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Gibt true zurück, wenn alle Sperrfahnen deaktiviert sind. Nur-Lese-Boolesch. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseShapeLock](../ibaseshapelock)
 * Namespace [Aspose.Slides](../../aspose.slides)

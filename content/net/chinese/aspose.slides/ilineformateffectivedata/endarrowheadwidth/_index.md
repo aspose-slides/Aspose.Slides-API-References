@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadWidth
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一条线末端的箭头宽度。只读 LineArrowheadWidthaspose.slides/linearrowheadwidth.
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一条线段末端的箭头宽度。只读 LineArrowheadWidthaspose.slides/linearrowheadwidth。
 type: docs
 weight: 110
 url: /zh/aspose.slides/ilineformateffectivedata/endarrowheadwidth/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ilineformateffectivedata/endarrowheadwidth/
 
 ## ILineFormatEffectiveData.EndArrowheadWidth 属性
 
-返回一条线末端的箭头宽度。只读 [`LineArrowheadWidth`](../../linearrowheadwidth).
+返回一条线段末端的箭头宽度。只读 [`LineArrowheadWidth`](../../linearrowheadwidth)。
 
 ```csharp
 public LineArrowheadWidth EndArrowheadWidth { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 枚举 [LineArrowheadWidth](../../linearrowheadwidth)
 * 接口 [ILineFormatEffectiveData](../../ilineformateffectivedata)

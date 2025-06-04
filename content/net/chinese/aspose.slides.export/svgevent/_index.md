@@ -1,7 +1,7 @@
 ---
 title: SvgEvent
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表 SVG 形状的选项。
+description: 表示 SVG 形状的选项。
 type: docs
 weight: 4300
 url: /zh/aspose.slides.export/svgevent/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/svgevent/
 
 ## SvgEvent 枚举
 
-代表 SVG 形状的选项。
+表示 SVG 形状的选项。
 
 ```csharp
 public enum SvgEvent
@@ -19,27 +19,27 @@ public enum SvgEvent
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| OnFocusIn | `0` | 当某个元素获得焦点时发生，例如当文本被选中时。 |
-| OnFocusOut | `1` | 当某个元素失去焦点时发生，例如当文本被取消选择时。 |
-| OnActivate | `2` | 当某个元素被激活时发生，例如通过鼠标点击或按键。 |
-| OnClick | `3` | 当指针设备的按钮在某个元素上被点击时发生。 |
-| OnMouseDown | `4` | 当指针设备的按钮在某个元素上被按下时发生。 |
-| OnMouseUp | `5` | 当指针设备的按钮在某个元素上被释放时发生。 |
-| OnMouseOver | `6` | 当指针设备移动到某个元素上时发生。 |
-| OnMouseMove | `7` | 当指针设备在某个元素上移动时发生。 |
-| OnMouseOut | `8` | 当指针设备从某个元素上移开时发生。 |
-| OnLoad | `9` | 当用户代理已完全解析元素及其后代并加载所有渲染所需的引用资源时发生。 |
+| OnFocusIn | `0` | 当一个元素获得焦点时发生，例如文本被选中时。 |
+| OnFocusOut | `1` | 当元素失去焦点时发生，例如文本被取消选择时。 |
+| OnActivate | `2` | 当元素被激活时发生，例如通过鼠标点击或按键。 |
+| OnClick | `3` | 当指针设备按钮在元素上被点击时发生。 |
+| OnMouseDown | `4` | 当指针设备按钮在元素上被按下时发生。 |
+| OnMouseUp | `5` | 当指针设备按钮在元素上被释放时发生。 |
+| OnMouseOver | `6` | 当指针设备移动到元素上时发生。 |
+| OnMouseMove | `7` | 当指针设备在元素上移动时发生。 |
+| OnMouseOut | `8` | 当指针设备从元素上移开时发生。 |
+| OnLoad | `9` | 当用户代理已完全解析元素及其后代和所有引用的资源，所需的渲染时发生。 |
 | OnUnload | `10` | 当 DOM 实现从窗口或框架中移除文档时发生。仅适用于最外层的 svg 元素。 |
-| OnAbort | `11` | 当页面加载在元素被允许完全加载之前停止时发生。 |
+| OnAbort | `11` | 当在元素允许完全加载之前停止页面加载时发生。 |
 | OnError | `12` | 当元素未能正确加载或在脚本执行期间发生错误时发生。 |
 | OnResize | `13` | 当文档视图被调整大小时发生。仅适用于最外层的 svg 元素。 |
-| OnScroll | `14` | 当文档视图沿 X 轴或 Y 轴或两者移动时发生。仅适用于最外层的 svg 元素。 |
-| OnZoom | `15` | 当文档视图的缩放级别被改变时发生。仅适用于最外层的 svg 元素。 |
+| OnScroll | `14` | 当文档视图在 X 或 Y 轴或两者上移动时发生。仅适用于最外层的 svg 元素。 |
+| OnZoom | `15` | 当文档视图的缩放级别发生变化时发生。仅适用于最外层的 svg 元素。 |
 | OnBegin | `16` | 当动画元素开始时发生。 |
 | OnEnd | `17` | 当动画元素结束时发生。 |
 | OnRepeat | `18` | 当动画元素重复时发生。 |
 
-### 参见
+### 参考
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

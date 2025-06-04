@@ -1,15 +1,15 @@
 ---
 title: LinkPathRelative
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает относительный путь к связанному файлу, если он присутствует, в противном случае возвращает пустую строку. Только для чтения Строка.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает относительный путь к связанному файлу, если он присутствует, в противном случае возвращает пустую строку. Свойство только для чтения String.
 type: docs
 weight: 90
 url: /ru/aspose.slides/oleobjectframe/linkpathrelative/
 ---
 
-## Свойство OleObjectFrame.LinkPathRelative
+## OleObjectFrame.LinkPathRelative свойство
 
-Возвращает относительный путь к связанному файлу, если он присутствует, в противном случае возвращает пустую строку. Только для чтения Строка.
+Возвращает относительный путь к связанному файлу, если он присутствует, в противном случае возвращает пустую строку. Свойство только для чтения String.
 
 ```csharp
 public string LinkPathRelative { get; }
@@ -17,7 +17,7 @@ public string LinkPathRelative { get; }
 
 ### Примечания
 
-В презентациях Ppt некоторые ссылки на Ole объекты могут иметь относительное представление.
+В презентациях Ppt некоторые ссылки на Ole-объекты могут иметь относительное представление.
 
 ### Примеры
 
@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("demo.ppt"))
 }
 ```
 
-### См. Также
+### Также см.
 
 * класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)

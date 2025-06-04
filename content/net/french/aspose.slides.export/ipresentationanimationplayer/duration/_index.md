@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtenir la durée d'animation en ms
+description: Obtenir la durée de l'animation en ms
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/ipresentationanimationplayer/duration/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/ipresentationanimationplayer/duration/
 
 ## Propriété IPresentationAnimationPlayer.Duration
 
-Obtenir la durée d'animation [ms]
+Obtenir la durée de l'animation [ms]
 
 ```csharp
 public double Duration { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPresentationAnimationPlayer](../../ipresentationanimationplayer)
 * namespace [Aspose.Slides.Export](../../ipresentationanimationplayer)

@@ -7,7 +7,7 @@ weight: 240
 url: /fr/aspose.slides.charts/ichart/validatechartlayout/
 ---
 
-## Méthode IChart.ValidateChartLayout
+## IChart.ValidateChartLayout méthode
 
 Calcule les valeurs réelles des éléments de graphique. Les valeurs réelles incluent la position des éléments qui implémentent l'interface IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) et les valeurs réelles des axes (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 

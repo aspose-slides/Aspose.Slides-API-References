@@ -1,7 +1,7 @@
 ---
 title: MajorUnitScale
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Hauptmaßstabs-Einheit für die Datumsachse dar. Lese-/schreibbar TimeUnitTypeaspose.slides.charts/timeunittype.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Hauptmaßstabseinheit für die Datumsachse dar. Lese-/Schreibe TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 370
 url: /de/aspose.slides.charts/iaxis/majorunitscale/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/majorunitscale/
 
 ## IAxis.MajorUnitScale-Eigenschaft
 
-Stellt die Hauptmaßstabs-Einheit für die Datumsachse dar. Lese-/schreibbar [`TimeUnitType`](../../timeunittype).
+Stellt die Hauptmaßstabseinheit für die Datumsachse dar. Lese-/Schreibe [`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MajorUnitScale { get; set; }

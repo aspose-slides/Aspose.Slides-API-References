@@ -21,9 +21,9 @@ public interface IWarningCallback
 | --- | --- |
 | [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | Método de callback que recibe advertencias y decide si la operación debe ser abortada. |
 
-### Ver También
+### Véase también
 
-* namespace [Aspose.Slides.Warnings](../../aspose.slides.warnings)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Warnings](../../aspose.slides.warnings)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

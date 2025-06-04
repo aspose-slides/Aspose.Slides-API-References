@@ -7,7 +7,7 @@ weight: 110
 url: /ru/aspose.slides.theme/icolorscheme/hyperlink/
 ---
 
-## Свойство IColorScheme.Hyperlink
+## IColorScheme.Hyperlink свойство
 
 Цвет для гиперссылок. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 

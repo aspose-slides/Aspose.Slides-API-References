@@ -1,7 +1,7 @@
 ---
 title: DepthPercents
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置3D图表的深度，以图表宽度的百分比表示（介于20%和2000%之间）。可读/可写 UInt16。
+description: 返回或设置 3D 图表的深度，作为图表宽度的百分比，范围在 20 到 2000 之间。可读/可写 UInt16。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/irotation3d/depthpercents/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/irotation3d/depthpercents/
 
 ## IRotation3D.DepthPercents 属性
 
-返回或设置3D图表的深度，以图表宽度的百分比表示（介于20%和2000%之间）。可读/可写 UInt16。
+返回或设置 3D 图表的深度，作为图表宽度的百分比（在 20 到 2000 之间）。可读/可写 UInt16。
 
 ```csharp
 public ushort DepthPercents { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IRotation3D](../../irotation3d)
 * 命名空间 [Aspose.Slides.Charts](../../irotation3d)

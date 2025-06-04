@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt die angegebene Eigenschaft aus der Sammlung.
 type: docs
 weight: 110

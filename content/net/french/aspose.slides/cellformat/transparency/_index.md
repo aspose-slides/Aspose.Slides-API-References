@@ -15,7 +15,7 @@ Obtient ou définit la transparence de la couleur de remplissage. Lecture/écrit
 public float Transparency { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [CellFormat](../../cellformat)
 * espace de noms [Aspose.Slides](../../cellformat)

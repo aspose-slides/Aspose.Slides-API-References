@@ -15,7 +15,7 @@ Renvoie ou définit le modèle HTML. Lecture/écriture [`IHtmlFormatter`](../../
 public IHtmlFormatter HtmlFormatter { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHtmlFormatter](../../ihtmlformatter)
 * interface [IHtmlOptions](../../ihtmloptions)

@@ -1,7 +1,7 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种超链接动作类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一种超链接操作类型。
 type: docs
 weight: 2470
 url: /zh/aspose.slides/colorstringformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/colorstringformat/
 
 ## ColorStringFormat 枚举
 
-表示一种超链接动作类型。
+表示一种超链接操作类型。
 
 ```csharp
 public enum ColorStringFormat

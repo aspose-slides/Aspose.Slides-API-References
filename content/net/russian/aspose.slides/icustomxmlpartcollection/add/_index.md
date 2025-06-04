@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новую пользовательскую XML-часть.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новую пользовательскую часть xml.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icustomxmlpartcollection/add/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icustomxmlpartcollection/add/
 
 ## Add(byte[]) {#add}
 
-Добавляет новую пользовательскую XML-часть.
+Добавляет новую пользовательскую часть xml.
 
 ```csharp
 public ICustomXmlPart Add(byte[] xmlData)
@@ -17,20 +17,20 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlData | Byte[] | XML-данные новой части, которая будет добавлена. |
+| xmlData | Byte[] | XML-данные новой части, которую необходимо добавить. |
 
 ### Возвращаемое значение
 
-Созданная пользовательская XML-часть.
+Созданная пользовательская часть xml.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | xmlData равно `null`. |
-| ArgumentException | xmlData пустое или недействительное. |
+| ArgumentException | xmlData пустой или недействительный. |
 
-### См. также
+### См. Также
 
 * интерфейс [ICustomXmlPart](../../icustomxmlpart)
 * интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
@@ -41,7 +41,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 ## Add(string) {#add_2}
 
-Добавляет новую пользовательскую XML-часть.
+Добавляет новую пользовательскую часть xml.
 
 ```csharp
 public ICustomXmlPart Add(string xmlString)
@@ -49,20 +49,20 @@ public ICustomXmlPart Add(string xmlString)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlString | String | Строка XML новой части, которая будет добавлена. |
+| xmlString | String | XML-строка новой части, которую необходимо добавить. |
 
 ### Возвращаемое значение
 
-Созданная пользовательская XML-часть.
+Созданная пользовательская часть xml.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | xmlString равно `null`. |
-| ArgumentException | xmlString пустая или XML-данные недействительны. |
+| ArgumentException | xmlString пустая или xml-данные недействительные. |
 
-### См. также
+### См. Также
 
 * интерфейс [ICustomXmlPart](../../icustomxmlpart)
 * интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)
@@ -73,7 +73,7 @@ public ICustomXmlPart Add(string xmlString)
 
 ## Add(Stream) {#add_1}
 
-Добавляет новую пользовательскую XML-часть.
+Добавляет новую пользовательскую часть xml.
 
 ```csharp
 public ICustomXmlPart Add(Stream inputStream)
@@ -81,11 +81,11 @@ public ICustomXmlPart Add(Stream inputStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| inputStream | Stream | inputStream с XML-данными новой части, которая будет добавлена. |
+| inputStream | Stream | Входной поток с xml-данными новой части, которую необходимо добавить. |
 
 ### Возвращаемое значение
 
-Созданная пользовательская XML-часть.
+Созданная пользовательская часть xml.
 
 ### Исключения
 
@@ -94,7 +94,7 @@ public ICustomXmlPart Add(Stream inputStream)
 | ArgumentNullException | inputStream равно `null`. |
 | ArgumentException | Данные в inputStream пустые или недействительные. |
 
-### См. также
+### См. Также
 
 * интерфейс [ICustomXmlPart](../../icustomxmlpart)
 * интерфейс [ICustomXmlPartCollection](../../icustomxmlpartcollection)

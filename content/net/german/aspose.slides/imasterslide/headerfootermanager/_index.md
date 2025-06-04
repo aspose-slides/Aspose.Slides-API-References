@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den HeaderFooter-Manager der Masterfolie zurück. Schreibgeschützter IMasterSlideHeaderFooterManager aspose.slides/imasterslideheaderfootermanager.
+description: Gibt den HeaderFooter-Manager der Masterfolie zurück. Nur-lesender IMasterSlideHeaderFooterManageraspose.slides/imasterslideheaderfootermanager.
 type: docs
 weight: 50
 url: /de/aspose.slides/imasterslide/headerfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasterslide/headerfootermanager/
 
 ## IMasterSlide.HeaderFooterManager-Eigenschaft
 
-Gibt den HeaderFooter-Manager der Masterfolie zurück. Schreibgeschützter [`IMasterSlideHeaderFooterManager`](../../imasterslideheaderfootermanager).
+Gibt den HeaderFooter-Manager der Masterfolie zurück. Nur-lesender [`IMasterSlideHeaderFooterManager`](../../imasterslideheaderfootermanager).
 
 ```csharp
 public IMasterSlideHeaderFooterManager HeaderFooterManager { get; }

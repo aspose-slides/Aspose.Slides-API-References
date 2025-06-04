@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée un nouvel arrêt de dégradé et l'ajoute à la fin de la collection.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igradientstopcollection/add/
 ---
 
-## Ajouter(float, Color) {#add_2}
+## Add(float, Color) {#add_2}
 
 Crée un nouvel arrêt de dégradé et l'ajoute à la fin de la collection.
 
@@ -33,7 +33,7 @@ Indice du nouvel arrêt de dégradé dans la collection.
 
 ---
 
-## Ajouter(float, PresetColor) {#add}
+## Add(float, PresetColor) {#add}
 
 Crée un nouvel arrêt de dégradé et l'ajoute à la fin de la collection.
 
@@ -60,7 +60,7 @@ Indice du nouvel arrêt de dégradé dans la collection.
 
 ---
 
-## Ajouter(float, SchemeColor) {#add_1}
+## Add(float, SchemeColor) {#add_1}
 
 Crée un nouvel arrêt de dégradé et l'ajoute à la fin de la collection.
 

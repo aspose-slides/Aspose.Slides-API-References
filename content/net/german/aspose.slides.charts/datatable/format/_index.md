@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Linienfüll- und Effektstile eines Objekts zurück. Nur lesbar IFormataspose.slides.charts/iformat.
+description: Gibt die Linienfüllung und Effektstile eines Objekts zurück. Nur-Lese IFormataspose.slides/iformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/datatable/format/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/datatable/format/
 
 ## DataTable.Format-Eigenschaft
 
-Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur lesbar [`IFormat`](../../iformat).
+Gibt die Linien-, Füll- und Effektstile eines Objekts zurück. Nur-Lese [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFormat](../../iformat)
 * Klasse [DataTable](../../datatable)

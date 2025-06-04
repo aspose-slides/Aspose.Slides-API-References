@@ -1,6 +1,6 @@
 ---
 title: Insert
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Crée de nouvelles séries de graphiques et les insère dans la collection.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Crée de nouvelles séries de graphiques et les insère dans la collection.
 public IChartSeries Insert(int index, ChartType type)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)

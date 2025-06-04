@@ -20,8 +20,8 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-lesend [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Ermöglicht den Zugriff auf die Basis-IImageTransformOperation-Schnittstelle. Nur-lesend [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Siehe auch
 

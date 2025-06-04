@@ -1,6 +1,6 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/videoplayerhtmlcontrollerfactory/videoplayerhtmlco
 public VideoPlayerHtmlControllerFactory()
 ```
 
-### См. также
+### См. Также
 
 * класс [VideoPlayerHtmlControllerFactory](../../videoplayerhtmlcontrollerfactory)
 * пространство имен [Aspose.Slides.Export](../../videoplayerhtmlcontrollerfactory)

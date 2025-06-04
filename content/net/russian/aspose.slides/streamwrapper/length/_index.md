@@ -1,13 +1,13 @@
 ---
 title: Length
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает длину в байтах потока. Только для чтения Int64.
 type: docs
 weight: 50
 url: /ru/aspose.slides/streamwrapper/length/
 ---
 
-## Свойство StreamWrapper.Length
+## StreamWrapper.Length свойство
 
 Получает длину в байтах потока. Только для чтения Int64.
 

@@ -1,15 +1,15 @@
 ---
 title: AddMediaPlaceholder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новую фигуру-заполнитель на слайд макета для размещения медиаобъекта.
+second_title: Aspose.Slides для .NET API Справочник
+description: Добавляет новую фигуру-заполнитель на слайде макета для хранения медиаобъекта.
 type: docs
 weight: 30
 url: /ru/aspose.slides/layoutplaceholdermanager/addmediaplaceholder/
 ---
 
-## Метод LayoutPlaceholderManager.AddMediaPlaceholder
+## LayoutPlaceholderManager.AddMediaPlaceholder метод
 
-Добавляет новую фигуру-заполнитель на слайд макета для размещения медиаобъекта.
+Добавляет новую фигуру-заполнитель на слайде макета для хранения медиаобъекта.
 
 ```csharp
 public IAutoShape AddMediaPlaceholder(float x, float y, float width, float height)
@@ -24,11 +24,11 @@ public IAutoShape AddMediaPlaceholder(float x, float y, float width, float heigh
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем медиа.
+Созданный [`IAutoShape`](../../iautoshape) с медиа-заполнителем.
 
 ### Примеры
 
-Следующий пример демонстрирует, как добавить фигуру-заполнитель медиа на слайд макета.
+Следующий пример показывает, как добавить фигуру-заполнитель медиа на слайд макета.
 
 ```csharp
 [C#]

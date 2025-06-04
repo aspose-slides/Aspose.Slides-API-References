@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt die Textausrichtung. Der resultierende Wert der visuellen Textdrehung wird aus dieser Eigenschaft und dem benutzerdefinierten Winkel in der Eigenschaft RotationAngle zusammengefasst. Lese-/schreibbare TextVerticalTypeaspose.slides/textverticaltype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt die Textausrichtung. Der resultierende Wert der visuellen Textdrehung wird aus dieser Eigenschaft und dem benutzerdefinierten Winkel in der Eigenschaft RotationAngle zusammengefasst. Lesen/Schreiben von TextVerticalType aspose.slides/textverticaltype.
 type: docs
 weight: 130
 url: /de/aspose.slides/textframeformat/textverticaltype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframeformat/textverticaltype/
 
 ## TextFrameFormat.TextVerticalType-Eigenschaft
 
-Bestimmt die Textausrichtung. Der resultierende Wert der visuellen Textdrehung wird aus dieser Eigenschaft und dem benutzerdefinierten Winkel in der Eigenschaft RotationAngle zusammengefasst. Lese-/schreibbar [`TextVerticalType`](../../textverticaltype).
+Bestimmt die Textausrichtung. Der resultierende Wert der visuellen Textdrehung wird aus dieser Eigenschaft und dem benutzerdefinierten Winkel in der Eigenschaft RotationAngle zusammengefasst. Lesen/Schreiben von [`TextVerticalType`](../../textverticaltype).
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }

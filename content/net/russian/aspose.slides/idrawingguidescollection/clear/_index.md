@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 40

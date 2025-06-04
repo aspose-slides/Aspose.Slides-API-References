@@ -1,7 +1,7 @@
 ---
 title: UserShapes
-second_title: Aspose.Slides for .NET API 参考
-description: 指定绘制在图表顶部的形状。只读 IGroupShapeaspose.slides/../aspose.slides/igroupshape。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定绘制在图表顶部的形状。只读 IGroupShape aspose.slides/igroupshape。
 type: docs
 weight: 240
 url: /zh/aspose.slides.charts/chart/usershapes/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chart/usershapes/
 public IGroupShape UserShapes { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IGroupShape](../../../aspose.slides/igroupshape)
 * 类 [Chart](../../chart)

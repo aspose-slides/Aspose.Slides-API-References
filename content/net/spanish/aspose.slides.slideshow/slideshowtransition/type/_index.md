@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Tipo de transición. Lectura/escritura TransitionTypeaspose.slides.slideshow/transitiontype.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Tipo de transición. Lectura/escritura [`TransitionType`](../../transitiontype).
 public TransitionType Type { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [TransitionType](../../transitiontype)
 * class [SlideShowTransition](../../slideshowtransition)

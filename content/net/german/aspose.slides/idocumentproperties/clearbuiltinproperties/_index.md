@@ -1,7 +1,7 @@
 ---
 title: ClearBuiltInProperties
-second_title: Aspose.Slides für .NET API-Referenz
-description: Löscht und setzt Standardwerte für alle builtIn-Eigenschaften.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Löscht und setzt Standardwerte für alle Built-In-Eigenschaften.
 type: docs
 weight: 360
 url: /de/aspose.slides/idocumentproperties/clearbuiltinproperties/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/idocumentproperties/clearbuiltinproperties/
 
 ## IDocumentProperties.ClearBuiltInProperties-Methode
 
-Löscht und setzt Standardwerte für alle builtIn-Eigenschaften.
+Löscht und setzt Standardwerte für alle Built-In-Eigenschaften.
 
 ```csharp
 public void ClearBuiltInProperties()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDocumentProperties](../../idocumentproperties)
 * Namespace [Aspose.Slides](../../idocumentproperties)

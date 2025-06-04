@@ -1,15 +1,15 @@
 ---
 title: HorizontalBarState
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la région de contenu située en dessous de la diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la zone de contenu en dessous de la diapositive.
 type: docs
 weight: 10
 url: /fr/aspose.slides/normalviewproperties/horizontalbarstate/
 ---
 
-## NormalViewProperties.HorizontalBarState propriété
+## NormalViewProperties.HorizontalBarState property
 
-Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la région de contenu située en dessous de la diapositive.
+Spécifie l'état dans lequel la barre de séparation horizontale doit être affichée. Une barre de séparation horizontale sépare la diapositive de la zone de contenu en dessous de la diapositive.
 
 ```csharp
 public SplitterBarStateType HorizontalBarState { get; set; }

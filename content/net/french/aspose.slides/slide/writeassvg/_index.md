@@ -1,7 +1,7 @@
 ---
 title: WriteAsSvg
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Sauvegarde le contenu de la diapositive au format SVG.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Enregistre le contenu de la diapositive en tant que fichier SVG.
 type: docs
 weight: 140
 url: /fr/aspose.slides/slide/writeassvg/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slide/writeassvg/
 
 ## WriteAsSvg(Stream) {#writeassvg}
 
-Sauvegarde le contenu de la diapositive au format SVG.
+Enregistre le contenu de la diapositive en tant que fichier SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream)
@@ -21,7 +21,7 @@ public void WriteAsSvg(Stream stream)
 
 ### Exemples
 
-L'exemple de code suivant démontre comment convertir la première diapositive d'une présentation PowerPoint en un fichier SVG.
+L'exemple de code suivant montre comment convertir la première diapositive d'une présentation PowerPoint en un fichier SVG.
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (Stream fileStream = System.IO.File.Create("slide_1.svg"))
     {
-        // Sauvegarde la première diapositive au format SVG
+        // Enregistre la première diapositive en tant que fichier SVG
         pres.Slides[0].WriteAsSvg(fileStream);
     }
 }
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
-Sauvegarde le contenu de la diapositive au format SVG.
+Enregistre le contenu de la diapositive en tant que fichier SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
@@ -58,7 +58,7 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 
 ### Exemples
 
-L'exemple de code suivant démontre comment convertir la première diapositive d'une présentation PowerPoint en un fichier SVG avec options.
+L'exemple de code suivant montre comment convertir la première diapositive d'une présentation PowerPoint en un fichier SVG avec des options.
 
 ```csharp
 [C#]
@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
     using (Stream fileStream = System.IO.File.Create("slide_1.svg"))
     {
         var options = new SVGOptions() { VectorizeText = true };
-        // Sauvegarde la première diapositive au format SVG
+        // Enregistre la première diapositive en tant que fichier SVG
         pres.Slides[0].WriteAsSvg(fileStream, options);
     }
 }

@@ -15,11 +15,11 @@ Devuelve el formato de texto. Solo lectura [`IChartTextFormat`](../../icharttext
 public IChartTextFormat TextFormat { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IChartTextFormat](../../icharttextformat)
-* clase [DataLabel](../../datalabel)
-* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartTextFormat](../../icharttextformat)
+* clase [DataLabel](../../datalabel)
+* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

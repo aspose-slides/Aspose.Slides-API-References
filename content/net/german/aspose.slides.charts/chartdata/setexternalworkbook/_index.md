@@ -1,7 +1,7 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Slide für .NET API-Referenz
-description: Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Setzt externe Arbeitsmappe als Datenquelle für das Diagramm. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/chartdata/setexternalworkbook/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdata/setexternalworkbook/
 
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
+Setzt externe Arbeitsmappe als Datenquelle für das Diagramm. Die Diagrammdaten werden aus der Zielarbeitsmappe aktualisiert.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -23,7 +23,7 @@ public void SetExternalWorkbook(string workbookPath)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Die externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
+| InvalidOperationException | Externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
 
 ### Beispiele
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Setzt die externe Arbeitsmappe als Datenquelle für das Diagramm.
+Setzt externe Arbeitsmappe als Datenquelle für das Diagramm.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -56,13 +56,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | workbookPath | String | Pfad zur Zielarbeitsmappe |
-| updateChartData | Boolean | Wenn der Wert falsch ist, wird nur der Pfad zur Arbeitsmappe aktualisiert. Die Diagrammdaten werden nicht geladen und nicht aus der Zielarbeitsmappe aktualisiert. Kann verwendet werden, wenn die Zielarbeitsmappe nicht vorhanden ist oder nicht verfügbar ist. Wenn der Wert wahr ist, werden die Diagrammdaten aus der Zielarbeitsmappe aktualisiert. |
+| updateChartData | Boolean | Wenn der Wert false ist, wird nur der Arbeitsmappenpfad aktualisiert. Die Diagrammdaten werden nicht geladen und nicht aus der Zielarbeitsmappe aktualisiert. Kann verwendet werden, wenn die Zielarbeitsmappe nicht existiert oder nicht verfügbar ist. Wenn der Wert true ist, werden die Diagrammdaten aus der Zielarbeitsmappe aktualisiert. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | Die externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
+| InvalidOperationException | Externe Arbeitsmappe ist nicht verfügbar oder kann nicht geladen werden. |
 
 ### Beispiele
 
@@ -75,10 +75,9 @@ using (Presentation pres = new Presentation())
 
    (chartData as ChartData).SetExternalWorkbook("http://path/doesnt/exists", false);
 
-
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)

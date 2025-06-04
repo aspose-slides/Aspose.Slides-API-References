@@ -1,7 +1,7 @@
 ---
 title: ToBox
-second_title: Aspose.Slides für .NET API-Referenz
-description: Platziert dieses Element in einer nicht-visuellen Box logische Gruppierung, die verwendet wird, um Komponenten einer Gleichung oder einer anderen Instanz mathematischer Texte zu gruppieren. Ein eingekastetes Objekt kann zum Beispiel als Operator-Emulator mit oder ohne einen Ausrichtungs-punkt fungieren, als Zeilenumbruchs-punkt dienen oder gruppiert werden, um Zeilenumbrüche innerhalb zu verhindern.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Platziert dieses Element in einer nicht visuellen Box logische Gruppierung, die verwendet wird, um Komponenten einer Gleichung oder einer anderen Instanz mathematischen Textes zu gruppieren. Ein eingekastetes Objekt kann beispielsweise als Operator-Emulator mit oder ohne Ausrichtungspunkt, als Zeilenumbruchpunkt dienen oder so gruppiert werden, dass Zeilenumbrüche innerhalb nicht erlaubt sind.
 type: docs
 weight: 190
 url: /de/aspose.slides.mathtext/mathelementbase/tobox/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathelementbase/tobox/
 
 ## MathElementBase.ToBox-Methode
 
-Platziert dieses Element in einer nicht-visuellen Box (logische Gruppierung), die verwendet wird, um Komponenten einer Gleichung oder einer anderen Instanz mathematischer Texte zu gruppieren. Ein eingekastetes Objekt kann (zum Beispiel) als Operator-Emulator mit oder ohne einen Ausrichtungs-punkt fungieren, als Zeilenumbruchs-punkt dienen oder gruppiert werden, um Zeilenumbrüche innerhalb zu verhindern.
+Platziert dieses Element in einer nicht visuellen Box (logische Gruppierung), die verwendet wird, um Komponenten einer Gleichung oder einer anderen Instanz mathematischen Textes zu gruppieren. Ein eingekastetes Objekt kann (zum Beispiel) als Operator-Emulator mit oder ohne Ausrichtungspunkt, als Zeilenumbruchpunkt oder so gruppiert werden, dass Zeilenumbrüche innerhalb nicht erlaubt sind.
 
 ```csharp
 public IMathBox ToBox()
@@ -28,7 +28,7 @@ Beispiel:
 IMathBox box = new MathematicalText("x:=y").ToBox();
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBox](../../imathbox)
 * Klasse [MathElementBase](../../mathelementbase)

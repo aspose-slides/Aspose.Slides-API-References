@@ -1,13 +1,13 @@
 ---
 title: CrossType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет CrossType на указанной оси, где пересекается другая ось. Чтение/запись CrossesTypeaspose.slides.charts/crossestype.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/iaxis/crosstype/
 ---
 
-## Свойство IAxis.CrossType
+## IAxis.CrossType свойство
 
 Представляет CrossType на указанной оси, где пересекается другая ось. Чтение/запись [`CrossesType`](../../crossestype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/iaxis/crosstype/
 public CrossesType CrossType { get; set; }
 ```
 
-### Смотрите Также
+### См. Также
 
 * enum [CrossesType](../../crossestype)
 * interface [IAxis](../../iaxis)

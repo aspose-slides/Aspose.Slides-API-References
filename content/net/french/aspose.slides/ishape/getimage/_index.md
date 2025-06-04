@@ -1,7 +1,7 @@
 ---
 title: GetImage
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la miniature de la forme. Le type de bornes de miniature ShapeThumbnailBounds.Shape est utilisé par défaut.
+description: Renvoie la miniature de forme. Le type de limites de miniature de forme ShapeThumbnailBounds.Shape est utilisé par défaut.
 type: docs
 weight: 320
 url: /fr/aspose.slides/ishape/getimage/
@@ -9,15 +9,15 @@ url: /fr/aspose.slides/ishape/getimage/
 
 ## GetImage() {#getimage}
 
-Renvoie la miniature de la forme. Le type de bornes de miniature ShapeThumbnailBounds.Shape est utilisé par défaut.
+Renvoie la miniature de forme. Le type de limites de miniature de forme ShapeThumbnailBounds.Shape est utilisé par défaut.
 
 ```csharp
 public IImage GetImage()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
-Miniature de la forme.
+Miniature de forme.
 
 ### Voir aussi
 
@@ -30,7 +30,7 @@ Miniature de la forme.
 
 ## GetImage(ShapeThumbnailBounds, float, float) {#getimage_1}
 
-Renvoie la miniature de la forme.
+Renvoie la miniature de forme.
 
 ```csharp
 public IImage GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
@@ -38,13 +38,13 @@ public IImage GetImage(ShapeThumbnailBounds bounds, float scaleX, float scaleY)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| bounds | ShapeThumbnailBounds | Type de bornes de miniature de la forme. |
+| bounds | ShapeThumbnailBounds | Type de limites de miniature de forme. |
 | scaleX | Single | Échelle X |
 | scaleY | Single | Échelle Y |
 
-### Valeur de Retour
+### Valeur de retour
 
-Miniature de la forme ou null dans le cas où ShapeThumbnailBounds.Appearance est utilisé et qu'une forme n'a pas d'éléments visibles.
+Miniature de forme ou null dans le cas où ShapeThumbnailBounds.Appearance est utilisé et qu'une forme n'a pas d'éléments visibles.
 
 ### Voir aussi
 

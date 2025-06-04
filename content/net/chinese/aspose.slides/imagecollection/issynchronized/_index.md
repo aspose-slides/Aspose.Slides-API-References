@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes for .NET API Reference
-description: 返回一个值，指示对集合的访问是否是同步的（线程安全的）。只读布尔值。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回一个值，指示对集合的访问是否是同步的（线程安全）。只读布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/imagecollection/issynchronized/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/imagecollection/issynchronized/
 
 ## ImageCollection.IsSynchronized 属性
 
-返回一个值，指示对集合的访问是否是同步的（线程安全的）。只读布尔值。
+返回一个值，指示对集合的访问是否是同步的（线程安全）。只读布尔值。
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [ImageCollection](../../imagecollection)
 * 命名空间 [Aspose.Slides](../../imagecollection)

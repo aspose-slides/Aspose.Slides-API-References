@@ -1,13 +1,13 @@
 ---
 title: BaseShapeLock
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Representa una clase base para la operación de bloqueos deshabilitados.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Representa una clase base para operaciones deshabilitadas por bloqueo.
 type: docs
 weight: 900
 url: /es/aspose.slides/baseshapelock/
 ---
 
-## Clase BaseShapeLock
+## BaseShapeLock class
 
 Representa una clase base para bloqueos (operación deshabilitada).
 
@@ -15,14 +15,16 @@ Representa una clase base para bloqueos (operación deshabilitada).
 public class BaseShapeLock : IBaseShapeLock
 ```
 
-## Propiedades
+## Properties
 
 | Nombre | Descripción |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Devuelve verdadero si todos los indicadores de bloqueo están deshabilitados. Booleano de solo lectura. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Devuelve verdadero si todas las banderas de bloqueo están deshabilitadas. Booleano de solo lectura. |
 
-### Véase también
+### Ver También
 
-* interfaz [IBaseShapeLock](../ibaseshapelock)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* interface [IBaseShapeLock](../ibaseshapelock)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
+
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

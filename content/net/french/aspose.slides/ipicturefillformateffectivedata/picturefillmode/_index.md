@@ -1,7 +1,7 @@
 ---
 title: PictureFillMode
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le mode de remplissage d'image. En lecture seule PictureFillModeaspose.slides/picturefillmode.
+description: Retourne le mode de remplissage de l'image. Lecture seule PictureFillModeaspose.slides/picturefillmode.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
 
 ## Propriété IPictureFillFormatEffectiveData.PictureFillMode
 
-Renvoie le mode de remplissage d'image. En lecture seule [`PictureFillMode`](../../picturefillmode).
+Retourne le mode de remplissage de l'image. Lecture seule [`PictureFillMode`](../../picturefillmode).
 
 ```csharp
 public PictureFillMode PictureFillMode { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [PictureFillMode](../../picturefillmode)
 * interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)

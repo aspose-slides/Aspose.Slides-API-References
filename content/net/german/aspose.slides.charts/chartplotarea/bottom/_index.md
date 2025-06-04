@@ -1,15 +1,15 @@
 ---
 title: Bottom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Unten. Nur-Lese Single.
+description: Bottom. Nur lesbares Single.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/chartplotarea/bottom/
 ---
 
-## ChartPlotArea.Unten-Eigenschaft
+## ChartPlotArea.Bottom-Eigenschaft
 
-Unten. Nur-Lese Single.
+Bottom. Nur lesbares Single.
 
 ```csharp
 public float Bottom { get; }

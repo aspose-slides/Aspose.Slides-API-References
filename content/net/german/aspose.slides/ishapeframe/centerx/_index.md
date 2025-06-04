@@ -1,7 +1,7 @@
 ---
 title: CenterX
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die X-Koordinate des Zentrums eines Rahmens zurück. Nur lesbare Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die X-Koordinate des Zentrums eines Rahmens zurück. Nur-Lese Single.
 type: docs
 weight: 10
 url: /de/aspose.slides/ishapeframe/centerx/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapeframe/centerx/
 
 ## IShapeFrame.CenterX-Eigenschaft
 
-Gibt die X-Koordinate des Zentrums eines Rahmens zurück. Nur lesbare Single.
+Gibt die X-Koordinate des Zentrums eines Rahmens zurück. Nur-Lese Single.
 
 ```csharp
 public float CenterX { get; }

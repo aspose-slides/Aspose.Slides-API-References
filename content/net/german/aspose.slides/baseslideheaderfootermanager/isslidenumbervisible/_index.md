@@ -1,7 +1,7 @@
 ---
 title: IsSlideNumberVisible
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Seitennummer vorhanden ist. ReadBoolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Seitenzahl vorhanden ist. ReadBoolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
 
 ## BaseSlideHeaderFooterManager.IsSlideNumberVisible-Eigenschaft
 
-Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Seitennummer vorhanden ist. ReadBoolean.
+Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Seitenzahl vorhanden ist. ReadBoolean.
 
 ```csharp
 public bool IsSlideNumberVisible { get; }

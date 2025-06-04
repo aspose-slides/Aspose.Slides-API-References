@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Insère une Portion dans la collection à l'index spécifié.
 type: docs
 weight: 100
 url: /fr/aspose.slides/portioncollection/insert/
 ---
 
-## Méthode PortionCollection.Insert
+## PortionCollection.Insert method
 
 Insère une Portion dans la collection à l'index spécifié.
 
@@ -17,10 +17,10 @@ public void Insert(int index, IPortion value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro auquel la Portion doit être insérée. |
+| index | Int32 | L'index basé sur zéro à laquelle la Portion doit être insérée. |
 | value | IPortion | La Portion à insérer. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPortion](../../iportion)
 * class [PortionCollection](../../portioncollection)

@@ -1,6 +1,6 @@
 ---
 title: CreateRotationEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建旋转效果。
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public IRotationEffect CreateRotationEffect()
 
 旋转效果。
 
-### 另见
+### 另请参见
 
 * 接口 [IRotationEffect](../../irotationeffect)
 * 类 [BehaviorFactory](../../behaviorfactory)

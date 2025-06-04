@@ -1,15 +1,15 @@
 ---
 title: LinkFileName
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le chemin complet vers un fichier lié. Le nom de fichier court sera utilisé. Chaîne en lecture seule.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie le chemin complet vers un fichier lié. Un nom de fichier court sera utilisé. Chaîne en lecture seule.
 type: docs
 weight: 70
 url: /fr/aspose.slides/oleobjectframe/linkfilename/
 ---
 
-## Propriété OleObjectFrame.LinkFileName
+## OleObjectFrame.LinkFileName propriété
 
-Renvoie le chemin complet vers un fichier lié. Le nom de fichier court sera utilisé. Chaîne en lecture seule.
+Renvoie le chemin complet vers un fichier lié. Un nom de fichier court sera utilisé. Chaîne en lecture seule.
 
 ```csharp
 public string LinkFileName { get; }

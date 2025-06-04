@@ -1,7 +1,7 @@
 ---
 title: Justification
-second_title: Aspose.Slides für .NET API Referenz
-description: Absatzrechtfertigung Standardwert ZentriertAlsGruppe
+second_title: Aspose.Sildes für .NET API Referenz
+description: Absatzjustierung Standardwert CenteredAsGroup
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathparagraph/justification/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathparagraph/justification/
 
 ## IMathParagraph.Justification-Eigenschaft
 
-Absatzrechtfertigung Standardwert: ZentriertAlsGruppe
+Absatzjustierung Standardwert: CenteredAsGroup
 
 ```csharp
 public MathJustification Justification { get; set; }

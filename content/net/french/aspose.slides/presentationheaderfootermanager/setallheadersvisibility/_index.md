@@ -1,15 +1,15 @@
 ---
 title: SetAllHeadersVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de tous les espaces réservés d'en-tête, y compris le modèle de notes, les diapositives de notes et le modèle de distribution.
+second_title: Référence API Aspose.Slides pour .NET
+description: Modifie la visibilité de tous les espaces réservés d'en-tête, y compris le maître de notes, les diapositives de notes et le maître de documents.
 type: docs
 weight: 60
 url: /fr/aspose.slides/presentationheaderfootermanager/setallheadersvisibility/
 ---
 
-## PresentationHeaderFooterManager.SetAllHeadersVisibility méthode
+## PresentationHeaderFooterManager.SetAllHeadersVisibility method
 
-Modifie la visibilité de tous les espaces réservés d'en-tête, y compris le modèle de notes, les diapositives de notes et le modèle de distribution.
+Modifie la visibilité de tous les espaces réservés d'en-tête, y compris le maître de notes, les diapositives de notes et le maître de documents.
 
 ```csharp
 public void SetAllHeadersVisibility(bool isVisible)
@@ -19,7 +19,7 @@ public void SetAllHeadersVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - rend les espaces réservés d'en-tête visibles, sinon - les cache. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * espace de noms [Aspose.Slides](../../presentationheaderfootermanager)

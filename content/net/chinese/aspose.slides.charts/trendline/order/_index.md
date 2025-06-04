@@ -1,7 +1,7 @@
 ---
 title: Order
-second_title: Aspose.Slides for .NET API 参考
-description: 指定多项式趋势线的顺序。对于其他趋势线类型，此值被忽略。值必须在 2 到 6 之间。可读/可写字节。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定多项式趋势线的阶数。对于其他趋势线类型将被忽略。值必须在2到6之间。可读/写字节。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/trendline/order/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/trendline/order/
 
 ## Trendline.Order 属性
 
-指定多项式趋势线的顺序。对于其他趋势线类型，此值被忽略。值必须在 2 到 6 之间。可读/可写字节。
+指定多项式趋势线的阶数。对于其他趋势线类型将被忽略。值必须在2到6之间。可读/写字节。
 
 ```csharp
 public byte Order { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [Trendline](../../trendline)
 * namespace [Aspose.Slides.Charts](../../trendline)

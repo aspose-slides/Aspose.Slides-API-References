@@ -1,21 +1,21 @@
 ---
 title: Radius
-second_title: Aspose.Slides for .NET API 参考
-description: 指定要应用于边缘的模糊半径。只读 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定应用于边缘的模糊半径。只读 Double。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/isoftedgeeffectivedata/radius/
 ---
 
-## ISoftEdgeEffectiveData.Radius 属性
+## ISoftEdgeEffectiveData.Radius property
 
-指定要应用于边缘的模糊半径。只读 Double。
+指定应用于边缘的模糊半径。只读 Double。
 
 ```csharp
 public double Radius { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ISoftEdgeEffectiveData](../../isoftedgeeffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../isoftedgeeffectivedata)

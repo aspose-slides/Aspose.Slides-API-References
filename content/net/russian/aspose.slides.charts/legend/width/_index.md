@@ -1,6 +1,6 @@
 ---
 title: Width
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает ширину легенды как долю ширины диаграммы. Чтение/запись Single.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/legend/width/
 public float Width { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)

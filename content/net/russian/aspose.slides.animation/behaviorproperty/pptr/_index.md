@@ -1,6 +1,6 @@
 ---
 title: PptR
-second_title: Aspose.Sildes для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство ppt_r
 type: docs
 weight: 530
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/pptr/
 public static BehaviorProperty PptR { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

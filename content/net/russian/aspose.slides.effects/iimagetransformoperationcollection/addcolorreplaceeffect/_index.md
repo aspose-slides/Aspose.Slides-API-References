@@ -1,6 +1,6 @@
 ---
 title: AddColorReplaceEffect
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый эффект замены цвета в конец коллекции.
 type: docs
 weight: 130
@@ -19,7 +19,7 @@ public IColorReplace AddColorReplaceEffect()
 
 Индекс нового эффекта изображения в коллекции.
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [IColorReplace](../../icolorreplace)
 * интерфейс [IImageTransformOperationCollection](../../iimagetransformoperationcollection)

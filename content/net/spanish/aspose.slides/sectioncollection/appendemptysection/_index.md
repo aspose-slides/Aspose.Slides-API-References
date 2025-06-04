@@ -1,15 +1,15 @@
 ---
 title: AppendEmptySection
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agregar una sección vacía al final de la colección.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Agregar sección vacía al final de la colección.
 type: docs
 weight: 70
 url: /es/aspose.slides/sectioncollection/appendemptysection/
 ---
 
-## Método SectionCollection.AppendEmptySection
+## SectionCollection.AppendEmptySection método
 
-Agrega una sección vacía al final de la colección.
+Agregar sección vacía al final de la colección.
 
 ```csharp
 public ISection AppendEmptySection(string name)

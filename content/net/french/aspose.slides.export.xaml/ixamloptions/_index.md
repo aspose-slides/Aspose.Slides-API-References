@@ -1,7 +1,7 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Slides pour .NET API Référence
-description: Options qui contrôlent la manière dont un document XAML est enregistré.
+second_title: Aspose.Sildes for .NET API Reference
+description: Options qui contrôlent comment un document XAML est enregistré.
 type: docs
 weight: 4510
 url: /fr/aspose.slides.export.xaml/ixamloptions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export.xaml/ixamloptions/
 
 ## Interface IXamlOptions
 
-Options qui contrôlent la manière dont un document XAML est enregistré.
+Options qui contrôlent comment un document XAML est enregistré.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions

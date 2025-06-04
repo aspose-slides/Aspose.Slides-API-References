@@ -1,15 +1,15 @@
 ---
 title: Layout
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает макет секций сводного зума в фрейме. Значение по умолчанию - GridLayout.
+second_title: Aspose.Sildes for .NET API Reference
+description: Получает макет разделов сводного увеличения в рамках. Значение по умолчанию — GridLayout.
 type: docs
 weight: 10
 url: /ru/aspose.slides/summaryzoomframe/layout/
 ---
 
-## Свойство SummaryZoomFrame.Layout
+## SummaryZoomFrame.Layout property
 
-Получает макет секций сводного зума в фрейме. Значение по умолчанию - GridLayout.
+Получает макет разделов сводного увеличения в рамках. Значение по умолчанию — GridLayout.
 
 ```csharp
 public ZoomLayout Layout { get; }
@@ -17,7 +17,7 @@ public ZoomLayout Layout { get; }
 
 ### Примеры
 
-Этот пример демонстрирует получение элемента секции сводного зума по индексу:
+В этом примере демонстрируется получение элемента раздела сводного увеличения по индексу:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Также см.
 
 * enum [ZoomLayout](../../zoomlayout)
 * class [SummaryZoomFrame](../../summaryzoomframe)

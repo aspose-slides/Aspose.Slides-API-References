@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效文本框格式数据。
 type: docs
 weight: 170
@@ -19,7 +19,7 @@ public ITextFrameFormatEffectiveData GetEffective()
 
 一个 [`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata)。
 
-### 另见
+### 另请参见
 
 * 接口 [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * 接口 [ITextFrameFormat](../../itextframeformat)

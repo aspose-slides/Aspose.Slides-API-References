@@ -1,7 +1,7 @@
 ---
 title: Dpi
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置用于填充图像的 dpi。可读/写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置用于填充图片的 dpi。可读写 Int32。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ipicturefillformat/dpi/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipicturefillformat/dpi/
 
 ## IPictureFillFormat.Dpi 属性
 
-返回或设置用于填充图像的 dpi。可读/写 Int32。
+返回或设置用于填充图片的 dpi。可读写 Int32。
 
 ```csharp
 public int Dpi { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IPictureFillFormat](../../ipicturefillformat)
 * 命名空间 [Aspose.Slides](../../ipicturefillformat)

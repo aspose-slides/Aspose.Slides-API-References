@@ -1,15 +1,15 @@
 ---
 title: FontSubstitutionInfo
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Эта структура представляет информацию о замене шрифта, когда он будет отрисован.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эта структура представляет информацию о замене шрифта при его отображении.
 type: docs
 weight: 4710
 url: /ru/aspose.slides/fontsubstitutioninfo/
 ---
 
-## Class FontSubstitutionInfo
+## FontSubstitutionInfo class
 
-Эта структура представляет информацию о замене шрифта, когда он будет отрисован.
+Эта структура представляет информацию о замене шрифта при его отображении.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -17,16 +17,16 @@ public class FontSubstitutionInfo
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Создает экземпляр класса [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Создаёт экземпляр класса [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Указывает имя исходного шрифта в презентации. Только для чтения, строка |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Указывает имя шрифта замены для оригинального шрифта. Только для чтения, строка |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Указывает название исходного шрифта в презентации. Только для чтения. Строка. |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Указывает название шрифта замены для оригинального шрифта. Только для чтения. Строка. |
 
 ### Примеры
 
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### См. также
+### Также смотрите
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

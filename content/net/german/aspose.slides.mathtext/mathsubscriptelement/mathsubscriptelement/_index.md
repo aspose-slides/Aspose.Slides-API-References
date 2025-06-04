@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.mathtext/mathsubscriptelement/mathsubscriptelement/
 ---
 
-## MathSubscriptElement Konstruktor
+## Konstruktor von MathSubscriptElement
 
 Initialisiert eine neue Instanz der MathSubscriptElement-Klasse.
 
@@ -26,7 +26,7 @@ IMathElement subscript = new MathematicalText("i");
 MathSubscriptElement subscriptElement = new MathSubscriptElement(baseElement, subscript);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElement](../../imathelement)
 * Klasse [MathSubscriptElement](../../mathsubscriptelement)

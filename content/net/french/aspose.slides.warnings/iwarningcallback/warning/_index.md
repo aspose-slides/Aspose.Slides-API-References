@@ -1,15 +1,15 @@
 ---
 title: Warning
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Méthode de rappel qui reçoit un avertissement et décide si l'opération doit être interrompue.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Méthode de rappel qui reçoit un avertissement et décide si l'opération doit être annulée.
 type: docs
 weight: 10
 url: /fr/aspose.slides.warnings/iwarningcallback/warning/
 ---
 
-## Méthode IWarningCallback.Warning
+## IWarningCallback.Warning méthode
 
-Méthode de rappel qui reçoit un avertissement et décide si l'opération doit être interrompue.
+Méthode de rappel qui reçoit un avertissement et décide si l'opération doit être annulée.
 
 ```csharp
 public ReturnAction Warning(IWarningInfo warning)
@@ -21,7 +21,7 @@ public ReturnAction Warning(IWarningInfo warning)
 
 ### Valeur de retour
 
-Décision d'abandon [`ReturnAction`](../../returnaction).
+Décision d'annulation [`ReturnAction`](../../returnaction).
 
 ### Voir aussi
 

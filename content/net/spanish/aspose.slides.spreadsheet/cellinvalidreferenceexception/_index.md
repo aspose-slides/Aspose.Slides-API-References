@@ -1,6 +1,6 @@
 ---
 title: CellInvalidReferenceException
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: La excepción que se lanza cuando se encuentra una referencia de celda no válida.
 type: docs
 weight: 10410
@@ -30,7 +30,7 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Obtiene una referencia de celda no válida. |
 
-### Ver También
+### Véase También
 
 * clase [PptxEditException](../../aspose.slides/pptxeditexception)
 * espacio de nombres [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

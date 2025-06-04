@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Dient als Hash-Funktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
+second_title: Aspose.Slides für .NET API Referenz
+description: Dient als Hashfunktion für einen bestimmten Typ, der zur Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
 type: docs
 weight: 220
 url: /de/aspose.slides/hyperlink/gethashcode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/gethashcode/
 
 ## Hyperlink.GetHashCode-Methode
 
-Dient als Hash-Funktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
+Dient als Hashfunktion für einen bestimmten Typ, der zur Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
 
 ```csharp
 public override int GetHashCode()
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Rückgabewert
 
-Hashcode für eine URL.
+Hash-Code für eine URL.
 
 ### Siehe auch
 

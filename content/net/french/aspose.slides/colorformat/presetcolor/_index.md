@@ -1,6 +1,6 @@
 ---
 title: PresetColor
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie ou définit le préréglage de couleur. Lecture/écriture PresetColoraspose.slides/presetcolor.
 type: docs
 weight: 110

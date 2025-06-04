@@ -1,7 +1,7 @@
 ---
 title: IAlphaBiLevelEffectiveData
 second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui représente un effet Alpha Bi-Niveau. Les valeurs d'Opacité Alpha inférieures au seuil sont changées en 0 totalement transparent et les valeurs alpha supérieures ou égales au seuil sont changées en 100 totalement opaque.
+description: Objet immuable qui représente un effet Alpha Bi-Niveau. Les valeurs d'opacité alpha inférieures au seuil sont changées en 0 complètement transparent et les valeurs alpha supérieures ou égales au seuil sont changées en 100 complètement opaque.
 type: docs
 weight: 2930
 url: /fr/aspose.slides.effects/ialphabileveleffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ialphabileveleffectivedata/
 
 ## Interface IAlphaBiLevelEffectiveData
 
-Objet immuable qui représente un effet Alpha Bi-Niveau. Les valeurs Alpha (Opacité) inférieures au seuil sont changées en 0 (totalement transparent) et les valeurs alpha supérieures ou égales au seuil sont changées en 100% (totalement opaque).
+Objet immuable qui représente un effet Alpha Bi-Niveau. Les valeurs alpha (opacité) inférieures au seuil sont changées en 0 (complètement transparent) et les valeurs alpha supérieures ou égales au seuil sont changées en 100% (complètement opaque).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -20,9 +20,9 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 | Nom | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Retourne le seuil de l'effet. Lecture seule Single. |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Renvoie le seuil de l'effet. Lecture seule Single. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

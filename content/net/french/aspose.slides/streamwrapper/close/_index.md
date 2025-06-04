@@ -1,13 +1,13 @@
 ---
 title: Close
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Ferme le flux actuel et libère toutes les ressources.
 type: docs
 weight: 80
 url: /fr/aspose.slides/streamwrapper/close/
 ---
 
-## StreamWrapper.Close méthode
+## Méthode StreamWrapper.Close
 
 Ferme le flux actuel et libère toutes les ressources.
 
@@ -15,7 +15,7 @@ Ferme le flux actuel et libère toutes les ressources.
 public void Close()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [StreamWrapper](../../streamwrapper)
 * espace de noms [Aspose.Slides](../../streamwrapper)

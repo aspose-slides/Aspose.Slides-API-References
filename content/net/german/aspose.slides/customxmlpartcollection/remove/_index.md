@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung.
 type: docs
 weight: 90
@@ -17,7 +17,7 @@ public bool Remove(ICustomXmlPart item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | ICustomXmlPart | Der benutzerdefinierte XML-Teil, der entfernt werden soll. |
+| item | ICustomXmlPart | Der zu entfernende benutzerdefinierte XML-Teil. |
 
 ### Rückgabewert
 

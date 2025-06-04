@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Supprime la valeur spécifiée.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/itrendlinecollection/remove/
 ---
 
-## Méthode ITrendlineCollection.Remove
+## ITrendlineCollection.Remove méthode
 
 Supprime la valeur spécifiée.
 
@@ -19,7 +19,7 @@ public void Remove(ITrendline value)
 | --- | --- | --- |
 | value | ITrendline | Ligne de tendance à supprimer [`ITrendline`](../../itrendline) |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITrendline](../../itrendline)
 * interface [ITrendlineCollection](../../itrendlinecollection)

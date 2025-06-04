@@ -1,7 +1,7 @@
 ---
 title: RotateShadowWithShape
-second_title: Aspose.Slides für .NET API Referenz
-description: Legt fest, ob der Schatten mit der Form rotiert, wenn die Form rotiert wird. Lese-/Schreibboolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, ob der Schatten mit der Form rotiert werden soll, wenn die Form rotiert wird. Lese-/schreibbare Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/outershadow/rotateshadowwithshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/outershadow/rotateshadowwithshape/
 
 ## OuterShadow.RotateShadowWithShape Eigenschaft
 
-Legt fest, ob der Schatten mit der Form rotiert, wenn die Form rotiert wird. Lese-/Schreibboolescher Wert.
+Gibt an, ob der Schatten mit der Form rotiert werden soll, wenn die Form rotiert wird. Lese-/schreibbare Boolean.
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }

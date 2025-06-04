@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Slides für .NET API Referenz
-description: Etiket. Nur-Lese IDataLabelaspose.slides.charts/idatalabel.
+description: Label. Schreibgeschütztes IDataLabelaspose.slides.charts/idatalabel.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/chartdatapoint/label/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapoint/label/
 
 ## ChartDataPoint.Label-Eigenschaft
 
-Etiket. Nur-Lese [`IDataLabel`](../../idatalabel).
+Label. Schreibgeschütztes [`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

@@ -1,6 +1,6 @@
 ---
 title: Close
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 关闭当前流并释放任何资源。
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/istreamwrapper/close/
 public void Close()
 ```
 
-### 另见
+### 参见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 命名空间 [Aspose.Slides](../../istreamwrapper)

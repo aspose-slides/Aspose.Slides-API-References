@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 mathFraction.FractionType = MathFractionTypes.Linear;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MathFractionTypes](../../mathfractiontypes)
 * class [MathFraction](../../mathfraction)

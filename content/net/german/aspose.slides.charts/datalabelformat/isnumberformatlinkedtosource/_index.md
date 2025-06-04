@@ -1,7 +1,7 @@
 ---
 title: IsNumberFormatLinkedToSource
 second_title: Aspose.Slides für .NET API Referenz
-description: Lese/Schreibe Boolean.
+description: Lese/Schreibe Booleschen Wert.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource/
 
 ## DataLabelFormat.IsNumberFormatLinkedToSource-Eigenschaft
 
-Lese/Schreibe Boolean.
+Lese/Schreibe Booleschen Wert.
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der IsNumberFormatLinkedToSource-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die IsNumberFormatLinkedToSource-Eigenschaft für alle Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" führt dazu, dass alle DataLabels[i].IsNumberFormatLinkedToSource gleich val sind).
+Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der IsNumberFormatLinkedToSource-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die IsNumberFormatLinkedToSource-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" führt dazu, dass alle DataLabels[i].IsNumberFormatLinkedToSource gleich val sind).
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [DataLabelFormat](../../datalabelformat)
 * Namespace [Aspose.Slides.Charts](../../datalabelformat)

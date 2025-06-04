@@ -1,7 +1,7 @@
 ---
 title: BasePath
-second_title: Aspose.Slides for .NET API 参考
-description: 指定保存带资源的文档的基础路径。默认值是应用程序的当前目录。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定文档及其资源将保存的基本路径。默认值是应用程序的当前目录。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/markdownsaveoptions/basepath/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/markdownsaveoptions/basepath/
 
 ## MarkdownSaveOptions.BasePath 属性
 
-指定保存带资源的文档的基础路径。默认值是应用程序的当前目录。
+指定文档及其资源将保存的基本路径。默认值是应用程序的当前目录。
 
 ```csharp
 public string BasePath { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 类 [MarkdownSaveOptions](../../markdownsaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../markdownsaveoptions)

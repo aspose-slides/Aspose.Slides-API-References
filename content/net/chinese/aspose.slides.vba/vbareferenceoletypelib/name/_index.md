@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
-description: 表示 VBA 项目引用的名称。可读写字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示VBA项目引用的名称。可读写字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides.vba/vbareferenceoletypelib/name/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/vbareferenceoletypelib/name/
 
 ## VbaReferenceOleTypeLib.Name 属性
 
-表示 VBA 项目引用的名称。可读写字符串。
+表示VBA项目引用的名称。可读写字符串。
 
 ```csharp
 public string Name { get; set; }

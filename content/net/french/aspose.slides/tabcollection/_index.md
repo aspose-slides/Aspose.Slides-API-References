@@ -1,6 +1,6 @@
 ---
 title: TabCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Représente une collection d'onglets.
 type: docs
 weight: 10530
@@ -19,17 +19,17 @@ public sealed class TabCollection : ITabCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. En lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). En lecture seule Boolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Obtient l'élément à l'index spécifié. En lecture seule [`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Renvoie une racine de synchronisation. En lecture seule Object. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Obtient le nombre d'éléments effectivement contenus dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Ajoute un Tab à la collection. |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Ajoute un Tab à la collection. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Ajoute un onglet à la collection. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Ajoute un onglet à la collection. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Supprime tous les éléments de la collection. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Détermine si deux instances de TabsEx sont égales. |

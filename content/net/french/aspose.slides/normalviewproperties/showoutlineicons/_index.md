@@ -1,7 +1,7 @@
 ---
 title: ShowOutlineIcons
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si l'application doit afficher des icônes lors de l'affichage du contenu des plans dans l'une des régions de contenu du mode normal. booléen en lecture/écriture.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie si l'application doit afficher des icônes lors de l'affichage de contenu en mode plan dans n'importe quelle région de contenu du mode d'affichage normal. Booléen en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/normalviewproperties/showoutlineicons/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/normalviewproperties/showoutlineicons/
 
 ## NormalViewProperties.ShowOutlineIcons propriété
 
-Spécifie si l'application doit afficher des icônes lors de l'affichage du contenu des plans dans l'une des régions de contenu du mode normal. booléen en lecture/écriture.
+Spécifie si l'application doit afficher des icônes lors de l'affichage de contenu en mode plan dans n'importe quelle région de contenu du mode d'affichage normal. Booléen en lecture/écriture.
 
 ```csharp
 public bool ShowOutlineIcons { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [NormalViewProperties](../../normalviewproperties)
 * espace de noms [Aspose.Slides](../../normalviewproperties)

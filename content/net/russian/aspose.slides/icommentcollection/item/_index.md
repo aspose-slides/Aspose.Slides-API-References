@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Получает элемент по указанному индексу. Только для чтения ICommentaspose.slides/icomment.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icommentcollection/item/
 public IComment this[int index] { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IComment](../../icomment)
 * интерфейс [ICommentCollection](../../icommentcollection)

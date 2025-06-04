@@ -1,15 +1,15 @@
 ---
 title: GetCoordinates
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holen Sie sich die Koordinaten des Anfangs des Abschnitts. Die X-Koordinate des Punktes stellt den Anfang des Abschnitts ab dem ersten Zeichen dar, einschließlich des linken Seitenabstands. Die Y-Koordinate umfasst den oberen Seitenabstand.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhalten Sie die Koordinaten des Anfangs des Abschnitts. Die X-Koordinate des Punktes stellt den Abschnitt dar, der vom ersten Zeichen einschließlich des linken Seitenabstands beginnt. Die Y-Koordinate umfasst den oberen Seitenabstand.
 type: docs
 weight: 60
 url: /de/aspose.slides/iportion/getcoordinates/
 ---
 
-## IPortion.GetCoordinates-Methode
+## IPortion.GetCoordinates Methode
 
-Holen Sie sich die Koordinaten des Anfangs des Abschnitts. Die X-Koordinate des Punktes stellt den Anfang des Abschnitts ab dem ersten Zeichen dar, einschließlich des linken Seitenabstands. Die Y-Koordinate umfasst den oberen Seitenabstand.
+Erhalten Sie die Koordinaten des Anfangs des Abschnitts. Die X-Koordinate des Punktes stellt den Abschnitt dar, der vom ersten Zeichen einschließlich des linken Seitenabstands beginnt. Die Y-Koordinate umfasst den oberen Seitenabstand.
 
 ```csharp
 public PointF GetCoordinates()

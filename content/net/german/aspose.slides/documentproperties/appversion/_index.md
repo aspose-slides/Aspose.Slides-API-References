@@ -1,6 +1,6 @@
 ---
 title: AppVersion
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die App-Version zurück. Nur-Lese-String.
 type: docs
 weight: 30

@@ -1,7 +1,7 @@
 ---
 title: Formula
-second_title: Aspose.Slides für .NET API Referenz
-description: Formeln innerhalb von Werten, von, zu, durch Attribute können aus diesen bestehen Standardarithmetikoperatoren - / mod Konstanten pi e Bedingte Operatoren abs min max if Vergleichsoperatoren gt Trigonometrische Operatoren sin cos tan asin acos atan natürliche Logarithmus ln Eigenschaftenverweise vom Host unterstützte Eigenschaften z.B. ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Formeln innerhalb von Werten, von, bis, durch Attribute können aus diesen bestehen Standardarithmetikoperatoren - / mod Konstanten pi e Bedingungsoperatoren abs min max if Vergleichsoperatoren gt Trigonometrische Operatoren sin cos tan asin acos atan Natürlicher Logarithmus ln Eigenschaftenreferenzen vom Host unterstützte Eigenschaften zum Beispiel ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Lese-/Schreibzeichenfolge.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/point/formula/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/point/formula/
 
 ## Point.Formula-Eigenschaft
 
-Formeln innerhalb von Werten, von, zu, durch Attribute können aus diesen bestehen: Standardarithmetikoperatoren: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanten: ‘pi’ ‘e’ Bedingte Operatoren: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Vergleichsoperatoren: '==', '&gt;=', '', '!=', '!' Trigonometrische Operatoren: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ natürlicher Logarithmus ‘ln()’ Eigenschaftenverweise (vom Host unterstützte Eigenschaften) z.B.: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Lese-/Schreib-String.
+Formeln innerhalb von Werten, von, bis, durch Attribute können aus diesen bestehen: Standardarithmetikoperatoren: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanten: ‘pi’ ‘e’ Bedingungsoperatoren: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Vergleichsoperatoren: '==', '&gt;=', '', '!=', '!' Trigonometrische Operatoren: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natürlicher Logarithmus ‘ln()’ Eigenschaftenreferenzen (vom Host unterstützte Eigenschaften) zum Beispiel: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string Formula { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Point](../../point)
 * Namespace [Aspose.Slides.Animation](../../point)

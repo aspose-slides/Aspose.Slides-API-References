@@ -1,21 +1,21 @@
 ---
 title: AllCustomXmlParts
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie toutes les parties de données personnalisées dans la présentation. Lecture seule ICustomXmlPartaspose.slides/icustomxmlpart.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Retourne toutes les parties de données personnalisées dans la présentation. Lecture seule ICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ipresentation/allcustomxmlparts/
 ---
 
-## Propriété IPresentation.AllCustomXmlParts
+## IPresentation.AllCustomXmlParts propriété
 
-Renvoie toutes les parties de données personnalisées dans la présentation. Lecture seule [`ICustomXmlPart`](../../icustomxmlpart)[].
+Retourne toutes les parties de données personnalisées dans la présentation. Lecture seule [`ICustomXmlPart`](../../icustomxmlpart)[].
 
 ```csharp
 public ICustomXmlPart[] AllCustomXmlParts { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICustomXmlPart](../../icustomxmlpart)
 * interface [IPresentation](../../ipresentation)

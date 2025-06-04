@@ -1,24 +1,24 @@
 ---
 title: Name
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el nombre. Cadena solo de lectura.
+second_title: Referencia API de Aspose.Slides para .NET
+description: Obtiene el nombre. Cadena de solo lectura.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/ichartdataworksheet/name/
 ---
 
-## Propiedad IChartDataWorksheet.Name
+## IChartDataWorksheet.Name property
 
-Obtiene el nombre. Cadena solo de lectura.
+Obtiene el nombre. Cadena de solo lectura.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IChartDataWorksheet](../../ichartdataworksheet)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartdataworksheet)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IChartDataWorksheet](../../ichartdataworksheet)
+* namespace [Aspose.Slides.Charts](../../ichartdataworksheet)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,21 +1,21 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
-description: 阴影的方向。可读/写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 阴影的方向。读/写单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/innershadow/direction/
 ---
 
-## InnerShadow.Direction 属性
+## InnerShadow.Direction property
 
-阴影的方向。可读/写 Single。
+阴影的方向。读/写单精度浮点数。
 
 ```csharp
 public float Direction { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [InnerShadow](../../innershadow)
 * namespace [Aspose.Slides.Effects](../../innershadow)

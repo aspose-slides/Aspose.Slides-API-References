@@ -1,21 +1,21 @@
 ---
 title: Transparency
-second_title: Справочная информация по Aspose.Slides для .NET
-description: Получает прозрачность заливочного цвета. Чтение Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает прозрачность цвета заливки. Чтение Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/itableformateffectivedata/transparency/
 ---
 
-## Свойство ITableFormatEffectiveData.Transparency
+## ITableFormatEffectiveData.Transparency свойство
 
-Получает прозрачность заливочного цвета. Чтение: Single.
+Получает прозрачность цвета заливки. Чтение Single.
 
 ```csharp
 public float Transparency { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * интерфейс [ITableFormatEffectiveData](../../itableformateffectivedata)
 * пространство имен [Aspose.Slides](../../itableformateffectivedata)

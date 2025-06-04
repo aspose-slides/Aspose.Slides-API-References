@@ -1,15 +1,15 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет шаблон HTML-файла.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет шаблон HTML файла.
 type: docs
 weight: 3700
 url: /ru/aspose.slides.export/htmlformatter/
 ---
 
-## Класс HtmlFormatter
+## HtmlFormatter класс
 
-Представляет шаблон HTML-файла.
+Представляет шаблон HTML файла.
 
 ```csharp
 public sealed class HtmlFormatter : IHtmlFormatter
@@ -17,11 +17,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Создает и возвращает HTML-форматтер для пользовательской обработки генерации html через колбэки. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Создает и возвращает HTML-форматтер для простого представления документа, состоящего из последовательностей слайдов, расположенных один под другим. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Создает и возвращает HTML-форматтер для простого HTML-слайдшоу, который показывает слайды один за другим. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Создает и возвращает HTML форматтер для генерации HTML на основе пользовательского обратного вызова. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Создает и возвращает HTML форматтер для простого представления документа, состоящего из последовательностей слайдов один под другим. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Создает и возвращает HTML форматтер для простого HTML слайд-шоу, которое показывает слайды один за другим. |
 
 ### См. также
 

@@ -1,15 +1,15 @@
 ---
 title: Function
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Prend une fonction d'un argument en utilisant cette instance comme nom de fonction
+description: Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction
 type: docs
 weight: 50
 url: /fr/aspose.slides.mathtext/mathelementbase/function/
 ---
 
-## Fonction(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
-Prend une fonction d'un argument en utilisant cette instance comme nom de fonction
+Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction
 
 ```csharp
 public IMathFunction Function(IMathElement functionArgument)
@@ -19,7 +19,7 @@ public IMathFunction Function(IMathElement functionArgument)
 | --- | --- | --- |
 | functionArgument | IMathElement | Un argument de la fonction |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
@@ -34,7 +34,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionName.Function(functionArg);
 ```
 
-### Voir également
+### Voir Également
 
 * interface [IMathFunction](../../imathfunction)
 * interface [IMathElement](../../imathelement)
@@ -44,9 +44,9 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## Fonction(string) {#function_1}
+## Function(string) {#function_1}
 
-Prend une fonction d'un argument en utilisant cette instance comme nom de fonction
+Prend une fonction d'un argument en utilisant cette instance comme nom de la fonction
 
 ```csharp
 public IMathFunction Function(string functionArgument)
@@ -56,7 +56,7 @@ public IMathFunction Function(string functionArgument)
 | --- | --- | --- |
 | functionArgument | String | Un argument de la fonction |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
@@ -70,7 +70,7 @@ IMathElement functionName = new MathematicalText("sin");
 IMathFunction func = functionName.Function("x");
 ```
 
-### Voir également
+### Voir Également
 
 * interface [IMathFunction](../../imathfunction)
 * class [MathElementBase](../../mathelementbase)

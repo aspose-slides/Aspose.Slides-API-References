@@ -1,13 +1,13 @@
 ---
 title: HasBounce
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Указывает, что движение слайдов презентации во время перехода включает в себя отскок. Читаемое/записываемое логическое значение.
 type: docs
 weight: 30
 url: /ru/aspose.slides.slideshow/iflythroughtransition/hasbounce/
 ---
 
-## Свойство IFlyThroughTransition.HasBounce
+## IFlyThroughTransition.HasBounce property
 
 Указывает, что движение слайдов презентации во время перехода включает в себя отскок. Читаемое/записываемое логическое значение.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/iflythroughtransition/hasbounce/
 public bool HasBounce { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFlyThroughTransition](../../iflythroughtransition)
 * пространство имен [Aspose.Slides.SlideShow](../../iflythroughtransition)

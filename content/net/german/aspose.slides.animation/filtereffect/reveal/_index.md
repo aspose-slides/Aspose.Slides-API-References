@@ -1,7 +1,7 @@
 ---
 title: Reveal
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den Effekt dar, dessen Verhalten anzeigen muss ein/aus Lese-/Schreib-FilterEffectRevealTypeaspose.slides.animation/filtereffectrevealtype.
+description: Repräsentiert den Effekt, dessen Verhalten offenbaren muss ein/aus Lese-/Schreibzugriff auf FilterEffectRevealTypeaspose.slides/filtereffectrevealtype.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/filtereffect/reveal/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/filtereffect/reveal/
 
 ## FilterEffect.Reveal-Eigenschaft
 
-Stellt den Effekt dar, dessen Verhalten anzeigen muss (ein/aus) Lese-/Schreib- [`FilterEffectRevealType`](../../filtereffectrevealtype).
+Repräsentiert den Effekt, dessen Verhalten offenbaren muss (ein/aus) Lese-/Schreibzugriff auf [`FilterEffectRevealType`](../../filtereffectrevealtype).
 
 ```csharp
 public FilterEffectRevealType Reveal { get; set; }

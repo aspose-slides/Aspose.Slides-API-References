@@ -1,7 +1,7 @@
 ---
 title: Sections
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Nur lesender Zugriff auf ISectionCollectionaspose.slides/isectioncollection.
+description: Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Nur Lesen ISectionCollection aspose.slides/isectioncollection.
 type: docs
 weight: 230
 url: /de/aspose.slides/ipresentation/sections/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipresentation/sections/
 
 ## IPresentation.Sections-Eigenschaft
 
-Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Nur lesender Zugriff auf [`ISectionCollection`](../../isectioncollection).
+Gibt eine Liste aller Folienabschnitte zurück, die in der Präsentation definiert sind. Nur Lesen [`ISectionCollection`](../../isectioncollection).
 
 ```csharp
 public ISectionCollection Sections { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISectionCollection](../../isectioncollection)
 * Schnittstelle [IPresentation](../../ipresentation)

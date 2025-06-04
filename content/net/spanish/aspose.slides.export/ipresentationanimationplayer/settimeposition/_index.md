@@ -1,15 +1,15 @@
 ---
 title: SetTimePosition
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Establecer la posición del tiempo de la animación dentro de la Duration../duration.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Establecer la posición del tiempo de animación dentro de la Duration../duration.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/ipresentationanimationplayer/settimeposition/
 ---
 
-## Método IPresentationAnimationPlayer.SetTimePosition
+## IPresentationAnimationPlayer.SetTimePosition method
 
-Establecer la posición del tiempo de la animación dentro de la [`Duration`](../duration).
+Establecer la posición del tiempo de animación dentro de la [`Duration`](../duration).
 
 ```csharp
 public void SetTimePosition(double time)
@@ -19,10 +19,10 @@ public void SetTimePosition(double time)
 | --- | --- | --- |
 | time | Double |  |
 
-### Vea también
+### Ver también
 
 * interfaz [IPresentationAnimationPlayer](../../ipresentationanimationplayer)
 * espacio de nombres [Aspose.Slides.Export](../../ipresentationanimationplayer)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: FoundResult
 second_title: Aspose.Sildes for .NET API Reference
-description: 接收关于找到的文本数据的回调方法。
+description: 接收有关找到的文本的数据的回调方法。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ifindresultcallback/foundresult/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifindresultcallback/foundresult/
 
 ## IFindResultCallback.FoundResult 方法
 
-接收关于找到的文本数据的回调方法。
+接收有关找到的文本的数据的回调方法。
 
 ```csharp
 public void FoundResult(ITextFrame textFrame, string sourceText, string foundText, int textPosition)
@@ -17,12 +17,12 @@ public void FoundResult(ITextFrame textFrame, string sourceText, string foundTex
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| textFrame | ITextFrame | 在其中找到文本的 [`ITextFrame`](../../itextframe)。 |
-| sourceText | String | 在其中找到文本的源文本。 |
+| textFrame | ITextFrame | 找到文本的 [`ITextFrame`](../../itextframe)。 |
+| sourceText | String | 找到文本的源文本。 |
 | foundText | String | 找到的文本。 |
-| textPosition | Int32 | 找到的文本的位置。 |
+| textPosition | Int32 | 找到文本的位置。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITextFrame](../../itextframe)
 * 接口 [IFindResultCallback](../../ifindresultcallback)

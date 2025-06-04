@@ -1,7 +1,7 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Aspose.Slides для .NET API Справочник
-description: Управляет генерацией SVG-форм и текста.
+second_title: Aspose.Slide для .NET API Справочник
+description: Управляет генерацией фигур и текста в SVG.
 type: docs
 weight: 3950
 url: /ru/aspose.slides.export/isvgshapeandtextformattingcontroller/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/isvgshapeandtextformattingcontroller/
 
 ## Интерфейс ISvgShapeAndTextFormattingController
 
-Управляет генерацией SVG-форм и текста.
+Управляет генерацией фигур и текста в SVG.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -17,15 +17,15 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Возвращает интерфейс ISvgShapeFormattingController. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы дать пользователю возможность контролировать результирующий SVG. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Эта функция вызывается перед рендерингом текстовой части в SVG, чтобы предоставить пользователю возможность управлять результирующим SVG. |
 
 ### Примеры
 

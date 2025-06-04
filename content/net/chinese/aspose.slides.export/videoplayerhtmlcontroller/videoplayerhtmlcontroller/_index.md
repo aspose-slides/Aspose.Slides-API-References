@@ -17,11 +17,11 @@ public VideoPlayerHtmlController(string path, string fileName, string baseUri)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 生成视频和音频文件的路径 |
+| path | String | 视频和音频文件将生成的路径 |
 | fileName | String | HTML 文件的名称 |
-| baseUri | String | 用于生成链接的基 URI |
+| baseUri | String | 用于生成链接的基础 URI |
 
-### 另见
+### 另请参见
 
 * class [VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
 * namespace [Aspose.Slides.Export](../../videoplayerhtmlcontroller)

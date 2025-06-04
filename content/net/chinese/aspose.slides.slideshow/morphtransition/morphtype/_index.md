@@ -1,7 +1,7 @@
 ---
 title: MorphType
-second_title: Aspose.Slides for .NET API Reference
-description: 变形过渡类型。读/写 TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 变形过渡的类型。可读/写 TransitionMorphType aspose.slides.slideshow/transitionmorphtype。
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/morphtransition/morphtype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/morphtransition/morphtype/
 
 ## MorphTransition.MorphType 属性
 
-变形过渡类型。读/写 [`TransitionMorphType`](../../transitionmorphtype)。
+变形过渡的类型。可读/写 [`TransitionMorphType`](../../transitionmorphtype)。
 
 ```csharp
 public TransitionMorphType MorphType { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [TransitionMorphType](../../transitionmorphtype)
 * class [MorphTransition](../../morphtransition)

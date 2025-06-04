@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: type docs
 weight: 180
 url: /fr/aspose.slides/lineformat/equals/
@@ -12,7 +12,7 @@ url: /fr/aspose.slides/lineformat/equals/
 public override bool Equals(object obj)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [LineFormat](../../lineformat)
 * espace de noms [Aspose.Slides](../../lineformat)
@@ -32,11 +32,11 @@ public bool Equals(ILineFormat lineFormat)
 | --- | --- | --- |
 | lineFormat | ILineFormat | Le LineFormat à comparer avec le LineFormat actuel. |
 
-### Valeur de Retour
+### Valeur de retour
 
 **true** si le LineFormat spécifié est égal au LineFormat actuel ; sinon, **false**.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILineFormat](../../ilineformat)
 * classe [LineFormat](../../lineformat)

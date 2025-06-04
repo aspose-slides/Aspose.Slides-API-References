@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides.animation/behaviorfactory/createmotioneffect/
 ---
 
-## BehaviorFactory.CreateMotionEffect-Methode
+## BehaviorFactory.CreateMotionEffect Methode
 
 Erstellt einen Bewegungseffekt.
 
@@ -21,7 +21,7 @@ Bewegungseffekt.
 
 ### Siehe auch
 
-* Schnittstelle [IMotionEffect](../../imotioneffect)
+* Interface [IMotionEffect](../../imotioneffect)
 * Klasse [BehaviorFactory](../../behaviorfactory)
 * Namespace [Aspose.Slides.Animation](../../behaviorfactory)
 * Assembly [Aspose.Slides](../../../)

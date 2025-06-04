@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt eine Eigenschaft zurück oder setzt sie.
 type: docs
 weight: 30
 url: /de/aspose.slides/icontrolpropertiescollection/item/
 ---
 
-## IControlPropertiesCollection Indexer
+## IControlPropertiesCollection-Indexer
 
 Gibt eine Eigenschaft zurück oder setzt sie.
 
@@ -19,7 +19,7 @@ public string this[string name] { get; set; }
 | --- | --- |
 | name | Name der Eigenschaft. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * Namespace [Aspose.Slides](../../icontrolpropertiescollection)

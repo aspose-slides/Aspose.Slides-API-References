@@ -1,7 +1,7 @@
 ---
 title: MaximumDistribution
-second_title: Aspose.Slides für .NET API-Referenz
-description: Maximale Verteilung Wenn wahr, wird das Array auf die maximale Breite des enthaltenen Elements Seite, Spalte, Zelle usw. verteilt.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Maximale Verteilung Wenn wahr, wird das Array auf die maximale Breite des enthaltenden Elements Seite, Spalte, Zelle usw. verteilt.
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/matharray/maximumdistribution/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/matharray/maximumdistribution/
 
 ## MathArray.MaximumDistribution-Eigenschaft
 
-Maximale Verteilung Wenn wahr, wird das Array auf die maximale Breite des enthaltenen Elements (Seite, Spalte, Zelle usw.) verteilt.
+Maximale Verteilung Wenn wahr, wird das Array auf die maximale Breite des enthaltenden Elements (Seite, Spalte, Zelle usw.) verteilt.
 
 ```csharp
 public bool MaximumDistribution { get; set; }

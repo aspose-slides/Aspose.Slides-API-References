@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve el objeto TextFrame para el AutoShape. Solo lectura ITextFrame aspose.slides/itextframe.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Devuelve el objeto TextFrame para el AutoShape. Solo lectura [`ITextFrame`](../.
 public ITextFrame TextFrame { get; }
 ```
 
-### Véase también
+### Ve también
 
 * interfaz [ITextFrame](../../itextframe)
 * interfaz [IAutoShape](../../iautoshape)

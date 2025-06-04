@@ -1,15 +1,15 @@
 ---
 title: SetAllDateTimesVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de tous les espaces réservés de date-heure, y compris les diapositives maîtresses, les diapositives de mise en page et les diapositives.
+second_title: Aspose.Slides pour la référence API .NET
+description: Change la visibilité de tous les espaces réservés de date-heure, y compris les diapositives principales, les diapositives de mise en page et les diapositives.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility/
 ---
 
-## Méthode IPresentationHeaderFooterManager.SetAllDateTimesVisibility
+## IPresentationHeaderFooterManager.SetAllDateTimesVisibility méthode
 
-Modifie la visibilité de tous les espaces réservés de date-heure, y compris les diapositives maîtresses, les diapositives de mise en page et les diapositives.
+Change la visibilité de tous les espaces réservés de date-heure, y compris les diapositives principales, les diapositives de mise en page et les diapositives.
 
 ```csharp
 public void SetAllDateTimesVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetAllDateTimesVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés de date-heure visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les espaces réservés de date-heure visibles, sinon - les masque. |
 
 ### Voir aussi
 

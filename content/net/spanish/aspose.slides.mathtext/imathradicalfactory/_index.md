@@ -21,11 +21,11 @@ public interface IMathRadicalFactory
 | --- | --- |
 | [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Crea un radical matemático |
 
-### Observaciones
+### Comentarios
 
 Para compatibilidad con COM
 
-### Véase También
+### Véase también
 
 * espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * ensamblado [Aspose.Slides](../../)

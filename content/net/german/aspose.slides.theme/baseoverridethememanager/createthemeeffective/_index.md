@@ -1,6 +1,6 @@
 ---
 title: CreateThemeEffective
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das Themenobjekt zurück.
 type: docs
 weight: 40

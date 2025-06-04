@@ -1,7 +1,7 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert die Stilreferenz von Formen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Repräsentiert den Stil von Formen.
 type: docs
 weight: 9600
 url: /de/aspose.slides/shapestyle/
@@ -19,14 +19,14 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 | Name | Beschreibung |
 | --- | --- |
-| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Gibt die Effektfarbe einer Form zurück. Nur-lesend [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Gibt den Effektspaltenindex der Form in einer Stilmatrix zurück oder setzt diesen. Lese-/Schreibzugriff UInt32. |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Gibt die Füllfarbe einer Form zurück. Nur-lesend [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Gibt den Füllspaltenindex der Form in Stilmatrizen zurück oder setzt diesen. 0 bedeutet keine Füllung, positiver Wert - Index in den Füllstilen des Themas, negativer Wert - Index in den Hintergrundstilen des Themas. Lese-/Schreibzugriff Int16. |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Gibt den Schriftindex der Form in einer Schriftartsammlung zurück oder setzt diesen. Lese-/Schreibzugriff [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Gibt die Schriftfarbe einer Form zurück. Nur-lesend [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Gibt die Umrissfarbe einer Form zurück. Nur-lesend [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Gibt den Linienspaltenindex in einer Stilmatrix zurück oder setzt diesen. Lese-/Schreibzugriff UInt16. |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Gibt die Effektfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Gibt den Effektspaltenindex der Form in einer Stilmatrix zurück oder setzt ihn. Lese-/Schreibzugriff UInt32. |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Gibt die Füllfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Gibt den Füllspaltenindex der Form in Stilmatrizen zurück oder setzt ihn. 0 bedeutet keine Füllung, positiver Wert - Index in den Füllstilen des Themas, negativer Wert - Index in den Hintergrundstilen des Themas. Lese-/Schreibzugriff Int16. |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Gibt den Schriftindex der Form in einer Schriftartensammlung zurück oder setzt ihn. Lese-/Schreibzugriff [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Gibt die Schriftfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Gibt die Konturfarbe einer Form zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Gibt den Linienspaltenindex in einer Stilmatrix zurück oder setzt ihn. Lese-/Schreibzugriff UInt16. |
 
 ### Siehe auch
 

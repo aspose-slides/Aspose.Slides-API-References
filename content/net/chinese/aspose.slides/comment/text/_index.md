@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片注释的纯文本。可读/写字符串。
+description: 返回或设置幻灯片注释的纯文本。可读/可写字符串。
 type: docs
 weight: 60
 url: /zh/aspose.slides/comment/text/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/comment/text/
 
 ## Comment.Text 属性
 
-返回或设置幻灯片注释的纯文本。可读/写字符串。
+返回或设置幻灯片注释的纯文本。可读/可写字符串。
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [Comment](../../comment)
 * namespace [Aspose.Slides](../../comment)

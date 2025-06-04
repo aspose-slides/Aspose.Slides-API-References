@@ -1,15 +1,15 @@
 ---
 title: Right
-second_title: Aspose.Slides for .NET API 参考
-description: 右. 只读 Single.
+second_title: Aspose.Sildes for .NET API Reference
+description: 右边。只读单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/datalabel/right/
 ---
 
-## DataLabel.Right 属性
+## DataLabel.Right属性
 
-右. 只读 Single.
+右边。只读单精度浮点数。
 
 ```csharp
 public float Right { get; }

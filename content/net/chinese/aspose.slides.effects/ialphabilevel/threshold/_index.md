@@ -1,7 +1,7 @@
 ---
 title: Threshold
-second_title: Aspose.Slides for .NET API 参考
-description: 返回效果阈值。可读/写 Single。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回效果阈值。可读/可写的单精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/ialphabilevel/threshold/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ialphabilevel/threshold/
 
 ## IAlphaBiLevel.Threshold 属性
 
-返回效果阈值。可读/写 Single。
+返回效果阈值。可读/可写的单精度浮点数。
 
 ```csharp
 public float Threshold { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IAlphaBiLevel](../../ialphabilevel)
 * 命名空间 [Aspose.Slides.Effects](../../ialphabilevel)

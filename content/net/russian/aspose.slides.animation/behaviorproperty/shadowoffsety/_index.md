@@ -1,13 +1,13 @@
 ---
 title: ShadowOffsetY
-second_title: Aspose.Slides для .NET Справочник по API
-description: Предоставляет свойство shadow.offset.y
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет свойство shadow.offset.y
 type: docs
 weight: 710
 url: /ru/aspose.slides.animation/behaviorproperty/shadowoffsety/
 ---
 
-## Свойство BehaviorProperty.ShadowOffsetY
+## BehaviorProperty.ShadowOffsetY свойство
 
 Представляет свойство 'shadow.offset.y'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/shadowoffsety/
 public static BehaviorProperty ShadowOffsetY { get; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,6 +1,6 @@
 ---
 title: Delimit
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Разделяет аргументы, используя указанный символ-разделитель
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 | --- | --- | --- |
 | separatorCharacter | Char | символ-разделитель |
 
-### Значение Возврата
+### Возвращаемое значение
 
 Этот объект после применения символа-разделителя
 

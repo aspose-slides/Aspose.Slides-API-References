@@ -1,7 +1,7 @@
 ---
 title: VectorizeText
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le texte d'une diapositive sera enregistré sous forme de graphiques. Lecture/écriture Boolean.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Détermine si le texte sur une diapositive sera sauvegardé en tant que graphiques. Booléen en lecture/écriture.
 type: docs
 weight: 150
 url: /fr/aspose.slides.export/isvgoptions/vectorizetext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/isvgoptions/vectorizetext/
 
 ## Propriété ISVGOptions.VectorizeText
 
-Détermine si le texte d'une diapositive sera enregistré sous forme de graphiques. Lecture/écriture Boolean.
+Détermine si le texte sur une diapositive sera sauvegardé en tant que graphiques. Booléen en lecture/écriture.
 
 ```csharp
 public bool VectorizeText { get; set; }

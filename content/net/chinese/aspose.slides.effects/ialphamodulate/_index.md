@@ -1,15 +1,15 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Slildes for .NET API Reference
-description: 表示一个 Alpha 调制效果。效果的 alpha 不透明度 值乘以一个固定的百分比。效果容器指定一个包含 alpha 值以进行调制的效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一个 Alpha Modulate 效果。效果的 alpha 不透明度值乘以一个固定的百分比。效果容器指定一个包含要调制的 alpha 值的效果。
 type: docs
 weight: 3000
 url: /zh/aspose.slides.effects/ialphamodulate/
 ---
 
-## IAlphaModulate 接口
+## IAlphaModulate interface
 
-表示一个 Alpha 调制效果。效果的 alpha (不透明度) 值乘以一个固定的百分比。效果容器指定一个包含 alpha 值以进行调制的效果。
+表示一个 Alpha Modulate 效果。效果的 alpha (不透明度) 值乘以一个固定的百分比。效果容器指定一个包含要调制的 alpha 值的效果。
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -20,8 +20,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | 允许获取基础的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | 允许获取基础的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
 ### 另见
 

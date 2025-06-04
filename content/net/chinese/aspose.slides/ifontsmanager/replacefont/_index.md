@@ -1,7 +1,7 @@
 ---
 title: ReplaceFont
-second_title: Aspose.Slides for .NET API 参考
-description: 在演示文稿中替换字体
+second_title: Aspose.Sildes for .NET API Reference
+description: 替换演示文稿中的字体
 type: docs
 weight: 100
 url: /zh/aspose.slides/ifontsmanager/replacefont/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifontsmanager/replacefont/
 
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
-在演示文稿中替换字体
+替换演示文稿中的字体
 
 ```csharp
 public void ReplaceFont(IFontData sourceFont, IFontData destFont)
@@ -20,7 +20,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 | sourceFont | IFontData | 源字体 |
 | destFont | IFontData | 目标字体 |
 
-### 参见
+### 另见
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IFontsManager](../../ifontsmanager)
@@ -31,7 +31,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-使用提供的 [`IFontSubstRule`](../../ifontsubstrule) 信息在演示文稿中替换字体
+使用提供的[`IFontSubstRule`](../../ifontsubstrule)信息替换演示文稿中的字体
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -41,7 +41,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 | --- | --- | --- |
 | substRule | IFontSubstRule | 字体替换信息 |
 
-### 参见
+### 另见
 
 * 接口 [IFontSubstRule](../../ifontsubstrule)
 * 接口 [IFontsManager](../../ifontsmanager)
@@ -52,7 +52,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-使用提供的 [`IFontSubstRule`](../../ifontsubstrule) 集合中的信息在演示文稿中替换字体
+使用提供的[`IFontSubstRule`](../../ifontsubstrule)集合的信息替换演示文稿中的字体
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -62,7 +62,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 | --- | --- | --- |
 | substRules | IFontSubstRuleCollection | 字体替换信息集合 |
 
-### 参见
+### 另见
 
 * 接口 [IFontSubstRuleCollection](../../ifontsubstrulecollection)
 * 接口 [IFontsManager](../../ifontsmanager)

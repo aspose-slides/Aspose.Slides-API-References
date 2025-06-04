@@ -1,7 +1,7 @@
 ---
 title: SetCustomPropertyValue
-second_title: Aspose.Sildes для .NET API Reference
-description: Устанавливает именованное булево пользовательское свойство.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает именованное булевое пользовательское свойство.
 type: docs
 weight: 450
 url: /ru/aspose.slides/documentproperties/setcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/documentproperties/setcustompropertyvalue/
 
 ## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
-Устанавливает именованное булево пользовательское свойство.
+Устанавливает именованное булевое пользовательское свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, bool value)
@@ -30,7 +30,7 @@ public void SetCustomPropertyValue(string name, bool value)
 
 ## SetCustomPropertyValue(string, int) {#setcustompropertyvalue_2}
 
-Устанавливает именованное целочисленное пользовательское свойство.
+Устанавливает именованное целое пользовательское свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, int value)

@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Stil einer nummerierten Aufzählung ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf NumberedBulletStyle aspose.slides/ibulletformat/numberedbulletstyle.
+description: Gibt den Stil eines nummerierten Aufzählungszeichens ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff auf NumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle.
 type: docs
 weight: 80
 url: /de/aspose.slides/ibulletformat/numberedbulletstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformat/numberedbulletstyle/
 
 ## IBulletFormat.NumberedBulletStyle-Eigenschaft
 
-Gibt den Stil einer nummerierten Aufzählung ohne Vererbung zurück oder setzt ihn. Lese-/Schreibzugriff auf `NumberedBulletStyle`.
+Gibt den Stil eines nummerierten Aufzählungszeichens ohne Vererbung zurück oder legt ihn fest. Lese-/Schreibzugriff auf `NumberedBulletStyle`.
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; set; }

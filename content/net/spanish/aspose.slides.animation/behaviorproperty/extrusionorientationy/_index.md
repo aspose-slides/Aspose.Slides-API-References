@@ -1,6 +1,6 @@
 ---
 title: ExtrusionOrientationY
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa la propiedad extrusion.orientation.y
 type: docs
 weight: 100
@@ -19,6 +19,6 @@ public static BehaviorProperty ExtrusionOrientationY { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: By
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Указывает относительное смещение для анимации относительно ее положения до начала анимации. Читаемая/записываемая строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/propertyeffect/by/
 ---
 
-## Свойство PropertyEffect.By
+## PropertyEffect.By свойство
 
 Указывает относительное смещение для анимации относительно ее положения до начала анимации. Читаемая/записываемая строка.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/propertyeffect/by/
 public string By { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [PropertyEffect](../../propertyeffect)
 * пространство имен [Aspose.Slides.Animation](../../propertyeffect)

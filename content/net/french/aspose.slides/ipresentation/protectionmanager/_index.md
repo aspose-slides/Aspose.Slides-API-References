@@ -1,7 +1,7 @@
 ---
 title: ProtectionManager
 second_title: Référence API Aspose.Slides pour .NET
-description: Obtient le gestionnaire des autorisations pour cette présentation. Lecture seule IProtectionManageraspose.slides/iprotectionmanager.
+description: Obtient le gestionnaire des permissions pour cette présentation. En lecture seule IProtectionManageraspose.slides/iprotectionmanager.
 type: docs
 weight: 220
 url: /fr/aspose.slides/ipresentation/protectionmanager/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipresentation/protectionmanager/
 
 ## Propriété IPresentation.ProtectionManager
 
-Obtient le gestionnaire des autorisations pour cette présentation. Lecture seule [`IProtectionManager`](../../iprotectionmanager).
+Obtient le gestionnaire des permissions pour cette présentation. En lecture seule [`IProtectionManager`](../../iprotectionmanager).
 
 ```csharp
 public IProtectionManager ProtectionManager { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IProtectionManager](../../iprotectionmanager)
 * interface [IPresentation](../../ipresentation)

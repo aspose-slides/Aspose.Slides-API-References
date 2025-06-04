@@ -1,15 +1,15 @@
 ---
 title: TrimFromStart
-second_title: Aspose.Sildes для справки по API .NET
-description: Указывает продолжительность времени, которую нужно удалить из начала медиафайла во время воспроизведения в миллисекундах. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает время, которое должно быть удалено с начала медиа во время воспроизведения в миллисекундах. Читаемое/записываемое значение типа Single.
 type: docs
 weight: 160
 url: /ru/aspose.slides/audioframe/trimfromstart/
 ---
 
-## Свойство AudioFrame.TrimFromStart
+## AudioFrame.TrimFromStart свойство
 
-Указывает продолжительность времени, которую нужно удалить из начала медиафайла во время воспроизведения, в миллисекундах. Чтение/запись Single.
+Указывает время, которое должно быть удалено с начала медиа во время воспроизведения, в миллисекундах. Читаемое/записываемое значение типа Single.
 
 ```csharp
 public float TrimFromStart { get; set; }
@@ -26,12 +26,12 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Установите время обрезки начала 1.5 секунды
+    // Установите время обрезки в начале 1.5 секунды
     audioFrame.TrimFromStart = 1500f;
 }
 ```
 
-### Смотрите Также
+### См. Также
 
 * класс [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)

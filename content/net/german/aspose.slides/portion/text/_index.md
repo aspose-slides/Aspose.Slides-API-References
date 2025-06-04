@@ -1,7 +1,7 @@
 ---
 title: Text
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Klartext eines Abschnitts ab oder setzt ihn. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält oder setzt den Klartext eines Abschnitts. Lese-/Schreib-String.
 type: docs
 weight: 40
 url: /de/aspose.slides/portion/text/
@@ -9,17 +9,17 @@ url: /de/aspose.slides/portion/text/
 
 ## Portion.Text-Eigenschaft
 
-Ruft den Klartext eines Abschnitts ab oder setzt ihn. Lese-/Schreibzeichenfolge.
+Erhält oder setzt den Klartext eines Abschnitts. Lese-/Schreib-String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Eigenschaftenwert
+### Eigenschaftswert
 
 Der Text.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Portion](../../portion)
 * Namespace [Aspose.Slides](../../portion)

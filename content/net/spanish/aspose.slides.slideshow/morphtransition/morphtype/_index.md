@@ -1,7 +1,7 @@
 ---
 title: MorphType
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Tipo de transición de morph. Lectura/escritura TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
+description: Tipo de transición morfa. Lectura/escritura TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
 type: docs
 weight: 10
 url: /es/aspose.slides.slideshow/morphtransition/morphtype/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.slideshow/morphtransition/morphtype/
 
 ## Propiedad MorphTransition.MorphType
 
-Tipo de transición de morph. Lectura/escritura [`TransitionMorphType`](../../transitionmorphtype).
+Tipo de transición morfa. Lectura/escritura [`TransitionMorphType`](../../transitionmorphtype).
 
 ```csharp
 public TransitionMorphType MorphType { get; set; }
 ```
 
-### También Visto
+### Véase también
 
 * enum [TransitionMorphType](../../transitionmorphtype)
 * class [MorphTransition](../../morphtransition)

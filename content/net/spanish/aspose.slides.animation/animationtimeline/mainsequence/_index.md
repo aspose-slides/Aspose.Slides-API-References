@@ -1,7 +1,7 @@
 ---
 title: MainSequence
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve la secuencia principal que puede contener solo la colección de efectos principales. ISequence solo de lectura aspose.slides.animation/isequence.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve la secuencia principal que puede contener solo una colección de efectos principales. Solo lectura ISequenceaspose.slides.animation/isequence.
 type: docs
 weight: 20
 url: /es/aspose.slides.animation/animationtimeline/mainsequence/
@@ -9,17 +9,17 @@ url: /es/aspose.slides.animation/animationtimeline/mainsequence/
 
 ## Propiedad AnimationTimeLine.MainSequence
 
-Devuelve la secuencia principal que puede contener solo la colección de efectos principales. [`ISequence`](../../isequence) solo de lectura.
+Devuelve la secuencia principal que puede contener solo una colección de efectos principales. Solo lectura [`ISequence`](../../isequence).
 
 ```csharp
 public ISequence MainSequence { get; }
 ```
 
-### También Vea
+### Véase también
 
 * interfaz [ISequence](../../isequence)
 * clase [AnimationTimeLine](../../animationtimeline)
 * espacio de nombres [Aspose.Slides.Animation](../../animationtimeline)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

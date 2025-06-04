@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt die angegebene Eigenschaft aus der Sammlung.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/ibehaviorpropertycollection/remove/
 ---
 
-## IBehaviorPropertyCollection.Remove-Methode
+## IBehaviorPropertyCollection.Remove Methode
 
 Entfernt die angegebene Eigenschaft aus der Sammlung.
 
@@ -15,15 +15,15 @@ Entfernt die angegebene Eigenschaft aus der Sammlung.
 public bool Remove(string propertyValue)
 ```
 
-| Parameter      | Typ    | Beschreibung                                |
-|----------------|--------|--------------------------------------------|
-| propertyValue  | String | Wert der zu entfernenden Eigenschaft.      |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| propertyValue | String | Wert der zu entfernenden Eigenschaft. |
 
 ### Rückgabewert
 
-True, wenn eine Eigenschaft erfolgreich entfernt wurde. Boolean
+Wahr, wenn eine Eigenschaft erfolgreich entfernt wurde. Boolean
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
 * Namespace [Aspose.Slides.Animation](../../ibehaviorpropertycollection)

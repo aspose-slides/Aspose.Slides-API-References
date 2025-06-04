@@ -1,7 +1,7 @@
 ---
 title: HideSubscript
-second_title: Aspose.Slides для .NET API Справка
-description: Скрыть подстрочный индекс
+second_title: Aspose.Sildes для .NET API Справочник
+description: Скрыть Подстрочник
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript/
 
 ## IMathNaryOperatorProperties.HideSubscript свойство
 
-Скрыть подстрочный индекс
+Скрыть Подстрочник
 
 ```csharp
 public bool HideSubscript { get; set; }
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSubscript = true;
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * пространство имен [Aspose.Slides.MathText](../../imathnaryoperatorproperties)

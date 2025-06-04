@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 60
@@ -15,11 +15,11 @@ Renvoie un énumérateur qui itère à travers la collection.
 public IEnumerator<ISmartArtShape> GetEnumerator()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISmartArtShape](../../ismartartshape)
 * class [SmartArtShapeCollection](../../smartartshapecollection)

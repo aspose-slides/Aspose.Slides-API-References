@@ -1,7 +1,7 @@
 ---
 title: IsAssistant
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置节点为助手。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置节点为助手。可读写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.smartart/ismartartnode/isassistant/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.smartart/ismartartnode/isassistant/
 
 ## ISmartArtNode.IsAssistant 属性
 
-返回或设置节点为助手。可读/可写布尔值。
+返回或设置节点为助手。可读写布尔值。
 
 ```csharp
 public bool IsAssistant { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ISmartArtNode](../../ismartartnode)
 * 命名空间 [Aspose.Slides.SmartArt](../../ismartartnode)

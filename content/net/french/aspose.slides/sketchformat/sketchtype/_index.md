@@ -1,7 +1,7 @@
 ---
 title: SketchType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Récupère ou définit le type de croquis. Lecture/écriture LineSketchTypeaspose.slides/linesketchtype.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le type de croquis. Lecture/écriture LineSketchType aspose.slides/linesketchtype.
 type: docs
 weight: 10
 url: /fr/aspose.slides/sketchformat/sketchtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/sketchformat/sketchtype/
 
 ## Propriété SketchFormat.SketchType
 
-Récupère ou définit le type de croquis. Lecture/écriture [`LineSketchType`](../../linesketchtype).
+Renvoie ou définit le type de croquis. Lecture/écriture [`LineSketchType`](../../linesketchtype).
 
 ```csharp
 public LineSketchType SketchType { get; set; }

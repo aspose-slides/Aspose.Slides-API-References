@@ -1,7 +1,7 @@
 ---
 title: UnderlineFillFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Eigenschaften des Füllformats der Unterstreichungslinie zurück. Nur-Lese IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die FillFormat-Eigenschaften der Unterstreichungslinie zurück. Nur-Lese IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 260
 url: /de/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
@@ -9,16 +9,16 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 
 ## IBasePortionFormatEffectiveData.UnderlineFillFormat-Eigenschaft
 
-Gibt die Eigenschaften des Füllformats der Unterstreichungslinie zurück. Nur-Lese [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Gibt die FillFormat-Eigenschaften der Unterstreichungslinie zurück. Nur-Lese [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData UnderlineFillFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IFillFormatEffectiveData](../../ifillformateffectivedata)
-* Schnittstelle [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
+* Interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
+* Interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * Namespace [Aspose.Slides](../../ibaseportionformateffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

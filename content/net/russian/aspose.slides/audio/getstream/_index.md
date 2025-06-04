@@ -1,7 +1,7 @@
 ---
 title: GetStream
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает поток Stream для чтения. Используйте using или закройте поток после использования.
+second_title: Aspose.Sildes для справки по API .NET
+description: Возвращает Stream для чтения. Используйте 'using' или закройте поток после использования.
 type: docs
 weight: 30
 url: /ru/aspose.slides/audio/getstream/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/audio/getstream/
 
 ## Метод Audio.GetStream
 
-Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования.
+Возвращает Stream для чтения. Используйте 'using' или закройте поток после использования.
 
 ```csharp
 public Stream GetStream()
@@ -17,7 +17,7 @@ public Stream GetStream()
 
 ### Возвращаемое значение
 
-Поток для чтения.
+Stream для чтения.
 
 ### См. также
 

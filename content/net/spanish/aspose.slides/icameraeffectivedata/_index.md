@@ -1,6 +1,6 @@
 ---
 title: ICameraEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Objeto inmutable que contiene propiedades efectivas de la cámara.
 type: docs
 weight: 5220
@@ -27,13 +27,13 @@ public interface ICameraEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Una rotación se define a través del uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje como las coordenadas de latitud y longitud. Primer elemento en el arreglo de retorno - latitud, segundo - longitud, tercero - revolución. Devuelve null si no se define ninguna rotación. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Una rotación se define mediante el uso de una coordenada de latitud, una coordenada de longitud y una revolución alrededor del eje según las coordenadas de latitud y longitud. Primer elemento en el arreglo de retorno - latitud, segundo - longitud, tercero - revolución. Devuelve null si no se define ninguna rotación. |
 
-### Notas
+### Observaciones
 
 Esta interfaz se utiliza como parte de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### Véase También
+### Véase también
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

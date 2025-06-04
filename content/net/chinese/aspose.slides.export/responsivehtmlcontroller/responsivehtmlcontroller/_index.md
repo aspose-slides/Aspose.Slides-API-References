@@ -1,6 +1,6 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新实例
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/responsivehtmlcontroller/responsivehtmlcontroller/
 public ResponsiveHtmlController()
 ```
 
-### 另请参见
+### 另见
 
 * class [ResponsiveHtmlController](../../responsivehtmlcontroller)
 * namespace [Aspose.Slides.Export](../../responsivehtmlcontroller)
@@ -33,9 +33,9 @@ public ResponsiveHtmlController(IHtmlFormattingController controller)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| controller | IHtmlFormattingController | HTML 格式化控制器 |
+| controller | IHtmlFormattingController | HTML格式化控制器 |
 
-### 另请参见
+### 另见
 
 * interface [IHtmlFormattingController](../../ihtmlformattingcontroller)
 * class [ResponsiveHtmlController](../../responsivehtmlcontroller)

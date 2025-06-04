@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen String- oder Double-Wert dar, der auf zwei Arten im pptx-Präsentationsdokument gespeichert werden kann 1 in der Zelle/n des Arbeitsbuchs, das mit dem Diagramm verbunden ist; 2 als literaler Wert.
+description: Stellt einen String- oder Double-Wert dar, der in pptx-Präsentationsdokumenten auf zwei Arten gespeichert werden kann 1 in Zelle/Zellen der Arbeitsmappe, die mit dem Diagramm verbunden sind; 2 als literaler Wert.
 type: docs
 weight: 2150
 url: /de/aspose.slides.charts/istringordoublechartvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/istringordoublechartvalue/
 
 ## IStringOrDoubleChartValue-Schnittstelle
 
-Stellt einen String- oder Double-Wert dar, der auf zwei Arten im pptx-Präsentationsdokument gespeichert werden kann: 1) in der Zelle/n des Arbeitsbuchs, das mit dem Diagramm verbunden ist; 2) als literaler Wert.
+Stellt einen String- oder Double-Wert dar, der in pptx-Präsentationsdokumenten auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen der Arbeitsmappe, die mit dem Diagramm verbunden sind; 2) als literaler Wert.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -19,9 +19,9 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Ermöglicht den Zugriff auf die Basis-ISingleCellChartValue-Schnittstelle. Nur lesbar [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Gibt den literalen Double-Wert zurück oder setzt ihn, wenn die Eigenschaft DataSourceType den Wert DataSourceType.DoubleLiterals hat. Lese-/Schreibzugriff auf Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Gibt die literale Zeichenfolge zurück oder setzt sie, wenn die Eigenschaft DataSourceType den Wert DataSourceType.StringLiterals hat. Lese-/Schreibzugriff auf String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle ISingleCellChartValue. Nur-Lese [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Gibt den literalen Double-Wert zurück oder setzt ihn, wenn die Eigenschaft DataSourceType den Wert DataSourceType.DoubleLiterals hat. Schreib-/Lesewert Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Gibt den literalen String zurück oder setzt ihn, wenn die Eigenschaft DataSourceType den Wert DataSourceType.StringLiterals hat. Schreib-/Lesewert String. |
 
 ## Methoden
 

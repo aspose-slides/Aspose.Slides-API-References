@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Schreibgeschützter Int32.
+description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesen Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/commentcollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/commentcollection/count/
 
 ## CommentCollection.Count-Eigenschaft
 
-Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Schreibgeschützter Int32.
+Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesen Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [CommentCollection](../../commentcollection)
 * Namespace [Aspose.Slides](../../commentcollection)

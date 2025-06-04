@@ -1,13 +1,13 @@
 ---
 title: RemoveByShape
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Entfernen Sie den Effekt für die angegebene Form.
 type: docs
 weight: 120
 url: /de/aspose.slides.animation/isequence/removebyshape/
 ---
 
-## ISequence.RemoveByShape-Methode
+## ISequence.RemoveByShape Methode
 
 Entfernen Sie den Effekt für die angegebene Form.
 
@@ -19,7 +19,7 @@ public void RemoveByShape(IShape shape)
 | --- | --- | --- |
 | shape | IShape | Formobjekt [`IShape`](../../../aspose.slides/ishape) |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IShape](../../../aspose.slides/ishape)
 * Schnittstelle [ISequence](../../isequence)

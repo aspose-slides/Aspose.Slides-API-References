@@ -1,6 +1,6 @@
 ---
 title: IMathRadicalFactory
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Permet de créer un radical mathématique
 type: docs
 weight: 8180

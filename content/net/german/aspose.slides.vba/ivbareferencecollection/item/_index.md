@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API Referenz
-description: Holt das Element am angegebenen Index.
+description: Gibt das Element am angegebenen Index zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.vba/ivbareferencecollection/item/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.vba/ivbareferencecollection/item/
 
 ## IVbaReferenceCollection-Indexer
 
-Holt das Element am angegebenen Index.
+Gibt das Element am angegebenen Index zurück.
 
 ```csharp
 public IVbaReference this[int index] { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IVbaReference](../../ivbareference)
 * Schnittstelle [IVbaReferenceCollection](../../ivbareferencecollection)

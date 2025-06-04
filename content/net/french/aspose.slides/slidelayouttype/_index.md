@@ -1,7 +1,7 @@
 ---
 title: SlideLayoutType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le type de mise en page de la diapositive.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente le type de mise en page de diapositive.
 type: docs
 weight: 9680
 url: /fr/aspose.slides/slidelayouttype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slidelayouttype/
 
 ## Énumération SlideLayoutType
 
-Représente le type de mise en page de la diapositive.
+Représente le type de mise en page de diapositive.
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -50,13 +50,13 @@ public enum SlideLayoutType : sbyte
 | VerticalTitleAndTextOverChart | `27` | Titre Vertical et Texte au-dessus du Graphique |
 | TwoObjects | `28` | Deux Objets |
 | ObjectAndTwoObject | `29` | Objet et Deux Objets |
-| TwoObjectsAndObject | `30` | Deux Objets et Objet |
+| TwoObjectsAndObject | `30` | Deux Objets et un Objet |
 | SectionHeader | `31` | En-tête de Section |
 | TwoTextAndTwoObjects | `32` | Deux Textes et Deux Objets |
-| TitleObjectAndCaption | `33` | Titre, Objet et Légende |
+| TitleObjectAndCaption | `33` | Titre, Objet, et Légende |
 | PictureAndCaption | `34` | Image et Légende |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

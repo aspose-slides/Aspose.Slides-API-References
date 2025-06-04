@@ -1,6 +1,6 @@
 ---
 title: BorderBottom
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el valor efectivo del formato de la línea del borde inferior. Solo lectura ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
@@ -20,6 +20,6 @@ public ILineFormatEffectiveData BorderBottom { get; }
 * interfaz [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * interfaz [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ibasetableformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

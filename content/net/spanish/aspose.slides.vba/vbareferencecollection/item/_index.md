@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides.vba/vbareferencecollection/item/
 ---
 
-## Indexador de VbaReferenceCollection
+## Indexador VbaReferenceCollection
 
 Obtiene el elemento en el índice especificado.
 
@@ -15,11 +15,11 @@ Obtiene el elemento en el índice especificado.
 public IVbaReference this[int index] { get; }
 ```
 
-### También Vea
+### Véase también
 
-* interface [IVbaReference](../../ivbareference)
-* class [VbaReferenceCollection](../../vbareferencecollection)
-* namespace [Aspose.Slides.Vba](../../vbareferencecollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IVbaReference](../../ivbareference)
+* clase [VbaReferenceCollection](../../vbareferencecollection)
+* espacio de nombres [Aspose.Slides.Vba](../../vbareferencecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

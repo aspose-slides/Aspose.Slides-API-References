@@ -1,13 +1,13 @@
 ---
 title: BasePath
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Especifica la ruta base donde se guardará el documento con recursos. El valor predeterminado es el directorio actual de la aplicación.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/markdownsaveoptions/basepath/
 ---
 
-## Propiedad MarkdownSaveOptions.BasePath
+## MarkdownSaveOptions.BasePath property
 
 Especifica la ruta base donde se guardará el documento con recursos. El valor predeterminado es el directorio actual de la aplicación.
 
@@ -17,8 +17,8 @@ public string BasePath { get; set; }
 
 ### Ver También
 
-* clase [MarkdownSaveOptions](../../markdownsaveoptions)
-* espacio de nombres [Aspose.Slides.Export](../../markdownsaveoptions)
-* ensamblado [Aspose.Slides](../../../)
+* class [MarkdownSaveOptions](../../markdownsaveoptions)
+* namespace [Aspose.Slides.Export](../../markdownsaveoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

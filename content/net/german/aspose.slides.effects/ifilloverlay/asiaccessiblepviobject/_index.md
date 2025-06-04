@@ -1,15 +1,15 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Nur-Lese IAccessiblePVIObjectaspose.slides/../aspose.slides/iaccessiblepviobject-1.
+description: Ermöglicht den Zugriff auf das grundlegende IAccessiblePVIObject-Interface. Nur lesbares IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ifilloverlay/asiaccessiblepviobject/
 ---
 
-## IFillOverlay.AsIAccessiblePVIObject Eigenschaft
+## IFillOverlay.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Nur-Lese [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf das grundlegende IAccessiblePVIObject-Interface. Nur lesbares [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IFillOverlayEffectiveData> AsIAccessiblePVIObject { get; }

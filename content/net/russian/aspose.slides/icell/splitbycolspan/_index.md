@@ -1,6 +1,6 @@
 ---
 title: SplitByColSpan
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Разделяет ячейку на две ячейки по индексу столбца.
 type: docs
 weight: 240

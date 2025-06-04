@@ -1,15 +1,15 @@
 ---
 title: From
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Especifica una coordenada x/y para comenzar la animación en porcentaje. Lectura/escritura PointF.
+second_title: Aspose.Slides para la referencia de la API de .NET
+description: Especifica una coordenada x/y para iniciar la animación en porcentajes. Lectura/escritura PointF.
 type: docs
 weight: 40
 url: /es/aspose.slides.animation/imotioneffect/from/
 ---
 
-## Propiedad IMotionEffect.From
+## IMotionEffect.From property
 
-Especifica una coordenada x/y para comenzar la animación (en porcentaje). Lectura/escritura PointF.
+Especifica una coordenada x/y para iniciar la animación (en porcentajes). Lectura/escritura PointF.
 
 ```csharp
 public PointF From { get; set; }
@@ -19,6 +19,6 @@ public PointF From { get; set; }
 
 * interfaz [IMotionEffect](../../imotioneffect)
 * espacio de nombres [Aspose.Slides.Animation](../../imotioneffect)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: AsISaveOptions
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс ISaveOptions. Только для чтения ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public ISaveOptions AsISaveOptions { get; }
 
 Для совместимости с COM.
 
-### См. также
+### Также см.
 
 * интерфейс [ISaveOptions](../../isaveoptions)
 * интерфейс [IHtmlOptions](../../ihtmloptions)

@@ -1,7 +1,7 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Немодифицируемый объект, представляющий эффект тона. Сдвигает значения цвета эффекта к/от оттенка на заданное количество.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Немодифицируемый объект, представляющий эффект Тона. Смещает значения цвета эффекта к/от оттенка на указанное количество.
 type: docs
 weight: 3430
 url: /ru/aspose.slides.effects/itinteffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/itinteffectivedata/
 
 ## Интерфейс ITintEffectiveData
 
-Немодифицируемый объект, представляющий эффект тона. Сдвигает значения цвета эффекта к/от оттенка на заданное количество.
+Немодифицируемый объект, представляющий эффект Тона. Смещает значения цвета эффекта к/от оттенка на указанное количество.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -23,7 +23,7 @@ public interface ITintEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Возвращает оттенок. Только для чтения Single. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

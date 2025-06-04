@@ -1,15 +1,15 @@
 ---
 title: RemoveEmbeddedFont
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime la police incorporée
+description: Supprime la police intégrée
 type: docs
 weight: 90
 url: /fr/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
 
-## Méthode IFontsManager.RemoveEmbeddedFont
+## IFontsManager.RemoveEmbeddedFont méthode
 
-Supprime la police incorporée
+Supprime la police intégrée
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)
@@ -17,9 +17,9 @@ public void RemoveEmbeddedFont(IFontData fontData)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontData | IFontData | Objet de données de police [`IFontData`](../../ifontdata) |
+| fontData | IFontData | Object de données de police [`IFontData`](../../ifontdata) |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IFontsManager](../../ifontsmanager)

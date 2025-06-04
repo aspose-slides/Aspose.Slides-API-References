@@ -1,7 +1,7 @@
 ---
 title: GetSlideById
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un Slide MasterSlide ou LayoutSlide par Id.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie un Slide MasterSlide ou LayoutSlide par Id.
 type: docs
 weight: 310
 url: /fr/aspose.slides/ipresentation/getslidebyid/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentation/getslidebyid/
 
 ## Méthode IPresentation.GetSlideById
 
-Retourne un Slide, MasterSlide ou LayoutSlide par Id.
+Renvoie un Slide, MasterSlide ou LayoutSlide par Id.
 
 ```csharp
 public IBaseSlide GetSlideById(uint id)

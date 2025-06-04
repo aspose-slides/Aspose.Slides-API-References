@@ -1,7 +1,7 @@
 ---
 title: ISketchFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les propriétés pour le format de croquis de lignes.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Représente les propriétés du format de croquis de lignes.
 type: docs
 weight: 6800
 url: /fr/aspose.slides/isketchformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/isketchformat/
 
 ## Interface ISketchFormat
 
-Représente les propriétés pour le format de croquis de lignes.
+Représente les propriétés du format de croquis de lignes.
 
 ```csharp
 public interface ISketchFormat

@@ -17,7 +17,7 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | Bestimmt, ob diese Methode ungenutzte Master-Folien entfernen soll, selbst wenn die [`Preserve`](../../imasterslide/preserve) Eigenschaft auf true gesetzt ist. |
+| ignorePreserveField | Boolean | Bestimmt, ob diese Methode ungenutzte Master-Folien entfernen soll, selbst wenn ihre [`Preserve`](../../imasterslide/preserve) Eigenschaft auf true gesetzt ist. |
 
 ### Siehe Auch
 

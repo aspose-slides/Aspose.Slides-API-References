@@ -15,7 +15,7 @@ FillBlendMode. Lecture seule [`FillBlendMode`](../../../aspose.slides/fillblendm
 public FillBlendMode Blend { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [FillBlendMode](../../../aspose.slides/fillblendmode)
 * interface [IFillOverlayEffectiveData](../../ifilloverlayeffectivedata)

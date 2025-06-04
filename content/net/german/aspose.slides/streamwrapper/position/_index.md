@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Position im aktuellen Stream ab oder legt sie fest. Schreibgeschütztes Int64.
+description: Holt oder setzt die Position innerhalb des aktuellen Streams. Nur lesbarer Int64.
 type: docs
 weight: 60
 url: /de/aspose.slides/streamwrapper/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/streamwrapper/position/
 
 ## StreamWrapper.Position-Eigenschaft
 
-Ruft die Position im aktuellen Stream ab oder legt sie fest. Schreibgeschütztes Int64.
+Holt oder setzt die Position innerhalb des aktuellen Streams. Nur lesbarer Int64.
 
 ```csharp
 public long Position { get; }

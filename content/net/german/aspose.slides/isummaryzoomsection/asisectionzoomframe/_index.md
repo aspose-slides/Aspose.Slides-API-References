@@ -1,7 +1,7 @@
 ---
 title: AsISectionZoomFrame
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ISectionZoomFrame-Schnittstelle zurück.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das ISectionZoomFrame-Interface zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/isummaryzoomsection/asisectionzoomframe/
@@ -9,20 +9,20 @@ url: /de/aspose.slides/isummaryzoomsection/asisectionzoomframe/
 
 ## ISummaryZoomSection.AsISectionZoomFrame-Eigenschaft
 
-Gibt die ISectionZoomFrame-Schnittstelle zurück.
+Gibt das ISectionZoomFrame-Interface zurück.
 
 ```csharp
 public ISectionZoomFrame AsISectionZoomFrame { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
 Für die COM-Kompatibilität.
 
 ### Siehe auch
 
-* Schnittstelle [ISectionZoomFrame](../../isectionzoomframe)
-* Schnittstelle [ISummaryZoomSection](../../isummaryzoomsection)
+* Interface [ISectionZoomFrame](../../isectionzoomframe)
+* Interface [ISummaryZoomSection](../../isummaryzoomsection)
 * Namespace [Aspose.Slides](../../isummaryzoomsection)
 * Assembly [Aspose.Slides](../../../)
 

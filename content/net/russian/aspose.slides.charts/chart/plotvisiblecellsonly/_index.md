@@ -1,6 +1,6 @@
 ---
 title: PlotVisibleCellsOnly
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, будут ли отображаться только видимые ячейки. False для отображения как видимых, так и скрытых ячеек. Читаемое/записываемое логическое значение.
 type: docs
 weight: 160
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chart/plotvisiblecellsonly/
 public bool PlotVisibleCellsOnly { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * класс [Chart](../../chart)
 * пространство имен [Aspose.Slides.Charts](../../chart)

@@ -17,8 +17,8 @@ public long Position { get; }
 
 ### Vea También
 
-* interfaz [IStreamWrapper](../../istreamwrapper)
-* espacio de nombres [Aspose.Slides](../../istreamwrapper)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IStreamWrapper](../../istreamwrapper)
+* espacio de nombres [Aspose.Slides](../../istreamwrapper)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

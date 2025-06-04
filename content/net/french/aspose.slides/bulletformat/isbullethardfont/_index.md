@@ -1,15 +1,15 @@
 ---
 title: IsBulletHardFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le point a sa propre police ou l'hérite de la première portion du paragraphe. NullableBool.True si le point a sa propre police et NullableBool.False si le point hérite de la police de la première portion du paragraphe. Propriété en lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si la puce a sa propre police ou hérite de celle de la première portion dans le paragraphe. NullableBool.True si la puce a sa propre police et NullableBool.False si la puce hérite de la police de la première portion dans le paragraphe. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /fr/aspose.slides/bulletformat/isbullethardfont/
 ---
 
-## Propriété BulletFormat.IsBulletHardFont
+## BulletFormat.IsBulletHardFont propriété
 
-Détermine si le point a sa propre police ou l'hérite de la première portion du paragraphe. **NullableBool.True** si le point a sa propre police et **NullableBool.False** si le point hérite de la police de la première portion du paragraphe. Propriété en lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si la puce a sa propre police ou hérite de celle de la première portion dans le paragraphe. **NullableBool.True** si la puce a sa propre police et **NullableBool.False** si la puce hérite de la police de la première portion dans le paragraphe. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardFont { get; set; }

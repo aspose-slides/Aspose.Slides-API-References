@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Elimina la etiqueta en el índice especificado.
 type: docs
 weight: 150
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | El índice basado en cero de la etiqueta a eliminar. |
 
-### Ver También
+### Véase también
 
 * clase [TagCollection](../../tagcollection)
 * espacio de nombres [Aspose.Slides](../../tagcollection)

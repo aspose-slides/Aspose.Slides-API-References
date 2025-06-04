@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den horizontalen Schrägwinkel an. Lesen/Schreiben Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Legt den horizontalen Schrägwinkel fest. Lese-/Schreibzugriff Double.
 type: docs
 weight: 130
 url: /de/aspose.slides.effects/ireflection/skewhorizontal/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ireflection/skewhorizontal/
 
 ## IReflection.SkewHorizontal-Eigenschaft
 
-Gibt den horizontalen Schrägwinkel an. Lesen/Schreiben Double.
+Legt den horizontalen Schrägwinkel fest. Lese-/Schreibzugriff Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }

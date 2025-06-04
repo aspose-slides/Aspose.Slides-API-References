@@ -1,6 +1,6 @@
 ---
 title: X
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un décalage X d'une image. Lecture seule Int32.
 type: docs
 weight: 70

@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt das erste Vorkommen einer bestimmten Form aus der Sammlung.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Entfernt die erste Vorkommen einer bestimmten Form aus der Sammlung.
 type: docs
 weight: 370
 url: /de/aspose.slides/ishapecollection/remove/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/remove/
 
 ## IShapeCollection.Remove-Methode
 
-Entfernt das erste Vorkommen einer bestimmten Form aus der Sammlung.
+Entfernt die erste Vorkommen einer bestimmten Form aus der Sammlung.
 
 ```csharp
 public void Remove(IShape shape)

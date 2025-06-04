@@ -7,7 +7,7 @@ weight: 70
 url: /fr/aspose.slides.charts/chartdatapoint/datapointlevels/
 ---
 
-## ChartDataPoint.DataPointLevels propriété
+## ChartDataPoint.DataPointLevels property
 
 Renvoie un conteneur de niveaux de points de données. Appliqué pour les séries Treeamp et Sunburst. L'indexation des niveaux de points de données est basée sur zéro.
 

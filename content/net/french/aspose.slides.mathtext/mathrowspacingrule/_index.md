@@ -1,6 +1,6 @@
 ---
 title: MathRowSpacingRule
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Le type d'espacement vertical entre les colonnes dans une matrice ou un tableau
 type: docs
 weight: 8710
@@ -19,11 +19,11 @@ public enum MathRowSpacingRule
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| SingleLineGap | `0` | espacement simple |
+| SingleLineGap | `0` | espacement d'une seule ligne |
 | OneAndAHalfLineGap | `1` | espacement d'une ligne et demie |
 | TwoLineGap | `2` | espacement de deux lignes |
-| Exactly | `3` | Exactement (dépend de la valeur de la propriété RowSpacing, mesurée en points) |
-| Multiple | `4` | Multiple (dépend de la valeur de la propriété RowSpacing, mesurée en lignes) |
+| Exactly | `3` | Exactement (repose sur la valeur de la propriété RowSpacing, mesurée en points) |
+| Multiple | `4` | Multiple (repose sur la valeur de la propriété RowSpacing, mesurée en lignes) |
 
 ### Voir aussi
 

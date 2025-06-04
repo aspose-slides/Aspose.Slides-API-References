@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado.
 type: docs
 weight: 30
 url: /es/aspose.slides.vba/vbamodulecollection/item/
 ---
 
-## Indexador de VbaModuleCollection
+## Índice de VbaModuleCollection
 
 Obtiene el elemento en el índice especificado.
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado.
 public IVbaModule this[int index] { get; }
 ```
 
-### Ver también
+### Ver También
 
 * interfaz [IVbaModule](../../ivbamodule)
 * clase [VbaModuleCollection](../../vbamodulecollection)

@@ -1,7 +1,7 @@
 ---
 title: SetCustomPropertyValue
-second_title: Aspose.Slides для .NET API Reference
-description: Устанавливает именованное булевое пользовательское свойство.
+second_title: Aspose.Sildes для .NET API Reference
+description: Устанавливает именованное булевое свойство.
 type: docs
 weight: 420
 url: /ru/aspose.slides/idocumentproperties/setcustompropertyvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/idocumentproperties/setcustompropertyvalue/
 
 ## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
-Устанавливает именованное булевое пользовательское свойство.
+Устанавливает именованное булевое свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, bool value)
@@ -17,10 +17,10 @@ public void SetCustomPropertyValue(string name, bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для установки |
-| value | Boolean | Значение пользовательского свойства |
+| name | String | Имя свойства, которое нужно установить |
+| value | Boolean | Значение свойства |
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -30,7 +30,7 @@ public void SetCustomPropertyValue(string name, bool value)
 
 ## SetCustomPropertyValue(string, int) {#setcustompropertyvalue_2}
 
-Устанавливает именованное целочисленное пользовательское свойство.
+Устанавливает именованное целочисленное свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, int value)
@@ -38,10 +38,10 @@ public void SetCustomPropertyValue(string name, int value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для установки |
-| value | Int32 | Значение пользовательского свойства |
+| name | String | Имя свойства, которое нужно установить |
+| value | Int32 | Значение свойства |
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -51,7 +51,7 @@ public void SetCustomPropertyValue(string name, int value)
 
 ## SetCustomPropertyValue(string, DateTime) {#setcustompropertyvalue_4}
 
-Устанавливает именованное пользовательское свойство типа DateTime.
+Устанавливает именованное свойство DateTime.
 
 ```csharp
 public void SetCustomPropertyValue(string name, DateTime value)
@@ -59,10 +59,10 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для установки |
-| value | DateTime | Значение пользовательского свойства |
+| name | String | Имя свойства, которое нужно установить |
+| value | DateTime | Значение свойства |
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -72,7 +72,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 ## SetCustomPropertyValue(string, string) {#setcustompropertyvalue_5}
 
-Устанавливает именованное строковое пользовательское свойство.
+Устанавливает именованное строковое свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, string value)
@@ -80,10 +80,10 @@ public void SetCustomPropertyValue(string name, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для установки |
-| value | String | Значение пользовательского свойства |
+| name | String | Имя свойства, которое нужно установить |
+| value | String | Значение свойства |
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -93,7 +93,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-Устанавливает именованное пользовательское свойство типа float.
+Устанавливает именованное свойство float.
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
@@ -101,10 +101,10 @@ public void SetCustomPropertyValue(string name, float value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для установки |
-| value | Single | Значение пользовательского свойства |
+| name | String | Имя свойства, которое нужно установить |
+| value | Single | Значение свойства |
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)
@@ -114,7 +114,7 @@ public void SetCustomPropertyValue(string name, float value)
 
 ## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
-Устанавливает именованное пользовательское свойство типа double.
+Устанавливает именованное свойство double.
 
 ```csharp
 public void SetCustomPropertyValue(string name, double value)
@@ -122,10 +122,10 @@ public void SetCustomPropertyValue(string name, double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя пользовательского свойства для установки |
-| value | Double | Значение пользовательского свойства |
+| name | String | Имя свойства, которое нужно установить |
+| value | Double | Значение свойства |
 
-### См. также
+### См. Также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

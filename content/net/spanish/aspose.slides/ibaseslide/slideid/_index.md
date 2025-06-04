@@ -17,8 +17,8 @@ public uint SlideId { get; }
 
 ### Ver También
 
-* interfaz [IBaseSlide](../../ibaseslide)
-* espacio de nombres [Aspose.Slides](../../ibaseslide)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IBaseSlide](../../ibaseslide)
+* espacio de nombres [Aspose.Slides](../../ibaseslide)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

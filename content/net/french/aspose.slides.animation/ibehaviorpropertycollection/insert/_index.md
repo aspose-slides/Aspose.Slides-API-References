@@ -1,6 +1,6 @@
 ---
 title: Insert
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour les références API .NET
 description: Insère une nouvelle propriété avec la valeur de propriété spécifiée dans la collection à l'index spécifié.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Insère une nouvelle propriété (avec la valeur de propriété spécifiée) dan
 public void Insert(int index, string propertyValue)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| index | Int32 | Index où une nouvelle propriété doit être insérée. |
-| propertyValue | String | Valeur de la propriété à ajouter. |
+| Paramètre       | Type    | Description                                           |
+|------------------|---------|------------------------------------------------------|
+| index            | Int32   | Index où une nouvelle propriété doit être insérée.  |
+| propertyValue    | String  | Valeur de la propriété à ajouter.                    |
 
 ### Voir aussi
 

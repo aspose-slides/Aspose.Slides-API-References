@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForSurfaceSeries
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Surface-Teiltypen ist, siehe auch die IsChartTypeSurfaceaspose.slides/charttypecharacterizer/ischarttypesurface Methode.
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Surface-Subtypen ist, siehe auch die Methode IsChartTypeSurfaceaspose.slides.charts/charttypecharacterizer/ischarttypesurface.
 type: docs
 weight: 240
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceser
 
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Surface-Teiltypen ist (siehe auch die [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Surface-Subtypen ist (siehe auch [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
@@ -17,7 +17,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | IChartDataCell | Datenpunkt Wert |
+| value | IChartDataCell | Wert des Datenpunkts |
 
 ### Rückgabewert
 
@@ -35,7 +35,7 @@ Neuer Datenpunkt.
 
 ## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Surface-Teiltypen ist (siehe auch die [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Surface-Subtypen ist (siehe auch [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(double value)
@@ -43,7 +43,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(double value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | Double | Datenpunkt Wert |
+| value | Double | Wert des Datenpunkts |
 
 ### Rückgabewert
 

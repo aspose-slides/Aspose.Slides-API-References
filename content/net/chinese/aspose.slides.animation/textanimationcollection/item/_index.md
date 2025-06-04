@@ -1,21 +1,21 @@
 ---
 title: Item
-second_title: Aspose.Sildes for .NET API 参考
-description: 通过索引返回元素。
+second_title: Aspose.Sildes for .NET API Reference
+description: 按索引返回元素。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/textanimationcollection/item/
 ---
 
-## TextAnimationCollection 索引器 (1 / 2)
+## TextAnimationCollection 索引器 (1 of 2)
 
-通过索引返回元素。
+按索引返回元素。
 
 ```csharp
 public ITextAnimation this[int index] { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [ITextAnimation](../../itextanimation)
 * 类 [TextAnimationCollection](../../textanimationcollection)
@@ -24,7 +24,7 @@ public ITextAnimation this[int index] { get; }
 
 ---
 
-## TextAnimationCollection 索引器 (2 / 2)
+## TextAnimationCollection 索引器 (2 of 2)
 
 返回所有元素
 
@@ -36,7 +36,7 @@ public ITextAnimation[] this[IShape shape] { get; }
 | --- | --- |
 | shape |  |
 
-### 参见
+### 另请参阅
 
 * 接口 [ITextAnimation](../../itextanimation)
 * 接口 [IShape](../../../aspose.slides/ishape)

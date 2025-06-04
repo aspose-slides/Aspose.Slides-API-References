@@ -27,7 +27,7 @@ Erstellter Tab.
 ### Siehe auch
 
 * Schnittstelle [ITab](../../itab)
-* Aufzählung [TabAlignment](../../tabalignment)
+* Enum [TabAlignment](../../tabalignment)
 * Klasse [TabFactory](../../tabfactory)
 * Namespace [Aspose.Slides](../../tabfactory)
 * Assembly [Aspose.Slides](../../../)

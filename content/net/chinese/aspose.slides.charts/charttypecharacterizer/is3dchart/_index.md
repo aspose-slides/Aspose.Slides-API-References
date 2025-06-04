@@ -1,6 +1,6 @@
 ---
 title: Is3DChart
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 如果 *chartType* 是 3D 图表类型之一，则返回 true。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/is3dchart/
 public static bool Is3DChart(ChartType chartType)
 ```
 
-### 参见
+### 另见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

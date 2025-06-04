@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从父集合中移除评论及其所有回复。
 type: docs
 weight: 70
@@ -21,7 +21,7 @@ public void Remove()
 | --- | --- |
 | [PptxEditException](../../pptxeditexception) | 如果评论已经被移除则抛出 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IComment](../../icomment)
 * 命名空间 [Aspose.Slides](../../icomment)

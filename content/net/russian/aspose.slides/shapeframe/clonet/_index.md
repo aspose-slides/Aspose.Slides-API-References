@@ -1,13 +1,13 @@
 ---
 title: CloneT
-second_title: Aspose.Slides для .NET API Справочник
-description: Клонирует.
+second_title: Aspose.Sildes для .NET API Reference
+description: Клонирование.
 type: docs
 weight: 130
 url: /ru/aspose.slides/shapeframe/clonet/
 ---
 
-## Метод ShapeFrame.CloneT
+## ShapeFrame.CloneT метод
 
 Клонирует.
 
@@ -15,9 +15,9 @@ url: /ru/aspose.slides/shapeframe/clonet/
 public IShapeFrame CloneT()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
-Клонированный рамка формы.
+Склоненный фрейм формы.
 
 ### См. также
 

@@ -1,6 +1,6 @@
 ---
 title: ColorType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente différents modes de couleur.
 type: docs
 weight: 2490
@@ -23,7 +23,7 @@ public enum ColorType
 | RGB | `0` | Couleur RGB standard 24 bits. |
 | RGBPercentage | `1` | Couleur RGB haute définition. |
 | HSL | `2` | Couleur HSL haute définition. |
-| Scheme | `3` | Couleur de schéma. |
+| Scheme | `3` | Couleur d'un schéma. |
 | System | `4` | Couleur système. |
 | Preset | `5` | Couleur prédéfinie. |
 
@@ -32,4 +32,4 @@ public enum ColorType
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
-<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->

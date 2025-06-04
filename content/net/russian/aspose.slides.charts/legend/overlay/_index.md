@@ -1,21 +1,21 @@
 ---
 title: Overlay
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Boolean для чтения/записи.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет, могут ли другие элементы диаграммы перекрывать легенду. Чтение/запись Boolean.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/legend/overlay/
 ---
 
-## Свойство Legend.Overlay
+## Legend.Overlay свойство
 
-Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Boolean для чтения/записи.
+Определяет, могут ли другие элементы диаграммы перекрывать легенду. Чтение/запись Boolean.
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [Legend](../../legend)
 * пространство имен [Aspose.Slides.Charts](../../legend)

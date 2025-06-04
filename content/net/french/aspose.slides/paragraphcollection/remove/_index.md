@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Supprime la première occurrence d'un objet spécifique de l'ICollection.
 type: docs
 weight: 130
 url: /fr/aspose.slides/paragraphcollection/remove/
 ---
 
-## Méthode ParagraphCollection.Remove
+## ParagraphCollection.Remove méthode
 
 Supprime la première occurrence d'un objet spécifique de l'ICollection.
 
@@ -19,7 +19,7 @@ public bool Remove(IParagraph item)
 | --- | --- | --- |
 | item | IParagraph | L'objet à supprimer de l'ICollection. |
 
-### Valeur de Retour
+### Valeur de retour
 
 true si *item* a été supprimé avec succès de l'ICollection ; sinon, false. Cette méthode retourne également false si *item* n'est pas trouvé dans l'ICollection d'origine.
 
@@ -29,7 +29,7 @@ true si *item* a été supprimé avec succès de l'ICollection ; sinon, false. C
 | --- | --- |
 | NotSupportedException | L'ICollection est en lecture seule. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraph](../../iparagraph)
 * class [ParagraphCollection](../../paragraphcollection)

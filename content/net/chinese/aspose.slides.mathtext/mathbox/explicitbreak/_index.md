@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
-second_title: Aspose.Sildes for .NET API Reference
-description: 显式换行指定 Box 对象开始处是否有换行，这样该行会在 Box 对象开始处换行。指定在前一行数学文本中的操作符号码，该号码将用作当前行数学文本的对齐点，可能的值为 1..255 默认值：0（无显式换行）
+second_title: Aspose.Slides for .NET API Reference
+description: Explicit break specifies whether there is a line break at the start of the Box object such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values 1..255 Default 0 no explicit break
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/mathbox/explicitbreak/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbox/explicitbreak/
 
 ## MathBox.ExplicitBreak 属性
 
-显式换行指定 Box 对象开始处是否有换行，这样该行会在 Box 对象开始处换行。指定在前一行数学文本中的操作符号码，该号码将用作当前行数学文本的对齐点，可能的值为：1..255 默认值：0（无显式换行）
+显式换行指定了在 Box 对象的开始是否存在换行，使得行在 Box 对象的开始处换行。指定了在数学文本前一行上使用的操作符的编号，该编号将作为当前数学行的对齐点，可能的值：1..255 默认：0（没有显式换行）
 
 ```csharp
 public byte ExplicitBreak { get; set; }
@@ -25,7 +25,7 @@ IMathBox box = new MathematicalText("==").ToBox();
 box.ExplicitBreak = 1;
 ```
 
-### 另请参阅
+### 另见
 
 * class [MathBox](../../mathbox)
 * namespace [Aspose.Slides.MathText](../../mathbox)

@@ -1,7 +1,7 @@
 ---
 title: IsNoEffects
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn alle Effekte deaktiviert sind, wie beim neu erstellten Standard-EffectFormat-Objekt. Nur lesender Boolean.
+description: Gibt true zurück, wenn alle Effekte deaktiviert sind, wie beim gerade erstellten standardmäßigen EffectFormat-Objekt. Schreibgeschützter Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/effectformat/isnoeffects/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/effectformat/isnoeffects/
 
 ## EffectFormat.IsNoEffects-Eigenschaft
 
-Gibt true zurück, wenn alle Effekte deaktiviert sind (wie beim neu erstellten, Standard-EffectFormat-Objekt). Nur lesender Boolean.
+Gibt true zurück, wenn alle Effekte deaktiviert sind (wie beim gerade erstellten, standardmäßigen EffectFormat-Objekt). Schreibgeschützter Boolean.
 
 ```csharp
 public bool IsNoEffects { get; }

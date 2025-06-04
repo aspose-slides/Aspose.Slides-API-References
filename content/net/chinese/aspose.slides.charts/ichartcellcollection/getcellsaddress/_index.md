@@ -1,6 +1,6 @@
 ---
 title: GetCellsAddress
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回工作簿中一组单元格的地址。
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public string GetCellsAddress()
 
 工作簿中一组单元格的地址 字符串
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcellcollection)

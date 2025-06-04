@@ -1,13 +1,13 @@
 ---
 title: Contains
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Bestimmt, ob die ICollection einen bestimmten Wert enthält.
 type: docs
 weight: 60
 url: /de/aspose.slides/iportioncollection/contains/
 ---
 
-## IPortionCollection.Contains Methode
+## IPortionCollection.Contains-Methode
 
 Bestimmt, ob die ICollection einen bestimmten Wert enthält.
 

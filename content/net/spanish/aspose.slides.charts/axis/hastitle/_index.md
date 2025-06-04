@@ -1,6 +1,6 @@
 ---
 title: HasTitle
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si un eje tiene un título visible. Booleano de lectura/escritura.
 type: docs
 weight: 170
@@ -15,10 +15,10 @@ Determina si un eje tiene un título visible. Booleano de lectura/escritura.
 public bool HasTitle { get; set; }
 ```
 
-### Ver También
+### Véase también
 
-* clase [Axis](../../axis)
-* espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblado [Aspose.Slides](../../../)
+* class [Axis](../../axis)
+* namespace [Aspose.Slides.Charts](../../axis)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

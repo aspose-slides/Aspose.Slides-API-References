@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定 JPEG 编码质量。可读/可写 Int32。
+second_title: Aspose.Slildes for .NET API Reference
+description: 确定JPEG编码质量。读/写Int32。
 type: docs
 weight: 120
 url: /zh/aspose.slides.export/svgoptions/jpegquality/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/svgoptions/jpegquality/
 
 ## SVGOptions.JpegQuality 属性
 
-确定 JPEG 编码质量。可读/可写 Int32。
+确定JPEG编码质量。读/写Int32。
 
 ```csharp
 public int JpegQuality { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [SVGOptions](../../svgoptions)
 * namespace [Aspose.Slides.Export](../../svgoptions)

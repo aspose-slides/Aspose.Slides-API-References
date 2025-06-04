@@ -1,7 +1,7 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Slides для .NET Справочник по API
-description: Математический абзац, который является контейнером для математических блоков IMathBlock
+second_title: Aspose.Sildes для .NET API Reference
+description: Математический параграф, являющийся контейнером для математических блоков IMathBlock
 type: docs
 weight: 8140
 url: /ru/aspose.slides.mathtext/imathparagraph/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathparagraph/
 
 ## Интерфейс IMathParagraph
 
-Математический абзац, который является контейнером для математических блоков (IMathBlock)
+Математический параграф, являющийся контейнером для математических блоков (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -17,17 +17,17 @@ public interface IMathParagraph : IMathBlockCollection
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Позволяет получить базовый интерфейс IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Выравнивание абзаца Значение по умолчанию: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Выравнивание параграфа. Значение по умолчанию: CenteredAsGroup |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Получает математическое уравнение в формате LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого [`IMathParagraph`](../imathparagraph) как MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого [`IMathParagraph`](../imathparagraph) в формате MathML |
 
 ### Примеры
 

@@ -1,7 +1,7 @@
 ---
 title: Global
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Renvoie le stockage global du document. Lecture seule Storageaspose.slides/storage.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne le stockage global du document. Lecture seule Storageaspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export.web/webdocument/global/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export.web/webdocument/global/
 
 ## Propriété WebDocument.Global
 
-Renvoie le stockage global du document. Lecture seule [`Storage`](../../storage).
+Retourne le stockage global du document. Lecture seule [`Storage`](../../storage).
 
 ```csharp
 public Storage Global { get; }
@@ -17,7 +17,7 @@ public Storage Global { get; }
 
 ### Exemples
 
-En utilisant cette propriété `Global` (implémentation de l'interface [`Storage`](../../storage)), une propriété peut être utilisée pour l'utiliser plus tard dans le modèle :
+En utilisant cette propriété `Global` (implémentation de l'interface [`Storage`](../../storage)), une propriété peut être mise à profit pour l'utiliser plus tard dans le modèle :
 
 ```csharp
 [C#]
@@ -30,14 +30,14 @@ var options = new WebDocumentOptions
 
 WebDocument document = new WebDocument(options);
 
-// mettre la propriété "slideMargin" à utilisation à partir des modèles
+// mettre la propriété "slideMargin" à profit à partir des modèles
 document.Global.Put("slideMargin", 10);
 
-// ... configurer d'autres options du document et ensuite enregistrer le document
+// ... configurer d'autres options du document puis enregistrer le document
 document.Save();
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Storage](../../storage)
 * classe [WebDocument](../../webdocument)

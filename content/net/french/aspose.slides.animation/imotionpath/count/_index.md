@@ -1,15 +1,15 @@
 ---
 title: Count
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le nombre de chemins dans la collection. Lecture seule Int32.
+description: Renvoie le nombre de chemins dans la collection. En lecture seule Int32.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/imotionpath/count/
 ---
 
-## Propriété IMotionPath.Count
+## IMotionPath.Count propriété
 
-Renvoie le nombre de chemins dans la collection. Lecture seule Int32.
+Renvoie le nombre de chemins dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

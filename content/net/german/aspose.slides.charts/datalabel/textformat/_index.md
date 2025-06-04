@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Textformat zurück. Nur-Lese IChartTextFormataspose.slides/icharttextformat.
+description: Gibt das Textformat zurück. Nur lesend IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/datalabel/textformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datalabel/textformat/
 
 ## DataLabel.TextFormat-Eigenschaft
 
-Gibt das Textformat zurück. Nur-Lese [`IChartTextFormat`](../../icharttextformat).
+Gibt das Textformat zurück. Nur lesend [`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

@@ -15,7 +15,7 @@ Especifica si se deben mostrar los comentarios de la diapositiva. Lectura/escrit
 public NullableBool ShowComments { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * enum [NullableBool](../../nullablebool)
 * class [ViewProperties](../../viewproperties)

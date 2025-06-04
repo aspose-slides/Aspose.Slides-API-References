@@ -7,7 +7,7 @@ weight: 2610
 url: /es/aspose.slides/controlcollection/
 ---
 
-## Clase ControlCollection
+## ControlCollection class
 
 Una colección de controles ActiveX.
 
@@ -15,12 +15,12 @@ Una colección de controles ActiveX.
 public class ControlCollection : IControlCollection
 ```
 
-## Propiedades
+## Props
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Devuelve un número de objetos en la colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (a prueba de hilos). Solo lectura Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Devuelve el número de objetos en la colección. Solo lectura Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Devuelve un control en la posición especificada. |
 | [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -35,7 +35,7 @@ public class ControlCollection : IControlCollection
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Elimina un control ActiveX de la colección. |
 | [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Elimina un control ActiveX almacenado en la posición especificada de la colección. |
 
-### Véase también
+### Ver También
 
 * interfaz [IControlCollection](../icontrolcollection)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

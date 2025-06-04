@@ -1,7 +1,7 @@
 ---
 title: DrawingGuidesCollection
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente une collection des guides de dessin ajustables.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente une collection de guides de dessin réglables.
 type: docs
 weight: 2730
 url: /fr/aspose.slides/drawingguidescollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/drawingguidescollection/
 
 ## Classe DrawingGuidesCollection
 
-Représente une collection des guides de dessin ajustables.
+Représente une collection de guides de dessin réglables.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -19,8 +19,8 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Retourne le nombre d'éléments dans la collection. Lecture seule Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Retourne le guide de dessin par index. Lecture seule [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Renvoie le nombre d'éléments dans la collection. En lecture seule Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Renvoie le guide de dessin par index. En lecture seule [`IDrawingGuide`](../idrawingguide). |
 
 ## Méthodes
 
@@ -29,10 +29,10 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Ajoute le guide de dessin à la fin de la collection. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Supprime tous les éléments de la collection. |
 | [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Copie tous les éléments de la collection dans le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Supprime le guide de dessin à l'index spécifié. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDrawingGuidesCollection](../idrawingguidescollection)
 * namespace [Aspose.Slides](../../aspose.slides)

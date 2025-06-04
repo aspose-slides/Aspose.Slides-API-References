@@ -1,7 +1,7 @@
 ---
 title: BuildType
-second_title: Aspose.Slides for .NET API 参考
-description: 文本动画的构建类型列表，例如段落 123 一次性展示。读/写 BuildTypeaspose.slides.animation/itextanimation/buildtype。
+second_title: Aspose.Slides for .NET API Reference
+description: 文本动画的构建类型列表，以示例段落 123 全部同时进行为例。读/写 BuildType aspose.slides.animation/itextanimation/buildtype。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/itextanimation/buildtype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/itextanimation/buildtype/
 
 ## ITextAnimation.BuildType 属性
 
-文本动画的构建类型列表（例如段落 1,2,3，一次性展示）。读/写 `BuildType`。
+文本动画的构建类型列表（例如段落 1,2,3，全部同时进行）。读/写 `BuildType`。
 
 ```csharp
 public BuildType BuildType { get; set; }
 ```
 
-### 另见
+### 参见
 
 * enum [BuildType](../../buildtype)
 * interface [ITextAnimation](../../itextanimation)

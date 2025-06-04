@@ -1,7 +1,7 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回包含此列格式属性的 ColumnFormat 对象。只读 IColumnFormataspose.slides/icolumnformat。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回包含此列格式属性的 ColumnFormat 对象。只读 IColumnFormat aspose.slides/icolumnformat。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icolumn/columnformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icolumn/columnformat/
 public IColumnFormat ColumnFormat { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IColumnFormat](../../icolumnformat)
 * 接口 [IColumn](../../icolumn)

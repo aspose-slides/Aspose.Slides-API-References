@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Направление перехода. Чтение/запись TransitionEightDirectionTypeaspose.slides.slideshow/transitioneightdirectiontype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/ieightdirectiontransition/direction/
 ---
 
-## Свойство IEightDirectionTransition.Direction
+## IEightDirectionTransition.Direction свойство
 
 Направление перехода. Чтение/запись [`TransitionEightDirectionType`](../../transitioneightdirectiontype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/ieightdirectiontransition/direction/
 public TransitionEightDirectionType Direction { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [TransitionEightDirectionType](../../transitioneightdirectiontype)
 * interface [IEightDirectionTransition](../../ieightdirectiontransition)

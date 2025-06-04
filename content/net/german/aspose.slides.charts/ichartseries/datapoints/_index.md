@@ -1,7 +1,7 @@
 ---
 title: DataPoints
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von Datenpunkten dieser Serie zurück. Nur lesbarer IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
+description: Gibt die Sammlung von Datenpunkten dieser Serie zurück. Nur lesender IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/ichartseries/datapoints/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/datapoints/
 
 ## IChartSeries.DataPoints-Eigenschaft
 
-Gibt die Sammlung von Datenpunkten dieser Serie zurück. Nur lesbar [`IChartDataPointCollection`](../../ichartdatapointcollection).
+Gibt die Sammlung von Datenpunkten dieser Serie zurück. Nur lesend [`IChartDataPointCollection`](../../ichartdatapointcollection).
 
 ```csharp
 public IChartDataPointCollection DataPoints { get; }

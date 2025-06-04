@@ -1,6 +1,6 @@
 ---
 title: AsIComparable
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IComparable 接口。只读 IComparable。
 type: docs
 weight: 20
@@ -17,9 +17,9 @@ public IComparable AsIComparable { get; }
 
 ### 备注
 
-为了与 COM 兼容。
+为了兼容 COM。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITab](../../itab)
 * 命名空间 [Aspose.Slides](../../itab)

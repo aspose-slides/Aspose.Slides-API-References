@@ -1,7 +1,7 @@
 ---
 title: Shape
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine mit dem Kommentar verbundene Form zurück. Nur-lesend IShapeaspose.slides/ishape.
+description: Gibt eine mit dem Kommentar verbundene Form zurück. Schreibgeschütztes IShapeaspose.slides/ishape.
 type: docs
 weight: 20
 url: /de/aspose.slides/imoderncomment/shape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imoderncomment/shape/
 
 ## IModernComment.Shape-Eigenschaft
 
-Gibt eine mit dem Kommentar verbundene Form zurück. Nur-lesend [`IShape`](../../ishape).
+Gibt eine mit dem Kommentar verbundene Form zurück. Schreibgeschützt [`IShape`](../../ishape).
 
 ```csharp
 public IShape Shape { get; }

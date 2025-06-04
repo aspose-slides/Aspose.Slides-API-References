@@ -1,6 +1,6 @@
 ---
 title: LayoutSlides
-second_title: Aspose.Slides para .NET API Referencia
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve una lista de todas las diapositivas de diseño que están definidas en la presentación. Solo lectura IGlobalLayoutSlideCollectionaspose.slides/igloballayoutslidecollection.
 type: docs
 weight: 160
@@ -17,13 +17,13 @@ public IGlobalLayoutSlideCollection LayoutSlides { get; }
 
 ### Observaciones
 
-Puedes acceder a una API alternativa para añadir/inserir/eliminar/clonar diapositivas de diseño utilizando la propiedad IMasterSlide.LayoutSlides.
+Puedes acceder a la API alternativa para agregar/inserir/eliminar/clonar diapositivas de diseño utilizando la propiedad IMasterSlide.LayoutSlides.
 
-### Véase también
+### Vea también
 
-* interfaz [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
-* interfaz [IPresentation](../../ipresentation)
-* espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IGlobalLayoutSlideCollection](../../igloballayoutslidecollection)
+* interfaz [IPresentation](../../ipresentation)
+* espacio de nombres [Aspose.Slides](../../ipresentation)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

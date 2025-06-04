@@ -1,15 +1,15 @@
 ---
 title: SplitByRowSpan
 second_title: Aspose.Slides для .NET API Справочник
-description: Делит ячейку на две ячейки по индексу строки.
+description: Разделяет ячейку на две ячейки по индексу строки.
 type: docs
 weight: 270
 url: /ru/aspose.slides/cell/splitbyrowspan/
 ---
 
-## Метод Cell.SplitByRowSpan
+## Cell.SplitByRowSpan метод
 
-Делит ячейку на две ячейки по индексу строки.
+Разделяет ячейку на две ячейки по индексу строки.
 
 ```csharp
 public void SplitByRowSpan(int index)
@@ -19,7 +19,7 @@ public void SplitByRowSpan(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс строки. |
 
-### См. также
+### См. Также
 
 * класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)

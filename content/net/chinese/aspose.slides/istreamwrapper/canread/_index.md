@@ -1,6 +1,6 @@
 ---
 title: CanRead
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取一个值，指示当前流是否支持读取。只读布尔值。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/istreamwrapper/canread/
 public bool CanRead { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 命名空间 [Aspose.Slides](../../istreamwrapper)

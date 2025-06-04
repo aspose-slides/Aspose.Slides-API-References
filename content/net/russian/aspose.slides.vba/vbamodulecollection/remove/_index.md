@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет первое вхождение конкретного объекта из коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides.vba/vbamodulecollection/remove/
 ---
 
-## Метод VbaModuleCollection.Remove
+## VbaModuleCollection.Remove метод
 
 Удаляет первое вхождение конкретного объекта из коллекции.
 
@@ -17,9 +17,9 @@ public void Remove(IVbaModule value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IVbaModule | Модуль, который нужно удалить из коллекции. |
+| value | IVbaModule | Модуль для удаления из коллекции. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IVbaModule](../../ivbamodule)
 * класс [VbaModuleCollection](../../vbamodulecollection)

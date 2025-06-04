@@ -1,15 +1,15 @@
 ---
 title: ActualMinorUnitScale
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает фактический масштаб малой единицы оси. Сначала вызовите метод IChart.ValidateChartLayout, чтобы получить фактическое значение.
+description: Указывает фактическую шкалу малой единицы оси. Сначала вызовите метод IChart.ValidateChartLayout, чтобы получить фактическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/iaxis/actualminorunitscale/
 ---
 
-## Свойство IAxis.ActualMinorUnitScale
+## IAxis.ActualMinorUnitScale свойство
 
-Указывает фактический масштаб малой единицы оси. Сначала вызовите метод IChart.ValidateChartLayout(), чтобы получить фактическое значение.
+Указывает фактическую шкалу малой единицы оси. Сначала вызовите метод IChart.ValidateChartLayout(), чтобы получить фактическое значение.
 
 ```csharp
 public TimeUnitType ActualMinorUnitScale { get; }

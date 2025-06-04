@@ -1,7 +1,7 @@
 ---
 title: AdjustHandlesLocked
-second_title: Aspose.Slides for .NET API Reference
-description: 确定是否禁止更改调整值。可读/可写的布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否禁止更改调整值。可读/写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iconnectorlock/adjusthandleslocked/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iconnectorlock/adjusthandleslocked/
 
 ## IConnectorLock.AdjustHandlesLocked 属性
 
-确定是否禁止更改调整值。可读/可写的布尔值。
+确定是否禁止更改调整值。可读/写布尔值。
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }

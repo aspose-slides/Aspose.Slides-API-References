@@ -1,7 +1,7 @@
 ---
 title: IGlow
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет эффект свечения, при котором цветной размытый контур добавляется за границы объекта.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект свечения, при котором цветное размышляющее обрамление добавляется за пределами краев объекта.
 type: docs
 weight: 3200
 url: /ru/aspose.slides.effects/iglow/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iglow/
 
 ## Интерфейс IGlow
 
-Представляет эффект свечения, при котором цветной размытый контур добавляется за границы объекта.
+Представляет эффект свечения, при котором цветное размышляющее обрамление добавляется за пределами краев объекта.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -24,7 +24,7 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Цветовой формат. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Радиус. Чтение/запись Double. |
 
-### Также см.
+### См. Также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IGlowEffectiveData](../igloweffectivedata)

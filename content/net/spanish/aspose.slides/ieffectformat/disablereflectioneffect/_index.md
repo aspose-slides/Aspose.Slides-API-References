@@ -1,24 +1,24 @@
 ---
 title: DisableReflectionEffect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Desactiva el efecto de reflexión.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Deshabilita el efecto de reflexión.
 type: docs
 weight: 170
 url: /es/aspose.slides/ieffectformat/disablereflectioneffect/
 ---
 
-## Método IEffectFormat.DisableReflectionEffect
+## IEffectFormat.DisableReflectionEffect método
 
-Desactiva el efecto de reflexión.
+Deshabilita el efecto de reflexión.
 
 ```csharp
 public void DisableReflectionEffect()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IEffectFormat](../../ieffectformat)
 * espacio de nombres [Aspose.Slides](../../ieffectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

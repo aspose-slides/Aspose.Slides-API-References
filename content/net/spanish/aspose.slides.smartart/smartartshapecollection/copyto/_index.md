@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Copia todos los elementos de la colección en el array especificado.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Copia todos los elementos de la colección al array especificado.
 type: docs
 weight: 50
 url: /es/aspose.slides.smartart/smartartshapecollection/copyto/
 ---
 
-## Método SmartArtShapeCollection.CopyTo
+## SmartArtShapeCollection.CopyTo método
 
-Copia todos los elementos de la colección en el array especificado.
+Copia todos los elementos de la colección al array especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,8 +17,8 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Array de destino. |
-| index | Int32 | Índice inicial en el array de destino. |
+| array | Array | Array destino. |
+| index | Int32 | Índice inicial en el array destino. |
 
 ### Ver También
 

@@ -1,21 +1,21 @@
 ---
 title: RotateWithShape
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, следует ли вращать заливку вместе с формой. Чтение/запись NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, следует ли поворачивать заливку вместе с фигурой. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /ru/aspose.slides/fillformat/rotatewithshape/
 ---
 
-## Свойство FillFormat.RotateWithShape
+## FillFormat.RotateWithShape property
 
-Определяет, следует ли вращать заливку вместе с формой. Чтение/запись [`NullableBool`](../../nullablebool).
+Указывает, следует ли поворачивать заливку вместе с фигурой. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool RotateWithShape { get; set; }
 ```
 
-### Смотрите также
+### See Also
 
 * enum [NullableBool](../../nullablebool)
 * class [FillFormat](../../fillformat)

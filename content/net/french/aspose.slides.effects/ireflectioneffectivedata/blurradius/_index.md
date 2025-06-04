@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Référence API Aspose.Slides pour .NET
-description: Rayon de flou. En lecture seule Double.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Rayon de flou. Read-only Double.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/ireflectioneffectivedata/blurradius/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ireflectioneffectivedata/blurradius/
 
 ## Propriété IReflectionEffectiveData.BlurRadius
 
-Rayon de flou. En lecture seule Double.
+Rayon de flou. Read-only Double.
 
 ```csharp
 public double BlurRadius { get; }
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)

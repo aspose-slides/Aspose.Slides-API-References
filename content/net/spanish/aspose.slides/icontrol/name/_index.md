@@ -19,6 +19,6 @@ public string Name { get; set; }
 
 * interfaz [IControl](../../icontrol)
 * espacio de nombres [Aspose.Slides](../../icontrol)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

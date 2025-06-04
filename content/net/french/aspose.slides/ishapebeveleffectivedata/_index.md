@@ -1,7 +1,7 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Objet immuable qui contient les propriétés d'élévation effectives des faces des formes.
+description: Objet immuable qui contient les propriétés de relief de face des formes effectives.
 type: docs
 weight: 6750
 url: /fr/aspose.slides/ishapebeveleffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapebeveleffectivedata/
 
 ## Interface IShapeBevelEffectiveData
 
-Objet immuable qui contient les propriétés d'élévation effective des faces des formes.
+Objet immuable qui contient les propriétés de relief de face des formes effectives.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -19,15 +19,15 @@ public interface IShapeBevelEffectiveData
 
 | Nom | Description |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Type de biseau. Lecture seule [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Hauteur du biseau. Lecture seule Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Largeur du biseau. Lecture seule Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Type de biseau. En lecture seule [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Hauteur du biseau. Double en lecture seule. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Largeur du biseau. Double en lecture seule. |
 
 ### Remarques
 
 Cette interface est utilisée comme partie de [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,13 +1,13 @@
 ---
 title: Transparency
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Получает прозрачность цвета заливки. Чтение Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icellformateffectivedata/transparency/
 ---
 
-## Свойство ICellFormatEffectiveData.Transparency
+## ICellFormatEffectiveData.Transparency свойство
 
 Получает прозрачность цвета заливки. Чтение Single.
 

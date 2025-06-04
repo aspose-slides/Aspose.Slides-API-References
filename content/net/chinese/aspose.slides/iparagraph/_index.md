@@ -1,7 +1,7 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides for .NET API Reference
-description: 表示一段文本。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示文本的一个段落。
 type: docs
 weight: 6360
 url: /zh/aspose.slides/iparagraph/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraph/
 
 ## IParagraph 接口
 
-表示一段文本。
+表示文本的一个段落。
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -19,19 +19,19 @@ public interface IParagraph : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允许获取基本的 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定如果在最后一部分后插入另一部分时要使用的部分属性。 |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。只读 [`ISlideComponent`](../islidecomponent)。 |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定如果在最后一个段落后插入另一个段落时要使用的段落属性。 |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 返回该段落的格式对象。只读 [`IParagraphFormat`](../iparagraphformat)。 |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | 返回文本部分的集合。只读 [`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 获取或设置段落的纯文本。读写字符串。 |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 获取或设置段落的纯文本。读/写字符串。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 获取段落中的行数。 |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | 获取边界段落的矩形的坐标。该矩形包含段落中的所有文本行，包括空行。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 合并具有相同格式的段落。 |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | 获取界定段落的矩形的坐标。该矩形包括段落中的所有文本行，包括空行。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 合并具有相同格式的文本段。 |
 
 ### 另见
 

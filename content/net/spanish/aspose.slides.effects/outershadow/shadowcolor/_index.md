@@ -1,6 +1,6 @@
 ---
 title: ShadowColor
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Color de sombra. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 80
@@ -15,11 +15,11 @@ Color de sombra. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorform
 public IColorFormat ShadowColor { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * clase [OuterShadow](../../outershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../outershadow)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

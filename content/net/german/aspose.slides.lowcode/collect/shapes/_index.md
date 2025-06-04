@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // wenn die Form eine AutoShape ist, füge einen schwarzen, durchgehenden Rand hinzu
+        // Wenn die Form eine AutoShape ist, füge einen schwarzen durchgehenden Rand hinzu
         if (shape is AutoShape autoShape)
         {
             autoShape.LineFormat.Style = LineStyle.Single;
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Shape](../../../aspose.slides/shape)
 * Klasse [Presentation](../../../aspose.slides/presentation)

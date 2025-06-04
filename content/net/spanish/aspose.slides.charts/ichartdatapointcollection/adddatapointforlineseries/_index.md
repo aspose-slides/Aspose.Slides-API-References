@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForLineSeries
-second_title: Aspose.Slides para .NET API Reference
-description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Línea, véase también el método ChartTypeCharacterizer.IsChartTypeLineChartType.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Line ver también el método ChartTypeCharacterizer.IsChartTypeLineChartType.
 type: docs
 weight: 140
 url: /es/aspose.slides.charts/ichartdatapointcollection/adddatapointforlineseries/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichartdatapointcollection/adddatapointforlineserie
 
 ## AddDataPointForLineSeries(IChartDataCell) {#adddatapointforlineseries}
 
-Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Línea (véase también el método ChartTypeCharacterizer.IsChartTypeLine(ChartType)).
+Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Line (ver también el método ChartTypeCharacterizer.IsChartTypeLine(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nuevo punto de datos.
 
 ## AddDataPointForLineSeries(double) {#adddatapointforlineseries_1}
 
-Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Línea (véase también el método ChartTypeCharacterizer.IsChartTypeLine(ChartType)).
+Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo chartType es uno de los subtipos de Line (ver también el método ChartTypeCharacterizer.IsChartTypeLine(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(double value)

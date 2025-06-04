@@ -1,6 +1,6 @@
 ---
 title: ColorOperation
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Crée une nouvelle opération de transformation de couleur.
 type: docs
 weight: 10

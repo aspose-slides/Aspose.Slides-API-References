@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Referencia de API de Aspose.Sldes para .NET
-description: Devuelve o establece el tipo de AutoShape para un PictureFrame. Se permiten todos los elementos del conjunto ShapeTypeaspose.slides/shapetype, excepto todos los tipos de líneas
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece el tipo de AutoShape para un PictureFrame. Se permiten todos los elementos del conjunto ShapeTypeaspose.slides/shapetype excepto todos los tipos de líneas.
 type: docs
 weight: 70
 url: /es/aspose.slides/pictureframe/shapetype/
@@ -37,7 +37,7 @@ Lectura/escritura [`ShapeType`](../../shapetype).
 public override ShapeType ShapeType { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [ShapeType](../../shapetype)
 * class [PictureFrame](../../pictureframe)

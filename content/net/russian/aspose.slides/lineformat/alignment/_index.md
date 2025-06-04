@@ -1,15 +1,15 @@
 ---
 title: Alignment
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или устанавливает выравнивание строки. Чтение/запись LineAlignment aspose.slides/linealignment.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает выравнивание строки. Чтение/запись LineAlignmentaspose.slides/linealignment.
 type: docs
 weight: 10
 url: /ru/aspose.slides/lineformat/alignment/
 ---
 
-## Свойство LineFormat.Alignment
+## LineFormat.Alignment свойство
 
-Возвращает или устанавливает выравнивание строки. Чтение/запись [`LineAlignment`](../../linealignment).
+Возвращает или задает выравнивание строки. Чтение/запись [`LineAlignment`](../../linealignment).
 
 ```csharp
 public LineAlignment Alignment { get; set; }

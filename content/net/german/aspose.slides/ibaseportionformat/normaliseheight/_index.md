@@ -1,7 +1,7 @@
 ---
 title: NormaliseHeight
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die Höhe eines Textes normalisiert werden soll. Keine Vererbung angewendet. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+description: Bestimmt, ob die Höhe eines Textes normalisiert werden soll. Keine Vererbung angewendet. Lese-/schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 190
 url: /de/aspose.slides/ibaseportionformat/normaliseheight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformat/normaliseheight/
 
 ## IBasePortionFormat.NormaliseHeight-Eigenschaft
 
-Bestimmt, ob die Höhe eines Textes normalisiert werden soll. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Höhe eines Textes normalisiert werden soll. Keine Vererbung angewendet. Lese-/schreibbarer [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool NormaliseHeight { get; set; }

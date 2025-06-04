@@ -1,6 +1,6 @@
 ---
 title: CreateVbaProject
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новый проект VBA.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IVbaProject CreateVbaProject()
 
 Новый проект VBA
 
-### Смотрите также
+### Также смотрите
 
 * интерфейс [IVbaProject](../../ivbaproject)
 * интерфейс [IVbaProjectFactory](../../ivbaprojectfactory)

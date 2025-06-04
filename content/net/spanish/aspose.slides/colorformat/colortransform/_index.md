@@ -1,13 +1,13 @@
 ---
 title: ColorTransform
-second_title: Aspose.Sildes para referencia de API de .NET
+second_title: Referencia de API Aspose.Slides para .NET
 description: Devuelve la colección de transformaciones de color aplicadas a un color. Solo lectura IColorOperationCollectionaspose.slides/icoloroperationcollection.
 type: docs
 weight: 30
 url: /es/aspose.slides/colorformat/colortransform/
 ---
 
-## Propiedad ColorFormat.ColorTransform
+## ColorFormat.ColorTransform propiedad
 
 Devuelve la colección de transformaciones de color aplicadas a un color. Solo lectura [`IColorOperationCollection`](../../icoloroperationcollection).
 
@@ -15,11 +15,11 @@ Devuelve la colección de transformaciones de color aplicadas a un color. Solo l
 public IColorOperationCollection ColorTransform { get; }
 ```
 
-### También Véase
+### Véase también
 
 * interfaz [IColorOperationCollection](../../icoloroperationcollection)
 * clase [ColorFormat](../../colorformat)
-* namespace [Aspose.Slides](../../colorformat)
+* espacio de nombres [Aspose.Slides](../../colorformat)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->

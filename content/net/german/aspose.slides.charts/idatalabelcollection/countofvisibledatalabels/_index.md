@@ -1,6 +1,6 @@
 ---
 title: CountOfVisibleDataLabels
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erhält die Anzahl der sichtbaren Datenbeschriftungen in der Sammlung. Nur-Lese Int32.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Erhält die Anzahl der sichtbaren Datenbeschriftungen in der Sammlung. Nur-Lese 
 public int CountOfVisibleDataLabels { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IDataLabelCollection](../../idatalabelcollection)
 * Namensraum [Aspose.Slides.Charts](../../idatalabelcollection)

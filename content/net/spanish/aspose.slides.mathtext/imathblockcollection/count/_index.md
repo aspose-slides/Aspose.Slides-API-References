@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.mathtext/imathblockcollection/count/
 ---
 
-## Propiedad IMathBlockCollection.Count
+## IMathBlockCollection.Count property
 
 Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
 
@@ -27,10 +27,10 @@ blockCollection.Add(new MathBlock(new MathematicalText("block2")));
 int blocksCount = blockCollection.Count;
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IMathBlockCollection](../../imathblockcollection)
 * espacio de nombres [Aspose.Slides.MathText](../../imathblockcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

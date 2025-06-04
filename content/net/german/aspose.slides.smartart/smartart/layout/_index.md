@@ -1,7 +1,7 @@
 ---
 title: Layout
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Layout des SmartArt-Objekts zurück oder legt es fest. Lese-/schreibbarer SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
+description: Gibt das Layout des SmartArt-Objekts zurück oder setzt es. Read/write SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs
 weight: 40
 url: /de/aspose.slides.smartart/smartart/layout/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartart/layout/
 
 ## SmartArt.Layout-Eigenschaft
 
-Gibt das Layout des SmartArt-Objekts zurück oder legt es fest. Lese-/schreibbarer [`SmartArtLayoutType`](../../smartartlayouttype).
+Gibt das Layout des SmartArt-Objekts zurück oder setzt es. Read/write [`SmartArtLayoutType`](../../smartartlayouttype).
 
 ```csharp
 public SmartArtLayoutType Layout { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [SmartArtLayoutType](../../smartartlayouttype)
 * class [SmartArt](../../smartart)

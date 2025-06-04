@@ -1,7 +1,7 @@
 ---
 title: RightToLeft
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定表格是否具有从右到左的阅读顺序。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定表格是否具有从右到左的阅读顺序。读写布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides/itable/righttoleft/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itable/righttoleft/
 
 ## ITable.RightToLeft 属性
 
-确定表格是否具有从右到左的阅读顺序。可读写布尔值。
+确定表格是否具有从右到左的阅读顺序。读写布尔值。
 
 ```csharp
 public bool RightToLeft { get; set; }
 ```
 
-### 相关信息
+### 另见
 
 * 接口 [ITable](../../itable)
 * 命名空间 [Aspose.Slides](../../itable)

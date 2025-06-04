@@ -1,6 +1,6 @@
 ---
 title: PptxOptions
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Crea una nueva instancia de PptxOptions
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ Crea una nueva instancia de PptxOptions
 public PptxOptions()
 ```
 
-### Ver También
+### Ver también
 
 * class [PptxOptions](../../pptxoptions)
 * namespace [Aspose.Slides.Export](../../pptxoptions)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

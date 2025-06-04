@@ -7,7 +7,7 @@ weight: 30
 url: /de/aspose.slides/isection/startedfromslide/
 ---
 
-## ISection.StartedFromSlide Eigenschaft
+## ISection.StartedFromSlide-Eigenschaft
 
 Gibt die erste Folie des Abschnitts zurück.
 

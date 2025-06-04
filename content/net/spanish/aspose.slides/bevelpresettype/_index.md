@@ -1,7 +1,7 @@
 ---
 title: BevelPresetType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Constantes que definen el bisel 3D de una forma.
+second_title: Aspose.Sildes para .NET API Reference
+description: Constantes que definen el bisel 3D de la forma.
 type: docs
 weight: 930
 url: /es/aspose.slides/bevelpresettype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/bevelpresettype/
 
 ## Enumeración BevelPresetType
 
-Constantes que definen el bisel 3D de una forma.
+Constantes que definen el bisel 3D de la forma.
 
 ```csharp
 public enum BevelPresetType
@@ -33,7 +33,7 @@ public enum BevelPresetType
 | Slope | `10` |  |
 | SoftRound | `11` |  |
 
-### Ver También
+### Ver también
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

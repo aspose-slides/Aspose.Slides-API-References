@@ -15,10 +15,10 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Ver También
+### Véase también
 
-* class [FillFormatCollection](../../fillformatcollection)
-* namespace [Aspose.Slides.Theme](../../fillformatcollection)
-* assembly [Aspose.Slides](../../../)
+* clase [FillFormatCollection](../../fillformatcollection)
+* espacio de nombres [Aspose.Slides.Theme](../../fillformatcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

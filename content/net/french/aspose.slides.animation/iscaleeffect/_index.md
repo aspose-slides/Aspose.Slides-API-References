@@ -1,7 +1,7 @@
 ---
 title: IScaleEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente l'effet d'animation de mise à l'échelle.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente l'effet d'échelle d'animation.
 type: docs
 weight: 500
 url: /fr/aspose.slides.animation/iscaleeffect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/iscaleeffect/
 
 ## Interface IScaleEffect
 
-Représente l'effet d'animation de mise à l'échelle.
+Représente l'effet d'échelle d'animation.
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -20,9 +20,9 @@ public interface IScaleEffect : IBehavior
 | Nom | Description |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. Lecture seule [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Décrit la valeur de décalage relative pour l'animation (en pourcentages). Lecture/écriture PointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Spécifie un point d'origine x/y pour commencer l'animation (en pourcentages). Lecture/écriture PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Spécifie l'emplacement cible pour un effet d'animation de mise à l'échelle (en pourcentages). Lecture/écriture PointF. |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | décrit la valeur de décalage relative pour l'animation (en pourcentages). Lecture/écriture PointF. |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Spécifie une coordonnée x/y à partir de laquelle commencer l'animation (en pourcentages). Lecture/écriture PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Spécifie l'emplacement cible pour un effet d'échelle d'animation (en pourcentages). Lecture/écriture PointF. |
 | [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Détermine si un contenu doit être zoomé. Lecture/écriture [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Voir aussi

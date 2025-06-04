@@ -1,7 +1,7 @@
 ---
 title: StrokeDashStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die stroke.dashstyle-Eigenschaft dar
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Eigenschaft stroke.dashstyle dar
 type: docs
 weight: 900
 url: /de/aspose.slides.animation/behaviorproperty/strokedashstyle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/behaviorproperty/strokedashstyle/
 
 ## BehaviorProperty.StrokeDashStyle-Eigenschaft
 
-Stellt die 'stroke.dashstyle'-Eigenschaft dar
+Stellt die Eigenschaft 'stroke.dashstyle' dar
 
 ```csharp
 public static BehaviorProperty StrokeDashStyle { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

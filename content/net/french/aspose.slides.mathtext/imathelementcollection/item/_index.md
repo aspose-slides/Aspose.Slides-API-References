@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient l'élément à l'index spécifié. Lecture seule IMathElement aspose.slides.mathtext/imathelement.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Obtient l'élément à l'index spécifié. Lecture seule IMathElementaspose.slides.mathtext/imathelement.
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathelementcollection/item/
 ---
 
-## Indexeur IMathElementCollection
+## IMathElementCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IMathElement`](../../imathelement).
 
@@ -17,11 +17,11 @@ public IMathElement this[int index] { get; }
 
 | Paramètre | Description |
 | --- | --- |
-| index | L'index de l'élément à obtenir basé sur zéro |
+| index | L'index basé sur zéro de l'élément à obtenir |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 IMathElement firstElem = collection[0];
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathElementCollection](../../imathelementcollection)

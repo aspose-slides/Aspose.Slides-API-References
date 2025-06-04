@@ -1,7 +1,7 @@
 ---
 title: SequenceCollection
-second_title: Справочная информация по API Aspose.Sildes для .NET
-description: Представляет коллекцию интерактивных последовательностей.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет собой коллекцию интерактивных последовательностей.
 type: docs
 weight: 720
 url: /ru/aspose.slides.animation/sequencecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/sequencecollection/
 
 ## Класс SequenceCollection
 
-Представляет коллекцию интерактивных последовательностей.
+Представляет собой коллекцию интерактивных последовательностей.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -17,16 +17,16 @@ public class SequenceCollection : ISequenceCollection
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Возвращает последовательность по указанному индексу. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Добавить новую интерактивную последовательность. Читаемое/записываемое [`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Добавить новую интерактивную последовательность. Чтение/запись [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Удаляет все последовательности из коллекции. |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Удаляет указанную последовательность из коллекции. |

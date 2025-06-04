@@ -1,21 +1,21 @@
 ---
 title: Style
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль линии. Только для чтения LineStyleaspose.slides/linestyle.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает стиль линии. Доступен только для чтения LineStyleaspose.slides/linestyle.
 type: docs
 weight: 160
 url: /ru/aspose.slides/ilineformateffectivedata/style/
 ---
 
-## Свойство ILineFormatEffectiveData.Style
+## ILineFormatEffectiveData.Style property
 
-Возвращает стиль линии. Только для чтения [`LineStyle`](../../linestyle).
+Возвращает стиль линии. Доступен только для чтения [`LineStyle`](../../linestyle).
 
 ```csharp
 public LineStyle Style { get; }
 ```
 
-### См. также
+### See Also
 
 * enum [LineStyle](../../linestyle)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

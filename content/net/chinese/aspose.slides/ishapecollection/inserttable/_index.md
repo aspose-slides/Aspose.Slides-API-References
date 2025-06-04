@@ -1,7 +1,7 @@
 ---
 title: InsertTable
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的表格并将其插入到指定索引的集合中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的表并将其插入到指定索引的集合中。
 type: docs
 weight: 340
 url: /zh/aspose.slides/ishapecollection/inserttable/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/inserttable/
 
 ## IShapeCollection.InsertTable 方法
 
-创建一个新的表格并将其插入到指定索引的集合中。
+创建一个新的表并将其插入到指定索引的集合中。
 
 ```csharp
 public ITable InsertTable(int index, float x, float y, double[] columnWidths, double[] rowHeights)
@@ -17,15 +17,15 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要插入值的零基索引。 |
-| x | Single | 形状框架左侧的 X 坐标。 |
-| y | Single | 形状框架顶部的 Y 坐标。 |
-| columnWidths | Double[] | 表格中列宽的双精度数组。 |
-| rowHeights | Double[] | 表格中行高的双精度数组。 |
+| index | Int32 | 应插入值的零基础索引。 |
+| x | Single | 形状框左侧的 X 坐标。 |
+| y | Single | 形状框顶部的 Y 坐标。 |
+| columnWidths | Double[] | 表中列宽的双精度数组。 |
+| rowHeights | Double[] | 表中行高的双精度数组。 |
 
 ### 返回值
 
-创建的表格对象。
+创建的表对象。
 
 ### 另请参见
 

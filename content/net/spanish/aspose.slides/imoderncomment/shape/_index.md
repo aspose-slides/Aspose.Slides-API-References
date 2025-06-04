@@ -15,7 +15,7 @@ Devuelve una forma asociada con el comentario. Solo lectura [`IShape`](../../ish
 public IShape Shape { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IShape](../../ishape)
 * interfaz [IModernComment](../../imoderncomment)

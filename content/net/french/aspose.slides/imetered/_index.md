@@ -1,7 +1,7 @@
 ---
 title: IMetered
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des méthodes pour définir une clé mesurée.
+description: Fournit des méthodes pour définir la clé mesurée.
 type: docs
 weight: 6250
 url: /fr/aspose.slides/imetered/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imetered/
 
 ## Interface IMetered
 
-Fournit des méthodes pour définir une clé mesurée.
+Fournit des méthodes pour définir la clé mesurée.
 
 ```csharp
 public interface IMetered
@@ -21,7 +21,7 @@ public interface IMetered
 | --- | --- |
 | [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Définit la clé publique et la clé privée mesurées. |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

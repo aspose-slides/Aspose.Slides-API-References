@@ -1,21 +1,21 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество записей легенды. Только для чтения Int32.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Получает количество элементов в легенде. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/legendentrycollection/count/
 ---
 
-## Свойство LegendEntryCollection.Count
+## LegendEntryCollection.Count свойство
 
-Получает количество записей легенды. Только для чтения Int32.
+Получает количество элементов в легенде. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Также смотрите
+### См. Также
 
 * класс [LegendEntryCollection](../../legendentrycollection)
 * пространство имен [Aspose.Slides.Charts](../../legendentrycollection)

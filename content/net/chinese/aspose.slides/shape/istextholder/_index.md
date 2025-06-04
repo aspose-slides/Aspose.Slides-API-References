@@ -1,7 +1,7 @@
 ---
 title: IsTextHolder
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定形状是否是 TextHolder_PPT。只读布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定形状是否为 TextHolder_PPT。只读布尔值。
 type: docs
 weight: 160
 url: /zh/aspose.slides/shape/istextholder/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/shape/istextholder/
 
 ## Shape.IsTextHolder 属性
 
-确定形状是否是 TextHolder_PPT。只读布尔值。
+确定形状是否为 TextHolder_PPT。只读布尔值。
 
 ```csharp
 public bool IsTextHolder { get; }
 ```
 
-### 参见
+### 另见
 
 * 类 [Shape](../../shape)
 * 命名空间 [Aspose.Slides](../../shape)

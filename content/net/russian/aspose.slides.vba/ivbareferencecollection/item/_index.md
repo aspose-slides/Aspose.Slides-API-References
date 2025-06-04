@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/ivbareferencecollection/item/
 ---
 
-## Индексатор IVbaReferenceCollection
+## IVbaReferenceCollection индексатор
 
 Получает элемент по указанному индексу.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.vba/ivbareferencecollection/item/
 public IVbaReference this[int index] { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IVbaReference](../../ivbareference)
 * интерфейс [IVbaReferenceCollection](../../ivbareferencecollection)

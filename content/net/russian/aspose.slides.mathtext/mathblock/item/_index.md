@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает или задает IMathElement по указанному индексу.
+second_title: Aspose.Slides для .NET API Reference
+description: Получает или устанавливает IMathElement по указанному индексу.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/mathblock/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathblock/item/
 
 ## Индексатор MathBlock
 
-Получает или задает IMathElement по указанному индексу.
+Получает или устанавливает IMathElement по указанному индексу.
 
 ```csharp
 public IMathElement this[int index] { get; set; }
@@ -17,7 +17,7 @@ public IMathElement this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс элемента с нуля |
+| index | Индекс элемента, начиная с нуля |
 
 ### Возвращаемое значение
 

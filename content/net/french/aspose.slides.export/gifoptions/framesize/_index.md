@@ -1,13 +1,13 @@
 ---
 title: FrameSize
-second_title: Aspose.Sildes pour la référence de l'API .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Obtient ou définit la taille du cadre.
 type: docs
 weight: 40
 url: /fr/aspose.slides.export/gifoptions/framesize/
 ---
 
-## Propriété GifOptions.FrameSize
+## GifOptions.FrameSize propriété
 
 Obtient ou définit la taille du cadre.
 
@@ -17,7 +17,7 @@ public Size FrameSize { get; set; }
 
 ### Remarques
 
-Si la taille est vide, la valeur sera prise de [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
+Si la taille est vide, la valeur sera prise à partir de [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
 
 ### Voir aussi
 

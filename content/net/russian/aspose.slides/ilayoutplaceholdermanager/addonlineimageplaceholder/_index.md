@@ -1,7 +1,7 @@
 ---
 title: AddOnlineImagePlaceholder
-second_title: Aspose.Sildes для .NET API Reference
-description: Добавляет новую фигуру-заполнитель на слайде компоновки для размещения онлайн изображения.
+second_title: Aspose.Sildes для .NET API Справка
+description: Добавляет новую форму-заполнитель на слайд макета для размещения онлайн-изображения.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder/
 
 ## ILayoutPlaceholderManager.AddOnlineImagePlaceholder метод
 
-Добавляет новую фигуру-заполнитель на слайде компоновки для размещения онлайн изображения.
+Добавляет новую форму-заполнитель на слайд макета для размещения онлайн-изображения.
 
 ```csharp
 public IAutoShape AddOnlineImagePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddOnlineImagePlaceholder(float x, float y, float width, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X новой фигуры-заполнителя. |
-| y | Single | Координата Y новой фигуры-заполнителя. |
-| width | Single | Ширина новой фигуры-заполнителя. |
-| height | Single | Высота новой фигуры-заполнителя. |
+| x | Single | X-координата новой формы-заполнителя. |
+| y | Single | Y-координата новой формы-заполнителя. |
+| width | Single | Ширина новой формы-заполнителя. |
+| height | Single | Высота новой формы-заполнителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем для онлайн изображения.
+Созданный [`IAutoShape`](../../iautoshape) с заполнителем онлайн-изображения.
 
 ### Примеры
 
-Следующий пример показывает, как добавить фигуру-заполнитель для онлайн изображения на слайд компоновки.
+Следующий пример показывает, как добавить форму-заполнитель онлайн-изображения на слайд макета.
 
 ```csharp
 [C#]

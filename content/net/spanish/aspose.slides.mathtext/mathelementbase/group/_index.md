@@ -1,7 +1,7 @@
 ---
 title: Group
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Coloca este elemento en un grupo utilizando una llave curvada inferior
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Coloca este elemento en un grupo usando una llavecita de apertura
 type: docs
 weight: 60
 url: /es/aspose.slides.mathtext/mathelementbase/group/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathelementbase/group/
 
 ## Group() {#group}
 
-Coloca este elemento en un grupo utilizando una llave curvada inferior
+Coloca este elemento en un grupo usando una llavecita de apertura
 
 ```csharp
 public IMathGroupingCharacter Group()
@@ -17,7 +17,7 @@ public IMathGroupingCharacter Group()
 
 ### Valor de Retorno
 
-Nueva instancia del tipo [`IMathGroupingCharacter`](../../imathgroupingcharacter)
+Nueva instancia de tipo [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Ejemplo:
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IMathGroupingCharacter](../../imathgroupingcharacter)
 * clase [MathElementBase](../../mathelementbase)
@@ -39,7 +39,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
-Coloca este elemento en un grupo utilizando un carácter de agrupación como una llave curvada inferior u otro
+Coloca este elemento en un grupo usando un carácter de agrupamiento como una llavecita de apertura o otro
 
 ```csharp
 public IMathGroupingCharacter Group(char character, MathTopBotPositions position, 
@@ -48,13 +48,13 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| character | Char | Carácter de agrupación como la LLAVE CURVADA INFERIOR (U+23DF) o cualquier otro |
-| position | MathTopBotPositions | Posición del carácter de agrupación |
-| verticalJustification | MathTopBotPositions | Justificación vertical del carácter del grupo. Especifica la alineación del objeto con respecto a la línea base. Por ejemplo, cuando el carácter del grupo está por encima del objeto, VerticalJustification de Top significa que la parte superior del objeto cae en la línea base; cuando VerticalJustification se establece en Bottom, la parte inferior del objeto está en la línea base |
+| character | Char | Carácter de Agrupamiento como LLAVE DE APERTURA INFERIOR (U+23DF) u otro |
+| position | MathTopBotPositions | Posición del carácter de agrupamiento |
+| verticalJustification | MathTopBotPositions | Justificación vertical del carácter de grupo. Especifica la alineación del objeto con respecto a la línea de base. Por ejemplo, cuando el carácter de grupo está por encima del objeto, la JustificaciónVertical de Arriba significa que la parte superior del objeto cae sobre la línea de base; cuando la JustificaciónVertical se establece en Abajo, la parte inferior del objeto está en la línea de base |
 
 ### Valor de Retorno
 
-Nueva instancia del tipo [`IMathGroupingCharacter`](../../imathgroupingcharacter)
+Nueva instancia de tipo [`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### Ejemplos
 
@@ -65,7 +65,7 @@ Ejemplo:
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group('\u23E1', MathTopBotPositions.Bottom, MathTopBotPositions.Top);
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IMathGroupingCharacter](../../imathgroupingcharacter)
 * enum [MathTopBotPositions](../../mathtopbotpositions)

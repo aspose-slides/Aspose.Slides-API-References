@@ -1,7 +1,7 @@
 ---
 title: AlignScripts
-second_title: Aspose.Slides for .NET API 参考
-description: 指定下标/上标的对齐方式。当为 true 时，下标和上标在水平方向上彼此对齐。当为 false 时，它们与基形状的间距进行调整。默认值为 false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定下标/上标的对齐方式。当为true时，下标和上标彼此水平对齐。当为false时，它们被调整为基线的形状。默认值为false。
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts/
 
 ## IMathRightSubSuperscriptElement.AlignScripts 属性
 
-指定下标/上标的对齐方式。当为 true 时，下标和上标在水平方向上彼此对齐。当为 false 时，它们与基形状的间距进行调整。默认值为 false。
+指定下标/上标的对齐方式。当为true时，下标和上标彼此水平对齐。当为false时，它们被调整为基线的形状。默认值为false。
 
 ```csharp
 public bool AlignScripts { get; set; }
@@ -28,7 +28,7 @@ MathRightSubSuperscriptElement subsuperscript = new MathRightSubSuperscriptEleme
 subsuperscript.AlignScripts = true;
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement)
 * 命名空间 [Aspose.Slides.MathText](../../imathrightsubsuperscriptelement)

@@ -1,6 +1,6 @@
 ---
 title: EmbeddedFileLabel
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Dateinamen des eingebetteten OLE-Objekts zurück
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Gibt den Dateinamen des eingebetteten OLE-Objekts zurück
 public string EmbeddedFileLabel { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IOleObjectFrame](../../ioleobjectframe)
 * Namespace [Aspose.Slides](../../ioleobjectframe)

@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает имя модуля. Только для чтения строка.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает имя модуля. Только для чтения String.
 type: docs
 weight: 10
 url: /ru/aspose.slides.vba/vbamodule/name/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.vba/vbamodule/name/
 
 ## Свойство VbaModule.Name
 
-Получает имя модуля. Только для чтения строка.
+Получает имя модуля. Только для чтения String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [VbaModule](../../vbamodule)
 * пространство имен [Aspose.Slides.Vba](../../vbamodule)

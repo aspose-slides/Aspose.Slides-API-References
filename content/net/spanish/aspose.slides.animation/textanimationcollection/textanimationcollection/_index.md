@@ -15,7 +15,7 @@ El constructor predeterminado.
 public TextAnimationCollection()
 ```
 
-### Véase también
+### Ver También
 
 * clase [TextAnimationCollection](../../textanimationcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)

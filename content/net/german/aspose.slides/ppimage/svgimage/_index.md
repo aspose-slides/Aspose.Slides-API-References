@@ -1,7 +1,7 @@
 ---
 title: SvgImage
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein ISvgImage-Objekt zurück oder setzt es ISvgImageaspose.slides/isvgimage
+description: Gibt das ISvgImage-Objekt zurück oder setzt es ISvgImageaspose.slides/isvgimage
 type: docs
 weight: 50
 url: /de/aspose.slides/ppimage/svgimage/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ppimage/svgimage/
 
 ## PPImage.SvgImage-Eigenschaft
 
-Gibt ein ISvgImage-Objekt zurück oder setzt es [`ISvgImage`](../../isvgimage)
+Gibt das ISvgImage-Objekt [`ISvgImage`](../../isvgimage) zurück oder setzt es.
 
 ```csharp
 public ISvgImage SvgImage { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Dieser Wert zeigt an, dass dieses Bild aus SVG erstellt wurde.
 

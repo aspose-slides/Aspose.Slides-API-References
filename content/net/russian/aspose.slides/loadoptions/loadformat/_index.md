@@ -1,21 +1,21 @@
 ---
 title: LoadFormat
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает или задает формат презентации для загрузки. Чтение/запись LoadFormataspose.slides/loadformat.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Возвращает или задаёт формат презентации для загрузки. Чтение/запись LoadFormataspose.slides/loadformat.
 type: docs
 weight: 100
 url: /ru/aspose.slides/loadoptions/loadformat/
 ---
 
-## Свойство LoadOptions.LoadFormat
+## LoadOptions.LoadFormat свойство
 
-Возвращает или задает формат презентации для загрузки. Чтение/запись [`LoadFormat`](../../loadformat).
+Возвращает или задаёт формат презентации для загрузки. Чтение/запись [`LoadFormat`](../../loadformat).
 
 ```csharp
 public LoadFormat LoadFormat { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
 * enum [LoadFormat](../../loadformat)
 * class [LoadOptions](../../loadoptions)

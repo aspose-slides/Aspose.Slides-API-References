@@ -21,17 +21,17 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### Valor de Retorno
 
-Diapositiva añadida.
+Diapositiva agregada.
 
 ### Observaciones
 
-1) El nuevo diseño estará vinculado a la diapositiva maestra principal para esta colección de diapositivas de diseño. Así que esto es análogo a copiar/pegar con la opción "Usar tema de destino" en PowerPoint. 2) El análogo de este método es el método [`AddClone`](../../igloballayoutslidecollection/addclone) accesible con la propiedad [`LayoutSlides`](../../ipresentation/layoutslides).
+1) El nuevo diseño estará vinculado con la diapositiva maestra padre para esta colección de diapositivas de diseño. Así que esto es análogo a copiar/pegar con la opción "Usar tema de destino" en PowerPoint. 2) El análogo de este método es el método [`AddClone`](../../igloballayoutslidecollection/addclone) accesible con la propiedad [`LayoutSlides`](../../ipresentation/layoutslides).
 
-### También Vea
+### Véase También
 
 * interfaz [ILayoutSlide](../../ilayoutslide)
 * interfaz [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
 * espacio de nombres [Aspose.Slides](../../imasterlayoutslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.export/saveoptionsfactory/saveoptionsfactory/
 ---
 
-## SaveOptionsFactory-Konstruktor
+## SaveOptionsFactory Konstruktor
 
 Der Standardkonstruktor.
 

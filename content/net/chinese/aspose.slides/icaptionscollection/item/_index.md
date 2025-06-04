@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 返回指定索引处的闭合字幕。只读 ICaptionsaspose.slides/icaptions。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定索引处的闭合字幕。唯读 ICaptionsaspose.slides/icaptions。
 type: docs
 weight: 20
 url: /zh/aspose.slides/icaptionscollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icaptionscollection/item/
 
 ## ICaptionsCollection 索引器
 
-返回指定索引处的闭合字幕。只读 [`ICaptions`](../../icaptions)。
+返回指定索引处的闭合字幕。唯读 [`ICaptions`](../../icaptions)。
 
 ```csharp
 public ICaptions this[int index] { get; }

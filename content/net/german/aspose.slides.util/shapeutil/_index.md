@@ -1,7 +1,7 @@
 ---
 title: ShapeUtil
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bietet Methoden, die helfen, Formenobjekte zu verarbeiten.
+description: Bietet Methoden, die bei der Verarbeitung von Formen-Objekten helfen.
 type: docs
 weight: 11200
 url: /de/aspose.slides.util/shapeutil/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.util/shapeutil/
 
 ## ShapeUtil-Klasse
 
-Bietet Methoden, die helfen, Formenobjekte zu verarbeiten.
+Bietet Methoden, die bei der Verarbeitung von Formen-Objekten helfen.
 
 ```csharp
 public static class ShapeUtil

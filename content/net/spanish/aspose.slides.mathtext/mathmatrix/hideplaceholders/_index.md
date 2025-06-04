@@ -1,15 +1,15 @@
 ---
 title: HidePlaceholders
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Ocultar los marcadores de posición para elementos de matriz vacíos. Por defecto, falso.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Ocultar los marcadores de posición para elementos de matriz vacíos Valor predeterminado falso
 type: docs
 weight: 60
 url: /es/aspose.slides.mathtext/mathmatrix/hideplaceholders/
 ---
 
-## Propiedad MathMatrix.HidePlaceholders
+## MathMatrix.HidePlaceholders property
 
-Ocultar los marcadores de posición para elementos de matriz vacíos. Por defecto: falso.
+Ocultar los marcadores de posición para elementos de matriz vacíos Valor predeterminado: falso
 
 ```csharp
 public bool HidePlaceholders { get; set; }
@@ -29,6 +29,6 @@ matrix.HidePlaceholders = true;
 
 * clase [MathMatrix](../../mathmatrix)
 * espacio de nombres [Aspose.Slides.MathText](../../mathmatrix)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

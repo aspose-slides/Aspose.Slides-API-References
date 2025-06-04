@@ -1,7 +1,7 @@
 ---
 title: TabFactory
-second_title: Aspose.Slides for .NET API 参考
-description: 默认构造函数.
+second_title: Aspose.Sildes for .NET API Reference
+description: 默认构造函数。
 type: docs
 weight: 10
 url: /zh/aspose.slides/tabfactory/tabfactory/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/tabfactory/tabfactory/
 
 ## TabFactory 构造函数
 
-默认构造函数.
+默认构造函数。
 
 ```csharp
 public TabFactory()

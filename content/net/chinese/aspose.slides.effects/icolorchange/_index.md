@@ -1,13 +1,13 @@
 ---
 title: IColorChange
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示颜色变化效果。FromColor 的实例将被 ToColor 的实例替换。
 type: docs
 weight: 3100
 url: /zh/aspose.slides.effects/icolorchange/
 ---
 
-## IColorChange 接口
+## IColorChange interface
 
 表示颜色变化效果。FromColor 的实例将被 ToColor 的实例替换。
 
@@ -20,12 +20,12 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 将被替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 将替换的颜色。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IColorChangeEffectiveData](../icolorchangeeffectivedata)

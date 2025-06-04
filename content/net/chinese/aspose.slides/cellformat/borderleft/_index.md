@@ -1,7 +1,7 @@
 ---
 title: BorderLeft
-second_title: Aspose.Slides for .NET API 参考
-description: 返回左边框线属性对象。只读 ILineFormataspose.slides/ilineformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个左边框线属性对象。读取仅 ILineFormataspose.slides/ilineformat。
 type: docs
 weight: 40
 url: /zh/aspose.slides/cellformat/borderleft/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/cellformat/borderleft/
 
 ## CellFormat.BorderLeft 属性
 
-返回左边框线属性对象。只读 [`ILineFormat`](../../ilineformat)。
+返回一个左边框线属性对象。读取仅 [`ILineFormat`](../../ilineformat)。
 
 ```csharp
 public ILineFormat BorderLeft { get; }

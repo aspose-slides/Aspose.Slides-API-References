@@ -1,7 +1,7 @@
 ---
 title: SetEventHandler
-second_title: Aspose.Slides for .NET API Reference
-description: 设置形状的事件处理程序
+second_title: Aspose.Sildes for .NET API Reference
+description: 为形状设置事件处理程序
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/isvgshape/seteventhandler/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isvgshape/seteventhandler/
 
 ## ISvgShape.SetEventHandler 方法
 
-设置形状的事件处理程序
+为形状设置事件处理程序
 
 ```csharp
 public void SetEventHandler(SvgEvent eventType, string handler)
@@ -18,7 +18,7 @@ public void SetEventHandler(SvgEvent eventType, string handler)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | eventType | SvgEvent | 事件类型。 |
-| handler | String | 处理事件的Javascript函数。Null值将移除处理程序。 |
+| handler | String | 处理事件的 Javascript 函数。Null 值将删除处理程序。 |
 
 ### 另请参阅
 

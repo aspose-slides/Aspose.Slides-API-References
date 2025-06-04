@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Referencia API de Aspose.Slides para .NET
-description: Elimina el comportamiento de una colección en el índice especificado.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Elimina un comportamiento de una colección en el índice especificado.
 type: docs
 weight: 100
 url: /es/aspose.slides.animation/ibehaviorcollection/removeat/
 ---
 
-## Método IBehaviorCollection.RemoveAt
+## IBehaviorCollection.RemoveAt método
 
-Elimina el comportamiento de una colección en el índice especificado.
+Elimina un comportamiento de una colección en el índice especificado.
 
 ```csharp
 public void RemoveAt(int index)
@@ -21,8 +21,8 @@ public void RemoveAt(int index)
 
 ### Ver También
 
-* interfaz [IBehaviorCollection](../../ibehaviorcollection)
-* espacio de nombres [Aspose.Slides.Animation](../../ibehaviorcollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IBehaviorCollection](../../ibehaviorcollection)
+* namespace [Aspose.Slides.Animation](../../ibehaviorcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

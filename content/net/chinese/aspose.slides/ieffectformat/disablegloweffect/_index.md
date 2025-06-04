@@ -1,6 +1,6 @@
 ---
 title: DisableGlowEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 禁用发光效果。
 type: docs
 weight: 130

@@ -1,6 +1,6 @@
 ---
 title: AppendEmptySection
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 将空节添加到集合的末尾。
 type: docs
 weight: 40

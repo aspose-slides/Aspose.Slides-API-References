@@ -7,7 +7,7 @@ weight: 240
 url: /ru/aspose.slides/ibaseportionformat/textcaptype/
 ---
 
-## Свойство IBasePortionFormat.TextCapType
+## IBasePortionFormat.TextCapType свойство
 
 Возвращает или устанавливает тип капитализации текста. Наследование не применяется. Чтение/запись [`TextCapType`](../../textcaptype).
 

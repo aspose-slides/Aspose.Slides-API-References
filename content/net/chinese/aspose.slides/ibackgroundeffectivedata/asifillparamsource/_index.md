@@ -1,6 +1,6 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IFillParamSource 接口。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IFillParamSource AsIFillParamSource { get; }
 
 用于 COM 兼容性。
 
-### 相关链接
+### 参见
 
 * 接口 [IFillParamSource](../../ifillparamsource)
 * 接口 [IBackgroundEffectiveData](../../ibackgroundeffectivedata)

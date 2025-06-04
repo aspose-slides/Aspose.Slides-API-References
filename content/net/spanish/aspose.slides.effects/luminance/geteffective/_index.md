@@ -21,9 +21,9 @@ Un [`ILuminanceEffectiveData`](../../iluminanceeffectivedata).
 
 ### Véase También
 
-* interfaz [ILuminanceEffectiveData](../../iluminanceeffectivedata)
-* clase [Luminance](../../luminance)
-* espacio de nombres [Aspose.Slides.Effects](../../luminance)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ILuminanceEffectiveData](../../iluminanceeffectivedata)
+* clase [Luminance](../../luminance)
+* espacio de nombres [Aspose.Slides.Effects](../../luminance)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

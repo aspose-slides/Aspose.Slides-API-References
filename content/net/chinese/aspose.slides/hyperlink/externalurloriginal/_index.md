@@ -1,7 +1,7 @@
 ---
 title: ExternalUrlOriginal
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示为此部分设置的超链接，而不考虑该部分的实际内容。 PowerPoint 对链接及其对应文本的行为具有特定性。它允许以有效的 URL 形式创建超链接文本，该 URL 与链接的真实地址不同。在这种情况下，当您在编辑窗口中查看链接时，它将被更改为匹配文本部分。该属性表示超链接的原始值。
+description: 表示为这一部分设置的超链接，与该部分的实际内容无关。 PowerPoint 对链接及其相应文本的行为是特定的。它允许以有效的 URL 形式创建超链接文本，这与链接的真实地址不同。在这种情况下，当您在编辑窗口查看链接时，它将更改为与文本部分匹配。此属性表示超链接的原始值。
 type: docs
 weight: 130
 url: /zh/aspose.slides/hyperlink/externalurloriginal/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/hyperlink/externalurloriginal/
 
 ## Hyperlink.ExternalUrlOriginal 属性
 
-表示为此部分设置的超链接，而不考虑该部分的实际内容。 PowerPoint 对链接及其对应文本的行为具有特定性。它允许以有效的 URL 形式创建超链接文本，该 URL 与链接的真实地址不同。在这种情况下，当您在编辑窗口中查看链接时，它将被更改为匹配文本部分。该属性表示超链接的原始值。
+表示为这一部分设置的超链接，与该部分的实际内容无关。 PowerPoint 对链接及其相应文本的行为是特定的。它允许以有效的 URL 形式创建超链接文本，这与链接的真实地址不同。在这种情况下，当您在编辑窗口查看链接时，它将更改为与文本部分匹配。此属性表示超链接的原始值。
 
 ```csharp
 public string ExternalUrlOriginal { get; }

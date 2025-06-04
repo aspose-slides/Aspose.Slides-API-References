@@ -1,6 +1,6 @@
 ---
 title: Dark1
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 方案中的第一个深色。只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 70

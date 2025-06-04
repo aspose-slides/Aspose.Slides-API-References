@@ -1,6 +1,6 @@
 ---
 title: Contains
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API References
 description: Определяет, содержит ли ICollection конкретное значение.
 type: docs
 weight: 60
@@ -21,9 +21,9 @@ public bool Contains(IPortion item)
 
 ### Возвращаемое значение
 
-true, если *item* найден в ICollection; в противном случае false.
+true, если *item* найден в ICollection; в противном случае - false.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IPortion](../../iportion)
 * интерфейс [IPortionCollection](../../iportioncollection)

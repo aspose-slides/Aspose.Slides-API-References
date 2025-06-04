@@ -1,15 +1,15 @@
 ---
 title: AddClone
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une copie de la ligne modèle spécifiée et l'insère en bas d'un tableau.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée une copie de la ligne de modèle spécifiée et l'insère en bas d'un tableau.
 type: docs
 weight: 50
 url: /fr/aspose.slides/columncollection/addclone/
 ---
 
-## Méthode ColumnCollection.AddClone
+## ColumnCollection.AddClone méthode
 
-Crée une copie de la ligne modèle spécifiée et l'insère en bas d'un tableau.
+Crée une copie de la ligne de modèle spécifiée et l'insère en bas d'un tableau.
 
 ```csharp
 public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
@@ -18,13 +18,13 @@ public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | templ | IColumn | Colonne utilisée comme modèle. |
-| withAttachedColumns | Boolean | Vrai pour copier également toutes les colonnes attachées à la ligne modèle. |
+| withAttachedColumns | Boolean | True pour copier également toutes les colonnes attachées à la ligne de modèle. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Colonnes ajoutées.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColumn](../../icolumn)
 * classe [ColumnCollection](../../columncollection)

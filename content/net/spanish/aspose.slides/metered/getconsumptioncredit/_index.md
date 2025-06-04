@@ -1,6 +1,6 @@
 ---
 title: GetConsumptionCredit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Obtiene crédito de consumo
 type: docs
 weight: 30
@@ -15,14 +15,14 @@ Obtiene crédito de consumo
 public static decimal GetConsumptionCredit()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 cantidad de consumo
 
-### Véase También
+### Véase también
 
 * clase [Metered](../../metered)
 * espacio de nombres [Aspose.Slides](../../metered)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: op_Inequality
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Проверяет, не равны ли два объекта FieldType.
 type: docs
 weight: 230
@@ -20,11 +20,11 @@ public static bool operator !=(FieldType a, FieldType b)
 | a | FieldType | Первый FieldType для сравнения. |
 | b | FieldType | Второй FieldType для сравнения. |
 
-### Возвращаемое значение
+### Значение возврата
 
- true, если объекты FieldType не равны.
+True, если объекты FieldType не равны.
 
-### См. также
+### Также смотри
 
 * класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)

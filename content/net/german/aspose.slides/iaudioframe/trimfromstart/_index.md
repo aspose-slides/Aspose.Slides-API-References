@@ -1,7 +1,7 @@
 ---
 title: TrimFromStart
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Zeitdauer an, die während der Wiedergabe in Millisekunden vom Anfang des Mediums entfernt werden soll. Schreib-/Lesezugriff auf Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Zeitdauer an, die während der Wiedergabe in Millisekunden vom Beginn des Mediums entfernt werden soll. Lese-/Schreibbarer Single.
 type: docs
 weight: 170
 url: /de/aspose.slides/iaudioframe/trimfromstart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iaudioframe/trimfromstart/
 
 ## IAudioFrame.TrimFromStart-Eigenschaft
 
-Gibt die Zeitdauer an, die vom Anfang des Mediums während der Wiedergabe in Millisekunden entfernt werden soll. Schreib-/Lesezugriff auf Single.
+Gibt die Zeitdauer an, die während der Wiedergabe in Millisekunden vom Beginn des Mediums entfernt werden soll. Lese-/Schreibbarer Single.
 
 ```csharp
 public float TrimFromStart { get; set; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Setze die Startbeschneidungszeit auf 1,5 Sekunden
+    // Setze die Start-Trimmzeit auf 1,5 Sekunden
     audioFrame.TrimFromStart = 1500f;
 }
 ```

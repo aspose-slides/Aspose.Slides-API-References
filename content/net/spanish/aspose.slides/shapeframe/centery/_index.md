@@ -1,6 +1,6 @@
 ---
 title: CenterY
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve la coordenada Y del centro de un marco. Solo lectura Single.
 type: docs
 weight: 30
@@ -19,6 +19,6 @@ public float CenterY { get; }
 
 * clase [ShapeFrame](../../shapeframe)
 * espacio de nombres [Aspose.Slides](../../shapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

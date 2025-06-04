@@ -1,7 +1,7 @@
 ---
 title: ShowOutlineIcons
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, должна ли программа отображать значки при отображении содержимого в виде контура в любых областях содержимого в нормальном режиме просмотра. Читаемое/Записываемое логическое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, должны ли приложения показывать значки при отображении содержимого контура в любых из областей содержимого нормального режима просмотра. Чтение/запись Boolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides/normalviewproperties/showoutlineicons/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/normalviewproperties/showoutlineicons/
 
 ## NormalViewProperties.ShowOutlineIcons свойство
 
-Указывает, должна ли программа отображать значки при отображении содержимого в виде контура в любых областях содержимого в нормальном режиме просмотра. Читаемое/Записываемое логическое значение.
+Указывает, должны ли приложения показывать значки при отображении содержимого контура в любых из областей содержимого нормального режима просмотра. Чтение/запись Boolean.
 
 ```csharp
 public bool ShowOutlineIcons { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [NormalViewProperties](../../normalviewproperties)
 * пространство имен [Aspose.Slides](../../normalviewproperties)

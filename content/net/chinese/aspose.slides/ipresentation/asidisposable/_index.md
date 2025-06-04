@@ -1,6 +1,6 @@
 ---
 title: AsIDisposable
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IDisposable 接口。只读 IDisposable。
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public IDisposable AsIDisposable { get; }
 
 用于 COM 兼容性。
 
-### 另见
+### 另请参阅
 
 * 接口 [IPresentation](../../ipresentation)
 * 命名空间 [Aspose.Slides](../../ipresentation)

@@ -15,11 +15,11 @@ url: /zh/aspose.slides/islide/writeasemf/
 public void WriteAsEmf(Stream stream)
 ```
 
-| 参数      | 类型    | 描述         |
-| --------- | ------- | ------------ |
-| stream    | Stream  | 目标流      |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| stream | Stream | 目标流 |
 
-### 另见
+### 参见
 
 * 接口 [ISlide](../../islide)
 * 命名空间 [Aspose.Slides](../../islide)

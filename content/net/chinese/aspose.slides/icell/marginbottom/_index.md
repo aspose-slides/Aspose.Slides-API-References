@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
-second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置 TextFrame 中的底部边距。可读/写的双精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置TextFrame中的底部边距。可读写的双精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides/icell/marginbottom/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icell/marginbottom/
 
 ## ICell.MarginBottom 属性
 
-返回或设置 TextFrame 中的底部边距。可读/写的双精度浮点数。
+返回或设置TextFrame中的底部边距。可读写的双精度浮点数。
 
 ```csharp
 public double MarginBottom { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ICell](../../icell)
 * 命名空间 [Aspose.Slides](../../icell)

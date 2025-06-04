@@ -1,7 +1,7 @@
 ---
 title: EncryptDocumentProperties
-second_title: Aspose.Slides for .NET API Reference
-description: 如果演示文稿受密码保护，则此属性有意义。如果为 true，则文档属性在演示文件中被加密。如果为 false，则文档属性在演示被加密时是公开的。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果演示文稿受密码保护，则该属性是有意义的。如果为 true，则文档属性在演示文件中是加密的。如果为 false，则文档属性在演示文稿被加密时是公开的。读/写布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iprotectionmanager/encryptdocumentproperties/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iprotectionmanager/encryptdocumentproperties/
 
 ## IProtectionManager.EncryptDocumentProperties 属性
 
-如果演示文稿受密码保护，则此属性有意义。如果为 true，则文档属性在演示文件中被加密。如果为 false，则文档属性在演示被加密时是公开的。可读/可写布尔值。
+如果演示文稿受密码保护，则该属性是有意义的。如果为 true，则文档属性在演示文件中是加密的。如果为 false，则文档属性在演示文稿被加密时是公开的。读/写布尔值。
 
 ```csharp
 public bool EncryptDocumentProperties { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IProtectionManager](../../iprotectionmanager)
 * 命名空间 [Aspose.Slides](../../iprotectionmanager)

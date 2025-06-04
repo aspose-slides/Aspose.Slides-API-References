@@ -1,7 +1,7 @@
 ---
 title: Chart
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图表。只读 IChartaspose.slides/ichart.
+second_title: Aspose.Slide for .NET API Reference
+description: 返回图表。只读 IChart aspose.slides.charts/ichart。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/datalabelformat/chart/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/datalabelformat/chart/
 
 ## DataLabelFormat.Chart 属性
 
-返回图表。只读 [`IChart`](../../ichart).
+返回图表。只读 [`IChart`](../../ichart)。
 
 ```csharp
 public IChart Chart { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IChart](../../ichart)
 * 类 [DataLabelFormat](../../datalabelformat)

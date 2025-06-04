@@ -1,15 +1,15 @@
 ---
 title: FractionType
-second_title: Aspose.Slides для .NET API Справочник
-description: Тип дроби По умолчанию Линия
+second_title: Aspose.Sildes для .NET API Справочник
+description: Тип дроби По умолчанию Полоска
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/mathfraction/fractiontype/
 ---
 
-## Свойство MathFraction.FractionType
+## MathFraction.FractionType свойство
 
-Тип дроби По умолчанию: Линия
+Тип дроби По умолчанию: Полоска
 
 ```csharp
 public MathFractionTypes FractionType { get; set; }
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 mathFraction.FractionType = MathFractionTypes.Linear;
 ```
 
-### См. также
+### См. Также
 
 * enum [MathFractionTypes](../../mathfractiontypes)
 * class [MathFraction](../../mathfraction)

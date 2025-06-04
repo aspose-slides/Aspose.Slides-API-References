@@ -1,15 +1,15 @@
 ---
 title: InterruptionToken
-second_title: Aspose.Slides für .NET API Referenz
-description: Diese Klasse repräsentiert das Token, das verwendet wird, um langlaufende Aufgaben darüber zu signalisieren, ob die Unterbrechung angefordert wurde.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Diese Klasse repräsentiert das Token, das verwendet wird, um lang laufende Aufgaben zu signalisieren, ob die Unterbrechung angefordert wurde.
 type: docs
 weight: 7360
 url: /de/aspose.slides/interruptiontoken/
 ---
 
-## InterruptionToken-Klasse
+## InterruptionToken Klasse
 
-Diese Klasse repräsentiert das Token, das verwendet wird, um langlaufende Aufgaben darüber zu signalisieren, ob die Unterbrechung angefordert wurde.
+Diese Klasse repräsentiert das Token, das verwendet wird, um lang laufende Aufgaben zu signalisieren, ob die Unterbrechung angefordert wurde.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -19,7 +19,7 @@ public class InterruptionToken : IInterruptionToken
 
 | Name | Beschreibung |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Stellt ein leeres Unterbrechungstoken dar. Langlaufende Operationen werden niemals über [`Interrupt`](../interruptiontokensource/interrupt) unterbrochen, wenn dieses Token verwendet wird. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Repräsentiert ein leeres Unterbrechungstoken. Lang laufende Operationen werden niemals über [`Interrupt`](../interruptiontokensource/interrupt) unterbrochen, wenn dieses Token verwendet wird. |
 | [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | Gibt Boolean.true zurück, wenn eine Unterbrechung angefordert wurde. |
 
 ## Methoden
@@ -28,7 +28,7 @@ public class InterruptionToken : IInterruptionToken
 | --- | --- |
 | [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Wirft eine OperationCanceledException, wenn eine Unterbrechung angefordert wurde. |
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IInterruptionToken](../iinterruptiontoken)
 * namespace [Aspose.Slides](../../aspose.slides)

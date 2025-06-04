@@ -1,7 +1,7 @@
 ---
 title: ShowFullScreen
 second_title: Aspose.Slides für .NET API Referenz
-description: Vollbild-Schaltfläche anzeigen/verbergen. Kann in flashvars überschrieben werden. Standard ist true.
+description: Zeigt/versteckt die Schaltfläche für den Vollbildmodus. Kann in flashvars überschrieben werden. Der Standardwert ist true.
 type: docs
 weight: 80
 url: /de/aspose.slides.export/iswfoptions/showfullscreen/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/iswfoptions/showfullscreen/
 
 ## ISwfOptions.ShowFullScreen-Eigenschaft
 
-Vollbild-Schaltfläche anzeigen/verbergen. Kann in flashvars überschrieben werden. Standard ist true.
+Zeigt/versteckt die Schaltfläche für den Vollbildmodus. Kann in flashvars überschrieben werden. Der Standardwert ist true.
 
 ```csharp
 public bool ShowFullScreen { get; set; }

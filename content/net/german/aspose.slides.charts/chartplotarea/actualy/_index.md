@@ -1,7 +1,7 @@
 ---
 title: ActualY
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die tatsächliche Oberseite des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
+description: Gibt die tatsächliche obere Position des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/chartplotarea/actualy/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartplotarea/actualy/
 
 ## ChartPlotArea.ActualY-Eigenschaft
 
-Gibt die tatsächliche Oberseite des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
+Gibt die tatsächliche obere Position des Diagrammelements relativ zur oberen linken Ecke des Diagramms an. Rufen Sie die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Sie Single.
 
 ```csharp
 public float ActualY { get; }

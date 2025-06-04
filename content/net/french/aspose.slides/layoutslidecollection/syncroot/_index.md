@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides/layoutslidecollection/syncroot/
 ---
 
-## Propriété LayoutSlideCollection.SyncRoot
+## LayoutSlideCollection.SyncRoot propriété
 
 Renvoie une racine de synchronisation. Objet en lecture seule.
 

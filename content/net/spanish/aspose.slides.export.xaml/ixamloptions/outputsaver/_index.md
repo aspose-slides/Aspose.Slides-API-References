@@ -1,13 +1,13 @@
 ---
 title: OutputSaver
-second_title: Aspose.Slides para .NET Referencia de la API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa una implementación de la interfaz IOutputSaver.
 type: docs
 weight: 30
 url: /es/aspose.slides.export.xaml/ixamloptions/outputsaver/
 ---
 
-## Propiedad IXamlOptions.OutputSaver
+## IXamlOptions.OutputSaver propiedad
 
 Representa una implementación de la interfaz IOutputSaver.
 
@@ -15,11 +15,11 @@ Representa una implementación de la interfaz IOutputSaver.
 public IXamlOutputSaver OutputSaver { get; set; }
 ```
 
-### También Visto
+### Vea También
 
 * interfaz [IXamlOutputSaver](../../ixamloutputsaver)
 * interfaz [IXamlOptions](../../ixamloptions)
-* espacio de nombres [Aspose.Slides.Export.Xaml](../../ixamloptions)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export.Xaml](../../ixamloptions)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

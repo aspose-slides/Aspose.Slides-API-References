@@ -1,15 +1,15 @@
 ---
 title: MarginRight
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la marge droite dans un paragraphe. En lecture seule Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie la marge droite dans un paragraphe. Lecture seule Single.
 type: docs
 weight: 120
 url: /fr/aspose.slides/iparagraphformateffectivedata/marginright/
 ---
 
-## IParagraphFormatEffectiveData.MarginRight propriété
+## IParagraphFormatEffectiveData.MarginRight property
 
-Retourne la marge droite dans un paragraphe. En lecture seule Single.
+Renvoie la marge droite dans un paragraphe. Lecture seule Single.
 
 ```csharp
 public float MarginRight { get; }

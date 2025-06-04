@@ -1,7 +1,7 @@
 ---
 title: GetTileIImage
 second_title: Aspose.Sildes для .NET API Справочник
-description: Создает изображение плитки для заливки узора с заданными цветами.
+description: Создает изображение плитки для заливки узора с указанными цветами.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ipatternformateffectivedata/gettileiimage/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipatternformateffectivedata/gettileiimage/
 
 ## IPatternFormatEffectiveData.GetTileIImage метод
 
-Создает изображение плитки для заливки узора с заданными цветами.
+Создает изображение плитки для заливки узора с указанными цветами.
 
 ```csharp
 public IImage GetTileIImage(Color background, Color foreground)
@@ -20,11 +20,11 @@ public IImage GetTileIImage(Color background, Color foreground)
 | background | Color | Цвет фона для узора. |
 | foreground | Color | Цвет переднего плана для узора. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Плитка [`IImage`](../../iimage).
 
-### См. также
+### См. Также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IPatternFormatEffectiveData](../../ipatternformateffectivedata)

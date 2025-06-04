@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Копирует все элементы из коллекции в заданный массив.
 type: docs
 weight: 50
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### См. также
+### Также смотри
 
 * класс [EffectStyleCollection](../../effectstylecollection)
 * пространство имен [Aspose.Slides.Theme](../../effectstylecollection)

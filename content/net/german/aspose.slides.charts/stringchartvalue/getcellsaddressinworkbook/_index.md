@@ -1,15 +1,15 @@
 ---
 title: GetCellsAddressInWorkbook
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen im Arbeitsbuch zurück, die die Zeichenfolgendaten repräsentieren. Andernfalls wird ein leerer String zurückgegeben.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen im Arbeitsbuch zurück, die die Zeichendaten darstellen. Andernfalls wird ein leerer String zurückgegeben.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook/
 ---
 
-## StringChartValue.GetCellsAddressInWorkbook Methode
+## StringChartValue.GetCellsAddressInWorkbook-Methode
 
-Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen im Arbeitsbuch zurück, die die Zeichenfolgendaten repräsentieren. Andernfalls wird ein leerer String zurückgegeben.
+Wenn die DataSourceType-Eigenschaft DataSourceType.Worksheet ist, gibt diese Methode die Adresse der Zellen im Arbeitsbuch zurück, die die Zeichendaten darstellen. Andernfalls wird ein leerer String zurückgegeben.
 
 ```csharp
 public string GetCellsAddressInWorkbook()

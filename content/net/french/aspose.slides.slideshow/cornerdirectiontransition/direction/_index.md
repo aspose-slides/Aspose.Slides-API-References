@@ -1,21 +1,21 @@
 ---
 title: Direction
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de la transition. Lire/écrire TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype.
+description: Direction de la transition. Lecture/écriture TransitionCornerDirectionType aspose.slides.slideshow/transitioncornerdirectiontype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.slideshow/cornerdirectiontransition/direction/
 ---
 
-## Propriété CornerDirectionTransition.Direction
+## CornerDirectionTransition.Direction property
 
-Direction de la transition. Lire/écrire [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype).
+Direction de la transition. Lecture/écriture [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype).
 
 ```csharp
 public TransitionCornerDirectionType Direction { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [TransitionCornerDirectionType](../../transitioncornerdirectiontype)
 * class [CornerDirectionTransition](../../cornerdirectiontransition)

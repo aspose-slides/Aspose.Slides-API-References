@@ -1,6 +1,6 @@
 ---
 title: GetEffectsByShape
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un array de efectos para la forma especificada.
 type: docs
 weight: 80
@@ -15,12 +15,12 @@ Devuelve un array de efectos para la forma especificada.
 public IEffect[] GetEffectsByShape(IShape shape)
 ```
 
-### Ver también
+### Ver También
 
 * interfaz [IEffect](../../ieffect)
 * interfaz [IShape](../../../aspose.slides/ishape)
 * clase [Sequence](../../sequence)
 * espacio de nombres [Aspose.Slides.Animation](../../sequence)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

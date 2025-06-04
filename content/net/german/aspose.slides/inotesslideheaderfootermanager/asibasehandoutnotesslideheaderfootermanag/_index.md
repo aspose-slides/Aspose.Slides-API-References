@@ -1,13 +1,13 @@
 ---
 title: AsIBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das IBaseHandoutNotesSlideHeaderFooterManag-Interface zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag/
 ---
 
-## INotesSlideHeaderFooterManager.AsIBaseHandoutNotesSlideHeaderFooterManag-Eigenschaft
+## INotesSlideHeaderFooterManager.AsIBaseHandoutNotesSlideHeaderFooterManag property
 
 Gibt das IBaseHandoutNotesSlideHeaderFooterManag-Interface zurück.
 
@@ -15,11 +15,11 @@ Gibt das IBaseHandoutNotesSlideHeaderFooterManag-Interface zurück.
 public IBaseHandoutNotesSlideHeaderFooterManag AsIBaseHandoutNotesSlideHeaderFooterManag { get; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Für COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * Interface [INotesSlideHeaderFooterManager](../../inotesslideheaderfootermanager)

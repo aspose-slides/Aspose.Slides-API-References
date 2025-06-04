@@ -20,9 +20,9 @@ public interface ISideDirectionTransition : ITransitionValueBase
 | 名称 | 描述 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 过渡的方向。读写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 过渡的方向。读/写 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

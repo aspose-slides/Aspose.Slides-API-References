@@ -1,6 +1,6 @@
 ---
 title: DeleteRow
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Löscht die angegebene Zeile
 type: docs
 weight: 130

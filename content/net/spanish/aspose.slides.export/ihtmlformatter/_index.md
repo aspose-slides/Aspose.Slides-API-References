@@ -17,7 +17,7 @@ public interface IHtmlFormatter
 
 ### Ver También
 
-* espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

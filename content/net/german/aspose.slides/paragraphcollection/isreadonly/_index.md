@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert an, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
+description: Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides/paragraphcollection/isreadonly/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraphcollection/isreadonly/
 
 ## ParagraphCollection.IsReadOnly-Eigenschaft
 
-Gibt einen Wert an, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
+Gibt einen Wert zurück, der angibt, ob die ICollection schreibgeschützt ist. Schreibgeschützter Boolean.
 
 ```csharp
 public bool IsReadOnly { get; }

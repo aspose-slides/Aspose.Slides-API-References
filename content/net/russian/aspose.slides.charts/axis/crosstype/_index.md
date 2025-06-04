@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/axis/crosstype/
 public CrossesType CrossType { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [CrossesType](../../crossestype)
 * class [Axis](../../axis)

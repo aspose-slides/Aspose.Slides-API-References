@@ -1,13 +1,13 @@
 ---
 title: NotesText
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: El texto en las formas de la página de notas para esta diapositiva
+second_title: Aspose.Sildes para .NET Referencia de API
+description: El texto en las formas de las páginas de notas para esta diapositiva
 type: docs
 weight: 40
 url: /es/aspose.slides/islidetext/notestext/
 ---
 
-## Propiedad ISlideText.NotesText
+## ISlideText.NotesText property
 
 El texto en las formas de la página de notas para esta diapositiva
 
@@ -15,10 +15,10 @@ El texto en las formas de la página de notas para esta diapositiva
 public string NotesText { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ISlideText](../../islidetext)
-* espacio de nombres [Aspose.Slides](../../islidetext)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISlideText](../../islidetext)
+* namespace [Aspose.Slides](../../islidetext)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

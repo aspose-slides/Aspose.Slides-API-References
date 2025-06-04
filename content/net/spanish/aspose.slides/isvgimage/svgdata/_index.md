@@ -1,6 +1,6 @@
 ---
 title: SvgData
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve datos SVG. Solo lectura Byte.
 type: docs
 weight: 40
@@ -15,10 +15,10 @@ Devuelve datos SVG. Solo lectura Byte[].
 public byte[] SvgData { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISvgImage](../../isvgimage)
 * espacio de nombres [Aspose.Slides](../../isvgimage)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

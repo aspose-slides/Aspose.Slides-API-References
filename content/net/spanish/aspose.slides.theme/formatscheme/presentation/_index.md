@@ -1,21 +1,21 @@
 ---
 title: Presentation
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la presentación padre. Solo lectura IPresentationaspose.slides/ipresentation.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve la presentación principal. Solo lectura IPresentation aspose.slides/ipresentation.
 type: docs
 weight: 50
 url: /es/aspose.slides.theme/formatscheme/presentation/
 ---
 
-## Propiedad FormatScheme.Presentation
+## FormatScheme.Presentation property
 
-Devuelve la presentación padre. Solo lectura [`IPresentation`](../../../aspose.slides/ipresentation).
+Devuelve la presentación principal. Solo lectura [`IPresentation`](../../../aspose.slides/ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IPresentation](../../../aspose.slides/ipresentation)
 * clase [FormatScheme](../../formatscheme)

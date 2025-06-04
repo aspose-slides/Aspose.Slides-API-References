@@ -1,15 +1,15 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Slides for .NET API 参考
-description: 指定包含基数以及位于基数右侧的下标和上标的下上标对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定了由基部、下标和上标组成的下上标对象，这些下标和上标位于基部的右侧。
 type: docs
 weight: 8190
 url: /zh/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 
-## IMathRightSubSuperscriptElement 接口
+## IMathRightSubSuperscriptElement interface
 
-指定下上标对象，该对象包含一个基数以及位于基数右侧的下标和上标。
+指定了下上标对象，该对象由基部以及位于基部右侧的下标和上标组成。
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -19,9 +19,9 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下标/上标的对齐方式。当为真时，下标和上标在水平方向上对齐。当为假时，它们与基数的形状之间进行调节。默认值为假。 |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 基数参数 |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下标/上标的对齐方式。当为 true 时，下标和上标水平对齐。当为 false 时，它们与基部的形状相距。默认值为 false。 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允许获取基 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 基部参数 |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下标参数 |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 上标参数 |
 

@@ -1,15 +1,15 @@
 ---
 title: IsRelative
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmen Sie, ob die Befehlskoordinaten relativ sind oder nicht. Lese-/schreibbare Boolesche Variable.
+description: Bestimmen Sie, ob die Befehlskoordinaten relativ sind oder nicht. Lese-/Schreib-Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/imotioncmdpath/isrelative/
 ---
 
-## IMotionCmdPath.IsRelative Eigenschaft
+## IMotionCmdPath.IsRelative-Eigenschaft
 
-Bestimmen Sie, ob die Befehlskoordinaten relativ sind oder nicht. Lese-/schreibbare Boolesche Variable.
+Bestimmen Sie, ob die Befehlskoordinaten relativ sind oder nicht. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsRelative { get; set; }

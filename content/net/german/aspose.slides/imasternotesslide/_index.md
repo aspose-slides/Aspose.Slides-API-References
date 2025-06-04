@@ -1,7 +1,7 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Master-Folie für Notizen dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert Folienmaster für Notizen.
 type: docs
 weight: 6190
 url: /de/aspose.slides/imasternotesslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasternotesslide/
 
 ## IMasterNotesSlide-Schnittstelle
 
-Stellt die Master-Folie für Notizen dar.
+Repräsentiert Folienmaster für Notizen.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -19,12 +19,12 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur lesend [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Gibt die IMasterThemeable-Schnittstelle zurück. Nur lesend [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Master-Notizenfolie zurück. Nur lesend [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Gibt den Stil eines Notiztextes zurück. Nur lesend [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur lesbar [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Gibt die IMasterThemeable-Schnittstelle zurück. Nur lesbar [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Folienmaster für Notizen zurück. Nur lesbar [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Gibt den Stil eines Notiztextes zurück. Nur lesbar [`ITextStyle`](../itextstyle). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IBaseSlide](../ibaseslide)
 * Schnittstelle [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)

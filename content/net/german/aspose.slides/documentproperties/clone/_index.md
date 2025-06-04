@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Slides für .NET API-Referenz
-description: Klont das aktuelle Objekt
+description: Klont aktuelles Objekt
 type: docs
 weight: 390
 url: /de/aspose.slides/documentproperties/clone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/clone/
 
 ## DocumentProperties.Clone-Methode
 
-Klont das aktuelle Objekt
+Klont aktuelles Objekt
 
 ```csharp
 public object Clone()
@@ -17,7 +17,7 @@ public object Clone()
 
 ### Rückgabewert
 
-Klon
+Klone
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, равны ли указанные GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata текущему GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata.
 type: docs
 weight: 30
@@ -17,11 +17,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`GradientStopEffectiveData`](../../gradientstopeffectivedata) для сравнения. |
+| obj | Object | [`GradientStopEffectiveData`](../../gradientstopeffectivedata), с которым следует сравнить. |
 
 ### Возвращаемое значение
 
-true, если объекты равны; в противном случае - false.
+true, если объекты равны; в противном случае false.
 
 ### См. также
 

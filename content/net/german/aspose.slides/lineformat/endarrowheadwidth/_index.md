@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadWidth
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Pfeilspitzenbreite am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff auf LineArrowheadWidthaspose.slides/linearrowheadwidth.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Pfeilkopfbreite am Ende einer Linie zurück oder legt sie fest. Lesen/Schreiben von LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 100
 url: /de/aspose.slides/lineformat/endarrowheadwidth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/lineformat/endarrowheadwidth/
 
 ## LineFormat.EndArrowheadWidth-Eigenschaft
 
-Gibt die Pfeilspitzenbreite am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff auf [`LineArrowheadWidth`](../../linearrowheadwidth).
+Gibt die Pfeilkopfbreite am Ende einer Linie zurück oder legt sie fest. Lesen/Schreiben von [`LineArrowheadWidth`](../../linearrowheadwidth).
 
 ```csharp
 public LineArrowheadWidth EndArrowheadWidth { get; set; }

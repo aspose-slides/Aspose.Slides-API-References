@@ -1,6 +1,6 @@
 ---
 title: ExtrusionRotationCenterZ
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad extrusion.rotationcenter.z
 type: docs
 weight: 180

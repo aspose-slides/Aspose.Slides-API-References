@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Agrega una nueva propiedad a la colección.
 type: docs
 weight: 20
 url: /es/aspose.slides.animation/ibehaviorpropertycollection/add/
 ---
 
-## Método IBehaviorPropertyCollection.Add
+## IBehaviorPropertyCollection.Add método
 
 Agrega una nueva propiedad a la colección.
 

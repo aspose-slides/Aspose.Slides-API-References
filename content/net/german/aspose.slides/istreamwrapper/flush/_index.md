@@ -15,7 +15,7 @@ Löscht alle Puffer für diesen Stream und sorgt dafür, dass alle gepufferten D
 public void Flush()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IStreamWrapper](../../istreamwrapper)
 * Namespace [Aspose.Slides](../../istreamwrapper)

@@ -1,7 +1,7 @@
 ---
 title: Instance
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Instance statique de la fabrique de projets VBA. Lecture seule VbaProjectFactoryaspose.slides.vba/vbaprojectfactory.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Instance statique de l'usine de projet VBA. Lecture seule VbaProjectFactoryaspose.slides.vba/vbaprojectfactory.
 type: docs
 weight: 20
 url: /fr/aspose.slides.vba/vbaprojectfactory/instance/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.vba/vbaprojectfactory/instance/
 
 ## Propriété VbaProjectFactory.Instance
 
-Instance statique de la fabrique de projets VBA. Lecture seule [`VbaProjectFactory`](../../vbaprojectfactory).
+Instance statique de l'usine de projet VBA. Lecture seule [`VbaProjectFactory`](../../vbaprojectfactory).
 
 ```csharp
 public static VbaProjectFactory Instance { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [VbaProjectFactory](../../vbaprojectfactory)
 * espace de noms [Aspose.Slides.Vba](../../vbaprojectfactory)

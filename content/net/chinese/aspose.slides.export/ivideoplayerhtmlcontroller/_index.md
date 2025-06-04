@@ -1,6 +1,6 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 此类允许将视频和音频文件导出为 HTML
 type: docs
 weight: 4010
@@ -24,7 +24,7 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 | [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | 允许获取基础 ILinkEmbedController 接口。只读 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | 允许获取基础 ISvgShapeFormattingController 接口。只读 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 接口 [ILinkEmbedController](../ilinkembedcontroller)

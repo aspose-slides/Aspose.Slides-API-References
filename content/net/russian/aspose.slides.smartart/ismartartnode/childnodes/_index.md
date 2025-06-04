@@ -1,13 +1,13 @@
 ---
 title: ChildNodes
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справка
 description: Возвращает коллекции всех дочерних узлов текущего узла. Только для чтения ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 20
 url: /ru/aspose.slides.smartart/ismartartnode/childnodes/
 ---
 
-## Свойство ISmartArtNode.ChildNodes
+## ISmartArtNode.ChildNodes свойство
 
 Возвращает коллекции всех дочерних узлов текущего узла. Только для чтения [`ISmartArtNodeCollection`](../../ismartartnodecollection).
 

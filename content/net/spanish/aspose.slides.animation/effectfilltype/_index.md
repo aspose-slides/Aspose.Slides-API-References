@@ -1,7 +1,7 @@
 ---
 title: EffectFillType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa tipos de relleno.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Representar tipos de relleno.
 type: docs
 weight: 230
 url: /es/aspose.slides.animation/effectfilltype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/effectfilltype/
 
 ## Enumeración EffectFillType
 
-Representa tipos de relleno.
+Representar tipos de relleno.
 
 ```csharp
 public enum EffectFillType
@@ -25,9 +25,9 @@ public enum EffectFillType
 | Hold | `2` |  |
 | Transition | `3` |  |
 
-### Véase también
+### Ver También
 
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

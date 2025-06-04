@@ -1,7 +1,7 @@
 ---
 title: IColorReplace
-second_title: Referencia de API Aspose.Slides para .NET
-description: Representa un efecto de Reemplazo de Color.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa un efecto de reemplazo de color.
 type: docs
 weight: 3120
 url: /es/aspose.slides.effects/icolorreplace/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/icolorreplace/
 
 ## Interfaz IColorReplace
 
-Representa un efecto de Reemplazo de Color.
+Representa un efecto de reemplazo de color.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -24,7 +24,7 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Devuelve el formato de color que reemplazará el color de cada píxel. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Véase también
+### Véase También
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IColorReplaceEffectiveData](../icolorreplaceeffectivedata)

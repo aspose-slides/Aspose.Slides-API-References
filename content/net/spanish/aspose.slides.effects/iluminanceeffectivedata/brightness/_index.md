@@ -1,15 +1,15 @@
 ---
 title: Brightness
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Brillo. Solo lectura de tipo Single.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Brillo. Solo lectura Single.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/iluminanceeffectivedata/brightness/
 ---
 
-## Propiedad ILuminanceEffectiveData.Brightness
+## ILuminanceEffectiveData.Brightness propiedad
 
-Brillo. Solo lectura de tipo Single.
+Brillo. Solo lectura Single.
 
 ```csharp
 public float Brightness { get; }
@@ -18,7 +18,7 @@ public float Brightness { get; }
 ### Ver También
 
 * interfaz [ILuminanceEffectiveData](../../iluminanceeffectivedata)
-* namespace [Aspose.Slides.Effects](../../iluminanceeffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../iluminanceeffectivedata)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

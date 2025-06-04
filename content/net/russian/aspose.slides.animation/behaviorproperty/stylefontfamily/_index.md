@@ -1,13 +1,13 @@
 ---
 title: StyleFontFamily
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство style.fontFamily
 type: docs
 weight: 1060
 url: /ru/aspose.slides.animation/behaviorproperty/stylefontfamily/
 ---
 
-## Свойство BehaviorProperty.StyleFontFamily
+## BehaviorProperty.StyleFontFamily свойство
 
 Представляет свойство 'style.fontFamily'
 

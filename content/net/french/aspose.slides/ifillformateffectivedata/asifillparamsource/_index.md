@@ -1,13 +1,13 @@
 ---
 title: AsIFillParamSource
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IFillParamSource. IFillParamSource en lecture seule aspose.slides/ifillparamsource.
+description: Renvoie l'interface IFillParamSource. Lecture seule IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifillformateffectivedata/asifillparamsource/
 ---
 
-## Propriété IFillFormatEffectiveData.AsIFillParamSource
+## IFillFormatEffectiveData.AsIFillParamSource propriété
 
 Renvoie l'interface IFillParamSource. Lecture seule [`IFillParamSource`](../../ifillparamsource).
 

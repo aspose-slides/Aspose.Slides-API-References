@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fieldtype/internalstring/
 public string InternalString { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [FieldType](../../fieldtype)
 * namespace [Aspose.Slides](../../fieldtype)

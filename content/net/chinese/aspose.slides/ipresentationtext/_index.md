@@ -1,6 +1,6 @@
 ---
 title: IPresentationText
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示从幻灯片中提取的文本
 type: docs
 weight: 6600
@@ -19,9 +19,9 @@ public interface IPresentationText
 
 | 名称 | 描述 |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | 一个 [`SlideText`](../islidetext) 数组，包含演示文稿的文本。 |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | 一个包含演示文稿文本的 [`SlideText`](../islidetext) 数组。 |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Aspose.Slides for .NET API 参考
-description: 不可变对象，表示 Alpha 替换效果。效果的 Alpha 不透明度值被固定的 Alpha 取代。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，表示 Alpha 替换效果。效果的 alpha 不透明度值被固定的 alpha 替换。
 type: docs
 weight: 3050
 url: /zh/aspose.slides.effects/ialphareplaceeffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ialphareplaceeffectivedata/
 
 ## IAlphaReplaceEffectiveData 接口
 
-不可变对象，表示 Alpha 替换效果。效果的 Alpha (不透明度) 值被固定的 Alpha 取代。
+不可变对象，表示 Alpha 替换效果。效果的 alpha（不透明度）值被固定的 alpha 替换。
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -19,8 +19,8 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | 返回新的 Alpha 值，范围在 [0..1] 内，只读 Single。 |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本的 IEffectEffectiveData 接口，只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | 返回新 alpha 值，范围为 [0..1] 只读单精度浮点数。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础的 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
 ### 另见
 

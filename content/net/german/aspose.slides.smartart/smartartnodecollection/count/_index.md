@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Knoten in der Sammlung zurück. Nur-Lesen Int32. Nur-Lesen Int32.
+description: Gibt die Anzahl der Knoten in der Sammlung zurück. Schreibgeschütztes Int32 Schreibgeschütztes Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.smartart/smartartnodecollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/smartartnodecollection/count/
 
 ## SmartArtNodeCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Knoten in der Sammlung zurück. Nur-Lesen Int32. Nur-Lesen Int32.
+Gibt die Anzahl der Knoten in der Sammlung zurück. Schreibgeschütztes Int32 Schreibgeschütztes Int32.
 
 ```csharp
 public int Count { get; }

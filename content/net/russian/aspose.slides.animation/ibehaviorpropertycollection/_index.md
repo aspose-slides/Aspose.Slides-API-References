@@ -1,7 +1,7 @@
 ---
 title: IBehaviorPropertyCollection
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет временные свойства для поведения эффекта.
+second_title: Справочная информация по API Aspose.Slides для .NET
+description: Представляет тайминг свойства для поведения эффекта.
 type: docs
 weight: 370
 url: /ru/aspose.slides.animation/ibehaviorpropertycollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/ibehaviorpropertycollection/
 
 ## Интерфейс IBehaviorPropertyCollection
 
-Представляет временные свойства для поведения эффекта.
+Представляет тайминг свойства для поведения эффекта.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -17,21 +17,21 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Возвращает интерфейсы IEnumerable. Удобочитаемый только IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Возвращает интерфейсы IEnumerable. Только для чтения IEnumerable. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Добавляет новое свойство в коллекцию. |
 | [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Определяет, содержит ли ICollection конкретное значение. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Определяет индекс конкретного элемента по значению свойства в IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Вставляет новое свойство (с указанным значением свойства) в коллекцию по указанному индексу. |
+| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Вставляет новое свойство (с указанным значением свойства) в коллекцию по заданному индексу. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Удаляет указанное свойство из коллекции. |
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IBehaviorProperty](../ibehaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)

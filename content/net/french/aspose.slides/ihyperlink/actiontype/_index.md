@@ -1,7 +1,7 @@
 ---
 title: ActionType
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le type d'action de HyperLinkEx. Type HyperlinkActionType en lecture seule aspose.slides/hyperlinkactiontype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie le type d'action de HyperLinkEx. HyperlinkActionTypeaspose.slides/hyperlinkactiontype en lecture seule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ihyperlink/actiontype/

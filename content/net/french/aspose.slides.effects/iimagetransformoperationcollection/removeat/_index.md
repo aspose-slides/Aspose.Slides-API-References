@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime un effet d'image d'une collection à l'index spécifié.
 type: docs
 weight: 200
 url: /fr/aspose.slides.effects/iimagetransformoperationcollection/removeat/
 ---
 
-## Méthode IImageTransformOperationCollection.RemoveAt
+## IImageTransformOperationCollection.RemoveAt méthode
 
 Supprime un effet d'image d'une collection à l'index spécifié.
 

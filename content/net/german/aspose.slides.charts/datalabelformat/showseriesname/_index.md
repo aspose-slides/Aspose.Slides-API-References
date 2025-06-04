@@ -1,7 +1,7 @@
 ---
 title: ShowSeriesName
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Boolean zurück oder setzt es, um das Verhalten der Anzeige des Seriennamens für die Datenbeschriftungen in einem Diagramm anzugeben. Wahr, um den Seriennamen anzuzeigen. Falsch, um ihn auszublenden. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen Boolean zurück oder setzt ihn, um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen in einem Diagramm anzuzeigen. True zeigt den Seriennamen an. False versteckt ihn. Lese-/schreibbarer Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/datalabelformat/showseriesname/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/datalabelformat/showseriesname/
 
 ## DataLabelFormat.ShowSeriesName-Eigenschaft
 
-Gibt ein Boolean zurück oder setzt es, um das Verhalten der Anzeige des Seriennamens für die Datenbeschriftungen in einem Diagramm anzugeben. Wahr, um den Seriennamen anzuzeigen. Falsch, um ihn auszublenden. Lese-/Schreib-Boolean.
+Gibt einen Boolean zurück oder setzt ihn, um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen in einem Diagramm anzuzeigen. True zeigt den Seriennamen an. False versteckt ihn. Lese-/schreibbarer Boolean.
 
 ```csharp
 public bool ShowSeriesName { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Wenn der Elternteil dieses DataLabelFormat-Objekts eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der ShowSeriesName-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung. Das Setzen dieser Eigenschaft mit einem Wert setzt diesen Wert auch für die ShowSeriesName-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" bewirkt, dass alle DataLabels[i].ShowSeriesName gleich val sind).
+Wenn der Parent dieses DataLabelFormat-Objekts eine DataLabelCollection von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der ShowSeriesName-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die ShowSeriesName-Eigenschaft für alle Datenbeschriftungen in der DataLabelCollection (d.h. "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" verursacht, dass alle DataLabels[i].ShowSeriesName gleich val sind).
 
 ### Siehe auch
 

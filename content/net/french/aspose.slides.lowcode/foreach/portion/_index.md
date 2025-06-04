@@ -1,7 +1,7 @@
 ---
 title: Portion
 second_title: Référence API Aspose.Slides pour .NET
-description: Itérer chaque Portionaspose.slides.lowcode/foreach/portion dans la Presentationaspose.slides/presentation. Les Portions seront itérées dans tous les types de diapositives - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide et LayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: Itérer chaque Portionaspose.slides.lowcode/foreach/portion dans la Presentationaspose.slides/presentation. Les portions seront itérées dans tous les types de diapositives - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide et LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 40
 url: /fr/aspose.slides.lowcode/foreach/portion/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.lowcode/foreach/portion/
 
 ## Portion(Presentation, ForEachPortionCallback) {#portion_1}
 
-Itérer chaque `Portion` dans la [`Presentation`](../../../aspose.slides/presentation). Les Portions seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide) et [`LayoutSlide`](../layoutslide)
+Itérer chaque `Portion` dans la [`Presentation`](../../../aspose.slides/presentation). Les portions seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide) et [`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Portion(Presentation pres, ForEachPortionCallback forEachPortion)
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Presentation](../../../aspose.slides/presentation)
 * délégué [ForEachPortionCallback](../../foreach.foreachportioncallback)
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Portion(Presentation, bool, ForEachPortionCallback) {#portion}
 
-Itérer chaque [`Portion`](../portion) dans la [`Presentation`](../../../aspose.slides/presentation). Les Portions seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) et [`NotesSlide`](../../../aspose.slides/notesslide)
+Itérer chaque [`Portion`](../portion) dans la [`Presentation`](../../../aspose.slides/presentation). Les portions seront itérées dans tous les types de diapositives - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) et [`NotesSlide`](../../../aspose.slides/notesslide)
 
 ```csharp
 public static void Portion(Presentation pres, bool includeNotes, 
@@ -54,7 +54,7 @@ public static void Portion(Presentation pres, bool includeNotes,
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | pres | Presentation | Présentation à itérer les portions |
-| includeNotes | Boolean | Indicateur qui indique si les NotesSlides doivent être inclus dans le traitement. |
+| includeNotes | Boolean | Drapeau qui indique si les NotesSlides doivent être incluses dans le traitement. |
 | forEachPortion | ForEachPortionCallback | Callback qui sera invoqué pour chaque portion |
 
 ### Exemples
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Presentation](../../../aspose.slides/presentation)
 * délégué [ForEachPortionCallback](../../foreach.foreachportioncallback)

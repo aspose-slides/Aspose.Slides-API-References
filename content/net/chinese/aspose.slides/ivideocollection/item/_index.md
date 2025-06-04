@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 获取指定索引处的元素。只读 IVideoaspose.slides/ivideo。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ivideocollection/item/
 public IVideo this[int index] { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IVideo](../../ivideo)
 * 接口 [IVideoCollection](../../ivideocollection)

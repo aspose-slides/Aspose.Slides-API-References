@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt das Tag mit einem angegebenen Namen aus der Sammlung.
 type: docs
 weight: 140

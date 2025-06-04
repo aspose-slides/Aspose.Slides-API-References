@@ -1,6 +1,6 @@
 ---
 title: IMathBlockCollection
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Collection de blocs mathématiques IMathBlock
 type: docs
 weight: 7900
@@ -19,9 +19,9 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | Nom | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Permet d'obtenir l'interface de base IEnumerable |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Obtient l'élément à l'index spécifié. Lecture seule [`IMathBlock`](../imathblock). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Permet d'obtenir l'interface IEnumerable de base IEnumerable |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. En lecture seule Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Obtient l'élément à l'index spécifié. En lecture seule [`IMathBlock`](../imathblock). |
 
 ## Méthodes
 
@@ -37,7 +37,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

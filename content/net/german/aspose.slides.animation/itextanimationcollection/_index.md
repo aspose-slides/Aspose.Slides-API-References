@@ -1,7 +1,7 @@
 ---
 title: ITextAnimationCollection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Sammlung von Texteffekten dar.
+description: Stellt eine Sammlung von Textanimationen dar.
 type: docs
 weight: 550
 url: /de/aspose.slides.animation/itextanimationcollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/itextanimationcollection/
 
 ## ITextAnimationCollection-Schnittstelle
 
-Stellt eine Sammlung von Texteffekten dar.
+Stellt eine Sammlung von Textanimationen dar.
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>

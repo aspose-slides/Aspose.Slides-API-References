@@ -1,7 +1,7 @@
 ---
 title: MathSpacingRules
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Types d'écart d'espacement horizontal entre les colonnes d'une matrice
+second_title: Aspose.Sildes for .NET API Reference
+description: Types d'espacement horizontal entre les colonnes d'une matrice
 type: docs
 weight: 8720
 url: /fr/aspose.slides.mathtext/mathspacingrules/
@@ -20,10 +20,10 @@ public enum MathSpacingRules
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | SingleSpacingGap | `0` | Simple (1 em pour les colonnes ou 1 ligne pour les rangées) |
-| OneAndHalfSpacingGap | `1` | Un et demi (1.5 em pour les colonnes ou 1.5 lignes pour les rangées) |
-| DoubleSpacingGap | `2` | Double espacement (2 em pour les colonnes ou 2 lignes pour les rangées) |
-| Exactly | `3` | Valeur exacte Pour les colonnes, s'appuyer sur la valeur de ColumnGap, mesurée en twips Pour les rangées, s'appuyer sur la valeur de RowGap, mesurée en twips |
-| Multiple | `4` | Multiple Pour les colonnes, s'appuyer sur la valeur de ColumnGap, mesurée en incréments de 0.5 em Pour les rangées, s'appuyer sur la valeur de RowGap, mesurée en lignes |
+| OneAndHalfSpacingGap | `1` | Un et demi (1,5 em pour les colonnes ou 1,5 lignes pour les rangées) |
+| DoubleSpacingGap | `2` | Double espacement (2 ems pour les colonnes ou 2 lignes pour les rangées) |
+| Exactly | `3` | Valeur exacte Pour les colonnes, se fier à la valeur de ColumnGap, mesurée en twips Pour les rangées, se fier à la valeur de RowGap, mesurée en twips |
+| Multiple | `4` | Multiple Pour les colonnes, se fier à la valeur de ColumnGap, mesurée en incréments de 0,5 em Pour les rangées, se fier à la valeur de RowGap, mesurée en lignes |
 
 ### Voir aussi
 

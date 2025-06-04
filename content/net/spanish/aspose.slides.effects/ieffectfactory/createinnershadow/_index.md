@@ -1,13 +1,13 @@
 ---
 title: CreateInnerShadow
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Crea un efecto de sombra interna.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/ieffectfactory/createinnershadow/
 ---
 
-## Método IEffectFactory.CreateInnerShadow
+## IEffectFactory.CreateInnerShadow método
 
 Crea un efecto de sombra interna.
 
@@ -15,11 +15,11 @@ Crea un efecto de sombra interna.
 public IInnerShadow CreateInnerShadow()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Efecto de sombra interna.
 
-### Véase También
+### Véase también
 
 * interfaz [IInnerShadow](../../iinnershadow)
 * interfaz [IEffectFactory](../../ieffectfactory)

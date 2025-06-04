@@ -1,15 +1,15 @@
 ---
 title: PlotVisibleCellsOnly
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si seules les cellules visibles sont tracées. Faux pour tracer à la fois des cellules visibles et cachées. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence API
+description: Détermine si seules les cellules visibles sont tracées. Faux pour tracer à la fois les cellules visibles et cachées. Booléen en lecture/écriture.
 type: docs
 weight: 170
 url: /fr/aspose.slides.charts/ichart/plotvisiblecellsonly/
 ---
 
-## Propriété IChart.PlotVisibleCellsOnly
+## IChart.PlotVisibleCellsOnly propriété
 
-Détermine si seules les cellules visibles sont tracées. Faux pour tracer à la fois des cellules visibles et cachées. Booléen en lecture/écriture.
+Détermine si seules les cellules visibles sont tracées. Faux pour tracer à la fois les cellules visibles et cachées. Booléen en lecture/écriture.
 
 ```csharp
 public bool PlotVisibleCellsOnly { get; set; }

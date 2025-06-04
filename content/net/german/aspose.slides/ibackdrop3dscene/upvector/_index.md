@@ -1,7 +1,7 @@
 ---
 title: UpVector
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Vektor zurück oder setzt diesen, der "oben" repräsentiert. Um genauer zu sein, definiert dieses Attribut einen Vektor, der "oben" in Bezug auf die Fläche der Hintergrundebene darstellt. Vektor, dargestellt durch ein Array von 3 float-Werten, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff Einzelwert.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt einen Vektor zurück oder setzt diesen, der nach oben zeigt. Genauer gesagt definiert dieses Attribut einen Vektor, der in Bezug auf die Oberfläche der Hintergrundebene nach oben zeigt. Der Vektor wird durch ein Array von 3 Float-Werten dargestellt, die die X-, Y- und Z-Koordinaten definieren. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 30
 url: /de/aspose.slides/ibackdrop3dscene/upvector/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibackdrop3dscene/upvector/
 
 ## IBackdrop3DScene.UpVector-Eigenschaft
 
-Gibt einen Vektor zurück oder setzt diesen, der "oben" repräsentiert. Um genauer zu sein, definiert dieses Attribut einen Vektor, der "oben" in Bezug auf die Fläche der Hintergrundebene darstellt. Vektor, dargestellt durch ein Array von 3 float-Werten, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff Single[].
+Gibt einen Vektor zurück oder setzt diesen, der nach oben zeigt. Genauer gesagt definiert dieses Attribut einen Vektor, der in Bezug auf die Oberfläche der Hintergrundebene nach oben zeigt. Der Vektor wird durch ein Array von 3 Float-Werten dargestellt, die die X-, Y- und Z-Koordinaten definieren. Lesen/Schreiben Einzelwert[].
 
 ```csharp
 public float[] UpVector { get; set; }

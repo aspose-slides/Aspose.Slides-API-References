@@ -1,7 +1,7 @@
 ---
 title: CreateMathParagraph
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstelle leeren mathematischen Absatz
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstelle leeres mathematisches Absatz
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathparagraphfactory/createmathparagraph/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathparagraphfactory/createmathparagraph/
 
 ## CreateMathParagraph() {#createmathparagraph}
 
-Erstelle leeren mathematischen Absatz
+Erstelle leeres mathematisches Absatz
 
 ```csharp
 public IMathParagraph CreateMathParagraph()
@@ -17,7 +17,7 @@ public IMathParagraph CreateMathParagraph()
 
 ### Rückgabewert
 
-neuer mathematischer Absatz
+neues mathematisches Absatz
 
 ### Siehe auch
 
@@ -30,7 +30,7 @@ neuer mathematischer Absatz
 
 ## CreateMathParagraph(IMathBlock) {#createmathparagraph_1}
 
-Erstellt einen mathematischen Absatz und platziert den angegebenen mathematischen Block darin
+Erstellt ein mathematisches Absatz und platziert den angegebenen mathematischen Block darin
 
 ```csharp
 public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
@@ -38,11 +38,11 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| mathBlock | IMathBlock | Mathematikblock, der im Absatz platziert werden soll |
+| mathBlock | IMathBlock | mathematischer Block, der im Absatz platziert werden soll |
 
 ### Rückgabewert
 
-neuer mathematischer Absatz
+neues mathematisches Absatz
 
 ### Siehe auch
 

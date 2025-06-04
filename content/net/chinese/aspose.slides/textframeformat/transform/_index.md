@@ -1,6 +1,6 @@
 ---
 title: Transform
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置文本换行形状。读/写 TextShapeTypeaspose.slides/textshapetype。
 type: docs
 weight: 150
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/textframeformat/transform/
 public TextShapeType Transform { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [TextShapeType](../../textshapetype)
 * class [TextFrameFormat](../../textframeformat)

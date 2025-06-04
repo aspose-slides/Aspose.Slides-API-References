@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Auswahl dieser Form verboten ist. Lese-/Schreibbooleans.
+description: Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/igraphicalobjectlock/selectlocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igraphicalobjectlock/selectlocked/
 
 ## IGraphicalObjectLock.SelectLocked-Eigenschaft
 
-Bestimmt, ob die Auswahl dieser Form verboten ist. Lese-/Schreibbooleans.
+Bestimmt, ob das Auswählen dieser Form verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool SelectLocked { get; set; }

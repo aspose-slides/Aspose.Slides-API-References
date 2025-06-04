@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un valor que indica si esta instancia es igual a un objeto especificado.
 type: docs
 weight: 140
@@ -41,7 +41,7 @@ public bool Equals(ShapeFrame value)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| value | ShapeFrame | El ShapeFrameEx a comparar con esta instancia. |
+| value | ShapeFrame | El ShapeFRameEx a comparar con esta instancia. |
 
 ### Valor de Retorno
 

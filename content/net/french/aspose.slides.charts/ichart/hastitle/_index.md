@@ -1,6 +1,6 @@
 ---
 title: HasTitle
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine si un graphique a un titre visible. Booléen en lecture/écriture.
 type: docs
 weight: 140

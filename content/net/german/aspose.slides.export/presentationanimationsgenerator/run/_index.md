@@ -1,7 +1,7 @@
 ---
 title: Run
-second_title: Aspose.Slides für .NET API Referenz
-description: Führen Sie die Generierung der Animationsereignisse für jede Folie aus.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Führen Sie die Generierung von Animationsevents für jede Folie aus.
 type: docs
 weight: 80
 url: /de/aspose.slides.export/presentationanimationsgenerator/run/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/presentationanimationsgenerator/run/
 
 ## Run(IEnumerable&lt;ISlide&gt;) {#run}
 
-Führen Sie die Generierung der Animationsereignisse für jede Folie aus.
+Führen Sie die Generierung von Animationsevents für jede Folie aus.
 
 ```csharp
 public void Run(IEnumerable<ISlide> slides)
@@ -26,12 +26,12 @@ using (Presentation presentation = new Presentation("animated.pptx"))
     {
         animationsGenerator.NewAnimation += animationPlayer =>
         {
-            // handle new animation
+            // neue Animation behandeln
         };
         
         player.FrameTick += (sender, args) =>
         {
-            // handle frame tick within the new animation
+            // Frame-Tick innerhalb der neuen Animation behandeln
         };
         
         animationsGenerator.Run(presentation.Slides);
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ISlide](../../../aspose.slides/islide)
 * class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
@@ -50,7 +50,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 
 ## Run(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) {#run_1}
 
-Führen Sie die Generierung der Animationsereignisse für jede Folie aus.
+Führen Sie die Generierung von Animationsevents für jede Folie aus.
 
 ```csharp
 public void Run(IEnumerable<ISlide> slides, int fps, FrameTickHandler onFrame)
@@ -75,7 +75,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [ISlide](../../../aspose.slides/islide)
 * delegate [FrameTickHandler](../../presentationplayer.frametickhandler)

@@ -7,7 +7,7 @@ weight: 140
 url: /es/aspose.slides/iparagraphformateffectivedata/spaceafter/
 ---
 
-## Propiedad IParagraphFormatEffectiveData.SpaceAfter
+## IParagraphFormatEffectiveData.SpaceAfter propiedad
 
 Devuelve la cantidad de espacio después de la última línea en un párrafo. Solo lectura Single.
 
@@ -17,8 +17,8 @@ public float SpaceAfter { get; }
 
 ### Ver También
 
-* interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../iparagraphformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* espacio de nombres [Aspose.Slides](../../iparagraphformateffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->

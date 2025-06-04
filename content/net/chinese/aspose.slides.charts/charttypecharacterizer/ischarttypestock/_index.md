@@ -1,21 +1,21 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果 chartType 是 Stock 的子类型之一，则返回 true。子类型集对应于 PowerPoint 中的适当集合（请参阅 PowerPoint 中的“更改图表类型”对话框）：HighLowClose、OpenHighLowClose、VolumeHighLowClose、VolumeOpenHighLowClose。
+description: 如果chartType是股票子类型之一，则返回true。子类型集对应于PowerPoint中的相应集合（请参阅PowerPoint中的“更改图表类型”对话框）：HighLowClose、OpenHighLowClose、VolumeHighLowClose、VolumeOpenHighLowClose。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypestock/
 ---
 
-## ChartTypeCharacterizer.IsChartTypeStock 方法
+## ChartTypeCharacterizer.IsChartTypeStock method
 
-如果 chartType 是 Stock 的子类型之一，则返回 true。子类型集对应于 PowerPoint 中的适当集合（请参阅“更改图表类型”对话框）：HighLowClose、OpenHighLowClose、VolumeHighLowClose、VolumeOpenHighLowClose。
+如果chartType是股票子类型之一，则返回true。子类型集对应于PowerPoint中的相应集合（请参阅“更改图表类型”对话框）：HighLowClose、OpenHighLowClose、VolumeHighLowClose、VolumeOpenHighLowClose。
 
 ```csharp
 public static bool IsChartTypeStock(ChartType chartType)
 ```
 
-### 另请参阅
+### See Also
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

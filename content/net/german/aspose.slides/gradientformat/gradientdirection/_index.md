@@ -1,21 +1,21 @@
 ---
 title: GradientDirection
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Stil eines Gradienten zurück oder setzt ihn. Lese-/Schreibzugriff auf GradientDirectionaspose.slides/gradientdirection.
+description: Gibt den Stil eines Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff auf GradientDirectionaspose.slides/gradientdirection.
 type: docs
 weight: 10
 url: /de/aspose.slides/gradientformat/gradientdirection/
 ---
 
-## GradientFormat.GradientDirection Eigenschaft
+## GradientFormat.GradientDirection-Eigenschaft
 
-Gibt den Stil eines Gradienten zurück oder setzt ihn. Lese-/Schreibzugriff auf [`GradientDirection`](../../gradientdirection).
+Gibt den Stil eines Farbverlaufs zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`GradientDirection`](../../gradientdirection).
 
 ```csharp
 public GradientDirection GradientDirection { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [GradientDirection](../../gradientdirection)
 * class [GradientFormat](../../gradientformat)

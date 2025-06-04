@@ -1,6 +1,6 @@
 ---
 title: MinimalHeight
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Renvoie ou définit la hauteur minimale possible d'une ligne. Lecture/écriture Double.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Renvoie ou définit la hauteur minimale possible d'une ligne. Lecture/écriture 
 public double MinimalHeight { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IRow](../../irow)
 * namespace [Aspose.Slides](../../irow)

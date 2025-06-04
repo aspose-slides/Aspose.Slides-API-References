@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne un nom de ce schéma. Chaîne en lecture seule.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie un nom de ce schéma. Chaîne en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides.theme/iextracolorscheme/name/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/iextracolorscheme/name/
 
 ## Propriété IExtraColorScheme.Name
 
-Retourne un nom de ce schéma. Chaîne en lecture seule.
+Renvoie un nom de ce schéma. Chaîne en lecture seule.
 
 ```csharp
 public string Name { get; }

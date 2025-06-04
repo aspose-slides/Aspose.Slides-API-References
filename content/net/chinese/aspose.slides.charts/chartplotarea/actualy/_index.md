@@ -1,7 +1,7 @@
 ---
 title: ActualY
-second_title: Aspose.Slides for .NET API Reference
-description: 指定图表元素相对于图表左上角的实际顶部。调用方法 IChart.ValidateChartLayout 以获取实际值。读取单一值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定图表元素相对于图表左上角的实际顶部。在获取实际值之前，调用方法 IChart.ValidateChartLayout。阅读 Single。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/chartplotarea/actualy/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartplotarea/actualy/
 
 ## ChartPlotArea.ActualY 属性
 
-指定图表元素相对于图表左上角的实际顶部。调用方法 IChart.ValidateChartLayout() 以获取实际值。读取单一值。
+指定图表元素相对于图表左上角的实际顶部。在获取实际值之前，调用方法 IChart.ValidateChartLayout()。阅读 Single。
 
 ```csharp
 public float ActualY { get; }

@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
-description: Entfernt die erste Vorkommen einer bestimmten FallBack-Schriftart aus der Liste.
+second_title: Aspose.Slides für .NET API Referenz
+description: Entfernt das erste Vorkommen einer bestimmten FallBack-Schriftart aus der Liste.
 type: docs
 weight: 80
 url: /de/aspose.slides/ifontfallbackrule/remove/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/ifontfallbackrule/remove/
 
 ## IFontFallBackRule.Remove Methode
 
-Entfernt die erste Vorkommen einer bestimmten FallBack-Schriftart aus der Liste.
+Entfernt das erste Vorkommen einer bestimmten FallBack-Schriftart aus der Liste.
 
 ```csharp
 public void Remove(string fontName)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| fontName | String | Der Name der Schriftart, die aus der Liste entfernt werden soll. |
+| Parameter  | Typ    | Beschreibung                                                |
+|------------|--------|-----------------------------------------------------------|
+| fontName   | String | Der Name der Schriftart, der aus der Liste entfernt werden soll. |
 
 ### Beispiele
 

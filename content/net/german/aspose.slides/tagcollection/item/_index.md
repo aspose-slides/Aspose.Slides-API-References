@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Schlüssel-Wert-Paar eines Tags zurück oder legt es fest.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein Schlüssel-Wert-Paar eines Tags zurück oder setzt es.
 type: docs
 weight: 30
 url: /de/aspose.slides/tagcollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/tagcollection/item/
 
 ## TagCollection-Indexer
 
-Gibt ein Schlüssel-Wert-Paar eines Tags zurück oder legt es fest.
+Gibt ein Schlüssel-Wert-Paar eines Tags zurück oder setzt es.
 
 ```csharp
 public string this[string name] { get; set; }

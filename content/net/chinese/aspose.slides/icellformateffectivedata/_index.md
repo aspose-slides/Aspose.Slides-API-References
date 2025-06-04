@@ -1,7 +1,7 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Slides for .NET API Reference
-description: 不可变对象，包含有效的表格单元格格式属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 包含有效表格单元格格式属性的不可变对象。
 type: docs
 weight: 5280
 url: /zh/aspose.slides/icellformateffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icellformateffectivedata/
 
 ## ICellFormatEffectiveData 接口
 
-不可变对象，包含有效的表格单元格格式属性。
+包含有效表格单元格格式属性的不可变对象。
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,14 +19,14 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基本的 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 获取填充颜色的透明度。返回值类型为 Single。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基础 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 获取填充颜色的透明度。读取单个值。 |
 
 ### 备注
 
-此接口与 [`ICellFormat`](../icellformat) 接口一起使用，以返回应用继承和表格样式的有效格式值。
+该接口与 [`ICellFormat`](../icellformat) 接口一起使用，以返回应用了继承和表格样式的有效格式值。
 
-### 另见
+### 另请参见
 
 * 接口 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

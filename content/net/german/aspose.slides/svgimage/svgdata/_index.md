@@ -1,7 +1,7 @@
 ---
 title: SvgData
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt SVG-Daten zurück. Nur lesbare Byte.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt SVG-Daten zurück. Nur lesen. Byte.
 type: docs
 weight: 50
 url: /de/aspose.slides/svgimage/svgdata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/svgimage/svgdata/
 
 ## SvgImage.SvgData-Eigenschaft
 
-Gibt SVG-Daten zurück. Nur lesbares Byte[].
+Gibt SVG-Daten zurück. Nur lesen. Byte[].
 
 ```csharp
 public byte[] SvgData { get; }

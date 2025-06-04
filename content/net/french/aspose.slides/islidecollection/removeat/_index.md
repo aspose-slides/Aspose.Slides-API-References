@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime l'élément à l'index spécifié de la collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides/islidecollection/removeat/
 ---
 
-## Méthode ISlideCollection.RemoveAt
+## ISlideCollection.RemoveAt méthode
 
 Supprime l'élément à l'index spécifié de la collection.
 
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index de l'élément à supprimer, basé sur zéro. |
+| index | Int32 | L'index basé sur zéro de l'élément à supprimer. |
 
 ### Exceptions
 
@@ -25,7 +25,7 @@ public void RemoveAt(int index)
 | --- | --- |
 | ArgumentOutOfRangeException |  |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlideCollection](../../islidecollection)
 * namespace [Aspose.Slides](../../islidecollection)

@@ -1,7 +1,7 @@
 ---
 title: DelimiterShape
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt die Form von Delimitern im Delimiter-Objekt an. Wenn MathDelimiterShape.Centered verwendet wird, sind die Delimiter um die mathematische Achse des mathematischen Texts zentriert und können die gesamte Höhe ihres Inhalts anpassen. Wenn MathDelimiterShape.Match verwendet wird, werden ihre Höhe und Form so angepasst, dass sie genau zu ihrem Inhalt passen.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Form der Begrenzungszeichen im Begrenzungsobjekt an. Wenn MathDelimiterShape.Centered verwendet wird, sind die Begrenzungszeichen um die mathematische Achse des mathematischen Textes zentriert und können dennoch so angepasst werden, dass sie die gesamte Höhe ihres Inhalts ausfüllen. Wenn MathDelimiterShape.Match verwendet wird, werden ihre Höhe und Form so verändert, dass sie genau zu ihrem Inhalt passen.
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathdelimiter/delimitershape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathdelimiter/delimitershape/
 
 ## IMathDelimiter.DelimiterShape-Eigenschaft
 
-Gibt die Form von Delimitern im Delimiter-Objekt an. Wenn MathDelimiterShape.Centered verwendet wird, sind die Delimiter um die mathematische Achse des mathematischen Texts zentriert und können die gesamte Höhe ihres Inhalts anpassen. Wenn MathDelimiterShape.Match verwendet wird, werden ihre Höhe und Form so angepasst, dass sie genau zu ihrem Inhalt passen.
+Gibt die Form der Begrenzungszeichen im Begrenzungsobjekt an. Wenn MathDelimiterShape.Centered verwendet wird, sind die Begrenzungszeichen um die mathematische Achse des mathematischen Textes zentriert und können dennoch so angepasst werden, dass sie die gesamte Höhe ihres Inhalts ausfüllen. Wenn MathDelimiterShape.Match verwendet wird, werden ihre Höhe und Form so verändert, dass sie genau zu ihrem Inhalt passen.
 
 ```csharp
 public MathDelimiterShape DelimiterShape { get; set; }

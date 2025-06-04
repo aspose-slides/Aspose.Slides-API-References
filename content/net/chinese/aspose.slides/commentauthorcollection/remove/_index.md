@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除指定作者的第一次出现。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合中移除指定作者的第一个出现。
 type: docs
 weight: 110
 url: /zh/aspose.slides/commentauthorcollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentauthorcollection/remove/
 
 ## CommentAuthorCollection.Remove 方法
 
-从集合中移除指定作者的第一次出现。
+在集合中移除指定作者的第一个出现。
 
 ```csharp
 public void Remove(ICommentAuthor author)
@@ -23,10 +23,10 @@ public void Remove(ICommentAuthor author)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 作者是 `null` |
-| [PptxEditException](../../pptxeditexception) | 如果作者已经被移除，则抛出。 |
+| ArgumentNullException | 作者为 `null` |
+| [PptxEditException](../../pptxeditexception) | 如果作者已经被移除，则会抛出此异常。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 类 [CommentAuthorCollection](../../commentauthorcollection)

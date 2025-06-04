@@ -1,7 +1,7 @@
 ---
 title: ErrorBarType
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Typ der Fehlerbalken dar
+description: Repräsentiert den Typ der Fehlerbalken
 type: docs
 weight: 1560
 url: /de/aspose.slides.charts/errorbartype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/errorbartype/
 
 ## ErrorBarType Aufzählung
 
-Stellt den Typ der Fehlerbalken dar
+Repräsentiert den Typ der Fehlerbalken
 
 ```csharp
 public enum ErrorBarType
@@ -19,11 +19,11 @@ public enum ErrorBarType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Both | `0` | Gibt an, dass Fehlerbalken in positiver und negativer Richtung angezeigt werden sollen. |
-| Minus | `1` | Gibt an, dass Fehlerbalken nur in negativer Richtung angezeigt werden sollen. |
-| Plus | `2` | Gibt an, dass Fehlerbalken nur in positiver Richtung angezeigt werden sollen. |
+| Both | `0` | Gibt an, dass Fehlerbalken in der positiven und negativen Richtung angezeigt werden sollen. |
+| Minus | `1` | Gibt an, dass Fehlerbalken nur in der negativen Richtung angezeigt werden sollen. |
+| Plus | `2` | Gibt an, dass Fehlerbalken nur in der positiven Richtung angezeigt werden sollen. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * Assembly [Aspose.Slides](../../)

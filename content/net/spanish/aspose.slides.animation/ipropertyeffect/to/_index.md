@@ -15,7 +15,7 @@ Especifica el valor final para la animación. Lectura/escritura String.
 public string To { get; set; }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IPropertyEffect](../../ipropertyeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../ipropertyeffect)

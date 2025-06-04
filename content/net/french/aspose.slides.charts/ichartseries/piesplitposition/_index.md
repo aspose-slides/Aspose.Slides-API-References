@@ -1,25 +1,25 @@
 ---
 title: PieSplitPosition
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie une valeur qui sera utilisée pour déterminer quels points de données se trouvent dans le deuxième graphique en secteur ou en barre sur un graphique en secteur à secteurs ou en barre à secteurs. Utilisé en conjonction avec la propriété PieSplitBy. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.PieSplitPosition pour changer la valeur. Double en lecture seule.
+second_title: Aspose.Slildes pour la référence de l'API .NET
+description: Spécifie une valeur qui sera utilisée pour déterminer quels points de données se trouvent dans le deuxième secteur ou barre sur un graphique secteur-de-secteur ou barre-de-secteur. Utilisé en conjonction avec la propriété PieSplitBy. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété lue/écrite ParentSeriesGroup.PieSplitPosition pour modifier la valeur. Lecture seule Double.
 type: docs
 weight: 320
 url: /fr/aspose.slides.charts/ichartseries/piesplitposition/
 ---
 
-## Propriété IChartSeries.PieSplitPosition
+## IChartSeries.PieSplitPosition property
 
-Spécifie une valeur qui sera utilisée pour déterminer quels points de données se trouvent dans le deuxième graphique en secteur ou en barre sur un graphique en secteur à secteurs ou en barre à secteurs. Utilisé en conjonction avec la propriété PieSplitBy. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété en lecture/écriture ParentSeriesGroup.PieSplitPosition pour changer la valeur. Double en lecture seule.
+Spécifie une valeur qui sera utilisée pour déterminer quels points de données se trouvent dans le deuxième secteur ou barre sur un graphique secteur-de-secteur ou barre-de-secteur. Utilisé en conjonction avec la propriété PieSplitBy. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété lue/écrite ParentSeriesGroup.PieSplitPosition pour modifier la valeur. Lecture seule Double.
 
 ```csharp
 public double PieSplitPosition { get; }
 ```
 
-### Remarques
+### Remarks
 
 C'est la projection de la propriété ParentSeriesGroup.PieSplitPosition.
 
-### Voir aussi
+### See Also
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

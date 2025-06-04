@@ -1,7 +1,7 @@
 ---
 title: BevelType
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Type de biseautage. Lecture/écriture BevelPresetTypeaspose.slides/bevelpresettype.
+description: Type de biseau. Lire/écrire BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ishapebevel/beveltype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapebevel/beveltype/
 
 ## Propriété IShapeBevel.BevelType
 
-Type de biseautage. Lecture/écriture [`BevelPresetType`](../../bevelpresettype).
+Type de biseau. Lire/écrire [`BevelPresetType`](../../bevelpresettype).
 
 ```csharp
 public BevelPresetType BevelType { get; set; }

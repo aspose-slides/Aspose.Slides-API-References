@@ -1,6 +1,6 @@
 ---
 title: DefaultTextStyle
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает стиль текста по умолчанию для фигур. Только для чтения ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/presentation/defaulttextstyle/
 public ITextStyle DefaultTextStyle { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [ITextStyle](../../itextstyle)
 * класс [Presentation](../../presentation)

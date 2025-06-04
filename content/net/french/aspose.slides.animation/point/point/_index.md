@@ -25,7 +25,7 @@ public Point()
 
 ## Point(float, object, string) {#constructor_1}
 
-Créer un point d'animation avec le temps, la valeur et la formule.
+Crée un point d'animation avec le temps, la valeur et la formule.
 
 ```csharp
 public Point(float time, object value, string formula)

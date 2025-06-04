@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Copie tous les éléments de la collection vers le tableau spécifié.
+second_title: Aspose.Slides pour .NET Référence API
+description: Copie tous les éléments de la collection dans le tableau spécifié.
 type: docs
 weight: 60
 url: /fr/aspose.slides.vba/vbareferencecollection/copyto/
 ---
 
-## Méthode VbaReferenceCollection.CopyTo
+## VbaReferenceCollection.CopyTo méthode
 
-Copie tous les éléments de la collection vers le tableau spécifié.
+Copie tous les éléments de la collection dans le tableau spécifié.
 
 ```csharp
 public void CopyTo(Array array, int index)

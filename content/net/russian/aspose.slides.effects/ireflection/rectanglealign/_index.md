@@ -1,21 +1,21 @@
 ---
 title: RectangleAlign
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Выравнивание прямоугольников. Чтение/запись RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 90
 url: /ru/aspose.slides.effects/ireflection/rectanglealign/
 ---
 
-## Свойство IReflection.RectangleAlign
+## IReflection.RectangleAlign свойство
 
-Выравнивание прямоугольника. Чтение/запись [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Выравнивание прямоугольников. Чтение/запись [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * interface [IReflection](../../ireflection)

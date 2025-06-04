@@ -1,7 +1,7 @@
 ---
 title: To
-second_title: Référence API Aspose.Slides pour .NET
-description: Décrit la couleur résultante pour le changement de couleur de l'animation. Lecture/écriture IColorFormat aspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Slidess pour .NET
+description: Décrit la couleur résultante pour le changement de couleur d'animation. Lecture/écriture IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /fr/aspose.slides.animation/icoloreffect/to/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/icoloreffect/to/
 
 ## Propriété IColorEffect.To
 
-Décrit la couleur résultante pour le changement de couleur de l'animation. Lecture/écriture [`IColorFormat`](../../../aspose.slides/icolorformat).
+Décrit la couleur résultante pour le changement de couleur d'animation. Lecture/écriture [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat To { get; set; }

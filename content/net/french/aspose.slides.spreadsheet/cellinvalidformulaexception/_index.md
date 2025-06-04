@@ -1,15 +1,15 @@
 ---
 title: CellInvalidFormulaException
-second_title: Référence API Aspose.Sildes pour .NET
-description: L'exception qui est lancée lorsque une formule calculée n'est pas correcte ou n'a pas été analysée.
+second_title: Aspose.Slides pour la Référence de l'API .NET
+description: L'exception qui est levée lorsqu'une formule calculée n'est pas correcte ou n'a pas été analysée.
 type: docs
 weight: 10400
 url: /fr/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 
-## Classe CellInvalidFormulaException
+## CellInvalidFormulaException class
 
-L'exception qui est lancée lorsque une formule calculée n'est pas correcte ou n'a pas été analysée.
+L'exception qui est levée lorsqu'une formule calculée n'est pas correcte ou n'a pas été analysée.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -21,14 +21,14 @@ public class CellInvalidFormulaException : PptxEditException
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../cellinvalidformulaexception) avec un message d'erreur spécifié. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../cellinvalidformulaexception) avec un message d'erreur spécifié et une référence à l'exception interne qui est la cause de cette exception. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../cellinvalidformulaexception) avec un message d'erreur spécifié et une référence de cellule qui contient la formule invalide. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../cellinvalidformulaexception) avec un message d'erreur spécifié et une référence à l'exception intérieure qui est à l'origine de cette exception. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initialise une nouvelle instance de la classe [`CellInvalidFormulaException`](../cellinvalidformulaexception) avec un message d'erreur spécifié et une référence de cellule contenant la formule invalide. |
 
 ## Propriétés
 
 | Nom | Description |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Obtient une référence de cellule qui contient la formule invalide. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Obtient une référence de cellule contenant la formule invalide. |
 
 ### Voir aussi
 

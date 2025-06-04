@@ -16,11 +16,11 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
     IMathElement subScript, IMathElement superScript)
 ```
 
-| Parameter  | Typ          | Beschreibung                       |
-| ---        | ---          | ---                                |
-| baseArg    | IMathElement | Basisargument zur Anwendung von Indizes |
-| subScript  | IMathElement | unterer rechter Index              |
-| superScript| IMathElement | oberer rechter Index               |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| baseArg | IMathElement | Basisargument zur Anwendung von Indizes |
+| subScript | IMathElement | unterer rechter Index |
+| superScript | IMathElement | oberer rechter Index |
 
 ### Rückgabewert
 

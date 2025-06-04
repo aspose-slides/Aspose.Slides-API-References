@@ -1,13 +1,13 @@
 ---
 title: Name
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve el nombre del proyecto VBA. Solo lectura String.
 type: docs
 weight: 30
 url: /es/aspose.slides.vba/ivbaproject/name/
 ---
 
-## Propiedad IVbaProject.Name
+## IVbaProject.Name property
 
 Devuelve el nombre del proyecto VBA. Solo lectura String.
 

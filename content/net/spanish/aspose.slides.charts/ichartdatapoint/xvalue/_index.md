@@ -17,9 +17,9 @@ public IStringOrDoubleChartValue XValue { get; }
 
 ### Véase también
 
-* interfaz [IStringOrDoubleChartValue](../../istringordoublechartvalue)
-* interfaz [IChartDataPoint](../../ichartdatapoint)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartdatapoint)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IStringOrDoubleChartValue](../../istringordoublechartvalue)
+* interfaz [IChartDataPoint](../../ichartdatapoint)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartdatapoint)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

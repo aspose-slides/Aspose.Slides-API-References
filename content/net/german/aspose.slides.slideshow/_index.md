@@ -1,72 +1,74 @@
 ---
 title: Aspose.Slides.SlideShow
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Enthält Klassen zum Verwalten von Diashows und Folienübergängen
+second_title: Aspose.Slides für .NET API-Referenz
+description: Enthält Klassen zur Verwaltung von Diashows und Folienübergängen
 type: docs
 weight: 130
 url: /de/aspose.slides.slideshow/
 ---
 
-Enthält Klassen zum Verwalten von Diashows und Folienübergängen
+Enthält Klassen zur Verwaltung von Diashows und Folienübergängen
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [CornerDirectionTransition](./cornerdirectiontransition) | Folienübergangseffekt mit Eckenrichtung. |
-| [EightDirectionTransition](./eightdirectiontransition) | Folienübergangseffekt in acht Richtungen. |
-| [EmptyTransition](./emptytransition) | Leerer Folienübergangseffekt. |
-| [FlyThroughTransition](./flythroughtransition) | Durchfliegender Folienübergangseffekt. |
-| [GlitterTransition](./glittertransition) | Glitzernder Folienübergangseffekt. |
-| [InOutTransition](./inouttransition) | In-Out Folienübergangseffekt. |
-| [LeftRightDirectionTransition](./leftrightdirectiontransition) | Folienübergangseffekt in links-rechts-Richtung. |
-| [MorphTransition](./morphtransition) | Wellenförmiger Folienübergangseffekt. |
+| [CornerDirectionTransition](./cornerdirectiontransition) | Effekt für Folienübergang in Eckenrichtung. |
+| [EightDirectionTransition](./eightdirectiontransition) | Effekt für Folienübergang in acht Richtungen. |
+| [EmptyTransition](./emptytransition) | Effekt für leeren Folienübergang. |
+| [FlyThroughTransition](./flythroughtransition) | Effekt für Folienübergang durch den Raum. |
+| [GlitterTransition](./glittertransition) | Effekt für glitzernden Folienübergang. |
+| [InOutTransition](./inouttransition) | Effekt für In-Out-Folienübergang. |
+| [LeftRightDirectionTransition](./leftrightdirectiontransition) | Effekt für Folienübergang in Links-Rechts-Richtung. |
+| [MorphTransition](./morphtransition) | Effekt für wellenförmigen Folienübergang. |
 | [OptionalBlackTransition](./optionalblacktransition) | Optionaler schwarzer Folienübergangseffekt. |
-| [OrientationTransition](./orientationtransition) | Folienübergangseffekt mit Orientierung. |
-| [RevealTransition](./revealtransition) | Enthüllungsfolienübergangseffekt. |
-| [RippleTransition](./rippletransition) | Wellenförmiger Folienübergangseffekt. |
-| [ShredTransition](./shredtransition) | Zerkleinerter Folienübergangseffekt. |
-| [SideDirectionTransition](./sidedirectiontransition) | Folienübergangseffekt in Seitenrichtung. |
-| [SlideShowTransition](./slideshowtransition) | Stellt den Folienübergang dar. |
-| [SplitTransition](./splittransition) | Geteilter Folienübergangseffekt. |
-| [TransitionValueBase](./transitionvaluebase) | Basis-Klasse für Folienübergangseffekte. |
-| [WheelTransition](./wheeltransition) | Rad-Folienübergangseffekt. |
+| [OrientationTransition](./orientationtransition) | Effekt für Folienübergang in Bezug auf die Ausrichtung. |
+| [RevealTransition](./revealtransition) | Effekt für enthüllenden Folienübergang. |
+| [RippleTransition](./rippletransition) | Effekt für ripplenden Folienübergang. |
+| [ShredTransition](./shredtransition) | Effekt für zerfetzten Folienübergang. |
+| [SideDirectionTransition](./sidedirectiontransition) | Effekt für Folienübergang in seitlicher Richtung. |
+| [SlideShowTransition](./slideshowtransition) | Stellt den Folienübergang in einer Diashow dar. |
+| [SplitTransition](./splittransition) | Effekt für gesplitteten Folienübergang. |
+| [TransitionValueBase](./transitionvaluebase) | Basisklasse für Folienübergangseffekte. |
+| [WheelTransition](./wheeltransition) | Effekt für Rad-Folienübergang. |
+
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [ICornerDirectionTransition](./icornerdirectiontransition) | Folienübergangseffekt mit Eckenrichtung. |
-| [IEightDirectionTransition](./ieightdirectiontransition) | Folienübergangseffekt in acht Richtungen. |
-| [IEmptyTransition](./iemptytransition) | Leerer Folienübergangseffekt. |
-| [IFlyThroughTransition](./iflythroughtransition) | Durchfliegender Folienübergangseffekt. |
-| [IGlitterTransition](./iglittertransition) | Glitzernder Folienübergangseffekt. |
-| [IInOutTransition](./iinouttransition) | In-Out Folienübergangseffekt. |
-| [ILeftRightDirectionTransition](./ileftrightdirectiontransition) | Folienübergangseffekt in links-rechts-Richtung. |
-| [IMorphTransition](./imorphtransition) | Wellenförmiger Folienübergangseffekt. |
+| [ICornerDirectionTransition](./icornerdirectiontransition) | Effekt für Folienübergang in Eckenrichtung. |
+| [IEightDirectionTransition](./ieightdirectiontransition) | Effekt für Folienübergang in acht Richtungen. |
+| [IEmptyTransition](./iemptytransition) | Effekt für leeren Folienübergang. |
+| [IFlyThroughTransition](./iflythroughtransition) | Effekt für Folienübergang durch den Raum. |
+| [IGlitterTransition](./iglittertransition) | Effekt für glitzernden Folienübergang. |
+| [IInOutTransition](./iinouttransition) | Effekt für In-Out-Folienübergang. |
+| [ILeftRightDirectionTransition](./ileftrightdirectiontransition) | Effekt für Folienübergang in Links-Rechts-Richtung. |
+| [IMorphTransition](./imorphtransition) | Effekt für wellenförmigen Folienübergang. |
 | [IOptionalBlackTransition](./ioptionalblacktransition) | Optionaler schwarzer Folienübergangseffekt. |
-| [IOrientationTransition](./iorientationtransition) | Folienübergangseffekt mit Orientierung. |
-| [IRevealTransition](./irevealtransition) | Enthüllungsfolienübergangseffekt. |
-| [IRippleTransition](./irippletransition) | Wellenförmiger Folienübergangseffekt. |
-| [IShredTransition](./ishredtransition) | Zerkleinerter Folienübergangseffekt. |
-| [ISideDirectionTransition](./isidedirectiontransition) | Folienübergangseffekt in Seitenrichtung. |
-| [ISplitTransition](./isplittransition) | Geteilter Folienübergangseffekt. |
-| [ITransitionValueBase](./itransitionvaluebase) | Stellt die Basis-Klasse für Folienübergangseffekte dar. |
-| [IWheelTransition](./iwheeltransition) | Rad-Folienübergangseffekt. |
+| [IOrientationTransition](./iorientationtransition) | Effekt für Folienübergang in Bezug auf die Ausrichtung. |
+| [IRevealTransition](./irevealtransition) | Effekt für enthüllenden Folienübergang. |
+| [IRippleTransition](./irippletransition) | Effekt für ripplenden Folienübergang. |
+| [IShredTransition](./ishredtransition) | Effekt für zerfetzten Folienübergang. |
+| [ISideDirectionTransition](./isidedirectiontransition) | Effekt für Folienübergang in seitlicher Richtung. |
+| [ISplitTransition](./isplittransition) | Effekt für gesplitteten Folienübergang. |
+| [ITransitionValueBase](./itransitionvaluebase) | Stellt die Basisklasse für Folienübergangseffekte dar. |
+| [IWheelTransition](./iwheeltransition) | Effekt für Rad-Folienübergang. |
+
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
 | [TransitionCornerAndCenterDirectionType](./transitioncornerandcenterdirectiontype) | Gibt eine Richtung an, die auf die Ecken und die Mitte beschränkt ist. |
-| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Stellt Folieneckenübergangstypen dar. |
-| [TransitionEightDirectionType](./transitioneightdirectiontype) | Stellt Folienübergangstypen in acht Richtungen dar. |
-| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Stellt Folienübergangstypen in Ein- oder Ausrichtung dar. |
-| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Gibt eine Richtung an, die auf die Werte von links und rechts beschränkt ist. |
-| [TransitionMorphType](./transitionmorphtype) | Stellt einen Typ von Morphübergang dar. |
-| [TransitionPattern](./transitionpattern) | Gibt ein geometrisches Muster an, das sich zusammenfügt, um einen größeren Bereich auszufüllen. |
-| [TransitionShredPattern](./transitionshredpattern) | Gibt eine geometrische Form an, die sich zusammenfügt, um einen größeren Bereich auszufüllen. |
-| [TransitionSideDirectionType](./transitionsidedirectiontype) | Stellt Folienübergangstypen in Seitenrichtung dar. |
+| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Stellt Übergangstypen in Eckenrichtung dar. |
+| [TransitionEightDirectionType](./transitioneightdirectiontype) | Stellt Übergangstypen in acht Richtungen dar. |
+| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Stellt Übergangstypen in Ein- oder Ausrichtungen dar. |
+| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Gibt eine Richtung an, die auf die Werte für links und rechts beschränkt ist. |
+| [TransitionMorphType](./transitionmorphtype) | Stellt einen Typ des Morphübergangs dar. |
+| [TransitionPattern](./transitionpattern) | Gibt ein geometrisches Muster an, das zusammengefügt wird, um eine größere Fläche zu füllen. |
+| [TransitionShredPattern](./transitionshredpattern) | Gibt eine geometrische Form an, die zusammengefügt wird, um eine größere Fläche zu füllen. |
+| [TransitionSideDirectionType](./transitionsidedirectiontype) | Stellt Übergangstypen in seitlicher Richtung dar. |
 | [TransitionSoundMode](./transitionsoundmode) | Stellt den Klangmodus des Übergangs dar. |
-| [TransitionSpeed](./transitionspeed) | Stellt Folienübergangsgeschwindigkeitstypen dar. |
-| [TransitionType](./transitiontype) | Stellt den Folienübergangstyp dar. |
+| [TransitionSpeed](./transitionspeed) | Stellt Geschwindigkeitsarten von Übergängen dar. |
+| [TransitionType](./transitiontype) | Stellt den Typ des Folienübergangs dar. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

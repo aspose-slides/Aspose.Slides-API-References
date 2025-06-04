@@ -1,15 +1,15 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt der Sammlung die neue Schriftart-Ersatzregel hinzu
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt die neue Schriftart-Ersatzregel zur Sammlung hinzu
 type: docs
 weight: 20
 url: /de/aspose.slides/ifontsubstrulecollection/add/
 ---
 
-## IFontSubstRuleCollection.Add-Methode
+## IFontSubstRuleCollection.Add Methode
 
-Fügt der Sammlung die neue Schriftart-Ersatzregel hinzu
+Fügt die neue Schriftart-Ersatzregel zur Sammlung hinzu
 
 ```csharp
 public void Add(IFontSubstRule value)
@@ -19,7 +19,7 @@ public void Add(IFontSubstRule value)
 | --- | --- | --- |
 | value | IFontSubstRule | Schriftart-Ersatzregel [`IFontSubstRule`](../../ifontsubstrule) |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFontSubstRule](../../ifontsubstrule)
 * Schnittstelle [IFontSubstRuleCollection](../../ifontsubstrulecollection)

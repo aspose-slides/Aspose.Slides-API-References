@@ -1,15 +1,15 @@
 ---
 title: AdjustHandlesLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Ändern der Anpassungswerte verboten ist. Lese-/schreibbares Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das Ändern von Anpassungswerten verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/connectorlock/adjusthandleslocked/
 ---
 
-## ConnectorLock.AdjustHandlesLocked-Eigenschaft
+## ConnectorLock.AdjustHandlesLocked Eigenschaft
 
-Bestimmt, ob das Ändern der Anpassungswerte verboten ist. Lese-/schreibbares Boolean.
+Bestimmt, ob das Ändern von Anpassungswerten verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: GetCell
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает ячейку, которая может быть использована для серий или категорий диаграмм
+second_title: Aspose.Sildes for .NET API Reference
+description: Получает ячейку, которую можно использовать для серий или категорий графиков
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartdataworkbook/getcell/
 ---
 
-## GetCell(string, int, int) {#getcell_4}
+## GetCell(string, int, int) {#getcell_4}
 
-Получает ячейку, которая может быть использована для серий или категорий диаграмм
+Получает ячейку, которую можно использовать для серий или категорий графиков
 
 ```csharp
 public IChartDataCell GetCell(string worksheetName, int row, int column)
@@ -17,7 +17,7 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetName | String | Название листа. |
+| worksheetName | String | Имя таблицы. |
 | row | Int32 | Строка. |
 | column | Int32 | Столбец. |
 
@@ -27,16 +27,16 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 
 ### См. также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
-* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, int, int) {#getcell}
+## GetCell(int, int, int) {#getcell}
 
-Получает ячейку, которая может быть использована для серий или категорий диаграмм
+Получает ячейку, которую можно использовать для серий или категорий графиков
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
@@ -44,7 +44,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Индекс листа. |
+| worksheetIndex | Int32 | Индекс таблицы. |
 | row | Int32 | Строка. |
 | column | Int32 | Столбец. |
 
@@ -54,16 +54,16 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 
 ### См. также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
-* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, string) {#getcell_2}
+## GetCell(int, string) {#getcell_2}
 
-Получает ячейку, которая может быть использована для серий или категорий диаграмм
+Получает ячейку, которую можно использовать для серий или категорий графиков
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
@@ -71,8 +71,8 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Индекс листа. |
-| cellName | String | Название ячейки. |
+| worksheetIndex | Int32 | Индекс таблицы. |
+| cellName | String | Имя ячейки. |
 
 ### Возвращаемое значение
 
@@ -80,16 +80,16 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 
 ### См. также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
-* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, string, object) {#getcell_3}
+## GetCell(int, string, object) {#getcell_3}
 
-Получает ячейку, которая может быть использована для серий или категорий диаграмм
+Получает ячейку, которую можно использовать для серий или категорий графиков
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
@@ -97,8 +97,8 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Индекс листа. |
-| cellName | String | Название ячейки. |
+| worksheetIndex | Int32 | Индекс таблицы. |
+| cellName | String | Имя ячейки. |
 | value | Object | Значение. |
 
 ### Возвращаемое значение
@@ -107,16 +107,16 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 
 ### См. также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
-* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
+* сборка [Aspose.Slides](../../../)
 
 ---
 
-## GetCell(int, int, int, object) {#getcell_1}
+## GetCell(int, int, int, object) {#getcell_1}
 
-Получает ячейку, которая может быть использована для серий или категорий диаграмм
+Получает ячейку, которую можно использовать для серий или категорий графиков
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
@@ -124,7 +124,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetIndex | Int32 | Индекс листа. |
+| worksheetIndex | Int32 | Индекс таблицы. |
 | row | Int32 | Строка. |
 | column | Int32 | Столбец. |
 | value | Object | Значение. |
@@ -135,9 +135,9 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 
 ### См. также
 
-* интерфейс [IChartDataCell](../../ichartdatacell)
-* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
-* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
-* сборка [Aspose.Slides](../../../)
+* интерфейс [IChartDataCell](../../ichartdatacell)
+* интерфейс [IChartDataWorkbook](../../ichartdataworkbook)
+* пространство имен [Aspose.Slides.Charts](../../ichartdataworkbook)
+* сборка [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

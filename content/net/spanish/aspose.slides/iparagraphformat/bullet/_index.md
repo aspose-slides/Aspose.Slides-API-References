@@ -1,13 +1,13 @@
 ---
 title: Bullet
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Devuelve el formato de viñeta del párrafo. Solo lectura IBulletFormataspose.slides/ibulletformat.
 type: docs
 weight: 20
 url: /es/aspose.slides/iparagraphformat/bullet/
 ---
 
-## Propiedad IParagraphFormat.Bullet
+## IParagraphFormat.Bullet propiedad
 
 Devuelve el formato de viñeta del párrafo. Solo lectura [`IBulletFormat`](../../ibulletformat).
 
@@ -20,6 +20,6 @@ public IBulletFormat Bullet { get; }
 * interfaz [IBulletFormat](../../ibulletformat)
 * interfaz [IParagraphFormat](../../iparagraphformat)
 * espacio de nombres [Aspose.Slides](../../iparagraphformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

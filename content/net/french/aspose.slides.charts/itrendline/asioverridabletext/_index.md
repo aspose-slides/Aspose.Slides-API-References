@@ -1,15 +1,15 @@
 ---
 title: AsIOverridableText
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface IOverridableText. IOverridableText en lecture seule aspose.slides.charts/ioverridabletext.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne l'interface IOverridableText. Lecture seule IOverridableTextaspose.slides.charts/ioverridabletext.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/itrendline/asioverridabletext/
 ---
 
-## Propriété ITrendline.AsIOverridableText
+## ITrendline.AsIOverridableText propriété
 
-Renvoie l'interface IOverridableText. Lecture seule [`IOverridableText`](../../ioverridabletext).
+Retourne l'interface IOverridableText. Lecture seule [`IOverridableText`](../../ioverridabletext).
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }

@@ -1,7 +1,7 @@
 ---
 title: IsHidden
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn dieser Knoten ein versteckter Knoten im Datenmodell ist. Nur-Lesen Boolean.
+description: Gibt true zurück, wenn dieser Knoten ein versteckter Knoten im Datenmodell ist. Schreibgeschützter Boolescher Wert.
 type: docs
 weight: 40
 url: /de/aspose.slides.smartart/ismartartnode/ishidden/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/ismartartnode/ishidden/
 
 ## ISmartArtNode.IsHidden-Eigenschaft
 
-Gibt true zurück, wenn dieser Knoten ein versteckter Knoten im Datenmodell ist. Nur-Lesen Boolean.
+Gibt true zurück, wenn dieser Knoten ein versteckter Knoten im Datenmodell ist. Schreibgeschützter Boolescher Wert.
 
 ```csharp
 public bool IsHidden { get; }

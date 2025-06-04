@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameEmbedded
-second_title: Aspose.Slides for .NET API参考
-description: 插入一个带有嵌入音频文件的音频框。嵌入的音频文件声音只能是WAV格式。
+second_title: Aspose.Sildes for .NET API Reference
+description: 插入一个带嵌入音频文件的 AudioFrame。嵌入的音频文件音效只能是 WAV 格式。
 type: docs
 weight: 280
 url: /zh/aspose.slides/shapecollection/insertaudioframeembedded/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/insertaudioframeembedded/
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
-插入一个带有嵌入音频文件的音频框。嵌入的音频文件声音只能是WAV格式。
+插入一个带嵌入音频文件的 AudioFrame。嵌入的音频文件音效只能是 WAV 格式。
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -18,16 +18,16 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 插入值的零基索引。 |
-| x | Single | 新音频框的X坐标。 |
-| y | Single | 新音频框的Y坐标。 |
+| index | Int32 | 要插入值的零基索引。 |
+| x | Single | 新音频框的 X 坐标。 |
+| y | Single | 新音频框的 Y 坐标。 |
 | width | Single | 新音频框的宽度。 |
 | height | Single | 新音频框的高度。 |
 | audio_stream | Stream | 音频流。 |
 
 ### 返回值
 
-创建的AudioFrame对象。
+创建的 AudioFrame 对象。
 
 ### 另见
 
@@ -40,7 +40,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-插入一个带有嵌入音频文件的音频框。它使用来自Presentation.Audios列表的音频文件。
+插入一个带嵌入音频文件的 AudioFrame。它使用来自 Presentation.Audios 列表的音频文件。
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -49,16 +49,16 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 插入值的零基索引。 |
-| x | Single | 新音频框的X坐标。 |
-| y | Single | 新音频框的Y坐标。 |
+| index | Int32 | 要插入值的零基索引。 |
+| x | Single | 新音频框的 X 坐标。 |
+| y | Single | 新音频框的 Y 坐标。 |
 | width | Single | 新音频框的宽度。 |
 | height | Single | 新音频框的高度。 |
-| audio | IAudio | 来自Presentation.Audios列表的音频。 |
+| audio | IAudio | 来自 Presentation.Audios 列表的音频。 |
 
 ### 返回值
 
-创建的AudioFrame对象。
+创建的 AudioFrame 对象。
 
 ### 另见
 

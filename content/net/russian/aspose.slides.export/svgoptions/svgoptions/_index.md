@@ -1,6 +1,6 @@
 ---
 title: SVGOptions
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Инициализирует новый экземпляр класса SVGOptions.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/svgoptions/svgoptions/
 public SVGOptions()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)
@@ -25,7 +25,7 @@ public SVGOptions()
 
 ## SVGOptions(ILinkEmbedController) {#constructor_1}
 
-Инициализирует новый экземпляр класса SVGOptions, указывая объект контроллера встраивания ссылок.
+Инициализирует новый экземпляр класса SVGOptions, указывая объект контроллера внедрения ссылок.
 
 ```csharp
 public SVGOptions(ILinkEmbedController linkEmbedController)
@@ -33,13 +33,13 @@ public SVGOptions(ILinkEmbedController linkEmbedController)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | Ссылка на контроллер встраивания ссылок. |
+| linkEmbedController | ILinkEmbedController | Ссылка на контроллер внедрения ссылок. |
 
 ### Примечания
 
-Контроллер встраивания ссылок — это объект делегата, который отвечает за принятие решений, нужно ли встраивать ресурсы (такие как изображения) или ссылаться на них как на внешние ресурсы.
+Контроллер внедрения ссылок - это делегат, ответственный за принятие решений о том, нужно ли встраивать ресурсы (такие как изображения) или ссылаться на них как на внешние ресурсы.
 
-### См. также
+### Смотрите также
 
 * интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
 * класс [SVGOptions](../../svgoptions)

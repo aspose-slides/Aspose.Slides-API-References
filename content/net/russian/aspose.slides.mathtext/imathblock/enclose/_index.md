@@ -1,7 +1,7 @@
 ---
 title: Enclose
-second_title: Aspose.Slides для .NET API Справочник
-description: Обрамляет дочерние элементы этого блока в указанных символах, таких как скобки или другие, как обрамление, и разделяет их с помощью символа-разделителя
+second_title: Aspose.Sildes для .NET API Reference
+description: Заключает дочерние элементы данного блока в указанные символы, такие как скобки или другие, как обрамление, и разделяет их разделяющим символом
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathblock/enclose/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathblock/enclose/
 
 ## IMathBlock.Enclose метод
 
-Обрамляет дочерние элементы этого блока в указанных символах, таких как скобки или другие, как обрамление, и разделяет их с помощью символа-разделителя
+Заключает дочерние элементы этого блока в указанные символы, такие как скобки или другие, как обрамление, и разделяет их разделяющим символом
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -20,11 +20,11 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 | --- | --- | --- |
 | beginningCharacter | Char | Начальный символ (обычно левая скобка) |
 | endingCharacter | Char | Конечный символ (обычно правая скобка) |
-| separatorCharacter | Char | Символ-разделитель |
+| separatorCharacter | Char | Разделяющий символ |
 
 ### Возвращаемое значение
 
-Элемент математики типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы в качестве обрамления и разделителя
+Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы как обрамление и разделитель
 
 ### Примеры
 

@@ -1,7 +1,7 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderbares Objekt, das effektive Linienfüllungs-Eigenschaften enthält.
+description: Unveränderliches Objekt, das effektive Linienfüllungseigenschaften enthält.
 type: docs
 weight: 6100
 url: /de/aspose.slides/ilinefillformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilinefillformateffectivedata/
 
 ## ILineFillFormatEffectiveData-Schnittstelle
 
-Unveränderbares Objekt, das effektive Linienfüllungs-Eigenschaften enthält.
+Unveränderliches Objekt, das effektive Linienfüllungseigenschaften enthält.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -19,12 +19,12 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Gibt die IFillParamSource-Schnittstelle zurück. Nur-lesbar [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Gibt den Fülltyp zurück. Nur-lesbar [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Gibt das Gradientfüllformat zurück. Nur-lesbar [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Gibt das Musterfüllformat zurück. Nur-lesbar [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Legt fest, ob die Füllung mit einer Form rotiert werden soll. Nur-lesbar Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Gibt die Farbe einer soliden Füllung zurück. Nur-lesbar Farbe. |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Gibt die IFillParamSource-Schnittstelle zurück. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Gibt den Fülltyp zurück. Nur lesbar [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Gibt das Gradientfüllformat zurück. Nur lesbar [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Gibt das Musterfüllformat zurück. Nur lesbar [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Bestimmt, ob die Füllung mit einer Form rotiert werden soll. Nur lesbar Boolean. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Gibt die Farbe einer einheitlichen Füllung zurück. Nur lesbar Color. |
 
 ### Bemerkungen
 

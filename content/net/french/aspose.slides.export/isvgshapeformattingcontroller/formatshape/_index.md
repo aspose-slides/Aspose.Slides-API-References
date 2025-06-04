@@ -1,6 +1,6 @@
 ---
 title: FormatShape
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Cette fonction est appelée avant le rendu de la forme en SVG pour permettre à l'utilisateur de contrôler le SVG résultant.
 type: docs
 weight: 10

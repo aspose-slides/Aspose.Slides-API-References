@@ -7,7 +7,7 @@ weight: 8470
 url: /zh/aspose.slides.mathtext/mathfunctionfactory/
 ---
 
-## MathFunctionFactory 类
+## MathFunctionFactory class
 
 允许创建数学函数
 
@@ -30,9 +30,9 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ### 备注
 
-为了兼容 COM
+为了与COM兼容
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathFunctionFactory](../imathfunctionfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

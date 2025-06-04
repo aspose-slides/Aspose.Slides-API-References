@@ -1,7 +1,7 @@
 ---
 title: FilterEffect
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Представляет фильтровый эффект поведения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект фильтра поведения.
 type: docs
 weight: 290
 url: /ru/aspose.slides.animation/filtereffect/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/filtereffect/
 
 ## Класс FilterEffect
 
-Представляет фильтровый эффект поведения.
+Представляет эффект фильтра поведения.
 
 ```csharp
 public class FilterEffect : Behavior, IFilterEffect
@@ -25,15 +25,15 @@ public class FilterEffect : Behavior, IFilterEffect
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, накапливаются ли анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, комбинируется ли текущее анимационное поведение с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, будут ли накоплены анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, будет ли текущее анимационное поведение комбинировано с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Представляет, что эффект с поведением должен раскрывать (вход/выход) Чтение/запись [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Представляет подтип фильтрового эффекта. Чтение/запись [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Представляет, что эффект с поведением должен быть раскрыт (вход/выход) Чтение/запись [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Представляет подтип эффекта фильтра. Чтение/запись [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства для поведения эффекта. Чтение/запись [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Представляет тип фильтрового эффекта. Чтение/запись [`FilterEffectType`](../filtereffecttype). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Представляет тип эффекта фильтра. Чтение/запись [`FilterEffectType`](../filtereffecttype). |
 
-### Также см. 
+### См. также
 
 * класс [Behavior](../behavior)
 * интерфейс [IFilterEffect](../ifiltereffect)

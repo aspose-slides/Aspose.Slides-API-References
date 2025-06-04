@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Slidess for .NET API 参考
-description: 获取基础 IImageTransformOperation 接口. 只读 IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基本的 IImageTransformOperation 接口。只读 IImageTransformOperation aspose.slides.effects/iimagetransformoperation。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation/
 
 ## IAlphaModulateFixed.AsIImageTransformOperation 属性
 
-获取基础 IImageTransformOperation 接口. 只读 [`IImageTransformOperation`](../../iimagetransformoperation).
+允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../../iimagetransformoperation)。
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 接口 [IAlphaModulateFixed](../../ialphamodulatefixed)

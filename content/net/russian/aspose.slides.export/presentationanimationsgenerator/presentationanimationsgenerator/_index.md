@@ -17,9 +17,9 @@ public PresentationAnimationsGenerator(Presentation presentation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| presentation | Presentation | Размер рамки будет установлен в соответствии с [`SlideSize`](../../../aspose.slides/presentation/slidesize) |
+| presentation | Presentation | Размер кадра будет установлен в соответствии с [`SlideSize`](../../../aspose.slides/presentation/slidesize) |
 
-### См. Также
+### Также см.
 
 * класс [Presentation](../../../aspose.slides/presentation)
 * класс [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
@@ -38,9 +38,9 @@ public PresentationAnimationsGenerator(Size frameSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| frameSize | Size | Размер рамки. |
+| frameSize | Size | Размер кадра. |
 
-### См. Также
+### Также см.
 
 * класс [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * пространство имен [Aspose.Slides.Export](../../presentationanimationsgenerator)

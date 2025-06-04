@@ -1,6 +1,6 @@
 ---
 title: IStreamWrapperFactory
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Fábrica de StreamWrappers. Para interfaz COM.
 type: docs
 weight: 6920
@@ -19,14 +19,14 @@ public interface IStreamWrapperFactory
 
 | Nombre | Descripción |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea un FileStream con la ruta especificada y el modo de creación. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea un FileStream con la ruta especificada, el modo de creación y los permisos de lectura/escritura. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea un wrapper de MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea un wrapper de MemoryStream basado en el arreglo de bytes especificado. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea FileStream con la ruta y el modo de creación especificados. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea FileStream con la ruta, modo de creación y permisos de lectura/escritura especificados. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea un envoltorio de MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea un envoltorio de MemoryStream basado en el arreglo de bytes especificado. |
 
-### Ver También
+### Véase también
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: Base
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Argument de base
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathgroupingcharacter/base/
 ---
 
-## Propriété MathGroupingCharacter.Base
+## MathGroupingCharacter.Base property
 
 Argument de base
 
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ IMathElement baseArg = groupingCharacter.Base;
 ### Voir aussi
 
 * interface [IMathElement](../../imathelement)
-* classe [MathGroupingCharacter](../../mathgroupingcharacter)
+* class [MathGroupingCharacter](../../mathgroupingcharacter)
 * namespace [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * assembly [Aspose.Slides](../../../)
 

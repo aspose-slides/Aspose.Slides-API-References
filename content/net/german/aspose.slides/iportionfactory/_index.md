@@ -1,7 +1,7 @@
 ---
 title: IPortionFactory
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht das Erstellen von Textportionen
+description: Erlaubt das Erstellen von Testanteilen
 type: docs
 weight: 6520
 url: /de/aspose.slides/iportionfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportionfactory/
 
 ## IPortionFactory-Schnittstelle
 
-Ermöglicht das Erstellen von Textportionen
+Erlaubt das Erstellen von Testanteilen
 
 ```csharp
 public interface IPortionFactory
@@ -19,11 +19,11 @@ public interface IPortionFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Erstellt eine leere Textportion. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Erstellt eine Portion unter Verwendung der angegebenen Portionsdaten. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Erstellt eine Textportion aus der angegebenen Zeichenfolge. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Erstellt einen leeren Textanteil. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Erstellt einen Anteil unter Verwendung der angegebenen Anteilsdaten. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Erstellt einen Textanteil aus dem angegebenen String. |
 
-### Bemerkungen
+### Anmerkungen
 
 Für COM-Kompatibilität
 

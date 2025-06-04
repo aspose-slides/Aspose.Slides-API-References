@@ -1,7 +1,7 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示色彩方案中的颜色。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示颜色方案中的颜色。
 type: docs
 weight: 9470
 url: /zh/aspose.slides/schemecolor/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/schemecolor/
 
 ## SchemeColor 枚举
 
-表示色彩方案中的颜色。
+表示颜色方案中的颜色。
 
 ```csharp
 public enum SchemeColor
@@ -19,7 +19,7 @@ public enum SchemeColor
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 色彩方案未定义。 |
+| NotDefined | `-1` | 颜色方案未定义。 |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |
@@ -38,7 +38,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

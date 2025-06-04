@@ -1,7 +1,7 @@
 ---
 title: ColumnFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Format einer Tabellenkolonne dar.
+description: Stellt das Format einer Tabellen-Spalte dar.
 type: docs
 weight: 2520
 url: /de/aspose.slides/columnformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/columnformat/
 
 ## ColumnFormat-Klasse
 
-Stellt das Format einer Tabellenkolonne dar.
+Stellt das Format einer Tabellen-Spalte dar.
 
 ```csharp
 public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
@@ -19,7 +19,7 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Ruft die effektiven Formatierungseigenschaften der Tabellenkolonne ab, wobei Vererbung und Tabellenstile angewendet werden. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Ruft die effektiven Formatierungs-Eigenschaften der Tabellen-Spalte ab, mit angewandter Vererbung und Tabellenstilen. |
 
 ### Siehe auch
 

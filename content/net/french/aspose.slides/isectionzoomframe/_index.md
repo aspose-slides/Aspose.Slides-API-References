@@ -1,6 +1,6 @@
 ---
 title: ISectionZoomFrame
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un objet Section Zoom dans une diapositive.
 type: docs
 weight: 6720
@@ -19,10 +19,10 @@ public interface ISectionZoomFrame : IZoomObject
 
 | Nom | Description |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Renvoie l'interface IZoomObject. |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Retourne l'interface IZoomObject. |
 | [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Obtient ou définit l'objet section auquel l'objet Section Zoom est lié. Lecture/écriture [`ISection`](../isection). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IZoomObject](../izoomobject)
 * namespace [Aspose.Slides](../../aspose.slides)

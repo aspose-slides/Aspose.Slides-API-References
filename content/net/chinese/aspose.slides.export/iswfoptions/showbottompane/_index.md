@@ -1,6 +1,6 @@
 ---
 title: ShowBottomPane
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 显示/隐藏底部窗格。可以在 flashvars 中被覆盖。默认值为 true。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/iswfoptions/showbottompane/
 public bool ShowBottomPane { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ISwfOptions](../../iswfoptions)
 * 命名空间 [Aspose.Slides.Export](../../iswfoptions)

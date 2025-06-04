@@ -1,7 +1,7 @@
 ---
 title: StylePreset
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den integrierten Tabellenstil ab oder legt ihn fest. Lese-/Schreibzugriff auf TableStylePresetaspose.slides/tablestylepreset.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft den eingebauten Tabellenstil ab oder legt ihn fest. Lese-/Schreibzugriff auf TableStylePresetaspose.slides/tablestylepreset.
 type: docs
 weight: 120
 url: /de/aspose.slides/itable/stylepreset/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itable/stylepreset/
 
 ## ITable.StylePreset-Eigenschaft
 
-Ruft den integrierten Tabellenstil ab oder legt ihn fest. Lese-/Schreibzugriff auf [`TableStylePreset`](../../tablestylepreset).
+Ruft den eingebauten Tabellenstil ab oder legt ihn fest. Lese-/Schreibzugriff auf [`TableStylePreset`](../../tablestylepreset).
 
 ```csharp
 public TableStylePreset StylePreset { get; set; }

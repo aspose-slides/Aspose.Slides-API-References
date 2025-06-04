@@ -1,15 +1,15 @@
 ---
 title: FrameTickEventArgs
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Argumente des FrameTick./presentationplayer/frametick-Ereignisses dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt die Argumente des FrameTick./presentationplayer/frametick Ereignisses dar.
 type: docs
 weight: 3640
 url: /de/aspose.slides.export/frametickeventargs/
 ---
 
-## FrameTickEventArgs-Klasse
+## FrameTickEventArgs Klasse
 
-Stellt die Argumente des [`FrameTick`](../presentationplayer/frametick)-Ereignisses dar.
+Stellt die Argumente des [`FrameTick`](../presentationplayer/frametick) Ereignisses dar.
 
 ```csharp
 public class FrameTickEventArgs
@@ -19,13 +19,13 @@ public class FrameTickEventArgs
 
 | Name | Beschreibung |
 | --- | --- |
-| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | Holt den Präsentations-Player |
+| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | Gibt den Präsentationsspieler zurück |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Holt den aktuellen [`PresentationPlayer`](../presentationplayer)-Frame. |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Gibt den aktuellen [`PresentationPlayer`](../presentationplayer) Frame zurück. |
 
 ### Beispiele
 

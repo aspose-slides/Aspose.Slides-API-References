@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个枚举器，用于遍历集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个枚举器，该枚举器遍历集合。
 type: docs
 weight: 70
 url: /zh/aspose.slides/masterslidecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/masterslidecollection/getenumerator/
 
 ## MasterSlideCollection.GetEnumerator 方法
 
-返回一个枚举器，用于遍历集合。
+返回一个枚举器，该枚举器遍历集合。
 
 ```csharp
 public IEnumerator<IMasterSlide> GetEnumerator()
@@ -19,7 +19,7 @@ public IEnumerator<IMasterSlide> GetEnumerator()
 
 一个可以用于遍历集合的 IEnumerator。
 
-### 参见
+### 另见
 
 * 接口 [IMasterSlide](../../imasterslide)
 * 类 [MasterSlideCollection](../../masterslidecollection)

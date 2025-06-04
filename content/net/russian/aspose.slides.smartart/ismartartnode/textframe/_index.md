@@ -1,15 +1,15 @@
 ---
 title: TextFrame
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или устанавливает текст узла. Только для чтения ITextFrame aspose.slides/itextframe.
+description: Возвращает или задает текст узла. Только для чтения ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 90
 url: /ru/aspose.slides.smartart/ismartartnode/textframe/
 ---
 
-## Свойство ISmartArtNode.TextFrame
+## ISmartArtNode.TextFrame свойство
 
-Возвращает или устанавливает текст узла. Только для чтения [`ITextFrame`](../../../aspose.slides/itextframe).
+Возвращает или задает текст узла. Только для чтения [`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

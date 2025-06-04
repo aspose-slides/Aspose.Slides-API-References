@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по заданному индексу. Только для чтения SmartArtShapeaspose.slides.smartart/smartartshape.gt.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает элемент по указанному индексу. Только для чтения SmartArtShapeaspose.slides.smartart/smartartshape.gt.
 type: docs
 weight: 30
 url: /ru/aspose.slides.smartart/smartartshapecollection/item/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.smartart/smartartshapecollection/item/
 
 ## Индексатор SmartArtShapeCollection
 
-Получает элемент по заданному индексу. Только для чтения [`SmartArtShape`](../../smartartshape).&gt;.
+Получает элемент по указанному индексу. Только для чтения [`SmartArtShape`](../../smartartshape).&gt;.
 
 ```csharp
 public ISmartArtShape this[int index] { get; }
@@ -19,9 +19,9 @@ public ISmartArtShape this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Возвращаемое значение
+### Значение возвращаемого параметра
 
-Форма SmartArt
+Фигура SmartArt
 
 ### См. также
 

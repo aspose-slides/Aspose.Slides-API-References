@@ -1,6 +1,6 @@
 ---
 title: RemoveNotesSlide
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime la diapositive de notes de la diapositive actuelle.
 type: docs
 weight: 30

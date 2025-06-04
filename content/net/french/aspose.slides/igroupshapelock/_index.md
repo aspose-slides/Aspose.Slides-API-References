@@ -1,7 +1,7 @@
 ---
 title: IGroupShapeLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine quelles opérations sont désactivées sur le GroupShape parent.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Détermine quelles opérations sont désactivées sur le parent GroupShape.
 type: docs
 weight: 5890
 url: /fr/aspose.slides/igroupshapelock/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igroupshapelock/
 
 ## Interface IGroupShapeLock
 
-Détermine quelles opérations sont désactivées sur le GroupShape parent.
+Détermine quelles opérations sont désactivées sur le parent GroupShape.
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
@@ -20,15 +20,15 @@ public interface IGroupShapeLock : IBaseShapeLock
 | Nom | Description |
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | Permet d'obtenir l'interface de base IBaseShapeLock. Lecture seule [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Détermine si la forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture. |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture. |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Détermine si le changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture. |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture. |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Détermine si la séparation de ce GroupShape est interdite. Booléen en lecture/écriture. |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | Détermine si la forme doit préserver le rapport d'aspect lors de la redimension. Lecture/écriture Boolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Lecture/écriture Boolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | Détermine si le déplacement de cette forme est interdit. Lecture/écriture Boolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | Détermine si le changement de l'angle de rotation de cette forme est interdit. Lecture/écriture Boolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Lecture/écriture Boolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Lecture/écriture Boolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | Détermine si la séparation de cette forme de groupe est interdite. Lecture/écriture Boolean. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBaseShapeLock](../ibaseshapelock)
 * namespace [Aspose.Slides](../../aspose.slides)

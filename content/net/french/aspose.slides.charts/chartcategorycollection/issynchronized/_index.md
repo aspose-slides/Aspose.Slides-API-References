@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une valeur indiquant si l'accès à la liste est synchronisé et sûr pour les threads. Boolean en lecture seule.
+description: Renvoie une valeur indiquant si l'accès à la List est synchronisé et sûr pour les threads. Booléen en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/chartcategorycollection/issynchronized/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartcategorycollection/issynchronized/
 
 ## Propriété ChartCategoryCollection.IsSynchronized
 
-Renvoie une valeur indiquant si l'accès à la liste est synchronisé (sûr pour les threads). Boolean en lecture seule.
+Renvoie une valeur indiquant si l'accès à la List est synchronisé (sûr pour les threads). Booléen en lecture seule.
 
 ```csharp
 public bool IsSynchronized { get; }

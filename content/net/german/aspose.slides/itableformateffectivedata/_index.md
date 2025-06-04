@@ -1,7 +1,7 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Slides for .NET API Referenz
-description: Unveränderliches Objekt, das effektive Tabellengestaltungsproperties enthält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das effektive Tabellenformatierungs-Eigenschaften enthält.
 type: docs
 weight: 7030
 url: /de/aspose.slides/itableformateffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itableformateffectivedata/
 
 ## ITableFormatEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Tabellengestaltungsproperties enthält.
+Unveränderliches Objekt, das effektive Tabellenformatierungs-Eigenschaften enthält.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,10 +19,10 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBaseTableFormatEffectiveData. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Gibt die Transparenz der Füllfarbe zurück. Lese Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Ermöglicht das Abrufen der Grundschnittstelle IBaseTableFormatEffectiveData. Nur lesbar [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Gibt die Transparenz der Füllfarbe zurück. Gibt einen Single-Wert zurück. |
 
-### Bemerkungen
+### Anmerkungen
 
 Diese Schnittstelle wird zusammen mit der [`ITableFormat`](../itableformat) Schnittstelle verwendet, um effektive Formatierungswerte mit Vererbung und angewandten Tabellenstilen zurückzugeben.
 

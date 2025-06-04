@@ -1,15 +1,15 @@
 ---
 title: StrikethroughBottomLeftToTopRight
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: La barre en bas à gauche à haut à droite est par défaut fausse. Spécifie l'état masqué ou affiché d'une ligne diagonale barrée du coin inférieur gauche au coin supérieur droit de la boîte de bordure.
+second_title: Référence API Aspose.Slides pour .NET
+description: La barre oblique de bas en bas à droite valeur par défaut est fausse. Spécifie l'état caché ou affiché d'une ligne diagonale barrée du coin inférieur gauche au coin supérieur droit de la boîte de bordure.
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright/
 ---
 
-## Propriété IMathBorderBox.BarrerEnBasGaucheÀHautDroite
+## IMathBorderBox.StrikethroughBottomLeftToTopRight propriété
 
-Barrer en bas à gauche à haut à droite (par défaut est faux). Spécifie l'état masqué ou affiché d'une ligne diagonale barrée du coin inférieur gauche au coin supérieur droit de la boîte de bordure.
+La barre oblique de bas en bas à droite (valeur par défaut est fausse). Spécifie l'état caché ou affiché d'une ligne diagonale barrée du coin inférieur gauche au coin supérieur droit de la boîte de bordure.
 
 ```csharp
 public bool StrikethroughBottomLeftToTopRight { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.StrikethroughBottomLeftToTopRight = true;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathBorderBox](../../imathborderbox)
 * namespace [Aspose.Slides.MathText](../../imathborderbox)

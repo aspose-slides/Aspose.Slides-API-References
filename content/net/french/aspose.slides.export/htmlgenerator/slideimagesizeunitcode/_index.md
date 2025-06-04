@@ -1,13 +1,13 @@
 ---
 title: SlideImageSizeUnitCode
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie un code css de l'unité dans laquelle la taille de l'image de la diapositive est spécifiée. Chaîne en lecture seule.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/htmlgenerator/slideimagesizeunitcode/
 ---
 
-## Propriété HtmlGenerator.SlideImageSizeUnitCode
+## HtmlGenerator.SlideImageSizeUnitCode propriété
 
 Renvoie un code css de l'unité dans laquelle la taille de l'image de la diapositive est spécifiée. Chaîne en lecture seule.
 

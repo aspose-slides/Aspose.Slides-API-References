@@ -1,7 +1,7 @@
 ---
 title: ArrowheadsLocked
-second_title: Aspose.Sildes for .NET API 参考
-description: 判断是否禁止改变箭头。读/写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定是否禁止更改箭头。可读/写布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ipictureframelock/arrowheadslocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframelock/arrowheadslocked/
 
 ## IPictureFrameLock.ArrowheadsLocked 属性
 
-判断是否禁止改变箭头。读/写布尔值。
+确定是否禁止更改箭头。可读/写布尔值。
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }
 ```
 
-### 参考
+### 另请参阅
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

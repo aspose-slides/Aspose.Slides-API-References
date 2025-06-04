@@ -1,13 +1,13 @@
 ---
 title: CreateFillOverlay
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Crée un effet de superposition de remplissage.
 type: docs
 weight: 140
 url: /fr/aspose.slides.effects/imagetransformoperationfactory/createfilloverlay/
 ---
 
-## Méthode ImageTransformOperationFactory.CreateFillOverlay
+## ImageTransformOperationFactory.CreateFillOverlay méthode
 
 Crée un effet de superposition de remplissage.
 

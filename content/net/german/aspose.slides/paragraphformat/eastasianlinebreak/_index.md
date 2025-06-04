@@ -1,15 +1,15 @@
 ---
 title: EastAsianLineBreak
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/schreibbares NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /de/aspose.slides/paragraphformat/eastasianlinebreak/
 ---
 
-## ParagraphFormat.EastAsianLineBreak-Eigenschaft
+## ParagraphFormat.EastAsianLineBreak Eigenschaft
 
-Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/schreibbar [`NullableBool`](../../nullablebool).
+Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool EastAsianLineBreak { get; set; }

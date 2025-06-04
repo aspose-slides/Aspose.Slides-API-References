@@ -15,7 +15,7 @@ Tipo de ruta del segmento
 public PathCommandType PathCommand { get; }
 ```
 
-### Ver También
+### Vea También
 
 * enum [PathCommandType](../../pathcommandtype)
 * class [PathSegment](../../pathsegment)

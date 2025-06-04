@@ -1,7 +1,7 @@
 ---
 title: Transform
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置文本包裹形状。读/写 TextShapeTypeaspose.slides/textshapetype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置文本换行形状。读/写 TextShapeTypeaspose.slides/textshapetype。
 type: docs
 weight: 150
 url: /zh/aspose.slides/itextframeformat/transform/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itextframeformat/transform/
 
 ## ITextFrameFormat.Transform 属性
 
-获取或设置文本包裹形状。读/写 [`TextShapeType`](../../textshapetype)。
+获取或设置文本换行形状。读/写 [`TextShapeType`](../../textshapetype)。
 
 ```csharp
 public TextShapeType Transform { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 枚举 [TextShapeType](../../textshapetype)
 * 接口 [ITextFrameFormat](../../itextframeformat)

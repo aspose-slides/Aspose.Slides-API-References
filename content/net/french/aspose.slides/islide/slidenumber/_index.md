@@ -1,7 +1,7 @@
 ---
 title: SlideNumber
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne un numéro de diapositive. L'index de la diapositive dans la collection Slidesaspose.slides/ipresentation/slides est toujours égal à SlideNumber - 1. Lecture/écriture Int32.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le numéro de la diapositive. L'index de la diapositive dans la collection Slidesaspose.slides/ipresentation/slides est toujours égal à SlideNumber - 1. Lire/écrire Int32.
 type: docs
 weight: 70
 url: /fr/aspose.slides/islide/slidenumber/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islide/slidenumber/
 
 ## Propriété ISlide.SlideNumber
 
-Retourne un numéro de diapositive. L'index de la diapositive dans la collection [`Slides`](../../ipresentation/slides) est toujours égal à SlideNumber - 1. Lecture/écriture Int32.
+Renvoie le numéro de la diapositive. L'index de la diapositive dans la collection [`Slides`](../../ipresentation/slides) est toujours égal à SlideNumber - 1. Lire/écrire Int32.
 
 ```csharp
 public int SlideNumber { get; set; }

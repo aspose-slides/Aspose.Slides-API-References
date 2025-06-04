@@ -1,7 +1,7 @@
 ---
 title: BasePath
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Basis-Pfad an, unter dem das Dokument mit Ressourcen gespeichert wird. Der Standardwert ist das aktuelle Verzeichnis der Anwendung.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt den Basis-Pfad an, in dem das Dokument mit Ressourcen gespeichert wird. Standardmäßig ist das das aktuelle Verzeichnis der Anwendung.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/markdownsaveoptions/basepath/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/markdownsaveoptions/basepath/
 
 ## MarkdownSaveOptions.BasePath-Eigenschaft
 
-Gibt den Basis-Pfad an, unter dem das Dokument mit Ressourcen gespeichert wird. Der Standardwert ist das aktuelle Verzeichnis der Anwendung.
+Gibt den Basis-Pfad an, in dem das Dokument mit Ressourcen gespeichert wird. Standardmäßig ist das das aktuelle Verzeichnis der Anwendung.
 
 ```csharp
 public string BasePath { get; set; }

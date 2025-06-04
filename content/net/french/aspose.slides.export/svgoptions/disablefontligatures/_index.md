@@ -1,13 +1,13 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur true, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur false.
 type: docs
 weight: 70
 url: /fr/aspose.slides.export/svgoptions/disablefontligatures/
 ---
 
-## Propriété SVGOptions.DisableFontLigatures
+## SVGOptions.DisableFontLigatures propriété
 
 Obtient ou définit une valeur indiquant si le texte est rendu sans utiliser de ligatures. Lorsqu'il est défini sur `true`, les ligatures seront désactivées dans la sortie rendue. Par défaut, cette propriété est définie sur `false`.
 
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SVGOptions](../../svgoptions)
 * espace de noms [Aspose.Slides.Export](../../svgoptions)

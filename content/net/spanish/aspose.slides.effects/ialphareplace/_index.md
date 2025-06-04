@@ -20,15 +20,15 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Permite obtener la interfaz base IAccessiblePVIObject. Solo de lectura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Permite obtener la interfaz base IImageTransformOperation. Solo de lectura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Véase también
+### Véase También
 
 * interfaz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfaz [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)
 * interfaz [IImageTransformOperation](../iimagetransformoperation)
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

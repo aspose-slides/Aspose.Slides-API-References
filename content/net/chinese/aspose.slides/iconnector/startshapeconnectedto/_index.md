@@ -1,15 +1,15 @@
 ---
 title: StartShapeConnectedTo
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置连接器起始点所连接的形状。可读写 IShapeaspose.slides/ishape。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置连接器开始部分要附加的形状。可读写 IShapeaspose.slides/ishape。
 type: docs
 weight: 60
 url: /zh/aspose.slides/iconnector/startshapeconnectedto/
 ---
 
-## IConnector.StartShapeConnectedTo 属性
+## IConnector.StartShapeConnectedTo property
 
-返回或设置连接器起始点所连接的形状。可读写 [`IShape`](../../ishape)。
+返回或设置连接器开始部分要附加的形状。可读写 [`IShape`](../../ishape)。
 
 ```csharp
 public IShape StartShapeConnectedTo { get; set; }
@@ -17,9 +17,9 @@ public IShape StartShapeConnectedTo { get; set; }
 
 ### 异常
 
-| 异常 | 条件 |
+| exception | condition |
 | --- | --- |
-| ArgumentException | 当连接的形状没有任何连接点时抛出 (IShape.ConnectionSiteCount 等于零) |
+| ArgumentException | 当连接的形状没有任何连接点时引发（IShape.ConnectionSiteCount 等于零） |
 
 ### 另请参见
 

@@ -1,13 +1,13 @@
 ---
 title: HighlightRegex
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: Resalta todas las coincidencias de la expresión regular con el color especificado.
 type: docs
 weight: 90
 url: /es/aspose.slides/textframe/highlightregex/
 ---
 
-## Método TextFrame.HighlightRegex
+## TextFrame.HighlightRegex método
 
 Resalta todas las coincidencias de la expresión regular con el color especificado.
 
@@ -19,7 +19,7 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 | --- | --- | --- |
 | regex | Regex | La expresión regular Regex para obtener cadenas a resaltar. |
 | highlightColor | Color | El color para resaltar el texto. |
-| callback | IFindResultCallback | El objeto de devolución de llamada para recibir resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | El objeto de callback para recibir resultados de búsqueda [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Ejemplos
 
@@ -36,7 +36,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IFindResultCallback](../../ifindresultcallback)
 * clase [TextFrame](../../textframe)

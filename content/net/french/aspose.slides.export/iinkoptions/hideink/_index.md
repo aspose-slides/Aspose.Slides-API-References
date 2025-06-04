@@ -1,15 +1,15 @@
 ---
 title: HideInk
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Montre ou cache les éléments Ink dans le document exporté.
+second_title: Référence API Aspose.Slides pour .NET
+description: Affiche ou masque les éléments Ink dans le document exporté.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/iinkoptions/hideink/
 ---
 
-## Propriété IInkOptions.HideInk
+## IInkOptions.HideInk property
 
-Montre ou cache les éléments Ink dans le document exporté.
+Affiche ou masque les éléments Ink dans le document exporté.
 
 ```csharp
 public bool HideInk { get; set; }
@@ -21,7 +21,7 @@ La valeur par défaut est false.
 
 ### Exemples
 
-L'exemple suivant montre comment cacher les éléments Ink dans le document PDF exporté :
+Le prochain exemple montre comment masquer les éléments Ink dans un document PDF exporté :
 
 ```csharp
 [C#]

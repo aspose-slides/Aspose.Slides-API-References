@@ -1,13 +1,13 @@
 ---
 title: FontUnderline
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип подчеркивания текста. Наследование не применяется. Чтение/запись TextUnderlineType aspose.slides/textunderlinetype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает тип подчеркивания текста. Наследование не применяется. Чтение/запись TextUnderlineTypeaspose.slides/textunderlinetype.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ibaseportionformat/fontunderline/
 ---
 
-## Свойство IBasePortionFormat.FontUnderline
+## IBasePortionFormat.FontUnderline свойство
 
 Возвращает или устанавливает тип подчеркивания текста. Наследование не применяется. Чтение/запись [`TextUnderlineType`](../../textunderlinetype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseportionformat/fontunderline/
 public TextUnderlineType FontUnderline { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
 * enum [TextUnderlineType](../../textunderlinetype)
 * interface [IBasePortionFormat](../../ibaseportionformat)

@@ -15,7 +15,7 @@ Standardkonstruktor.
 public PptxUnsupportedFormatException()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
 * Namespace [Aspose.Slides](../../pptxunsupportedformatexception)
@@ -35,7 +35,7 @@ public PptxUnsupportedFormatException(string message)
 | --- | --- | --- |
 | message | String | Nachricht |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
 * Namespace [Aspose.Slides](../../pptxunsupportedformatexception)
@@ -56,7 +56,7 @@ public PptxUnsupportedFormatException(string message, Exception exception)
 | message | String | Nachricht |
 | exception | Exception | ursprüngliche Ausnahme |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PptxUnsupportedFormatException](../../pptxunsupportedformatexception)
 * Namespace [Aspose.Slides](../../pptxunsupportedformatexception)

@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina el índice de un elemento específico en la IList.
+second_title: Aspose.Sildes para .NET API Reference
+description: Determina el índice de un elemento específico en el IList.
 type: docs
 weight: 90
 url: /es/aspose.slides.animation/behaviorcollection/indexof/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/behaviorcollection/indexof/
 
 ## Método BehaviorCollection.IndexOf
 
-Determina el índice de un elemento específico en la IList.
+Determina el índice de un elemento específico en el IList.
 
 ```csharp
 public int IndexOf(IBehavior item)
@@ -17,7 +17,7 @@ public int IndexOf(IBehavior item)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| item | IBehavior | El objeto a localizar en la IList. |
+| item | IBehavior | El objeto a localizar en el IList. |
 
 ### Valor de Retorno
 

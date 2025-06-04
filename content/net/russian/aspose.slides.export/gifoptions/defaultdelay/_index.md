@@ -1,15 +1,15 @@
 ---
 title: DefaultDelay
 second_title: Aspose.Sildes для .NET API Справочник
-description: Получает или устанавливает время задержки по умолчанию в мс. Это значение будет использоваться, если AdvanceAfterTimeaspose.slides/islideshowtransition/advanceaftertime не установлено. Значение по умолчанию - 1000.
+description: Получает или задает время задержки по умолчанию в мс. Это значение будет использоваться, если не установлено AdvanceAfterTimeaspose.slides/islideshowtransition/advanceaftertime. Значение по умолчанию - 1000.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/gifoptions/defaultdelay/
 ---
 
-## Свойство GifOptions.DefaultDelay
+## GifOptions.DefaultDelay свойство
 
-Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) не установлено. Значение по умолчанию - 1000.
+Получает или задает время задержки по умолчанию [мс]. Это значение будет использоваться, если [`AdvanceAfterTime`](../../../aspose.slides/islideshowtransition/advanceaftertime) не установлено. Значение по умолчанию - 1000.
 
 ```csharp
 public int DefaultDelay { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [GifOptions](../../gifoptions)
 * пространство имен [Aspose.Slides.Export](../../gifoptions)

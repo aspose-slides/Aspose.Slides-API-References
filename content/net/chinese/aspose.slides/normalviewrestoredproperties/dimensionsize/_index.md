@@ -1,27 +1,27 @@
 ---
 title: DimensionSize
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定 slide 区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。可读写的 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定幻灯片区域的大小（当为RestoredTop的子级时为宽度，当为RestoredLeft的子级时为高度）。可读/写单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides/normalviewrestoredproperties/dimensionsize/
 ---
 
-## NormalViewRestoredProperties.DimensionSize 属性
+## NormalViewRestoredProperties.DimensionSize属性
 
-指定 slide 区域的大小（当为 RestoredTop 的子项时为宽度，当为 RestoredLeft 的子项时为高度）。可读写的 Single。
+指定幻灯片区域的大小（当为RestoredTop的子级时为宽度，当为RestoredLeft的子级时为高度）。可读/写单精度浮点数。
 
 ```csharp
 public float DimensionSize { get; set; }
 ```
 
-### 异常
+### 除外情况
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 当值小于 0 或大于 100 时抛出。 |
+| ArgumentOutOfRangeException | 当值小于0或大于100时抛出。 |
 
-### 另请参阅
+### 参见
 
 * class [NormalViewRestoredProperties](../../normalviewrestoredproperties)
 * namespace [Aspose.Slides](../../normalviewrestoredproperties)

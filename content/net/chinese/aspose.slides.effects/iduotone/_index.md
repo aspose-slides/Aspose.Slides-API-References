@@ -1,7 +1,7 @@
 ---
 title: IDuotone
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示双色调效果。
+description: 表示二色调效果。
 type: docs
 weight: 3140
 url: /zh/aspose.slides.effects/iduotone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iduotone/
 
 ## IDuotone 接口
 
-表示双色调效果。
+表示二色调效果。
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -19,12 +19,12 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 返回暗像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 返回亮像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 返回暗色像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 返回亮色像素的目标颜色格式。只读 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IDuotoneEffectiveData](../iduotoneeffectivedata)

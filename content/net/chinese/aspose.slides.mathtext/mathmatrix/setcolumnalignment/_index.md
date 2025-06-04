@@ -1,6 +1,6 @@
 ---
 title: SetColumnAlignment
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 设置指定列的水平对齐方式
 type: docs
 weight: 200
@@ -17,7 +17,7 @@ public void SetColumnAlignment(int columnIndex, MathHorizontalAlignment val)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 从零开始的列索引 |
+| columnIndex | Int32 | 基于零的列索引 |
 | val | MathHorizontalAlignment | 指定列的新水平对齐方式值 |
 
 ### 示例
@@ -30,7 +30,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.SetColumnAlignment(0, MathHorizontalAlignment.Left);
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [MathHorizontalAlignment](../../mathhorizontalalignment)
 * class [MathMatrix](../../mathmatrix)

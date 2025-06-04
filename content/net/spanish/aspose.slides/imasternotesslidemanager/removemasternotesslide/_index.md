@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides/imasternotesslidemanager/removemasternotesslide/
 ---
 
-## IMasterNotesSlideManager.RemoveMasterNotesSlide método
+## IMasterNotesSlideManager.RemoveMasterNotesSlide method
 
 Elimina la diapositiva de notas maestra.
 
@@ -15,10 +15,10 @@ Elimina la diapositiva de notas maestra.
 public void RemoveMasterNotesSlide()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IMasterNotesSlideManager](../../imasternotesslidemanager)
 * espacio de nombres [Aspose.Slides](../../imasternotesslidemanager)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

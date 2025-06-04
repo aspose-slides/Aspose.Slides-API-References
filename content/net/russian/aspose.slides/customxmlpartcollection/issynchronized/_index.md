@@ -1,13 +1,13 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides для .NET API Reference
-description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным и безопасным для потоков. Только для чтения Boolean.
+description: Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным безопасным для потоков. Только для чтения Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/customxmlpartcollection/issynchronized/
 ---
 
-## Свойство CustomXmlPartCollection.IsSynchronized
+## CustomXmlPartCollection.IsSynchronized свойство
 
 Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (безопасным для потоков). Только для чтения Boolean.
 

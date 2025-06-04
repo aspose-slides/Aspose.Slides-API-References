@@ -1,7 +1,7 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Slides für .NET API-Referenz
-description: Position von Grenzen Subscript/Superscript in n-ären Operatoren.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Standort von Grenzen Subscript/Superscript in n-ären Operatoren.
 type: docs
 weight: 8580
 url: /de/aspose.slides.mathtext/mathlimitlocations/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathlimitlocations/
 
 ## MathLimitLocations Aufzählung
 
-Position von Grenzen (Subscript/Superscript) in n-ären Operatoren.
+Standort von Grenzen (Subscript/Superscript) in n-ären Operatoren.
 
 ```csharp
 public enum MathLimitLocations
@@ -20,8 +20,8 @@ public enum MathLimitLocations
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `0` | Nicht definiert |
-| UnderOver | `1` | Grenzen werden oben und unten vom Operatorsymbol gezeichnet |
-| SubscriptSuperscript | `2` | Grenzen werden als Subscript und Superscript gezeichnet |
+| UnderOver | `1` | Grenzen werden oben und unten am Operatorsymbol dargestellt |
+| SubscriptSuperscript | `2` | Grenzen werden als Subscript und Superscript dargestellt |
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: Dpi
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le dpi utilisé pour remplir une image. Lecture seule Int32.
+description: Renvoie le dpi qui est utilisé pour remplir une image. Lecture seule Int32.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ipicturefillformateffectivedata/dpi/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipicturefillformateffectivedata/dpi/
 
 ## Propriété IPictureFillFormatEffectiveData.Dpi
 
-Retourne le dpi utilisé pour remplir une image. Lecture seule Int32.
+Renvoie le dpi qui est utilisé pour remplir une image. Lecture seule Int32.
 
 ```csharp
 public int Dpi { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * namespace [Aspose.Slides](../../ipicturefillformateffectivedata)

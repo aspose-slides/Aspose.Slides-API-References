@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForSurfaceSeries
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Untertypen von Surface ist, siehe auch die Methode ChartTypeCharacterizer.IsChartTypeSurfaceChartType.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Subtypen von Surface ist, siehe auch die Methode ChartTypeCharacterizer.IsChartTypeSurfaceChartType.
 type: docs
 weight: 210
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforsurfaceseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforsurfacese
 
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Untertypen von Surface ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Subtypen von Surface ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Neuer Datenpunkt.
 
 ## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Untertypen von Surface ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eines der Subtypen von Surface ist (siehe auch die Methode ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(double value)

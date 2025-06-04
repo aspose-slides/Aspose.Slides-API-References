@@ -1,7 +1,7 @@
 ---
 title: FadeInDuration
-second_title: Aspose.Sildes для .NET - Справочная информация по API
-description: Указывает время для начального появления медиа в миллисекундах. Читаемое/Записываемое значение типа Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает время в миллисекундах для начального появления медиа. Чтение/запись Single.
 type: docs
 weight: 80
 url: /ru/aspose.slides/iaudioframe/fadeinduration/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iaudioframe/fadeinduration/
 
 ## IAudioFrame.FadeInDuration свойство
 
-Указывает время для начального появления медиа в миллисекундах. Читаемое/Записываемое значение типа Single.
+Указывает время в миллисекундах для начального появления медиа. Чтение/запись Single.
 
 ```csharp
 public float FadeInDuration { get; set; }
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Установить продолжительность начального появления на 200мс
+    // Установить продолжительность начального появления на 200 мс
     audioFrame.FadeInDuration = 200f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);

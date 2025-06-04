@@ -1,7 +1,7 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Slides for .NET API Reference
-description: 表示形状锁定禁用操作。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示图形锁定被禁用的操作。
 type: docs
 weight: 5130
 url: /zh/aspose.slides/ibaseshapelock/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseshapelock/
 
 ## IBaseShapeLock 接口
 
-表示形状锁定（禁用操作）。
+表示图形锁定（禁用操作）。
 
 ```csharp
 public interface IBaseShapeLock
@@ -21,7 +21,7 @@ public interface IBaseShapeLock
 | --- | --- |
 | [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。只读布尔值。 |
 
-### 参见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: FontBold
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la police est en gras. Aucune héritage appliquée. Lecture/écriture NullableBoolaspose.slides/nullablebool.
+second_title: Référence API Aspose.Slides pour .NET
+description: Détermine si la police est en gras. Pas d'héritage appliqué. Lecture/écriture NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 70
 url: /fr/aspose.slides/baseportionformat/fontbold/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/baseportionformat/fontbold/
 
 ## Propriété BasePortionFormat.FontBold
 
-Détermine si la police est en gras. Aucune héritage appliquée. Lecture/écriture [`NullableBool`](../../nullablebool).
+Détermine si la police est en gras. Pas d'héritage appliqué. Lecture/écriture [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FontBold { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Slide
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie la diapositive parente d'une forme. En lecture seule IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 40

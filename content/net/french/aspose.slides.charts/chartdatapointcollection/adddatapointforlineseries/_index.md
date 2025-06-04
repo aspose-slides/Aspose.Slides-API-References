@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForLineSeries
-second_title: Aspose.Sildes pour .NET API Reference
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Ligne, voir aussi la méthode IsChartTypeLineaspose.slides.charts/charttypecharacterizer/ischarttypeline.
+second_title: Aspose.Sildes pour les références API .NET
+description: Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de ligne, voir aussi la méthode IsChartTypeLineaspose.slides.charts/charttypecharacterizer/ischarttypeline.
 type: docs
 weight: 170
 url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforlineseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforlineseries
 
 ## AddDataPointForLineSeries(IChartDataCell) {#adddatapointforlineseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Ligne (voir aussi [`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline) méthode).
+Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de ligne (voir aussi la méthode [`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline)).
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForLineSeries(double) {#adddatapointforlineseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Ligne (voir aussi [`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline) méthode).
+Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de ligne (voir aussi la méthode [`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline)).
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(double value)

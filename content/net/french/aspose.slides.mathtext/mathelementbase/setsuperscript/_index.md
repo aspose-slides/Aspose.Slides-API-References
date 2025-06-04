@@ -1,6 +1,6 @@
 ---
 title: SetSuperscript
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Crée un exposant
 type: docs
 weight: 160
@@ -19,7 +19,7 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 | --- | --- | --- |
 | superscript | IMathElement | Exposant (indice supérieur à droite) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel élément mathématique de type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
@@ -34,7 +34,7 @@ IMathElement index = new MathematicalText("4");
 IMathSuperscriptElement superscript = element.SetSuperscript(index);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathSuperscriptElement](../../imathsuperscriptelement)
 * interface [IMathElement](../../imathelement)
@@ -56,7 +56,7 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 | --- | --- | --- |
 | superscript | String | Exposant (indice supérieur à droite) |
 
-### Valeur de Retour
+### Valeur de retour
 
 Nouvel élément mathématique de type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
@@ -70,7 +70,7 @@ IMathElement element = new MathematicalText("N");
 IMathSuperscriptElement superscript = element.SetSuperscript("4");
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathSuperscriptElement](../../imathsuperscriptelement)
 * class [MathElementBase](../../mathelementbase)

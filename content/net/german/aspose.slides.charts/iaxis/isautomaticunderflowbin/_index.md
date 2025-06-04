@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticUnderflowBin
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den automatischen Unterlaufwert an. Wenn falsch, verwenden Sie die UnderflowBin-Eigenschaft.
+second_title: Aspose.Slides für .NET API Referenz
+description: Legt den Wert des automatischen Unterlaufbins fest. Wenn false, verwenden Sie die Eigenschaft UnderflowBin.
 type: docs
 weight: 250
 url: /de/aspose.slides.charts/iaxis/isautomaticunderflowbin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/isautomaticunderflowbin/
 
 ## IAxis.IsAutomaticUnderflowBin-Eigenschaft
 
-Gibt den automatischen Unterlaufwert an. Wenn falsch: verwenden Sie die UnderflowBin-Eigenschaft.
+Legt den Wert des automatischen Unterlaufbins fest. Wenn false: verwenden Sie die Eigenschaft UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }

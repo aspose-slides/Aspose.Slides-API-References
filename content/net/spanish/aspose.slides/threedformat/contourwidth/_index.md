@@ -15,10 +15,10 @@ Devuelve o establece el ancho de un contorno 3D. Lectura/escritura Double.
 public double ContourWidth { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [ThreeDFormat](../../threedformat)
 * espacio de nombres [Aspose.Slides](../../threedformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

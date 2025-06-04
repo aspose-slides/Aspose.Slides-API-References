@@ -1,7 +1,7 @@
 ---
 title: Shapes
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la collection de formes à l'intérieur du groupe. Lecture seule IShapeCollection aspose.slides/ishapecollection.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la collection de formes à l'intérieur du groupe. Lecture seule IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/groupshape/shapes/

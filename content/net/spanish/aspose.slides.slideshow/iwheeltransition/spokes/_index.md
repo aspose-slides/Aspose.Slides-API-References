@@ -1,21 +1,21 @@
 ---
 title: Spokes
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Número de radios de la transición de rueda. Leer/escribir UInt32.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Número de radios de la transición de rueda. Lectura/escritura UInt32.
 type: docs
 weight: 20
 url: /es/aspose.slides.slideshow/iwheeltransition/spokes/
 ---
 
-## Propiedad IWheelTransition.Spokes
+## IWheelTransition.Spokes property
 
-Número de radios de la transición de rueda. Leer/escribir UInt32.
+Número de radios de la transición de rueda. Lectura/escritura UInt32.
 
 ```csharp
 public uint Spokes { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IWheelTransition](../../iwheeltransition)
 * espacio de nombres [Aspose.Slides.SlideShow](../../iwheeltransition)

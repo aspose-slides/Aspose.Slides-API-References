@@ -1,6 +1,6 @@
 ---
 title: GetImage
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt ein Bildobjekt mit benutzerdefinierter Skalierung zurück.
 type: docs
 weight: 80
@@ -17,8 +17,8 @@ public IImage GetImage(float scaleX, float scaleY)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| scaleX | Single | Der Wert, um den dieses Thumbnail in der x-Achsen-Richtung skaliert werden soll. |
-| scaleY | Single | Der Wert, um den dieses Thumbnail in der y-Achsen-Richtung skaliert werden soll. |
+| scaleX | Single | Der Wert, um den dieses Miniaturbild in Richtung der x-Achse skaliert werden soll. |
+| scaleY | Single | Der Wert, um den dieses Miniaturbild in Richtung der y-Achse skaliert werden soll. |
 
 ### Rückgabewert
 
@@ -26,16 +26,16 @@ Bildobjekt Bitmap
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage() {#getimage}
 
-Gibt ein Thumbnail-Bildobjekt (20% der echten Größe) zurück.
+Gibt ein Miniaturbildobjekt (20 % der tatsächlichen Größe) zurück.
 
 ```csharp
 public IImage GetImage()
@@ -47,10 +47,10 @@ Bildobjekt Bitmap
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
@@ -72,16 +72,16 @@ Bitmap-Objekt.
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(ITiffOptions) {#getimage_4}
 
-Gibt ein Thumbnail-TIFF-Bitmapobjekt mit den angegebenen Parametern zurück.
+Gibt ein Miniaturbild tiff Bitmap-Objekt mit den angegebenen Parametern zurück.
 
 ```csharp
 public IImage GetImage(ITiffOptions options)
@@ -89,7 +89,7 @@ public IImage GetImage(ITiffOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| options | ITiffOptions | TIFF-Optionen. |
+| options | ITiffOptions | Tiff-Optionen. |
 
 ### Rückgabewert
 
@@ -97,17 +97,17 @@ Bildobjekt.
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [ITiffOptions](../../../aspose.slides.export/itiffoptions)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions) {#getimage_1}
 
-Gibt ein Thumbnail-Bitmapobjekt zurück.
+Gibt ein Miniaturbild Bitmap-Objekt zurück.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options)
@@ -123,17 +123,17 @@ Bitmap-Objekte.
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions, float, float) {#getimage_2}
 
-Gibt ein Thumbnail-Bitmapobjekt mit benutzerdefinierter Skalierung zurück.
+Gibt ein Miniaturbild Bitmap-Objekt mit benutzerdefinierter Skalierung zurück.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
@@ -142,8 +142,8 @@ public IImage GetImage(IRenderingOptions options, float scaleX, float scaleY)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | options | IRenderingOptions | Rendering-Optionen. |
-| scaleX | Single | Der Wert, um den dieses Thumbnail in der x-Achsen-Richtung skaliert werden soll. |
-| scaleY | Single | Der Wert, um den dieses Thumbnail in der y-Achsen-Richtung skaliert werden soll. |
+| scaleX | Single | Der Wert, um den dieses Miniaturbild in Richtung der x-Achse skaliert werden soll. |
+| scaleY | Single | Der Wert, um den dieses Miniaturbild in Richtung der y-Achse skaliert werden soll. |
 
 ### Rückgabewert
 
@@ -151,17 +151,17 @@ Bitmap-Objekte.
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GetImage(IRenderingOptions, Size) {#getimage_3}
 
-Gibt ein Thumbnail-Bitmapobjekt mit der angegebenen Größe zurück.
+Gibt ein Miniaturbild Bitmap-Objekt mit der angegebenen Größe zurück.
 
 ```csharp
 public IImage GetImage(IRenderingOptions options, Size imageSize)
@@ -178,10 +178,10 @@ Bitmap-Objekte.
 
 ### Siehe auch
 
-* interface [IImage](../../iimage)
-* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* interface [ISlide](../../islide)
-* namespace [Aspose.Slides](../../islide)
-* assembly [Aspose.Slides](../../../)
+* Schnittstelle [IImage](../../iimage)
+* Schnittstelle [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* Schnittstelle [ISlide](../../islide)
+* Namensraum [Aspose.Slides](../../islide)
+* Assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

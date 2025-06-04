@@ -1,6 +1,6 @@
 ---
 title: Duration
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Describe la duración del efecto de animación. Lectura/escritura Single.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Describe la duración del efecto de animación. Lectura/escritura Single.
 public float Duration { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [Timing](../../timing)
 * espacio de nombres [Aspose.Slides.Animation](../../timing)

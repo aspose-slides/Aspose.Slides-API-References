@@ -1,7 +1,7 @@
 ---
 title: HighlightText
-second_title: Aspose.Sildes для .NET API Справочник
-description: Выделяет все совпадения образца текста указанным цветом.
+second_title: Aspose.Sildes для .NET API Reference
+description: Подсвечивает все совпадения образца текста указанным цветом.
 type: docs
 weight: 100
 url: /ru/aspose.slides/textframe/highlighttext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/textframe/highlighttext/
 
 ## HighlightText(string, Color) {#highlighttext}
 
-Выделяет все совпадения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,8 +17,8 @@ public void HighlightText(string text, Color highlightColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Образец текста для выделения. |
-| highlightColor | Color | Цвет для выделения текста. |
+| text | String | Образец текста для подсветки. |
+| highlightColor | Color | Цвет для подсветки текста. |
 
 ### Смотрите также
 
@@ -30,7 +30,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_2}
 
-Выделяет все совпадения образца текста указанным цветом.
+Подсвечивает все совпадения образца текста указанным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 
@@ -39,22 +39,22 @@ public void HighlightText(string text, Color highlightColor, ITextSearchOptions 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст для выделения. |
-| highlightColor | Color | Цвет для выделения текста. |
+| text | String | Текст для подсветки. |
+| highlightColor | Color | Цвет для подсветки текста. |
 | options | ITextSearchOptions | Опции поиска текста [`ITextSearchOptions`](../../itextsearchoptions). |
 | callback | IFindResultCallback | Объект обратного вызова для получения результатов поиска [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Примеры
 
-Следующий пример кода показывает, как выделить текст в TextFrame.
+Следующий код показывает, как подсветить текст в объекте TextFrame.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// выделение всех слов 'важный'
-	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("важный", Color.LightBlue);
-	// выделение всех отдельных вхождений 'the'
+	// подсвечиваем все слова 'важно'
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("важно", Color.LightBlue);
+	// подсвечиваем все отдельные вхождения 'the'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("the", Color.Violet, new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);

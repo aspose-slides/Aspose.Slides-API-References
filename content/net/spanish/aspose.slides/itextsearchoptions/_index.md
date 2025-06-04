@@ -1,7 +1,7 @@
 ---
 title: ITextSearchOptions
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa las opciones que se pueden usar para buscar texto en una diapositiva de presentación o TextFrame.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa opciones que se pueden utilizar para buscar texto en una diapositiva de presentación o TextFrame.
 type: docs
 weight: 7080
 url: /es/aspose.slides/itextsearchoptions/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/itextsearchoptions/
 
 ## Interfaz ITextSearchOptions
 
-Representa las opciones que se pueden usar para buscar texto en una presentación, diapositiva o TextFrame.
+Representa opciones que se pueden utilizar para buscar texto en una presentación, diapositiva o TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -19,10 +19,10 @@ public interface ITextSearchOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Establezca true para utilizar una búsqueda sensible a mayúsculas, false - en caso contrario. Booleano de lectura/escritura. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Establezca true para coincidir solo con palabras completas, false - en caso contrario. Booleano de lectura/escritura. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Establecer verdadero para utilizar una búsqueda que distinga entre mayúsculas y minúsculas, falso en caso contrario. Booleano de lectura/escritura. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Establecer verdadero para coincidir solo con palabras completas, falso en caso contrario. Booleano de lectura/escritura. |
 
-### Vea También
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

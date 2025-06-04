@@ -1,6 +1,6 @@
 ---
 title: ISetEffect
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示动画行为的集合效果。
 type: docs
 weight: 530
@@ -19,10 +19,10 @@ public interface ISetEffect : IBehavior
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | 允许获取基本的 IBehavior 接口。只读 [`IBehavior`](../ibehavior)。 |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | 指定动画效果后效果的某个属性。表示点值。仅限：bool，ColorFormat，float，int，string。读/写对象。 |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | 允许获取基接口 IBehavior。只读 [`IBehavior`](../ibehavior)。 |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | 指定动画效果后的某个属性。表示点值。仅支持: bool, ColorFormat, float, int, string。可读写对象。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IBehavior](../ibehavior)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

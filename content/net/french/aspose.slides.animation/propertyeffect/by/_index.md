@@ -1,6 +1,6 @@
 ---
 title: By
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Spécifie une valeur de décalage relative pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String.
 type: docs
 weight: 20

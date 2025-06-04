@@ -15,7 +15,7 @@ Obtient ou définit le statut du commentaire. Lecture/écriture [`ModernCommentS
 public ModernCommentStatus Status { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ModernCommentStatus](../../moderncommentstatus)
 * class [ModernComment](../../moderncomment)

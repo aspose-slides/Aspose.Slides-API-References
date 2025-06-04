@@ -1,6 +1,6 @@
 ---
 title: SharedDoc
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Bestimmt, ob die Präsentation zwischen mehreren Personen geteilt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 300

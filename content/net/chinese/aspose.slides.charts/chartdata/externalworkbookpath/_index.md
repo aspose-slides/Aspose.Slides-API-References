@@ -1,6 +1,6 @@
 ---
 title: ExternalWorkbookPath
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示图表的数据源
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartdata/externalworkbookpath/
 public string ExternalWorkbookPath { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [ChartData](../../chartdata)
 * namespace [Aspose.Slides.Charts](../../chartdata)

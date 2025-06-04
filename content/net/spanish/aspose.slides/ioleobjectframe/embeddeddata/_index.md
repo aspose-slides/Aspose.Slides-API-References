@@ -20,6 +20,6 @@ public IOleEmbeddedDataInfo EmbeddedData { get; }
 * interfaz [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
 * interfaz [IOleObjectFrame](../../ioleobjectframe)
 * espacio de nombres [Aspose.Slides](../../ioleobjectframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

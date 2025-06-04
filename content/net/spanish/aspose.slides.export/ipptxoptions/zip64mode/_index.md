@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides.export/ipptxoptions/zip64mode/
 ---
 
-## Propiedad IPptxOptions.Zip64Mode
+## IPptxOptions.Zip64Mode propiedad
 
 Especifica si se utiliza el formato ZIP64 para el documento de Presentación. El valor predeterminado es IfNecessary
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Véase también
+### Ver También
 
 * enum [Zip64Mode](../../zip64mode)
 * interface [IPptxOptions](../../ipptxoptions)

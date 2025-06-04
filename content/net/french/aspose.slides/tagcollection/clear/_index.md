@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime tous les tags de la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/tagcollection/clear/
 ---
 
-## Méthode TagCollection.Clear
+## TagCollection.Clear méthode
 
 Supprime tous les tags de la collection.
 
@@ -15,7 +15,7 @@ Supprime tous les tags de la collection.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [TagCollection](../../tagcollection)
 * espace de noms [Aspose.Slides](../../tagcollection)

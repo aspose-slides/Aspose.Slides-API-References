@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果 chartType 是 Column 子类型之一，则返回 true。子类型集合与 PowerPoint 中的相应集合相对应，参见 PowerPoint 中的“更改图表类型”对话框：ClusteredColumn、ClusteredColumn3D、ClusteredCone、ClusteredCylinder、ClusteredPyramid、PercentsStackedColumn、PercentsStackedColumn3D、PercentsStackedCone、PercentsStackedCylinder、PercentsStackedPyramid、StackedColumn、StackedColumn3D、StackedCone、StackedCylinder、StackedPyramid、Column3D、Cylinder3D、Cone3D、Pyramid3D。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果 chartType 是列子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的相应集合，参见 PowerPoint 中的“更改图表类型”对话框：ClusteredColumn、ClusteredColumn3D、ClusteredCone、ClusteredCylinder、ClusteredPyramid、PercentsStackedColumn、PercentsStackedColumn3D、PercentsStackedCone、PercentsStackedCylinder、PercentsStackedPyramid、StackedColumn、StackedColumn3D、StackedCone、StackedCylinder、StackedPyramid、Column3D、Cylinder3D、Cone3D、Pyramid3D。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
 
 ## ChartTypeCharacterizer.IsChartTypeColumn 方法
 
-如果 chartType 是 Column 子类型之一，则返回 true。子类型集合与 PowerPoint 中的相应集合相对应（参见 PowerPoint 中的“更改图表类型”对话框）：ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D。
+如果 chartType 是列子类型之一，则返回 true。子类型集合对应于 PowerPoint 中的相应集合（参见“更改图表类型”对话框）：ClusteredColumn、ClusteredColumn3D、ClusteredCone、ClusteredCylinder、ClusteredPyramid、PercentsStackedColumn、PercentsStackedColumn3D、PercentsStackedCone、PercentsStackedCylinder、PercentsStackedPyramid、StackedColumn、StackedColumn3D、StackedCone、StackedCylinder、StackedPyramid、Column3D、Cylinder3D、Cone3D、Pyramid3D。
 
 ```csharp
 public static bool IsChartTypeColumn(ChartType chartType)

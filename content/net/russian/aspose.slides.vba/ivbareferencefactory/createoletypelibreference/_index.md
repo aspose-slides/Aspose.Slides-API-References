@@ -17,14 +17,14 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя ссылки на проект VBA строка |
-| libid | String | Идентификатор библиотеки типов Automation строка |
+| name | String | Имя ссылки на проект VBA String |
+| libid | String | Идентификатор библиотеки типов Automation String |
 
 ### Возвращаемое значение
 
 Новая ссылка на библиотеку типов OLE Automation [`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 
-### Смотрите также
+### См. также
 
 * интерфейс [IVbaReferenceOleTypeLib](../../ivbareferenceoletypelib)
 * интерфейс [IVbaReferenceFactory](../../ivbareferencefactory)

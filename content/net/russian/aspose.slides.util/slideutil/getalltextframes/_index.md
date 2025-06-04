@@ -1,7 +1,7 @@
 ---
 title: GetAllTextFrames
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает все текстовые блоки в презентации PPTX.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает все текстовые рамки в презентации PPTX.
 type: docs
 weight: 50
 url: /ru/aspose.slides.util/slideutil/getalltextframes/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.util/slideutil/getalltextframes/
 
 ## SlideUtil.GetAllTextFrames метод
 
-Возвращает все текстовые блоки в презентации PPTX.
+Возвращает все текстовые рамки в презентации PPTX.
 
 ```csharp
 public static ITextFrame[] GetAllTextFrames(IPresentation pres, bool withMasters)
@@ -17,7 +17,7 @@ public static ITextFrame[] GetAllTextFrames(IPresentation pres, bool withMasters
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | IPresentation | Сканируемая презентация. |
+| pres | IPresentation | Просматриваемая презентация. |
 | withMasters | Boolean | Определяет, следует ли сканировать мастер-слайды. |
 
 ### Возвращаемое значение

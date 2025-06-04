@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les données de formatage de ligne effectives avec l'héritage appliqué.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Obtient les données de formatage de ligne effectif avec l'héritage appliqué.
 type: docs
 weight: 190
 url: /fr/aspose.slides/lineformat/geteffective/
 ---
 
-## LigneFormat.GetEffective méthode
+## LineFormat.GetEffective méthode
 
-Obtient les données de formatage de ligne effectives avec l'héritage appliqué.
+Obtient les données de formatage de ligne effectif avec l'héritage appliqué.
 
 ```csharp
 public ILineFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Un [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ### Exemples
 
-Cet exemple démontre l'obtention des propriétés de format de ligne effectives d'une forme.
+Cet exemple montre comment obtenir les propriétés de format de ligne effectif d'une forme.
 
 ```csharp
 [C#]
@@ -30,8 +30,8 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	ILineFormatEffectiveData effectiveLineFormat = pres.Slides[0].Shapes[0].LineFormat.GetEffective();
 
 	Console.WriteLine("Style: " + effectiveLineFormat.Style);
-	Console.WriteLine("Width: " + effectiveLineFormat.Width);
-	Console.WriteLine("Fill type: " + effectiveLineFormat.FillFormat.FillType);
+	Console.WriteLine("Largeur: " + effectiveLineFormat.Width);
+	Console.WriteLine("Type de remplissage: " + effectiveLineFormat.FillFormat.FillType);
 }
 ```
 

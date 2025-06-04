@@ -1,7 +1,7 @@
 ---
 title: DataLabelFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le format de l'étiquette de données. Lecture seule IDataLabelFormataspose.slides.charts/idatalabelformat.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Retourne le format de l'étiquette de données. Lecture seule IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/idatalabel/datalabelformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatalabel/datalabelformat/
 
 ## Propriété IDataLabel.DataLabelFormat
 
-Renvoie le format de l'étiquette de données. Lecture seule [`IDataLabelFormat`](../../idatalabelformat).
+Retourne le format de l'étiquette de données. Lecture seule [`IDataLabelFormat`](../../idatalabelformat).
 
 ```csharp
 public IDataLabelFormat DataLabelFormat { get; }

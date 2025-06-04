@@ -15,7 +15,7 @@ Gibt den Index einer Folie zurück, die nach der aktuellen Folie gerendert wird,
 public int NextSlideIndex { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)

@@ -1,21 +1,21 @@
 ---
 title: SlideNumber
-second_title: Aspose.Slides for .NET API参考
-description: 返回幻灯片的号码。在Slides集合中的幻灯片索引始终等于SlideNumber - 1。可读/写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回幻灯片的编号。在Slidesaspose.slides/ipresentation/slides集合中，幻灯片的索引始终等于 SlideNumber - 1。可读写 Int32。
 type: docs
 weight: 70
 url: /zh/aspose.slides/islide/slidenumber/
 ---
 
-## ISlide.SlideNumber属性
+## ISlide.SlideNumber 属性
 
-返回幻灯片的号码。在[`Slides`](../../ipresentation/slides)集合中的幻灯片索引始终等于SlideNumber - 1。可读/写 Int32。
+返回幻灯片的编号。在[`Slides`](../../ipresentation/slides)集合中，幻灯片的索引始终等于 SlideNumber - 1。可读写 Int32。
 
 ```csharp
 public int SlideNumber { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISlide](../../islide)
 * 命名空间 [Aspose.Slides](../../islide)

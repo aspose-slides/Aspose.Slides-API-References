@@ -15,7 +15,7 @@ Distancia de la sombra. Lectura/escritura Doble.
 public double Distance { get; set; }
 ```
 
-### Ver también
+### Ver También
 
 * clase [InnerShadow](../../innershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../innershadow)

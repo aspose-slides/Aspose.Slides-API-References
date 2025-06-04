@@ -1,7 +1,7 @@
 ---
 title: ShapeType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el tipo de AutoShape. Lectura/escritura ShapeType aspose.slides/shapetype.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve o establece el tipo de AutoShape. Lectura/escritura ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 50
 url: /es/aspose.slides/connector/shapetype/
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de AutoShape. Lectura/escritura [`ShapeType`](../..
 public override ShapeType ShapeType { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [ShapeType](../../shapetype)
 * class [Connector](../../connector)

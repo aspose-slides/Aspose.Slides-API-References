@@ -1,15 +1,15 @@
 ---
 title: InsertZoomFrame
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt ein neues Zoom-Objekt und fügt es an einem bestimmten Index in eine Sammlung ein.
+description: Erstellt ein neues Zoom-Objekt und fügt es an der angegebenen Position in eine Sammlung ein.
 type: docs
 weight: 360
 url: /de/aspose.slides/ishapecollection/insertzoomframe/
 ---
 
-## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
+## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
-Erstellt ein neues Zoom-Objekt und fügt es an einem bestimmten Index in eine Sammlung ein.
+Erstellt ein neues Zoom-Objekt und fügt es an der angegebenen Position in eine Sammlung ein.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -18,12 +18,12 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Zoomrahmen eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Zoomrahmens. |
-| y | Single | Y-Koordinate eines neuen Zoomrahmens. |
-| width | Single | Breite eines neuen Zoomrahmens. |
-| height | Single | Höhe eines neuen Zoomrahmens. |
-| slide | ISlide | Das von dem Zoomrahmen referenzierte Folienobjekt [`ISlide`](../../islide). |
+| index | Int32 | Der nullbasierte Index, an dem der Zoom-Rahmen eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen Zoom-Rahmens. |
+| y | Single | Y-Koordinate eines neuen Zoom-Rahmens. |
+| width | Single | Breite eines neuen Zoom-Rahmens. |
+| height | Single | Höhe eines neuen Zoom-Rahmens. |
+| slide | ISlide | Das Folienobjekt, auf das der Zoom-Rahmen verweist [`ISlide`](../../islide). |
 
 ### Rückgabewert
 
@@ -37,7 +37,7 @@ Erstelltes Zoom-Objekt [`IZoomFrame`](../../izoomframe).
 
 ### Beispiele
 
-Dieses Beispiel demonstriert die Erstellung und das Einfügen eines Zoom-Objekts am angegebenen Index einer Sammlung (angenommen, dass es mindestens zwei Folien in der "Presentation.pptx"-Präsentation gibt):
+Dieses Beispiel demonstriert die Erstellung und das Einfügen eines Zoom-Objekts an der angegebenen Position einer Sammlung (angenommen, es gibt mindestens zwei Folien in der Präsentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -57,9 +57,9 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
+## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
-Erstellt ein neues Zoom-Objekt und fügt es an einem bestimmten Index in eine Sammlung ein.
+Erstellt ein neues Zoom-Objekt und fügt es an der angegebenen Position in eine Sammlung ein.
 
 ```csharp
 public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, float height, 
@@ -68,12 +68,12 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der nullbasierte Index, an dem der Zoomrahmen eingefügt werden soll. |
-| x | Single | X-Koordinate eines neuen Zoomrahmens. |
-| y | Single | Y-Koordinate eines neuen Zoomrahmens. |
-| width | Single | Breite eines neuen Zoomrahmens. |
-| height | Single | Höhe eines neuen Zoomrahmens. |
-| slide | ISlide | Das von dem Zoomrahmen referenzierte Folienobjekt [`ISlide`](../../islide). |
+| index | Int32 | Der nullbasierte Index, an dem der Zoom-Rahmen eingefügt werden soll. |
+| x | Single | X-Koordinate eines neuen Zoom-Rahmens. |
+| y | Single | Y-Koordinate eines neuen Zoom-Rahmens. |
+| width | Single | Breite eines neuen Zoom-Rahmens. |
+| height | Single | Höhe eines neuen Zoom-Rahmens. |
+| slide | ISlide | Das Folienobjekt, auf das der Zoom-Rahmen verweist [`ISlide`](../../islide). |
 | image | IPPImage | Das Bild für die referenzierte Folie [`IPPImage`](../../ippimage) |
 
 ### Rückgabewert
@@ -88,7 +88,7 @@ Erstelltes Zoom-Objekt [`IZoomFrame`](../../izoomframe).
 
 ### Beispiele
 
-Dieses Beispiel demonstriert die Erstellung und das Einfügen eines Zoom-Objekts am angegebenen Index einer Sammlung (angenommen, dass es mindestens zwei Folien in der "Presentation.pptx"-Präsentation gibt):
+Dieses Beispiel demonstriert die Erstellung und das Einfügen eines Zoom-Objekts an der angegebenen Position einer Sammlung (angenommen, es gibt mindestens zwei Folien in der Präsentation "Presentation.pptx"):
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Unveränderliches Objekt, das einen Alpha Modulate Fixed-Effekt darstellt. Die Alpha-Opacity-Werte des Effekts werden mit einem festen Prozentsatz multipliziert.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Unveränderliches Objekt, das einen Alpha Modulate Fixed-Effekt darstellt. Effekte Alpha-Opazitätswerte werden mit einem festen Prozentsatz multipliziert.
 type: docs
 weight: 3030
 url: /de/aspose.slides.effects/ialphamodulatefixedeffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 
 ## IAlphaModulateFixedEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Alpha Modulate Fixed-Effekt darstellt. Die Alpha (Opacity)-Werte des Effekts werden mit einem festen Prozentsatz multipliziert.
+Unveränderliches Objekt, das einen Alpha Modulate Fixed-Effekt darstellt. Effekte Alpha (Opazität) Werte werden mit einem festen Prozentsatz multipliziert.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -19,8 +19,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Gibt einen Betrag des Effekts in Prozent an. Nur-Lese-Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IEffectEffectiveData. Nur-Lese [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Gibt einen Effektwert in Prozent zurück. Nur lesbares Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IEffectEffectiveData. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Siehe auch
 

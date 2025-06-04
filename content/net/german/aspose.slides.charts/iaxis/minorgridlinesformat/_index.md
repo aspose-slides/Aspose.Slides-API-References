@@ -1,7 +1,7 @@
 ---
 title: MinorGridLinesFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das Format der kleinen Gitterlinien auf einer Diagramachse dar. Nur lesbar IChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt das Format der kleinen Gitterlinien auf einer Diagramachse dar. Nur-lesend IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 390
 url: /de/aspose.slides.charts/iaxis/minorgridlinesformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/minorgridlinesformat/
 
 ## IAxis.MinorGridLinesFormat-Eigenschaft
 
-Stellt das Format der kleinen Gitterlinien auf einer Diagramachse dar. Nur lesbar [`IChartLinesFormat`](../../ichartlinesformat).
+Stellt das Format der kleinen Gitterlinien auf einer Diagramachse dar. Nur-lesend [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat MinorGridLinesFormat { get; }

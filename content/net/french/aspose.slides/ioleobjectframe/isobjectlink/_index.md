@@ -1,7 +1,7 @@
 ---
 title: IsObjectLink
 second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si un objet est lié à un fichier externe. Boolean en lecture seule.
+description: Détermine si un objet est lié à un fichier externe. Booléen en lecture seule.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ioleobjectframe/isobjectlink/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ioleobjectframe/isobjectlink/
 
 ## Propriété IOleObjectFrame.IsObjectLink
 
-Détermine si un objet est lié à un fichier externe. Boolean en lecture seule.
+Détermine si un objet est lié à un fichier externe. Booléen en lecture seule.
 
 ```csharp
 public bool IsObjectLink { get; }

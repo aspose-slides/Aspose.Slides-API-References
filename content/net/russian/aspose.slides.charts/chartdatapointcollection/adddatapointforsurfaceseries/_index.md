@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForSurfaceSeries
-second_title: Aspose.Slides для .NET API Reference
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чье chartType является одним из подтипов Surface, также см. метод IsChartTypeSurface aspose.slides.charts/charttypecharacterizer/ischarttypesurface.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Surface, см. также метод IsChartTypeSurfaceaspose.slides.charts/charttypecharacterizer/ischarttypesurface.
 type: docs
 weight: 240
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceser
 
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чье chartType является одним из подтипов Surface (также см. метод [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Surface (см. также метод [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
@@ -23,7 +23,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * интерфейс [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
 
 ## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чье chartType является одним из подтипов Surface (также см. метод [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Surface (см. также метод [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(double value)
@@ -49,7 +49,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(double value)
 
 Новая точка данных.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * класс [ChartDataPointCollection](../../chartdatapointcollection)

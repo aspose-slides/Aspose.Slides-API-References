@@ -1,21 +1,21 @@
 ---
 title: SmartTagClean
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, должен ли умный тег быть очищен. Свойство только для чтения типа Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, следует ли очищать смарт-тег. Поле только для чтения типа Boolean.
 type: docs
 weight: 210
 url: /ru/aspose.slides/ibaseportionformateffectivedata/smarttagclean/
 ---
 
-## Свойство IBasePortionFormatEffectiveData.SmartTagClean
+## IBasePortionFormatEffectiveData.SmartTagClean свойство
 
-Определяет, должен ли умный тег быть очищен. Свойство только для чтения типа Boolean.
+Определяет, следует ли очищать смарт-тег. Поле только для чтения типа Boolean.
 
 ```csharp
 public bool SmartTagClean { get; }
 ```
 
-### См. также
+### Также см. 
 
 * интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibaseportionformateffectivedata)

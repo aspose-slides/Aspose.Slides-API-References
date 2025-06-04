@@ -1,7 +1,7 @@
 ---
 title: UpDownBars
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bietet Zugriff auf die Auf-/Ab-Balken von Linien- oder Aktiencharts. Nur lesbar IUpDownBarsManageraspose.slides/iupdownbarsmanager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bietet Zugriff auf Auf-/Abwärtsbalken von Linien- oder Aktiencharts. Nur-lesender IUpDownBarsManageraspose.slides/iupdownbarsmanager.
 type: docs
 weight: 200
 url: /de/aspose.slides.charts/chartseriesgroup/updownbars/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseriesgroup/updownbars/
 
 ## ChartSeriesGroup.UpDownBars-Eigenschaft
 
-Bietet Zugriff auf die Auf-/Ab-Balken von Linien- oder Aktiencharts. Nur lesbar [`IUpDownBarsManager`](../../iupdownbarsmanager).
+Bietet Zugriff auf Auf-/Abwärtsbalken von Linien- oder Aktiencharts. Nur-lesender [`IUpDownBarsManager`](../../iupdownbarsmanager).
 
 ```csharp
 public IUpDownBarsManager UpDownBars { get; }

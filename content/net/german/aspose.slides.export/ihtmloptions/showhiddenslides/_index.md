@@ -1,7 +1,7 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist false.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist falsch.
 type: docs
 weight: 80
 url: /de/aspose.slides.export/ihtmloptions/showhiddenslides/
@@ -15,7 +15,7 @@ Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht.
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IHtmlOptions](../../ihtmloptions)
 * Namespace [Aspose.Slides.Export](../../ihtmloptions)

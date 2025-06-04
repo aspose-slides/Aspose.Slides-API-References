@@ -7,7 +7,7 @@ weight: 630
 url: /de/aspose.slides.animation/motionpathpointstype/
 ---
 
-## Aufzählung MotionPathPointsType
+## MotionPathPointsType-Enumeration
 
 Stellt Typen von Punkten im Animationsbewegungspfad dar.
 

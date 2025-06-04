@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une largeur d'une image. Lecture seule Int32.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Retourne la largeur d'une image. En lecture seule Int32.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ippimage/width/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ippimage/width/
 
 ## Propriété IPPImage.Width
 
-Renvoie une largeur d'une image. Lecture seule Int32.
+Retourne la largeur d'une image. En lecture seule Int32.
 
 ```csharp
 public int Width { get; }

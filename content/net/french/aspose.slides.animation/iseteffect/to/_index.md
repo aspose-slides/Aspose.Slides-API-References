@@ -1,21 +1,21 @@
 ---
 title: To
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur point. Seulement bool, ColorFormat, float, int, string. Objet lisible/écrivable.
+description: Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur de point. Seulement  bool, ColorFormat, float, int, string. Lecture/écriture Object.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/iseteffect/to/
 ---
 
-## Propriété ISetEffect.To
+## ISetEffect.To propriété
 
-Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur point. Seulement : bool, ColorFormat, float, int, string. Objet lisible/écrivable.
+Spécifie un certain attribut d'un effet après un effet d'animation. Représente une valeur de point. Seulement : bool, ColorFormat, float, int, string. Lecture/écriture Object.
 
 ```csharp
 public object To { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISetEffect](../../iseteffect)
 * namespace [Aspose.Slides.Animation](../../iseteffect)

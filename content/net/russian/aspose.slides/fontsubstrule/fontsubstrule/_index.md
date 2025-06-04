@@ -1,6 +1,6 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Ссылка
 description: Создает новый экземпляр.
 type: docs
 weight: 10
@@ -20,7 +20,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 | sourceFont | IFontData | Исходный шрифт. |
 | destFont | IFontData | Шрифт назначения. |
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IFontData](../../ifontdata)
 * класс [FontSubstRule](../../fontsubstrule)
@@ -43,7 +43,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont, FontSubstConditio
 | destFont | IFontData | Шрифт назначения. |
 | fontSubstRule | FontSubstCondition | Правило замены шрифта. |
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IFontData](../../ifontdata)
 * перечисление [FontSubstCondition](../../fontsubstcondition)

@@ -1,7 +1,7 @@
 ---
 title: HighlightColor
-second_title: Référence API Aspose.Sildes pour .NET
-description: Renvoie la couleur utilisée pour mettre en surbrillance un texte. Pas d'héritage appliqué. Lecture seule IColorFormat aspose.slides/icolorformat.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la couleur utilisée pour mettre en surbrillance un texte. Pas d'héritage appliqué. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /fr/aspose.slides/ibaseportionformat/highlightcolor/

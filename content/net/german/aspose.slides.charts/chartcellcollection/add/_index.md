@@ -7,9 +7,9 @@ weight: 30
 url: /de/aspose.slides.charts/chartcellcollection/add/
 ---
 
-## Hinzufügen(IChartDataCell) {#add}
+## Add(IChartDataCell) {#add}
 
-Neue Zelle zur Sammlung hinzufügen.
+Fügt der Sammlung eine neue Zelle hinzu.
 
 ```csharp
 public void Add(IChartDataCell cell)
@@ -28,9 +28,9 @@ public void Add(IChartDataCell cell)
 
 ---
 
-## Hinzufügen(object) {#add_1}
+## Add(object) {#add_1}
 
-Erstellt [`ChartDataCell`](../../chartdatacell) aus dem angegebenen Wert und fügt ihn zur Sammlung hinzu.
+Erstellt [`ChartDataCell`](../../chartdatacell) aus dem angegebenen Wert und fügt es der Sammlung hinzu.
 
 ```csharp
 public void Add(object value)
@@ -38,17 +38,17 @@ public void Add(object value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | Object | Der Wert. |
+| value | Objekt | Der Wert. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| InvalidOperationException | wenn das Limit überschritten wird |
+| InvalidOperationException | wenn Limit überschritten wird |
 
-### Bemerkungen
+### Anmerkungen
 
-Diese Methode fügt ein Arbeitsblatt mit dem Namen AUTO_DATA hinzu und fügt dort alle Werte hinzu. Wenn Sie [`ChartDataWorkbook`](../../chartdataworkbook) verwenden, um Zellwerte hinzuzufügen oder zu bearbeiten, stellen Sie sicher, dass Sie dieses Arbeitsblatt nicht verwenden. Die maximale Anzahl der Werte, die mit dieser Methode hinzugefügt werden, darf 16711680 nicht überschreiten.
+Diese Methode fügt das Arbeitsblatt mit dem Namen AUTO_DATA hinzu und fügt dort alle Werte hinzu. Wenn Sie [`ChartDataWorkbook`](../../chartdataworkbook) verwenden, um Zellwerte hinzuzufügen oder zu bearbeiten, stellen Sie sicher, dass Sie dieses Arbeitsblatt nicht verwenden. Die maximale Anzahl der mit dieser Methode hinzugefügten Werte darf 16711680 nicht überschreiten.
 
 ### Siehe auch
 

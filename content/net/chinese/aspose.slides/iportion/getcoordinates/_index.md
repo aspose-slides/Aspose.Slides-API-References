@@ -1,7 +1,7 @@
 ---
 title: GetCoordinates
-second_title: Aspose.Slides for .NET API 参考
-description: 获取部分起始点的坐标。点的 X 坐标表示从第一个字符开始的部分，包括左侧边距。Y 坐标包括上侧边距。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取部分开始的坐标。点的X坐标表示部分从第一个字符开始，包括左侧边距。Y坐标包括上侧边距。
 type: docs
 weight: 60
 url: /zh/aspose.slides/iportion/getcoordinates/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iportion/getcoordinates/
 
 ## IPortion.GetCoordinates 方法
 
-获取部分起始点的坐标。点的 X 坐标表示从第一个字符开始的部分，包括左侧边距。Y 坐标包括上侧边距。
+获取部分开始的坐标。点的X坐标表示部分从第一个字符开始，包括左侧边距。Y坐标包括上侧边距。
 
 ```csharp
 public PointF GetCoordinates()
@@ -17,9 +17,9 @@ public PointF GetCoordinates()
 
 ### 返回值
 
-部分起始点的坐标 PointF
+部分开始的坐标 PointF
 
-### 另请参见
+### 参见
 
 * 接口 [IPortion](../../iportion)
 * 命名空间 [Aspose.Slides](../../iportion)

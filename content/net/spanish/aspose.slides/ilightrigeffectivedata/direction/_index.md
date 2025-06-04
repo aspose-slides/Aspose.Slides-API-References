@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Dirección de la luz. Solo lectura LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /es/aspose.slides/ilightrigeffectivedata/direction/
 ---
 
-## Propiedad ILightRigEffectiveData.Direction
+## ILightRigEffectiveData.Direction property
 
 Dirección de la luz. Solo lectura [`LightingDirection`](../../lightingdirection).
 
@@ -15,7 +15,7 @@ Dirección de la luz. Solo lectura [`LightingDirection`](../../lightingdirection
 public LightingDirection Direction { get; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [LightingDirection](../../lightingdirection)
 * interface [ILightRigEffectiveData](../../ilightrigeffectivedata)

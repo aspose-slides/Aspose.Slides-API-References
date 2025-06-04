@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt alle Schriftarten aus der Liste.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Entfernt alle Schriftarten aus der Liste.
 public void Clear()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IFontFallBackRule](../../ifontfallbackrule)
 * Namespace [Aspose.Slides](../../ifontfallbackrule)

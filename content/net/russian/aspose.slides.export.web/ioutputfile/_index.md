@@ -1,7 +1,7 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет файл вывода.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет выходной файл.
 type: docs
 weight: 4410
 url: /ru/aspose.slides.export.web/ioutputfile/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export.web/ioutputfile/
 
 ## Интерфейс IOutputFile
 
-Представляет файл вывода.
+Представляет выходной файл.
 
 ```csharp
 public interface IOutputFile
@@ -17,11 +17,11 @@ public interface IOutputFile
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | Записывает содержимое файла в поток. |
 
-### Смотрите Также
+### См. также
 
 * пространство имен [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * сборка [Aspose.Slides](../../)

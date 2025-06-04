@@ -1,15 +1,15 @@
 ---
 title: AddContentPlaceholder
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido como una imagen, tabla, medio o texto.
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido como una imagen, tabla, media o texto.
 type: docs
 weight: 20
 url: /es/aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder/
 ---
 
-## Método ILayoutPlaceholderManager.AddContentPlaceholder
+## ILayoutPlaceholderManager.AddContentPlaceholder método
 
-Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido, como una imagen, tabla, medio o texto.
+Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido, como una imagen, tabla, media o texto.
 
 ```csharp
 public IAutoShape AddContentPlaceholder(float x, float y, float width, float height)
@@ -22,9 +22,9 @@ public IAutoShape AddContentPlaceholder(float x, float y, float width, float hei
 | width | Single | El ancho de la nueva forma de marcador de posición. |
 | height | Single | La altura de la nueva forma de marcador de posición. |
 
-### Valor de retorno
+### Valor de Retorno
 
-Crea [`IAutoShape`](../../iautoshape) con un marcador de posición de contenido.
+[`IAutoShape`](../../iautoshape) creado con un marcador de posición de contenido.
 
 ### Ejemplos
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAutoShape](../../iautoshape)
 * interfaz [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

@@ -15,10 +15,10 @@ Devuelve o establece el radio de desenfoque. Solo lectura Double.
 public double Radius { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IBlurEffectiveData](../../iblureffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../iblureffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

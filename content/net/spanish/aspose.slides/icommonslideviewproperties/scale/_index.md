@@ -1,15 +1,15 @@
 ---
 title: Scale
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica la relación de escalado de vista en porcentajes. Lectura/escritura Int32.
+second_title: Aspose.Sildes para referencia de API de .NET
+description: Especifica la relación de escala de vista en porcentajes. Lectura/escritura Int32.
 type: docs
 weight: 20
 url: /es/aspose.slides/icommonslideviewproperties/scale/
 ---
 
-## Propiedad ICommonSlideViewProperties.Scale
+## ICommonSlideViewProperties.Scale property
 
-Especifica la relación de escalado de vista en porcentajes. Lectura/escritura Int32.
+Especifica la relación de escala de vista en porcentajes. Lectura/escritura Int32.
 
 ```csharp
 public int Scale { get; set; }
@@ -21,10 +21,10 @@ public int Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Se lanza cuando el valor es menor que cero. |
 
-### También Vea
+### Véase también
 
-* interfaz [ICommonSlideViewProperties](../../icommonslideviewproperties)
-* espacio de nombres [Aspose.Slides](../../icommonslideviewproperties)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ICommonSlideViewProperties](../../icommonslideviewproperties)
+* espacio de nombres [Aspose.Slides](../../icommonslideviewproperties)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

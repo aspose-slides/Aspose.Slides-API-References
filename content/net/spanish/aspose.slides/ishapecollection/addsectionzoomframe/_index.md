@@ -1,7 +1,7 @@
 ---
 title: AddSectionZoomFrame
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega un nuevo objeto Section Zoom al final de una colección.
+second_title: Aspose.Slides para referencia de API .NET
+description: Agrega un nuevo objeto de Zoom de Sección al final de una colección.
 type: docs
 weight: 140
 url: /es/aspose.slides/ishapecollection/addsectionzoomframe/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ishapecollection/addsectionzoomframe/
 
 ## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
-Agrega un nuevo objeto Section Zoom al final de una colección.
+Agrega un nuevo objeto de Zoom de Sección al final de una colección.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -18,25 +18,25 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco Section Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Section Zoom Single. |
-| width | Single | Anchura de un nuevo marco Section Zoom Single. |
-| height | Single | Altura de un nuevo marco Section Zoom Single. |
-| section | ISection | El objeto de sección referenciado por el marco Section Zoom [`ISection`](../../isection). |
+| x | Single | Coordenada X de un nuevo marco de Zoom de Sección Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom de Sección Single. |
+| width | Single | Ancho de un nuevo marco de Zoom de Sección Single. |
+| height | Single | Alto de un nuevo marco de Zoom de Sección Single. |
+| section | ISection | El objeto de sección referenciado por el marco de Zoom de Sección [`ISection`](../../isection). |
 
 ### Valor de Retorno
 
-Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
+Objeto de Zoom de Sección creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | La sección referenciada no pertenece a la presentación actual o no contiene diapositivas. |
+| ArgumentException | La sección referenciada no pertenece a la presentación actual o no contiene ninguna diapositiva. |
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo agregar un objeto Section Zoom al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra cómo agregar un objeto de Zoom de Sección al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)
@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-Agrega un nuevo objeto Section Zoom al final de una colección con una imagen predefinida.
+Agrega un nuevo objeto de Zoom de Sección al final de una colección con una imagen predefinida.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -67,26 +67,26 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco Section Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Section Zoom Single. |
-| width | Single | Anchura de un nuevo marco Section Zoom Single. |
-| height | Single | Altura de un nuevo marco Section Zoom Single. |
-| section | ISection | El objeto de sección referenciado por el marco Section Zoom [`ISection`](../../isection). |
+| x | Single | Coordenada X de un nuevo marco de Zoom de Sección Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom de Sección Single. |
+| width | Single | Ancho de un nuevo marco de Zoom de Sección Single. |
+| height | Single | Alto de un nuevo marco de Zoom de Sección Single. |
+| section | ISection | El objeto de sección referenciado por el marco de Zoom de Sección [`ISection`](../../isection). |
 | image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage) |
 
 ### Valor de Retorno
 
-Objeto Section Zoom creado [`ISectionZoomFrame`](../../isectionzoomframe).
+Objeto de Zoom de Sección creado [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | La sección referenciada no pertenece a la presentación actual o no contiene diapositivas. |
+| ArgumentException | La sección referenciada no pertenece a la presentación actual o no contiene ninguna diapositiva. |
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo agregar un objeto Section Zoom al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
+Este ejemplo demuestra cómo agregar un objeto de Zoom de Sección al final de una colección (suponga que hay al menos dos secciones en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -97,7 +97,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase También
 
 * interface [ISectionZoomFrame](../../isectionzoomframe)
 * interface [ISection](../../isection)

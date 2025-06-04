@@ -1,7 +1,7 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Sildes for .NET API 参考
-description: 数学块的集合 IMathBlock
+second_title: Aspose.Sildes for .NET API Reference
+description: 数学块集合 IMathBlock
 type: docs
 weight: 7900
 url: /zh/aspose.slides.mathtext/imathblockcollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblockcollection/
 
 ## IMathBlockCollection 接口
 
-数学块的集合 (IMathBlock)
+数学块集合 (IMathBlock)
 
 ```csharp
 public interface IMathBlockCollection : IEnumerable<IMathBlock>
@@ -19,7 +19,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 允许获取基础的 IEnumerable 接口 IEnumerable |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 允许获取基Enumerable接口 IEnumerable |
 | [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
 | [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 获取指定索引处的项。只读 [`IMathBlock`](../imathblock)。 |
 
@@ -28,12 +28,12 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | 将 IMathBlock 添加到集合的末尾。 |
-| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | 从集合中删除所有元素。 |
+| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | 确定集合中是否包含特定值。 |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | 确定特定 IMathBlock 在集合中的索引。 |
-| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 在指定索引处将 IMathBlock 插入集合中。 |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 从集合中删除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 删除集合中指定索引处的项。 |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | 确定集合中特定 IMathBlock 的索引。 |
+| [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 在指定索引处将 IMathBlock 插入集合。 |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 从集合中移除特定对象的第一次出现。 |
+| [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 从集合中移除指定索引处的项。 |
 
 ### 示例
 
@@ -44,7 +44,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 IMathBlockCollection blockCollection = new MathParagraph();
 ```
 
-### 另请参见
+### 相关内容
 
 * 接口 [IMathBlock](../imathblock)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

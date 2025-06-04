@@ -1,7 +1,7 @@
 ---
 title: AsArgumentOfFunction
-second_title: Aspose.Sildes for .NET API 参考
-description: 使用此实例作为参数获取指定函数
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用此实例作为参数获取指定的函数
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-使用此实例作为参数获取指定函数
+使用此实例作为参数获取指定的函数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
@@ -21,11 +21,11 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 ### 返回值
 
-新数学元素，类型为 [`IMathFunction`](../../imathfunction)
+新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-使用此实例作为参数获取指定函数
+使用此实例作为参数获取指定的函数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
@@ -58,11 +58,11 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 ### 返回值
 
-新数学元素，类型为 [`IMathFunction`](../../imathfunction)
+新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -81,7 +81,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-使用此实例作为参数获取指定函数
+使用此实例作为参数获取指定的函数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
@@ -89,15 +89,15 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | 单个参数的常见函数类型之一 |
+| functionType | MathFunctionsOfOneArgument | 一种常见的单参数函数类型 |
 
 ### 返回值
 
-新数学元素，类型为 [`IMathFunction`](../../imathfunction)
+新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -118,7 +118,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-使用此实例作为参数和指定的附加参数获取指定函数
+使用此实例作为参数获取指定的函数和指定的额外参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -127,22 +127,22 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | 两个参数的常见函数类型之一：Log, Lim, Min, Max |
-| additionalArgument | IMathElement | 根据函数类型的不同而不同的附加参数 |
+| functionType | MathFunctionsOfTwoArguments | 一种常见的双参数函数类型：Log, Lim, Min, Max |
+| additionalArgument | IMathElement | 根据函数类型而定的额外参数 |
 
 ### 返回值
 
-新数学元素，类型为 [`IMathFunction`](../../imathfunction)
+新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
 IMathElement logarithmBase = new MathematicalText("5");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // 返回 'x' 的以 '5' 为底的对数
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // 返回 'x' 对于底数 '5' 的对数
 ```
 
 ### 参见
@@ -158,7 +158,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-使用此实例作为参数和指定的附加参数获取指定函数
+使用此实例作为参数获取指定的函数和指定的额外参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -167,21 +167,21 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | 两个参数的常见函数类型之一：Log, Lim, Min, Max |
-| additionalArgument | String | 根据函数类型的不同而不同的附加参数 |
+| functionType | MathFunctionsOfTwoArguments | 一种常见的双参数函数类型：Log, Lim, Min, Max |
+| additionalArgument | String | 根据函数类型而定的额外参数 |
 
 ### 返回值
 
-新数学元素，类型为 [`IMathFunction`](../../imathfunction)
+新的数学元素，类型为 [`IMathFunction`](../../imathfunction)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // 返回 'x' 的以 '5' 为底的对数
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // 返回 'x' 对于底数 '5' 的对数
 ```
 
 ### 参见

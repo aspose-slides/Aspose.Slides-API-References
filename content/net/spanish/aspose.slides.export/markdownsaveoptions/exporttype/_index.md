@@ -1,13 +1,13 @@
 ---
 title: ExportType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Especifica la especificación de markdown para convertir la presentación. El valor predeterminado es TextOnly.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/markdownsaveoptions/exporttype/
 ---
 
-## Propiedad MarkdownSaveOptions.ExportType
+## MarkdownSaveOptions.ExportType property
 
 Especifica la especificación de markdown para convertir la presentación. El valor predeterminado es `TextOnly`.
 
@@ -15,7 +15,7 @@ Especifica la especificación de markdown para convertir la presentación. El va
 public MarkdownExportType ExportType { get; set; }
 ```
 
-### Ver También
+### See Also
 
 * enum [MarkdownExportType](../../markdownexporttype)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

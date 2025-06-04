@@ -1,13 +1,13 @@
 ---
 title: AsLiteralDouble
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece el valor como un doble literal. Lectura/escritura Double.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/doublechartvalue/asliteraldouble/
 ---
 
-## Propiedad DoubleChartValue.AsLiteralDouble
+## DoubleChartValue.AsLiteralDouble propiedad
 
 Devuelve o establece el valor como un doble literal. Lectura/escritura Double.
 
@@ -15,10 +15,10 @@ Devuelve o establece el valor como un doble literal. Lectura/escritura Double.
 public double AsLiteralDouble { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [DoubleChartValue](../../doublechartvalue)
 * espacio de nombres [Aspose.Slides.Charts](../../doublechartvalue)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -15,7 +15,7 @@ Devuelve o establece el tipo del campo. Lectura/escritura [`IFieldType`](../../i
 public IFieldType Type { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IFieldType](../../ifieldtype)
 * clase [Field](../../field)

@@ -1,7 +1,7 @@
 ---
 title: ProtectionManager
-second_title: Справка по API Aspose.Sildes для .NET
-description: Получает менеджер прав для этой презентации. Только для чтения IProtectionManageraspose.slides/iprotectionmanager.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает менеджера разрешений для этой презентации. Только для чтения IProtectionManageraspose.slides/iprotectionmanager.
 type: docs
 weight: 220
 url: /ru/aspose.slides/ipresentation/protectionmanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipresentation/protectionmanager/
 
 ## Свойство IPresentation.ProtectionManager
 
-Получает менеджер прав для этой презентации. Только для чтения [`IProtectionManager`](../../iprotectionmanager).
+Получает менеджера разрешений для этой презентации. Только для чтения [`IProtectionManager`](../../iprotectionmanager).
 
 ```csharp
 public IProtectionManager ProtectionManager { get; }

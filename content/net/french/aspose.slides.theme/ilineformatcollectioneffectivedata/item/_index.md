@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.theme/ilineformatcollectioneffectivedata/item/
 ---
 
-## Indiceur ILineFormatCollectionEffectiveData
+## ILineFormatCollectionEffectiveData indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata).
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié. Lecture seule [`ILineFormatEffectiveD
 public ILineFormatEffectiveData this[int index] { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILineFormatEffectiveData](../../../aspose.slides/ilineformateffectivedata)
 * interface [ILineFormatCollectionEffectiveData](../../ilineformatcollectioneffectivedata)

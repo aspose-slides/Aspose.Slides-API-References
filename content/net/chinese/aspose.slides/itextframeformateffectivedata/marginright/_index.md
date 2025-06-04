@@ -1,7 +1,7 @@
 ---
 title: MarginRight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 TextFrame 中的右边距点数。只读 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回文本框中的右边距（点）。只读双精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides/itextframeformateffectivedata/marginright/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itextframeformateffectivedata/marginright/
 
 ## ITextFrameFormatEffectiveData.MarginRight 属性
 
-返回 TextFrame 中的右边距（点）。只读 Double。
+返回文本框中的右边距（点）。只读双精度浮点数。
 
 ```csharp
 public double MarginRight { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * 命名空间 [Aspose.Slides](../../itextframeformateffectivedata)

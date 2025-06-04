@@ -1,6 +1,6 @@
 ---
 title: SetEffect
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

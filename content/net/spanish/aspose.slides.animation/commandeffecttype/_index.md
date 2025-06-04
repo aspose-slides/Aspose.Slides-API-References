@@ -1,6 +1,6 @@
 ---
 title: CommandEffectType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa el tipo de efecto de comando para el comportamiento del efecto de comando.
 type: docs
 weight: 190
@@ -26,7 +26,7 @@ public enum CommandEffectType : sbyte
 
 ### Véase también
 
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

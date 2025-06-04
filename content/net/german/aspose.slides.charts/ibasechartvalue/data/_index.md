@@ -1,23 +1,23 @@
 ---
 title: Data
-second_title: Aspose.Slides für .NET API-Referenz
-description: Lese-/Schreibobjekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Lesen/Schreiben Objekt.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ibasechartvalue/data/
 ---
 
-## IBaseChartValue.Data-Eigenschaft
+## IBaseChartValue.Data Eigenschaft
 
-Lese-/Schreibobjekt.
+Lesen/Schreiben Objekt.
 
 ```csharp
 public object Data { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IBaseChartValue](../../ibasechartvalue)
+* Interface [IBaseChartValue](../../ibasechartvalue)
 * Namespace [Aspose.Slides.Charts](../../ibasechartvalue)
 * Assembly [Aspose.Slides](../../../)
 

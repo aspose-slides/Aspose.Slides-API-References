@@ -1,7 +1,7 @@
 ---
 title: Bottom
-second_title: Aspose.Slides for .NET API 参考
-description: 底部。只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: Bottom. 只读单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/charttitle/bottom/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/charttitle/bottom/
 
 ## ChartTitle.Bottom 属性
 
-底部。只读单精度浮点数。
+Bottom. 只读单精度浮点数。
 
 ```csharp
 public float Bottom { get; }

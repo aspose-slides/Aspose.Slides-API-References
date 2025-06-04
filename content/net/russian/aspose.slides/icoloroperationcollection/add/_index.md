@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Добавляет новую операцию в конец коллекции.
 type: docs
 weight: 20

@@ -18,7 +18,7 @@ public int Order { get; set; }
 ### Ver También
 
 * clase [ChartSeries](../../chartseries)
-* espacio de nombres [Aspose.Slides.Charts](../../chartseries)
+* namespace [Aspose.Slides.Charts](../../chartseries)
 * ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

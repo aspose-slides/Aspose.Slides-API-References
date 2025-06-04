@@ -22,10 +22,10 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Devuelve la interfaz IOverrideThemeable. Solo lectura [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Devuelve verdadero si existe al menos una diapositiva que depende de esta diapositiva de diseño. Solo lectura Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Devuelve el gerente de encabezado y pie de página de la diapositiva de diseño. Solo lectura [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Devuelve el gestor de HeaderFooter de la diapositiva de diseño. Solo lectura [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Devuelve el tipo de diseño de esta diapositiva de diseño. Solo lectura [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Devuelve o establece la diapositiva maestra para un diseño. Lectura/escritura [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Devuelve el gerente de marcadores de posición de la diapositiva de diseño. Solo lectura [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Devuelve el gestor de marcadores de posición de la diapositiva de diseño. Solo lectura [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Métodos
 
@@ -34,7 +34,7 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Devuelve un array con todas las diapositivas que dependen de esta diapositiva de diseño. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | Elimina el diseño de la presentación. |
 
-### Vea También
+### Ver También
 
 * interfaz [IBaseSlide](../ibaseslide)
 * interfaz [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

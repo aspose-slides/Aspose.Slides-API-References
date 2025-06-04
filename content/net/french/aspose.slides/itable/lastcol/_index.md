@@ -1,7 +1,7 @@
 ---
 title: LastCol
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la dernière colonne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture booléenne.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si la dernière colonne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 type: docs
 weight: 80
 url: /fr/aspose.slides/itable/lastcol/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itable/lastcol/
 
 ## Propriété ITable.LastCol
 
-Détermine si la dernière colonne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture booléenne.
+Détermine si la dernière colonne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 
 ```csharp
 public bool LastCol { get; set; }

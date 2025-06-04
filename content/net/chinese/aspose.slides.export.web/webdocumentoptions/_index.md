@@ -1,15 +1,15 @@
 ---
 title: WebDocumentOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示用于WebDocument./webdocument保存的一组选项。
+description: 表示WebDocument的选项集./webdocument保存。
 type: docs
 weight: 4500
 url: /zh/aspose.slides.export.web/webdocumentoptions/
 ---
 
-## WebDocumentOptions 类
+## WebDocumentOptions class
 
-表示用于 [`WebDocument`](../webdocument) 保存的一组选项。
+表示一个用于[`WebDocument`](../webdocument)保存的选项集。
 
 ```csharp
 public class WebDocumentOptions
@@ -26,12 +26,12 @@ public class WebDocumentOptions
 | 名称 | 描述 |
 | --- | --- |
 | [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | 返回或设置形状动画选项。可读写布尔值。 |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或设置转换动画选项。可读写布尔值。 |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或设置过渡动画选项。可读写布尔值。 |
 | [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | 返回或设置图像嵌入选项。可读写布尔值。 |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或设置输出保存器。可读写 [`IOutputSaver`](../ioutputsaver)。 |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或设置模板引擎。可读写 [`ITemplateEngine`](../itemplateengine)。 |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或设置输出保存器。可读写[`IOutputSaver`](../ioutputsaver)。 |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或设置模板引擎。可读写[`ITemplateEngine`](../itemplateengine)。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 程序集 [Aspose.Slides](../../)

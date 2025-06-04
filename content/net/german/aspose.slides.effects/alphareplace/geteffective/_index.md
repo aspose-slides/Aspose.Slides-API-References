@@ -1,15 +1,15 @@
 ---
 title: GetEffective
-second_title: Aspose.Slidese für .NET API-Referenz
-description: Ruft die effektiven Alpha Replace-Effektdaten mit der angewandten Vererbung ab.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft effektive Alpha Replace-Effektdaten mit der angewendeten Vererbung ab.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/alphareplace/geteffective/
 ---
 
-## AlphaReplace.GetEffective-Methode
+## AlphaReplace.GetEffective Methode
 
-Ruht die effektiven Alpha Replace-Effektdaten mit der angewandten Vererbung ab.
+Ruft effektive Alpha Replace-Effektdaten mit der angewendeten Vererbung ab.
 
 ```csharp
 public IAlphaReplaceEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IAlphaReplaceEffectiveData GetEffective()
 
 Ein [`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAlphaReplaceEffectiveData](../../ialphareplaceeffectivedata)
 * Klasse [AlphaReplace](../../alphareplace)

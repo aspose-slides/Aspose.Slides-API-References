@@ -1,7 +1,7 @@
 ---
 title: Libid
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示自动化类型库的标识符。可读写字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示自动化类型库的标识符。可读/写字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides.vba/ivbareferenceoletypelib/libid/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbareferenceoletypelib/libid/
 
 ## IVbaReferenceOleTypeLib.Libid 属性
 
-表示自动化类型库的标识符。可读写字符串。
+表示自动化类型库的标识符。可读/写字符串。
 
 ```csharp
 public string Libid { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: MarginRight
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置文本框中的右边距。可读写的 Double 类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 TextFrame 的右边距。可读写 Double。
 type: docs
 weight: 130
 url: /zh/aspose.slides/icell/marginright/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icell/marginright/
 
 ## ICell.MarginRight 属性
 
-返回或设置文本框中的右边距。可读写的 Double 类型。
+返回或设置 TextFrame 的右边距。可读写 Double。
 
 ```csharp
 public double MarginRight { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ICell](../../icell)
 * 命名空间 [Aspose.Slides](../../icell)

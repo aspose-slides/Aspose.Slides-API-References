@@ -1,15 +1,15 @@
 ---
 title: EnableGlowEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Active l'effet lumineux.
+second_title: Référence API Aspose.Slides pour .NET
+description: Active l'effet de halo.
 type: docs
 weight: 190
 url: /fr/aspose.slides/effectformat/enablegloweffect/
 ---
 
-## Méthode EffectFormat.EnableGlowEffect
+## EffectFormat.EnableGlowEffect méthode
 
-Active l'effet lumineux.
+Active l'effet de halo.
 
 ```csharp
 public void EnableGlowEffect()

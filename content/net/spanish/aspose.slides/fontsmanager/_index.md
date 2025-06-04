@@ -1,6 +1,6 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Aspose.Sildes for .NET API Reference
 description: Administra fuentes a través de la presentación.
 type: docs
 weight: 4740
@@ -19,18 +19,18 @@ public class FontsManager : IFontsManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Representa una colección de reglas de FontFallBack del usuario para administrar colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de retroceso. Lectura/escritura [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Representa una colección de reglas de FontFallBack del usuario para la gestión de colecciones de fuentes para sustituciones adecuadas mediante la funcionalidad de retroceso. Lectura/escritura [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
 | [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Sustituciones de fuentes a utilizar al renderizar. Lectura/escritura [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Agrega la fuente incrustada. Tenga en cuenta que al copiar fuentes, la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente con antelación y verifique si pueden ser transferidas libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o esta fuente ya está incrustada. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Agrega la fuente incrustada. Tenga en cuenta que al copiar fuentes, la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente con antelación y verifique si pueden ser transferidas libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o esta fuente ya está incrustada. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Agrega la fuente incrustada. Tenga en cuenta que al copiar cualquier fuente, la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente con anticipación y verifique que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está incrustada. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Agrega la fuente incrustada. Tenga en cuenta que al copiar cualquier fuente, la mayoría de las fuentes están protegidas por derechos de autor. Primero localice la licencia de una fuente con anticipación y verifique que se puedan transferir libremente a otra máquina. Se puede lanzar una ArgumentException si los datos de la fuente son nulos o si esta fuente ya está incrustada. |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Devuelve las fuentes incrustadas en la presentación. |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyle) | Recupera la matriz de bytes que representa los datos de la fuente para un estilo de fuente y datos de fuente especificados. |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Determina el nivel de incrustación de una fuente a partir de la matriz de bytes dada y el nombre de la fuente. |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyle) | Recupera el arreglo de bytes que representa los datos de la fuente para un estilo y datos de fuente especificados. |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Determina el nivel de incrustación de una fuente a partir del arreglo de bytes dado y el nombre de la fuente. |
 | [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Devuelve las fuentes utilizadas en la presentación. |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions)() | Obtiene la información sobre las fuentes que serán reemplazadas en el renderizado de la presentación. |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Elimina la fuente incrustada. |
@@ -40,14 +40,14 @@ public class FontsManager : IFontsManager
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo agregar fuentes incrustadas a una presentación de PowerPoint.
+El siguiente ejemplo muestra cómo agregar fuentes incrustadas a la presentación de PowerPoint.
 
 ```csharp
 [C#]
 // Cargar presentación
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-	// Cargar fuente de origen que se va a reemplazar
+	// Cargar fuente de origen a reemplazar
 	IFontData sourceFont = new FontData("Arial");
 	IFontData[] allFonts = presentation.FontsManager.GetFonts();
 	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
@@ -67,6 +67,6 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 
 * interfaz [IFontsManager](../ifontsmanager)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

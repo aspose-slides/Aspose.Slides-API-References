@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Datenpunkt der Serie nach Index seiner Seriennummer in dieser Sammlung zurück.
+description: Gibt den Datenpunkt der Serie nach Index seine Seriennummer in dieser Sammlung zurück.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/chartdatapointcollection/item/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartdatapointcollection/item/
 
 ## ChartDataPointCollection-Indexer (1 von 2)
 
-Gibt den Datenpunkt der Serie nach Index (seiner Seriennummer in dieser Sammlung) zurück.
+Gibt den Datenpunkt der Serie nach Index (seine Seriennummer in dieser Sammlung) zurück.
 
 ```csharp
 public IChartDataPoint this[int index] { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Klasse [ChartDataPointCollection](../../chartdatapointcollection)
@@ -32,7 +32,7 @@ Gibt den Index (Seriennummer) des Datenpunkts in dieser Sammlung zurück.
 public int this[IChartDataPoint pt] { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataPoint](../../ichartdatapoint)
 * Klasse [ChartDataPointCollection](../../chartdatapointcollection)

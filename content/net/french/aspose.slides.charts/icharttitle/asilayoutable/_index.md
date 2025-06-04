@@ -1,7 +1,7 @@
 ---
 title: AsILayoutable
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base ILayoutable. Lecture seule ILayoutable aspose.slides.charts/ilayoutable.
+second_title: Référence API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base ILayoutable. ILayoutable en lecture seule aspose.slides.charts/ilayoutable.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/icharttitle/asilayoutable/

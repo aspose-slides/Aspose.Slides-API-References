@@ -1,13 +1,13 @@
 ---
 title: SplitByWidth
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Divise la cellule par largeur.
 type: docs
 weight: 270
 url: /fr/aspose.slides/icell/splitbywidth/
 ---
 
-## Méthode ICell.SplitByWidth
+## ICell.SplitByWidth méthode
 
 Divise la cellule par largeur.
 

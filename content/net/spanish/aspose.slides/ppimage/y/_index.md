@@ -1,13 +1,13 @@
 ---
 title: Y
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un desplazamiento Y de una imagen. Solo lectura Int32.
 type: docs
 weight: 80
 url: /es/aspose.slides/ppimage/y/
 ---
 
-## Propiedad PPImage.Y
+## PPImage.Y property
 
 Devuelve un desplazamiento Y de una imagen. Solo lectura Int32.
 
@@ -15,10 +15,10 @@ Devuelve un desplazamiento Y de una imagen. Solo lectura Int32.
 public int Y { get; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [PPImage](../../ppimage)
 * espacio de nombres [Aspose.Slides](../../ppimage)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

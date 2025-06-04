@@ -1,6 +1,6 @@
 ---
 title: LastView
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument zuletzt gespeichert wurde. Lese-/Schreibzugriff auf ViewTypeaspose.slides/viewtype.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument z
 public ViewType LastView { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ViewType](../../viewtype)
 * class [ViewProperties](../../viewproperties)

@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Возвращает имя этого значения настройки. Только для чтения строка.
 type: docs
 weight: 20

@@ -7,7 +7,7 @@ weight: 60
 url: /de/aspose.slides.mathtext/imathelementcollection/contains/
 ---
 
-## IMathElementCollection.Contains Methode
+## IMathElementCollection.Contains-Methode
 
 Bestimmt, ob die Sammlung einen bestimmten Wert enthält.
 
@@ -17,7 +17,7 @@ public bool Contains(IMathElement item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IMathElement | Das Objekt, das in der Sammlung gefunden werden soll. |
+| item | IMathElement | Das Objekt, das in der Sammlung gesucht werden soll. |
 
 ### Rückgabewert
 
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 bool contains = collection.Contains(plusElement);
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathElementCollection](../../imathelementcollection)

@@ -1,13 +1,13 @@
 ---
 title: Radius
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или устанавливает радиус размытия. Чтение/запись Double.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/blur/radius/
 ---
 
-## Свойство Blur.Radius
+## Blur.Radius свойство
 
 Возвращает или устанавливает радиус размытия. Чтение/запись Double.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/blur/radius/
 public double Radius { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [Blur](../../blur)
 * пространство имен [Aspose.Slides.Effects](../../blur)

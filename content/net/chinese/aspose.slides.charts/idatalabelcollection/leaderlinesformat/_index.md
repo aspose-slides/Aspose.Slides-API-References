@@ -1,7 +1,7 @@
 ---
 title: LeaderLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示数据标签的引线格式。只读 IChartLinesFormataspose.slides/ichartlinesformat。
+description: 表示数据标签的引导线格式。只读 IChartLinesFormataspose.slides/ichartlinesformat。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 
 ## IDataLabelCollection.LeaderLinesFormat 属性
 
-表示数据标签的引线格式。只读 [`IChartLinesFormat`](../../ichartlinesformat)。
+表示数据标签的引导线格式。只读 [`IChartLinesFormat`](../../ichartlinesformat)。
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IChartLinesFormat](../../ichartlinesformat)
 * 接口 [IDataLabelCollection](../../idatalabelcollection)

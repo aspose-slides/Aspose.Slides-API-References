@@ -1,7 +1,7 @@
 ---
 title: Local
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt den lokalen Speicher des aktuellen Template-Kontexts zurück. Nur-Lese Speicheraspose.slides.export.web/storage.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den lokalen Speicher des aktuellen Vorlagekontexts zurück. Nur lesbarer Speicher aspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /de/aspose.slides.export.web/templatecontext-1/local/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export.web/templatecontext-1/local/
 
 ## TemplateContext&lt;TObject&gt;.Local-Eigenschaft
 
-Gibt den lokalen Speicher des aktuellen Template-Kontexts zurück. Nur-Lese [`Storage`](../../storage).
+Gibt den lokalen Speicher des aktuellen Vorlagekontexts zurück. Nur lesbar [`Storage`](../../storage).
 
 ```csharp
 public Storage Local { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Storage](../../storage)
 * Klasse [TemplateContext&lt;TObject&gt;](../../templatecontext-1)

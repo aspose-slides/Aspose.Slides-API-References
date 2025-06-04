@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет указанное значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/trendlinecollection/remove/
 ---
 
-## Метод TrendlineCollection.Remove
+## TrendlineCollection.Remove метод
 
 Удаляет указанное значение.
 

@@ -1,6 +1,6 @@
 ---
 title: AddFallBackFonts
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Ajoute une nouvelle police à la liste des polices de secours.
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fontfallbackrule/addfallbackfonts/
 
 ## AddFallBackFonts(string) {#addfallbackfonts}
 
-Ajoute une ou plusieurs nouvelles polices à la liste des polices de secours.
+Ajoute une nouvelle police à la liste des polices de secours.
 
 ```csharp
 public void AddFallBackFonts(string fontName)
@@ -17,7 +17,7 @@ public void AddFallBackFonts(string fontName)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontName | String | Nom de la ou des polices (délimitées par des virgules) pour secours |
+| fontName | String | Nom ou noms de la police (délimités par une virgule) pour les polices de secours |
 
 ### Exemples
 
@@ -26,9 +26,9 @@ public void AddFallBackFonts(string fontName)
 // Créer une nouvelle instance de FontFallBackRule
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-//Ajouter une seconde police à la règle 
+//Ajouter une deuxième police à la règle 
 newRule.AddFallBackFonts("MS Gothic");
-//Ajouter une troisième et une quatrième police à la règle 
+//Ajouter une troisième et quatrième police à la règle 
 newRule.AddFallBackFonts("Tahoma, Times New Roman");
 ```
 
@@ -42,7 +42,7 @@ newRule.AddFallBackFonts("Tahoma, Times New Roman");
 
 ## AddFallBackFonts(string[]) {#addfallbackfonts_1}
 
-Ajoute une ou plusieurs nouvelles polices à la liste des polices de secours.
+Ajoute une nouvelle police à la liste des polices de secours.
 
 ```csharp
 public void AddFallBackFonts(string[] fontNames)
@@ -50,7 +50,7 @@ public void AddFallBackFonts(string[] fontNames)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| fontNames | String[] | Nom de la ou des polices (délimitées par des virgules) pour secours |
+| fontNames | String[] | Nom ou noms de la police (délimités par une virgule) pour les polices de secours |
 
 ### Exemples
 

@@ -7,7 +7,7 @@ weight: 260
 url: /fr/aspose.slides.charts/ichartdatapointcollection/remove/
 ---
 
-## Méthode IChartDataPointCollection.Remove
+## IChartDataPointCollection.Remove méthode
 
 Supprime la valeur spécifiée.
 

@@ -1,6 +1,6 @@
 ---
 title: AddClone
-second_title: Aspose.Slides pour la référence de l'API .NET
+second_title: Aspose.Sildes pour .NET Documentation de référence
 description: Ajoute une copie d'une diapositive de mise en page spécifiée à la présentation.
 type: docs
 weight: 30
@@ -25,7 +25,7 @@ Diapositive ajoutée.
 
 ### Remarques
 
-Lors du clonage d'une mise en page entre différentes présentations, le maître de la mise en page peut également être cloné pour conserver le formatage source. Un registre interne est utilisé pour suivre automatiquement les maîtres clonés afin d'éviter la création de plusieurs clones de la même diapositive maître. Le clonage manuel des diapositives maîtres ne sera ni empêché ni enregistré.
+Lors du clonage d'une disposition entre différentes présentations, le maître de la disposition peut également être cloné pour conserver le formatage source. Un registre interne est utilisé pour suivre automatiquement les maîtres clonés afin d'éviter la création de plusieurs clones de la même diapositive maître. Le clonage manuel de diapositives maîtres ne sera ni empêché ni enregistré.
 
 ### Voir aussi
 
@@ -55,7 +55,7 @@ Diapositive ajoutée.
 
 ### Remarques
 
-La nouvelle mise en page sera liée au maître défini dans la présentation de destination. Ainsi, cela est l'analogue du copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint.
+La nouvelle mise en page sera liée au maître défini dans la présentation de destination. C'est donc l'analogue de copier/coller avec l'option "Utiliser le thème de destination" dans PowerPoint.
 
 ### Voir aussi
 

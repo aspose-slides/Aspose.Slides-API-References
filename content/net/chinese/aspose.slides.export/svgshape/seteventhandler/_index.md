@@ -1,6 +1,6 @@
 ---
 title: SetEventHandler
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 为形状设置事件处理程序
 type: docs
 weight: 20
@@ -18,9 +18,9 @@ public void SetEventHandler(SvgEvent eventType, string handler)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | eventType | SvgEvent | 事件类型。 |
-| handler | String | 处理事件的 Javascript 函数。空值将移除处理程序。 |
+| handler | String | 处理事件的Javascript函数。空值会移除处理程序。 |
 
-### 另请参阅
+### 另见
 
 * enum [SvgEvent](../../svgevent)
 * class [SvgShape](../../svgshape)

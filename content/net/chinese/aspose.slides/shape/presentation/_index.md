@@ -1,6 +1,6 @@
 ---
 title: Presentation
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回幻灯片的父演示文稿。只读 IPresentationaspose.slides/ipresentation。
 type: docs
 weight: 220
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shape/presentation/
 public IPresentation Presentation { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IPresentation](../../ipresentation)
 * 类 [Shape](../../shape)

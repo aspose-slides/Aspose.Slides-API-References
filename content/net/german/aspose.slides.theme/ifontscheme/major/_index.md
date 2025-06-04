@@ -1,7 +1,7 @@
 ---
 title: Major
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Schriftartenkollektion für einen "Überschrift"-Teil der Folie zurück. Nur-Lese IFontsaspose.slides/../aspose.slides/ifonts.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Schriftartenkollektion für einen "Überschriften"-Teil der Folie zurück. Nur-Lese IFontsaspose.slides/../aspose.slides/ifonts.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ifontscheme/major/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ifontscheme/major/
 
 ## IFontScheme.Major-Eigenschaft
 
-Gibt die Schriftartenkollektion für einen "Überschrift"-Teil der Folie zurück. Nur-Lese [`IFonts`](../../../aspose.slides/ifonts).
+Gibt die Schriftartenkollektion für einen "Überschriften"-Teil der Folie zurück. Nur-Lese [`IFonts`](../../../aspose.slides/ifonts).
 
 ```csharp
 public IFonts Major { get; }

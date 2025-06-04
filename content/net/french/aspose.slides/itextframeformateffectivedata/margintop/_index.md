@@ -1,13 +1,13 @@
 ---
 title: MarginTop
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les marges supérieures en points dans un TextFrame. Lecture seule Double.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie le point de marge supérieure dans un TextFrame. Lecture seule Double.
 type: docs
 weight: 90
 url: /fr/aspose.slides/itextframeformateffectivedata/margintop/
 ---
 
-## Propriété ITextFrameFormatEffectiveData.MarginTop
+## ITextFrameFormatEffectiveData.MarginTop propriété
 
 Renvoie la marge supérieure (points) dans un TextFrame. Lecture seule Double.
 

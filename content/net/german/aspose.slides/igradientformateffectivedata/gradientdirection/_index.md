@@ -1,13 +1,13 @@
 ---
 title: GradientDirection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Stil eines Verlaufs zurück. Nur lesbares GradientDirectionaspose.slides/gradientdirection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Stil eines Verlaufs zurück. Nur lesbarer GradientDirectionaspose.slides/gradientdirection.
 type: docs
 weight: 20
 url: /de/aspose.slides/igradientformateffectivedata/gradientdirection/
 ---
 
-## IGradientFormatEffectiveData.GradientDirection Eigenschaft
+## IGradientFormatEffectiveData.GradientDirection-Eigenschaft
 
 Gibt den Stil eines Verlaufs zurück. Nur lesbar [`GradientDirection`](../../gradientdirection).
 

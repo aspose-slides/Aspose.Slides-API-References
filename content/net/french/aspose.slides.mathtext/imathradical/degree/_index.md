@@ -1,6 +1,6 @@
 ---
 title: Degree
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Argument de degré
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public IMathElement Degree { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

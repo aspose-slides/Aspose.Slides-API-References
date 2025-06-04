@@ -1,13 +1,13 @@
 ---
 title: CreateSetEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Crée un effet de jeu.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/ibehaviorfactory/createseteffect/
 ---
 
-## Méthode IBehaviorFactory.CreateSetEffect
+## IBehaviorFactory.CreateSetEffect method
 
 Crée un effet de jeu.
 
@@ -15,11 +15,11 @@ Crée un effet de jeu.
 public ISetEffect CreateSetEffect()
 ```
 
-### Valeur de retour
+### Return Value
 
 Effet de jeu.
 
-### Voir aussi
+### See Also
 
 * interface [ISetEffect](../../iseteffect)
 * interface [IBehaviorFactory](../../ibehaviorfactory)

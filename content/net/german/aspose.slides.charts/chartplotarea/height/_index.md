@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Höhe eines Plotbereichs-Bounding-Box als Bruchteil der Höhe des Diagramms von 0 bis 1 zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Höhe des Begrenzungsrahmens eines Plotbereichs als Bruchteil der Höhe des Diagramms von 0 bis 1 zurück oder legt sie fest. Schreib-/Lesbarer Typ Single.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/chartplotarea/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartplotarea/height/
 
 ## ChartPlotArea.Height-Eigenschaft
 
-Gibt die Höhe eines Plotbereichs-Bounding-Box als Bruchteil der Höhe des Diagramms (von 0 bis 1) zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+Gibt die Höhe des Begrenzungsrahmens eines Plotbereichs als Bruchteil der Höhe des Diagramms (von 0 bis 1) zurück oder legt sie fest. Schreib-/Lesbarer Typ Single.
 
 ```csharp
 public float Height { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: IsColorVaried
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定系列中的每个数据标记具有不同的颜色。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定系列中的每个数据标记具有不同的颜色。可读/可写的布尔值。
 type: docs
 weight: 100
 url: /zh/aspose.slides.charts/chartseriesgroup/iscolorvaried/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartseriesgroup/iscolorvaried/
 
 ## ChartSeriesGroup.IsColorVaried 属性
 
-指定系列中的每个数据标记具有不同的颜色。可读/可写布尔值。
+指定系列中的每个数据标记具有不同的颜色。可读/可写的布尔值。
 
 ```csharp
 public bool IsColorVaried { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * class [ChartSeriesGroup](../../chartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../chartseriesgroup)

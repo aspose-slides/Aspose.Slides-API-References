@@ -1,7 +1,7 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Slides for .NET API Reference
-description: 代表可以用来管理二进制大型对象 BLOB 的处理行为的选项，例如使用临时文件或内存中最大 BLOB 字节数。这些选项旨在为特定环境或要求设置最佳性能/内存消耗比例。二进制大型对象 BLOB 是作为单个实体存储的二进制数据 - 即 BLOB 可以是音频、视频或演示文稿本身。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示可以用于管理二进制大型对象 BLOB 处理行为的选项，例如使用临时文件或最大 BLOB 字节在内存中。这些选项旨在为特定环境或要求设置最佳性能/内存消耗比。二进制大型对象 BLOB 是作为单个实体存储的二进制数据 - 即 BLOB 可以是音频、视频或演示文稿本身。
 type: docs
 weight: 10
 url: /zh/aspose.slides/iloadoptions/blobmanagementoptions/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iloadoptions/blobmanagementoptions/
 
 ## ILoadOptions.BlobManagementOptions 属性
 
-代表可以用来管理二进制大型对象 (BLOB) 的处理行为的选项，例如使用临时文件或内存中最大 BLOB 字节数。这些选项旨在为特定环境或要求设置最佳性能/内存消耗比例。二进制大型对象 (BLOB) 是作为单个实体存储的二进制数据 - 即 BLOB 可以是音频、视频或演示文稿本身。
+表示可以用于管理二进制大型对象 (BLOB) 处理行为的选项，例如使用临时文件或最大 BLOB 字节在内存中。这些选项旨在为特定环境或要求设置最佳性能/内存消耗比。二进制大型对象 (BLOB) 是作为单个实体存储的二进制数据 - 即 BLOB 可以是音频、视频或演示文稿本身。
 
 ```csharp
 public IBlobManagementOptions BlobManagementOptions { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IBlobManagementOptions](../../iblobmanagementoptions)
 * 接口 [ILoadOptions](../../iloadoptions)

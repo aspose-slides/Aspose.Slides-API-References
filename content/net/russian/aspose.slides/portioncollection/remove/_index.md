@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет первое вхождение конкретного объекта из ICollection.
 type: docs
 weight: 110
@@ -17,19 +17,19 @@ public bool Remove(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект, который нужно удалить из ICollection. |
+| item | IPortion | Объект, который необходимо удалить из ICollection. |
 
-### Возвращаемое Значение
+### Значение, возвращаемое методом
 
-true, если *item* был успешно удален из ICollection; в противном случае false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
+true, если *item* был успешно удален из ICollection; в противном случае - false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | ICollection доступен только для чтения. |
+| NotSupportedException | ICollection доступна только для чтения. |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [IPortion](../../iportion)
 * класс [PortionCollection](../../portioncollection)

@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForValues
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die AsCell-, AsLiteralString- oder AsLiteralDouble-Eigenschaft in den Wert-Objekten der Datenpunkte aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der ChartDataPoint.Value.Data-Eigenschaft an. Lese-/Schreibezugriff auf DataSourceTypeaspose.slides/datasourcetype.
+description: Gibt an, ob die Eigenschaft AsCell oder AsLiteralString oder AsLiteralDouble in den Wert-Eigenschaftsobjekten der Datenpunkte aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPoint.Value.Data an. Lese-/Schreibzugriff auf DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/chartdatapointcollection/datasourcetypeforvalues/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/datasourcetypeforvalues/
 
 ## ChartDataPointCollection.DataSourceTypeForValues-Eigenschaft
 
-Bestimmt, ob die AsCell-, AsLiteralString- oder AsLiteralDouble-Eigenschaft in den Wert-Objekten der Datenpunkte aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der ChartDataPoint.Value.Data-Eigenschaft an. Lese-/Schreibezugriff auf [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die Eigenschaft AsCell oder AsLiteralString oder AsLiteralDouble in den Wert-Eigenschaftsobjekten der Datenpunkte aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der Eigenschaft ChartDataPoint.Value.Data an. Lese-/Schreibzugriff auf [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForValues { get; set; }

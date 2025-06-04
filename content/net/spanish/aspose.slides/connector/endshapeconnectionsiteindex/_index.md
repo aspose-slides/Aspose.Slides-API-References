@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/connector/endshapeconnectionsiteindex/
 ---
 
-## Propiedad Connector.EndShapeConnectionSiteIndex
+## Connector.EndShapeConnectionSiteIndex property
 
 Devuelve o establece el índice del sitio de conexión para la forma final. Lectura/escritura UInt32.
 
@@ -21,10 +21,10 @@ public uint EndShapeConnectionSiteIndex { get; set; }
 | --- | --- |
 | ArgumentException | Lanzado cuando el valor es menor que EndShapeConnectedTo.ConnectionSiteCount |
 
-### Vea también
+### Véase También
 
-* clase [Connector](../../connector)
-* espacio de nombres [Aspose.Slides](../../connector)
-* ensamblado [Aspose.Slides](../../../)
+* class [Connector](../../connector)
+* namespace [Aspose.Slides](../../connector)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie un index de la section spécifiée dans la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/isectioncollection/indexof/
 ---
 
-## Méthode ISectionCollection.IndexOf
+## ISectionCollection.IndexOf méthode
 
 Renvoie un index de la section spécifiée dans la collection.
 
@@ -21,7 +21,7 @@ public int IndexOf(ISection section)
 
 ### Valeur de retour
 
-Index d'une section ou -1 si la section ne fait pas partie de cette collection.
+Index d'une section ou -1 si la section ne provient pas de cette collection.
 
 ### Voir aussi
 

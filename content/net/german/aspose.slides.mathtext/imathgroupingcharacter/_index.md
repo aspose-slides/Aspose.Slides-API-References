@@ -1,7 +1,7 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Spezifiziert ein Gruppierungszeichen über oder unter einem Ausdruck, normalerweise um die Beziehung zwischen Elementen hervorzuheben
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein Gruppierungszeichen über oder unter einem Ausdruck an, normalerweise um die Beziehung zwischen Elementen hervorzuheben
 type: docs
 weight: 8040
 url: /de/aspose.slides.mathtext/imathgroupingcharacter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathgroupingcharacter/
 
 ## IMathGroupingCharacter-Schnittstelle
 
-Spezifiziert ein Gruppierungszeichen über oder unter einem Ausdruck, normalerweise um die Beziehung zwischen Elementen hervorzuheben
+Gibt ein Gruppierungszeichen über oder unter einem Ausdruck an, normalerweise um die Beziehung zwischen Elementen hervorzuheben
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -19,11 +19,11 @@ public interface IMathGroupingCharacter : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Basisargument |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Gruppierungszeichen Standardwert: U+23DF (UNTERE GESTULPTE KLAMMER) |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Gruppierungszeichen Standardwert: U+23DF (UNTERE GEBROCHENE KLAUZE) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Position des Gruppierungszeichens. Standard: Unten |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Vertikale Ausrichtung des Gruppenzeichens. Gibt die Ausrichtung des Objekts bezüglich der Grundlinie an. Zum Beispiel, wenn das Gruppenzeichen über dem Objekt ist, bedeutet VerticalJustification von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn VerticalJustification auf Unten gesetzt ist, befindet sich die Unterseite des Objekts auf der Grundlinie. Standard: Unten für Position=Oben und Oben für Position=Unten |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Vertikale Rechtfertigung des Gruppenzeichens. Gibt die Ausrichtung des Objekts in Bezug auf die Grundlinie an. Zum Beispiel, wenn das Gruppenzeichen über dem Objekt ist, bedeutet eine VerticalJustification von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn VerticalJustification auf Unten gesetzt ist, liegt die Unterseite des Objekts auf der Grundlinie. Standard: Unten für Position=Oben, und Oben für Position=Unten |
 
 ### Beispiele
 

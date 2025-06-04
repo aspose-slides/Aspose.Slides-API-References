@@ -1,7 +1,7 @@
 ---
 title: ApplyExternalThemeToDependingSlides
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une nouvelle diapositive maître basée sur la diapositive actuelle en appliquant un thème externe et applique la diapositive maître créée à toutes les diapositives dépendantes.
+description: Crée une nouvelle diapositive maître basée sur la diapositive actuelle en lui appliquant un thème externe et applique la diapositive maître créée à toutes les diapositives dépendantes.
 type: docs
 weight: 100
 url: /fr/aspose.slides/imasterslide/applyexternalthemetodependingslides/
@@ -19,9 +19,9 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 | --- | --- | --- |
 | fname | String | Chemin vers le fichier de thème externe (.thmx). |
 
-### Valeur de Retour
+### Valeur de retour
 
-Nouvelle MasterSlide thématisée.
+Nouvelle MasterSlide au thème appliqué.
 
 ### Exceptions
 

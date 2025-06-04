@@ -19,14 +19,14 @@ public class SequenceCollection : ISequenceCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Gibt die Anzahl der Elemente in einer Sammlung zurück. Nur-Lesen Int32. |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Gibt eine Sequenz an dem angegebenen Index zurück. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Gibt die Anzahl der Elemente in einer Sammlung zurück. Nur lesbar Int32. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Gibt eine Sequenz am angegebenen Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Fügt eine neue interaktive Sequenz hinzu. Lesen/Schreiben [`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Fügt eine neue interaktive Sequenz hinzu. Lese-/Schreibzugriff [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Entfernt alle Sequenzen aus einer Sammlung. |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Entfernt die angegebene Sequenz aus einer Sammlung. |

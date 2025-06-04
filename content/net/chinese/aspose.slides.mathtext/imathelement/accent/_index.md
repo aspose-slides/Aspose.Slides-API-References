@@ -1,15 +1,15 @@
 ---
 title: Accent
-second_title: Aspose.Sildes for .NET API 参考
-description: 在该元素的顶部设置一个重音标记
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置一个重音符号在此元素的顶部
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/imathelement/accent/
 ---
 
-## IMathElement.Accent 方法
+## IMathElement.Accent method
 
-设置一个重音标记（在该元素的顶部的一个字符）
+设置一个重音符号（在此元素顶部的一个字符）
 
 ```csharp
 public IMathAccent Accent(char accentCharacter)
@@ -17,11 +17,11 @@ public IMathAccent Accent(char accentCharacter)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| accentCharacter | Char | 重音字符。值应在 (U+0300–U+036F) 或 (U+20D0–U+20EF) 范围内 |
+| accentCharacter | Char | 重音字符。值应在（U+0300–U+036F）或（U+20D0–U+20EF）范围内 |
 
 ### 返回值
 
-新实例类型 [`IMathAccent`](../../imathaccent)
+类型为 [`IMathAccent`](../../imathaccent) 的新实例
 
 ### 示例
 
@@ -32,7 +32,7 @@ public IMathAccent Accent(char accentCharacter)
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathAccent](../../imathaccent)
 * 接口 [IMathElement](../../imathelement)

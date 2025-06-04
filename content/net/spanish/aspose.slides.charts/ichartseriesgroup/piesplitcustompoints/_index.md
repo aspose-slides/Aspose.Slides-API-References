@@ -1,25 +1,25 @@
 ---
 title: PieSplitCustomPoints
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: La información de división personalizada para un gráfico de pastel de pastel o de barra de pastel con una división personalizada. Contiene puntos de datos que se dibujarán en el segundo pastel o barra en un gráfico de pastel de pastel o de barra de pastel. Solo lectura IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
+second_title: Aspose.Slides para .NET API Reference
+description: La información de división personalizada para un gráfico de pie-of-pie o bar-of-pie con una división personalizada. Contiene puntos de datos que se dibujarán en el segundo pie o barra en un gráfico de pie-of-pie o bar-of-pie. Solo lectura IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
 type: docs
 weight: 140
 url: /es/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
 ---
 
-## Propiedad IChartSeriesGroup.PieSplitCustomPoints
+## IChartSeriesGroup.PieSplitCustomPoints property
 
-La información de división personalizada para un gráfico de pastel de pastel o de barra de pastel con una división personalizada. Contiene puntos de datos que se dibujarán en el segundo pastel o barra en un gráfico de pastel de pastel o de barra de pastel. Solo lectura [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
+La información de división personalizada para un gráfico de pie-of-pie o bar-of-pie con una división personalizada. Contiene puntos de datos que se dibujarán en el segundo pie o barra en un gráfico de pie-of-pie o bar-of-pie. Solo lectura [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
-* interfaz [IChartSeriesGroup](../../ichartseriesgroup)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartseriesgroup)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IPieSplitCustomPointCollection](../../ipiesplitcustompointcollection)
+* interface [IChartSeriesGroup](../../ichartseriesgroup)
+* namespace [Aspose.Slides.Charts](../../ichartseriesgroup)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合的指定位置插入指定幻灯片的副本。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将指定幻灯片的副本插入到集合的指定位置。
 type: docs
 weight: 70
 url: /zh/aspose.slides/islidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/islidecollection/insertclone/
 
 ## InsertClone(int, ISlide) {#insertclone}
 
-在集合的指定位置插入指定幻灯片的副本。
+将指定幻灯片的副本插入到集合的指定位置。
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide)
@@ -26,7 +26,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 
 ### 备注
 
-在不同演示文稿之间克隆幻灯片时，可以克隆幻灯片的母版。内部注册表用于自动跟踪克隆的母版，以防止创建同一母版幻灯片的多个克隆。手动克隆母版幻灯片既不会被阻止也不会被注册。如果您需要对克隆过程有更多控制，请使用 [`InsertClone`](../insertclone) 或 [`InsertClone`](../insertclone) 来克隆幻灯片，以及 [`AddClone`](../../imasterslidecollection/addclone) 来克隆母版。
+在不同演示文稿之间克隆幻灯片时，幻灯片的母版也可以被克隆。内部注册表用于自动跟踪克隆的母版，以防止创建多个相同母版幻灯片的克隆。母版幻灯片的手动克隆将不会被阻止或注册。如果您需要对克隆过程有更好的控制，请使用 [`InsertClone`](../insertclone) 或 [`InsertClone`](../insertclone) 来克隆幻灯片，以及 [`AddClone`](../../imasterslidecollection/addclone) 来克隆母版。
 
 ### 另见
 
@@ -39,7 +39,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 
 ## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
-在集合的指定位置插入指定幻灯片的副本。
+将指定幻灯片的副本插入到集合的指定位置。
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
@@ -67,7 +67,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 
 ## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
-在集合的指定位置插入指定源幻灯片的副本。将根据指定母版自动选择适当的布局（适当布局是指与源幻灯片的布局具有相同类型或名称的布局）。如果没有适当的布局，则源幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为 true），或者将抛出 PptxEditException（如果 allowCloneMissingLayout 为 false）。
+将指定源幻灯片的副本插入到集合的指定位置。适当的布局将自动从指定母版中选择（适当的布局是与源幻灯片的布局具有相同类型或名称的布局）。如果没有适当的布局，则源幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为 true），或者将抛出 PptxEditException（如果 allowCloneMissingLayout 为 false）。
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
@@ -89,7 +89,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果指定母版中没有适当的布局且 allowCloneMissingLayout 为 false，则抛出。 |
+| [PptxEditException](../../pptxeditexception) | 如果指定母版中没有适当的布局并且 allowCloneMissingLayout 为 false，则抛出。 |
 
 ### 另见
 

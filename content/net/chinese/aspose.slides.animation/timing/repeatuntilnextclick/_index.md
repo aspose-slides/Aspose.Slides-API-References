@@ -1,15 +1,15 @@
 ---
 title: RepeatUntilNextClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 此属性指定效果是否会重复直到下次点击。可读/可写布尔值。
+description: 此属性指定效果是否会重复直到下次点击。可读写的布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/timing/repeatuntilnextclick/
 ---
 
-## Timing.RepeatUntilNextClick 属性
+## Timing.RepeatUntilNextClick property
 
-此属性指定效果是否会重复直到下次点击。可读/可写布尔值。
+此属性指定效果是否会重复直到下次点击。可读写的布尔值。
 
 ```csharp
 public bool RepeatUntilNextClick { get; set; }
@@ -20,18 +20,18 @@ public bool RepeatUntilNextClick { get; set; }
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // 获取第一页的效果序列
+    // 获取第一张幻灯片的效果序列
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
     // 获取主序列的第一个效果。
     IEffect effect = effectsSequence[0];
 
-    // 将效果时机/重复更改为“直到下次点击”
+    // 将效果的 Timing/Repeat 更改为 "Until Next Click"
     effect.Timing.RepeatUntilNextClick = true;
 }
 ```
 
-### 另见
+### 另请参见
 
 * class [Timing](../../timing)
 * namespace [Aspose.Slides.Animation](../../timing)

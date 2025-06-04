@@ -1,15 +1,15 @@
 ---
 title: Contains
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, содержит ли коллекция конкретное значение.
+second_title: Справочная информация по API Aspose.Sildes для .NET
+description: Определяет, содержит ли коллекция определенное значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/imathblockcollection/contains/
 ---
 
-## Метод IMathBlockCollection.Contains
+## IMathBlockCollection.Contains метод
 
-Определяет, содержит ли коллекция конкретное значение.
+Определяет, содержит ли коллекция определенное значение.
 
 ```csharp
 public bool Contains(IMathBlock item)
@@ -17,7 +17,7 @@ public bool Contains(IMathBlock item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathBlock | Объект, который необходимо найти в коллекции. |
+| item | IMathBlock | Объект, который нужно найти в коллекции. |
 
 ### Возвращаемое значение
 
@@ -35,7 +35,7 @@ blockCollection.Add(block);
 bool contains = blockCollection.Contains(block);
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathBlock](../../imathblock)
 * интерфейс [IMathBlockCollection](../../imathblockcollection)

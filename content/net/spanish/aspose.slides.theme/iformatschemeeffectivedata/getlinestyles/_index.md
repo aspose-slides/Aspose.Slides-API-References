@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides.theme/iformatschemeeffectivedata/getlinestyles/
 ---
 
-## Método IFormatSchemeEffectiveData.GetLineStyles
+## IFormatSchemeEffectiveData.GetLineStyles método
 
 Devuelve una colección de estilos de línea definidos por el tema.
 
@@ -19,11 +19,11 @@ public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Color Color |
 
-### Valor de Retorno
+### Valor de retorno
 
 Colección de formatos de línea efectivos [`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
 
-### Véase También
+### Véase también
 
 * interfaz [ILineFormatCollectionEffectiveData](../../ilineformatcollectioneffectivedata)
 * interfaz [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

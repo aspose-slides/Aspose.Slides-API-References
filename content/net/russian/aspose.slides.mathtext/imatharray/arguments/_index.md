@@ -1,13 +1,13 @@
 ---
 title: Arguments
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Набор элементов массива
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imatharray/arguments/
 ---
 
-## Свойство IMathArray.Arguments
+## IMathArray.Arguments свойство
 
 Набор элементов массива
 

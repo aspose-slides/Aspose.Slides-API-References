@@ -1,7 +1,7 @@
 ---
 title: ContourColor
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или задает цвет контура. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает цвет контура. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides/threedformat/contourcolor/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/threedformat/contourcolor/
 
 ## ThreeDFormat.ContourColor свойство
 
-Возвращает или задает цвет контура. Только для чтения [`IColorFormat`](../../icolorformat).
+Возвращает или устанавливает цвет контура. Только для чтения [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ContourColor { get; }

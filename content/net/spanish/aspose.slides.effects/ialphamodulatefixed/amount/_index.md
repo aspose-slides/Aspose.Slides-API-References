@@ -15,10 +15,10 @@ Devuelve una cantidad de efecto en porcentajes. Lectura/escritura Single.
 public float Amount { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IAlphaModulateFixed](../../ialphamodulatefixed)
 * espacio de nombres [Aspose.Slides.Effects](../../ialphamodulatefixed)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

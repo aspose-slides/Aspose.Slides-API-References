@@ -1,7 +1,7 @@
 ---
 title: Timeline
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el objeto de cronología de animación. Solo lectura IAnimationTimeLineaspose.slides/ianimationtimeline.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Retorna el objeto de la línea de tiempo de animación. Solo lectura IAnimationTimeLineaspose.slides/ianimationtimeline.
 type: docs
 weight: 110
 url: /es/aspose.slides/baseslide/timeline/
@@ -9,17 +9,17 @@ url: /es/aspose.slides/baseslide/timeline/
 
 ## Propiedad BaseSlide.Timeline
 
-Devuelve el objeto de cronología de animación. Solo lectura [`IAnimationTimeLine`](../../ianimationtimeline).
+Retorna el objeto de la línea de tiempo de animación. Solo lectura [`IAnimationTimeLine`](../../ianimationtimeline).
 
 ```csharp
 public IAnimationTimeLine Timeline { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IAnimationTimeLine](../../ianimationtimeline)
-* clase [BaseSlide](../../baseslide)
-* espacio de nombres [Aspose.Slides](../../baseslide)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAnimationTimeLine](../../ianimationtimeline)
+* clase [BaseSlide](../../baseslide)
+* espacio de nombres [Aspose.Slides](../../baseslide)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

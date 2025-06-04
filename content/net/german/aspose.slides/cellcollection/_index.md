@@ -1,6 +1,6 @@
 ---
 title: CellCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt eine Sammlung von Zellen dar.
 type: docs
 weight: 1060
@@ -19,12 +19,12 @@ public abstract class CellCollection : ICellCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Gibt die Anzahl der Zellen in einer Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (threadsicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Gibt eine Zelle anhand ihrer Position zurück. Nur lesbar [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Gibt die übergeordnete Präsentation einer CellCollection zurück. Nur lesbar [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Gibt die übergeordnete Folie einer CellCollection zurück. Nur lesbar [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Gibt die Anzahl der Zellen in einer Sammlung zurück. Schreibgeschützter Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschützter Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Gibt eine Zelle nach ihrer Position zurück. Schreibgeschütztes [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Gibt die übergeordnete Präsentation einer CellCollection zurück. Schreibgeschütztes [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Gibt die übergeordnete Folie einer CellCollection zurück. Schreibgeschütztes [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Schreibgeschütztes Objekt. |
 
 ## Methoden
 

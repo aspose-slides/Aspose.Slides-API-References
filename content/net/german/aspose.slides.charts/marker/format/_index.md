@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Füllung des Markers ab oder legt sie fest. Nur-lesender IFormataspose.slides/iformat.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ruft den Markerfüllwert ab oder setzt ihn. Nur lesbares IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/marker/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/marker/format/
 
 ## Marker.Format-Eigenschaft
 
-Ruft die Füllung des Markers ab oder legt sie fest. Nur-lesender [`IFormat`](../../iformat).
+Ruft den Markerfüllwert ab oder setzt ihn. Nur lesbar [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

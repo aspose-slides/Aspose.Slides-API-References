@@ -1,7 +1,7 @@
 ---
 title: Save
-second_title: Aspose.Slides für .NET API-Referenz
-description: Speichert das Bild in der angegebenen Datei
+second_title: Aspose.Slides für .NET API Referenz
+description: Bild in die angegebene Datei speichern
 type: docs
 weight: 40
 url: /de/aspose.slides/iimagewrapper/save/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iimagewrapper/save/
 
 ## Save(string) {#save_1}
 
-Speichert das Bild in der angegebenen Datei
+Speichert Bild in die angegebene Datei
 
 ```csharp
 public void Save(string fileName)
@@ -51,7 +51,7 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 ## Save(string, PPImageFormat) {#save_2}
 
-Speichert das Bild in der angegebenen Datei im angegebenen Format.
+Speichert das Bild in die angegebene Datei im angegebenen Format.
 
 ```csharp
 public void Save(string fileName, PPImageFormat imageFormat)

@@ -1,15 +1,15 @@
 ---
 title: FractionType
-second_title: Aspose.Slides für .NET API Referenz
-description: Fraction type Standard Bar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bruchtyp Standard Bar
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathfraction/fractiontype/
 ---
 
-## IMathFraction.FractionType Eigenschaft
+## IMathFraction.FractionType-Eigenschaft
 
-Fraction type Standard: Bar
+Bruchtyp Standard: Bar
 
 ```csharp
 public MathFractionTypes FractionType { get; set; }
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 mathFraction.FractionType = MathFractionTypes.Linear;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [MathFractionTypes](../../mathfractiontypes)
 * interface [IMathFraction](../../imathfraction)

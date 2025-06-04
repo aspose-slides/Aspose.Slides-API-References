@@ -1,6 +1,6 @@
 ---
 title: GetConsumptionQuantity
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el tamaño del archivo de consumo
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public static decimal GetConsumptionQuantity()
 
 cantidad de consumo
 
-### Véase También
+### Ver También
 
 * clase [Metered](../../metered)
 * espacio de nombres [Aspose.Slides](../../metered)

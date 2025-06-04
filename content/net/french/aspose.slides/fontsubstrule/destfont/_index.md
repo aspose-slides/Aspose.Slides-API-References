@@ -1,6 +1,6 @@
 ---
 title: DestFont
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Police à utiliser pour la substitution. Lecture seule IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20

@@ -1,29 +1,29 @@
----
+---  
 title: CreateTextFrameFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API  
 description: Crea un nuevo ITextFrameFormataspose.slides/itextframeformat.
-type: docs
-weight: 50
+type: docs  
+weight: 50  
 url: /es/aspose.slides/formatfactory/createtextframeformat/
----
+---  
 
-## Método FormatFactory.CreateTextFrameFormat
+## FormatFactory.CreateTextFrameFormat método  
 
-Crea un nuevo [`ITextFrameFormat`](../../itextframeformat).
+Crea un nuevo [`ITextFrameFormat`](../../itextframeformat).  
 
-```csharp
-public ITextFrameFormat CreateTextFrameFormat()
-```
+```csharp  
+public ITextFrameFormat CreateTextFrameFormat()  
+```  
 
-### Valor de Retorno
+### Valor de retorno  
 
-Nuevo formato de marco de texto.
+Nuevo formato de marco de texto.  
 
-### Véase También
+### Véase también  
 
-* interfaz [ITextFrameFormat](../../itextframeformat)
-* clase [FormatFactory](../../formatfactory)
-* espacio de nombres [Aspose.Slides](../../formatfactory)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ITextFrameFormat](../../itextframeformat)  
+* clase [FormatFactory](../../formatfactory)  
+* espacio de nombres [Aspose.Slides](../../formatfactory)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

@@ -1,7 +1,7 @@
 ---
 title: CropBottom
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置从图片底部剪裁掉的真实图像高度的百分比。可读/可写 Single。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置真实图像高度裁剪掉的底部百分比。可读/写 Single。
 type: docs
 weight: 10
 url: /zh/aspose.slides/picturefillformat/cropbottom/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/picturefillformat/cropbottom/
 
 ## PictureFillFormat.CropBottom 属性
 
-返回或设置从图片底部剪裁掉的真实图像高度的百分比。可读/可写 Single。
+返回或设置真实图像高度裁剪掉的底部百分比。可读/写 Single。
 
 ```csharp
 public float CropBottom { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [PictureFillFormat](../../picturefillformat)
 * namespace [Aspose.Slides](../../picturefillformat)

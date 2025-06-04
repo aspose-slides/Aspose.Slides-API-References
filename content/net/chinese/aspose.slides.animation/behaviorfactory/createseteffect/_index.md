@@ -19,7 +19,7 @@ public ISetEffect CreateSetEffect()
 
 设置效果。
 
-### 参见
+### 另请参见
 
 * 接口 [ISetEffect](../../iseteffect)
 * 类 [BehaviorFactory](../../behaviorfactory)

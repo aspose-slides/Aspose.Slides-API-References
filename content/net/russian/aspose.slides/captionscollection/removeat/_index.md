@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет закрытые субтитры по указанному индексу.
+second_title: Справочная информация по Aspose.Slides для .NET
+description: Удаляет закрытые подписи по указанному индексу.
 type: docs
 weight: 70
 url: /ru/aspose.slides/captionscollection/removeat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/captionscollection/removeat/
 
 ## Метод CaptionsCollection.RemoveAt
 
-Удаляет закрытые субтитры по указанному индексу.
+Удаляет закрытые подписи по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс закрытых субтитров для удаления. |
+| index | Int32 | Индекс закрытых подписей для удаления. |
 
 ### См. также
 

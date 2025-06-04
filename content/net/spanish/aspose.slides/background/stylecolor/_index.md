@@ -1,6 +1,6 @@
 ---
 title: StyleColor
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve un ColorFormat para un BackgroundType.Themed fill. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50

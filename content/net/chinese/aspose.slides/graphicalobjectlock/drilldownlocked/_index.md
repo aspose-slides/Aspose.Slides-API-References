@@ -1,21 +1,21 @@
 ---
 title: DrilldownLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止选择该对象的子形状。可读/可写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定是否禁止选择此对象的子形状。可读写布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/graphicalobjectlock/drilldownlocked/
 ---
 
-## GraphicalObjectLock.DrilldownLocked 属性
+## GraphicalObjectLock.DrilldownLocked property
 
-确定是否禁止选择该对象的子形状。可读/可写布尔值。
+确定是否禁止选择此对象的子形状。可读写布尔值。
 
 ```csharp
 public bool DrilldownLocked { get; set; }
 ```
 
-### 另请参见
+### See Also
 
 * class [GraphicalObjectLock](../../graphicalobjectlock)
 * namespace [Aspose.Slides](../../graphicalobjectlock)

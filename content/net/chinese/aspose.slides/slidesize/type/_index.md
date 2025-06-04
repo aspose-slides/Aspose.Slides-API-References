@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片大小的类型。分配任何值（除了 Custom）将相应地更改 Size../size，但将保持 Orientation../orientation 不变。读/写 SlideSizeTypeaspose.slides/slidesizetype。
+second_title: Aspose.Slidese for .NET API Reference
+description: 返回或设置幻灯片大小的类型。分配任何值，除了自定义，将相应地更改 Size../size，但将保持 Orientation../orientation 不变。可读/可写 SlideSizeTypeaspose.slides/slidesizetype。
 type: docs
 weight: 30
 url: /zh/aspose.slides/slidesize/type/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/slidesize/type/
 
 ## SlideSize.Type 属性
 
-返回或设置幻灯片大小的类型。分配任何值（除了 Custom）将相应地更改 [`Size`](../size)，但将保持 [`Orientation`](../orientation) 不变。读/写 [`SlideSizeType`](../../slidesizetype)。
+返回或设置幻灯片大小的类型。分配任何值，除了自定义，将相应地更改 [`Size`](../size)，但将保持 [`Orientation`](../orientation) 不变。可读/可写 [`SlideSizeType`](../../slidesizetype)。
 
 ```csharp
 public SlideSizeType Type { get; }

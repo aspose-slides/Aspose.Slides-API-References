@@ -1,6 +1,6 @@
 ---
 title: WriteAsSvg
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Enregistre le contenu de la forme en tant que fichier SVG.
 type: docs
 weight: 340

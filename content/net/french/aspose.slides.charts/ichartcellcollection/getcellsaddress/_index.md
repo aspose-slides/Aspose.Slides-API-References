@@ -1,13 +1,13 @@
 ---
 title: GetCellsAddress
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Renvoie l'adresse de l'ensemble de cellules dans le classeur.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ichartcellcollection/getcellsaddress/
 ---
 
-## Méthode IChartCellCollection.GetCellsAddress
+## IChartCellCollection.GetCellsAddress méthode
 
 Renvoie l'adresse de l'ensemble de cellules dans le classeur.
 

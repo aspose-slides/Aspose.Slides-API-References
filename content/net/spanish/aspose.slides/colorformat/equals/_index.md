@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Verifica la igualdad con el objeto especificado.
 type: docs
 weight: 170
@@ -23,10 +23,10 @@ public override bool Equals(object obj)
 
 True si los objetos son iguales, de lo contrario false.
 
-### Véase También
+### Ver También
 
 * clase [ColorFormat](../../colorformat)
-* namespace [Aspose.Slides](../../colorformat)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../colorformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

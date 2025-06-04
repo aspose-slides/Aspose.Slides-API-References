@@ -1,15 +1,15 @@
 ---
 title: MiterLimit
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el límite de miter de una línea. Solo lectura Single.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve el límite de inglete de una línea. Solo lectura Single.
 type: docs
 weight: 140
 url: /es/aspose.slides/ilineformateffectivedata/miterlimit/
 ---
 
-## Propiedad ILineFormatEffectiveData.MiterLimit
+## ILineFormatEffectiveData.MiterLimit property
 
-Devuelve el límite de miter de una línea. Solo lectura Single.
+Devuelve el límite de inglete de una línea. Solo lectura Single.
 
 ```csharp
 public float MiterLimit { get; }
@@ -17,8 +17,8 @@ public float MiterLimit { get; }
 
 ### Ver También
 
-* interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
+* interfaz [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * namespace [Aspose.Slides](../../ilineformateffectivedata)
-* assembly [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

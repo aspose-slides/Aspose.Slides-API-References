@@ -1,7 +1,7 @@
 ---
 title: Volume
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Audiospurlautstärke zurück oder setzt sie. Lese-/schreibbar AudioVolumeModeaspose.slides/audiovolumemode.
+description: Gibt die Audio-Lautstärke zurück oder legt sie fest. Lese-/Schreibzugriff auf AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs
 weight: 170
 url: /de/aspose.slides/audioframe/volume/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audioframe/volume/
 
 ## AudioFrame.Volume-Eigenschaft
 
-Gibt die Audiospurlautstärke zurück oder setzt sie. Lese-/schreibbar [`AudioVolumeMode`](../../audiovolumemode).
+Gibt die Audio-Lautstärke zurück oder legt sie fest. Lese-/Schreibzugriff auf [`AudioVolumeMode`](../../audiovolumemode).
 
 ```csharp
 public AudioVolumeMode Volume { get; set; }

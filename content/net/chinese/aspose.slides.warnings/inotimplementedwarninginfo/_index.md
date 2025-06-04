@@ -1,15 +1,15 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表关于已知未实现功能的警告，该功能在近期内不会实现。
+description: 代表关于已知未实现功能的警告，这些功能在短期内不会被实现。
 type: docs
 weight: 11460
 url: /zh/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 
-## INotImplementedWarningInfo接口
+## INotImplementedWarningInfo 接口
 
-代表关于已知未实现功能的警告，该功能在近期内不会实现。
+代表关于已知未实现功能的警告，这些功能在短期内不会被实现。
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -19,9 +19,9 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | 返回IWarningInfo接口。只读 [`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 接口。只读 [`IWarningInfo`](../iwarninginfo)。 |
 
-### 参见
+### 另见
 
 * 接口 [IWarningInfo](../iwarninginfo)
 * 命名空间 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

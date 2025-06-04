@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет указанное значение.
 type: docs
 weight: 260
@@ -23,9 +23,9 @@ public void Remove(IChartDataPoint value)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Параметр value не найден в коллекции. |
+| ArgumentException | Параметр значения не был найден в коллекции. |
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * интерфейс [IChartDataPointCollection](../../ichartdatapointcollection)

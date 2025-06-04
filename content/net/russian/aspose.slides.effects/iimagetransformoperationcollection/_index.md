@@ -1,7 +1,7 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой коллекцию эффектов, применяемых к изображению.
+second_title: Aspose.Sildes для .NET Справочник по API
+description: Представляет коллекцию эффектов, примененных к изображению.
 type: docs
 weight: 3280
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iimagetransformoperationcollection/
 
 ## Интерфейс IImageTransformOperationCollection
 
-Представляет собой коллекцию эффектов, применяемых к изображению.
+Представляет коллекцию эффектов, примененных к изображению.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>

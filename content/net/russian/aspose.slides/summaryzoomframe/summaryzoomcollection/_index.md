@@ -1,7 +1,7 @@
 ---
 title: SummaryZoomCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Получает ISummaryZoomSectionCollection aspose.slides/isummaryzoomsectioncollection для объекта Summary Zoom Frame.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает ISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollection для объекта Summary Zoom Frame.
 type: docs
 weight: 20
 url: /ru/aspose.slides/summaryzoomframe/summaryzoomcollection/
@@ -17,7 +17,7 @@ public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
 
 ### Примеры
 
-Пример демонстрирует получение элемента Summary Zoom Section по индексу:
+Пример демонстрирует получение элемента секции расширенного зума по индексу:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)
 * класс [SummaryZoomFrame](../../summaryzoomframe)

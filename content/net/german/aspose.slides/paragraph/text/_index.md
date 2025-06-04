@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den einfachen Text eines Absatzes ab oder legt ihn fest. Lese-/Schreib-String.
+description: Ruft den einfachen Text eines Absatzes ab oder setzt ihn. Lese-/Schreibzugriff String.
 type: docs
 weight: 50
 url: /de/aspose.slides/paragraph/text/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/paragraph/text/
 
 ## Paragraph.Text-Eigenschaft
 
-Ruht den einfachen Text eines Absatzes ab oder legt ihn fest. Lese-/Schreib-String.
+Ruft den einfachen Text eines Absatzes ab oder setzt ihn. Lese-/Schreibzugriff String.
 
 ```csharp
 public string Text { get; set; }
@@ -19,7 +19,7 @@ public string Text { get; set; }
 
 Der Text.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Paragraph](../../paragraph)
 * Namespace [Aspose.Slides](../../paragraph)

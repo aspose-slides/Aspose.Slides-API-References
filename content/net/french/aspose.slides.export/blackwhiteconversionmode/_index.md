@@ -1,15 +1,15 @@
 ---
 title: BlackWhiteConversionMode
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des options qui contrôlent comment les images des diapositives seront converties en images bitonales.
+description: Fournit des options qui contrôlent comment les images des diapositives seront converties en images bicolores.
 type: docs
 weight: 3560
 url: /fr/aspose.slides.export/blackwhiteconversionmode/
 ---
 
-## Énumération ModeDeConversionNoirEtBlanc
+## Énumération BlackWhiteConversionMode
 
-Fournit des options qui contrôlent comment les images des diapositives seront converties en images bitonales.
+Fournit des options qui contrôlent comment les images des diapositives seront converties en images bicolores.
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -20,15 +20,15 @@ public enum BlackWhiteConversionMode
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | Default | `0` | Spécifie aucun algorithme de conversion. L'algorithme implémenté dans le codec TIFF sera utilisé. (Par défaut) |
-| Dithering | `1` | Spécifie l'algorithme de dithering (Floyd-Steinberg). |
-| DitheringFloydSteinberg | `2` | Spécifie l'algorithme de dithering Floyd-Steinberg. |
+| Dithering | `1` | Spécifie l'algorithme de désaturé (Floyd-Steinberg). |
+| DitheringFloydSteinberg | `2` | Spécifie l'algorithme de désaturé de Floyd-Steinberg. |
 | Auto | `3` | Spécifie l'algorithme de seuil calculé automatiquement (Otsu). |
 | AutoOtsu | `4` | Spécifie l'algorithme de seuil d'Otsu calculé automatiquement. |
 | Threshold25 | `5` | Spécifie l'algorithme de seuil statique (25%). |
 | Threshold50 | `6` | Spécifie l'algorithme de seuil statique (50%). |
 | Threshold75 | `7` | Spécifie l'algorithme de seuil statique (75%). |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果绑定的演示文稿被加密，则返回 True，否则返回 False。只读布尔值。
+description: 如果绑定的演示文稿已加密，则返回 True，否则返回 False。只读布尔值。
 type: docs
 weight: 10
 url: /zh/aspose.slides/presentationinfo/isencrypted/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/presentationinfo/isencrypted/
 
 ## PresentationInfo.IsEncrypted 属性
 
-如果绑定的演示文稿被加密，则返回 True，否则返回 False。只读布尔值。
+如果绑定的演示文稿已加密，则返回 True，否则返回 False。只读布尔值。
 
 ```csharp
 public bool IsEncrypted { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [PresentationInfo](../../presentationinfo)
 * namespace [Aspose.Slides](../../presentationinfo)

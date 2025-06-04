@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersText
-second_title: Aspose.Sildes для .NET API Справочник
-description: Устанавливает текст для заголовка основного слайда заметок и всех дочерних заголовков-заметок. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
+second_title: Aspose.Slides для .NET API Reference
+description: Устанавливает текст для заголовка основного слайда заметок и всех заголовков дочерних заполнителей. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 type: docs
 weight: 60
 url: /ru/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildhea
 
 ## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText метод
 
-Устанавливает текст для заголовка основного слайда заметок и всех дочерних заголовков-заметок. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
+Устанавливает текст для заголовка основного слайда заметок и всех заголовков дочерних заполнителей. Дочерние заполнители означают заполнители, которые содержатся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от основного слайда заметок.
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)
@@ -19,7 +19,7 @@ public void SetHeaderAndChildHeadersText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. также
+### См. Также
 
 * интерфейс [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasternotesslideheaderfootermanager)

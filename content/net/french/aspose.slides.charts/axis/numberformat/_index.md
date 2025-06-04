@@ -1,6 +1,6 @@
 ---
 title: NumberFormat
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence API .NET
 description: Représente la chaîne de format pour les étiquettes d'axe. Chaîne en lecture/écriture.
 type: docs
 weight: 440

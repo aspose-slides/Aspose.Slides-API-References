@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides/ishapeframe/centery/
 ---
 
-## Propiedad IShapeFrame.CenterY
+## IShapeFrame.CenterY property
 
 Devuelve la coordenada Y del centro de un marco. Solo lectura Single.
 
@@ -15,10 +15,10 @@ Devuelve la coordenada Y del centro de un marco. Solo lectura Single.
 public float CenterY { get; }
 ```
 
-### También Ver
+### Ver También
 
-* interfaz [IShapeFrame](../../ishapeframe)
-* espacio de nombres [Aspose.Slides](../../ishapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IShapeFrame](../../ishapeframe)
+* namespace [Aspose.Slides](../../ishapeframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

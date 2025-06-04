@@ -1,15 +1,15 @@
 ---
 title: SetHeaderText
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte pour le champ de l'en-tête de la diapositive.
+description: Définit le texte du placeholder de l'en-tête de la diapositive.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext/
 ---
 
-## Méthode IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderText
+## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderText méthode
 
-Définit le texte pour le champ de l'en-tête de la diapositive.
+Définit le texte du placeholder de l'en-tête de la diapositive.
 
 ```csharp
 public void SetHeaderText(string text)

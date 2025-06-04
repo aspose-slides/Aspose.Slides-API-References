@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el factor de escalado vertical, el escalado negativo causa un giro. Lectura/escritura Double.
+description: Especifica el factor de escala vertical, la escala negativa causa un giro. Lectura/escritura Doble.
 type: docs
 weight: 90
 url: /es/aspose.slides.effects/ioutershadow/scalevertical/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/ioutershadow/scalevertical/
 
 ## Propiedad IOuterShadow.ScaleVertical
 
-Especifica el factor de escalado vertical, el escalado negativo causa un giro. Lectura/escritura Double.
+Especifica el factor de escala vertical, la escala negativa causa un giro. Lectura/escritura Doble.
 
 ```csharp
 public double ScaleVertical { get; set; }
@@ -19,6 +19,6 @@ public double ScaleVertical { get; set; }
 
 * interfaz [IOuterShadow](../../ioutershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../ioutershadow)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

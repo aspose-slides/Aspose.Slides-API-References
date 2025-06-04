@@ -1,15 +1,15 @@
 ---
 title: IInkBrush
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le pinceau de trace.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente un pinceau de trace.
 type: docs
 weight: 7300
 url: /fr/aspose.slides.ink/iinkbrush/
 ---
 
-## Interface IInkBrush
+## IInkBrush interface
 
-Représente le pinceau de trace.
+Représente un pinceau de trace.
 
 ```csharp
 public interface IInkBrush
@@ -22,7 +22,7 @@ public interface IInkBrush
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Obtient ou définit la couleur du pinceau pour une ligne. |
 | [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Obtient ou définit la taille du pinceau pour une ligne en points. |
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides.Ink](../../aspose.slides.ink)
 * assembly [Aspose.Slides](../../)

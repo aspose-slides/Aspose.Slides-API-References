@@ -1,15 +1,15 @@
 ---
 title: SetAllFootersText
 second_title: Aspose.Slides für .NET API Referenz
-description: Setzt Text in alle Fußzeilenplatzhalter, einschließlich Masterfolien, Layoutfolien, Folien, Notizen-Master, Notizenfolien und Handouts-Master.
+description: Setzt Text für alle Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handouts-Master.
 type: docs
 weight: 30
 url: /de/aspose.slides/presentationheaderfootermanager/setallfooterstext/
 ---
 
-## PresentationHeaderFooterManager.SetAllFootersText Methode
+## PresentationHeaderFooterManager.SetAllFootersText-Methode
 
-Setzt Text in alle Fußzeilenplatzhalter, einschließlich Masterfolien, Layoutfolien, Folien, Notizen-Master, Notizenfolien und Handouts-Master.
+Setzt Text für alle Fußzeilen-Platzhalter, einschließlich Master-Folien, Layout-Folien, Folien, Notizen-Master, Notizen-Folien und Handouts-Master.
 
 ```csharp
 public void SetAllFootersText(string text)
@@ -19,7 +19,7 @@ public void SetAllFootersText(string text)
 | --- | --- | --- |
 | text | String | Zu setzender Text. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * Namespace [Aspose.Slides](../../presentationheaderfootermanager)

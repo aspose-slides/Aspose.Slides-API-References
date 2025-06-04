@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 添加新的自定义 XML 部件。
 type: docs
 weight: 50
@@ -17,7 +17,7 @@ public ICustomXmlPart Add(string xmlString)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlString | String | 要添加的新部分的 XML 字符串。 |
+| xmlString | String | 要添加的新部件的 XML 字符串。 |
 
 ### 返回值
 
@@ -30,7 +30,7 @@ public ICustomXmlPart Add(string xmlString)
 | ArgumentNullException | xmlString 为 `null`。 |
 | ArgumentException | xmlString 为空或 XML 数据无效。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 类 [CustomXmlPartCollection](../../customxmlpartcollection)
@@ -49,7 +49,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlData | Byte[] | 要添加的新部分的 XML 数据。 |
+| xmlData | Byte[] | 要添加的新部件的 XML 数据。 |
 
 ### 返回值
 
@@ -62,7 +62,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 | ArgumentNullException | xmlData 为 `null`。 |
 | ArgumentException | xmlData 为空或无效。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 类 [CustomXmlPartCollection](../../customxmlpartcollection)
@@ -81,7 +81,7 @@ public ICustomXmlPart Add(Stream inputStream)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| inputStream | Stream | 要添加的新部分的 XML 数据的输入流。 |
+| inputStream | Stream | 包含要添加的新部件 XML 数据的 inputStream。 |
 
 ### 返回值
 
@@ -94,7 +94,7 @@ public ICustomXmlPart Add(Stream inputStream)
 | ArgumentNullException | inputStream 为 `null`。 |
 | ArgumentException | inputStream 中的数据为空或无效。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 类 [CustomXmlPartCollection](../../customxmlpartcollection)

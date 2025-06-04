@@ -1,6 +1,6 @@
 ---
 title: StyleFontWeight
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Représente la propriété style.fontWeight
 type: docs
 weight: 1090

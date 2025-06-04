@@ -1,24 +1,24 @@
 ---
 title: FillFormat
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le format de remplissage d'une ligne. Lecture seule ILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 110
 url: /fr/aspose.slides/lineformat/fillformat/
 ---
 
-## Propriété LineFormat.RemplissageFormat
+## Propriété LineFormat.FillFormat
 
 Renvoie le format de remplissage d'une ligne. Lecture seule [`ILineFillFormat`](../../ilinefillformat).
 
 ```csharp
-public ILineFillFormat RemplissageFormat { get; }
+public ILineFillFormat FillFormat { get; }
 ```
 
 ### Voir aussi
 
 * interface [ILineFillFormat](../../ilinefillformat)
-* class [LineFormat](../../lineformat)
+* classe [LineFormat](../../lineformat)
 * namespace [Aspose.Slides](../../lineformat)
 * assembly [Aspose.Slides](../../../)
 

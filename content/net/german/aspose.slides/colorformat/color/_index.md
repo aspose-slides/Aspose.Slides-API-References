@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die resultierende Farbe mit allen angewendeten Farbtransformationen zurück. Setzt RGB-Farben und löscht alle Farbtransformationen. Lesen/Speichern Farbe.
+description: Gibt die resultierende Farbe mit allen angewendeten Farbtransformationen zurück. Setzt RGB-Farben und löscht alle Farbtransformationen. Lese-/Schreibzugriff auf Color.
 type: docs
 weight: 20
 url: /de/aspose.slides/colorformat/color/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/colorformat/color/
 
 ## ColorFormat.Color-Eigenschaft
 
-Gibt die resultierende Farbe (mit allen angewendeten Farbtransformationen) zurück. Setzt RGB-Farben und löscht alle Farbtransformationen. Lesen/Speichern Farbe.
+Gibt die resultierende Farbe (mit allen angewendeten Farbtransformationen) zurück. Setzt RGB-Farben und löscht alle Farbtransformationen. Lese-/Schreibzugriff auf Color.
 
 ```csharp
 public Color Color { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: WriteByte
-second_title: Aspose.Slides für .NET API-Referenz
-description: Schreibt ein Byte an die aktuelle Position im Stream und verschiebt die Position im Stream um ein Byte nach vorne.
+second_title: Aspose.Slides für .NET API Referenz
+description: Schreibt ein Byte an die aktuelle Position im Stream und verschiebt die Position innerhalb des Streams um ein Byte.
 type: docs
 weight: 150
 url: /de/aspose.slides/streamwrapper/writebyte/
 ---
 
-## StreamWrapper.WriteByte-Methode
+## StreamWrapper.WriteByte Methode
 
-Schreibt ein Byte an die aktuelle Position im Stream und verschiebt die Position im Stream um ein Byte nach vorne.
+Schreibt ein Byte an die aktuelle Position im Stream und verschiebt die Position innerhalb des Streams um ein Byte.
 
 ```csharp
 public void WriteByte(byte value)
@@ -19,7 +19,7 @@ public void WriteByte(byte value)
 | --- | --- | --- |
 | value | Byte |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [StreamWrapper](../../streamwrapper)
 * Namespace [Aspose.Slides](../../streamwrapper)

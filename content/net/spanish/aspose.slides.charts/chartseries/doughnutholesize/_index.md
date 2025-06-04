@@ -1,25 +1,25 @@
 ---
 title: DoughnutHoleSize
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el tamaño del agujero en un gráfico de dona que puede estar entre el 10 y el 90 por ciento del tamaño del área de trazado. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre; esta es la proyección de la propiedad del grupo apropiado. Y por lo tanto, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad de lectura/escritura ParentSeriesGroup.DoughnutHoleSize para cambiar el valor. Byte de solo lectura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Especifica el tamaño del agujero en un gráfico de dona, que puede estar entre el 10 y el 90 por ciento del tamaño del área de trazado. Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series principal; esta es la proyección de la propiedad del grupo correspondiente. Por lo tanto, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series principal. Utilice la propiedad de lectura/escritura ParentSeriesGroup.DoughnutHoleSize para cambiar el valor. Byte de solo lectura.
 type: docs
 weight: 60
 url: /es/aspose.slides.charts/chartseries/doughnutholesize/
 ---
 
-## Propiedad ChartSeries.DoughnutHoleSize
+## ChartSeries.DoughnutHoleSize property
 
-Especifica el tamaño del agujero en un gráfico de dona (puede estar entre el 10 y el 90 por ciento del tamaño del área de trazado). Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series padre; esta es la proyección de la propiedad del grupo apropiado. Y por lo tanto, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series padre. Utilice la propiedad de lectura/escritura ParentSeriesGroup.DoughnutHoleSize para cambiar el valor. Byte de solo lectura.
+Especifica el tamaño del agujero en un gráfico de dona (puede estar entre el 10 y el 90 por ciento del tamaño del área de trazado). Esta es la propiedad no solo de esta serie, sino de todas las series del grupo de series principal; esta es la proyección de la propiedad del grupo correspondiente. Por lo tanto, esta propiedad es de solo lectura. Utilice la propiedad ParentSeriesGroup para acceder al grupo de series principal. Utilice la propiedad de lectura/escritura ParentSeriesGroup.DoughnutHoleSize para cambiar el valor. Byte de solo lectura.
 
 ```csharp
 public byte DoughnutHoleSize { get; }
 ```
 
-### Observaciones
+### Remarks
 
 Esta es la proyección de la propiedad ParentSeriesGroup.DoughnutHoleSize.
 
-### Véase También
+### See Also
 
 * class [ChartSeries](../../chartseries)
 * namespace [Aspose.Slides.Charts](../../chartseries)

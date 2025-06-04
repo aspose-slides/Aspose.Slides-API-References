@@ -1,7 +1,7 @@
 ---
 title: ShowCategoryName
-second_title: Aspose.Slides for .NET API 参考
-description: 表示指定图表数据标签类别名称显示行为。为 True 时，显示图表上数据标签的类别名称。为 False 时，隐藏。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示指定图表数据标签类别名称的显示行为。True表示在图表上显示数据标签的类别名称。False表示隐藏。可读写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/datalabelformat/showcategoryname/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datalabelformat/showcategoryname/
 
 ## DataLabelFormat.ShowCategoryName 属性
 
-表示指定图表的数据标签类别名称显示行为。为 True 时，显示图表上数据标签的类别名称。为 False 时，隐藏。可读/可写布尔值。
+表示指定图表的数据标签类别名称显示行为。True表示在图表上显示数据标签的类别名称。False表示隐藏。可读写布尔值。
 
 ```csharp
 public bool ShowCategoryName { get; set; }
@@ -17,9 +17,9 @@ public bool ShowCategoryName { get; set; }
 
 ### 备注
 
-如果此 DataLabelFormat 对象的父级是数据标签的 DataLabelCollection 集合，则此属性获取或设置 DataLabelCollection 集合中新数据标签的 ShowCategoryName 属性的默认值。设置此属性的值也会将该值设置为 DataLabelCollection 集合中所有数据标签的 ShowCategoryName 属性（即 "DataLabels.DefaultDataLabelFormat.ShowCategoryName = val;" 会导致所有 DataLabels[i].ShowCategoryName 等于 val）。
+如果此 DataLabelFormat 对象的父级是 DataLabelCollection 数据标签集合，则该属性获取或设置 DataLabelCollection 集合中新数据标签的 ShowCategoryName 属性的默认值。设置此属性的值也会将此值设置为 DataLabelCollection 集合中所有数据标签的 ShowCategoryName 属性（即 "DataLabels.DefaultDataLabelFormat.ShowCategoryName = val;" 会导致所有 DataLabels[i].ShowCategoryName 等于 val）。
 
-### 另请参阅
+### 另见
 
 * class [DataLabelFormat](../../datalabelformat)
 * namespace [Aspose.Slides.Charts](../../datalabelformat)

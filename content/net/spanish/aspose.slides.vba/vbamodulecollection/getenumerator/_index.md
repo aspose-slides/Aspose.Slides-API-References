@@ -7,7 +7,7 @@ weight: 70
 url: /es/aspose.slides.vba/vbamodulecollection/getenumerator/
 ---
 
-## Método VbaModuleCollection.GetEnumerator
+## VbaModuleCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IVbaModule> GetEnumerator()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Un IEnumerator que se puede usar para iterar a través de la colección.
+Un IEnumerator que se puede utilizar para iterar a través de la colección.
 
-### Véase También
+### Véase también
 
 * interfaz [IVbaModule](../../ivbamodule)
 * clase [VbaModuleCollection](../../vbamodulecollection)
 * espacio de nombres [Aspose.Slides.Vba](../../vbamodulecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

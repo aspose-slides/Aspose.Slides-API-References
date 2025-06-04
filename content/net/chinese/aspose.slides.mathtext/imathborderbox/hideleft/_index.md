@@ -1,7 +1,7 @@
 ---
 title: HideLeft
-second_title: Aspose.Slidess for .NET API 参考
-description: Hide Left Edge 默认值为 false - 指定边框盒子左边缘的隐藏或显示状态。
+second_title: Aspose.Sildes for .NET API Reference
+description: Hide Left Edge default is false - specifies the hidden or shown state of the left edge of border box.
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/imathborderbox/hideleft/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathborderbox/hideleft/
 
 ## IMathBorderBox.HideLeft 属性
 
-Hide Left Edge（默认值为 false）- 指定边框盒子左边缘的隐藏或显示状态。
+Hide Left Edge（默认为 false）- 指定边框框左边缘的隐藏或显示状态。
 
 ```csharp
 public bool HideLeft { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: TextCapType
-second_title: Aspose.Slides для .NET Справочник по API
-description: Возвращает или задает тип капитализации текста. Наследование не применяется. Чтение/запись TextCapType aspose.slides/textcaptype.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает или устанавливает тип капитализации текста. Наследование не применяется. Чтение/запись TextCapTypeaspose.slides/textcaptype.
 type: docs
 weight: 240
 url: /ru/aspose.slides/baseportionformat/textcaptype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/baseportionformat/textcaptype/
 
 ## Свойство BasePortionFormat.TextCapType
 
-Возвращает или задает тип капитализации текста. Наследование не применяется. Чтение/запись [`TextCapType`](../../textcaptype).
+Возвращает или устанавливает тип капитализации текста. Наследование не применяется. Чтение/запись [`TextCapType`](../../textcaptype).
 
 ```csharp
 public TextCapType TextCapType { get; set; }

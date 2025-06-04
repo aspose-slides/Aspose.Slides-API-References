@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的元素。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ifontsubstrulecollection/item/
 public IFontSubstRule this[int index] { get; }
 ```
 
-### 另请参阅
+### 相关信息
 
 * 接口 [IFontSubstRule](../../ifontsubstrule)
 * 接口 [IFontSubstRuleCollection](../../ifontsubstrulecollection)

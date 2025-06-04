@@ -1,13 +1,13 @@
 ---
 title: NextSlide
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Возвращает гиперссылку на следующий слайд. Только для чтения Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 70
 url: /ru/aspose.slides/hyperlink/nextslide/
 ---
 
-## Свойство Hyperlink.NextSlide
+## Hyperlink.NextSlide свойство
 
 Возвращает гиперссылку на следующий слайд. Только для чтения [`Hyperlink`](../../hyperlink).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/hyperlink/nextslide/
 public static Hyperlink NextSlide { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)

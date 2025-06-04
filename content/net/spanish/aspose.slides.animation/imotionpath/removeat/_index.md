@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina un comando en el índice especificado.
 type: docs
 weight: 80
 url: /es/aspose.slides.animation/imotionpath/removeat/
 ---
 
-## Método IMotionPath.RemoveAt
+## IMotionPath.RemoveAt método
 
 Elimina un comando en el índice especificado.
 
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Índice para eliminar el comando Int32 |
 
-### Vea También
+### Ver También
 
 * interfaz [IMotionPath](../../imotionpath)
 * espacio de nombres [Aspose.Slides.Animation](../../imotionpath)

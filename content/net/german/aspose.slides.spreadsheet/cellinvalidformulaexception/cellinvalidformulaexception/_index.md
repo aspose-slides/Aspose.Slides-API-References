@@ -1,6 +1,6 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Initialisiert eine neue Instanz der CellInvalidFormulaExceptionaspose.slides.spreadsheet/cellinvalidformulaexception Klasse.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellin
 public CellInvalidFormulaException()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
@@ -25,7 +25,7 @@ public CellInvalidFormulaException()
 
 ## CellInvalidFormulaException(string) {#constructor_1}
 
-Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellinvalidformulaexception) Klasse mit einer angegebenen Fehlermeldung.
+Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellinvalidformulaexception) Klasse mit einer bestimmten Fehlermeldung.
 
 ```csharp
 public CellInvalidFormulaException(string message)
@@ -33,9 +33,9 @@ public CellInvalidFormulaException(string message)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Ein String, der den Fehler beschreibt. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
@@ -45,7 +45,7 @@ public CellInvalidFormulaException(string message)
 
 ## CellInvalidFormulaException(string, Exception) {#constructor_2}
 
-Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellinvalidformulaexception) Klasse mit einer angegebenen Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
+Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellinvalidformulaexception) Klasse mit einer bestimmten Fehlermeldung und einem Verweis auf die innere Ausnahme, die die Ursache dieser Ausnahme ist.
 
 ```csharp
 public CellInvalidFormulaException(string message, Exception innerException)
@@ -53,10 +53,10 @@ public CellInvalidFormulaException(string message, Exception innerException)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| message | String | Ein String, der den Fehler beschreibt. |
-| innerException | Exception | Die Ausnahme, die die aktuelle Ausnahme verursacht. |
+| message | String | Eine Zeichenfolge, die den Fehler beschreibt. |
+| innerException | Exception | Die Ausnahme, die die Ursache der aktuellen Ausnahme ist. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)
@@ -66,7 +66,7 @@ public CellInvalidFormulaException(string message, Exception innerException)
 
 ## CellInvalidFormulaException(string, string) {#constructor_3}
 
-Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellinvalidformulaexception) Klasse mit einer angegebenen Fehlermeldung und einem Zellverweis, der die ungültige Formel enthält.
+Initialisiert eine neue Instanz der [`CellInvalidFormulaException`](../../cellinvalidformulaexception) Klasse mit einer bestimmten Fehlermeldung und einem Zellverweis, der die ungültige Formel enthält.
 
 ```csharp
 public CellInvalidFormulaException(string message, string reference)
@@ -77,7 +77,7 @@ public CellInvalidFormulaException(string message, string reference)
 | message | String |  |
 | reference | String |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CellInvalidFormulaException](../../cellinvalidformulaexception)
 * Namespace [Aspose.Slides.Spreadsheet](../../cellinvalidformulaexception)

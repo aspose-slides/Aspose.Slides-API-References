@@ -1,13 +1,13 @@
 ---
 title: AutoShapeLock
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Détermine quelles opérations sont désactivées sur l'AutoshapeEx parent.
 type: docs
 weight: 830
 url: /fr/aspose.slides/autoshapelock/
 ---
 
-## Classe AutoShapeLock
+## AutoShapeLock class
 
 Détermine quelles opérations sont désactivées sur l'AutoshapeEx parent.
 
@@ -19,24 +19,24 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | Nom | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Détermine si un changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Détermine si un changement des flèches est interdit. Booléen en lecture/écriture. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retourne vrai si tous les drapeaux de verrouillage sont désactivés. Booléen en lecture seule. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Détermine si un déplacement de cette forme est interdit. Booléen en lecture/écriture. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Détermine si un changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Détermine si une sélection de cette forme est interdite. Booléen en lecture/écriture. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Détermine si un changement du type de forme est interdit. Booléen en lecture/écriture. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Détermine si un redimensionnement de cette forme est interdit. Booléen en lecture/écriture. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Détermine si l'édition de texte est interdite. Booléen en lecture/écriture. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Détermine si un changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Détermine si un changement des flèches est interdit. Booléen en lecture/écriture. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Renvoie vrai si tous les drapeaux de verrouillage sont désactivés. Booléen en lecture seule. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Détermine si un changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Détermine si un changement de type de forme est interdit. Booléen en lecture/écriture. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Détermine si l'édition du texte est interdite. Booléen en lecture/écriture. |
 
 ### Voir aussi
 
-* classe [BaseShapeLock](../baseshapelock)
-* interface [IAutoShapeLock](../iautoshapelock)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* class [BaseShapeLock](../baseshapelock)
+* interface [IAutoShapeLock](../iautoshapelock)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

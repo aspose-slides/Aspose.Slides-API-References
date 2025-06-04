@@ -1,13 +1,13 @@
 ---
 title: SplitByColSpan
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Divide la celda en dos celdas por el índice de la columna.
 type: docs
 weight: 250
 url: /es/aspose.slides/cell/splitbycolspan/
 ---
 
-## Método Cell.SplitByColSpan
+## Cell.SplitByColSpan método
 
 Divide la celda en dos celdas por el índice de la columna.
 

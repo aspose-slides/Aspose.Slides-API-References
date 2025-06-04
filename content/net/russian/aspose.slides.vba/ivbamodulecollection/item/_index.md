@@ -15,7 +15,7 @@ url: /ru/aspose.slides.vba/ivbamodulecollection/item/
 public IVbaModule this[int index] { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IVbaModule](../../ivbamodule)
 * интерфейс [IVbaModuleCollection](../../ivbamodulecollection)

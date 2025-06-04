@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega una nueva parte xml personalizada.
+description: Agrega una nueva parte XML personalizada.
 type: docs
 weight: 50
 url: /es/aspose.slides/customxmlpartcollection/add/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/customxmlpartcollection/add/
 
 ## Add(string) {#add_2}
 
-Agrega una nueva parte xml personalizada.
+Agrega una nueva parte XML personalizada.
 
 ```csharp
 public ICustomXmlPart Add(string xmlString)
@@ -17,20 +17,20 @@ public ICustomXmlPart Add(string xmlString)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| xmlString | String | La cadena xml de la nueva parte a agregar. |
+| xmlString | String | La cadena XML de la nueva parte que se va a agregar. |
 
-### Valor de Retorno
+### Valor de retorno
 
-Parte xml personalizada creada.
+Parte XML personalizada creada.
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
 | ArgumentNullException | xmlString es `null`. |
-| ArgumentException | xmlString está vacío o los datos xml son inválidos. |
+| ArgumentException | xmlString está vacío o los datos XML son inválidos. |
 
-### Vea También
+### Véase también
 
 * interfaz [ICustomXmlPart](../../icustomxmlpart)
 * clase [CustomXmlPartCollection](../../customxmlpartcollection)
@@ -41,7 +41,7 @@ Parte xml personalizada creada.
 
 ## Add(byte[]) {#add}
 
-Agrega una nueva parte xml personalizada.
+Agrega una nueva parte XML personalizada.
 
 ```csharp
 public ICustomXmlPart Add(byte[] xmlData)
@@ -49,11 +49,11 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| xmlData | Byte[] | Los datos xml de la nueva parte a agregar. |
+| xmlData | Byte[] | Los datos XML de la nueva parte que se va a agregar. |
 
-### Valor de Retorno
+### Valor de retorno
 
-Parte xml personalizada creada.
+Parte XML personalizada creada.
 
 ### Excepciones
 
@@ -62,7 +62,7 @@ Parte xml personalizada creada.
 | ArgumentNullException | xmlData es `null`. |
 | ArgumentException | xmlData está vacío o es inválido. |
 
-### Vea También
+### Véase también
 
 * interfaz [ICustomXmlPart](../../icustomxmlpart)
 * clase [CustomXmlPartCollection](../../customxmlpartcollection)
@@ -73,7 +73,7 @@ Parte xml personalizada creada.
 
 ## Add(Stream) {#add_1}
 
-Agrega una nueva parte xml personalizada.
+Agrega una nueva parte XML personalizada.
 
 ```csharp
 public ICustomXmlPart Add(Stream inputStream)
@@ -81,11 +81,11 @@ public ICustomXmlPart Add(Stream inputStream)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| inputStream | Stream | El inputStream con los datos xml de la nueva parte a agregar. |
+| inputStream | Stream | El inputStream con datos XML de la nueva parte que se va a agregar. |
 
-### Valor de Retorno
+### Valor de retorno
 
-Parte xml personalizada creada.
+Parte XML personalizada creada.
 
 ### Excepciones
 
@@ -94,7 +94,7 @@ Parte xml personalizada creada.
 | ArgumentNullException | inputStream es `null`. |
 | ArgumentException | Los datos en inputStream están vacíos o son inválidos. |
 
-### Vea También
+### Véase también
 
 * interfaz [ICustomXmlPart](../../icustomxmlpart)
 * clase [CustomXmlPartCollection](../../customxmlpartcollection)

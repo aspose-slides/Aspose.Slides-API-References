@@ -1,6 +1,6 @@
 ---
 title: ImageDataGamma
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Représente la propriété imageData.gamma
 type: docs
 weight: 490

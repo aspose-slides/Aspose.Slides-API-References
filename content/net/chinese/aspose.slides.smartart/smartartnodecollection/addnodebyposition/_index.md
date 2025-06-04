@@ -1,6 +1,6 @@
 ---
 title: AddNodeByPosition
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 在节点集合的选定位置添加新节点
 type: docs
 weight: 60
@@ -29,7 +29,7 @@ public ISmartArtNode AddNodeByPosition(int position)
 | --- | --- |
 | ArgumentOutOfRangeException | position 小于 0 |
 
-### 另请参见
+### 另见
 
 * 接口 [ISmartArtNode](../../ismartartnode)
 * 类 [SmartArtNodeCollection](../../smartartnodecollection)

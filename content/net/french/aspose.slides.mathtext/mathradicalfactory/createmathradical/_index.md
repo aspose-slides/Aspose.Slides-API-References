@@ -1,6 +1,6 @@
 ---
 title: CreateMathRadical
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un radical mathématique
 type: docs
 weight: 20

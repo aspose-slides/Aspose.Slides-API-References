@@ -1,7 +1,7 @@
 ---
 title: AccessPermissions
-second_title: Aspose.Slides for .NET API 参考
-description: 包含一组标志，指定在以用户权限打开文档时应授予哪些访问权限。请参见 PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions。
+second_title: Aspose.Sildes for .NET API Reference
+description: 包含一组标志，指定在以用户访问权限打开文档时应授予哪些访问权限。请参阅 PdfAccessPermissions aspose.slides.export/pdfaccesspermissions。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/pdfoptions/accesspermissions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/pdfoptions/accesspermissions/
 
 ## PdfOptions.AccessPermissions 属性
 
-包含一组标志，指定在以用户权限打开文档时应授予哪些访问权限。请参见 [`PdfAccessPermissions`](../../pdfaccesspermissions)。
+包含一组标志，指定在以用户访问权限打开文档时应授予哪些访问权限。请参阅 [`PdfAccessPermissions`](../../pdfaccesspermissions)。
 
 ```csharp
 public PdfAccessPermissions AccessPermissions { get; set; }
@@ -29,7 +29,7 @@ using (var presentation = new Presentation())
 }
 ```
 
-### 另见
+### 另请参见
 
 * enum [PdfAccessPermissions](../../pdfaccesspermissions)
 * class [PdfOptions](../../pdfoptions)

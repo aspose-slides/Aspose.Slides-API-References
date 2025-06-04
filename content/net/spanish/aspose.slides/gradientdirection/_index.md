@@ -26,7 +26,7 @@ public enum GradientDirection
 | FromCorner4 | `3` | Desde la esquina inferior derecha |
 | FromCenter | `4` | Desde el centro |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: ExtrusionType
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет свойство extrusion.type
 type: docs
 weight: 210

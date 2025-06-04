@@ -1,6 +1,6 @@
 ---
 title: SplitByRowSpan
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Divise la cellule en deux cellules par index de ligne.
 type: docs
 weight: 270

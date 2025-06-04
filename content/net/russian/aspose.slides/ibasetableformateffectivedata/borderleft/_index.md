@@ -1,15 +1,15 @@
 ---
 title: BorderLeft
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффективное значение формата левой границы. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает эффективное значение формата левой границы линии. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ibasetableformateffectivedata/borderleft/
 ---
 
-## Свойство IBaseTableFormatEffectiveData.BorderLeft
+## IBaseTableFormatEffectiveData.BorderLeft свойство
 
-Возвращает эффективное значение формата левой границы. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Возвращает эффективное значение формата левой границы линии. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderLeft { get; }

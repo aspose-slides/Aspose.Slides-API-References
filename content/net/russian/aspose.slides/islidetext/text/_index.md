@@ -1,13 +1,13 @@
 ---
 title: Text
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slidess для .NET
 description: Текст на фигурах слайдов
 type: docs
 weight: 50
 url: /ru/aspose.slides/islidetext/text/
 ---
 
-## Свойство ISlideText.Text
+## ISlideText.Text свойство
 
 Текст на фигурах слайда
 

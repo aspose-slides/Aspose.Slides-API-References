@@ -1,6 +1,6 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa una colección de objetos GradientStopDataEx.
 type: docs
 weight: 5840
@@ -20,9 +20,9 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Nombre | Descripción |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Devuelve el parada de gradiente por índice. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Devuelve el gradiente stop por índice. |
 
-### Ver También
+### Véase también
 
 * interfaz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfaz [IGradientStopEffectiveData](../igradientstopeffectivedata)

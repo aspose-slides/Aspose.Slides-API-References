@@ -1,13 +1,13 @@
 ---
 title: EnableOuterShadowEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Active l'effet d'ombre extérieure.
 type: docs
 weight: 220
 url: /fr/aspose.slides/ieffectformat/enableoutershadoweffect/
 ---
 
-## Méthode IEffectFormat.EnableOuterShadowEffect
+## IEffectFormat.EnableOuterShadowEffect méthode
 
 Active l'effet d'ombre extérieure.
 

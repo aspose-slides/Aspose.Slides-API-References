@@ -1,15 +1,15 @@
 ---
 title: FillColor2
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaft fill.color2 dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die fill.color2-Eigenschaft dar
 type: docs
 weight: 290
 url: /de/aspose.slides.animation/behaviorproperty/fillcolor2/
 ---
 
-## BehaviorProperty.FillColor2 Eigenschaft
+## BehaviorProperty.FillColor2-Eigenschaft
 
-Stellt die Eigenschaft 'fill.color2' dar
+Stellt die 'fill.color2'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty FillColor2 { get; }

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le format de remplissage effectif. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le format de remplissage effectif. Données IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ibackgroundeffectivedata/fillformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibackgroundeffectivedata/fillformat/
 
 ## Propriété IBackgroundEffectiveData.FillFormat
 
-Renvoie le format de remplissage effectif. Lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Renvoie le format de remplissage effectif. Données [`IFillFormatEffectiveData`](../../ifillformateffectivedata) en lecture seule.
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * interface [IBackgroundEffectiveData](../../ibackgroundeffectivedata)

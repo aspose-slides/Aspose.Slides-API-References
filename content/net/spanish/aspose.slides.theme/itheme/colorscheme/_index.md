@@ -1,13 +1,13 @@
 ---
 title: ColorScheme
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el esquema de color. Solo lectura IColorScheme aspose.slides.theme/icolorscheme.
+description: Devuelve el esquema de color. Solo lectura IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 20
 url: /es/aspose.slides.theme/itheme/colorscheme/
 ---
 
-## Propiedad ITheme.ColorScheme
+## ITheme.ColorScheme property
 
 Devuelve el esquema de color. Solo lectura [`IColorScheme`](../../icolorscheme).
 
@@ -15,7 +15,7 @@ Devuelve el esquema de color. Solo lectura [`IColorScheme`](../../icolorscheme).
 public IColorScheme ColorScheme { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IColorScheme](../../icolorscheme)
 * interfaz [ITheme](../../itheme)

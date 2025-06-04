@@ -1,6 +1,6 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaften des Diagrammtitels dar.
 type: docs
 weight: 1830
@@ -20,11 +20,11 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | Name | Beschreibung |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Gibt die IActualLayout-Schnittstelle zurück. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Ermöglicht den Zugriff auf die Basis-ILayoutable-Schnittstelle. Nur gelesen [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Gibt das Format eines Plots zurück. Nur gelesen [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Wenn das Layout des Plotbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Plotbereich innen (ohne Achse und Achsenbeschriftungen) oder außen (einschließlich Achse und Achsenbeschriftungen) angeordnet werden soll. Lese-/Schreibzugriff [`LayoutTargetType`](./layouttargettype). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Ermöglicht den Zugriff auf die Basis-ILayoutable-Schnittstelle. Nur lesbar [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Gibt das Format eines Plotbereichs zurück. Nur lesbar [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Wenn das Layout des Plotbereichs manuell definiert ist, gibt dieses Property an, ob der Plotbereich innen (ohne Achsen und Achsenbeschriftungen) oder außen (einschließlich Achsen und Achsenbeschriftungen) angeordnet werden soll. Lese-/Schreibzugriff [`LayoutTargetType`](./layouttargettype). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IActualLayout](../iactuallayout)
 * Schnittstelle [ILayoutable](../ilayoutable)

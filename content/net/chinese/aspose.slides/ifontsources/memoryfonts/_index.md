@@ -1,6 +1,6 @@
 ---
 title: MemoryFonts
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 以字节数组表示的字体集合。
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ifontsources/memoryfonts/
 public byte[][] MemoryFonts { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IFontSources](../../ifontsources)
 * 命名空间 [Aspose.Slides](../../ifontsources)

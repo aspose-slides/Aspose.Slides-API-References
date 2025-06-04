@@ -1,7 +1,7 @@
 ---
 title: Timing
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет значение тайминга для эффекта. Чтение/запись ITimingaspose.slides.animation/itiming.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет значение времени для эффекта. Чтение/запись ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 130
 url: /ru/aspose.slides.animation/effect/timing/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.animation/effect/timing/
 
 ## Свойство Effect.Timing
 
-Определяет значение тайминга для эффекта. Чтение/запись [`ITiming`](../../itiming).
+Определяет значение времени для эффекта. Чтение/запись [`ITiming`](../../itiming).
 
 ```csharp
 public ITiming Timing { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITiming](../../itiming)
 * класс [Effect](../../effect)

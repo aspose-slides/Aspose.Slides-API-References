@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает тип этой серии. Чтение/запись ChartTypeaspose.slides.charts/charttype.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает тип этой серии. Читаемая/записываемая ChartType aspose.slides.charts/charttype.
 type: docs
 weight: 440
 url: /ru/aspose.slides.charts/chartseries/type/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/chartseries/type/
 
 ## Свойство ChartSeries.Type
 
-Возвращает тип этой серии. Чтение/запись [`ChartType`](../../charttype).
+Возвращает тип этой серии. Читаемая/записываемая [`ChartType`](../../charttype).
 
 ```csharp
 public ChartType Type { get; set; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
 * enum [ChartType](../../charttype)
 * class [ChartSeries](../../chartseries)

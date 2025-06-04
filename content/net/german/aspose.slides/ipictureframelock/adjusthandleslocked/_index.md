@@ -1,7 +1,7 @@
 ---
 title: AdjustHandlesLocked
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Ändern von Anpassungswerten verboten ist. Lese-/Schreib-Boolean.
+description: Bestimmt, ob das Ändern der Anpassungswerte verboten ist. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 10
 url: /de/aspose.slides/ipictureframelock/adjusthandleslocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipictureframelock/adjusthandleslocked/
 
 ## IPictureFrameLock.AdjustHandlesLocked-Eigenschaft
 
-Bestimmt, ob das Ändern von Anpassungswerten verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob das Ändern der Anpassungswerte verboten ist. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }

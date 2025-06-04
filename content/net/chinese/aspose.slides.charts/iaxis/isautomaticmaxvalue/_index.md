@@ -1,6 +1,6 @@
 ---
 title: IsAutomaticMaxValue
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指示最大值是否自动分配。可读写布尔值。
 type: docs
 weight: 190
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxis/isautomaticmaxvalue/
 public bool IsAutomaticMaxValue { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

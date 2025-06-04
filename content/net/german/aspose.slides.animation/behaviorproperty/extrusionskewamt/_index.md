@@ -1,7 +1,7 @@
 ---
 title: ExtrusionSkewAmt
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaft extrusion.skewamt dar
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Eigenschaft 'extrusion.skewamt' dar
 type: docs
 weight: 190
 url: /de/aspose.slides.animation/behaviorproperty/extrusionskewamt/

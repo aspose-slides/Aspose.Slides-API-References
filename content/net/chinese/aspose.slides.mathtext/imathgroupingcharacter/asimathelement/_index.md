@@ -1,6 +1,6 @@
 ---
 title: AsIMathElement
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 允许获取基础 IMathElement 接口 IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/imathgroupingcharacter/asimathelement/
 public IMathElement AsIMathElement { get; }
 ```
 
-### 参考
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathGroupingCharacter](../../imathgroupingcharacter)

@@ -1,7 +1,7 @@
 ---
 title: CompressImage
-second_title: Aspose.Sildes для .NET API Reference
-description: Сжимает изображение, уменьшая его размер на основе размера фигуры и заданного разрешения. При необходимости также удаляет обрезанные области.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Сжимает изображение, уменьшая его размер в зависимости от размера формы и указанного разрешения. По желанию также удаляет обрезанные области.
 type: docs
 weight: 180
 url: /ru/aspose.slides/picturefillformat/compressimage/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/picturefillformat/compressimage/
 
 ## CompressImage(bool, PicturesCompression) {#compressimage}
 
-Сжимает изображение, уменьшая его размер на основе размера фигуры и заданного разрешения. При необходимости также удаляет обрезанные области.
+Сжимает изображение, уменьшая его размер в зависимости от размера формы и указанного разрешения. По желанию также удаляет обрезанные области.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression resolution)
@@ -17,26 +17,26 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, PicturesCompression re
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Если true, метод удалит обрезанные области изображения, потенциально еще больше уменьшая его размер. |
+| deleteCroppedAreasOfImage | Boolean | Если true, метод удалит обрезанные области изображения, что может дополнительно уменьшить его размер. |
 | resolution | PicturesCompression | Целевое разрешение для сжатия, указанное в виде значения перечисления [`PicturesCompression`](../../../aspose.slides.export/picturescompression). |
 
 ### Возвращаемое значение
 
-Булево значение, указывающее, было ли изображение успешно сжато. Возвращает `true`, если изображение было изменено в размере или обрезано, в противном случае `false`.
+Логическое значение, указывающее на то, было ли изображение успешно сжато. Возвращает `true`, если изображение было изменено в размерах или обрезано, в противном случае `false`.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Генерируется, когда разрешение не является допустимым значением. |
+| ArgumentException | Выбрасывается, когда разрешение не является допустимым значением. |
 
-### Замечания
+### Примечания
 
-Этот метод изменяет размер и разрешение изображения, аналогично функции "Формат изображения -&gt; Сжать изображения" в PowerPoint.
+Этот метод изменяет размер и разрешение изображения аналогично функции "Формат изображения -&gt; Сжать изображения" в PowerPoint.
 
 ### Примеры
 
-Следующий пример демонстрирует, как использовать метод `CompressImage` для уменьшения размера изображения в презентации, установив целевое разрешение и удалив обрезанные области:
+Следующий пример демонстрирует, как использовать метод `CompressImage` для уменьшения размера изображения в презентации, задав целевое разрешение и удалив обрезанные области:
 
 ```csharp
 using (Presentation presentation = new Presentation("demo.pptx"))
@@ -48,18 +48,18 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* перечисление [PicturesCompression](../../../aspose.slides.export/picturescompression)
-* класс [PictureFillFormat](../../picturefillformat)
-* пространство имен [Aspose.Slides](../../picturefillformat)
-* сборка [Aspose.Slides](../../../)
+* enum [PicturesCompression](../../../aspose.slides.export/picturescompression)
+* class [PictureFillFormat](../../picturefillformat)
+* namespace [Aspose.Slides](../../picturefillformat)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## CompressImage(bool, float) {#compressimage_1}
 
-Сжимает изображение, уменьшая его размер на основе размера фигуры и заданного разрешения. При необходимости также удаляет обрезанные области.
+Сжимает изображение, уменьшая его размер в зависимости от размера формы и указанного разрешения. По желанию также удаляет обрезанные области.
 
 ```csharp
 public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
@@ -67,26 +67,26 @@ public bool CompressImage(bool deleteCroppedAreasOfImage, float resolution)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| deleteCroppedAreasOfImage | Boolean | Если true, метод удалит обрезанные области изображения, потенциально еще больше уменьшая его размер. |
-| resolution | Single | Целевое разрешение в DPI. Это значение должно быть положительным и определяет, как будет изменен размер изображения. |
+| deleteCroppedAreasOfImage | Boolean | Если true, метод удалит обрезанные области изображения, что может дополнительно уменьшить его размер. |
+| resolution | Single | Целевое разрешение в DPI. Это значение должно быть положительным и определяет, как изображение будет изменено в размерах. |
 
 ### Возвращаемое значение
 
-Булево значение, указывающее, было ли изображение успешно сжато. Возвращает `true`, если изображение было изменено в размере или обрезано, в противном случае `false`.
+Логическое значение, указывающее на то, было ли изображение успешно сжато. Возвращает `true`, если изображение было изменено в размерах или обрезано, в противном случае `false`.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Генерируется, когда разрешение не является положительным значением. |
+| ArgumentException | Выбрасывается, когда разрешение не является положительным значением. |
 
-### Замечания
+### Примечания
 
-Этот метод изменяет размер и разрешение изображения, аналогично функции "Формат изображения -&gt; Сжать изображения" в PowerPoint.
+Этот метод изменяет размер и разрешение изображения аналогично функции "Формат изображения -&gt; Сжать изображения" в PowerPoint.
 
 ### Примеры
 
-Следующий пример демонстрирует, как использовать метод `CompressImage` для уменьшения размера изображения в презентации, установив целевое разрешение и удалив обрезанные области:
+Следующий пример демонстрирует, как использовать метод `CompressImage` для уменьшения размера изображения в презентации, задав целевое разрешение и удалив обрезанные области:
 
 ```csharp
 [C#]
@@ -102,10 +102,10 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
-* класс [PictureFillFormat](../../picturefillformat)
-* пространство имен [Aspose.Slides](../../picturefillformat)
-* сборка [Aspose.Slides](../../../)
+* class [PictureFillFormat](../../picturefillformat)
+* namespace [Aspose.Slides](../../picturefillformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

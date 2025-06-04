@@ -1,15 +1,15 @@
 ---
 title: DateTime7
-second_title: Aspose.Slides für .NET API-Referenz
-description: Aktuelles Datum und Uhrzeit in einem siebten vordefinierten Format Mon-YY für Englisch. Nur-Lese-Feldtyp aspose.slides/fieldtype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Aktuelles Datum und Uhrzeit in einem siebten vordefinierten Format Mon-YY für Englisch. Nur-Lese FieldType aspose.slides/fieldtype.
 type: docs
 weight: 130
 url: /de/aspose.slides/fieldtype/datetime7/
 ---
 
-## FieldType.DateTime7-Eigenschaft
+## FieldType.DateTime7 Eigenschaft
 
-Aktuelles Datum und Uhrzeit in einem siebten vordefinierten Format (Mon-YY für Englisch). Nur-Lese- [`FieldType`](../../fieldtype).
+Aktuelles Datum und Uhrzeit in einem siebten vordefinierten Format (Mon-YY für Englisch). Nur-Lese [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime7 { get; }

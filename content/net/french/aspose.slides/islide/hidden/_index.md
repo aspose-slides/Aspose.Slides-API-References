@@ -1,15 +1,15 @@
 ---
 title: Hidden
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la diapositive spécifiée est cachée pendant un diaporama. Booléen en lecture/écriture.
+second_title: Référence API Aspose.Sildes pour .NET
+description: Détermine si la diapositive spécifiée est masquée pendant un diaporama. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides/islide/hidden/
 ---
 
-## Propriété ISlide.Hidden
+## ISlide.Hidden property
 
-Détermine si la diapositive spécifiée est cachée pendant un diaporama. Booléen en lecture/écriture.
+Détermine si la diapositive spécifiée est masquée pendant un diaporama. Booléen en lecture/écriture.
 
 ```csharp
 public bool Hidden { get; set; }

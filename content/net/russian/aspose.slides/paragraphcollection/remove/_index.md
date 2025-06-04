@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Справка по API Aspose.Sildes для .NET
-description: Удаляет первое вхождение определенного объекта из ICollection.
+second_title: Aspose.Sildes для справки по API .NET
+description: Удаляет первое вхождение конкретного объекта из ICollection.
 type: docs
 weight: 130
 url: /ru/aspose.slides/paragraphcollection/remove/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/paragraphcollection/remove/
 
 ## Метод ParagraphCollection.Remove
 
-Удаляет первое вхождение определенного объекта из ICollection.
+Удаляет первое вхождение конкретного объекта из ICollection.
 
 ```csharp
 public bool Remove(IParagraph item)
@@ -19,15 +19,15 @@ public bool Remove(IParagraph item)
 | --- | --- | --- |
 | item | IParagraph | Объект, который нужно удалить из ICollection. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-true, если *item* был успешно удален из ICollection; в противном случае - false. Этот метод также возвращает false, если *item* не найден в оригинальном ICollection.
+true, если *item* был успешно удален из ICollection; в противном случае - false. Этот метод также возвращает false, если *item* не найден в исходном ICollection.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | ICollection является доступным только для чтения. |
+| NotSupportedException | ICollection доступен только для чтения. |
 
 ### См. также
 

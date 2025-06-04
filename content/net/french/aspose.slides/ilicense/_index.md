@@ -1,6 +1,6 @@
 ---
 title: ILicense
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Fournit des méthodes pour licencier le composant.
 type: docs
 weight: 6060
@@ -21,12 +21,12 @@ public interface ILicense
 | --- | --- |
 | [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Vérifie si la licence est appliquée au composant |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Réinitialise la licence |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | License le composant. |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | License le composant. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Licencie le composant. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Licencie le composant. |
 
 ### Exemples
 
-Dans cet exemple, on tentera de trouver un fichier de licence nommé MyLicense.lic dans le dossier contenant le composant, dans le dossier contenant l'assembly appelant, dans le dossier de l'assembly d'entrée, puis dans les ressources intégrées de l'assembly appelant.
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier contenant le composant, dans le dossier contenant l'assembly appelant, dans le dossier de l'assembly d'entrée, puis dans les ressources intégrées de l'assembly appelant.
 
 ```csharp
 [C#]

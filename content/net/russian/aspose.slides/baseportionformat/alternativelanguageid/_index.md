@@ -1,7 +1,7 @@
 ---
 title: AlternativeLanguageId
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Возвращает или устанавливает идентификатор альтернативного языка. Читаемый/записываемый String.
+second_title: Aspose.Slides для .NET Справочник по API
+description: Возвращает или устанавливает Id альтернативного языка. Читаемая/записываемая строка.
 type: docs
 weight: 10
 url: /ru/aspose.slides/baseportionformat/alternativelanguageid/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/baseportionformat/alternativelanguageid/
 
 ## BasePortionFormat.AlternativeLanguageId свойство
 
-Возвращает или устанавливает идентификатор альтернативного языка. Читаемый/записываемый String.
+Возвращает или устанавливает Id альтернативного языка. Читаемая/записываемая строка.
 
 ```csharp
 public string AlternativeLanguageId { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [BasePortionFormat](../../baseportionformat)
 * пространство имен [Aspose.Slides](../../baseportionformat)

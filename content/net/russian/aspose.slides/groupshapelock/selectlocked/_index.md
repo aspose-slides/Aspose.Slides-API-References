@@ -1,13 +1,13 @@
 ---
 title: SelectLocked
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Определяет, запрещено ли выбирать эту фигуру. Читаемое/записываемое логическое значение.
 type: docs
 weight: 50
 url: /ru/aspose.slides/groupshapelock/selectlocked/
 ---
 
-## Свойство GroupShapeLock.SelectLocked
+## GroupShapeLock.SelectLocked свойство
 
 Определяет, запрещено ли выбирать эту фигуру. Читаемое/записываемое логическое значение.
 

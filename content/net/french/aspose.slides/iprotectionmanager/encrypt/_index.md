@@ -1,15 +1,15 @@
 ---
 title: Encrypt
 second_title: Référence API Aspose.Slides pour .NET
-description: Chiffre la présentation avec le mot de passe spécifié.
+description: Crypte la présentation avec le mot de passe spécifié.
 type: docs
 weight: 80
 url: /fr/aspose.slides/iprotectionmanager/encrypt/
 ---
 
-## Méthode IProtectionManager.Encrypt
+## IProtectionManager.Encrypt méthode
 
-Chiffre la présentation avec le mot de passe spécifié.
+Crypte la présentation avec le mot de passe spécifié.
 
 ```csharp
 public void Encrypt(string encryptionPassword)

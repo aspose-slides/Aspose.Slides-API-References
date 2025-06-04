@@ -1,6 +1,6 @@
 ---
 title: HeadingPairs
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Indique le regroupement des parties du document et le nombre de parties dans chaque groupe. Lecture seule IHeadingPair.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ Indique le regroupement des parties du document et le nombre de parties dans cha
 public IHeadingPair[] HeadingPairs { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHeadingPair](../../iheadingpair)
 * interface [IDocumentProperties](../../idocumentproperties)

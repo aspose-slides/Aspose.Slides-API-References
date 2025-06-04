@@ -1,29 +1,29 @@
 ---
 title: GetImages
-second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中所有幻灯片的缩略图像对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回演示文稿所有幻灯片的缩略图图像对象。
 type: docs
 weight: 300
 url: /zh/aspose.slides/ipresentation/getimages/
 ---
 
-## 获取图像(IRenderingOptions) {#getimages}
+## GetImages(IRenderingOptions) {#getimages}
 
-返回演示文稿中所有幻灯片的缩略图像对象。
+返回演示文稿所有幻灯片的缩略图图像对象。
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options)
 ```
 
-| 参数      | 类型              | 描述               |
-| --------- | ----------------- | ------------------ |
-| options   | IRenderingOptions  | 渲染选项。         |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -33,24 +33,24 @@ Bitmap 对象。
 
 ---
 
-## 获取图像(IRenderingOptions, int[]) {#getimages_1}
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
 
-返回指定幻灯片的缩略Bitmap对象。
+返回指定幻灯片的缩略图位图对象。
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides)
 ```
 
-| 参数      | 类型               | 描述                           |
-| --------- | ------------------ | ------------------------------ |
-| options   | IRenderingOptions   | 渲染选项。                     |
-| slides    | Int32[]            | 幻灯片位置的数组，从 1 开始。  |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| slides | Int32[] | 从 1 开始的幻灯片位置数组。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -60,25 +60,25 @@ Bitmap 对象。
 
 ---
 
-## 获取图像(IRenderingOptions, float, float) {#getimages_4}
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
 
-返回演示文稿中所有幻灯片的缩略图像对象，具有自定义缩放。
+返回具有自定义缩放的演示文稿所有幻灯片的缩略图图像对象。
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
 ```
 
-| 参数      | 类型               | 描述                                     |
-| --------- | ------------------ | ---------------------------------------- |
-| options   | IRenderingOptions   | 渲染选项。                               |
-| scaleX    | Single             | 该缩略图在 x 轴方向上的缩放值。         |
-| scaleY    | Single             | 该缩略图在 y 轴方向上的缩放值。         |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| scaleX | Single | 沿 X 轴方向缩放此缩略图的值。 |
+| scaleY | Single | 沿 Y 轴方向缩放此缩略图的值。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -88,26 +88,26 @@ Bitmap 对象。
 
 ---
 
-## 获取图像(IRenderingOptions, int[], float, float) {#getimages_2}
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
 
-返回指定幻灯片的缩略图像对象，具有自定义缩放。
+返回具有自定义缩放的指定幻灯片的缩略图图像对象。
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
 ```
 
-| 参数      | 类型               | 描述                                     |
-| --------- | ------------------ | ---------------------------------------- |
-| options   | IRenderingOptions   | 渲染选项。                               |
-| slides    | Int32[]            | 幻灯片位置的数组，从 1 开始。           |
-| scaleX    | Single             | 该缩略图在 x 轴方向上的缩放值。         |
-| scaleY    | Single             | 该缩略图在 y 轴方向上的缩放值。         |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| slides | Int32[] | 从 1 开始的幻灯片位置数组。 |
+| scaleX | Single | 沿 X 轴方向缩放此缩略图的值。 |
+| scaleY | Single | 沿 Y 轴方向缩放此缩略图的值。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -117,24 +117,24 @@ Bitmap 对象。
 
 ---
 
-## 获取图像(IRenderingOptions, Size) {#getimages_5}
+## GetImages(IRenderingOptions, Size) {#getimages_5}
 
-返回演示文稿中所有幻灯片的缩略图像对象，具有指定大小。
+返回具有指定大小的演示文稿所有幻灯片的缩略图图像对象。
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, Size imageSize)
 ```
 
-| 参数      | 类型               | 描述                          |
-| --------- | ------------------ | ----------------------------- |
-| options   | IRenderingOptions   | 渲染选项。                    |
-| imageSize | Size               | 要创建的图像的大小。          |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| imageSize | Size | 要创建的图像的大小。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -144,25 +144,25 @@ Bitmap 对象。
 
 ---
 
-## 获取图像(IRenderingOptions, int[], Size) {#getimages_3}
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
 
-返回指定幻灯片的缩略图像对象，具有指定大小。
+返回具有指定大小的指定幻灯片的缩略图图像对象。
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
 ```
 
-| 参数      | 类型               | 描述                          |
-| --------- | ------------------ | ----------------------------- |
-| options   | IRenderingOptions   | 渲染选项。                    |
-| slides    | Int32[]            | 幻灯片位置的数组，从 1 开始。  |
-| imageSize | Size               | 要创建的图像的大小。          |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| options | IRenderingOptions | 渲染选项。 |
+| slides | Int32[] | 从 1 开始的幻灯片位置数组。 |
+| imageSize | Size | 要创建的图像的大小。 |
 
 ### 返回值
 
 Bitmap 对象。
 
-### 参见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)

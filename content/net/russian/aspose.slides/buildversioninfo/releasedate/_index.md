@@ -1,21 +1,21 @@
 ---
 title: ReleaseDate
-second_title: Справочник по API Aspose.Slides для .NET
-description: Дата релиза сборки.
+second_title: Aspose.Slides для .NET API Справочник
+description: Дата выпуска сборки.
 type: docs
 weight: 60
 url: /ru/aspose.slides/buildversioninfo/releasedate/
 ---
 
-## Поле BuildVersionInfo.ReleaseDate
+## BuildVersionInfo.ReleaseDate поле
 
-Дата релиза сборки.
+Дата выпуска сборки.
 
 ```csharp
 public static readonly DateTime ReleaseDate;
 ```
 
-### См. также
+### См. Также
 
 * класс [BuildVersionInfo](../../buildversioninfo)
 * пространство имен [Aspose.Slides](../../buildversioninfo)

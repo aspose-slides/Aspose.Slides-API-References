@@ -1,7 +1,7 @@
 ---
 title: ThemeManager
 second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает менеджер тем. Только для чтения IMasterThemeManager aspose.slides.theme/imasterthememanager.
+description: Возвращает менеджер тем. Только для чтения IMasterThemeManageraspose.slides.theme/imasterthememanager.
 type: docs
 weight: 40
 url: /ru/aspose.slides/masternotesslide/thememanager/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/masternotesslide/thememanager/
 public IMasterThemeManager ThemeManager { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMasterThemeManager](../../../aspose.slides.theme/imasterthememanager)
 * класс [MasterNotesSlide](../../masternotesslide)

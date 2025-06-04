@@ -1,7 +1,7 @@
 ---
 title: HorizontalAxis
-second_title: Aspose.Sildes для .NET API Справка
-description: Получает горизонтальную ось графика. Только для чтения IAxisaspose.slides.charts/iaxis.
+second_title: Справка по API Aspose.Slides для .NET
+description: Получает горизонтальную ось диаграммы. Только для чтения IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/axesmanager/horizontalaxis/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/axesmanager/horizontalaxis/
 
 ## AxesManager.HorizontalAxis свойство
 
-Получает горизонтальную ось графика. Только для чтения [`IAxis`](../../iaxis).
+Получает горизонтальную ось диаграммы. Только для чтения [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis HorizontalAxis { get; }
 ```
 
-### См. Также
+### Также смотри
 
 * интерфейс [IAxis](../../iaxis)
 * класс [AxesManager](../../axesmanager)

@@ -1,13 +1,13 @@
 ---
 title: FindShapeByAltText
-second_title: Référence de l'API Aspose.Slidess pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Trouve la première occurrence d'une forme avec le texte alternatif spécifié.
 type: docs
 weight: 130
 url: /fr/aspose.slides/ibaseslide/findshapebyalttext/
 ---
 
-## Méthode IBaseSlide.FindShapeByAltText
+## IBaseSlide.FindShapeByAltText méthode
 
 Trouve la première occurrence d'une forme avec le texte alternatif spécifié.
 
@@ -19,11 +19,11 @@ public IShape FindShapeByAltText(string altText)
 | --- | --- | --- |
 | altText | String | Texte alternatif. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet ShapeEx ou null.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IShape](../../ishape)
 * interface [IBaseSlide](../../ibaseslide)

@@ -1,7 +1,7 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes для .NET API Reference
-description: Эффект перехода слайдов Shred.
+second_title: Aspose.Slides для .NET API Reference
+description: Эффект перехода с резкой сменой.
 type: docs
 weight: 9990
 url: /ru/aspose.slides.slideshow/shredtransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/shredtransition/
 
 ## Класс ShredTransition
 
-Эффект перехода слайдов Shred.
+Эффект перехода с резкой сменой.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -17,19 +17,19 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## Свойства
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Задает форму визуальных эффектов, используемых во время перехода. Чтение/запись [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | Указывает форму визуальных эффектов, использованных во время перехода. Чтение/запись [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## Методы
 
-| Name | Description |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется как хеш-функция для определенного типа, подходящая для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходит для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
 
-### См. Также
+### Смотрите также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [IShredTransition](../ishredtransition)

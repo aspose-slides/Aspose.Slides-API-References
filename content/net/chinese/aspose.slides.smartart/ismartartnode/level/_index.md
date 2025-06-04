@@ -1,6 +1,6 @@
 ---
 title: Level
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回节点的嵌套级别。只读 Int32。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.smartart/ismartartnode/level/
 public int Level { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISmartArtNode](../../ismartartnode)
 * 命名空间 [Aspose.Slides.SmartArt](../../ismartartnode)

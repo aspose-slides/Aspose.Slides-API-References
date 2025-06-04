@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea nuevas series de gráficos y las añade a la colección.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Crea nuevas series de gráficos y las agrega a la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/chartseriescollection/add/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/chartseriescollection/add/
 
 ## Add(ChartType) {#add}
 
-Crea nuevas series de gráficos y las añade a la colección.
+Crea nuevas series de gráficos y las agrega a la colección.
 
 ```csharp
 public IChartSeries Add(ChartType type)
@@ -23,7 +23,7 @@ public IChartSeries Add(ChartType type)
 
 Nueva serie de gráficos.
 
-### Véase También
+### Ver También
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)
@@ -35,7 +35,7 @@ Nueva serie de gráficos.
 
 ## Add(IChartDataCell, ChartType) {#add_2}
 
-Crea nuevas series de gráficos a partir de [`ChartDataCell`](../../chartdatacell) y las añade a la colección.
+Crea nuevas series de gráficos a partir de [`ChartDataCell`](../../chartdatacell) y las agrega a la colección.
 
 ```csharp
 public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
@@ -44,17 +44,17 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | cellWithSeriesName | IChartDataCell | Celda que contiene el nombre de la serie. |
-| type | ChartType | Tipo que establece el tipo de serie |
+| type | ChartType | Tipo de serie a establecer |
 
 ### Valor de Retorno
 
-Serie de gráficos añadida o serie que ya está en la colección.
+Serie de gráficos agregada o serie que ya está en la colección.
 
-### Comentarios
+### Observaciones
 
-Si la serie de gráficos creada a partir de la misma celda ya está en la colección, entonces el método no añade nada y devuelve su índice.
+Si la serie de gráficos creada a partir de la misma celda ya está en la colección, entonces el método no agrega nada y devuelve su índice.
 
-### Véase También
+### Ver También
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartDataCell](../../ichartdatacell)
@@ -67,7 +67,7 @@ Si la serie de gráficos creada a partir de la misma celda ya está en la colecc
 
 ## Add(IChartCellCollection, ChartType) {#add_1}
 
-Crea nuevas series de gráficos a partir de [`ChartCellCollection`](../../chartcellcollection) y las añade a la colección.
+Crea nuevas series de gráficos a partir de [`ChartCellCollection`](../../chartcellcollection) y las agrega a la colección.
 
 ```csharp
 public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
@@ -76,17 +76,17 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | cellsWithSeriesName | IChartCellCollection | Celdas que contienen el nombre de la serie. |
-| type | ChartType | Tipo que establece el tipo de serie |
+| type | ChartType | Tipo de serie a establecer |
 
 ### Valor de Retorno
 
-Serie de gráficos añadida o serie que ya está en la colección.
+Serie de gráficos agregada o serie que ya está en la colección.
 
-### Comentarios
+### Observaciones
 
-Si la serie de gráficos creada a partir de la misma celda ya está en la colección, entonces el método no añade nada y devuelve su índice.
+Si la serie de gráficos creada a partir de la misma celda ya está en la colección, entonces el método no agrega nada y devuelve su índice.
 
-### Véase También
+### Ver También
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartCellCollection](../../ichartcellcollection)
@@ -99,7 +99,7 @@ Si la serie de gráficos creada a partir de la misma celda ya está en la colecc
 
 ## Add(string, ChartType) {#add_3}
 
-Crea nuevas series de gráficos a partir de un valor y las añade a la colección.
+Crea nuevas series de gráficos a partir de un valor y las agrega a la colección.
 
 ```csharp
 public IChartSeries Add(string name, ChartType type)
@@ -108,13 +108,13 @@ public IChartSeries Add(string name, ChartType type)
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | name | String | Nombre de la serie. |
-| type | ChartType | Tipo que establece el tipo de serie |
+| type | ChartType | Tipo de serie a establecer |
 
 ### Valor de Retorno
 
-Serie de gráficos añadida.
+Serie de gráficos agregada.
 
-### Véase También
+### Ver También
 
 * interface [IChartSeries](../../ichartseries)
 * enum [ChartType](../../charttype)

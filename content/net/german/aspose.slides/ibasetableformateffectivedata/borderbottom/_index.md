@@ -1,7 +1,7 @@
 ---
 title: BorderBottom
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den effektiven Wert des unteren Rahmenlinienformats zurück. Nur lesender ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den effektiven Wert des unteren Rahmenlinienformats zurück. Nur-lesbar ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides/ibasetableformateffectivedata/borderbottom/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibasetableformateffectivedata/borderbottom/
 
 ## IBaseTableFormatEffectiveData.BorderBottom-Eigenschaft
 
-Gibt den effektiven Wert des unteren Rahmenlinienformats zurück. Nur lesender [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Gibt den effektiven Wert des unteren Rahmenlinienformats zurück. Nur-lesbar [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderBottom { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * Schnittstelle [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

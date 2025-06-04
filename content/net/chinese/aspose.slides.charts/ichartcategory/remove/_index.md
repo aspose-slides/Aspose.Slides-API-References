@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
-description: 从图表中移除类别。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从图表中删除类别。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/ichartcategory/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartcategory/remove/
 
 ## IChartCategory.Remove 方法
 
-从图表中移除类别。
+从图表中删除类别。
 
 ```csharp
 public void Remove()
@@ -19,9 +19,9 @@ public void Remove()
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果类别已经从图表中移除，则抛出此异常。 |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果类别已经从图表中删除，则抛出。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IChartCategory](../../ichartcategory)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcategory)

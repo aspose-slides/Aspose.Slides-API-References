@@ -1,7 +1,7 @@
 ---
 title: UpdateAutomatic
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si l'objet incorporé lié est mis à jour automatiquement lorsque la présentation est ouverte ou imprimée. Booléen en lecture/écriture.
+description: Détermine si l'objet intégré lié est mis à jour automatiquement lorsque la présentation est ouverte ou imprimée. Booléen en lecture/écriture.
 type: docs
 weight: 140
 url: /fr/aspose.slides/oleobjectframe/updateautomatic/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/oleobjectframe/updateautomatic/
 
 ## Propriété OleObjectFrame.UpdateAutomatic
 
-Détermine si l'objet incorporé lié est mis à jour automatiquement lorsque la présentation est ouverte ou imprimée. Booléen en lecture/écriture.
+Détermine si l'objet intégré lié est mis à jour automatiquement lorsque la présentation est ouverte ou imprimée. Booléen en lecture/écriture.
 
 ```csharp
 public bool UpdateAutomatic { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [OleObjectFrame](../../oleobjectframe)
 * espace de noms [Aspose.Slides](../../oleobjectframe)

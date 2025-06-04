@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建新的图表系列并将其添加到集合中。
 type: docs
 weight: 20
@@ -17,13 +17,13 @@ public IChartSeries Add(ChartType type)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| type | ChartType | 系列类型 |
+| type | ChartType | 系列的类型 |
 
 ### 返回值
 
 新的图表系列。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 枚举 [ChartType](../../charttype)
@@ -44,7 +44,7 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | cellWithSeriesName | IChartDataCell | 包含系列名称的单元格。 |
-| type | ChartType | 系列的类型 |
+| type | ChartType | 系列类型的设置类型 |
 
 ### 返回值
 
@@ -52,9 +52,9 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 
 ### 备注
 
-如果从相同单元格创建的图表系列已经在集合中，则方法不添加任何内容，返回其索引。
+如果从同一单元格创建的图表系列已经在集合中，则该方法不添加任何内容并返回其索引。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -76,7 +76,7 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | cellsWithSeriesName | IChartCellCollection | 包含系列名称的单元格。 |
-| type | ChartType | 系列的类型 |
+| type | ChartType | 系列类型的设置类型 |
 
 ### 返回值
 
@@ -84,9 +84,9 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 
 ### 备注
 
-如果从相同单元格创建的图表系列已经在集合中，则方法不添加任何内容，返回其索引。
+如果从同一单元格创建的图表系列已经在集合中，则该方法不添加任何内容并返回其索引。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 接口 [IChartCellCollection](../../ichartcellcollection)
@@ -108,13 +108,13 @@ public IChartSeries Add(string name, ChartType type)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 系列名称。 |
-| type | ChartType | 系列的类型 |
+| type | ChartType | 系列类型的设置类型 |
 
 ### 返回值
 
 添加的图表系列。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 枚举 [ChartType](../../charttype)

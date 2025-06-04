@@ -1,7 +1,7 @@
 ---
 title: Distance
-second_title: Aspose.Slides for .NET API 参考
-description: 反射的距离。可读/可写的 Double 类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 反射的距离。读/写双精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides.effects/ireflection/distance/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/distance/
 
 ## IReflection.Distance 属性
 
-反射的距离。可读/可写的 Double 类型。
+反射的距离。读/写双精度浮点数。
 
 ```csharp
 public double Distance { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

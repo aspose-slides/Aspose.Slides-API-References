@@ -1,7 +1,7 @@
 ---
 title: PptCorruptFileException
-second_title: Справка по API Aspose.Slides для .NET
-description: Исключение, которое выбрасывается, когда файл презентации, вероятно, поврежден.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Исключение, выбрасываемое, когда файл презентации, вероятно, поврежден.
 type: docs
 weight: 9230
 url: /ru/aspose.slides/pptcorruptfileexception/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/pptcorruptfileexception/
 
 ## Класс PptCorruptFileException
 
-Исключение, которое выбрасывается, когда файл презентации, вероятно, поврежден.
+Исключение, выбрасываемое, когда файл презентации, вероятно, поврежден.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -17,13 +17,13 @@ public class PptCorruptFileException : PptReadException
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Конструктор по умолчанию. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и встроенное исключение. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
 
-### Также см.  
+### См. также
 
 * класс [PptReadException](../pptreadexception)
 * пространство имен [Aspose.Slides](../../aspose.slides)

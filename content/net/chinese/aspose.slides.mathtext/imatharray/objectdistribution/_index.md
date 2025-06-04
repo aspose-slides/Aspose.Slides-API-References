@@ -1,7 +1,7 @@
 ---
 title: ObjectDistribution
-second_title: Aspose.Slides for .NET API 参考
-description: 对象分布 当为真时，数组的内容被间隔到数组对象的最大宽度。
+second_title: Aspose.Sildes for .NET API Reference
+description: 对象分布 当为真时，数组的内容被均匀分布到数组对象的最大宽度。
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/imatharray/objectdistribution/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imatharray/objectdistribution/
 
 ## IMathArray.ObjectDistribution 属性
 
-对象分布 当为真时，数组的内容被间隔到数组对象的最大宽度。
+对象分布 当为真时，数组的内容被均匀分布到数组对象的最大宽度。
 
 ```csharp
 public bool ObjectDistribution { get; set; }
@@ -17,7 +17,7 @@ public bool ObjectDistribution { get; set; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.ObjectDistribution = true;
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathArray](../../imatharray)
 * 命名空间 [Aspose.Slides.MathText](../../imatharray)

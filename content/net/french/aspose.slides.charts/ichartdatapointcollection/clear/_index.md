@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 240
 url: /fr/aspose.slides.charts/ichartdatapointcollection/clear/
 ---
 
-## Méthode IChartDataPointCollection.Clear
+## IChartDataPointCollection.Clear méthode
 
 Supprime tous les éléments de la collection.
 

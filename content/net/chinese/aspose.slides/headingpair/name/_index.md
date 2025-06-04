@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
-description: 返回文档部分的组名称。仅支持读取的字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回文档部分的组名。只读字符串。
 type: docs
 weight: 20
 url: /zh/aspose.slides/headingpair/name/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/headingpair/name/
 
 ## HeadingPair.Name 属性
 
-返回文档部分的组名称。仅支持读取的字符串。
+返回文档部分的组名。只读字符串。
 
 ```csharp
 public string Name { get; }
 ```
 
-### 另见
+### 参见
 
 * class [HeadingPair](../../headingpair)
 * namespace [Aspose.Slides](../../headingpair)

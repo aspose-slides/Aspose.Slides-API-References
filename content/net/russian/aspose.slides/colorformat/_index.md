@@ -1,13 +1,13 @@
 ---
 title: ColorFormat
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет цвет, используемый в презентации.
 type: docs
 weight: 2430
 url: /ru/aspose.slides/colorformat/
 ---
 
-## Класс ColorFormat
+## ColorFormat class
 
 Представляет цвет, используемый в презентации.
 
@@ -20,21 +20,21 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Возвращает или задает синий компонент цвета. Все цветовые трансформации игнорируются. Чтение/запись Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Возвращает результирующий цвет (с примененными всеми цветовыми трансформациями). Устанавливает RGB цвета и очищает все цветовые трансформации. Чтение/запись Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Возвращает коллекцию цветовых трансформаций, примененных к цвету. Только для чтения [`IColorOperationCollection`](../icoloroperationcollection). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Возвращает или задает голубой компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Возвращает результирующий цвет (с примененными всем преобразованиями цвета). Устанавливает RGB цвета и очищает все преобразования цвета. Чтение/запись Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Возвращает коллекцию преобразований цвета, примененных к цвету. Только для чтения [`IColorOperationCollection`](../icoloroperationcollection). |
 | [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Возвращает или задает метод определения цвета. Чтение/запись [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Возвращает или задает синий компонент цвета. Все цветовые трансформации игнорируются. Чтение/запись Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Возвращает или задает зеленый компонент цвета. Все цветовые трансформации игнорируются. Чтение/запись Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Возвращает или задает красный компонент цвета. Все цветовые трансформации игнорируются. Чтение/запись Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | Возвращает или задает зеленый компонент цвета. Все цветовые трансформации игнорируются. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Возвращает или задает компонент оттенка цвета в представлении HSL. Все цветовые трансформации игнорируются. Чтение/запись Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Возвращает или задает компонент яркости цвета в представлении HSL. Все цветовые трансформации игнорируются. Чтение/запись Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Возвращает или задает заранее заданный цвет. Чтение/запись [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Возвращает или задает красный компонент цвета. Все цветовые трансформации игнорируются. Чтение/запись Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Возвращает или задает компонент насыщенности цвета в представлении HSL. Все цветовые трансформации игнорируются. Чтение/запись Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Возвращает или задает цвет, определяемый цветовой схемой. Чтение/запись [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Возвращает или задает цвет, определяемый таблицей системных цветов. Чтение/запись [`SystemColor`](../systemcolor). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Возвращает или задает голубой компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Возвращает или задает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Возвращает или задает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | Возвращает или задает зеленый компонент цвета. Все преобразования цвета игнорируются. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Возвращает или задает компонент оттенка цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Возвращает или задает компонент яркости цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Возвращает или задает предустановленный цвет. Чтение/запись [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Возвращает или задает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/запись Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Возвращает или задает компонент насыщенности цвета в представлении HSL. Все преобразования цвета игнорируются. Чтение/запись Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Возвращает или задает цвет, определенный цветовой схемой. Чтение/запись [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Возвращает или задает цвет, определенный цветовой таблицей системы. Чтение/запись [`SystemColor`](../systemcolor). |
 
 ## Методы
 
@@ -42,8 +42,8 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | --- | --- |
 | [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Копирует цветовой формат из "color". |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | Проверяет на равенство с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Возвращает хэш-код. |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Возвращает строку, которая представляет текущий цветовой формат. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Возвращает код хеша. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Возвращает строку, представляющую текущий цветовой формат. |
 
 ### См. также
 

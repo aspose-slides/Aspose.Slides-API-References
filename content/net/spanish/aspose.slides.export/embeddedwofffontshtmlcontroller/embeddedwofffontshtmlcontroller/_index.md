@@ -1,6 +1,6 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes para .NET Referencia de API
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea una nueva instancia.
 type: docs
 weight: 10

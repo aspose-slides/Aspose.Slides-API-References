@@ -1,6 +1,6 @@
 ---
 title: MathSuperscriptElement
-second_title: Aspose.Sildes для .NET Справочник API
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Инициализирует новый экземпляр класса MathSuperscriptElement.
 type: docs
 weight: 10

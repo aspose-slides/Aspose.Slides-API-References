@@ -15,7 +15,7 @@ Especifica la parte superior del elemento del gráfico como una fracción de la 
 public float Y { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [ILayoutable](../../ilayoutable)
 * espacio de nombres [Aspose.Slides.Charts](../../ilayoutable)

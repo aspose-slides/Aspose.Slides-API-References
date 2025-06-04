@@ -1,15 +1,15 @@
 ---
 title: RemoveUnused
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Удаляет неиспользуемые слайды макета, для которых HasDependingSlides равно false.
+second_title: Aspose.Sildes для .NET API Reference
+description: Удаляет неиспользуемые макеты слайдов, у которых HasDependingSlides равно false.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilayoutslidecollection/removeunused/
 ---
 
-## Метод ILayoutSlideCollection.RemoveUnused
+## ILayoutSlideCollection.RemoveUnused метод
 
-Удаляет неиспользуемые слайды макета (слайды макета, для которых HasDependingSlides равно false).
+Удаляет неиспользуемые макеты слайдов (макеты слайдов, у которых HasDependingSlides равно false).
 
 ```csharp
 public void RemoveUnused()

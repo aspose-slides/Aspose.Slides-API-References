@@ -1,6 +1,6 @@
 ---
 title: IOverrideThemeManager
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Предоставляет доступ к различным типам переопределенных тем.
 type: docs
 weight: 11040
@@ -17,10 +17,10 @@ public interface IOverrideThemeManager : IThemeManager
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить переопределение OverrideTheme, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
 
 ### См. также

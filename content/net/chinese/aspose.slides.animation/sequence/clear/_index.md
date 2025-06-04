@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除所有效果。
 type: docs
 weight: 50
 url: /zh/aspose.slides.animation/sequence/clear/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/sequence/clear/
 
 ## Sequence.Clear 方法
 
-从集合中移除所有效果。
+从集合中删除所有效果。
 
 ```csharp
 public void Clear()

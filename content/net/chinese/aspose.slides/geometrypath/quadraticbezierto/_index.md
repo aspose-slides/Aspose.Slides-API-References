@@ -20,7 +20,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 | point1 | PointF | 方向点 |
 | point2 | PointF | 结束点 |
 
-### 另见
+### 另外参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -38,12 +38,12 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | 方向点的 X 坐标 |
-| y1 | Single | 方向点的 Y 坐标 |
-| x2 | Single | 结束点的 X 坐标 |
-| y2 | Single | 结束点的 Y 坐标 |
+| x1 | Single | 方向点的X坐标 |
+| y1 | Single | 方向点的Y坐标 |
+| x2 | Single | 结束点的X坐标 |
+| y2 | Single | 结束点的Y坐标 |
 
-### 另见
+### 另外参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -53,7 +53,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 ## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
 
-在路径的指定位置添加二次贝塞尔曲线
+在路径指定位置添加二次贝塞尔曲线
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
@@ -63,15 +63,15 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 | --- | --- | --- |
 | point1 | PointF | 方向点 |
 | point2 | PointF | 结束点 |
-| index | UInt32 | PathData 中段的索引 |
+| index | UInt32 | PathData中的段索引 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
+| ArgumentOutOfRangeException | 段索引超出PathData范围 |
 
-### 另见
+### 另外参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)
@@ -81,7 +81,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 ## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
 
-在路径的指定位置添加二次贝塞尔曲线
+在路径指定位置添加二次贝塞尔曲线
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index)
@@ -89,19 +89,19 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | 方向点的 X 坐标 |
-| y1 | Single | 方向点的 Y 坐标 |
-| x2 | Single | 结束点的 X 坐标 |
-| y2 | Single | 结束点的 Y 坐标 |
-| index | UInt32 | PathData 中段的索引 |
+| x1 | Single | 方向点的X坐标 |
+| y1 | Single | 方向点的Y坐标 |
+| x2 | Single | 结束点的X坐标 |
+| y2 | Single | 结束点的Y坐标 |
+| index | UInt32 | PathData中的段索引 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
+| ArgumentOutOfRangeException | 段索引超出PathData范围 |
 
-### 另见
+### 另外参见
 
 * class [GeometryPath](../../geometrypath)
 * namespace [Aspose.Slides](../../geometrypath)

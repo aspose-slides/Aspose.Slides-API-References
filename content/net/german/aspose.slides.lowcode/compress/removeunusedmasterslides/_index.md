@@ -1,7 +1,7 @@
 ---
 title: RemoveUnusedMasterSlides
 second_title: Aspose.Slides für .NET API-Referenz
-description: Komprimiert die Präsentation durch Entfernen nicht verwendeter Masterfolien.
+description: Komprimiert die Präsentation aspose.slides/presentation, indem ungenutzte Masterfolien entfernt werden.
 type: docs
 weight: 30
 url: /de/aspose.slides.lowcode/compress/removeunusedmasterslides/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.lowcode/compress/removeunusedmasterslides/
 
 ## Compress.RemoveUnusedMasterSlides-Methode
 
-Komprimiert die [`Presentation`](../../../aspose.slides/presentation) durch Entfernen nicht verwendeter Masterfolien.
+Komprimiert die [`Presentation`](../../../aspose.slides/presentation), indem ungenutzte Masterfolien entfernt werden.
 
 ```csharp
 public static void RemoveUnusedMasterSlides(Presentation pres)
@@ -17,7 +17,7 @@ public static void RemoveUnusedMasterSlides(Presentation pres)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| pres | Presentation | Die Instanz der Präsentation |
+| pres | Presentation | Die Präsentationsinstanz |
 
 ### Beispiele
 

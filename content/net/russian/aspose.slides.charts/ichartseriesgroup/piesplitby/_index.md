@@ -1,7 +1,7 @@
 ---
 title: PieSplitBy
-second_title: Aspose.Slides для .NET API Reference
-description: Указывает, как определить, какие точки данных находятся во втором пироге или баре на диаграмме пирога из пирога или баре из пирога. Чтение/запись PieSplitTypeaspose.slides.charts/piesplittype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, как определить, какие точки данных находятся во втором секторе или столбце на диаграмме секторов-сектора или столбцов-сектора. Чтение/запись PieSplitTypeaspose.slides.charts/piesplittype.
 type: docs
 weight: 130
 url: /ru/aspose.slides.charts/ichartseriesgroup/piesplitby/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/ichartseriesgroup/piesplitby/
 
 ## IChartSeriesGroup.PieSplitBy свойство
 
-Указывает, как определить, какие точки данных находятся во втором пироге или баре на диаграмме пирога из пирога или баре из пирога. Чтение/запись [`PieSplitType`](../../piesplittype).
+Указывает, как определить, какие точки данных находятся во втором секторе или столбце на диаграмме сектор-сектора или столбец-сектора. Чтение/запись [`PieSplitType`](../../piesplittype).
 
 ```csharp
 public PieSplitType PieSplitBy { get; set; }
 ```
 
-### Смотрите Такжe
+### См. Также
 
 * enum [PieSplitType](../../piesplittype)
 * interface [IChartSeriesGroup](../../ichartseriesgroup)

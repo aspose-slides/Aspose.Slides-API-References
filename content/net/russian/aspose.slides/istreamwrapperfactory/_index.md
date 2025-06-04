@@ -1,6 +1,6 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Фабрика StreamWrappers. Для COM интерфейса.
 type: docs
 weight: 6920
@@ -24,7 +24,7 @@ public interface IStreamWrapperFactory
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Создает обертку MemoryStream. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Создает обертку MemoryStream на основе указанного массива байтов. |
 
-### См. Также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

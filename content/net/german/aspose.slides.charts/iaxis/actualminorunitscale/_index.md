@@ -1,7 +1,7 @@
 ---
 title: ActualMinorUnitScale
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die tatsächliche Skalierung der kleineren Einheit der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
+description: Gibt die tatsächliche Maßstabseinheit der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den aktuellen Wert zu erhalten.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/iaxis/actualminorunitscale/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/actualminorunitscale/
 
 ## IAxis.ActualMinorUnitScale-Eigenschaft
 
-Gibt die tatsächliche Skalierung der kleineren Einheit der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout() auf, um den tatsächlichen Wert zu erhalten.
+Gibt die tatsächliche Maßstabseinheit der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout() auf, um den aktuellen Wert zu erhalten.
 
 ```csharp
 public TimeUnitType ActualMinorUnitScale { get; }

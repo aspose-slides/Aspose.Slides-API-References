@@ -1,6 +1,6 @@
 ---
 title: FirstRowIndex
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает индекс первой строки, охваченной ячейкой. Только для чтения Int32.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/cell/firstrowindex/
 public int FirstRowIndex { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)

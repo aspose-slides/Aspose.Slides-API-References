@@ -1,7 +1,7 @@
 ---
 title: IFillOverlay
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示填充覆盖效果。填充覆盖可以用于指明对象的额外填充，并将两种填充混合在一起。
+description: 表示填充叠加效果。填充叠加可用于为对象指定额外的填充并将两种填充混合在一起。
 type: docs
 weight: 3180
 url: /zh/aspose.slides.effects/ifilloverlay/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ifilloverlay/
 
 ## IFillOverlay 接口
 
-表示填充覆盖效果。填充覆盖可以用于指明对象的额外填充，并将两种填充混合在一起。
+表示填充叠加效果。填充叠加可用于为对象指定额外的填充并将两种填充混合在一起。
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -20,12 +20,12 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 允许获取基础的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 允许获取基础的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。读写 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。读/写 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
 | [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | 填充格式。只读 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

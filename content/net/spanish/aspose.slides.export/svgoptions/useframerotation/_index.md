@@ -1,13 +1,13 @@
 ---
 title: UseFrameRotation
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Determina si se debe realizar la rotación especificada de la forma al renderizar o no. Booleano de lectura/escritura. El valor predeterminado es verdadero.
 type: docs
 weight: 160
 url: /es/aspose.slides.export/svgoptions/useframerotation/
 ---
 
-## Propiedad SVGOptions.UseFrameRotation
+## SVGOptions.UseFrameRotation propiedad
 
 Determina si se debe realizar la rotación especificada de la forma al renderizar o no. Booleano de lectura/escritura. El valor predeterminado es verdadero.
 
@@ -18,7 +18,7 @@ public bool UseFrameRotation { get; set; }
 ### Ver También
 
 * clase [SVGOptions](../../svgoptions)
-* espacio de nombres [Aspose.Slides.Export](../../svgoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Export](../../svgoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

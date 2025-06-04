@@ -1,15 +1,15 @@
 ---
 title: RepeatUntilEndSlide
-second_title: Aspose.Slides для .NET API Справочник
-description: Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Читаемое/записываемое логическое значение.
+second_title: Aspose.Sildes для .NET API Reference
+description: Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Читаемый/записываемый логический тип.
 type: docs
 weight: 70
 url: /ru/aspose.slides.animation/itiming/repeatuntilendslide/
 ---
 
-## ITiming.RepeatUntilEndSlide свойство
+## ITiming.RepeatUntilEndSlide property
 
-Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Читаемое/записываемое логическое значение.
+Этот атрибут указывает, будет ли эффект повторяться до конца слайда. Читаемый/записываемый логический тип.
 
 ```csharp
 public bool RepeatUntilEndSlide { get; set; }
@@ -24,15 +24,15 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Получить последовательность эффектов для первого слайда
     ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 
-    // Получить первый эффект основной последовательности.
+    // Получить первый эффект главной последовательности.
     IEffect effect = effectsSequence[0];
 
-    // Изменить тайминг эффекта/повтор на "До конца слайда"
+    // Изменить время эффекта/повтор на "До конца слайда"
     effect.Timing.RepeatUntilEndSlide = true;
 }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [ITiming](../../itiming)
 * пространство имен [Aspose.Slides.Animation](../../itiming)

@@ -1,21 +1,21 @@
 ---
 title: Position
-second_title: Aspose.Slides for .NET API 参考
-description: 指定图表中图例的位置。X、Y、宽度、高度属性的非 NaN 值会覆盖该属性的效果。读/写 LegendPositionTypeaspose.slides/legendpositiontype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定图表上图例的位置。X、Y、宽度、高度属性的非NaN值会覆盖此属性的效果。读写 LegendPositionTypeaspose.slides/legendpositiontype。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/legend/position/
 ---
 
-## Legend.Position 属性
+## Legend.Position property
 
-指定图表中图例的位置。X、Y、宽度、高度属性的非 NaN 值会覆盖该属性的效果。读/写 [`LegendPositionType`](../../legendpositiontype)。
+指定图表上图例的位置。X、Y、宽度、高度属性的非NaN值会覆盖此属性的效果。读写 [`LegendPositionType`](../../legendpositiontype)。
 
 ```csharp
 public LegendPositionType Position { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * enum [LegendPositionType](../../legendpositiontype)
 * class [Legend](../../legend)

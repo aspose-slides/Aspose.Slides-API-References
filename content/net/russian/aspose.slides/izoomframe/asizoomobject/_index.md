@@ -1,13 +1,13 @@
 ---
 title: AsIZoomObject
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает интерфейс IZoomObject.
 type: docs
 weight: 10
 url: /ru/aspose.slides/izoomframe/asizoomobject/
 ---
 
-## Свойство IZoomFrame.AsIZoomObject
+## IZoomFrame.AsIZoomObject свойство
 
 Возвращает интерфейс IZoomObject.
 

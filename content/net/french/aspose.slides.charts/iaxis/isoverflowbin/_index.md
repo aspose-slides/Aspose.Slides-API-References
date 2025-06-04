@@ -1,15 +1,15 @@
 ---
 title: IsOverflowBin
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si le compartiment de débordement est appliqué. Utilisez IsAutomaticOverflowBin et OverflowBin pour ajuster la valeur du compartiment de débordement.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie si le conteneur de dépassement est appliqué. Utilisez IsAutomaticOverflowBin et OverflowBin pour ajuster la valeur du conteneur de dépassement.
 type: docs
 weight: 280
 url: /fr/aspose.slides.charts/iaxis/isoverflowbin/
 ---
 
-## Propriété IAxis.IsOverflowBin
+## IAxis.IsOverflowBin propriété
 
-Spécifie si le compartiment de débordement est appliqué. Utilisez IsAutomaticOverflowBin et OverflowBin pour ajuster la valeur du compartiment de débordement.
+Spécifie si le conteneur de dépassement est appliqué. Utilisez IsAutomaticOverflowBin et OverflowBin pour ajuster la valeur du conteneur de dépassement.
 
 ```csharp
 public bool IsOverflowBin { get; set; }

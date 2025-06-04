@@ -7,7 +7,7 @@ weight: 30
 url: /de/aspose.slides/gradientstopeffectivedata/equals/
 ---
 
-## GradientStopEffectiveData.Equals Methode
+## GradientStopEffectiveData.Equals-Methode
 
 Bestimmt, ob die angegebene [`GradientStopEffectiveData`](../../gradientstopeffectivedata) gleich der aktuellen [`GradientStopEffectiveData`](../../gradientstopeffectivedata) ist.
 

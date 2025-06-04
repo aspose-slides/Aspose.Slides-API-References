@@ -1,6 +1,6 @@
 ---
 title: PptxException
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un tipo de excepción interna estándar.
 type: docs
 weight: 9290
@@ -23,10 +23,10 @@ public class PptxException : OOXMLException
 | [PptxException](pptxexception#constructor_1)(string) | Constructor que permite agregar un mensaje a esta excepción. |
 | [PptxException](pptxexception#constructor_2)(string, Exception) | Constructor para una excepción que contiene un mensaje y una excepción incrustada. |
 
-### Ver También
+### Véase También
 
 * clase [OOXMLException](../ooxmlexception)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

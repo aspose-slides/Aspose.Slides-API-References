@@ -7,7 +7,7 @@ weight: 60
 url: /ru/aspose.slides/itextframeformateffectivedata/marginbottom/
 ---
 
-## Свойство ITextFrameFormatEffectiveData.MarginBottom
+## ITextFrameFormatEffectiveData.MarginBottom свойство
 
 Возвращает нижний отступ (точки) в TextFrame. Только для чтения Double.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/itextframeformateffectivedata/marginbottom/
 public double MarginBottom { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * пространство имен [Aspose.Slides](../../itextframeformateffectivedata)

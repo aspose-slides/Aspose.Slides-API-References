@@ -1,6 +1,6 @@
 ---
 title: SVGOptions
-second_title: Aspose.Sildes pour .NET Référence de l'API
+second_title: Référence API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de la classe SVGOptions.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Initialise une nouvelle instance de la classe SVGOptions.
 public SVGOptions()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SVGOptions](../../svgoptions)
 * espace de noms [Aspose.Slides.Export](../../svgoptions)
@@ -25,7 +25,7 @@ public SVGOptions()
 
 ## SVGOptions(ILinkEmbedController) {#constructor_1}
 
-Initialise une nouvelle instance de la classe SVGOptions en spécifiant l'objet contrôleur d'insertion de lien.
+Initialise une nouvelle instance de la classe SVGOptions en spécifiant l’objet de contrôle d’intégration de lien.
 
 ```csharp
 public SVGOptions(ILinkEmbedController linkEmbedController)
@@ -33,13 +33,13 @@ public SVGOptions(ILinkEmbedController linkEmbedController)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | La référence du contrôleur d'insertion de lien. |
+| linkEmbedController | ILinkEmbedController | La référence du contrôleur d’intégration de lien. |
 
 ### Remarques
 
-Le contrôleur d'insertion de lien est un objet délégué qui est responsable de prendre des décisions sur la nécessité d'incorporer ou de référencer des ressources (telles que des images) en tant que ressources externes.
+Le contrôleur d’intégration de lien est un objet délégué qui est responsable de prendre des décisions sur l'opportunité d'intégrer des ressources (comme des images) ou de les référencer comme ressources externes.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILinkEmbedController](../../ilinkembedcontroller)
 * classe [SVGOptions](../../svgoptions)

@@ -15,11 +15,11 @@ Devuelve un objeto que permite cambiar el formato del suelo de un gráfico 3D. S
 public IChartWall Floor { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IChartWall](../../ichartwall)
 * interfaz [IChart](../../ichart)
 * espacio de nombres [Aspose.Slides.Charts](../../ichart)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

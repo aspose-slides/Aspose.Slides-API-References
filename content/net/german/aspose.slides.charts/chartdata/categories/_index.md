@@ -1,7 +1,7 @@
 ---
 title: Categories
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die primären Kategorien oder sowohl primäre als auch sekundäre Kategorien zurück, wenn die Eigenschaft UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories falsch ist. Schreibgeschütztes IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die primären Kategorien oder sowohl primäre als auch sekundäre Kategorien zurück, wenn die Eigenschaft UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories falsch ist. Nur-Lese IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartdata/categories/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdata/categories/
 
 ## ChartData.Categories-Eigenschaft
 
-Gibt die primären Kategorien (oder sowohl primäre als auch sekundäre Kategorien zurück, wenn die [`UseSecondaryCategories`](../usesecondarycategories)-Eigenschaft falsch ist). Schreibgeschütztes [`IChartCategoryCollection`](../../ichartcategorycollection).
+Gibt die primären Kategorien (oder sowohl primäre als auch sekundäre Kategorien zurück, wenn die [`UseSecondaryCategories`](../usesecondarycategories) Eigenschaft falsch ist). Nur-Lese [`IChartCategoryCollection`](../../ichartcategorycollection).
 
 ```csharp
 public IChartCategoryCollection Categories { get; }
@@ -17,7 +17,7 @@ public IChartCategoryCollection Categories { get; }
 
 ### Bemerkungen
 
-Wenn die [`UseSecondaryCategories`](../usesecondarycategories)-Eigenschaft falsch ist, gibt die [`SecondaryCategories`](../secondarycategories)-Eigenschaft null zurück und die Daten in dieser `Categories`-Eigenschaft werden sowohl für primäre als auch für sekundäre Serien verwendet. Wenn die [`UseSecondaryCategories`](../usesecondarycategories)-Eigenschaft wahr ist, werden die Daten in der [`SecondaryCategories`](../secondarycategories)-Eigenschaft für sekundäre Serien verwendet und die Daten in dieser `Categories`-Eigenschaft werden für primäre Serien verwendet.
+Wenn die [`UseSecondaryCategories`](../usesecondarycategories) Eigenschaft falsch ist, gibt die [`SecondaryCategories`](../secondarycategories) Eigenschaft null zurück und die Daten in dieser `Categories` Eigenschaft werden sowohl für primäre als auch für sekundäre Serien verwendet. Wenn die [`UseSecondaryCategories`](../usesecondarycategories) Eigenschaft wahr ist, werden die Daten in der [`SecondaryCategories`](../secondarycategories) Eigenschaft für sekundäre Serien verwendet und die Daten in dieser `Categories` Eigenschaft werden für primäre Serien verwendet.
 
 ### Beispiele
 

@@ -1,13 +1,13 @@
 ---
 title: Color
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Formato de color. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/iglow/color/
 ---
 
-## Propiedad IGlow.Color
+## IGlow.Color property
 
 Formato de color. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -20,6 +20,6 @@ public IColorFormat Color { get; }
 * interfaz [IColorFormat](../../../aspose.slides/icolorformat)
 * interfaz [IGlow](../../iglow)
 * espacio de nombres [Aspose.Slides.Effects](../../iglow)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

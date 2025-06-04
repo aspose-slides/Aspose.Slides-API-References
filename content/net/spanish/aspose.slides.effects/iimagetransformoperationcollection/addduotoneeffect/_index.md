@@ -1,7 +1,7 @@
 ---
 title: AddDuotoneEffect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Agrega el nuevo efecto Duotone al final de una colección.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Agrega el nuevo efecto Duotono al final de una colección.
 type: docs
 weight: 140
 url: /es/aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffe
 
 ## IImageTransformOperationCollection.AddDuotoneEffect método
 
-Agrega el nuevo efecto Duotone al final de una colección.
+Agrega el nuevo efecto Duotono al final de una colección.
 
 ```csharp
 public IDuotone AddDuotoneEffect()
@@ -24,6 +24,6 @@ public IDuotone AddDuotoneEffect()
 * interfaz [IDuotone](../../iduotone)
 * interfaz [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * espacio de nombres [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

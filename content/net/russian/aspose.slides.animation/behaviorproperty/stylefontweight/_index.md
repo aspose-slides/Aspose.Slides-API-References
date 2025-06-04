@@ -1,13 +1,13 @@
 ---
 title: StyleFontWeight
-second_title: Aspose.Slides для .NET API Справочник
-description: представляет свойство style.fontWeight
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойство style.fontWeight
 type: docs
 weight: 1090
 url: /ru/aspose.slides.animation/behaviorproperty/stylefontweight/
 ---
 
-## Свойство BehaviorProperty.StyleFontWeight
+## BehaviorProperty.StyleFontWeight свойство
 
 Представляет свойство 'style.fontWeight'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/stylefontweight/
 public static BehaviorProperty StyleFontWeight { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

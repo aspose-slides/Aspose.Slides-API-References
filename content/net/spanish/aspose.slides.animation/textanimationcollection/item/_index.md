@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve el elemento por índice.
 type: docs
 weight: 40
@@ -15,12 +15,12 @@ Devuelve el elemento por índice.
 public ITextAnimation this[int index] { get; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [ITextAnimation](../../itextanimation)
-* clase [TextAnimationCollection](../../textanimationcollection)
-* espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ITextAnimation](../../itextanimation)
+* clase [TextAnimationCollection](../../textanimationcollection)
+* espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
@@ -36,12 +36,12 @@ public ITextAnimation[] this[IShape shape] { get; }
 | --- | --- |
 | shape |  |
 
-### Ver También
+### Ver también
 
-* interfaz [ITextAnimation](../../itextanimation)
-* interfaz [IShape](../../../aspose.slides/ishape)
-* clase [TextAnimationCollection](../../textanimationcollection)
-* espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ITextAnimation](../../itextanimation)
+* interfaz [IShape](../../../aspose.slides/ishape)
+* clase [TextAnimationCollection](../../textanimationcollection)
+* espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

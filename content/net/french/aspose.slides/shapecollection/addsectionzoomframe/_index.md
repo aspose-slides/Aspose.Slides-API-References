@@ -1,6 +1,6 @@
 ---
 title: AddSectionZoomFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute un nouvel objet Section Zoom à la fin d'une collection.
 type: docs
 weight: 170
@@ -36,7 +36,7 @@ Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exemples
 
-Cet exemple montre comment ajouter un objet Section Zoom à la fin d'une collection (supposer qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre l'ajout d'un objet Section Zoom à la fin d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -86,7 +86,7 @@ Objet Section Zoom créé [`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Exemples
 
-Cet exemple montre comment ajouter un objet Section Zoom à la fin d'une collection (supposer qu'il y a au moins deux sections dans la présentation "Presentation.pptx"):
+Cet exemple démontre l'ajout d'un objet Section Zoom à la fin d'une collection (supposons qu'il y ait au moins deux sections dans la présentation "Presentation.pptx"):
 
 ```csharp
 [C#]

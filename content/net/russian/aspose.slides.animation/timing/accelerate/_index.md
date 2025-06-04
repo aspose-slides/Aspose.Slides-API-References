@@ -1,7 +1,7 @@
 ---
 title: Accelerate
-second_title: Справочник API Aspose.Slides для .NET
-description: Описывает процент эффекта ускорения поведения продолжительности. Читаемое/записываемое значение типа Single.
+second_title: Aspose.Sildes для справки по API .NET
+description: Описывает процент эффекта поведения ускорения длительности. Чтение/запись Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/timing/accelerate/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/timing/accelerate/
 
 ## Свойство Timing.Accelerate
 
-Описывает процент эффекта ускорения поведения продолжительности. Читаемое/записываемое значение типа Single.
+Описывает процент эффекта поведения ускорения длительности. Чтение/запись Single.
 
 ```csharp
 public float Accelerate { get; set; }

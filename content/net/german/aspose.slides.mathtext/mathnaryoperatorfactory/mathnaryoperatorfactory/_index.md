@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.mathtext/mathnaryoperatorfactory/mathnaryoperatorfactory/
 ---
 
-## MathNaryOperatorFactory-Konstruktor
+## MathNaryOperatorFactory Konstruktor
 
 Der Standardkonstruktor.
 

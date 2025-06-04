@@ -1,7 +1,7 @@
 ---
 title: ShowBottomPane
-second_title: Aspose.Sildes for .NET API 参考
-description: 显示/隐藏底部面板。可以在 flashvars 中重写。默认值为 true。
+second_title: Aspose.Sildes for .NET API Reference
+description: 显示/隐藏底部面板。可以在 flashvars 中覆盖。默认值为 true。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/swfoptions/showbottompane/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/swfoptions/showbottompane/
 
 ## SwfOptions.ShowBottomPane 属性
 
-显示/隐藏底部面板。可以在 flashvars 中重写。默认值为 true。
+显示/隐藏底部面板。可以在 flashvars 中覆盖。默认值为 true。
 
 ```csharp
 public bool ShowBottomPane { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [SwfOptions](../../swfoptions)
 * namespace [Aspose.Slides.Export](../../swfoptions)

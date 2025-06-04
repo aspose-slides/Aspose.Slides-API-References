@@ -1,21 +1,21 @@
 ---
 title: FillType
-second_title: Справка по API Aspose.Sildes для .NET
-description: Возвращает тип наполнения. Только для чтения FillTypeaspose.slides/filltype.
+second_title: Aspose.Slides для справочника API .NET
+description: Возвращает тип заливки. Свойство только для чтения FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ifillformateffectivedata/filltype/
 ---
 
-## Свойство IFillFormatEffectiveData.FillType
+## IFillFormatEffectiveData.FillType свойство
 
-Возвращает тип наполнения. Только для чтения [`FillType`](../../filltype).
+Возвращает тип заливки. Свойство только для чтения [`FillType`](../../filltype).
 
 ```csharp
 public FillType FillType { get; }
 ```
 
-### Также посмотрите
+### Смотрите также
 
 * enum [FillType](../../filltype)
 * interface [IFillFormatEffectiveData](../../ifillformateffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Slides для .NET API Ссылка
-description: Представляет опции, которые можно использовать для указания дополнительного поведения электронных таблиц.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет параметры, которые могут быть использованы для спецификации дополнительного поведения электронных таблиц.
 type: docs
 weight: 130
 url: /ru/aspose.slides/iloadoptions/spreadsheetoptions/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/iloadoptions/spreadsheetoptions/
 
 ## ILoadOptions.SpreadsheetOptions свойство
 
-Представляет опции, которые можно использовать для указания дополнительного поведения электронных таблиц.
+Представляет параметры, которые могут быть использованы для спецификации дополнительного поведения электронных таблиц.
 
 ```csharp
 public ISpreadsheetOptions SpreadsheetOptions { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ISpreadsheetOptions](../../ispreadsheetoptions)
 * интерфейс [ILoadOptions](../../iloadoptions)

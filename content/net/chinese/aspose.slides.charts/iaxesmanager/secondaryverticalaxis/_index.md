@@ -1,7 +1,7 @@
 ---
 title: SecondaryVerticalAxis
-second_title: Aspose.Slides for .NET API 参考
-description: 获取图表的次要垂直轴。只读 IAxisaspose.slides.charts/iaxis。
+second_title: Aspose.Slildes for .NET API Reference
+description: 获取图表的次级垂直轴。只读 IAxisaspose.slides.charts/iaxis。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
 
 ## IAxesManager.SecondaryVerticalAxis 属性
 
-获取图表的次要垂直轴。只读 [`IAxis`](../../iaxis)。
+获取图表的次级垂直轴。只读 [`IAxis`](../../iaxis)。
 
 ```csharp
 public IAxis SecondaryVerticalAxis { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IAxis](../../iaxis)
 * 接口 [IAxesManager](../../iaxesmanager)

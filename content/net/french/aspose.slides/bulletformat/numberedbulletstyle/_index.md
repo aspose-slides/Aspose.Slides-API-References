@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le style d'un point numéroté sans héritage. Lecture/écriture NumberedBulletStyleaspose.slides/numberedbulletstyle.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 80
 url: /fr/aspose.slides/bulletformat/numberedbulletstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/bulletformat/numberedbulletstyle/
 
 ## Propriété BulletFormat.NumberedBulletStyle
 
-Renvoie ou définit le style d'un point numéroté sans héritage. Lecture/écriture [`NumberedBulletStyle`](../../numberedbulletstyle).
+Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture [`NumberedBulletStyle`](../../numberedbulletstyle).
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; set; }

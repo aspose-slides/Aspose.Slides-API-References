@@ -1,15 +1,15 @@
 ---
 title: IMathematicalTextFactory
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht das Erstellen eines MathematicalText-Elements
+description: Ermöglicht die Erstellung eines MathematicalText-Elements
 type: docs
 weight: 8260
 url: /de/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 
-## IMathematicalTextFactory Schnittstelle
+## IMathematicalTextFactory-Schnittstelle
 
-Ermöglicht das Erstellen eines MathematicalText-Elements
+Ermöglicht die Erstellung eines MathematicalText-Elements
 
 ```csharp
 public interface IMathematicalTextFactory
@@ -24,7 +24,7 @@ public interface IMathematicalTextFactory
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Erstellt ein leeres mathematisches Textelement mit dem angegebenen Wert |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Erstellt ein leeres mathematisches Textelement mit dem angegebenen Wert und den Formatierungseigenschaften |
 
-### Hinweise
+### Anmerkungen
 
 Für COM-Kompatibilität
 

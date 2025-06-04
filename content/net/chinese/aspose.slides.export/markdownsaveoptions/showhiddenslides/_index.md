@@ -1,6 +1,6 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定生成的文档是否应包含隐藏幻灯片。默认值为 false。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/markdownsaveoptions/showhiddenslides/
 public bool ShowHiddenSlides { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [MarkdownSaveOptions](../../markdownsaveoptions)
 * namespace [Aspose.Slides.Export](../../markdownsaveoptions)

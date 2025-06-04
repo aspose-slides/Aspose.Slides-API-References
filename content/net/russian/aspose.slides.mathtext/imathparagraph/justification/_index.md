@@ -1,13 +1,13 @@
 ---
 title: Justification
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Выравнивание абзаца Значение по умолчанию CenteredAsGroup
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/imathparagraph/justification/
 ---
 
-## Свойство IMathParagraph.Justification
+## IMathParagraph.Justification property
 
 Выравнивание абзаца Значение по умолчанию: CenteredAsGroup
 
@@ -26,7 +26,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### См. также
+### Смотрите также
 
 * enum [MathJustification](../../mathjustification)
 * interface [IMathParagraph](../../imathparagraph)

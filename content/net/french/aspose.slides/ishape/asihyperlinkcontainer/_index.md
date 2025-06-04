@@ -1,13 +1,13 @@
 ---
 title: AsIHyperlinkContainer
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet d'obtenir l'interface de base IHyperlinkContainer. IHyperlinkContainer en lecture seule aspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ishape/asihyperlinkcontainer/
 ---
 
-## Propriété IShape.AsIHyperlinkContainer
+## IShape.AsIHyperlinkContainer propriété
 
 Permet d'obtenir l'interface de base IHyperlinkContainer. [`IHyperlinkContainer`](../../ihyperlinkcontainer) en lecture seule.
 

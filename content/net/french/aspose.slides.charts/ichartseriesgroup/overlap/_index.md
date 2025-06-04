@@ -1,15 +1,15 @@
 ---
 title: Overlap
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie combien de barres et de colonnes doivent se chevaucher sur des graphiques 2-D en pourcentage de -100 à 100. - -100 Maximum espacement, les barres sont complètement séparées. - 0 Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 Maximum chevauchement, les barres se chevauchent complètement. Cette propriété est lisible/écrivable SByte.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Spécifie combien de barres et de colonnes doivent se chevaucher sur des graphiques en 2D en pourcentage de -100 à 100. - -100 Espacement maximum, les barres sont complètement séparées. - 0 Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 Chevauchement maximum, les barres se chevauchent complètement. Cette propriété est en lecture/écriture SByte.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/ichartseriesgroup/overlap/
 ---
 
-## Propriété IChartSeriesGroup.Overlap
+## IChartSeriesGroup.Overlap property
 
-Spécifie combien de barres et de colonnes doivent se chevaucher sur des graphiques 2-D, en pourcentage (de -100 % à 100 %). - -100 % : Maximum espacement (les barres sont complètement séparées). - 0 % : Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 % : Maximum chevauchement (les barres se chevauchent complètement). Cette propriété est lisible/écrivable SByte.
+Spécifie combien de barres et de colonnes doivent se chevaucher sur des graphiques en 2D, en pourcentage (de -100 % à 100 %). - -100 % : Espacement maximum (les barres sont complètement séparées). - 0 % : Les barres sont placées côte à côte sans chevauchement ni espacement. - 100 % : Chevauchement maximum (les barres se chevauchent complètement). Cette propriété est en lecture/écriture SByte.
 
 ```csharp
 public sbyte Overlap { get; set; }
@@ -21,9 +21,9 @@ public sbyte Overlap { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Lancé lorsque la valeur est définie en dehors de la plage valide de -100 à 100. |
 
-### Exemples
+### Examples
 
-L'exemple suivant montre comment définir le chevauchement pour un groupe de séries de graphiques et rendre le graphique résultant sur un formulaire :
+L'exemple suivant montre comment définir le chevauchement pour un groupe de séries de graphiques et afficher le graphique résultant sur un formulaire :
 
 ```csharp
 using (Presentation pres = new Presentation())
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### See Also
 
 * interface [IChartSeriesGroup](../../ichartseriesgroup)
 * namespace [Aspose.Slides.Charts](../../ichartseriesgroup)

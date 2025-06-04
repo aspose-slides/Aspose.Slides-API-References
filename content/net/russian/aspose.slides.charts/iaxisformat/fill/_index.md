@@ -1,13 +1,13 @@
 ---
 title: Fill
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает свойства стиля заливки оси. Только для чтения IFillFormat aspose.slides/ifillformat.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Возвращает свойства стиля заливки оси. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/iaxisformat/fill/
 ---
 
-## Свойство IAxisFormat.Fill
+## IAxisFormat.Fill свойство
 
 Возвращает свойства стиля заливки оси. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/iaxisformat/fill/
 public IFillFormat Fill { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IFillFormat](../../../aspose.slides/ifillformat)
 * интерфейс [IAxisFormat](../../iaxisformat)

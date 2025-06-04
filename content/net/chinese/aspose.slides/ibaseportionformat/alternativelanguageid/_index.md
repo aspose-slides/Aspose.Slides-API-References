@@ -1,6 +1,6 @@
 ---
 title: AlternativeLanguageId
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置替代语言的 Id。可读写字符串。
 type: docs
 weight: 10

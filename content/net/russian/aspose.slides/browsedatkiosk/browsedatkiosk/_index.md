@@ -1,6 +1,6 @@
 ---
 title: BrowsedAtKiosk
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Инициализирует новый экземпляр класса BrowsedAtKiosk.
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Кроме того
+### См. также
 
 * класс [BrowsedAtKiosk](../../browsedatkiosk)
 * пространство имен [Aspose.Slides](../../browsedatkiosk)

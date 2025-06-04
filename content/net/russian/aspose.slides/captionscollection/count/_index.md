@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Возвращает количество элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/captionscollection/count/
 public int Count { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [CaptionsCollection](../../captionscollection)
 * пространство имен [Aspose.Slides](../../captionscollection)

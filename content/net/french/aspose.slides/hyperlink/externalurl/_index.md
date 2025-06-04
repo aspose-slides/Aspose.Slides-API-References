@@ -1,6 +1,6 @@
 ---
 title: ExternalUrl
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie l'URL externe. Chaîne en lecture seule.
 type: docs
 weight: 120

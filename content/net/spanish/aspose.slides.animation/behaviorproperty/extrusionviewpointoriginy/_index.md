@@ -1,6 +1,6 @@
 ---
 title: ExtrusionViewPointOriginY
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa la propiedad extrusion.viewpointorigin.y
 type: docs
 weight: 230
@@ -15,7 +15,7 @@ Representa la propiedad 'extrusion.viewpointorigin.y'
 public static BehaviorProperty ExtrusionViewPointOriginY { get; }
 ```
 
-### Ver también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

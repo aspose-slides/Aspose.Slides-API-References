@@ -1,6 +1,6 @@
 ---
 title: InkOptions
-second_title: Aspose.Slidеs для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Предоставляет параметры, которые контролируют внешний вид объектов Ink в экспортированном документе. Только для чтения IInkOptionsaspose.slides.export/iinkoptions
 type: docs
 weight: 70

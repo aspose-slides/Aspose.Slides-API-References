@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Formatzeichenfolge für die Achsenbeschriftungen dar. Lese-/schreibbarer String.
+description: Stellt den Format-String für die Achsenbeschriftungen dar. Lese-/schreibbare Zeichenfolge.
 type: docs
 weight: 440
 url: /de/aspose.slides.charts/axis/numberformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/numberformat/
 
 ## Axis.NumberFormat-Eigenschaft
 
-Stellt die Formatzeichenfolge für die Achsenbeschriftungen dar. Lese-/schreibbarer String.
+Stellt den Format-String für die Achsenbeschriftungen dar. Lese-/schreibbare Zeichenfolge.
 
 ```csharp
 public string NumberFormat { get; set; }

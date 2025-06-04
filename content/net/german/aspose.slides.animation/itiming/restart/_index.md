@@ -1,7 +1,7 @@
 ---
 title: Restart
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob ein Effekt nach Abschluss neu gestartet werden soll. Änderbar/schreibbar EffectRestartTypeaspose.slides.animation/effectrestarttype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob ein Effekt nach Abschluss neu gestartet werden soll. Lese-/Schreibzugriff auf EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs
 weight: 90
 url: /de/aspose.slides.animation/itiming/restart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/itiming/restart/
 
 ## ITiming.Restart-Eigenschaft
 
-Gibt an, ob ein Effekt nach Abschluss neu gestartet werden soll. Änderbar/schreibbar [`EffectRestartType`](../../effectrestarttype).
+Gibt an, ob ein Effekt nach Abschluss neu gestartet werden soll. Lese-/Schreibzugriff auf [`EffectRestartType`](../../effectrestarttype).
 
 ```csharp
 public EffectRestartType Restart { get; set; }

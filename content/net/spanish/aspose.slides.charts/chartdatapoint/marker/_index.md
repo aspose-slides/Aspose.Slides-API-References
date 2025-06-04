@@ -1,6 +1,6 @@
 ---
 title: Marker
-second_title: Aspose.Slides para referencia de API .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Especifica un marcador de datos. Solo lectura IMarkeraspose.slides.charts/imarker.
 type: docs
 weight: 150
@@ -15,11 +15,11 @@ Especifica un marcador de datos. Solo lectura [`IMarker`](../../imarker).
 public IMarker Marker { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interface [IMarker](../../imarker)
-* class [ChartDataPoint](../../chartdatapoint)
-* namespace [Aspose.Slides.Charts](../../chartdatapoint)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IMarker](../../imarker)
+* clase [ChartDataPoint](../../chartdatapoint)
+* espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

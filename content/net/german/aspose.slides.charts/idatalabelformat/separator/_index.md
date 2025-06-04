@@ -1,7 +1,7 @@
 ---
 title: Separator
-second_title: Aspose.Slides für .NET API-Referenz
-description: Legt einen Variant-Wert fest oder gibt ihn zurück, der den Separator für die Datenbeschriftungen auf einem Diagramm darstellt. Lese-/Schreibzeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt oder gibt ein Variant zurück, das den Separator darstellt, der für die Datenbeschriftungen auf einem Diagramm verwendet wird. Lese-/Schreib-String.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/idatalabelformat/separator/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/idatalabelformat/separator/
 
 ## IDataLabelFormat.Separator-Eigenschaft
 
-Legt einen Variant-Wert fest oder gibt ihn zurück, der den Separator für die Datenbeschriftungen auf einem Diagramm darstellt. Lese-/Schreibzeichenfolge.
+Setzt oder gibt ein Variant zurück, das den Separator darstellt, der für die Datenbeschriftungen auf einem Diagramm verwendet wird. Lese-/Schreib-String.
 
 ```csharp
 public string Separator { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, dann erhält oder setzt diese Eigenschaft den Standardwert der Separator-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung. Das Setzen dieser Eigenschaft mit einem Wert legt auch diesen Wert für die Separator-Eigenschaft aller Datenbeschriftungen in der DataLabelCollection-Sammlung fest (d.h. "DataLabels.DefaultDataLabelFormat.Separator = val;" bewirkt, dass alle DataLabels[i].Separator gleich val ist).
+Wenn der übergeordnete DataLabelFormat-Objekt eine DataLabelCollection-Sammlung von Datenbeschriftungen ist, wird mit dieser Eigenschaft der Standardwert der Separator-Eigenschaft für die neuen Datenbeschriftungen in der DataLabelCollection-Sammlung festgelegt oder abgerufen. Das Setzen dieser Eigenschaft mit einem Wert setzt auch diesen Wert für die Separator-Eigenschaft für alle Datenbeschriftungen in der DataLabelCollection-Sammlung (d.h. "DataLabels.DefaultDataLabelFormat.Separator = val;" bewirkt, dass alle DataLabels[i].Separator gleich val ist).
 
 ### Siehe auch
 

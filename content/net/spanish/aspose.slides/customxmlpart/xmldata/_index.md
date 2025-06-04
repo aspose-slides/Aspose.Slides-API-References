@@ -15,10 +15,10 @@ Devuelve o establece datos xml. Lectura/escritura Byte[]. el valor es `null`.el 
 public byte[] XmlData { get; set; }
 ```
 
-### Véase también
+### Ver también
 
-* class [CustomXmlPart](../../customxmlpart)
-* namespace [Aspose.Slides](../../customxmlpart)
-* assembly [Aspose.Slides](../../../)
+* clase [CustomXmlPart](../../customxmlpart)
+* espacio de nombres [Aspose.Slides](../../customxmlpart)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

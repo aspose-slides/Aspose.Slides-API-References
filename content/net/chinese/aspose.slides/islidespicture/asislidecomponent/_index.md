@@ -1,6 +1,6 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许获取基本的 ISlideComponent 接口。只读 ISlideComponentaspose.slides/islidecomponent。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/islidespicture/asislidecomponent/
 public ISlideComponent AsISlideComponent { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ISlideComponent](../../islidecomponent)
 * 接口 [ISlidesPicture](../../islidespicture)

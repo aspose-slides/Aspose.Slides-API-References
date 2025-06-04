@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para la referencia de API de .NET
 description: Devuelve una raíz de sincronización. Objeto de solo lectura.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * espacio de nombres [Aspose.Slides](../../fontfallbackrulescollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

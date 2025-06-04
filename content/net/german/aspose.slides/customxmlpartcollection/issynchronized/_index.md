@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur-Lese-Boolescher Wert.
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert threadsicher ist. Nur-Lese-Boolescher Wert.
 type: docs
 weight: 20
 url: /de/aspose.slides/customxmlpartcollection/issynchronized/
 ---
 
-## CustomXmlPartCollection.IsSynchronized-Property
+## CustomXmlPartCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese-Boolescher Wert.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur-Lese-Boolescher Wert.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CustomXmlPartCollection](../../customxmlpartcollection)
 * Namespace [Aspose.Slides](../../customxmlpartcollection)

@@ -1,15 +1,15 @@
 ---
 title: MarginTop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает верхний отступ в TextFrame. Читаемое/записываемое Double.
+second_title: Aspose.Sildes для справки по API .NET
+description: Возвращает или задает верхний отступ в TextFrame. Читаемый/записываемый Double.
 type: docs
 weight: 130
 url: /ru/aspose.slides/cell/margintop/
 ---
 
-## Свойство Cell.MarginTop
+## Cell.MarginTop свойство
 
-Возвращает или устанавливает верхний отступ в TextFrame. Читаемое/записываемое Double.
+Возвращает или задает верхний отступ в TextFrame. Читаемый/записываемый Double.
 
 ```csharp
 public double MarginTop { get; set; }

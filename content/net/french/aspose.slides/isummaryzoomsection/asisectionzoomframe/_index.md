@@ -1,15 +1,15 @@
 ---
 title: AsISectionZoomFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'interface ISectionZoomFrame.
+second_title: Aspose.Slides pour .NET API Reference
+description: Retourne l'interface ISectionZoomFrame.
 type: docs
 weight: 10
 url: /fr/aspose.slides/isummaryzoomsection/asisectionzoomframe/
 ---
 
-## Propriété ISummaryZoomSection.AsISectionZoomFrame
+## ISummaryZoomSection.AsISectionZoomFrame propriété
 
-Renvoie l'interface ISectionZoomFrame.
+Retourne l'interface ISectionZoomFrame.
 
 ```csharp
 public ISectionZoomFrame AsISectionZoomFrame { get; }

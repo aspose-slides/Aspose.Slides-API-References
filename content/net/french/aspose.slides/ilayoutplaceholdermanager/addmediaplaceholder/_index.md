@@ -1,7 +1,7 @@
 ---
 title: AddMediaPlaceholder
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de zone de texte à la diapositive de mise en page pour contenir un objet multimédia.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Ajoute une nouvelle forme de zone réservée à la diapositive de mise en page pour contenir un objet multimédia.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder/
 
 ## ILayoutPlaceholderManager.AddMediaPlaceholder méthode
 
-Ajoute une nouvelle forme de zone de texte à la diapositive de mise en page pour contenir un objet multimédia.
+Ajoute une nouvelle forme de zone réservée à la diapositive de mise en page pour contenir un objet multimédia.
 
 ```csharp
 public IAutoShape AddMediaPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddMediaPlaceholder(float x, float y, float width, float heigh
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de zone de texte. |
-| y | Single | La coordonnée Y de la nouvelle forme de zone de texte. |
-| width | Single | La largeur de la nouvelle forme de zone de texte. |
-| height | Single | La hauteur de la nouvelle forme de zone de texte. |
+| x | Single | La coordonnée X de la nouvelle forme de zone réservée. |
+| y | Single | La coordonnée Y de la nouvelle forme de zone réservée. |
+| width | Single | La largeur de la nouvelle forme de zone réservée. |
+| height | Single | La hauteur de la nouvelle forme de zone réservée. |
 
 ### Valeur de retour
 
-Créé [`IAutoShape`](../../iautoshape) avec un espace réservé multimédia.
+Créé [`IAutoShape`](../../iautoshape) avec une zone réservée multimédia.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme de zone de texte multimédia à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de zone réservée multimédia à la diapositive de mise en page.
 
 ```csharp
 [C#]

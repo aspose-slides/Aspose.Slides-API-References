@@ -1,6 +1,6 @@
 ---
 title: IExternalResourceResolver
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Interface de rappel utilisée pour résoudre les ressources externes lors de l'importation de documents Html Svg.
 type: docs
 weight: 7260

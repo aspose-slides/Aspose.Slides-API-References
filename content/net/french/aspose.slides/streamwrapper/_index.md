@@ -1,6 +1,6 @@
 ---
 title: StreamWrapper
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Wrapper Aspose.IO.Stream pour l'interface COM.
 type: docs
 weight: 10440
@@ -19,21 +19,21 @@ public class StreamWrapper : IStreamWrapper
 
 | Nom | Description |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Permet d'obtenir l'interface IDisposable de base. Lecture seule IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge la lecture. Boolean en lecture seule. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Boolean en lecture seule. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Boolean en lecture seule. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Permet d'obtenir l'interface de base IDisposable. En lecture seule IDisposable. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge la lecture. Booléen en lecture seule. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge la recherche. Booléen en lecture seule. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Obtient une valeur indiquant si le flux actuel prend en charge l'écriture. Booléen en lecture seule. |
 | [Length](../../aspose.slides/streamwrapper/length) { get; } | Obtient la longueur en octets du flux. Int64 en lecture seule. |
 | [Position](../../aspose.slides/streamwrapper/position) { get; } | Obtient ou définit la position dans le flux actuel. Int64 en lecture seule. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Obtient un flux. Flux en lecture seule. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Obtient un flux. Stream en lecture seule. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | [Close](../../aspose.slides/streamwrapper/close)() | Ferme le flux actuel et libère toutes les ressources. |
-| [Dispose](../../aspose.slides/streamwrapper/dispose)() | Libère l'objet. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données mises en tampon sur le périphérique sous-jacent. |
+| [Dispose](../../aspose.slides/streamwrapper/dispose)() | Dispose l'objet. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Efface tous les tampons pour ce flux et provoque l'écriture de toutes les données tamponnées dans le périphérique sous-jacent. |
 | [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Lit une séquence d'octets du flux actuel et avance la position dans le flux du nombre d'octets lus. |
 | [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Lit un octet du flux et avance la position dans le flux d'un octet, ou renvoie -1 si à la fin du flux. |
 | [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Définit la position dans le flux actuel |

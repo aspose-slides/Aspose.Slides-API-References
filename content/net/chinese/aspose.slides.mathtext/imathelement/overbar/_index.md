@@ -1,7 +1,7 @@
 ---
 title: Overbar
-second_title: Aspose.Slides for .NET API 参考
-description: 在该元素的顶部设置一个线条
+second_title: Aspose.Slides for .NET API Reference
+description: 在此元素的顶部设置一个条
 type: docs
 weight: 110
 url: /zh/aspose.slides.mathtext/imathelement/overbar/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathelement/overbar/
 
 ## IMathElement.Overbar 方法
 
-在该元素的顶部设置一个线条
+在此元素的顶部设置一个条
 
 ```csharp
 public IMathBar Overbar()
@@ -17,18 +17,18 @@ public IMathBar Overbar()
 
 ### 返回值
 
-`IMathBar` 类型的新实例
+新实例类型为 [`IMathBar`](../../imathbar)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
 IMathBar bar = new MathematicalText("x").Overbar();
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathBar](../../imathbar)
 * 接口 [IMathElement](../../imathelement)

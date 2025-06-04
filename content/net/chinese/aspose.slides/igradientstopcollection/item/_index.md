@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 通过索引返回梯度停止点。
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据索引返回渐变停止点。
 type: docs
 weight: 10
 url: /zh/aspose.slides/igradientstopcollection/item/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igradientstopcollection/item/
 
 ## IGradientStopCollection 索引器
 
-通过索引返回梯度停止点。
+根据索引返回渐变停止点。
 
 ```csharp
 public IGradientStop this[int index] { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IGradientStop](../../igradientstop)
 * 接口 [IGradientStopCollection](../../igradientstopcollection)

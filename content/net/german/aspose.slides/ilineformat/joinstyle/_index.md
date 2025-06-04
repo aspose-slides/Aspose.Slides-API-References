@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Stil des Linienverbunds zurück oder legt ihn fest. Lese-/Schreibzugriff auf LineJoinStyleaspose.slides/linejoinstyle.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Linienverknüpfungsstil zurück oder legt ihn fest. Lese-/Schreibzugriff auf LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 140
 url: /de/aspose.slides/ilineformat/joinstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformat/joinstyle/
 
 ## ILineFormat.JoinStyle-Eigenschaft
 
-Gibt den Stil des Linienverbunds zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`LineJoinStyle`](../../linejoinstyle).
+Gibt den Linienverknüpfungsstil zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`LineJoinStyle`](../../linejoinstyle).
 
 ```csharp
 public LineJoinStyle JoinStyle { get; set; }

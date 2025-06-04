@@ -1,7 +1,7 @@
 ---
 title: Points
-second_title: Aspose.Slides for .NET API 参考
-description: 指定命令的点。读/写 PointF。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定命令的点。可读写 PointF。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/imotioncmdpath/points/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/imotioncmdpath/points/
 
 ## IMotionCmdPath.Points 属性
 
-指定命令的点。读/写 PointF[]。
+指定命令的点。可读写 PointF[]。
 
 ```csharp
 public PointF[] Points { get; set; }
 ```
 
-### 参考
+### 另请参见
 
 * 接口 [IMotionCmdPath](../../imotioncmdpath)
 * 命名空间 [Aspose.Slides.Animation](../../imotioncmdpath)

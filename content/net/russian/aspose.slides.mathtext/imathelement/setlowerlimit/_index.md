@@ -1,6 +1,6 @@
 ---
 title: SetLowerLimit
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Принимает нижний предел
 type: docs
 weight: 130
@@ -19,7 +19,7 @@ public IMathLimit SetLowerLimit(IMathElement limit)
 | --- | --- | --- |
 | limit | IMathElement | предел |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый экземпляр типа [`IMathLimit`](../../imathlimit)
 
@@ -34,7 +34,7 @@ IMathElement limitValue = new MathematicalText("𝑛→∞");
 var limitElement = baseElement.SetLowerLimit(limitValue);
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathLimit](../../imathlimit)
 * интерфейс [IMathElement](../../imathelement)
@@ -55,7 +55,7 @@ public IMathLimit SetLowerLimit(string limit)
 | --- | --- | --- |
 | limit | String | предел |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новый экземпляр типа [`IMathLimit`](../../imathlimit)
 
@@ -69,7 +69,7 @@ IMathElement baseElement = new MathematicalText("lim");
 var limitElement = baseElement.SetLowerLimit("𝑛→∞");
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMathLimit](../../imathlimit)
 * интерфейс [IMathElement](../../imathelement)

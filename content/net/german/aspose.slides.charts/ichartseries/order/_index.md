@@ -1,7 +1,7 @@
 ---
 title: Order
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Reihenfolge einer Serie zurück. Lese-/Schreibbare Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Reihenfolge einer Serie zurück. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 260
 url: /de/aspose.slides.charts/ichartseries/order/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/order/
 
 ## IChartSeries.Order-Eigenschaft
 
-Gibt die Reihenfolge einer Serie zurück. Lese-/Schreibbare Int32.
+Gibt die Reihenfolge einer Serie zurück. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int Order { get; set; }

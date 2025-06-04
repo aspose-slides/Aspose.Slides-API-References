@@ -1,6 +1,6 @@
 ---
 title: Category
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置演示文稿的类别。可读/可写字符串。
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/documentproperties/category/
 public string Category { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

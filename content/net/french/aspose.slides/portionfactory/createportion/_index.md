@@ -30,7 +30,7 @@ Portion.
 
 ## CreatePortion(string) {#createportion_2}
 
-Crée une portion de texte à partir de la chaîne spécifiée.
+Crée une portion de texte à partir d'une chaîne spécifiée.
 
 ```csharp
 public IPortion CreatePortion(string str)
@@ -55,7 +55,7 @@ Portion.
 
 ## CreatePortion(IPortion) {#createportion_1}
 
-Crée une portion à l'aide des données d'une portion spécifiée.
+Crée une portion en utilisant les données d'une portion spécifiée.
 
 ```csharp
 public IPortion CreatePortion(IPortion portion)

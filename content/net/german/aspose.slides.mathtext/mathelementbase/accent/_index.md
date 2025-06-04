@@ -1,15 +1,15 @@
 ---
 title: Accent
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt ein Akzentzeichen, ein Zeichen oben auf diesem Element
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt ein Akzentzeichen ein Zeichen auf der Oberseite dieses Elements
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathelementbase/accent/
 ---
 
-## MathElementBase.Accent-Methode
+## MathElementBase.Accent Methode
 
-Setzt ein Akzentzeichen (ein Zeichen oben auf diesem Element)
+Setzt ein Akzentzeichen (ein Zeichen auf der Oberseite dieses Elements)
 
 ```csharp
 public IMathAccent Accent(char accentCharacter)
@@ -21,7 +21,7 @@ public IMathAccent Accent(char accentCharacter)
 
 ### Rückgabewert
 
-Neue Instanz des Typs [`IMathAccent`](../../imathaccent)
+Neue Instanz vom Typ [`IMathAccent`](../../imathaccent)
 
 ### Beispiele
 
@@ -34,7 +34,7 @@ IMathAccent accent = new MathematicalText("x").Accent('~');
 
 ### Siehe Auch
 
-* Schnittstelle [IMathAccent](../../imathaccent)
+* Interface [IMathAccent](../../imathaccent)
 * Klasse [MathElementBase](../../mathelementbase)
 * Namespace [Aspose.Slides.MathText](../../mathelementbase)
 * Assembly [Aspose.Slides](../../../)

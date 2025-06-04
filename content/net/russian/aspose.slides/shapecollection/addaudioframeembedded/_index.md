@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameEmbedded
-second_title: Справка по API Aspose.Sildes для .NET
-description: Добавляет новый аудиофрей с встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только в формате WAV. Он добавляет новый аудиофайл в список Presentation.Audios.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новый аудиофрейм с встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только WAV. Он добавляет новый аудио в список Presentation.Audios.
 type: docs
 weight: 70
 url: /ru/aspose.slides/shapecollection/addaudioframeembedded/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shapecollection/addaudioframeembedded/
 
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Добавляет новый аудиофрей с встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только в формате WAV. Он добавляет новый аудиофайл в список Presentation.Audios.
+Добавляет новый аудиофрейм с встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только WAV. Он добавляет новый аудио в список Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -18,8 +18,8 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового аудиофрейма. |
-| y | Single | Координата Y нового аудиофрейма. |
+| x | Single | X координата нового аудиофрейма. |
+| y | Single | Y координата нового аудиофрейма. |
 | width | Single | Ширина нового аудиофрейма. |
 | height | Single | Высота нового аудиофрейма. |
 | audio_stream | Stream | Входной поток с аудиоданными. |
@@ -30,18 +30,18 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 ### Примеры
 
-Следующие примеры показывают, как создать аудиофрей.
+Следующие примеры показывают, как создать аудиофрейм.
 
 ```csharp
 [C#]
-// Создает экземпляр класса презентации, который представляет файл презентации
+// Создает экземпляр класса презентации, представляющего файл презентации
 using (Presentation pres = new Presentation())
 {
     // Получает первый слайд
     ISlide sld = pres.Slides[0];
-    // Загружает wav аудиофайл в поток
+    // Загружает wav звуковой файл в поток
     FileStream fstr = new FileStream("sampleaudio.wav", FileMode.Open, FileAccess.Read);
-    // Добавляет аудиофрей
+    // Добавляет аудиофрейм
     IAudioFrame audioFrame = sld.Shapes.AddAudioFrameEmbedded(50, 150, 100, 100, fstr);
     // Устанавливает режим воспроизведения и громкость аудио
     audioFrame.PlayMode = AudioPlayModePreset.Auto;
@@ -51,7 +51,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAudioFrame](../../iaudioframe)
 * класс [ShapeCollection](../../shapecollection)
@@ -62,7 +62,7 @@ using (Presentation pres = new Presentation())
 
 ## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-Добавляет новый аудиофрей с встроенным аудиофайлом в конец коллекции. Он использует аудиофайл из списка Presentation.Audios.
+Добавляет новый аудиофрейм с встроенным аудиофайлом в конец коллекции. Он использует аудиофайл из списка Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
@@ -70,8 +70,8 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового аудиофрейма. |
-| y | Single | Координата Y нового аудиофрейма. |
+| x | Single | X координата нового аудиофрейма. |
+| y | Single | Y координата нового аудиофрейма. |
 | width | Single | Ширина нового аудиофрейма. |
 | height | Single | Высота нового аудиофрейма. |
 | audio | IAudio | Аудио из списка Presentation.Audios. |
@@ -80,7 +80,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 Созданный объект AudioFrame.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IAudioFrame](../../iaudioframe)
 * интерфейс [IAudio](../../iaudio)

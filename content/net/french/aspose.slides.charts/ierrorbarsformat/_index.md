@@ -1,7 +1,7 @@
 ---
 title: IErrorBarsFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les barres d'erreur des séries de graphiques. Les valeurs personnalisées des ErrorBars sont dans IChartDataPointCollection dans la propriété ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Slides pour .NET API Référence
+description: Représente les barres d'erreur des séries de graphique. Les valeurs personnalisées des ErrorBars sont dans IChartDataPointCollection dans la propriété ErrorBarsCustomValues../ichartdatapoint/errorbarscustomvalues.
 type: docs
 weight: 2010
 url: /fr/aspose.slides.charts/ierrorbarsformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ierrorbarsformat/
 
 ## Interface IErrorBarsFormat
 
-Représente les barres d'erreur des séries de graphiques. Les valeurs personnalisées des ErrorBars se trouvent dans IChartDataPointCollection (dans la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Représente les barres d'erreur des séries de graphique. Les valeurs personnalisées des ErrorBars sont dans IChartDataPointCollection (dans la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -21,13 +21,13 @@ public interface IErrorBarsFormat : IChartComponent
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Renvoie l'interface IChartComponent. Lecture seule [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Représente le format des barres d'erreur. Lecture/écriture [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Spécifie qu'un capuchon terminal n'est pas dessiné sur les barres d'erreur. Lecture/écriture Booléen. |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Spécifie qu'un capuchon final n'est pas dessiné sur les barres d'erreur. Lecture/écriture Booléen. |
 | [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Obtient ou définit la visibilité des barres d'erreur. Lecture/écriture Booléen. |
 | [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Obtient ou définit le type des barres d'erreur. Lecture/écriture [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Obtient ou définit la valeur utilisée avec les types de valeurs Fixe, Pourcentage et ÉcartTypeStandard pour déterminer la longueur des barres d'erreur. Lecture/écriture Simple. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Représente les manières possibles de déterminer la longueur des barres d'erreur. En cas de type de valeur personnalisée, pour spécifier la valeur, utilisez la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) du point de données spécifique dans la collection DataPoints de la série. Lecture/écriture [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Obtient ou définit la valeur utilisée avec les types de valeur Fixe, Pourcentage et ÉcartType pour déterminer la longueur des barres d'erreur. Lecture/écriture Simple. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Représente les façons possibles de déterminer la longueur des barres d'erreur. En cas de type de valeur personnalisé, pour spécifier la valeur, utilisez la propriété [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) du point de données spécifique dans la collection DataPoints de la série. Lecture/écriture [`ErrorBarValueType`](../errorbarvaluetype). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartComponent](../ichartcomponent)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

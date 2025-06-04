@@ -1,15 +1,15 @@
 ---
 title: AddTablePlaceholder
-second_title: Справочник API Aspose.Slides для .NET
-description: Добавляет новую фигурку-заместитель на слайд макета для удержания таблицы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новую форму замещения на слайд макета для размещения таблицы.
 type: docs
 weight: 70
 url: /ru/aspose.slides/layoutplaceholdermanager/addtableplaceholder/
 ---
 
-## Метод LayoutPlaceholderManager.AddTablePlaceholder
+## LayoutPlaceholderManager.AddTablePlaceholder метод
 
-Добавляет новую фигурку-заместитель на слайд макета для удержания таблицы.
+Добавляет новую форму замещения на слайд макета для размещения таблицы.
 
 ```csharp
 public IAutoShape AddTablePlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddTablePlaceholder(float x, float y, float width, float heigh
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата новой фигурки-заместителя. |
-| y | Single | Y-координата новой фигурки-заместителя. |
-| width | Single | Ширина новой фигурки-заместителя. |
-| height | Single | Высота новой фигурки-заместителя. |
+| x | Single | Х-координата новой формы замещения. |
+| y | Single | Y-координата новой формы замещения. |
+| width | Single | Ширина новой формы замещения. |
+| height | Single | Высота новой формы замещения. |
 
 ### Возвращаемое значение
 
-Созданная [`IAutoShape`](../../iautoshape) с фигуркой-заместителем для таблицы.
+Созданный [`IAutoShape`](../../iautoshape) с замещением для таблицы.
 
 ### Примеры
 
-Следующий пример показывает, как добавить фигурку-заместитель таблицы на слайд макета.
+В следующем примере показано, как добавить форму замещения для таблицы на слайд макета.
 
 ```csharp
 [C#]

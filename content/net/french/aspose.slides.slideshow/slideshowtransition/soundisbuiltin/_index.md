@@ -1,15 +1,15 @@
 ---
 title: SoundIsBuiltIn
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, alors l'application génératrice est alertée de vérifier l'attribut de nom spécifié pour ce son dans sa liste de sons intégrés et peut alors faire apparaître un nom ou une interface utilisateur personnalisée si nécessaire. Booléen en lecture-écriture.
+description: Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, l'application génératrice est avertie de vérifier l'attribut name spécifié pour ce son dans sa liste de sons intégrés et peut ensuite afficher un nom ou une interface utilisateur personnalisée si nécessaire. Booléen en lecture-écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides.slideshow/slideshowtransition/soundisbuiltin/
 ---
 
-## SlideShowTransition.SoundIsBuiltIn property
+## Propriété SlideShowTransition.SoundIsBuiltIn
 
-Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, alors l'application génératrice est alertée de vérifier l'attribut de nom spécifié pour ce son dans sa liste de sons intégrés et peut alors faire apparaître un nom ou une interface utilisateur personnalisée si nécessaire. Booléen en lecture-écriture.
+Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, l'application génératrice est avertie de vérifier l'attribut name spécifié pour ce son dans sa liste de sons intégrés et peut ensuite afficher un nom ou une interface utilisateur personnalisée si nécessaire. Booléen en lecture-écriture.
 
 ```csharp
 public bool SoundIsBuiltIn { get; set; }
@@ -17,7 +17,7 @@ public bool SoundIsBuiltIn { get; set; }
 
 ### Voir aussi
 
-* class [SlideShowTransition](../../slideshowtransition)
+* classe [SlideShowTransition](../../slideshowtransition)
 * namespace [Aspose.Slides.SlideShow](../../slideshowtransition)
 * assembly [Aspose.Slides](../../../)
 

@@ -1,7 +1,7 @@
 ---
 title: FlipH
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si un marco está girado horizontalmente. Solo lectura NullableBoolaspose.slides/nullablebool.
+description: Determina si un marco está volcado horizontalmente. Solo lectura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /es/aspose.slides/shapeframe/fliph/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/shapeframe/fliph/
 
 ## Propiedad ShapeFrame.FlipH
 
-Determina si un marco está girado horizontalmente. Solo lectura [`NullableBool`](../../nullablebool).
+Determina si un marco está volcado horizontalmente. Solo lectura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipH { get; }
 ```
 
-### Ver También
+### Véase también
 
 * enum [NullableBool](../../nullablebool)
 * class [ShapeFrame](../../shapeframe)

@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置绘图区域边界框左上角的 y 坐标，作为从 0 到 1 的图表高度的分数。可读写单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置绘图区边界框左上角的 y 坐标，作为图表高度的一个分数（从 0 到 1）。可读/可写 Single。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/chartplotarea/y/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartplotarea/y/
 
 ## ChartPlotArea.Y 属性
 
-返回或设置绘图区域边界框左上角的 y 坐标，作为图表高度的分数（从 0 到 1）。可读写单精度浮点数。
+返回或设置绘图区边界框左上角的 y 坐标，作为图表高度的一个分数（从 0 到 1）。可读/可写 Single。
 
 ```csharp
 public float Y { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * class [ChartPlotArea](../../chartplotarea)
 * namespace [Aspose.Slides.Charts](../../chartplotarea)

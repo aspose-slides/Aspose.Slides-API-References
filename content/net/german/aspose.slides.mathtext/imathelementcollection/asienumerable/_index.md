@@ -1,21 +1,21 @@
 ---
 title: AsIEnumerable
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IEnumerable-Interface zurück. Nur-Lese IEnumerable.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das IEnumerable-Interface zurück. Nur lesbares IEnumerable.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathelementcollection/asienumerable/
 ---
 
-## IMathElementCollection.AsIEnumerable-Eigenschaft
+## IMathElementCollection.AsIEnumerable Eigenschaft
 
-Gibt das IEnumerable-Interface zurück. Nur-Lese IEnumerable.
+Gibt das IEnumerable-Interface zurück. Nur lesbares IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Für COM-Kompatibilität.
 

@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Ajoute un élément mathématique à la fin de la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathelementcollection/add/
 ---
 
-## Méthode IMathElementCollection.Add
+## IMathElementCollection.Add méthode
 
 Ajoute un élément mathématique à la fin de la collection.
 
@@ -21,7 +21,7 @@ public void Add(IMathElement item)
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

@@ -17,9 +17,9 @@ public override int GetHashCode()
 
 ### 返回值
 
-当前对象的哈希代码。
+当前对象的哈希码。
 
-### 参见
+### 另请参阅
 
 * 类 [HSL](../../hsl)
 * 命名空间 [Aspose.Slides.Effects](../../hsl)

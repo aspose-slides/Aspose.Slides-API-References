@@ -1,7 +1,7 @@
 ---
 title: Reorder
-second_title: Aspose.Slides for .NET API 参考
-description: 将布局幻灯片从集合移动到指定位置。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将布局幻灯片从集合中移动到指定位置。
 type: docs
 weight: 70
 url: /zh/aspose.slides/imasterlayoutslidecollection/reorder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterlayoutslidecollection/reorder/
 
 ## IMasterLayoutSlideCollection.Reorder 方法
 
-将布局幻灯片从集合移动到指定位置。
+将布局幻灯片从集合中移动到指定位置。
 
 ```csharp
 public void Reorder(int index, ILayoutSlide layoutSlide)
@@ -20,7 +20,7 @@ public void Reorder(int index, ILayoutSlide layoutSlide)
 | index | Int32 | 目标索引。 |
 | layoutSlide | ILayoutSlide | 要移动的幻灯片。 |
 
-### 另见
+### 参见
 
 * 接口 [ILayoutSlide](../../ilayoutslide)
 * 接口 [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)

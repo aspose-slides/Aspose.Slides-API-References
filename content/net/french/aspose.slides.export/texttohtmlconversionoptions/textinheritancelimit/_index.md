@@ -1,15 +1,15 @@
 ---
 title: TextInheritanceLimit
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la profondeur d'héritage pour les propriétés textuelles. Lecture/écriture TextInheritanceLimitaspose.slides.export/textinheritancelimit.
+description: Renvoie ou définit la profondeur d'héritage pour les propriétés de texte. Lecture/écriture TextInheritanceLimitaspose.slides.export/textinheritancelimit.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit/
 ---
 
-## Propriété TextToHtmlConversionOptions.TextInheritanceLimit
+## TextToHtmlConversionOptions.TextInheritanceLimit propriété
 
-Renvoie ou définit la profondeur d'héritage pour les propriétés textuelles. Lecture/écriture [`TextInheritanceLimit`](../../textinheritancelimit).
+Renvoie ou définit la profondeur d'héritage pour les propriétés de texte. Lecture/écriture [`TextInheritanceLimit`](../../textinheritancelimit).
 
 ```csharp
 public TextInheritanceLimit TextInheritanceLimit { get; set; }

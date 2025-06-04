@@ -1,6 +1,6 @@
 ---
 title: IBehaviorCollection
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une collection d'effets de comportement.
 type: docs
 weight: 340
@@ -30,10 +30,10 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 | [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Ajoute un nouveau comportement à une collection. |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Supprime tous les comportements d'une collection. |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Détermine si l'ICollection contient une valeur spécifique. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Détermine l'index d'un élément spécifique dans l'IList. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Détermine l'index d'un élément spécifique dans le IList. |
 | [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Insère un nouveau comportement dans une collection à l'index spécifié. |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Supprime le comportement spécifié d'une collection. |
-| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Supprime un comportement d'une collection à l'index spécifié. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Supprime le comportement d'une collection à l'index spécifié. |
 
 ### Voir Aussi
 

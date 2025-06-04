@@ -1,6 +1,6 @@
 ---
 title: MoveTo
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Устанавливает позицию следующей точки.
 type: docs
 weight: 80
@@ -19,7 +19,7 @@ public void MoveTo(PointF point)
 | --- | --- | --- |
 | point | PointF | Позиция точки |
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)
@@ -40,7 +40,7 @@ public void MoveTo(float x, float y)
 | x | Single | X-координата точки |
 | y | Single | Y-координата точки |
 
-### Также смотрите
+### Смотрите также
 
 * интерфейс [IGeometryPath](../../igeometrypath)
 * пространство имен [Aspose.Slides](../../igeometrypath)

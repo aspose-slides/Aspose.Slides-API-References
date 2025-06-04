@@ -15,10 +15,10 @@ Devuelve o establece el autor de una presentación. Cadena de lectura/escritura.
 public string Author { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

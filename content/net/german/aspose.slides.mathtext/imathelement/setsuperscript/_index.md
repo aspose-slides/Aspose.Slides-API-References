@@ -17,11 +17,11 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| superscript | IMathElement | Hochzahl (obere Indexzahl rechts) |
+| superscript | IMathElement | Hochzahl (oberer Index rechts) |
 
 ### Rückgabewert
 
-Neues Mathematikelement vom Typ [`IMathSuperscriptElement`](../../imathsuperscriptelement)
+Neues mathematisches Element vom Typ [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
 ### Beispiele
 
@@ -34,7 +34,7 @@ IMathElement index = new MathematicalText("4");
 IMathSuperscriptElement superscript = element.SetSuperscript(index);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathSuperscriptElement](../../imathsuperscriptelement)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -53,11 +53,11 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| superscript | String | Hochzahl (obere Indexzahl rechts) |
+| superscript | String | Hochzahl (oberer Index rechts) |
 
 ### Rückgabewert
 
-Neues Mathematikelement vom Typ [`IMathSuperscriptElement`](../../imathsuperscriptelement)
+Neues mathematisches Element vom Typ [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
 ### Beispiele
 
@@ -69,7 +69,7 @@ IMathElement element = new MathematicalText("N");
 IMathSuperscriptElement superscript = element.SetSuperscript("4");
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathSuperscriptElement](../../imathsuperscriptelement)
 * Schnittstelle [IMathElement](../../imathelement)

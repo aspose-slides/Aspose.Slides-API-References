@@ -1,21 +1,21 @@
 ---
 title: FirstColumn
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient la première colonne de la cellule. En lecture seule IColumnaspose.slides/icolumn.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient la première colonne de la cellule. Lecture seule IColumnaspose.slides/icolumn.
 type: docs
 weight: 50
 url: /fr/aspose.slides/icell/firstcolumn/
 ---
 
-## Propriété ICell.PremièreColonne
+## Propriété ICell.FirstColumn
 
-Obtient la première colonne de la cellule. En lecture seule [`IColumn`](../../icolumn).
+Obtient la première colonne de la cellule. Lecture seule [`IColumn`](../../icolumn).
 
 ```csharp
-public IColumn PremièreColonne { get; }
+public IColumn FirstColumn { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColumn](../../icolumn)
 * interface [ICell](../../icell)

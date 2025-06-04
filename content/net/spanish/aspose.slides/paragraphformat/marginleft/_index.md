@@ -1,6 +1,6 @@
 ---
 title: MarginLeft
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve o establece el margen izquierdo en un párrafo sin herencia. Lectura/escritura Single.
 type: docs
 weight: 90
@@ -17,8 +17,8 @@ public float MarginLeft { get; set; }
 
 ### Véase también
 
-* clase [ParagraphFormat](../../paragraphformat)
-* espacio de nombres [Aspose.Slides](../../paragraphformat)
-* ensamblado [Aspose.Slides](../../../)
+* class [ParagraphFormat](../../paragraphformat)
+* namespace [Aspose.Slides](../../paragraphformat)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

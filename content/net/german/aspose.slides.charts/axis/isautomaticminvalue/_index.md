@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinValue
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob der min Wert automatisch zugewiesen wird. Lese-/Schreib-Boolean.
+description: Gibt an, ob der Mindestwert automatisch zugewiesen wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 210
 url: /de/aspose.slides.charts/axis/isautomaticminvalue/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/isautomaticminvalue/
 
 ## Axis.IsAutomaticMinValue Eigenschaft
 
-Gibt an, ob der min Wert automatisch zugewiesen wird. Lese-/Schreib-Boolean.
+Gibt an, ob der Mindestwert automatisch zugewiesen wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool IsAutomaticMinValue { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Axis](../../axis)
 * Namespace [Aspose.Slides.Charts](../../axis)

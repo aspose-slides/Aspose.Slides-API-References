@@ -1,13 +1,13 @@
 ---
 title: BorderTop
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un objet de propriétés de ligne de bordure supérieure. Lecture seule ILineFormat aspose.slides/ilineformat.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie un objet de propriétés de ligne de bordure supérieure. Lecture seule ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 60
 url: /fr/aspose.slides/icellformat/bordertop/
 ---
 
-## Propriété ICellFormat.BorderTop
+## ICellFormat.BorderTop propriété
 
 Renvoie un objet de propriétés de ligne de bordure supérieure. Lecture seule [`ILineFormat`](../../ilineformat).
 

@@ -1,13 +1,13 @@
 ---
 title: FillFormat
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает эффективный формат заливки. Только для чтения IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ibackgroundeffectivedata/fillformat/
 ---
 
-## Свойство IBackgroundEffectiveData.FillFormat
+## IBackgroundEffectiveData.FillFormat property
 
 Возвращает эффективный формат заливки. Только для чтения [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibackgroundeffectivedata/fillformat/
 public IFillFormatEffectiveData FillFormat { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * интерфейс [IBackgroundEffectiveData](../../ibackgroundeffectivedata)

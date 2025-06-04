@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un número de elementos en la colección. Solo lectura Int32.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Devuelve el número de elementos en la colección. Solo lectura Int32.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/extracolorschemecollection/count/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.theme/extracolorschemecollection/count/
 
 ## Propiedad ExtraColorSchemeCollection.Count
 
-Devuelve un número de elementos en la colección. Solo lectura Int32.
+Devuelve el número de elementos en la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Ver También
+### Véase También
 
-* class [ExtraColorSchemeCollection](../../extracolorschemecollection)
-* namespace [Aspose.Slides.Theme](../../extracolorschemecollection)
-* assembly [Aspose.Slides](../../../)
+* clase [ExtraColorSchemeCollection](../../extracolorschemecollection)
+* espacio de nombres [Aspose.Slides.Theme](../../extracolorschemecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

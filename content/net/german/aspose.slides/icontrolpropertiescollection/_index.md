@@ -19,20 +19,20 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur-lesbare IEnumerable. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Gibt die Anzahl der Eigenschaften in der Sammlung zurück. Nur-lesbare Int32. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur-Lesen IEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Gibt die Anzahl der Eigenschaften in der Sammlung zurück. Nur-Lesen Int32. |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Gibt eine Eigenschaft zurück oder legt sie fest. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Gibt die Anzahl der Eigenschaften in der Sammlung zurück. Nur-lesbare ICollection. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Gibt die Anzahl der Eigenschaften in der Sammlung zurück. Nur-Lesen ICollection. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Fügt der Sammlung eine Eigenschaft hinzu. |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Fügt eine Eigenschaft zur Sammlung hinzu. |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Entfernt alle Eigenschaften. |
 | [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Entfernt eine Eigenschaft mit dem angegebenen Namen. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

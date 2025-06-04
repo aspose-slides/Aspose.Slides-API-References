@@ -1,15 +1,15 @@
 ---
 title: TextCapType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Typ der Textkapitalisierung zurück. Nur lesender TextCapTypeaspose.slides/textcaptype.
+description: Gibt den Typ der Textkapitalisierung zurück. Nur-Lese TextCapType aspose.slides/textcaptype.
 type: docs
 weight: 250
 url: /de/aspose.slides/ibaseportionformateffectivedata/textcaptype/
 ---
 
-## IBasePortionFormatEffectiveData.TextCapType-Eigenschaft
+## IBasePortionFormatEffectiveData.TextCapType Eigenschaft
 
-Gibt den Typ der Textkapitalisierung zurück. Nur lesender [`TextCapType`](../../textcaptype).
+Gibt den Typ der Textkapitalisierung zurück. Nur-Lese [`TextCapType`](../../textcaptype).
 
 ```csharp
 public TextCapType TextCapType { get; }

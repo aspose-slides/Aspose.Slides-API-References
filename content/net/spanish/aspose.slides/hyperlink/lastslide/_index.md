@@ -15,10 +15,10 @@ Devuelve un hipervínculo a la última diapositiva de la presentación. Solo lec
 public static Hyperlink LastSlide { get; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [Hyperlink](../../hyperlink)
 * espacio de nombres [Aspose.Slides](../../hyperlink)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

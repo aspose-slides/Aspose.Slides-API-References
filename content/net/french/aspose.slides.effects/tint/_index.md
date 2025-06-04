@@ -1,7 +1,7 @@
 ---
 title: Tint
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un effet de teinte. Déplace les valeurs de couleur de l'effet vers/à l'écart de la teinte par la quantité spécifiée.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente un effet de teinte. Déplace les valeurs de couleur de l'effet vers/loin de la teinte par la quantité spécifiée.
 type: docs
 weight: 3540
 url: /fr/aspose.slides.effects/tint/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/tint/
 
 ## Classe Tint
 
-Représente un effet de teinte. Déplace les valeurs de couleur de l'effet vers/à l'écart de la teinte par la quantité spécifiée.
+Représente un effet de teinte. Déplace les valeurs de couleur de l'effet vers/loin de la teinte par la quantité spécifiée.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -26,10 +26,10 @@ public sealed class Tint : ImageTransformOperation, ITint
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | Détermine si le [`Tint`](../tint) spécifié est égal au [`Tint`](../tint) actuel. |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Obtient des données d'effet de teinte effectives avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Obtient les données effectives de l'effet de teinte avec l'héritage appliqué. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Sert de fonction de hachage pour un type particulier. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [ITint](../itint)

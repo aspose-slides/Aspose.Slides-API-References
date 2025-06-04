@@ -1,6 +1,6 @@
 ---
 title: Dispose
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Освобождает все ресурсы, используемые этим объектом Presentation.
 type: docs
 weight: 300

@@ -1,6 +1,6 @@
 ---
 title: AddAudio
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Добавляет копию аудиофайла из другой презентации.
 type: docs
 weight: 50
@@ -17,13 +17,13 @@ public IAudio AddAudio(IAudio audio)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| audio | IAudio | Исходное аудио. |
+| audio | IAudio | Исходный аудио. |
 
 ### Возвращаемое значение
 
 Добавленное аудио.
 
-### См. также
+### См. Также
 
 * интерфейс [IAudio](../../iaudio)
 * класс [AudioCollection](../../audiocollection)
@@ -42,13 +42,13 @@ public IAudio AddAudio(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого будет добавлено аудио. |
+| stream | Stream | Поток для добавления аудио. |
 
 ### Возвращаемое значение
 
 Добавленное аудио.
 
-### См. также
+### См. Также
 
 * интерфейс [IAudio](../../iaudio)
 * класс [AudioCollection](../../audiocollection)
@@ -67,14 +67,14 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого будет добавлено видео аудио. |
+| stream | Stream | Поток для добавления видеозвука. |
 | loadingStreamBehavior | LoadingStreamBehavior | Поведение, которое будет применено к потоку. |
 
 ### Возвращаемое значение
 
 Добавленное аудио.
 
-### См. также
+### См. Также
 
 * интерфейс [IAudio](../../iaudio)
 * перечисление [LoadingStreamBehavior](../../loadingstreambehavior)
@@ -94,13 +94,13 @@ public IAudio AddAudio(byte[] audioData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| audioData | Byte[] | Аудио байты. |
+| audioData | Byte[] | Байты аудио. |
 
 ### Возвращаемое значение
 
 Добавленное аудио.
 
-### См. также
+### См. Также
 
 * интерфейс [IAudio](../../iaudio)
 * класс [AudioCollection](../../audiocollection)

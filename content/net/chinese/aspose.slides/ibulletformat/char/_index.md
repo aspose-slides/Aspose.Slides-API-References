@@ -1,7 +1,7 @@
 ---
 title: Char
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置一个段落的符号字符，不包含继承。可读写字符。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置没有继承的段落的项目符号字符。可读/写 Char。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ibulletformat/char/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibulletformat/char/
 
 ## IBulletFormat.Char 属性
 
-返回或设置一个段落的符号字符，不包含继承。可读写字符。
+返回或设置没有继承的段落的项目符号字符。可读/写 Char。
 
 ```csharp
 public char Char { get; set; }

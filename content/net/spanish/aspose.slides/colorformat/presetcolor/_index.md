@@ -1,7 +1,7 @@
 ---
 title: PresetColor
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el preajuste de color. Lectura/escritura PresetColoraspose.slides/presetcolor.
+description: Devuelve o establece el color predefinido. Lectura/escritura PresetColoraspose.slides/presetcolor.
 type: docs
 weight: 110
 url: /es/aspose.slides/colorformat/presetcolor/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/colorformat/presetcolor/
 
 ## Propiedad ColorFormat.PresetColor
 
-Devuelve o establece el preajuste de color. Lectura/escritura [`PresetColor`](../../presetcolor).
+Devuelve o establece el color predefinido. Lectura/escritura [`PresetColor`](../../presetcolor).
 
 ```csharp
 public PresetColor PresetColor { get; set; }

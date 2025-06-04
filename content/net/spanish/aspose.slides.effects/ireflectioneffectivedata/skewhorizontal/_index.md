@@ -1,13 +1,13 @@
 ---
 title: SkewHorizontal
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Especifica el ángulo de sesgo horizontal. Solo lectura Double.
 type: docs
 weight: 120
 url: /es/aspose.slides.effects/ireflectioneffectivedata/skewhorizontal/
 ---
 
-## Propiedad IReflectionEffectiveData.SkewHorizontal
+## IReflectionEffectiveData.SkewHorizontal property
 
 Especifica el ángulo de sesgo horizontal. Solo lectura Double.
 
@@ -15,10 +15,10 @@ Especifica el ángulo de sesgo horizontal. Solo lectura Double.
 public double SkewHorizontal { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

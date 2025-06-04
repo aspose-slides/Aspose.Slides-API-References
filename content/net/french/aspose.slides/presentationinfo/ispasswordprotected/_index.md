@@ -1,6 +1,6 @@
 ---
 title: IsPasswordProtected
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient une valeur qui indique si une présentation liée est protégée par un mot de passe pour l'ouvrir.
 type: docs
 weight: 20
@@ -26,7 +26,7 @@ if (info.IsPasswordProtected)
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [PresentationInfo](../../presentationinfo)
 * espace de noms [Aspose.Slides](../../presentationinfo)

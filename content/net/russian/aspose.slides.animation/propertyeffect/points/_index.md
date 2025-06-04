@@ -1,13 +1,13 @@
 ---
 title: Points
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает точки анимации. Чтение/запись IPointCollectionaspose.slides.animation/ipointcollection.
 type: docs
 weight: 50
 url: /ru/aspose.slides.animation/propertyeffect/points/
 ---
 
-## Свойство PropertyEffect.Points
+## PropertyEffect.Points свойство
 
 Указывает точки анимации. Чтение/запись [`IPointCollection`](../../ipointcollection).
 

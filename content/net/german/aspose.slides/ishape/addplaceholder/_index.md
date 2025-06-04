@@ -1,7 +1,7 @@
 ---
 title: AddPlaceholder
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt einen neuen Platzhalter hinzu, wenn es keinen gibt, und setzt die Platzhalter-Eigenschaften auf eine bestimmte.
+description: Fügt einen neuen Platzhalter hinzu, wenn noch keiner vorhanden ist, und setzt die Eigenschaften des Platzhalters auf die angegebenen.
 type: docs
 weight: 300
 url: /de/aspose.slides/ishape/addplaceholder/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/addplaceholder/
 
 ## IShape.AddPlaceholder-Methode
 
-Fügt einen neuen Platzhalter hinzu, wenn es keinen gibt, und setzt die Platzhalter-Eigenschaften auf eine bestimmte.
+Fügt einen neuen Platzhalter hinzu, wenn noch keiner vorhanden ist, und setzt die Eigenschaften des Platzhalters auf die angegebenen.
 
 ```csharp
 public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
@@ -21,7 +21,7 @@ public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
 
 ### Rückgabewert
 
-Neues [`IPlaceholder`](../../iplaceholder).
+Neuer [`IPlaceholder`](../../iplaceholder).
 
 ### Siehe auch
 

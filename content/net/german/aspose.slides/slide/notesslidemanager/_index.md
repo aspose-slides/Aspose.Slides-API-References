@@ -1,7 +1,7 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf Notizenfolien, das Hinzufügen und Entfernen. Schreibgeschützter INotesSlideManageraspose.slides/inotesslidemanager.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht den Zugriff auf Notizenfolien, fügt sie hinzu und entfernt sie. Read-only INotesSlideManageraspose.slides/inotesslidemanager.
 type: docs
 weight: 40
 url: /de/aspose.slides/slide/notesslidemanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slide/notesslidemanager/
 
 ## Slide.NotesSlideManager-Eigenschaft
 
-Ermöglicht den Zugriff auf Notizenfolien, das Hinzufügen und Entfernen. Schreibgeschützter [`INotesSlideManager`](../../inotesslidemanager).
+Ermöglicht den Zugriff auf Notizenfolien, fügt sie hinzu und entfernt sie. Read-only [`INotesSlideManager`](../../inotesslidemanager).
 
 ```csharp
 public INotesSlideManager NotesSlideManager { get; }

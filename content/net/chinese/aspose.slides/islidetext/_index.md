@@ -1,15 +1,15 @@
 ---
 title: ISlideText
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示从幻灯片中提取的文本
+description: 代表从幻灯片提取的文本
 type: docs
 weight: 6880
 url: /zh/aspose.slides/islidetext/
 ---
 
-## ISlideText接口
+## ISlideText 接口
 
-表示从幻灯片中提取的文本
+代表从幻灯片提取的文本
 
 ```csharp
 public interface ISlideText
@@ -20,12 +20,12 @@ public interface ISlideText
 | 名称 | 描述 |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | 幻灯片评论的文本 |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | 此幻灯片在布局页面形状上的文本 |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | 此幻灯片在母版页面形状上的文本 |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | 此幻灯片在备注页面形状上的文本 |
-| [Text](../../aspose.slides/islidetext/text) { get; } | 幻灯片形状上的文本 |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | 此幻灯片布局页面上的形状的文本 |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | 此幻灯片母版页面上的形状的文本 |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | 此幻灯片备注页面上的形状的文本 |
+| [Text](../../aspose.slides/islidetext/text) { get; } | 幻灯片上形状的文本 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

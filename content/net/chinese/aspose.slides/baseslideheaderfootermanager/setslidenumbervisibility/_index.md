@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberVisibility
-second_title: Aspose.Slides for .NET API Reference
-description: 修改幻灯片页码占位符的可见性。
+second_title: Aspose.Sildes for .NET API 参考
+description: 更改幻灯片页码占位符的可见性。
 type: docs
 weight: 80
 url: /zh/aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility/
 
 ## BaseSlideHeaderFooterManager.SetSlideNumberVisibility 方法
 
-修改幻灯片页码占位符的可见性。
+更改幻灯片页码占位符的可见性。
 
 ```csharp
 public void SetSlideNumberVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetSlideNumberVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使页码占位符可见，否则 - 隐藏它。 |
+| isVisible | Boolean | true - 使页码占位符可见，false - 隐藏它。 |
 
-### 另见
+### 另请参阅
 
 * 类 [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../baseslideheaderfootermanager)

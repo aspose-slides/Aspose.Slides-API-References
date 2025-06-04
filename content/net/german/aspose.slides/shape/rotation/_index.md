@@ -1,7 +1,7 @@
 ---
 title: Rotation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Grad zurück oder setzt sie, um die die angegebene Form um die z-Achse rotiert ist. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an, ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Grad zurück oder setzt diese, um die die angegebene Form um die z-Achse rotiert wird. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an, ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Lese-/Schreibzugriff Einzel.
 type: docs
 weight: 240
 url: /de/aspose.slides/shape/rotation/
@@ -9,17 +9,17 @@ url: /de/aspose.slides/shape/rotation/
 
 ## Shape.Rotation-Eigenschaft
 
-Gibt die Anzahl der Grad zurück oder setzt sie, um die die angegebene Form um die z-Achse rotiert ist. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an; ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Lese-/Schreibzugriff auf Single.
+Gibt die Anzahl der Grad zurück oder setzt diese, um die die angegebene Form um die z-Achse rotiert wird. Ein positiver Wert zeigt eine Drehung im Uhrzeigersinn an; ein negativer Wert zeigt eine Drehung gegen den Uhrzeigersinn an. Lese-/Schreibzugriff Einzel.
 
 ```csharp
 public float Rotation { get; set; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für RawFrame-Instanz-Eigenschaften setzen.
+Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für RawFrame-Instanzeigenschaften festlegen.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Shape](../../shape)
 * Namespace [Aspose.Slides](../../shape)

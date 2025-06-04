@@ -1,7 +1,7 @@
 ---
 title: DisableBlurEffect
 second_title: Aspose.Slides für .NET API Referenz
-description: Deaktiviert den Blur-Effekt.
+description: Deaktiviert den Unschärfeeffekt.
 type: docs
 weight: 100
 url: /de/aspose.slides/effectformat/disableblureffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/effectformat/disableblureffect/
 
 ## EffectFormat.DisableBlurEffect Methode
 
-Deaktiviert den Blur-Effekt.
+Deaktiviert den Unschärfeeffekt.
 
 ```csharp
 public void DisableBlurEffect()

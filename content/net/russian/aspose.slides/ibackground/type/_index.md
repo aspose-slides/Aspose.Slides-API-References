@@ -1,21 +1,21 @@
 ---
 title: Type
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип фона заливки. Чтение/запись BackgroundTypeaspose.slides/backgroundtype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает тип заполнения фона. Чтение/запись BackgroundTypeaspose.slides/backgroundtype.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ibackground/type/
 ---
 
-## Свойство IBackground.Type
+## IBackground.Type свойство
 
-Возвращает тип фона заливки. Чтение/запись [`BackgroundType`](../../backgroundtype).
+Возвращает тип заполнения фона. Чтение/запись [`BackgroundType`](../../backgroundtype).
 
 ```csharp
 public BackgroundType Type { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [BackgroundType](../../backgroundtype)
 * interface [IBackground](../../ibackground)

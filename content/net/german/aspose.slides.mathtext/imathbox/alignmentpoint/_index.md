@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standardwert falsch
+second_title: Aspose.Sildes für .NET API Referenz
+description: Wenn wahr, dient dieser Operator-Emulator als ein Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standard falsch
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathbox/alignmentpoint/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathbox/alignmentpoint/
 
 ## IMathBox.AlignmentPoint-Eigenschaft
 
-Wenn wahr, dient dieser Operator-Emulator als Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standardwert: falsch
+Wenn wahr, dient dieser Operator-Emulator als ein Ausrichtungspunkt; das heißt, bezeichnete Ausrichtungspunkte in anderen Gleichungen können mit ihm ausgerichtet werden. Standard: falsch
 
 ```csharp
 public bool AlignmentPoint { get; set; }

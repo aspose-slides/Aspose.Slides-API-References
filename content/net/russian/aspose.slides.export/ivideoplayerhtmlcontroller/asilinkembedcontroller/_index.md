@@ -1,7 +1,7 @@
 ---
 title: AsILinkEmbedController
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Позволяет получить базовый интерфейс ILinkEmbedController. Читать только ILinkEmbedController aspose.slides.export/ilinkembedcontroller.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Позволяет получить базовый интерфейс ILinkEmbedController. Только для чтения ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/
 public ILinkEmbedController AsILinkEmbedController { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [ILinkEmbedController](../../ilinkembedcontroller)
 * интерфейс [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)

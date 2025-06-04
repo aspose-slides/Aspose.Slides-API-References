@@ -1,15 +1,15 @@
 ---
 title: Color
-second_title: Справка по API Aspose.Slides для .NET
-description: Цвет. Только для чтения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Цвет. Только для чтения Цвет.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/igloweffectivedata/color/
 ---
 
-## Свойство IGlowEffectiveData.Color
+## IGlowEffectiveData.Color свойство
 
-Цвет. Только для чтения.
+Цвет. Только для чтения Цвет.
 
 ```csharp
 public Color Color { get; }

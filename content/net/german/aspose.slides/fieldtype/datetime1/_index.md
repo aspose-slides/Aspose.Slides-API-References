@@ -1,13 +1,13 @@
 ---
 title: DateTime1
 second_title: Aspose.Slides für .NET API Referenz
-description: Aktuelles Datum und Uhrzeit in einem ersten vordefinierten Format MM/DD/YYYY für Englisch. Nur-Lese FieldType aspose.slides/fieldtype.
+description: Aktuelles Datum und Uhrzeit in einem ersten vordefinierten Format MM/DD/YYYY für Englisch. Nur-Lese FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 30
 url: /de/aspose.slides/fieldtype/datetime1/
 ---
 
-## FieldType.DateTime1-Eigenschaft
+## FieldType.DateTime1 Eigenschaft
 
 Aktuelles Datum und Uhrzeit in einem ersten vordefinierten Format (MM/DD/YYYY für Englisch). Nur-Lese [`FieldType`](../../fieldtype).
 

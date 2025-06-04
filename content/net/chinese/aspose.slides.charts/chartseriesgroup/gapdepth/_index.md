@@ -1,15 +1,15 @@
 ---
 title: GapDepth
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置在 3D 图表中数据系列之间的距离，作为标记宽度的百分比。可读写 UInt16。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置3D图表中数据系列之间的距离，作为标记宽度的百分比。读/写 UInt16。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/chartseriesgroup/gapdepth/
 ---
 
-## ChartSeriesGroup.GapDepth 属性
+## ChartSeriesGroup.GapDepth property
 
-返回或设置在 3D 图表中数据系列之间的距离，作为标记宽度的百分比。可读写 UInt16。
+返回或设置3D图表中数据系列之间的距离，作为标记宽度的百分比。读/写 UInt16。
 
 ```csharp
 public ushort GapDepth { get; set; }

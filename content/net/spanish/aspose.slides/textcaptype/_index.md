@@ -1,6 +1,6 @@
 ---
 title: TextCapType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Representa el tipo de capitalización de texto.
 type: docs
 weight: 10620
@@ -24,9 +24,9 @@ public enum TextCapType : sbyte
 | Small | `1` |  |
 | All | `2` |  |
 
-### Ver También
+### Véase también
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

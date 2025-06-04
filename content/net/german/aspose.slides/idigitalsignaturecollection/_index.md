@@ -1,15 +1,15 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Sammlung von digitalen Signaturen dar, die an ein Dokument angehängt sind.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
 type: docs
 weight: 5500
 url: /de/aspose.slides/idigitalsignaturecollection/
 ---
 
-## IDigitalSignatureCollection Schnittstelle
+## IDigitalSignatureCollection-Schnittstelle
 
-Stellt eine Sammlung von digitalen Signaturen dar, die an ein Dokument angehängt sind.
+Stellt eine Sammlung digitaler Signaturen dar, die an ein Dokument angehängt sind.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -27,9 +27,9 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Fügt die Signatur am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Entfernt alle Signaturen aus der Sammlung. |
-| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Entfernt die Signatur am angegebenen Index. |
+| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Entfernt die Signatur an dem angegebenen Index. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * Schnittstelle [IDigitalSignature](../idigitalsignature)

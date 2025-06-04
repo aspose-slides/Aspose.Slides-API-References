@@ -1,15 +1,15 @@
 ---
 title: Accent
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Устанавливает акцентный знак символ на верхней части этого элемента
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает акцентный знак символ над этим элементом
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathelement/accent/
 ---
 
-## Метод IMathElement.Accent
+## IMathElement.Accent метод
 
-Устанавливает акцентный знак (символ на верхней части этого элемента)
+Устанавливает акцентный знак (символ над этим элементом)
 
 ```csharp
 public IMathAccent Accent(char accentCharacter)
@@ -17,7 +17,7 @@ public IMathAccent Accent(char accentCharacter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| accentCharacter | Char | Символ акцента. Значение должно находиться в диапазоне (U+0300–U+036F) или (U+20D0–U+20EF) |
+| accentCharacter | Char | Акцентный символ. Значение должно находиться в диапазоне (U+0300–U+036F) или (U+20D0–U+20EF) |
 
 ### Возвращаемое значение
 
@@ -32,7 +32,7 @@ public IMathAccent Accent(char accentCharacter)
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathAccent](../../imathaccent)
 * интерфейс [IMathElement](../../imathelement)

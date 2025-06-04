@@ -1,7 +1,7 @@
 ---
 title: DashStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Linienstil zurück. Nur lesbarer LineDashStyleaspose.slides/linedashstyle.
+description: Gibt den Linienstrichstil zurück. Schreibgeschützter LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 80
 url: /de/aspose.slides/ilineformateffectivedata/dashstyle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilineformateffectivedata/dashstyle/
 
 ## ILineFormatEffectiveData.DashStyle-Eigenschaft
 
-Gibt den Linienstil zurück. Nur lesbarer [`LineDashStyle`](../../linedashstyle).
+Gibt den Linienstrichstil zurück. Schreibgeschützte [`LineDashStyle`](../../linedashstyle).
 
 ```csharp
 public LineDashStyle DashStyle { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [LineDashStyle](../../linedashstyle)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

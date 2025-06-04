@@ -1,6 +1,6 @@
 ---
 title: AddBlurEffect
-second_title: Aspose.Sildes для справочника API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Добавляет новый эффект размытия в конец коллекции.
 type: docs
 weight: 130
@@ -24,7 +24,7 @@ public IBlur AddBlurEffect(double radius, bool grow)
 
 Индекс нового эффекта изображения в коллекции.
 
-### См. также
+### Также смотри
 
 * интерфейс [IBlur](../../iblur)
 * класс [ImageTransformOperationCollection](../../imagetransformoperationcollection)

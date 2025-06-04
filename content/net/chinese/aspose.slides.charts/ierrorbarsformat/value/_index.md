@@ -1,7 +1,7 @@
 ---
 title: Value
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置用于固定百分比和标准偏差值类型以确定误差条长的值。可读/写单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 获取或设置与固定百分比和标准差值类型一起使用的值，以确定误差条的长度。可读/写单精度浮点数。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/ierrorbarsformat/value/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ierrorbarsformat/value/
 
 ## IErrorBarsFormat.Value 属性
 
-获取或设置用于固定、百分比和标准偏差值类型以确定误差条长度的值。可读/写单精度浮点数。
+获取或设置与固定、百分比和标准差值类型一起使用的值，以确定误差条的长度。可读/写单精度浮点数。
 
 ```csharp
 public float Value { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IErrorBarsFormat](../../ierrorbarsformat)
 * 命名空间 [Aspose.Slides.Charts](../../ierrorbarsformat)

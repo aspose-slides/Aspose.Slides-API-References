@@ -1,7 +1,7 @@
 ---
 title: HideTop
-second_title: Aspose.Slides für .NET API Referenz
-description: Die obere Kante ausblenden, Standardwert ist false - gibt den verborgenen oder sichtbaren Zustand der oberen Kante des Randbereichs an.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Die Standardoption für Hide Top Edge ist falsch - gibt den versteckten oder sichtbaren Zustand der oberen Kante des Rahmenfelds an.
 type: docs
 weight: 60
 url: /de/aspose.slides.mathtext/imathborderbox/hidetop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathborderbox/hidetop/
 
 ## IMathBorderBox.HideTop-Eigenschaft
 
-Die obere Kante ausblenden (Standardwert ist false) - gibt den verborgenen oder sichtbaren Zustand der oberen Kante des Randbereichs an.
+Hide Top Edge (Standard ist falsch) - gibt den versteckten oder sichtbaren Zustand der oberen Kante des Rahmenfelds an.
 
 ```csharp
 public bool HideTop { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Référence API Aspose.Slides pour .NET
-description: Copier dans un tableau spécifié.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Copier dans le tableau spécifié.
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/imathelementcollection/copyto/
 ---
 
-## Méthode IMathElementCollection.CopyTo
+## IMathElementCollection.CopyTo méthode
 
-Copier dans un tableau spécifié.
+Copier dans le tableau spécifié.
 
 ```csharp
 public void CopyTo(IMathElement[] array, int arrayIndex)
@@ -22,7 +22,7 @@ public void CopyTo(IMathElement[] array, int arrayIndex)
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den HeaderFooter-Manager des Layoutfolie zurück. Nur-Lese ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den HeaderFooter-Manager des Layout-Folien zurück. Nur lesender ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
 type: docs
 weight: 40
 url: /de/aspose.slides/ilayoutslide/headerfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilayoutslide/headerfootermanager/
 
 ## ILayoutSlide.HeaderFooterManager-Eigenschaft
 
-Gibt den HeaderFooter-Manager der Layoutfolie zurück. Nur-Lese [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
+Gibt den HeaderFooter-Manager der Layout-Folie zurück. Nur lesend [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
 
 ```csharp
 public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }

@@ -1,7 +1,7 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes для справочника API .NET
-description: Представляет базовый класс для коллекции макетов слайдов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет базовый класс для коллекции макетных слайдов.
 type: docs
 weight: 6030
 url: /ru/aspose.slides/ilayoutslidecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutslidecollection/
 
 ## Интерфейс ILayoutSlideCollection
 
-Представляет базовый класс для коллекции макетов слайдов.
+Представляет базовый класс для коллекции макетных слайдов.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -17,19 +17,19 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макет слайда по индексу. Только для чтения [`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макетный слайд по индексу. Только для чтения [`ILayoutSlide`](../ilayoutslide). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый макет слайда указанного типа. |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый макетный слайд указанного типа. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Удаляет макет из коллекции. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые макеты слайдов (макеты слайдов, для которых HasDependingSlides равно false). |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые макетные слайды (макетные слайды, у которых HasDependingSlides равно false). |
 
-### См. Также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [ILayoutSlide](../ilayoutslide)

@@ -1,6 +1,6 @@
 ---
 title: EmbeddedFileName
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie le chemin de l'objet OLE intégré
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Renvoie le chemin de l'objet OLE intégré
 public string EmbeddedFileName { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOleObjectFrame](../../ioleobjectframe)
 * namespace [Aspose.Slides](../../ioleobjectframe)

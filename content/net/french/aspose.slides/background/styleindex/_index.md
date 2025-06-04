@@ -15,7 +15,7 @@ Renvoie un index de BackgroundType.Themed fill dans la collection de thèmes d'a
 public ushort StyleIndex { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Background](../../background)
 * espace de noms [Aspose.Slides](../../background)

@@ -1,7 +1,7 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Slides for .NET API Reference
-description: 不可变对象，表示双调效果。对于每个像素，通过线性插值结合 clr1 和 clr2，以确定该像素的新颜色。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示双色调效果的不可变对象。通过线性插值将 clr1 和 clr2 组合到每个像素，以确定该像素的新颜色。
 type: docs
 weight: 3150
 url: /zh/aspose.slides.effects/iduotoneeffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iduotoneeffectivedata/
 
 ## IDuotoneEffectiveData 接口
 
-不可变对象，表示双调效果。对于每个像素，通过线性插值结合 clr1 和 clr2，以确定该像素的新颜色。
+表示双色调效果的不可变对象。通过线性插值将 clr1 和 clr2 组合到每个像素，以确定该像素的新颜色。
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -19,11 +19,11 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础的 IEffectEffectiveData 接口。只能读的 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 返回暗像素的目标颜色格式。只能读的 Color。 |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 返回亮像素的目标颜色格式。只能读的 Color。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 返回暗像素的目标颜色格式。只读 Color。 |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 返回亮像素的目标颜色格式。只读 Color。 |
 
-### 参见
+### 另见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

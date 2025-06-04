@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront adaptées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
 type: docs
 weight: 130
 url: /fr/aspose.slides/shapecollection/addgroupshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapecollection/addgroupshape/
 
 ## AddGroupShape() {#addgroupshape}
 
-Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront ajustées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
+Crée un nouveau GroupShape et l'ajoute à la fin de la collection. La taille et la position du cadre GroupShape seront adaptées au contenu lorsque la nouvelle forme sera ajoutée au GroupShape.
 
 ```csharp
 public IGroupShape AddGroupShape()
@@ -21,7 +21,7 @@ Objet GroupShape créé.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter une forme de groupe à une diapositive de la présentation PowerPoint.
+L'exemple suivant montre comment ajouter une forme de groupe à une diapositive de présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
-    // Ajouter un cadre de forme de groupe
+    // Ajouter le cadre de la forme de groupe
     groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
     // Écrire le fichier PPTX sur le disque
     pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);
@@ -65,11 +65,11 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| svgImage | ISvgImage | Objet image SVG [`ISvgImage`](../../isvgimage) |
-| x | Single | La coordonnée X pour le côté gauche du cadre de groupe de formes. |
-| y | Single | La coordonnée Y pour le côté supérieur du cadre de groupe de formes. |
-| width | Single | La largeur du groupe du cadre de groupe de formes. |
-| height | Single | La hauteur d'un groupe du cadre de groupe de formes. |
+| svgImage | ISvgImage | Objet image Svg [`ISvgImage`](../../isvgimage) |
+| x | Single | La coordonnée X pour le côté gauche du cadre de la forme de groupe. |
+| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme de groupe. |
+| width | Single | La largeur du groupe du cadre de la forme de groupe. |
+| height | Single | La hauteur d'un groupe du cadre de la forme de groupe. |
 
 ### Valeur de retour
 

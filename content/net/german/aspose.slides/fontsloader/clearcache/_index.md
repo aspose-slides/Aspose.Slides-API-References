@@ -1,21 +1,21 @@
 ---
 title: ClearCache
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt alle benutzerdefinierten Schriftarten frei, die vom Benutzer definiert wurden
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt alle vom Benutzer definierten benutzerdefinierten Schriftarten frei
 type: docs
 weight: 10
 url: /de/aspose.slides/fontsloader/clearcache/
 ---
 
-## FontsLoader.ClearCache-Methode
+## FontsLoader.ClearCache Methode
 
-Gibt alle benutzerdefinierten Schriftarten frei, die vom Benutzer definiert wurden
+Gibt alle vom Benutzer definierten benutzerdefinierten Schriftarten frei
 
 ```csharp
 public static void ClearCache()
 ```
 
-### Hinweise
+### Bemerkungen
 
 Diese Methode muss den Cache mit benutzerdefinierten Schriftarten, die vom Benutzer definiert wurden, leeren.
 

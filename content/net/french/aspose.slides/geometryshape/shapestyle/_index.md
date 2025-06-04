@@ -1,6 +1,6 @@
 ---
 title: ShapeStyle
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'objet de style de forme. Lecture seule IShapeStyleaspose.slides/ishapestyle.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Renvoie l'objet de style de la forme. Lecture seule [`IShapeStyle`](../../ishape
 public IShapeStyle ShapeStyle { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShapeStyle](../../ishapestyle)
 * classe [GeometryShape](../../geometryshape)

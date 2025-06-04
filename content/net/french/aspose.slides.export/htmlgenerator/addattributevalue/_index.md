@@ -1,7 +1,7 @@
 ---
 title: AddAttributeValue
-second_title: Aspose.Slides pour .NET Référence API
-description: Met en forme la valeur d'attribut et l'ajoute au fichier html.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Cote la valeur de l'attribut et l'ajoute au fichier html.
 type: docs
 weight: 70
 url: /fr/aspose.slides.export/htmlgenerator/addattributevalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/htmlgenerator/addattributevalue/
 
 ## AddAttributeValue(string) {#addattributevalue_2}
 
-Met en forme la valeur d'attribut et l'ajoute au fichier html.
+Cote la valeur de l'attribut et l'ajoute au fichier html.
 
 ```csharp
 public void AddAttributeValue(string value)
@@ -17,7 +17,7 @@ public void AddAttributeValue(string value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | String | Chaine de la valeur d'attribut. |
+| value | String | Chaîne de valeur de l'attribut. |
 
 ### Voir aussi
 
@@ -29,7 +29,7 @@ public void AddAttributeValue(string value)
 
 ## AddAttributeValue(char[]) {#addattributevalue}
 
-Met en forme la valeur d'attribut et l'ajoute au fichier html.
+Cote la valeur de l'attribut et l'ajoute au fichier html.
 
 ```csharp
 public void AddAttributeValue(char[] value)
@@ -37,7 +37,7 @@ public void AddAttributeValue(char[] value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | Char[] | Chaine de la valeur d'attribut. |
+| value | Char[] | Chaîne de valeur de l'attribut. |
 
 ### Voir aussi
 
@@ -49,7 +49,7 @@ public void AddAttributeValue(char[] value)
 
 ## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
-Met en forme la valeur d'attribut et l'ajoute au fichier html.
+Cote la valeur de l'attribut et l'ajoute au fichier html.
 
 ```csharp
 public void AddAttributeValue(char[] value, int startIndex, int length)
@@ -57,7 +57,7 @@ public void AddAttributeValue(char[] value, int startIndex, int length)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | Char[] | Chaine de la valeur d'attribut. |
+| value | Char[] | Chaîne de valeur de l'attribut. |
 | startIndex | Int32 | Index de départ de la portion à ajouter. |
 | length | Int32 | Longueur de la portion à ajouter. |
 

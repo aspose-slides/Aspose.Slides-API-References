@@ -1,13 +1,13 @@
 ---
 title: GetNameByIndex
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Renvoie la clé d'une étiquette à l'index spécifié.
 type: docs
 weight: 100
 url: /fr/aspose.slides/tagcollection/getnamebyindex/
 ---
 
-## Méthode TagCollection.GetNameByIndex
+## TagCollection.GetNameByIndex méthode
 
 Renvoie la clé d'une étiquette à l'index spécifié.
 
@@ -17,7 +17,7 @@ public string GetNameByIndex(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index d'une étiquette à renvoyer. |
+| index | Int32 | Index d'une étiquette à retourner. |
 
 ### Valeur de retour
 

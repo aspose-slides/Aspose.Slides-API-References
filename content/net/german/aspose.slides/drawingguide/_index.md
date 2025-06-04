@@ -1,15 +1,15 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine verstellbare Zeichnungshilfe dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt einen verstellbaren Zeichenhilfslinien dar.
 type: docs
 weight: 2720
 url: /de/aspose.slides/drawingguide/
 ---
 
-## Zeichnungshilfe Klasse
+## DrawingGuide-Klasse
 
-Stellt eine verstellbare Zeichnungshilfe dar.
+Stellt eine verstellbare Zeichenhilfslinie dar.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -19,10 +19,10 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Name | Beschreibung |
 | --- | --- |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Gibt die Ausrichtung der Zeichnungshilfe zurück oder legt sie fest. Lese-/Schreibzugriff [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Gibt die Position der Zeichnungshilfe in Punkten vom oberen linken Rand der Folie zurück oder legt sie fest. Lese-/Schreibzugriff Single. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Gibt die Ausrichtung der Zeichenhilfslinie zurück oder setzt sie. Lesen/Schreiben [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Gibt die Position der Zeichenhilfslinie in Punkten von der oberen linken Ecke der Folie zurück oder setzt sie. Lesen/Schreiben Single. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDrawingGuide](../idrawingguide)
 * Namespace [Aspose.Slides](../../aspose.slides)

@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет индекс конкретной части в коллекции.
 type: docs
 weight: 70
 url: /ru/aspose.slides/iportioncollection/indexof/
 ---
 
-## Метод IPortionCollection.IndexOf
+## IPortionCollection.IndexOf метод
 
 Определяет индекс конкретной части в коллекции.
 
@@ -19,11 +19,11 @@ public int IndexOf(IPortion item)
 | --- | --- | --- |
 | item | IPortion | Часть, которую нужно найти в коллекции. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Индекс *item*, если он найден в коллекции; в противном случае -1.
 
-### См. также
+### Также Смотрите
 
 * интерфейс [IPortion](../../iportion)
 * интерфейс [IPortionCollection](../../iportioncollection)

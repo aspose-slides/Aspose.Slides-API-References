@@ -15,10 +15,10 @@ Obtiene el id de clase de este control. Solo lectura Guid.
 public Guid ClassId { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [Control](../../control)
 * espacio de nombres [Aspose.Slides](../../control)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

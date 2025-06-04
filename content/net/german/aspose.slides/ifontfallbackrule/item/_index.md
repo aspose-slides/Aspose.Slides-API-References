@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Schriftartnamen am angegebenen Index zurück.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Ruft den Schriftartnamen am angegebenen Index ab.
 type: docs
 weight: 20
 url: /de/aspose.slides/ifontfallbackrule/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifontfallbackrule/item/
 
 ## IFontFallBackRule-Indexer
 
-Gibt den Schriftartnamen am angegebenen Index zurück.
+Ruft den Schriftartnamen am angegebenen Index ab.
 
 ```csharp
 public string this[int index] { get; }

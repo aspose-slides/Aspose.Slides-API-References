@@ -1,7 +1,7 @@
 ---
 title: IDigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示附加到文档的数字签名集。
+description: 表示附加到文档的数字签名集合。
 type: docs
 weight: 5500
 url: /zh/aspose.slides/idigitalsignaturecollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idigitalsignaturecollection/
 
 ## IDigitalSignatureCollection 接口
 
-表示附加到文档的数字签名集。
+表示附加到文档的数字签名集合。
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -19,17 +19,17 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 按索引返回签名。 |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 通过索引返回签名。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 在集合的末尾添加签名。 |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 将签名添加到集合末尾。 |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | 从集合中移除所有签名。 |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | 移除指定索引处的签名。 |
 
-### 另见
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IDigitalSignature](../idigitalsignature)

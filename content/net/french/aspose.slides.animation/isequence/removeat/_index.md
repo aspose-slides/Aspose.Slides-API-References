@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Supprime un effet d'une collection.
 type: docs
 weight: 110
 url: /fr/aspose.slides.animation/isequence/removeat/
 ---
 
-## Méthode ISequence.RemoveAt
+## ISequence.RemoveAt méthode
 
 Supprime un effet d'une collection.
 

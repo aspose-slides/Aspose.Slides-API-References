@@ -1,6 +1,6 @@
 ---
 title: DeleteRow
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 删除指定的行
 type: docs
 weight: 130
@@ -17,11 +17,11 @@ public void DeleteRow(int rowIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rowIndex | Int32 | 要删除的行的零基索引。 |
+| rowIndex | Int32 | 要删除的行的零基础索引。 |
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteRow(0);
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IMathMatrix](../../imathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../imathmatrix)

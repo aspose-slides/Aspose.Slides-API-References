@@ -15,7 +15,7 @@ Devuelve o establece la diapositiva de diseño para la diapositiva actual. Lectu
 public ILayoutSlide LayoutSlide { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ILayoutSlide](../../ilayoutslide)
 * interfaz [ISlide](../../islide)

@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides.mathtext/imathematicaltext/value/
 ---
 
-## Свойство IMathematicalText.Value
+## IMathematicalText.Value свойство
 
 Текстовое значение
 

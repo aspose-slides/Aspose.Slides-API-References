@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Musterfüllformat zurück. Nur lesbares IPatternFormataspose.slides/ipatternformat.
+description: Gibt das Musterfüllformat zurück. Nur lesbare IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/linefillformat/patternformat/

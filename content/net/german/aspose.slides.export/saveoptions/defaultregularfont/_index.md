@@ -7,7 +7,7 @@ weight: 10
 url: /de/aspose.slides.export/saveoptions/defaultregularfont/
 ---
 
-## SaveOptions.DefaultRegularFont Eigenschaft
+## SaveOptions.DefaultRegularFont-Eigenschaft
 
 Gibt die Schriftart zurück oder legt sie fest, die verwendet wird, falls die Quellschriftart nicht gefunden wird. Lese- und schreibbare Zeichenfolge.
 
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 	htmlOpts.DefaultRegularFont = "Arial Black";
 	pres.Save(@"SomePresentation-out-ArialBlack.html", SaveFormat.Html, htmlOpts);
 	htmlOpts.DefaultRegularFont = "Lucida Console";
-	pres.Save(@"Somepresentation-out-LucidaConsole.html", SaveFormat.Html, htmlOpts);
+	pres.Save(@"SomePresentation-out-LucidaConsole.html", SaveFormat.Html, htmlOpts);
 
 	PdfOptions pdfOpts = new PdfOptions();
 	pdfOpts.DefaultRegularFont = "Arial Black";

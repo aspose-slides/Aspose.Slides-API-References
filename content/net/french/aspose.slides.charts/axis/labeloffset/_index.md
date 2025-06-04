@@ -1,7 +1,7 @@
 ---
 title: LabelOffset
-second_title: Référence API Aspose.Sildes pour .NET
-description: Spécifie la distance des étiquettes par rapport à l'axe. Appliqué à l'axe de catégorie ou de date. La valeur doit être comprise entre 0 et 1000. Lecture/écriture UInt16.
+second_title: Aspose.Slides pour la référence API .NET
+description: Spécifie la distance des étiquettes par rapport à l'axe. Appliqué à l'axe des catégories ou des dates. La valeur doit être comprise entre 0 et 1000. Lecture/écriture UInt16.
 type: docs
 weight: 320
 url: /fr/aspose.slides.charts/axis/labeloffset/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/axis/labeloffset/
 
 ## Propriété Axis.LabelOffset
 
-Spécifie la distance des étiquettes par rapport à l'axe. Appliqué à l'axe de catégorie ou de date. La valeur doit être comprise entre 0 % et 1000 %. Lecture/écriture UInt16.
+Spécifie la distance des étiquettes par rapport à l'axe. Appliqué à l'axe des catégories ou des dates. La valeur doit être comprise entre 0 % et 1000 %. Lecture/écriture UInt16.
 
 ```csharp
 public ushort LabelOffset { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Axis](../../axis)
 * espace de noms [Aspose.Slides.Charts](../../axis)

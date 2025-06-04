@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定指定的 BiLevelaspose.slides.effects/bilevel 是否等于当前 BiLevelaspose.slides.effects/bilevel。
 type: docs
 weight: 10
@@ -21,9 +21,9 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果对象相等，则为 true；否则，返回 false。
+如果对象相等，则为 true；否则为 false。
 
-### 另请参见
+### 另见
 
 * 类 [BiLevel](../../bilevel)
 * 命名空间 [Aspose.Slides.Effects](../../bilevel)

@@ -15,11 +15,11 @@ Devuelve el administrador de temas de anulación. Solo lectura [`IOverrideThemeM
 public IOverrideThemeManager ThemeManager { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IOverrideThemeManager](../../ioverridethememanager)
 * interfaz [IOverrideThemeable](../../ioverridethemeable)
 * espacio de nombres [Aspose.Slides.Theme](../../ioverridethemeable)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Направление света. Чтение/запись LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ilightrig/direction/
 ---
 
-## Свойство ILightRig.Direction
+## ILightRig.Direction свойство
 
 Направление света. Чтение/запись [`LightingDirection`](../../lightingdirection).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ilightrig/direction/
 public LightingDirection Direction { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [LightingDirection](../../lightingdirection)
 * interface [ILightRig](../../ilightrig)

@@ -1,6 +1,6 @@
 ---
 title: AsIBaseSlide
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет получить базовый интерфейс IBaseSlide. Только для чтения IBaseSlide aspose.slides/ibaseslide.
 type: docs
 weight: 10

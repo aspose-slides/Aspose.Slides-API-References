@@ -1,7 +1,7 @@
 ---
 title: VbaReferenceFactory
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht die Erstellung von VBA-Projektverweisen über die COM-Schnittstelle
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ermöglicht das Erstellen von VBA-Projektverweisen über die COM-Schnittstelle
 type: docs
 weight: 11370
 url: /de/aspose.slides.vba/vbareferencefactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.vba/vbareferencefactory/
 
 ## VbaReferenceFactory-Klasse
 
-Ermöglicht die Erstellung von VBA-Projektverweisen über die COM-Schnittstelle
+Ermöglicht das Erstellen von VBA-Projektverweisen über die COM-Schnittstelle
 
 ```csharp
 public class VbaReferenceFactory : IVbaReferenceFactory
@@ -25,13 +25,13 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | Statische Instanz der VBA-Projektverweisfabrik. Nur lesbar [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | Statische Instanz der VBA-Projektverweise-Fabrik. Nur lesbar [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Erstellt einen neuen OLE-Automation-Typbibliotheksverweis. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Erstellt einen neuen OLE-Automatisierungs-Typbibliotheksverweis. |
 
 ### Siehe auch
 

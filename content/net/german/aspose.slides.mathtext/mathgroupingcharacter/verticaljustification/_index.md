@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
-second_title: Aspose.Slides für .NET API Referenz
-description: Vertikale Begründung des Gruppenzeichens. Gibt die Ausrichtung des Objekts im Hinblick auf die Grundlinie an. Wenn das Gruppenzeichen beispielsweise über dem Objekt liegt, bedeutet eine VertikaleBegründung von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn die VertikaleBegründung auf Unten eingestellt ist, liegt die Unterseite des Objekts auf der Grundlinie. Standard Unten für Position=Oben und Oben für Position=Unten
+second_title: Aspose.Slides für .NET API-Referenz
+description: Vertikale Ausrichtung des Gruppierungszeichens. Gibt die Ausrichtung des Objekts im Verhältnis zur Grundlinie an. Zum Beispiel, wenn das Gruppierungszeichen über dem Objekt steht, bedeutet VerticalJustification von Top, dass die Oberkante des Objekts auf der Grundlinie liegt; wenn VerticalJustification auf Bottom gesetzt ist, liegt die Unterkante des Objekts auf der Grundlinie. Standard Bottom für Position=Top und Top für Position=Bottom.
 type: docs
 weight: 50
 url: /de/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/
 
 ## MathGroupingCharacter.VerticalJustification-Eigenschaft
 
-Vertikale Begründung des Gruppenzeichens. Gibt die Ausrichtung des Objekts im Hinblick auf die Grundlinie an. Wenn das Gruppenzeichen beispielsweise über dem Objekt liegt, bedeutet eine VertikaleBegründung von Oben, dass die Oberseite des Objekts auf der Grundlinie liegt; wenn die VertikaleBegründung auf Unten eingestellt ist, liegt die Unterseite des Objekts auf der Grundlinie. Standard: Unten für Position=Oben und Oben für Position=Unten
+Vertikale Ausrichtung des Gruppierungszeichens. Gibt die Ausrichtung des Objekts im Verhältnis zur Grundlinie an. Zum Beispiel, wenn das Gruppierungszeichen über dem Objekt steht, bedeutet VerticalJustification von Top, dass die Oberkante des Objekts auf der Grundlinie liegt; wenn VerticalJustification auf Bottom gesetzt ist, liegt die Unterkante des Objekts auf der Grundlinie. Standard: Bottom für Position=Top und Top für Position=Bottom.
 
 ```csharp
 public MathTopBotPositions VerticalJustification { get; set; }
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.VerticalJustification = MathTopBotPositions.Top;
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * class [MathGroupingCharacter](../../mathgroupingcharacter)

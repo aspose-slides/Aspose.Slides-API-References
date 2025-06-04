@@ -1,6 +1,6 @@
 ---
 title: SystemColor
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt vordefinierte Systemfarben dar.
 type: docs
 weight: 10500
@@ -51,7 +51,7 @@ public enum SystemColor
 | MenuHighlight | `29` |  |
 | MenuBar | `30` |  |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

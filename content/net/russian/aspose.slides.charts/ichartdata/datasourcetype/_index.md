@@ -1,13 +1,13 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes для .NET API Справка
+second_title: Aspose.Sildes для справочника API .NET
 description: Представляет источник данных графика
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/ichartdata/datasourcetype/
 ---
 
-## IChartData.DataSourceType свойство
+## Свойство IChartData.DataSourceType
 
 Представляет источник данных графика
 

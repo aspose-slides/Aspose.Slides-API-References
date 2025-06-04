@@ -1,7 +1,7 @@
 ---
 title: IChartSeriesCollection
 second_title: Référence API Aspose.Slides pour .NET
-description: Représente une collection de IChartSeries./ichartseries
+description: Représente la collection de IChartSeries./ichartseries
 type: docs
 weight: 1860
 url: /fr/aspose.slides.charts/ichartseriescollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseriescollection/
 
 ## Interface IChartSeriesCollection
 
-Représente une collection de [`IChartSeries`](../ichartseries)
+Représente la collection de [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>

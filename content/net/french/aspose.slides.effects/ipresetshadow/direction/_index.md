@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction de l'ombre. Lecture/écriture de type Single.
+description: Direction de l'ombre. Lecture/écriture Simple.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/ipresetshadow/direction/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ipresetshadow/direction/
 
 ## Propriété IPresetShadow.Direction
 
-Direction de l'ombre. Lecture/écriture de type Single.
+Direction de l'ombre. Lecture/écriture Simple.
 
 ```csharp
 public float Direction { get; set; }

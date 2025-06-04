@@ -1,7 +1,7 @@
 ---
 title: ISmartArtShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示SmartArt图表中的一个形状
+description: 表示SmartArt图表中的形状
 type: docs
 weight: 10260
 url: /zh/aspose.slides.smartart/ismartartshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.smartart/ismartartshape/
 
 ## ISmartArtShape接口
 
-表示SmartArt图表中的一个形状
+表示SmartArt图表中的形状
 
 ```csharp
 public interface ISmartArtShape : IGeometryShape
@@ -22,7 +22,7 @@ public interface ISmartArtShape : IGeometryShape
 | [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | 允许获取基础的IGeometryShape接口。只读 [`IGeometryShape`](../../aspose.slides/igeometryshape)。 |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | 返回SmartArt形状的文本。只读 [`ITextFrame`](../../aspose.slides/itextframe)。 |
 
-### 参见
+### 另见
 
 * 接口 [IGeometryShape](../../aspose.slides/igeometryshape)
 * 命名空间 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

@@ -1,13 +1,13 @@
 ---
 title: IsSeriesUsesBubbleSizeCoordinate
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Sildes pour .NET API Reference
 description: Renvoie si les coordonnées de taille de bulle peuvent être utilisées pour le type de série spécifié.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate/
 ---
 
-## Méthode ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate
+## ChartTypeCharacterizer.IsSeriesUsesBubbleSizeCoordinate méthode
 
 Renvoie si les coordonnées de taille de bulle peuvent être utilisées pour le type de série spécifié.
 

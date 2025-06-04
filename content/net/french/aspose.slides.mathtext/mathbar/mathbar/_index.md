@@ -1,7 +1,7 @@
 ---
 title: MathBar
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Initialise MathBar avec la position de la barre au-dessus
+second_title: Aspose.Sildes pour .NET Référence API
+description: Initialise MathBar avec la position de overbar en haut
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/mathbar/mathbar/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathbar/mathbar/
 
 ## MathBar(IMathElement) {#constructor}
 
-Initialise MathBar avec la barre (position supérieure)
+Initialise MathBar avec overbar (position en haut)
 
 ```csharp
 public MathBar(IMathElement element)
@@ -39,7 +39,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
-Initialise MathBar avec une position spécifiée
+Initialise MathBar avec la position spécifiée
 
 ```csharp
 public MathBar(IMathElement element, MathTopBotPositions position)
@@ -62,7 +62,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions.Bot
 ### Voir aussi
 
 * interface [IMathElement](../../imathelement)
-* énumération [MathTopBotPositions](../../mathtopbotpositions)
+* enum [MathTopBotPositions](../../mathtopbotpositions)
 * classe [MathBar](../../mathbar)
 * espace de noms [Aspose.Slides.MathText](../../mathbar)
 * assembly [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForBarSeries
-second_title: Aspose.Slides for .NET API参考
-description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为柱状图或条形图子类型的系列，详见IsChartTypeColumnaspose.slides/charttypecharacterizer/ischarttypecolumn和IsChartTypeBaraspose.slides/charttypecharacterizer/ischarttypebar方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为列或条形子类型的系列，另请参见 IsChartTypeColumnaspose.slides.charts/charttypecharacterizer/ischarttypecolumn 和 IsChartTypeBaraspose.slides.charts/charttypecharacterizer/ischarttypebar 方法。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
 
 ## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为柱状图或条形图子类型的系列（详见[`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn)和[`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar)方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为列或条形子类型的系列（另请参见 [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) 和 [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
@@ -21,9 +21,9 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 
 ## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
-创建新的数据点并将其添加到集合的末尾。适用于图表类型为柱状图或条形图子类型的系列（详见[`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn)和[`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar)方法）。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为列或条形子类型的系列（另请参见 [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) 和 [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(double value)
@@ -47,9 +47,9 @@ public IChartDataPoint AddDataPointForBarSeries(double value)
 
 ### 返回值
 
-新的数据点。
+新数据点。
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

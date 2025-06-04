@@ -1,6 +1,6 @@
 ---
 title: EnableFillOverlayEffect
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 启用填充叠加效果。
 type: docs
 weight: 190
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ieffectformat/enablefilloverlayeffect/
 public void EnableFillOverlayEffect()
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 命名空间 [Aspose.Slides](../../ieffectformat)

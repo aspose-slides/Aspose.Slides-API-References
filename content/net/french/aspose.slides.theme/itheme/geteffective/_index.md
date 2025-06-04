@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les données du thème effectif avec l'héritage appliqué.
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient les données de thème effectif avec l'héritage appliqué.
 type: docs
 weight: 50
 url: /fr/aspose.slides.theme/itheme/geteffective/
@@ -9,15 +9,15 @@ url: /fr/aspose.slides.theme/itheme/geteffective/
 
 ## ITheme.GetEffective méthode
 
-Obtient les données du thème effectif avec l'héritage appliqué.
+Obtient les données de thème effectif avec l'héritage appliqué.
 
 ```csharp
 public IThemeEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
-Un [`IThemeEffectiveData`](../../ithemeeffectivedata).
+Une [`IThemeEffectiveData`](../../ithemeeffectivedata).
 
 ### Voir aussi
 

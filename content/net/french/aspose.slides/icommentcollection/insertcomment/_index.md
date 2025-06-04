@@ -20,11 +20,11 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
 | --- | --- | --- |
 | index | Int32 | Index de l'élément dans une collection où le commentaire doit être inséré. |
 | text | String | Texte brut d'un nouveau commentaire. |
-| slide | ISlide | Diapositive d'une présentation où ajouter un nouveau commentaire. |
+| slide | ISlide | Diapositive dans une présentation où ajouter un nouveau commentaire. |
 | position | PointF | Position sur une diapositive où ajouter un nouveau commentaire. |
-| creationTime | DateTime | Heure de création d'un commentaire. |
+| creationTime | DateTime | Heure de la création d'un commentaire. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Commentaire inséré.
 

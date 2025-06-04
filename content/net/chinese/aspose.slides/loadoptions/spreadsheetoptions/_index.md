@@ -1,6 +1,6 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取电子表格的选项。例如，这些选项影响图表的公式计算。
 type: docs
 weight: 140

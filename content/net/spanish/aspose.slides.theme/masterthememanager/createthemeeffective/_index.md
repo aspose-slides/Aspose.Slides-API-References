@@ -1,25 +1,25 @@
 ---
 title: CreateThemeEffective
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve el objeto tema.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve el objeto de tema.
 type: docs
 weight: 40
 url: /es/aspose.slides.theme/masterthememanager/createthemeeffective/
 ---
 
-## Método MasterThemeManager.CreateThemeEffective
+## MasterThemeManager.CreateThemeEffective método
 
-Devuelve el objeto tema.
+Devuelve el objeto de tema.
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### Ver También
+### También Vea
 
-* interfaz [IThemeEffectiveData](../../ithemeeffectivedata)
-* clase [MasterThemeManager](../../masterthememanager)
-* espacio de nombres [Aspose.Slides.Theme](../../masterthememanager)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IThemeEffectiveData](../../ithemeeffectivedata)
+* class [MasterThemeManager](../../masterthememanager)
+* namespace [Aspose.Slides.Theme](../../masterthememanager)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

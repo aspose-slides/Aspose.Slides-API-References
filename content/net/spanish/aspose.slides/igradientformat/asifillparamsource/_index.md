@@ -1,25 +1,25 @@
----  
+---
 title: AsIFillParamSource
-second_title: Referencia de API de Aspose.Slides para .NET  
-description: Permite obtener la interfaz base IFillParamSource. IFillParamSource de solo lectura aspose.slides/ifillparamsource.
-type: docs  
-weight: 10  
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Permite obtener la interfaz base IFillParamSource. Solo lectura IFillParamSourceaspose.slides/ifillparamsource.
+type: docs
+weight: 10
 url: /es/aspose.slides/igradientformat/asifillparamsource/
----  
+---
 
-## Propiedad IGradientFormat.AsIFillParamSource  
+## IGradientFormat.AsIFillParamSource propiedad
 
-Permite obtener la interfaz base IFillParamSource. IFillParamSource de solo lectura [`IFillParamSource`](../../ifillparamsource).  
+Permite obtener la interfaz base IFillParamSource. Solo lectura [`IFillParamSource`](../../ifillparamsource).
 
-```csharp  
-public IFillParamSource AsIFillParamSource { get; }  
-```  
+```csharp
+public IFillParamSource AsIFillParamSource { get; }
+```
 
-### Ver también  
+### Ver También
 
-* interfaz [IFillParamSource](../../ifillparamsource)  
-* interfaz [IGradientFormat](../../igradientformat)  
-* espacio de nombres [Aspose.Slides](../../igradientformat)  
-* ensamblaje [Aspose.Slides](../../../)  
+* interfaz [IFillParamSource](../../ifillparamsource)
+* interfaz [IGradientFormat](../../igradientformat)
+* namespace [Aspose.Slides](../../igradientformat)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

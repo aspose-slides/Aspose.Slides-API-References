@@ -1,7 +1,7 @@
 ---
 title: FontColor
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Schriftfarbe einer Form zurück. Nur-Lese IColorFormat aspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Schriftfarbe eines Shapes zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /de/aspose.slides/ishapestyle/fontcolor/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ishapestyle/fontcolor/
 
 ## IShapeStyle.FontColor-Eigenschaft
 
-Gibt die Schriftfarbe einer Form zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
+Gibt die Schriftfarbe eines Shapes zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat FontColor { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IColorFormat](../../icolorformat)
 * Schnittstelle [IShapeStyle](../../ishapestyle)

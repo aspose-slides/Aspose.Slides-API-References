@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Slides für .NET API-Referenz
-description: Richtung des Schattens. Lese-/Schreibzugriff auf Single.
+description: Richtung des Schattens. Schreib-/lesbarer Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/innershadow/direction/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/innershadow/direction/
 
 ## InnerShadow.Direction-Eigenschaft
 
-Richtung des Schattens. Lese-/Schreibzugriff auf Single.
+Richtung des Schattens. Schreib-/lesbarer Single.
 
 ```csharp
 public float Direction { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: ShowMasterShapes
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica si las formas en la diapositiva maestra deben mostrarse en las diapositivas o no. Booleano de lectura/escritura.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Especifica si las formas en la diapositiva maestra deben mostrarse en las diapos
 public override bool ShowMasterShapes { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [NotesSlide](../../notesslide)
 * espacio de nombres [Aspose.Slides](../../notesslide)

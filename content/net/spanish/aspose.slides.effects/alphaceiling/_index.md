@@ -1,6 +1,6 @@
 ---
 title: AlphaCeiling
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa un efecto de Techo Alfa. Los valores de opacidad alfa mayores que cero se cambian a 100. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
 type: docs
 weight: 2760
@@ -9,7 +9,7 @@ url: /es/aspose.slides.effects/alphaceiling/
 
 ## Clase AlphaCeiling
 
-Representa un efecto de Techo Alfa. Los valores alfa (opacidad) mayores que cero se cambian al 100%. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
+Representa un efecto de Techo Alfa. Los valores de alfa (opacidad) mayores que cero se cambian a 100%. En otras palabras, cualquier cosa parcialmente opaca se vuelve completamente opaca.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -26,8 +26,8 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 | Nombre | Descripción |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Determina si el [`AlphaCeiling`](../alphaceiling) especificado es igual al [`AlphaCeiling`](../alphaceiling) actual. |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Obtiene los datos del efecto de Techo Alfa efectivo con la herencia aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Sirve como función hash para un tipo particular. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Obtiene datos del efecto de Techo Alfa efectivo con la herencia aplicada. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Sirve como una función hash para un tipo particular. |
 
 ### Véase También
 

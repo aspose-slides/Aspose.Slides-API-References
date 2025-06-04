@@ -1,13 +1,13 @@
 ---
 title: ShowSlideNumber
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Especifica si el documento generado debe mostrar el número de cada diapositiva o no. El valor predeterminado es falso.
 type: docs
 weight: 110
 url: /es/aspose.slides.export/markdownsaveoptions/showslidenumber/
 ---
 
-## Propiedad MarkdownSaveOptions.ShowSlideNumber
+## MarkdownSaveOptions.ShowSlideNumber propiedad
 
 Especifica si el documento generado debe mostrar el número de cada diapositiva o no. El valor predeterminado es `false`.
 
@@ -15,7 +15,7 @@ Especifica si el documento generado debe mostrar el número de cada diapositiva 
 public bool ShowSlideNumber { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [MarkdownSaveOptions](../../markdownsaveoptions)
 * espacio de nombres [Aspose.Slides.Export](../../markdownsaveoptions)

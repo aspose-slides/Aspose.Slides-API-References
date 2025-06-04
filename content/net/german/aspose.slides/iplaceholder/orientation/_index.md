@@ -1,7 +1,7 @@
 ---
 title: Orientation
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die Orientierung eines Platzhalters. Nur-Lese Orientierung aspose.slides/orientation.
+description: Erhält die Ausrichtung eines Platzhalters. Nur-Lese Orientierung aspose.slides/orientation.
 type: docs
 weight: 20
 url: /de/aspose.slides/iplaceholder/orientation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iplaceholder/orientation/
 
 ## IPlaceholder.Orientation-Eigenschaft
 
-Erhält die Orientierung eines Platzhalters. Nur-Lese [`Orientation`](../../orientation).
+Erhält die Ausrichtung eines Platzhalters. Nur-Lese [`Orientation`](../../orientation).
 
 ```csharp
 public Orientation Orientation { get; }

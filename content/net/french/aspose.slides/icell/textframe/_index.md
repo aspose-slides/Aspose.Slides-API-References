@@ -1,6 +1,6 @@
 ---
 title: TextFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le cadre de texte d'une cellule. Lecture seule ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 210

@@ -1,7 +1,7 @@
 ---
 title: SetSize
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Establece el tipo de tamaño de diapositiva y escala el contenido usando el tipo de escala. Asignar cualquier valor excepto Personalizado cambiará Sizeaspose.slides/islidesize/size en consecuencia, pero mantendrá Orientationaspose.slides/islidesize/orientation intacto.
+description: Establece el tipo de tamaño de diapositiva y escala el contenido utilizando el tipo de escala. Asignar cualquier valor excepto Personalizado cambiará Size../size en consecuencia, pero mantendrá Orientation../orientation intacto.
 type: docs
 weight: 40
 url: /es/aspose.slides/islidesize/setsize/
@@ -9,18 +9,18 @@ url: /es/aspose.slides/islidesize/setsize/
 
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
-Establece el tipo de tamaño de diapositiva y escala el contenido usando el tipo de escala. Asignar cualquier valor excepto Personalizado cambiará [`Size`](../size) en consecuencia, pero mantendrá [`Orientation`](../orientation) intacto.
+Establece el tipo de tamaño de diapositiva y escala el contenido utilizando el tipo de escala. Asignar cualquier valor excepto Personalizado cambiará [`Size`](../size) en consecuencia, pero mantendrá [`Orientation`](../orientation) intacto.
 
 ```csharp
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | type | SlideSizeType | Tipo de tamaño de diapositiva. |
 | scaleType | SlideSizeScaleType | Tipo de escala del contenido de la diapositiva. |
 
-### Ver También
+### See Also
 
 * enum [SlideSizeType](../../slidesizetype)
 * enum [SlideSizeScaleType](../../slidesizescaletype)
@@ -32,19 +32,19 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 ## SetSize(float, float, SlideSizeScaleType) {#setsize_1}
 
-Establece el tamaño en puntos y escala el contenido usando el tipo de escala. Asignar cualquier valor restablecerá la propiedad [`Type`](../type) a Personalizado y establecerá [`Orientation`](../orientation).
+Establece el tamaño en puntos y escala el contenido utilizando el tipo de escala. Asignar cualquier valor restablecerá la propiedad [`Type`](../type) a Personalizado y establecerá [`Orientation`](../orientation).
 
 ```csharp
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)
 ```
 
-| Parámetro | Tipo | Descripción |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | width | Single | Ancho. |
-| height | Single | Alto. |
+| height | Single | Altura. |
 | scaleType | SlideSizeScaleType | Tipo de escala del contenido de la diapositiva. |
 
-### Ver También
+### See Also
 
 * enum [SlideSizeScaleType](../../slidesizescaletype)
 * interface [ISlideSize](../../islidesize)

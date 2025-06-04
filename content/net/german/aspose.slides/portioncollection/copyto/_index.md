@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index.
+second_title: Aspose.Slides für .NET API Referenz
+description: Kopiert die Elemente der ICollection in ein Array, beginnend bei einem bestimmten Array-Index.
 type: docs
 weight: 70
 url: /de/aspose.slides/portioncollection/copyto/
 ---
 
-## PortionCollection.CopyTo-Methode
+## PortionCollection.CopyTo Methode
 
-Kopiert die Elemente der ICollection in ein Array, beginnend an einem bestimmten Array-Index.
+Kopiert die Elemente der ICollection in ein Array, beginnend bei einem bestimmten Array-Index.
 
 ```csharp
 public void CopyTo(IPortion[] array, int arrayIndex)
@@ -17,7 +17,7 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| array | IPortion[] | Das eindimensionale Array, das das Ziel der aus der ICollection kopierten Elemente ist. Das Array muss nullbasiert indiziert sein. |
+| array | IPortion[] | Das eindimensionale Array, das das Ziel der aus der ICollection kopierten Elemente ist. Das Array muss nullbasierte Indizierung haben. |
 | arrayIndex | Int32 | Der nullbasierte Index in *array*, an dem das Kopieren beginnt. |
 
 ### Ausnahmen
@@ -28,7 +28,7 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 | ArgumentOutOfRangeException | *arrayIndex* ist kleiner als 0. |
 | ArgumentException | Die Anzahl der Elemente in der Quell-ICollection ist größer als der verfügbare Platz von *arrayIndex* bis zum Ende des Ziel-*array*. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPortion](../../iportion)
 * Klasse [PortionCollection](../../portioncollection)

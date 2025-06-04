@@ -1,15 +1,15 @@
 ---
 title: SpaceBefore
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit la quantité d'espace avant la première ligne d'un paragraphe. Lecture/écriture Single.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe. Lecture/écriture Single.
 type: docs
 weight: 120
 url: /fr/aspose.slides.charts/ichartparagraphformat/spacebefore/
 ---
 
-## Propriété IChartParagraphFormat.SpaceBefore
+## IChartParagraphFormat.SpaceBefore propriété
 
-Retourne ou définit la quantité d'espace avant la première ligne d'un paragraphe. Lecture/écriture Single.
+Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe. Lecture/écriture Single.
 
 ```csharp
 public float SpaceBefore { get; set; }

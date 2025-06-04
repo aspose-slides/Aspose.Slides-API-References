@@ -1,7 +1,7 @@
 ---
 title: Timing
-second_title: Aspose.Slides pour la référence API .NET
-description: Définit la valeur de timing pour l'effet. Lecture/écriture ITimingaspose.slides.animation/itiming.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Définit la valeur de synchronisation pour l'effet. Lecture/écriture ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 130
 url: /fr/aspose.slides.animation/ieffect/timing/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/ieffect/timing/
 
 ## Propriété IEffect.Timing
 
-Définit la valeur de timing pour l'effet. Lecture/écriture [`ITiming`](../../itiming).
+Définit la valeur de synchronisation pour l'effet. Lecture/écriture [`ITiming`](../../itiming).
 
 ```csharp
 public ITiming Timing { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITiming](../../itiming)
 * interface [IEffect](../../ieffect)

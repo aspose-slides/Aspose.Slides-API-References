@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes для справки по API .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет индекс конкретного IMathBlock в коллекции.
 type: docs
 weight: 80
@@ -21,7 +21,7 @@ public int IndexOf(IMathBlock mathBlock)
 
 ### Возвращаемое значение
 
-Индекс *mathBlock*, если он найден в коллекции; в противном случае -1.
+Индекс *mathBlock*, если он найден в коллекции; в противном случае, -1.
 
 ### Примеры
 

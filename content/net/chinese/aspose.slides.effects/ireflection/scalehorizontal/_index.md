@@ -1,7 +1,7 @@
 ---
 title: ScaleHorizontal
-second_title: Aspose.Slides for .NET API 参考
-description: 指定水平缩放因子，负缩放会导致翻转。百分比 读/写 双精度.
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定水平缩放因子，负缩放会导致翻转。百分比可读写 Double。
 type: docs
 weight: 110
 url: /zh/aspose.slides.effects/ireflection/scalehorizontal/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/scalehorizontal/
 
 ## IReflection.ScaleHorizontal 属性
 
-指定水平缩放因子，负缩放会导致翻转。（百分比）读/写 双精度.
+指定水平缩放因子，负缩放会导致翻转。(百分比)可读写 Double。
 
 ```csharp
 public double ScaleHorizontal { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

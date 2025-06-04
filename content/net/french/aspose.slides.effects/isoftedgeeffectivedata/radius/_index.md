@@ -1,13 +1,13 @@
 ---
 title: Radius
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Spécifie le rayon de flou à appliquer aux bords. Lecture seule Double.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/isoftedgeeffectivedata/radius/
 ---
 
-## Propriété ISoftEdgeEffectiveData.Radius
+## ISoftEdgeEffectiveData.Radius propriété
 
 Spécifie le rayon de flou à appliquer aux bords. Lecture seule Double.
 

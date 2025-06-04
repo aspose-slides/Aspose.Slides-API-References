@@ -15,7 +15,7 @@ Devuelve o establece la altura del viñeta de un párrafo sin herencia. El valor
 public float Height { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * interfaz [IBulletFormat](../../ibulletformat)
 * espacio de nombres [Aspose.Slides](../../ibulletformat)

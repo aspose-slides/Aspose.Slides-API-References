@@ -1,6 +1,6 @@
 ---
 title: GetRange
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取图表数据范围。
 type: docs
 weight: 90
@@ -17,13 +17,13 @@ public string GetRange()
 
 ### 返回值
 
-单元格数据范围公式。例如: "Sheet1!$A$1:$C$4"
+单元格数据范围公式。 例如: "Sheet1!$A$1:$C$4"
 
 ### 异常
 
-| 异常                         | 条件                                      |
-|------------------------------|-------------------------------------------|
-| InvalidOperationException | 图表未使用工作簿作为数据源             |
+| 异常 | 条件 |
+| --- | --- |
+| InvalidOperationException | 图表不使用工作簿作为数据源 |
 
 ### 示例
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IChartData](../../ichartdata)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdata)

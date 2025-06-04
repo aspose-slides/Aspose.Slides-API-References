@@ -1,21 +1,21 @@
 ---
 title: HangingPunctuation
 second_title: Aspose.Sildes для .NET API Справочник
-description: Определяет, используется ли висячая пунктуация в абзаце. Чтение/Запись NullableBoolaspose.slides/nullablebool.
+description: Определяет, используется ли подвешенная пунктуация в абзаце. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartparagraphformat/hangingpunctuation/
 ---
 
-## IChartParagraphFormat.HangingPunctuation свойство
+## IChartParagraphFormat.HangingPunctuation property
 
-Определяет, используется ли висячая пунктуация в абзаце. Чтение/Запись [`NullableBool`](../../../aspose.slides/nullablebool).
+Определяет, используется ли подвешенная пунктуация в абзаце. Чтение/запись [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IChartParagraphFormat](../../ichartparagraphformat)

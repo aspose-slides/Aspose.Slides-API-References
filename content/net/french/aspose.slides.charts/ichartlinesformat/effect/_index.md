@@ -1,13 +1,13 @@
 ---
 title: Effect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les effets utilisés pour une ligne de graphique. Lecture seule IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartlinesformat/effect/
 ---
 
-## Propriété IChartLinesFormat.Effect
+## IChartLinesFormat.Effect propriété
 
 Renvoie les effets utilisés pour une ligne de graphique. Lecture seule [`IEffectFormat`](../../../aspose.slides/ieffectformat).
 

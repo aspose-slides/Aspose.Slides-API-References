@@ -1,7 +1,7 @@
 ---
 title: FilterEffectType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa tipos de efectos de filtro.
+second_title: Aspose.Sildes para la referencia de la API de .NET
+description: Representa los tipos de efectos de filtro.
 type: docs
 weight: 320
 url: /es/aspose.slides.animation/filtereffecttype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/filtereffecttype/
 
 ## Enumeración FilterEffectType
 
-Representa tipos de efectos de filtro.
+Representa los tipos de efectos de filtro.
 
 ```csharp
 public enum FilterEffectType

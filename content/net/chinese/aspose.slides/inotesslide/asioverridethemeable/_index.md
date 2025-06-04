@@ -15,11 +15,11 @@ url: /zh/aspose.slides/inotesslide/asioverridethemeable/
 public IOverrideThemeable AsIOverrideThemeable { get; }
 ```
 
-### 注释
+### 备注
 
 用于 COM 兼容性。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
 * 接口 [INotesSlide](../../inotesslide)

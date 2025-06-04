@@ -7,7 +7,7 @@ weight: 90
 url: /fr/aspose.slides/ithreedformateffectivedata/extrusionheight/
 ---
 
-## Propriété IThreeDFormatEffectiveData.ExtrusionHeight
+## IThreeDFormatEffectiveData.ExtrusionHeight propriété
 
 Renvoie la hauteur d'un effet d'extrusion. Lecture seule Double.
 
@@ -15,7 +15,7 @@ Renvoie la hauteur d'un effet d'extrusion. Lecture seule Double.
 public double ExtrusionHeight { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)
 * namespace [Aspose.Slides](../../ithreedformateffectivedata)

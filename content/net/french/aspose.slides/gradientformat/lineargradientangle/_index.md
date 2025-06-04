@@ -1,7 +1,7 @@
 ---
 title: LinearGradientAngle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Simple.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Single.
 type: docs
 weight: 40
 url: /fr/aspose.slides/gradientformat/lineargradientangle/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/gradientformat/lineargradientangle/
 
 ## Propriété GradientFormat.LinearGradientAngle
 
-Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Simple.
+Renvoie ou définit l'angle d'un dégradé. Lecture/écriture Single.
 
 ```csharp
 public float LinearGradientAngle { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [GradientFormat](../../gradientformat)
 * espace de noms [Aspose.Slides](../../gradientformat)

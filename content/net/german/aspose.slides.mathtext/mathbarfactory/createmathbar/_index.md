@@ -1,7 +1,7 @@
 ---
 title: CreateMathBar
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellen Sie eine Math-Bar, indem Sie auf das Element anwenden
+second_title: Aspose.Slides für .NET API Referenz
+description: Erstellen Sie eine Mathematik-Leiste, indem Sie sie auf das Element anwenden
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathbarfactory/createmathbar/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathbarfactory/createmathbar/
 
 ## CreateMathBar(IMathElement) {#createmathbar}
 
-Erstellen Sie eine Math-Bar, indem Sie auf das Element anwenden
+Erstellen Sie eine Mathematik-Leiste, indem Sie sie auf das Element anwenden
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element)
@@ -17,13 +17,13 @@ public IMathBar CreateMathBar(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Math-Element, auf das die Bar angewendet wird |
+| element | IMathElement | Mathematisches Element, auf das die Leiste angewendet werden soll |
 
 ### Rückgabewert
 
-neues Math-Bar-Element
+neues Mathematik-Leistenelement
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBar](../../imathbar)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ neues Math-Bar-Element
 
 ## CreateMathBar(IMathElement, MathTopBotPositions) {#createmathbar_1}
 
-Erstellen Sie eine Math-Bar, indem Sie auf das Element anwenden
+Erstellen Sie eine Mathematik-Leiste, indem Sie sie auf das Element anwenden
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position)
@@ -43,18 +43,18 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Math-Element, auf das die Bar angewendet wird |
-| position | MathTopBotPositions | Position der Bar |
+| element | IMathElement | Mathematisches Element, auf das die Leiste angewendet werden soll |
+| position | MathTopBotPositions | Position der Leiste |
 
 ### Rückgabewert
 
-neues Math-Bar-Element
+neues Mathematik-Leistenelement
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBar](../../imathbar)
 * Schnittstelle [IMathElement](../../imathelement)
-* Enum [MathTopBotPositions](../../mathtopbotpositions)
+* enum [MathTopBotPositions](../../mathtopbotpositions)
 * Klasse [MathBarFactory](../../mathbarfactory)
 * Namespace [Aspose.Slides.MathText](../../mathbarfactory)
 * Assembly [Aspose.Slides](../../../)

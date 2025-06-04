@@ -1,7 +1,7 @@
 ---
 title: Axes
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournir un accès aux axes de graphique. Lecture seule IAxesManageraspose.slides.charts/iaxesmanager.
+description: Fournir un accès aux axes de graphique. Lecture seule IAxesManager aspose.slides.charts/iaxesmanager.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichart/axes/
@@ -15,7 +15,7 @@ Fournir un accès aux axes de graphique. Lecture seule [`IAxesManager`](../../ia
 public IAxesManager Axes { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAxesManager](../../iaxesmanager)
 * interface [IChart](../../ichart)

@@ -1,21 +1,21 @@
 ---
 title: LayoutTargetType
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe diseñar el área del gráfico por su interior sin incluir los ejes y las etiquetas de los ejes o por su exterior incluyendo los ejes y las etiquetas de los ejes. Lectura/escritura LayoutTargetTypeaspose.slides.charts/ichartplotarea/layouttargettype.
+second_title: Aspose.Sildes for .NET API Reference
+description: Si el diseño del área del gráfico está definido manualmente, esta propiedad especifica si el área del gráfico debe diseñarse por su interior sin incluir ejes y etiquetas de ejes o por fuera incluyendo ejes y etiquetas de ejes. Lectura/escritura LayoutTargetType aspose.slides.charts/ichartplotarea/layouttargettype.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/ichartplotarea/layouttargettype/
 ---
 
-## Propiedad IChartPlotArea.LayoutTargetType
+## IChartPlotArea.LayoutTargetType property
 
-Si el diseño del área del gráfico se define manualmente, esta propiedad especifica si se debe diseñar el área del gráfico por su interior (sin incluir los ejes y las etiquetas de los ejes) o por su exterior (incluyendo los ejes y las etiquetas de los ejes). Lectura/escritura `LayoutTargetType`.
+Si el diseño del área del gráfico está definido manualmente, esta propiedad especifica si el área del gráfico debe diseñarse por su interior (sin incluir ejes y etiquetas de ejes) o por fuera (incluyendo ejes y etiquetas de ejes). Lectura/escritura `LayoutTargetType`.
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }
 ```
 
-### Ejemplos
+### Examples
 
 ```csharp
 using (Presentation presentation = new Presentation())
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation())
 
 ```
 
-### Véase También
+### See Also
 
 * enum [LayoutTargetType](../../layouttargettype)
 * interface [IChartPlotArea](../../ichartplotarea)

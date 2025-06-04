@@ -1,6 +1,6 @@
 ---
 title: SkewMatrixPerspectiveX
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad skew.matrix.perspectiveX
 type: docs
 weight: 770

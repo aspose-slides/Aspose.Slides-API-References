@@ -1,6 +1,6 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справка по API Aspose.Slides для .NET
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

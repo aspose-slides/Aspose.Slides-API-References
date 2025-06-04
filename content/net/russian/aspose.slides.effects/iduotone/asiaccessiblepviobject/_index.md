@@ -1,6 +1,6 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Справочник
 description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10

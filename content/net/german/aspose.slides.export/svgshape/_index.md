@@ -25,9 +25,9 @@ public sealed class SvgShape : ISvgShape
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Setzt den Ereignishandler für die Form |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | Legt den Ereignis-Handler für die Form fest |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISvgShape](../isvgshape)
 * Namespace [Aspose.Slides.Export](../../aspose.slides.export)

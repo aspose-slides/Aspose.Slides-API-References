@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt alle Elemente aus der ICollection.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/piesplitcustompointcollection/clear/
 ---
 
-## PieSplitCustomPointCollection.Clear Methode
+## PieSplitCustomPointCollection.Clear-Methode
 
 Entfernt alle Elemente aus der ICollection.
 

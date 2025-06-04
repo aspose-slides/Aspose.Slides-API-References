@@ -1,21 +1,21 @@
 ---
 title: To
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的结束值。可读可写的单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 描述动画的结束值。可读写单精度浮点数。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/rotationeffect/to/
 ---
 
-## RotationEffect.To 属性
+## RotationEffect.To property
 
-描述动画的结束值。可读可写的单精度浮点数。
+描述动画的结束值。可读写单精度浮点数。
 
 ```csharp
 public float To { get; set; }
 ```
 
-### 参考
+### 另请参见
 
 * class [RotationEffect](../../rotationeffect)
 * namespace [Aspose.Slides.Animation](../../rotationeffect)

@@ -1,7 +1,7 @@
 ---
 title: CountOfCustomProperties
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der tatsächlich in einer Sammlung enthaltenen benutzerdefinierten Eigenschaften zurück. Nur lesbares Int32.
+description: Gibt die Anzahl der tatsächlich in einer Sammlung enthaltenen benutzerdefinierten Eigenschaften zurück. Nur-Lese Int32.
 type: docs
 weight: 100
 url: /de/aspose.slides/documentproperties/countofcustomproperties/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/countofcustomproperties/
 
 ## DocumentProperties.CountOfCustomProperties-Eigenschaft
 
-Gibt die Anzahl der tatsächlich in einer Sammlung enthaltenen benutzerdefinierten Eigenschaften zurück. Nur lesbares Int32.
+Gibt die Anzahl der tatsächlich in einer Sammlung enthaltenen benutzerdefinierten Eigenschaften zurück. Nur-Lese Int32.
 
 ```csharp
 public int CountOfCustomProperties { get; }

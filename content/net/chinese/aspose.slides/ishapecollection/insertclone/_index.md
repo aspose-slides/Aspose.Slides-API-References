@@ -1,15 +1,15 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides for .NET API 参考
-description: 将指定形状的副本插入到集合的指定位置。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合的指定位置插入指定形状的副本。
 type: docs
 weight: 270
 url: /zh/aspose.slides/ishapecollection/insertclone/
 ---
 
-## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
+## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
-将指定形状的副本插入到集合的指定位置。
+在集合的指定位置插入指定形状的副本。
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y, float width, 
@@ -38,9 +38,9 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 
 ---
 
-## InsertClone(int, IShape, float, float) {#insertclone_1}
+## InsertClone(int, IShape, float, float) {#insertclone_1}
 
-将指定形状的副本插入到集合的指定位置。新形状的宽度和高度等于 *sourceShape* 的宽度和高度。
+在集合的指定位置插入指定形状的副本。新形状的宽度和高度等于 *sourceShape* 的宽度和高度。
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y)
@@ -66,9 +66,9 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 
 ---
 
-## InsertClone(int, IShape) {#insertclone}
+## InsertClone(int, IShape) {#insertclone}
 
-将指定形状的副本插入到集合的指定位置。新形状的 X、Y、宽度和高度等于 *sourceShape* 的 X、Y、宽度和高度。
+在集合的指定位置插入指定形状的副本。新形状的 X、Y、宽度和高度等于 *sourceShape* 的 X、Y、宽度和高度。
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)

@@ -1,15 +1,15 @@
 ---
 title: SubstitutedFontName
-second_title: Aspose.Slides для .NET API Справочник
-description: Указывает название заменяющего шрифта для оригинального шрифта. Только для чтения Строка
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает название заменяющего шрифта для оригинального шрифта. Только для чтения String
 type: docs
 weight: 30
 url: /ru/aspose.slides/fontsubstitutioninfo/substitutedfontname/
 ---
 
-## FontSubstitutionInfo.SubstitutedFontName свойство
+## FontSubstitutionInfo.SubstitutedFontName property
 
-Указывает название заменяющего шрифта для оригинального шрифта. Только для чтения Строка
+Указывает название заменяющего шрифта для оригинального шрифта. Только для чтения String
 
 ```csharp
 public string SubstitutedFontName { get; }

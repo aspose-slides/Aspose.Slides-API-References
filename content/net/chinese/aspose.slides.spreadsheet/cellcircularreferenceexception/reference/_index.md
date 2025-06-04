@@ -1,6 +1,6 @@
 ---
 title: Reference
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取循环单元格引用。
 type: docs
 weight: 20
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.spreadsheet/cellcircularreferenceexception/reference/
 
 ## CellCircularReferenceException.Reference 属性
 
-获取循环单元格引用。
+获取一个循环单元格引用。
 
 ```csharp
 public string Reference { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 类 [CellCircularReferenceException](../../cellcircularreferenceexception)
 * 命名空间 [Aspose.Slides.Spreadsheet](../../cellcircularreferenceexception)

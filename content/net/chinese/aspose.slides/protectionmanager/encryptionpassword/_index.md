@@ -1,6 +1,6 @@
 ---
 title: EncryptionPassword
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取用于演示文稿加密的密码。只读字符串。
 type: docs
 weight: 20

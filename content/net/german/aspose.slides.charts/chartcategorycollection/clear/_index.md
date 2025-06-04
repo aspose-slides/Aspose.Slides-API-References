@@ -7,7 +7,7 @@ weight: 80
 url: /de/aspose.slides.charts/chartcategorycollection/clear/
 ---
 
-## ChartCategoryCollection.Clear-Methode
+## ChartCategoryCollection.Clear Methode
 
 Entfernt alle Elemente aus der Sammlung.
 

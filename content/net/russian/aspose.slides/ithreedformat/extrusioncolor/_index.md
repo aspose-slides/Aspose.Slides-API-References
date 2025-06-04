@@ -1,21 +1,21 @@
 ---
 title: ExtrusionColor
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает или устанавливает цвет экструзии. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или задает цвет экструзии. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ithreedformat/extrusioncolor/
 ---
 
-## Свойство IThreeDFormat.ExtrusionColor
+## IThreeDFormat.ExtrusionColor свойство
 
-Возвращает или устанавливает цвет экструзии. Только для чтения [`IColorFormat`](../../icolorformat).
+Возвращает или задает цвет экструзии. Только для чтения [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ExtrusionColor { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * интерфейс [IThreeDFormat](../../ithreedformat)

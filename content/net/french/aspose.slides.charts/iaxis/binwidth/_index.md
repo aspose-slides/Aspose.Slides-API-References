@@ -1,7 +1,7 @@
 ---
 title: BinWidth
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la largeur de bin lorsque la valeur de la propriété AggregationType est définie sur AxisAggregationType.ByBinWidth. S'applique aux axes de catégorie. Utilisé uniquement avec les séries Histogramme ou HistogramPareto.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Spécifie la largeur du bin lorsque la valeur de la propriété AggregationType est définie sur AxisAggregationType.ByBinWidth. Appliqué aux axes de catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/iaxis/binwidth/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/binwidth/
 
 ## Propriété IAxis.BinWidth
 
-Spécifie la largeur de bin lorsque la valeur de la propriété AggregationType est définie sur AxisAggregationType.ByBinWidth. S'applique aux axes de catégorie. Utilisé uniquement avec les séries Histogramme ou HistogramPareto.
+Spécifie la largeur du bin lorsque la valeur de la propriété AggregationType est définie sur AxisAggregationType.ByBinWidth. Appliqué aux axes de catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
 
 ```csharp
 public double BinWidth { get; set; }

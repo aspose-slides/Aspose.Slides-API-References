@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает хэш-код изображения.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ppimage/gethashcode/
 ---
 
-## Метод PPImage.GetHashCode
+## PPImage.GetHashCode метод
 
 Возвращает хэш-код изображения.
 
@@ -15,11 +15,11 @@ url: /ru/aspose.slides/ppimage/gethashcode/
 public override int GetHashCode()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 Хэш-код.
 
-### См. также
+### См. Также
 
 * класс [PPImage](../../ppimage)
 * пространство имен [Aspose.Slides](../../ppimage)

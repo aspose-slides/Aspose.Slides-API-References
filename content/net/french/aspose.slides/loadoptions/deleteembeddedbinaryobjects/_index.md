@@ -7,17 +7,17 @@ weight: 70
 url: /fr/aspose.slides/loadoptions/deleteembeddedbinaryobjects/
 ---
 
-## Propriété LoadOptions.DeleteEmbeddedBinaryObjects
+## LoadOptions.DeleteEmbeddedBinaryObjects propriété
 
 Détermine si Aspose.Slides supprimera tous les objets binaires intégrés lors du chargement de la présentation.
 
-Les types des objets binaires intégrés :
+Les types d'objets binaires intégrés :
 
 * Projet VBA [`VbaProject`](../../ipresentation/vbaproject)
-* Données intégrées de l'objet OLE [`EmbeddedFileData`](../../ioleembeddeddatainfo/embeddedfiledata)
-* Données binaires du contrôle ActiveX [`ActiveXControlBinary`](../../icontrol/activexcontrolbinary)
+* Données de fichier OLE intégrées [`EmbeddedFileData`](../../ioleembeddeddatainfo/embeddedfiledata)
+* Données binaires de contrôle ActiveX [`ActiveXControlBinary`](../../icontrol/activexcontrolbinary)
 
-Lecture/écriture booléenne.
+Lecture/écriture booléen.
 
 ```csharp
 public bool DeleteEmbeddedBinaryObjects { get; set; }

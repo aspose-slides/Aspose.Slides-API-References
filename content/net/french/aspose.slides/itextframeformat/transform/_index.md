@@ -1,7 +1,7 @@
 ---
 title: Transform
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit la forme d'enveloppement de texte. Lecture/écriture TextShapeTypeaspose.slides/textshapetype.
+description: Obtient ou définit la forme de wrapping de texte. Lecture/écriture TextShapeType aspose.slides/textshapetype.
 type: docs
 weight: 150
 url: /fr/aspose.slides/itextframeformat/transform/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itextframeformat/transform/
 
 ## Propriété ITextFrameFormat.Transform
 
-Obtient ou définit la forme d'enveloppement de texte. Lecture/écriture [`TextShapeType`](../../textshapetype).
+Obtient ou définit la forme de wrapping de texte. Lecture/écriture [`TextShapeType`](../../textshapetype).
 
 ```csharp
 public TextShapeType Transform { get; set; }

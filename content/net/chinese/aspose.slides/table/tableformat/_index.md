@@ -1,7 +1,7 @@
 ---
 title: TableFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回包含该表格格式属性的 TableFormat 对象。只读 ITableFormat aspose.slides/itableformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回包含该表格格式属性的 TableFormat 对象。只读 ITableFormataspose.slides/itableformat。
 type: docs
 weight: 120
 url: /zh/aspose.slides/table/tableformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/table/tableformat/
 public ITableFormat TableFormat { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITableFormat](../../itableformat)
 * 类 [Table](../../table)

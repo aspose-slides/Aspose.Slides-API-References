@@ -1,6 +1,6 @@
 ---
 title: ICommandEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Representa un efecto de comando para un comportamiento de animación.
 type: docs
 weight: 400
@@ -24,10 +24,10 @@ public interface ICommandEffect : IBehavior
 | [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Define el objetivo de forma del efecto de comando. Lectura/escritura [`IShape`](../../aspose.slides/ishape). |
 | [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Define el tipo de efecto de comando del comportamiento. Lectura/escritura [`CommandEffectType`](../commandeffecttype). |
 
-### Véase También
+### Véase también
 
 * interfaz [IBehavior](../ibehavior)
 * espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

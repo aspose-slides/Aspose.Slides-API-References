@@ -1,7 +1,7 @@
 ---
 title: UniqueId
-second_title: Aspose.Slides for .NET API Reference
-description: 获取演示范围内的唯一形状标识符。只读 UInt32。有关在幻灯片范围内获取唯一形状标识符，请参见 OfficeInteropShapeId aspose.slides/ishape/officeinteropshapeid。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取演示文稿范围内的唯一形状标识符。只读 UInt32。有关获取幻灯片范围内唯一形状标识符的信息，请参见 OfficeInteropShapeId../officeinteropshapeid。
 type: docs
 weight: 250
 url: /zh/aspose.slides/ishape/uniqueid/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishape/uniqueid/
 
 ## IShape.UniqueId 属性
 
-获取演示范围内的唯一形状标识符。只读 UInt32。有关在幻灯片范围内获取唯一形状标识符，请参见 [`OfficeInteropShapeId`](../officeinteropshapeid)。
+获取演示文稿范围内的唯一形状标识符。只读 UInt32。有关获取幻灯片范围内唯一形状标识符的信息，请参见 [`OfficeInteropShapeId`](../officeinteropshapeid)。
 
 ```csharp
 public uint UniqueId { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

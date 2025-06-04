@@ -1,7 +1,7 @@
 ---
 title: Masters
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. Schreibgeschütztes IMasterSlideCollectionaspose.slides/imasterslidecollection.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. Schreibgeschützte IMasterSlideCollectionaspose.slides/imasterslidecollection.
 type: docs
 weight: 190
 url: /de/aspose.slides/ipresentation/masters/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/masters/
 
 ## IPresentation.Masters-Eigenschaft
 
-Gibt eine Liste aller Master-Folien zurück, die in der Präsentation definiert sind. Schreibgeschütztes [`IMasterSlideCollection`](../../imasterslidecollection).
+Gibt eine Liste aller Masterfolien zurück, die in der Präsentation definiert sind. Schreibgeschützte [`IMasterSlideCollection`](../../imasterslidecollection).
 
 ```csharp
 public IMasterSlideCollection Masters { get; }

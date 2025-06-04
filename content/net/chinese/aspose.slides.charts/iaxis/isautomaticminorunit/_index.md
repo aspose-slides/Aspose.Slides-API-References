@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinorUnit
-second_title: Aspose.Slides for .NET API 参考
-description: 指示坐标轴的最小单位是否自动分配。可读写布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 指示轴的次单位是否自动分配。可读写布尔值。
 type: docs
 weight: 200
 url: /zh/aspose.slides.charts/iaxis/isautomaticminorunit/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/isautomaticminorunit/
 
 ## IAxis.IsAutomaticMinorUnit 属性
 
-指示坐标轴的最小单位是否自动分配。可读写布尔值。
+指示轴的次单位是否自动分配。可读写布尔值。
 
 ```csharp
 public bool IsAutomaticMinorUnit { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

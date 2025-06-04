@@ -1,7 +1,7 @@
 ---
 title: IsValid
 second_title: Référence API Aspose.Slides pour .NET
-description: Si cette signature numérique est valide et que le document n'a pas été altéré, cette valeur sera vraie. Booléen en lecture seule.
+description: Si cette signature numérique est valide et que le document n'a pas été modifié, cette valeur sera vraie. Booléen en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/digitalsignature/isvalid/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/digitalsignature/isvalid/
 
 ## Propriété DigitalSignature.IsValid
 
-Si cette signature numérique est valide et que le document n'a pas été altéré, cette valeur sera vraie. Booléen en lecture seule.
+Si cette signature numérique est valide et que le document n'a pas été modifié, cette valeur sera vraie. Booléen en lecture seule.
 
 ```csharp
 public bool IsValid { get; }
@@ -22,7 +22,7 @@ public bool IsValid { get; }
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     foreach (DigitalSignature signature in pres.DigitalSignatures)
-        Console.WriteLine("Vérification de la signature : " + (signature.IsValid ? "VALID" : "INVALID"));
+        Console.WriteLine("Vérification de la signature : " + (signature.IsValid ? "VALIDE" : "INVALID"));
 }
 ```
 

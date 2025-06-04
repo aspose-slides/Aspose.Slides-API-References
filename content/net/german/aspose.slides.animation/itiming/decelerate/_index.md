@@ -1,7 +1,7 @@
 ---
 title: Decelerate
 second_title: Aspose.Sildes für .NET API Referenz
-description: Beschreibt den Prozentsatz des Zeitraums für den Verlangsamungseffekt. Lese-/Schreibzugriff auf Single.
+description: Beschreibt den Prozentsatz der Dauer des Verzögerungsverhaltens. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/itiming/decelerate/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/itiming/decelerate/
 
 ## ITiming.Decelerate-Eigenschaft
 
-Beschreibt den Prozentsatz des Zeitraums für den Verlangsamungseffekt. Lese-/Schreibzugriff auf Single.
+Beschreibt den Prozentsatz der Dauer des Verzögerungsverhaltens. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float Decelerate { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITiming](../../itiming)
 * Namespace [Aspose.Slides.Animation](../../itiming)

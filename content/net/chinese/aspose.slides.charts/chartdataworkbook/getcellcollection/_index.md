@@ -17,8 +17,8 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| formula | String | Excel 公式，例如 "Sheet1!$A$2:$A$5"。 |
-| skipHiddenCells | Boolean | 如果为 true，则方法返回不包含隐藏单元格的集合。 |
+| formula | String | Excel 公式，如 "Sheet1!$A$2:$A$5" 。 |
+| skipHiddenCells | Boolean | 如果为 true，则方法返回不包括隐藏单元格的集合。 |
 
 ### 另请参阅
 

@@ -1,7 +1,7 @@
 ---
 title: ShowMeanMarkers
-second_title: Aspose.Slides pour .NET Référence API
-description: Représente les marqueurs moyens. Vrai si les marqueurs moyens sont affichés sur le diagramme BoxAndWhisker. S'applique uniquement aux diagrammes BoxAndWhisker. Lisible/écriture Booléen.
+second_title: Aspose.Sildes pour .NET Référence d'API
+description: Représente les marqueurs moyens. Vrai si les marqueurs moyens sont affichés sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Booléen en lecture/écriture.
 type: docs
 weight: 400
 url: /fr/aspose.slides.charts/ichartseries/showmeanmarkers/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseries/showmeanmarkers/
 
 ## Propriété IChartSeries.ShowMeanMarkers
 
-Représente les marqueurs moyens. Vrai si les marqueurs moyens sont affichés sur le diagramme BoxAndWhisker. S'applique uniquement aux diagrammes BoxAndWhisker. Lisible/écriture Booléen.
+Représente les marqueurs moyens. Vrai si les marqueurs moyens sont affichés sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Booléen en lecture/écriture.
 
 ```csharp
 public bool ShowMeanMarkers { get; set; }

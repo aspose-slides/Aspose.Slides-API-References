@@ -17,7 +17,7 @@ public bool HideSuperscript { get; set; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSuperscript = true;
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathNaryOperatorProperties](../../imathnaryoperatorproperties)
 * 命名空间 [Aspose.Slides.MathText](../../imathnaryoperatorproperties)

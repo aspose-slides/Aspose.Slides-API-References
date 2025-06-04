@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API Reference
-description: 获取应用继承的有效段落格式化数据。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取应用继承的有效段落格式数据。
 type: docs
 weight: 160
 url: /zh/aspose.slides/paragraphformat/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/paragraphformat/geteffective/
 
 ## ParagraphFormat.GetEffective 方法
 
-获取应用继承的有效段落格式化数据。
+获取应用继承的有效段落格式数据。
 
 ```csharp
 public IParagraphFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ public IParagraphFormatEffectiveData GetEffective()
 
 ### 示例
 
-此示例演示了如何获取一些有效的段落格式属性。
+此示例演示如何获取一些有效的段落格式属性。
 
 ```csharp
 [C#]
@@ -30,13 +30,13 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	IAutoShape shape = pres.Slides[0].Shapes[0] as IAutoShape;
 	IParagraphFormatEffectiveData effectiveParagraphFormat = shape.TextFrame.Paragraphs[0].ParagraphFormat.GetEffective();
 
-	Console.WriteLine("文本对齐: " + effectiveParagraphFormat.Alignment);
+	Console.WriteLine("文本对齐方式: " + effectiveParagraphFormat.Alignment);
 	Console.WriteLine("缩进: " + effectiveParagraphFormat.Indent);
 	Console.WriteLine("项目符号类型: " + effectiveParagraphFormat.Bullet.Type);
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * 类 [ParagraphFormat](../../paragraphformat)

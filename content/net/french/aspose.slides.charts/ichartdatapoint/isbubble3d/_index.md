@@ -1,7 +1,7 @@
 ---
 title: IsBubble3D
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie que les bulles ont un effet 3D appliqué. Lecture/écriture Booléen.
+description: Spécifie que les bulles ont un effet 3-D appliqué. Boolean en lecture/écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/ichartdatapoint/isbubble3d/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/ichartdatapoint/isbubble3d/
 
 ## IChartDataPoint.IsBubble3D propriété
 
-Spécifie que les bulles ont un effet 3D appliqué. Lecture/écriture Booléen.
+Spécifie que les bulles ont un effet 3-D appliqué. Boolean en lecture/écriture.
 
 ```csharp
 public bool IsBubble3D { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * namespace [Aspose.Slides.Charts](../../ichartdatapoint)

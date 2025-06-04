@@ -15,11 +15,11 @@ Devuelve la diapositiva principal. Solo lectura [`IBaseSlide`](../../../aspose.s
 public IBaseSlide Slide { get; }
 ```
 
-### También Véase
+### Ver También
 
 * interfaz [IBaseSlide](../../../aspose.slides/ibaseslide)
 * clase [FormatScheme](../../formatscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../formatscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

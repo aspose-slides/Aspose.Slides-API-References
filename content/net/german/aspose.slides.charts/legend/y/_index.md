@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die y-Koordinate einer Legende als Bruchteil der Höhe des Diagramms zurück oder legt sie fest. Lese-/Schreib-Zahl.
+description: Gibt die y-Koordinate einer Legende als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff Single.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/legend/y/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legend/y/
 
 ## Legend.Y-Eigenschaft
 
-Gibt die y-Koordinate einer Legende als Bruchteil der Höhe des Diagramms zurück oder legt sie fest. Lese-/Schreib-Zahl.
+Gibt die y-Koordinate einer Legende als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float Y { get; set; }

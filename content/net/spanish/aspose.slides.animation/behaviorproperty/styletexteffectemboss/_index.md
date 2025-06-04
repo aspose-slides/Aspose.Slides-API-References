@@ -1,13 +1,13 @@
 ---
 title: StyleTextEffectEmboss
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Representa la propiedad style.textEffectEmboss
+second_title: Aspose.Slides para .NET Referencia de API
+description: Representa la propiedad 'style.textEffectEmboss'
 type: docs
 weight: 1150
 url: /es/aspose.slides.animation/behaviorproperty/styletexteffectemboss/
 ---
 
-## Propiedad BehaviorProperty.StyleTextEffectEmboss
+## BehaviorProperty.StyleTextEffectEmboss property
 
 Representa la propiedad 'style.textEffectEmboss'
 
@@ -15,7 +15,7 @@ Representa la propiedad 'style.textEffectEmboss'
 public static BehaviorProperty StyleTextEffectEmboss { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

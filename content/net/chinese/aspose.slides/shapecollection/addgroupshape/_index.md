@@ -1,7 +1,7 @@
 ---
 title: AddGroupShape
-second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的 GroupShape 并将其添加到集合的末尾。当新的形状添加到 GroupShape 时，GroupShape 的框架尺寸和位置将适应内容。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的 GroupShape 并将其添加到集合的末尾。当将新的形状添加到 GroupShape 中时，GroupShape 的框架大小和位置将根据内容进行调整。
 type: docs
 weight: 130
 url: /zh/aspose.slides/shapecollection/addgroupshape/
@@ -9,19 +9,19 @@ url: /zh/aspose.slides/shapecollection/addgroupshape/
 
 ## AddGroupShape() {#addgroupshape}
 
-创建一个新的 GroupShape 并将其添加到集合的末尾。当新的形状添加到 GroupShape 时，GroupShape 的框架尺寸和位置将适应内容。
+创建一个新的 GroupShape 并将其添加到集合的末尾。当将新的形状添加到 GroupShape 中时，GroupShape 的框架大小和位置将根据内容进行调整。
 
 ```csharp
 public IGroupShape AddGroupShape()
 ```
 
-### 返回值
+### Return Value
 
 创建的 GroupShape 对象。
 
-### 示例
+### Examples
 
-以下示例展示了如何向 PowerPoint 演示文稿的幻灯片中添加一个组形状。
+以下示例演示如何在 PowerPoint 演示文稿的幻灯片中添加一个组合形状。
 
 ```csharp
 [C#]
@@ -32,21 +32,21 @@ using (Presentation pres = new Presentation())
     ISlide sld = pres.Slides[0];
     // 访问幻灯片的形状集合
     IShapeCollection slideShapes = sld.Shapes;
-    // 向幻灯片添加组形状
+    // 向幻灯片添加一个组合形状
     IGroupShape groupShape = slideShapes.AddGroupShape();
-    // 在添加的组形状中添加形状
+    // 向添加的组合形状中添加形状
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
     groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
-    // 添加组形状框架
+    // 添加组合形状框架
     groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
     // 将 PPTX 文件写入磁盘
     pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另请参见
+### See Also
 
 * interface [IGroupShape](../../igroupshape)
 * class [ShapeCollection](../../shapecollection)
@@ -57,13 +57,13 @@ using (Presentation pres = new Presentation())
 
 ## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
 
-创建一个新的 GroupShape，用来自 SVG 的转换形状填充它，并将其添加到集合的末尾。
+创建一个新的 GroupShape，用转换后的 SVG 形状填充它，并将其添加到集合的末尾。
 
 ```csharp
 public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float width, float height)
 ```
 
-| 参数 | 类型 | 描述 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | svgImage | ISvgImage | Svg 图像对象 [`ISvgImage`](../../isvgimage) |
 | x | Single | 形状组框架左侧的 X 坐标。 |
@@ -71,11 +71,11 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 | width | Single | 形状组框架的宽度。 |
 | height | Single | 形状组框架的高度。 |
 
-### 返回值
+### Return Value
 
 创建的 GroupShape 对象。
 
-### 另请参见
+### See Also
 
 * interface [IGroupShape](../../igroupshape)
 * interface [ISvgImage](../../isvgimage)

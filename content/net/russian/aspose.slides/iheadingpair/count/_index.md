@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает количество частей в группе. Только для чтения Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/iheadingpair/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IHeadingPair](../../iheadingpair)
 * пространство имен [Aspose.Slides](../../iheadingpair)

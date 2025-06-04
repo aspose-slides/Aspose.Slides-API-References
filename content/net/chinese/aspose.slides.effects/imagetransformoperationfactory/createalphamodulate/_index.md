@@ -19,7 +19,7 @@ public IAlphaModulate CreateAlphaModulate()
 
 Alpha 调制效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAlphaModulate](../../ialphamodulate)
 * 类 [ImageTransformOperationFactory](../../imagetransformoperationfactory)

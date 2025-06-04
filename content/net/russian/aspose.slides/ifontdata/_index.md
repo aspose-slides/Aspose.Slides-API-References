@@ -1,6 +1,6 @@
 ---
 title: IFontData
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Справочник по API Aspose.Slides для .NET
 description: Представляет определение шрифта.
 type: docs
 weight: 5630
@@ -19,13 +19,13 @@ public interface IFontData
 
 | Имя | Описание |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Возвращает название шрифта. Только для чтения строка. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Возвращает имя шрифта. Только для чтения строка. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Возвращает название шрифта, заменяя ссылку на тему фактическим шрифтом, который используется. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Возвращает имя шрифта, заменяя ссылку на тему фактическим шрифтом, который используется. |
 
 ### См. также
 

@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient le nom de la police à l'index spécifié.
+second_title: Référence API Aspose.Slides pour .NET
+description: Récupère le nom de la police à l'index spécifié.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ifontfallbackrule/item/
 ---
 
-## Indexeur IFontFallBackRule
+## IFontFallBackRule indexer
 
-Obtient le nom de la police à l'index spécifié.
+Récupère le nom de la police à l'index spécifié.
 
 ```csharp
 public string this[int index] { get; }

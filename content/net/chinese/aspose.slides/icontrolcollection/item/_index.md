@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定位置的控件。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IControl this[int index] { get; }
 | --- | --- |
 | index | 控件的索引。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IControl](../../icontrol)
 * 接口 [IControlCollection](../../icontrolcollection)

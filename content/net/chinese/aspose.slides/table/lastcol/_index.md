@@ -1,7 +1,7 @@
 ---
 title: LastCol
 second_title: Aspose.Sildes for .NET API Reference
-description: 决定表格的最后一列是否需要使用特殊格式绘制。可读/可写布尔值。
+description: 确定表的最后一列是否需要使用特殊格式绘制。可读写布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides/table/lastcol/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/table/lastcol/
 
 ## Table.LastCol 属性
 
-决定表格的最后一列是否需要使用特殊格式绘制。可读/可写布尔值。
+确定表的最后一列是否需要使用特殊格式绘制。可读写布尔值。
 
 ```csharp
 public bool LastCol { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * class [Table](../../table)
 * namespace [Aspose.Slides](../../table)

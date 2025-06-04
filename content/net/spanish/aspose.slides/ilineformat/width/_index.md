@@ -15,7 +15,7 @@ Devuelve o establece el ancho de una línea. Lectura/escritura Double.
 public double Width { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILineFormat](../../ilineformat)
 * espacio de nombres [Aspose.Slides](../../ilineformat)

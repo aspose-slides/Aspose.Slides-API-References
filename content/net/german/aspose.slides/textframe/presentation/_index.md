@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die übergeordnete Präsentation eines TextFrames zurück. Nur lesbar IPresentationaspose.slides/ipresentation.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die übergeordnete Präsentation eines TextFrames zurück. Nur lesender IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 50
 url: /de/aspose.slides/textframe/presentation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textframe/presentation/
 
 ## TextFrame.Presentation-Eigenschaft
 
-Gibt die übergeordnete Präsentation eines TextFrames zurück. Nur lesbar [`IPresentation`](../../ipresentation).
+Gibt die übergeordnete Präsentation eines TextFrames zurück. Nur lesend [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

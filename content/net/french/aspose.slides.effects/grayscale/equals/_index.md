@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.effects/grayscale/equals/
 ---
 
-## Méthode GrayScale.Equals
+## GrayScale.Equals méthode
 
 Détermine si le [`GrayScale`](../../grayscale) spécifié est égal au [`GrayScale`](../../grayscale) actuel.
 
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 true si les objets sont égaux ; sinon, false.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [GrayScale](../../grayscale)
 * espace de noms [Aspose.Slides.Effects](../../grayscale)

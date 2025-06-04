@@ -1,7 +1,7 @@
 ---
 title: PathData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le chemin géométrique de GeometryShape sous la forme d'un tableau de segments de chemin.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie le chemin géométrique de GeometryShape sous forme de tableau de segments de chemin.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igeometrypath/pathdata/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/igeometrypath/pathdata/
 
 ## Propriété IGeometryPath.PathData
 
-Renvoie le chemin géométrique de GeometryShape sous la forme d'un tableau de segments de chemin.
+Renvoie le chemin géométrique de GeometryShape sous forme de tableau de segments de chemin.
 
 ```csharp
 public IPathSegment[] PathData { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPathSegment](../../ipathsegment)
 * interface [IGeometryPath](../../igeometrypath)

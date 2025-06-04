@@ -1,7 +1,7 @@
 ---
 title: FillType
-second_title: Aspose.Slides for .NET API 参考
-description: 返回填充类型。仅限读取 FillTypeaspose.slides/filltype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回填充类型。是一个只读的 FillTypeaspose.slides/filltype。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ifillformateffectivedata/filltype/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ifillformateffectivedata/filltype/
 
 ## IFillFormatEffectiveData.FillType 属性
 
-返回填充类型。仅限读取 [`FillType`](../../filltype)。
+返回填充类型。只读 [`FillType`](../../filltype)。
 
 ```csharp
 public FillType FillType { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 枚举 [FillType](../../filltype)
 * 接口 [IFillFormatEffectiveData](../../ifillformateffectivedata)

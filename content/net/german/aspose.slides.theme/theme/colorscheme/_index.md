@@ -1,21 +1,21 @@
 ---
 title: ColorScheme
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das FarbSchema zurück. Nur-Lese IColorSchemeaspose.slides/icolorscheme.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Farbschema zurück. Nur lesend IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/theme/colorscheme/
 ---
 
-## Theme.ColorScheme-Eigenschaft
+## Theme.ColorScheme Eigenschaft
 
-Gibt das FarbSchema zurück. Nur-Lese [`IColorScheme`](../../icolorscheme).
+Gibt das Farbschema zurück. Nur lesend [`IColorScheme`](../../icolorscheme).
 
 ```csharp
 public abstract IColorScheme ColorScheme { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IColorScheme](../../icolorscheme)
 * Klasse [Theme](../../theme)

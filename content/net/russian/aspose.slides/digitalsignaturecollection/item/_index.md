@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает подпись по индексу.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/digitalsignaturecollection/item/
 public IDigitalSignature this[int index] { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IDigitalSignature](../../idigitalsignature)
 * класс [DigitalSignatureCollection](../../digitalsignaturecollection)

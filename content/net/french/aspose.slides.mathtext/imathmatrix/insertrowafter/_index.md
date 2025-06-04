@@ -1,15 +1,15 @@
 ---
 title: InsertRowAfter
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Insérer une nouvelle ligne après celle spécifiée. Au départ, tous les éléments de la nouvelle ligne sont nuls.
+description: Insérer une nouvelle ligne après celle spécifiée. Initialement, tous les éléments de la nouvelle ligne sont nuls.
 type: docs
 weight: 170
 url: /fr/aspose.slides.mathtext/imathmatrix/insertrowafter/
 ---
 
-## Méthode IMathMatrix.InsertRowAfter
+## IMathMatrix.InsertRowAfter méthode
 
-Insérer une nouvelle ligne après celle spécifiée. Au départ, tous les éléments de la nouvelle ligne sont nuls.
+Insérer une nouvelle ligne après celle spécifiée. Initialement, tous les éléments de la nouvelle ligne sont nuls.
 
 ```csharp
 public void InsertRowAfter(int rowIndex)
@@ -17,7 +17,7 @@ public void InsertRowAfter(int rowIndex)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| rowIndex | Int32 | Index de la ligne après laquelle insérer une nouvelle ligne |
+| rowIndex | Int32 | Indice de la ligne après laquelle insérer une nouvelle ligne |
 
 ### Exemples
 
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertRowAfter(1);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathMatrix](../../imathmatrix)
 * namespace [Aspose.Slides.MathText](../../imathmatrix)

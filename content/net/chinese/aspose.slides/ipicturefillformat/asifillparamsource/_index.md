@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IFillParamSource 接口。只读 IFillParamSourceaspose.slides/ifillparamsource。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基本的 IFillParamSource 接口。只读 IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /zh/aspose.slides/ipicturefillformat/asifillparamsource/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipicturefillformat/asifillparamsource/
 
 ## IPictureFillFormat.AsIFillParamSource 属性
 
-允许获取基础 IFillParamSource 接口。只读 [`IFillParamSource`](../../ifillparamsource)。
+允许获取基本的 IFillParamSource 接口。只读 [`IFillParamSource`](../../ifillparamsource)。
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFillParamSource](../../ifillparamsource)
 * 接口 [IPictureFillFormat](../../ipicturefillformat)

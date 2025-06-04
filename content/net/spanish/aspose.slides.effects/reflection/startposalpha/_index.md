@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica la posición de inicio a lo largo de la rampa de gradiente alfa del porcentaje del valor alfa de inicio. Leer/escribir Simple.
+description: Especifica la posición inicial a lo largo de la rampa de gradiente alfa del valor alfa inicial en porcentajes. Lectura/escritura Single.
 type: docs
 weight: 130
 url: /es/aspose.slides.effects/reflection/startposalpha/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.effects/reflection/startposalpha/
 
 ## Propiedad Reflection.StartPosAlpha
 
-Especifica la posición de inicio (a lo largo de la rampa de gradiente alfa) del valor alfa de inicio (porcentajes). Leer/escribir Simple.
+Especifica la posición inicial (a lo largo de la rampa de gradiente alfa) del valor alfa inicial (porcentajes). Lectura/escritura Single.
 
 ```csharp
 public float StartPosAlpha { get; set; }
 ```
 
-### También Véase
+### Ver También
 
-* class [Reflection](../../reflection)
-* namespace [Aspose.Slides.Effects](../../reflection)
-* assembly [Aspose.Slides](../../../)
+* clase [Reflection](../../reflection)
+* espacio de nombres [Aspose.Slides.Effects](../../reflection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

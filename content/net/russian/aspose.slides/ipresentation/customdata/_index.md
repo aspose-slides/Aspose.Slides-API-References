@@ -1,7 +1,7 @@
 ---
 title: CustomData
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает пользовательские данные презентации. Только для чтения ICustomDataaspose.slides/icustomdata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает произвольные данные презентации. Только для чтения ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ipresentation/customdata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipresentation/customdata/
 
 ## Свойство IPresentation.CustomData
 
-Возвращает пользовательские данные презентации. Только для чтения [`ICustomData`](../../icustomdata).
+Возвращает произвольные данные презентации. Только для чтения [`ICustomData`](../../icustomdata).
 
 ```csharp
 public ICustomData CustomData { get; }

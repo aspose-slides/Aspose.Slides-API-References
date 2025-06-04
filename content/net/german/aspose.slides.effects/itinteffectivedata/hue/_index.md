@@ -1,7 +1,7 @@
 ---
 title: Hue
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Farbton zurück. Nur-Lese Einzelwert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Farbton zurück. Nur lesbarer Single.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/itinteffectivedata/hue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/itinteffectivedata/hue/
 
 ## ITintEffectiveData.Hue-Eigenschaft
 
-Gibt den Farbton zurück. Nur-Lese Einzelwert.
+Gibt den Farbton zurück. Nur lesbarer Single.
 
 ```csharp
 public float Hue { get; }

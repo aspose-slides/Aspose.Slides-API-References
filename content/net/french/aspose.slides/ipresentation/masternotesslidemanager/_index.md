@@ -1,21 +1,21 @@
 ---
 title: MasterNotesSlideManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le gestionnaire de maître de notes. En lecture seule IMasterNotesSlideManager aspose.slides/imasternotesslidemanager.
+description: Renvoie le gestionnaire de modèles de notes. Lecture seule IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
 type: docs
 weight: 180
 url: /fr/aspose.slides/ipresentation/masternotesslidemanager/
 ---
 
-## Propriété IPresentation.MasterNotesSlideManager
+## IPresentation.MasterNotesSlideManager propriété
 
-Renvoie le gestionnaire de maître de notes. En lecture seule [`IMasterNotesSlideManager`](../../imasternotesslidemanager).
+Renvoie le gestionnaire de modèles de notes. Lecture seule [`IMasterNotesSlideManager`](../../imasternotesslidemanager).
 
 ```csharp
 public IMasterNotesSlideManager MasterNotesSlideManager { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterNotesSlideManager](../../imasternotesslidemanager)
 * interface [IPresentation](../../ipresentation)

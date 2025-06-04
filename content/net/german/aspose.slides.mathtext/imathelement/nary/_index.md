@@ -1,6 +1,6 @@
 ---
 title: Nary
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt einen N-ären Operator
 type: docs
 weight: 100
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathelement/nary/
 
 ## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
-Erschafft einen N-ären Operator
+Erstellt einen N-ären Operator
 
 ```csharp
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimit, 
@@ -41,7 +41,7 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 ### Siehe auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
+* Aufzählung [MathNaryOperatorTypes](../../mathnaryoperatortypes)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
@@ -50,7 +50,7 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 
 ## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
 
-Erschafft einen N-ären Operator
+Erstellt einen N-ären Operator
 
 ```csharp
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, string upperLimit)
@@ -78,7 +78,7 @@ IMathNaryOperator naryOperator = new MathematicalText("i").Nary(MathNaryOperator
 ### Siehe auch
 
 * Schnittstelle [IMathNaryOperator](../../imathnaryoperator)
-* Enum [MathNaryOperatorTypes](../../mathnaryoperatortypes)
+* Aufzählung [MathNaryOperatorTypes](../../mathnaryoperatortypes)
 * Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)

@@ -1,7 +1,7 @@
 ---
 title: Title
-second_title: Ссылки на API Aspose.Sildes для .NET
-description: Получает заголовок оси. Только для чтения IChartTitle aspose.slides.charts/icharttitle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает заголовок оси. Только для чтения IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 550
 url: /ru/aspose.slides.charts/axis/title/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/axis/title/
 public IChartTitle Title { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IChartTitle](../../icharttitle)
 * класс [Axis](../../axis)

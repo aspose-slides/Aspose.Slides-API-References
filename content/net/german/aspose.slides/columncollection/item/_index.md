@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Spalte am angegebenen Index zurück. Nur-Lese-Spalte aspose.slides/column.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Spalte am angegebenen Index zurück. Nur-lesbare Columnaspose.slides/column.
 type: docs
 weight: 30
 url: /de/aspose.slides/columncollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/columncollection/item/
 
 ## ColumnCollection-Indexer
 
-Gibt die Spalte am angegebenen Index zurück. Nur-Lese-[`Column`](../../column).
+Gibt die Spalte am angegebenen Index zurück. Nur-lesbare [`Column`](../../column).
 
 ```csharp
 public IColumn this[int index] { get; }

@@ -1,15 +1,15 @@
 ---
 title: ObjectProgId
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ProgID eines Objekts zurück. Nur lesender String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den ProgID eines Objekts zurück. Nur lesbarer String.
 type: docs
 weight: 110
 url: /de/aspose.slides/ioleobjectframe/objectprogid/
 ---
 
-## IOleObjectFrame.ObjectProgId Eigenschaft
+## IOleObjectFrame.ObjectProgId-Eigenschaft
 
-Gibt die ProgID eines Objekts zurück. Nur lesender String.
+Gibt den ProgID eines Objekts zurück. Nur lesbarer String.
 
 ```csharp
 public string ObjectProgId { get; set; }

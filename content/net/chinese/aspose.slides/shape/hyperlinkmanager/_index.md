@@ -1,6 +1,6 @@
 ---
 title: HyperlinkManager
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回超链接管理器。只读 IHyperlinkManageraspose.slides/ihyperlinkmanager。
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/shape/hyperlinkmanager/
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### 另见
+### 参考
 
 * 接口 [IHyperlinkManager](../../ihyperlinkmanager)
 * 类 [Shape](../../shape)

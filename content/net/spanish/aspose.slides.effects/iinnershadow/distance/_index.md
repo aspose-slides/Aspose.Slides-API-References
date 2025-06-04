@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides.effects/iinnershadow/distance/
 ---
 
-## Propiedad IInnerShadow.Distance
+## IInnerShadow.Distance propiedad
 
 Distancia de la sombra. Lectura/escritura Doble.
 
@@ -15,7 +15,7 @@ Distancia de la sombra. Lectura/escritura Doble.
 public double Distance { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IInnerShadow](../../iinnershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../iinnershadow)

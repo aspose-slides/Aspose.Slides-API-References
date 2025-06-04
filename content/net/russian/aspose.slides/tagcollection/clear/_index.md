@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Удаляет все теги из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/tagcollection/clear/
 ---
 
-## Метод TagCollection.Clear
+## TagCollection.Clear метод
 
 Удаляет все теги из коллекции.
 

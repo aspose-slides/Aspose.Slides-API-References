@@ -1,6 +1,6 @@
 ---
 title: IImage
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Representa una imagen raster o vectorial.
 type: docs
 weight: 5950
@@ -28,16 +28,16 @@ public interface IImage : IDisposable
 | Nombre | Descripción |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | Guarda la imagen en un archivo. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Guarda la imagen en un flujo en el formato especificado. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Guarda la imagen en un stream en el formato especificado. |
 | [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Guarda la imagen en un archivo en el formato especificado. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Guarda la imagen en un flujo en el formato y calidad especificados. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Guarda la imagen en un stream en el formato y calidad especificados. |
 | [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Guarda la imagen en un archivo en el formato y calidad especificados. |
 
-### Comentarios
+### Observaciones
 
-Esta interfaz proporciona una abstracción común para manejar tanto imágenes raster como vectoriales. Las implementaciones pueden variar dependiendo del tipo de imagen subyacente.
+Esta interfaz proporciona una abstracción común para manejar tanto imágenes raster como vectoriales. Las implementaciones pueden variar según el tipo de imagen subyacente.
 
-### Vea También
+### Véase también
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

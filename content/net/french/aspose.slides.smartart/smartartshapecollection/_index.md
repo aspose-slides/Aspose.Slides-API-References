@@ -19,16 +19,16 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Obtient le nombre d'éléments réellement contenus dans la collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Obtient le nombre d'éléments effectivement contenus dans la collection. En lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). En lecture seule Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Obtient l'élément à l'index spécifié. En lecture seule [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Renvoie une racine de synchronisation. En lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 
 ### Voir aussi

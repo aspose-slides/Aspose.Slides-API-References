@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает изображение по его индексу.
 type: docs
 weight: 10
 url: /ru/aspose.slides/iimagecollection/item/
 ---
 
-## Индексатор IImageCollection
+## IImageCollection индексатор
 
 Возвращает изображение по его индексу.
 
@@ -23,7 +23,7 @@ public IPPImage this[int index] { get; }
 
 Изображение.
 
-### См. также
+### См. Также
 
 * интерфейс [IPPImage](../../ippimage)
 * интерфейс [IImageCollection](../../iimagecollection)

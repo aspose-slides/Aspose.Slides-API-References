@@ -1,7 +1,7 @@
 ---
 title: DisplayEquation
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica que la ecuación de la línea de tendencia se muestra en el gráfico en la misma etiqueta que el Rsquaredvalue. Booleano de lectura/escritura.
+second_title: Referencia de la API Aspose.Slides para .NET
+description: Especifica que la ecuación para la línea de tendencia se muestra en el gráfico en la misma etiqueta que el Rsquaredvalue. Booleano de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/itrendline/displayequation/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/itrendline/displayequation/
 
 ## Propiedad ITrendline.DisplayEquation
 
-Especifica que la ecuación de la línea de tendencia se muestra en el gráfico (en la misma etiqueta que el Rsquaredvalue). Booleano de lectura/escritura.
+Especifica que la ecuación para la línea de tendencia se muestra en el gráfico (en la misma etiqueta que el Rsquaredvalue). Booleano de lectura/escritura.
 
 ```csharp
 public bool DisplayEquation { get; set; }

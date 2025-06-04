@@ -1,15 +1,15 @@
 ---
 title: ConvertToSmartArt
 second_title: Aspose.Slides para .NET Referencia de API
-description: Convierte un diagrama heredado en un objeto SmartArt editable. El objeto SmartArt creado se añade a la forma del grupo padre en la misma posición.
+description: Convierte un diagrama legado en un objeto SmartArt editable. El objeto SmartArt creado se añade al grupo de formas padre en la misma posición.
 type: docs
 weight: 30
 url: /es/aspose.slides/legacydiagram/converttosmartart/
 ---
 
-## Método LegacyDiagram.ConvertToSmartArt
+## LegacyDiagram.ConvertToSmartArt método
 
-Convierte un diagrama heredado en un objeto SmartArt editable. El objeto SmartArt creado se añade a la forma del grupo padre en la misma posición.
+Convierte un diagrama legado en un objeto SmartArt editable. El objeto SmartArt creado se añade al grupo de formas padre en la misma posición.
 
 ```csharp
 public ISmartArt ConvertToSmartArt()
@@ -19,7 +19,7 @@ public ISmartArt ConvertToSmartArt()
 
 Objeto SmartArt creado.
 
-### Véase También
+### Véase también
 
 * interfaz [ISmartArt](../../../aspose.slides.smartart/ismartart)
 * clase [LegacyDiagram](../../legacydiagram)

@@ -7,7 +7,7 @@ weight: 10
 url: /ru/aspose.slides.charts/ichartseriesgroup/asichartcomponent/
 ---
 
-## Свойство IChartSeriesGroup.AsIChartComponent
+## IChartSeriesGroup.AsIChartComponent свойство
 
 Позволяет получить базовый интерфейс IChartComponent. Только для чтения [`IChartComponent`](../../ichartcomponent).
 

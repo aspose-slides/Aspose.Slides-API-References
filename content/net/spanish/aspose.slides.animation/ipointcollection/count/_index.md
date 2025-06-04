@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el número de puntos en la colección. Solo lectura Int32.
 type: docs
 weight: 20
@@ -15,10 +15,10 @@ Devuelve el número de puntos en la colección. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Véase También
+### Ver También
 
-* interfaz [IPointCollection](../../ipointcollection)
-* espacio de nombres [Aspose.Slides.Animation](../../ipointcollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPointCollection](../../ipointcollection)
+* espacio de nombres [Aspose.Slides.Animation](../../ipointcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

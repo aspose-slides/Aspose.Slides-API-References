@@ -1,6 +1,6 @@
 ---
 title: AddOleObjectFrame
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Ajoute un nouvel objet OLE à la fin d'une collection.
 type: docs
 weight: 150
@@ -22,9 +22,9 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | y | Single | Coordonnée Y d'un nouveau cadre OLE. |
 | width | Single | Largeur d'un nouveau cadre OLE. |
 | height | Single | Hauteur d'un nouveau cadre OLE. |
-| dataInfo | IOleEmbeddedDataInfo | Informations sur les données intégrées [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
+| dataInfo | IOleEmbeddedDataInfo | Info de données intégrées [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet OLE créé.
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 {
     // Accède à la première diapositive
     ISlide sld = pres.Slides[0];
-    // Charge un fichier Excel dans un flux
+    // Charge un fichier excel dans un flux
     MemoryStream mstream = new MemoryStream();
     using (FileStream fs = new FileStream("book1.xlsx", FileMode.Open, FileAccess.Read))
     {
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
     }
     // Crée un objet de données pour l'intégration
     IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx");
-    // Ajoute une forme de cadre d'objet Ole
+    // Ajoute une forme cadre d'objet Ole
     IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
         pres.SlideSize.Size.Height, dataInfo);
     // Écrit le fichier PPTX sur le disque
@@ -62,7 +62,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IOleObjectFrame](../../ioleobjectframe)
 * interface [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
@@ -90,11 +90,11 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | className | String | Nom d'une classe OLE. |
 | path | String | Chemin vers le fichier lié. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet OLE créé.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IOleObjectFrame](../../ioleobjectframe)
 * class [ShapeCollection](../../shapecollection)

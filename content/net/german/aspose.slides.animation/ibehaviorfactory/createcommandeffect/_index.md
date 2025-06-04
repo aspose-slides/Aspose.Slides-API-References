@@ -1,15 +1,15 @@
 ---
 title: CreateCommandEffect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt einen Befehls-Effekt.
+description: Erstellt Command-Effekt.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/ibehaviorfactory/createcommandeffect/
 ---
 
-## IBehaviorFactory.CreateCommandEffect Methode
+## IBehaviorFactory.CreateCommandEffect-Methode
 
-Erstellt einen Befehls-Effekt.
+Erstellt Command-Effekt.
 
 ```csharp
 public ICommandEffect CreateCommandEffect()
@@ -17,12 +17,12 @@ public ICommandEffect CreateCommandEffect()
 
 ### Rückgabewert
 
-Befehls-Effekt.
+Command-Effekt.
 
 ### Siehe auch
 
-* Interface [ICommandEffect](../../icommandeffect)
-* Interface [IBehaviorFactory](../../ibehaviorfactory)
+* Schnittstelle [ICommandEffect](../../icommandeffect)
+* Schnittstelle [IBehaviorFactory](../../ibehaviorfactory)
 * Namespace [Aspose.Slides.Animation](../../ibehaviorfactory)
 * Assembly [Aspose.Slides](../../../)
 

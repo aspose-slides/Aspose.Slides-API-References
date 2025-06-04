@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForBubbleSizes
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性在数据点 BubbleSize 属性对象中是否有效。换句话说，它指定 ChartDataPoint.BubbleSize.Data 属性的值类型。可读写 DataSourceTypeaspose.slides/datasourcetype。
+description: 指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性在数据点 BubbleSize 属性对象中是否有效。换句话说，它指定 ChartDataPoint.BubbleSize.Data 属性的值类型。可读写 DataSourceTypeaspose.slides/datasourcetype。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesizes/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesi
 
 ## ChartDataPointCollection.DataSourceTypeForBubbleSizes 属性
 
-指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性在数据点 BubbleSize 属性对象中是否有效。换句话说，它指定 ChartDataPoint.BubbleSize.Data 属性的值类型。可读写 [`DataSourceType`](../../datasourcetype)。
+指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性在数据点 BubbleSize 属性对象中是否有效。换句话说，它指定 ChartDataPoint.BubbleSize.Data 属性的值类型。可读写 [`DataSourceType`](../../datasourcetype)。
 
 ```csharp
 public DataSourceType DataSourceTypeForBubbleSizes { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * enum [DataSourceType](../../datasourcetype)
 * class [ChartDataPointCollection](../../chartdatapointcollection)

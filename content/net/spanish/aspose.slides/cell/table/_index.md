@@ -1,7 +1,7 @@
 ---
 title: Table
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el objeto Table padre para una celda. Solo lectura ITableaspose.slides/itable.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el objeto Table padre para una celda. Solo de lectura ITableaspose.slides/itable.
 type: docs
 weight: 200
 url: /es/aspose.slides/cell/table/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/cell/table/
 
 ## Propiedad Cell.Table
 
-Devuelve el objeto Table padre para una celda. Solo lectura [`ITable`](../../itable).
+Devuelve el objeto Table padre para una celda. Solo de lectura [`ITable`](../../itable).
 
 ```csharp
 public ITable Table { get; }
@@ -20,6 +20,6 @@ public ITable Table { get; }
 * interfaz [ITable](../../itable)
 * clase [Cell](../../cell)
 * espacio de nombres [Aspose.Slides](../../cell)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

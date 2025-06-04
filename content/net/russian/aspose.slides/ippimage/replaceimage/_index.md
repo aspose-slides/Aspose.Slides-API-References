@@ -1,6 +1,6 @@
 ---
 title: ReplaceImage
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Заменяет данные изображения.
 type: docs
 weight: 90
@@ -19,7 +19,7 @@ public void ReplaceImage(byte[] newImageData)
 | --- | --- | --- |
 | newImageData | Byte[] | Данные нового изображения. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)
@@ -39,7 +39,7 @@ public void ReplaceImage(IImage newImage)
 | --- | --- | --- |
 | newImage | IImage | Новое изображение. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IPPImage](../../ippimage)
@@ -60,7 +60,7 @@ public void ReplaceImage(IPPImage newImage)
 | --- | --- | --- |
 | newImage | IPPImage | Новый IPPImage. |
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)

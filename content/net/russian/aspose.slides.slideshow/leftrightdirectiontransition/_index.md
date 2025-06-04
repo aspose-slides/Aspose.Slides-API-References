@@ -1,7 +1,7 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Slides для .NET API Reference
-description: Эффект перехода слайдов влево-вправо.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эффект перехода слайдов слева направо.
 type: docs
 weight: 9930
 url: /ru/aspose.slides.slideshow/leftrightdirectiontransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/leftrightdirectiontransition/
 
 ## Класс LeftRightDirectionTransition
 
-Эффект перехода слайдов влево-вправо.
+Эффект перехода слайдов слева направо.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -17,18 +17,18 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 ## Свойства
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Методы
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для конкретного типа, подходит для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит в качестве хэш-функции для конкретного типа, подходящей для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
 
-### См. также
+### Смотрите Также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [ILeftRightDirectionTransition](../ileftrightdirectiontransition)

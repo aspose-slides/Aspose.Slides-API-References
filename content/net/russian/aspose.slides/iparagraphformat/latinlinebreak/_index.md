@@ -1,7 +1,7 @@
 ---
 title: LatinLineBreak
 second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, используется ли разрыв строки на латинице в параграфе. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
+description: Определяет, используется ли латинский разрыв строки в абзаце. Наследование не применяется. Чтение/запись NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /ru/aspose.slides/iparagraphformat/latinlinebreak/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iparagraphformat/latinlinebreak/
 
 ## IParagraphFormat.LatinLineBreak свойство
 
-Определяет, используется ли разрыв строки на латинице в параграфе. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
+Определяет, используется ли латинский разрыв строки в абзаце. Наследование не применяется. Чтение/запись [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LatinLineBreak { get; set; }

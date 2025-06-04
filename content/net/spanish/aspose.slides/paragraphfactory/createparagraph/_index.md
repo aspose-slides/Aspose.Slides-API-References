@@ -1,6 +1,6 @@
 ---
 title: CreateParagraph
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Crea un nuevo párrafo vacío.
 type: docs
 weight: 20
@@ -19,10 +19,10 @@ public IParagraph CreateParagraph()
 
 Párrafo.
 
-### Véase También
+### Ver También
 
-* interface [IParagraph](../../iparagraph)
-* class [ParagraphFactory](../../paragraphfactory)
+* interfaz [IParagraph](../../iparagraph)
+* clase [ParagraphFactory](../../paragraphfactory)
 * namespace [Aspose.Slides](../../paragraphfactory)
 * assembly [Aspose.Slides](../../../)
 
@@ -44,10 +44,10 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 Párrafo.
 
-### Véase También
+### Ver También
 
-* interface [IParagraph](../../iparagraph)
-* class [ParagraphFactory](../../paragraphfactory)
+* interfaz [IParagraph](../../iparagraph)
+* clase [ParagraphFactory](../../paragraphfactory)
 * namespace [Aspose.Slides](../../paragraphfactory)
 * assembly [Aspose.Slides](../../../)
 

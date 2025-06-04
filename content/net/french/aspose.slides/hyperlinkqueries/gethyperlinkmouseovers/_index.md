@@ -1,21 +1,21 @@
 ---
 title: GetHyperlinkMouseOvers
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtenez tous les sous-objets IHyperlinkContainer qui contiennent des HyperlinkMouseOver non nuls. Avec un objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien lecture, mise à jour ou suppression. Voir interface IHyperlinkContainer.
+second_title: Aspose.Slides pour .NET Référence API
+description: Obtenez tous les sous-objets IHyperlinkContainer contenant des HyperlinkMouseOver non nuls. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer ses hyperliens lire, mettre à jour ou supprimer. Consultez l'interface IHyperlinkContainer.
 type: docs
 weight: 30
 url: /fr/aspose.slides/hyperlinkqueries/gethyperlinkmouseovers/
 ---
 
-## Méthode HyperlinkQueries.GetHyperlinkMouseOvers
+## HyperlinkQueries.GetHyperlinkMouseOvers méthode
 
-Obtenez tous les sous-objets IHyperlinkContainer qui contiennent des HyperlinkMouseOver non nuls. Avec un objet IHyperlinkContainer donné, vous pouvez gérer son hyperlien (lecture, mise à jour ou suppression). Voir interface IHyperlinkContainer.
+Obtenez tous les sous-objets IHyperlinkContainer contenant des HyperlinkMouseOver non nuls. Avec l'objet IHyperlinkContainer donné, vous pouvez gérer ses hyperliens (lire, mettre à jour ou supprimer). Consultez l'interface IHyperlinkContainer.
 
 ```csharp
 public IList<IHyperlinkContainer> GetHyperlinkMouseOvers()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IHyperlinkContainer](../../ihyperlinkcontainer)
 * class [HyperlinkQueries](../../hyperlinkqueries)

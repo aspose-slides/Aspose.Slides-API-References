@@ -1,13 +1,13 @@
 ---
 title: ExtrusionViewPointY
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство extrusion.viewpoint.y
 type: docs
 weight: 250
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionviewpointy/
 ---
 
-## Свойство BehaviorProperty.ExtrusionViewPointY
+## BehaviorProperty.ExtrusionViewPointY property
 
 Представляет свойство 'extrusion.viewpoint.y'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionviewpointy/
 public static BehaviorProperty ExtrusionViewPointY { get; }
 ```
 
-### См. также
+### Смотри также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

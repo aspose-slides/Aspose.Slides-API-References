@@ -1,6 +1,6 @@
 ---
 title: Fonts
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Коллекция шрифтов.
 type: docs
 weight: 4720
@@ -19,11 +19,11 @@ public class Fonts : IFonts
 
 | Имя | Описание |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложного текста. Чтение/запись [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Возвращает или задает шрифт восточноазиатского текста. Чтение/запись [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Возвращает или задает латинский шрифт. Чтение/запись [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложного скрипта. Чтение/запись [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Возвращает или задает восточноазиатский шрифт. Чтение/запись [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Возвращает или задает латиницу. Чтение/запись [`IFontData`](../ifontdata). |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFonts](../ifonts)
 * пространство имен [Aspose.Slides](../../aspose.slides)

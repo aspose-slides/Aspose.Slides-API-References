@@ -1,7 +1,7 @@
 ---
 title: GetConcatenatedValuesFromCells
-second_title: Aspose.Slides für .NET API-Referenz
-description: Verkettungsstring aus allen Zellzeichenfolgenwerten.
+second_title: Aspose.Slides für .NET API Referenz
+description: Verkettungszeichenfolge aus allen Zellenzeichenfolgenwerten.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells
 
 ## ChartCellCollection.GetConcatenatedValuesFromCells-Methode
 
-Verkettungsstring aus allen Zellzeichenfolgenwerten.
+Verkettungszeichenfolge aus allen Zellenzeichenfolgenwerten.
 
 ```csharp
 public string GetConcatenatedValuesFromCells()

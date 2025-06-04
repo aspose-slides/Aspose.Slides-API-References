@@ -1,7 +1,7 @@
 ---
 title: SetColumnsAlignment
-second_title: Aspose.Sildes для .NET API Справочник
-description: Установите горизонтальное выравнивание указанных столбцов
+second_title: Aspose.Slides для .NET API Reference
+description: Установить горизонтальное выравнивание указанных столбцов
 type: docs
 weight: 210
 url: /ru/aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
 
 ## MathMatrix.SetColumnsAlignment метод
 
-Установите горизонтальное выравнивание указанных столбцов
+Установить горизонтальное выравнивание указанных столбцов
 
 ```csharp
 public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizontalAlignment val)
@@ -17,8 +17,8 @@ public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizont
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Индекс первого столбца для установки выравнивания, начиная с нуля |
-| columnsCount | UInt32 | Количество столбцов, для которого необходимо установить выравнивание |
+| columnIndex | Int32 | Индекс первого столбца для установки выравнивания (начиная с нуля) |
+| columnsCount | UInt32 | Количество столбцов для задания выравнивания |
 | val | MathHorizontalAlignment | Новое значение горизонтального выравнивания указанного столбца |
 
 ### Примеры
@@ -31,7 +31,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.SetColumnAlignment(0, 3, MathHorizontalAlignment.Left);
 ```
 
-### См. также
+### Смотрите также
 
 * enum [MathHorizontalAlignment](../../mathhorizontalalignment)
 * class [MathMatrix](../../mathmatrix)

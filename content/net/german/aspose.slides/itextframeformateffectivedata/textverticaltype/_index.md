@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Textausrichtung zurück. Schreibgeschützter TextVerticalTypeaspose.slides/textverticaltype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Textausrichtung zurück. Nur-Lese TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 110
 url: /de/aspose.slides/itextframeformateffectivedata/textverticaltype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextframeformateffectivedata/textverticaltype/
 
 ## ITextFrameFormatEffectiveData.TextVerticalType-Eigenschaft
 
-Gibt die Textausrichtung zurück. Schreibgeschützter [`TextVerticalType`](../../textverticaltype).
+Gibt die Textausrichtung zurück. Nur-Lese [`TextVerticalType`](../../textverticaltype).
 
 ```csharp
 public TextVerticalType TextVerticalType { get; }

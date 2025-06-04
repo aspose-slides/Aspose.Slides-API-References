@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/masterthememanager/overridetheme/
 public IMasterTheme OverrideTheme { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMasterTheme](../../imastertheme)
 * класс [MasterThemeManager](../../masterthememanager)

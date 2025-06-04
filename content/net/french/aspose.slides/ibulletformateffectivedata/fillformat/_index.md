@@ -1,15 +1,15 @@
 ---
 title: FillFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le format de remplissage de puce d'un paragraphe. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le format de remplissage des puces d'un paragraphe. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ibulletformateffectivedata/fillformat/
 ---
 
-## Propriété IBulletFormatEffectiveData.FillFormat
+## IBulletFormatEffectiveData.FillFormat property
 
-Renvoie le format de remplissage de puce d'un paragraphe. Lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Renvoie le format de remplissage des puces d'un paragraphe. Lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
@@ -17,14 +17,14 @@ public IFillFormatEffectiveData FillFormat { get; }
 
 ### Exemples
 
-Cet exemple démontre la récupération des données effectives de remplissage de la puce.
+Cet exemple démontre la récupération des données effectives de remplissage des puces.
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("SomePresentation.pptx"))
 {
-    // Supposons que la première forme sur la première diapositive est une AutoShape avec du texte...
-    // Sortie des informations sur les puces des paragraphes de texte
+    // Supposons que la première forme de la première diapositive soit une AutoShape avec du texte...
+    // Affichage des informations sur les puces des paragraphs
     AutoShape autoShape = (AutoShape)pres.Slides[0].Shapes[0];
     foreach (Paragraph para in autoShape.TextFrame.Paragraphs)
     {
@@ -45,8 +45,8 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
                     break;
                 case FillType.Pattern:
                     Console.WriteLine("Style de motif : " + bulletFormatEffective.FillFormat.PatternFormat.PatternStyle);
-                    Console.WriteLine("Couleur avant : " + bulletFormatEffective.FillFormat.PatternFormat.ForeColor);
-                    Console.WriteLine("Couleur arrière : " + bulletFormatEffective.FillFormat.PatternFormat.BackColor);
+                    Console.WriteLine("Couleur de premier plan : " + bulletFormatEffective.FillFormat.PatternFormat.ForeColor);
+                    Console.WriteLine("Couleur de fond : " + bulletFormatEffective.FillFormat.PatternFormat.BackColor);
                     break;
             }
         }

@@ -1,6 +1,6 @@
 ---
 title: GetStream
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回用于读取的 Stream 流。使用 'using' 或在使用后关闭流。
 type: docs
 weight: 30

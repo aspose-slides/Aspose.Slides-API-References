@@ -20,7 +20,7 @@ public interface IRenderingOptions : ISaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在不使用连字的情况下渲染。当设置为 `true` 时，渲染输出中将禁用连字。默认情况下，此属性设置为 `false`。 |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 获取或设置一个值，指示文本是否在不使用连字的情况下渲染。当设置为 `true` 时，渲染输出将禁用连字。默认情况下，此属性设置为 `false`。 |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | 提供控制导出文档中 Ink 对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上放置的模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,13 +1,13 @@
 ---
 title: Product
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для справочника API .NET
 description: Название продукта Aspose.Slides
 type: docs
 weight: 30
 url: /ru/aspose.slides/buildversioninfo/product/
 ---
 
-## Поле BuildVersionInfo.Product
+## BuildVersionInfo.Product поле
 
 Название продукта Aspose.Slides
 

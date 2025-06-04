@@ -1,6 +1,6 @@
 ---
 title: PresetColor
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Représente des préréglages de couleur prédéfinis.
 type: docs
 weight: 9390
@@ -19,7 +19,7 @@ public enum PresetColor
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Le préréglage de la couleur n'est pas défini. |
+| NotDefined | `-1` | Le préréglage de couleur n'est pas défini. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

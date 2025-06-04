@@ -1,6 +1,6 @@
 ---
 title: IGifOptions
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Représente les options d'exportation GIF.
 type: docs
 weight: 3750
@@ -19,11 +19,11 @@ public interface IGifOptions : ISaveOptions
 
 | Nom | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. En lecture seule [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Obtient ou définit le temps de délai par défaut [ms]. Cette valeur sera utilisée si [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) n'est pas définie. La valeur par défaut est 1000. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Renvoie l'interface ISaveOptions. Lecture seule [`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Obtient ou définit le temps de retard par défaut [ms]. Cette valeur sera utilisée si [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) n'est pas définie. La valeur par défaut est 1000. |
 | [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Détermine si les diapositives cachées seront exportées. La valeur par défaut est false. |
-| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Obtient ou définit la taille du cadre. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Obtient ou définit les FPS de transition [images/sec]. La valeur par défaut est 25. |
+| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Obtient ou définit la taille de l'image. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Obtient ou définit les FPS de transition [images/seconde] La valeur par défaut est 25. |
 
 ### Voir aussi
 

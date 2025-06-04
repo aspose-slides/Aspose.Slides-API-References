@@ -1,13 +1,13 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 100
 url: /ru/aspose.slides.export/tiffoptions/slideslayoutoptions/
 ---
 
-## Свойство TiffOptions.SlidesLayoutOptions
+## TiffOptions.SlidesLayoutOptions свойство
 
 Получает или задает режим, в котором слайды размещаются на странице при экспорте презентации [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISlidesLayoutOptions](../../islideslayoutoptions)
 * класс [TiffOptions](../../tiffoptions)

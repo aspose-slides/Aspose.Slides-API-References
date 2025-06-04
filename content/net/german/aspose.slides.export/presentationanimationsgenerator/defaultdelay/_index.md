@@ -1,7 +1,7 @@
 ---
 title: DefaultDelay
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die standardmäßige Verzögerungszeit in ms ab oder legt sie fest.
+description: Ruft die Standardverzögerungszeit in ms ab oder legt sie fest.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/presentationanimationsgenerator/defaultdelay/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/presentationanimationsgenerator/defaultdelay/
 
 ## PresentationAnimationsGenerator.DefaultDelay-Eigenschaft
 
-Ruhe die standardmäßige Verzögerungszeit [ms] ab oder legen sie fest.
+Ruht die Standardverzögerungszeit [ms] ab oder legt sie fest.
 
 ```csharp
 public int DefaultDelay { get; set; }

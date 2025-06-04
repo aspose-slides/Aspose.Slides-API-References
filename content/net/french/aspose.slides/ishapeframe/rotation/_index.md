@@ -1,15 +1,15 @@
 ---
 title: Rotation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le nombre de degrés qu'un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre, une valeur négative indique une rotation dans le sens inverse des aiguilles d'une montre. Lecture seule Single.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie le nombre de degrés qu'un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre, une valeur négative indique une rotation dans le sens inverse des aiguilles d'une montre. Lecture seule Single.
 type: docs
 weight: 70
 url: /fr/aspose.slides/ishapeframe/rotation/
 ---
 
-## Propriété IShapeFrame.Rotation
+## IShapeFrame.Rotation propriété
 
-Retourne le nombre de degrés qu'un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre ; une valeur négative indique une rotation dans le sens inverse des aiguilles d'une montre. Lecture seule Single.
+Renvoie le nombre de degrés qu'un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre ; une valeur négative indique une rotation dans le sens inverse des aiguilles d'une montre. Lecture seule Single.
 
 ```csharp
 public float Rotation { get; }

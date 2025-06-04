@@ -1,7 +1,7 @@
 ---
 title: NotesPosition
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Position der Notizen auf der Seite ab oder legt sie fest.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Legt die Position der Notizen auf der Seite fest oder erhält sie.
 type: docs
 weight: 50
 url: /de/aspose.slides.export/notescommentslayoutingoptions/notesposition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/notescommentslayoutingoptions/notesposition/
 
 ## NotesCommentsLayoutingOptions.NotesPosition-Eigenschaft
 
-Ruft die Position der Notizen auf der Seite ab oder legt sie fest.
+Legt die Position der Notizen auf der Seite fest oder erhält sie.
 
 ```csharp
 public NotesPositions NotesPosition { get; set; }

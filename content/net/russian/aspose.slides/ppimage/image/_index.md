@@ -1,13 +1,13 @@
 ---
 title: Image
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает копию изображения. Только для чтения IImageaspose.slides/iimage.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ppimage/image/
 ---
 
-## Свойство PPImage.Image
+## PPImage.Image свойство
 
 Возвращает копию изображения. Только для чтения [`IImage`](../../iimage).
 

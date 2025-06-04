@@ -1,13 +1,13 @@
 ---
 title: Amount
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество эффекта. Только для чтения Single.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/itinteffectivedata/amount/
 ---
 
-## Свойство ITintEffectiveData.Amount
+## ITintEffectiveData.Amount свойство
 
 Возвращает количество эффекта. Только для чтения Single.
 

@@ -1,7 +1,7 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente un gestionnaire qui contient le comportement des espaces réservés de la diapositive de notes, y compris l'espace réservé pour l'en-tête.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente le gestionnaire qui maintient le comportement des espaces réservés des diapositives de notes, y compris l'espace réservé pour l'en-tête.
 type: docs
 weight: 6310
 url: /fr/aspose.slides/inotesslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/inotesslideheaderfootermanager/
 
 ## Interface INotesSlideHeaderFooterManager
 
-Représente un gestionnaire qui contient le comportement des espaces réservés de la diapositive de notes, y compris l'espace réservé pour l'en-tête.
+Représente le gestionnaire qui maintient le comportement des espaces réservés des diapositives de notes, y compris l'espace réservé pour l'en-tête.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -19,7 +19,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Renvoie l'interface IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retourne l'interface IBaseHandoutNotesSlideHeaderFooterManag. |
 
 ### Voir aussi
 

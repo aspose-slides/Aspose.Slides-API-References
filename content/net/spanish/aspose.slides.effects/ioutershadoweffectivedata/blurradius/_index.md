@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.effects/ioutershadoweffectivedata/blurradius/
 ---
 
-## Propiedad IOuterShadowEffectiveData.BlurRadius
+## IOuterShadowEffectiveData.BlurRadius propiedad
 
 Radio de desenfoque. Solo lectura Double.
 
@@ -15,10 +15,10 @@ Radio de desenfoque. Solo lectura Double.
 public double BlurRadius { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
+* espacio de nombres [Aspose.Slides.Effects](../../ioutershadoweffectivedata)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

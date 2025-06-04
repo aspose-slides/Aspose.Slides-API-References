@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die URL verknüpfter Bilder zurück. Lese-/Schreibzeichenfolge.
+description: Gibt die URL der verlinkten Bilder zurück. Lese-/Schreib-String.
 type: docs
 weight: 40
 url: /de/aspose.slides/picture/linkpathlong/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picture/linkpathlong/
 
 ## Picture.LinkPathLong-Eigenschaft
 
-Gibt die URL des verknüpften Bildes zurück. Lese-/Schreibzeichenfolge.
+Gibt die URL des verlinkten Bildes zurück. Lese-/Schreib-String.
 
 ```csharp
 public string LinkPathLong { get; set; }

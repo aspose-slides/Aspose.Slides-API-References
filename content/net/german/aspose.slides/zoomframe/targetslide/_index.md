@@ -1,15 +1,15 @@
 ---
 title: TargetSlide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Lesen/Schreiben ISlideaspose.slides/islide.
+second_title: Aspose.Sildes for .NET API Referenz
+description: Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Schreib-/Lesezugriff auf ISlideaspose.slides/islide.
 type: docs
 weight: 10
 url: /de/aspose.slides/zoomframe/targetslide/
 ---
 
-## ZoomFrame.TargetSlide-Eigenschaft
+## ZoomFrame.TargetSlide property
 
-Ruht das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Lesen/Schreiben [`ISlide`](../../islide).
+Ruft das Folienobjekt ab oder legt es fest, auf das das Slide Zoom-Objekt verweist. Schreib-/Lesezugriff auf [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; set; }

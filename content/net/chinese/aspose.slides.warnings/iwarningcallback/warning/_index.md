@@ -1,15 +1,15 @@
 ---
 title: Warning
-second_title: Aspose.Slides for .NET API 参考
-description: 接收警告并决定是否应中止操作的回调方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 回调方法，接收警告并决定是否应中止操作。
 type: docs
 weight: 10
 url: /zh/aspose.slides.warnings/iwarningcallback/warning/
 ---
 
-## IWarningCallback.Warning 方法
+## IWarningCallback.Warning method
 
-接收警告并决定是否应中止操作的回调方法。
+回调方法，接收警告并决定是否应中止操作。
 
 ```csharp
 public ReturnAction Warning(IWarningInfo warning)
@@ -17,7 +17,7 @@ public ReturnAction Warning(IWarningInfo warning)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| warning | IWarningInfo | 要处理的警告。 |
+| warning | IWarningInfo | 待处理的警告。 |
 
 ### 返回值
 

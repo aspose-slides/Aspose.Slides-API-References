@@ -1,21 +1,21 @@
 ---
 title: HangingPunctuation
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Nur-lesbarer Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob die hängende Zeichensetzung in einem Absatz verwendet wird. Schreibgeschützter Boolescher Wert.
 type: docs
 weight: 80
 url: /de/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
 ---
 
-## IParagraphFormatEffectiveData.HangingPunctuation-Eigenschaft
+## IParagraphFormatEffectiveData.HangingPunctuation Eigenschaft
 
-Bestimmt, ob die hängende Interpunktion in einem Absatz verwendet wird. Nur-lesbarer Boolean.
+Bestimmt, ob die hängende Zeichensetzung in einem Absatz verwendet wird. Schreibgeschützter Boolescher Wert.
 
 ```csharp
 public bool HangingPunctuation { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * Namespace [Aspose.Slides](../../iparagraphformateffectivedata)

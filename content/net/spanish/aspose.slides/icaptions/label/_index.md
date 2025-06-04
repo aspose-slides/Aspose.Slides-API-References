@@ -1,7 +1,7 @@
 ---
 title: Label
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve o establece la etiqueta de los subtítulos. Cadena de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece la etiqueta de los subtítulos. Lectura/escritura String.
 type: docs
 weight: 40
 url: /es/aspose.slides/icaptions/label/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/icaptions/label/
 
 ## Propiedad ICaptions.Label
 
-Devuelve o establece la etiqueta de los subtítulos. Cadena de lectura/escritura.
+Devuelve o establece la etiqueta de los subtítulos. Lectura/escritura String.
 
 ```csharp
 public string Label { get; set; }

@@ -1,29 +1,29 @@
----
+--- 
 title: AsIImageTransformOperation
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference 
 description: Devuelve la interfaz IImageTransformOperation. IImageTransformOperation de solo lectura aspose.slides.effects/iimagetransformoperation.
-type: docs
-weight: 20
+type: docs 
+weight: 20 
 url: /es/aspose.slides.effects/ihsl/asiimagetransformoperation/
----
+--- 
 
-## Propiedad IHSL.AsIImageTransformOperation
+## IHSL.AsIImageTransformOperation propiedad 
 
-Devuelve la interfaz IImageTransformOperation. Solo lectura [`IImageTransformOperation`](../../iimagetransformoperation).
+Devuelve la interfaz IImageTransformOperation. De solo lectura [`IImageTransformOperation`](../../iimagetransformoperation). 
 
-```csharp
-public IImageTransformOperation AsIImageTransformOperation { get; }
-```
+```csharp 
+public IImageTransformOperation AsIImageTransformOperation { get; } 
+``` 
 
-### Comentarios
+### Comentarios 
 
-Para compatibilidad con COM.
+Para compatibilidad con COM. 
 
-### Véase También
+### Véase también 
 
-* interfaz [IImageTransformOperation](../../iimagetransformoperation)
-* interfaz [IHSL](../../ihsl)
-* espacio de nombres [Aspose.Slides.Effects](../../ihsl)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IImageTransformOperation](../../iimagetransformoperation) 
+* interfaz [IHSL](../../ihsl) 
+* espacio de nombres [Aspose.Slides.Effects](../../ihsl) 
+* ensamblado [Aspose.Slides](../../../) 
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll --> 

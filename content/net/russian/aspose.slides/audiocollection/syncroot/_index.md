@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/audiocollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [AudioCollection](../../audiocollection)
 * пространство имен [Aspose.Slides](../../audiocollection)

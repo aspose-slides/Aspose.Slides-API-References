@@ -1,15 +1,15 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ des vertikalen Texts zurück oder legt ihn fest. Schreib-/Lesezugriff auf TextVerticalTypeaspose.slides/textverticaltype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Typ des vertikalen Textes zurück oder setzt ihn. Lese-/Schreibzugriff auf TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 230
 url: /de/aspose.slides/cell/textverticaltype/
 ---
 
-## Cell.TextVerticalType-Eigenschaft
+## Cell.TextVerticalType Eigenschaft
 
-Gibt den Typ des vertikalen Texts zurück oder legt ihn fest. Schreib-/Lesezugriff auf [`TextVerticalType`](../../textverticaltype).
+Gibt den Typ des vertikalen Textes zurück oder setzt ihn. Lese-/Schreibzugriff auf [`TextVerticalType`](../../textverticaltype).
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }

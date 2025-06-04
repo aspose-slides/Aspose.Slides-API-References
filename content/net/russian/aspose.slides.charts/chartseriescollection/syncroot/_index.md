@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartseriescollection/syncroot/
 public object SyncRoot { get; }
 ```
 
-### См. также
+### Также смотрите
 
 * класс [ChartSeriesCollection](../../chartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../chartseriescollection)

@@ -1,15 +1,15 @@
 ---
 title: CreateShapeElements
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée et renvoie un tableau d'éléments de forme.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Crée et retourne un tableau d'éléments de formes.
 type: docs
 weight: 40
 url: /fr/aspose.slides/geometryshape/createshapeelements/
 ---
 
-## Méthode GeometryShape.CreateShapeElements
+## GeometryShape.CreateShapeElements méthode
 
-Crée et renvoie un tableau d'éléments de forme.
+Crée et retourne un tableau d'éléments de forme.
 
 ```csharp
 public IShapeElement[] CreateShapeElements()

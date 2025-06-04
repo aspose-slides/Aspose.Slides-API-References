@@ -1,15 +1,15 @@
 ---
 title: AddTable
-second_title: Aspose.Sildes для справки по API .NET
-description: Создает новую Таблицу и добавляет ее в конец коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Создает новую таблицу и добавляет ее в конец коллекции.
 type: docs
 weight: 200
 url: /ru/aspose.slides/shapecollection/addtable/
 ---
 
-## Метод ShapeCollection.AddTable
+## ShapeCollection.AddTable метод
 
-Создает новую Таблицу и добавляет ее в конец коллекции.
+Создает новую таблицу и добавляет ее в конец коллекции.
 
 ```csharp
 public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)
@@ -17,14 +17,14 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата для левой стороны рамки фигуры. |
-| y | Single | Y-координата для верхней стороны рамки фигуры. |
+| x | Single | X-координата для левой стороны рамки объекта. |
+| y | Single | Y-координата для верхней стороны рамки объекта. |
 | columnWidths | Double[] | Массив дробных чисел, представляющий ширины столбцов в таблице. |
 | rowHeights | Double[] | Массив дробных чисел, представляющий высоты строк в таблице. |
 
 ### Возвращаемое значение
 
-Созданный объект Таблицы.
+Созданный объект Table.
 
 ### Примеры
 
@@ -32,16 +32,16 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 
 ```csharp
 [C#]
-// Создание экземпляра класса Presentation, представляющего файл PPTX
+// Создание экземпляра класса Presentation, который представляет файл PPTX
 using (Presentation pres = new Presentation()){
 	// Доступ к первому слайду
 	ISlide sld = pres.Slides[0];
-	// Определяем столбцы с ширинами и строки с высотами
+	// Определение столбцов с ширинами и строк с высотами
 	double[] dblCols = { 50, 50, 50 };
 	double[] dblRows = { 50, 30, 30, 30, 30 };
-	// Добавляем фигуру таблицы на слайд
+	// Добавление формы таблицы на слайд
 	ITable tbl = sld.Shapes.AddTable(100, 50, dblCols, dblRows);
-	// Устанавливаем формат границы для каждой ячейки
+	// Установка формата рамки для каждой ячейки
 	for (int row = 0; row < tbl.Rows.Count; row++)
 	{
 		for (int cell = 0; cell < tbl.Rows[row].Count; cell++)
@@ -60,16 +60,16 @@ using (Presentation pres = new Presentation()){
 			tbl.Rows[row][cell].CellFormat.BorderRight.Width = 5;
 		}
 	}
-	// Объединяем ячейки 1 и 2 строки 1
+	// Объединение ячеек 1 и 2 строки 1
 	tbl.MergeCells(tbl.Rows[0][0], tbl.Rows[1][1], false);
-	// Добавляем текст в объединенную ячейку
+	// Добавление текста в объединенную ячейку
 	tbl.Rows[0][0].TextFrame.Text = "Объединенные ячейки";
-	// Сохраняем PPTX на диск
+	// Сохранение PPTX на диск
 	pres.Save("table.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITable](../../itable)
 * класс [ShapeCollection](../../shapecollection)

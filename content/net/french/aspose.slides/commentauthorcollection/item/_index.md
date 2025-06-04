@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/commentauthorcollection/item/
 ---
 
-## Indexeur CommentAuthorCollection
+## CommentAuthorCollection indexer
 
 Obtient l'élément à l'index spécifié. Lecture seule [`ICommentAuthor`](../../icommentauthor).
 

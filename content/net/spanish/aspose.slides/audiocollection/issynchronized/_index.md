@@ -1,15 +1,15 @@
 ---
 title: IsSynchronized
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Devuelve un valor que indica si el acceso a la colección es seguro para subprocesos sincronizado. Solo lectura Boolean.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve un valor que indica si el acceso a la colección es sincronizado y seguro para hilos. Solo lectura Boolean.
 type: docs
 weight: 20
 url: /es/aspose.slides/audiocollection/issynchronized/
 ---
 
-## Propiedad AudioCollection.IsSynchronized
+## AudioCollection.IsSynchronized propiedad
 
-Devuelve un valor que indica si el acceso a la colección es seguro para subprocesos (sincronizado). Solo lectura Boolean.
+Devuelve un valor que indica si el acceso a la colección es sincronizado (seguro para hilos). Solo lectura Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
@@ -19,6 +19,6 @@ public bool IsSynchronized { get; }
 
 * clase [AudioCollection](../../audiocollection)
 * espacio de nombres [Aspose.Slides](../../audiocollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

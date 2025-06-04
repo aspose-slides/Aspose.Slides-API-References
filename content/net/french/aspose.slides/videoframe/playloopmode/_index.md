@@ -1,6 +1,6 @@
 ---
 title: PlayLoopMode
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence d'API .NET
 description: Détermine si une vidéo est en boucle. Booléen en lecture/écriture.
 type: docs
 weight: 60

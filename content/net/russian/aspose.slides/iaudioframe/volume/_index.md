@@ -1,21 +1,21 @@
 ---
 title: Volume
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или устанавливает громкость аудио. Чтение/запись AudioVolumeModeaspose.slides/audiovolumemode.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает уровень громкости аудио. Чтение/запись AudioVolumeModeaspose.slides/audiovolumemode.
 type: docs
 weight: 180
 url: /ru/aspose.slides/iaudioframe/volume/
 ---
 
-## Свойство IAudioFrame.Volume
+## IAudioFrame.Volume свойство
 
-Возвращает или устанавливает громкость аудио. Чтение/запись [`AudioVolumeMode`](../../audiovolumemode).
+Возвращает или задает уровень громкости аудио. Чтение/запись [`AudioVolumeMode`](../../audiovolumemode).
 
 ```csharp
 public AudioVolumeMode Volume { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [AudioVolumeMode](../../audiovolumemode)
 * interface [IAudioFrame](../../iaudioframe)

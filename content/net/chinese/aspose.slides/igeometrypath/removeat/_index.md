@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
-description: 删除几何路径中指定索引的段。
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除几何路径中指定索引处的段。
 type: docs
 weight: 100
 url: /zh/aspose.slides/igeometrypath/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/igeometrypath/removeat/
 
 ## IGeometryPath.RemoveAt 方法
 
-删除几何路径中指定索引的段。
+移除几何路径中指定索引处的段。
 
 ```csharp
 public void RemoveAt(int index)
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 |  |
 
-### 另见
+### 参见
 
 * 接口 [IGeometryPath](../../igeometrypath)
 * 命名空间 [Aspose.Slides](../../igeometrypath)

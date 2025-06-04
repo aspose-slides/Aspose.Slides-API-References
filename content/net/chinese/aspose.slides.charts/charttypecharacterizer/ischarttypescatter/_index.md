@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
-second_title: Aspose.Sildes for .NET API 参考
-description: 如果 chartType 是散点子类型之一，则返回 true。子类型集对应于 PowerPoint 中的相应集（请参见 PowerPoint 中的“更改图表类型”对话框）：ScatterWithMarkers、ScatterWithSmoothLines、ScatterWithSmoothLinesAndMarkers、ScatterWithStraightLines、ScatterWithStraightLinesAndMarkers。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果chartType是Scatter子类型之一，则返回true。子类型集对应于PowerPoint中的相应集，参见PowerPoint中的“更改图表类型”对话框：ScatterWithMarkers、ScatterWithSmoothLines、ScatterWithSmoothLinesAndMarkers、ScatterWithStraightLines、ScatterWithStraightLinesAndMarkers。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
 
 ## ChartTypeCharacterizer.IsChartTypeScatter 方法
 
-如果 chartType 是散点子类型之一，则返回 true。子类型集对应于 PowerPoint 中的相应集（请参见“更改图表类型”对话框）：ScatterWithMarkers、ScatterWithSmoothLines、ScatterWithSmoothLinesAndMarkers、ScatterWithStraightLines、ScatterWithStraightLinesAndMarkers。
+如果chartType是Scatter子类型之一，则返回true。子类型集对应于PowerPoint中的相应集（参见“更改图表类型”对话框）：ScatterWithMarkers、ScatterWithSmoothLines、ScatterWithSmoothLinesAndMarkers、ScatterWithStraightLines、ScatterWithStraightLinesAndMarkers。
 
 ```csharp
 public static bool IsChartTypeScatter(ChartType chartType)
 ```
 
-### 另请参阅
+### 另见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

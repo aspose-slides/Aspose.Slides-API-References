@@ -1,7 +1,7 @@
 ---
 title: IAdjustValue
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет значение корректировки геометрической фигуры. Эти значения влияют на форму фигуры.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет значение регулировки геометрических фигур. Эти значения влияют на форму фигур.
 type: docs
 weight: 4980
 url: /ru/aspose.slides/iadjustvalue/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iadjustvalue/
 
 ## Интерфейс IAdjustValue
 
-Представляет значение корректировки геометрической фигуры. Эти значения влияют на форму фигуры.
+Представляет значение регулировки геометрической фигуры. Эти значения влияют на форму фигуры.
 
 ```csharp
 public interface IAdjustValue
@@ -20,11 +20,11 @@ public interface IAdjustValue
 | Имя | Описание |
 | --- | --- |
 | [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Возвращает или задает значение, интерпретируя его как угол в градусах. Чтение/запись Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Возвращает имя этого значения корректировки. Только для чтения String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Возвращает или задает значение корректировки "как есть". Чтение/запись Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Возвращает тип корректировки фигуры. Только для чтения [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Возвращает имя этого значения регулировки. Только для чтения String. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Возвращает или задает значение регулировки "как есть". Чтение/запись Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Возвращает тип регулировки фигуры. Только для чтения [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

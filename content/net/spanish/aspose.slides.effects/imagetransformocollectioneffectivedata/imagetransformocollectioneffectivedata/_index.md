@@ -1,7 +1,7 @@
 ---
 title: ImageTransformOCollectionEffectiveData
 second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor predeterminado.
+description: El constructor por defecto.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetransformocollectioneffectivedata/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/imagetrans
 
 ## Constructor de ImageTransformOCollectionEffectiveData
 
-El constructor predeterminado.
+El constructor por defecto.
 
 ```csharp
 public ImageTransformOCollectionEffectiveData()
 ```
 
-### Véase también
+### Ver También
 
 * class [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: UpperLimit
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la limite supérieure ou inférieure
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Spécifie limite supérieure ou inférieure
 type: docs
 weight: 40
 url: /fr/aspose.slides.mathtext/imathlimit/upperlimit/
 ---
 
-## Propriété IMathLimit.LimiteSupérieure
+## IMathLimit.UpperLimit propriété
 
-Spécifie la limite supérieure ou inférieure
+Spécifie limite supérieure ou inférieure
 
 ```csharp
 public bool UpperLimit { get; set; }
@@ -25,7 +25,7 @@ IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new Mathema
 limitElement.UpperLimit = false;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * namespace [Aspose.Slides.MathText](../../imathlimit)

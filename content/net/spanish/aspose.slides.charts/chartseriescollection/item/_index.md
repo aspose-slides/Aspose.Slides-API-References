@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides.charts/chartseriescollection/item/
 ---
 
-## Índice de ChartSeriesCollection
+## Indexador de ChartSeriesCollection
 
 Obtiene el elemento en el índice especificado.
 

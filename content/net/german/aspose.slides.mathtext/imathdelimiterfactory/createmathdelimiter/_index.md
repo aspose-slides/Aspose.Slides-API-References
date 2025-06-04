@@ -1,7 +1,7 @@
 ---
 title: CreateMathDelimiter
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellen Sie einen mathematischen Trenner, indem Sie ihn auf das Element anwenden
+description: Erstellen Sie einen mathematischen Trennzeichen, indem Sie ihn auf das Element anwenden
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
 
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
-Erstellen Sie einen mathematischen Trenner, indem Sie ihn auf das Element anwenden
+Erstellen Sie einen mathematischen Trennzeichen, indem Sie ihn auf das Element anwenden
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElement element)
@@ -17,13 +17,13 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | mathematisches Element, auf das der Trenner angewendet werden soll |
+| element | IMathElement | Mathematisches Element, um den Trennzeichen anzuwenden |
 
 ### Rückgabewert
 
-neuer mathematischer Trenner
+neuer mathematischer Trennzeichen
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathDelimiter](../../imathdelimiter)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ neuer mathematischer Trenner
 
 ## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
-Erstellen Sie einen mathematischen Trenner, indem Sie ihn auf das Element anwenden
+Erstellen Sie einen mathematischen Trennzeichen, indem Sie ihn auf das Element anwenden
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
@@ -43,13 +43,13 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | mathematische Elemente, auf die der Trenner angewendet werden soll |
+| mathElements | IMathElementCollection | Mathematische Elemente, um den Trennzeichen anzuwenden |
 
 ### Rückgabewert
 
-neuer mathematischer Trenner
+neuer mathematischer Trennzeichen
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathDelimiter](../../imathdelimiter)
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)

@@ -1,7 +1,7 @@
 ---
 title: TrimFromStart
-second_title: Aspose.Slides for .NET API 参考
-description: 修剪开始时间 ms
+second_title: Aspose.Sildes for .NET API Reference
+description: 修剪开始 ms
 type: docs
 weight: 100
 url: /zh/aspose.slides/videoframe/trimfromstart/
@@ -27,10 +27,10 @@ using (Presentation pres = new Presentation())
     IVideo video = pres.Videos.AddVideo(File.ReadAllBytes("video.mp4"));
     var videoFrame = slide.Shapes.AddVideoFrame(0, 0, 100, 100, video);
 
-    //设置修剪开始时间为1秒
+    //设置修剪开始时间 1秒
     videoFrame.TrimFromStart = 1000f;
 
-    //设置修剪结束时间为2秒
+    //设置修剪结束时间 2秒
     videoFrame.TrimFromEnd = 2000f;
 }
 ```

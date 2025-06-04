@@ -1,13 +1,13 @@
 ---
 title: Item
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene el elemento en el índice especificado. Solo lectura ILineFormat aspose.slides/ilineformat.
+description: Obtiene el elemento en el índice especificado. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 10
 url: /es/aspose.slides.theme/ilineformatcollection/item/
 ---
 
-## Indexador ILineFormatCollection
+## ILineFormatCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`ILineFormat`](../../../aspose.slides/ilineformat).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`ILineFormat`](../
 public ILineFormat this[int index] { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILineFormat](../../../aspose.slides/ilineformat)
 * interfaz [ILineFormatCollection](../../ilineformatcollection)

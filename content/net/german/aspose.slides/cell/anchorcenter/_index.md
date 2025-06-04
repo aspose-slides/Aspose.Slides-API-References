@@ -1,7 +1,7 @@
 ---
 title: AnchorCenter
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Textfeld innerhalb einer Zelle zentriert ist oder nicht. Schreib-/Lese-Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob das Textfeld innerhalb einer Zelle zentriert ist oder nicht. Schreib/lesbares Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/cell/anchorcenter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/anchorcenter/
 
 ## Cell.AnchorCenter-Eigenschaft
 
-Bestimmt, ob das Textfeld innerhalb einer Zelle zentriert ist oder nicht. Schreib-/Lese-Boolean.
+Bestimmt, ob das Textfeld innerhalb einer Zelle zentriert ist oder nicht. Schreib/lesbares Boolean.
 
 ```csharp
 public bool AnchorCenter { get; set; }

@@ -7,7 +7,7 @@ weight: 1570
 url: /zh/aspose.slides.charts/errorbarvaluetype/
 ---
 
-## ErrorBarValueType枚举
+## ErrorBarValueType 枚举
 
 表示误差条值的类型
 
@@ -19,13 +19,13 @@ public enum ErrorBarValueType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Custom | `0` | 指定误差条的长度由正负元素决定。 |
+| Custom | `0` | 指定误差条的长度由正值和负值元素确定。 |
 | Fixed | `1` | 指定误差条的长度为由误差条值确定的固定值。 |
-| Percentage | `2` | 指定误差条的长度为误差条值占数据的百分比。 |
-| StandardDeviation | `3` | 指定误差条的长度为数据的误差条值标准差。 |
-| StandardError | `4` | 指定误差条的长度为数据的误差条值标准误差。 |
+| Percentage | `2` | 指定误差条的长度为误差条值的百分比数据。 |
+| StandardDeviation | `3` | 指定误差条的长度为误差条值的数据标准差。 |
+| StandardError | `4` | 指定误差条的长度为误差条值的数据标准误差。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

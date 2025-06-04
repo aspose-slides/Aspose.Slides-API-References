@@ -1,7 +1,7 @@
 ---
 title: Accent2
-second_title: Aspose.Slides für .NET API-Referenz
-description: Zweite Akzentfarbe im Schema. Nur-Lese IColorFormataspose.slides/../aspose.slides/icolorformat.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Zweite Akzentfarbe im Farbschema. Nur-Lese IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/colorscheme/accent2/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/colorscheme/accent2/
 
 ## ColorScheme.Accent2-Eigenschaft
 
-Zweite Akzentfarbe im Schema. Nur-Lese [`IColorFormat`](../../../aspose.slides/icolorformat).
+Zweite Akzentfarbe im Farbschema. Nur-Lese [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent2 { get; }

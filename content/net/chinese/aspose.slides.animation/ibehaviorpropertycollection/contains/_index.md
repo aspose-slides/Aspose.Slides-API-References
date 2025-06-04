@@ -1,6 +1,6 @@
 ---
 title: Contains
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 确定 ICollection 是否包含特定值。
 type: docs
 weight: 30
@@ -21,7 +21,7 @@ public bool Contains(string propertyValue)
 
 ### 返回值
 
-如果在 ICollection 中找到 *propertyValue*，则返回 true；否则返回 false。
+如果在 ICollection 中找到 *propertyValue*，则为 true；否则为 false。
 
 ### 另请参见
 

@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una raíz de sincronización. Objeto solo de lectura.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve una raíz de sincronización. Objeto de solo lectura.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/piesplitcustompointcollection/syncroot/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/piesplitcustompointcollection/syncroot/
 
 ## PieSplitCustomPointCollection.SyncRoot propiedad
 
-Devuelve una raíz de sincronización. Objeto solo de lectura.
+Devuelve una raíz de sincronización. Objeto de solo lectura.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Véase También
+### Ver también
 
 * clase [PieSplitCustomPointCollection](../../piesplitcustompointcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../piesplitcustompointcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

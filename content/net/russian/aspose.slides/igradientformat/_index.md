@@ -1,7 +1,7 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет формат градиента.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет градиентный формат.
 type: docs
 weight: 5800
 url: /ru/aspose.slides/igradientformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/igradientformat/
 
 ## Интерфейс IGradientFormat
 
-Представляет формат градиента.
+Представляет градиентный формат.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -20,14 +20,14 @@ public interface IGradientFormat : IFillParamSource
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Возвращает или устанавливает стиль градиента. Чтение/запись [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Возвращает или устанавливает форму градиента. Чтение/запись [`GradientShape`](../gradientshape). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Возвращает или задает стиль градиента. Чтение/запись [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Возвращает или задает форму градиента. Чтение/запись [`GradientShape`](../gradientshape). |
 | [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Возвращает коллекцию градиентных остановок. Только для чтения [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Возвращает или устанавливает угол градиента. Чтение/запись Single. |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Возвращает или задает угол градиента. Чтение/запись Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Определяет, масштабируется ли градиент. Чтение/запись [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Возвращает или устанавливает режим переворота для градиента. Чтение/запись [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Возвращает или задает режим переворота для градиента. Чтение/запись [`TileFlip`](../tileflip). |
 
-### Смотрите Также
+### Смотрите также
 
 * интерфейс [IFillParamSource](../ifillparamsource)
 * пространство имен [Aspose.Slides](../../aspose.slides)

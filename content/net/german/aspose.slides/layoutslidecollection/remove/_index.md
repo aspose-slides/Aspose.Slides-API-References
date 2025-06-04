@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt ein Layout aus der Sammlung.
 type: docs
 weight: 80
 url: /de/aspose.slides/layoutslidecollection/remove/
 ---
 
-## LayoutSlideCollection.Remove Methode
+## LayoutSlideCollection.Remove-Methode
 
 Entfernt ein Layout aus der Sammlung.
 
@@ -17,17 +17,17 @@ public void Remove(ILayoutSlide value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | ILayoutSlide | Das Layout-Slide, das aus der Sammlung entfernt werden soll. |
+| value | ILayoutSlide | Die Layoutfolie, die aus der Sammlung entfernt werden soll. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn das Layout in der Präsentation verwendet wird (seine HasDependingSlides-Eigenschaft ist true). |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn das Layout in der Präsentation verwendet wird (die HasDependingSlides-Eigenschaft ist true). |
 
-### Anmerkungen
+### Bemerkungen
 
-1) Um das Auslösen der PptxEditException zu vermeiden, überprüfen Sie zuvor die HasDependingSlides-Eigenschaft des Layouts. 2) Sie können auch die [`Remove`](../../ilayoutslide/remove) Methode verwenden, um den Code zu vereinfachen.
+1) Um das Auslösen der PptxEditException zu vermeiden, überprüfen Sie vorher die HasDependingSlides-Eigenschaft des Layouts. 2) Sie können auch die [`Remove`](../../ilayoutslide/remove) Methode verwenden, um den Code zu vereinfachen.
 
 ### Siehe auch
 

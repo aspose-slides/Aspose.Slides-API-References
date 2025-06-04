@@ -1,7 +1,7 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник
-description: Неизменяемый объект, содержащий свойства эффективного стиля эффекта.
+description: Невозможный объект, который содержит свойства эффективного стиля эффекта.
 type: docs
 weight: 10890
 url: /ru/aspose.slides.theme/ieffectstyleeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ieffectstyleeffectivedata/
 
 ## Интерфейс IEffectStyleEffectiveData
 
-Неизменяемый объект, содержащий свойства эффективного стиля эффекта.
+Невозможный объект, который содержит свойства эффективного стиля эффекта.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -17,16 +17,16 @@ public interface IEffectStyleEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Возвращает формат эффекта. Только для чтения [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Возвращает 3d формат. Только для чтения [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Возвращает 3D формат. Только для чтения [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Примечания
 
 Этот интерфейс используется как часть [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)

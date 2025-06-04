@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建一个新的矩形类型的自动形状，以容纳内部的数学内容，并将其添加到集合的末尾。
+description: 创建一个新的矩形类型的自动形状，以容纳数学内容，并将其添加到集合的末尾。
 type: docs
 weight: 110
 url: /zh/aspose.slides/ishapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/addmathshape/
 
 ## IShapeCollection.AddMathShape 方法
 
-创建一个新的矩形类型的自动形状，以容纳内部的数学内容，并将其添加到集合的末尾。
+创建一个新的矩形类型的自动形状，以容纳数学内容，并将其添加到集合的末尾。
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -26,7 +26,7 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 创建的 AutoShape 对象。
 
-### 参见
+### 另见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 接口 [IShapeCollection](../../ishapecollection)

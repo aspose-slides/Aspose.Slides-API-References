@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lese Int32.
+description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-lesbarer Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/imathelementcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathelementcollection/count/
 
 ## IMathElementCollection.Count-Eigenschaft
 
-Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lese Int32.
+Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-lesbarer Int32.
 
 ```csharp
 public int Count { get; }
@@ -25,7 +25,7 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 int count = collection.Count;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)
 * Namespace [Aspose.Slides.MathText](../../imathelementcollection)

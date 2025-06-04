@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre d'éléments dans une collection Int32 en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le nombre d'éléments dans une collection. Int32 en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/isequencecollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/isequencecollection/count/
 
 ## Propriété ISequenceCollection.Count
 
-Renvoie le nombre d'éléments dans une collection Int32 en lecture seule.
+Renvoie le nombre d'éléments dans une collection. Int32 en lecture seule.
 
 ```csharp
 public int Count { get; }

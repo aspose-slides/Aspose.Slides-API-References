@@ -1,7 +1,7 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示 SVG 形状的选项。
+second_title: Aspose.Slides for .NET API 参考
+description: 表示SVG形状的选项。
 type: docs
 weight: 3940
 url: /zh/aspose.slides.export/isvgshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/isvgshape/
 
 ## ISvgShape 接口
 
-表示 SVG 形状的选项。
+表示SVG形状的选项。
 
 ```csharp
 public interface ISvgShape
@@ -19,7 +19,7 @@ public interface ISvgShape
 
 | 名称 | 描述 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 为形状设置或获取 id |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 设置或获取形状的ID |
 
 ## 方法
 

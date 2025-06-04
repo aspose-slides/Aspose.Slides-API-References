@@ -17,12 +17,12 @@ public interface IFormattedTextContainer : IChartComponent
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только для чтения [`IChartComponent`](../ichartcomponent). |
 | [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Возвращает формат текста диаграммы. Только для чтения [`IChartTextFormat`](../icharttextformat). |
 
-### Также см.
+### Смотрите также
 
 * интерфейс [IChartComponent](../ichartcomponent)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)

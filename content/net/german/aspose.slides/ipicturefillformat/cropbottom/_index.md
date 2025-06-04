@@ -1,7 +1,7 @@
 ---
 title: CropBottom
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der Prozentsätze der tatsächlichen Bildhöhe zurück oder setzt sie, die von der Unterseite des Bildes abgeschnitten werden. Lese-/Schreibzugriff Single.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Anzahl der Prozentsätze der tatsächlichen Bildhöhe zurück oder legt sie fest, die vom unteren Rand des Bildes abgeschnitten werden. Lese-/Schreibzugriff Single.
 type: docs
 weight: 20
 url: /de/aspose.slides/ipicturefillformat/cropbottom/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformat/cropbottom/
 
 ## IPictureFillFormat.CropBottom-Eigenschaft
 
-Gibt die Anzahl der Prozentsätze der tatsächlichen Bildhöhe zurück oder setzt sie, die von der Unterseite des Bildes abgeschnitten werden. Lese-/Schreibzugriff Single.
+Gibt die Anzahl der Prozentsätze der tatsächlichen Bildhöhe zurück oder legt sie fest, die vom unteren Rand des Bildes abgeschnitten werden. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float CropBottom { get; set; }

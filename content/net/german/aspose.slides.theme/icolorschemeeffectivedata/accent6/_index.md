@@ -1,7 +1,7 @@
 ---
 title: Accent6
 second_title: Aspose.Slides für .NET API-Referenz
-description: Sechste Akzentfarbe im Schema. Schreibgeschützte Farbe.
+description: Sechste Akzentfarbe im Schema. Nur lesbare Farbe.
 type: docs
 weight: 60
 url: /de/aspose.slides.theme/icolorschemeeffectivedata/accent6/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/icolorschemeeffectivedata/accent6/
 
 ## IColorSchemeEffectiveData.Accent6-Eigenschaft
 
-Sechste Akzentfarbe im Schema. Schreibgeschützte Farbe.
+Sechste Akzentfarbe im Schema. Nur lesbare Farbe.
 
 ```csharp
 public Color Accent6 { get; }

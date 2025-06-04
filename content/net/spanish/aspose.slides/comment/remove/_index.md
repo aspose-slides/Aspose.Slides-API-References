@@ -1,15 +1,15 @@
----
+---  
 title: Remove
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Elimina el comentario y todas sus respuestas de la colección padre.
-type: docs
-weight: 70
+second_title: Aspose.Sildes para .NET API Reference  
+description: Elimina el comentario y todas sus respuestas de la colección principal.
+type: docs  
+weight: 70  
 url: /es/aspose.slides/comment/remove/
----
+---  
 
 ## Método Comment.Remove
 
-Elimina el comentario y todas sus respuestas de la colección padre.
+Elimina el comentario y todas sus respuestas de la colección principal.
 
 ```csharp
 public void Remove()
@@ -19,12 +19,12 @@ public void Remove()
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lanzada si el comentario ya ha sido eliminado |
+| [PptxEditException](../../pptxeditexception) | Lanzado si el comentario ya ha sido eliminado |
 
-### Véase también
+### Véase También
 
-* clase [Comment](../../comment)
-* espacio de nombres [Aspose.Slides](../../comment)
-* ensamblaje [Aspose.Slides](../../../)
+* clase [Comment](../../comment)  
+* espacio de nombres [Aspose.Slides](../../comment)  
+* ensamblado [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

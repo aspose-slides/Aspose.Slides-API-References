@@ -1,13 +1,13 @@
 ---
 title: Chart
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский график. Только для чтения IChart aspose.slides.charts/ichart.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает родительский график. Только для чтения IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/datalabelcollection/chart/
 ---
 
-## Свойство DataLabelCollection.Chart
+## DataLabelCollection.Chart свойство
 
 Возвращает родительский график. Только для чтения [`IChart`](../../ichart).
 

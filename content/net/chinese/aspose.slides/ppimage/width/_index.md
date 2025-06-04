@@ -1,6 +1,6 @@
 ---
 title: Width
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回图像的宽度。只读 Int32。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ppimage/width/
 public int Width { get; }
 ```
 
-### 另请查看
+### 另请参阅
 
 * class [PPImage](../../ppimage)
 * namespace [Aspose.Slides](../../ppimage)

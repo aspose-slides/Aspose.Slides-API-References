@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает энумератор, который перебирает коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides/captionscollection/getenumerator/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/captionscollection/getenumerator/
 
 ## Метод CaptionsCollection.GetEnumerator
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает энумератор, который перебирает коллекцию.
 
 ```csharp
 public IEnumerator<ICaptions> GetEnumerator()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 IEnumerator, который можно использовать для перебора коллекции.
 

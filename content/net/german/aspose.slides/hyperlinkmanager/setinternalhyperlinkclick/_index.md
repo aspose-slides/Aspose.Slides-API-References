@@ -1,7 +1,7 @@
 ---
 title: SetInternalHyperlinkClick
 second_title: Aspose.Slides für .NET API Referenz
-description: Setzt interne Hyperlinks bei Klick.
+description: Setzt internen Hyperlink beim Klicken.
 type: docs
 weight: 50
 url: /de/aspose.slides/hyperlinkmanager/setinternalhyperlinkclick/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlinkmanager/setinternalhyperlinkclick/
 
 ## HyperlinkManager.SetInternalHyperlinkClick Methode
 
-Setzt interne Hyperlinks bei Klick.
+Setzt internen Hyperlink beim Klicken.
 
 ```csharp
 public IHyperlink SetInternalHyperlinkClick(ISlide targetSlide)

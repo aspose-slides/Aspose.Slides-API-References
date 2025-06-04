@@ -7,7 +7,7 @@ weight: 250
 url: /fr/aspose.slides.charts/chartseries/numberformatofyvalues/
 ---
 
-## Propriété ChartSeries.NumberFormatOfYValues
+## ChartSeries.NumberFormatOfYValues propriété
 
 NumberFormatOfYValues. Lire/écrire String.
 
@@ -15,7 +15,7 @@ NumberFormatOfYValues. Lire/écrire String.
 public string NumberFormatOfYValues { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ChartSeries](../../chartseries)
 * espace de noms [Aspose.Slides.Charts](../../chartseries)

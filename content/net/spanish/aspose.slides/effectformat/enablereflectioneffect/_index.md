@@ -1,24 +1,24 @@
 ---
 title: EnableReflectionEffect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Habilita el efecto de reflejo.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Habilita el efecto de reflexión.
 type: docs
 weight: 230
 url: /es/aspose.slides/effectformat/enablereflectioneffect/
 ---
 
-## Método EffectFormat.EnableReflectionEffect
+## EffectFormat.EnableReflectionEffect método
 
-Habilita el efecto de reflejo.
+Habilita el efecto de reflexión.
 
 ```csharp
 public void EnableReflectionEffect()
 ```
 
-### Ver También
+### Véase También
 
 * clase [EffectFormat](../../effectformat)
-* namespace [Aspose.Slides](../../effectformat)
-* ensamblado [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../effectformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

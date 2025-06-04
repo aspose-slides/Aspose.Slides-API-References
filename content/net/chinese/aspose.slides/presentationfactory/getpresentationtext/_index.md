@@ -1,6 +1,6 @@
 ---
 title: GetPresentationText
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从幻灯片中检索原始文本
 type: docs
 weight: 50
@@ -22,9 +22,9 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 
 ### 返回值
 
-包含表示原始幻灯片文本的 SlideText 数组的 PresentationText 实例
+返回包含表示原始幻灯片文本的 SlideText 数组的 PresentationText 实例
 
-### 另请参阅
+### 参见
 
 * interface [IPresentationText](../../ipresentationtext)
 * enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
@@ -49,9 +49,9 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ### 返回值
 
-包含表示原始幻灯片文本的 SlideText 数组的 PresentationText 实例
+返回包含表示原始幻灯片文本的 SlideText 数组的 PresentationText 实例
 
-### 另请参阅
+### 参见
 
 * interface [IPresentationText](../../ipresentationtext)
 * enum [TextExtractionArrangingMode](../../textextractionarrangingmode)
@@ -78,9 +78,9 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 
 ### 返回值
 
-包含表示原始幻灯片文本的 SlideText 数组的 PresentationText 实例
+返回包含表示原始幻灯片文本的 SlideText 数组的 PresentationText 实例
 
-### 另请参阅
+### 参见
 
 * interface [IPresentationText](../../ipresentationtext)
 * enum [TextExtractionArrangingMode](../../textextractionarrangingmode)

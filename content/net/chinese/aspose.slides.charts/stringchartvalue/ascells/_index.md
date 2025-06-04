@@ -1,7 +1,7 @@
 ---
 title: AsCells
-second_title: Aspose.Slides for .NET API 参考
-description: 不允许赋值为 null。返回值始终为非 null。读/写 IChartCellCollectionaspose.slides/ichartcellcollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不允许分配空值。返回的值始终不为 null。读/写 IChartCellCollectionaspose.slides/ichartcellcollection。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/stringchartvalue/ascells/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/stringchartvalue/ascells/
 
 ## StringChartValue.AsCells 属性
 
-不允许赋值为 null。返回值始终为非 null。读/写 [`IChartCellCollection`](../../ichartcellcollection)。
+不允许分配空值。返回的值始终不为 null。读/写 [`IChartCellCollection`](../../ichartcellcollection)。
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IChartCellCollection](../../ichartcellcollection)
 * 类 [StringChartValue](../../stringchartvalue)

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Füllformat der Aufzählungszeichen eines Absatzes zurück. Nur-lesend IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das Füllformat von Aufzählungszeichen eines Absatzes zurück. Nur Lesend IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /de/aspose.slides/ibulletformateffectivedata/fillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibulletformateffectivedata/fillformat/
 
 ## IBulletFormatEffectiveData.FillFormat-Eigenschaft
 
-Gibt das Füllformat der Aufzählungszeichen eines Absatzes zurück. Nur-lesend [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Gibt das Füllformat von Aufzählungszeichen eines Absatzes zurück. Nur Lesend [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
@@ -17,22 +17,22 @@ public IFillFormatEffectiveData FillFormat { get; }
 
 ### Beispiele
 
-Dieses Beispiel demonstriert das Abrufen der effektiven Füllinformationen der Aufzählungszeichen.
+Dieses Beispiel demonstriert das Abrufen der effektiven Fülldaten für das Aufzählungszeichen.
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("SomePresentation.pptx"))
 {
-    // Angenommen, die erste Form auf der ersten Folie ist eine AutoShape mit etwas Text...
-    // Ausgabe von Informationen über die Aufzählungszeichen der Textabsätze
+    // Angenommen, die erste Form auf der ersten Folie ist eine AutoForm mit etwas Text...
+    // Ausgeben von Informationen über die Aufzählungszeichen der Textabsätze
     AutoShape autoShape = (AutoShape)pres.Slides[0].Shapes[0];
     foreach (Paragraph para in autoShape.TextFrame.Paragraphs)
     {
         IBulletFormatEffectiveData bulletFormatEffective = para.ParagraphFormat.Bullet.GetEffective();
-        Console.WriteLine("Aufzählungstyp: " + bulletFormatEffective.Type);
+        Console.WriteLine("Aufzählungszeichen-Typ: " + bulletFormatEffective.Type);
         if (bulletFormatEffective.Type != BulletType.None)
         {
-            Console.WriteLine("Fülltyp der Aufzählung: " + bulletFormatEffective.FillFormat.FillType);
+            Console.WriteLine("Aufzählungszeichen Fülltyp: " + bulletFormatEffective.FillFormat.FillType);
             switch (bulletFormatEffective.FillFormat.FillType)
             {
                 case FillType.Solid:
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
                         Console.WriteLine(gradStop.Position + ": " + gradStop.Color);
                     break;
                 case FillType.Pattern:
-                    Console.WriteLine("Mustertyp: " + bulletFormatEffective.FillFormat.PatternFormat.PatternStyle);
+                    Console.WriteLine("Musterstil: " + bulletFormatEffective.FillFormat.PatternFormat.PatternStyle);
                     Console.WriteLine("Vordergrundfarbe: " + bulletFormatEffective.FillFormat.PatternFormat.ForeColor);
                     Console.WriteLine("Hintergrundfarbe: " + bulletFormatEffective.FillFormat.PatternFormat.BackColor);
                     break;

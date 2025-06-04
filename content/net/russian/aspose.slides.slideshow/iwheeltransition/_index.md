@@ -1,7 +1,7 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода слайдов в виде колеса.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эффект перехода с помощью колесного слайда.
 type: docs
 weight: 9910
 url: /ru/aspose.slides.slideshow/iwheeltransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/iwheeltransition/
 
 ## Интерфейс IWheelTransition
 
-Эффект перехода слайдов в виде колеса.
+Эффект перехода с помощью колесного слайда.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -20,9 +20,9 @@ public interface IWheelTransition : ITransitionValueBase
 | Имя | Описание |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Количество спиц перехода колеса. Чтение/запись UInt32. |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Количество спиц в переходе колеса. Чтение/запись UInt32. |
 
-### Смотрите Также
+### См. также
 
 * интерфейс [ITransitionValueBase](../itransitionvaluebase)
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

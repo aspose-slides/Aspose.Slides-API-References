@@ -1,15 +1,15 @@
 ---
 title: BlobManagementOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt Optionen dar, die verwendet werden können, um BLOB-Verwaltungsregeln und andere BLOB-Einstellungen zu verwalten.
+description: Stellt Optionen dar, die zur Verwaltung von BLOB-Verarbeitungsregeln und anderen BLOB-Einstellungen verwendet werden können.
 type: docs
 weight: 950
 url: /de/aspose.slides/blobmanagementoptions/
 ---
 
-## BlobManagementOptions-Klasse
+## BlobManagementOptions Klasse
 
-Stellt Optionen dar, die verwendet werden können, um BLOB-Verwaltungsregeln und andere BLOB-Einstellungen zu verwalten.
+Stellt Optionen dar, die zur Verwaltung von BLOB-Verarbeitungsregeln und anderen BLOB-Einstellungen verwendet werden können.
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -19,21 +19,21 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Erstellt neue standardmäßige BLOB-Verwaltungsoptionen. |
+| [BlobManagementOptions](blobmanagementoptions)() | Erstellt neue Standardoptionen für die Blob-Verwaltung. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Diese Eigenschaft definiert, ob temporäre Dateien erstellt werden können, während mit BLOBs gearbeitet wird, was den Speicherverbrauch erheblich senkt, aber Berechtigungen zum Erstellen von Dateien erfordert. Alle Dateien werden gelöscht, nachdem die Arbeit mit der Präsentation abgeschlossen ist. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definiert die maximale Menge (in Bytes), die alle BLOBs insgesamt im Speicher einnehmen dürfen. Zunächst werden alle BLOBs standardmäßig in den Speicher geladen, und erst wenn das durch diese Eigenschaft definierte Limit erreicht ist, können andere Mechanismen (wie temporäre Dateien) einbezogen werden. In Bezug auf die Leistung ist die effizienteste Methode, BLOBs im Speicher zu speichern, aber andererseits führt dies zu einem hohen Speicherverbrauch, was unerwünscht sein kann. Mit dieser Eigenschaft können Sie das optimale Verhalten für Ihre Umgebung oder andere Anforderungen festlegen. Diese Eigenschaft wird ignoriert, wenn [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) auf false gesetzt ist. Es macht keinen Sinn, die maximalen BLOBs im Speicher zu begrenzen, da, wenn [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) auf false gesetzt ist, der Speicher der einzige Ort ist, an dem BLOBs gespeichert werden können. Der Standardwert beträgt 629.145.600 Bytes (600 MB). |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Diese Eigenschaft definiert, ob eine Instanz der Präsentationsklasse während der Lebensdauer der Instanz Eigentümer der Quelle (Datei oder Stream) sein kann. Wenn die Instanz Eigentümer ist, sperrt sie die Quelle. Dies hilft, den Speicherverbrauch und die Leistung bei der Arbeit mit BLOBs zu verbessern, aber die Quelle (Stream oder Datei) kann während der Lebensdauer der Präsentationsinstanz nicht geändert werden. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Der Stammverzeichnis, in dem temporäre Dateien erstellt werden. Standardmäßig wird das temporäre Verzeichnis des Systems verwendet. Der Hostprozess sollte die Berechtigung haben, dort Dateien und Ordner zu erstellen. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Diese Eigenschaft definiert, ob temporäre Dateien erstellt werden können, während mit BLOBs gearbeitet wird, was den Speicherverbrauch erheblich senkt, aber Berechtigungen zum Erstellen von Dateien erfordert. Alle Dateien werden gelöscht, nachdem die Arbeit mit der Präsentation abgeschlossen ist. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definiert die maximalen Menge (in Byte), die alle BLOBs insgesamt im Speicher belegen dürfen. Zuerst werden alle BLOBs standardmäßig in den Speicher geladen, und nur wenn das durch diese Eigenschaft definierte Limit erreicht ist, können andere Mechanismen (wie temporäre Dateien) verwendet werden. In Bezug auf die Leistung ist der effizienteste Weg, BLOBs im Speicher zu speichern, aber auf der anderen Seite führt dies zu einem hohen Speicherverbrauch, was unerwünscht sein kann. Mit dieser Eigenschaft können Sie das optimale Verhalten für Ihre Umgebung oder andere Anforderungen festlegen. Diese Eigenschaft wird ignoriert, wenn [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) auf false gesetzt ist. Es macht keinen Sinn, die maximalen BLOBs im Speicher zu begrenzen, da, wenn [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) auf false gesetzt ist, der Speicher der einzige Ort ist, an dem BLOBs gespeichert werden können. Der Standardwert beträgt 629.145.600 Byte (600 MB). |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Diese Eigenschaft definiert, ob eine Instanz der Präsentationsklasse während der Lebensdauer der Instanz Eigentümer der Quelle - Datei oder Stream - sein kann. Wenn die Instanz Eigentümer ist, sperrt sie die Quelle. Dies trägt dazu bei, den Speicherverbrauch und die Leistung bei der Arbeit mit BLOBs zu verbessern, aber die Quelle (Stream oder Datei) kann während der Lebensdauer der Präsentationsinstanz nicht geändert werden. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Der Stammverzeichnis, in dem temporäre Dateien erstellt werden. Standardmäßig wird das temporäre Systemverzeichnis verwendet. Der Hosting-Prozess sollte Berechtigungen haben, um dort Dateien und Ordner zu erstellen. |
 
 ### Siehe auch
 
-* Schnittstelle [IBlobManagementOptions](../iblobmanagementoptions)
-* Namensraum [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IBlobManagementOptions](../iblobmanagementoptions)
+* Namespace [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

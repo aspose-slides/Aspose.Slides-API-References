@@ -1,7 +1,7 @@
 ---
 title: Slides
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех слайдов, определенных в презентации. Только для чтения ISlideCollectionaspose.slides/islidecollection.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает список всех слайдов, определенных в презентации. Только для чтения ISlideCollection aspose.slides/islidecollection.
 type: docs
 weight: 230
 url: /ru/aspose.slides/presentation/slides/
@@ -17,14 +17,14 @@ public ISlideCollection Slides { get; }
 
 ### Примеры
 
-Следующий пример демонстрирует, как установить цвет фона слайдов презентации PowerPoint.
+Следующий пример показывает, как установить цвет фона слайдов в презентации PowerPoint.
 
 ```csharp
 [C#]
-// Создайте экземпляр класса Presentation, представляющего файл презентации
+// Создание экземпляра класса Presentation, представляющего файл презентации
 using (Presentation pres = new Presentation())
 {
-    // Установите цвет фона первого ISlide на синящий
+    // Установить цвет фона первого ISlide в синий
     pres.Slides[0].Background.Type = BackgroundType.OwnBackground;
     pres.Slides[0].Background.FillFormat.FillType = FillType.Solid;
     pres.Slides[0].Background.FillFormat.SolidFillColor.Color = Color.Blue;
@@ -32,75 +32,73 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Следующий пример демонстрирует, как установить изображение фона слайдов презентации PowerPoint.
+Следующий пример показывает, как установить фоновое изображение слайдов в презентации PowerPoint.
 
 ```csharp
 [C#]
-// Создайте экземпляр класса Presentation, представляющего файл презентации
+// Создание экземпляра класса Presentation, представляющего файл презентации
 using (Presentation pres = new Presentation("SetImageAsBackground.pptx"))
 {
-    // Установите фон с изображением
+    // Установить фон с изображением
     pres.Slides[0].Background.Type = BackgroundType.OwnBackground;
     pres.Slides[0].Background.FillFormat.FillType = FillType.Picture;
     pres.Slides[0].Background.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;
-    // Установите изображение
+    // Установить изображение
     System.Drawing.Image img = (System.Drawing.Image)new Bitmap(dataDir + "Tulips.jpg");
-    // Добавьте изображение в коллекцию изображений презентации
+    // Добавить изображение в коллекцию изображений презентации
     IPPImage imgx = pres.Images.AddImage(img);
     pres.Slides[0].Background.FillFormat.PictureFillFormat.Picture.Image = imgx;
-    // Запишите презентацию на диск
+    // Записать презентацию на диск
     pres.Save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Следующий пример демонстрирует, как добавить переход слайда к презентации.
+Следующий пример показывает, как добавить переход слайда в презентацию.
 
 ```csharp
 [C#]
-// Создайте экземпляр класса Presentation для загрузки исходного файла презентации
+// Создание экземпляра класса Presentation для загрузки исходного файла презентации
 using (Presentation presentation = new Presentation("AccessSlides.pptx"))
 {
-    // Примените переход типа "круг" к слайду 1
+    // Применить круговой переход на слайде 1
     presentation.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
-    // Примените переход типа "комбинация" к слайду 2
+    // Применить переход комбо на слайде 2
     presentation.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
-    // Запишите презентацию на диск
+    // Записать презентацию на диск
     presentation.Save("SampleTransition_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Следующий пример демонстрирует, как добавить расширенный переход слайда.
+Следующий пример показывает, как добавить сложный переход слайда.
 
 ```csharp
 [C#]
-// Создайте экземпляр класса Presentation, представляющего файл презентации
+// Создание экземпляра класса Presentation, представляющего файл презентации
 using (Presentation pres = new Presentation("BetterSlideTransitions.pptx"))
 {
-    // Примените переход типа "круг" к слайду 1
+    // Применить круговой переход на слайде 1
     pres.Slides[0].SlideShowTransition.Type = TransitionType.Circle;
-    // Установите время перехода в 3 секунды
+    // Установить время перехода в 3 секунды
     pres.Slides[0].SlideShowTransition.AdvanceOnClick = true;
     pres.Slides[0].SlideShowTransition.AdvanceAfterTime = 3000;
-    // Примените переход типа "комбинация" к слайду 2
+    // Применить переход комбо на слайде 2
     pres.Slides[1].SlideShowTransition.Type = TransitionType.Comb;
-    // Установите время перехода в 5 секунд
+    // Установить время перехода в 5 секунд
     pres.Slides[1].SlideShowTransition.AdvanceOnClick = true;
     pres.Slides[1].SlideShowTransition.AdvanceAfterTime = 5000;
-    // Примените переход типа "увеличение" к слайду 3
+    // Применить зум переход на слайде 3
     pres.Slides[2].SlideShowTransition.Type = TransitionType.Zoom;
-    // Установите время перехода в 7 секунд
+    // Установить время перехода в 7 секунд
     pres.Slides[2].SlideShowTransition.AdvanceOnClick = true;
     pres.Slides[2].SlideShowTransition.AdvanceAfterTime = 7000;
-    // Запишите презентацию на диск
+    // Записать презентацию на диск
     pres.Save("SampleTransition_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Смотрите также
 
-* интерфейс [`ISlideCollection`](../../islidecollection)
-* класс [`Presentation`](../../presentation)
-* пространство имен [`Aspose.Slides`](../../presentation)
-* сборка [`Aspose.Slides`](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+* интерфейс [ISlideCollection](../../islidecollection)
+* класс [Presentation](../../presentation)
+* пространство имен [Aspose.Slides](../../presentation)
+* сборка [Aspose.Slides](../../../)

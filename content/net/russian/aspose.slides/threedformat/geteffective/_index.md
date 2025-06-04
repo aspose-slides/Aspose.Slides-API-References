@@ -1,27 +1,27 @@
 ---
 title: GetEffective
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные 3-D форматирования с примененным наследованием.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает эффективные данные 3-D форматирования с применением наследования.
 type: docs
 weight: 110
 url: /ru/aspose.slides/threedformat/geteffective/
 ---
 
-## Метод ThreeDFormat.GetEffective
+## ThreeDFormat.GetEffective метод
 
-Получает эффективные данные 3-D форматирования с примененным наследованием.
+Получает эффективные данные 3-D форматирования с применением наследования.
 
 ```csharp
 public IThreeDFormatEffectiveData GetEffective()
 ```
 
-### Значение возврата
+### Возврат значения
 
 [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует, как получить эффективные свойства для камеры, источника света и верхнего фаски формы.
+Этот пример демонстрирует, как получить эффективные свойства для камеры, осветительного оборудования и верхнего фаски фигуры.
 
 ```csharp
 [C#]
@@ -32,13 +32,13 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
     Console.WriteLine("= Эффективные свойства камеры =");
     Console.WriteLine("Тип: " + threeDEffectiveData.Camera.CameraType);
     Console.WriteLine("Угол обзора: " + threeDEffectiveData.Camera.FieldOfViewAngle);
-    Console.WriteLine("Масштаб: " + threeDEffectiveData.Camera.Zoom);
+    Console.WriteLine("Увеличение: " + threeDEffectiveData.Camera.Zoom);
 
-    Console.WriteLine("= Эффективные свойства источника света =");
+    Console.WriteLine("= Эффективные свойства осветительного оборудования =");
     Console.WriteLine("Тип: " + threeDEffectiveData.LightRig.LightType);
     Console.WriteLine("Направление: " + threeDEffectiveData.LightRig.Direction);
 
-    Console.WriteLine("= Эффективные свойства верхней фаски формы =");
+    Console.WriteLine("= Эффективные свойства верхней грани фигуры =");
     Console.WriteLine("Тип: " + threeDEffectiveData.BevelTop.BevelType);
     Console.WriteLine("Ширина: " + threeDEffectiveData.BevelTop.Width);
     Console.WriteLine("Высота: " + threeDEffectiveData.BevelTop.Height);

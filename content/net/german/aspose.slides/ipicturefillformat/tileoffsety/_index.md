@@ -1,7 +1,7 @@
 ---
 title: TileOffsetY
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den vertikalen Offset der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lesen/Schreiben Einzelwert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den vertikalen Offset der Textur vom Ursprung der Form in Punkten zurück oder legt ihn fest. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lesen/Schreiben Einzelwert.
 type: docs
 weight: 160
 url: /de/aspose.slides/ipicturefillformat/tileoffsety/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformat/tileoffsety/
 
 ## IPictureFillFormat.TileOffsetY-Eigenschaft
 
-Gibt den vertikalen Offset der Textur vom Ursprung der Form in Punkten zurück oder setzt ihn. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lesen/Schreiben Einzelwert.
+Gibt den vertikalen Offset der Textur vom Ursprung der Form in Punkten zurück oder legt ihn fest. Ein positiver Wert verschiebt die Textur nach unten, während ein negativer Wert sie nach oben verschiebt. Lesen/Schreiben Einzelwert.
 
 ```csharp
 public float TileOffsetY { get; set; }
@@ -23,7 +23,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Ruft das Bildfüllformat der Form ab
+    // Holt das Bildfüllformat der Form
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
     // Setzt den Bildfüllmodus auf Kachel
@@ -34,9 +34,9 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IPictureFillFormat](../../ipicturefillformat)
+* Interface [IPictureFillFormat](../../ipicturefillformat)
 * Namespace [Aspose.Slides](../../ipicturefillformat)
 * Assembly [Aspose.Slides](../../../)
 

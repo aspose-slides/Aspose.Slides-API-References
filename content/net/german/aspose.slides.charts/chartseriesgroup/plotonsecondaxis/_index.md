@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob die Serien dieser Gruppe auf der sekundären Achse gezeichnet werden. Schreibgeschütztes Boolean.
+description: Gibt an, ob die Serien dieser Gruppe auf der sekundären Achse gezeichnet sind. Nur-Lese-Boolean.
 type: docs
 weight: 160
 url: /de/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
 
 ## ChartSeriesGroup.PlotOnSecondAxis-Eigenschaft
 
-Gibt an, ob die Serien dieser Gruppe auf der sekundären Achse gezeichnet werden. Schreibgeschütztes Boolean.
+Gibt an, ob die Serien dieser Gruppe auf der sekundären Achse gezeichnet sind. Nur-Lese-Boolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartSeriesGroup](../../chartseriesgroup)
 * Namespace [Aspose.Slides.Charts](../../chartseriesgroup)

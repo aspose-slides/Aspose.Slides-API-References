@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve un índice de la regla especificada en la colección.
 type: docs
 weight: 70
 url: /es/aspose.slides/ifontfallbackrule/indexof/
 ---
 
-## Método IFontFallBackRule.IndexOf
+## IFontFallBackRule.IndexOf method
 
 Devuelve un índice de la regla especificada en la colección.
 
@@ -30,7 +30,7 @@ public int IndexOf(string fontName)
 // Crear una regla que contiene una lista de fuentes.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// Obtener índice de Tahoma
+// Obtener el índice de Tahoma
 int tahomaIndex = newRule.IndexOf("Tahoma");
 ```
 

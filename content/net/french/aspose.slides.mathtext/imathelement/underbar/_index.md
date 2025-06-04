@@ -1,15 +1,15 @@
 ---
 title: Underbar
 second_title: Référence API Aspose.Slides pour .NET
-description: Définit une barre au bas de cet élément
+description: Définit une barre en bas de cet élément
 type: docs
 weight: 220
 url: /fr/aspose.slides.mathtext/imathelement/underbar/
 ---
 
-## Méthode IMathElement.Underbar
+## IMathElement.Underbar méthode
 
-Définit une barre au bas de cet élément
+Définit une barre en bas de cet élément
 
 ```csharp
 public IMathBar Underbar()

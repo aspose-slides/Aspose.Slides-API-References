@@ -28,7 +28,7 @@ public interface IFormatSchemeEffectiveData
 
 该接口作为[`IThemeEffectiveData`](../ithemeeffectivedata)的一部分使用。
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

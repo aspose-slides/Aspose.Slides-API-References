@@ -1,7 +1,7 @@
 ---
 title: Superscript
-second_title: Aspose.Slides for .NET API 参考
-description: 上标
+second_title: Aspose.Slides for .NET API Reference
+description: Superscript
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/mathleftsubsuperscriptelement/superscript/
@@ -17,7 +17,7 @@ public IMathElement Superscript { get; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

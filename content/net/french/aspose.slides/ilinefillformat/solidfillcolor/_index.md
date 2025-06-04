@@ -1,7 +1,7 @@
 ---
 title: SolidFillColor
-second_title: Aspose.Slides pour .NET API Reference
-description: Renvoie la couleur d'un remplissage solide. Lecture seule IColorFormat aspose.slides/icolorformat.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Retourne la couleur d'un remplissage solide. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ilinefillformat/solidfillcolor/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ilinefillformat/solidfillcolor/
 
 ## Propriété ILineFillFormat.SolidFillColor
 
-Renvoie la couleur d'un remplissage solide. Lecture seule [`IColorFormat`](../../icolorformat).
+Retourne la couleur d'un remplissage solide. Lecture seule [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat SolidFillColor { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IColorFormat](../../icolorformat)
 * interface [ILineFillFormat](../../ilinefillformat)

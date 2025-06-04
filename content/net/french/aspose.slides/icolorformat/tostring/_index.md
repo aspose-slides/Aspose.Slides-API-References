@@ -1,6 +1,6 @@
 ---
 title: ToString
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie une chaîne qui représente le format de couleur actuel.
 type: docs
 weight: 180

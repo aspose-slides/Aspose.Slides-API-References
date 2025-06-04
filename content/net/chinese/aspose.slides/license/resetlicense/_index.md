@@ -1,6 +1,6 @@
 ---
 title: ResetLicense
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 重置许可证
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public void ResetLicense()
 
 ### 备注
 
-使用此方法在组件中重置许可证
+使用此方法重置组件中的许可证
 
 ### 示例
 
@@ -34,7 +34,7 @@ Dim license as License = new License
 license.ResetLicense()
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [License](../../license)
 * namespace [Aspose.Slides](../../license)

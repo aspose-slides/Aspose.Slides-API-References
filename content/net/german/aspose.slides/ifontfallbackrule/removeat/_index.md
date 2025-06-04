@@ -30,9 +30,9 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 newRule.Remove (2);
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [IFontFallBackRule](../../ifontfallbackrule)
+* Schnittstelle [IFontFallBackRule](../../ifontfallbackrule)
 * Namespace [Aspose.Slides](../../ifontfallbackrule)
 * Assembly [Aspose.Slides](../../../)
 

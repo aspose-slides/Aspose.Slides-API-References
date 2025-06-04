@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForRadarSeries
-second_title: Aspose.Slides pour .NET Référence API
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Radar, voir aussi la méthode ChartTypeCharacterizer.IsChartTypeRadarChartType.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types de Radar, voir aussi la méthode ChartTypeCharacterizer.IsChartTypeRadarChartType.
 type: docs
 weight: 170
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseri
 
 ## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Radar (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types de Radar (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForRadarSeries(double) {#adddatapointforradarseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Radar (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types de Radar (voir aussi la méthode ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(double value)

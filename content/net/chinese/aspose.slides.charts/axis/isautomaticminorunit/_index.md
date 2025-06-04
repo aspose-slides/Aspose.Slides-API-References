@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinorUnit
-second_title: Aspose.Sildes for .NET API 参考
-description: 指示轴的小单位是否自动分配。可读/写的布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 指示轴的次单位是否是自动分配的。可读/写的布尔值。
 type: docs
 weight: 200
 url: /zh/aspose.slides.charts/axis/isautomaticminorunit/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/isautomaticminorunit/
 
 ## Axis.IsAutomaticMinorUnit 属性
 
-指示轴的小单位是否自动分配。可读/写的布尔值。
+指示轴的次单位是否是自动分配的。可读/写的布尔值。
 
 ```csharp
 public bool IsAutomaticMinorUnit { get; set; }
 ```
 
-### 见亦
+### 另请参见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

@@ -1,6 +1,6 @@
 ---
 title: LastView
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica el modo de vista que se utilizó cuando se guardó por última vez el documento de presentación. Lectura/escritura ViewTypeaspose.slides/viewtype.
 type: docs
 weight: 20

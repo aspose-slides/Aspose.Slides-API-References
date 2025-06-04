@@ -1,6 +1,6 @@
 ---
 title: RemoveNode
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 通过索引移除节点或子节点
 type: docs
 weight: 90
@@ -23,7 +23,7 @@ public void RemoveNode(int index)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | index 小于 0。 - 或 - index 等于或大于兄弟节点数量 |
+| ArgumentOutOfRangeException | index 小于 0。-或者- index 等于或大于兄弟节点数量 |
 
 ### 另见
 

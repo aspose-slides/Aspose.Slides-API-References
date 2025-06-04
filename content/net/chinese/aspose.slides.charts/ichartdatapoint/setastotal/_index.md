@@ -1,7 +1,7 @@
 ---
 title: SetAsTotal
-second_title: Aspose.Slides for .NET API Reference
-description: 将数据点设置为总计。仅适用于瀑布系列类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将数据点设置为总计。仅适用于水瀑布系列类型。
 type: docs
 weight: 140
 url: /zh/aspose.slides.charts/ichartdatapoint/setastotal/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartdatapoint/setastotal/
 
 ## IChartDataPoint.SetAsTotal 属性
 
-将数据点设置为总计。仅适用于瀑布系列类型。
+将数据点设置为总计。仅适用于水瀑布系列类型。
 
 ```csharp
 public bool SetAsTotal { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatapoint)

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Element an der angegebenen Position zurück. Nur-Lese IEffectStyleaspose.slides/ieffectstyle.
+description: Gibt ein Element an der angegebenen Position zurück. Nur-lese IEffectStyle aspose.slides.theme/ieffectstyle.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ieffectstylecollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ieffectstylecollection/item/
 
 ## IEffectStyleCollection-Indexer
 
-Gibt ein Element an der angegebenen Position zurück. Nur-Lese [`IEffectStyle`](../../ieffectstyle).
+Gibt ein Element an der angegebenen Position zurück. Nur-lese [`IEffectStyle`](../../ieffectstyle).
 
 ```csharp
 public IEffectStyle this[int index] { get; }
@@ -25,8 +25,8 @@ Element an der angegebenen Position.
 
 ### Siehe auch
 
-* Schnittstelle [IEffectStyle](../../ieffectstyle)
-* Schnittstelle [IEffectStyleCollection](../../ieffectstylecollection)
+* Interface [IEffectStyle](../../ieffectstyle)
+* Interface [IEffectStyleCollection](../../ieffectstylecollection)
 * Namespace [Aspose.Slides.Theme](../../ieffectstylecollection)
 * Assembly [Aspose.Slides](../../../)
 

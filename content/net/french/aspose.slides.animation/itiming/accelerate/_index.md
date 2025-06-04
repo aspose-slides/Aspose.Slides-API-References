@@ -1,21 +1,21 @@
 ---
 title: Accelerate
-second_title: Référence API Aspose.Slides pour .NET
-description: Décrit le pourcentage de l'effet de comportement d'accélération de durée. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Décrit le pourcentage de l'effet de comportement d'accélération de la durée. Lecture/écriture Simple.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/itiming/accelerate/
 ---
 
-## Propriété ITiming.Accelerate
+## ITiming.Accelerate propriété
 
-Décrit le pourcentage de l'effet de comportement d'accélération de durée. Lecture/écriture Single.
+Décrit le pourcentage de l'effet de comportement d'accélération de la durée. Lecture/écriture Simple.
 
 ```csharp
 public float Accelerate { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITiming](../../itiming)
 * namespace [Aspose.Slides.Animation](../../itiming)

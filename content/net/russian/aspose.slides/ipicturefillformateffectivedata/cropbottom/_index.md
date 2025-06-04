@@ -1,15 +1,15 @@
 ---
 title: CropBottom
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает процент от фактической высоты изображения, который обрезан снизу картинки. Только для чтения Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает количество процентов от реальной высоты изображения, обрезанного снизу кадра. Только для чтения Single.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ipicturefillformateffectivedata/cropbottom/
 ---
 
-## Свойство IPictureFillFormatEffectiveData.CropBottom
+## IPictureFillFormatEffectiveData.CropBottom свойство
 
-Возвращает процент от фактической высоты изображения, который обрезан снизу картинки. Только для чтения Single.
+Возвращает количество процентов от реальной высоты изображения, обрезанного снизу кадра. Только для чтения Single.
 
 ```csharp
 public float CropBottom { get; }

@@ -1,25 +1,25 @@
 ---
 title: Compliance
-second_title: Справочник по API Aspose.Slides для .NET
-description: Желаемый уровень соответствия для создаваемого PDF-документа. Чтение/запись PdfComplianceaspose.slides.export/pdfcompliance.
+second_title: Aspose.Sildes для .NET API Reference
+description: Желаемый уровень соответствия для сгенерированного PDF документа. Чтение/запись PdfComplianceaspose.slides.export/pdfcompliance.
 type: docs
 weight: 60
 url: /ru/aspose.slides.export/pdfoptions/compliance/
 ---
 
-## Свойство PdfOptions.Compliance
+## PdfOptions.Compliance свойство
 
-Желаемый уровень соответствия для создаваемого PDF-документа. Чтение/запись [`PdfCompliance`](../../pdfcompliance).
+Желаемый уровень соответствия для сгенерированного PDF документа. Чтение/запись [`PdfCompliance`](../../pdfcompliance).
 
 ```csharp
 public PdfCompliance Compliance { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-По умолчанию - Pdf17.
+По умолчанию используется Pdf17.
 
-### См. Также
+### Смотрите также
 
 * enum [PdfCompliance](../../pdfcompliance)
 * class [PdfOptions](../../pdfoptions)

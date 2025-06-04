@@ -1,13 +1,13 @@
 ---
 title: Type
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Определяет тип эффекта. Чтение/запись EffectTypeaspose.slides.animation/effecttype.
 type: docs
 weight: 140
 url: /ru/aspose.slides.animation/ieffect/type/
 ---
 
-## Свойство IEffect.Type
+## IEffect.Type свойство
 
 Определяет тип эффекта. Чтение/запись [`EffectType`](../../effecttype).
 

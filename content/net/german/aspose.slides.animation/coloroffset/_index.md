@@ -1,7 +1,7 @@
 ---
 title: ColorOffset
-second_title: Aspose.Slildes für .NET API Referenz
-description: Stellt Farboffset dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Farbversatz darstellen.
 type: docs
 weight: 160
 url: /de/aspose.slides.animation/coloroffset/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/coloroffset/
 
 ## ColorOffset-Klasse
 
-Stellt Farboffset dar.
+Farbversatz darstellen.
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -25,13 +25,13 @@ public class ColorOffset : IColorOffset
 
 | Name | Beschreibung |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Definiert den ersten Wert des Offsets. Lese-/Schreibzugriff Single. |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Definiert den zweiten Wert des Offsets. Lese-/Schreibzugriff Single. |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Definiert den dritten Wert des Offsets. Lese-/Schreibzugriff Single. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Definiert den ersten Wert des Versatzes. Lese-/Schreibzugriff Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Definiert den zweiten Wert des Versatzes. Lese-/Schreibzugriff Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Definiert den dritten Wert des Versatzes. Lese-/Schreibzugriff Single. |
 
 ### Siehe auch
 
-* Schnittstelle [IColorOffset](../icoloroffset)
+* Interface [IColorOffset](../icoloroffset)
 * Namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * Assembly [Aspose.Slides](../../)
 

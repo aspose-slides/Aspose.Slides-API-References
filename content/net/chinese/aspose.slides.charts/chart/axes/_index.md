@@ -1,7 +1,7 @@
 ---
 title: Axes
-second_title: Aspose.Slides for .NET API 参考
-description: 提供对图表坐标轴的访问。读取只读 IAxesManageraspose.slides/iaxesmanager。
+second_title: Aspose.Slides for .NET API Reference
+description: 提供对图表坐标轴的访问。 只读 IAxesManageraspose.slides.charts/iaxesmanager。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/chart/axes/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chart/axes/
 
 ## Chart.Axes 属性
 
-提供对图表坐标轴的访问。读取只读 [`IAxesManager`](../../iaxesmanager)。
+提供对图表坐标轴的访问。只读 [`IAxesManager`](../../iaxesmanager)。
 
 ```csharp
 public IAxesManager Axes { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IAxesManager](../../iaxesmanager)
 * 类 [Chart](../../chart)

@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет все элементы из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/mathblock/clear/
 ---
 
-## Метод MathBlock.Clear
+## MathBlock.Clear метод
 
 Удаляет все элементы из коллекции.
 

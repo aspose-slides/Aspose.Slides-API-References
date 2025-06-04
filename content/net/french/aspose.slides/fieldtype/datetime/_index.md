@@ -1,7 +1,7 @@
 ---
 title: DateTime
-second_title: Référence API Aspose.Sildes pour .NET
-description: Date et heure actuelles au format par défaut de date et heure pour l'application de rendu. Champ en lecture seule FieldTypeaspose.slides/fieldtype.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Date et heure actuelles dans le format date heure par défaut pour l'application de rendu. Propriété en lecture seule FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 20
 url: /fr/aspose.slides/fieldtype/datetime/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/fieldtype/datetime/
 
 ## Propriété FieldType.DateTime
 
-Date et heure actuelles au format par défaut de date et heure pour l'application de rendu. Champ en lecture seule [`FieldType`](../../fieldtype).
+Date et heure actuelles dans le format date heure par défaut pour l'application de rendu. Propriété en lecture seule [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime { get; }

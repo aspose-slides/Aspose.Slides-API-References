@@ -1,7 +1,7 @@
 ---
 title: Layout
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Layout der Zusammenfassungs-Zoom-Abschnitte im Rahmen zurück. Der Standardwert ist GridLayout.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ruft das Layout der Zusammenfassungs-Zoom-Abschnitte im Frame ab. Der Standardwert ist GridLayout.
 type: docs
 weight: 10
 url: /de/aspose.slides/summaryzoomframe/layout/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/summaryzoomframe/layout/
 
 ## SummaryZoomFrame.Layout-Eigenschaft
 
-Gibt das Layout der Zusammenfassungs-Zoom-Abschnitte im Rahmen zurück. Der Standardwert ist GridLayout.
+Ruft das Layout der Zusammenfassungs-Zoom-Abschnitte im Frame ab. Der Standardwert ist GridLayout.
 
 ```csharp
 public ZoomLayout Layout { get; }
@@ -17,7 +17,7 @@ public ZoomLayout Layout { get; }
 
 ### Beispiele
 
-Das Beispiel zeigt, wie man das Element der Zusammenfassungs-Zoom-Sektion nach Index abruft:
+Das Beispiel zeigt, wie man das Summary Zoom Section-Element über den Index abruft:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ZoomLayout](../../zoomlayout)
 * class [SummaryZoomFrame](../../summaryzoomframe)

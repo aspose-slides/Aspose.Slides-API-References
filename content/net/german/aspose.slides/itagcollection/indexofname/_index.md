@@ -1,6 +1,6 @@
 ---
 title: IndexOfName
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den nullbasierten Index des angegebenen Schlüssels in der Sammlung zurück.
 type: docs
 weight: 80
@@ -17,13 +17,13 @@ public int IndexOfName(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Name, der in der Sammlung gesucht werden soll. |
+| name | String | Der Name, der in der Sammlung gefunden werden soll. |
 
 ### Rückgabewert
 
 Der nullbasierte Index des Schlüssels, wenn der Schlüssel in der Sammlung gefunden wird; andernfalls -1.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITagCollection](../../itagcollection)
 * Namensraum [Aspose.Slides](../../itagcollection)

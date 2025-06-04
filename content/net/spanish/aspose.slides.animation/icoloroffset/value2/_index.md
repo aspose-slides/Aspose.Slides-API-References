@@ -1,6 +1,6 @@
 ---
 title: Value2
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Define el tercer valor de desplazamiento. Lectura/escritura Single.
 type: docs
 weight: 30
@@ -19,6 +19,6 @@ public float Value2 { get; set; }
 
 * interfaz [IColorOffset](../../icoloroffset)
 * espacio de nombres [Aspose.Slides.Animation](../../icoloroffset)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

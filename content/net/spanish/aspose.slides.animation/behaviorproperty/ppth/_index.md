@@ -1,6 +1,6 @@
 ---
 title: PptH
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad ppt_h
 type: docs
 weight: 520

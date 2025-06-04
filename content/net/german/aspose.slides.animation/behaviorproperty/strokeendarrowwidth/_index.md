@@ -7,7 +7,7 @@ weight: 930
 url: /de/aspose.slides.animation/behaviorproperty/strokeendarrowwidth/
 ---
 
-## BehaviorProperty.StrokeEndArrowWidth-Eigenschaft
+## BehaviorProperty.StrokeEndArrowWidth Eigenschaft
 
 Stellt die Eigenschaft 'stroke.endArrowWidth' dar
 

@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
-second_title: Aspose.Sildes for .NET API Reference
-description: 初始化 MathDelimiter，指定元素作为单个基本参数
+second_title: Aspose.Slides for .NET API Reference
+description: 用指定的元素初始化 MathDelimiter 作为单个基础参数
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/mathdelimiter/mathdelimiter/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathdelimiter/mathdelimiter/
 
 ## MathDelimiter 构造函数
 
-使用指定元素作为单个基本参数初始化 MathDelimiter
+用指定的元素初始化 MathDelimiter 作为单个基础参数
 
 ```csharp
 public MathDelimiter(IMathElement element)
@@ -17,17 +17,17 @@ public MathDelimiter(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用分隔符的基本元素。可以为 null。 |
+| element | IMathElement | 应用分隔符的基础元素。可以为 null。 |
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| InvalidOperationException | 当 *element* 是另一个元素的容器（例如 MathBlock）时抛出异常。在这种情况下，您需要使用 IEnumerable 参数调用不同的构造函数。 |
+| InvalidOperationException | 当 *element* 是另一个元素的容器（如 MathBlock）时抛出。在这种情况下，您需要使用 IEnumerable 参数调用不同的构造函数。 |
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

@@ -1,6 +1,6 @@
 ---
 title: CreateMathBorderBox
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 通过应用于元素创建数学边框框
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 要应用边框框的数学元素 |
+| element | IMathElement | 要应用边框箱的数学元素 |
 
 ### 返回值
 
-新的边框框元素
+新边框框元素
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBorderBox](../../imathborderbox)
 * 接口 [IMathElement](../../imathelement)
@@ -45,21 +45,21 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 要应用边框框的数学元素 |
+| element | IMathElement | 要应用边框箱的数学元素 |
 | hideTop | Boolean | 隐藏上边缘 |
 | hideBottom | Boolean | 隐藏下边缘 |
 | hideLeft | Boolean | 隐藏左边缘 |
 | hideRight | Boolean | 隐藏右边缘 |
 | strikethroughHorizontal | Boolean | 边框框水平删除线 |
 | strikethroughVertical | Boolean | 边框框垂直删除线 |
-| strikethroughBottomLeftToTopRight | Boolean | 从左下到右上的边框框删除线 |
-| strikethroughTopLeftToBottomRight | Boolean | 从左上到右下的边框框删除线 |
+| strikethroughBottomLeftToTopRight | Boolean | 边框框从左下到右上的删除线 |
+| strikethroughTopLeftToBottomRight | Boolean | 边框框从左上到右下的删除线 |
 
 ### 返回值
 
-新的边框框元素
+新边框框元素
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBorderBox](../../imathborderbox)
 * 接口 [IMathElement](../../imathelement)

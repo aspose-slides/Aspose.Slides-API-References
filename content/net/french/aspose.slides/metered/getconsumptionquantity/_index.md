@@ -1,13 +1,13 @@
 ---
 title: GetConsumptionQuantity
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Obtient la taille du fichier de consommation
 type: docs
 weight: 40
 url: /fr/aspose.slides/metered/getconsumptionquantity/
 ---
 
-## Méthode Metered.GetConsumptionQuantity
+## Metered.GetConsumptionQuantity méthode
 
 Obtient la taille du fichier de consommation
 
@@ -21,7 +21,7 @@ quantité de consommation
 
 ### Voir aussi
 
-* classe [Metered](../../metered)
+* class [Metered](../../metered)
 * namespace [Aspose.Slides](../../metered)
 * assembly [Aspose.Slides](../../../)
 

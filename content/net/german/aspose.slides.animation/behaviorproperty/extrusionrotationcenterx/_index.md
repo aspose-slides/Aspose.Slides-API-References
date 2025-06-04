@@ -1,13 +1,13 @@
 ---
 title: ExtrusionRotationCenterX
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaft extrusion.rotationcenter.x dar
 type: docs
 weight: 160
 url: /de/aspose.slides.animation/behaviorproperty/extrusionrotationcenterx/
 ---
 
-## BehaviorProperty.ExtrusionRotationCenterX Eigenschaft
+## BehaviorProperty.ExtrusionRotationCenterX-Eigenschaft
 
 Stellt die Eigenschaft 'extrusion.rotationcenter.x' dar
 
@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'extrusion.rotationcenter.x' dar
 public static BehaviorProperty ExtrusionRotationCenterX { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

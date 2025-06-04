@@ -1,7 +1,7 @@
 ---
 title: References
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Liste aller Referenzen zurück, die im VBA-Projekt enthalten sind. Nur-lese IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Liste aller Verweise zurück, die im VBA-Projekt enthalten sind. Nur lesbare IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
 type: docs
 weight: 40
 url: /de/aspose.slides.vba/ivbaproject/references/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.vba/ivbaproject/references/
 
 ## IVbaProject.References-Eigenschaft
 
-Gibt die Liste aller Referenzen zurück, die im VBA-Projekt enthalten sind. Nur-lese [`IVbaReferenceCollection`](../../ivbareferencecollection).
+Gibt die Liste aller Verweise zurück, die im VBA-Projekt enthalten sind. Nur lesbar [`IVbaReferenceCollection`](../../ivbareferencecollection).
 
 ```csharp
 public IVbaReferenceCollection References { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVbaReferenceCollection](../../ivbareferencecollection)
 * Schnittstelle [IVbaProject](../../ivbaproject)

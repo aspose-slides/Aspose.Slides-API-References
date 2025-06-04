@@ -1,6 +1,6 @@
 ---
 title: Hue
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает процент оттенка. Только для чтения Single.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/ihsleffectivedata/hue/
 public float Hue { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IHSLEffectiveData](../../ihsleffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../ihsleffectivedata)

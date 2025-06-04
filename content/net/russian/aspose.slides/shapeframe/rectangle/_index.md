@@ -1,6 +1,6 @@
 ---
 title: Rectangle
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает координаты рамки. Только для чтения RectangleF.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/shapeframe/rectangle/
 public RectangleF Rectangle { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [ShapeFrame](../../shapeframe)
 * пространство имен [Aspose.Slides](../../shapeframe)

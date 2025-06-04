@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaFloor
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建 Alpha 地板效果。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public IAlphaFloor CreateAlphaFloor()
 
 Alpha 地板效果。
 
-### 另见
+### 另请参阅
 
 * 接口 [IAlphaFloor](../../ialphafloor)
 * 类 [ImageTransformOperationFactory](../../imagetransformoperationfactory)

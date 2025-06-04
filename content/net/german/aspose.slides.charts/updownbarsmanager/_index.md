@@ -1,7 +1,7 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Slides für .NET API Referenz
-description: Bietet Zugriff auf Up/Down-Balken des Linien- oder Aktiencharts.
+description: Zugriff auf Up/Down-Balken von Linien- oder Aktiendiagrammen bereitstellen.
 type: docs
 weight: 2420
 url: /de/aspose.slides.charts/updownbarsmanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/updownbarsmanager/
 
 ## UpDownBarsManager-Klasse
 
-Bietet Zugriff auf Up/Down-Balken des Linien- oder Aktiencharts.
+Zugriff auf Up/Down-Balken von Linien- oder Aktiendiagrammen bereitstellen.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -19,10 +19,10 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Gibt das DownBars-Format zurück. Schreibgeschützt [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Lese-/Schreibbar Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Lese-/Schreibbar Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Gibt das UpBars-Format zurück. Schreibgeschützt [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | Gibt das DownBars-Format zurück. Nur lesbar [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. Lese-/Schreibbares Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. Lese-/Schreibbares Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | Gibt das UpBars-Format zurück. Nur lesbar [`IFormat`](../iformat). |
 
 ### Siehe auch
 

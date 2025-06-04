@@ -1,6 +1,6 @@
 ---
 title: SubstitutePictureTitle
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает или задает заголовок для значка OleObject. Читаемая/записываемая строка.
 type: docs
 weight: 130
@@ -17,9 +17,9 @@ public string SubstitutePictureTitle { get; set; }
 
 ### Примечания
 
-Когда IsObjectIcon == false, это значение игнорируется. Строка может быть обрезана в соответствии с размером значка Ole.
+Когда IsObjectIcon == false, это значение игнорируется. Строка может быть обрезана в зависимости от размера значка Ole.
 
-### См. также
+### См. Также
 
 * класс [OleObjectFrame](../../oleobjectframe)
 * пространство имен [Aspose.Slides](../../oleobjectframe)

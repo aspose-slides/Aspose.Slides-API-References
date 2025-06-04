@@ -1,6 +1,6 @@
 ---
 title: IChartLinesFormat
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示网格线格式属性。
 type: docs
 weight: 1810
@@ -19,10 +19,10 @@ public interface IChartLinesFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | 返回用于图表线的特效。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | 返回用于图表线的效果。只读 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
 | [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | 返回图表线的线条样式属性。只读 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

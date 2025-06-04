@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет указанную последовательность из коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.animation/sequencecollection/remove/
 ---
 
-## Метод SequenceCollection.Remove
+## SequenceCollection.Remove метод
 
 Удаляет указанную последовательность из коллекции.
 

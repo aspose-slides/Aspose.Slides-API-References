@@ -1,25 +1,25 @@
----
+---  
 title: ExternalFontsHandling
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina una forma de manejar fuentes cargadas externamente. Leer/escribir SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
-type: docs
-weight: 100
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Determina una manera de manejar fuentes cargadas externamente. Leer/escribir SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
+type: docs  
+weight: 100  
 url: /es/aspose.slides.export/svgoptions/externalfontshandling/
----
+---  
 
-## Propiedad SVGOptions.ExternalFontsHandling
+## Propiedad SVGOptions.ExternalFontsHandling  
 
-Determina una forma de manejar fuentes cargadas externamente. Leer/escribir [`SvgExternalFontsHandling`](../../svgexternalfontshandling).
+Determina una manera de manejar fuentes cargadas externamente. Leer/escribir [`SvgExternalFontsHandling`](../../svgexternalfontshandling).  
 
-```csharp
-public SvgExternalFontsHandling ExternalFontsHandling { get; set; }
-```
+```csharp  
+public SvgExternalFontsHandling ExternalFontsHandling { get; set; }  
+```  
 
-### Véase también
+### Véase también  
 
-* enum [SvgExternalFontsHandling](../../svgexternalfontshandling)
-* class [SVGOptions](../../svgoptions)
-* namespace [Aspose.Slides.Export](../../svgoptions)
-* assembly [Aspose.Slides](../../../)
+* enum [SvgExternalFontsHandling](../../svgexternalfontshandling)  
+* class [SVGOptions](../../svgoptions)  
+* namespace [Aspose.Slides.Export](../../svgoptions)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

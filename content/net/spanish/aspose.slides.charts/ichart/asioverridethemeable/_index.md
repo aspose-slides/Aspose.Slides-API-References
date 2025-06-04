@@ -1,6 +1,6 @@
 ---
 title: AsIOverrideThemeable
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve la interfaz IOverrideThemeable. Solo lectura IOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 30
@@ -15,15 +15,15 @@ Devuelve la interfaz IOverrideThemeable. Solo lectura [`IOverrideThemeable`](../
 public IOverrideThemeable AsIOverrideThemeable { get; }
 ```
 
-### Comentarios
+### Observaciones
 
 Para compatibilidad con COM.
 
-### Véase También
+### Ver También
 
-* interfaz [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
-* interfaz [IChart](../../ichart)
-* espacio de nombres [Aspose.Slides.Charts](../../ichart)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IOverrideThemeable](../../../aspose.slides.theme/ioverridethemeable)
+* interfaz [IChart](../../ichart)
+* espacio de nombres [Aspose.Slides.Charts](../../ichart)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

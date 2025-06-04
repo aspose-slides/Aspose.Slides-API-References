@@ -1,7 +1,7 @@
 ---
 title: Dark2
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Deuxième couleur sombre dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
+description: Deuxième couleur foncée dans le schéma. IColorFormat en lecture seule aspose.slides/icolorformat.
 type: docs
 weight: 90
 url: /fr/aspose.slides.theme/icolorscheme/dark2/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.theme/icolorscheme/dark2/
 
 ## Propriété IColorScheme.Dark2
 
-Deuxième couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
+Deuxième couleur foncée dans le schéma. [`IColorFormat`](../../../aspose.slides/icolorformat) en lecture seule.
 
 ```csharp
 public IColorFormat Dark2 { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorFormat](../../../aspose.slides/icolorformat)
 * interface [IColorScheme](../../icolorscheme)

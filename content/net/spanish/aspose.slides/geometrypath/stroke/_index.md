@@ -1,6 +1,6 @@
 ---
 title: Stroke
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Establece la apariencia del trazo
 type: docs
 weight: 40

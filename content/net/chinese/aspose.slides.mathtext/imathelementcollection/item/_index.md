@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取指定索引处的元素。只读 IMathElementaspose.slides.mathtext/imathelement。
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public IMathElement this[int index] { get; }
 
 | 参数 | 描述 |
 | --- | --- |
-| index | 要获取的项目的零基索引 |
+| index | 要获取的项的零基础索引 |
 
 ### 示例
 
@@ -29,7 +29,7 @@ IMathElementCollection collection = new MathBlock(new MathematicalText("x"));
 IMathElement firstElem = collection[0];
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathElementCollection](../../imathelementcollection)

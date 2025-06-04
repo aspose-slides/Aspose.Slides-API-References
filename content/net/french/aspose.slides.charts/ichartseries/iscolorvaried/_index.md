@@ -1,15 +1,15 @@
 ---
 title: IsColorVaried
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie que chaque marqueur de données dans la série a une couleur différente. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.IsColorVaried en lecture/écriture pour changer la valeur. Booléen en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie que chaque marqueur de données dans la série a une couleur différente. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.IsColorVaried en lecture/écriture pour changer la valeur. Booléen en lecture seule.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/ichartseries/iscolorvaried/
 ---
 
-## Propriété IChartSeries.IsColorVaried
+## IChartSeries.IsColorVaried property
 
-Spécifie que chaque marqueur de données dans la série a une couleur différente. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété appropriée du groupe. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.IsColorVaried en lecture/écriture pour changer la valeur. Booléen en lecture seule.
+Spécifie que chaque marqueur de données dans la série a une couleur différente. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est une projection de la propriété de groupe appropriée. Ainsi, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.IsColorVaried en lecture/écriture pour changer la valeur. Booléen en lecture seule.
 
 ```csharp
 public bool IsColorVaried { get; }
@@ -19,7 +19,7 @@ public bool IsColorVaried { get; }
 
 C'est la projection de la propriété ParentSeriesGroup.IsColorVaried.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

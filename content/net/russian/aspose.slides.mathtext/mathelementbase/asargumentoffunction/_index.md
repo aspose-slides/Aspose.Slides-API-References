@@ -1,7 +1,7 @@
 ---
 title: AsArgumentOfFunction
-second_title: Aspose.Sildes для .NET API Reference
-description: Принимает заданную функцию, используя этот экземпляр в качестве аргумента
+second_title: Aspose.Sildes для .NET API Справочник
+description: Принимает указанную функцию, используя этот экземпляр в качестве аргумента
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-Принимает заданную функцию, используя этот экземпляр в качестве аргумента
+Принимает указанную функцию, используя этот экземпляр в качестве аргумента
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
@@ -17,7 +17,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionName | IMathElement | Имя функции |
+| functionName | IMathElement | Название функции |
 
 ### Возвращаемое значение
 
@@ -46,7 +46,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-Принимает заданную функцию, используя этот экземпляр в качестве аргумента
+Принимает указанную функцию, используя этот экземпляр в качестве аргумента
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
@@ -54,7 +54,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionName | String | Имя функции |
+| functionName | String | Название функции |
 
 ### Возвращаемое значение
 
@@ -81,7 +81,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-Принимает заданную функцию, используя этот экземпляр в качестве аргумента
+Принимает указанную функцию, используя этот экземпляр в качестве аргумента
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
@@ -89,7 +89,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | Один из распространенных типов функции с одним аргументом |
+| functionType | MathFunctionsOfOneArgument | Один из распространенных типов функций с одним аргументом |
 
 ### Возвращаемое значение
 
@@ -118,7 +118,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-Принимает заданную функцию, используя этот экземпляр в качестве аргумента и заданный дополнительный аргумент
+Принимает указанную функцию, используя этот экземпляр в качестве аргумента и указанный дополнительный аргумент
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -127,8 +127,8 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Один из распространенных типов функции с двумя аргументами: Log, Lim, Min, Max |
-| additionalArgument | IMathElement | Дополнительный аргумент в зависимости от типа функции |
+| functionType | MathFunctionsOfTwoArguments | Один из распространенных типов функций с двумя аргументами: Log, Lim, Min, Max |
+| additionalArgument | IMathElement | Дополнительный аргумент, в зависимости от типа функции |
 
 ### Возвращаемое значение
 
@@ -158,7 +158,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-Принимает заданную функцию, используя этот экземпляр в качестве аргумента и заданный дополнительный аргумент
+Принимает указанную функцию, используя этот экземпляр в качестве аргумента и указанный дополнительный аргумент
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -167,8 +167,8 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Один из распространенных типов функции с двумя аргументами: Log, Lim, Min, Max |
-| additionalArgument | String | Дополнительный аргумент в зависимости от типа функции |
+| functionType | MathFunctionsOfTwoArguments | Один из распространенных типов функций с двумя аргументами: Log, Lim, Min, Max |
+| additionalArgument | String | Дополнительный аргумент, в зависимости от типа функции |
 
 ### Возвращаемое значение
 

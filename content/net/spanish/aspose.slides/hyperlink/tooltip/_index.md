@@ -1,7 +1,7 @@
 ---
 title: Tooltip
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve la cadena que puede mostrarse en una interfaz de usuario asociada con el hipervínculo padre. Cadena de lectura/escritura.
+description: Devuelve la cadena que puede aparecer en una interfaz de usuario como asociada con el hipervínculo principal. Leer/escribir String.
 type: docs
 weight: 200
 url: /es/aspose.slides/hyperlink/tooltip/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/hyperlink/tooltip/
 
 ## Propiedad Hyperlink.Tooltip
 
-Devuelve la cadena que puede mostrarse en una interfaz de usuario asociada con el hipervínculo padre. Cadena de lectura/escritura.
+Devuelve la cadena que puede aparecer en una interfaz de usuario como asociada con el hipervínculo principal. Leer/escribir String.
 
 ```csharp
 public string Tooltip { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * clase [Hyperlink](../../hyperlink)
 * espacio de nombres [Aspose.Slides](../../hyperlink)

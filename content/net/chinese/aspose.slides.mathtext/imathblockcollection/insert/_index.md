@@ -1,7 +1,7 @@
 ---
 title: Insert
-second_title: Aspose.Slides for .NET API 参考
-description: 在指定索引处将 IMathBlock 插入集合中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定索引处将 IMathBlock 插入到集合中。
 type: docs
 weight: 80
 url: /zh/aspose.slides.mathtext/imathblockcollection/insert/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblockcollection/insert/
 
 ## IMathBlockCollection.Insert 方法
 
-在指定索引处将 IMathBlock 插入集合中。
+在指定索引处将 IMathBlock 插入到集合中。
 
 ```csharp
 public void Insert(int index, IMathBlock item)
@@ -17,12 +17,12 @@ public void Insert(int index, IMathBlock item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应插入项的零基础索引。 |
+| index | Int32 | 应该插入项的零基索引。 |
 | item | IMathBlock | 要插入的 IMathBlock。 |
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,13 +1,13 @@
 ---
 title: CreateColorEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Crée un effet de couleur.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/ibehaviorfactory/createcoloreffect/
 ---
 
-## Méthode IBehaviorFactory.CreateColorEffect
+## IBehaviorFactory.CreateColorEffect méthode
 
 Crée un effet de couleur.
 
@@ -15,11 +15,11 @@ Crée un effet de couleur.
 public IColorEffect CreateColorEffect()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Effet de couleur.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorEffect](../../icoloreffect)
 * interface [IBehaviorFactory](../../ibehaviorfactory)

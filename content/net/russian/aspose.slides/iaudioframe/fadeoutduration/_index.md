@@ -1,7 +1,7 @@
 ---
 title: FadeOutDuration
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает длительность времени для завершающего исчезновения медиа в миллисекундах. Чтение/запись Single.
+second_title: Aspose.Sildes for .NET API Reference
+description: Указывает время продолжительности завершающего затухания медиа в миллисекундах. Чтение/запись Single.
 type: docs
 weight: 90
 url: /ru/aspose.slides/iaudioframe/fadeoutduration/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iaudioframe/fadeoutduration/
 
 ## IAudioFrame.FadeOutDuration свойство
 
-Указывает длительность времени для завершающего исчезновения медиа в миллисекундах. Чтение/запись Single.
+Указывает время продолжительности завершающего затухания медиа в миллисекундах. Чтение/запись Single.
 
 ```csharp
 public float FadeOutDuration { get; set; }
@@ -23,18 +23,18 @@ public float FadeOutDuration { get; set; }
 [C#]
 using (Presentation pres = new Presentation())
 {
-    // Добавление аудио-фрейма
+    // Добавить аудио-фрейм
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Установка длительности завершающего исчезновения на 500 мс
+    // Установить продолжительность завершающего затухания на 500мс
     audioFrame.FadeOutDuration = 500f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### См. также
+### Также см.
 
 * интерфейс [IAudioFrame](../../iaudioframe)
 * пространство имен [Aspose.Slides](../../iaudioframe)

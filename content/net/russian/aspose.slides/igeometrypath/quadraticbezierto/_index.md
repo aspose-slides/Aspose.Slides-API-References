@@ -1,15 +1,15 @@
 ---
 title: QuadraticBezierTo
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет квадратическую кривую Безье в конец пути
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет квадратическую кривую Безье в конце пути
 type: docs
 weight: 90
 url: /ru/aspose.slides/igeometrypath/quadraticbezierto/
 ---
 
-## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
+## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
-Добавляет квадратическую кривую Безье в конец пути
+Добавляет квадратическую кривую Безье в конце пути
 
 ```csharp
 public void QuadraticBezierTo(PointF point1, PointF point2)
@@ -28,9 +28,9 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 ---
 
-## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
+## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
 
-Добавляет квадратическую кривую Безье в конец пути
+Добавляет квадратическую кривую Безье в конце пути
 
 ```csharp
 public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
@@ -38,10 +38,10 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | X координата точки направления |
-| y1 | Single | Y координата точки направления |
-| x2 | Single | X координата конечной точки |
-| y2 | Single | Y координата конечной точки |
+| x1 | Single | X-координата точки направления |
+| y1 | Single | Y-координата точки направления |
+| x2 | Single | X-координата конечной точки |
+| y2 | Single | Y-координата конечной точки |
 
 ### См. также
 
@@ -51,7 +51,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 ---
 
-## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
+## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
 
 Добавляет квадратическую кривую Безье в указанное место пути
 
@@ -79,7 +79,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 ---
 
-## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
+## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
 
 Добавляет квадратическую кривую Безье в указанное место пути
 
@@ -89,10 +89,10 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | X координата точки направления |
-| y1 | Single | Y координата точки направления |
-| x2 | Single | X координата конечной точки |
-| y2 | Single | Y координата конечной точки |
+| x1 | Single | X-координата точки направления |
+| y1 | Single | Y-координата точки направления |
+| x2 | Single | X-координата конечной точки |
+| y2 | Single | Y-координата конечной точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения

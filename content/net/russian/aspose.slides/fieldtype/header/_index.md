@@ -1,7 +1,7 @@
 ---
 title: Header
-second_title: Справочник по API Aspose.Slides для .NET
-description: Заголовок слайдa. Поле только для чтения FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Sildes для .NET Справочник API
+description: Заголовок слайдов. Поле только для чтения FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 170
 url: /ru/aspose.slides/fieldtype/header/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/fieldtype/header/
 
 ## Свойство FieldType.Header
 
-Заголовок слайда. Поле только для чтения [`FieldType`](../../fieldtype).
+Заголовок слайда. Только для чтения [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType Header { get; }
 ```
 
-### См. Также
+### См. также
 
 * класс [FieldType](../../fieldtype)
 * пространство имен [Aspose.Slides](../../fieldtype)

@@ -1,7 +1,7 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Notizen-Folien-Manager.
+second_title: Aspose.Slides für .NET API Referenz
+description: Notizen-Foliomanager.
 type: docs
 weight: 6320
 url: /de/aspose.slides/inotesslidemanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/inotesslidemanager/
 
 ## INotesSlideManager-Schnittstelle
 
-Notizen-Folien-Manager.
+Notizen-Foliomanager.
 
 ```csharp
 public interface INotesSlideManager
@@ -25,10 +25,10 @@ public interface INotesSlideManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Gibt die Notizenfolie für die aktuelle Folie zurück und erstellt eine, falls keine vorhanden ist. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Gibt die Notizenfolie für die aktuelle Folie zurück, erstellt eine, wenn keine vorhanden ist. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Entfernt die Notizenfolie der aktuellen Folie. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

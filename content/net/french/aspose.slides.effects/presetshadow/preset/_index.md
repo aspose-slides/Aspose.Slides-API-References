@@ -1,15 +1,15 @@
 ---
 title: Preset
-second_title: Référence API Aspose.Slides pour .NET
-description: Préréglage. Lire/écrire PresetShadowTypeaspose.slides/presetshadowtype.
+second_title: Aspose.Slides pour la référence API .NET
+description: Preset. Lire/écrire PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/presetshadow/preset/
 ---
 
-## Propriété PresetShadow.Preset
+## Propriété Preset de PresetShadow
 
-Préréglage. Lire/écrire [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
+Preset. Lire/écrire [`PresetShadowType`](../../../aspose.slides/presetshadowtype).
 
 ```csharp
 public PresetShadowType Preset { get; set; }

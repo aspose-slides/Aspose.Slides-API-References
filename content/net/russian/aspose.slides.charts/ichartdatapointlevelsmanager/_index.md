@@ -17,12 +17,12 @@ public interface IChartDataPointLevelsManager
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Возвращает количество уровней точек данных. |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Возвращает объект IChartDataPointLevel для заданного уровня. |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Возвращает объект IChartDataPointLevel для определенного уровня. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет коллекцию интерактивных последовательностей.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет собой коллекцию интерактивных последовательностей.
 type: docs
 weight: 520
 url: /ru/aspose.slides.animation/isequencecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/isequencecollection/
 
 ## Интерфейс ISequenceCollection
 
-Представляет коллекцию интерактивных последовательностей.
+Представляет собой коллекцию интерактивных последовательностей.
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -17,15 +17,15 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
 | [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Возвращает последовательность по указанному индексу. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | Добавляет новую интерактивную последовательность. |
 | [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Удаляет все последовательности из коллекции. |

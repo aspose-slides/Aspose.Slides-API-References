@@ -1,7 +1,7 @@
 ---
 title: ShapeElement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une partie de la forme avec les mêmes propriétés de contour et de remplissage.
+second_title: Aspose.Slides pour référence API .NET
+description: Représente une partie de la forme ayant les mêmes propriétés de contour et de remplissage.
 type: docs
 weight: 9560
 url: /fr/aspose.slides/shapeelement/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapeelement/
 
 ## Classe ShapeElement
 
-Représente une partie de la forme avec les mêmes propriétés de contour et de remplissage.
+Représente une partie de la forme ayant les mêmes propriétés de contour et de remplissage.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -19,11 +19,11 @@ public class ShapeElement : IShapeElement
 
 | Nom | Description |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Retourne des informations sur la manière de remplir un élément. Lecture seule [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Retourne une Shape_PPT pour laquelle l'élément a été créé. Lecture seule [`Shape`](../shape). |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Retourne des informations sur la manière de tracer un élément. Lecture seule [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Renvoie des informations sur la manière de remplir un élément. Lecture seule [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Renvoie une Shape_PPT pour laquelle l'élément a été créé. Lecture seule [`Shape`](../shape). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Renvoie des informations sur la manière de tracer un élément. Lecture seule [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
-### Voir aussi
+### Voir Également
 
 * interface [IShapeElement](../ishapeelement)
 * namespace [Aspose.Slides](../../aspose.slides)

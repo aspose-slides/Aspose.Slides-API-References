@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.animation/point/time/
 ---
 
-## Propriété Point.Time
+## Point.Time propriété
 
 Représente une valeur temporelle. Lecture/écriture Simple.
 
@@ -17,7 +17,7 @@ public float Time { get; set; }
 
 ### Voir aussi
 
-* classe [Point](../../point)
+* class [Point](../../point)
 * namespace [Aspose.Slides.Animation](../../point)
 * assembly [Aspose.Slides](../../../)
 

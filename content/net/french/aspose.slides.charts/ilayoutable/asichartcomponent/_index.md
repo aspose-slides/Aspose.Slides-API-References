@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IChartComponent. Lecture seule [`IChartComp
 public IChartComponent AsIChartComponent { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartComponent](../../ichartcomponent)
 * interface [ILayoutable](../../ilayoutable)

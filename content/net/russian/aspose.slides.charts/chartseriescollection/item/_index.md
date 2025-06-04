@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по .NET API
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartseriescollection/item/
 public IChartSeries this[int index] { get; }
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 Элемент по указанному индексу.
 

@@ -1,13 +1,13 @@
 ---
 title: IsSeriesUsesXValueCoordinate
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve si el tipo de serie especificado utiliza coordenadas de valor X.
 type: docs
 weight: 200
 url: /es/aspose.slides.charts/charttypecharacterizer/isseriesusesxvaluecoordinate/
 ---
 
-## Método ChartTypeCharacterizer.IsSeriesUsesXValueCoordinate
+## ChartTypeCharacterizer.IsSeriesUsesXValueCoordinate method
 
 Devuelve si el tipo de serie especificado utiliza coordenadas de valor X.
 
@@ -23,7 +23,7 @@ public static bool IsSeriesUsesXValueCoordinate(ChartType seriesType)
 
 Verdadero si utiliza, de lo contrario falso.
 
-### Véase También
+### Véase también
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

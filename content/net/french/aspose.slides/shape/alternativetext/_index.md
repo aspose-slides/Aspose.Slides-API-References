@@ -17,7 +17,7 @@ public string AlternativeText { get; set; }
 
 ### Voir aussi
 
-* class [Shape](../../shape)
+* classe [Shape](../../shape)
 * namespace [Aspose.Slides](../../shape)
 * assembly [Aspose.Slides](../../../)
 

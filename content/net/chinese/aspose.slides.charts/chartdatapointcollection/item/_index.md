@@ -1,21 +1,21 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 通过索引返回该集合中系列数据点的序列号。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回该集合中按索引（序列号）获取系列数据点。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/chartdatapointcollection/item/
 ---
 
-## ChartDataPointCollection 索引器 (1/2)
+## ChartDataPointCollection 索引器 (1 of 2)
 
-通过索引返回系列数据点（其在此集合中的序列号）。
+返回按索引（序列号）获取系列数据点。
 
 ```csharp
 public IChartDataPoint this[int index] { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)
@@ -24,15 +24,15 @@ public IChartDataPoint this[int index] { get; }
 
 ---
 
-## ChartDataPointCollection 索引器 (2/2)
+## ChartDataPointCollection 索引器 (2 of 2)
 
-返回此集合中数据点的索引（序列号）。
+返回该集合中数据点的索引（序列号）。
 
 ```csharp
 public int this[IChartDataPoint pt] { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 类 [ChartDataPointCollection](../../chartdatapointcollection)

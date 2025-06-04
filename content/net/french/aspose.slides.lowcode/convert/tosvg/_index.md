@@ -1,7 +1,7 @@
 ---
 title: ToSvg
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Convertit Presentationaspose.slides/../aspose.slides/presentation en SVG.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Convertit Presentationaspose.slides/presentation en SVG.
 type: docs
 weight: 30
 url: /fr/aspose.slides.lowcode/convert/tosvg/
@@ -25,9 +25,9 @@ public static void ToSvg(string presPath)
 Convert.ToSvg("pres.pptx");
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* class [Convert](../../convert)
+* classe [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
 * assembly [Aspose.Slides](../../../)
 
@@ -52,10 +52,10 @@ public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
-* class [Convert](../../convert)
+* délégué [GetOutPathCallback](../../convert.getoutpathcallback)
+* classe [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
 * assembly [Aspose.Slides](../../../)
 
@@ -72,7 +72,7 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | pres | Presentation | Présentation d'entrée |
-| getOutPath | GetOutPathCallback | Callback qui retourne le chemin de sortie SVG pour chaque diapositive de la présentation |
+| getOutPath | GetOutPathCallback | >Callback qui retourne le chemin de sortie SVG pour chaque diapositive de la présentation |
 
 ### Exemples
 
@@ -83,11 +83,11 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
-* class [Convert](../../convert)
+* classe [Presentation](../../../aspose.slides/presentation)
+* délégué [GetOutPathCallback](../../convert.getoutpathcallback)
+* classe [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
 * assembly [Aspose.Slides](../../../)
 
@@ -104,7 +104,7 @@ public static void ToSvg(Presentation pres, ISVGOptions options)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | pres | Presentation | Présentation d'entrée |
-| options | ISVGOptions | Options d'exportation SVG |
+| options | ISVGOptions | Options d'export SVG |
 
 ### Exemples
 
@@ -115,11 +115,11 @@ using (Presentation pres = new Presentation("input.pptx"))
 }  
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* class [Presentation](../../../aspose.slides/presentation)
+* classe [Presentation](../../../aspose.slides/presentation)
 * interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* class [Convert](../../convert)
+* classe [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
 * assembly [Aspose.Slides](../../../)
 
@@ -137,7 +137,7 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGO
 | --- | --- | --- |
 | pres | Presentation | Présentation d'entrée |
 | getOutPath | GetOutPathCallback | Callback qui retourne le chemin de sortie SVG pour chaque diapositive de la présentation |
-| options | ISVGOptions | Options d'exportation SVG |
+| options | ISVGOptions | Options d'export SVG |
 
 ### Exemples
 
@@ -148,12 +148,12 @@ using (Presentation pres = new Presentation("input.pptx"))
 } 
 ```
 
-### Voir aussi
+### Voir Aussi
 
-* class [Presentation](../../../aspose.slides/presentation)
-* delegate [GetOutPathCallback](../../convert.getoutpathcallback)
+* classe [Presentation](../../../aspose.slides/presentation)
+* délégué [GetOutPathCallback](../../convert.getoutpathcallback)
 * interface [ISVGOptions](../../../aspose.slides.export/isvgoptions)
-* class [Convert](../../convert)
+* classe [Convert](../../convert)
 * namespace [Aspose.Slides.LowCode](../../convert)
 * assembly [Aspose.Slides](../../../)
 

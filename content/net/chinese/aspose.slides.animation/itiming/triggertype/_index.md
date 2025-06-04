@@ -1,7 +1,7 @@
 ---
 title: TriggerType
 second_title: Aspose.Slides for .NET API 参考
-description: 描述触发类型。可读/可写 EffectTriggerType aspose.slides.animation/effecttriggertype。
+description: 描述触发器类型。读/写 EffectTriggerTypeaspose.slides/effecttriggertype.
 type: docs
 weight: 130
 url: /zh/aspose.slides.animation/itiming/triggertype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/itiming/triggertype/
 
 ## ITiming.TriggerType 属性
 
-描述触发类型。可读/可写 [`EffectTriggerType`](../../effecttriggertype)。
+描述触发器类型。读/写 [`EffectTriggerType`](../../effecttriggertype)。
 
 ```csharp
 public EffectTriggerType TriggerType { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: Order
-second_title: Aspose.Slides for .NET API 参考
-description: 返回系列的顺序。可读写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个系列的顺序。可读可写 Int32。
 type: docs
 weight: 260
 url: /zh/aspose.slides.charts/ichartseries/order/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseries/order/
 
 ## IChartSeries.Order 属性
 
-返回系列的顺序。可读写 Int32。
+返回一个系列的顺序。可读可写 Int32。
 
 ```csharp
 public int Order { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartSeries](../../ichartseries)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseries)

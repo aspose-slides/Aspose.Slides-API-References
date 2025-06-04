@@ -1,15 +1,15 @@
 ---
 title: RevealTransition
-second_title: Aspose.Slides für .NET API Referenz
-description: Reveal-Folie Übergangseffekt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Reveal-Folienübergangseffekt.
 type: docs
 weight: 9970
 url: /de/aspose.slides.slideshow/revealtransition/
 ---
 
-## RevealTransition-Klasse
+## RevealTransition Klasse
 
-Reveal-Folie Übergangseffekt.
+Reveal-Folienübergangseffekt.
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -20,14 +20,14 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Name | Beschreibung |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Gibt an, ob der Übergang durch Schwarz ausgeblendet wird. Lese-/Schreibzugriff Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Gibt an, ob der Übergang durch Schwarz überblendet. Lese-/Schreibzugriff Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden TransitionValueBase-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hashalgorithmen und Datenstrukturen wie einer Hashtabelle. |
 
 ### Siehe auch
 

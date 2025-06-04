@@ -1,7 +1,7 @@
 ---
 title: Initials
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit les initiales des auteurs. Chaîne en lecture/écriture.
+description: Renvoie ou définit les initiales de l'auteur. Chaîne en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/commentauthor/initials/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/commentauthor/initials/
 
 ## Propriété CommentAuthor.Initials
 
-Renvoie ou définit les initiales des auteurs. Chaîne en lecture/écriture.
+Renvoie ou définit les initiales de l'auteur. Chaîne en lecture/écriture.
 
 ```csharp
 public string Initials { get; set; }

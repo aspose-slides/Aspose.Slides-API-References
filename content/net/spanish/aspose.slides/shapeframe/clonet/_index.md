@@ -19,11 +19,11 @@ public IShapeFrame CloneT()
 
 Marco de forma clonado.
 
-### Véase También
+### Ver También
 
-* interfaz [IShapeFrame](../../ishapeframe)
-* clase [ShapeFrame](../../shapeframe)
-* espacio de nombres [Aspose.Slides](../../shapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IShapeFrame](../../ishapeframe)
+* class [ShapeFrame](../../shapeframe)
+* namespace [Aspose.Slides](../../shapeframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,15 +1,15 @@
 ---
 title: AddDataPointForMapSeries
-second_title: Aspose.Slides pour la référence API .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Map.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est une carte.
 type: docs
 weight: 150
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointformapseries/
 ---
 
-## Méthode IChartDataPointCollection.AddDataPointForMapSeries
+## IChartDataPointCollection.AddDataPointForMapSeries méthode
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Map.
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est une carte.
 
 ```csharp
 public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
@@ -19,7 +19,7 @@ public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Valeur de couleur du point de données |
 
-### Valeur de retour
+### Valeur de Retour
 
 Nouveau point de données.
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartDataPoint](../../ichartdatapoint)
 * interface [IChartDataCell](../../ichartdatacell)

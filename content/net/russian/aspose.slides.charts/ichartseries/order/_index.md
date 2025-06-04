@@ -1,15 +1,15 @@
 ---
 title: Order
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает порядок серии. Читаемый/записываемый Int32.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает порядок серии. Читаемое/записываемое Int32.
 type: docs
 weight: 260
 url: /ru/aspose.slides.charts/ichartseries/order/
 ---
 
-## Свойство IChartSeries.Order
+## IChartSeries.Order свойство
 
-Возвращает порядок серии. Читаемый/записываемый Int32.
+Возвращает порядок серии. Читаемое/записываемое Int32.
 
 ```csharp
 public int Order { get; set; }

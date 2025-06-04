@@ -1,13 +1,13 @@
 ---
 title: Color
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el formato de color de un viñeta de un párrafo sin herencia. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /es/aspose.slides/bulletformat/color/
 ---
 
-## Propiedad BulletFormat.Color
+## BulletFormat.Color propiedad
 
 Devuelve el formato de color de una viñeta de un párrafo sin herencia. Solo lectura [`IColorFormat`](../../icolorformat).
 
@@ -15,7 +15,7 @@ Devuelve el formato de color de una viñeta de un párrafo sin herencia. Solo le
 public IColorFormat Color { get; }
 ```
 
-### También Visto
+### Ver También
 
 * interfaz [IColorFormat](../../icolorformat)
 * clase [BulletFormat](../../bulletformat)

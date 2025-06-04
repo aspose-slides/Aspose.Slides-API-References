@@ -1,7 +1,7 @@
 ---
 title: Accent5
-second_title: Aspose.Slides für .NET API Referenz
-description: Fünfte Akzentfarbe im Farbschema. Schreibgeschütztes IColorFormataspose.slides/../aspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Fünfte Akzentfarbe im Schema. Nur-Lese IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /de/aspose.slides.theme/colorscheme/accent5/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/colorscheme/accent5/
 
 ## ColorScheme.Accent5-Eigenschaft
 
-Fünfte Akzentfarbe im Farbschema. Schreibgeschützt [`IColorFormat`](../../../aspose.slides/icolorformat).
+Fünfte Akzentfarbe im Schema. Nur-Lese [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent5 { get; }

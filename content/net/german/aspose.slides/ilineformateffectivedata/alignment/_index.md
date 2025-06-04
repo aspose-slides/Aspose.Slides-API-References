@@ -1,7 +1,7 @@
 ---
 title: Alignment
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Linienausrichtung zurück. Nur lesbare LineAlignmentaspose.slides/linealignment.
+second_title: Aspose.Slidess für .NET API Referenz
+description: Gibt die Zeilenanpassung zurück. Nur-lesbarer LineAlignmentaspose.slides/linealignment.
 type: docs
 weight: 10
 url: /de/aspose.slides/ilineformateffectivedata/alignment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformateffectivedata/alignment/
 
 ## ILineFormatEffectiveData.Alignment-Eigenschaft
 
-Gibt die Linienausrichtung zurück. Nur lesbare [`LineAlignment`](../../linealignment).
+Gibt die Zeilenanpassung zurück. Nur-lesbarer [`LineAlignment`](../../linealignment).
 
 ```csharp
 public LineAlignment Alignment { get; }

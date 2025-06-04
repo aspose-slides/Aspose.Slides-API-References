@@ -15,11 +15,11 @@ Devuelve el administrador de notas maestro. Solo lectura [`IMasterNotesSlideMana
 public IMasterNotesSlideManager MasterNotesSlideManager { get; }
 ```
 
-### Véase también
+### Véase También
 
-* interfaz [IMasterNotesSlideManager](../../imasternotesslidemanager)
-* interfaz [IPresentation](../../ipresentation)
-* espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IMasterNotesSlideManager](../../imasternotesslidemanager)
+* interfaz [IPresentation](../../ipresentation)
+* espacio de nombres [Aspose.Slides](../../ipresentation)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

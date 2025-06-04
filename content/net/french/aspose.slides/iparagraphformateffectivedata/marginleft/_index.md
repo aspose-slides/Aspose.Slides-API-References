@@ -1,15 +1,15 @@
 ---
 title: MarginLeft
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la marge gauche dans un paragraphe. Lecture seule Single.
+description: Retourne la marge à gauche dans un paragraphe. Lecture seule Simple.
 type: docs
 weight: 110
 url: /fr/aspose.slides/iparagraphformateffectivedata/marginleft/
 ---
 
-## Propriété IParagraphFormatEffectiveData.MarginLeft
+## IParagraphFormatEffectiveData.MarginLeft propriété
 
-Renvoie la marge gauche dans un paragraphe. Lecture seule Single.
+Retourne la marge à gauche dans un paragraphe. Lecture seule Simple.
 
 ```csharp
 public float MarginLeft { get; }

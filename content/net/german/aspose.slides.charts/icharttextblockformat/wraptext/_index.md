@@ -1,7 +1,7 @@
 ---
 title: WrapText
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wahr, wenn der Text am Rand des TextFrames umgebrochen wird. Das Ändern dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2007/2013 haben. Lesen/Schreiben von NullableBoolaspose.slides/../aspose.slides/nullablebool.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Wahr, wenn der Text an den Rändern der TextFrames umbrochen wird. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile haben DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2007/2013. Lese-/Schreibzugriff auf NullableBoolaspose.slides/../aspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/icharttextblockformat/wraptext/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/icharttextblockformat/wraptext/
 
 ## IChartTextBlockFormat.WrapText-Eigenschaft
 
-**Wahr**, wenn der Text am Rand des TextFrame umgebrochen wird. Das Ändern dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile: DataLabel und DataLabelFormat (vollständige Unterstützung in PowerPoint 2007/2013) haben. Lesen/Schreiben von [`NullableBool`](../../../aspose.slides/nullablebool).
+**Wahr**, wenn der Text an den Rändern des TextFrames umbrochen wird. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile haben: DataLabel und DataLabelFormat (vollständige Unterstützung in PowerPoint 2007/2013). Lese-/Schreibzugriff auf [`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [NullableBool](../../../aspose.slides/nullablebool)
 * interface [IChartTextBlockFormat](../../icharttextblockformat)

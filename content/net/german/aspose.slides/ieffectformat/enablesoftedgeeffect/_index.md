@@ -1,7 +1,7 @@
 ---
 title: EnableSoftEdgeEffect
 second_title: Aspose.Slides für .NET API-Referenz
-description: Aktiviert den Soft-Edge-Effekt.
+description: Aktiviert den weichen Kanteneffekt.
 type: docs
 weight: 250
 url: /de/aspose.slides/ieffectformat/enablesoftedgeeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ieffectformat/enablesoftedgeeffect/
 
 ## IEffectFormat.EnableSoftEdgeEffect-Methode
 
-Aktiviert den Soft-Edge-Effekt.
+Aktiviert den weichen Kanteneffekt.
 
 ```csharp
 public void EnableSoftEdgeEffect()

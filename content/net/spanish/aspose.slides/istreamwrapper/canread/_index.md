@@ -1,7 +1,7 @@
 ---
 title: CanRead
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene un valor que indica si el flujo actual admite lectura. Booleano de solo lectura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene un valor que indica si el flujo actual admite la lectura. Booleano de solo lectura.
 type: docs
 weight: 20
 url: /es/aspose.slides/istreamwrapper/canread/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/istreamwrapper/canread/
 
 ## Propiedad IStreamWrapper.CanRead
 
-Obtiene un valor que indica si el flujo actual admite lectura. Booleano de solo lectura.
+Obtiene un valor que indica si el flujo actual admite la lectura. Booleano de solo lectura.
 
 ```csharp
 public bool CanRead { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IStreamWrapper](../../istreamwrapper)
 * espacio de nombres [Aspose.Slides](../../istreamwrapper)

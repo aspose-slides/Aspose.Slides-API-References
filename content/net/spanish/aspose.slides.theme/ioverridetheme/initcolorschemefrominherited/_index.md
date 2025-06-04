@@ -1,7 +1,7 @@
 ---
 title: InitColorSchemeFromInherited
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Inicializar ColorScheme con un nuevo objeto para sobrescribir ColorScheme de InheritedTheme. E inicializar los datos de este nuevo objeto con los datos de ColorScheme de InheritedTheme.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Inicializar ColorScheme con un nuevo objeto para sobrescribir el ColorScheme de InheritedTheme. E inicializar los datos de este nuevo objeto con los datos del ColorScheme de InheritedTheme.
 type: docs
 weight: 60
 url: /es/aspose.slides.theme/ioverridetheme/initcolorschemefrominherited/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.theme/ioverridetheme/initcolorschemefrominherited/
 
 ## IOverrideTheme.InitColorSchemeFromInherited método
 
-Inicializar ColorScheme con un nuevo objeto para sobrescribir ColorScheme de InheritedTheme. E inicializar los datos de este nuevo objeto con los datos de ColorScheme de InheritedTheme.
+Inicializar ColorScheme con un nuevo objeto para sobrescribir el ColorScheme de InheritedTheme. E inicializar los datos de este nuevo objeto con los datos del ColorScheme de InheritedTheme.
 
 ```csharp
 public void InitColorSchemeFromInherited()
@@ -19,12 +19,12 @@ public void InitColorSchemeFromInherited()
 
 | excepción | condición |
 | --- | --- |
-| InvalidOperationException | Lanzada si el ColorScheme ya está inicializado (no es nulo). |
+| InvalidOperationException | Lanzado si el ColorScheme ya está inicializado (no nulo). |
 
-### Véase También
+### Vea También
 
 * interfaz [IOverrideTheme](../../ioverridetheme)
 * espacio de nombres [Aspose.Slides.Theme](../../ioverridetheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

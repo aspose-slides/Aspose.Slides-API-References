@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Direction de l'ombre. Lecture seule Single.
 type: docs
 weight: 20

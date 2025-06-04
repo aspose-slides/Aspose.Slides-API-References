@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime la catégorie du graphique.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/ichartcategory/remove/
 ---
 
-## Méthode IChartCategory.Remove
+## IChartCategory.Remove method
 
 Supprime la catégorie du graphique.
 
@@ -19,9 +19,9 @@ public void Remove()
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Lancée si la catégorie a déjà été supprimée du graphique. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Lancé si la catégorie est déjà supprimée du graphique. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategory](../../ichartcategory)
 * namespace [Aspose.Slides.Charts](../../ichartcategory)

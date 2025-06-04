@@ -1,15 +1,15 @@
 ---
 title: AddClipboardFragmentHeader
-second_title: Aspose.Slides pour .NET API Référence
-description: Renvoie ou définit la valeur indiquant si les en-têtes du presse-papiers doivent être ajoutés. Lecture/écriture Booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne ou définit une valeur indiquant si les en-têtes du Presse-papiers doivent être ajoutés. Booléen en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader/
 ---
 
-## ITextToHtmlConversionOptions.AddClipboardFragmentHeader propriété
+## ITextToHtmlConversionOptions.AddClipboardFragmentHeader property
 
-Renvoie ou définit la valeur, indiquant si les en-têtes du presse-papiers doivent être ajoutés. Lecture/écriture Booléen.
+Retourne ou définit une valeur, indiquant si les en-têtes du Presse-papiers doivent être ajoutés. Booléen en lecture/écriture.
 
 ```csharp
 public bool AddClipboardFragmentHeader { get; set; }

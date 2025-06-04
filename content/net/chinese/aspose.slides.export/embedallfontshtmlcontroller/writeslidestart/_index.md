@@ -1,15 +1,15 @@
 ---
 title: WriteSlideStart
-second_title: Aspose.Slides for .NET API 参考
-description: 用于写入 html 幻灯片头部。每个幻灯片调用一次。
+second_title: Aspose.Sildes for .NET API Reference
+description: 被调用以写入 html 幻灯片头部。每个幻灯片调用一次。
 type: docs
 weight: 90
 url: /zh/aspose.slides.export/embedallfontshtmlcontroller/writeslidestart/
 ---
 
-## EmbedAllFontsHtmlController.WriteSlideStart 方法
+## EmbedAllFontsHtmlController.WriteSlideStart method
 
-用于写入 html 幻灯片头部。每个幻灯片调用一次。
+被调用以写入 html 幻灯片头部。每个幻灯片调用一次。
 
 ```csharp
 public virtual void WriteSlideStart(IHtmlGenerator generator, ISlide slide)

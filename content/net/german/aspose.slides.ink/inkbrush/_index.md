@@ -20,7 +20,7 @@ public class InkBrush : IInkBrush
 | Name | Beschreibung |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Ruft die Pinsel-Farbe für eine Linie ab oder legt sie fest. |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Ruft die Pinsel-Größe für eine Linie in Punkten ab oder legt sie fest. |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Ruft die Pinselgröße für eine Linie in Punkten ab oder legt sie fest. |
 
 ### Siehe auch
 

@@ -1,6 +1,6 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Crea una nueva instancia de PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public PresentationAnimationsGenerator(Presentation presentation)
 | --- | --- | --- |
 | presentation | Presentation | El tamaño del marco se establecerá de acuerdo con [`SlideSize`](../../../aspose.slides/presentation/slidesize) |
 
-### Ver También
+### Véase también
 
 * clase [Presentation](../../../aspose.slides/presentation)
 * clase [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
@@ -40,7 +40,7 @@ public PresentationAnimationsGenerator(Size frameSize)
 | --- | --- | --- |
 | frameSize | Size | El tamaño del marco. |
 
-### Ver También
+### Véase también
 
 * clase [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)

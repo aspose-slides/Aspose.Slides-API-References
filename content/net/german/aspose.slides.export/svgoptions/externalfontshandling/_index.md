@@ -1,7 +1,7 @@
 ---
 title: ExternalFontsHandling
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt eine Möglichkeit zum Umgang mit extern geladenen Schriftarten. Lese/Schreibe SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
+description: Bestimmt eine Methode zur Handhabung extern geladener Schriftarten. Lesen/Schreiben von SvgExternalFontsHandlingaspose.slides/svgexternalfontshandling.
 type: docs
 weight: 100
 url: /de/aspose.slides.export/svgoptions/externalfontshandling/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/svgoptions/externalfontshandling/
 
 ## SVGOptions.ExternalFontsHandling-Eigenschaft
 
-Bestimmt eine Möglichkeit zum Umgang mit extern geladenen Schriftarten. Lese/Schreibe [`SvgExternalFontsHandling`](../../svgexternalfontshandling).
+Bestimmt eine Methode zur Handhabung extern geladener Schriftarten. Lesen/Schreiben von [`SvgExternalFontsHandling`](../../svgexternalfontshandling).
 
 ```csharp
 public SvgExternalFontsHandling ExternalFontsHandling { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [SvgExternalFontsHandling](../../svgexternalfontshandling)
 * class [SVGOptions](../../svgoptions)

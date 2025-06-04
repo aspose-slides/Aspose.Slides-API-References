@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve el conteo de niveles de puntos de datos.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve el conteo de niveles de puntos de datos.
 public int Count { get; }
 ```
 
-### Ver también
+### Ver También
 
 * interfaz [IChartDataPointLevelsManager](../../ichartdatapointlevelsmanager)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartdatapointlevelsmanager)

@@ -1,15 +1,15 @@
 ---
 title: ArrowheadsLocked
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le changement de flèches est interdit. Booléen en lecture-écriture.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Détermine si le changement des flèches est interdit. Booléen en lecture-écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iautoshapelock/arrowheadslocked/
 ---
 
-## Propriété IAutoShapeLock.ArrowheadsLocked
+## IAutoShapeLock.ArrowheadsLocked propriété
 
-Détermine si le changement de flèches est interdit. Booléen en lecture-écriture.
+Détermine si le changement des flèches est interdit. Booléen en lecture-écriture.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }

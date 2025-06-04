@@ -1,7 +1,7 @@
 ---
 title: TitlesOfParts
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. Solo lectura string.
+second_title: Aspose.Slides para .NET API Reference
+description: Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. Cadena de solo lectura.
 type: docs
 weight: 340
 url: /es/aspose.slides/documentproperties/titlesofparts/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/documentproperties/titlesofparts/
 
 ## DocumentProperties.TitlesOfParts property
 
-Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. Solo lectura string[].
+Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. Cadena de solo lectura[].
 
 ```csharp
 public string[] TitlesOfParts { get; }

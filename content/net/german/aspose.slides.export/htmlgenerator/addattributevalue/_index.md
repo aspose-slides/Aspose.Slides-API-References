@@ -1,7 +1,7 @@
 ---
 title: AddAttributeValue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Umwickelt den Attributwert und fügt ihn der HTML-Datei hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Zitiert Attributwert und fügt ihn der HTML-Datei hinzu.
 type: docs
 weight: 70
 url: /de/aspose.slides.export/htmlgenerator/addattributevalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/htmlgenerator/addattributevalue/
 
 ## AddAttributeValue(string) {#addattributevalue_2}
 
-Umwickelt den Attributwert und fügt ihn der HTML-Datei hinzu.
+Zitiert Attributwert und fügt ihn der HTML-Datei hinzu.
 
 ```csharp
 public void AddAttributeValue(string value)
@@ -19,7 +19,7 @@ public void AddAttributeValue(string value)
 | --- | --- | --- |
 | value | String | Attributwert-String. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)
@@ -29,7 +29,7 @@ public void AddAttributeValue(string value)
 
 ## AddAttributeValue(char[]) {#addattributevalue}
 
-Umwickelt den Attributwert und fügt ihn der HTML-Datei hinzu.
+Zitiert Attributwert und fügt ihn der HTML-Datei hinzu.
 
 ```csharp
 public void AddAttributeValue(char[] value)
@@ -39,7 +39,7 @@ public void AddAttributeValue(char[] value)
 | --- | --- | --- |
 | value | Char[] | Attributwert-String. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)
@@ -49,7 +49,7 @@ public void AddAttributeValue(char[] value)
 
 ## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
-Umwickelt den Attributwert und fügt ihn der HTML-Datei hinzu.
+Zitiert Attributwert und fügt ihn der HTML-Datei hinzu.
 
 ```csharp
 public void AddAttributeValue(char[] value, int startIndex, int length)
@@ -61,7 +61,7 @@ public void AddAttributeValue(char[] value, int startIndex, int length)
 | startIndex | Int32 | Startindex des hinzuzufügenden Abschnitts. |
 | length | Int32 | Länge des hinzuzufügenden Abschnitts. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [HtmlGenerator](../../htmlgenerator)
 * Namespace [Aspose.Slides.Export](../../htmlgenerator)

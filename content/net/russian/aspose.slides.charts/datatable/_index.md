@@ -1,6 +1,6 @@
 ---
 title: DataTable
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Представляет свойства таблицы данных.
 type: docs
 weight: 1520
@@ -17,17 +17,17 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Возвращает диаграмму. Только для чтения [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Возвращает стили линий, заливки и эффектов объекта. Только для чтения [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Истина, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/запись Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Истина, если таблица данных диаграммы имеет контурные границы. Чтение/запись Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Истина, если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/запись Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Истина, если ключ легенды метки данных видим. Чтение/запись Boolean. |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Возвращает график. Только для чтения [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Возвращает стили линии, заливки и эффекта объекта. Только для чтения [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Истина, если таблица данных графика имеет горизонтальные границы ячеек. Читаемое/записываемое логическое значение. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Истина, если таблица данных графика имеет контурные границы. Читаемое/записываемое логическое значение. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Истина, если таблица данных графика имеет вертикальные границы ячеек. Читаемое/записываемое логическое значение. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Истина, если ключ легенды меток данных видим. Читаемое/записываемое логическое значение. |
 | [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Возвращает формат текста. Только для чтения [`IChartTextFormat`](../icharttextformat). |
 
-### Смотрите Также
+### См. также
 
 * класс [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * класс [Chart](../chart)

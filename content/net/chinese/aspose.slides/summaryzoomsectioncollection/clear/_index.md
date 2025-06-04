@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中删除所有 SummaryZoomSection 对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除所有 SummaryZoomSection 对象。
 type: docs
 weight: 60
 url: /zh/aspose.slides/summaryzoomsectioncollection/clear/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/summaryzoomsectioncollection/clear/
 
 ## SummaryZoomSectionCollection.Clear 方法
 
-从集合中删除所有 SummaryZoomSection 对象。
+从集合中移除所有 SummaryZoomSection 对象。
 
 ```csharp
 public void Clear()
@@ -17,7 +17,7 @@ public void Clear()
 
 ### 示例
 
-该示例演示了如何通过索引获取 Summary Zoom Section 元素：
+该示例演示如何通过索引获取 Summary Zoom Section 元素：
 
 ```csharp
 [C#]

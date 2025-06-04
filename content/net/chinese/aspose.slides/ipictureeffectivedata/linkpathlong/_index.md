@@ -1,6 +1,6 @@
 ---
 title: LinkPathLong
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回链接图像的 URL。只读字符串。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ipictureeffectivedata/linkpathlong/
 public string LinkPathLong { get; }
 ```
 
-### 参见
+### 相关内容
 
 * 接口 [IPictureEffectiveData](../../ipictureeffectivedata)
 * 命名空间 [Aspose.Slides](../../ipictureeffectivedata)

@@ -1,15 +1,15 @@
 ---
 title: InsertClone
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans une table.
+second_title: Aspose.Slides pour référence API .NET
+description: Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans un tableau.
 type: docs
 weight: 80
 url: /fr/aspose.slides/rowcollection/insertclone/
 ---
 
-## Méthode RowCollection.InsertClone
+## RowCollection.InsertClone méthode
 
-Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans une table.
+Crée une copie de la ligne modèle spécifiée et l'insère à la position spécifiée dans un tableau.
 
 ```csharp
 public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
@@ -25,7 +25,7 @@ public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 
 Lignes insérées.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRow](../../irow)
 * class [RowCollection](../../rowcollection)

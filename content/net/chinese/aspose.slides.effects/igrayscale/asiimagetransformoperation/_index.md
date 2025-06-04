@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回 IImageTransformOperation 接口。只读 IImageTransformOperation aspose.slides.effects/iimagetransformoperation。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 IImageTransformOperation 接口。仅限读取的 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/igrayscale/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/igrayscale/asiimagetransformoperation/
 
 ## IGrayScale.AsIImageTransformOperation 属性
 
-返回 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../../iimagetransformoperation)。
+返回 IImageTransformOperation 接口。仅限读取的 [`IImageTransformOperation`](../../iimagetransformoperation)。
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
@@ -17,7 +17,7 @@ public IImageTransformOperation AsIImageTransformOperation { get; }
 
 ### 备注
 
-为了兼容 COM。
+用于 COM 兼容性。
 
 ### 另见
 

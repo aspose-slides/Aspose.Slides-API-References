@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Format der Trendlinie dar. Lese-/Schreibzugriff auf IFormataspose.slides/iformat.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt das Format der Trendlinie dar. Lese-/Schreibe-Interface IFormataspose.slides.charts/iformat.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/trendline/format/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.charts/trendline/format/
 
 ## Trendline.Format-Eigenschaft
 
-Stellt das Format der Trendlinie dar. Lese-/Schreibzugriff auf [`IFormat`](../../iformat).
+Stellt das Format der Trendlinie dar. Lese-/Schreibe- [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IFormat](../../iformat)
+* Interface [IFormat](../../iformat)
 * Klasse [Trendline](../../trendline)
 * Namespace [Aspose.Slides.Charts](../../trendline)
 * Assembly [Aspose.Slides](../../../)

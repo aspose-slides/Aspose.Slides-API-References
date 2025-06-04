@@ -1,7 +1,7 @@
 ---
 title: ResolveUri
-second_title: Aspose.Slides for .NET API 参考
-description: 从基URI和相对URI解析绝对URI。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从基础和相对 URI 解析绝对 URI。
 type: docs
 weight: 20
 url: /zh/aspose.slides.import/iexternalresourceresolver/resolveuri/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.import/iexternalresourceresolver/resolveuri/
 
 ## IExternalResourceResolver.ResolveUri 方法
 
-从基URI和相对URI解析绝对URI。
+从基础和相对 URI 解析绝对 URI。
 
 ```csharp
 public string ResolveUri(string baseUri, string relativeUri)
@@ -17,14 +17,14 @@ public string ResolveUri(string baseUri, string relativeUri)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| baseUri | String | 连接对象的基URI |
-| relativeUri | String | 连接对象的相对URI。 |
+| baseUri | String | 连接对象的基础 URI |
+| relativeUri | String | 链接对象的相对 URI。 |
 
 ### 返回值
 
-绝对URI，如果无法解析相对URI则返回null。
+绝对 URI，如果无法解析相对 URI，则返回 null。
 
-### 另见
+### 另请参见
 
 * 接口 [IExternalResourceResolver](../../iexternalresourceresolver)
 * 命名空间 [Aspose.Slides.Import](../../iexternalresourceresolver)

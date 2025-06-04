@@ -1,7 +1,7 @@
 ---
 title: StrikethroughVertical
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Strikethrough Vertical par défaut est faux - spécifie l'état caché ou visible d'une ligne verticale barrée.
+description: Strikethrough Vertical par défaut est faux - spécifie l'état caché ou affiché d'une ligne verticale barrée.
 type: docs
 weight: 100
 url: /fr/aspose.slides.mathtext/imathborderbox/strikethroughvertical/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathborderbox/strikethroughvertical/
 
 ## Propriété IMathBorderBox.StrikethroughVertical
 
-Strikethrough Vertical (par défaut est faux) - spécifie l'état caché ou visible d'une ligne verticale barrée.
+Strikethrough Vertical (par défaut est faux) - spécifie l'état caché ou affiché d'une ligne verticale barrée.
 
 ```csharp
 public bool StrikethroughVertical { get; set; }
@@ -17,7 +17,7 @@ public bool StrikethroughVertical { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

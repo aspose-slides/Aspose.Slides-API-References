@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnitScale
-second_title: Aspose.Slides for .NET API 参考
-description: 指定轴的实际主单位刻度。请先调用 IChart.ValidateChartLayout 方法以获取实际值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定轴的实际主要单位刻度。请先调用方法 IChart.ValidateChartLayout 以获取实际值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/axis/actualmajorunitscale/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/actualmajorunitscale/
 
 ## Axis.ActualMajorUnitScale 属性
 
-指定轴的实际主单位刻度。请先调用 IChart.ValidateChartLayout() 方法以获取实际值。
+指定轴的实际主要单位刻度。请先调用方法 IChart.ValidateChartLayout() 以获取实际值。
 
 ```csharp
 public TimeUnitType ActualMajorUnitScale { get; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [TimeUnitType](../../timeunittype)
 * class [Axis](../../axis)

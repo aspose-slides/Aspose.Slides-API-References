@@ -17,8 +17,8 @@ public object SyncRoot { get; }
 
 ### Véase también
 
-* class [ChartDataPointCollection](../../chartdatapointcollection)
-* namespace [Aspose.Slides.Charts](../../chartdatapointcollection)
-* assembly [Aspose.Slides](../../../)
+* clase [ChartDataPointCollection](../../chartdatapointcollection)
+* espacio de nombres [Aspose.Slides.Charts](../../chartdatapointcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

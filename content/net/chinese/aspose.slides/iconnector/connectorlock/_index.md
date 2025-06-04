@@ -1,7 +1,7 @@
 ---
 title: ConnectorLock
 second_title: Aspose.Slides for .NET API Reference
-description: 返回连接器的锁。只读 IConnectorLock aspose.slides/iconnectorlock。
+description: 返回连接器锁定。只读 IConnectorLockaspose.slides/iconnectorlock。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iconnector/connectorlock/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iconnector/connectorlock/
 
 ## IConnector.ConnectorLock 属性
 
-返回连接器的锁。只读 [`IConnectorLock`](../../iconnectorlock)。
+返回连接器的锁定。只读 [`IConnectorLock`](../../iconnectorlock)。
 
 ```csharp
 public IConnectorLock ConnectorLock { get; }
 ```
 
-### 另见
+### 相关信息
 
 * 接口 [IConnectorLock](../../iconnectorlock)
 * 接口 [IConnector](../../iconnector)

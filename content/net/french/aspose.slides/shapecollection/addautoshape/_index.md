@@ -1,15 +1,15 @@
 ---
 title: AddAutoShape
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une nouvelle AutoShape, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
+second_title: Aspose.Slides pour .NET Référence API
+description: Crée un nouvel AutoShape, l'ajuste selon le modèle par défaut et l'ajoute à la fin de la collection.
 type: docs
 weight: 90
 url: /fr/aspose.slides/shapecollection/addautoshape/
 ---
 
-## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
+## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-Crée une nouvelle AutoShape, l'ajuste à partir du modèle par défaut et l'ajoute à la fin de la collection.
+Crée un nouvel AutoShape, l'ajuste selon le modèle par défaut et l'ajoute à la fin de la collection.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -18,16 +18,16 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | shapeType | ShapeType | Le [`ShapeType`](../../shapetype) de la forme. |
-| x | Single | La coordonnée X pour le côté gauche de la frame de la forme. |
-| y | Single | La coordonnée Y pour le dessus de la frame de la forme. |
-| width | Single | La largeur de la frame de la forme. |
-| height | Single | La hauteur de la frame de la forme. |
+| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
+| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| width | Single | La largeur du cadre de la forme. |
+| height | Single | La hauteur du cadre de la forme. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet AutoShape créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAutoShape](../../iautoshape)
 * enum [ShapeType](../../shapetype)
@@ -37,9 +37,9 @@ Objet AutoShape créé.
 
 ---
 
-## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
+## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-Crée une nouvelle AutoShape et l'ajoute à la fin de la collection.
+Crée un nouvel AutoShape et l'ajoute à la fin de la collection.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -49,17 +49,17 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | shapeType | ShapeType | Le [`ShapeType`](../../shapetype) de la forme. |
-| x | Single | La coordonnée X pour le côté gauche de la frame de la forme. |
-| y | Single | La coordonnée Y pour le dessus de la frame de la forme. |
-| width | Single | La largeur de la frame de la forme. |
-| height | Single | La hauteur de la frame de la forme. |
-| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, un style simple et un texte centré seront attribués à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| x | Single | La coordonnée X pour le côté gauche du cadre de la forme. |
+| y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
+| width | Single | La largeur du cadre de la forme. |
+| height | Single | La hauteur du cadre de la forme. |
+| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera ajustée selon le modèle par défaut. Un nom non vide, un style simple, et un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Objet AutoShape créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAutoShape](../../iautoshape)
 * enum [ShapeType](../../shapetype)

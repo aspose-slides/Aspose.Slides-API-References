@@ -1,12 +1,12 @@
 ---
 title: SubModel
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: type docs
 weight: 50
 url: /ru/aspose.slides.export.web/templatecontext-1/submodel/
 ---
 
-## Метод TemplateContext&lt;TObject&gt;.SubModel&lt;TSubModel&gt;
+## TemplateContext&lt;TObject&gt;.SubModel&lt;TSubModel&gt; метод
 
 ```csharp
 public TemplateContext<TSubModel> SubModel<TSubModel>(TSubModel subModel)

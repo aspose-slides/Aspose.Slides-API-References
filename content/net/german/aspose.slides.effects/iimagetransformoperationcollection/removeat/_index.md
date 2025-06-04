@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API-Referenz
+second_title: Aspose.Slildes für .NET API Referenz
 description: Entfernt einen Bildeffekt aus einer Sammlung am angegebenen Index.
 type: docs
 weight: 200
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/removeat/
 ---
 
-## IImageTransformOperationCollection.RemoveAt-Methode
+## IImageTransformOperationCollection.RemoveAt Methode
 
 Entfernt einen Bildeffekt aus einer Sammlung am angegebenen Index.
 
@@ -21,7 +21,7 @@ public void RemoveAt(int index)
 
 ### Siehe auch
 
-* Schnittstelle [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
+* Interface [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * Namespace [Aspose.Slides.Effects](../../iimagetransformoperationcollection)
 * Assembly [Aspose.Slides](../../../)
 

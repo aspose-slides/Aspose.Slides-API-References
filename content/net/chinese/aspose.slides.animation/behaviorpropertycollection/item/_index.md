@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定索引处的属性。
 type: docs
 weight: 30
@@ -17,13 +17,13 @@ public IBehaviorProperty this[int index] { get; set; }
 
 | 参数 | 描述 |
 | --- | --- |
-| index | 要返回的属性的索引。 |
+| index | 要返回的属性索引。 |
 
 ### 返回值
 
 动画行为属性。
 
-### 参见
+### 另请参见
 
 * 接口 [IBehaviorProperty](../../ibehaviorproperty)
 * 类 [BehaviorPropertyCollection](../../behaviorpropertycollection)

@@ -1,15 +1,15 @@
 ---
 title: UnderlineFillFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Eigenschaften des Unterstreichungsfüllformats zurück. Keine Vererbung angewendet. Nur-Lesen IFillFormataspose.slides/ifillformat.
+description: Gibt die FillFormat-Eigenschaften der Unterstreichungslinie zurück. Keine Vererbung angewendet. Nur-Lese IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 250
 url: /de/aspose.slides/ibaseportionformat/underlinefillformat/
 ---
 
-## IBasePortionFormat.UnderlineFillFormat Eigenschaft
+## IBasePortionFormat.UnderlineFillFormat-Eigenschaft
 
-Gibt die Eigenschaften des Unterstreichungsfüllformats zurück. Keine Vererbung angewendet. Nur-Lesen [`IFillFormat`](../../ifillformat).
+Gibt die FillFormat-Eigenschaften der Unterstreichungslinie zurück. Keine Vererbung angewendet. Nur-Lese [`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat UnderlineFillFormat { get; }

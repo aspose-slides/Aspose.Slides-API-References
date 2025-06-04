@@ -1,6 +1,6 @@
 ---
 title: AsIEnumerable
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie des interfaces IEnumerable. IEnumerable en lecture seule.
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IEnumerable AsIEnumerable { get; }
 
 Pour la compatibilité COM.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
 * namespace [Aspose.Slides.Animation](../../ibehaviorpropertycollection)

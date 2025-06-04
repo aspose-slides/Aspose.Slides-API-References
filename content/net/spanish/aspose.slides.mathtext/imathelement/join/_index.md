@@ -7,7 +7,7 @@ weight: 90
 url: /es/aspose.slides.mathtext/imathelement/join/
 ---
 
-## Unir(IMathElement) {#join}
+## Join(IMathElement) {#join}
 
 Une un elemento matemático y forma un bloque matemático
 
@@ -17,7 +17,7 @@ public IMathBlock Join(IMathElement mathElement)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| mathElement | IMathElement | El elemento a unir |
+| mathElement | IMathElement | El elemento a ser unido |
 
 ### Valor de Retorno
 
@@ -43,7 +43,7 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## Unir(string) {#join_1}
+## Join(string) {#join_1}
 
 Une un texto matemático y forma un bloque matemático
 
@@ -53,7 +53,7 @@ public IMathBlock Join(string mathText)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| mathText | String | Texto matemático a unir |
+| mathText | String | Texto matemático a ser unido |
 
 ### Valor de Retorno
 

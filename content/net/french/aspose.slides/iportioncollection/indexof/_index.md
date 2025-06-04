@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Détermine l'index d'une portion spécifique dans la collection.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iportioncollection/indexof/
 ---
 
-## Méthode IPortionCollection.IndexOf
+## IPortionCollection.IndexOf méthode
 
 Détermine l'index d'une portion spécifique dans la collection.
 

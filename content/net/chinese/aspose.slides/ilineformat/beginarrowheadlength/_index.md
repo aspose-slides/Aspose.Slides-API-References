@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadLength
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置线条开始处的箭头长度。可读写 LineArrowheadLengthaspose.slides/linearrowheadlength。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置线条起始处的箭头长度。可读/可写 LineArrowheadLengthaspose.slides/linearrowheadlength。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ilineformat/beginarrowheadlength/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilineformat/beginarrowheadlength/
 
 ## ILineFormat.BeginArrowheadLength 属性
 
-返回或设置线条开始处的箭头长度。可读写 [`LineArrowheadLength`](../../linearrowheadlength)。
+返回或设置线条起始处的箭头长度。可读/可写 [`LineArrowheadLength`](../../linearrowheadlength)。
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; set; }

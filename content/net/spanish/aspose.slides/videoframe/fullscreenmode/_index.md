@@ -1,7 +1,7 @@
 ---
 title: FullScreenMode
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si un video se muestra en modo de pantalla completa. Valor booleano de lectura/escritura.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Determina si un video se muestra en modo de pantalla completa. Booleano de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides/videoframe/fullscreenmode/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/videoframe/fullscreenmode/
 
 ## Propiedad VideoFrame.FullScreenMode
 
-Determina si un video se muestra en modo de pantalla completa. Valor booleano de lectura/escritura.
+Determina si un video se muestra en modo de pantalla completa. Booleano de lectura/escritura.
 
 ```csharp
 public bool FullScreenMode { get; set; }
 ```
 
-### Ver También
+### Ver también
 
 * clase [VideoFrame](../../videoframe)
 * espacio de nombres [Aspose.Slides](../../videoframe)

@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Foliengröße zurück oder legt ihn fest. Das Zuweisen eines Wertes außer benutzerdefiniert ändert Size../size entsprechend, hält jedoch Orientation../orientation intakt. Lesen/Schreiben SlideSizeTypeaspose.slides/slidesizetype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Typ der Foliengröße zurück oder legt ihn fest. Das Zuweisen eines Werts außer Custom wird die Size../size entsprechend ändern, aber die Orientation../orientation unverändert lassen. Lese-/Schreibzugriff auf SlideSizeTypeaspose.slides/slidesizetype.
 type: docs
 weight: 30
 url: /de/aspose.slides/slidesize/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/slidesize/type/
 
 ## SlideSize.Type-Eigenschaft
 
-Gibt den Typ der Foliengröße zurück oder legt ihn fest. Das Zuweisen eines Wertes außer benutzerdefiniert ändert [`Size`](../size) entsprechend, hält jedoch [`Orientation`](../orientation) intakt. Lesen/Schreiben [`SlideSizeType`](../../slidesizetype).
+Gibt den Typ der Foliengröße zurück oder legt ihn fest. Das Zuweisen eines Werts außer Custom wird die [`Size`](../size) entsprechend ändern, aber die [`Orientation`](../orientation) unverändert lassen. Lese-/Schreibzugriff auf [`SlideSizeType`](../../slidesizetype).
 
 ```csharp
 public SlideSizeType Type { get; }

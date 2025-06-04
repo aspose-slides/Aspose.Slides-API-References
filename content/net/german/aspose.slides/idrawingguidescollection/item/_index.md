@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Zeichenleitfaden nach Index zurück. Nur-Lese IDrawingGuideaspose.slides/idrawingguide.
+second_title: Aspose.Slides für .NET API Reference
+description: Gibt den Zeichenrichtungsführer anhand des Index zurück. Nur-Lese-IDrawingGuideaspose.slides/idrawingguide.
 type: docs
 weight: 20
 url: /de/aspose.slides/idrawingguidescollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/idrawingguidescollection/item/
 
 ## IDrawingGuidesCollection-Indexer
 
-Gibt den Zeichenleitfaden nach Index zurück. Nur-Lese [`IDrawingGuide`](../../idrawingguide).
+Gibt den Zeichenrichtungsführer anhand des Index zurück. Nur-Lese [`IDrawingGuide`](../../idrawingguide).
 
 ```csharp
 public IDrawingGuide this[int index] { get; }

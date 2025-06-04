@@ -1,7 +1,7 @@
 ---
 title: SplitByHeight
-second_title: Aspose.Sildes для .NET API Справочник
-description: Делит ячейку по высоте.
+second_title: Aspose.Slides для .NET API Справочник
+description: Разделяет ячейку по высоте.
 type: docs
 weight: 250
 url: /ru/aspose.slides/icell/splitbyheight/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icell/splitbyheight/
 
 ## ICell.SplitByHeight метод
 
-Делит ячейку по высоте.
+Разделяет ячейку по высоте.
 
 ```csharp
 public void SplitByHeight(double height)

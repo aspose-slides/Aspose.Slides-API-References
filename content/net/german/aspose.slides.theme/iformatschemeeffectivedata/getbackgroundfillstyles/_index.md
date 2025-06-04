@@ -1,6 +1,6 @@
 ---
 title: GetBackgroundFillStyles
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt eine Sammlung von themen-definierten Hintergrundfüllstilen zurück.
 type: docs
 weight: 10
@@ -15,9 +15,9 @@ Gibt eine Sammlung von themen-definierten Hintergrundfüllstilen zurück.
 public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleColor)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| styleColor | Color | Farbe |
+| Parameter    | Typ   | Beschreibung       |
+| ------------ | ----- | ------------------ |
+| styleColor   | Color | Farbfarbe          |
 
 ### Rückgabewert
 

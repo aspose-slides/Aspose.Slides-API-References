@@ -1,15 +1,15 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Index des angegebenen SummaryZoomSection-Objekts zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Index des angegebenen SummaryZoomSection Objekts zurück.
 type: docs
 weight: 100
 url: /de/aspose.slides/summaryzoomsectioncollection/indexof/
 ---
 
-## SummaryZoomSectionCollection.IndexOf-Methode
+## SummaryZoomSectionCollection.IndexOf Methode
 
-Gibt einen Index des angegebenen SummaryZoomSection-Objekts zurück.
+Gibt einen Index des angegebenen SummaryZoomSection Objekts zurück.
 
 ```csharp
 public int IndexOf(ISummaryZoomSection summaryZoomSection)
@@ -17,15 +17,15 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| summaryZoomSection | ISummaryZoomSection | Zusammenfassungs-Zoom-Abschnittsobjekt, das gefunden werden soll [`ISummaryZoomSection`](../../isummaryzoomsection). |
+| summaryZoomSection | ISummaryZoomSection | Zu findendes SummaryZoomSection Objekt [`ISummaryZoomSection`](../../isummaryzoomsection). |
 
 ### Rückgabewert
 
-Index eines SummaryZoomSection-Objekts oder -1, wenn das SummaryZoomSection-Objekt nicht in dieser Sammlung vorhanden ist.
+Index eines SummaryZoomSection Objekts oder -1, wenn das SummaryZoomSection Objekt nicht aus dieser Sammlung stammt.
 
 ### Beispiele
 
-Das Beispiel demonstriert, wie man das Summary Zoom Section-Element anhand des Indexes erhält:
+Das Beispiel demonstriert das Abrufen eines Summary Zoom Section Elements nach Index:
 
 ```csharp
 [C#]
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISummaryZoomSection](../../isummaryzoomsection)
 * Klasse [SummaryZoomSectionCollection](../../summaryzoomsectioncollection)

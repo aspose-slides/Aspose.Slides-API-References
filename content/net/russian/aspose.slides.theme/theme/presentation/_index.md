@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает родительскую презентацию. Только для чтения IPresentationaspose.slides/ipresentation.
+second_title: Aspose.Sildes for .NET API Reference
+description: Возвращает родительскую презентацию. Только для чтения IPresentation aspose.slides/ipresentation.
 type: docs
 weight: 40
 url: /ru/aspose.slides.theme/theme/presentation/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/theme/presentation/
 public IPresentation Presentation { get; }
 ```
 
-### См. также
+### Также смотри
 
 * интерфейс [IPresentation](../../../aspose.slides/ipresentation)
 * класс [Theme](../../theme)

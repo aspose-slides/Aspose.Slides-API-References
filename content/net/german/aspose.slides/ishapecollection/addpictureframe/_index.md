@@ -1,6 +1,6 @@
 ---
 title: AddPictureFrame
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt ein neues PictureFrame und fügt es am Ende der Sammlung hinzu.
 type: docs
 weight: 130
@@ -18,21 +18,21 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| shapeType | ShapeType | Die Form, die in der Menge [`ShapeType`](../../shapetype) von Formen enthalten ist, mit Ausnahme aller Arten von Linien: |
-| x | Single | Die X-Koordinate für eine linke Seite des Rahmens der Form. |
-| y | Single | Die Y-Koordinate für eine obere Seite des Rahmens der Form. |
-| width | Single | Die Breite des Rahmens der Form. |
-| height | Single | Die Höhe des Rahmens der Form. |
+| shapeType | ShapeType | Die Form, die in der Menge [`ShapeType`](../../shapetype) der Formen enthalten ist, außer allen Arten von Linien: |
+| x | Einzel | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Einzel | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Einzel | Die Breite des Rahmens der Form. |
+| height | Einzel | Die Höhe des Rahmens der Form. |
 | image | IPPImage | Das Bild des PictureFrames. |
 
 ### Rückgabewert
 
-Das erstellte PictureFrame-Objekt.
+Erstellt das PictureFrame-Objekt.
 
 ### Siehe auch
 
 * Schnittstelle [IPictureFrame](../../ipictureframe)
-* Aufzählung [ShapeType](../../shapetype)
+* Enum [ShapeType](../../shapetype)
 * Schnittstelle [IPPImage](../../ippimage)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Namespace [Aspose.Slides](../../ishapecollection)

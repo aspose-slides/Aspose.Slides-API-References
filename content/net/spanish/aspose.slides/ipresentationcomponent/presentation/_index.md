@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/ipresentationcomponent/presentation/
 ---
 
-## Propiedad IPresentationComponent.Presentation
+## IPresentationComponent.Property de Presentación
 
 Devuelve la presentación. Solo lectura [`IPresentation`](../../ipresentation).
 

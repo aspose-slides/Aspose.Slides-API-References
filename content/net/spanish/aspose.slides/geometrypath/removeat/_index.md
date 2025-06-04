@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Elimina el segmento en el índice especificado de la ruta geométrica.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Elimina el segmento en el índice especificado del camino de geometría.
 type: docs
 weight: 110
 url: /es/aspose.slides/geometrypath/removeat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/geometrypath/removeat/
 
 ## Método GeometryPath.RemoveAt
 
-Elimina el segmento en el índice especificado de la ruta geométrica.
+Elimina el segmento en el índice especificado del camino de geometría.
 
 ```csharp
 public void RemoveAt(int index)

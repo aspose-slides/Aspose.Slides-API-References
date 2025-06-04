@@ -1,13 +1,13 @@
 ---
 title: Color2
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Возвращает целевой цветовой формат для светлых пикселей. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /ru/aspose.slides.effects/duotone/color2/
 ---
 
-## Свойство Duotone.Color2
+## Duotone.Color2 свойство
 
 Возвращает целевой цветовой формат для светлых пикселей. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 

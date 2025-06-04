@@ -1,13 +1,13 @@
 ---
 title: OuterShadowEffect
-second_title: Referencia de la API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Sombra externa. Solo lectura IOuterShadowEffectiveDataaspose.slides.effects/ioutershadoweffectivedata.
 type: docs
 weight: 70
 url: /es/aspose.slides/ieffectformateffectivedata/outershadoweffect/
 ---
 
-## Propiedad IEffectFormatEffectiveData.OuterShadowEffect
+## IEffectFormatEffectiveData.OuterShadowEffect propiedad
 
 Sombra externa. Solo lectura [`IOuterShadowEffectiveData`](../../../aspose.slides.effects/ioutershadoweffectivedata).
 
@@ -15,11 +15,11 @@ Sombra externa. Solo lectura [`IOuterShadowEffectiveData`](../../../aspose.slide
 public IOuterShadowEffectiveData OuterShadowEffect { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IOuterShadowEffectiveData](../../../aspose.slides.effects/ioutershadoweffectivedata)
 * interfaz [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ieffectformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

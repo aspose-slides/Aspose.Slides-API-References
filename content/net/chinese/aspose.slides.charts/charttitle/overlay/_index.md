@@ -1,13 +1,13 @@
 ---
 title: Overlay
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定是否允许其他图表元素与标题重叠。可读写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/charttitle/overlay/
 ---
 
-## ChartTitle.Overlay 属性
+## ChartTitle.Overlay property
 
 确定是否允许其他图表元素与标题重叠。可读写布尔值。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/charttitle/overlay/
 public bool Overlay { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [ChartTitle](../../charttitle)
 * namespace [Aspose.Slides.Charts](../../charttitle)

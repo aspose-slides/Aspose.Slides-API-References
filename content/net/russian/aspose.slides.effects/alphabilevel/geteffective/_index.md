@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает эффективные данные эффекта Alpha Bi-Level с применением наследования.
+second_title: Aspose.Sildes для .NET API Справка
+description: Получает эффективные данные эффекта Alpha Bi-Level с примененным наследованием.
 type: docs
 weight: 30
 url: /ru/aspose.slides.effects/alphabilevel/geteffective/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/alphabilevel/geteffective/
 
 ## AlphaBiLevel.GetEffective метод
 
-Получает эффективные данные эффекта Alpha Bi-Level с применением наследования.
+Получает эффективные данные эффекта Alpha Bi-Level с примененным наследованием.
 
 ```csharp
 public IAlphaBiLevelEffectiveData GetEffective()

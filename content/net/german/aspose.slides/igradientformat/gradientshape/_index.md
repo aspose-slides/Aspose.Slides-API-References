@@ -1,7 +1,7 @@
 ---
 title: GradientShape
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Form eines Gradienten zurück oder legt sie fest. Lesen/Schreiben von GradientShape aspose.slides/gradientshape.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Form eines Farbverlaufs zurück oder setzt sie. Lese-/Schreibzugriff auf GradientShapeaspose.slides/gradientshape.
 type: docs
 weight: 30
 url: /de/aspose.slides/igradientformat/gradientshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igradientformat/gradientshape/
 
 ## IGradientFormat.GradientShape-Eigenschaft
 
-Gibt die Form eines Gradienten zurück oder legt sie fest. Lesen/Schreiben von [`GradientShape`](../../gradientshape).
+Gibt die Form eines Farbverlaufs zurück oder setzt sie. Lese-/Schreibzugriff auf [`GradientShape`](../../gradientshape).
 
 ```csharp
 public GradientShape GradientShape { get; set; }

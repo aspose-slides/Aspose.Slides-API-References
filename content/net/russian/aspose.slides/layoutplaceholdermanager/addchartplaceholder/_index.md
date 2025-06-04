@@ -1,15 +1,15 @@
 ---
 title: AddChartPlaceholder
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Добавляет новую фигуру-заполнитель на слайд макета для удержания диаграммы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Добавляет новую плоскость-заместитель в слайд макета для размещения диаграммы.
 type: docs
 weight: 10
 url: /ru/aspose.slides/layoutplaceholdermanager/addchartplaceholder/
 ---
 
-## Метод LayoutPlaceholderManager.AddChartPlaceholder
+## LayoutPlaceholderManager.AddChartPlaceholder метод
 
-Добавляет новую фигуру-заполнитель на слайд макета для удержания диаграммы.
+Добавляет новую плоскость-заместитель в слайд макета для размещения диаграммы.
 
 ```csharp
 public IAutoShape AddChartPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddChartPlaceholder(float x, float y, float width, float heigh
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата новой фигуры-заполнителя. |
-| y | Single | Y-координата новой фигуры-заполнителя. |
-| width | Single | Ширина новой фигуры-заполнителя. |
-| height | Single | Высота новой фигуры-заполнителя. |
+| x | Single | Координата X новой плоскости-заместителя. |
+| y | Single | Координата Y новой плоскости-заместителя. |
+| width | Single | Ширина новой плоскости-заместителя. |
+| height | Single | Высота новой плоскости-заместителя. |
 
 ### Возвращаемое значение
 
-Созданный [`IAutoShape`](../../iautoshape) с заполнителем диаграммы.
+Созданный [`IAutoShape`](../../iautoshape) с плоскостью-заместителем для диаграммы.
 
 ### Примеры
 
-Следующий пример демонстрирует, как добавить фигуру-заполнитель диаграммы на слайд макета.
+Следующий пример демонстрирует, как добавить плоскость-заместитель для диаграммы в слайд макета.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IAutoShape](../../iautoshape)
 * класс [LayoutPlaceholderManager](../../layoutplaceholdermanager)

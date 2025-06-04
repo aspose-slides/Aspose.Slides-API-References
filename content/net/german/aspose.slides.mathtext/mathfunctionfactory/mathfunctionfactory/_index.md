@@ -1,13 +1,13 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Der Standardkonstruktor.
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathfunctionfactory/mathfunctionfactory/
 ---
 
-## MathFunctionFactory Konstruktor
+## MathFunctionFactory-Konstruktor
 
 Der Standardkonstruktor.
 

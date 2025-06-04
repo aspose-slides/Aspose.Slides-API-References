@@ -15,10 +15,10 @@ Determina si mover esta forma está prohibido. Booleano de lectura/escritura.
 public bool PositionMove { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [ConnectorLock](../../connectorlock)
 * espacio de nombres [Aspose.Slides](../../connectorlock)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

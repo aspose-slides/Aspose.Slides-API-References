@@ -19,11 +19,11 @@ public enum ResourceLoadingAction
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | Aspose.Slides 将照常加载外部资源。 |
-| Skip | `1` | Aspose.Slides 将跳过加载外部资源。仅会为图像存储没有数据的链接。 |
+| Default | `0` | Aspose.Slides 将按照 usual 方式加载外部资源。 |
+| Skip | `1` | Aspose.Slides 将跳过外部资源的加载。图像仅会存储无数据的链接。 |
 | UserProvided | `2` | Aspose.Slides 将使用用户在 [`SetData`](../iresourceloadingargs/setdata) 中提供的字节数组作为图像数据。 |
 
-### 另请参阅
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

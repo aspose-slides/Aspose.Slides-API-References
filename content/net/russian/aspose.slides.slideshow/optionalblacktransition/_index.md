@@ -1,7 +1,7 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Sildes для .NET API справочник
-description: Опциональный эффект перехода на черный слайд.
+second_title: Aspose.Sildes для .NET API Reference
+description: Необязательный эффект перехода на черный слайд.
 type: docs
 weight: 9950
 url: /ru/aspose.slides.slideshow/optionalblacktransition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/optionalblacktransition/
 
 ## Класс OptionalBlackTransition
 
-Опциональный эффект перехода на черный слайд.
+Необязательный эффект перехода на черный слайд.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -19,16 +19,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Имя | Описание |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, начнется ли переход с черного экрана (а затем будет выполнен переход к новому слайду на черном фоне). Чтение/запись Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (а затем переходить к новому слайду поверх черного). Читаемая/записываемая логическая переменная. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для данного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица. |
 
-### Также см.
+### См. также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [IOptionalBlackTransition](../ioptionalblacktransition)

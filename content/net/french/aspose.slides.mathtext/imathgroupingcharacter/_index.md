@@ -1,6 +1,6 @@
 ---
 title: IMathGroupingCharacter
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Spécifie un symbole de regroupement au-dessus ou en dessous d'une expression, généralement pour mettre en évidence la relation entre les éléments
 type: docs
 weight: 8040
@@ -21,20 +21,20 @@ public interface IMathGroupingCharacter : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Argument de base |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Symbole de regroupement Valeur par défaut : U+23DF (ACCOLADE INFERIEURE) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Position du symbole de regroupement. Par défaut : Bas |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Justification verticale du symbole de regroupement. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le symbole de regroupement est au-dessus de l'objet, VerticalJustification de Haut signifie que le haut de l'objet se situe sur la ligne de base ; lorsque VerticalJustification est réglé sur Bas, le bas de l'objet est sur la ligne de base. Valeur par défaut : Bas pour Position=Haut, et Haut pour Position=Bas |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Caractère de regroupement Valeur par défaut : U+23DF (ACCOLADE COURBE INFÉRIEURE) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Position du caractère de regroupement. Par défaut : Bas |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Justification verticale du caractère de groupe. Spécifie l'alignement de l'objet par rapport à la ligne de base. Par exemple, lorsque le caractère de groupe est au-dessus de l'objet, la justification verticale de Haut signifie que le haut de l'objet tombe sur la ligne de base ; lorsque la justification verticale est définie sur Bas, le bas de l'objet est sur la ligne de base. Par défaut : Bas pour Position=Haut, et Haut pour Position=Bas |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

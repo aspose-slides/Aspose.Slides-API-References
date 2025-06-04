@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有项。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除所有项。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icustomxmlpartcollection/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icustomxmlpartcollection/clear/
 
 ## ICustomXmlPartCollection.Clear 方法
 
-从集合中移除所有项。
+从集合中删除所有项。
 
 ```csharp
 public void Clear()
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * 命名空间 [Aspose.Slides](../../icustomxmlpartcollection)

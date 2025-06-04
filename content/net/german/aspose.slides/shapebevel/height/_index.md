@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fasenhöhe. Lese-/Schreib-Doppel.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fasenhöhe. Lese-/Schreib Double.
 type: docs
 weight: 30
 url: /de/aspose.slides/shapebevel/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/shapebevel/height/
 
 ## ShapeBevel.Height-Eigenschaft
 
-Fasenhöhe. Lese-/Schreib-Doppel.
+Fasenhöhe. Lese-/Schreib Double.
 
 ```csharp
 public double Height { get; set; }

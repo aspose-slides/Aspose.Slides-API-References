@@ -1,7 +1,7 @@
 ---
 title: MinorGridLinesFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 表示图表坐标轴上的次要网格线格式。只读 IChartLinesFormataspose.slides.charts/ichartlinesformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示图表轴上的次要网格线格式。只读 IChartLinesFormataspose.slides.charts/ichartlinesformat。
 type: docs
 weight: 390
 url: /zh/aspose.slides.charts/axis/minorgridlinesformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/axis/minorgridlinesformat/
 
 ## Axis.MinorGridLinesFormat 属性
 
-表示图表坐标轴上的次要网格线格式。只读 [`IChartLinesFormat`](../../ichartlinesformat)。
+表示图表轴上的次要网格线格式。只读 [`IChartLinesFormat`](../../ichartlinesformat)。
 
 ```csharp
 public IChartLinesFormat MinorGridLinesFormat { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IChartLinesFormat](../../ichartlinesformat)
 * 类 [Axis](../../axis)

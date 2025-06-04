@@ -1,7 +1,7 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die nullbasierten Positionen des Knotens unter Geschwisterknoten zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die nullbasierten Position des Knotens unter Geschwisterknoten zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 70
 url: /de/aspose.slides.smartart/ismartartnode/position/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.smartart/ismartartnode/position/
 
 ## ISmartArtNode.Position-Eigenschaft
 
-Gibt die nullbasierten Positionen des Knotens unter Geschwisterknoten zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+Gibt die nullbasierten Position des Knotens unter Geschwisterknoten zurück oder setzt sie. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int Position { get; set; }
@@ -19,9 +19,9 @@ public int Position { get; set; }
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentOutOfRangeException | Wert ist kleiner als 0. -oder- Wert ist gleich oder größer als die Anzahl der Geschwister. |
+| ArgumentOutOfRangeException | Der Wert ist kleiner als 0. -oder- der Wert ist gleich oder größer als die Anzahl der Geschwister. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ISmartArtNode](../../ismartartnode)
 * Namespace [Aspose.Slides.SmartArt](../../ismartartnode)

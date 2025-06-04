@@ -1,15 +1,15 @@
 ---
 title: ShowAnimation
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Показать анимацию в слайд-шоу
+second_title: Aspose.Slides для .NET API Reference
+description: Показать Анимацию в Слайд Шоу
 type: docs
 weight: 30
 url: /ru/aspose.slides/slideshowsettings/showanimation/
 ---
 
-## Свойство SlideShowSettings.ShowAnimation
+## SlideShowSettings.ShowAnimation свойство
 
-Показать анимацию в слайд-шоу
+Показать Анимацию в Слайд Шоу
 
 ```csharp
 public bool ShowAnimation { get; set; }

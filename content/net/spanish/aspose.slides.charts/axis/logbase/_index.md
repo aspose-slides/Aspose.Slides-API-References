@@ -1,7 +1,7 @@
 ---
 title: LogBase
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa la base logarítmica. El valor predeterminado es 10. Lectura/escritura Double.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa la base logarítmica. El valor por defecto es 10. Lectura/escritura Double.
 type: docs
 weight: 330
 url: /es/aspose.slides.charts/axis/logbase/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/axis/logbase/
 
 ## Propiedad Axis.LogBase
 
-Representa la base logarítmica. El valor predeterminado es 10. Lectura/escritura Double.
+Representa la base logarítmica. El valor por defecto es 10. Lectura/escritura Double.
 
 ```csharp
 public double LogBase { get; set; }
@@ -19,6 +19,6 @@ public double LogBase { get; set; }
 
 * clase [Axis](../../axis)
 * espacio de nombres [Aspose.Slides.Charts](../../axis)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

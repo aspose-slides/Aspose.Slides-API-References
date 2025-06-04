@@ -1,13 +1,13 @@
 ---
 title: X
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает смещение X изображения. Только для чтения Int32.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ippimage/x/
 ---
 
-## Свойство IPPImage.X
+## IPPImage.X свойство
 
 Возвращает смещение X изображения. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ippimage/x/
 public int X { get; }
 ```
 
-### См. также
+### Смотрите Также
 
 * интерфейс [IPPImage](../../ippimage)
 * пространство имен [Aspose.Slides](../../ippimage)

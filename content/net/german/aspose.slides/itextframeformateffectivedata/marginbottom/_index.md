@@ -1,6 +1,6 @@
 ---
 title: MarginBottom
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die unteren Randpunkte in einem TextFrame zurück. Nur lesbar Double.
 type: docs
 weight: 60

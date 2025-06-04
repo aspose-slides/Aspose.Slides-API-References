@@ -1,6 +1,6 @@
 ---
 title: TabFactory
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/tabfactory/tabfactory/
 public TabFactory()
 ```
 
-### Смотрите также
+### См. также
 
 * класс [TabFactory](../../tabfactory)
 * пространство имен [Aspose.Slides](../../tabfactory)

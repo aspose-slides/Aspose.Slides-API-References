@@ -1,15 +1,15 @@
 ---
 title: ShadowColor2
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die 'shadow.color2' Eigenschaft dar
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Eigenschaft shadow.color2 dar
 type: docs
 weight: 610
 url: /de/aspose.slides.animation/behaviorproperty/shadowcolor2/
 ---
 
-## BehaviorProperty.ShadowColor2 Eigenschaft
+## BehaviorProperty.ShadowColor2-Eigenschaft
 
-Stellt die 'shadow.color2' Eigenschaft dar
+Stellt die 'shadow.color2'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ShadowColor2 { get; }

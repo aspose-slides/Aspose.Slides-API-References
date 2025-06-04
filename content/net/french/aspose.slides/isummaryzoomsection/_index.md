@@ -1,6 +1,6 @@
 ---
 title: ISummaryZoomSection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente un objet de section de zoom résumée dans un cadre de zoom résumée.
 type: docs
 weight: 6940
@@ -19,9 +19,9 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | Nom | Description |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Renvoie l'interface ISectionZoomFrame. |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Renvoie la description textuelle de l'objet de section de zoom résumée. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Renvoie le titre textuel de l'objet de section de zoom résumée. |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Retourne l'interface ISectionZoomFrame. |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Retourne la description textuelle de l'objet de section de zoom résumée. |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Retourne le titre textuel de l'objet de section de zoom résumée. |
 
 ### Voir aussi
 

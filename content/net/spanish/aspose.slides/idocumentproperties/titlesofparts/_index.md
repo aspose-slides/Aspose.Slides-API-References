@@ -7,18 +7,18 @@ weight: 330
 url: /es/aspose.slides/idocumentproperties/titlesofparts/
 ---
 
-## Propiedad IDocumentProperties.TitlesOfParts
+## IDocumentProperties.TitlesOfParts property
 
-Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. string[] de solo lectura.
+Especifica el título de cada parte del documento. Estas partes no son partes del documento, sino representaciones conceptuales de secciones del documento. Cadena de solo lectura string[].
 
 ```csharp
 public string[] TitlesOfParts { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

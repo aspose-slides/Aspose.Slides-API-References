@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides.animation/isequence/item/
 ---
 
-## Indexador de ISequence
+## ISequence indexer
 
 Devuelve un efecto en el índice especificado.
 
@@ -19,11 +19,11 @@ public IEffect this[int index] { get; }
 | --- | --- |
 | index | Índice |
 
-### Vea También
+### Ver también
 
-* interfaz [IEffect](../../ieffect)
-* interfaz [ISequence](../../isequence)
-* espacio de nombres [Aspose.Slides.Animation](../../isequence)
-* ensamblado [Aspose.Slides](../../../)
+* interface [IEffect](../../ieffect)
+* interface [ISequence](../../isequence)
+* namespace [Aspose.Slides.Animation](../../isequence)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

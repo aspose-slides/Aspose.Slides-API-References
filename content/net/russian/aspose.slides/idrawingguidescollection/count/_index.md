@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slides для .NET
 description: Получает количество всех элементов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/idrawingguidescollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IDrawingGuidesCollection](../../idrawingguidescollection)
 * пространство имен [Aspose.Slides](../../idrawingguidescollection)

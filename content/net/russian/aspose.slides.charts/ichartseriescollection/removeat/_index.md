@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет элемент по указанному индексу
 type: docs
 weight: 70
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Индекс Int32 |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChartSeriesCollection](../../ichartseriescollection)
 * пространство имен [Aspose.Slides.Charts](../../ichartseriescollection)

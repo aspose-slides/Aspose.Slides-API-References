@@ -7,7 +7,7 @@ weight: 8300
 url: /fr/aspose.slides.mathtext/matharrayfactory/
 ---
 
-## Classe MathArrayFactory
+## MathArrayFactory class
 
 Permet de créer un tableau mathématique
 
@@ -15,24 +15,24 @@ Permet de créer un tableau mathématique
 public class MathArrayFactory : IMathArrayFactory
 ```
 
-## Constructeurs
+## Constructors
 
 | Nom | Description |
 | --- | --- |
 | [MathArrayFactory](matharrayfactory)() | Le constructeur par défaut. |
 
-## Méthodes
+## Methods
 
 | Nom | Description |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Crée un tableau mathématique et place l'élément spécifié dedans |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Crée un tableau mathématique et place les éléments spécifiés dedans |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Crée un tableau mathématique et place l'élément spécifié à l'intérieur |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Crée un tableau mathématique et place les éléments spécifiés à l'intérieur |
 
-### Remarques
+### Remarks
 
 Pour la compatibilité COM
 
-### Voir aussi
+### See Also
 
 * interface [IMathArrayFactory](../imatharrayfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет ссылку на библиотеку типов OLE Automation.
 type: docs
 weight: 11380
@@ -25,10 +25,10 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | Имя | Описание |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов Automation. Чтение/запись строка. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/запись строка. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов Automation. Читаемый/записываемый String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Представляет имя ссылки на проект VBA. Читаемый/записываемый String. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IVbaReferenceOleTypeLib](../ivbareferenceoletypelib)
 * пространство имен [Aspose.Slides.Vba](../../aspose.slides.vba)

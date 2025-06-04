@@ -1,7 +1,7 @@
 ---
 title: ChartTitle
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表标题。只读 IChartTitleaspose.slides/icharttitle。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置图表标题。只读 IChartTitleaspose.slides.charts/icharttitle。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/chart/charttitle/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chart/charttitle/
 public IChartTitle ChartTitle { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IChartTitle](../../icharttitle)
 * 类 [Chart](../../chart)

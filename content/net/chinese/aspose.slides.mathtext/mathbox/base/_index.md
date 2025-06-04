@@ -1,7 +1,7 @@
 ---
 title: Base
-second_title: Aspose.Slides for .NET API 参考
-description: 基础参数
+second_title: Aspose.Sildes for .NET API Reference
+description: Base argument
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/mathbox/base/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbox/base/
 
 ## MathBox.Base 属性
 
-基础参数
+Base 参数
 
 ```csharp
 public IMathElement Base { get; }
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ MathBox box = new MathBox(new MathematicalText("=="));
 IMathElement base = box.Base;
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBox](../../mathbox)

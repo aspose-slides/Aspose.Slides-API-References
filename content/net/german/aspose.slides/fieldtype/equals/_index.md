@@ -1,15 +1,15 @@
 ---
 title: Equals
 second_title: Aspose.Slides für .NET API-Referenz
-description: Überprüft, ob dieses Feld einem anderen entspricht.
+description: Überprüft, ob dieses Feld gleich einem anderen ist.
 type: docs
 weight: 200
 url: /de/aspose.slides/fieldtype/equals/
 ---
 
-## FieldType.Equals-Methode
+## FieldType.Equals Methode
 
-Überprüft, ob dieses Feld einem anderen entspricht.
+Überprüft, ob dieses Feld gleich einem anderen ist.
 
 ```csharp
 public override bool Equals(object obj)

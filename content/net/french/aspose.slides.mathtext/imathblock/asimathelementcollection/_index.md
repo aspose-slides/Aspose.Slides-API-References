@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IMathElementCollection [`IMathElementCollec
 public IMathElementCollection AsIMathElementCollection { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElementCollection](../../imathelementcollection)
 * interface [IMathBlock](../../imathblock)

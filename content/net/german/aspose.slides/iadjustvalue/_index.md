@@ -20,9 +20,9 @@ public interface IAdjustValue
 | Name | Beschreibung |
 | --- | --- |
 | [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Gibt den Wert zurück oder setzt ihn, indem er als Winkel in Grad interpretiert wird. Lese-/Schreibzugriff auf Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Gibt den Namen dieses Anpassungswerts zurück. Nur-Lese-String. |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Gibt den Namen dieses Anpassungswerts zurück. Schreibgeschützter String. |
 | [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Gibt den Anpassungswert "wie er ist" zurück oder setzt ihn. Lese-/Schreibzugriff auf Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Gibt den Typ der Formanpassung zurück. Nur-Lese- [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Gibt den Typ der Formanpassung zurück. Schreibgeschützter [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Siehe auch
 

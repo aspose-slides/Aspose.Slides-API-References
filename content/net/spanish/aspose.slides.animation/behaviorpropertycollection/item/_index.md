@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve una propiedad en el índice especificado.
 type: docs
 weight: 30
 url: /es/aspose.slides.animation/behaviorpropertycollection/item/
 ---
 
-## Indexador de BehaviorPropertyCollection
+## Comportamiento de la colección de propiedades BehaviorPropertyCollection indexer
 
 Devuelve una propiedad en el índice especificado.
 
@@ -19,15 +19,15 @@ public IBehaviorProperty this[int index] { get; set; }
 | --- | --- |
 | index | Índice de una propiedad a devolver. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Propiedad de comportamiento de animación.
 
-### Véase También
+### Véase también
 
-* interface [IBehaviorProperty](../../ibehaviorproperty)
-* class [BehaviorPropertyCollection](../../behaviorpropertycollection)
-* namespace [Aspose.Slides.Animation](../../behaviorpropertycollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IBehaviorProperty](../../ibehaviorproperty)
+* clase [BehaviorPropertyCollection](../../behaviorpropertycollection)
+* espacio de nombres [Aspose.Slides.Animation](../../behaviorpropertycollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: DeletePicturesCroppedAreas
 second_title: Aspose.Slides für .NET API Referenz
-description: Eine boolesche Flagge zeigt an, ob die beschnittenen Teile Teil des Dokuments bleiben. Wenn true, werden die beschnittenen Teile entfernt; wenn false, werden sie im Dokument serialisiert, was möglicherweise zu einer größeren Datei führen kann. Lese-/Schreib-Boolescher Wert.
+description: Eine boolesche Flagge zeigt an, ob die beschnittenen Teile als Teil des Dokuments verbleiben. Wenn wahr, werden die beschnittenen Teile entfernt, wenn falsch, werden sie im Dokument serialisiert was möglicherweise zu einer größeren Datei führen kann Lese-/Schreib-Boolesch.
 type: docs
 weight: 20
 url: /de/aspose.slides.export/isvgoptions/deletepicturescroppedareas/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.export/isvgoptions/deletepicturescroppedareas/
 
 ## ISVGOptions.DeletePicturesCroppedAreas-Eigenschaft
 
-Eine boolesche Flagge zeigt an, ob die beschnittenen Teile Teil des Dokuments bleiben. Wenn true, werden die beschnittenen Teile entfernt; wenn false, werden sie im Dokument serialisiert (was möglicherweise zu einer größeren Datei führen kann). Lese-/Schreib-Boolescher Wert.
+Eine boolesche Flagge zeigt an, ob die beschnittenen Teile als Teil des Dokuments verbleiben. Wenn wahr, werden die beschnittenen Teile entfernt, wenn falsch, werden sie im Dokument serialisiert (was möglicherweise zu einer größeren Datei führen kann) Lese-/Schreib-Boolesch.
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISVGOptions](../../isvgoptions)
 * Namespace [Aspose.Slides.Export](../../isvgoptions)

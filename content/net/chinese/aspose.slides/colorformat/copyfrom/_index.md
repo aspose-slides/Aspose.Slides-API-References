@@ -1,7 +1,7 @@
 ---
 title: CopyFrom
-second_title: Aspose.Slides for .NET API 参考
-description: 从颜色复制颜色格式。
+second_title: Aspose.Slides for .NET API Reference
+description: 从颜色中复制颜色格式。
 type: docs
 weight: 160
 url: /zh/aspose.slides/colorformat/copyfrom/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/colorformat/copyfrom/
 
 ## ColorFormat.CopyFrom 方法
 
-从“颜色”复制颜色格式。
+从“颜色”中复制颜色格式。
 
 ```csharp
 public void CopyFrom(IColorFormat color)
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IColorFormat](../../icolorformat)
 * 类 [ColorFormat](../../colorformat)

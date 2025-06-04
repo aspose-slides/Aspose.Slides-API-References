@@ -19,9 +19,9 @@ public interface ICommonSlideViewProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Gibt die Sammlung der Zeichenhilfen zurück. Nur-lesend [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Gibt das Verhältnis der Ansichtsvergrößerung in Prozent an. Lese-/Schreibzugriff Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Gibt an, dass der Inhalt der Ansicht automatisch skaliert werden soll, um optimal in die aktuelle Fenstergröße zu passen. Lese-/Schreibzugriff Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Gibt die Sammlung der Zeichenhilfen zurück. Nur lesbar [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Gibt das Skalierungsverhältnis der Ansicht in Prozent an. Lese-/Schreibzugriff Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Gibt an, dass der Inhalt der Ansicht automatisch skaliert werden soll, um die aktuelle Fenstergröße optimal anzupassen. Lese-/Schreibzugriff Boolean. |
 
 ### Siehe auch
 

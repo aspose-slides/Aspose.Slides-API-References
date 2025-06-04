@@ -21,7 +21,7 @@ public sealed class SvgTSpan : ISvgTSpan
 | --- | --- |
 | [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Obtient l'id de l'élément "tspan" |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISvgTSpan](../isvgtspan)
 * espace de noms [Aspose.Slides.Export](../../aspose.slides.export)

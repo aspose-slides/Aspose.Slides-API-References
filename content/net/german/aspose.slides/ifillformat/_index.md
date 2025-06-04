@@ -1,7 +1,7 @@
 ---
 title: IFillFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt Optionen für die Füllformatierung dar.
+description: Stellt eine Füllformatierungsoption dar.
 type: docs
 weight: 5590
 url: /de/aspose.slides/ifillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifillformat/
 
 ## IFillFormat-Schnittstelle
 
-Stellt Optionen für die Füllformatierung dar.
+Stellt eine Füllformatierungsoption dar.
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -20,18 +20,18 @@ public interface IFillFormat : IFillParamSource
 | Name | Beschreibung |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Ermöglicht den Zugriff auf die Basis-IFillParamSource-Schnittstelle. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Gibt den Typ der Füllung zurück oder legt ihn fest. Lese-/Schreibzugriff [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Gibt das Füllformat für den Verlauf zurück. Nur lesbar [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Gibt das Füllformat für das Muster zurück. Nur lesbar [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Gibt das Füllformat für das Bild zurück. Nur lesbar [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit der Form rotiert werden soll. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
+| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Gibt den Typ der Füllung zurück oder setzt ihn. Lese-/Schreibzugriff [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Gibt das Gradient-fill-Format zurück. Nur lesbar [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Gibt das Pattern-fill-Format zurück. Nur lesbar [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Gibt das Picture-fill-Format zurück. Nur lesbar [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Bestimmt, ob die Füllung mit der Form gedreht werden soll. Lese-/Schreibzugriff [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Gibt die Füllfarbe zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Ruft die effektiven Daten zur Füllformatierung mit angewendeter Vererbung ab. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Ruft die effektiven Füllformatierungsdaten mit angewendeter Vererbung ab. |
 
 ### Siehe auch
 

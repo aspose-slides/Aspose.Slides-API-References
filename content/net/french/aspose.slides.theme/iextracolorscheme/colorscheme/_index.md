@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.theme/iextracolorscheme/colorscheme/
 ---
 
-## Propriété IExtraColorScheme.ColorScheme
+## IExtraColorScheme.ColorScheme property
 
 Renvoie un schéma de couleurs. Lecture seule [`IColorScheme`](../../icolorscheme).
 
@@ -15,7 +15,7 @@ Renvoie un schéma de couleurs. Lecture seule [`IColorScheme`](../../icolorschem
 public IColorScheme ColorScheme { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorScheme](../../icolorscheme)
 * interface [IExtraColorScheme](../../iextracolorscheme)

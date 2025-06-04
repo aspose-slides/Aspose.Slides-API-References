@@ -1,6 +1,6 @@
 ---
 title: Insert
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Вставляет абзац в коллекцию по указанному индексу.
 type: docs
 weight: 120
@@ -17,7 +17,7 @@ public void Insert(int index, IParagraph value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основывающийся на нуле, по которому абзац должен быть вставлен. |
+| index | Int32 | Индекс с нуля, по которому абзац должен быть вставлен. |
 | value | IParagraph | Абзац для вставки. |
 
 ### См. также
@@ -39,7 +39,7 @@ public void Insert(int index, IParagraphCollection value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основывающийся на нуле, по которому абзацы должны быть вставлены. |
+| index | Int32 | Индекс с нуля, по которому абзацы должны быть вставлены. |
 | value | IParagraphCollection | Абзацы для вставки. |
 
 ### См. также

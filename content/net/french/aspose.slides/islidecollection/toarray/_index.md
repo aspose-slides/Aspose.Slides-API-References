@@ -1,6 +1,6 @@
 ---
 title: ToArray
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée et retourne un tableau contenant toutes les diapositives.
 type: docs
 weight: 130
@@ -15,11 +15,11 @@ Crée et retourne un tableau contenant toutes les diapositives.
 public ISlide[] ToArray()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Tableau de [`ISlide`](../../islide)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)
@@ -30,7 +30,7 @@ Tableau de [`ISlide`](../../islide)
 
 ## ToArray(int, int) {#toarray_1}
 
-Crée et retourne un tableau contenant toutes les diapositives du segment spécifié.
+Crée et retourne un tableau contenant toutes les diapositives de la plage spécifiée.
 
 ```csharp
 public ISlide[] ToArray(int startIndex, int count)
@@ -41,11 +41,11 @@ public ISlide[] ToArray(int startIndex, int count)
 | startIndex | Int32 | Un index de la première diapositive à ajouter. |
 | count | Int32 | Un nombre de diapositives à ajouter. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Tableau de [`ISlide`](../../islide)
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * interface [ISlideCollection](../../islidecollection)

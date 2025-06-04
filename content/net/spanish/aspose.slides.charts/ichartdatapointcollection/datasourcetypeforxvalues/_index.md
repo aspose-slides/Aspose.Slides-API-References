@@ -1,21 +1,21 @@
 ---
 title: DataSourceTypeForXValues
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica si la propiedad AsCell o AsLiteralString o AsLiteralDouble es válida en el objeto de propiedad XValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPointEx.XValue.Data. Propiedad de lectura/escritura DataSourceTypeaspose.slides/datasourcetype.
+description: Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es válida en el objeto de propiedad XValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPointEx.XValue.Data. Propiedad de lectura/escritura DataSourceTypeaspose.slides/datasourcetype.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforxvalues/
 ---
 
-## Propiedad IChartDataPointCollection.DataSourceTypeForXValues
+## IChartDataPointCollection.DataSourceTypeForXValues property
 
-Especifica si la propiedad AsCell o AsLiteralString o AsLiteralDouble es válida en el objeto de propiedad XValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPointEx.XValue.Data. Propiedad de lectura/escritura [`DataSourceType`](../../datasourcetype).
+Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es válida en el objeto de propiedad XValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPointEx.XValue.Data. Propiedad de lectura/escritura [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXValues { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IChartDataPointCollection](../../ichartdatapointcollection)

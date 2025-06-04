@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente le format de l'axe. En lecture seule IAxisFormataspose.slides.charts/iaxisformat.
 type: docs
 weight: 160

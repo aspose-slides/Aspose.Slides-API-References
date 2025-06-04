@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den HeaderFooter-Manager der Master-Notizfolie zurück. Nur-Lese IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
+second_title: Aspose.Slides for .NET API Reference
+description: Gibt den HeaderFooter-Manager der Master-Notizenfolie zurück. Nur lesbar IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
 type: docs
 weight: 10
 url: /de/aspose.slides/masternotesslide/headerfootermanager/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/masternotesslide/headerfootermanager/
 
 ## MasterNotesSlide.HeaderFooterManager-Eigenschaft
 
-Gibt den HeaderFooter-Manager der Master-Notizfolie zurück. Nur-Lese [`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager).
+Gibt den HeaderFooter-Manager der Master-Notizenfolie zurück. Nur lesbar [`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager).
 
 ```csharp
 public IMasterNotesSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMasterNotesSlideHeaderFooterManager](../../imasternotesslideheaderfootermanager)
 * Klasse [MasterNotesSlide](../../masternotesslide)

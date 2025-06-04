@@ -1,7 +1,7 @@
 ---
 title: CreateMathParagraph
-second_title: Aspose.Slides for .NET API 参考
-description: 创建空的数学段落
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建空数学段落
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathparagraphfactory/createmathparagraph/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathparagraphfactory/createmathparagraph/
 
 ## CreateMathParagraph() {#createmathparagraph}
 
-创建空的数学段落
+创建空数学段落
 
 ```csharp
 public IMathParagraph CreateMathParagraph()
@@ -19,7 +19,7 @@ public IMathParagraph CreateMathParagraph()
 
 新的数学段落
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathParagraph](../../imathparagraph)
 * 类 [MathParagraphFactory](../../mathparagraphfactory)
@@ -30,7 +30,7 @@ public IMathParagraph CreateMathParagraph()
 
 ## CreateMathParagraph(IMathBlock) {#createmathparagraph_1}
 
-创建一个数学段落，并在其中放置指定的数学块
+创建一个数学段落并将指定的数学块放入其中
 
 ```csharp
 public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
@@ -38,13 +38,13 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| mathBlock | IMathBlock | 要放置在段落中的数学块 |
+| mathBlock | IMathBlock | 要放入段落中的数学块 |
 
 ### 返回值
 
 新的数学段落
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathParagraph](../../imathparagraph)
 * 接口 [IMathBlock](../../imathblock)

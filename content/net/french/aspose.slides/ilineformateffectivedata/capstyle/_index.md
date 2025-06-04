@@ -1,15 +1,15 @@
 ---
 title: CapStyle
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le style de bord de ligne. Lecture seule LineCapStyleaspose.slides/linecapstyle.
+second_title: Aspose.Slides pour la référence API .NET
+description: Retourne le style de cap de ligne. Lecture seule LineCapStyle aspose.slides/linecapstyle.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ilineformateffectivedata/capstyle/
 ---
 
-## Propriété ILineFormatEffectiveData.CapStyle
+## ILineFormatEffectiveData.CapStyle propriété
 
-Renvoie le style de bord de ligne. Lecture seule [`LineCapStyle`](../../linecapstyle).
+Retourne le style de cap de ligne. Lecture seule [`LineCapStyle`](../../linecapstyle).
 
 ```csharp
 public LineCapStyle CapStyle { get; }

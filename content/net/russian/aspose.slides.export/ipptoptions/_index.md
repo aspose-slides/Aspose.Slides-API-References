@@ -1,6 +1,6 @@
 ---
 title: IPptOptions
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Предоставляет параметры, которые контролируют, как презентация сохраняется в формате PPT.
 type: docs
 weight: 3840
@@ -17,12 +17,12 @@ public interface IPptOptions : ISaveOptions
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID класса объекта (CLSID), который хранится в записи корневого каталога. Может быть использован для COM-активации приложения документа. Значение по умолчанию '64818D11-4F9B-11CF-86EA-00AA00B929E8', которое соответствует 'Microsoft Powerpoint.Slide.8'. |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Тольок для чтения [`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID класса объекта (CLSID), который хранится в записи корневого каталога. Может использоваться для активации приложения документа через COM. Значение по умолчанию '64818D11-4F9B-11CF-86EA-00AA00B929E8', соответствующее 'Microsoft Powerpoint.Slide.8'. |
 
-### См. также
+### См. Также
 
 * интерфейс [ISaveOptions](../isaveoptions)
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)

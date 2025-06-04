@@ -1,13 +1,13 @@
 ---
 title: TemplateContextTObject
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa una interfaz de objeto modelo para un motor de plantillas.
 type: docs
 weight: 4480
 url: /es/aspose.slides.export.web/templatecontext-1/
 ---
 
-## Clase TemplateContext&lt;TObject&gt;
+## TemplateContext&lt;TObject&gt; clase
 
 Representa una interfaz de objeto modelo para un motor de plantillas.
 
@@ -30,7 +30,7 @@ public sealed class TemplateContext<TObject>
 | --- | --- |
 | [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) |  |
 
-### Vea También
+### Ver También
 
 * namespace [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * assembly [Aspose.Slides](../../)

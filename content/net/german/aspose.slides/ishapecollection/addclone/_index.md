@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine Kopie einer bestimmten Form am Ende der Sammlung hinzu.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt eine Kopie einer angegebenen Form zum Ende der Sammlung hinzu.
 type: docs
 weight: 80
 url: /de/aspose.slides/ishapecollection/addclone/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/addclone/
 
 ## AddClone(IShape, float, float, float, float) {#addclone_2}
 
-Fügt eine Kopie einer bestimmten Form am Ende der Sammlung hinzu.
+Fügt eine Kopie einer angegebenen Form zum Ende der Sammlung hinzu.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y, float width, float height)
@@ -27,7 +27,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 Neue Form.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -38,7 +38,7 @@ Neue Form.
 
 ## AddClone(IShape, float, float) {#addclone_1}
 
-Fügt eine Kopie einer bestimmten Form am Ende der Sammlung hinzu. Breite und Höhe der neuen Form sind gleich der Breite und Höhe der *sourceShape*.
+Fügt eine Kopie einer angegebenen Form zum Ende der Sammlung hinzu. Breite und Höhe der neuen Form sind gleich der Breite und Höhe der *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y)
@@ -54,7 +54,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 Neue Form.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)
@@ -65,7 +65,7 @@ Neue Form.
 
 ## AddClone(IShape) {#addclone}
 
-Fügt eine Kopie einer bestimmten Form am Ende der Sammlung hinzu. X, Y, Breite und Höhe der neuen Form sind gleich X, Y, Breite und Höhe der *sourceShape*.
+Fügt eine Kopie einer angegebenen Form zum Ende der Sammlung hinzu. X, Y, Breite und Höhe der neuen Form sind gleich X, Y, Breite und Höhe der *sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape)
@@ -79,7 +79,7 @@ public IShape AddClone(IShape sourceShape)
 
 Neue Form.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IShape](../../ishape)
 * interface [IShapeCollection](../../ishapecollection)

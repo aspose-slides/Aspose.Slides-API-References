@@ -1,6 +1,6 @@
 ---
 title: GradientDirection
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Возвращает или задает стиль градиента. Чтение/запись GradientDirectionaspose.slides/gradientdirection.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/igradientformat/gradientdirection/
 public GradientDirection GradientDirection { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * enum [GradientDirection](../../gradientdirection)
 * interface [IGradientFormat](../../igradientformat)

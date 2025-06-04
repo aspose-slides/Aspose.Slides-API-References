@@ -1,6 +1,6 @@
 ---
 title: LightRig
-second_title: Aspose.Slides для справки по .NET API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает тип света. Только для чтения ILightRigEffectiveDataaspose.slides/ilightrigeffectivedata.
 type: docs
 weight: 100

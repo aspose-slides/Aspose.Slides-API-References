@@ -1,6 +1,6 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Конструктор по умолчанию.
 type: docs
 weight: 10

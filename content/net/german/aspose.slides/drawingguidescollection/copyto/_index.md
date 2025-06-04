@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides/drawingguidescollection/copyto/
 ---
 
-## DrawingGuidesCollection.CopyTo-Methode
+## DrawingGuidesCollection.CopyTo Methode
 
 Kopiert alle Elemente aus der Sammlung in das angegebene Array.
 

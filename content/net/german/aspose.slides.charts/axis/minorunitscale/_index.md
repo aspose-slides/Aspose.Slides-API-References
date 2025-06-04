@@ -1,7 +1,7 @@
 ---
 title: MinorUnitScale
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Hauptmaßeinheit für die Datumsachse dar. Lese-/Schreibzugriff auf TimeUnitTypeaspose.slides.charts/timeunittype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt die Haupt-Einheitenskala für die Datumsachse dar. Lese-/schreibbare TimeUnitType aspose.slides.charts/timeunittype.
 type: docs
 weight: 420
 url: /de/aspose.slides.charts/axis/minorunitscale/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/axis/minorunitscale/
 
 ## Axis.MinorUnitScale-Eigenschaft
 
-Stellt die Hauptmaßeinheit für die Datumsachse dar. Lese-/Schreibzugriff auf [`TimeUnitType`](../../timeunittype).
+Stellt die Haupt-Einheitenskala für die Datumsachse dar. Lese-/schreibbar [`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MinorUnitScale { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [TimeUnitType](../../timeunittype)
 * class [Axis](../../axis)

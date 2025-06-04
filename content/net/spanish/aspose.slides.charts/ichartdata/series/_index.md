@@ -1,7 +1,7 @@
 ---
 title: Series
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene las series. Solo lectura IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
+description: Obtiene las series. Colección de solo lectura IChartSeriesCollection aspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /es/aspose.slides.charts/ichartdata/series/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/ichartdata/series/
 
 ## Propiedad IChartData.Series
 
-Obtiene las series. Solo lectura [`IChartSeriesCollection`](../../ichartseriescollection).
+Obtiene las series. Colección de solo lectura [`IChartSeriesCollection`](../../ichartseriescollection).
 
 ```csharp
 public IChartSeriesCollection Series { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartSeriesCollection](../../ichartseriescollection)
 * interfaz [IChartData](../../ichartdata)

@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Auswahl dieser Form verboten ist. Lese-/Schreibbare Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob die Auswahl dieser Form verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/groupshapelock/selectlocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/groupshapelock/selectlocked/
 
 ## GroupShapeLock.SelectLocked-Eigenschaft
 
-Bestimmt, ob die Auswahl dieser Form verboten ist. Lese-/Schreibbare Boolean.
+Bestimmt, ob die Auswahl dieser Form verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool SelectLocked { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [GroupShapeLock](../../groupshapelock)
 * Namespace [Aspose.Slides](../../groupshapelock)

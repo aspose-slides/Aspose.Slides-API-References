@@ -1,7 +1,7 @@
 ---
 title: Product
-second_title: Aspose.Slides for .NET API 参考
-description: Aspose.Slides的产品名称
+second_title: Aspose.Slides for .NET API Reference
+description: Aspose.Slides 的产品名称
 type: docs
 weight: 30
 url: /zh/aspose.slides/buildversioninfo/product/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/buildversioninfo/product/
 
 ## BuildVersionInfo.Product 字段
 
-Aspose.Slides的产品名称
+Aspose.Slides 的产品名称
 
 ```csharp
 public const string Product;
 ```
 
-### 参见
+### 相关内容
 
 * class [BuildVersionInfo](../../buildversioninfo)
 * namespace [Aspose.Slides](../../buildversioninfo)

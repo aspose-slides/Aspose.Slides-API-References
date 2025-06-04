@@ -1,6 +1,6 @@
 ---
 title: RevealTransition
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Effet de transition de diapositive Reveal.
 type: docs
 weight: 9970
@@ -20,7 +20,7 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Nom | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Direction de la transition. Lecture/écriture [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Spécifie si la transition passe par un fondu au noir. Lecture/écriture Booléen. |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Spécifie si la transition s'estompe à travers le noir. Lecture/écriture Boolean. |
 
 ## Méthodes
 

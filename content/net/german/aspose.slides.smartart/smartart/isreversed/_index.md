@@ -1,7 +1,7 @@
 ---
 title: IsReversed
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Zustand des SmartArt-Diagramms in Bezug auf von links nach rechts LTR oder von rechts nach links RTL zurück oder setzt ihn, wenn das Diagramm die Umkehrung unterstützt. Lese-/Schreib-Boolesch.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Zustand des SmartArt-Diagramms in Bezug auf von links nach rechts LTR oder von rechts nach links RTL zurück oder setzt ihn, falls das Diagramm eine Umkehrung unterstützt. Schreib- und lesbarer Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.smartart/smartart/isreversed/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.smartart/smartart/isreversed/
 
 ## SmartArt.IsReversed-Eigenschaft
 
-Gibt den Zustand des SmartArt-Diagramms in Bezug auf (von links nach rechts) LTR oder (von rechts nach links) RTL zurück oder setzt ihn, wenn das Diagramm die Umkehrung unterstützt. Lese-/Schreib-Boolesch.
+Gibt den Zustand des SmartArt-Diagramms in Bezug auf (von links nach rechts) LTR oder (von rechts nach links) RTL zurück oder setzt ihn, falls das Diagramm eine Umkehrung unterstützt. Schreib- und lesbarer Boolean.
 
 ```csharp
 public bool IsReversed { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SmartArt](../../smartart)
 * Namespace [Aspose.Slides.SmartArt](../../smartart)

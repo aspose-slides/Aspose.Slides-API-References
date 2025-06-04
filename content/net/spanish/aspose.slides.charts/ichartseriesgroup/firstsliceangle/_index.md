@@ -1,7 +1,7 @@
 ---
 title: FirstSliceAngle
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene o establece el ángulo de la primera porción del gráfico de pastel o dona en grados en sentido horario desde arriba desde 0 hasta 360 grados. Lectura/escritura UInt16.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Obtiene o establece el ángulo de la primera porción de un gráfico de torta o dona en grados en sentido horario desde arriba, de 0 a 360 grados. Lectura/escritura UInt16.
 type: docs
 weight: 50
 url: /es/aspose.slides.charts/ichartseriesgroup/firstsliceangle/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/ichartseriesgroup/firstsliceangle/
 
 ## Propiedad IChartSeriesGroup.FirstSliceAngle
 
-Obtiene o establece el ángulo de la primera porción del gráfico de pastel o dona, en grados (en sentido horario desde arriba, desde 0 hasta 360 grados). Lectura/escritura UInt16.
+Obtiene o establece el ángulo de la primera porción de un gráfico de torta o dona, en grados (en sentido horario desde arriba, de 0 a 360 grados). Lectura/escritura UInt16.
 
 ```csharp
 public ushort FirstSliceAngle { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IChartSeriesGroup](../../ichartseriesgroup)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartseriesgroup)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartSeriesGroup](../../ichartseriesgroup)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartseriesgroup)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

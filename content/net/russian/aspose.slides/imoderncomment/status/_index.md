@@ -1,13 +1,13 @@
 ---
 title: Status
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Возвращает или устанавливает статус комментария. Чтение/запись ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs
 weight: 30
 url: /ru/aspose.slides/imoderncomment/status/
 ---
 
-## Свойство IModernComment.Status
+## IModernComment.Status свойство
 
 Возвращает или устанавливает статус комментария. Чтение/запись [`ModernCommentStatus`](../../moderncommentstatus).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/imoderncomment/status/
 public ModernCommentStatus Status { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [ModernCommentStatus](../../moderncommentstatus)
 * interface [IModernComment](../../imoderncomment)

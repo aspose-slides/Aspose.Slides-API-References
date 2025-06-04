@@ -1,15 +1,15 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl aller Elemente in der Sammlung zurück. Schreibgeschütztes Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Anzahl aller Elemente in der Sammlung zurück. Nur lesbares Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/idrawingguidescollection/count/
 ---
 
-## IDrawingGuidesCollection.Count-Eigenschaft
+## IDrawingGuidesCollection.Count Eigenschaft
 
-Gibt die Anzahl aller Elemente in der Sammlung zurück. Schreibgeschütztes Int32.
+Gibt die Anzahl aller Elemente in der Sammlung zurück. Nur lesbares Int32.
 
 ```csharp
 public int Count { get; }

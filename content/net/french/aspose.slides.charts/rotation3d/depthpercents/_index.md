@@ -1,7 +1,7 @@
 ---
 title: DepthPercents
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit la profondeur d'un graphique 3D en pourcentage de la largeur du graphique entre 20 et 2000 pourcents. Lecture/écriture UInt16.
+second_title: Aspose.Sildes pour la documentation de l'API .NET
+description: Renvoie ou définit la profondeur d'un graphique 3D en pourcentage de la largeur du graphique entre 20 et 2000 pour cent. Lecture/écriture UInt16.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/rotation3d/depthpercents/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/rotation3d/depthpercents/
 
 ## Propriété Rotation3D.DepthPercents
 
-Retourne ou définit la profondeur d'un graphique 3D en pourcentage de la largeur du graphique (entre 20 et 2000 pourcents). Lecture/écriture UInt16.
+Renvoie ou définit la profondeur d'un graphique 3D en pourcentage de la largeur du graphique (entre 20 et 2000 pour cent). Lecture/écriture UInt16.
 
 ```csharp
 public ushort DepthPercents { get; set; }

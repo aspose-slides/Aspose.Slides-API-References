@@ -1,15 +1,15 @@
 ---
 title: IsErrorBarsYAllowed
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает, разрешены ли Y-ошибки для указанного типа серии.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает, разрешены ли горизонтальные полосы ошибок Y для указанного типа серии.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
 ---
 
-## Метод ChartTypeCharacterizer.IsErrorBarsYAllowed
+## ChartTypeCharacterizer.IsErrorBarsYAllowed метод
 
-Возвращает, разрешены ли Y-ошибки для указанного типа серии.
+Возвращает, разрешены ли горизонтальные полосы ошибок Y для указанного типа серии.
 
 ```csharp
 public static bool IsErrorBarsYAllowed(ChartType seriesType)
@@ -19,11 +19,11 @@ public static bool IsErrorBarsYAllowed(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Тип серии. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Истина, если разрешено, иначе ложь.
+True, если разрешено, в противном случае false.
 
-### См. Также
+### См. также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

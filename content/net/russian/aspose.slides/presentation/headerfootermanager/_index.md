@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает актуальный менеджер HeaderFooter. Только для чтения IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает текущий менеджер HeaderFooter. Только для чтения IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
 type: docs
 weight: 120
 url: /ru/aspose.slides/presentation/headerfootermanager/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentation/headerfootermanager/
 
 ## Свойство Presentation.HeaderFooterManager
 
-Возвращает актуальный менеджер HeaderFooter. Только для чтения [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
+Возвращает текущий менеджер HeaderFooter. Только для чтения [`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
 
 ```csharp
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }
@@ -17,60 +17,60 @@ public IPresentationHeaderFooterManager HeaderFooterManager { get; }
 
 ### Примеры
 
-Следующий пример показывает, как установить видимость нижнего колонтитула внутри слайда презентации PowerPoint.
+Следующий пример демонстрирует, как установить видимость нижнего колонтитула внутри слайда PowerPoint-презентации.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("presentation.ppt"))
 {
     IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
-	// Свойство IsFooterVisible используется для указания на то, что заполнителя нижнего колонтитула слайда нет.
+	// Свойство IsFooterVisible используется для указания отсутствия плейсхолдера нижнего колонтитула слайда.
     if (!headerFooterManager.IsFooterVisible)
     {
-		// Метод SetFooterVisibility используется для того, чтобы сделать видимым заполнитель нижнего колонтитула слайда.
+		// Метод SetFooterVisibility используется для отображения плейсхолдера нижнего колонтитула слайда.
         headerFooterManager.SetFooterVisibility(true);
     }
-	// Свойство IsSlideNumberVisible используется для указания на то, что заполнителя номера страницы слайда нет.
+	// Свойство IsSlideNumberVisible используется для указания отсутствия плейсхолдера номера страницы слайда.
     if (!headerFooterManager.IsSlideNumberVisible)
     {
-		// Метод SetSlideNumberVisibility используется для того, чтобы сделать видимым заполнитель номера страницы слайда.
+		// Метод SetSlideNumberVisibility используется для отображения плейсхолдера номера страницы слайда.
         headerFooterManager.SetSlideNumberVisibility(true);
     }
-	// Свойство IsDateTimeVisible используется для указания на то, что заполнителя даты и времени слайда нет.
+	// Свойство IsDateTimeVisible используется для указания отсутствия плейсхолдера даты и времени слайда.
     if (!headerFooterManager.IsDateTimeVisible)
     {
-		// Метод SetFooterVisibility используется для того, чтобы сделать видимым заполнитель даты и времени слайда.
+		// Метод SetFooterVisibility используется для отображения плейсхолдера даты и времени слайда.
         headerFooterManager.SetDateTimeVisibility(true);
     }
-	// Метод SetFooterText используется для установки текста в заполнитель нижнего колонтитула слайда.
+	// Метод SetFooterText используется для установки текста в плейсхолдер нижнего колонтитула слайда.
     headerFooterManager.SetFooterText("Footer text");
-	// Метод SetDateTimeText используется для установки текста в заполнитель даты и времени слайда.
+	// Метод SetDateTimeText используется для установки текста в плейсхолдер даты и времени слайда.
     headerFooterManager.SetDateTimeText("Date and time text");
 	presentation.Save("Presentation.ppt",SaveFormat.ppt);
 }
 ```
 
-Следующий пример показывает, как установить видимость дочернего нижнего колонтитула внутри слайда.
+Следующий пример демонстрирует, как установить видимость дочерних нижних колонтитулов внутри слайда.
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("presentation.ppt"))
 {
     IMasterSlideHeaderFooterManager headerFooterManager = presentation.Masters[0].HeaderFooterManager;
-	// Метод SetFooterAndChildFootersVisibility используется для того, чтобы сделать видимыми нижний колонтитул мастер-слайда и все дочерние заполнители.
+	// Метод SetFooterAndChildFootersVisibility используется для отображения главного слайда и всех дочерних плейсхолдеров нижнего колонтитула.
     headerFooterManager.SetFooterAndChildFootersVisibility(true);
-	// Метод SetSlideNumberAndChildSlideNumbersVisibility используется для того, чтобы сделать видимыми номер слайда мастер-слайда и все дочерние заполнители номеров страниц.
+	// Метод SetSlideNumberAndChildSlideNumbersVisibility используется для отображения главного слайда и всех дочерних плейсхолдеров номеров страниц.
     headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true);
-	// Метод SetDateTimeAndChildDateTimesVisibility используется для того, чтобы сделать видимыми дату и время мастер-слайда и все дочерние заполнители даты и времени.
+	// Метод SetDateTimeAndChildDateTimesVisibility используется для отображения главного слайда и всех дочерних плейсхолдеров даты и времени.
     headerFooterManager.SetDateTimeAndChildDateTimesVisibility(true);
-	// Метод SetFooterAndChildFootersText используется для установки текста в нижний колонтитул мастер-слайда и все дочерние заполнители.
+	// Метод SetFooterAndChildFootersText используется для установки текста в главный слайд и все дочерние плейсхолдеры нижнего колонтитула.
     headerFooterManager.SetFooterAndChildFootersText("Footer text");
-	// Метод SetDateTimeAndChildDateTimesText используется для установки текста в мастер-слайд и все дочерние заполнители даты и времени.
+	// Метод SetDateTimeAndChildDateTimesText используется для установки текста в главный слайд и все дочерние плейсхолдеры даты и времени.
     headerFooterManager.SetDateTimeAndChildDateTimesText("Date and time text");
 }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * класс [Presentation](../../presentation)

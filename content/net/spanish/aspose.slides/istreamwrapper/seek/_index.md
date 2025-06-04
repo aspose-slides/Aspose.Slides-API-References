@@ -1,15 +1,15 @@
 ---
 title: Seek
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Establece la posición dentro de la corriente actual
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Establece la posición dentro del flujo actual
 type: docs
 weight: 120
 url: /es/aspose.slides/istreamwrapper/seek/
 ---
 
-## Método IStreamWrapper.Seek
+## IStreamWrapper.Seek método
 
-Establece la posición dentro de la corriente actual
+Establece la posición dentro del flujo actual
 
 ```csharp
 public long Seek(long offset, SeekOrigin origin)
@@ -22,12 +22,12 @@ public long Seek(long offset, SeekOrigin origin)
 
 ### Valor de Retorno
 
-La nueva posición dentro de la corriente actual Int64
+La nueva posición dentro del flujo actual Int64
 
-### Ver También
+### Véase También
 
-* interfaz [IStreamWrapper](../../istreamwrapper)
-* espacio de nombres [Aspose.Slides](../../istreamwrapper)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IStreamWrapper](../../istreamwrapper)
+* espacio de nombre [Aspose.Slides](../../istreamwrapper)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

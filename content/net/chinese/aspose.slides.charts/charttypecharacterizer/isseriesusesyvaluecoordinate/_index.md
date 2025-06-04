@@ -1,6 +1,6 @@
 ---
 title: IsSeriesUsesYValueCoordinate
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定系列类型是否使用 Y 值坐标。
 type: docs
 weight: 210
@@ -23,7 +23,7 @@ public static bool IsSeriesUsesYValueCoordinate(ChartType seriesType)
 
 如果使用则为 true，否则为 false。
 
-### 另请参阅
+### 参见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 删除在集合中指定索引处的作者。
+description: 删除指定索引处的作者。
 type: docs
 weight: 120
 url: /zh/aspose.slides/commentauthorcollection/removeat/
 ---
 
-## CommentAuthorCollection.RemoveAt 方法
+## CommentAuthorCollection.RemoveAt method
 
-删除在集合中指定索引处的作者。
+删除指定索引处的作者。
 
 ```csharp
 public void RemoveAt(int index)
@@ -23,10 +23,10 @@ public void RemoveAt(int index)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于 0 或索引等于或大于 Count |
-| [PptxEditException](../../pptxeditexception) | 如果作者已经被移除则抛出。 |
+| ArgumentOutOfRangeException | 索引小于0或索引等于或大于Count |
+| [PptxEditException](../../pptxeditexception) | 如果作者已被删除，则抛出。 |
 
-### 参见
+### 另见
 
 * class [CommentAuthorCollection](../../commentauthorcollection)
 * namespace [Aspose.Slides](../../commentauthorcollection)

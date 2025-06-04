@@ -1,7 +1,7 @@
 ---
 title: RelativeScaleWidth
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает или задает масштаб ширины относительно оригинального размера изображения рамки изображения. Значение 1.0 соответствует 100. Чтение/запись Single.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает масштаб ширины относительно оригинального размера изображения рамки. Значение 1.0 соответствует 100. Чтение/запись Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides/pictureframe/relativescalewidth/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/pictureframe/relativescalewidth/
 
 ## Свойство PictureFrame.RelativeScaleWidth
 
-Возвращает или задает масштаб ширины (относительно оригинального размера изображения) рамки изображения. Значение 1.0 соответствует 100%. Чтение/запись Single.
+Возвращает или устанавливает масштаб ширины (относительно оригинального размера изображения) рамки. Значение 1.0 соответствует 100%. Чтение/запись Single.
 
 ```csharp
 public float RelativeScaleWidth { get; set; }

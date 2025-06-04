@@ -1,7 +1,7 @@
 ---
 title: ComplexScriptFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit les informations sur la police de script complexe. Null signifie que la police est indéfinie et devrait être héritée du Master. Lecture/écriture IFontData aspose.slides/ifontdata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne ou définit les informations sur la police de script complexe. Null signifie que la police est indéfinie et doit être héritée du Master. Lecture/écriture IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ibaseportionformat/complexscriptfont/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseportionformat/complexscriptfont/
 
 ## Propriété IBasePortionFormat.ComplexScriptFont
 
-Renvoie ou définit les informations sur la police de script complexe. Null signifie que la police est indéfinie et devrait être héritée du Master. Lecture/écriture [`IFontData`](../../ifontdata).
+Retourne ou définit les informations sur la police de script complexe. Null signifie que la police est indéfinie et doit être héritée du Master. Lecture/écriture [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData ComplexScriptFont { get; set; }

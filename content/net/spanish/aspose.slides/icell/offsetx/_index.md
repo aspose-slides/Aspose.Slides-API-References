@@ -19,6 +19,6 @@ public double OffsetX { get; }
 
 * interfaz [ICell](../../icell)
 * espacio de nombres [Aspose.Slides](../../icell)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

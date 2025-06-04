@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt ein Verhalten am angegebenen Index zurück.
 type: docs
 weight: 30

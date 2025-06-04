@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定此形状的移动是否被禁止。读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定是否禁止移动此形状。可读/可写布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/autoshapelock/positionlocked/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/autoshapelock/positionlocked/
 
 ## AutoShapeLock.PositionLocked 属性
 
-确定此形状的移动是否被禁止。读/写布尔值。
+确定是否禁止移动此形状。可读/可写布尔值。
 
 ```csharp
 public bool PositionLocked { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute une propriété à la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/icontrolpropertiescollection/add/
 ---
 
-## Méthode IControlPropertiesCollection.Add
+## IControlPropertiesCollection.Add méthode
 
 Ajoute une propriété à la collection.
 

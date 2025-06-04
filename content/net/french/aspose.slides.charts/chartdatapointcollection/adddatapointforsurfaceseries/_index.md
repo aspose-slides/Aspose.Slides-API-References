@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForSurfaceSeries
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Surface, voir aussi la méthode IsChartTypeSurfaceaspose.slides.charts/charttypecharacterizer/ischarttypesurface.
+second_title: Aspose.Slides pour la référence API .NET
+description: Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Surface, voir aussi la méthode IsChartTypeSurfaceaspose.slides.charts/charttypecharacterizer/ischarttypesurface.
 type: docs
 weight: 240
 url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceser
 
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Surface (voir aussi la méthode [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
+Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Surface (voir aussi la méthode [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
-Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types de Surface (voir aussi la méthode [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
+Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Surface (voir aussi la méthode [`IsChartTypeSurface`](../../charttypecharacterizer/ischarttypesurface)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(double value)

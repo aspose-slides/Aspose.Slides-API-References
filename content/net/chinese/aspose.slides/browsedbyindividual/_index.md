@@ -7,7 +7,7 @@ weight: 970
 url: /zh/aspose.slides/browsedbyindividual/
 ---
 
-## BrowsedByIndividual 类
+## BrowsedByIndividual class
 
 按个人浏览（窗口）
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 另见
 
 * 类 [SlideShowType](../slideshowtype)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

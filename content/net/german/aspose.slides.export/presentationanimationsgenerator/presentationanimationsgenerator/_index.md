@@ -1,7 +1,7 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt eine neue Instanz von der PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
+second_title: Aspose.Slildes für .NET API-Referenz
+description: Erstellt eine neue Instanz des PresentationAnimationsGeneratoraspose.slides.export/presentationanimationsgenerator.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/presentationanimationsgenerator/presentationanimationsgenerator/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/presentationanimationsgenerator/presentationanimat
 
 ## PresentationAnimationsGenerator(Presentation) {#constructor}
 
-Erstellt eine neue Instanz von der [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
+Erstellt eine neue Instanz des [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
 
 ```csharp
 public PresentationAnimationsGenerator(Presentation presentation)
@@ -17,9 +17,9 @@ public PresentationAnimationsGenerator(Presentation presentation)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| presentation | Presentation | Die Größe des Rahmens wird entsprechend der [`SlideSize`](../../../aspose.slides/presentation/slidesize) festgelegt. |
+| presentation | Presentation | Die Rahmengröße wird gemäß der [`SlideSize`](../../../aspose.slides/presentation/slidesize) festgelegt. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Presentation](../../../aspose.slides/presentation)
 * Klasse [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
@@ -30,7 +30,7 @@ public PresentationAnimationsGenerator(Presentation presentation)
 
 ## PresentationAnimationsGenerator(Size) {#constructor_1}
 
-Erstellt eine neue Instanz von der [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
+Erstellt eine neue Instanz des [`PresentationAnimationsGenerator`](../../presentationanimationsgenerator).
 
 ```csharp
 public PresentationAnimationsGenerator(Size frameSize)
@@ -38,9 +38,9 @@ public PresentationAnimationsGenerator(Size frameSize)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| frameSize | Size | Die Größe des Rahmens. |
+| frameSize | Size | Die Rahmengröße. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * Namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)

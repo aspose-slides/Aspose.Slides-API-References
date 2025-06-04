@@ -1,21 +1,21 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
-description: 表示 VBA 项目引用的名称。可读写字符串。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示VBA项目引用的名称。可读写字符串。
 type: docs
 weight: 10
 url: /zh/aspose.slides.vba/ivbareference/name/
 ---
 
-## IVbaReference.Name 属性
+## IVbaReference.Name property
 
-表示 VBA 项目引用的名称。可读写字符串。
+表示VBA项目引用的名称。可读写字符串。
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IVbaReference](../../ivbareference)
 * 命名空间 [Aspose.Slides.Vba](../../ivbareference)

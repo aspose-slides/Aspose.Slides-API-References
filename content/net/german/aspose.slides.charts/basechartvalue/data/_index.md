@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Slides für .NET API-Referenz
-description: Daten. Lese-/Schreibobjekt.
+description: Data. Lese-/Schreibobjekt.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/basechartvalue/data/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/basechartvalue/data/
 
 ## BaseChartValue.Data-Eigenschaft
 
-Daten. Lese-/Schreibobjekt.
+Data. Lese-/Schreibobjekt.
 
 ```csharp
 public abstract object Data { get; set; }

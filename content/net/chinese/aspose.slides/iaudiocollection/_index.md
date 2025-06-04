@@ -1,6 +1,6 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示嵌入音频文件的集合。
 type: docs
 weight: 5020
@@ -25,11 +25,11 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 从字节数组创建并将音频添加到演示文稿中。 |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 从另一个演示文稿中添加音频文件的副本。 |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 从流创建并将音频添加到演示文稿中。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 从字节数组创建并添加音频到演示文稿。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 从另一个演示文稿添加音频文件的副本。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 从流创建并添加音频到演示文稿。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IAudio](../iaudio)

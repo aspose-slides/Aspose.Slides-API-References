@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/masterslidecollection/item/
 ---
 
-## Indexador de MasterSlideCollection
+## Indexador MasterSlideCollection
 
 Obtiene el elemento en el índice especificado. Solo lectura [`MasterSlide`](../../masterslide).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`MasterSlide`](../
 public IMasterSlide this[int index] { get; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IMasterSlide](../../imasterslide)
 * clase [MasterSlideCollection](../../masterslidecollection)

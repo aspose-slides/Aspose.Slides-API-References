@@ -1,13 +1,13 @@
 ---
 title: DisableSoftEdgeEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Désactive l'effet de bord doux.
 type: docs
 weight: 170
 url: /fr/aspose.slides/effectformat/disablesoftedgeeffect/
 ---
 
-## Méthode EffectFormat.DisableSoftEdgeEffect
+## EffectFormat.DisableSoftEdgeEffect méthode
 
 Désactive l'effet de bord doux.
 

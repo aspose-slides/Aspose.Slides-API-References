@@ -1,6 +1,6 @@
 ---
 title: SetUpperLimit
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Nimmt obere Grenze
 type: docs
 weight: 180
@@ -36,8 +36,8 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ### Siehe Auch
 
-* Interface [IMathLimit](../../imathlimit)
-* Interface [IMathElement](../../imathelement)
+* Schnittstelle [IMathLimit](../../imathlimit)
+* Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
 
@@ -71,8 +71,8 @@ var limitElement = baseElement.SetUpperLimit("y−>1");
 
 ### Siehe Auch
 
-* Interface [IMathLimit](../../imathlimit)
-* Interface [IMathElement](../../imathelement)
+* Schnittstelle [IMathLimit](../../imathlimit)
+* Schnittstelle [IMathElement](../../imathelement)
 * Namespace [Aspose.Slides.MathText](../../imathelement)
 * Assembly [Aspose.Slides](../../../)
 

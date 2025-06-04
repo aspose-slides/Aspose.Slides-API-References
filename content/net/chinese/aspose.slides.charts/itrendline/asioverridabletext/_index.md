@@ -1,6 +1,6 @@
 ---
 title: AsIOverridableText
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 IOverridableText 接口。只读 IOverridableText aspose.slides.charts/ioverridabletext。
 type: docs
 weight: 10
@@ -19,7 +19,7 @@ public IOverridableText AsIOverridableText { get; }
 
 为了兼容 COM。
 
-### 另见
+### 参见
 
 * 接口 [IOverridableText](../../ioverridabletext)
 * 接口 [ITrendline](../../itrendline)

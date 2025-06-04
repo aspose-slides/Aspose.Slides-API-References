@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides for .NET API Reference
-description: 移除列表中指定索引的Fallback字体。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定索引处移除列表中的 FallBack 字体。
 type: docs
 weight: 100
 url: /zh/aspose.slides/fontfallbackrule/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontfallbackrule/removeat/
 
 ## FontFallBackRule.RemoveAt 方法
 
-移除列表中指定索引的Fallback字体。
+在指定索引处移除列表中的 FallBack 字体。
 
 ```csharp
 public void RemoveAt(int index)
@@ -26,7 +26,7 @@ public void RemoveAt(int index)
 // 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-//从列表中移除Tahoma。
+// 从列表中移除 Tahoma。
 newRule.Remove (2);
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: RotateWithShape
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Füllung mit der Form rotiert werden soll. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+description: Bestimmt, ob die Füllung zusammen mit der Form rotiert werden sollte. Lese-/Schreibbarkeit von NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /de/aspose.slides/ifillformat/rotatewithshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifillformat/rotatewithshape/
 
 ## IFillFormat.RotateWithShape-Eigenschaft
 
-Bestimmt, ob die Füllung mit der Form rotiert werden soll. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Füllung zusammen mit der Form rotiert werden sollte. Lese-/Schreibbarkeit von [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool RotateWithShape { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: RestoredLeft
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Este elemento especifica el tamaño de la región de contenido lateral de la vista normal cuando la región tiene un tamaño restaurado variable ni minimizado ni maximizado. Lea únicamente INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
+second_title: Aspose.Sildes para referencia de API .NET
+description: Este elemento especifica el tamaño de la región de contenido lateral de la vista normal cuando la región tiene un tamaño restaurado variable ni minimizado ni maximizado. Lea solo INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 30
 url: /es/aspose.slides/inormalviewproperties/restoredleft/
 ---
 
-## Propiedad INormalViewProperties.RestoredLeft
+## INormalViewProperties.RestoredLeft property
 
-Este elemento especifica el tamaño de la región de contenido lateral de la vista normal, cuando la región tiene un tamaño restaurado variable (ni minimizado ni maximizado). Lea únicamente [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
+Este elemento especifica el tamaño de la región de contenido lateral de la vista normal, cuando la región tiene un tamaño restaurado variable (ni minimizado ni maximizado). Lea solo [`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
 ```csharp
 public INormalViewRestoredProperties RestoredLeft { get; }
@@ -17,9 +17,9 @@ public INormalViewRestoredProperties RestoredLeft { get; }
 
 ### Ver También
 
-* interfaz [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
-* interfaz [INormalViewProperties](../../inormalviewproperties)
-* espacio de nombres [Aspose.Slides](../../inormalviewproperties)
-* ensamblado [Aspose.Slides](../../../)
+* interface [INormalViewRestoredProperties](../../inormalviewrestoredproperties)
+* interface [INormalViewProperties](../../inormalviewproperties)
+* namespace [Aspose.Slides](../../inormalviewproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

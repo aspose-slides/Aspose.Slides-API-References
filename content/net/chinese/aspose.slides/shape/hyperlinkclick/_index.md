@@ -1,7 +1,7 @@
 ---
 title: HyperlinkClick
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置为鼠标点击定义的超链接。可读/可写 IHyperlinkaspose.slides/ihyperlink。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置为鼠标点击定义的超链接。可读/写 IHyperlinkaspose.slides/ihyperlink。
 type: docs
 weight: 110
 url: /zh/aspose.slides/shape/hyperlinkclick/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shape/hyperlinkclick/
 
 ## Shape.HyperlinkClick 属性
 
-返回或设置为鼠标点击定义的超链接。可读/可写 [`IHyperlink`](../../ihyperlink)。
+返回或设置为鼠标点击定义的超链接。可读/写 [`IHyperlink`](../../ihyperlink)。
 
 ```csharp
 public IHyperlink HyperlinkClick { get; set; }

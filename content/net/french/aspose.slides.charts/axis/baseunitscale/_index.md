@@ -1,6 +1,6 @@
 ---
 title: BaseUnitScale
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Spécifie la plus petite unité de temps qui est représentée sur l'axe des dates. Lecture/écriture TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 90

@@ -1,15 +1,15 @@
 ---
 title: Initials
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает инициалы авторов. Читаемая/записываемая строка.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает инициалы авторов. Чтение/запись Строка.
 type: docs
 weight: 20
 url: /ru/aspose.slides/icommentauthor/initials/
 ---
 
-## Свойство ICommentAuthor.Initials
+## ICommentAuthor.Initials свойство
 
-Возвращает или устанавливает инициалы авторов. Читаемая/записываемая строка.
+Возвращает или устанавливает инициалы авторов. Чтение/запись Строка.
 
 ```csharp
 public string Initials { get; set; }

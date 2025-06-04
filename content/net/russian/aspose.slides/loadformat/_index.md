@@ -1,6 +1,6 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes для справочной информации по API .NET
+second_title: Aspose.Sildes для справки по API .NET
 description: Указывает формат документа, который должен быть загружен.
 type: docs
 weight: 7590
@@ -19,7 +19,7 @@ public enum LoadFormat
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Auto | `0` | У instructs Aspose.Slides автоматически распознавать формат. |
+| Auto | `0` | Инструктирует Aspose.Slides автоматически распознавать формат. |
 | Ppt | `1` | Презентация Microsoft PowerPoint 97-2003. |
 | Pps | `2` | Слайд-шоу Microsoft PowerPoint 97-2003. |
 | Pptx | `3` | Документ Microsoft Office Open XML PresentationML. |
@@ -32,7 +32,7 @@ public enum LoadFormat
 | Otp | `10` | Шаблон презентации OpenOffice OTP. |
 | Ppt95 | `11` | Презентация Microsoft PowerPoint 95. |
 | Pot | `12` | Шаблон презентации Microsoft PowerPoint 97-2003. |
-| Fodp | `13` | Плоский XML ODF Презентация. |
+| Fodp | `13` | Плоский XML ODF Presentation. |
 | Unknown | `255` | Неизвестный формат файла |
 
 ### См. также

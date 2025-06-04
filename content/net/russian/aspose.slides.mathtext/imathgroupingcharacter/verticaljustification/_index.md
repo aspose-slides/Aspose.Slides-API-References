@@ -1,15 +1,15 @@
 ---
 title: VerticalJustification
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вертикальное выравнивание группового символа. Указывает выравнивание объекта относительно базовой линии. Например, когда групповой символ находится над объектом, ВертикальноеВыравнивание Top означает, что верхняя часть объекта совпадает с базовой линией; когда ВертикальноеВыравнивание установлено на Bottom, нижняя часть объекта находится на базовой линии. По умолчанию Bottom для Position=Top и Top для Position=Bottom
+second_title: Aspose.Sildes для .NET API Reference
+description: Вертикальное выравнивание группового символа. Указывает на выравнивание объекта относительно базовой линии. Например, когда групповой символ находится выше объекта, VerticalJustification Top означает, что верхняя часть объекта совпадает с базовой линией; когда VerticalJustification установлено на Bottom, нижняя часть объекта находится на базовой линии. По умолчанию Bottom для Position=Top и Top для Position=Bottom
 type: docs
 weight: 50
 url: /ru/aspose.slides.mathtext/imathgroupingcharacter/verticaljustification/
 ---
 
-## Свойство IMathGroupingCharacter.VerticalJustification
+## IMathGroupingCharacter.VerticalJustification свойство
 
-Вертикальное выравнивание группового символа. Указывает выравнивание объекта относительно базовой линии. Например, когда групповой символ находится над объектом, ВертикальноеВыравнивание Top означает, что верхняя часть объекта совпадает с базовой линией; когда ВертикальноеВыравнивание установлено на Bottom, нижняя часть объекта находится на базовой линии. По умолчанию: Bottom для Position=Top и Top для Position=Bottom
+Вертикальное выравнивание группового символа. Указывает на выравнивание объекта относительно базовой линии. Например, когда групповой символ находится выше объекта, VerticalJustification Top означает, что верхняя часть объекта совпадает с базовой линией; когда VerticalJustification установлено на Bottom, нижняя часть объекта находится на базовой линии. По умолчанию: Bottom для Position=Top и Top для Position=Bottom
 
 ```csharp
 public MathTopBotPositions VerticalJustification { get; set; }
@@ -25,7 +25,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 groupingCharacter.VerticalJustification = MathTopBotPositions.Top;
 ```
 
-### См. Также
+### Смотрите также
 
 * enum [MathTopBotPositions](../../mathtopbotpositions)
 * interface [IMathGroupingCharacter](../../imathgroupingcharacter)

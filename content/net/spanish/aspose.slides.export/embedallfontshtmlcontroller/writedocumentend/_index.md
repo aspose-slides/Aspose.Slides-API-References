@@ -1,15 +1,15 @@
 ---
 title: WriteDocumentEnd
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Se llama para escribir el pie de página del documento html. Se llama una vez por conversión de presentación.
+second_title: Aspose.Sildes para .NET Referencia de la API
+description: Llamado para escribir el pie de página del documento html. Llamado una vez por conversión de presentación.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
 ---
 
-## Método EmbedAllFontsHtmlController.WriteDocumentEnd
+## EmbedAllFontsHtmlController.WriteDocumentEnd método
 
-Se llama para escribir el pie de página del documento html. Se llama una vez por conversión de presentación.
+Llamado para escribir el pie de página del documento html. Llamado una vez por conversión de presentación.
 
 ```csharp
 public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentation)
@@ -22,10 +22,10 @@ public virtual void WriteDocumentEnd(IHtmlGenerator generator, IPresentation pre
 
 ### Ver También
 
-* interface [IHtmlGenerator](../../ihtmlgenerator)
-* interface [IPresentation](../../../aspose.slides/ipresentation)
-* class [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
-* namespace [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IHtmlGenerator](../../ihtmlgenerator)
+* interfaz [IPresentation](../../../aspose.slides/ipresentation)
+* clase [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller)
+* espacio de nombres [Aspose.Slides.Export](../../embedallfontshtmlcontroller)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

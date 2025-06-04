@@ -1,6 +1,6 @@
 ---
 title: Distance
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Abstand des Schattens. Lese-/Schreibwert Double.
 type: docs
 weight: 50
@@ -17,7 +17,7 @@ public double Distance { get; set; }
 
 ### Siehe auch
 
-* Interface [IInnerShadow](../../iinnershadow)
+* Schnittstelle [IInnerShadow](../../iinnershadow)
 * Namespace [Aspose.Slides.Effects](../../iinnershadow)
 * Assembly [Aspose.Slides](../../../)
 

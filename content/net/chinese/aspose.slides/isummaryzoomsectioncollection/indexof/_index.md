@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回指定的 SummaryZoomSection 对象的索引。
+description: 返回指定 SummaryZoomSection 对象的索引。
 type: docs
 weight: 50
 url: /zh/aspose.slides/isummaryzoomsectioncollection/indexof/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isummaryzoomsectioncollection/indexof/
 
 ## ISummaryZoomSectionCollection.IndexOf 方法
 
-返回指定的 SummaryZoomSection 对象的索引。
+返回指定 SummaryZoomSection 对象的索引。
 
 ```csharp
 public int IndexOf(ISummaryZoomSection summaryZoomSection)
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ISummaryZoomSection](../../isummaryzoomsection)
 * 接口 [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)

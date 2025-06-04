@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Slides для .NET API Ссылка
-description: Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения IGraphicalObjectaspose.slides/igraphicalobject.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения IGraphicalObject aspose.slides/igraphicalobject.
 type: docs
 weight: 20
 url: /ru/aspose.slides.smartart/ismartart/asigraphicalobject/

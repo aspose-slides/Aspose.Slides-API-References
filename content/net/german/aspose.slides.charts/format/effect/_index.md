@@ -1,21 +1,21 @@
 ---
 title: Effect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die für ein Diagramm verwendeten Effekte zurück. Nur-Lese IEffectFormataspose.slides/../aspose.slides/ieffectformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die für ein Diagramm verwendeten Effekte zurück. Schreibgeschütztes IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/format/effect/
 ---
 
-## Format.Effekt-Eigenschaft
+## Format.Effect-Eigenschaft
 
-Gibt die für ein Diagramm verwendeten Effekte zurück. Nur-Lese [`IEffectFormat`](../../../aspose.slides/ieffectformat).
+Gibt die für ein Diagramm verwendeten Effekte zurück. Schreibgeschütztes [`IEffectFormat`](../../../aspose.slides/ieffectformat).
 
 ```csharp
 public IEffectFormat Effect { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IEffectFormat](../../../aspose.slides/ieffectformat)
 * Klasse [Format](../../format)

@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder legt sie fest. Lese-/Schreib-Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/datalabel/height/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/datalabel/height/
 
 ## DataLabel.Height-Eigenschaft
 
-Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder legt sie fest. Lese-/Schreib-Single.
+Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float Height { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DataLabel](../../datalabel)
 * Namespace [Aspose.Slides.Charts](../../datalabel)

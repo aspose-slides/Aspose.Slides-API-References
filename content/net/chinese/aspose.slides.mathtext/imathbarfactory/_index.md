@@ -1,7 +1,7 @@
 ---
 title: IMathBarFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 允许创建数学栏
+description: 允许创建数学条
 type: docs
 weight: 7880
 url: /zh/aspose.slides.mathtext/imathbarfactory/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathbarfactory/
 
 ## IMathBarFactory 接口
 
-允许创建数学栏
+允许创建数学条
 
 ```csharp
 public interface IMathBarFactory
@@ -19,12 +19,12 @@ public interface IMathBarFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | 通过应用于元素来创建数学栏 |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 通过应用于元素来创建数学栏 |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | 通过应用于元素来创建数学条 |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 通过应用于元素来创建数学条 |
 
 ### 备注
 
-用于 COM 兼容性
+为了与 COM 兼容
 
 ### 另见
 

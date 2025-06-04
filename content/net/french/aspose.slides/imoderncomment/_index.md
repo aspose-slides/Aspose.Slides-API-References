@@ -22,8 +22,8 @@ public interface IModernComment : IComment
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Permet d'obtenir l'interface de base IComment. Lecture seule [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Renvoie une forme associée au commentaire. Lecture seule [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Renvoie ou définit le statut du commentaire. Lecture/écriture [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Renvoie ou définit la longueur de la sélection de texte dans la zone de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Renvoie ou définit la position de départ de la sélection de texte dans la zone de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Renvoie ou définit la longueur de la sélection de texte dans le cadre de texte si le commentaire est associé à une AutoShape. Lecture/écriture Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Renvoie ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à une AutoShape. Lecture/écriture Int32. |
 
 ### Exemples
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IComment](../icomment)
 * namespace [Aspose.Slides](../../aspose.slides)

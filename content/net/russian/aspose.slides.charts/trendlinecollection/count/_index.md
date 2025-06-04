@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/trendlinecollection/count/
 ---
 
-## Свойство TrendlineCollection.Count
+## TrendlineCollection.Count свойство
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/trendlinecollection/count/
 public int Count { get; }
 ```
 
-### См. также
+### Также смотри
 
 * класс [TrendlineCollection](../../trendlinecollection)
 * пространство имен [Aspose.Slides.Charts](../../trendlinecollection)

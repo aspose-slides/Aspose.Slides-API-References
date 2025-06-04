@@ -1,7 +1,7 @@
 ---
 title: RemoveEmptyLines
-second_title: Справка по API Aspose.Sildes для .NET
-description: Если установлено в true, удаляет пустые строки или строки, содержащие только пробелы, из финального Markdown-вывода. По умолчанию false.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Если установлено в true, удаляет пустые строки или строки, содержащие только пробелы, из конечного Markdown вывода. По умолчанию false.
 type: docs
 weight: 80
 url: /ru/aspose.slides.export/markdownsaveoptions/removeemptylines/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/markdownsaveoptions/removeemptylines/
 
 ## MarkdownSaveOptions.RemoveEmptyLines свойство
 
-Если установлено в `true`, удаляет пустые строки или строки, содержащие только пробелы, из финального Markdown-вывода. По умолчанию `false`.
+Если установлено в `true`, удаляет пустые строки или строки, содержащие только пробелы, из конечного Markdown вывода. По умолчанию `false`.
 
 ```csharp
 public bool RemoveEmptyLines { get; set; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [MarkdownSaveOptions](../../markdownsaveoptions)
 * пространство имен [Aspose.Slides.Export](../../markdownsaveoptions)

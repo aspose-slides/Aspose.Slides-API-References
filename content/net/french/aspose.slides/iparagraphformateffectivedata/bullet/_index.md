@@ -1,7 +1,7 @@
 ---
 title: Bullet
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un format de puce d'un paragraphe. Lecture seule IBulletFormatEffectiveDataaspose.slides/ibulletformateffectivedata.
+description: Renvoie un format de puce d'un paragraphe. Lecture seule IBulletFormatEffectiveDataaspose.slides/ibulletformateffectivedata.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iparagraphformateffectivedata/bullet/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iparagraphformateffectivedata/bullet/
 
 ## Propriété IParagraphFormatEffectiveData.Bullet
 
-Retourne un format de puce d'un paragraphe. Lecture seule [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
+Renvoie un format de puce d'un paragraphe. Lecture seule [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ```csharp
 public IBulletFormatEffectiveData Bullet { get; }

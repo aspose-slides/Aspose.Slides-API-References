@@ -1,13 +1,13 @@
 ---
 title: CreateDuotone
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un effet Duotone.
 type: docs
 weight: 120
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createduotone/
 ---
 
-## Méthode IImageTransformOperationFactory.CreateDuotone
+## IImageTransformOperationFactory.CreateDuotone méthode
 
 Crée un effet Duotone.
 
@@ -15,11 +15,11 @@ Crée un effet Duotone.
 public IDuotone CreateDuotone()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Effet Duotone.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDuotone](../../iduotone)
 * interface [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

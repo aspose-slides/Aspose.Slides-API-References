@@ -1,7 +1,7 @@
 ---
 title: FindCommentByIdx
 second_title: Aspose.Slides for .NET API Reference
-description: 通过索引查找集合中的评论。
+description: 通过索引在集合中找到评论。
 type: docs
 weight: 90
 url: /zh/aspose.slides/commentcollection/findcommentbyidx/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentcollection/findcommentbyidx/
 
 ## CommentCollection.FindCommentByIdx 方法
 
-通过索引查找集合中的评论。
+通过索引在集合中找到评论。
 
 ```csharp
 public IComment FindCommentByIdx(int idx)

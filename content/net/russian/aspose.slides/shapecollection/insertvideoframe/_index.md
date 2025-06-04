@@ -1,15 +1,15 @@
 ---
 title: InsertVideoFrame
-second_title: Aspose.Slides для .NET API Справочник
-description: Создает новый видеокадр и вставляет его в коллекцию по указанному индексу.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый видеофрейм и вставляет его в коллекцию по указанному индексу.
 type: docs
 weight: 400
 url: /ru/aspose.slides/shapecollection/insertvideoframe/
 ---
 
-## Метод ShapeCollection.InsertVideoFrame
+## ShapeCollection.InsertVideoFrame метод
 
-Создает новый видеокадр и вставляет его в коллекцию по указанному индексу.
+Создает новый видеофрейм и вставляет его в коллекцию по указанному индексу.
 
 ```csharp
 public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, float height, 
@@ -18,14 +18,14 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс, основанный на нуле, по которому видеокадр должен быть вставлен. |
-| x | Single | X-координата нового видеокадра. |
-| y | Single | Y-координата нового видеокадра. |
-| width | Single | Ширина нового видеокадра. |
-| height | Single | Высота нового видеокадра. |
+| index | Int32 | Индекс с нуля, по которому должен быть вставлен видеофрейм. |
+| x | Single | Координата X нового видеофрейма. |
+| y | Single | Координата Y нового видеофрейма. |
+| width | Single | Ширина нового видеофрейма. |
+| height | Single | Высота нового видеофрейма. |
 | fname | String | Имя видеофайла. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Созданный объект VideoFrame.
 

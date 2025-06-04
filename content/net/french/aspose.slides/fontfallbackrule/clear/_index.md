@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sldes pour .NET
 description: Supprime toutes les polices de la liste.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Supprime toutes les polices de la liste.
 public void Clear()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [FontFallBackRule](../../fontfallbackrule)
 * espace de noms [Aspose.Slides](../../fontfallbackrule)

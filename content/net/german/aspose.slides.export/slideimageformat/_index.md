@@ -1,7 +1,7 @@
 ---
 title: SlideImageFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt das Format, in dem das Folienbild für die Präsentation im HTML-Export gespeichert wird.
+description: Bestimmt das Format, in dem das Folienbild für die Präsentation zum HTML-Export gespeichert wird.
 type: docs
 weight: 4280
 url: /de/aspose.slides.export/slideimageformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/slideimageformat/
 
 ## SlideImageFormat-Klasse
 
-Bestimmt das Format, in dem das Folienbild für die Präsentation im HTML-Export gespeichert wird.
+Bestimmt das Format, in dem das Folienbild für die Präsentation zum HTML-Export gespeichert wird.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat

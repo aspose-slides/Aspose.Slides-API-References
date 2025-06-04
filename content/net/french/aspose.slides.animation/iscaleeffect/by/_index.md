@@ -1,15 +1,15 @@
 ---
 title: By
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: décrit la valeur d'offset relative pour l'animation en pourcentages. Lecture/écriture PointF.
+second_title: Référence API Aspose.Slides pour .NET
+description: décrit la valeur de décalage relatif pour l'animation en pourcentages. Lecture/écriture PointF.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/iscaleeffect/by/
 ---
 
-## Propriété IScaleEffect.By
+## IScaleEffect.By property
 
-décrit la valeur d'offset relative pour l'animation (en pourcentages). Lecture/écriture PointF.
+décrit la valeur de décalage relatif pour l'animation (en pourcentages). Lecture/écriture PointF.
 
 ```csharp
 public PointF By { get; set; }

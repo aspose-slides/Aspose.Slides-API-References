@@ -1,7 +1,7 @@
 ---
 title: ContentType
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve un tipo MIME de un audio codificado en BinaryDataaspose.slides/audio/binarydata. Solo lectura de String.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve un tipo MIME de un audio codificado en BinaryDataaspose.slides/audio/binarydata. Cadena de solo lectura.
 type: docs
 weight: 20
 url: /es/aspose.slides/audio/contenttype/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/audio/contenttype/
 
 ## Propiedad Audio.ContentType
 
-Devuelve un tipo MIME de un audio, codificado en [`BinaryData`](../binarydata). Solo lectura de String.
+Devuelve un tipo MIME de un audio, codificado en [`BinaryData`](../binarydata). Cadena de solo lectura.
 
 ```csharp
 public string ContentType { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * clase [Audio](../../audio)
 * espacio de nombres [Aspose.Slides](../../audio)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

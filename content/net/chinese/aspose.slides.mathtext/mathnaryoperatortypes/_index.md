@@ -1,7 +1,7 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes for .NET API 参考
-description: Nary 操作符 IMathNaryOperator 类型（不包括积分），有关积分请参见 MathIntegralTypes../mathintegraltypes
+second_title: Aspose.Sildes for .NET API Reference
+description: Nary operator IMathNaryOperator types excluding integrals For integrals MathIntegralTypes./mathintegraltypes
 type: docs
 weight: 8630
 url: /zh/aspose.slides.mathtext/mathnaryoperatortypes/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathnaryoperatortypes/
 
 ## MathNaryOperatorTypes 枚举
 
-Nary 操作符 IMathNaryOperator 类型（不包括积分），有关积分请参见 [`MathIntegralTypes`](../mathintegraltypes)
+Nary operator IMathNaryOperator 类型（不包括积分）对于积分 [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -21,13 +21,13 @@ public enum MathNaryOperatorTypes
 | --- | --- | --- |
 | Summation | `0` | 求和: '∑' |
 | Product | `1` | 乘积: '∏' |
-| CoProduct | `2` | 共积: '∐' |
+| CoProduct | `2` | 余积: '∐' |
 | Intersection | `3` | 交集: '∩' |
 | Union | `4` | 并集: '∪' |
 | LogicalAnd | `5` | 逻辑与: '∧' |
 | LogicalOr | `6` | 逻辑或: '∨' |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

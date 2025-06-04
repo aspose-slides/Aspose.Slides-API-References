@@ -1,6 +1,6 @@
 ---
 title: IChartDataPointLevel
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Datenpunkt-Ebene dar. Gilt für Treemap- und Sunburst-Diagramme.
 type: docs
 weight: 1760
@@ -19,8 +19,8 @@ public interface IChartDataPointLevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Stellt die Formatierungseigenschaften der Datenpunkt-Ebene dar. Lese-/schreibbar [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Stellt das Datenetikett der Datenpunkt-Ebene dar. Gilt für Treemap- und Sunburst-Serie-Typen. Nur lesbar [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Stellt die Formatierungsattribute der Datenpunkt-Ebene dar. Lese-/Schreibzugriff [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Stellt das Datenlabel der Datenpunkt-Ebene dar. Gilt für Treemap- und Sunburst-Diagrammtypen. Nur Lesezugriff [`IDataLabel`](../idatalabel). |
 
 ### Siehe auch
 

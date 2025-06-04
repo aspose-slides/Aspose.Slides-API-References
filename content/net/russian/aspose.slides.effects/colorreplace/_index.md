@@ -1,15 +1,15 @@
 ---
 title: ColorReplace
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет эффект замены цвета. Все цвета эффекта заменяются фиксированным цветом. Значения альфа не подлежат изменению.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект замены цвета. Все цвета эффекта изменяются на фиксированный цвет. Значения альфа не затрагиваются.
 type: docs
 weight: 2850
 url: /ru/aspose.slides.effects/colorreplace/
 ---
 
-## Класс ColorReplace
+## ColorReplace class
 
-Представляет эффект замены цвета. Все цвета эффекта заменяются фиксированным цветом. Значения альфа не подлежат изменению.
+Представляет эффект замены цвета. Все цвета эффекта изменяются на фиксированный цвет. Значения альфа не затрагиваются.
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -17,20 +17,20 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Возвращает формат цвета, который будет заменять цвет каждого пикселя. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Возвращает цветовой формат, который будет заменять цвет каждого пикселя. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Определяет, равен ли заданный [`ColorReplace`](../colorreplace) текущему [`ColorReplace`](../colorreplace). |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Получает данные о действительном эффекте замены цвета с примененной наследуемой частью. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Служит хеш-функцией для определенного типа. |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Получает данные об эффективном эффекте замены цвета с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Служит хэш-функцией для данного типа. |
 
-### Также см. 
+### См. также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IColorReplace](../icolorreplace)

@@ -1,7 +1,7 @@
 ---
 title: CheckPassword
-second_title: Aspose.Sildes для .NET API Справка
-description: Проверяет, является ли пароль правильным для презентации, защищенной открытым паролем.
+second_title: Справка по API Aspose.Slides для .NET
+description: Проверяет, правильен ли пароль для презентации, защищенной открытым паролем.
 type: docs
 weight: 50
 url: /ru/aspose.slides/presentationinfo/checkpassword/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentationinfo/checkpassword/
 
 ## PresentationInfo.CheckPassword метод
 
-Проверяет, является ли пароль правильным для презентации, защищенной открытым паролем.
+Проверяет, правильен ли пароль для презентации, защищенной открытым паролем.
 
 ```csharp
 public bool CheckPassword(string password)
@@ -21,7 +21,7 @@ public bool CheckPassword(string password)
 
 ### Возвращаемое значение
 
-True, если презентация защищена открытым паролем и пароль правильный, иначе false.
+Истина, если презентация защищена открытым паролем, и пароль правильный; иначе ложь.
 
 ### Исключения
 
@@ -32,7 +32,7 @@ True, если презентация защищена открытым паро
 
 ### Примечания
 
-Когда пароль равен null или пустой, этот метод возвращает false.
+Когда пароль равен null или пустой, этот метод возвращает ложь.
 
 ### Примеры
 
@@ -42,7 +42,7 @@ IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presen
 bool isPasswordCorrect = info.CheckPassword("my_password");
 ```
 
-### См. также
+### См. Также
 
 * класс [PresentationInfo](../../presentationinfo)
 * пространство имен [Aspose.Slides](../../presentationinfo)

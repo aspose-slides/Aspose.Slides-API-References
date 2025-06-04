@@ -1,13 +1,13 @@
 ---
 title: FontSubstRule
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Crea una nueva instancia.
 type: docs
 weight: 10
 url: /es/aspose.slides/fontsubstrule/fontsubstrule/
 ---
 
-## FontSubstRule(IFontData, IFontData) {#constructor}
+## FontSubstRule(IFontData, IFontData) {#constructor}
 
 Crea una nueva instancia.
 
@@ -20,7 +20,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 | sourceFont | IFontData | Fuente de origen. |
 | destFont | IFontData | Fuente de destino. |
 
-### Véase También
+### Ver también
 
 * interface [IFontData](../../ifontdata)
 * class [FontSubstRule](../../fontsubstrule)
@@ -29,7 +29,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## FontSubstRule(IFontData, IFontData, FontSubstCondition) {#constructor_1}
+## FontSubstRule(IFontData, IFontData, FontSubstCondition) {#constructor_1}
 
 Crea una nueva instancia.
 
@@ -41,9 +41,9 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont, FontSubstConditio
 | --- | --- | --- |
 | sourceFont | IFontData | Fuente de origen. |
 | destFont | IFontData | Fuente de destino. |
-| fontSubstRule | FontSubstCondition | Regla de sustitución de fuente. |
+| fontSubstRule | FontSubstCondition | Regla de sustitución de fuentes. |
 
-### Véase También
+### Ver también
 
 * interface [IFontData](../../ifontdata)
 * enum [FontSubstCondition](../../fontsubstcondition)

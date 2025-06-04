@@ -1,7 +1,7 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回段落首行前的空白量。只读单精度浮点数。
+description: 返回段落第一行之前的空白量。只读单精度浮点数。
 type: docs
 weight: 150
 url: /zh/aspose.slides/iparagraphformateffectivedata/spacebefore/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphformateffectivedata/spacebefore/
 
 ## IParagraphFormatEffectiveData.SpaceBefore 属性
 
-返回段落首行前的空白量。只读单精度浮点数。
+返回段落第一行之前的空白量。只读单精度浮点数。
 
 ```csharp
 public float SpaceBefore { get; }

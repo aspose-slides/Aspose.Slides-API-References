@@ -1,7 +1,7 @@
 ---
 title: Shapes
-second_title: Aspose.Slides for .NET API 参考
-description: 返回与节点相关的所有形状的集合。只读 ISmartArtShapeCollection aspose.slides.smartart/ismartartshapecollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回与节点关联的所有形状的集合。只读 ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection。
 type: docs
 weight: 80
 url: /zh/aspose.slides.smartart/ismartartnode/shapes/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.smartart/ismartartnode/shapes/
 
 ## ISmartArtNode.Shapes 属性
 
-返回与节点相关的所有形状的集合。只读 [`ISmartArtShapeCollection`](../../ismartartshapecollection)。
+返回与节点关联的所有形状的集合。只读 [`ISmartArtShapeCollection`](../../ismartartshapecollection)。
 
 ```csharp
 public ISmartArtShapeCollection Shapes { get; }
 ```
 
-### 参见
+### 参考
 
 * 接口 [ISmartArtShapeCollection](../../ismartartshapecollection)
 * 接口 [ISmartArtNode](../../ismartartnode)

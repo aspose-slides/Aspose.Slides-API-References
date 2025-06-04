@@ -1,6 +1,6 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die vordefinierte Foliengröße dar.
 type: docs
 weight: 10210
@@ -19,7 +19,7 @@ public enum SlideSizeType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| OnScreen | `0` | Auf dem Bildschirm 4x3 |
+| OnScreen | `0` | Auf Bildschirm 4x3 |
 | LetterPaper | `1` | Letter |
 | A4Paper | `2` | A4 |
 | Slide35mm | `3` | Folie 35mm |
@@ -33,11 +33,11 @@ public enum SlideSizeType
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
 | HagakiCard | `13` | Hagaki-Karte |
-| OnScreen16x9 | `14` | Auf dem Bildschirm 16x9 |
-| OnScreen16x10 | `15` | Auf dem Bildschirm 16x10 |
+| OnScreen16x9 | `14` | Auf Bildschirm 16x9 |
+| OnScreen16x10 | `15` | Auf Bildschirm 16x10 |
 | Widescreen | `16` | Breitbild |
 
-### Siehe Auch
+### Siehe auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

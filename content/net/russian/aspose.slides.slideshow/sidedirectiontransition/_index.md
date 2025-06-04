@@ -1,13 +1,13 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Эффект перехода слайдов в боковом направлении.
 type: docs
 weight: 10000
 url: /ru/aspose.slides.slideshow/sidedirectiontransition/
 ---
 
-## Класс SideDirectionTransition
+## SideDirectionTransition класс
 
 Эффект перехода слайдов в боковом направлении.
 
@@ -26,9 +26,9 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется в качестве хеш-функции для конкретного типа, подходит для использования в хеширующих алгоритмах и структурах данных, таких как хеш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется в качестве хеш-функции для конкретного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### Также см. 
+### Смотрите также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [ISideDirectionTransition](../isidedirectiontransition)

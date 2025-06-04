@@ -1,6 +1,6 @@
 ---
 title: Close
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Schließt den aktuellen Stream und gibt alle Ressourcen frei.
 type: docs
 weight: 80

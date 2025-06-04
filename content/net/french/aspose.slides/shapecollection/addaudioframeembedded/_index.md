@@ -1,28 +1,28 @@
 ---
 title: AddAudioFrameEmbedded
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré ne peut être qu'un WAV. Cela ajoute un nouvel audio à la liste Presentation.Audios.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré ne peut être qu'un WAV. Il ajoute un nouvel audio à la liste Presentation.Audios.
 type: docs
 weight: 70
 url: /fr/aspose.slides/shapecollection/addaudioframeembedded/
 ---
 
-## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
+## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré ne peut être qu'un WAV. Cela ajoute un nouvel audio à la liste Presentation.Audios.
+Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Le fichier audio intégré ne peut être qu'un WAV. Il ajoute un nouvel audio à la liste Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
     Stream audio_stream)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| x | Single | Coordonnée X d'un nouveau cadre audio. |
-| y | Single | Coordonnée Y d'un nouveau cadre audio. |
-| width | Single | Largeur d'un nouveau cadre audio. |
-| height | Single | Hauteur d'un nouveau cadre audio. |
-| audio_stream | Stream | Flux d'entrée avec des données audio. |
+| Paramètre  | Type      | Description                                              |
+|------------|-----------|---------------------------------------------------------|
+| x          | Single    | Coordonnée X d'un nouveau cadre audio.                 |
+| y          | Single    | Coordonnée Y d'un nouveau cadre audio.                 |
+| width      | Single    | Largeur d'un nouveau cadre audio.                      |
+| height     | Single    | Hauteur d'un nouveau cadre audio.                      |
+| audio_stream | Stream  | Flux d'entrée/sortie avec des données audio.           |
 
 ### Valeur de retour
 
@@ -34,33 +34,33 @@ Les exemples suivants montrent comment créer un cadre audio.
 
 ```csharp
 [C#]
-// Instantiates a presentation class that represents a presentation file
+// Instancie une classe de présentation qui représente un fichier de présentation
 using (Presentation pres = new Presentation())
 {
-    // Gets the first slide
+    // Obtient la première diapositive
     ISlide sld = pres.Slides[0];
-    // Loads the the wav sound file to stream
+    // Charge le fichier audio wav dans le flux
     FileStream fstr = new FileStream("sampleaudio.wav", FileMode.Open, FileAccess.Read);
-    // Adds the Audio Frame
+    // Ajoute le cadre audio
     IAudioFrame audioFrame = sld.Shapes.AddAudioFrameEmbedded(50, 150, 100, 100, fstr);
-    // Sets the Play Mode and Volume of the Audio
+    // Définit le mode de lecture et le volume de l'audio
     audioFrame.PlayMode = AudioPlayModePreset.Auto;
     audioFrame.Volume = AudioVolumeMode.Loud;
-    // Writes the PowerPoint file to disk
+    // Écrit le fichier PowerPoint sur le disque
     pres.Save("AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 }
 ```
 
 ### Voir aussi
 
-* interface [IAudioFrame](../../iaudioframe)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [IAudioFrame](../../iaudioframe)
+* class [ShapeCollection](../../shapecollection)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
-## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
+## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
 Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une collection. Il utilise le fichier audio de la liste Presentation.Audios.
 
@@ -68,13 +68,13 @@ Ajoute un nouveau cadre audio avec un fichier audio intégré à la fin d'une co
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
 ```
 
-| Paramètre | Type | Description |
-| --- | --- | --- |
-| x | Single | Coordonnée X d'un nouveau cadre audio. |
-| y | Single | Coordonnée Y d'un nouveau cadre audio. |
-| width | Single | Largeur d'un nouveau cadre audio. |
-| height | Single | Hauteur d'un nouveau cadre audio. |
-| audio | IAudio | Audio de la liste Presentation.Audios. |
+| Paramètre  | Type      | Description                                              |
+|------------|-----------|---------------------------------------------------------|
+| x          | Single    | Coordonnée X d'un nouveau cadre audio.                 |
+| y          | Single    | Coordonnée Y d'un nouveau cadre audio.                 |
+| width      | Single    | Largeur d'un nouveau cadre audio.                      |
+| height     | Single    | Hauteur d'un nouveau cadre audio.                      |
+| audio      | IAudio    | Audio de la liste Presentation.Audios.                  |
 
 ### Valeur de retour
 
@@ -82,10 +82,10 @@ Objet AudioFrame créé.
 
 ### Voir aussi
 
-* interface [IAudioFrame](../../iaudioframe)
-* interface [IAudio](../../iaudio)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* interface [IAudioFrame](../../iaudioframe)
+* interface [IAudio](../../iaudio)
+* class [ShapeCollection](../../shapecollection)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

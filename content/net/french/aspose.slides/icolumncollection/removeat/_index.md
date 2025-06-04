@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la documentation de l'API .NET
 description: Supprime une colonne à la position spécifiée d'un tableau.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icolumncollection/removeat/
 ---
 
-## Méthode IColumnCollection.RemoveAt
+## IColumnCollection.RemoveAt méthode
 
 Supprime une colonne à la position spécifiée d'un tableau.
 

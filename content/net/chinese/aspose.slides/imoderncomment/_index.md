@@ -1,7 +1,7 @@
 ---
 title: IModernComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示幻灯片上的注释。
+description: 表示幻灯片上的评论。
 type: docs
 weight: 6260
 url: /zh/aspose.slides/imoderncomment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imoderncomment/
 
 ## IModernComment 接口
 
-表示幻灯片上的注释。
+表示幻灯片上的评论。
 
 ```csharp
 public interface IModernComment : IComment
@@ -19,11 +19,11 @@ public interface IModernComment : IComment
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | 允许获取基本的 IComment 接口。只读 [`IComment`](../icomment)。 |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | 返回与注释相关联的形状。只读 [`IShape`](../ishape)。 |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | 返回或设置注释的状态。读写 [`ModernCommentStatus`](../moderncommentstatus)。 |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | 返回或设置与自动形状相关联的文本框中的文本选择长度。读写 Int32。 |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | 返回或设置与自动形状相关联的文本框中的文本选择起始位置。读写 Int32。 |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | 允许获取基础 IComment 接口。只读 [`IComment`](../icomment)。 |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | 返回与评论相关联的形状。只读 [`IShape`](../ishape)。 |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | 返回或设置评论的状态。读写 [`ModernCommentStatus`](../moderncommentstatus)。 |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | 如果评论与自动形状相关联，返回或设置文本框中的文本选择长度。读写 Int32。 |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | 如果评论与自动形状相关联，返回或设置文本框中的文本选择起始位置。读写 Int32。 |
 
 ### 示例
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IComment](../icomment)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

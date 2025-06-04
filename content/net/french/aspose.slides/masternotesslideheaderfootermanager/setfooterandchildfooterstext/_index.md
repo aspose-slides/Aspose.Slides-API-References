@@ -1,15 +1,15 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le texte du champ de pied de page de la diapositive maître et de tous les champs de pied de page enfants. Les champs enfants signifient que les espaces réservés sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+description: Définit le texte du placeholder de pied de page de la diapositive maître et de tous les placeholders de pied de page enfants. Les placeholders enfants signifient que les placeholders sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 type: docs
 weight: 30
 url: /fr/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext/
 ---
 
-## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText méthode
+## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-Définit le texte du champ de pied de page de la diapositive maître et de tous les champs de pied de page enfants. Les champs enfants signifient que les espaces réservés sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+Définit le texte du placeholder de pied de page de la diapositive maître et de tous les placeholders de pied de page enfants. Les placeholders enfants signifient que les placeholders sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)
@@ -19,7 +19,7 @@ public void SetFooterAndChildFootersText(string text)
 | --- | --- | --- |
 | text | String | Texte à définir. |
 
-### Voir aussi
+### Voir Aussi
 
 * class [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * namespace [Aspose.Slides](../../masternotesslideheaderfootermanager)

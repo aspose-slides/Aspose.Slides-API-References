@@ -1,13 +1,13 @@
 ---
 title: SetHeaderVisibility
-second_title: Aspose.Slildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 更改幻灯片标题占位符的可见性。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility/
 ---
 
-## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility 方法
+## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility method
 
 更改幻灯片标题占位符的可见性。
 
@@ -15,9 +15,9 @@ url: /zh/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibili
 public void SetHeaderVisibility(bool isVisible)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| isVisible | Boolean | true - 使标题占位符可见，否则 - 隐藏它。 |
+| 参数      | 类型      | 描述                             |
+| --------- | --------- | -------------------------------- |
+| isVisible | Boolean   | true - 使标题占位符可见，反之则隐藏。 |
 
 ### 另见
 

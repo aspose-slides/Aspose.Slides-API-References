@@ -1,7 +1,7 @@
 ---
 title: UnderlineFillFormat
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les propriétés de FillFormat de la ligne de soulignement. En lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Renvoie les propriétés de FillFormat de la ligne soulignée. Lecture seule IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 260
 url: /fr/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 
 ## Propriété IBasePortionFormatEffectiveData.UnderlineFillFormat
 
-Renvoie les propriétés de FillFormat de la ligne de soulignement. En lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Renvoie les propriétés de FillFormat de la ligne soulignée. Lecture seule [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData UnderlineFillFormat { get; }

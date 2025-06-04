@@ -1,6 +1,6 @@
 ---
 title: Player
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 获取演示文稿播放器
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/frametickeventargs/player/
 public PresentationPlayer Player { get; }
 ```
 
-### 另见
+### 参见
 
 * class [PresentationPlayer](../../presentationplayer)
 * class [FrameTickEventArgs](../../frametickeventargs)

@@ -1,21 +1,21 @@
 ---
 title: Font
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne la police à puce d'un paragraphe. Lecture seule IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie la police des puces d'un paragraphe. Lecture seule IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ibulletformateffectivedata/font/
 ---
 
-## Propriété IBulletFormatEffectiveData.Font
+## IBulletFormatEffectiveData.Font propriété
 
-Retourne la police à puce d'un paragraphe. Lecture seule [`IFontData`](../../ifontdata).
+Renvoie la police des puces d'un paragraphe. Lecture seule [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData Font { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

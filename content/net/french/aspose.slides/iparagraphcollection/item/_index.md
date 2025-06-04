@@ -7,7 +7,7 @@ weight: 40
 url: /fr/aspose.slides/iparagraphcollection/item/
 ---
 
-## Indexeur IParagraphCollection
+## IParagraphCollection indexer
 
 Obtient l'élément à l'index spécifié.
 

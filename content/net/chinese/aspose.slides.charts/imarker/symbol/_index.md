@@ -1,6 +1,6 @@
 ---
 title: Symbol
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示线性图、散点图或雷达图中的标记样式。读/写 MarkerStyleTypeaspose.slides/markerstyletype。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/imarker/symbol/
 public MarkerStyleType Symbol { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 枚举 [MarkerStyleType](../../markerstyletype)
 * 接口 [IMarker](../../imarker)

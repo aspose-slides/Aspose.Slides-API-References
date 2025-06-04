@@ -1,21 +1,21 @@
 ---
 title: Hue
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Farbtonanteil zurück. Nur-Lese Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Farbtonprozentsatz zurück. Nur-Lese Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/ihsleffectivedata/hue/
 ---
 
-## IHSLEffectiveData.Hue-Eigenschaft
+## IHSLEffectiveData.Hue Eigenschaft
 
-Gibt den Farbtonanteil zurück. Nur-Lese Single.
+Gibt den Farbtonprozentsatz zurück. Nur-Lese Single.
 
 ```csharp
 public float Hue { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IHSLEffectiveData](../../ihsleffectivedata)
 * Namespace [Aspose.Slides.Effects](../../ihsleffectivedata)

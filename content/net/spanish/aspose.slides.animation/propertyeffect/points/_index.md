@@ -1,13 +1,13 @@
 ---
 title: Points
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Especifica los puntos de la animación. Lectura/escritura IPointCollectionaspose.slides.animation/ipointcollection.
 type: docs
 weight: 50
 url: /es/aspose.slides.animation/propertyeffect/points/
 ---
 
-## Propiedad PropertyEffect.Points
+## PropertyEffect.Points property
 
 Especifica los puntos de la animación. Lectura/escritura [`IPointCollection`](../../ipointcollection).
 
@@ -15,11 +15,11 @@ Especifica los puntos de la animación. Lectura/escritura [`IPointCollection`](.
 public IPointCollection Points { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IPointCollection](../../ipointcollection)
 * clase [PropertyEffect](../../propertyeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../propertyeffect)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

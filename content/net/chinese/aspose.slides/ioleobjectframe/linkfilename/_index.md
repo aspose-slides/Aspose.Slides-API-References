@@ -1,6 +1,6 @@
 ---
 title: LinkFileName
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回链接文件的完整路径。将使用短文件名。只读字符串。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ioleobjectframe/linkfilename/
 public string LinkFileName { get; }
 ```
 
-### 另见
+### 参见另请
 
 * 接口 [IOleObjectFrame](../../ioleobjectframe)
 * 命名空间 [Aspose.Slides](../../ioleobjectframe)

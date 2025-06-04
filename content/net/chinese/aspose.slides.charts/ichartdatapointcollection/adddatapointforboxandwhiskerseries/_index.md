@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForBoxAndWhiskerSeries
-second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾。适用于图表类型为箱线图的系列。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于图表类型为 BoxAndWhisker 的系列。
 type: docs
 weight: 90
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforboxandwhiskerseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforboxandwhi
 
 ## IChartDataPointCollection.AddDataPointForBoxAndWhiskerSeries 方法
 
-创建新数据点并将其添加到集合的末尾。适用于图表类型为箱线图的系列。
+创建新的数据点并将其添加到集合的末尾。适用于图表类型为 BoxAndWhisker 的系列。
 
 ```csharp
 public IChartDataPoint AddDataPointForBoxAndWhiskerSeries(IChartDataCell value)
@@ -23,7 +23,7 @@ public IChartDataPoint AddDataPointForBoxAndWhiskerSeries(IChartDataCell value)
 
 新数据点。
 
-### 另见
+### 另请参阅
 
 * 接口 [IChartDataPoint](../../ichartdatapoint)
 * 接口 [IChartDataCell](../../ichartdatacell)

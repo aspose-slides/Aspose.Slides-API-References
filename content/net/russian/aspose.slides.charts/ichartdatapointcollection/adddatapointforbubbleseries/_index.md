@@ -1,6 +1,6 @@
 ---
 title: AddDataPointForBubbleSeries
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Bubble см. также метод ChartTypeCharacterizer.IsChartTypeBubbleChartType.
 type: docs
 weight: 100
@@ -18,11 +18,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | IChartDataCell | Значение точки данных XValue |
-| yValue | IChartDataCell | Значение точки данных YValue |
-| bubbleSize | IChartDataCell | Размер пузырька точки данных |
+| xValue | IChartDataCell | Значение X для точки данных |
+| yValue | IChartDataCell | Значение Y для точки данных |
+| bubbleSize | IChartDataCell | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -47,11 +47,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | Double | Значение точки данных XValue |
-| yValue | IChartDataCell | Значение точки данных YValue |
-| bubbleSize | IChartDataCell | Размер пузырька точки данных |
+| xValue | Double | Значение X для точки данных |
+| yValue | IChartDataCell | Значение Y для точки данных |
+| bubbleSize | IChartDataCell | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -76,11 +76,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | String | Значение точки данных XValue |
-| yValue | IChartDataCell | Значение точки данных YValue |
-| bubbleSize | IChartDataCell | Размер пузырька точки данных |
+| xValue | String | Значение X для точки данных |
+| yValue | IChartDataCell | Значение Y для точки данных |
+| bubbleSize | IChartDataCell | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -105,11 +105,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | IChartDataCell | Значение точки данных XValue |
-| yValue | Double | Значение точки данных YValue |
-| bubbleSize | IChartDataCell | Размер пузырька точки данных |
+| xValue | IChartDataCell | Значение X для точки данных |
+| yValue | Double | Значение Y для точки данных |
+| bubbleSize | IChartDataCell | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -134,11 +134,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | Double | Значение точки данных XValue |
-| yValue | Double | Значение точки данных YValue |
-| bubbleSize | IChartDataCell | Размер пузырька точки данных |
+| xValue | Double | Значение X для точки данных |
+| yValue | Double | Значение Y для точки данных |
+| bubbleSize | IChartDataCell | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -163,11 +163,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | String | Значение точки данных XValue |
-| yValue | Double | Значение точки данных YValue |
-| bubbleSize | IChartDataCell | Размер пузырька точки данных |
+| xValue | String | Значение X для точки данных |
+| yValue | Double | Значение Y для точки данных |
+| bubbleSize | IChartDataCell | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -192,11 +192,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | IChartDataCell | Значение точки данных XValue |
-| yValue | IChartDataCell | Значение точки данных YValue |
-| bubbleSize | Double | Размер пузырька точки данных |
+| xValue | IChartDataCell | Значение X для точки данных |
+| yValue | IChartDataCell | Значение Y для точки данных |
+| bubbleSize | Double | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -221,11 +221,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | Double | Значение точки данных XValue |
-| yValue | IChartDataCell | Значение точки данных YValue |
-| bubbleSize | Double | Размер пузырька точки данных |
+| xValue | Double | Значение X для точки данных |
+| yValue | IChartDataCell | Значение Y для точки данных |
+| bubbleSize | Double | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -250,11 +250,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | String | Значение точки данных XValue |
-| yValue | IChartDataCell | Значение точки данных YValue |
-| bubbleSize | Double | Размер пузырька точки данных |
+| xValue | String | Значение X для точки данных |
+| yValue | IChartDataCell | Значение Y для точки данных |
+| bubbleSize | Double | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -279,11 +279,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | IChartDataCell | Значение точки данных XValue |
-| yValue | Double | Значение точки данных YValue |
-| bubbleSize | Double | Размер пузырька точки данных |
+| xValue | IChartDataCell | Значение X для точки данных |
+| yValue | Double | Значение Y для точки данных |
+| bubbleSize | Double | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -307,11 +307,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | Double | Значение точки данных XValue |
-| yValue | Double | Значение точки данных YValue |
-| bubbleSize | Double | Размер пузырька точки данных |
+| xValue | Double | Значение X для точки данных |
+| yValue | Double | Значение Y для точки данных |
+| bubbleSize | Double | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 
@@ -334,11 +334,11 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xValue | String | Значение точки данных XValue |
-| yValue | Double | Значение точки данных YValue |
-| bubbleSize | Double | Размер пузырька точки данных |
+| xValue | String | Значение X для точки данных |
+| yValue | Double | Значение Y для точки данных |
+| bubbleSize | Double | Размер пузырька для точки данных |
 
-### Возвращаемое значение
+### Значение возвращаемого значения
 
 Новая точка данных.
 

@@ -1,15 +1,15 @@
 ---
 title: Password
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Получает или устанавливает пароль. Читаемая/пишемая строка.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или устанавливает пароль. Читаемая/записываемая строка.
 type: docs
 weight: 120
 url: /ru/aspose.slides/loadoptions/password/
 ---
 
-## Свойство LoadOptions.Password
+## LoadOptions.Password свойство
 
-Получает или устанавливает пароль. Читаемая/пишемая строка.
+Получает или устанавливает пароль. Читаемая/записываемая строка.
 
 ```csharp
 public string Password { get; set; }
@@ -21,7 +21,7 @@ public string Password { get; set; }
 
 ### Примеры
 
-Следующий пример кода показывает, как открыть защищённую паролем презентацию PowerPoint.
+Следующий пример кода показывает, как открыть презентацию PowerPoint с защитой паролем.
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ public string Password { get; set; }
 	}
 ```
 
-### Смотрите также
+### См. также
 
 * класс [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)

@@ -1,7 +1,7 @@
 ---
 title: Contains
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si l'ICollection contient une valeur spécifique.
+second_title: Aspose.Slides pour la référence API .NET
+description: Détermine si ICollection contient une valeur spécifique.
 type: docs
 weight: 70
 url: /fr/aspose.slides/paragraphcollection/contains/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/paragraphcollection/contains/
 
 ## Méthode ParagraphCollection.Contains
 
-Détermine si l'ICollection contient une valeur spécifique.
+Détermine si ICollection contient une valeur spécifique.
 
 ```csharp
 public bool Contains(IParagraph item)
@@ -17,11 +17,11 @@ public bool Contains(IParagraph item)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| item | IParagraph | L'objet à localiser dans l'ICollection. |
+| item | IParagraph | L'objet à localiser dans ICollection. |
 
-### Valeur de Retour
+### Valeur de retour
 
-true si *item* est trouvé dans l'ICollection ; sinon, false.
+true si *item* est trouvé dans ICollection ; sinon, false.
 
 ### Voir aussi
 

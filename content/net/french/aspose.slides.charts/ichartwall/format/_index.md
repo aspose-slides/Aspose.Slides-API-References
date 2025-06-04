@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les effets de remplissage mural, de ligne et les styles 3D. En lecture seule IFormataspose.slides.charts/iformat.
+description: Renvoie les styles d'effets de ligne de remplissage mural 3D. En lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/ichartwall/format/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartwall/format/
 
 ## Propriété IChartWall.Format
 
-Renvoie le remplissage mural, la ligne, les effets, et les styles 3D. En lecture seule [`IFormat`](../../iformat).
+Renvoie le remplissage mural, la ligne, l'effet, les styles 3D. En lecture seule [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

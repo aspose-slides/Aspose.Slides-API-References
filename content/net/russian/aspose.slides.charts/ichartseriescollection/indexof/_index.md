@@ -1,15 +1,15 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides для .NET Справочник API
-description: Ищет указанный IChartSeriesaspose.slides.charts/ichartseries и возвращает индекс первого появления в нулевом основании в всей Коллекции
+second_title: Aspose.Sildes для .NET справочник API
+description: Ищет указанный IChartSeriesaspose.slides.charts/ichartseries и возвращает индекс нуля первого появления в всей коллекции
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/ichartseriescollection/indexof/
 ---
 
-## Метод IChartSeriesCollection.IndexOf
+## IChartSeriesCollection.IndexOf метод
 
-Ищет указанный [`IChartSeries`](../../ichartseries) и возвращает индекс первого появления в нулевом основании в всей Коллекции
+Ищет указанный [`IChartSeries`](../../ichartseries) и возвращает индекс нуля первого появления в всей коллекции
 
 ```csharp
 public int IndexOf(IChartSeries value)
@@ -21,9 +21,9 @@ public int IndexOf(IChartSeries value)
 
 ### Возвращаемое значение
 
-Индекс первого появления значения в нулевом основании в всей CollectionBase, если найдено; в противном случае -1.
+Индекс нуля первого появления значения в целой CollectionBase, если найден; в противном случае -1.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartSeries](../../ichartseries)
 * интерфейс [IChartSeriesCollection](../../ichartseriescollection)

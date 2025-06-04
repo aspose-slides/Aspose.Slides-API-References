@@ -15,7 +15,7 @@ Devuelve la fecha en que una presentación fue impresa por última vez. Lectura/
 public DateTime LastPrinted { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IDocumentProperties](../../idocumentproperties)
 * espacio de nombres [Aspose.Slides](../../idocumentproperties)

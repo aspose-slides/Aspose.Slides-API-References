@@ -1,6 +1,6 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回文本方向。只读 TextVerticalTypeaspose.slides/textverticaltype。
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/itextframeformateffectivedata/textverticaltype/
 public TextVerticalType TextVerticalType { get; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [TextVerticalType](../../textverticaltype)
 * 接口 [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)

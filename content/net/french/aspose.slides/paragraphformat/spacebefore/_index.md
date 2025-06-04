@@ -1,7 +1,7 @@
 ---
 title: SpaceBefore
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que l'espace blanc doit représenter. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Simple.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que l'espace blanc doit représenter. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Single.
 type: docs
 weight: 130
 url: /fr/aspose.slides/paragraphformat/spacebefore/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/paragraphformat/spacebefore/
 
 ## Propriété ParagraphFormat.SpaceBefore
 
-Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que l'espace blanc doit représenter. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Simple.
+Renvoie ou définit la quantité d'espace avant la première ligne d'un paragraphe sans héritage. Une valeur positive spécifie le pourcentage de la taille de la police que l'espace blanc doit représenter. Une valeur négative spécifie la taille de l'espace blanc en points. Lecture/écriture Single.
 
 ```csharp
 public float SpaceBefore { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ParagraphFormat](../../paragraphformat)
 * espace de noms [Aspose.Slides](../../paragraphformat)

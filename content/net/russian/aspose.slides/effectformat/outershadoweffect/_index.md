@@ -7,7 +7,7 @@ weight: 60
 url: /ru/aspose.slides/effectformat/outershadoweffect/
 ---
 
-## Свойство EffectFormat.OuterShadowEffect
+## EffectFormat.OuterShadowEffect свойство
 
 Внешняя тень. Чтение/запись [`IOuterShadow`](../../../aspose.slides.effects/ioutershadow).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/effectformat/outershadoweffect/
 public IOuterShadow OuterShadowEffect { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IOuterShadow](../../../aspose.slides.effects/ioutershadow)
 * класс [EffectFormat](../../effectformat)

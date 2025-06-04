@@ -1,7 +1,7 @@
 ---
 title: BackgroundFillStyles
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une collection de styles de remplissage de fond définis par le thème. IFillFormatCollection en lecture seule aspose.slides.theme/ifillformatcollection.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie une collection de styles de remplissage d'arrière-plan définis par le thème. Lecture seule IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/formatscheme/backgroundfillstyles/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/formatscheme/backgroundfillstyles/
 
 ## Propriété FormatScheme.BackgroundFillStyles
 
-Renvoie une collection de styles de remplissage de fond définis par le thème. Lecture seule [`IFillFormatCollection`](../../ifillformatcollection).
+Renvoie une collection de styles de remplissage d'arrière-plan définis par le thème. Lecture seule [`IFillFormatCollection`](../../ifillformatcollection).
 
 ```csharp
 public IFillFormatCollection BackgroundFillStyles { get; }

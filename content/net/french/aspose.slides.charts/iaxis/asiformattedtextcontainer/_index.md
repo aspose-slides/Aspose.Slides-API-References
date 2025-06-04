@@ -1,21 +1,21 @@
 ---
 title: AsIFormattedTextContainer
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IFormattedTextContainer. IFormattedTextContainer en lecture seule aspose.slides.charts/iformattedtextcontainer.
+second_title: Référence API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface IFormattedTextContainer de base. IFormattedTextContainer en lecture seule aspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/iaxis/asiformattedtextcontainer/
 ---
 
-## Propriété IAxis.AsIFormattedTextContainer
+## IAxis.AsIFormattedTextContainer propriété
 
-Permet d'obtenir l'interface de base IFormattedTextContainer. Lire seule [`IFormattedTextContainer`](../../iformattedtextcontainer).
+Permet d'obtenir l'interface IFormattedTextContainer de base. IFormattedTextContainer en lecture seule [`IFormattedTextContainer`](../../iformattedtextcontainer).
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFormattedTextContainer](../../iformattedtextcontainer)
 * interface [IAxis](../../iaxis)

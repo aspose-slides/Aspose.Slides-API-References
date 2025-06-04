@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Ausrichtungsstil eines Tabs zurück. Nur lesbares TabAlignment aspose.slides/tabalignment.
+description: Gibt den Ausrichtungsstil eines Tabs zurück. Nur القراءة TabAlignmentaspose.slides/tabalignment.
 type: docs
 weight: 10
 url: /de/aspose.slides/itabeffectivedata/alignment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itabeffectivedata/alignment/
 
 ## ITabEffectiveData.Alignment-Eigenschaft
 
-Gibt den Ausrichtungsstil eines Tabs zurück. Nur lesbares [`TabAlignment`](../../tabalignment).
+Gibt den Ausrichtungsstil eines Tabs zurück. Nur القراءة [`TabAlignment`](../../tabalignment).
 
 ```csharp
 public TabAlignment Alignment { get; }

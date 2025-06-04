@@ -19,11 +19,11 @@ public interface IFontScheme
 
 | Nombre | Descripción |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Devuelve la colección de fuentes para una parte de "encabezado" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Devuelve la colección de fuentes para una parte de "título" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
 | [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Devuelve la colección de fuentes para una parte de "cuerpo" de la diapositiva. Solo lectura [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Devuelve el nombre del esquema de fuentes. Lectura/escritura de cadena. |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Devuelve el nombre del esquema de fuentes. Lectura/escritura String. |
 
-### Vea También
+### Ver También
 
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

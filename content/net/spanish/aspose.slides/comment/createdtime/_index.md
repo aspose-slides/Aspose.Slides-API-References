@@ -1,7 +1,7 @@
 ---
 title: CreatedTime
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece el tiempo de creación de un comentario. Establecer esta propiedad en MinValue significa que no se ha establecido ningún tiempo de comentario. Lectura/escritura DateTime.
+description: Devuelve o establece la hora de creación de un comentario. Establecer esta propiedad en MinValue significa que no se ha establecido hora de comentario. Lectura/escritura DateTime.
 type: docs
 weight: 20
 url: /es/aspose.slides/comment/createdtime/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/comment/createdtime/
 
 ## Propiedad Comment.CreatedTime
 
-Devuelve o establece el tiempo de creación de un comentario. Establecer esta propiedad en MinValue significa que no se ha establecido ningún tiempo de comentario. Lectura/escritura DateTime.
+Devuelve o establece la hora de creación de un comentario. Establecer esta propiedad en MinValue significa que no se ha establecido hora de comentario. Lectura/escritura DateTime.
 
 ```csharp
 public DateTime CreatedTime { get; set; }
@@ -17,9 +17,9 @@ public DateTime CreatedTime { get; set; }
 
 ### Observaciones
 
-El tiempo de comentario es un parámetro opcional.
+La hora del comentario es un parámetro opcional.
 
-### Véase también
+### Ver también
 
 * class [Comment](../../comment)
 * namespace [Aspose.Slides](../../comment)

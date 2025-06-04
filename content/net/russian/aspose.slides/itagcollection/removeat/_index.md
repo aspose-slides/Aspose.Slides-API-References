@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Удаляет тег по указанному индексу.
 type: docs
 weight: 100
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевой индекс тега, который необходимо удалить. |
+| index | Int32 | Индекс тега для удаления, основанный на нулях. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ITagCollection](../../itagcollection)
 * пространство имен [Aspose.Slides](../../itagcollection)

@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 在集合的末尾添加签名。
 type: docs
 weight: 50
 url: /zh/aspose.slides/digitalsignaturecollection/add/
 ---
 
-## DigitalSignatureCollection.Add 方法
+## DigitalSignatureCollection.Add method
 
 在集合的末尾添加签名。
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IDigitalSignature](../../idigitalsignature)
 * 类 [DigitalSignatureCollection](../../digitalsignaturecollection)

@@ -1,21 +1,21 @@
 ---
 title: ParentLabelLayout
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt das Layout der übergeordneten Kategorienbeschriftungen dar. Gilt nur für Treemap-Diagramme.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt das Layout der übergeordneten Kategorielabel dar. Gilt nur für Treemap-Diagramme.
 type: docs
 weight: 280
 url: /de/aspose.slides.charts/chartseries/parentlabellayout/
 ---
 
-## ChartSeries.ParentLabelLayout-Eigenschaft
+## ChartSeries.ParentLabelLayout Eigenschaften
 
-Stellt das Layout der übergeordneten Kategorienbeschriftungen dar. Gilt nur für Treemap-Diagramme.
+Stellt das Layout der übergeordneten Kategorielabel dar. Gilt nur für Treemap-Diagramme.
 
 ```csharp
 public ParentLabelLayoutType ParentLabelLayout { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ParentLabelLayoutType](../../parentlabellayouttype)
 * class [ChartSeries](../../chartseries)

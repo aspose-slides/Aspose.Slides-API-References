@@ -1,21 +1,21 @@
 ---
 title: BorderTop
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает объект свойств верхней границы линии. Только для чтения ILineFormataspose.slides/ilineformat.
+second_title: Aspose.Sildes для .NET API Справка
+description: Возвращает объект свойств верхней линии границы. Только для чтения ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 60
 url: /ru/aspose.slides/cellformat/bordertop/
 ---
 
-## Свойство CellFormat.BorderTop
+## CellFormat.BorderTop свойство
 
-Возвращает объект свойств верхней границы линии. Только для чтения [`ILineFormat`](../../ilineformat).
+Возвращает объект свойств верхней линии границы. Только для чтения [`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderTop { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ILineFormat](../../ilineformat)
 * класс [CellFormat](../../cellformat)

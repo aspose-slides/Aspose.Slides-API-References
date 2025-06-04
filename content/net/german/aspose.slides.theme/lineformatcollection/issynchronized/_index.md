@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur-Lese-Boolescher Wert.
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert threadsicher ist. Schreibgeschützter Boolescher Wert.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/lineformatcollection/issynchronized/
 ---
 
-## LineFormatCollection.IsSynchronized Eigenschaft
+## LineFormatCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese-Boolescher Wert.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Schreibgeschützter Boolescher Wert.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [LineFormatCollection](../../lineformatcollection)
 * Namespace [Aspose.Slides.Theme](../../lineformatcollection)

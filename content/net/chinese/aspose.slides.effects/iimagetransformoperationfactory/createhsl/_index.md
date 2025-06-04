@@ -1,6 +1,6 @@
 ---
 title: CreateHSL
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建色相饱和度亮度效果。
 type: docs
 weight: 150
@@ -23,7 +23,7 @@ public IHSL CreateHSL(float hue, float saturation, float luminance)
 
 ### 返回值
 
-HSL 效果。
+HSL效果。
 
 ### 另请参见
 

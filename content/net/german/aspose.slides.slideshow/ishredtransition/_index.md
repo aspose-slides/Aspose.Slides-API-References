@@ -1,7 +1,7 @@
 ---
 title: IShredTransition
 second_title: Aspose.Slides für .NET API-Referenz
-description: Shred-Folienübergangseffekt.
+description: Shred Folienübergangseffekt.
 type: docs
 weight: 9870
 url: /de/aspose.slides.slideshow/ishredtransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/ishredtransition/
 
 ## IShredTransition-Schnittstelle
 
-Shred-Folienübergangseffekt.
+Shred Folienübergangseffekt.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IShredTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Nur lesen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Gibt die Form der visuellen Elemente an, die während des Übergangs verwendet werden. Lese-/Schreibzugriff [`TransitionShredPattern`](../transitionshredpattern). |
 

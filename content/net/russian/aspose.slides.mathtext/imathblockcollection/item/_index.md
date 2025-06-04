@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает элемент по указанному индексу. Только для чтения IMathBlockaspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public IMathBlock this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс элемента, начинающийся с нуля, для получения |
+| index | Нулевой индекс элемента, который нужно получить |
 
 ### Возвращаемое значение
 

@@ -15,7 +15,7 @@ url: /ru/aspose.slides/tagcollection/count/
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [TagCollection](../../tagcollection)
 * пространство имен [Aspose.Slides](../../tagcollection)

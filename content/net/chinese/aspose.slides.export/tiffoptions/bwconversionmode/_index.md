@@ -1,7 +1,7 @@
 ---
 title: BwConversionMode
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定将彩色图像转换为黑白图像的算法。此选项仅在 CompressionType../compressiontype 设置为 CCITT4 或 CCITT3 时适用。读/写 BlackWhiteConversionModeaspose.slides/blackwhiteconversionmode。默认为 Default。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定将彩色图像转换为黑白图像的算法。该选项仅在 CompressionTypeaspose.slides.export/tiffoptions/compressiontype 设置为 CCITT4 或 CCITT3 时应用。读/写 BlackWhiteConversionModeaspose.slides.export/blackwhiteconversionmode。默认值为 Default。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/tiffoptions/bwconversionmode/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/tiffoptions/bwconversionmode/
 
 ## TiffOptions.BwConversionMode 属性
 
-指定将彩色图像转换为黑白图像的算法。此选项仅在 [`CompressionType`](../compressiontype) 设置为 CCITT4 或 CCITT3 时适用。读/写 [`BlackWhiteConversionMode`](../../blackwhiteconversionmode)。默认为 Default。
+指定将彩色图像转换为黑白图像的算法。该选项仅在 [`CompressionType`](../compressiontype) 设置为 CCITT4 或 CCITT3 时应用。读/写 [`BlackWhiteConversionMode`](../../blackwhiteconversionmode)。默认值为 Default。
 
 ```csharp
 public BlackWhiteConversionMode BwConversionMode { get; set; }
@@ -40,7 +40,7 @@ Using presentation As New Presentation()
 End Using
 ```
 
-### 另请参见
+### 另见
 
 * enum [BlackWhiteConversionMode](../../blackwhiteconversionmode)
 * class [TiffOptions](../../tiffoptions)

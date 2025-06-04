@@ -7,7 +7,7 @@ weight: 230
 url: /es/aspose.slides/idocumentproperties/nameofapplication/
 ---
 
-## Propiedad IDocumentProperties.NameOfApplication
+## IDocumentProperties.NameOfApplication property
 
 Devuelve o establece el nombre de la aplicación. Cadena de lectura/escritura.
 
@@ -15,10 +15,10 @@ Devuelve o establece el nombre de la aplicación. Cadena de lectura/escritura.
 public string NameOfApplication { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IDocumentProperties](../../idocumentproperties)
+* espacio de nombres [Aspose.Slides](../../idocumentproperties)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

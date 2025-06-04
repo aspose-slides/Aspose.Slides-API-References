@@ -1,7 +1,7 @@
 ---
 title: SmartTagClean
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Smart Tag bereinigt werden sollte. Keine Vererbung angewendet. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob der Smart Tag gereinigt werden soll. Keine Vererbung angewendet. Lese-/Schreib-Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/portionformat/smarttagclean/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/portionformat/smarttagclean/
 
 ## PortionFormat.SmartTagClean-Eigenschaft
 
-Bestimmt, ob das Smart Tag bereinigt werden sollte. Keine Vererbung angewendet. Lese-/Schreib-Boolean.
+Bestimmt, ob der Smart Tag gereinigt werden soll. Keine Vererbung angewendet. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool SmartTagClean { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PortionFormat](../../portionformat)
 * Namespace [Aspose.Slides](../../portionformat)

@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Sirve como una función hash para un tipo particular.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/bilevel/gethashcode/
 ---
 
-## Método BiLevel.GetHashCode
+## BiLevel.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -19,10 +19,10 @@ public override int GetHashCode()
 
 Un código hash para el objeto actual.
 
-### Véase También
+### Ver También
 
 * clase [BiLevel](../../bilevel)
-* namespace [Aspose.Slides.Effects](../../bilevel)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides.Effects](../../bilevel)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

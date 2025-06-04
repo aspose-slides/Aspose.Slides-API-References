@@ -19,6 +19,6 @@ public TabFactory()
 
 * clase [TabFactory](../../tabfactory)
 * espacio de nombres [Aspose.Slides](../../tabfactory)
-* ensamblado [Aspose.Slides](../../../)
+* asamblea [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes for .NET API Referenz
 description: Entfernt das erste Vorkommen einer bestimmten FallBack-Schriftart aus der Liste.
 type: docs
 weight: 90
@@ -30,7 +30,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 newRule.Remove ("Tahoma");
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRule](../../fontfallbackrule)
 * Namespace [Aspose.Slides](../../fontfallbackrule)

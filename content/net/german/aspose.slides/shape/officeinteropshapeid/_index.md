@@ -1,15 +1,15 @@
 ---
 title: OfficeInteropShapeId
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält die eindeutige Formenkennung im Folienkontext. Nur lesbarer UInt32. Siehe auch UniqueIdaspose.slides/shape/uniqueid, um die eindeutige Formenkennung im Präsentationskontext zu erhalten.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erhält die eindeutige Form-ID im Folienkontext. Nur lesbar UInt32. Siehe auch UniqueIdaspose.slides/shape/uniqueid, um die eindeutige Form-ID im Präsentationskontext zu erhalten.
 type: docs
 weight: 190
 url: /de/aspose.slides/shape/officeinteropshapeid/
 ---
 
-## Shape.OfficeInteropShapeId Eigenschaft
+## Shape.OfficeInteropShapeId-Eigenschaft
 
-Erhält die eindeutige Formenkennung im Folienkontext. Nur lesbarer UInt32. Siehe auch [`UniqueId`](../uniqueid), um die eindeutige Formenkennung im Präsentationskontext zu erhalten.
+Erhält die eindeutige Form-ID im Folienkontext. Nur lesbar UInt32. Siehe auch [`UniqueId`](../uniqueid), um die eindeutige Form-ID im Präsentationskontext zu erhalten.
 
 ```csharp
 public uint OfficeInteropShapeId { get; }

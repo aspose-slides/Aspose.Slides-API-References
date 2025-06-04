@@ -1,7 +1,7 @@
 ---
 title: PresetColor
-second_title: Aspose.Slidess for .NET API 参考
-description: 表示预定义的颜色预设。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表预定义颜色预设。
 type: docs
 weight: 9390
 url: /zh/aspose.slides/presetcolor/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presetcolor/
 
 ## PresetColor 枚举
 
-表示预定义的颜色预设。
+代表预定义颜色预设。
 
 ```csharp
 public enum PresetColor
@@ -161,7 +161,7 @@ public enum PresetColor
 | Yellow | `138` |  |
 | YellowGreen | `139` |  |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,15 +1,15 @@
 ---
 title: MetafileRasterizationDpi
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la limite inférieure de résolution pour la rasterisation de mét fichiers. Lecture/écriture Int32.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la limite de résolution inférieure pour la rasterisation de mét fichiers. Lecture/écriture Int32.
 type: docs
 weight: 100
 url: /fr/aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 ---
 
-## Propriété ISVGOptions.MetafileRasterizationDpi
+## ISVGOptions.MetafileRasterizationDpi propriété
 
-Renvoie ou définit la limite inférieure de résolution pour la rasterisation de mét fichiers. Lecture/écriture Int32.
+Renvoie ou définit la limite de résolution inférieure pour la rasterisation de mét fichiers. Lecture/écriture Int32.
 
 ```csharp
 public int MetafileRasterizationDpi { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: ParentShape
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для справки по API .NET
 description: Возвращает Shape_PPT, для которого был создан элемент. Только для чтения Shapeaspose.slides/shape.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/shapeelement/parentshape/
 public Shape ParentShape { get; }
 ```
 
-### См. также
+### Также см. 
 
 * класс [Shape](../../shape)
 * класс [ShapeElement](../../shapeelement)

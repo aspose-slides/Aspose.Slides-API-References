@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die effektiven Eigenschaften der Formatierung von Tabellenkategorien mit vererbten und angewandten Tabellenstilen ab.
+description: Holt effektive Tabellen-Spaltenformatierungs-Eigenschaften mit Vererbung und angewendeten Tabellenstilen.
 type: docs
 weight: 10
 url: /de/aspose.slides/icolumnformat/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icolumnformat/geteffective/
 
 ## IColumnFormat.GetEffective-Methode
 
-Ruft die effektiven Eigenschaften der Formatierung von Tabellenkategorien mit vererbten und angewandten Tabellenstilen ab.
+Holt effektive Tabellen-Spaltenformatierungs-Eigenschaften mit Vererbung und angewendeten Tabellenstilen.
 
 ```csharp
 public IColumnFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IColumnFormatEffectiveData GetEffective()
 
 Ein [`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IColumnFormatEffectiveData](../../icolumnformateffectivedata)
 * Schnittstelle [IColumnFormat](../../icolumnformat)

@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает элемент по указанному индексу. Только для чтения Color.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/icolorschemeeffectivedata/item/
 public Color this[ColorSchemeIndex index] { get; }
 ```
 
-### См. также
+### См. Также
 
 * enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex)
 * interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)

@@ -1,6 +1,6 @@
 ---
 title: ChartDataTable
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para la referencia de la API de .NET
 description: Devuelve una tabla de datos de un gráfico. Solo lectura IDataTableaspose.slides.charts/idatatable.
 type: docs
 weight: 70
@@ -15,9 +15,11 @@ Devuelve una tabla de datos de un gráfico. Solo lectura [`IDataTable`](../../id
 public IDataTable ChartDataTable { get; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IDataTable](../../idatatable)
 * interfaz [IChart](../../ichart)
 * espacio de nombres [Aspose.Slides.Charts](../../ichart)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

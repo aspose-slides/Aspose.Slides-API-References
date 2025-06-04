@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Eigenschaften des Text FillFormat zurück. Nur lesend IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Gibt die Text-FillFormat-Eigenschaften zurück. Nur-Lese IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 60
 url: /de/aspose.slides/ibaseportionformateffectivedata/fillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/fillformat/
 
 ## IBasePortionFormatEffectiveData.FillFormat-Eigenschaft
 
-Gibt die Eigenschaften des Text FillFormat zurück. Nur lesend [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Gibt die Text-FillFormat-Eigenschaften zurück. Nur-Lese [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }

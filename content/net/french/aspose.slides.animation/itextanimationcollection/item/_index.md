@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne l'élément par index.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie l'élément par index.
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/itextanimationcollection/item/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/itextanimationcollection/item/
 
 ## Indexeur ITextAnimationCollection (1 sur 2)
 
-Retourne l'élément par index.
+Renvoie l'élément par index.
 
 ```csharp
 public ITextAnimation this[int index] { get; }
@@ -26,7 +26,7 @@ public ITextAnimation this[int index] { get; }
 
 ## Indexeur ITextAnimationCollection (2 sur 2)
 
-Retourne tous les éléments
+Renvoie tous les éléments
 
 ```csharp
 public ITextAnimation[] this[IShape shape] { get; }

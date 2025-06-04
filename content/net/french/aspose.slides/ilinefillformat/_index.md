@@ -1,7 +1,7 @@
 ---
 title: ILineFillFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente les propriétés pour le remplissage des lignes.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente des propriétés pour le remplissage des lignes.
 type: docs
 weight: 6090
 url: /fr/aspose.slides/ilinefillformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilinefillformat/
 
 ## Interface ILineFillFormat
 
-Représente les propriétés pour le remplissage des lignes.
+Représente des propriétés pour le remplissage des lignes.
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -22,9 +22,9 @@ public interface ILineFillFormat : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Permet d'obtenir l'interface de base IFillParamSource. Lecture seule [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Renvoie ou définit le type de remplissage. Lecture/écriture [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Renvoie le format de remplissage en dégradé. Lecture seule [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Renvoie le format de remplissage par motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Renvoie le format de remplissage en motif. Lecture seule [`IPatternFormat`](../ipatternformat). |
 | [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Détermine si le remplissage doit être tourné avec une forme. Lecture/écriture [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage uni. Lecture seule [`IColorFormat`](../icolorformat). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Renvoie la couleur d'un remplissage solide. Lecture seule [`IColorFormat`](../icolorformat). |
 
 ### Voir aussi
 

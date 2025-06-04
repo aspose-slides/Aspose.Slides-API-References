@@ -1,7 +1,7 @@
 ---
 title: IMathFractionFactory
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht die Erstellung einer mathematischen Bruch
+description: Ermöglicht die Erstellung einer mathematischen Fraktion
 type: docs
 weight: 8010
 url: /de/aspose.slides.mathtext/imathfractionfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathfractionfactory/
 
 ## IMathFractionFactory-Schnittstelle
 
-Ermöglicht die Erstellung einer mathematischen Bruch
+Ermöglicht die Erstellung einer mathematischen Fraktion
 
 ```csharp
 public interface IMathFractionFactory
@@ -19,14 +19,14 @@ public interface IMathFractionFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Erstellt einen mathematischen Bruch |
-| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Erstellt einen mathematischen Bruch |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Erstellt eine mathematische Fraktion |
+| [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Erstellt eine mathematische Fraktion |
 
-### Hinweise
+### Anmerkungen
 
-Für die COM-Kompatibilität
+Für COM-Kompatibilität
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * Assembly [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: IncludeOleData
 second_title: Aspose.Sildes for .NET API Reference
-description: True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write Boolean.
+description: 如果为真，则将演示文稿中的所有 OLE 数据转换为结果 PDF 中的嵌入文件。可读/可写布尔值。
 type: docs
 weight: 110
 url: /zh/aspose.slides.export/pdfoptions/includeoledata/
@@ -9,19 +9,19 @@ url: /zh/aspose.slides.export/pdfoptions/includeoledata/
 
 ## PdfOptions.IncludeOleData 属性
 
-True 表示将演示文稿中的所有 OLE 数据转换为嵌入文件，以便在生成的 PDF 中使用。可读写布尔值。
+如果为真，则将演示文稿中的所有 OLE 数据转换为结果 PDF 中的嵌入文件。可读/可写布尔值。
 
 ```csharp
 public bool IncludeOleData { get; set; }
 ```
 
-### 备注
+### 注释
 
 默认值为 **false**。
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * class [PdfOptions](../../pdfoptions)
 * namespace [Aspose.Slides.Export](../../pdfoptions)

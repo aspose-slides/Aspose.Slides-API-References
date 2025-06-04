@@ -1,15 +1,15 @@
 ---
 title: IImageCollection
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert eine Sammlung von PPImage.
+description: Stellt eine Sammlung von PPImage dar.
 type: docs
 weight: 5960
 url: /de/aspose.slides/iimagecollection/
 ---
 
-## IImageCollection Schnittstelle
+## IImageCollection-Schnittstelle
 
-Repräsentiert eine Sammlung von PPImage.
+Stellt eine Sammlung von PPImage dar.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -19,21 +19,21 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | Gibt das Bild nach seinem Index zurück. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | Gibt ein Bild anhand seines Index zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | Fügt eine Präsentation ein Bild aus dem angegebenen Puffer hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Fügt eine Präsentation ein Bild hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | Fügt ein Bild zu einer Präsentation hinzu. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | Fügt eine Kopie eines Bildes aus einer anderen Präsentation hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Fügt eine Präsentation ein Bild aus einem SVG-Objekt hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(MemoryStream) | Fügt ein Bild aus einem Speicherstrom hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream) | Fügt eine Präsentation ein Bild aus einem Stream hinzu. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Bild aus einem Stream in eine Präsentation hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | Fügt ein Bild aus einem SVG-Objekt zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(MemoryStream) | Fügt ein Bild aus einem Speicherstream hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream) | Fügt ein Bild aus einem Stream zu einer Präsentation hinzu. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Erstellt und fügt ein Bild aus einem Stream zu einer Präsentation hinzu. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * Schnittstelle [IPPImage](../ippimage)

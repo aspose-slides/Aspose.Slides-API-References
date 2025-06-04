@@ -1,7 +1,7 @@
 ---
 title: FillMode
-second_title: Aspose.Slides für .NET API-Referenz
-description: Setzt den Füllmodus
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Legt den Füllmodus fest
 type: docs
 weight: 20
 url: /de/aspose.slides/geometrypath/fillmode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/geometrypath/fillmode/
 
 ## GeometryPath.FillMode-Eigenschaft
 
-Setzt den Füllmodus
+Legt den Füllmodus fest
 
 ```csharp
 public PathFillModeType FillMode { get; set; }

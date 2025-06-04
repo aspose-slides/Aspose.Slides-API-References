@@ -1,13 +1,13 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt den Typ der Quartilmethode zurück
 type: docs
 weight: 2310
 url: /de/aspose.slides.charts/quartilemethodtype/
 ---
 
-## QuartileMethodType Aufzählung
+## QuartileMethodType-Enumeration
 
 Gibt den Typ der Quartilmethode zurück
 

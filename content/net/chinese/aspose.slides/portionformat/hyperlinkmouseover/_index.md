@@ -1,7 +1,7 @@
 ---
 title: HyperlinkMouseOver
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置为鼠标悬停定义的超链接。可读写 IHyperlinkaspose.slides/ihyperlink。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置鼠标悬停时定义的超链接。可读/可写 IHyperlinkaspose.slides/ihyperlink。
 type: docs
 weight: 50
 url: /zh/aspose.slides/portionformat/hyperlinkmouseover/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/portionformat/hyperlinkmouseover/
 
 ## PortionFormat.HyperlinkMouseOver 属性
 
-返回或设置为鼠标悬停定义的超链接。可读写 [`IHyperlink`](../../ihyperlink)。
+返回或设置鼠标悬停时定义的超链接。可读/可写 [`IHyperlink`](../../ihyperlink)。
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IHyperlink](../../ihyperlink)
 * 类 [PortionFormat](../../portionformat)

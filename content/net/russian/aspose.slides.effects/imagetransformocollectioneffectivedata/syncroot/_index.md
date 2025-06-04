@@ -1,21 +1,21 @@
 ---
 title: SyncRoot
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает корень синхронизации. Только для чтения.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает корень синхронизации. Объект только для чтения.
 type: docs
 weight: 50
 url: /ru/aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot/
 ---
 
-## Свойство ImageTransformOCollectionEffectiveData.SyncRoot
+## ImageTransformOCollectionEffectiveData.SyncRoot свойство
 
-Возвращает корень синхронизации. Только для чтения.
+Возвращает корень синхронизации. Объект только для чтения.
 
 ```csharp
 public object SyncRoot { get; }
 ```
 
-### Также смотри
+### См. также
 
 * класс [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../imagetransformocollectioneffectivedata)

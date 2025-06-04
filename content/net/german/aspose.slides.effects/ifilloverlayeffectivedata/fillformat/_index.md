@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Füllformat. Nur lesbare IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Füllformat. Nur-lesend IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/ifilloverlayeffectivedata/fillformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ifilloverlayeffectivedata/fillformat/
 
 ## IFillOverlayEffectiveData.FillFormat-Eigenschaft
 
-Füllformat. Nur lesbar [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
+Füllformat. Nur-lesend [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }

@@ -1,6 +1,6 @@
 ---
 title: GetNamesOfTags
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Renvoie les noms des balises.
 type: docs
 weight: 60
@@ -15,11 +15,11 @@ Renvoie les noms des balises.
 public string[] GetNamesOfTags()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Noms des balises.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITagCollection](../../itagcollection)
 * namespace [Aspose.Slides](../../itagcollection)

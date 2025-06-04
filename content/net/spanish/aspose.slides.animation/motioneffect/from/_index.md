@@ -15,10 +15,10 @@ Especifica una coordenada x/y para iniciar la animación (en porcentajes). Lectu
 public PointF From { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [MotionEffect](../../motioneffect)
 * espacio de nombres [Aspose.Slides.Animation](../../motioneffect)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

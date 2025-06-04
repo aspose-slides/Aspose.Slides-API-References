@@ -1,15 +1,15 @@
 ---
 title: GetNameByIndex
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la clé d'une balise à l'index spécifié.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la clé d'un tag à l'index spécifié.
 type: docs
 weight: 50
 url: /fr/aspose.slides/itagcollection/getnamebyindex/
 ---
 
-## Méthode ITagCollection.GetNameByIndex
+## ITagCollection.GetNameByIndex méthode
 
-Renvoie la clé d'une balise à l'index spécifié.
+Renvoie la clé d'un tag à l'index spécifié.
 
 ```csharp
 public string GetNameByIndex(int index)
@@ -17,11 +17,11 @@ public string GetNameByIndex(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index d'une balise à renvoyer. |
+| index | Int32 | Index d'un tag à retourner. |
 
 ### Valeur de retour
 
-Clé d'une balise.
+Clé d'un tag.
 
 ### Voir aussi
 

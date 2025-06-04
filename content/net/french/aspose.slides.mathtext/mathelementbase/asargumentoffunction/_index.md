@@ -1,7 +1,7 @@
 ---
 title: AsArgumentOfFunction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Prend une fonction spécifiée en utilisant cette instance comme argument
+second_title: Référence API Aspose.Slides pour .NET
+description: Prend la fonction spécifiée en utilisant cette instance comme argument
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-Prend une fonction spécifiée en utilisant cette instance comme argument
+Prend la fonction spécifiée en utilisant cette instance comme argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
@@ -25,7 +25,7 @@ Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-Prend une fonction spécifiée en utilisant cette instance comme argument
+Prend la fonction spécifiée en utilisant cette instance comme argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
@@ -62,7 +62,7 @@ Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -81,7 +81,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-Prend une fonction spécifiée en utilisant cette instance comme argument
+Prend la fonction spécifiée en utilisant cette instance comme argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
@@ -89,7 +89,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | Un des types de fonctions courantes à un argument |
+| functionType | MathFunctionsOfOneArgument | L'un des types de fonctions courantes d'un argument |
 
 ### Valeur de retour
 
@@ -97,7 +97,7 @@ Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -118,7 +118,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-Prend une fonction spécifiée en utilisant cette instance comme argument et un argument additionnel spécifié
+Prend la fonction spécifiée en utilisant cette instance comme argument et l'argument supplémentaire spécifié
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -127,8 +127,8 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Un des types de fonctions courantes à deux arguments : Log, Lim, Min, Max |
-| additionalArgument | IMathElement | Argument additionnel selon le type de fonction |
+| functionType | MathFunctionsOfTwoArguments | L'un des types de fonctions courantes de deux arguments : Log, Lim, Min, Max |
+| additionalArgument | IMathElement | Argument supplémentaire selon le type de fonction |
 
 ### Valeur de retour
 
@@ -136,7 +136,7 @@ Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -158,7 +158,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-Prend une fonction spécifiée en utilisant cette instance comme argument et un argument additionnel spécifié
+Prend la fonction spécifiée en utilisant cette instance comme argument et l'argument supplémentaire spécifié
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -167,8 +167,8 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Un des types de fonctions courantes à deux arguments : Log, Lim, Min, Max |
-| additionalArgument | String | Argument additionnel selon le type de fonction |
+| functionType | MathFunctionsOfTwoArguments | L'un des types de fonctions courantes de deux arguments : Log, Lim, Min, Max |
+| additionalArgument | String | Argument supplémentaire selon le type de fonction |
 
 ### Valeur de retour
 
@@ -176,7 +176,7 @@ Nouvel élément mathématique de type [`IMathFunction`](../../imathfunction)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

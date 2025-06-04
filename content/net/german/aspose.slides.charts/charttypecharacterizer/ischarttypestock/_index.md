@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn chartType einer der Stock-Untertypen ist. Die Untertypen entsprechen dem entsprechenden Set in PowerPoint siehe Dialog "Diagrammtyp ändern" in PowerPoint HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt true zurück, wenn chartType einer der Stock-Subtypen ist. Die Subtypensätze entsprechen dem entsprechenden Satz in PowerPoint siehe Dialog "Diagrammtyp ändern" in PowerPoint HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
 type: docs
 weight: 140
 url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypestock/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypestock/
 
 ## ChartTypeCharacterizer.IsChartTypeStock Methode
 
-Gibt true zurück, wenn chartType einer der Stock-Untertypen ist. Die Untertypen entsprechen dem entsprechenden Set in PowerPoint (siehe Dialog "Diagrammtyp ändern" in PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+Gibt true zurück, wenn chartType einer der Stock-Subtypen ist. Die Subtypensätze entsprechen dem entsprechenden Satz in PowerPoint (siehe Dialog "Diagrammtyp ändern" in PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
 
 ```csharp
 public static bool IsChartTypeStock(ChartType chartType)
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

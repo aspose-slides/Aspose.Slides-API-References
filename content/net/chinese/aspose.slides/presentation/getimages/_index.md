@@ -1,6 +1,6 @@
 ---
 title: GetImages
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回演示文稿所有幻灯片的图像对象。
 type: docs
 weight: 310
@@ -25,15 +25,15 @@ public IImage[] GetImages(IRenderingOptions options)
 
 ### 另请参阅
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 类 [Presentation](../../presentation)
-* 命名空间 [Aspose.Slides](../../presentation)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 类 [Presentation](../../presentation)
+* 命名空间 [Aspose.Slides](../../presentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImages(IRenderingOptions, int[]) {#getimages_1}
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
 
 返回指定幻灯片的缩略图图像对象。
 
@@ -44,7 +44,7 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff 选项。 |
-| slides | Int32[] | 幻灯片位置数组，从 1 开始。 |
+| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
 
 ### 返回值
 
@@ -52,15 +52,15 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides)
 
 ### 另请参阅
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 类 [Presentation](../../presentation)
-* 命名空间 [Aspose.Slides](../../presentation)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 类 [Presentation](../../presentation)
+* 命名空间 [Aspose.Slides](../../presentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImages(IRenderingOptions, float, float) {#getimages_4}
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
 
 返回具有自定义缩放的演示文稿所有幻灯片的缩略图图像对象。
 
@@ -71,8 +71,8 @@ public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff 选项。 |
-| scaleX | Single | 沿 x 轴方向缩放此缩略图的值。 |
-| scaleY | Single | 沿 y 轴方向缩放此缩略图的值。 |
+| scaleX | Single | 用于在 x 轴方向缩放此缩略图的值。 |
+| scaleY | Single | 用于在 y 轴方向缩放此缩略图的值。 |
 
 ### 返回值
 
@@ -80,15 +80,15 @@ public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
 
 ### 另请参阅
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 类 [Presentation](../../presentation)
-* 命名空间 [Aspose.Slides](../../presentation)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 类 [Presentation](../../presentation)
+* 命名空间 [Aspose.Slides](../../presentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
 
 返回具有自定义缩放的指定幻灯片的缩略图图像对象。
 
@@ -99,9 +99,9 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX,
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff 选项。 |
-| slides | Int32[] | 幻灯片位置数组，从 1 开始。 |
-| scaleX | Single | 沿 x 轴方向缩放此缩略图的值。 |
-| scaleY | Single | 沿 y 轴方向缩放此缩略图的值。 |
+| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| scaleX | Single | 用于在 x 轴方向缩放此缩略图的值。 |
+| scaleY | Single | 用于在 y 轴方向缩放此缩略图的值。 |
 
 ### 返回值
 
@@ -109,15 +109,15 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX,
 
 ### 另请参阅
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 类 [Presentation](../../presentation)
-* 命名空间 [Aspose.Slides](../../presentation)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 类 [Presentation](../../presentation)
+* 命名空间 [Aspose.Slides](../../presentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImages(IRenderingOptions, Size) {#getimages_5}
+## GetImages(IRenderingOptions, Size) {#getimages_5}
 
 返回具有指定大小的演示文稿所有幻灯片的缩略图图像对象。
 
@@ -128,7 +128,7 @@ public IImage[] GetImages(IRenderingOptions options, Size imageSize)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff 选项。 |
-| imageSize | Size | 要创建的图像的大小。 |
+| imageSize | Size | 要创建的图像大小。 |
 
 ### 返回值
 
@@ -136,15 +136,15 @@ public IImage[] GetImages(IRenderingOptions options, Size imageSize)
 
 ### 另请参阅
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 类 [Presentation](../../presentation)
-* 命名空间 [Aspose.Slides](../../presentation)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 类 [Presentation](../../presentation)
+* 命名空间 [Aspose.Slides](../../presentation)
+* 程序集 [Aspose.Slides](../../../)
 
 ---
 
-## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
 
 返回具有指定大小的指定幻灯片的缩略图图像对象。
 
@@ -155,8 +155,8 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSiz
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | Tiff 选项。 |
-| slides | Int32[] | 幻灯片位置数组，从 1 开始。 |
-| imageSize | Size | 要创建的图像的大小。 |
+| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| imageSize | Size | 要创建的图像大小。 |
 
 ### 返回值
 
@@ -164,10 +164,10 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSiz
 
 ### 另请参阅
 
-* 接口 [IImage](../../iimage)
-* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
-* 类 [Presentation](../../presentation)
-* 命名空间 [Aspose.Slides](../../presentation)
-* 程序集 [Aspose.Slides](../../../)
+* 接口 [IImage](../../iimage)
+* 接口 [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* 类 [Presentation](../../presentation)
+* 命名空间 [Aspose.Slides](../../presentation)
+* 程序集 [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

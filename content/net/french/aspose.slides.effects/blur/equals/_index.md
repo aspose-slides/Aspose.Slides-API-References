@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Détermine si le Bluraspose.slides.effects/blur spécifié est égal au Bluraspose.slides.effects/blur actuel.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/blur/equals/
 ---
 
-## Méthode Blur.Equals
+## Blur.Equals méthode
 
 Détermine si le [`Blur`](../../blur) spécifié est égal au [`Blur`](../../blur) actuel.
 

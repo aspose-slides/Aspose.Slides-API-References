@@ -1,7 +1,7 @@
 ---
 title: Presentation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die übergeordnete Präsentation einer CellCollection zurück. Nur-Lese IPresentationaspose.slides/ipresentation.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die übergeordnete Präsentation einer CellCollection zurück. Schreibgeschütztes IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 40
 url: /de/aspose.slides/cellcollection/presentation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cellcollection/presentation/
 
 ## CellCollection.Presentation-Eigenschaft
 
-Gibt die übergeordnete Präsentation einer CellCollection zurück. Nur-Lese [`IPresentation`](../../ipresentation).
+Gibt die übergeordnete Präsentation einer CellCollection zurück. Schreibgeschütztes [`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

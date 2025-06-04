@@ -1,7 +1,7 @@
 ---
 title: AddFillOverlayEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 将新的填充叠加效果添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的填充覆盖效果添加到集合的末尾。
 type: docs
 weight: 170
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/addfilloverlaye
 
 ## ImageTransformOperationCollection.AddFillOverlayEffect 方法
 
-将新的填充叠加效果添加到集合的末尾。
+将新的填充覆盖效果添加到集合的末尾。
 
 ```csharp
 public IFillOverlay AddFillOverlayEffect()
@@ -19,7 +19,7 @@ public IFillOverlay AddFillOverlayEffect()
 
 集合中新图像效果的索引。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFillOverlay](../../ifilloverlay)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

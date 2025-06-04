@@ -1,25 +1,25 @@
 ---
 title: PieSplitBy
-second_title: Aspose.Slides for .NET API 参考
-description: 指定如何确定在饼图或条形图的第二个饼图或条形中哪些数据点。这不仅是该系列的属性，也是父系列组所有系列的属性 - 这是适当组属性的投影。因此，该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.PieSplitBy 读写属性更改值。只读的 PieSplitTypeaspose.slides/piesplittype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定如何确定在饼图或条形图中，哪些数据点位于第二个饼图或条形图上，这是此系列的属性，也是父系列组所有系列的属性 - 这是适当组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用可读写的 ParentSeriesGroup.PieSplitBy 属性来更改值。只读 PieSplitTypeaspose.slides/piesplittype。
 type: docs
 weight: 300
 url: /zh/aspose.slides.charts/chartseries/piesplitby/
 ---
 
-## ChartSeries.PieSplitBy 属性
+## ChartSeries.PieSplitBy property
 
-指定如何确定在饼图或条形图的第二个饼图或条形中哪些数据点。这不仅是该系列的属性，也是父系列组所有系列的属性 - 这是适当组属性的投影。因此，该属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用 ParentSeriesGroup.PieSplitBy 读写属性更改值。只读的 [`PieSplitType`](../../piesplittype)。
+指定如何确定在饼图或条形图中，哪些数据点位于第二个饼图或条形图上，这是此系列的属性，也是父系列组所有系列的属性 - 这是适当组属性的投影。因此，此属性是只读的。使用 ParentSeriesGroup 属性访问父系列组。使用可读写的 ParentSeriesGroup.PieSplitBy 属性来更改值。只读 [`PieSplitType`](../../piesplittype)。
 
 ```csharp
 public PieSplitType PieSplitBy { get; }
 ```
 
-### 备注
+### Remarks
 
 1) 这是属性 ParentSeriesGroup.PieSplitBy 的投影。 2) 如果属性值为 PieSplitType.Custom，则可以使用 ParentSeriesGroup.PieSplitCustomPoints 属性定义自定义拆分信息。
 
-### 另见
+### See Also
 
 * enum [PieSplitType](../../piesplittype)
 * class [ChartSeries](../../chartseries)

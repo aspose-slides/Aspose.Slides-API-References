@@ -1,6 +1,6 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Optionaler schwarzer Folienübergangseffekt.
 type: docs
 weight: 9950
@@ -19,7 +19,7 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Name | Beschreibung |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dieses Attribut gibt an, ob der Übergang von einem schwarzen Bildschirm starten soll (und dann die neue Folie über schwarz wechseln soll). Lese-/schreibbare Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dieses Attribut gibt an, ob der Übergang von einem schwarzen Bildschirm ausgehen soll (und dann die neue Folie über schwarz übergeht). Lese-/schreibbarer Boolean. |
 
 ## Methoden
 

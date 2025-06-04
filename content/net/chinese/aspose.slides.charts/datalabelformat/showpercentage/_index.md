@@ -1,7 +1,7 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示指定图表数据标签的百分比值显示行为。True 显示百分比值。False 隐藏。可读/写布尔值。
+description: 表示指定图表数据标签百分比值的显示行为。True 显示百分比值。False 隐藏。可读/写布尔值。
 type: docs
 weight: 130
 url: /zh/aspose.slides.charts/datalabelformat/showpercentage/
@@ -17,9 +17,9 @@ public bool ShowPercentage { get; set; }
 
 ### 备注
 
-如果此 DataLabelFormat 对象的父对象是数据标签集合 DataLabelCollection，则此属性获取或设置 DataLabelCollection 中新数据标签的 ShowPercentage 属性的默认值。设置此属性的值还将此值设置为 DataLabelCollection 中所有数据标签的 ShowPercentage 属性（即 "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" 将导致所有 DataLabels[i].ShowPercentage 等于 val）。
+如果此 DataLabelFormat 对象的父级是 DataLabelCollection 数据标签集合，则此属性获取或设置 DataLabelCollection 集合中新数据标签的 ShowPercentage 属性的默认值。使用值设置此属性还将此值设置为 DataLabelCollection 集合中所有数据标签的 ShowPercentage 属性（即 "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" 会使所有 DataLabels[i].ShowPercentage 等于 val）。
 
-### 另见
+### 另请参阅
 
 * class [DataLabelFormat](../../datalabelformat)
 * namespace [Aspose.Slides.Charts](../../datalabelformat)

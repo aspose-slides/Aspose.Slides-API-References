@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersText
-second_title: Aspose.Slides für .NET API Referenz
-description: Setzt Text für den Platzhalter des Kopfbereichs der Master-Notizenfolie und alle Platzhalter der untergeordneten Kopfbereiche. Untergeordnete Platzhalter sind Platzhalter, die in abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Setzt Text für den Platzhalter der Kopfzeile der Master-Notizenfolie und alle Platzhalter für Kindkopfzeilen. Kindplatzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und sind von der Master-Notizenfolie abhängig.
 type: docs
 weight: 60
 url: /de/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildhea
 
 ## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText-Methode
 
-Setzt Text für den Platzhalter des Kopfbereichs der Master-Notizenfolie und alle Platzhalter der untergeordneten Kopfbereiche. Untergeordnete Platzhalter sind Platzhalter, die in abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Setzt Text für den Platzhalter der Kopfzeile der Master-Notizenfolie und alle Platzhalter für Kindkopfzeilen. Kindplatzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und sind von der Master-Notizenfolie abhängig.
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)

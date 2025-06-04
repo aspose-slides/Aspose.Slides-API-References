@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
-second_title: Aspose.Slides für .NET API-Referenz
-description: HasUpDownBars. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: HasUpDownBars. Lese/Schreibe Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/updownbarsmanager/hasupdownbars/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/updownbarsmanager/hasupdownbars/
 
 ## UpDownBarsManager.HasUpDownBars-Eigenschaft
 
-HasUpDownBars. Lese-/Schreib-Boolean.
+HasUpDownBars. Lese/Schreibe Boolean.
 
 ```csharp
 public bool HasUpDownBars { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [UpDownBarsManager](../../updownbarsmanager)
 * Namespace [Aspose.Slides.Charts](../../updownbarsmanager)

@@ -1,7 +1,7 @@
 ---
 title: Distance
-second_title: Référence API Aspose.Sildes pour .NET
-description: Distance de réflexion. Lecture/écriture de Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Distance de réflexion. Lecture/écriture Double.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/reflection/distance/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/reflection/distance/
 
 ## Propriété Reflection.Distance
 
-Distance de réflexion. Lecture/écriture de Double.
+Distance de réflexion. Lecture/écriture Double.
 
 ```csharp
 public double Distance { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Reflection](../../reflection)
 * espace de noms [Aspose.Slides.Effects](../../reflection)

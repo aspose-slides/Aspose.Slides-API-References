@@ -1,6 +1,6 @@
 ---
 title: SignTime
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Время, когда документ был подписан. Только для чтения DateTime.
 type: docs
 weight: 50
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * класс [DigitalSignature](../../digitalsignature)
 * пространство имен [Aspose.Slides](../../digitalsignature)

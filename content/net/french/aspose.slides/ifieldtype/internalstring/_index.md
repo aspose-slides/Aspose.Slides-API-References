@@ -1,7 +1,7 @@
 ---
 title: InternalString
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le nom interne de cet objet FieldTypeEx. Lecture/écriture String.
+description: Renvoie le nom interne de cet objet FieldTypeEx. Chaîne en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifieldtype/internalstring/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ifieldtype/internalstring/
 
 ## Propriété IFieldType.InternalString
 
-Retourne le nom interne de cet objet FieldTypeEx. Lecture/écriture String.
+Renvoie le nom interne de cet objet FieldTypeEx. Chaîne en lecture/écriture.
 
 ```csharp
 public string InternalString { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFieldType](../../ifieldtype)
 * namespace [Aspose.Slides](../../ifieldtype)

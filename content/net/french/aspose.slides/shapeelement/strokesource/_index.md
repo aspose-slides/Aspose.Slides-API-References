@@ -1,7 +1,7 @@
 ---
 title: StrokeSource
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie des informations sur la façon de dessiner un élément. Lecture seule ShapeElementStrokeSourceaspose.slides/shapeelementstrokesource.
+description: Renvoie des informations sur la manière de tracer un élément. Lecture seule ShapeElementStrokeSourceaspose.slides/shapeelementstrokesource.
 type: docs
 weight: 30
 url: /fr/aspose.slides/shapeelement/strokesource/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapeelement/strokesource/
 
 ## Propriété ShapeElement.StrokeSource
 
-Renvoie des informations sur la façon de dessiner un élément. Lecture seule [`ShapeElementStrokeSource`](../../shapeelementstrokesource).
+Renvoie des informations sur la manière de tracer un élément. Lecture seule [`ShapeElementStrokeSource`](../../shapeelementstrokesource).
 
 ```csharp
 public ShapeElementStrokeSource StrokeSource { get; }

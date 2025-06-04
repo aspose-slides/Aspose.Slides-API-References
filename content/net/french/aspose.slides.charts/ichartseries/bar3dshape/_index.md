@@ -1,6 +1,6 @@
 ---
 title: Bar3DShape
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la forme d'une série d'un graphique à barres 3-D. Changer la valeur de cette propriété peut entraîner un changement automatique du type de série. Lecture/écriture ChartShapeTypeaspose.slides/chartshapetype.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Spécifie la forme d'une série d'un graphique à barres 3-D. Changer la valeur 
 public ChartShapeType Bar3DShape { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ChartShapeType](../../chartshapetype)
 * interface [IChartSeries](../../ichartseries)

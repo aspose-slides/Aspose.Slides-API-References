@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Wenn der Hyperlink auf eine bestimmte Folie abzielt, wird diese Folie zurückgegeben. Nur-Lese ISlideaspose.slides/islide.
+second_title: Aspose.Slides für .NET API Referenz
+description: Wenn der Hyperlink auf eine bestimmte Folie zielt, wird diese Folie zurückgegeben. Nur-Lese ISlide aspose.slides/islide.
 type: docs
 weight: 190
 url: /de/aspose.slides/hyperlink/targetslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/targetslide/
 
 ## Hyperlink.TargetSlide-Eigenschaft
 
-Wenn der Hyperlink auf eine bestimmte Folie abzielt, wird diese Folie zurückgegeben. Nur-Lese [`ISlide`](../../islide).
+Wenn der Hyperlink auf eine bestimmte Folie zielt, wird diese Folie zurückgegeben. Nur-Lese [`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; }

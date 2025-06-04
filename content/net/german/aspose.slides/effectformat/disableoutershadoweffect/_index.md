@@ -1,15 +1,15 @@
 ---
 title: DisableOuterShadowEffect
 second_title: Aspose.Slides für .NET API Referenz
-description: Deaktiviert den äußeren Schatteneffekt.
+description: Deaktiviert den äußeren Schatteffekt.
 type: docs
 weight: 140
 url: /de/aspose.slides/effectformat/disableoutershadoweffect/
 ---
 
-## EffectFormat.DisableOuterShadowEffect-Methode
+## EffectFormat.DisableOuterShadowEffect Methode
 
-Deaktiviert den äußeren Schatteneffekt.
+Deaktiviert den äußeren Schatteffekt.
 
 ```csharp
 public void DisableOuterShadowEffect()

@@ -1,7 +1,7 @@
 ---
 title: OutputPath
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine où les ressources externes doivent être stockées. Chaîne en lecture/écriture.
+second_title: Aspose.Slides pour .NET Référence API
+description: Détermine où les ressources externes doivent être stockées. Chaîne lisible/écrivable.
 type: docs
 weight: 60
 url: /fr/aspose.slides.export/ihtml5options/outputpath/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtml5options/outputpath/
 
 ## Propriété IHtml5Options.OutputPath
 
-Détermine où les ressources externes doivent être stockées. Chaîne en lecture/écriture.
+Détermine où les ressources externes doivent être stockées. Chaîne lisible/écrivable.
 
 ```csharp
 public string OutputPath { get; set; }
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHtml5Options](../../ihtml5options)
 * namespace [Aspose.Slides.Export](../../ihtml5options)

@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.charts/ichartseriesreadonlycollection/item/
 ---
 
-## IChartSeriesReadonlyCollection indexeur
+## IChartSeriesReadonlyCollection indexer
 
 Obtient l'élément à l'index spécifié.
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié.
 public IChartSeries this[int index] { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartSeries](../../ichartseries)
 * interface [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)

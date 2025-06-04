@@ -1,15 +1,15 @@
 ---
 title: AsIWarningInfo
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie l'interface IWarningInfo. IWarningInfo en lecture seule aspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
 url: /fr/aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo/
 ---
 
-## Propriété INotImplementedWarningInfo.AsIWarningInfo
+## INotImplementedWarningInfo.AsIWarningInfo property
 
-Renvoie l'interface IWarningInfo. IWarningInfo en lecture seule [`IWarningInfo`](../../iwarninginfo).
+Renvoie l'interface IWarningInfo. Lecture seule [`IWarningInfo`](../../iwarninginfo).
 
 ```csharp
 public IWarningInfo AsIWarningInfo { get; }

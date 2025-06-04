@@ -1,7 +1,7 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Référence API Aspose.Sildes pour .NET
-description: Représente le gestionnaire qui contient le comportement des espaces réservés pour la date-heure et le numéro de page du pied de page de la diapositive.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente le gestionnaire qui maintient le comportement des espaces réservés pour le pied de page de diapositive, la date-heure et le numéro de page.
 type: docs
 weight: 6850
 url: /fr/aspose.slides/islideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islideheaderfootermanager/
 
 ## Interface ISlideHeaderFooterManager
 
-Représente le gestionnaire qui contient le comportement du pied de page de la diapositive, date-heure, espaces réservés pour le numéro de page.
+Représente le gestionnaire qui maintient le comportement du pied de page de diapositive, de la date-heure et des espaces réservés pour le numéro de page.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager

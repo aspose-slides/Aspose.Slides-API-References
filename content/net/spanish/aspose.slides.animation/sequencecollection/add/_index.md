@@ -15,12 +15,12 @@ Agregar nueva secuencia interactiva. Leer/escribir [`Sequence`](../../sequence).
 public ISequence Add(IShape shapeTrigger)
 ```
 
-### Vea También
+### Ver También
 
-* interfaz [ISequence](../../isequence)
-* interfaz [IShape](../../../aspose.slides/ishape)
-* clase [SequenceCollection](../../sequencecollection)
-* espacio de nombres [Aspose.Slides.Animation](../../sequencecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ISequence](../../isequence)
+* interfaz [IShape](../../../aspose.slides/ishape)
+* clase [SequenceCollection](../../sequencecollection)
+* espacio de nombres [Aspose.Slides.Animation](../../sequencecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: Write
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: écrit une séquence d'octets dans le flux actuel et avance la position actuelle dans ce flux du nombre d'octets écrits.
+second_title: Aspose.Sildes pour référence API .NET
+description: écrit une séquence d'octets dans le flux actuel et fait avancer la position actuelle dans ce flux du nombre d'octets écrits.
 type: docs
 weight: 130
 url: /fr/aspose.slides/istreamwrapper/write/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/istreamwrapper/write/
 
 ## Méthode IStreamWrapper.Write
 
-écrit une séquence d'octets dans le flux actuel et avance la position actuelle dans ce flux du nombre d'octets écrits.
+écrit une séquence d'octets dans le flux actuel et fait avancer la position actuelle dans ce flux du nombre d'octets écrits.
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)
@@ -18,7 +18,7 @@ public void Write(byte[] buffer, int offset, int count)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | buffer | Byte[] | Un tableau d'octets Byte[] |
-| offset | Int32 | Le décalage d'octets basé sur zéro dans le tampon à partir duquel commencer à copier des octets dans le flux actuel Int32 |
+| offset | Int32 | L'offset d'octet basé sur zéro dans le tampon à partir duquel commencer à copier des octets dans le flux actuel Int32 |
 | count | Int32 | Le nombre d'octets à écrire dans le flux actuel Int32 |
 
 ### Voir aussi

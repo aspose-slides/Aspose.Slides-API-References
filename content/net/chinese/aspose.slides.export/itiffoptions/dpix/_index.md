@@ -1,7 +1,7 @@
 ---
 title: DpiX
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定每英寸的横向分辨率（点）。可读/可写 UInt32。
+description: 指定每英寸的横向分辨率，单位为点。可读写 UInt32。
 type: docs
 weight: 40
 url: /zh/aspose.slides.export/itiffoptions/dpix/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/itiffoptions/dpix/
 
 ## ITiffOptions.DpiX 属性
 
-指定每英寸的横向分辨率（点）。可读/可写 UInt32。
+指定每英寸的横向分辨率，单位为点。可读写 UInt32。
 
 ```csharp
 public uint DpiX { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ITiffOptions](../../itiffoptions)
 * 命名空间 [Aspose.Slides.Export](../../itiffoptions)

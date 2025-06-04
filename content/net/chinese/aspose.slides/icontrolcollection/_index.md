@@ -25,7 +25,7 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 创建并将新控件添加到集合中。 |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 创建并将新控件添加到集合。 |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | 从集合中删除所有控件。 |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | 从集合中删除一个 ActiveX 控件。 |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 从集合中删除存储在指定位置的 ActiveX 控件。 |

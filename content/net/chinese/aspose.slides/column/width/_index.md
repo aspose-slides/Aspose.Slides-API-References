@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置列的宽度。可读/写的 Double 类型。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置列的宽度。可读/可写的双精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides/column/width/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/column/width/
 
 ## Column.Width 属性
 
-返回或设置列的宽度。可读/写的 Double 类型。
+返回或设置列的宽度。可读/可写的双精度浮点数。
 
 ```csharp
 public double Width { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [Column](../../column)
 * namespace [Aspose.Slides](../../column)

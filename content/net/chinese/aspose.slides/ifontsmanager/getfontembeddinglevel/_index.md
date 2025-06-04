@@ -1,7 +1,7 @@
 ---
 title: GetFontEmbeddingLevel
-second_title: Aspose.Slides for .NET API Reference
-description: 确定给定字节数组和字体名称的字体嵌入级别。
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据给定的字节数组和字体名称确定字体的嵌入级别。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ifontsmanager/getfontembeddinglevel/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifontsmanager/getfontembeddinglevel/
 
 ## IFontsManager.GetFontEmbeddingLevel 方法
 
-确定给定字节数组和字体名称的字体嵌入级别。
+根据给定的字节数组和字体名称确定字体的嵌入级别。
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -18,7 +18,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | fontBytes | Byte[] | 包含字体数据的字节数组。 |
-| fontName | String | 字体的名称。 |
+| fontName | String | 字体名称。 |
 
 ### 返回值
 
@@ -28,7 +28,7 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当 *fontBytes* 为 null 时引发。 |
+| ArgumentNullException | 当 *fontBytes* 为 null 时抛出。 |
 
 ### 示例
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation(pptxFileName))
     // 检索演示文稿中使用的所有字体
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // 获取表示演示文稿中第一个字体的常规样式的字节数组
+    // 获取表示演示文稿中第一个字体常规样式的字节数组
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // 确定字体的嵌入级别

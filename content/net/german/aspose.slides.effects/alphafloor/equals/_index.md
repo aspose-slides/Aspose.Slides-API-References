@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt, ob der angegebene AlphaFlooraspose.slides.effects/alphafloor gleich dem aktuellen AlphaFlooraspose.slides.effects/alphafloor ist.
 type: docs
 weight: 10
@@ -15,9 +15,9 @@ Bestimmt, ob der angegebene [`AlphaFloor`](../../alphafloor) gleich dem aktuelle
 public override bool Equals(object obj)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| obj | Object | Der [`AlphaFloor`](../../alphafloor), mit dem verglichen werden soll. |
+| Parameter | Typ   | Beschreibung                                  |
+|-----------|-------|----------------------------------------------|
+| obj       | Object| Der zu vergleichende [`AlphaFloor`](../../alphafloor). |
 
 ### Rückgabewert
 

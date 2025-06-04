@@ -7,7 +7,7 @@ weight: 350
 url: /ru/aspose.slides/ishapecollection/insertvideoframe/
 ---
 
-## Метод IShapeCollection.InsertVideoFrame
+## IShapeCollection.InsertVideoFrame метод
 
 Создает новый видеокадр и вставляет его в коллекцию по указанному индексу.
 
@@ -18,12 +18,12 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс с нуля, по которому должен быть вставлен видеокадр. |
-| x | Single | X координата нового видеокадра. |
-| y | Single | Y координата нового видеокадра. |
+| index | Int32 | Индекс, начиная с нуля, по которому должен быть вставлен видеокадр. |
+| x | Single | X-координата нового видеокадра. |
+| y | Single | Y-координата нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
-| fname | String | Имя видеофайла. |
+| fname | String | Имя видеопроекта. |
 
 ### Возвращаемое значение
 

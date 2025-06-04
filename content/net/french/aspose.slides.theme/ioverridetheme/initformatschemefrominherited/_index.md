@@ -1,7 +1,7 @@
 ---
 title: InitFormatSchemeFromInherited
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Init FormatScheme avec un nouvel objet pour remplacer FormatScheme de InheritedTheme. Et initialiser les données de ce nouvel objet avec les données du FormatScheme de InheritedTheme.
+second_title: Référence API Aspose.Slides pour .NET
+description: Init FormatScheme avec un nouvel objet pour remplacer le FormatScheme de InheritedTheme. Et initialiser les données de ce nouvel objet avec les données du FormatScheme de InheritedTheme.
 type: docs
 weight: 120
 url: /fr/aspose.slides.theme/ioverridetheme/initformatschemefrominherited/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/ioverridetheme/initformatschemefrominherited/
 
 ## IOverrideTheme.InitFormatSchemeFromInherited méthode
 
-Init FormatScheme avec un nouvel objet pour remplacer FormatScheme de InheritedTheme. Et initialiser les données de ce nouvel objet avec les données du FormatScheme de InheritedTheme.
+Init FormatScheme avec un nouvel objet pour remplacer le FormatScheme de InheritedTheme. Et initialiser les données de ce nouvel objet avec les données du FormatScheme de InheritedTheme.
 
 ```csharp
 public void InitFormatSchemeFromInherited()
@@ -21,7 +21,7 @@ public void InitFormatSchemeFromInherited()
 | --- | --- |
 | InvalidOperationException | Lancé si le FormatScheme est déjà initialisé (non nul). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IOverrideTheme](../../ioverridetheme)
 * namespace [Aspose.Slides.Theme](../../ioverridetheme)

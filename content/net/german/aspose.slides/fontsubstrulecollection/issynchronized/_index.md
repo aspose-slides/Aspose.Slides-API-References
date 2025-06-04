@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert und threadsicher ist. Nur-Lese-Boolescher Wert.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Wert zurück, der anzeigt, ob der Zugriff auf die Sammlung synchronisiert threadsicher ist. Nur-Lese-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/fontsubstrulecollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontsubstrulecollection/issynchronized/
 
 ## FontSubstRuleCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur-Lese-Boolescher Wert.
+Gibt einen Wert zurück, der anzeigt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Nur-Lese-Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

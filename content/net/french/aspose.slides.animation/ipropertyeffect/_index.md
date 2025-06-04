@@ -1,7 +1,7 @@
 ---
 title: IPropertyEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le comportement d'effet de propriété.
+description: Représente le comportement des effets de propriété.
 type: docs
 weight: 480
 url: /fr/aspose.slides.animation/ipropertyeffect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ipropertyeffect/
 
 ## Interface IPropertyEffect
 
-Représente le comportement d'effet de propriété.
+Représente le comportement des effets de propriété.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -19,15 +19,15 @@ public interface IPropertyEffect : IBehavior
 
 | Nom | Description |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. Seulement en lecture [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Spécifie une valeur de décalage relatif pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String. |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. Lecture seule [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Spécifie une valeur d'offset relative pour l'animation par rapport à sa position avant le début de l'animation. Lecture/écriture String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Spécifie le mode d'interpolation pour l'animation. Lecture/écriture [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Spécifie la valeur de départ de l'animation. Lecture/écriture String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Spécifie les points de l'animation. Lecture/écriture [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Spécifie la valeur de fin de l'animation. Lecture/écriture String. |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Spécifie la valeur de fin pour l'animation. Lecture/écriture String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Spécifie le type d'une valeur de propriété. Lecture/écriture [`PropertyValueType`](../propertyvaluetype). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

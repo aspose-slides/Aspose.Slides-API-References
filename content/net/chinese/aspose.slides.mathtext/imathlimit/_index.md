@@ -1,7 +1,7 @@
 ---
 title: IMathLimit
 second_title: Aspose.Slides for .NET API Reference
-description: 指定由基线上的文本和紧挨其上方或下方的缩小文本组成的 Limit 对象。
+description: 指定包含基线上的文本和紧接其上或下方的小尺寸文本的 Limit 对象。
 type: docs
 weight: 8070
 url: /zh/aspose.slides.mathtext/imathlimit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathlimit/
 
 ## IMathLimit 接口
 
-指定由基线上的文本和紧挨其上方或下方的缩小文本组成的 Limit 对象。
+指定 Limit 对象，该对象由基线上的文本和紧接其上或下方的小尺寸文本组成。
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -19,9 +19,9 @@ public interface IMathLimit : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | 允许获取基础的 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | 基础参数 |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | 限制参数 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | 允许获取基本 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | 基本参数 |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | 极限参数 |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | 指定上限或下限 |
 
 ### 示例
@@ -33,7 +33,7 @@ public interface IMathLimit : IMathElement
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

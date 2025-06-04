@@ -1,6 +1,6 @@
 ---
 title: CreateThemeEffective
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回主题对象。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/baseoverridethememanager/createthemeeffective/
 public IThemeEffectiveData CreateThemeEffective()
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IThemeEffectiveData](../../ithemeeffectivedata)
 * 类 [BaseOverrideThemeManager](../../baseoverridethememanager)

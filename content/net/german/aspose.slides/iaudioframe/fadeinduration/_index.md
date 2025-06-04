@@ -1,7 +1,7 @@
 ---
 title: FadeInDuration
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Zeitdauer für das anfängliche Einblenden des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Dauer des anfänglichen Überblendens des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 80
 url: /de/aspose.slides/iaudioframe/fadeinduration/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iaudioframe/fadeinduration/
 
 ## IAudioFrame.FadeInDuration-Eigenschaft
 
-Gibt die Zeitdauer für das anfängliche Einblenden des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
+Gibt die Dauer des anfänglichen Überblendens des Mediums in Millisekunden an. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float FadeInDuration { get; set; }
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Die Dauer des Anfangseinblendens auf 200 ms setzen
+    // Setzen Sie die Dauer des Startüberblendens auf 200 ms
     audioFrame.FadeInDuration = 200f;
 
     pres.Save("AudioFrameFade_out.pptx", SaveFormat.Pptx);

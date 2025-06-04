@@ -1,7 +1,7 @@
 ---
 title: CrossAt
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le point sur l'axe où l'axe perpendiculaire le croise. Lecture/écriture Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente le point sur l'axe où l'axe perpendiculaire le traverse. Lecture/écriture Simple.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/axis/crossat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/axis/crossat/
 
 ## Propriété Axis.CrossAt
 
-Représente le point sur l'axe où l'axe perpendiculaire le croise. Lecture/écriture Single.
+Représente le point sur l'axe où l'axe perpendiculaire le traverse. Lecture/écriture Simple.
 
 ```csharp
 public float CrossAt { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Axis](../../axis)
 * espace de noms [Aspose.Slides.Charts](../../axis)

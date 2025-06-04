@@ -1,7 +1,7 @@
 ---
 title: EffectAnimateBackgroundShape
-second_title: Aspose.Slides for .NET API 参考
-description: 连接形状效果，带有分组或不为 null 读/写 IEffectaspose.slides/ieffect.
+second_title: Aspose.Sildes for .NET API Reference
+description: 关联形状效果，可与组或非空一起使用 读/写 IEffectaspose.slides/ieffect.
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/itextanimation/effectanimatebackgroundshape/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/itextanimation/effectanimatebackgroundshape/
 
 ## ITextAnimation.EffectAnimateBackgroundShape 属性
 
-连接形状效果，带有分组或不为 (null) 读/写 [`IEffect`](../../ieffect).
+关联形状效果，可与组或非空一起使用（null） 读/写 [`IEffect`](../../ieffect)。
 
 ```csharp
 public IEffect EffectAnimateBackgroundShape { get; set; }
 ```
 
-### 参见
+### 参考
 
 * 接口 [IEffect](../../ieffect)
 * 接口 [ITextAnimation](../../itextanimation)

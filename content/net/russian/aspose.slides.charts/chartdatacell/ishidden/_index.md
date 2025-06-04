@@ -1,15 +1,15 @@
 ---
 title: IsHidden
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, скрыта ли ячейка. Только для чтения, логическое значение.
+second_title: Ссылка на API Aspose.Sildes для .NET
+description: Определяет, скрыта ли ячейка. Только для чтения Boolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/chartdatacell/ishidden/
 ---
 
-## Свойство ChartDataCell.IsHidden
+## ChartDataCell.IsHidden свойство
 
-Определяет, скрыта ли ячейка. Только для чтения, логическое значение.
+Определяет, скрыта ли ячейка. Только для чтения Boolean.
 
 ```csharp
 public bool IsHidden { get; }

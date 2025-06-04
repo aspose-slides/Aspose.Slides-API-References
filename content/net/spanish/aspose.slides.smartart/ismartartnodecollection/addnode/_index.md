@@ -1,15 +1,15 @@
 ---
 title: AddNode
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Agregar un nuevo nodo o subnodo.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Agregar nuevo nodo o subnodo.
 type: docs
 weight: 20
 url: /es/aspose.slides.smartart/ismartartnodecollection/addnode/
 ---
 
-## Método ISmartArtNodeCollection.AddNode
+## ISmartArtNodeCollection.AddNode método
 
-Agregar un nuevo nodo o subnodo.
+Agregar nuevo nodo o subnodo.
 
 ```csharp
 public ISmartArtNode AddNode()
@@ -19,7 +19,7 @@ public ISmartArtNode AddNode()
 
 Nodo agregado
 
-### Véase También
+### Véase también
 
 * interfaz [ISmartArtNode](../../ismartartnode)
 * interfaz [ISmartArtNodeCollection](../../ismartartnodecollection)

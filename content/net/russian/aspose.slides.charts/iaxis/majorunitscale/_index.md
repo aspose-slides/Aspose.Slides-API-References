@@ -1,21 +1,21 @@
 ---
 title: MajorUnitScale
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой главный масштаб единиц для оси дат. Чтение/запись TimeUnitTypeaspose.slides.charts/timeunittype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой основную единицу масштабирования для оси даты. Чтение/запись TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 370
 url: /ru/aspose.slides.charts/iaxis/majorunitscale/
 ---
 
-## Свойство IAxis.MajorUnitScale
+## IAxis.MajorUnitScale свойство
 
-Представляет собой главный масштаб единиц для оси дат. Чтение/запись [`TimeUnitType`](../../timeunittype).
+Представляет собой основную единицу масштабирования для оси даты. Чтение/запись [`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MajorUnitScale { get; set; }
 ```
 
-### См. также
+### Смотреть также
 
 * enum [TimeUnitType](../../timeunittype)
 * interface [IAxis](../../iaxis)

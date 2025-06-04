@@ -1,13 +1,13 @@
 ---
 title: Base
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Базовый аргумент
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathnaryoperator/base/
 ---
 
-## Свойство MathNaryOperator.Base
+## MathNaryOperator.Base свойство
 
 Базовый аргумент
 

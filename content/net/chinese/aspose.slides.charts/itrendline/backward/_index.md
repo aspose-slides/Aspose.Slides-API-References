@@ -1,7 +1,7 @@
 ---
 title: Backward
-second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线在被趋势的数据之前扩展的类别或单位数量。在散点图和非散点图中，该值应为任何非负值。可读/写的 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定趋势线在被趋势的数据之前扩展的类别（或散点图上的单位）数。在散点图和非散点图中，该值应为任何非负值。可读/可写 Double。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/itrendline/backward/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/itrendline/backward/
 
 ## ITrendline.Backward 属性
 
-指定趋势线在被趋势的数据之前扩展的类别（或散点图上的单位）数量。在散点图和非散点图中，该值应为任何非负值。可读/写的 Double。
+指定趋势线在被趋势的数据之前扩展的类别（或散点图上的单位）数。在散点图和非散点图中，该值应为任何非负值。可读/可写 Double。
 
 ```csharp
 public double Backward { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [ITrendline](../../itrendline)
 * 命名空间 [Aspose.Slides.Charts](../../itrendline)

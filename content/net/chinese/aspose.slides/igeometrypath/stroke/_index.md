@@ -1,6 +1,6 @@
 ---
 title: Stroke
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API 参考
 description: 设置描边外观
 type: docs
 weight: 30

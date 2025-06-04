@@ -1,25 +1,25 @@
 ---
 title: Hide
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Rendre l'étiquette de données cachée par défaut en définissant tous les drapeaux Show-flags ShowValue, ... de la propriété DefaultDataLabelFormat à l'état false. IsVisible sera false après cela.
+description: Rendre l'étiquette de donnée invisible par défaut en définissant tous les drapeaux Show-flags ShowValue, ... de la propriété DefaultDataLabelFormat à l'état faux. IsVisible sera faux après cela.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/idatalabelcollection/hide/
 ---
 
-## Méthode IDataLabelCollection.Hide
+## IDataLabelCollection.Hide method
 
-Rendre l'étiquette de données cachée par défaut en définissant tous les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l'état false. IsVisible sera false après cela.
+Rendre l'étiquette de donnée invisible par défaut en définissant tous les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l'état faux. IsVisible sera faux après cela.
 
 ```csharp
 public void Hide()
 ```
 
-### Remarques
+### Remarks
 
-Si l'étiquette de données n'est pas visible par défaut (IsVisible est false), vous pouvez rendre l'étiquette de données "visible par défaut" en définissant les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l'état true.
+Si l'étiquette de donnée n'est pas visible par défaut (IsVisible est faux), vous pouvez rendre l'étiquette de donnée "visible par défaut" en définissant les drapeaux Show*-flags (ShowValue, ...) de la propriété DefaultDataLabelFormat à l'état vrai.
 
-### Voir aussi
+### See Also
 
 * interface [IDataLabelCollection](../../idatalabelcollection)
 * namespace [Aspose.Slides.Charts](../../idatalabelcollection)

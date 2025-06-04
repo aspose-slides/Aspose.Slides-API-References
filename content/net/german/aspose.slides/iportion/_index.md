@@ -1,7 +1,7 @@
 ---
 title: IPortion
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert einen Teil von Text innerhalb eines Textabschnitts.
+description: Stellt einen Textabschnitt innerhalb eines Textparagraphen dar.
 type: docs
 weight: 6500
 url: /de/aspose.slides/iportion/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportion/
 
 ## IPortion-Schnittstelle
 
-Repräsentiert einen Teil von Text innerhalb eines Textabschnitts.
+Stellt einen Textabschnitt innerhalb eines Textparagraphen dar.
 
 ```csharp
 public interface IPortion : ISlideComponent
@@ -19,22 +19,22 @@ public interface IPortion : ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die Basis-ISlideComponent-Schnittstelle. Nur lesbar [`ISlideComponent`](../islidecomponent). |
-| [Field](../../aspose.slides/iportion/field) { get; } | Gibt ein Feld dieses Teils zurück. Nur lesbar [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Gibt das Formatierungsobjekt zurück, das die ausdrücklich festgelegten Formatierungs Eigenschaften des Textteils ohne angewandte Vererbung enthält. Nur lesbar [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | Ruft den einfachen Text eines Teils ab oder legt ihn fest. Lese-/schreibbarer String. |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Ermöglicht den Zugriff auf die grundlegende ISlideComponent-Schnittstelle. Nur lesend [`ISlideComponent`](../islidecomponent). |
+| [Field](../../aspose.slides/iportion/field) { get; } | Gibt ein Feld dieses Abschnitts zurück. Nur lesend [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Gibt das Formatierungsobjekt zurück, das explizit festgelegte Formatierungseigenschaften des Textabschnitts enthält, ohne dass eine Vererbung angewendet wird. Nur lesend [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | Ruft den Klartext eines Abschnitts ab oder setzt ihn. Lese-/Schreib-String. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Konvertiert diesen Teil in das automatisch aktualisierte Feld. |
-| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Konvertiert diesen Teil in das automatisch aktualisierte Feld. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Gibt die Koordinaten des Beginns des Teils zurück. Die X-Koordinate des Punktes stellt den Teil vom ersten Zeichen inklusive linker Seitenschrift dar. Die Y-Koordinate umfasst die obere Seitenschrift. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Gibt die Koordinaten des Rechtecks zurück, das den Teil begrenzt. Das Rechteck umfasst alle Textzeilen im Teil, einschließlich leerer. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Konvertiert diesen Feldteil in den einfachen Teil. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Konvertiert diesen Abschnitt in das automatisch aktualisierte Feld. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Konvertiert diesen Abschnitt in das automatisch aktualisierte Feld. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Ruft die Koordinaten des Beginns des Abschnitts ab. Die X-Koordinate des Punktes repräsentiert den Beginn des Abschnitts ab dem ersten Zeichen einschließlich des linken Seitenabstands. Die Y-Koordinate umfasst den oberen Seitenabstand. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Ruft die Koordinaten des Rechtecks ab, das den Abschnitt umschließt. Das Rechteck umfasst alle Textzeilen im Abschnitt, einschließlich leerer Zeilen. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Konvertiert diesen Feldabschnitt in den einfachen Abschnitt. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISlideComponent](../islidecomponent)
 * Namespace [Aspose.Slides](../../aspose.slides)

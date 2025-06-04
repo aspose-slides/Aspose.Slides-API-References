@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для справочника API .NET
 description: Удаляет строку по указанной позиции из таблицы.
 type: docs
 weight: 40
 url: /ru/aspose.slides/irowcollection/removeat/
 ---
 
-## Метод IRowCollection.RemoveAt
+## IRowCollection.RemoveAt метод
 
 Удаляет строку по указанной позиции из таблицы.
 
@@ -18,9 +18,9 @@ public void RemoveAt(int firstRowIndex, bool withAttachedRows)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstRowIndex | Int32 | Индекс строки для удаления. |
-| withAttachedRows | Boolean | True для удаления также всех прикрепленных строк. |
+| withAttachedRows | Boolean | True для удаления также всех связанных строк. |
 
-### См. Также
+### См. также
 
 * интерфейс [IRowCollection](../../irowcollection)
 * пространство имен [Aspose.Slides](../../irowcollection)

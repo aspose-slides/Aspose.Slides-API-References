@@ -1,7 +1,7 @@
 ---
 title: MasterTheme
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le thème maître de la présentation. Lecture seule IMasterThemeaspose.slides.theme/imastertheme.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne le thème principal de la présentation. Lecture seule IMasterThemeaspose.slides.theme/imastertheme.
 type: docs
 weight: 200
 url: /fr/aspose.slides/ipresentation/mastertheme/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ipresentation/mastertheme/
 
 ## Propriété IPresentation.MasterTheme
 
-Renvoie le thème maître de la présentation. Lecture seule [`IMasterTheme`](../../../aspose.slides.theme/imastertheme).
+Retourne le thème principal de la présentation. Lecture seule [`IMasterTheme`](../../../aspose.slides.theme/imastertheme).
 
 ```csharp
 public IMasterTheme MasterTheme { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterTheme](../../../aspose.slides.theme/imastertheme)
 * interface [IPresentation](../../ipresentation)

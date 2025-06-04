@@ -1,7 +1,7 @@
 ---
 title: DefaultPortionFormat
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le format de portion par défaut d'un paragraphe. Aucune héritage appliqué. Lecture seule IPortionFormataspose.slides/iportionformat.
+description: Renvoie le format de portion par défaut d'un paragraphe. Pas d'héritage appliqué. Lecture seule IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iparagraphformat/defaultportionformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iparagraphformat/defaultportionformat/
 
 ## Propriété IParagraphFormat.DefaultPortionFormat
 
-Renvoie le format de portion par défaut d'un paragraphe. Aucune héritage appliqué. Lecture seule [`IPortionFormat`](../../iportionformat).
+Renvoie le format de portion par défaut d'un paragraphe. Pas d'héritage appliqué. Lecture seule [`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat DefaultPortionFormat { get; }
 ```
 
-### Voir Aussi
+### Voir également
 
 * interface [IPortionFormat](../../iportionformat)
 * interface [IParagraphFormat](../../iparagraphformat)

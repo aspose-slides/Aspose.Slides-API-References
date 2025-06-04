@@ -1,6 +1,6 @@
 ---
 title: HeaderFooterManager
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回幻灯片的 HeaderFooter 管理器。只读 ISlideHeaderFooterManager aspose.slides/islideheaderfootermanager。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/islide/headerfootermanager/
 public ISlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [ISlideHeaderFooterManager](../../islideheaderfootermanager)
 * 接口 [ISlide](../../islide)

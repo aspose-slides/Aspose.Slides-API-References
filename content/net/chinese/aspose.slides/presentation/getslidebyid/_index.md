@@ -1,7 +1,7 @@
 ---
 title: GetSlideById
-second_title: Aspose.Slides for .NET API 参考
-description: 根据 Id 返回一个 Slide、MasterSlide 或 LayoutSlide。
+second_title: Aspose.Slides for .NET API Reference
+description: 通过 Id 返回 Slide MasterSlide 或 LayoutSlide。
 type: docs
 weight: 320
 url: /zh/aspose.slides/presentation/getslidebyid/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/presentation/getslidebyid/
 
 ## Presentation.GetSlideById 方法
 
-根据 Id 返回一个 Slide、MasterSlide 或 LayoutSlide。
+通过 Id 返回 Slide、MasterSlide 或 LayoutSlide。
 
 ```csharp
 public IBaseSlide GetSlideById(uint id)
@@ -17,7 +17,7 @@ public IBaseSlide GetSlideById(uint id)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| id | UInt32 | 幻灯片的 Id。 |
+| id | UInt32 | 一个幻灯片的 Id。 |
 
 ### 返回值
 

@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или задает тип маркера абзаца без наследования. Чтение/запись BulletTypeaspose.slides/bullettype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает или устанавливает тип маркера абзаца без наследования. Чтение/запись BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /ru/aspose.slides/ibulletformat/type/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibulletformat/type/
 
 ## Свойство IBulletFormat.Type
 
-Возвращает или задает тип маркера абзаца без наследования. Чтение/запись [`BulletType`](../../bullettype).
+Возвращает или устанавливает тип маркера абзаца без наследования. Чтение/запись [`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [BulletType](../../bullettype)
 * interface [IBulletFormat](../../ibulletformat)

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет элемент по указанному индексу коллекции.
 type: docs
 weight: 110
 url: /ru/aspose.slides/iparagraphcollection/removeat/
 ---
 
-## Метод IParagraphCollection.RemoveAt
+## IParagraphCollection.RemoveAt метод
 
 Удаляет элемент по указанному индексу коллекции.
 
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нулевая основа индекса элемента для удаления. |
+| index | Int32 | Нулевой индекс элемента для удаления. |
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)

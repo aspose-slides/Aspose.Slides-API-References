@@ -1,21 +1,21 @@
 ---
 title: RectangleAlign
 second_title: Aspose.Slides für .NET API-Referenz
-description: Rechteckausrichtung. Lese/schreibe RectangleAlignmentaspose.slides/rectanglealignment.
+description: Rechteckausrichtung. Lesen/Schreiben von RectangleAlignment aspose.slides/rectanglealignment.
 type: docs
 weight: 90
 url: /de/aspose.slides.effects/ireflection/rectanglealign/
 ---
 
-## IReflection.RechteckAusrichten Eigenschaft
+## IReflection.RectangleAlign-Eigenschaft
 
-Rechteckausrichtung. Lese/schreibe [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Rechteckausrichtung. Lesen/Schreiben von [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * interface [IReflection](../../ireflection)

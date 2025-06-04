@@ -1,6 +1,6 @@
 ---
 title: IsOverrideThemeEnabled
-second_title: Aspose.Slides pour .NET API Référence
+second_title: Aspose.Sildes pour .NET Référence API
 description: Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init. Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear. Booléen en lecture seule.
 type: docs
 weight: 20

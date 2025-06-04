@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Имя модуля. Только для чтения строка.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.vba/ivbamodule/name/
 public string Name { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IVbaModule](../../ivbamodule)
 * пространство имен [Aspose.Slides.Vba](../../ivbamodule)

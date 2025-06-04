@@ -1,7 +1,7 @@
 ---
 title: OperatorEmulator
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Émulateur d'opérateur. Lorsque c'est vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie par exemple que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsque un ou plusieurs glyphes se combinent pour former un opérateur comme '=='. Valeur par défaut  faux
+second_title: Référence API Aspose.Slides pour .NET
+description: Émulateur d'opérateurs. Lorsque vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie par exemple que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsque un ou plusieurs glyphes se combinent pour former un opérateur tel que . Valeur par défaut  faux
 type: docs
 weight: 70
 url: /fr/aspose.slides.mathtext/imathbox/operatoremulator/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathbox/operatoremulator/
 
 ## IMathBox.OperatorEmulator propriété
 
-Émulateur d'opérateur. Lorsque c'est vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie, par exemple, que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsque un ou plusieurs glyphes se combinent pour former un opérateur, comme '=='. Valeur par défaut : faux
+Émulateur d'opérateurs. Lorsque vrai, la boîte et son contenu se comportent comme un seul opérateur et héritent des propriétés d'un opérateur. Cela signifie, par exemple, que le caractère peut servir de point pour un saut de ligne et peut être aligné avec d'autres opérateurs. Les émulateurs d'opérateurs sont souvent utilisés lorsque un ou plusieurs glyphes se combinent pour former un opérateur, tel que '=='. Valeur par défaut : faux
 
 ```csharp
 public bool OperatorEmulator { get; set; }
@@ -17,7 +17,7 @@ public bool OperatorEmulator { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

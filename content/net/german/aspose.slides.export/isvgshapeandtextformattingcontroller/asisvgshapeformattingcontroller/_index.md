@@ -1,7 +1,7 @@
 ---
 title: AsISvgShapeFormattingController
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die ISvgShapeFormattingController-Schnittstelle zurück.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das ISvgShapeFormattingController-Interface zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller/
@@ -9,20 +9,20 @@ url: /de/aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapefo
 
 ## ISvgShapeAndTextFormattingController.AsISvgShapeFormattingController-Eigenschaft
 
-Gibt die ISvgShapeFormattingController-Schnittstelle zurück.
+Gibt das ISvgShapeFormattingController-Interface zurück.
 
 ```csharp
 public ISvgShapeFormattingController AsISvgShapeFormattingController { get; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
 ### Siehe auch
 
-* Schnittstelle [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
-* Schnittstelle [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
+* Interface [ISvgShapeFormattingController](../../isvgshapeformattingcontroller)
+* Interface [ISvgShapeAndTextFormattingController](../../isvgshapeandtextformattingcontroller)
 * Namespace [Aspose.Slides.Export](../../isvgshapeandtextformattingcontroller)
 * Assembly [Aspose.Slides](../../../)
 

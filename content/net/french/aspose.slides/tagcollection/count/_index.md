@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le nombre de balises dans la collection. Lecture seule Int32.
+description: Renvoie le nombre de tags dans la collection. En lecture seule Int32.
 type: docs
 weight: 10
 url: /fr/aspose.slides/tagcollection/count/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/tagcollection/count/
 
 ## Propriété TagCollection.Count
 
-Renvoie le nombre de balises dans la collection. Lecture seule Int32.
+Renvoie le nombre de tags dans la collection. En lecture seule Int32.
 
 ```csharp
 public int Count { get; }

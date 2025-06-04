@@ -1,7 +1,7 @@
 ---
 title: ScaleHorizontal
-second_title: Referencia de la API de Aspose.Sildes para .NET
-description: Especifica el factor de escalado horizontal, el escalado negativo provoca un giro. Lectura/escritura Doble.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Especifica el factor de escalado horizontal, un escalado negativo causa un giro. Lectura/escritura Double.
 type: docs
 weight: 60
 url: /es/aspose.slides.effects/outershadow/scalehorizontal/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.effects/outershadow/scalehorizontal/
 
 ## Propiedad OuterShadow.ScaleHorizontal
 
-Especifica el factor de escalado horizontal, el escalado negativo provoca un giro. Lectura/escritura Doble.
+Especifica el factor de escalado horizontal, un escalado negativo causa un giro. Lectura/escritura Double.
 
 ```csharp
 public double ScaleHorizontal { get; set; }
 ```
 
-### Véase también
+### Ver también
 
 * clase [OuterShadow](../../outershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../outershadow)

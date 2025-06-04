@@ -15,7 +15,7 @@ Renvoie ou définit le type d'une opération. Lecture seule [`ColorTransformOper
 public ColorTransformOperation OperationType { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ColorTransformOperation](../../colortransformoperation)
 * interface [IColorOperation](../../icoloroperation)

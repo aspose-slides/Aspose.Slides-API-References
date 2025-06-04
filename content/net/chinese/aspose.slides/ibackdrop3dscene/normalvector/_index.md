@@ -1,21 +1,21 @@
 ---
 title: NormalVector
-second_title: Aspose.Slides for .NET API Reference
-description: 返回或设置法向量。更确切地说，此属性定义了一个垂直于背景平面表面的法向量。向量由一个包含3个浮点值的数组表示，这些值定义了X、Y和Z坐标。可读/可写的单一数组。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置法线向量。更准确地说，此属性定义与背景平面面法线的向量。向量由包含3个浮点值的数组表示，这些值定义X、Y和Z坐标。读/写单个值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ibackdrop3dscene/normalvector/
 ---
 
-## IBackdrop3DScene.NormalVector 属性
+## IBackdrop3DScene.NormalVector property
 
-返回或设置法向量。更确切地说，此属性定义了一个垂直于背景平面表面的法向量。向量由一个包含3个浮点值的数组表示，这些值定义了X、Y和Z坐标。可读/可写的单一数组。
+返回或设置法线向量。更准确地说，此属性定义与背景平面面法线的向量。向量由包含3个浮点值的数组表示，这些值定义X、Y和Z坐标。读/写单个值[]。
 
 ```csharp
 public float[] NormalVector { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IBackdrop3DScene](../../ibackdrop3dscene)
 * 命名空间 [Aspose.Slides](../../ibackdrop3dscene)

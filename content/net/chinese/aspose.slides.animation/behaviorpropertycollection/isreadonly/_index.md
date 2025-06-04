@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取一个值，指示 ICollection 是否为只读。只读布尔值。
+description: 获取一个值，该值指示 ICollection 是否是只读的。只读布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/behaviorpropertycollection/isreadonly/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorpropertycollection/isreadonly/
 
 ## BehaviorPropertyCollection.IsReadOnly 属性
 
-获取一个值，指示 ICollection 是否为只读。只读布尔值。
+获取一个值，该值指示 ICollection 是否是只读的。只读布尔值。
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -17,9 +17,9 @@ public bool IsReadOnly { get; }
 
 ### 返回值
 
-如果 ICollection 为只读，则为 true；否则为 false。
+如果 ICollection 是只读的，则为 true；否则为 false。
 
-### 另请参见
+### 另见
 
 * 类 [BehaviorPropertyCollection](../../behaviorpropertycollection)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorpropertycollection)

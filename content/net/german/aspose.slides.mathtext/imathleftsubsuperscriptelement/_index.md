@@ -1,7 +1,7 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem Subscript und Superscript besteht, die links von der Basis platziert sind.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Spezifiziert das Sub-Superscript-Objekt, das aus einer Basis sowie einem Subscript und Superscript besteht, die links von der Basis platziert sind.
 type: docs
 weight: 8060
 url: /de/aspose.slides.mathtext/imathleftsubsuperscriptelement/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 
 ## IMathLeftSubSuperscriptElement-Schnittstelle
 
-Gibt das Sub-Superscript-Objekt an, das aus einer Basis sowie einem Subscript und Superscript besteht, die links von der Basis platziert sind.
+Spezifiziert das Sub-Superscript-Objekt, das aus einer Basis sowie einem Subscript und Superscript besteht, die links von der Basis platziert sind.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -19,8 +19,8 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Ermöglicht das Abrufen der Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Basisargument |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Basis-Argument |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Subscript |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Superscript |
 

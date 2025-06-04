@@ -1,6 +1,6 @@
 ---
 title: GetSlidesListOfSection
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回节中的幻灯片列表。
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public ISectionSlideCollection GetSlidesListOfSection()
 
 幻灯片列表 [`ISectionSlideCollection`](../../isectionslidecollection)
 
-### 参见
+### 另见
 
 * 接口 [ISectionSlideCollection](../../isectionslidecollection)
 * 接口 [ISection](../../isection)

@@ -1,7 +1,7 @@
 ---
 title: EndPosAlpha
-second_title: Aspose.Sildes for .NET API Reference
-description: 指定结束透明度值百分比的结束位置（沿着透明度渐变带）。可读/可写单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定结束 alpha 值百分比的 alpha 渐变坡道的结束位置。可读写 Single。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/reflection/endposalpha/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/reflection/endposalpha/
 
 ## Reflection.EndPosAlpha 属性
 
-指定结束透明度值（百分比）的结束位置（沿着透明度渐变带）。可读/可写单精度浮点数。
+指定结束 alpha 值（百分比）的结束位置（沿 alpha 渐变坡道）。可读写 Single。
 
 ```csharp
 public float EndPosAlpha { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [Reflection](../../reflection)
 * namespace [Aspose.Slides.Effects](../../reflection)

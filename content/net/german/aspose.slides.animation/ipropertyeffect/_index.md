@@ -1,7 +1,7 @@
 ---
 title: IPropertyEffect
 second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert das Verhalten von Eigenschaftenseffekten.
+description: Repräsentiert das Verhalten von Effekten auf Eigenschaften.
 type: docs
 weight: 480
 url: /de/aspose.slides.animation/ipropertyeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ipropertyeffect/
 
 ## IPropertyEffect-Schnittstelle
 
-Repräsentiert das Verhalten von Eigenschaftenseffekten.
+Repräsentiert das Verhalten von Effekten auf Eigenschaften.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -19,13 +19,13 @@ public interface IPropertyEffect : IBehavior
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basis-IBehavior-Schnittstelle. Nur-Lesen [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Gibt einen relativen Offsetwert für die Animation in Bezug auf ihre Position vor Beginn der Animation an. Lese-/Schreibzeichenfolge. |
-| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Gibt den Interpolationsmodus für die Animation an. Lese-/Schreib [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Gibt den Ausgangswert der Animation an. Lese-/Schreibzeichenfolge. |
-| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Gibt die Punkte der Animation an. Lese-/Schreib [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Gibt den Endwert für die Animation an. Lese-/Schreibzeichenfolge. |
-| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Gibt den Typ eines Eigenschaftswerts an. Lese-/Schreib [`PropertyValueType`](../propertyvaluetype). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IBehavior. Nur lesen [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Gibt einen relativen Offsetwert für die Animation in Bezug auf ihre Position vor dem Start der Animation an. Lesen/Schreiben String. |
+| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Gibt den Interpolationsmodus für die Animation an. Lesen/Schreiben [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Gibt den Anfangswert der Animation an. Lesen/Schreiben String. |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Gibt die Punkte der Animation an. Lesen/Schreiben [`IPointCollection`](../ipointcollection). |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Gibt den Endwert für die Animation an. Lesen/Schreiben String. |
+| [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Gibt den Typ eines Eigenschaftswertes an. Lesen/Schreiben [`PropertyValueType`](../propertyvaluetype). |
 
 ### Siehe Auch
 

@@ -1,7 +1,7 @@
 ---
 title: LayoutSlide
-second_title: Aspose.Slides для .NET API Reference
-description: Итерация каждого LayoutSlide aspose.slides.lowcode/foreach/layoutslide в Presentation aspose.slides/presentation.
+second_title: Aspose.Slides для .NET API Справочник
+description: Переберите каждый LayoutSlide aspose.slides.lowcode/foreach/layoutslide в Presentation aspose.slides/presentation.
 type: docs
 weight: 10
 url: /ru/aspose.slides.lowcode/foreach/layoutslide/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.lowcode/foreach/layoutslide/
 
 ## Метод ForEach.LayoutSlide
 
-Итерация каждого `LayoutSlide` в [`Presentation`](../../../aspose.slides/presentation).
+Переберите каждый `LayoutSlide` в [`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback forEachLayoutSlide)
@@ -17,8 +17,8 @@ public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback for
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Презентация для итерации по слайдам макета |
-| forEachLayoutSlide | ForEachLayoutSlideCallback | Обратный вызов, который будет вызван для каждого слайда макета |
+| pres | Presentation | Презентация для перебора слайдов макета |
+| forEachLayoutSlide | ForEachLayoutSlideCallback | Обратный вызов, который будет вызываться для каждого слайда макета |
 
 ### Примеры
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### См. также
+### Смотрите также
 
 * класс [Presentation](../../../aspose.slides/presentation)
 * делегат [ForEachLayoutSlideCallback](../../foreach.foreachlayoutslidecallback)

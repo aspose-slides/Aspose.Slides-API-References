@@ -1,21 +1,21 @@
 ---
 title: Row
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Retourne l'index de la ligne de la feuille de calcul dans laquelle la cellule est située. Lecture seule Int32.
+second_title: Référence de l'API Aspose.Sldes pour .NET
+description: Renvoie l'index de la ligne de la feuille de calcul dans laquelle se trouve la cellule. En lecture seule Int32.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichartdatacell/row/
 ---
 
-## Propriété IChartDataCell.Row
+## IChartDataCell.Row property
 
-Retourne l'index de la ligne de la feuille de calcul dans laquelle la cellule est située. Lecture seule Int32.
+Renvoie l'index de la ligne de la feuille de calcul dans laquelle se trouve la cellule. En lecture seule Int32.
 
 ```csharp
 public int Row { get; }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IChartDataCell](../../ichartdatacell)
 * namespace [Aspose.Slides.Charts](../../ichartdatacell)

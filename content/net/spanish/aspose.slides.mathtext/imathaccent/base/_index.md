@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: El argumento al que se le aplicó el acento
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ IMathAccent accent = new MathematicalText("x").Accent('~');
 IMathElement base = accent.Base;
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IMathElement](../../imathelement)
 * interfaz [IMathAccent](../../imathaccent)

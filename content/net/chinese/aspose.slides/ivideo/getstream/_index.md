@@ -1,6 +1,6 @@
 ---
 title: GetStream
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回用于读取的 Stream 流。使用后请使用 'using' 或关闭流。
 type: docs
 weight: 30
@@ -17,9 +17,9 @@ public Stream GetStream()
 
 ### 返回值
 
-用于读取的 Stream。
+用于读取的流。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IVideo](../../ivideo)
 * 命名空间 [Aspose.Slides](../../ivideo)

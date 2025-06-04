@@ -1,7 +1,7 @@
 ---
 title: IFontsEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник
-description: Неперезаписываемый объект, который содержит набор эффективных шрифтов.
+description: Неизменяемый объект, содержащий набор эффективных шрифтов.
 type: docs
 weight: 5710
 url: /ru/aspose.slides/ifontseffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifontseffectivedata/
 
 ## Интерфейс IFontsEffectiveData
 
-Неперезаписываемый объект, который содержит набор эффективных шрифтов.
+Неизменяемый объект, содержащий набор эффективных шрифтов.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -19,11 +19,11 @@ public interface IFontsEffectiveData
 
 | Название | Описание |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт для сложного скрипта. Только для чтения [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт сложного скрипта. Только для чтения [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает восточноазиатский шрифт. Только для чтения [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Возвращает латинский шрифт. Только для чтения [`IFontData`](../ifontdata). |
 
-### Примечания
+### Замечания
 
 Этот интерфейс используется как часть интерфейсов [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) и [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
 

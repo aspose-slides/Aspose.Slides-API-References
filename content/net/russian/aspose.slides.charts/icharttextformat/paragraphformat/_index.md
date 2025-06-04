@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/icharttextformat/paragraphformat/
 public IChartParagraphFormat ParagraphFormat { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IChartParagraphFormat](../../ichartparagraphformat)
 * интерфейс [IChartTextFormat](../../icharttextformat)

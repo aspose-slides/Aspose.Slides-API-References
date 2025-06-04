@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve un número de propiedades en la colección. Solo lectura Int32.
 type: docs
 weight: 10

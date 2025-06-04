@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Slides für .NET API-Referenz
-description: Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hash-Tabelle geeignet ist.
+description: Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hashing-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
 type: docs
 weight: 50
 url: /de/aspose.slides/coloroperation/gethashcode/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/coloroperation/gethashcode/
 
 ## ColorOperation.GetHashCode-Methode
 
-Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hash-Tabelle geeignet ist.
+Dient als Hashfunktion für einen bestimmten Typ, der für die Verwendung in Hashing-Algorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist.
 
 ```csharp
 public override int GetHashCode()

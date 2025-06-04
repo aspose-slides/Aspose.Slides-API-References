@@ -1,21 +1,21 @@
 ---
 title: Hue
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el porcentaje de tono. Solo lectura Single.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve el porcentaje de matiz. Solo lectura Single.
 type: docs
 weight: 20
 url: /es/aspose.slides.effects/ihsleffectivedata/hue/
 ---
 
-## Propiedad IHSLEffectiveData.Hue
+## IHSLEffectiveData.Hue property
 
-Devuelve el porcentaje de tono. Solo lectura Single.
+Devuelve el porcentaje de matiz. Solo lectura Single.
 
 ```csharp
 public float Hue { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IHSLEffectiveData](../../ihsleffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../ihsleffectivedata)

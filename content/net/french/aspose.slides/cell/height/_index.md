@@ -15,7 +15,7 @@ Renvoie la hauteur de la cellule. Lecture seule Double.
 public double Height { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Cell](../../cell)
 * espace de noms [Aspose.Slides](../../cell)

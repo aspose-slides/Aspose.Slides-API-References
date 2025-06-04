@@ -1,6 +1,6 @@
 ---
 title: CreateMathFunction
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Crée une fonction mathématique
 type: docs
 weight: 10
@@ -20,11 +20,11 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 | funcName | IMathElement | Élément utilisé comme nom de fonction |
 | baseArgument | IMathElement | Élément utilisé comme argument de fonction |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvelle fonction mathématique
 
-### Voir aussi
+### Voir Également
 
 * interface [IMathFunction](../../imathfunction)
 * interface [IMathElement](../../imathelement)
@@ -47,11 +47,11 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 | funcName | String | Nom de la fonction |
 | baseArgument | IMathElement | Élément utilisé comme argument de fonction |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvelle fonction mathématique
 
-### Voir aussi
+### Voir Également
 
 * interface [IMathFunction](../../imathfunction)
 * interface [IMathElement](../../imathelement)

@@ -1,7 +1,7 @@
 ---
 title: AsIBasePortionFormat
-second_title: Aspose.Slides para referencia de API .NET
-description: Devuelve la interfaz IBasePortionFormat. Read-only IBasePortionFormat aspose.slides/ibaseportionformat.
+second_title: Aspose.Sildes para .NET API Referencia
+description: Devuelve la interfaz IBasePortionFormat. Solo lectura IBasePortionFormataspose.slides/ibaseportionformat.
 type: docs
 weight: 10
 url: /es/aspose.slides/iportionformat/asibaseportionformat/
@@ -9,21 +9,21 @@ url: /es/aspose.slides/iportionformat/asibaseportionformat/
 
 ## IPortionFormat.AsIBasePortionFormat propiedad
 
-Devuelve la interfaz IBasePortionFormat. Read-only [`IBasePortionFormat`](../../ibaseportionformat).
+Devuelve la interfaz IBasePortionFormat. Solo lectura [`IBasePortionFormat`](../../ibaseportionformat).
 
 ```csharp
 public IBasePortionFormat AsIBasePortionFormat { get; }
 ```
 
-### Notas
+### Comentarios
 
 Para compatibilidad con COM.
 
-### Ver también
+### Vea También
 
-* interfaz [IBasePortionFormat](../../ibaseportionformat)
-* interfaz [IPortionFormat](../../iportionformat)
-* espacio de nombres [Aspose.Slides](../../iportionformat)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IBasePortionFormat](../../ibaseportionformat)
+* interfaz [IPortionFormat](../../iportionformat)
+* espacio de nombres [Aspose.Slides](../../iportionformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

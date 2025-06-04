@@ -1,7 +1,7 @@
 ---
 title: InterruptionToken
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le jeton pour surveiller les demandes d'interruption. Ce jeton gère toute la durée de vie de l'instance IPresentationaspose.slides/ipresentation d'aspose.slides. Toute opération de longue durée, comme le chargement ou la sauvegarde d'une présentation, sera interrompue via l'appel de la méthode Interruptaspose.slides/iinterruptiontokensource/interrupt de l'interface IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
+second_title: Aspose.Slides pour .NET Référence API
+description: Le jeton pour surveiller les demandes d’interruption. Ce jeton gère la durée de vie entière de l’instance IPresentationaspose.slides/ipresentation d’aspose.slides. Toute opération de longue durée, comme le chargement ou l’enregistrement d’une présentation, sera interrompue en appelant la méthode Interruptaspose.slides/iinterruptiontokensource/interrupt de l’interface IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs
 weight: 80
 url: /fr/aspose.slides/iloadoptions/interruptiontoken/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iloadoptions/interruptiontoken/
 
 ## Propriété ILoadOptions.InterruptionToken
 
-Le jeton pour surveiller les demandes d'interruption. Ce jeton gère toute la durée de vie de l'instance [`IPresentation`](../../ipresentation) d'aspose.slides. Toute opération de longue durée, comme le chargement ou la sauvegarde d'une présentation, sera interrompue via l'appel de la méthode [`Interrupt`](../../iinterruptiontokensource/interrupt) de l'interface [`IInterruptionTokenSource`](../../iinterruptiontokensource).
+Le jeton pour surveiller les demandes d’interruption. Ce jeton gère la durée de vie entière de l’instance [`IPresentation`](../../ipresentation) d’aspose.slides. Toute opération de longue durée, comme le chargement ou l’enregistrement d’une présentation, sera interrompue en appelant la méthode [`Interrupt`](../../iinterruptiontokensource/interrupt) de l’interface [`IInterruptionTokenSource`](../../iinterruptiontokensource).
 
 ```csharp
 public IInterruptionToken InterruptionToken { get; set; }

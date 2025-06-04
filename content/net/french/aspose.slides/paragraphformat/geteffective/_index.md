@@ -1,13 +1,13 @@
 ---
 title: GetEffective
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Obtient les données de formatage de paragraphe effectif avec l'héritage appliqué.
 type: docs
 weight: 160
 url: /fr/aspose.slides/paragraphformat/geteffective/
 ---
 
-## Méthode ParagraphFormat.GetEffective
+## ParagraphFormat.GetEffective méthode
 
 Obtient les données de formatage de paragraphe effectif avec l'héritage appliqué.
 
@@ -15,7 +15,7 @@ Obtient les données de formatage de paragraphe effectif avec l'héritage appliq
 public IParagraphFormatEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * class [ParagraphFormat](../../paragraphformat)

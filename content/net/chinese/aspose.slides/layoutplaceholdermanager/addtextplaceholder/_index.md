@@ -1,7 +1,7 @@
 ---
 title: AddTextPlaceholder
-second_title: Aspose.Slides for .NET API 参考
-description: 向布局幻灯片添加一个新的占位符形状以容纳文本内容。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的占位符形状添加到布局幻灯片中以容纳文本内容。
 type: docs
 weight: 80
 url: /zh/aspose.slides/layoutplaceholdermanager/addtextplaceholder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutplaceholdermanager/addtextplaceholder/
 
 ## LayoutPlaceholderManager.AddTextPlaceholder 方法
 
-向布局幻灯片添加一个新的占位符形状以容纳文本内容。
+将新的占位符形状添加到布局幻灯片中以容纳文本内容。
 
 ```csharp
 public IAutoShape AddTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddTextPlaceholder(float x, float y, float width, float height
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | 单精度 | 新占位符形状的 X 坐标。 |
-| y | 单精度 | 新占位符形状的 Y 坐标。 |
-| width | 单精度 | 新占位符形状的宽度。 |
-| height | 单精度 | 新占位符形状的高度。 |
+| x | Single | 新占位符形状的 X 坐标。 |
+| y | Single | 新占位符形状的 Y 坐标。 |
+| width | Single | 新占位符形状的宽度。 |
+| height | Single | 新占位符形状的高度。 |
 
 ### 返回值
 
-创建的 [`IAutoShape`](../../iautoshape) 作为文本占位符。
+创建的 [`IAutoShape`](../../iautoshape) ，具有文本占位符。
 
 ### 示例
 
-以下示例展示了如何将文本占位符形状添加到布局幻灯片中。
+下面的示例演示如何将文本占位符形状添加到布局幻灯片中。
 
 ```csharp
 [C#]

@@ -1,13 +1,13 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Position des Gruppierungszeichens. Standard Unten
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/imathgroupingcharacter/position/
 ---
 
-## IMathGroupingCharacter.Position Eigenschaft
+## IMathGroupingCharacter.Position-Eigenschaft
 
 Position des Gruppierungszeichens. Standard: Unten
 

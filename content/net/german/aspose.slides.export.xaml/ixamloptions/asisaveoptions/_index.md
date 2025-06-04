@@ -1,7 +1,7 @@
 ---
 title: AsISaveOptions
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das ISaveOptions-Interface zurück. Schreibgeschütztes ISaveOptions aspose.slides.export/isaveoptions.
+description: Gibt das ISaveOptions-Interface zurück. Nur-Lese ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /de/aspose.slides.export.xaml/ixamloptions/asisaveoptions/
@@ -9,20 +9,20 @@ url: /de/aspose.slides.export.xaml/ixamloptions/asisaveoptions/
 
 ## IXamlOptions.AsISaveOptions-Eigenschaft
 
-Gibt das ISaveOptions-Interface zurück. Schreibgeschütztes [`ISaveOptions`](../../../aspose.slides.export/isaveoptions).
+Gibt das ISaveOptions-Interface zurück. Nur-Lese [`ISaveOptions`](../../../aspose.slides.export/isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Für die COM-Kompatibilität.
+Für COM-Kompatibilität.
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* Schnittstelle [IXamlOptions](../../ixamloptions)
+* Interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
+* Interface [IXamlOptions](../../ixamloptions)
 * Namespace [Aspose.Slides.Export.Xaml](../../ixamloptions)
 * Assembly [Aspose.Slides](../../../)
 

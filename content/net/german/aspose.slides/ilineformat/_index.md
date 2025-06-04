@@ -20,20 +20,20 @@ public interface ILineFormat : ILineParamSource
 | Name | Beschreibung |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Gibt die Linienausrichtung zurück oder setzt sie. Lese-/Schreibzugriff [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Ermöglicht den Zugriff auf die Basis-IlineParamSource-Schnittstelle. Nur Lesezugriff [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Gibt die Pfeilspitzenlänge am Anfang einer Linie zurück oder setzt sie. Lese-/Schreibzugriff [`LineArrowheadLength`](../linearrowheadlength). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ILineParamSource. Nur Lesezugriff [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Gibt die Länge des Pfeilspitzen bei Beginn einer Linie zurück oder setzt sie. Lese-/Schreibzugriff [`LineArrowheadLength`](../linearrowheadlength). |
 | [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Gibt den Stil der Pfeilspitze am Anfang einer Linie zurück oder setzt ihn. Lese-/Schreibzugriff [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Gibt die Breite der Pfeilspitze am Anfang einer Linie zurück oder setzt sie. Lese-/Schreibzugriff [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Gibt den Stil der Linienkappen zurück oder setzt ihn. Lese-/Schreibzugriff [`LineCapStyle`](../linecapstyle). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Gibt den Stil des Linienendpunkts zurück oder setzt ihn. Lese-/Schreibzugriff [`LineCapStyle`](../linecapstyle). |
 | [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Gibt das benutzerdefinierte Strichmuster zurück oder setzt es. Lese-/Schreibzugriff Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Gibt den Strichstil der Linie zurück oder setzt ihn. Lese-/Schreibzugriff [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Gibt die Pfeilspitzenlänge am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff [`LineArrowheadLength`](../linearrowheadlength). |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Gibt den Linienstil zurück oder setzt ihn. Lese-/Schreibzugriff [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Gibt die Länge der Pfeilspitze am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff [`LineArrowheadLength`](../linearrowheadlength). |
 | [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Gibt den Stil der Pfeilspitze am Ende einer Linie zurück oder setzt ihn. Lese-/Schreibzugriff [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Gibt die Breite der Pfeilspitze am Ende einer Linie zurück oder setzt sie. Lese-/Schreibzugriff [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Gibt das Füllformat einer Linie zurück. Nur Lesezugriff [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Gibt true zurück, wenn das Linienformat nicht definiert ist (soeben erstellt, Standard). Nur Lesezugriff Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Gibt den Verbindungsstil der Linien zurück oder setzt ihn. Lese-/Schreibzugriff [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Gibt die Spitzbegrenzung einer Linie zurück oder setzt sie. Lese-/Schreibzugriff Single. |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Gibt true zurück, wenn das Linienformat nicht definiert ist (wie gerade erstellt, Standard). Nur Lesezugriff Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Gibt den Stil der Linienverbindung zurück oder setzt ihn. Lese-/Schreibzugriff [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Gibt die Schrankenbegrenzung einer Linie zurück oder setzt sie. Lese-/Schreibzugriff Single. |
 | [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Gibt das Skizzenformat einer Linie zurück. Nur Lesezugriff [`ISketchFormat`](../isketchformat). |
 | [Style](../../aspose.slides/ilineformat/style) { get; set; } | Gibt den Linienstil zurück oder setzt ihn. Lese-/Schreibzugriff [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformat/width) { get; set; } | Gibt die Breite einer Linie zurück oder setzt sie. Lese-/Schreibzugriff Double. |

@@ -30,7 +30,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Elimina un nodo o subnodo por índice. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Elimina un nodo o subnodo. |
 
-### Véase También
+### Ver También
 
 * interfaz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interfaz [ISmartArtNode](../ismartartnode)

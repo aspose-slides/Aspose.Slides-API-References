@@ -1,7 +1,7 @@
 ---
 title: Zoom
 second_title: Aspose.Slides für .NET API-Referenz
-description: Kamerazoom positiver Wert in Prozent Lesen/Schreiben Einzel.
+description: Kamerazoom positiver Wert in Prozent Lesen/Schreiben Single.
 type: docs
 weight: 30
 url: /de/aspose.slides/icamera/zoom/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icamera/zoom/
 
 ## ICamera.Zoom-Eigenschaft
 
-Kamerazoom (positiver Wert in Prozent) Lesen/Schreiben Einzel.
+Kamerazoom (positiver Wert in Prozent) Lesen/Schreiben Single.
 
 ```csharp
 public float Zoom { get; set; }

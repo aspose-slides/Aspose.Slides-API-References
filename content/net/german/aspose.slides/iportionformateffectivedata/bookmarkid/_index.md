@@ -1,15 +1,15 @@
 ---
 title: BookmarkId
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Lesezeichenkennung zurück. Schreibgeschützter String.
+description: Gibt die Lesezeichen-ID zurück. Schreibgeschützter String.
 type: docs
 weight: 20
 url: /de/aspose.slides/iportionformateffectivedata/bookmarkid/
 ---
 
-## IPortionFormatEffectiveData.BookmarkId Eigenschaft
+## IPortionFormatEffectiveData.BookmarkId-Eigenschaft
 
-Gibt die Lesezeichenkennung zurück. Schreibgeschützter String.
+Gibt die Lesezeichen-ID zurück. Schreibgeschützter String.
 
 ```csharp
 public string BookmarkId { get; }

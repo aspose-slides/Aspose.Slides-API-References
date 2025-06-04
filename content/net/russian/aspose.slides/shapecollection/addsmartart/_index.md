@@ -1,15 +1,15 @@
 ---
 title: AddSmartArt
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавление диаграммы SmartArt.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавить диаграмму SmartArt.
 type: docs
 weight: 180
 url: /ru/aspose.slides/shapecollection/addsmartart/
 ---
 
-## Метод ShapeCollection.AddSmartArt
+## ShapeCollection.AddSmartArt метод
 
-Добавление диаграммы SmartArt.
+Добавить диаграмму SmartArt.
 
 ```csharp
 public ISmartArt AddSmartArt(float x, float y, float width, float height, 
@@ -24,13 +24,13 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 | height | Single | Высота рамки диаграммы. |
 | layoutType | SmartArtLayoutType | Тип диаграммы SmartArt |
 
-### Возвращаемое значение
+### Значение Возврата
 
-Создание диаграммы SmartArt
+Создать диаграмму SmartArt
 
 ### Примеры
 
-Следующий пример показывает, как добавить смарт-форму в презентацию PowerPoint.
+Следующий пример показывает, как добавить умную фигуру в презентацию PowerPoint.
 
 ```csharp
 [C#]
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### См. Также
+### Смотрите Также
 
 * интерфейс [ISmartArt](../../../aspose.slides.smartart/ismartart)
 * перечисление [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)

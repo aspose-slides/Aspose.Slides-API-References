@@ -15,10 +15,10 @@ Establece el punto de datos como total. Aplicado solo para el tipo de serie Wate
 public bool SetAsTotal { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [ChartDataPoint](../../chartdatapoint)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

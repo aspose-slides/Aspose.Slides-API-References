@@ -1,6 +1,6 @@
 ---
 title: Height
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Höhe eines Bildes zurück. Nur-Lese Int32.
 type: docs
 weight: 30

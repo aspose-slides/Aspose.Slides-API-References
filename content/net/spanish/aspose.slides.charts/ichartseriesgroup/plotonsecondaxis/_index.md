@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Indica si las series de este grupo se trazan en el eje secundario. Solo lectura booleano.
+description: Indica si la serie de este grupo se representa en el eje secundario. Solo lectura Boolean.
 type: docs
 weight: 160
 url: /es/aspose.slides.charts/ichartseriesgroup/plotonsecondaxis/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/ichartseriesgroup/plotonsecondaxis/
 
 ## Propiedad IChartSeriesGroup.PlotOnSecondAxis
 
-Indica si las series de este grupo se trazan en el eje secundario. Solo lectura booleano.
+Indica si la serie de este grupo se representa en el eje secundario. Solo lectura Boolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IChartSeriesGroup](../../ichartseriesgroup)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseriesgroup)

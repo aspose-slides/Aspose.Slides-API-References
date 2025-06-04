@@ -1,6 +1,6 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Textfeldausrichtung innerhalb eines Textbereichs.
 type: docs
 weight: 10600
@@ -26,7 +26,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

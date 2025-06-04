@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
-second_title: Aspose.Sildes для .NET API Reference
-description: Создает новую автофигуру, настроенную из шаблона по умолчанию для математического содержимого, и добавляет ее в конец коллекции.
+second_title: Aspose.Slides для .NET API Справочник
+description: Создает новую Автоформу, настроенную на математическое содержимое из стандартного шаблона, и добавляет её в конец коллекции.
 type: docs
 weight: 140
 url: /ru/aspose.slides/shapecollection/addmathshape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shapecollection/addmathshape/
 
 ## ShapeCollection.AddMathShape метод
 
-Создает новую автофигуру, настроенную из шаблона по умолчанию для математического содержимого, и добавляет ее в конец коллекции.
+Создает новую Автоформу, настроенную на математическое содержимое из стандартного шаблона, и добавляет её в конец коллекции.
 
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
@@ -17,10 +17,10 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X для левой стороны рамки фигуры. |
-| y | Single | Координата Y для верхней стороны рамки фигуры. |
-| width | Single | Ширина рамки фигуры. |
-| height | Single | Высота рамки фигуры. |
+| x | Single | Координата X для левой стороны рамки формы. |
+| y | Single | Координата Y для верхней стороны рамки формы. |
+| width | Single | Ширина рамки формы. |
+| height | Single | Высота рамки формы. |
 
 ### Возвращаемое значение
 

@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Determina si dos instancias de TabsEx son iguales.
 type: docs
 weight: 80
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | El TabsEx a comparar con el TabsEx actual. |
 
-### Valor de retorno
+### Valor de Retorno
 
 **true** si el TabsEx especificado es igual al TabsEx actual; de lo contrario, **false**.
 
-### También ver
+### Véase También
 
 * clase [TabCollection](../../tabcollection)
 * espacio de nombres [Aspose.Slides](../../tabcollection)

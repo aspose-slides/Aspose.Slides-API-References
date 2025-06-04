@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 70
 url: /fr/aspose.slides/masterslidecollection/getenumerator/
 ---
 
-## Méthode MasterSlideCollection.GetEnumerator
+## MasterSlideCollection.GetEnumerator méthode
 
 Renvoie un énumérateur qui itère à travers la collection.
 
@@ -15,14 +15,14 @@ Renvoie un énumérateur qui itère à travers la collection.
 public IEnumerator<IMasterSlide> GetEnumerator()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMasterSlide](../../imasterslide)
-* class [MasterSlideCollection](../../masterslidecollection)
+* classe [MasterSlideCollection](../../masterslidecollection)
 * namespace [Aspose.Slides](../../masterslidecollection)
 * assembly [Aspose.Slides](../../../)
 

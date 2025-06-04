@@ -1,7 +1,7 @@
 ---
 title: Superscript
-second_title: Aspose.Slides for .NET API 参考
-description: 上标
+second_title: Aspose.Sildes for .NET API Reference
+description: Superscript
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript/
@@ -28,7 +28,7 @@ MathLeftSubSuperscriptElement leftSubSuperscript = new MathLeftSubSuperscriptEle
 IMathElement sup = leftSubSuperscript.Superscript;
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathLeftSubSuperscriptElement](../../imathleftsubsuperscriptelement)

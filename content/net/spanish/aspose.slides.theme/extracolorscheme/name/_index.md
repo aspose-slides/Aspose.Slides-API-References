@@ -1,13 +1,13 @@
 ---
 title: Name
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Devuelve un nombre de este esquema. Solo lectura String.
 type: docs
 weight: 20
 url: /es/aspose.slides.theme/extracolorscheme/name/
 ---
 
-## ExtraColorScheme.Name propiedad
+## Propiedad ExtraColorScheme.Name
 
 Devuelve un nombre de este esquema. Solo lectura String.
 

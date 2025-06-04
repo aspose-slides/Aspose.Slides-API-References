@@ -1,21 +1,21 @@
 ---
 title: SideWall
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает объект, который позволяет изменять формат боковой стенки 3D графика. Только для чтения IChartWallaspose.slides.charts/ichartwall.
+second_title: Aspose.Slidеs для .NET API Справочник
+description: Возвращает объект, который позволяет изменить формат боковой стенки 3D графика. Только для чтения IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 200
 url: /ru/aspose.slides.charts/ichart/sidewall/
 ---
 
-## Свойство IChart.SideWall
+## IChart.SideWall свойство
 
-Возвращает объект, который позволяет изменять формат боковой стенки 3D графика. Только для чтения [`IChartWall`](../../ichartwall).
+Возвращает объект, который позволяет изменить формат боковой стенки 3D графика. Только для чтения [`IChartWall`](../../ichartwall).
 
 ```csharp
 public IChartWall SideWall { get; }
 ```
 
-### Также смотри
+### См. также
 
 * интерфейс [IChartWall](../../ichartwall)
 * интерфейс [IChart](../../ichart)

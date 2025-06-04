@@ -1,6 +1,6 @@
 ---
 title: SetColumnAlignment
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Définir l'alignement horizontal de la colonne spécifiée
 type: docs
 weight: 200

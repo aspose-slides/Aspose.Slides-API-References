@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Supprime tous les éléments de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/icustomxmlpartcollection/clear/
 ---
 
-## Méthode ICustomXmlPartCollection.Clear
+## ICustomXmlPartCollection.Clear méthode
 
 Supprime tous les éléments de la collection.
 
@@ -15,7 +15,7 @@ Supprime tous les éléments de la collection.
 public void Clear()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * namespace [Aspose.Slides](../../icustomxmlpartcollection)

@@ -118,7 +118,7 @@ public Presentation(string file)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | Lanzado cuando el archivo de entrada tiene longitud cero |
+| ArgumentException | Se lanza cuando el archivo de entrada tiene longitud cero |
 
 ### Ejemplos
 
@@ -157,7 +157,7 @@ public Presentation(string file, LoadOptions loadOptions)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | Lanzado cuando el archivo de entrada tiene longitud cero |
+| ArgumentException | Se lanza cuando el archivo de entrada tiene longitud cero |
 
 ### Ver También
 

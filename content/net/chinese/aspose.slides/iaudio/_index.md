@@ -1,7 +1,7 @@
 ---
 title: IAudio
-second_title: Aspose.Slides for .NET API Reference
-description: 表示一个嵌入的音频文件。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示嵌入的音频文件。
 type: docs
 weight: 5010
 url: /zh/aspose.slides/iaudio/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iaudio/
 
 ## IAudio 接口
 
-表示一个嵌入的音频文件。
+表示嵌入的音频文件。
 
 ```csharp
 public interface IAudio
@@ -19,8 +19,8 @@ public interface IAudio
 
 | 名称 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 返回音频数据的副本。如果数据量很大，请考虑使用 [`GetStream`](./getstream) 方法以防止将音频数据不必要地加载到内存中，或甚至导致 OutOfMemoryException。 只读 Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 返回编码在 [`BinaryData`](./binarydata) 中的音频 MIME 类型。只读 String。 |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 返回音频数据的副本。对于大量数据，请考虑使用 [`GetStream`](./getstream) 方法，以防止不必要的音频数据加载到内存中，或者甚至出现 OutOfMemoryException。只读 Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 返回音频的 MIME 类型，编码在 [`BinaryData`](./binarydata) 中。只读 String。 |
 
 ## 方法
 

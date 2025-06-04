@@ -1,6 +1,6 @@
 ---
 title: CreateRotationEffect
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает эффект вращения.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorfactory/createrotationeffect/
 public IRotationEffect CreateRotationEffect()
 ```
 
-### Возвращаемое значение
+### Значение Возврата
 
 Эффект вращения.
 

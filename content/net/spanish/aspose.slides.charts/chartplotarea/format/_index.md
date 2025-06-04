@@ -15,11 +15,11 @@ Devuelve el formato de un área de gráfico. Solo lectura [`IFormat`](../../ifor
 public IFormat Format { get; }
 ```
 
-### Véase también
+### Ver también
 
 * interfaz [IFormat](../../iformat)
 * clase [ChartPlotArea](../../chartplotarea)
 * espacio de nombres [Aspose.Slides.Charts](../../chartplotarea)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

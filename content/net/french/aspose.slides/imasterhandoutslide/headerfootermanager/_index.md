@@ -1,13 +1,13 @@
 ---
 title: HeaderFooterManager
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Retourne le gestionnaire HeaderFooter de la diapositive de remise maître. Lecture seule IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
 type: docs
 weight: 30
 url: /fr/aspose.slides/imasterhandoutslide/headerfootermanager/
 ---
 
-## Propriété IMasterHandoutSlide.HeaderFooterManager
+## IMasterHandoutSlide.HeaderFooterManager propriété
 
 Retourne le gestionnaire HeaderFooter de la diapositive de remise maître. Lecture seule [`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager).
 

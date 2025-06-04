@@ -1,15 +1,15 @@
 ---
 title: TransitionDuration
 second_title: Aspose.Sildes für .NET API Referenz
-description: Ruft die Dauer des Übergangs zwischen Zoom und Folie ab oder legt diese fest. Lese-/schreibbarer Single. Standardwert 1.0f
+description: Ruft die Dauer der Übergänge zwischen Zoom und Folie ab oder legt sie fest. Lese-/Schreibzugriff auf Single. Standardwert 1.0f
 type: docs
 weight: 50
 url: /de/aspose.slides/izoomobject/transitionduration/
 ---
 
-## IZoomObject.ÜbergangsDauer-Eigenschaft
+## IZoomObject.TransitionDuration-Eigenschaft
 
-Ruft die Dauer des Übergangs zwischen Zoom und Folie ab oder legt diese fest. Lese-/schreibbarer Single. Standardwert: 1.0f
+Ruft die Dauer des Übergangs zwischen Zoom und Folie ab oder legt sie fest. Lese-/Schreibzugriff auf Single. Standardwert: 1.0f
 
 ```csharp
 public float TransitionDuration { get; set; }
@@ -17,11 +17,11 @@ public float TransitionDuration { get; set; }
 
 ### Anmerkungen
 
-Wenn nicht angegeben (TransitionDur = 0), wird der Übergang der Ziel-Folie und die mit diesem Übergang verbundenen Zeiten verwendet.
+Wenn nicht angegeben (TransitionDur = 0), wird der Übergang der Zielpräsentation und die damit verbundenen Zeitangaben verwendet.
 
 ### Beispiele
 
-Das Beispiel zeigt die Änderung der Dauer des Übergangs zwischen Zoom und Folie:
+Dieses Beispiel zeigt, wie die Dauer des Übergangs zwischen Zoom und Folie geändert wird:
 
 ```csharp
 [C#]

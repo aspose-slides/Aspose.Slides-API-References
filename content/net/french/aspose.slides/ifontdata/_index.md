@@ -1,6 +1,6 @@
 ---
 title: IFontData
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente une définition de police.
 type: docs
 weight: 5630
@@ -27,7 +27,7 @@ public interface IFontData
 | --- | --- |
 | [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Renvoie le nom de la police, remplaçant la référence au thème par une police réelle utilisée. |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

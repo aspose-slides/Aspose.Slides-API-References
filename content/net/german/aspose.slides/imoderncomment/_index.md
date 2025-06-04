@@ -1,13 +1,13 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt einen Kommentar auf einer Folie dar.
 type: docs
 weight: 6260
 url: /de/aspose.slides/imoderncomment/
 ---
 
-## IModernComment-Schnittstelle
+## IModernComment Schnittstelle
 
 Stellt einen Kommentar auf einer Folie dar.
 
@@ -19,11 +19,11 @@ public interface IModernComment : IComment
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Ermöglicht den Zugriff auf die Basis-IComment-Schnittstelle. Nur lesbar [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Gibt eine mit dem Kommentar verbundene Form zurück. Nur lesbar [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Gibt den Status des Kommentars zurück oder setzt ihn. Lesen/Schreiben [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Gibt die Textauswahl-Länge im Textfeld zurück oder setzt sie, wenn der Kommentar mit einer AutoShape verbunden ist. Lesen/Schreiben Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Gibt die Startposition der Textauswahl im Textfeld zurück oder setzt sie, wenn der Kommentar mit einer AutoShape verbunden ist. Lesen/Schreiben Int32. |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Ermöglicht den Zugriff auf die Basis-IComment-Schnittstelle. Nur lesend [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Gibt eine Form zurück, die mit dem Kommentar verknüpft ist. Nur lesend [`IShape`](../ishape). |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Gibt den Status des Kommentars zurück oder legt ihn fest. Lese-/Schreibzugriff [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Gibt die Länge der Textauswahl im Textfeld zurück oder legt sie fest, wenn der Kommentar mit einer AutoForm verknüpft ist. Lese-/Schreibzugriff Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Gibt die Startposition der Textauswahl im Textfeld zurück oder legt sie fest, wenn der Kommentar mit einer AutoForm verknüpft ist. Lese-/Schreibzugriff Int32. |
 
 ### Beispiele
 
@@ -38,7 +38,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IComment](../icomment)
 * Namespace [Aspose.Slides](../../aspose.slides)

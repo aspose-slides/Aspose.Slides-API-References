@@ -1,7 +1,7 @@
 ---
 title: GetActualLabelText
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает актуальный текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает фактический текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/idatalabel/getactuallabeltext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/idatalabel/getactuallabeltext/
 
 ## IDataLabel.GetActualLabelText метод
 
-Возвращает актуальный текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text.
+Возвращает фактический текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text.
 
 ```csharp
 public string GetActualLabelText()
@@ -17,9 +17,9 @@ public string GetActualLabelText()
 
 ### Возвращаемое значение
 
-Актуальный текст метки String
+Фактический текст метки String
 
-### Также смотри
+### См. также
 
 * интерфейс [IDataLabel](../../idatalabel)
 * пространство имен [Aspose.Slides.Charts](../../idatalabel)

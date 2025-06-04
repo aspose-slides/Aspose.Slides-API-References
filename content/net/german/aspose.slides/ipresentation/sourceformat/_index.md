@@ -1,7 +1,7 @@
 ---
 title: SourceFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. Schreibgeschütztes SourceFormataspose.slides/ipresentation/sourceformat.
+description: Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. Nur-Lese SourceFormataspose.slides/ipresentation/sourceformat.
 type: docs
 weight: 260
 url: /de/aspose.slides/ipresentation/sourceformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/sourceformat/
 
 ## IPresentation.SourceFormat-Eigenschaft
 
-Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. Schreibgeschütztes `SourceFormat`.
+Gibt Informationen darüber zurück, aus welchem Format die Präsentation geladen wurde. Nur-Lese `SourceFormat`.
 
 ```csharp
 public SourceFormat SourceFormat { get; }

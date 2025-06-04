@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides/gradientstopcollection/copyto/
 ---
 
-## GradientStopCollection.CopyTo Methode
+## GradientStopCollection.CopyTo-Methode
 
 Kopiert alle Elemente aus der Sammlung in das angegebene Array.
 
@@ -18,9 +18,9 @@ public void CopyTo(Array array, int index)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | array | Array | Ziel-Array. |
-| index | Int32 | Startindex im Ziel-Array. |
+| index | Int32 | Anfangsindex im Ziel-Array. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [GradientStopCollection](../../gradientstopcollection)
 * Namespace [Aspose.Slides](../../gradientstopcollection)

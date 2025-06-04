@@ -1,6 +1,6 @@
 ---
 title: IVideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许创建 VideoPlayerHtmlController。
 type: docs
 weight: 4020
@@ -23,7 +23,7 @@ public interface IVideoPlayerHtmlControllerFactory
 
 ### 备注
 
-用于 COM 兼容性。
+为了兼容 COM。
 
 ### 另见
 

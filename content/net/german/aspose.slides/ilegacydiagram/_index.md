@@ -1,6 +1,6 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt ein Legacy-Diagrammobjekt dar
 type: docs
 weight: 6050
@@ -19,16 +19,16 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Nur lesbar [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Ermöglicht das Abrufen der Basisschnittstelle IGraphicalObject. Nur-Lese [`IGraphicalObject`](../igraphicalobject). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Konvertiert das Legacy-Diagramm in eine bearbeitbare Gruppenform. Das erstellte GroupShape-Objekt wird an der gleichen Position zur übergeordneten Gruppenform hinzugefügt. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Konvertiert das Legacy-Diagramm in ein bearbeitbares SmartArt-Objekt. Das erstellte SmartArt-Objekt wird an der gleichen Position zur übergeordneten Gruppenform hinzugefügt. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Wandelt Legacy-Diagramm in bearbeitbare Gruppenschablone um. Das erstellte GroupShape-Objekt wird an der gleichen Position zur übergeordneten Gruppenschablone hinzugefügt. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Wandelt Legacy-Diagramm in bearbeitbares SmartArt-Objekt um. Das erstellte SmartArt-Objekt wird an der gleichen Position zur übergeordneten Gruppenschablone hinzugefügt. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGraphicalObject](../igraphicalobject)
 * Namespace [Aspose.Slides](../../aspose.slides)

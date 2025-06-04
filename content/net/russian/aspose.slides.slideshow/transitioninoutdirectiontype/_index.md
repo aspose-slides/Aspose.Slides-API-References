@@ -1,7 +1,7 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет типы переходов в направлениях "вход" или "выход".
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляют типы переходов направления входа или выхода.
 type: docs
 weight: 10060
 url: /ru/aspose.slides.slideshow/transitioninoutdirectiontype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.slideshow/transitioninoutdirectiontype/
 
 ## Enumeration TransitionInOutDirectionType
 
-Представляет типы переходов в направлениях "вход" или "выход".
+Представляют типы переходов направления входа или выхода.
 
 ```csharp
 public enum TransitionInOutDirectionType
@@ -22,7 +22,7 @@ public enum TransitionInOutDirectionType
 | In | `0` |  |
 | Out | `1` |  |
 
-### Также см. 
+### См. также
 
 * пространство имен [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * сборка [Aspose.Slides](../../)

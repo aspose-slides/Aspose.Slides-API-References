@@ -1,29 +1,29 @@
----
+---  
 title: INotesSize
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un tamaño de la diapositiva de notas.
-type: docs
-weight: 6290
+second_title: Referencia de API de Aspose.Slides para .NET  
+description: Representa un tamaño de diapositivas de notas.
+type: docs  
+weight: 6290  
 url: /es/aspose.slides/inotessize/
----
+---  
 
-## Interfaz INotesSize
+## Interfaz INotesSize  
 
-Representa un tamaño de la diapositiva de notas.
+Representa un tamaño de diapositivas de notas.  
 
-```csharp
-public interface INotesSize
-```
+```csharp  
+public interface INotesSize  
+```  
 
-## Propiedades
+## Propiedades  
 
-| Nombre | Descripción |
-| --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF. |
+| Nombre | Descripción |  
+| --- | --- |  
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Devuelve o establece el tamaño en puntos. Lectura/escritura SizeF. |  
 
-### Ver también
+### También Vea  
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)  
+* ensamblado [Aspose.Slides](../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

@@ -1,7 +1,7 @@
 ---
 title: AsITheme
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-ITheme-Schnittstelle. Nur-lesbare ITheme aspose.slides.theme/itheme.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-ITheme-Schnittstelle. Nur-Lese-ITheme aspose.slides.theme/itheme.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/imastertheme/asitheme/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/imastertheme/asitheme/
 
 ## IMasterTheme.AsITheme-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-ITheme-Schnittstelle. Nur-lesbare [`ITheme`](../../itheme).
+Ermöglicht den Zugriff auf die Basis-ITheme-Schnittstelle. Nur-Lese [`ITheme`](../../itheme).
 
 ```csharp
 public ITheme AsITheme { get; }

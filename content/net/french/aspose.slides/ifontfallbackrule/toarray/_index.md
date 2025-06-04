@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Référence API Aspose.Slides pour .NET
-description: Crée et renvoie un tableau avec toutes les polices FallBack pour cette règle.
+description: Crée et retourne un tableau avec toutes les polices FallBack pour cette règle.
 type: docs
 weight: 100
 url: /fr/aspose.slides/ifontfallbackrule/toarray/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifontfallbackrule/toarray/
 
 ## ToArray() {#toarray}
 
-Crée et renvoie un tableau avec toutes les polices FallBack pour cette règle.
+Crée et retourne un tableau avec toutes les polices FallBack pour cette règle.
 
 ```csharp
 public string[] ToArray()
@@ -17,7 +17,7 @@ public string[] ToArray()
 
 ### Valeur de retour
 
-Tableau de chaînes
+Tableau de String
 
 ### Exemples
 
@@ -40,7 +40,7 @@ string[] fontNames = newRule.ToArray();
 
 ## ToArray(int, int) {#toarray_1}
 
-Crée et renvoie un tableau avec toutes les polices FallBack du range spécifié dans la liste.
+Crée et retourne un tableau avec toutes les polices FallBack de la plage spécifiée dans la liste.
 
 ```csharp
 public string[] ToArray(int startIndex, int count)
@@ -53,7 +53,7 @@ public string[] ToArray(int startIndex, int count)
 
 ### Valeur de retour
 
-Tableau de chaînes
+Tableau de String
 
 ### Exemples
 

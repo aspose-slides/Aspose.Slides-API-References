@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取应用继承的有效亮度效果数据。
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public ILuminanceEffectiveData GetEffective()
 
 一个 [`ILuminanceEffectiveData`](../../iluminanceeffectivedata)。
 
-### 参见
+### 另请参阅
 
 * 接口 [ILuminanceEffectiveData](../../iluminanceeffectivedata)
 * 类 [Luminance](../../luminance)

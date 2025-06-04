@@ -1,30 +1,30 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes for .NET API 参考
-description: 用于加载用户定义的自定义字体的类。在创建任何演示对象之前应该使用。
+second_title: Aspose.Sildes for .NET API Reference
+description: 用户定义的自定义字体加载类。在创建任何演示文稿对象之前应使用。
 type: docs
 weight: 4730
 url: /zh/aspose.slides/fontsloader/
 ---
 
-## FontsLoader 类
+## FontsLoader class
 
-用于加载用户定义的自定义字体的类。在创建任何演示对象之前应该使用。
+用户定义的自定义字体加载类。在创建任何演示文稿对象之前应使用。
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
 ```
 
-## 方法
+## Methods
 
-| 名称 | 描述 |
+| Name | Description |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | 释放所有用户定义的自定义字体 |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | 获取字体文件夹。返回通过 LoadExternalFonts 方法添加的文件夹以及系统字体文件夹 |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | 从二进制数据中添加字体 |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | 获取字体文件夹。返回已通过 LoadExternalFonts 方法添加的文件夹以及系统字体文件夹 |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | 从二进制数据添加字体 |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | 添加额外的文件夹以查找字体。 |
 
-### 另请参见
+### See Also
 
 * interface [IFontsLoader](../ifontsloader)
 * namespace [Aspose.Slides](../../aspose.slides)

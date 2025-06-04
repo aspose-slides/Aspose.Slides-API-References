@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das eingebettete Bild zurück oder setzt es. Lese-/Schreibzugriff auf IPPImageaspose.slides/ippimage.
+description: Gibt das eingebettete Bild zurück oder legt es fest. Lese-/Schreibzugriff auf IPPImageaspose.slides/ippimage.
 type: docs
 weight: 20
 url: /de/aspose.slides/picture/image/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/picture/image/
 
 ## Picture.Image-Eigenschaft
 
-Gibt das eingebettete Bild zurück oder setzt es. Lese-/Schreibzugriff auf [`IPPImage`](../../ippimage).
+Gibt das eingebettete Bild zurück oder legt es fest. Lese-/Schreibzugriff auf [`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage Image { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPPImage](../../ippimage)
 * Klasse [Picture](../../picture)

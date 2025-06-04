@@ -15,10 +15,10 @@ Desactiva el efecto de reflexión.
 public void DisableReflectionEffect()
 ```
 
-### Véase también
+### Ver También
 
 * clase [EffectFormat](../../effectformat)
-* namespace [Aspose.Slides](../../effectformat)
-* assembly [Aspose.Slides](../../../)
+* espacio de nombres [Aspose.Slides](../../effectformat)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

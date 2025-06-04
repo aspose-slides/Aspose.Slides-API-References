@@ -1,7 +1,7 @@
 ---
 title: Reroute
 second_title: Aspose.Slides für .NET API-Referenz
-description: Leitet den Connector um, sodass er den kürzestmöglichen Weg zwischen den verbundenen Formen nimmt.
+description: Reroutet den Connector so, dass er den kürzesten möglichen Weg zwischen den Formen nimmt, die er verbindet.
 type: docs
 weight: 80
 url: /de/aspose.slides/connector/reroute/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/connector/reroute/
 
 ## Connector.Reroute Methode
 
-Leitet den Connector um, sodass er den kürzestmöglichen Weg zwischen den verbundenen Formen nimmt.
+Reroutet den Connector so, dass er den kürzesten möglichen Weg zwischen den Formen nimmt, die er verbindet.
 
 ```csharp
 public void Reroute()

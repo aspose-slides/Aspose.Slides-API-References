@@ -1,15 +1,15 @@
 ---
 title: Position
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese-/Schreibe PointF.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Position eines Kommentars auf einer Folie zurück oder setzt sie. Lese-/Schreibzugriff PointF.
 type: docs
 weight: 40
 url: /de/aspose.slides/icomment/position/
 ---
 
-## IComment.Position Eigenschaft
+## IComment.Position-Eigenschaft
 
-Gibt die Position eines Kommentars auf einer Folie zurück oder legt sie fest. Lese-/Schreibe PointF.
+Gibt die Position eines Kommentars auf einer Folie zurück oder setzt sie. Lese-/Schreibzugriff PointF.
 
 ```csharp
 public PointF Position { get; set; }

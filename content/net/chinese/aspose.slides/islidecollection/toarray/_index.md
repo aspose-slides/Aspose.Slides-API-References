@@ -19,7 +19,7 @@ public ISlide[] ToArray()
 
 [`ISlide`](../../islide) 的数组
 
-### 另请参阅
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISlideCollection](../../islidecollection)
@@ -45,7 +45,7 @@ public ISlide[] ToArray(int startIndex, int count)
 
 [`ISlide`](../../islide) 的数组
 
-### 另请参阅
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 接口 [ISlideCollection](../../islidecollection)

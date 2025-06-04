@@ -1,15 +1,15 @@
 ---
 title: CropTop
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает процент реальной высоты изображения, который обрезается сверху картинки. Чтение / запись Single.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает количество процентов высоты реального изображения, которое обрезано сверху картинки. Чтение/запись Single.
 type: docs
 weight: 40
 url: /ru/aspose.slides/picturefillformat/croptop/
 ---
 
-## Свойство PictureFillFormat.CropTop
+## PictureFillFormat.CropTop свойство
 
-Возвращает или устанавливает процент реальной высоты изображения, который обрезается сверху картинки. Чтение / запись Single.
+Возвращает или устанавливает количество процентов высоты реального изображения, которое обрезано сверху картинки. Чтение/запись Single.
 
 ```csharp
 public float CropTop { get; set; }

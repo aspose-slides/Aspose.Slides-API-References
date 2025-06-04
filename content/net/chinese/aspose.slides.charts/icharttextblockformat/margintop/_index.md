@@ -1,7 +1,7 @@
 ---
 title: MarginTop
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置 TextFrame 中的上边距点。此属性的更改只能对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。读/写 Double。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置 TextFrame 中的上边距（点）。改变此属性仅对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。读/写 Double。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/icharttextblockformat/margintop/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttextblockformat/margintop/
 
 ## IChartTextBlockFormat.MarginTop 属性
 
-返回或设置 TextFrame 中的上边距（点）。此属性的更改只能对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。读/写 Double。
+返回或设置 TextFrame 中的上边距（点）。改变此属性仅对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。读/写 Double。
 
 ```csharp
 public double MarginTop { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartTextBlockFormat](../../icharttextblockformat)
 * 命名空间 [Aspose.Slides.Charts](../../icharttextblockformat)

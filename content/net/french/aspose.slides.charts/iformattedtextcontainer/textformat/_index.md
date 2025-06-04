@@ -1,6 +1,6 @@
 ---
 title: TextFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Renvoie le format de texte du graphique. Lecture seule IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 20

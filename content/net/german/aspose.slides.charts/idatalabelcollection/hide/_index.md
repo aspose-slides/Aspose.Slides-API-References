@@ -1,7 +1,7 @@
 ---
 title: Hide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Machen Sie das Datenlabel standardmäßig unsichtbar, indem Sie alle Show-Flags ShowValue, ... der DefaultDataLabelFormat-Eigenschaft auf den Status false setzen. IsVisible wird danach false sein.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Machen Sie das Datenetikett standardmäßig unsichtbar, indem Sie alle Show-Flags ShowValue, ... der DefaultDataLabelFormat-Eigenschaft auf false setzen. IsVisible wird danach false sein.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/idatalabelcollection/hide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/idatalabelcollection/hide/
 
 ## IDataLabelCollection.Hide-Methode
 
-Machen Sie das Datenlabel standardmäßig unsichtbar, indem Sie alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den Status false setzen. IsVisible wird danach false sein.
+Machen Sie das Datenetikett standardmäßig unsichtbar, indem Sie alle Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf false setzen. IsVisible wird danach false sein.
 
 ```csharp
 public void Hide()
@@ -17,9 +17,9 @@ public void Hide()
 
 ### Bemerkungen
 
-Wenn das Datenlabel standardmäßig nicht sichtbar ist (IsVisible ist false), können Sie das Datenlabel "standardmäßig sichtbar" machen, indem Sie die Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den Status true setzen.
+Wenn das Datenetikett standardmäßig nicht sichtbar ist (IsVisible ist false), können Sie das Datenetikett "standardmäßig sichtbar" machen, indem Sie die Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf true setzen.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDataLabelCollection](../../idatalabelcollection)
 * Namespace [Aspose.Slides.Charts](../../idatalabelcollection)

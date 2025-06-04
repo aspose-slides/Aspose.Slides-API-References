@@ -1,7 +1,7 @@
 ---
 title: Depth
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la profundidad de una forma 3D. Lectura/escritura Double.
+description: Devuelve o establece la profundidad de una forma 3D. Lectura/escritura Doble.
 type: docs
 weight: 70
 url: /es/aspose.slides/ithreedformat/depth/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/ithreedformat/depth/
 
 ## Propiedad IThreeDFormat.Depth
 
-Devuelve o establece la profundidad de una forma 3D. Lectura/escritura Double.
+Devuelve o establece la profundidad de una forma 3D. Lectura/escritura Doble.
 
 ```csharp
 public double Depth { get; set; }
@@ -19,6 +19,6 @@ public double Depth { get; set; }
 
 * interfaz [IThreeDFormat](../../ithreedformat)
 * espacio de nombres [Aspose.Slides](../../ithreedformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

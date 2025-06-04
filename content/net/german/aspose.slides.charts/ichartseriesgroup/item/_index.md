@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält das Element am angegebenen Index.
+description: Gibt das Element am angegebenen Index zurück.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/ichartseriesgroup/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseriesgroup/item/
 
 ## IChartSeriesGroup-Indexer
 
-Erhält das Element am angegebenen Index.
+Gibt das Element am angegebenen Index zurück.
 
 ```csharp
 public IChartSeries this[int index] { get; }
@@ -17,8 +17,8 @@ public IChartSeries this[int index] { get; }
 
 ### Siehe auch
 
-* Interface [IChartSeries](../../ichartseries)
-* Interface [IChartSeriesGroup](../../ichartseriesgroup)
+* Schnittstelle [IChartSeries](../../ichartseries)
+* Schnittstelle [IChartSeriesGroup](../../ichartseriesgroup)
 * Namespace [Aspose.Slides.Charts](../../ichartseriesgroup)
 * Assembly [Aspose.Slides](../../../)
 

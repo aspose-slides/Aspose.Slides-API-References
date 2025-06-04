@@ -1,6 +1,6 @@
 ---
 title: MathIntegralTypes
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Tipos de integrales matemáticas
 type: docs
 weight: 8530
@@ -26,9 +26,9 @@ public enum MathIntegralTypes
 | Superficie | `4` | Integral de Superficie: '∯' |
 | Volumen | `5` | Integral de Volumen: '∰' |
 
-### Ver También
+### Véase También
 
-* espacio de nombres [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

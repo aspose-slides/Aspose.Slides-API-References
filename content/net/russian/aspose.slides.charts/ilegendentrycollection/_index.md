@@ -1,6 +1,6 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет коллекцию легенд.
 type: docs
 weight: 2060
@@ -17,12 +17,12 @@ public interface ILegendEntryCollection
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Свойство только для чтения Int32. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
 | [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Получает свойства элемента легенды, соответствующего Chart.ChartData.Series[0].DataPoints[index] в случае типов графиков из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующего Chart.ChartData.Series[index] для других типов графиков. |
 
-### См. также
+### Смотрите Также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft effektive Tabellenformatierungs Eigenschaften mit vererbten und angewendeten Tabellenstilen ab.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Erhält effektive Tabellenformatierungseigenschaften mit vererbten und angewendeten Tabellenstilen.
 type: docs
 weight: 30
 url: /de/aspose.slides/itableformat/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itableformat/geteffective/
 
 ## ITableFormat.GetEffective-Methode
 
-Ruft effektive Tabellenformatierungs Eigenschaften mit vererbten und angewendeten Tabellenstilen ab.
+Erhält effektive Tabellenformatierungseigenschaften mit vererbten und angewendeten Tabellenstilen.
 
 ```csharp
 public ITableFormatEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public ITableFormatEffectiveData GetEffective()
 
 Ein [`ITableFormatEffectiveData`](../../itableformateffectivedata).
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITableFormatEffectiveData](../../itableformateffectivedata)
 * Schnittstelle [ITableFormat](../../itableformat)

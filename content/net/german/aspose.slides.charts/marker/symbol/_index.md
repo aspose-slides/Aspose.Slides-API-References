@@ -1,13 +1,13 @@
 ---
 title: Symbol
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt den Marker-Stil in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff auf MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/marker/symbol/
 ---
 
-## Marker.Symbol-Eigenschaft
+## Marker.Symbol Eigenschaft
 
 Stellt den Marker-Stil in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff auf [`MarkerStyleType`](../../markerstyletype).
 
@@ -15,7 +15,7 @@ Stellt den Marker-Stil in einem Liniendiagramm, Streudiagramm oder Radardiagramm
 public MarkerStyleType Symbol { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [MarkerStyleType](../../markerstyletype)
 * class [Marker](../../marker)

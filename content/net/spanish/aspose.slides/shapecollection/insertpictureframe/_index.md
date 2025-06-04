@@ -1,7 +1,7 @@
 ---
 title: InsertPictureFrame
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea un nuevo MarcoDeImagen e inserta en la colección en el índice especificado.
+description: Crea un nuevo PictureFrame y lo inserta en la colección en el índice especificado.
 type: docs
 weight: 360
 url: /es/aspose.slides/shapecollection/insertpictureframe/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapecollection/insertpictureframe/
 
 ## Método ShapeCollection.InsertPictureFrame
 
-Crea un nuevo MarcoDeImagen e inserta en la colección en el índice especificado.
+Crea un nuevo PictureFrame y lo inserta en la colección en el índice especificado.
 
 ```csharp
 public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x, float y, 
@@ -24,7 +24,7 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 | y | Single | La coordenada Y para el lado superior del marco de la forma. |
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
-| image | IPPImage | La imagen del marco de imagen. |
+| image | IPPImage | La imagen del marco de la imagen. |
 
 ### Valor de Retorno
 
@@ -33,10 +33,10 @@ Objeto PictureFrame creado.
 ### Véase También
 
 * interfaz [IPictureFrame](../../ipictureframe)
-* enumeración [ShapeType](../../shapetype)
+* enum [ShapeType](../../shapetype)
 * interfaz [IPPImage](../../ippimage)
 * clase [ShapeCollection](../../shapecollection)
-* espacio de nombres [Aspose.Slides](../../shapecollection)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../shapecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

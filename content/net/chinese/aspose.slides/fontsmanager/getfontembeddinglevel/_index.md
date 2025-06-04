@@ -1,7 +1,7 @@
 ---
 title: GetFontEmbeddingLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 从给定的字节数组和字体名称中确定字体的嵌入级别。
+description: 从给定的字节数组和字体名称确定字体的嵌入级别。
 type: docs
 weight: 60
 url: /zh/aspose.slides/fontsmanager/getfontembeddinglevel/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontsmanager/getfontembeddinglevel/
 
 ## FontsManager.GetFontEmbeddingLevel 方法
 
-从给定的字节数组和字体名称中确定字体的嵌入级别。
+从给定的字节数组和字体名称确定字体的嵌入级别。
 
 ```csharp
 public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
@@ -36,10 +36,10 @@ public EmbeddingLevel GetFontEmbeddingLevel(byte[] fontBytes, string fontName)
 [C#]
 using (Presentation pres = new Presentation(pptxFileName))
 {
-    // 获取演示文稿中使用的所有字体
+    // 检索演示文稿中使用的所有字体
     IFontData[] fontDatas = pres.FontsManager.GetFonts();
 
-    // 获取表示演示文稿中第一个字体的常规样式的字节数组
+    // 获取表示演示文稿中第一个字体常规样式的字节数组
     byte[] bytes = pres.FontsManager.GetFontBytes(fontDatas[0], FontStyle.Regular);
 
     // 确定字体的嵌入级别
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation(pptxFileName))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [EmbeddingLevel](../../embeddinglevel)
 * class [FontsManager](../../fontsmanager)

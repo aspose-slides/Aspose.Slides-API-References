@@ -1,13 +1,13 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides/digitalsignaturecollection/copyto/
 ---
 
-## Метод DigitalSignatureCollection.CopyTo
+## DigitalSignatureCollection.CopyTo метод
 
 Копирует все элементы из коллекции в указанный массив.
 
@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### Смотрите также
+### См. также
 
 * класс [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)

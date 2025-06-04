@@ -1,13 +1,13 @@
 ---
 title: FillColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет заливки фигуры. Только для чтения IColorFormat aspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает цвет заливки фигуры. Только для чтения IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ishapestyle/fillcolor/
 ---
 
-## Свойство IShapeStyle.FillColor
+## IShapeStyle.FillColor свойство
 
 Возвращает цвет заливки фигуры. Только для чтения [`IColorFormat`](../../icolorformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ishapestyle/fillcolor/
 public IColorFormat FillColor { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * интерфейс [IShapeStyle](../../ishapestyle)

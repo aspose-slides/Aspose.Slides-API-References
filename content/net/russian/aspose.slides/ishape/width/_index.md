@@ -1,13 +1,13 @@
 ---
 title: Width
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает или устанавливает ширину фигуры. Чтение/запись Single.
 type: docs
 weight: 260
 url: /ru/aspose.slides/ishape/width/
 ---
 
-## Свойство IShape.Width
+## IShape.Width свойство
 
 Возвращает или устанавливает ширину фигуры. Чтение/запись Single.
 
@@ -15,9 +15,9 @@ url: /ru/aspose.slides/ishape/width/
 public float Width { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-Возвращаемое значение всегда определено (не является float.NaN). Присвоенное значение должно быть определено (не float.NaN). Вы можете установить неопределенные значения для свойств экземпляров RawFrame.
+Возвращаемое значение всегда определено (не является float.NaN). Установленное значение должно быть определено (не float.NaN). Вы можете установить неопределенные значения для свойств экземпляров RawFrame.
 
 ### См. также
 

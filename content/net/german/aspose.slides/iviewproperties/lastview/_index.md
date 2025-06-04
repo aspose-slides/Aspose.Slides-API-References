@@ -1,21 +1,21 @@
 ---
 title: LastView
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument zuletzt gespeichert wurde. Lese-/Schreibzugriff auf ViewTypeaspose.slides/viewtype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument zuletzt gespeichert wurde. Lesen/Schreiben ViewTypeaspose.slides/viewtype.
 type: docs
 weight: 20
 url: /de/aspose.slides/iviewproperties/lastview/
 ---
 
-## IViewProperties.LastView-Eigenschaft
+## IViewProperties.LastView Eigenschaft
 
-Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument zuletzt gespeichert wurde. Lese-/Schreibzugriff auf [`ViewType`](../../viewtype).
+Gibt den Ansichtsmodus an, der verwendet wurde, als das Präsentationsdokument zuletzt gespeichert wurde. Lesen/Schreiben [`ViewType`](../../viewtype).
 
 ```csharp
 public ViewType LastView { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [ViewType](../../viewtype)
 * interface [IViewProperties](../../iviewproperties)

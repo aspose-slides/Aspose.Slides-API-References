@@ -1,13 +1,13 @@
 ---
 title: AddDataPointForSunburstSeries
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Sunburst ist.
 type: docs
 weight: 200
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforsunburstseries/
 ---
 
-## IChartDataPointCollection.AddDataPointForSunburstSeries-Methode
+## IChartDataPointCollection.AddDataPointForSunburstSeries Methode
 
 Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Sunburst ist.
 

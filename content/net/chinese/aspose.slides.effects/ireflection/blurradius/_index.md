@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
-second_title: Aspose.Slides for .NET API 参考
-description: 模糊半径。可读写的双精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 模糊半径。可读/写的双精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.effects/ireflection/blurradius/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflection/blurradius/
 
 ## IReflection.BlurRadius 属性
 
-模糊半径。可读写的双精度浮点数。
+模糊半径。可读/写的双精度浮点数。
 
 ```csharp
 public double BlurRadius { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IReflection](../../ireflection)
 * 命名空间 [Aspose.Slides.Effects](../../ireflection)

@@ -19,7 +19,7 @@ public IShape TargetShape { get; }
 
 * interfaz [IShape](../../../aspose.slides/ishape)
 * clase [Effect](../../effect)
-* espacio de nombres [Aspose.Slides.Animation](../../effect)
+* namespace [Aspose.Slides.Animation](../../effect)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

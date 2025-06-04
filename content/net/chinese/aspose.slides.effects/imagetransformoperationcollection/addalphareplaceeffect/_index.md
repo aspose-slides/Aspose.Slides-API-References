@@ -1,7 +1,7 @@
 ---
 title: AddAlphaReplaceEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 将新的 Alpha Replace 效果添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的 Alpha 替换效果添加到集合的末尾。
 type: docs
 weight: 110
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect/
@@ -9,21 +9,21 @@ url: /zh/aspose.slides.effects/imagetransformoperationcollection/addalphareplace
 
 ## ImageTransformOperationCollection.AddAlphaReplaceEffect 方法
 
-将新的 Alpha Replace 效果添加到集合的末尾。
+将新的 Alpha 替换效果添加到集合的末尾。
 
 ```csharp
 public IAlphaReplace AddAlphaReplaceEffect(float alpha)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| alpha | Single | 新的不透明度值。 |
+| 参数    | 类型    | 描述                   |
+| ------- | ------- | ---------------------- |
+| alpha   | Single  | 新的不透明度值。      |
 
 ### 返回值
 
 集合中新图像效果的索引。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IAlphaReplace](../../ialphareplace)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

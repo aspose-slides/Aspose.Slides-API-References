@@ -1,15 +1,15 @@
 ---
 title: CreateMathFunction
-second_title: Aspose.Slides для .NET API Справочник
-description: Создание математической функции
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает математическую функцию
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathfunctionfactory/createmathfunction/
 ---
 
-## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
+## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
 
-Создание математической функции
+Создает математическую функцию
 
 ```csharp
 public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement baseArgument)
@@ -17,14 +17,14 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| funcName | IMathElement | Элемент, используемый в качестве имени функции |
-| baseArgument | IMathElement | Элемент, используемый в качестве аргумента функции |
+| funcName | IMathElement | Элемент, используемый как имя функции |
+| baseArgument | IMathElement | Элемент, используемый как аргумент функции |
 
 ### Возвращаемое значение
 
 новая математическая функция
 
-### См. также
+### См. Также
 
 * интерфейс [IMathFunction](../../imathfunction)
 * интерфейс [IMathElement](../../imathelement)
@@ -34,9 +34,9 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 ---
 
-## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
+## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
 
-Создание математической функции
+Создает математическую функцию
 
 ```csharp
 public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgument)
@@ -45,13 +45,13 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | funcName | String | Имя функции |
-| baseArgument | IMathElement | Элемент, используемый в качестве аргумента функции |
+| baseArgument | IMathElement | Элемент, используемый как аргумент функции |
 
 ### Возвращаемое значение
 
 новая математическая функция
 
-### См. также
+### См. Также
 
 * интерфейс [IMathFunction](../../imathfunction)
 * интерфейс [IMathElement](../../imathelement)

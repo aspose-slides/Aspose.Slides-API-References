@@ -1,7 +1,7 @@
 ---
 title: MathGroupingCharacter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Initialisiert eine neue Instanz der MathGroupingCharacter-Klasse mit dem standardmäßigen Gruppierungszeichen U+23DF UNTERE GLOCKENKLAMMER
+second_title: Aspose.Slides für .NET API Referenz
+description: Initialisiert eine neue Instanz der MathGroupingCharacter-Klasse mit dem standardmäßigen Gruppierungszeichen U+23DF UNTERE GESCHWUNGENE KLAMMER
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
-Initialisiert eine neue Instanz der MathGroupingCharacter-Klasse mit dem standardmäßigen Gruppierungszeichen U+23DF (UNTERE GLOCKENKLAMMER)
+Initialisiert eine neue Instanz der MathGroupingCharacter-Klasse mit dem standardmäßigen Gruppierungszeichen U+23DF (UNTERE GESCHWUNGENE KLAMMER)
 
 ```csharp
 public MathGroupingCharacter(IMathElement element)
@@ -17,7 +17,7 @@ public MathGroupingCharacter(IMathElement element)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Das Basiselement, auf das die Leiste angewendet wird |
+| element | IMathElement | Das Basiselement, auf das die Linie angewendet wird |
 
 ### Beispiele
 
@@ -48,10 +48,10 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| element | IMathElement | Das Basiselement, auf das die Leiste angewendet wird |
+| element | IMathElement | Das Basiselement, auf das die Linie angewendet wird |
 | character | Char | Gruppierungszeichen |
 | position | MathTopBotPositions | Position des Gruppierungszeichens |
-| verticalJustification | MathTopBotPositions | Vertikale Rechtfertigung des Gruppenzeichens |
+| verticalJustification | MathTopBotPositions | Vertikale Ausrichtung des Gruppenzeichens |
 
 ### Beispiele
 

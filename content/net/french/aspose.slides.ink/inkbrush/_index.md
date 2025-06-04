@@ -1,6 +1,6 @@
 ---
 title: InkBrush
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un objet inkBrush.
 type: docs
 weight: 7340
@@ -22,7 +22,7 @@ public class InkBrush : IInkBrush
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Obtient ou définit la couleur du pinceau pour une ligne. |
 | [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Obtient ou définit la taille du pinceau pour une ligne en points. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IInkBrush](../iinkbrush)
 * namespace [Aspose.Slides.Ink](../../aspose.slides.ink)

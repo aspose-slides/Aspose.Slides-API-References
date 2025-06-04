@@ -1,13 +1,13 @@
 ---
 title: YShear
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa la propiedad yshear
 type: docs
 weight: 1210
 url: /es/aspose.slides.animation/behaviorproperty/yshear/
 ---
 
-## Propiedad BehaviorProperty.YShear
+## BehaviorProperty.YShear property
 
 Representa la propiedad 'yshear'
 
@@ -19,6 +19,6 @@ public static BehaviorProperty YShear { get; }
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

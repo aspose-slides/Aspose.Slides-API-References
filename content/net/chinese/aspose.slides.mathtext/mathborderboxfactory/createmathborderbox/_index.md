@@ -1,7 +1,7 @@
 ---
 title: CreateMathBorderBox
-second_title: Aspose.Slides for .NET API Reference
-description: 通过应用于元素创建数学边框框
+second_title: Aspose.Sildes for .NET API Reference
+description: 通过应用于元素创建数学边框盒
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
 
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-通过应用于元素创建数学边框框
+通过应用于元素创建数学边框盒
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -17,13 +17,13 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 要应用边框框的数学元素 |
+| element | IMathElement | 要应用边框盒的数学元素 |
 
 ### 返回值
 
-新的边框框元素
+新的边框盒元素
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBorderBox](../../imathborderbox)
 * 接口 [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-通过应用于元素创建数学边框框
+通过应用于元素创建数学边框盒
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -45,21 +45,21 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 要应用边框框的数学元素 |
-| hideTop | Boolean | 隐藏顶部边缘 |
-| hideBottom | Boolean | 隐藏底部边缘 |
-| hideLeft | Boolean | 隐藏左侧边缘 |
-| hideRight | Boolean | 隐藏右侧边缘 |
-| strikethroughHorizontal | Boolean | 边框框水平删除线 |
-| strikethroughVertical | Boolean | 边框框垂直删除线 |
-| strikethroughBottomLeftToTopRight | Boolean | 边框框下左到上右删除线 |
-| strikethroughTopLeftToBottomRight | Boolean | 边框框上左到下右删除线 |
+| element | IMathElement | 要应用边框盒的数学元素 |
+| hideTop | Boolean | 隐藏上边缘 |
+| hideBottom | Boolean | 隐藏下边缘 |
+| hideLeft | Boolean | 隐藏左边缘 |
+| hideRight | Boolean | 隐藏右边缘 |
+| strikethroughHorizontal | Boolean | 边框盒横向删除线 |
+| strikethroughVertical | Boolean | 边框盒纵向删除线 |
+| strikethroughBottomLeftToTopRight | Boolean | 边框盒从左下到右上的删除线 |
+| strikethroughTopLeftToBottomRight | Boolean | 边框盒从左上到右下的删除线 |
 
 ### 返回值
 
-新的边框框元素
+新的边框盒元素
 
-### 另见
+### 另请参见
 
 * 接口 [IMathBorderBox](../../imathborderbox)
 * 接口 [IMathElement](../../imathelement)

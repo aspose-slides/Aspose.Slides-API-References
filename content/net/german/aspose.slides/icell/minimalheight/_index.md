@@ -1,7 +1,7 @@
 ---
 title: MinimalHeight
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die minimale Höhe einer Zelle zurück. Dies ist die Summe der minimalen Höhen aller Zeilen, die von der Zelle abgedeckt werden. Schreibgeschützter Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die minimale Höhe einer Zelle zurück. Dies ist die Summe der minimalen Höhen aller Zeilen, die von der Zelle abgedeckt werden. Nur-Lese Double.
 type: docs
 weight: 150
 url: /de/aspose.slides/icell/minimalheight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icell/minimalheight/
 
 ## ICell.MinimalHeight-Eigenschaft
 
-Gibt die minimale Höhe einer Zelle zurück. Dies ist die Summe der minimalen Höhen aller Zeilen, die von der Zelle abgedeckt werden. Schreibgeschützter Double.
+Gibt die minimale Höhe einer Zelle zurück. Dies ist die Summe der minimalen Höhen aller Zeilen, die von der Zelle abgedeckt werden. Nur-Lese Double.
 
 ```csharp
 public double MinimalHeight { get; }

@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示 DataLabels 对象的格式字符串。可读/写字符串。
+description: 表示 DataLabels 对象的格式字符串。可读写字符串。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/datalabelformat/numberformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datalabelformat/numberformat/
 
 ## DataLabelFormat.NumberFormat 属性
 
-表示 DataLabels 对象的格式字符串。可读/写字符串。
+表示 DataLabels 对象的格式字符串。可读写字符串。
 
 ```csharp
 public string NumberFormat { get; set; }
@@ -17,7 +17,7 @@ public string NumberFormat { get; set; }
 
 ### 备注
 
-如果此 DataLabelFormat 对象的父对象是 DataLabelCollection 数据标签集合，则此属性获取或设置 DataLabelCollection 集合中新数据标签的 NumberFormat 属性的默认值。当该属性设置为某个值时，该值也会被设置为 DataLabelCollection 集合中所有数据标签的 NumberFormat 属性（即 "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" 会导致所有 DataLabels[i].NumberFormat 等于 val）。
+如果该 DataLabelFormat 对象的父级是 DataLabelCollection 数据标签集合，则此属性获取或设置 DataLabelCollection 中新数据标签的 NumberFormat 属性的默认值。当此属性设置为一个值时，该值也会设置为 DataLabelCollection 中所有数据标签的 NumberFormat 属性（即 "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" 会导致所有 DataLabels[i].NumberFormat 等于 val）。
 
 ### 示例
 
@@ -28,7 +28,7 @@ series.Labels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = false;
 series.Labels.DefaultDataLabelFormat.NumberFormat = "0.0%";
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [DataLabelFormat](../../datalabelformat)
 * namespace [Aspose.Slides.Charts](../../datalabelformat)

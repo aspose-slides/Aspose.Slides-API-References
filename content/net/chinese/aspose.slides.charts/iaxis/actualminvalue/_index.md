@@ -1,7 +1,7 @@
 ---
 title: ActualMinValue
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定轴上的实际最小值。请先调用方法 IChart.ValidateChartLayout 以获取实际值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定坐标轴上的实际最小值。请先调用方法 IChart.ValidateChartLayout 以获取实际值。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/iaxis/actualminvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iaxis/actualminvalue/
 
 ## IAxis.ActualMinValue 属性
 
-指定轴上的实际最小值。请先调用方法 IChart.ValidateChartLayout() 以获取实际值。
+指定坐标轴上的实际最小值。请先调用方法 IChart.ValidateChartLayout() 以获取实际值。
 
 ```csharp
 public double ActualMinValue { get; }

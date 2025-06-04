@@ -1,7 +1,7 @@
 ---
 title: Status
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Status des Kommentars ab oder setzt ihn. Lese-/Schreibzugriff auf ModernCommentStatusaspose.slides/moderncommentstatus.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft den Status des Kommentars ab oder legt ihn fest. Lese-/Schreibzugriff auf ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs
 weight: 20
 url: /de/aspose.slides/moderncomment/status/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/moderncomment/status/
 
 ## ModernComment.Status-Eigenschaft
 
-Ruft den Status des Kommentars ab oder setzt ihn. Lese-/Schreibzugriff auf [`ModernCommentStatus`](../../moderncommentstatus).
+Ruht den Status des Kommentars ab oder legt ihn fest. Lese-/Schreibzugriff auf [`ModernCommentStatus`](../../moderncommentstatus).
 
 ```csharp
 public ModernCommentStatus Status { get; set; }

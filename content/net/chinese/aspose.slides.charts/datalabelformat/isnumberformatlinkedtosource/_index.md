@@ -1,6 +1,6 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 读/写布尔值。
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public bool IsNumberFormatLinkedToSource { get; set; }
 
 ### 备注
 
-如果此 DataLabelFormat 对象的父级是数据标签的 DataLabelCollection 集合，则此属性将获取或设置 DataLabelCollection 集合中新数据标签的 IsNumberFormatLinkedToSource 属性的默认值。设置此属性的值还会将此值设置为 DataLabelCollection 集合中所有数据标签的 IsNumberFormatLinkedToSource 属性（即 "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" 将导致所有 DataLabels[i].IsNumberFormatLinkedToSource 等于 val）。
+如果此 DataLabelFormat 对象的父级是数据标签集合 DataLabelCollection，则此属性获取或设置 DataLabelCollection 中新数据标签的 IsNumberFormatLinkedToSource 属性的默认值。设置此属性的值也会将该值设置为 DataLabelCollection 中所有数据标签的 IsNumberFormatLinkedToSource 属性（即 "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" 使得所有 DataLabels[i].IsNumberFormatLinkedToSource 等于 val）。
 
 ### 另请参阅
 

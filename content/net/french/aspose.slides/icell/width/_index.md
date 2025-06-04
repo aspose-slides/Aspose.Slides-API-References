@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Renvoie la largeur de la cellule. En lecture seule Double.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Renvoie la largeur de la cellule. Lecture seule Double.
 type: docs
 weight: 230
 url: /fr/aspose.slides/icell/width/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icell/width/
 
 ## Propriété ICell.Width
 
-Renvoie la largeur de la cellule. En lecture seule Double.
+Renvoie la largeur de la cellule. Lecture seule Double.
 
 ```csharp
 public double Width { get; }

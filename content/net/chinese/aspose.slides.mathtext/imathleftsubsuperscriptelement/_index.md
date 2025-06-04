@@ -1,7 +1,7 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Slides for .NET API 参考
-description: 指定包含基数和左侧下标与上标的下-上标对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定由基数和放置在基数左侧的下标和上标组成的下上标对象。
 type: docs
 weight: 8060
 url: /zh/aspose.slides.mathtext/imathleftsubsuperscriptelement/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 
 ## IMathLeftSubSuperscriptElement 接口
 
-指定下-上标对象，该对象由基数和位于基数左侧的下标与上标组成。
+指定下上标对象，该对象由基数以及放置在基数左侧的下标和上标组成。
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -19,7 +19,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 允许获取基数 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 获取基数 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | 基数参数 |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | 下标 |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | 上标 |
@@ -33,7 +33,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

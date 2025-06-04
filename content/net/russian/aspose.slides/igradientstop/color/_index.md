@@ -1,13 +1,13 @@
 ---
 title: Color
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает цвет градиентной точки. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает цвет градиентной точки. Только для чтения IColorFormat aspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides/igradientstop/color/
 ---
 
-## Свойство IGradientStop.Color
+## IGradientStop.Color свойство
 
 Возвращает цвет градиентной точки. Только для чтения [`IColorFormat`](../../icolorformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/igradientstop/color/
 public IColorFormat Color { get; }
 ```
 
-### Также Посмотрите
+### См. также
 
 * интерфейс [IColorFormat](../../icolorformat)
 * интерфейс [IGradientStop](../../igradientstop)

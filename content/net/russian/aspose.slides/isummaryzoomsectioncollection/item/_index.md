@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Получает элемент по указанному индексу. Только для чтения ISummaryZoomSectionaspose.slides/isummaryzoomsection.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public ISummaryZoomSection this[int index] { get; }
 
 ### Примеры
 
-Пример демонстрирует получение элемента Секции Суммарного Увеличения по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISummaryZoomSection](../../isummaryzoomsection)
 * интерфейс [ISummaryZoomSectionCollection](../../isummaryzoomsectioncollection)

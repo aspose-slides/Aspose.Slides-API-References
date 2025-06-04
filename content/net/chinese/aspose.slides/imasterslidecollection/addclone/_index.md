@@ -1,7 +1,7 @@
 ---
 title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 将指定母版幻灯片的副本添加到集合末尾。链接的版式幻灯片也将被复制。
+description: 将指定的母版幻灯片的副本添加到集合的末尾。关联的布局幻灯片也会被复制。
 type: docs
 weight: 20
 url: /zh/aspose.slides/imasterslidecollection/addclone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterslidecollection/addclone/
 
 ## IMasterSlideCollection.AddClone 方法
 
-将指定的母版幻灯片的副本添加到集合的末尾。链接的版式幻灯片也将被复制。
+将指定的母版幻灯片的副本添加到集合的末尾。关联的布局幻灯片也会被复制。
 
 ```csharp
 public IMasterSlide AddClone(IMasterSlide sourceMaster)
@@ -23,7 +23,7 @@ public IMasterSlide AddClone(IMasterSlide sourceMaster)
 
 添加的幻灯片。
 
-### 相关链接
+### 另见
 
 * 接口 [IMasterSlide](../../imasterslide)
 * 接口 [IMasterSlideCollection](../../imasterslidecollection)

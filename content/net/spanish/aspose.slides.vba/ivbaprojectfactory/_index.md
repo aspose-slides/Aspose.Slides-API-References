@@ -20,9 +20,9 @@ public interface IVbaProjectFactory
 | Nombre | Descripción |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Crea un nuevo proyecto VBA. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Lee un proyecto VBA del contenedor OLE. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Lee el proyecto VBA del contenedor OLE. |
 
-### Ver También
+### Véase también
 
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)
 * assembly [Aspose.Slides](../../)

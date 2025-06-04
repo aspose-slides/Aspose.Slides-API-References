@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/effectformat/gloweffect/
 ---
 
-## Propriété EffectFormat.GlowEffect
+## EffectFormat.GlowEffect propriété
 
 Effet de lueur. Lire/écrire [`IGlow`](../../../aspose.slides.effects/iglow).
 

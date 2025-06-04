@@ -1,6 +1,6 @@
 ---
 title: Join
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Silides for .NET API Reference
 description: 将数学元素与此数学块连接
 type: docs
 weight: 140
@@ -15,9 +15,9 @@ url: /zh/aspose.slides.mathtext/mathblock/join/
 public override IMathBlock Join(IMathElement mathElement)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| mathElement | IMathElement | 要连接的元素 |
+| 参数      | 类型          | 描述               |
+| --------- | ------------- | ------------------ |
+| mathElement | IMathElement | 要连接的元素       |
 
 ### 返回值
 
@@ -25,7 +25,7 @@ public override IMathBlock Join(IMathElement mathElement)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -52,9 +52,9 @@ IMathBlock block = element1.Join(element2);
 public override IMathBlock Join(string mathText)
 ```
 
-| 参数 | 类型 | 描述 |
-| --- | --- | --- |
-| mathText | String | 要连接的数学文本 |
+| 参数      | 类型        | 描述                       |
+| --------- | ----------- | -------------------------- |
+| mathText | String      | 要连接的数学文本          |
 
 ### 返回值
 
@@ -62,7 +62,7 @@ public override IMathBlock Join(string mathText)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

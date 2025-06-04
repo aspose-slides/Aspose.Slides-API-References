@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 按索引返回工作表。
+second_title: Aspose.Sildes for .NET API Reference
+description: 根据索引返回工作表。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/ichartdataworksheetcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdataworksheetcollection/item/
 
 ## IChartDataWorksheetCollection 索引器
 
-按索引返回工作表。
+根据索引返回工作表。
 
 ```csharp
 public IChartDataWorksheet this[int index] { get; }
@@ -23,7 +23,7 @@ public IChartDataWorksheet this[int index] { get; }
 
 IChartDataWorksheet 的实例。
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartDataWorksheet](../../ichartdataworksheet)
 * 接口 [IChartDataWorksheetCollection](../../ichartdataworksheetcollection)

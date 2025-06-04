@@ -1,15 +1,15 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente un effet Alpha Bi-Niveau. Les valeurs d'opacité Alpha inférieures au seuil sont changées à 0 entièrement transparent et les valeurs alpha supérieures ou égales au seuil sont changées à 100 entièrement opaque.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Représente un effet Alpha Bi-Niveau. Les valeurs d'opacité Alpha inférieures au seuil sont changées en 0 totalement transparent et les valeurs alpha supérieures ou égales au seuil sont changées en 100 totalement opaque.
 type: docs
 weight: 2920
 url: /fr/aspose.slides.effects/ialphabilevel/
 ---
 
-## Interface IAlphaBiLevel
+## IAlphaBiLevel interface
 
-Représente un effet Alpha Bi-Niveau. Les valeurs Alpha (Opacité) inférieures au seuil sont changées à 0 (entièrement transparent) et les valeurs alpha supérieures ou égales au seuil sont changées à 100% (entièrement opaque).
+Représente un effet Alpha Bi-Niveau. Les valeurs Alpha (opacité) inférieures au seuil sont changées en 0 (totalement transparent) et les valeurs alpha supérieures ou égales au seuil sont changées en 100 % (totalement opaque).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -22,13 +22,13 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Renvoie le seuil d'effet. Lecture/écriture Single. |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Renvoie le seuil de l'effet. Lecture/écriture de type Single. |
 
 ### Remarques
 
 Utilisez ImageTransformOperationFactory pour créer des instances dans COM.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

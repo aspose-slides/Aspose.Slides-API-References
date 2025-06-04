@@ -1,6 +1,6 @@
 ---
 title: ExtrusionOrientationX
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Eigenschaft extrusion.orientation.x dar
 type: docs
 weight: 90

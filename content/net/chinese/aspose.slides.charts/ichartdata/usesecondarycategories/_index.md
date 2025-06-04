@@ -1,7 +1,7 @@
 ---
 title: UseSecondaryCategories
-second_title: Aspose.Slides for .NET API Reference
-description: 如果为 false，则 SecondaryCategories 属性返回 null，并且 Categories 属性中的数据同时用于主系列和次系列。如果为 true，则 SecondaryCategories 属性中的数据用于次系列，而 Categories 属性中的数据用于主系列。可读写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果为假，则 SecondaryCategories 属性返回 null，并且 Categories 属性中的数据用于主要和次要系列。如果为真，则 SecondaryCategories 属性中的数据用于次要系列，而 Categories 属性中的数据用于主要系列。可读写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/ichartdata/usesecondarycategories/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdata/usesecondarycategories/
 
 ## IChartData.UseSecondaryCategories 属性
 
-如果为 false，则 [`SecondaryCategories`](../secondarycategories) 属性返回 null，并且 [`Categories`](../categories) 属性中的数据同时用于主系列和次系列。如果为 true，则 [`SecondaryCategories`](../secondarycategories) 属性中的数据用于次系列，而 [`Categories`](../categories) 属性中的数据用于主系列。可读写布尔值。
+如果为假，则 [`SecondaryCategories`](../secondarycategories) 属性返回 null，并且 [`Categories`](../categories) 属性中的数据用于主要和次要系列。如果为真，则 [`SecondaryCategories`](../secondarycategories) 属性中的数据用于次要系列，而 [`Categories`](../categories) 属性中的数据用于主要系列。可读写布尔值。
 
 ```csharp
 public bool UseSecondaryCategories { get; set; }
@@ -17,7 +17,7 @@ public bool UseSecondaryCategories { get; set; }
 
 ### 示例
 
-示例。哪些类别与系列相关 - ChartData.Categories 还是 ChartData.SecondaryCategories?
+示例：哪些类别与系列相关 - ChartData.Categories 还是 ChartData.SecondaryCategories？
 
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)

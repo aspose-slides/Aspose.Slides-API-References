@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将 WebVTT 字幕添加到集合的末尾。
 type: docs
 weight: 30
@@ -28,10 +28,10 @@ public ICaptions Add(string label, string filePath)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当 *filePath* 为 `null` 时抛出。 |
-| ArgumentException | 当 *filePath* 为空时抛出。 |
+| ArgumentNullException | 如果 *filePath* 为 `null`，则抛出。 |
+| ArgumentException | 如果 *filePath* 为空，则抛出。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ICaptions](../../icaptions)
 * 类 [CaptionsCollection](../../captionscollection)
@@ -61,10 +61,10 @@ public ICaptions Add(string label, Stream stream)
 
 | 异常 | 条件 |
 | --- | --- |
-| ArgumentNullException | 当 *stream* 为 `null` 时抛出。 |
-| ArgumentException | 当输入数据不是 WebVTT 格式时抛出。 |
+| ArgumentNullException | 如果 *stream* 为 `null`，则抛出。 |
+| ArgumentException | 如果输入数据不是 WebVTT 格式，则抛出。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ICaptions](../../icaptions)
 * 类 [CaptionsCollection](../../captionscollection)

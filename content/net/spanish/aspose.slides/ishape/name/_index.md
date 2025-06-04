@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el nombre de una forma. Lectura/escritura String.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece el nombre de una forma. Cadena de lectura/escritura.
 type: docs
 weight: 170
 url: /es/aspose.slides/ishape/name/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/ishape/name/
 
 ## Propiedad IShape.Name
 
-Devuelve o establece el nombre de una forma. Lectura/escritura String.
+Devuelve o establece el nombre de una forma. Cadena de lectura/escritura.
 
 ```csharp
 public string Name { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IShape](../../ishape)
 * espacio de nombres [Aspose.Slides](../../ishape)

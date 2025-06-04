@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/smartart/quickstyle/
 public SmartArtQuickStyleType QuickStyle { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * enum [SmartArtQuickStyleType](../../smartartquickstyletype)
 * class [SmartArt](../../smartart)

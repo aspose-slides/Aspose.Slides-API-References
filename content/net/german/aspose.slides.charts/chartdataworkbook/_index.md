@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bietet Zugriff auf eingebettete Excel-Arbeitsmappe
+second_title: Aspose.Slides für .NET API Referenz
+description: Bietet Zugang zu eingebetteten Excel-Arbeitsmappen
 type: docs
 weight: 1300
 url: /de/aspose.slides.charts/chartdataworkbook/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdataworkbook/
 
 ## ChartDataWorkbook-Klasse
 
-Bietet Zugriff auf eingebettete Excel-Arbeitsmappe
+Bietet Zugang zu eingebetteten Excel-Arbeitsmappen
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -27,12 +27,12 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellwerte. |
 | [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Löscht alle Zellwerte auf dem Blatt |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Ruft die Zelle ab, die für Diagrammserien oder Kategorien verwendet werden kann |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Ruft die Menge der Zellen ab. |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Ruft die Zelle ab, die für Diagrammreihen oder Kategorien verwendet werden kann |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Ruft das Set von Zellen ab. |
 
 ### Siehe auch
 

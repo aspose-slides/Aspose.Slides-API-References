@@ -1,13 +1,13 @@
 ---
 title: Direction
-second_title: Aspose.Slides für .NET API Referenz
-description: Richtung der Übergänge. Lese-/Schreibzugriff auf Orientationaspose.slides/orientation.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Richtung der Übergänge. Lese-/Schreibzugriff auf Orientationaspose.slides/../aspose.slides/orientation.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/orientationtransition/direction/
 ---
 
-## OrientationTransition.Direction Eigenschaft
+## OrientationTransition.Direction-Eigenschaft
 
 Richtung der Übergänge. Lese-/Schreibzugriff auf [`Orientation`](../../../aspose.slides/orientation).
 
@@ -15,7 +15,7 @@ Richtung der Übergänge. Lese-/Schreibzugriff auf [`Orientation`](../../../aspo
 public Orientation Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [Orientation](../../../aspose.slides/orientation)
 * class [OrientationTransition](../../orientationtransition)

@@ -1,6 +1,6 @@
 ---
 title: IsHidden
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt true zurück, wenn dieser Knoten ein versteckter Knoten im Datenmodell ist. Nur-Lese Boolean.
 type: docs
 weight: 40

@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXMinusValues
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства XMinus для пользовательских значений показателей ошибок. Другими словами, оно определяет тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Чтение/запись DataSourceTypeaspose.slides/datasourcetype.
+description: Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XMinus для пользовательских значений ошибок. Другими словами, оно указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Читаемое/записываемое DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcet
 
 ## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXMinusValues свойство
 
-Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства XMinus для пользовательских значений показателей ошибок. Другими словами, оно определяет тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell или AsLiteralString или AsLiteralDouble актуальным в объекте свойства XMinus для пользовательских значений ошибок. Другими словами, оно указывает тип значения свойства ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Читаемое/записываемое [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXMinusValues { get; set; }
 ```
 
-### См. Также
+### Смотрите Также
 
 * enum [DataSourceType](../../datasourcetype)
 * class [DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)

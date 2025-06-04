@@ -15,7 +15,7 @@ Determina si la forma está agrupada. Booleano de solo lectura.
 public bool IsGrouped { get; }
 ```
 
-### Comentarios
+### Observaciones
 
 La propiedad [`ParentGroup`](../parentgroup) devuelve el objeto GroupShape padre si la forma está agrupada.
 

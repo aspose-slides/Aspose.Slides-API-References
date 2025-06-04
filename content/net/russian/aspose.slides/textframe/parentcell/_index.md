@@ -1,13 +1,13 @@
 ---
 title: ParentCell
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только для чтения ICellaspose.slides/icell.
 type: docs
 weight: 30
 url: /ru/aspose.slides/textframe/parentcell/
 ---
 
-## Свойство TextFrame.ParentCell
+## TextFrame.ParentCell свойство
 
 Возвращает родительскую ячейку или null, если родительский объект не реализует интерфейс ICell. Только для чтения [`ICell`](../../icell).
 
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ICell](../../icell)
 * класс [TextFrame](../../textframe)

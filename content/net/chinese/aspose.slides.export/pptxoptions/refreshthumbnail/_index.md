@@ -1,7 +1,7 @@
 ---
 title: RefreshThumbnail
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定是否刷新演示文稿缩略图。可读写布尔值。默认值为 true。
+description: 指定演示文稿缩略图是否将被刷新。可读可写的布尔值。默认值为 true。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/pptxoptions/refreshthumbnail/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/pptxoptions/refreshthumbnail/
 
 ## PptxOptions.RefreshThumbnail 属性
 
-指定是否刷新演示文稿缩略图。可读写布尔值。默认值为 **true**。
+指定演示文稿缩略图是否将被刷新。可读可写的布尔值。默认值为 **true**。
 
 ```csharp
 public bool RefreshThumbnail { get; set; }
@@ -19,7 +19,7 @@ public bool RefreshThumbnail { get; set; }
 
 当选项值为 **true** 时，将生成新的缩略图。
 
-当选项值为 **false** 时，当前缩略图将保持不变。
+当选项值为 **false** 时，当前缩略图将按原样保存。
 
 ### 示例
 

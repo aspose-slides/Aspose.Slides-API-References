@@ -1,15 +1,15 @@
 ---
 title: Character
-second_title: Справочник по API Aspose.Slides для .NET
-description: Значение по умолчанию символа группировки U23DF НИЖНЯЯ КАВЫЧКА
+second_title: Aspose.Sildes for .NET API Reference
+description: Группировка Символа Значение по умолчанию U23DF НИЖНЯЯ ФИГУРНАЯ СКОБОКА
 type: docs
 weight: 30
 url: /ru/aspose.slides.mathtext/imathgroupingcharacter/character/
 ---
 
-## Свойство IMathGroupingCharacter.Character
+## IMathGroupingCharacter.Character свойство
 
-Значение по умолчанию символа группировки: U+23DF (НИЖНЯЯ КАВЫЧКА)
+Группировка Символа Значение по умолчанию: U+23DF (НИЖНЯЯ ФИГУРНАЯ СКОБОКА)
 
 ```csharp
 public char Character { get; set; }

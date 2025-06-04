@@ -1,15 +1,15 @@
 ---
 title: BwConversionMode
 second_title: Aspose.Slides для .NET API Справочник
-description: Указывает алгоритм для преобразования цветного изображения в черно-белое. Эта опция будет применена только в том случае, если CompressionTypeaspose.slides.export/tiffoptions/compressiontype установлен на CCITT4 или CCITT3 Чтение/запись BlackWhiteConversionModeaspose.slides.export/blackwhiteconversionmode. По умолчанию - Default.
+description: Указывает алгоритм для преобразования цветного изображения в черно-белое изображение. Этот параметр будет применен только в том случае, если CompressionTypeaspose.slides.export/tiffoptions/compressiontype установлен на CCITT4 или CCITT3 Чтение/запись BlackWhiteConversionModeaspose.slides.export/blackwhiteconversionmode. По умолчанию - Default.
 type: docs
 weight: 20
 url: /ru/aspose.slides.export/tiffoptions/bwconversionmode/
 ---
 
-## Свойство TiffOptions.BwConversionMode
+## TiffOptions.BwConversionMode свойство
 
-Указывает алгоритм для преобразования цветного изображения в черно-белое. Эта опция будет применена только в том случае, если [`CompressionType`](../compressiontype) установлен на CCITT4 или CCITT3 Чтение/запись [`BlackWhiteConversionMode`](../../blackwhiteconversionmode). По умолчанию - Default.
+Указывает алгоритм для преобразования цветного изображения в черно-белое изображение. Этот параметр будет применен только в том случае, если [`CompressionType`](../compressiontype) установлен на CCITT4 или CCITT3 Чтение/запись [`BlackWhiteConversionMode`](../../blackwhiteconversionmode). По умолчанию - Default.
 
 ```csharp
 public BlackWhiteConversionMode BwConversionMode { get; set; }
@@ -40,7 +40,7 @@ Using presentation As New Presentation()
 End Using
 ```
 
-### Также См.
+### См. также
 
 * enum [BlackWhiteConversionMode](../../blackwhiteconversionmode)
 * class [TiffOptions](../../tiffoptions)

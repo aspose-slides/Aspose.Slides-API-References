@@ -15,11 +15,11 @@ Devuelve el administrador de temas. Solo lectura [`IOverrideThemeManager`](../..
 public IOverrideThemeManager ThemeManager { get; }
 ```
 
-### Vea También
+### Véase También
 
-* interfaz [IOverrideThemeManager](../../../aspose.slides.theme/ioverridethememanager)
-* clase [Chart](../../chart)
-* espacio de nombres [Aspose.Slides.Charts](../../chart)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IOverrideThemeManager](../../../aspose.slides.theme/ioverridethememanager)
+* clase [Chart](../../chart)
+* espacio de nombres [Aspose.Slides.Charts](../../chart)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

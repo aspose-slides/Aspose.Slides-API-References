@@ -1,7 +1,7 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Aspose.Slides for .NET API Reference
-description: 返回 ImageTransformOperationFactory。只读 IImageTransformOperationFactory aspose.slides.effects/iimagetransformoperationfactory。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 ImageTransformOperationFactory。只读 IImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/effectfactory/imagetransformoperationfactory/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/effectfactory/imagetransformoperationfactory/
 public IImageTransformOperationFactory ImageTransformOperationFactory { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * 类 [EffectFactory](../../effectfactory)

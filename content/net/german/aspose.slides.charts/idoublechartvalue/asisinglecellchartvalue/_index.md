@@ -1,7 +1,7 @@
 ---
 title: AsISingleCellChartValue
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-ISingleCellChartValue-Schnittstelle. Nur-lesen ISingleCellChartValueaspose.slides.charts/isinglecellchartvalue.
+description: Ermöglicht den Zugriff auf die Basis-ISingleCellChartValue-Schnittstelle. Nur lesbare ISingleCellChartValue aspose.slides.charts/isinglecellchartvalue.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue/
 
 ## IDoubleChartValue.AsISingleCellChartValue-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-ISingleCellChartValue-Schnittstelle. Nur-lesen [`ISingleCellChartValue`](../../isinglecellchartvalue).
+Ermöglicht den Zugriff auf die Basis-ISingleCellChartValue-Schnittstelle. Nur lesbare [`ISingleCellChartValue`](../../isinglecellchartvalue).
 
 ```csharp
 public ISingleCellChartValue AsISingleCellChartValue { get; }

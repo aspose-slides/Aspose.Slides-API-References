@@ -1,15 +1,15 @@
 ---
 title: DisableFontLigatures
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. Когда установлено в true, лигатуры будут отключены в отображаемом выходном файле. По умолчанию это свойство установлено в false.
+second_title: Aspose.Sildes для .NET API Reference
+description: Получает или устанавливает значение, указывающее, отображается ли текст без использования лигатур. При установке значения true лигатуры будут отключены в результирующем выводе. По умолчанию это свойство установлено в false.
 type: docs
 weight: 70
 url: /ru/aspose.slides.export/svgoptions/disablefontligatures/
 ---
 
-## SVGOptions.DisableFontLigatures свойство
+## SVGOptions.DisableFontLigatures property
 
-Получает или устанавливает значение, указывающее, будет ли текст отображаться без использования лигатур. Когда установлено в `true`, лигатуры будут отключены в отображаемом выходном файле. По умолчанию это свойство установлено в `false`.
+Получает или устанавливает значение, указывающее, отображается ли текст без использования лигатур. При установке значения `true` лигатуры будут отключены в результирующем выводе. По умолчанию это свойство установлено в `false`.
 
 ```csharp
 public bool DisableFontLigatures { get; set; }
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     SVGOptions options = new SVFOptions
     {
-        DisableFontLigatures = true // Отключить лигатуры в отображении текста
+        DisableFontLigatures = true // Отключить лигатуры при отображении текста
     };
     
     using (FileStream fileStream = new FileStream("slide-0.svg", FileMode.Create, FileAccess.Write))
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### Смотрите Также
 
 * класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)

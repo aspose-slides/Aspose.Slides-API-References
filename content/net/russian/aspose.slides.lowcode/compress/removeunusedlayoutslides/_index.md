@@ -1,15 +1,15 @@
 ---
 title: RemoveUnusedLayoutSlides
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Сжимает презентацию Presentationaspose.slides/../aspose.slides/presentation, удаляя неиспользуемые слайды макета.
+second_title: Aspose.Slides для .NET API Reference
+description: Выполняет сжатие презентации aspose.slides/presentation, удаляя неиспользуемые макеты слайдов.
 type: docs
 weight: 20
 url: /ru/aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
 
-## Метод Compress.RemoveUnusedLayoutSlides
+## Compress.RemoveUnusedLayoutSlides метод
 
-Сжимает презентацию [`Presentation`](../../../aspose.slides/presentation), удаляя неиспользуемые слайды макета.
+Выполняет сжатие [`Presentation`](../../../aspose.slides/presentation), удаляя неиспользуемые макеты слайдов.
 
 ```csharp
 public static void RemoveUnusedLayoutSlides(Presentation pres)

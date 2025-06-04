@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Weitere Informationen
+### Siehe auch
 
 * Schnittstelle [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
 * Klasse [OleObjectFrame](../../oleobjectframe)

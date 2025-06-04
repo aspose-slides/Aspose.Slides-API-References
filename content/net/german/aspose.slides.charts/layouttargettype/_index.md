@@ -1,15 +1,15 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Slides für .NET API Referenz
-description: Wenn das Layout des Plotbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Plotbereich von innen ohne Achsen und Achsenbeschriftungen oder von außen einschließlich Achsen und Achsenbeschriftungen angeordnet werden soll.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Wenn das Layout des Diagrammbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Diagrammbereich innen ohne Achse und Achsenbeschriftungen oder außen einschließlich Achse und Achsenbeschriftungen angeordnet werden soll.
 type: docs
 weight: 2190
 url: /de/aspose.slides.charts/layouttargettype/
 ---
 
-## LayoutTargetType Enumeration
+## LayoutTargetType Aufzählung
 
-Wenn das Layout des Plotbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Plotbereich von innen (ohne Achsen und Achsenbeschriftungen) oder von außen (einschließlich Achsen und Achsenbeschriftungen) angeordnet werden soll.
+Wenn das Layout des Diagrammbereichs manuell definiert ist, gibt diese Eigenschaft an, ob der Diagrammbereich innen (ohne Achse und Achsenbeschriftungen) oder außen (einschließlich Achse und Achsenbeschriftungen) angeordnet werden soll.
 
 ```csharp
 public enum LayoutTargetType
@@ -19,10 +19,10 @@ public enum LayoutTargetType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Inner | `0` | Gibt an, dass die Größe des Plotbereichs die Größe des Plotbereichs bestimmen soll, ohne die Tick-Marken und Achsenbeschriftungen. |
-| Outer | `1` | Gibt an, dass die Größe des Plotbereichs die Größe des Plotbereichs, die Tick-Marken und die Achsenbeschriftungen bestimmen soll. |
+| Inner | `0` | Gibt an, dass die Größe des Diagrammbereichs die Größe des Diagrammbereichs bestimmen soll, ohne die Tickmarkierungen und Achsenbeschriftungen. |
+| Outer | `1` | Gibt an, dass die Größe des Diagrammbereichs die Größe des Diagrammbereichs, der Tickmarkierungen und der Achsenbeschriftungen bestimmen soll. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

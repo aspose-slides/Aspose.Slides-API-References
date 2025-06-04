@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides/digitalsignaturecollection/item/
 ---
 
-## Indice de DigitalSignatureCollection
+## Indexeur DigitalSignatureCollection
 
 Renvoie la signature par index.
 

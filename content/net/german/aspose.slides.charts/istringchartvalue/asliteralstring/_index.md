@@ -1,7 +1,7 @@
 ---
 title: AsLiteralString
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Literalstring zurück oder setzt ihn, wenn die DataSourceType-Eigenschaft DataSourceType.StringLiterals ist. Lese-/Schreib-String.
+description: Gibt den literalen String zurück oder legt ihn fest, wenn die DataSourceType-Eigenschaft DataSourceType.StringLiterals ist. Lese-/Schreibstring.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/istringchartvalue/asliteralstring/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/istringchartvalue/asliteralstring/
 
 ## IStringChartValue.AsLiteralString-Eigenschaft
 
-Gibt den Literalstring zurück oder setzt ihn, wenn die DataSourceType-Eigenschaft DataSourceType.StringLiterals ist. Lese-/Schreib-String.
+Gibt den literalen String zurück oder legt ihn fest, wenn die DataSourceType-Eigenschaft DataSourceType.StringLiterals ist. Lese-/Schreibstring.
 
 ```csharp
 public string AsLiteralString { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IStringChartValue](../../istringchartvalue)
 * Namespace [Aspose.Slides.Charts](../../istringchartvalue)

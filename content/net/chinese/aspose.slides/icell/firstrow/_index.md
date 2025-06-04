@@ -1,7 +1,7 @@
 ---
 title: FirstRow
 second_title: Aspose.Slides for .NET API Reference
-description: 获取单元格的第一行。只读 IRow aspose.slides/irow。
+description: 获取单元格的第一行。只读 IRowaspose.slides/irow。
 type: docs
 weight: 70
 url: /zh/aspose.slides/icell/firstrow/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icell/firstrow/
 public IRow FirstRow { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IRow](../../irow)
 * 接口 [ICell](../../icell)

@@ -1,15 +1,15 @@
 ---
 title: FontCollectionIndex
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente l'index des polices dans une collection.
 type: docs
 weight: 4620
 url: /fr/aspose.slides/fontcollectionindex/
 ---
 
-## Énumération FontCollectionIndex
+## Enumération FontCollectionIndex
 
-Représente l'index de la police dans une collection.
+Représente l'index d'une police dans une collection.
 
 ```csharp
 public enum FontCollectionIndex : byte
@@ -19,11 +19,11 @@ public enum FontCollectionIndex : byte
 
 | Nom | Valeur | Description |
 | --- | --- | --- |
-| None | `0` |  |
-| Minor | `1` |  |
-| Major | `2` |  |
+| Aucune | `0` |  |
+| Mineure | `1` |  |
+| Majeure | `2` |  |
 
-### Voir aussi
+### Voir Aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

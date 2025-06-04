@@ -1,6 +1,6 @@
 ---
 title: ChartThemeManager
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Fournit l'accès au thème de graphique remplacé.
 type: docs
 weight: 10750
@@ -19,14 +19,14 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Nom | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème efficace hérité ou non. Pour activer OverrideTheme pour le remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear(). Lecture seule Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Renvoie l'objet de thème remplacé. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Détermine si le thème de remplacement OverrideTheme remplace ou non le thème effectif hérité. Pour activer OverrideTheme afin de remplacer, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme de remplacement, utilisez la méthode OverrideTheme.Clear(). Lecteur seul Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Renvoie l'objet de thème de remplacement. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleurs supplémentaire à une diapositive. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Applique un schéma de couleur supplémentaire à une diapositive. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Renvoie l'objet de thème. |
 
 ### Voir aussi

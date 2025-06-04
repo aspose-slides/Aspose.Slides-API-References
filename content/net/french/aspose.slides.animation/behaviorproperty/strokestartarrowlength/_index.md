@@ -1,6 +1,6 @@
 ---
 title: StrokeStartArrowLength
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la propriété stroke.startArrowLength
 type: docs
 weight: 1020

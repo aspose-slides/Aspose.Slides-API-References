@@ -1,6 +1,6 @@
 ---
 title: MathParagraph
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 数学段落
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public IMathParagraph MathParagraph { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathParagraph](../../imathparagraph)
 * 接口 [IMathPortion](../../imathportion)

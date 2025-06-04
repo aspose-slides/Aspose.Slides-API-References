@@ -1,7 +1,7 @@
 ---
 title: Base
-second_title: Aspose.Sildes for .NET API 参考
-description: 基础参数
+second_title: Aspose.Sildes for .NET API Reference
+description: Base argument
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/mathbar/base/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbar/base/
 
 ## MathBar.Base 属性
 
-基础参数
+基本参数
 
 ```csharp
 public IMathElement Base { get; }
@@ -25,7 +25,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 IMathElement base = mathBar.Base;
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBar](../../mathbar)

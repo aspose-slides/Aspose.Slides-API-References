@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt die linken Randpunkte in einem TextFrame zurück oder setzt sie. Lese-/Schreibbarer Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die linken Randpunkte in einem TextFrame zurück oder legt sie fest. Lesen/Schreiben Double.
 type: docs
 weight: 90
 url: /de/aspose.slides/textframeformat/marginleft/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/textframeformat/marginleft/
 
 ## TextFrameFormat.MarginLeft-Eigenschaft
 
-Gibt den linken Rand (Punkte) in einem TextFrame zurück oder setzt ihn. Lese-/Schreibbarer Double.
+Gibt den linken Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lesen/Schreiben Double.
 
 ```csharp
 public double MarginLeft { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TextFrameFormat](../../textframeformat)
 * Namespace [Aspose.Slides](../../textframeformat)

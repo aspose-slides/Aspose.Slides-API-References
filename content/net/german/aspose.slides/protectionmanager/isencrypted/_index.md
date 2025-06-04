@@ -1,23 +1,23 @@
 ---
 title: IsEncrypted
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält einen Wert, der angibt, ob diese Instanz verschlüsselt ist. Nur-lesen Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Wert zurück, der angibt, ob diese Instanz verschlüsselt ist. Nur lesbares Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/protectionmanager/isencrypted/
 ---
 
-## ProtectionManager.IsEncrypted Eigenschaft
+## ProtectionManager.IsEncrypted-Eigenschaft
 
-Erhält einen Wert, der angibt, ob diese Instanz verschlüsselt ist. Nur-lesen Boolean.
+Gibt einen Wert zurück, der angibt, ob diese Instanz verschlüsselt ist. Nur lesbares Boolean.
 
 ```csharp
 public bool IsEncrypted { get; }
 ```
 
-### Eigenschaftswert
+### Eigenschaftenwert
 
-`true`, wenn die Präsentation aus einer verschlüsselten Datei geladen wurde oder die [`Encrypt`](../encrypt) Methode aufgerufen wurde; andernfalls `false`.
+`true`, wenn die Präsentation aus einer verschlüsselten Datei geladen wurde oder die Methode [`Encrypt`](../encrypt) aufgerufen wurde; andernfalls `false`.
 
 ### Siehe auch
 

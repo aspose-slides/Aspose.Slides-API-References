@@ -19,10 +19,10 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Schreibgeschütztes Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschütztes Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschütztes [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Schreibgeschütztes Objekt. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Schreibgeschützter Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschützter Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Schreibgeschützter [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Gibt einen Synchronisationswurzel zurück. Schreibgeschütztes Objekt. |
 
 ## Methoden
 
@@ -31,7 +31,7 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ISmartArtShapeCollection](../ismartartshapecollection)
 * Namespace [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

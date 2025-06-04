@@ -15,7 +15,7 @@ Renvoie ou définit la police latine. Lecture/écriture [`IFontData`](../../ifon
 public IFontData LatinFont { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IFonts](../../ifonts)

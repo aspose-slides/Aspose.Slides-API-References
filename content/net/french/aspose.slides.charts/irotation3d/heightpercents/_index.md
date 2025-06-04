@@ -1,21 +1,21 @@
 ---
 title: HeightPercents
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la hauteur d'un graphique 3-D en pourcentage de la largeur du graphique, entre 5 et 500 pourcent. Lecture/écriture UInt16.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie la hauteur d'un graphique 3D en pourcentage de la largeur du graphique, entre 5 et 500 pour cent. Lecture/écriture UInt16.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/irotation3d/heightpercents/
 ---
 
-## Propriété IRotation3D.HeightPercents
+## IRotation3D.HeightPercents propriété
 
-Spécifie la hauteur d'un graphique 3-D en pourcentage de la largeur du graphique (entre 5 et 500 pourcent). Lecture/écriture UInt16.
+Spécifie la hauteur d'un graphique 3D en pourcentage de la largeur du graphique (entre 5 et 500 pour cent). Lecture/écriture UInt16.
 
 ```csharp
 public ushort HeightPercents { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IRotation3D](../../irotation3d)
 * namespace [Aspose.Slides.Charts](../../irotation3d)

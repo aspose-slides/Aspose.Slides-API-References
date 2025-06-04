@@ -1,7 +1,7 @@
 ---
 title: Saturation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Sättigungsprozentsatz zurück. Nur-lesender Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Sättigungsprozentsatz zurück. Nur-Lese Single.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/ihsleffectivedata/saturation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ihsleffectivedata/saturation/
 
 ## IHSLEffectiveData.Saturation-Eigenschaft
 
-Gibt den Sättigungsprozentsatz zurück. Nur-lesender Single.
+Gibt den Sättigungsprozentsatz zurück. Nur-Lese Single.
 
 ```csharp
 public float Saturation { get; }

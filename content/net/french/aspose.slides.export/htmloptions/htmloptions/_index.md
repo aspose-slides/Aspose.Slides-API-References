@@ -1,6 +1,6 @@
 ---
 title: HtmlOptions
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Crée un nouvel objet HtmlOptions spécifiant le rappel.
 type: docs
 weight: 10
@@ -30,7 +30,7 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 ## HtmlOptions() {#constructor}
 
-Crée un nouvel objet HtmlOptions pour enregistrer dans un seul fichier HTML.
+Crée un nouvel objet HtmlOptions pour sauvegarder dans un fichier HTML unique.
 
 ```csharp
 public HtmlOptions()

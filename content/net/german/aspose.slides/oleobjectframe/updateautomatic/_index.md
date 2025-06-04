@@ -1,7 +1,7 @@
 ---
 title: UpdateAutomatic
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das verlinkte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Lese-/Schreibbare Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob das verknüpfte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 140
 url: /de/aspose.slides/oleobjectframe/updateautomatic/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/oleobjectframe/updateautomatic/
 
 ## OleObjectFrame.UpdateAutomatic-Eigenschaft
 
-Bestimmt, ob das verlinkte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Lese-/Schreibbare Boolean.
+Bestimmt, ob das verknüpfte eingebettete Objekt automatisch aktualisiert wird, wenn die Präsentation geöffnet oder gedruckt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool UpdateAutomatic { get; set; }

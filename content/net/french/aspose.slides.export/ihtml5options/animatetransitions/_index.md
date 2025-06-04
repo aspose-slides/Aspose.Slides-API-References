@@ -1,7 +1,7 @@
 ---
 title: AnimateTransitions
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'option d'animation de transitions. Lecture/écriture booléenne.
+description: Retourne ou définit l'option d'animation des transitions. Boolean en lecture/écriture.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/ihtml5options/animatetransitions/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtml5options/animatetransitions/
 
 ## Propriété IHtml5Options.AnimateTransitions
 
-Renvoie ou définit l'option d'animation de transitions. Lecture/écriture booléenne.
+Retourne ou définit l'option d'animation des transitions. Boolean en lecture/écriture.
 
 ```csharp
 public bool AnimateTransitions { get; set; }
@@ -17,7 +17,7 @@ public bool AnimateTransitions { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHtml5Options](../../ihtml5options)
 * namespace [Aspose.Slides.Export](../../ihtml5options)

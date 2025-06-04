@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/ifindresultcallback/foundresult/
 ---
 
-## Méthode IFindResultCallback.FoundResult
+## IFindResultCallback.FoundResult méthode
 
 Méthode de rappel qui reçoit des données sur le texte trouvé.
 
@@ -22,7 +22,7 @@ public void FoundResult(ITextFrame textFrame, string sourceText, string foundTex
 | foundText | String | Le texte trouvé. |
 | textPosition | Int32 | La position du texte trouvé. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextFrame](../../itextframe)
 * interface [IFindResultCallback](../../ifindresultcallback)

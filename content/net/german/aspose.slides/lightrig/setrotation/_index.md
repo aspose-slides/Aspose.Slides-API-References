@@ -1,15 +1,15 @@
 ---
 title: SetRotation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wie es die Breitengrad- und Längengradkoordinaten vorsehen. Wenn einer der Koordinatenwerte float.NaN ist, ist die gesamte Rotation undefiniert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Eine Rotation wird durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse in Bezug auf die Breitengrad- und Längengrad-Koordinaten definiert. Wenn ein beliebiger Koordinatenwert float.NaN ist, ist die gesamte Rotation undefiniert.
 type: docs
 weight: 40
 url: /de/aspose.slides/lightrig/setrotation/
 ---
 
-## LightRig.SetRotation-Methode
+## LightRig.SetRotation Methode
 
-Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wie es die Breitengrad- und Längengradkoordinaten vorsehen. Wenn einer der Koordinatenwerte float.NaN ist, ist die gesamte Rotation undefiniert.
+Eine Rotation wird durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse in Bezug auf die Breitengrad- und Längengrad-Koordinaten definiert. Wenn ein beliebiger Koordinatenwert float.NaN ist, ist die gesamte Rotation undefiniert.
 
 ```csharp
 public void SetRotation(float latitude, float longitude, float revolution)

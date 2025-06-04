@@ -1,7 +1,7 @@
 ---
 title: AsIMathBlockCollection
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IMathBlockCollection IMathBlockCollectionaspose.slides.mathtext/imathblockcollection
+second_title: Aspose.Slides pour .NET Référence API
+description: Permet d'obtenir l'interface IMathBlockCollection de base IMathBlockCollectionaspose.slides.mathtext/imathblockcollection
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathparagraph/asimathblockcollection/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.mathtext/imathparagraph/asimathblockcollection/
 
 ## Propriété IMathParagraph.AsIMathBlockCollection
 
-Permet d'obtenir l'interface de base IMathBlockCollection [`IMathBlockCollection`](../../imathblockcollection)
+Permet d'obtenir l'interface IMathBlockCollection de base [`IMathBlockCollection`](../../imathblockcollection)
 
 ```csharp
 public IMathBlockCollection AsIMathBlockCollection { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathBlockCollection](../../imathblockcollection)
 * interface [IMathParagraph](../../imathparagraph)

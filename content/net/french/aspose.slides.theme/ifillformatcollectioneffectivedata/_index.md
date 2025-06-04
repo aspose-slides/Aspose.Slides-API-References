@@ -1,7 +1,7 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui représente une collection en lecture seule de formats de remplissage effectifs.
+second_title: Aspose.Slides pour .NET Référence API
+description: Objet immuable qui représente une collection en lecture seule de formats de remplissage efficaces.
 type: docs
 weight: 10930
 url: /fr/aspose.slides.theme/ifillformatcollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/ifillformatcollectioneffectivedata/
 
 ## Interface IFillFormatCollectionEffectiveData
 
-Objet immuable qui représente une collection en lecture seule de formats de remplissage effectifs.
+Objet immuable qui représente une collection en lecture seule de formats de remplissage efficaces.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -23,7 +23,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 ### Remarques
 
-Cette interface est utilisée comme partie de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Cette interface est utilisée comme une partie de [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
 ### Voir aussi
 

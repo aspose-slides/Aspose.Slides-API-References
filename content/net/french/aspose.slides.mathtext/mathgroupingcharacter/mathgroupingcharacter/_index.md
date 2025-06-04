@@ -1,7 +1,7 @@
 ---
 title: MathGroupingCharacter
-second_title: Aspose.Slides pour la référence API .NET
-description: Initialise une nouvelle instance de la classe MathGroupingCharacter avec le caractère de regroupement par défaut U23DF BOTTOM CURLY BRACKET
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Initialise une nouvelle instance de la classe MathGroupingCharacter avec le caractère de regroupement par défaut U23DF BRACKET COURBE INFÉRIEUR
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
-Initialise une nouvelle instance de la classe MathGroupingCharacter avec le caractère de regroupement par défaut U+23DF (BOTTOM CURLY BRACKET)
+Initialise une nouvelle instance de la classe MathGroupingCharacter avec le caractère de regroupement par défaut U+23DF (BRACKET COURBE INFÉRIEUR)
 
 ```csharp
 public MathGroupingCharacter(IMathElement element)
@@ -21,7 +21,7 @@ public MathGroupingCharacter(IMathElement element)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 ### Voir aussi
 
 * interface [IMathElement](../../imathelement)
-* class [MathGroupingCharacter](../../mathgroupingcharacter)
+* classe [MathGroupingCharacter](../../mathgroupingcharacter)
 * namespace [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * assembly [Aspose.Slides](../../../)
 
@@ -55,7 +55,7 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 
 * interface [IMathElement](../../imathelement)
 * enum [MathTopBotPositions](../../mathtopbotpositions)
-* class [MathGroupingCharacter](../../mathgroupingcharacter)
+* classe [MathGroupingCharacter](../../mathgroupingcharacter)
 * namespace [Aspose.Slides.MathText](../../mathgroupingcharacter)
 * assembly [Aspose.Slides](../../../)
 

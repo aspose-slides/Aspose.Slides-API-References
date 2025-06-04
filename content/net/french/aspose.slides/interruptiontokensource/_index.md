@@ -1,6 +1,6 @@
 ---
 title: InterruptionTokenSource
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la source de l'InterruptionToken./interruptiontoken.
 type: docs
 weight: 7370
@@ -25,7 +25,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | Nom | Description |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Renvoie vrai si l'interruption est demandée, faux sinon. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Renvoie true si une interruption est demandée, false sinon. |
 | [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Renvoie un nouveau token lié à cette [`InterruptionTokenSource`](../interruptiontokensource). |
 
 ## Méthodes

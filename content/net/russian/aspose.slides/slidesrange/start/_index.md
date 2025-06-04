@@ -1,13 +1,13 @@
 ---
 title: Start
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Начало
 type: docs
 weight: 30
 url: /ru/aspose.slides/slidesrange/start/
 ---
 
-## Свойство SlidesRange.Start
+## SlidesRange.Start свойство
 
 Начало
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/slidesrange/start/
 public uint Start { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * класс [SlidesRange](../../slidesrange)
 * пространство имен [Aspose.Slides](../../slidesrange)

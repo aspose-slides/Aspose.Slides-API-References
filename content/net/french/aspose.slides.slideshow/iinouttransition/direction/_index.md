@@ -1,21 +1,21 @@
 ---
 title: Direction
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Direction d'un effet de transition. Lecture/écriture de TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Direction d'un effet de transition. Lecture/écriture TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.slideshow/iinouttransition/direction/
 ---
 
-## Propriété IInOutTransition.Direction
+## IInOutTransition.Direction propriété
 
-Direction d'un effet de transition. Lecture/écriture de [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
+Direction d'un effet de transition. Lecture/écriture [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * interface [IInOutTransition](../../iinouttransition)

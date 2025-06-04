@@ -1,7 +1,7 @@
 ---
 title: TrendLines
 second_title: Aspose.Slides für .NET API Referenz
-description: Sammlung von Serien-Trendlinien Read-only ITrendlineCollection aspose.slides.charts/itrendlinecollection.
+description: Sammlung von Trendlinien für Serien Read-only ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /de/aspose.slides.charts/ichartseries/trendlines/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/trendlines/
 
 ## IChartSeries.TrendLines-Eigenschaft
 
-Sammlung von Serien-Trendlinien Read-only [`ITrendlineCollection`](../../itrendlinecollection).
+Sammlung von Trendlinien für Serien Read-only [`ITrendlineCollection`](../../itrendlinecollection).
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }

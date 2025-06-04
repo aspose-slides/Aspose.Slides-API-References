@@ -1,7 +1,7 @@
 ---
 title: TextSelectionStart
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置文本框中文本选择的起始位置，前提是与 AutoShape 相关联的评论。可读/写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果与 AutoShape 关联的注释，则返回或设置文本框中文本选区的起始位置。可读/可写 Int32。
 type: docs
 weight: 50
 url: /zh/aspose.slides/imoderncomment/textselectionstart/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/imoderncomment/textselectionstart/
 
 ## IModernComment.TextSelectionStart 属性
 
-返回或设置文本框中文本选择的起始位置，前提是与 AutoShape 相关联的评论。可读/写 Int32。
+如果与 AutoShape 关联的注释，则返回或设置文本框中文本选区的起始位置。可读/可写 Int32。
 
 ```csharp
 public int TextSelectionStart { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IModernComment](../../imoderncomment)
 * 命名空间 [Aspose.Slides](../../imoderncomment)

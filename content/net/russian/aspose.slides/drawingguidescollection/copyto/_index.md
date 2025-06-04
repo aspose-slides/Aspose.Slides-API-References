@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Копирует все элементы из коллекции в указанный массив.
 type: docs
 weight: 50
@@ -20,7 +20,7 @@ public void CopyTo(IDrawingGuide[] array, int index)
 | array | IDrawingGuide[] | Целевой массив. |
 | index | Int32 | Начальный индекс в целевом массиве. |
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IDrawingGuide](../../idrawingguide)
 * класс [DrawingGuidesCollection](../../drawingguidescollection)

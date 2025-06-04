@@ -15,7 +15,7 @@ Indica si el valor máximo se asigna automáticamente. Booleano de lectura/escri
 public bool IsAutomaticMaxValue { get; set; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)

@@ -1,15 +1,15 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Objet immuable qui représente un effet Duotone. Pour chaque pixel, combine clr1 et clr2 à travers une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Objet immuable qui représente un effet Duoton. Pour chaque pixel, combine clr1 et clr2 à travers uneInterpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
 type: docs
 weight: 3150
 url: /fr/aspose.slides.effects/iduotoneeffectivedata/
 ---
 
-## Interface IDuotoneEffectiveData
+## IDuotoneEffectiveData interface
 
-Objet immuable qui représente un effet Duotone. Pour chaque pixel, combine clr1 et clr2 à travers une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
+Objet immuable qui représente un effet Duoton. Pour chaque pixel, combine clr1 et clr2 à travers une interpolation linéaire pour déterminer la nouvelle couleur de ce pixel.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -20,8 +20,8 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | Nom | Description |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Permet d'obtenir l'interface de base IEffectEffectiveData. Lecture seule [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Renvoie le format de couleur cible pour les pixels sombres. Lecture seule Color. |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Renvoie le format de couleur cible pour les pixels clairs. Lecture seule Color. |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Renvoie le format de couleur cible pour les pixels sombres. Couleur en lecture seule. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Renvoie le format de couleur cible pour les pixels clairs. Couleur en lecture seule. |
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: TrimFromEnd
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la durée à supprimer de la fin du média lors de la lecture en millisecondes. Lecture/écriture Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie la durée à supprimer de la fin du média pendant la lecture en millisecondes. Lecture/écriture Single.
 type: docs
 weight: 160
 url: /fr/aspose.slides/iaudioframe/trimfromend/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iaudioframe/trimfromend/
 
 ## Propriété IAudioFrame.TrimFromEnd
 
-Spécifie la durée à supprimer de la fin du média lors de la lecture, en millisecondes. Lecture/écriture Single.
+Spécifie la durée à supprimer de la fin du média pendant la lecture, en millisecondes. Lecture/écriture Single.
 
 ```csharp
 public float TrimFromEnd { get; set; }
@@ -17,7 +17,7 @@ public float TrimFromEnd { get; set; }
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Définir la durée de découpe à la fin à 2 secondes
+    // Définir la durée de coupure à la fin de 2 secondes
     audioFrame.TrimFromEnd = 2000f;
 }
 ```

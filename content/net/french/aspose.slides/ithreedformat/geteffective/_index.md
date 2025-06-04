@@ -1,6 +1,6 @@
 ---
 title: GetEffective
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient les données de formatage 3-D effectives avec l'héritage appliqué.
 type: docs
 weight: 120

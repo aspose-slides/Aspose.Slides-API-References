@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForBarSeries
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Column- oder Bar-Untertypen ist, siehe auch IsChartTypeColumnaspose.slides.charts/charttypecharacterizer/ischarttypecolumn und IsChartTypeBaraspose.slides.charts/charttypecharacterizer/ischarttypebar Methode.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Untertypen Column oder Bar ist, siehe auch IsChartTypeColumnaspose.slides.charts/charttypecharacterizer/ischarttypecolumn und IsChartTypeBaraspose.slides.charts/charttypecharacterizer/ischarttypebar Methode.
 type: docs
 weight: 110
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
 
 ## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Column- oder Bar-Untertypen ist (siehe auch [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) und [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Untertypen Column oder Bar ist (siehe auch [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) und [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Neuer Datenpunkt.
 
 ## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Column- oder Bar-Untertypen ist (siehe auch [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) und [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) Methode).
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Untertypen Column oder Bar ist (siehe auch [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) und [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) Methode).
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(double value)

@@ -1,21 +1,21 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Slides for .NET API 参考
-description: 此属性定义了在实例生命周期内，Presentation 类的一个实例是否可以成为源文件或流的所有者。如果实例是所有者，它会锁定源。这有助于在处理 BLOB 时改善内存消耗和性能，但在演示文稿的实例生命周期内，源流或文件不能更改。
+second_title: Aspose.Sildes for .NET API Reference
+description: 此属性定义了Presentation类的实例在其生命周期内是否可以是源文件或流的所有者。如果实例是所有者，它将锁定源。这有助于在处理BLOB时提高内存消耗和性能，但在Presentation实例的生命周期内源流或文件不能被更改。
 type: docs
 weight: 40
 url: /zh/aspose.slides/blobmanagementoptions/presentationlockingbehavior/
 ---
 
-## BlobManagementOptions.PresentationLockingBehavior 属性
+## BlobManagementOptions.PresentationLockingBehavior property
 
-此属性定义了在实例生命周期内，Presentation 类的一个实例是否可以成为源文件或流的所有者。如果实例是所有者，它会锁定源。这有助于在处理 BLOB 时改善内存消耗和性能，但在演示文稿的实例生命周期内，源（流或文件）不能更改。
+此属性定义了Presentation类的实例在其生命周期内是否可以是源文件或流的所有者。如果实例是所有者，它将锁定源。这有助于在处理BLOB时提高内存消耗和性能，但在Presentation的实例生命周期内源（流或文件）不能被更改。
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 ```
 
-### 另见
+### See Also
 
 * enum [PresentationLockingBehavior](../../presentationlockingbehavior)
 * class [BlobManagementOptions](../../blobmanagementoptions)

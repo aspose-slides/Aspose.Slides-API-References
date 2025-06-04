@@ -1,15 +1,15 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt den Übergangstyp der Präsentation dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert den Übergangstyp für Diashows.
 type: docs
 weight: 10140
 url: /de/aspose.slides.slideshow/transitiontype/
 ---
 
-## TransitionType-Aufzählung
+## TransitionType Aufzählung
 
-Stellt den Übergangstyp der Präsentation dar.
+Repräsentiert den Übergangstyp für Diashows.
 
 ```csharp
 public enum TransitionType
@@ -37,8 +37,8 @@ public enum TransitionType
 | RandomBar | `15` |  |
 | Split | `16` | Entspricht dem Übergang Wipe in PowerPoint 2010. |
 | Strips | `17` |  |
-| Wedge | `18` | Bezieht sich auf den Übergang Clock (mit der Option Wedge) in PowerPoint 2010. |
-| Wheel | `19` | Bezieht sich auf den Übergang Clock (mit der Option Clockwise) in PowerPoint 2010. |
+| Wedge | `18` | Bezieht sich auf die Übergangsform Clock (mit der Option Wedge) in PowerPoint 2010. |
+| Wheel | `19` | Bezieht sich auf die Übergangsform Clock (mit der Option Clockwise) in PowerPoint 2010. |
 | Wipe | `20` |  |
 | Zoom | `21` | Bezieht sich auf die Übergangsform (mit den Optionen In/Out) in PowerPoint 2010. Siehe auch Warp, das sich auf den Übergang Zoom in PowerPoint 2010 bezieht. |
 | Vortex | `22` | Verfügbar in PowerPoint 2010. |
@@ -62,7 +62,7 @@ public enum TransitionType
 | Flash | `40` | Verfügbar in PowerPoint 2010. |
 | Shred | `41` | Verfügbar in PowerPoint 2010. |
 | Reveal | `42` | Verfügbar in PowerPoint 2010. |
-| WheelReverse | `43` | Bezieht sich auf den Übergang Clock (mit der Option Counterclockwise) in PowerPoint 2010. Verfügbar in PowerPoint 2010. |
+| WheelReverse | `43` | Bezieht sich auf die Übergangsform Clock (mit der Option Counterclockwise) in PowerPoint 2010. Verfügbar in PowerPoint 2010. |
 | FallOver | `44` | Verfügbar in PowerPoint 2013. |
 | Drape | `45` | Verfügbar in PowerPoint 2013. |
 | Curtains | `46` | Verfügbar in PowerPoint 2013. |
@@ -77,7 +77,7 @@ public enum TransitionType
 | Origami | `55` | Verfügbar in PowerPoint 2013. |
 | Morph | `56` | Bezieht sich auf den Übergang Morph (mit der Option Type) in PowerPoint 2019. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

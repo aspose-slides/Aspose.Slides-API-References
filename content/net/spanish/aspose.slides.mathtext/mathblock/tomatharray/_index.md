@@ -1,13 +1,13 @@
 ---
 title: ToMathArray
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Coloca elementos hijos en un arreglo vertical
 type: docs
 weight: 180
 url: /es/aspose.slides.mathtext/mathblock/tomatharray/
 ---
 
-## Método MathBlock.ToMathArray
+## MathBlock.ToMathArray método
 
 Coloca elementos hijos en un arreglo vertical
 
@@ -28,7 +28,7 @@ Ejemplo:
 IMathArray array = new MathematicalText("x1").Join("x2").Join("x3").ToMathArray();
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IMathArray](../../imatharray)
 * clase [MathBlock](../../mathblock)

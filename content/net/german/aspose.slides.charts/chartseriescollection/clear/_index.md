@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Steuerelemente aus der Sammlung.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/chartseriescollection/clear/
 ---
 
-## ChartSeriesCollection.Clear Methode
+## ChartSeriesCollection.Clear-Methode
 
 Entfernt alle Steuerelemente aus der Sammlung.
 
@@ -15,7 +15,7 @@ Entfernt alle Steuerelemente aus der Sammlung.
 public void Clear()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartSeriesCollection](../../chartseriescollection)
 * Namespace [Aspose.Slides.Charts](../../chartseriescollection)

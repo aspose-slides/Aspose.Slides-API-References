@@ -17,7 +17,7 @@ public void SetSlideNumberVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für die Seitenzahl sichtbar, andernfalls - versteckt er ihn. |
+| isVisible | Boolean | true - macht einen Platzhalter für die Seitenzahl sichtbar, andernfalls - versteckt ihn. |
 
 ### Siehe auch
 

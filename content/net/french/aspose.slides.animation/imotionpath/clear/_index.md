@@ -7,7 +7,7 @@ weight: 50
 url: /fr/aspose.slides.animation/imotionpath/clear/
 ---
 
-## Méthode IMotionPath.Clear
+## IMotionPath.Clear méthode
 
 Supprime toutes les commandes de la collection.
 

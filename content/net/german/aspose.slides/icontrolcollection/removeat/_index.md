@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Entfernt eine ActiveX-Steuerelement, das an der angegebenen Position aus der Sammlung gespeichert ist.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Entfernt eine ActiveX-Steuerelement, das an einer angegebenen Position in der Sammlung gespeichert ist.
 type: docs
 weight: 50
 url: /de/aspose.slides/icontrolcollection/removeat/
 ---
 
-## IControlCollection.RemoveAt-Methode
+## IControlCollection.RemoveAt Methode
 
-Entfernt ein ActiveX-Steuerelement, das an der angegebenen Position aus der Sammlung gespeichert ist.
+Entfernt ein ActiveX-Steuerelement, das an einer angegebenen Position in der Sammlung gespeichert ist.
 
 ```csharp
 public void RemoveAt(int index)

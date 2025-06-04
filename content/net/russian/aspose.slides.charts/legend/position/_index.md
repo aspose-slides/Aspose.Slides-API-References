@@ -1,21 +1,21 @@
 ---
 title: Position
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает позицию легенды на графике. Ненулевые значения свойств X, Y, Width, Height переопределяют эффект этого свойства. Чтение/запись LegendPositionTypeaspose.slides/legendpositiontype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает позицию легенды на диаграмме. Не-NaN значения свойств X, Y, Width, Heigt перекрывают эффект этого свойства. Чтение/запись LegendPositionTypeaspose.slides/legendpositiontype.
 type: docs
 weight: 70
 url: /ru/aspose.slides.charts/legend/position/
 ---
 
-## Свойство Legend.Position
+## Legend.Position property
 
-Указывает позицию легенды на графике. Ненулевые значения свойств X, Y, Width, Height переопределяют эффект этого свойства. Чтение/запись [`LegendPositionType`](../../legendpositiontype).
+Указывает позицию легенды на диаграмме. Не-NaN значения свойств X, Y, Width, Heigt перекрывают эффект этого свойства. Чтение/запись [`LegendPositionType`](../../legendpositiontype).
 
 ```csharp
 public LegendPositionType Position { get; set; }
 ```
 
-### См. Также
+### See Also
 
 * enum [LegendPositionType](../../legendpositiontype)
 * class [Legend](../../legend)

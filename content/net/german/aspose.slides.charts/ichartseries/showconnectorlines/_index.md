@@ -17,7 +17,7 @@ public bool ShowConnectorLines { get; set; }
 
 ### Siehe auch
 
-* Interface [IChartSeries](../../ichartseries)
+* Schnittstelle [IChartSeries](../../ichartseries)
 * Namespace [Aspose.Slides.Charts](../../ichartseries)
 * Assembly [Aspose.Slides](../../../)
 

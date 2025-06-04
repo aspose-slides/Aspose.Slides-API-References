@@ -1,15 +1,15 @@
 ---
 title: Reorder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Перемещает макетный слайд из коллекции в указанную позицию.
+second_title: Aspose.Slidеs для .NET API Справочник
+description: Перемещает слайд макета из коллекции на указанную позицию.
 type: docs
 weight: 70
 url: /ru/aspose.slides/imasterlayoutslidecollection/reorder/
 ---
 
-## Метод IMasterLayoutSlideCollection.Reorder
+## IMasterLayoutSlideCollection.Reorder метод
 
-Перемещает макетный слайд из коллекции в указанную позицию.
+Перемещает слайд макета из коллекции на указанную позицию.
 
 ```csharp
 public void Reorder(int index, ILayoutSlide layoutSlide)
@@ -20,7 +20,7 @@ public void Reorder(int index, ILayoutSlide layoutSlide)
 | index | Int32 | Целевой индекс. |
 | layoutSlide | ILayoutSlide | Слайд для перемещения. |
 
-### См. также
+### См. Также
 
 * интерфейс [ILayoutSlide](../../ilayoutslide)
 * интерфейс [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)

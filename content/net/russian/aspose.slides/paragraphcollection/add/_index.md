@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет абзац в конец коллекции.
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void Add(IParagraph value)
 | --- | --- | --- |
 | value | IParagraph | Абзац, который будет добавлен в конец коллекции. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IParagraph](../../iparagraph)
 * класс [ParagraphCollection](../../paragraphcollection)
@@ -42,9 +42,9 @@ public int Add(IParagraphCollection value)
 
 ### Возвращаемое значение
 
-Индекс, по которому был добавлен абзац, или -1, если нечего добавлять.
+Индекс, по которому абзац был добавлен, или -1, если нечего добавлять.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IParagraphCollection](../../iparagraphcollection)
 * класс [ParagraphCollection](../../paragraphcollection)

@@ -1,6 +1,6 @@
 ---
 title: ChartThemeManager
-second_title: Aspose.Slides для .NET API Ссылка
+second_title: Aspose.Slides для .NET API Справочник
 description: Предоставляет доступ к переопределенной теме диаграммы.
 type: docs
 weight: 10750
@@ -19,8 +19,8 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, включает ли OverrideTheme переопределение унаследованной эффективной темы или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределенной темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную эффективную тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только для чтения Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает объект переопределяющей темы. Чтение/запись [`IOverrideTheme`](../ioverridetheme). |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public class ChartThemeManager : BaseOverrideThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Применяет дополнительную цветовую схему к слайду. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Возвращает объект темы. |
 
-### См. Также
+### См. также
 
 * класс [BaseOverrideThemeManager](../baseoverridethememanager)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)

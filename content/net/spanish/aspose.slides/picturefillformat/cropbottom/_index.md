@@ -1,6 +1,6 @@
 ---
 title: CropBottom
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve o establece el número de porcentajes de la altura real de la imagen que se recortan en la parte inferior de la imagen. Lectura/escritura Single.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Devuelve o establece el número de porcentajes de la altura real de la imagen qu
 public float CropBottom { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [PictureFillFormat](../../picturefillformat)
 * espacio de nombres [Aspose.Slides](../../picturefillformat)

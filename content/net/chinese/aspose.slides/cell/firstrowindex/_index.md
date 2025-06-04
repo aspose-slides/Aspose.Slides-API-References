@@ -1,7 +1,7 @@
 ---
 title: FirstRowIndex
-second_title: Aspose.Slides for .NET API Reference
-description: 返回被单元格覆盖的第一行的索引。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回单元格覆盖的第一行的索引。只读 Int32。
 type: docs
 weight: 70
 url: /zh/aspose.slides/cell/firstrowindex/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/cell/firstrowindex/
 
 ## Cell.FirstRowIndex 属性
 
-返回被单元格覆盖的第一行的索引。只读 Int32。
+返回单元格覆盖的第一行的索引。只读 Int32。
 
 ```csharp
 public int FirstRowIndex { get; }
 ```
 
-### 参见
+### 相关内容
 
 * class [Cell](../../cell)
 * namespace [Aspose.Slides](../../cell)

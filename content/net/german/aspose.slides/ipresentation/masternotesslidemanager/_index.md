@@ -1,15 +1,15 @@
 ---
 title: MasterNotesSlideManager
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Notizen-Master-Manager zurück. Nur-Lese IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
+description: Gibt den Noten-Master-Manager zurück. Nur-Lese IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
 type: docs
 weight: 180
 url: /de/aspose.slides/ipresentation/masternotesslidemanager/
 ---
 
-## IPresentation.MasterNotesSlideManager Eigenschaft
+## IPresentation.MasterNotesSlideManager-Eigenschaft
 
-Gibt den Notizen-Master-Manager zurück. Nur-Lese [`IMasterNotesSlideManager`](../../imasternotesslidemanager).
+Gibt den Noten-Master-Manager zurück. Nur-Lese [`IMasterNotesSlideManager`](../../imasternotesslidemanager).
 
 ```csharp
 public IMasterNotesSlideManager MasterNotesSlideManager { get; }

@@ -1,13 +1,13 @@
 ---
 title: DocumentProperties
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält. Schreibgeschütztes IDocumentPropertiesaspose.slides/idocumentproperties.
 type: docs
 weight: 90
 url: /de/aspose.slides/presentation/documentproperties/
 ---
 
-## Presentation.DocumentProperties Eigenschaft
+## Presentation.DocumentProperties-Eigenschaft
 
 Gibt das DocumentProperties-Objekt zurück, das Standard- und benutzerdefinierte Dokumenteigenschaften enthält. Schreibgeschützt [`IDocumentProperties`](../../idocumentproperties).
 

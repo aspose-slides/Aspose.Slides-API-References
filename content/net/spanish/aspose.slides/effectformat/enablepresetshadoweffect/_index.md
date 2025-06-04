@@ -1,24 +1,24 @@
----
+---  
 title: EnablePresetShadowEffect
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Habilita el efecto de sombras preestablecidas.
-type: docs
-weight: 220
+second_title: Aspose.Sildes para .NET Referencia de API  
+description: Habilita el efecto de sombras predefinidas.
+type: docs  
+weight: 220  
 url: /es/aspose.slides/effectformat/enablepresetshadoweffect/
----
+---  
 
-## Método EffectFormat.EnablePresetShadowEffect
+## EffectFormat.EnablePresetShadowEffect método  
 
-Habilita el efecto de sombras preestablecidas.
+Habilita el efecto de sombras predefinidas.  
 
-```csharp
-public void EnablePresetShadowEffect()
-```
+```csharp  
+public void EnablePresetShadowEffect()  
+```  
 
-### Véase también
+### Ver También  
 
-* clase [EffectFormat](../../effectformat)
-* espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblado [Aspose.Slides](../../../)
+* class [EffectFormat](../../effectformat)  
+* namespace [Aspose.Slides](../../effectformat)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

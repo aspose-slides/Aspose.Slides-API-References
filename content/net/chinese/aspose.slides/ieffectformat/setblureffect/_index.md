@@ -1,6 +1,6 @@
 ---
 title: SetBlurEffect
-second_title: Aspose.Slidese for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 设置模糊效果。
 type: docs
 weight: 270
@@ -18,9 +18,9 @@ public void SetBlurEffect(double radius, bool grow)
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | radius | Double | 半径。 |
-| grow | Boolean | 增长。 |
+| grow | Boolean | 扩展。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 命名空间 [Aspose.Slides](../../ieffectformat)

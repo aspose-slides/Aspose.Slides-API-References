@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf das Basisschnittstellen ISlideComponent. Schreibgeschützte ISlideComponent aspose.slides/islidecomponent.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf das Basis-ISlideComponent-Interface. Nur lesendes ISlideComponent aspose.slides/islidecomponent.
 type: docs
 weight: 10
 url: /de/aspose.slides/ifield/asislidecomponent/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifield/asislidecomponent/
 
 ## IField.AsISlideComponent-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basisschnittstellen ISlideComponent. Schreibgeschützte [`ISlideComponent`](../../islidecomponent).
+Ermöglicht den Zugriff auf das Basis-ISlideComponent-Interface. Nur lesendes [`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

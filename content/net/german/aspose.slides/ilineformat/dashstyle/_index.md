@@ -1,15 +1,15 @@
 ---
 title: DashStyle
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Linienstil zurück oder setzt ihn. Lese-/schreibbarer LineDashStyle aspose.slides/linedashstyle.
+description: Gibt den Linienstil zurück oder setzt ihn. Lese-/Schreibzugriff auf LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 80
 url: /de/aspose.slides/ilineformat/dashstyle/
 ---
 
-## ILineFormat.DashStyle Eigenschaft
+## ILineFormat.DashStyle-Eigenschaft
 
-Gibt den Linienstil zurück oder setzt ihn. Lese-/schreibbarer [`LineDashStyle`](../../linedashstyle).
+Gibt den Linienstil zurück oder setzt ihn. Lese-/Schreibzugriff auf [`LineDashStyle`](../../linedashstyle).
 
 ```csharp
 public LineDashStyle DashStyle { get; set; }

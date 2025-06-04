@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 清除工作表上的所有单元格值
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public void Clear(int sheetIndex)
 | --- | --- | --- |
 | sheetIndex | Int32 | 工作表索引 |
 
-### 另见
+### 另请参见
 
 * class [ChartDataWorkbook](../../chartdataworkbook)
 * namespace [Aspose.Slides.Charts](../../chartdataworkbook)

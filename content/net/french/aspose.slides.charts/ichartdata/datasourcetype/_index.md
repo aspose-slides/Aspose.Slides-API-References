@@ -1,13 +1,13 @@
 ---
 title: DataSourceType
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente la source de données du graphique
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartdata/datasourcetype/
 ---
 
-## Propriété IChartData.DataSourceType
+## IChartData.DataSourceType propriété
 
 Représente la source de données du graphique
 
@@ -15,7 +15,7 @@ Représente la source de données du graphique
 public ChartDataSourceType DataSourceType { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ChartDataSourceType](../../chartdatasourcetype)
 * interface [IChartData](../../ichartdata)

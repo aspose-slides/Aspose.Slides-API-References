@@ -1,7 +1,7 @@
 ---
 title: PieSplitBy
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, wie bestimmt wird, welche Datenpunkte im zweiten Kreis oder Balken in einem Kreis-von-Kreis- oder Balken-von-Kreis-Diagramm enthalten sind. Lese-/schreibbarer PieSplitTypeaspose.slides.charts/piesplittype.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken auf einem Kuchen-oder-Kuchen- oder Balken-oder-Kuchen-Diagramm enthalten sind. Lese-/Schreibzugriff auf PieSplitTypeaspose.slides/piesplittype.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/ichartseriesgroup/piesplitby/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseriesgroup/piesplitby/
 
 ## IChartSeriesGroup.PieSplitBy-Eigenschaft
 
-Gibt an, wie bestimmt wird, welche Datenpunkte im zweiten Kreis oder Balken in einem Kreis-von-Kreis- oder Balken-von-Kreis-Diagramm enthalten sind. Lese-/schreibbar [`PieSplitType`](../../piesplittype).
+Gibt an, wie zu bestimmen ist, welche Datenpunkte im zweiten Kuchen oder Balken auf einem Kuchen-oder-Kuchen- oder Balken-oder-Kuchen-Diagramm enthalten sind. Lese-/Schreibzugriff auf [`PieSplitType`](../../piesplittype).
 
 ```csharp
 public PieSplitType PieSplitBy { get; set; }

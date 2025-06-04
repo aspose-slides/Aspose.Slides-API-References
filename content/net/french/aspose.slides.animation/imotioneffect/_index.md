@@ -1,6 +1,6 @@
 ---
 title: IMotionEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Représente le comportement de l'effet de mouvement.
 type: docs
 weight: 440
@@ -23,13 +23,13 @@ public interface IMotionEffect : IBehavior
 | [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Permet d'obtenir l'interface de base IBehavior. Lecture seule [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Décrit la valeur de décalage relative pour l'animation (en pourcentages). Lecture/écriture PointF. |
 | [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Spécifie une coordonnée x/y à partir de laquelle commencer l'animation (en pourcentages). Lecture/écriture PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Spécifie à quoi correspond l'origine du chemin de mouvement par rapport à, par exemple, la mise en page de la diapositive, ou le parent. Lecture/écriture [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Spécifie la primitive de chemin suivie par les coordonnées pour le mouvement de l'animation. Lecture/écriture [`IMotionPath`](../imotionpath). |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Spécifie quel est l'origine du chemin de mouvement par rapport à la disposition de la diapositive, ou au parent. Lecture/écriture [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Spécifie le primitive de chemin suivi par les coordonnées pour le mouvement de l'animation. Lecture/écriture [`IMotionPath`](../imotionpath). |
 | [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Spécifie comment le chemin de mouvement se déplace lorsque la forme est déplacée. Lecture/écriture [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Décrit le centre de rotation utilisé pour faire pivoter un chemin de mouvement d'un angle X. Lecture/écriture PointF. |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Décrit le centre de rotation utilisé pour faire pivoter un chemin de mouvement par un angle X. Lecture/écriture PointF. |
 | [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Spécifie l'emplacement cible pour un effet de mouvement d'animation (en pourcentages). Lecture/écriture PointF. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

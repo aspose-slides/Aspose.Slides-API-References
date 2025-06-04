@@ -1,6 +1,6 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Sammlung von VBA-Projektmodulen dar.
 type: docs
 weight: 11230

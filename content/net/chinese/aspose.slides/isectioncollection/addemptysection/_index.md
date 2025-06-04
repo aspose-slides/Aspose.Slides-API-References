@@ -24,7 +24,7 @@ public ISection AddEmptySection(string name, int index)
 
 添加的节。
 
-### 参见
+### 另请参见
 
 * 接口 [ISection](../../isection)
 * 接口 [ISectionCollection](../../isectioncollection)

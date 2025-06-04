@@ -1,7 +1,7 @@
 ---
 title: FillColor
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Füllfarbe einer Form zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
+description: Gibt die Füllfarbe einer Form zurück. Nur lesen IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/ishapestyle/fillcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapestyle/fillcolor/
 
 ## IShapeStyle.FillColor-Eigenschaft
 
-Gibt die Füllfarbe einer Form zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
+Gibt die Füllfarbe einer Form zurück. Nur lesen [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat FillColor { get; }

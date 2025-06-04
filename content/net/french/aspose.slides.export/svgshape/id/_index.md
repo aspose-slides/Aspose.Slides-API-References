@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtenir l'identifiant de la forme
+description: Obtient l'identifiant de la forme
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/svgshape/id/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/svgshape/id/
 
 ## Propriété SvgShape.Id
 
-Obtenir l'identifiant de la forme
+Obtient l'identifiant de la forme
 
 ```csharp
 public string Id { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SvgShape](../../svgshape)
 * espace de noms [Aspose.Slides.Export](../../svgshape)

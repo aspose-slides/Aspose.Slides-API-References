@@ -1,7 +1,7 @@
 ---
 title: LabelOffset
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定标签与轴的距离。应用于类别或日期轴。值必须在 0 和 1000 之间。可读写 UInt16。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定标签与轴之间的距离。适用于类别或日期轴。值必须在 0 和 1000 之间。可读/写 UInt16。
 type: docs
 weight: 320
 url: /zh/aspose.slides.charts/iaxis/labeloffset/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/labeloffset/
 
 ## IAxis.LabelOffset 属性
 
-指定标签与轴的距离。应用于类别或日期轴。值必须在 0% 和 1000% 之间。可读写 UInt16。
+指定标签与轴之间的距离。适用于类别或日期轴。值必须在 0% 和 1000% 之间。可读/写 UInt16。
 
 ```csharp
 public ushort LabelOffset { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

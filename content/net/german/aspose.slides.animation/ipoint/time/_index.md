@@ -1,15 +1,15 @@
 ---
 title: Time
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Zeitwert dar. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt einen Zeitwert dar. Lesen/Schreiben von Single.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/ipoint/time/
 ---
 
-## IPoint.Time-Eigenschaft
+## IPoint.Time Eigenschaft
 
-Stellt einen Zeitwert dar. Lese-/Schreibzugriff auf Single.
+Stellt einen Zeitwert dar. Lesen/Schreiben von Single.
 
 ```csharp
 public float Time { get; set; }

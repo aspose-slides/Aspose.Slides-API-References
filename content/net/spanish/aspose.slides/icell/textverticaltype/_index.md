@@ -1,13 +1,13 @@
 ---
 title: TextVerticalType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece el tipo de texto vertical. Lectura/escritura TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 220
 url: /es/aspose.slides/icell/textverticaltype/
 ---
 
-## Propiedad ICell.TextVerticalType
+## ICell.TextVerticalType propiedad
 
 Devuelve o establece el tipo de texto vertical. Lectura/escritura [`TextVerticalType`](../../textverticaltype).
 

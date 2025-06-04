@@ -1,13 +1,13 @@
 ---
 title: PictureFillMode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve o establece el modo de relleno de imagen. Lectura/escritura PictureFillModeaspose.slides/picturefillmode.
 type: docs
 weight: 70
 url: /es/aspose.slides/picturefillformat/picturefillmode/
 ---
 
-## Propiedad PictureFillFormat.PictureFillMode
+## PictureFillFormat.PictureFillMode propiedad
 
 Devuelve o establece el modo de relleno de imagen. Lectura/escritura [`PictureFillMode`](../../picturefillmode).
 
@@ -15,7 +15,7 @@ Devuelve o establece el modo de relleno de imagen. Lectura/escritura [`PictureFi
 public PictureFillMode PictureFillMode { get; set; }
 ```
 
-### Ver También
+### Véase También
 
 * enum [PictureFillMode](../../picturefillmode)
 * class [PictureFillFormat](../../picturefillformat)

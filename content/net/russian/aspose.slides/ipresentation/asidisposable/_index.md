@@ -1,13 +1,13 @@
 ---
 title: AsIDisposable
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает интерфейс IDisposable. Только для чтения IDisposable.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ipresentation/asidisposable/
 ---
 
-## Свойство IPresentation.AsIDisposable
+## IPresentation.AsIDisposable свойство
 
 Возвращает интерфейс IDisposable. Только для чтения IDisposable.
 
@@ -15,11 +15,11 @@ url: /ru/aspose.slides/ipresentation/asidisposable/
 public IDisposable AsIDisposable { get; }
 ```
 
-### Замечания
+### Примечания
 
 Для совместимости с COM.
 
-### См. также
+### См. Также
 
 * интерфейс [IPresentation](../../ipresentation)
 * пространство имен [Aspose.Slides](../../ipresentation)

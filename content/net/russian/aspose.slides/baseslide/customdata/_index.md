@@ -1,6 +1,6 @@
 ---
 title: CustomData
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Возвращает пользовательские данные слайдов. Только для чтения ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/baseslide/customdata/
 public ICustomData CustomData { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ICustomData](../../icustomdata)
 * класс [BaseSlide](../../baseslide)

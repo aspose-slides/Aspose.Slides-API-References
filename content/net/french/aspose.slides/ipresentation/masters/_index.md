@@ -1,21 +1,21 @@
 ---
 title: Masters
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une liste de toutes les diapositives maîtresses qui sont définies dans la présentation. Collection IMasterSlideCollection aspose.slides/imasterslidecollection en lecture seule.
+second_title: Aspose.Slides pour la référence API .NET
+description: Renvoie une liste de toutes les diapositives maîtresses qui sont définies dans la présentation. Lecture seule IMasterSlideCollection aspose.slides/imasterslidecollection.
 type: docs
 weight: 190
 url: /fr/aspose.slides/ipresentation/masters/
 ---
 
-## Propriété IPresentation.Masters
+## IPresentation.Masters propriété
 
-Renvoie une liste de toutes les diapositives maîtresses qui sont définies dans la présentation. Collection [`IMasterSlideCollection`](../../imasterslidecollection) en lecture seule.
+Renvoie une liste de toutes les diapositives maîtresses qui sont définies dans la présentation. Lecture seule [`IMasterSlideCollection`](../../imasterslidecollection).
 
 ```csharp
 public IMasterSlideCollection Masters { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterSlideCollection](../../imasterslidecollection)
 * interface [IPresentation](../../ipresentation)

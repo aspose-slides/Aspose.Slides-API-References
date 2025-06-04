@@ -1,13 +1,13 @@
 ---
 title: AccessPermissions
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Contient un ensemble de drapeaux spécifiant quels droits d'accès doivent être accordés lorsque le document est ouvert avec un accès utilisateur. Voir PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/pdfoptions/accesspermissions/
 ---
 
-## Propriété PdfOptions.AccessPermissions
+## PdfOptions.AccessPermissions propriété
 
 Contient un ensemble de drapeaux spécifiant quels droits d'accès doivent être accordés lorsque le document est ouvert avec un accès utilisateur. Voir [`PdfAccessPermissions`](../../pdfaccesspermissions).
 
@@ -29,7 +29,7 @@ using (var presentation = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [PdfAccessPermissions](../../pdfaccesspermissions)
 * class [PdfOptions](../../pdfoptions)

@@ -1,7 +1,7 @@
 ---
 title: TransitionDuration
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取或设置缩放与幻灯片之间转换的持续时间。可读写单精度数。默认值 1.0f
+second_title: Aspose.Slides for .NET API Reference
+description: 获取或设置缩放与幻灯片之间的过渡持续时间。可读写单精度浮点数。默认值1.0f
 type: docs
 weight: 50
 url: /zh/aspose.slides/izoomobject/transitionduration/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/izoomobject/transitionduration/
 
 ## IZoomObject.TransitionDuration 属性
 
-获取或设置缩放与幻灯片之间转换的持续时间。可读写单精度数。默认值：1.0f
+获取或设置缩放与幻灯片之间的过渡持续时间。可读写单精度浮点数。默认值：1.0f
 
 ```csharp
 public float TransitionDuration { get; set; }
@@ -17,11 +17,11 @@ public float TransitionDuration { get; set; }
 
 ### 备注
 
-如果未指定（TransitionDur = 0），将使用目标幻灯片的转换以及与该转换相关的时间设置。
+如果未指定（TransitionDur = 0），则将使用目标幻灯片的过渡效果及其相关时间。
 
 ### 示例
 
-该示例演示如何更改缩放与幻灯片之间转换的持续时间：
+该示例演示了如何更改缩放与幻灯片之间的过渡持续时间：
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IZoomObject](../../izoomobject)
 * 命名空间 [Aspose.Slides](../../izoomobject)

@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
 second_title: Aspose.Sildes for .NET API Reference
-description: 设置文本到布局幻灯片日期时间占位符和所有子日期时间占位符。子占位符意味着占位符包含在依赖的幻灯片中。依赖幻灯片使用并依赖于布局幻灯片。
+description: 设置文本到布局幻灯片日期时间占位符和所有子日期时间占位符。子占位符意味着这些占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。
 type: docs
 weight: 10
 url: /zh/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetim
 
 ## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText 方法
 
-设置文本到布局幻灯片日期时间占位符和所有子日期时间占位符。子占位符意味着占位符包含在依赖的幻灯片中。依赖幻灯片使用并依赖于布局幻灯片。
+设置文本到布局幻灯片日期时间占位符和所有子日期时间占位符。子占位符意味着这些占位符包含在依赖幻灯片上。依赖幻灯片使用并依赖于布局幻灯片。
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 参见
+### 另见
 
 * 类 [LayoutSlideHeaderFooterManager](../../layoutslideheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../layoutslideheaderfootermanager)

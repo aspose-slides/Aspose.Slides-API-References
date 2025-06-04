@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API .NET
 description: Elimina el efecto especificado de una colección.
 type: docs
 weight: 100
 url: /es/aspose.slides.animation/isequence/remove/
 ---
 
-## Método ISequence.Remove
+## ISequence.Remove método
 
 Elimina el efecto especificado de una colección.
 
@@ -24,6 +24,6 @@ public void Remove(IEffect item)
 * interfaz [IEffect](../../ieffect)
 * interfaz [ISequence](../../isequence)
 * espacio de nombres [Aspose.Slides.Animation](../../isequence)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

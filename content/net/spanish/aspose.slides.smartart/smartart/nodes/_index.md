@@ -1,7 +1,7 @@
 ---
 title: Nodes
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve colecciones de nodos raíz en el objeto SmartArt. Solo lectura ISmartArtNodeCollection aspose.slides.smartart/ismartartnodecollection.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve colecciones de nodos raíz en el objeto SmartArt. Solo lectura ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 50
 url: /es/aspose.slides.smartart/smartart/nodes/

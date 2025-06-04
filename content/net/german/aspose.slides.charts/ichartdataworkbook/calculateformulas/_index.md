@@ -1,7 +1,7 @@
 ---
 title: CalculateFormulas
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Berechnet alle Formeln im Arbeitsbuch und aktualisiert die entsprechenden Zellwerte.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellwerte.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartdataworkbook/calculateformulas/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdataworkbook/calculateformulas/
 
 ## IChartDataWorkbook.CalculateFormulas-Methode
 
-Berechnet alle Formeln im Arbeitsbuch und aktualisiert die entsprechenden Zellwerte.
+Berechnet alle Formeln in der Arbeitsmappe und aktualisiert die entsprechenden Zellwerte.
 
 ```csharp
 public void CalculateFormulas()
@@ -19,12 +19,12 @@ public void CalculateFormulas()
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Das Arbeitsbuch enthält Formeln mit einer zirkulären Referenz. |
+| [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Die Arbeitsmappe enthält Formeln mit einer zirkulären Referenz. |
 | [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Zellendaten werden nicht unterstützt. |
 
 ### Beispiele
 
-Das Beispiel zeigt, wie man einer Zelle eine Formel zuweist und einen Wert berechnet. Der Wert der Zelle "B4" wird auf 5 gesetzt.
+Das Beispiel zeigt, wie eine Formel der Zelle zugewiesen und ein Wert berechnet wird. Der Wert der Zelle "B4" wird auf 5 gesetzt.
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartDataWorkbook](../../ichartdataworkbook)
 * Namespace [Aspose.Slides.Charts](../../ichartdataworkbook)

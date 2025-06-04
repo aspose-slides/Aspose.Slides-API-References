@@ -1,7 +1,7 @@
 ---
 title: ParentCell
-second_title: Aspose.Slides for .NET API 参考
-description: 返回父单元格，或在父对象未实现 ICell 接口时返回 null。只读 ICellaspose.slides/icell。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回父单元格，如果父对象不实现 ICell 接口，则返回 null。只读 ICellaspose.slides/icell。
 type: docs
 weight: 40
 url: /zh/aspose.slides/itextframe/parentcell/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframe/parentcell/
 
 ## ITextFrame.ParentCell 属性
 
-返回父单元格，或在父对象未实现 ICell 接口时返回 null。只读 [`ICell`](../../icell)。
+返回父单元格，如果父对象不实现 ICell 接口，则返回 null。只读 [`ICell`](../../icell)。
 
 ```csharp
 public ICell ParentCell { get; }
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ICell](../../icell)
 * 接口 [ITextFrame](../../itextframe)

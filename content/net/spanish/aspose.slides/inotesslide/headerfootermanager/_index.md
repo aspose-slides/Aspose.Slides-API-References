@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el administrador de HeaderFooter de la diapositiva de notas. Solo lectura INotesSlideHeaderFooterManageraspose.slides/inotesslideheaderfootermanager.
+description: Devuelve el administrador HeaderFooter de la diapositiva de notas. Solo lectura INotesSlideHeaderFooterManager aspose.slides/inotesslideheaderfootermanager.
 type: docs
 weight: 30
 url: /es/aspose.slides/inotesslide/headerfootermanager/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/inotesslide/headerfootermanager/
 
 ## Propiedad INotesSlide.HeaderFooterManager
 
-Devuelve el administrador de HeaderFooter de la diapositiva de notas. Solo lectura [`INotesSlideHeaderFooterManager`](../../inotesslideheaderfootermanager).
+Devuelve el administrador HeaderFooter de la diapositiva de notas. Solo lectura [`INotesSlideHeaderFooterManager`](../../inotesslideheaderfootermanager).
 
 ```csharp
 public INotesSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [INotesSlideHeaderFooterManager](../../inotesslideheaderfootermanager)
 * interfaz [INotesSlide](../../inotesslide)

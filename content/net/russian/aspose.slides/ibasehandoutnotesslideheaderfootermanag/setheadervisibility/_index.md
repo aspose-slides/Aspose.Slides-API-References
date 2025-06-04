@@ -1,7 +1,7 @@
 ---
 title: SetHeaderVisibility
-second_title: Aspose.Slides для .NET API Справка
-description: Изменяет видимость заполнителя заголовка слайда.
+second_title: Aspose.Sildes для .NET API Reference
+description: Изменяет видимость заголовка слайда.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibili
 
 ## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility метод
 
-Изменяет видимость заполнителя заголовка слайда.
+Изменяет видимость заголовка слайда.
 
 ```csharp
 public void SetHeaderVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetHeaderVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель заголовка видимым, иначе - скрывает его. |
+| isVisible | Boolean | true - делает заголовок видимым, в противном случае - скрывает его. |
 
-### См. Также
+### Также смотри
 
 * интерфейс [IBaseHandoutNotesSlideHeaderFooterManag](../../ibasehandoutnotesslideheaderfootermanag)
 * пространство имен [Aspose.Slides](../../ibasehandoutnotesslideheaderfootermanag)

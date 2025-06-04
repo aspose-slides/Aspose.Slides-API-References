@@ -1,6 +1,6 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes для .NET API справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает или задает параметры формата изображения слайда. Чтение/запись ISlideImageFormataspose.slides.export/islideimageformat.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/htmloptions/slideimageformat/
 public ISlideImageFormat SlideImageFormat { get; set; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [ISlideImageFormat](../../islideimageformat)
 * класс [HtmlOptions](../../htmloptions)

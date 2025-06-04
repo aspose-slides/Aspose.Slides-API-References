@@ -7,7 +7,7 @@ weight: 2490
 url: /zh/aspose.slides/colortype/
 ---
 
-## ColorType枚举
+## ColorType 枚举
 
 表示不同的颜色模式。
 
@@ -19,15 +19,15 @@ public enum ColorType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 颜色未定义。 |
-| RGB | `0` | 标准24位RGB颜色。 |
-| RGBPercentage | `1` | 高清RGB颜色。 |
-| HSL | `2` | 高清HSL颜色。 |
+| NotDefined | `-1` | 颜色完全未定义。 |
+| RGB | `0` | 标准 24位 RGB 颜色。 |
+| RGBPercentage | `1` | 高清 RGB 颜色。 |
+| HSL | `2` | 高清 HSL 颜色。 |
 | Scheme | `3` | 方案颜色。 |
 | System | `4` | 系统颜色。 |
 | Preset | `5` | 预设颜色。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

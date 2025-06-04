@@ -1,6 +1,6 @@
 ---
 title: PointCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Le constructeur par défaut.
 type: docs
 weight: 10

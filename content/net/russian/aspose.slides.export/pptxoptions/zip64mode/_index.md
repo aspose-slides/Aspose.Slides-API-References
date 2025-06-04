@@ -1,15 +1,15 @@
 ---
 title: Zip64Mode
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию - IfNecessary
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию IfNecessary
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/pptxoptions/zip64mode/
 ---
 
-## Свойство PptxOptions.Zip64Mode
+## PptxOptions.Zip64Mode свойство
 
-Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию - IfNecessary
+Указывает, используется ли формат ZIP64 для документа презентации. Значение по умолчанию: IfNecessary
 
 ```csharp
 public Zip64Mode Zip64Mode { get; set; }

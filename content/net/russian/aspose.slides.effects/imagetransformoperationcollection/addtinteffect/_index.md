@@ -1,7 +1,7 @@
 ---
 title: AddTintEffect
 second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новый эффект Tint в конец коллекции.
+description: Добавляет новый эффект оттенка в конец коллекции.
 type: docs
 weight: 210
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addtinteffect/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/imagetransformoperationcollection/addtinteffect/
 
 ## ImageTransformOperationCollection.AddTintEffect метод
 
-Добавляет новый эффект Tint в конец коллекции.
+Добавляет новый эффект оттенка в конец коллекции.
 
 ```csharp
 public ITint AddTintEffect(float hue, float amount)
@@ -17,10 +17,10 @@ public ITint AddTintEffect(float hue, float amount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hue | Single | Оттенок, в который будет окрашен. |
-| amount | Single | Указывает, на сколько смещается цветовое значение. |
+| hue | Single | Оттенок, к которому следует добавить оттенок. |
+| amount | Single | Указывает, на сколько изменяется цветовое значение. |
 
-### Возврат Значения
+### Возвращаемое значение
 
 Индекс нового эффекта изображения в коллекции.
 

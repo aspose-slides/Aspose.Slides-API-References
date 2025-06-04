@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает true, если chartType является одним из подтипов Area. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Сменить тип диаграммы" в PowerPoint Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает true, если chartType является одним из подтипов Area. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypearea/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypearea/
 
 ## ChartTypeCharacterizer.IsChartTypeArea метод
 
-Возвращает true, если chartType является одним из подтипов Area. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Сменить тип диаграммы" в PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+Возвращает true, если chartType является одним из подтипов Area. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Изменить тип диаграммы" в PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
 
 ```csharp
 public static bool IsChartTypeArea(ChartType chartType)
 ```
 
-### См. Также
+### См. также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

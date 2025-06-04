@@ -1,7 +1,7 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie l'objet Sub-Superscript qui se compose d'une base et d'un indice et exposant placés à droite de la base.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Spécifie l'objet Sous-SuperScript qui se compose d'une base et d'un indice et d'un sur indice placés à droite de la base.
 type: docs
 weight: 8190
 url: /fr/aspose.slides.mathtext/imathrightsubsuperscriptelement/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 
 ## Interface IMathRightSubSuperscriptElement
 
-Spécifie l'objet Sub-Superscript, qui se compose d'une base et d'un indice et exposant placés à droite de la base.
+Spécifie l'objet Sous-SuperScript, qui se compose d'une base et d'un indice et d'un sur indice placés à droite de la base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -19,15 +19,15 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Nom | Description |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Spécifie l'alignement de l'indice/exposant. Lorsque vrai, l'indice et l'exposant sont alignés horizontalement l'un à l'autre. Lorsque faux, ils sont espacés par rapport à la forme de la base. La valeur par défaut est faux. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Spécifie l'alignement de l'indice/sur indice. Quand vrai, l'indice et le sur indice sont alignés horizontalement l'un par rapport à l'autre. Quand faux, ils sont espacés selon la forme de la base. La valeur par défaut est faux. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argument de base |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argument de l'indice |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argument de l'exposant |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argument d'indice |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argument de sur indice |
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

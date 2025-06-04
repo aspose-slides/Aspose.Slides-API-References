@@ -1,6 +1,6 @@
 ---
 title: Depth
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回 3D 形状的深度。只读 Double。
 type: docs
 weight: 70

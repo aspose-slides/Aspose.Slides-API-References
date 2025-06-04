@@ -1,7 +1,7 @@
 ---
 title: ShowAnimation
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Mostrar Animación en Presentación
+description: Mostrar animación en la presentación de diapositivas
 type: docs
 weight: 30
 url: /es/aspose.slides/slideshowsettings/showanimation/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/slideshowsettings/showanimation/
 
 ## Propiedad SlideShowSettings.ShowAnimation
 
-Mostrar Animación en Presentación
+Mostrar animación en la presentación de diapositivas
 
 ```csharp
 public bool ShowAnimation { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [SlideShowSettings](../../slideshowsettings)
 * espacio de nombres [Aspose.Slides](../../slideshowsettings)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

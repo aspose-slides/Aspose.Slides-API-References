@@ -1,13 +1,13 @@
 ---
 title: GroupingLocked
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determiina si agregar esta forma a un grupo está prohibido. Booleano de lectura/escritura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/escritura.
 type: docs
 weight: 30
 url: /es/aspose.slides/igroupshapelock/groupinglocked/
 ---
 
-## IGroupShapeLock.Propiedad GroupingLocked
+## IGroupShapeLock.GroupingLocked property
 
 Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura/escritura.
 

@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Agrega la nueva referencia a la colección de referencias
 type: docs
 weight: 50
 url: /es/aspose.slides.vba/vbareferencecollection/add/
 ---
 
-## Método VbaReferenceCollection.Add
+## VbaReferenceCollection.Add method
 
 Agrega la nueva referencia a la colección de referencias
 
@@ -20,6 +20,6 @@ public void Add(IVbaReference value)
 * interfaz [IVbaReference](../../ivbareference)
 * clase [VbaReferenceCollection](../../vbareferencecollection)
 * espacio de nombres [Aspose.Slides.Vba](../../vbareferencecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

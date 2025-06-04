@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne vrai si chartType est un des sous-types de ligne. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint  Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+description: Retourne vrai si chartType est l'un des sous-types de ligne. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint, voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint  Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
 type: docs
 weight: 100
 url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypeline/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypeline/
 
 ## ChartTypeCharacterizer.IsChartTypeLine méthode
 
-Retourne vrai si chartType est un des sous-types de ligne. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint) : Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+Retourne vrai si chartType est l'un des sous-types de ligne. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint) : Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
 
 ```csharp
 public static bool IsChartTypeLine(ChartType chartType)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

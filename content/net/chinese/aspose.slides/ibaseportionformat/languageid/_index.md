@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibaseportionformat/languageid/
 public string LanguageId { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IBasePortionFormat](../../ibaseportionformat)
 * 命名空间 [Aspose.Slides](../../ibaseportionformat)

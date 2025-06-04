@@ -7,7 +7,7 @@ weight: 100
 url: /ru/aspose.slides.export/svgoptions/externalfontshandling/
 ---
 
-## Свойство SVGOptions.ExternalFontsHandling
+## SVGOptions.ExternalFontsHandling свойство
 
 Определяет способ обработки внешне загруженных шрифтов. Чтение/запись [`SvgExternalFontsHandling`](../../svgexternalfontshandling).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/svgoptions/externalfontshandling/
 public SvgExternalFontsHandling ExternalFontsHandling { get; set; }
 ```
 
-### Также смотри
+### См. Также
 
 * enum [SvgExternalFontsHandling](../../svgexternalfontshandling)
 * class [SVGOptions](../../svgoptions)

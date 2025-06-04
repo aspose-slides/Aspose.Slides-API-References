@@ -1,21 +1,21 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Locks von PictureFrames zurück. Schreibgeschütztes IPictureFrameLock aspose.slides/ipictureframelock.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Sperren von PictureFrames zurück. Schreibgeschütztes IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
 weight: 30
 url: /de/aspose.slides/ipictureframe/pictureframelock/
 ---
 
-## IPictureFrame.PictureFrameLock Eigenschaft
+## IPictureFrame.PictureFrameLock-Eigenschaft
 
-Gibt die Locks von PictureFrame zurück. Schreibgeschütztes [`IPictureFrameLock`](../../ipictureframelock).
+Gibt die Sperren des PictureFrames zurück. Schreibgeschütztes [`IPictureFrameLock`](../../ipictureframelock).
 
 ```csharp
 public IPictureFrameLock PictureFrameLock { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPictureFrameLock](../../ipictureframelock)
 * Schnittstelle [IPictureFrame](../../ipictureframe)

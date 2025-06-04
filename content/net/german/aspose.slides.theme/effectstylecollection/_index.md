@@ -19,17 +19,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Gibt die Anzahl der Elemente in der Sammlung zurück. Nur lesbar Int32, Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Gibt ein Element an der angegebenen Position zurück. Nur lesbar [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Gibt ein Synchronisierungsobjekt zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Gibt die Anzahl der Elemente in der Kollektion zurück. Schreibgeschütztes Int32, Schreibgeschütztes Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Kollektion synchronisiert ist (thread-sicher). Schreibgeschütztes Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Gibt ein Element an der angegebenen Position zurück. Schreibgeschütztes [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Schreibgeschütztes Object. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Kollektion in das angegebene Array. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Gibt einen Enumerator zurück, der die Kollektion durchläuft. |
 
 ### Siehe auch
 

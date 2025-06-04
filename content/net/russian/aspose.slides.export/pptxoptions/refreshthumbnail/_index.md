@@ -1,15 +1,15 @@
 ---
 title: RefreshThumbnail
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает, будет ли обновлена миниатюра презентации. Читаемое/записываемое логическое значение. Значение по умолчанию — true.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает, будет ли обновлен миниатюра презентации. Читаемое/записываемое логическое значение. Значение по умолчанию - true.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/pptxoptions/refreshthumbnail/
 ---
 
-## Свойство PptxOptions.RefreshThumbnail
+## PptxOptions.RefreshThumbnail свойство
 
-Указывает, будет ли обновлена миниатюра презентации. Читаемое/записываемое логическое значение. Значение по умолчанию — **true**.
+Указывает, будет ли обновлен миниатюра презентации. Читаемое/записываемое логическое значение. Значение по умолчанию - **true**.
 
 ```csharp
 public bool RefreshThumbnail { get; set; }
@@ -17,9 +17,9 @@ public bool RefreshThumbnail { get; set; }
 
 ### Примечания
 
-Когда значение параметра **true**, будет сгенерирована новая миниатюра.
+Когда значение опции равно **true**, будет сгенерирована новая миниатюра.
 
-Когда значение параметра **false**, текущая миниатюра будет сохранена как есть.
+Когда значение опции равно **false**, текущая миниатюра будет сохранена как есть.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### См. также
+### См. Также
 
 * класс [PptxOptions](../../pptxoptions)
 * пространство имен [Aspose.Slides.Export](../../pptxoptions)

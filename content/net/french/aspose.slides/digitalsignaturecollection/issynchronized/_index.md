@@ -1,21 +1,21 @@
 ---
 title: IsSynchronized
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une valeur indiquant si l'accès à la collection est synchronisé et sécurisé pour les threads. Booléen en lecture seule.
+description: Renvoie une valeur indiquant si l'accès à la collection est synchronisé et sûr pour les threads. Booléen en lecture seule.
 type: docs
 weight: 20
 url: /fr/aspose.slides/digitalsignaturecollection/issynchronized/
 ---
 
-## DigitalSignatureCollection.IsSynchronized propriété
+## DigitalSignatureCollection.IsSynchronized property
 
-Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Booléen en lecture seule.
+Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). Booléen en lecture seule.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * class [DigitalSignatureCollection](../../digitalsignaturecollection)
 * namespace [Aspose.Slides](../../digitalsignaturecollection)

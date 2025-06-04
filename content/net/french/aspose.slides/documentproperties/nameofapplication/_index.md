@@ -1,13 +1,13 @@
 ---
 title: NameOfApplication
-second_title: Référence de lAPI Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Renvoie ou définit le nom de l'application. Chaîne en lecture/écriture.
 type: docs
 weight: 240
 url: /fr/aspose.slides/documentproperties/nameofapplication/
 ---
 
-## Propriété DocumentProperties.NameOfApplication
+## DocumentProperties.NameOfApplication propriété
 
 Renvoie ou définit le nom de l'application. Chaîne en lecture/écriture.
 
@@ -15,7 +15,7 @@ Renvoie ou définit le nom de l'application. Chaîne en lecture/écriture.
 public string NameOfApplication { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [DocumentProperties](../../documentproperties)
 * espace de noms [Aspose.Slides](../../documentproperties)

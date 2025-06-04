@@ -1,7 +1,7 @@
 ---
 title: EmbedTrueTypeFontsForASCII
-second_title: Aspose.Slides for .NET API参考
-description: 确定Aspose.Slides是否将为ASCII（33..127代码范围）文本嵌入常用字体。字符代码大于127的字体总是被嵌入。常用字体列表包括PDF的基础14种字体和额外用户指定的字体。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定 Aspose.Slides 是否会为 ASCII 33..127 代码范围的文本嵌入常用字体。字符代码大于 127 的字体始终被嵌入。常用字体列表包括 PDF 的基础 14 种字体和额外的用户指定字体。可读写布尔值。
 type: docs
 weight: 90
 url: /zh/aspose.slides.export/pdfoptions/embedtruetypefontsforascii/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/pdfoptions/embedtruetypefontsforascii/
 
 ## PdfOptions.EmbedTrueTypeFontsForASCII 属性
 
-确定Aspose.Slides是否将为ASCII（33..127代码范围）文本嵌入常用字体。字符代码大于127的字体总是被嵌入。常用字体列表包括PDF的基础14种字体和额外用户指定的字体。可读/可写布尔值。
+确定 Aspose.Slides 是否会为 ASCII (33..127 代码范围) 文本嵌入常用字体。字符代码大于 127 的字体始终被嵌入。常用字体列表包括 PDF 的基础 14 种字体和额外的用户指定字体。可读写布尔值。
 
 ```csharp
 public bool EmbedTrueTypeFontsForASCII { get; set; }
@@ -17,9 +17,9 @@ public bool EmbedTrueTypeFontsForASCII { get; set; }
 
 ### 备注
 
-默认值是 **true**。
+默认值为 **true**。
 
-### 另见
+### 另请参见
 
 * class [PdfOptions](../../pdfoptions)
 * namespace [Aspose.Slides.Export](../../pdfoptions)

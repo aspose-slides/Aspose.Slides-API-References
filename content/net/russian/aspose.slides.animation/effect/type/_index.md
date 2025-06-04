@@ -1,13 +1,13 @@
 ---
 title: Type
-second_title: Справочник по API Aspose.Slide для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Определяет тип эффекта. Чтение/запись EffectTypeaspose.slides.animation/effecttype.
 type: docs
 weight: 140
 url: /ru/aspose.slides.animation/effect/type/
 ---
 
-## Свойство Effect.Type
+## Effect.Type свойство
 
 Определяет тип эффекта. Чтение/запись [`EffectType`](../../effecttype).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/effect/type/
 public EffectType Type { get; set; }
 ```
 
-### Смотрите также
+### См. Также
 
 * enum [EffectType](../../effecttype)
 * class [Effect](../../effect)

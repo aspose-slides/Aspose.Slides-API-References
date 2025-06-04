@@ -1,15 +1,15 @@
 ---
 title: Right
-second_title: Aspose.Slides für .NET API-Referenz
-description: Rechts. Nur-lesbare Einzelne.
+second_title: Aspose.Slides für .NET API Referenz
+description: Rechts. Nur-Lese Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/charttitle/right/
 ---
 
-## ChartTitle.Rechts-Eigenschaft
+## ChartTitle.Right-Eigenschaft
 
-Rechts. Nur-lesbare Einzelne.
+Rechts. Nur-Lese Single.
 
 ```csharp
 public float Right { get; }

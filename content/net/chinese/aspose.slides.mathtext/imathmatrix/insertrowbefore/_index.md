@@ -1,7 +1,7 @@
 ---
 title: InsertRowBefore
-second_title: Aspose.Slides for .NET API Reference
-description: 在指定行之前插入一个新行，最初新行中的所有元素都是 null。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定行之前插入新行，初始时新行中的所有元素均为 null。
 type: docs
 weight: 180
 url: /zh/aspose.slides.mathtext/imathmatrix/insertrowbefore/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrix/insertrowbefore/
 
 ## IMathMatrix.InsertRowBefore 方法
 
-在指定行之前插入一个新行，最初新行中的所有元素都是 null。
+在指定行之前插入新行，初始时新行中的所有元素均为 null。
 
 ```csharp
 public void InsertRowBefore(int rowIndex)
@@ -17,7 +17,7 @@ public void InsertRowBefore(int rowIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| rowIndex | Int32 | 要在其之前插入新行的行索引 |
+| rowIndex | Int32 | 在其之前插入新行的行索引 |
 
 ### 示例
 

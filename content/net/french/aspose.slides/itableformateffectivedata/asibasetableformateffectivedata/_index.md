@@ -1,13 +1,13 @@
 ---
 title: AsIBaseTableFormatEffectiveData
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecteur seul IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecture seule IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata.
 type: docs
 weight: 10
 url: /fr/aspose.slides/itableformateffectivedata/asibasetableformateffectivedata/
 ---
 
-## Propriété ITableFormatEffectiveData.AsIBaseTableFormatEffectiveData
+## ITableFormatEffectiveData.AsIBaseTableFormatEffectiveData propriété
 
 Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecture seule [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IBaseTableFormatEffectiveData. Lecture seul
 public IBaseTableFormatEffectiveData AsIBaseTableFormatEffectiveData { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
 * interface [ITableFormatEffectiveData](../../itableformateffectivedata)

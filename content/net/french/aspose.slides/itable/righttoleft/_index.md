@@ -1,21 +1,21 @@
 ---
 title: RightToLeft
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la table a un ordre de lecture de droite à gauche. Booléen en lecture-écriture.
+description: Détermine si le tableau a un ordre de lecture de droite à gauche. Booléen en lecture-écriture.
 type: docs
 weight: 100
 url: /fr/aspose.slides/itable/righttoleft/
 ---
 
-## Propriété ITable.DroitÀGauche
+## ITable.RightToLeft propriété
 
-Détermine si la table a un ordre de lecture de droite à gauche. Booléen en lecture-écriture.
+Détermine si le tableau a un ordre de lecture de droite à gauche. Booléen en lecture-écriture.
 
 ```csharp
-public bool DroitÀGauche { get; set; }
+public bool RightToLeft { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITable](../../itable)
 * namespace [Aspose.Slides](../../itable)

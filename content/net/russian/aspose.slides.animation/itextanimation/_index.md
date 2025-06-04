@@ -1,7 +1,7 @@
 ---
 title: ITextAnimation
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет анимацию текста.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет текстовую анимацию.
 type: docs
 weight: 540
 url: /ru/aspose.slides.animation/itextanimation/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/itextanimation/
 
 ## Интерфейс ITextAnimation
 
-Представляет анимацию текста.
+Представляет текстовую анимацию.
 
 ```csharp
 public interface ITextAnimation
@@ -19,14 +19,14 @@ public interface ITextAnimation
 
 | Имя | Описание |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Список типа построения (например, Параграф 1, 2, 3, Все сразу) анимации текста. Чтение/запись [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Связанный эффект формы с группой или без (null). Чтение/запись [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Список типов построения (например, Абзац 1,2,3, Все сразу) текстовой анимации. Чтение/запись [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Связанный эффект формы с группой или нет (null) Чтение/запись [`IEffect`](../ieffect). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Добавляет новый эффект в конец текущей последовательности в конце групповых текстовых анимаций. Действительно только если количество текстовых параграфов равно или больше количества эффектов этой группы! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Добавить новый эффект в конце текущей последовательности к окончанию групповых текстовых анимаций. Действительно только если количество текстовых абзацев равно или больше количества эффектов этой группы! |
 
 ### См. также
 

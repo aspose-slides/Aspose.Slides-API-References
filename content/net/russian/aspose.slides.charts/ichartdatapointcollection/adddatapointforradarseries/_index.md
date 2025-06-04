@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForRadarSeries
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar см. также метод ChartTypeCharacterizer.IsChartTypeRadarChartType.
+second_title: Aspose.Slides для .NET API справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Радар, см. также метод ChartTypeCharacterizer.IsChartTypeRadarChartType.
 type: docs
 weight: 170
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseri
 
 ## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar (см. также метод ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Радар (см. также метод ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 
 ## AddDataPointForRadarSeries(double) {#adddatapointforradarseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, для которых chartType является одним из подтипов Radar (см. также метод ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Радар (см. также метод ChartTypeCharacterizer.IsChartTypeRadar(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForRadarSeries(double value)

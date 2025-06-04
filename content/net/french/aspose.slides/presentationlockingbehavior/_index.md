@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le comportement concernant le traitement du fichier source IPresentation../ipresentation ou du Stream lors du chargement et du travail avec une instance de IPresentation../ipresentation.
+second_title: Référence d'API Aspose.Slides pour .NET
+description: Représente le comportement concernant le traitement du fichier source IPresentation./ipresentation ou du Stream lors du chargement et du travail avec une instance de IPresentation./ipresentation.
 type: docs
 weight: 9360
 url: /fr/aspose.slides/presentationlockingbehavior/
@@ -17,10 +17,10 @@ public enum PresentationLockingBehavior
 
 ### Valeurs
 
-| Nom            | Valeur | Description |
-|----------------|--------|-------------|
-| LoadAndRelease  | `0`    | La source sera verrouillée uniquement durant le temps d'exécution du constructeur [`IPresentation`](../ipresentation). Si [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) est défini sur false, tous les BLOBs seront chargés en mémoire. Sinon, d'autres moyens comme des fichiers temporaires peuvent être utilisés. Ce comportement est plus lent que KeepLocked, et s'il est possible de passer la propriété de la source à [`IPresentation`](../ipresentation), il est recommandé d'utiliser KeepLocked. |
-| KeepLocked      | `1`    | La source sera verrouillée pendant toute la durée de vie de l'instance [`IPresentation`](../ipresentation), jusqu'à ce qu'elle soit disposée. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) doit être défini sur true pour utiliser ce comportement, sinon une exception sera levée. Ce comportement est recommandé, il est plus rapide et consomme moins de mémoire que LoadAndRelease. |
+| Nom | Valeur | Description |
+| --- | --- | --- |
+| LoadAndRelease | `0` | La source sera verrouillée uniquement pendant le temps d'exécution du constructeur [`IPresentation`](../ipresentation). Si [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) est défini sur faux, tous les BLOBs seront chargés en mémoire. Sinon, d'autres moyens comme des fichiers temporaires peuvent être utilisés. Ce comportement est plus lent que KeepLocked, et s'il est possible de passer la propriété de la source à [`IPresentation`](../ipresentation), il est recommandé d'utiliser KeepLocked. |
+| KeepLocked | `1` | La source sera verrouillée pour toute la durée de vie de l'instance [`IPresentation`](../ipresentation), jusqu'à ce qu'elle soit éliminée. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) doit être défini sur vrai pour utiliser ce comportement, sinon une exception sera levée. Ce comportement est recommandé, il est plus rapide et consomme moins de mémoire que LoadAndRelease. |
 
 ### Remarques
 
@@ -32,9 +32,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-Pour cet exemple, la source (fichier "pres.pptx") sera verrouillée pendant la durée de vie de l'instance [`IPresentation`](../ipresentation), c'est-à-dire qu'elle ne peut pas être changée ou supprimée par un autre processus.
+Pour cet exemple, la source (fichier "pres.pptx") sera verrouillée pour la durée de vie de l'instance [`IPresentation`](../ipresentation), c'est-à-dire qu'elle ne pourra pas être changée ou supprimée par un autre processus.
 
-### Voir Aussi
+### Voir aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

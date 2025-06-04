@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartdatacell/row/
 public int Row { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IChartDataCell](../../ichartdatacell)
 * 命名空间 [Aspose.Slides.Charts](../../ichartdatacell)

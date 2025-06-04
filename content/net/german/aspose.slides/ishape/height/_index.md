@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Höhe der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+description: Gibt die Höhe der Form zurück oder setzt sie. Lese-/Schreibzugriff Single.
 type: docs
 weight: 110
 url: /de/aspose.slides/ishape/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishape/height/
 
 ## IShape.Height-Eigenschaft
 
-Gibt die Höhe der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
+Gibt die Höhe der Form zurück oder setzt sie. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float Height { get; set; }
@@ -19,7 +19,7 @@ public float Height { get; set; }
 
 Der zurückgegebene Wert ist immer definiert (ist nicht float.NaN). Der zugewiesene Wert muss definiert sein (nicht float.NaN). Sie können undefinierte Werte für die Eigenschaften der RawFrame-Instanz festlegen.
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IShape](../../ishape)
 * Namespace [Aspose.Slides](../../ishape)

@@ -7,7 +7,7 @@ weight: 40
 url: /de/aspose.slides.mathtext/imathlimit/upperlimit/
 ---
 
-## IMathLimit.Obergrenze-Eigenschaft
+## IMathLimit.UpperLimit-Eigenschaft
 
 Gibt obere oder untere Grenze an
 

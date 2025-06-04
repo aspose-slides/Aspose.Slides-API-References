@@ -1,7 +1,7 @@
 ---
 title: GapWidth
 second_title: Aspose.Slides für .NET API Referenz
-description: Legt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule fest. Lese-/Schreibzugriff UInt16.
+description: Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Balken- oder Säulenbreite an. Lese-/Schreibzugriff UInt16.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/chartseriesgroup/gapwidth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseriesgroup/gapwidth/
 
 ## ChartSeriesGroup.GapWidth-Eigenschaft
 
-Legt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule fest. Lese-/Schreibzugriff UInt16.
+Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Balken- oder Säulenbreite an. Lese-/Schreibzugriff UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }

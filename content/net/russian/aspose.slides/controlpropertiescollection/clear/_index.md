@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник API
 description: Удаляет все свойства.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/controlpropertiescollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Также смотри
 
 * класс [ControlPropertiesCollection](../../controlpropertiescollection)
 * пространство имен [Aspose.Slides](../../controlpropertiescollection)

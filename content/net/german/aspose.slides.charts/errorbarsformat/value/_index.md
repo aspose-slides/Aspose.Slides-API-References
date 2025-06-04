@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Wert ab oder setzt ihn, der mit den Werttypen Fixe Prozentzahl und Standardabweichung verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In jedem anderen Fall wird NaN zurückgegeben. Lese-/Schreibzugriff auf Single.
+description: Ruft den Wert ab oder legt ihn fest, der mit den Werttypen Fixed Percentage und StandardDeviation verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In jedem anderen Fall wird NaN zurückgegeben. Lesen/ Schreiben Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/errorbarsformat/value/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/errorbarsformat/value/
 
 ## ErrorBarsFormat.Value-Eigenschaft
 
-Ruft den Wert ab oder setzt ihn, der mit den Werttypen Fix, Prozent und Standardabweichung verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In jedem anderen Fall wird NaN zurückgegeben. Lese-/Schreibzugriff auf Single.
+Ruht den Wert ab oder legt ihn fest, der mit den Werttypen Fixed, Percentage und StandardDeviation verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In jedem anderen Fall wird NaN zurückgegeben. Lesen/ Schreiben Single.
 
 ```csharp
 public float Value { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ErrorBarsFormat](../../errorbarsformat)
 * Namespace [Aspose.Slides.Charts](../../errorbarsformat)

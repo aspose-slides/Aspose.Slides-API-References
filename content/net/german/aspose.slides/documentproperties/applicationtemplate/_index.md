@@ -1,7 +1,7 @@
 ---
 title: ApplicationTemplate
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Template einer Anwendung zurück oder setzt es. Lese-/schreibbarer String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Vorlage einer Anwendung zurück oder legt sie fest. Lese-/Schreib-String.
 type: docs
 weight: 20
 url: /de/aspose.slides/documentproperties/applicationtemplate/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/applicationtemplate/
 
 ## DocumentProperties.ApplicationTemplate-Eigenschaft
 
-Gibt das Template einer Anwendung zurück oder setzt es. Lese-/schreibbarer String.
+Gibt die Vorlage einer Anwendung zurück oder legt sie fest. Lese-/Schreib-String.
 
 ```csharp
 public string ApplicationTemplate { get; set; }

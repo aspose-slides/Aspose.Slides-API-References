@@ -1,7 +1,7 @@
 ---
 title: SetMeteredKey
-second_title: Aspose.Slides для .NET API Справочник
-description: Устанавливает метрированные публичный и приватный ключ
+second_title: Aspose.Sildes for .NET API Reference
+description: Устанавливает метрические публичный и приватный ключ
 type: docs
 weight: 20
 url: /ru/aspose.slides/metered/setmeteredkey/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/metered/setmeteredkey/
 
 ## Metered.SetMeteredKey метод
 
-Устанавливает метрированные публичный и приватный ключ
+Устанавливает метрические публичный и приватный ключ
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)

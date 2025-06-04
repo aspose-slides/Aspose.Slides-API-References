@@ -15,7 +15,7 @@ Détermine si la forme est cachée. Booléen en lecture/écriture.
 public bool Hidden { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShape](../../ishape)
 * namespace [Aspose.Slides](../../ishape)

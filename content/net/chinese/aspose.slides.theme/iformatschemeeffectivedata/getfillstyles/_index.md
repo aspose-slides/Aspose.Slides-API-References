@@ -1,7 +1,7 @@
 ---
 title: GetFillStyles
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个主题定义的填充样式集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回主题定义的填充样式集合。
 type: docs
 weight: 30
 url: /zh/aspose.slides.theme/iformatschemeeffectivedata/getfillstyles/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/iformatschemeeffectivedata/getfillstyles/
 
 ## IFormatSchemeEffectiveData.GetFillStyles 方法
 
-返回一个主题定义的填充样式集合。
+返回主题定义的填充样式集合。
 
 ```csharp
 public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
@@ -17,13 +17,13 @@ public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| styleColor | Color | 颜色 |
+| styleColor | Color | 颜色格式 |
 
 ### 返回值
 
-有效填充格式的集合 [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
+有效填充格式集合 [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
-### 另见
+### 参见
 
 * 接口 [IFillFormatCollectionEffectiveData](../../ifillformatcollectioneffectivedata)
 * 接口 [IFormatSchemeEffectiveData](../../iformatschemeeffectivedata)

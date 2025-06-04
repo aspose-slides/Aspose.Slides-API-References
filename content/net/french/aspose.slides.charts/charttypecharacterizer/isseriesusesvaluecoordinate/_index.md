@@ -1,15 +1,15 @@
 ---
 title: IsSeriesUsesValueCoordinate
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Retourne si le type de série spécifié utilise des coordonnées de valeur.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Indique si le type de série spécifié utilise des coordonnées de valeur.
 type: docs
 weight: 190
 url: /fr/aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate/
 ---
 
-## Méthode ChartTypeCharacterizer.IsSeriesUsesValueCoordinate
+## ChartTypeCharacterizer.IsSeriesUsesValueCoordinate méthode
 
-Retourne si le type de série spécifié utilise des coordonnées de valeur.
+Indique si le type de série spécifié utilise des coordonnées de valeur.
 
 ```csharp
 public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)
@@ -19,11 +19,11 @@ public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Type de série. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Vrai s'il utilise sinon faux.
+Vrai s'il utilise, sinon faux.
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

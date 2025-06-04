@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/chartlinesformat/
 public class ChartLinesFormat : IChartLinesFormat
 ```
 
-## Properties
+## 属性
 
 | 名称 | 描述 |
 | --- | --- |

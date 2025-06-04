@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sperren von Formen zurück. Nur-lesbarer IAutoShapeLockaspose.slides/iautoshapelock.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Sperren von Formen zurück. Nur-Lese IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 40
 url: /de/aspose.slides/iautoshape/shapelock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iautoshape/shapelock/
 
 ## IAutoShape.ShapeLock-Eigenschaft
 
-Gibt die Sperren der Form zurück. Nur-lesbarer [`IAutoShapeLock`](../../iautoshapelock).
+Gibt die Sperren der Form zurück. Nur-Lese [`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock ShapeLock { get; }

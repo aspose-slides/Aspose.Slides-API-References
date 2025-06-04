@@ -1,24 +1,24 @@
 ---
 title: EnableInnerShadowEffect
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Habilita el efecto de sombra interior.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Habilita el efecto de sombra interna.
 type: docs
 weight: 200
 url: /es/aspose.slides/effectformat/enableinnershadoweffect/
 ---
 
-## Método EffectFormat.EnableInnerShadowEffect
+## EffectFormat.EnableInnerShadowEffect método
 
-Habilita el efecto de sombra interior.
+Habilita el efecto de sombra interna.
 
 ```csharp
 public void EnableInnerShadowEffect()
 ```
 
-### Véase también
+### Ver También
 
-* class [EffectFormat](../../effectformat)
-* namespace [Aspose.Slides](../../effectformat)
-* assembly [Aspose.Slides](../../../)
+* clase [EffectFormat](../../effectformat)
+* espacio de nombres [Aspose.Slides](../../effectformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

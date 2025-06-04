@@ -1,7 +1,7 @@
 ---
 title: IsBulletHardColor
-second_title: Aspose.Sildes pour la référence API .NET
-description: Détermine si le symbole a une couleur propre ou l'hérite de la première portion dans le paragraphe. Renvoie true si le symbole a une couleur propre et false si le symbole hérite de la couleur de la première portion dans le paragraphe. Boolean en lecture seule.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Détermine si la puce a sa propre couleur ou l'hérite de la première portion du paragraphe. Retourne **true** si la puce a sa propre couleur et **false** si la puce hérite de la couleur de la première portion du paragraphe. Booléen en lecture seule.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
 
 ## IBulletFormatEffectiveData.IsBulletHardColor propriété
 
-Détermine si le symbole a une couleur propre ou l'hérite de la première portion dans le paragraphe. Renvoie **true** si le symbole a une couleur propre et **false** si le symbole hérite de la couleur de la première portion dans le paragraphe. Boolean en lecture seule.
+Détermine si la puce a sa propre couleur ou l'hérite de la première portion du paragraphe. Retourne **true** si la puce a sa propre couleur et **false** si la puce hérite de la couleur de la première portion du paragraphe. Booléen en lecture seule.
 
 ```csharp
 public bool IsBulletHardColor { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * namespace [Aspose.Slides](../../ibulletformateffectivedata)

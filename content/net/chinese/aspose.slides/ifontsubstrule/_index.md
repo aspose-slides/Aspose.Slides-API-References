@@ -20,10 +20,10 @@ public interface IFontSubstRule
 | 名称 | 描述 |
 | --- | --- |
 | [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | 用于替换的字体 只读 [`IFontData`](../ifontdata)。 |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | 应用的替换规则 只读 [`FontSubstCondition`](../fontsubstcondition)。 |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | 应用于替换的规则 只读 [`FontSubstCondition`](../fontsubstcondition)。 |
 | [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | 要替换的字体 只读 [`IFontData`](../ifontdata)。 |
 
-### 另见
+### 还可以查看
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

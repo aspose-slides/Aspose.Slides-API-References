@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
-description: Holt das Element am angegebenen Index. Nur-lesbar IAudioaspose.slides/iaudio.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das Element am angegebenen Index zurück. Nur-lesend IAudioaspose.slides/iaudio.
 type: docs
 weight: 10
 url: /de/aspose.slides/iaudiocollection/item/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iaudiocollection/item/
 
 ## IAudioCollection-Indexer
 
-Holt das Element am angegebenen Index. Nur-lesbar [`IAudio`](../../iaudio).
+Gibt das Element am angegebenen Index zurück. Nur-lesend [`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio this[int index] { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAudio](../../iaudio)
 * Schnittstelle [IAudioCollection](../../iaudiocollection)

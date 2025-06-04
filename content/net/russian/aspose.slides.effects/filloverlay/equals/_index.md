@@ -7,7 +7,7 @@ weight: 30
 url: /ru/aspose.slides.effects/filloverlay/equals/
 ---
 
-## Метод FillOverlay.Equals
+## FillOverlay.Equals метод
 
 Определяет, равен ли указанный [`FillOverlay`](../../filloverlay) текущему [`FillOverlay`](../../filloverlay).
 
@@ -17,7 +17,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`FillOverlay`](../../filloverlay) для сравнения. |
+| obj | Object | [`FillOverlay`](../../filloverlay), который необходимо сравнить. |
 
 ### Возвращаемое значение
 

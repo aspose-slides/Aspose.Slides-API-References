@@ -1,6 +1,6 @@
 ---
 title: Save
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将图像保存到指定文件
 type: docs
 weight: 40
@@ -19,7 +19,7 @@ public void Save(string fileName)
 | --- | --- | --- |
 | fileName | String | 文件名字符串 |
 
-### 另请参见
+### 另见
 
 * 接口 [IImageWrapper](../../iimagewrapper)
 * 命名空间 [Aspose.Slides](../../iimagewrapper)
@@ -37,10 +37,10 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存图像的流 |
+| stream | Stream | 用于保存图像的流 |
 | imageFormat | PPImageFormat | 图像格式 [`PPImageFormat`](../../ppimageformat) |
 
-### 另请参见
+### 另见
 
 * 枚举 [PPImageFormat](../../ppimageformat)
 * 接口 [IImageWrapper](../../iimagewrapper)
@@ -62,7 +62,7 @@ public void Save(string fileName, PPImageFormat imageFormat)
 | fileName | String | 文件名字符串 |
 | imageFormat | PPImageFormat | 图像格式 [`PPImageFormat`](../../ppimageformat) |
 
-### 另请参见
+### 另见
 
 * 枚举 [PPImageFormat](../../ppimageformat)
 * 接口 [IImageWrapper](../../iimagewrapper)

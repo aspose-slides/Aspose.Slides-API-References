@@ -1,6 +1,6 @@
 ---
 title: CustomData
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les données personnalisées des diapositives. Lecture seule ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Renvoie les données personnalisées de la diapositive. Lecture seule [`ICustomD
 public ICustomData CustomData { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICustomData](../../icustomdata)
 * interface [IBaseSlide](../../ibaseslide)

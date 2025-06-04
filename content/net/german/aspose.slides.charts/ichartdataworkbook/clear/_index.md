@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Slides für .NET API-Referenz
-description: Alle Zellenwerte im Blatt löschen
+description: Alle Zellwerte im Blatt löschen
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ichartdataworkbook/clear/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdataworkbook/clear/
 
 ## IChartDataWorkbook.Clear-Methode
 
-Alle Zellenwerte im Blatt löschen
+Alle Zellwerte im Blatt löschen
 
 ```csharp
 public void Clear(int sheetIndex)

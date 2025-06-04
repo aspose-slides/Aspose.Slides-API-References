@@ -1,7 +1,7 @@
 ---
 title: Formula
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Formel im A1-Stil ab oder setzt sie.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft die Formel im A1-Stil ab oder legt sie fest.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/chartdatacell/formula/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatacell/formula/
 
 ## ChartDataCell.Formula-Eigenschaft
 
-Ruft die Formel im A1-Stil ab oder setzt sie.
+Ruht die Formel im A1-Stil ab oder legt sie fest.
 
 ```csharp
 public string Formula { get; set; }

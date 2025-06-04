@@ -1,7 +1,7 @@
 ---
 title: InsertAutoShape
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée une nouvelle AutoShape, l'ajuste à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Notez que le type de la forme sera déterminé par le paramètre shapeType.
+second_title: Aspose.Sildes pour les références API .NET
+description: Crée une nouvelle AutoShape, la règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Notez que le type de la forme sera déterminé par le paramètre shapeType.
 type: docs
 weight: 250
 url: /fr/aspose.slides/ishapecollection/insertautoshape/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapecollection/insertautoshape/
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Crée une nouvelle AutoShape, l'ajuste à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Note : le type de la forme sera déterminé par le paramètre shapeType.
+Crée une nouvelle AutoShape, la règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié. Note : le type de la forme sera déterminé par le paramètre shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -56,7 +56,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 | y | Single | La coordonnée Y pour le côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si true, la nouvelle forme sera ajustée à partir du modèle par défaut. Un nom non vide, un style simple, et un texte centré seront assignés à la nouvelle forme. Si false, toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera réglée à partir du modèle par défaut. Un nom non vide, un style simple, un texte centré seront attribués à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
 ### Valeur de retour
 

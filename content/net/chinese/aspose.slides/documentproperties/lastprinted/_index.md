@@ -1,7 +1,7 @@
 ---
 title: LastPrinted
-second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿最后一次打印的日期。可读/可写 DateTime。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回演示文稿最后一次打印的日期。可读/可写的 DateTime。
 type: docs
 weight: 180
 url: /zh/aspose.slides/documentproperties/lastprinted/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/documentproperties/lastprinted/
 
 ## DocumentProperties.LastPrinted 属性
 
-返回演示文稿最后一次打印的日期。可读/可写 DateTime。
+返回演示文稿最后一次打印的日期。可读/可写的 DateTime。
 
 ```csharp
 public DateTime LastPrinted { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 类 [DocumentProperties](../../documentproperties)
 * 命名空间 [Aspose.Slides](../../documentproperties)

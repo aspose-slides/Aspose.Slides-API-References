@@ -1,15 +1,15 @@
 ---
 title: Text
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Devuelve o establece el texto plano de un comentario de diapositiva. Lectura/escritura String.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve o establece el texto sin formato de un comentario de diapositiva. Lectura/escritura String.
 type: docs
 weight: 60
 url: /es/aspose.slides/icomment/text/
 ---
 
-## Propiedad IComment.Text
+## IComment.Text propiedad
 
-Devuelve o establece el texto plano de un comentario de diapositiva. Lectura/escritura String.
+Devuelve o establece el texto sin formato de un comentario de diapositiva. Lectura/escritura String.
 
 ```csharp
 public string Text { get; set; }

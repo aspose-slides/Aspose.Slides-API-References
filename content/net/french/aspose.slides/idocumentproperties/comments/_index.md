@@ -1,13 +1,13 @@
 ---
 title: Comments
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Renvoie ou définit les commentaires d'une présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/idocumentproperties/comments/
 ---
 
-## Propriété IDocumentProperties.Comments
+## IDocumentProperties.Comments property
 
 Renvoie ou définit les commentaires d'une présentation. Chaîne en lecture/écriture.
 

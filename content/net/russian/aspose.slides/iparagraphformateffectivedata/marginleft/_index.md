@@ -1,6 +1,6 @@
 ---
 title: MarginLeft
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает левый отступ в абзаце. Только для чтения Single.
 type: docs
 weight: 110

@@ -1,6 +1,6 @@
 ---
 title: From
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie la valeur de départ de l'animation. Lecture/écriture String.
 type: docs
 weight: 40

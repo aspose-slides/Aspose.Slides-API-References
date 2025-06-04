@@ -1,7 +1,7 @@
 ---
 title: Local
-second_title: Aspose.Slides pour référence API .NET
-description: Renvoie le stockage local du contexte de modèle actuel. Lecture seule Storageaspose.slides.export.web/storage.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le stockage local du contexte de modèle actuel. En lecture seule Storageaspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export.web/templatecontext-1/local/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export.web/templatecontext-1/local/
 
 ## TemplateContext&lt;TObject&gt;.Propriété Local
 
-Renvoie le stockage local du contexte de modèle actuel. Lecture seule [`Storage`](../../storage).
+Renvoie le stockage local du contexte de modèle actuel. En lecture seule [`Storage`](../../storage).
 
 ```csharp
 public Storage Local { get; }

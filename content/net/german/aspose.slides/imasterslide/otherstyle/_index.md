@@ -1,7 +1,7 @@
 ---
 title: OtherStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Stil eines anderen Textes zurück. Nur-Lese ITextStyleaspose.slides/itextstyle.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Stil eines anderen Texts zurück. Nur lesender ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 70
 url: /de/aspose.slides/imasterslide/otherstyle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/imasterslide/otherstyle/
 
 ## IMasterSlide.OtherStyle-Eigenschaft
 
-Gibt den Stil eines anderen Textes zurück. Nur-Lese [`ITextStyle`](../../itextstyle).
+Gibt den Stil eines anderen Texts zurück. Nur lesend [`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle OtherStyle { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ITextStyle](../../itextstyle)
 * Schnittstelle [IMasterSlide](../../imasterslide)

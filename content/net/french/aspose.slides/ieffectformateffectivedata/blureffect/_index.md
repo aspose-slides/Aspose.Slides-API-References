@@ -1,15 +1,15 @@
 ---
 title: BlurEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet flou. Lecture seule IBlurEffectiveDataaspose.slides.effects/iblureffectivedata.
+second_title: Référence API Aspose.Slides pour .NET
+description: Effet de flou. Lecture seule IBlurEffectiveDataaspose.slides.effects/iblureffectivedata.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ieffectformateffectivedata/blureffect/
 ---
 
-## Propriété IEffectFormatEffectiveData.BlurEffect
+## IEffectFormatEffectiveData.BlurEffect propriété
 
-Effet flou. Lecture seule [`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata).
+Effet de flou. Lecture seule [`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata).
 
 ```csharp
 public IBlurEffectiveData BlurEffect { get; }

@@ -1,13 +1,13 @@
 ---
 title: CreateFilterEffect
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slidess for .NET API Referenz
 description: Erstellt einen Filtereffekt.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/behaviorfactory/createfiltereffect/
 ---
 
-## BehaviorFactory.CreateFilterEffect Methode
+## BehaviorFactory.CreateFilterEffect-Methode
 
 Erstellt einen Filtereffekt.
 

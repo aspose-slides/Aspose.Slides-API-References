@@ -1,7 +1,7 @@
 ---
 title: Dispose
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Libérer ImageWrapper
+second_title: Aspose.Sildes pour la référence API .NET
+description: Dispose ImageWrapper
 type: docs
 weight: 30
 url: /fr/aspose.slides/imagewrapper/dispose/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/imagewrapper/dispose/
 
 ## Méthode ImageWrapper.Dispose
 
-Libérer ImageWrapper
+Dispose ImageWrapper
 
 ```csharp
 public void Dispose()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ImageWrapper](../../imagewrapper)
 * espace de noms [Aspose.Slides](../../imagewrapper)

@@ -15,7 +15,7 @@ Initialise une nouvelle instance de la classe Portion.
 public Portion()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Portion](../../portion)
 * espace de noms [Aspose.Slides](../../portion)
@@ -31,7 +31,7 @@ Initialise une nouvelle instance de la classe Portion.
 public Portion(string str)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Portion](../../portion)
 * espace de noms [Aspose.Slides](../../portion)
@@ -47,7 +47,7 @@ Initialise une nouvelle instance de la classe Portion.
 public Portion(Portion portion)
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Portion](../../portion)
 * espace de noms [Aspose.Slides](../../portion)

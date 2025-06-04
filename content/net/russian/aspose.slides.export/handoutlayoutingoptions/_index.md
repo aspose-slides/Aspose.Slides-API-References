@@ -1,13 +1,13 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет режим компоновки раздаточных материалов для экспорта.
 type: docs
 weight: 3670
 url: /ru/aspose.slides.export/handoutlayoutingoptions/
 ---
 
-## Класс HandoutLayoutingOptions
+## HandoutLayoutingOptions class
 
 Представляет режим компоновки раздаточных материалов для экспорта.
 
@@ -25,10 +25,10 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Указывает, сколько слайдов и в каком порядке будут размещены на странице [`HandoutType`](../handouttype). |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Указывает, следует ли отображать комментарии на слайдах |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Указывает, следует ли обводить рамками отображаемые слайды. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Указывает, следует ли печатать номера отображаемых слайдов. |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Указывает, сколько слайдов и в каком порядке будет расположено на странице [`HandoutType`](../handouttype). |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Указывает, отображать ли комментарии на слайдах |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Указывает, рисовать ли рамки вокруг отображаемых слайдов или нет. |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Указывает, печатать ли отображаемые номера слайдов. |
 
 ### См. также
 

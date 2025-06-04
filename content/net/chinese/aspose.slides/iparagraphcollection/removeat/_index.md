@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 移除指定索引处的集合元素。
+description: 删除集合中指定索引的元素。
 type: docs
 weight: 110
 url: /zh/aspose.slides/iparagraphcollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iparagraphcollection/removeat/
 
 ## IParagraphCollection.RemoveAt 方法
 
-移除指定索引处的集合元素。
+删除集合中指定索引的元素。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要移除的元素的零基索引。 |
+| index | Int32 | 要删除的元素的零基索引。 |
 
 ### 另请参阅
 

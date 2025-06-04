@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Референс
 description: Получает элемент по указанному индексу.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartseriesgroup/item/
 public IChartSeries this[int index] { get; }
 ```
 
-### Смотрите также
+### Смотрите Также
 
 * интерфейс [IChartSeries](../../ichartseries)
 * класс [ChartSeriesGroup](../../chartseriesgroup)

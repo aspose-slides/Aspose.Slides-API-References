@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve un enumerador que itera a través de la colección.
 type: docs
 weight: 80
 url: /es/aspose.slides/fontfallbackrulescollection/getenumerator/
 ---
 
-## Método FontFallBackRulesCollection.GetEnumerator
+## FontFallBackRulesCollection.GetEnumerator método
 
 Devuelve un enumerador que itera a través de la colección.
 
@@ -15,15 +15,15 @@ Devuelve un enumerador que itera a través de la colección.
 public IEnumerator<IFontFallBackRule> GetEnumerator()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Un IEnumerator que se puede utilizar para iterar a través de la colección.
+Un IEnumerator que se puede usar para iterar a través de la colección.
 
 ### Véase también
 
 * interfaz [IFontFallBackRule](../../ifontfallbackrule)
 * clase [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * espacio de nombres [Aspose.Slides](../../fontfallbackrulescollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

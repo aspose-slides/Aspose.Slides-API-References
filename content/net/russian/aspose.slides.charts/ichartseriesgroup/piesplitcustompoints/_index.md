@@ -1,15 +1,15 @@
 ---
 title: PieSplitCustomPoints
-second_title: Aspose.Slides для .NET API Справочник
-description: Информация о настраиваемом сплите для графика "пирог из пирога" или "полоска из пирога" с настраиваемым сплитом. Содержит точки данных, которые должны быть изображены во втором пироге или полоске в графике "пирог из пирога" или "полоска из пирога". Только для чтения IPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection.
+second_title: Aspose.Sildes для справки по API .NET
+description: Информация о пользовательском разбиении для диаграммы "пирога из пирога" или "бара из пирога" с пользовательским разбиением. Содержит точки данных, которые будут отображаться во втором пироге или баре в диаграмме "пирога из пирога" или "бара из пирога". Только для чтения IPieSplitCustomPointCollectionaspose.slides/ipiesplitcustompointcollection.
 type: docs
 weight: 140
 url: /ru/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/
 ---
 
-## Свойство IChartSeriesGroup.PieSplitCustomPoints
+## IChartSeriesGroup.PieSplitCustomPoints свойство
 
-Информация о настраиваемом сплите для графика "пирог из пирога" или "полоска из пирога" с настраиваемым сплитом. Содержит точки данных, которые должны быть изображены во втором пироге или полоске в графике "пирог из пирога" или "полоска из пирога". Только для чтения [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
+Информация о пользовательском разбиении для диаграммы "пирога из пирога" или "бара из пирога" с пользовательским разбиением. Содержит точки данных, которые будут отображаться во втором пироге или баре в диаграмме "пирога из пирога" или "бара из пирога". Только для чтения [`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }

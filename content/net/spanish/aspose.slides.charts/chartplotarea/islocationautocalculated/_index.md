@@ -1,15 +1,15 @@
 ---
 title: IsLocationAutocalculated
-second_title: Aspose.Slides para .NET API Reference
-description: Define cómo se debe calcular la ubicación verdadero calculado automáticamente definido por las propiedades X, Y, Ancho, Alto. Solo lectura Booleano.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Define cómo se debe calcular la ubicación verdadero - calculado automáticamente; definido por las propiedades X, Y, Width, Height. Booleano de solo lectura.
 type: docs
 weight: 90
 url: /es/aspose.slides.charts/chartplotarea/islocationautocalculated/
 ---
 
-## Propiedad ChartPlotArea.IsLocationAutocalculated
+## ChartPlotArea.IsLocationAutocalculated property
 
-Define cómo se debe calcular la ubicación: verdadero – calculado automáticamente; definido por las propiedades X, Y, Ancho, Alto. Solo lectura Booleano.
+Define cómo se debe calcular la ubicación: verdadero - calculado automáticamente; definido por las propiedades X, Y, Width, Height. Booleano de solo lectura.
 
 ```csharp
 public bool IsLocationAutocalculated { get; }
@@ -17,8 +17,8 @@ public bool IsLocationAutocalculated { get; }
 
 ### Ver También
 
-* clase [ChartPlotArea](../../chartplotarea)
-* espacio de nombres [Aspose.Slides.Charts](../../chartplotarea)
-* ensamblaje [Aspose.Slides](../../../)
+* class [ChartPlotArea](../../chartplotarea)
+* namespace [Aspose.Slides.Charts](../../chartplotarea)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

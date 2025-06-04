@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 添加新的交互式序列。读取/写入 Sequenceaspose.slides.animation/sequence。
+second_title: Aspose.Sildes for .NET API Reference
+description: 添加新的交互式序列。读/写 Sequenceaspose.slides.animation/sequence。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/sequencecollection/add/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/sequencecollection/add/
 
 ## SequenceCollection.Add 方法
 
-添加新的交互式序列。读取/写入 [`Sequence`](../../sequence)。
+添加新的交互式序列。读/写 [`Sequence`](../../sequence)。
 
 ```csharp
 public ISequence Add(IShape shapeTrigger)
 ```
 
-### 参见
+### 另见
 
 * 接口 [ISequence](../../isequence)
 * 接口 [IShape](../../../aspose.slides/ishape)

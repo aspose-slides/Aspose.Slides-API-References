@@ -1,6 +1,6 @@
 ---
 title: ICommentAuthor
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Représente un auteur de commentaires.
 type: docs
 weight: 5370
@@ -19,15 +19,15 @@ public interface ICommentAuthor
 
 | Nom | Description |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Retourne la collection de commentaires faits par cet auteur. Lecture seule [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Retourne ou définit les initiales de l'auteur. Lecture/écriture String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Retourne ou définit le nom de l'auteur. Lecture/écriture String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Renvoie la collection de commentaires faits par cet auteur. Lecture seule [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Renvoie ou définit les initiales de l'auteur. Lecture/écriture String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Renvoie ou définit le nom de l'auteur. Lecture/écriture String. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | Supprime l'auteur de la collection parente. |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | Supprime l'auteur de la collection parent. |
 
 ### Voir Aussi
 

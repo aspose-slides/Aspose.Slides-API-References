@@ -1,15 +1,15 @@
 ---
 title: IsVisible
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt dar, ob die Achse sichtbar ist. Lese-/schreibbare Boolesche eigenschaft.
+description: Gibt an, ob die Achse sichtbar ist. Lese-/schreibbarer Boolean.
 type: docs
 weight: 310
 url: /de/aspose.slides.charts/axis/isvisible/
 ---
 
-## Axis.IsVisible Eigenschaft
+## Axis.IsVisible-Eigenschaft
 
-Stellt dar, ob die Achse sichtbar ist. Lese-/schreibbare Boolesche eigenschaft.
+Gibt an, ob die Achse sichtbar ist. Lese-/schreibbarer Boolean.
 
 ```csharp
 public bool IsVisible { get; set; }

@@ -1,13 +1,13 @@
 ---
 title: GeometryPath
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine Instanz von GeometryPath
 type: docs
 weight: 10
 url: /de/aspose.slides/geometrypath/geometrypath/
 ---
 
-## Konstruktor von GeometryPath
+## GeometryPath-Konstruktor
 
 Erstellt eine Instanz von GeometryPath
 

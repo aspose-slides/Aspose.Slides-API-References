@@ -1,7 +1,7 @@
 ---
 title: MiterLimit
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la limite de miter d'une ligne. Lecture/écriture Single.
+second_title: Aspose.Slides pour .NET Référence API
+description: Retourne ou définit la limite de miter d'une ligne. Lecture/écriture Single.
 type: docs
 weight: 150
 url: /fr/aspose.slides/ilineformat/miterlimit/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ilineformat/miterlimit/
 
 ## Propriété ILineFormat.MiterLimit
 
-Renvoie ou définit la limite de miter d'une ligne. Lecture/écriture Single.
+Retourne ou définit la limite de miter d'une ligne. Lecture/écriture Single.
 
 ```csharp
 public float MiterLimit { get; set; }

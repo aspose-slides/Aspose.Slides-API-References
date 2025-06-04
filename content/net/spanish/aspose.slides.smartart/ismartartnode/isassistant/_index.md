@@ -18,7 +18,7 @@ public bool IsAssistant { get; set; }
 ### Véase también
 
 * interfaz [ISmartArtNode](../../ismartartnode)
-* espacio de nombres [Aspose.Slides.SmartArt](../../ismartartnode)
+* namespace [Aspose.Slides.SmartArt](../../ismartartnode)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: SetCategoryAxisTypeAutomatically
 second_title: Aspose.Slides für .NET API Referenz
-description: Setzt die IAxis.CategoryAxisType-Eigenschaft mit einem Wert, der automatisch basierend auf den Achsendaten bestimmt wird.
+description: Setzt die IAxis.CategoryAxisType-Eigenschaft mit einem Wert, der basierend auf den Achsendaten automatisch bestimmt wird.
 type: docs
 weight: 560
 url: /de/aspose.slides.charts/iaxis/setcategoryaxistypeautomatically/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/setcategoryaxistypeautomatically/
 
 ## IAxis.SetCategoryAxisTypeAutomatically-Methode
 
-Setzt die IAxis.CategoryAxisType-Eigenschaft mit einem Wert, der automatisch basierend auf den Achsendaten bestimmt wird.
+Setzt die IAxis.CategoryAxisType-Eigenschaft mit einem Wert, der basierend auf den Achsendaten automatisch bestimmt wird.
 
 ```csharp
 public void SetCategoryAxisTypeAutomatically()

@@ -1,7 +1,7 @@
 ---
 title: AddVideoFrame
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt ein neues Video-Frame am Ende einer Sammlung hinzu.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügt einen neuen Video-Frame am Ende einer Sammlung hinzu.
 type: docs
 weight: 180
 url: /de/aspose.slides/ishapecollection/addvideoframe/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/addvideoframe/
 
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
-Fügt ein neues Video-Frame am Ende einer Sammlung hinzu.
+Fügt einen neuen Video-Frame am Ende einer Sammlung hinzu.
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
@@ -27,7 +27,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 Erstelltes VideoFrame-Objekt.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVideoFrame](../../ivideoframe)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
@@ -38,7 +38,7 @@ Erstelltes VideoFrame-Objekt.
 
 ## AddVideoFrame(float, float, float, float, IVideo) {#addvideoframe}
 
-Fügt ein neues Video-Frame am Ende einer Sammlung hinzu.
+Fügt einen neuen Video-Frame am Ende einer Sammlung hinzu.
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IVideo video)
@@ -56,7 +56,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 
 Erstelltes VideoFrame-Objekt.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IVideoFrame](../../ivideoframe)
 * Schnittstelle [IVideo](../../ivideo)

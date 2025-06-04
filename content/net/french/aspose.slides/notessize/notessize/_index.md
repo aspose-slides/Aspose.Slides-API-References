@@ -1,6 +1,6 @@
 ---
 title: NotesSize
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Le constructeur par défaut.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Le constructeur par défaut.
 public NotesSize()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [NotesSize](../../notessize)
 * espace de noms [Aspose.Slides](../../notessize)

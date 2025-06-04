@@ -1,7 +1,7 @@
 ---
 title: Picture
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Bild zurück. Schreibgeschütztes ISlidesPictureaspose.slides/islidespicture.
+description: Gibt das Bild zurück. Schreibgeschütztes ISlidesPicture aspose.slides/islidespicture.
 type: docs
 weight: 70
 url: /de/aspose.slides/ipicturefillformat/picture/

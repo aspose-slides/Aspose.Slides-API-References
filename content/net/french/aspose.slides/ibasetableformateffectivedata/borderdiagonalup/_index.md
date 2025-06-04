@@ -1,7 +1,7 @@
 ---
 title: BorderDiagonalUp
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la valeur effective du format de ligne diagonale ascendante. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+description: Renvoie la valeur effective du format de ligne diagonale montante. Lecture seule ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ibasetableformateffectivedata/borderdiagonalup/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibasetableformateffectivedata/borderdiagonalup/
 
 ## Propriété IBaseTableFormatEffectiveData.BorderDiagonalUp
 
-Renvoie la valeur effective du format de ligne diagonale ascendante. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Renvoie la valeur effective du format de ligne diagonale montante. Lecture seule [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderDiagonalUp { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * interface [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

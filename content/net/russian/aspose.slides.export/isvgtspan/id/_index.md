@@ -1,6 +1,6 @@
 ---
 title: Id
-second_title: Aspose.Slides для .NET Справочник API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает или устанавливает id для элемента tspan
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/isvgtspan/id/
 public string Id { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * интерфейс [ISvgTSpan](../../isvgtspan)
 * пространство имен [Aspose.Slides.Export](../../isvgtspan)

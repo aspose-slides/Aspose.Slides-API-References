@@ -1,13 +1,13 @@
 ---
 title: GetSlidesListOfSection
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve la lista de diapositivas en la sección.
 type: docs
 weight: 40
 url: /es/aspose.slides/isection/getslideslistofsection/
 ---
 
-## Método ISection.GetSlidesListOfSection
+## ISection.GetSlidesListOfSection método
 
 Devuelve la lista de diapositivas en la sección.
 

@@ -7,7 +7,7 @@ weight: 50
 url: /es/aspose.slides/icontrolpropertiescollection/add/
 ---
 
-## Método IControlPropertiesCollection.Add
+## IControlPropertiesCollection.Add method
 
 Agrega una propiedad a la colección.
 
@@ -15,12 +15,12 @@ Agrega una propiedad a la colección.
 public void Add(string name, string value)
 ```
 
-| Parámetro | Tipo   | Descripción                        |
-|-----------|--------|-----------------------------------|
-| name      | String | El nombre de la propiedad.        |
-| value     | String | El valor de la propiedad.         |
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | El nombre de la propiedad. |
+| value | String | El valor de la propiedad. |
 
-### Ver También
+### See Also
 
 * interface [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * namespace [Aspose.Slides](../../icontrolpropertiescollection)

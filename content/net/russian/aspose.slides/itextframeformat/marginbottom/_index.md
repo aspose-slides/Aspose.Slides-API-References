@@ -1,15 +1,15 @@
 ---
 title: MarginBottom
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает нижний отступ в точках в элементе TextFrame. Читабельный/записываемый Double.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или устанавливает нижний отступ в пунктах в TextFrame. Читаемый/записываемый Double.
 type: docs
 weight: 70
 url: /ru/aspose.slides/itextframeformat/marginbottom/
 ---
 
-## ITextFrameFormat.MarginBottom property
+## ITextFrameFormat.MarginBottom свойство
 
-Возвращает или устанавливает нижний отступ (точки) в элементе TextFrame. Читабельный/записываемый Double.
+Возвращает или устанавливает нижний отступ (в пунктах) в TextFrame. Читаемый/записываемый Double.
 
 ```csharp
 public double MarginBottom { get; set; }

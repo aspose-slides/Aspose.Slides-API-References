@@ -1,15 +1,15 @@
 ---
 title: ShowMeanLine
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les marqueurs moyens. Vrai si la ligne moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Booléen lisible/écrivable.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les marqueurs de moyenne. Vrai si la ligne de moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Boolean en lecture/écriture.
 type: docs
 weight: 390
 url: /fr/aspose.slides.charts/ichartseries/showmeanline/
 ---
 
-## Propriété IChartSeries.ShowMeanLine
+## IChartSeries.ShowMeanLine property
 
-Représente les marqueurs moyens. Vrai si la ligne moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Booléen lisible/écrivable.
+Représente les marqueurs de moyenne. Vrai si la ligne de moyenne est affichée sur le graphique BoxAndWhisker. S'applique uniquement aux graphiques BoxAndWhisker. Boolean en lecture/écriture.
 
 ```csharp
 public bool ShowMeanLine { get; set; }

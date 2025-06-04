@@ -1,6 +1,6 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建新的默认文本搜索选项。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/textsearchoptions/textsearchoptions/
 public TextSearchOptions()
 ```
 
-### 参见
+### 另见
 
 * class [TextSearchOptions](../../textsearchoptions)
 * namespace [Aspose.Slides](../../textsearchoptions)

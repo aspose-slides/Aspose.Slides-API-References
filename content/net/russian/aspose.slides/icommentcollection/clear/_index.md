@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET Справочник API
 description: Удаляет все комментарии из коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides/icommentcollection/clear/
 ---
 
-## Метод ICommentCollection.Clear
+## ICommentCollection.Clear метод
 
 Удаляет все комментарии из коллекции.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/icommentcollection/clear/
 public void Clear()
 ```
 
-### См. также
+### Также см. 
 
 * интерфейс [ICommentCollection](../../icommentcollection)
 * пространство имен [Aspose.Slides](../../icommentcollection)

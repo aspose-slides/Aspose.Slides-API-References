@@ -1,7 +1,7 @@
 ---
 title: EncodingName
-second_title: Aspose.Sildes para .NET API Reference
-description: Devuelve o establece el nombre de codificación html. Este valor se guardará en el archivo HTML generado, pero depende del llamador asegurar que el archivo se guarde en esta codificación. Lectura/escritura String.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve o establece el nombre de codificación html. Este valor se guardará en el archivo HTML generado, pero depende del llamador asegurarse de que el archivo se guarde en esta codificación. Lectura/escritura String.
 type: docs
 weight: 30
 url: /es/aspose.slides.export/texttohtmlconversionoptions/encodingname/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/texttohtmlconversionoptions/encodingname/
 
 ## Propiedad TextToHtmlConversionOptions.EncodingName
 
-Devuelve o establece el nombre de codificación html. Este valor se guardará en el archivo HTML generado, pero depende del llamador asegurar que el archivo se guarde en esta codificación. Lectura/escritura String.
+Devuelve o establece el nombre de codificación html. Este valor se guardará en el archivo HTML generado, pero depende del llamador asegurarse de que el archivo se guarde en esta codificación. Lectura/escritura String.
 
 ```csharp
 public string EncodingName { get; set; }

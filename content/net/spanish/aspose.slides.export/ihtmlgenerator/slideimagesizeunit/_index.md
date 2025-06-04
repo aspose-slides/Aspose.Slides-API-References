@@ -1,13 +1,13 @@
 ---
 title: SlideImageSizeUnit
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura SvgCoordinateUnitaspose.slides.export/svgcoordinateunit.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve una unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura SvgCoordinateUnitaspose.slides/svgcoordinateunit.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/ihtmlgenerator/slideimagesizeunit/
 ---
 
-## Propiedad IHtmlGenerator.SlideImageSizeUnit
+## IHtmlGenerator.SlideImageSizeUnit propiedad
 
 Devuelve una unidad en la que se especifica el tamaño de la imagen de la diapositiva. Solo lectura [`SvgCoordinateUnit`](../../svgcoordinateunit).
 
@@ -15,7 +15,7 @@ Devuelve una unidad en la que se especifica el tamaño de la imagen de la diapos
 public SvgCoordinateUnit SlideImageSizeUnit { get; }
 ```
 
-### Ver También
+### Véase También
 
 * enum [SvgCoordinateUnit](../../svgcoordinateunit)
 * interface [IHtmlGenerator](../../ihtmlgenerator)

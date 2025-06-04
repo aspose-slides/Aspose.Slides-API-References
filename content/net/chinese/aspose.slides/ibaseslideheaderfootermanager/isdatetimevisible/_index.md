@@ -1,7 +1,7 @@
 ---
 title: IsDateTimeVisible
-second_title: Aspose.Slides for .NET API 参考
-description: 获取表示存在日期时间占位符的值。ReadBoolean。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取指示日期时间占位符是否存在的值。 ReadBoolean。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible/
 
 ## IBaseSlideHeaderFooterManager.IsDateTimeVisible 属性
 
-获取表示存在日期时间占位符的值。ReadBoolean。
+获取指示日期时间占位符是否存在的值。 ReadBoolean。
 
 ```csharp
 public bool IsDateTimeVisible { get; }

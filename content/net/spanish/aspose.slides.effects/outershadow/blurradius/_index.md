@@ -19,6 +19,6 @@ public double BlurRadius { get; set; }
 
 * clase [OuterShadow](../../outershadow)
 * espacio de nombres [Aspose.Slides.Effects](../../outershadow)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

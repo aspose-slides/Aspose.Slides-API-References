@@ -1,7 +1,7 @@
 ---
 title: MasterTheme
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le thème maître. Lecture seule IMasterThemeaspose.slides.theme/imastertheme.
+second_title: Aspose.Slides pour référence API .NET
+description: Retourne le thème maître. Lecture seule IMasterTheme aspose.slides.theme/imastertheme.
 type: docs
 weight: 190
 url: /fr/aspose.slides/presentation/mastertheme/
@@ -17,11 +17,11 @@ public IMasterTheme MasterTheme { get; }
 
 ### Exemples
 
-Les exemples suivants montrent comment changer un effet de thème en modifiant des parties des éléments d'une présentation PowerPoint.
+Les exemples suivants montrent comment changer un effet de thème en modifiant des parties d'éléments de la présentation PowerPoint.
 
 ```csharp
 [C#]
-//Instancier un objet présentation qui représente un fichier de présentation
+//Instancier un objet presentation qui représente un fichier de présentation
 using (Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx"))
 {
     pres.MasterTheme.FormatScheme.LineStyles[0].FillFormat.SolidFillColor.Color = Color.Red;

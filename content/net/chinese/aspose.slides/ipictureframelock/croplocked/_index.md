@@ -1,7 +1,7 @@
 ---
 title: CropLocked
-second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止图像裁剪。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API 参考
+description: 确定是否禁止图像裁剪。可读/可写布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/ipictureframelock/croplocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipictureframelock/croplocked/
 
 ## IPictureFrameLock.CropLocked 属性
 
-确定是否禁止图像裁剪。可读/写布尔值。
+确定是否禁止图像裁剪。可读/可写布尔值。
 
 ```csharp
 public bool CropLocked { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

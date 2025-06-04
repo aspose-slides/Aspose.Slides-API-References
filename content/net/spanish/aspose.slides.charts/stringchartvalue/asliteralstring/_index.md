@@ -1,21 +1,21 @@
 ---
 title: AsLiteralString
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Retorna o establece el valor como una cadena literal. Lectura/escritura String.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve o establece el valor como cadena literal. Lectura/escritura String.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/stringchartvalue/asliteralstring/
 ---
 
-## Propiedad StringChartValue.AsLiteralString
+## StringChartValue.AsLiteralString propiedad
 
-Retorna o establece el valor como una cadena literal. Lectura/escritura String.
+Devuelve o establece el valor como cadena literal. Lectura/escritura String.
 
 ```csharp
 public string AsLiteralString { get; set; }
 ```
 
-### Véase También
+### Vea También
 
 * clase [StringChartValue](../../stringchartvalue)
 * espacio de nombres [Aspose.Slides.Charts](../../stringchartvalue)

@@ -1,6 +1,6 @@
 ---
 title: ToDouble
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes for .NET API Reference
 description: Преобразует в double.
 type: docs
 weight: 30
@@ -17,7 +17,7 @@ public double ToDouble()
 
 ### Возвращаемое значение
 
-Значение типа double.
+Double значение.
 
 ### См. также
 

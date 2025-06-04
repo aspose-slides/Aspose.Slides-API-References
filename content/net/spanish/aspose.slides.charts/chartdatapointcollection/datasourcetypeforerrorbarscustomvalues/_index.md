@@ -1,21 +1,21 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Slides para .NET Referencia de API
-description: Especifica tipos de valores en la lista de propiedades ChartDataPoint.ErrorBarsCustomValues. Solo lectura IDataSourceTypeForErrorBarsCustomValuesaspose.slides.charts/idatasourcetypeforerrorbarscustomvalues.
+second_title: Aspose.Slides para .NET API Reference
+description: Especifica los tipos de valores en la lista de propiedades ChartDataPoint.ErrorBarsCustomValues. Solo lectura IDataSourceTypeForErrorBarsCustomValuesaspose.slides/idatasourcetypeforerrorbarscustomvalues.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/chartdatapointcollection/datasourcetypeforerrorbarscustomvalues/
 ---
 
-## ChartDataPointCollection.DataSourceTypeForErrorBarsCustomValues propiedad
+## ChartDataPointCollection.DataSourceTypeForErrorBarsCustomValues property
 
-Especifica tipos de valores en la lista de propiedades ChartDataPoint.ErrorBarsCustomValues. Solo lectura [`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues).
+Especifica los tipos de valores en la lista de propiedades ChartDataPoint.ErrorBarsCustomValues. Solo lectura [`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues).
 
 ```csharp
 public IDataSourceTypeForErrorBarsCustomValues DataSourceTypeForErrorBarsCustomValues { get; }
 ```
 
-### También Vea
+### See Also
 
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)
 * class [ChartDataPointCollection](../../chartdatapointcollection)

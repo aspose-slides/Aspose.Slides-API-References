@@ -1,6 +1,6 @@
 ---
 title: IsTextHolder
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定形状是否为 TextHolder。只读布尔值。
 type: docs
 weight: 150
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishape/istextholder/
 public bool IsTextHolder { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IShape](../../ishape)
 * 命名空间 [Aspose.Slides](../../ishape)

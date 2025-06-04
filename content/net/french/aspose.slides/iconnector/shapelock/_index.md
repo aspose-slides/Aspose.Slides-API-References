@@ -1,21 +1,21 @@
 ---
 title: ShapeLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie les verrouillages de formes. Read-only IConnectorLockaspose.slides/iconnectorlock.
+second_title: Référence API Aspose.Slides pour .NET
+description: Retourne les verrous des formes. Lecture seule IConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 50
 url: /fr/aspose.slides/iconnector/shapelock/
 ---
 
-## Propriété IConnector.ShapeLock
+## IConnector.ShapeLock propriété
 
-Renvoie les verrouillages de la forme. Read-only [`IConnectorLock`](../../iconnectorlock).
+Retourne les verrous de la forme. Lecture seule [`IConnectorLock`](../../iconnectorlock).
 
 ```csharp
 public IConnectorLock ShapeLock { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IConnectorLock](../../iconnectorlock)
 * interface [IConnector](../../iconnector)

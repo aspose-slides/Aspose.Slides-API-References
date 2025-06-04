@@ -1,7 +1,7 @@
 ---
 title: InnerShadowEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ombre interne. Lecture/écriture IInnerShadowaspose.slides.effects/iinnershadow.
+description: Ombre intérieure. Propriété en lecture/écriture IInnerShadowaspose.slides.effects/iinnershadow.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ieffectformat/innershadoweffect/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ieffectformat/innershadoweffect/
 
 ## Propriété IEffectFormat.InnerShadowEffect
 
-Ombre interne. Lecture/écriture [`IInnerShadow`](../../../aspose.slides.effects/iinnershadow).
+Ombre intérieure. Lecture/écriture [`IInnerShadow`](../../../aspose.slides.effects/iinnershadow).
 
 ```csharp
 public IInnerShadow InnerShadowEffect { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IInnerShadow](../../../aspose.slides.effects/iinnershadow)
 * interface [IEffectFormat](../../ieffectformat)

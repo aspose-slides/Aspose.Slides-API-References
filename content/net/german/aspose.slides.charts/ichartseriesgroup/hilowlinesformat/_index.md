@@ -1,6 +1,6 @@
 ---
 title: HiLowLinesFormat
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt das HiLowLines-Format an. HiLowLines wird mit den Diagrammtypen HiLowClose, OpenHiLowClose, VolumeHiLowClose und VolumeOpenHiLowClose angewendet.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Gibt das HiLowLines-Format an. HiLowLines wird mit den Diagrammtypen HiLowClose,
 public IChartLinesFormat HiLowLinesFormat { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IChartLinesFormat](../../ichartlinesformat)
 * Schnittstelle [IChartSeriesGroup](../../ichartseriesgroup)

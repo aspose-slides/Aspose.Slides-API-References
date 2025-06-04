@@ -1,7 +1,7 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет собой коллекцию объектов разделов резюме зума.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет собой коллекцию объектов Summary Zoom Section.
 type: docs
 weight: 6950
 url: /ru/aspose.slides/isummaryzoomsectioncollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/isummaryzoomsectioncollection/
 
 ## Интерфейс ISummaryZoomSectionCollection
 
-Представляет собой коллекцию объектов разделов резюме зума.
+Представляет собой коллекцию объектов Summary Zoom Section.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -17,21 +17,21 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Создает новый объект раздела резюме зума и добавляет его в коллекцию |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Создает новый объект Summary Zoom Section и добавляет его в коллекцию |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Удаляет все объекты SummaryZoomSection из коллекции. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Возвращает элемент раздела резюме зума для данного раздела. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Возвращает элемент Summary Zoom Section для указанного раздела. |
 | [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Возвращает индекс указанного объекта SummaryZoomSection. |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Удаляет объект раздела резюме зума из коллекции. |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Удаляет объект Summary Zoom Section из коллекции. |
 
-### Также см. 
+### Смотрите также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [ISummaryZoomSection](../isummaryzoomsection)

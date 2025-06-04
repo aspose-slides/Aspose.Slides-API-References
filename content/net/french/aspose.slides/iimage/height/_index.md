@@ -18,7 +18,7 @@ public int Height { get; }
 ### Voir aussi
 
 * interface [IImage](../../iimage)
-* espace de noms [Aspose.Slides](../../iimage)
+* namespace [Aspose.Slides](../../iimage)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS ÉDITEZ : généré par xmldocmd pour Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: Character
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Caractère d'accent La valeur doit être comprise entre U0300U036F ou U20D0U20EF Valeur par défaut  Accent circonflexe combinant U0302
+second_title: Aspose.Sildes pour .NET API Reference
+description: Caractère d'accent La valeur doit être dans la plage de U0300U036F ou U20D0U20EF Valeur par défaut Accent circonflexe combinant U0302
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathaccent/character/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathaccent/character/
 
 ## Propriété IMathAccent.Character
 
-Caractère d'accent La valeur doit être comprise entre (U+0300–U+036F) ou (U+20D0–U+20EF) Valeur par défaut : Accent circonflexe combinant (U+0302)
+Caractère d'accent La valeur doit être dans la plage de (U+0300–U+036F) ou (U+20D0–U+20EF) Valeur par défaut : Accent circonflexe combinant (U+0302)
 
 ```csharp
 public char Character { get; set; }

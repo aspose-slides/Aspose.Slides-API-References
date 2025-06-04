@@ -1,7 +1,7 @@
 ---
 title: ActualMaxValue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la valeur maximale réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout auparavant pour obtenir la valeur réelle.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie la valeur maximum réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout précédemment pour obtenir la valeur réelle.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/iaxis/actualmaxvalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/actualmaxvalue/
 
 ## Propriété IAxis.ActualMaxValue
 
-Spécifie la valeur maximale réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout() auparavant pour obtenir la valeur réelle.
+Spécifie la valeur maximum réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout() précédemment pour obtenir la valeur réelle.
 
 ```csharp
 public double ActualMaxValue { get; }

@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForPieSeries
 second_title: Aspose.Sildes для .NET API Справочник
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов круга, см. также метод ChartTypeCharacterizer.IsChartTypePieChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, в которых chartType является одним из подпорядков Pie, см. также метод ChartTypeCharacterizer.IsChartTypePieChartType.
 type: docs
 weight: 160
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries
 
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов круга (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, в которых chartType является одним из подпорядков Pie (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов круга (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, в которых chartType является одним из подпорядков Pie (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)

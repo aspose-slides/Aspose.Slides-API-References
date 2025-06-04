@@ -1,15 +1,15 @@
 ---
 title: Section
 second_title: Aspose.Slides für .NET API-Referenz
-description: Repräsentiert einen Abschnitt von Folien.
+description: Stellt einen Abschnitt von Folien dar.
 type: docs
 weight: 9480
 url: /de/aspose.slides/section/
 ---
 
-## Abschnitt-Klasse
+## Section-Klasse
 
-Repräsentiert einen Abschnitt von Folien.
+Stellt einen Abschnitt von Folien dar.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection

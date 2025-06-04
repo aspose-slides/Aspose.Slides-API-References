@@ -1,6 +1,6 @@
 ---
 title: Password
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置密码。可读写字符串。
 type: docs
 weight: 110
@@ -19,7 +19,7 @@ public string Password { get; set; }
 
 密码。
 
-### 另请参阅
+### 参见
 
 * 接口 [ILoadOptions](../../iloadoptions)
 * 命名空间 [Aspose.Slides](../../iloadoptions)

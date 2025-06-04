@@ -1,25 +1,25 @@
----
+---  
 title: EffectAnimateBackgroundShape
-second_title: Referencia de API Aspose.Slides para .NET
-description: Efecto de forma enlazada con grupo o no nulo Lectura/escritura IEffectaspose.slides.animation/ieffect.
-type: docs
-weight: 20
+second_title: Aspose.Slides para .NET Referencia de la API  
+description: Efecto de forma enlazada con grupo o no nulo Leer/escribir IEffectaspose.slides/ieffect.
+type: docs  
+weight: 20  
 url: /es/aspose.slides.animation/itextanimation/effectanimatebackgroundshape/
----
+---  
 
-## Propiedad ITextAnimation.EffectAnimateBackgroundShape
+## ITextAnimation.EffectAnimateBackgroundShape property  
 
-Efecto de forma enlazada con grupo o no (nulo) Lectura/escritura [`IEffect`](../../ieffect).
+Efecto de forma enlazada con grupo o no (nulo) Leer/escribir [`IEffect`](../../ieffect).  
 
-```csharp
-public IEffect EffectAnimateBackgroundShape { get; set; }
-```
+```csharp  
+public IEffect EffectAnimateBackgroundShape { get; set; }  
+```  
 
-### Véase También
+### Ver También  
 
-* interfaz [IEffect](../../ieffect)
-* interfaz [ITextAnimation](../../itextanimation)
-* espacio de nombres [Aspose.Slides.Animation](../../itextanimation)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IEffect](../../ieffect)  
+* interfaz [ITextAnimation](../../itextanimation)  
+* espacio de nombres [Aspose.Slides.Animation](../../itextanimation)  
+* ensamblaje [Aspose.Slides](../../../)  
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

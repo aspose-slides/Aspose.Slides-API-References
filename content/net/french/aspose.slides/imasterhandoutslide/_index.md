@@ -1,7 +1,7 @@
 ---
 title: IMasterHandoutSlide
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente la diapositive maître pour les documents d'accompagnement.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente la diapositive maître pour les documents.
 type: docs
 weight: 6150
 url: /fr/aspose.slides/imasterhandoutslide/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasterhandoutslide/
 
 ## Interface IMasterHandoutSlide
 
-Représente la diapositive maître pour les documents d'accompagnement.
+Représente la diapositive maître pour les documents.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -19,9 +19,9 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Nom | Description |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Permet d'obtenir l'interface IBaseSlide de base. En lecture seule [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Retourne l'interface IMasterThemeable. En lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Retourne le gestionnaire HeaderFooter de la diapositive maître pour les documents d'accompagnement. En lecture seule [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Permet d'obtenir l'interface de base IBaseSlide. En lecture seule [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Renvoie l'interface IMasterThemeable. En lecture seule [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Renvoie le gestionnaire d'en-tête et de pied de page de la diapositive maître pour les documents. En lecture seule [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Voir aussi
 

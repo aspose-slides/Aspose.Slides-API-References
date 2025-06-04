@@ -1,13 +1,13 @@
 ---
 title: CloneT
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Crée un nouvel objet qui est une copie de l'instance actuelle.
 type: docs
 weight: 20
 url: /fr/aspose.slides/igenericcloneable-1/clonet/
 ---
 
-## Méthode IGenericCloneable&lt;T&gt;.CloneT
+## IGenericCloneable&lt;T&gt;.CloneT méthode
 
 Crée un nouvel objet qui est une copie de l'instance actuelle.
 
@@ -15,11 +15,11 @@ Crée un nouvel objet qui est une copie de l'instance actuelle.
 public T CloneT()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un nouvel objet qui est une copie de cette instance.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGenericCloneable&lt;T&gt;](../../igenericcloneable-1)
 * namespace [Aspose.Slides](../../igenericcloneable-1)

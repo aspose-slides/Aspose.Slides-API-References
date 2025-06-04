@@ -1,13 +1,13 @@
 ---
 title: Width
-second_title: Ссылка на API Aspose.Sildes для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает ширину элемента диаграммы как долю ширины диаграммы. Чтение/запись Single.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ilayoutable/width/
 ---
 
-## Свойство ILayoutable.Width
+## ILayoutable.Width свойство
 
 Указывает ширину элемента диаграммы как долю ширины диаграммы. Чтение/запись Single.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ilayoutable/width/
 public float Width { get; set; }
 ```
 
-### См. также
+### See Also
 
 * интерфейс [ILayoutable](../../ilayoutable)
 * пространство имен [Aspose.Slides.Charts](../../ilayoutable)

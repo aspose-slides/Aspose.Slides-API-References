@@ -1,13 +1,13 @@
 ---
 title: ClearCustomProperties
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt alle benutzerdefinierten Eigenschaften.
 type: docs
 weight: 370
 url: /de/aspose.slides/idocumentproperties/clearcustomproperties/
 ---
 
-## IDocumentProperties.ClearCustomProperties-Methode
+## IDocumentProperties.ClearCustomProperties Methode
 
 Entfernt alle benutzerdefinierten Eigenschaften.
 

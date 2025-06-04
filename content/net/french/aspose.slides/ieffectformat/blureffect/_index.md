@@ -1,21 +1,21 @@
 ---
 title: BlurEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet flou. Lecture/écriture IBluraspose.slides.effects/iblur.
+second_title: Référence API Aspose.Slides pour .NET
+description: Effet de flou. Lecture/écriture IBluraspose.slides.effects/iblur.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ieffectformat/blureffect/
 ---
 
-## Propriété IEffectFormat.EffetFlou
+## Propriété IEffectFormat.BlurEffect
 
-Effet flou. Lecture/écriture [`IBlur`](../../../aspose.slides.effects/iblur).
+Effet de flou. Lecture/écriture [`IBlur`](../../../aspose.slides.effects/iblur).
 
 ```csharp
 public IBlur BlurEffect { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBlur](../../../aspose.slides.effects/iblur)
 * interface [IEffectFormat](../../ieffectformat)

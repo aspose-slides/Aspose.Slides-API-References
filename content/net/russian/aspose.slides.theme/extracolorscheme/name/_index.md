@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/extracolorscheme/name/
 public string Name { get; }
 ```
 
-### Также смотрите
+### См. также
 
 * класс [ExtraColorScheme](../../extracolorscheme)
 * пространство имен [Aspose.Slides.Theme](../../extracolorscheme)

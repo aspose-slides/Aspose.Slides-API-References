@@ -1,21 +1,21 @@
 ---
 title: ConvertToGroupShape
-second_title: Référence API Aspose.Slides pour .NET
-description: Convertit un diagramme hérité en forme de groupe modifiable. L'objet GroupShape créé est ajouté à la forme de groupe parent à la même position.
+second_title: Aspose.Slides pour .NET API Reference
+description: Convertit un diagramme hérité en un groupe de formes modifiable. L'objet GroupShape créé est ajouté au groupe parent à la même position.
 type: docs
 weight: 20
 url: /fr/aspose.slides/legacydiagram/converttogroupshape/
 ---
 
-## Méthode LegacyDiagram.ConvertToGroupShape
+## LegacyDiagram.ConvertToGroupShape méthode
 
-Convertit un diagramme hérité en forme de groupe modifiable. L'objet GroupShape créé est ajouté à la forme de groupe parent à la même position.
+Convertit un diagramme hérité en un groupe de formes modifiable. L'objet GroupShape créé est ajouté au groupe parent à la même position.
 
 ```csharp
 public IGroupShape ConvertToGroupShape()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet GroupShape créé.
 

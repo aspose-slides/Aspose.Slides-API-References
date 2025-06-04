@@ -1,13 +1,13 @@
 ---
 title: EndShapeConnectionSiteIndex
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie ou définit l'index du site de connexion pour la forme de fin. Lecture/écriture UInt32.
 type: docs
 weight: 30
 url: /fr/aspose.slides/connector/endshapeconnectionsiteindex/
 ---
 
-## Propriété Connector.EndShapeConnectionSiteIndex
+## Connector.EndShapeConnectionSiteIndex propriété
 
 Renvoie ou définit l'index du site de connexion pour la forme de fin. Lecture/écriture UInt32.
 
@@ -21,7 +21,7 @@ public uint EndShapeConnectionSiteIndex { get; set; }
 | --- | --- |
 | ArgumentException | Lancé lorsque la valeur est inférieure à EndShapeConnectedTo.ConnectionSiteCount |
 
-### Voir Aussi
+### Voir aussi
 
 * class [Connector](../../connector)
 * namespace [Aspose.Slides](../../connector)

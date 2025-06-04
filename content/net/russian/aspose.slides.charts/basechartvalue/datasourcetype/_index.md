@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает, актуальны ли свойства AsCell, AsCells, AsLiteralString или AsLiteralDouble у потомков. Иными словами, он указывает тип значения свойства Data. Читаемое/записываемое свойство DataSourceType aspose.slides.charts/datasourcetype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным для наследников. Другими словами, оно указывает тип значения свойства Data. Чтение/запись DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.charts/basechartvalue/datasourcetype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/basechartvalue/datasourcetype/
 
 ## Свойство BaseChartValue.DataSourceType
 
-Указывает, актуальны ли свойства AsCell, AsCells, AsLiteralString или AsLiteralDouble у потомков. Иными словами, он указывает тип значения свойства Data. Читаемое/записываемое [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным для наследников. Другими словами, оно указывает тип значения свойства Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }
@@ -17,9 +17,9 @@ public DataSourceType DataSourceType { get; set; }
 
 ### Примечания
 
-Для точек в ChartDataPointCollection это свойство только для чтения. В этом случае для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;.
+Для точек в ChartDataPointCollection это свойство доступно только для чтения. В этом случае для изменения значения этого свойства вы можете использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;.
 
-### См. также
+### См. Также
 
 * enum [DataSourceType](../../datasourcetype)
 * class [BaseChartValue](../../basechartvalue)

@@ -1,7 +1,7 @@
 ---
 title: GetGeometryPaths
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une copie du chemin de la forme géométrique. Les coordonnées sont relatives au coin supérieur gauche de la forme.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie la copie du chemin de la forme géométrique. Les coordonnées sont relatives au coin supérieur gauche de la forme.
 type: docs
 weight: 60
 url: /fr/aspose.slides/igeometryshape/getgeometrypaths/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igeometryshape/getgeometrypaths/
 
 ## IGeometryShape.GetGeometryPaths méthode
 
-Renvoie une copie du chemin de la forme géométrique. Les coordonnées sont relatives au coin supérieur gauche de la forme.
+Renvoie la copie du chemin de la forme géométrique. Les coordonnées sont relatives au coin supérieur gauche de la forme.
 
 ```csharp
 public IGeometryPath[] GetGeometryPaths()
@@ -21,7 +21,7 @@ Tableau de [`IGeometryPath`](../../igeometrypath)
 
 ### Exemples
 
-Exemple :
+ Exemple :
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IGeometryPath](../../igeometrypath)
 * interface [IGeometryShape](../../igeometryshape)

@@ -7,15 +7,15 @@ weight: 10
 url: /ru/aspose.slides/digitalsignaturecollection/count/
 ---
 
-## Свойство DigitalSignatureCollection.Count
+## DigitalSignatureCollection.Count свойство
 
- Возвращает количество элементов в коллекции. Только для чтения Int32.
+Возвращает количество элементов в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [DigitalSignatureCollection](../../digitalsignaturecollection)
 * пространство имен [Aspose.Slides](../../digitalsignaturecollection)

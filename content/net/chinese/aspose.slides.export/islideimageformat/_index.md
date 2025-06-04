@@ -1,7 +1,7 @@
 ---
 title: ISlideImageFormat
 second_title: Aspose.Sildes for .NET API 参考
-description: 确定幻灯片图像将以何种格式保存以供导出为HTML演示文稿。
+description: 确定幻灯片图像将以何种格式保存以便导出为 HTML。
 type: docs
 weight: 3920
 url: /zh/aspose.slides.export/islideimageformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/islideimageformat/
 
 ## ISlideImageFormat 接口
 
-确定幻灯片图像将以何种格式保存以供导出为HTML演示文稿。
+确定幻灯片图像将以何种格式保存以便导出为 HTML。
 
 ```csharp
 public interface ISlideImageFormat
 ```
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

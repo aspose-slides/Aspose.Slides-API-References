@@ -1,7 +1,7 @@
 ---
 title: AddDuotoneEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 将新的双调效果添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的双色调效果添加到集合的末尾。
 type: docs
 weight: 140
 url: /zh/aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffe
 
 ## IImageTransformOperationCollection.AddDuotoneEffect 方法
 
-将新的双调效果添加到集合的末尾。
+将新的双色调效果添加到集合的末尾。
 
 ```csharp
 public IDuotone AddDuotoneEffect()
@@ -17,7 +17,7 @@ public IDuotone AddDuotoneEffect()
 
 ### 返回值
 
-集合中新图像效果的索引。
+新图像效果在集合中的索引。
 
 ### 另见
 

@@ -1,21 +1,21 @@
 ---
 title: DeleteEmbeddedBinaryObjects
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, будет ли Aspose.Slides удалять все встроенные двоичные объекты во время загрузки презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, будет ли Aspose.Slides удалять все встроенные бинарные объекты во время загрузки презентации.
 type: docs
 weight: 70
 url: /ru/aspose.slides/loadoptions/deleteembeddedbinaryobjects/
 ---
 
-## Свойство LoadOptions.DeleteEmbeddedBinaryObjects
+## LoadOptions.DeleteEmbeddedBinaryObjects свойство
 
-Определяет, будет ли Aspose.Slides удалять все встроенные двоичные объекты во время загрузки презентации.
+Определяет, будет ли Aspose.Slides удалять все встроенные бинарные объекты во время загрузки презентации.
 
-Типы встроенных двоичных объектов:
+Типы встроенных бинарных объектов:
 
-* VBA проект [`VbaProject`](../../ipresentation/vbaproject)
-* Данные встроенного OLE объекта [`EmbeddedFileData`](../../ioleembeddeddatainfo/embeddedfiledata)
-* Двоичные данные ActiveX управления [`ActiveXControlBinary`](../../icontrol/activexcontrolbinary)
+* Проект VBA [`VbaProject`](../../ipresentation/vbaproject)
+* Встроенные данные OLE объекта [`EmbeddedFileData`](../../ioleembeddeddatainfo/embeddedfiledata)
+* Бинарные данные ActiveX управления [`ActiveXControlBinary`](../../icontrol/activexcontrolbinary)
 
 Чтение/запись Boolean.
 
@@ -23,13 +23,13 @@ url: /ru/aspose.slides/loadoptions/deleteembeddedbinaryobjects/
 public bool DeleteEmbeddedBinaryObjects { get; set; }
 ```
 
-### Замечания
+### Примечания
 
-По умолчанию значение **false**.
+По умолчанию **false**.
 
 ### Примеры
 
-Следующий пример показывает, как загрузить презентацию без каких-либо встроенных двоичных объектов.
+Следующий пример показывает, как загрузить презентацию без каких-либо встроенных бинарных объектов.
 
 ```csharp
 [C#]
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.ppt", loadOptions))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [LoadOptions](../../loadoptions)
 * пространство имен [Aspose.Slides](../../loadoptions)

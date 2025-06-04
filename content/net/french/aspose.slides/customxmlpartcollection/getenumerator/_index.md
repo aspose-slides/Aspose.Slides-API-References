@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie un énumérateur qui itère à travers la collection.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne un énumérateur qui itère à travers la collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides/customxmlpartcollection/getenumerator/
@@ -9,17 +9,17 @@ url: /fr/aspose.slides/customxmlpartcollection/getenumerator/
 
 ## Méthode CustomXmlPartCollection.GetEnumerator
 
-Renvoie un énumérateur qui itère à travers la collection.
+Retourne un énumérateur qui itère à travers la collection.
 
 ```csharp
 public IEnumerator<ICustomXmlPart> GetEnumerator()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ICustomXmlPart](../../icustomxmlpart)
 * classe [CustomXmlPartCollection](../../customxmlpartcollection)

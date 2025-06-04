@@ -1,6 +1,6 @@
 ---
 title: TextStyle
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回有效的文本样式。只读 ITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/itextframeformateffectivedata/textstyle/
 public ITextStyleEffectiveData TextStyle { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [ITextStyleEffectiveData](../../itextstyleeffectivedata)
 * 接口 [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)

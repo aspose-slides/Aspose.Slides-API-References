@@ -1,15 +1,15 @@
 ---
 title: ColorType
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la méthode de définition de la couleur. Lecture/écriture ColorTypeaspose.slides/colortype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne ou définit la méthode de définition de la couleur. Lecture/écriture ColorTypeaspose.slides/colortype.
 type: docs
 weight: 40
 url: /fr/aspose.slides/colorformat/colortype/
 ---
 
-## Propriété ColorFormat.ColorType
+## ColorFormat.ColorType propriété
 
-Renvoie ou définit la méthode de définition de la couleur. Lecture/écriture [`ColorType`](../../colortype).
+Retourne ou définit la méthode de définition de la couleur. Lecture/écriture [`ColorType`](../../colortype).
 
 ```csharp
 public ColorType ColorType { get; set; }

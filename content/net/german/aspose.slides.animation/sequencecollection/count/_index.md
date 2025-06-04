@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Elemente in einer Sammlung zurück. Nur lesbares Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Elemente in einer Sammlung zurück. Nur-Lese Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/sequencecollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/sequencecollection/count/
 
 ## SequenceCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Elemente in einer Sammlung zurück. Nur lesbares Int32.
+Gibt die Anzahl der Elemente in einer Sammlung zurück. Nur-Lese Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [SequenceCollection](../../sequencecollection)
 * Namespace [Aspose.Slides.Animation](../../sequencecollection)

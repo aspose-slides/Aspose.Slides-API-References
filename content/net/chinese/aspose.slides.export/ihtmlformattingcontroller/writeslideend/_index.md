@@ -1,7 +1,7 @@
 ---
 title: WriteSlideEnd
 second_title: Aspose.Sildes for .NET API Reference
-description: 被调用以写入 html 幻灯片页脚。每个幻灯片调用一次。
+description: 被调用以写入html幻灯片页脚。每张幻灯片调用一次。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/ihtmlformattingcontroller/writeslideend/
@@ -9,18 +9,18 @@ url: /zh/aspose.slides.export/ihtmlformattingcontroller/writeslideend/
 
 ## IHtmlFormattingController.WriteSlideEnd 方法
 
-被调用以写入 html 幻灯片页脚。每个幻灯片调用一次。
+被调用以写入html幻灯片页脚。每张幻灯片调用一次。
 
 ```csharp
 public void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
 ```
 
-| 参数        | 类型            | 描述                              |
-|------------|----------------|----------------------------------|
-| generator  | IHtmlGenerator  | 输出对象。                        |
-| slide      | ISlide         | 当前正在渲染的幻灯片。            |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| generator | IHtmlGenerator | 输出对象。 |
+| slide | ISlide | 当前正在呈现的幻灯片。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IHtmlGenerator](../../ihtmlgenerator)
 * 接口 [ISlide](../../../aspose.slides/islide)

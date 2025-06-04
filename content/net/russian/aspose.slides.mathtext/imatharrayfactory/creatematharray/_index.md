@@ -1,6 +1,6 @@
 ---
 title: CreateMathArray
-second_title: Aspose.Slildes для справки по API .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает математический массив и помещает в него указанный элемент
 type: docs
 weight: 10
@@ -17,13 +17,13 @@ public IMathArray CreateMathArray(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для размещения в массиве |
+| element | IMathElement | математический элемент, который нужно поместить в массив |
 
-### Возврат Значения
+### Возвращаемое значение
 
 новый математический массив
 
-### См. Также
+### См. также
 
 * интерфейс [IMathArray](../../imatharray)
 * интерфейс [IMathElement](../../imathelement)
@@ -43,13 +43,13 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| elements | IMathElementCollection | математические элементы для размещения в массиве |
+| elements | IMathElementCollection | математические элементы, которые нужно поместить в массив |
 
-### Возврат Значения
+### Возвращаемое значение
 
 новый математический массив
 
-### См. Также
+### См. также
 
 * интерфейс [IMathArray](../../imatharray)
 * интерфейс [IMathElementCollection](../../imathelementcollection)

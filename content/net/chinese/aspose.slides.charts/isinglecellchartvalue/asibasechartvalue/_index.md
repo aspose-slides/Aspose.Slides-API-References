@@ -1,7 +1,7 @@
 ---
 title: AsIBaseChartValue
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基础 IBaseChartValue 接口。只读 IBaseChartValueaspose.slides.charts/ibasechartvalue。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 IBaseChartValue 接口。只读 IBaseChartValueaspose.slides.charts/ibasechartvalue。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/isinglecellchartvalue/asibasechartvalue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/isinglecellchartvalue/asibasechartvalue/
 
 ## ISingleCellChartValue.AsIBaseChartValue 属性
 
-允许获取基础 IBaseChartValue 接口。只读 [`IBaseChartValue`](../../ibasechartvalue)。
+允许获取基本的 IBaseChartValue 接口。只读 [`IBaseChartValue`](../../ibasechartvalue)。
 
 ```csharp
 public IBaseChartValue AsIBaseChartValue { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IBaseChartValue](../../ibasechartvalue)
 * 接口 [ISingleCellChartValue](../../isinglecellchartvalue)

@@ -1,7 +1,7 @@
 ---
 title: PresetNumberFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft das integrierte Anzeigenformat von Zahlen und Daten ab oder legt es fest. Die vorgegebene Zahl muss im Bereich 0..22 oder 37..49 liegen. Lese-/Schreib-Byte.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft das integrierte Anzeigeformat von Zahlen und Datumsangaben ab oder legt es fest. Die vordefinierte Zahl muss im Bereich 0..22 oder 37..49 liegen. Lese-/Schreib-Byte.
 type: docs
 weight: 60
 url: /de/aspose.slides.charts/chartdatacell/presetnumberformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatacell/presetnumberformat/
 
 ## ChartDataCell.PresetNumberFormat-Eigenschaft
 
-Ruft das integrierte Anzeigenformat von Zahlen und Daten ab oder legt es fest. Die vorgegebene Zahl muss im Bereich [0..22] oder [37..49] liegen. Lese-/Schreib-Byte.
+Ruhelt das integrierte Anzeigeformat von Zahlen und Datumsangaben ab oder legt es fest. Die vordefinierte Zahl muss in [0..22] oder [37..49] liegen. Lese-/Schreib-Byte.
 
 ```csharp
 public byte PresetNumberFormat { get; set; }
@@ -33,8 +33,8 @@ public byte PresetNumberFormat { get; set; }
 12	# ?/?
 13	# /
 14	m/d/jj
-15	d-mmm-jj
-16	d-mmm
+15	tt-mmm-jj
+16	tt-mmm
 17	mmm-jj
 18	h:mm AM/PM
 19	h:mm:ss AM/PM
@@ -56,7 +56,7 @@ public byte PresetNumberFormat { get; set; }
 49	@
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataCell](../../chartdatacell)
 * Namespace [Aspose.Slides.Charts](../../chartdatacell)

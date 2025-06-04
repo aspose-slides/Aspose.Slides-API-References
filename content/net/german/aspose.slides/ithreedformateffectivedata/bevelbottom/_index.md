@@ -1,7 +1,7 @@
 ---
 title: BevelBottom
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ eines unteren 3D-Facettenanbschneidens zurück. Nur-Lese IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Typ eines unteren 3D-Facettenschliffs zurück. Nur-Lese IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
 type: docs
 weight: 20
 url: /de/aspose.slides/ithreedformateffectivedata/bevelbottom/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ithreedformateffectivedata/bevelbottom/
 
 ## IThreeDFormatEffectiveData.BevelBottom-Eigenschaft
 
-Gibt den Typ eines unteren 3D-Facettenanbschneidens zurück. Nur-Lese [`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
+Gibt den Typ eines unteren 3D-Facettenschliffs zurück. Nur-Lese [`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
 
 ```csharp
 public IShapeBevelEffectiveData BevelBottom { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
 * Schnittstelle [IThreeDFormatEffectiveData](../../ithreedformateffectivedata)

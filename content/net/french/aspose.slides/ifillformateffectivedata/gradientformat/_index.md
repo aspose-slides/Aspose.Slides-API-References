@@ -1,7 +1,7 @@
 ---
 title: GradientFormat
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Retourne le format de remplissage dégradé. Lecture seule IGradientFormatEffectiveDataaspose.slides/igradientformateffectivedata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le format de remplissage dégradé. Lecture seule IGradientFormatEffectiveDataaspose.slides/igradientformateffectivedata.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ifillformateffectivedata/gradientformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ifillformateffectivedata/gradientformat/
 
 ## Propriété IFillFormatEffectiveData.GradientFormat
 
-Retourne le format de remplissage dégradé. Lecture seule [`IGradientFormatEffectiveData`](../../igradientformateffectivedata).
+Renvoie le format de remplissage dégradé. Lecture seule [`IGradientFormatEffectiveData`](../../igradientformateffectivedata).
 
 ```csharp
 public IGradientFormatEffectiveData GradientFormat { get; }

@@ -1,7 +1,7 @@
 ---
 title: TrendLines
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Collection de lignes de tendance des séries. Lire seule ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Collection de lignes de tendance de séries. Lecture seule ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /fr/aspose.slides.charts/chartseries/trendlines/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartseries/trendlines/
 
 ## Propriété ChartSeries.TrendLines
 
-Collection de lignes de tendance des séries. Lire seule [`ITrendlineCollection`](../../itrendlinecollection).
+Collection de lignes de tendance de séries. Lecture seule [`ITrendlineCollection`](../../itrendlinecollection).
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }
@@ -17,9 +17,9 @@ public ITrendlineCollection TrendLines { get; }
 
 ### Remarques
 
-Les TrendLines sont disponibles (non nulles) pour les séries de données dans des graphiques en zone 2-D non empilés, barres, colonnes, lignes, actions, xy (dispersion) et bulles. Une ligne de tendance n'est pas disponible pour les séries de données dans tout type de graphique qui est empilé ou en 3-D. Les lignes de tendance ne sont également pas disponibles pour les graphiques radar, secteurs, surfaces ou beignets.
+Les TrendLines sont disponibles (non nulles) pour les séries de données dans des graphiques 2-D en zone, barre, colonne, ligne, bourse, xy (dispersion) et bulle non empilés. Une ligne de tendance n'est pas disponible pour les séries de données dans tout type de graphique qui est empilé ou en 3-D. Les lignes de tendance ne sont également pas disponibles pour les graphiques radar, à secteurs, de surface ou en anneau.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITrendlineCollection](../../itrendlinecollection)
 * class [ChartSeries](../../chartseries)

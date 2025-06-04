@@ -1,7 +1,7 @@
 ---
 title: CustomData
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un conteneur pour des données personnalisées.
+second_title: Référence API Aspose.Slides pour .NET
+description: Représente le conteneur pour des données personnalisées.
 type: docs
 weight: 2640
 url: /fr/aspose.slides/customdata/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/customdata/
 
 ## Classe CustomData
 
-Représente un conteneur pour des données personnalisées.
+Représente le conteneur pour des données personnalisées.
 
 ```csharp
 public class CustomData : ICustomData
@@ -19,8 +19,8 @@ public class CustomData : ICustomData
 
 | Nom | Description |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Renvoie la collection des parties XML personnalisées. Lecture seule [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Renvoie la collection des étiquettes de données personnalisées. Lecture seule [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Renvoie la collection des parties xml personnalisées. Lecture seule [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Renvoie la collection des balises de données personnalisées. Lecture seule [`ITagCollection`](../itagcollection). |
 
 ### Voir aussi
 

@@ -1,6 +1,6 @@
 ---
 title: SetUpperLimit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Toma el límite superior
 type: docs
 weight: 180

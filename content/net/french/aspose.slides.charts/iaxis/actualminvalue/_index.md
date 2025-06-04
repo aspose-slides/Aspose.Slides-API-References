@@ -1,7 +1,7 @@
 ---
 title: ActualMinValue
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie la valeur minimale réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout au préalable pour obtenir la valeur réelle.
+description: Spécifie la valeur minimale réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout auparavant pour obtenir la valeur réelle.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/iaxis/actualminvalue/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/iaxis/actualminvalue/
 
 ## Propriété IAxis.ActualMinValue
 
-Spécifie la valeur minimale réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout() au préalable pour obtenir la valeur réelle.
+Spécifie la valeur minimale réelle sur l'axe. Appelez la méthode IChart.ValidateChartLayout() auparavant pour obtenir la valeur réelle.
 
 ```csharp
 public double ActualMinValue { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAxis](../../iaxis)
 * namespace [Aspose.Slides.Charts](../../iaxis)

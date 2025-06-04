@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve una celda IChartDataCell por índice.
 type: docs
 weight: 20
@@ -19,15 +19,15 @@ public IChartDataCell this[int index] { get; }
 | --- | --- |
 | index | Índice de una celda. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Celda con datos.
 
-### Véase También
+### Ver también
 
-* interfaz [IChartDataCell](../../ichartdatacell)
-* clase [ChartCellCollection](../../chartcellcollection)
-* espacio de nombres [Aspose.Slides.Charts](../../chartcellcollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartDataCell](../../ichartdatacell)
+* clase [ChartCellCollection](../../chartcellcollection)
+* espacio de nombres [Aspose.Slides.Charts](../../chartcellcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: RectangleAlign
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Выравнивание прямоугольника. Чтение/запись RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/outershadow/rectanglealign/
 public RectangleAlignment RectangleAlign { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * class [OuterShadow](../../outershadow)

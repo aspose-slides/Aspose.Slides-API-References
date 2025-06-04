@@ -1,7 +1,7 @@
 ---
 title: LinearGradientAngle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Winkel eines Farbverlaufs zurück oder legt ihn fest. Schreib-/Lesezugriff auf Single.
+description: Gibt den Winkel eines Verlaufs zurück oder setzt ihn. Lese-/schreibbar Single.
 type: docs
 weight: 40
 url: /de/aspose.slides/gradientformat/lineargradientangle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/gradientformat/lineargradientangle/
 
 ## GradientFormat.LinearGradientAngle-Eigenschaft
 
-Gibt den Winkel eines Farbverlaufs zurück oder legt ihn fest. Schreib-/Lesezugriff auf Single.
+Gibt den Winkel eines Verlaufs zurück oder setzt ihn. Lese-/schreibbar Single.
 
 ```csharp
 public float LinearGradientAngle { get; set; }

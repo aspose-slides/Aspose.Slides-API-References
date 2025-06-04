@@ -1,6 +1,6 @@
 ---
 title: PropertyCalcModeType
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa el modo de cálculo para la propiedad de animación.
 type: docs
 weight: 660
@@ -24,7 +24,7 @@ public enum PropertyCalcModeType
 | Linear | `1` |  |
 | Formula | `2` |  |
 
-### También Vea
+### Ver También
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

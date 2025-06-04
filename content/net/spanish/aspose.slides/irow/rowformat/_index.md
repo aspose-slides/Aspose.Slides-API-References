@@ -1,6 +1,6 @@
 ---
 title: RowFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia API de Aspose.Slides para .NET
 description: Devuelve el objeto RowFormat que contiene propiedades de formato para esta fila. Solo lectura IRowFormataspose.slides/irowformat.
 type: docs
 weight: 50
@@ -15,11 +15,11 @@ Devuelve el objeto RowFormat que contiene propiedades de formato para esta fila.
 public IRowFormat RowFormat { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IRowFormat](../../irowformat)
 * interfaz [IRow](../../irow)
 * espacio de nombres [Aspose.Slides](../../irow)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

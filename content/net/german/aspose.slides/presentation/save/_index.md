@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.Slides für .NET API-Referenz
-description: Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
+description: Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format mit Beibehaltung der Seitenzahlen.
 type: docs
 weight: 380
 url: /de/aspose.slides/presentation/save/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/presentation/save/
 
 ## Save(string, int[], SaveFormat) {#save_7}
 
-Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
+Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format mit Beibehaltung der Seitenzahlen.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -25,8 +25,8 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wenn der Stream oder der slides-Parameter null ist. |
-| ArgumentOutOfRangeException | Wenn der slides-Parameter falsche Seitenzahlen enthält. |
+| ArgumentNullException | Wenn der Stream oder der Folienparameter null ist. |
+| ArgumentOutOfRangeException | Wenn der Folienparameter ungültige Seitenzahlen enthält. |
 | InvalidOperationException | Wenn ein nicht unterstütztes SaveFormat verwendet wird, z.B. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Siehe auch
@@ -40,7 +40,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format unter Beibehaltung der Seitenzahl.
+Speichert bestimmte Folien einer Präsentation in einer Datei im angegebenen Format mit Beibehaltung der Seitenzahlen.
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -65,7 +65,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Speichert bestimmte Folien einer Präsentation in einem Stream im angegebenen Format unter Beibehaltung der Seitenzahl.
+Speichert bestimmte Folien einer Präsentation in einem Stream im angegebenen Format mit Beibehaltung der Seitenzahlen.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -88,7 +88,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Speichert bestimmte Folien einer Präsentation in einem Stream im angegebenen Format unter Beibehaltung der Seitenzahl.
+Speichert bestimmte Folien einer Präsentation in einem Stream im angegebenen Format mit Beibehaltung der Seitenzahlen.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -105,13 +105,13 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wenn der Stream oder der slides-Parameter null ist. |
-| ArgumentOutOfRangeException | Wenn der slides-Parameter falsche Seitenzahlen enthält. |
+| ArgumentNullException | Wenn der Stream oder der Folienparameter null ist. |
+| ArgumentOutOfRangeException | Wenn der Folienparameter ungültige Seitenzahlen enthält. |
 | InvalidOperationException | Wenn ein nicht unterstütztes SaveFormat verwendet wird, z.B. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man PowerPoint in PNG konvertiert.
+Das folgende Beispiel zeigt, wie PowerPoint in PNG konvertiert wird.
 
 ```csharp
 [C#]
@@ -125,7 +125,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Das folgende Beispiel zeigt, wie man PowerPoint in PNG mit benutzerdefinierten Dimensionen konvertiert.
+Das folgende Beispiel zeigt, wie PowerPoint in PNG mit benutzerdefinierten Abmessungen konvertiert wird.
 
 ```csharp
 [C#]
@@ -141,7 +141,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-Das folgende Beispiel zeigt, wie man PowerPoint in PNG mit benutzerdefinierter Größe konvertiert.
+Das folgende Beispiel zeigt, wie PowerPoint in PNG mit benutzerdefinierter Größe konvertiert wird.
 
 ```csharp
 [C#]
@@ -244,7 +244,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| NotSupportedException | Wenn Sie versuchen, eine verschlüsselte Datei im nicht Office 2007-2010-Format zu speichern. |
+| NotSupportedException | Wenn Sie versuchen, eine verschlüsselte Datei in einem Nicht-Office-2007-2010-Format zu speichern |
 
 ### Siehe auch
 
@@ -258,7 +258,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 ## Save(IXamlOptions) {#save}
 
-Speichert alle Folien einer Präsentation in einer Reihe von Dateien, die XAML-Markup darstellen.
+Speichert alle Folien einer Präsentation in einer Reihe von Dateien, die die XAML-Markup darstellen.
 
 ```csharp
 public void Save(IXamlOptions options)

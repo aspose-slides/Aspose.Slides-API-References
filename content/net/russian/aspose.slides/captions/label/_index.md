@@ -1,21 +1,21 @@
 ---
 title: Label
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает метку для закрытых субтитров. Чтение/запись String.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или устанавливает метку закрытых субтитров. Читаемый/записываемый String.
 type: docs
 weight: 40
 url: /ru/aspose.slides/captions/label/
 ---
 
-## Свойство Captions.Label
+## Captions.Label свойство
 
-Возвращает или задает метку для закрытых субтитров. Чтение/запись String.
+Возвращает или устанавливает метку закрытых субтитров. Читаемый/записываемый String.
 
 ```csharp
 public string Label { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * класс [Captions](../../captions)
 * пространство имен [Aspose.Slides](../../captions)

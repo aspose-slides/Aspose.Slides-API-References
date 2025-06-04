@@ -1,15 +1,15 @@
 ---
 title: Count
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Obtiene el número de elementos que realmente están contenidos en la colección. Solo lectura Int32.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/itrendlinecollection/count/
 ---
 
-## Propiedad ITrendlineCollection.Count
+## ITrendlineCollection.Count propiedad
 
-Obtiene el número de elementos que realmente contiene la colección. Solo lectura Int32.
+Obtiene el número de elementos que realmente están contenidos en la colección. Solo lectura Int32.
 
 ```csharp
 public int Count { get; }
@@ -19,6 +19,6 @@ public int Count { get; }
 
 * interfaz [ITrendlineCollection](../../itrendlinecollection)
 * espacio de nombres [Aspose.Slides.Charts](../../itrendlinecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

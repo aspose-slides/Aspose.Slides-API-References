@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/imasterslide/asibaseslide/
 ---
 
-## Propiedad IMasterSlide.AsIBaseSlide
+## IMasterSlide.AsIBaseSlide propiedad
 
 Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../../ibaseslide).
 
@@ -20,6 +20,6 @@ public IBaseSlide AsIBaseSlide { get; }
 * interfaz [IBaseSlide](../../ibaseslide)
 * interfaz [IMasterSlide](../../imasterslide)
 * espacio de nombres [Aspose.Slides](../../imasterslide)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

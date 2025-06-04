@@ -1,7 +1,7 @@
 ---
 title: GetTile
-second_title: Aspose.Sildes для .NET API Справочник
-description: Создает изображение плитки для шпона с указанными цветами.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Создает изображение плитки для заливки узора с указанными цветами.
 type: docs
 weight: 40
 url: /ru/aspose.slides/patternformat/gettile/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/patternformat/gettile/
 
 ## GetTile(Color, Color) {#gettile_1}
 
-Создает изображение плитки для шпона с указанными цветами.
+Создает изображение плитки для заливки узора с указанными цветами.
 
 ```csharp
 public IImage GetTile(Color background, Color foreground)
@@ -17,10 +17,10 @@ public IImage GetTile(Color background, Color foreground)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| background | Color | Цвет фона для шпона. |
-| foreground | Color | Цвет переднего плана для шпона. |
+| background | Color | Цвет фона для узора. |
+| foreground | Color | Цвет переднего плана для узора. |
 
-### Возвращаемое значение
+### Значение возвращаемого результата
 
 Плитка [`IImage`](../../iimage).
 
@@ -35,7 +35,7 @@ public IImage GetTile(Color background, Color foreground)
 
 ## GetTile(Color) {#gettile}
 
-Создает изображение плитки для шпона.
+Создает изображение плитки для заливки узора.
 
 ```csharp
 public IImage GetTile(Color styleColor)
@@ -45,7 +45,7 @@ public IImage GetTile(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | Цвет по умолчанию |
 
-### Возвращаемое значение
+### Значение возвращаемого результата
 
 Плитка [`IImage`](../../iimage).
 

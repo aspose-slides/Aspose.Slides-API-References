@@ -15,7 +15,7 @@ Der Zweck der Signatur. Lese-/Schreib-String.
 public string Comments { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [DigitalSignature](../../digitalsignature)
 * Namespace [Aspose.Slides](../../digitalsignature)

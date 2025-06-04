@@ -1,15 +1,15 @@
 ---
 title: TrimFromStart
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Especifica la duración del tiempo a eliminar desde el comienzo del medio durante la reproducción en milisegundos. Lectura/escritura Single.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Especifica la duración del tiempo que se debe eliminar del principio del medio durante la reproducción en milisegundos. Lectura/escritura Single.
 type: docs
 weight: 170
 url: /es/aspose.slides/iaudioframe/trimfromstart/
 ---
 
-## Propiedad IAudioFrame.TrimFromStart
+## IAudioFrame.TrimFromStart property
 
-Especifica la duración del tiempo a eliminar desde el comienzo del medio durante la reproducción, en milisegundos. Lectura/escritura Single.
+Especifica la duración del tiempo que se debe eliminar del principio del medio durante la reproducción, en milisegundos. Lectura/escritura Single.
 
 ```csharp
 public float TrimFromStart { get; set; }
@@ -33,8 +33,8 @@ using (Presentation pres = new Presentation())
 
 ### Véase también
 
-* interfaz [IAudioFrame](../../iaudioframe)
-* espacio de nombres [Aspose.Slides](../../iaudioframe)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IAudioFrame](../../iaudioframe)
+* namespace [Aspose.Slides](../../iaudioframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

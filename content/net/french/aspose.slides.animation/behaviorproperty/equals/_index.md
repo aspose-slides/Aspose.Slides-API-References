@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Vérifie si cet objet est égal à un autre.
 type: docs
 weight: 1250

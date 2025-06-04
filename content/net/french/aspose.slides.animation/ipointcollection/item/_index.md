@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.animation/ipointcollection/item/
 ---
 
-## Indexeur IPointCollection
+## IPointCollection indexer
 
 Renvoie un point à l'index spécifié.
 

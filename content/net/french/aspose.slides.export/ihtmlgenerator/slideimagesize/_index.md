@@ -1,7 +1,7 @@
 ---
 title: SlideImageSize
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la taille de l'image de la diapositive. TailleF en lecture seule.
+second_title: Aspose.Slides pour référence API .NET
+description: Retourne la taille de l'image de la diapositive. TailleF en lecture seule.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ihtmlgenerator/slideimagesize/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtmlgenerator/slideimagesize/
 
 ## Propriété IHtmlGenerator.SlideImageSize
 
-Renvoie la taille de l'image de la diapositive. TailleF en lecture seule.
+Retourne la taille de l'image de la diapositive. TailleF en lecture seule.
 
 ```csharp
 public SizeF SlideImageSize { get; }

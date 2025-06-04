@@ -1,13 +1,13 @@
 ---
 title: Duration
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Beschreibt die Dauer des Animationseffekts. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/itiming/duration/
 ---
 
-## ITiming.Duration Eigenschaft
+## ITiming.Duration-Eigenschaft
 
 Beschreibt die Dauer des Animationseffekts. Lese-/Schreibzugriff auf Single.
 

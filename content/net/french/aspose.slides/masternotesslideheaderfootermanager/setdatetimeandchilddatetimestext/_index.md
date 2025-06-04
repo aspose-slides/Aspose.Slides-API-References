@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Définit le texte pour le champ de date-heure de la diapositive maître et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtresse.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Définit le texte du champ de date et d'heure de la diapositive maître et de tous les champs de date et d'heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 type: docs
 weight: 10
 url: /fr/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchildda
 
 ## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText méthode
 
-Définit le texte pour le champ de date-heure de la diapositive maître et tous les champs de date-heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtresse.
+Définit le texte du champ de date et d'heure de la diapositive maître et de tous les champs de date et d'heure enfants. Les champs enfants signifient que les champs sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,9 +19,9 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Texte à définir. |
 
-### Voir Aussi
+### Voir aussi
 
-* classe [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
+* class [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * namespace [Aspose.Slides](../../masternotesslideheaderfootermanager)
 * assembly [Aspose.Slides](../../../)
 

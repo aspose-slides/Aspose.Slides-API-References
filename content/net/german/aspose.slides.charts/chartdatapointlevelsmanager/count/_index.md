@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Datenpunktlevels zurück.
+description: Gibt die Anzahl der Datenpunkt-Ebenen zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartdatapointlevelsmanager/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdatapointlevelsmanager/count/
 
 ## ChartDataPointLevelsManager.Count-Eigenschaft
 
-Gibt die Anzahl der Datenpunktlevels zurück.
+Gibt die Anzahl der Datenpunkt-Ebenen zurück.
 
 ```csharp
 public int Count { get; }

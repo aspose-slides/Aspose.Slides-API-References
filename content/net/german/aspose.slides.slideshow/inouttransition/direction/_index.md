@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Aspose.Slides für .NET API-Referenz
-description: Richtung eines Übergangseffekts. Lese-/Schreibzugriff auf TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Richtung eines Übergangseffekts. Lese-/Schreibzugriff auf TransitionInOutDirectionType aspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 10
 url: /de/aspose.slides.slideshow/inouttransition/direction/
@@ -15,7 +15,7 @@ Richtung eines Übergangseffekts. Lese-/Schreibzugriff auf [`TransitionInOutDire
 public TransitionInOutDirectionType Direction { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionInOutDirectionType](../../transitioninoutdirectiontype)
 * class [InOutTransition](../../inouttransition)

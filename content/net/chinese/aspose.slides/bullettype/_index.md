@@ -1,15 +1,15 @@
 ---
 title: BulletType
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示扩展标记的类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示扩展子弹的类型。
 type: docs
 weight: 1000
 url: /zh/aspose.slides/bullettype/
 ---
 
-## BulletType 枚举
+## BulletType枚举
 
-表示扩展标记的类型。
+表示扩展子弹的类型。
 
 ```csharp
 public enum BulletType : sbyte
@@ -21,11 +21,11 @@ public enum BulletType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
-| Symbol | `1` | 符号标记。 |
-| Numbered | `2` | 编号标记。 |
-| Picture | `3` | 图片标记。 |
+| Symbol | `1` | 符号子弹。 |
+| Numbered | `2` | 编号子弹。 |
+| Picture | `3` | 图片子弹。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

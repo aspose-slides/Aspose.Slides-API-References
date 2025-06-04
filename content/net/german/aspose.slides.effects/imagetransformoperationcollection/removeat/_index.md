@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt einen Bildeffekt aus einer Sammlung am angegebenen Index.
 type: docs
 weight: 270
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index eines zu löschenden Bildeffekts. |
+| index | Int32 | Index eines Bildeffekts, der gelöscht werden soll. |
 
 ### Siehe auch
 

@@ -1,21 +1,21 @@
 ---
 title: TickLabelRotationAngle
-second_title: Aspose.Slides for .NET API Reference
-description: 表示刻度标签的旋转角度。可读写 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示刻度标签的旋转角度。可读/可写单精度浮点数。
 type: docs
 weight: 520
 url: /zh/aspose.slides.charts/axis/ticklabelrotationangle/
 ---
 
-## Axis.TickLabelRotationAngle 属性
+## Axis.TickLabelRotationAngle property
 
-表示刻度标签的旋转角度。可读写 Single。
+表示刻度标签的旋转角度。可读/可写单精度浮点数。
 
 ```csharp
 public float TickLabelRotationAngle { get; set; }
 ```
 
-### 另请参见
+### See Also
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

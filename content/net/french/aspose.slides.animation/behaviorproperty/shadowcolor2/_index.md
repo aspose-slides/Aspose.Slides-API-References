@@ -15,7 +15,7 @@ Représente la propriété 'shadow.color2'
 public static BehaviorProperty ShadowColor2 { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,7 +1,7 @@
 ---
 title: RecoverWorkbookFromChartCache
-second_title: Aspose.Sildes pour la référence d'API .NET
-description: Si la source de données pour le graphique est un classeur externe et qu'il n'est pas disponible, il sera récupéré à partir du cache du graphique.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Si la source de données pour le graphique est un fichier de travail externe et qu'il n'est pas disponible, il sera récupéré à partir du cache du graphique.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache/
 
 ## Propriété ISpreadsheetOptions.RecoverWorkbookFromChartCache
 
-Si la source de données pour le graphique est un classeur externe et qu'il n'est pas disponible, il sera récupéré à partir du cache du graphique.
+Si la source de données pour le graphique est un fichier de travail externe et qu'il n'est pas disponible, il sera récupéré à partir du cache du graphique.
 
 ```csharp
 public bool RecoverWorkbookFromChartCache { get; set; }
@@ -17,13 +17,13 @@ public bool RecoverWorkbookFromChartCache { get; set; }
 
 ### Exceptions
 
-| exception               | condition                                                                                       |
-|-------------------------|-------------------------------------------------------------------------------------------------|
-| InvalidOperationException | Lancé lorsque le classeur externe est indisponible et que la valeur de la propriété RecoverWorkbookFromChartCache est false. |
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Lancé lorsque le fichier de travail externe n'est pas disponible et que la valeur de la propriété RecoverWorkbookFromChartCache est false. |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

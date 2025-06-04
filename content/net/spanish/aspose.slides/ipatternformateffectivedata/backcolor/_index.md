@@ -1,15 +1,15 @@
 ---
 title: BackColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el color del patrón de fondo. Color de solo lectura.
+second_title: Aspose.Slidess para .NET API Reference
+description: Devuelve el color del patrón de fondo. Solo lectura Color.
 type: docs
 weight: 10
 url: /es/aspose.slides/ipatternformateffectivedata/backcolor/
 ---
 
-## Propiedad IPatternFormatEffectiveData.BackColor
+## IPatternFormatEffectiveData.BackColor property
 
-Devuelve el color del patrón de fondo. Color de solo lectura.
+Devuelve el color del patrón de fondo. Solo lectura Color.
 
 ```csharp
 public Color BackColor { get; }
@@ -17,8 +17,8 @@ public Color BackColor { get; }
 
 ### Ver También
 
-* interfaz [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../ipatternformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IPatternFormatEffectiveData](../../ipatternformateffectivedata)
+* espacio de nombres [Aspose.Slides](../../ipatternformateffectivedata)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

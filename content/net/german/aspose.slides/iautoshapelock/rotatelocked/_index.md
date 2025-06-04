@@ -1,7 +1,7 @@
 ---
 title: RotateLocked
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese- und Schreibbare Boolean.
+description: Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 80
 url: /de/aspose.slides/iautoshapelock/rotatelocked/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iautoshapelock/rotatelocked/
 
 ## IAutoShapeLock.RotateLocked-Eigenschaft
 
-Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese- und Schreibbare Boolean.
+Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool RotateLocked { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAutoShapeLock](../../iautoshapelock)
 * Namespace [Aspose.Slides](../../iautoshapelock)

@@ -1,7 +1,7 @@
 ---
 title: MinimalHeight
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die minimal mögliche Höhe einer Zeile zurück oder legt sie fest. Lese-/Schreibbare Double.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die minimal mögliche Höhe einer Zeile zurück oder setzt sie. Lese-/Schreibbare Double.
 type: docs
 weight: 20
 url: /de/aspose.slides/row/minimalheight/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/row/minimalheight/
 
 ## Row.MinimalHeight-Eigenschaft
 
-Gibt die minimal mögliche Höhe einer Zeile zurück oder legt sie fest. Lese-/schreibbare Double.
+Gibt die minimal mögliche Höhe einer Zeile zurück oder setzt sie. Lese-/Schreibbare Double.
 
 ```csharp
 public double MinimalHeight { get; set; }

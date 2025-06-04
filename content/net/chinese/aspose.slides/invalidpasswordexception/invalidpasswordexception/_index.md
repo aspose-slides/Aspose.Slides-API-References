@@ -25,7 +25,7 @@ public InvalidPasswordException()
 
 ## InvalidPasswordException(string) {#constructor_1}
 
-允许向此异常添加消息的构造函数。
+允许向该异常添加消息的构造函数。
 
 ```csharp
 public InvalidPasswordException(string message)
@@ -45,7 +45,7 @@ public InvalidPasswordException(string message)
 
 ## InvalidPasswordException(string, Exception) {#constructor_2}
 
-包含消息和嵌入异常的构造函数。
+包含消息和嵌套异常的构造函数。
 
 ```csharp
 public InvalidPasswordException(string message, Exception exception)

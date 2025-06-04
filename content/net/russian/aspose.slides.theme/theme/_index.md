@@ -1,6 +1,6 @@
 ---
 title: Theme
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тему.
 type: docs
 weight: 11170
@@ -21,16 +21,16 @@ public abstract class Theme : ITheme
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает шрифтовую схему. Только для чтения [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата фигур. Только для чтения [`IFormatScheme`](../iformatscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата фигуры. Только для чтения [`IFormatScheme`](../iformatscheme). |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Возвращает родительскую презентацию. Только для чтения [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Методы
 
 | Название | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает эффективные данные темы с применением наследования. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает эффективные данные темы с применённым наследованием. |
 
-### Смотрите также
+### Также смотри
 
 * интерфейс [ITheme](../itheme)
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)

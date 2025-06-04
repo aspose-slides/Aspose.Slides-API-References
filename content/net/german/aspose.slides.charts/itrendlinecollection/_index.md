@@ -1,6 +1,6 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt eine Sammlung von TrendlineEx dar
 type: docs
 weight: 2170
@@ -19,9 +19,9 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Ermöglicht den Zugriff auf die Basis-IEnumerable-Schnittstelle. Nur-Lesen IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lesen Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur-Lesen [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Ermöglicht den Zugriff auf die grundlegende IEnumerable-Schnittstelle. Schreibgeschütztes IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Schreibgeschütztes Int32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Gibt das Element an dem angegebenen Index zurück. Schreibgeschütztes [`ITrendline`](../itrendline). |
 
 ## Methoden
 

@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le texte brut d'un commentaire de diapositive. Chaîne en lecture/écriture.
+description: Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String.
 type: docs
 weight: 60
 url: /fr/aspose.slides/icomment/text/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icomment/text/
 
 ## Propriété IComment.Text
 
-Renvoie ou définit le texte brut d'un commentaire de diapositive. Chaîne en lecture/écriture.
+Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String.
 
 ```csharp
 public string Text { get; set; }

@@ -7,7 +7,7 @@ weight: 60
 url: /fr/aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/
 ---
 
-## Méthode ImageTransformOCollectionEffectiveData.CopyTo
+## ImageTransformOCollectionEffectiveData.CopyTo méthode
 
 Copie tous les éléments de la collection dans le tableau spécifié.
 

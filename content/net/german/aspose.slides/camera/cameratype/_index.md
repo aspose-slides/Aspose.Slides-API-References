@@ -1,21 +1,21 @@
 ---
 title: CameraType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Kameratyp. Lese/Schreibe CameraPresetType aspose.slides/camerapresettype.
+description: Kameratyp. Lese-/Schreibzugriff auf CameraPresetTypeaspose.slides/camerapresettype.
 type: docs
 weight: 10
 url: /de/aspose.slides/camera/cameratype/
 ---
 
-## Kamera.CameraType-Eigenschaft
+## Camera.CameraType-Eigenschaft
 
-Kameratyp. Lese/Schreibe [`CameraPresetType`](../../camerapresettype).
+Kameratyp. Lese-/Schreibzugriff auf [`CameraPresetType`](../../camerapresettype).
 
 ```csharp
 public CameraPresetType CameraType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [CameraPresetType](../../camerapresettype)
 * class [Camera](../../camera)

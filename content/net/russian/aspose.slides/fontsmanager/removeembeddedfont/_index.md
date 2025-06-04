@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fontsmanager/removeembeddedfont/
 public void RemoveEmbeddedFont(IFontData fontData)
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IFontData](../../ifontdata)
 * класс [FontsManager](../../fontsmanager)

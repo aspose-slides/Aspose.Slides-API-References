@@ -1,7 +1,7 @@
 ---
 title: BevelType
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Type de biseau. Read-only BevelPresetTypeaspose.slides/bevelpresettype.
+second_title: Aspose.Slides pour .NET Référence API
+description: Type de biseau. Lecture seule BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ishapebeveleffectivedata/beveltype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishapebeveleffectivedata/beveltype/
 
 ## Propriété IShapeBevelEffectiveData.BevelType
 
-Type de biseau. Read-only [`BevelPresetType`](../../bevelpresettype).
+Type de biseau. Lecture seule [`BevelPresetType`](../../bevelpresettype).
 
 ```csharp
 public BevelPresetType BevelType { get; }

@@ -1,15 +1,15 @@
 ---
 title: MarginTop
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die oberen Randpunkte in einem TextFrame zurück oder legt sie fest. Lese-/Schreibzugriff Double.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die oberen Randpunkte in einem TextFrame zurück oder setzt sie. Lese-/Schreib-Doppel.
 type: docs
 weight: 110
 url: /de/aspose.slides/textframeformat/margintop/
 ---
 
-## TextFrameFormat.MarginTop Eigenschaft
+## TextFrameFormat.MarginTop-Eigenschaft
 
-Gibt den oberen Rand (Punkte) in einem TextFrame zurück oder legt ihn fest. Lese-/Schreibzugriff Double.
+Gibt den oberen Rand (Punkte) in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Doppel.
 
 ```csharp
 public double MarginTop { get; set; }

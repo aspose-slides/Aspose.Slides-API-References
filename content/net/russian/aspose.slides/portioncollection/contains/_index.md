@@ -1,6 +1,6 @@
 ---
 title: Contains
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Slides для справочника API .NET
 description: Определяет, содержит ли ICollection конкретное значение.
 type: docs
 weight: 60
@@ -17,9 +17,9 @@ public bool Contains(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект, который необходимо найти в ICollection. |
+| item | IPortion | Объект, который нужно найти в ICollection. |
 
-### Возвращаемое значение
+### Значение, возвращаемое функцией
 
 true, если *item* найден в ICollection; в противном случае false.
 

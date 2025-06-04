@@ -1,7 +1,7 @@
 ---
 title: Audios
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回演示文稿中所有嵌入音频文件的集合。只读 IAudioCollection aspose.slides/iaudiocollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回演示文稿中所有嵌入音频文件的集合。只读 IAudioCollectionaspose.slides/iaudiocollection。
 type: docs
 weight: 30
 url: /zh/aspose.slides/presentation/audios/
@@ -17,7 +17,7 @@ public IAudioCollection Audios { get; }
 
 ### 示例
 
-以下示例展示如何为音频文件添加超链接。
+以下示例演示如何向音频文件添加超链接。
 
 ```csharp
 [C#]
@@ -26,12 +26,12 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("audio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(10, 10, 100, 100, audio);
     audioFrame.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
-    audioFrame.HyperlinkClick.Tooltip = "超过 70% 的财富 100 强公司信任 Aspose API";
+    audioFrame.HyperlinkClick.Tooltip = "超过 70% 的财富 100 强公司信任 Aspose APIs";
     pres.Save("pres-out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IAudioCollection](../../iaudiocollection)
 * 类 [Presentation](../../presentation)

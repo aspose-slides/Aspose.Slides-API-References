@@ -1,13 +1,13 @@
 ---
 title: FontScheme
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Renvoie le schéma de police. Lecture seule IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 20
 url: /fr/aspose.slides.theme/overridetheme/fontscheme/
 ---
 
-## Propriété OverrideTheme.FontScheme
+## OverrideTheme.FontScheme propriété
 
 Renvoie le schéma de police. Lecture seule [`IFontScheme`](../../ifontscheme).
 
@@ -15,7 +15,7 @@ Renvoie le schéma de police. Lecture seule [`IFontScheme`](../../ifontscheme).
 public override IFontScheme FontScheme { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontScheme](../../ifontscheme)
 * classe [OverrideTheme](../../overridetheme)

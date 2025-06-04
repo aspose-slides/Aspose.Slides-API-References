@@ -1,13 +1,13 @@
 ---
 title: SetExternalHyperlinkClick
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Définir un lien hypertexte externe au clic.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick/
 ---
 
-## Méthode IHyperlinkManager.SetExternalHyperlinkClick
+## IHyperlinkManager.SetExternalHyperlinkClick méthode
 
 Définir un lien hypertexte externe au clic.
 

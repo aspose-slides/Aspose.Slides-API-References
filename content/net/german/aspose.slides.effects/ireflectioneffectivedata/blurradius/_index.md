@@ -15,7 +15,7 @@ Unschärferadius. Nur lesbarer Double.
 public double BlurRadius { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * Namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)

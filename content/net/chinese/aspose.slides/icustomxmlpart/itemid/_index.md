@@ -1,7 +1,7 @@
 ---
 title: ItemId
-second_title: Aspose.Slides for .NET API 参考
-description: 指定一个全局唯一标识符 GUID，该标识符唯一标识 Office Open XML 文档中的单个自定义 XML 部分。只读 Guid。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定一个全局唯一标识符 GUID，用于唯一标识 Office Open XML 文档中的一个自定义 XML 部件。只读 Guid。
 type: docs
 weight: 10
 url: /zh/aspose.slides/icustomxmlpart/itemid/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icustomxmlpart/itemid/
 
 ## ICustomXmlPart.ItemId 属性
 
-指定一个全局唯一标识符 (GUID)，该标识符唯一标识 Office Open XML 文档中的单个自定义 XML 部分。只读 Guid。
+指定一个全局唯一标识符 (GUID)，用于唯一标识 Office Open XML 文档中的一个自定义 XML 部件。只读 Guid。
 
 ```csharp
 public Guid ItemId { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 命名空间 [Aspose.Slides](../../icustomxmlpart)

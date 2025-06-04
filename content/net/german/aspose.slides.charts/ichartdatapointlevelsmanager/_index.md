@@ -1,7 +1,7 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Sildes für .NET API Referenz
-description: Container von Datenpunktleveln. Angewendet für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunktlevel ist nullbasiert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Container von Datenpunktstufen. Anwendbar für Treeamp und Sunburst-Diagramme. Die Indizierung der Datenpunktstufen ist nullbasiert.
 type: docs
 weight: 1770
 url: /de/aspose.slides.charts/ichartdatapointlevelsmanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapointlevelsmanager/
 
 ## IChartDataPointLevelsManager-Schnittstelle
 
-Container von Datenpunktleveln. Angewendet für Treeamp- und Sunburst-Serien. Die Indizierung der Datenpunktlevel ist nullbasiert.
+Container von Datenpunktstufen. Anwendbar für Treeamp und Sunburst-Diagramme. Die Indizierung der Datenpunktstufen ist nullbasiert.
 
 ```csharp
 public interface IChartDataPointLevelsManager
@@ -19,10 +19,10 @@ public interface IChartDataPointLevelsManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Gibt die Anzahl der Datenpunktlevel zurück. |
-| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Gibt das IChartDataPointLevel-Objekt für das definierte Level zurück. |
+| [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | Gibt die Anzahl der Datenpunktstufen zurück. |
+| [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | Gibt das IChartDataPointLevel-Objekt für die definierte Stufe zurück. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * Assembly [Aspose.Slides](../../)

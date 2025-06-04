@@ -1,6 +1,6 @@
 ---
 title: ZoomImage
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Obtient ou définit l'image pour l'objet de zoom. Lecture/écriture IPPImageaspose.slides/ippimage.
 type: docs
 weight: 60
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPPImage](../../ippimage)
 * interface [IZoomObject](../../izoomobject)

@@ -21,8 +21,8 @@ public void RemoveAt(int index)
 
 ### Ver También
 
-* interfaz [ITagCollection](../../itagcollection)
-* espacio de nombres [Aspose.Slides](../../itagcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [ITagCollection](../../itagcollection)
+* espacio de nombres [Aspose.Slides](../../itagcollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: Is2DChart
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve verdadero si chartType es uno de los tipos de gráficos 2D.
 type: docs
 weight: 20

@@ -1,6 +1,6 @@
 ---
 title: SetAllDateTimesText
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 设置所有日期时间占位符的文本，包括母版幻灯片、布局幻灯片和幻灯片。
 type: docs
 weight: 20

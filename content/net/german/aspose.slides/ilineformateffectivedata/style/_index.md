@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Linienstil zurück. Schreibgeschützter LineStyleaspose.slides/linestyle.
+description: Gibt den Linienstil zurück. Nur-Lese LineStyleaspose.slides/linestyle.
 type: docs
 weight: 160
 url: /de/aspose.slides/ilineformateffectivedata/style/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilineformateffectivedata/style/
 
 ## ILineFormatEffectiveData.Style-Eigenschaft
 
-Gibt den Linienstil zurück. Schreibgeschützt [`LineStyle`](../../linestyle).
+Gibt den Linienstil zurück. Nur-Lese [`LineStyle`](../../linestyle).
 
 ```csharp
 public LineStyle Style { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [LineStyle](../../linestyle)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

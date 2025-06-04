@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/skewhorizontal/
 public double SkewHorizontal { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ireflectioneffectivedata)

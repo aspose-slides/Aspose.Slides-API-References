@@ -1,7 +1,7 @@
 ---
 title: CheckPassword
 second_title: Aspose.Slides für .NET API-Referenz
-description: Überprüft, ob ein Passwort für eine durch ein offenes Passwort geschützte Präsentation korrekt ist.
+description: Überprüft, ob ein Passwort für eine Präsentation, die mit einem offenen Passwort geschützt ist, korrekt ist.
 type: docs
 weight: 50
 url: /de/aspose.slides/ipresentationinfo/checkpassword/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationinfo/checkpassword/
 
 ## IPresentationInfo.CheckPassword Methode
 
-Überprüft, ob ein Passwort für eine durch ein offenes Passwort geschützte Präsentation korrekt ist.
+Überprüft, ob ein Passwort für eine Präsentation, die mit einem offenen Passwort geschützt ist, korrekt ist.
 
 ```csharp
 public bool CheckPassword(string password)
@@ -17,13 +17,13 @@ public bool CheckPassword(string password)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| password | String | Das zu überprüfende Passwort. |
+| password | String | Das Passwort, das überprüft werden soll. |
 
 ### Rückgabewert
 
-True, wenn die Präsentation durch ein offenes Passwort geschützt ist und das Passwort korrekt ist, andernfalls false.
+True, wenn die Präsentation mit einem offenen Passwort geschützt ist und das Passwort korrekt ist, andernfalls false.
 
-### Anmerkungen
+### Hinweise
 
 Wenn das Passwort null oder leer ist, gibt diese Methode false zurück.
 

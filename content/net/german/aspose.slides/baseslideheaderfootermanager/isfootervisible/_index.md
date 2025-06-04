@@ -1,7 +1,7 @@
 ---
 title: IsFooterVisible
-second_title: Aspose.Slides für .NET API Referenz
-description: Erhält einen Wert, der angibt, dass ein Fußzeilen-Platzhalter vorhanden ist. Lese Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Wert an, der angibt, dass ein Fußzeilen-Platzhalter vorhanden ist. Lesen Sie Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides/baseslideheaderfootermanager/isfootervisible/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslideheaderfootermanager/isfootervisible/
 
 ## BaseSlideHeaderFooterManager.IsFooterVisible-Eigenschaft
 
-Erhält einen Wert, der anzeigt, dass ein Fußzeilen-Platzhalter vorhanden ist. Lese Boolean.
+Gibt den Wert an, der angibt, dass ein Fußzeilen-Platzhalter vorhanden ist. Lesen Sie Boolean.
 
 ```csharp
 public bool IsFooterVisible { get; }

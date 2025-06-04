@@ -1,7 +1,7 @@
 ---
 title: SetAsTotal
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit le point de données comme total. Appliqué uniquement pour le type de série Waterfall.
+description: Définit un point de données comme total. Appliqué uniquement pour le type de série Waterfall.
 type: docs
 weight: 170
 url: /fr/aspose.slides.charts/chartdatapoint/setastotal/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdatapoint/setastotal/
 
 ## Propriété ChartDataPoint.SetAsTotal
 
-Définit le point de données comme total. Appliqué uniquement pour le type de série Waterfall.
+Définit un point de données comme total. Appliqué uniquement pour le type de série Waterfall.
 
 ```csharp
 public bool SetAsTotal { get; set; }

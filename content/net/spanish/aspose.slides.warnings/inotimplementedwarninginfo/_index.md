@@ -1,7 +1,7 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Slides para referencia de API .NET
-description: Representa una advertencia sobre una característica conocida no implementada que no se implementará en un futuro cercano.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa una advertencia sobre una característica conocida que no está implementada y que no se implementará en un futuro cercano.
 type: docs
 weight: 11460
 url: /es/aspose.slides.warnings/inotimplementedwarninginfo/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.warnings/inotimplementedwarninginfo/
 
 ## Interfaz INotImplementedWarningInfo
 
-Representa una advertencia sobre una característica conocida no implementada que no se implementará en un futuro cercano.
+Representa una advertencia sobre una característica conocida que no está implementada y que no se implementará en un futuro cercano.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -25,6 +25,6 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 * interfaz [IWarningInfo](../iwarninginfo)
 * espacio de nombres [Aspose.Slides.Warnings](../../aspose.slides.warnings)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

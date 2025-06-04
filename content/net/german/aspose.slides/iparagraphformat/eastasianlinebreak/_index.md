@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformat/eastasianlinebreak/
 
 ## IParagraphFormat.EastAsianLineBreak-Eigenschaft
 
-Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbarer [`NullableBool`](../../nullablebool).
+Bestimmt, ob der ostasiatische Zeilenumbruch in einem Absatz verwendet wird. Keine Vererbung angewendet. Lese-/Schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool EastAsianLineBreak { get; set; }

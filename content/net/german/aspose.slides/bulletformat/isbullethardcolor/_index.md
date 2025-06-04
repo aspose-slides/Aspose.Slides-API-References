@@ -1,7 +1,7 @@
 ---
 title: IsBulletHardColor
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Aufzählungszeichen eine eigene Farbe haben oder sie von dem ersten Abschnitt im Absatz erben. NullableBool.True, wenn das Aufzählungszeichen eine eigene Farbe hat, und NullableBool.False, wenn das Aufzählungszeichen die Farbe vom ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob die Aufzählung ein eigenes Farbwert hat oder es von dem ersten Teil im Absatz erbt. NullableBool.True, wenn die Aufzählung eine eigene Farbe hat, und NullableBool.False, wenn die Aufzählung die Farbe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /de/aspose.slides/bulletformat/isbullethardcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/bulletformat/isbullethardcolor/
 
 ## BulletFormat.IsBulletHardColor-Eigenschaft
 
-Bestimmt, ob das Aufzählungszeichen eine eigene Farbe hat oder sie von dem ersten Abschnitt im Absatz erbt. **NullableBool.True**, wenn das Aufzählungszeichen eine eigene Farbe hat, und **NullableBool.False**, wenn das Aufzählungszeichen die Farbe vom ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Aufzählung ein eigenes Farbwert hat oder es von dem ersten Teil im Absatz erbt. **NullableBool.True**, wenn die Aufzählung eine eigene Farbe hat, und **NullableBool.False**, wenn die Aufzählung die Farbe vom ersten Teil im Absatz erbt. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardColor { get; set; }

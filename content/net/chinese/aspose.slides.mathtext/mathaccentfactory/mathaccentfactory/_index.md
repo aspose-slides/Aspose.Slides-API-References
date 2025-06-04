@@ -15,7 +15,7 @@ url: /zh/aspose.slides.mathtext/mathaccentfactory/mathaccentfactory/
 public MathAccentFactory()
 ```
 
-### 另请参阅
+### 参见
 
 * class [MathAccentFactory](../../mathaccentfactory)
 * namespace [Aspose.Slides.MathText](../../mathaccentfactory)

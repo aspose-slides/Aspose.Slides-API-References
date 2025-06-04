@@ -1,7 +1,7 @@
 ---
 title: CaseSensitive
 second_title: Aspose.Slides für .NET API-Referenz
-description: Setzen Sie den Wert auf true, um eine fall-sensitive Suche zu verwenden, false - andernfalls. Lese-/schreibbare Boolean.
+description: Setzen Sie true für die Groß- und Kleinschreibung-sensible Suche, false - andernfalls. Lese-/Schreib-Boolean.
 type: docs
 weight: 10
 url: /de/aspose.slides/itextsearchoptions/casesensitive/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextsearchoptions/casesensitive/
 
 ## ITextSearchOptions.CaseSensitive-Eigenschaft
 
-Setzen Sie den Wert auf true, um eine fall-sensitive Suche zu verwenden, false - andernfalls. Lese-/schreibbare Boolean.
+Setzen Sie true für die Groß- und Kleinschreibung-sensible Suche, false - andernfalls. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool CaseSensitive { get; set; }

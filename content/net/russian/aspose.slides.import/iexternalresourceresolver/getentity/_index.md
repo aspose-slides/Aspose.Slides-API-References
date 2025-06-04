@@ -1,13 +1,13 @@
 ---
 title: GetEntity
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Соответствует URI объекту, содержащему фактический ресурс.
 type: docs
 weight: 10
 url: /ru/aspose.slides.import/iexternalresourceresolver/getentity/
 ---
 
-## Метод IExternalResourceResolver.GetEntity
+## IExternalResourceResolver.GetEntity метод
 
 Соответствует URI объекту, содержащему фактический ресурс.
 
@@ -17,13 +17,13 @@ public Stream GetEntity(string absoluteUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| absoluteUri | String | Абсолютный URI к объекту. |
+| absoluteUri | String | Абсолютный URI объекта. |
 
-### Значение Возврата
+### Возвращаемое значение
 
-Объект Stream или null, если ресурс не может быть передан.
+Объект Stream или null, если ресурс не может быть передан в поток.
 
-### См. Также
+### См. также
 
 * интерфейс [IExternalResourceResolver](../../iexternalresourceresolver)
 * пространство имен [Aspose.Slides.Import](../../iexternalresourceresolver)

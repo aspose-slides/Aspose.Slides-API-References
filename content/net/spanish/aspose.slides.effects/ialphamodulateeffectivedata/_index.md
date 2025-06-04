@@ -1,15 +1,15 @@
 ---
 title: IAlphaModulateEffectiveData
-second_title: Aspose.Slides para .NET Referencia de API
-description: Objeto inmutable que representa un efecto de Modulación Alfa. Los valores de opacidad alfa del efecto se multiplican por un porcentaje fijo. El contenedor del efecto especifica un efecto que contiene valores alfa para modular.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Objeto inmutable que representa un efecto de Modulación Alpha. Los valores de opacidad alpha del efecto se multiplican por un porcentaje fijo. El contenedor del efecto especifica un efecto que contiene valores alpha para modular.
 type: docs
 weight: 3010
 url: /es/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 
-## Interfaz IAlphaModulateEffectiveData
+## Interface IAlphaModulateEffectiveData
 
-Objeto inmutable que representa un efecto de Modulación Alfa. Los valores alfa (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor del efecto especifica un efecto que contiene valores alfa para modular.
+Objeto inmutable que representa un efecto de Modulación Alpha. Los valores alpha (opacidad) del efecto se multiplican por un porcentaje fijo. El contenedor del efecto especifica un efecto que contiene valores alpha para modular.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -21,10 +21,10 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Permite obtener la interfaz base IEffectEffectiveData. Solo lectura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Véase también
+### Véase También
 
-* interfaz [IEffectEffectiveData](../ieffecteffectivedata)
-* espacio de nombres [Aspose.Slides.Effects](../../aspose.slides.effects)
-* ensamblado [Aspose.Slides](../../)
+* interface [IEffectEffectiveData](../ieffecteffectivedata)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

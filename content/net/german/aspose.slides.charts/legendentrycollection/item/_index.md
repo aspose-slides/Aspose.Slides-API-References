@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft Eigenschaften des Legendeneintrags ab, der dem Chart.ChartData.Series0.DataPointsindex im Falle eines Diagrammtyps aus dieser Liste entspricht ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder dem Chart.ChartData.Seriesindex für andere Diagrammtypen.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält Eigenschaften des Legenden-Eintrags, der dem Chart.ChartData.Series0.DataPointsindex im Fall von Diagrammtypen aus dieser Liste entspricht ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder der dem Chart.ChartData.Seriesindex für andere Diagrammtypen entspricht.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/legendentrycollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/legendentrycollection/item/
 
 ## LegendEntryCollection-Indexer
 
-Ruft Eigenschaften des Legendeneintrags ab, der dem Chart.ChartData.Series[0].DataPoints[index] im Falle eines Diagrammtyps aus dieser Liste entspricht: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder dem Chart.ChartData.Series[index] für andere Diagrammtypen.
+Erhält Eigenschaften des Legenden-Eintrags, der dem Chart.ChartData.Series[0].DataPoints[index] im Fall von Diagrammtypen aus dieser Liste entspricht: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; oder dem Chart.ChartData.Series[index] für andere Diagrammtypen.
 
 ```csharp
 public ILegendEntryProperties this[int index] { get; }

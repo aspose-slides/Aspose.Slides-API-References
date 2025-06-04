@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathFunction func = new MathematicalText("sin").Function("x");
 IMathElement base = func.Base;
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathFunction](../../imathfunction)

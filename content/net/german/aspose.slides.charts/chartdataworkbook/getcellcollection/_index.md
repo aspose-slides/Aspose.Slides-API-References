@@ -1,7 +1,7 @@
 ---
 title: GetCellCollection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Holt die Menge von Zellen.
+description: Ruft die Menge von Zellen ab.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/chartdataworkbook/getcellcollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartdataworkbook/getcellcollection/
 
 ## ChartDataWorkbook.GetCellCollection-Methode
 
-Holt die Menge von Zellen.
+Ruft die Menge von Zellen ab.
 
 ```csharp
 public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCells)
@@ -18,7 +18,7 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | formula | String | Excel-Formel wie "Sheet1!$A$2:$A$5". |
-| skipHiddenCells | Boolean | Wenn true, gibt die Methode die Sammlung ohne versteckte Zellen zurück. |
+| skipHiddenCells | Boolean | Wenn true, gibt die Methode die Sammlung ohne ausgeblendete Zellen zurück. |
 
 ### Siehe auch
 

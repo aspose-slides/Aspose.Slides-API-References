@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
 second_title: Aspose.Slides für .NET API Referenz
-description: Der Typ des vertikalen Abstands zwischen Array-Elementen Standard SingleLineGap
+description: Die Art des vertikalen Abstands zwischen Array-Elementen Standard SingleLineGap
 type: docs
 weight: 70
 url: /de/aspose.slides.mathtext/matharray/rowspacingrule/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/matharray/rowspacingrule/
 
 ## MathArray.RowSpacingRule-Eigenschaft
 
-Der Typ des vertikalen Abstands zwischen Array-Elementen Standard: SingleLineGap
+Die Art des vertikalen Abstands zwischen Array-Elementen. Standard: SingleLineGap
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }

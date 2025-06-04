@@ -1,7 +1,7 @@
 ---
 title: GetRect
-second_title: Aspose.Slides para .NET Referencia de API
-description: Obtenga las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto en el párrafo, incluidas las vacías.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Obtener las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto en el párrafo, incluidas las vacías.
 type: docs
 weight: 70
 url: /es/aspose.slides/iparagraph/getrect/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iparagraph/getrect/
 
 ## IParagraph.GetRect método
 
-Obtenga las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto en el párrafo, incluidas las vacías.
+Obtener las coordenadas del rectángulo que delimita el párrafo. El rectángulo incluye todas las líneas de texto en el párrafo, incluidas las vacías.
 
 ```csharp
 public RectangleF GetRect()

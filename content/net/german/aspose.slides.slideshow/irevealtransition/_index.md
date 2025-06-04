@@ -1,7 +1,7 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Slides für .NET API-Referenz
-description: Reveal Slide-Übergangseffekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Reveal-Folienübergangseffekt.
 type: docs
 weight: 9850
 url: /de/aspose.slides.slideshow/irevealtransition/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.slideshow/irevealtransition/
 
 ## IRevealTransition-Schnittstelle
 
-Reveal Slide-Übergangseffekt.
+Reveal-Folienübergangseffekt.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -19,11 +19,11 @@ public interface IRevealTransition : ITransitionValueBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basis-ITransitionValueBase-Schnittstelle. Nur lesbar [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Richtung des Übergangs. Lese-/schreibbar [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Gibt an, ob der Übergang durch Schwarz ausblendet. Lese-/schreibbar Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle ITransitionValueBase. Nur-Lese [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Richtung des Übergangs. Lese-/Schreibzugriff [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Gibt an, ob der Übergang durch Schwarz verblasst. Lese-/Schreibzugriff auf Boolean. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITransitionValueBase](../itransitionvaluebase)
 * Namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

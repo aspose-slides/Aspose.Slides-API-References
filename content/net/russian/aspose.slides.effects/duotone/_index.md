@@ -1,7 +1,7 @@
 ---
 title: Duotone
-second_title: Aspose.Sildes для справочника по API .NET
-description: Представляет эффект дуотон. Для каждого пикселя комбинирует Color1 и Color2 через линейную интерполяцию, чтобы определить новый цвет для этого пикселя.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет эффект Дуотон. Для каждого пикселя сочетает Color1 и Color2 через линейную интерполяцию для определения нового цвета для этого пикселя.
 type: docs
 weight: 2860
 url: /ru/aspose.slides.effects/duotone/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/duotone/
 
 ## Класс Duotone
 
-Представляет эффект дуотон. Для каждого пикселя комбинирует Color1 и Color2 через линейную интерполяцию, чтобы определить новый цвет для этого пикселя.
+Представляет эффект Дуотон. Для каждого пикселя сочетает Color1 и Color2 через линейную интерполяцию для определения нового цвета для этого пикселя.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -17,7 +17,7 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Возвращает целевой цветовой формат для темных пикселей. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
@@ -25,13 +25,13 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## Методы
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Определяет, равен ли указанный [`Duotone`](../duotone) текущему [`Duotone`](../duotone). |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Получает эффективные данные эффекта Дуотон с применением наследования. |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Получает данные эффективного эффекта Дуотон с применением наследования. |
 | override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Служит хеш-функцией для конкретного типа. |
 
-### См. Также
+### См. также
 
 * класс [ImageTransformOperation](../imagetransformoperation)
 * интерфейс [IDuotone](../iduotone)

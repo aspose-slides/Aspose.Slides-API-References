@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersVisibility
-second_title: Aspose.Slides для .NET Справочник API
-description: Изменяет видимость заполнителя заголовка главного слайда заметок и всех дочерних заполнителей заголовка. Дочерние заполнители означают заполнители, содержащиеся на зависимых слайдах заметок. Зависимые слайды заметок используют главный слайд заметок и зависят от него.
+second_title: Aspose.Slides для .NET API Reference
+description: Изменяет видимость заполнителя заголовка слайда мастер-заметок и всех дочерних заполнителей заголовков. Дочерние заполнители означают заполнители, содержащиеся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда мастер-заметок.
 type: docs
 weight: 60
 url: /ru/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildhead
 
 ## MasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersVisibility метод
 
-Изменяет видимость заполнителя заголовка главного слайда заметок и всех дочерних заполнителей заголовка. Дочерние заполнители означают заполнители, содержащиеся на зависимых слайдах заметок. Зависимые слайды заметок используют главный слайд заметок и зависят от него.
+Изменяет видимость заполнителя заголовка слайда мастер-заметок и всех дочерних заполнителей заголовков. Дочерние заполнители означают заполнители, содержащиеся на зависимых слайдах заметок. Зависимые слайды заметок используют и зависят от слайда мастер-заметок.
 
 ```csharp
 public void SetHeaderAndChildHeadersVisibility(bool isVisible)
@@ -19,7 +19,7 @@ public void SetHeaderAndChildHeadersVisibility(bool isVisible)
 | --- | --- | --- |
 | isVisible | Boolean | true - делает заполнители заголовка видимыми, в противном случае - скрывает их. |
 
-### См. Также
+### См. также
 
 * класс [MasterNotesSlideHeaderFooterManager](../../masternotesslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../masternotesslideheaderfootermanager)

@@ -1,13 +1,13 @@
 ---
 title: Fill_Color
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет свойство fill.color
 type: docs
 weight: 400
 url: /ru/aspose.slides.animation/behaviorproperty/fill_color/
 ---
 
-## Свойство BehaviorProperty.Fill_Color
+## BehaviorProperty.Fill_Color свойство
 
 Представляет свойство 'fill.color'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/fill_color/
 public static BehaviorProperty Fill_Color { get; }
 ```
 
-### См. также
+### Также смотри
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

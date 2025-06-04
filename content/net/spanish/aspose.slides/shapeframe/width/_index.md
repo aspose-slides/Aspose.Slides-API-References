@@ -1,6 +1,6 @@
 ---
 title: Width
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve el ancho de un marco. Solo lectura Single.
 type: docs
 weight: 90
@@ -19,6 +19,6 @@ public float Width { get; }
 
 * clase [ShapeFrame](../../shapeframe)
 * espacio de nombres [Aspose.Slides](../../shapeframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

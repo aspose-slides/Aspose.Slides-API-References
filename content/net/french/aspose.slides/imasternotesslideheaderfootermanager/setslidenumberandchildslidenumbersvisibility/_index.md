@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
-second_title: Référence API Aspose.Slides pour .NET
-description: Modifie la visibilité de l'espace réservé au numéro de page de la diapositive de notes maître et de tous les espaces réservés au numéro de page enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Modifie la visibilité du champ de numéro de page de la diapositive de notes maîtres et de tous les champs de numéro de page enfants. Les champs enfants désignent les champs contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 type: docs
 weight: 80
 url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchi
 
 ## IMasterNotesSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility méthode
 
-Modifie la visibilité de l'espace réservé au numéro de page de la diapositive de notes maître et de tous les espaces réservés au numéro de page enfant. Les espaces réservés enfants signifient que les espaces réservés sont contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+Modifie la visibilité du champ de numéro de page de la diapositive de notes maîtres et de tous les champs de numéro de page enfants. Les champs enfants désignent les champs contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés au numéro de page visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les champs de numéro de page visibles, sinon - les cache. |
 
 ### Voir aussi
 

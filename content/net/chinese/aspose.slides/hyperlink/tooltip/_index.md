@@ -1,7 +1,7 @@
 ---
 title: Tooltip
-second_title: Aspose.Slides for .NET API 参考
-description: 返回可能与父超链接相关联并可以在用户界面中呈现的字符串。可读写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个与父超链接相关联的、可能在用户界面中显示的字符串。可读写字符串。
 type: docs
 weight: 200
 url: /zh/aspose.slides/hyperlink/tooltip/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/hyperlink/tooltip/
 
 ## Hyperlink.Tooltip 属性
 
-返回可能与父超链接相关联并可以在用户界面中呈现的字符串。可读写字符串。
+返回一个与父超链接相关联的、可能在用户界面中显示的字符串。可读写字符串。
 
 ```csharp
 public string Tooltip { get; set; }

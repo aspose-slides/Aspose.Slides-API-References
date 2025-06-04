@@ -1,7 +1,7 @@
 ---
 title: SoundMode
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit ou renvoie le mode sonore pour la transition des diapositives. Lecture-écriture TransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
+description: Définit ou renvoie le mode sonore pour la transition de diapositive. Lecture-écriture TransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
 type: docs
 weight: 70
 url: /fr/aspose.slides/islideshowtransition/soundmode/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islideshowtransition/soundmode/
 
 ## Propriété ISlideShowTransition.SoundMode
 
-Définit ou renvoie le mode sonore pour la transition des diapositives. Lecture-écriture [`TransitionSoundMode`](../../../aspose.slides.slideshow/transitionsoundmode).
+Définit ou renvoie le mode sonore pour la transition de diapositive. Lecture-écriture [`TransitionSoundMode`](../../../aspose.slides.slideshow/transitionsoundmode).
 
 ```csharp
 public TransitionSoundMode SoundMode { get; set; }

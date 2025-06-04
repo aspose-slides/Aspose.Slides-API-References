@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Aspose.Slides für .NET API-Verweis
+second_title: Aspose.Slides für .NET API-Referenz
 description: Entfernt alle Farbverlauf-Stoppstellen aus einer Sammlung.
 type: docs
 weight: 30

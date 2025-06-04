@@ -1,15 +1,15 @@
 ---
 title: CreateMathGroupingCharacter
-second_title: Aspose.Slides для .NET API Reference
-description: Создает символ группировки математических выражений
+second_title: Aspose.Slides для справочника API .NET
+description: Создает символ группировки для математики
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
-## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
+## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
-Создает символ группировки математических выражений
+Создает символ группировки для математики
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, char character, 
@@ -18,9 +18,9 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения символа группировки |
+| element | IMathElement | математический элемент, к которому применяется символ группировки |
 | character | Char | символ группировки |
-| position | MathTopBotPositions | позиция символа группировки |
+| position | MathTopBotPositions | положение символа группировки |
 | verticalJustification | MathTopBotPositions | вертикальное выравнивание |
 
 ### Возвращаемое значение
@@ -40,7 +40,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 ## CreateMathGroupingCharacter(IMathElement) {#createmathgroupingcharacter}
 
-Создает символ группировки математических выражений
+Создает символ группировки для математики
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
@@ -48,7 +48,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения символа группировки |
+| element | IMathElement | математический элемент, к которому применяется символ группировки |
 
 ### Возвращаемое значение
 

@@ -1,6 +1,6 @@
 ---
 title: GetByType
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает первый слайд макета указанного типа.
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public ILayoutSlide GetByType(SlideLayoutType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | SlideLayoutType | Тип слайда макета, который нужно найти. |
+| type | SlideLayoutType | Тип слайда макета для поиска. |
 
 ### Возвращаемое значение
 

@@ -7,9 +7,9 @@ weight: 10
 url: /ru/aspose.slides.theme/ifontschemeeffectivedata/major/
 ---
 
-## Свойство IFontSchemeEffectiveData.Major
+## IFontSchemeEffectiveData.Major property
 
-Возвращает коллекцию шрифтов для части "заголовка" слайда. Только для чтения [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
+Возвращает коллекцию шрифтов для "заголовка" части слайда. Только для чтения [`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
 
 ```csharp
 public IFontsEffectiveData Major { get; }

@@ -1,6 +1,6 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Математический текст
 type: docs
 weight: 8250
@@ -32,7 +32,7 @@ public interface IMathematicalText : IMathElement
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### См. также
+### Также смотрите
 
 * интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)

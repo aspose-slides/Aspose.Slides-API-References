@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Удаляет все разделы из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/isectioncollection/clear/
 ---
 
-## Метод ISectionCollection.Clear
+## ISectionCollection.Clear метод
 
 Удаляет все разделы из коллекции.
 

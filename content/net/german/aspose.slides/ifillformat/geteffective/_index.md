@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz
-description: Holt die effektiven Füllformatierungsdaten mit der angewandten Vererbung.
+description: Ruft die effektiven Füllformatierungsdaten mit der angewandten Vererbung ab.
 type: docs
 weight: 80
 url: /de/aspose.slides/ifillformat/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ifillformat/geteffective/
 
 ## IFillFormat.GetEffective-Methode
 
-Holt die effektiven Füllformatierungsdaten mit der angewandten Vererbung.
+Ruft die effektiven Füllformatierungsdaten mit der angewandten Vererbung ab.
 
 ```csharp
 public IFillFormatEffectiveData GetEffective()

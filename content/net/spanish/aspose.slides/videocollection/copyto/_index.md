@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Copia videos a un arreglo especificado comenzando desde el índice especificado.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Copia videos a un array especificado comenzando desde un índice especificado.
 type: docs
 weight: 60
 url: /es/aspose.slides/videocollection/copyto/
 ---
 
-## Método VideoCollection.CopyTo
+## VideoCollection.CopyTo method
 
-Copia videos a un arreglo especificado comenzando desde el índice especificado.
+Copia videos a un array especificado comenzando desde un índice especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,10 +17,10 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Arreglo. |
+| array | Array | Array. |
 | index | Int32 | Índice. |
 
-### Véase También
+### Ver También
 
 * clase [VideoCollection](../../videocollection)
 * espacio de nombres [Aspose.Slides](../../videocollection)

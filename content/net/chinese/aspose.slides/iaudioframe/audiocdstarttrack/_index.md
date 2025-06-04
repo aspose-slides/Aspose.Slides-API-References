@@ -1,7 +1,7 @@
 ---
 title: AudioCdStartTrack
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置开始曲目索引。可读/写 Int32。
+second_title: Aspose.Slides for .NET API 参考
+description: 返回或设置起始轨道索引。可读/写 Int32。
 type: docs
 weight: 40
 url: /zh/aspose.slides/iaudioframe/audiocdstarttrack/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iaudioframe/audiocdstarttrack/
 
 ## IAudioFrame.AudioCdStartTrack 属性
 
-返回或设置开始曲目索引。可读/写 Int32。
+返回或设置起始轨道索引。可读/写 Int32。
 
 ```csharp
 public int AudioCdStartTrack { get; set; }

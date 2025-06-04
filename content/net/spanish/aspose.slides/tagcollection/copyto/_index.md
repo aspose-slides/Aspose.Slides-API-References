@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Copia todos los elementos de la colección en el arreglo especificado.
+description: Copia todos los elementos de la colección en el array especificado.
 type: docs
 weight: 80
 url: /es/aspose.slides/tagcollection/copyto/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/tagcollection/copyto/
 
 ## Método TagCollection.CopyTo
 
-Copia todos los elementos de la colección en el arreglo especificado.
+Copia todos los elementos de la colección en el array especificado.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,13 +17,13 @@ public void CopyTo(Array array, int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| array | Array | Arreglo a llenar. |
-| index | Int32 | Posición inicial en el arreglo de destino. |
+| array | Array | Array para llenar. |
+| index | Int32 | Posición inicial en el array de destino. |
 
-### Véase también
+### Ver También
 
 * clase [TagCollection](../../tagcollection)
 * espacio de nombres [Aspose.Slides](../../tagcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

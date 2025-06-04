@@ -1,7 +1,7 @@
 ---
 title: CopyFrom
-second_title: Aspose.Slides pour .NET API Référence
-description: Copie le format de texte depuis le cadre de texte spécifié.
+second_title: Référence API Aspose.Slides pour .NET
+description: Copie le format de texte à partir du cadre de texte spécifié.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/charttextformat/copyfrom/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/charttextformat/copyfrom/
 
 ## Méthode ChartTextFormat.CopyFrom
 
-Copie le format de texte depuis le cadre de texte spécifié.
+Copie le format de texte à partir du cadre de texte spécifié.
 
 ```csharp
 public void CopyFrom(ITextFrame sourceTextFrame)
@@ -17,9 +17,9 @@ public void CopyFrom(ITextFrame sourceTextFrame)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| sourceTextFrame | ITextFrame | Cadre de texte pour copier le format de texte. |
+| sourceTextFrame | ITextFrame | Cadre de texte à partir duquel copier le format de texte. |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextFrame](../../../aspose.slides/itextframe)
 * class [ChartTextFormat](../../charttextformat)

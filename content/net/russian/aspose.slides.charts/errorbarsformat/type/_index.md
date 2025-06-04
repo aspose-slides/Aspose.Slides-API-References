@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Справочник API Aspose.Sildes для .NET
-description: Получает или задает тип ошибок. Чтение/запись ErrorBarTypeaspose.slides.charts/errorbartype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получает или устанавливает тип ошибок. Доступ для чтения/записи ErrorBarTypeaspose.slides.charts/errorbartype.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/errorbarsformat/type/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.charts/errorbarsformat/type/
 
 ## Свойство ErrorBarsFormat.Type
 
-Получает или задает тип ошибок. Чтение/запись [`ErrorBarType`](../../errorbartype).
+Получает или устанавливает тип ошибок. Доступ для чтения/записи [`ErrorBarType`](../../errorbartype).
 
 ```csharp
 public ErrorBarType Type { get; set; }
 ```
 
-### См. также
+### Также смотри
 
 * enum [ErrorBarType](../../errorbartype)
 * class [ErrorBarsFormat](../../errorbarsformat)

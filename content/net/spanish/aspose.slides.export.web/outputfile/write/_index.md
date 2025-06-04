@@ -1,6 +1,6 @@
 ---
 title: Write
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Escribe el contenido del archivo en el flujo.
 type: docs
 weight: 10
@@ -19,8 +19,10 @@ public abstract void Write(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Flujo de destino. |
 
-### Ver También
+### Véase también
 
 * clase [OutputFile](../../outputfile)
 * espacio de nombres [Aspose.Slides.Export.Web](../../outputfile)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
+
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Sildes for .NET API 参考
-description: 向集合添加一个新属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 向集合中添加新属性。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/ibehaviorpropertycollection/add/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/ibehaviorpropertycollection/add/
 
 ## IBehaviorPropertyCollection.Add 方法
 
-向集合添加一个新属性。
+向集合中添加新属性。
 
 ```csharp
 public void Add(string propertyValue)

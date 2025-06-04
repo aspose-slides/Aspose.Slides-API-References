@@ -1,15 +1,15 @@
 ---
 title: ProofDisabled
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der Text nicht korrekturgelesen werden soll. Nur lesbares Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob der Text nicht korrigiert werden soll. Schreibgeschütztes Boolean.
 type: docs
 weight: 200
 url: /de/aspose.slides/ibaseportionformateffectivedata/proofdisabled/
 ---
 
-## IBasePortionFormatEffectiveData.ProofDisabled-Eigenschaft
+## IBasePortionFormatEffectiveData.ProofDisabled property
 
-Bestimmt, ob der Text nicht korrekturgelesen werden soll. Nur lesbares Boolean.
+Bestimmt, ob der Text nicht korrigiert werden soll. Schreibgeschütztes Boolean.
 
 ```csharp
 public bool ProofDisabled { get; }

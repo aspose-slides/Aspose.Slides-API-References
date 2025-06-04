@@ -1,13 +1,13 @@
 ---
 title: CreateMathNaryOperator
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает IMathNaryOperator
 type: docs
 weight: 10
 url: /ru/aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator/
 ---
 
-## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
+## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
 
 Создает IMathNaryOperator
 
@@ -19,7 +19,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | operatorSymbol | Char | Знак оператора |
-| baseArgument | IMathElement | Основание аргумента для применения оператора |
+| baseArgument | IMathElement | Основной аргумент для применения оператора |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
 
@@ -37,7 +37,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 
 ---
 
-## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
+## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
 
 Создает IMathNaryOperator
 
@@ -49,7 +49,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | operatorSymbol | Char | Знак оператора |
-| baseArgument | IMathElement | Основание аргумента для применения оператора |
+| baseArgument | IMathElement | Основной аргумент для применения оператора |
 | lowerLimit | IMathElement | Нижний предел |
 
 ### Возвращаемое значение
@@ -66,7 +66,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 
 ---
 
-## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
+## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
 
 Создает IMathNaryOperator
 
@@ -77,7 +77,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | operatorSymbol | Char | Знак оператора |
-| baseArgument | IMathElement | Основание аргумента для применения оператора |
+| baseArgument | IMathElement | Основной аргумент для применения оператора |
 
 ### Возвращаемое значение
 

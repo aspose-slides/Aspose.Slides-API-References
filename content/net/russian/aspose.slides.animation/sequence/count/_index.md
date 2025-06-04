@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает количество эффектов в последовательности. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/sequence/count/
 ---
 
-## Свойство Sequence.Count
+## Sequence.Count свойство
 
 Возвращает количество эффектов в последовательности. Только для чтения Int32.
 

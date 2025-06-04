@@ -1,6 +1,6 @@
 ---
 title: HorizontalBarState
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指定水平分隔条应显示的状态。水平分隔条将幻灯片与幻灯片下方的内容区域分开。
 type: docs
 weight: 10

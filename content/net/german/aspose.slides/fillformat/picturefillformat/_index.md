@@ -1,23 +1,23 @@
 ---
 title: PictureFillFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Bildfüllformat zurück. Nur-Lese IPictureFillFormataspose.slides/ipicturefillformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Bildfüllformat zurück. Schreibgeschütztes IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
 weight: 40
 url: /de/aspose.slides/fillformat/picturefillformat/
 ---
 
-## FillFormat.PictureFillFormat Eigenschaft
+## FillFormat.PictureFillFormat-Eigenschaft
 
-Gibt das Bildfüllformat zurück. Nur-Lese [`IPictureFillFormat`](../../ipicturefillformat).
+Gibt das Bildfüllformat zurück. Schreibgeschützt [`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat PictureFillFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
-* Schnittstelle [IPictureFillFormat](../../ipicturefillformat)
+* Interface [IPictureFillFormat](../../ipicturefillformat)
 * Klasse [FillFormat](../../fillformat)
 * Namespace [Aspose.Slides](../../fillformat)
 * Assembly [Aspose.Slides](../../../)

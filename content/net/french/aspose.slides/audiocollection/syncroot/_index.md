@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie une racine de synchronisation. Objet en lecture seule.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie un racine de synchronisation. Objet en lecture seule.
 type: docs
 weight: 40
 url: /fr/aspose.slides/audiocollection/syncroot/

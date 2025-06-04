@@ -1,7 +1,7 @@
 ---
 title: Captions
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет закрытые подписи WebVTT.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет закрытые субтитры WebVTT.
 type: docs
 weight: 1030
 url: /ru/aspose.slides/captions/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/captions/
 
 ## Класс Captions
 
-Представляет закрытые подписи WebVTT.
+Представляет закрытые субтитры WebVTT.
 
 ```csharp
 public class Captions : ICaptions
@@ -17,12 +17,12 @@ public class Captions : ICaptions
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Возвращает бинарные данные закрытых подписей. Только для чтения Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Возвращает глобальный уникальный идентификатор (GUID) закрытых подписей. Только для чтения Guid. |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Возвращает данные закрытых подписей в виде строки, закодированной в UTF-8. Только для чтения String. |
-| [Label](../../aspose.slides/captions/label) { get; set; } | Возвращает или устанавливает метку закрытых подписей. Чтение и запись String. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Возвращает бинарные данные закрытых субтитров. Только для чтения Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Возвращает глобально уникальный идентификатор (GUID) закрытых субтитров. Только для чтения Guid. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Возвращает данные закрытых субтитров в виде закодированной в UTF-8 строки. Только для чтения String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | Возвращает или устанавливает метку закрытых субтитров. Чтение/запись String. |
 
 ### См. также
 

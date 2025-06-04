@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IGifOptions](../../igifoptions)
 * 命名空间 [Aspose.Slides.Export](../../igifoptions)

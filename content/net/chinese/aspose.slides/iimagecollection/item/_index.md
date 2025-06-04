@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 根据索引返回图像。
 type: docs
 weight: 10
@@ -23,7 +23,7 @@ public IPPImage this[int index] { get; }
 
 图像。
 
-### 另请参阅
+### 另见
 
 * 接口 [IPPImage](../../ippimage)
 * 接口 [IImageCollection](../../iimagecollection)

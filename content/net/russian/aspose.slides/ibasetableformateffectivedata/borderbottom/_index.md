@@ -1,7 +1,7 @@
 ---
 title: BorderBottom
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает эффективное значение формата нижней границы. Только для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает значение формата нижней границы линии. Толькo для чтения ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ibasetableformateffectivedata/borderbottom/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibasetableformateffectivedata/borderbottom/
 
 ## IBaseTableFormatEffectiveData.BorderBottom свойство
 
-Возвращает эффективное значение формата нижней границы. Только для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Возвращает значение формата нижней границы линии. Толькo для чтения [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderBottom { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * интерфейс [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)

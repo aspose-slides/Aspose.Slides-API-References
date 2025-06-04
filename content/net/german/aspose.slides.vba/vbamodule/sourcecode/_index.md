@@ -1,6 +1,6 @@
 ---
 title: SourceCode
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slidese für .NET API-Referenz
 description: Gibt den Quellcode des Moduls zurück oder setzt ihn. Lese-/Schreib-String.
 type: docs
 weight: 20

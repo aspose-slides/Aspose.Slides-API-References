@@ -1,7 +1,7 @@
 ---
 title: Embedded
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob ein Ton in eine Präsentation eingebettet ist. Nur-lesbares Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob ein Ton in eine Präsentation eingebettet ist. Schreibgeschützter Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/audioframe/embedded/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/audioframe/embedded/
 
 ## AudioFrame.Embedded-Eigenschaft
 
-Bestimmt, ob ein Ton in eine Präsentation eingebettet ist. Nur-lesbares Boolean.
+Bestimmt, ob ein Ton in eine Präsentation eingebettet ist. Schreibgeschützter Boolean.
 
 ```csharp
 public bool Embedded { get; }

@@ -1,7 +1,7 @@
 ---
 title: Camera
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置相机的设置。只读 ICamera aspose.slides/icamera。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置相机的设置。只读 ICameraaspose.slides/icamera。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ithreedformat/camera/

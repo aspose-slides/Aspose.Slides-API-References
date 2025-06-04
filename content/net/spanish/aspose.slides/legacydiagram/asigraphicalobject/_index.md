@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IGraphicalObject. Solo lectura IGraphicalObjectaspose.slides/igraphicalobject.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Permite obtener la interfaz base IGraphicalObject. Solo lectura IGraphicalObject aspose.slides/igraphicalobject.
 type: docs
 weight: 10
 url: /es/aspose.slides/legacydiagram/asigraphicalobject/
@@ -15,11 +15,11 @@ Permite obtener la interfaz base IGraphicalObject. Solo lectura [`IGraphicalObje
 public IGraphicalObject AsIGraphicalObject { get; }
 ```
 
-### Vea También
+### Véase También
 
 * interfaz [IGraphicalObject](../../igraphicalobject)
 * clase [LegacyDiagram](../../legacydiagram)
-* espacio de nombres [Aspose.Slides](../../legacydiagram)
+* namespace [Aspose.Slides](../../legacydiagram)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

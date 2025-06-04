@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Создает новые серии графиков и вставляет их в коллекцию.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/ichartseriescollection/insert/
 ---
 
-## Метод IChartSeriesCollection.Insert
+## IChartSeriesCollection.Insert метод
 
 Создает новые серии графиков и вставляет их в коллекцию.
 
@@ -22,9 +22,9 @@ public IChartSeries Insert(int index, ChartType type)
 
 ### Возвращаемое значение
 
-Новая серия графика [`IChartSeries`](../../ichartseries)
+Новая серия графиков [`IChartSeries`](../../ichartseries)
 
-### См. Также
+### См. также
 
 * интерфейс [IChartSeries](../../ichartseries)
 * перечисление [ChartType](../../charttype)

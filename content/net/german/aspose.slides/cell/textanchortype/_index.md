@@ -1,7 +1,7 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Textanker-Typ zurück oder setzt ihn. Schreib-/Lesezugriff auf TextAnchorTypeaspose.slides/textanchortype.
+description: Gibt den Textanker-Typ zurück oder legt ihn fest. Lese-/schreibbarer TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 210
 url: /de/aspose.slides/cell/textanchortype/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/cell/textanchortype/
 
 ## Cell.TextAnchorType-Eigenschaft
 
-Gibt den Textanker-Typ zurück oder setzt ihn. Schreib-/Lesezugriff auf [`TextAnchorType`](../../textanchortype).
+Gibt den Textanker-Typ zurück oder legt ihn fest. Lese-/schreibbarer [`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType TextAnchorType { get; set; }

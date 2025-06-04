@@ -1,13 +1,13 @@
 ---
 title: Reorder
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Перемещает слайд макета из коллекции в указанную позицию.
 type: docs
 weight: 60
 url: /ru/aspose.slides/masterlayoutslidecollection/reorder/
 ---
 
-## Метод MasterLayoutSlideCollection.Reorder
+## MasterLayoutSlideCollection.Reorder метод
 
 Перемещает слайд макета из коллекции в указанную позицию.
 

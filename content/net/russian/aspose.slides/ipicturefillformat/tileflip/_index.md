@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides для .NET API Справочник
-description: Переворачивает текстурную плитку вокруг своей горизонтальной, вертикальной или обеих осей. Чтение/запись TileFlipaspose.slides/tileflip.
+second_title: Aspose.Sildes для справочника API .NET
+description: Поворачивает текстурный тайл вокруг его горизонтальной, вертикальной или обеих осей. Чтение/запись TileFlipaspose.slides/tileflip.
 type: docs
 weight: 140
 url: /ru/aspose.slides/ipicturefillformat/tileflip/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipicturefillformat/tileflip/
 
 ## IPictureFillFormat.TileFlip свойство
 
-Переворачивает текстурную плитку вокруг своей горизонтальной, вертикальной или обеих осей. Чтение/запись [`TileFlip`](../../tileflip).
+Поворачивает текстурный тайл вокруг его горизонтальной, вертикальной или обеих осей. Чтение/запись [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }
@@ -17,7 +17,7 @@ public TileFlip TileFlip { get; set; }
 
 ### Примечания
 
-По умолчанию NoFlip.
+По умолчанию - NoFlip.
 
 ### Примеры
 
@@ -27,13 +27,13 @@ using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
 
-    // Получает формат заливки изображения формы
+    // Получает формат заполнения изображения фигуры
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Устанавливает режим заливки изображения в Tile
+    // Устанавливает режим заполнения изображения на Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Переворачивает текстурную плитку вокруг своей вертикальной оси.
+    // Поворачивает текстурный тайл вокруг его вертикальной оси.
     pictureFillFormat.TileFlip = TileFlip.FlipY;
 }
 ```

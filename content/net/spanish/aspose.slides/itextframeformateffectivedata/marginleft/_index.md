@@ -7,7 +7,7 @@ weight: 70
 url: /es/aspose.slides/itextframeformateffectivedata/marginleft/
 ---
 
-## Propiedad ITextFrameFormatEffectiveData.MarginLeft
+## ITextFrameFormatEffectiveData.MarginLeft property
 
 Devuelve el margen izquierdo (puntos) en un TextFrame. Solo lectura Double.
 
@@ -15,10 +15,10 @@ Devuelve el margen izquierdo (puntos) en un TextFrame. Solo lectura Double.
 public double MarginLeft { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../itextframeformateffectivedata)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
+* namespace [Aspose.Slides](../../itextframeformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

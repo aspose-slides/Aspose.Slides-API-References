@@ -1,6 +1,6 @@
 ---
 title: CreatePropertyEffect
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 创建属性效果。
 type: docs
 weight: 60
@@ -19,7 +19,7 @@ public IPropertyEffect CreatePropertyEffect()
 
 属性效果。
 
-### 另见
+### 参见
 
 * 接口 [IPropertyEffect](../../ipropertyeffect)
 * 类 [BehaviorFactory](../../behaviorfactory)

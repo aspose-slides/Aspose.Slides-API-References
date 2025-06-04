@@ -1,13 +1,13 @@
 ---
 title: Reference
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает недопустимую ссылку на ячейку.
 type: docs
 weight: 20
 url: /ru/aspose.slides.spreadsheet/cellinvalidreferenceexception/reference/
 ---
 
-## Свойство CellInvalidReferenceException.Reference
+## CellInvalidReferenceException.Reference свойство
 
 Получает недопустимую ссылку на ячейку.
 

@@ -1,21 +1,21 @@
 ---
 title: DisplayRSquaredValue
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm im gleichen Label wie die Gleichung angezeigt wird. Lese-/Schreibbare Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm im selben Label wie die Gleichung angezeigt wird. Lese-/Schreib-Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/itrendline/displayrsquaredvalue/
 ---
 
-## ITrendline.DisplayRSquaredValue Eigenschaft
+## ITrendline.DisplayRSquaredValue-Eigenschaft
 
-Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm angezeigt wird (im gleichen Label wie die Gleichung). Lese-/Schreibbare Boolean.
+Gibt an, dass der R-Quadrat-Wert der Trendlinie im Diagramm (im selben Label wie die Gleichung) angezeigt wird. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool DisplayRSquaredValue { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITrendline](../../itrendline)
 * Namespace [Aspose.Slides.Charts](../../itrendline)

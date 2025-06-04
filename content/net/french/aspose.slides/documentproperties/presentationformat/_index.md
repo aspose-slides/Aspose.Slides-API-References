@@ -1,21 +1,21 @@
 ---
 title: PresentationFormat
-second_title: Aspose.Sildes pour la référence API .NET
-description: Renvoie ou définit le format prévu d'une présentation. Chaîne en lecture/écriture.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie ou définit le format prévu d'une présentation. Lecture/écriture String.
 type: docs
 weight: 270
 url: /fr/aspose.slides/documentproperties/presentationformat/
 ---
 
-## DocumentProperties.PresentationFormat propriété
+## DocumentProperties.PresentationFormat property
 
-Renvoie ou définit le format prévu d'une présentation. Chaîne en lecture/écriture.
+Renvoie ou définit le format prévu d'une présentation. Lecture/écriture String.
 
 ```csharp
 public string PresentationFormat { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

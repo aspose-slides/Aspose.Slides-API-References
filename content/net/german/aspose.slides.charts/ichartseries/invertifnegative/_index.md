@@ -1,7 +1,7 @@
 ---
 title: InvertIfNegative
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Balken-, Säulen- oder Blasensequenz ihre Farben umkehren soll, wenn der Wert negativ ist. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, dass die Balken-, Säulen- oder Blasenkurve ihre Farben umkehren soll, wenn der Wert negativ ist. Lese-/Schreibbare Boolean.
 type: docs
 weight: 170
 url: /de/aspose.slides.charts/ichartseries/invertifnegative/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/invertifnegative/
 
 ## IChartSeries.InvertIfNegative-Eigenschaft
 
-Gibt an, ob die Balken-, Säulen- oder Blasensequenz ihre Farben umkehren soll, wenn der Wert negativ ist. Lese-/Schreib-Boolean.
+Gibt an, dass die Balken-, Säulen- oder Blasenkurve ihre Farben umkehren soll, wenn der Wert negativ ist. Lese-/Schreibbare Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

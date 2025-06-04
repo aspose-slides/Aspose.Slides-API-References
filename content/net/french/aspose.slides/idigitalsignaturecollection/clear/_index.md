@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Supprime toutes les signatures de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/idigitalsignaturecollection/clear/
 ---
 
-## Méthode IDigitalSignatureCollection.Clear
+## IDigitalSignatureCollection.Clear method
 
 Supprime toutes les signatures de la collection.
 
@@ -15,7 +15,7 @@ Supprime toutes les signatures de la collection.
 public void Clear()
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDigitalSignatureCollection](../../idigitalsignaturecollection)
 * namespace [Aspose.Slides](../../idigitalsignaturecollection)

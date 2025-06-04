@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die unteren Randpunkte in einem TextFrame zurück oder setzt sie. Eine Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile ausüben DataLabel und DataLabelFormat volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat dies keinen Einfluss auf das Rendering. Lese-/Schreibzugriff Double.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die unteren Margenpunkte in einem TextFrame zurück oder setzt sie. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile haben DataLabel und DataLabelFormat vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat dies keinen Einfluss auf das Rendering. Lese/Schreibe Double.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/icharttextblockformat/marginbottom/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/icharttextblockformat/marginbottom/
 
 ## IChartTextBlockFormat.MarginBottom-Eigenschaft
 
-Gibt den unteren Rand (Punkte) in einem TextFrame zurück oder setzt ihn. Eine Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile ausüben: DataLabel und DataLabelFormat (volle Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat dies keinen Einfluss auf das Rendering). Lese-/Schreibzugriff Double.
+Gibt die untere Marge (Punkte) in einem TextFrame zurück oder setzt sie. Die Änderung dieser Eigenschaft kann nur einen bestimmten Einfluss auf diese Diagrammteile haben: DataLabel und DataLabelFormat (vollständige Unterstützung in PowerPoint 2013; in PowerPoint 2007 hat dies keinen Einfluss auf das Rendering). Lese/Schreibe Double.
 
 ```csharp
 public double MarginBottom { get; set; }

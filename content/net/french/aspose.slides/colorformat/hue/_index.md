@@ -1,7 +1,7 @@
 ---
 title: Hue
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
+description: Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lire/écrire Single.
 type: docs
 weight: 90
 url: /fr/aspose.slides/colorformat/hue/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/colorformat/hue/
 
 ## Propriété ColorFormat.Hue
 
-Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lecture/écriture Single.
+Renvoie ou définit le composant de teinte d'une couleur en représentation HSL. Toutes les transformations de couleur sont ignorées. Lire/écrire Single.
 
 ```csharp
 public float Hue { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ColorFormat](../../colorformat)
 * espace de noms [Aspose.Slides](../../colorformat)

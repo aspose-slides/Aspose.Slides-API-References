@@ -1,7 +1,7 @@
 ---
 title: MotionEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt das Verhalten des Bewegungseffekts dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Repräsentiert das Verhalten von Bewegungseffekten.
 type: docs
 weight: 590
 url: /de/aspose.slides.animation/motioneffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/motioneffect/
 
 ## MotionEffect-Klasse
 
-Stellt das Verhalten des Bewegungseffekts dar.
+Repräsentiert das Verhalten von Bewegungseffekten.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -25,17 +25,17 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Name | Beschreibung |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Stellt dar, ob Animationsverhalten akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Stellt dar, ob das aktuelle Animationsverhalten mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfads. Lese-/Schreibzugriff Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Gibt an, ob Animationseffekte akkumuliert werden. Lese-/Schreibzugriff [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Gibt an, ob der aktuelle Animationseffekt mit anderen laufenden Animationen kombiniert wird. Lese-/Schreibzugriff [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Beschreibt den relativen Winkel des Bewegungspfades. Lese-/Schreibzugriff Single. |
 | [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Beschreibt den relativen Versatzwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der aus die Animation gestartet wird (in Prozent). Lese-/Schreibzugriff PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Gibt an, was der Ursprung des Bewegungspfads in Bezug auf das Layout der Folie oder das übergeordnete Element ist. Lese-/Schreibzugriff [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Gibt die Pfadprimitive an, die von Koordinaten für die Animationsbewegung gefolgt wird. Lese-/Schreibzugriff [`IMotionPath`](../imotionpath). |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Gibt eine x/y-Koordinate an, von der die Animation starten soll (in Prozent). Lese-/Schreibzugriff PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Gibt an, was der Ursprung des Bewegungspfades im Verhältnis zu anderen Elementen wie dem Layout der Folie oder dem übergeordneten Element ist. Lese-/Schreibzugriff [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Gibt die Pfadprimitive an, die von den Koordinaten für die Animationsbewegung gefolgt wird. Lese-/Schreibzugriff [`IMotionPath`](../imotionpath). |
 | [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Gibt an, wie sich der Bewegungspfad bewegt, wenn die Form verschoben wird. Lese-/Schreibzugriff [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stellt die Eigenschaften des Verhaltens dar. Nur-Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Beschreibt das Zentrum der Drehung, das verwendet wird, um einen Bewegungspfad um den X-Winkel zu drehen. Lese-/Schreibzugriff PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stellt die Zeitparameter für das Effekverhalten dar. Lese-/Schreibzugriff [`ITiming`](../itiming). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Repräsentiert die Eigenschaften des Verhaltens. Nur Lesezugriff [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Beschreibt das Zentrum der Rotation, das verwendet wird, um einen Bewegungspfad um den X-Winkel zu drehen. Lese-/Schreibzugriff PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Repräsentiert die Timing-Eigenschaften für das Verhaltens-Effect. Lese-/Schreibzugriff [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Gibt den Zielort für einen Bewegungseffekt der Animation an (in Prozent). Lese-/Schreibzugriff PointF. |
 
 ### Siehe auch

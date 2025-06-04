@@ -1,7 +1,7 @@
 ---
 title: ShowTopPane
 second_title: Aspose.Slides für .NET API Referenz
-description: Zeigt/verbirgt das gesamte obere Paneel. Kann in flashvars überschrieben werden. Der Standardwert ist true.
+description: Ganze obere Leiste ein-/ausblenden. Kann in Flash-Variablen überschrieben werden. Standard ist true.
 type: docs
 weight: 140
 url: /de/aspose.slides.export/iswfoptions/showtoppane/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/iswfoptions/showtoppane/
 
 ## ISwfOptions.ShowTopPane-Eigenschaft
 
-Zeigt/verbirgt das gesamte obere Paneel. Kann in flashvars überschrieben werden. Der Standardwert ist true.
+Ganze obere Leiste ein-/ausblenden. Kann in Flash-Variablen überschrieben werden. Standard ist true.
 
 ```csharp
 public bool ShowTopPane { get; set; }

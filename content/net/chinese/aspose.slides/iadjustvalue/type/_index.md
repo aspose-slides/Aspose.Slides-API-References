@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回形状调整的类型。只读 ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iadjustvalue/type/
 public ShapeAdjustmentType Type { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 枚举 [ShapeAdjustmentType](../../shapeadjustmenttype)
 * 接口 [IAdjustValue](../../iadjustvalue)

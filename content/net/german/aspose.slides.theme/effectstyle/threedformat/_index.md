@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein 3d Format zurück. Nur lesend IThreeDFormat aspose.slides/ithreedformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt ein 3D-Format zurück. Nur lesend IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/effectstyle/threedformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/effectstyle/threedformat/
 
 ## EffectStyle.ThreeDFormat-Eigenschaft
 
-Gibt ein 3d Format zurück. Nur lesend [`IThreeDFormat`](../../../aspose.slides/ithreedformat).
+Gibt ein 3D-Format zurück. Nur lesend [`IThreeDFormat`](../../../aspose.slides/ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }

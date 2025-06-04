@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence de l'API .NET
 description: Supprime une mise en page de la collection.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ilayoutslidecollection/remove/
 ---
 
-## Méthode ILayoutSlideCollection.Remove
+## ILayoutSlideCollection.Remove méthode
 
 Supprime une mise en page de la collection.
 
@@ -23,11 +23,11 @@ public void Remove(ILayoutSlide value)
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Lancée si la mise en page est utilisée dans la présentation (sa propriété HasDependingSlides est vraie). |
+| [PptxEditException](../../pptxeditexception) | Lancé si la mise en page est utilisée dans la présentation (la propriété HasDependingSlides est vraie). |
 
 ### Remarques
 
-1) Pour éviter de lancer l'exception PptxEditException, vérifiez d'abord la propriété HasDependingSlides de la mise en page. 2) Vous pouvez également utiliser la méthode [`Remove`](../../ilayoutslide/remove) pour simplifier le code.
+1) Pour éviter le lancement de la PptxEditException, vérifiez d'abord la propriété HasDependingSlides de la mise en page. 2) Vous pouvez également utiliser la méthode [`Remove`](../../ilayoutslide/remove) pour simplifier le code.
 
 ### Voir aussi
 

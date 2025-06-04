@@ -7,7 +7,7 @@ weight: 220
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginx/
 ---
 
-## Свойство BehaviorProperty.ExtrusionViewPointOriginX
+## BehaviorProperty.ExtrusionViewPointOriginX property
 
 Представляет свойство 'extrusion.viewpointorigin.x'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginx/
 public static BehaviorProperty ExtrusionViewPointOriginX { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,15 +1,15 @@
 ---
 title: IShapeStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示形状样式引用。
+description: 代表形状样式引用。
 type: docs
 weight: 6790
 url: /zh/aspose.slides/ishapestyle/
 ---
 
-## IShapeStyle 接口
+## IShapeStyle接口
 
-表示形状的样式引用。
+代表形状的样式引用。
 
 ```csharp
 public interface IShapeStyle
@@ -20,13 +20,13 @@ public interface IShapeStyle
 | 名称 | 描述 |
 | --- | --- |
 | [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | 返回形状的效果颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的效果列索引。可读写 UInt32。 |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的效果列索引。读写 UInt32。 |
 | [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | 返回形状的填充颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的填充列索引。0表示无填充，正值 - 在主题填充样式中的索引，负值 - 在主题背景样式中的索引。可读写 Int16。 |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | 返回或设置形状在字体集合中的字体索引。可读写 [`FontCollectionIndex`](../fontcollectionindex)。 |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | 返回或设置形状在样式矩阵中的填充列索引。0表示无填充，正值 - 主题填充样式中的索引，负值 - 主题背景样式中的索引。读写 Int16。 |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | 返回或设置形状在字体集合中的字体索引。读写 [`FontCollectionIndex`](../fontcollectionindex)。 |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | 返回形状的字体颜色。只读 [`IColorFormat`](../icolorformat)。 |
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | 返回形状的轮廓颜色。只读 [`IColorFormat`](../icolorformat)。 |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | 返回或设置形状在线条样式矩阵中的列索引。可读写 UInt16。 |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | 返回或设置线条在样式矩阵中的列索引。读写 UInt16。 |
 
 ### 另见
 

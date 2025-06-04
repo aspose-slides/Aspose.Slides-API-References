@@ -1,7 +1,7 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht die Erstellung von Instanzen von Speicheroptionen
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht das Erstellen von Instanzen von Speicheroptionen
 type: docs
 weight: 4270
 url: /de/aspose.slides.export/saveoptionsfactory/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/saveoptionsfactory/
 
 ## SaveOptionsFactory-Klasse
 
-Ermöglicht die Erstellung von Instanzen von Speicheroptionen
+Ermöglicht das Erstellen von Instanzen von Speicheroptionen
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory
@@ -29,7 +29,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 ### Anmerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Abstand zwischen Zeichen zurück oder setzt ihn. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
+description: Gibt den Abstand zwischen Zeichen zurück oder setzt ihn. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/schreibbarer Single.
 type: docs
 weight: 210
 url: /de/aspose.slides/ibaseportionformat/spacing/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseportionformat/spacing/
 
 ## IBasePortionFormat.Spacing-Eigenschaft
 
-Gibt den Abstand zwischen Zeichen zurück oder setzt ihn. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/Schreibzugriff auf Single.
+Gibt den Abstand zwischen Zeichen zurück oder setzt ihn. **float.NaN** bedeutet, dass der Wert undefiniert ist und vom Master geerbt werden sollte. Lese-/schreibbarer Single.
 
 ```csharp
 public float Spacing { get; set; }

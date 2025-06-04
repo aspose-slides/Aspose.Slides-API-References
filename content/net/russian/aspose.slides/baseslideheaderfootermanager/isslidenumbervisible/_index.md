@@ -1,7 +1,7 @@
 ---
 title: IsSlideNumberVisible
-second_title: Aspose.Slides для .NET API Reference
-description: Получает значение, указывающее на наличие заполнитель номера страницы. ReadBoolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает значение, указывающее, что заполнитель номера страницы присутствует. ReadBoolean.
 type: docs
 weight: 30
 url: /ru/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/
 
 ## BaseSlideHeaderFooterManager.IsSlideNumberVisible свойство
 
-Получает значение, указывающее на наличие заполнителя номера страницы. ReadBoolean.
+Получает значение, указывающее, что заполнитель номера страницы присутствует. ReadBoolean.
 
 ```csharp
 public bool IsSlideNumberVisible { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [BaseSlideHeaderFooterManager](../../baseslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../baseslideheaderfootermanager)

@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadLength
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置行的开头的箭头长度。可读写 LineArrowheadLengthaspose.slides/linearrowheadlength。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置线的起始处箭头的长度。可读写 LineArrowheadLengthaspose.slides/linearrowheadlength。
 type: docs
 weight: 20
 url: /zh/aspose.slides/lineformat/beginarrowheadlength/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/lineformat/beginarrowheadlength/
 
 ## LineFormat.BeginArrowheadLength 属性
 
-返回或设置行的开头的箭头长度。可读写 [`LineArrowheadLength`](../../linearrowheadlength)。
+返回或设置线的起始处箭头的长度。可读写 [`LineArrowheadLength`](../../linearrowheadlength)。
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [LineArrowheadLength](../../linearrowheadlength)
 * class [LineFormat](../../lineformat)

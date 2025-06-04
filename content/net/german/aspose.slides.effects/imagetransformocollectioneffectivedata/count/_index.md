@@ -1,15 +1,15 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Bildeffekte in einer Sammlung zurück. Nur lesbares Int32.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Anzahl der Bildeffekte in einer Sammlung zurück. Nur-Lese Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/imagetransformocollectioneffectivedata/count/
 ---
 
-## ImageTransformOCollectionEffectiveData.Count Eigenschaft
+## ImageTransformOCollectionEffectiveData.Count-Eigenschaft
 
-Gibt die Anzahl der Bildeffekte in einer Sammlung zurück. Nur lesbares Int32.
+Gibt die Anzahl der Bildeffekte in einer Sammlung zurück. Nur-Lese Int32.
 
 ```csharp
 public int Count { get; }

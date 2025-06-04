@@ -1,6 +1,6 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API 参考
 description: 角落方向幻灯片过渡效果。
 type: docs
 weight: 9750
@@ -19,8 +19,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 过渡的方向。读写 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本的 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 过渡的方向。可读写 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
 ### 另见
 

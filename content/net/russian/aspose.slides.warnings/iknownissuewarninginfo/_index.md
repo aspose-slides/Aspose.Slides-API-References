@@ -1,6 +1,6 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет предупреждение о известной проблеме, которая не будет исправлена в ближайшем будущем.
 type: docs
 weight: 11450
@@ -21,7 +21,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения [`IWarningInfo`](../iwarninginfo). |
 
-### См. также
+### Также см. 
 
 * интерфейс [IWarningInfo](../iwarninginfo)
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)

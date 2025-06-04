@@ -1,7 +1,7 @@
 ---
 title: TextCapType
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le type de capitalisation du texte. Lecture seule TextCapTypeaspose.slides/textcaptype.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne le type de capitalisation du texte. En lecture seule TextCapTypeaspose.slides/textcaptype.
 type: docs
 weight: 250
 url: /fr/aspose.slides/ibaseportionformateffectivedata/textcaptype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/textcaptype/
 
 ## Propriété IBasePortionFormatEffectiveData.TextCapType
 
-Renvoie le type de capitalisation du texte. Lecture seule [`TextCapType`](../../textcaptype).
+Retourne le type de capitalisation du texte. En lecture seule [`TextCapType`](../../textcaptype).
 
 ```csharp
 public TextCapType TextCapType { get; }

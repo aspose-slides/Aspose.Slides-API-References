@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie un comportement à l'index spécifié.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/ibehaviorcollection/item/
 ---
 
-## Indice IBehaviorCollection
+## IBehaviorCollection indexer
 
 Renvoie un comportement à l'index spécifié.
 

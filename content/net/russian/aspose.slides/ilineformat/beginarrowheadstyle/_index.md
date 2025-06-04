@@ -1,21 +1,21 @@
 ---
 title: BeginArrowheadStyle
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает стиль наконечника стрелки в начале линии. Чтение/запись LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает стиль наконечника стрелки в начале линии. Чтение/запись LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ilineformat/beginarrowheadstyle/
 ---
 
-## Свойство ILineFormat.BeginArrowheadStyle
+## ILineFormat.BeginArrowheadStyle свойство
 
-Возвращает или устанавливает стиль наконечника стрелки в начале линии. Чтение/запись [`LineArrowheadStyle`](../../linearrowheadstyle).
+Возвращает или задает стиль наконечника стрелки в начале линии. Чтение/запись [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle BeginArrowheadStyle { get; set; }
 ```
 
-### См. также
+### Смотрите Также
 
 * enum [LineArrowheadStyle](../../linearrowheadstyle)
 * interface [ILineFormat](../../ilineformat)

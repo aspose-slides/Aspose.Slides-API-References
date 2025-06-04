@@ -1,6 +1,6 @@
 ---
 title: Index
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: type docs
 weight: 110
 url: /ru/aspose.slides.charts/chartdatapoint/index/

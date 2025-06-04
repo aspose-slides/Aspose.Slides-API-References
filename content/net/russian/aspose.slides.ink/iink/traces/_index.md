@@ -1,7 +1,7 @@
 ---
 title: Traces
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает все следы, содержащиеся в элементе IInk IInkTraceaspose.slides/iinktrace. Только для чтения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает все отслеживания, содержащиеся в элементе IInk IInkTraceaspose.slides/iinktrace. Только для чтения.
 type: docs
 weight: 20
 url: /ru/aspose.slides.ink/iink/traces/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.ink/iink/traces/
 
 ## Свойство IInk.Traces
 
-Получает все следы, содержащиеся в элементе IInk [`IInkTrace`](../../iinktrace). Только для чтения.
+Получает все отслеживания, содержащиеся в элементе IInk [`IInkTrace`](../../iinktrace). Только для чтения.
 
 ```csharp
 public IInkTrace[] Traces { get; }

@@ -1,7 +1,7 @@
 ---
 title: Type
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Formanpassung zurück. Nur lesbarer ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Typ der Formanpassung zurück. Schreibgeschützter ShapeAdjustmentTypeaspose.slides/shapeadjustmenttype.
 type: docs
 weight: 40
 url: /de/aspose.slides/iadjustvalue/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iadjustvalue/type/
 
 ## IAdjustValue.Type-Eigenschaft
 
-Gibt den Typ der Formanpassung zurück. Nur lesbarer [`ShapeAdjustmentType`](../../shapeadjustmenttype).
+Gibt den Typ der Formanpassung zurück. Schreibgeschützter [`ShapeAdjustmentType`](../../shapeadjustmenttype).
 
 ```csharp
 public ShapeAdjustmentType Type { get; }

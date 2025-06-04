@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Тип перехода. Чтение/запись TransitionTypeaspose.slides.slideshow/transitiontype.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/slideshowtransition/type/
 public TransitionType Type { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [TransitionType](../../transitiontype)
 * class [SlideShowTransition](../../slideshowtransition)

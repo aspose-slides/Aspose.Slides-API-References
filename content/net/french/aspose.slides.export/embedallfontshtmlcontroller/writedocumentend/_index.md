@@ -1,13 +1,13 @@
 ---
 title: WriteDocumentEnd
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET Référence API
 description: Appelé pour écrire le pied de page du document html. Appelé une fois par conversion de présentation.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/embedallfontshtmlcontroller/writedocumentend/
 ---
 
-## Méthode EmbedAllFontsHtmlController.WriteDocumentEnd
+## EmbedAllFontsHtmlController.WriteDocumentEnd méthode
 
 Appelé pour écrire le pied de page du document html. Appelé une fois par conversion de présentation.
 

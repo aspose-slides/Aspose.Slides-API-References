@@ -1,7 +1,7 @@
 ---
 title: AddEffect
-second_title: Aspose.Sildes for .NET API 参考
-description: 在当前序列的结束处添加新的动画效果，以结束组文本动画。仅当文本段落的数量等于或大于该组的效果数量时有效。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新效果添加到当前序列的末尾，作为文本动画组的末尾。如果文本段落的数量大于或等于该组的效果数量，则此操作有效。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/textanimation/addeffect/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/textanimation/addeffect/
 
 ## TextAnimation.AddEffect 方法
 
-在当前序列的结束处添加新的动画效果，以结束组文本动画。仅当文本段落的数量等于或大于该组的效果数量时有效！
+将新效果添加到当前序列的末尾，作为文本动画组的末尾。如果文本段落的数量大于或等于该组的效果数量，则此操作有效！
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -24,9 +24,9 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 
 ### 返回值
 
-新的效果对象 [`IEffect`](../../ieffect)
+新效果对象 [`IEffect`](../../ieffect)
 
-### 参见
+### 另请参见
 
 * 接口 [IEffect](../../ieffect)
 * 枚举 [EffectType](../../effecttype)

@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le type d'espacement vertical entre les lignes d'une matrice. Les unités d'espacement vertical peuvent être des lignes ou des points stockés en twips. Par défaut  SingleSpacingGap 0
+second_title: Aspose.Slides pour .NET Référence API
+description: Le type d'espacement vertical entre les lignes d'une matrice Les unités d'espacement vertical peuvent être des lignes ou des points stockés en twips. Par défaut  SingleSpacingGap 0
 type: docs
 weight: 110
 url: /fr/aspose.slides.mathtext/imathmatrix/rowgaprule/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathmatrix/rowgaprule/
 
 ## Propriété IMathMatrix.RowGapRule
 
-Le type d'espacement vertical entre les lignes d'une matrice ; Les unités d'espacement vertical peuvent être des lignes ou des points (stockés en twips). Par défaut : SingleSpacingGap (0)
+Le type d'espacement vertical entre les lignes d'une matrice ; les unités d'espacement vertical peuvent être des lignes ou des points (stockés en twips). Par défaut : SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules RowGapRule { get; set; }
@@ -17,7 +17,7 @@ public MathSpacingRules RowGapRule { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.RowGapRule = MathSpacingRules.OneAndHalfSpacingGap;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [MathSpacingRules](../../mathspacingrules)
 * interface [IMathMatrix](../../imathmatrix)

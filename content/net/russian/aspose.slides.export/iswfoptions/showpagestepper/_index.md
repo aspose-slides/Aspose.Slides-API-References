@@ -1,21 +1,21 @@
 ---
 title: ShowPageStepper
-second_title: Справочник по API Aspose.Slides для .NET
-description: Показать/скрыть ползунок страниц. Может быть переопределен в flashvars. По умолчанию true.
+second_title: Ссылка на API Aspose.Slides для .NET
+description: Показать/скрыть шаги страницы. Может быть переопределено в flashvars. По умолчанию true.
 type: docs
 weight: 120
 url: /ru/aspose.slides.export/iswfoptions/showpagestepper/
 ---
 
-## Свойство ISwfOptions.ShowPageStepper
+## ISwfOptions.ShowPageStepper свойство
 
-Показать/скрыть ползунок страниц. Может быть переопределен в flashvars. По умолчанию true.
+Показать/скрыть шаги страницы. Может быть переопределено в flashvars. По умолчанию true.
 
 ```csharp
 public bool ShowPageStepper { get; set; }
 ```
 
-### Также смотри
+### Смотрите также
 
 * интерфейс [ISwfOptions](../../iswfoptions)
 * пространство имен [Aspose.Slides.Export](../../iswfoptions)

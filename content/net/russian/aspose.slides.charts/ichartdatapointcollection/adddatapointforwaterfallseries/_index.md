@@ -1,15 +1,15 @@
 ---
 title: AddDataPointForWaterfallSeries
-second_title: Aspose.Sildes для .NET API Reference
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых Waterfall.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых - Водопад.
 type: docs
 weight: 230
 url: /ru/aspose.slides.charts/ichartdatapointcollection/adddatapointforwaterfallseries/
 ---
 
-## IChartDataPointCollection.AddDataPointForWaterfallSeries метод
+## IChartDataPointCollection.AddDataPointForWaterfallSeries method
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых Waterfall.
+Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых - Водопад.
 
 ```csharp
 public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)
@@ -17,13 +17,13 @@ public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartDataCell | Значение точек данных |
+| value | IChartDataCell | Значение точки данных |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Новая точка данных.
 
-### См. также
+### См. Также
 
 * интерфейс [IChartDataPoint](../../ichartdatapoint)
 * интерфейс [IChartDataCell](../../ichartdatacell)

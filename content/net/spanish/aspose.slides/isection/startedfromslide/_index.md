@@ -15,11 +15,11 @@ Devuelve la primera diapositiva de la sección.
 public ISlide StartedFromSlide { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ISlide](../../islide)
 * interfaz [ISection](../../isection)
 * espacio de nombres [Aspose.Slides](../../isection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

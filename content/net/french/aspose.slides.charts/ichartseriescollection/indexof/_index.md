@@ -1,15 +1,15 @@
 ---
 title: IndexOf
-second_title: Référence API Aspose.Slides pour .NET
-description: Recherche le IChartSeries spécifié aspose.slides.charts/ichartseries et retourne l'index basé sur zéro de la première occurrence dans l'ensemble de la collection
+second_title: Aspose.Sildes pour la référence API .NET
+description: Recherche le IChartSeries spécifié aspose.slides.charts/ichartseries et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartseriescollection/indexof/
 ---
 
-## Méthode IChartSeriesCollection.IndexOf
+## IChartSeriesCollection.IndexOf méthode
 
-Recherche le [`IChartSeries`](../../ichartseries) spécifié et retourne l'index basé sur zéro de la première occurrence dans l'ensemble de la collection
+Recherche le [`IChartSeries`](../../ichartseries) spécifié et renvoie l'index basé sur zéro de la première occurrence dans l'ensemble de la Collection
 
 ```csharp
 public int IndexOf(IChartSeries value)
@@ -17,11 +17,11 @@ public int IndexOf(IChartSeries value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| value | IChartSeries | Valeur de la série de graphique. |
+| value | IChartSeries | Valeur de la série de graphiques. |
 
 ### Valeur de retour
 
-L'index basé sur zéro de la première occurrence de value dans l'ensemble de CollectionBase, si trouvé ; sinon, -1.
+L'index basé sur zéro de la première occurrence de la valeur dans l'ensemble de la CollectionBase, si trouvé ; sinon, -1.
 
 ### Voir aussi
 

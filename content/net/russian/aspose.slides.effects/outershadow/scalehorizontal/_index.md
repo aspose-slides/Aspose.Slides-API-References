@@ -1,15 +1,15 @@
 ---
 title: ScaleHorizontal
-second_title: Справка по API Aspose.Slides для .NET
-description: Указывает горизонтальный коэффициент масштабирования; отрицательное масштабирование приводит к перевороту. Читаемое/записываемое значение Double.
+second_title: Aspose.Slides для .NET API Reference
+description: Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование приводит к перевороту. Читаемое/записываемое значение Double.
 type: docs
 weight: 60
 url: /ru/aspose.slides.effects/outershadow/scalehorizontal/
 ---
 
-## Свойство OuterShadow.ScaleHorizontal
+## OuterShadow.ScaleHorizontal свойство
 
-Указывает горизонтальный коэффициент масштабирования; отрицательное масштабирование приводит к перевороту. Читаемое/записываемое значение Double.
+Указывает горизонтальный коэффициент масштабирования, отрицательное масштабирование приводит к перевороту. Читаемое/записываемое значение Double.
 
 ```csharp
 public double ScaleHorizontal { get; set; }

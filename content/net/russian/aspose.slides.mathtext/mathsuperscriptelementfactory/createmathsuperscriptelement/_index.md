@@ -1,6 +1,6 @@
 ---
 title: CreateMathSuperscriptElement
-second_title: Aspose.Slides для .NET API Справка
+second_title: Aspose.Slides для .NET API Справочник
 description: Создает IMathSuperscriptElement
 type: docs
 weight: 20
@@ -23,7 +23,7 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
 
 ### Возвращаемое значение
 
-новый IMathSuperscriptElement
+new IMathSuperscriptElement
 
 ### См. также
 

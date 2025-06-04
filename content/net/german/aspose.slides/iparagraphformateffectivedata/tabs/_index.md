@@ -1,7 +1,7 @@
 ---
 title: Tabs
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Tabulatoren eines Absatzes zurück. Nur lesen ITabEffectiveDataaspose.slides/itabeffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Tabulatoren eines Absatzes zurück. Nur lesender ITabEffectiveDataaspose.slides/itabeffectivedata
 type: docs
 weight: 170
 url: /de/aspose.slides/iparagraphformateffectivedata/tabs/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformateffectivedata/tabs/
 
 ## IParagraphFormatEffectiveData.Tabs-Eigenschaft
 
-Gibt die Tabulatoren eines Absatzes zurück. Nur lesen [`ITabEffectiveData`](../../itabeffectivedata) [].
+Gibt die Tabulatoren eines Absatzes zurück. Nur lesender [`ITabEffectiveData`](../../itabeffectivedata) [].
 
 ```csharp
 public ITabEffectiveData[] Tabs { get; }

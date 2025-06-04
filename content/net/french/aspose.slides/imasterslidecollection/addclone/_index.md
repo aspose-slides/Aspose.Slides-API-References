@@ -1,13 +1,13 @@
 ---
 title: AddClone
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Ajoute une copie d'une diapositive maître spécifiée à la fin de la collection. Les diapositives de mise en page liées seront également copiées.
 type: docs
 weight: 20
 url: /fr/aspose.slides/imasterslidecollection/addclone/
 ---
 
-## Méthode IMasterSlideCollection.AddClone
+## IMasterSlideCollection.AddClone méthode
 
 Ajoute une copie d'une diapositive maître spécifiée à la fin de la collection. Les diapositives de mise en page liées seront également copiées.
 
@@ -19,11 +19,11 @@ public IMasterSlide AddClone(IMasterSlide sourceMaster)
 | --- | --- | --- |
 | sourceMaster | IMasterSlide | Diapositive à cloner. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Diapositive ajoutée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMasterSlide](../../imasterslide)
 * interface [IMasterSlideCollection](../../imasterslidecollection)

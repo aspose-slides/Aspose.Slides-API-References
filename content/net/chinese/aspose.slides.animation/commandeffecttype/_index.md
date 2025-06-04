@@ -1,7 +1,7 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Slides for .NET API 参考
-description: 表示命令效果行为的命令效果类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示命令效果类型以用于命令效果的行为。
 type: docs
 weight: 190
 url: /zh/aspose.slides.animation/commandeffecttype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/commandeffecttype/
 
 ## CommandEffectType 枚举
 
-表示命令效果行为的命令效果类型。
+表示命令效果类型以用于命令效果的行为。
 
 ```csharp
 public enum CommandEffectType : sbyte
@@ -24,7 +24,7 @@ public enum CommandEffectType : sbyte
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

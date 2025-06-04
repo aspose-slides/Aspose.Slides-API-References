@@ -19,7 +19,7 @@ public IPoint this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPoint](../../ipoint)
 * class [PointCollection](../../pointcollection)

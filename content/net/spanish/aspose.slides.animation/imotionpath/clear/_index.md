@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los comandos de la colección.
 type: docs
 weight: 50
 url: /es/aspose.slides.animation/imotionpath/clear/
 ---
 
-## Método IMotionPath.Clear
+## IMotionPath.Clear method
 
 Elimina todos los comandos de la colección.
 

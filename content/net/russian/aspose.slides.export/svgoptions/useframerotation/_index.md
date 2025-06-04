@@ -1,13 +1,13 @@
 ---
 title: UseFrameRotation
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справочная информация по API Aspose.Slides для .NET
 description: Определяет, следует ли выполнять указанное вращение фигуры при отрисовке или нет. Читаемое/записываемое логическое значение. Значение по умолчанию - true.
 type: docs
 weight: 160
 url: /ru/aspose.slides.export/svgoptions/useframerotation/
 ---
 
-## Свойство SVGOptions.UseFrameRotation
+## SVGOptions.UseFrameRotation свойство
 
 Определяет, следует ли выполнять указанное вращение фигуры при отрисовке или нет. Читаемое/записываемое логическое значение. Значение по умолчанию - true.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/svgoptions/useframerotation/
 public bool UseFrameRotation { get; set; }
 ```
 
-### Также посмотрите
+### См. Также
 
 * класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)

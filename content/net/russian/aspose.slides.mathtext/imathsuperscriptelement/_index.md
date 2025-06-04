@@ -1,7 +1,7 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes для .NET API Reference
-description: Указывает объект надстрочного текста, который состоит из основы и уменьшенного надстрочного текста, расположенного выше и справа
+description: Указывает объект надстрочного текста, который состоит из основания и уменьшенного надстрочного текста, расположенного выше и справа
 type: docs
 weight: 8230
 url: /ru/aspose.slides.mathtext/imathsuperscriptelement/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathsuperscriptelement/
 
 ## Интерфейс IMathSuperscriptElement
 
-Указывает объект надстрочного текста, который состоит из основы и уменьшенного надстрочного текста, расположенного выше и справа
+Указывает объект надстрочного текста, который состоит из основания и уменьшенного надстрочного текста, расположенного выше и справа
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -17,10 +17,10 @@ public interface IMathSuperscriptElement : IMathElement
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Основной аргумент |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Аргумент основания |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Надстрочный текст |
 
 ### Примеры
@@ -32,7 +32,7 @@ public interface IMathSuperscriptElement : IMathElement
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMathElement](../imathelement)
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)

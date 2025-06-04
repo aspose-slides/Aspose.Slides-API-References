@@ -1,7 +1,7 @@
 ---
 title: AddSummaryZoomFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合的末尾添加一个新的摘要缩放对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合的末尾添加一个新的 Summary Zoom 对象。
 type: docs
 weight: 190
 url: /zh/aspose.slides/shapecollection/addsummaryzoomframe/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/shapecollection/addsummaryzoomframe/
 
 ## ShapeCollection.AddSummaryZoomFrame 方法
 
-在集合的末尾添加一个新的摘要缩放对象。
+在集合的末尾添加一个新的 Summary Zoom 对象。
 
 ```csharp
 public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, float height)
@@ -17,14 +17,14 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | 单精度浮点数 | 新的节缩放框架的 X 坐标单精度浮点数。 |
-| y | 单精度浮点数 | 新的节缩放框架的 Y 坐标单精度浮点数。 |
-| width | 单精度浮点数 | 新的节缩放框架的宽度单精度浮点数。 |
-| height | 单精度浮点数 | 新的节缩放框架的高度单精度浮点数。 |
+| x | Single | 新的 Section Zoom 帧的 X 坐标 Single。 |
+| y | Single | 新的 Section Zoom 帧的 Y 坐标 Single。 |
+| width | Single | 新的 Section Zoom 帧的宽度 Single。 |
+| height | Single | 新的 Section Zoom 帧的高度 Single。 |
 
 ### 返回值
 
-创建的摘要缩放对象 [`ISummaryZoomFrame`](../../isummaryzoomframe)。
+创建的 Summary Zoom 对象 [`ISummaryZoomFrame`](../../isummaryzoomframe)。
 
 ### 异常
 
@@ -34,11 +34,11 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 ### 备注
 
-该方法创建一个新的摘要缩放，并将此演示文稿中所有节的对象集合放入其中。
+此方法创建一个新的 Summary Zoom，并将所有 Sections 的对象集合放入其中。
 
 ### 示例
 
-该示例演示如何将摘要缩放对象添加到集合的末尾（假设在 "Presentation.pptx" 演示文稿中至少有两个节）：
+此示例演示了如何在集合的末尾添加一个 Summary Zoom 对象（假设 "Presentation.pptx" 演示文稿中至少有两个节）：
 
 ```csharp
 [C#]

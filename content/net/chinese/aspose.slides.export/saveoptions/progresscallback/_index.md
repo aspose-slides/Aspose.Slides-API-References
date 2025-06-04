@@ -1,7 +1,7 @@
 ---
 title: ProgressCallback
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示用于保存进度更新（以百分比计）的回调对象。请参阅 IProgressCallbackaspose.slides/iprogresscallback。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示用于保存进度百分比更新的回调对象。请参见 IProgressCallbackaspose.slides/iprogresscallback。
 type: docs
 weight: 30
 url: /zh/aspose.slides.export/saveoptions/progresscallback/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/saveoptions/progresscallback/
 
 ## SaveOptions.ProgressCallback 属性
 
-表示用于保存进度更新（以百分比计）的回调对象。请参阅 [`IProgressCallback`](../../../aspose.slides/iprogresscallback)。
+表示用于保存进度百分比更新的回调对象。请参见 [`IProgressCallback`](../../../aspose.slides/iprogresscallback)。
 
 ```csharp
 public IProgressCallback ProgressCallback { get; set; }

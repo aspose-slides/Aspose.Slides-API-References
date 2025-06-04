@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Textausrichtung in einem Absatz zurück. Schreibgeschützte TextAlignmentaspose.slides/textalignment.
+description: Gibt die Textausrichtung in einem Absatz zurück. Nur lesbar TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /de/aspose.slides/iparagraphformateffectivedata/alignment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphformateffectivedata/alignment/
 
 ## IParagraphFormatEffectiveData.Alignment-Eigenschaft
 
-Gibt die Textausrichtung in einem Absatz zurück. Schreibgeschützte [`TextAlignment`](../../textalignment).
+Gibt die Textausrichtung in einem Absatz zurück. Nur lesbar [`TextAlignment`](../../textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; }

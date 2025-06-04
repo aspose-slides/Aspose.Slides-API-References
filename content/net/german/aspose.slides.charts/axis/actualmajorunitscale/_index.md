@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnitScale
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die tatsächliche Haupt-Einheitenskala der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
+description: Gibt die tatsächliche Haupt-Skala der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout auf, um den tatsächlichen Wert zu erhalten.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/axis/actualmajorunitscale/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/actualmajorunitscale/
 
 ## Axis.ActualMajorUnitScale-Eigenschaft
 
-Gibt die tatsächliche Haupt-Einheitenskala der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout() auf, um den tatsächlichen Wert zu erhalten.
+Gibt die tatsächliche Haupt-Skala der Achse an. Rufen Sie zuvor die Methode IChart.ValidateChartLayout() auf, um den tatsächlichen Wert zu erhalten.
 
 ```csharp
 public TimeUnitType ActualMajorUnitScale { get; }

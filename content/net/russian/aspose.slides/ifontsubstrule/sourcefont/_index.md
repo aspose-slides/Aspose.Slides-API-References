@@ -1,13 +1,13 @@
 ---
 title: SourceFont
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Шрифт для замены Read-only IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ifontsubstrule/sourcefont/
 ---
 
-## Свойство IFontSubstRule.SourceFont
+## IFontSubstRule.SourceFont свойство
 
 Шрифт для замены Read-only [`IFontData`](../../ifontdata).
 

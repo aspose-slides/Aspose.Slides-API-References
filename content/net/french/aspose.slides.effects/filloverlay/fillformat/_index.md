@@ -1,7 +1,7 @@
 ---
 title: FillFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Format de remplissage. IFillFormat en lecture seule aspose.slides/ifillformat.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Format de remplissage. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/filloverlay/fillformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/filloverlay/fillformat/
 
 ## Propriété FillOverlay.FillFormat
 
-Format de remplissage. [`IFillFormat`](../../../aspose.slides/ifillformat) en lecture seule.
+Format de remplissage. Lecture seule [`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

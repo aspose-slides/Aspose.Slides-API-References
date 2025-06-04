@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Supprime l'élément à l'index donné.
 type: docs
 weight: 130
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Index d'une catégorie à supprimer. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ChartCategoryCollection](../../chartcategorycollection)
 * espace de noms [Aspose.Slides.Charts](../../chartcategorycollection)

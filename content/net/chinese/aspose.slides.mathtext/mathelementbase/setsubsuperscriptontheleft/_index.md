@@ -23,11 +23,11 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 
 ### 返回值
 
-新数学元素，类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
+类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement) 的新数学元素
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -63,11 +63,11 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 
 ### 返回值
 
-新数学元素，类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
+类型为 [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement) 的新数学元素
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]

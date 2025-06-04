@@ -1,21 +1,21 @@
 ---
 title: TextFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 返回 SmartArt 形状的文本。只读 ITextFrameaspose.slides/../aspose.slides/itextframe。
+second_title: Aspose.Sildes for .NET API参考
+description: 返回SmartArt形状的文本。只读 ITextFrameaspose.slides/itextframe。
 type: docs
 weight: 20
 url: /zh/aspose.slides.smartart/smartartshape/textframe/
 ---
 
-## SmartArtShape.TextFrame 属性
+## SmartArtShape.TextFrame属性
 
-返回 SmartArt 形状的文本。只读 [`ITextFrame`](../../../aspose.slides/itextframe)。
+返回SmartArt形状的文本。只读 [`ITextFrame`](../../../aspose.slides/itextframe)。
 
 ```csharp
 public ITextFrame TextFrame { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITextFrame](../../../aspose.slides/itextframe)
 * 类 [SmartArtShape](../../smartartshape)

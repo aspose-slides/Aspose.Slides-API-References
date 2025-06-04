@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icoloroperation/operationtype/
 public ColorTransformOperation OperationType { get; }
 ```
 
-### 参考
+### 另请参见
 
 * 枚举 [ColorTransformOperation](../../colortransformoperation)
 * 接口 [IColorOperation](../../icoloroperation)

@@ -1,7 +1,7 @@
 ---
 title: IsLogarithmic
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示值轴的刻度类型是否为对数刻度。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示值轴的刻度类型是否为对数。可读/写布尔值。
 type: docs
 weight: 260
 url: /zh/aspose.slides.charts/iaxis/islogarithmic/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/islogarithmic/
 
 ## IAxis.IsLogarithmic 属性
 
-表示值轴的刻度类型是否为对数刻度。可读/可写布尔值。
+表示值轴的刻度类型是否为对数。可读/写布尔值。
 
 ```csharp
 public bool IsLogarithmic { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

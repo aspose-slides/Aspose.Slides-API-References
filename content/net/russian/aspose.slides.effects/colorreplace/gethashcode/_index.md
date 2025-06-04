@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Справочник
-description: Служит в качестве хеш-функции для определенного типа.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Служит в качестве хеш-функции для конкретного типа.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/colorreplace/gethashcode/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.effects/colorreplace/gethashcode/
 
 ## ColorReplace.GetHashCode метод
 
-Служит в качестве хеш-функции для определенного типа.
+Служит в качестве хеш-функции для конкретного типа.
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### Значение Возврата
+### Возвращаемое значение
 
 Хеш-код для текущего объекта.
 
-### См. Также
+### Также смотри
 
 * класс [ColorReplace](../../colorreplace)
 * пространство имен [Aspose.Slides.Effects](../../colorreplace)

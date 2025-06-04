@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет IMathBlock в конец коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides.mathtext/imathblockcollection/add/
 ---
 
-## Метод IMathBlockCollection.Add
+## IMathBlockCollection.Add метод
 
 Добавляет IMathBlock в конец коллекции.
 

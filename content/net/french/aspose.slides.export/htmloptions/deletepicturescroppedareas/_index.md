@@ -1,7 +1,7 @@
 ---
 title: DeletePicturesCroppedAreas
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Un indicateur booléen indique si les parties recadrées restent en tant que partie du document. Si vrai, les parties recadrées seront supprimées, sinon elles seront sérialisées dans le document, ce qui peut éventuellement entraîner un fichier plus volumineux.
+second_title: Aspose.Slides pour la référence d'API .NET
+description: Un drapeau boolean indique si les parties recadrées restent en tant que partie du document. Si vrai, les parties recadrées seront supprimées, si faux, elles seront sérialisées dans le document, ce qui peut éventuellement entraîner un fichier plus volumineux.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/htmloptions/deletepicturescroppedareas/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.export/htmloptions/deletepicturescroppedareas/
 
 ## HtmlOptions.DeletePicturesCroppedAreas propriété
 
-Un indicateur booléen indique si les parties recadrées restent en tant que partie du document. Si vrai, les parties recadrées seront supprimées, sinon elles seront sérialisées dans le document (ce qui peut éventuellement entraîner un fichier plus volumineux).
+Un drapeau boolean indique si les parties recadrées restent en tant que partie du document. Si vrai, les parties recadrées seront supprimées, si faux, elles seront sérialisées dans le document (ce qui peut éventuellement entraîner un fichier plus volumineux)
 
 ```csharp
 public bool DeletePicturesCroppedAreas { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [HtmlOptions](../../htmloptions)
 * espace de noms [Aspose.Slides.Export](../../htmloptions)

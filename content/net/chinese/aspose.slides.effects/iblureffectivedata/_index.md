@@ -1,15 +1,15 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes for .NET API 参考
-description: 不可变对象，表示应用于整个形状的模糊效果，包括其填充。所有颜色通道（包括 alpha）都会受到影响。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，表示应用于整个形状（包括其填充）的模糊效果。所有颜色通道，包括 alpha，都会受到影响。
 type: docs
 weight: 3090
 url: /zh/aspose.slides.effects/iblureffectivedata/
 ---
 
-## IBlurEffectiveData 接口
+## IBlurEffectiveData interface
 
-不可变对象，表示应用于整个形状的模糊效果，包括其填充。所有颜色通道（包括 alpha）都会受到影响。
+不可变对象，表示应用于整个形状（包括其填充）的模糊效果。所有颜色通道，包括 alpha，都受到影响。
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -20,10 +20,10 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 | 名称 | 描述 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | 允许获取基础的 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | 确定由于模糊而是否应扩展对象的边界。True 表示边界被扩展，而 false 表示不扩展。只读布尔值。 |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | 确定在模糊的结果下，对象的边界是否应该增长。True 表示边界已增长，而 false 表示未增长。只读布尔值。 |
 | [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | 返回或设置模糊半径。只读双精度数。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

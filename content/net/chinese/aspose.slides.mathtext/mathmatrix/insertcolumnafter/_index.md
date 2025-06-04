@@ -1,7 +1,7 @@
 ---
 title: InsertColumnAfter
 second_title: Aspose.Sildes for .NET API Reference
-description: 在指定列后插入新列，初始时新列中的所有元素均为 null。
+description: 在指定列之后插入一个新列。新列中的所有元素最初都是 null。
 type: docs
 weight: 160
 url: /zh/aspose.slides.mathtext/mathmatrix/insertcolumnafter/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathmatrix/insertcolumnafter/
 
 ## MathMatrix.InsertColumnAfter 方法
 
-在指定列后插入新列，初始时新列中的所有元素均为 null。
+在指定列之后插入一个新列。新列中的所有元素最初都是 null。
 
 ```csharp
 public void InsertColumnAfter(int columnIndex)
@@ -17,11 +17,11 @@ public void InsertColumnAfter(int columnIndex)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 要在其后插入新列的列索引 |
+| columnIndex | Int32 | 在其之后插入新列的列索引 |
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -29,7 +29,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.InsertColumnAfter(0);
 ```
 
-### 另见
+### 另请参阅
 
 * 类 [MathMatrix](../../mathmatrix)
 * 命名空间 [Aspose.Slides.MathText](../../mathmatrix)

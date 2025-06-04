@@ -1,13 +1,13 @@
 ---
 title: AsIBulkTextFormattable
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IBulkTextFormattable. IBulkTextFormattable solo lectura aspose.slides/ibulktextformattable.
+second_title: Referencia API de Aspose.Sildes para .NET
+description: Permite obtener la interfaz base IBulkTextFormattable. Solo lectura IBulkTextFormattableaspose.slides/ibulktextformattable.
 type: docs
 weight: 10
 url: /es/aspose.slides/icolumn/asibulktextformattable/
 ---
 
-## Propiedad IColumn.AsIBulkTextFormattable
+## IColumn.AsIBulkTextFormattable propiedad
 
 Permite obtener la interfaz base IBulkTextFormattable. Solo lectura [`IBulkTextFormattable`](../../ibulktextformattable).
 
@@ -20,6 +20,6 @@ public IBulkTextFormattable AsIBulkTextFormattable { get; }
 * interfaz [IBulkTextFormattable](../../ibulktextformattable)
 * interfaz [IColumn](../../icolumn)
 * espacio de nombres [Aspose.Slides](../../icolumn)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

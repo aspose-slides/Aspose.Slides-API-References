@@ -1,6 +1,6 @@
 ---
 title: Columns
-second_title: Referencia API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve la colección de columnas. Solo lectura IColumnCollection aspose.slides/icolumncollection.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Devuelve la colección de columnas. Solo lectura [`IColumnCollection`](../../ico
 public IColumnCollection Columns { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IColumnCollection](../../icolumncollection)
-* clase [Table](../../table)
-* espacio de nombres [Aspose.Slides](../../table)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColumnCollection](../../icolumncollection)
+* clase [Table](../../table)
+* espacio de nombres [Aspose.Slides](../../table)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

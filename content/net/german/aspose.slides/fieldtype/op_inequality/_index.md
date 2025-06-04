@@ -1,6 +1,6 @@
 ---
 title: op_Inequality
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Überprüft, ob zwei FieldType-Objekte ungleich sind.
 type: docs
 weight: 230
@@ -17,12 +17,12 @@ public static bool operator !=(FieldType a, FieldType b)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| a | FieldType | Erster FieldType zum Vergleichen. |
-| b | FieldType | Zweiter FieldType zum Vergleichen. |
+| a | FieldType | Erstes FieldType zum Vergleichen. |
+| b | FieldType | Zweites FieldType zum Vergleichen. |
 
 ### Rückgabewert
 
-Wahr, wenn die FieldType-Objekte nicht gleich sind.
+True, wenn die FieldType-Objekte nicht gleich sind.
 
 ### Siehe auch
 

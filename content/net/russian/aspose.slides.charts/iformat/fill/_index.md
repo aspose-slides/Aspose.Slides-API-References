@@ -1,21 +1,21 @@
 ---
 title: Fill
-second_title: Справочник API Aspose.Sildes для .NET
-description: Возвращает свойства стиля заливки графика. Только для чтения IFillFormataspose.slides/ifillformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает свойства стиля заливки диаграммы. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 30
 url: /ru/aspose.slides.charts/iformat/fill/
 ---
 
-## Свойство IFormat.Fill
+## IFormat.Fill свойство
 
-Возвращает свойства стиля заливки графика. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
+Возвращает свойства стиля заливки диаграммы. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat Fill { get; }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [IFillFormat](../../../aspose.slides/ifillformat)
 * интерфейс [IFormat](../../iformat)

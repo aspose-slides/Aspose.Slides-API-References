@@ -1,6 +1,6 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет объект inkBrush.
 type: docs
 weight: 7340

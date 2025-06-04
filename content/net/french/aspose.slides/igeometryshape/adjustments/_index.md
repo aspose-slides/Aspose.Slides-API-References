@@ -1,7 +1,7 @@
 ---
 title: Adjustments
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne une collection de valeurs d'ajustement de formes. Lecture seule IAdjustValueCollection aspose.slides/iadjustvaluecollection.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie une collection de valeurs d'ajustement de formes. Lecture seule IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs
 weight: 10
 url: /fr/aspose.slides/igeometryshape/adjustments/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/igeometryshape/adjustments/
 
 ## Propriété IGeometryShape.Adjustments
 
-Retourne une collection de valeurs d'ajustement de la forme. Lecture seule [`IAdjustValueCollection`](../../iadjustvaluecollection).
+Renvoie une collection des valeurs d'ajustement de la forme. Lecture seule [`IAdjustValueCollection`](../../iadjustvaluecollection).
 
 ```csharp
 public IAdjustValueCollection Adjustments { get; }

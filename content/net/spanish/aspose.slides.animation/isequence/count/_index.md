@@ -15,10 +15,10 @@ Devuelve el número de efectos en una secuencia. Solo lectura Int32.
 public int Count { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ISequence](../../isequence)
 * espacio de nombres [Aspose.Slides.Animation](../../isequence)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -21,7 +21,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Permite obtener la interfaz base IBaseTableFormatEffectiveData. Solo lectura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Observaciones
+### Comentarios
 
 Esta interfaz se utiliza junto con la interfaz [`IRowFormat`](../irowformat) para devolver valores de formato efectivos con herencia y estilos de tabla aplicados.
 
@@ -29,6 +29,6 @@ Esta interfaz se utiliza junto con la interfaz [`IRowFormat`](../irowformat) par
 
 * interfaz [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* ensamblaje [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

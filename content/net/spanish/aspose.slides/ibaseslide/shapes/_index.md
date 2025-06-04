@@ -1,7 +1,7 @@
 ---
 title: Shapes
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve las formas de una diapositiva. IShapeCollection de solo lectura aspose.slides/ishapecollection.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve las formas de una diapositiva. Solo lectura IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 70
 url: /es/aspose.slides/ibaseslide/shapes/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/ibaseslide/shapes/
 
 ## Propiedad IBaseSlide.Shapes
 
-Devuelve las formas de una diapositiva. [`IShapeCollection`](../../ishapecollection) de solo lectura.
+Devuelve las formas de una diapositiva. Solo lectura [`IShapeCollection`](../../ishapecollection).
 
 ```csharp
 public IShapeCollection Shapes { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [IShapeCollection](../../ishapecollection)
 * interfaz [IBaseSlide](../../ibaseslide)

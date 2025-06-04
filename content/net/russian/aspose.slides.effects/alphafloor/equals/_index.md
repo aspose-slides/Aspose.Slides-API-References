@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справка
 description: Определяет, равен ли указанный AlphaFlooraspose.slides.effects/alphafloor текущему AlphaFlooraspose.slides.effects/alphafloor.
 type: docs
 weight: 10
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | [`AlphaFloor`](../../alphafloor) для сравнения. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 true, если объекты равны; в противном случае false.
 
-### См. также
+### См. Также
 
 * класс [AlphaFloor](../../alphafloor)
 * пространство имен [Aspose.Slides.Effects](../../alphafloor)

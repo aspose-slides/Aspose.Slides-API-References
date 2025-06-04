@@ -1,7 +1,7 @@
 ---
 title: Radius
-second_title: Aspose.Slides for .NET API 参考
-description: 半径。读/写双精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 半径。读/写 Double。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/iglow/radius/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iglow/radius/
 
 ## IGlow.Radius 属性
 
-半径。读/写双精度浮点数。
+半径。读/写 Double。
 
 ```csharp
 public double Radius { get; set; }

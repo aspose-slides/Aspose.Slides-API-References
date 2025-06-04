@@ -1,7 +1,7 @@
 ---
 title: StrikethroughBottomLeftToTopRight
-second_title: Aspose.Sildes for .NET API 参考
-description: 从左下到右上的删除线默认是false。指定从边框框的左下角到右上角的删除线的隐藏或显示状态。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从左下角到右上角的删除线默认值为false。指定从边框框的左下角到右上角的删除线的隐藏或显示状态。
 type: docs
 weight: 70
 url: /zh/aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathborderbox/strikethroughbottomlefttotopright/
 
 ## MathBorderBox.StrikethroughBottomLeftToTopRight 属性
 
-从左下到右上的删除线（默认是false）。指定从边框框的左下角到右上角的删除线的隐藏或显示状态。
+从左下角到右上角的删除线（默认值为false）。指定从边框框的左下角到右上角的删除线的隐藏或显示状态。
 
 ```csharp
 public bool StrikethroughBottomLeftToTopRight { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.StrikethroughBottomLeftToTopRight = true;
 ```
 
-### 另请参阅
+### 参见
 
 * class [MathBorderBox](../../mathborderbox)
 * namespace [Aspose.Slides.MathText](../../mathborderbox)

@@ -1,6 +1,6 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Slides для справки API .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Этот класс позволяет инициализировать IBitmapWrapper.
 type: docs
 weight: 7230
@@ -29,7 +29,7 @@ public class ImageWrapperFactory : IImageWrapperFactory
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(Stream) | Инициализирует новый экземпляр класса BitmapWrapper из указанного потока данных. |
 | [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_3)(string) | Инициализирует новый экземпляр класса BitmapWrapper из указанного файла. |
 
-### См. Также
+### См. также
 
 * интерфейс [IImageWrapperFactory](../iimagewrapperfactory)
 * пространство имен [Aspose.Slides](../../aspose.slides)

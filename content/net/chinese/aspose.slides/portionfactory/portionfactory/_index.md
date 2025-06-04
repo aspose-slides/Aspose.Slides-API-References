@@ -1,6 +1,6 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/portionfactory/portionfactory/
 public PortionFactory()
 ```
 
-### 另请参见
+### 另见
 
 * class [PortionFactory](../../portionfactory)
 * namespace [Aspose.Slides](../../portionfactory)

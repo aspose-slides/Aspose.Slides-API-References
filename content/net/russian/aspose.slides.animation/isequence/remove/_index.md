@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Sildes для .NET
 description: Удаляет указанный эффект из коллекции.
 type: docs
 weight: 100
 url: /ru/aspose.slides.animation/isequence/remove/
 ---
 
-## Метод ISequence.Remove
+## ISequence.Remove method
 
 Удаляет указанный эффект из коллекции.
 
@@ -19,7 +19,7 @@ public void Remove(IEffect item)
 | --- | --- | --- |
 | item | IEffect | Эффект для удаления. |
 
-### См. также
+### См. Также
 
 * интерфейс [IEffect](../../ieffect)
 * интерфейс [ISequence](../../isequence)

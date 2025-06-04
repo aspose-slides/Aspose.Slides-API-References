@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Bestimmt, ob das angegebene AlphaCeilingaspose.slides.effects/alphaceiling gleich dem aktuellen AlphaCeilingaspose.slides.effects/alphaceiling ist.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/alphaceiling/equals/
 ---
 
-## AlphaCeiling.Equals Methode
+## AlphaCeiling.Equals-Methode
 
 Bestimmt, ob das angegebene [`AlphaCeiling`](../../alphaceiling) gleich dem aktuellen [`AlphaCeiling`](../../alphaceiling) ist.
 
@@ -23,7 +23,7 @@ public override bool Equals(object obj)
 
 true, wenn die Objekte gleich sind; andernfalls false.
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [AlphaCeiling](../../alphaceiling)
 * Namespace [Aspose.Slides.Effects](../../alphaceiling)

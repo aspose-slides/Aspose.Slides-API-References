@@ -1,7 +1,7 @@
 ---
 title: CreatedTime
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置评论创建的时间。将此属性设置为 MinValue 意味着没有设置评论时间。可读/可写的 DateTime。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置评论创建时间。将此属性设置为 MinValue 意味着没有设置评论时间。可读写 DateTime。
 type: docs
 weight: 20
 url: /zh/aspose.slides/icomment/createdtime/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icomment/createdtime/
 
 ## IComment.CreatedTime 属性
 
-返回或设置评论创建的时间。将此属性设置为 MinValue 意味着没有设置评论时间。可读/可写的 DateTime。
+返回或设置评论创建时间。将此属性设置为 MinValue 意味着没有设置评论时间。可读写 DateTime。
 
 ```csharp
 public DateTime CreatedTime { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Subtype
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 定义效果的子类型。读/写 EffectSubtypeaspose.slides.animation/effectsubtype。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/effect/subtype/
 public EffectSubtype Subtype { get; set; }
 ```
 
-### 另见
+### 参见
 
 * enum [EffectSubtype](../../effectsubtype)
 * class [Effect](../../effect)

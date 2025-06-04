@@ -1,21 +1,21 @@
 ---
 title: AdjustHandlesLocked
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se prohíbe cambiar los valores de ajuste. Booleano de lectura/escritura.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Determina si se prohíbe cambiar los valores ajustados. Booleano de lectura/escritura.
 type: docs
 weight: 10
 url: /es/aspose.slides/autoshapelock/adjusthandleslocked/
 ---
 
-## AutoShapeLock.AjustarMangosBloqueados propiedad
+## AutoShapeLock.AdjustHandlesLocked propiedad
 
-Determina si se prohíbe cambiar los valores de ajuste. Booleano de lectura/escritura.
+Determina si se prohíbe cambiar los valores ajustados. Booleano de lectura/escritura.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [AutoShapeLock](../../autoshapelock)
 * espacio de nombres [Aspose.Slides](../../autoshapelock)

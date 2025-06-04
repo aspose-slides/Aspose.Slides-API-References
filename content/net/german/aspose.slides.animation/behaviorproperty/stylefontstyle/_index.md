@@ -7,7 +7,7 @@ weight: 1080
 url: /de/aspose.slides.animation/behaviorproperty/stylefontstyle/
 ---
 
-## BehaviorProperty.StyleFontStyle Eigenschaft
+## BehaviorProperty.StyleFontStyle-Eigenschaft
 
 Stellt die Eigenschaft 'style.fontStyle' dar
 
@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'style.fontStyle' dar
 public static BehaviorProperty StyleFontStyle { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

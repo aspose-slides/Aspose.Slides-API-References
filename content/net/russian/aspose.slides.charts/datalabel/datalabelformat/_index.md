@@ -1,13 +1,13 @@
 ---
 title: DataLabelFormat
-second_title: Справочник API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает формат метки данных. Только для чтения IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/datalabel/datalabelformat/
 ---
 
-## Свойство DataLabel.DataLabelFormat
+## DataLabel.DataLabelFormat свойство
 
 Возвращает формат метки данных. Только для чтения [`IDataLabelFormat`](../../idatalabelformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/datalabel/datalabelformat/
 public IDataLabelFormat DataLabelFormat { get; }
 ```
 
-### Также см.
+### Смотрите также
 
 * интерфейс [IDataLabelFormat](../../idatalabelformat)
 * класс [DataLabel](../../datalabel)

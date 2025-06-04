@@ -1,21 +1,21 @@
 ---
 title: Value0
-second_title: Aspose.Slides for .NET API 参考
-description: 定义偏移量的第一个值。可读/写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义偏移的第一个值。可读/可写单精度浮点数。
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/icoloroffset/value0/
 ---
 
-## IColorOffset.Value0 属性
+## IColorOffset.Value0属性
 
-定义偏移量的第一个值。可读/写单精度浮点数。
+定义偏移的第一个值。可读/可写单精度浮点数。
 
 ```csharp
 public float Value0 { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IColorOffset](../../icoloroffset)
 * 命名空间 [Aspose.Slides.Animation](../../icoloroffset)

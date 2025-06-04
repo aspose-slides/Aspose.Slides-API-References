@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides/itagcollection/getvaluebyindex/
 ---
 
-## ITagCollection.GetValueByIndex Methode
+## ITagCollection.GetValueByIndex-Methode
 
 Gibt den Wert eines Tags am angegebenen Index zurück.
 

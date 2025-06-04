@@ -1,13 +1,13 @@
 ---
 title: AddControl
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sldes para .NET Referencia de API
 description: Crea y agrega un nuevo control a la colección.
 type: docs
 weight: 20
 url: /es/aspose.slides/icontrolcollection/addcontrol/
 ---
 
-## Método IControlCollection.AddControl
+## IControlCollection.AddControl método
 
 Crea y agrega un nuevo control a la colección.
 
@@ -23,16 +23,16 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 | width | Single | El ancho del marco de la forma. |
 | height | Single | La altura del marco de la forma. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Control creado [`IControl`](../../icontrol).
 
-### Vea También
+### Ver también
 
-* interfaz [IControl](../../icontrol)
+* interface [IControl](../../icontrol)
 * enum [ControlType](../../controltype)
-* interfaz [IControlCollection](../../icontrolcollection)
-* espacio de nombres [Aspose.Slides](../../icontrolcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IControlCollection](../../icontrolcollection)
+* namespace [Aspose.Slides](../../icontrolcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

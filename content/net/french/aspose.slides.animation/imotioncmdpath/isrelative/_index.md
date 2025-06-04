@@ -7,7 +7,7 @@ weight: 20
 url: /fr/aspose.slides.animation/imotioncmdpath/isrelative/
 ---
 
-## Propriété IMotionCmdPath.IsRelative
+## IMotionCmdPath.IsRelative propriété
 
 Détermine si les coordonnées de la commande sont relatives ou non. Lecture/écriture de type Booléen.
 

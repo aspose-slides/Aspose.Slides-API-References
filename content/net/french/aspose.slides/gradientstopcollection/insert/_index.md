@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Crée le nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
 type: docs
 weight: 90
 url: /fr/aspose.slides/gradientstopcollection/insert/
 ---
 
-## Insérer(int, float, Color) {#insert_2}
+## Insert(int, float, Color) {#insert_2}
 
 Crée le nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
 
@@ -29,7 +29,7 @@ public void Insert(int index, float position, Color color)
 
 ---
 
-## Insérer(int, float, PresetColor) {#insert}
+## Insert(int, float, PresetColor) {#insert}
 
 Crée le nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
 
@@ -52,7 +52,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ---
 
-## Insérer(int, float, SchemeColor) {#insert_1}
+## Insert(int, float, SchemeColor) {#insert_1}
 
 Crée le nouvel arrêt de dégradé et l'insère à l'index spécifié dans la collection.
 

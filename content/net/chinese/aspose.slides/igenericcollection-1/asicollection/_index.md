@@ -19,7 +19,7 @@ public ICollection AsICollection { get; }
 
 用于 COM 兼容性。
 
-### 另请参阅
+### 参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../igenericcollection-1)
 * 命名空间 [Aspose.Slides](../../igenericcollection-1)

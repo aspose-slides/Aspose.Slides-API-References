@@ -1,15 +1,15 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert thread-sicher ist. Nur lesbares Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert threadsicher ist. Nur-lesen Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/extracolorschemecollection/issynchronized/
 ---
 
-## ExtraColorSchemeCollection.IsSynchronized-Eigenschaft
+## ExtraColorSchemeCollection.IsSynchronized Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert (thread-sicher) ist. Nur lesbares Boolean.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die ArrayList synchronisiert (threadsicher) ist. Nur-lesen Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

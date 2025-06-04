@@ -1,6 +1,6 @@
 ---
 title: Line
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve las propiedades del estilo de línea de un gráfico. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Devuelve las propiedades del estilo de línea de un gráfico. Solo lectura [`ILi
 public ILineFormat Line { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [ILineFormat](../../../aspose.slides/ilineformat)
 * interfaz [IFormat](../../iformat)

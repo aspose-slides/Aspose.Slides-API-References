@@ -1,7 +1,7 @@
 ---
 title: UpVector
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit un vecteur représentant le haut. Pour être plus précis, cet attribut définit un vecteur représentant le haut par rapport à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Single.
+second_title: Aspose.Slides pour .NET Référence API
+description: Renvoie ou définit un vecteur représentant le haut. Pour être plus précis, cet attribut définit un vecteur représentant le haut par rapport à la face du plan de fond. Vecteur représenté par un tableau de 3 valeurs flottantes qui définissent les coordonnées X, Y et Z. Lecture/écriture Unique.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ibackdrop3dscene/upvector/

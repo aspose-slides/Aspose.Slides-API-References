@@ -1,13 +1,13 @@
 ---
 title: PortionFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Initialisiert eine neue Instanz der Klasse PortionFormataspose.slides/portionformat.
+description: Initialisiert eine neue Instanz der PortionFormataspose.slides/portionformat Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides/portionformat/portionformat/
 ---
 
-## Konstruktor von PortionFormat
+## PortionFormat Konstruktor
 
 Initialisiert eine neue Instanz der [`PortionFormat`](../../portionformat) Klasse.
 

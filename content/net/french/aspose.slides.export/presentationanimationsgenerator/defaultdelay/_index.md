@@ -1,7 +1,7 @@
 ---
 title: DefaultDelay
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit le temps de délai par défaut ms.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient ou définit le temps de retard par défaut en ms.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/presentationanimationsgenerator/defaultdelay/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/presentationanimationsgenerator/defaultdelay/
 
 ## Propriété PresentationAnimationsGenerator.DefaultDelay
 
-Obtient ou définit le temps de délai par défaut [ms].
+Obtient ou définit le temps de retard par défaut [ms].
 
 ```csharp
 public int DefaultDelay { get; set; }

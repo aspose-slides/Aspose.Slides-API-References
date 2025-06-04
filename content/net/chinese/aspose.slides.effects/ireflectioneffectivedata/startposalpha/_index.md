@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
-second_title: Aspose.Slides for .NET API 参考
-description: 指定起始 alpha 值百分比的 alpha 渐变坡道的起始位置。只读单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定起始alpha值百分比的alpha渐变坡道的起始位置。只读单精度浮点数。
 type: docs
 weight: 140
 url: /zh/aspose.slides.effects/ireflectioneffectivedata/startposalpha/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/startposalpha/
 
 ## IReflectionEffectiveData.StartPosAlpha 属性
 
-指定起始 alpha 值（百分比）的起始位置（沿着 alpha 渐变坡道）。只读单精度浮点数。
+指定起始alpha值（百分比）的起始位置（沿着alpha渐变坡道）。只读单精度浮点数。
 
 ```csharp
 public float StartPosAlpha { get; }

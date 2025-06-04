@@ -1,15 +1,15 @@
 ---
 title: IFormatFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 通过 COM 接口创建格式。
+description: 允许通过COM接口创建格式。
 type: docs
 weight: 5740
 url: /zh/aspose.slides/iformatfactory/
 ---
 
-## IFormatFactory 接口
+## IFormatFactory接口
 
-通过 COM 接口创建格式。
+允许通过COM接口创建格式。
 
 ```csharp
 public interface IFormatFactory
@@ -23,7 +23,7 @@ public interface IFormatFactory
 | [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 创建新的 [`IPortionFormat`](../iportionformat)。 |
 | [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 创建新的 [`ITextFrameFormat`](../itextframeformat)。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

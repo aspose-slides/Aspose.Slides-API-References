@@ -1,7 +1,7 @@
 ---
 title: PresentationFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das beabsichtigte Format einer Präsentation zurück oder setzt es. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das beabsichtigte Format einer Präsentation zurück oder setzt es. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 270
 url: /de/aspose.slides/documentproperties/presentationformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/documentproperties/presentationformat/
 
 ## DocumentProperties.PresentationFormat-Eigenschaft
 
-Gibt das beabsichtigte Format einer Präsentation zurück oder setzt es. Lese-/Schreib-String.
+Gibt das beabsichtigte Format einer Präsentation zurück oder setzt es. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string PresentationFormat { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

@@ -7,7 +7,7 @@ weight: 80
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addalphainverseeffect/
 ---
 
-## Метод ImageTransformOperationCollection.AddAlphaInverseEffect
+## ImageTransformOperationCollection.AddAlphaInverseEffect метод
 
 Добавляет новый эффект Alpha Inverse в конец коллекции.
 

@@ -1,13 +1,13 @@
 ---
 title: Worksheets
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Obtient une collection de feuilles de calcul.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/chartdataworkbook/worksheets/
 ---
 
-## Propriété ChartDataWorkbook.Worksheets
+## ChartDataWorkbook.Worksheets property
 
 Obtient une collection de feuilles de calcul.
 

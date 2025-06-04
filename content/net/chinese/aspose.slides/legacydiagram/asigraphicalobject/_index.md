@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
-second_title: Aspose.Slides for .NET API Reference
-description: 允许获取基本的 IGraphicalObject 接口。只读 IGraphicalObjectaspose.slides/igraphicalobject。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础的 IGraphicalObject 接口。只读 IGraphicalObject aspose.slides/igraphicalobject。
 type: docs
 weight: 10
 url: /zh/aspose.slides/legacydiagram/asigraphicalobject/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/legacydiagram/asigraphicalobject/
 
 ## LegacyDiagram.AsIGraphicalObject 属性
 
-允许获取基本的 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../igraphicalobject)。
+允许获取基础的 IGraphicalObject 接口。只读 [`IGraphicalObject`](../../igraphicalobject)。
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }

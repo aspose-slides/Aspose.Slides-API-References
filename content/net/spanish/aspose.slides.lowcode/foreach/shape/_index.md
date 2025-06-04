@@ -17,7 +17,7 @@ public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pres | Presentation | Presentación para iterar las formas de diseño |
+| pres | Presentation | Presentación para iterar formas de diseño |
 | forEachShape | ForEachShapeCallback | Callback que será invocado para cada forma |
 
 ### Ejemplos
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Vea También
+### Véase también
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
@@ -52,8 +52,8 @@ public static void Shape(Presentation pres, bool includeNotes, ForEachShapeCallb
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| pres | Presentation | Presentación para iterar las formas de diseño |
-| includeNotes | Boolean | Indicador que indica si las NotesSlides deben incluirse en el procesamiento. |
+| pres | Presentation | Presentación para iterar formas de diseño |
+| includeNotes | Boolean | Bandera que indica si se deben incluir las NotesSlides en el procesamiento. |
 | forEachShape | ForEachShapeCallback | Callback que será invocado para cada forma |
 
 ### Ejemplos
@@ -68,7 +68,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Vea También
+### Véase también
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
@@ -88,7 +88,7 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| baseSlide | BaseSlide | Diapositiva para iterar las formas de diseño |
+| baseSlide | BaseSlide | Diapositiva para iterar formas de diseño |
 | forEachShape | ForEachShapeCallback | Callback que será invocado para cada forma |
 
 ### Ejemplos
@@ -106,7 +106,7 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 } 
 ```
 
-### Vea También
+### Véase también
 
 * class [BaseSlide](../../../aspose.slides/baseslide)
 * delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)

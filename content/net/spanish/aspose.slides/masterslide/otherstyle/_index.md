@@ -1,7 +1,7 @@
 ---
 title: OtherStyle
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el estilo de un texto diferente. Solo lectura ITextStyleaspose.slides/itextstyle.
+description: Devuelve el estilo de un otro texto. Solo lectura ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 60
 url: /es/aspose.slides/masterslide/otherstyle/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/masterslide/otherstyle/
 
 ## Propiedad MasterSlide.OtherStyle
 
-Devuelve el estilo de un texto diferente. Solo lectura [`ITextStyle`](../../itextstyle).
+Devuelve el estilo de un otro texto. Solo lectura [`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle OtherStyle { get; }
@@ -20,6 +20,6 @@ public ITextStyle OtherStyle { get; }
 * interfaz [ITextStyle](../../itextstyle)
 * clase [MasterSlide](../../masterslide)
 * espacio de nombres [Aspose.Slides](../../masterslide)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

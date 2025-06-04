@@ -1,7 +1,7 @@
 ---
 title: ITextStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Propriétés de formatage de style de texte.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Propriétés de formatage du style de texte.
 type: docs
 weight: 7090
 url: /fr/aspose.slides/itextstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itextstyle/
 
 ## Interface ITextStyle
 
-Propriétés de formatage de style de texte.
+Propriétés de formatage du style de texte.
 
 ```csharp
 public interface ITextStyle
@@ -19,13 +19,13 @@ public interface ITextStyle
 
 | Nom | Description |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Propriétés de paragraphe par défaut. En lecture seule [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Propriétés de paragraphe par défaut. Lecture seule [`IParagraphFormat`](../iparagraphformat). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Obtient les données de formatage de style de texte effectives avec l'héritage appliqué. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Obtenir les données de formatage de style de texte effectif avec l'héritage appliqué. |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Si le niveau de style existe, le retourne, sinon retourne null. |
 
 ### Voir aussi

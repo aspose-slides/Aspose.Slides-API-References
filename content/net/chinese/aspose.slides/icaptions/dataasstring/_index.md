@@ -1,7 +1,7 @@
 ---
 title: DataAsString
-second_title: Aspose.Slides for .NET API 参考
-description: 以 UTF-8 编码的字符串返回闭 caption 数据 只读字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回以 UTF-8 编码的闭caption数据字符串，只读字符串。
 type: docs
 weight: 30
 url: /zh/aspose.slides/icaptions/dataasstring/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icaptions/dataasstring/
 
 ## ICaptions.DataAsString 属性
 
-以 UTF-8 编码的字符串返回闭 caption 数据 只读字符串。
+返回以 UTF-8 编码的闭caption数据字符串，只读字符串。
 
 ```csharp
 public string DataAsString { get; }
 ```
 
-### 参见
+### 参考链接
 
 * 接口 [ICaptions](../../icaptions)
 * 命名空间 [Aspose.Slides](../../icaptions)

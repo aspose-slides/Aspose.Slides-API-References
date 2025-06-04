@@ -1,21 +1,21 @@
 ---
 title: NumberFormatOfYValues
 second_title: Aspose.Slides für .NET API Referenz
-description: NumberFormatOfYValues. Lese-/Schreib-String.
+description: NumberFormatOfYValues. Lese-/schreibbare Zeichenfolge.
 type: docs
 weight: 250
 url: /de/aspose.slides.charts/chartseries/numberformatofyvalues/
 ---
 
-## ChartSeries.NumberFormatOfYValues Eigenschaft
+## ChartSeries.NumberFormatOfYValues-Eigenschaft
 
-NumberFormatOfYValues. Lese-/Schreib-String.
+NumberFormatOfYValues. Lese-/schreibbare Zeichenfolge.
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ChartSeries](../../chartseries)
 * Namespace [Aspose.Slides.Charts](../../chartseries)

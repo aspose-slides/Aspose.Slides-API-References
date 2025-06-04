@@ -1,15 +1,15 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 不可变对象，包含有效的文本框格式属性。
+description: 包含有效文本框格式属性的不可变对象。
 type: docs
 weight: 7070
 url: /zh/aspose.slides/itextframeformateffectivedata/
 ---
 
-## ITextFrameFormatEffectiveData 接口
+## ITextFrameFormatEffectiveData interface
 
-不可变对象，包含有效的文本框格式属性。
+包含有效文本框格式属性的不可变对象。
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -19,22 +19,22 @@ public interface ITextFrameFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | 返回文本框中文本的垂直锚点。只读 [`TextAnchorType`](../textanchortype)。 |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | 返回文本自动适配模式。只读 [`TextAutofitType`](../textautofittype)。 |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | 返回文本是否应在框中水平居中。只读 Boolean。 |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | 返回文本框中的垂直锚文本。只读 [`TextAnchorType`](../textanchortype)。 |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | 返回文本自适应模式。只读 [`TextAutofitType`](../textautofittype)。 |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | 返回文本是否应在框中水平居中。只读布尔值。 |
 | [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | 指定边界矩形中文本的列数。只读 Int32。 |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | 指定文本区域中文本列之间的间距（以磅为单位）。只读 Single。 |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | 返回文本框中的下边距（以磅为单位）。只读 Double。 |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | 返回文本框中的左边距（以磅为单位）。只读 Double。 |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | 返回文本框中的右边距（以磅为单位）。只读 Double。 |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | 返回文本框中的上边距（以磅为单位）。只读 Double。 |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | 指定文本区中文本列之间的间距（以点为单位）。只读 Single。 |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | 返回文本框中的下边距（以点为单位）。只读 Double。 |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | 返回文本框中的左边距（以点为单位）。只读 Double。 |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | 返回文本框中的右边距（以点为单位）。只读 Double。 |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | 返回文本框中的上边距（以点为单位）。只读 Double。 |
 | [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | 返回有效文本的样式。只读 [`ITextStyleEffectiveData`](../itextstyleeffectivedata)。 |
 | [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | 返回文本方向。只读 [`TextVerticalType`](../textverticaltype)。 |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | 返回文本是否在文本框的边缘处换行。只读 Boolean。 |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | 返回文本是否在文本框的边距处换行。只读布尔值。 |
 
 ### 备注
 
-该接口与 [`ITextFrameFormat`](../itextframeformat) 接口一起使用，以返回应用继承的有效格式值。
+此接口与 [`ITextFrameFormat`](../itextframeformat) 接口一起使用，以返回应用继承的有效格式值。
 
 ### 另请参阅
 

@@ -1,6 +1,6 @@
 ---
 title: ApplyImageTransparent
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Wendet die angegebene transparente Farbe auf ein Bild an, wenn true.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Wendet die angegebene transparente Farbe auf ein Bild an, wenn `true`.
 public bool ApplyImageTransparent { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [PdfOptions](../../pdfoptions)
 * Namespace [Aspose.Slides.Export](../../pdfoptions)

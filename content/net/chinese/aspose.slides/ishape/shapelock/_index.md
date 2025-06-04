@@ -1,6 +1,6 @@
 ---
 title: ShapeLock
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回形状锁定。只读 IBaseShapeLockaspose.slides/ibaseshapelock。
 type: docs
 weight: 230
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishape/shapelock/
 public IBaseShapeLock ShapeLock { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IBaseShapeLock](../../ibaseshapelock)
 * 接口 [IShape](../../ishape)

@@ -1,7 +1,7 @@
 ---
 title: IsEncrypted
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene un valor que indica si esta instancia está encriptada. Solo lectura Booleano.
+description: Obtiene un valor que indica si esta instancia está cifrada. Solo lectura Boolean.
 type: docs
 weight: 30
 url: /es/aspose.slides/iprotectionmanager/isencrypted/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/iprotectionmanager/isencrypted/
 
 ## Propiedad IProtectionManager.IsEncrypted
 
-Obtiene un valor que indica si esta instancia está encriptada. Solo lectura Booleano.
+Obtiene un valor que indica si esta instancia está cifrada. Solo lectura Boolean.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -17,9 +17,9 @@ public bool IsEncrypted { get; }
 
 ### Valor de la Propiedad
 
-`true` si la presentación se cargó desde un archivo encriptado o se llamó al método [`Encrypt`](../encrypt); de lo contrario, `false`.
+`true` si la presentación se cargó desde un archivo cifrado o se llamó al método [`Encrypt`](../encrypt); de lo contrario, `false`.
 
-### Ver También
+### Véase También
 
 * interfaz [IProtectionManager](../../iprotectionmanager)
 * espacio de nombres [Aspose.Slides](../../iprotectionmanager)

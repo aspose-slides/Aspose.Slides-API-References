@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
 second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf das grundlegende IImageTransformOperation-Interface. Nur-lesbares IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur-lesbare IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/ialphainverse/asiimagetransformoperation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphainverse/asiimagetransformoperation/
 
 ## IAlphaInverse.AsIImageTransformOperation-Eigenschaft
 
-Ermöglicht den Zugriff auf das grundlegende IImageTransformOperation-Interface. Nur-lesbares [`IImageTransformOperation`](../../iimagetransformoperation).
+Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur-lesbar [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

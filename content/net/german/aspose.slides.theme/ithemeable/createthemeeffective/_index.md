@@ -1,15 +1,15 @@
 ---
 title: CreateThemeEffective
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein effektives Thema für dieses thematisierbare Objekt zurück.
+description: Gibt ein effektives Thema für dieses themeable Objekt zurück.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/ithemeable/createthemeeffective/
 ---
 
-## IThemeable.CreateThemeEffective Methode
+## IThemeable.CreateThemeEffective-Methode
 
-Gibt ein effektives Thema für dieses thematisierbare Objekt zurück.
+Gibt ein effektives Thema für dieses themeable Objekt zurück.
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()

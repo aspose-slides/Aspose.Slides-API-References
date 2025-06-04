@@ -1,7 +1,7 @@
 ---
 title: EffectStyleIndex
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Effektspaltenindex der Formen in einer Stilmatrix zurück oder setzt ihn. Lese-/Schreibzugriff UInt32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Effektspaltenindex von Formen in einer Stilmatrix zurück oder legt ihn fest. Lese-/Schreibzugriff UInt32.
 type: docs
 weight: 20
 url: /de/aspose.slides/ishapestyle/effectstyleindex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapestyle/effectstyleindex/
 
 ## IShapeStyle.EffectStyleIndex-Eigenschaft
 
-Gibt den Effektspaltenindex der Form in einer Stilmatrix zurück oder setzt ihn. Lese-/Schreibzugriff UInt32.
+Gibt den Effektspaltenindex der Form in einer Stilmatrix zurück oder legt ihn fest. Lese-/Schreibzugriff UInt32.
 
 ```csharp
 public uint EffectStyleIndex { get; set; }

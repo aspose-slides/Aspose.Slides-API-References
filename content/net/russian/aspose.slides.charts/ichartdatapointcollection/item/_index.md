@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает точку данных серии по индексу, его порядковому номеру в этой коллекции.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает точку данных серии по индексу его серийному номеру в этой коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/ichartdatapointcollection/item/
 ---
 
-## Индексатор IChartDataPointCollection (1 из 2)
+## IChartDataPointCollection индексатор (1 из 2)
 
-Возвращает точку данных серии по индексу (ее порядковому номеру в этой коллекции).
+Возвращает точку данных серии по индексу (его серийному номеру в этой коллекции).
 
 ```csharp
 public IChartDataPoint this[int index] { get; }
@@ -24,9 +24,9 @@ public IChartDataPoint this[int index] { get; }
 
 ---
 
-## Индексатор IChartDataPointCollection (2 из 2)
+## IChartDataPointCollection индексатор (2 из 2)
 
-Возвращает индекс (порядковый номер в этой коллекции) точки данных в этой коллекции.
+Возвращает индекс (серийный номер в этой коллекции) точки данных в этой коллекции.
 
 ```csharp
 public int this[IChartDataPoint pt] { get; }

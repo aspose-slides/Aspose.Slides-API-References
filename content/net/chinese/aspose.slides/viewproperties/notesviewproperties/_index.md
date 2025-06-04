@@ -1,6 +1,6 @@
 ---
 title: NotesViewProperties
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指定与备注视图模式相关的常见视图属性。只读 ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/viewproperties/notesviewproperties/
 public ICommonSlideViewProperties NotesViewProperties { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [ICommonSlideViewProperties](../../icommonslideviewproperties)
 * 类 [ViewProperties](../../viewproperties)

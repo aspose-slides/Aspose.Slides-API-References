@@ -1,7 +1,7 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Slides for .NET API 参考
-description: 定义应用于 PDF 文件中所有内容（图像除外）的压缩类型的常量。
+second_title: Aspose.Sildes for .NET API Reference
+description: 定义应用于 PDF 文件中所有内容（除图像外）的压缩类型的常量。
 type: docs
 weight: 4150
 url: /zh/aspose.slides.export/pdftextcompression/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/pdftextcompression/
 
 ## PdfTextCompression 枚举
 
-定义应用于 PDF 文件中所有内容（图像除外）的压缩类型的常量。
+定义应用于 PDF 文件中所有内容（除图像外）的压缩类型的常量。
 
 ```csharp
 public enum PdfTextCompression
@@ -22,7 +22,7 @@ public enum PdfTextCompression
 | None | `0` | 无压缩。 |
 | Flate | `1` | Flate (ZIP) 压缩。 |
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

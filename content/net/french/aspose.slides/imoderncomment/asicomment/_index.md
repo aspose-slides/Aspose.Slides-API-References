@@ -1,7 +1,7 @@
 ---
 title: AsIComment
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IComment. Lecture seule IComment aspose.slides/icomment.
+description: Permet d'obtenir l'interface de base IComment. Lecture seule ICommentaspose.slides/icomment.
 type: docs
 weight: 10
 url: /fr/aspose.slides/imoderncomment/asicomment/

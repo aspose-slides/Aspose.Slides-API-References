@@ -1,7 +1,7 @@
 ---
 title: ReadDocumentProperties
 second_title: Aspose.Slides für .NET API Referenz
-description: Ruft die Dokumenteigenschaften der gebundenen Präsentation ab.
+description: Holt die Dokumenteigenschaften der gebundenen Präsentation.
 type: docs
 weight: 70
 url: /de/aspose.slides/ipresentationinfo/readdocumentproperties/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationinfo/readdocumentproperties/
 
 ## IPresentationInfo.ReadDocumentProperties-Methode
 
-Ruft die Dokumenteigenschaften der gebundenen Präsentation ab.
+Holt die Dokumenteigenschaften der gebundenen Präsentation.
 
 ```csharp
 public IDocumentProperties ReadDocumentProperties()

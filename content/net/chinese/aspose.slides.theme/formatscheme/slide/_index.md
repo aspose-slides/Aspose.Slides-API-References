@@ -1,6 +1,6 @@
 ---
 title: Slide
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回父幻灯片。只读 IBaseSlideaspose.slides/ibaseslide。
 type: docs
 weight: 60

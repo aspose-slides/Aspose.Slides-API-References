@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebas
 public ITransitionValueBase AsITransitionValueBase { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [ITransitionValueBase](../../itransitionvaluebase)
 * интерфейс [IEightDirectionTransition](../../ieightdirectiontransition)

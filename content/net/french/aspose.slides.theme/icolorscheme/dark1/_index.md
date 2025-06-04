@@ -1,7 +1,7 @@
 ---
 title: Dark1
-second_title: Référence API Aspose.Slides pour .NET
-description: Première couleur sombre dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Première couleur sombre du schéma. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 80
 url: /fr/aspose.slides.theme/icolorscheme/dark1/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/icolorscheme/dark1/
 
 ## Propriété IColorScheme.Dark1
 
-Première couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
+Première couleur sombre du schéma. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Dark1 { get; }

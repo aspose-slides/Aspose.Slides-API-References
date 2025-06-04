@@ -1,13 +1,13 @@
 ---
 title: Nodes
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает коллекции корневых узлов в объекте SmartArt. Только для чтения ISmartArtNodeCollectionaspose.slides/ismartartnodecollection.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Возвращает коллекции корневых узлов в объекте SmartArt. Только для чтения ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 50
 url: /ru/aspose.slides.smartart/smartart/nodes/
 ---
 
-## Свойство SmartArt.Nodes
+## SmartArt.Nodes property
 
 Возвращает коллекции корневых узлов в объекте SmartArt. Только для чтения [`ISmartArtNodeCollection`](../../ismartartnodecollection).
 

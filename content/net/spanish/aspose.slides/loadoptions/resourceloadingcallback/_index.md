@@ -1,15 +1,15 @@
 ---
 title: ResourceLoadingCallback
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la interfaz de callback que gestiona la carga de recursos externos. Leer/escribir IResourceLoadingCallbackaspose.slides/iresourceloadingcallback.
+second_title: Aspose.Sildes para .NET Referencia API
+description: Devuelve o establece la interfaz de callback que gestiona la carga de recursos externos. Lectura/escritura IResourceLoadingCallbackaspose.slides/iresourceloadingcallback.
 type: docs
 weight: 130
 url: /es/aspose.slides/loadoptions/resourceloadingcallback/
 ---
 
-## Propiedad LoadOptions.ResourceLoadingCallback
+## LoadOptions.ResourceLoadingCallback propiedad
 
-Devuelve o establece la interfaz de callback que gestiona la carga de recursos externos. Leer/escribir [`IResourceLoadingCallback`](../../iresourceloadingcallback).
+Devuelve o establece la interfaz de callback que gestiona la carga de recursos externos. Lectura/escritura [`IResourceLoadingCallback`](../../iresourceloadingcallback).
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }

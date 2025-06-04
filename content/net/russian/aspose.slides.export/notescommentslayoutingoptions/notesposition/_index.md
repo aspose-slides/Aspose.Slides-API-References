@@ -1,25 +1,25 @@
 ---
 title: NotesPosition
-second_title: Aspose.Sildes для .NET API Справочник
-description: Получает или задает положение заметок на странице.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Получает или устанавливает положение заметок на странице.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/notescommentslayoutingoptions/notesposition/
 ---
 
-## NotesCommentsLayoutingOptions.NotesPosition свойство
+## NotesCommentsLayoutingOptions.NotesPosition property
 
-Получает или задает положение заметок на странице.
+Получает или устанавливает положение заметок на странице.
 
 ```csharp
 public NotesPositions NotesPosition { get; set; }
 ```
 
-### Замечания
+### Remarks
 
 По умолчанию **NotesPositions.None**.
 
-### См. также
+### See Also
 
 * enum [NotesPositions](../../notespositions)
 * class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)

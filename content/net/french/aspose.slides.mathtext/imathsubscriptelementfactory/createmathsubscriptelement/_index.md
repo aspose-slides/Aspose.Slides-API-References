@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
-## Méthode IMathSubscriptElementFactory.CreateMathSubscriptElement
+## IMathSubscriptElementFactory.CreateMathSubscriptElement méthode
 
 Crée IMathSubscriptElement
 
@@ -18,12 +18,12 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| baseArg | IMathElement | Argument de base pour appliquer les indices |
-| subScript | IMathElement | indice inférieur droit |
+| baseArg | IMathElement | Argument de base à appliquer l'indice |
+| subScript | IMathElement | indice bas droit |
 
 ### Valeur de retour
 
-nouvel IMathSubscriptElement
+nouveau IMathSubscriptElement
 
 ### Voir aussi
 

@@ -20,6 +20,6 @@ public IFormat Format { get; }
 * interfaz [IFormat](../../iformat)
 * interfaz [IChartSeries](../../ichartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseries)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

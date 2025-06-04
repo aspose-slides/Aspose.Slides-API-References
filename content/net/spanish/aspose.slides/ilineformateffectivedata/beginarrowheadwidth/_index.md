@@ -1,21 +1,21 @@
 ---
 title: BeginArrowheadWidth
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el ancho de la punta de la flecha al principio de una línea. Solo lectura LineArrowheadWidthaspose.slides/linearrowheadwidth.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve el ancho de la punta de flecha al comienzo de una línea. Solo lectura LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 50
 url: /es/aspose.slides/ilineformateffectivedata/beginarrowheadwidth/
 ---
 
-## Propiedad ILineFormatEffectiveData.BeginArrowheadWidth
+## ILineFormatEffectiveData.BeginArrowheadWidth propiedad
 
-Devuelve el ancho de la punta de la flecha al principio de una línea. Solo lectura [`LineArrowheadWidth`](../../linearrowheadwidth).
+Devuelve el ancho de la punta de flecha al comienzo de una línea. Solo lectura [`LineArrowheadWidth`](../../linearrowheadwidth).
 
 ```csharp
 public LineArrowheadWidth BeginArrowheadWidth { get; }
 ```
 
-### Véase También
+### Véase también
 
 * enum [LineArrowheadWidth](../../linearrowheadwidth)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

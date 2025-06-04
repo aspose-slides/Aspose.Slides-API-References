@@ -1,7 +1,7 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Slides for .NET API Reference
-description: 代表覆盖主题管理器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示覆盖主题管理器。
 type: docs
 weight: 11050
 url: /zh/aspose.slides.theme/ioverridethemeable/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/ioverridethemeable/
 
 ## IOverrideThemeable 接口
 
-代表覆盖主题管理器。
+表示覆盖主题管理器。
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -22,7 +22,7 @@ public interface IOverrideThemeable : IThemeable
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | 返回 IThemeable 接口。只读 [`IThemeable`](../ithemeable)。 |
 | [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | 返回覆盖主题管理器。只读 [`IOverrideThemeManager`](../ioverridethememanager)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IThemeable](../ithemeable)
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)

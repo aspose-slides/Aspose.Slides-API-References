@@ -1,7 +1,7 @@
 ---
 title: RasterizeUnsupportedFontStyles
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob Text als Bitmap gerastert und als PDF gespeichert werden soll, wenn die Schriftart keine fette Formatierung unterstützt. Dieser Ansatz kann die Qualität des Textes im resultierenden PDF für bestimmte Schriftarten verbessern. Lese-/schreibbare Boolesche Variable.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt an, ob Text als Bitmap rasterisiert und in PDF gespeichert werden soll, wenn die Schriftart keine fette Stilrichtung unterstützt. Dieser Ansatz kann die Qualität des Textes im resultierenden PDF für bestimmte Schriftarten verbessern. Lese-/Schreib-Boolean.
 type: docs
 weight: 150
 url: /de/aspose.slides.export/pdfoptions/rasterizeunsupportedfontstyles/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.export/pdfoptions/rasterizeunsupportedfontstyles/
 
 ## PdfOptions.RasterizeUnsupportedFontStyles-Eigenschaft
 
-Gibt an, ob Text als Bitmap gerastert und als PDF gespeichert werden soll, wenn die Schriftart keine fette Formatierung unterstützt. Dieser Ansatz kann die Qualität des Textes im resultierenden PDF für bestimmte Schriftarten verbessern. Lese-/schreibbare Boolesche Variable.
+Gibt an, ob Text als Bitmap rasterisiert und in PDF gespeichert werden soll, wenn die Schriftart keine fette Stilrichtung unterstützt. Dieser Ansatz kann die Qualität des Textes im resultierenden PDF für bestimmte Schriftarten verbessern. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool RasterizeUnsupportedFontStyles { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
-Standard ist **false**.
+Der Standardwert ist **false**.
 
 ### Siehe auch
 

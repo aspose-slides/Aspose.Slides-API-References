@@ -1,6 +1,6 @@
 ---
 title: FadeDirection
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定反射的偏移方向（角度）。只读单精度浮点数。
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/fadedirection/
 public float FadeDirection { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ireflectioneffectivedata)

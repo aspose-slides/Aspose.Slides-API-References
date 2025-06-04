@@ -1,7 +1,7 @@
 ---
 title: Title
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Titel einer Präsentation zurück oder setzt ihn. Lese-/Schreib-String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Titel einer Präsentation zurück oder legt ihn fest. Lese-/Schreib-String.
 type: docs
 weight: 330
 url: /de/aspose.slides/documentproperties/title/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/documentproperties/title/
 
 ## DocumentProperties.Title-Eigenschaft
 
-Gibt den Titel einer Präsentation zurück oder setzt ihn. Lese-/Schreib-String.
+Gibt den Titel einer Präsentation zurück oder legt ihn fest. Lese-/Schreib-String.
 
 ```csharp
 public string Title { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DocumentProperties](../../documentproperties)
 * Namespace [Aspose.Slides](../../documentproperties)

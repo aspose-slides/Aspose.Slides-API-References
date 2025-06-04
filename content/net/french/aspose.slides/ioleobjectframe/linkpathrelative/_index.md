@@ -1,7 +1,7 @@
 ---
 title: LinkPathRelative
-second_title: Aspose.Sildes pour la Référence API .NET
-description: Renvoie le chemin relatif vers un fichier lié si présent, sinon renvoie une chaîne vide. Chaîne en lecture seule.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie le chemin relatif vers un fichier lié s'il est présent, sinon renvoie une chaîne vide. Chaîne en lecture seule.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ioleobjectframe/linkpathrelative/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ioleobjectframe/linkpathrelative/
 
 ## Propriété IOleObjectFrame.LinkPathRelative
 
-Renvoie le chemin relatif vers un fichier lié si présent, sinon renvoie une chaîne vide. Chaîne en lecture seule.
+Renvoie le chemin relatif vers un fichier lié s'il est présent, sinon renvoie une chaîne vide. Chaîne en lecture seule.
 
 ```csharp
 public string LinkPathRelative { get; }

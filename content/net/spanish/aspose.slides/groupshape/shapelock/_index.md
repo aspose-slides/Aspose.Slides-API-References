@@ -1,6 +1,6 @@
 ---
 title: ShapeLock
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve bloqueos de formas. Solo lectura IGroupShapeLockaspose.slides/igroupshapelock.
 type: docs
 weight: 40

@@ -1,13 +1,13 @@
 ---
 title: GetCell
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/ichartdataworkbook/getcell/
 ---
 
-## GetCell(string, int, int) {#getcell_4}
+## GetCell(string, int, int) {#getcell_4}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -15,11 +15,11 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(string worksheetName, int row, int column)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetName    | String  | Nom de la feuille de calcul.       |
-| row              | Int32   | La ligne.                          |
-| column           | Int32   | La colonne.                        |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| worksheetName | String | Nom de la feuille de calcul. |
+| row | Int32 | La ligne. |
+| column | Int32 | La colonne. |
 
 ### Valeur de retour
 
@@ -34,7 +34,7 @@ Objet Cell
 
 ---
 
-## GetCell(int, int, int) {#getcell}
+## GetCell(int, int, int) {#getcell}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -42,11 +42,11 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| row              | Int32   | La ligne.                          |
-| column           | Int32   | La colonne.                        |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
+| row | Int32 | La ligne. |
+| column | Int32 | La colonne. |
 
 ### Valeur de retour
 
@@ -61,7 +61,7 @@ Objet Cell
 
 ---
 
-## GetCell(int, string) {#getcell_2}
+## GetCell(int, string) {#getcell_2}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -69,10 +69,10 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| cellName         | String  | Nom de la cellule.                 |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
+| cellName | String | Nom de la cellule. |
 
 ### Valeur de retour
 
@@ -87,7 +87,7 @@ Objet Cell
 
 ---
 
-## GetCell(int, string, object) {#getcell_3}
+## GetCell(int, string, object) {#getcell_3}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -95,11 +95,11 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| cellName         | String  | Nom de la cellule.                 |
-| value            | Object  | La valeur.                         |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
+| cellName | String | Nom de la cellule. |
+| value | Object | La valeur. |
 
 ### Valeur de retour
 
@@ -114,7 +114,7 @@ Objet Cell
 
 ---
 
-## GetCell(int, int, int, object) {#getcell_1}
+## GetCell(int, int, int, object) {#getcell_1}
 
 Obtient la cellule qui peut être utilisée pour les séries ou catégories de graphiques
 
@@ -122,12 +122,12 @@ Obtient la cellule qui peut être utilisée pour les séries ou catégories de g
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
 ```
 
-| Paramètre       | Type    | Description                        |
-|------------------|---------|------------------------------------|
-| worksheetIndex   | Int32   | Index de la feuille de calcul.     |
-| row              | Int32   | La ligne.                          |
-| column           | Int32   | La colonne.                        |
-| value            | Object  | La valeur.                         |
+| Paramètre | Type | Description |
+| --- | --- | --- |
+| worksheetIndex | Int32 | Index de la feuille de calcul. |
+| row | Int32 | La ligne. |
+| column | Int32 | La colonne. |
+| value | Object | La valeur. |
 
 ### Valeur de retour
 

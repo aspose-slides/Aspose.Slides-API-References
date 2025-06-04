@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadStyle
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置线条起始处的箭头样式。可读/可写 LineArrowheadStyleaspose.slides/linearrowheadstyle。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置线条开始处的箭头样式。可读写 LineArrowheadStyleaspose.slides/linearrowheadstyle。
 type: docs
 weight: 30
 url: /zh/aspose.slides/lineformat/beginarrowheadstyle/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/lineformat/beginarrowheadstyle/
 
 ## LineFormat.BeginArrowheadStyle 属性
 
-返回或设置线条起始处的箭头样式。可读/可写 [`LineArrowheadStyle`](../../linearrowheadstyle)。
+返回或设置线条开始处的箭头样式。可读写 [`LineArrowheadStyle`](../../linearrowheadstyle)。
 
 ```csharp
 public LineArrowheadStyle BeginArrowheadStyle { get; set; }
 ```
 
-### 参见
+### 另见
 
 * enum [LineArrowheadStyle](../../linearrowheadstyle)
 * class [LineFormat](../../lineformat)

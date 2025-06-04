@@ -1,13 +1,13 @@
 ---
 title: AddOnlineImagePlaceholder
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Ajoute une nouvelle forme de remplissage à la diapositive de mise en page pour contenir une image en ligne.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder/
 ---
 
-## Méthode ILayoutPlaceholderManager.AddOnlineImagePlaceholder
+## ILayoutPlaceholderManager.AddOnlineImagePlaceholder méthode
 
 Ajoute une nouvelle forme de remplissage à la diapositive de mise en page pour contenir une image en ligne.
 
@@ -24,7 +24,7 @@ public IAutoShape AddOnlineImagePlaceholder(float x, float y, float width, float
 
 ### Valeur de retour
 
-Créé [`IAutoShape`](../../iautoshape) avec un espace réservé pour une image en ligne.
+[`IAutoShape`](../../iautoshape) créé avec un remplissage d'image en ligne.
 
 ### Exemples
 

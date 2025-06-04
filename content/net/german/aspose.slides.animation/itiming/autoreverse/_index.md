@@ -1,7 +1,7 @@
 ---
 title: AutoReverse
-second_title: Aspose.Slides für .NET API-Referenz
-description: Beschreibt, ob die Animation automatisch rückwärts abgespielt werden soll, nachdem sie in Vorwärtsrichtung abgespielt wurde. Lese-/Schreib-Boolean.
+second_title: Aspose.Slides für .NET API Referenz
+description: Beschreibt, ob die Animation automatisch in umgekehrter Richtung abgespielt werden soll, nachdem sie in der Vorwärtsrichtung abgespielt wurde. Lese-/Schreib-Boolean.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/itiming/autoreverse/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/itiming/autoreverse/
 
 ## ITiming.AutoReverse-Eigenschaft
 
-Beschreibt, ob die Animation automatisch rückwärts abgespielt werden soll, nachdem sie in Vorwärtsrichtung abgespielt wurde. Lese-/Schreib-Boolean.
+Beschreibt, ob die Animation automatisch in umgekehrter Richtung abgespielt werden soll, nachdem sie in der Vorwärtsrichtung abgespielt wurde. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool AutoReverse { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITiming](../../itiming)
 * Namespace [Aspose.Slides.Animation](../../itiming)

@@ -1,7 +1,7 @@
 ---
 title: XmlAsString
-second_title: Référence API Aspose.Slidess pour .NET
-description: Renvoie ou définit des données xml sous forme de chaîne UTF-8. Lecture/écriture de String. La valeur est null. La valeur est vide ou les données xml sont invalides.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne ou définit des données xml sous forme de chaîne UTF-8. Lecture/écriture de String. la valeur est null. la valeur est vide ou les données xml sont invalides.
 type: docs
 weight: 30
 url: /fr/aspose.slides/customxmlpart/xmlasstring/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/customxmlpart/xmlasstring/
 
 ## Propriété CustomXmlPart.XmlAsString
 
-Renvoie ou définit des données xml sous forme de chaîne UTF-8. Lecture/écriture de String. La valeur est `null`. La valeur est vide ou les données xml sont invalides.
+Retourne ou définit des données xml sous forme de chaîne UTF-8. Lecture/écriture de String. la valeur est `null`. la valeur est vide ou les données xml sont invalides.
 
 ```csharp
 public string XmlAsString { get; set; }

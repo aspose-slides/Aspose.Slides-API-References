@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia de API de Aspose.Slid es para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Elimina todos los elementos de la colección.
 type: docs
 weight: 50
@@ -19,6 +19,6 @@ public void Clear()
 
 * interfaz [IChartCategoryCollection](../../ichartcategorycollection)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartcategorycollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -15,7 +15,7 @@ Obtient la première ligne de la cellule. Lecture seule [`IRow`](../../irow).
 public IRow FirstRow { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRow](../../irow)
 * interface [ICell](../../icell)

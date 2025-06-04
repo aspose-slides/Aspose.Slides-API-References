@@ -1,15 +1,15 @@
 ---
 title: StartShapeConnectedTo
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit la forme à laquelle attacher le début du connecteur. Lecture/écriture IShape aspose.slides/ishape.
+description: Renvoie ou définit la forme à laquelle attacher le début du connecteur. Lecture/écriture IShapeaspose.slides/ishape.
 type: docs
 weight: 60
 url: /fr/aspose.slides/iconnector/startshapeconnectedto/
 ---
 
-## Propriété IConnector.StartShapeConnectedTo
+## IConnector.StartShapeConnectedTo propriété
 
-Retourne ou définit la forme à laquelle attacher le début du connecteur. Lecture/écriture [`IShape`](../../ishape).
+Renvoie ou définit la forme à laquelle attacher le début du connecteur. Lecture/écriture [`IShape`](../../ishape).
 
 ```csharp
 public IShape StartShapeConnectedTo { get; set; }
@@ -19,7 +19,7 @@ public IShape StartShapeConnectedTo { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lancé lorsque la forme connectée n'a pas de points de connexion (IShape.ConnectionSiteCount égal à zéro) |
+| ArgumentException | Lancé lorsque la forme connectée n'a pas de sites de connexion (IShape.ConnectionSiteCount égal à zéro) |
 
 ### Voir Aussi
 

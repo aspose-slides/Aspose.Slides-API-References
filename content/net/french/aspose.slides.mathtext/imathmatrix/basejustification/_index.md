@@ -1,13 +1,13 @@
 ---
 title: BaseJustification
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Slides pour la référence API .NET
 description: Spécifie la justification verticale par rapport au texte environnant. Les valeurs possibles sont haut, bas et centre. Par défaut  Centre
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/imathmatrix/basejustification/
 ---
 
-## Propriété IMathMatrix.BaseJustification
+## IMathMatrix.BaseJustification propriété
 
 Spécifie la justification verticale par rapport au texte environnant. Les valeurs possibles sont haut, bas et centre. Par défaut : Centre
 
@@ -17,7 +17,7 @@ public MathVerticalAlignment BaseJustification { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

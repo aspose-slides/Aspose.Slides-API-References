@@ -1,6 +1,6 @@
 ---
 title: AsIBaseShapeLock
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 允许获取基础 IBaseShapeLock 接口。只读 IBaseShapeLock aspose.slides/ibaseshapelock。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iautoshapelock/asibaseshapelock/
 public IBaseShapeLock AsIBaseShapeLock { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IBaseShapeLock](../../ibaseshapelock)
 * 接口 [IAutoShapeLock](../../iautoshapelock)

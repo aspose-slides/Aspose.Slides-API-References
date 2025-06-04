@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Elimina un gradiente en el índice especificado.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Elimina un punto de inicio de gradiente en el índice especificado.
 type: docs
 weight: 100
 url: /es/aspose.slides/gradientstopcollection/removeat/
 ---
 
-## Método GradientStopCollection.RemoveAt
+## GradientStopCollection.RemoveAt método
 
-Elimina un gradiente en el índice especificado.
+Elimina un punto de inicio de gradiente en el índice especificado.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,12 +17,12 @@ public void RemoveAt(int index)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| index | Int32 | Índice de un gradiente que debe ser eliminado. |
+| index | Int32 | Índice de un punto de inicio de gradiente que debe ser eliminado. |
 
 ### Ver También
 
-* clase [GradientStopCollection](../../gradientstopcollection)
-* espacio de nombres [Aspose.Slides](../../gradientstopcollection)
-* ensamblado [Aspose.Slides](../../../)
+* class [GradientStopCollection](../../gradientstopcollection)
+* namespace [Aspose.Slides](../../gradientstopcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

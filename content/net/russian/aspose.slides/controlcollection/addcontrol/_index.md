@@ -18,8 +18,8 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | controlType | ControlType | Тип элемента управления для добавления. |
-| x | Single | X-координата для левой стороны рамки фигуры. |
-| y | Single | Y-координата для верхней стороны рамки фигуры. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y для верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
@@ -27,7 +27,7 @@ public IControl AddControl(ControlType controlType, float x, float y, float widt
 
 Созданный элемент управления.
 
-### См. также
+### См. Также
 
 * интерфейс [IControl](../../icontrol)
 * перечисление [ControlType](../../controltype)

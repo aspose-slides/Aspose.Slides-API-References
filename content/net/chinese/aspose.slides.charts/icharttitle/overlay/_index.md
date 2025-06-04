@@ -1,7 +1,7 @@
 ---
 title: Overlay
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定是否允许其他图表元素与标题重叠。可读/写的布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 确定是否允许其他图表元素与标题重叠。可读写布尔值。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/icharttitle/overlay/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttitle/overlay/
 
 ## IChartTitle.Overlay 属性
 
-确定是否允许其他图表元素与标题重叠。可读/写的布尔值。
+确定是否允许其他图表元素与标题重叠。可读写布尔值。
 
 ```csharp
 public bool Overlay { get; set; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IChartTitle](../../icharttitle)
 * 命名空间 [Aspose.Slides.Charts](../../icharttitle)

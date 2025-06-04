@@ -1,15 +1,15 @@
 ---
 title: InsertClone
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie an der angegebenen Position in einer Tabelle ein.
+description: Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie an der angegebenen Position in eine Tabelle ein.
 type: docs
 weight: 30
 url: /de/aspose.slides/irowcollection/insertclone/
 ---
 
-## IRowCollection.InsertClone-Methode
+## IRowCollection.InsertClone Methode
 
-Erstellt eine Kopie der angegebenen Vorlagenzeile und fügt sie an der angegebenen Position in einer Tabelle ein.
+Erstellt eine Kopie der angegebenen Vorlagezeile und fügt sie an der angegebenen Position in eine Tabelle ein.
 
 ```csharp
 public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
@@ -19,7 +19,7 @@ public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 | --- | --- | --- |
 | index | Int32 | Index einer neuen Zeile. |
 | templ | IRow | Zeile, die als Vorlage verwendet wird. |
-| withAttachedRows | Boolean | True, um auch alle an die Vorlagenzeile angehängten Zeilen zu kopieren. |
+| withAttachedRows | Boolean | Wahr, um auch alle an die Vorlagezeile angehängten Zeilen zu kopieren. |
 
 ### Rückgabewert
 

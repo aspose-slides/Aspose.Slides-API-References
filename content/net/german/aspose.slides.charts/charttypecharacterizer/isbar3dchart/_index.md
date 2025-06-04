@@ -1,7 +1,7 @@
 ---
 title: IsBar3DChart
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt true zurück, wenn chartType einer der Subtypen von bar3DChart ist 3D-Säulen oder -Balken.
+description: Gibt true zurück, wenn chartType einer der Untertypen von bar3DChart 3D-Säulen oder -Balken ist.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/charttypecharacterizer/isbar3dchart/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/charttypecharacterizer/isbar3dchart/
 
 ## ChartTypeCharacterizer.IsBar3DChart-Methode
 
-Gibt true zurück, wenn chartType einer der Subtypen von bar3DChart ist (3D-Säulen oder -Balken).
+Gibt true zurück, wenn chartType einer der Untertypen von bar3DChart (3D-Säulen oder -Balken) ist.
 
 ```csharp
 public static bool IsBar3DChart(ChartType chartType)

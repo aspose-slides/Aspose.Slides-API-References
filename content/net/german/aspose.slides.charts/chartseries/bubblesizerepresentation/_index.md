@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeRepresentation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup für den Zugriff auf die übergeordnete Seriengruppe. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeRepresentation, um den Wert zu ändern.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. Dies ist die Eigenschaft nicht nur dieser Reihe, sondern aller Reihen der übergeordneten Reihen-Gruppe - dies ist die Projektion der entsprechenden Gruppen-Eigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Reihe-Gruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeRepresentation, um den Wert zu ändern.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/chartseries/bubblesizerepresentation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/chartseries/bubblesizerepresentation/
 
 ## ChartSeries.BubbleSizeRepresentation-Eigenschaft
 
-Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist die Projektion der entsprechenden Gruppeneigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die Eigenschaft ParentSeriesGroup für den Zugriff auf die übergeordnete Seriengruppe. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeRepresentation, um den Wert zu ändern.
+Gibt an, wie die Werte der Blasengröße im Blasendiagramm dargestellt werden. Dies ist die Eigenschaft nicht nur dieser Reihe, sondern aller Reihen der übergeordneten Reihen-Gruppe - dies ist die Projektion der entsprechenden Gruppen-Eigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Reihe-Gruppe zuzugreifen. Verwenden Sie die schreibbare Eigenschaft ParentSeriesGroup.BubbleSizeRepresentation, um den Wert zu ändern.
 
 ```csharp
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; }
 ```
 
-### Hinweise
+### Anmerkungen
 
 Dies ist die Projektion der Eigenschaft ParentSeriesGroup.BubbleSizeRepresentation.
 

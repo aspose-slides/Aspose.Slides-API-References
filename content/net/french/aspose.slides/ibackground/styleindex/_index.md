@@ -1,6 +1,6 @@
 ---
 title: StyleIndex
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slidess pour .NET API Référence
 description: Renvoie un index de BackgroundType.Themed fill dans la collection de thèmes d'arrière-plan. 0 signifie pas de remplissage. 1..999 - index. Lecture/écriture UInt16.
 type: docs
 weight: 60

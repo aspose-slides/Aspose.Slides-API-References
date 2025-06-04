@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Slides für .NET API Referenz
-description: Erhält oder setzt den Klartext eines Absatzes. Lese-/Schreibzeichenfolge.
+description: Ruft den einfachen Text eines Absatzes ab oder legt ihn fest. Lese-/Schreibbares String.
 type: docs
 weight: 50
 url: /de/aspose.slides/iparagraph/text/
@@ -9,17 +9,17 @@ url: /de/aspose.slides/iparagraph/text/
 
 ## IParagraph.Text Eigenschaft
 
-Erhält oder setzt den Klartext eines Absatzes. Lese-/Schreibzeichenfolge.
+Ruft den einfachen Text eines Absatzes ab oder legt ihn fest. Lese-/Schreibbares String.
 
 ```csharp
 public string Text { get; set; }
 ```
 
-### Eigenschaftswert
+### Eigenschaftenwert
 
 Der Text.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IParagraph](../../iparagraph)
 * Namespace [Aspose.Slides](../../iparagraph)

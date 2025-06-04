@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticMajorUnit
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si l'unité principale de l'axe est assignée automatiquement. Booléen en lecture/écriture.
+second_title: Aspose.Slides pour .NET API Reference
+description: Indique si l'unité majeure de l'axe est assignée automatiquement. Booléen en lecture/écriture.
 type: docs
 weight: 180
 url: /fr/aspose.slides.charts/iaxis/isautomaticmajorunit/
 ---
 
-## Propriété IAxis.IsAutomaticMajorUnit
+## IAxis.IsAutomaticMajorUnit propriété
 
-Indique si l'unité principale de l'axe est assignée automatiquement. Booléen en lecture/écriture.
+Indique si l'unité majeure de l'axe est assignée automatiquement. Booléen en lecture/écriture.
 
 ```csharp
 public bool IsAutomaticMajorUnit { get; set; }

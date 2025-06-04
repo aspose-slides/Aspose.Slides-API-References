@@ -1,6 +1,6 @@
 ---
 title: ExtrusionType
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence API .NET
 description: Représente la propriété extrusion.type
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ Représente la propriété 'extrusion.type'
 public static BehaviorProperty ExtrusionType { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

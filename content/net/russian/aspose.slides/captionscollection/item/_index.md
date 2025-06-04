@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает закрытые субтитры по указанному индексу. Доступ только для чтения ICaptionsaspose.slides/icaptions.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает закрытые субтитры по заданному индексу. Только для чтения ICaptionsaspose.slides/icaptions.
 type: docs
 weight: 20
 url: /ru/aspose.slides/captionscollection/item/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/captionscollection/item/
 
 ## Индексатор CaptionsCollection
 
-Возвращает закрытые субтитры по указанному индексу. Доступ только для чтения [`ICaptions`](../../icaptions).
+Возвращает закрытые субтитры по заданному индексу. Только для чтения [`ICaptions`](../../icaptions).
 
 ```csharp
 public ICaptions this[int index] { get; }
 ```
 
-### См. также
+### Смотрите Такоже
 
 * интерфейс [ICaptions](../../icaptions)
 * класс [CaptionsCollection](../../captionscollection)

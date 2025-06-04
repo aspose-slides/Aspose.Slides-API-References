@@ -1,7 +1,7 @@
 ---
 title: NoAction
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen speziellen „nichts tun“ Hyperlink zurück. Nur lesbarer Hyperlinkaspose.slides/hyperlink.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen speziellen "nichts tun" Hyperlink zurück. Schreibgeschützter Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 80
 url: /de/aspose.slides/hyperlink/noaction/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/hyperlink/noaction/
 
 ## Hyperlink.NoAction-Eigenschaft
 
-Gibt einen speziellen „nichts tun“ Hyperlink zurück. Nur lesbarer [`Hyperlink`](../../hyperlink).
+Gibt einen speziellen "nichts tun" Hyperlink zurück. Schreibgeschützer [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink NoAction { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Hyperlink](../../hyperlink)
 * Namespace [Aspose.Slides](../../hyperlink)

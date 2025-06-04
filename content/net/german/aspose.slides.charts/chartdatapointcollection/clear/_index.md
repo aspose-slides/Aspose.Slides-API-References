@@ -15,7 +15,7 @@ Entfernt alle Elemente aus der Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ChartDataPointCollection](../../chartdatapointcollection)
 * Namespace [Aspose.Slides.Charts](../../chartdatapointcollection)

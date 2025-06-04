@@ -1,7 +1,7 @@
 ---
 title: TextSelectionLength
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置与 AutoShape 相关的注释的文本框中文本选择的长度。可读写的 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置与 AutoShape 关联的评论中文本框的文本选择长度。可读写 Int32。
 type: docs
 weight: 30
 url: /zh/aspose.slides/moderncomment/textselectionlength/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/moderncomment/textselectionlength/
 
 ## ModernComment.TextSelectionLength 属性
 
-获取或设置与 AutoShape 相关的注释的文本框中文本选择的长度。可读写的 Int32。
+获取或设置与 AutoShape 关联的评论中文本框的文本选择长度。可读写 Int32。
 
 ```csharp
 public int TextSelectionLength { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [ModernComment](../../moderncomment)
 * namespace [Aspose.Slides](../../moderncomment)

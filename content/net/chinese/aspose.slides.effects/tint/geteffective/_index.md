@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides for .NET API 参考
-description: 获取应用继承的有效 Tint 效果数据。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取应用继承后的有效 Tint 效果数据。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/tint/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/tint/geteffective/
 
 ## Tint.GetEffective 方法
 
-获取应用继承的有效 Tint 效果数据。
+获取应用继承后的有效 Tint 效果数据。
 
 ```csharp
 public ITintEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public ITintEffectiveData GetEffective()
 
 一个 [`ITintEffectiveData`](../../itinteffectivedata)。
 
-### 另请参阅
+### 另见
 
 * 接口 [ITintEffectiveData](../../itinteffectivedata)
 * 类 [Tint](../../tint)

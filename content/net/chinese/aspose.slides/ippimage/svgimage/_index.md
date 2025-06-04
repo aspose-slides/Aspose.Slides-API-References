@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回或设置 ISvgImage 对象 ISvgImageaspose.slides/isvgimage
 type: docs
 weight: 50
@@ -17,9 +17,9 @@ public ISvgImage SvgImage { get; set; }
 
 ### 备注
 
-该值表示该图像是从 SVG 创建的。
+该值指示此图像是从 SVG 创建的。
 
-### 参见
+### 另请参见
 
 * 接口 [ISvgImage](../../isvgimage)
 * 接口 [IPPImage](../../ippimage)

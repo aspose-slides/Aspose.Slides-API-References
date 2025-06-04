@@ -1,7 +1,7 @@
 ---
 title: CropTop
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Prozent der tatsächlichen Bildhöhe zurück oder setzt diese, die von der oberen Kante des Bildes abgeschnitten werden. Lese-/Schreibzugriff Single.
+description: Gibt die Anzahl der Prozentsätze der tatsächlichen Bildhöhe zurück oder legt sie fest, die von der Oberseite des Bildes abgeschnitten werden. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 40
 url: /de/aspose.slides/picturefillformat/croptop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/croptop/
 
 ## PictureFillFormat.CropTop-Eigenschaft
 
-Gibt die Anzahl der Prozent der tatsächlichen Bildhöhe zurück oder setzt diese, die von der oberen Kante des Bildes abgeschnitten werden. Lese-/Schreibzugriff Single.
+Gibt die Anzahl der Prozentsätze der tatsächlichen Bildhöhe zurück oder legt sie fest, die von der Oberseite des Bildes abgeschnitten werden. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float CropTop { get; set; }

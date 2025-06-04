@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur-Lesen IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur lesbare IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/iluminance/asiimagetransformoperation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/iluminance/asiimagetransformoperation/
 
 ## ILuminance.AsIImageTransformOperation-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur-Lesen [`IImageTransformOperation`](../../iimagetransformoperation).
+Ermöglicht den Zugriff auf die Basisschnittstelle IImageTransformOperation. Nur lesbare [`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IImageTransformOperation](../../iimagetransformoperation)
 * Schnittstelle [ILuminance](../../iluminance)

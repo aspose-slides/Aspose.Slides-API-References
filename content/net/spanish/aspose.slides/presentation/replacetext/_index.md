@@ -1,6 +1,6 @@
 ---
 title: ReplaceText
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Reemplaza todas las ocurrencias del texto especificado por otro texto especificado.
 type: docs
 weight: 370
@@ -31,13 +31,13 @@ El siguiente código de ejemplo muestra cómo reemplazar una cadena especificada
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Reemplazar todas las ocurrencias separadas de 'the' con '***'
+	// Reemplazar todas las ocurrencias separadas de 'the' por '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ITextSearchOptions](../../itextsearchoptions)
 * interfaz [IFindResultCallback](../../ifindresultcallback)

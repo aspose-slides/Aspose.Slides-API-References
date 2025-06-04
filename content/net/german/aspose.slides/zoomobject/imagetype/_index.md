@@ -1,7 +1,7 @@
 ---
 title: ImageType
-second_title: Aspose.Slides für .NET API Referenz
-description: Ruft den Bildtyp eines Zoom-Objekts ab oder legt ihn fest. Lese-/Schreibzugriff auf ZoomImageTypeaspose.slides/zoomimagetype. Standardwert Vorschau
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ruft den Bildtyp eines Zoomobjekts ab oder legt ihn fest. Lesen/Schreiben ZoomImageTypeaspose.slides/zoomimagetype. Standardwert Vorschau
 type: docs
 weight: 10
 url: /de/aspose.slides/zoomobject/imagetype/
@@ -9,19 +9,19 @@ url: /de/aspose.slides/zoomobject/imagetype/
 
 ## ZoomObject.ImageType-Eigenschaft
 
-Ruft den Bildtyp eines Zoom-Objekts ab oder legt ihn fest. Lese-/Schreibzugriff auf [`ZoomImageType`](../../zoomimagetype). Standardwert: Vorschau
+Ruft den Bildtyp eines Zoomobjekts ab oder legt ihn fest. Lesen/ Schreiben [`ZoomImageType`](../../zoomimagetype). Standardwert: Vorschau
 
 ```csharp
 public ZoomImageType ImageType { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Gibt an, ob das Zoom-Objekt die Folienvorschau oder ein Cover-Bild verwendet.
+Gibt an, ob das Zoomobjekt die Folienvorschau oder ein Titelbild verwendet.
 
 ### Beispiele
 
-Im nächsten Beispiel wird der Bildtyp auf den Wert Vorschau geändert. In diesem Fall ändert sich das aktuelle Bild eines Zoom-Objekts in das Folienbild:
+Das folgende Beispiel demonstriert das Ändern des Bildtyps in den Wert Vorschau. In diesem Fall ändert sich das aktuelle Bild eines Zoomobjekts in das Folienbild:
 
 ```csharp
 [C#]

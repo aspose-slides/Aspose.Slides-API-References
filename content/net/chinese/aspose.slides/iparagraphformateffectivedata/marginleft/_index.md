@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回段落中的左边距。只读单精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回段落的左边距。只读单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides/iparagraphformateffectivedata/marginleft/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iparagraphformateffectivedata/marginleft/
 
 ## IParagraphFormatEffectiveData.MarginLeft 属性
 
-返回段落中的左边距。只读单精度浮点数。
+返回段落的左边距。只读单精度浮点数。
 
 ```csharp
 public float MarginLeft { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * 命名空间 [Aspose.Slides](../../iparagraphformateffectivedata)

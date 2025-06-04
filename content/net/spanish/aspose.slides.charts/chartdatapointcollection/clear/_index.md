@@ -15,10 +15,10 @@ Elimina todos los elementos de la colección.
 public void Clear()
 ```
 
-### Véase también
+### Ver También
 
 * clase [ChartDataPointCollection](../../chartdatapointcollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartdatapointcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

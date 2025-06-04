@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
-second_title: Aspose.Slides для .NET Справочник по API
-description: Тестирует два гиперссылки на неравенство.
+second_title: Aspose.Sildes для .NET API Справка
+description: Проверяет два гиперссылки на неравенство.
 type: docs
 weight: 240
 url: /ru/aspose.slides/hyperlink/op_inequality/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/hyperlink/op_inequality/
 
 ## Оператор неравенства гиперссылки
 
-Тестирует два гиперссылки на неравенство.
+Проверяет два гиперссылки на неравенство.
 
 ```csharp
 public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
@@ -17,14 +17,14 @@ public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hlink1 | Hyperlink | Первая гиперссылка для тестирования. |
-| hlink2 | Hyperlink | Вторая гиперссылка для тестирования. |
+| hlink1 | Hyperlink | Первая гиперссылка для проверки. |
+| hlink2 | Hyperlink | Вторая гиперссылка для проверки. |
 
-### Значение возврата
+### Возвращаемое значение
 
 **Ложь**, если гиперссылки равны.
 
-### См. также
+### См. Также
 
 * класс [Hyperlink](../../hyperlink)
 * пространство имен [Aspose.Slides](../../hyperlink)

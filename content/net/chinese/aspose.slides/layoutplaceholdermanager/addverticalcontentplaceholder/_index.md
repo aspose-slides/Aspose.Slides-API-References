@@ -1,7 +1,7 @@
 ---
 title: AddVerticalContentPlaceholder
 second_title: Aspose.Sildes for .NET API Reference
-description: 向布局幻灯片添加新的占位符形状，以垂直方向容纳内容，如图片、表格、媒体或文本。
+description: 向布局幻灯片添加一个新的占位符形状，以垂直方向容纳内容，例如图片、表格、媒体或文本。
 type: docs
 weight: 90
 url: /zh/aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder/
 
 ## LayoutPlaceholderManager.AddVerticalContentPlaceholder 方法
 
-向布局幻灯片添加新的占位符形状，以垂直方向容纳内容，如图片、表格、媒体或文本。
+向布局幻灯片添加一个新的占位符形状，以垂直方向容纳内容，例如图片、表格、媒体或文本。
 
 ```csharp
 public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, f
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新的占位符形状的 X 坐标。 |
-| y | Single | 新的占位符形状的 Y 坐标。 |
-| width | Single | 新的占位符形状的宽度。 |
-| height | Single | 新的占位符形状的高度。 |
+| x | Single | 新占位符形状的 X 坐标。 |
+| y | Single | 新占位符形状的 Y 坐标。 |
+| width | Single | 新占位符形状的宽度。 |
+| height | Single | 新占位符形状的高度。 |
 
 ### 返回值
 
-创建的 [`IAutoShape`](../../iautoshape) 带有内容（垂直）占位符。
+创建的 [`IAutoShape`](../../iautoshape) 具有内容（垂直）占位符。
 
 ### 示例
 
-以下示例演示如何向布局幻灯片添加内容（垂直）占位符形状。
+以下示例演示了如何将内容（垂直）占位符形状添加到布局幻灯片。
 
 ```csharp
 [C#]

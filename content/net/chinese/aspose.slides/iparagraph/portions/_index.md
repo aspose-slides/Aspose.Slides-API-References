@@ -1,7 +1,7 @@
 ---
 title: Portions
-second_title: Aspose.Slides for .NET API 参考
-description: 返回文本部分的集合。 只读 IPortionCollectionaspose.slides/iportioncollection。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回文本部分的集合。只读 IPortionCollection aspose.slides/iportioncollection。
 type: docs
 weight: 40
 url: /zh/aspose.slides/iparagraph/portions/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iparagraph/portions/
 public IPortionCollection Portions { get; }
 ```
 
-### 相关内容
+### 另请参阅
 
 * 接口 [IPortionCollection](../../iportioncollection)
 * 接口 [IParagraph](../../iparagraph)

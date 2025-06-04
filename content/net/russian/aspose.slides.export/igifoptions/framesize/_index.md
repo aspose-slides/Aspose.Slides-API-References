@@ -1,7 +1,7 @@
 ---
 title: FrameSize
-second_title: Справочник API Aspose.Slides для .NET
-description: Получает или задает размер фрейма.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или устанавливает размер фрейма.
 type: docs
 weight: 40
 url: /ru/aspose.slides.export/igifoptions/framesize/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/igifoptions/framesize/
 
 ## IGifOptions.FrameSize свойство
 
-Получает или задает размер фрейма.
+Получает или устанавливает размер фрейма.
 
 ```csharp
 public Size FrameSize { get; set; }
@@ -19,7 +19,7 @@ public Size FrameSize { get; set; }
 
 Если размер пустой, то значение будет взято из [`SlideSize`](../../../aspose.slides/ipresentation/slidesize)
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGifOptions](../../igifoptions)
 * пространство имен [Aspose.Slides.Export](../../igifoptions)

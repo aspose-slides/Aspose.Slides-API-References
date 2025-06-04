@@ -1,6 +1,6 @@
 ---
 title: Insert
-second_title: Aspose.Slildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 在指定索引处向集合中插入新行为。
 type: docs
 weight: 100
@@ -20,7 +20,7 @@ public void Insert(int index, IBehavior item)
 | index | Int32 | 新行为应该插入的索引。 |
 | item | IBehavior | 要插入的行为。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IBehavior](../../ibehavior)
 * 类 [BehaviorCollection](../../behaviorcollection)

@@ -20,12 +20,12 @@ public class Control : DomObject<ControlCollection>, IControl
 | Nom | Description |
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Spécifie la persistance d'un contrôle ActiveX lorsque la méthode utilisée pour persister est soit PersistStream, PersistStreamInit ou PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Obtient l'ID de classe de ce contrôle. Guid en lecture seule. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Renvoie ou définit le cadre du contrôle. Lire/écrire [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Obtient ou définit le nom de ce contrôle. Lire/écrire String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. Lecture seule [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Renvoie une collection de propriétés ActiveX. Remarque : Aspose.Slides ne prend en charge que les propriétés ActiveX basées sur XML. Si les propriétés sont stockées au format binaire, cette propriété renverra null. Lecture seule [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Renvoie l'objet de propriétés de remplissage d'image du contrôle. Lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Obtient l'identifiant de classe de ce contrôle. En lecture seule Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Renvoie ou définit le cadre du contrôle. Lecture/écriture [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Obtient ou définit le nom de ce contrôle. Lecture/écriture String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Obtient la méthode utilisée pour stocker les propriétés du contrôle ActiveX. En lecture seule [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Renvoie une collection de propriétés ActiveX. Remarque : Aspose.Slides ne prend en charge que les propriétés ActiveX basées sur XML. Si les propriétés sont stockées au format binaire, cette propriété renverra null. En lecture seule [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Renvoie l'objet de propriétés de remplissage d'image du contrôle. En lecture seule [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Voir aussi
 

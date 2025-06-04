@@ -1,76 +1,76 @@
----
+---  
 title: Placeholder
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'espace réservé pour une forme. Renvoie null si la forme n'a pas d'espace réservé. Lecture seule IPlaceholderaspose.slides/iplaceholder.
-type: docs
-weight: 210
+second_title: Référence de l'API Aspose.Slides pour .NET  
+description: Retourne le placeholder pour une forme. Retourne null si la forme n'a pas de placeholder. Lecture seule IPlaceholderaspose.slides/iplaceholder.
+type: docs  
+weight: 210  
 url: /fr/aspose.slides/shape/placeholder/
----
+---  
 
-## Propriété Shape.Placeholder
+## Propriété Shape.Placeholder  
 
-Renvoie l'espace réservé pour une forme. Renvoie null si la forme n'a pas d'espace réservé. Lecture seule [`IPlaceholder`](../../iplaceholder).
+Retourne le placeholder pour une forme. Retourne null si la forme n'a pas de placeholder. Lecture seule [`IPlaceholder`](../../iplaceholder).  
 
-```csharp
-public IPlaceholder Placeholder { get; }
-```
+```csharp  
+public IPlaceholder Placeholder { get; }  
+```  
 
-### Exemples
+### Exemples  
 
-L'exemple suivant montre comment changer le texte dans l'espace réservé.
+L'exemple suivant montre comment changer le texte dans le Placeholder.  
 
-```csharp
-[C#]
-// Instancie une classe Presentation
-using (Presentation pres = new Presentation("ReplacingText.pptx"))
-{
-    // Accède à la première diapositive
-    ISlide sld = pres.Slides[0];
-    // Itère à travers les formes pour trouver l'espace réservé
-    foreach (IShape shp in sld.Shapes)
-        if (shp.Placeholder != null)
-        {
-            // Change le texte dans chaque espace réservé
-            ((IAutoShape)shp).TextFrame.Text = "Ceci est un espace réservé";
-        }
-    // Enregistre la présentation sur le disque
-    pres.Save("output_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
-}
-```
+```csharp  
+[C#]  
+// Instancie une classe Presentation  
+using (Presentation pres = new Presentation("ReplacingText.pptx"))  
+{  
+    // Accède à la première diapositive  
+    ISlide sld = pres.Slides[0];  
+    // Itère à travers les formes pour trouver le placeholder  
+    foreach (IShape shp in sld.Shapes)  
+        if (shp.Placeholder != null)  
+        {  
+            // Change le texte dans chaque placeholder  
+            ((IAutoShape)shp).TextFrame.Text = "Ceci est un Placeholder";  
+        }  
+    // Sauvegarde la présentation sur le disque  
+    pres.Save("output_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);  
+}  
+```  
 
-L'exemple suivant montre comment définir le texte d'invite dans l'espace réservé.
+L'exemple suivant montre comment définir le texte d'invite dans le Placeholder.  
 
-```csharp
-[C#]
-using (Presentation pres = new Presentation("Presentation2.pptx"))
-{
-    ISlide slide = pres.Slides[0];
-    foreach (IShape shape in slide.Slide.Shapes) // Itère à travers la diapositive
-    {
-        if (shape.Placeholder != null && shape is AutoShape)
-        {
-            string text = "";
-            if (shape.Placeholder.Type == PlaceholderType.CenteredTitle) // PowerPoint affiche "Cliquez pour ajouter un titre"
-            {
-                text = "Ajouter un titre";
-            }
-            else if (shape.Placeholder.Type == PlaceholderType.Subtitle) // Ajoute un sous-titre
-            {
-                text = "Ajouter un sous-titre";
-            }
-            ((IAutoShape)shape).TextFrame.Text = text;
-            Console.WriteLine($"Espace réservé avec texte : {text}");
-        }
-    }
-    pres.Save("Placeholders_PromptText.pptx", SaveFormat.Pptx);
-}
-```
+```csharp  
+[C#]  
+using (Presentation pres = new Presentation("Presentation2.pptx"))  
+{  
+    ISlide slide = pres.Slides[0];  
+    foreach (IShape shape in slide.Slide.Shapes) // Itère à travers la diapositive  
+    {  
+        if (shape.Placeholder != null && shape is AutoShape)  
+        {  
+            string text = "";  
+            if (shape.Placeholder.Type == PlaceholderType.CenteredTitle) // PowerPoint affiche "Cliquez pour ajouter un titre"  
+            {  
+                text = "Ajouter un titre";  
+            }  
+            else if (shape.Placeholder.Type == PlaceholderType.Subtitle) // Ajoute un sous-titre  
+            {  
+                text = "Ajouter un sous-titre";  
+            }  
+            ((IAutoShape)shape).TextFrame.Text = text;  
+            Console.WriteLine($"Placeholder avec texte : {text}");  
+        }  
+    }  
+    pres.Save("Placeholders_PromptText.pptx", SaveFormat.Pptx);  
+}  
+```  
 
-### Voir aussi
+### Voir aussi  
 
-* interface [IPlaceholder](../../iplaceholder)
-* classe [Shape](../../shape)
-* espace de noms [Aspose.Slides](../../shape)
-* assembly [Aspose.Slides](../../../)
+* interface [IPlaceholder](../../iplaceholder)  
+* class [Shape](../../shape)  
+* namespace [Aspose.Slides](../../shape)  
+* assembly [Aspose.Slides](../../../)  
 
-<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

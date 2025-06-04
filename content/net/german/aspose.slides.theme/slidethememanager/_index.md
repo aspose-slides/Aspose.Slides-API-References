@@ -1,7 +1,7 @@
 ---
 title: SlideThemeManager
 second_title: Aspose.Slides für .NET API Referenz
-description: Bietet Zugriff auf das angepasste Folienthema.
+description: Bietet Zugriff auf das übergeordnete Folienlayout.
 type: docs
 weight: 11160
 url: /de/aspose.slides.theme/slidethememanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/slidethememanager/
 
 ## SlideThemeManager-Klasse
 
-Bietet Zugriff auf das angepasste Folienthema.
+Bietet Zugriff auf das übergeordnete Folienlayout.
 
 ```csharp
 public class SlideThemeManager : BaseOverrideThemeManager
@@ -19,8 +19,8 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob das OverrideTheme das vererbte effektive Thema überschreibt oder nicht. Um das OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die Methoden OverrideTheme.Init*(). Um das OverrideTheme vom Überschreiben abzuhalten, verwenden Sie die Methode OverrideTheme.Clear(). Nur lesbarer Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das überschreibende Themenobjekt zurück. Lese-/schreibbares [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestimmt, ob OverrideTheme das geerbte effektive Thema überschreibt oder nicht. Um OverrideTheme zum Überschreiben zu aktivieren, verwenden Sie die OverrideTheme.Init*()-Methoden. Um OverrideTheme vom Überschreiben abzuhalten, verwenden Sie die OverrideTheme.Clear()-Methode. Schreibgeschützter Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Gibt das übergeordnete Themenobjekt zurück. Lese-/Schreibzugriff [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 

@@ -1,15 +1,15 @@
 ---
 title: InsertEmptySlide
-second_title: Référence API Aspose.Slides pour .NET
-description: Insère une copie d'une diapositive spécifiée à une position spécifiée de la collection.
+second_title: Aspose.Slides pour .NET API Référence
+description: Insère une copie d'une diapositive spécifiée à la position spécifiée de la collection.
 type: docs
 weight: 130
 url: /fr/aspose.slides/slidecollection/insertemptyslide/
 ---
 
-## Méthode SlideCollection.InsertEmptySlide
+## SlideCollection.InsertEmptySlide méthode
 
-Insère une copie d'une diapositive spécifiée à une position spécifiée de la collection.
+Insère une copie d'une diapositive spécifiée à la position spécifiée de la collection.
 
 ```csharp
 public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
@@ -20,11 +20,11 @@ public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 | index | Int32 | Index d'une nouvelle diapositive. |
 | layout | ILayoutSlide | Mise en page d'une diapositive. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Diapositive insérée.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ISlide](../../islide)
 * interface [ILayoutSlide](../../ilayoutslide)

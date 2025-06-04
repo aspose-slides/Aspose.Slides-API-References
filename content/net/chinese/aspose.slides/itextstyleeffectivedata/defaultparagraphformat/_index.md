@@ -1,6 +1,6 @@
 ---
 title: DefaultParagraphFormat
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回有效的默认段落属性。只读 IParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/itextstyleeffectivedata/defaultparagraphformat/
 public IParagraphFormatEffectiveData DefaultParagraphFormat { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * 接口 [ITextStyleEffectiveData](../../itextstyleeffectivedata)

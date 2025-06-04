@@ -1,7 +1,7 @@
 ---
 title: PositionLocked
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, запрещено ли перемещение этой формы. Чтение/запись Булевое значение.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, запрещено ли перемещение этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 40
 url: /ru/aspose.slides/graphicalobjectlock/positionlocked/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/graphicalobjectlock/positionlocked/
 
 ## Свойство GraphicalObjectLock.PositionLocked
 
-Определяет, запрещено ли перемещение этой формы. Чтение/запись Булевое значение.
+Определяет, запрещено ли перемещение этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool PositionLocked { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * класс [GraphicalObjectLock](../../graphicalobjectlock)
 * пространство имен [Aspose.Slides](../../graphicalobjectlock)

@@ -15,7 +15,7 @@ Devuelve el gráfico padre. Solo lectura [`IChart`](../../ichart).
 public IChart Chart { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IChart](../../ichart)
 * clase [Trendline](../../trendline)

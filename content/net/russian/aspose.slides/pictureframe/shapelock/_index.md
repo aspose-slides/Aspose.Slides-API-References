@@ -1,7 +1,7 @@
 ---
 title: ShapeLock
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает замки фигур. ТОЛЬКО ЧИТАТЬ IPictureFrameLockaspose.slides/ipictureframelock.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает блокировки фигур. Только для чтения IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
 weight: 60
 url: /ru/aspose.slides/pictureframe/shapelock/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/pictureframe/shapelock/
 
 ## Свойство PictureFrame.ShapeLock
 
-Возвращает замки фигуры. ТОЛЬКО ЧИТАТЬ [`IPictureFrameLock`](../../ipictureframelock).
+Возвращает блокировки фигуры. Только для чтения [`IPictureFrameLock`](../../ipictureframelock).
 
 ```csharp
 public IPictureFrameLock ShapeLock { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IPictureFrameLock](../../ipictureframelock)
 * класс [PictureFrame](../../pictureframe)

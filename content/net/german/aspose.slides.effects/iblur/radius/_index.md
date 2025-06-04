@@ -1,7 +1,7 @@
 ---
 title: Radius
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Unschärferadius zurück oder legt ihn fest. Lese-/Schreibzugriff Double.
+description: Gibt den Unschärferadius zurück oder legt ihn fest. Lese-/Schreibbare Double.
 type: docs
 weight: 40
 url: /de/aspose.slides.effects/iblur/radius/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iblur/radius/
 
 ## IBlur.Radius-Eigenschaft
 
-Gibt den Unschärferadius zurück oder legt ihn fest. Lese-/Schreibzugriff Double.
+Gibt den Unschärferadius zurück oder legt ihn fest. Lese-/Schreibbare Double.
 
 ```csharp
 public double Radius { get; set; }

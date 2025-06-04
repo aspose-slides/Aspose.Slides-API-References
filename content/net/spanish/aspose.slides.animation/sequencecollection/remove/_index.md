@@ -7,7 +7,7 @@ weight: 60
 url: /es/aspose.slides.animation/sequencecollection/remove/
 ---
 
-## Método SequenceCollection.Remove
+## SequenceCollection.Remove method
 
 Elimina la secuencia especificada de una colección.
 
@@ -21,9 +21,9 @@ public void Remove(ISequence item)
 
 ### Ver También
 
-* interfaz [ISequence](../../isequence)
-* clase [SequenceCollection](../../sequencecollection)
-* espacio de nombres [Aspose.Slides.Animation](../../sequencecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ISequence](../../isequence)
+* class [SequenceCollection](../../sequencecollection)
+* namespace [Aspose.Slides.Animation](../../sequencecollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

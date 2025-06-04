@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Absatzformat zurück. Nur lesender IChartParagraphFormataspose.slides.charts/ichartparagraphformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Absatzformat zurück. Nur lesbar IChartParagraphFormataspose.slides.charts/ichartparagraphformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/icharttextformat/paragraphformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/icharttextformat/paragraphformat/
 
 ## IChartTextFormat.ParagraphFormat-Eigenschaft
 
-Gibt das Absatzformat zurück. Nur lesend [`IChartParagraphFormat`](../../ichartparagraphformat).
+Gibt das Absatzformat zurück. Nur lesbar [`IChartParagraphFormat`](../../ichartparagraphformat).
 
 ```csharp
 public IChartParagraphFormat ParagraphFormat { get; }

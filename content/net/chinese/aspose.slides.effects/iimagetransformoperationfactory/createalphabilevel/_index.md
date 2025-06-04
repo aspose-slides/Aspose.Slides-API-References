@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaBiLevel
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 创建 Alpha BiLevel 效果。
 type: docs
 weight: 10
@@ -23,7 +23,7 @@ public IAlphaBiLevel CreateAlphaBiLevel(float threshold)
 
 Alpha BiLevel 效果。
 
-### 另请参阅
+### 另见
 
 * 接口 [IAlphaBiLevel](../../ialphabilevel)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

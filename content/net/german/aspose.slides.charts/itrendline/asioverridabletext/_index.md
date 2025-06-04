@@ -1,7 +1,7 @@
 ---
 title: AsIOverridableText
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IOverridableText-Interface zurück. Nur-lesbares IOverridableTextaspose.slides.charts/ioverridabletext.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das IOverridableText-Interface zurück. Nur lesbares IOverridableTextaspose.slides.charts/ioverridabletext.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/itrendline/asioverridabletext/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/itrendline/asioverridabletext/
 
 ## ITrendline.AsIOverridableText-Eigenschaft
 
-Gibt das IOverridableText-Interface zurück. Nur-lesbares [`IOverridableText`](../../ioverridabletext).
+Gibt das IOverridableText-Interface zurück. Nur lesbar [`IOverridableText`](../../ioverridabletext).
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }
@@ -19,7 +19,7 @@ public IOverridableText AsIOverridableText { get; }
 
 Für COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Interface [IOverridableText](../../ioverridabletext)
 * Interface [ITrendline](../../itrendline)

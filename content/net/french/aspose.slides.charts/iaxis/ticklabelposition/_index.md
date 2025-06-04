@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente la position des étiquettes des marques de graduation sur l'axe spécifié. Lecture/écriture de TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente la position des étiquettes de marqueurs sur l'axe spécifié. Lecture/écriture TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
 type: docs
 weight: 500
 url: /fr/aspose.slides.charts/iaxis/ticklabelposition/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/iaxis/ticklabelposition/
 
 ## Propriété IAxis.TickLabelPosition
 
-Représente la position des étiquettes des marques de graduation sur l'axe spécifié. Lecture/écriture de [`TickLabelPositionType`](../../ticklabelpositiontype).
+Représente la position des étiquettes de marqueurs sur l'axe spécifié. Lecture/écriture [`TickLabelPositionType`](../../ticklabelpositiontype).
 
 ```csharp
 public TickLabelPositionType TickLabelPosition { get; set; }
 ```
 
-### Voir également
+### Voir Aussi
 
 * enum [TickLabelPositionType](../../ticklabelpositiontype)
 * interface [IAxis](../../iaxis)

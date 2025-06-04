@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Pfeilspitzenstil am Anfang einer Linie zurück. Nur lesbarer LineArrowheadStyleaspose.slides/linearrowheadstyle.
+description: Gibt den Pfeilspitzenstil am Anfang einer Linie zurück. Nur lesbare LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 40
 url: /de/aspose.slides/ilineformateffectivedata/beginarrowheadstyle/

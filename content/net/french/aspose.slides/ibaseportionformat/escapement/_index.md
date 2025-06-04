@@ -1,7 +1,7 @@
 ---
 title: Escapement
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le texte en exposant ou en indice. Valeur de -100 indice à 100 exposant. **float.NaN** signifie que la valeur est indéfinie et devrait être héritée du Maître. Lecture/écriture Unique.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le texte en exposant ou en indice. Valeur de -100 en indice à 100 en exposant. **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ibaseportionformat/escapement/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformat/escapement/
 
 ## Propriété IBasePortionFormat.Escapement
 
-Renvoie ou définit le texte en exposant ou en indice. Valeur de -100% (indice) à 100% (exposant). **float.NaN** signifie que la valeur est indéfinie et devrait être héritée du Maître. Lecture/écriture Unique.
+Renvoie ou définit le texte en exposant ou en indice. Valeur de -100 % (indice) à 100 % (exposant). **float.NaN** signifie que la valeur est indéfinie et doit être héritée du Maître. Lecture/écriture Single.
 
 ```csharp
 public float Escapement { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBasePortionFormat](../../ibaseportionformat)
 * namespace [Aspose.Slides](../../ibaseportionformat)

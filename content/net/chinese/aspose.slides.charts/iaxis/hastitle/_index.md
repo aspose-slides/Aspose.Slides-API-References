@@ -1,7 +1,7 @@
 ---
 title: HasTitle
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定一个轴是否有可见标题。可读/写布尔值。
+description: 确定轴是否具有可见标题。可读/可写布尔值。
 type: docs
 weight: 170
 url: /zh/aspose.slides.charts/iaxis/hastitle/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/hastitle/
 
 ## IAxis.HasTitle 属性
 
-确定一个轴是否有可见标题。可读/写布尔值。
+确定轴是否具有可见标题。可读/可写布尔值。
 
 ```csharp
 public bool HasTitle { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

@@ -1,15 +1,15 @@
 ---
 title: ReturnToParent
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Obtient ou définit le comportement de navigation dans le diaporama. Lisible/écrivable Boolean. Valeur par défaut  false
+second_title: Référence API Aspose.Slides pour .NET
+description: Obtient ou définit le comportement de navigation dans le diaporama. Valeur booléenne en lecture/écriture. Valeur par défaut  faux
 type: docs
 weight: 30
 url: /fr/aspose.slides/izoomobject/returntoparent/
 ---
 
-## Propriété IZoomObject.ReturnToParent
+## IZoomObject.ReturnToParent propriété
 
-Obtient ou définit le comportement de navigation dans le diaporama. Lisible/écrivable Boolean. Valeur par défaut : false
+Obtient ou définit le comportement de navigation dans le diaporama. Valeur booléenne en lecture/écriture. Valeur par défaut : faux
 
 ```csharp
 public bool ReturnToParent { get; set; }
@@ -17,7 +17,7 @@ public bool ReturnToParent { get; set; }
 
 ### Remarques
 
-La valeur True de la propriété spécifie le comportement de retour à la navigation parente dans le diaporama.
+La valeur vraie de la propriété spécifie le comportement de navigation de retour au parent dans le diaporama.
 
 ### Exemples
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IZoomObject](../../izoomobject)
 * namespace [Aspose.Slides](../../izoomobject)

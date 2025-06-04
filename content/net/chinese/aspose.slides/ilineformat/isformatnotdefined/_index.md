@@ -1,7 +1,7 @@
 ---
 title: IsFormatNotDefined
-second_title: Aspose.Slides for .NET API 参考
-description: 如果线条格式未定义为刚创建的默认值，则返回 true。只读布尔值。
+second_title: Aspose.Slides for .NET API Reference
+description: 如果行格式未定义（如刚创建的默认值），则返回 true。只读布尔值。
 type: docs
 weight: 130
 url: /zh/aspose.slides/ilineformat/isformatnotdefined/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilineformat/isformatnotdefined/
 
 ## ILineFormat.IsFormatNotDefined 属性
 
-如果线条格式未定义（如刚创建的默认值），则返回 true。只读布尔值。
+如果行格式未定义（如刚创建的默认值），则返回 true。只读布尔值。
 
 ```csharp
 public bool IsFormatNotDefined { get; }

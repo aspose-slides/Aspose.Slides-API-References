@@ -1,7 +1,7 @@
 ---
 title: ToArray
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Crea y devuelve un array con todas las diapositivas en él.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Crea y devuelve un arreglo con todas las diapositivas en él.
 type: docs
 weight: 180
 url: /es/aspose.slides/slidecollection/toarray/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/slidecollection/toarray/
 
 ## ToArray() {#toarray}
 
-Crea y devuelve un array con todas las diapositivas en él.
+Crea y devuelve un arreglo con todas las diapositivas en él.
 
 ```csharp
 public ISlide[] ToArray()
@@ -17,20 +17,20 @@ public ISlide[] ToArray()
 
 ### Valor de Retorno
 
-Array de [`Slide`](../../slide)
+Arreglo de [`Slide`](../../slide)
 
 ### Véase También
 
 * interfaz [ISlide](../../islide)
 * clase [SlideCollection](../../slidecollection)
 * espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 ---
 
 ## ToArray(int, int) {#toarray_1}
 
-Crea y devuelve un array con todas las diapositivas del rango especificado en él. Un índice de la primera diapositiva a añadir. Un número de diapositivas a añadir.
+Crea y devuelve un arreglo con todas las diapositivas del rango especificado en él. Un índice de la primera diapositiva a agregar. Un número de diapositivas a agregar.
 
 ```csharp
 public ISlide[] ToArray(int startIndex, int count)
@@ -38,13 +38,13 @@ public ISlide[] ToArray(int startIndex, int count)
 
 ### Valor de Retorno
 
-Array de [`Slide`](../../slide)
+Arreglo de [`Slide`](../../slide)
 
 ### Véase También
 
 * interfaz [ISlide](../../islide)
 * clase [SlideCollection](../../slidecollection)
 * espacio de nombres [Aspose.Slides](../../slidecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

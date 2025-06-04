@@ -1,15 +1,15 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Extiende la clase LayoutSlideCollection con métodos para agregar/inserir/eliminar/clonar/reordenar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño maestras.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Extiende la clase LayoutSlideCollection con métodos para agregar insertar eliminar clonar reordenar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño maestras.
 type: docs
 weight: 7750
 url: /es/aspose.slides/masterlayoutslidecollection/
 ---
 
-## Clase MasterLayoutSlideCollection
+## MasterLayoutSlideCollection class
 
-Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Extiende la clase LayoutSlideCollection con métodos para agregar/inserir/eliminar/clonar/reordenar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño maestras.
+Representa una colección de todas las diapositivas de diseño de la diapositiva maestra definida. Extiende la clase LayoutSlideCollection con métodos para agregar insertar eliminar clonar reordenar diapositivas de diseño en el contexto de las colecciones individuales de diapositivas de diseño maestras.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -21,7 +21,7 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Devuelve el número de diapositivas de diseño en una colección. Solo lectura Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para múltiples hilos). Solo lectura Boolean. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Devuelve un valor que indica si el acceso a la colección está sincronizado (seguro para hilos). Solo lectura Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Devuelve la diapositiva de diseño por índice. Solo lectura [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Devuelve una raíz de sincronización. Solo lectura Object. |
 
@@ -30,22 +30,22 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | Nombre | Descripción |
 | --- | --- |
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Agrega una nueva diapositiva de diseño al final de la colección. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Agrega una copia de una diapositiva de diseño especificada al final de la colección. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección al array especificado. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Devuelve la primera diapositiva de diseño del tipo especificado. Un tipo de diapositiva de diseño a buscar.[`LayoutSlide`](../layoutslide) con el tipo especificado o null si no se encontraron diseños. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Agrega una copia de una diapositiva de diseño específica al final de la colección. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia todos los elementos de la colección a la matriz especificada. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Devuelve la primera diapositiva de diseño del tipo especificado. Un tipo de diapositiva de diseño para encontrar. [`LayoutSlide`](../layoutslide) con el tipo especificado o nulo si no se encuentran diseños. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Devuelve un enumerador que itera a través de la colección. |
 | [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Inserta una nueva diapositiva de diseño en la posición especificada de la colección. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserta una copia de una diapositiva de diseño especificada en la posición especificada de la colección. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Inserta una copia de una diapositiva de diseño específica en la posición especificada de la colección. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Elimina una diapositiva de la colección. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Elimina el elemento en el índice especificado de la colección. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Elimina las diapositivas de diseño no utilizadas (diapositivas de diseño cuya HasDependingSlides es falsa). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Elimina diapositivas de diseño no utilizadas (diapositivas de diseño cuya HasDependingSlides es falsa). |
 | [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Mueve la diapositiva de diseño de la colección a la posición especificada. |
 
-### Véase también
+### Véase También
 
-* clase [LayoutSlideCollection](../layoutslidecollection)
-* interfaz [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* clase [LayoutSlideCollection](../layoutslidecollection)
+* interfaz [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblaje [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: SideWall
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt ein Objekt zurück, das die Formatierung der Seitenwand eines 3D-Diagramms ermöglicht. Nur-lesend IChartWallaspose.slides.charts/ichartwall.
+description: Gibt ein Objekt zurück, das es ermöglicht, das Format der Seitenwand eines 3D-Diagramms zu ändern. Nur lesender Zugriff auf IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 200
 url: /de/aspose.slides.charts/ichart/sidewall/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichart/sidewall/
 
 ## IChart.SideWall-Eigenschaft
 
-Gibt ein Objekt zurück, das die Formatierung der Seitenwand eines 3D-Diagramms ermöglicht. Nur-lesend [`IChartWall`](../../ichartwall).
+Gibt ein Objekt zurück, das es ermöglicht, das Format der Seitenwand eines 3D-Diagramms zu ändern. Nur lesender Zugriff auf [`IChartWall`](../../ichartwall).
 
 ```csharp
 public IChartWall SideWall { get; }

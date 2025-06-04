@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Ajoute une Portion à la fin de la collection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/iportioncollection/add/
 ---
 
-## Méthode IPortionCollection.Add
+## IPortionCollection.Add méthode
 
 Ajoute une Portion à la fin de la collection.
 

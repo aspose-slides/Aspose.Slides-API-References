@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有元素。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除所有元素。
 type: docs
 weight: 80
 url: /zh/aspose.slides.charts/chartcategorycollection/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartcategorycollection/clear/
 
 ## ChartCategoryCollection.Clear 方法
 
-从集合中移除所有元素。
+从集合中删除所有元素。
 
 ```csharp
 public void Clear()
 ```
 
-### 参见
+### 另见
 
 * class [ChartCategoryCollection](../../chartcategorycollection)
 * namespace [Aspose.Slides.Charts](../../chartcategorycollection)

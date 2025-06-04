@@ -1,6 +1,6 @@
 ---
 title: FileVersion
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Version der Assembly-Datei.
 type: docs
 weight: 20

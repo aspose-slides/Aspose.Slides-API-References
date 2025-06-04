@@ -1,6 +1,6 @@
 ---
 title: EffectFactory
-second_title: Aspose.Slides pour .NET Référence de l'API
+second_title: Aspose.Slides pour référence API .NET
 description: Permet de créer des effets
 type: docs
 weight: 2870
@@ -25,7 +25,7 @@ public class EffectFactory : IEffectFactory
 
 | Nom | Description |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Renvoie ImageTransformOperationFactory. Lecture seule [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Retourne ImageTransformOperationFactory. Lecture seule [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Méthodes
 
@@ -34,7 +34,7 @@ public class EffectFactory : IEffectFactory
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Crée un effet de lueur. |
 | [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Crée un effet d'ombre interne. |
 | [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Crée un effet d'ombre externe. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Crée un effet d'ombre prédéfinie. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Crée un effet d'ombre prédéfini. |
 | [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Crée un effet de réflexion. |
 | [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Crée un effet de bord doux. |
 

@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides.vba/ivbaprojectfactory/createvbaproject/
 ---
 
-## Método IVbaProjectFactory.CreateVbaProject
+## IVbaProjectFactory.CreateVbaProject método
 
 Crea un nuevo proyecto VBA.
 
@@ -19,11 +19,11 @@ public IVbaProject CreateVbaProject()
 
 Nuevo proyecto VBA
 
-### Ver también
+### Véase también
 
 * interfaz [IVbaProject](../../ivbaproject)
 * interfaz [IVbaProjectFactory](../../ivbaprojectfactory)
 * espacio de nombres [Aspose.Slides.Vba](../../ivbaprojectfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

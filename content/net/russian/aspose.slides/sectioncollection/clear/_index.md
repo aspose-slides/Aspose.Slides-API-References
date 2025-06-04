@@ -1,21 +1,21 @@
 ---
 title: Clear
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет все разделы из коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет все секции из коллекции.
 type: docs
 weight: 80
 url: /ru/aspose.slides/sectioncollection/clear/
 ---
 
-## Метод SectionCollection.Clear
+## SectionCollection.Clear метод
 
-Удаляет все разделы из коллекции.
+Удаляет все секции из коллекции.
 
 ```csharp
 public void Clear()
 ```
 
-### См. также
+### Смотрите Также
 
 * класс [SectionCollection](../../sectioncollection)
 * пространство имен [Aspose.Slides](../../sectioncollection)

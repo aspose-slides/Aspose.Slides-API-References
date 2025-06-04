@@ -1,13 +1,13 @@
 ---
 title: BindResource
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Bindet Ressource an Ausgabedatei.
 type: docs
 weight: 20
 url: /de/aspose.slides.export.web/output/bindresource/
 ---
 
-## Output.BindResource-Methode
+## Output.BindResource Methode
 
 Bindet Ressource an Ausgabedatei.
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides.SmartArt
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Slides для .NET API Справочник
 description: Содержит классы для работы с объектами SmartArt
 type: docs
 weight: 140
@@ -31,7 +31,7 @@ url: /ru/aspose.slides.smartart/
 
 | Перечисление | Описание |
 | --- | --- |
-| [OrganizationChartLayoutType](./organizationchartlayouttype) | Представляет тип форматирования дочерних узлов в организационной диаграмме |
+| [OrganizationChartLayoutType](./organizationchartlayouttype) | Представляет тип форматирования для дочерних узлов в организационной диаграмме |
 | [SmartArtColorType](./smartartcolortype) | Представляет цветовую схему диаграммы SmartArt. |
 | [SmartArtLayoutType](./smartartlayouttype) | Представляет тип компоновки диаграммы SmartArt. |
 | [SmartArtQuickStyleType](./smartartquickstyletype) | Представляет стиль схемы диаграммы SmartArt. |

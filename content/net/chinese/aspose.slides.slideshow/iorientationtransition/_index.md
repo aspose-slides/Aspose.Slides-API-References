@@ -7,7 +7,7 @@ weight: 9840
 url: /zh/aspose.slides.slideshow/iorientationtransition/
 ---
 
-## IOrientationTransition接口
+## IOrientationTransition 接口
 
 方向幻灯片过渡效果。
 
@@ -19,10 +19,10 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允许获取基类 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允许获取基础 ITransitionValueBase 接口。只读 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 过渡的方向。可读写 [`Orientation`](../../aspose.slides/orientation)。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

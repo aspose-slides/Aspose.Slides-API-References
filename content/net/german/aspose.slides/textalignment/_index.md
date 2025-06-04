@@ -1,13 +1,13 @@
 ---
 title: TextAlignment
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt verschiedene Textausrichtungsstile dar.
 type: docs
 weight: 10590
 url: /de/aspose.slides/textalignment/
 ---
 
-## TextAlignment Enumeration
+## Aufzählung TextAlignment
 
 Stellt verschiedene Textausrichtungsstile dar.
 
@@ -20,14 +20,14 @@ public enum TextAlignment
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` | Standardausrichtung. |
-| Left | `0` | Linksbündige Ausrichtung. |
-| Center | `1` | Zentrierte Ausrichtung. |
-| Right | `2` | Rechtsbündige Ausrichtung. |
-| Justify | `3` | Blocksatz. |
-| JustifyLow | `4` | Kashida-Blocksatz niedrig. |
+| Left | `0` | Linke Ausrichtung. |
+| Center | `1` | Zentrale Ausrichtung. |
+| Right | `2` | Rechte Ausrichtung. |
+| Justify | `3` | Blockausrichtung. |
+| JustifyLow | `4` | Niedrige Kashida-Justierung. |
 | Distributed | `5` | Verteilte Ausrichtung. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

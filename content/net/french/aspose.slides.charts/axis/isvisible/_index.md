@@ -15,7 +15,7 @@ Représente si l'axe est visible. Booléen en lecture/écriture.
 public bool IsVisible { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Axis](../../axis)
 * espace de noms [Aspose.Slides.Charts](../../axis)

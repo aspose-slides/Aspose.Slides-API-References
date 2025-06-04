@@ -1,6 +1,6 @@
 ---
 title: Accumulate
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Slide для .NET
 description: Представляет, накапливаются ли анимационные поведения. Чтение/запись NullableBool aspose.slides/nullablebool.
 type: docs
 weight: 10

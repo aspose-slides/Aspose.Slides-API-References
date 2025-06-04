@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/smartart/colorstyle/
 public SmartArtColorType ColorStyle { get; set; }
 ```
 
-### См. Также
+### См. также
 
 * enum [SmartArtColorType](../../smartartcolortype)
 * class [SmartArt](../../smartart)

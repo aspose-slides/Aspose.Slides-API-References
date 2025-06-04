@@ -1,13 +1,13 @@
 ---
 title: DeleteRow
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Löscht die angegebene Zeile
 type: docs
 weight: 130
 url: /de/aspose.slides.mathtext/mathmatrix/deleterow/
 ---
 
-## MathMatrix.DeleteRow-Methode
+## MathMatrix.DeleteRow Methode
 
 Löscht die angegebene Zeile
 
@@ -24,7 +24,7 @@ public void DeleteRow(int rowIndex)
 | Ausnahme | Bedingung |
 | --- | --- |
 | InvalidOperationException | Wenn Sie versuchen, die letzte einzelne Zeile in der Matrix zu löschen |
-| ArgumentOutOfRangeException | Wenn rowIndex kleiner als null oder größer oder gleich der RowCount ist |
+| ArgumentOutOfRangeException | Wenn rowIndex kleiner als null oder größer oder gleich RowCount ist |
 
 ### Beispiele
 

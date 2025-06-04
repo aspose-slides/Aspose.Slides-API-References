@@ -1,7 +1,7 @@
 ---
 title: Join
-second_title: Aspose.Slides for .NET API 参考
-description: 合并一个数学元素并形成一个数学块
+second_title: Aspose.Sildes for .NET API Reference
+description: 连接数学元素并形成数学块
 type: docs
 weight: 90
 url: /zh/aspose.slides.mathtext/imathelement/join/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathelement/join/
 
 ## Join(IMathElement) {#join}
 
-合并一个数学元素并形成一个数学块
+连接数学元素并形成数学块
 
 ```csharp
 public IMathBlock Join(IMathElement mathElement)
@@ -17,11 +17,11 @@ public IMathBlock Join(IMathElement mathElement)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| mathElement | IMathElement | 要合并的元素 |
+| mathElement | IMathElement | 要连接的元素 |
 
 ### 返回值
 
-一个新的 IMathBlock，包含此实例和指定的参数
+一个新的 IMathBlock 包含此实例和指定的参数
 
 ### 示例
 
@@ -45,7 +45,7 @@ IMathBlock block = element1.Join(element2);
 
 ## Join(string) {#join_1}
 
-合并一个数学文本并形成一个数学块
+连接数学文本并形成数学块
 
 ```csharp
 public IMathBlock Join(string mathText)
@@ -53,11 +53,11 @@ public IMathBlock Join(string mathText)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| mathText | String | 要合并的数学文本 |
+| mathText | String | 要连接的数学文本 |
 
 ### 返回值
 
-一个新的 IMathBlock，包含此实例和指定的参数
+一个新的 IMathBlock 包含此实例和指定的参数
 
 ### 示例
 

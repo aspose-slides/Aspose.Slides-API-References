@@ -1,7 +1,7 @@
 ---
 title: DestFont
-second_title: Aspose.Slides for .NET API 参考
-description: 用于替代的字体。只读 IFontDataaspose.slides/ifontdata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 替换时使用的字体。只读 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 20
 url: /zh/aspose.slides/fontsubstrule/destfont/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/fontsubstrule/destfont/
 
 ## FontSubstRule.DestFont 属性
 
-用于替代的字体。只读 [`IFontData`](../../ifontdata)。
+替换时使用的字体。只读 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData DestFont { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IFontData](../../ifontdata)
 * 类 [FontSubstRule](../../fontsubstrule)

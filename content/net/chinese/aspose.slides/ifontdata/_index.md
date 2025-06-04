@@ -1,6 +1,6 @@
 ---
 title: IFontData
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示字体定义。
 type: docs
 weight: 5630
@@ -27,7 +27,7 @@ public interface IFontData
 | --- | --- |
 | [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | 返回字体名称，将主题引用替换为实际使用的字体。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

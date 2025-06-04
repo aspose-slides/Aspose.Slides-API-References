@@ -1,6 +1,6 @@
 ---
 title: Fill
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les propriétés de style de remplissage d'un axe. Lecture seule IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20

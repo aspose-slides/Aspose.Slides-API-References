@@ -1,7 +1,7 @@
 ---
 title: TextAnimationCollection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Sammlung von Textanimationen zurück. Schreibgeschützte ITextAnimationCollectionaspose.slides.animation/itextanimationcollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine Sammlung von Textanimationen zurück. Nur-Lese ITextAnimationCollectionaspose.slides/../aspose.slides.animation/itextanimationcollection.
 type: docs
 weight: 30
 url: /de/aspose.slides/ianimationtimeline/textanimationcollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ianimationtimeline/textanimationcollection/
 
 ## IAnimationTimeLine.TextAnimationCollection-Eigenschaft
 
-Gibt eine Sammlung von Textanimationen zurück. Schreibgeschützte [`ITextAnimationCollection`](../../../aspose.slides.animation/itextanimationcollection).
+Gibt eine Sammlung von Textanimationen zurück. Nur-Lese [`ITextAnimationCollection`](../../../aspose.slides.animation/itextanimationcollection).
 
 ```csharp
 public ITextAnimationCollection TextAnimationCollection { get; }

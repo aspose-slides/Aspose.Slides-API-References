@@ -1,7 +1,7 @@
 ---
 title: NullableBool
-second_title: Aspose.Slides for .NET API Reference
-description: 表示三种布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示三重布尔值。
 type: docs
 weight: 8900
 url: /zh/aspose.slides/nullablebool/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/nullablebool/
 
 ## NullableBool枚举
 
-表示三种布尔值。
+表示三重布尔值。
 
 ```csharp
 public enum NullableBool : sbyte
@@ -23,7 +23,7 @@ public enum NullableBool : sbyte
 | False | `0` | 假值。 |
 | True | `1` | 真值。 |
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

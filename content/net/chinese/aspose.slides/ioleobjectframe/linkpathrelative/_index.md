@@ -1,7 +1,7 @@
 ---
 title: LinkPathRelative
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果存在，则返回链接文件的相对路径，否则返回一个空字符串。只读字符串。
+description: 如果存在，返回链接文件的相对路径，否则返回空字符串。只读字符串。
 type: docs
 weight: 90
 url: /zh/aspose.slides/ioleobjectframe/linkpathrelative/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ioleobjectframe/linkpathrelative/
 
 ## IOleObjectFrame.LinkPathRelative 属性
 
-如果存在，则返回链接文件的相对路径；否则返回一个空字符串。只读字符串。
+如果存在，返回链接文件的相对路径，否则返回空字符串。只读字符串。
 
 ```csharp
 public string LinkPathRelative { get; }
@@ -17,7 +17,7 @@ public string LinkPathRelative { get; }
 
 ### 备注
 
-在Ppt演示文稿中，一些Ole对象链接可能具有相对表示。
+在Ppt演示文稿中，一些Ole对象链接可能具有相对表示形式。
 
 ### 示例
 
@@ -34,7 +34,7 @@ using (Presentation presentation = new Presentation("demo.ppt"))
 }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IOleObjectFrame](../../ioleobjectframe)
 * 命名空间 [Aspose.Slides](../../ioleobjectframe)

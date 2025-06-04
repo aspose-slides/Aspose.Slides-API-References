@@ -1,21 +1,21 @@
 ---
 title: LinksUpToDate
 second_title: Aspose.Sildes for .NET API Reference
-description: 指示文档中的超链接是否是最新的。将此元素设置为 **true** 表示超链接已更新。将此元素设置为 **false** 表示超链接已过时。可读/可写布尔值。
+description: 表示文档中的超链接是否是最新的。将此元素设置为 true 表示超链接已更新。将此元素设置为 false 表示超链接已过期。可读/可写布尔值。
 type: docs
 weight: 210
 url: /zh/aspose.slides/documentproperties/linksuptodate/
 ---
 
-## DocumentProperties.LinksUpToDate 属性
+## DocumentProperties.LinksUpToDate property
 
-指示文档中的超链接是否是最新的。将此元素设置为 **true** 表示超链接已更新。将此元素设置为 **false** 表示超链接已过时。可读/可写布尔值。
+表示文档中的超链接是否是最新的。将此元素设置为 **true** 表示超链接已更新。将此元素设置为 **false** 表示超链接已过期。可读/可写布尔值。
 
 ```csharp
 public bool LinksUpToDate { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

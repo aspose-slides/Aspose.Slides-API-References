@@ -1,7 +1,7 @@
 ---
 title: StringChartValue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une valeur de chaîne qui peut être stockée dans un document de présentation pptx de deux manières  1 dans la ou les cellules du classeur liées au graphique ; 2 en tant que valeur littérale.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente une valeur de chaîne qui peut être stockée dans un document de présentation pptx de deux manières  1 dans une ou plusieurs cellules de la feuille de calcul liée au graphique ; 2 comme valeur littérale.
 type: docs
 weight: 2330
 url: /fr/aspose.slides.charts/stringchartvalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/stringchartvalue/
 
 ## Classe StringChartValue
 
-Représente une valeur de chaîne qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans la ou les cellules du classeur liées au graphique ; 2) en tant que valeur littérale.
+Représente une valeur de chaîne qui peut être stockée dans un document de présentation pptx de deux manières : 1) dans une ou plusieurs cellules de la feuille de calcul liée au graphique ; 2) comme valeur littérale.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -19,7 +19,7 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Nom | Description |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | L'attribution de valeur null n'est pas autorisée. La valeur retournée n'est jamais nulle. Lecture/écriture [`IChartCellCollection`](../ichartcellcollection). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | L'attribution d'une valeur nulle n'est pas autorisée. La valeur retournée n'est jamais nulle. Lecture/écriture [`IChartCellCollection`](../ichartcellcollection). |
 | [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Renvoie ou définit la valeur en tant que chaîne littérale. Lecture/écriture String. |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Renvoie ou définit l'objet Data. Lecture/écriture Object. |
 | [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Spécifie si la propriété AsCell, AsCells, AsLiteralString ou AsLiteralDouble est actuelle dans les descendants. En d'autres termes, elle spécifie le type de valeur de la propriété Data. Lecture/écriture [`DataSourceType`](../datasourcetype). |
@@ -28,9 +28,9 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | Nom | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Si la propriété DataSourceType est DataSourceType.Worksheet, cette méthode renvoie l'adresse des cellules dans le classeur qui représentent les données de chaîne. Sinon, elle renvoie une chaîne vide. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Si la propriété DataSourceType est DataSourceType.Worksheet, cette méthode renvoie l'adresse des cellules dans la feuille de calcul qui représentent les données de chaîne. Sinon, elle renvoie une chaîne vide. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Définit la valeur à partir de la cellule spécifiée. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Renvoie les données de valeur de chaîne. Retourne null si DataSourceType est faux et aucune valeur de chaîne n'a été assignée. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Renvoie les données de valeur de chaîne. Renvoie null si DataSourceType est faux et qu'aucune valeur de chaîne n'a été assignée. |
 
 ### Voir aussi
 

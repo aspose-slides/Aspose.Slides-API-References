@@ -1,7 +1,7 @@
 ---
 title: TextStyle
-second_title: Aspose.Slides для .NET API Reference
-description: Этот класс содержит свойства форматирования текстового стиля.
+second_title: Aspose.Slides для .NET API Справочник
+description: Этот класс содержит свойства форматирования стиля текста.
 type: docs
 weight: 10690
 url: /ru/aspose.slides/textstyle/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/textstyle/
 
 ## Класс TextStyle
 
-Этот класс содержит свойства форматирования текстового стиля.
+Этот класс содержит свойства форматирования стиля текста.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -19,19 +19,19 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Свойства по умолчанию для абзаца. Только для чтения [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить баз интерфейса IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Свойства абзаца по умолчанию. Только для чтения [`IParagraphFormat`](../iparagraphformat). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Получает эффективные данные форматирования текстового стиля с применением наследования. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Получает данные форматирования стиля текста с применением наследования. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, в противном случае возвращает null. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, иначе возвращает null. |
 
-### См. также
+### Смотрите также
 
 * класс [PVIObject](../pviobject)
 * интерфейс [ITextStyle](../itextstyle)

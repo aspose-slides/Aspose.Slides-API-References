@@ -1,7 +1,7 @@
 ---
 title: ExtrusionColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置挤压的颜色。只读 IColorFormataspose.slides/icolorformat。
+description: 返回或设置挤压的颜色。只读 IColorFormat aspose.slides/icolorformat。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ithreedformat/extrusioncolor/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ithreedformat/extrusioncolor/
 public IColorFormat ExtrusionColor { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 接口 [IThreeDFormat](../../ithreedformat)

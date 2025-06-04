@@ -1,7 +1,7 @@
 ---
 title: DateTime10
-second_title: Aspose.Slides für .NET API-Referenz
-description: Aktuelles Datum und Uhrzeit in einem zehnten vordefinierten Format hhmm für Englisch. Nur lesbarer FieldTypeaspose.slides/fieldtype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Aktuelles Datum und Uhrzeit in einem zehnten vordefinierten Format hhmm für Englisch. Nur-Lese-Feldtyp aspose.slides/fieldtype.
 type: docs
 weight: 40
 url: /de/aspose.slides/fieldtype/datetime10/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/fieldtype/datetime10/
 
 ## FieldType.DateTime10-Eigenschaft
 
-Aktuelles Datum und Uhrzeit in einem zehnten vordefinierten Format (hh:mm für Englisch). Nur lesbarer [`FieldType`](../../fieldtype).
+Aktuelles Datum und Uhrzeit in einem zehnten vordefinierten Format (hh:mm für Englisch). Nur-Lese- [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime10 { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

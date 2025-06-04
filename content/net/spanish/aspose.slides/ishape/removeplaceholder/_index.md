@@ -1,13 +1,13 @@
 ---
 title: RemovePlaceholder
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Define que esta forma no es un marcador de posición.
 type: docs
 weight: 330
 url: /es/aspose.slides/ishape/removeplaceholder/
 ---
 
-## Método IShape.RemovePlaceholder
+## IShape.RemovePlaceholder method
 
 Define que esta forma no es un marcador de posición.
 
@@ -19,6 +19,6 @@ public void RemovePlaceholder()
 
 * interfaz [IShape](../../ishape)
 * espacio de nombres [Aspose.Slides](../../ishape)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

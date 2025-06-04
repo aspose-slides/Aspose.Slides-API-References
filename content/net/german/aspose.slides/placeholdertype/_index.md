@@ -1,13 +1,13 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt den Typ eines Platzhalters dar.
 type: docs
 weight: 9180
 url: /de/aspose.slides/placeholdertype/
 ---
 
-## PlaceholderType Aufzählung
+## Enumeration PlaceholderType
 
 Stellt den Typ eines Platzhalters dar.
 

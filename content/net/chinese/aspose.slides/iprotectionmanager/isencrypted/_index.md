@@ -1,7 +1,7 @@
 ---
 title: IsEncrypted
-second_title: Aspose.Slides for .NET API Reference
-description: 获取一个值，用于指示此实例是否被加密。只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取一个值，指示此实例是否被加密。只读布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides/iprotectionmanager/isencrypted/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iprotectionmanager/isencrypted/
 
 ## IProtectionManager.IsEncrypted 属性
 
-获取一个值，用于指示此实例是否被加密。只读布尔值。
+获取一个值，指示此实例是否被加密。只读布尔值。
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -17,9 +17,9 @@ public bool IsEncrypted { get; }
 
 ### 属性值
 
-`true` 如果演示文稿是从加密文件加载的或调用了 [`Encrypt`](../encrypt) 方法；否则为 `false`。
+如果演示文稿是从加密文件加载的，或者调用了 [`Encrypt`](../encrypt) 方法，则为 `true`；否则为 `false`。
 
-### 另见
+### 另请参阅
 
 * 接口 [IProtectionManager](../../iprotectionmanager)
 * 命名空间 [Aspose.Slides](../../iprotectionmanager)

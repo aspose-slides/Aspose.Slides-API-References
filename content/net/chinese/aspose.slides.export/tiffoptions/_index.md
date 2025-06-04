@@ -7,7 +7,7 @@ weight: 4380
 url: /zh/aspose.slides.export/tiffoptions/
 ---
 
-## TiffOptions 类
+## TiffOptions class
 
 提供控制演示文稿以TIFF格式保存的选项。
 
@@ -25,36 +25,36 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 | 名称 | 描述 |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | 指定将彩色图像转换为黑白图像的算法。仅在 [`CompressionType`](./compressiontype) 设置为 CCITT4 或 CCITT3 时应用此选项。读写 [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。默认值为 Default。 |
-| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | 指定压缩类型。读写 [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。读取/写入字符串。 |
-| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | 指定每英寸的水平分辨率。读写 UInt32。 |
-| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | 指定每英寸的垂直分辨率。读写 UInt32。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | 指定生成的TIFF图像的大小。默认值为 0x0，表示生成的图像大小将基于演示文稿幻灯片的大小计算。读写 Size。 |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | 提供控制导出文档中Ink对象外观的选项。只读 [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | 指定生成图像的像素格式。读写 [`ImagePixelFormat`](../imagepixelformat)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表用于保存进度更新的回调对象（以百分比形式）。参见 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认值为 `false`。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过包含JavaScript调用的超链接。读写布尔。默认值为 **false**。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上放置的模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告的对象，并决定加载过程是否继续或中止。读写 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | 指定将彩色图像转换为黑白图像的算法。该选项仅在[`CompressionType`](./compressiontype)设置为CCITT4或CCITT3时应用。读写[`BlackWhiteConversionMode`](../blackwhiteconversionmode)。默认值为Default。 |
+| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | 指定压缩类型。读写[`TiffCompressionTypes`](../tiffcompressiontypes)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在找不到源字体时使用的字体。读写字符串。 |
+| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | 指定每英寸的水平分辨率。读写UInt32。 |
+| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | 指定每英寸的垂直分辨率。读写UInt32。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或设置渐变的视觉样式。读写[`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | 指定生成的TIFF图像的大小。默认值为0x0，表示生成的图像大小将根据演示文稿幻灯片大小值计算。读写Size。 |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | 提供控制导出文档中Ink对象外观的选项。只读[`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | 指定生成图像的像素格式。读写[`ImagePixelFormat`](../imagepixelformat)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新（以百分比形式）的回调对象。详细信息请参见[`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏的幻灯片。默认值为`false`。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存演示文稿时是否跳过带有JavaScript调用的超链接。读写布尔值。默认值为**false**。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | 获取或设置导出演示文稿时幻灯片在页面上放置的模式[`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或设置一个接收警告并决定加载过程是继续还是中止的对象。读写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 示例
 
-下面的示例显示了如何将PowerPoint转换为默认大小的TIFF。
+以下示例演示如何将PowerPoint转换为默认大小的TIFF。
 
 ```csharp
 [C#]
 // 实例化一个表示演示文稿文件的Presentation对象
 using (Presentation presentation = new Presentation("DemoFile.pptx"))
 {
-    // 保存演示文稿为TIFF文档
+    // 将演示文稿保存为TIFF文档
     presentation.Save("Tiffoutput_out.tiff", SaveFormat.Tiff);
 }
 ```
 
-下面的示例显示了如何将PowerPoint转换为自定义大小的TIFF。
+以下示例演示如何将PowerPoint转换为自定义大小的TIFF。
 
 ```csharp
 [C#]
@@ -75,19 +75,19 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
     // CCITT4
     // LZW
     // RLE
-    // 深度取决于压缩类型，不能手动设置。
-    // 分辨率单位始终等于“2”（每英寸点数）
+    // 深度取决于压缩类型，无法手动设置。
+    // 分辨率单位始终等于“2”（每英寸的点数）
     // 设置图像DPI
     opts.DpiX = 200;
     opts.DpiY = 100;
     // 设置图像大小
     opts.ImageSize = new Size(1728, 1078);
-    // 将演示文稿保存为具有指定图像大小的TIFF
+    // 将演示文稿保存为指定图像大小的TIFF
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
 
-下面的示例显示了如何将PowerPoint转换为具有自定义图像像素格式的TIFF。
+以下示例演示如何将PowerPoint转换为具有自定义图像像素格式的TIFF。
 
 ```csharp
 [C#]
@@ -97,23 +97,23 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat包含以下值（可从文档中查看）：
+    ImagePixelFormat包含以下值（可以从文档中看到）：
     Format1bppIndexed; // 每像素1位，索引。
     Format4bppIndexed; // 每像素4位，索引。
     Format8bppIndexed; // 每像素8位，索引。
     Format24bppRgb; // 每像素24位，RGB。
     Format32bppArgb; // 每像素32位，ARGB。
     */
-    // 将演示文稿保存为具有指定图像大小的TIFF
+    // 将演示文稿保存为指定图像大小的TIFF
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
 }
 ```
 
 ### 另请参见
 
-* 类 [SaveOptions](../saveoptions)
-* 接口 [ITiffOptions](../itiffoptions)
-* 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
-* 程序集 [Aspose.Slides](../../)
+* class [SaveOptions](../saveoptions)
+* interface [ITiffOptions](../itiffoptions)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

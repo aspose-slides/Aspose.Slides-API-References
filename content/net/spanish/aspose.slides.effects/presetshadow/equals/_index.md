@@ -1,7 +1,7 @@
 ---
 title: Equals
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Determina si el PresetShadowaspose.slides.effects/presetshadow especificado es igual al PresetShadowaspose.slides.effects/presetshadow actual.
+second_title: Aspose.Slides para referencia de API de .NET
+description: Determina si el PresetShadow especificado aspose.slides.effects/presetshadow es igual al PresetShadow actual aspose.slides.effects/presetshadow.
 type: docs
 weight: 50
 url: /es/aspose.slides.effects/presetshadow/equals/
@@ -21,12 +21,12 @@ public override bool Equals(object obj)
 
 ### Valor de Retorno
 
-true si los objetos son iguales; en caso contrario, false.
+true si los objetos son iguales; de lo contrario, false.
 
 ### Véase También
 
 * clase [PresetShadow](../../presetshadow)
-* espacio de nombres [Aspose.Slides.Effects](../../presetshadow)
-* ensamblaje [Aspose.Slides](../../../) 
+* namespace [Aspose.Slides.Effects](../../presetshadow)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

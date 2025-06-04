@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Ajoute une nouvelle opération à la fin de la collection.
 type: docs
 weight: 50
 url: /fr/aspose.slides/coloroperationcollection/add/
 ---
 
-## Ajouter(ColorTransformOperation, float) {#add_1}
+## Add(ColorTransformOperation, float) {#add_1}
 
 Ajoute une nouvelle opération à la fin de la collection.
 
@@ -20,11 +20,11 @@ public IColorOperation Add(ColorTransformOperation operation, float parameter)
 | operation | ColorTransformOperation | Type d'opération. |
 | parameter | Single | Paramètre de l'opération. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Opération ajoutée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorOperation](../../icoloroperation)
 * enum [ColorTransformOperation](../../colortransformoperation)
@@ -34,7 +34,7 @@ Opération ajoutée.
 
 ---
 
-## Ajouter(ColorTransformOperation) {#add}
+## Add(ColorTransformOperation) {#add}
 
 Ajoute une nouvelle opération à la fin de la collection.
 
@@ -46,11 +46,11 @@ public IColorOperation Add(ColorTransformOperation operation)
 | --- | --- | --- |
 | operation | ColorTransformOperation | Type d'opération. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Opération ajoutée.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IColorOperation](../../icoloroperation)
 * enum [ColorTransformOperation](../../colortransformoperation)

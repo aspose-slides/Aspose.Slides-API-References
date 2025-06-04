@@ -1,7 +1,7 @@
 ---
 title: PlayAcrossSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定音频是否在幻灯片之间播放。可读/写布尔值。
+description: 确定音频是否在幻灯片之间播放。可读/可写布尔值。
 type: docs
 weight: 110
 url: /zh/aspose.slides/audioframe/playacrossslides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/audioframe/playacrossslides/
 
 ## AudioFrame.PlayAcrossSlides 属性
 
-确定音频是否在幻灯片之间播放。可读/写布尔值。
+确定音频是否在幻灯片之间播放。可读/可写布尔值。
 
 ```csharp
 public bool PlayAcrossSlides { get; set; }
@@ -29,14 +29,14 @@ using (Presentation pres = new Presentation())
     // 设置音频在幻灯片之间播放
     audioFrame.PlayAcrossSlides = true;
 
-    // 设置音频播放后自动回放
+    // 设置音频在播放后自动回到开始
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [AudioFrame](../../audioframe)
 * namespace [Aspose.Slides](../../audioframe)

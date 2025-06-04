@@ -1,7 +1,7 @@
 ---
 title: FirstCol
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si la première colonne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture booléen.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si la première colonne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 type: docs
 weight: 40
 url: /fr/aspose.slides/itable/firstcol/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/itable/firstcol/
 
 ## Propriété ITable.FirstCol
 
-Détermine si la première colonne d'un tableau doit être dessinée avec un formatage spécial. Lecture/écriture booléen.
+Détermine si la première colonne d'un tableau doit être dessinée avec un formatage spécial. Booléen en lecture/écriture.
 
 ```csharp
 public bool FirstCol { get; set; }

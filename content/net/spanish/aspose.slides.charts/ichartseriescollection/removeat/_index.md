@@ -7,7 +7,7 @@ weight: 70
 url: /es/aspose.slides.charts/ichartseriescollection/removeat/
 ---
 
-## Método IChartSeriesCollection.RemoveAt
+## IChartSeriesCollection.RemoveAt method
 
 Elimina el elemento en el índice especificado
 
@@ -23,6 +23,6 @@ public void RemoveAt(int index)
 
 * interfaz [IChartSeriesCollection](../../ichartseriescollection)
 * espacio de nombres [Aspose.Slides.Charts](../../ichartseriescollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

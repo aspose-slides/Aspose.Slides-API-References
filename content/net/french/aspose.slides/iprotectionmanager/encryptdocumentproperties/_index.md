@@ -1,15 +1,15 @@
 ---
 title: EncryptDocumentProperties
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cette propriété a du sens si la présentation est protégée par mot de passe. Si vrai, alors les propriétés du document sont cryptées dans le fichier de présentation. Si faux, alors les propriétés du document sont publiques, tandis que la présentation est cryptée. Lecture/écriture Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Cette propriété a du sens si la présentation est protégée par un mot de passe. Si vrai, alors les propriétés du document sont cryptées dans le fichier de présentation. Si faux, alors les propriétés du document sont publiques tandis que la présentation est cryptée. Lecture/écriture Booléen.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iprotectionmanager/encryptdocumentproperties/
 ---
 
-## Propriété IProtectionManager.EncryptDocumentProperties
+## IProtectionManager.EncryptDocumentProperties property
 
-Cette propriété a du sens si la présentation est protégée par mot de passe. Si vrai, alors les propriétés du document sont cryptées dans le fichier de présentation. Si faux, alors les propriétés du document sont publiques, tandis que la présentation est cryptée. Lecture/écriture Booléen.
+Cette propriété a du sens si la présentation est protégée par un mot de passe. Si vrai, alors les propriétés du document sont cryptées dans le fichier de présentation. Si faux, alors les propriétés du document sont publiques tandis que la présentation est cryptée. Lecture/écriture Booléen.
 
 ```csharp
 public bool EncryptDocumentProperties { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: FontScheme
-second_title: Aspose.Slides для .NET Справочник по API
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает схему шрифтов. Только для чтения IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 30

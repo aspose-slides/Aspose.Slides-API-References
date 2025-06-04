@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la marge gauche dans un paragraphe sans héritage. Lecture/écriture Simple.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit la marge gauche dans un paragraphe sans héritage. Lecture/écriture Single.
 type: docs
 weight: 90
 url: /fr/aspose.slides/paragraphformat/marginleft/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/paragraphformat/marginleft/
 
 ## Propriété ParagraphFormat.MarginLeft
 
-Renvoie ou définit la marge gauche dans un paragraphe sans héritage. Lecture/écriture Simple.
+Renvoie ou définit la marge gauche dans un paragraphe sans héritage. Lecture/écriture Single.
 
 ```csharp
 public float MarginLeft { get; set; }

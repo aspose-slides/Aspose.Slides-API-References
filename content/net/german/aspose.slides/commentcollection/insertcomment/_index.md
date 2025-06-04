@@ -1,34 +1,34 @@
 ---
 title: InsertComment
-second_title: Aspose.Slides für .NET API Referenz
-description: Neuen Kommentar zu einer Sammlung an dem angegebenen Index einfügen.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügen Sie einen neuen Kommentar zu einer Sammlung am angegebenen Index hinzu.
 type: docs
 weight: 110
 url: /de/aspose.slides/commentcollection/insertcomment/
 ---
 
-## CommentCollection.InsertComment Methode
+## CommentCollection.InsertComment-Methode
 
-Neuen Kommentar zu einer Sammlung an dem angegebenen Index einfügen.
+Fügen Sie einen neuen Kommentar zu einer Sammlung am angegebenen Index hinzu.
 
 ```csharp
 public IComment InsertComment(int index, string text, ISlide slide, PointF position, 
     DateTime creationTime)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| index | Int32 | Index des Elements in einer Sammlung, an dem der Kommentar eingefügt werden soll. |
-| text | String | Klartext eines neuen Kommentars. |
-| slide | ISlide | Folie in einer Präsentation, wo ein neuer Kommentar hinzugefügt werden soll. |
-| position | PointF | Position auf einer Folie, wo ein neuer Kommentar hinzugefügt werden soll. |
-| creationTime | DateTime | Zeitpunkt der Erstellung eines Kommentars. |
+| Parameter   | Typ    | Beschreibung                                                                      |
+|-------------|--------|----------------------------------------------------------------------------------|
+| index       | Int32  | Index des Elements in einer Sammlung, an dem der Kommentar eingefügt werden soll. |
+| text        | String | Klartext eines neuen Kommentars.                                                |
+| slide       | ISlide | Folie in einer Präsentation, auf der ein neuer Kommentar hinzugefügt werden soll. |
+| position    | PointF | Position auf einer Folie, auf der ein neuer Kommentar hinzugefügt werden soll.   |
+| creationTime| DateTime | Zeitpunkt der Erstellung eines Kommentars.                                        |
 
 ### Rückgabewert
 
 Eingefügter Kommentar.
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IComment](../../icomment)
 * interface [ISlide](../../islide)

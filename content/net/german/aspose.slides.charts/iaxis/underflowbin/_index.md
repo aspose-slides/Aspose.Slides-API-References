@@ -1,7 +1,7 @@
 ---
 title: UnderflowBin
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den benutzerdefinierten Wert für das Unterlauf-Bin an. Wird angewendet, wenn die Eigenschaft IsAutomaticUnderflowBin auf false gesetzt ist und die Eigenschaft IsUnderflowBin den Wert true hat.
+description: Gibt den benutzerdefinierten Wert für den Unterlaufbehälter an. Wird angewendet, wenn die IsAutomaticUnderflowBin-Eigenschaft auf false gesetzt ist und die IsUnderflowBin-Eigenschaft true ist.
 type: docs
 weight: 550
 url: /de/aspose.slides.charts/iaxis/underflowbin/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxis/underflowbin/
 
 ## IAxis.UnderflowBin-Eigenschaft
 
-Gibt den benutzerdefinierten Wert für das Unterlauf-Bin an. Wird angewendet, wenn die Eigenschaft IsAutomaticUnderflowBin auf false gesetzt ist und die Eigenschaft IsUnderflowBin den Wert true hat.
+Gibt den benutzerdefinierten Wert für den Unterlaufbehälter an. Wird angewendet, wenn die IsAutomaticUnderflowBin-Eigenschaft auf false gesetzt ist und die IsUnderflowBin-Eigenschaft true ist.
 
 ```csharp
 public double UnderflowBin { get; set; }

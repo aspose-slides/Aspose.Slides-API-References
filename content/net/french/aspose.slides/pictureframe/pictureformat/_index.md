@@ -1,7 +1,7 @@
 ---
 title: PictureFormat
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'objet PictureFillFormat pour un cadre d'image. Lecture seule IPictureFillFormataspose.slides/ipicturefillformat.
+description: Renvoie l'objet PictureFillFormat pour un cadre image. Lecture seule IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
 weight: 20
 url: /fr/aspose.slides/pictureframe/pictureformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/pictureframe/pictureformat/
 
 ## Propriété PictureFrame.PictureFormat
 
-Renvoie l'objet PictureFillFormat pour un cadre d'image. Lecture seule [`IPictureFillFormat`](../../ipicturefillformat).
+Renvoie l'objet PictureFillFormat pour un cadre image. Lecture seule [`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat PictureFormat { get; }

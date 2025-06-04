@@ -1,21 +1,21 @@
 ---
 title: KerningMinimalSize
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie la taille de police minimale pour laquelle le crénage doit être activé. Lecture seule Single.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Renvoie la taille de police minimale pour laquelle le crantage doit être activé. Lecture seule Single.
 type: docs
 weight: 140
 url: /fr/aspose.slides/ibaseportionformateffectivedata/kerningminimalsize/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.KerningMinimalSize
+## IBasePortionFormatEffectiveData.KerningMinimalSize propriété
 
-Renvoie la taille de police minimale, pour laquelle le crénage doit être activé. Lecture seule Single.
+Renvoie la taille de police minimale, pour laquelle le crantage doit être activé. Lecture seule Single.
 
 ```csharp
 public float KerningMinimalSize { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

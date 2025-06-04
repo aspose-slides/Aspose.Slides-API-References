@@ -1,15 +1,15 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Slides für .NET API Referenz
-description: Daten über die Achse austauschen. Daten, die auf der X-Achse dargestellt werden, bewegen sich zur Y-Achse und umgekehrt.
+description: Tauschen Sie die Daten über die Achse. Daten, die auf der X-Achse dargestellt werden, werden zur Y-Achse verschoben und umgekehrt.
 type: docs
 weight: 130
 url: /de/aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
 
-## IChartData.SwitchRowColumn Methode
+## IChartData.SwitchRowColumn-Methode
 
-Daten über die Achse austauschen. Daten, die auf der X-Achse dargestellt werden, bewegen sich zur Y-Achse und umgekehrt.
+Tauschen Sie die Daten über die Achse. Daten, die auf der X-Achse dargestellt werden, werden zur Y-Achse verschoben und umgekehrt.
 
 ```csharp
 public void SwitchRowColumn()

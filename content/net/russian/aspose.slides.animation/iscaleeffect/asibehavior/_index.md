@@ -1,13 +1,13 @@
 ---
 title: AsIBehavior
-second_title: Aspose.Sildes для .NET API Справочник
-description: Позволяет получить базовый интерфейс IBehavior. Только для чтения IBehavioraspose.slides.animation/ibehavior.
+second_title: Aspose.Slides для .NET API Справочник
+description: Позволяет получить базовый интерфейс IBehavior. Только для чтения IBehavior aspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/iscaleeffect/asibehavior/
 ---
 
-## Свойство IScaleEffect.AsIBehavior
+## IScaleEffect.AsIBehavior свойство
 
 Позволяет получить базовый интерфейс IBehavior. Только для чтения [`IBehavior`](../../ibehavior).
 

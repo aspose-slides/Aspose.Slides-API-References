@@ -1,6 +1,6 @@
 ---
 title: NextSlide
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指向下一张幻灯片的超链接。只读 Hyperlinkaspose.slides/hyperlink。
 type: docs
 weight: 70

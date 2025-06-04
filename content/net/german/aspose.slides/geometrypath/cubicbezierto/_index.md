@@ -1,7 +1,7 @@
 ---
 title: CubicBezierTo
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt am Ende des Pfades eine kubische Bézier-Kurve hinzu
+description: Fügt eine kubische Bezier-Kurve am Ende des Pfades hinzu
 type: docs
 weight: 70
 url: /de/aspose.slides/geometrypath/cubicbezierto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/geometrypath/cubicbezierto/
 
 ## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
-Fügt am Ende des Pfades eine kubische Bézier-Kurve hinzu
+Fügt eine kubische Bezier-Kurve am Ende des Pfades hinzu
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
@@ -17,8 +17,8 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point1 | PointF | Erster Richtungspunkt |
-| point2 | PointF | Zweiter Richtungspunkt |
+| point1 | PointF | Erster Richtungs-Punkt |
+| point2 | PointF | Zweiter Richtungs-Punkt |
 | point3 | PointF | Endpunkt |
 
 ### Siehe auch
@@ -31,7 +31,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ## CubicBezierTo(float, float, float, float, float, float) {#cubicbezierto}
 
-Fügt am Ende des Pfades eine kubische Bézier-Kurve hinzu
+Fügt eine kubische Bezier-Kurve am Ende des Pfades hinzu
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3)
@@ -39,10 +39,10 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x1 | Single | X-Koordinate des ersten Richtungspunkts |
-| y1 | Single | Y-Koordinate des ersten Richtungspunkts |
-| x2 | Single | X-Koordinate des zweiten Richtungspunkts |
-| y2 | Single | Y-Koordinate des zweiten Richtungspunkts |
+| x1 | Single | X-Koordinate des ersten Richtungs-Punkts |
+| y1 | Single | Y-Koordinate des ersten Richtungs-Punkts |
+| x2 | Single | X-Koordinate des zweiten Richtungs-Punkts |
+| y2 | Single | Y-Koordinate des zweiten Richtungs-Punkts |
 | x3 | Single | X-Koordinate des Endpunkts |
 | y3 | Single | Y-Koordinate des Endpunkts |
 
@@ -56,7 +56,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 ## CubicBezierTo(PointF, PointF, PointF, uint) {#cubicbezierto_3}
 
-Fügt an der angegebenen Stelle des Pfades eine kubische Bézier-Kurve hinzu
+Fügt eine kubische Bezier-Kurve an der angegebenen Stelle des Pfades hinzu
 
 ```csharp
 public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint index)
@@ -64,8 +64,8 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| point1 | PointF | Erster Richtungspunkt |
-| point2 | PointF | Zweiter Richtungspunkt |
+| point1 | PointF | Erster Richtungs-Punkt |
+| point2 | PointF | Zweiter Richtungs-Punkt |
 | point3 | PointF | Endpunkt |
 | index | UInt32 | Index des Segments in PathData |
 
@@ -85,7 +85,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 ## CubicBezierTo(float, float, float, float, float, float, uint) {#cubicbezierto_1}
 
-Fügt an der angegebenen Stelle des Pfades eine kubische Bézier-Kurve hinzu
+Fügt eine kubische Bezier-Kurve an der angegebenen Stelle des Pfades hinzu
 
 ```csharp
 public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, float y3, uint index)
@@ -93,10 +93,10 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| x1 | Single | X-Koordinate des ersten Richtungspunkts |
-| y1 | Single | Y-Koordinate des ersten Richtungspunkts |
-| x2 | Single | X-Koordinate des zweiten Richtungspunkts |
-| y2 | Single | Y-Koordinate des zweiten Richtungspunkts |
+| x1 | Single | X-Koordinate des ersten Richtungs-Punkts |
+| y1 | Single | Y-Koordinate des ersten Richtungs-Punkts |
+| x2 | Single | X-Koordinate des zweiten Richtungs-Punkts |
+| y2 | Single | Y-Koordinate des zweiten Richtungs-Punkts |
 | x3 | Single | X-Koordinate des Endpunkts |
 | y3 | Single | Y-Koordinate des Endpunkts |
 | index | UInt32 | Index des Segments in PathData |

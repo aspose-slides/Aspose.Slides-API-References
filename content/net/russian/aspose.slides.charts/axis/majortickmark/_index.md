@@ -1,21 +1,21 @@
 ---
 title: MajorTickMark
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип основных делений для указанной оси. Чтение/запись TickMarkTypeaspose.slides.charts/tickmarktype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет тип основных отметок для заданной оси. Чтение/запись TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 350
 url: /ru/aspose.slides.charts/axis/majortickmark/
 ---
 
-## Свойство Axis.MajorTickMark
+## Axis.MajorTickMark свойство
 
-Представляет тип основных делений для указанной оси. Чтение/запись [`TickMarkType`](../../tickmarktype).
+Представляет тип основных отметок для заданной оси. Чтение/запись [`TickMarkType`](../../tickmarktype).
 
 ```csharp
 public TickMarkType MajorTickMark { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [TickMarkType](../../tickmarktype)
 * class [Axis](../../axis)

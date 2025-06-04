@@ -1,13 +1,13 @@
 ---
 title: GetEffectsByShape
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie un tableau d'effets pour la forme spécifiée.
 type: docs
 weight: 80
 url: /fr/aspose.slides.animation/sequence/geteffectsbyshape/
 ---
 
-## Méthode Sequence.GetEffectsByShape
+## Sequence.GetEffectsByShape méthode
 
 Renvoie un tableau d'effets pour la forme spécifiée.
 
@@ -15,7 +15,7 @@ Renvoie un tableau d'effets pour la forme spécifiée.
 public IEffect[] GetEffectsByShape(IShape shape)
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IEffect](../../ieffect)
 * interface [IShape](../../../aspose.slides/ishape)

@@ -1,15 +1,15 @@
 ---
 title: HideSuperscript
 second_title: Aspose.Sildes para .NET Referencia de API
-description: Ocultar Superíndice
+description: Ocultar superíndice
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/mathnaryoperator/hidesuperscript/
 ---
 
-## Propiedad MathNaryOperator.HideSuperscript
+## MathNaryOperator.HideSuperscript propiedad
 
-Ocultar Superíndice
+Ocultar superíndice
 
 ```csharp
 public bool HideSuperscript { get; set; }
@@ -25,10 +25,10 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.HideSuperscript = true;
 ```
 
-### Véase También
+### Véase también
 
 * clase [MathNaryOperator](../../mathnaryoperator)
 * espacio de nombres [Aspose.Slides.MathText](../../mathnaryoperator)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine x/y-Koordinate an, von der die Animation in Prozent gestartet werden soll. Lese-/Schreibzugriff PointF.
+description: Gibt eine x/y-Koordinate an, von der die Animation in Prozenten gestartet wird. Lese-/Schreibzugriff auf PointF.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/iscaleeffect/from/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.animation/iscaleeffect/from/
 
 ## IScaleEffect.From-Eigenschaft
 
-Gibt eine x/y-Koordinate an, von der die Animation (in Prozent) gestartet werden soll. Lese-/Schreibzugriff PointF.
+Gibt eine x/y-Koordinate an, von der die Animation (in Prozenten) gestartet wird. Lese-/Schreibzugriff auf PointF.
 
 ```csharp
 public PointF From { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IScaleEffect](../../iscaleeffect)
+* Interface [IScaleEffect](../../iscaleeffect)
 * Namespace [Aspose.Slides.Animation](../../iscaleeffect)
 * Assembly [Aspose.Slides](../../../)
 

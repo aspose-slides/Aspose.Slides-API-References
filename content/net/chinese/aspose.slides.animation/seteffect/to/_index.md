@@ -1,21 +1,21 @@
 ---
 title: To
-second_title: Aspose.Slides for .NET API 参考
-description: 指定动画效果后的某个效果属性。表示点值。仅支持 bool, ColorFormat, float, int, string。可读/可写对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定动画效果后某个效果的特定属性。表示点值。仅支持 bool, ColorFormat, float, int, string。可读/写对象。
 type: docs
 weight: 20
 url: /zh/aspose.slides.animation/seteffect/to/
 ---
 
-## SetEffect.To 属性
+## SetEffect.To property
 
-指定动画效果后的某个效果属性。表示点值。仅支持: bool, ColorFormat, float, int, string。可读/可写对象。
+指定动画效果后某个效果的特定属性。表示点值。仅支持: bool, ColorFormat, float, int, string。可读/写对象。
 
 ```csharp
 public object To { get; set; }
 ```
 
-### 另请参阅
+### See Also
 
 * class [SetEffect](../../seteffect)
 * namespace [Aspose.Slides.Animation](../../seteffect)

@@ -1,13 +1,13 @@
 ---
 title: SetAllDateTimesVisibility
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 更改所有日期时间占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。
 type: docs
 weight: 20
 url: /zh/aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility/
 ---
 
-## PresentationHeaderFooterManager.SetAllDateTimesVisibility 方法
+## PresentationHeaderFooterManager.SetAllDateTimesVisibility method
 
 更改所有日期时间占位符的可见性，包括母版幻灯片、布局幻灯片、幻灯片、备注母版、备注幻灯片和讲义母版。
 
@@ -17,9 +17,9 @@ public void SetAllDateTimesVisibility(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使日期时间占位符可见，false - 隐藏它们。 |
+| isVisible | Boolean | true - 使日期时间占位符可见，反之则隐藏它们。 |
 
-### 参见
+### 另请参见
 
 * class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * namespace [Aspose.Slides](../../presentationheaderfootermanager)

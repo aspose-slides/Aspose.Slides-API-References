@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides/ishapecollection/parentgroup/
 ---
 
-## Propiedad IShapeCollection.ParentGroup
+## IShapeCollection.ParentGroup property
 
 Devuelve el objeto GroupShape padre para una colección de formas. Solo lectura [`IGroupShape`](../../igroupshape).
 
@@ -20,6 +20,6 @@ public IGroupShape ParentGroup { get; }
 * interfaz [IGroupShape](../../igroupshape)
 * interfaz [IShapeCollection](../../ishapecollection)
 * espacio de nombres [Aspose.Slides](../../ishapecollection)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

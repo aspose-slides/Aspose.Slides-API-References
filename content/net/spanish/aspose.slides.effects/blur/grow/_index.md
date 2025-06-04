@@ -1,21 +1,21 @@
 ---
 title: Grow
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Determina si los límites del objeto deben ampliarse como resultado del desenfoque. Verdadero indica que los límites se amplían, mientras que falso indica que no lo hacen. Booleano de lectura/escritura.
+second_title: Aspose.Sildes for .NET API Reference
+description: Determina si los límites del objeto deben ampliarse como resultado del desenfoque. Verdadero indica que los límites se amplían, mientras que falso indica que no lo son. Booleano de lectura/escritura.
 type: docs
 weight: 10
 url: /es/aspose.slides.effects/blur/grow/
 ---
 
-## Propiedad Blur.Grow
+## Blur.Grow property
 
-Determina si los límites del objeto deben ampliarse como resultado del desenfoque. Verdadero indica que los límites se amplían, mientras que falso indica que no lo hacen. Booleano de lectura/escritura.
+Determina si los límites del objeto deben ampliarse como resultado del desenfoque. Verdadero indica que los límites se amplían, mientras que falso indica que no lo son. Booleano de lectura/escritura.
 
 ```csharp
 public bool Grow { get; set; }
 ```
 
-### Ver También
+### See Also
 
 * class [Blur](../../blur)
 * namespace [Aspose.Slides.Effects](../../blur)

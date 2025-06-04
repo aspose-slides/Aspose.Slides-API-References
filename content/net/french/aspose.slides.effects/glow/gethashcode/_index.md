@@ -1,13 +1,13 @@
 ---
 title: GetHashCode
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Sert de fonction de hachage pour un type particulier.
 type: docs
 weight: 50
 url: /fr/aspose.slides.effects/glow/gethashcode/
 ---
 
-## Méthode Glow.GetHashCode
+## Glow.GetHashCode méthode
 
 Sert de fonction de hachage pour un type particulier.
 
@@ -17,7 +17,7 @@ public override int GetHashCode()
 
 ### Valeur de retour
 
-Un code de hachage pour l'objet courant.
+Un code de hachage pour l'objet actuel.
 
 ### Voir aussi
 

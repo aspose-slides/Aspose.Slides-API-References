@@ -1,6 +1,6 @@
 ---
 title: FillMode
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Устанавливает режим заливки
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/igeometrypath/fillmode/
 public PathFillModeType FillMode { get; set; }
 ```
 
-### См. Также
+### Также см.
 
 * enum [PathFillModeType](../../pathfillmodetype)
 * interface [IGeometryPath](../../igeometrypath)

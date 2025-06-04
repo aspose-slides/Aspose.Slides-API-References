@@ -1,21 +1,21 @@
 ---
 title: OverflowBin
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Указывает на пользовательское значение переполненного короба. Применяется, когда свойство IsAutomaticOverflowBin установлено в false, а свойство IsOverflowBin равно true.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет настраиваемое значение переполненной корзины. Применяется, когда свойство IsAutomaticOverflowBin установлено в false, и свойство IsOverflowBin равно true.
 type: docs
 weight: 460
 url: /ru/aspose.slides.charts/axis/overflowbin/
 ---
 
-## Свойство Axis.OverflowBin
+## Axis.OverflowBin свойство
 
-Указывает на пользовательское значение переполненного короба. Применяется, когда свойство IsAutomaticOverflowBin установлено в false, а свойство IsOverflowBin равно true.
+Определяет настраиваемое значение переполненной корзины. Применяется, когда свойство IsAutomaticOverflowBin установлено в false, и свойство IsOverflowBin равно true.
 
 ```csharp
 public double OverflowBin { get; set; }
 ```
 
-### См. Также
+### Смотри также
 
 * класс [Axis](../../axis)
 * пространство имен [Aspose.Slides.Charts](../../axis)

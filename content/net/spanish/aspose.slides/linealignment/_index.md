@@ -1,15 +1,15 @@
 ---
 title: LineAlignment
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa el tipo de alineación de las líneas.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa el tipo de alineación de líneas.
 type: docs
 weight: 7480
 url: /es/aspose.slides/linealignment/
 ---
 
-## Enumeración AlineaciónDeLíneas
+## Enumeración LineAlignment
 
-Representa el tipo de alineación de las líneas.
+Representa el tipo de alineación de líneas.
 
 ```csharp
 public enum LineAlignment : sbyte
@@ -19,9 +19,9 @@ public enum LineAlignment : sbyte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NoDefinido | `-1` |  |
-| Centro | `0` |  |
-| Sangría | `1` |  |
+| NotDefined | `-1` |  |
+| Center | `0` |  |
+| Inset | `1` |  |
 
 ### Véase También
 

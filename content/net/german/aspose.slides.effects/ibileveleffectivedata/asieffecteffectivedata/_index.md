@@ -1,7 +1,7 @@
 ---
 title: AsIEffectEffectiveData
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die Basis-IInterface IEffectEffectiveData. Nur-lesend IEffectEffectiveData aspose.slides.effects/ieffecteffectivedata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basis-IInterface IEffectEffectiveData. Nur-Lese IEffectEffectiveData aspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata/
 
 ## IBiLevelEffectiveData.AsIEffectEffectiveData-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-IInterface IEffectEffectiveData. Nur-lesend [`IEffectEffectiveData`](../../ieffecteffectivedata).
+Ermöglicht den Zugriff auf die Basis-IInterface IEffectEffectiveData. Nur-Lese [`IEffectEffectiveData`](../../ieffecteffectivedata).
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IEffectEffectiveData](../../ieffecteffectivedata)
 * Schnittstelle [IBiLevelEffectiveData](../../ibileveleffectivedata)

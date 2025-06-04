@@ -1,13 +1,13 @@
 ---
 title: JpegQuality
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Devuelve o establece un valor que determina la calidad de las imágenes JPEG dentro del documento PDF. Lectura/escritura Byte.
 type: docs
 weight: 130
 url: /es/aspose.slides.export/ipdfoptions/jpegquality/
 ---
 
-## Propiedad IPdfOptions.JpegQuality
+## IPdfOptions.JpegQuality propiedad
 
 Devuelve o establece un valor que determina la calidad de las imágenes JPEG dentro del documento PDF. Lectura/escritura Byte.
 
@@ -15,15 +15,15 @@ Devuelve o establece un valor que determina la calidad de las imágenes JPEG den
 public byte JpegQuality { get; set; }
 ```
 
-### Observaciones
+### Comentarios
 
 Tiene efecto solo cuando un documento contiene imágenes JPEG.
 
-Utilice esta propiedad para obtener o establecer la calidad de las imágenes dentro de un documento al guardarlo en formato PDF. El valor puede variar de 0 a 100 donde 0 significa la peor calidad pero máxima compresión y 100 significa la mejor calidad pero mínima compresión.
+Utilice esta propiedad para obtener o establecer la calidad de las imágenes dentro de un documento al guardarlo en formato PDF. El valor puede variar de 0 a 100, donde 0 significa la peor calidad pero máxima compresión y 100 significa la mejor calidad pero mínima compresión.
 
 El valor predeterminado es **100**.
 
-### Vea También
+### Véase también
 
 * interfaz [IPdfOptions](../../ipdfoptions)
 * espacio de nombres [Aspose.Slides.Export](../../ipdfoptions)

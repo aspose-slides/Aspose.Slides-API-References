@@ -1,15 +1,15 @@
 ---
 title: PieSplitBy
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie comment déterminer quels points de données se trouvent dans le deuxième graphique circulaire ou à barres sur un graphique circulaire de type "pie-of-pie" ou à barres de type "bar-of-pie". Lecture/écriture de PieSplitTypeaspose.slides.charts/piesplittype.
+second_title: Aspose.Slides pour .NET API Référence
+description: Spécifie comment déterminer quels points de données se trouvent dans le deuxième gâteau ou barre d'un graphique à pâtisserie ou à barre de pâtisserie. Lecture/écriture PieSplitTypeaspose.slides.charts/piesplittype.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/chartseriesgroup/piesplitby/
 ---
 
-## Propriété ChartSeriesGroup.PieSplitBy
+## ChartSeriesGroup.PieSplitBy propriété
 
-Spécifie comment déterminer quels points de données se trouvent dans le deuxième graphique circulaire ou à barres sur un graphique circulaire de type "pie-of-pie" ou à barres de type "bar-of-pie". Lecture/écriture de [`PieSplitType`](../../piesplittype).
+Spécifie comment déterminer quels points de données se trouvent dans le deuxième gâteau ou barre d'un graphique à pâtisserie ou à barre de pâtisserie. Lecture/écriture [`PieSplitType`](../../piesplittype).
 
 ```csharp
 public PieSplitType PieSplitBy { get; set; }

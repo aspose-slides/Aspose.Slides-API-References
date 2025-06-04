@@ -1,15 +1,15 @@
 ---
 title: AddVerticalContentPlaceholder
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu tel qu'une image, un tableau, des médias ou du texte dans une direction verticale.
+second_title: Aspose.Slides pour .NET Référence API
+description: Ajoute une nouvelle forme de zone de texte au diapositive de mise en page pour contenir du contenu tel qu'une image, un tableau, un média ou du texte dans une direction verticale.
 type: docs
 weight: 90
 url: /fr/aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder/
 ---
 
-## Méthode LayoutPlaceholderManager.AddVerticalContentPlaceholder
+## LayoutPlaceholderManager.AddVerticalContentPlaceholder méthode
 
-Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu, tel qu'une image, un tableau, des médias ou du texte dans une direction verticale.
+Ajoute une nouvelle forme de zone de texte à la diapositive de mise en page pour contenir du contenu, tel qu'une image, un tableau, un média ou du texte dans une direction verticale.
 
 ```csharp
 public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddVerticalContentPlaceholder(float x, float y, float width, f
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme d'espace réservé. |
-| y | Single | La coordonnée Y de la nouvelle forme d'espace réservé. |
-| width | Single | La largeur de la nouvelle forme d'espace réservé. |
-| height | Single | La hauteur de la nouvelle forme d'espace réservé. |
+| x | Single | La coordonnée X de la nouvelle forme de zone de texte. |
+| y | Single | La coordonnée Y de la nouvelle forme de zone de texte. |
+| width | Single | La largeur de la nouvelle forme de zone de texte. |
+| height | Single | La hauteur de la nouvelle forme de zone de texte. |
 
-### Valeur de Retour
+### Valeur de retour
 
-[`IAutoShape`](../../iautoshape) créé avec un espace réservé de contenu (vertical).
+Créé [`IAutoShape`](../../iautoshape) avec une zone de texte Contenu (Vertical).
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme d'espace réservé de contenu (vertical) à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de zone de texte Contenu (Vertical) à la diapositive de mise en page.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAutoShape](../../iautoshape)
 * class [LayoutPlaceholderManager](../../layoutplaceholdermanager)

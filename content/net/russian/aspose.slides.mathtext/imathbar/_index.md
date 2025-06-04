@@ -1,7 +1,7 @@
 ---
 title: IMathBar
-second_title: Aspose.Slides для .NET API Справочник
-description: Задает функцию бар, состоящую из базового аргумента и верхней или нижней линии
+second_title: Справочник по API Aspose.Slides для .NET
+description: Указывает функцию бара, состоящую из базового аргумента и надстрочной или подстрочной черты
 type: docs
 weight: 7870
 url: /ru/aspose.slides.mathtext/imathbar/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathbar/
 
 ## Интерфейс IMathBar
 
-Задает функцию бар, состоящую из базового аргумента и верхней или нижней линии
+Указывает функцию бара, состоящую из базового аргумента и надстрочной или подстрочной черты
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -17,11 +17,11 @@ public interface IMathBar : IMathElement
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Базовый аргумент |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Позиция линии бар. По умолчанию: Сверху |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Позиция линии бара. По умолчанию: Вверху |
 
 ### Примеры
 

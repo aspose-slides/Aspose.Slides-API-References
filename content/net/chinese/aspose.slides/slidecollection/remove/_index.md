@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除特定对象的第一次出现。
 type: docs
 weight: 150

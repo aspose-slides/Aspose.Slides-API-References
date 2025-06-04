@@ -1,7 +1,7 @@
 ---
 title: Font
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置一个段落的项目符号字体，且不继承。读/写 IFontDataaspose.slides/ifontdata。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置没有继承的段落的项目符号字体。可读写 IFontDataaspose.slides/ifontdata。
 type: docs
 weight: 30
 url: /zh/aspose.slides/ibulletformat/font/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibulletformat/font/
 
 ## IBulletFormat.Font 属性
 
-返回或设置一个段落的项目符号字体，且不继承。读/写 [`IFontData`](../../ifontdata)。
+返回或设置没有继承的段落的项目符号字体。可读写 [`IFontData`](../../ifontdata)。
 
 ```csharp
 public IFontData Font { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontData](../../ifontdata)
 * 接口 [IBulletFormat](../../ibulletformat)

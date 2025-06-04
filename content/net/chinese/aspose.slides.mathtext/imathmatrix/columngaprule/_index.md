@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 矩阵列之间的水平间距类型；水平间距单位可以是 ems 或者以 twips 存储的 points。默认值：SingleSpacingGap 0
+description: 矩阵列之间水平间距的类型；水平间距单位可以是ems或点（以twips存储）。默认值：SingleSpacingGap（0）
 type: docs
 weight: 50
 url: /zh/aspose.slides.mathtext/imathmatrix/columngaprule/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathmatrix/columngaprule/
 
 ## IMathMatrix.ColumnGapRule 属性
 
-矩阵列之间的水平间距类型；水平间距单位可以是 ems 或者以 twips 存储的 points。默认值：SingleSpacingGap (0)
+矩阵列之间水平间距的类型；水平间距单位可以是ems或点（以twips存储）。默认值：SingleSpacingGap（0）
 
 ```csharp
 public MathSpacingRules ColumnGapRule { get; set; }

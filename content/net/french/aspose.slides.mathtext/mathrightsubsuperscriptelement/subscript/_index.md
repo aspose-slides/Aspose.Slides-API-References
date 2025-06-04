@@ -1,15 +1,15 @@
 ---
 title: Subscript
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Argument d'indice
+second_title: Référence API Aspose.Slides pour .NET
+description: Argument indice
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathrightsubsuperscriptelement/subscript/
 ---
 
-## Propriété MathRightSubSuperscriptElement.Subscript
+## MathRightSubSuperscriptElement.Subscript property
 
-Argument d'indice
+Argument indice
 
 ```csharp
 public IMathElement Subscript { get; }
@@ -17,7 +17,7 @@ public IMathElement Subscript { get; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

@@ -1,7 +1,7 @@
 ---
 title: Sound
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt den abgespielten Ton des Hyperlinks dar. Lese/Schreibe IAudioaspose.slides/iaudio.
+second_title: Aspose.Sildes for .NET API Referenz
+description: Repräsentiert den abgespielten Sound des Hyperlinks. Lese-/Schreibzugriff auf IAudioaspose.slides/iaudio.
 type: docs
 weight: 70
 url: /de/aspose.slides/ihyperlink/sound/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ihyperlink/sound/
 
 ## IHyperlink.Sound-Eigenschaft
 
-Stellt den abgespielten Ton des Hyperlinks dar. Lese/Schreibe [`IAudio`](../../iaudio).
+Repräsentiert den abgespielten Sound des Hyperlinks. Lese-/Schreibzugriff auf [`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }
@@ -28,7 +28,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
        
     if (link.Sound != null)
     {
-        // Extrahieren Sie den Hyperlink-Ton im Byte-Array
+        // Extrahieren Sie den Hyperlink-Sound in ein Byte-Array
         byte[] audioData = link.Sound.BinaryData;
     }
 }

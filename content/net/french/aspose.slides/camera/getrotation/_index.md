@@ -1,15 +1,15 @@
 ---
 title: GetRotation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe comme les coordonnées de latitude et de longitude. premier élément du tableau de retour - latitude, deuxième - longitude, troisième - révolution. Renvoie null si aucune rotation n'est définie.
+second_title: Référence API Aspose.Slides pour .NET
+description: Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe en tant que coordonnées de latitude et de longitude. premier élément dans le tableau de retour - latitude, deuxième - longitude, troisième - révolution. Retourne null si aucune rotation n'est définie.
 type: docs
 weight: 40
 url: /fr/aspose.slides/camera/getrotation/
 ---
 
-## Méthode Camera.GetRotation
+## Camera.GetRotation méthode
 
-Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe comme les coordonnées de latitude et de longitude. premier élément du tableau de retour - latitude, deuxième - longitude, troisième - révolution. Renvoie null si aucune rotation n'est définie.
+Une rotation est définie par l'utilisation d'une coordonnée de latitude, d'une coordonnée de longitude et d'une révolution autour de l'axe en tant que coordonnées de latitude et de longitude. premier élément dans le tableau de retour - latitude, deuxième - longitude, troisième - révolution. Retourne null si aucune rotation n'est définie.
 
 ```csharp
 public float[] GetRotation()

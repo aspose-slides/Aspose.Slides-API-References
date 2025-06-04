@@ -1,6 +1,6 @@
 ---
 title: ConnectionSiteCount
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает количество соединительных точек на фигуре. Только для чтения Int32.
 type: docs
 weight: 40

@@ -1,15 +1,15 @@
 ---
 title: InsertPictureFrame
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt ein neues PictureFrame und fügt es an dem angegebenen Index zur Sammlung hinzu.
+description: Erstellt ein neues PictureFrame und fügt es an dem angegebenen Index in die Sammlung ein.
 type: docs
 weight: 310
 url: /de/aspose.slides/ishapecollection/insertpictureframe/
 ---
 
-## IShapeCollection.InsertPictureFrame-Methode
+## IShapeCollection.InsertPictureFrame Methode
 
-Erstellt ein neues PictureFrame und fügt es an dem angegebenen Index zur Sammlung hinzu.
+Erstellt ein neues PictureFrame und fügt es an dem angegebenen Index in die Sammlung ein.
 
 ```csharp
 public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x, float y, 
@@ -19,11 +19,11 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Der nullbasierte Index, an dem der Wert eingefügt werden soll. |
-| shapeType | ShapeType | Die Form, die im Set [`ShapeType`](../../shapetype) von Formen enthalten ist, mit Ausnahme aller Arten von Linien: |
-| x | Single | Die X-Koordinate für die linke Seite des Rahmen der Form. |
-| y | Single | Die Y-Koordinate für die obere Seite des Rahmen der Form. |
-| width | Single | Die Breite des Rahmen der Form. |
-| height | Single | Die Höhe des Rahmen der Form. |
+| shapeType | ShapeType | Die Form, die in der Menge [`ShapeType`](../../shapetype) von Formen enthalten ist, mit Ausnahme aller Arten von Linien: |
+| x | Single | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| width | Single | Die Breite des Rahmens der Form. |
+| height | Single | Die Höhe des Rahmens der Form. |
 | image | IPPImage | Das Bild des PictureFrame. |
 
 ### Rückgabewert
@@ -33,7 +33,7 @@ Erstelltes PictureFrame-Objekt.
 ### Siehe auch
 
 * Schnittstelle [IPictureFrame](../../ipictureframe)
-* Enum [ShapeType](../../shapetype)
+* Aufzählung [ShapeType](../../shapetype)
 * Schnittstelle [IPPImage](../../ippimage)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Namespace [Aspose.Slides](../../ishapecollection)

@@ -1,7 +1,7 @@
 ---
 title: RotateLocked
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定此形状的旋转角度是否被禁止。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定此形状的旋转角度是否可以更改。可读写布尔值。
 type: docs
 weight: 80
 url: /zh/aspose.slides/iconnectorlock/rotatelocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iconnectorlock/rotatelocked/
 
 ## IConnectorLock.RotateLocked 属性
 
-确定此形状的旋转角度是否被禁止。可读/可写布尔值。
+确定此形状的旋转角度是否可以更改。可读写布尔值。
 
 ```csharp
 public bool RotateLocked { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IConnectorLock](../../iconnectorlock)
 * 命名空间 [Aspose.Slides](../../iconnectorlock)

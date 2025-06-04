@@ -1,7 +1,7 @@
 ---
 title: ValueFromCell
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient ou définit la cellule de données du classeur. S'applique si la propriété IDataLabelFormat.ShowLabelValueFromCell est égale à true.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Obtient ou définit la cellule de données du classeur. Appliqué si la propriété IDataLabelFormat.ShowLabelValueFromCell est égale à true.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/idatalabel/valuefromcell/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/idatalabel/valuefromcell/
 
 ## Propriété IDataLabel.ValueFromCell
 
-Obtient ou définit la cellule de données du classeur. S'applique si la propriété IDataLabelFormat.ShowLabelValueFromCell est égale à true.
+Obtient ou définit la cellule de données du classeur. Appliqué si la propriété IDataLabelFormat.ShowLabelValueFromCell est égale à true.
 
 ```csharp
 public IChartDataCell ValueFromCell { get; set; }

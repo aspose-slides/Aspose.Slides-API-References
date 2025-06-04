@@ -1,7 +1,7 @@
 ---
 title: ReadByte
 second_title: Aspose.Sildes for .NET API Reference
-description: 从流中读取一个字节，并将流中的位置向前移动一个字节，或在流的末尾返回 -1。
+description: 从流中读取一个字节，并将流中的位置向前移动一个字节；如果在流的末尾，则返回 -1。
 type: docs
 weight: 110
 url: /zh/aspose.slides/istreamwrapper/readbyte/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/istreamwrapper/readbyte/
 
 ## IStreamWrapper.ReadByte 方法
 
-从流中读取一个字节，并将流中的位置向前移动一个字节，或在流的末尾返回 -1。
+从流中读取一个字节，并将流中的位置向前移动一个字节；如果在流的末尾，则返回 -1。
 
 ```csharp
 public int ReadByte()
@@ -19,7 +19,7 @@ public int ReadByte()
 
 读取的字节 Int32
 
-### 另请参见
+### 另见
 
 * 接口 [IStreamWrapper](../../istreamwrapper)
 * 命名空间 [Aspose.Slides](../../istreamwrapper)

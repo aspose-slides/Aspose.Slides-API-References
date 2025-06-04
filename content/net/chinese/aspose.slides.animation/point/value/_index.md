@@ -1,7 +1,7 @@
 ---
 title: Value
-second_title: Aspose.Slides for .NET API 参考
-description: 表示点值。仅限：bool、ColorFormat、float、int、string。可读/写对象。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示点值。仅支持 bool、ColorFormat、float、int、string。可读/可写 Object。
 type: docs
 weight: 40
 url: /zh/aspose.slides.animation/point/value/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/point/value/
 
 ## Point.Value 属性
 
-表示点值。仅限：bool、ColorFormat、float、int、string。可读/写对象。
+表示点值。仅支持：bool、ColorFormat、float、int、string。可读/可写 Object。
 
 ```csharp
 public object Value { get; set; }

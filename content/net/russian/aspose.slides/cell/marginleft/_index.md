@@ -1,6 +1,6 @@
 ---
 title: MarginLeft
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает или устанавливает левый отступ в TextFrame. Читаемый/записываемый Double.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/cell/marginleft/
 public double MarginLeft { get; set; }
 ```
 
-### Дополнительно
+### См. также
 
 * класс [Cell](../../cell)
 * пространство имен [Aspose.Slides](../../cell)

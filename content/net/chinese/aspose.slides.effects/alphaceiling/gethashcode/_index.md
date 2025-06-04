@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 作为特定类型的哈希函数。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public override int GetHashCode()
 
 当前对象的哈希代码。
 
-### 参见
+### 另见
 
 * class [AlphaCeiling](../../alphaceiling)
 * namespace [Aspose.Slides.Effects](../../alphaceiling)

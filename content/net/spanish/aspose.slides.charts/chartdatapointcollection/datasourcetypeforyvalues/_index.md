@@ -1,21 +1,21 @@
 ---
 title: DataSourceTypeForYValues
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de propiedad YValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.YValue.Data. Es un valor de lectura/escritura DataSourceTypeaspose.slides.charts/datasourcetype.
+description: Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de la propiedad YValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.YValue.Data. Lectura/escritura DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 60
 url: /es/aspose.slides.charts/chartdatapointcollection/datasourcetypeforyvalues/
 ---
 
-## Propiedad ChartDataPointCollection.DataSourceTypeForYValues
+## ChartDataPointCollection.DataSourceTypeForYValues property
 
-Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de propiedad YValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.YValue.Data. Es un valor de lectura/escritura [`DataSourceType`](../../datasourcetype).
+Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de la propiedad YValue de los puntos de datos. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.YValue.Data. Lectura/escritura [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYValues { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [DataSourceType](../../datasourcetype)
 * class [ChartDataPointCollection](../../chartdatapointcollection)

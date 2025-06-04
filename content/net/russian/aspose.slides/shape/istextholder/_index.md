@@ -1,15 +1,15 @@
 ---
 title: IsTextHolder
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, является ли фигура TextHolder_PPT. Только для чтения Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, является ли фигура TextHolder_PPT. Только для чтения логическое значение.
 type: docs
 weight: 160
 url: /ru/aspose.slides/shape/istextholder/
 ---
 
-## Свойство Shape.IsTextHolder
+## Shape.IsTextHolder свойство
 
-Определяет, является ли фигура TextHolder_PPT. Только для чтения Boolean.
+Определяет, является ли фигура TextHolder_PPT. Только для чтения логическое значение.
 
 ```csharp
 public bool IsTextHolder { get; }

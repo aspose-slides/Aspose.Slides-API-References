@@ -1,7 +1,7 @@
 ---
 title: Alignment
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie ou définit l'alignement de la ligne. Lecture/écriture LineAlignment aspose.slides/linealignment.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Renvoie ou définit l'alignement de ligne. Lecture/écriture LineAlignment aspose.slides/linealignment.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ilineformat/alignment/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ilineformat/alignment/
 
 ## Propriété ILineFormat.Alignment
 
-Renvoie ou définit l'alignement de la ligne. Lecture/écriture [`LineAlignment`](../../linealignment).
+Renvoie ou définit l'alignement de ligne. Lecture/écriture [`LineAlignment`](../../linealignment).
 
 ```csharp
 public LineAlignment Alignment { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [LineAlignment](../../linealignment)
 * interface [ILineFormat](../../ilineformat)

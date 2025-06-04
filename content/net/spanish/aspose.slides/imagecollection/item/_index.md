@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/imagecollection/item/
 ---
 
-## Indexador de ImageCollection
+## Índice de ImageCollection
 
 Obtiene el elemento en el índice especificado. Solo lectura [`IPPImage`](../../ippimage).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`IPPImage`](../../
 public IPPImage this[int index] { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [IPPImage](../../ippimage)
 * clase [ImageCollection](../../imagecollection)

@@ -1,7 +1,7 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderliches Objekt, das einen Farbwechsel-Effekt darstellt. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unverändert.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das einen Farbeersetzungseffekt darstellt. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unberührt.
 type: docs
 weight: 3130
 url: /de/aspose.slides.effects/icolorreplaceeffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/icolorreplaceeffectivedata/
 
 ## IColorReplaceEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das einen Farbwechsel-Effekt darstellt. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unverändert.
+Unveränderliches Objekt, das einen Farbeersetzungseffekt darstellt. Alle Effektfarben werden in eine feste Farbe geändert. Alpha-Werte bleiben unberührt.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur-lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzt. Nur-lesbare Farbe. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IEffectEffectiveData. Nur-lesend [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Gibt das Farbformat zurück, das die Farbe jedes Pixels ersetzen wird. Nur-lesend Color. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

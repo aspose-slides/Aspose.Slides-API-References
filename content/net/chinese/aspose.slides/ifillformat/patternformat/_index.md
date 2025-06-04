@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图案填充格式。只读 IPatternFormat aspose.slides/ipatternformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回模式填充格式。只读 IPatternFormataspose.slides/ipatternformat。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ifillformat/patternformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ifillformat/patternformat/
 
 ## IFillFormat.PatternFormat 属性
 
-返回图案填充格式。只读 [`IPatternFormat`](../../ipatternformat)。
+返回模式填充格式。只读 [`IPatternFormat`](../../ipatternformat)。
 
 ```csharp
 public IPatternFormat PatternFormat { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IPatternFormat](../../ipatternformat)
 * 接口 [IFillFormat](../../ifillformat)

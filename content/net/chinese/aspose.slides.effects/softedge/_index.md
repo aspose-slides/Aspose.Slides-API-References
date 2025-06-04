@@ -1,15 +1,15 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示柔和边缘效果。形状的边缘模糊，而填充不受影响。
+second_title: Aspose.Slidess for .NET API 参考
+description: 表示软边缘效果。形状的边缘模糊，而填充不受影响。
 type: docs
 weight: 3530
 url: /zh/aspose.slides.effects/softedge/
 ---
 
-## SoftEdge类
+## SoftEdge class
 
-表示柔和边缘效果。形状的边缘模糊，而填充不受影响。
+表示软边缘效果。形状的边缘模糊，而填充不受影响。
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -19,14 +19,14 @@ public sealed class SoftEdge : ISoftEdge
 
 | 名称 | 描述 |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 指定应用于边缘的模糊半径。可读写 Double。 |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 指定施加于边缘的模糊半径。可读写 Double。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | 确定指定的 [`SoftEdge`](../softedge) 是否等于当前的 [`SoftEdge`](../softedge)。 |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 获取应用了继承的有效柔和边缘效果数据。 |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | 确定指定的 [`SoftEdge`](../softedge) 是否等于当前 [`SoftEdge`](../softedge)。 |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 获取应用继承的有效软边缘效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | 作为特定类型的哈希函数。 |
 
 ### 另见

@@ -1,7 +1,7 @@
 ---
 title: AddSmartArtPlaceholder
-second_title: Aspose.Slides for .NET API Reference
-description: 向布局幻灯片添加一个新的占位符形状以容纳 SmartArt 图表。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在布局幻灯片中添加一个新的占位符形状以放置SmartArt图表。
 type: docs
 weight: 60
 url: /zh/aspose.slides/layoutplaceholdermanager/addsmartartplaceholder/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/layoutplaceholdermanager/addsmartartplaceholder/
 
 ## LayoutPlaceholderManager.AddSmartArtPlaceholder 方法
 
-向布局幻灯片添加一个新的占位符形状以容纳 SmartArt 图表。
+在布局幻灯片中添加一个新的占位符形状以放置SmartArt图表。
 
 ```csharp
 public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddSmartArtPlaceholder(float x, float y, float width, float he
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新占位符形状的 X 坐标。 |
-| y | Single | 新占位符形状的 Y 坐标。 |
-| width | Single | 新占位符形状的宽度。 |
-| height | Single | 新占位符形状的高度。 |
+| x | 单精度浮点数 | 新占位符形状的X坐标。 |
+| y | 单精度浮点数 | 新占位符形状的Y坐标。 |
+| width | 单精度浮点数 | 新占位符形状的宽度。 |
+| height | 单精度浮点数 | 新占位符形状的高度。 |
 
 ### 返回值
 
-创建的 [`IAutoShape`](../../iautoshape) 具有 SmartArt 占位符。
+创建的 [`IAutoShape`](../../iautoshape)，带有SmartArt占位符。
 
 ### 示例
 
-以下示例演示如何向布局幻灯片添加 SmartArt 占位符形状。
+以下示例展示了如何将SmartArt占位符形状添加到布局幻灯片中。
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 类 [LayoutPlaceholderManager](../../layoutplaceholdermanager)

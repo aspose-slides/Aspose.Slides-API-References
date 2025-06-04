@@ -1,6 +1,6 @@
 ---
 title: DateTime11
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Date et heure actuelles dans un onzième format prédéfini hhmmss pour l'anglais. Champ en lecture seule FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 50
@@ -15,7 +15,7 @@ Date et heure actuelles dans un onzième format prédéfini (hh:mm:ss pour l'ang
 public static FieldType DateTime11 { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [FieldType](../../fieldtype)
 * espace de noms [Aspose.Slides](../../fieldtype)

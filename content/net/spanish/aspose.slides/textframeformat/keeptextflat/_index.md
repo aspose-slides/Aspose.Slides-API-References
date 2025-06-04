@@ -1,7 +1,7 @@
 ---
 title: KeepTextFlat
-second_title: Aspose.Sildes para .NET API Reference
-description: Obtiene o establece mantener el texto plano incluso si se aplicó un efecto de Rotación 3-D. Lectura/escritura Booleano.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene o establece el mantenimiento del texto plano incluso si se aplicó un efecto de rotación 3-D. Booleano de lectura/escritura.
 type: docs
 weight: 70
 url: /es/aspose.slides/textframeformat/keeptextflat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/textframeformat/keeptextflat/
 
 ## Propiedad TextFrameFormat.KeepTextFlat
 
-Obtiene o establece mantener el texto plano incluso si se aplicó un efecto de Rotación 3-D. Lectura/escritura Booleano.
+Obtiene o establece el mantenimiento del texto plano incluso si se aplicó un efecto de rotación 3-D. Booleano de lectura/escritura.
 
 ```csharp
 public bool KeepTextFlat { get; set; }

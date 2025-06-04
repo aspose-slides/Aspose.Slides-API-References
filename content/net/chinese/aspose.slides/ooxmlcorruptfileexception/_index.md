@@ -1,7 +1,7 @@
 ---
 title: OOXMLCorruptFileException
 second_title: Aspose.Slides for .NET API Reference
-description: 当Office Open XML文件格式损坏时抛出的异常。
+description: 当Office Open XML文件格式损坏时抛出异常。
 type: docs
 weight: 8920
 url: /zh/aspose.slides/ooxmlcorruptfileexception/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ooxmlcorruptfileexception/
 
 ## OOXMLCorruptFileException 类
 
-当Office Open XML文件格式损坏时抛出的异常。
+当Office Open XML文件格式损坏时抛出异常。
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -20,8 +20,8 @@ public class OOXMLCorruptFileException : OOXMLException
 | 名称 | 描述 |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | 默认构造函数。 |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 允许向该异常添加消息的构造函数。 |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的构造函数。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 构造函数，允许向此异常添加消息。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | 包含消息和嵌入异常的异常的构造函数。 |
 
 ### 另见
 

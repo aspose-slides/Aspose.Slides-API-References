@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定 IList 中特定项的索引。
 type: docs
 weight: 90
@@ -23,7 +23,7 @@ public int IndexOf(IPortion item)
 
 如果在列表中找到 *item* 的索引；否则返回 -1。
 
-### 另见
+### 见亦
 
 * 接口 [IPortion](../../iportion)
 * 类 [PortionCollection](../../portioncollection)

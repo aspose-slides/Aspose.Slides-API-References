@@ -1,6 +1,6 @@
 ---
 title: CreateLuminance
-second_title: Ссылка по API Aspose.Sildes для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Создает эффект яркости.
 type: docs
 weight: 170

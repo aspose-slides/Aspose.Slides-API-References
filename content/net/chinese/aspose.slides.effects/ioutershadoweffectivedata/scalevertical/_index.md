@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
-second_title: Aspose.Slides for .NET API 参考
-description: 指定纵向缩放因子，负缩放会导致翻转。仅可读的 Double。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定垂直缩放因子，负缩放会导致翻转。只读 Double。
 type: docs
 weight: 80
 url: /zh/aspose.slides.effects/ioutershadoweffectivedata/scalevertical/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ioutershadoweffectivedata/scalevertical/
 
 ## IOuterShadowEffectiveData.ScaleVertical 属性
 
-指定纵向缩放因子，负缩放会导致翻转。仅可读的 Double。
+指定垂直缩放因子，负缩放会导致翻转。只读 Double。
 
 ```csharp
 public double ScaleVertical { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ioutershadoweffectivedata)

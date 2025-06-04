@@ -1,13 +1,13 @@
 ---
 title: Slides
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 幻灯片范围
 type: docs
 weight: 60
 url: /zh/aspose.slides/slideshowsettings/slides/
 ---
 
-## SlideShowSettings.Slides 属性
+## SlideShowSettings.Slides property
 
 幻灯片范围
 
@@ -25,7 +25,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SlidesRange](../../slidesrange)
 * class [SlideShowSettings](../../slideshowsettings)

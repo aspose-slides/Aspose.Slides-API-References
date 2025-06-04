@@ -1,7 +1,7 @@
 ---
 title: DefaultSymbolFont
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Symbolschriftart zurück oder setzt sie, wenn die Quellschriftart nicht gefunden wird. Schreib-/Lese-String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die verwendete Symbolschriftart zurück oder setzt sie, falls die Quellschriftart nicht gefunden wird. Lese-/Schreib-String.
 type: docs
 weight: 50
 url: /de/aspose.slides/loadoptions/defaultsymbolfont/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/loadoptions/defaultsymbolfont/
 
 ## LoadOptions.DefaultSymbolFont-Eigenschaft
 
-Gibt die Symbolschriftart zurück oder setzt sie, wenn die Quellschriftart nicht gefunden wird. Schreib-/Lese-String.
+Gibt die verwendete Symbolschriftart zurück oder setzt sie, falls die Quellschriftart nicht gefunden wird. Lese-/Schreib-String.
 
 ```csharp
 public string DefaultSymbolFont { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [LoadOptions](../../loadoptions)
 * Namespace [Aspose.Slides](../../loadoptions)

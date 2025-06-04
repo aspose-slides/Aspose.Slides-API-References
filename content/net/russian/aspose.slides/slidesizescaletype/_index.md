@@ -1,7 +1,7 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет тип масштабирования содержимого слайда.
+second_title: Aspose.Slides для .NET API Справка
+description: Представляет тип масштаба содержимого слайда.
 type: docs
 weight: 10200
 url: /ru/aspose.slides/slidesizescaletype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/slidesizescaletype/
 
 ## Перечисление SlideSizeScaleType
 
-Представляет тип масштабирования содержимого слайда.
+Представляет тип масштаба содержимого слайда.
 
 ```csharp
 public enum SlideSizeScaleType
@@ -17,13 +17,13 @@ public enum SlideSizeScaleType
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | DoNotScale | `0` | Не масштабировать. |
 | EnsureFit | `1` | Масштабировать для обеспечения соответствия. |
 | Maximize | `2` | Максимизировать размер содержимого. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

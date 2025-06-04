@@ -1,6 +1,6 @@
 ---
 title: MinorGridLinesFormat
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente le format des lignes de grille mineures sur un axe de graphique. Lecture seule IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 390

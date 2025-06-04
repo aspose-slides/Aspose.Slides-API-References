@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un schéma de couleurs par index. En lecture seule ExtraColorSchemeaspose.slides/extracolorscheme.
+description: Retourne un schéma de couleur par index. Lecture seule ExtraColorSchemeaspose.slides.theme/extracolorscheme.
 type: docs
 weight: 30
 url: /fr/aspose.slides.theme/extracolorschemecollection/item/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/extracolorschemecollection/item/
 
 ## Indexeur ExtraColorSchemeCollection
 
-Retourne un schéma de couleurs par index. En lecture seule [`ExtraColorScheme`](../../extracolorscheme).
+Retourne un schéma de couleur par index. Lecture seule [`ExtraColorScheme`](../../extracolorscheme).
 
 ```csharp
 public IExtraColorScheme this[int index] { get; }

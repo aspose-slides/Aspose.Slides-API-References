@@ -1,7 +1,7 @@
 ---
 title: AsIBaseShapeLock
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IBaseShapeLock 接口。是一个只读的 IBaseShapeLockaspose.slides/ibaseshapelock。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 IBaseShapeLock 接口。 只读 IBaseShapeLockaspose.slides/ibaseshapelock。
 type: docs
 weight: 10
 url: /zh/aspose.slides/igraphicalobjectlock/asibaseshapelock/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igraphicalobjectlock/asibaseshapelock/
 
 ## IGraphicalObjectLock.AsIBaseShapeLock 属性
 
-允许获取基础 IBaseShapeLock 接口。只读 [`IBaseShapeLock`](../../ibaseshapelock)。
+允许获取基础 IBaseShapeLock 接口。 只读 [`IBaseShapeLock`](../../ibaseshapelock)。
 
 ```csharp
 public IBaseShapeLock AsIBaseShapeLock { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IBaseShapeLock](../../ibaseshapelock)
 * 接口 [IGraphicalObjectLock](../../igraphicalobjectlock)

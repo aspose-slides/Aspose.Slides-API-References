@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Namen des Schriftarten-Schemas zurück. Schreibgeschützter String.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Gibt den Namen des Schriftarten-Schemas zurück. Schreibgeschützter String.
 public string Name { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
 * Namespace [Aspose.Slides.Theme](../../ifontschemeeffectivedata)

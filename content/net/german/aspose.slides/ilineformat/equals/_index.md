@@ -21,7 +21,7 @@ public bool Equals(ILineFormat lineFormat)
 
 ### Rückgabewert
 
-**true**, wenn das angegebene LineFormat gleich dem aktuellen LineFormat ist; andernfalls **false**.
+**true**, wenn das angegebene LineFormat mit dem aktuellen LineFormat gleich ist; andernfalls **false**.
 
 ### Siehe auch
 

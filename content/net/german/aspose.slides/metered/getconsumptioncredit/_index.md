@@ -19,7 +19,7 @@ public static decimal GetConsumptionCredit()
 
 Verbrauchsmenge
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Metered](../../metered)
 * Namespace [Aspose.Slides](../../metered)

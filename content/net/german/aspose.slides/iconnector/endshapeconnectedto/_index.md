@@ -1,7 +1,7 @@
 ---
 title: EndShapeConnectedTo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Form zurück oder setzt sie, an die das Ende des Verbinders angeschlossen werden soll. Lese-/Schreibzugriff auf IShape aspose.slides/ishape.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Form zurück oder legt sie fest, an die das Ende des Konnektors angeschlossen werden soll. Lesen/Schreiben IShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /de/aspose.slides/iconnector/endshapeconnectedto/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iconnector/endshapeconnectedto/
 
 ## IConnector.EndShapeConnectedTo-Eigenschaft
 
-Gibt die Form zurück oder setzt sie, an die das Ende des Verbinders angeschlossen werden soll. Lese-/Schreibzugriff auf [`IShape`](../../ishape).
+Gibt die Form zurück oder legt sie fest, an die das Ende des Konnektors angeschlossen werden soll. Lesen/Schreiben [`IShape`](../../ishape).
 
 ```csharp
 public IShape EndShapeConnectedTo { get; set; }
@@ -19,7 +19,7 @@ public IShape EndShapeConnectedTo { get; set; }
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wird ausgelöst, wenn die verbundene Form keine Verbindungsstellen hat (IShape.ConnectionSiteCount gleich null) |
+| ArgumentException | Wird ausgelöst, wenn die verbundene Form keine Verbindungspunkte hat (IShape.ConnectionSiteCount gleich null) |
 
 ### Siehe auch
 

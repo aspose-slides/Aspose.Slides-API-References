@@ -1,21 +1,21 @@
 ---
 title: Shapes
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формы слайда. Только для чтения IShapeCollectionaspose.slides/ishapecollection.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает фигуры слайда. Только для чтения IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ibaseslide/shapes/
 ---
 
-## Свойство IBaseSlide.Shapes
+## IBaseSlide.Shapes свойство
 
-Возвращает формы слайда. Только для чтения [`IShapeCollection`](../../ishapecollection).
+Возвращает фигуры слайда. Только для чтения [`IShapeCollection`](../../ishapecollection).
 
 ```csharp
 public IShapeCollection Shapes { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IShapeCollection](../../ishapecollection)
 * интерфейс [IBaseSlide](../../ibaseslide)

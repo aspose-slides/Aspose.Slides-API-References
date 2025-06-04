@@ -1,7 +1,7 @@
 ---
 title: Delimit
-second_title: Aspose.Slides for .NET API 参考
-description: 用分隔符字符（不带括号）分隔所有子元素
+second_title: Aspose.Sildes for .NET API Reference
+description: 用分隔符字符分隔所有子元素（不带括号）
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathblock/delimit/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathblock/delimit/
 
 ## IMathBlock.Delimit 方法
 
-用分隔符字符（不带括号）分隔所有子元素
+用分隔符字符分隔所有子元素（不带括号）
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -25,7 +25,7 @@ IMathDelimiter 元素的实例
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Delimit('|');
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathDelimiter](../../imathdelimiter)
 * 接口 [IMathBlock](../../imathblock)

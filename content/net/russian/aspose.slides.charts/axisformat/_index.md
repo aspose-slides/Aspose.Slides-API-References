@@ -20,8 +20,8 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 | Имя | Описание |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Возвращает свойства стиля заливки для оси. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Возвращает свойства стиля линии для оси. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### См. также
 

@@ -1,15 +1,15 @@
 ---
 title: OutputFile
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет выходной файл.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет файл вывода.
 type: docs
 weight: 4460
 url: /ru/aspose.slides.export.web/outputfile/
 ---
 
-## Класс OutputFile
+## OutputFile class
 
-Представляет выходной файл.
+Представляет файл вывода.
 
 ```csharp
 public abstract class OutputFile : IOutputFile

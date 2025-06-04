@@ -1,7 +1,7 @@
 ---
 title: ExtrusionColor
-second_title: Aspose.Sildes für .NET API Referenz
-description: Gibt die Farbe einer Extrusion zurück oder legt sie fest. Schreibgeschützt IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Farbe einer Extrusion zurück oder legt sie fest. Schreibgeschütztes IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 80
 url: /de/aspose.slides/ithreedformat/extrusioncolor/

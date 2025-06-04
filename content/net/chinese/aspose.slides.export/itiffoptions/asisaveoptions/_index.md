@@ -1,6 +1,6 @@
 ---
 title: AsISaveOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回 ISaveOptions 接口。只读 ISaveOptions aspose.slides.export/isaveoptions。
 type: docs
 weight: 10
@@ -17,9 +17,9 @@ public ISaveOptions AsISaveOptions { get; }
 
 ### 备注
 
-为了 COM 兼容性。
+用于 COM 兼容性。
 
-### 另见
+### 另请参见
 
 * 接口 [ISaveOptions](../../isaveoptions)
 * 接口 [ITiffOptions](../../itiffoptions)

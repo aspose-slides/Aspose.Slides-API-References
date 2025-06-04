@@ -1,13 +1,13 @@
 ---
 title: CreateMathRightSubSuperscriptElement
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Crée IMathRightSubSuperscriptElementFactory
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement/
 ---
 
-## Méthode IMathRightSubSuperscriptElementFactory.CreateMathRightSubSuperscriptElement
+## IMathRightSubSuperscriptElementFactory.CreateMathRightSubSuperscriptElement méthode
 
 Crée IMathRightSubSuperscriptElementFactory
 
@@ -18,9 +18,9 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| baseArg | IMathElement | Argument de base pour appliquer des indices |
-| subScript | IMathElement | indice inférieur droit |
-| superScript | IMathElement | indice supérieur droit |
+| baseArg | IMathElement | Argument de base pour appliquer des index |
+| subScript | IMathElement | index inférieur droit |
+| superScript | IMathElement | index supérieur droit |
 
 ### Valeur de retour
 

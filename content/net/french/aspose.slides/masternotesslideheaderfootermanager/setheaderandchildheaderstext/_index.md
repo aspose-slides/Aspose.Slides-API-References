@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersText
-second_title: Aspose.Slides pour .NET Référence de l'API
-description: Définit le texte du placeholder d'en-tête de la diapositive de notes maître et de tous les placeholders d'en-tête enfants. Les placeholders enfants signifient que les placeholders sont contenus sur des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+second_title: Référence API Aspose.Slides pour .NET
+description: Définit le texte du placeholder d'en-tête de la diapositive de notes maîtres et de tous les placeholders d'en-tête enfants. Les placeholders enfants signifient que les placeholders sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 type: docs
 weight: 50
 url: /fr/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildhead
 
 ## MasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText méthode
 
-Définit le texte du placeholder d'en-tête de la diapositive de notes maître et de tous les placeholders d'en-tête enfants. Les placeholders enfants signifient que les placeholders sont contenus sur des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
+Définit le texte du placeholder d'en-tête de la diapositive de notes maîtres et de tous les placeholders d'en-tête enfants. Les placeholders enfants signifient que les placeholders sont contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maîtres.
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)

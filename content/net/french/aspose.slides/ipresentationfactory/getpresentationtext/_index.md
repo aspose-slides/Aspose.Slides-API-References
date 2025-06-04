@@ -1,6 +1,6 @@
 ---
 title: GetPresentationText
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Reference
 description: Récupère le texte brut des diapositives
 type: docs
 weight: 30

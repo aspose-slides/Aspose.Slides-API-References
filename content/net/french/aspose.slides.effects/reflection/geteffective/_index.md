@@ -1,28 +1,28 @@
 ---
 title: GetEffective
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les données d'effet de réflexion effectives avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Obtient les données effectives de l'effet de réflexion avec l'héritage appliqué.
 type: docs
 weight: 160
 url: /fr/aspose.slides.effects/reflection/geteffective/
 ---
 
-## Méthode Reflection.GetEffective
+## Reflection.GetEffective méthode
 
-Obtient les données d'effet de réflexion effectives avec l'héritage appliqué.
+Obtient les données effectives de l'effet de réflexion avec l'héritage appliqué.
 
 ```csharp
 public IReflectionEffectiveData GetEffective()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un [`IReflectionEffectiveData`](../../ireflectioneffectivedata).
 
 ### Voir aussi
 
 * interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
-* classe [Reflection](../../reflection)
+* class [Reflection](../../reflection)
 * namespace [Aspose.Slides.Effects](../../reflection)
 * assembly [Aspose.Slides](../../../)
 

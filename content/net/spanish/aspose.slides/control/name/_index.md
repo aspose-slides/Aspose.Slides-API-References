@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Obtiene o establece el nombre de este control. Lectura/escritura String.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene o establece el nombre de este control. Cadena de lectura/escritura.
 type: docs
 weight: 40
 url: /es/aspose.slides/control/name/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/control/name/
 
 ## Propiedad Control.Name
 
-Obtiene o establece el nombre de este control. Lectura/escritura String.
+Obtiene o establece el nombre de este control. Cadena de lectura/escritura.
 
 ```csharp
 public string Name { get; set; }
@@ -17,8 +17,8 @@ public string Name { get; set; }
 
 ### Ver También
 
-* clase [Control](../../control)
-* espacio de nombres [Aspose.Slides](../../control)
-* ensamblado [Aspose.Slides](../../../)
+* class [Control](../../control)
+* namespace [Aspose.Slides](../../control)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -30,6 +30,6 @@ IMathElement baseElem = radical.Base;
 * interfaz [IMathElement](../../imathelement)
 * clase [MathRadical](../../mathradical)
 * espacio de nombres [Aspose.Slides.MathText](../../mathradical)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

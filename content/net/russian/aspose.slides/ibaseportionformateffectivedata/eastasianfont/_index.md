@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает информацию о восточноазиатском шрифте. Только для чтения IFontDataaspose.slides/ifontdata.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает информацию о восточноазиатском шрифте. Данный IFontData является только для чтения aspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ibaseportionformateffectivedata/eastasianfont/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/ibaseportionformateffectivedata/eastasianfont/
 
 ## IBasePortionFormatEffectiveData.EastAsianFont свойство
 
-Возвращает информацию о восточноазиатском шрифте. Только для чтения [`IFontData`](../../ifontdata).
+Возвращает информацию о восточноазиатском шрифте. Данный [`IFontData`](../../ifontdata) является только для чтения.
 
 ```csharp
 public IFontData EastAsianFont { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IFontData](../../ifontdata)
 * интерфейс [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

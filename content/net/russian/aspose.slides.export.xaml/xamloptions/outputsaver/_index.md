@@ -1,13 +1,13 @@
 ---
 title: OutputSaver
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет реализацию интерфейса IOutputSaver.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export.xaml/xamloptions/outputsaver/
 ---
 
-## Свойство XamlOptions.OutputSaver
+## XamlOptions.OutputSaver свойство
 
 Представляет реализацию интерфейса IOutputSaver.
 

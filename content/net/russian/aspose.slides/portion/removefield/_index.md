@@ -1,7 +1,7 @@
 ---
 title: RemoveField
-second_title: Ссылочная документация Aspose.Slides для .NET
-description: Преобразует этот компонент поля в простой компонент.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Конвертирует этот раздел поля в простой раздел.
 type: docs
 weight: 80
 url: /ru/aspose.slides/portion/removefield/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/portion/removefield/
 
 ## Метод Portion.RemoveField
 
-Преобразует этот компонент поля в простой компонент.
+Конвертирует этот раздел поля в простой раздел.
 
 ```csharp
 public void RemoveField()

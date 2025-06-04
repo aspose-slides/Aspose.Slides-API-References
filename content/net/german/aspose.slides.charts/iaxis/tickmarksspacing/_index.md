@@ -1,15 +1,15 @@
 ---
 title: TickMarksSpacing
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, wie viele Tick-Marken übersprungen werden sollen, bevor die nächste gezeichnet wird. Angewendet auf die Kategorie- oder Serienachse. Lese-/Schreibzugriff UInt16.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, wie viele Tick-Marken übersprungen werden sollen, bevor die nächste gezeichnet wird. Angewendet auf Kategorien- oder Serienachsen. Lese-/Schreibzugriff UInt16.
 type: docs
 weight: 530
 url: /de/aspose.slides.charts/iaxis/tickmarksspacing/
 ---
 
-## IAxis.TickMarksSpacing-Eigenschaft
+## IAxis.TickMarksSpacing Eigenschaft
 
-Gibt an, wie viele Tick-Marken übersprungen werden sollen, bevor die nächste gezeichnet wird. Angewendet auf die Kategorie- oder Serienachse. Lese-/Schreibzugriff UInt16.
+Gibt an, wie viele Tick-Marken übersprungen werden sollen, bevor die nächste gezeichnet wird. Angewendet auf Kategorien- oder Serienachsen. Lese-/Schreibzugriff UInt16.
 
 ```csharp
 public uint TickMarksSpacing { get; set; }

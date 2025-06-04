@@ -1,7 +1,7 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Slides для .NET API Справочник
-description: Невозможно изменяемый объект, который содержит свойства эффективной цветовой схемы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Неизменяемый объект, который содержит свойства эффективной цветовой схемы.
 type: docs
 weight: 10850
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/icolorschemeeffectivedata/
 
 ## Интерфейс IColorSchemeEffectiveData
 
-Невозможно изменяемый объект, который содержит свойства эффективной цветовой схемы.
+Неизменяемый объект, который содержит свойства эффективной цветовой схемы.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -17,7 +17,7 @@ public interface IColorSchemeEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Первый акцентный цвет в схеме. Только для чтения Color. |
 | [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Второй акцентный цвет в схеме. Только для чтения Color. |
@@ -33,11 +33,12 @@ public interface IColorSchemeEffectiveData
 | [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | Первый светлый цвет в схеме. Только для чтения Color. |
 | [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Второй светлый цвет в схеме. Только для чтения Color. |
 
-### Замечания
+### Примечания
 
 Этот класс используется как часть [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### Также см.
+ 
 * пространство имен [Aspose.Slides.Theme](../../aspose.slides.theme)
 * сборка [Aspose.Slides](../../)
 

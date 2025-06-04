@@ -1,7 +1,7 @@
 ---
 title: PositionMove
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si le déplacement de cette forme est interdit. Boolean en lecture/écriture.
+description: Détermine si le déplacement de cette forme est interdit. Booléen lecture/écriture.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iconnectorlock/positionmove/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iconnectorlock/positionmove/
 
 ## Propriété IConnectorLock.PositionMove
 
-Détermine si le déplacement de cette forme est interdit. Boolean en lecture/écriture.
+Détermine si le déplacement de cette forme est interdit. Booléen lecture/écriture.
 
 ```csharp
 public bool PositionMove { get; set; }

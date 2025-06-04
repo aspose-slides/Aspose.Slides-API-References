@@ -1,7 +1,7 @@
 ---
 title: SetExternalHyperlinkClick
 second_title: Aspose.Sildes для .NET API Справочник
-description: Установить внешнюю гиперссылку по щелчку.
+description: Установить внешний гиперссылка по клику.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick/
 
 ## IHyperlinkManager.SetExternalHyperlinkClick метод
 
-Установить внешнюю гиперссылку по щелчку.
+Установить внешний гиперссылка по клику.
 
 ```csharp
 public IHyperlink SetExternalHyperlinkClick(string url)
@@ -23,7 +23,7 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 
 Объект гиперссылки [`IHyperlink`](../../ihyperlink)
 
-### См. Также
+### См. также
 
 * интерфейс [IHyperlink](../../ihyperlink)
 * интерфейс [IHyperlinkManager](../../ihyperlinkmanager)

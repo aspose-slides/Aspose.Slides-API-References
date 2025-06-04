@@ -1,15 +1,15 @@
 ---
 title: ThreeDFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne l'objet ThreeDFormat qui représente les propriétés d'effet 3d pour un texte. Lecture seule IThreeDFormataspose.slides/ithreedformat.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Retourne l'objet ThreeDFormat qui représente les propriétés d'effet 3d pour un texte. En lecture seule IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140
 url: /fr/aspose.slides/itextframeformat/threedformat/
 ---
 
-## Propriété ITextFrameFormat.ThreeDFormat
+## ITextFrameFormat.ThreeDFormat propriété
 
-Retourne l'objet ThreeDFormat qui représente les propriétés d'effet 3d pour un texte. Lecture seule [`IThreeDFormat`](../../ithreedformat).
+Retourne l'objet ThreeDFormat qui représente les propriétés d'effet 3d pour un texte. En lecture seule [`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }

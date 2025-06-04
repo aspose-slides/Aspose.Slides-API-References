@@ -1,7 +1,7 @@
 ---
 title: To
-second_title: Aspose.Slides pour la référence API .NET
-description: Spécifie l'emplacement cible pour un effet de mise à l'échelle d'animation en pourcentage. Lisible/écrivible PointF.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie la position cible pour un effet d'échelle d'animation en pourcentages. Writable/Readable PointF.
 type: docs
 weight: 40
 url: /fr/aspose.slides.animation/scaleeffect/to/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/scaleeffect/to/
 
 ## Propriété ScaleEffect.To
 
-Spécifie l'emplacement cible pour un effet de mise à l'échelle d'animation (en pourcentages). Lisible/écrivable PointF.
+Spécifie la position cible pour un effet d'échelle d'animation (en pourcentages). Writable/Readable PointF.
 
 ```csharp
 public PointF To { get; set; }

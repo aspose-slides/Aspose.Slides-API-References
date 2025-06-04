@@ -1,21 +1,21 @@
 ---
 title: AsIGeometryShape
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IGeometryShape. IGeometryShape solo de lectura aspose.slides/igeometryshape.
+description: Permite obtener la interfaz base IGeometryShape. IGeometryShape de solo lectura aspose.slides/igeometryshape.
 type: docs
 weight: 10
 url: /es/aspose.slides.smartart/ismartartshape/asigeometryshape/
 ---
 
-## Propiedad ISmartArtShape.AsIGeometryShape
+## ISmartArtShape.AsIGeometryShape propiedad
 
-Permite obtener la interfaz base IGeometryShape. Solo de lectura [`IGeometryShape`](../../../aspose.slides/igeometryshape).
+Permite obtener la interfaz base IGeometryShape. De solo lectura [`IGeometryShape`](../../../aspose.slides/igeometryshape).
 
 ```csharp
 public IGeometryShape AsIGeometryShape { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IGeometryShape](../../../aspose.slides/igeometryshape)
 * interfaz [ISmartArtShape](../../ismartartshape)

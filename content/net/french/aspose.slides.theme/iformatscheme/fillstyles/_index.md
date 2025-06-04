@@ -1,7 +1,7 @@
 ---
 title: FillStyles
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une collection de styles de remplissage définis par le thème. Lecture seule IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
+description: Renvoie une collection de styles de remplissage définis par le thème. Collection IFillFormatCollection en lecture seule aspose.slides.theme/ifillformatcollection.
 type: docs
 weight: 40
 url: /fr/aspose.slides.theme/iformatscheme/fillstyles/

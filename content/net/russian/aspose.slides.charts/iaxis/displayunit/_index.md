@@ -1,15 +1,15 @@
 ---
 title: DisplayUnit
-second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает значение масштабирования единиц отображения для оси значений. Чтение/запись DisplayUnitTypeaspose.slides.charts/displayunittype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает значение масштабирования для единиц отображения по оси значений. Чтение/запись DisplayUnitTypeaspose.slides.charts/displayunittype.
 type: docs
 weight: 150
 url: /ru/aspose.slides.charts/iaxis/displayunit/
 ---
 
-## Свойство IAxis.DisplayUnit
+## IAxis.DisplayUnit свойство
 
-Указывает значение масштабирования единиц отображения для оси значений. Чтение/запись [`DisplayUnitType`](../../displayunittype).
+Указывает значение масштабирования для единиц отображения по оси значений. Чтение/запись [`DisplayUnitType`](../../displayunittype).
 
 ```csharp
 public DisplayUnitType DisplayUnit { get; set; }

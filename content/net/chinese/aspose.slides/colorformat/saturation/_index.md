@@ -1,7 +1,7 @@
 ---
 title: Saturation
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置颜色在 HSL 表示中的饱和度组件。所有颜色转换均被忽略。可读/可写的单精度浮点数。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回或设置 HSL 表示中颜色的饱和度组件。所有颜色转换都被忽略。读/写 Single。
 type: docs
 weight: 130
 url: /zh/aspose.slides/colorformat/saturation/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/colorformat/saturation/
 
 ## ColorFormat.Saturation 属性
 
-返回或设置颜色在 HSL 表示中的饱和度组件。所有颜色转换均被忽略。可读/可写的单精度浮点数。
+返回或设置 HSL 表示中颜色的饱和度组件。所有颜色转换都被忽略。读/写 Single。
 
 ```csharp
 public float Saturation { get; set; }
 ```
 
-### 另见
+### 参见其他
 
 * class [ColorFormat](../../colorformat)
 * namespace [Aspose.Slides](../../colorformat)

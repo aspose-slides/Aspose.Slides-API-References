@@ -1,7 +1,7 @@
 ---
 title: ActualWidth
-second_title: Aspose.Slides for .NET API 参考
-description: 指定图表元素的实际宽度。请在获取实际值之前调用 IChart.ValidateChartLayout 方法。阅读单个值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定图表元素的实际宽度。在获取实际值之前调用方法 IChart.ValidateChartLayout。读取单个值。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/iactuallayout/actualwidth/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iactuallayout/actualwidth/
 
 ## IActualLayout.ActualWidth 属性
 
-指定图表元素的实际宽度。请在获取实际值之前调用 IChart.ValidateChartLayout() 方法。阅读单个值。
+指定图表元素的实际宽度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。读取单个值。
 
 ```csharp
 public float ActualWidth { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IActualLayout](../../iactuallayout)
 * 命名空间 [Aspose.Slides.Charts](../../iactuallayout)

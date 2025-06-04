@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides.theme/icolorscheme/accent2/
 ---
 
-## Свойство IColorScheme.Accent2
+## IColorScheme.Accent2 свойство
 
 Второй акцентный цвет в схеме. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/icolorscheme/accent2/
 public IColorFormat Accent2 { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * интерфейс [IColorScheme](../../icolorscheme)

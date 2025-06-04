@@ -1,21 +1,21 @@
 ---
 title: ReflectionEffect
-second_title: Référence API Aspose.Slides pour .NET
-description: Réflexion. Lecture seule IReflectionEffectiveDataaspose.slides.effects/ireflectioneffectivedata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Réflexion. Données IReflectionEffectiveData en lecture seule aspose.slides.effects/ireflectioneffectivedata.
 type: docs
 weight: 90
 url: /fr/aspose.slides/ieffectformateffectivedata/reflectioneffect/
 ---
 
-## Propriété IEffectFormatEffectiveData.ReflectionEffect
+## IEffectFormatEffectiveData.ReflectionEffect propriété
 
-Réflexion. Lecture seule [`IReflectionEffectiveData`](../../../aspose.slides.effects/ireflectioneffectivedata).
+Réflexion. Données [`IReflectionEffectiveData`](../../../aspose.slides.effects/ireflectioneffectivedata) en lecture seule.
 
 ```csharp
 public IReflectionEffectiveData ReflectionEffect { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IReflectionEffectiveData](../../../aspose.slides.effects/ireflectioneffectivedata)
 * interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

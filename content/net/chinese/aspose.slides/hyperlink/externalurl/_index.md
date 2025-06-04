@@ -1,6 +1,6 @@
 ---
 title: ExternalUrl
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定外部 URL。只读字符串。
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/hyperlink/externalurl/
 public string ExternalUrl { get; }
 ```
 
-### 另请参见
+### 参见
 
 * class [Hyperlink](../../hyperlink)
 * namespace [Aspose.Slides](../../hyperlink)

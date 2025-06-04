@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置在导出演示文稿时幻灯片放置在页面上的模式 ISlidesLayoutOptionsaspose.slides/islideslayoutoptions.
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置导出演示文稿时幻灯片在页面上的放置模式 ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/ihtml5options/slideslayoutoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ihtml5options/slideslayoutoptions/
 
 ## IHtml5Options.SlidesLayoutOptions 属性
 
-获取或设置在导出演示文稿时幻灯片放置在页面上的模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。
+获取或设置导出演示文稿时幻灯片在页面上的放置模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

@@ -1,15 +1,15 @@
 ---
 title: BlurEffect
-second_title: Aspose.Slides für .NET API Referenz
-description: Unschärfe-Effekt. Schreibgeschütztes IBlurEffectiveDataaspose.slides.effects/iblureffectivedata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Unschärfeffekt. Nur-Lese IBlurEffectiveDataaspose.slides/../aspose.slides.effects/iblureffectivedata.
 type: docs
 weight: 20
 url: /de/aspose.slides/ieffectformateffectivedata/blureffect/
 ---
 
-## IEffectFormatEffectiveData.BlurEffect Eigenschaft
+## IEffectFormatEffectiveData.BlurEffect-Eigenschaft
 
-Unschärfe-Effekt. Schreibgeschütztes [`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata).
+Unschärfeffekt. Nur-Lese [`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata).
 
 ```csharp
 public IBlurEffectiveData BlurEffect { get; }

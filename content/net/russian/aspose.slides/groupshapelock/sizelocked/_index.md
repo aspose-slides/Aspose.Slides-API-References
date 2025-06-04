@@ -1,21 +1,21 @@
 ---
 title: SizeLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, запрещено ли изменение размера этой формы. Читаемое/записываемое логическое значение.
+description: Определяет, запрещено ли изменение размера этой фигуры. Читаемое/записываемое логическое значение.
 type: docs
 weight: 60
 url: /ru/aspose.slides/groupshapelock/sizelocked/
 ---
 
-## Свойство GroupShapeLock.SizeLocked
+## GroupShapeLock.SizeLocked property
 
-Определяет, запрещено ли изменение размера этой формы. Читаемое/записываемое логическое значение.
+Определяет, запрещено ли изменение размера этой фигуры. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool SizeLocked { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [GroupShapeLock](../../groupshapelock)
 * пространство имен [Aspose.Slides](../../groupshapelock)

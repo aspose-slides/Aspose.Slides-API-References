@@ -1,6 +1,6 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Standardkonstruktor.
 public NotesCommentsLayoutingOptions()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)
 * namespace [Aspose.Slides.Export](../../notescommentslayoutingoptions)

@@ -1,6 +1,6 @@
 ---
 title: AnimateTextType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente le type de texte animé d'un effet d'animation.
 type: docs
 weight: 40
@@ -20,8 +20,8 @@ public enum AnimateTextType
 | Nom | Valeur | Description |
 | --- | --- | --- |
 | AllAtOnce | `0` | Animer tout le texte en une seule fois. |
-| ByWord | `1` | Animer le texte par mot. |
-| ByLetter | `2` | Animer le texte par lettre. |
+| ByWord | `1` | Animer le texte mot par mot. |
+| ByLetter | `2` | Animer le texte lettre par lettre. |
 
 ### Voir aussi
 

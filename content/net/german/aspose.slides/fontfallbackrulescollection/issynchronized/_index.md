@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung thread-sicher synchronisiert ist. Nur-Lese-Boolescher Wert.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur-lesbares Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/fontfallbackrulescollection/issynchronized/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/fontfallbackrulescollection/issynchronized/
 
 ## FontFallBackRulesCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese-Boolescher Wert.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-lesbares Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRulesCollection](../../fontfallbackrulescollection)
 * Namespace [Aspose.Slides](../../fontfallbackrulescollection)

@@ -7,7 +7,7 @@ weight: 20
 url: /es/aspose.slides.charts/chartdatapointlevelsmanager/item/
 ---
 
-## Índice de ChartDataPointLevelsManager
+## Indexador ChartDataPointLevelsManager
 
 Devuelve el objeto IChartDataPointLevel para el nivel definido.
 

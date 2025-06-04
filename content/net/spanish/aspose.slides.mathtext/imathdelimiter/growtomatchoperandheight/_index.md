@@ -1,13 +1,13 @@
 ---
 title: GrowToMatchOperandHeight
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Especifica el crecimiento de BeginningCharacter, SeparatorCharacter, EndingCharacter. Cuando es verdadero, los delimitadores crecen verticalmente para coincidir con la altura de su operando. El valor predeterminado es verdadero.
 type: docs
 weight: 60
 url: /es/aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight/
 ---
 
-## Propiedad IMathDelimiter.GrowToMatchOperandHeight
+## IMathDelimiter.GrowToMatchOperandHeight property
 
 Especifica el crecimiento de BeginningCharacter, SeparatorCharacter, EndingCharacter. Cuando es verdadero, los delimitadores crecen verticalmente para coincidir con la altura de su operando. El valor predeterminado es verdadero.
 
@@ -25,10 +25,10 @@ IMathDelimiter delimiter = new MathematicalText("x").Divide("y").Enclose();
 delimiter.GrowToMatchOperandHeight = false;
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IMathDelimiter](../../imathdelimiter)
 * espacio de nombres [Aspose.Slides.MathText](../../imathdelimiter)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

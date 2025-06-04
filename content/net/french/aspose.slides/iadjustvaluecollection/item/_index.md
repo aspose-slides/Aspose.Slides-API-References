@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne l'ajustement par index.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie l'ajustement par index.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iadjustvaluecollection/item/
 ---
 
-## Indexeur IAdjustValueCollection
+## IAdjustValueCollection indexeur
 
-Retourne l'ajustement par index.
+Renvoie l'ajustement par index.
 
 ```csharp
 public IAdjustValue this[int index] { get; }
@@ -17,7 +17,7 @@ public IAdjustValue this[int index] { get; }
 
 | Paramètre | Description |
 | --- | --- |
-| index | L'index de l'ajustement. |
+| index | index de l'ajustement. |
 
 ### Valeur de Retour
 

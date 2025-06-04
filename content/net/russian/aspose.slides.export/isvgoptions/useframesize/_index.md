@@ -1,21 +1,21 @@
 ---
 title: UseFrameSize
-second_title: Aspose.Slides для .NET Справочник по API
-description: Определяет, будет ли текстовое поле включено в область рендеринга или нет. Свойство для чтения и записи Boolean. Значение по умолчанию - false.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Определяет, будет ли текстовый фрейм включен в область отрисовки или нет. Читаемое/записываемое булевое значение. Значение по умолчанию - false.
 type: docs
 weight: 140
 url: /ru/aspose.slides.export/isvgoptions/useframesize/
 ---
 
-## ISVGOptions.UseFrameSize свойство
+## ISVGOptions.UseFrameSize property
 
-Определяет, будет ли текстовое поле включено в область рендеринга или нет. Свойство для чтения и записи Boolean. Значение по умолчанию - false.
+Определяет, будет ли текстовый фрейм включен в область отрисовки или нет. Читаемое/записываемое булевое значение. Значение по умолчанию - false.
 
 ```csharp
 public bool UseFrameSize { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISVGOptions](../../isvgoptions)
 * пространство имен [Aspose.Slides.Export](../../isvgoptions)

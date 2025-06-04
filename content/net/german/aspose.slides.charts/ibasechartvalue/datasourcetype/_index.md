@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt an, ob die Eigenschaft AsCell oder AsLiteralString oder AsLiteralDouble aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der Data-Eigenschaft an. Diese Eigenschaft ist schreibgeschützt. Zum Ändern des Wertes dieser Eigenschaft können Sie eine der ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; Eigenschaften verwenden. Lese-/Schreibzugriff auf DataSourceType.
+description: Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble aktuell ist. Mit anderen Worten, es gibt den Typ des Wertes der Data-Eigenschaft an. Diese Eigenschaft ist schreibgeschützt. Um den Wert dieser Eigenschaft zu ändern, können Sie eine der Eigenschaften ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; verwenden. Lese-/Schreib-Eigenschaft DataSourceType.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ibasechartvalue/datasourcetype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/ibasechartvalue/datasourcetype/
 
 ## IBaseChartValue.DataSourceType-Eigenschaft
 
-Gibt an, ob die Eigenschaft AsCell oder AsLiteralString oder AsLiteralDouble aktuell ist. Mit anderen Worten, sie gibt den Typ des Wertes der Data-Eigenschaft an. Diese Eigenschaft ist schreibgeschützt. Zum Ändern des Wertes dieser Eigenschaft können Sie eine der ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; Eigenschaften verwenden. Lese-/Schreibzugriff auf `DataSourceType`.
+Gibt an, ob die Eigenschaft AsCell, AsLiteralString oder AsLiteralDouble aktuell ist. Mit anderen Worten, es gibt den Typ des Wertes der Data-Eigenschaft an. Diese Eigenschaft ist schreibgeschützt. Um den Wert dieser Eigenschaft zu ändern, können Sie eine der Eigenschaften ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; verwenden. Lese-/Schreib-Eigenschaft `DataSourceType`.
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IBaseChartValue](../../ibasechartvalue)

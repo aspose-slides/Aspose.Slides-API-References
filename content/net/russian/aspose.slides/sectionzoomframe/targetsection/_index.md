@@ -1,15 +1,15 @@
 ---
 title: TargetSection
-second_title: Справка по API Aspose.Slides для .NET
-description: Получает или задает объект секции, на который ссылается объект увеличения секции. Чтение/запись ISectionaspose.slides/isection.
+second_title: Aspose.Sildes для .NET API справочник
+description: Получает или устанавливает объект раздела, к которому относится объект Section Zoom. Чтение/запись ISectionaspose.slides/isection.
 type: docs
 weight: 10
 url: /ru/aspose.slides/sectionzoomframe/targetsection/
 ---
 
-## Свойство SectionZoomFrame.TargetSection
+## SectionZoomFrame.TargetSection свойство
 
-Получает или задает объект секции, на который ссылается объект увеличения секции. Чтение/запись [`ISection`](../../isection).
+Получает или устанавливает объект раздела, к которому относится объект Section Zoom. Чтение/запись [`ISection`](../../isection).
 
 ```csharp
 public ISection TargetSection { get; set; }
@@ -17,7 +17,7 @@ public ISection TargetSection { get; set; }
 
 ### Примеры
 
-Следующий пример демонстрирует изменение целевой секции и создание нового изображения для объекта увеличения секции:
+Следующий пример демонстрирует изменение целевого раздела и создание нового изображения для объекта section zoom:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Также см.
+### См. также
 
 * интерфейс [ISection](../../isection)
 * класс [SectionZoomFrame](../../sectionzoomframe)

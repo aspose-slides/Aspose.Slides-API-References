@@ -17,9 +17,9 @@ public bool IsTextBox { get; }
 
 ### Hinweise
 
-Wenn eine Form nicht als Textfeld definiert ist, bedeutet das nicht, dass sie keinen Text enthalten kann. Ein Textfeld ist lediglich eine spezialisierte Form mit spezifischen Eigenschaften.
+Wenn die Form nicht als Textfeld spezifiziert ist, bedeutet dies nicht, dass sie keinen Text enthalten kann. Ein Textfeld ist lediglich eine spezialisierte Form mit spezifischen Eigenschaften.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [AutoShape](../../autoshape)
 * Namespace [Aspose.Slides](../../autoshape)

@@ -1,13 +1,13 @@
 ---
 title: WriteAsEmf
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Сохраняет содержимое слайда в файл EMF.
 type: docs
 weight: 130
 url: /ru/aspose.slides/slide/writeasemf/
 ---
 
-## Метод Slide.WriteAsEmf
+## Slide.WriteAsEmf метод
 
 Сохраняет содержимое слайда в файл EMF.
 
@@ -27,7 +27,7 @@ public void WriteAsEmf(Stream stream)
 
 ### Примеры
 
-В следующем примере кода показано, как преобразовать первый слайд из презентации PowerPoint в метафайл.
+Следующий пример кода демонстрирует, как преобразовать первый слайд из презентации PowerPoint в метафайл.
 
 ```csharp
 [C#]
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### См. также
 
 * класс [Slide](../../slide)
 * пространство имен [Aspose.Slides](../../slide)

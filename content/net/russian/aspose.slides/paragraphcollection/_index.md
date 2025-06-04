@@ -1,53 +1,53 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Представляет коллекцию параграфов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию абзацев.
 type: docs
 weight: 9020
 url: /ru/aspose.slides/paragraphcollection/
 ---
 
-## Класс КоллекцияПараграфов
+## ParagraphCollection class
 
-Представляет коллекцию параграфов.
+Представляет коллекцию абзацев.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
 ```
 
-## Свойства
+## Properties
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/paragraphcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Получает значение, указывающее, является ли ICollection только для чтения. Только для чтения Boolean. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Получает значение, указывающее, является ли ICollection доступным только для чтения. Только для чтения Boolean. |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | Получает элемент по указанному индексу. |
 
-## Методы
+## Methods
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Добавляет параграф в конец коллекции. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Добавляет содержимое коллекции параграфов в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Добавляет текст из указанной HTML-строки в коллекцию. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Добавляет текст из указанной HTML-строки в коллекцию. |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Добавляет абзац в конец коллекции. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Добавляет содержимое ParagraphCollection в конец коллекции. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Добавляет текст из указанной html строки в коллекцию. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Добавляет текст из указанной html строки в коллекцию. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Удаляет все элементы из коллекции. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Определяет, содержит ли ICollection конкретное значение. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Копирует элементы ICollection в массив, начиная с конкретного индекса массива. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Конвертирует указанные параграфы в HTML и возвращает его как объект String. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Копирует элементы ICollection в массив, начиная с определенного индекса массива. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Преобразует указанные абзацы в HTML и возвращает их в виде объекта String. |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 | [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Определяет индекс конкретного элемента в IList. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Вставляет параграф в коллекцию по указанному индексу. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Вставляет содержимое коллекции параграфов в коллекцию по указанному индексу. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Вставляет абзац в коллекцию по указанному индексу. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Вставляет содержимое ParagraphCollection в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Удаляет первое вхождение конкретного объекта из ICollection. |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 
-### Смотрите также
+### See Also
 
-* класс [DomObject&lt;TParent&gt;](../domobject-1)
-* класс [TextFrame](../textframe)
-* интерфейс [IParagraphCollection](../iparagraphcollection)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* class [DomObject&lt;TParent&gt;](../domobject-1)
+* class [TextFrame](../textframe)
+* interface [IParagraphCollection](../iparagraphcollection)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

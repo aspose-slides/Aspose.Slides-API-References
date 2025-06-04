@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回段落的项目符号类型。只读 BulletTypeaspose.slides/bullettype。
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ibulletformateffectivedata/type/
 public BulletType Type { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 枚举 [BulletType](../../bullettype)
 * 接口 [IBulletFormatEffectiveData](../../ibulletformateffectivedata)

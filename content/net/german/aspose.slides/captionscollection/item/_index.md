@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Untertitel am angegebenen Index zurück. Nur lesen ICaptionsaspose.slides/icaptions.
+description: Gibt die Untertitel am angegebenen Index zurück. Schreibgeschützte ICaptionsaspose.slides/icaptions.
 type: docs
 weight: 20
 url: /de/aspose.slides/captionscollection/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/captionscollection/item/
 
 ## CaptionsCollection-Indexer
 
-Gibt die Untertitel am angegebenen Index zurück. Nur lesen [`ICaptions`](../../icaptions).
+Gibt die Untertitel am angegebenen Index zurück. Schreibgeschützte [`ICaptions`](../../icaptions).
 
 ```csharp
 public ICaptions this[int index] { get; }

@@ -1,6 +1,6 @@
 ---
 title: PortionFormat
-second_title: Références API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de la classe PortionFormataspose.slides/portionformat.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Initialise une nouvelle instance de la classe [`PortionFormat`](../../portionfor
 public PortionFormat()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PortionFormat](../../portionformat)
 * espace de noms [Aspose.Slides](../../portionformat)

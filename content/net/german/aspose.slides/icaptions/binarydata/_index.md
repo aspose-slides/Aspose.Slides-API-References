@@ -1,7 +1,7 @@
 ---
 title: BinaryData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Binärdaten der Untertitel zurück. Schreibgeschütztes Byte.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Binärdaten der Untertitel zurück. Nur-lesbarer Byte.
 type: docs
 weight: 10
 url: /de/aspose.slides/icaptions/binarydata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icaptions/binarydata/
 
 ## ICaptions.BinaryData-Eigenschaft
 
-Gibt die Binärdaten der Untertitel zurück. Schreibgeschütztes Byte[].
+Gibt die Binärdaten der Untertitel zurück. Nur-lesbares Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }

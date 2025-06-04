@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Menge an Abstand nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lesen/Schreiben Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Menge an Platz nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der weiße Raum haben soll. Ein negativer Wert spezifiziert die Größe des weißen Raums in Punktgröße. Lesbar/schreibbar Einzel.
 type: docs
 weight: 140
 url: /de/aspose.slides/iparagraphformat/spaceafter/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/iparagraphformat/spaceafter/
 
 ## IParagraphFormat.SpaceAfter-Eigenschaft
 
-Gibt die Menge an Abstand nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der Leerraum haben sollte. Ein negativer Wert gibt die Größe des Leerraums in Punktgröße an. Lesen/Schreiben Single.
+Gibt die Menge an Platz nach der letzten Zeile in einem Absatz ohne Vererbung zurück oder setzt sie. Ein positiver Wert gibt den Prozentsatz der Schriftgröße an, den der weiße Raum haben soll. Ein negativer Wert spezifiziert die Größe des weißen Raums in Punktgröße. Lesbar/schreibbar Einzel.
 
 ```csharp
 public float SpaceAfter { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [IParagraphFormat](../../iparagraphformat)
+* Schnittstelle [IParagraphFormat](../../iparagraphformat)
 * Namespace [Aspose.Slides](../../iparagraphformat)
 * Assembly [Aspose.Slides](../../../)
 

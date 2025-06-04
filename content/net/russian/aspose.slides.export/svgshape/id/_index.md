@@ -7,7 +7,7 @@ weight: 10
 url: /ru/aspose.slides.export/svgshape/id/
 ---
 
-## Свойство SvgShape.Id
+## SvgShape.Id свойство
 
 Получает идентификатор фигуры
 

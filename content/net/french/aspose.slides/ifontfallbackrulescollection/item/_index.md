@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient la règle à l'index spécifié. Lecture seule IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ifontfallbackrulescollection/item/
 ---
 
-## Indice de IFontFallBackRulesCollection
+## IFontFallBackRulesCollection indexer
 
 Obtient la règle à l'index spécifié. Lecture seule [`IFontFallBackRule`](../../ifontfallbackrule).
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontFallBackRule](../../ifontfallbackrule)
 * interface [IFontFallBackRulesCollection](../../ifontfallbackrulescollection)

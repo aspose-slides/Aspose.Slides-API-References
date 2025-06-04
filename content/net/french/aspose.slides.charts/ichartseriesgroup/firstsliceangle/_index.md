@@ -1,15 +1,15 @@
 ---
 title: FirstSliceAngle
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient ou définit l'angle de la première tranche de graphique à secteurs ou de doughnut en degrés dans le sens des aiguilles d'une montre à partir du haut, de 0 à 360 degrés. Lecture/écriture UInt16.
+description: Obtient ou définit l'angle de la première tranche de graphique en secteur ou en anneau en degrés dans le sens des aiguilles d'une montre à partir de 0 jusqu'à 360 degrés. Lecture/écriture UInt16.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ichartseriesgroup/firstsliceangle/
 ---
 
-## Propriété IChartSeriesGroup.FirstSliceAngle
+## IChartSeriesGroup.FirstSliceAngle property
 
-Obtient ou définit l'angle de la première tranche de graphique à secteurs ou de doughnut, en degrés (dans le sens des aiguilles d'une montre à partir du haut, de 0 à 360 degrés). Lecture/écriture UInt16.
+Obtient ou définit l'angle de la première tranche de graphique en secteur ou en anneau, en degrés (dans le sens des aiguilles d'une montre à partir du haut, de 0 à 360 degrés). Lecture/écriture UInt16.
 
 ```csharp
 public ushort FirstSliceAngle { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: GetRotation
-second_title: Aspose.Slides für .NET API-Referenz
-description: Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wie die Breitengrad- und Längengradkoordinaten. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist.
+second_title: Aspose.Slides für .NET API Referenz
+description: Eine Rotation wird durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse definiert, die den Breitengrad- und Längengrad-Koordinaten entspricht. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist.
 type: docs
 weight: 30
 url: /de/aspose.slides/lightrig/getrotation/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/lightrig/getrotation/
 
 ## LightRig.GetRotation-Methode
 
-Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wie die Breitengrad- und Längengradkoordinaten. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist.
+Eine Rotation wird durch die Verwendung einer Breitengrad-Koordinate, einer Längengrad-Koordinate und einer Umdrehung um die Achse definiert, die den Breitengrad- und Längengrad-Koordinaten entspricht. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist.
 
 ```csharp
 public float[] GetRotation()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [LightRig](../../lightrig)
 * Namespace [Aspose.Slides](../../lightrig)

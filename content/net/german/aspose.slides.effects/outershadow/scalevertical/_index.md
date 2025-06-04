@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Wende. Lese-/Schreibzugriff Double.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. Lese-/Schreib-Doppelt.
 type: docs
 weight: 70
 url: /de/aspose.slides.effects/outershadow/scalevertical/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/outershadow/scalevertical/
 
 ## OuterShadow.ScaleVertical-Eigenschaft
 
-Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Wende. Lese-/Schreibzugriff Double.
+Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. Lese-/Schreib-Doppelt.
 
 ```csharp
 public double ScaleVertical { get; set; }

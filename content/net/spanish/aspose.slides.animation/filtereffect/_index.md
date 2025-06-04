@@ -1,6 +1,6 @@
 ---
 title: FilterEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Representa el efecto de filtro del comportamiento.
 type: docs
 weight: 290
@@ -28,12 +28,12 @@ public class FilterEffect : Behavior, IFilterEffect
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representa si los comportamientos de animación se acumulan. Lectura/escritura [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representa si el comportamiento de animación actual se combina con otras animaciones en ejecución. Lectura/escritura [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa las propiedades del comportamiento. Solo lectura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Representa que el efecto con el comportamiento debe revelar (entrar/salir). Lectura/escritura [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Representa que el efecto con comportamiento debe revelar (en/fuera) Lectura/escritura [`FilterEffectRevealType`](../filtereffectrevealtype). |
 | [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Representa el subtipo del efecto de filtro. Lectura/escritura [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa las propiedades de temporización para el comportamiento del efecto. Lectura/escritura [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Representa el tipo del efecto de filtro. Lectura/escritura [`FilterEffectType`](../filtereffecttype). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa las propiedades de tiempo para el comportamiento del efecto. Lectura/escritura [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Representa el tipo de efecto de filtro. Lectura/escritura [`FilterEffectType`](../filtereffecttype). |
 
-### Ver También
+### Véase también
 
 * clase [Behavior](../behavior)
 * interfaz [IFilterEffect](../ifiltereffect)

@@ -1,7 +1,7 @@
 ---
 title: FirstCol
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreibbare Boolesche.
+description: Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides/itable/firstcol/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itable/firstcol/
 
 ## ITable.FirstCol-Eigenschaft
 
-Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreibbare Boolesche.
+Bestimmt, ob die erste Spalte einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool FirstCol { get; set; }

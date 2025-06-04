@@ -1,7 +1,7 @@
 ---
 title: IPathSegment
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt ein Segment des Grafikkreises von GeometryShape dar
+description: Stellt ein Segment des Grafikpfads von GeometryShape dar
 type: docs
 weight: 6410
 url: /de/aspose.slides/ipathsegment/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipathsegment/
 
 ## IPathSegment-Schnittstelle
 
-Stellt ein Segment des Grafikkreises von GeometryShape dar
+Stellt ein Segment des Grafikpfads von GeometryShape dar
 
 ```csharp
 public interface IPathSegment

@@ -1,13 +1,13 @@
 ---
 title: MarginBottom
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les points de marge inférieure dans un TextFrame. Lecture seule Double.
 type: docs
 weight: 60
 url: /fr/aspose.slides/itextframeformateffectivedata/marginbottom/
 ---
 
-## Propriété ITextFrameFormatEffectiveData.MarginBottom
+## ITextFrameFormatEffectiveData.MarginBottom property
 
 Renvoie la marge inférieure (points) dans un TextFrame. Lecture seule Double.
 

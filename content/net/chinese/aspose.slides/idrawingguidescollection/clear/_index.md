@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有元素。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除所有元素。
 type: docs
 weight: 40
 url: /zh/aspose.slides/idrawingguidescollection/clear/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/idrawingguidescollection/clear/
 
 ## IDrawingGuidesCollection.Clear 方法
 
-从集合中移除所有元素。
+从集合中删除所有元素。
 
 ```csharp
 public void Clear()

@@ -1,7 +1,7 @@
 ---
 title: WrapText
-second_title: Aspose.Slides für .NET API Referenz
-description: Wahr, wenn Text an den Rändern des TextFrames umgebrochen wird. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Wahr, wenn der Text an den Rändern der TextFrames umbrochen wird. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 160
 url: /de/aspose.slides/itextframeformat/wraptext/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/itextframeformat/wraptext/
 
 ## ITextFrameFormat.WrapText-Eigenschaft
 
-**Wahr**, wenn Text an den Rändern des TextFrames umgebrochen wird. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+**Wahr**, wenn der Text an den Rändern des TextFrames umbrochen wird. Lese-/schreibbarer [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [NullableBool](../../nullablebool)
 * interface [ITextFrameFormat](../../itextframeformat)

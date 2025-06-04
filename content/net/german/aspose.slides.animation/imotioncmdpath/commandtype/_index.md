@@ -1,15 +1,15 @@
 ---
 title: CommandType
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Befehlstyp an. Lesen/Schreiben von MotionCommandPathType aspose.slides.animation/motioncommandpathtype.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Befehls- typ an. Lese-/schreibbare MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/imotioncmdpath/commandtype/
 ---
 
-## IMotionCmdPath.CommandType Eigenschaft
+## IMotionCmdPath.CommandType-Eigenschaft
 
-Gibt den Befehlstyp an. Lesen/Schreiben von [`MotionCommandPathType`](../../motioncommandpathtype).
+Gibt den Befehls- typ an. Lese-/schreibbare [`MotionCommandPathType`](../../motioncommandpathtype).
 
 ```csharp
 public MotionCommandPathType CommandType { get; set; }

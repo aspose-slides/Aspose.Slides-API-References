@@ -1,7 +1,7 @@
 ---
 title: FontUnderline
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本下划线类型。无继承应用。可读/写 TextUnderlineType aspose.slides/textunderlinetype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置文本下划线类型。未应用继承。可读写 TextUnderlineTypeaspose.slides/textunderlinetype。
 type: docs
 weight: 100
 url: /zh/aspose.slides/baseportionformat/fontunderline/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/fontunderline/
 
 ## BasePortionFormat.FontUnderline 属性
 
-返回或设置文本下划线类型。无继承应用。可读/写 [`TextUnderlineType`](../../textunderlinetype)。
+返回或设置文本下划线类型。未应用继承。可读写 [`TextUnderlineType`](../../textunderlinetype)。
 
 ```csharp
 public TextUnderlineType FontUnderline { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 枚举 [TextUnderlineType](../../textunderlinetype)
 * 类 [BasePortionFormat](../../baseportionformat)

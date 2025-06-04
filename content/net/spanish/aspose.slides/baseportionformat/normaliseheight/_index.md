@@ -1,13 +1,13 @@
 ---
 title: NormaliseHeight
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Determina si la altura de un texto debe ser normalizada. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 190
 url: /es/aspose.slides/baseportionformat/normaliseheight/
 ---
 
-## Propiedad BasePortionFormat.NormaliseHeight
+## BasePortionFormat.NormaliseHeight property
 
 Determina si la altura de un texto debe ser normalizada. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
 
@@ -15,11 +15,11 @@ Determina si la altura de un texto debe ser normalizada. No se aplica herencia. 
 public NullableBool NormaliseHeight { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)
 * namespace [Aspose.Slides](../../baseportionformat)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

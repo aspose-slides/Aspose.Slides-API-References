@@ -7,7 +7,7 @@ weight: 1150
 url: /fr/aspose.slides.animation/behaviorproperty/styletexteffectemboss/
 ---
 
-## Propriété BehaviorProperty.StyleTextEffectEmboss
+## BehaviorProperty.StyleTextEffectEmboss property
 
 Représente la propriété 'style.textEffectEmboss'
 
@@ -15,7 +15,7 @@ Représente la propriété 'style.textEffectEmboss'
 public static BehaviorProperty StyleTextEffectEmboss { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

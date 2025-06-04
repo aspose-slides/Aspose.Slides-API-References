@@ -1,6 +1,6 @@
 ---
 title: IInk
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt ein Tintenobjekt auf einer Folie dar.
 type: docs
 weight: 7280
@@ -19,10 +19,10 @@ public interface IInk : IGraphicalObject
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Ermöglicht den Zugriff auf die Basis-IGraphicalObject-Schnittstelle. Nur lesbar [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Ruft alle Spuren ab, die im IInk-Element [`IInkTrace`](../iinktrace) enthalten sind. Nur lesbar. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IGraphicalObject. Nur lesbar [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Gibt alle Spuren im IInk-Element [`IInkTrace`](../iinktrace) zurück. Nur lesbar. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * Namespace [Aspose.Slides.Ink](../../aspose.slides.ink)

@@ -1,6 +1,6 @@
 ---
 title: TextCapType
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет тип капитализации текста.
 type: docs
 weight: 10620
@@ -24,7 +24,7 @@ public enum TextCapType : sbyte
 | Small | `1` |  |
 | All | `2` |  |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

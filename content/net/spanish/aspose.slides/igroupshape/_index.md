@@ -24,7 +24,7 @@ public interface IGroupShape : IShape
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Devuelve los bloqueos de la forma. Solo lectura [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Devuelve la colección de formas dentro del grupo. Solo lectura [`IShapeCollection`](../ishapecollection). |
 
-### Véase también
+### Vea También
 
 * interfaz [IShape](../ishape)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

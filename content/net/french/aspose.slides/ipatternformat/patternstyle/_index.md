@@ -1,7 +1,7 @@
 ---
 title: PatternStyle
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le style de motif. Lecture/écriture PatternStyle aspose.slides/patternstyle.
+description: Retourne ou définit le style de motif. Lecture/écriture PatternStyleaspose.slides/patternstyle.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ipatternformat/patternstyle/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipatternformat/patternstyle/
 
 ## Propriété IPatternFormat.PatternStyle
 
-Renvoie ou définit le style de motif. Lecture/écriture [`PatternStyle`](../../patternstyle).
+Retourne ou définit le style de motif. Lecture/écriture [`PatternStyle`](../../patternstyle).
 
 ```csharp
 public PatternStyle PatternStyle { get; set; }

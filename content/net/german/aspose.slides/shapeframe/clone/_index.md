@@ -1,7 +1,7 @@
 ---
 title: Clone
-second_title: Aspose.Slides für .NET API-Referenz
-description: Klone
+second_title: Aspose.Slides für .NET API Referenz
+description: Klonen
 type: docs
 weight: 120
 url: /de/aspose.slides/shapeframe/clone/
@@ -17,7 +17,7 @@ public object Clone()
 
 ### Rückgabewert
 
-Klonen des Formenrahmens.
+Klonen des Formrahmens.
 
 ### Siehe auch
 

@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Supprime l'élément à l'index donné.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichartcategorycollection/removeat/
 ---
 
-## Méthode IChartCategoryCollection.RemoveAt
+## IChartCategoryCollection.RemoveAt méthode
 
 Supprime l'élément à l'index donné.
 

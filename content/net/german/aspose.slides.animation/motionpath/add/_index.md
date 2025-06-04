@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügen Sie einen neuen Befehl zum Pfad hinzu
+second_title: Aspose.Slides für .NET API Referenz
+description: Neuen Befehl zum Pfad hinzufügen
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/motionpath/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/motionpath/add/
 
 ## MotionPath.Add-Methode
 
-Fügen Sie einen neuen Befehl zum Pfad hinzu
+Neuen Befehl zum Pfad hinzufügen
 
 ```csharp
 public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPointsType ptsType, 
@@ -26,8 +26,8 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 ### Siehe auch
 
 * Schnittstelle [IMotionCmdPath](../../imotioncmdpath)
-* Enum [MotionCommandPathType](../../motioncommandpathtype)
-* Enum [MotionPathPointsType](../../motionpathpointstype)
+* enum [MotionCommandPathType](../../motioncommandpathtype)
+* enum [MotionPathPointsType](../../motionpathpointstype)
 * Klasse [MotionPath](../../motionpath)
 * Namespace [Aspose.Slides.Animation](../../motionpath)
 * Assembly [Aspose.Slides](../../../)

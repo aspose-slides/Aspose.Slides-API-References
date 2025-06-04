@@ -1,7 +1,7 @@
 ---
 title: CommentsPosition
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft die Position der Kommentare auf der Seite ab oder setzt sie.
+description: Ruft die Position der Kommentare auf der Seite ab oder legt sie fest.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/notescommentslayoutingoptions/commentsposition/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.export/notescommentslayoutingoptions/commentsposition/
 
 ## NotesCommentsLayoutingOptions.CommentsPosition-Eigenschaft
 
-Ruft die Position der Kommentare auf der Seite ab oder setzt sie.
+Ruft die Position der Kommentare auf der Seite ab oder legt sie fest.
 
 ```csharp
 public CommentsPositions CommentsPosition { get; set; }
 ```
 
-### Anmerkungen
+### Hinweise
 
-Der Standardwert ist **CommentsPositions.None**.
+Standard ist **CommentsPositions.None**.
 
-### Siehe Auch
+### Siehe auch
 
 * enum [CommentsPositions](../../commentspositions)
 * class [NotesCommentsLayoutingOptions](../../notescommentslayoutingoptions)

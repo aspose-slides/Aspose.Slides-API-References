@@ -1,7 +1,7 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置间隙宽度。可读写 Int32。
+description: 返回或设置间隙宽度。可读/写 Int32。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/iupdownbarsmanager/gapwidth/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/iupdownbarsmanager/gapwidth/
 
 ## IUpDownBarsManager.GapWidth 属性
 
-返回或设置间隙宽度。可读写 Int32。
+返回或设置间隙宽度。可读/写 Int32。
 
 ```csharp
 public int GapWidth { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: StrokeSrc
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad stroke.src
 type: docs
 weight: 1000
@@ -15,7 +15,7 @@ Representa la propiedad 'stroke.src'
 public static BehaviorProperty StrokeSrc { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,6 +1,6 @@
 ---
 title: Type
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Définit le type d'effet de commande de comportement. Lecture/écriture CommandEffectTypeaspose.slides.animation/commandeffecttype.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Définit le type d'effet de commande de comportement. Lecture/écriture [`Comman
 public CommandEffectType Type { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [CommandEffectType](../../commandeffecttype)
 * class [CommandEffect](../../commandeffect)

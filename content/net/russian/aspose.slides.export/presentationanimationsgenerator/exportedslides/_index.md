@@ -1,7 +1,7 @@
 ---
 title: ExportedSlides
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Получить количество экспортированных слайдов.
+second_title: Aspose.Slides для .NET API Справочник
+description: Получите количество экспортированных слайдов.
 type: docs
 weight: 30
 url: /ru/aspose.slides.export/presentationanimationsgenerator/exportedslides/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides.export/presentationanimationsgenerator/exportedslides/
 
 ## PresentationAnimationsGenerator.ExportedSlides свойство
 
-Получить количество экспортированных слайдов.
+Получите количество экспортированных слайдов.
 
 ```csharp
 public int ExportedSlides { get; }
 ```
 
-### См. также
+### Также см. 
 
 * класс [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * пространство имен [Aspose.Slides.Export](../../presentationanimationsgenerator)

@@ -1,13 +1,13 @@
 ---
 title: RemoveUnused
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime les diapositives de mise en page inutilisées diapositives de mise en page dont HasDependingSlides est faux.
+second_title: Aspose.Slides pour l'API .NET Référence
+description: Supprime les diapositives de mise en page inutilisées dont HasDependingSlides est faux.
 type: docs
 weight: 40
 url: /fr/aspose.slides/ilayoutslidecollection/removeunused/
 ---
 
-## Méthode ILayoutSlideCollection.RemoveUnused
+## ILayoutSlideCollection.RemoveUnused méthode
 
 Supprime les diapositives de mise en page inutilisées (diapositives de mise en page dont HasDependingSlides est faux).
 
@@ -15,7 +15,7 @@ Supprime les diapositives de mise en page inutilisées (diapositives de mise en 
 public void RemoveUnused()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ILayoutSlideCollection](../../ilayoutslidecollection)
 * namespace [Aspose.Slides](../../ilayoutslidecollection)

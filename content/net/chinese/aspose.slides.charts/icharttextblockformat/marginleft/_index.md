@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置 TextFrame 中的左边距点。更改此属性只能对这些图表部分产生一定的影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有呈现效果）。可读/可写双精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置 TextFrame 中的左边距点。更改此属性仅对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。可读/可写 Double。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/icharttextblockformat/marginleft/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/icharttextblockformat/marginleft/
 
 ## IChartTextBlockFormat.MarginLeft 属性
 
-返回或设置 TextFrame 中的左边距（点）。更改此属性只能对这些图表部分产生一定的影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有呈现效果）。可读/可写双精度浮点数。
+返回或设置 TextFrame 中的左边距（点）。更改此属性仅对这些图表部分产生一定影响：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中没有渲染效果）。可读/可写 Double。
 
 ```csharp
 public double MarginLeft { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IChartTextBlockFormat](../../icharttextblockformat)
 * 命名空间 [Aspose.Slides.Charts](../../icharttextblockformat)

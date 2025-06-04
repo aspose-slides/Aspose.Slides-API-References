@@ -1,13 +1,13 @@
 ---
 title: IsChartTypeBar
-second_title: Справочник API Aspose.Slides для .NET
-description: Возвращает true, если chartType является одним из подтипов Bar. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно "Изменить тип диаграммы" в PowerPoint ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+second_title: Aspose.Sildes для .NET API Reference
+description: Возвращает true, если chartType является одним из подтипов Bar. Набор подтипов соответствует соответствующему набору в PowerPoint, см. диалоговое окно "Изменить тип диаграммы" в PowerPoint ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
 type: docs
 weight: 60
 url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypebar/
 ---
 
-## Метод ChartTypeCharacterizer.IsChartTypeBar
+## ChartTypeCharacterizer.IsChartTypeBar метод
 
 Возвращает true, если chartType является одним из подтипов Bar. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно "Изменить тип диаграммы" в PowerPoint): ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/charttypecharacterizer/ischarttypebar/
 public static bool IsChartTypeBar(ChartType chartType)
 ```
 
-### См. также
+### См. Также
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

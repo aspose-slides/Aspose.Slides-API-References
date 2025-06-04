@@ -1,15 +1,15 @@
 ---
 title: CaseSensitive
-second_title: Справочник API Aspose.Slides для .NET
-description: Установите true для использования чувствительного к регистру поиска, false - в противном случае. Чтение/запись Boolean.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Установите true для использования регистронезависимого поиска, false - в противном случае. Чтение/запись Boolean.
 type: docs
 weight: 20
 url: /ru/aspose.slides/textsearchoptions/casesensitive/
 ---
 
-## Свойство TextSearchOptions.CaseSensitive
+## TextSearchOptions.CaseSensitive свойство
 
-Установите true для использования чувствительного к регистру поиска, false - в противном случае. Чтение/запись Boolean.
+Установите true для использования регистронезависимого поиска, false - в противном случае. Чтение/запись Boolean.
 
 ```csharp
 public bool CaseSensitive { get; set; }

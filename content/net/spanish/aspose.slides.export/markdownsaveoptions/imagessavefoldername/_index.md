@@ -1,6 +1,6 @@
 ---
 title: ImagesSaveFolderName
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Especifica el nombre de la carpeta para guardar imágenes. El valor predeterminado es Images.
 type: docs
 weight: 60

@@ -1,7 +1,7 @@
 ---
 title: IOverrideThemeManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit un accès à différents types de thèmes remplacés.
+description: Fournit l'accès à différents types de thèmes remplacés.
 type: docs
 weight: 11040
 url: /fr/aspose.slides.theme/ioverridethememanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/ioverridethememanager/
 
 ## Interface IOverrideThemeManager
 
-Fournit un accès à différents types de thèmes remplacés.
+Fournit l'accès à différents types de thèmes remplacés.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -20,7 +20,7 @@ public interface IOverrideThemeManager : IThemeManager
 | Nom | Description |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Permet d'obtenir l'interface de base IThemeManager. Lecture seule [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Détermine si OverrideTheme remplace le thème effectif hérité ou non. Pour activer OverrideTheme pour remplacement, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver OverrideTheme du remplacement, utilisez la méthode OverrideTheme.Clear(). Boolean en lecture seule. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Détermine si l'OverrideTheme remplace le thème effectif hérité ou non. Pour activer l'OverrideTheme pour remplacer, utilisez les méthodes OverrideTheme.Init*(). Pour désactiver l'OverrideTheme de remplacement, utilisez la méthode OverrideTheme.Clear(). Booléen en lecture seule. |
 | [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Renvoie l'objet de thème de remplacement. Lecture/écriture [`IOverrideTheme`](../ioverridetheme). |
 
 ### Voir aussi

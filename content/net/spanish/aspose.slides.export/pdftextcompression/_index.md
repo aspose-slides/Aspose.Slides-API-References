@@ -1,6 +1,6 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Slides para referencia de API de .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Constantes que definen el tipo de compresión aplicada a todo el contenido en el archivo PDF, excepto imágenes.
 type: docs
 weight: 4150
@@ -19,7 +19,7 @@ public enum PdfTextCompression
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Ninguna | `0` | Sin compresión. |
+| Ninguno | `0` | Sin compresión. |
 | Flate | `1` | Compresión Flate (ZIP). |
 
 ### Véase también

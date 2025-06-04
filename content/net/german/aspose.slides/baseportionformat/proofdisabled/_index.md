@@ -1,7 +1,7 @@
 ---
 title: ProofDisabled
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob der Text nicht geprüft werden soll. Keine Vererbung angewendet. Lese-/Schreibbares NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Slides für .NET API Referenz
+description: Bestimmt, ob der Text nicht überprüft werden soll. Keine Vererbung angewendet. Lese-/Schreibbar NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 200
 url: /de/aspose.slides/baseportionformat/proofdisabled/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/baseportionformat/proofdisabled/
 
 ## BasePortionFormat.ProofDisabled-Eigenschaft
 
-Bestimmt, ob der Text nicht geprüft werden soll. Keine Vererbung angewendet. Lese-/schreibbar [`NullableBool`](../../nullablebool).
+Bestimmt, ob der Text nicht überprüft werden soll. Keine Vererbung angewendet. Lese-/Schreibbar [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool ProofDisabled { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [NullableBool](../../nullablebool)
 * class [BasePortionFormat](../../baseportionformat)

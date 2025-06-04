@@ -1,13 +1,13 @@
 ---
 title: From
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Décrit la valeur de départ pour l'animation. Lecture/écriture Simple.
 type: docs
 weight: 30
 url: /fr/aspose.slides.animation/irotationeffect/from/
 ---
 
-## Propriété IRotationEffect.From
+## IRotationEffect.From propriété
 
 Décrit la valeur de départ pour l'animation. Lecture/écriture Simple.
 
@@ -15,7 +15,7 @@ Décrit la valeur de départ pour l'animation. Lecture/écriture Simple.
 public float From { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IRotationEffect](../../irotationeffect)
 * namespace [Aspose.Slides.Animation](../../irotationeffect)

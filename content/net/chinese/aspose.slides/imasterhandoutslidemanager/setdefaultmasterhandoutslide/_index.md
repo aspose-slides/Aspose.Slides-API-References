@@ -1,7 +1,7 @@
 ---
 title: SetDefaultMasterHandoutSlide
-second_title: Aspose.Sildes for .NET API 参考
-description: 将默认的主讲义幻灯片设置为相关的讲义幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将默认母版讲义幻灯片设置为相关的讲义幻灯片。
 type: docs
 weight: 30
 url: /zh/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
 
 ## IMasterHandoutSlideManager.SetDefaultMasterHandoutSlide 方法
 
-将默认的主讲义幻灯片设置为相关的讲义幻灯片。
+将默认母版讲义幻灯片设置为相关的讲义幻灯片。
 
 ```csharp
 public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
@@ -17,9 +17,9 @@ public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
 
 ### 返回值
 
-主讲义幻灯片 [`IMasterHandoutSlide`](../../imasterhandoutslide)
+母版讲义幻灯片 [`IMasterHandoutSlide`](../../imasterhandoutslide)
 
-### 另见
+### 另请参阅
 
 * 接口 [IMasterHandoutSlide](../../imasterhandoutslide)
 * 接口 [IMasterHandoutSlideManager](../../imasterhandoutslidemanager)

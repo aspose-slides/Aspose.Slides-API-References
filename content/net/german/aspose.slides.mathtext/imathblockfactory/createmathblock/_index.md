@@ -1,7 +1,7 @@
 ---
 title: CreateMathBlock
-second_title: Aspose.Slides für .NET API Referenz
-description: Erstellen eines mathematischen Blocks
+second_title: Aspose.Slides für .NET API-Referenz
+description: Erstellen Sie einen Mathematikblock
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/imathblockfactory/createmathblock/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathblockfactory/createmathblock/
 
 ## CreateMathBlock() {#createmathblock}
 
-Erstellen eines mathematischen Blocks
+Erstellen Sie einen Mathematikblock
 
 ```csharp
 public IMathBlock CreateMathBlock()
@@ -17,9 +17,9 @@ public IMathBlock CreateMathBlock()
 
 ### Rückgabewert
 
-neuer mathematischer Block
+neuer Mathematikblock
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathBlockFactory](../../imathblockfactory)
@@ -30,7 +30,7 @@ neuer mathematischer Block
 
 ## CreateMathBlock(IMathElement) {#createmathblock_1}
 
-Erstellen eines mathematischen Blocks und Platzieren des Elements darin
+Erstellen Sie einen Mathematikblock und platzieren Sie das Element darin
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElement mathElement)
@@ -38,13 +38,13 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| mathElement | IMathElement | Ein mathematisches Element |
+| mathElement | IMathElement | Ein Mathematikelement |
 
 ### Rückgabewert
 
-neuer mathematischer Block
+neuer Mathematikblock
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathElement](../../imathelement)
@@ -56,7 +56,7 @@ neuer mathematischer Block
 
 ## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
-Erstellen eines mathematischen Blocks und Platzieren von Elementen darin
+Erstellen Sie einen Mathematikblock und platzieren Sie Elemente darin
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
@@ -64,13 +64,13 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | mathematische Elemente |
+| mathElements | IMathElementCollection | Mathematikelemente |
 
 ### Rückgabewert
 
-neuer mathematischer Block
+neuer Mathematikblock
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathElementCollection](../../imathelementcollection)

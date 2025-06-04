@@ -1,7 +1,7 @@
 ---
 title: EditPointsLocked
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine direkte Änderung der Kontur dieser Form verboten ist. Lese-/Schreib-Boolean.
+description: Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/schreibbares Boolean.
 type: docs
 weight: 60
 url: /de/aspose.slides/ipictureframelock/editpointslocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipictureframelock/editpointslocked/
 
 ## IPictureFrameLock.EditPointsLocked-Eigenschaft
 
-Bestimmt, ob eine direkte Änderung der Kontur dieser Form verboten ist. Lese-/Schreib-Boolean.
+Bestimmt, ob eine direkte Änderung des Konturs dieser Form verboten ist. Lese-/schreibbares Boolean.
 
 ```csharp
 public bool EditPointsLocked { get; set; }

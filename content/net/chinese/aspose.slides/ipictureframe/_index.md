@@ -1,15 +1,15 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Slides for .NET API参考
-description: 表示一个内部包含图片的框架。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表一个内部带有图片的框架。
 type: docs
 weight: 6470
 url: /zh/aspose.slides/ipictureframe/
 ---
 
-## IPictureFrame接口
+## IPictureFrame 接口
 
-表示一个内部包含图片的框架。
+代表一个内部带有图片的框架。
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -19,14 +19,14 @@ public interface IPictureFrame : IGeometryShape
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | 允许获取基础的IGeometryShape接口。只读 [`IGeometryShape`](../igeometryshape)。 |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 返回一个用于图片框架的PictureFillFormat对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | 返回PictureFrame的锁。只读 [`IPictureFrameLock`](../ipictureframelock)。 |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 返回或设置图片框架的高度比例（相对于原始图片大小）。值为1.0对应100%。读/写Single。 |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 返回或设置图片框架的宽度比例（相对于原始图片大小）。值为1.0对应100%。读/写Single。 |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | 返回形状的锁。只读 [`IPictureFrameLock`](../ipictureframelock)。 |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | 允许获取基类 IGeometryShape 接口。只读 [`IGeometryShape`](../igeometryshape)。 |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 返回用于图片框的 PictureFillFormat 对象。只读 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | 返回 PictureFrame 的锁定状态。只读 [`IPictureFrameLock`](../ipictureframelock)。 |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 返回或设置图片框的高度缩放比例（相对于原始图片大小）。值 1.0 对应 100%。可读写 Single。 |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 返回或设置图片框的宽度缩放比例（相对于原始图片大小）。值 1.0 对应 100%。可读写 Single。 |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | 返回形状的锁定状态。只读 [`IPictureFrameLock`](../ipictureframelock)。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IGeometryShape](../igeometryshape)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

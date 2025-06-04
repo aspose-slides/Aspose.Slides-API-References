@@ -1,6 +1,6 @@
 ---
 title: GetEnumerator
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 50
@@ -15,11 +15,11 @@ Renvoie un énumérateur qui itère à travers la collection.
 public IEnumerator<ISequence> GetEnumerator()
 ```
 
-### Valeur de Retour
+### Valeur de retour
 
 Un IEnumerator qui peut être utilisé pour itérer à travers la collection.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISequence](../../isequence)
 * class [SequenceCollection](../../sequencecollection)

@@ -1,7 +1,7 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет собой коллекцию регулируемых направляющих для рисования.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет коллекцию настраиваемых направляющих для рисования.
 type: docs
 weight: 5530
 url: /ru/aspose.slides/idrawingguidescollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/idrawingguidescollection/
 
 ## Интерфейс IDrawingGuidesCollection
 
-Представляет собой коллекцию регулируемых направляющих для рисования.
+Представляет коллекцию настраиваемых направляющих для рисования.
 
 ```csharp
 public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
@@ -30,7 +30,7 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Удаляет все элементы из коллекции. |
 | [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Удаляет направляющую для рисования по указанному индексу. |
 
-### См. также
+### См. Также
 
 * интерфейс [IDrawingGuide](../idrawingguide)
 * пространство имен [Aspose.Slides](../../aspose.slides)

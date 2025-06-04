@@ -1,15 +1,15 @@
 ---
 title: BehaviorAdditiveType
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示效果行为的加法类型。
+description: 表示效果行为的附加类型。
 type: docs
 weight: 80
 url: /zh/aspose.slides.animation/behavioradditivetype/
 ---
 
-## BehaviorAdditiveType枚举
+## BehaviorAdditiveType 枚举
 
-表示效果行为的加法类型。
+表示效果行为的附加类型。
 
 ```csharp
 public enum BehaviorAdditiveType

@@ -1,7 +1,7 @@
 ---
 title: ReplaceImage
-second_title: Aspose.Slides for .NET API 参考
-description: 替换图像数据。新的图像数据。当 newImageData 参数为 null。
+second_title: Aspose.Sildes for .NET API Reference
+description: 替换图像数据。当 newImageData 参数为 null 时使用新的图像数据。
 type: docs
 weight: 110
 url: /zh/aspose.slides/ppimage/replaceimage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ppimage/replaceimage/
 
 ## ReplaceImage(byte[]) {#replaceimage_2}
 
-替换图像数据。新的图像的数据显示。当 newImageData 参数为 null。
+替换图像数据。当 newImageData 参数为 null 时使用新的图像数据。
 
 ```csharp
 public void ReplaceImage(byte[] newImageData)
@@ -25,7 +25,7 @@ public void ReplaceImage(byte[] newImageData)
 
 ## ReplaceImage(IImage) {#replaceimage}
 
-替换图像数据。注意：当 Image 是 metafile 时，它将被光栅化。请使用 ReplaceImage(byte[]) 替代新的图像。当 newImage 参数为 null。
+替换图像数据。注意：当 Image 为元文件时 - 它将被栅格化。请使用 ReplaceImage(byte[]) 代替新的图像。当 newImage 参数为 null 时。
 
 ```csharp
 public void ReplaceImage(IImage newImage)
@@ -42,7 +42,7 @@ public void ReplaceImage(IImage newImage)
 
 ## ReplaceImage(IPPImage) {#replaceimage_1}
 
-替换图像数据。新的 IPPImage。当 newImage 参数为 null。
+替换图像数据。当 newImage 参数为 null 时使用新的 IPPImage。
 
 ```csharp
 public void ReplaceImage(IPPImage newImage)

@@ -1,6 +1,6 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示一个部分的集合。
 type: docs
 weight: 6510
@@ -19,23 +19,23 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 返回 IEnumerable 接口。只读 IEnumerable。 |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | 获取集合中实际包含的元素数量。只读 Int32。 |
-| [Item](../../aspose.slides/iportioncollection/item) { get; } | 获取指定索引的元素。 |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 返回 IEnumerable 接口。唯读 IEnumerable。 |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | 获取集合中实际包含的元素数量。唯读 Int32。 |
+| [Item](../../aspose.slides/iportioncollection/item) { get; } | 获取指定索引处的元素。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | 将一个 Portion 添加到集合的末尾。 |
-| [Clear](../../aspose.slides/iportioncollection/clear)() | 从集合中删除所有元素。 |
+| [Clear](../../aspose.slides/iportioncollection/clear)() | 从集合中移除所有元素。 |
 | [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | 确定 ICollection 是否包含特定值。 |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 确定集合中特定部分的索引。 |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 在指定索引处将一个 Portion 插入集合。 |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | 从 ICollection 中删除特定对象的第一次出现。 |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | 删除集合中指定索引的元素。 |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 确定特定部分在集合中的索引。 |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 在指定索引处将一个 Portion 插入到集合中。 |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | 从 ICollection 中移除特定对象的第一次出现。 |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | 移除集合中指定索引处的元素。 |
 
-### 另请参见
+### 参见
 
 * 接口 [IPortion](../iportion)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

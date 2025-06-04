@@ -1,6 +1,6 @@
 ---
 title: Formula
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Obtient ou définit la formule au format A1.
 type: docs
 weight: 40

@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Elimina DataPoint de la serie de gráficos.
 type: docs
 weight: 230
 url: /es/aspose.slides.charts/chartdatapoint/remove/
 ---
 
-## Método ChartDataPoint.Remove
+## ChartDataPoint.Remove método
 
 Elimina DataPoint de la serie de gráficos.
 
@@ -19,12 +19,12 @@ public void Remove()
 
 | excepción | condición |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Se lanza si el punto de datos ya ha sido eliminado de la serie de gráficos. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Lanzado si el punto de datos ya ha sido eliminado de la serie de gráficos. |
 
-### Vea También
+### Véase También
 
-* clase [ChartDataPoint](../../chartdatapoint)
-* espacio de nombres [Aspose.Slides.Charts](../../chartdatapoint)
-* ensamblado [Aspose.Slides](../../../)
+* clase [ChartDataPoint](../../chartdatapoint)
+* namespace [Aspose.Slides.Charts](../../chartdatapoint)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

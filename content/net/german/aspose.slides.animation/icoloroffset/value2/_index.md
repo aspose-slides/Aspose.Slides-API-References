@@ -1,7 +1,7 @@
 ---
 title: Value2
 second_title: Aspose.Slides für .NET API Referenz
-description: Definiert den dritten Wert des Offsets. Lese-/Schreibzugriff auf Single.
+description: Definiert den dritten Wert des Versatzes. Lese-/Schreib-Zahl.
 type: docs
 weight: 30
 url: /de/aspose.slides.animation/icoloroffset/value2/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/icoloroffset/value2/
 
 ## IColorOffset.Value2-Eigenschaft
 
-Definiert den dritten Wert des Offsets. Lese-/Schreibzugriff auf Single.
+Definiert den dritten Wert des Versatzes. Lese-/Schreib-Zahl.
 
 ```csharp
 public float Value2 { get; set; }

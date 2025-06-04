@@ -1,7 +1,7 @@
 ---
 title: VolumeValue
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit le niveau sonore en pourcentage. Lecture/écriture Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie ou définit le volume audio en pourcentages. Lecture/écriture Single.
 type: docs
 weight: 190
 url: /fr/aspose.slides/iaudioframe/volumevalue/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iaudioframe/volumevalue/
 
 ## Propriété IAudioFrame.VolumeValue
 
-Renvoie ou définit le niveau sonore en pourcentage. Lecture/écriture Single.
+Renvoie ou définit le volume audio en pourcentages. Lecture/écriture Single.
 
 ```csharp
 public float VolumeValue { get; set; }
@@ -26,14 +26,14 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Définir le niveau sonore à 85%
+    // Définir le volume audio à 85%
     audioFrame.VolumeValue = 85f;
 
     pres.Save("AudioFrameValue_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudioFrame](../../iaudioframe)
 * namespace [Aspose.Slides](../../iaudioframe)

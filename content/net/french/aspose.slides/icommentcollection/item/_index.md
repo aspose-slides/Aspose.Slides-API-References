@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/icommentcollection/item/
 ---
 
-## Indice ICommentCollection
+## Indexeur ICommentCollection
 
 Obtient l'élément à l'index spécifié. Lecture seule [`IComment`](../../icomment).
 

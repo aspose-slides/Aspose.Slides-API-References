@@ -1,6 +1,6 @@
 ---
 title: RotateShadowWithShape
-second_title: Ссылка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Указывает, должна ли отражение вращаться вместе с фигурой, если фигура вращается. Только для чтения Boolean.
 type: docs
 weight: 90

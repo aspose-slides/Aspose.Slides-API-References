@@ -1,13 +1,13 @@
 ---
 title: ReplaceText
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour .NET API Référence
 description: Remplace toutes les occurrences du texte spécifié par un autre texte spécifié.
 type: docs
 weight: 360
 url: /fr/aspose.slides/ipresentation/replacetext/
 ---
 
-## Méthode IPresentation.ReplaceText
+## IPresentation.ReplaceText méthode
 
 Remplace toutes les occurrences du texte spécifié par un autre texte spécifié.
 
@@ -31,13 +31,13 @@ Le code d'exemple suivant montre comment remplacer une chaîne spécifiée par u
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// Remplace toutes les occurrences séparées de 'the' par '***'
+	// Remplacer toutes les occurrences distinctes de 'the' par '***'
 	presentation.ReplaceText("the", "***", new TextSearchOptions() {WholeWordsOnly = true}, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITextSearchOptions](../../itextsearchoptions)
 * interface [IFindResultCallback](../../ifindresultcallback)

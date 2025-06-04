@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les données effectives de l'effet d'ombre prédéfinie avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient les données effectives de l'effet d'ombre prédéfini avec l'héritage appliqué.
 type: docs
 weight: 60
 url: /fr/aspose.slides.effects/presetshadow/geteffective/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/presetshadow/geteffective/
 
 ## Méthode PresetShadow.GetEffective
 
-Obtient les données effectives de l'effet d'ombre prédéfinie avec l'héritage appliqué.
+Obtient les données effectives de l'effet d'ombre prédéfini avec l'héritage appliqué.
 
 ```csharp
 public IPresetShadowEffectiveData GetEffective()

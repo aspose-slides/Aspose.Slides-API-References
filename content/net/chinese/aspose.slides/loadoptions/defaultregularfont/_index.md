@@ -17,7 +17,7 @@ public string DefaultRegularFont { get; set; }
 
 ### 示例
 
-以下示例演示了如何设置用于呈现 PowerPoint 演示文稿的默认字体。
+以下示例演示如何为渲染 PowerPoint 演示文稿设置默认字体。
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation pptx = new Presentation("DefaultFonts.pptx", loadOptions))
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [LoadOptions](../../loadoptions)
 * namespace [Aspose.Slides](../../loadoptions)

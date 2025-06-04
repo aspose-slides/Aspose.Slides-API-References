@@ -1,6 +1,6 @@
 ---
 title: Order
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Spécifie l'ordre de la ligne de tendance polynomiale. Il est ignoré pour d'autres types de lignes de tendance. La valeur doit être comprise entre 2 et 6. Lecture/écriture Byte.
 type: docs
 weight: 80

@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取集合中所有元素的数量。只读 Int32。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/idrawingguidescollection/count/
 public int Count { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IDrawingGuidesCollection](../../idrawingguidescollection)
 * 命名空间 [Aspose.Slides](../../idrawingguidescollection)

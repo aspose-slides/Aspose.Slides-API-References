@@ -1,13 +1,13 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie le guide de dessin par index. Lecture seule IDrawingGuideaspose.slides/idrawingguide.
 type: docs
 weight: 20
 url: /fr/aspose.slides/idrawingguidescollection/item/
 ---
 
-## Indexeur IDrawingGuidesCollection
+## IDrawingGuidesCollection indexer
 
 Renvoie le guide de dessin par index. Lecture seule [`IDrawingGuide`](../../idrawingguide).
 
@@ -15,7 +15,7 @@ Renvoie le guide de dessin par index. Lecture seule [`IDrawingGuide`](../../idra
 public IDrawingGuide this[int index] { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDrawingGuide](../../idrawingguide)
 * interface [IDrawingGuidesCollection](../../idrawingguidescollection)

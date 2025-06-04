@@ -1,7 +1,7 @@
 ---
 title: RangeStartIndex
-second_title: Aspose.Slides for .NET API Reference
-description: 获取连续 Unicode 范围的第一个索引。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取连续 unicode 范围的第一个索引。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ifontfallbackrule/rangestartindex/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ifontfallbackrule/rangestartindex/
 
 ## IFontFallBackRule.RangeStartIndex 属性
 
-获取连续 Unicode 范围的第一个索引。
+获取连续 unicode 范围的第一个索引。
 
 ```csharp
 public uint RangeStartIndex { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IFontFallBackRule](../../ifontfallbackrule)
 * 命名空间 [Aspose.Slides](../../ifontfallbackrule)

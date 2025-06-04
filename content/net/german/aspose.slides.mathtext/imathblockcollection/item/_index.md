@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Holt das Element am angegebenen Index. Nur lesbarer IMathBlockaspose.slides.mathtext/imathblock.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Element am angegebenen Index zurück. Nur-lesbar IMathBlock aspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/imathblockcollection/item/
 ---
 
-## IMathBlockCollection-Indexer
+## IMathBlockCollection Indexer
 
-Holt das Element am angegebenen Index. Nur lesbarer [`IMathBlock`](../../imathblock).
+Gibt das Element am angegebenen Index zurück. Nur-lesbar [`IMathBlock`](../../imathblock).
 
 ```csharp
 public IMathBlock this[int index] { get; set; }
@@ -17,7 +17,7 @@ public IMathBlock this[int index] { get; set; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Der nullbasierte Index des zu holenden Elements |
+| index | Der nullbasierte Index des zu erhaltenden Elements |
 
 ### Rückgabewert
 
@@ -35,7 +35,7 @@ blockCollection.Add(new MathBlock(new MathematicalText("block2")));
 IMathBlock block = blockCollection[1];
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Schnittstelle [IMathBlockCollection](../../imathblockcollection)

@@ -1,15 +1,15 @@
 ---
 title: Scale
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das Ansichts-Skalierungsverhältnis in Prozent an. Lese-/schreibbar Int32.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt das Ansichtsskalierungsverhältnis in Prozent an. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides/commonslideviewproperties/scale/
 ---
 
-## CommonSlideViewProperties.Scale Eigenschaft
+## CommonSlideViewProperties.Scale-Eigenschaft
 
-Gibt das Ansichts-Skalierungsverhältnis in Prozent an. Lese-/schreibbar Int32.
+Gibt das Ansichtsskalierungsverhältnis in Prozent an. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int Scale { get; set; }
@@ -21,7 +21,7 @@ public int Scale { get; set; }
 | --- | --- |
 | ArgumentOutOfRangeException | Wird ausgelöst, wenn der Wert kleiner als null ist. |
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [CommonSlideViewProperties](../../commonslideviewproperties)
 * Namespace [Aspose.Slides](../../commonslideviewproperties)

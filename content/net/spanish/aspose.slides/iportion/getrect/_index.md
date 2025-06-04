@@ -1,23 +1,23 @@
 ---
 title: GetRect
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene las coordenadas del rectángulo que limita la porción. El rectángulo incluye todas las líneas de texto en la porción, incluyendo las vacías.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Obtiene las coordenadas del rectángulo que delimita la porción. El rectángulo incluye todas las líneas de texto en la porción, incluidas las vacías.
 type: docs
 weight: 70
 url: /es/aspose.slides/iportion/getrect/
 ---
 
-## Método IPortion.GetRect
+## IPortion.GetRect método
 
-Obtiene las coordenadas del rectángulo que limita la porción. El rectángulo incluye todas las líneas de texto en la porción, incluyendo las vacías.
+Obtiene las coordenadas del rectángulo que delimita la porción. El rectángulo incluye todas las líneas de texto en la porción, incluidas las vacías.
 
 ```csharp
 public RectangleF GetRect()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
-Rectángulo que limita la porción RectangleF
+Rectángulo que delimita la porción RectangleF
 
 ### Ejemplos
 
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Véase También
+### Ver también
 
 * interfaz [IPortion](../../iportion)
 * espacio de nombres [Aspose.Slides](../../iportion)

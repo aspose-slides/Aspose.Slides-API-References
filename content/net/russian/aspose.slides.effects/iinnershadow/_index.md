@@ -18,13 +18,13 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Радиус размытия. Читаемый/записываемый Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Направление тени. Читаемый/записываемый Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Расстояние до тени. Читаемый/записываемый Double. |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Радиус размытия. Чтение/запись Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Направление тени. Чтение/запись Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Расстояние до тени. Чтение/запись Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Цвет тени. Только для чтения [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### См. также

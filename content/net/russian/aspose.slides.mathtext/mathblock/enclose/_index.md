@@ -1,15 +1,15 @@
 ---
 title: Enclose
-second_title: Справочник API Aspose.Slides для .NET
-description: Обрамляет дочерние элементы этого блока в заданные символы, такие как скобки или другие символы как обрамление
+second_title: Aspose.Sildes для .NET API Справочник
+description: Заключает дочерние элементы этого блока в указанные символы, такие как скобки или другие символы в качестве оформления
 type: docs
 weight: 100
 url: /ru/aspose.slides.mathtext/mathblock/enclose/
 ---
 
-## Enclose(char, char) {#enclose_1}
+## Enclose(char, char) {#enclose_1}
 
-Обрамляет дочерние элементы этого блока в заданные символы, такие как скобки или другие символы как обрамление
+Заключает дочерние элементы этого блока в указанные символы, такие как скобки или другие символы в качестве оформления
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -22,7 +22,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### Возвращаемое значение
 
-Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает заданные символы как обрамление
+Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы в качестве оформления
 
 ### Примеры
 
@@ -34,7 +34,7 @@ IMathBlock block = new MathematicalText("x").Join("+y");
 IMathDelimiter delimiter = block.Enclose('[', ']');
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathDelimiter](../../imathdelimiter)
 * класс [MathBlock](../../mathblock)
@@ -43,9 +43,9 @@ IMathDelimiter delimiter = block.Enclose('[', ']');
 
 ---
 
-## Enclose(char, char, char) {#enclose_2}
+## Enclose(char, char, char) {#enclose_2}
 
-Обрамляет дочерние элементы этого блока в заданные символы, такие как скобки или другие как обрамление и разделяет с помощью символа-разделителя
+Заключает дочерние элементы этого блока в указанные символы, такие как скобки или другие, в качестве оформления и отделяет их символом-разделителем
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -60,7 +60,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 ### Возвращаемое значение
 
-Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает заданные символы как обрамление и разделитель
+Математический элемент типа [`IMathDelimiter`](../../imathdelimiter), который включает указанные символы в качестве оформления и разделителя
 
 ### Примеры
 
@@ -72,7 +72,7 @@ IMathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Enclose('{', '}', '%');
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathDelimiter](../../imathdelimiter)
 * класс [MathBlock](../../mathblock)

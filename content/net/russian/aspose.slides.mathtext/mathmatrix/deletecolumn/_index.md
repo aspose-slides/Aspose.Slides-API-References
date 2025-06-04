@@ -1,6 +1,6 @@
 ---
 title: DeleteColumn
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет указанную колонку
 type: docs
 weight: 120
@@ -17,7 +17,7 @@ public void DeleteColumn(int columnIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Индекс колонки, которую нужно удалить, основанный на нуле. |
+| columnIndex | Int32 | Нулевой основанный индекс колонки для удаления. |
 
 ### Исключения
 
@@ -36,7 +36,7 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix.DeleteColumn(0);
 ```
 
-### См. также
+### Смотрите также
 
 * класс [MathMatrix](../../mathmatrix)
 * пространство имен [Aspose.Slides.MathText](../../mathmatrix)

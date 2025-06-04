@@ -1,6 +1,6 @@
 ---
 title: ImageDataGamma
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt die imageData.gamma-Eigenschaft dar
 type: docs
 weight: 490

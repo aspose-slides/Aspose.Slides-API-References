@@ -1,7 +1,7 @@
 ---
 title: HideInk
-second_title: Aspose.Slides für .NET API-Referenz
-description: Zeigt oder verbirgt Ink-Elemente im exportierten Dokument.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Zeigt oder versteckt Tintelemente im exportierten Dokument.
 type: docs
 weight: 10
 url: /de/aspose.slides.export/iinkoptions/hideink/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/iinkoptions/hideink/
 
 ## IInkOptions.HideInk-Eigenschaft
 
-Zeigt oder verbirgt Ink-Elemente im exportierten Dokument.
+Zeigt oder versteckt Tintelemente im exportierten Dokument.
 
 ```csharp
 public bool HideInk { get; set; }
@@ -21,7 +21,7 @@ Der Standardwert ist false.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man Ink-Elemente im exportierten PDF-Dokument verbirgt:
+Das nächste Beispiel demonstriert, wie man Tintelemente im exportierten PDF-Dokument versteckt:
 
 ```csharp
 [C#]

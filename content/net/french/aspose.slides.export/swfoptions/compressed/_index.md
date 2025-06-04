@@ -1,7 +1,7 @@
 ---
 title: Compressed
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si le document SWF généré doit être compressé ou non. La valeur par défaut est true.
+description: Spécifie si le document SWF généré doit être compressé ou non. La valeur par défaut est vraie.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/swfoptions/compressed/

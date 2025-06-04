@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder legt diese fest. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt sie. Lese-/schreibbare Single.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/charttitle/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/charttitle/width/
 
 ## ChartTitle.Width-Eigenschaft
 
-Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder legt diese fest. Lese-/Schreibzugriff auf Single.
+Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt sie. Lese-/schreibbare Single.
 
 ```csharp
 public float Width { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: ScaleHorizontal
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定水平缩放因子，负缩放会导致翻转。读/写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定水平缩放因子，负缩放会导致翻转。可读写 Double。
 type: docs
 weight: 80
 url: /zh/aspose.slides.effects/ioutershadow/scalehorizontal/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ioutershadow/scalehorizontal/
 
 ## IOuterShadow.ScaleHorizontal 属性
 
-指定水平缩放因子，负缩放会导致翻转。读/写 Double。
+指定水平缩放因子，负缩放会导致翻转。可读写 Double。
 
 ```csharp
 public double ScaleHorizontal { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IOuterShadow](../../ioutershadow)
 * 命名空间 [Aspose.Slides.Effects](../../ioutershadow)

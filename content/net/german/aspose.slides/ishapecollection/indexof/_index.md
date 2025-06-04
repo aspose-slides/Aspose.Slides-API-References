@@ -1,15 +1,15 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den nullbasierten Index des ersten Auftretens einer Form in der Sammlung zurück.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den nullbasierten Index der ersten Vorkommnis einer Form in der Sammlung zurück.
 type: docs
 weight: 210
 url: /de/aspose.slides/ishapecollection/indexof/
 ---
 
-## IShapeCollection.IndexOf Methode
+## IShapeCollection.IndexOf-Methode
 
-Gibt den nullbasierten Index des ersten Auftretens einer Form in der Sammlung zurück.
+Gibt den nullbasierten Index der ersten Vorkommnis einer Form in der Sammlung zurück.
 
 ```csharp
 public int IndexOf(IShape shape)
@@ -17,11 +17,11 @@ public int IndexOf(IShape shape)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| shape | IShape | Die Form, die in der Sammlung gefunden werden soll. |
+| shape | IShape | Die Form, die in der Sammlung gesucht werden soll. |
 
 ### Rückgabewert
 
-Der nullbasierte Index des ersten Auftretens der Form innerhalb der Sammlung, falls gefunden; andernfalls -1.
+Der nullbasierte Index der ersten Vorkommnis der Form in der Sammlung, falls gefunden; andernfalls -1.
 
 ### Siehe auch
 

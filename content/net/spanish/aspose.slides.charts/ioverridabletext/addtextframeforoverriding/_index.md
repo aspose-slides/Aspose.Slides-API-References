@@ -1,13 +1,13 @@
 ---
 title: AddTextFrameForOverriding
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API de .NET
 description: Inicializa TextFrameForOverriding con el texto en el parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto.
 type: docs
 weight: 30
 url: /es/aspose.slides.charts/ioverridabletext/addtextframeforoverriding/
 ---
 
-## Método IOverridableText.AddTextFrameForOverriding
+## IOverridableText.AddTextFrameForOverriding método
 
 Inicializa TextFrameForOverriding con el texto en el parámetro "text". Si TextFrameForOverriding ya está inicializado, simplemente cambia su texto.
 

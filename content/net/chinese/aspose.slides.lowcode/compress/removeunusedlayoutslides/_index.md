@@ -1,7 +1,7 @@
 ---
 title: RemoveUnusedLayoutSlides
-second_title: Aspose.Sildes for .NET API 参考
-description: 通过删除未使用的布局幻灯片来压缩 Presentationaspose.slides/../aspose.slides/presentation。
+second_title: Aspose.Slides for .NET API Reference
+description: 通过删除未使用的布局幻灯片来压缩演示文稿。
 type: docs
 weight: 20
 url: /zh/aspose.slides.lowcode/compress/removeunusedlayoutslides/
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [Presentation](../../../aspose.slides/presentation)
 * class [Compress](../../compress)

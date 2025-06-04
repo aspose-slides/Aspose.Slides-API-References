@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
-second_title: Aspose.Slides для .NET API Справка
-description: Устанавливает текст для заполнитель даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что эти заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Устанавливает текст для плейсхолдера даты и времени главного слайда и всех дочерних плейсхолдеров даты и времени. Дочерние плейсхолдеры означают, что плейсхолдеры содержатся на зависимых слайдах макета и зависимых слайдах. Зависимые слайды макета и слайды используют и зависят от главного слайда.
 type: docs
 weight: 20
 url: /ru/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddateti
 
 ## IMasterSlideHeaderFooterManager.SetDateTimeAndChildDateTimesText метод
 
-Устанавливает текст для заполнителей даты и времени главного слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что эти заполнители содержатся на зависимых макетах слайдов и зависимых слайдах. Зависимые макеты слайдов и слайды используют и зависят от главного слайда.
+Устанавливает текст для плейсхолдера даты и времени главного слайда и всех дочерних плейсхолдеров даты и времени. Дочерние плейсхолдеры означают, что плейсхолдеры содержатся на зависимых слайдах макета и зависимых слайдах. Зависимые слайды макета и слайды используют и зависят от главного слайда.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesText(string text)
@@ -19,7 +19,7 @@ public void SetDateTimeAndChildDateTimesText(string text)
 | --- | --- | --- |
 | text | String | Текст для установки. |
 
-### См. Также
+### См. также
 
 * интерфейс [IMasterSlideHeaderFooterManager](../../imasterslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../imasterslideheaderfootermanager)

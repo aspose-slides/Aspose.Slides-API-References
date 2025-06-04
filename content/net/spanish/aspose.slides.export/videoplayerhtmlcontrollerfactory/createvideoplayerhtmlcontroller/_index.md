@@ -1,13 +1,13 @@
 ---
 title: CreateVideoPlayerHtmlController
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Crea un nuevo VideoPlayerHtmlController.
 type: docs
 weight: 20
 url: /es/aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
 
-## Método VideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController
+## VideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController método
 
 Crea un nuevo `VideoPlayerHtmlController`.
 
@@ -27,6 +27,6 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 * interfaz [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)
 * clase [VideoPlayerHtmlControllerFactory](../../videoplayerhtmlcontrollerfactory)
 * espacio de nombres [Aspose.Slides.Export](../../videoplayerhtmlcontrollerfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

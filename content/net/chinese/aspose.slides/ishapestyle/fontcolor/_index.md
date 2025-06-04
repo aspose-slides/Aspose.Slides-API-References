@@ -1,7 +1,7 @@
 ---
 title: FontColor
-second_title: Aspose.Slides for .NET API 参考
-description: 返回形状的字体颜色。只读 IColorFormat aspose.slides/icolorformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回形状的字体颜色。为只读 IColorFormataspose.slides/icolorformat。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ishapestyle/fontcolor/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ishapestyle/fontcolor/
 public IColorFormat FontColor { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IColorFormat](../../icolorformat)
 * 接口 [IShapeStyle](../../ishapestyle)

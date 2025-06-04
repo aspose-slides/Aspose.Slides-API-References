@@ -1,6 +1,6 @@
 ---
 title: IShapeStyle
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slidess pour .NET API Reference
 description: Représente la référence de style des formes.
 type: docs
 weight: 6790
@@ -19,16 +19,16 @@ public interface IShapeStyle
 
 | Nom | Description |
 | --- | --- |
-| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Retourne la couleur d'effet d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Retourne ou définit l'index de colonne d'effet de la forme dans une matrice de style. Lecture/écriture UInt32. |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Retourne la couleur de remplissage d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Retourne ou définit l'index de colonne de remplissage de la forme dans les matrices de style. 0 signifie pas de remplissage, valeur positive - index dans les styles de remplissage du thème, valeur négative - index dans les styles d'arrière-plan du thème. Lecture/écriture Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Retourne ou définit l'index de police de la forme dans une collection de polices. Lecture/écriture [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Retourne la couleur de police d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Retourne la couleur du contour d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Retourne ou définit l'index de colonne de ligne dans une matrice de style. Lecture/écriture UInt16. |
+| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Renvoie la couleur d'effet d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Renvoie ou définit l'index de la colonne d'effet de la forme dans une matrice de style. Lecture/écriture UInt32. |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Renvoie la couleur de remplissage d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Renvoie ou définit l'index de la colonne de remplissage de la forme dans les matrices de style. 0 signifie pas de remplissage, valeur positive - index dans les styles de remplissage du thème, valeur négative - index dans les styles d'arrière-plan du thème. Lecture/écriture Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Renvoie ou définit l'index de police de la forme dans une collection de polices. Lecture/écriture [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Renvoie la couleur de la police d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Renvoie la couleur de contour d'une forme. Lecture seule [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Renvoie ou définit l'index de la colonne de la ligne dans une matrice de style. Lecture/écriture UInt16. |
 
-### Voir Aussi
+### Voir aussi
 
 * espace de noms [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

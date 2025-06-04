@@ -1,6 +1,6 @@
 ---
 title: Value
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Obtient ou définit la valeur d'une cellule. Objet en lecture/écriture.
 type: docs
 weight: 90
@@ -23,7 +23,7 @@ workbook.GetCell(0, "F2").Value = -2.5;
 workbook.GetCell(0, "G3").Value = 6.3;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * namespace [Aspose.Slides.Charts](../../ichartdatacell)

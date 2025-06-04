@@ -1,21 +1,21 @@
 ---
 title: MaxBlobsBytesInMemory
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Définit la quantité maximale en octets que tous les BLOBs au total peuvent occuper en mémoire. D'abord, tous les BLOBs sont chargés en mémoire par défaut et seulement lorsqu'il atteint la limite définie par cette propriété, d'autres mécanismes tels que des fichiers temporaires peuvent être impliqués. En termes de performances, la méthode la plus efficace est de stocker les BLOBs en mémoire, mais d'un autre côté, cela conduit à une forte consommation de mémoire, ce qui peut être indésirable. En utilisant cette propriété, vous pouvez définir le comportement optimal pour votre environnement ou d'autres exigences. Cette propriété sera ignorée si IsTemporaryFilesAllowed../istemporaryfilesallowed est défini sur faux. Il n'a pas de sens de limiter le maximum de BLOBs en mémoire, car si IsTemporaryFilesAllowed../istemporaryfilesallowed est défini sur faux, la mémoire est le seul endroit où les BLOBs peuvent être stockés. La valeur par défaut est 629145600 octets 600 Mo.
+second_title: Référence API Aspose.Slides pour .NET
+description: Définit la quantité maximale en octets que tous les BLOBs au total peuvent occuper en mémoire. Tout d'abord, tous les BLOBs sont chargés en mémoire par défaut et seulement lorsqu'il atteint la limite définie par cette propriété, d'autres mécanismes tels que des fichiers temporaires peuvent être impliqués. En termes de performance, la méthode la plus efficace consiste à stocker les BLOBs en mémoire, mais d'un autre côté, cela entraîne une consommation de mémoire élevée, ce qui peut être indésirable. En utilisant cette propriété, vous pouvez définir le comportement optimal pour votre environnement ou d'autres exigences. Cette propriété sera ignorée si IsTemporaryFilesAllowed../istemporaryfilesallowed est défini sur false. Il n'est pas utile de limiter le nombre maximum de BLOBs en mémoire, car si IsTemporaryFilesAllowed../istemporaryfilesallowed est défini sur false, la mémoire est le seul endroit où les BLOBs peuvent être stockés. La valeur par défaut est 629 145 600 octets 600 Mo.
 type: docs
 weight: 20
 url: /fr/aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory/
 ---
 
-## Propriété IBlobManagementOptions.MaxBlobsBytesInMemory
+## IBlobManagementOptions.MaxBlobsBytesInMemory property
 
-Définit la quantité maximale (en octets) que tous les BLOBs au total peuvent occuper en mémoire. D'abord, tous les BLOBs sont chargés en mémoire par défaut, et seulement lorsqu'il atteint la limite définie par cette propriété, d'autres mécanismes (tels que des fichiers temporaires) peuvent être impliqués. En termes de performances, la méthode la plus efficace est de stocker les BLOBs en mémoire, mais d'un autre côté, cela entraîne une forte consommation de mémoire, ce qui peut être indésirable. En utilisant cette propriété, vous pouvez définir le comportement optimal pour votre environnement ou d'autres exigences. Cette propriété sera ignorée si [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) est défini sur faux. Il n'est pas logique de limiter le maximum de BLOBs en mémoire, car si [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) est défini sur faux, la mémoire est le seul endroit où les BLOBs peuvent être stockés. La valeur par défaut est de 629145600 octets (600 Mo).
+Définit la quantité maximale (en octets) que tous les BLOBs au total peuvent occuper en mémoire. Tout d'abord, tous les BLOBs sont chargés en mémoire par défaut et seulement lorsqu'il atteint la limite définie par cette propriété, d'autres mécanismes (tels que des fichiers temporaires) peuvent être impliqués. En termes de performance, la méthode la plus efficace consiste à stocker les BLOBs en mémoire, mais d'un autre côté, cela entraîne une consommation de mémoire élevée, ce qui peut être indésirable. En utilisant cette propriété, vous pouvez définir le comportement optimal pour votre environnement ou d'autres exigences. Cette propriété sera ignorée si [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) est défini sur false. Il n'est pas utile de limiter le nombre maximum de BLOBs en mémoire, car si [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) est défini sur false, la mémoire est le seul endroit où les BLOBs peuvent être stockés. La valeur par défaut est 629 145 600 octets (600 Mo).
 
 ```csharp
 public ulong MaxBlobsBytesInMemory { get; set; }
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [IBlobManagementOptions](../../iblobmanagementoptions)
 * namespace [Aspose.Slides](../../iblobmanagementoptions)

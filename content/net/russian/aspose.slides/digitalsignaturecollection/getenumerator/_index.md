@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides для .NET API Reference
-description: Возвращает перечислитель, который перебирает коллекцию.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Возвращает перечислитель, который проходит через коллекцию.
 type: docs
 weight: 80
 url: /ru/aspose.slides/digitalsignaturecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/digitalsignaturecollection/getenumerator/
 
 ## Метод DigitalSignatureCollection.GetEnumerator
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который проходит через коллекцию.
 
 ```csharp
 public IEnumerator<IDigitalSignature> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IDigitalSignature> GetEnumerator()
 
 ### Возвращаемое значение
 
-IEnumerator, который можно использовать для перебора коллекции.
+Перечислитель IEnumerator, который можно использовать для перебора коллекции.
 
-### Смотрите также
+### См. также
 
 * интерфейс [IDigitalSignature](../../idigitalsignature)
 * класс [DigitalSignatureCollection](../../digitalsignaturecollection)

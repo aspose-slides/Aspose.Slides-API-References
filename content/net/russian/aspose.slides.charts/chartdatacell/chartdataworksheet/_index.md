@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Slides для .NET API Справочник
-description: Получает рабочий лист. Только для чтения IChartDataWorksheet aspose.slides.charts/ichartdataworksheet.
+second_title: Справка по API Aspose.Slides для .NET
+description: Получает рабочий лист. Только для чтения IChartDataWorksheetaspose.slides.charts/ichartdataworksheet.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/chartdatacell/chartdataworksheet/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chartdatacell/chartdataworksheet/
 public IChartDataWorksheet ChartDataWorksheet { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartDataWorksheet](../../ichartdataworksheet)
 * класс [ChartDataCell](../../chartdatacell)

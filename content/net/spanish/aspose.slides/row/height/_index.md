@@ -15,10 +15,10 @@ Devuelve la altura de una fila. Solo lectura Double.
 public double Height { get; }
 ```
 
-### Véase También
+### Ver También
 
-* clase [Row](../../row)
-* espacio de nombres [Aspose.Slides](../../row)
-* ensamblaje [Aspose.Slides](../../../)
+* class [Row](../../row)
+* namespace [Aspose.Slides](../../row)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

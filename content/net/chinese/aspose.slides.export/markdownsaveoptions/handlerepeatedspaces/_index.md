@@ -1,6 +1,6 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: type docs
 weight: 50
 url: /zh/aspose.slides.export/markdownsaveoptions/handlerepeatedspaces/
@@ -12,7 +12,7 @@ url: /zh/aspose.slides.export/markdownsaveoptions/handlerepeatedspaces/
 public HandleRepeatedSpaces HandleRepeatedSpaces { get; set; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * enum [HandleRepeatedSpaces](../../handlerepeatedspaces)
 * class [MarkdownSaveOptions](../../markdownsaveoptions)

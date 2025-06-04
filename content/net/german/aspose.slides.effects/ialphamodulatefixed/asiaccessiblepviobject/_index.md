@@ -1,7 +1,7 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das basale IAccessiblePVIObject-Interface. Nur lesen IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slide für .NET API Referenz
+description: Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese IAccessiblePVIObjectaspose.slides/../aspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 20
 url: /de/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject/
 
 ## IAlphaModulateFixed.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf das basale IAccessiblePVIObject-Interface. Nur lesen [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur-Lese [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IAlphaModulateFixedEffectiveData> AsIAccessiblePVIObject { get; }
@@ -17,9 +17,9 @@ public IAccessiblePVIObject<IAlphaModulateFixedEffectiveData> AsIAccessiblePVIOb
 
 ### Siehe auch
 
-* Interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
-* Interface [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
-* Interface [IAlphaModulateFixed](../../ialphamodulatefixed)
+* Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
+* Schnittstelle [IAlphaModulateFixedEffectiveData](../../ialphamodulatefixedeffectivedata)
+* Schnittstelle [IAlphaModulateFixed](../../ialphamodulatefixed)
 * Namespace [Aspose.Slides.Effects](../../ialphamodulatefixed)
 * Assembly [Aspose.Slides](../../../)
 

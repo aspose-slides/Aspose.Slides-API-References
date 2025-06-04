@@ -1,6 +1,6 @@
 ---
 title: PatternStyle
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет стиль узора.
 type: docs
 weight: 9090
@@ -17,7 +17,7 @@ public enum PatternStyle : sbyte
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Unknown | `0` |  |

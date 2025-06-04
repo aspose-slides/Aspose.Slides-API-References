@@ -1,6 +1,6 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET Документация API
 description: Указывает вертикальный массив уравнений или любых математических объектов
 type: docs
 weight: 7850
@@ -21,10 +21,10 @@ public interface IMathArray : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Набор элементов массива |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Указывает выравнивание массива относительно окружающего текста Текст вне массива может быть выровнен по низу, верху или центру объекта массива. Значение по умолчанию: Центр |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Максимальное распределение Когда установлено в true, массив располагается на максимальную ширину содержащего элемента (страница, колонка, ячейка и т.д.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Распределение объектов Когда установлено в true, содержимое массива располагается на максимальную ширину объекта массива. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Расстояние между рядами массива Используется только тогда, когда RowSpacingRule установлено в 3 Exactly, в этом случае единица измерения - пункты или Multiple, в этом случае единица измерения - полустроки. По умолчанию: 0 |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Указывает выравнивание массива относительно окружающего текста. Текст вне массива может быть выровнен по нижней, верхней или центральной части объекта массива. Значение по умолчанию: Центр |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Максимальное распределение. Когда true, массив распределяется на максимальную ширину содержимого (страницы, столбца, ячейки и т.д.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Распределение объектов. Когда true, содержимое массива распределяется на максимальную ширину объекта массива. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Расстояние между строками массива. Используется только в случае, если RowSpacingRule установлено в 3 (Точно), при этом единицей измерения является пункты, или в  Multiple, при этом единицей измерения являются полулинии. По умолчанию: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Тип вертикального расстояния между элементами массива |
 
 ### Примеры

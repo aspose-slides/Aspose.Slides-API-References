@@ -1,6 +1,6 @@
 ---
 title: Camera
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Kamera dar.
 type: docs
 weight: 1010
@@ -19,10 +19,10 @@ public sealed class Camera : PVIObject, ICamera
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur-lesbares [`IPresentationComponent`](../ipresentationcomponent). |
 | [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Kameratyp. Lese-/Schreibzugriff [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Sichtfeldwinkel der Kamera (0-180 Grad, Sichtfeld). Lese-/Schreibzugriff Single. |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Kamera-Zoom (positiver Wert in Prozent). Lese-/Schreibzugriff Single. |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | FOV (Sichtfeld) der Kamera (0-180 Grad). Lese-/Schreibzugriff Single. |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Zoom der Kamera (positiver Wert in Prozent). Lese-/Schreibzugriff Single. |
 
 ## Methoden
 
@@ -30,8 +30,8 @@ public sealed class Camera : PVIObject, ICamera
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wie es die Breitengrad- und Längengradkoordinaten vorgeben. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse definiert, wie es die Breitengrad- und Längengradkoordinaten vorgeben. Wenn einer der Koordinatenwerte float.NaN ist, ist die gesamte Rotation undefiniert. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse als die Breitens- und Längengradkoordinaten definiert. Erstes Element im Rückgabearray - Breitengrad, zweites - Längengrad, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Eine Rotation wird durch die Verwendung einer Breitengradkoordinate, einer Längengradkoordinate und einer Umdrehung um die Achse als die Breitens- und Längengradkoordinaten definiert. Wenn einer der Koordinatenwerte float.NaN ist, ist die gesamte Rotation undefiniert. |
 
 ### Siehe auch
 

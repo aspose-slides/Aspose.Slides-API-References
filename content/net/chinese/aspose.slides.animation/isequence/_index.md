@@ -1,7 +1,7 @@
 ---
 title: ISequence
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示效果的序列集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示特效的序列集合。
 type: docs
 weight: 510
 url: /zh/aspose.slides.animation/isequence/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/isequence/
 
 ## ISequence 接口
 
-表示序列（效果集合）。
+表示序列（特效集合）。
 
 ```csharp
 public interface ISequence : IEnumerable<IEffect>
@@ -19,28 +19,28 @@ public interface ISequence : IEnumerable<IEffect>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | 允许获取基本的 IEnumerable 接口。只读 IEnumerable。 |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | 返回序列中效果的数量。只读 Int32。 |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | 返回指定索引处的效果。 |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | 返回或设置 INTERACTIVE 序列的目标形状。如果序列不是交互式的，则返回 null。读写 [`IShape`](../../aspose.slides/ishape)。 |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | 允许获取基类 IEnumerable 接口。只读 IEnumerable。 |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | 返回序列中特效的数量。只读 Int32。 |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | 返回指定索引处的特效。 |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | 返回或设置 INTERACTIVE 序列的目标形状。如果序列不是交互式，则返回 null。读/写 [`IShape`](../../aspose.slides/ishape)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 为段落在序列的末尾添加新的动画效果。 |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | 在序列的末尾添加新效果。 |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | 在序列的末尾为类别或系列添加新的图表动画效果。 |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | 在序列的末尾为类别或系列中的元素添加新的图表动画效果。 |
-| [Clear](../../aspose.slides.animation/isequence/clear)() | 从集合中移除所有效果。 |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | 返回指定形状的效果数量。 |
-| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | 返回指定段落的效果数组。 |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | 返回指定形状的效果数组。 |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | 从集合中移除指定效果。 |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | 从集合中移除一个效果。 |
-| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | 移除指定形状的效果。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 为段落在序列末尾添加新的动画特效。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | 在序列末尾添加新的特效。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | 为类目或系列在序列末尾添加新的图表动画特效。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | 为类目或系列中的元素在序列末尾添加新的图表动画特效。 |
+| [Clear](../../aspose.slides.animation/isequence/clear)() | 从集合中移除所有特效。 |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | 返回指定形状的特效数量。 |
+| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | 返回指定段落的特效数组。 |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | 返回指定形状的特效数组。 |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | 从集合中移除指定特效。 |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | 从集合中移除指定特效。 |
+| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | 移除指定形状的特效。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IEffect](../ieffect)
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)

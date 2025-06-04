@@ -1,15 +1,15 @@
 ---
 title: CreateLuminance
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Crea el efecto de Luminancia.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Crea un efecto de Luminancia.
 type: docs
 weight: 160
 url: /es/aspose.slides.effects/iimagetransformoperationfactory/createluminance/
 ---
 
-## IImageTransformOperationFactory.CreateLuminance método
+## IImageTransformOperationFactory.CreateLuminance method
 
-Crea el efecto de Luminancia.
+Crea un efecto de Luminancia.
 
 ```csharp
 public ILuminance CreateLuminance(float brightness, float contrast)
@@ -20,11 +20,11 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 | brightness | Single | Brillo. |
 | contrast | Single | Contraste. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Efecto de Luminancia.
 
-### Véase También
+### Véase también
 
 * interfaz [ILuminance](../../iluminance)
 * interfaz [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

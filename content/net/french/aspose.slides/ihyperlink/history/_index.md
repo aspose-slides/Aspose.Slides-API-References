@@ -1,21 +1,21 @@
 ---
 title: History
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine si la cible du lien hypertexte parent doit être ajoutée à une liste de liens hypertexte consultés lorsqu'il est invoqué. Booléen en lecture/écriture.
+description: Détermine si la cible du lien hypertexte parent doit être ajoutée à une liste de liens hypertextes vus lorsqu'elle est invoquée. Lecture/écriture Booléen.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ihyperlink/history/
 ---
 
-## Propriété IHyperlink.History
+## IHyperlink.History propriété
 
-Détermine si la cible du lien hypertexte parent doit être ajoutée à une liste de liens hypertexte consultés lorsqu'il est invoqué. Booléen en lecture/écriture.
+Détermine si la cible du lien hypertexte parent doit être ajoutée à une liste de liens hypertextes vus lorsqu'elle est invoquée. Lecture/écriture Booléen.
 
 ```csharp
 public bool History { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * namespace [Aspose.Slides](../../ihyperlink)

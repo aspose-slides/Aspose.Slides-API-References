@@ -1,15 +1,15 @@
 ---
 title: PresentationLockingBehavior
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Cette propriété définit si une instance de la classe Presentation peut être propriétaire de la source - fichier ou flux pendant la durée de vie de l'instance. Si l'instance est propriétaire, elle verrouille la source. Cela aide à améliorer la consommation de mémoire et les performances lors de la manipulation de BLOBs, mais le flux ou le fichier source ne peut pas être modifié pendant la durée de vie de l'instance de Presentation. Voici un exemple
+second_title: Aspose.Sildes pour référence API .NET
+description: Cette propriété définit si une instance de la classe Presentation peut être propriétaire de la source - fichier ou flux pendant la durée de vie de l'instance. Si l'instance est propriétaire, elle verrouille la source. Cela aide à améliorer la consommation de mémoire et la performance lors du travail avec des BLOBs, mais la source flux ou fichier ne peut pas être modifiée pendant la durée de vie de l'instance de Presentation. Voici un exemple
 type: docs
 weight: 30
 url: /fr/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
 ---
 
-## Propriété IBlobManagementOptions.PresentationLockingBehavior
+## IBlobManagementOptions.PresentationLockingBehavior property
 
-Cette propriété définit si une instance de la classe Presentation peut être propriétaire de la source - fichier ou flux pendant la durée de vie de l'instance. Si l'instance est propriétaire, elle verrouille la source. Cela aide à améliorer la consommation de mémoire et les performances lors de la manipulation de BLOBs, mais le source (flux ou fichier) ne peut pas être changé pendant la durée de vie de l'instance de Presentation. Voici un exemple :
+Cette propriété définit si une instance de la classe Presentation peut être propriétaire de la source - fichier ou flux pendant la durée de vie de l'instance. Si l'instance est propriétaire, elle verrouille la source. Cela aide à améliorer la consommation de mémoire et la performance lors du travail avec des BLOBs, mais la source (flux ou fichier) ne peut pas être modifiée pendant la durée de vie de l'instance de Presentation. Voici un exemple :
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
@@ -21,10 +21,10 @@ public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 LoadOptions loadOptions = new LoadOptions { 
   BlobManagementOptions = {PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked} };
 using (Presentation pres = new Presentation("pres.pptx", loadOptions)) {
-  // Une IOException sera lancée parce que pres.pptx est verrouillé pour la durée de vie de Presentation
+  // IOException sera lancée car pres.pptx est verrouillé pour la durée de vie d'une présentation
   // File.Delete("pres.pptx");
 }
-// après que l'objet Presentation soit libéré, le fichier est déverrouillé et peut être supprimé
+// après la libération de l'objet Presentation, le fichier est déverrouillé et peut être supprimé
 File.Delete("pres.pptx");
 ```
 

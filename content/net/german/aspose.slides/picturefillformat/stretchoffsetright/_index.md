@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetRight
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die rechte Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Versatz von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt einen Innenversatz an, während ein negativer Prozentsatz einen Außenversatz angibt. Lese-/Schreibzugriff Single.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die rechte Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Offset von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Einrücken an, während ein negativer Prozentsatz ein Ausrücken angibt. Lese-/Schreibender Wert von Typ Single.
 type: docs
 weight: 100
 url: /de/aspose.slides/picturefillformat/stretchoffsetright/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/picturefillformat/stretchoffsetright/
 
 ## PictureFillFormat.StretchOffsetRight-Eigenschaft
 
-Gibt die rechte Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Versatz von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt einen Innenversatz an, während ein negativer Prozentsatz einen Außenversatz angibt. Lese-/Schreibzugriff Single.
+Gibt die rechte Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Offset von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Einrücken an, während ein negativer Prozentsatz ein Ausrücken angibt. Lese-/Schreibender Wert von Typ Single.
 
 ```csharp
 public float StretchOffsetRight { get; set; }

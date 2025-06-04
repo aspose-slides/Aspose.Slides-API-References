@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IFormattedTextContainer. IFormattedTextCont
 public IFormattedTextContainer AsIFormattedTextContainer { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFormattedTextContainer](../../iformattedtextcontainer)
 * interface [IOverridableText](../../ioverridabletext)

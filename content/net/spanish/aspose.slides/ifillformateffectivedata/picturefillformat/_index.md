@@ -1,6 +1,6 @@
 ---
 title: PictureFillFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API .NET
 description: Devuelve el formato de relleno de imagen. Solo lectura IPictureFillFormatEffectiveDataaspose.slides/ipicturefillformateffectivedata.
 type: docs
 weight: 50
@@ -15,11 +15,11 @@ Devuelve el formato de relleno de imagen. Solo lectura [`IPictureFillFormatEffec
 public IPictureFillFormatEffectiveData PictureFillFormat { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * interfaz [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ifillformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

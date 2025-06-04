@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Insère une copie d'une diapositive spécifiée à une position spécifiée de la collection.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Insère une copie d'une diapositive spécifiée à la position spécifiée de la collection.
 type: docs
 weight: 70
 url: /fr/aspose.slides/islidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/islidecollection/insertclone/
 
 ## InsertClone(int, ISlide) {#insertclone}
 
-Insère une copie d'une diapositive spécifiée à une position spécifiée de la collection.
+Insère une copie d'une diapositive spécifiée à la position spécifiée de la collection.
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide)
@@ -26,7 +26,7 @@ Diapositive insérée.
 
 ### Remarques
 
-Lors du clonage d'une diapositive entre différentes présentations, le modèle de la diapositive peut également être cloné. Un registre interne est utilisé pour suivre automatiquement les modèles clonés afin d'éviter la création de plusieurs clones du même modèle de diapositive. Le clonage manuel des modèles de diapositives ne sera ni empêché ni enregistré. Si vous avez besoin de plus de contrôle sur le processus de clonage, utilisez [`InsertClone`](../insertclone) ou [`InsertClone`](../insertclone) pour cloner des diapositives et [`AddClone`](../../imasterslidecollection/addclone) pour cloner des modèles.
+Lors du clonage d'une diapositive entre différentes présentations, le maître de la diapositive peut également être cloné. Un registre interne est utilisé pour suivre les maîtres automatiquement clonés afin de prévenir la création de plusieurs clones de la même diapositive maître. Le clonage manuel des diapositives maître ne sera ni empêché ni enregistré. Si vous avez besoin de plus de contrôle sur le processus de clonage, utilisez [`InsertClone`](../insertclone) ou [`InsertClone`](../insertclone) pour cloner des diapositives et [`AddClone`](../../imasterslidecollection/addclone) pour cloner des maîtres.
 
 ### Voir aussi
 
@@ -39,7 +39,7 @@ Lors du clonage d'une diapositive entre différentes présentations, le modèle 
 
 ## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
-Insère une copie d'une diapositive spécifiée à une position spécifiée de la collection.
+Insère une copie d'une diapositive spécifiée à la position spécifiée de la collection.
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
@@ -49,7 +49,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 | --- | --- | --- |
 | index | Int32 | Index de la nouvelle diapositive. |
 | sourceSlide | ISlide | Diapositive à cloner. |
-| destLayout | ILayoutSlide | Layout pour une nouvelle diapositive. |
+| destLayout | ILayoutSlide | Diapositive de mise en page pour une nouvelle diapositive. |
 
 ### Valeur de retour
 
@@ -67,7 +67,7 @@ Diapositive insérée.
 
 ## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
-Insère une copie d'une diapositive source spécifiée à une position spécifiée de la collection. Le layout approprié sera sélectionné automatiquement à partir du modèle spécifié (le layout approprié est celui ayant le même type ou nom que celui du layout de la diapositive source). S'il n'y a pas de layout approprié, alors le layout de la diapositive source sera cloné (si allowCloneMissingLayout est vrai) ou une PptxEditException sera levée (si allowCloneMissingLayout est faux).
+Insère une copie d'une diapositive source spécifiée à la position spécifiée de la collection. Une mise en page appropriée sera sélectionnée automatiquement à partir du maître spécifié (la mise en page appropriée est celle qui a le même Type ou Nom que la mise en page de la diapositive source). S'il n'y a pas de mise en page appropriée, la mise en page de la diapositive source sera clonée (si allowCloneMissingLayout est vrai) ou une PptxEditException sera levée (si allowCloneMissingLayout est faux).
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
@@ -78,8 +78,8 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | --- | --- | --- |
 | index | Int32 | Index de la nouvelle diapositive. |
 | sourceSlide | ISlide | Diapositive à cloner. |
-| destMaster | IMasterSlide | Modèle pour une nouvelle diapositive. |
-| allowCloneMissingLayout | Boolean | S'il n'y a pas de layout approprié dans le modèle spécifié, alors le layout de la diapositive source sera cloné (si allowCloneMissingLayout est vrai) ou une PptxEditException sera levée (si allowCloneMissingLayout est faux). |
+| destMaster | IMasterSlide | Diapositive maître pour une nouvelle diapositive. |
+| allowCloneMissingLayout | Boolean | S'il n'y a pas de mise en page appropriée dans le maître spécifié, la mise en page de la diapositive source sera clonée (si allowCloneMissingLayout est vrai) ou une PptxEditException sera levée (si allowCloneMissingLayout est faux). |
 
 ### Valeur de retour
 
@@ -89,7 +89,7 @@ Diapositive insérée.
 
 | exception | condition |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Levée s'il n'y a pas de layout approprié dans le modèle spécifié et que allowCloneMissingLayout est faux. |
+| [PptxEditException](../../pptxeditexception) | Levée s'il n'y a pas de mise en page appropriée dans le maître spécifié et que allowCloneMissingLayout est faux. |
 
 ### Voir aussi
 

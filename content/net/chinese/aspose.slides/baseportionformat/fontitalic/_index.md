@@ -1,7 +1,7 @@
 ---
 title: FontItalic
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定字体是否为斜体。不应用继承。可读/可写的 NullableBoolaspose.slides/nullablebool。
+description: 确定字体是否为斜体。没有应用继承。可读/可写 NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 90
 url: /zh/aspose.slides/baseportionformat/fontitalic/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/baseportionformat/fontitalic/
 
 ## BasePortionFormat.FontItalic 属性
 
-确定字体是否为斜体。不应用继承。可读/可写 [`NullableBool`](../../nullablebool)。
+确定字体是否为斜体。没有应用继承。可读/可写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool FontItalic { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 枚举 [NullableBool](../../nullablebool)
 * 类 [BasePortionFormat](../../baseportionformat)

@@ -1,15 +1,15 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Slides для .NET API Справка
-description: Если расположение области графика определено вручную, это свойство указывает, следует ли располагать область графика внутри не включая оси и метки осей или снаружи включая оси и метки осей. Чтение/запись LayoutTargetTypeaspose.slides.charts/chartplotarea/layouttargettype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Если компоновка области графика определена вручную, это свойство указывает, нужно ли располагать область графика внутри не включая оси и подписи к осям или снаружи включая оси и подписи к осям. Чтение/запись LayoutTargetTypeaspose.slides.charts/chartplotarea/layouttargettype.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/chartplotarea/layouttargettype/
 ---
 
-## Свойство ChartPlotArea.LayoutTargetType
+## ChartPlotArea.LayoutTargetType свойство
 
-Если расположение области графика определено вручную, это свойство указывает, следует ли располагать область графика внутри (не включая оси и метки осей) или снаружи (включая оси и метки осей). Чтение/запись `LayoutTargetType`.
+Если компоновка области графика определена вручную, это свойство указывает, нужно ли располагать область графика внутри (не включая оси и подписи к осям) или снаружи (включая оси и подписи к осям). Чтение/запись `LayoutTargetType`.
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }
@@ -33,7 +33,7 @@ using (Presentation presentation = new Presentation())
 
 ```
 
-### См. также
+### Смотрите также
 
 * enum [LayoutTargetType](../../layouttargettype)
 * class [ChartPlotArea](../../chartplotarea)

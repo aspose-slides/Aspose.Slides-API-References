@@ -1,7 +1,7 @@
 ---
 title: IBehaviorProperty
 second_title: Aspose.Sildes для .NET API Reference
-description: Представляет типы свойств для анимационного поведения. Соответствует списку свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+description: Представляет типы свойств для анимационного поведения. Следует списку свойств из https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx и https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
 weight: 360
 url: /ru/aspose.slides.animation/ibehaviorproperty/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/ibehaviorproperty/
 
 ## Интерфейс IBehaviorProperty
 
-Представляет типы свойств для анимационного поведения. Соответствует списку свойств из https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx и https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Представляет типы свойств для анимационного поведения. Следует списку свойств из https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx и https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -17,12 +17,12 @@ public interface IBehaviorProperty
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Показывает, принадлежит ли это свойство к заранее определенному списку свойств в спецификации: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Значение свойства |
 
-### Смотрите также
+### Также смотри
 
 * пространство имен [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: StrokeLineStyle
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示 stroke.linestyle 属性
 type: docs
 weight: 970
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/strokelinestyle/
 public static BehaviorProperty StrokeLineStyle { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 类 [BehaviorProperty](../../behaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../behaviorproperty)

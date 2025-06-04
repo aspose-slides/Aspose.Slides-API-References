@@ -1,6 +1,6 @@
 ---
 title: IInterruptionTokenSource
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет источник IInterruptionToken./iinterruptiontoken.
 type: docs
 weight: 6000
@@ -17,18 +17,18 @@ public interface IInterruptionTokenSource
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Возвращает true, если запрашивается прерывание, иначе false. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Возвращает true, если запрошено прерывание, иначе false. |
 | [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Возвращает новый токен, связанный с этим [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Инициализирует запрос на прерывание. |
 
-### Также смотрите
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

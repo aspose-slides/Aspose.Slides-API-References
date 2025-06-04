@@ -1,7 +1,7 @@
 ---
 title: SetBlurEffect
-second_title: Aspose.Sildes für .NET API Referenz
-description: Setzt den Unschärfeeffekt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Setzt den Unschärfe-Effekt.
 type: docs
 weight: 260
 url: /de/aspose.slides/effectformat/setblureffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/effectformat/setblureffect/
 
 ## EffectFormat.SetBlurEffect Methode
 
-Setzt den Unschärfeeffekt.
+Setzt den Unschärfe-Effekt.
 
 ```csharp
 public void SetBlurEffect(double radius, bool grow)
@@ -20,7 +20,7 @@ public void SetBlurEffect(double radius, bool grow)
 | radius | Double | Radius. |
 | grow | Boolean | Wachsen. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [EffectFormat](../../effectformat)
 * Namespace [Aspose.Slides](../../effectformat)

@@ -1,6 +1,6 @@
 ---
 title: FontColor
-second_title: Referencia de API Aspose.Slides para .NET
+second_title: Aspose.Slides para referencia de API de .NET
 description: Devuelve el color de fuente de una forma. Solo lectura IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
@@ -15,11 +15,11 @@ Devuelve el color de fuente de una forma. Solo lectura [`IColorFormat`](../../ic
 public IColorFormat FontColor { get; }
 ```
 
-### Véase También
+### Vea También
 
 * interfaz [IColorFormat](../../icolorformat)
 * clase [ShapeStyle](../../shapestyle)
 * espacio de nombres [Aspose.Slides](../../shapestyle)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

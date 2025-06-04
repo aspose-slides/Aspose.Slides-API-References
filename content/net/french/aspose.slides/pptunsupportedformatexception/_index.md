@@ -1,6 +1,6 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Exception qui est lancée lorsque le format de fichier de présentation n'est pas pris en charge.
 type: docs
 weight: 9270

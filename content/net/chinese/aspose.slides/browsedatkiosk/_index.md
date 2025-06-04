@@ -1,15 +1,15 @@
 ---
 title: BrowsedAtKiosk
 second_title: Aspose.Sildes for .NET API Reference
-description: 全屏浏览于自助服务机
+description: 在一个自助服务终端的全屏浏览
 type: docs
 weight: 960
 url: /zh/aspose.slides/browsedatkiosk/
 ---
 
-## BrowsedAtKiosk 类
+## BrowsedAtKiosk class
 
-全屏浏览于自助服务机
+在自助服务终端上浏览（全屏）
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另见
 
 * class [SlideShowType](../slideshowtype)
 * namespace [Aspose.Slides](../../aspose.slides)

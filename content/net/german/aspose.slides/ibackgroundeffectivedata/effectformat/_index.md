@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das effektive Effektformat zurück. Nur-Lese IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
+description: Gibt das effektive Effekteformat zurück. Nur lesen IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 20
 url: /de/aspose.slides/ibackgroundeffectivedata/effectformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibackgroundeffectivedata/effectformat/
 
 ## IBackgroundEffectiveData.EffectFormat-Eigenschaft
 
-Gibt das effektive Effektformat zurück. Nur-Lese [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
+Gibt das effektive Effekteformat zurück. Nur lesen [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * Schnittstelle [IBackgroundEffectiveData](../../ibackgroundeffectivedata)

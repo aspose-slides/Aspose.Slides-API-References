@@ -1,7 +1,7 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Slides for .NET API Reference
-description: 图表操作具有受限的文本格式属性集合。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了这个受限的集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 图表操作具有有限的文本格式属性集。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat 和 IChartPortionFormat 接口描述了这个有限的集合。
 type: docs
 weight: 1910
 url: /zh/aspose.slides.charts/icharttextformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/icharttextformat/
 
 ## IChartTextFormat 接口
 
-图表操作具有受限的文本格式属性集合。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了这个受限的集合。
+图表操作具有有限的文本格式属性集。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat 和 IChartPortionFormat 接口描述了这个有限的集合。
 
 ```csharp
 public interface IChartTextFormat
@@ -27,10 +27,10 @@ public interface IChartTextFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 从指定的文本框复制文本格式。 |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 将文本格式复制到指定的文本框。 |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 从指定文本框复制文本格式。 |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 将文本格式复制到指定文本框。 |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程序集 [Aspose.Slides](../../)

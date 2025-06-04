@@ -1,6 +1,6 @@
 ---
 title: ActualWidth
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Spécifie la largeur réelle de l'élément de graphique. Appelez la méthode IChart.ValidateChartLayout avant d'obtenir les valeurs réelles. Lire Single.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ Spécifie la largeur réelle de l'élément de graphique. Appelez la méthode IC
 public float ActualWidth { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DataLabel](../../datalabel)
 * espace de noms [Aspose.Slides.Charts](../../datalabel)

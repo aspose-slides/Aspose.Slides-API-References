@@ -1,15 +1,15 @@
 ---
 title: SetVisibilityOnAllTitleSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 更改所有标题幻灯片和第一个布局幻灯片的页脚日期时间和页码占位符的可见性。标题幻灯片是基于第一个布局幻灯片的幻灯片（不论该第一个布局的类型）。
+description: 更改所有标题幻灯片和第一个布局幻灯片的页脚日期时间和页码占位符的可见性。标题幻灯片是基于第一个布局幻灯片的幻灯片（不论此第一个布局的类型）。
 type: docs
 weight: 80
 url: /zh/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/
 ---
 
-## PresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides 方法
+## PresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides method
 
-更改所有标题幻灯片和第一个布局幻灯片的页脚、日期时间和页码占位符的可见性。标题幻灯片是基于第一个布局幻灯片（不论该第一个布局的类型）的幻灯片。
+更改所有标题幻灯片和第一个布局幻灯片的页脚、日期时间和页码占位符的可见性。标题幻灯片是基于第一个布局幻灯片的幻灯片（不论此第一个布局的类型）。
 
 ```csharp
 public void SetVisibilityOnAllTitleSlides(bool isVisible)
@@ -17,9 +17,9 @@ public void SetVisibilityOnAllTitleSlides(bool isVisible)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| isVisible | Boolean | true - 使占位符可见，false - 隐藏它们。 |
+| isVisible | Boolean | true - 使占位符可见，否则 - 隐藏它们。 |
 
-### 另请参阅
+### 相关内容
 
 * class [PresentationHeaderFooterManager](../../presentationheaderfootermanager)
 * namespace [Aspose.Slides](../../presentationheaderfootermanager)

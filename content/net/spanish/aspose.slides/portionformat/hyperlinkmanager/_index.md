@@ -1,7 +1,7 @@
 ---
 title: HyperlinkManager
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Administrador de hipervínculos. Solo lectura IHyperlinkManageraspose.slides/ihyperlinkmanager.
+second_title: Aspose.Sildes for .NET API Reference
+description: Gestor de hiperenlaces. Solo lectura IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 40
 url: /es/aspose.slides/portionformat/hyperlinkmanager/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/portionformat/hyperlinkmanager/
 
 ## Propiedad PortionFormat.HyperlinkManager
 
-Administrador de hipervínculos. Solo lectura [`IHyperlinkManager`](../../ihyperlinkmanager).
+Gestor de hiperenlaces. Solo lectura [`IHyperlinkManager`](../../ihyperlinkmanager).
 
 ```csharp
 public IHyperlinkManager HyperlinkManager { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IHyperlinkManager](../../ihyperlinkmanager)
 * clase [PortionFormat](../../portionformat)

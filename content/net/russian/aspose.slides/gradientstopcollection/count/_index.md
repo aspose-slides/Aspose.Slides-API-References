@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает количество градиентных остановок в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/gradientstopcollection/count/
 public int Count { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [GradientStopCollection](../../gradientstopcollection)
 * пространство имен [Aspose.Slides](../../gradientstopcollection)

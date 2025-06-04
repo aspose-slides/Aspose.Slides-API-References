@@ -1,7 +1,7 @@
 ---
 title: MergeCells
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Une celdas vecinas.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Mezcla celdas vecinas.
 type: docs
 weight: 140
 url: /es/aspose.slides/table/mergecells/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/table/mergecells/
 
 ## Método Table.MergeCells
 
-Une celdas vecinas.
+Mezcla celdas vecinas.
 
 ```csharp
 public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
@@ -17,15 +17,15 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| cell1 | ICell | Celda a unir. |
-| cell2 | ICell | Celda a unir. |
+| cell1 | ICell | Celda a mezclar. |
+| cell2 | ICell | Celda a mezclar. |
 | allowSplitting | Boolean | Verdadero para permitir la división de celdas. |
 
 ### Valor de Retorno
 
-Celda unida.
+Celda combinada.
 
-### Véase También
+### Vea También
 
 * interfaz [ICell](../../icell)
 * clase [Table](../../table)

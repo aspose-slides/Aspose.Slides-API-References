@@ -1,7 +1,7 @@
 ---
 title: FindShape
-second_title: Aspose.Slides для .NET API Справочник
-description: Найти фигуру по альтернативному тексту в PPTX презентации.
+second_title: Aspose.Sildes для .NET API Reference
+description: Найдите фигуру по альтернативному тексту в PPTX-презентации.
 type: docs
 weight: 30
 url: /ru/aspose.slides.util/slideutil/findshape/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.util/slideutil/findshape/
 
 ## FindShape(IPresentation, string) {#findshape_1}
 
-Найдите фигуру по альтернативному тексту в PPTX презентации.
+Найдите фигуру по альтернативному тексту в PPTX-презентации.
 
 ```csharp
 public static IShape FindShape(IPresentation pres, string altText)
@@ -17,7 +17,7 @@ public static IShape FindShape(IPresentation pres, string altText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | IPresentation | Отсканированная презентация. |
+| pres | IPresentation | Просканированная презентация. |
 | altText | String | Альтернативный текст фигуры. |
 
 ### Возвращаемое значение
@@ -36,7 +36,7 @@ public static IShape FindShape(IPresentation pres, string altText)
 
 ## FindShape(IBaseSlide, string) {#findshape}
 
-Найдите фигуру по альтернативному тексту на слайде в PPTX презентации.
+Найдите фигуру по альтернативному тексту на слайде в PPTX-презентации.
 
 ```csharp
 public static IShape FindShape(IBaseSlide slide, string altText)
@@ -44,7 +44,7 @@ public static IShape FindShape(IBaseSlide slide, string altText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| slide | IBaseSlide | Отсканированный слайд. |
+| slide | IBaseSlide | Просканированный слайд. |
 | altText | String | Альтернативный текст фигуры. |
 
 ### Возвращаемое значение

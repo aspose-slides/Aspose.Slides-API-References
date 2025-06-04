@@ -19,21 +19,21 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Gibt die IFillParamSource-Schnittstelle zurück. Nur lesende [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Nur lesende [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Gibt ein EffectFormat für den Hintergrundtyp OwnBackground zurück. Nur lesende [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Gibt ein FillFormat für den Hintergrundtyp OwnBackground zurück. Nur lesende [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Gibt ein ColorFormat für einen Hintergrundtyp Themed zurück. Nur lesende [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Gibt einen Index des Hintergrundtyps Themed im Hintergrunddesign-Kollektiv zurück. 0 bedeutet keinen Füllung. 1..999 - Index. Lese-/Schreibender UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Gibt einen Typ der Hintergrundfüllung zurück. Lese-/schreibbar [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Gibt die IFillParamSource-Schnittstelle zurück. Nur lesbar [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Gibt die ISlideComponent-Schnittstelle zurück. Nur lesbar [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Gibt ein EffectFormat für den Hintergrundtyp BackgroundType.OwnBackground zurück. Nur lesbar [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Gibt ein FillFormat für den Hintergrundtyp BackgroundType.OwnBackground zurück. Nur lesbar [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Gibt ein ColorFormat für einen Hintergrundtyp mit Themeneinstellung zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Gibt einen Index für den Hintergrundtyp mit Themeneinstellung in der Sammlung des Hintergrundthemas zurück. 0 bedeutet keinen Füllung. 1..999 - Index. Schreib-/lesbar UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Gibt einen Typ der Hintergrundfüllung zurück. Schreib-/lesbar [`BackgroundType`](../backgroundtype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Holt die effektiven Hintergrunddaten mit der angewendeten Vererbung. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Erhält die effektiven Hintergrunddaten mit angewendeter Vererbung. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IFillParamSource](../ifillparamsource)
 * Schnittstelle [ISlideComponent](../islidecomponent)

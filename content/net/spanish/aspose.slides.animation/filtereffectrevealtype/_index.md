@@ -1,7 +1,7 @@
 ---
 title: FilterEffectRevealType
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Representa el tipo de revelación de filtro.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa el tipo de revelado de filtro.
 type: docs
 weight: 300
 url: /es/aspose.slides.animation/filtereffectrevealtype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.animation/filtereffectrevealtype/
 
 ## Enumeración FilterEffectRevealType
 
-Representa el tipo de revelación de filtro.
+Representa el tipo de revelado de filtro.
 
 ```csharp
 public enum FilterEffectRevealType
@@ -24,7 +24,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### Ver También
+### Véase también
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

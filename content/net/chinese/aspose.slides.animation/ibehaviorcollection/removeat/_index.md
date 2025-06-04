@@ -1,6 +1,6 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 从指定索引处的集合中移除行为。
 type: docs
 weight: 100

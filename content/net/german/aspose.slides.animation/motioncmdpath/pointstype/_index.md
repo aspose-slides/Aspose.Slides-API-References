@@ -1,7 +1,7 @@
 ---
 title: PointsType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Typ der Befehls-Points an. Lese-/Schreibzugriff auf MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
+description: Gibt den Typ der Befehlswörter an. Lese-/Schreibzugriff auf MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/motioncmdpath/pointstype/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/motioncmdpath/pointstype/
 
 ## MotionCmdPath.PointsType-Eigenschaft
 
-Gibt den Typ der Befehls-Points an. Lese-/Schreibzugriff auf [`MotionPathPointsType`](../../motionpathpointstype).
+Gibt den Typ der Befehlswörter an. Lese-/Schreibzugriff auf [`MotionPathPointsType`](../../motionpathpointstype).
 
 ```csharp
 public MotionPathPointsType PointsType { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [MotionPathPointsType](../../motionpathpointstype)
 * class [MotionCmdPath](../../motioncmdpath)

@@ -1,7 +1,7 @@
 ---
 title: LastRow
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si la última fila de una tabla debe dibujarse con un formato especial. Booleano de lectura/escritura.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Determina si la última fila de una tabla debe ser dibujada con un formato especial. Booleano de lectura/escritura.
 type: docs
 weight: 80
 url: /es/aspose.slides/table/lastrow/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/table/lastrow/
 
 ## Propiedad Table.LastRow
 
-Determina si la última fila de una tabla debe dibujarse con un formato especial. Booleano de lectura/escritura.
+Determina si la última fila de una tabla debe ser dibujada con un formato especial. Booleano de lectura/escritura.
 
 ```csharp
 public bool LastRow { get; set; }
@@ -19,6 +19,6 @@ public bool LastRow { get; set; }
 
 * clase [Table](../../table)
 * espacio de nombres [Aspose.Slides](../../table)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

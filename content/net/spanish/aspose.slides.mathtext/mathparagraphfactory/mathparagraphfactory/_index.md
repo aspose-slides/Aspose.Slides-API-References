@@ -1,6 +1,6 @@
 ---
 title: MathParagraphFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: El constructor predeterminado.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ El constructor predeterminado.
 public MathParagraphFactory()
 ```
 
-### Véase también
+### Ver También
 
 * clase [MathParagraphFactory](../../mathparagraphfactory)
 * espacio de nombres [Aspose.Slides.MathText](../../mathparagraphfactory)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

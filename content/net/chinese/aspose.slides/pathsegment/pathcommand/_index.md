@@ -1,6 +1,6 @@
 ---
 title: PathCommand
-second_title: Aspose.Slidess for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 段的路径类型
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/pathsegment/pathcommand/
 public PathCommandType PathCommand { get; }
 ```
 
-### 另请参见
+### 另见
 
 * enum [PathCommandType](../../pathcommandtype)
 * class [PathSegment](../../pathsegment)

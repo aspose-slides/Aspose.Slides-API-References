@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Entfernt den benutzerdefinierten XML-Teil aus der Präsentation.
 type: docs
 weight: 50

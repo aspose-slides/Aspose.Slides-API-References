@@ -1,13 +1,13 @@
 ---
 title: RemoveUnused
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Supprime les diapositives de mise en page non utilisées diapositives de mise en page dont HasDependingSlides est faux.
+description: Supprime les diapositives de mise en page non utilisées dont HasDependingSlides est faux.
 type: docs
 weight: 90
 url: /fr/aspose.slides/layoutslidecollection/removeunused/
 ---
 
-## Méthode LayoutSlideCollection.RemoveUnused
+## LayoutSlideCollection.RemoveUnused method
 
 Supprime les diapositives de mise en page non utilisées (diapositives de mise en page dont HasDependingSlides est faux).
 

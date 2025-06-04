@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Copie tous les éléments de la collection vers le tableau spécifié.
+description: Copie tous les éléments de la collection dans le tableau spécifié.
 type: docs
 weight: 70
 url: /fr/aspose.slides/gradientstopcollection/copyto/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/gradientstopcollection/copyto/
 
 ## Méthode GradientStopCollection.CopyTo
 
-Copie tous les éléments de la collection vers le tableau spécifié.
+Copie tous les éléments de la collection dans le tableau spécifié.
 
 ```csharp
 public void CopyTo(Array array, int index)

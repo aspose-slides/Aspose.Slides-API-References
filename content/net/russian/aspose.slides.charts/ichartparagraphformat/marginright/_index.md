@@ -1,13 +1,13 @@
 ---
 title: MarginRight
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или устанавливает правый отступ в абзаце. Чтение/запись Single.
 type: docs
 weight: 90
 url: /ru/aspose.slides.charts/ichartparagraphformat/marginright/
 ---
 
-## Свойство IChartParagraphFormat.MarginRight
+## IChartParagraphFormat.MarginRight свойство
 
 Возвращает или устанавливает правый отступ в абзаце. Чтение/запись Single.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/ichartparagraphformat/marginright/
 public float MarginRight { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartParagraphFormat](../../ichartparagraphformat)
 * пространство имен [Aspose.Slides.Charts](../../ichartparagraphformat)

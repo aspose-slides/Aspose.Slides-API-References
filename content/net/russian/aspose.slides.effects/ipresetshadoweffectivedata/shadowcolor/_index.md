@@ -1,6 +1,6 @@
 ---
 title: ShadowColor
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справка
 description: Цвет тени. Только для чтения Color.
 type: docs
 weight: 50

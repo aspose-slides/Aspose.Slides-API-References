@@ -1,6 +1,6 @@
 ---
 title: AsIThemeable
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IThemeable. Только для чтения IThemeable aspose.slides.theme/ithemeable.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/chart/asithemeable/
 public IThemeable AsIThemeable { get; }
 ```
 
-### Смотрите также
+### Также см.  
 
 * интерфейс [IThemeable](../../../aspose.slides.theme/ithemeable)
 * класс [Chart](../../chart)

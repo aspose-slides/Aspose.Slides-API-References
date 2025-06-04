@@ -1,7 +1,7 @@
 ---
 title: FillOverlayEffect
-second_title: Référence API Aspose.Slides pour .NET
-description: Effet de superposition de remplissage. Données IFillOverlayEffectiveDataaspose.slides.effects/ifilloverlayeffectivedata en lecture seule.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Effet de recouvrement de remplissage. Données de IFillOverlayEffectiveData en lecture seule aspose.slides.effects/ifilloverlayeffectivedata.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ieffectformateffectivedata/filloverlayeffect/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ieffectformateffectivedata/filloverlayeffect/
 
 ## Propriété IEffectFormatEffectiveData.FillOverlayEffect
 
-Effet de superposition de remplissage. Données [`IFillOverlayEffectiveData`](../../../aspose.slides.effects/ifilloverlayeffectivedata) en lecture seule.
+Effet de recouvrement de remplissage. Données [`IFillOverlayEffectiveData`](../../../aspose.slides.effects/ifilloverlayeffectivedata) en lecture seule.
 
 ```csharp
 public IFillOverlayEffectiveData FillOverlayEffect { get; }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IFillOverlayEffectiveData](../../../aspose.slides.effects/ifilloverlayeffectivedata)
 * interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)

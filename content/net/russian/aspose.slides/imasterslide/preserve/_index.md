@@ -1,7 +1,7 @@
 ---
 title: Preserve
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, будет ли соответствующий слайд-мастер удален, когда все слайды, следующие за этим мастером, будут удалены. Обратите внимание Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите RemoveUnusedaspose.slides/imasterslidecollection/removeunused Запись/чтение Логическое.
+second_title: Aspose.Sildes для справки по API .NET
+description: Определяет, удаляется ли соответствующий мастер, когда все слайды, следующие за этим мастером, удаляются. Примечание Aspose.Slides никогда не удалит неиспользуемый мастер сам по себе, чтобы фактически удалить неиспользуемые мастера, вызовите RemoveUnusedaspose.slides/imasterslidecollection/removeunused Чтение/запись Логическое значение.
 type: docs
 weight: 80
 url: /ru/aspose.slides/imasterslide/preserve/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/imasterslide/preserve/
 
 ## IMasterSlide.Preserve свойство
 
-Определяет, будет ли соответствующий мастер удален, когда все слайды, следующие за этим мастером, будут удалены. Обратите внимание: Aspose.Slides никогда не удалит неиспользуемый мастер самостоятельно; для фактического удаления неиспользуемых мастеров вызовите [`RemoveUnused`](../../imasterslidecollection/removeunused) Запись/чтение Логическое.
+Определяет, удаляется ли соответствующий мастер, когда все слайды, следующие за этим мастером, удаляются. Примечание: Aspose.Slides никогда не удалит неиспользуемый мастер сам по себе, чтобы фактически удалить неиспользуемые мастера, вызовите [`RemoveUnused`](../../imasterslidecollection/removeunused) Чтение/запись Логическое значение.
 
 ```csharp
 public bool Preserve { get; set; }

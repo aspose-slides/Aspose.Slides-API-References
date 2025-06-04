@@ -1,15 +1,15 @@
 ---
 title: Count
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Anzahl der tatsächlichen Elemente in der Sammlung zurück. Nur-Lese Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Nur-lesendes Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides/fontsubstrulecollection/count/
 ---
 
-## FontSubstRuleCollection.Count-Eigenschaft
+## FontSubstRuleCollection.Count Eigenschaft
 
-Gibt die Anzahl der tatsächlichen Elemente in der Sammlung zurück. Nur-Lese Int32.
+Gibt die Anzahl der Elemente zurück, die tatsächlich in der Sammlung enthalten sind. Nur-lesendes Int32.
 
 ```csharp
 public int Count { get; }

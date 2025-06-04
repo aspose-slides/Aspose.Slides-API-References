@@ -1,7 +1,7 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Unveränderliches Objekt, das effektive Eigenschaften des Schriftarten-Schemas enthält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unveränderliches Objekt, das effektive Schriftartenschemaeigenschaften enthält.
 type: docs
 weight: 10950
 url: /de/aspose.slides.theme/ifontschemeeffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ifontschemeeffectivedata/
 
 ## IFontSchemeEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das effektive Eigenschaften des Schriftarten-Schemas enthält.
+Unveränderliches Objekt, das effektive Schriftartenschemaeigenschaften enthält.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -19,11 +19,11 @@ public interface IFontSchemeEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Gibt die Schriftartenkollektion für den "Überschrift"-Teil der Folie zurück. Nur lesbar [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Gibt die Schriftartenkollektion für den "Textkörper"-Teil der Folie zurück. Nur lesbar [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Gibt den Namen des Schriftarten-Schemas zurück. Nur lesbar String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Gibt die Schriftartensammlung für den "Überschrift"-Teil der Folie zurück. Nur lesbar [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Gibt die Schriftartensammlung für den "Textkörper"-Teil der Folie zurück. Nur lesbar [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Gibt den Namen des Schriftartenschemas zurück. Nur lesbarer String. |
 
-### Bemerkungen
+### Anmerkungen
 
 Diese Schnittstelle wird als Teil von [`IThemeEffectiveData`](../ithemeeffectivedata) verwendet.
 

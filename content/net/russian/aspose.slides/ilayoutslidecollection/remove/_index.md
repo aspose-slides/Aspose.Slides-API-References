@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочная информация по API Aspose.Slides для .NET
+second_title: Справка по API Aspose.Slides для .NET
 description: Удаляет макет из коллекции.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ilayoutslidecollection/remove/
 ---
 
-## Метод ILayoutSlideCollection.Remove
+## ILayoutSlideCollection.Remove метод
 
 Удаляет макет из коллекции.
 
@@ -17,17 +17,17 @@ public void Remove(ILayoutSlide value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | ILayoutSlide | Макетный слайд для удаления из коллекции. |
+| value | ILayoutSlide | Макетный слайд, который необходимо удалить из коллекции. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если макет используется в презентации (свойство HasDependingSlides истинно). |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если макет используется в презентации (его свойство HasDependingSlides равно true). |
 
-### Примечания
+### Заметки
 
-1) Чтобы избежать генерации исключения PptxEditException, сначала проверьте свойство HasDependingSlides макета. 2) Вы также можете использовать метод [`Remove`](../../ilayoutslide/remove) для упрощения кода.
+1) Чтобы избежать выбрасывания PptxEditException, проверьте свойство HasDependingSlides макета заранее. 2) Вы также можете использовать метод [`Remove`](../../ilayoutslide/remove) для упрощения кода.
 
 ### См. также
 

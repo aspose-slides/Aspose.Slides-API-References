@@ -1,15 +1,15 @@
 ---
 title: By
-second_title: Справочник API Aspose.Slides для .NET
-description: Описывает относительное смещение для анимации цвета. Чтение/запись IColorOffsetaspose.slides.animation/icoloroffset.
+second_title: Справочник по API Aspose.Sildes для .NET
+description: Описывает относительное значение смещения для цветовой анимации. Чтение/запись IColorOffsetaspose.slides.animation/icoloroffset.
 type: docs
 weight: 20
 url: /ru/aspose.slides.animation/icoloreffect/by/
 ---
 
-## Свойство IColorEffect.By
+## IColorEffect.By свойство
 
-Описывает относительное смещение для анимации цвета. Чтение/запись [`IColorOffset`](../../icoloroffset).
+Описывает относительное значение смещения для цветовой анимации. Чтение/запись [`IColorOffset`](../../icoloroffset).
 
 ```csharp
 public IColorOffset By { get; set; }

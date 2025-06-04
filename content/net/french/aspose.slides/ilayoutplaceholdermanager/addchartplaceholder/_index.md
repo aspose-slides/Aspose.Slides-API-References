@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addchartplaceholder/
 ---
 
-## Méthode ILayoutPlaceholderManager.AddChartPlaceholder
+## ILayoutPlaceholderManager.AddChartPlaceholder méthode
 
 Ajoute une nouvelle forme de placeholder à la diapositive de mise en page pour contenir un graphique.
 
@@ -22,9 +22,9 @@ public IAutoShape AddChartPlaceholder(float x, float y, float width, float heigh
 | width | Single | La largeur de la nouvelle forme de placeholder. |
 | height | Single | La hauteur de la nouvelle forme de placeholder. |
 
-### Valeur de retour
+### Valeur de Retour
 
-[`IAutoShape`](../../iautoshape) créé avec un placeholder de graphique.
+Créé [`IAutoShape`](../../iautoshape) avec un placeholder de graphique.
 
 ### Exemples
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAutoShape](../../iautoshape)
 * interface [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

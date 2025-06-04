@@ -1,7 +1,7 @@
 ---
 title: SetSubSuperscriptOnTheRight
 second_title: Référence API Aspose.Slides pour .NET
-description: Crée un exposant et un indice à droite
+description: Crée un indice et un exposant à droite
 type: docs
 weight: 160
 url: /fr/aspose.slides.mathtext/imathelement/setsubsuperscriptontheright/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathelement/setsubsuperscriptontheright/
 
 ## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}
 
-Crée un exposant et un indice à droite
+Crée un indice et un exposant à droite
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript, 
@@ -27,7 +27,7 @@ Nouvel élément mathématique de type [`IMathRightSubSuperscriptElement`](../..
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -48,7 +48,7 @@ IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOn
 
 ## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}
 
-Crée un exposant et un indice à droite
+Crée un indice et un exposant à droite
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript, 
@@ -66,7 +66,7 @@ Nouvel élément mathématique de type [`IMathRightSubSuperscriptElement`](../..
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

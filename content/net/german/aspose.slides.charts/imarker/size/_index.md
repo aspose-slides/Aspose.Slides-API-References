@@ -1,7 +1,7 @@
 ---
 title: Size
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Markierungsgröße in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt die Markierungsgröße in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff auf Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/imarker/size/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/imarker/size/
 
 ## IMarker.Size-Eigenschaft
 
-Stellt die Markierungsgröße in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff Int32.
+Stellt die Markierungsgröße in einem Liniendiagramm, Streudiagramm oder Radardiagramm dar. Lese-/Schreibzugriff auf Int32.
 
 ```csharp
 public int Size { get; set; }

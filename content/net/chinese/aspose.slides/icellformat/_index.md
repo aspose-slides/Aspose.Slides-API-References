@@ -1,6 +1,6 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示表格单元格的格式。
 type: docs
 weight: 5270
@@ -19,22 +19,22 @@ public interface ICellFormat
 
 | 名称 | 描述 |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | 返回底部边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | 返回从左上到右下的对角线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | 返回从左下到右上的对角线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | 返回左边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 返回右边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 返回顶部边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
-| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | 返回单元格填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | 返回一个底部边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | 返回一个从左上角到右下角的对角线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | 返回一个从左下角到右上角的对角线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | 返回一个左侧边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 返回一个右侧边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 返回一个顶部边框线属性对象。只读 [`ILineFormat`](../ilineformat)。 |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | 返回一个单元格填充属性对象。只读 [`IFillFormat`](../ifillformat)。 |
 | [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | 获取或设置填充颜色的透明度。可读写 Single。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | 获取有效的表格单元格格式属性，并应用继承和表格样式。 |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | 获取应用了继承和表格样式的有效表格单元格格式属性。 |
 
-### 另请参阅
+### 相关信息
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

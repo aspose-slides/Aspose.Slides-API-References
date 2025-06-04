@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Référence API Aspose.Slides pour .NET
-description: Copier dans un tableau spécifié.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Copier vers un tableau spécifié.
 type: docs
 weight: 70
 url: /fr/aspose.slides/customxmlpartcollection/copyto/
 ---
 
-## Méthode CustomXmlPartCollection.CopyTo
+## CustomXmlPartCollection.CopyTo méthode
 
-Copier dans un tableau spécifié.
+Copier vers un tableau spécifié.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -17,7 +17,7 @@ public void CopyTo(Array array, int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| array | Array | Tableau dans lequel copier. |
+| array | Array | Tableau vers lequel copier. |
 | index | Int32 | Index pour commencer la copie. |
 
 ### Voir aussi

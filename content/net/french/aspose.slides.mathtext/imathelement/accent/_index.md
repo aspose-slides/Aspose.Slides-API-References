@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.mathtext/imathelement/accent/
 ---
 
-## Méthode IMathElement.Accent
+## IMathElement.Accent méthode
 
 Définit un accent (un caractère au-dessus de cet élément)
 
@@ -17,11 +17,11 @@ public IMathAccent Accent(char accentCharacter)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| accentCharacter | Char | Caractère d'accent. La valeur doit être comprise dans la plage (U+0300–U+036F) ou (U+20D0–U+20EF) |
+| accentCharacter | Char | Caractère d'accent. La valeur doit être dans la plage (U+0300–U+036F) ou (U+20D0–U+20EF) |
 
 ### Valeur de retour
 
-Nouvelle instance du type [`IMathAccent`](../../imathaccent)
+Nouvelle instance de type [`IMathAccent`](../../imathaccent)
 
 ### Exemples
 

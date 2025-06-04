@@ -23,7 +23,7 @@ public IMathArray CreateMathArray(IMathElement element)
 
 新的数学数组
 
-### 另见
+### 参见
 
 * 接口 [IMathArray](../../imatharray)
 * 接口 [IMathElement](../../imathelement)
@@ -49,7 +49,7 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 新的数学数组
 
-### 另见
+### 参见
 
 * 接口 [IMathArray](../../imatharray)
 * 接口 [IMathElementCollection](../../imathelementcollection)

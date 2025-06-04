@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird auf Grundlage der Struktur der Folie und des statischen Inhalts berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine einzigartigen Identifizierungswerte, z.B. SlideId und dynamischen Inhalt, z.B. den aktuellen Datumswert im Datum-Platzhalter.
+description: Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur der Folien und dem statischen Inhalt berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine eindeutigen Identifikatorwerte, z.B. SlideId und dynamischen Inhalt, z.B. den aktuellen Datumswert im Datums-Platzhalter.
 type: docs
 weight: 130
 url: /de/aspose.slides/baseslide/equals/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseslide/equals/
 
 ## BaseSlide.Equals Methode
 
-Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird auf Grundlage der Struktur der Folie und des statischen Inhalts berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine einzigartigen Identifizierungswerte, z.B. SlideId und dynamischen Inhalt, z.B. den aktuellen Datumswert im Datum-Platzhalter.
+Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur der Folie und dem statischen Inhalt berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine eindeutigen Identifikatorwerte, z.B. SlideId und dynamischen Inhalt, z.B. den aktuellen Datumswert im Datums-Platzhalter.
 
 ```csharp
 public bool Equals(IBaseSlide slide)
@@ -17,11 +17,11 @@ public bool Equals(IBaseSlide slide)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| slide | IBaseSlide | Das IBaseSlide, das mit dem aktuellen IBaseSlide verglichen werden soll. |
+| slide | IBaseSlide | Die IBaseSlide, die mit der aktuellen IBaseSlide verglichen werden soll. |
 
 ### Rückgabewert
 
-**true**, wenn das angegebene IBaseSlide gleich dem aktuellen IBaseSlide ist; andernfalls **false**.
+**true**, wenn die angegebene IBaseSlide der aktuellen IBaseSlide entspricht; andernfalls **false**.
 
 ### Beispiele
 
@@ -45,7 +45,7 @@ using (Presentation presentation1 = new Presentation("AccessSlides.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IBaseSlide](../../ibaseslide)
 * class [BaseSlide](../../baseslide)

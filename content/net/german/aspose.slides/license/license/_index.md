@@ -1,13 +1,13 @@
 ---
 title: License
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Initialisiert eine neue Instanz dieser Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides/license/license/
 ---
 
-## Lizenzkonstruktor
+## License-Konstruktor
 
 Initialisiert eine neue Instanz dieser Klasse.
 
@@ -17,7 +17,7 @@ public License()
 
 ### Beispiele
 
-In diesem Beispiel wird versucht, eine Lizenzdatei mit dem Namen MyLicense.lic im Ordner zu finden, der die Komponente enthält, im Ordner, der die aufrufende Assembly enthält, im Ordner der Einstiegassembly und dann in den eingebetteten Ressourcen der aufrufenden Assembly.
+In diesem Beispiel wird versucht, eine Lizenzdatei mit dem Namen MyLicense.lic im Ordner zu finden, der die Komponente enthält, im Ordner, der die aufrufende Assembly enthält, im Ordner der Einstieg-Assembly und dann in den eingebetteten Ressourcen der aufrufenden Assembly.
 
 ```csharp
 [C#]

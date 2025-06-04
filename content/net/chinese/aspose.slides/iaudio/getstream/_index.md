@@ -1,7 +1,7 @@
 ---
 title: GetStream
-second_title: Aspose.Slides for .NET API 参考
-description: 返回用于读取的 Stream 流。使用后请使用 'using' 或关闭流。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回可用于读取的 Stream 流。在使用后请使用 'using' 或关闭流。
 type: docs
 weight: 30
 url: /zh/aspose.slides/iaudio/getstream/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iaudio/getstream/
 
 ## IAudio.GetStream 方法
 
-返回用于读取的 Stream 流。使用后请使用 'using' 或关闭流。
+返回可用于读取的 Stream 流。在使用后请使用 'using' 或关闭流。
 
 ```csharp
 public Stream GetStream()
@@ -17,9 +17,9 @@ public Stream GetStream()
 
 ### 返回值
 
-用于读取的 Stream。
+可用于读取的 Stream。
 
-### 另见
+### 另请参见
 
 * 接口 [IAudio](../../iaudio)
 * 命名空间 [Aspose.Slides](../../iaudio)

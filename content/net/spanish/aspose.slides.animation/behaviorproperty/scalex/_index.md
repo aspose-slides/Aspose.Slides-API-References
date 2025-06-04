@@ -1,6 +1,6 @@
 ---
 title: ScaleX
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Representa la propiedad ScaleX
 type: docs
 weight: 580
@@ -15,10 +15,10 @@ Representa la propiedad 'ScaleX'
 public static BehaviorProperty ScaleX { get; }
 ```
 
-### Véase También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

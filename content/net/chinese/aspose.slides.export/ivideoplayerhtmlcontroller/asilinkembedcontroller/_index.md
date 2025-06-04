@@ -1,7 +1,7 @@
 ---
 title: AsILinkEmbedController
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 ILinkEmbedController 接口。只读 ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基本的 ILinkEmbedController 接口。只读 ILinkEmbedController aspose.slides.export/ilinkembedcontroller。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/

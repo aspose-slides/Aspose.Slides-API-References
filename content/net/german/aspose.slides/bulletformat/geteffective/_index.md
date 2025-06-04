@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält effektive Aufzählungsformatierungsdaten mit der angewendeten Vererbung.
+description: Ruft effektive Aufzählungsformatierungsdaten mit angewendeter Vererbung ab.
 type: docs
 weight: 120
 url: /de/aspose.slides/bulletformat/geteffective/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/bulletformat/geteffective/
 
 ## BulletFormat.GetEffective-Methode
 
-Erhält effektive Aufzählungsformatierungsdaten mit der angewendeten Vererbung.
+Ruft effektive Aufzählungsformatierungsdaten mit angewendeter Vererbung ab.
 
 ```csharp
 public IBulletFormatEffectiveData GetEffective()
@@ -21,7 +21,7 @@ Ein [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### Beispiele
 
-Dieses Beispiel zeigt, wie einige effektive Eigenschaften des Aufzählungsformats abgerufen werden.
+Dieses Beispiel demonstriert das Abrufen einiger effektiver Aufzählungsformat-Eigenschaften.
 
 ```csharp
 [C#]
@@ -33,13 +33,13 @@ using (Presentation pres = new Presentation(@"MyPresentation.pptx"))
 	Console.WriteLine("Aufzählungstyp: " + effectiveBulletFormat.Type);
 	if (effectiveBulletFormat.Type == BulletType.Numbered)
 	{
-	    Console.WriteLine("Nummerierungsstil: " + effectiveBulletFormat.NumberedBulletStyle);
+	    Console.WriteLine("Nummerierter Stil: " + effectiveBulletFormat.NumberedBulletStyle);
 	    Console.WriteLine("Startnummer: " + effectiveBulletFormat.NumberedBulletStartWith);
 	}
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * Klasse [BulletFormat](../../bulletformat)

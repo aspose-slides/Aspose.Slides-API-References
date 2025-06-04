@@ -1,15 +1,15 @@
 ---
 title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示一个 GradientStopData 对象的集合。
+description: 表示 GradientStopData 对象的集合。
 type: docs
 weight: 4840
 url: /zh/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 
-## GradientStopCollectionEffectiveData 类
+## GradientStopCollectionEffectiveData class
 
-表示一个 GradientStopData 对象的集合。
+表示 GradientStopData 对象的集合。
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -19,19 +19,19 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | 名称 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | 返回集合中渐变停止的数量。只读 Int32。 |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | 返回一个值，指示对集合的访问是否是同步的（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | 通过索引返回渐变停止。 |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | 返回一个同步根。只读 Object。 |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | 返回集合中渐变停靠点的数量。只读 Int32。 |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | 返回一个值，该值指示对集合的访问是否已同步（线程安全）。只读 Boolean。 |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | 根据索引返回渐变停靠点。 |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | 返回同步根。只读 Object。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | 返回一个枚举器，用于迭代集合。 |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | 返回一个枚举器，该枚举器遍历集合。 |
 
-### 另请参阅
+### 参见
 
 * 接口 [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

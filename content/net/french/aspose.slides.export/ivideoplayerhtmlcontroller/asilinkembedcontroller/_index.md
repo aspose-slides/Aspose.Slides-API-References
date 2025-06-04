@@ -1,21 +1,21 @@
 ---
 title: AsILinkEmbedController
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base ILinkEmbedController. Lecture seule ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Permet d'obtenir l'interface de base ILinkEmbedController. ILinkEmbedController en lecture seule aspose.slides.export/ilinkembedcontroller.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/
 ---
 
-## IVideoPlayerHtmlController.AsILinkEmbedController propriété
+## Propriété IVideoPlayerHtmlController.AsILinkEmbedController
 
-Permet d'obtenir l'interface de base ILinkEmbedController. Lecture seule [`ILinkEmbedController`](../../ilinkembedcontroller).
+Permet d'obtenir l'interface de base ILinkEmbedController. [`ILinkEmbedController`](../../ilinkembedcontroller) en lecture seule.
 
 ```csharp
 public ILinkEmbedController AsILinkEmbedController { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ILinkEmbedController](../../ilinkembedcontroller)
 * interface [IVideoPlayerHtmlController](../../ivideoplayerhtmlcontroller)

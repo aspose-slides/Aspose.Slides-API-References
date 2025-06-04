@@ -1,6 +1,6 @@
 ---
 title: Title
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Slides para .NET Referencia de la API
 description: Obtiene el título del eje. Solo lectura IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 550
@@ -15,7 +15,7 @@ Obtiene el título del eje. Solo lectura [`IChartTitle`](../../icharttitle).
 public IChartTitle Title { get; }
 ```
 
-### Ver También
+### Vea También
 
 * interfaz [IChartTitle](../../icharttitle)
 * clase [Axis](../../axis)

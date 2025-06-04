@@ -1,7 +1,7 @@
 ---
 title: InkOptions
 second_title: Aspose.Slides für .NET API Referenz
-description: Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Nur-lesbare IInkOptionsaspose.slides.export/iinkoptions
+description: Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Schreibgeschütztes IInkOptionsaspose.slides.export/iinkoptions
 type: docs
 weight: 80
 url: /de/aspose.slides.export/isvgoptions/inkoptions/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/isvgoptions/inkoptions/
 
 ## ISVGOptions.InkOptions-Eigenschaft
 
-Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Nur-lesbare [`IInkOptions`](../../iinkoptions)
+Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Schreibgeschützt [`IInkOptions`](../../iinkoptions)
 
 ```csharp
 public IInkOptions InkOptions { get; }

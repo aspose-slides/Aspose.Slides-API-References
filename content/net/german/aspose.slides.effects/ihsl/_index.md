@@ -1,6 +1,6 @@
 ---
 title: IHSL
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Farbton/Sättigung/Helligkeitseffekt dar. Der Farbton, die Sättigung und die Helligkeit können jeweils relativ zu ihrem aktuellen Wert angepasst werden.
 type: docs
 weight: 3240
@@ -19,10 +19,10 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur lesend [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Gibt die IImageTransformOperation-Schnittstelle zurück. Nur lesend [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Ermöglicht den Zugriff auf die Basis-IAccessiblePVIObject-Schnittstelle. Nur lesbar [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Gibt die IImageTransformOperation-Schnittstelle zurück. Nur lesbar [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * Schnittstelle [IHSLEffectiveData](../ihsleffectivedata)

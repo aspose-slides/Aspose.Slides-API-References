@@ -1,15 +1,15 @@
 ---
 title: CreateTab
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée une nouvelle instance d'ITab.
+second_title: Référence API Aspose.Slides pour .NET
+description: Crée une nouvelle instance ITab.
 type: docs
 weight: 10
 url: /fr/aspose.slides/itabfactory/createtab/
 ---
 
-## Méthode ITabFactory.CreateTab
+## ITabFactory.CreateTab méthode
 
-Crée une nouvelle instance d'ITab.
+Crée une nouvelle instance ITab.
 
 ```csharp
 public ITab CreateTab(double position, TabAlignment align)

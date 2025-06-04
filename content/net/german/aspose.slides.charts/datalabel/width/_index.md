@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder legt sie fest. Lese-/Schreibzugriff Single.
 type: docs
 weight: 150
 url: /de/aspose.slides.charts/datalabel/width/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datalabel/width/
 
 ## DataLabel.Width-Eigenschaft
 
-Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt sie. Lese-/Schreibzugriff Single.
+Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder legt sie fest. Lese-/Schreibzugriff Single.
 
 ```csharp
 public float Width { get; set; }

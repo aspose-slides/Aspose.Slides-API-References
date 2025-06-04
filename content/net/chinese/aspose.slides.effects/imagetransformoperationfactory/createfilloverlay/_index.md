@@ -1,6 +1,6 @@
 ---
 title: CreateFillOverlay
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建填充叠加效果。
 type: docs
 weight: 140
@@ -19,7 +19,7 @@ public IFillOverlay CreateFillOverlay()
 
 填充叠加效果。
 
-### 参见
+### 另见
 
 * 接口 [IFillOverlay](../../ifilloverlay)
 * 类 [ImageTransformOperationFactory](../../imagetransformoperationfactory)

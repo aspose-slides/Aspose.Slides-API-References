@@ -7,7 +7,7 @@ weight: 10
 url: /es/aspose.slides/icoloroperationcollection/item/
 ---
 
-## Índice de IColorOperationCollection
+## IColorOperationCollection indexer
 
 Devuelve o establece la operación en el índice especificado. Lectura/escritura [`IColorOperation`](../../icoloroperation).
 
@@ -15,11 +15,11 @@ Devuelve o establece la operación en el índice especificado. Lectura/escritura
 public IColorOperation this[int index] { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IColorOperation](../../icoloroperation)
 * interfaz [IColorOperationCollection](../../icoloroperationcollection)
 * espacio de nombres [Aspose.Slides](../../icoloroperationcollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

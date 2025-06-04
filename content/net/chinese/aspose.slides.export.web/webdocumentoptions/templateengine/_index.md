@@ -1,7 +1,7 @@
 ---
 title: TemplateEngine
-second_title: Aspose.Slides for .NET API参考
-description: 返回或设置模板引擎。读/写 ITemplateEngineaspose.slides.export.web/itemplateengine。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置模板引擎。读/写 ITemplateEngine aspose.slides.export.web/itemplateengine。
 type: docs
 weight: 60
 url: /zh/aspose.slides.export.web/webdocumentoptions/templateengine/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export.web/webdocumentoptions/templateengine/
 public ITemplateEngine TemplateEngine { get; set; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ITemplateEngine](../../itemplateengine)
 * 类 [WebDocumentOptions](../../webdocumentoptions)

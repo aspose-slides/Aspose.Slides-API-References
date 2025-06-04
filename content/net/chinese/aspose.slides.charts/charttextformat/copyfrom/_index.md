@@ -1,6 +1,6 @@
 ---
 title: CopyFrom
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 从指定的文本框复制文本格式。
 type: docs
 weight: 40

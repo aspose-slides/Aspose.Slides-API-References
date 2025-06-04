@@ -1,13 +1,13 @@
 ---
 title: Item
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el elemento en el índice especificado. Solo lectura ISectionaspose.slides/isection.
+description: Obtiene el elemento en el índice especificado. Solo lectura ISection aspose.slides/isection.
 type: docs
 weight: 10
 url: /es/aspose.slides/isectioncollection/item/
 ---
 
-## Indexador ISectionCollection
+## ISectionCollection indexer
 
 Obtiene el elemento en el índice especificado. Solo lectura [`ISection`](../../isection).
 
@@ -15,7 +15,7 @@ Obtiene el elemento en el índice especificado. Solo lectura [`ISection`](../../
 public ISection this[int index] { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ISection](../../isection)
 * interfaz [ISectionCollection](../../isectioncollection)

@@ -1,7 +1,7 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Slides для .NET API Ссылка
-description: Представляет эффект Alpha Bi-Level. Значения прозрачности Alpha ниже порога изменяются на 0 полностью прозрачные, а значения альфа, равные или превышающие порог, изменяются на 100 полностью непрозрачные.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект Alpha Bi-Level. Значения alpha прозрачности ниже порога изменяются на 0 полностью прозрачные, а значения alpha, большие или равные порогу, изменяются на 100 полностью непрозрачные.
 type: docs
 weight: 2920
 url: /ru/aspose.slides.effects/ialphabilevel/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ialphabilevel/
 
 ## Интерфейс IAlphaBiLevel
 
-Представляет эффект Alpha Bi-Level. Значения Alpha (Прозрачность) ниже порога изменяются на 0 (полностью прозрачные), а значения альфа равные или превышающие порог изменяются на 100% (полностью непрозрачные).
+Представляет эффект Alpha Bi-Level. Значения alpha (прозрачности), меньше порога, изменяются на 0 (полностью прозрачные), а значения alpha, большие или равные порогу, изменяются на 100% (полностью непрозрачные).
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -22,13 +22,13 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Возвращает порог эффекта. Читаемое/Записываемое значение типа Single. |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Возвращает порог эффекта. Читаемое/записываемое значение типа Single. |
 
 ### Примечания
 
 Используйте ImageTransformOperationFactory для создания экземпляров в COM.
 
-### См. также
+### См. Также
 
 * интерфейс [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * интерфейс [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

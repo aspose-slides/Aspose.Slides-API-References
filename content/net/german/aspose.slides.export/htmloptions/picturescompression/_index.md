@@ -15,7 +15,7 @@ Stellt das Kompressionsniveau der Bilder dar
 public PicturesCompression PicturesCompression { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [PicturesCompression](../../picturescompression)
 * class [HtmlOptions](../../htmloptions)

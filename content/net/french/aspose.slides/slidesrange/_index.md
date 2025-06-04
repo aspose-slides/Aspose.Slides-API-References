@@ -1,6 +1,6 @@
 ---
 title: SlidesRange
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Plage de diapositives
 type: docs
 weight: 10220

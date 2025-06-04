@@ -1,6 +1,6 @@
 ---
 title: ILayoutable
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает точное положение элемента диаграммы.
 type: docs
 weight: 2040
@@ -17,17 +17,18 @@ public interface ILayoutable : IChartComponent
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Позволяет получить базовый интерфейс IChartComponent. Только для чтения [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Получает верхнюю границу элемента диаграммы в долях от высоты диаграммы. Только для чтения Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Указывает высоту элемента диаграммы в долях от высоты диаграммы. Чтение/запись Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Получает правую границу элемента диаграммы в долях от ширины диаграммы. Только для чтения Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Указывает ширину элемента диаграммы в долях от ширины диаграммы. Чтение/запись Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Указывает положение по оси X (слева) элемента диаграммы в долях от ширины диаграммы. Чтение/запись Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Указывает верхнюю границу элемента диаграммы в долях от высоты диаграммы. Чтение/запись Single. |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Возвращает верхнюю часть элемента диаграммы как долю высоты диаграммы. Только для чтения Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Указывает высоту элемента диаграммы как долю высоты диаграммы. Чтение/запись Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Возвращает правую часть элемента диаграммы как долю ширины диаграммы. Только для чтения Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Указывает ширину элемента диаграммы как долю ширины диаграммы. Чтение/запись Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Указывает положение x (слева) элемента диаграммы как долю ширины диаграммы. Чтение/запись Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Указывает верхнюю часть элемента диаграммы как долю высоты диаграммы. Чтение/запись Single. |
 
-### Также см.
+### См. также
+
 * интерфейс [IChartComponent](../ichartcomponent)
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

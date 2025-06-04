@@ -1,13 +1,13 @@
 ---
 title: Words
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Справочник по API Aspose.Sildes для .NET
 description: Указывает общее количество слов, содержащихся в документе. Только для чтения Int32.
 type: docs
 weight: 350
 url: /ru/aspose.slides/idocumentproperties/words/
 ---
 
-## Свойство IDocumentProperties.Words
+## IDocumentProperties.Words property
 
 Указывает общее количество слов, содержащихся в документе. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/idocumentproperties/words/
 public int Words { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IDocumentProperties](../../idocumentproperties)
 * пространство имен [Aspose.Slides](../../idocumentproperties)

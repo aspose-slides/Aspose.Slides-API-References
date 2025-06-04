@@ -1,15 +1,15 @@
 ---
 title: LimitLocation
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: La localisation des limites sous-script et sur-script
+second_title: Aspose.Slidess for .NET API Reference
+description: La localisation des limites indice et surindice
 type: docs
 weight: 60
 url: /fr/aspose.slides.mathtext/mathnaryoperator/limitlocation/
 ---
 
-## Propriété MathNaryOperator.LimitLocation
+## MathNaryOperator.LimitLocation property
 
-La localisation des limites (sous-script et sur-script)
+La localisation des limites (indice et surindice)
 
 ```csharp
 public MathLimitLocations LimitLocation { get; set; }
@@ -17,7 +17,7 @@ public MathLimitLocations LimitLocation { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperator
 naryOperator.LimitLocation = MathLimitLocations.SubscriptSuperscript;
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [MathLimitLocations](../../mathlimitlocations)
 * class [MathNaryOperator](../../mathnaryoperator)

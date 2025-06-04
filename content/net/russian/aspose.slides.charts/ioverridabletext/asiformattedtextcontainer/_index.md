@@ -1,13 +1,13 @@
 ---
 title: AsIFormattedTextContainer
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения IFormattedTextContainer aspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /ru/aspose.slides.charts/ioverridabletext/asiformattedtextcontainer/
 ---
 
-## Свойство IOverridableText.AsIFormattedTextContainer
+## IOverridableText.AsIFormattedTextContainer свойство
 
 Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения [`IFormattedTextContainer`](../../iformattedtextcontainer).
 

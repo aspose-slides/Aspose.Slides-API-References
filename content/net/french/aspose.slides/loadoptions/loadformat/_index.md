@@ -15,7 +15,7 @@ Renvoie ou définit le format d'une présentation à charger. Lecture/écriture 
 public LoadFormat LoadFormat { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [LoadFormat](../../loadformat)
 * class [LoadOptions](../../loadoptions)

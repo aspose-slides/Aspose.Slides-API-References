@@ -19,10 +19,10 @@ public IDisposable AsIDisposable { get; }
 
 Para compatibilidad con COM.
 
-### Véase también
+### Ver también
 
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

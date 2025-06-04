@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Aspose.Slides for .NET API 参考
-description: 转场方向。可读/可写 TransitionLeftRightDirectionTypeaspose.slides/transitionleftrightdirectiontype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 过渡的方向。读/写 TransitionLeftRightDirectionTypeaspose.slides/transitionleftrightdirectiontype。
 type: docs
 weight: 10
 url: /zh/aspose.slides.slideshow/revealtransition/direction/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/revealtransition/direction/
 
 ## RevealTransition.Direction 属性
 
-转场方向。可读/可写 [`TransitionLeftRightDirectionType`](../../transitionleftrightdirectiontype)。
+过渡的方向。读/写 [`TransitionLeftRightDirectionType`](../../transitionleftrightdirectiontype)。
 
 ```csharp
 public TransitionLeftRightDirectionType Direction { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * enum [TransitionLeftRightDirectionType](../../transitionleftrightdirectiontype)
 * class [RevealTransition](../../revealtransition)

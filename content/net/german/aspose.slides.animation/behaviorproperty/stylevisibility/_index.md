@@ -7,7 +7,7 @@ weight: 1190
 url: /de/aspose.slides.animation/behaviorproperty/stylevisibility/
 ---
 
-## BehaviorProperty.StyleVisibility Eigenschaft
+## BehaviorProperty.StyleVisibility property
 
 Stellt die Eigenschaft 'style.visibility' dar
 
@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'style.visibility' dar
 public static BehaviorProperty StyleVisibility { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

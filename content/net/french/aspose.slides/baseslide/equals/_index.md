@@ -1,15 +1,15 @@
 ---
 title: Equals
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si les deux instances IBaseSlide sont égales. La valeur de retour est calculée sur la base de la structure des diapositives et du contenu statique. Deux diapositives sont égales si tous les styles de formes, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identificateur unique, par ex. SlideId et le contenu dynamique, par ex. la valeur de la date actuelle dans le Placeholder de date.
+second_title: Aspose.Slides pour .NET Référence API
+description: Détermine si les deux instances IBaseSlide sont égales. La valeur de retour est calculée en fonction de la structure des diapositives et du contenu statique. Deux diapositives sont égales si tous les styles de formes, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identifiant unique, par exemple, SlideId et le contenu dynamique, par exemple, la valeur de la date actuelle dans le champ de date.
 type: docs
 weight: 130
 url: /fr/aspose.slides/baseslide/equals/
 ---
 
-## Méthode BaseSlide.Equals
+## BaseSlide.Equals méthode
 
-Détermine si les deux instances IBaseSlide sont égales. La valeur de retour est calculée sur la base de la structure de la diapositive et du contenu statique. Deux diapositives sont égales si tous les styles de formes, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identificateur unique, par ex. SlideId et le contenu dynamique, par ex. la valeur de la date actuelle dans le Placeholder de date.
+Détermine si les deux instances IBaseSlide sont égales. La valeur de retour est calculée en fonction de la structure de la diapositive et du contenu statique. Deux diapositives sont égales si toutes les formes, styles, textes, animations et autres paramètres, etc. sont égaux. La comparaison ne prend pas en compte les valeurs d'identifiant unique, par exemple, SlideId et le contenu dynamique, par exemple, la valeur de la date actuelle dans le champ de date.
 
 ```csharp
 public bool Equals(IBaseSlide slide)
@@ -19,7 +19,7 @@ public bool Equals(IBaseSlide slide)
 | --- | --- | --- |
 | slide | IBaseSlide | L'IBaseSlide à comparer avec l'IBaseSlide actuel. |
 
-### Valeur de retour
+### Valeur de Retour
 
 **true** si l'IBaseSlide spécifié est égal à l'IBaseSlide actuel ; sinon, **false**.
 
@@ -45,7 +45,7 @@ using (Presentation presentation1 = new Presentation("AccessSlides.pptx"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBaseSlide](../../ibaseslide)
 * class [BaseSlide](../../baseslide)

@@ -1,15 +1,15 @@
 ---
 title: CheckWriteProtection
-second_title: Aspose.Slides pour .NET Référence API
-description: Détermine si une présentation est protégée par un mot de passe pour modification.
+second_title: Aspose.Slid es pour .NET Référence API
+description: Détermine si une présentation est protégée par un mot de passe pour la modifier.
 type: docs
 weight: 70
 url: /fr/aspose.slides/iprotectionmanager/checkwriteprotection/
 ---
 
-## Méthode IProtectionManager.CheckWriteProtection
+## IProtectionManager.CheckWriteProtection méthode
 
-Détermine si une présentation est protégée par un mot de passe pour modification.
+Détermine si une présentation est protégée par un mot de passe pour la modifier.
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -19,13 +19,13 @@ public bool CheckWriteProtection(string password)
 | --- | --- | --- |
 | password | String | Le mot de passe à vérifier. |
 
-### Valeur de Retour
+### Valeur de retour
 
 Vrai si le mot de passe est valide ; sinon, faux.
 
 ### Remarques
 
-1. Vous devez vérifier la propriété [`IsWriteProtected`](../iswriteprotected) avant d'appeler cette méthode. 2. Lorsque le mot de passe est nul ou vide, cette méthode renvoie faux.
+1. Vous devez vérifier la propriété [`IsWriteProtected`](../iswriteprotected) avant d'appeler cette méthode. 2. Lorsque le mot de passe est nul ou vide, cette méthode retourne faux.
 
 ### Exemples
 
@@ -33,11 +33,11 @@ Vrai si le mot de passe est valide ; sinon, faux.
 [C#]
 using (var presentation = new Presentation(presentationFilePath))
 {
-    var isWriteProtected = presentation.ProtectionManager.CheckWriteProtection("mon_mot_de_passe");
+    var isWriteProtected = presentation.ProtectionManager.CheckWriteProtection("my_password");
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IProtectionManager](../../iprotectionmanager)
 * namespace [Aspose.Slides](../../iprotectionmanager)

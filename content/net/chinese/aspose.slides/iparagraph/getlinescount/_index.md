@@ -1,6 +1,6 @@
 ---
 title: GetLinesCount
-second_title: Aspose.Slidess for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取段落中的行数。
 type: docs
 weight: 60
@@ -31,12 +31,12 @@ using (Presentation pres = new Presentation())
     IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
     IParagraph para = ashp.TextFrame.Paragraphs[0];
     IPortion portion = para.Portions[0];
-    portion.Text = "Aspose Paragraph GetLinesCount() 示例";
-    Console.WriteLine("行数 = {0}", para.GetLinesCount());
+    portion.Text = "Aspose Paragraph GetLinesCount() Example";
+    Console.WriteLine("Lines Count = {0}", para.GetLinesCount());
 }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IParagraph](../../iparagraph)
 * 命名空间 [Aspose.Slides](../../iparagraph)

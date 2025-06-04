@@ -1,7 +1,7 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft den Flip-Modus für einen Farbverlauf ab. Nur lesbar TileFlipaspose.slides/tileflip.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Wendemodus für einen Verlauf zurück. Nur-lesender TileFlipaspose.slides/tileflip.
 type: docs
 weight: 70
 url: /de/aspose.slides/igradientformateffectivedata/tileflip/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/igradientformateffectivedata/tileflip/
 
 ## IGradientFormatEffectiveData.TileFlip-Eigenschaft
 
-Ruft den Flip-Modus für einen Farbverlauf ab. Nur lesbar [`TileFlip`](../../tileflip).
+Gibt den Wendemodus für einen Verlauf zurück. Nur-lesend [`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TileFlip](../../tileflip)
 * interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)

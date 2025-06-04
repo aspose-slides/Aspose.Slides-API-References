@@ -1,7 +1,7 @@
 ---
 title: CreateMathDelimiter
-second_title: Référence API Aspose.Slides pour .NET
-description: Créer un délimiteur mathématique en l'appliquant à l'élément
+second_title: Aspose.Slides pour .NET API Reference
+description: Créer un délimiteur mathématique en s'appliquant à l'élément
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
 
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
-Créer un délimiteur mathématique en l'appliquant à l'élément
+Créer un délimiteur mathématique en s'appliquant à l'élément
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElement element)
@@ -17,9 +17,9 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| element | IMathElement | élément mathématique auquel appliquer le délimiteur |
+| element | IMathElement | élément mathématique pour appliquer le délimiteur |
 
-### Valeur de Retour
+### Valeur de retour
 
 nouveau délimiteur mathématique
 
@@ -35,7 +35,7 @@ nouveau délimiteur mathématique
 
 ## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
-Créer un délimiteur mathématique en l'appliquant à l'élément
+Créer un délimiteur mathématique en s'appliquant à l'élément
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
@@ -43,9 +43,9 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | éléments mathématiques auxquels appliquer le délimiteur |
+| mathElements | IMathElementCollection | éléments mathématiques pour appliquer le délimiteur |
 
-### Valeur de Retour
+### Valeur de retour
 
 nouveau délimiteur mathématique
 

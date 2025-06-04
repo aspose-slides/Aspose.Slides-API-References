@@ -1,7 +1,7 @@
 ---
 title: Controls
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur-Lese IControlCollectionaspose.slides/icontrolcollection.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur lesbare IControlCollectionaspose.slides/icontrolcollection.
 type: docs
 weight: 30
 url: /de/aspose.slides/ibaseslide/controls/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseslide/controls/
 
 ## IBaseSlide.Controls-Eigenschaft
 
-Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur-Lese [`IControlCollection`](../../icontrolcollection).
+Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur lesbar [`IControlCollection`](../../icontrolcollection).
 
 ```csharp
 public IControlCollection Controls { get; }

@@ -1,13 +1,13 @@
 ---
 title: AddAlphaCeilingEffect
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет новый эффект Alpha Ceiling в конец коллекции.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect/
 ---
 
-## Метод IImageTransformOperationCollection.AddAlphaCeilingEffect
+## IImageTransformOperationCollection.AddAlphaCeilingEffect метод
 
 Добавляет новый эффект Alpha Ceiling в конец коллекции.
 
@@ -17,7 +17,7 @@ public IAlphaCeiling AddAlphaCeilingEffect()
 
 ### Возвращаемое значение
 
-Индекс нового графического эффекта в коллекции.
+Индекс нового эффекта изображения в коллекции.
 
 ### См. также
 

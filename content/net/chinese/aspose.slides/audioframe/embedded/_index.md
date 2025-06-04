@@ -1,13 +1,13 @@
 ---
 title: Embedded
-second_title: Aspose.Slides for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定声音是否嵌入到演示文稿中。只读布尔值。
 type: docs
 weight: 50
 url: /zh/aspose.slides/audioframe/embedded/
 ---
 
-## AudioFrame.Embedded 属性
+## AudioFrame.Embedded property
 
 确定声音是否嵌入到演示文稿中。只读布尔值。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/audioframe/embedded/
 public bool Embedded { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [AudioFrame](../../audioframe)
 * namespace [Aspose.Slides](../../audioframe)

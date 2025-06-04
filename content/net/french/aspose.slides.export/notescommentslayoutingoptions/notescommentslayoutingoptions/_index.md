@@ -7,7 +7,7 @@ weight: 10
 url: /fr/aspose.slides.export/notescommentslayoutingoptions/notescommentslayoutingoptions/
 ---
 
-## Constructeur d'OptionsDeMiseEnPageDesCommentairesDeNotes
+## Constructeur de NotesCommentsLayoutingOptions
 
 Constructeur par défaut.
 

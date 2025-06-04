@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXMinusValues
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est effective dans l'objet de propriété XMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lecture/écriture DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Aspose.Slides pour référence de l'API .NET
+description: Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété XMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lecture/écriture DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 10
 url: /fr/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXMinusValues property
 
-Spécifie si la propriété AsCell ou AsLiteralString ou AsLiteralDouble est effective dans l'objet de propriété XMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
+Spécifie si la propriété AsCell, AsLiteralString ou AsLiteralDouble est actuelle dans l'objet de propriété XMinus des points de données pour les valeurs personnalisées des barres d'erreur. En d'autres termes, cela spécifie le type de valeur de la propriété ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lecture/écriture [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXMinusValues { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)

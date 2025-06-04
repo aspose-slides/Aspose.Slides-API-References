@@ -1,15 +1,15 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 从指定索引处的集合中移除图像效果。
+description: 从指定索引的集合中移除图像效果。
 type: docs
 weight: 200
 url: /zh/aspose.slides.effects/iimagetransformoperationcollection/removeat/
 ---
 
-## IImageTransformOperationCollection.RemoveAt 方法
+## IImageTransformOperationCollection.RemoveAt method
 
-从指定索引处的集合中移除图像效果。
+从指定索引的集合中移除图像效果。
 
 ```csharp
 public void RemoveAt(int index)
@@ -19,7 +19,7 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | 应该被删除的图像效果的索引。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImageTransformOperationCollection](../../iimagetransformoperationcollection)
 * 命名空间 [Aspose.Slides.Effects](../../iimagetransformoperationcollection)

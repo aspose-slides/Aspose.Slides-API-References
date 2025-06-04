@@ -1,6 +1,6 @@
 ---
 title: BrowsedAtKiosk
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Initialise une nouvelle instance de la classe BrowsedAtKiosk.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/browsedatkiosk/browsedatkiosk/
 
 ## Constructeur BrowsedAtKiosk
 
-Initialise une nouvelle instance de la classe BrowsedAtKiosk.
+Initie une nouvelle instance de la classe BrowsedAtKiosk.
 
 ```csharp
 public BrowsedAtKiosk()

@@ -1,21 +1,21 @@
 ---
 title: ShapeTypeLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定形状类型的更改是否被禁止。可读/可写布尔值。
+description: 确定是否禁止更改形状类型。可读写布尔值。
 type: docs
 weight: 110
 url: /zh/aspose.slides/ipictureframelock/shapetypelocked/
 ---
 
-## IPictureFrameLock.ShapeTypeLocked 属性
+## IPictureFrameLock.ShapeTypeLocked property
 
-确定形状类型的更改是否被禁止。可读/可写布尔值。
+确定是否禁止更改形状类型。可读写布尔值。
 
 ```csharp
 public bool ShapeTypeLocked { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IPictureFrameLock](../../ipictureframelock)
 * 命名空间 [Aspose.Slides](../../ipictureframelock)

@@ -1,15 +1,15 @@
 ---
 title: Equals
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die angegebene ColorChangeaspose.slides.effects/colorchange gleich der aktuellen ColorChangeaspose.slides.effects/colorchange ist.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob der angegebene ColorChangeaspose.slides.effects/colorchange gleich dem aktuellen ColorChangeaspose.slides.effects/colorchange ist.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/colorchange/equals/
 ---
 
-## ColorChange.Equals Methode
+## ColorChange.Equals-Methode
 
-Bestimmt, ob die angegebene [`ColorChange`](../../colorchange) gleich der aktuellen [`ColorChange`](../../colorchange) ist.
+Bestimmt, ob der angegebene [`ColorChange`](../../colorchange) gleich dem aktuellen [`ColorChange`](../../colorchange) ist.
 
 ```csharp
 public override bool Equals(object obj)

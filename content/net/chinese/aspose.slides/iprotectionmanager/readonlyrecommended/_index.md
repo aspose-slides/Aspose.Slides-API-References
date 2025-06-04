@@ -1,7 +1,7 @@
 ---
 title: ReadOnlyRecommended
-second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置只读推荐。可读写的布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置只读推荐。可读写布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/iprotectionmanager/readonlyrecommended/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/iprotectionmanager/readonlyrecommended/
 
 ## IProtectionManager.ReadOnlyRecommended 属性
 
-获取或设置只读推荐。可读写的布尔值。
+获取或设置只读推荐。可读写布尔值。
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }

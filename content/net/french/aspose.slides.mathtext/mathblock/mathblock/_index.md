@@ -1,6 +1,6 @@
 ---
 title: MathBlock
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Initialise une nouvelle instance de la classe MathBlock.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public MathBlock()
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -42,11 +42,11 @@ public MathBlock(IMathElement mathElement)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| mathElement | IMathElement | L'élément mathématique à placer dans le bloc |
+| mathElement | IMathElement | L'élément mathématique à mettre dans le bloc |
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]
@@ -72,11 +72,11 @@ public MathBlock(IEnumerable<IMathElement> mathElements)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| mathElements | IEnumerable`1 | Éléments mathématiques à placer dans le bloc |
+| mathElements | IEnumerable`1 | Éléments mathématiques à mettre dans le bloc |
 
 ### Exemples
 
-Exemple:
+Exemple :
 
 ```csharp
 [C#]

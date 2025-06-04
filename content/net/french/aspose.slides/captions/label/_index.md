@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne ou définit l'étiquette des sous-titres. Écriture/lecture String.
+description: Renvoie ou définit le label des sous-titres. Lecture/écriture String.
 type: docs
 weight: 40
 url: /fr/aspose.slides/captions/label/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/captions/label/
 
 ## Propriété Captions.Label
 
-Retourne ou définit l'étiquette des sous-titres. Écriture/lecture String.
+Renvoie ou définit le label des sous-titres. Lecture/écriture String.
 
 ```csharp
 public string Label { get; set; }

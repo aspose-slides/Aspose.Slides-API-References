@@ -1,7 +1,7 @@
 ---
 title: AsCell
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IChartDataCell-Objekt zurück oder setzt es. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für die Stufe "0" verwendet. Lese-/Schreibzugriff auf IChartDataCellaspose.slides.charts/ichartdatacell.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt das IChartDataCell-Objekt zurück oder setzt es. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für Stufe "0" verwendet. Lese-/Schreibzugriff auf IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/chartcategory/ascell/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartcategory/ascell/
 
 ## ChartCategory.AsCell-Eigenschaft
 
-Gibt das IChartDataCell-Objekt zurück oder setzt es. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für die Stufe "0" verwendet. Lese-/Schreibzugriff auf [`IChartDataCell`](../../ichartdatacell).
+Gibt das IChartDataCell-Objekt zurück oder setzt es. Wenn die Kategorie mehrstufig ist, wird das IChartDataCell-Objekt für Stufe "0" verwendet. Lese-/Schreibzugriff auf [`IChartDataCell`](../../ichartdatacell).
 
 ```csharp
 public IChartDataCell AsCell { get; set; }

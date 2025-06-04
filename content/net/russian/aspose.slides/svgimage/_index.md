@@ -1,15 +1,15 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes для справки по API .NET
-description: Представляет SVG изображение.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет собой SVG изображение.
 type: docs
 weight: 10490
 url: /ru/aspose.slides/svgimage/
 ---
 
-## Класс SvgImage
+## SvgImage class
 
-Представляет SVG изображение.
+Представляет собой SVG изображение.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -30,8 +30,8 @@ public class SvgImage : ISvgImage
 
 | Название | Описание |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Возвращает базовый URI указанного Svg. Используется для разрешения относительных ссылок. Только для чтения String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Svg. Только для чтения [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Возвращает базовый URI указанного Svg. Используется для разрешений относительных ссылок. Только для чтения String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Svg. Только для чтения [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только для чтения String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтения Byte[]. |
 
@@ -41,7 +41,7 @@ public class SvgImage : ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Сохраняет изображение SVG как файл EMF. |
 
-### Также см. 
+### См. также
 
 * интерфейс [ISvgImage](../isvgimage)
 * пространство имен [Aspose.Slides](../../aspose.slides)

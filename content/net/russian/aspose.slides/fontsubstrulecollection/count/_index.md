@@ -1,13 +1,13 @@
 ---
 title: Count
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 type: docs
 weight: 20
 url: /ru/aspose.slides/fontsubstrulecollection/count/
 ---
 
-## Свойство FontSubstRuleCollection.Count
+## FontSubstRuleCollection.Count свойство
 
 Получает количество элементов, фактически содержащихся в коллекции. Только для чтения Int32.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/fontsubstrulecollection/count/
 public int Count { get; }
 ```
 
-### См. Также
+### Смотрите также
 
 * класс [FontSubstRuleCollection](../../fontsubstrulecollection)
 * пространство имен [Aspose.Slides](../../fontsubstrulecollection)

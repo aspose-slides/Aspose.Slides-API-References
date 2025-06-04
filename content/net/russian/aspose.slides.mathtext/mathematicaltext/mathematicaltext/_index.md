@@ -24,7 +24,7 @@ public MathematicalText()
 MathematicalText mathText = new MathematicalText();
 ```
 
-### См. Также
+### См. также
 
 * класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
@@ -53,7 +53,7 @@ public MathematicalText(char mathSymbol)
 MathematicalText mathText = new MathematicalText('$');
 ```
 
-### См. Также
+### См. также
 
 * класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
@@ -82,7 +82,7 @@ public MathematicalText(string mathText)
 MathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### См. Также
+### См. также
 
 * класс [MathematicalText](../../mathematicaltext)
 * пространство имен [Aspose.Slides.MathText](../../mathematicaltext)
@@ -113,7 +113,7 @@ IPortionFormat format = new PortionFormat() { FontHeight = 12 };
 MathematicalText mathText = new MathematicalText("x+y", format);
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IPortionFormat](../../../aspose.slides/iportionformat)
 * класс [MathematicalText](../../mathematicaltext)

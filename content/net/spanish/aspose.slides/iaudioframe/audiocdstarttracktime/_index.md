@@ -1,24 +1,24 @@
----
+---  
 title: AudioCdStartTrackTime
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API  
 description: Devuelve o establece un tiempo de inicio de pista. Lectura/escritura Int32.
-type: docs
-weight: 50
+type: docs  
+weight: 50  
 url: /es/aspose.slides/iaudioframe/audiocdstarttracktime/
----
+---  
 
-## Propiedad IAudioFrame.AudioCdStartTrackTime
+## IAudioFrame.AudioCdStartTrackTime propiedad  
 
-Devuelve o establece un tiempo de inicio de pista. Lectura/escritura Int32.
+Devuelve o establece un tiempo de inicio de pista. Lectura/escritura Int32.  
 
-```csharp
-public int AudioCdStartTrackTime { get; set; }
-```
+```csharp  
+public int AudioCdStartTrackTime { get; set; }  
+```  
 
-### Ver También
+### Ver También  
 
-* interfaz [IAudioFrame](../../iaudioframe)
-* espacio de nombres [Aspose.Slides](../../iaudioframe)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IAudioFrame](../../iaudioframe)  
+* espacio de nombres [Aspose.Slides](../../iaudioframe)  
+* ensamblaje [Aspose.Slides](../../../)  
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->  

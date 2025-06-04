@@ -15,10 +15,10 @@ Devuelve el número de diapositivas de diseño en una colección. Solo lectura I
 public int Count { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [LayoutSlideCollection](../../layoutslidecollection)
 * espacio de nombres [Aspose.Slides](../../layoutslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

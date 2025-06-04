@@ -1,15 +1,15 @@
 ---
 title: DeleteGroupingItem
 second_title: Aspose.Slides für .NET API Referenz
-description: Löschen Sie das Gruppierungselement für die definierte Ebene.
+description: Löschen des Gruppierungsobjekts für die definierte Ebene.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem/
 ---
 
-## ChartCategoryLevelsManager.DeleteGroupingItem Methode
+## ChartCategoryLevelsManager.DeleteGroupingItem-Methode
 
-Löschen Sie das Gruppierungselement für die definierte Ebene.
+Löschen des Gruppierungsobjekts für die definierte Ebene.
 
 ```csharp
 public void DeleteGroupingItem(int level)

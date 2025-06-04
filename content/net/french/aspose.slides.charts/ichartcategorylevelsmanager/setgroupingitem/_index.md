@@ -1,13 +1,13 @@
 ---
 title: SetGroupingItem
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Définit l'élément de regroupement pour le niveau défini.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem/
 ---
 
-## Méthode IChartCategoryLevelsManager.SetGroupingItem
+## IChartCategoryLevelsManager.SetGroupingItem méthode
 
 Définit l'élément de regroupement pour le niveau défini.
 

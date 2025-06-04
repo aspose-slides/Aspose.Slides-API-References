@@ -1,6 +1,6 @@
 ---
 title: Manager
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt die Manager-Eigenschaft zurück oder legt sie fest. Lese-/Schreib-String.
 type: docs
 weight: 210
@@ -15,7 +15,7 @@ Gibt die Manager-Eigenschaft zurück oder legt sie fest. Lese-/Schreib-String.
 public string Manager { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IDocumentProperties](../../idocumentproperties)
 * Namespace [Aspose.Slides](../../idocumentproperties)

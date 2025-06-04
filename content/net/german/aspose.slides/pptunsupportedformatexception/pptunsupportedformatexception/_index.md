@@ -1,6 +1,6 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Standardkonstruktor.
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public PptUnsupportedFormatException()
 
 ### Siehe auch
 
-* Klasse [PptUnsupportedFormatException](../../pptunsupportedformatexexception)
+* Klasse [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * Namespace [Aspose.Slides](../../pptunsupportedformatexception)
 * Assembly [Aspose.Slides](../../../)
 
@@ -37,7 +37,7 @@ public PptUnsupportedFormatException(string message)
 
 ### Siehe auch
 
-* Klasse [PptUnsupportedFormatException](../../pptunsupportedformatexexception)
+* Klasse [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * Namespace [Aspose.Slides](../../pptunsupportedformatexception)
 * Assembly [Aspose.Slides](../../../)
 
@@ -58,7 +58,7 @@ public PptUnsupportedFormatException(string message, Exception exception)
 
 ### Siehe auch
 
-* Klasse [PptUnsupportedFormatException](../../pptunsupportedformatexexception)
+* Klasse [PptUnsupportedFormatException](../../pptunsupportedformatexception)
 * Namespace [Aspose.Slides](../../pptunsupportedformatexception)
 * Assembly [Aspose.Slides](../../../)
 

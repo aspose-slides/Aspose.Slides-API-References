@@ -1,13 +1,13 @@
 ---
 title: Reorder
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Mueve la diapositiva de diseño de la colección a la posición especificada.
 type: docs
 weight: 70
 url: /es/aspose.slides/imasterlayoutslidecollection/reorder/
 ---
 
-## IMasterLayoutSlideCollection.Reorder método
+## IMasterLayoutSlideCollection.Reorder method
 
 Mueve la diapositiva de diseño de la colección a la posición especificada.
 
@@ -20,7 +20,7 @@ public void Reorder(int index, ILayoutSlide layoutSlide)
 | index | Int32 | Índice objetivo. |
 | layoutSlide | ILayoutSlide | Diapositiva a mover. |
 
-### Véase también
+### Ver También
 
 * interface [ILayoutSlide](../../ilayoutslide)
 * interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)

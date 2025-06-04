@@ -1,6 +1,6 @@
 ---
 title: Image
-second_title: Справочная информация по Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET справочник API
 description: Представляет свойство изображения
 type: docs
 weight: 410
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/image/
 public static BehaviorProperty Image { get; }
 ```
 
-### Смотрите также
+### Также смотрите
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

@@ -1,7 +1,7 @@
 ---
 title: PictureFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图片框的 PictureFillFormat 对象。只读 IPictureFillFormat aspose.slides/ipicturefillformat。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回图形框的 PictureFillFormat 对象。仅限读取 IPictureFillFormat aspose.slides/ipicturefillformat。
 type: docs
 weight: 20
 url: /zh/aspose.slides/ipictureframe/pictureformat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipictureframe/pictureformat/
 
 ## IPictureFrame.PictureFormat 属性
 
-返回图片框的 PictureFillFormat 对象。只读 [`IPictureFillFormat`](../../ipicturefillformat)。
+返回图形框的 PictureFillFormat 对象。仅限读取 [`IPictureFillFormat`](../../ipicturefillformat)。
 
 ```csharp
 public IPictureFillFormat PictureFormat { get; }

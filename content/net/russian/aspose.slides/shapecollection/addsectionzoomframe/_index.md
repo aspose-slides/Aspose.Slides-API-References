@@ -18,13 +18,13 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата нового кадра Section Zoom. |
-| y | Single | Y-координата нового кадра Section Zoom. |
-| width | Single | Ширина нового кадра Section Zoom. |
-| height | Single | Высота нового кадра Section Zoom. |
-| section | ISection | Объект секции, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
+| x | Single | Координата X нового фрейма Section Zoom. |
+| y | Single | Координата Y нового фрейма Section Zoom. |
+| width | Single | Ширина нового фрейма Section Zoom. |
+| height | Single | Высота нового фрейма Section Zoom. |
+| section | ISection | Объект секции, на который ссылается фрейм Section Zoom [`ISection`](../../isection). |
 
-### Возвращаемое значение
+### Значение возврата
 
 Созданный объект Section Zoom [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-Добавляет новый объект Section Zoom в конец коллекции с предустановленным изображением.
+Добавляет новый объект Section Zoom в конец коллекции с заданным изображением.
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -67,14 +67,14 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X-координата нового кадра Section Zoom. |
-| y | Single | Y-координата нового кадра Section Zoom. |
-| width | Single | Ширина нового кадра Section Zoom. |
-| height | Single | Высота нового кадра Section Zoom. |
-| section | ISection | Объект секции, на который ссылается кадр Section Zoom [`ISection`](../../isection). |
-| image | IPPImage | Изображение для указанного слайда [`IPPImage`](../../ippimage) |
+| x | Single | Координата X нового фрейма Section Zoom. |
+| y | Single | Координата Y нового фрейма Section Zoom. |
+| width | Single | Ширина нового фрейма Section Zoom. |
+| height | Single | Высота нового фрейма Section Zoom. |
+| section | ISection | Объект секции, на который ссылается фрейм Section Zoom [`ISection`](../../isection). |
+| image | IPPImage | Изображение для слайда [`IPPImage`](../../ippimage) |
 
-### Возвращаемое значение
+### Значение возврата
 
 Созданный объект Section Zoom [`ISectionZoomFrame`](../../isectionzoomframe).
 

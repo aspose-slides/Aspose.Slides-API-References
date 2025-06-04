@@ -1,21 +1,21 @@
 ---
 title: HorizontalBarState
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает состояние, в котором должна отображаться горизонтальная разделительная панель. Горизонтальная разделительная панель отделяет слайд от области содержимого под слайдом.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает состояние, в котором должна отображаться горизонтальная полоса разделителя. Горизонтальная полоса разделителя отделяет слайд от области контента ниже слайда.
 type: docs
 weight: 10
 url: /ru/aspose.slides/inormalviewproperties/horizontalbarstate/
 ---
 
-## Свойство INormalViewProperties.HorizontalBarState
+## INormalViewProperties.HorizontalBarState свойство
 
-Указывает состояние, в котором должна отображаться горизонтальная разделительная панель. Горизонтальная разделительная панель отделяет слайд от области содержимого под слайдом.
+Указывает состояние, в котором должна отображаться горизонтальная полоса разделителя. Горизонтальная полоса разделителя отделяет слайд от области контента ниже слайда.
 
 ```csharp
 public SplitterBarStateType HorizontalBarState { get; set; }
 ```
 
-### Смотрите также
+### Также смотри
 
 * enum [SplitterBarStateType](../../splitterbarstatetype)
 * interface [INormalViewProperties](../../inormalviewproperties)

@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API Referenz
-description: Fügt eine neue Eigenschaft zur Sammlung hinzu.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt der Sammlung eine neue Eigenschaft hinzu.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/ibehaviorpropertycollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ibehaviorpropertycollection/add/
 
 ## IBehaviorPropertyCollection.Add Methode
 
-Fügt eine neue Eigenschaft zur Sammlung hinzu.
+Fügt der Sammlung eine neue Eigenschaft hinzu.
 
 ```csharp
 public void Add(string propertyValue)
@@ -19,7 +19,7 @@ public void Add(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Wert der hinzuzufügenden Eigenschaft. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehaviorPropertyCollection](../../ibehaviorpropertycollection)
 * Namespace [Aspose.Slides.Animation](../../ibehaviorpropertycollection)

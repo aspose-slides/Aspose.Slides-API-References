@@ -7,7 +7,7 @@ weight: 130
 url: /es/aspose.slides.theme/icolorscheme/light1/
 ---
 
-## Propiedad IColorScheme.Light1
+## IColorScheme.Light1 property
 
 Primer color claro en el esquema. Solo lectura [`IColorFormat`](../../../aspose.slides/icolorformat).
 

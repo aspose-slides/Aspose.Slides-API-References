@@ -1,7 +1,7 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置文本属性的继承深度。读/写 TextInheritanceLimitaspose.slides.export/textinheritancelimit。
+description: 返回或设置文本属性的继承深度。读/写 TextInheritanceLimit aspose.slides.export/textinheritancelimit。
 type: docs
 weight: 50
 url: /zh/aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit/

@@ -1,7 +1,7 @@
 ---
 title: EffectAnimateBackgroundShape
-second_title: Aspose.Slides pour .NET Référence API
-description: Effet de forme lié avec groupe ou non nul Read/write IEffectaspose.slides.animation/ieffect.
+second_title: Aspose.Slildes pour .NET API Référence
+description: Effet de forme liée avec groupe ou non null Lecture/écriture IEffectaspose.slides.animation/ieffect.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/itextanimation/effectanimatebackgroundshape/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/itextanimation/effectanimatebackgroundshape/
 
 ## Propriété ITextAnimation.EffectAnimateBackgroundShape
 
-Effet de forme lié avec groupe ou non (nul) Read/write [`IEffect`](../../ieffect).
+Effet de forme liée avec groupe ou non (null) Lecture/écriture [`IEffect`](../../ieffect).
 
 ```csharp
 public IEffect EffectAnimateBackgroundShape { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IEffect](../../ieffect)
 * interface [ITextAnimation](../../itextanimation)

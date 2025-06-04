@@ -1,7 +1,7 @@
 ---
 title: Light1
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erste helle Farbe im Schema. Nur-lesbare Farbe.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erster heller Farbton im Schema. Nur lesender Farbton.
 type: docs
 weight: 120
 url: /de/aspose.slides.theme/icolorschemeeffectivedata/light1/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.theme/icolorschemeeffectivedata/light1/
 
 ## IColorSchemeEffectiveData.Light1-Eigenschaft
 
-Erste helle Farbe im Schema. Nur-lesbare Farbe.
+Erster heller Farbton im Schema. Nur lesender Farbton.
 
 ```csharp
 public Color Light1 { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
+* Interface [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * Namespace [Aspose.Slides.Theme](../../icolorschemeeffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

@@ -15,7 +15,7 @@ Devuelve una raíz de sincronización. Objeto de solo lectura.
 public object SyncRoot { get; }
 ```
 
-### Ver También
+### Véase También
 
 * clase [TextAnimationCollection](../../textanimationcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../textanimationcollection)

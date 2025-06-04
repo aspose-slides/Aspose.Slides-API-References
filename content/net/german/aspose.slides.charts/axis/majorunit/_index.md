@@ -1,7 +1,7 @@
 ---
 title: MajorUnit
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Haupt Einheiten für die Daten- oder Werteachse dar. Lese-/Schreib Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Repräsentiert die Haupteinheiten für die Daten- oder Werteachse. Lese-/Schreibzugriff auf Double.
 type: docs
 weight: 360
 url: /de/aspose.slides.charts/axis/majorunit/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/axis/majorunit/
 
 ## Axis.MajorUnit-Eigenschaft
 
-Stellt die Haupt Einheiten für die Daten- oder Werteachse dar. Lese-/Schreib Double.
+Repräsentiert die Haupteinheiten für die Daten- oder Werteachse. Lese-/Schreibzugriff auf Double.
 
 ```csharp
 public double MajorUnit { get; set; }

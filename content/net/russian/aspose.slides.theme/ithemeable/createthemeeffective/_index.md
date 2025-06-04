@@ -1,15 +1,15 @@
 ---
 title: CreateThemeEffective
-second_title: Ссылка на API Aspose.Sildes для .NET
-description: Возвращает эффективную тему для этого объектa с темой.
+second_title: Aspose.Sildes для .NET API Ссылка
+description: Возвращает эффективную тему для этого объекта, имеющего тему.
 type: docs
 weight: 20
 url: /ru/aspose.slides.theme/ithemeable/createthemeeffective/
 ---
 
-## Метод IThemeable.CreateThemeEffective
+## IThemeable.CreateThemeEffective метод
 
-Возвращает эффективную тему для этого объектa с темой.
+Возвращает эффективную тему для этого объекта, имеющего тему.
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()

@@ -15,7 +15,7 @@ Definiert die Klasse des Effekts. Lese-/Schreibzugriff auf [`EffectPresetClassTy
 public EffectPresetClassType PresetClassType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [EffectPresetClassType](../../effectpresetclasstype)
 * interface [IEffect](../../ieffect)

@@ -1,7 +1,7 @@
 ---
 title: MathBox
-second_title: Aspose.Sildes for .NET API 参考
-description: 使用指定的元素作为参数初始化 MathBox
+second_title: Aspose.Sildes for .NET API Reference
+description: 用指定的元素作为参数初始化 MathBox
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/mathbox/mathbox/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathbox/mathbox/
 
 ## MathBox 构造函数
 
-使用指定的元素作为参数初始化 MathBox
+用指定的元素作为参数初始化 MathBox
 
 ```csharp
 public MathBox(IMathElement element)
@@ -17,11 +17,11 @@ public MathBox(IMathElement element)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用到盒子的基本元素。可以为 null。 |
+| element | IMathElement | 应用此框的基本元素。可以为 null。 |
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]

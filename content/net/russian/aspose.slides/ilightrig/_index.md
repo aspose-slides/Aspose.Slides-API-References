@@ -1,6 +1,6 @@
 ---
 title: ILightRig
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Представляет LightRig.
 type: docs
 weight: 6070
@@ -17,19 +17,19 @@ public interface ILightRig
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Направление света. Читаемое/записываемое [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Представляет предустановленный свет, который можно применить к фигуре. Освещение представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Читаемое/записываемое [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Направление света. Чтение/запись [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Представляет предустановленный тип света, который можно применить к фигуре. Light rig представляет собой группу светильников, ориентированных определенным образом относительно 3D-сцены. Чтение/запись [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Вращение определяется с использованием координаты широты, координаты долготы и вращения вокруг оси в соответствии с координатами широты и долготы. Первый элемент в возвращаемом массиве - широта, второй - долгота, третий - вращение. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Вращение определяется с использованием координаты широты, координаты долготы и вращения вокруг оси в соответствии с координатами широты и долготы. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Поворот определяется с помощью координаты широты, координаты долготы и оборота вокруг оси, как координаты широты и долготы. Первый элемент в возвращаемом массиве - широта, второй - долгота, третий - оборот. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Поворот определяется с помощью координаты широты, координаты долготы и оборота вокруг оси, как координаты широты и долготы. |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

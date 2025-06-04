@@ -1,7 +1,7 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes для .NET API Справочник
-description: Является темой.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет тему.
 type: docs
 weight: 11060
 url: /ru/aspose.slides.theme/itheme/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/itheme/
 
 ## Интерфейс ITheme
 
-Является темой.
+Представляет тему.
 
 ```csharp
 public interface ITheme : IPresentationComponent
@@ -17,16 +17,16 @@ public interface ITheme : IPresentationComponent
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения [`IColorScheme`](../icolorscheme). |
 | [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Возвращает шрифтовую схему. Только для чтения [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения [`IFormatScheme`](../iformatscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Возвращает схему формата фигуры. Только для чтения [`IFormatScheme`](../iformatscheme). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Получает эффективные данные темы с применением наследования. |
 

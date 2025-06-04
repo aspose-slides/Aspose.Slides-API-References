@@ -1,6 +1,6 @@
 ---
 title: ImageSource
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Obtient l'image Image en lecture seule.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Obtient l'image Image en lecture seule.
 public IImage ImageSource { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IImage](../../iimage)
 * interface [IImageWrapper](../../iimagewrapper)

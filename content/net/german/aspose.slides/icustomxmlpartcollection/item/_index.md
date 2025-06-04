@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt das Element am angegebenen Index zurück.
 type: docs
 weight: 10
@@ -27,7 +27,7 @@ Das Element am angegebenen Index.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentOutOfRangeException | index ist kleiner als 0.-oder-index ist gleich oder größer als Count |
+| ArgumentOutOfRangeException | index ist kleiner als 0 - oder - index ist gleich oder größer als Count |
 
 ### Siehe Auch
 

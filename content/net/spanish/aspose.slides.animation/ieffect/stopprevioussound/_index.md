@@ -1,13 +1,13 @@
 ---
 title: StopPreviousSound
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Este atributo especifica si el efecto de animación detiene el sonido anterior. Booleano de lectura/escritura.
 type: docs
 weight: 90
 url: /es/aspose.slides.animation/ieffect/stopprevioussound/
 ---
 
-## Propiedad IEffect.StopPreviousSound
+## IEffect.StopPreviousSound property
 
 Este atributo especifica si el efecto de animación detiene el sonido anterior. Booleano de lectura/escritura.
 

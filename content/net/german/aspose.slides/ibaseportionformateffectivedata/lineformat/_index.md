@@ -1,7 +1,7 @@
 ---
 title: LineFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die LineFormat-Eigenschaften für Textumrisse zurück. Nur-lesbare ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die LineFormat-Eigenschaften für Textumriss zurück. Nur-Lese ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 180
 url: /de/aspose.slides/ibaseportionformateffectivedata/lineformat/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseportionformateffectivedata/lineformat/
 
 ## IBasePortionFormatEffectiveData.LineFormat-Eigenschaft
 
-Gibt die LineFormat-Eigenschaften für Textumrisse zurück. Nur-lesbare [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
+Gibt die LineFormat-Eigenschaften für Textumriss zurück. Nur-Lese [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData LineFormat { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILineFormatEffectiveData](../../ilineformateffectivedata)
 * Schnittstelle [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)

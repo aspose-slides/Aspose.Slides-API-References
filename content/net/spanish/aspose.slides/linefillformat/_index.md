@@ -1,6 +1,6 @@
 ---
 title: LineFillFormat
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa propiedades para el relleno de líneas.
 type: docs
 weight: 7540
@@ -21,9 +21,9 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obtener la interfaz base IPresentationComponent. Solo lectura [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Devuelve o establece el tipo de relleno. Lectura/escritura [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Devuelve el formato de relleno degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Devuelve el formato de relleno de degradado. Solo lectura [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina si el relleno debe rotarse con una forma. Lectura/escritura [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Determina si el relleno debe ser rotado con una forma. Lectura/escritura [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Devuelve el color de un relleno sólido. Solo lectura [`IColorFormat`](../icolorformat). |
 
 ## Métodos
@@ -33,7 +33,7 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara con el objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Devuelve el código hash. |
 
-### Véase También
+### Vea también
 
 * clase [PVIObject](../pviobject)
 * interfaz [ILineFillFormat](../ilinefillformat)

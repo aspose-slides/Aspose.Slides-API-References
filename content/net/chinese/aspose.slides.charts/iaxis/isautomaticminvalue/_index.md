@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 指示最小值是否自动分配。可读写布尔值。
+description: 指示最小值是否自动分配。可读/写布尔值。
 type: docs
 weight: 210
 url: /zh/aspose.slides.charts/iaxis/isautomaticminvalue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/isautomaticminvalue/
 
 ## IAxis.IsAutomaticMinValue 属性
 
-指示最小值是否自动分配。可读写布尔值。
+指示最小值是否自动分配。可读/写布尔值。
 
 ```csharp
 public bool IsAutomaticMinValue { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

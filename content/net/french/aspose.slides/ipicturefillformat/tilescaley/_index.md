@@ -1,7 +1,7 @@
 ---
 title: TileScaleY
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit l'échelle verticale pour le remplissage de texture en pourcentage. Lire/écrire Single.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Renvoie ou définit l'échelle verticale pour le remplissage de texture en pourcentage. Lecture/écriture Single.
 type: docs
 weight: 180
 url: /fr/aspose.slides/ipicturefillformat/tilescaley/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipicturefillformat/tilescaley/
 
 ## Propriété IPictureFillFormat.TileScaleY
 
-Renvoie ou définit l'échelle verticale pour le remplissage de texture en pourcentage. Lire/écrire Single.
+Renvoie ou définit l'échelle verticale pour le remplissage de texture en pourcentage. Lecture/écriture Single.
 
 ```csharp
 public float TileScaleY { get; set; }
@@ -29,12 +29,12 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Définit le mode de remplissage d'image sur Tile
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Définit l'échelle verticale pour la texture à 120 pourcents
+    // Définit l'échelle verticale pour la texture à 120 pour cent
     pictureFillFormat.TileScaleY = 120;
 }
 ```
 
-### Voir aussi
+### Voir également
 
 * interface [IPictureFillFormat](../../ipicturefillformat)
 * namespace [Aspose.Slides](../../ipicturefillformat)

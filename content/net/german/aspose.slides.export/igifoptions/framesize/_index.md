@@ -1,6 +1,6 @@
 ---
 title: FrameSize
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Ruft die Rahmengröße ab oder legt sie fest.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Ruft die Rahmengröße ab oder legt sie fest.
 public Size FrameSize { get; set; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
 Wenn die Größe leer ist, wird der Wert von [`SlideSize`](../../../aspose.slides/ipresentation/slidesize) übernommen.
 

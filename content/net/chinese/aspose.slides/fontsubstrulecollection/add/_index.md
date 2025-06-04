@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 将新的字体替代规则添加到集合中
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新的字体替代规则添加到集合
 type: docs
 weight: 60
 url: /zh/aspose.slides/fontsubstrulecollection/add/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/fontsubstrulecollection/add/
 
 ## FontSubstRuleCollection.Add 方法
 
-将新的字体替代规则添加到集合中
+将新的字体替代规则添加到集合
 
 ```csharp
 public void Add(IFontSubstRule value)
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IFontSubstRule](../../ifontsubstrule)
 * 类 [FontSubstRuleCollection](../../fontsubstrulecollection)

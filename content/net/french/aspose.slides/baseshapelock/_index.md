@@ -1,15 +1,15 @@
 ---
 title: BaseShapeLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une classe de base pour des opérations avec des verrous désactivés.
+second_title: Aspose.Slides pour .NET API Référence
+description: Représente une classe de base pour les opérations désactivées de verrouillage.
 type: docs
 weight: 900
 url: /fr/aspose.slides/baseshapelock/
 ---
 
-## Classe BaseShapeLock
+## BaseShapeLock class
 
-Représente une classe de base pour des verrous (opération désactivée).
+Représente une classe de base pour les verrous (opération désactivée).
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -19,7 +19,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Nom | Description |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Renvoie true si tous les indicateurs de verrouillage sont désactivés. Booléen en lecture seule. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retourne vrai si tous les drapeaux de verrouillage sont désactivés. Booléen en lecture seule. |
 
 ### Voir aussi
 

@@ -1,7 +1,7 @@
 ---
 title: IBehaviorProperty
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente les types de propriétés pour le comportement d'animation. Suit la liste des propriétés de https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx et https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les types de propriétés pour le comportement d'animation. Suit la liste des propriétés depuis https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx et https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
 weight: 360
 url: /fr/aspose.slides.animation/ibehaviorproperty/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/ibehaviorproperty/
 
 ## Interface IBehaviorProperty
 
-Représente les types de propriétés pour le comportement d'animation. Suit la liste des propriétés de https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx et https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Représente les types de propriétés pour le comportement d'animation. Suit la liste des propriétés depuis https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx et https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty

@@ -1,6 +1,6 @@
 ---
 title: SketchFormat
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Stellt Eigenschaften für das Skizzenformat von Linien dar.
 type: docs
 weight: 9640
@@ -19,15 +19,15 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Gibt den Skizzentyp zurück oder legt ihn fest. Lese-/Schreibzugriff [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesend [`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Gibt den Skizzen-Typ zurück oder legt ihn fest. Lese-/Schreibzugriff [`LineSketchType`](../linesketchtype). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
 
 ### Siehe auch
 

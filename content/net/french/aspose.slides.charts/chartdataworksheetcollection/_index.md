@@ -1,15 +1,15 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Représente la collection des feuilles de calcul du classeur de données de graphique.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Représente la collection de feuilles de calcul du classeur de données de graphique.
 type: docs
 weight: 1320
 url: /fr/aspose.slides.charts/chartdataworksheetcollection/
 ---
 
-## Classe ChartDataWorksheetCollection
+## ChartDataWorksheetCollection class
 
-Représente la collection des feuilles de calcul du classeur de données de graphique.
+Représente la collection de feuilles de calcul du classeur de données de graphique.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -19,16 +19,16 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Renvoie le nombre. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Renvoie le nombre. En lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sûr pour les threads). En lecture seule Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Renvoie la feuille de calcul par index. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Renvoie une racine de synchronisation. En lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Copie vers le tableau spécifié. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Copie dans le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
 
 ### Exemples

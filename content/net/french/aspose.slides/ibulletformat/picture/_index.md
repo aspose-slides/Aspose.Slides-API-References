@@ -1,6 +1,6 @@
 ---
 title: Picture
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Renvoie l'image utilisée comme puce dans un paragraphe sans héritage. Lecture seule ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Renvoie l'image utilisée comme puce dans un paragraphe sans héritage. Lecture 
 public ISlidesPicture Picture { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISlidesPicture](../../islidespicture)
 * interface [IBulletFormat](../../ibulletformat)

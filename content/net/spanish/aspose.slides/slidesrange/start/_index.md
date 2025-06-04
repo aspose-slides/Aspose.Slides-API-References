@@ -1,7 +1,7 @@
 ---
 title: Start
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Inicio
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Start
 type: docs
 weight: 30
 url: /es/aspose.slides/slidesrange/start/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/slidesrange/start/
 
 ## Propiedad SlidesRange.Start
 
-Inicio
+Start
 
 ```csharp
 public uint Start { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [SlidesRange](../../slidesrange)
 * espacio de nombres [Aspose.Slides](../../slidesrange)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

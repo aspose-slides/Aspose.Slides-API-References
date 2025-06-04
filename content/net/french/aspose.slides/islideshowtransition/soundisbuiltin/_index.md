@@ -1,15 +1,15 @@
 ---
 title: SoundIsBuiltIn
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, l'application génératrice est alertée de vérifier l'attribut de nom spécifié pour ce son dans sa liste de sons intégrés et peut ensuite afficher un nom ou une interface utilisateur personnalisée au besoin. Booléen en lecture-écriture.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, alors l'application génératrice est alertée de vérifier l'attribut name spécifié pour ce son dans sa liste de sons intégrés et peut ensuite afficher un nom ou une interface personnalisée si nécessaire. Booléen en lecture-écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/islideshowtransition/soundisbuiltin/
 ---
 
-## Propriété ISlideShowTransition.SoundIsBuiltIn
+## ISlideShowTransition.SoundIsBuiltIn property
 
-Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, l'application génératrice est alertée de vérifier l'attribut de nom spécifié pour ce son dans sa liste de sons intégrés et peut ensuite afficher un nom ou une interface utilisateur personnalisée au besoin. Booléen en lecture-écriture.
+Spécifie si ce son est un son intégré ou non. Si cet attribut est défini sur true, alors l'application génératrice est alertée de vérifier l'attribut name spécifié pour ce son dans sa liste de sons intégrés et peut ensuite afficher un nom ou une interface personnalisée si nécessaire. Booléen en lecture-écriture.
 
 ```csharp
 public bool SoundIsBuiltIn { get; set; }

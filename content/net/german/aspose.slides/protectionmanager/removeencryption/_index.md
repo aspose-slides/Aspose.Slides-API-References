@@ -7,7 +7,7 @@ weight: 90
 url: /de/aspose.slides/protectionmanager/removeencryption/
 ---
 
-## ProtectionManager.RemoveEncryption-Methode
+## ProtectionManager.RemoveEncryption Methode
 
 Entfernt die Verschlüsselung.
 

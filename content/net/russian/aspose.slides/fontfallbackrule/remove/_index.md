@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Удаляет первое вхождение конкретного шрифта FallBack из списка.
 type: docs
 weight: 90
 url: /ru/aspose.slides/fontfallbackrule/remove/
 ---
 
-## Метод FontFallBackRule.Remove
+## FontFallBackRule.Remove метод
 
 Удаляет первое вхождение конкретного шрифта FallBack из списка.
 
@@ -23,10 +23,10 @@ public void Remove(string fontName)
 
 ```csharp
 [C#]
-// Создание правила, содержащего список шрифтов.
+// Создайте правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-// Удаление Tahoma из списка.
+// Удалите Tahoma из списка.
 newRule.Remove ("Tahoma");
 ```
 

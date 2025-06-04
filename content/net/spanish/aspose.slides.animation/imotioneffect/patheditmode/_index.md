@@ -1,21 +1,21 @@
 ---
 title: PathEditMode
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica cómo se mueve la trayectoria de movimiento cuando se mueve la forma. Lectura/escritura MotionPathEditModeaspose.slides.animation/motionpatheditmode.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Especifica cómo se mueve la ruta de movimiento cuando la forma se mueve. Leyendo/escribiendo MotionPathEditModeaspose.slides.animation/motionpatheditmode.
 type: docs
 weight: 70
 url: /es/aspose.slides.animation/imotioneffect/patheditmode/
 ---
 
-## Propiedad IMotionEffect.PathEditMode
+## IMotionEffect.PathEditMode property
 
-Especifica cómo se mueve la trayectoria de movimiento cuando se mueve la forma. Lectura/escritura [`MotionPathEditMode`](../../motionpatheditmode).
+Especifica cómo se mueve la ruta de movimiento cuando la forma se mueve. Leyendo/escribiendo [`MotionPathEditMode`](../../motionpatheditmode).
 
 ```csharp
 public MotionPathEditMode PathEditMode { get; set; }
 ```
 
-### Véase también
+### See Also
 
 * enum [MotionPathEditMode](../../motionpatheditmode)
 * interface [IMotionEffect](../../imotioneffect)

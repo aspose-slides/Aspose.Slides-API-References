@@ -7,7 +7,7 @@ weight: 80
 url: /fr/aspose.slides.charts/chartdatacell/row/
 ---
 
-## Propriété ChartDataCell.Row
+## ChartDataCell.Row property
 
 Renvoie l'index de la ligne de la feuille de calcul dans laquelle se trouve la cellule. Lecture seule Int32.
 
@@ -15,7 +15,7 @@ Renvoie l'index de la ligne de la feuille de calcul dans laquelle se trouve la c
 public int Row { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [ChartDataCell](../../chartdatacell)
 * espace de noms [Aspose.Slides.Charts](../../chartdatacell)

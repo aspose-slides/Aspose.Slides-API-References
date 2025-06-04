@@ -1,7 +1,7 @@
 ---
 title: Alignment
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置选项卡的对齐样式。可读/写 TabAlignmentaspose.slides/tabalignment。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置标签的对齐样式。可读写 TabAlignmentaspose.slides/tabalignment。
 type: docs
 weight: 10
 url: /zh/aspose.slides/itab/alignment/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/itab/alignment/
 
 ## ITab.Alignment 属性
 
-返回或设置选项卡的对齐样式。可读/写 [`TabAlignment`](../../tabalignment)。
+返回或设置标签的对齐样式。可读写 [`TabAlignment`](../../tabalignment)。
 
 ```csharp
 public TabAlignment Alignment { get; set; }
 ```
 
-### 参见
+### 另见
 
 * 枚举 [TabAlignment](../../tabalignment)
 * 接口 [ITab](../../itab)

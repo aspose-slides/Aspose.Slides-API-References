@@ -1,7 +1,7 @@
 ---
 title: PixelFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 指定生成图像的像素格式。读/写 ImagePixelFormat aspose.slides.export/imagepixelformat.
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定生成图像的像素格式。读/写 ImagePixelFormataspose.slides/imagepixelformat。
 type: docs
 weight: 80
 url: /zh/aspose.slides.export/tiffoptions/pixelformat/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/tiffoptions/pixelformat/
 public ImagePixelFormat PixelFormat { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 枚举 [ImagePixelFormat](../../imagepixelformat)
 * 类 [TiffOptions](../../tiffoptions)

@@ -1,15 +1,15 @@
 ---
 title: IsNumberFormatLinkedToSource
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Lecture/écriture de Booléen.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Lire/écrire Booléen.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource/
 ---
 
-## Propriété IDataLabelFormat.IsNumberFormatLinkedToSource
+## IDataLabelFormat.IsNumberFormatLinkedToSource propriété
 
-Lecture/écriture de Booléen.
+Lire/écrire Booléen.
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }
@@ -17,9 +17,9 @@ public bool IsNumberFormatLinkedToSource { get; set; }
 
 ### Remarques
 
-Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection d'étiquettes de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété IsNumberFormatLinkedToSource pour les nouvelles étiquettes de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété IsNumberFormatLinkedToSource pour toutes les étiquettes de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" fait que tous DataLabels[i].IsNumberFormatLinkedToSource est égal à val).
+Si le parent de cet objet DataLabelFormat est une collection DataLabelCollection de libellés de données, alors cette propriété obtient ou définit la valeur par défaut de la propriété IsNumberFormatLinkedToSource pour les nouveaux libellés de données dans la collection DataLabelCollection. Définir cette propriété avec une valeur définit également cette valeur pour la propriété IsNumberFormatLinkedToSource pour tous les libellés de données dans la collection DataLabelCollection (c'est-à-dire que "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" fait en sorte que tous les DataLabels[i].IsNumberFormatLinkedToSource soient égaux à val).
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IDataLabelFormat](../../idatalabelformat)
 * namespace [Aspose.Slides.Charts](../../idatalabelformat)

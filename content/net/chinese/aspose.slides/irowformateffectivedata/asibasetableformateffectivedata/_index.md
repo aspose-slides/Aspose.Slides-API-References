@@ -1,7 +1,7 @@
 ---
 title: AsIBaseTableFormatEffectiveData
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IBaseTableFormatEffectiveData 接口。只读 IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基本的 IBaseTableFormatEffectiveData 接口。只读 IBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata。
 type: docs
 weight: 10
 url: /zh/aspose.slides/irowformateffectivedata/asibasetableformateffectivedata/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/irowformateffectivedata/asibasetableformateffectivedata/
 
 ## IRowFormatEffectiveData.AsIBaseTableFormatEffectiveData 属性
 
-允许获取基本 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata)。
+允许获取基本的 IBaseTableFormatEffectiveData 接口。只读 [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata)。
 
 ```csharp
 public IBaseTableFormatEffectiveData AsIBaseTableFormatEffectiveData { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IBaseTableFormatEffectiveData](../../ibasetableformateffectivedata)
 * 接口 [IRowFormatEffectiveData](../../irowformateffectivedata)

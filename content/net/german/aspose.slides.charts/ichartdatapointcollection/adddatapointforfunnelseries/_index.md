@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForFunnelSeries
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren Diagrammtyp Funnel ist.
+description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Funnel ist.
 type: docs
 weight: 120
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforfunnelseries/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointforfunnelser
 
 ## IChartDataPointCollection.AddDataPointForFunnelSeries-Methode
 
-Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Gilt für Serien, deren Diagrammtyp Funnel ist.
+Erschafft den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Funnel ist.
 
 ```csharp
 public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)

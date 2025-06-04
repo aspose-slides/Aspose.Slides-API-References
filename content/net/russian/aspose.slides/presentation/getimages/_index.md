@@ -1,6 +1,6 @@
 ---
 title: GetImages
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Возвращает объекты Image для всех слайдов презентации.
 type: docs
 weight: 310
@@ -19,11 +19,11 @@ public IImage[] GetImages(IRenderingOptions options)
 | --- | --- | --- |
 | options | IRenderingOptions | Опции Tiff. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Объекты Image.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -35,7 +35,7 @@ public IImage[] GetImages(IRenderingOptions options)
 
 ## GetImages(IRenderingOptions, int[]) {#getimages_1}
 
-Возвращает объекты Thumbnail Image для указанных слайдов презентации.
+Возвращает объекты изображений миниатюр для указанных слайдов презентации.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides)
@@ -46,11 +46,11 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides)
 | options | IRenderingOptions | Опции Tiff. |
 | slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Объекты Image.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -62,7 +62,7 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides)
 
 ## GetImages(IRenderingOptions, float, float) {#getimages_4}
 
-Возвращает объекты Thumbnail Image для всех слайдов презентации с пользовательским масштабированием.
+Возвращает объекты изображений миниатюр для всех слайдов презентации с пользовательским масштабированием.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
@@ -71,14 +71,14 @@ public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | options | IRenderingOptions | Опции Tiff. |
-| scaleX | Single | Значение, на которое нужно масштабировать этот Thumbnail в направлении оси x. |
-| scaleY | Single | Значение, на которое нужно масштабировать этот Thumbnail в направлении оси y. |
+| scaleX | Single | Значение, на которое нужно масштабировать эту миниатюру в направлении оси x. |
+| scaleY | Single | Значение, на которое нужно масштабировать эту миниатюру в направлении оси y. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Объекты Image.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -90,7 +90,7 @@ public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
 
 ## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
 
-Возвращает объекты Thumbnail Image для указанных слайдов презентации с пользовательским масштабированием.
+Возвращает объекты изображений миниатюр для указанных слайдов презентации с пользовательским масштабированием.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
@@ -100,14 +100,14 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX,
 | --- | --- | --- |
 | options | IRenderingOptions | Опции Tiff. |
 | slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| scaleX | Single | Значение, на которое нужно масштабировать этот Thumbnail в направлении оси x. |
-| scaleY | Single | Значение, на которое нужно масштабировать этот Thumbnail в направлении оси y. |
+| scaleX | Single | Значение, на которое нужно масштабировать эту миниатюру в направлении оси x. |
+| scaleY | Single | Значение, на которое нужно масштабировать эту миниатюру в направлении оси y. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Объекты Image.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -119,7 +119,7 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX,
 
 ## GetImages(IRenderingOptions, Size) {#getimages_5}
 
-Возвращает объекты Thumbnail Image для всех слайдов презентации с указанным размером.
+Возвращает объекты изображений миниатюр для всех слайдов презентации с заданным размером.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, Size imageSize)
@@ -128,13 +128,13 @@ public IImage[] GetImages(IRenderingOptions options, Size imageSize)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | options | IRenderingOptions | Опции Tiff. |
-| imageSize | Size | Размер изображения для создания. |
+| imageSize | Size | Размер создаваемого изображения. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Объекты Image.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
@@ -146,7 +146,7 @@ public IImage[] GetImages(IRenderingOptions options, Size imageSize)
 
 ## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
 
-Возвращает объекты Thumbnail Image для указанных слайдов презентации с указанным размером.
+Возвращает объекты изображений миниатюр для указанных слайдов презентации с заданным размером.
 
 ```csharp
 public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
@@ -156,13 +156,13 @@ public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSiz
 | --- | --- | --- |
 | options | IRenderingOptions | Опции Tiff. |
 | slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| imageSize | Size | Размер изображения для создания. |
+| imageSize | Size | Размер создаваемого изображения. |
 
-### Возвращаемое значение
+### Возврат Значения
 
 Объекты Image.
 
-### См. Также
+### Смотрите также
 
 * интерфейс [IImage](../../iimage)
 * интерфейс [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)

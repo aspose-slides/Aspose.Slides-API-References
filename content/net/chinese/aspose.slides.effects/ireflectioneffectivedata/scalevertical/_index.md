@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定垂直缩放因子，负缩放会导致翻转。百分比 只读 双精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定垂直缩放因子，负缩放会导致翻转。 （百分比）只读双精度型。
 type: docs
 weight: 110
 url: /zh/aspose.slides.effects/ireflectioneffectivedata/scalevertical/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/scalevertical/
 
 ## IReflectionEffectiveData.ScaleVertical 属性
 
-指定垂直缩放因子，负缩放会导致翻转。（百分比）只读双精度浮点数。
+指定垂直缩放因子，负缩放会导致翻转。 （百分比）只读双精度型。
 
 ```csharp
 public double ScaleVertical { get; }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ireflectioneffectivedata)

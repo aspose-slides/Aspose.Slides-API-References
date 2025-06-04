@@ -1,13 +1,13 @@
 ---
 title: FrameSize
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Получает размер кадра.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/presentationanimationsgenerator/framesize/
 ---
 
-## Поле PresentationAnimationsGenerator.FrameSize
+## PresentationAnimationsGenerator.FrameSize поле
 
 Получает размер кадра.
 

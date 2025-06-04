@@ -1,21 +1,21 @@
 ---
 title: SlideId
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ID einer Folie zurück. Nur lesbar UInt32.
+description: Gibt die ID einer Folie zurück. Nur lesbarer UInt32.
 type: docs
 weight: 90
 url: /de/aspose.slides/ibaseslide/slideid/
 ---
 
-## IBaseSlide.SlideId-Eigenschaft
+## IBaseSlide.SlideId Eigenschaft
 
-Gibt die ID einer Folie zurück. Nur lesbar UInt32.
+Gibt die ID einer Folie zurück. Nur lesbarer UInt32.
 
 ```csharp
 public uint SlideId { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBaseSlide](../../ibaseslide)
 * Namespace [Aspose.Slides](../../ibaseslide)

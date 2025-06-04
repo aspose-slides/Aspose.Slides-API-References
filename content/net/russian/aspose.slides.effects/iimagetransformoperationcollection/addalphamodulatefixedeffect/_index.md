@@ -17,7 +17,7 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| amount | Single | Процентное количество для изменения alpha. |
+| amount | Single | Процентное значение для масштабирования альфа. |
 
 ### Возвращаемое значение
 

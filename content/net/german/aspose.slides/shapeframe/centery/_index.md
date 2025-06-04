@@ -1,15 +1,15 @@
 ---
 title: CenterY
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Y-Koordinate des Zentrums eines Rahmens zurück. Nur-lesbares Single.
+description: Gibt die Y-Koordinate des Zentrums eines Rahmens zurück. Nur lesbar Single.
 type: docs
 weight: 30
 url: /de/aspose.slides/shapeframe/centery/
 ---
 
-## ShapeFrame.CenterY Eigenschaft
+## ShapeFrame.CenterY-Eigenschaft
 
-Gibt die Y-Koordinate des Zentrums eines Rahmens zurück. Nur-lesbares Single.
+Gibt die Y-Koordinate des Zentrums eines Rahmens zurück. Nur lesbar Single.
 
 ```csharp
 public float CenterY { get; }

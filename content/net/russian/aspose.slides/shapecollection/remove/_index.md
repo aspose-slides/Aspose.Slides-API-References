@@ -1,15 +1,15 @@
 ---
 title: Remove
-second_title: Справка по API Aspose.Slides для .NET
-description: Удаляет первое вхождение конкретной фигуры из коллекции.
+second_title: Aspose.Sildes для .NET API Reference
+description: Удаляет первое вхождение определенной формы из коллекции.
 type: docs
 weight: 420
 url: /ru/aspose.slides/shapecollection/remove/
 ---
 
-## Метод ShapeCollection.Remove
+## ShapeCollection.Remove метод
 
-Удаляет первое вхождение конкретной фигуры из коллекции.
+Удаляет первое вхождение определенной формы из коллекции.
 
 ```csharp
 public void Remove(IShape shape)
@@ -17,7 +17,7 @@ public void Remove(IShape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | IShape | Фигура, которую необходимо удалить из коллекции. |
+| shape | IShape | Форма, которую нужно удалить из коллекции. |
 
 ### См. также
 

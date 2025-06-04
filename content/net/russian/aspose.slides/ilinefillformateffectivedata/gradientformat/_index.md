@@ -1,21 +1,21 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает формат заливки градиентом. Только для чтения IGradientFormatEffectiveDataaspose.slides/igradientformateffectivedata.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает формат градиентной заливки. Только для чтения IGradientFormatEffectiveDataaspose.slides/igradientformateffectivedata.
 type: docs
 weight: 30
 url: /ru/aspose.slides/ilinefillformateffectivedata/gradientformat/
 ---
 
-## Свойство ILineFillFormatEffectiveData.GradientFormat
+## ILineFillFormatEffectiveData.GradientFormat свойство
 
-Возвращает формат заливки градиентом. Только для чтения [`IGradientFormatEffectiveData`](../../igradientformateffectivedata).
+Возвращает формат градиентной заливки. Только для чтения [`IGradientFormatEffectiveData`](../../igradientformateffectivedata).
 
 ```csharp
 public IGradientFormatEffectiveData GradientFormat { get; }
 ```
 
-### См. также
+### Также смотрите
 
 * интерфейс [IGradientFormatEffectiveData](../../igradientformateffectivedata)
 * интерфейс [ILineFillFormatEffectiveData](../../ilinefillformateffectivedata)

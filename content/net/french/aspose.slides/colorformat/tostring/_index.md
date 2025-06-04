@@ -7,7 +7,7 @@ weight: 190
 url: /fr/aspose.slides/colorformat/tostring/
 ---
 
-## Méthode ColorFormat.ToString
+## ColorFormat.ToString méthode
 
 Renvoie une chaîne qui représente le format de couleur actuel.
 

@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Anzahl von Videodateien in der Sammlung zurück. Nur-Lesen Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der Videodateien in der Sammlung zurück. Nur-Lese Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/videocollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/videocollection/count/
 
 ## VideoCollection.Count-Eigenschaft
 
-Gibt eine Anzahl von Videodateien in der Sammlung zurück. Nur-Lesen Int32.
+Gibt die Anzahl der Videodateien in der Sammlung zurück. Nur-Lese Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [VideoCollection](../../videocollection)
 * Namespace [Aspose.Slides](../../videocollection)

@@ -1,15 +1,15 @@
 ---
 title: SendWarning
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Si el receptor no es nulo, envía una advertencia a un receptor específico y lanza la AbortRequestedException si el receptor decide abortar una operación.
+second_title: Aspose.Slides para .NET API Reference
+description: Si el receptor no es nulo, envía una advertencia a un receptor especificado y lanza la AbortRequestedException si el receptor decide abortar una operación.
 type: docs
 weight: 30
 url: /es/aspose.slides.warnings/iwarninginfo/sendwarning/
 ---
 
-## Método IWarningInfo.SendWarning
+## IWarningInfo.SendWarning método
 
-Si el receptor no es nulo, envía una advertencia a un receptor específico y lanza la AbortRequestedException si el receptor decide abortar una operación.
+Si el receptor no es nulo, envía una advertencia a un receptor especificado y lanza la AbortRequestedException si el receptor decide abortar una operación.
 
 ```csharp
 public void SendWarning(IWarningCallback receiver)
@@ -19,11 +19,11 @@ public void SendWarning(IWarningCallback receiver)
 | --- | --- | --- |
 | receiver | IWarningCallback | Objeto receptor [`IWarningCallback`](../../iwarningcallback) |
 
-### Véase también
+### Ver También
 
 * interfaz [IWarningCallback](../../iwarningcallback)
 * interfaz [IWarningInfo](../../iwarninginfo)
 * espacio de nombres [Aspose.Slides.Warnings](../../iwarninginfo)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

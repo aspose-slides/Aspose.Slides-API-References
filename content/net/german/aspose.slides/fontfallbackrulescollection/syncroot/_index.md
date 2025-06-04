@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
+description: Gibt einen Synchronisationswurzel zurück. Nur-Lese-Objekt.
 type: docs
 weight: 50
 url: /de/aspose.slides/fontfallbackrulescollection/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fontfallbackrulescollection/syncroot/
 
 ## FontFallBackRulesCollection.SyncRoot-Eigenschaft
 
-Gibt eine Synchronisierungswurzel zurück. Nur-Lese-Objekt.
+Gibt einen Synchronisationswurzel zurück. Nur-Lese-Objekt.
 
 ```csharp
 public object SyncRoot { get; }

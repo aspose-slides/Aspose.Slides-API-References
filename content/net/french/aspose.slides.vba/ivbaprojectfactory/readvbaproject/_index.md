@@ -1,7 +1,7 @@
 ---
 title: ReadVbaProject
-second_title: Référence API Aspose.Slides pour .NET
-description: Lit le projet VBA à partir du conteneur OLE.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Lit un projet VBA à partir d'un conteneur OLE.
 type: docs
 weight: 20
 url: /fr/aspose.slides.vba/ivbaprojectfactory/readvbaproject/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.vba/ivbaprojectfactory/readvbaproject/
 
 ## IVbaProjectFactory.ReadVbaProject méthode
 
-Lit le projet VBA à partir du conteneur OLE.
+Lit un projet VBA à partir d'un conteneur OLE.
 
 ```csharp
 public IVbaProject ReadVbaProject(byte[] data)
@@ -17,11 +17,11 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| data | Byte[] | Données Ole en Byte[] |
+| data | Byte[] | Données OLE Byte[] |
 
 ### Valeur de retour
 
-Projets VBA lus
+Projet VBA lu
 
 ### Voir aussi
 

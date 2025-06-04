@@ -1,7 +1,7 @@
 ---
 title: AfterAnimationColor
 second_title: Aspose.Slides für .NET API Referenz
-description: Definiert eine Nach-Animationsfarbe für den Effekt. Lesen/Schreiben von IColorFormataspose.slides/icolorformat.
+description: Definierte eine Nachanimationsfarbe für den Effekt. Lese-/Schreibzugriff auf IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.animation/ieffect/afteranimationcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/ieffect/afteranimationcolor/
 
 ## IEffect.AfterAnimationColor-Eigenschaft
 
-Definiert eine Nach-Animationsfarbe für den Effekt. Lesen/Schreiben von [`IColorFormat`](../../../aspose.slides/icolorformat).
+Definierte eine Nachanimationsfarbe für den Effekt. Lese-/Schreibzugriff auf [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat AfterAnimationColor { get; set; }
@@ -21,18 +21,18 @@ public IColorFormat AfterAnimationColor { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Holen Sie sich den ersten Effekt der ersten Folie.
+    // Erhalte den ersten Effekt der ersten Folie.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Ändern Sie den Effekt Nach-Animations-Typ in "Farbe"
+    // Ändere den Effekt Nachanimationstyp auf "Color"
     firstSlideEffect.AfterAnimationType = AfterAnimationType.Color;
     
-    // Setzen Sie die Nach-Animationsfarbe des Effekts.
+    // Setze die Nachanimationsfarbe des Effekts.
     firstSlideEffect.AfterAnimationColor.Color = Color.Green;
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IColorFormat](../../../aspose.slides/icolorformat)
 * Schnittstelle [IEffect](../../ieffect)

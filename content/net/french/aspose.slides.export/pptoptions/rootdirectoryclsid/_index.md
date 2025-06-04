@@ -1,13 +1,13 @@
 ---
 title: RootDirectoryClsid
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le GUID de la classe d'objet CLSID qui est stocké dans l'entrée du répertoire racine. Peut être utilisé pour l'activation COM de l'application des documents. La valeur par défaut est 64818D11-4F9B-11CF-86EA-00AA00B929E8 qui correspond à Microsoft Powerpoint.Slide.8.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente le GUID de la classe d'objet CLSID qui est stocké dans l'entrée du répertoire racine. Peut être utilisé pour l'activation COM de l'application de documents. La valeur par défaut est 64818D11-4F9B-11CF-86EA-00AA00B929E8 qui correspond à Microsoft Powerpoint.Slide.8.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/pptoptions/rootdirectoryclsid/
 ---
 
-## Propriété PptOptions.RootDirectoryClsid
+## PptOptions.RootDirectoryClsid propriété
 
 Représente le GUID de la classe d'objet (CLSID) qui est stocké dans l'entrée du répertoire racine. Peut être utilisé pour l'activation COM de l'application du document. La valeur par défaut est '64818D11-4F9B-11CF-86EA-00AA00B929E8' qui correspond à 'Microsoft Powerpoint.Slide.8'.
 
@@ -23,7 +23,7 @@ using (Presentation pres = new Presentation())
 {
     PptOptions pptOptions = new PptOptions();
     
-    /// définir le CLSID à 'Microsoft Powerpoint.Show.8'
+    /// définir CLSID à 'Microsoft Powerpoint.Show.8'
     pptOptions.RootDirectoryClsid = new Guid("64818D10-4F9B-11CF-86EA-00AA00B929E8");
     
     pres.Save("pres.ppt", SaveFormat.Ppt, pptOptions);

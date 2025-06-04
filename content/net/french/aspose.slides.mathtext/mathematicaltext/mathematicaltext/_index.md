@@ -1,7 +1,7 @@
 ---
 title: MathematicalText
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Constructeur par défaut crée une valeur String.Empty
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Le constructeur par défaut crée une valeur String.Empty
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/mathematicaltext/mathematicaltext/
@@ -17,16 +17,16 @@ public MathematicalText()
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
 MathematicalText mathText = new MathematicalText();
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [MathematicalText](../../mathematicaltext)
+* class [MathematicalText](../../mathematicaltext)
 * namespace [Aspose.Slides.MathText](../../mathematicaltext)
 * assembly [Aspose.Slides](../../../)
 
@@ -46,16 +46,16 @@ public MathematicalText(char mathSymbol)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
 MathematicalText mathText = new MathematicalText('$');
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [MathematicalText](../../mathematicaltext)
+* class [MathematicalText](../../mathematicaltext)
 * namespace [Aspose.Slides.MathText](../../mathematicaltext)
 * assembly [Aspose.Slides](../../../)
 
@@ -63,7 +63,7 @@ MathematicalText mathText = new MathematicalText('$');
 
 ## MathematicalText(string) {#constructor_2}
 
-Créer MathematicalText à partir de texte
+Créer MathematicalText à partir d'un texte
 
 ```csharp
 public MathematicalText(string mathText)
@@ -71,20 +71,20 @@ public MathematicalText(string mathText)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| mathText | String | valeur de texte |
+| mathText | String | valeur texte |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
 MathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [MathematicalText](../../mathematicaltext)
+* class [MathematicalText](../../mathematicaltext)
 * namespace [Aspose.Slides.MathText](../../mathematicaltext)
 * assembly [Aspose.Slides](../../../)
 
@@ -92,7 +92,7 @@ MathematicalText mathText = new MathematicalText("x+y");
 
 ## MathematicalText(string, IPortionFormat) {#constructor_3}
 
-Créer MathematicalText à partir de texte et paramètres de format
+Créer MathematicalText à partir d'un texte et des paramètres de format
 
 ```csharp
 public MathematicalText(string mathText, IPortionFormat portionFormat)
@@ -100,12 +100,12 @@ public MathematicalText(string mathText, IPortionFormat portionFormat)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| mathText | String | valeur de texte |
+| mathText | String | valeur texte |
 | portionFormat | IPortionFormat | paramètres de format de texte |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -113,10 +113,10 @@ IPortionFormat format = new PortionFormat() { FontHeight = 12 };
 MathematicalText mathText = new MathematicalText("x+y", format);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IPortionFormat](../../../aspose.slides/iportionformat)
-* classe [MathematicalText](../../mathematicaltext)
+* class [MathematicalText](../../mathematicaltext)
 * namespace [Aspose.Slides.MathText](../../mathematicaltext)
 * assembly [Aspose.Slides](../../../)
 

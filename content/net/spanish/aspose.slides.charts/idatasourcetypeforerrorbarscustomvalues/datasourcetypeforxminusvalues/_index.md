@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXMinusValues
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de propiedad XMinus de los puntos de datos para los valores personalizados de barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lectura/escritura DataSourceTypeaspose.slides.charts/datasourcetype.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de propiedad XMinus de los puntos de datos para los valores personalizados de las barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lectura/escritura DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 10
 url: /es/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXMinusValues property
 
-Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de propiedad XMinus de los puntos de datos para los valores personalizados de barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lectura/escritura [`DataSourceType`](../../datasourcetype).
+Especifica si la propiedad AsCell, AsLiteralString o AsLiteralDouble es actual en el objeto de propiedad XMinus de los puntos de datos para los valores personalizados de las barras de error. En otras palabras, especifica el tipo de valor de la propiedad ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Lectura/escritura [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXMinusValues { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [DataSourceType](../../datasourcetype)
 * interface [IDataSourceTypeForErrorBarsCustomValues](../../idatasourcetypeforerrorbarscustomvalues)

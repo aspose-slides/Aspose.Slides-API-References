@@ -1,6 +1,6 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt den Text-Autofit-Modus dar.
 type: docs
 weight: 10610
@@ -21,8 +21,8 @@ public enum TextAutofitType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | Nicht definiert. |
 | None | `0` | Kein Autofit. |
-| Normal | `1` | Normaler Autofit. Schriftgröße und Zeilenabstand werden reduziert, um in die Form zu passen. |
-| Shape | `2` | Form-Autofit. Die Formgröße wird geändert, um den Text anzupassen. |
+| Normal | `1` | Normaler Autofit. Schriftgrad und Zeilenabstand werden verringert, um in die Form zu passen. |
+| Shape | `2` | Form-Autofit. Die Formgröße wird geändert, um zum Text zu passen. |
 
 ### Siehe auch
 

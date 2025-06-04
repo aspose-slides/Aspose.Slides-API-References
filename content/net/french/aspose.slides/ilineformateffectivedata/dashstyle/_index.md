@@ -1,15 +1,15 @@
 ---
 title: DashStyle
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le style de ligne en pointillés. Lecture seule LineDashStyleaspose.slides/linedashstyle.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le style de tiret de ligne. En lecture seule LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ilineformateffectivedata/dashstyle/
 ---
 
-## Propriété ILineFormatEffectiveData.DashStyle
+## ILineFormatEffectiveData.DashStyle propriété
 
-Renvoie le style de ligne en pointillés. Lecture seule [`LineDashStyle`](../../linedashstyle).
+Renvoie le style de tiret de ligne. En lecture seule [`LineDashStyle`](../../linedashstyle).
 
 ```csharp
 public LineDashStyle DashStyle { get; }

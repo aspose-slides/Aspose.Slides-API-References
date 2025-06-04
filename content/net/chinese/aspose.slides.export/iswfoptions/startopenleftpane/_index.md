@@ -1,7 +1,7 @@
 ---
 title: StartOpenLeftPane
-second_title: Aspose.Sildes for .NET API 参考
-description: 开始时左侧面板已打开。可以在 flashvars 中覆盖。默认值为 false。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从打开的左侧面板开始。可在 flashvars 中覆盖。默认值为 false。
 type: docs
 weight: 160
 url: /zh/aspose.slides.export/iswfoptions/startopenleftpane/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/iswfoptions/startopenleftpane/
 
 ## ISwfOptions.StartOpenLeftPane 属性
 
-开始时左侧面板已打开。可以在 flashvars 中覆盖。默认值为 false。
+从打开的左侧面板开始。可在 flashvars 中覆盖。默认值为 false。
 
 ```csharp
 public bool StartOpenLeftPane { get; set; }

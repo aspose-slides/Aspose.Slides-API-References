@@ -1,15 +1,15 @@
 ---
 title: InsertComment
-second_title: Aspose.Slides для .NET API Справочник
-description: Вставить новый комментарий в коллекцию по указанному индексу.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Вставьте новый комментарий в коллекцию по указанному индексу.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icommentcollection/insertcomment/
 ---
 
-## Метод ICommentCollection.InsertComment
+## ICommentCollection.InsertComment метод
 
-Вставить новый комментарий в коллекцию по указанному индексу.
+Вставьте новый комментарий в коллекцию по указанному индексу.
 
 ```csharp
 public IComment InsertComment(int index, string text, ISlide slide, PointF position, 
@@ -28,7 +28,7 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
 
 Вставленный комментарий.
 
-### См. Также
+### См. также
 
 * интерфейс [IComment](../../icomment)
 * интерфейс [ISlide](../../islide)

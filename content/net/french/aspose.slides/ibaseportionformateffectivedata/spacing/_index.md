@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie l'incrément d'espacement entre les caractères. En lecture seule Single.
+description: Renvoie l'incrément d'espacement intercaractères. Lecture seule Single.
 type: docs
 weight: 220
 url: /fr/aspose.slides/ibaseportionformateffectivedata/spacing/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ibaseportionformateffectivedata/spacing/
 
 ## Propriété IBasePortionFormatEffectiveData.Spacing
 
-Renvoie l'incrément d'espacement entre les caractères. En lecture seule Single.
+Renvoie l'incrément d'espacement intercaractères. Lecture seule Single.
 
 ```csharp
 public float Spacing { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBasePortionFormatEffectiveData](../../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../ibaseportionformateffectivedata)

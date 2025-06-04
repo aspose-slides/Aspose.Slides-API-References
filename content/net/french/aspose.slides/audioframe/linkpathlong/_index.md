@@ -1,6 +1,6 @@
 ---
 title: LinkPathLong
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Renvoie ou définit le nom d'un fichier audio qui est lié à un AudioFrame. Lecture/écriture String.
 type: docs
 weight: 100
@@ -15,7 +15,7 @@ Renvoie ou définit le nom d'un fichier audio qui est lié à un AudioFrame. Lec
 public string LinkPathLong { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [AudioFrame](../../audioframe)
 * espace de noms [Aspose.Slides](../../audioframe)

@@ -1,15 +1,15 @@
 ---
 title: Function
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Toma una función de un argumento utilizando esta instancia como el nombre de la función
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Toma una función de un argumento usando esta instancia como el nombre de la función
 type: docs
 weight: 50
 url: /es/aspose.slides.mathtext/imathelement/function/
 ---
 
-## Función(IMathElement) {#function}
+## Function(IMathElement) {#function}
 
-Toma una función de un argumento utilizando esta instancia como el nombre de la función
+Toma una función de un argumento usando esta instancia como el nombre de la función
 
 ```csharp
 public IMathFunction Function(IMathElement functionArgument)
@@ -34,7 +34,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionName.Function(functionArg);
 ```
 
-### Ve También
+### Véase También
 
 * interfaz [IMathFunction](../../imathfunction)
 * interfaz [IMathElement](../../imathelement)
@@ -43,9 +43,9 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## Función(string) {#function_1}
+## Function(string) {#function_1}
 
-Toma una función de un argumento utilizando esta instancia como el nombre de la función
+Toma una función de un argumento usando esta instancia como el nombre de la función
 
 ```csharp
 public IMathFunction Function(string functionArgument)
@@ -69,7 +69,7 @@ IMathElement functionName = new MathematicalText("sin");
 IMathFunction func = functionName.Function("x");
 ```
 
-### Ve También
+### Véase También
 
 * interfaz [IMathFunction](../../imathfunction)
 * interfaz [IMathElement](../../imathelement)

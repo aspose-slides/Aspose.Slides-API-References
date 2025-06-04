@@ -1,6 +1,6 @@
 ---
 title: CreateAlphaInverse
-second_title: Aspose.Slidess for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建 Alpha 反转效果。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public IAlphaInverse CreateAlphaInverse()
 
 Alpha 反转效果。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAlphaInverse](../../ialphainverse)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

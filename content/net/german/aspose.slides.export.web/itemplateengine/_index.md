@@ -1,15 +1,15 @@
 ---
 title: ITemplateEngine
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Template-Engine dar, die Vorlage und Datenpaar in das resultierende Ausgabeformat, normalerweise HTML, umwandelt.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt eine Template-Engine dar, die ein Template und Datenpaare in das resultierende Ausgabeformat, normalerweise HTML, umwandelt.
 type: docs
 weight: 4430
 url: /de/aspose.slides.export.web/itemplateengine/
 ---
 
-## ITemplateEngine Schnittstelle
+## ITemplateEngine-Schnittstelle
 
-Stellt eine Template-Engine dar, die Vorlage und Datenpaar in das resultierende Ausgabeformat (normalerweise HTML) umwandelt.
+Stellt eine Template-Engine dar, die ein Template und Datenpaare in das resultierende Ausgabeformat (normalerweise HTML) umwandelt.
 
 ```csharp
 public interface ITemplateEngine
@@ -19,8 +19,8 @@ public interface ITemplateEngine
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Fügt die Vorlage der Vorlagenkollektion hinzu. |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Wandelt die Vorlage mit dem angegebenen Schlüssel und dem Modellobjekt in die Ausgabe um. |
+| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Fügt das Template zur Template-Sammlung hinzu. |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Wandelt das Template mit dem angegebenen Schlüssel und dem Modellobjekt in die Ausgabe um. |
 
 ### Siehe auch
 

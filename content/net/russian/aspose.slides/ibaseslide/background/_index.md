@@ -1,13 +1,13 @@
 ---
 title: Background
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает фон слайда. Только для чтения IBackgroundaspose.slides/ibackground.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ibaseslide/background/
 ---
 
-## Свойство IBaseSlide.Background
+## IBaseSlide.Background свойство
 
 Возвращает фон слайда. Только для чтения [`IBackground`](../../ibackground).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseslide/background/
 public IBackground Background { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IBackground](../../ibackground)
 * интерфейс [IBaseSlide](../../ibaseslide)

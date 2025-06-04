@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: type docs
 weight: 7680
 url: /es/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
@@ -12,11 +12,11 @@ url: /es/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
 ```
 
-### Véase También
+### Ver También
 
 * clase [MasterSlide](../../aspose.slides/masterslide)
 * clase [ForEach](../foreach)
-* espacio de nombres [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
-* ensamblaje [Aspose.Slides](../../)
+* namespace [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

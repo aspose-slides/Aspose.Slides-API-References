@@ -1,7 +1,7 @@
 ---
 title: BlurEffect
-second_title: Aspose.Slides for .NET API 参考
-description: 模糊效果。读/写 IBlur aspose.slides.effects/iblur。
+second_title: Aspose.Sildes for .NET API Reference
+description: 模糊效果。读/写 IBluraspose.slides.effects/iblur。
 type: docs
 weight: 10
 url: /zh/aspose.slides/effectformat/blureffect/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/effectformat/blureffect/
 public IBlur BlurEffect { get; set; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IBlur](../../../aspose.slides.effects/iblur)
 * 类 [EffectFormat](../../effectformat)

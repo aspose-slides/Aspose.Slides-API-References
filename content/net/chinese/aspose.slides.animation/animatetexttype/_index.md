@@ -1,6 +1,6 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示动画效果的动画文本类型。
 type: docs
 weight: 40
@@ -19,11 +19,11 @@ public enum AnimateTextType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| AllAtOnce | `0` | 同时动画化所有文本。 |
-| ByWord | `1` | 按词语动画化文本。 |
-| ByLetter | `2` | 按字母动画化文本。 |
+| AllAtOnce | `0` | 同时动画所有文本。 |
+| ByWord | `1` | 逐字动画文本。 |
+| ByLetter | `2` | 逐字母动画文本。 |
 
-### 另见
+### 参见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

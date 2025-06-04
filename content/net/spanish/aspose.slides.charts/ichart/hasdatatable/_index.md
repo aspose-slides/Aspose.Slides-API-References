@@ -17,8 +17,8 @@ public bool HasDataTable { get; set; }
 
 ### Ver También
 
-* interfaz [IChart](../../ichart)
-* espacio de nombres [Aspose.Slides.Charts](../../ichart)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IChart](../../ichart)
+* espacio de nombres [Aspose.Slides.Charts](../../ichart)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

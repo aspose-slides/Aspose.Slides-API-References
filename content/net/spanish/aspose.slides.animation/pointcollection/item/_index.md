@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve un punto en el índice especificado.
 type: docs
 weight: 30
@@ -21,9 +21,9 @@ public IPoint this[int index] { get; }
 
 ### Véase también
 
-* interface [IPoint](../../ipoint)
-* class [PointCollection](../../pointcollection)
-* namespace [Aspose.Slides.Animation](../../pointcollection)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IPoint](../../ipoint)
+* clase [PointCollection](../../pointcollection)
+* espacio de nombres [Aspose.Slides.Animation](../../pointcollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

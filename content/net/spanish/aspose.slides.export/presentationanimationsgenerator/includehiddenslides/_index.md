@@ -1,7 +1,7 @@
 ---
 title: IncludeHiddenSlides
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Obtiene o establece si las diapositivas ocultas deben incluirse.
+second_title: Referencia de la API Aspose.Sildes para .NET
+description: Obtiene o establece si las diapositivas ocultas deben ser incluidas.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/presentationanimationsgenerator/includehiddenslides/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/presentationanimationsgenerator/includehiddenslide
 
 ## Propiedad PresentationAnimationsGenerator.IncludeHiddenSlides
 
-Obtiene o establece si las diapositivas ocultas deben incluirse.
+Obtiene o establece si las diapositivas ocultas deben ser incluidas.
 
 ```csharp
 public bool IncludeHiddenSlides { get; set; }
@@ -30,7 +30,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Véase También
+### Ver también
 
 * clase [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * espacio de nombres [Aspose.Slides.Export](../../presentationanimationsgenerator)

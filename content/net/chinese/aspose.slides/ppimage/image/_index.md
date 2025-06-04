@@ -1,6 +1,6 @@
 ---
 title: Image
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回图像的副本。只读 IImageaspose.slides/iimage。
 type: docs
 weight: 40

@@ -1,7 +1,7 @@
 ---
 title: GetNamesOfTags
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve nombres de etiquetas.
+second_title: Aspose.Slides para .NET API Reference
+description: Devuelve los nombres de las etiquetas.
 type: docs
 weight: 110
 url: /es/aspose.slides/tagcollection/getnamesoftags/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/tagcollection/getnamesoftags/
 
 ## TagCollection.GetNamesOfTags método
 
-Devuelve nombres de etiquetas.
+Devuelve los nombres de las etiquetas.
 
 ```csharp
 public string[] GetNamesOfTags()
@@ -17,7 +17,7 @@ public string[] GetNamesOfTags()
 
 ### Valor de Retorno
 
-Nombres de etiquetas.
+Nombres de las etiquetas.
 
 ### Véase También
 

@@ -7,7 +7,7 @@ weight: 9470
 url: /ru/aspose.slides/schemecolor/
 ---
 
-## Перечисление SchemeColor
+## перечисление SchemeColor
 
 Представляет цвета в цветовой схеме.
 
@@ -17,7 +17,7 @@ public enum SchemeColor
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | NotDefined | `-1` | Цветовая схема не определена. |
 | Background1 | `0` |  |
@@ -38,7 +38,7 @@ public enum SchemeColor
 | Dark2 | `15` |  |
 | Light2 | `16` |  |
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

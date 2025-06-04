@@ -1,7 +1,7 @@
 ---
 title: SetMeteredKey
-second_title: Aspose.Slides for .NET API Reference
-description: 设置计量的公钥和私钥。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置计量公共和私钥。
 type: docs
 weight: 10
 url: /zh/aspose.slides/imetered/setmeteredkey/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imetered/setmeteredkey/
 
 ## IMetered.SetMeteredKey 方法
 
-设置计量的公钥和私钥。
+设置计量公共和私钥。
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -17,8 +17,8 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| publicKey | String | 计量的公钥。 |
-| privateKey | String | 计量的私钥。 |
+| publicKey | String | 计量公共钥匙。 |
+| privateKey | String | 计量私钥。 |
 
 ### 另请参阅
 

@@ -15,7 +15,7 @@ url: /zh/aspose.slides/iprotectionmanager/removeencryption/
 public void RemoveEncryption()
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IProtectionManager](../../iprotectionmanager)
 * 命名空间 [Aspose.Slides](../../iprotectionmanager)

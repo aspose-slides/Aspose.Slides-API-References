@@ -1,13 +1,13 @@
 ---
 title: HeightPercents
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Especifica la altura de un gráfico 3-D como un porcentaje del ancho del gráfico entre 5 y 500 por ciento. Lectura/escritura UInt16.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/irotation3d/heightpercents/
 ---
 
-## IRotation3D.HeightPercents propiedad
+## Propiedad IRotation3D.HeightPercents
 
 Especifica la altura de un gráfico 3-D como un porcentaje del ancho del gráfico (entre 5 y 500 por ciento). Lectura/escritura UInt16.
 

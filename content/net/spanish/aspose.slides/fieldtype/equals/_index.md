@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Referencia de la API de Aspose.Slides para .NET
-description: Verifica si este campo es igual a otro.
+description: Comprueba si este campo es igual a otro.
 type: docs
 weight: 200
 url: /es/aspose.slides/fieldtype/equals/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/fieldtype/equals/
 
 ## Método FieldType.Equals
 
-Verifica si este campo es igual a otro.
+Comprueba si este campo es igual a otro.
 
 ```csharp
 public override bool Equals(object obj)
@@ -19,14 +19,14 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Campo a comparar. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Verdadero si los campos son iguales.
 
-### Véase También
+### Ver también
 
-* clase [FieldType](../../fieldtype)
-* espacio de nombres [Aspose.Slides](../../fieldtype)
-* ensamblaje [Aspose.Slides](../../../)
+* class [FieldType](../../fieldtype)
+* namespace [Aspose.Slides](../../fieldtype)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

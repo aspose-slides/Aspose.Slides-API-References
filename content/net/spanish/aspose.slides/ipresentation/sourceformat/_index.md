@@ -1,21 +1,21 @@
 ---
 title: SourceFormat
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve información sobre desde qué formato se cargó la presentación. Solo lectura SourceFormat aspose.slides/ipresentation/sourceformat.
+description: Devuelve información sobre de qué formato se cargó la presentación. Solo lectura SourceFormataspose.slides/ipresentation/sourceformat.
 type: docs
 weight: 260
 url: /es/aspose.slides/ipresentation/sourceformat/
 ---
 
-## Propiedad IPresentation.SourceFormat
+## IPresentation.SourceFormat property
 
-Devuelve información sobre desde qué formato se cargó la presentación. Solo lectura `SourceFormat`.
+Devuelve información sobre de qué formato se cargó la presentación. Solo lectura `SourceFormat`.
 
 ```csharp
 public SourceFormat SourceFormat { get; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [SourceFormat](../../sourceformat)
 * interface [IPresentation](../../ipresentation)

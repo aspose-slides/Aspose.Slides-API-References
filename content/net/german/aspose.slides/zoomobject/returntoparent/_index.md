@@ -1,6 +1,6 @@
 ---
 title: ReturnToParent
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Ruft das Navigationsverhalten in der Diashow ab oder legt es fest. Lese-/Schreib-Boolean. Standardwert false
 type: docs
 weight: 20
@@ -9,15 +9,15 @@ url: /de/aspose.slides/zoomobject/returntoparent/
 
 ## ZoomObject.ReturnToParent-Eigenschaft
 
-Ruht das Navigationsverhalten in der Diashow ab oder legt es fest. Lese-/Schreib-Boolean. Standardwert: false
+Ruft das Navigationsverhalten in der Diashow ab oder legt es fest. Lese-/Schreib-Boolean. Standardwert: false
 
 ```csharp
 public bool ReturnToParent { get; set; }
 ```
 
-### Anmerkungen
+### Bemerkungen
 
-Ein wahrer Wert der Eigenschaft gibt das Rückkehren zum übergeordneten Navigationsverhalten in der Diashow an.
+Der wahre Wert der Eigenschaft gibt das Rückkehrverhalten zur übergeordneten Navigation in der Diashow an.
 
 ### Beispiele
 
@@ -29,7 +29,7 @@ IZoomFrame zoomFrame = pres.Slides[0].Shapes.AddZoomFrame(150, 20, 50, 50, pres.
 zoomFrame.ReturnToParent = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ZoomObject](../../zoomobject)
 * Namespace [Aspose.Slides](../../zoomobject)

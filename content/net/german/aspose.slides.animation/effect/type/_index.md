@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert den Typ des Effekts. Lese-/Schreibzugriff auf EffectTypeaspose.slides.animation/effecttype.
+description: Definiert den Typ des Effekts. Lese-/schreibbarer EffectTypeaspose.slides.animation/effecttype.
 type: docs
 weight: 140
 url: /de/aspose.slides.animation/effect/type/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/effect/type/
 
 ## Effect.Type-Eigenschaft
 
-Definiert den Typ des Effekts. Lese-/Schreibzugriff auf [`EffectType`](../../effecttype).
+Definiert den Typ des Effekts. Lese-/schreibbar [`EffectType`](../../effecttype).
 
 ```csharp
 public EffectType Type { get; set; }

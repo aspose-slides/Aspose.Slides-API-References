@@ -1,7 +1,7 @@
 ---
 title: PlayLoopMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 确定视频是否循环播放。可读/写布尔值。
+description: 确定视频是否循环。可读写布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/videoframe/playloopmode/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/videoframe/playloopmode/
 
 ## VideoFrame.PlayLoopMode 属性
 
-确定视频是否循环播放。可读/写布尔值。
+确定视频是否循环。可读写布尔值。
 
 ```csharp
 public bool PlayLoopMode { get; set; }
 ```
 
-### 另见
+### 参见
 
 * class [VideoFrame](../../videoframe)
 * namespace [Aspose.Slides](../../videoframe)

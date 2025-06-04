@@ -1,6 +1,6 @@
 ---
 title: NewAnimation
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Un événement représente qu'une nouvelle animation a été générée.
 type: docs
 weight: 60

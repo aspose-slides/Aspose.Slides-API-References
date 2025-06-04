@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回指定索引处的效果。
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public IEffect this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IEffect](../../ieffect)
 * 类 [Sequence](../../sequence)

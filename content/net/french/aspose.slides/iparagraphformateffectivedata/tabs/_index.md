@@ -1,6 +1,6 @@
 ---
 title: Tabs
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Renvoie les tabulations d'un paragraphe. Lecture seule ITabEffectiveDataaspose.slides/itabeffectivedata.
 type: docs
 weight: 170
@@ -15,7 +15,7 @@ Renvoie les tabulations d'un paragraphe. Lecture seule [`ITabEffectiveData`](../
 public ITabEffectiveData[] Tabs { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITabEffectiveData](../../itabeffectivedata)
 * interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)

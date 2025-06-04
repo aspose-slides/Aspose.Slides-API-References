@@ -1,7 +1,7 @@
 ---
 title: AddAutoShape
 second_title: Aspose.Slides für .NET API Referenz
-description: Erstellt eine neue AutoShape, passt sie an die Standardvorlage an und fügt sie am Ende der Sammlung hinzu.
+description: Erstellt eine neue AutoForm, passt sie aus der Standardvorlage an und fügt sie am Ende der Sammlung hinzu.
 type: docs
 weight: 60
 url: /de/aspose.slides/ishapecollection/addautoshape/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapecollection/addautoshape/
 
 ## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-Erstellt eine neue AutoShape, passt sie an die Standardvorlage an und fügt sie am Ende der Sammlung hinzu.
+Erstellt eine neue AutoForm, passt sie aus der Standardvorlage an und fügt sie am Ende der Sammlung hinzu.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -25,12 +25,12 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 ### Rückgabewert
 
-Erstelltes AutoShape-Objekt.
+Erstelltes AutoForm-Objekt.
 
 ### Siehe auch
 
 * Schnittstelle [IAutoShape](../../iautoshape)
-* Aufzählung [ShapeType](../../shapetype)
+* Enum [ShapeType](../../shapetype)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Namensraum [Aspose.Slides](../../ishapecollection)
 * Assembly [Aspose.Slides](../../../)
@@ -39,7 +39,7 @@ Erstelltes AutoShape-Objekt.
 
 ## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-Erstellt eine neue AutoShape und fügt sie am Ende der Sammlung hinzu.
+Erstellt eine neue AutoForm und fügt sie am Ende der Sammlung hinzu.
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -53,16 +53,16 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | y | Single | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
 | width | Single | Die Breite des Rahmens der Form. |
 | height | Single | Die Höhe des Rahmens der Form. |
-| createFromTemplate | Boolean | Wenn true, wird die neue Form aus der Standardvorlage erstellt. Es wird ein nicht leerer Name, ein einfacher Stil und zentrierter Text der neuen Form zugeordnet. Wenn false, haben alle Eigenschaften der neuen Form die Standardwerte. |
+| createFromTemplate | Boolean | Wenn zutreffend, wird die neue Form aus der Standardvorlage erstellt. Ein nicht leerer Name, einfacher Stil und zentrierter Text werden der neuen Form zugewiesen. Wenn falsch, haben alle Werte der Eigenschaften der neuen Form die Standardwerte. |
 
 ### Rückgabewert
 
-Erstelltes AutoShape-Objekt.
+Erstelltes AutoForm-Objekt.
 
 ### Siehe auch
 
 * Schnittstelle [IAutoShape](../../iautoshape)
-* Aufzählung [ShapeType](../../shapetype)
+* Enum [ShapeType](../../shapetype)
 * Schnittstelle [IShapeCollection](../../ishapecollection)
 * Namensraum [Aspose.Slides](../../ishapecollection)
 * Assembly [Aspose.Slides](../../../)

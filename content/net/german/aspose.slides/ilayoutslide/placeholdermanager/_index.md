@@ -1,7 +1,7 @@
 ---
 title: PlaceholderManager
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Platzhalter-Manager der Layout-Folie zurück. Nur Lesezugriff auf ILayoutPlaceholderManageraspose.slides/ilayoutplaceholdermanager.
+description: Gibt den Platzhalter-Manager der Layoutfolie zurück. Nur-Lese ILayoutPlaceholderManageraspose.slides/ilayoutplaceholdermanager.
 type: docs
 weight: 70
 url: /de/aspose.slides/ilayoutslide/placeholdermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilayoutslide/placeholdermanager/
 
 ## ILayoutSlide.PlaceholderManager-Eigenschaft
 
-Gibt den Platzhalter-Manager der Layout-Folie zurück. Nur Lesezugriff auf [`ILayoutPlaceholderManager`](../../ilayoutplaceholdermanager).
+Gibt den Platzhalter-Manager der Layoutfolie zurück. Nur-Lese [`ILayoutPlaceholderManager`](../../ilayoutplaceholdermanager).
 
 ```csharp
 public ILayoutPlaceholderManager PlaceholderManager { get; }

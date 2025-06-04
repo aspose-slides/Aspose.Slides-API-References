@@ -1,13 +1,13 @@
 ---
 title: Portion
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Iterar cada Porción aspose.slides.lowcode/foreach/portion en la Presentación aspose.slides/presentation. Las porciones se iterarán en todos los tipos de diapositivas - Diapositiva aspose.slides.lowcode/foreach/slide DiapositivaMaestra aspose.slides.lowcode/foreach/masterslide y DiapositivaDeDiseño aspose.slides.lowcode/foreach/layoutslide
+description: Iterar cada Portionaspose.slides.lowcode/foreach/portion en la Presentaciónaspose.slides/presentation. Las porciones se iterarán en todos los tipos de diapositivas - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide y LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 40
 url: /es/aspose.slides.lowcode/foreach/portion/
 ---
 
-## Porción(Presentation, ForEachPortionCallback) {#portion_1}
+## Portion(Presentation, ForEachPortionCallback) {#portion_1}
 
 Iterar cada `Portion` en la [`Presentation`](../../../aspose.slides/presentation). Las porciones se iterarán en todos los tipos de diapositivas - [`Slide`](../slide), [`MasterSlide`](../masterslide) y [`LayoutSlide`](../layoutslide)
 
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Véase también
+### Ver También
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachPortionCallback](../../foreach.foreachportioncallback)
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## Porción(Presentation, bool, ForEachPortionCallback) {#portion}
+## Portion(Presentation, bool, ForEachPortionCallback) {#portion}
 
 Iterar cada [`Portion`](../portion) en la [`Presentation`](../../../aspose.slides/presentation). Las porciones se iterarán en todos los tipos de diapositivas - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) y [`NotesSlide`](../../../aspose.slides/notesslide)
 
@@ -54,7 +54,7 @@ public static void Portion(Presentation pres, bool includeNotes,
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | pres | Presentation | Presentación para iterar porciones |
-| includeNotes | Boolean | Indicador que indica si las NotesSlides deben ser incluidas en el procesamiento. |
+| includeNotes | Boolean | Bandera que indica si las NotesSlides deben incluirse en el procesamiento. |
 | forEachPortion | ForEachPortionCallback | Callback que se invocará para cada porción |
 
 ### Ejemplos
@@ -69,7 +69,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 } 
 ```
 
-### Véase también
+### Ver También
 
 * class [Presentation](../../../aspose.slides/presentation)
 * delegate [ForEachPortionCallback](../../foreach.foreachportioncallback)

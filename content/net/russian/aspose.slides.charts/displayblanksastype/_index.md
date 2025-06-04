@@ -1,7 +1,7 @@
 ---
 title: DisplayBlanksAsType
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, как будут отображаться недостающие данные.
+second_title: Aspose.Sildes для .NET API Справка
+description: Определяет, как будет отображаться отсутствующие данные.
 type: docs
 weight: 1530
 url: /ru/aspose.slides.charts/displayblanksastype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/displayblanksastype/
 
 ## Перечисление DisplayBlanksAsType
 
-Определяет, как будут отображаться недостающие данные.
+Определяет, как будет отображаться отсутствующие данные.
 
 ```csharp
 public enum DisplayBlanksAsType
@@ -19,9 +19,9 @@ public enum DisplayBlanksAsType
 
 | Имя | Значение | Описание |
 | --- | --- | --- |
-| Gap | `0` | Указывает, что пустые значения должны оставаться пробелами. |
+| Gap | `0` | Указывает, что пустые значения должны оставаться разрывом. |
 | Span | `1` | Указывает, что пустые значения должны быть соединены линией. |
-| Zero | `2` | Указывает, что пустые значения должны восприниматься как ноль. |
+| Zero | `2` | Указывает, что пустые значения должны трактоваться как ноль. |
 
 ### См. также
 

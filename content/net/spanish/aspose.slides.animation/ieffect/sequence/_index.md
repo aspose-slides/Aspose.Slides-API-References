@@ -1,6 +1,6 @@
 ---
 title: Sequence
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve una secuencia para un efecto. Solo lectura ISequenceaspose.slides.animation/isequence.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Devuelve una secuencia para un efecto. Solo lectura [`ISequence`](../../isequenc
 public ISequence Sequence { get; }
 ```
 
-### Vea También
+### Ver También
 
 * interfaz [ISequence](../../isequence)
 * interfaz [IEffect](../../ieffect)

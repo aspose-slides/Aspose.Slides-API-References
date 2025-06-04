@@ -7,7 +7,7 @@ weight: 30
 url: /fr/aspose.slides.charts/itrendlinecollection/item/
 ---
 
-## Indexeur ITrendlineCollection
+## Indice ITrendlineCollection
 
 Obtient l'élément à l'index spécifié. Lecture seule [`ITrendline`](../../itrendline).
 
@@ -15,7 +15,7 @@ Obtient l'élément à l'index spécifié. Lecture seule [`ITrendline`](../../it
 public ITrendline this[int index] { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITrendline](../../itrendline)
 * interface [ITrendlineCollection](../../itrendlinecollection)

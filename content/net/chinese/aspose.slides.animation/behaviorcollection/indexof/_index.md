@@ -1,6 +1,6 @@
 ---
 title: IndexOf
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定 IList 中特定项的索引。
 type: docs
 weight: 90
@@ -17,13 +17,13 @@ public int IndexOf(IBehavior item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IBehavior | 要在 IList 中查找的对象。 |
+| item | IBehavior | 要在 IList 中定位的对象。 |
 
 ### 返回值
 
-如果在列表中找到 *item* 的索引；否则，返回 -1。
+如果在列表中找到 *item*，则返回其索引；否则返回 -1。
 
-### 另请参见
+### 参见
 
 * 接口 [IBehavior](../../ibehavior)
 * 类 [BehaviorCollection](../../behaviorcollection)

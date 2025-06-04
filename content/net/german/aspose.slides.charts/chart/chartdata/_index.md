@@ -1,7 +1,7 @@
 ---
 title: ChartData
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt Informationen über die verknüpften oder eingebetteten Daten zurück, die mit einem Diagramm verbunden sind. Nur-Lese IChartDataaspose.slides/ichartdata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt Informationen über die verknüpften oder eingebetteten Daten zurück, die mit einem Diagramm verbunden sind. Nur lesbar IChartDataaspose.slides.charts/ichartdata.
 type: docs
 weight: 50
 url: /de/aspose.slides.charts/chart/chartdata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chart/chartdata/
 
 ## Chart.ChartData-Eigenschaft
 
-Gibt Informationen über die verknüpften oder eingebetteten Daten zurück, die mit einem Diagramm verbunden sind. Nur-Lese [`IChartData`](../../ichartdata).
+Gibt Informationen über die verknüpften oder eingebetteten Daten zurück, die mit einem Diagramm verbunden sind. Nur lesbar [`IChartData`](../../ichartdata).
 
 ```csharp
 public IChartData ChartData { get; }

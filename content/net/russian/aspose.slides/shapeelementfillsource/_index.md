@@ -1,15 +1,15 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет, как должен быть заполнен элемент формы.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет, как элемент фигуры должен быть заполнен.
 type: docs
 weight: 9570
 url: /ru/aspose.slides/shapeelementfillsource/
 ---
 
-## Перечисление ShapeElementFillSource
+## Эnumeration ShapeElementFillSource
 
-Представляет, как должен быть заполнен элемент формы.
+Представляет, как элемент фигуры должен быть заполнен.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -20,13 +20,13 @@ public enum ShapeElementFillSource : byte
 | Имя | Значение | Описание |
 | --- | --- | --- |
 | NoFill | `0` | Не заполнять примитив. |
-| Shape | `1` | Использовать заливку формы. |
-| Lighten | `2` | Использовать осветленную заливку формы. |
-| LightenLess | `3` | Использовать менее осветленную заливку формы. |
-| Darken | `4` | Использовать затемненную заливку формы. |
-| DarkenLess | `5` | Использовать менее затемненную заливку формы. |
+| Shape | `1` | Использовать заполнение фигуры. |
+| Lighten | `2` | Использовать осветлённое заполнение фигуры. |
+| LightenLess | `3` | Использовать менее осветлённое заполнение фигуры. |
+| Darken | `4` | Использовать затемнённое заполнение фигуры. |
+| DarkenLess | `5` | Использовать менее затемнённое заполнение фигуры. |
 
-### См. Также
+### Также смотрите
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

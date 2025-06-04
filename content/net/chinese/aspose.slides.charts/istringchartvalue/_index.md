@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Slides for .NET API 参考
-description: 表示可以以两种方式存储在 pptx 演示文档中的字符串值：1）在与图表相关的工作簿的单元格；2）作为字面值。
+second_title: Aspose.Slides for .NET API Reference
+description: 表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1）在与图表相关的工作簿的单元格中；2）作为字面值。
 type: docs
 weight: 2140
 url: /zh/aspose.slides.charts/istringchartvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/istringchartvalue/
 
 ## IStringChartValue 接口
 
-表示可以以两种方式存储在 pptx 演示文档中的字符串值：1）在与图表相关的工作簿的单元格；2）作为字面值。
+表示可以以两种方式存储在 pptx 演示文稿中的字符串值：1）在与图表相关的工作簿的单元格中；2）作为字面值。
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -19,18 +19,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | 允许获取基础的 IMultipleCellChartValue 接口。只读 [`IMultipleCellChartValue`](../imultiplecellchartvalue)。 |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性是 DataSourceType.StringLiterals，返回或设置字面字符串。读写字符串。 |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | 允许获取基本的 IMultipleCellChartValue 接口。只读 [`IMultipleCellChartValue`](../imultiplecellchartvalue)。 |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.StringLiterals，则返回或设置字面字符串。读写字符串。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 属性是 DataSourceType.Worksheet，则此方法返回表示字符串数据的工作簿中单元格的地址。否则返回空字符串。 |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | 从指定单元格设置值。 |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | 返回字符串表示形式。 |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 属性为 DataSourceType.Worksheet，则此方法返回表示字符串数据的工作簿中单元格的地址。否则返回空字符串。 |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | 从指定的单元格设置值。 |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | 返回字符串表示。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IMultipleCellChartValue](../imultiplecellchartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

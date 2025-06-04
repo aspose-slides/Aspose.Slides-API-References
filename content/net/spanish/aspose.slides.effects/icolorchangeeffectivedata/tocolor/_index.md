@@ -1,15 +1,15 @@
 ---
 title: ToColor
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Color que se reemplazará. Color de solo lectura.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Color que reemplazará. Color de solo lectura.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 ---
 
-## Propiedad IColorChangeEffectiveData.ToColor
+## IColorChangeEffectiveData.ToColor property
 
-Color que se reemplazará. Color de solo lectura.
+Color que reemplazará. Color de solo lectura.
 
 ```csharp
 public Color ToColor { get; }

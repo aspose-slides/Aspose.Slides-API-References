@@ -1,6 +1,6 @@
 ---
 title: Order
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает порядок серии. Чтение/запись Int32.
 type: docs
 weight: 260

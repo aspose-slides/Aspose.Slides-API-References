@@ -1,6 +1,6 @@
 ---
 title: SlideShowSettings
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет настройки слайд-шоу для презентации.
 type: docs
 weight: 10170
@@ -19,14 +19,14 @@ public class SlideShowSettings
 
 | Имя | Описание |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Зацикливание слайд-шоу |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Цвет ручки для слайд-шоу |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Показывать анимацию в слайд-шоу |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Показывать медиа элементы управления |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Показывать озвучивание в слайд-шоу |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Зациклить слайд-шоу |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Цвет пера для слайд-шоу |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Показать анимацию в слайд-шоу |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Показать элементы управления медиа |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Показать закадровый текст в слайд-шоу |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Диапазон слайдов |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Получает или задает тип слайд-шоу. Представлен следующими предками [`SlideShowType`](./slideshowtype): [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) и [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Использовать timings в слайд-шоу |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Получает или задает тип слайд-шоу. Представлен следующими [`SlideShowType`](./slideshowtype) предками: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) и [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Использовать временные интервалы в слайд-шоу |
 
 ### См. также
 

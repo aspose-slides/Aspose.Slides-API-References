@@ -1,7 +1,7 @@
 ---
 title: AddAuthor
-second_title: Aspose.Slides for .NET API Reference
-description: 在集合的末尾添加新作者。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合的末尾添加新的作者。
 type: docs
 weight: 20
 url: /zh/aspose.slides/icommentauthorcollection/addauthor/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icommentauthorcollection/addauthor/
 
 ## ICommentAuthorCollection.AddAuthor 方法
 
-在集合的末尾添加新作者。
+在集合的末尾添加新的作者。
 
 ```csharp
 public ICommentAuthor AddAuthor(string name, string initials)
@@ -17,8 +17,8 @@ public ICommentAuthor AddAuthor(string name, string initials)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 新作者的姓名。 |
-| initials | String | 新作者的首字母缩写。 |
+| name | String | 新作者的名字。 |
+| initials | String | 新作者的首字母。 |
 
 ### 返回值
 
@@ -28,9 +28,9 @@ public ICommentAuthor AddAuthor(string name, string initials)
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果已经添加了相同姓名和首字母缩写的作者，则抛出此异常。 |
+| [PptxEditException](../../pptxeditexception) | 如果已经添加了相同名字和首字母的作者，则抛出此异常。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [ICommentAuthor](../../icommentauthor)
 * 接口 [ICommentAuthorCollection](../../icommentauthorcollection)

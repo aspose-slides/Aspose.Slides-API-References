@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene el elemento en el índice especificado.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Obtiene el elemento en el índice especificado.
 public IChartSeries this[int index] { get; }
 ```
 
-### Vea También
+### Véase también
 
-* interfaz [IChartSeries](../../ichartseries)
-* interfaz [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)
-* espacio de nombres [Aspose.Slides.Charts](../../ichartseriesreadonlycollection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IChartSeries](../../ichartseries)
+* interfaz [IChartSeriesReadonlyCollection](../../ichartseriesreadonlycollection)
+* espacio de nombres [Aspose.Slides.Charts](../../ichartseriesreadonlycollection)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: Equals
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Détermine si les deux instances de Hyperlink sont égales.
 type: docs
 weight: 210
@@ -19,11 +19,11 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Le Hyperlink à comparer avec le Hyperlink actuel. |
 
-### Valeur de retour
+### Valeur de Retour
 
 **true** si le Hyperlink spécifié est égal au Hyperlink actuel ; sinon, **false**.
 
-### Voir aussi
+### Voir Aussi
 
 * classe [Hyperlink](../../hyperlink)
 * espace de noms [Aspose.Slides](../../hyperlink)
@@ -43,11 +43,11 @@ public bool Equals(IHyperlink hlink)
 | --- | --- | --- |
 | hlink | IHyperlink | Le Hyperlink à comparer avec le Hyperlink actuel. |
 
-### Valeur de retour
+### Valeur de Retour
 
 **true** si le Hyperlink spécifié est égal au Hyperlink actuel ; sinon, **false**.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IHyperlink](../../ihyperlink)
 * classe [Hyperlink](../../hyperlink)

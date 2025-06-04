@@ -1,15 +1,15 @@
 ---
 title: EastAsianLineBreak
-second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le saut de ligne Est-asiatique est utilisé dans un paragraphe. Booléen en lecture seule.
+second_title: Aspose.Slides pour .NET API Reference
+description: Détermine si le saut de ligne asiatique est utilisé dans un paragraphe. Valeur booléenne en lecture seule.
 type: docs
 weight: 60
 url: /fr/aspose.slides/iparagraphformateffectivedata/eastasianlinebreak/
 ---
 
-## Propriété IParagraphFormatEffectiveData.EastAsianLineBreak
+## IParagraphFormatEffectiveData.EastAsianLineBreak propriété
 
-Détermine si le saut de ligne Est-asiatique est utilisé dans un paragraphe. Booléen en lecture seule.
+Détermine si le saut de ligne asiatique est utilisé dans un paragraphe. Valeur booléenne en lecture seule.
 
 ```csharp
 public bool EastAsianLineBreak { get; }

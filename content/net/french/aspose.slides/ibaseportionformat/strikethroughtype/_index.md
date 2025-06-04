@@ -1,6 +1,6 @@
 ---
 title: StrikethroughType
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Renvoie ou définit le type de barré d'un texte. Pas d'héritage appliqué. Lecture/écriture TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 220

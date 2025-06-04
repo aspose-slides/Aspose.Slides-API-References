@@ -1,15 +1,15 @@
 ---
 title: PictureType
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt den Modus der Bildfüllung bei Balken.
+description: Bestimmt den Modus der Füllung von Barbildern.
 type: docs
 weight: 2280
 url: /de/aspose.slides.charts/picturetype/
 ---
 
-## PictureType-Enumeration
+## PictureType Enumeration
 
-Bestimmt den Modus der Bildfüllung bei Balken.
+Bestimmt den Modus der Füllung von Barbildern.
 
 ```csharp
 public enum PictureType
@@ -20,11 +20,11 @@ public enum PictureType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | NotDefined | `-1` | Nicht definiert. |
-| Stack | `0` | Das Bild wird so skaliert, dass es maximal 15 Mal in dem längsten gestapelten Balken wiederholt wird. |
-| StackScale | `1` | Das Bild wird auf eine bestimmte Anzahl von Einheiten skaliert und über die Länge des Balkens wiederholt. |
-| Stretch | `2` | Das Bild wird über die gesamte Länge des gestapelten Balkens gestreckt. |
+| Stack | `0` | Das Bild wird so skaliert, dass es maximal 15 Mal in der längsten gestapelten Bar wiederholt wird. |
+| StackScale | `1` | Das Bild wird auf eine bestimmte Anzahl von Einheiten skaliert und über die Länge der Bar wiederholt. |
+| Stretch | `2` | Das Bild wird über die gesamte Länge der gestapelten Bar gestreckt. |
 
-### Siehe auch
+### Siehe Auch
 
 * Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * Assembly [Aspose.Slides](../../)

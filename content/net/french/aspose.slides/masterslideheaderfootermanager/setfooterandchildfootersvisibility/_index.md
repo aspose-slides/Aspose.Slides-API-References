@@ -1,15 +1,15 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de l'espace réservé du pied de page de la diapositive maître et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants désignent des espaces réservés contenus dans les diapositives de disposition dépendantes et les diapositives dépendantes. Les diapositives de disposition dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+second_title: Référence API Aspose.Slides pour .NET
+description: Modifie la visibilité du modèle de pied de page de la diapositive maîtresse et de tous les modèles de pied de page enfants. Les modèles enfants signifient que les modèles sont contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives et mises en page dépendantes utilisent et dépendent de la diapositive maîtresse.
 type: docs
 weight: 40
 url: /fr/aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
 
-## Méthode MasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility
+## MasterSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-Modifie la visibilité de l'espace réservé du pied de page de la diapositive maître et de tous les espaces réservés des pieds de page enfants. Les espaces réservés enfants désignent des espaces réservés contenus dans les diapositives de disposition dépendantes et les diapositives dépendantes. Les diapositives de disposition dépendantes et les diapositives utilisent et dépendent de la diapositive maître.
+Modifie la visibilité du modèle de pied de page de la diapositive maîtresse et de tous les modèles de pied de page enfants. Les modèles enfants signifient que les modèles sont contenus sur des diapositives de mise en page dépendantes et des diapositives dépendantes. Les diapositives et mises en page dépendantes utilisent et dépendent de la diapositive maîtresse.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend les espaces réservés des pieds de page visibles, sinon - les cache. |
+| isVisible | Boolean | true - rend les modèles de pied de page visibles, sinon - les cache. |
 
 ### Voir aussi
 

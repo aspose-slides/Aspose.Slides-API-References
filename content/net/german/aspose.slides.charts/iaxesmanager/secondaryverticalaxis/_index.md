@@ -1,7 +1,7 @@
 ---
 title: SecondaryVerticalAxis
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die sekundäre vertikale Achse des Diagramms zurück. Nur-Lese IAxisaspose.slides.charts/iaxis.
+description: Erfasst die sekundäre vertikale Achse des Diagramms. Nur zum Lesen IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
 
 ## IAxesManager.SecondaryVerticalAxis-Eigenschaft
 
-Gibt die sekundäre vertikale Achse des Diagramms zurück. Nur-Lese [`IAxis`](../../iaxis).
+Erfasst die sekundäre vertikale Achse des Diagramms. Nur zum Lesen [`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SecondaryVerticalAxis { get; }

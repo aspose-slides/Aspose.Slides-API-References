@@ -1,7 +1,7 @@
 ---
 title: Direction
-second_title: Справочник API Aspose.Slides для .NET
-description: Направление перехода. Чтение/запись TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
+second_title: Aspose.Slides для .NET API Справочник
+description: Направление перехода. Чтение/запись TransitionSideDirectionType aspose.slides.slideshow/transitionsidedirectiontype.
 type: docs
 weight: 20
 url: /ru/aspose.slides.slideshow/iglittertransition/direction/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.slideshow/iglittertransition/direction/
 public TransitionSideDirectionType Direction { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [TransitionSideDirectionType](../../transitionsidedirectiontype)
 * interface [IGlitterTransition](../../iglittertransition)

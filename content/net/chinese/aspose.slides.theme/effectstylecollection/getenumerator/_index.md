@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API Reference
-description: 返回一个迭代集合的枚举器。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个遍历集合的枚举器。
 type: docs
 weight: 60
 url: /zh/aspose.slides.theme/effectstylecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/effectstylecollection/getenumerator/
 
 ## EffectStyleCollection.GetEnumerator 方法
 
-返回一个迭代集合的枚举器。
+返回一个遍历集合的枚举器。
 
 ```csharp
 public IEnumerator<IEffectStyle> GetEnumerator()
@@ -17,9 +17,9 @@ public IEnumerator<IEffectStyle> GetEnumerator()
 
 ### 返回值
 
-一个可以用于遍历集合的 IEnumerator。
+一个可以用来遍历集合的 IEnumerator。
 
-### 另见
+### 另请参阅
 
 * 接口 [IEffectStyle](../../ieffectstyle)
 * 类 [EffectStyleCollection](../../effectstylecollection)

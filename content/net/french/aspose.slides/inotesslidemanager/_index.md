@@ -1,6 +1,6 @@
 ---
 title: INotesSlideManager
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Gestionnaire de diapositives de notes.
 type: docs
 weight: 6320
@@ -19,16 +19,16 @@ public interface INotesSlideManager
 
 | Nom | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Renvoie la diapositive de notes pour la diapositive actuelle. Renvoie null si la diapositive n'a pas de diapositive de notes. Lecture seule [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Retourne la diapositive de notes pour la diapositive actuelle. Retourne null si la diapositive n'a pas de diapositive de notes. Lecture seule [`INotesSlide`](../inotesslide). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Renvoie la diapositive de notes pour la diapositive actuelle, en en créant une s'il n'y en a pas. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Retourne la diapositive de notes pour la diapositive actuelle, en créant une si elle n'existe pas. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Supprime la diapositive de notes de la diapositive actuelle. |
 
-### Voir aussi
+### Voir Aussi
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

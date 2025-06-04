@@ -1,6 +1,6 @@
 ---
 title: CommentsText
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Le texte des commentaires de la diapositive
 type: docs
 weight: 10
@@ -17,7 +17,7 @@ public string CommentsText { get; }
 
 ### Remarques
 
-Ce champ est vide lorsque le texte est extrait en utilisant le mode Arrangé.
+Ce champ est vide lorsque le texte est extrait en utilisant le mode Arranged.
 
 ### Voir aussi
 

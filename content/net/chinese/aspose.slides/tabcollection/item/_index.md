@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 获取指定索引处的元素。只读 Tabaspose.slides/tab。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/tabcollection/item/
 public ITab this[int index] { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [ITab](../../itab)
 * 类 [TabCollection](../../tabcollection)

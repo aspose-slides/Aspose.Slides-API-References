@@ -15,7 +15,7 @@ Renvoie la collection de tous les fichiers vidéo intégrés dans la présentati
 public IVideoCollection Videos { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVideoCollection](../../ivideocollection)
 * interface [IPresentation](../../ipresentation)

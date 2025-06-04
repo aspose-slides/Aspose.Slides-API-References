@@ -1,7 +1,7 @@
 ---
 title: MultimediaClips
-second_title: Aspose.Slides for .NET API 参考
-description: 返回文档中存在的音频或视频片段的总数。只读 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回文档中存在的音频或视频剪辑的总数。只读 Int32。
 type: docs
 weight: 230
 url: /zh/aspose.slides/documentproperties/multimediaclips/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/documentproperties/multimediaclips/
 
 ## DocumentProperties.MultimediaClips 属性
 
-返回文档中存在的音频或视频片段的总数。只读 Int32。
+返回文档中存在的音频或视频剪辑的总数。只读 Int32。
 
 ```csharp
 public int MultimediaClips { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

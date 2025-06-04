@@ -1,7 +1,7 @@
 ---
 title: LeaderLinesFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Представляет формат линий вывода меток данных. Только для чтения IChartLinesFormataspose.slides.charts/ichartlinesformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет формат линий ведущих меток данных. Только для чтения IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 80
 url: /ru/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 
 ## IDataLabelCollection.LeaderLinesFormat свойство
 
-Представляет формат линий вывода меток данных. Только для чтения [`IChartLinesFormat`](../../ichartlinesformat).
+Представляет формат линий ведущих меток данных. Только для чтения [`IChartLinesFormat`](../../ichartlinesformat).
 
 ```csharp
 public IChartLinesFormat LeaderLinesFormat { get; }
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. Также
+### См. Так же
 
 * интерфейс [IChartLinesFormat](../../ichartlinesformat)
 * интерфейс [IDataLabelCollection](../../idatalabelcollection)

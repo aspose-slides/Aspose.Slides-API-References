@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与指定名称相关联的自定义属性。可读/写对象。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置与指定名称关联的自定义属性。可读/写对象。
 type: docs
 weight: 160
 url: /zh/aspose.slides/documentproperties/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/documentproperties/item/
 
 ## DocumentProperties 索引器
 
-返回或设置与指定名称相关联的自定义属性。可读/写对象。
+返回或设置与指定名称关联的自定义属性。可读/写对象。
 
 ```csharp
 public object this[string name] { get; set; }

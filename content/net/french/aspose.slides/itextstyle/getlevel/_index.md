@@ -1,15 +1,15 @@
 ---
 title: GetLevel
-second_title: Référence API Aspose.Slides pour .NET
-description: Si le niveau de style existe, il le renvoie, sinon il renvoie null.
+second_title: Aspose.Slides pour la référence API .NET
+description: Si le niveau de style existe, le renvoie, sinon renvoie null.
 type: docs
 weight: 30
 url: /fr/aspose.slides/itextstyle/getlevel/
 ---
 
-## Méthode ITextStyle.GetLevel
+## ITextStyle.GetLevel méthode
 
-Si le niveau de style existe, il le renvoie, sinon il renvoie null.
+Si le niveau de style existe, le renvoie, sinon renvoie null.
 
 ```csharp
 public IParagraphFormat GetLevel(int index)
@@ -17,13 +17,13 @@ public IParagraphFormat GetLevel(int index)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | Index basé sur zéro du niveau. Doit se situer dans l'intervalle 0..8. |
+| index | Int32 | Index de niveau basé sur zéro. Doit se situer dans l'intervalle 0..8. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Formatage du niveau [`IParagraphFormat`](../../iparagraphformat).
+Formatage de niveau [`IParagraphFormat`](../../iparagraphformat).
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IParagraphFormat](../../iparagraphformat)
 * interface [ITextStyle](../../itextstyle)

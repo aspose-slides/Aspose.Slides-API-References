@@ -1,7 +1,7 @@
 ---
 title: ReplaceText
-second_title: Aspose.Slides for .NET API Reference
-description: 将指定文本的所有实例替换为其他指定文本。
+second_title: Aspose.Sildes for .NET API Reference
+description: 用另一个指定文本替换所有指定文本的出现位置。
 type: docs
 weight: 120
 url: /zh/aspose.slides/itextframe/replacetext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframe/replacetext/
 
 ## ITextFrame.ReplaceText 方法
 
-将指定文本的所有实例替换为其他指定文本。
+用另一个指定文本替换所有指定文本的出现位置。
 
 ```csharp
 public void ReplaceText(string oldText, string newText, ITextSearchOptions options, 
@@ -18,27 +18,27 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| oldText | String | 需要被替换的字符串。 |
-| newText | String | 用于替换所有 oldText 实例的字符串。 |
+| oldText | String | 要被替换的字符串。 |
+| newText | String | 要替换所有oldText出现位置的字符串。 |
 | options | ITextSearchOptions | 文本搜索选项 [`ITextSearchOptions`](../../itextsearchoptions)。 |
-| callback | IFindResultCallback | 用于接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
+| callback | IFindResultCallback | 接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 示例
 
-以下示例代码演示了如何用另一个指定字符串替换一个指定字符串。
+以下示例代码演示如何将一个指定字符串替换为另一个指定字符串。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
-	// 将所有单独的 'the' 实例替换为 '***'
+	// 将所有单独的'the'出现位置替换为'***'
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.ReplaceText("the", "***", new TextSearchOptions()
 	{ WholeWordsOnly = true }, null);
 	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ITextSearchOptions](../../itextsearchoptions)
 * 接口 [IFindResultCallback](../../ifindresultcallback)

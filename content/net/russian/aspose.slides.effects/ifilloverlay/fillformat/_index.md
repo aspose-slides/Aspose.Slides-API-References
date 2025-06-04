@@ -1,15 +1,15 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides для .NET API Справочник
-description: Формат заливки. Только для чтения IFillFormataspose.slides/ifillformat.
+second_title: Aspose.Sildes для .NET API Reference
+description: Формат заполнения. Только для чтения IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/ifilloverlay/fillformat/
 ---
 
-## Свойство IFillOverlay.FillFormat
+## IFillOverlay.FillFormat свойство
 
-Формат заливки. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
+Формат заполнения. Только для чтения [`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

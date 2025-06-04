@@ -1,7 +1,7 @@
 ---
 title: VolumeValue
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Audiolautstärke in Prozent zurück oder setzt sie. Lese-/schreibbar Single.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Audio-Lautstärke in Prozent zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 190
 url: /de/aspose.slides/iaudioframe/volumevalue/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iaudioframe/volumevalue/
 
 ## IAudioFrame.VolumeValue-Eigenschaft
 
-Gibt die Audiolautstärke in Prozent zurück oder setzt sie. Lese-/schreibbar Single.
+Gibt die Audio-Lautstärke in Prozent zurück oder setzt sie. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float VolumeValue { get; set; }
@@ -26,7 +26,7 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Setze die Audiolautstärke auf 85%
+    // Setze die Audio-Lautstärke auf 85%
     audioFrame.VolumeValue = 85f;
 
     pres.Save("AudioFrameValue_out.pptx", SaveFormat.Pptx);

@@ -1,7 +1,7 @@
 ---
 title: SketchFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le format de croquis d'une ligne. Données ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata en lecture seule.
+second_title: Aspose.Sildes for .NET API Reference
+description: Renvoie le format de croquis d'une ligne. Lecture seule ISketchFormatEffectiveDataaspose.slides/isketchformateffectivedata.
 type: docs
 weight: 150
 url: /fr/aspose.slides/ilineformateffectivedata/sketchformat/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ilineformateffectivedata/sketchformat/
 
 ## Propriété ILineFormatEffectiveData.SketchFormat
 
-Renvoie le format de croquis d'une ligne. Données [`ISketchFormatEffectiveData`](../../isketchformateffectivedata) en lecture seule.
+Renvoie le format de croquis d'une ligne. Lecture seule [`ISketchFormatEffectiveData`](../../isketchformateffectivedata).
 
 ```csharp
 public ISketchFormatEffectiveData SketchFormat { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISketchFormatEffectiveData](../../isketchformateffectivedata)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

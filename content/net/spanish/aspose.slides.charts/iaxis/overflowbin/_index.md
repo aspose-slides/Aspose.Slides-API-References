@@ -19,6 +19,6 @@ public double OverflowBin { get; set; }
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

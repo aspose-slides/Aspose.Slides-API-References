@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Determina si se utiliza la puntuación colgante en un párrafo. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Determina si la puntuación colgante se utiliza en un párrafo. No se aplica herencia. Lectura/escritura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 60
 url: /es/aspose.slides/paragraphformat/hangingpunctuation/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/paragraphformat/hangingpunctuation/
 
 ## Propiedad ParagraphFormat.HangingPunctuation
 
-Determina si se utiliza la puntuación colgante en un párrafo. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
+Determina si la puntuación colgante se utiliza en un párrafo. No se aplica herencia. Lectura/escritura [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [NullableBool](../../nullablebool)
 * class [ParagraphFormat](../../paragraphformat)

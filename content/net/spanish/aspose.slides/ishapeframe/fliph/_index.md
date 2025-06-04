@@ -1,6 +1,6 @@
 ---
 title: FlipH
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Determina si un marco está volteado horizontalmente. Solo lectura NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30

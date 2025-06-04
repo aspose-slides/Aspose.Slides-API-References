@@ -1,15 +1,15 @@
 ---
 title: PresetColor
-second_title: Aspose.Slides für .NET API Referenz
-description: Bezeichnet vordefinierte Farbpaletten.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt vordefinierte Farbpresets dar.
 type: docs
 weight: 9390
 url: /de/aspose.slides/presetcolor/
 ---
 
-## PresetColor Aufzählung
+## PresetColor-Enumeration
 
-Bezeichnet vordefinierte Farbpaletten.
+Stellt vordefinierte Farbpresets dar.
 
 ```csharp
 public enum PresetColor
@@ -19,7 +19,7 @@ public enum PresetColor
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotDefined | `-1` | Farbpalette ist nicht definiert. |
+| NotDefined | `-1` | Farbpreset ist nicht definiert. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

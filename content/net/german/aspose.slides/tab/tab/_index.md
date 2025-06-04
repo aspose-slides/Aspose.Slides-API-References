@@ -1,6 +1,6 @@
 ---
 title: Tab
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Erstellt einen neuen Tab
 type: docs
 weight: 10

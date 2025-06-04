@@ -1,6 +1,6 @@
 ---
 title: Hide
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si la entrada de la leyenda está oculta. Booleano de lectura/escritura.
 type: docs
 weight: 20
@@ -19,6 +19,6 @@ public bool Hide { get; set; }
 
 * clase [LegendEntryProperties](../../legendentryproperties)
 * espacio de nombres [Aspose.Slides.Charts](../../legendentryproperties)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

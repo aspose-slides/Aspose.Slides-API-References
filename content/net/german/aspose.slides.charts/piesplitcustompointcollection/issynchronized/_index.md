@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert threadsicher ist. Schreibgeschütztes Boolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert thread-sicher ist. Nur-Lese-Boolescher Wert.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/piesplitcustompointcollection/issynchronized/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/piesplitcustompointcollection/issynchronized/
 
 ## PieSplitCustomPointCollection.IsSynchronized-Eigenschaft
 
-Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (threadsicher) ist. Schreibgeschütztes Boolean.
+Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert (thread-sicher) ist. Nur-Lese-Boolescher Wert.
 
 ```csharp
 public bool IsSynchronized { get; }

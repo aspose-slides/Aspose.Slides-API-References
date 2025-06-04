@@ -7,7 +7,7 @@ weight: 60
 url: /es/aspose.slides/videoframe/playloopmode/
 ---
 
-## Propiedad VideoFrame.PlayLoopMode
+## VideoFrame.PlayLoopMode propiedad
 
 Determina si un video se reproduce en bucle. Booleano de lectura/escritura.
 
@@ -19,6 +19,6 @@ public bool PlayLoopMode { get; set; }
 
 * clase [VideoFrame](../../videoframe)
 * espacio de nombres [Aspose.Slides](../../videoframe)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

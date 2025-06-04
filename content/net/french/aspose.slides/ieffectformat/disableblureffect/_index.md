@@ -1,6 +1,6 @@
 ---
 title: DisableBlurEffect
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Désactive l'effet de flou.
 type: docs
 weight: 110
@@ -15,7 +15,7 @@ Désactive l'effet de flou.
 public void DisableBlurEffect()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IEffectFormat](../../ieffectformat)
 * namespace [Aspose.Slides](../../ieffectformat)

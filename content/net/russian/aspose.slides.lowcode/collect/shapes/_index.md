@@ -1,6 +1,6 @@
 ---
 title: Shapes
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник по API
 description: Собирает все экземпляры Shapeaspose.slides/shape в Presentationaspose.slides/presentation.
 type: docs
 weight: 10
@@ -19,9 +19,9 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 | --- | --- | --- |
 | pres | Presentation | Презентация для сбора фигур |
 
-### Возвращаемое значение
+### Значение возврата
 
-Коллекция всех фигур, содержащихся в презентации
+Сбор всех фигур, содержащихся в презентации
 
 ### Примеры
 
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // если фигура является AutoShape, добавьте черную сплошную рамку
+        // если фигура является AutoShape, добавьте черную сплошную границу
         if (shape is AutoShape autoShape)
         {
             autoShape.LineFormat.Style = LineStyle.Single;

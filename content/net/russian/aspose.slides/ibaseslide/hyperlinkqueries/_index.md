@@ -1,13 +1,13 @@
 ---
 title: HyperlinkQueries
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справка
 description: Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ibaseslide/hyperlinkqueries/
 ---
 
-## Свойство IBaseSlide.HyperlinkQueries
+## IBaseSlide.HyperlinkQueries свойство
 
 Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения [`IHyperlinkQueries`](../../ihyperlinkqueries).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ibaseslide/hyperlinkqueries/
 public IHyperlinkQueries HyperlinkQueries { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IHyperlinkQueries](../../ihyperlinkqueries)
 * интерфейс [IBaseSlide](../../ibaseslide)

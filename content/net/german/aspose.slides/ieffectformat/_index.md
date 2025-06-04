@@ -1,7 +1,7 @@
 ---
 title: IEffectFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Effekt-Eigenschaften einer Form dar.
+description: Stellt die Effekt Eigenschaften einer Form dar.
 type: docs
 weight: 5540
 url: /de/aspose.slides/ieffectformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ieffectformat/
 
 ## IEffectFormat-Schnittstelle
 
-Stellt die Effekt-Eigenschaften einer Form dar.
+Stellt die Effekt Eigenschaften einer Form dar.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -19,40 +19,40 @@ public interface IEffectFormat : IEffectParamSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Ermöglicht den Zugriff auf die grundlegende IEffectParamSource-Schnittstelle. Nur-Lesen [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Unschärfe-Effekt. Lese-/Schreibzugriff [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Füll-Overlay-Effekt. Lese-/Schreibzugriff [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glühen-Effekt. Lese-/Schreibzugriff [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Innenschatten. Lese-/Schreibzugriff [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Gibt true zurück, wenn alle Effekte deaktiviert sind (wie gerade erstellt, standardmäßiges EffectFormat-Objekt). Nur-Lesen Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Außenschatten. Lese-/Schreibzugriff [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Voreingestellter Schatten. Lese-/Schreibzugriff [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflexion. Lese-/Schreibzugriff [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Weiche Kante. Lese-/Schreibzugriff [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Ermöglicht den Zugriff auf die grundlegende IEffectParamSource-Schnittstelle. Nur-Lese [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Weichzeichnereffekt. Lese/Schreibe [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Füllüberlagereffekt. Lese/Schreibe [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glüheffekt. Lese/Schreibe [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Innenschatten. Lese/Schreibe [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Gibt true zurück, wenn alle Effekte deaktiviert sind (wie gerade erstellt, Standard EffectFormat-Objekt). Nur-Lese Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Außenschatten. Lese/Schreibe [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Voreingestellter Schatten. Lese/Schreibe [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflexion. Lese/Schreibe [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Sanfte Kante. Lese/Schreibe [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Deaktiviert den Unschärfe-Effekt. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Deaktiviert den Füll-Overlay-Effekt. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Deaktiviert den Glühen-Effekt. |
-| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Deaktiviert den Innenschatten-Effekt. |
-| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Deaktiviert den Außenschatten-Effekt. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Deaktiviert den voreingestellten Schatten-Effekt. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Deaktiviert den Weichzeichnereffekt. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Deaktiviert den Füllüberlagereffekt. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Deaktiviert den Glüheffekt. |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Deaktiviert den Innenschatteneffekt. |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Deaktiviert den Außenschatteneffekt. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Deaktiviert den voreingestellten Schatteneffekt. |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Deaktiviert den Reflexionseffekt. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Deaktiviert den weichen Kanten-Effekt. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Aktiviert den Füll-Overlay-Effekt. |
-| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Aktiviert den Glühen-Effekt. |
-| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Aktiviert den Innenschatten-Effekt. |
-| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Aktiviert den Außenschatten-Effekt. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Aktiviert den Effekt für voreingestellte Schatten. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Deaktiviert den Sanfte Kante-Effekt. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Aktiviert den Füllüberlagereffekt. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Aktiviert den Glüheffekt. |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Aktiviert den Innenschatteneffekt. |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Aktiviert den Außenschatteneffekt. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Aktiviert den voreingestellten Schatteneffekt. |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Aktiviert den Reflexionseffekt. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Aktiviert den weichen Kanten-Effekt. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Ruft die effektiven Formatierungsdaten für Effekte mit angewendeter Vererbung ab. |
-| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Setzt den Unschärfe-Effekt. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Aktiviert den Sanfte Kante-Effekt. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Holt die effektiven Effektformatierungsdaten mit angewandtem Erbe. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Setzt den Weichzeichnereffekt. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IEffectParamSource](../ieffectparamsource)
 * Namespace [Aspose.Slides](../../aspose.slides)

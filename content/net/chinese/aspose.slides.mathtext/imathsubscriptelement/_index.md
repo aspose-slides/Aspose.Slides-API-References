@@ -1,7 +1,7 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定下标对象，它由一个基数和一个放置在右下方的缩小尺寸的下标组成。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定了下标对象，它由一个基数和一个缩小的下标组成，放置在基数的下方和右侧。
 type: docs
 weight: 8210
 url: /zh/aspose.slides.mathtext/imathsubscriptelement/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathsubscriptelement/
 
 ## IMathSubscriptElement 接口
 
-指定下标对象，它由一个基数和一个放置在右下方的缩小尺寸的下标组成。
+指定了下标对象，它由一个基数和一个缩小的下标组成，放置在基数的下方和右侧。
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -19,7 +19,7 @@ public interface IMathSubscriptElement : IMathElement
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | 允许获取基的 IMathElement 接口 [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | 允许获取基数 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | 基数参数 |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | 下标 |
 
@@ -32,7 +32,7 @@ public interface IMathSubscriptElement : IMathElement
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

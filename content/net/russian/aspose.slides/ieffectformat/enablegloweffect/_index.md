@@ -1,15 +1,15 @@
 ---
 title: EnableGlowEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Включает эффект сияния.
+second_title: Aspose.Slides для .NET API Справочник
+description: Включает эффект свечения.
 type: docs
 weight: 200
 url: /ru/aspose.slides/ieffectformat/enablegloweffect/
 ---
 
-## Метод IEffectFormat.EnableGlowEffect
+## IEffectFormat.EnableGlowEffect метод
 
-Включает эффект сияния.
+Включает эффект свечения.
 
 ```csharp
 public void EnableGlowEffect()

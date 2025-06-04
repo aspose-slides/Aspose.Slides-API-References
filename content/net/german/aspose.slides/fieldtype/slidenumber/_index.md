@@ -9,13 +9,13 @@ url: /de/aspose.slides/fieldtype/slidenumber/
 
 ## FieldType.SlideNumber-Eigenschaft
 
-Aktuelle Foliennummer. Schreibgeschützter [`FieldType`](../../fieldtype).
+Aktuelle Foliennummer. Schreibgeschütztes [`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType SlideNumber { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [FieldType](../../fieldtype)
 * Namespace [Aspose.Slides](../../fieldtype)

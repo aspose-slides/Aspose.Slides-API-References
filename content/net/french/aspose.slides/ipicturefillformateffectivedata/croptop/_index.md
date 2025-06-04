@@ -1,21 +1,21 @@
 ---
 title: CropTop
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne le nombre de pourcentages de la hauteur réelle de l'image qui sont rognés en haut de l'image. Lecture seule Single.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Renvoie le nombre de pourcentages de la hauteur réelle de l'image qui sont coupés du haut de l'image. Lecture seule Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides/ipicturefillformateffectivedata/croptop/
 ---
 
-## Propriété IPictureFillFormatEffectiveData.CropTop
+## IPictureFillFormatEffectiveData.CropTop property
 
-Retourne le nombre de pourcentages de la hauteur réelle de l'image qui sont rognés en haut de l'image. Lecture seule Single.
+Renvoie le nombre de pourcentages de la hauteur réelle de l'image qui sont coupés du haut de l'image. Lecture seule Single.
 
 ```csharp
 public float CropTop { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * namespace [Aspose.Slides](../../ipicturefillformateffectivedata)

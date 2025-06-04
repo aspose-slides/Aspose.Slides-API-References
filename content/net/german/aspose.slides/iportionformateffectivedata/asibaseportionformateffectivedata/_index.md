@@ -1,15 +1,15 @@
 ---
 title: AsIBasePortionFormatEffectiveData
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das IBasePortionFormatEffectiveData-Schnittstelle zurück.
+description: Gibt die IBasePortionFormatEffectiveData-Schnittstelle zurück.
 type: docs
 weight: 10
 url: /de/aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata/
 ---
 
-## IPortionFormatEffectiveData.AsIBasePortionFormatEffectiveData Eigenschaft
+## IPortionFormatEffectiveData.AsIBasePortionFormatEffectiveData-Eigenschaft
 
-Gibt das IBasePortionFormatEffectiveData-Schnittstelle zurück.
+Gibt die IBasePortionFormatEffectiveData-Schnittstelle zurück.
 
 ```csharp
 public IBasePortionFormatEffectiveData AsIBasePortionFormatEffectiveData { get; }
@@ -17,7 +17,7 @@ public IBasePortionFormatEffectiveData AsIBasePortionFormatEffectiveData { get; 
 
 ### Bemerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
 ### Siehe auch
 

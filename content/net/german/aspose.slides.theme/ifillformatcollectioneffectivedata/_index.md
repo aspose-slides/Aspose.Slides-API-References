@@ -1,7 +1,7 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes für .NET API Referenz
-description: Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Füllformate darstellt.
+second_title: Aspose.Slides für .NET API Referenz
+description: Unverändertes Objekt, das eine schreibgeschützte Sammlung effektiver Füllformate darstellt.
 type: docs
 weight: 10930
 url: /de/aspose.slides.theme/ifillformatcollectioneffectivedata/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/ifillformatcollectioneffectivedata/
 
 ## IFillFormatCollectionEffectiveData-Schnittstelle
 
-Unveränderliches Objekt, das eine schreibgeschützte Sammlung effektiver Füllformate darstellt.
+Unverändertes Objekt, das eine schreibgeschützte Sammlung effektiver Füllformate darstellt.
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -19,9 +19,9 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesbar [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Gibt das Element am angegebenen Index zurück. Nur lesend [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Bemerkungen
+### Anmerkungen
 
 Diese Schnittstelle wird als Teil von [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) verwendet.
 

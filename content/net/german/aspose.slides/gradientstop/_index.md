@@ -1,6 +1,6 @@
 ---
 title: GradientStop
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt ein Gradientformat dar.
 type: docs
 weight: 4820
@@ -19,9 +19,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Gibt die Farbe eines GradientStops zurück. Nur lesbar [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Gibt die Position (0..1) eines GradientStops zurück oder legt sie fest. Lesen/Schreiben Einzelwert. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die grundlegende IPresentationComponent-Schnittstelle. Nur-Lese [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Gibt die Farbe eines Gradient Stops zurück. Nur-Lese [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Gibt die Position (0..1) eines Gradient Stops zurück oder setzt sie. Lese-/Schreibzugriff Single. |
 
 ## Methoden
 

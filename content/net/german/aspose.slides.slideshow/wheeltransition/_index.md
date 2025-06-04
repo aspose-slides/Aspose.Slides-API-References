@@ -1,6 +1,6 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Radübergangseffekt.
 type: docs
 weight: 10160
@@ -19,16 +19,16 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | Name | Beschreibung |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Anzahl der Speichen des Radübergangs. Lese-/Schreibzugriff UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Anzahl der Speichen des Radübergangs. Lese-/Schreibzugriff auf UInt32. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bestimmt, ob die beiden Instanzen von TransitionValueBase gleich sind. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, die für die Verwendung in Hashalgorithmen und Datenstrukturen wie einer Hashtabelle geeignet ist. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [TransitionValueBase](../transitionvaluebase)
 * Schnittstelle [IWheelTransition](../iwheeltransition)

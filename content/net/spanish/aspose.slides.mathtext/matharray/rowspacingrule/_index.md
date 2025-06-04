@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: El tipo de espaciado vertical entre elementos de la matriz. Predeterminado SingleLineGap
+second_title: Aspose.Sildes para .NET Referencia de API
+description: El tipo de espacio vertical entre los elementos del arreglo. Predeterminado SingleLineGap
 type: docs
 weight: 70
 url: /es/aspose.slides.mathtext/matharray/rowspacingrule/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/matharray/rowspacingrule/
 
 ## Propiedad MathArray.RowSpacingRule
 
-El tipo de espaciado vertical entre elementos de la matriz. Predeterminado: SingleLineGap
+El tipo de espacio vertical entre los elementos del arreglo. Predeterminado: SingleLineGap
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.RowSpacingRule = MathRowSpacingRule.OneAndAHalfLineGap;
 ```
 
-### Vea También
+### Véase También
 
 * enum [MathRowSpacingRule](../../mathrowspacingrule)
 * class [MathArray](../../matharray)

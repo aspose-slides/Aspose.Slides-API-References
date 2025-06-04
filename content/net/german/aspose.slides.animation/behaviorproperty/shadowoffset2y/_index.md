@@ -7,7 +7,7 @@ weight: 690
 url: /de/aspose.slides.animation/behaviorproperty/shadowoffset2y/
 ---
 
-## BehaviorProperty.ShadowOffset2Y Eigenschaft
+## BehaviorProperty.ShadowOffset2Y-Eigenschaft
 
 Stellt die Eigenschaft 'shadow.offset2.y' dar
 

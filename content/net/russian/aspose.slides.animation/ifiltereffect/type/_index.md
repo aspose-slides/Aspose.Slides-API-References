@@ -1,21 +1,21 @@
 ---
 title: Type
-second_title: Ссылка на документацию API Aspose.Sildes для .NET
-description: Представляет тип фильтрового эффекта. Чтение/запись FilterEffectTypeaspose.slides.animation/filtereffecttype.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет тип эффекта фильтра. Чтение/запись FilterEffectTypeaspose.slides.animation/filtereffecttype.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/ifiltereffect/type/
 ---
 
-## Свойство IFilterEffect.Type
+## IFilterEffect.Type свойство
 
-Представляет тип фильтрового эффекта. Чтение/запись [`FilterEffectType`](../../filtereffecttype).
+Представляет тип эффекта фильтра. Чтение/запись [`FilterEffectType`](../../filtereffecttype).
 
 ```csharp
 public FilterEffectType Type { get; set; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [FilterEffectType](../../filtereffecttype)
 * interface [IFilterEffect](../../ifiltereffect)

@@ -1,15 +1,15 @@
 ---
 title: AsITransitionValueBase
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base ITransitionValueBase. Lecture seule ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+second_title: Aspose.Slides pour .NET API Reference
+description: Permet d'obtenir l'interface de base ITransitionValueBase. ITransitionValueBase en lecture seule aspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /fr/aspose.slides.slideshow/imorphtransition/asitransitionvaluebase/
 ---
 
-## Propriété IMorphTransition.AsITransitionValueBase
+## IMorphTransition.AsITransitionValueBase propriété
 
-Permet d'obtenir l'interface de base ITransitionValueBase. Lecture seule [`ITransitionValueBase`](../../itransitionvaluebase).
+Permet d'obtenir l'interface de base ITransitionValueBase. Lire seule [`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }

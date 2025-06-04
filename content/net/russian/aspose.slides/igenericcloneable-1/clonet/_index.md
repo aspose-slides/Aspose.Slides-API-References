@@ -1,6 +1,6 @@
 ---
 title: CloneT
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает новый объект, который является копией текущего экземпляра.
 type: docs
 weight: 20

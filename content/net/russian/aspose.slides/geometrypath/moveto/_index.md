@@ -1,6 +1,6 @@
 ---
 title: MoveTo
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Устанавливает позицию следующей точки.
 type: docs
 weight: 90

@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides for .NET API 参考
-description: 作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。
+second_title: Aspose.Sildes for .NET API Reference
+description: 作为一个特定类型的哈希函数，适合用于哈希算法和像哈希表这样的数据结构。
 type: docs
 weight: 50
 url: /zh/aspose.slides/coloroperation/gethashcode/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/coloroperation/gethashcode/
 
 ## ColorOperation.GetHashCode 方法
 
-作为特定类型的哈希函数，适合用于哈希算法和数据结构，如哈希表。
+作为一个特定类型的哈希函数，适合用于哈希算法和像哈希表这样的数据结构。
 
 ```csharp
 public override int GetHashCode()
 ```
 
-### 参见
+### 另请参见
 
 * class [ColorOperation](../../coloroperation)
 * namespace [Aspose.Slides](../../coloroperation)

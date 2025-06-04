@@ -1,7 +1,7 @@
 ---
 title: AddChartPlaceholder
 second_title: Aspose.Slides für .NET API Referenz
-description: Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein Diagramm zu halten.
+description: Fügt der Layout-Folie eine neue Platzhalterform hinzu, um ein Diagramm zu halten.
 type: docs
 weight: 10
 url: /de/aspose.slides/ilayoutplaceholdermanager/addchartplaceholder/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilayoutplaceholdermanager/addchartplaceholder/
 
 ## ILayoutPlaceholderManager.AddChartPlaceholder-Methode
 
-Fügt der Layoutfolie eine neue Platzhalterform hinzu, um ein Diagramm zu halten.
+Fügt der Layout-Folie eine neue Platzhalterform hinzu, um ein Diagramm zu halten.
 
 ```csharp
 public IAutoShape AddChartPlaceholder(float x, float y, float width, float height)
@@ -24,11 +24,11 @@ public IAutoShape AddChartPlaceholder(float x, float y, float width, float heigh
 
 ### Rückgabewert
 
-Erstellt [`IAutoShape`](../../iautoshape) mit einem Diagramm-Platzhalter.
+Erstellt [`IAutoShape`](../../iautoshape) mit einem Diagrammplatzhalter.
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Diagramm-Platzhalterform zur Layoutfolie hinzufügt.
+Das folgende Beispiel zeigt, wie man die Diagramm-Platzhalterform zur Layout-Folie hinzufügt.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IAutoShape](../../iautoshape)
 * interface [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

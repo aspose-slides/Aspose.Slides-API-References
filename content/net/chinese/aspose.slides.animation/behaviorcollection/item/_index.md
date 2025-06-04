@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 返回指定索引处的行为。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在指定索引处返回一个行为。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/behaviorcollection/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/behaviorcollection/item/
 
 ## BehaviorCollection 索引器
 
-返回指定索引处的行为。
+在指定索引处返回一个行为。
 
 ```csharp
 public IBehavior this[int index] { get; set; }
@@ -23,7 +23,7 @@ public IBehavior this[int index] { get; set; }
 
 动画行为。
 
-### 另请参见
+### 另见
 
 * 接口 [IBehavior](../../ibehavior)
 * 类 [BehaviorCollection](../../behaviorcollection)

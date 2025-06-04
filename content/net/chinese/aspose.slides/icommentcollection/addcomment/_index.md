@@ -26,7 +26,7 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 
 添加的评论。
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IComment](../../icomment)
 * 接口 [ISlide](../../islide)

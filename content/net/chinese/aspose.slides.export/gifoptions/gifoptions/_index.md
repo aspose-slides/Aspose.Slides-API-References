@@ -1,6 +1,6 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 初始化 GifOptions 类的新实例。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/gifoptions/gifoptions/
 public GifOptions()
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [GifOptions](../../gifoptions)
 * namespace [Aspose.Slides.Export](../../gifoptions)

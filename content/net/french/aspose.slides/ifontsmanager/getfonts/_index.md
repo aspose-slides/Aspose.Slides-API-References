@@ -1,13 +1,13 @@
 ---
 title: GetFonts
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie les polices utilisées dans la présentation
 type: docs
 weight: 70
 url: /fr/aspose.slides/ifontsmanager/getfonts/
 ---
 
-## IFontsManager.GetFonts method
+## IFontsManager.GetFonts méthode
 
 Renvoie les polices utilisées dans la présentation
 
@@ -15,11 +15,11 @@ Renvoie les polices utilisées dans la présentation
 public IFontData[] GetFonts()
 ```
 
-### Return Value
+### Valeur de retour
 
 Un tableau de polices
 
-### See Also
+### Voir aussi
 
 * interface [IFontData](../../ifontdata)
 * interface [IFontsManager](../../ifontsmanager)

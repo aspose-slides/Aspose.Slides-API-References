@@ -1,7 +1,7 @@
 ---
 title: Width
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Largeur de biseau. Double en lecture seule.
+second_title: Référence de l'API Aspose.Slidess pour .NET
+description: Largeur du biseau. Lecture seule Double.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ishapebeveleffectivedata/width/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/ishapebeveleffectivedata/width/
 
 ## Propriété IShapeBevelEffectiveData.Width
 
-Largeur de biseau. Double en lecture seule.
+Largeur du biseau. Lecture seule Double.
 
 ```csharp
 public double Width { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IShapeBevelEffectiveData](../../ishapebeveleffectivedata)
 * namespace [Aspose.Slides](../../ishapebeveleffectivedata)

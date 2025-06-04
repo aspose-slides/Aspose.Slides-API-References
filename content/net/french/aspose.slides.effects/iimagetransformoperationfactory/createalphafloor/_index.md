@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaFloor
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée l'effet de sol Alpha.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée un effet de sol alpha.
 type: docs
 weight: 20
 url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createalphafloor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/iimagetransformoperationfactory/createalphafloor/
 
 ## IImageTransformOperationFactory.CreateAlphaFloor méthode
 
-Crée l'effet de sol Alpha.
+Crée un effet de sol alpha.
 
 ```csharp
 public IAlphaFloor CreateAlphaFloor()
@@ -17,7 +17,7 @@ public IAlphaFloor CreateAlphaFloor()
 
 ### Valeur de retour
 
-Effet de sol Alpha.
+Effet de sol alpha.
 
 ### Voir aussi
 

@@ -7,7 +7,7 @@ weight: 230
 url: /fr/aspose.slides.charts/ichartdatapointcollection/adddatapointforwaterfallseries/
 ---
 
-## Méthode IChartDataPointCollection.AddDataPointForWaterfallSeries
+## IChartDataPointCollection.AddDataPointForWaterfallSeries méthode
 
 Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le type de graphique est Waterfall.
 

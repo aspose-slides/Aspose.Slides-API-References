@@ -1,7 +1,7 @@
 ---
 title: IColorOperationCollection
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente une collection d'opérations de transformation de couleur.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Représente une collection d'opérations de transformation des couleurs.
 type: docs
 weight: 5310
 url: /fr/aspose.slides/icoloroperationcollection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icoloroperationcollection/
 
 ## Interface IColorOperationCollection
 
-Représente une collection d'opérations de transformation de couleur.
+Représente une collection d'opérations de transformation des couleurs.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 

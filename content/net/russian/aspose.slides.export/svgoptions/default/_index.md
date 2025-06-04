@@ -15,7 +15,7 @@ url: /ru/aspose.slides.export/svgoptions/default/
 public static SVGOptions Default { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [SVGOptions](../../svgoptions)
 * пространство имен [Aspose.Slides.Export](../../svgoptions)

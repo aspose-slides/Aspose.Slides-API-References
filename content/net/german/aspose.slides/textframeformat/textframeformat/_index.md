@@ -1,7 +1,7 @@
 ---
 title: TextFrameFormat
 second_title: Aspose.Slides für .NET API Referenz
-description: Initialisiert eine neue Instanz der TextFrameFormat aspose.slides/textframeformat Klasse.
+description: Initialisiert eine neue Instanz der TextFrameFormataspose.slides/textframeformat Klasse.
 type: docs
 weight: 10
 url: /de/aspose.slides/textframeformat/textframeformat/

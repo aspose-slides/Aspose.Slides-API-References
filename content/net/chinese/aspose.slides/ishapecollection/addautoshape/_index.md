@@ -1,7 +1,7 @@
 ---
 title: AddAutoShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建一个新的 AutoShape，从默认模板调整并将其添加到集合的末尾。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建一个新的自动形状，使用默认模板进行调整，并将其添加到集合的末尾。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ishapecollection/addautoshape/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ishapecollection/addautoshape/
 
 ## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-创建一个新的 AutoShape，从默认模板调整并将其添加到集合的末尾。
+创建一个新的自动形状，使用默认模板进行调整，并将其添加到集合的末尾。
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -18,16 +18,16 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeType | ShapeType | 形状的 [`ShapeType`](../../shapetype)。 |
-| x | Single | 形状框左侧的 X 坐标。 |
-| y | Single | 形状框顶部的 Y 坐标。 |
-| width | Single | 形状框的宽度。 |
-| height | Single | 形状框的高度。 |
+| x | Single | 形状框架左侧的 X 坐标。 |
+| y | Single | 形状框架顶部的 Y 坐标。 |
+| width | Single | 形状框架的宽度。 |
+| height | Single | 形状框架的高度。 |
 
 ### 返回值
 
-创建的 AutoShape 对象。
+创建的自动形状对象。
 
-### 另见
+### 参见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 枚举 [ShapeType](../../shapetype)
@@ -39,7 +39,7 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 ## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
-创建一个新的 AutoShape，并将其添加到集合的末尾。
+创建一个新的自动形状，并将其添加到集合的末尾。
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height, 
@@ -49,17 +49,17 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeType | ShapeType | 形状的 [`ShapeType`](../../shapetype)。 |
-| x | Single | 形状框左侧的 X 坐标。 |
-| y | Single | 形状框顶部的 Y 坐标。 |
-| width | Single | 形状框的宽度。 |
-| height | Single | 形状框的高度。 |
-| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板调整。将为新形状分配非空名称、简单样式和居中文本。如果为 false，则新形状的所有属性值将具有默认值。 |
+| x | Single | 形状框架左侧的 X 坐标。 |
+| y | Single | 形状框架顶部的 Y 坐标。 |
+| width | Single | 形状框架的宽度。 |
+| height | Single | 形状框架的高度。 |
+| createFromTemplate | Boolean | 如果为 true，则新形状将使用默认模板进行调整。将分配非空名称、简单样式和居中文本给新形状。如果为 false，则新形状的所有属性值将具有默认值。 |
 
 ### 返回值
 
-创建的 AutoShape 对象。
+创建的自动形状对象。
 
-### 另见
+### 参见
 
 * 接口 [IAutoShape](../../iautoshape)
 * 枚举 [ShapeType](../../shapetype)

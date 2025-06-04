@@ -1,24 +1,24 @@
 ---
 title: BlurRadius
-second_title: Referencia API de Aspose.Slides para .NET
-description: Radio de desenfoque. Lectura/escritura Doble.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Radio de desenfoque. Lectura/escritura Double.
 type: docs
 weight: 30
 url: /es/aspose.slides.effects/ireflection/blurradius/
 ---
 
-## Propiedad IReflection.BlurRadius
+## IReflection.BlurRadius property
 
-Radio de desenfoque. Lectura/escritura Doble.
+Radio de desenfoque. Lectura/escritura Double.
 
 ```csharp
 public double BlurRadius { get; set; }
 ```
 
-### Vea También
+### Ver también
 
-* interfaz [IReflection](../../ireflection)
-* espacio de nombres [Aspose.Slides.Effects](../../ireflection)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IReflection](../../ireflection)
+* espacio de nombres [Aspose.Slides.Effects](../../ireflection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,15 +1,15 @@
 ---
 title: DrilldownLocked
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob das Auswählen von Unterformen dieses Objekts verboten ist. Lese-/Schreibboolean.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Bestimmt, ob die Auswahl von Unterformen dieses Objekts verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides/igraphicalobjectlock/drilldownlocked/
 ---
 
-## IGraphicalObjectLock.DrilldownLocked Eigenschaft
+## IGraphicalObjectLock.DrilldownLocked-Eigenschaft
 
-Bestimmt, ob das Auswählen von Unterformen dieses Objekts verboten ist. Lese-/Schreibboolean.
+Bestimmt, ob die Auswahl von Unterformen dieses Objekts verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool DrilldownLocked { get; set; }

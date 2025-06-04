@@ -1,13 +1,13 @@
 ---
 title: ReplaceText
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Remplace toutes les occurrences du texte spécifié par un autre texte spécifié.
 type: docs
 weight: 120
 url: /fr/aspose.slides/itextframe/replacetext/
 ---
 
-## Méthode ITextFrame.ReplaceText
+## ITextFrame.ReplaceText méthode
 
 Remplace toutes les occurrences du texte spécifié par un autre texte spécifié.
 
@@ -19,9 +19,9 @@ public void ReplaceText(string oldText, string newText, ITextSearchOptions optio
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | oldText | String | La chaîne à remplacer. |
-| newText | String | La chaîne utilisée pour remplacer toutes les occurrences de oldText. |
+| newText | String | La chaîne pour remplacer toutes les occurrences de oldText. |
 | options | ITextSearchOptions | Options de recherche de texte [`ITextSearchOptions`](../../itextsearchoptions). |
-| callback | IFindResultCallback | L'objet callback pour recevoir les résultats de recherche [`IFindResultCallback`](../../ifindresultcallback). |
+| callback | IFindResultCallback | L'objet de rappel pour recevoir les résultats de recherche [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Exemples
 

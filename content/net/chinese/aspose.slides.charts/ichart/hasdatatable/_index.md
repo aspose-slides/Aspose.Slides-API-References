@@ -1,7 +1,7 @@
 ---
 title: HasDataTable
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定图表是否具有数据表。可读/写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定一个图表是否具有数据表。读/写布尔值。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/ichart/hasdatatable/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichart/hasdatatable/
 
 ## IChart.HasDataTable 属性
 
-确定图表是否具有数据表。可读/写布尔值。
+确定一个图表是否具有数据表。读/写布尔值。
 
 ```csharp
 public bool HasDataTable { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IChart](../../ichart)
 * 命名空间 [Aspose.Slides.Charts](../../ichart)

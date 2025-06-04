@@ -15,11 +15,11 @@ Devuelve o establece el color de un contorno. Solo lectura [`IColorFormat`](../.
 public IColorFormat ContourColor { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IColorFormat](../../icolorformat)
-* interfaz [IThreeDFormat](../../ithreedformat)
-* espacio de nombres [Aspose.Slides](../../ithreedformat)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColorFormat](../../icolorformat)
+* interfaz [IThreeDFormat](../../ithreedformat)
+* espacio de nombres [Aspose.Slides](../../ithreedformat)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

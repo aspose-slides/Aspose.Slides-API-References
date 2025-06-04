@@ -1,7 +1,7 @@
 ---
 title: ArrowheadsLocked
 second_title: Aspose.Slides for .NET API Reference
-description: 确定是否禁止更改箭头。可读/可写布尔值。
+description: 确定是否禁止更改箭头。可读/写布尔值。
 type: docs
 weight: 20
 url: /zh/aspose.slides/iconnectorlock/arrowheadslocked/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/iconnectorlock/arrowheadslocked/
 
 ## IConnectorLock.ArrowheadsLocked 属性
 
-确定是否禁止更改箭头。可读/可写布尔值。
+确定是否禁止更改箭头。可读/写布尔值。
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IConnectorLock](../../iconnectorlock)
 * 命名空间 [Aspose.Slides](../../iconnectorlock)

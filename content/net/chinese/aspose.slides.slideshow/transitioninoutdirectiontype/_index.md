@@ -1,7 +1,7 @@
 ---
 title: TransitionInOutDirectionType
 second_title: Aspose.Slides for .NET API Reference
-description: 表示进入或退出方向的过渡类型。
+description: 表示进场或出场方向的过渡类型。
 type: docs
 weight: 10060
 url: /zh/aspose.slides.slideshow/transitioninoutdirectiontype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.slideshow/transitioninoutdirectiontype/
 
 ## TransitionInOutDirectionType 枚举
 
-表示进入或退出方向的过渡类型。
+表示进场或出场方向的过渡类型。
 
 ```csharp
 public enum TransitionInOutDirectionType
@@ -22,7 +22,7 @@ public enum TransitionInOutDirectionType
 | In | `0` |  |
 | Out | `1` |  |
 
-### 参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

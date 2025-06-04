@@ -1,7 +1,7 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Sammlung benutzerdefinierter XML-Teile dar.
+description: Stellt eine Sammlung von benutzerdefinierten XML-Teilen dar.
 type: docs
 weight: 5480
 url: /de/aspose.slides/icustomxmlpartcollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/icustomxmlpartcollection/
 
 ## ICustomXmlPartCollection-Schnittstelle
 
-Stellt eine Sammlung benutzerdefinierter XML-Teile dar.
+Stellt eine Sammlung von benutzerdefinierten XML-Teilen dar.
 
 ```csharp
 public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
@@ -29,7 +29,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Fügt einen neuen benutzerdefinierten XML-Teil hinzu. |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Fügt einen neuen benutzerdefinierten XML-Teil hinzu. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Entfernt die erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung. |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Entfernt den benutzerdefinierten XML-Teil am angegebenen Index. |
 
 ### Siehe auch

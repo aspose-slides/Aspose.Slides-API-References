@@ -1,15 +1,15 @@
 ---
 title: AddTextPlaceholder
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute une nouvelle forme de contenu à espace réservé à la diapositive de mise en page pour contenir du texte.
+description: Ajoute une nouvelle forme de remplissage au diapositive de mise en page pour contenir du texte.
 type: docs
 weight: 80
 url: /fr/aspose.slides/ilayoutplaceholdermanager/addtextplaceholder/
 ---
 
-## Méthode ILayoutPlaceholderManager.AddTextPlaceholder
+## ILayoutPlaceholderManager.AddTextPlaceholder méthode
 
-Ajoute une nouvelle forme de contenu à espace réservé à la diapositive de mise en page pour contenir du texte.
+Ajoute une nouvelle forme de remplissage au diapositive de mise en page pour contenir du texte.
 
 ```csharp
 public IAutoShape AddTextPlaceholder(float x, float y, float width, float height)
@@ -17,18 +17,18 @@ public IAutoShape AddTextPlaceholder(float x, float y, float width, float height
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| x | Single | La coordonnée X de la nouvelle forme de contenu à espace réservé. |
-| y | Single | La coordonnée Y de la nouvelle forme de contenu à espace réservé. |
-| width | Single | La largeur de la nouvelle forme de contenu à espace réservé. |
-| height | Single | La hauteur de la nouvelle forme de contenu à espace réservé. |
+| x | Single | La coordonnée X de la nouvelle forme de remplissage. |
+| y | Single | La coordonnée Y de la nouvelle forme de remplissage. |
+| width | Single | La largeur de la nouvelle forme de remplissage. |
+| height | Single | La hauteur de la nouvelle forme de remplissage. |
 
-### Valeur de retour
+### Valeur de Retour
 
-Créé un [`IAutoShape`](../../iautoshape) avec un espace réservé de texte.
+Créé [`IAutoShape`](../../iautoshape) avec un remplissage de texte.
 
 ### Exemples
 
-L'exemple suivant montre comment ajouter la forme d'espace réservé de texte à la diapositive de mise en page.
+L'exemple suivant montre comment ajouter la forme de remplissage de texte à la diapositive de mise en page.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAutoShape](../../iautoshape)
 * interface [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)

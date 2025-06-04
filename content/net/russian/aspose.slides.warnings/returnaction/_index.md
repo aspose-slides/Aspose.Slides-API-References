@@ -1,7 +1,7 @@
 ---
 title: ReturnAction
-second_title: Aspose.Slides для .NET API Справочник
-description: Описывает варианты решения о предупреждении при обратном вызове.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет варианты решений для обратного вызова предупреждений.
 type: docs
 weight: 11510
 url: /ru/aspose.slides.warnings/returnaction/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.warnings/returnaction/
 
 ## Перечисление ReturnAction
 
-Описывает варианты решения о предупреждении при обратном вызове.
+Представляет варианты решений для обратного вызова предупреждений.
 
 ```csharp
 public enum ReturnAction
@@ -22,7 +22,7 @@ public enum ReturnAction
 | Continue | `0` | Операцию следует продолжить. |
 | Abort | `1` | Операцию следует прервать. |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * сборка [Aspose.Slides](../../)

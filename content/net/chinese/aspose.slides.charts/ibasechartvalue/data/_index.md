@@ -1,6 +1,6 @@
 ---
 title: Data
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 读/写对象。
 type: docs
 weight: 10

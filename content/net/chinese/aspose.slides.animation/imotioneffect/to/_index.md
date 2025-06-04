@@ -1,7 +1,7 @@
 ---
 title: To
-second_title: Aspose.Slides for .NET API 参考
-description: 指定动画运动效果的目标位置（以百分比表示）。读/写 PointF。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定动画运动效果的目标位置（以百分比表示）。可读写 PointF。
 type: docs
 weight: 90
 url: /zh/aspose.slides.animation/imotioneffect/to/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/imotioneffect/to/
 
 ## IMotionEffect.To 属性
 
-指定动画运动效果的目标位置（以百分比表示）。读/写 PointF。
+指定动画运动效果的目标位置（以百分比表示）。可读写 PointF。
 
 ```csharp
 public PointF To { get; set; }

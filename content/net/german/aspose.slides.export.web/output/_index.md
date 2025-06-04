@@ -1,13 +1,13 @@
 ---
 title: Output
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Sammlung von Ausgabeelementen für IWebDocument dar.
 type: docs
 weight: 4450
 url: /de/aspose.slides.export.web/output/
 ---
 
-## Ausgabe-Klasse
+## Output-Klasse
 
 Stellt eine Sammlung von Ausgabeelementen für !:IWebDocument dar.
 
@@ -25,7 +25,7 @@ public sealed class Output
 | [Add](../../aspose.slides.export.web/output/add#add_5)(string, string) | Fügt ein Ausgabeelement für den Textinhalt hinzu. |
 | [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyle) | Fügt ein Ausgabeelement für die Schriftart hinzu. |
 | [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_6)(string, string, TContextObject) |  |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Bindet die Ressource an die Ausgabedatei. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Bindet Ressource an Ausgabedatei. |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Gibt den Pfad für eine gegebene Ressource zurück. |
 
 ### Siehe auch

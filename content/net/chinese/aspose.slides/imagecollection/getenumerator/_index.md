@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Slides for .NET API 参考
-description: 返回一个枚举器，用于迭代集合。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 70
 url: /zh/aspose.slides/imagecollection/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imagecollection/getenumerator/
 
 ## ImageCollection.GetEnumerator 方法
 
-返回一个枚举器，用于迭代集合。
+返回一个迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<IPPImage> GetEnumerator()
@@ -19,7 +19,7 @@ public IEnumerator<IPPImage> GetEnumerator()
 
 一个可以用于迭代集合的 IEnumerator。
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IPPImage](../../ippimage)
 * 类 [ImageCollection](../../imagecollection)

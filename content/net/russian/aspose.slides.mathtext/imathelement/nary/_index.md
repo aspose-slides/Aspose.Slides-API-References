@@ -1,6 +1,6 @@
 ---
 title: Nary
-second_title: Aspose.Sildes для .NET API Reference
+second_title: Aspose.Sildes для .NET API Справочник
 description: Создает N-арный оператор
 type: docs
 weight: 100
@@ -38,7 +38,7 @@ IMathElement upperLimit = new MathematicalText("𝑛");
 IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summation, lowerLimit, upperLimit);
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)
@@ -75,7 +75,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 IMathNaryOperator naryOperator = new MathematicalText("i").Nary(MathNaryOperatorTypes.Summation, "i=0", "𝑛");
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IMathNaryOperator](../../imathnaryoperator)
 * перечисление [MathNaryOperatorTypes](../../mathnaryoperatortypes)

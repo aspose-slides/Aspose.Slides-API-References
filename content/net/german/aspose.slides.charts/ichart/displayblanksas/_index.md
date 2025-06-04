@@ -1,7 +1,7 @@
 ---
 title: DisplayBlanksAs
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Art und Weise zurück oder legt sie fest, wie leere Zellen in einem Diagramm dargestellt werden. Lese-/Schreibzugriff auf DisplayBlanksAsType aspose.slides.charts/displayblanksastype.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Art und Weise zurück oder setzt sie, wie leere Zellen in einem Diagramm dargestellt werden. Lese-/Schreibzugriff auf DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/ichart/displayblanksas/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichart/displayblanksas/
 
 ## IChart.DisplayBlanksAs-Eigenschaft
 
-Gibt die Art und Weise zurück oder legt sie fest, wie leere Zellen in einem Diagramm dargestellt werden. Lese-/Schreibzugriff auf [`DisplayBlanksAsType`](../../displayblanksastype).
+Gibt die Art und Weise zurück oder setzt sie, wie leere Zellen in einem Diagramm dargestellt werden. Lese-/Schreibzugriff auf [`DisplayBlanksAsType`](../../displayblanksastype).
 
 ```csharp
 public DisplayBlanksAsType DisplayBlanksAs { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: Count
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取集合中实际包含的元素数量。只读 Int32。
 type: docs
 weight: 20

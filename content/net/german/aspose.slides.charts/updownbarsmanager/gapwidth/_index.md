@@ -1,7 +1,7 @@
 ---
 title: GapWidth
 second_title: Aspose.Slides für .NET API-Referenz
-description: GapWidth. Lese-/Schreibzugriff auf Int32.
+description: GapWidth. Lese-/Schreib-Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/updownbarsmanager/gapwidth/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/updownbarsmanager/gapwidth/
 
 ## UpDownBarsManager.GapWidth-Eigenschaft
 
-GapWidth. Lese-/Schreibzugriff auf Int32.
+GapWidth. Lese-/Schreib-Int32.
 
 ```csharp
 public int GapWidth { get; set; }

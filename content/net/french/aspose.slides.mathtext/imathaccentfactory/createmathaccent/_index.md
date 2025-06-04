@@ -1,7 +1,7 @@
 ---
 title: CreateMathAccent
-second_title: Référence API Aspose.Sildes pour .NET
-description: Crée un accent mathématique appliqué à un élément mathématique spécifié avec la valeur de caractère d'accent par défaut
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée un accent mathématique s'appliquant à un élément mathématique spécifié avec la valeur par défaut du caractère d'accent
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathaccentfactory/createmathaccent/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathaccentfactory/createmathaccent/
 
 ## CreateMathAccent(IMathElement) {#createmathaccent}
 
-Crée un accent mathématique appliqué à un élément mathématique spécifié avec la valeur de caractère d'accent par défaut
+Crée un accent mathématique s'appliquant à un élément mathématique spécifié avec la valeur par défaut du caractère d'accent
 
 ```csharp
 public IMathAccent CreateMathAccent(IMathElement element)
@@ -19,11 +19,11 @@ public IMathAccent CreateMathAccent(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | élément mathématique pour appliquer l'accent |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvel accent mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathAccent](../../imathaccent)
 * interface [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ nouvel accent mathématique
 
 ## CreateMathAccent(IMathElement, char) {#createmathaccent_1}
 
-Crée un accent mathématique appliqué à un élément mathématique spécifié
+Crée un accent mathématique s'appliquant à un élément mathématique spécifié
 
 ```csharp
 public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
@@ -46,11 +46,11 @@ public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 | element | IMathElement | élément mathématique pour appliquer l'accent |
 | accentCharacter | Char | caractère d'accent |
 
-### Valeur de retour
+### Valeur de Retour
 
 nouvel accent mathématique
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathAccent](../../imathaccent)
 * interface [IMathElement](../../imathelement)

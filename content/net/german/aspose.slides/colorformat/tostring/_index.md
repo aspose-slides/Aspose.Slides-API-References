@@ -1,15 +1,15 @@
 ---
 title: ToString
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Zeichenfolge zurück, die das aktuelle Farbschema darstellt.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt einen String zurück, der das aktuelle Farbformat darstellt.
 type: docs
 weight: 190
 url: /de/aspose.slides/colorformat/tostring/
 ---
 
-## ColorFormat.ToString-Methode
+## ColorFormat.ToString Methode
 
-Gibt eine Zeichenfolge zurück, die das aktuelle Farbschema darstellt.
+Gibt einen String zurück, der das aktuelle Farbformat darstellt.
 
 ```csharp
 public string ToString(ColorStringFormat format)
@@ -17,11 +17,11 @@ public string ToString(ColorStringFormat format)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| format | ColorStringFormat | Eine Art von Farbzeichenfolgenformat. |
+| format | ColorStringFormat | Ein Typ von Farbstringformat. |
 
 ### Rückgabewert
 
-Eine Zeichenfolge, die das aktuelle Farbschema darstellt.
+Ein String, der das aktuelle Farbformat darstellt.
 
 ### Siehe auch
 

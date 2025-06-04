@@ -1,6 +1,6 @@
 ---
 title: Decelerate
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Describe el porcentaje de duración del efecto de comportamiento de desaceleración. Lectura/escritura Single.
 type: docs
 weight: 30
@@ -15,10 +15,10 @@ Describe el porcentaje de duración del efecto de comportamiento de desaceleraci
 public float Decelerate { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Timing](../../timing)
-* espacio de nombres [Aspose.Slides.Animation](../../timing)
-* ensamblado [Aspose.Slides](../../../)
+* namespace [Aspose.Slides.Animation](../../timing)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

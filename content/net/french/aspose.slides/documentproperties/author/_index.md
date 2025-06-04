@@ -1,15 +1,15 @@
 ---
 title: Author
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit l'auteur d'une présentation. Chaîne en lecture/écriture.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Renvoie ou définit l'auteur d'une présentation. Lecture/écriture String.
 type: docs
 weight: 40
 url: /fr/aspose.slides/documentproperties/author/
 ---
 
-## Propriété DocumentProperties.Author
+## DocumentProperties.Author propriété
 
-Renvoie ou définit l'auteur d'une présentation. Chaîne en lecture/écriture.
+Renvoie ou définit l'auteur d'une présentation. Lecture/écriture String.
 
 ```csharp
 public string Author { get; set; }

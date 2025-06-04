@@ -1,13 +1,13 @@
 ---
 title: StyleFontFamily
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaft style.fontFamily dar
 type: docs
 weight: 1060
 url: /de/aspose.slides.animation/behaviorproperty/stylefontfamily/
 ---
 
-## BehaviorProperty.StyleFontFamily Eigenschaft
+## BehaviorProperty.StyleFontFamily-Eigenschaft
 
 Stellt die Eigenschaft 'style.fontFamily' dar
 

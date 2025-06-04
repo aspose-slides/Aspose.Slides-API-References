@@ -1,7 +1,7 @@
 ---
 title: From
-second_title: Aspose.Sildes для .NET API Справочник
-description: Указывает координату x/y, с которой начинается анимация в процентах. Чтение/запись PointF.
+second_title: Справка по API Aspose.Sildes для .NET
+description: Указывает координаты x/y для начала анимации в процентах. Чтение/запись PointF.
 type: docs
 weight: 30
 url: /ru/aspose.slides.animation/scaleeffect/from/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/scaleeffect/from/
 
 ## ScaleEffect.From property
 
-Указывает координату x/y, с которой начинается анимация (в процентах). Чтение/запись PointF.
+Указывает координаты x/y для начала анимации (в процентах). Чтение/запись PointF.
 
 ```csharp
 public PointF From { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: InsertClone
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Вставляет копию указанной фигуры в указанную позицию коллекции.
 type: docs
 weight: 320
@@ -68,7 +68,7 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 
 ## InsertClone(int, IShape) {#insertclone}
 
-Вставляет копию указанной фигуры в указанную позицию коллекции. X, Y, Width и Height новой фигуры равны X, Y, Width и Height *sourceShape*.
+Вставляет копию указанной фигуры в указанную позицию коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте *sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)

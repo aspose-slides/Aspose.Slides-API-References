@@ -1,7 +1,7 @@
 ---
 title: FillOverlayEffect
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet de remplissage superposé. Lecture/écriture IFillOverlayaspose.slides.effects/ifilloverlay.
+description: Effet de remplissage en superposition. Lecture/écriture IFillOverlayaspose.slides.effects/ifilloverlay.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ieffectformat/filloverlayeffect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ieffectformat/filloverlayeffect/
 
 ## Propriété IEffectFormat.FillOverlayEffect
 
-Effet de remplissage superposé. Lecture/écriture [`IFillOverlay`](../../../aspose.slides.effects/ifilloverlay).
+Effet de remplissage en superposition. Lecture/écriture [`IFillOverlay`](../../../aspose.slides.effects/ifilloverlay).
 
 ```csharp
 public IFillOverlay FillOverlayEffect { get; set; }

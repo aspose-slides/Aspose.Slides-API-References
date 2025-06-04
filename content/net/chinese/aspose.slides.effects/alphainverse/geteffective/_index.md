@@ -1,7 +1,7 @@
 ---
 title: GetEffective
-second_title: Aspose.Sildes for .NET API 参考
-description: 获取应用继承的有效 Alpha 反转效果数据。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取应用继承的有效 Alpha Inverse 效果数据。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/alphainverse/geteffective/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/alphainverse/geteffective/
 
 ## AlphaInverse.GetEffective 方法
 
-获取应用继承的有效 Alpha 反转效果数据。
+获取应用继承的有效 Alpha Inverse 效果数据。
 
 ```csharp
 public IAlphaInverseEffectiveData GetEffective()
@@ -19,7 +19,7 @@ public IAlphaInverseEffectiveData GetEffective()
 
 一个 [`IAlphaInverseEffectiveData`](../../ialphainverseeffectivedata)。
 
-### 另请参阅
+### 另见
 
 * 接口 [IAlphaInverseEffectiveData](../../ialphainverseeffectivedata)
 * 类 [AlphaInverse](../../alphainverse)

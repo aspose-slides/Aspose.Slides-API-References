@@ -1,7 +1,7 @@
 ---
 title: SetGeometryPaths
-second_title: Aspose.Slides для .NET API Справочник
-description: Обновляет геометрию фигуры из массива IGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительными к левому верхнему углу фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/geometryshape/shapetype на Custom.
+second_title: Aspose.Sildes for .NET API Reference
+description: Обновляет геометрию фигуры из массива IGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительно верхнего левого угла фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/geometryshape/shapetype на Custom.
 type: docs
 weight: 70
 url: /ru/aspose.slides/geometryshape/setgeometrypaths/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/geometryshape/setgeometrypaths/
 
 ## GeometryShape.SetGeometryPaths метод
 
-Обновляет геометрию фигуры из массива [`IGeometryPath`](../../igeometrypath). Координаты должны быть относительными к левому верхнему углу фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype)) на Custom.
+Обновляет геометрию фигуры из массива [`IGeometryPath`](../../igeometrypath). Координаты должны быть относительно верхнего левого угла фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype)) на Custom.
 
 ```csharp
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)
@@ -24,7 +24,7 @@ public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 | исключение | условие |
 | --- | --- |
 | ArgumentException | Путь не найден |
-| ArgumentException | Путь пустой |
+| ArgumentException | Пустой путь |
 
 ### Примеры
 

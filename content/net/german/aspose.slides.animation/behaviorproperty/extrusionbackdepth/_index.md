@@ -1,6 +1,6 @@
 ---
 title: ExtrusionBackDepth
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Stellt die Eigenschaft extrusion.backdepth dar
 type: docs
 weight: 20

@@ -1,7 +1,7 @@
 ---
 title: LinearGradientAngle
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回渐变的角度。只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回渐变的角度。为只读单精度浮点数。
 type: docs
 weight: 50
 url: /zh/aspose.slides/igradientformateffectivedata/lineargradientangle/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/igradientformateffectivedata/lineargradientangle/
 
 ## IGradientFormatEffectiveData.LinearGradientAngle 属性
 
-返回渐变的角度。只读单精度浮点数。
+返回渐变的角度。为只读单精度浮点数。
 
 ```csharp
 public float LinearGradientAngle { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IGradientFormatEffectiveData](../../igradientformateffectivedata)
 * 命名空间 [Aspose.Slides](../../igradientformateffectivedata)

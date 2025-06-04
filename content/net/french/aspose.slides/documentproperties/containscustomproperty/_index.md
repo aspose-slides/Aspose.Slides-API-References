@@ -19,11 +19,11 @@ public bool ContainsCustomProperty(string name)
 | --- | --- | --- |
 | name | String | Nom d'une propriété personnalisée à vérifier. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Retourne vrai si la propriété existe, faux sinon.
+Retourne true si la propriété existe, false sinon.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [DocumentProperties](../../documentproperties)
 * espace de noms [Aspose.Slides](../../documentproperties)

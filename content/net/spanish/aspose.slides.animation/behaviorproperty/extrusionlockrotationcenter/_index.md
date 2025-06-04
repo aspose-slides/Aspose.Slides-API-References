@@ -15,7 +15,7 @@ Representa la propiedad 'extrusion.lockrotationcenter'
 public static BehaviorProperty ExtrusionLockRotationCenter { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

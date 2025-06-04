@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el formato de relleno por patrón. Solo lectura IPatternFormataspose.slides/ipatternformat.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Devuelve el formato de relleno de patrón. Solo lectura IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 30
 url: /es/aspose.slides/fillformat/patternformat/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/fillformat/patternformat/
 
 ## Propiedad FillFormat.PatternFormat
 
-Devuelve el formato de relleno por patrón. Solo lectura [`IPatternFormat`](../../ipatternformat).
+Devuelve el formato de relleno de patrón. Solo lectura [`IPatternFormat`](../../ipatternformat).
 
 ```csharp
 public IPatternFormat PatternFormat { get; }

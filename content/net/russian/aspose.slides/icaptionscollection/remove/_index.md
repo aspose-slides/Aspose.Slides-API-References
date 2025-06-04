@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Справка по API Aspose.Sildes для .NET
-description: Удаляет указанные субтитры из коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет указанные закрытые субтитры из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icaptionscollection/remove/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icaptionscollection/remove/
 
 ## ICaptionsCollection.Remove метод
 
-Удаляет указанные субтитры из коллекции.
+Удаляет указанные закрытые субтитры из коллекции.
 
 ```csharp
 public void Remove(ICaptions captions)
@@ -17,9 +17,9 @@ public void Remove(ICaptions captions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| captions | ICaptions | Субтитры, которые нужно удалить. |
+| captions | ICaptions | Закрытые субтитры для удаления. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [ICaptions](../../icaptions)
 * интерфейс [ICaptionsCollection](../../icaptionscollection)

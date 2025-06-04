@@ -1,15 +1,15 @@
 ---
 title: ReplaceRegex
-second_title: Aspose.Slides für .NET API Referenz
-description: Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch die angegebene Zeichenfolge.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Ersetzt alle Übereinstimmungen des regulären Ausdrucks mit dem angegebenen String.
 type: docs
 weight: 120
 url: /de/aspose.slides/textframe/replaceregex/
 ---
 
-## TextFrame.ReplaceRegex Methode
+## TextFrame.ReplaceRegex-Methode
 
-Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch die angegebene Zeichenfolge.
+Ersetzt alle Übereinstimmungen des regulären Ausdrucks mit dem angegebenen String.
 
 ```csharp
 public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callback)
@@ -17,13 +17,13 @@ public void ReplaceRegex(Regex regex, string newText, IFindResultCallback callba
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| regex | Regex | Der reguläre Ausdruck Regex, um die zu ersetzenden Zeichenfolgen zu erhalten. |
-| newText | String | Die Zeichenfolge, um alle Vorkommen der zu ersetzenden Zeichenfolgen zu ersetzen. |
+| regex | Regex | Der reguläre Ausdruck Regex, um Strings zu erhalten, die ersetzt werden sollen. |
+| newText | String | Der String, um alle Vorkommen der zu ersetzenden Strings zu ersetzen. |
 | callback | IFindResultCallback | Callback-Objekt zum Speichern des Ergebnisses der Ersetzungsoperation [`IFindResultCallback`](../../ifindresultcallback). |
 
 ### Beispiele
 
-Der folgende Beispielcode zeigt, wie man Text mithilfe eines regulären Ausdrucks durch die angegebene Zeichenfolge ersetzt.
+Der folgende Beispielcode zeigt, wie man Text mit einem regulären Ausdruck durch den angegebenen String ersetzen kann.
 
 ```csharp
 [C#]
@@ -35,9 +35,9 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Schnittstelle [IFindResultCallback](../../ifindresultcallback)
+* Interface [IFindResultCallback](../../ifindresultcallback)
 * Klasse [TextFrame](../../textframe)
 * Namespace [Aspose.Slides](../../textframe)
 * Assembly [Aspose.Slides](../../../)

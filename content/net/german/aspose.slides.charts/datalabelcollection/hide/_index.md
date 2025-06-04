@@ -1,7 +1,7 @@
 ---
 title: Hide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Machen Sie das Datenlabel standardmäßig unsichtbar, indem Sie alle Show-Flags ShowValue ... der DefaultDataLabelFormat-Eigenschaft auf den falschen Zustand setzen. IsVisible wird danach falsch sein.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Machen Sie das Datenlabel standardmäßig unsichtbar, indem Sie alle Show-Flags ShowValue, ... der DefaultDataLabelFormat-Eigenschaft auf den falschen Zustand setzen. IsVisible wird danach falsch sein.
 type: docs
 weight: 100
 url: /de/aspose.slides.charts/datalabelcollection/hide/
@@ -15,11 +15,11 @@ Machen Sie das Datenlabel standardmäßig unsichtbar, indem Sie alle Show*-Flags
 public void Hide()
 ```
 
-### Anmerkungen
+### Bemerkungen
 
 Wenn das Datenlabel standardmäßig nicht sichtbar ist (IsVisible ist falsch), können Sie das Datenlabel "standardmäßig sichtbar" machen, indem Sie die Show*-Flags (ShowValue, ...) der DefaultDataLabelFormat-Eigenschaft auf den wahren Zustand setzen.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [DataLabelCollection](../../datalabelcollection)
 * Namespace [Aspose.Slides.Charts](../../datalabelcollection)

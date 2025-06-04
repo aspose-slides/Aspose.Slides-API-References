@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Slides für .NET API-Referenz
-description: Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index der Sammlung hinzu.
+description: Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index zur Sammlung hinzu.
 type: docs
 weight: 40
 url: /de/aspose.slides/igradientstopcollection/insert/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/igradientstopcollection/insert/
 
 ## Insert(int, float, Color) {#insert_2}
 
-Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index der Sammlung hinzu.
+Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index zur Sammlung hinzu.
 
 ```csharp
 public void Insert(int index, float position, Color color)
@@ -18,12 +18,12 @@ public void Insert(int index, float position, Color color)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Index in der Sammlung, an dem der neue Farbverlauf-Stopp eingefügt wird. |
-| position | Single | Position des neuen Farbverlauf-Stops. |
-| color | Color | Farbe des neuen Farbverlauf-Stops. |
+| position | Single | Position des neuen Farbverlauf-Stopp. |
+| color | Color | Farbe des neuen Farbverlaufs-Stopp. |
 
 ### Siehe auch
 
-* Schnittstelle [IGradientStopCollection](../../igradientstopcollection)
+* Interface [IGradientStopCollection](../../igradientstopcollection)
 * Namespace [Aspose.Slides](../../igradientstopcollection)
 * Assembly [Aspose.Slides](../../../)
 
@@ -31,7 +31,7 @@ public void Insert(int index, float position, Color color)
 
 ## Insert(int, float, PresetColor) {#insert}
 
-Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index der Sammlung hinzu.
+Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index zur Sammlung hinzu.
 
 ```csharp
 public void Insert(int index, float position, PresetColor presetColor)
@@ -40,13 +40,13 @@ public void Insert(int index, float position, PresetColor presetColor)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Index in der Sammlung, an dem der neue Farbverlauf-Stopp eingefügt wird. |
-| position | Single | Position des neuen Farbverlauf-Stops. |
-| presetColor | PresetColor | Farbe des neuen Farbverlauf-Stops. |
+| position | Single | Position des neuen Farbverlauf-Stopp. |
+| presetColor | PresetColor | Farbe des neuen Farbverlaufs-Stopp. |
 
 ### Siehe auch
 
-* enum [PresetColor](../../presetcolor)
-* Schnittstelle [IGradientStopCollection](../../igradientstopcollection)
+* Enum [PresetColor](../../presetcolor)
+* Interface [IGradientStopCollection](../../igradientstopcollection)
 * Namespace [Aspose.Slides](../../igradientstopcollection)
 * Assembly [Aspose.Slides](../../../)
 
@@ -54,7 +54,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ## Insert(int, float, SchemeColor) {#insert_1}
 
-Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index der Sammlung hinzu.
+Erstellt den neuen Farbverlauf-Stopp und fügt ihn an dem angegebenen Index zur Sammlung hinzu.
 
 ```csharp
 public void Insert(int index, float position, SchemeColor schemeColor)
@@ -63,13 +63,13 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | index | Int32 | Index in der Sammlung, an dem der neue Farbverlauf-Stopp eingefügt wird. |
-| position | Single | Position des neuen Farbverlauf-Stops. |
-| schemeColor | SchemeColor | Farbe des neuen Farbverlauf-Stops. |
+| position | Single | Position des neuen Farbverlauf-Stopp. |
+| schemeColor | SchemeColor | Farbe des neuen Farbverlaufs-Stopp. |
 
 ### Siehe auch
 
-* enum [SchemeColor](../../schemecolor)
-* Schnittstelle [IGradientStopCollection](../../igradientstopcollection)
+* Enum [SchemeColor](../../schemecolor)
+* Interface [IGradientStopCollection](../../igradientstopcollection)
 * Namespace [Aspose.Slides](../../igradientstopcollection)
 * Assembly [Aspose.Slides](../../../)
 

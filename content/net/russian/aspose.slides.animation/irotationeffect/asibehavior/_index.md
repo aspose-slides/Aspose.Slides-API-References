@@ -1,7 +1,7 @@
 ---
 title: AsIBehavior
-second_title: Aspose.Sildes для .NET API Справка
-description: Позволяет получить базовый интерфейс IBehavior. Только для чтения IBehavioraspose.slides.animation/ibehavior.
+second_title: Справка по API Aspose.Slides для .NET
+description: Позволяет получить базовый интерфейс IBehavior. Только для чтения IBehavior aspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /ru/aspose.slides.animation/irotationeffect/asibehavior/
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/irotationeffect/asibehavior/
 public IBehavior AsIBehavior { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IBehavior](../../ibehavior)
 * интерфейс [IRotationEffect](../../irotationeffect)

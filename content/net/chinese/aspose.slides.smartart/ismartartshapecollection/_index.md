@@ -1,7 +1,7 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Slides for .NET API 参考
-description: 表示 SmartArt 形状的集合
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示一组SmartArt形状
 type: docs
 weight: 10270
 url: /zh/aspose.slides.smartart/ismartartshapecollection/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.smartart/ismartartshapecollection/
 
 ## ISmartArtShapeCollection 接口
 
-表示 SmartArt 形状的集合
+表示一组SmartArt形状
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -21,7 +21,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 | --- | --- |
 | [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 获取指定索引处的元素。只读 [`ISmartArtShape`](../ismartartshape)。元素的零基索引 |
 
-### 另请参见
+### 另见
 
 * 接口 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 接口 [ISmartArtShape](../ismartartshape)

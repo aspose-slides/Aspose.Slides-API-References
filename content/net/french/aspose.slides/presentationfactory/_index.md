@@ -1,7 +1,7 @@
 ---
 title: PresentationFactory
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Permet de créer des présentations via l'interface COM
+second_title: Aspose.Slides pour .NET API Reference
+description: Permet de créer une présentation via l'interface COM
 type: docs
 weight: 9330
 url: /fr/aspose.slides/presentationfactory/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentationfactory/
 
 ## Classe PresentationFactory
 
-Permet de créer des présentations via l'interface COM
+Permet de créer une présentation via l'interface COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -25,7 +25,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Nom | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instance statique de la fabrique de présentations. En lecture seule [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instance statique de la fabrique de présentations. Lecture seule [`PresentationFactory`](../presentationfactory). |
 
 ## Méthodes
 
@@ -33,8 +33,8 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Crée une nouvelle présentation. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Crée une nouvelle présentation avec des options de chargement supplémentaires |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crée un nouvel objet PresentationInfo à partir du flux et lie la présentation à celui-ci. Obtient des informations sur la présentation dans le flux spécifié. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crée un nouvel objet PresentationInfo à partir du fichier et lie la présentation à celui-ci. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crée un nouvel objet PresentationInfo à partir du flux et associe la présentation à celui-ci. Obtient des informations sur la présentation dans le flux spécifié. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crée un nouvel objet PresentationInfo à partir du fichier et associe la présentation à celui-ci. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Récupère le texte brut des diapositives |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Récupère le texte brut des diapositives |
@@ -81,7 +81,7 @@ props.Title = "Mon titre";
 info.UpdateDocumentProperties(props);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IPresentationFactory](../ipresentationfactory)
 * namespace [Aspose.Slides](../../aspose.slides)

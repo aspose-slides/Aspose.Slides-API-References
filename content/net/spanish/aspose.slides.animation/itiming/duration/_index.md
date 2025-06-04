@@ -17,8 +17,8 @@ public float Duration { get; set; }
 
 ### Ver También
 
-* interfaz [ITiming](../../itiming)
-* espacio de nombres [Aspose.Slides.Animation](../../itiming)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [ITiming](../../itiming)
+* namespace [Aspose.Slides.Animation](../../itiming)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO MODIFICAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,15 +1,15 @@
 ---
 title: LastSavedTime
-second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿最后修改的日期。值为 UTC。对于 Presentation.DocumentProperties 是只读的，因为它将在 IPresentation 对象保存过程中内部更新。可以通过方法 ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties 返回的 DocumentProperties 实例进行更改。请参见 UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties 方法摘要中的示例。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回演示文稿最后修改的日期。值为UTC。对于Presentation.DocumentProperties来说是只读的（因为它将在IPresentation对象保存过程时内部更新）。可以通过方法ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties返回的DocumentProperties实例进行更改。请参阅UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties方法摘要中的示例。
 type: docs
 weight: 200
 url: /zh/aspose.slides/documentproperties/lastsavedtime/
 ---
 
-## DocumentProperties.LastSavedTime 属性
+## DocumentProperties.LastSavedTime属性
 
-返回演示文稿最后修改的日期。值为 UTC。对于 Presentation.DocumentProperties 是只读的（因为它将在 IPresentation 对象保存过程中内部更新）。可以通过方法 [`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) 返回的 DocumentProperties 实例进行更改。请参见 [`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties) 方法摘要中的示例。
+返回演示文稿最后修改的日期。值为UTC。对于Presentation.DocumentProperties来说是只读的（因为它将在IPresentation对象保存过程时内部更新）。可以通过方法[`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties)返回的DocumentProperties实例进行更改。请参阅[`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties)方法摘要中的示例。
 
 ```csharp
 public DateTime LastSavedTime { get; set; }

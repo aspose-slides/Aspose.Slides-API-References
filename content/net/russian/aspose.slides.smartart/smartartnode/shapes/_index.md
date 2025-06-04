@@ -1,13 +1,13 @@
 ---
 title: Shapes
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает коллекции всех фигур, связанных с узлом. Только для чтения ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает коллекции всех фигур, связанных с узлом. Только для чтения ISmartArtShapeCollection aspose.slides.smartart/ismartartshapecollection.
 type: docs
 weight: 80
 url: /ru/aspose.slides.smartart/smartartnode/shapes/
 ---
 
-## Свойство SmartArtNode.Shapes
+## SmartArtNode.Shapes свойство
 
 Возвращает коллекции всех фигур, связанных с узлом. Только для чтения [`ISmartArtShapeCollection`](../../ismartartshapecollection).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.smartart/smartartnode/shapes/
 public ISmartArtShapeCollection Shapes { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [ISmartArtShapeCollection](../../ismartartshapecollection)
 * класс [SmartArtNode](../../smartartnode)

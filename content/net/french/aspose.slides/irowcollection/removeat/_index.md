@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Supprime une ligne à la position spécifiée d'un tableau.
 type: docs
 weight: 40
 url: /fr/aspose.slides/irowcollection/removeat/
 ---
 
-## Méthode IRowCollection.RemoveAt
+## IRowCollection.RemoveAt méthode
 
 Supprime une ligne à la position spécifiée d'un tableau.
 
@@ -17,7 +17,7 @@ public void RemoveAt(int firstRowIndex, bool withAttachedRows)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRowIndex | Int32 | Index d'une ligne à supprimer. |
+| firstRowIndex | Int32 | Index de la ligne à supprimer. |
 | withAttachedRows | Boolean | Vrai pour supprimer également toutes les lignes attachées. |
 
 ### Voir aussi

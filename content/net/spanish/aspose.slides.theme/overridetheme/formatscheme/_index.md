@@ -1,6 +1,6 @@
 ---
 title: FormatScheme
-second_title: Referencia API de Aspose.Sildes para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el esquema de formato de la forma. Solo lectura IFormatSchemeaspose.slides.theme/iformatscheme.
 type: docs
 weight: 30
@@ -20,6 +20,6 @@ public override IFormatScheme FormatScheme { get; }
 * interfaz [IFormatScheme](../../iformatscheme)
 * clase [OverrideTheme](../../overridetheme)
 * espacio de nombres [Aspose.Slides.Theme](../../overridetheme)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

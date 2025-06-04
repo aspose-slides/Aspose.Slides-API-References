@@ -1,13 +1,13 @@
 ---
 title: FromStream
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从流中创建图像。
 type: docs
 weight: 20
 url: /zh/aspose.slides/images/fromstream/
 ---
 
-## 从流中创建(Stream) {#fromstream}
+## FromStream(Stream) {#fromstream}
 
 从流中创建图像。
 
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/images/fromstream/
 public static IImage FromStream(Stream stream)
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 类 [Images](../../images)
@@ -24,7 +24,7 @@ public static IImage FromStream(Stream stream)
 
 ---
 
-## 从流中创建(Stream, bool) {#fromstream_1}
+## FromStream(Stream, bool) {#fromstream_1}
 
 从流中创建图像。
 
@@ -32,7 +32,7 @@ public static IImage FromStream(Stream stream)
 public static IImage FromStream(Stream stream, bool useEmbeddedColorManagement)
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 类 [Images](../../images)
@@ -41,7 +41,7 @@ public static IImage FromStream(Stream stream, bool useEmbeddedColorManagement)
 
 ---
 
-## 从流中创建(Stream, bool, bool) {#fromstream_2}
+## FromStream(Stream, bool, bool) {#fromstream_2}
 
 从流中创建图像。
 
@@ -50,7 +50,7 @@ public static IImage FromStream(Stream stream, bool useEmbeddedColorManagement,
     bool validateImageData)
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IImage](../../iimage)
 * 类 [Images](../../images)

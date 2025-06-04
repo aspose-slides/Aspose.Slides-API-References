@@ -1,7 +1,7 @@
 ---
 title: SvgData
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает данные SVG. Только для чтения Byte.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает SVG-данные. Только для чтения Byte.
 type: docs
 weight: 40
 url: /ru/aspose.slides/isvgimage/svgdata/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/isvgimage/svgdata/
 
 ## ISvgImage.SvgData свойство
 
-Возвращает данные SVG. Только для чтения Byte[].
+Возвращает SVG-данные. Только для чтения Byte[].
 
 ```csharp
 public byte[] SvgData { get; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [ISvgImage](../../isvgimage)
 * пространство имен [Aspose.Slides](../../isvgimage)

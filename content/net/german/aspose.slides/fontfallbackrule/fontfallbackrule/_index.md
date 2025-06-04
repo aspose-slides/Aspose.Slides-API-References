@@ -1,6 +1,6 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt eine neue Instanz.
 type: docs
 weight: 10
@@ -15,11 +15,11 @@ Erstellt eine neue Instanz.
 public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| startIndex | UInt32 | Startindex des Unicode-Bereichs |
-| endIndex | UInt32 | Endindex des Unicode-Bereichs |
-| fontNames | String | Name oder Namen der Schriftart (durch Kommas getrennt) für FallBack |
+| Parameter   | Typ     | Beschreibung                                     |
+|-------------|---------|-------------------------------------------------|
+| startIndex  | UInt32  | Startindex des Unicode-Bereichs                 |
+| endIndex    | UInt32  | Endindex des Unicode-Bereichs                   |
+| fontNames   | String  | Name oder Namen der Schriftarten (durch Komma getrennt) für den FallBack |
 
 ### Beispiele
 
@@ -32,7 +32,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRule](../../fontfallbackrule)
 * Namespace [Aspose.Slides](../../fontfallbackrule)
@@ -48,24 +48,24 @@ Erstellt eine neue Instanz.
 public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 ```
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| startIndex | UInt32 | Startindex des Unicode-Bereichs |
-| endIndex | UInt32 | Endindex des Unicode-Bereichs |
-| fontNames | String[] | Name oder Namen der Schriftart (durch Kommas getrennt) für FallBack |
+| Parameter   | Typ     | Beschreibung                                     |
+|-------------|---------|-------------------------------------------------|
+| startIndex  | UInt32  | Startindex des Unicode-Bereichs                 |
+| endIndex    | UInt32  | Endindex des Unicode-Bereichs                   |
+| fontNames   | String[]| Name oder Namen der Schriftarten (durch Komma getrennt) für den FallBack |
 
 ### Beispiele
 
 ```csharp
 [C#]
 // Erstelle eine neue Instanz von FontFallBackRule mit zwei Schriftarten
-IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"} );
+IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic" });
 
 // Erstelle eine neue Instanz von FontFallBackRule mit mehreren Schriftarten.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [FontFallBackRule](../../fontfallbackrule)
 * Namespace [Aspose.Slides](../../fontfallbackrule)

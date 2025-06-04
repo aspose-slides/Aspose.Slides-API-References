@@ -1,6 +1,6 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representar tipos de transición de dirección de esquina.
 type: docs
 weight: 10040
@@ -17,12 +17,12 @@ public enum TransitionCornerDirectionType
 
 ### Valores
 
-| Nombre     | Valor | Descripción |
-|------------|-------|-------------|
-| LeftDown   | `0`   |             |
-| LeftUp     | `1`   |             |
-| RightDown  | `2`   |             |
-| RightUp    | `3`   |             |
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| LeftDown | `0` |  |
+| LeftUp | `1` |  |
+| RightDown | `2` |  |
+| RightUp | `3` |  |
 
 ### Véase también
 

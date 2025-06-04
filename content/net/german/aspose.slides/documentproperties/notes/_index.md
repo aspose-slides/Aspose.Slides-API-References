@@ -1,7 +1,7 @@
 ---
 title: Notes
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Folien in einer Präsentation mit Notizen zurück. Nur-lesbare Int32.
+description: Gibt die Anzahl der Folien in einer Präsentation mit Notizen zurück. Nur-Lesen Int32.
 type: docs
 weight: 250
 url: /de/aspose.slides/documentproperties/notes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/notes/
 
 ## DocumentProperties.Notes-Eigenschaft
 
-Gibt die Anzahl der Folien in einer Präsentation mit Notizen zurück. Nur-lesbare Int32.
+Gibt die Anzahl der Folien in einer Präsentation mit Notizen zurück. Nur-Lesen Int32.
 
 ```csharp
 public int Notes { get; }

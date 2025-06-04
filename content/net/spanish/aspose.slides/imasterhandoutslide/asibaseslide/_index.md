@@ -1,13 +1,13 @@
 ---
 title: AsIBaseSlide
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IBaseSlide. Solo lectura IBaseSlide aspose.slides/ibaseslide.
+second_title: Aspose.Slide para referencia de API .NET
+description: Permite obtener la interfaz base IBaseSlide. Solo lectura IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 10
 url: /es/aspose.slides/imasterhandoutslide/asibaseslide/
 ---
 
-## Propiedad IMasterHandoutSlide.AsIBaseSlide
+## IMasterHandoutSlide.AsIBaseSlide propiedad
 
 Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../../ibaseslide).
 
@@ -15,11 +15,11 @@ Permite obtener la interfaz base IBaseSlide. Solo lectura [`IBaseSlide`](../../i
 public IBaseSlide AsIBaseSlide { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IBaseSlide](../../ibaseslide)
 * interfaz [IMasterHandoutSlide](../../imasterhandoutslide)
 * espacio de nombres [Aspose.Slides](../../imasterhandoutslide)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

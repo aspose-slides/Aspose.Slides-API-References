@@ -1,13 +1,13 @@
 ---
 title: CellUnsupportedDataException
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Slides для .NET API Справка
 description: Исключение, которое выбрасывается, когда в ячейке электронной таблицы встречаются неподдерживаемые данные.
 type: docs
 weight: 10420
 url: /ru/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 
-## Класс CellUnsupportedDataException
+## CellUnsupportedDataException класс
 
 Исключение, которое выбрасывается, когда в ячейке электронной таблицы встречаются неподдерживаемые данные.
 

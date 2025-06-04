@@ -1,13 +1,13 @@
 ---
 title: ExtrusionRotationAngleX
-second_title: Справочная информация по Aspose.Slides для .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Представляет свойство extrusion.rotationangle.x
 type: docs
 weight: 140
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionrotationanglex/
 ---
 
-## Свойство BehaviorProperty.ExtrusionRotationAngleX
+## BehaviorProperty.ExtrusionRotationAngleX property
 
 Представляет свойство 'extrusion.rotationangle.x'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/extrusionrotationanglex/
 public static BehaviorProperty ExtrusionRotationAngleX { get; }
 ```
 
-### См. также
+### See Also
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

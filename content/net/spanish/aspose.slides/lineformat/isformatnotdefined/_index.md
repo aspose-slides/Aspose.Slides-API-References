@@ -15,10 +15,10 @@ Devuelve verdadero si el formato de línea no está definido (como recién cread
 public bool IsFormatNotDefined { get; }
 ```
 
-### Véase también
+### Vea También
 
 * clase [LineFormat](../../lineformat)
 * espacio de nombres [Aspose.Slides](../../lineformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

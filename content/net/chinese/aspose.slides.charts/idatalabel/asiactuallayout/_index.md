@@ -15,11 +15,11 @@ url: /zh/aspose.slides.charts/idatalabel/asiactuallayout/
 public IActualLayout AsIActualLayout { get; }
 ```
 
-### 注释
+### 备注
 
-为了与 COM 兼容。
+用于 COM 兼容性。
 
-### 另请参见
+### 另见
 
 * 接口 [IActualLayout](../../iactuallayout)
 * 接口 [IDataLabel](../../idatalabel)

@@ -1,7 +1,7 @@
 ---
 title: Modules
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la lista de todos los módulos que se encuentran en el proyecto VBA. Solo lectura IVbaModuleCollectionaspose.slides.vba/ivbamodulecollection.
+description: Devuelve la lista de todos los módulos que se encuentran en el proyecto VBA. Solo lectura IVbaModuleCollectionaspose.slides/ivbamodulecollection.
 type: docs
 weight: 30
 url: /es/aspose.slides.vba/vbaproject/modules/
@@ -15,11 +15,11 @@ Devuelve la lista de todos los módulos que se encuentran en el proyecto VBA. So
 public IVbaModuleCollection Modules { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IVbaModuleCollection](../../ivbamodulecollection)
 * clase [VbaProject](../../vbaproject)
 * espacio de nombres [Aspose.Slides.Vba](../../vbaproject)
-* asamblea [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

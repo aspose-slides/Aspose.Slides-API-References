@@ -1,7 +1,7 @@
 ---
 title: IPortionFormatEffectiveData
 second_title: Aspose.Slides для .NET API Справочник
-description: Нев змени обьект, который содержит свойства форматирования эффективной текстовой части.
+description: Непредаваемый объект, который содержит свойства форматирования эффективных текстовых частей.
 type: docs
 weight: 6540
 url: /ru/aspose.slides/iportionformateffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iportionformateffectivedata/
 
 ## Интерфейс IPortionFormatEffectiveData
 
-Нев змени обьект, который содержит свойства форматирования эффективной текстовой части.
+Непредаваемый объект, который содержит свойства форматирования эффективных текстовых частей.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -17,18 +17,18 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Возвращает интерфейс IBasePortionFormatEffectiveData. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Возвращает идентификатор закладки. Только для чтения String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Возвращает гиперссылку, определенную для нажатия мыши. Только для чтения [`IHyperlink`](../ihyperlink). |
 | [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Возвращает гиперссылку, определенную для наведения мыши. Только для чтения [`IHyperlink`](../ihyperlink). |
 
 ### Примечания
 
 Этот интерфейс используется вместе с интерфейсом [`IPortionFormat`](../iportionformat) для возврата эффективных значений форматирования с применением наследования.
 
-### См. Также
+### См. также
 
 * интерфейс [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * пространство имен [Aspose.Slides](../../aspose.slides)

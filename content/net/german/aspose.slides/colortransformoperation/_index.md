@@ -1,7 +1,7 @@
 ---
 title: ColorTransformOperation
 second_title: Aspose.Slides für .NET API-Referenz
-description: Definiert Farbtransformationsoperation.
+description: Definiert Farbtransformationen.
 type: docs
 weight: 2480
 url: /de/aspose.slides/colortransformoperation/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/colortransformoperation/
 
 ## ColorTransformOperation Aufzählung
 
-Definiert Farbtransformationsoperation.
+Definiert Farbtransformationen.
 
 ```csharp
 public enum ColorTransformOperation
@@ -23,32 +23,32 @@ public enum ColorTransformOperation
 | Shade | `1` | Schattiert die Farbe. Der Parameter liegt im Bereich zwischen 0 (Originalfarbe) und 1 (schwarz). |
 | Complement | `2` | Ändert die Farbe in eine RGB-komplementäre. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | Ändert die Farbe in eine invertierte Farbe. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Ändert die Farbe in eine graue mit der gleichen Helligkeit. Parameter wird ignoriert. |
-| SetAlpha | `5` | Definiert einen Alpha-Komponenten der Farbe. Der Parameter liegt im Bereich zwischen 0 (transparent) und 1 (deckend). |
-| AddAlpha | `6` | Fügt den Wert eines Parameters zu einem Alpha-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
-| MultiplyAlpha | `7` | Multipliziert einen Alpha-Komponenten mit dem Wert eines Parameters. |
-| SetHue | `8` | Ändert einen Farbton-Komponenten der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 360. |
-| AddHue | `9` | Fügt den Wert des Parameters dem Farbton-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -360 und 360. |
-| MultiplyHue | `10` | Multipliziert einen Farbton-Komponenten mit dem Wert eines Parameters. |
-| SetSaturation | `11` | Ändert einen Sättigungs-Komponenten der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
-| AddSaturation | `12` | Fügt den Wert eines Parameters einem Sättigungs-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
-| MultiplySaturation | `13` | Multipliziert einen Sättigungs-Komponenten mit dem Wert eines Parameters. |
-| SetLuminance | `14` | Ändert einen Helligkeits-Komponenten der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
-| AddLuminance | `15` | Fügt den Wert eines Parameters einem Helligkeits-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
-| MultiplyLuminance | `16` | Multipliziert einen Helligkeits-Komponenten mit dem Wert eines Parameters. |
-| SetRed | `17` | Ändert einen Rot-Komponenten der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
-| AddRed | `18` | Fügt den Wert eines Parameters einem Rot-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
-| MultiplyRed | `19` | Multipliziert einen Rot-Komponenten mit dem Wert eines Parameters. |
-| SetGreen | `20` | Ändert einen Grün-Komponenten der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
-| AddGreen | `21` | Fügt den Wert eines Parameters einem Grün-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
-| MultiplyGreen | `22` | Multipliziert einen Grün-Komponenten der Farbe mit dem Wert eines Parameters. |
-| SetBlue | `23` | Ändert einen Blau-Komponenten der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 360. |
-| AddBlue | `24` | Fügt den Wert eines Parameters einem Blau-Komponenten der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
-| MultiplyBlue | `25` | Multipliziert einen Blau-Komponenten der Farbe mit dem Wert eines Parameters. |
+| Grayscale | `4` | Ändert die Farbe in eine graue, mit derselben Helligkeit. Parameter wird ignoriert. |
+| SetAlpha | `5` | Definiert eine Alpha-Komponente der Farbe. Der Parameter liegt im Bereich zwischen 0 (transparent) und 1 (deckend). |
+| AddAlpha | `6` | Fügt den Wert eines Parameters zu einer Alpha-Komponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
+| MultiplyAlpha | `7` | Multipliziert eine Alpha-Komponente mit dem Wert eines Parameters. |
+| SetHue | `8` | Ändert eine Farbtonkomponente der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 360. |
+| AddHue | `9` | Fügt den Wert eines Parameters zur Farbtonkomponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -360 und 360. |
+| MultiplyHue | `10` | Multipliziert eine Farbtonkomponente mit dem Wert eines Parameters. |
+| SetSaturation | `11` | Ändert eine Sättigungskomponente der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
+| AddSaturation | `12` | Fügt den Wert eines Parameters zu einer Sättigungskomponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
+| MultiplySaturation | `13` | Multipliziert eine Sättigungskomponente mit dem Wert eines Parameters. |
+| SetLuminance | `14` | Ändert eine Luminanzkomponente der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
+| AddLuminance | `15` | Fügt den Wert eines Parameters zu einer Luminanzkomponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
+| MultiplyLuminance | `16` | Multipliziert eine Luminanzkomponente mit dem Wert eines Parameters. |
+| SetRed | `17` | Ändert eine Rote Komponente der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
+| AddRed | `18` | Fügt den Wert eines Parameters zu einer roten Komponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
+| MultiplyRed | `19` | Multipliziert eine rote Komponente mit einem Parameter. |
+| SetGreen | `20` | Ändert eine grüne Komponente der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 1. |
+| AddGreen | `21` | Fügt den Wert eines Parameters zu einer grünen Komponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
+| MultiplyGreen | `22` | Multipliziert eine grüne Komponente der Farbe mit dem Wert eines Parameters. |
+| SetBlue | `23` | Ändert eine blaue Komponente der Farbe auf den Wert eines Parameters. Der Parameter liegt im Bereich zwischen 0 und 360. |
+| AddBlue | `24` | Fügt den Wert eines Parameters zu einer blauen Komponente der Farbe hinzu. Der Parameter liegt im Bereich zwischen -1 und 1. |
+| MultiplyBlue | `25` | Multipliziert eine blaue Komponente der Farbe mit dem Wert eines Parameters. |
 | Gamma | `26` | Gamma-Korrektur. Parameter wird ignoriert. |
 | InverseGamma | `27` | Inverse Gamma-Korrektur. Parameter wird ignoriert. |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

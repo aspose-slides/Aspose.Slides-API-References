@@ -1,7 +1,7 @@
 ---
 title: SetUpperLimit
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Toma límite superior
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Toma el límite superior
 type: docs
 weight: 170
 url: /es/aspose.slides.mathtext/mathelementbase/setupperlimit/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.mathtext/mathelementbase/setupperlimit/
 
 ## SetUpperLimit(IMathElement) {#setupperlimit}
 
-Toma límite superior
+Toma el límite superior
 
 ```csharp
 public IMathLimit SetUpperLimit(IMathElement limit)
@@ -46,7 +46,7 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ## SetUpperLimit(string) {#setupperlimit_1}
 
-Toma límite superior
+Toma el límite superior
 
 ```csharp
 public IMathLimit SetUpperLimit(string limit)

@@ -1,7 +1,7 @@
 ---
 title: LayoutSlides
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la collection de diapositives de mise en page enfants pour cette diapositive maître. Collection IMasterLayoutSlideCollection en lecture seule.
+description: Retourne la collection de diapositives de mise en page enfant pour cette diapositive maître. Lecture seule IMasterLayoutSlideCollectionaspose.slides/imasterlayoutslidecollection.
 type: docs
 weight: 40
 url: /fr/aspose.slides/masterslide/layoutslides/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/masterslide/layoutslides/
 
 ## Propriété MasterSlide.LayoutSlides
 
-Renvoie la collection de diapositives de mise en page enfants pour cette diapositive maître. Collection en lecture seule [`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).
+Retourne la collection de diapositives de mise en page enfant pour cette diapositive maître. Lecture seule [`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).
 
 ```csharp
 public IMasterLayoutSlideCollection LayoutSlides { get; }
@@ -17,9 +17,9 @@ public IMasterLayoutSlideCollection LayoutSlides { get; }
 
 ### Remarques
 
-Vous pouvez accéder à une API alternative pour ajouter/insérer/retirer/cloner des diapositives de mise en page en utilisant la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
+Vous pouvez accéder à une API alternative pour ajouter/insérer/enlever/cloner des diapositives de mise en page en utilisant la propriété [`LayoutSlides`](../../ipresentation/layoutslides).
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMasterLayoutSlideCollection](../../imasterlayoutslidecollection)
 * classe [MasterSlide](../../masterslide)

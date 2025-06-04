@@ -1,15 +1,15 @@
 ---
 title: Delimit
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Délime les éléments enfants avec un caractère séparateur sans les crochets
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Délimite les éléments enfants avec un caractère de séparateur sans les crochets
 type: docs
 weight: 90
 url: /fr/aspose.slides.mathtext/mathblock/delimit/
 ---
 
-## Méthode MathBlock.Delimit
+## MathBlock.Delimit method
 
-Délime les éléments enfants avec un caractère séparateur (sans les crochets)
+Délimite les éléments enfants avec un caractère de séparateur (sans les crochets)
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -17,15 +17,15 @@ public IMathDelimiter Delimit(char separatorCharacter)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| separatorCharacter | Char | Caractère séparateur |
+| separatorCharacter | Char | Caractère de séparateur |
 
-### Valeur de retour
+### Valeur de Retour
 
 L'élément mathématique de type [`IMathDelimiter`](../../imathdelimiter)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ MathBlock mathBlock = new MathematicalText("x").Join("y");
 IMathDelimiter delimiterElement = mathBlock.Delimit('|');
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * class [MathBlock](../../mathblock)

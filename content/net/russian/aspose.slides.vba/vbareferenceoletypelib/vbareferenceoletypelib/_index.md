@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceOleTypeLib
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Этот конструктор создает новую ссылку на библиотеку типов OLE Automation.
 type: docs
 weight: 10

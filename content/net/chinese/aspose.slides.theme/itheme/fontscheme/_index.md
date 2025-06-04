@@ -1,7 +1,7 @@
 ---
 title: FontScheme
-second_title: Aspose.Slides for .NET API 参考
-description: 返回字体方案。只读 IFontScheme aspose.slides.theme/ifontscheme。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回字体方案。只读 IFontSchemeaspose.slides.theme/ifontscheme。
 type: docs
 weight: 30
 url: /zh/aspose.slides.theme/itheme/fontscheme/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/itheme/fontscheme/
 public IFontScheme FontScheme { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFontScheme](../../ifontscheme)
 * 接口 [ITheme](../../itheme)

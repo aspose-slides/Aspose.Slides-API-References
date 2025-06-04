@@ -1,21 +1,21 @@
 ---
 title: ScaleHorizontal
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le facteur d'échelle horizontal, une échelle négative provoque un retournement. En lecture seule Double.
+second_title: Aspose.Slides pour .NET API Référence
+description: Spécifie le facteur de mise à l'échelle horizontale, une mise à l'échelle négative provoque un retournement. Lecture seule Double.
 type: docs
 weight: 70
 url: /fr/aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal/
 ---
 
-## Propriété IOuterShadowEffectiveData.ScaleHorizontal
+## IOuterShadowEffectiveData.ScaleHorizontal propriété
 
-Spécifie le facteur d'échelle horizontal, une échelle négative provoque un retournement. En lecture seule Double.
+Spécifie le facteur de mise à l'échelle horizontale, une mise à l'échelle négative provoque un retournement. Lecture seule Double.
 
 ```csharp
 public double ScaleHorizontal { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IOuterShadowEffectiveData](../../ioutershadoweffectivedata)
 * namespace [Aspose.Slides.Effects](../../ioutershadoweffectivedata)

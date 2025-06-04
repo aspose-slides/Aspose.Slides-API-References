@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Удаляет указанное значение.
 type: docs
 weight: 110
@@ -17,7 +17,7 @@ public void Remove(IChartSeries value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | IChartSeries | Значение. |
+| value | IChartSeries | Указанное значение. |
 
 ### Исключения
 
@@ -25,7 +25,7 @@ public void Remove(IChartSeries value)
 | --- | --- |
 | ArgumentException | Параметр value не найден в коллекции. |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IChartSeries](../../ichartseries)
 * класс [ChartSeriesCollection](../../chartseriescollection)

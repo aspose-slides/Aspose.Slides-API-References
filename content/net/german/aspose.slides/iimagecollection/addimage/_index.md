@@ -1,6 +1,6 @@
 ---
 title: AddImage
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Fügen Sie ein Bild zu einer Präsentation hinzu.
 type: docs
 weight: 20
@@ -23,7 +23,7 @@ public IPPImage AddImage(IImage image)
 
 Hinzugefügtes Bild.
 
-### Bemerkungen
+### Anmerkungen
 
 Diese Methode konvertiert WMF/EMF-Metadateien in Raster-PNG-Bilder, bevor sie in eine Präsentation eingefügt werden.
 
@@ -39,7 +39,7 @@ Diese Methode konvertiert WMF/EMF-Metadateien in Raster-PNG-Bilder, bevor sie in
 
 ## AddImage(MemoryStream) {#addimage_5}
 
-Fügt ein Bild aus einem Speicherstream hinzu.
+Fügt ein Bild aus einem MemoryStream hinzu.
 
 ```csharp
 public IPPImage AddImage(MemoryStream stream)
@@ -47,7 +47,7 @@ public IPPImage AddImage(MemoryStream stream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | MemoryStream | Speicherstream. |
+| stream | MemoryStream | Memory Stream. |
 
 ### Rückgabewert
 
@@ -64,7 +64,7 @@ Hinzugefügtes Bild.
 
 ## AddImage(Stream) {#addimage_6}
 
-Fügen Sie ein Bild aus einem Stream zu einer Präsentation hinzu.
+Fügen Sie ein Bild zu einer Präsentation aus einem Stream hinzu.
 
 ```csharp
 public IPPImage AddImage(Stream stream)
@@ -78,9 +78,9 @@ public IPPImage AddImage(Stream stream)
 
 Hinzugefügtes Bild.
 
-### Bemerkungen
+### Anmerkungen
 
-Diese Methode kann WMF/EMF-Metadateien zu einer Präsentation hinzufügen, ohne diese in Raster-PNG-Bilder zu konvertieren.
+Diese Methode kann WMF/EMF-Metadateien zu einer Präsentation hinzufügen, ohne sie in Raster-PNG-Bilder zu konvertieren.
 
 ### Siehe auch
 
@@ -93,7 +93,7 @@ Diese Methode kann WMF/EMF-Metadateien zu einer Präsentation hinzufügen, ohne 
 
 ## AddImage(Stream, LoadingStreamBehavior) {#addimage_7}
 
-Erstellt und fügt ein Bild aus einem Stream zu einer Präsentation hinzu.
+Erstellt und fügt ein Bild zu einer Präsentation aus einem Stream hinzu.
 
 ```csharp
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -120,7 +120,7 @@ Hinzugefügtes [`IPPImage`](../../ippimage).
 
 ## AddImage(byte[]) {#addimage_3}
 
-Fügt ein Bild aus dem angegebenen Puffer zu einer Präsentation hinzu.
+Fügt ein Bild zu einer Präsentation aus dem angegebenen Puffer hinzu.
 
 ```csharp
 public IPPImage AddImage(byte[] buffer)
@@ -170,7 +170,7 @@ Hinzugefügtes Bild.
 
 ## AddImage(ISvgImage) {#addimage_2}
 
-Fügen Sie ein Bild aus einem SVG-Objekt zu einer Präsentation hinzu.
+Fügen Sie ein Bild zu einer Präsentation aus einem SVG-Objekt hinzu.
 
 ```csharp
 public IPPImage AddImage(ISvgImage svgImage)
@@ -188,7 +188,7 @@ Hinzugefügtes Bild.
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird ausgelöst, wenn der Parameter svgImage null ist. |
+| ArgumentNullException | Wird ausgelöst, wenn der svgImage-Parameter null ist. |
 
 ### Siehe auch
 

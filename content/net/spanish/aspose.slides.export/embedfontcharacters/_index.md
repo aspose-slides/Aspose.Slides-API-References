@@ -1,7 +1,7 @@
 ---
 title: EmbedFontCharacters
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa la regla a utilizar para agregar una nueva fuente embebida en IPresentation../aspose.slides/ipresentation
+second_title: Aspose.Slides para .NET Referencia de API
+description: Representa la regla a utilizar para añadir una nueva fuente incrustada en IPresentation../aspose.slides/ipresentation
 type: docs
 weight: 3600
 url: /es/aspose.slides.export/embedfontcharacters/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/embedfontcharacters/
 
 ## Enumeración EmbedFontCharacters
 
-Representa la regla a utilizar para agregar una nueva fuente embebida en [`IPresentation`](../../aspose.slides/ipresentation)
+Representa la regla a utilizar para añadir una nueva fuente incrustada en [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
@@ -19,12 +19,12 @@ public enum EmbedFontCharacters
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| OnlyUsed | `0` | Embebir solo los caracteres utilizados en la presentación (mejor para reducir el tamaño del archivo). |
-| All | `1` | Embebir todos los caracteres (mejor para la edición por otras personas). |
+| OnlyUsed | `0` | Incrustar solo los caracteres utilizados en la presentación (mejor para reducir el tamaño del archivo). |
+| All | `1` | Incrustar todos los caracteres (mejor para la edición por otras personas). |
 
-### Vea También
+### Ver También
 
-* espacio de nombres [Aspose.Slides.Export](../../aspose.slides.export)
-* ensamblado [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
-<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

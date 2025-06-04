@@ -1,13 +1,13 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface de base IAccessiblePVIObject. IAccessiblePVIObject en lecture seule aspose.slides/iaccessiblepviobject-1.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/iinnershadow/asiaccessiblepviobject/
 ---
 
-## Propriété IInnerShadow.AsIAccessiblePVIObject
+## IInnerShadow.AsIAccessiblePVIObject propriété
 
 Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAcce
 public IAccessiblePVIObject<IInnerShadowEffectiveData> AsIAccessiblePVIObject { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../../aspose.slides/iaccessiblepviobject-1)
 * interface [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)

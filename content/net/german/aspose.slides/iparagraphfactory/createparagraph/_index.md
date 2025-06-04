@@ -1,6 +1,6 @@
 ---
 title: CreateParagraph
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt einen neuen leeren Absatz.
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iparagraphfactory/createparagraph/
 
 ## CreateParagraph() {#createparagraph}
 
-Einen neuen leeren Absatz erstellen.
+Erstellt einen neuen leeren Absatz.
 
 ```csharp
 public IParagraph CreateParagraph()
@@ -17,9 +17,9 @@ public IParagraph CreateParagraph()
 
 ### Rückgabewert
 
-Absatz.
+Paragraph.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IParagraph](../../iparagraph)
 * interface [IParagraphFactory](../../iparagraphfactory)
@@ -30,7 +30,7 @@ Absatz.
 
 ## CreateParagraph(IParagraph) {#createparagraph_1}
 
-Einen neuen Absatz mit angegebenen Absatzdaten erstellen.
+Erstellt einen neuen Absatz mit den angegebenen Absatzdaten.
 
 ```csharp
 public IParagraph CreateParagraph(IParagraph paragraph)
@@ -38,13 +38,13 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| paragraph | IParagraph | Ein Absatz, dessen Daten verwendet werden sollen. |
+| paragraph | IParagraph | Ein Absatz, um Daten zu verwenden. |
 
 ### Rückgabewert
 
-Absatz.
+Paragraph.
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IParagraph](../../iparagraph)
 * interface [IParagraphFactory](../../iparagraphfactory)

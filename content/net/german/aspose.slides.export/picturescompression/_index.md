@@ -1,7 +1,7 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Slides für .NET API Referenz
-description: Repräsentiert das Kompressionsniveau von Bildern
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt das Kompressionslevel von Bildern dar
 type: docs
 weight: 4160
 url: /de/aspose.slides.export/picturescompression/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.export/picturescompression/
 
 ## PicturesCompression Enumeration
 
-Repräsentiert das Kompressionsniveau von Bildern
+Stellt das Kompressionslevel von Bildern dar
 
 ```csharp
 public enum PicturesCompression
@@ -22,11 +22,11 @@ public enum PicturesCompression
 | Dpi330 | `0` | Gute Qualität für hochauflösende (HD) Displays |
 | Dpi220 | `1` | Ausgezeichnete Qualität auf den meisten Druckern und Bildschirmen |
 | Dpi150 | `2` | Gut für Webseiten und Projektoren |
-| Dpi96 | `3` | Minimiert die Dokumentgröße für das Teilen |
-| Dpi72 | `4` | Standard-Kompressionsniveau |
-| DocumentResolution | `5` | Verwendung der Dokumentenauflösung - das Bild wird nicht komprimiert und im Dokument unverändert verwendet |
+| Dpi96 | `3` | Minimierung der Dokumentgröße für das Teilen |
+| Dpi72 | `4` | Standard-Kompessionslevel |
+| DocumentResolution | `5` | Verwendung der Dokumentauflösung - das Bild wird nicht komprimiert und im Dokument unverändert verwendet |
 
-### Siehe auch
+### Siehe Auch
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

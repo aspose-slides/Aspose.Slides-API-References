@@ -1,15 +1,15 @@
 ---
 title: ContainsCustomProperty
-second_title: Aspose.Slides for .NET API Reference
-description: 检查是否存在具有指定名称的自定义属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 检查指定名称的自定义属性是否存在。
 type: docs
 weight: 410
 url: /zh/aspose.slides/documentproperties/containscustomproperty/
 ---
 
-## DocumentProperties.ContainsCustomProperty 方法
+## DocumentProperties.ContainsCustomProperty method
 
-检查是否存在具有指定名称的自定义属性。
+检查指定名称的自定义属性是否存在。
 
 ```csharp
 public bool ContainsCustomProperty(string name)
@@ -21,7 +21,7 @@ public bool ContainsCustomProperty(string name)
 
 ### 返回值
 
-如果属性存在，则返回 true，否则返回 false。
+如果属性存在，则返回 true；否则返回 false。
 
 ### 另请参阅
 

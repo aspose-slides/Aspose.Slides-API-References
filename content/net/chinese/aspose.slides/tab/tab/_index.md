@@ -1,15 +1,15 @@
 ---
 title: Tab
-second_title: Aspose.Slides for .NET API 参考
-description: 创建新标签
+second_title: Aspose.Slides for .NET API Reference
+description: 创建新的 Tab
 type: docs
 weight: 10
 url: /zh/aspose.slides/tab/tab/
 ---
 
-## 标签构造函数
+## Tab 构造函数
 
-创建新标签
+创建新的 Tab
 
 ```csharp
 public Tab(double position, TabAlignment align)
@@ -17,10 +17,10 @@ public Tab(double position, TabAlignment align)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Double | 标签位置。 |
+| position | Double | Tab 位置。 |
 | align | TabAlignment | 对齐方式。 |
 
-### 另请参见
+### 另请参阅
 
 * enum [TabAlignment](../../tabalignment)
 * class [Tab](../../tab)

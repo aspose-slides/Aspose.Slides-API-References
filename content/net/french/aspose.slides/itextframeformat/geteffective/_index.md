@@ -1,25 +1,25 @@
 ---
 title: GetEffective
-second_title: Aspose.Slides pour l'API .NET Référence
-description: Obtient les données de formatage de cadre de texte effectives avec l'héritage appliqué.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient les données de formatage de cadre de texte effectif avec l'héritage appliqué.
 type: docs
 weight: 170
 url: /fr/aspose.slides/itextframeformat/geteffective/
 ---
 
-## Méthode ITextFrameFormat.GetEffective
+## ITextFrameFormat.GetEffective méthode
 
-Obtient les données de formatage de cadre de texte effectives avec l'héritage appliqué.
+Obtient les données de formatage de cadre de texte effectif avec l'héritage appliqué.
 
 ```csharp
 public ITextFrameFormatEffectiveData GetEffective()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Un [`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITextFrameFormatEffectiveData](../../itextframeformateffectivedata)
 * interface [ITextFrameFormat](../../itextframeformat)

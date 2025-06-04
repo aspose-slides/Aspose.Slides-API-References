@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
-second_title: Aspose.Slides for .NET API 参考
-description: 矩形对齐。只读 RectangleAlignmentaspose.slides/../aspose.slides/rectanglealignment。
+second_title: Aspose.Slides for .NET API Reference
+description: 矩形对齐。只读 RectangleAlignmentaspose.slides/rectanglealignment。
 type: docs
 weight: 80
 url: /zh/aspose.slides.effects/ireflectioneffectivedata/rectanglealign/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ireflectioneffectivedata/rectanglealign/
 public RectangleAlignment RectangleAlign { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 枚举 [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * 接口 [IReflectionEffectiveData](../../ireflectioneffectivedata)

@@ -1,13 +1,13 @@
 ---
 title: MathFraction
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Initialisiert MathFraction mit dem angegebenen Zähler, Nenner und Typ
 type: docs
 weight: 10
 url: /de/aspose.slides.mathtext/mathfraction/mathfraction/
 ---
 
-## MathFraction(IMathElement, IMathElement, MathFractionTypes) {#constructor_1}
+## MathFraction(IMathElement, IMathElement, MathFractionTypes) {#constructor_1}
 
 Initialisiert MathFraction mit dem angegebenen Zähler, Nenner und Typ
 
@@ -31,7 +31,7 @@ Beispiel:
 MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IMathElement](../../imathelement)
 * enum [MathFractionTypes](../../mathfractiontypes)
@@ -41,7 +41,7 @@ MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new Math
 
 ---
 
-## MathFraction(IMathElement, IMathElement) {#constructor}
+## MathFraction(IMathElement, IMathElement) {#constructor}
 
 Initialisiert einen MathFraction vom Typ 'Bar' mit dem angegebenen Zähler und Nenner
 
@@ -63,7 +63,7 @@ Beispiel:
 MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new MathematicalText("y"));
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IMathElement](../../imathelement)
 * class [MathFraction](../../mathfraction)

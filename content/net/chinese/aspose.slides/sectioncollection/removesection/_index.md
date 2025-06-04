@@ -1,15 +1,15 @@
 ---
 title: RemoveSection
-second_title: Aspose.Slides for .NET API 参考
-description: 移除章节。章节包含的幻灯片将合并到前一个章节中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除节。节中的幻灯片将合并到前一个节中。
 type: docs
 weight: 120
 url: /zh/aspose.slides/sectioncollection/removesection/
 ---
 
-## SectionCollection.RemoveSection 方法
+## SectionCollection.RemoveSection method
 
-移除章节。章节包含的幻灯片将合并到前一个章节中。
+移除节。节中的幻灯片将合并到前一个节中。
 
 ```csharp
 public void RemoveSection(ISection section)
@@ -17,7 +17,7 @@ public void RemoveSection(ISection section)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| section | ISection | 要从集合中移除的章节。 |
+| section | ISection | 要从集合中移除的节。 |
 
 ### 另请参见
 

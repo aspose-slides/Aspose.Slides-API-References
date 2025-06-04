@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient le nom du module. Chaîne en lecture seule.
 type: docs
 weight: 10

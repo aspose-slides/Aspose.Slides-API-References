@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник API
 description: Возвращает точку по указанному индексу.
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public IPoint this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### Смотрите также
+### Также см.
 
 * интерфейс [IPoint](../../ipoint)
 * класс [PointCollection](../../pointcollection)

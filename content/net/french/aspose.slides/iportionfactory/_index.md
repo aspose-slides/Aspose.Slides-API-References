@@ -1,6 +1,6 @@
 ---
 title: IPortionFactory
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet de créer des portions de test
 type: docs
 weight: 6520
@@ -21,11 +21,11 @@ public interface IPortionFactory
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Crée une portion de texte vide. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Crée une portion en utilisant les données d'une portion spécifiée. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Crée une portion de texte à partir de la chaîne spécifiée. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Crée une portion de texte à partir d'une chaîne spécifiée. |
 
 ### Remarques
 
-Pour la compatibilité COM
+Pour la compatibilité avec COM
 
 ### Voir aussi
 

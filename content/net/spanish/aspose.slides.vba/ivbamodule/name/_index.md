@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Nombre del módulo. Cadena de solo lectura.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Nombre del módulo. Cadena de solo lectura.
 public string Name { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IVbaModule](../../ivbamodule)
 * espacio de nombres [Aspose.Slides.Vba](../../ivbamodule)

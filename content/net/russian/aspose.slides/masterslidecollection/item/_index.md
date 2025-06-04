@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Ссылка на API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET Справочник API
 description: Получает элемент по указанному индексу. Только для чтения MasterSlideaspose.slides/masterslide.
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/masterslidecollection/item/
 public IMasterSlide this[int index] { get; }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IMasterSlide](../../imasterslide)
 * класс [MasterSlideCollection](../../masterslidecollection)

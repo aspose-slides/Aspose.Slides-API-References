@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt neuen benutzerdefinierten XML-Teil hinzu.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
 type: docs
 weight: 50
 url: /de/aspose.slides/customxmlpartcollection/add/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/customxmlpartcollection/add/
 
 ## Add(string) {#add_2}
 
-Fügt neuen benutzerdefinierten XML-Teil hinzu.
+Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
 
 ```csharp
 public ICustomXmlPart Add(string xmlString)
@@ -17,7 +17,7 @@ public ICustomXmlPart Add(string xmlString)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xmlString | String | Der XML-String des neuen Teils, der hinzugefügt werden soll. |
+| xmlString | String | Der XML-String des hinzuzufügenden neuen Teils. |
 
 ### Rückgabewert
 
@@ -28,7 +28,7 @@ Erstellter benutzerdefinierter XML-Teil.
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentNullException | xmlString ist `null`. |
-| ArgumentException | xmlString ist leer oder die XML-Daten sind ungültig. |
+| ArgumentException | xmlString ist leer oder XML-Daten sind ungültig. |
 
 ### Siehe Auch
 
@@ -41,7 +41,7 @@ Erstellter benutzerdefinierter XML-Teil.
 
 ## Add(byte[]) {#add}
 
-Fügt neuen benutzerdefinierten XML-Teil hinzu.
+Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
 
 ```csharp
 public ICustomXmlPart Add(byte[] xmlData)
@@ -49,7 +49,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| xmlData | Byte[] | Die XML-Daten des neuen Teils, der hinzugefügt werden soll. |
+| xmlData | Byte[] | Die XML-Daten des hinzuzufügenden neuen Teils. |
 
 ### Rückgabewert
 
@@ -73,7 +73,7 @@ Erstellter benutzerdefinierter XML-Teil.
 
 ## Add(Stream) {#add_1}
 
-Fügt neuen benutzerdefinierten XML-Teil hinzu.
+Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
 
 ```csharp
 public ICustomXmlPart Add(Stream inputStream)
@@ -81,7 +81,7 @@ public ICustomXmlPart Add(Stream inputStream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| inputStream | Stream | Der inputStream mit XML-Daten des neuen Teils, der hinzugefügt werden soll. |
+| inputStream | Stream | Der inputStream mit XML-Daten des hinzuzufügenden neuen Teils. |
 
 ### Rückgabewert
 
@@ -92,7 +92,7 @@ Erstellter benutzerdefinierter XML-Teil.
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentNullException | inputStream ist `null`. |
-| ArgumentException | Die Daten im inputStream sind leer oder ungültig. |
+| ArgumentException | Daten im inputStream sind leer oder ungültig. |
 
 ### Siehe Auch
 

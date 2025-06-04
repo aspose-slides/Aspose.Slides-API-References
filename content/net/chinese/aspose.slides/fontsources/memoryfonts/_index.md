@@ -1,7 +1,7 @@
 ---
 title: MemoryFonts
-second_title: Aspose.Slides for .NET API 参考
-description: 以字节数组表示的字体集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 作为字节数组表示的一组字体。
 type: docs
 weight: 30
 url: /zh/aspose.slides/fontsources/memoryfonts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/fontsources/memoryfonts/
 
 ## FontSources.MemoryFonts 属性
 
-以字节数组表示的字体集合。
+作为字节数组表示的一组字体。
 
 ```csharp
 public byte[][] MemoryFonts { get; set; }

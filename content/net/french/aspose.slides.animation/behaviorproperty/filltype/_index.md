@@ -1,6 +1,6 @@
 ---
 title: FillType
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Référence
 description: Représente la propriété fill.type
 type: docs
 weight: 390
@@ -21,4 +21,4 @@ public static BehaviorProperty FillType { get; }
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS ÉDITER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->

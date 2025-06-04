@@ -1,21 +1,21 @@
 ---
 title: SpaceWithin
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie la quantité d'espace entre les lignes de base dans un paragraphe. Lecture seule de type Single.
+description: Renvoie la quantité d'espace entre les lignes de base dans un paragraphe. Lecture seule Single.
 type: docs
 weight: 160
 url: /fr/aspose.slides/iparagraphformateffectivedata/spacewithin/
 ---
 
-## Propriété IParagraphFormatEffectiveData.SpaceWithin
+## IParagraphFormatEffectiveData.SpaceWithin property
 
-Renvoie la quantité d'espace entre les lignes de base dans un paragraphe. Lecture seule de type Single.
+Renvoie la quantité d'espace entre les lignes de base dans un paragraphe. Lecture seule Single.
 
 ```csharp
 public float SpaceWithin { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
 * namespace [Aspose.Slides](../../iparagraphformateffectivedata)

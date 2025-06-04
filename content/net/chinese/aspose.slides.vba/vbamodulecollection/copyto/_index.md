@@ -20,7 +20,7 @@ public void CopyTo(Array array, int index)
 | array | Array | 目标数组。 |
 | index | Int32 | 目标数组中的起始索引。 |
 
-### 另请参阅
+### 另请参见
 
 * class [VbaModuleCollection](../../vbamodulecollection)
 * namespace [Aspose.Slides.Vba](../../vbamodulecollection)

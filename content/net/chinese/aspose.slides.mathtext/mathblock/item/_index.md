@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置指定索引处的 IMathElement。
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public IMathElement this[int index] { get; set; }
 
 | 参数 | 描述 |
 | --- | --- |
-| index | 项的零基索引 |
+| index | 项目的零基索引 |
 
 ### 返回值
 
@@ -33,7 +33,7 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 IMathElement firstElem = mathBlock[0];
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBlock](../../mathblock)

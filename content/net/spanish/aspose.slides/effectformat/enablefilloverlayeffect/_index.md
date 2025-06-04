@@ -1,13 +1,13 @@
 ---
 title: EnableFillOverlayEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Habilita el efecto de superposición de relleno.
 type: docs
 weight: 180
 url: /es/aspose.slides/effectformat/enablefilloverlayeffect/
 ---
 
-## Método EffectFormat.EnableFillOverlayEffect
+## EffectFormat.EnableFillOverlayEffect método
 
 Habilita el efecto de superposición de relleno.
 
@@ -19,6 +19,6 @@ public void EnableFillOverlayEffect()
 
 * clase [EffectFormat](../../effectformat)
 * espacio de nombres [Aspose.Slides](../../effectformat)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

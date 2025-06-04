@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft das Element am angegebenen Index ab. Nur-Lesen IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+second_title: Aspose.Slides für .NET API Referenz
+description: Holt das Element an dem angegebenen Index. Nur-Lese IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides.theme/ifillformatcollectioneffectivedata/item/
 ---
 
-## IFillFormatCollectionEffectiveData-Indexer
+## IFillFormatCollectionEffectiveData Indexer
 
-Ruft das Element am angegebenen Index ab. Nur-Lesen [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
+Holt das Element an dem angegebenen Index. Nur-Lese [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData this[int index] { get; }

@@ -1,6 +1,6 @@
 ---
 title: Run
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Запустите генерацию событий анимации для каждого слайда.
 type: docs
 weight: 80
@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
         
         player.FrameTick += (sender, args) =>
         {
-            // обработка кадра в новой анимации
+            // обработка кадра в рамках новой анимации
         };
         
         animationsGenerator.Run(presentation.Slides);
@@ -39,7 +39,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [ISlide](../../../aspose.slides/islide)
 * class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
@@ -75,7 +75,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * interface [ISlide](../../../aspose.slides/islide)
 * delegate [FrameTickHandler](../../presentationplayer.frametickhandler)

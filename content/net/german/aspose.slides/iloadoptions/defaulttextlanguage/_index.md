@@ -1,6 +1,6 @@
 ---
 title: DefaultTextLanguage
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Gibt die Standardsprache für Präsentationstext zurück oder setzt sie. Lese-/Schreib-String.
 type: docs
 weight: 50
@@ -21,16 +21,16 @@ Beispiel:
 
 ```csharp
 [C#]
-// Verwenden Sie Ladeoptionen, um die Standardtextkultur festzulegen
+// Verwenden Sie Ladeoptionen, um die Standardtextkultur zu definieren
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.DefaultTextLanguage = "en-US";
 using (Presentation pres = new Presentation(loadOptions))
  {
     // Fügen Sie eine neue rechteckige Form mit Text hinzu
     IAutoShape shp = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
-    shp.TextFrame.Text = "New Text";
+    shp.TextFrame.Text = "Neuer Text";
 
-    // Überprüfen Sie die Sprache des ersten Abschnitts
+    // Überprüfen Sie die Sprache des ersten Portions
     Console.WriteLine(shp.TextFrame.Paragraphs[0].Portions[0].PortionFormat.LanguageId);
 }
 ```

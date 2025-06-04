@@ -1,7 +1,7 @@
 ---
 title: RangeStartIndex
-second_title: Aspose.Slides для справки по API .NET
-description: Получить первый индекс непрерывного диапазона юникода.
+second_title: Aspose.Slides для .NET API Reference
+description: Получить первый индекс непрерывного диапазона unicode.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ifontfallbackrule/rangestartindex/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifontfallbackrule/rangestartindex/
 
 ## IFontFallBackRule.RangeStartIndex свойство
 
-Получить первый индекс непрерывного диапазона юникода.
+Получить первый индекс непрерывного диапазона unicode.
 
 ```csharp
 public uint RangeStartIndex { get; }

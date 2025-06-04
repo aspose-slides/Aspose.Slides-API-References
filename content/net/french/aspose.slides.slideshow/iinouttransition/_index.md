@@ -1,15 +1,15 @@
 ---
 title: IInOutTransition
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet de transition de diapositive d'entrée-sortie.
+description: Effet de transition de diapositive In-Out.
 type: docs
 weight: 9800
 url: /fr/aspose.slides.slideshow/iinouttransition/
 ---
 
-## Interface IInOutTransition
+## IInOutTransition interface
 
-Effet de transition de diapositive d'entrée-sortie.
+Effet de transition de diapositive In-Out.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -20,9 +20,9 @@ public interface IInOutTransition : ITransitionValueBase
 | Nom | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | Permet d'obtenir l'interface de base ITransitionValueBase. En lecture seule [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Direction d'un effet de transition. Lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | Direction d'un effet de transition. En lecture/écriture [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

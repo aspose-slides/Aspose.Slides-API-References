@@ -1,6 +1,6 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 获取或设置占位符的方向。只读 Orientationaspose.slides/orientation。
 type: docs
 weight: 20

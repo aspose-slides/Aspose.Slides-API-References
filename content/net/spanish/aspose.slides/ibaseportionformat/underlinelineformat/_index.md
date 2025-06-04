@@ -1,6 +1,6 @@
 ---
 title: UnderlineLineFormat
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve las propiedades de LineFormat utilizadas para delinear la línea subrayada. No se aplica herencia. Solo lectura ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 260
@@ -15,11 +15,11 @@ Devuelve las propiedades de LineFormat utilizadas para delinear la línea subray
 public ILineFormat UnderlineLineFormat { get; }
 ```
 
-### Véase También
+### También Visto
 
 * interfaz [ILineFormat](../../ilineformat)
 * interfaz [IBasePortionFormat](../../ibaseportionformat)
 * espacio de nombres [Aspose.Slides](../../ibaseportionformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

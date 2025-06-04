@@ -1,7 +1,7 @@
 ---
 title: AsIComment
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IComment 接口。只读 IComment aspose.slides/icomment。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础 IComment 接口。只读 ICommentaspose.slides/icomment。
 type: docs
 weight: 10
 url: /zh/aspose.slides/imoderncomment/asicomment/
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/imoderncomment/asicomment/
 public IComment AsIComment { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IComment](../../icomment)
 * 接口 [IModernComment](../../imoderncomment)

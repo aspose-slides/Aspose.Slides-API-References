@@ -1,13 +1,13 @@
 ---
 title: RemoveAt
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de la API
 description: Elimina el elemento en el índice especificado de la colección.
 type: docs
 weight: 110
 url: /es/aspose.slides.mathtext/imathelementcollection/removeat/
 ---
 
-## Método IMathElementCollection.RemoveAt
+## IMathElementCollection.RemoveAt método
 
 Elimina el elemento en el índice especificado de la colección.
 
@@ -32,10 +32,10 @@ collection.Insert(0, new MathRadical(new MathematicalText("x"), new Mathematical
 collection.RemoveAt(2);
 ```
 
-### Véase también
+### Ver También
 
-* interfaz [IMathElementCollection](../../imathelementcollection)
-* espacio de nombres [Aspose.Slides.MathText](../../imathelementcollection)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IMathElementCollection](../../imathelementcollection)
+* namespace [Aspose.Slides.MathText](../../imathelementcollection)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

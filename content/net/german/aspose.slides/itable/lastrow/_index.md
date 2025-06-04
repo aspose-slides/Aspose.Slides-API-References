@@ -1,7 +1,7 @@
 ---
 title: LastRow
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreibbares Boolean.
+description: Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean.
 type: docs
 weight: 90
 url: /de/aspose.slides/itable/lastrow/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itable/lastrow/
 
 ## ITable.LastRow-Eigenschaft
 
-Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreibbares Boolean.
+Bestimmt, ob die letzte Zeile einer Tabelle mit einer speziellen Formatierung gezeichnet werden muss. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool LastRow { get; set; }

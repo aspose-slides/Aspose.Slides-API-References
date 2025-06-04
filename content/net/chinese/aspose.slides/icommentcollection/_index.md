@@ -1,6 +1,6 @@
 ---
 title: ICommentCollection
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示一个作者的评论集合。
 type: docs
 weight: 5390
@@ -25,17 +25,17 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合的末尾添加新的评论。 |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合的末尾添加新的现代评论。 |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合的末尾添加新评论。 |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合的末尾添加新现代评论。 |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | 从集合中移除所有评论。 |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引处插入新的评论到集合中。 |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引处插入新的现代评论到集合中。 |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 从集合中移除指定评论的第一次出现。 |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引处向集合插入新评论。 |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引处向集合插入新现代评论。 |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 移除集合中指定评论的第一次出现。 |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 从集合中移除指定索引处的元素。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | 创建并返回一个包含所有评论的数组。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 创建并返回一个包含指定范围内所有评论的数组。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 接口 [IComment](../icomment)

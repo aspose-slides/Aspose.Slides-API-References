@@ -1,7 +1,7 @@
 ---
 title: FontsManager
-second_title: Aspose.Slides for .NET API Reference
-description: 返回字体管理器。只读 IFontsManager aspose.slides/ifontsmanager。
+second_title: Aspose.Sildes for .NET API 参考
+description: 返回字体管理器。 只读 IFontsManageraspose.slides/ifontsmanager。
 type: docs
 weight: 110
 url: /zh/aspose.slides/presentation/fontsmanager/
@@ -17,7 +17,7 @@ public IFontsManager FontsManager { get; }
 
 ### 示例
 
-以下示例演示如何将嵌入的字体添加到 PowerPoint 演示文稿中。
+以下示例演示如何将嵌入字体添加到 PowerPoint 演示文稿中。
 
 ```csharp
 [C#]
@@ -40,7 +40,7 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontsManager](../../ifontsmanager)
 * 类 [Presentation](../../presentation)

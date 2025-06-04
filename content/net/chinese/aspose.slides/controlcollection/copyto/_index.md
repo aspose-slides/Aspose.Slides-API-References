@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides for .NET API 参考
-description: 将整个集合复制到指定数组。
+second_title: Aspose.Slides for .NET API Reference
+description: 将整个集合复制到指定的数组中。
 type: docs
 weight: 70
 url: /zh/aspose.slides/controlcollection/copyto/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/controlcollection/copyto/
 
 ## ControlCollection.CopyTo 方法
 
-将整个集合复制到指定数组。
+将整个集合复制到指定的数组中。
 
 ```csharp
 public void CopyTo(Array array, int index)
 ```
 
-| 参数 | 类型 | 说明 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | array | Array | 目标数组 |
 | index | Int32 | 目标数组中的索引。 |

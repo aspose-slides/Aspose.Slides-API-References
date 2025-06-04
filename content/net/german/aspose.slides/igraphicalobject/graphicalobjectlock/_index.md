@@ -1,7 +1,7 @@
 ---
 title: GraphicalObjectLock
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sperren von Formen zurück. Nur-lesbares IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
+description: Gibt die Sperren von Formen zurück. Nur lesend IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
 type: docs
 weight: 20
 url: /de/aspose.slides/igraphicalobject/graphicalobjectlock/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/igraphicalobject/graphicalobjectlock/
 
 ## IGraphicalObject.GraphicalObjectLock-Eigenschaft
 
-Gibt die Sperren der Form zurück. Nur-lesbares [`IGraphicalObjectLock`](../../igraphicalobjectlock).
+Gibt die Sperren von Formen zurück. Nur lesend [`IGraphicalObjectLock`](../../igraphicalobjectlock).
 
 ```csharp
 public IGraphicalObjectLock GraphicalObjectLock { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IGraphicalObjectLock](../../igraphicalobjectlock)
 * Schnittstelle [IGraphicalObject](../../igraphicalobject)

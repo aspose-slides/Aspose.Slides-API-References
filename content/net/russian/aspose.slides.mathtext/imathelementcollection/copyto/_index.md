@@ -1,7 +1,7 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides для .NET Справочник по API
-description: Копировать в заданный массив.
+second_title: Aspose.Sildes для .NET API Reference
+description: Копировать в указанный массив.
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/imathelementcollection/copyto/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/imathelementcollection/copyto/
 
 ## IMathElementCollection.CopyTo метод
 
-Копировать в заданный массив.
+Копировать в указанный массив.
 
 ```csharp
 public void CopyTo(IMathElement[] array, int arrayIndex)
@@ -17,8 +17,8 @@ public void CopyTo(IMathElement[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IMathElement[] | Массив, в который будет выполнено копирование. |
-| arrayIndex | Int32 | Индекс, с которого начать копирование. |
+| array | IMathElement[] | Массив для копирования. |
+| arrayIndex | Int32 | Индекс для начала копирования. |
 
 ### Примеры
 
@@ -34,7 +34,7 @@ IMathElement[] destinationArray = new IMathElement[collection.Count];
 collection.CopyTo(destinationArray, 0);
 ```
 
-### Также смотрите
+### См. также
 
 * интерфейс [IMathElement](../../imathelement)
 * интерфейс [IMathElementCollection](../../imathelementcollection)

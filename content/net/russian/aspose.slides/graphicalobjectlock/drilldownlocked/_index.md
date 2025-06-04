@@ -1,21 +1,21 @@
 ---
 title: DrilldownLocked
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Определяет, запрещено ли выбор подформ этого объекта. Читаемое/записываемое логическое значение.
+second_title: Aspose.Slides для .NET API Справка
+description: Определяет, запрещено ли выделение подпунктов этого объекта. Читаемый/Записываемый логический тип.
 type: docs
 weight: 20
 url: /ru/aspose.slides/graphicalobjectlock/drilldownlocked/
 ---
 
-## Свойство GraphicalObjectLock.DrilldownLocked
+## GraphicalObjectLock.DrilldownLocked свойство
 
-Определяет, запрещено ли выбор подформ этого объекта. Читаемое/записываемое логическое значение.
+Определяет, запрещено ли выделение подпунктов этого объекта. Читаемый/Записываемый логический тип.
 
 ```csharp
 public bool DrilldownLocked { get; set; }
 ```
 
-### Также смотри
+### См. Также
 
 * класс [GraphicalObjectLock](../../graphicalobjectlock)
 * пространство имен [Aspose.Slides](../../graphicalobjectlock)

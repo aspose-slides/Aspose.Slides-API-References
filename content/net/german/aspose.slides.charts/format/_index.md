@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Format-Eigenschaften von Diagrammen dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt Diagrammformat-Eigenschaften dar.
 type: docs
 weight: 1600
 url: /de/aspose.slides.charts/format/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/format/
 
 ## Format-Klasse
 
-Stellt die Format-Eigenschaften von Diagrammen dar.
+Stellt Diagrammformat-Eigenschaften dar.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -19,7 +19,7 @@ public sealed class Format : PVIObject, IFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die zugrunde liegende IPresentationComponent-Schnittstelle. Nur-lesend [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur-lesend [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Gibt die für ein Diagramm verwendeten Effekte zurück. Nur-lesend [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Gibt das 3D-Format eines Diagramms zurück. Nur-lesend [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | Gibt die Füllstil-Eigenschaften eines Diagramms zurück. Nur-lesend [`IFillFormat`](../../aspose.slides/ifillformat). |

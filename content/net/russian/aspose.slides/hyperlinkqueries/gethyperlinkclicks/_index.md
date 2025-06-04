@@ -1,21 +1,21 @@
 ---
 title: GetHyperlinkClicks
-second_title: Aspose.Sildes для .NET API Reference
-description: Получить все подструктуры IHyperlinkContainer, которые содержат ненулевой HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой читать, обновлять или удалять. Смотрите интерфейс IHyperlinkContainer.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получите все подобъекты IHyperlinkContainer, которые содержат не нулевые HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой читать, обновлять или удалять. См. интерфейс IHyperlinkContainer.
 type: docs
 weight: 20
 url: /ru/aspose.slides/hyperlinkqueries/gethyperlinkclicks/
 ---
 
-## Метод HyperlinkQueries.GetHyperlinkClicks
+## HyperlinkQueries.GetHyperlinkClicks метод
 
-Получить все подструктуры IHyperlinkContainer, которые содержат ненулевой HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). Смотрите интерфейс IHyperlinkContainer.
+Получите все подовъекты IHyperlinkContainer, которые содержат не нулевые HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer.
 
 ```csharp
 public IList<IHyperlinkContainer> GetHyperlinkClicks()
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [IHyperlinkContainer](../../ihyperlinkcontainer)
 * класс [HyperlinkQueries](../../hyperlinkqueries)

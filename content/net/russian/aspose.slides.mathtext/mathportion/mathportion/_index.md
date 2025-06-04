@@ -1,6 +1,6 @@
 ---
 title: MathPortion
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Инициализирует новый экземпляр класса MathPortion.
 type: docs
 weight: 10

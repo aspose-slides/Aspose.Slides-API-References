@@ -1,6 +1,6 @@
 ---
 title: AddVideoFrame
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para referencia de API .NET
 description: Agrega un nuevo marco de video al final de una colección.
 type: docs
 weight: 210
@@ -20,14 +20,14 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 | x | Single | Coordenada X de un nuevo marco de video. |
 | y | Single | Coordenada Y de un nuevo marco de video. |
 | width | Single | Ancho de un nuevo marco de video. |
-| height | Single | Alto de un nuevo marco de video. |
+| height | Single | Altura de un nuevo marco de video. |
 | fname | String | Nombre del archivo de video. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto VideoFrame creado.
 
-### Véase también
+### Véase También
 
 * interface [IVideoFrame](../../ivideoframe)
 * class [ShapeCollection](../../shapecollection)
@@ -49,14 +49,14 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 | x | Single | Coordenada X de un nuevo marco de video. |
 | y | Single | Coordenada Y de un nuevo marco de video. |
 | width | Single | Ancho de un nuevo marco de video. |
-| height | Single | Alto de un nuevo marco de video. |
+| height | Single | Altura de un nuevo marco de video. |
 | video | IVideo | Video a agregar. |
 
-### Valor de retorno
+### Valor de Retorno
 
 Objeto VideoFrame creado.
 
-### Véase también
+### Véase También
 
 * interface [IVideoFrame](../../ivideoframe)
 * interface [IVideo](../../ivideo)

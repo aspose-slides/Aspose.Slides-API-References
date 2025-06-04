@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lesen Int32.
+description: Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/textanimationcollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.animation/textanimationcollection/count/
 
 ## TextAnimationCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lesen Int32.
+Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [TextAnimationCollection](../../textanimationcollection)
 * Namespace [Aspose.Slides.Animation](../../textanimationcollection)

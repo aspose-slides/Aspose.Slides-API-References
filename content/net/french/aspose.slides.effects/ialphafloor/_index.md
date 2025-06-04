@@ -1,7 +1,7 @@
 ---
 title: IAlphaFloor
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un effet Alpha Floor. Les valeurs d'opacité alpha inférieures à 100 sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Représente un effet Alpha Floor. Les valeurs d'opacité Alpha inférieures à 100 sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
 type: docs
 weight: 2960
 url: /fr/aspose.slides.effects/ialphafloor/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ialphafloor/
 
 ## Interface IAlphaFloor
 
-Représente un effet Alpha Floor. Les valeurs Alpha (opacité) inférieures à 100 % sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
+Représente un effet Alpha Floor. Les valeurs d'Alpha (opacité) inférieures à 100 % sont changées en zéro. En d'autres termes, tout ce qui est partiellement transparent devient complètement transparent.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -23,7 +23,7 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. En lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. En lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IAlphaFloorEffectiveData](../ialphaflooreffectivedata)

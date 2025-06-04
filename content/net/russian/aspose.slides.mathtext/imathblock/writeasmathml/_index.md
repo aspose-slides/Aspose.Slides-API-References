@@ -1,13 +1,13 @@
 ---
 title: WriteAsMathMl
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Сохраняет содержимое этого IMathBlockaspose.slides.mathtext/imathblock в формате MathML
 type: docs
 weight: 60
 url: /ru/aspose.slides.mathtext/imathblock/writeasmathml/
 ---
 
-## Метод IMathBlock.WriteAsMathMl
+## IMathBlock.WriteAsMathMl метод
 
 Сохраняет содержимое этого [`IMathBlock`](../../imathblock) в формате MathML
 
@@ -17,7 +17,7 @@ public void WriteAsMathMl(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Целевой поток |
+| stream | Stream | Целевое поток |
 
 ### См. также
 

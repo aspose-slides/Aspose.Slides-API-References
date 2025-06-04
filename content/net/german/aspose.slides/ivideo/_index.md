@@ -1,7 +1,7 @@
 ---
 title: IVideo
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt ein Video dar, das in eine Präsentation eingebettet ist.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt ein in eine Präsentation eingebettetes Video dar.
 type: docs
 weight: 7140
 url: /de/aspose.slides/ivideo/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ivideo/
 
 ## IVideo-Schnittstelle
 
-Stellt ein Video dar, das in eine Präsentation eingebettet ist.
+Stellt ein in eine Präsentation eingebettetes Video dar.
 
 ```csharp
 public interface IVideo
@@ -19,8 +19,8 @@ public interface IVideo
 
 | Name | Beschreibung |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Gibt eine Kopie der Audiodaten zurück. Bei großen Datenmengen sollten Sie die Verwendung der Methode [`GetStream`](./getstream) in Betracht ziehen, um unnötiges Laden der Videodaten in den Arbeitsspeicher oder sogar OutOfMemoryException zu vermeiden. Nur-lesbare Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Gibt einen MIME-Typ eines Videos zurück, der in [`BinaryData`](./binarydata) kodiert ist. Nur-lesbarer String. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | Gibt die Kopie der Audiodaten zurück. Bei großen Datenmengen sollten Sie in Betracht ziehen, die Methode [`GetStream`](./getstream) zu verwenden, um das unnötige Laden der Videodaten in den Speicher oder sogar eine OutOfMemoryException zu vermeiden. Nur lesbares Byte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | Gibt den MIME-Typ eines Videos zurück, das in [`BinaryData`](./binarydata) codiert ist. Nur lesbarer String. |
 
 ## Methoden
 

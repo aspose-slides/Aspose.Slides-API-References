@@ -21,7 +21,7 @@ public interface IMathSubscriptElementFactory
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | Erstellt IMathSubscriptElement |
 
-### Anmerkungen
+### Hinweise
 
 Für COM-Kompatibilität
 

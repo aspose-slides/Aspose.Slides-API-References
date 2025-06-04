@@ -1,6 +1,6 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示侧向过渡类型。
 type: docs
 weight: 10110
@@ -24,7 +24,7 @@ public enum TransitionSideDirectionType
 | Down | `2` |  |
 | Right | `3` |  |
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 程序集 [Aspose.Slides](../../)

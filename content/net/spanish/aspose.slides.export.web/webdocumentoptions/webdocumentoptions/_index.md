@@ -1,7 +1,7 @@
 ---
 title: WebDocumentOptions
 second_title: Referencia de API de Aspose.Slides para .NET
-description: El constructor predeterminado.
+description: El constructor por defecto.
 type: docs
 weight: 10
 url: /es/aspose.slides.export.web/webdocumentoptions/webdocumentoptions/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.export.web/webdocumentoptions/webdocumentoptions/
 
 ## Constructor de WebDocumentOptions
 
-El constructor predeterminado.
+El constructor por defecto.
 
 ```csharp
 public WebDocumentOptions()
 ```
 
-### Véase también
+### Ver También
 
 * clase [WebDocumentOptions](../../webdocumentoptions)
 * espacio de nombres [Aspose.Slides.Export.Web](../../webdocumentoptions)

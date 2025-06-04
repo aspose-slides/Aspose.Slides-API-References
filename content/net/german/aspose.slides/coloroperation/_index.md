@@ -26,7 +26,7 @@ public class ColorOperation : IColorOperation
 
 | Name | Beschreibung |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Gibt den Typ einer Operation zurück oder legt ihn fest. Nur lesbar [`ColorTransformOperation`](../colortransformoperation). |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Gibt den Typ einer Operation zurück oder setzt ihn. Nur lesbar [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Gibt einen Parameter einer Operation zurück. Nur lesbar Single. |
 
 ## Methoden
@@ -34,9 +34,9 @@ public class ColorOperation : IColorOperation
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Bestimmt, ob die beiden ColorOperation-Instanzen gleich sind. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ, geeignet für die Verwendung in Hashalgorithmen und Datenstrukturen wie einer Hashtabelle. |
 
-### Siehe auch
+### Siehe Auch
 
 * interface [IColorOperation](../icoloroperation)
 * namespace [Aspose.Slides](../../aspose.slides)

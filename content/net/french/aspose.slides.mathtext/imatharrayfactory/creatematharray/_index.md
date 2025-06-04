@@ -23,7 +23,7 @@ public IMathArray CreateMathArray(IMathElement element)
 
 nouveau tableau mathématique
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathArray](../../imatharray)
 * interface [IMathElement](../../imathelement)
@@ -35,7 +35,7 @@ nouveau tableau mathématique
 
 ## CreateMathArray(IMathElementCollection) {#creatematharray_1}
 
-Crée un tableau mathématique et y place les éléments spécifiés
+Crée un tableau mathématique et y place des éléments spécifiés
 
 ```csharp
 public IMathArray CreateMathArray(IMathElementCollection elements)
@@ -49,7 +49,7 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 
 nouveau tableau mathématique
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathArray](../../imatharray)
 * interface [IMathElementCollection](../../imathelementcollection)

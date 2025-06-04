@@ -1,7 +1,7 @@
 ---
 title: Password
-second_title: Aspose.Slides f체r .NET API-Referenz
-description: Ruft das Passwort ab oder legt es fest. Lese-/Schreib-String.
+second_title: Aspose.Slides f체r .NET API Referenz
+description: Erh채lt oder setzt das Passwort. Lese-/Schreib-String.
 type: docs
 weight: 120
 url: /de/aspose.slides/loadoptions/password/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/loadoptions/password/
 
 ## LoadOptions.Password-Eigenschaft
 
-Ruft das Passwort ab oder legt es fest. Lese-/Schreib-String.
+Erh채lt oder setzt das Passwort. Lese-/Schreib-String.
 
 ```csharp
 public string Password { get; set; }
@@ -28,7 +28,7 @@ Der folgende Beispielcode zeigt, wie man eine passwortgesch체tzte PowerPoint-Pr�
 	LoadOptions loadOptions = new LoadOptions {Password = "YOUR_PASSWORD"};
 	using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
 	{
-	  // mit der entschl체sselten Pr채sentation arbeiten
+	  // Arbeit mit der entschl체sselten Pr채sentation
 	}
 ```
 

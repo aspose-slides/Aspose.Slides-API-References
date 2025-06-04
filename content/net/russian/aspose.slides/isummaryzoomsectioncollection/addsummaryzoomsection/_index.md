@@ -1,15 +1,15 @@
 ---
 title: AddSummaryZoomSection
-second_title: Ссылка по API Aspose.Slides для .NET
-description: Создает новый объект секции суммарного масштаба и добавляет его в коллекцию
+second_title: Aspose.Sildes для .NET API Справочник
+description: Создает новый объект Summary Zoom Section и добавляет его в коллекцию
 type: docs
 weight: 20
 url: /ru/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
 ---
 
-## Метод ISummaryZoomSectionCollection.AddSummaryZoomSection
+## ISummaryZoomSectionCollection.AddSummaryZoomSection метод
 
-Создает новый объект секции суммарного масштаба и добавляет его в коллекцию
+Создает новый объект Summary Zoom Section и добавляет его в коллекцию
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -17,19 +17,19 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Секция для нового элемента секции суммарного масштаба [`ISection`](../../isection) |
+| section | ISection | Секция для нового элемента Summary Zoom Section [`ISection`](../../isection) |
 
 ### Возвращаемое значение
 
 Добавленный элемент [`ISummaryZoomFrame`](../../isummaryzoomframe)
 
-### Заметки
+### Примечания
 
 Если элемент для этой секции уже существует в коллекции, возвращается существующий элемент.
 
 ### Примеры
 
-Пример демонстрирует получение элемента секции суммарного масштаба по индексу:
+Пример демонстрирует получение элемента Summary Zoom Section по индексу:
 
 ```csharp
 [C#]

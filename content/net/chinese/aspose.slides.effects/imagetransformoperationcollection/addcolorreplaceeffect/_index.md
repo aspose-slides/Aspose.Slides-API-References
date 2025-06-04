@@ -1,6 +1,6 @@
 ---
 title: AddColorReplaceEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的颜色替换效果添加到集合的末尾。
 type: docs
 weight: 150
@@ -19,7 +19,7 @@ public IColorReplace AddColorReplaceEffect()
 
 集合中新图像效果的索引。
 
-### 参见
+### 另请参阅
 
 * 接口 [IColorReplace](../../icolorreplace)
 * 类 [ImageTransformOperationCollection](../../imagetransformoperationcollection)

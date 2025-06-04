@@ -1,6 +1,6 @@
 ---
 title: GetNameByIndex
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt den Schlüssel eines Tags am angegebenen Index zurück.
 type: docs
 weight: 100
@@ -17,13 +17,13 @@ public string GetNameByIndex(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Index eines zurückzugebenden Tags. |
+| index | Int32 | Index eines zurückzugeben Tags. |
 
 ### Rückgabewert
 
 Schlüssel eines Tags.
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [TagCollection](../../tagcollection)
 * Namespace [Aspose.Slides](../../tagcollection)

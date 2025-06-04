@@ -1,7 +1,7 @@
 ---
 title: AddHSLEffect
-second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый эффект оттенка/насыщенности/яркости в конец коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Добавляет новый эффект Оттенок/Насыщенность/Яркость в конец коллекции.
 type: docs
 weight: 190
 url: /ru/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 
 ## ImageTransformOperationCollection.AddHSLEffect метод
 
-Добавляет новый эффект оттенка/насыщенности/яркости в конец коллекции.
+Добавляет новый эффект Оттенок/Насыщенность/Яркость в конец коллекции.
 
 ```csharp
 public IHSL AddHSLEffect(float hue, float saturation, float luminance)
@@ -21,7 +21,7 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 | saturation | Single | Процент, на который изменяется насыщенность. |
 | luminance | Single | Процент, на который изменяется яркость. |
 
-### Возвращаемое значение
+### Значение Возврата
 
 Индекс нового эффекта изображения в коллекции.
 

@@ -1,7 +1,7 @@
 ---
 title: RightAngleAxes
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Diagrammachsen rechtwinklig sind, anstatt perspektivisch dargestellt zu werden. Mit anderen Worten, es wird bestimmt, ob die Diagrammwinkel der Achsen unabhängig von der Diagrammrotation oder -erhebung sind. Lese-/Schreib-Boolescher Wert.
+second_title: Aspose.Slides for .NET API Referenz
+description: Bestimmt, ob die Diagrammachsen rechtwinklig sind, anstatt perspektivisch gezeichnet zu werden. Mit anderen Worten, es wird bestimmt, ob die Winkel der Diagrammachsen unabhängig von der Drehung oder Erhöhung des Diagramms sind. Lese-/Schreib-Boolescher Wert.
 type: docs
 weight: 40
 url: /de/aspose.slides.charts/irotation3d/rightangleaxes/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/irotation3d/rightangleaxes/
 
 ## IRotation3D.RightAngleAxes-Eigenschaft
 
-Bestimmt, ob die Diagrammachsen rechtwinklig sind, anstatt perspektivisch dargestellt zu werden. Mit anderen Worten, es wird bestimmt, ob die Diagrammwinkel der Achsen unabhängig von der Diagrammrotation oder -erhebung sind. Lese-/Schreib-Boolescher Wert.
+Bestimmt, ob die Diagrammachsen rechtwinklig sind, anstatt perspektivisch gezeichnet zu werden. Mit anderen Worten, es wird bestimmt, ob die Winkel der Diagrammachsen unabhängig von der Drehung oder Erhöhung des Diagramms sind. Lese-/Schreib-Boolescher Wert.
 
 ```csharp
 public bool RightAngleAxes { get; set; }

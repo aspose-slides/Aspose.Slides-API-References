@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Synchronisationswurzel zurück. Nur-Lese-Objekt.
+description: Gibt eine Synchronisierungswurzel zurück. Schreibgeschütztes Objekt.
 type: docs
 weight: 50
 url: /de/aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot/
 
 ## ImageTransformOCollectionEffectiveData.SyncRoot-Eigenschaft
 
-Gibt einen Synchronisationswurzel zurück. Nur-Lese-Objekt.
+Gibt eine Synchronisierungswurzel zurück. Schreibgeschütztes Objekt.
 
 ```csharp
 public object SyncRoot { get; }

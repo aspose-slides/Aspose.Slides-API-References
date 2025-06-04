@@ -1,7 +1,7 @@
 ---
 title: TextStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Diese Klasse enthält die Formatierungseigenschaften des Textstils.
+description: Diese Klasse enthält die Textstil-Formatierungs Eigenschaften.
 type: docs
 weight: 10690
 url: /de/aspose.slides/textstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/textstyle/
 
 ## TextStyle-Klasse
 
-Diese Klasse enthält die Formatierungseigenschaften des Textstils.
+Diese Klasse enthält die Textstil-Formatierungs Eigenschaften.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -19,19 +19,19 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur-lesend [`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Standardabsatzeigenschaften. Nur-lesend [`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Standard-Absatz Eigenschaften. Nur lesbar [`IParagraphFormat`](../iparagraphformat). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergleicht mit dem angegebenen Objekt. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Erhält effektive Formatierungsdaten des Textstils mit angewendeter Vererbung. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hashcode zurück. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Wenn die Ebene des Stils existiert, wird sie zurückgegeben, andernfalls wird null zurückgegeben. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Ruft die effektiven Textstil-Formatierungsdaten mit angewendeter Vererbung ab. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Gibt den Hash-Code zurück. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Wenn die Ebene des Stils existiert, gibt sie diese zurück, andernfalls null. |
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PVIObject](../pviobject)
 * Schnittstelle [ITextStyle](../itextstyle)

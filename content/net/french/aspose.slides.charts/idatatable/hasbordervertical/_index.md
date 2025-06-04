@@ -1,7 +1,7 @@
 ---
 title: HasBorderVertical
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Vrai si la table de données du graphique a des bordures verticales pour les cellules. Lecture/écriture Boolean.
+description: Vrai si le tableau de données du graphique a des bordures de cellule verticales. Lecture/écriture Booléen.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/idatatable/hasbordervertical/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/idatatable/hasbordervertical/
 
 ## Propriété IDataTable.HasBorderVertical
 
-Vrai si la table de données du graphique a des bordures verticales pour les cellules. Lecture/écriture Boolean.
+Vrai si le tableau de données du graphique a des bordures de cellule verticales. Lecture/écriture Booléen.
 
 ```csharp
 public bool HasBorderVertical { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDataTable](../../idatatable)
 * namespace [Aspose.Slides.Charts](../../idatatable)

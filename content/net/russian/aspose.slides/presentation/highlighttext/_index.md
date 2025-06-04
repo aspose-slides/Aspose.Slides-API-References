@@ -1,7 +1,7 @@
 ---
 title: HighlightText
-second_title: Справка по API Aspose.Sildes для .NET
-description: Подсвечивает все совпадения в образце текста указанным цветом.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Подсвечивает все совпадения образца текста с заданным цветом.
 type: docs
 weight: 340
 url: /ru/aspose.slides/presentation/highlighttext/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/presentation/highlighttext/
 
 ## HighlightText(string, Color) {#highlighttext}
 
-Подсвечивает все совпадения в образце текста указанным цветом.
+Подсвечивает все совпадения образца текста с заданным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -44,7 +44,7 @@ using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 
 ## HighlightText(string, Color, ITextSearchOptions, IFindResultCallback) {#highlighttext_1}
 
-Подсвечивает все совпадения в образце текста указанным цветом.
+Подсвечивает все совпадения образца текста с заданным цветом.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextSearchOptions options, 

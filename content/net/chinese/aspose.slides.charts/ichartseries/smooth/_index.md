@@ -1,7 +1,7 @@
 ---
 title: Smooth
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示曲线平滑。如果为真，则表示线图或散点图的曲线平滑功能已开启。仅适用于用线连接的线图和散点图。可读/可写布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示曲线平滑。如果线图或散点图的曲线平滑已启用，则为真。仅适用于通过线条连接的线图和散点图。可读写布尔值。
 type: docs
 weight: 420
 url: /zh/aspose.slides.charts/ichartseries/smooth/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseries/smooth/
 
 ## IChartSeries.Smooth 属性
 
-表示曲线平滑。如果为真，则表示线图或散点图的曲线平滑功能已开启。仅适用于用线连接的线图和散点图。可读/可写布尔值。
+表示曲线平滑。如果线图或散点图的曲线平滑已启用，则为真。仅适用于通过线条连接的线图和散点图。可读写布尔值。
 
 ```csharp
 public bool Smooth { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IChartSeries](../../ichartseries)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseries)

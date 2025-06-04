@@ -1,15 +1,15 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定错误条形值。仅在错误条形值类型为自定义时使用。
+description: 指定错误条的值。仅在错误条值类型为自定义时使用。
 type: docs
 weight: 1580
 url: /zh/aspose.slides.charts/errorbarscustomvalues/
 ---
 
-## ErrorBarsCustomValues 类
+## ErrorBarsCustomValues class
 
-指定错误条形值。仅在错误条形值类型为自定义时使用。
+指定错误条的值。仅在错误条值类型为自定义时使用。
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -19,12 +19,12 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 | 名称 | 描述 |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | 指定负方向的错误条形值。仅在错误条形值类型为自定义且允许 ErrorBarsXFormat 时可用。在其他情况下，属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | 指定正方向的错误条形值。仅在错误条形值类型为自定义且允许 ErrorBarsXFormat 时可用。在其他情况下，属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | 指定负方向的错误条形值。仅在错误条形值类型为自定义且允许 ErrorBarsYFormat 时可用。在其他情况下，属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | 指定正方向的错误条形值。仅在错误条形值类型为自定义且允许 ErrorBarsYFormat 时可用。在其他情况下，属性返回 null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | 指定负方向的错误条值。如果错误条值类型为自定义且允许ErrorBarsXFormat，则可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | 指定正方向的错误条值。如果错误条值类型为自定义且允许ErrorBarsXFormat，则可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | 指定负方向的错误条值。如果错误条值类型为自定义且允许ErrorBarsYFormat，则可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | 指定正方向的错误条值。如果错误条值类型为自定义且允许ErrorBarsYFormat，则可用。在其他情况下，此属性返回null。只读 [`IDoubleChartValue`](../idoublechartvalue)。 |
 
-### 另请参阅
+### 另见
 
 * class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * class [ChartDataPoint](../chartdatapoint)

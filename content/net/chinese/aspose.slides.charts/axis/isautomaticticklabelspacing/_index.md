@@ -1,15 +1,15 @@
 ---
 title: IsAutomaticTickLabelSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定自动刻度标签间距值。如果为false，请使用TickLabelSpacing属性。可读/写布尔值。
+description: 指定自动刻度标签间距值。如果为 false，则使用 TickLabelSpacing 属性。可读/写布尔值。
 type: docs
 weight: 230
 url: /zh/aspose.slides.charts/axis/isautomaticticklabelspacing/
 ---
 
-## Axis.IsAutomaticTickLabelSpacing 属性
+## Axis.IsAutomaticTickLabelSpacing property
 
-指定自动刻度标签间距值。如果为false：使用TickLabelSpacing属性。可读/写布尔值。
+指定自动刻度标签间距值。如果为 false：使用 TickLabelSpacing 属性。可读/写布尔值。
 
 ```csharp
 public bool IsAutomaticTickLabelSpacing { get; set; }

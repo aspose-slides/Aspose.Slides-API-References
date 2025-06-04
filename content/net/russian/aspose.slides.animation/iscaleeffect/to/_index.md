@@ -1,13 +1,13 @@
 ---
 title: To
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Указывает целевое местоположение для эффекта масштабирования анимации в процентах. Чтение/запись PointF.
 type: docs
 weight: 40
 url: /ru/aspose.slides.animation/iscaleeffect/to/
 ---
 
-## Свойство IScaleEffect.To
+## IScaleEffect.To свойство
 
 Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/запись PointF.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/iscaleeffect/to/
 public PointF To { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IScaleEffect](../../iscaleeffect)
 * пространство имен [Aspose.Slides.Animation](../../iscaleeffect)

@@ -1,7 +1,7 @@
 ---
 title: Radius
-second_title: Aspose.Slides für .NET API-Referenz
-description: Radius. Schreibgeschütztes Double.
+second_title: Aspose.Slides für .NET API Referenz
+description: Radius. Nur-lesender Double.
 type: docs
 weight: 30
 url: /de/aspose.slides.effects/igloweffectivedata/radius/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/igloweffectivedata/radius/
 
 ## IGlowEffectiveData.Radius-Eigenschaft
 
-Radius. Schreibgeschütztes Double.
+Radius. Nur-lesender Double.
 
 ```csharp
 public double Radius { get; }

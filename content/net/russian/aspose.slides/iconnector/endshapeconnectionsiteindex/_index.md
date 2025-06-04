@@ -1,15 +1,15 @@
 ---
 title: EndShapeConnectionSiteIndex
-second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает или задает индекс соединительного узла для конечной фигуры. Читаемое/записываемое UInt32.
+second_title: Aspose.Sildes для справки по API .NET
+description: Возвращает или задает индекс соединительного узла для конечной формы. Чтение/запись UInt32.
 type: docs
 weight: 40
 url: /ru/aspose.slides/iconnector/endshapeconnectionsiteindex/
 ---
 
-## Свойство IConnector.EndShapeConnectionSiteIndex
+## IConnector.EndShapeConnectionSiteIndex свойство
 
-Возвращает или задает индекс соединительного узла для конечной фигуры. Читаемое/записываемое UInt32.
+Возвращает или задает индекс соединительного узла для конечной формы. Чтение/запись UInt32.
 
 ```csharp
 public uint EndShapeConnectionSiteIndex { get; set; }
@@ -21,7 +21,7 @@ public uint EndShapeConnectionSiteIndex { get; set; }
 | --- | --- |
 | ArgumentException | Выбрасывается, когда значение меньше EndShapeConnectedTo.ConnectionSiteCount |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IConnector](../../iconnector)
 * пространство имен [Aspose.Slides](../../iconnector)

@@ -1,15 +1,15 @@
 ---
 title: AddEmbeddedFont
 second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt die eingebettete Schriftart hinzu. Beachten Sie beim Kopieren von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie zuerst die Lizenz einer Schriftart und vergewissern Sie sich, dass sie frei auf ein anderes Gerät übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist.
+description: Fügt die eingebettete Schriftart hinzu. Beachten Sie beim Kopieren von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Stellen Sie zunächst sicher, dass Sie die Lizenz einer Schriftart im Voraus finden und überprüfen, ob sie ohne weiteres auf einen anderen Computer übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist.
 type: docs
 weight: 30
 url: /de/aspose.slides/ifontsmanager/addembeddedfont/
 ---
 
-## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
+## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-Fügt die eingebettete Schriftart hinzu. Beachten Sie beim Kopieren von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie zuerst die Lizenz einer Schriftart und vergewissern Sie sich, dass sie frei auf ein anderes Gerät übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist.
+Fügt die eingebettete Schriftart hinzu. Beachten Sie beim Kopieren von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Stellen Sie zuerst sicher, dass Sie die Lizenz einer Schriftart im Voraus finden und überprüfen, ob sie ohne weiteres auf einen anderen Computer übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist.
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -18,7 +18,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fontData | IFontData | Schriftartdatenobjekt [`IFontData`](../../ifontdata) |
-| embedFontRule | EmbedFontCharacters | Regel für eingebettete Schriftart [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| embedFontRule | EmbedFontCharacters | Regel für eingebettete Schriftarten [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
 ### Siehe auch
 
@@ -30,9 +30,9 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ---
 
-## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
+## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-Fügt die eingebettete Schriftart hinzu. Beachten Sie beim Hinzufügen von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie zuerst die Lizenz einer Schriftart und vergewissern Sie sich, dass sie frei auf ein anderes Gerät übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist.
+Fügt die eingebettete Schriftart hinzu. Beachten Sie beim Hinzufügen von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Stellen Sie zuerst sicher, dass Sie die Lizenz einer Schriftart im Voraus finden und überprüfen, ob sie ohne weiteres auf einen anderen Computer übertragen werden kann. Eine ArgumentException kann ausgelöst werden, wenn die Schriftartdaten null sind oder diese Schriftart bereits eingebettet ist.
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
@@ -41,7 +41,7 @@ public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fontData | Byte[] | Schriftartdaten Byte[] |
-| embedFontRule | EmbedFontCharacters | Regel für eingebettete Schriftart [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
+| embedFontRule | EmbedFontCharacters | Regel für eingebettete Schriftarten [`EmbedFontCharacters`](../../../aspose.slides.export/embedfontcharacters) |
 
 ### Siehe auch
 

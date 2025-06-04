@@ -1,15 +1,15 @@
 ---
 title: CheckWriteProtection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob eine Präsentation passwordgeschützt ist.
+second_title: Aspose.Sildes for .NET API Reference
+description: Bestimmt, ob eine Präsentation passwortgeschützt ist, um sie zu bearbeiten.
 type: docs
 weight: 70
 url: /de/aspose.slides/protectionmanager/checkwriteprotection/
 ---
 
-## ProtectionManager.CheckWriteProtection-Methode
+## ProtectionManager.CheckWriteProtection Methode
 
-Bestimmt, ob eine Präsentation passwordgeschützt ist.
+Bestimmt, ob eine Präsentation passwortgeschützt ist, um sie zu bearbeiten.
 
 ```csharp
 public bool CheckWriteProtection(string password)
@@ -17,11 +17,11 @@ public bool CheckWriteProtection(string password)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| password | String | Das Passwort zur Überprüfung. |
+| password | String | Das Passwort für die Überprüfung. |
 
 ### Rückgabewert
 
-Wahr, wenn das Passwort gültig ist; andernfalls falsch.
+True, wenn das Passwort gültig ist; andernfalls false.
 
 ### Bemerkungen
 
@@ -37,7 +37,7 @@ using (var presentation = new Presentation(presentationFilePath))
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [ProtectionManager](../../protectionmanager)
 * Namespace [Aspose.Slides](../../protectionmanager)

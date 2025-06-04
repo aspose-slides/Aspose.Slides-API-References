@@ -1,7 +1,7 @@
 ---
 title: InitFormatSchemeFromInherited
-second_title: Aspose.Slides для .NET API Справочник
-description: Инициализируйте FormatScheme с новым объектом для переопределения FormatScheme из InheritedTheme. И инициализируйте данные этого нового объекта данными FormatScheme из InheritedTheme.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Инициализация FormatScheme с новым объектом для переопределения FormatScheme наследуемой темы. И инициализация данных этого нового объекта данными FormatScheme наследуемой темы.
 type: docs
 weight: 120
 url: /ru/aspose.slides.theme/ioverridetheme/initformatschemefrominherited/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/ioverridetheme/initformatschemefrominherited/
 
 ## IOverrideTheme.InitFormatSchemeFromInherited метод
 
-Инициализируйте FormatScheme с новым объектом для переопределения FormatScheme из InheritedTheme. И инициализируйте данные этого нового объекта данными FormatScheme из InheritedTheme.
+Инициализация FormatScheme с новым объектом для переопределения FormatScheme наследуемой темы. И инициализация данных этого нового объекта данными FormatScheme наследуемой темы.
 
 ```csharp
 public void InitFormatSchemeFromInherited()
@@ -19,9 +19,9 @@ public void InitFormatSchemeFromInherited()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, если FormatScheme уже инициализирован (не null). |
+| InvalidOperationException | Выбрасывается, если FormatScheme уже инициализирован (не равен null). |
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IOverrideTheme](../../ioverridetheme)
 * пространство имен [Aspose.Slides.Theme](../../ioverridetheme)

@@ -1,15 +1,15 @@
 ---
 title: IsCustom
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si cette propriété n'appartient pas à la liste des propriétés prédéfinies dans la spécification https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
+description: Indique si cette propriété ne fait pas partie de la liste des propriétés prédéfinies dans la spécification https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
 type: docs
 weight: 10
 url: /fr/aspose.slides.animation/ibehaviorproperty/iscustom/
 ---
 
-## Propriété IBehaviorProperty.IsCustom
+## IBehaviorProperty.IsCustom property
 
-Indique si cette propriété n'appartient pas à la liste des propriétés prédéfinies dans la spécification : https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
+Indique si cette propriété ne fait pas partie de la liste des propriétés prédéfinies dans la spécification : https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
 
 ```csharp
 public bool IsCustom { get; }

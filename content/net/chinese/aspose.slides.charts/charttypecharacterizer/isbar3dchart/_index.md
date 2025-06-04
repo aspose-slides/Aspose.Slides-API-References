@@ -1,7 +1,7 @@
 ---
 title: IsBar3DChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果 chartType 是 bar3DChart 子类型 3D 列或条 中的一个，则返回 true。
+description: 如果 chartType 是 bar3DChart 子类型（3D 列或条）之一，则返回 true。
 type: docs
 weight: 40
 url: /zh/aspose.slides.charts/charttypecharacterizer/isbar3dchart/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/charttypecharacterizer/isbar3dchart/
 
 ## ChartTypeCharacterizer.IsBar3DChart 方法
 
-如果 chartType 是 bar3DChart 子类型 (3D 列或条) 中的一个，则返回 true。
+如果 chartType 是 bar3DChart 子类型（3D 列或条）之一，则返回 true。
 
 ```csharp
 public static bool IsBar3DChart(ChartType chartType)
 ```
 
-### 另请参见
+### 另见
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

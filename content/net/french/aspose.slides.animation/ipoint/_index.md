@@ -1,6 +1,6 @@
 ---
 title: IPoint
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Représente un point d'animation.
 type: docs
 weight: 460
@@ -19,9 +19,9 @@ public interface IPoint
 
 | Nom | Description |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Les formules dans les valeurs, d'attributs, à, par peuvent être composées de ceci : Opérateurs arithmétiques standards : ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constantes : ‘pi’ ‘e’ Opérateurs conditionnels : ‘abs’, ‘min’, ‘max’, ‘?’ (si) Opérateurs de comparaison : '==', '&gt;=', '', '!=', '!' Opérateurs trigonométriques : ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logarithme naturel ‘ln()’ Références de propriétés (propriétés supportées par l'hôte) par exemple : "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Lecture/écriture Chaîne. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Les formules dans les valeurs, des, à, par peuvent être composées de ceci : Opérateurs arithmétiques standards : ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constantes : ‘pi’ ‘e’ Opérateurs conditionnels : ‘abs’, ‘min’, ‘max’, ‘?’ (si) Opérateurs de comparaison : '==', '&gt;=', '', '!=', '!' Opérateurs trigonométriques : ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logarithme naturel ‘ln()’ Références de propriétés (propriétés supportées par l'hôte) par exemple : "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Lecture/écriture Chaîne. |
 | [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Représente la valeur temporelle. Lecture/écriture Simple. |
-| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Représente la valeur du point. Seulement : bool, ColorFormat, float, int, string. Lecture/écriture Objet. |
+| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Représente la valeur du point. Uniquement : bool, ColorFormat, float, int, string. Lecture/écriture Objet. |
 
 ### Voir aussi
 

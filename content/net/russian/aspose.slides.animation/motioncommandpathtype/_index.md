@@ -1,7 +1,7 @@
 ---
 title: MotionCommandPathType
-second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет типы команд для поведения эффекта движения анимации.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет типы команд для поведения анимационного эффекта движения.
 type: docs
 weight: 580
 url: /ru/aspose.slides.animation/motioncommandpathtype/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.animation/motioncommandpathtype/
 
 ## Перечисление MotionCommandPathType
 
-Представляет типы команд для поведения эффекта движения анимации.
+Представляет типы команд для поведения анимационного эффекта движения.
 
 ```csharp
 public enum MotionCommandPathType
@@ -17,7 +17,7 @@ public enum MotionCommandPathType
 
 ### Значения
 
-| Название | Значение | Описание |
+| Имя | Значение | Описание |
 | --- | --- | --- |
 | MoveTo | `0` |  |
 | LineTo | `1` |  |

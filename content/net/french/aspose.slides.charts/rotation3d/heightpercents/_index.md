@@ -1,7 +1,7 @@
 ---
 title: HeightPercents
-second_title: Aspose.Sildes pour la référence API .NET
-description: Spécifie la hauteur d'un graphique en 3-D en pourcentage de la largeur du graphique, entre 5 et 500 pourcents. Lecture/écriture UInt16.
+second_title: Aspose.Sildes pour les références de l'API .NET
+description: Spécifie la hauteur d'un graphique 3-D en pourcentage de la largeur du graphique, entre 5 et 500 pour cent. Lecture/écriture UInt16.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/rotation3d/heightpercents/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/rotation3d/heightpercents/
 
 ## Propriété Rotation3D.HeightPercents
 
-Spécifie la hauteur d'un graphique en 3-D en pourcentage de la largeur du graphique (entre 5 et 500 pourcents). Lecture/écriture UInt16.
+Spécifie la hauteur d'un graphique 3-D en pourcentage de la largeur du graphique (entre 5 et 500 pour cent). Lecture/écriture UInt16.
 
 ```csharp
 public ushort HeightPercents { get; set; }

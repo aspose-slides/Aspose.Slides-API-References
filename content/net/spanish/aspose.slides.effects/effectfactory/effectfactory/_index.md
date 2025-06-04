@@ -1,6 +1,6 @@
 ---
 title: EffectFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: El constructor por defecto.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ El constructor por defecto.
 public EffectFactory()
 ```
 
-### Véase También
+### Ver También
 
-* class [EffectFactory](../../effectfactory)
-* namespace [Aspose.Slides.Effects](../../effectfactory)
-* assembly [Aspose.Slides](../../../)
+* clase [EffectFactory](../../effectfactory)
+* espacio de nombres [Aspose.Slides.Effects](../../effectfactory)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

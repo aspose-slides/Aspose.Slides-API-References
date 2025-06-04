@@ -1,6 +1,6 @@
 ---
 title: MathBorderBox
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Crée un élément MathBorderBox avec une bordure rectangulaire
 type: docs
 weight: 10
@@ -21,7 +21,7 @@ public MathBorderBox(IMathElement element)
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -50,18 +50,18 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | element | IMathElement | L'élément de base auquel la boîte de bordure est appliquée |
-| hideTop | Boolean | Cacher le bord supérieur |
-| hideBottom | Boolean | Cacher le bord inférieur |
-| hideLeft | Boolean | Cacher le bord gauche |
-| hideRight | Boolean | Cacher le bord droit |
-| strikethroughHorizontal | Boolean | Ligne barrée horizontale |
-| strikethroughVertical | Boolean | Ligne barrée verticale |
-| strikethroughBottomLeftToTopRight | Boolean | Ligne barrée du bas-gauche vers le haut-droit |
-| strikethroughTopLeftToBottomRight | Boolean | Ligne barrée du haut-gauche vers le bas-droit |
+| hideTop | Boolean | Masquer le bord supérieur |
+| hideBottom | Boolean | Masquer le bord inférieur |
+| hideLeft | Boolean | Masquer le bord gauche |
+| hideRight | Boolean | Masquer le bord droit |
+| strikethroughHorizontal | Boolean | Barrer horizontalement |
+| strikethroughVertical | Boolean | Barrer verticalement |
+| strikethroughBottomLeftToTopRight | Boolean | Barrer du bas gauche au haut droit |
+| strikethroughTopLeftToBottomRight | Boolean | Barrer du haut gauche au bas droit |
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

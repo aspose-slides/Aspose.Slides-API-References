@@ -1,6 +1,6 @@
 ---
 title: AsIVbaReference
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'interface IVbaReference. Lecture seule IVbaReferenceaspose.slides.vba/ivbareference.
 type: docs
 weight: 10

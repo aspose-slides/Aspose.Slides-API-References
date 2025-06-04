@@ -1,7 +1,7 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes для справочника API .NET
-description: Представляет свойства легенды графика.
+second_title: Aspose.Sildes для .NET API Reference
+description: Представляет свойства легенды диаграммы.
 type: docs
 weight: 2050
 url: /ru/aspose.slides.charts/ilegend/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/ilegend/
 
 ## Интерфейс ILegend
 
-Представляет свойства легенды графика.
+Представляет свойства легенды диаграммы.
 
 ```csharp
 public interface ILegend : IFormattedTextContainer, ILayoutable
@@ -23,8 +23,8 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Получает записи легенды. Только для чтения [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | Возвращает формат легенды. Только для чтения [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам графика перекрывать легенду. Читаемое/записываемое логическое значение. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает положение легенды на графике. Ненулевые значения свойств X, Y, Width, Height имеют приоритет над эффектом данного свойства. Читаемое/записываемое [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли перекрытие других элементов диаграммы с легендой. Чтение/запись Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает положение легенды на диаграмме. Ненулевые значения свойств X, Y, Width, Height переопределяют действие этого свойства. Чтение/запись [`LegendPositionType`](../legendpositiontype). |
 
 ### См. также
 

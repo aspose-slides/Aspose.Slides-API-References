@@ -1,21 +1,21 @@
 ---
 title: Dispose
 second_title: Aspose.Slides für .NET API-Referenz
-description: Entsorgt die Instanz von PresentationPlayer aspose.slides.export/presentationplayer.
+description: Gibt die Instanz des PresentationPlayeraspose.slides.export/presentationplayer frei.
 type: docs
 weight: 40
 url: /de/aspose.slides.export/presentationplayer/dispose/
 ---
 
-## PresentationPlayer.Dispose Methode
+## PresentationPlayer.Dispose-Methode
 
-Entsorgt die Instanz von der [`PresentationPlayer`](../../presentationplayer).
+Gibt die Instanz des [`PresentationPlayer`](../../presentationplayer) frei.
 
 ```csharp
 public void Dispose()
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PresentationPlayer](../../presentationplayer)
 * Namespace [Aspose.Slides.Export](../../presentationplayer)

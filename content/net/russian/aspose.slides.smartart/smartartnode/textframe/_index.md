@@ -1,13 +1,13 @@
 ---
 title: TextFrame
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текстовый фрейм узла. Только для чтения ITextFrame aspose.slides/itextframe.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает текстовый фрейм узла. Только для чтения ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 90
 url: /ru/aspose.slides.smartart/smartartnode/textframe/
 ---
 
-## Свойство SmartArtNode.TextFrame
+## SmartArtNode.TextFrame свойство
 
 Возвращает текстовый фрейм узла. Только для чтения [`ITextFrame`](../../../aspose.slides/itextframe).
 

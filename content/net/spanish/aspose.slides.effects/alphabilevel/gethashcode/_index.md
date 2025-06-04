@@ -7,7 +7,7 @@ weight: 40
 url: /es/aspose.slides.effects/alphabilevel/gethashcode/
 ---
 
-## Método AlphaBiLevel.GetHashCode
+## AlphaBiLevel.GetHashCode método
 
 Sirve como una función hash para un tipo particular.
 
@@ -15,11 +15,11 @@ Sirve como una función hash para un tipo particular.
 public override int GetHashCode()
 ```
 
-### Valor de retorno
+### Valor de Retorno
 
 Un código hash para el objeto actual.
 
-### Ver también
+### Véase También
 
 * clase [AlphaBiLevel](../../alphabilevel)
 * espacio de nombres [Aspose.Slides.Effects](../../alphabilevel)

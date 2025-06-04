@@ -33,11 +33,11 @@ public sealed class Row : CellCollection, IRow
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de formatage de paragraphe définies pour tous les paragraphes des cellules de la ligne. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de formatage de portion définies pour toutes les portions des cellules de la ligne. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de formatage de cadre de texte définies pour tous les cadres de texte des cellules de la ligne. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe définies pour tous les paragraphes de cellules de ligne. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion définies pour toutes les portions de cellules de ligne. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte des cellules de ligne. |
 
 ### Voir aussi
 

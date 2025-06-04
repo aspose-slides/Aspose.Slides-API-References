@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Anzahl der Elemente an, die tatsächlich in der Sammlung enthalten sind. Nur lesbare Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lesen Int32.
 type: docs
 weight: 10
 url: /de/aspose.slides/shapecollection/count/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/shapecollection/count/
 
 ## ShapeCollection.Count-Eigenschaft
 
-Gibt die Anzahl der Elemente an, die tatsächlich in der Sammlung enthalten sind. Nur lesbare Int32.
+Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur-Lesen Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [ShapeCollection](../../shapecollection)
 * Namespace [Aspose.Slides](../../shapecollection)

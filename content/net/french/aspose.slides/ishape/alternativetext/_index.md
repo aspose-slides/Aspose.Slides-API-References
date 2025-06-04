@@ -1,7 +1,7 @@
 ---
 title: AlternativeText
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Récupère ou définit le texte alternatif associé à une forme. Chaîne en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le texte alternatif associé à une forme. Chaîne en lecture/écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides/ishape/alternativetext/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ishape/alternativetext/
 
 ## Propriété IShape.AlternativeText
 
-Récupère ou définit le texte alternatif associé à une forme. Chaîne en lecture/écriture.
+Renvoie ou définit le texte alternatif associé à une forme. Chaîne en lecture/écriture.
 
 ```csharp
 public string AlternativeText { get; set; }

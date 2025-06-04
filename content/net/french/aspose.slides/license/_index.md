@@ -1,7 +1,7 @@
 ---
 title: License
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Fournit des méthodes pour autoriser le composant.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Fournit des méthodes pour licencier le composant.
 type: docs
 weight: 7440
 url: /fr/aspose.slides/license/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/license/
 
 ## Classe License
 
-Fournit des méthodes pour autoriser le composant.
+Fournit des méthodes pour licencier le composant.
 
 ```csharp
 public class License : ILicense
@@ -27,12 +27,12 @@ public class License : ILicense
 | --- | --- |
 | [IsLicensed](../../aspose.slides/license/islicensed)() | Vérifie si la licence est appliquée au composant |
 | [ResetLicense](../../aspose.slides/license/resetlicense)() | Réinitialise la licence |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Licence le composant. |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Licence le composant. |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Licencie le composant. |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Licencie le composant. |
 
 ### Exemples
 
-Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier qui contient le composant, dans le dossier qui contient l'assemblage appelant, dans le dossier de l'assemblage d'entrée, puis dans les ressources intégrées de l'assemblage appelant.
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic dans le dossier contenant le composant, dans le dossier contenant l'assemblage appelant, dans le dossier de l'assemblage d'entrée, puis dans les ressources incorporées de l'assemblage appelant.
 
 ```csharp
 [C#]

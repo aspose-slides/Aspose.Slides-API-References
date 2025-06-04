@@ -7,7 +7,7 @@ weight: 60
 url: /ru/aspose.slides.animation/ibehaviorfactory/createrotationeffect/
 ---
 
-## Метод IBehaviorFactory.CreateRotationEffect
+## IBehaviorFactory.CreateRotationEffect метод
 
 Создает эффект вращения.
 

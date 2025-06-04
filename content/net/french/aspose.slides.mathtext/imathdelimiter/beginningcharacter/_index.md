@@ -1,7 +1,7 @@
 ---
 title: BeginningCharacter
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Le caractère délimiteur de début spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères d'encadrement tels que les parenthèses, les crochets et les accolades. La valeur par défaut.
+second_title: Aspose.Slides pour .NET API Reference
+description: Le caractère délimiteur de début spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères englobants tels que les parenthèses, les crochets et les accolades. La valeur par défaut.
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/imathdelimiter/beginningcharacter/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathdelimiter/beginningcharacter/
 
 ## Propriété IMathDelimiter.BeginningCharacter
 
-Le caractère délimiteur de début spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères d'encadrement tels que les parenthèses, les crochets et les accolades. La valeur par défaut : '('.
+Le caractère délimiteur de début spécifie le caractère délimiteur de début ou d'ouverture. Les délimiteurs mathématiques sont des caractères englobants tels que les parenthèses, les crochets et les accolades. La valeur par défaut : '('.
 
 ```csharp
 public char BeginningCharacter { get; set; }
@@ -25,7 +25,7 @@ IMathDelimiter delimiter = new MathematicalText("x").Join("y").Enclose();
 delimiter.BeginningCharacter = '[';
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathDelimiter](../../imathdelimiter)
 * namespace [Aspose.Slides.MathText](../../imathdelimiter)

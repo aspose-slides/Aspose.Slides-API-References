@@ -1,7 +1,7 @@
 ---
 title: EndShapeConnectedTo
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回或设置连接器末端所附加的形状。可读写 IShapeaspose.slides/ishape。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回或设置连接器末端要附加的形状。可读/写 IShapeaspose.slides/ishape。
 type: docs
 weight: 20
 url: /zh/aspose.slides/connector/endshapeconnectedto/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/connector/endshapeconnectedto/
 
 ## Connector.EndShapeConnectedTo 属性
 
-返回或设置连接器末端所附加的形状。可读写 [`IShape`](../../ishape)。
+返回或设置连接器末端要附加的形状。可读/写 [`IShape`](../../ishape)。
 
 ```csharp
 public IShape EndShapeConnectedTo { get; set; }

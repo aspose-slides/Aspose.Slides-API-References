@@ -1,6 +1,6 @@
 ---
 title: HideAtShowing
-second_title: Ссылки на Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Определяет, скрыт ли AudioFrame. Читаемое/записываемое логическое значение.
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/audioframe/hideatshowing/
 public bool HideAtShowing { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [AudioFrame](../../audioframe)
 * пространство имен [Aspose.Slides](../../audioframe)

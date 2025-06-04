@@ -1,13 +1,13 @@
 ---
 title: Position
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет позицию метки данных. Чтение/запись LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
 type: docs
 weight: 50
 url: /ru/aspose.slides.charts/idatalabelformat/position/
 ---
 
-## Свойство IDataLabelFormat.Position
+## IDataLabelFormat.Position свойство
 
 Представляет позицию метки данных. Чтение/запись [`LegendDataLabelPosition`](../../legenddatalabelposition).
 
@@ -17,9 +17,9 @@ public LegendDataLabelPosition Position { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию для свойства Position для новых меток данных в коллекции DataLabelCollection. Представляет позицию для объектов DataLabel. Установка этого свойства с заданным значением также устанавливает это значение для свойства Position для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Position = val;" приводит к тому, что все DataLabels[i].Position равно val).
+Если родителем этого объекта DataLabelFormat является коллекция DataLabelCollection меток данных, то это свойство получает или устанавливает значение по умолчанию свойства Position для новых меток данных в коллекции DataLabelCollection. Представляет позицию для объектов DataLabel. Установка этого свойства со значением также устанавливает это значение в свойство Position для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Position = val;" приводит к тому, что все DataLabels[i].Position равны val).
 
-### Смотрите также
+### См. также
 
 * enum [LegendDataLabelPosition](../../legenddatalabelposition)
 * interface [IDataLabelFormat](../../idatalabelformat)

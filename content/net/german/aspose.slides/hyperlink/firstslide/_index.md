@@ -1,7 +1,7 @@
 ---
 title: FirstSlide
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt einen Hyperlink zur ersten Folie der Präsentation zurück. Nur-lesbarer Hyperlinkaspose.slides/hyperlink.
+description: Gibt einen Hyperlink zur ersten Folie der Präsentation zurück. Nur-Lesen Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 30
 url: /de/aspose.slides/hyperlink/firstslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/hyperlink/firstslide/
 
 ## Hyperlink.FirstSlide-Eigenschaft
 
-Gibt einen Hyperlink zur ersten Folie der Präsentation zurück. Nur-lesbarer [`Hyperlink`](../../hyperlink).
+Gibt einen Hyperlink zur ersten Folie der Präsentation zurück. Nur-Lesen [`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink FirstSlide { get; }

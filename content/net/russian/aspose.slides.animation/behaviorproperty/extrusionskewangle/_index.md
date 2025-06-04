@@ -7,7 +7,7 @@ weight: 200
 url: /ru/aspose.slides.animation/behaviorproperty/extrusionskewangle/
 ---
 
-## Свойство BehaviorProperty.ExtrusionSkewAngle
+## BehaviorProperty.ExtrusionSkewAngle свойство
 
 Представляет свойство 'extrusion.skewangle'
 

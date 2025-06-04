@@ -1,6 +1,6 @@
 ---
 title: HeaderFooterManager
-second_title: Ссылки на API Aspose.Slides для .NET
+second_title: Справочник API Aspose.Slides для .NET
 description: Возвращает менеджер HeaderFooter слайда. Только для чтения ISlideHeaderFooterManageraspose.slides/islideheaderfootermanager.
 type: docs
 weight: 10

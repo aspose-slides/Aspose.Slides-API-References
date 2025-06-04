@@ -1,7 +1,7 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Warnung über ein bekanntes Problem dar, das in naher Zukunft nicht behoben wird.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt eine Warnung über bekannte Probleme dar, die in naher Zukunft nicht behoben werden.
 type: docs
 weight: 11450
 url: /de/aspose.slides.warnings/iknownissuewarninginfo/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.warnings/iknownissuewarninginfo/
 
 ## IKnownIssueWarningInfo-Schnittstelle
 
-Stellt eine Warnung über ein bekanntes Problem dar, das in naher Zukunft nicht behoben wird.
+Stellt eine Warnung über bekannte Probleme dar, die in naher Zukunft nicht behoben werden.
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo
@@ -21,7 +21,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Gibt die IWarningInfo-Schnittstelle zurück. Nur lesbar [`IWarningInfo`](../iwarninginfo). |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IWarningInfo](../iwarninginfo)
 * Namespace [Aspose.Slides.Warnings](../../aspose.slides.warnings)

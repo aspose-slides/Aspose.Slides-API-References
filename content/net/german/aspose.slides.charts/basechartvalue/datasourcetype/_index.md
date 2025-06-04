@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in Nachfahren relevant sind. Mit anderen Worten, es gibt den Typ des Wertes der Data-Eigenschaft an. Lese-/Schreibe DataSourceType aspose.slides.charts/datasourcetype.
+description: Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in Nachkommen gültig sind. Mit anderen Worten gibt es den Typ des Wertes der Data-Eigenschaft an. Lese-/Schreibzugriff auf DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/basechartvalue/datasourcetype/
@@ -9,17 +9,17 @@ url: /de/aspose.slides.charts/basechartvalue/datasourcetype/
 
 ## BaseChartValue.DataSourceType-Eigenschaft
 
-Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in Nachfahren relevant sind. Mit anderen Worten, es gibt den Typ des Wertes der Data-Eigenschaft an. Lese-/Schreibe [`DataSourceType`](../../datasourcetype).
+Gibt an, ob die Eigenschaften AsCell, AsCells, AsLiteralString oder AsLiteralDouble in Nachkommen gültig sind. Mit anderen Worten gibt es den Typ des Wertes der Data-Eigenschaft an. Lese-/Schreibzugriff auf [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }
 ```
 
-### Hinweise
+### Bemerkungen
 
 Für Punkte in ChartDataPointCollection ist diese Eigenschaft schreibgeschützt. In diesem Fall können Sie eine der Eigenschaften ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; verwenden, um den Wert dieser Eigenschaft zu ändern.
 
-### Siehe Auch
+### Siehe auch
 
 * enum [DataSourceType](../../datasourcetype)
 * class [BaseChartValue](../../basechartvalue)

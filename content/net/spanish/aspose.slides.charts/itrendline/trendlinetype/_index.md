@@ -1,6 +1,6 @@
 ---
 title: TrendlineType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Obtiene o establece el tipo de línea de tendencia. Lectura/escritura TrendlineTypeaspose.slides.charts/itrendline/trendlinetype.
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ Obtiene o establece el tipo de línea de tendencia. Lectura/escritura `Trendline
 public TrendlineType TrendlineType { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [TrendlineType](../../trendlinetype)
 * interface [ITrendline](../../itrendline)

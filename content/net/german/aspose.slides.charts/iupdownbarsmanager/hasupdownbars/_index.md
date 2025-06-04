@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
-second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Diagramm Auf-/Abwärtsbalken hat. Lese-/schreibbarer Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Bestimmt, ob das Diagramm Auf-/Ab- Balken hat. Lese-/schreibbares Boolean.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
 
 ## IUpDownBarsManager.HasUpDownBars-Eigenschaft
 
-Bestimmt, ob das Diagramm Auf-/Abwärtsbalken hat. Lese-/schreibbarer Boolean.
+Bestimmt, ob das Diagramm Auf-/Ab- Balken hat. Lese-/schreibbares Boolean.
 
 ```csharp
 public bool HasUpDownBars { get; set; }

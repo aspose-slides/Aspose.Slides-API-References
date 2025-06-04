@@ -1,6 +1,6 @@
 ---
 title: RefreshThumbnail
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定演示文稿缩略图是否会被刷新。可读写布尔值。默认值为true。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/ipptxoptions/refreshthumbnail/
 public bool RefreshThumbnail { get; set; }
 ```
 
-### 注意事项
+### 备注
 
 当选项值为 **true** 时，将生成新的缩略图。
 

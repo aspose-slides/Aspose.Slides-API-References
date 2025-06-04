@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
-second_title: Справка по API Aspose.Slides для .NET
-description: Возвращает формат заливки узором. Только для чтения IPatternFormataspose.slides/ipatternformat.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает формат цветового заполнения узора. Только для чтения IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 40
 url: /ru/aspose.slides/ifillformat/patternformat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifillformat/patternformat/
 
 ## Свойство IFillFormat.PatternFormat
 
-Возвращает формат заливки узором. Только для чтения [`IPatternFormat`](../../ipatternformat).
+Возвращает формат цветового заполнения узора. Только для чтения [`IPatternFormat`](../../ipatternformat).
 
 ```csharp
 public IPatternFormat PatternFormat { get; }

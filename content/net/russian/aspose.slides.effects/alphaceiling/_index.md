@@ -1,7 +1,7 @@
 ---
 title: AlphaCeiling
-second_title: Aspose.Sildes для справки по API .NET
-description: Представляет эффект Alpha Ceiling. Значения альфа-непрозрачности, большие нуля, изменяются на 100. Другими словами, всё, что частично непрозрачно, становится полностью непрозрачным.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет эффект Alpha Ceiling. Значения альфа-прозрачности, превышающие ноль, изменяются на 100. Другими словами, любое частично непрозрачное становится полностью непрозрачным.
 type: docs
 weight: 2760
 url: /ru/aspose.slides.effects/alphaceiling/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/alphaceiling/
 
 ## Класс AlphaCeiling
 
-Представляет эффект Alpha Ceiling. Значения альфа (непрозрачности), большие нуля, изменяются на 100%. Другими словами, всё, что частично непрозрачно, становится полностью непрозрачным.
+Представляет эффект Alpha Ceiling. Значения альфа (прозрачности), превышающие ноль, изменяются на 100%. Другими словами, любое частично непрозрачное становится полностью непрозрачным.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -25,9 +25,9 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Определяет, равен ли указанный [`AlphaCeiling`](../alphaceiling) текущему [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Получает данные эффективного эффекта Alpha Ceiling с учетом наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Служит хеш-функцией для конкретного типа. |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Определяет, равен ли заданный [`AlphaCeiling`](../alphaceiling) текущему [`AlphaCeiling`](../alphaceiling). |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Получает данные эффективного эффекта Alpha Ceiling с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Служит хеш-функцией для данного типа. |
 
 ### См. также
 

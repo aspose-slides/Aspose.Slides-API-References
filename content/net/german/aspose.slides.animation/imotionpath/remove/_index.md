@@ -7,7 +7,7 @@ weight: 70
 url: /de/aspose.slides.animation/imotionpath/remove/
 ---
 
-## IMotionPath.Remove-Methode
+## IMotionPath.Remove Methode
 
 Entfernt die angegebenen Befehle aus der Sammlung.
 
@@ -17,7 +17,7 @@ public void Remove(IMotionCmdPath item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | IMotionCmdPath | Bewegungsweg zum Entfernen [`IMotionCmdPath`](../../imotioncmdpath) |
+| item | IMotionCmdPath | Bewegungsweg, der entfernt werden soll [`IMotionCmdPath`](../../imotioncmdpath) |
 
 ### Siehe auch
 

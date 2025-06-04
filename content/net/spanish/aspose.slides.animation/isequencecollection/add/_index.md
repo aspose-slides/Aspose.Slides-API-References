@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Agregar nueva secuencia interactiva.
 type: docs
 weight: 40
 url: /es/aspose.slides.animation/isequencecollection/add/
 ---
 
-## Método ISequenceCollection.Add
+## ISequenceCollection.Add método
 
 Agregar nueva secuencia interactiva.
 
@@ -15,15 +15,15 @@ Agregar nueva secuencia interactiva.
 public ISequence Add(IShape shapeTrigger)
 ```
 
-| Parámetro    | Tipo     | Descripción                             |
-|--------------|----------|----------------------------------------|
-| shapeTrigger | IShape   | Objeto de forma [`IShape`](../../../aspose.slides/ishape) |
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| shapeTrigger | IShape | Objeto de forma [`IShape`](../../../aspose.slides/ishape) |
 
 ### Valor de Retorno
 
 Nueva secuencia [`ISequence`](../../isequence)
 
-### Ver También
+### Véase también
 
 * interfaz [ISequence](../../isequence)
 * interfaz [IShape](../../../aspose.slides/ishape)

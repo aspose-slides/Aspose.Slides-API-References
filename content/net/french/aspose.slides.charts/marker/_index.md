@@ -1,7 +1,7 @@
 ---
 title: Marker
-second_title: Référence API Aspose.Slides pour .NET
-description: Représente le marqueur d'un graphique.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Représente un marqueur d'un chert.
 type: docs
 weight: 2250
 url: /fr/aspose.slides.charts/marker/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/marker/
 
 ## Classe Marker
 
-Représente le marqueur d'un graphique.
+Représente un marqueur d'un chert.
 
 ```csharp
 public class Marker : IMarker

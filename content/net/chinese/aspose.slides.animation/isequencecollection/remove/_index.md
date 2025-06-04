@@ -1,6 +1,6 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 从集合中移除指定的序列。
 type: docs
 weight: 60
@@ -19,7 +19,7 @@ public void Remove(ISequence item)
 | --- | --- | --- |
 | item | ISequence | 要移除的序列。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ISequence](../../isequence)
 * 接口 [ISequenceCollection](../../isequencecollection)

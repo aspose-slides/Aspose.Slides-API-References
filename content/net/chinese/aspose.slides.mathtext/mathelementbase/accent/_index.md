@@ -1,7 +1,7 @@
 ---
 title: Accent
-second_title: Aspose.Slides for .NET API 参考
-description: 在此元素的顶部设置一个重音符号
+second_title: Aspose.Sildes for .NET API Reference
+description: 为此元素的顶部设置重音标记字符
 type: docs
 weight: 10
 url: /zh/aspose.slides.mathtext/mathelementbase/accent/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/mathelementbase/accent/
 
 ## MathElementBase.Accent 方法
 
-设置一个重音符号（在此元素顶部的字符）
+设置重音标记（此元素顶部的字符）
 
 ```csharp
 public IMathAccent Accent(char accentCharacter)
@@ -17,11 +17,11 @@ public IMathAccent Accent(char accentCharacter)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| accentCharacter | Char | 重音字符。值应在范围 (U+0300–U+036F) 或 (U+20D0–U+20EF) 之内 |
+| accentCharacter | Char | 重音字符。值应在 (U+0300–U+036F) 或 (U+20D0–U+20EF) 范围内 |
 
 ### 返回值
 
-类型 [`IMathAccent`](../../imathaccent) 的新实例
+[`IMathAccent`](../../imathaccent) 类型的新实例
 
 ### 示例
 
@@ -32,7 +32,7 @@ public IMathAccent Accent(char accentCharacter)
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathAccent](../../imathaccent)
 * 类 [MathElementBase](../../mathelementbase)

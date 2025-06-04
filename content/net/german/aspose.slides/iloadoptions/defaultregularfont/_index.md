@@ -1,7 +1,7 @@
 ---
 title: DefaultRegularFont
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Schreib-/Lesezeichen-String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die reguläre Schriftart zurück oder setzt sie, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lese- und Schreibzeichenfolge.
 type: docs
 weight: 30
 url: /de/aspose.slides/iloadoptions/defaultregularfont/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iloadoptions/defaultregularfont/
 
 ## ILoadOptions.DefaultRegularFont-Eigenschaft
 
-Gibt die reguläre Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Schreib-/Lesezeichen-String.
+Gibt die reguläre Schriftart zurück oder setzt sie, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lese- und Schreibzeichenfolge.
 
 ```csharp
 public string DefaultRegularFont { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILoadOptions](../../iloadoptions)
 * Namespace [Aspose.Slides](../../iloadoptions)

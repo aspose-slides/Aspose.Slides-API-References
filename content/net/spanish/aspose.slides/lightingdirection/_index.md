@@ -1,6 +1,6 @@
 ---
 title: LightingDirection
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Constantes que definen direcciones de luz.
 type: docs
 weight: 7470
@@ -29,7 +29,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### Vea También
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

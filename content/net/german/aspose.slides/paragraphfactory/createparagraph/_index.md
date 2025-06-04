@@ -19,9 +19,9 @@ public IParagraph CreateParagraph()
 
 Absatz.
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [IParagraph](../../iparagraph)
+* Schnittstelle [IParagraph](../../iparagraph)
 * Klasse [ParagraphFactory](../../paragraphfactory)
 * Namespace [Aspose.Slides](../../paragraphfactory)
 * Assembly [Aspose.Slides](../../../)
@@ -44,9 +44,9 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 
 Absatz.
 
-### Siehe auch
+### Siehe Auch
 
-* Interface [IParagraph](../../iparagraph)
+* Schnittstelle [IParagraph](../../iparagraph)
 * Klasse [ParagraphFactory](../../paragraphfactory)
 * Namespace [Aspose.Slides](../../paragraphfactory)
 * Assembly [Aspose.Slides](../../../)

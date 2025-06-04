@@ -1,7 +1,7 @@
 ---
 title: TileScaleX
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den horizontalen Maßstab für die Texturfüllung als Prozentsatz zurück oder setzt ihn. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die horizontale Skalierung für das Texturfüllung als Prozentsatz zurück oder setzt sie. Lese-/Schreib-Single.
 type: docs
 weight: 170
 url: /de/aspose.slides/ipicturefillformat/tilescalex/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipicturefillformat/tilescalex/
 
 ## IPictureFillFormat.TileScaleX-Eigenschaft
 
-Gibt den horizontalen Maßstab für die Texturfüllung als Prozentsatz zurück oder setzt ihn. Lese-/Schreibzugriff auf Single.
+Gibt die horizontale Skalierung für das Texturfüllung als Prozentsatz zurück oder setzt sie. Lese-/Schreib-Single.
 
 ```csharp
 public float TileScaleX { get; set; }
@@ -26,17 +26,17 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     // Ruft das Bildfüllformat der Form ab
     IPictureFillFormat pictureFillFormat = slide.Shapes[0].FillFormat.PictureFillFormat;
 
-    // Setzt den Bildfüllmodus auf Tile
+    // Setzt den Bildfüllmodus auf Kachel
     pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
 
-    // Setzt den horizontalen Maßstab für die Textur auf 120 Prozent
+    // Setzt die horizontale Skalierung der Textur auf 120 Prozent
     pictureFillFormat.TileScaleX = 120;
 }
 ```
 
 ### Siehe auch
 
-* Schnittstelle [IPictureFillFormat](../../ipicturefillformat)
+* Interface [IPictureFillFormat](../../ipicturefillformat)
 * Namespace [Aspose.Slides](../../ipicturefillformat)
 * Assembly [Aspose.Slides](../../../)
 

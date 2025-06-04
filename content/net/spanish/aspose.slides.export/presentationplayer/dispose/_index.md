@@ -1,7 +1,7 @@
 ---
 title: Dispose
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Desecha la instancia de PresentationPlayeraspose.slides.export/presentationplayer.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Libera la instancia de PresentationPlayeraspose.slides.export/presentationplayer.
 type: docs
 weight: 40
 url: /es/aspose.slides.export/presentationplayer/dispose/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.export/presentationplayer/dispose/
 
 ## Método PresentationPlayer.Dispose
 
-Desecha la instancia de la [`PresentationPlayer`](../../presentationplayer).
+Libera la instancia de la [`PresentationPlayer`](../../presentationplayer).
 
 ```csharp
 public void Dispose()

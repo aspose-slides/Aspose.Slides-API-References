@@ -1,13 +1,13 @@
 ---
 title: AsIGeometryShape
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IGeometryShape. Solo lectura IGeometryShape aspose.slides/igeometryshape.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Permite obtener la interfaz base IGeometryShape. Solo lectura IGeometryShapeaspose.slides/igeometryshape.
 type: docs
 weight: 10
 url: /es/aspose.slides/iautoshape/asigeometryshape/
 ---
 
-## Propiedad IAutoShape.AsIGeometryShape
+## IAutoShape.AsIGeometryShape propiedad
 
 Permite obtener la interfaz base IGeometryShape. Solo lectura [`IGeometryShape`](../../igeometryshape).
 
@@ -15,7 +15,7 @@ Permite obtener la interfaz base IGeometryShape. Solo lectura [`IGeometryShape`]
 public IGeometryShape AsIGeometryShape { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IGeometryShape](../../igeometryshape)
 * interfaz [IAutoShape](../../iautoshape)

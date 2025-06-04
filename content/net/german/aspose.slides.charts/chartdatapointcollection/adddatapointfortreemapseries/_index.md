@@ -1,15 +1,15 @@
 ---
 title: AddDataPointForTreemapSeries
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Treemap ist.
 type: docs
 weight: 250
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointfortreemapseries/
 ---
 
-## ChartDataPointCollection.AddDataPointForTreemapSeries Methode
+## ChartDataPointCollection.AddDataPointForTreemapSeries-Methode
 
-Erschafft den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Treemap ist.
+Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Reihen, deren Diagrammtyp Treemap ist.
 
 ```csharp
 public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
@@ -17,7 +17,7 @@ public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| sizeValue | IChartDataCell | Größe des Datenpunkts |
+| sizeValue | IChartDataCell | Datenpunkt SizeValue |
 
 ### Rückgabewert
 

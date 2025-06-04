@@ -1,6 +1,6 @@
 ---
 title: IAutoShape
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Représente un AutoShape.
 type: docs
 weight: 5040
@@ -20,17 +20,17 @@ public interface IAutoShape : IGeometryShape
 | Nom | Description |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Permet d'obtenir l'interface de base IGeometryShape. Lecture seule [`IGeometryShape`](../igeometryshape). |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Retourne les verrous de l'AutoShape. Lecture seule [`IAutoShapeLock`](../iautoshapelock). |
-| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Indique si la forme est une zone de texte. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Retourne les verrous de la forme. Lecture seule [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Retourne l'objet TextFrame pour l'AutoShape. Lecture seule [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Détermine si cet autoshape doit être rempli avec le remplissage d'arrière-plan de la diapositive au lieu de celui spécifié par le style ou le format de remplissage. Lecture/écriture Booléen. |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Renvoie les verrouillages de l'AutoShape. Lecture seule [`IAutoShapeLock`](../iautoshapelock). |
+| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Spécifie si la forme est une zone de texte. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Renvoie les verrouillages de la forme. Lecture seule [`IAutoShapeLock`](../iautoshapelock). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Renvoie l'objet TextFrame pour l'AutoShape. Lecture seule [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Détermine si cet auto-shape doit être rempli avec le fond de la diapositive au lieu de ce qui est spécifié par le style ou le format de remplissage. Lecture/écriture Boolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, il change simplement son texte. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, alors elle change simplement son texte. |
 
 ### Voir Aussi
 

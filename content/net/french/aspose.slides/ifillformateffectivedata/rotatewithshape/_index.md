@@ -1,21 +1,21 @@
 ---
 title: RotateWithShape
 second_title: Référence API Aspose.Slides pour .NET
-description: Détermine si le remplissage doit être tourné avec la forme. Booléen en lecture seule.
+description: Détermine si le remplissage doit être tourné avec la forme. Boolean en lecture seule.
 type: docs
 weight: 60
 url: /fr/aspose.slides/ifillformateffectivedata/rotatewithshape/
 ---
 
-## Propriété IFillFormatEffectiveData.RotateWithShape
+## IFillFormatEffectiveData.RotateWithShape property
 
-Détermine si le remplissage doit être tourné avec la forme. Booléen en lecture seule.
+Détermine si le remplissage doit être tourné avec la forme. Boolean en lecture seule.
 
 ```csharp
 public bool RotateWithShape { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IFillFormatEffectiveData](../../ifillformateffectivedata)
 * namespace [Aspose.Slides](../../ifillformateffectivedata)

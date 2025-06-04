@@ -1,7 +1,7 @@
 ---
 title: DefaultParagraphFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die effektiven Standardabsatz-Eigenschaften zurück. Nur lesbar IParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die effektiven Standard-Paragraph-Eigenschaften zurück. Nur für Lesezugriff IParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata.
 type: docs
 weight: 10
 url: /de/aspose.slides/itextstyleeffectivedata/defaultparagraphformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itextstyleeffectivedata/defaultparagraphformat/
 
 ## ITextStyleEffectiveData.DefaultParagraphFormat-Eigenschaft
 
-Gibt die effektiven Standardabsatz-Eigenschaften zurück. Nur lesbar [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
+Gibt die effektiven Standard-Paragraph-Eigenschaften zurück. Nur für Lesezugriff [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
 ```csharp
 public IParagraphFormatEffectiveData DefaultParagraphFormat { get; }

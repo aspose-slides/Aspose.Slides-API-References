@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit la largeur d'une colonne. Lecture/écriture Double.
+description: Retourne ou définit la largeur d'une colonne. Lecture/écriture Double.
 type: docs
 weight: 40
 url: /fr/aspose.slides/icolumn/width/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icolumn/width/
 
 ## Propriété IColumn.Width
 
-Renvoie ou définit la largeur d'une colonne. Lecture/écriture Double.
+Retourne ou définit la largeur d'une colonne. Lecture/écriture Double.
 
 ```csharp
 public double Width { get; set; }

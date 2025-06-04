@@ -1,7 +1,7 @@
 ---
 title: Forward
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定在数据系列之后，趋势线在散点图上延伸的类别或单位的数量。在散点图和非散点图上，值应为任何非负值。可读写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定趋势线在被趋势的数据之后延伸的散点图上的类别或单位的数量。在散点图和非散点图上，值应为任何非负值。可读写的 Double。
 type: docs
 weight: 60
 url: /zh/aspose.slides.charts/trendline/forward/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/trendline/forward/
 
 ## Trendline.Forward 属性
 
-指定在数据系列之后，趋势线在散点图上延伸的类别（或单位）的数量。在散点图和非散点图上，值应为任何非负值。可读写 Double。
+指定趋势线在被趋势的数据之后延伸的类别（或散点图上的单位）数量。在散点图和非散点图上，值应为任何非负值。可读写的 Double。
 
 ```csharp
 public double Forward { get; set; }

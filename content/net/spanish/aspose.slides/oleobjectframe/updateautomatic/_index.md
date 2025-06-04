@@ -1,13 +1,13 @@
 ---
 title: UpdateAutomatic
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Determina si el objeto embebido vinculado se actualiza automáticamente cuando se abre o se imprime la presentación. Booleano de lectura/escritura.
 type: docs
 weight: 140
 url: /es/aspose.slides/oleobjectframe/updateautomatic/
 ---
 
-## Propiedad OleObjectFrame.UpdateAutomatic
+## OleObjectFrame.UpdateAutomatic property
 
 Determina si el objeto embebido vinculado se actualiza automáticamente cuando se abre o se imprime la presentación. Booleano de lectura/escritura.
 
@@ -15,10 +15,10 @@ Determina si el objeto embebido vinculado se actualiza automáticamente cuando s
 public bool UpdateAutomatic { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [OleObjectFrame](../../oleobjectframe)
-* espacio de nombres [Aspose.Slides](../../oleobjectframe)
-* ensamblaje [Aspose.Slides](../../../)
+* class [OleObjectFrame](../../oleobjectframe)
+* namespace [Aspose.Slides](../../oleobjectframe)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

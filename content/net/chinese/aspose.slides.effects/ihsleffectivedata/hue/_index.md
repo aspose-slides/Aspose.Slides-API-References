@@ -1,7 +1,7 @@
 ---
 title: Hue
-second_title: Aspose.Slides for .NET API 参考
-description: 返回色调百分比。只读 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回色调百分比。只读单精度浮点数。
 type: docs
 weight: 20
 url: /zh/aspose.slides.effects/ihsleffectivedata/hue/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.effects/ihsleffectivedata/hue/
 
 ## IHSLEffectiveData.Hue 属性
 
-返回色调百分比。只读 Single。
+返回色调百分比。只读单精度浮点数。
 
 ```csharp
 public float Hue { get; }
 ```
 
-### 另见
+### 参考
 
 * 接口 [IHSLEffectiveData](../../ihsleffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ihsleffectivedata)

@@ -1,7 +1,7 @@
 ---
 title: BackColor
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Hintergrundmusterfarbe zurück. Nur-Lese IColorFormataspose.slides/icolorformat.
+description: Gibt die Hintergrundmusterfarbe zurück. Schreibgeschützt IColorFormat aspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /de/aspose.slides/patternformat/backcolor/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/patternformat/backcolor/
 
 ## PatternFormat.BackColor-Eigenschaft
 
-Gibt die Hintergrundmusterfarbe zurück. Nur-Lese [`IColorFormat`](../../icolorformat).
+Gibt die Hintergrundmusterfarbe zurück. Schreibgeschützt [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat BackColor { get; }
@@ -17,7 +17,7 @@ public IColorFormat BackColor { get; }
 
 ### Siehe auch
 
-* Interface [IColorFormat](../../icolorformat)
+* Schnittstelle [IColorFormat](../../icolorformat)
 * Klasse [PatternFormat](../../patternformat)
 * Namespace [Aspose.Slides](../../patternformat)
 * Assembly [Aspose.Slides](../../../)

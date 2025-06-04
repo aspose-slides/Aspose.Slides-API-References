@@ -1,15 +1,15 @@
 ---
 title: Value1
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Define el segundo valor del desplazamiento. Lectura/escritura Single.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Define el segundo valor de desplazamiento. Lectura/escritura Single.
 type: docs
 weight: 20
 url: /es/aspose.slides.animation/icoloroffset/value1/
 ---
 
-## Propiedad IColorOffset.Value1
+## IColorOffset.Value1 propiedad
 
-Define el segundo valor del desplazamiento. Lectura/escritura Single.
+Define el segundo valor de desplazamiento. Lectura/escritura Single.
 
 ```csharp
 public float Value1 { get; set; }

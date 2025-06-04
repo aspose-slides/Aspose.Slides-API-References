@@ -1,7 +1,7 @@
 ---
 title: SetHeaderVisibility
-second_title: Référence API Aspose.Slides pour .NET
-description: Change la visibilité de l'espace réservé de l'en-tête de la diapositive.
+second_title: Aspose.Slides pour .NET API Reference
+description: Change la visibilité du placeholder d'en-tête de diapositive.
 type: docs
 weight: 30
 url: /fr/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibil
 
 ## BaseHandoutNotesSlideHeaderFooterManager.SetHeaderVisibility méthode
 
-Change la visibilité de l'espace réservé de l'en-tête de la diapositive.
+Change la visibilité du placeholder d'en-tête de diapositive.
 
 ```csharp
 public void SetHeaderVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetHeaderVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un espace réservé d'en-tête visible, sinon - le cache. |
+| isVisible | Boolean | true - rend un placeholder d'en-tête visible, sinon - le cache. |
 
-### Voir Aussi
+### Voir aussi
 
 * classe [BaseHandoutNotesSlideHeaderFooterManager](../../basehandoutnotesslideheaderfootermanager)
 * espace de noms [Aspose.Slides](../../basehandoutnotesslideheaderfootermanager)

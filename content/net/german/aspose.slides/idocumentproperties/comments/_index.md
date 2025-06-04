@@ -1,6 +1,6 @@
 ---
 title: Comments
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt die Kommentare einer Präsentation zurück oder legt sie fest. Lese-/Schreib-String.
 type: docs
 weight: 50

@@ -1,24 +1,24 @@
 ---
 title: RemoveEmptyLines
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Si se establece en true, elimina las líneas vacías o que contienen solo espacios en blanco de la salida final en Markdown. El valor predeterminado es false.
+second_title: Aspose.Sildes para .NET API Reference
+description: Si se establece en verdadero, elimina líneas vacías o que solo contienen espacios en blanco de la salida final en Markdown. El valor predeterminado es falso.
 type: docs
 weight: 80
 url: /es/aspose.slides.export/markdownsaveoptions/removeemptylines/
 ---
 
-## MarkdownSaveOptions.RemoveEmptyLines propiedad
+## MarkdownSaveOptions.RemoveEmptyLines property
 
-Si se establece en `true`, elimina las líneas vacías o que contienen solo espacios en blanco de la salida final en Markdown. El valor predeterminado es `false`.
+Si se establece en `true`, elimina líneas vacías o que solo contienen espacios en blanco de la salida final en Markdown. El valor predeterminado es `false`.
 
 ```csharp
 public bool RemoveEmptyLines { get; set; }
 ```
 
-### Ver También
+### See Also
 
-* clase [MarkdownSaveOptions](../../markdownsaveoptions)
-* espacio de nombres [Aspose.Slides.Export](../../markdownsaveoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [MarkdownSaveOptions](../../markdownsaveoptions)
+* namespace [Aspose.Slides.Export](../../markdownsaveoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

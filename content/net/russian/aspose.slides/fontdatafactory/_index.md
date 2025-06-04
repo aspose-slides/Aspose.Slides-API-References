@@ -1,6 +1,6 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sldes для .NET API Справочник
+second_title: Справочник по API Aspose.Slides для .NET
 description: Фабрика FontData
 type: docs
 weight: 4640

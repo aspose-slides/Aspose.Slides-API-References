@@ -1,6 +1,6 @@
 ---
 title: TextVerticalType
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Devuelve o establece el tipo de texto vertical. Lectura/escritura TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 230
@@ -15,7 +15,7 @@ Devuelve o establece el tipo de texto vertical. Lectura/escritura [`TextVertical
 public TextVerticalType TextVerticalType { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * enum [TextVerticalType](../../textverticaltype)
 * class [Cell](../../cell)

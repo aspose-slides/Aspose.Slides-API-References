@@ -1,6 +1,6 @@
 ---
 title: Y
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает координату Y верхнего левого угла рамки. Только для чтения Single.
 type: docs
 weight: 110

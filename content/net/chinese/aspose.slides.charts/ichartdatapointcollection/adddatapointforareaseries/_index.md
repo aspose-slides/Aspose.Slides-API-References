@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForAreaSeries
-second_title: Aspose.Slides for .NET API Reference
-description: 创建新的数据点并将其添加到集合的末尾。适用于 chartType 为区域子类型之一的系列，请参见 ChartTypeCharacterizer.IsChartTypeAreaChartType 方法。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建新的数据点并将其添加到集合的末尾。适用于 chartType 为 Area 子类型之一的系列，请参见 ChartTypeCharacterizer.IsChartTypeAreaChartType 方法。
 type: docs
 weight: 70
 url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaseries/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/ichartdatapointcollection/adddatapointforareaserie
 
 ## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
-创建新的数据点并将其添加到集合的末尾。适用于 chartType 为区域子类型之一的系列（请参见 ChartTypeCharacterizer.IsChartTypeArea(ChartType) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于 chartType 为 Area 子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeArea(ChartType) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
 
 ## AddDataPointForAreaSeries(double) {#adddatapointforareaseries_1}
 
-创建新的数据点并将其添加到集合的末尾。适用于 chartType 为区域子类型之一的系列（请参见 ChartTypeCharacterizer.IsChartTypeArea(ChartType) 方法）。
+创建新的数据点并将其添加到集合的末尾。适用于 chartType 为 Area 子类型之一的系列（另见 ChartTypeCharacterizer.IsChartTypeArea(ChartType) 方法）。
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(double value)

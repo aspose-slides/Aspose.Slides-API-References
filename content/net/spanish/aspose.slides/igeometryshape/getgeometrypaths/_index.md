@@ -1,7 +1,7 @@
 ---
 title: GetGeometryPaths
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la copia de la ruta de la forma de geometría. Las coordenadas son relativas a la esquina superior izquierda de la forma.
+description: Devuelve la copia de la ruta de la forma geométrica. Las coordenadas son relativas a la esquina superior izquierda de la forma.
 type: docs
 weight: 60
 url: /es/aspose.slides/igeometryshape/getgeometrypaths/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/igeometryshape/getgeometrypaths/
 
 ## IGeometryShape.GetGeometryPaths método
 
-Devuelve la copia de la ruta de la forma de geometría. Las coordenadas son relativas a la esquina superior izquierda de la forma.
+Devuelve la copia de la ruta de la forma geométrica. Las coordenadas son relativas a la esquina superior izquierda de la forma.
 
 ```csharp
 public IGeometryPath[] GetGeometryPaths()
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IGeometryPath](../../igeometrypath)
 * interfaz [IGeometryShape](../../igeometryshape)

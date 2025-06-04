@@ -1,13 +1,13 @@
 ---
 title: HyperlinkQueries
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur-Lese IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 40
 url: /de/aspose.slides/baseslide/hyperlinkqueries/
 ---
 
-## BaseSlide.HyperlinkQueries-Eigenschaft
+## BaseSlide.HyperlinkQueries Eigenschaft
 
 Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur-Lese [`IHyperlinkQueries`](../../ihyperlinkqueries).
 

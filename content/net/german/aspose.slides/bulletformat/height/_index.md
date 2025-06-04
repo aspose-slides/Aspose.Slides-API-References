@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Aufzählungshöhe eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass die Aufzählung die Höhe von dem ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff auf Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die Höhenangabe der Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Teil des Absatzes erbt. Lesen/Schreiben Einfach.
 type: docs
 weight: 40
 url: /de/aspose.slides/bulletformat/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/bulletformat/height/
 
 ## BulletFormat.Height-Eigenschaft
 
-Gibt die Aufzählungshöhe eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass die Aufzählung die Höhe von dem ersten Abschnitt im Absatz erbt. Lese-/Schreibzugriff auf Single.
+Gibt die Höhenangabe der Aufzählungszeichen eines Absatzes ohne Vererbung zurück oder setzt sie. Der Wert float.NaN bestimmt, dass das Aufzählungszeichen die Höhe vom ersten Teil des Absatzes erbt. Lesen/Schreiben Einfach.
 
 ```csharp
 public float Height { get; set; }
@@ -17,7 +17,7 @@ public float Height { get; set; }
 
 ### Bemerkungen
 
-Ein negativer Höhenwert bedeutet, dass die Höhe in Punkten angegeben ist, während ein positiver Wert bedeutet, dass die Höhe ein Prozentsatz des umgebenden Textes ist.
+Ein negativer Höhenwert bedeutet, dass die Höhe in Punkten angegeben wird, und ein positiver Wert bedeutet, dass die Höhe ein Prozentsatz des umgebenden Textes ist.
 
 ### Siehe Auch
 

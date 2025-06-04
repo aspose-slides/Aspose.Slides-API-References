@@ -1,6 +1,6 @@
 ---
 title: ShadowOn
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Representa la propiedad shadow.on
 type: docs
 weight: 720
@@ -15,10 +15,10 @@ Representa la propiedad 'shadow.on'
 public static BehaviorProperty ShadowOn { get; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

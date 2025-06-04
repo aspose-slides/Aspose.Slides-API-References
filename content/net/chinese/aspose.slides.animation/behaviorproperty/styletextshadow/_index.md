@@ -1,6 +1,6 @@
 ---
 title: StyleTextShadow
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Slides for .NET API Reference
 description: 表示 style.textShadow 属性
 type: docs
 weight: 1170

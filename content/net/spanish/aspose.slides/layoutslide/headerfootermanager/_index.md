@@ -15,11 +15,11 @@ Devuelve el administrador de HeaderFooter de la diapositiva de diseño. Solo lec
 public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }
 ```
 
-### Ver También
+### Véase También
 
 * interfaz [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * clase [LayoutSlide](../../layoutslide)
 * espacio de nombres [Aspose.Slides](../../layoutslide)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

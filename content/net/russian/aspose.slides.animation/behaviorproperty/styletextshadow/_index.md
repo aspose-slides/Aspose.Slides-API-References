@@ -1,13 +1,13 @@
 ---
 title: StyleTextShadow
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Представляет свойство style.textShadow
 type: docs
 weight: 1170
 url: /ru/aspose.slides.animation/behaviorproperty/styletextshadow/
 ---
 
-## Свойство BehaviorProperty.StyleTextShadow
+## BehaviorProperty.StyleTextShadow свойство
 
 Представляет свойство 'style.textShadow'
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/behaviorproperty/styletextshadow/
 public static BehaviorProperty StyleTextShadow { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * класс [BehaviorProperty](../../behaviorproperty)
 * пространство имен [Aspose.Slides.Animation](../../behaviorproperty)

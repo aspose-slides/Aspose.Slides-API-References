@@ -1,21 +1,21 @@
 ---
 title: Sound
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne ou définit les données audio intégrées. Lecture-écriture IAudioaspose.slides/iaudio.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie ou définit les données audio intégrées. Lecture-écriture IAudioaspose.slides/iaudio.
 type: docs
 weight: 40
 url: /fr/aspose.slides/islideshowtransition/sound/
 ---
 
-## Propriété ISlideShowTransition.Sound
+## ISlideShowTransition.Sound propriété
 
-Retourne ou définit les données audio intégrées. Lecture-écriture [`IAudio`](../../iaudio).
+Renvoie ou définit les données audio intégrées. Lecture-écriture [`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IAudio](../../iaudio)
 * interface [ISlideShowTransition](../../islideshowtransition)

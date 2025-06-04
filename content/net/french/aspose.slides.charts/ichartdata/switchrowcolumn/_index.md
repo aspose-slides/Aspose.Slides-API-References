@@ -1,21 +1,21 @@
 ---
 title: SwitchRowColumn
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Échangez les données sur l'axe. Les données cartographiées sur l'axe X passeront à l'axe Y et vice versa.
+second_title: Aspose.Slides pour la référence de l'API .NET
+description: Échanger les données sur l'axe. Les données tracées sur l'axe X passeront à l'axe Y et vice versa.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
 
-## Méthode IChartData.SwitchRowColumn
+## IChartData.SwitchRowColumn méthode
 
-Échangez les données sur l'axe. Les données cartographiées sur l'axe X passeront à l'axe Y et vice versa.
+Échanger les données sur l'axe. Les données tracées sur l'axe X passeront à l'axe Y et vice versa.
 
 ```csharp
 public void SwitchRowColumn()
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartData](../../ichartdata)
 * namespace [Aspose.Slides.Charts](../../ichartdata)

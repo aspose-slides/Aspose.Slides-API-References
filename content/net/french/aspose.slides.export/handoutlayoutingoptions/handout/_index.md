@@ -1,13 +1,13 @@
 ---
 title: Handout
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Spécifie combien de diapositives et dans quel ordre seront placées sur la page HandoutTypeaspose.slides/handouttype.
 type: docs
 weight: 20
 url: /fr/aspose.slides.export/handoutlayoutingoptions/handout/
 ---
 
-## Propriété Handout de HandoutLayoutingOptions
+## HandoutLayoutingOptions.Handout property
 
 Spécifie combien de diapositives et dans quel ordre seront placées sur la page [`HandoutType`](../../handouttype).
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [HandoutType](../../handouttype)
 * class [HandoutLayoutingOptions](../../handoutlayoutingoptions)

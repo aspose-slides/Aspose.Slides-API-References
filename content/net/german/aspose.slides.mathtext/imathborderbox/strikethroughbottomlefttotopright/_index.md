@@ -1,7 +1,7 @@
 ---
 title: StrikethroughBottomLeftToTopRight
 second_title: Aspose.Slides für .NET API-Referenz
-description: Durchgestrichen von unten links nach oben rechts Standard ist falsch. Gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen diagonal Linie von der unteren linken Ecke zur oberen rechten Ecke des Randfeldes an.
+description: Strikethrough von unten links nach oben rechts Standard ist falsch. Gibt den verborgenen oder angezeigten Zustand einer Durchstreichungslinie von der unteren linken Ecke zur oberen rechten Ecke des Randkästchens an.
 type: docs
 weight: 70
 url: /de/aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright
 
 ## IMathBorderBox.StrikethroughBottomLeftToTopRight-Eigenschaft
 
-Durchgestrichen von unten links nach oben rechts (Standard ist falsch). Gibt den versteckten oder sichtbaren Zustand einer durchgestrichenen diagonal Linie von der unteren linken Ecke zur oberen rechten Ecke des Randfeldes an.
+Strikethrough von unten links nach oben rechts (Standard ist falsch). Gibt den verborgenen oder angezeigten Zustand einer Durchstreichungslinie von der unteren linken Ecke zur oberen rechten Ecke des Randkästchens an.
 
 ```csharp
 public bool StrikethroughBottomLeftToTopRight { get; set; }

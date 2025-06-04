@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetRight
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die rechte Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Offset von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Innenmaß an, während ein negativer Prozentsatz ein Außenmaß angibt. Lesend/schreibend Single.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt die rechte Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Offset von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt eine Einlage an, während ein negativer Prozentsatz eine Auslage angibt. Lese-/Schreibzugriff auf Single.
 type: docs
 weight: 110
 url: /de/aspose.slides/ipicturefillformat/stretchoffsetright/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ipicturefillformat/stretchoffsetright/
 
 ## IPictureFillFormat.StretchOffsetRight-Eigenschaft
 
-Gibt die rechte Kante des Füllrechtecks zurück oder setzt sie, die durch einen prozentualen Offset von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt ein Innenmaß an, während ein negativer Prozentsatz ein Außenmaß angibt. Lesend/schreibend Single.
+Gibt die rechte Kante des Füllrechtecks zurück oder legt sie fest, die durch einen prozentualen Offset von der rechten Kante des Begrenzungsrahmens der Form definiert ist. Ein positiver Prozentsatz gibt eine Einlage an, während ein negativer Prozentsatz eine Auslage angibt. Lese-/Schreibzugriff auf Single.
 
 ```csharp
 public float StretchOffsetRight { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IPictureFillFormat](../../ipicturefillformat)
 * Namensraum [Aspose.Slides](../../ipicturefillformat)

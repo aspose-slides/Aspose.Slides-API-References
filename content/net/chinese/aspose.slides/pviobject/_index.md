@@ -1,7 +1,7 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes for .NET API Reference
-description: 封装可以成为属性值继承主题的对象的基本服务基础架构。
+second_title: Aspose.Slides for .NET API Reference
+description: 封装可以成为属性值继承主题的对象的基本服务基础设施。
 type: docs
 weight: 9000
 url: /zh/aspose.slides/pviobject/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/pviobject/
 
 ## PVIObject 类
 
-封装可以成为属性值继承主题的对象的基本服务基础架构。
+封装可以成为属性值继承主题的对象的基本服务基础设施。
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -19,14 +19,14 @@ public abstract class PVIObject : ISlideComponent
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本的 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。只读 [`IPresentationComponent`](../ipresentationcomponent)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象进行比较。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希代码。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
 ### 另见
 

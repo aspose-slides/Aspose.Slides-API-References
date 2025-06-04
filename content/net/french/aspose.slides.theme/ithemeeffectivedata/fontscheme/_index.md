@@ -1,7 +1,7 @@
 ---
 title: FontScheme
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie le schéma de polices. Données IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata en lecture seule.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie le schéma de police. Lecture seule IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/ithemeeffectivedata/fontscheme/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.theme/ithemeeffectivedata/fontscheme/
 
 ## Propriété IThemeEffectiveData.FontScheme
 
-Renvoie le schéma de polices. Données en lecture seule [`IFontSchemeEffectiveData`](../../ifontschemeeffectivedata).
+Renvoie le schéma de police. Lecture seule [`IFontSchemeEffectiveData`](../../ifontschemeeffectivedata).
 
 ```csharp
 public IFontSchemeEffectiveData FontScheme { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
 * interface [IThemeEffectiveData](../../ithemeeffectivedata)

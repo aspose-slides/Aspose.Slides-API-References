@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
-second_title: Aspose.Slides для .NET API Reference
-description: Служит хеш-функцией для определенного типа.
+second_title: Aspose.Slides для .NET API Справочник
+description: Служит в качестве хеш-функции для определенного типа.
 type: docs
 weight: 40
 url: /ru/aspose.slides.effects/softedge/gethashcode/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/softedge/gethashcode/
 
 ## SoftEdge.GetHashCode метод
 
-Служит хеш-функцией для определенного типа.
+Служит в качестве хеш-функции для определенного типа.
 
 ```csharp
 public override int GetHashCode()

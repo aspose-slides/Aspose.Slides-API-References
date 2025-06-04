@@ -1,7 +1,7 @@
 ---
 title: GetCell
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene la celda que puede ser utilizada para series de gráficos o categorías
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene la celda que puede ser utilizada para series o categorías de gráficos
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/ichartdataworkbook/getcell/
@@ -9,7 +9,7 @@ url: /es/aspose.slides.charts/ichartdataworkbook/getcell/
 
 ## GetCell(string, int, int) {#getcell_4}
 
-Obtiene la celda que puede ser utilizada para series de gráficos o categorías
+Obtiene la celda que puede ser utilizada para series o categorías de gráficos
 
 ```csharp
 public IChartDataCell GetCell(string worksheetName, int row, int column)
@@ -23,7 +23,7 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 
 ### Valor de Retorno
 
-Objeto Cell
+Objeto Celda
 
 ### Véase También
 
@@ -36,7 +36,7 @@ Objeto Cell
 
 ## GetCell(int, int, int) {#getcell}
 
-Obtiene la celda que puede ser utilizada para series de gráficos o categorías
+Obtiene la celda que puede ser utilizada para series o categorías de gráficos
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
@@ -50,7 +50,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 
 ### Valor de Retorno
 
-Objeto Cell
+Objeto Celda
 
 ### Véase También
 
@@ -63,7 +63,7 @@ Objeto Cell
 
 ## GetCell(int, string) {#getcell_2}
 
-Obtiene la celda que puede ser utilizada para series de gráficos o categorías
+Obtiene la celda que puede ser utilizada para series o categorías de gráficos
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
@@ -76,7 +76,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 
 ### Valor de Retorno
 
-Objeto Cell
+Objeto Celda
 
 ### Véase También
 
@@ -89,7 +89,7 @@ Objeto Cell
 
 ## GetCell(int, string, object) {#getcell_3}
 
-Obtiene la celda que puede ser utilizada para series de gráficos o categorías
+Obtiene la celda que puede ser utilizada para series o categorías de gráficos
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
@@ -103,7 +103,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 
 ### Valor de Retorno
 
-Objeto Cell
+Objeto Celda
 
 ### Véase También
 
@@ -116,7 +116,7 @@ Objeto Cell
 
 ## GetCell(int, int, int, object) {#getcell_1}
 
-Obtiene la celda que puede ser utilizada para series de gráficos o categorías
+Obtiene la celda que puede ser utilizada para series o categorías de gráficos
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
@@ -131,7 +131,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 
 ### Valor de Retorno
 
-Objeto Cell
+Objeto Celda
 
 ### Véase También
 

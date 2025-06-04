@@ -12,7 +12,7 @@ url: /es/aspose.slides/shapebevel/equals/
 public override bool Equals(object obj)
 ```
 
-### Véase también
+### Ver También
 
 * clase [ShapeBevel](../../shapebevel)
 * espacio de nombres [Aspose.Slides](../../shapebevel)

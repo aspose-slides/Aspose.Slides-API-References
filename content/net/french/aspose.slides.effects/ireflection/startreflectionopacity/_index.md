@@ -1,7 +1,7 @@
 ---
 title: StartReflectionOpacity
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Opacité de réflexion de départ. pourcentages. Lecture/écriture Single.
+second_title: Aspose.Slides pour .NET Référence API
+description: Opacité de réflexion de départ. pourcentages. Lecture/écriture Simple.
 type: docs
 weight: 160
 url: /fr/aspose.slides.effects/ireflection/startreflectionopacity/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/ireflection/startreflectionopacity/
 
 ## Propriété IReflection.StartReflectionOpacity
 
-Opacité de réflexion de départ. (pourcentages). Lecture/écriture Single.
+Opacité de réflexion de départ. (pourcentages). Lecture/écriture Simple.
 
 ```csharp
 public float StartReflectionOpacity { get; set; }

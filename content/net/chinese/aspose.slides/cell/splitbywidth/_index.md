@@ -1,6 +1,6 @@
 ---
 title: SplitByWidth
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 按宽度拆分单元格。
 type: docs
 weight: 280
@@ -19,7 +19,7 @@ public void SplitByWidth(double width)
 | --- | --- | --- |
 | width | Double | 列的宽度。 |
 
-### 参见
+### 另见
 
 * 类 [Cell](../../cell)
 * 命名空间 [Aspose.Slides](../../cell)

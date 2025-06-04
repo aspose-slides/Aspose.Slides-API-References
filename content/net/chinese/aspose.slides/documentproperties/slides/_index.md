@@ -1,7 +1,7 @@
 ---
 title: Slides
-second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文档中的幻灯片总数。只读 Int32。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回演示文稿文档中的幻灯片总数。只读 Int32。
 type: docs
 weight: 310
 url: /zh/aspose.slides/documentproperties/slides/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/documentproperties/slides/
 
 ## DocumentProperties.Slides 属性
 
-返回演示文档中的幻灯片总数。只读 Int32。
+返回演示文稿文档中的幻灯片总数。只读 Int32。
 
 ```csharp
 public int Slides { get; }

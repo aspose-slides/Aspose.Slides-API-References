@@ -1,21 +1,21 @@
 ---
 title: Speed
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Übergangsgeschwindigkeit an, die beim Übergang von der aktuellen Folie zur nächsten verwendet werden soll. Lese-Schreib TransitionSpeed aspose.slides.slideshow/transitionspeed.
+description: Gibt die Übergangsgeschwindigkeit an, die beim Übergang von der aktuellen Folie zur nächsten verwendet werden soll. Lese-Schreibe TransitionSpeedaspose.slides/../aspose.slides.slideshow/transitionspeed.
 type: docs
 weight: 90
 url: /de/aspose.slides/islideshowtransition/speed/
 ---
 
-## ISlideShowTransition.Speed-Eigenschaft
+## ISlideShowTransition.Speed Eigenschaft
 
-Gibt die Übergangsgeschwindigkeit an, die beim Übergang von der aktuellen Folie zur nächsten verwendet werden soll. Lese-Schreib [`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).
+Gibt die Übergangsgeschwindigkeit an, die beim Übergang von der aktuellen Folie zur nächsten verwendet werden soll. Lese-Schreibe [`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).
 
 ```csharp
 public TransitionSpeed Speed { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [TransitionSpeed](../../../aspose.slides.slideshow/transitionspeed)
 * interface [ISlideShowTransition](../../islideshowtransition)

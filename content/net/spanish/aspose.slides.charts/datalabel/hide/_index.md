@@ -1,15 +1,15 @@
 ---
 title: Hide
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Haga que la etiqueta de datos esté oculta configurando todas las flags de Show ShowValue, ... en estado falso. IsVisible será falso después de esto.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Hacer que la etiqueta de datos sea invisible configurando todas las banderas Show-flags ShowValue ... en estado falso. IsVisible será falso después de esto.
 type: docs
 weight: 200
 url: /es/aspose.slides.charts/datalabel/hide/
 ---
 
-## Método DataLabel.Hide
+## DataLabel.Hide método
 
-Haga que la etiqueta de datos esté oculta configurando todas las flags de Show (ShowValue, ...) en estado falso. IsVisible será falso después de esto.
+Hacer que la etiqueta de datos sea invisible configurando todas las banderas Show*-flags (ShowValue, ...) en estado falso. IsVisible será falso después de esto.
 
 ```csharp
 public void Hide()
@@ -17,12 +17,12 @@ public void Hide()
 
 ### Observaciones
 
-Si la etiqueta de datos no es visible (IsVisible es falso), puede hacer que la etiqueta de datos sea visible configurando las flags de Show (ShowValue, ...) en estado verdadero.
+Si la etiqueta de datos no es visible (IsVisible es falso), puede hacer que la etiqueta de datos sea visible configurando las banderas Show*-flags (ShowValue, ...) en estado verdadero.
 
-### Véase También
+### Ver También
 
-* clase [DataLabel](../../datalabel)
-* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
-* ensamblaje [Aspose.Slides](../../../)
+* clase [DataLabel](../../datalabel)
+* espacio de nombres [Aspose.Slides.Charts](../../datalabel)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

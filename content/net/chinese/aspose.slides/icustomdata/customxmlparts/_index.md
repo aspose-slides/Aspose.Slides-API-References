@@ -1,7 +1,7 @@
 ---
 title: CustomXmlParts
-second_title: Aspose.Slides for .NET API 参考
-description: 返回自定义 XML 部分集合。只读 ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回自定义 XML 部件集合。只读 ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection。
 type: docs
 weight: 10
 url: /zh/aspose.slides/icustomdata/customxmlparts/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icustomdata/customxmlparts/
 
 ## ICustomData.CustomXmlParts 属性
 
-返回自定义 XML 部分集合。只读 [`ICustomXmlPartCollection`](../../icustomxmlpartcollection)。
+返回自定义 XML 部件集合。只读 [`ICustomXmlPartCollection`](../../icustomxmlpartcollection)。
 
 ```csharp
 public ICustomXmlPartCollection CustomXmlParts { get; }
 ```
 
-### 参考
+### 另见
 
 * 接口 [ICustomXmlPartCollection](../../icustomxmlpartcollection)
 * 接口 [ICustomData](../../icustomdata)

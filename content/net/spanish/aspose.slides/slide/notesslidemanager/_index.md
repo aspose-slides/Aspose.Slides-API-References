@@ -1,7 +1,7 @@
 ---
 title: NotesSlideManager
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite acceder a las notas de la diapositiva, agregar y eliminar. Solo lectura INotesSlideManager aspose.slides/inotesslidemanager.
+description: Permite acceder a las diapositivas de notas, agregarlas y eliminarlas. Solo lectura INotesSlideManageraspose.slides/inotesslidemanager.
 type: docs
 weight: 40
 url: /es/aspose.slides/slide/notesslidemanager/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/slide/notesslidemanager/
 
 ## Propiedad Slide.NotesSlideManager
 
-Permite acceder a las notas de la diapositiva, agregar y eliminar. Solo lectura [`INotesSlideManager`](../../inotesslidemanager).
+Permite acceder a las diapositivas de notas, agregarlas y eliminarlas. Solo lectura [`INotesSlideManager`](../../inotesslidemanager).
 
 ```csharp
 public INotesSlideManager NotesSlideManager { get; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [INotesSlideManager](../../inotesslidemanager)
 * clase [Slide](../../slide)

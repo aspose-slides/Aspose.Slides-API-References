@@ -1,6 +1,6 @@
 ---
 title: SizeLocked
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Determina si se prohíbe cambiar el tamaño de esta forma. Booleano de lectura/escritura.
 type: docs
 weight: 70
@@ -19,6 +19,6 @@ public bool SizeLocked { get; set; }
 
 * interfaz [IGroupShapeLock](../../igroupshapelock)
 * espacio de nombres [Aspose.Slides](../../igroupshapelock)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: RotationLocked
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob das Ändern des Drehwinkels dieser Form verboten ist. Lese-/Schreible boolean.
+description: Bestimmt, ob das Ändern des Rotationswinkels dieser Form verboten ist. Lese-/Schreib-Boolean.
 type: docs
 weight: 40
 url: /de/aspose.slides/groupshapelock/rotationlocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/groupshapelock/rotationlocked/
 
 ## GroupShapeLock.RotationLocked-Eigenschaft
 
-Bestimmt, ob das Ändern des Drehwinkels dieser Form verboten ist. Lese-/Schreible boolean.
+Bestimmt, ob das Ändern des Rotationswinkels dieser Form verboten ist. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool RotationLocked { get; set; }

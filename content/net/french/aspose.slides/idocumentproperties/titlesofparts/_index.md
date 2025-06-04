@@ -1,7 +1,7 @@
 ---
 title: TitlesOfParts
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie le titre de chaque partie du document. Ces parties ne sont pas des parties de document mais des représentations conceptuelles des sections du document. Chaîne en lecture seule.
+second_title: Aspose.Slides pour la référence API .NET
+description: Spécifie le titre de chaque partie du document. Ces parties ne sont pas des parties du document mais des représentations conceptuelles des sections du document. Chaîne en lecture seule.
 type: docs
 weight: 330
 url: /fr/aspose.slides/idocumentproperties/titlesofparts/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/idocumentproperties/titlesofparts/
 
 ## Propriété IDocumentProperties.TitlesOfParts
 
-Spécifie le titre de chaque partie du document. Ces parties ne sont pas des parties de document mais des représentations conceptuelles des sections du document. tableau de chaînes en lecture seule[].
+Spécifie le titre de chaque partie du document. Ces parties ne sont pas des parties du document mais des représentations conceptuelles des sections du document. Chaîne en lecture seule[].
 
 ```csharp
 public string[] TitlesOfParts { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IDocumentProperties](../../idocumentproperties)
 * namespace [Aspose.Slides](../../idocumentproperties)

@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadStyle
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Pfeilspitzenstil am Anfang einer Linie zurück oder legt ihn fest. Lese-/Schreibzugriff auf LineArrowheadStyleaspose.slides/linearrowheadstyle.
+second_title: Aspose.Slid es für .NET API Referenz
+description: Gibt den Pfeilspitzenstil am Anfang einer Linie zurück oder setzt ihn. Lesen/Schreiben von LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 30
 url: /de/aspose.slides/lineformat/beginarrowheadstyle/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/lineformat/beginarrowheadstyle/
 
 ## LineFormat.BeginArrowheadStyle-Eigenschaft
 
-Gibt den Pfeilspitzenstil am Anfang einer Linie zurück oder legt ihn fest. Lese-/Schreibzugriff auf [`LineArrowheadStyle`](../../linearrowheadstyle).
+Gibt den Pfeilspitzenstil am Anfang einer Linie zurück oder setzt ihn. Lesen/Schreiben von [`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle BeginArrowheadStyle { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [LineArrowheadStyle](../../linearrowheadstyle)
 * class [LineFormat](../../lineformat)

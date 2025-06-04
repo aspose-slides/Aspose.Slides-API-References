@@ -1,6 +1,6 @@
 ---
 title: MemoryFonts
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Una colección de fuentes representadas como arreglos de bytes.
 type: docs
 weight: 30

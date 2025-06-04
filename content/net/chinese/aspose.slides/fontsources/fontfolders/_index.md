@@ -1,21 +1,21 @@
 ---
 title: FontFolders
-second_title: Aspose.Slides for .NET API 参考
-description: 包含字体文件的文件夹。所有位于这些文件夹中的字体文件都包含在集合中。递归搜索的文件夹。
+second_title: Aspose.Sildes for .NET API Reference
+description: 包含字体文件的文件夹。这些文件夹中所有的字体文件都被包含在集合中。递归搜索的文件夹。
 type: docs
 weight: 20
 url: /zh/aspose.slides/fontsources/fontfolders/
 ---
 
-## FontSources.FontFolders 属性
+## FontSources.FontFolders property
 
-包含字体文件的文件夹。所有位于这些文件夹中的字体文件都包含在集合中。递归搜索的文件夹。
+包含字体文件的文件夹。这些文件夹中所有的字体文件都被包含在集合中。递归搜索的文件夹。
 
 ```csharp
 public string[] FontFolders { get; set; }
 ```
 
-### 参见
+### See Also
 
 * class [FontSources](../../fontsources)
 * namespace [Aspose.Slides](../../fontsources)

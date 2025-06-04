@@ -1,7 +1,7 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt eine Sammlung von Portions dar.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt eine Sammlung von Portionen dar.
 type: docs
 weight: 6510
 url: /de/aspose.slides/iportioncollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iportioncollection/
 
 ## IPortionCollection-Schnittstelle
 
-Stellt eine Sammlung von Portions dar.
+Stellt eine Sammlung von Portionen dar.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,7 +19,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Gibt die IEnumerable-Schnittstelle zurück. Nur lesbare IEnumerable. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Gibt das IEnumerable-Interface zurück. Nur lesbares IEnumerable. |
 | [Count](../../aspose.slides/iportioncollection/count) { get; } | Gibt die Anzahl der tatsächlich in der Sammlung enthaltenen Elemente zurück. Nur lesbares Int32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Gibt das Element am angegebenen Index zurück. |
 
@@ -29,9 +29,9 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Fügt eine Portion am Ende der Sammlung hinzu. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Entfernt alle Elemente aus der Sammlung. |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Bestimmt, ob ICollection einen bestimmten Wert enthält. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Bestimmt, ob die ICollection einen bestimmten Wert enthält. |
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Bestimmt den Index einer bestimmten Portion in der Sammlung. |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Fügt eine Portion an dem angegebenen Index in die Sammlung ein. |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Fügt eine Portion an der angegebenen Stelle in die Sammlung ein. |
 | [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Entfernt die erste Vorkommen eines bestimmten Objekts aus der ICollection. |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Entfernt das Element am angegebenen Index der Sammlung. |
 

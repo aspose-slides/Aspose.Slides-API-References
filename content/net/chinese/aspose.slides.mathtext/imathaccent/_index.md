@@ -1,7 +1,7 @@
 ---
 title: IMathAccent
 second_title: Aspose.Slides for .NET API Reference
-description: 指定由一个基底和一个组合的变音符号组成的音调功能示例 ́
+description: 指定由基底和组合变音符组成的重音功能 示例 ́
 type: docs
 weight: 7830
 url: /zh/aspose.slides.mathtext/imathaccent/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathaccent/
 
 ## IMathAccent 接口
 
-指定音调功能，由一个基底和一个组合的变音符号组成示例: 𝑎́
+指定重音功能，包括基底和组合变音符 示例: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -20,8 +20,8 @@ public interface IMathAccent : IMathElement
 | 名称 | 描述 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | 允许获取基底 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | 应用变音符号的参数 |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | 变音符号字符 值应在 (U+0300–U+036F) 或 (U+20D0–U+20EF) 的范围内 默认值：组合抑扬符 (U+0302) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | 重音应用的参数 |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | 重音字符 值应该在 (U+0300–U+036F) 或 (U+20D0–U+20EF) 范围内 默认值: 组合抑扬音符 (U+0302) |
 
 ### 示例
 
@@ -32,7 +32,7 @@ public interface IMathAccent : IMathElement
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../imathelement)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

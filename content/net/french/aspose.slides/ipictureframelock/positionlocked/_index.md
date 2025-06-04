@@ -1,6 +1,6 @@
 ---
 title: PositionLocked
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture.
 type: docs
 weight: 80

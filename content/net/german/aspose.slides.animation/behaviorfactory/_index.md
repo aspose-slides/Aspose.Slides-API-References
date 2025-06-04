@@ -7,7 +7,7 @@ weight: 100
 url: /de/aspose.slides.animation/behaviorfactory/
 ---
 
-## BehaviorFactory-Klasse
+## BehaviorFactory Klasse
 
 Ermöglicht das Erstellen von Animationseffekten
 
@@ -25,20 +25,20 @@ public class BehaviorFactory : IBehaviorFactory
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Erstellt einen Farbeffekt. |
-| [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Erstellt einen Befehls-Effekt. |
-| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Erstellt einen Filtereffekt. |
-| [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Erstellt einen Bewegungseffekt. |
-| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Erstellt einen Eigenschaften-Effekt. |
-| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Erstellt einen Rotationseffekt. |
-| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Erstellt einen Skaleneffekt. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Erstellt einen Setzeffekt. |
+| [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Erstellt Farbeffekt. |
+| [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Erstellt Befehlseffekt. |
+| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Erstellt Filtereffekt. |
+| [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Erstellt Bewegungseffekt. |
+| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Erstellt Eigenschaften-Effekt. |
+| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Erstellt Rotations-Effekt. |
+| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Erstellt Skalierungseffekt. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Erstellt Set-Effekt. |
 
-### Anmerkungen
+### Bemerkungen
 
-Für COM-Kompatibilität.
+Für die COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IBehaviorFactory](../ibehaviorfactory)
 * Namensraum [Aspose.Slides.Animation](../../aspose.slides.animation)

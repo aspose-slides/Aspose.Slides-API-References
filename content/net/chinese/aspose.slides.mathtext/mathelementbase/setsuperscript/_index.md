@@ -1,6 +1,6 @@
 ---
 title: SetSuperscript
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建上标
 type: docs
 weight: 160
@@ -15,17 +15,17 @@ url: /zh/aspose.slides.mathtext/mathelementbase/setsuperscript/
 public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 ```
 
-| 参数        | 类型          | 描述                    |
-| ----------- | ------------- | ----------------------- |
-| superscript | IMathElement  | 上标（右侧的上标）     |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| superscript | IMathElement | 上标（右侧的上标） |
 
 ### 返回值
 
-新创建的数学元素，类型为 [`IMathSuperscriptElement`](../../imathsuperscriptelement)
+新数学元素类型为 [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ IMathElement index = new MathematicalText("4");
 IMathSuperscriptElement superscript = element.SetSuperscript(index);
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathSuperscriptElement](../../imathsuperscriptelement)
 * 接口 [IMathElement](../../imathelement)
@@ -52,17 +52,17 @@ IMathSuperscriptElement superscript = element.SetSuperscript(index);
 public IMathSuperscriptElement SetSuperscript(string superscript)
 ```
 
-| 参数        | 类型          | 描述                    |
-| ----------- | ------------- | ----------------------- |
-| superscript | String        | 上标（右侧的上标）     |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| superscript | String | 上标（右侧的上标） |
 
 ### 返回值
 
-新创建的数学元素，类型为 [`IMathSuperscriptElement`](../../imathsuperscriptelement)
+新数学元素类型为 [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ IMathElement element = new MathematicalText("N");
 IMathSuperscriptElement superscript = element.SetSuperscript("4");
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IMathSuperscriptElement](../../imathsuperscriptelement)
 * 类 [MathElementBase](../../mathelementbase)

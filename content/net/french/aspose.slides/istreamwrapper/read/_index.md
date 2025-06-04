@@ -1,15 +1,15 @@
 ---
 title: Read
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Lit une séquence d'octets à partir du flux actuel et avance la position dans le flux d'un nombre d'octets lu.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Lit une séquence d'octets à partir du flux actuel et fait avancer la position dans le flux par le nombre d'octets lus.
 type: docs
 weight: 100
 url: /fr/aspose.slides/istreamwrapper/read/
 ---
 
-## Méthode IStreamWrapper.Read
+## IStreamWrapper.Read méthode
 
-Lit une séquence d'octets à partir du flux actuel et avance la position dans le flux d'un nombre d'octets lu.
+Lit une séquence d'octets à partir du flux actuel et fait avancer la position dans le flux par le nombre d'octets lus.
 
 ```csharp
 public void Read(byte[] buffer, int offset, int count)

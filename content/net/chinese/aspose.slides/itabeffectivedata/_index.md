@@ -1,7 +1,7 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 不可变对象，包含有效文本制表符停靠属性。
+description: 表示包含有效文本制表位属性的不可变对象。
 type: docs
 weight: 6990
 url: /zh/aspose.slides/itabeffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itabeffectivedata/
 
 ## ITabEffectiveData 接口
 
-不可变对象，包含有效文本的制表符停靠属性。
+表示包含有效文本制表位属性的不可变对象。
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -19,15 +19,15 @@ public interface ITabEffectiveData : IComparable
 
 | 名称 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | 返回制表符的对齐样式。只读 [`TabAlignment`](../tabalignment)。 |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | 返回制表位的对齐样式。只读 [`TabAlignment`](../tabalignment)。 |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | 返回 IComparable 接口。只读 IComparable。 |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | 返回制表符的位置。分配此属性可能会更改集合中的制表符索引并使枚举器无效。只读 Double。 |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | 返回制表位的位置。赋值此属性可能会更改集合中制表位的索引并使枚举器失效。只读 Double。 |
 
 ### 备注
 
 此接口作为 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 的一部分使用。
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

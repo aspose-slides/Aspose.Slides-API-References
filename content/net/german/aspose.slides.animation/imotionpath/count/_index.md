@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Anzahl der Pfade in der Sammlung zurück. Schreibgeschütztes Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Anzahl der Pfade in der Sammlung zurück. Nur-Lese-Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/imotionpath/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/imotionpath/count/
 
 ## IMotionPath.Count-Eigenschaft
 
-Gibt die Anzahl der Pfade in der Sammlung zurück. Schreibgeschütztes Int32.
+Gibt die Anzahl der Pfade in der Sammlung zurück. Nur-Lese-Int32.
 
 ```csharp
 public int Count { get; }

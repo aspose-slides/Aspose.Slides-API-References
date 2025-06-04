@@ -7,7 +7,7 @@ weight: 30
 url: /es/aspose.slides/loadoptions/defaultasianfont/
 ---
 
-## Propiedad LoadOptions.DefaultAsianFont
+## LoadOptions.DefaultAsianFont property
 
 Devuelve o establece la fuente asiática utilizada en caso de que no se encuentre la fuente de origen. Lectura/escritura String.
 
@@ -15,10 +15,10 @@ Devuelve o establece la fuente asiática utilizada en caso de que no se encuentr
 public string DefaultAsianFont { get; set; }
 ```
 
-### Véase también
+### Ver También
 
-* clase [LoadOptions](../../loadoptions)
-* espacio de nombres [Aspose.Slides](../../loadoptions)
-* ensamblaje [Aspose.Slides](../../../)
+* class [LoadOptions](../../loadoptions)
+* namespace [Aspose.Slides](../../loadoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

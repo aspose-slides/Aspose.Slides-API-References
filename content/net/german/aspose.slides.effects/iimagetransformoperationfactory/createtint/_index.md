@@ -1,6 +1,6 @@
 ---
 title: CreateTint
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Erstellt den Tint-Effekt.
 type: docs
 weight: 170

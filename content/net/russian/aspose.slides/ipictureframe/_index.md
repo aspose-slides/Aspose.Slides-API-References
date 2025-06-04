@@ -1,7 +1,7 @@
 ---
 title: IPictureFrame
 second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет собой рамку с изображением внутри.
+description: Представляет рамку с изображением внутри.
 type: docs
 weight: 6470
 url: /ru/aspose.slides/ipictureframe/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ipictureframe/
 
 ## Интерфейс IPictureFrame
 
-Представляет собой рамку с изображением внутри.
+Представляет рамку с изображением внутри.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -17,16 +17,16 @@ public interface IPictureFrame : IGeometryShape
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Возвращает объект PictureFillFormat для рамки с изображением. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Возвращает блокировки рамки с изображением. Только для чтения [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Возвращает или устанавливает масштаб высоты (по отношению к оригинальному размеру изображения) рамки с изображением. Значение 1.0 соответствует 100%. Чтение/запись Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Возвращает или устанавливает масштаб ширины (по отношению к оригинальному размеру изображения) рамки с изображением. Значение 1.0 соответствует 100%. Чтение/запись Single. |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Возвращает объект PictureFillFormat для рамки изображения. Только для чтения [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Возвращает блокировки рамки изображения. Только для чтения [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Возвращает или задает масштаб высоты (относительно исходного размера изображения) рамки изображения. Значение 1.0 соответствует 100%. Чтение/запись Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Возвращает или задает масштаб ширины (относительно исходного размера изображения) рамки изображения. Значение 1.0 соответствует 100%. Чтение/запись Single. |
 | [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Возвращает блокировки формы. Только для чтения [`IPictureFrameLock`](../ipictureframelock). |
 
-### См. также
+### Смотрите также
 
 * интерфейс [IGeometryShape](../igeometryshape)
 * пространство имен [Aspose.Slides](../../aspose.slides)

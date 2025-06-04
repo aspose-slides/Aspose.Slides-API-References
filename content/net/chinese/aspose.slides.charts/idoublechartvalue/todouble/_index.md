@@ -1,7 +1,7 @@
 ---
 title: ToDouble
-second_title: Aspose.Slides for .NET API Reference
-description: 转换为 double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 转换为双精度浮点数。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/idoublechartvalue/todouble/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/idoublechartvalue/todouble/
 
 ## IDoubleChartValue.ToDouble 方法
 
-转换为 double。
+转换为双精度浮点数。
 
 ```csharp
 public double ToDouble()
@@ -17,9 +17,9 @@ public double ToDouble()
 
 ### 返回值
 
-双精度值。
+双精度浮点数值。
 
-### 参见
+### 另请参阅
 
 * 接口 [IDoubleChartValue](../../idoublechartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../idoublechartvalue)

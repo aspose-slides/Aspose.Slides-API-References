@@ -1,6 +1,6 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Slides для .NET API Ссылки
+second_title: Aspose.Sildes для .NET API Справка
 description: Представляет коллекцию IChartSeries./ichartseries
 type: docs
 weight: 1860
@@ -25,13 +25,13 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Создает новую серию графика и добавляет ее в коллекцию. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Создает новую серию графика из [`IChartCellCollection`](../ichartcellcollection) и добавляет ее в коллекцию. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Создает новую серию графика из [`IChartDataCell`](../ichartdatacell) и добавляет ее в коллекцию. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Создает новую серию графика из значения и добавляет ее в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Создает новую серию графиков и добавляет ее в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Создает новую серию графиков из [`IChartCellCollection`](../ichartcellcollection) и добавляет ее в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Создает новую серию графиков из [`IChartDataCell`](../ichartdatacell) и добавляет ее в коллекцию. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Создает новую серию графиков из значения и добавляет ее в коллекцию. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Удаляет все элементы (включая стиль графика) из коллекции. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Ищет указанную [`IChartSeries`](../ichartseries) и возвращает нулевой индекс первого вхождения в коллекцию. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Создает новую серию графика и вставляет ее в коллекцию. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Находит указанную [`IChartSeries`](../ichartseries) и возвращает индекс первого вхождения в коллекции, начиная с нуля. |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Создает новую серию графиков и вставляет ее в коллекцию. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Удаляет указанное значение. |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Удаляет элемент по указанному индексу |
 

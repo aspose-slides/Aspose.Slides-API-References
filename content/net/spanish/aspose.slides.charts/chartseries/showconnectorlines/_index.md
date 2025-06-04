@@ -1,7 +1,7 @@
 ---
 title: ShowConnectorLines
-second_title: Aspose.Slides para referencia de API de .NET
-description: Representa líneas de conexión. Se aplica solo a gráficos de tipo Waterfall.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Representa líneas de conexión. Se aplica únicamente a gráficos de cascada.
 type: docs
 weight: 370
 url: /es/aspose.slides.charts/chartseries/showconnectorlines/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.charts/chartseries/showconnectorlines/
 
 ## Propiedad ChartSeries.ShowConnectorLines
 
-Representa líneas de conexión. Se aplica solo a gráficos de tipo Waterfall.
+Representa líneas de conexión. Se aplica únicamente a gráficos de cascada.
 
 ```csharp
 public bool ShowConnectorLines { get; set; }
 ```
 
-### Ver También
+### Vea También
 
 * clase [ChartSeries](../../chartseries)
 * espacio de nombres [Aspose.Slides.Charts](../../chartseries)

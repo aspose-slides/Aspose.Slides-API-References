@@ -1,13 +1,13 @@
 ---
 title: Formula
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET Справочник по API
 description: Получает или задает формулу в стиле A1.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/chartdatacell/formula/
 ---
 
-## Свойство ChartDataCell.Formula
+## ChartDataCell.Formula property
 
 Получает или задает формулу в стиле A1.
 

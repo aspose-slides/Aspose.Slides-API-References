@@ -15,7 +15,7 @@ url: /zh/aspose.slides.export/pdfoptions/inkoptions/
 public IInkOptions InkOptions { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IInkOptions](../../iinkoptions)
 * 类 [PdfOptions](../../pdfoptions)

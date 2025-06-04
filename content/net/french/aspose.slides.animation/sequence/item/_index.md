@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne un effet à l'index spécifié.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Renvoie un effet à l'index spécifié.
 type: docs
 weight: 20
 url: /fr/aspose.slides.animation/sequence/item/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.animation/sequence/item/
 
 ## Indexeur de séquence
 
-Retourne un effet à l'index spécifié.
+Renvoie un effet à l'index spécifié.
 
 ```csharp
 public IEffect this[int index] { get; }

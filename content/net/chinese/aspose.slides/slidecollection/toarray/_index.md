@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 创建并返回包含所有幻灯片的数组。
+description: 创建并返回一个包含所有幻灯片的数组。
 type: docs
 weight: 180
 url: /zh/aspose.slides/slidecollection/toarray/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/slidecollection/toarray/
 
 ## ToArray() {#toarray}
 
-创建并返回包含所有幻灯片的数组。
+创建并返回一个包含所有幻灯片的数组。
 
 ```csharp
 public ISlide[] ToArray()
@@ -19,7 +19,7 @@ public ISlide[] ToArray()
 
 [`Slide`](../../slide) 的数组
 
-### 另请参阅
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 类 [SlideCollection](../../slidecollection)
@@ -30,7 +30,7 @@ public ISlide[] ToArray()
 
 ## ToArray(int, int) {#toarray_1}
 
-创建并返回包含指定范围内所有幻灯片的数组。要添加的第一张幻灯片的索引。要添加的幻灯片数量。
+创建并返回一个包含指定范围内所有幻灯片的数组。要添加的第一个幻灯片的索引。要添加的幻灯片数量。
 
 ```csharp
 public ISlide[] ToArray(int startIndex, int count)
@@ -40,7 +40,7 @@ public ISlide[] ToArray(int startIndex, int count)
 
 [`Slide`](../../slide) 的数组
 
-### 另请参阅
+### 另见
 
 * 接口 [ISlide](../../islide)
 * 类 [SlideCollection](../../slidecollection)

@@ -1,15 +1,15 @@
 ---
 title: OptionalBlackTransition
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Effet de transition facultatif de diapositive noire.
+description: Effet de transition optionnelle de diapositive noire.
 type: docs
 weight: 9950
 url: /fr/aspose.slides.slideshow/optionalblacktransition/
 ---
 
-## Classe OptionalBlackTransition
+## OptionalBlackTransition class
 
-Effet de transition facultatif de diapositive noire.
+Effet de transition optionnelle de diapositive noire.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -19,14 +19,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Nom | Description |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Cet attribut spécifie si la transition commencera par un écran noir (puis passera à la nouvelle diapositive sur noir). Lecture/écriture booléenne. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Cet attribut spécifie si la transition commencera à partir d'un écran noir (puis transférera la nouvelle diapositive sur du noir). Lecture/écriture Booléen. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Détermine si les deux instances de TransitionValueBase sont égales. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Servit de fonction de hachage pour un type particulier, approprié pour une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Sert de fonction de hachage pour un type particulier, adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage. |
 
 ### Voir aussi
 

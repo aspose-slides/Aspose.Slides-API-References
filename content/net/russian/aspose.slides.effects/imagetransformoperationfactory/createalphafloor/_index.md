@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/imagetransformoperationfactory/createalphafloor/
 public IAlphaFloor CreateAlphaFloor()
 ```
 
-### Возвращаемое значение
+### Значение возврата
 
 Эффект Alpha floor.
 

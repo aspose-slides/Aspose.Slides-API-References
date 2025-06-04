@@ -1,6 +1,6 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Unveränderliches Objekt, das einen inneren Schatteneffekt darstellt.
 type: docs
 weight: 3310
@@ -19,13 +19,13 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-IEffectEffectiveData-Schnittstelle. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Ermöglicht den Zugriff auf die Basis-Schnittstelle IEffectEffectiveData. Nur lesbar [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Unschärferadius. Nur lesbar Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Richtung des Schattens. Nur lesbar Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Entfernung des Schattens. Nur lesbar Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Farbe des Schattens. Nur lesbar Color. |
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IEffectEffectiveData](../ieffecteffectivedata)
 * Namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

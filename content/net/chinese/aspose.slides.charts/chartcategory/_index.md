@@ -7,7 +7,7 @@ weight: 1190
 url: /zh/aspose.slides.charts/chartcategory/
 ---
 
-## ChartCategory 类
+## ChartCategory class
 
 表示图表类别。
 
@@ -19,19 +19,19 @@ public class ChartCategory : IChartCategory
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 返回或设置 IChartDataCell 对象。如果类别是多级的，则使用级别“0”的 IChartDataCell 对象。读/写 [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | 返回或设置 AsLiteral 对象。读/写对象。 |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 管理图表类别分组级别值的容器。多级类别包含多个分组级别。分组级别的索引为零基。只读 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | 如果为 true，则 AsCell 属性有效。换句话说，工作表用于存储类别（这种情况下支持多级类别）。如果为 false，则 AsLiteral 属性有效。换句话说，工作表不用于存储类别（并且这种情况下不支持多级类别）。只读布尔值。 |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | 如果 UseCell 为 true，则此属性表示 AsCell.Value 属性。如果 UseCell 为 false，则此属性表示 AsLiteral 属性。读/写对象。 |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 返回或设置 IChartDataCell 对象。如果类别是多层次的，则使用 IChartDataCell 对象作为层级 "0"。可读/可写 [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | 返回或设置 AsLiteral 对象。可读/可写对象。 |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 图表类别分组层级值的托管容器。多层类别包含多个分组层级。分组层级索引是以零为基础的。只读 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | 如果为 true，则 AsCell 属性有效。换句话说，工作表用于存储类别（在这种情况下支持多层类别）。如果为 false，则 AsLiteral 属性有效。换句话说，工作表不用于存储类别（并且这个情况不支持多层类别）。只读布尔值。 |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | 如果 UseCell 为 true，则该属性表示 AsCell.Value 属性。如果 UseCell 为 false，则该属性表示 AsLiteral 属性。可读/可写对象。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | 从图表中删除类别。 |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | 从图表中移除类别。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IChartCategory](../ichartcategory)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

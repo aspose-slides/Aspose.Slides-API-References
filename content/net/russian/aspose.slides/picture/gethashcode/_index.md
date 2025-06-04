@@ -1,6 +1,6 @@
 ---
 title: GetHashCode
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает хеш.
 type: docs
 weight: 80

@@ -1,7 +1,7 @@
 ---
 title: ImageDataBlacklevel
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die imageData.blacklevel-Eigenschaft dar
+description: Stellt die Eigenschaft imageData.blacklevel dar
 type: docs
 weight: 420
 url: /de/aspose.slides.animation/behaviorproperty/imagedatablacklevel/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/imagedatablacklevel/
 
 ## BehaviorProperty.ImageDataBlacklevel-Eigenschaft
 
-Stellt die 'imageData.blacklevel'-Eigenschaft dar
+Stellt die Eigenschaft 'imageData.blacklevel' dar
 
 ```csharp
 public static BehaviorProperty ImageDataBlacklevel { get; }

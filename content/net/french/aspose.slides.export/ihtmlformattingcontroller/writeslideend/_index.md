@@ -1,7 +1,7 @@
 ---
 title: WriteSlideEnd
-second_title: Référence API Aspose.Slides pour .NET
-description: Appelé pour écrire le pied de page html de la diapositive. Appelé une fois pour chacune des diapositives.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Appelé pour écrire le pied de page HTML de la diapositive. Appelé une fois par diapositive.
 type: docs
 weight: 50
 url: /fr/aspose.slides.export/ihtmlformattingcontroller/writeslideend/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/ihtmlformattingcontroller/writeslideend/
 
 ## Méthode IHtmlFormattingController.WriteSlideEnd
 
-Appelé pour écrire le pied de page html de la diapositive. Appelé une fois pour chacune des diapositives.
+Appelé pour écrire le pied de page HTML de la diapositive. Appelé une fois par diapositive.
 
 ```csharp
 public void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
@@ -18,7 +18,7 @@ public void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | generator | IHtmlGenerator | Objet de sortie. |
-| slide | ISlide | Diapositive qui est actuellement rendue. |
+| slide | ISlide | Diapositive actuellement rendue. |
 
 ### Voir aussi
 

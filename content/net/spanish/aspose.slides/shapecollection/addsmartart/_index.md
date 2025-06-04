@@ -1,7 +1,7 @@
 ---
 title: AddSmartArt
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Agregar diagrama SmartArt.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Agregar un diagrama SmartArt.
 type: docs
 weight: 180
 url: /es/aspose.slides/shapecollection/addsmartart/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapecollection/addsmartart/
 
 ## Método ShapeCollection.AddSmartArt
 
-Agregar diagrama SmartArt.
+Agregar un diagrama SmartArt.
 
 ```csharp
 public ISmartArt AddSmartArt(float x, float y, float width, float height, 
@@ -26,11 +26,11 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 ### Valor de Retorno
 
-Crea diagrama SmartArt.
+Crear un diagrama SmartArt
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo agregar una forma inteligente en la presentación de PowerPoint.
+El siguiente ejemplo muestra cómo agregar una forma inteligente en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -43,10 +43,10 @@ using (Presentation pres = new Presentation())
 
 ### Ver También
 
-* interface [ISmartArt](../../../aspose.slides.smartart/ismartart)
+* interfaz [ISmartArt](../../../aspose.slides.smartart/ismartart)
 * enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype)
-* class [ShapeCollection](../../shapecollection)
-* namespace [Aspose.Slides](../../shapecollection)
-* assembly [Aspose.Slides](../../../)
+* clase [ShapeCollection](../../shapecollection)
+* espacio de nombres [Aspose.Slides](../../shapecollection)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

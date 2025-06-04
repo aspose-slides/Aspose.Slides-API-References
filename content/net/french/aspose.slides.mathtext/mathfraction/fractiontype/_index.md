@@ -1,15 +1,15 @@
 ---
 title: FractionType
-second_title: Référence API Aspose.Slides pour .NET
-description: Type de fraction Par défaut  Bar
+second_title: Aspose.Slides pour .NET API Référence
+description: Type fraction Par défaut  Barre
 type: docs
 weight: 30
 url: /fr/aspose.slides.mathtext/mathfraction/fractiontype/
 ---
 
-## Propriété MathFraction.FractionType
+## MathFraction.FractionType propriété
 
-Type de fraction Par défaut : Bar
+Type fraction Par défaut : Barre
 
 ```csharp
 public MathFractionTypes FractionType { get; set; }
@@ -17,7 +17,7 @@ public MathFractionTypes FractionType { get; set; }
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]

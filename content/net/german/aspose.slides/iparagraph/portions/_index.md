@@ -1,7 +1,7 @@
 ---
 title: Portions
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sammlung von Textabschnitten zurück. Nur-Lese IPortionCollectionaspose.slides/iportioncollection.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Sammlung von Textteilen zurück. Nur-Lese IPortionCollection aspose.slides/iportioncollection.
 type: docs
 weight: 40
 url: /de/aspose.slides/iparagraph/portions/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iparagraph/portions/
 
 ## IParagraph.Portions-Eigenschaft
 
-Gibt die Sammlung von Textabschnitten zurück. Nur-Lese [`IPortionCollection`](../../iportioncollection).
+Gibt die Sammlung von Textteilen zurück. Nur-Lese [`IPortionCollection`](../../iportioncollection).
 
 ```csharp
 public IPortionCollection Portions { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPortionCollection](../../iportioncollection)
 * Schnittstelle [IParagraph](../../iparagraph)

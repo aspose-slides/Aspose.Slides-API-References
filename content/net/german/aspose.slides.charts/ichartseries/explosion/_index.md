@@ -1,7 +1,7 @@
 ---
 title: Explosion
-second_title: Aspose.Slides für .NET API-Referenz
-description: Der Abstand eines offenen Tortenschnitts vom Zentrum des Tortendiagramms wird als Prozentsatz des Tortendurchmessers ausgedrückt. Lesen/Schreiben Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Der Abstand eines offenen Tortenschnitts vom Zentrum des Tortendiagramms wird als Prozentsatz des Tortendurchmessers ausgedrückt. Lese-/Schreibzugriff Int32.
 type: docs
 weight: 90
 url: /de/aspose.slides.charts/ichartseries/explosion/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartseries/explosion/
 
 ## IChartSeries.Explosion-Eigenschaft
 
-Der Abstand eines offenen Tortenschnitts vom Zentrum des Tortendiagramms wird als Prozentsatz des Tortendurchmessers ausgedrückt. Lesen/Schreiben Int32.
+Der Abstand eines offenen Tortenschnitts vom Zentrum des Tortendiagramms wird als Prozentsatz des Tortendurchmessers ausgedrückt. Lese-/Schreibzugriff Int32.
 
 ```csharp
 public int Explosion { get; set; }

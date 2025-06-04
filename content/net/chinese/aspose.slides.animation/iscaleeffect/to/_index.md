@@ -1,6 +1,6 @@
 ---
 title: To
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 指定动画缩放效果的目标位置（以百分比表示）。可读写 PointF。
 type: docs
 weight: 40

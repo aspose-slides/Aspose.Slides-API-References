@@ -1,15 +1,15 @@
 ---
 title: AddTextFrame
-second_title: Référence API Aspose.Slides pour .NET
-description: Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, il change simplement son texte.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, elle change simplement son texte.
 type: docs
 weight: 60
 url: /fr/aspose.slides/autoshape/addtextframe/
 ---
 
-## Méthode AutoShape.AddTextFrame
+## AutoShape.AddTextFrame méthode
 
-Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, il change simplement son texte.
+Ajoute un nouveau TextFrame à une forme. Si la forme a déjà un TextFrame, elle change simplement son texte.
 
 ```csharp
 public ITextFrame AddTextFrame(string text)
@@ -21,7 +21,7 @@ public ITextFrame AddTextFrame(string text)
 
 ### Exemples
 
-Le code d'exemple suivant montre comment ajouter du texte en filigrane dans une présentation PowerPoint.
+Le code d'exemple suivant montre comment ajouter un texte de filigrane dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -40,9 +40,9 @@ L'exemple suivant montre comment créer une zone de texte sur une diapositive.
 // Instancie la présentation
 using (Presentation pres = new Presentation())
 {
-    // Obtient la première diapositive dans la présentation
+    // Obtient la première diapositive de la présentation
     ISlide sld = pres.Slides[0];
-    // Ajoute une AutoShape avec type défini comme Rectangle
+    // Ajoute une AutoShape avec le type défini comme Rectangle
     IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
     // Ajoute un TextFrame au Rectangle
     ashp.AddTextFrame(" ");
@@ -52,9 +52,9 @@ using (Presentation pres = new Presentation())
     IParagraph para = txtFrame.Paragraphs[0];
     // Crée un objet Portion pour le paragraphe
     IPortion portion = para.Portions[0];
-    // Définie le texte
+    // Définit le texte
     portion.Text = "Aspose TextBox";
-    // Enregistre la présentation sur le disque
+    // Sauvegarde la présentation sur disque
     pres.Save("TextBox_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 }
 ```
@@ -65,22 +65,22 @@ L'exemple suivant montre comment ajouter une colonne dans une zone de texte.
 [C#]
 using (Presentation presentation = new Presentation())
 {
-	// Obtient la première diapositive dans la présentation
+	// Obtient la première diapositive de la présentation
 	ISlide slide = presentation.Slides[0];
-	// Ajoute une AutoShape avec type défini comme Rectangle
+	// Ajoute une AutoShape avec le type défini comme Rectangle
 	IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
 	// Ajoute un TextFrame au Rectangle
-	aShape.AddTextFrame("Tous ces colonnes sont limitées à être dans un seul conteneur de texte -- " +
-	"vous pouvez ajouter ou supprimer du texte et le nouveau texte ou le texte restant s'ajuste automatiquement " +
-	"pour se mouvoir à l'intérieur du conteneur. Vous ne pouvez pas faire couler du texte d'un conteneur " +
-	"à un autre cependant -- nous vous avons dit que les options de colonnes de PowerPoint pour le texte sont limitées!");
-	// Obtient le format de texte de TextFrame
+	aShape.AddTextFrame("Toutes ces colonnes sont limitées à rester dans un seul conteneur de texte -- " +
+	"vous pouvez ajouter ou supprimer du texte et le nouveau ou le texte restant s'ajuste automatiquement " +
+	"pour s'écouler à l'intérieur du conteneur. Vous ne pouvez pas faire couler le texte d'un conteneur " +
+	"à un autre cependant -- nous vous avons dit que les options de colonne de PowerPoint pour le texte sont limitées !");
+	// Obtient le format de texte du TextFrame
 	ITextFrameFormat format = aShape.TextFrame.TextFrameFormat;
-	// Spécifie le nombre de colonnes dans TextFrame
+	// Spécifie le nombre de colonnes dans le TextFrame
 	format.ColumnCount = 3;
 	// Spécifie l'espacement entre les colonnes
 	format.ColumnSpacing = 10;
-	// Enregistre la présentation
+	// Sauvegarde la présentation
 	presentation.Save("ColumnCount.pptx", SaveFormat.Pptx);
 }
 ```

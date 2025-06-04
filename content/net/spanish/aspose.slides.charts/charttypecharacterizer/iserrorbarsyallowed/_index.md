@@ -1,15 +1,15 @@
 ---
 title: IsErrorBarsYAllowed
-second_title: Aspose.Slides para .NET Referencia de API
-description: Devuelve si se permiten barras de error Y para el tipo de serie especificado.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve si las barras de error Y están permitidas para el tipo de serie especificado.
 type: docs
 weight: 170
 url: /es/aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
 ---
 
-## Método ChartTypeCharacterizer.IsErrorBarsYAllowed
+## ChartTypeCharacterizer.IsErrorBarsYAllowed method
 
-Devuelve si se permiten barras de error Y para el tipo de serie especificado.
+Devuelve si las barras de error Y están permitidas para el tipo de serie especificado.
 
 ```csharp
 public static bool IsErrorBarsYAllowed(ChartType seriesType)
@@ -21,9 +21,9 @@ public static bool IsErrorBarsYAllowed(ChartType seriesType)
 
 ### Valor de Retorno
 
-Verdadero si se permite, de lo contrario falso.
+Verdadero si está permitido, de lo contrario falso.
 
-### Véase También
+### Véase también
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

@@ -1,7 +1,7 @@
 ---
 title: From
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Startwert der Animation an. Lese-/Schreib-Zeichenfolge.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Startwert der Animation an. Lese-/Schreib-String.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/propertyeffect/from/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/propertyeffect/from/
 
 ## PropertyEffect.From-Eigenschaft
 
-Gibt den Startwert der Animation an. Lese-/Schreib-Zeichenfolge.
+Gibt den Startwert der Animation an. Lese-/Schreib-String.
 
 ```csharp
 public string From { get; set; }

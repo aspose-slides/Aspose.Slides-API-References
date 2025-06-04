@@ -15,7 +15,7 @@ Crea una nueva instancia.
 public CommandEffect()
 ```
 
-### Véase también
+### Ver También
 
 * clase [CommandEffect](../../commandeffect)
 * espacio de nombres [Aspose.Slides.Animation](../../commandeffect)

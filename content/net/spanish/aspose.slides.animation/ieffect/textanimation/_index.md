@@ -1,6 +1,6 @@
 ---
 title: TextAnimation
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Devuelve la animación de texto. Solo lectura ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
 weight: 120
@@ -17,9 +17,9 @@ public ITextAnimation TextAnimation { get; }
 
 ### Ver También
 
-* interfaz [ITextAnimation](../../itextanimation)
-* interfaz [IEffect](../../ieffect)
-* espacio de nombres [Aspose.Slides.Animation](../../ieffect)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ITextAnimation](../../itextanimation)
+* interface [IEffect](../../ieffect)
+* namespace [Aspose.Slides.Animation](../../ieffect)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

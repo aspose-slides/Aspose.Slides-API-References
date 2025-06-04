@@ -1,6 +1,6 @@
 ---
 title: FlipV
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour référence API .NET
 description: Détermine si un cadre est retourné verticalement. Lecture seule NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Détermine si un cadre est retourné verticalement. Lecture seule [`NullableBool
 public NullableBool FlipV { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [NullableBool](../../nullablebool)
 * interface [IShapeFrame](../../ishapeframe)

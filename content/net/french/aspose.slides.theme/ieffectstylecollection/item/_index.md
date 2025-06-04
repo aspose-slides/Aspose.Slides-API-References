@@ -1,15 +1,15 @@
 ---
 title: Item
-second_title: Référence d'API Aspose.Slides pour .NET
-description: Renvoie un élément à la position spécifiée. Lecture seule IEffectStyleaspose.slides.theme/ieffectstyle.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie un élément à la position spécifiée. En lecture seule IEffectStyleaspose.slides.theme/ieffectstyle.
 type: docs
 weight: 10
 url: /fr/aspose.slides.theme/ieffectstylecollection/item/
 ---
 
-## Indexeur IEffectStyleCollection
+## IEffectStyleCollection indexeur
 
-Renvoie un élément à la position spécifiée. Lecture seule [`IEffectStyle`](../../ieffectstyle).
+Renvoie un élément à la position spécifiée. En lecture seule [`IEffectStyle`](../../ieffectstyle).
 
 ```csharp
 public IEffectStyle this[int index] { get; }

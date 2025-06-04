@@ -1,6 +1,6 @@
 ---
 title: ShowHiddenSlides
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist false.
 type: docs
 weight: 40

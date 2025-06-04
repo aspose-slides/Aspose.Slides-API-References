@@ -1,6 +1,6 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Referencia
 description: El constructor predeterminado.
 type: docs
 weight: 10
@@ -19,6 +19,6 @@ public ImageTransformOperationFactory()
 
 * clase [ImageTransformOperationFactory](../../imagetransformoperationfactory)
 * espacio de nombres [Aspose.Slides.Effects](../../imagetransformoperationfactory)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

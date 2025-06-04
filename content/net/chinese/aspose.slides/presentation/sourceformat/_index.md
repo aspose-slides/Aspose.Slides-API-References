@@ -1,7 +1,7 @@
 ---
 title: SourceFormat
-second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片加载时使用的格式信息。 read-only SourceFormataspose.slides/sourceformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回有关演示文稿是从哪个格式加载的信息。只读 SourceFormataspose.slides/sourceformat。
 type: docs
 weight: 260
 url: /zh/aspose.slides/presentation/sourceformat/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/presentation/sourceformat/
 
 ## Presentation.SourceFormat 属性
 
-返回幻灯片加载时使用的格式信息。 read-only [`SourceFormat`](../../sourceformat)。
+返回有关演示文稿是从哪个格式加载的信息。只读 [`SourceFormat`](../../sourceformat)。
 
 ```csharp
 public SourceFormat SourceFormat { get; }
 ```
 
-### 另见
+### 另请参见
 
 * enum [SourceFormat](../../sourceformat)
 * class [Presentation](../../presentation)

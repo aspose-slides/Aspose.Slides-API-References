@@ -1,7 +1,7 @@
 ---
 title: AddTintEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Ajoute le nouvel effet de teinte à la fin d'une collection.
+second_title: Aspose.Slides pour .NET API Reference
+description: Ajoute le nouvel effet de Teinte à la fin d'une collection.
 type: docs
 weight: 210
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/addtinteffect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/imagetransformoperationcollection/addtinteffect/
 
 ## ImageTransformOperationCollection.AddTintEffect méthode
 
-Ajoute le nouvel effet de teinte à la fin d'une collection.
+Ajoute le nouvel effet de Teinte à la fin d'une collection.
 
 ```csharp
 public ITint AddTintEffect(float hue, float amount)
@@ -22,12 +22,12 @@ public ITint AddTintEffect(float hue, float amount)
 
 ### Valeur de retour
 
-Indice du nouvel effet d'image dans une collection.
+Index du nouvel effet d'image dans une collection.
 
 ### Voir aussi
 
 * interface [ITint](../../itint)
-* classe [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * namespace [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * assembly [Aspose.Slides](../../../)
 

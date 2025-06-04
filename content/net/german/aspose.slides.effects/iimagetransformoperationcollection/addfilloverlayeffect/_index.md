@@ -1,7 +1,7 @@
 ---
 title: AddFillOverlayEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt den neuen Füllüberlagerungseffekt am Ende einer Sammlung hinzu.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Fügt den neuen Fill Overlay-Effekt am Ende einer Sammlung hinzu.
 type: docs
 weight: 150
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.effects/iimagetransformoperationcollection/addfilloverlay
 
 ## IImageTransformOperationCollection.AddFillOverlayEffect Methode
 
-Fügt den neuen Füllüberlagerungseffekt am Ende einer Sammlung hinzu.
+Fügt den neuen Fill Overlay-Effekt am Ende einer Sammlung hinzu.
 
 ```csharp
 public IFillOverlay AddFillOverlayEffect()

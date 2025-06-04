@@ -1,7 +1,7 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes для .NET API Справочник
-description: Предоставляет варианты, которые контролируют, как презентация сжимается в формате TIFF.
+second_title: Aspose.Sildes for .NET API Reference
+description: Предоставляет параметры, которые контролируют способ сжатия презентации в формате TIFF.
 type: docs
 weight: 4370
 url: /ru/aspose.slides.export/tiffcompressiontypes/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/tiffcompressiontypes/
 
 ## Перечисление TiffCompressionTypes
 
-Предоставляет варианты, которые контролируют, как презентация сжимается в формате TIFF.
+Предоставляет параметры, которые контролируют способ сжатия презентации в формате TIFF.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -17,16 +17,16 @@ public enum TiffCompressionTypes
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Default | `0` | Указывает на схему сжатия по умолчанию (LZW). |
-| None | `1` | Указывает на отсутствие сжатия. |
+| None | `1` | Указывает, что сжатие не применяется. |
 | CCITT3 | `2` | Указывает на схему сжатия CCITT3. |
 | CCITT4 | `3` | Указывает на схему сжатия CCITT4. |
 | LZW | `4` | Указывает на схему сжатия LZW (по умолчанию). |
 | RLE | `5` | Указывает на схему сжатия RLE. |
 
-### Смотрите также
+### См. Также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

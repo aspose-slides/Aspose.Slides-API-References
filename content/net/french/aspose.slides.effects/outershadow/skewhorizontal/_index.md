@@ -1,15 +1,15 @@
 ---
 title: SkewHorizontal
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Spécifie l'angle de biais horizontal en degrés. Lecture/écriture Double.
+second_title: Référence API Aspose.Slides pour .NET
+description: Spécifie l'angle de skew horizontal en degrés. Lecture/écriture Double.
 type: docs
 weight: 90
 url: /fr/aspose.slides.effects/outershadow/skewhorizontal/
 ---
 
-## Propriété OuterShadow.SkewHorizontal
+## OuterShadow.SkewHorizontal property
 
-Spécifie l'angle de biais horizontal (en degrés). Lecture/écriture Double.
+Spécifie l'angle de skew horizontal (en degrés). Lecture/écriture Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }
@@ -17,7 +17,7 @@ public double SkewHorizontal { get; set; }
 
 ### Voir aussi
 
-* classe [OuterShadow](../../outershadow)
+* class [OuterShadow](../../outershadow)
 * namespace [Aspose.Slides.Effects](../../outershadow)
 * assembly [Aspose.Slides](../../../)
 

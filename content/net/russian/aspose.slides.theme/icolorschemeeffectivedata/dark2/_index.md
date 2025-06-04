@@ -1,13 +1,13 @@
 ---
 title: Dark2
-second_title: Aspose.Sildes для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Reference
 description: Второй темный цвет в схеме. Только для чтения Color.
 type: docs
 weight: 80
 url: /ru/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 ---
 
-## IColorSchemeEffectiveData.Dark2 свойство
+## IColorSchemeEffectiveData.Dark2 property
 
 Второй темный цвет в схеме. Только для чтения Color.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 public Color Dark2 { get; }
 ```
 
-### См. Также
+### См. также
 
 * интерфейс [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * пространство имен [Aspose.Slides.Theme](../../icolorschemeeffectivedata)

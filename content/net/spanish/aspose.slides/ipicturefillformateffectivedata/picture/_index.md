@@ -20,6 +20,6 @@ public IPictureEffectiveData Picture { get; }
 * interfaz [IPictureEffectiveData](../../ipictureeffectivedata)
 * interfaz [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * espacio de nombres [Aspose.Slides](../../ipicturefillformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

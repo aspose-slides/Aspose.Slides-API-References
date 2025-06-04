@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Slides для .NET API Справочник
-description: Удаляет элемент ActiveX, хранящийся в указанной позиции, из коллекции.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции.
 type: docs
 weight: 50
 url: /ru/aspose.slides/icontrolcollection/removeat/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/icontrolcollection/removeat/
 
 ## IControlCollection.RemoveAt метод
 
-Удаляет элемент ActiveX, хранящийся в указанной позиции, из коллекции.
+Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции.
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,9 +17,9 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс элемента для удаления. |
+| index | Int32 | Индекс элемента управления для удаления. |
 
-### См. Также
+### См. также
 
 * интерфейс [IControlCollection](../../icontrolcollection)
 * пространство имен [Aspose.Slides](../../icontrolcollection)

@@ -1,15 +1,15 @@
 ---
 title: AsLiteral
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt AsLiteral zurück oder setzt es, wenn UseCell false ist. Lese-/Schreib-Objekt.
+description: Gibt AsLiteral zurück oder legt es fest, wenn UseCell false ist. Lese-/Schreib-Objekt.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/ichartcategory/asliteral/
 ---
 
-## IChartCategory.AsLiteral-Eigenschaft
+## IChartCategory.AsLiteral Eigenschaft
 
-Gibt AsLiteral zurück oder setzt es, wenn UseCell false ist. Lese-/Schreib-Objekt.
+Gibt AsLiteral zurück oder legt es fest, wenn UseCell false ist. Lese-/Schreib-Objekt.
 
 ```csharp
 public object AsLiteral { get; set; }

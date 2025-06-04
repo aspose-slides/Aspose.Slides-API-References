@@ -19,16 +19,16 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Nom | Description |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Retourne l'auteur d'un commentaire. Lecture seule [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Retourne ou définit le temps de création d'un commentaire. Définir cette propriété à MinValue signifie qu'aucun temps de commentaire n'est défini. Lecture/écriture DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtenir ou définir le commentaire parent. Lecture/écriture [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Retourne ou définit la position d'un commentaire sur une diapositive. Lecture/écriture PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Retourne une forme associée au commentaire. Lecture seule [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Retourne ou définit la diapositive parent d'un commentaire. Lecture seule [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Obtenir ou définir le statut du commentaire. Lecture/écriture [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Retourne ou définit le texte brut d'un commentaire sur une diapositive. Lecture/écriture String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Obtenir ou définir la longueur de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Obtenir ou définir la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Renvoie l'auteur d'un commentaire. Lecture seule [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Renvoie ou définit l'heure de création d'un commentaire. Définir cette propriété à MinValue signifie qu'aucune heure de commentaire n'est définie. Lecture/écriture DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtient ou définit le commentaire parent. Lecture/écriture [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Renvoie ou définit la position d'un commentaire sur une diapositive. Lecture/écriture PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Renvoie une forme associée au commentaire. Lecture seule [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Renvoie ou définit la diapositive parent d'un commentaire. Lecture seule [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Obtient ou définit le statut du commentaire. Lecture/écriture [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Obtient ou définit la longueur de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Obtient ou définit la position de départ de la sélection de texte dans le cadre de texte si le commentaire est associé à AutoShape. Lecture/écriture Int32. |
 
 ## Méthodes
 
@@ -49,7 +49,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [Comment](../comment)
 * interface [IModernComment](../imoderncomment)

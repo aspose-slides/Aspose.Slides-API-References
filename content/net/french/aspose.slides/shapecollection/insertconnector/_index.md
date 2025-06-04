@@ -1,7 +1,7 @@
 ---
 title: InsertConnector
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée un nouveau connecteur, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée un nouveau Connecteur, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
 type: docs
 weight: 330
 url: /fr/aspose.slides/shapecollection/insertconnector/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/shapecollection/insertconnector/
 
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-Crée un nouveau connecteur, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
+Crée un nouveau Connecteur, le règle à partir du modèle par défaut et l'insère dans la collection à l'index spécifié.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -25,11 +25,11 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Objet Connector créé.
+Objet Connecteur créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)
@@ -41,7 +41,7 @@ Objet Connector créé.
 
 ## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
-Crée un nouveau connecteur et l'insère dans la collection à l'index spécifié.
+Crée un nouveau Connecteur et l'insère dans la collection à l'index spécifié.
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -56,13 +56,13 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 | y | Single | La coordonnée Y pour un côté supérieur du cadre de la forme. |
 | width | Single | La largeur du cadre de la forme. |
 | height | Single | La hauteur du cadre de la forme. |
-| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera réglée à partir du modèle par défaut. Un nom non vide, un style simple, un texte centré seront assignés à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
+| createFromTemplate | Boolean | Si vrai, alors la nouvelle forme sera réglée à partir du modèle par défaut. Un nom non vide, un style simple, le texte centré seront attribués à la nouvelle forme. Si faux, alors toutes les valeurs des propriétés de la nouvelle forme auront des valeurs par défaut. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Objet Connector créé.
+Objet Connecteur créé.
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IConnector](../../iconnector)
 * enum [ShapeType](../../shapetype)

@@ -1,7 +1,7 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Slides for .NET API Reference
-description: 允许创建数学根号
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许创建数学根式
 type: docs
 weight: 8180
 url: /zh/aspose.slides.mathtext/imathradicalfactory/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathradicalfactory/
 
 ## IMathRadicalFactory 接口
 
-允许创建数学根号
+允许创建数学根式
 
 ```csharp
 public interface IMathRadicalFactory
@@ -19,13 +19,13 @@ public interface IMathRadicalFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | 创建数学根号 |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | 创建数学根式 |
 
-### 备注
+### 注意事项
 
 为了与 COM 兼容
 
-### 另见
+### 另请参见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

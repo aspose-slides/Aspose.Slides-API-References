@@ -1,7 +1,7 @@
 ---
 title: PresentationPlayer
-second_title: Справочник по Aspose.Slides для .NET
-description: Представляет собой проигрыватель анимаций, связанных с Presentationaspose.slides/aspose.slides/presentation.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Представляет игрока анимаций, связанных с Presentationaspose.slides/aspose.slides/presentation.
 type: docs
 weight: 4200
 url: /ru/aspose.slides.export/presentationplayer/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/presentationplayer/
 
 ## Класс PresentationPlayer
 
-Представляет собой проигрыватель анимаций, связанных с [`Presentation`](../../aspose.slides/presentation).
+Представляет игрока анимаций, связанных с [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -17,27 +17,27 @@ public class PresentationPlayer : IDisposable
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Создает новый экземпляр [`PresentationPlayer`](../presentationplayer). |
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Получает индекс кадра. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Освобождает экземпляр [`PresentationPlayer`](../presentationplayer). |
 
-## Другие члены
+## Прочие члены
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| делегат [FrameTickHandler](presentationplayer.frametickhandler) |  |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) |  |
 
 ### Примеры
 
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // Воспроизвести анимацию при 33 FPS
+        // Воспроизведение анимации с 33 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -58,7 +58,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // Воспроизвести анимацию при 45 FPS
+        // Воспроизведение анимации с 45 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>
@@ -72,7 +72,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * пространство имен [Aspose.Slides.Export](../../aspose.slides.export)
 * сборка [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: Tabs
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les tabulations d'un paragraphe. Aucun héritage appliqué. Lecture seule ITabCollectionaspose.slides/itabcollection.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Retourne les tabulations d'un paragraphe. Aucune héritage appliqué. Lecture seule ITabCollectionaspose.slides/itabcollection.
 type: docs
 weight: 150
 url: /fr/aspose.slides/paragraphformat/tabs/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/paragraphformat/tabs/
 
 ## Propriété ParagraphFormat.Tabs
 
-Renvoie les tabulations d'un paragraphe. Aucun héritage appliqué. Lecture seule [`ITabCollection`](../../itabcollection).
+Retourne les tabulations d'un paragraphe. Aucune héritage appliqué. Lecture seule [`ITabCollection`](../../itabcollection).
 
 ```csharp
 public ITabCollection Tabs { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITabCollection](../../itabcollection)
 * classe [ParagraphFormat](../../paragraphformat)

@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält das Element am angegebenen Index. Nur-lesbares IMathBlockaspose.slides.mathtext/imathblock.
+second_title: Aspose.Slides für .NET API Referenz
+description: Holt das Element am angegebenen Index. Nur-Lese-IMathBlockaspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
 url: /de/aspose.slides.mathtext/mathparagraph/item/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathparagraph/item/
 
 ## MathParagraph-Indexer
 
-Erhält das Element am angegebenen Index. Nur-lesbares [`IMathBlock`](../../imathblock).
+Holt das Element am angegebenen Index. Nur-Lese- [`IMathBlock`](../../imathblock).
 
 ```csharp
 public IMathBlock this[int index] { get; set; }
@@ -36,7 +36,7 @@ mathParagraph.Add(new MathBlock(new MathematicalText("block2")));
 IMathBlock block = mathParagraph[1];
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathBlock](../../imathblock)
 * Klasse [MathParagraph](../../mathparagraph)

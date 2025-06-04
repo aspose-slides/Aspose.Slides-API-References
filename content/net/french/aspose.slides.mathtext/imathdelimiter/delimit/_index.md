@@ -1,13 +1,13 @@
 ---
 title: Delimit
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Slides pour .NET API Référence
 description: Délimite les arguments en utilisant le caractère de délimitation spécifié
 type: docs
 weight: 80
 url: /fr/aspose.slides.mathtext/imathdelimiter/delimit/
 ---
 
-## Méthode IMathDelimiter.Delimit
+## IMathDelimiter.Delimit méthode
 
 Délimite les arguments en utilisant le caractère de délimitation spécifié
 
@@ -21,7 +21,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 
 ### Valeur de retour
 
-Cet objet après application du caractère de délimitation
+Cet objet après l'application du caractère de délimitation
 
 ### Exemples
 

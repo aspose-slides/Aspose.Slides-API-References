@@ -1,7 +1,7 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen Manager dar, der das Verhalten der Fußzeilen-, Datum-Uhrzeit- und Seitenzahlplatzhalter für alle Folientypen enthält.
+second_title: Aspose.Slides für .NET API Referenz
+description: Stellt den Manager dar, der das Verhalten der Platzhalter für Fußzeile, Datum-Zeit und Seitenzahlen für alle Folientypen hält.
 type: docs
 weight: 880
 url: /de/aspose.slides/baseheaderfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/baseheaderfootermanager/
 
 ## BaseHeaderFooterManager-Klasse
 
-Stellt einen Manager dar, der das Verhalten der Fußzeile, des Datums, der Uhrzeit und der Seitenzahlplatzhalter für alle Folientypen enthält.
+Stellt den Manager dar, der das Verhalten der Fußzeile, Datum-Zeit und Seitenzahlen-Platzhalter für alle Folientypen hält.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

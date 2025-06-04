@@ -1,7 +1,7 @@
 ---
 title: IsLicensed
-second_title: Aspose.Slides for .NET API 参考
-description: 检查许可证是否应用于组件
+second_title: Aspose.Slides for .NET API Reference
+description: 检查许可证是否已应用于组件
 type: docs
 weight: 10
 url: /zh/aspose.slides/ilicense/islicensed/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ilicense/islicensed/
 
 ## ILicense.IsLicensed 方法
 
-检查许可证是否应用于组件
+检查许可证是否已应用于组件
 
 ```csharp
 public bool IsLicensed()
@@ -17,9 +17,9 @@ public bool IsLicensed()
 
 ### 返回值
 
-如果组件已获得许可证，则返回 `True`，否则返回 `false`
+如果组件是许可的，则返回`True`，否则返回`false`
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ILicense](../../ilicense)
 * 命名空间 [Aspose.Slides](../../ilicense)

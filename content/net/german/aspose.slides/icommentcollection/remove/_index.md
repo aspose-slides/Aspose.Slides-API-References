@@ -1,15 +1,15 @@
 ---
 title: Remove
 second_title: Aspose.Slides für .NET API Referenz
-description: Entfernt die erste Vorkommen des angegebenen Kommentars in einer Sammlung.
+description: Entfernt das erste Vorkommen des angegebenen Kommentars in einer Sammlung.
 type: docs
 weight: 70
 url: /de/aspose.slides/icommentcollection/remove/
 ---
 
-## ICommentCollection.Remove-Methode
+## ICommentCollection.Remove Methode
 
-Entfernt die erste Vorkommen des angegebenen Kommentars in einer Sammlung.
+Entfernt das erste Vorkommen des angegebenen Kommentars in einer Sammlung.
 
 ```csharp
 public void Remove(IComment comment)
@@ -17,16 +17,16 @@ public void Remove(IComment comment)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| comment | IComment | Der zu entfernende Kommentar aus einer Sammlung. |
+| comment | IComment | Der Kommentar, der aus einer Sammlung entfernt werden soll. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
 | ArgumentNullException | Wenn comment `null` ist |
-| [PptxEditException](../../pptxeditexception) | Tritt auf, wenn der Kommentar bereits entfernt wurde. |
+| [PptxEditException](../../pptxeditexception) | Wird ausgelöst, wenn der Kommentar bereits entfernt wurde. |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IComment](../../icomment)
 * Schnittstelle [ICommentCollection](../../icommentcollection)

@@ -1,7 +1,7 @@
 ---
 title: CreateDuotone
-second_title: Aspose.Sildes for .NET API 参考
-description: 创建双色调效果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 创建二调子效果。
 type: docs
 weight: 120
 url: /zh/aspose.slides.effects/iimagetransformoperationfactory/createduotone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iimagetransformoperationfactory/createduotone/
 
 ## IImageTransformOperationFactory.CreateDuotone 方法
 
-创建双色调效果。
+创建二调子效果。
 
 ```csharp
 public IDuotone CreateDuotone()
@@ -17,9 +17,9 @@ public IDuotone CreateDuotone()
 
 ### 返回值
 
-双色调效果。
+二调子效果。
 
-### 另见
+### 另请参见
 
 * 接口 [IDuotone](../../iduotone)
 * 接口 [IImageTransformOperationFactory](../../iimagetransformoperationfactory)

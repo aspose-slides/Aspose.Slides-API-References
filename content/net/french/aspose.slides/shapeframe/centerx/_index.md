@@ -15,7 +15,7 @@ Renvoie la coordonnée X du centre d'un cadre. Lecture seule Single.
 public float CenterX { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ShapeFrame](../../shapeframe)
 * espace de noms [Aspose.Slides](../../shapeframe)

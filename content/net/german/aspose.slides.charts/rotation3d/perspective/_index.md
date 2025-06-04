@@ -1,7 +1,7 @@
 ---
 title: Perspective
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Perspektivwert Sichtwinkel für 3D-Diagramme zwischen 0 und 240 zurück oder setzt ihn. Wird ignoriert, wenn der Wert der Eigenschaft RightAngleAxes true ist. Lese-/Schreibbare Byte.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Perspektivwert Sichtwinkel für 3D-Diagramme zwischen 0 und 240 zurück oder setzt ihn. Wird ignoriert, wenn der Wert der RightAngleAxes-Eigenschaft true ist. Lese-/Schreib-Byte.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/rotation3d/perspective/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/rotation3d/perspective/
 
 ## Rotation3D.Perspective-Eigenschaft
 
-Gibt den Perspektivwert (Sichtwinkel) für 3D-Diagramme (zwischen 0 und 240) zurück oder setzt ihn. Wird ignoriert, wenn der Wert der Eigenschaft RightAngleAxes true ist. Lese-/Schreibbare Byte.
+Gibt den Perspektivwert (Sichtwinkel) für 3D-Diagramme (zwischen 0 und 240) zurück oder setzt ihn. Wird ignoriert, wenn der Wert der RightAngleAxes-Eigenschaft true ist. Lese-/Schreib-Byte.
 
 ```csharp
 public byte Perspective { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Rotation3D](../../rotation3d)
 * Namespace [Aspose.Slides.Charts](../../rotation3d)

@@ -1,6 +1,6 @@
 ---
 title: Size
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence API
 description: Obtient ou définit la taille du pinceau pour une ligne en points.
 type: docs
 weight: 20
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IInkBrush](../../iinkbrush)
 * namespace [Aspose.Slides.Ink](../../iinkbrush)

@@ -1,6 +1,6 @@
 ---
 title: DrilldownLocked
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour la référence de l'API .NET
 description: Détermine si la sélection des sous-formes de cet objet est interdite. Booléen en lecture/écriture.
 type: docs
 weight: 30

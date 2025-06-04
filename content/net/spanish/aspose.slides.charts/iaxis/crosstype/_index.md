@@ -15,11 +15,11 @@ Representa el CrossType en el eje especificado donde cruza el otro eje. Lectura/
 public CrossesType CrossType { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * enum [CrossesType](../../crossestype)
-* interface [IAxis](../../iaxis)
-* namespace [Aspose.Slides.Charts](../../iaxis)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IAxis](../../iaxis)
+* espacio de nombres [Aspose.Slides.Charts](../../iaxis)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

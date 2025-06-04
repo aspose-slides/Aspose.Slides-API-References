@@ -1,15 +1,15 @@
 ---
 title: SetHeaderAndChildHeadersVisibility
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Modifie la visibilité de l'espace réservé de l'en-tête de la diapositive maître de notes et de tous les espaces réservés d'en-tête enfants. Les espaces réservés enfants désignent les espaces réservés contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive maître de notes.
+second_title: Référence API Aspose.Slides pour .NET
+description: Modifie la visibilité du placeholder d'en-tête de la diapositive de notes maître et de tous les placeholders d'en-tête enfants. Les placeholders enfants désignent des placeholders contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 type: docs
 weight: 70
 url: /fr/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
 ---
 
-## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersVisibility méthode
+## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersVisibility method
 
-Modifie la visibilité de l'espace réservé de l'en-tête de la diapositive maître de notes et de tous les espaces réservés d'en-tête enfants. Les espaces réservés enfants désignent les espaces réservés contenus dans les diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive maître de notes.
+Modifie la visibilité du placeholder d'en-tête de la diapositive de notes maître et de tous les placeholders d'en-tête enfants. Les placeholders enfants désignent des placeholders contenus dans des diapositives de notes dépendantes. Les diapositives de notes dépendantes utilisent et dépendent de la diapositive de notes maître.
 
 ```csharp
 public void SetHeaderAndChildHeadersVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetHeaderAndChildHeadersVisibility(bool isVisible)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| isVisible | Boolean | true - rend un espace réservé d'en-tête visible, sinon - les cache. |
+| isVisible | Boolean | true - rend les placeholders d'en-tête visibles, sinon - les cache. |
 
 ### Voir aussi
 

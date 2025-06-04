@@ -1,15 +1,15 @@
 ---
 title: ILinkEmbedController
 second_title: Aspose.Sildes for .NET API Reference
-description: 回调接口，用于确定在保存过程中如何处理对象。
+description: 回调接口，用于确定对象在保存过程中的处理方式。
 type: docs
 weight: 3820
 url: /zh/aspose.slides.export/ilinkembedcontroller/
 ---
 
-## ILinkEmbedController 接口
+## ILinkEmbedController interface
 
-回调接口，用于确定在保存过程中如何处理对象。
+回调接口，用于确定对象在保存过程中的处理方式。
 
 ```csharp
 public interface ILinkEmbedController
@@ -19,11 +19,11 @@ public interface ILinkEmbedController
 
 | 名称 | 描述 |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | 确定对象应存储的位置。对于每个对象 ID，此方法调用一次。无法保证不会存在两个具有相同数据、语义名称和内容类型但 ID 不同的对象。 |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | 返回外部对象的 URL。如果 [`GetObjectStoringLocation`](./getobjectstoringlocation) 返回 Link，则此方法始终会被调用；如果 [`GetObjectStoringLocation`](./getobjectstoringlocation) 返回 Embed 但嵌入不可能，则也可能被调用。此方法可以对同一对象 ID 调用多次。 |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | 确定对象应该存储的位置。该方法对于每个对象 ID 调用一次。不能保证不会有两个具有相同数据、semanticName 和 contentType 但 ID 不同的对象。 |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | 返回外部对象的 URL。如果 [`GetObjectStoringLocation`](./getobjectstoringlocation) 返回 Link，则该方法始终被调用；如果 [`GetObjectStoringLocation`](./getobjectstoringlocation) 返回 Embed，但嵌入不可能，则也可能被调用。对于相同的对象 ID 可以多次调用。 |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | 保存外部对象。 |
 
-### 另请参阅
+### 另见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

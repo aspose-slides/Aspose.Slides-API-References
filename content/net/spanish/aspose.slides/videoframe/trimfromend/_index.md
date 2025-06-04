@@ -1,6 +1,6 @@
 ---
 title: TrimFromEnd
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Recortar final ms
 type: docs
 weight: 90
@@ -15,7 +15,7 @@ Recortar final [ms]
 public float TrimFromEnd { get; set; }
 ```
 
-### Ver también
+### Ver También
 
 * clase [VideoFrame](../../videoframe)
 * espacio de nombres [Aspose.Slides](../../videoframe)

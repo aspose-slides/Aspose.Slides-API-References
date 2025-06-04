@@ -1,15 +1,15 @@
 ---
 title: SaveMetafilesAsPng
-second_title: Référence API Aspose.Sildes pour .NET
-description: Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Lire/écrire Booléen.
+second_title: Référence API Aspose.Slides pour .NET
+description: Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Lecture/écriture Booléen.
 type: docs
 weight: 30
 url: /fr/aspose.slides.export/ixpsoptions/savemetafilesaspng/
 ---
 
-## Propriété IXpsOptions.SaveMetafilesAsPng
+## IXpsOptions.SaveMetafilesAsPng propriété
 
-Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Lire/écrire Booléen.
+Vrai pour convertir tous les mét fichiers utilisés dans une présentation en images PNG. Lecture/écriture Booléen.
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }

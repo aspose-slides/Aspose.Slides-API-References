@@ -1,7 +1,7 @@
 ---
 title: OOXMLException
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет стандартный внутренний тип исключения, связанный с форматом файла Office Open XML.
+second_title: Aspose.Sildes для справки по .NET API
+description: Представляет собой стандартный внутренний тип исключения, связанный с форматом файлов Office Open XML.
 type: docs
 weight: 8930
 url: /ru/aspose.slides/ooxmlexception/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ooxmlexception/
 
 ## Класс OOXMLException
 
-Представляет стандартный внутренний тип исключения, связанный с форматом файла Office Open XML.
+Представляет собой стандартный внутренний тип исключения, связанный с форматом файлов Office Open XML.
 
 ```csharp
 public class OOXMLException : Exception
@@ -17,7 +17,7 @@ public class OOXMLException : Exception
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Конструктор по умолчанию. |
 | [OOXMLException](ooxmlexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |

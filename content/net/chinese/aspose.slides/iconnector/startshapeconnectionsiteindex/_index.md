@@ -21,7 +21,7 @@ public uint StartShapeConnectionSiteIndex { get; set; }
 | --- | --- |
 | ArgumentException | 当值小于 StartShapeConnectedTo.ConnectionSiteCount 时抛出 |
 
-### 另请参见
+### 另见
 
 * 接口 [IConnector](../../iconnector)
 * 命名空间 [Aspose.Slides](../../iconnector)

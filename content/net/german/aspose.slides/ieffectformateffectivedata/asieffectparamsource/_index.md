@@ -1,7 +1,7 @@
 ---
 title: AsIEffectParamSource
 second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf das Basis-IEffectParamSource-Interface. Nur-Lese-IEffectParamSource aspose.slides/ieffectparamsource.
+description: Ermöglicht den Zugriff auf die Basis-IEffectParamSource-Schnittstelle. Schreibgeschützte IEffectParamSourceaspose.slides/ieffectparamsource.
 type: docs
 weight: 10
 url: /de/aspose.slides/ieffectformateffectivedata/asieffectparamsource/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ieffectformateffectivedata/asieffectparamsource/
 
 ## IEffectFormatEffectiveData.AsIEffectParamSource-Eigenschaft
 
-Ermöglicht den Zugriff auf das Basis-IEffectParamSource-Interface. Nur-Lese [`IEffectParamSource`](../../ieffectparamsource).
+Ermöglicht den Zugriff auf die Basis-IEffectParamSource-Schnittstelle. Schreibgeschützte [`IEffectParamSource`](../../ieffectparamsource).
 
 ```csharp
 public IEffectParamSource AsIEffectParamSource { get; }
@@ -17,8 +17,8 @@ public IEffectParamSource AsIEffectParamSource { get; }
 
 ### Siehe auch
 
-* Interface [IEffectParamSource](../../ieffectparamsource)
-* Interface [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
+* Schnittstelle [IEffectParamSource](../../ieffectparamsource)
+* Schnittstelle [IEffectFormatEffectiveData](../../ieffectformateffectivedata)
 * Namespace [Aspose.Slides](../../ieffectformateffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

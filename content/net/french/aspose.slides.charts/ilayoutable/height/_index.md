@@ -1,15 +1,15 @@
 ---
 title: Height
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie la hauteur de l'élément graphique en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
+description: Spécifie la hauteur de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecteur/écrivain Simple.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/ilayoutable/height/
 ---
 
-## Propriété ILayoutable.Height
+## ILayoutable.Height property
 
-Spécifie la hauteur de l'élément graphique en tant que fraction de la hauteur du graphique. Lecture/écriture Single.
+Spécifie la hauteur de l'élément de graphique en tant que fraction de la hauteur du graphique. Lecteur/écrivain Simple.
 
 ```csharp
 public float Height { get; set; }

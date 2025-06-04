@@ -1,7 +1,7 @@
 ---
 title: Image
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Kopie eines Bildes zurück. Schreibgeschützte IImageaspose.slides/iimage.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt eine Kopie eines Bildes zurück. Nur-lesender IImageaspose.slides/iimage.
 type: docs
 weight: 40
 url: /de/aspose.slides/ppimage/image/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ppimage/image/
 
 ## PPImage.Image-Eigenschaft
 
-Gibt eine Kopie eines Bildes zurück. Schreibgeschützte [`IImage`](../../iimage).
+Gibt eine Kopie eines Bildes zurück. Nur-lesender [`IImage`](../../iimage).
 
 ```csharp
 public IImage Image { get; }

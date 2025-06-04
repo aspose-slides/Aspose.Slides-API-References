@@ -1,7 +1,7 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Slides for .NET API Reference
-description: 不可变对象，包含有效的填充格式属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 包含有效填充格式属性的不可变对象。
 type: docs
 weight: 5600
 url: /zh/aspose.slides/ifillformateffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ifillformateffectivedata/
 
 ## IFillFormatEffectiveData 接口
 
-不可变对象，包含有效的填充格式属性。
+包含有效填充格式属性的不可变对象。
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -24,14 +24,14 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | 返回渐变填充格式。只读 [`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
 | [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | 返回图案填充格式。只读 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | 返回图片填充格式。只读 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata)。 |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 决定填充是否应与形状一起旋转。只读布尔值。 |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 返回填充颜色。只读 Color。 |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 确定填充是否应与形状一起旋转。只读布尔值。 |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 返回填充颜色。只读颜色。 |
 
 ### 备注
 
 此接口与 [`IFillFormat`](../ifillformat) 接口一起使用，以返回应用继承的有效格式值。
 
-### 另请参阅
+### 另见
 
 * 接口 [IFillParamSource](../ifillparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

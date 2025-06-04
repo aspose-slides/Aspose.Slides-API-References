@@ -1,7 +1,7 @@
 ---
 title: DisplayEquation
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie que l'équation pour la ligne de tendance est affichée sur le graphique dans la même étiquette que la valeur Rsquared. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie que l'équation de la tendance est affichée sur le graphique dans le même label que la valeur Rsquared. Booléen en lecture/écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/trendline/displayequation/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/trendline/displayequation/
 
 ## Propriété Trendline.DisplayEquation
 
-Spécifie que l'équation pour la ligne de tendance est affichée sur le graphique (dans la même étiquette que la valeur Rsquared). Booléen en lecture/écriture.
+Spécifie que l'équation de la tendance est affichée sur le graphique (dans le même label que la valeur Rsquared). Booléen en lecture/écriture.
 
 ```csharp
 public bool DisplayEquation { get; set; }

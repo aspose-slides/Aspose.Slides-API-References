@@ -1,13 +1,13 @@
 ---
 title: AllCustomXmlParts
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Slides для .NET API Reference
 description: Возвращает все пользовательские данные в презентации. Только для чтения ICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs
 weight: 20
 url: /ru/aspose.slides/presentation/allcustomxmlparts/
 ---
 
-## Presentation.AllCustomXmlParts свойство
+## Presentation.AllCustomXmlParts property
 
 Возвращает все пользовательские данные в презентации. Только для чтения [`ICustomXmlPart`](../../icustomxmlpart)[].
 
@@ -17,13 +17,13 @@ public ICustomXmlPart[] AllCustomXmlParts { get; }
 
 ### Примеры
 
-Следующие примеры показывают, как очистить все пользовательские XML части из презентации PowerPoint.
+Следующие примеры показывают, как удалить все пользовательские xml части из презентации PowerPoint.
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("PresentationWithCustomXml.pptx"))
 {
-	// Проход по всем пользовательским XML частям
+	// Перебрать все пользовательские XML части
     foreach (ICustomXmlPart item in pres.AllCustomXmlParts)
     {
         item.Remove();
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("PresentationWithCustomXml.pptx"))
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ICustomXmlPart](../../icustomxmlpart)
 * класс [Presentation](../../presentation)

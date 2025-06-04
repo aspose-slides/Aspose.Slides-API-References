@@ -1,21 +1,21 @@
 ---
 title: Orientation
-second_title: Справочник API Aspose.Sildes для .NET
-description: Ориентация перехода разбиения. Чтение/запись Orientationaspose.slides/orientation.
+second_title: Aspose.Sildes для .NET API Reference
+description: Ориентация перехода. Чтение/запись Orientationaspose.slides/orientation.
 type: docs
 weight: 30
 url: /ru/aspose.slides.slideshow/isplittransition/orientation/
 ---
 
-## Свойство ISplitTransition.Orientation
+## ISplitTransition.Orientation свойство
 
-Ориентация перехода разбиения. Чтение/запись [`Orientation`](../../../aspose.slides/orientation).
+Ориентация перехода. Чтение/запись [`Orientation`](../../../aspose.slides/orientation).
 
 ```csharp
 public Orientation Orientation { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * enum [Orientation](../../../aspose.slides/orientation)
 * interface [ISplitTransition](../../isplittransition)

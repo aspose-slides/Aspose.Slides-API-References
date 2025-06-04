@@ -1,7 +1,7 @@
 ---
 title: IsTemporaryFilesAllowed
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Cette propriété détermine si des fichiers temporaires peuvent être créés lors du travail avec des BLOBs, ce qui réduit considérablement la consommation de mémoire mais nécessite des autorisations pour créer des fichiers. Tous les fichiers seront supprimés après avoir terminé le travail avec la présentation.
+second_title: Aspose.Slides pour .NET Référence de l'API
+description: Cette propriété définit si des fichiers temporaires peuvent être créés lors du travail avec des BLOBs, ce qui réduit considérablement la consommation de mémoire mais nécessite des autorisations pour créer des fichiers. Tous les fichiers seront supprimés après que le travail avec la présentation sera terminé.
 type: docs
 weight: 10
 url: /fr/aspose.slides/iblobmanagementoptions/istemporaryfilesallowed/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/iblobmanagementoptions/istemporaryfilesallowed/
 
 ## IBlobManagementOptions.IsTemporaryFilesAllowed propriété
 
-Cette propriété détermine si des fichiers temporaires peuvent être créés lors du travail avec des BLOBs, ce qui réduit considérablement la consommation de mémoire mais nécessite des autorisations pour créer des fichiers. Tous les fichiers seront supprimés après avoir terminé le travail avec la présentation.
+Cette propriété définit si des fichiers temporaires peuvent être créés lors du travail avec des BLOBs, ce qui réduit considérablement la consommation de mémoire mais nécessite des autorisations pour créer des fichiers. Tous les fichiers seront supprimés après que le travail avec la présentation sera terminé.
 
 ```csharp
 public bool IsTemporaryFilesAllowed { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IBlobManagementOptions](../../iblobmanagementoptions)
 * namespace [Aspose.Slides](../../iblobmanagementoptions)

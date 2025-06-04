@@ -1,7 +1,7 @@
 ---
 title: By
-second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的相对偏移值（以百分比表示）。可读写 PointF。
+second_title: Aspose.Sildes for .NET API 参考
+description: 描述动画的相对偏移值（以百分比表示）。读/写 PointF。
 type: docs
 weight: 30
 url: /zh/aspose.slides.animation/motioneffect/by/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/motioneffect/by/
 
 ## MotionEffect.By 属性
 
-描述动画的相对偏移值（以百分比表示）。可读写 PointF。
+描述动画的相对偏移值（以百分比表示）。读/写 PointF。
 
 ```csharp
 public PointF By { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * class [MotionEffect](../../motioneffect)
 * namespace [Aspose.Slides.Animation](../../motioneffect)

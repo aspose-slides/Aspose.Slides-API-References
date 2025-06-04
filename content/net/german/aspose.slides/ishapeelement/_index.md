@@ -1,7 +1,7 @@
 ---
 title: IShapeElement
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Teil der Form mit denselben Außenlinien- und Fülleeigenschaften dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt einen Teil der Form mit den gleichen Umriss- und Fülleigenschaften dar.
 type: docs
 weight: 6770
 url: /de/aspose.slides/ishapeelement/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ishapeelement/
 
 ## IShapeElement-Schnittstelle
 
-Stellt einen Teil der Form mit denselben Außenlinien- und Fülleeigenschaften dar.
+Stellt einen Teil der Form mit den gleichen Umriss- und Fülleigenschaften dar.
 
 ```csharp
 public interface IShapeElement

@@ -1,15 +1,15 @@
 ---
 title: Warning
-second_title: Aspose.Slides für .NET API Referenz
-description: Callback-Methode, die eine Warnung erhält und entscheidet, ob der Vorgang abgebrochen werden soll.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Callback-Methode, die eine Warnung empfängt und entscheidet, ob die Operation abgebrochen werden soll.
 type: docs
 weight: 10
 url: /de/aspose.slides.warnings/iwarningcallback/warning/
 ---
 
-## IWarningCallback.Warning-Methode
+## IWarningCallback.Warning Methode
 
-Callback-Methode, die eine Warnung erhält und entscheidet, ob der Vorgang abgebrochen werden soll.
+Callback-Methode, die eine Warnung empfängt und entscheidet, ob die Operation abgebrochen werden soll.
 
 ```csharp
 public ReturnAction Warning(IWarningInfo warning)

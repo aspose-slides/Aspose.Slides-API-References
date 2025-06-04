@@ -23,7 +23,7 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 | columnWidths | Double[] | Tableau de doubles qui représente les largeurs des colonnes dans la table. |
 | rowHeights | Double[] | Tableau de doubles qui représente les hauteurs des lignes dans la table. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Objet Table créé.
 

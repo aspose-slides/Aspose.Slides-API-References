@@ -1,15 +1,15 @@
 ---
 title: TileFlip
 second_title: Aspose.Slides für .NET API Referenz
-description: Definiert den Modus für das Kacheln-Umdrehen.
+description: Definiert den Kachel-Flip-Modus.
 type: docs
 weight: 11190
 url: /de/aspose.slides/tileflip/
 ---
 
-## TileFlip Enumeration
+## TileFlip Aufzählung
 
-Definiert den Modus für das Kacheln-Umdrehen.
+Definiert den Kachel-Flip-Modus.
 
 ```csharp
 public enum TileFlip
@@ -25,7 +25,7 @@ public enum TileFlip
 | FlipY | `2` |  |
 | FlipBoth | `3` |  |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

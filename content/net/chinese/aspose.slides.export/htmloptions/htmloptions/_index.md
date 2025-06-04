@@ -19,7 +19,7 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 | --- | --- | --- |
 | linkEmbedController | ILinkEmbedController | 控制项目保存的回调对象。 |
 
-### 另见
+### 另请参见
 
 * 接口 [ILinkEmbedController](../../ilinkembedcontroller)
 * 类 [HtmlOptions](../../htmloptions)
@@ -30,13 +30,13 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 ## HtmlOptions() {#constructor}
 
-创建一个新的 HtmlOptions 对象以保存到单个 HTML 文件中。
+创建一个新的 HtmlOptions 对象以保存为单个 HTML 文件。
 
 ```csharp
 public HtmlOptions()
 ```
 
-### 另见
+### 另请参见
 
 * 类 [HtmlOptions](../../htmloptions)
 * 命名空间 [Aspose.Slides.Export](../../htmloptions)

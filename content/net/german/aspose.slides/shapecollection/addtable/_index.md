@@ -1,79 +1,79 @@
----  
+---
 title: AddTable
-second_title: Aspose.Slides für .NET API Referenz  
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Erstellt eine neue Tabelle und fügt sie am Ende der Sammlung hinzu.
-type: docs  
-weight: 200  
+type: docs
+weight: 200
 url: /de/aspose.slides/shapecollection/addtable/
----  
+---
 
-## ShapeCollection.AddTable-Methode  
+## ShapeCollection.AddTable-Methode
 
-Erstellt eine neue Tabelle und fügt sie am Ende der Sammlung hinzu.  
+Erstellt eine neue Tabelle und fügt sie am Ende der Sammlung hinzu.
 
-```csharp  
-public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)  
-```  
+```csharp
+public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeights)
+```
 
-| Parameter | Typ | Beschreibung |  
-| --- | --- | --- |  
-| x | Einzel | Die X-Koordinate für die linke Seite des Rahmens der Form. |  
-| y | Einzel | Die Y-Koordinate für die obere Seite des Rahmens der Form. |  
-| columnWidths | Double[] | Array von Doubles, das die Breiten der Spalten in der Tabelle darstellt. |  
-| rowHeights | Double[] | Array von Doubles, das die Höhen der Zeilen in der Tabelle darstellt. |  
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| x | Einzelner Wert | Die X-Koordinate für die linke Seite des Rahmens der Form. |
+| y | Einzelner Wert | Die Y-Koordinate für die obere Seite des Rahmens der Form. |
+| columnWidths | Double[] | Array von Doubles, das die Breiten der Spalten in der Tabelle darstellt. |
+| rowHeights | Double[] | Array von Doubles, das die Höhen der Zeilen in der Tabelle darstellt. |
 
-### Rückgabewert  
+### Rückgabewert
 
-Erstelltes Tabellenobjekt.  
+Erstelltes Tabellenobjekt.
 
-### Beispiele  
+### Beispiele
 
-Die folgenden Beispiele zeigen, wie man eine Tabelle in einer PowerPoint-Präsentation hinzufügt.  
+Die folgenden Beispiele zeigen, wie man eine Tabelle in einer PowerPoint-Präsentation hinzufügt.
 
-```csharp  
-[C#]  
-// Präsentationsklasse instanziieren, die die PPTX-Datei darstellt  
-using (Presentation pres = new Presentation()){  
-	// ersten Slide abrufen  
-	ISlide sld = pres.Slides[0];  
-	// Spalten mit Breiten und Zeilen mit Höhen definieren  
-	double[] dblCols = { 50, 50, 50 };  
-	double[] dblRows = { 50, 30, 30, 30, 30 };  
-	// Tabellenform zu Slide hinzufügen  
-	ITable tbl = sld.Shapes.AddTable(100, 50, dblCols, dblRows);  
-	// Rahmenformat für jede Zelle festlegen  
-	for (int row = 0; row < tbl.Rows.Count; row++)  
-	{  
-		for (int cell = 0; cell < tbl.Rows[row].Count; cell++)  
-		{  
-			tbl.Rows[row][cell].CellFormat.BorderTop.FillFormat.FillType = FillType.Solid;  
-			tbl.Rows[row][cell].CellFormat.BorderTop.FillFormat.SolidFillColor.Color = Color.Red;  
-			tbl.Rows[row][cell].CellFormat.BorderTop.Width = 5;  
-			tbl.Rows[row][cell].CellFormat.BorderBottom.FillFormat.FillType = (FillType.Solid);  
-			tbl.Rows[row][cell].CellFormat.BorderBottom.FillFormat.SolidFillColor.Color= Color.Red;  
-			tbl.Rows[row][cell].CellFormat.BorderBottom.Width =5;  
-			tbl.Rows[row][cell].CellFormat.BorderLeft.FillFormat.FillType = FillType.Solid;  
-			tbl.Rows[row][cell].CellFormat.BorderLeft.FillFormat.SolidFillColor.Color =Color.Red;  
-			tbl.Rows[row][cell].CellFormat.BorderLeft.Width = 5;  
-			tbl.Rows[row][cell].CellFormat.BorderRight.FillFormat.FillType = FillType.Solid;  
-			tbl.Rows[row][cell].CellFormat.BorderRight.FillFormat.SolidFillColor.Color = Color.Red;  
-			tbl.Rows[row][cell].CellFormat.BorderRight.Width = 5;  
-		}  
-	}  
-	// Zellen 1 & 2 der Zeile 1 zusammenführen  
-	tbl.MergeCells(tbl.Rows[0][0], tbl.Rows[1][1], false);  
-	// Text zur zusammengeführten Zelle hinzufügen  
-	tbl.Rows[0][0].TextFrame.Text = "Zusammengeführte Zellen";  
-	// PPTX auf Disk speichern  
-	pres.Save("table.pptx", SaveFormat.Pptx);  
-}  
-```  
+```csharp
+[C#]
+// Instanziiere die Presentation-Klasse, die die PPTX-Datei darstellt
+using (Presentation pres = new Presentation()){
+	// Zugriff auf die erste Folie
+	ISlide sld = pres.Slides[0];
+	// Definiere Spalten mit Breiten und Zeilen mit Höhen
+	double[] dblCols = { 50, 50, 50 };
+	double[] dblRows = { 50, 30, 30, 30, 30 };
+	// Füge der Folie eine Tabellenform hinzu
+	ITable tbl = sld.Shapes.AddTable(100, 50, dblCols, dblRows);
+	// Setze das Rahmenformat für jede Zelle
+	for (int row = 0; row < tbl.Rows.Count; row++)
+	{
+		for (int cell = 0; cell < tbl.Rows[row].Count; cell++)
+		{
+			tbl.Rows[row][cell].CellFormat.BorderTop.FillFormat.FillType = FillType.Solid;
+			tbl.Rows[row][cell].CellFormat.BorderTop.FillFormat.SolidFillColor.Color = Color.Red;
+			tbl.Rows[row][cell].CellFormat.BorderTop.Width = 5;
+			tbl.Rows[row][cell].CellFormat.BorderBottom.FillFormat.FillType = (FillType.Solid);
+			tbl.Rows[row][cell].CellFormat.BorderBottom.FillFormat.SolidFillColor.Color= Color.Red;
+			tbl.Rows[row][cell].CellFormat.BorderBottom.Width =5;
+			tbl.Rows[row][cell].CellFormat.BorderLeft.FillFormat.FillType = FillType.Solid;
+			tbl.Rows[row][cell].CellFormat.BorderLeft.FillFormat.SolidFillColor.Color =Color.Red;
+			tbl.Rows[row][cell].CellFormat.BorderLeft.Width = 5;
+			tbl.Rows[row][cell].CellFormat.BorderRight.FillFormat.FillType = FillType.Solid;
+			tbl.Rows[row][cell].CellFormat.BorderRight.FillFormat.SolidFillColor.Color = Color.Red;
+			tbl.Rows[row][cell].CellFormat.BorderRight.Width = 5;
+		}
+	}
+	// Mersche Zellen 1 & 2 der Zeile 1
+	tbl.MergeCells(tbl.Rows[0][0], tbl.Rows[1][1], false);
+	// Füge Text zur zusammengelegten Zelle hinzu
+	tbl.Rows[0][0].TextFrame.Text = "Zusammengelegte Zellen";
+	// Speichere PPTX auf der Festplatte
+	pres.Save("table.pptx", SaveFormat.Pptx);
+}
+```
 
-### Siehe auch  
+### Siehe auch
 
-* Interface [ITable](../../itable)  
-* Klasse [ShapeCollection](../../shapecollection)  
-* Namespace [Aspose.Slides](../../shapecollection)  
-* Assembly [Aspose.Slides](../../../)  
+* Schnittstelle [ITable](../../itable)
+* Klasse [ShapeCollection](../../shapecollection)
+* Namespace [Aspose.Slides](../../shapecollection)
+* Assembly [Aspose.Slides](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,7 +1,7 @@
 ---
 title: Clear
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除所有元素。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中删除所有元素。
 type: docs
 weight: 60
 url: /zh/aspose.slides/paragraphcollection/clear/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/paragraphcollection/clear/
 
 ## ParagraphCollection.Clear 方法
 
-从集合中移除所有元素。
+从集合中删除所有元素。
 
 ```csharp
 public void Clear()
 ```
 
-### 另见
+### 另请参阅
 
 * 类 [ParagraphCollection](../../paragraphcollection)
 * 命名空间 [Aspose.Slides](../../paragraphcollection)

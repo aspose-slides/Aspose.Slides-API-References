@@ -19,7 +19,7 @@ public IInnerShadowEffectiveData GetEffective()
 
 一个 [`IInnerShadowEffectiveData`](../../iinnershadoweffectivedata)。
 
-### 另请参阅
+### 另见
 
 * 接口 [IInnerShadowEffectiveData](../../iinnershadoweffectivedata)
 * 类 [InnerShadow](../../innershadow)

@@ -15,10 +15,10 @@ Devuelve el índice de la diapositiva que se está renderizando actualmente. Sol
 public int SlideIndex { get; }
 ```
 
-### También Visto
+### Véase también
 
 * interfaz [IHtmlGenerator](../../ihtmlgenerator)
 * espacio de nombres [Aspose.Slides.Export](../../ihtmlgenerator)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

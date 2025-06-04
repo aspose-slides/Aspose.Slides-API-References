@@ -1,6 +1,6 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Slides pour l'API .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Constantes qui définissent le biseau 3D d'une forme.
 type: docs
 weight: 930
@@ -33,7 +33,7 @@ public enum BevelPresetType
 | Slope | `10` |  |
 | SoftRound | `11` |  |
 
-### Voir Aussi
+### Voir Également
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

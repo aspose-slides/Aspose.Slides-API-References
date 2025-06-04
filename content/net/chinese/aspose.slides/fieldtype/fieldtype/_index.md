@@ -15,7 +15,7 @@ url: /zh/aspose.slides/fieldtype/fieldtype/
 public FieldType(string str)
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [FieldType](../../fieldtype)
 * namespace [Aspose.Slides](../../fieldtype)

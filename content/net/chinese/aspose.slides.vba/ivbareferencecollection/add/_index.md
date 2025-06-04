@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 将新引用添加到引用集合
+second_title: Aspose.Sildes for .NET API Reference
+description: 将新参考添加到参考集合
 type: docs
 weight: 20
 url: /zh/aspose.slides.vba/ivbareferencecollection/add/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.vba/ivbareferencecollection/add/
 
 ## IVbaReferenceCollection.Add 方法
 
-将新引用添加到引用集合
+将新参考添加到参考集合
 
 ```csharp
 public void Add(IVbaReference value)
@@ -17,9 +17,9 @@ public void Add(IVbaReference value)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IVbaReference | VBA 项目引用 [`IVbaReference`](../../ivbareference) |
+| value | IVbaReference | VBA 项目参考 [`IVbaReference`](../../ivbareference) |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IVbaReference](../../ivbareference)
 * 接口 [IVbaReferenceCollection](../../ivbareferencecollection)

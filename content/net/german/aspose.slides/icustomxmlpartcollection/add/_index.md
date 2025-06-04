@@ -1,104 +1,104 @@
----
+---  
 title: Add
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
-type: docs
-weight: 20
+second_title: Aspose.Sildes für .NET API Referenz  
+description: Fügt ein neues benutzerdefiniertes XML-Teil hinzu.
+type: docs  
+weight: 20  
 url: /de/aspose.slides/icustomxmlpartcollection/add/
----
+---  
 
-## Add(byte[]) {#add}
+## Add(byte[]) {#add}  
 
-Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
+Fügt ein neues benutzerdefiniertes XML-Teil hinzu.  
 
-```csharp
-public ICustomXmlPart Add(byte[] xmlData)
-```
+```csharp  
+public ICustomXmlPart Add(byte[] xmlData)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| xmlData | Byte[] | Die XML-Daten des neuen hinzuzufügenden Teils. |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| xmlData | Byte[] | Die XML-Daten des neuen Teils, der hinzugefügt werden soll. |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Erstellter benutzerdefinierter XML-Teil.
+Erstellt ein benutzerdefiniertes XML-Teil.  
 
-### Ausnahmen
+### Ausnahmen  
 
-| Ausnahme | Bedingung |
-| --- | --- |
-| ArgumentNullException | xmlData ist `null`. |
-| ArgumentException | xmlData ist leer oder ungültig. |
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| ArgumentNullException | xmlData ist `null`. |  
+| ArgumentException | xmlData ist leer oder ungültig. |  
 
-### Siehe auch
+### Siehe auch  
 
-* Schnittstelle [ICustomXmlPart](../../icustomxmlpart)
-* Schnittstelle [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* Namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* Assembly [Aspose.Slides](../../../)
+* Schnittstelle [ICustomXmlPart](../../icustomxmlpart)  
+* Schnittstelle [ICustomXmlPartCollection](../../icustomxmlpartcollection)  
+* Namespace [Aspose.Slides](../../icustomxmlpartcollection)  
+* Assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## Add(string) {#add_2}
+## Add(string) {#add_2}  
 
-Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
+Fügt ein neues benutzerdefiniertes XML-Teil hinzu.  
 
-```csharp
-public ICustomXmlPart Add(string xmlString)
-```
+```csharp  
+public ICustomXmlPart Add(string xmlString)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| xmlString | String | Der XML-String des neuen hinzuzufügenden Teils. |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| xmlString | String | Die XML-Zeichenfolge des neuen Teils, der hinzugefügt werden soll. |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Erstellter benutzerdefinierter XML-Teil.
+Erstellt ein benutzerdefiniertes XML-Teil.  
 
-### Ausnahmen
+### Ausnahmen  
 
-| Ausnahme | Bedingung |
-| --- | --- |
-| ArgumentNullException | xmlString ist `null`. |
-| ArgumentException | xmlString ist leer oder die XML-Daten sind ungültig. |
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| ArgumentNullException | xmlString ist `null`. |  
+| ArgumentException | xmlString ist leer oder XML-Daten sind ungültig. |  
 
-### Siehe auch
+### Siehe auch  
 
-* Schnittstelle [ICustomXmlPart](../../icustomxmlpart)
-* Schnittstelle [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* Namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* Assembly [Aspose.Slides](../../../)
+* Schnittstelle [ICustomXmlPart](../../icustomxmlpart)  
+* Schnittstelle [ICustomXmlPartCollection](../../icustomxmlpartcollection)  
+* Namespace [Aspose.Slides](../../icustomxmlpartcollection)  
+* Assembly [Aspose.Slides](../../../)  
 
----
+---  
 
-## Add(Stream) {#add_1}
+## Add(Stream) {#add_1}  
 
-Fügt einen neuen benutzerdefinierten XML-Teil hinzu.
+Fügt ein neues benutzerdefiniertes XML-Teil hinzu.  
 
-```csharp
-public ICustomXmlPart Add(Stream inputStream)
-```
+```csharp  
+public ICustomXmlPart Add(Stream inputStream)  
+```  
 
-| Parameter | Typ | Beschreibung |
-| --- | --- | --- |
-| inputStream | Stream | Der inputStream mit XML-Daten des neuen hinzuzufügenden Teils. |
+| Parameter | Typ | Beschreibung |  
+| --- | --- | --- |  
+| inputStream | Stream | Der inputStream mit XML-Daten des neuen Teils, der hinzugefügt werden soll. |  
 
-### Rückgabewert
+### Rückgabewert  
 
-Erstellter benutzerdefinierter XML-Teil.
+Erstellt ein benutzerdefiniertes XML-Teil.  
 
-### Ausnahmen
+### Ausnahmen  
 
-| Ausnahme | Bedingung |
-| --- | --- |
-| ArgumentNullException | inputStream ist `null`. |
-| ArgumentException | Die Daten im inputStream sind leer oder ungültig. |
+| Ausnahme | Bedingung |  
+| --- | --- |  
+| ArgumentNullException | inputStream ist `null`. |  
+| ArgumentException | Daten im inputStream sind leer oder ungültig. |  
 
-### Siehe auch
+### Siehe auch  
 
-* Schnittstelle [ICustomXmlPart](../../icustomxmlpart)
-* Schnittstelle [ICustomXmlPartCollection](../../icustomxmlpartcollection)
-* Namespace [Aspose.Slides](../../icustomxmlpartcollection)
-* Assembly [Aspose.Slides](../../../)
+* Schnittstelle [ICustomXmlPart](../../icustomxmlpart)  
+* Schnittstelle [ICustomXmlPartCollection](../../icustomxmlpartcollection)  
+* Namespace [Aspose.Slides](../../icustomxmlpartcollection)  
+* Assembly [Aspose.Slides](../../../)  
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

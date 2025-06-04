@@ -1,13 +1,13 @@
 ---
 title: MajorTickMark
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Représente le type de marque principale pour l'axe spécifié. Lecture/écriture TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 350
 url: /fr/aspose.slides.charts/iaxis/majortickmark/
 ---
 
-## Propriété IAxis.MajorTickMark
+## IAxis.MajorTickMark propriété
 
 Représente le type de marque principale pour l'axe spécifié. Lecture/écriture [`TickMarkType`](../../tickmarktype).
 

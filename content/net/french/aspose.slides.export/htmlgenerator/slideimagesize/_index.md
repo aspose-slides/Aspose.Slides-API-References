@@ -15,9 +15,9 @@ Renvoie la taille de l'image de la diapositive. TailleF en lecture seule.
 public SizeF SlideImageSize { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* classe [HtmlGenerator](../../htmlgenerator)
+* class [HtmlGenerator](../../htmlgenerator)
 * namespace [Aspose.Slides.Export](../../htmlgenerator)
 * assembly [Aspose.Slides](../../../)
 

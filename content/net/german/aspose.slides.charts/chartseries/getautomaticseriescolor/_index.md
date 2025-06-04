@@ -1,13 +1,13 @@
 ---
 title: GetAutomaticSeriesColor
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt eine automatische Farbe der Serie basierend auf dem Serienindex und dem Diagrammstil zurück. Diese Farbe wird standardmäßig verwendet, wenn FillType gleich NotDefined ist.
 type: docs
 weight: 450
 url: /de/aspose.slides.charts/chartseries/getautomaticseriescolor/
 ---
 
-## ChartSeries.GetAutomaticSeriesColor-Methode
+## ChartSeries.GetAutomaticSeriesColor Methode
 
 Gibt eine automatische Farbe der Serie basierend auf dem Serienindex und dem Diagrammstil zurück. Diese Farbe wird standardmäßig verwendet, wenn FillType gleich NotDefined ist.
 

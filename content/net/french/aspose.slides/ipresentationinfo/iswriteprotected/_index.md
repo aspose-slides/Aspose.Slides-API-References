@@ -1,7 +1,7 @@
 ---
 title: IsWriteProtected
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient une valeur qui indique si une présentation liée est protégée en écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient une valeur qui indique si une présentation liée est protégée contre l'écriture.
 type: docs
 weight: 30
 url: /fr/aspose.slides/ipresentationinfo/iswriteprotected/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ipresentationinfo/iswriteprotected/
 
 ## Propriété IPresentationInfo.IsWriteProtected
 
-Obtient une valeur qui indique si une présentation liée est protégée en écriture.
+Obtient une valeur qui indique si une présentation liée est protégée contre l'écriture.
 
 ```csharp
 public NullableBool IsWriteProtected { get; }
@@ -17,7 +17,7 @@ public NullableBool IsWriteProtected { get; }
 
 ### Remarques
 
-Si la présentation est protégée par un mot de passe pour ouvrir, la valeur de la propriété est égale à NotDefined. Voir l'énumération [`NullableBool`](../../nullablebool).
+Si la présentation est protégée par un mot de passe pour l'ouvrir, la valeur de la propriété est égale à NotDefined. Voir l'énumération [`NullableBool`](../../nullablebool).
 
 ### Exemples
 
@@ -26,7 +26,7 @@ Si la présentation est protégée par un mot de passe pour ouvrir, la valeur de
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo(presentationFilePath);
 if (info.IsWriteProtected == NullableBool.True)
 {
-    Console.WriteLine("La présentation '" + presentationFilePath + "' est protégée en écriture par un mot de passe.");
+    Console.WriteLine("La présentation '" + presentationFilePath + "' est protégée contre l'écriture par un mot de passe.");
 }
 ```
 

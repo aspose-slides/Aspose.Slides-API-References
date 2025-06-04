@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartseries/quartilemethod/
 public QuartileMethodType QuartileMethod { get; set; }
 ```
 
-### 另请参阅
+### 另见
 
 * enum [QuartileMethodType](../../quartilemethodtype)
 * interface [IChartSeries](../../ichartseries)

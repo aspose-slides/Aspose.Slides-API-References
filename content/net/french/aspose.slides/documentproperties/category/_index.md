@@ -1,13 +1,13 @@
 ---
 title: Category
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie ou définit la catégorie d'une présentation. Chaîne en lecture/écriture.
 type: docs
 weight: 50
 url: /fr/aspose.slides/documentproperties/category/
 ---
 
-## Propriété DocumentProperties.Category
+## DocumentProperties.Category property
 
 Renvoie ou définit la catégorie d'une présentation. Chaîne en lecture/écriture.
 

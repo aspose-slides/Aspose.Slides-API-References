@@ -1,6 +1,6 @@
 ---
 title: MathFraction
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Initialise MathFraction avec le numérateur, le dénominateur et le type spécifiés
 type: docs
 weight: 10

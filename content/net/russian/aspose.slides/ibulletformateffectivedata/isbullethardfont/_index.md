@@ -1,21 +1,21 @@
 ---
 title: IsBulletHardFont
-second_title: Aspose.Slides для .NET API Справочник
-description: Определяет, имеет ли маркер собственный шрифт или наследует его от первой части в абзаце. Возвращает **true**, если маркер имеет собственный шрифт, и **true**, если маркер наследует шрифт от первой части в абзаце. Свойство только для чтения, тип Boolean.
+second_title: Aspose.Sildes для .NET API Reference
+description: Определяет, имеет ли маркер собственный шрифт или наследует его от первой части абзаца. Возвращает true, если маркер имеет собственный шрифт, и true, если маркер наследует шрифт от первой части абзаца. Свойство только для чтения, тип Boolean.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ibulletformateffectivedata/isbullethardfont/
 ---
 
-## IBulletFormatEffectiveData.IsBulletHardFont свойство
+## IBulletFormatEffectiveData.IsBulletHardFont property
 
-Определяет, имеет ли маркер собственный шрифт или наследует его от первой части в абзаце. Возвращает **true**, если маркер имеет собственный шрифт, и **true**, если маркер наследует шрифт от первой части в абзаце. Свойство только для чтения, тип Boolean.
+Определяет, имеет ли маркер собственный шрифт или наследует его от первой части абзаца. Возвращает **true**, если маркер имеет собственный шрифт, и **true**, если маркер наследует шрифт от первой части абзаца. Свойство только для чтения, тип Boolean.
 
 ```csharp
 public bool IsBulletHardFont { get; }
 ```
 
-### Смотрите также
+### См. Также
 
 * интерфейс [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * пространство имен [Aspose.Slides](../../ibulletformateffectivedata)

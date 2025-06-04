@@ -1,7 +1,7 @@
 ---
 title: MinimalHeight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的最小高度。这是被单元格覆盖的所有行的最小高度之和。只读 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回单元格的最小高度。这是单元格所覆盖的所有行的最小高度之和。只读 Double。
 type: docs
 weight: 150
 url: /zh/aspose.slides/icell/minimalheight/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icell/minimalheight/
 
 ## ICell.MinimalHeight 属性
 
-返回单元格的最小高度。这是被单元格覆盖的所有行的最小高度之和。只读 Double。
+返回单元格的最小高度。这是单元格所覆盖的所有行的最小高度之和。只读 Double。
 
 ```csharp
 public double MinimalHeight { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [ICell](../../icell)
 * 命名空间 [Aspose.Slides](../../icell)

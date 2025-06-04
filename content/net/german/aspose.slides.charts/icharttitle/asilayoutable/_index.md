@@ -1,7 +1,7 @@
 ---
 title: AsILayoutable
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ermöglicht den Zugriff auf die Basis-Ilayoutable-Schnittstelle. Nur lesbare ILayoutable aspose.slides.charts/ilayoutable.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ermöglicht den Zugriff auf die grundlegende ILayoutable-Schnittstelle. Nur-lesbares ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/icharttitle/asilayoutable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/icharttitle/asilayoutable/
 
 ## IChartTitle.AsILayoutable-Eigenschaft
 
-Ermöglicht den Zugriff auf die Basis-Ilayoutable-Schnittstelle. Nur lesbare [`ILayoutable`](../../ilayoutable).
+Ermöglicht den Zugriff auf die grundlegende ILayoutable-Schnittstelle. Nur-lesbares [`ILayoutable`](../../ilayoutable).
 
 ```csharp
 public ILayoutable AsILayoutable { get; }

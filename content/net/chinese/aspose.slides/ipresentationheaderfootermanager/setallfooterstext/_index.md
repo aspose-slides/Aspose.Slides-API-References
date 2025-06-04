@@ -1,7 +1,7 @@
 ---
 title: SetAllFootersText
-second_title: Aspose.Sildes for .NET API 参考
-description: 设置所有页脚占位符的文本，包括母板幻灯片、布局幻灯片和幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 设置所有页脚占位符的文本，包括母版幻灯片、布局幻灯片和幻灯片。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ipresentationheaderfootermanager/setallfooterstext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ipresentationheaderfootermanager/setallfooterstext/
 
 ## IPresentationHeaderFooterManager.SetAllFootersText 方法
 
-设置所有页脚占位符的文本，包括母板幻灯片、布局幻灯片和幻灯片。
+设置所有页脚占位符的文本，包括母版幻灯片、布局幻灯片和幻灯片。
 
 ```csharp
 public void SetAllFootersText(string text)
@@ -19,7 +19,7 @@ public void SetAllFootersText(string text)
 | --- | --- | --- |
 | text | String | 要设置的文本。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)
 * 命名空间 [Aspose.Slides](../../ipresentationheaderfootermanager)

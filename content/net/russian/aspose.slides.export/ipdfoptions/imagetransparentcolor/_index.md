@@ -1,15 +1,15 @@
 ---
 title: ImageTransparentColor
-second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает прозрачный цвет изображения.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Получает или задает прозрачный цвет изображения.
 type: docs
 weight: 100
 url: /ru/aspose.slides.export/ipdfoptions/imagetransparentcolor/
 ---
 
-## Свойство IPdfOptions.ImageTransparentColor
+## IPdfOptions.ImageTransparentColor свойство
 
-Получает или устанавливает прозрачный цвет изображения.
+Получает или задает прозрачный цвет изображения.
 
 ```csharp
 public Color ImageTransparentColor { get; set; }
@@ -17,9 +17,9 @@ public Color ImageTransparentColor { get; set; }
 
 ### Значение свойства
 
-Цвет прозрачного участка изображения.
+Цвет прозрачной области изображения.
 
-### См. также
+### См. Также
 
 * интерфейс [IPdfOptions](../../ipdfoptions)
 * пространство имен [Aspose.Slides.Export](../../ipdfoptions)

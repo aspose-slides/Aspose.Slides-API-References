@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
-second_title: Aspose.Sildes для .NET API Справочник
-description: Изменяет видимость плейсхолдера нижнего колонтитула слайда макета и всех плейсхолдеров нижних колонтитулов дочерних слайдов. Дочерние плейсхолдеры означают плейсхолдеры, содержащиеся на зависимых слайдах. Зависимые слайды используют и зависят от слайда-примера.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Изменяет видимость заполнителя нижнего колонтитула слайда макета и всех заполнителей нижних колонтитулов потомков. Заполнители потомков означают заполнители, которые содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда-образца.
 type: docs
 weight: 50
 url: /ru/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersv
 
 ## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility метод
 
-Изменяет видимость плейсхолдера нижнего колонтитула слайда макета и всех плейсхолдеров нижних колонтитулов дочерних слайдов. Дочерние плейсхолдеры означают плейсхолдеры, содержащиеся на зависимых слайдах. Зависимые слайды используют и зависят от слайда-примера.
+Изменяет видимость заполнителя нижнего колонтитула слайда макета и всех заполнителей нижних колонтитулов потомков. Заполнители потомков означают заполнители, которые содержатся на зависимых слайдах. Зависимые слайды используют и зависят от слайда-образца.
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)
@@ -17,9 +17,9 @@ public void SetFooterAndChildFootersVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает плейсхолдеры нижнего колонтитула видимыми, в противном случае - скрывает их. |
+| isVisible | Boolean | true - делает заполнители нижнего колонтитула видимыми, иначе - скрывает их. |
 
-### См. также
+### См. Также
 
 * интерфейс [ILayoutSlideHeaderFooterManager](../../ilayoutslideheaderfootermanager)
 * пространство имен [Aspose.Slides](../../ilayoutslideheaderfootermanager)

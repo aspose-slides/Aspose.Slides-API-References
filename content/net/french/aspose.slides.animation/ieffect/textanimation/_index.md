@@ -1,13 +1,13 @@
 ---
 title: TextAnimation
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Renvoie l'animation de texte. Lecture seule ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
 weight: 120
 url: /fr/aspose.slides.animation/ieffect/textanimation/
 ---
 
-## Propriété IEffect.TextAnimation
+## IEffect.TextAnimation propriété
 
 Renvoie l'animation de texte. Lecture seule [`ITextAnimation`](../../itextanimation).
 

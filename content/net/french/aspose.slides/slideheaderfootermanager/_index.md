@@ -1,7 +1,7 @@
 ---
 title: SlideHeaderFooterManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente un gestionnaire qui contient le comportement des éléments de pied de page de diapositive, de date-heure et de numéro de page.
+description: Représente le gestionnaire qui possède le comportement des espaces réservés pour la date-heure et le numéro de page du pied de page de la diapositive.
 type: docs
 weight: 9670
 url: /fr/aspose.slides/slideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/slideheaderfootermanager/
 
 ## Classe SlideHeaderFooterManager
 
-Représente un gestionnaire qui contient le comportement du pied de page de la diapositive, de la date-heure et des éléments de numéro de page.
+Représente le gestionnaire qui possède le comportement du pied de page de la diapositive, de la date-heure et des espaces réservés pour le numéro de page.
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -20,21 +20,21 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | Nom | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de date-heure est présent. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de pied de page est présent. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé de numéro de page est présent. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour la date-heure est présent. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour le pied de page est présent. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Obtient la valeur indiquant qu'un espace réservé pour le numéro de page est présent. ReadBoolean. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte pour l'espace réservé de date-heure de la diapositive. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Change la visibilité de l'espace réservé de date-heure de la diapositive. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte pour l'espace réservé de pied de page de la diapositive. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Change la visibilité de l'espace réservé de pied de page de la diapositive. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Change la visibilité de l'espace réservé de numéro de page de la diapositive. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Définit le texte pour l'espace réservé de la date-heure de la diapositive. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Change la visibilité de l'espace réservé pour la date-heure de la diapositive. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Définit le texte pour l'espace réservé du pied de page de la diapositive. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Change la visibilité de l'espace réservé pour le pied de page de la diapositive. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Change la visibilité de l'espace réservé pour le numéro de page de la diapositive. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * interface [ISlideHeaderFooterManager](../islideheaderfootermanager)

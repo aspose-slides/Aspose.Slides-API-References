@@ -1,7 +1,7 @@
 ---
 title: BrowsedAtKiosk
-second_title: Referencia de la API Aspose.Sildes para .NET
-description: Navegado en un quiosco en pantalla completa
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Navegado en un quiosco a pantalla completa
 type: docs
 weight: 960
 url: /es/aspose.slides/browsedatkiosk/
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Ver También
+### Véase También
 
 * clase [SlideShowType](../slideshowtype)
 * espacio de nombres [Aspose.Slides](../../aspose.slides)

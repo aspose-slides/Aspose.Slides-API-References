@@ -1,7 +1,7 @@
 ---
 title: CurrentDateTime
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la fecha y hora que sustituirá el contenido de los campos de fecha y hora. Hora de la creación de este objeto Presentation de forma predeterminada. Fecha y hora de lectura/escritura.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve o establece la fecha y hora que sustituirán el contenido de los campos de fecha y hora. Hora de creación de este objeto Presentation por defecto. Lectura/escritura DateTime.
 type: docs
 weight: 60
 url: /es/aspose.slides/ipresentation/currentdatetime/
@@ -9,16 +9,16 @@ url: /es/aspose.slides/ipresentation/currentdatetime/
 
 ## Propiedad IPresentation.CurrentDateTime
 
-Devuelve o establece la fecha y hora que sustituirá el contenido de los campos de fecha y hora. Hora de la creación de este objeto Presentation de forma predeterminada. Fecha y hora de lectura/escritura.
+Devuelve o establece la fecha y hora que sustituirán el contenido de los campos de fecha y hora. Hora de creación de este objeto Presentation por defecto. Lectura/escritura DateTime.
 
 ```csharp
 public DateTime CurrentDateTime { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [IPresentation](../../ipresentation)
 * espacio de nombres [Aspose.Slides](../../ipresentation)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

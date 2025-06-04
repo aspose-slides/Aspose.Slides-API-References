@@ -1,7 +1,7 @@
 ---
 title: DefaultRegularFont
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit la police utilisée en cas d'absence de la police source. Chaîne en lecture-écriture.
+description: Retourne ou définit la police utilisée en cas d'absence de la police source. Chaîne en lecture-écriture.
 type: docs
 weight: 10
 url: /fr/aspose.slides.export/saveoptions/defaultregularfont/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.export/saveoptions/defaultregularfont/
 
 ## Propriété SaveOptions.DefaultRegularFont
 
-Renvoie ou définit la police utilisée en cas d'absence de la police source. Chaîne en lecture-écriture.
+Retourne ou définit la police utilisée en cas d'absence de la police source. Chaîne en lecture-écriture.
 
 ```csharp
 public string DefaultRegularFont { get; set; }
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("SomePresentation.pptx"))
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [SaveOptions](../../saveoptions)
 * espace de noms [Aspose.Slides.Export](../../saveoptions)

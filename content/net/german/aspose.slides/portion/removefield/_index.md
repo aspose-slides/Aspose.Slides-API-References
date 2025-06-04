@@ -1,6 +1,6 @@
 ---
 title: RemoveField
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Konvertiert diesen Feldanteil in den einfachen Anteil.
 type: docs
 weight: 80
@@ -15,7 +15,7 @@ Konvertiert diesen Feldanteil in den einfachen Anteil.
 public void RemoveField()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Portion](../../portion)
 * Namespace [Aspose.Slides](../../portion)

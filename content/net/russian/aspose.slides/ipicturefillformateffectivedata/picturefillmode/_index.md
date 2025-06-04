@@ -1,21 +1,21 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Slides для .NET API Справочник
-description: Возвращает режим заливки изображения. Только для чтения PictureFillModeaspose.slides/picturefillmode.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает режим заполнения изображения. Только для чтения PictureFillModeaspose.slides/picturefillmode.
 type: docs
 weight: 80
 url: /ru/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
 ---
 
-## Свойство IPictureFillFormatEffectiveData.PictureFillMode
+## IPictureFillFormatEffectiveData.PictureFillMode свойство
 
-Возвращает режим заливки изображения. Только для чтения [`PictureFillMode`](../../picturefillmode).
+Возвращает режим заполнения изображения. Только для чтения [`PictureFillMode`](../../picturefillmode).
 
 ```csharp
 public PictureFillMode PictureFillMode { get; }
 ```
 
-### См. Также
+### См. также
 
 * enum [PictureFillMode](../../picturefillmode)
 * interface [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)

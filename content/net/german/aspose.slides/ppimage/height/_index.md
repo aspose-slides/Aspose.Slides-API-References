@@ -1,7 +1,7 @@
 ---
 title: Height
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Höhe eines Bildes zurück. Nur-Lese Int32.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt die Höhe eines Bildes zurück. Schreibgeschütztes Int32.
 type: docs
 weight: 30
 url: /de/aspose.slides/ppimage/height/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ppimage/height/
 
 ## PPImage.Height-Eigenschaft
 
-Gibt die Höhe eines Bildes zurück. Nur-Lese Int32.
+Gibt die Höhe eines Bildes zurück. Schreibgeschütztes Int32.
 
 ```csharp
 public int Height { get; }

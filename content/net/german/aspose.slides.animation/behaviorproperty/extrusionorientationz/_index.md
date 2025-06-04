@@ -7,7 +7,7 @@ weight: 110
 url: /de/aspose.slides.animation/behaviorproperty/extrusionorientationz/
 ---
 
-## BehaviorProperty.ExtrusionOrientationZ Eigenschaft
+## BehaviorProperty.ExtrusionOrientationZ-Eigenschaft
 
 Stellt die Eigenschaft 'extrusion.orientation.z' dar
 
@@ -15,7 +15,7 @@ Stellt die Eigenschaft 'extrusion.orientation.z' dar
 public static BehaviorProperty ExtrusionOrientationZ { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [BehaviorProperty](../../behaviorproperty)
 * Namespace [Aspose.Slides.Animation](../../behaviorproperty)

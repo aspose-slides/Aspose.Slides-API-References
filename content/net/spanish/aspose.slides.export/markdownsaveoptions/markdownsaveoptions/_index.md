@@ -1,6 +1,6 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Slides para .NET API Reference
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Ctor.
 type: docs
 weight: 10
@@ -15,10 +15,10 @@ Ctor.
 public MarkdownSaveOptions()
 ```
 
-### Véase también
+### Ver también
 
-* clase [MarkdownSaveOptions](../../markdownsaveoptions)
+* class [MarkdownSaveOptions](../../markdownsaveoptions)
 * namespace [Aspose.Slides.Export](../../markdownsaveoptions)
-* ensamblado [Aspose.Slides](../../../)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

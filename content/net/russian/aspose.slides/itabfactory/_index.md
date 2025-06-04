@@ -1,6 +1,6 @@
 ---
 title: ITabFactory
-second_title: Aspose.Slides для .NET API Reference
+second_title: Справка по API Aspose.Slides для .NET
 description: Позволяет создавать экземпляры ITab
 type: docs
 weight: 7000
@@ -25,7 +25,7 @@ public interface ITabFactory
 
 Для совместимости с COM.
 
-### Также смотри
+### Смотрите также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

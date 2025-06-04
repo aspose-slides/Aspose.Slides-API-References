@@ -1,13 +1,13 @@
 ---
 title: ResetLicense
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour la référence API .NET
 description: Réinitialiser la licence
 type: docs
 weight: 20
 url: /fr/aspose.slides/ilicense/resetlicense/
 ---
 
-## Méthode ILicense.ResetLicense
+## ILicense.ResetLicense méthode
 
 Réinitialiser la licence
 

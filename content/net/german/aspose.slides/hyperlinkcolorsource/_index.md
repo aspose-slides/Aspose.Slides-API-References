@@ -7,7 +7,7 @@ weight: 4940
 url: /de/aspose.slides/hyperlinkcolorsource/
 ---
 
-## HyperlinkColorSource Aufzählung
+## HyperlinkColorSource-Aufzählung
 
 Stellt die Quelle der Hyperlinkfarbe dar.
 
@@ -22,7 +22,7 @@ public enum HyperlinkColorSource
 | Styles | `0` | Stile. |
 | PortionFormat | `1` | Portionsformat. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides](../../aspose.slides)
 * Assembly [Aspose.Slides](../../)

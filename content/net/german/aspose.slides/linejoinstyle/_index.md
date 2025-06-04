@@ -1,7 +1,7 @@
 ---
 title: LineJoinStyle
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt den Linienstil für die Verbindungen dar.
+description: Stellt den Stil des Linienverbunds dar.
 type: docs
 weight: 7560
 url: /de/aspose.slides/linejoinstyle/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/linejoinstyle/
 
 ## LineJoinStyle Aufzählung
 
-Stellt den Linienstil für die Verbindungen dar.
+Stellt den Stil des Linienverbunds dar.
 
 ```csharp
 public enum LineJoinStyle : sbyte

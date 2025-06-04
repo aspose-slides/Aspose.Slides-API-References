@@ -1,6 +1,6 @@
 ---
 title: ComplexScriptFont
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour la référence API .NET
 description: Renvoie ou définit la police de script complexe. Lecture/écriture IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 10

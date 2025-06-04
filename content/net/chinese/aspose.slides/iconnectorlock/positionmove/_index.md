@@ -1,13 +1,13 @@
 ---
 title: PositionMove
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定移动此形状是否被禁止。可读写布尔值。
 type: docs
 weight: 70
 url: /zh/aspose.slides/iconnectorlock/positionmove/
 ---
 
-## IConnectorLock.PositionMove 属性
+## IConnectorLock.PositionMove property
 
 确定移动此形状是否被禁止。可读写布尔值。
 

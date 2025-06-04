@@ -1,7 +1,7 @@
 ---
 title: AddAttributeValue
-second_title: Aspose.Slides for .NET API 参考
-description: 引号属性值并将其添加到 HTML 文件中。
+second_title: Aspose.Sildes for .NET API Reference
+description: 引用属性值并将其添加到 HTML 文件中。
 type: docs
 weight: 70
 url: /zh/aspose.slides.export/htmlgenerator/addattributevalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/htmlgenerator/addattributevalue/
 
 ## AddAttributeValue(string) {#addattributevalue_2}
 
-引号属性值并将其添加到 HTML 文件中。
+引用属性值并将其添加到 HTML 文件中。
 
 ```csharp
 public void AddAttributeValue(string value)
@@ -19,7 +19,7 @@ public void AddAttributeValue(string value)
 | --- | --- | --- |
 | value | String | 属性值字符串。 |
 
-### 另请参见
+### 参见
 
 * class [HtmlGenerator](../../htmlgenerator)
 * namespace [Aspose.Slides.Export](../../htmlgenerator)
@@ -29,7 +29,7 @@ public void AddAttributeValue(string value)
 
 ## AddAttributeValue(char[]) {#addattributevalue}
 
-引号属性值并将其添加到 HTML 文件中。
+引用属性值并将其添加到 HTML 文件中。
 
 ```csharp
 public void AddAttributeValue(char[] value)
@@ -39,7 +39,7 @@ public void AddAttributeValue(char[] value)
 | --- | --- | --- |
 | value | Char[] | 属性值字符串。 |
 
-### 另请参见
+### 参见
 
 * class [HtmlGenerator](../../htmlgenerator)
 * namespace [Aspose.Slides.Export](../../htmlgenerator)
@@ -49,7 +49,7 @@ public void AddAttributeValue(char[] value)
 
 ## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
-引号属性值并将其添加到 HTML 文件中。
+引用属性值并将其添加到 HTML 文件中。
 
 ```csharp
 public void AddAttributeValue(char[] value, int startIndex, int length)
@@ -61,7 +61,7 @@ public void AddAttributeValue(char[] value, int startIndex, int length)
 | startIndex | Int32 | 要添加部分的起始索引。 |
 | length | Int32 | 要添加部分的长度。 |
 
-### 另请参见
+### 参见
 
 * class [HtmlGenerator](../../htmlgenerator)
 * namespace [Aspose.Slides.Export](../../htmlgenerator)

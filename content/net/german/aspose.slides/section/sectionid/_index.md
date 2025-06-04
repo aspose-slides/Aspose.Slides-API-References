@@ -15,7 +15,7 @@ Abschnitts-ID.
 public Guid SectionId { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Section](../../section)
 * Namespace [Aspose.Slides](../../section)

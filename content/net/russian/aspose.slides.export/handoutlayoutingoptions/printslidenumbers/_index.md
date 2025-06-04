@@ -1,15 +1,15 @@
 ---
 title: PrintSlideNumbers
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Указывает, нужно ли печатать отображаемые номера слайдов.
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает, следует ли печатать отображаемые номера слайдов.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/handoutlayoutingoptions/printslidenumbers/
 ---
 
-## Свойство HandoutLayoutingOptions.PrintSlideNumbers
+## HandoutLayoutingOptions.PrintSlideNumbers свойство
 
-Указывает, нужно ли печатать отображаемые номера слайдов.
+Указывает, следует ли печатать отображаемые номера слайдов.
 
 ```csharp
 public bool PrintSlideNumbers { get; set; }
@@ -17,7 +17,7 @@ public bool PrintSlideNumbers { get; set; }
 
 ### Примечания
 
-Значение по умолчанию — **true**.
+Значение по умолчанию - **true**.
 
 ### Примеры
 
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [HandoutLayoutingOptions](../../handoutlayoutingoptions)
 * пространство имен [Aspose.Slides.Export](../../handoutlayoutingoptions)

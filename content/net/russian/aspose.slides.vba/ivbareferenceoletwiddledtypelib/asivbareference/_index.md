@@ -19,7 +19,7 @@ public IVbaReference AsIVbaReference { get; }
 
 Для совместимости с COM.
 
-### См. также
+### Смотрите также
 
 * интерфейс [IVbaReference](../../ivbareference)
 * интерфейс [IVbaReferenceOleTwiddledTypeLib](../../ivbareferenceoletwiddledtypelib)

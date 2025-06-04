@@ -15,7 +15,7 @@ url: /ru/aspose.slides.animation/textanimationcollection/textanimationcollection
 public TextAnimationCollection()
 ```
 
-### Также см.
+### Также смотри
 
 * класс [TextAnimationCollection](../../textanimationcollection)
 * пространство имен [Aspose.Slides.Animation](../../textanimationcollection)

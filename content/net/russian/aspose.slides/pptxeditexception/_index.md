@@ -1,7 +1,7 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes для .NET API Справочник
-description: Представляет исключение, возбужденное при обнаружении ошибки редактирования презентации.
+second_title: Справочник API Aspose.Slides для .NET
+description: Представляет собой исключение, выбрасываемое при обнаружении ошибки редактирования презентации.
 type: docs
 weight: 9280
 url: /ru/aspose.slides/pptxeditexception/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/pptxeditexception/
 
 ## Класс PptxEditException
 
-Представляет исключение, возбужденное при обнаружении ошибки редактирования презентации.
+Представляет собой исключение, выбрасываемое при обнаружении ошибки редактирования презентации.
 
 ```csharp
 public class PptxEditException : PptxException
@@ -17,13 +17,13 @@ public class PptxEditException : PptxException
 
 ## Конструкторы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Конструктор по умолчанию. |
 | [PptxEditException](pptxeditexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащее сообщение и встроенное исключение. |
 
-### Смотрите Также
+### См. также
 
 * класс [PptxException](../pptxexception)
 * пространство имен [Aspose.Slides](../../aspose.slides)

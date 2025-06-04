@@ -1,7 +1,7 @@
 ---
 title: CropLeft
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie ou définit le nombre de pourcentages de la largeur réelle de l'image qui sont coupés à gauche de l'image. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie ou définit le nombre de pourcentages de la largeur réelle de l'image qui est coupée sur la gauche de l'image. Lecture/écriture Simple.
 type: docs
 weight: 20
 url: /fr/aspose.slides/picturefillformat/cropleft/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides/picturefillformat/cropleft/
 
 ## Propriété PictureFillFormat.CropLeft
 
-Renvoie ou définit le nombre de pourcentages de la largeur réelle de l'image qui sont coupés à gauche de l'image. Lecture/écriture Single.
+Renvoie ou définit le nombre de pourcentages de la largeur réelle de l'image qui est coupée sur la gauche de l'image. Lecture/écriture Simple.
 
 ```csharp
 public float CropLeft { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * classe [PictureFillFormat](../../picturefillformat)
 * espace de noms [Aspose.Slides](../../picturefillformat)

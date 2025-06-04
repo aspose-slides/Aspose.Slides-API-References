@@ -1,7 +1,7 @@
 ---
 title: Thickness
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Wanddicke als Prozentsatz der größten Dimension des Plotvolumens zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die Wandstärke als Prozentsatz der größten Dimension des Diagrammvolumens zurück oder setzt sie. Lese-/schreibbar Int32.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/ichartwall/thickness/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartwall/thickness/
 
 ## IChartWall.Thickness-Eigenschaft
 
-Gibt die Wanddicke als Prozentsatz der größten Dimension des Plotvolumens zurück oder setzt sie. Lese-/Schreibzugriff Int32.
+Gibt die Wandstärke als Prozentsatz der größten Dimension des Diagrammvolumens zurück oder setzt sie. Lese-/schreibbar Int32.
 
 ```csharp
 public int Thickness { get; set; }

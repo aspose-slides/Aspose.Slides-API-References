@@ -1,7 +1,7 @@
 ---
 title: IsBulletHardColor
-second_title: Aspose.Sildes for .NET API 参考
-description: 确定项目符号是否具有自己的颜色或从段落中的第一部分继承颜色。如果项目符号具有自己的颜色，则返回 **true**，如果项目符号从段落中的第一部分继承颜色，则返回 **false**。这是一个只读布尔值。
+second_title: Aspose.Sildes for .NET API Reference
+description: 确定项目符号是否具有自己的颜色，或者从段落的第一部分继承颜色。如果项目符号具有自己的颜色，返回 **true**；如果项目符号从段落的第一部分继承颜色，则返回 **false**。只读布尔值。
 type: docs
 weight: 60
 url: /zh/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
 
 ## IBulletFormatEffectiveData.IsBulletHardColor 属性
 
-确定项目符号是否具有自己的颜色或从段落中的第一部分继承颜色。如果项目符号具有自己的颜色，则返回 **true**，如果项目符号从段落中的第一部分继承颜色，则返回 **false**。这是一个只读布尔值。
+确定项目符号是否具有自己的颜色，或者从段落的第一部分继承颜色。如果项目符号具有自己的颜色，返回 **true**；如果项目符号从段落的第一部分继承颜色，则返回 **false**。只读布尔值。
 
 ```csharp
 public bool IsBulletHardColor { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IBulletFormatEffectiveData](../../ibulletformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ibulletformateffectivedata)

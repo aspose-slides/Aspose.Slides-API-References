@@ -1,6 +1,6 @@
 ---
 title: NoLocks
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve verdadero si todas las banderas de bloqueo están desactivadas. Booleano de solo lectura.
 type: docs
 weight: 10
@@ -17,8 +17,8 @@ public bool NoLocks { get; }
 
 ### Véase también
 
-* interfaz [IBaseShapeLock](../../ibaseshapelock)
-* espacio de nombres [Aspose.Slides](../../ibaseshapelock)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IBaseShapeLock](../../ibaseshapelock)
+* espacio de nombres [Aspose.Slides](../../ibaseshapelock)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

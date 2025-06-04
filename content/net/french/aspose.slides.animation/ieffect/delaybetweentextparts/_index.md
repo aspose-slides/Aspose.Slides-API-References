@@ -1,15 +1,15 @@
 ---
 title: DelayBetweenTextParts
-second_title: Référence API Aspose.Slides pour .NET
-description: Définit un délai entre les parties de texte animées mots ou lettres. Une valeur positive spécifie le pourcentage de durée de l'effet. Une valeur négative spécifie le délai en secondes. Lecture/écriture Single.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Définit un délai entre les parties de texte animées mots ou lettres. Une valeur positive spécifie le pourcentage de la durée de l'effet. Une valeur négative spécifie le délai en secondes. Lecture/écriture Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides.animation/ieffect/delaybetweentextparts/
 ---
 
-## Propriété IEffect.DelayBetweenTextParts
+## IEffect.DelayBetweenTextParts propriété
 
-Définit un délai entre les parties de texte animées (mots ou lettres). Une valeur positive spécifie le pourcentage de durée de l'effet. Une valeur négative spécifie le délai en secondes. Lecture/écriture Single.
+Définit un délai entre les parties de texte animées (mots ou lettres). Une valeur positive spécifie le pourcentage de la durée de l'effet. Une valeur négative spécifie le délai en secondes. Lecture/écriture Single.
 
 ```csharp
 public float DelayBetweenTextParts { get; set; }
@@ -21,13 +21,13 @@ public float DelayBetweenTextParts { get; set; }
 [C#]
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Obtenir le premier effet de la première diapositive.
+    // Obtenez le premier effet de la première diapositive.
     IEffect firstSlideEffect = presentation.Slides[0].Timeline.MainSequence[0];
     
-    // Changer le type de texte animé de l'effet en "Par mot"
+    // Changez le type d'animation de texte de l'effet en "Par mot"
     firstSlideEffect.AnimateTextType = AnimateTextType.ByWord;
     
-    // Définir le délai entre les parties de texte animées à 20 % de la durée de l'effet.
+    // Définissez le délai entre les parties de texte animées à 20 % de la durée de l'effet.
     firstSlideEffect.DelayBetweenTextParts = 20f;
 }
 ```

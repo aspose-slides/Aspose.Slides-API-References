@@ -1,13 +1,13 @@
 ---
 title: AsIComment
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Permite obtener la interfaz base IComment. IComment de solo lectura aspose.slides/icomment.
+description: Permite obtener la interfaz base IComment. Solo lectura IComment aspose.slides/icomment.
 type: docs
 weight: 10
 url: /es/aspose.slides/imoderncomment/asicomment/
 ---
 
-## Propiedad IModernComment.AsIComment
+## IModernComment.AsIComment property
 
 Permite obtener la interfaz base IComment. Solo lectura [`IComment`](../../icomment).
 
@@ -15,11 +15,11 @@ Permite obtener la interfaz base IComment. Solo lectura [`IComment`](../../icomm
 public IComment AsIComment { get; }
 ```
 
-### Véase también
+### Ver También
 
-* interface [IComment](../../icomment)
-* interface [IModernComment](../../imoderncomment)
-* namespace [Aspose.Slides](../../imoderncomment)
-* assembly [Aspose.Slides](../../../)
+* interfaz [IComment](../../icomment)
+* interfaz [IModernComment](../../imoderncomment)
+* espacio de nombres [Aspose.Slides](../../imoderncomment)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

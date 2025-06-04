@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Muster-Füllformat zurück. Schreibgeschütztes IPatternFormataspose.slides/ipatternformat.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Musterfüllformat zurück. Nur lesbares IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/fillformat/patternformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/fillformat/patternformat/
 
 ## FillFormat.PatternFormat-Eigenschaft
 
-Gibt das Muster-Füllformat zurück. Schreibgeschützt [`IPatternFormat`](../../ipatternformat).
+Gibt das Musterfüllformat zurück. Nur lesbares [`IPatternFormat`](../../ipatternformat).
 
 ```csharp
 public IPatternFormat PatternFormat { get; }

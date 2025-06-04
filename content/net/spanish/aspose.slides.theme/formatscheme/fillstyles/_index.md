@@ -15,11 +15,11 @@ Devuelve una colección de estilos de relleno definidos por el tema. Solo lectur
 public IFillFormatCollection FillStyles { get; }
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IFillFormatCollection](../../ifillformatcollection)
 * clase [FormatScheme](../../formatscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../formatscheme)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

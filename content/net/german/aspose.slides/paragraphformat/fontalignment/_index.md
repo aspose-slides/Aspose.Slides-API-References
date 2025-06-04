@@ -1,7 +1,7 @@
 ---
 title: FontAlignment
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt eine Schriftartausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf FontAlignmentaspose.slides/fontalignment.
+description: Gibt eine Schriftartenausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lesen/ Schreiben FontAlignmentaspose.slides/fontalignment.
 type: docs
 weight: 50
 url: /de/aspose.slides/paragraphformat/fontalignment/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/paragraphformat/fontalignment/
 
 ## ParagraphFormat.FontAlignment-Eigenschaft
 
-Gibt eine Schriftartausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lese-/Schreibzugriff auf [`FontAlignment`](../../fontalignment).
+Gibt eine Schriftartenausrichtung in einem Absatz ohne Vererbung zurück oder setzt sie. Lesen/ Schreiben [`FontAlignment`](../../fontalignment).
 
 ```csharp
 public FontAlignment FontAlignment { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [FontAlignment](../../fontalignment)
 * class [ParagraphFormat](../../paragraphformat)

@@ -1,7 +1,7 @@
 ---
 title: Size
-second_title: Aspose.Slides for .NET API 参考
-description: 表示线性图、散点图或雷达图中的标记大小。可读写 Int32。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示折线图、散点图或雷达图中的标记大小。可读/写 Int32。
 type: docs
 weight: 20
 url: /zh/aspose.slides.charts/marker/size/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/marker/size/
 
 ## Marker.Size 属性
 
-表示线性图、散点图或雷达图中的标记大小。可读写 Int32。
+表示折线图、散点图或雷达图中的标记大小。可读/写 Int32。
 
 ```csharp
 public int Size { get; set; }
 ```
 
-### 参见
+### 另请参见
 
 * class [Marker](../../marker)
 * namespace [Aspose.Slides.Charts](../../marker)

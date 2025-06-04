@@ -1,7 +1,7 @@
 ---
 title: FontHeight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置部分的字体高度。 **float.NaN**表示高度未定义，并应从母版继承。可读/可写单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置部分的字体高度。 **float.NaN** 表示高度未定义，应从母版继承。可读/可写单精度浮点数。
 type: docs
 weight: 80
 url: /zh/aspose.slides/ibaseportionformat/fontheight/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibaseportionformat/fontheight/
 
 ## IBasePortionFormat.FontHeight 属性
 
-返回或设置部分的字体高度。 **float.NaN**表示高度未定义，并应从母版继承。可读/可写单精度浮点数。
+返回或设置部分的字体高度。 **float.NaN** 表示高度未定义，应从母版继承。可读/可写单精度浮点数。
 
 ```csharp
 public float FontHeight { get; set; }

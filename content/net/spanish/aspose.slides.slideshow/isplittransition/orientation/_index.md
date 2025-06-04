@@ -1,15 +1,15 @@
 ---
 title: Orientation
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Orientación de la transición dividida. Leer/escribir Orientationaspose.slides/orientation.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Orientación de la transición de división. Leer/escribir Orientationaspose.slides/orientation.
 type: docs
 weight: 30
 url: /es/aspose.slides.slideshow/isplittransition/orientation/
 ---
 
-## Propiedad ISplitTransition.Orientation
+## ISplitTransition.Orientation property
 
-Orientación de la transición dividida. Leer/escribir [`Orientation`](../../../aspose.slides/orientation).
+Orientación de la transición de división. Leer/escribir [`Orientation`](../../../aspose.slides/orientation).
 
 ```csharp
 public Orientation Orientation { get; set; }

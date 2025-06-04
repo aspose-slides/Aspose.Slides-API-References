@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除特定对象的第一次出现。
+second_title: Aspose.Sildes for .NET API Reference
+description: 从集合中移除特定对象的首次出现。
 type: docs
 weight: 40
 url: /zh/aspose.slides/icustomxmlpartcollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icustomxmlpartcollection/remove/
 
 ## ICustomXmlPartCollection.Remove 方法
 
-从集合中移除特定对象的第一次出现。
+从集合中移除特定对象的首次出现。
 
 ```csharp
 public bool Remove(ICustomXmlPart item)
@@ -17,11 +17,11 @@ public bool Remove(ICustomXmlPart item)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| item | ICustomXmlPart | 要移除的自定义 XML 部分。 |
+| item | ICustomXmlPart | 要移除的自定义 xml 部件。 |
 
 ### 返回值
 
-如果成功移除 item，则返回 `true`；否则，返回 `false`。
+如果 item 成功移除，则为 `true`；否则，为 `false`。
 
 ### 异常
 
@@ -29,7 +29,7 @@ public bool Remove(ICustomXmlPart item)
 | --- | --- |
 | ArgumentNullException | item 为 `null`。 |
 
-### 另请参见
+### 另见
 
 * 接口 [ICustomXmlPart](../../icustomxmlpart)
 * 接口 [ICustomXmlPartCollection](../../icustomxmlpartcollection)

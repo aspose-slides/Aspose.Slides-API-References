@@ -1,13 +1,13 @@
 ---
 title: CreateSetEffect
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Crea un efecto de conjunto.
 type: docs
 weight: 90
 url: /es/aspose.slides.animation/behaviorfactory/createseteffect/
 ---
 
-## Método BehaviorFactory.CreateSetEffect
+## BehaviorFactory.CreateSetEffect método
 
 Crea un efecto de conjunto.
 
@@ -24,6 +24,6 @@ Efecto de conjunto.
 * interfaz [ISetEffect](../../iseteffect)
 * clase [BehaviorFactory](../../behaviorfactory)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorfactory)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamble [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

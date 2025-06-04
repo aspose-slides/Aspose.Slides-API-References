@@ -1,7 +1,7 @@
 ---
 title: Count
-second_title: Aspose.Slides für .NET API-Referenz
-description: Erhält die Anzahl aller Datenbeschriftungen in der Sammlung. Nur lesbarer Int32.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt die Anzahl aller Datenbeschriftungen in der Sammlung zurück. Nur lesbares Int32.
 type: docs
 weight: 20
 url: /de/aspose.slides.charts/datalabelcollection/count/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/datalabelcollection/count/
 
 ## DataLabelCollection.Count-Eigenschaft
 
-Erhält die Anzahl aller Datenbeschriftungen in der Sammlung. Nur lesbarer Int32.
+Gibt die Anzahl aller Datenbeschriftungen in der Sammlung zurück. Nur lesbares Int32.
 
 ```csharp
 public int Count { get; }

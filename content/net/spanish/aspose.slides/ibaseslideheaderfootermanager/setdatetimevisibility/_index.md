@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeVisibility
-second_title: Referencia de API de Aspose.Sildes para .NET
-description: Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Cambia la visibilidad del marcador de fecha y hora de la diapositiva.
 type: docs
 weight: 60
 url: /es/aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility/
 ---
 
-## Método IBaseSlideHeaderFooterManager.SetDateTimeVisibility
+## IBaseSlideHeaderFooterManager.SetDateTimeVisibility método
 
-Cambia la visibilidad del marcador de posición de fecha y hora de la diapositiva.
+Cambia la visibilidad del marcador de fecha y hora de la diapositiva.
 
 ```csharp
 public void SetDateTimeVisibility(bool isVisible)
@@ -17,12 +17,12 @@ public void SetDateTimeVisibility(bool isVisible)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| isVisible | Boolean | true - hace que un marcador de posición de fecha y hora sea visible, de lo contrario - lo oculta. |
+| isVisible | Booleano | true - hace visible un marcador de fecha y hora, de lo contrario - lo oculta. |
 
-### También Vea
+### Véase también
 
 * interfaz [IBaseSlideHeaderFooterManager](../../ibaseslideheaderfootermanager)
 * espacio de nombres [Aspose.Slides](../../ibaseslideheaderfootermanager)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

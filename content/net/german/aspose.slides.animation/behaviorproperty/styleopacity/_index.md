@@ -1,7 +1,7 @@
 ---
 title: StyleOpacity
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die 'style.opacity'-Eigenschaft dar
+description: Stellt die Eigenschaft style.opacity dar
 type: docs
 weight: 1100
 url: /de/aspose.slides.animation/behaviorproperty/styleopacity/

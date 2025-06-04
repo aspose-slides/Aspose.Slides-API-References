@@ -1,6 +1,6 @@
 ---
 title: Format
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Textformatierungseigenschaften
 type: docs
 weight: 20
@@ -25,7 +25,7 @@ IMathematicalText mathText = new MathematicalText("x+y");
 mathText.Format.FontHeight = 28;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IPortionFormat](../../../aspose.slides/iportionformat)
 * Klasse [MathematicalText](../../mathematicaltext)

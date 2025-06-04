@@ -1,15 +1,15 @@
 ---
 title: PresetColor
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt das Farb-Preset zurück oder setzt es. Lese-/Schreibzugriff auf PresetColoraspose.slides/presetcolor.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt das Farbschema zurück oder setzt es. Lese-/Schreibzugriff auf PresetColoraspose.slides/presetcolor.
 type: docs
 weight: 120
 url: /de/aspose.slides/icolorformat/presetcolor/
 ---
 
-## Die IColorFormat.PresetColor-Eigenschaft
+## IColorFormat.PresetColor-Eigenschaft
 
-Gibt das Farb-Preset zurück oder setzt es. Lese-/Schreibzugriff auf [`PresetColor`](../../presetcolor).
+Gibt das Farbschema zurück oder setzt es. Lese-/Schreibzugriff auf [`PresetColor`](../../presetcolor).
 
 ```csharp
 public PresetColor PresetColor { get; set; }

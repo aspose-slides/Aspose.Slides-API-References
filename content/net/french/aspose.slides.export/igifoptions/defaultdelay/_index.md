@@ -1,6 +1,6 @@
 ---
 title: DefaultDelay
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour la référence API .NET
 description: Obtient ou définit le temps de délai par défaut en ms. Cette valeur sera utilisée si AdvanceAfterTimeaspose.slides/islideshowtransition/advanceaftertime n'est pas définie. La valeur par défaut est 1000.
 type: docs
 weight: 20

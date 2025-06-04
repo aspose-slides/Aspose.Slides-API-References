@@ -15,7 +15,7 @@ Elimina todos los comportamientos de una colección.
 public void Clear()
 ```
 
-### También Visto
+### Véase también
 
 * clase [BehaviorCollection](../../behaviorcollection)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorcollection)

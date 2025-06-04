@@ -1,7 +1,7 @@
 ---
 title: AsIPictureFrame
-second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IPictureFrame 接口。只读 IPictureFrame aspose.slides/ipictureframe。
+second_title: Aspose.Sildes for .NET API Reference
+description: 允许获取基础的 IPictureFrame 接口。只读 IPictureFrameaspose.slides/ipictureframe。
 type: docs
 weight: 10
 url: /zh/aspose.slides/ivideoframe/asipictureframe/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ivideoframe/asipictureframe/
 
 ## IVideoFrame.AsIPictureFrame 属性
 
-允许获取基本的 IPictureFrame 接口。只读 [`IPictureFrame`](../../ipictureframe)。
+允许获取基础的 IPictureFrame 接口。只读 [`IPictureFrame`](../../ipictureframe)。
 
 ```csharp
 public IPictureFrame AsIPictureFrame { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [IPictureFrame](../../ipictureframe)
 * 接口 [IVideoFrame](../../ivideoframe)

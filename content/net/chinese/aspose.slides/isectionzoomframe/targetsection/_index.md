@@ -1,15 +1,15 @@
 ---
 title: TargetSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 获取或设置与节缩放对象链接的节对象。可读/写 ISection aspose.slides/isection。
+description: 获取或设置链接到部分缩放对象的部分对象。可读写 ISectionaspose.slides/isection。
 type: docs
 weight: 20
 url: /zh/aspose.slides/isectionzoomframe/targetsection/
 ---
 
-## ISectionZoomFrame.TargetSection 属性
+## ISectionZoomFrame.TargetSection property
 
-获取或设置与节缩放对象链接的节对象。可读/写 [`ISection`](../../isection)。
+获取或设置链接到部分缩放对象的部分对象。可读写 [`ISection`](../../isection)。
 
 ```csharp
 public ISection TargetSection { get; set; }
@@ -17,7 +17,7 @@ public ISection TargetSection { get; set; }
 
 ### 示例
 
-此示例演示了如何更改目标节并为节缩放对象创建新图像：
+此示例演示了如何更改目标部分并为部分缩放对象创建新的图像：
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [ISection](../../isection)
 * 接口 [ISectionZoomFrame](../../isectionzoomframe)

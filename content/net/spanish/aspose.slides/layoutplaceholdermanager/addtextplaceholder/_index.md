@@ -1,6 +1,6 @@
 ---
 title: AddTextPlaceholder
-second_title: Referencia de la API Aspose.Slides para .NET
+second_title: Referencia de la API de Aspose.Slides para .NET
 description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido de texto.
 type: docs
 weight: 80
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Ver También
+### Véase También
 
 * interface [IAutoShape](../../iautoshape)
 * class [LayoutPlaceholderManager](../../layoutplaceholdermanager)

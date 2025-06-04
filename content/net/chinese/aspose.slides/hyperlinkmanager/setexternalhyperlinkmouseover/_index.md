@@ -1,6 +1,6 @@
 ---
 title: SetExternalHyperlinkMouseOver
-second_title: Aspose.Sildes for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 设置外部超链接鼠标悬停。
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ public IHyperlink SetExternalHyperlinkMouseOver(string url)
 
 超链接。
 
-### 另请参阅
+### 另见
 
 * 接口 [IHyperlink](../../ihyperlink)
 * 类 [HyperlinkManager](../../hyperlinkmanager)

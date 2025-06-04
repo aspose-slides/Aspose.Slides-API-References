@@ -1,24 +1,24 @@
 ---
 title: Right
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Obtiene el derecho del elemento del gráfico como una fracción del ancho del gráfico. Solo de lectura Single.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Obtiene la derecha del elemento del gráfico como una fracción del ancho del gráfico. Solo lectura Single.
 type: docs
 weight: 40
 url: /es/aspose.slides.charts/ilayoutable/right/
 ---
 
-## Propiedad ILayoutable.Right
+## ILayoutable.Right property
 
-Obtiene el derecho del elemento del gráfico como una fracción del ancho del gráfico. Solo de lectura Single.
+Obtiene la derecha del elemento del gráfico como una fracción del ancho del gráfico. Solo lectura Single.
 
 ```csharp
 public float Right { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [ILayoutable](../../ilayoutable)
 * espacio de nombres [Aspose.Slides.Charts](../../ilayoutable)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

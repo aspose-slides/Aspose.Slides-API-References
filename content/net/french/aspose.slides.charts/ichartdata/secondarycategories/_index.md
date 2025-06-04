@@ -1,7 +1,7 @@
 ---
 title: SecondaryCategories
-second_title: Référence API Aspose.Slides pour .NET
-description: Obtient les catégories secondaires si la propriété UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories est vraie. Collection IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection en lecture seule.
+second_title: Aspose.Sildes pour .NET API Reference
+description: Obtient les catégories secondaires si la propriété UseSecondaryCategories../usesecondarycategories est vraie. Collection en lecture seule IChartCategoryCollectionaspose.slides/ichartcategorycollection.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/ichartdata/secondarycategories/
@@ -17,7 +17,7 @@ public IChartCategoryCollection SecondaryCategories { get; }
 
 ### Remarques
 
-Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est fausse, alors cette propriété `SecondaryCategories` retourne null et les données de la propriété [`Categories`](../categories) sont utilisées à la fois pour les séries primaires et secondaires. Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est vraie, alors les données de cette propriété `SecondaryCategories` sont utilisées pour les séries secondaires et les données de la propriété [`Categories`](../categories) sont utilisées pour les séries primaires.
+Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est fausse, cette propriété `SecondaryCategories` retourne null et les données de la propriété [`Categories`](../categories) sont utilisées à la fois pour les séries primaires et secondaires. Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est vraie, alors les données de cette propriété `SecondaryCategories` sont utilisées pour les séries secondaires et les données de la propriété [`Categories`](../categories) sont utilisées pour les séries primaires.
 
 ### Exemples
 

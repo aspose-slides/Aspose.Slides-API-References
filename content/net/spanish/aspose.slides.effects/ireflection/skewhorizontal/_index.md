@@ -1,6 +1,6 @@
 ---
 title: SkewHorizontal
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para la referencia de API de .NET
 description: Especifica el ángulo de sesgo horizontal. Lectura/escritura Double.
 type: docs
 weight: 130
@@ -15,7 +15,7 @@ Especifica el ángulo de sesgo horizontal. Lectura/escritura Double.
 public double SkewHorizontal { get; set; }
 ```
 
-### Véase también
+### Véase También
 
 * interfaz [IReflection](../../ireflection)
 * espacio de nombres [Aspose.Slides.Effects](../../ireflection)

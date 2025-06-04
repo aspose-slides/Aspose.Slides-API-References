@@ -1,7 +1,7 @@
 ---
 title: CustomDashPattern
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das benutzerdefinierte Strichmuster zurück oder legt es fest. Lese-/Schreibzugriff auf Single.
+description: Gibt das benutzerdefinierte Strichmuster zurück oder legt es fest. Lese-/Schreibzugriff Einzelnes.
 type: docs
 weight: 70
 url: /de/aspose.slides/ilineformat/customdashpattern/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ilineformat/customdashpattern/
 
 ## ILineFormat.CustomDashPattern Eigenschaft
 
-Gibt das benutzerdefinierte Strichmuster zurück oder legt es fest. Lese-/Schreibzugriff auf Single[].
+Gibt das benutzerdefinierte Strichmuster zurück oder legt es fest. Lese-/Schreibzugriff Single[].
 
 ```csharp
 public float[] CustomDashPattern { get; set; }

@@ -1,7 +1,7 @@
 ---
 title: Right
-second_title: Aspose.Slides for .NET API 参考
-description: 右. 只读单精度浮点数.
+second_title: Aspose.Slides for .NET API Reference
+description: 右侧。只读单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides.charts/chartplotarea/right/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/chartplotarea/right/
 
 ## ChartPlotArea.Right 属性
 
-右. 只读单精度浮点数.
+右侧。只读单精度浮点数。
 
 ```csharp
 public float Right { get; }

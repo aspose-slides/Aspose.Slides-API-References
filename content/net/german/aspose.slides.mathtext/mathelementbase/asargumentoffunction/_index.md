@@ -1,7 +1,7 @@
 ---
 title: AsArgumentOfFunction
-second_title: Aspose.Slides für .NET API-Referenz
-description: Nimmt die angegebene Funktion, indem diese Instanz als Argument verwendet wird
+second_title: Aspose.Slidese für .NET API Referenz
+description: Nimmt die angegebene Funktion und verwendet diese Instanz als Argument
 type: docs
 weight: 20
 url: /de/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-Nimmt die angegebene Funktion, indem diese Instanz als Argument verwendet wird
+Nimmt die angegebene Funktion und verwendet diese Instanz als Argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
@@ -21,7 +21,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 ### Rückgabewert
 
-Neues mathematisches Element vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 
@@ -34,7 +34,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IMathFunction](../../imathfunction)
 * interface [IMathElement](../../imathelement)
@@ -46,7 +46,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-Nimmt die angegebene Funktion, indem diese Instanz als Argument verwendet wird
+Nimmt die angegebene Funktion und verwendet diese Instanz als Argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
@@ -58,7 +58,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 ### Rückgabewert
 
-Neues mathematisches Element vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 
@@ -70,7 +70,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IMathFunction](../../imathfunction)
 * class [MathElementBase](../../mathelementbase)
@@ -81,7 +81,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-Nimmt die angegebene Funktion, indem diese Instanz als Argument verwendet wird
+Nimmt die angegebene Funktion und verwendet diese Instanz als Argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
@@ -93,7 +93,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 ### Rückgabewert
 
-Neues mathematisches Element vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 
@@ -106,7 +106,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
@@ -118,7 +118,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
 
-Nimmt die angegebene Funktion, indem diese Instanz als Argument verwendet wird und ein zusätzliches Argument angegeben wird
+Nimmt die angegebene Funktion und verwendet diese Instanz als Argument und das angegebene zusätzliche Argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -128,11 +128,11 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | functionType | MathFunctionsOfTwoArguments | Einer der gängigen Funktionstypen mit zwei Argumenten: Log, Lim, Min, Max |
-| additionalArgument | IMathElement | Zusätzliches Argument, abhängig vom Funktionstyp |
+| additionalArgument | IMathElement | Zusätzliches Argument abhängig vom Funktionstyp |
 
 ### Rückgabewert
 
-Neues mathematisches Element vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 
@@ -145,7 +145,7 @@ IMathElement logarithmBase = new MathematicalText("5");
 IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // Gibt den Logarithmus von 'x' zur Basis '5' zurück
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
@@ -158,7 +158,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArgument
 
 ## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
 
-Nimmt die angegebene Funktion, indem diese Instanz als Argument verwendet wird und ein zusätzliches Argument angegeben wird
+Nimmt die angegebene Funktion und verwendet diese Instanz als Argument und das angegebene zusätzliche Argument
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
@@ -168,11 +168,11 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | functionType | MathFunctionsOfTwoArguments | Einer der gängigen Funktionstypen mit zwei Argumenten: Log, Lim, Min, Max |
-| additionalArgument | String | Zusätzliches Argument, abhängig vom Funktionstyp |
+| additionalArgument | String | Zusätzliches Argument abhängig vom Funktionstyp |
 
 ### Rückgabewert
 
-Neues mathematisches Element vom Typ [`IMathFunction`](../../imathfunction)
+Neues mathematisches Element des Typs [`IMathFunction`](../../imathfunction)
 
 ### Beispiele
 
@@ -184,7 +184,7 @@ IMathElement functionArg = new MathematicalText("x");
 IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // Gibt den Logarithmus von 'x' zur Basis '5' zurück
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * interface [IMathFunction](../../imathfunction)
 * enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)

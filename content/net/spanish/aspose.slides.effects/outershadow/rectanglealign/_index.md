@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Alineación del rectángulo. Lectura/escritura de RectangleAlignmentaspose.slides/rectanglealignment.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Alineación del rectángulo. Leer/escribir RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 40
 url: /es/aspose.slides.effects/outershadow/rectanglealign/
@@ -9,13 +9,13 @@ url: /es/aspose.slides.effects/outershadow/rectanglealign/
 
 ## Propiedad OuterShadow.RectangleAlign
 
-Alineación del rectángulo. Lectura/escritura de [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Alineación del rectángulo. Leer/escribir [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }
 ```
 
-### Véase También
+### Véase también
 
 * enum [RectangleAlignment](../../../aspose.slides/rectanglealignment)
 * class [OuterShadow](../../outershadow)

@@ -1,7 +1,7 @@
 ---
 title: Orientation
-second_title: Ссылка на API Aspose.Slides для .NET
-description: Возвращает или устанавливает ориентацию слайда. Изменение этого значения изменит размеры слайдов. Чтение/запись SlideOrientationaspose.slides/slideorientation.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает ориентацию слайда. Изменение этого значения изменит размеры слайда. Чтение/запись SlideOrientationaspose.slides/slideorientation.
 type: docs
 weight: 10
 url: /ru/aspose.slides/islidesize/orientation/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/islidesize/orientation/
 
 ## ISlideSize.Orientation свойство
 
-Возвращает или устанавливает ориентацию слайда. Изменение этого значения изменит размеры слайда. Чтение/запись [`SlideOrientation`](../../slideorientation).
+Возвращает или задает ориентацию слайда. Изменение этого значения изменит размеры слайда. Чтение/запись [`SlideOrientation`](../../slideorientation).
 
 ```csharp
 public SlideOrientation Orientation { get; set; }
 ```
 
-### See Also
+### См. также
 
 * enum [SlideOrientation](../../slideorientation)
 * interface [ISlideSize](../../islidesize)

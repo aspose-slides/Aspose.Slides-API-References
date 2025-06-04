@@ -1,6 +1,6 @@
 ---
 title: AddOleObjectFrame
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Agrega un nuevo objeto OLE al final de una colección.
 type: docs
 weight: 120
@@ -20,7 +20,7 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | --- | --- | --- |
 | x | Single | Coordenada X de un nuevo marco OLE. |
 | y | Single | Coordenada Y de un nuevo marco OLE. |
-| width | Single | Anchura de un nuevo marco OLE. |
+| width | Single | Ancho de un nuevo marco OLE. |
 | height | Single | Altura de un nuevo marco OLE. |
 | dataInfo | IOleEmbeddedDataInfo | Información de datos incrustados [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
@@ -28,7 +28,7 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 Objeto OLE creado.
 
-### Vea también
+### Véase también
 
 * interfaz [IOleObjectFrame](../../ioleobjectframe)
 * interfaz [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo)
@@ -51,16 +51,16 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | --- | --- | --- |
 | x | Single | Coordenada X de un nuevo marco OLE. |
 | y | Single | Coordenada Y de un nuevo marco OLE. |
-| width | Single | Anchura de un nuevo marco OLE. |
+| width | Single | Ancho de un nuevo marco OLE. |
 | height | Single | Altura de un nuevo marco OLE. |
 | className | String | Nombre de una clase OLE. |
-| path | String | Ruta al archivo vinculado. |
+| path | String | ruta al archivo vinculado. |
 
 ### Valor de retorno
 
 Objeto OLE creado.
 
-### Vea también
+### Véase también
 
 * interfaz [IOleObjectFrame](../../ioleobjectframe)
 * interfaz [IShapeCollection](../../ishapecollection)

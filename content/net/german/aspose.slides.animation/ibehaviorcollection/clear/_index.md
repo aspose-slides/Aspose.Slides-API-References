@@ -7,7 +7,7 @@ weight: 50
 url: /de/aspose.slides.animation/ibehaviorcollection/clear/
 ---
 
-## IBehaviorCollection.Clear-Methode
+## IBehaviorCollection.Clear Methode
 
 Entfernt alle Verhaltensweisen aus einer Sammlung.
 

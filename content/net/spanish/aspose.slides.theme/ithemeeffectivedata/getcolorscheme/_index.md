@@ -1,13 +1,13 @@
 ---
 title: GetColorScheme
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Devuelve el esquema de color.
 type: docs
 weight: 30
 url: /es/aspose.slides.theme/ithemeeffectivedata/getcolorscheme/
 ---
 
-## IThemeEffectiveData.GetColorScheme método
+## IThemeEffectiveData.GetColorScheme method
 
 Devuelve el esquema de color.
 
@@ -27,7 +27,7 @@ Esquema de color [`IColorSchemeEffectiveData`](../../icolorschemeeffectivedata)
 
 * interfaz [IColorSchemeEffectiveData](../../icolorschemeeffectivedata)
 * interfaz [IThemeEffectiveData](../../ithemeeffectivedata)
-* espacio de nombres [Aspose.Slides.Theme](../../ithemeeffectivedata)
+* namespace [Aspose.Slides.Theme](../../ithemeeffectivedata)
 * ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

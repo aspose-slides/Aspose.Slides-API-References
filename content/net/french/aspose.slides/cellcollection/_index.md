@@ -19,18 +19,18 @@ public abstract class CellCollection : ICellCollection
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Retourne le nombre de cellules dans une collection. Lecture seule Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Retourne une cellule par sa position. Lecture seule [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retourne la présentation parente d'une CellCollection. Lecture seule [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retourne la diapositive parente d'une CellCollection. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Retourne une racine de synchronisation. Lecture seule Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Retourne le nombre de cellules dans une collection. En lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourne une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). En lecture seule Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Retourne une cellule par sa position. En lecture seule [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retourne la présentation parente d'une CellCollection. En lecture seule [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retourne la diapositive parente d'une CellCollection. En lecture seule [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Retourne une racine de synchronisation. En lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retourne un énumérateur qui itère à travers la collection. |
 
 ### Voir aussi

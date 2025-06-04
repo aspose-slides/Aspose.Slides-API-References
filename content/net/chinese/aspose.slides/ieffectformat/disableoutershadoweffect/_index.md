@@ -1,6 +1,6 @@
 ---
 title: DisableOuterShadowEffect
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 禁用外部阴影效果。
 type: docs
 weight: 150
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/ieffectformat/disableoutershadoweffect/
 public void DisableOuterShadowEffect()
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IEffectFormat](../../ieffectformat)
 * 命名空间 [Aspose.Slides](../../ieffectformat)

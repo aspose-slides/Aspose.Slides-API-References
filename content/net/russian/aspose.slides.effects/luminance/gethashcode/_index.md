@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/luminance/gethashcode/
 public override int GetHashCode()
 ```
 
-### Значение Возврата
+### Возвращаемое Значение
 
 Хеш-код для текущего объекта.
 

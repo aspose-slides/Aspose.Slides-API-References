@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
 second_title: Référence API Aspose.Slides pour .NET
-description: Permet d'obtenir l'interface IMathElement de base IMathElementaspose.slides.mathtext/imathelement
+description: Permet d'obtenir l'interface de base IMathElement IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
 url: /fr/aspose.slides.mathtext/imathfunction/asimathelement/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.mathtext/imathfunction/asimathelement/
 
 ## Propriété IMathFunction.AsIMathElement
 
-Permet d'obtenir l'interface IMathElement de base [`IMathElement`](../../imathelement)
+Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../../imathelement)
 
 ```csharp
 public IMathElement AsIMathElement { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathFunction](../../imathfunction)

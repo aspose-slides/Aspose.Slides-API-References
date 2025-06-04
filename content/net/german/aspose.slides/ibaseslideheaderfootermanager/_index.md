@@ -1,7 +1,7 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Aspose.Sildes für .NET API-Referenz
-description: Stellt einen Manager dar, der das Verhalten der Platzhalter für Fußzeile, Datum-Uhrzeit und Seitennummer für alle Folientypen hält.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Repräsentiert den Manager, der das Verhalten der Platzhalter für das Datum, die Uhrzeit und die Seitenzahl im Footer für alle Folientypen enthält.
 type: docs
 weight: 5150
 url: /de/aspose.slides/ibaseslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ibaseslideheaderfootermanager/
 
 ## IBaseSlideHeaderFooterManager-Schnittstelle
 
-Stellt einen Manager dar, der das Verhalten der Fußzeile, Datum-Uhrzeit und Platzhalter für Seitennummern für alle Folientypen hält.
+Repräsentiert den Manager, der das Verhalten der Platzhalter für den Footer, das Datum, die Uhrzeit und die Seitenzahl für alle Folientypen enthält.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -20,19 +20,19 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | Name | Beschreibung |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Gibt die IBaseHeaderFooterManager-Schnittstelle zurück. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Gibt den Wert zurück, der angibt, dass ein Platzhalter für Datum-Uhrzeit vorhanden ist. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Fußzeile vorhanden ist. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Seitennummer vorhanden ist. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Gibt den Wert zurück, der angibt, dass ein Platzhalter für Datum und Uhrzeit vorhanden ist. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Gibt den Wert zurück, der angibt, dass ein Platzhalter für den Footer vorhanden ist. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Gibt den Wert zurück, der angibt, dass ein Platzhalter für die Seitenzahl vorhanden ist. ReadBoolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Setzt den Text für den Platzhalter Datum-Uhrzeit der Folie. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für Datum-Uhrzeit der Folie. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Setzt den Text für den Platzhalter der Fußzeile der Folie. |
-| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für die Fußzeile der Folie. |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für die Seitennummer der Folie. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Setzt den Text für den Platzhalter Datum und Uhrzeit der Folie. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit der Folie. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Setzt den Text für den Platzhalter Footer der Folie. |
+| [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für den Footer der Folie. |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für die Seitenzahl der Folie. |
 
 ### Siehe auch
 

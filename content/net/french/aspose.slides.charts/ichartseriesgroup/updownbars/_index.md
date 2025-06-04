@@ -1,7 +1,7 @@
 ---
 title: UpDownBars
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Provede access to up/down bars of Line- or Stock-chart. Read-only IUpDownBarsManageraspose.slides.charts/iupdownbarsmanager.
+second_title: Aspose.Slides pour .NET API Reference
+description: Fournit l'accès aux barres haut/bas des graphiques en ligne ou des graphiques boursiers. Lecture seule IUpDownBarsManager.
 type: docs
 weight: 200
 url: /fr/aspose.slides.charts/ichartseriesgroup/updownbars/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartseriesgroup/updownbars/
 
 ## Propriété IChartSeriesGroup.UpDownBars
 
-Provede access to up/down bars of Line- or Stock-chart. Read-only [`IUpDownBarsManager`](../../iupdownbarsmanager).
+Fournit l'accès aux barres haut/bas des graphiques en ligne ou des graphiques boursiers. Lecture seule [`IUpDownBarsManager`](../../iupdownbarsmanager).
 
 ```csharp
 public IUpDownBarsManager UpDownBars { get; }

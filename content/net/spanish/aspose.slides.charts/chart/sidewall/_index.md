@@ -1,7 +1,7 @@
 ---
 title: SideWall
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve un objeto que permite cambiar el formato de la pared lateral de un gráfico 3D. Solo lectura IChartWallaspose.slides.charts/ichartwall.
+second_title: Aspose.Slides para .NET Referencia de la API
+description: Devuelve un objeto que permite cambiar el formato de la pared lateral de un gráfico 3D. Solo lectura IChartWall aspose.slides.charts/ichartwall.
 type: docs
 weight: 190
 url: /es/aspose.slides.charts/chart/sidewall/

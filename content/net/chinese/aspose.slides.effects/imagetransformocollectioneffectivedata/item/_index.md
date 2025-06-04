@@ -1,7 +1,7 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
-description: 按索引返回元素。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回指定索引的元素。
 type: docs
 weight: 40
 url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/item/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/imagetransformocollectioneffectivedata/item/
 
 ## ImageTransformOCollectionEffectiveData 索引器
 
-按索引返回元素。
+返回指定索引的元素。
 
 ```csharp
 public IEffectEffectiveData this[int index] { get; }
@@ -19,7 +19,7 @@ public IEffectEffectiveData this[int index] { get; }
 | --- | --- |
 | index |  |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IEffectEffectiveData](../../ieffecteffectivedata)
 * 类 [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata)

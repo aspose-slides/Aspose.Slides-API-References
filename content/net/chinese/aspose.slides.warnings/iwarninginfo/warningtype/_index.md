@@ -1,7 +1,7 @@
 ---
 title: WarningType
-second_title: Aspose.Slides for .NET API 参考
-description: 返回警告的类型。只读 WarningTypeaspose.slides.warnings/iwarninginfo/warningtype。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一种警告类型。只读 WarningTypeaspose.slides.warnings/iwarninginfo/warningtype。
 type: docs
 weight: 20
 url: /zh/aspose.slides.warnings/iwarninginfo/warningtype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.warnings/iwarninginfo/warningtype/
 
 ## IWarningInfo.WarningType 属性
 
-返回警告的类型。只读 `WarningType`。
+返回一种警告类型。只读 `WarningType`。
 
 ```csharp
 public WarningType WarningType { get; }

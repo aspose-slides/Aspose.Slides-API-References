@@ -1,7 +1,7 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Slides for .NET API 参考
-description: 表示内阴影效果的不可变对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，表示内部阴影效果。
 type: docs
 weight: 3310
 url: /zh/aspose.slides.effects/iinnershadoweffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/iinnershadoweffectivedata/
 
 ## IInnerShadowEffectiveData 接口
 
-表示内阴影效果的不可变对象。
+不可变对象，表示内部阴影效果。
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -19,13 +19,13 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。只读 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | 模糊半径。只读 Double。 |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | 阴影方向。只读 Single。 |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 阴影距离。只读 Double。 |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 阴影颜色。只读 Color。 |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | 阴影的方向。只读 Single。 |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 阴影的距离。只读 Double。 |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 阴影的颜色。只读 Color。 |
 
-### 另请参阅
+### 另见
 
 * 接口 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,13 +1,13 @@
 ---
 title: PresetClassType
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Definiert die Klasse des Effekts. Lese-/Schreibzugriff auf EffectPresetClassTypeaspose.slides.animation/effectpresetclasstype.
 type: docs
 weight: 60
 url: /de/aspose.slides.animation/effect/presetclasstype/
 ---
 
-## Effect.PresetClassType Eigenschaft
+## Effect.PresetClassType-Eigenschaft
 
 Definiert die Klasse des Effekts. Lese-/Schreibzugriff auf [`EffectPresetClassType`](../../effectpresetclasstype).
 

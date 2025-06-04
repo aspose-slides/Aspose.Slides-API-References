@@ -1,6 +1,6 @@
 ---
 title: IVbaModuleCollection
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет собой коллекцию модулей проекта VBA.
 type: docs
 weight: 11230
@@ -17,18 +17,18 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ## Свойства
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Получает элемент по заданному индексу. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Добавляет новый пустой модуль в проект VBA. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Удаляет первое вхождение определенного объекта из коллекции. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Удаляет первое вхождение конкретного объекта из коллекции. |
 
-### Смотрите также
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * интерфейс [IVbaModule](../ivbamodule)

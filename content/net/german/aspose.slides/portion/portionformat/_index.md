@@ -1,7 +1,7 @@
 ---
 title: PortionFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein Formatierungsobjekt zurück, das explizit festgelegte Formatierungseigenschaften des Textanteils enthält, ohne dass Vererbung angewendet wird. Nur lesender IPortionFormataspose.slides/iportionformat.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Gibt ein Formatierungsobjekt zurück, das explizit gesetzte Formatierungseigenschaften des Textanteils enthält, ohne dass eine Vererbung angewendet wird. Nur lesbarer IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /de/aspose.slides/portion/portionformat/
@@ -9,15 +9,15 @@ url: /de/aspose.slides/portion/portionformat/
 
 ## Portion.PortionFormat-Eigenschaft
 
-Gibt ein Formatierungsobjekt zurück, das explizit festgelegte Formatierungseigenschaften des Textanteils enthält, ohne dass Vererbung angewendet wird. Nur lesender [`IPortionFormat`](../../iportionformat).
+Gibt ein Formatierungsobjekt zurück, das explizit gesetzte Formatierungseigenschaften des Textanteils enthält, ohne dass eine Vererbung angewendet wird. Nur lesbarer [`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat PortionFormat { get; }
 ```
 
-### Hinweise
+### Anmerkungen
 
-Das Formatierungsobjekt enthält die Formatierungsparameter, die nur für den aktuellen Teil definiert sind; vererbte Daten werden nicht angewendet.
+Das Formatierungsobjekt enthält nur die für den aktuellen Anteil definierten Formatierungsparameter; vererbte Daten werden nicht angewendet.
 
 Um die effektiven Werte einschließlich der vererbten zu erhalten, verwenden Sie die Methode [`GetEffective`](../../portionformat/geteffective).
 

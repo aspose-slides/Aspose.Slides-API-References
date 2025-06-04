@@ -1,7 +1,7 @@
 ---
 title: MasterNotesSlide
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt ein Master für alle Notizenfolien dieser Präsentation zurück, wenn es eines gibt, andernfalls wird null zurückgegeben. Nur-Lese IMasterNotesSlideaspose.slides/imasternotesslide.
+description: Gibt einen Master für alle Notizenfolien dieser Präsentation zurück, wenn einer vorhanden ist, andernfalls null. Nur-lesbare IMasterNotesSlideaspose.slides/imasternotesslide.
 type: docs
 weight: 10
 url: /de/aspose.slides/imasternotesslidemanager/masternotesslide/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/imasternotesslidemanager/masternotesslide/
 
 ## IMasterNotesSlideManager.MasterNotesSlide-Eigenschaft
 
-Gibt ein Master für alle Notizenfolien dieser Präsentation zurück, wenn es eines gibt, andernfalls wird null zurückgegeben. Nur-Lese [`IMasterNotesSlide`](../../imasternotesslide).
+Gibt einen Master für alle Notizenfolien dieser Präsentation zurück, wenn einer vorhanden ist, andernfalls null. Nur-lesbare [`IMasterNotesSlide`](../../imasternotesslide).
 
 ```csharp
 public IMasterNotesSlide MasterNotesSlide { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IMasterNotesSlide](../../imasternotesslide)
 * Schnittstelle [IMasterNotesSlideManager](../../imasternotesslidemanager)

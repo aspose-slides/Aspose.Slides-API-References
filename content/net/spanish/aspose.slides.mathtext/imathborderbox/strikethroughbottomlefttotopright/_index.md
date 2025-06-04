@@ -1,15 +1,15 @@
 ---
 title: StrikethroughBottomLeftToTopRight
 second_title: Referencia de API de Aspose.Slides para .NET
-description: La línea de tachado de abajo a la izquierda a arriba a la derecha está desactivada por defecto. Especifica el estado oculto o mostrado de una línea diagonal de tachado desde la esquina inferior izquierda hasta la esquina superior derecha del cuadro delimitador.
+description: La línea de tachado de esquina inferior izquierda a esquina superior derecha el valor predeterminado es falso. Especifica el estado oculto o visible de una línea diagonal de tachado desde la esquina inferior izquierda hasta la esquina superior derecha de la caja de borde.
 type: docs
 weight: 70
 url: /es/aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright/
 ---
 
-## Propiedad IMathBorderBox.StrikethroughBottomLeftToTopRight
+## IMathBorderBox.StrikethroughBottomLeftToTopRight property
 
-La línea de tachado de abajo a la izquierda a arriba a la derecha (por defecto es falso). Especifica el estado oculto o mostrado de una línea diagonal de tachado desde la esquina inferior izquierda hasta la esquina superior derecha del cuadro delimitador.
+La línea de tachado de esquina inferior izquierda a esquina superior derecha (el valor predeterminado es falso). Especifica el estado oculto o visible de una línea diagonal de tachado desde la esquina inferior izquierda hasta la esquina superior derecha de la caja de borde.
 
 ```csharp
 public bool StrikethroughBottomLeftToTopRight { get; set; }
@@ -25,7 +25,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 borderBox.StrikethroughBottomLeftToTopRight = true;
 ```
 
-### Véase También
+### Véase también
 
 * interfaz [IMathBorderBox](../../imathborderbox)
 * espacio de nombres [Aspose.Slides.MathText](../../imathborderbox)

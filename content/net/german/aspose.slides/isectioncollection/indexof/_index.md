@@ -1,7 +1,7 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt einen Index der angegebenen Sektion in der Sammlung zurück.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Index des angegebenen Abschnitts in der Sammlung zurück.
 type: docs
 weight: 60
 url: /de/aspose.slides/isectioncollection/indexof/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/isectioncollection/indexof/
 
 ## ISectionCollection.IndexOf-Methode
 
-Gibt einen Index der angegebenen Sektion in der Sammlung zurück.
+Gibt einen Index des angegebenen Abschnitts in der Sammlung zurück.
 
 ```csharp
 public int IndexOf(ISection section)
@@ -17,11 +17,11 @@ public int IndexOf(ISection section)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| section | ISection | Zu findende Sektion. |
+| section | ISection | Abschnitt, der gefunden werden soll. |
 
 ### Rückgabewert
 
-Index einer Sektion oder -1, wenn die Sektion nicht aus dieser Sammlung stammt.
+Index eines Abschnitts oder -1, wenn der Abschnitt nicht aus dieser Sammlung stammt.
 
 ### Siehe auch
 

@@ -1,7 +1,7 @@
 ---
 title: AddClone
-second_title: Référence API Aspose.Slides pour .NET
-description: Crée une copie de la ligne de modèle spécifiée et l'insère en bas d'un tableau.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Crée une copie de la ligne de modèle spécifiée et l'insère au bas d'un tableau.
 type: docs
 weight: 20
 url: /fr/aspose.slides/icolumncollection/addclone/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/icolumncollection/addclone/
 
 ## IColumnCollection.AddClone méthode
 
-Crée une copie de la ligne de modèle spécifiée et l'insère en bas d'un tableau.
+Crée une copie de la ligne de modèle spécifiée et l'insère au bas d'un tableau.
 
 ```csharp
 public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)

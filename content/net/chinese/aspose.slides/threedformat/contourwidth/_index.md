@@ -1,7 +1,7 @@
 ---
 title: ContourWidth
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 3D 轮廓的宽度。可读/写 Double。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置 3D 轮廓的宽度。可读/可写 Double。
 type: docs
 weight: 50
 url: /zh/aspose.slides/threedformat/contourwidth/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/threedformat/contourwidth/
 
 ## ThreeDFormat.ContourWidth 属性
 
-返回或设置 3D 轮廓的宽度。可读/写 Double。
+返回或设置 3D 轮廓的宽度。可读/可写 Double。
 
 ```csharp
 public double ContourWidth { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [ThreeDFormat](../../threedformat)
 * namespace [Aspose.Slides](../../threedformat)

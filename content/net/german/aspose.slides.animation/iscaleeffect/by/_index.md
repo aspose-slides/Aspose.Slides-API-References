@@ -1,7 +1,7 @@
 ---
 title: By
-second_title: Aspose.Slides für .NET API Referenz
-description: beschreibt den relativen Offsetwert für die Animation in Prozent. Lese-/Schreibzugriff PointF.
+second_title: Aspose.Slides für .NET API-Referenz
+description: beschreibt den relativen Offsetwert für die Animation in Prozent. Lesen/Schreiben PointF.
 type: docs
 weight: 20
 url: /de/aspose.slides.animation/iscaleeffect/by/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/iscaleeffect/by/
 
 ## IScaleEffect.By-Eigenschaft
 
-beschreibt den relativen Offsetwert für die Animation (in Prozent). Lese-/Schreibzugriff PointF.
+beschreibt den relativen Offsetwert für die Animation (in Prozent). Lesen/Schreiben PointF.
 
 ```csharp
 public PointF By { get; set; }

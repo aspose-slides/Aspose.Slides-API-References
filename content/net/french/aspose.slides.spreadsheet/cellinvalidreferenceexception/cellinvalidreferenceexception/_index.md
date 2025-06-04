@@ -1,6 +1,6 @@
 ---
 title: CellInvalidReferenceException
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Initialise une nouvelle instance de la classe CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception.
 type: docs
 weight: 10

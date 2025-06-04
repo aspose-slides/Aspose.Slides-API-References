@@ -1,7 +1,7 @@
 ---
 title: IMasterSlide
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Masterfolie in einer Präsentation dar.
+description: Stellt eine Master-Folie in einer Präsentation dar.
 type: docs
 weight: 6220
 url: /de/aspose.slides/imasterslide/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/imasterslide/
 
 ## IMasterSlide-Schnittstelle
 
-Stellt eine Masterfolie in einer Präsentation dar.
+Stellt eine Master-Folie in einer Präsentation dar.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -19,22 +19,22 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur-lesend [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Gibt die IMasterThemeable-Schnittstelle zurück. Nur-lesend [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Gibt den Stil eines Fließtextes zurück. Nur-lesend [`ITextStyle`](../itextstyle). |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Masterfolie abhängt. Nur-lesend Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Masterfolie zurück. Nur-lesend [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Gibt die Sammlung von untergeordneten Layoutfolien für diese Masterfolie zurück. Nur-lesend [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Gibt den Stil eines anderen Textes zurück. Nur-lesend [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die auf diesen Master folgen, gelöscht werden. Hinweis: Aspose.Slides entfernt niemals ungenutzte Master selbstständig. Um ungenutzte Master tatsächlich zu löschen, rufen Sie [`RemoveUnused`](../imasterslidecollection/removeunused) auf. Lese-/Schreib-Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Gibt den Stil eines Titeltextes zurück. Nur-lesend [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Ermöglicht den Zugriff auf die Basis-IBaseSlide-Schnittstelle. Nur-Lesen [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Gibt die IMasterThemeable-Schnittstelle zurück. Nur-Lesen [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Gibt den Stil eines Fließtextes zurück. Nur-Lesen [`ITextStyle`](../itextstyle). |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Gibt true zurück, wenn mindestens eine Folie existiert, die von dieser Master-Folie abhängt. Nur-Lesen Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Master-Folie zurück. Nur-Lesen [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Gibt die Sammlung der untergeordneten Layout-Folien für diese Master-Folie zurück. Nur-Lesen [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Gibt den Stil eines anderen Textes zurück. Nur-Lesen [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bestimmt, ob der entsprechende Master gelöscht wird, wenn alle Folien, die diesem Master folgen, gelöscht werden. Hinweis: Aspose.Slides wird niemals einen ungenutzten Master von sich aus entfernen. Um ungenutzte Master tatsächlich zu entfernen, rufen Sie [`RemoveUnused`](../imasterslidecollection/removeunused) auf. Lese-/Schreib Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Gibt den Stil eines Titeltextes zurück. Nur-Lesen [`ITextStyle`](../itextstyle). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Erstellt eine neue Masterfolie basierend auf der aktuellen und wendet ein externes Theme an, und wendet die erstellte Masterfolie auf alle abhängigen Folien an. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Gibt ein Array mit allen Folien zurück, die von dieser Masterfolie abhängen. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Erstellt eine neue Master-Folie basierend auf der aktuellen, wendet ein externes Thema darauf an und wendet die erstellte Master-Folie auf alle abhängigen Folien an. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Gibt ein Array mit allen Folien zurück, die von dieser Master-Folie abhängen. |
 
 ### Siehe auch
 

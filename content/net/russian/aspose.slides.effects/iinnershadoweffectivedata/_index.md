@@ -1,7 +1,7 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes для .NET API Справочник
-description: Невозможный объект, представляющий эффект внутренней тени.
+second_title: Справочник по API Aspose.Slides для .NET
+description: Неизменяемый объект, представляющий эффект внутренней тени.
 type: docs
 weight: 3310
 url: /ru/aspose.slides.effects/iinnershadoweffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/iinnershadoweffectivedata/
 
 ## Интерфейс IInnerShadowEffectiveData
 
-Невозможный объект, представляющий эффект внутренней тени.
+Неизменяемый объект, представляющий эффект внутренней тени.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -25,7 +25,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Расстояние до тени. Только для чтения Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтения Color. |
 
-### См. также
+### Также см.
 
 * интерфейс [IEffectEffectiveData](../ieffecteffectivedata)
 * пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)

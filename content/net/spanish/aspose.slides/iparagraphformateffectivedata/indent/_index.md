@@ -1,24 +1,24 @@
 ---
 title: Indent
-second_title: Referencia de la API Aspose.Slides para .NET
-description: Devuelve la Sangría de la Primera Línea/Sangría Colgante del párrafo. La Sangría Colgante se puede definir con valores negativos. Solo lectura Simple.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Devuelve la sangría de la primera línea/sangría colgante del párrafo. La sangría colgante se puede definir con valores negativos. Solo lectura Single.
 type: docs
 weight: 90
 url: /es/aspose.slides/iparagraphformateffectivedata/indent/
 ---
 
-## Propiedad IParagraphFormatEffectiveData.Indent
+## IParagraphFormatEffectiveData.Indent property
 
-Devuelve la Sangría de la Primera Línea/Sangría Colgante del párrafo. La Sangría Colgante se puede definir con valores negativos. Solo lectura Simple.
+Devuelve la sangría de la primera línea/sangría colgante del párrafo. La sangría colgante se puede definir con valores negativos. Solo lectura Single.
 
 ```csharp
 public float Indent { get; }
 ```
 
-### Ver También
+### Ver también
 
-* interfaz [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
-* espacio de nombres [Aspose.Slides](../../iparagraphformateffectivedata)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IParagraphFormatEffectiveData](../../iparagraphformateffectivedata)
+* namespace [Aspose.Slides](../../iparagraphformateffectivedata)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

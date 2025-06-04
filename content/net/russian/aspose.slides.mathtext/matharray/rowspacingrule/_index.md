@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
-second_title: Aspose.Slides для .NET API Справочник
-description: Тип вертикального расстояния между элементами массива По умолчанию SingleLineGap
+second_title: Aspose.Sildes для .NET API Reference
+description: Тип вертикального расстояния между элементами массива. По умолчанию SingleLineGap
 type: docs
 weight: 70
 url: /ru/aspose.slides.mathtext/matharray/rowspacingrule/
@@ -25,7 +25,7 @@ IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 mathArray.RowSpacingRule = MathRowSpacingRule.OneAndAHalfLineGap;
 ```
 
-### См. Также
+### См. также
 
 * enum [MathRowSpacingRule](../../mathrowspacingrule)
 * class [MathArray](../../matharray)

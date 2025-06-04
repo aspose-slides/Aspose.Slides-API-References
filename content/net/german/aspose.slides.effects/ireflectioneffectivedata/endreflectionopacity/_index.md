@@ -1,15 +1,15 @@
 ---
 title: EndReflectionOpacity
 second_title: Aspose.Slides für .NET API-Referenz
-description: Endreflexionsopazität. Prozent. Nur lesbares Single.
+description: Endreflexionsopacity. Prozent. Nur lesbar Single.
 type: docs
 weight: 60
 url: /de/aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity/
 ---
 
-## IReflectionEffectiveData.EndReflectionOpacity Eigenschaft
+## IReflectionEffectiveData.EndReflectionOpacity property
 
-Endreflexionsopazität. (Prozent). Nur lesbares Single.
+Endreflexionsopacity. (Prozent). Nur lesbar Single.
 
 ```csharp
 public float EndReflectionOpacity { get; }

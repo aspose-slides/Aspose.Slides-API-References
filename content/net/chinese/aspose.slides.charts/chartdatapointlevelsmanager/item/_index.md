@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回定义级别的 IChartDataPointLevel 对象。
 type: docs
 weight: 20

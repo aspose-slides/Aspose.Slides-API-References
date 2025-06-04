@@ -1,7 +1,7 @@
 ---
 title: CreateMathematicalText
-second_title: Aspose.Slides для .NET API Reference
-description: Создать элемент пустого математического текста
+second_title: Aspose.Slides для .NET API Справочник
+description: Создать пустой элемент математического текста
 type: docs
 weight: 20
 url: /ru/aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext/
@@ -9,17 +9,17 @@ url: /ru/aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext/
 
 ## CreateMathematicalText() {#createmathematicaltext}
 
-Создать элемент пустого математического текста
+Создать пустой элемент математического текста
 
 ```csharp
 public IMathematicalText CreateMathematicalText()
 ```
 
-### Возвращаемое значение
+### Return Value
 
-новый математический текст
+новый Математический текст
 
-### См. также
+### See Also
 
 * интерфейс [IMathematicalText](../../imathematicaltext)
 * класс [MathematicalTextFactory](../../mathematicaltextfactory)
@@ -38,13 +38,13 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathSymbol | Char | единственный символ для использования в качестве текстового значения |
+| mathSymbol | Char | один символ для использования как текстовое значение |
 
-### Возвращаемое значение
+### Return Value
 
-новый математический текст
+новый Математический текст
 
-### См. также
+### See Also
 
 * интерфейс [IMathematicalText](../../imathematicaltext)
 * класс [MathematicalTextFactory](../../mathematicaltextfactory)
@@ -55,7 +55,7 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 ## CreateMathematicalText(string) {#createmathematicaltext_2}
 
-Создать элемент пустого математического текста с указанным значением
+Создать пустой элемент математического текста с указанным значением
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText)
@@ -65,11 +65,11 @@ public IMathematicalText CreateMathematicalText(string mathText)
 | --- | --- | --- |
 | mathText | String | текстовое значение |
 
-### Возвращаемое значение
+### Return Value
 
-новый математический текст
+новый Математический текст
 
-### См. также
+### See Also
 
 * интерфейс [IMathematicalText](../../imathematicaltext)
 * класс [MathematicalTextFactory](../../mathematicaltextfactory)
@@ -80,7 +80,7 @@ public IMathematicalText CreateMathematicalText(string mathText)
 
 ## CreateMathematicalText(string, IPortionFormat) {#createmathematicaltext_3}
 
-Создать элемент пустого математического текста с указанным значением и свойствами форматирования
+Создать пустой элемент математического текста с указанным значением и свойствами форматирования
 
 ```csharp
 public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat portionFormat)
@@ -91,11 +91,11 @@ public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat 
 | mathText | String | текстовое значение |
 | portionFormat | IPortionFormat | настройки формата текста |
 
-### Возвращаемое значение
+### Return Value
 
-новый математический текст
+новый Математический текст
 
-### См. также
+### See Also
 
 * интерфейс [IMathematicalText](../../imathematicaltext)
 * интерфейс [IPortionFormat](../../../aspose.slides/iportionformat)

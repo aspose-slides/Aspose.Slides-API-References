@@ -1,15 +1,15 @@
 ---
 title: DocumentLevelFontSources
-second_title: Aspose.Slides для .NET API Справка
-description: Указывает источники для внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны презентации на протяжении всей ее жизни и не используются другими презентациями
+second_title: Aspose.Sildes для .NET API Reference
+description: Указывает источники для внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны презентации на протяжении всего ее срока службы и не используются другими презентациями
 type: docs
 weight: 80
 url: /ru/aspose.slides/loadoptions/documentlevelfontsources/
 ---
 
-## Свойство LoadOptions.DocumentLevelFontSources
+## LoadOptions.DocumentLevelFontSources свойство
 
-Указывает источники для внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны презентации на протяжении всей ее жизни и не используются другими презентациями
+Указывает источники для внешних шрифтов, которые будут использоваться в презентации. Эти шрифты доступны презентации на протяжении всего ее срока службы и не используются другими презентациями
 
 ```csharp
 public IFontSources DocumentLevelFontSources { get; set; }
@@ -17,7 +17,7 @@ public IFontSources DocumentLevelFontSources { get; set; }
 
 ### Примеры
 
-Следующий пример показывает, как указать пользовательские шрифты, используемые с презентацией PowerPoint.
+Следующий пример показывает, как указать пользовательские шрифты, используемые в презентации PowerPoint.
 
 ```csharp
 [C#]
@@ -29,11 +29,11 @@ loadOptions.DocumentLevelFontSources.MemoryFonts = new byte[][] { memoryFont1, m
 using (IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions))
 {
     //работа с презентацией
-    //CustomFont1, CustomFont2, а также шрифты из папок assets\fonts и global\fonts и их подкаталогов доступны для презентации
+    //CustomFont1, CustomFont2, а также шрифты из папок assets\fonts и global\fonts и их подпапок доступны презентации
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IFontSources](../../ifontsources)
 * класс [LoadOptions](../../loadoptions)

@@ -1,7 +1,7 @@
 ---
 title: ContentType
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает или задает тип контента презентации. Чтение/запись String.
+second_title: Aspose.Slides для .NET API Справочник
+description: Возвращает или задает тип содержимого презентации. Читаемая/записываемая строка.
 type: docs
 weight: 90
 url: /ru/aspose.slides/documentproperties/contenttype/
@@ -9,13 +9,13 @@ url: /ru/aspose.slides/documentproperties/contenttype/
 
 ## DocumentProperties.ContentType свойство
 
-Возвращает или задает тип контента презентации. Чтение/запись String.
+Возвращает или задает тип содержимого презентации. Читаемая/записываемая строка.
 
 ```csharp
 public string ContentType { get; set; }
 ```
 
-### См. также
+### Смотрите также
 
 * класс [DocumentProperties](../../documentproperties)
 * пространство имен [Aspose.Slides](../../documentproperties)

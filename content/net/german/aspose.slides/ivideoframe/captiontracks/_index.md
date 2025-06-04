@@ -1,15 +1,15 @@
 ---
 title: CaptionTracks
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Sammlung der geschlossenen Untertitel des Videos zurück. Schreibgeschützte ICaptionsCollectionaspose.slides/icaptionscollection.
+description: Gibt die Sammlung der Untertitel des Videos zurück. Schreibgeschützte ICaptionsCollectionaspose.slides/icaptionscollection.
 type: docs
 weight: 20
 url: /de/aspose.slides/ivideoframe/captiontracks/
 ---
 
-## IVideoFrame.CaptionTracks-Eigenschaft
+## IVideoFrame.CaptionTracks Eigenschaft
 
-Gibt die Sammlung der geschlossenen Untertitel des Videos zurück. Schreibgeschützte [`ICaptionsCollection`](../../icaptionscollection).
+Gibt die Sammlung der Untertitel des Videos zurück. Schreibgeschützte [`ICaptionsCollection`](../../icaptionscollection).
 
 ```csharp
 public ICaptionsCollection CaptionTracks { get; }
@@ -21,7 +21,7 @@ Beispiel:
 
 ```csharp
 [C#]
-using (Presentation pres = new Presentation("video with captions.pptx"))
+using (Presentation pres = new Presentation("video mit Untertiteln.pptx"))
 {
     foreach (IShape shape in pres.Slides[0].Shapes)
     {
@@ -29,14 +29,14 @@ using (Presentation pres = new Presentation("video with captions.pptx"))
 
         foreach (var captionTrack in videoFrame.CaptionTracks)
         {
-            // Extrahiert die binären Daten der Untertitel und speichert sie in der Datei
+            // Extrahiert die binären Daten der Untertitel und speichert sie in die Datei
             System.IO.File.WriteAllBytes(captionTrack.CaptionId + ".vtt", captionTrack.BinaryData);
         }
     }
 }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ICaptionsCollection](../../icaptionscollection)
 * Schnittstelle [IVideoFrame](../../ivideoframe)

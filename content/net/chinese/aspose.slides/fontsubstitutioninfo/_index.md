@@ -1,15 +1,15 @@
 ---
 title: FontSubstitutionInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 此结构表示在呈现时有关字体替换的信息。
+description: 此结构表示在渲染时字体替换的信息。
 type: docs
 weight: 4710
 url: /zh/aspose.slides/fontsubstitutioninfo/
 ---
 
-## FontSubstitutionInfo类
+## FontSubstitutionInfo class
 
-此结构表示在呈现时有关字体替换的信息。
+此结构表示在渲染时字体替换的信息。
 
 ```csharp
 public class FontSubstitutionInfo
@@ -40,7 +40,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

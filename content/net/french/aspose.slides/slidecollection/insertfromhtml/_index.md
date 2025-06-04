@@ -1,6 +1,6 @@
 ---
 title: InsertFromHtml
-second_title: Référence API Aspose.Slides for .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Crée des diapositives à partir de texte HTML et les insère dans la collection à la position spécifiée.
 type: docs
 weight: 140
@@ -21,7 +21,7 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 | index | Int32 | Position à insérer. |
 | htmlText | String | HTML à ajouter. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
 ### Valeur de retour
 
@@ -51,8 +51,8 @@ public ISlide[] InsertFromHtml(int index, string htmlText, IExternalResourceReso
 | index | Int32 | Position à insérer. |
 | htmlText | String | HTML à ajouter. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : depuis une nouvelle diapositive ou depuis la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
 
 ### Valeur de retour
 
@@ -83,7 +83,7 @@ public ISlide[] InsertFromHtml(int index, string htmlText)
 
 ### Valeur de retour
 
-Diapositives ajoutées
+Diapositives ajoutées.
 
 ### Voir aussi
 
@@ -106,11 +106,11 @@ public ISlide[] InsertFromHtml(int index, string htmlText, bool useSlideWithInde
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
 | htmlText | String | HTML à ajouter. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
+| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : depuis une nouvelle diapositive ou depuis la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
 
 ### Valeur de retour
 
-Diapositives ajoutées
+Diapositives ajoutées.
 
 ### Voir aussi
 
@@ -135,7 +135,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
 | index | Int32 | Position à insérer. |
 | htmlReader | TextReader | Objet TextReader qui sera utilisé comme source d'un fichier HTML. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
 ### Valeur de retour
 
@@ -166,7 +166,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 
 ### Valeur de retour
 
-Diapositives ajoutées
+Diapositives ajoutées.
 
 ### Voir aussi
 
@@ -191,7 +191,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | index | Int32 | Position à insérer. |
 | htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
 
 ### Valeur de retour
 
@@ -221,8 +221,8 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | index | Int32 | Position à insérer. |
 | htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
 | resolver | IExternalResourceResolver | Un objet de rappel utilisé pour récupérer des objets externes. Si ce paramètre est nul, tous les objets externes seront ignorés. |
-| uri | String | Un URI de l'HTML spécifié. Utilisé pour résoudre les liens relatifs. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
+| uri | String | Un URI du HTML spécifié. Utilisé pour résoudre les liens relatifs. |
+| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : depuis une nouvelle diapositive ou depuis la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
 
 ### Valeur de retour
 
@@ -253,7 +253,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 
 ### Valeur de retour
 
-Diapositives ajoutées
+Diapositives ajoutées.
 
 ### Voir aussi
 
@@ -276,11 +276,11 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, bool useSlideWithIn
 | --- | --- | --- |
 | index | Int32 | Position à insérer. |
 | htmlStream | Stream | Un objet Stream qui sera utilisé comme source d'un fichier HTML. |
-| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : à partir d'une nouvelle diapositive ou à partir de la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
+| useSlideWithIndexAsStart | Boolean | Ce drapeau détermine comment commencer l'insertion : depuis une nouvelle diapositive ou depuis la diapositive avec l'index spécifié. Si **true**, l'insertion de données commencera à partir d'un espace vide sur la diapositive avec l'index spécifié. Si **false**, les données seront ajoutées aux diapositives créées. |
 
 ### Valeur de retour
 
-Diapositives ajoutées
+Diapositives ajoutées.
 
 ### Voir aussi
 

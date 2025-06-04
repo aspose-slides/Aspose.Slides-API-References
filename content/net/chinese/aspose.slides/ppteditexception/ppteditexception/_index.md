@@ -1,6 +1,6 @@
 ---
 title: PptEditException
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -25,15 +25,15 @@ public PptEditException()
 
 ## PptEditException(string) {#constructor_1}
 
-允许向此异常添加消息的构造函数。
+允许将消息添加到此异常的构造函数。
 
 ```csharp
 public PptEditException(string message)
 ```
 
-| 参数     | 类型    | 描述     |
-| -------- | ------- | -------- |
-| message  | String  | message  |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| message | String | message |
 
 ### 另请参阅
 
@@ -45,16 +45,16 @@ public PptEditException(string message)
 
 ## PptEditException(string, Exception) {#constructor_2}
 
-包含消息和嵌入异常的异常构造函数。
+包含消息和嵌套异常的异常的构造函数。
 
 ```csharp
 public PptEditException(string message, Exception exception)
 ```
 
-| 参数     | 类型     | 描述              |
-| -------- | -------- | ----------------- |
-| message  | String   | message           |
-| exception| Exception| 原始异常         |
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| message | String | message |
+| exception | Exception | 原始异常 |
 
 ### 另请参阅
 

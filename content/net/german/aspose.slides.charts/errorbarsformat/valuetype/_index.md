@@ -1,21 +1,21 @@
 ---
 title: ValueType
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Fall eines benutzerdefinierten Wertetyps, um den Wert anzugeben, verwenden Sie die ErrorBarsCustomValuesaspose.slides/ichartdatapoint/errorbarscustomvalues Eigenschaft des spezifischen Datenpunkts in der DataPoints-Sammlung der Serie. Im Fall von Fixed, Percentage oder StandardDeviation Wertetyp verwenden Sie die Value-Eigenschaft, um den Wert anzugeben. Lese-/Schreibe ErrorBarValueTypeaspose.slides/errorbarvaluetype.
+description: Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Fall eines benutzerdefinierten Wertetyps verwenden Sie die ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues-Eigenschaft eines bestimmten Datenpunkts in der DataPoints-Sammlung der Serie, um den Wert anzugeben. Im Fall von Fixed Percentage oder StandardDeviation Werttyp verwenden Sie die Value-Eigenschaft, um den Wert anzugeben. Lese-/Schreibzugriff auf ErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
 type: docs
 weight: 70
 url: /de/aspose.slides.charts/errorbarsformat/valuetype/
 ---
 
-## ErrorBarsFormat.ValueType Eigenschaft
+## ErrorBarsFormat.ValueType-Eigenschaft
 
-Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Fall eines benutzerdefinierten Wertetyps, um den Wert anzugeben, verwenden Sie die [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) Eigenschaft des spezifischen Datenpunkts in der DataPoints-Sammlung der Serie. Im Fall von Fixed, Percentage oder StandardDeviation Wertetyp verwenden Sie die Value-Eigenschaft, um den Wert anzugeben. Lese-/Schreibe [`ErrorBarValueType`](../../errorbarvaluetype).
+Stellt mögliche Wege dar, um die Länge der Fehlerbalken zu bestimmen. Im Fall eines benutzerdefinierten Wertetyps verwenden Sie die [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)-Eigenschaft eines bestimmten Datenpunkts in der DataPoints-Sammlung der Serie, um den Wert anzugeben. Im Fall von Fixed, Percentage oder StandardDeviation Werttyp verwenden Sie die Value-Eigenschaft, um den Wert anzugeben. Lese-/Schreibzugriff auf [`ErrorBarValueType`](../../errorbarvaluetype).
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * enum [ErrorBarValueType](../../errorbarvaluetype)
 * class [ErrorBarsFormat](../../errorbarsformat)

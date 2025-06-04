@@ -1,7 +1,7 @@
 ---
 title: ScaleCrop
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Anzeige-Modus des Dokumentsminiaturbildes an. Setzen Sie dieses Element auf **true**, um das Skalieren des Dokumentsminiaturbildes für die Anzeige zu aktivieren. Setzen Sie dieses Element auf **false**, um das Zuschneiden des Dokumentsminiaturbildes zu aktivieren, sodass nur Bereiche angezeigt werden, die zur Anzeige passen. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Gibt den Anzeigemodus des Dokumentvorschau an. Setzen Sie dieses Element auf **true**, um das Skalieren der Dokumentvorschau an die Anzeige zu aktivieren. Setzen Sie dieses Element auf **false**, um das Zuschneiden der Dokumentvorschau zu aktivieren, damit nur Bereiche angezeigt werden, die in die Anzeige passen. Lese-/Schreib-Boolean.
 type: docs
 weight: 290
 url: /de/aspose.slides/documentproperties/scalecrop/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/documentproperties/scalecrop/
 
 ## DocumentProperties.ScaleCrop-Eigenschaft
 
-Gibt den Anzeige-Modus des Dokumentsminiaturbildes an. Setzen Sie dieses Element auf **true**, um das Skalieren des Dokumentsminiaturbildes für die Anzeige zu aktivieren. Setzen Sie dieses Element auf **false**, um das Zuschneiden des Dokumentsminiaturbildes zu aktivieren, sodass nur Bereiche angezeigt werden, die zur Anzeige passen. Lese-/Schreib-Boolean.
+Gibt den Anzeigemodus des Dokumentvorschau an. Setzen Sie dieses Element auf **true**, um das Skalieren der Dokumentvorschau an die Anzeige zu aktivieren. Setzen Sie dieses Element auf **false**, um das Zuschneiden der Dokumentvorschau zu aktivieren, damit nur Bereiche angezeigt werden, die in die Anzeige passen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool ScaleCrop { get; set; }

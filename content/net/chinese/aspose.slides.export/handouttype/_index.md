@@ -1,7 +1,7 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes for .NET API 参考
-description: 指定将在页面上放置多少幻灯片以及以什么顺序放置。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定在页面上放置多少张幻灯片及其顺序。
 type: docs
 weight: 3680
 url: /zh/aspose.slides.export/handouttype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/handouttype/
 
 ## HandoutType 枚举
 
-指定将在页面上放置多少幻灯片以及以什么顺序放置。
+指定在页面上放置多少张幻灯片及其顺序。
 
 ```csharp
 public enum HandoutType
@@ -22,14 +22,14 @@ public enum HandoutType
 | Handouts1 | `0` | 每页一张幻灯片。 |
 | Handouts2 | `1` | 每页两张幻灯片。 |
 | Handouts3 | `2` | 每页三张幻灯片。 |
-| Handouts4Horizontal | `3` | 每页四张幻灯片，水平排列。 |
-| Handouts4Vertical | `4` | 每页四张幻灯片，垂直排列。 |
-| Handouts6Horizontal | `5` | 每页六张幻灯片，水平排列。 |
-| Handouts6Vertical | `6` | 每页六张幻灯片，垂直排列。 |
-| Handouts9Horizontal | `7` | 每页九张幻灯片，水平排列。 |
-| Handouts9Vertical | `8` | 每页九张幻灯片，垂直排列。 |
+| Handouts4Horizontal | `3` | 每页四张幻灯片，水平方向排列。 |
+| Handouts4Vertical | `4` | 每页四张幻灯片，垂直方向排列。 |
+| Handouts6Horizontal | `5` | 每页六张幻灯片，水平方向排列。 |
+| Handouts6Vertical | `6` | 每页六张幻灯片，垂直方向排列。 |
+| Handouts9Horizontal | `7` | 每页九张幻灯片，水平方向排列。 |
+| Handouts9Vertical | `8` | 每页九张幻灯片，垂直方向排列。 |
 
-### 另请参见
+### 参见
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

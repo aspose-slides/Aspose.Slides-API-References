@@ -1,6 +1,6 @@
 ---
 title: CreateMathBlock
-second_title: Aspose.Sildes for .NET API参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 创建数学块
 type: docs
 weight: 10

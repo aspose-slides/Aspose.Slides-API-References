@@ -21,7 +21,7 @@ public IChartDataWorksheet this[int index] { get; }
 
 ### Valeur de retour
 
-Instance de IChartDataWorksheet.
+Instance de l'IChartDataWorksheet.
 
 ### Voir aussi
 

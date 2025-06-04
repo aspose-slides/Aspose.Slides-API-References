@@ -1,6 +1,6 @@
 ---
 title: AddAlphaInverseEffect
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour les références API .NET
 description: Ajoute le nouvel effet Alpha Inverse à la fin d'une collection.
 type: docs
 weight: 80
@@ -15,14 +15,14 @@ Ajoute le nouvel effet Alpha Inverse à la fin d'une collection.
 public IAlphaInverse AddAlphaInverseEffect()
 ```
 
-### Valeur de retour
+### Valeur de Retour
 
 Index du nouvel effet d'image dans une collection.
 
 ### Voir Aussi
 
 * interface [IAlphaInverse](../../ialphainverse)
-* classe [ImageTransformOperationCollection](../../imagetransformoperationcollection)
+* class [ImageTransformOperationCollection](../../imagetransformoperationcollection)
 * namespace [Aspose.Slides.Effects](../../imagetransformoperationcollection)
 * assembly [Aspose.Slides](../../../)
 

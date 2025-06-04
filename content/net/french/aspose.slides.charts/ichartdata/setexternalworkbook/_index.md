@@ -1,7 +1,7 @@
 ---
 title: SetExternalWorkbook
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Définit un classeur externe comme source de données pour le graphique. Les données du graphique seront mises à jour à partir du classeur cible.
+second_title: Aspose.Sildes pour la référence de l'API .NET
+description: Définit le classeur externe comme source de données pour le graphique. Les données du graphique seront mises à jour à partir du classeur cible.
 type: docs
 weight: 110
 url: /fr/aspose.slides.charts/ichartdata/setexternalworkbook/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/ichartdata/setexternalworkbook/
 
 ## SetExternalWorkbook(string) {#setexternalworkbook}
 
-Définit un classeur externe comme source de données pour le graphique. Les données du graphique seront mises à jour à partir du classeur cible.
+Définit le classeur externe comme source de données pour le graphique. Les données du graphique seront mises à jour à partir du classeur cible.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath)
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartData](../../ichartdata)
 * namespace [Aspose.Slides.Charts](../../ichartdata)
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation())
 
 ## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
-Définit un classeur externe comme source de données pour le graphique.
+Définit le classeur externe comme source de données pour le graphique.
 
 ```csharp
 public void SetExternalWorkbook(string workbookPath, bool updateChartData)
@@ -56,7 +56,7 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | workbookPath | String | Chemin vers le classeur cible |
-| updateChartData | Boolean | Si la valeur est false, seul le chemin du classeur sera mis à jour. Les données du graphique ne seront pas chargées et mises à jour à partir du classeur cible. Peut être utilisé lorsque le classeur cible n'existe pas ou n'est pas disponible. Si la valeur est true, les données du graphique seront mises à jour à partir du classeur cible. |
+| updateChartData | Boolean | Si la valeur est fausse, seul le chemin du classeur sera mis à jour. Les données du graphique ne seront pas chargées ni mises à jour à partir du classeur cible. Peut être utilisé lorsque le classeur cible n'existe pas ou n'est pas disponible. Si la valeur est vraie, les données du graphique seront mises à jour à partir du classeur cible. |
 
 ### Exceptions
 
@@ -77,7 +77,7 @@ using (Presentation pres = new Presentation())
 
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartData](../../ichartdata)
 * namespace [Aspose.Slides.Charts](../../ichartdata)

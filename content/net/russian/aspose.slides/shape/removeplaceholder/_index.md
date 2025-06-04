@@ -1,21 +1,21 @@
 ---
 title: RemovePlaceholder
-second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет, что эта фигура не является заполнителем.
+second_title: Справка по API Aspose.Slides для .NET
+description: Определяет, что эта форма не является заполнительом.
 type: docs
 weight: 360
 url: /ru/aspose.slides/shape/removeplaceholder/
 ---
 
-## Метод Shape.RemovePlaceholder
+## Shape.RemovePlaceholder метод
 
-Определяет, что эта фигура не является заполнителем.
+Определяет, что эта форма не является заполнительом.
 
 ```csharp
 public void RemovePlaceholder()
 ```
 
-### См. также
+### Смотрите также
 
 * класс [Shape](../../shape)
 * пространство имен [Aspose.Slides](../../shape)

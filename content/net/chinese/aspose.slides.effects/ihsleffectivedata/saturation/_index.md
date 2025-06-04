@@ -1,6 +1,6 @@
 ---
 title: Saturation
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回饱和度百分比。只读 Single。
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ihsleffectivedata/saturation/
 public float Saturation { get; }
 ```
 
-### 参见
+### 另请参阅
 
 * 接口 [IHSLEffectiveData](../../ihsleffectivedata)
 * 命名空间 [Aspose.Slides.Effects](../../ihsleffectivedata)

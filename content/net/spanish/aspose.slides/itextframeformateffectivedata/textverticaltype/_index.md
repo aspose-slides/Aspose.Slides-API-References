@@ -7,7 +7,7 @@ weight: 110
 url: /es/aspose.slides/itextframeformateffectivedata/textverticaltype/
 ---
 
-## Propiedad ITextFrameFormatEffectiveData.TextVerticalType
+## ITextFrameFormatEffectiveData.TextVerticalType property
 
 Devuelve la orientación del texto. Solo lectura [`TextVerticalType`](../../textverticaltype).
 

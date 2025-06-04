@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回一个枚举器，用于迭代集合。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回一个迭代集合的枚举器。
 type: docs
 weight: 60
 url: /zh/aspose.slides.animation/motionpath/getenumerator/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.animation/motionpath/getenumerator/
 
 ## MotionPath.GetEnumerator 方法
 
-返回一个枚举器，用于迭代集合。
+返回一个迭代集合的枚举器。
 
 ```csharp
 public IEnumerator<IMotionCmdPath> GetEnumerator()
@@ -19,7 +19,7 @@ public IEnumerator<IMotionCmdPath> GetEnumerator()
 
 一个可以用于迭代集合的 IEnumerator。
 
-### 另见
+### 另请参阅
 
 * 接口 [IMotionCmdPath](../../imotioncmdpath)
 * 类 [MotionPath](../../motionpath)

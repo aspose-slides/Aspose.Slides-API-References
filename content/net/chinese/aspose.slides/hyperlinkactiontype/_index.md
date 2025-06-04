@@ -1,15 +1,15 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes for .NET API 参考
-description: 表示一种超链接动作类型。
+second_title: Aspose.Sildes for .NET API Reference
+description: 表示超链接操作的一种类型。
 type: docs
 weight: 4930
 url: /zh/aspose.slides/hyperlinkactiontype/
 ---
 
-## 超链接动作类型枚举
+## HyperlinkActionType 枚举
 
-表示一种超链接动作类型。
+表示超链接操作的一种类型。
 
 ```csharp
 public enum HyperlinkActionType
@@ -19,16 +19,16 @@ public enum HyperlinkActionType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| Unknown | `-1` | 未识别的动作类型。 |
-| NoAction | `0` | 无动作。 |
+| Unknown | `-1` | 未识别的操作类型。 |
+| NoAction | `0` | 无操作。 |
 | Hyperlink | `1` | 普通超链接。 |
 | JumpFirstSlide | `2` | 跳转到演示文稿的第一张幻灯片。 |
-| JumpPreviousSlide | `3` | 跳转到上一张幻灯片。 |
+| JumpPreviousSlide | `3` | 跳转到前一张幻灯片。 |
 | JumpNextSlide | `4` | 跳转到下一张幻灯片。 |
 | JumpLastSlide | `5` | 跳转到演示文稿的最后一张幻灯片。 |
-| JumpEndShow | `6` | 跳转到幻灯片放映的结束。 |
+| JumpEndShow | `6` | 跳转到放映结束。 |
 | JumpLastViewedSlide | `7` | 跳转到最后查看的幻灯片。 |
-| JumpSpecificSlide | `8` | 跳转到特定幻灯片，通过 [`TargetSlide`](../ihyperlink/targetslide) 属性引用。 |
+| JumpSpecificSlide | `8` | 跳转到特定幻灯片，参考 [`TargetSlide`](../ihyperlink/targetslide) 属性。 |
 | StartCustomSlideShow | `9` | 开始自定义幻灯片放映。 |
 | OpenFile | `10` | 打开引用的文件。 |
 | OpenPresentation | `11` | 打开引用的演示文稿。 |
@@ -36,7 +36,7 @@ public enum HyperlinkActionType
 | StartMacro | `13` | 开始执行宏脚本。 |
 | StartProgram | `14` | 启动程序。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

@@ -1,21 +1,21 @@
 ---
 title: SlideViewProperties
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie les propriétés de vue communes associées au mode de vue des diapositives. Lecture seule ICommonSlideViewProperties aspose.slides/icommonslideviewproperties.
+second_title: Aspose.Slides pour .NET Référence API
+description: Spécifie les propriétés de vue communes associées au mode de vue de la diapositive. En lecture seule ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
 weight: 60
 url: /fr/aspose.slides/iviewproperties/slideviewproperties/
 ---
 
-## Propriété IViewProperties.SlideViewProperties
+## IViewProperties.SlideViewProperties propriété
 
-Spécifie les propriétés de vue communes associées au mode de vue des diapositives. Lecture seule [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
+Spécifie les propriétés de vue communes associées au mode de vue de la diapositive. En lecture seule [`ICommonSlideViewProperties`](../../icommonslideviewproperties).
 
 ```csharp
 public ICommonSlideViewProperties SlideViewProperties { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ICommonSlideViewProperties](../../icommonslideviewproperties)
 * interface [IViewProperties](../../iviewproperties)

@@ -1,21 +1,21 @@
 ---
 title: AsIFillParamSource
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet d'obtenir l'interface de base IFillParamSource. IFillParamSource en lecture seule aspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /fr/aspose.slides/igradientformateffectivedata/asifillparamsource/
 ---
 
-## Propriété IGradientFormatEffectiveData.AsIFillParamSource
+## IGradientFormatEffectiveData.AsIFillParamSource propriété
 
-Permet d'obtenir l'interface de base IFillParamSource. Lecture seule [`IFillParamSource`](../../ifillparamsource).
+Permet d'obtenir l'interface de base IFillParamSource. en lecture seule [`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IFillParamSource](../../ifillparamsource)
 * interface [IGradientFormatEffectiveData](../../igradientformateffectivedata)

@@ -1,6 +1,6 @@
 ---
 title: Item
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回或设置属性。
 type: docs
 weight: 30
@@ -19,7 +19,7 @@ public string this[string name] { get; set; }
 | --- | --- |
 | name | 属性名称。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * 命名空间 [Aspose.Slides](../../icontrolpropertiescollection)

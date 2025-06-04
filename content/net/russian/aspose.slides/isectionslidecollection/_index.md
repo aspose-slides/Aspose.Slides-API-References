@@ -1,6 +1,6 @@
 ---
 title: ISectionSlideCollection
-second_title: Справка по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет коллекцию слайдов в разделе.
 type: docs
 weight: 6710
@@ -19,9 +19,9 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Получает элемент по заданному индексу. Только для чтения [`ISlide`](../islide). |
 
-### Также смотри
+### См. также
 
 * интерфейс [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * интерфейс [ISlide](../islide)

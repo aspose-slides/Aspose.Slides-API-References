@@ -1,13 +1,13 @@
 ---
 title: Color1
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie le format de couleur cible pour les pixels sombres. Lecture seule IColorFormat aspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie le format de couleur cible pour les pixels sombres. Lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides.effects/iduotone/color1/
 ---
 
-## Propriété IDuotone.Color1
+## IDuotone.Color1 propriété
 
 Renvoie le format de couleur cible pour les pixels sombres. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 

@@ -1,7 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Slides for .NET API 参考
-description: 返回墙体填充、线条、效果和 3D 样式。只读 IFormat aspose.slides.charts/iformat。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回墙填充、线条、效果、3D 样式。只读 IFormataspose.slides.charts/iformat。
 type: docs
 weight: 10
 url: /zh/aspose.slides.charts/chartwall/format/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/chartwall/format/
 
 ## ChartWall.Format 属性
 
-返回墙体填充、线条、效果和 3D 样式。只读 [`IFormat`](../../iformat)。
+返回墙填充、线条、效果、3D 样式。只读 [`IFormat`](../../iformat)。
 
 ```csharp
 public IFormat Format { get; }
 ```
 
-### 参见
+### 另请参见
 
 * 接口 [IFormat](../../iformat)
 * 类 [ChartWall](../../chartwall)

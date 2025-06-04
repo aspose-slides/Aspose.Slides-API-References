@@ -15,7 +15,7 @@ Gibt das übergeordnete Table-Objekt für eine Zelle zurück. Nur-Lese [`ITable`
 public ITable Table { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [ITable](../../itable)
 * Schnittstelle [ICell](../../icell)

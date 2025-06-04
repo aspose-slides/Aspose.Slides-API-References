@@ -1,7 +1,7 @@
 ---
 title: InsertColumnAfter
-second_title: Aspose.Slides für .NET API-Referenz
-description: Fügen Sie eine neue Spalte nach der angegebenen ein. Zu Beginn sind alle Elemente in der neuen Spalte null.
+second_title: Aspose.Slides für .NET API Referenz
+description: Fügen Sie eine neue Spalte nach der angegebenen ein. Zunächst sind alle Elemente in der neuen Spalte null.
 type: docs
 weight: 160
 url: /de/aspose.slides.mathtext/mathmatrix/insertcolumnafter/
@@ -9,15 +9,15 @@ url: /de/aspose.slides.mathtext/mathmatrix/insertcolumnafter/
 
 ## MathMatrix.InsertColumnAfter-Methode
 
-Fügen Sie eine neue Spalte nach der angegebenen ein. Zu Beginn sind alle Elemente in der neuen Spalte null.
+Fügen Sie eine neue Spalte nach der angegebenen ein. Zunächst sind alle Elemente in der neuen Spalte null.
 
 ```csharp
 public void InsertColumnAfter(int columnIndex)
 ```
 
-| Parameter     | Typ    | Beschreibung                                                |
-|---------------|--------|------------------------------------------------------------|
-| columnIndex   | Int32  | Index der Spalte, nach der eine neue eingefügt werden soll |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| columnIndex | Int32 | Index der Spalte, nach der eine neue eingefügt werden soll |
 
 ### Beispiele
 

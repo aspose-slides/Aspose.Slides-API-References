@@ -26,14 +26,14 @@ using (Presentation pres = new Presentation())
     IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("sampleaudio.mp3"));
     IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(50, 50, 100, 100, audio);
 
-    // Setze die Endbeschneidungszeit auf 2 Sekunden
+    // Setzen Sie die Endtrimmzeit auf 2 Sekunden
     audioFrame.TrimFromEnd = 2000f;
 }
 ```
 
 ### Siehe Auch
 
-* Interface [IAudioFrame](../../iaudioframe)
+* Schnittstelle [IAudioFrame](../../iaudioframe)
 * Namespace [Aspose.Slides](../../iaudioframe)
 * Assembly [Aspose.Slides](../../../)
 

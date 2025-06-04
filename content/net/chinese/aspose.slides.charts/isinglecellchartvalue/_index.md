@@ -1,7 +1,7 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Slides for .NET API 参考
-description: 表示一个图表数据单元格。
+second_title: Aspose.Sildes for .NET API Reference
+description: 代表一个图表数据单元格。
 type: docs
 weight: 2130
 url: /zh/aspose.slides.charts/isinglecellchartvalue/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/isinglecellchartvalue/
 
 ## ISingleCellChartValue 接口
 
-表示一个图表数据单元格。
+代表一个图表数据单元格。
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -20,9 +20,9 @@ public interface ISingleCellChartValue : IBaseChartValue
 | 名称 | 描述 |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | 返回或设置图表数据单元格。可读写 [`IChartDataCell`](../ichartdatacell)。 |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | 允许获取基接口 IBaseChartValue。只读 [`IBaseChartValue`](../ibasechartvalue)。 |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | 允许获取基本的 IBaseChartValue 接口。只读 [`IBaseChartValue`](../ibasechartvalue)。 |
 
-### 另见
+### 另请参见
 
 * 接口 [IBaseChartValue](../ibasechartvalue)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,7 +1,7 @@
 ---
 title: CropRight
-second_title: Aspose.Slides for .NET API 参考
-description: 返回图片右侧裁剪掉的实际图像宽度的百分比。只读 Single。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回裁剪掉图片右侧的实际图像宽度的百分比。仅为读取的单一值。
 type: docs
 weight: 40
 url: /zh/aspose.slides/ipicturefillformateffectivedata/cropright/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ipicturefillformateffectivedata/cropright/
 
 ## IPictureFillFormatEffectiveData.CropRight 属性
 
-返回图片右侧裁剪掉的实际图像宽度的百分比。只读 Single。
+返回裁剪掉图片右侧的实际图像宽度的百分比。仅为读取的单一值。
 
 ```csharp
 public float CropRight { get; }
 ```
 
-### 参见
+### 另见
 
 * 接口 [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)
 * 命名空间 [Aspose.Slides](../../ipicturefillformateffectivedata)

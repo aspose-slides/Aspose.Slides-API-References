@@ -1,7 +1,7 @@
 ---
 title: ShowBackground
-second_title: Aspose.Sildes für .NET API Referenz
-description: Ruft den Wert ab oder legt ihn fest, der angibt, ob der Zoom den Hintergrund der Zielslice verwenden soll. Lese-/Schreibbare Boolean. Standardwert true
+second_title: Aspose.Slides für .NET API Referenz
+description: Ruft den Wert ab oder legt ihn fest, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese/Schreib-Boolean. Standardwert true
 type: docs
 weight: 40
 url: /de/aspose.slides/izoomobject/showbackground/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/izoomobject/showbackground/
 
 ## IZoomObject.ShowBackground-Eigenschaft
 
-Ruft den Wert ab oder legt ihn fest, der angibt, ob der Zoom den Hintergrund der Zielslice verwenden soll. Lese-/Schreibbare Boolean. Standardwert: true
+Ruft den Wert ab oder legt ihn fest, der angibt, ob der Zoom den Hintergrund der Zielfolie verwenden soll. Lese/Schreib-Boolean. Standardwert: true
 
 ```csharp
 public bool ShowBackground { get; set; }
@@ -17,7 +17,7 @@ public bool ShowBackground { get; set; }
 
 ### Beispiele
 
-Das Beispiel demonstriert das Entfernen des Hintergrunds eines Bildes eines Zoom-Objekts:
+Das Beispiel zeigt, wie der Hintergrund eines Bildes eines Zoom-Objekts entfernt wird:
 
 ```csharp
 [C#]
@@ -28,7 +28,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IZoomObject](../../izoomobject)
 * Namespace [Aspose.Slides](../../izoomobject)

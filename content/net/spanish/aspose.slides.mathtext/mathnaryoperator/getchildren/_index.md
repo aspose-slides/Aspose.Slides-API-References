@@ -1,13 +1,13 @@
 ---
 title: GetChildren
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtener elementos hijos
 type: docs
 weight: 100
 url: /es/aspose.slides.mathtext/mathnaryoperator/getchildren/
 ---
 
-## Método MathNaryOperator.GetChildren
+## MathNaryOperator.GetChildren método
 
 Obtener elementos hijos
 
@@ -15,11 +15,11 @@ Obtener elementos hijos
 public IMathElement[] GetChildren()
 ```
 
-### Ver También
+### Véase también
 
-* interfaz [IMathElement](../../imathelement)
-* clase [MathNaryOperator](../../mathnaryoperator)
-* espacio de nombres [Aspose.Slides.MathText](../../mathnaryoperator)
-* ensamblaje [Aspose.Slides](../../../)
+* interfaz [IMathElement](../../imathelement)
+* clase [MathNaryOperator](../../mathnaryoperator)
+* espacio de nombres [Aspose.Slides.MathText](../../mathnaryoperator)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

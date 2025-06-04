@@ -1,13 +1,13 @@
 ---
 title: Remove
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Supprime la première occurrence d'un paragraphe spécifique.
 type: docs
 weight: 100
 url: /fr/aspose.slides/iparagraphcollection/remove/
 ---
 
-## Méthode IParagraphCollection.Remove
+## IParagraphCollection.Remove méthode
 
 Supprime la première occurrence d'un paragraphe spécifique.
 
@@ -19,11 +19,11 @@ public bool Remove(IParagraph item)
 | --- | --- | --- |
 | item | IParagraph | Le paragraphe à supprimer de la collection. |
 
-### Valeur de retour
+### Valeur de Retour
 
 true si *item* a été supprimé avec succès ; sinon, false.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IParagraph](../../iparagraph)
 * interface [IParagraphCollection](../../iparagraphcollection)

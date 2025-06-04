@@ -1,6 +1,6 @@
 ---
 title: DataSourceType
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 表示图表的数据源
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/ichartdata/datasourcetype/
 public ChartDataSourceType DataSourceType { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [ChartDataSourceType](../../chartdatasourcetype)
 * interface [IChartData](../../ichartdata)

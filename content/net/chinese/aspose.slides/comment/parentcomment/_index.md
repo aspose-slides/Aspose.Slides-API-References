@@ -1,7 +1,7 @@
 ---
 title: ParentComment
-second_title: Aspose.Slides for .NET API Reference
-description: 获取或设置父级评论。可读/可写 ICommentaspose.slides/icomment。
+second_title: Aspose.Sildes for .NET API Reference
+description: 获取或设置父评论。可读写 ICommentaspose.slides/icomment。
 type: docs
 weight: 30
 url: /zh/aspose.slides/comment/parentcomment/
@@ -9,8 +9,8 @@ url: /zh/aspose.slides/comment/parentcomment/
 
 ## Comment.ParentComment 属性
 
-获取或设置父级评论。可读/可写 [`IComment`](../../icomment)。
-
+获取或设置父评论。可读写 [`IComment`](../../icomment)。
+ 
 ```csharp
 public IComment ParentComment { get; set; }
 ```
@@ -19,9 +19,9 @@ public IComment ParentComment { get; set; }
 
 | 异常 | 条件 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 在设置值导致循环引用时引发 |
+| [PptxEditException](../../pptxeditexception) | 当设置值导致循环引用时抛出 |
 
-### 另见
+### 参见
 
 * 接口 [IComment](../../icomment)
 * 类 [Comment](../../comment)

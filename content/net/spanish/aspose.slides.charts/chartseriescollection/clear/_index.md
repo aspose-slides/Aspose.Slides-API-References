@@ -1,6 +1,6 @@
 ---
 title: Clear
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Elimina todos los controles de la colección.
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ Elimina todos los controles de la colección.
 public void Clear()
 ```
 
-### Ver También
+### Véase también
 
 * clase [ChartSeriesCollection](../../chartseriescollection)
 * espacio de nombres [Aspose.Slides.Charts](../../chartseriescollection)

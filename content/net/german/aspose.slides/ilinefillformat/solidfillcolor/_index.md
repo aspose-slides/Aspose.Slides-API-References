@@ -1,7 +1,7 @@
 ---
 title: SolidFillColor
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die Farbe einer einfarbigen Füllung zurück. Schreibgeschützt IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Sildes for .NET API Referenz
+description: Gibt die Farbe einer durchgehenden Füllung zurück. Schreibgeschütztes IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /de/aspose.slides/ilinefillformat/solidfillcolor/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ilinefillformat/solidfillcolor/
 
 ## ILineFillFormat.SolidFillColor-Eigenschaft
 
-Gibt die Farbe einer einfarbigen Füllung zurück. Schreibgeschützt [`IColorFormat`](../../icolorformat).
+Gibt die Farbe einer durchgehenden Füllung zurück. Schreibgeschützt [`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat SolidFillColor { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Schnittstelle [IColorFormat](../../icolorformat)
 * Schnittstelle [ILineFillFormat](../../ilinefillformat)

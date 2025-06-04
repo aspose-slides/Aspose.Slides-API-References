@@ -1,6 +1,6 @@
 ---
 title: ShowMajorGridLines
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示是否显示主要网格线。只读布尔值。
 type: docs
 weight: 480
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.charts/iaxis/showmajorgridlines/
 public bool ShowMajorGridLines { get; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

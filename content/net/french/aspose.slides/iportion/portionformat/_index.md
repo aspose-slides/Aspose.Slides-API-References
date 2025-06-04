@@ -1,15 +1,15 @@
 ---
 title: PortionFormat
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie l'objet de formatage qui contient les propriétés de formatage définies explicitement de la portion de texte sans héritage appliqué. Lecture seule IPortionFormataspose.slides/iportionformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne un objet de formatage qui contient des propriétés de formatage explicitement définies de la portion de texte sans héritage appliqué. En lecture seule IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /fr/aspose.slides/iportion/portionformat/
 ---
 
-## Propriété IPortion.PortionFormat
+## IPortion.PortionFormat propriété
 
-Renvoie l'objet de formatage qui contient les propriétés de formatage définies explicitement de la portion de texte sans héritage appliqué. Lecture seule [`IPortionFormat`](../../iportionformat).
+Retourne un objet de formatage qui contient des propriétés de formatage explicitement définies de la portion de texte sans héritage appliqué. En lecture seule [`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat PortionFormat { get; }
@@ -17,9 +17,9 @@ public IPortionFormat PortionFormat { get; }
 
 ### Remarques
 
-L'objet de formatage contient les paramètres de formatage définis uniquement pour la portion actuelle, les données héritées ne sont pas appliquées.
+L'objet de formatage contient uniquement les paramètres de formatage définis pour la portion actuelle, les données héritées ne sont pas appliquées.
 
-Afin d'obtenir les valeurs effectives y compris celles héritées, utilisez la méthode [`GetEffective`](../../iportionformat/geteffective).
+Pour obtenir les valeurs effectives y compris celles héritées, utilisez la méthode [`GetEffective`](../../iportionformat/geteffective).
 
 ### Voir aussi
 

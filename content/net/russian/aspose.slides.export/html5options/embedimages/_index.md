@@ -1,7 +1,7 @@
 ---
 title: EmbedImages
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает параметр встраивания изображений. Читаемый/записываемый логический тип.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает или задает параметры встраивания изображений. Чтение/запись Boolean.
 type: docs
 weight: 50
 url: /ru/aspose.slides.export/html5options/embedimages/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.export/html5options/embedimages/
 
 ## Html5Options.EmbedImages свойство
 
-Возвращает или устанавливает параметр встраивания изображений. Читаемый/записываемый логический тип.
+Возвращает или задает параметры встраивания изображений. Чтение/запись Boolean.
 
 ```csharp
 public bool EmbedImages { get; set; }
@@ -30,7 +30,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Также см.
+### См. также
 
 * класс [Html5Options](../../html5options)
 * пространство имен [Aspose.Slides.Export](../../html5options)

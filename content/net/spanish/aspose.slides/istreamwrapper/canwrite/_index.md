@@ -15,10 +15,10 @@ Obtiene un valor que indica si el flujo actual admite escritura. Booleano de sol
 public bool CanWrite { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IStreamWrapper](../../istreamwrapper)
 * espacio de nombres [Aspose.Slides](../../istreamwrapper)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

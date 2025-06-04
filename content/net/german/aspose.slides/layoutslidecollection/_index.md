@@ -1,7 +1,7 @@
 ---
 title: LayoutSlideCollection
 second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Basisklasse für die Sammlung von Layout-Folien dar.
+description: Stellt eine Basisklasse für die Sammlung von Layoutfolien dar.
 type: docs
 weight: 7410
 url: /de/aspose.slides/layoutslidecollection/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/layoutslidecollection/
 
 ## LayoutSlideCollection-Klasse
 
-Stellt eine Basisklasse für die Sammlung von Layout-Folien dar.
+Stellt eine Basisklasse für die Sammlung von Layoutfolien dar.
 
 ```csharp
 public class LayoutSlideCollection : ILayoutSlideCollection
@@ -19,22 +19,22 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Gibt die Anzahl der Layout-Folien in einer Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Gibt die Layout-Folie nach Index zurück. Nur lesbar [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Gibt einen Synchronisierungsstamm zurück. Nur lesbar Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Gibt die Anzahl der Layoutfolien in einer Sammlung zurück. Schreibgeschütztes Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschütztes Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Gibt die Layoutfolie nach Index zurück. Schreibgeschütztes [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Schreibgeschütztes Objekt. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopiert alle Elemente aus der Sammlung in das angegebene Array. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Gibt die erste Layout-Folie des angegebenen Typs zurück. Ein Typ von Layout-Folie, der gefunden werden soll. [`LayoutSlide`](../layoutslide) mit dem angegebenen Typ oder null, wenn keine Layouts gefunden wurden. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Gibt die erste Layoutfolie des angegebenen Typs zurück. Ein Typ von Layoutfolie, den es zu finden gilt. [`LayoutSlide`](../layoutslide) mit dem angegebenen Typ oder null, wenn keine Layouts gefunden wurden. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Gibt einen Enumerator zurück, der durch die Sammlung iteriert. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Entfernt ein Layout aus der Sammlung. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Entfernt ungenutzte Layout-Folien (Layout-Folien, deren HasDependingSlides false ist). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Entfernt ungenutzte Layoutfolien (Layoutfolien, deren HasDependingSlides false ist). |
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [ILayoutSlideCollection](../ilayoutslidecollection)
 * Namespace [Aspose.Slides](../../aspose.slides)

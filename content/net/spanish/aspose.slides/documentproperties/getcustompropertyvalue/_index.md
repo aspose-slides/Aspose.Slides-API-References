@@ -1,6 +1,6 @@
 ---
 title: GetCustomPropertyValue
-second_title: Aspose.Sildes para .NET API Referencia
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Obtiene un valor booleano nombrado de las propiedades personalizadas.
 type: docs
 weight: 430
@@ -20,7 +20,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 | name | String | Nombre de la propiedad personalizada a obtener |
 | value | Boolean& | Valor de la propiedad personalizada |
 
-### Véase también
+### Véase También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -41,7 +41,7 @@ public void GetCustomPropertyValue(string name, out int value)
 | name | String | Nombre de la propiedad personalizada a obtener |
 | value | Int32& | Valor de la propiedad personalizada |
 
-### Véase también
+### Véase También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -62,7 +62,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 | name | String | Nombre de la propiedad personalizada a obtener |
 | value | DateTime& | Valor de la propiedad personalizada |
 
-### Véase también
+### Véase También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -83,7 +83,7 @@ public void GetCustomPropertyValue(string name, out string value)
 | name | String | Nombre de la propiedad personalizada a obtener |
 | value | String& | Valor de la propiedad personalizada |
 
-### Véase también
+### Véase También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -104,7 +104,7 @@ public void GetCustomPropertyValue(string name, out float value)
 | name | String | Nombre de la propiedad personalizada a obtener |
 | value | Single& | Valor de la propiedad personalizada |
 
-### Véase también
+### Véase También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)
@@ -125,7 +125,7 @@ public void GetCustomPropertyValue(string name, out double value)
 | name | String | Nombre de la propiedad personalizada a obtener. |
 | value | Double& | Valor de la propiedad personalizada |
 
-### Véase también
+### Véase También
 
 * class [DocumentProperties](../../documentproperties)
 * namespace [Aspose.Slides](../../documentproperties)

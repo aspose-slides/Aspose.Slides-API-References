@@ -1,7 +1,7 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
-description: 向演示文稿添加一个新的布局幻灯片。
+second_title: Aspose.Sildes for .NET API Reference
+description: 向演示文稿添加新的布局幻灯片。
 type: docs
 weight: 10
 url: /zh/aspose.slides/globallayoutslidecollection/add/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/globallayoutslidecollection/add/
 
 ## GlobalLayoutSlideCollection.Add 方法
 
-向演示文稿添加一个新的布局幻灯片。
+向演示文稿添加新的布局幻灯片。
 
 ```csharp
 public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string layoutName)
@@ -18,27 +18,27 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | master | IMasterSlide | 新布局的母版幻灯片。 |
-| layoutType | SlideLayoutType | 新布局的类型。支持的布局类型：标题、仅标题、空白、标题及对象、垂直文本、垂直标题和文本、两个对象、章节标题、两个文本和两个对象、标题对象和说明、图片和说明、自定义。当前不支持的其他布局类型：文本、两列文本、表格、文本和图表、图表和文本、图示、图表、文本和剪贴画、剪贴画和文本、文本和对象、对象和文本、对象、文本和媒体、媒体和文本、文本上方的对象、对象上方的文本、文本和两个对象、两个对象和文本、两个对象上方的文本、四个对象、剪贴画和垂直文本、垂直标题和文本覆盖图表、对象和两个对象、两个对象和对象。 |
-| layoutName | 字符串 | 新布局的名称。如果传入的名称已被使用，将抛出 ArgumentException。如果传入 null 参数，则根据传入的布局类型自动生成名称（例如 "标题幻灯片" 或 "1_标题幻灯片"，"2_..", 等等）。 |
+| layoutType | SlideLayoutType | 新布局的布局类型。支持的布局类型：标题、仅标题、空白、标题和对象、垂直文本、垂直标题和文本、两个对象、章节标题、两个文本和两个对象、标题对象和说明、图片和说明、自定义。当前不支持的其他布局类型：文本、双栏文本、表格、文本与图表、图表与文本、图解、图表、文本与剪贴画、剪贴画与文本、文本与对象、对象与文本、对象、文本与媒体、媒体与文本、对象在文本上、文本在对象上、文本和两个对象、两个对象和文本、两个对象在文本上、四个对象、剪贴画与垂直文本、垂直标题和文本在图表上、对象和两个对象、两个对象和对象。 |
+| layoutName | 字符串 | 新布局的名称。如果传入的名称已经在使用中，将抛出 ArgumentException。如果传入的参数为 null，则根据传入的布局类型自动生成名称（例如 "标题幻灯片" 或 "1_标题幻灯片"、"2_.." 等等）。 |
 
 ### 返回值
 
-添加的幻灯片。
+已添加的幻灯片。
 
 ### 异常
 
 | 异常 | 条件 |
 | --- | --- |
-| NotImplementedException | 如果传入不支持的 *layoutType* 参数值，将抛出该异常。当前不支持的布局类型：文本、两列文本、表格、文本和图表、图表和文本、图示、图表、文本和剪贴画、剪贴画和文本、文本和对象、对象和文本、对象、文本和媒体、媒体和文本、文本上方的对象、对象上方的文本、文本和两个对象、两个对象和文本、两个对象上方的文本、四个对象、剪贴画和垂直文本、垂直标题和文本覆盖图表、对象和两个对象、两个对象和对象。 |
-| ArgumentNullException | 如果 *master* 为 null，将抛出该异常。 |
-| ArgumentException | 如果 *master* 属于其他演示文稿，将抛出该异常。 |
-| ArgumentException | 如果布局名称值 *layoutName* 在 *master* 的布局集合中已被使用，将抛出该异常。 |
+| NotImplementedException | 如果传入不支持的 *layoutType* 参数值，则抛出该异常。当前不支持的布局类型：文本、双栏文本、表格、文本与图表、图表与文本、图解、图表、文本与剪贴画、剪贴画与文本、文本与对象、对象与文本、对象、文本与媒体、媒体与文本、对象在文本上、文本在对象上、文本和两个对象、两个对象和文本、两个对象在文本上、四个对象、剪贴画与垂直文本、垂直标题和文本在图表上、对象和两个对象、两个对象和对象。 |
+| ArgumentNullException | 如果 *master* 为 null，则抛出该异常。 |
+| ArgumentException | 如果 *master* 属于其他演示文稿，则抛出该异常。 |
+| ArgumentException | 如果布局名称值 *layoutName* 已经在 *master* 的布局集合中使用，则抛出该异常。 |
 
 ### 备注
 
-1) 对于值为 SlideLayoutType.Custom 的 *layoutType*，添加的布局不包含占位符和形状。2) 此方法的类似方法是通过 [`LayoutSlides`](../../imasterslide/layoutslides) 属性访问的 [`Add`](../../imasterlayoutslidecollection/add) 方法。
+1）对于 *layoutType* 的值 SlideLayoutType.Custom 添加的布局不包含占位符和形状。2）此方法的类似方法是通过 [`LayoutSlides`](../../imasterslide/layoutslides) 属性访问的 [`Add`](../../imasterlayoutslidecollection/add) 方法。
 
-### 另见
+### 另请参见
 
 * 接口 [ILayoutSlide](../../ilayoutslide)
 * 接口 [IMasterSlide](../../imasterslide)

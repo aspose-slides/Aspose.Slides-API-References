@@ -1,7 +1,7 @@
 ---
 title: AsIVbaReference
-second_title: Aspose.Sildes for .NET API 参考
-description: 返回 IVbaReference 接口。只读 IVbaReference aspose.slides.vba/ivbareference。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回 IVbaReference 接口。只读 IVbaReferenceaspose.slides.vba/ivbareference。
 type: docs
 weight: 10
 url: /zh/aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference/
@@ -19,7 +19,7 @@ public IVbaReference AsIVbaReference { get; }
 
 用于 COM 兼容性。
 
-### 另见
+### 另请参阅
 
 * 接口 [IVbaReference](../../ivbareference)
 * 接口 [IVbaReferenceOleTwiddledTypeLib](../../ivbareferenceoletwiddledtypelib)

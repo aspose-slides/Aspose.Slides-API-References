@@ -1,15 +1,15 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Ändert die Sichtbarkeit des Datums- und Zeitplatzhalters der Masterfolie sowie aller untergeordneten Datums- und Zeitplatzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 type: docs
 weight: 20
 url: /de/aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
 
-## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility-Methode
+## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility Methode
 
-Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit auf der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
+Ändert die Sichtbarkeit des Datums- und Zeitplatzhalters der Masterfolie sowie aller untergeordneten Datums- und Zeitplatzhalter. Untergeordnete Platzhalter sind Platzhalter, die auf abhängigen Notizenfolien enthalten sind. Abhängige Notizenfolien verwenden und hängen von der Master-Notizenfolie ab.
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
@@ -17,7 +17,7 @@ public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isVisible | Boolean | true - macht einen Platzhalter für Datum und Uhrzeit sichtbar, andernfalls - versteckt ihn. |
+| isVisible | Boolean | true - macht einen Datums- und Zeitplatzhalter sichtbar, andernfalls - blendet ihn aus. |
 
 ### Siehe auch
 

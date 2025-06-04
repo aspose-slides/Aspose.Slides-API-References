@@ -1,23 +1,23 @@
 ---
 title: IsGrouped
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Form gruppiert ist. Schreibgeschütztes Boolean.
+description: Bestimmt, ob die Form gruppiert ist. Nur-Lese-Boolean.
 type: docs
 weight: 150
 url: /de/aspose.slides/shape/isgrouped/
 ---
 
-## Shape.IsGrouped-Property
+## Shape.IsGrouped-Eigenschaft
 
-Bestimmt, ob die Form gruppiert ist. Schreibgeschütztes Boolean.
+Bestimmt, ob die Form gruppiert ist. Nur-Lese-Boolean.
 
 ```csharp
 public bool IsGrouped { get; }
 ```
 
-### Bemerkungen
+### Anmerkungen
 
-Die Property [`ParentGroup`](../parentgroup) gibt das übergeordnete GroupShape-Objekt zurück, wenn die Form gruppiert ist.
+Die Eigenschaft [`ParentGroup`](../parentgroup) gibt das übergeordnete GroupShape-Objekt zurück, wenn die Form gruppiert ist.
 
 ### Siehe auch
 

@@ -1,25 +1,25 @@
 ---
 title: GapWidth
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie l'espace entre les groupes de barres ou de colonnes en pourcentage de la largeur de la barre ou de la colonne. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapWidth en lecture/écriture pour changer la valeur. Lecture seule Int32.
+description: Spécifie l'espace entre les groupes de barres ou de colonnes en pourcentage de la largeur de la barre ou de la colonne. Ceci est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Par conséquent, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapWidth en lecture/écriture pour modifier la valeur. Entier 32 bits en lecture seule.
 type: docs
 weight: 130
 url: /fr/aspose.slides.charts/ichartseries/gapwidth/
 ---
 
-## Propriété IChartSeries.GapWidth
+## IChartSeries.GapWidth property
 
-Spécifie l'espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. C'est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - c'est la projection de la propriété de groupe appropriée. Et donc, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapWidth en lecture/écriture pour changer la valeur. Lecture seule Int32.
+Spécifie l'espace entre les groupes de barres ou de colonnes, en pourcentage de la largeur de la barre ou de la colonne. Ceci est la propriété non seulement de cette série mais de toutes les séries du groupe de séries parent - il s'agit de la projection de la propriété appropriée du groupe. Par conséquent, cette propriété est en lecture seule. Utilisez la propriété ParentSeriesGroup pour accéder au groupe de séries parent. Utilisez la propriété ParentSeriesGroup.GapWidth en lecture/écriture pour modifier la valeur. Entier 32 bits en lecture seule.
 
 ```csharp
 public int GapWidth { get; }
 ```
 
-### Remarques
+### Remarks
 
-C'est la projection de la propriété ParentSeriesGroup.GapWidth.
+Ceci est la projection de la propriété ParentSeriesGroup.GapWidth.
 
-### Voir aussi
+### See Also
 
 * interface [IChartSeries](../../ichartseries)
 * namespace [Aspose.Slides.Charts](../../ichartseries)

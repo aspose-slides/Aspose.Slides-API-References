@@ -1,21 +1,21 @@
 ---
 title: RotateShadowWithShape
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si la réflexion doit tourner avec la forme si la forme est tournée. Booléen en lecture seule.
+description: Spécifie si la réflexion doit pivoter avec la forme si la forme est pivotée. Booléen en lecture seule.
 type: docs
 weight: 90
 url: /fr/aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape/
 ---
 
-## Propriété IReflectionEffectiveData.RotateShadowWithShape
+## IReflectionEffectiveData.RotateShadowWithShape property
 
-Spécifie si la réflexion doit tourner avec la forme si la forme est tournée. Booléen en lecture seule.
+Spécifie si la réflexion doit pivoter avec la forme si la forme est pivotée. Booléen en lecture seule.
 
 ```csharp
 public bool RotateShadowWithShape { get; }
 ```
 
-### À voir aussi
+### Voir aussi
 
 * interface [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * namespace [Aspose.Slides.Effects](../../ireflectioneffectivedata)

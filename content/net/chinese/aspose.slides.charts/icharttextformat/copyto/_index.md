@@ -1,6 +1,6 @@
 ---
 title: CopyTo
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将文本格式复制到指定的文本框。
 type: docs
 weight: 50
@@ -17,7 +17,7 @@ public void CopyTo(ITextFrame destTextFrame)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| destTextFrame | ITextFrame | 要复制文本格式的文本框。 |
+| destTextFrame | ITextFrame | 要复制文本格式到的文本框。 |
 
 ### 另见
 

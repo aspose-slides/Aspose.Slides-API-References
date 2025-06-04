@@ -1,6 +1,6 @@
 ---
 title: SetFromOneCell
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Définit la valeur à partir de la cellule spécifiée.
 type: docs
 weight: 50
@@ -19,7 +19,7 @@ public void SetFromOneCell(IChartDataCell cell)
 | --- | --- | --- |
 | cell | IChartDataCell | Cellule. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartDataCell](../../ichartdatacell)
 * class [StringChartValue](../../stringchartvalue)

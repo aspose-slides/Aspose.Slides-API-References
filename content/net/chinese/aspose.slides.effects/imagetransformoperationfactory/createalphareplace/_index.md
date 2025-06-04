@@ -23,7 +23,7 @@ public IAlphaReplace CreateAlphaReplace(float alpha)
 
 Alpha 替换效果。
 
-### 参见
+### 另见
 
 * 接口 [IAlphaReplace](../../ialphareplace)
 * 类 [ImageTransformOperationFactory](../../imagetransformoperationfactory)

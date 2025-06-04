@@ -1,21 +1,21 @@
 ---
 title: LinearGradientScaled
-second_title: Справка по API Aspose.Slides для .NET
-description: Определяет, является ли градиент масштабируемым. Читаемый/записываемый NullableBoolaspose.slides/nullablebool.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Определяет, масштабирован ли градиент. Читаемое/записываемое NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /ru/aspose.slides/gradientformat/lineargradientscaled/
 ---
 
-## Свойство GradientFormat.LinearGradientScaled
+## GradientFormat.LinearGradientScaled свойство
 
-Определяет, является ли градиент масштабируемым. Читаемый/записываемый [`NullableBool`](../../nullablebool).
+Определяет, масштабирован ли градиент. Читаемое/записываемое [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LinearGradientScaled { get; set; }
 ```
 
-### Также смотри
+### См. также
 
 * enum [NullableBool](../../nullablebool)
 * class [GradientFormat](../../gradientformat)

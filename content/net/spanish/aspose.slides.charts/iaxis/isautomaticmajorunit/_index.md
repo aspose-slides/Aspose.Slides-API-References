@@ -1,13 +1,13 @@
 ---
 title: IsAutomaticMajorUnit
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Indica si la unidad mayor del eje se asigna automáticamente. Booleano de lectura/escritura.
 type: docs
 weight: 180
 url: /es/aspose.slides.charts/iaxis/isautomaticmajorunit/
 ---
 
-## Propiedad IAxis.IsAutomaticMajorUnit
+## IAxis.IsAutomaticMajorUnit propiedad
 
 Indica si la unidad mayor del eje se asigna automáticamente. Booleano de lectura/escritura.
 
@@ -15,7 +15,7 @@ Indica si la unidad mayor del eje se asigna automáticamente. Booleano de lectur
 public bool IsAutomaticMajorUnit { get; set; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)

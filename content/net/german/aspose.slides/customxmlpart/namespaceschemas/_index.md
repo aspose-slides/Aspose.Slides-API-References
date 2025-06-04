@@ -1,7 +1,7 @@
 ---
 title: NamespaceSchemas
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt die Sammlung von XML-Schemas zurück, die mit dem benutzerdefinierten XML-Teil verbunden sind. Nur-Lese-String.
+description: Gibt die Sammlung von XML-Schemata zurück, die mit dem benutzerdefinierten XML-Teil verknüpft sind. Schreibgeschützter String.
 type: docs
 weight: 20
 url: /de/aspose.slides/customxmlpart/namespaceschemas/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/customxmlpart/namespaceschemas/
 
 ## CustomXmlPart.NamespaceSchemas-Eigenschaft
 
-Gibt die Sammlung von XML-Schemas zurück, die mit dem benutzerdefinierten XML-Teil verbunden sind. Nur-Lese-String[].
+Gibt die Sammlung von XML-Schemata zurück, die mit dem benutzerdefinierten XML-Teil verknüpft sind. Schreibgeschütztes String[].
 
 ```csharp
 public string[] NamespaceSchemas { get; }

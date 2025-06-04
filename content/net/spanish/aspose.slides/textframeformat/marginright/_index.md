@@ -1,13 +1,13 @@
 ---
 title: MarginRight
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece los puntos del margen derecho en un TextFrame. Lectura/escritura Doble.
 type: docs
 weight: 100
 url: /es/aspose.slides/textframeformat/marginright/
 ---
 
-## Propiedad TextFrameFormat.MargenDerecho
+## Propiedad TextFrameFormat.MarginRight
 
 Devuelve o establece el margen derecho (puntos) en un TextFrame. Lectura/escritura Doble.
 
@@ -15,10 +15,10 @@ Devuelve o establece el margen derecho (puntos) en un TextFrame. Lectura/escritu
 public double MarginRight { get; set; }
 ```
 
-### Ve también
+### Ver También
 
 * clase [TextFrameFormat](../../textframeformat)
 * espacio de nombres [Aspose.Slides](../../textframeformat)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

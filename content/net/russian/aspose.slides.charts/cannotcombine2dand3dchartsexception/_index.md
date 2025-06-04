@@ -1,15 +1,15 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes для .NET API Справочник
-description: Исключение, которое выбрасывается при попытке объединить 2D и 3D типы диаграмм.
+second_title: Aspose.Sildes для .NET API Reference
+description: Исключение, которое возникает при попытке объединить 2D и 3D типы графиков.
 type: docs
 weight: 1160
 url: /ru/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 
-## Класс CannotCombine2DAnd3DChartsException
+## CannotCombine2DAnd3DChartsException class
 
-Исключение, которое выбрасывается при попытке объединить 2D и 3D типы диаграмм.
+Исключение, которое возникает при попытке объединить 2D и 3D типы графиков.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -17,13 +17,13 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 
 ## Конструкторы
 
-| Имя | Описание |
+| Название | Описание |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Конструктор по умолчанию. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Конструктор для исключения, содержащего сообщение и вложенное исключение. |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides.Charts](../../aspose.slides.charts)
 * сборка [Aspose.Slides](../../)

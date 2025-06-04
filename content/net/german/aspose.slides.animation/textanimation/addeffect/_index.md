@@ -1,15 +1,15 @@
 ---
 title: AddEffect
-second_title: Aspose.Slides für .NET API-Referenz
-description: Neuen Effekt am Ende der aktuellen Sequenz zu den Gruppentextanimationen hinzufügen. Nur gültig, wenn die Anzahl der Textabsätze gleich oder größer ist als die Anzahl der Effekte dieser Gruppe.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Fügen Sie einen neuen Effekt am Ende der aktuellen Sequenz zum Ende der Gruppen-Textanimationen hinzu. Nur gültig, wenn die Anzahl der Textabsätze gleich oder größer als die Anzahl der Effekte dieser Gruppe ist.
 type: docs
 weight: 40
 url: /de/aspose.slides.animation/textanimation/addeffect/
 ---
 
-## TextAnimation.AddEffect-Methode
+## TextAnimation.AddEffect Methode
 
-Neuen Effekt am Ende der aktuellen Sequenz zu den Gruppentextanimationen hinzufügen. Nur gültig, wenn die Anzahl der Textabsätze gleich oder größer ist als die Anzahl der Effekte dieser Gruppe!
+Fügen Sie einen neuen Effekt am Ende der aktuellen Sequenz zum Ende der Gruppen-Textanimationen hinzu. Nur gültig, wenn die Anzahl der Textabsätze gleich oder größer als die Anzahl der Effekte dieser Gruppe ist!
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -19,7 +19,7 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | effectType | EffectType | Art eines Animationseffekts [`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Untertypen des Animationseffekts [`EffectSubtype`](../../effectsubtype) |
+| subtype | EffectSubtype | Subtypen des Animationseffekts [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Auslösetyp des Effekts [`EffectTriggerType`](../../effecttriggertype) |
 
 ### Rückgabewert

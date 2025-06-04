@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen dieses Schemas zurück. Nur-lesbare Zeichenfolge.
+description: Gibt den Namen dieses Schemas zurück. Nur-lesbarer String.
 type: docs
 weight: 20
 url: /de/aspose.slides.theme/iextracolorscheme/name/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.theme/iextracolorscheme/name/
 
 ## IExtraColorScheme.Name-Eigenschaft
 
-Gibt den Namen dieses Schemas zurück. Nur-lesbare Zeichenfolge.
+Gibt den Namen dieses Schemas zurück. Nur-lesbarer String.
 
 ```csharp
 public string Name { get; }

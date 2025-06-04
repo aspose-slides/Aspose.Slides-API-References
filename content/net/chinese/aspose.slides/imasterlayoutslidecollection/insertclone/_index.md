@@ -1,7 +1,7 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合的指定位置插入指定布局幻灯片的副本。
+second_title: Aspose.Sildes for .NET API Reference
+description: 将指定布局幻灯片的副本插入到集合的指定位置。
 type: docs
 weight: 50
 url: /zh/aspose.slides/imasterlayoutslidecollection/insertclone/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/imasterlayoutslidecollection/insertclone/
 
 ## IMasterLayoutSlideCollection.InsertClone 方法
 
-在集合的指定位置插入指定布局幻灯片的副本。
+将指定布局幻灯片的副本插入到集合的指定位置。
 
 ```csharp
 public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
@@ -26,7 +26,7 @@ public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 
 ### 备注
 
-新布局将与该布局幻灯片集合的父母母版幻灯片链接。因此，这类似于在 PowerPoint 中带有“使用目标主题”选项的复制/粘贴。
+新的布局将与该布局幻灯片集合的父母母版幻灯片链接。因此，这是 PowerPoint 中 "使用目标主题" 选项的复制/粘贴的类似物。
 
 ### 另请参阅
 

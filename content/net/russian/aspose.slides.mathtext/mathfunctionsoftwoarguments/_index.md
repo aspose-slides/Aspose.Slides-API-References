@@ -1,7 +1,7 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes для .NET API Справочник
-description: Общие математические функции с двумя аргументами
+description: Общие математические функции двух аргументов
 type: docs
 weight: 8490
 url: /ru/aspose.slides.mathtext/mathfunctionsoftwoarguments/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 
 ## Перечисление MathFunctionsOfTwoArguments
 
-Общие математические функции с двумя аргументами
+Общие математические функции двух аргументов
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -17,14 +17,14 @@ public enum MathFunctionsOfTwoArguments
 
 ### Значения
 
-| Имя | Значение | Описание |
+| Название | Значение | Описание |
 | --- | --- | --- |
 | Log | `0` | Логарифм |
 | Lim | `1` | Предел |
 | Min | `2` | Минимум |
 | Max | `3` | Максимум |
 
-### См. также
+### Также смотри
 
 * пространство имен [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * сборка [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: Name
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回字体方案名称。只读字符串。
 type: docs
 weight: 30
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.theme/ifontschemeeffectivedata/name/
 public string Name { get; }
 ```
 
-### 另见
+### 参见
 
 * 接口 [IFontSchemeEffectiveData](../../ifontschemeeffectivedata)
 * 命名空间 [Aspose.Slides.Theme](../../ifontschemeeffectivedata)

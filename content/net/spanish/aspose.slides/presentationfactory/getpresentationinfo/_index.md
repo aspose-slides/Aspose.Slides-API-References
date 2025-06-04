@@ -1,6 +1,6 @@
 ---
 title: GetPresentationInfo
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Crea un nuevo objeto PresentationInfo a partir de un archivo y lo vincula a la presentación.
 type: docs
 weight: 40
@@ -23,7 +23,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 Información de la presentación vinculada a la presentación.
 
-### Véase También
+### Ver También
 
 * interfaz [IPresentationInfo](../../ipresentationinfo)
 * clase [PresentationFactory](../../presentationfactory)
@@ -48,7 +48,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 Información de la presentación vinculada a la presentación.
 
-### Véase También
+### Ver También
 
 * interfaz [IPresentationInfo](../../ipresentationinfo)
 * clase [PresentationFactory](../../presentationfactory)

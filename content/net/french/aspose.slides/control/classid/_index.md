@@ -1,6 +1,6 @@
 ---
 title: ClassId
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Slides pour .NET
 description: Obtient l'identifiant de classe de ce contrôle. Guid en lecture seule.
 type: docs
 weight: 20

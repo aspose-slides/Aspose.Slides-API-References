@@ -1,7 +1,7 @@
 ---
 title: IsVisible
-second_title: Aspose.Slides for .NET API Reference
-description: 表示轴是否可见。可读/可写布尔值。
+second_title: Aspose.Slides for .NET API 参考
+description: 表示轴是否可见。可读/可写的布尔值。
 type: docs
 weight: 310
 url: /zh/aspose.slides.charts/iaxis/isvisible/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/iaxis/isvisible/
 
 ## IAxis.IsVisible 属性
 
-表示轴是否可见。可读/可写布尔值。
+表示轴是否可见。可读/可写的布尔值。
 
 ```csharp
 public bool IsVisible { get; set; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IAxis](../../iaxis)
 * 命名空间 [Aspose.Slides.Charts](../../iaxis)

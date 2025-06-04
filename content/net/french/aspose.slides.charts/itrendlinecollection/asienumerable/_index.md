@@ -1,6 +1,6 @@
 ---
 title: AsIEnumerable
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence de l'API Aspose.Slides pour .NET
 description: Permet d'obtenir l'interface de base IEnumerable. IEnumerable en lecture seule.
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ Permet d'obtenir l'interface de base IEnumerable. IEnumerable en lecture seule.
 public IEnumerable AsIEnumerable { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [ITrendlineCollection](../../itrendlinecollection)
 * namespace [Aspose.Slides.Charts](../../itrendlinecollection)

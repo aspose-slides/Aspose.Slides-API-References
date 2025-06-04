@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides для .NET Документация
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавляет закрытые субтитры WebVTT в конец коллекции.
 type: docs
 weight: 30
@@ -20,18 +20,18 @@ public ICaptions Add(string label, string filePath)
 | label | String | Метка закрытых субтитров. |
 | filePath | String | Путь к файлу WebVTT. |
 
-### Возвращаемое Значение
+### Значение Возврата
 
 Добавленный [`ICaptions`](../../icaptions) экземпляр.
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | Вызывается, если *filePath* равен `null`. |
-| ArgumentException | Вызывается, если *filePath* пустой. |
+| ArgumentNullException | Выбрасывается, если *filePath* равен `null`. |
+| ArgumentException | Выбрасывается, если *filePath* пустой. |
 
-### Смотрите Также
+### См. Также
 
 * интерфейс [ICaptions](../../icaptions)
 * интерфейс [ICaptionsCollection](../../icaptionscollection)
@@ -53,18 +53,18 @@ public ICaptions Add(string label, Stream stream)
 | label | String | Метка закрытых субтитров. |
 | stream | Stream | Входной поток, содержащий данные в формате WebVTT. |
 
-### Возвращаемое Значение
+### Значение Возврата
 
 Добавленный [`ICaptions`](../../icaptions) экземпляр.
 
 ### Исключения
 
-| исключение | условие |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | Вызывается, если *stream* равен `null`. |
-| ArgumentException | Вызывается, если входные данные не в формате WebVTT. |
+| ArgumentNullException | Выбрасывается, если *stream* равен `null`. |
+| ArgumentException | Выбрасывается, если входные данные не в формате WebVTT. |
 
-### Смотрите Также
+### См. Также
 
 * интерфейс [ICaptions](../../icaptions)
 * интерфейс [ICaptionsCollection](../../icaptionscollection)

@@ -1,6 +1,6 @@
 ---
 title: TileFlip
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Slides для .NET API Справочник
 description: Определяет режим переворота плитки.
 type: docs
 weight: 11190
@@ -25,7 +25,7 @@ public enum TileFlip
 | FlipY | `2` |  |
 | FlipBoth | `3` |  |
 
-### Смотрите также
+### См. также
 
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

@@ -1,15 +1,15 @@
 ---
 title: HideLeft
-second_title: Aspose.Slides for .NET API 参考
-description: 隐藏左边缘（默认值为 false）- 指定边框框左边缘的隐藏或显示状态。
+second_title: Aspose.Sildes for .NET API Reference
+description: Hide Left Edge 默认值为 false - 指定边框框左边缘的隐藏或显示状态。
 type: docs
 weight: 40
 url: /zh/aspose.slides.mathtext/mathborderbox/hideleft/
 ---
 
-## MathBorderBox.HideLeft 属性
+## MathBorderBox.HideLeft property
 
-隐藏左边缘（默认值为 false）- 指定边框框左边缘的隐藏或显示状态。
+Hide Left Edge（默认值为 false） - 指定边框框左边缘的隐藏或显示状态。
 
 ```csharp
 public bool HideLeft { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.HideLeft = true;
 ```
 
-### 参见
+### 另请参阅
 
 * class [MathBorderBox](../../mathborderbox)
 * namespace [Aspose.Slides.MathText](../../mathborderbox)

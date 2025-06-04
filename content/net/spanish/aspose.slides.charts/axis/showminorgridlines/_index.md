@@ -1,7 +1,7 @@
 ---
 title: ShowMinorGridLines
-second_title: Referencia de la API de Aspose.Slides para .NET
-description: Para ocultar las líneas de cuadrícula menores, establezca MinorGridLinesFormat.Line.FillFormat.FillType en FillType.NoFill. Solo de lectura Boolean.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Para ocultar las líneas de cuadrícula menores, establezca MinorGridLinesFormat.Line.FillFormat.FillType en FillType.NoFill. Solo lectura Booleano.
 type: docs
 weight: 490
 url: /es/aspose.slides.charts/axis/showminorgridlines/
@@ -9,16 +9,16 @@ url: /es/aspose.slides.charts/axis/showminorgridlines/
 
 ## Propiedad Axis.ShowMinorGridLines
 
-Para ocultar las líneas de cuadrícula menores, establezca MinorGridLinesFormat.Line.FillFormat.FillType en FillType.NoFill. Solo de lectura Boolean.
+Para ocultar las líneas de cuadrícula menores, establezca MinorGridLinesFormat.Line.FillFormat.FillType en FillType.NoFill. Solo lectura Booleano.
 
 ```csharp
 public bool ShowMinorGridLines { get; }
 ```
 
-### Ver También
+### Vea también
 
-* class [Axis](../../axis)
-* namespace [Aspose.Slides.Charts](../../axis)
-* assembly [Aspose.Slides](../../../)
+* clase [Axis](../../axis)
+* espacio de nombres [Aspose.Slides.Charts](../../axis)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

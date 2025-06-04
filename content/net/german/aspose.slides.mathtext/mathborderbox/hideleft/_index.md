@@ -1,7 +1,7 @@
 ---
 title: HideLeft
-second_title: Aspose.Slides für .NET API-Referenz
-description: Hide Left Edge standardmäßig ist falsch - gibt den verborgenen oder angezeigten Zustand des linken Randes des Rahmenbereichs an.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Hide Left Edge standardmäßig false - gibt den versteckten oder angezeigten Zustand der linken Kante des Randbereichs an.
 type: docs
 weight: 40
 url: /de/aspose.slides.mathtext/mathborderbox/hideleft/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.mathtext/mathborderbox/hideleft/
 
 ## MathBorderBox.HideLeft-Eigenschaft
 
-Hide Left Edge (standardmäßig ist falsch) - gibt den verborgenen oder angezeigten Zustand des linken Randes des Rahmenbereichs an.
+Hide Left Edge (standardmäßig false) - gibt den versteckten oder angezeigten Zustand der linken Kante des Randbereichs an.
 
 ```csharp
 public bool HideLeft { get; set; }
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 borderBox.HideLeft = true;
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [MathBorderBox](../../mathborderbox)
 * Namespace [Aspose.Slides.MathText](../../mathborderbox)

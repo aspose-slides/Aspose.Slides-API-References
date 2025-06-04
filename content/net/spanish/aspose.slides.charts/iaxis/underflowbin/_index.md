@@ -1,21 +1,21 @@
 ---
 title: UnderflowBin
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Especifica el valor personalizado del bin de subdesbordamiento. Aplicado cuando la propiedad IsAutomaticUnderflowBin se establece en false y la propiedad IsUnderflowBin es igual a true.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Especifica el valor personalizado del contenedor de subdesbordamiento. Se aplica cuando la propiedad IsAutomaticUnderflowBin se establece en falso y la propiedad IsUnderflowBin es verdadera.
 type: docs
 weight: 550
 url: /es/aspose.slides.charts/iaxis/underflowbin/
 ---
 
-## Propiedad IAxis.UnderflowBin
+## IAxis.UnderflowBin property
 
-Especifica el valor personalizado del bin de subdesbordamiento. Aplicado cuando la propiedad IsAutomaticUnderflowBin se establece en false y la propiedad IsUnderflowBin es igual a true.
+Especifica el valor personalizado del contenedor de subdesbordamiento. Se aplica cuando la propiedad IsAutomaticUnderflowBin se establece en falso y la propiedad IsUnderflowBin es verdadera.
 
 ```csharp
 public double UnderflowBin { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IAxis](../../iaxis)
 * espacio de nombres [Aspose.Slides.Charts](../../iaxis)

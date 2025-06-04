@@ -1,6 +1,6 @@
 ---
 title: ColorScheme
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Almacena colores definidos por el tema.
 type: docs
 weight: 10760
@@ -32,13 +32,13 @@ public class ColorScheme : IColorScheme
 | [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Obtiene el elemento en el índice especificado. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Primer color claro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Segundo color claro en el esquema. Solo lectura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Devuelve la presentación padre. Solo lectura [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Devuelve la diapositiva padre. Solo lectura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Devuelve la presentación principal. Solo lectura [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Devuelve la diapositiva principal. Solo lectura [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Ver También
 
 * interfaz [IColorScheme](../icolorscheme)
 * espacio de nombres [Aspose.Slides.Theme](../../aspose.slides.theme)
-* ensamblaje [Aspose.Slides](../../)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

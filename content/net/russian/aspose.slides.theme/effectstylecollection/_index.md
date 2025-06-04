@@ -1,7 +1,7 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет собой коллекцию стилей эффектов.
+second_title: Aspose.Sildes для .NET API Справка
+description: Представляет коллекцию стилей эффектов.
 type: docs
 weight: 10780
 url: /ru/aspose.slides.theme/effectstylecollection/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.theme/effectstylecollection/
 
 ## Класс EffectStyleCollection
 
-Представляет собой коллекцию стилей эффектов.
+Представляет коллекцию стилей эффектов.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -17,18 +17,18 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 ## Свойства
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтения Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасен для потоков). Только для чтения Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Возвращает значение, указывающее, синхронизирован ли доступ к коллекции (безопасный для потоков). Только для чтения Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Возвращает элемент по указанной позиции. Только для чтения [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтения Object. |
 
 ## Методы
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Копирует все элементы из коллекции в заданный массив. |
 | [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
 
 ### См. также

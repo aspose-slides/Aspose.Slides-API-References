@@ -1,7 +1,7 @@
 ---
 title: RootDirectoryClsid
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示存储在根目录项中的对象类 GUID CLSID。可用于文档应用程序的 COM 激活。默认值为 64818D11-4F9B-11CF-86EA-00AA00B929E8，对应于 Microsoft Powerpoint.Slide.8。
+description: 表示存储在根目录条目中的对象类 GUID CLSID。可以用于文档应用程序的 COM 激活。默认值是 64818D11-4F9B-11CF-86EA-00AA00B929E8，对应于 Microsoft Powerpoint.Slide.8。
 type: docs
 weight: 20
 url: /zh/aspose.slides.export/ipptoptions/rootdirectoryclsid/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ipptoptions/rootdirectoryclsid/
 
 ## IPptOptions.RootDirectoryClsid 属性
 
-表示存储在根目录项中的对象类 GUID (CLSID)。可用于文档应用程序的 COM 激活。默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。
+表示存储在根目录条目中的对象类 GUID (CLSID)。可以用于文档应用程序的 COM 激活。默认值是 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。
 
 ```csharp
 public Guid RootDirectoryClsid { get; set; }
@@ -23,7 +23,7 @@ using (Presentation pres = new Presentation())
 {
     PptOptions pptOptions = new PptOptions();
     
-    /// 设置 CLSID 为 'Microsoft Powerpoint.Show.8'
+    /// 将 CLSID 设置为 'Microsoft Powerpoint.Show.8'
     pptOptions.RootDirectoryClsid = new Guid("64818D10-4F9B-11CF-86EA-00AA00B929E8");
     
     pres.Save("pres.ppt", SaveFormat.Ppt, pptOptions);

@@ -1,7 +1,7 @@
 ---
 title: Chart
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve el gráfico. Solo lectura IChartaspose.slides.charts/ichart.
+second_title: Referencia de API de Aspose.Slide para .NET
+description: Devuelve el gráfico. Solo lectura IChartaspose.slides/ichart.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/legend/chart/
@@ -15,7 +15,7 @@ Devuelve el gráfico. Solo lectura [`IChart`](../../ichart).
 public IChart Chart { get; }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IChart](../../ichart)
 * clase [Legend](../../legend)

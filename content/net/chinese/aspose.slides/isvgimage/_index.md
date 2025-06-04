@@ -1,7 +1,7 @@
 ---
 title: ISvgImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 代表一个SVG图像。
+description: 表示一个SVG图像。
 type: docs
 weight: 6960
 url: /zh/aspose.slides/isvgimage/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/isvgimage/
 
 ## ISvgImage接口
 
-代表一个SVG图像。
+表示一个SVG图像。
 
 ```csharp
 public interface ISvgImage
@@ -19,10 +19,10 @@ public interface ISvgImage
 
 | 名称 | 描述 |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | 返回指定SVG的基本URI。用于解析相对链接。只读String。 |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | 返回在导入SVG文档时用于解析外部资源的回调接口。只读 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | 返回SVG内容。只读String。 |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | 返回SVG数据。只读Byte[]。 |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | 返回指定SVG的基础URI。用于解析相对链接。只读字符串。 |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | 返回用于在SVG文档导入期间解析外部资源的回调接口。只读 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | 返回SVG内容。只读字符串。 |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | 返回SVG数据。只读字节数组。 |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public interface ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | 将SVG图像保存为EMF文件。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

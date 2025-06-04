@@ -22,7 +22,7 @@ public void SplitByWidth(double width)
 ### Ver También
 
 * clase [Cell](../../cell)
-* espacio de nombres [Aspose.Slides](../../cell)
-* ensamblaje [Aspose.Slides](../../../)
+* namespace [Aspose.Slides](../../cell)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

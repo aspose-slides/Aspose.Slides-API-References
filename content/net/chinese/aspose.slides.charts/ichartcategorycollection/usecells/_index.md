@@ -1,7 +1,7 @@
 ---
 title: UseCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 如果为真，则电子表格用于存储类别，此情况下支持多层类别。如果为假，则电子表格不用于存储值，并且此情况下不支持多层类别。可读/写布尔值。
+description: 如果为真，则工作表用于存储类别，此情况下支持多级类别。如果为假，则工作表不用于存储值，并且该情况不支持多级类别。可读/写布尔值。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/ichartcategorycollection/usecells/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartcategorycollection/usecells/
 
 ## IChartCategoryCollection.UseCells 属性
 
-如果为真，则电子表格用于存储类别（此情况下支持多层类别）。如果为假，则电子表格不用于存储值（并且此情况下不支持多层类别）。可读/写布尔值。
+如果为真，则工作表用于存储类别（此情况下支持多级类别）。如果为假，则工作表不用于存储值（并且该情况不支持多级类别）。可读/写布尔值。
 
 ```csharp
 public bool UseCells { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IChartCategoryCollection](../../ichartcategorycollection)
 * 命名空间 [Aspose.Slides.Charts](../../ichartcategorycollection)

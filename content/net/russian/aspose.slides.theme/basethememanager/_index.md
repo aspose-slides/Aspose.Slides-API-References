@@ -1,6 +1,6 @@
 ---
 title: BaseThemeManager
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для справочника API .NET
 description: Базовый класс для классов, которые предоставляют доступ к различным типам тем.
 type: docs
 weight: 10740

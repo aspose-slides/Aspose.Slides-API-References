@@ -1,6 +1,6 @@
 ---
 title: SlidesRange
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 默认构造函数。
 type: docs
 weight: 10
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/slidesrange/slidesrange/
 public SlidesRange()
 ```
 
-### 参见
+### 另见
 
 * class [SlidesRange](../../slidesrange)
 * namespace [Aspose.Slides](../../slidesrange)

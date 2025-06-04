@@ -1,13 +1,13 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Mathematischer Text
 type: docs
 weight: 8250
 url: /de/aspose.slides.mathtext/imathematicaltext/
 ---
 
-## IMathematicalText-Schnittstelle
+## IMathematicalText Schnittstelle
 
 Mathematischer Text
 
@@ -19,8 +19,8 @@ public interface IMathematicalText : IMathElement
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Ermöglicht den Zugriff auf die basierte IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
-| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Eigenschaften zur Textformatierung |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Ermöglicht den Zugriff auf die Basis-IMathElement-Schnittstelle [`IMathElement`](../imathelement) |
+| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Eigenschaften der Textformatierung |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Textwert |
 
 ### Beispiele
@@ -32,7 +32,7 @@ Beispiel:
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IMathElement](../imathelement)
 * Namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,15 +1,15 @@
 ---
 title: GetBasePlaceholder
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve una forma de marcador de posición básica de la disposición y/o la diapositiva maestra de la que se hereda la forma actual. Se devuelve un valor nulo si la forma actual no se hereda.
+second_title: Aspose.Slides para .NET Referencia de API
+description: Devuelve una forma de marcador de posición básica de la disposición y/o la diapositiva maestra de la que se hereda la forma actual. Se devuelve un null si la forma actual no se hereda.
 type: docs
 weight: 340
 url: /es/aspose.slides/shape/getbaseplaceholder/
 ---
 
-## Método Shape.GetBasePlaceholder
+## Shape.GetBasePlaceholder método
 
-Devuelve una forma de marcador de posición básica (forma de la disposición y/o diapositiva maestra de la que se hereda la forma actual). Se devuelve un valor nulo si la forma actual no se hereda.
+Devuelve una forma de marcador de posición básica (forma de la disposición y/o diapositiva maestra de la que se hereda la forma actual). Se devuelve un null si la forma actual no se hereda.
 
 ```csharp
 public IShape GetBasePlaceholder()
@@ -19,7 +19,7 @@ public IShape GetBasePlaceholder()
 
 ```csharp
 [C#]
-// obtener todos los efectos animados (maestra/disposición/dipositiva) de la forma de marcador de posición
+// obtener todos los efectos animados (maestra/disposición/diapositiva) de la forma de marcador de posición
 using (Presentation pres = new Presentation("sample.pptx"))
 {
     ISlide slide = pres.Slides[0];
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("sample.pptx"))
 }
 ```
 
-### Ver También
+### Ver también
 
 * interface [IShape](../../ishape)
 * class [Shape](../../shape)

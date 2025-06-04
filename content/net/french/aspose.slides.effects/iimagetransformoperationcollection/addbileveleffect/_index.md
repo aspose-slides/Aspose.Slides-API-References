@@ -1,6 +1,6 @@
 ---
 title: AddBiLevelEffect
-second_title: Aspose.Sildes pour .NET Référence API
+second_title: Aspose.Slidess pour .NET API Référence
 description: Ajoute le nouvel effet Bi-Level noir/blanc à la fin d'une collection.
 type: docs
 weight: 100

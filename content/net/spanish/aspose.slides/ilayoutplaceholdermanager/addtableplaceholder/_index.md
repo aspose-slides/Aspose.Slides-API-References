@@ -1,13 +1,13 @@
 ---
 title: AddTablePlaceholder
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de la API Aspose.Slides para .NET
 description: Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener una tabla.
 type: docs
 weight: 70
 url: /es/aspose.slides/ilayoutplaceholdermanager/addtableplaceholder/
 ---
 
-## Método ILayoutPlaceholderManager.AddTablePlaceholder
+## ILayoutPlaceholderManager.AddTablePlaceholder método
 
 Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener una tabla.
 
@@ -24,7 +24,7 @@ public IAutoShape AddTablePlaceholder(float x, float y, float width, float heigh
 
 ### Valor de Retorno
 
-Crea un [`IAutoShape`](../../iautoshape) con un marcador de posición de tabla.
+[`IAutoShape`](../../iautoshape) creado con un marcador de posición de Tabla.
 
 ### Ejemplos
 
@@ -44,6 +44,6 @@ using (Presentation pres = new Presentation())
 * interfaz [IAutoShape](../../iautoshape)
 * interfaz [ILayoutPlaceholderManager](../../ilayoutplaceholdermanager)
 * espacio de nombres [Aspose.Slides](../../ilayoutplaceholdermanager)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

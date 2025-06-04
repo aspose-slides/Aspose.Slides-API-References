@@ -1,15 +1,15 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Slides для .NET API Справочник
-description: Эффект перехода слайдов в восьми направлениях.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Эффект перехода слайдов в восемь направлений.
 type: docs
 weight: 9710
 url: /ru/aspose.slides.slideshow/eightdirectiontransition/
 ---
 
-## Класс EightDirectionTransition
+## EightDirectionTransition class
 
-Эффект перехода слайдов в восьми направлениях.
+Эффект перехода слайда в восемь направлений.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -25,10 +25,10 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли две инстанции TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Используется как хэш-функция для конкретного типа, подходит для использования в хэш-алгоритмах и структурах данных, таких как хэш-таблица. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для конкретного типа, подходящей для использования в хеш-алгоритмах и структурах данных, таких как хеш-таблица. |
 
-### См. Также
+### См. также
 
 * класс [TransitionValueBase](../transitionvaluebase)
 * интерфейс [IEightDirectionTransition](../ieightdirectiontransition)

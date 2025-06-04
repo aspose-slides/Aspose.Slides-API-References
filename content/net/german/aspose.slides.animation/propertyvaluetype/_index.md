@@ -1,15 +1,15 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellen Sie Eigenschaftswerttypen dar.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Stellt Property-Werttypen dar.
 type: docs
 weight: 680
 url: /de/aspose.slides.animation/propertyvaluetype/
 ---
 
-## PropertyValueType Aufzählung
+## Aufzählung PropertyValueType
 
-Stellt Eigenschaftswerttypen dar.
+Stellt Property-Werttypen dar.
 
 ```csharp
 public enum PropertyValueType

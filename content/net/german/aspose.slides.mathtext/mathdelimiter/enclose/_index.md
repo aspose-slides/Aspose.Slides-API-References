@@ -7,7 +7,7 @@ weight: 90
 url: /de/aspose.slides.mathtext/mathdelimiter/enclose/
 ---
 
-## MathDelimiter.Enclose Methode
+## MathDelimiter.Enclose-Methode
 
 Umschließt ein mathematisches Element in angegebenen Zeichen wie Klammern oder anderen Zeichen als Rahmen
 
@@ -22,7 +22,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### Rückgabewert
 
-Wenn *beginningCharacter* und *endingCharacter* null sind, werden die entsprechenden Eigenschaften nur zugewiesen, und es wird kein neues Objekt erstellt (gibt diese Instanz zurück). Andernfalls wird ein neues mathematisches Element des Typs Delimiter zurückgegeben, das die angegebenen Zeichen als Rahmen enthält und diese Instanz von [`MathDelimiter`](../../mathdelimiter) darin umschließt.
+Wenn *beginningCharacter* und *endingCharacter* null sind, werden die entsprechenden Eigenschaften nur Werte zugewiesen und kein neues Objekt wird erstellt (gibt diese Instanz zurück). Andernfalls wird ein neues mathematisches Element vom Typ Delimiter zurückgegeben, das die angegebenen Zeichen als Rahmen enthält und diese Instanz von [`MathDelimiter`](../../mathdelimiter) darin umschließt.
 
 ### Beispiele
 

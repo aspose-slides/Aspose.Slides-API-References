@@ -1,13 +1,13 @@
 ---
 title: Color
-second_title: Справочник по API Aspose.Slides для .NET
-description: Цветовой формат. Только для чтения IColorFormataspose.slides/icolorformat.
+second_title: Aspose.Slides для .NET API Ссылка
+description: Цветовой формат. Только для чтения IColorFormataspose.slides/../aspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/glow/color/
 ---
 
-## Свойство Glow.Color
+## Glow.Color свойство
 
 Цветовой формат. Только для чтения [`IColorFormat`](../../../aspose.slides/icolorformat).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.effects/glow/color/
 public IColorFormat Color { get; }
 ```
 
-### Смотрите Также
+### Смотрите также
 
 * интерфейс [IColorFormat](../../../aspose.slides/icolorformat)
 * класс [Glow](../../glow)

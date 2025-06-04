@@ -1,21 +1,21 @@
 ---
 title: Count
-second_title: Справочник по API Aspose.Sildes для .NET
-description: Возвращает количество градиентных остановок в коллекции. Только для чтения Int32.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Возвращает количество градиентных стопов в коллекции. Только для чтения Int32.
 type: docs
 weight: 10
 url: /ru/aspose.slides/gradientstopcollectioneffectivedata/count/
 ---
 
-## Свойство GradientStopCollectionEffectiveData.Count
+## GradientStopCollectionEffectiveData.Count свойство
 
-Возвращает количество градиентных остановок в коллекции. Только для чтения Int32.
+Возвращает количество градиентных стопов в коллекции. Только для чтения Int32.
 
 ```csharp
 public int Count { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata)
 * пространство имен [Aspose.Slides](../../gradientstopcollectioneffectivedata)

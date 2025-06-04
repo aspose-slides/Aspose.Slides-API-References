@@ -1,7 +1,7 @@
 ---
 title: AsLiteralString
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt den Wert als Literalzeichenfolge zurück oder legt ihn fest. Lesen/Schreiben String.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den Wert als Literalzeichenfolge zurück oder setzt ihn. Lese-/Schreibzeichenfolge.
 type: docs
 weight: 30
 url: /de/aspose.slides.charts/stringordoublechartvalue/asliteralstring/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.charts/stringordoublechartvalue/asliteralstring/
 
 ## StringOrDoubleChartValue.AsLiteralString-Eigenschaft
 
-Gibt den Wert als Literalzeichenfolge zurück oder legt ihn fest. Lesen/Schreiben String.
+Gibt den Wert als Literalzeichenfolge zurück oder setzt ihn. Lese-/Schreibzeichenfolge.
 
 ```csharp
 public string AsLiteralString { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [StringOrDoubleChartValue](../../stringordoublechartvalue)
 * Namespace [Aspose.Slides.Charts](../../stringordoublechartvalue)

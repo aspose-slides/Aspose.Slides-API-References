@@ -1,6 +1,6 @@
 ---
 title: CreateMathArray
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Slides pour .NET Référence de l'API
 description: Crée un tableau mathématique et place l'élément spécifié dedans
 type: docs
 weight: 20

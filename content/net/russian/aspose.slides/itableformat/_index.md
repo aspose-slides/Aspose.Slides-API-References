@@ -17,14 +17,14 @@ public interface ITableFormat
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Получает или задает прозрачность цвета заливки. Читаемое/записываемое значение типа Single. |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Получает или задает прозрачность цвета заполнения. Чтение/запись Single. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [GetEffective](../../aspose.slides/itableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением наследования и стилей таблицы. |
 

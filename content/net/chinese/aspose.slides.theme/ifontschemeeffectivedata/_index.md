@@ -1,7 +1,7 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Slides for .NET API 参考
-description: 包含有效字体方案属性的不可变对象。
+second_title: Aspose.Sildes for .NET API Reference
+description: 不可变对象，包含有效的字体方案属性。
 type: docs
 weight: 10950
 url: /zh/aspose.slides.theme/ifontschemeeffectivedata/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.theme/ifontschemeeffectivedata/
 
 ## IFontSchemeEffectiveData 接口
 
-包含有效字体方案属性的不可变对象。
+不可变对象，包含有效的字体方案属性。
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -19,15 +19,15 @@ public interface IFontSchemeEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 返回幻灯片“标题”部分的字体集合。只读 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 返回幻灯片“主体”部分的字体集合。只读 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 返回幻灯片"标题"部分的字体集合。只读 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 返回幻灯片"正文"部分的字体集合。只读 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
 | [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 返回字体方案名称。只读字符串。 |
 
 ### 备注
 
 此接口作为 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分使用。
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 程序集 [Aspose.Slides](../../)

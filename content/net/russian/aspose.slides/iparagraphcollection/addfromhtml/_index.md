@@ -1,7 +1,7 @@
 ---
 title: AddFromHtml
 second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет текст из заданной HTML-строки в коллекцию.
+description: Добавляет текст из указанной HTML-строки в коллекцию.
 type: docs
 weight: 60
 url: /ru/aspose.slides/iparagraphcollection/addfromhtml/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/iparagraphcollection/addfromhtml/
 
 ## AddFromHtml(string) {#addfromhtml}
 
-Добавляет текст из заданной HTML-строки в коллекцию.
+Добавляет текст из указанной HTML-строки в коллекцию.
 
 ```csharp
 public void AddFromHtml(string text)
@@ -19,7 +19,7 @@ public void AddFromHtml(string text)
 | --- | --- | --- |
 | text | String | HTML текст. |
 
-### См. также
+### См. Также
 
 * интерфейс [IParagraphCollection](../../iparagraphcollection)
 * пространство имен [Aspose.Slides](../../iparagraphcollection)
@@ -29,7 +29,7 @@ public void AddFromHtml(string text)
 
 ## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_1}
 
-Добавляет текст из заданной HTML-строки в коллекцию.
+Добавляет текст из указанной HTML-строки в коллекцию.
 
 ```csharp
 public void AddFromHtml(string text, IExternalResourceResolver resolver, string uri)
@@ -38,14 +38,14 @@ public void AddFromHtml(string text, IExternalResourceResolver resolver, string 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | String | HTML текст. |
-| resolver | IExternalResourceResolver | Объект обратного вызова решателя, который разрешает URI и загружает связанные объекты. |
+| resolver | IExternalResourceResolver | Объект обратного вызова резолютора, который разрешает URI и извлекает ссылочные объекты. |
 | uri | String | URI для добавления HTML-документа. Используется для разрешения относительных ссылок. |
 
 ### Примечания
 
-Указание решателя может потенциально создать уязвимость. Используйте с осторожностью.
+Указание резолютора может потенциально создать уязвимость. Используйте с осторожностью.
 
-### См. также
+### См. Также
 
 * интерфейс [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
 * интерфейс [IParagraphCollection](../../iparagraphcollection)

@@ -1,7 +1,7 @@
 ---
 title: ISlidesLayoutOptions
 second_title: Aspose.Slides for .NET API 参考
-description: 表示导出时的演示文稿布局模式。
+description: 表示导出的演示文稿布局模式。
 type: docs
 weight: 3930
 url: /zh/aspose.slides.export/islideslayoutoptions/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.export/islideslayoutoptions/
 
 ## ISlidesLayoutOptions 接口
 
-表示导出时的演示文稿布局模式。
+表示导出的演示文稿布局模式。
 
 ```csharp
 public interface ISlidesLayoutOptions
 ```
 
-### 另请参见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)
 * 程序集 [Aspose.Slides](../../)

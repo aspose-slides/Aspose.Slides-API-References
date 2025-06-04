@@ -1,7 +1,7 @@
 ---
 title: IInkBrush
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt einen Zeichenpinsel dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt den Nachverfolgungs-Pinsel dar.
 type: docs
 weight: 7300
 url: /de/aspose.slides.ink/iinkbrush/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.ink/iinkbrush/
 
 ## IInkBrush-Schnittstelle
 
-Stellt einen Zeichenpinsel dar.
+Stellt den Nachverfolgungs-Pinsel dar.
 
 ```csharp
 public interface IInkBrush
@@ -19,10 +19,10 @@ public interface IInkBrush
 
 | Name | Beschreibung |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Holt oder setzt die Pinsel-Farbe für eine Linie. |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Holt oder setzt die Pinselgröße für eine Linie in Punkten. |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Ruft die Pinsel-Farbe für eine Linie ab oder legt sie fest. |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Ruft die Pinsel-Größe für eine Linie in Punkten ab oder legt sie fest. |
 
-### Siehe Auch
+### Siehe auch
 
 * Namespace [Aspose.Slides.Ink](../../aspose.slides.ink)
 * Assembly [Aspose.Slides](../../)

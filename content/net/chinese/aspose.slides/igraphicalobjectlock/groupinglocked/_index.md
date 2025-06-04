@@ -1,6 +1,6 @@
 ---
 title: GroupingLocked
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API Reference
 description: 确定将此形状添加到组是否被禁止。可读/可写布尔值。
 type: docs
 weight: 40

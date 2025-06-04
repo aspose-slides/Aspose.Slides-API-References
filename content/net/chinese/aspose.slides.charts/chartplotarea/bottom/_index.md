@@ -1,21 +1,21 @@
 ---
 title: Bottom
-second_title: Aspose.Slides for .NET API 参考
-description: 底部。只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: Bottom. 只读单一值。
 type: docs
 weight: 50
 url: /zh/aspose.slides.charts/chartplotarea/bottom/
 ---
 
-## ChartPlotArea.Bottom 属性
+## ChartPlotArea.Bottom property
 
-底部。只读单精度浮点数。
+Bottom. 只读单一值。
 
 ```csharp
 public float Bottom { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * class [ChartPlotArea](../../chartplotarea)
 * namespace [Aspose.Slides.Charts](../../chartplotarea)

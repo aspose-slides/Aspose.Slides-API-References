@@ -1,15 +1,15 @@
 ---
 title: AsIAccessiblePVIObject
-second_title: Aspose.Slides für .NET API Referenz
-description: Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur lesende IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Schreibgeschützte IAccessiblePVIObject aspose.slides/iaccessiblepviobject-1.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/iglow/asiaccessiblepviobject/
 ---
 
-## IGlow.AsIAccessiblePVIObject Eigenschaft
+## IGlow.AsIAccessiblePVIObject-Eigenschaft
 
-Ermöglicht den Zugriff auf die grundlegende IAccessiblePVIObject-Schnittstelle. Nur lesend [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Ermöglicht den Zugriff auf die Basisschnittstelle IAccessiblePVIObject. Schreibgeschützt [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
 
 ```csharp
 public IAccessiblePVIObject<IGlowEffectiveData> AsIAccessiblePVIObject { get; }

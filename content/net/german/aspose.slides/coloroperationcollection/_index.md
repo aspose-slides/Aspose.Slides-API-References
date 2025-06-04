@@ -19,10 +19,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Gibt die Anzahl der Operationen in einer Sammlung zurück. Nur lesbar Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Nur lesbar Boolean. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Gibt die Anzahl der Operationen in einer Sammlung zurück. Schreibgeschütztes Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Gibt einen Wert zurück, der angibt, ob der Zugriff auf die Sammlung synchronisiert ist (thread-sicher). Schreibgeschütztes Boolean. |
 | [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Gibt die Operation am angegebenen Index zurück oder setzt sie. Lese-/Schreibzugriff [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Gibt eine Synchronisierungswurzel zurück. Nur lesbar Object. |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Gibt eine Synchronisationswurzel zurück. Schreibgeschütztes Objekt. |
 
 ## Methoden
 

@@ -1,7 +1,7 @@
 ---
 title: ZOrderPosition
-second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает позицию фигуры в порядке наложения. Shapes0 возвращает фигуру в самом низу порядка наложения, а ShapesShapes.Count - 1 возвращает фигуру в самом верху порядка наложения. Только для чтения Int32.
+second_title: Aspose.Slides для .NET API Reference
+description: Возвращает положение фигуры в порядке слоев. Shapes0 возвращает фигуру, находящуюся на заднем плане порядка слоев, а ShapesShapes.Count - 1 возвращает фигуру на переднем плане порядка слоев. Только для чтения Int32.
 type: docs
 weight: 320
 url: /ru/aspose.slides/shape/zorderposition/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/shape/zorderposition/
 
 ## Свойство Shape.ZOrderPosition
 
-Возвращает позицию фигуры в порядке наложения. Shapes[0] возвращает фигуру в самом низу порядка наложения, а Shapes[Shapes.Count - 1] возвращает фигуру в самом верху порядка наложения. Только для чтения Int32.
+Возвращает положение фигуры в порядке слоев. Shapes[0] возвращает фигуру, находящуюся на заднем плане порядка слоев, а Shapes[Shapes.Count - 1] возвращает фигуру на переднем плане порядка слоев. Только для чтения Int32.
 
 ```csharp
 public virtual int ZOrderPosition { get; }

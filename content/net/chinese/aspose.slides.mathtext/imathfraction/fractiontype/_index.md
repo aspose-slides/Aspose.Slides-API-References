@@ -1,7 +1,7 @@
 ---
 title: FractionType
-second_title: Aspose.Slides for .NET API 参考
-description: 分数类型 默认条形
+second_title: Aspose.Sildes for .NET API Reference
+description: Fraction type Default Bar
 type: docs
 weight: 30
 url: /zh/aspose.slides.mathtext/imathfraction/fractiontype/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathfraction/fractiontype/
 
 ## IMathFraction.FractionType 属性
 
-分数类型 默认: 条形
+分数类型 默认: Bar
 
 ```csharp
 public MathFractionTypes FractionType { get; set; }
@@ -25,7 +25,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 mathFraction.FractionType = MathFractionTypes.Linear;
 ```
 
-### 参见
+### 另请参阅
 
 * enum [MathFractionTypes](../../mathfractiontypes)
 * interface [IMathFraction](../../imathfraction)

@@ -1,7 +1,7 @@
 ---
 title: IMathBorderBox
-second_title: Aspose.Slides pour .NET Référence API
-description: Dessine un rectangle ou une autre bordure autour de l'IMathElement.
+second_title: Référence API Aspose.Slides pour .NET
+description: Dessine une bordure rectangulaire ou une autre type de bordure autour de l'IMathElement.
 type: docs
 weight: 7920
 url: /fr/aspose.slides.mathtext/imathborderbox/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.mathtext/imathborderbox/
 
 ## Interface IMathBorderBox
 
-Dessine un rectangle ou une autre bordure autour de l'IMathElement.
+Dessine une bordure rectangulaire ou une autre type de bordure autour de l'IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -21,14 +21,14 @@ public interface IMathBorderBox : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Permet d'obtenir l'interface de base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Argument de base |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Masquer le Bord Inférieur (valeur par défaut : faux) - spécifie l'état caché ou affiché du bord inférieur de la boîte de bordure. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Masquer le Bord Gauche (valeur par défaut : faux) - spécifie l'état caché ou affiché du bord gauche de la boîte de bordure. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Masquer le Bord Droit (valeur par défaut : faux) - spécifie l'état caché ou affiché du bord droit de la boîte de bordure. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Masquer le Bord Supérieur (valeur par défaut : faux) - spécifie l'état caché ou affiché du bord supérieur de la boîte de bordure. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Barré du Bas-Gauche au Haut-Droit (valeur par défaut : faux). Spécifie l'état caché ou affiché d'une ligne diagonale barrée allant du coin inférieur gauche au coin supérieur droit de la boîte de bordure. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Barré Horizontal (valeur par défaut : faux) - spécifie l'état caché ou affiché d'une ligne horizontale barrée. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Barré du Haut-Gauche au Bas-Droit (valeur par défaut : faux). Spécifie l'état caché ou affiché d'une ligne diagonale barrée allant du coin supérieur gauche au coin inférieur droit de la boîte de bordure. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Barré Vertical (valeur par défaut : faux) - spécifie l'état caché ou affiché d'une ligne verticale barrée. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Cacher le bord inférieur (par défaut est faux) - spécifie l'état caché ou affiché du bord inférieur de la boîte de bordure. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Cacher le bord gauche (par défaut est faux) - spécifie l'état caché ou affiché du bord gauche de la boîte de bordure. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Cacher le bord droit (par défaut est faux) - spécifie l'état caché ou affiché du bord droit de la boîte de bordure. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Cacher le bord supérieur (par défaut est faux) - spécifie l'état caché ou affiché du bord supérieur de la boîte de bordure. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Rayer du bas-gauche au haut-droit (par défaut est faux). Spécifie l'état caché ou affiché d'une ligne diagonale en travers du coin inférieur gauche au coin supérieur droit de la boîte de bordure. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Rayer Horizontal (par défaut est faux) - spécifie l'état caché ou affiché d'une ligne horizontale barrée. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Rayer du haut-gauche au bas-droit (par défaut est faux). Spécifie l'état caché ou affiché d'une ligne diagonale en travers du coin supérieur gauche au coin inférieur droit de la boîte de bordure. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Rayer Vertical (par défaut est faux) - spécifie l'état caché ou affiché d'une ligne verticale barrée. |
 
 ### Exemples
 
@@ -39,7 +39,7 @@ Exemple:
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

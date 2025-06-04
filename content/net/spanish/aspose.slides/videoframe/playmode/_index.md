@@ -1,6 +1,6 @@
 ---
 title: PlayMode
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Devuelve o establece el modo de reproducción de video. Lectura/escritura VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs
 weight: 70
@@ -15,7 +15,7 @@ Devuelve o establece el modo de reproducción de video. Lectura/escritura [`Vide
 public VideoPlayModePreset PlayMode { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * enum [VideoPlayModePreset](../../videoplaymodepreset)
 * class [VideoFrame](../../videoframe)

@@ -1,6 +1,6 @@
 ---
 title: SkewOn
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente la propriété skew.on
 type: docs
 weight: 850
@@ -15,7 +15,7 @@ Représente la propriété 'skew.on'
 public static BehaviorProperty SkewOn { get; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * classe [BehaviorProperty](../../behaviorproperty)
 * espace de noms [Aspose.Slides.Animation](../../behaviorproperty)

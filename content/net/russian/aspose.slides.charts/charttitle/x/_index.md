@@ -1,13 +1,13 @@
 ---
 title: X
-second_title: Aspose.Slides для .NET API Справочник
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает или задает координату x заголовка как долю от ширины диаграммы. Чтение/запись Single.
 type: docs
 weight: 100
 url: /ru/aspose.slides.charts/charttitle/x/
 ---
 
-## Свойство ChartTitle.X
+## ChartTitle.X свойство
 
 Возвращает или задает координату x заголовка как долю от ширины диаграммы. Чтение/запись Single.
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides.charts/charttitle/x/
 public float X { get; set; }
 ```
 
-### См. также
+### См. Также
 
 * класс [ChartTitle](../../charttitle)
 * пространство имен [Aspose.Slides.Charts](../../charttitle)

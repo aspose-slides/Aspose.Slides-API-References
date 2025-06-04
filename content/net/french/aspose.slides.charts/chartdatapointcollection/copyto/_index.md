@@ -1,15 +1,15 @@
 ---
 title: CopyTo
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Copier vers un tableau spécifié.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Copier dans le tableau spécifié.
 type: docs
 weight: 280
 url: /fr/aspose.slides.charts/chartdatapointcollection/copyto/
 ---
 
-## Méthode ChartDataPointCollection.CopyTo
+## ChartDataPointCollection.CopyTo méthode
 
-Copier vers un tableau spécifié.
+Copier dans le tableau spécifié.
 
 ```csharp
 public void CopyTo(Array array, int arrayIndex)
@@ -18,9 +18,9 @@ public void CopyTo(Array array, int arrayIndex)
 | Paramètre | Type | Description |
 | --- | --- | --- |
 | array | Array | Tableau dans lequel copier. |
-| arrayIndex | Int32 | Index pour commencer la copie. |
+| arrayIndex | Int32 | Indice pour commencer à copier. |
 
-### Voir aussi
+### Voir Aussi
 
 * classe [ChartDataPointCollection](../../chartdatapointcollection)
 * espace de noms [Aspose.Slides.Charts](../../chartdatapointcollection)

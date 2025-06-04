@@ -1,7 +1,7 @@
 ---
 title: Layout
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient la disposition des sections de résumé zoom dans le cadre. La valeur par défaut est GridLayout.
+description: Obtient la mise en page des sections de résumé de zoom dans le cadre. La valeur par défaut est GridLayout.
 type: docs
 weight: 10
 url: /fr/aspose.slides/summaryzoomframe/layout/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/summaryzoomframe/layout/
 
 ## Propriété SummaryZoomFrame.Layout
 
-Obtient la disposition des sections de résumé zoom dans le cadre. La valeur par défaut est GridLayout.
+Obtient la mise en page des sections de résumé de zoom dans le cadre. La valeur par défaut est GridLayout.
 
 ```csharp
 public ZoomLayout Layout { get; }
@@ -17,7 +17,7 @@ public ZoomLayout Layout { get; }
 
 ### Exemples
 
-L'exemple démontre comment obtenir un élément de section de résumé zoom par index :
+L'exemple démontre comment obtenir un élément de section de résumé de zoom par index :
 
 ```csharp
 [C#]

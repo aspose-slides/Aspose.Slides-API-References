@@ -1,7 +1,7 @@
 ---
 title: Remove
-second_title: Aspose.Sildes for .NET API 参考
-description: 移除指定名称的属性。
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除具有指定名称的属性。
 type: docs
 weight: 70
 url: /zh/aspose.slides/icontrolpropertiescollection/remove/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icontrolpropertiescollection/remove/
 
 ## IControlPropertiesCollection.Remove 方法
 
-移除指定名称的属性。
+移除具有指定名称的属性。
 
 ```csharp
 public void Remove(string name)
@@ -19,7 +19,7 @@ public void Remove(string name)
 | --- | --- | --- |
 | name | String | 要移除的属性名称。 |
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IControlPropertiesCollection](../../icontrolpropertiescollection)
 * 命名空间 [Aspose.Slides](../../icontrolpropertiescollection)

@@ -15,7 +15,7 @@ Renvoie ou définit la largeur d'un contour 3D. Lecture/écriture Double.
 public double ContourWidth { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IThreeDFormat](../../ithreedformat)
 * namespace [Aspose.Slides](../../ithreedformat)

@@ -1,21 +1,21 @@
 ---
 title: StretchOffsetTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置填充矩形的顶部边缘，该边缘由距形状边界框顶部边缘的百分比偏移量定义。正百分比指定内缩，而负百分比指定外扩。可读写单精度浮点数。
+description: 返回或设置由形状边界框的顶部边缘定义的填充矩形的顶部边缘，该边缘由百分比偏移量指定。正百分比指定内插，而负百分比指定外插。可读/可写单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides/picturefillformat/stretchoffsettop/
 ---
 
-## PictureFillFormat.StretchOffsetTop 属性
+## PictureFillFormat.StretchOffsetTop property
 
-返回或设置填充矩形的顶部边缘，该边缘由距形状边界框顶部边缘的百分比偏移量定义。正百分比指定内缩，而负百分比指定外扩。可读写单精度浮点数。
+返回或设置由形状边界框的顶部边缘定义的填充矩形的顶部边缘，该边缘由百分比偏移量指定。正百分比指定内插，而负百分比指定外插。可读/可写单精度浮点数。
 
 ```csharp
 public float StretchOffsetTop { get; set; }
 ```
 
-### 另请参见
+### See Also
 
 * class [PictureFillFormat](../../picturefillformat)
 * namespace [Aspose.Slides](../../picturefillformat)

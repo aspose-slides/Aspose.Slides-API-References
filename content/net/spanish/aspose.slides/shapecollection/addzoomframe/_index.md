@@ -1,6 +1,6 @@
 ---
 title: AddZoomFrame
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referencia de API .NET
 description: Agrega un nuevo objeto Zoom al final de una colección.
 type: docs
 weight: 220
@@ -17,13 +17,13 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Zoom Single. |
-| width | Single | Ancho de un nuevo marco Zoom Single. |
-| height | Single | Altura de un nuevo marco Zoom Single. |
-| slide | ISlide | El objeto de diapositiva referenciado por el marco Zoom [`ISlide`](../../islide). |
+| x | Single | Coordenada X de un nuevo marco de Zoom Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom Single. |
+| width | Single | Ancho de un nuevo marco de Zoom Single. |
+| height | Single | Altura de un nuevo marco de Zoom Single. |
+| slide | ISlide | El objeto de la diapositiva referenciado por el marco de Zoom [`ISlide`](../../islide). |
 
-### Valor de Retorno
+### Valor de retorno
 
 Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
 
@@ -35,7 +35,7 @@ Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo agregar un objeto Zoom al final de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
+Este ejemplo demuestra cómo agregar un objeto Zoom al final de una colección (suponiendo que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IZoomFrame](../../izoomframe)
 * interfaz [ISlide](../../islide)
@@ -66,14 +66,14 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| x | Single | Coordenada X de un nuevo marco Zoom Single. |
-| y | Single | Coordenada Y de un nuevo marco Zoom Single. |
-| width | Single | Ancho de un nuevo marco Zoom Single. |
-| height | Single | Altura de un nuevo marco Zoom Single. |
-| slide | ISlide | El objeto de diapositiva referenciado por el marco Zoom [`ISlide`](../../islide). |
+| x | Single | Coordenada X de un nuevo marco de Zoom Single. |
+| y | Single | Coordenada Y de un nuevo marco de Zoom Single. |
+| width | Single | Ancho de un nuevo marco de Zoom Single. |
+| height | Single | Altura de un nuevo marco de Zoom Single. |
+| slide | ISlide | El objeto de la diapositiva referenciado por el marco de Zoom [`ISlide`](../../islide). |
 | image | IPPImage | La imagen para la diapositiva referenciada [`IPPImage`](../../ippimage) |
 
-### Valor de Retorno
+### Valor de retorno
 
 Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
 
@@ -85,7 +85,7 @@ Objeto Zoom creado [`IZoomFrame`](../../izoomframe).
 
 ### Ejemplos
 
-Este ejemplo demuestra cómo agregar un objeto Zoom al final de una colección (suponga que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
+Este ejemplo demuestra cómo agregar un objeto Zoom al final de una colección (suponiendo que hay al menos dos diapositivas en la presentación "Presentation.pptx"):
 
 ```csharp
 [C#]
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 }
 ```
 
-### Ver También
+### Véase también
 
 * interfaz [IZoomFrame](../../izoomframe)
 * interfaz [ISlide](../../islide)

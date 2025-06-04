@@ -1,7 +1,7 @@
 ---
 title: AggregationType
-second_title: Référence API Aspose.Slidess pour .NET
-description: Représente le type d'agrégation de binning de l'axe de catégorie. Appliqué à la catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
+second_title: Aspose.Slides pour .NET Référence API
+description: Représente le type d'agrégation de la binning de l'axe des catégories. Appliqué à la catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/iaxis/aggregationtype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iaxis/aggregationtype/
 
 ## Propriété IAxis.AggregationType
 
-Représente le type d'agrégation de l'axe de catégorie (binning). Appliqué à la catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
+Représente le type d'agrégation de l'axe des catégories (binning). Appliqué à la catégorie. Utilisé uniquement avec les séries Histogram ou HistogramPareto.
 
 ```csharp
 public AxisAggregationType AggregationType { get; set; }

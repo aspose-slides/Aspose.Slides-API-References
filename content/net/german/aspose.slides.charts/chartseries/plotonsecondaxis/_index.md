@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob diese Serie auf der sekundären Achse gezeichnet wird. Lese-/Schreib-Boolesch.
+description: Gibt an, ob diese Serie auf der sekundären Achse geplottet ist. Lese-/Schreib-Boolesch.
 type: docs
 weight: 330
 url: /de/aspose.slides.charts/chartseries/plotonsecondaxis/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseries/plotonsecondaxis/
 
 ## ChartSeries.PlotOnSecondAxis-Eigenschaft
 
-Gibt an, ob diese Serie auf der sekundären Achse gezeichnet wird. Lese-/Schreib-Boolesch.
+Gibt an, ob diese Serie auf der sekundären Achse geplottet ist. Lese-/Schreib-Boolesch.
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }

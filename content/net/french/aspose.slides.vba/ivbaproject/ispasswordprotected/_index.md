@@ -1,7 +1,7 @@
 ---
 title: IsPasswordProtected
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Indique si le VBAProject est protégé par un mot de passe pour voir les propriétés du projet. Booléen en lecture seule.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Indique si le VBAProject est protégé par un mot de passe pour voir les propriétés du projet. Lecture seule Boolean.
 type: docs
 weight: 10
 url: /fr/aspose.slides.vba/ivbaproject/ispasswordprotected/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.vba/ivbaproject/ispasswordprotected/
 
 ## Propriété IVbaProject.IsPasswordProtected
 
-Indique si le VBAProject est protégé par un mot de passe pour voir les propriétés du projet. Booléen en lecture seule.
+Indique si le VBAProject est protégé par un mot de passe pour voir les propriétés du projet. Lecture seule Boolean.
 
 ```csharp
 public bool IsPasswordProtected { get; }
@@ -27,7 +27,7 @@ using (var presentation = new Presentation(path + "demo.pptm"))
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IVbaProject](../../ivbaproject)
 * namespace [Aspose.Slides.Vba](../../ivbaproject)

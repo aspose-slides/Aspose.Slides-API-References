@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXPlusValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性在数据点 XPlus 属性对象中的有效性，适用于错误条的自定义值。换句话说，它指定 ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 属性的值类型。可读写 DataSourceTypeaspose.slides/datasourcetype.
+description: 指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性在数据点 XPlus 属性对象中是否有效，用于错误条的自定义值。换句话说，它指定 ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 属性值的类型。可读写 DataSourceTypeaspose.slides/datasourcetype。
 type: docs
 weight: 30
 url: /zh/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcet
 
 ## DataSourceTypeForErrorBarsCustomValues.DataSourceTypeForXPlusValues 属性
 
-指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性在数据点 XPlus 属性对象中的有效性，适用于错误条的自定义值。换句话说，它指定 ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 属性的值类型。可读写 [`DataSourceType`](../../datasourcetype)。
+指定 AsCell、AsLiteralString 或 AsLiteralDouble 属性在数据点 XPlus 属性对象中是否有效，用于错误条的自定义值。换句话说，它指定 ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 属性值的类型。可读写 [`DataSourceType`](../../datasourcetype)。
 
 ```csharp
 public DataSourceType DataSourceTypeForXPlusValues { get; set; }

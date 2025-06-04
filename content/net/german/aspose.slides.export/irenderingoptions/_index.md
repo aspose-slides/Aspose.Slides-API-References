@@ -20,9 +20,9 @@ public interface IRenderingOptions : ISaveOptions
 | Name | Beschreibung |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Text ohne die Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Holt oder setzt einen Wert, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Nur lesbar [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Ruft den Modus ab oder legt den Modus fest, in dem Folien auf der Seite beim Export einer Präsentation platziert werden [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Holt oder setzt den Modus, in dem Folien auf der Seite platziert werden, beim Exportieren einer Präsentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Beispiele
 

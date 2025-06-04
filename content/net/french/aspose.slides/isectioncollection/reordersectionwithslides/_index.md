@@ -7,7 +7,7 @@ weight: 90
 url: /fr/aspose.slides/isectioncollection/reordersectionwithslides/
 ---
 
-## Méthode ISectionCollection.ReorderSectionWithSlides
+## ISectionCollection.ReorderSectionWithSlides méthode
 
 Déplace la section et ses diapositives de la collection vers la position spécifiée.
 
@@ -20,7 +20,7 @@ public void ReorderSectionWithSlides(ISection section, int index)
 | index | ISection | Index cible. |
 | section | Int32 | Section à déplacer. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [ISection](../../isection)
 * interface [ISectionCollection](../../isectioncollection)

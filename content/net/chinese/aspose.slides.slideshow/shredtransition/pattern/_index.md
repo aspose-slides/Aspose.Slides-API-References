@@ -1,7 +1,7 @@
 ---
 title: Pattern
-second_title: Aspose.Slides for .NET API 参考
-description: 指定在过渡期间使用的视觉效果的形状。可读/写 TransitionShredPatternaspose.slides.slideshow/transitionshredpattern。
+second_title: Aspose.Sildes for .NET API Reference
+description: 指定过渡期间使用的视觉形状。可读写 TransitionShredPatternaspose.slides/transitionshredpattern。
 type: docs
 weight: 20
 url: /zh/aspose.slides.slideshow/shredtransition/pattern/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.slideshow/shredtransition/pattern/
 
 ## ShredTransition.Pattern 属性
 
-指定在过渡期间使用的视觉效果的形状。可读/写 [`TransitionShredPattern`](../../transitionshredpattern)。
+指定过渡期间使用的视觉形状。可读写 [`TransitionShredPattern`](../../transitionshredpattern)。
 
 ```csharp
 public TransitionShredPattern Pattern { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * enum [TransitionShredPattern](../../transitionshredpattern)
 * class [ShredTransition](../../shredtransition)

@@ -1,7 +1,7 @@
 ---
 title: UpBarsFormat
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Retourne le format des barres montantes. Lecture seule IFormataspose.slides.charts/iformat.
+second_title: Aspose.Sildes pour .NET API Référence
+description: Retourne le format des barres en hausse. Lecture seule IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
 url: /fr/aspose.slides.charts/iupdownbarsmanager/upbarsformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/iupdownbarsmanager/upbarsformat/
 
 ## Propriété IUpDownBarsManager.UpBarsFormat
 
-Retourne le format des barres montantes. Lecture seule [`IFormat`](../../iformat).
+Retourne le format des barres en hausse. Lecture seule [`IFormat`](../../iformat).
 
 ```csharp
 public IFormat UpBarsFormat { get; }

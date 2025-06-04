@@ -1,7 +1,7 @@
 ---
 title: Y
-second_title: Aspose.Slides for .NET API Reference
-description: 返回框架左上角的 Y 坐标。只读单精度浮点数。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回框架左上角的 Y 坐标。只读 Single。
 type: docs
 weight: 100
 url: /zh/aspose.slides/ishapeframe/y/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/ishapeframe/y/
 
 ## IShapeFrame.Y 属性
 
-返回框架左上角的 Y 坐标。只读单精度浮点数。
+返回框架左上角的 Y 坐标。只读 Single。
 
 ```csharp
 public float Y { get; }
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IShapeFrame](../../ishapeframe)
 * 命名空间 [Aspose.Slides](../../ishapeframe)

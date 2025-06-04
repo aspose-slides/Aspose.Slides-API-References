@@ -1,15 +1,15 @@
 ---
 title: SkewHorizontal
-second_title: Aspose.Slides für .NET API Referenz
-description: Legt den horizontalen Schrägwinkel in Grad fest. Nur lesbarer Double.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt den horizontalen Schrägwinkel in Grad an. Nur-Lese Double.
 type: docs
 weight: 100
 url: /de/aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal/
 ---
 
-## IOuterShadowEffectiveData.SkewHorizontal-Eigenschaft
+## IOuterShadowEffectiveData.SkewHorizontal Eigenschaft
 
-Legt den horizontalen Schrägwinkel (in Grad) fest. Nur lesbarer Double.
+Gibt den horizontalen Schrägwinkel (in Grad) an. Nur-Lese Double.
 
 ```csharp
 public double SkewHorizontal { get; }

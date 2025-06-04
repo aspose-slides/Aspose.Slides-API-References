@@ -1,13 +1,13 @@
 ---
 title: GetChildren
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Obtener elementos hijos
 type: docs
 weight: 110
 url: /es/aspose.slides.mathtext/mathblock/getchildren/
 ---
 
-## Método MathBlock.GetChildren
+## MathBlock.GetChildren método
 
 Obtener elementos hijos
 
@@ -15,11 +15,11 @@ Obtener elementos hijos
 public IMathElement[] GetChildren()
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IMathElement](../../imathelement)
 * clase [MathBlock](../../mathblock)
 * espacio de nombres [Aspose.Slides.MathText](../../mathblock)
-* ensamblaje [Aspose.Slides](../../../)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

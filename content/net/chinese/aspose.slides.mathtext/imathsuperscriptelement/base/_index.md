@@ -1,7 +1,7 @@
 ---
 title: Base
-second_title: Aspose.Slides for .NET API 参考
-description: 基本参数
+second_title: Aspose.Sildes for .NET API Reference
+description: 基础参数
 type: docs
 weight: 20
 url: /zh/aspose.slides.mathtext/imathsuperscriptelement/base/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.mathtext/imathsuperscriptelement/base/
 
 ## IMathSuperscriptElement.Base 属性
 
-基本参数
+基础参数
 
 ```csharp
 public IMathElement Base { get; }
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例：
+示例:
 
 ```csharp
 [C#]
@@ -27,7 +27,7 @@ IMathSuperscriptElement superscriptElement = new MathSuperscriptElement(baseElem
 IMathElement baseElem = superscriptElement.Base;
 ```
 
-### 另见
+### 参见
 
 * 接口 [IMathElement](../../imathelement)
 * 接口 [IMathSuperscriptElement](../../imathsuperscriptelement)

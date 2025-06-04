@@ -1,7 +1,7 @@
 ---
 title: IBiLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示基本的 IImageTransformOperation 接口。
+description: 代表基本 IImageTransformOperation 接口。
 type: docs
 weight: 3060
 url: /zh/aspose.slides.effects/ibilevel/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.effects/ibilevel/
 
 ## IBiLevel 接口
 
-表示基本的 IImageTransformOperation 接口。
+代表基本 IImageTransformOperation 接口。
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation
@@ -19,13 +19,13 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* 接口 [IBiLevelEffectiveData](../ibileveleffectivedata)
+* 接口 [IBiLevelEffectiveData](../ibeleveleffectivedata)
 * 接口 [IImageTransformOperation](../iimagetransformoperation)
 * 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 程序集 [Aspose.Slides](../../)

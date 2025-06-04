@@ -1,6 +1,6 @@
 ---
 title: StyleColor
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 表示 style.color 属性
 type: docs
 weight: 1050
@@ -15,7 +15,7 @@ url: /zh/aspose.slides.animation/behaviorproperty/stylecolor/
 public static BehaviorProperty StyleColor { get; }
 ```
 
-### 另见
+### 另请参见
 
 * class [BehaviorProperty](../../behaviorproperty)
 * namespace [Aspose.Slides.Animation](../../behaviorproperty)

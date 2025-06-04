@@ -1,6 +1,6 @@
 ---
 title: ImageDataCropBottom
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET Referencia de API
 description: Representa la propiedad imageData.cropBottom
 type: docs
 weight: 440
@@ -15,7 +15,7 @@ Representa la propiedad 'imageData.cropBottom'
 public static BehaviorProperty ImageDataCropBottom { get; }
 ```
 
-### Véase también
+### Ver También
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

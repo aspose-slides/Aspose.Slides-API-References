@@ -1,7 +1,7 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Slides para .NET Referencia de API
-description: Representa cómo se debe llenar el elemento de la forma.
+second_title: Referencia de API de Aspose.Slides para .NET
+description: Representa cómo debe ser llenado el elemento de forma.
 type: docs
 weight: 9570
 url: /es/aspose.slides/shapeelementfillsource/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/shapeelementfillsource/
 
 ## Enumeración ShapeElementFillSource
 
-Representa cómo se debe llenar el elemento de la forma.
+Representa cómo debe ser llenado el elemento de forma.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -19,14 +19,14 @@ public enum ShapeElementFillSource : byte
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NoFill | `0` | No llenar el primitivo. |
-| Shape | `1` | Usar el llenado de la forma. |
-| Lighten | `2` | Usar el llenado de la forma aclarada. |
-| LightenLess | `3` | Usar el llenado de la forma menos aclarada. |
-| Darken | `4` | Usar el llenado de la forma oscurecida. |
-| DarkenLess | `5` | Usar el llenado de la forma menos oscurecida. |
+| NoFill | `0` | No llenar la primitiva. |
+| Shape | `1` | Usar el relleno de la forma. |
+| Lighten | `2` | Usar el relleno de la forma aclarada. |
+| LightenLess | `3` | Usar el relleno de la forma menos aclarada. |
+| Darken | `4` | Usar el relleno de la forma oscurecida. |
+| DarkenLess | `5` | Usar el relleno de la forma menos oscurecida. |
 
-### Véase también
+### Ver También
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,21 +1,21 @@
 ---
 title: IsAutomaticTickMarksSpacing
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 指定自动刻度标记间距值。如果为 false，则使用 TickMarksSpacing 属性。可读写布尔值。
 type: docs
 weight: 240
 url: /zh/aspose.slides.charts/axis/isautomatictickmarksspacing/
 ---
 
-## Axis.IsAutomaticTickMarksSpacing 属性
+## Axis.IsAutomaticTickMarksSpacing property
 
-指定自动刻度标记间距值。如果为 false: 使用 TickMarksSpacing 属性。可读写布尔值。
+指定自动刻度标记间距值。如果为 false：使用 TickMarksSpacing 属性。可读写布尔值。
 
 ```csharp
 public bool IsAutomaticTickMarksSpacing { get; set; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * class [Axis](../../axis)
 * namespace [Aspose.Slides.Charts](../../axis)

@@ -19,13 +19,13 @@ public interface IMathNaryOperatorProperties
 
 | 名称 | 描述 |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | 运算符字符垂直增长以匹配其操作数的高度 |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | 操作符字符在垂直方向上增长以匹配其操作数的高度 |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | 隐藏下标 |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | 隐藏上标 |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | 极限（下标和上标）的位置 |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | N 叉运算符字符，例如：'∑'，'∫' |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | 限制的位置（下标和上标） |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | N元操作符字符，例如：'∑'，'∫' |
 
-### 另见
+### 另请参阅
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Représente le gestionnaire qui contient le comportement des espaces réservés de la diapositive maître de remise, y compris l'espace réservé du haut.
+description: Représente le gestionnaire qui maintient le comportement des espaces réservés de la diapositive maître de remise, y compris l'espace réservé de l'en-tête.
 type: docs
 weight: 6160
 url: /fr/aspose.slides/imasterhandoutslideheaderfootermanager/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/imasterhandoutslideheaderfootermanager/
 
 ## Interface IMasterHandoutSlideHeaderFooterManager
 
-Représente le gestionnaire qui contient le comportement des espaces réservés de la diapositive maître de remise, y compris l'espace réservé du haut.
+Représente le gestionnaire qui maintient le comportement des espaces réservés de la diapositive maître de remise, y compris l'espace réservé de l'en-tête.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -21,7 +21,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Renvoie l'interface IBaseHandoutNotesSlideHeaderFooterManag. |
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * namespace [Aspose.Slides](../../aspose.slides)

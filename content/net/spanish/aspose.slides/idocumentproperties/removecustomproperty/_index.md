@@ -1,15 +1,15 @@
 ---
 title: RemoveCustomProperty
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Eliminar una propiedad personalizada asociada con un nombre específico.
+second_title: Aspose.Sildes para .NET Referencia de API
+description: Eliminar una propiedad personalizada asociada con un nombre especificado.
 type: docs
 weight: 410
 url: /es/aspose.slides/idocumentproperties/removecustomproperty/
 ---
 
-## Método IDocumentProperties.RemoveCustomProperty
+## IDocumentProperties.RemoveCustomProperty método
 
-Eliminar una propiedad personalizada asociada con un nombre específico.
+Eliminar una propiedad personalizada asociada con un nombre especificado.
 
 ```csharp
 public bool RemoveCustomProperty(string name)
@@ -17,16 +17,16 @@ public bool RemoveCustomProperty(string name)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| name | String | Nombre de una propiedad personalizada para eliminar. |
+| name | String | Nombre de una propiedad personalizada a eliminar. |
 
-### Valor de Retorno
+### Valor de retorno
 
-Devuelve true si se eliminó una propiedad, false en caso contrario.
+Devuelve verdadero si se eliminó una propiedad, falso en caso contrario.
 
-### Véase También
+### Véase también
 
-* interfaz [IDocumentProperties](../../idocumentproperties)
-* espacio de nombres [Aspose.Slides](../../idocumentproperties)
-* ensamblaje [Aspose.Slides](../../../)
+* interface [IDocumentProperties](../../idocumentproperties)
+* namespace [Aspose.Slides](../../idocumentproperties)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

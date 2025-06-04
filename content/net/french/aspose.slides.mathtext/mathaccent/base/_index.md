@@ -1,13 +1,13 @@
 ---
 title: Base
-second_title: Référence de l'API Aspose.Sildes pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: L'argument auquel l'accent a été appliqué
 type: docs
 weight: 20
 url: /fr/aspose.slides.mathtext/mathaccent/base/
 ---
 
-## Propriété MathAccent.Base
+## MathAccent.Base property
 
 L'argument auquel l'accent a été appliqué
 

@@ -23,7 +23,7 @@ public void RemoveAt(int index)
 
 ```csharp
 [C#]
-// Créer une règle contenant une liste de polices.
+// Crée une règle contenant une liste de polices.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
 // Suppression de Tahoma de la liste.

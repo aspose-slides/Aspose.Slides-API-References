@@ -1,15 +1,15 @@
 ---
 title: IEffectFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 表示形状的效果属性。
+description: 代表形状的效果属性。
 type: docs
 weight: 5540
 url: /zh/aspose.slides/ieffectformat/
 ---
 
-## IEffectFormat 接口
+## IEffectFormat接口
 
-表示形状的效果属性。
+代表形状的效果属性。
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -19,16 +19,16 @@ public interface IEffectFormat : IEffectParamSource
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | 允许获取基础 IEffectParamSource 接口。只读 [`IEffectParamSource`](../ieffectparamsource)。 |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | 允许获取基础的IEffectParamSource接口。只读 [`IEffectParamSource`](../ieffectparamsource)。 |
 | [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | 模糊效果。读写 [`IBlur`](../../aspose.slides.effects/iblur)。 |
 | [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | 填充覆盖效果。读写 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
 | [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | 发光效果。读写 [`IGlow`](../../aspose.slides.effects/iglow)。 |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | 内阴影。读写 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | 如果所有效果都被禁用（如刚创建时，默认的 EffectFormat 对象），则返回 true。只读布尔值。 |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | 如果所有效果均被禁用（如新创建的默认EffectFormat对象），则返回true。只读布尔值。 |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | 外阴影。读写 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
 | [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | 预设阴影。读写 [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow)。 |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | 反射。读写 [`IReflection`](../../aspose.slides.effects/ireflection)。 |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | 边缘柔化。读写 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | 柔和边缘。读写 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
 
 ## 方法
 
@@ -41,18 +41,18 @@ public interface IEffectFormat : IEffectParamSource
 | [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | 禁用外阴影效果。 |
 | [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | 禁用预设阴影效果。 |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | 禁用反射效果。 |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | 禁用边缘柔化效果。 |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | 禁用柔和边缘效果。 |
 | [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | 启用填充覆盖效果。 |
 | [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | 启用发光效果。 |
 | [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | 启用内阴影效果。 |
 | [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | 启用外阴影效果。 |
 | [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | 启用预设阴影效果。 |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | 启用反射效果。 |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | 启用边缘柔化效果。 |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | 获取有效的效果格式数据，并应用继承。 |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | 启用柔和边缘效果。 |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | 获取应用了继承的有效效果格式数据。 |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | 设置模糊效果。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [IEffectParamSource](../ieffectparamsource)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

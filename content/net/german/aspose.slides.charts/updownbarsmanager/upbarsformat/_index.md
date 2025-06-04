@@ -1,6 +1,6 @@
 ---
 title: UpBarsFormat
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Slides für .NET API Referenz
 description: Gibt das UpBars-Format zurück. Nur lesend IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40

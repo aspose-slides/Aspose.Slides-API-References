@@ -1,6 +1,6 @@
 ---
 title: SetLowerLimit
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET API Reference
 description: Prend la limite inférieure
 type: docs
 weight: 130
@@ -34,7 +34,7 @@ IMathElement limitValue = new MathematicalText("𝑛→∞");
 var limitElement = baseElement.SetLowerLimit(limitValue);
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * interface [IMathElement](../../imathelement)
@@ -69,7 +69,7 @@ IMathElement baseElement = new MathematicalText("lim");
 var limitElement = baseElement.SetLowerLimit("𝑛→∞");
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IMathLimit](../../imathlimit)
 * interface [IMathElement](../../imathelement)

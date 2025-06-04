@@ -1,7 +1,7 @@
 ---
 title: IAlphaBiLevelEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник
-description: Неподвижный объект, представляющий эффект Alpha Bi-Level. Значения Alpha Opacity, меньшие порога, изменяются на 0 полностью прозрачный, а значения alpha, большие или равные порогу, изменяются на 100 полностью непрозрачный.
+description: Неизменяемый объект, который представляет эффект Alpha Bi-Level. Значения альфа-прозрачности Opacity, меньшие порога, изменяются на 0 полностью прозрачный, а значения альфа, равные или превышающие порог, изменяются на 100 полностью непрозрачный.
 type: docs
 weight: 2930
 url: /ru/aspose.slides.effects/ialphabileveleffectivedata/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.effects/ialphabileveleffectivedata/
 
 ## Интерфейс IAlphaBiLevelEffectiveData
 
-Неподвижный объект, представляющий эффект Alpha Bi-Level. Значения Alpha (Opacity), меньшие порога, изменяются на 0 (полностью прозрачный), а значения alpha, большие или равные порогу, изменяются на 100% (полностью непрозрачный).
+Неизменяемый объект, который представляет эффект Alpha Bi-Level. Значения альфа-прозрачности (Opacity), меньшие порога, изменяются на 0 (полностью прозрачный), а значения альфа, равные или превышающие порог, изменяются на 100% (полностью непрозрачный).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData

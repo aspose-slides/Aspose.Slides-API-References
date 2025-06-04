@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForStockSeries
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Stock, voir aussi la méthode IsChartTypeStockaspose.slides.charts/charttypecharacterizer/ischarttypestock.
+second_title: Aspose.Sildes pour .NET Référence de l'API
+description: Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Stock, voir aussi la méthode IsChartTypeStockaspose.slides.charts/charttypecharacterizer/ischarttypestock.
 type: docs
 weight: 220
 url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforstockseries/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdatapointcollection/adddatapointforstockserie
 
 ## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
-Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Stock (voir aussi la méthode [`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Stock (voir aussi la méthode [`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
@@ -35,7 +35,7 @@ Nouveau point de données.
 
 ## AddDataPointForStockSeries(double) {#adddatapointforstockseries_1}
 
-Crée un nouveau point de données et l'ajoute à la fin de la collection. Applicable pour les séries dont le chartType est l'un des sous-types Stock (voir aussi la méthode [`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)).
+Crée le nouveau point de données et l'ajoute à la fin de la collection. Applicable aux séries dont le chartType est l'un des sous-types Stock (voir aussi la méthode [`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)).
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(double value)

@@ -1,7 +1,7 @@
 ---
 title: AsIComparable
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt das IComparable-Interface zurück. Nur-Lese IComparable.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt die IComparable-Schnittstelle zurück. Nur schreibgeschütztes IComparable.
 type: docs
 weight: 20
 url: /de/aspose.slides/itabeffectivedata/asicomparable/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/itabeffectivedata/asicomparable/
 
 ## ITabEffectiveData.AsIComparable-Eigenschaft
 
-Gibt das IComparable-Interface zurück. Nur-Lese IComparable.
+Gibt die IComparable-Schnittstelle zurück. Nur schreibgeschütztes IComparable.
 
 ```csharp
 public IComparable AsIComparable { get; }
@@ -19,9 +19,9 @@ public IComparable AsIComparable { get; }
 
 Für die COM-Kompatibilität.
 
-### Siehe Auch
+### Siehe auch
 
-* Interface [ITabEffectiveData](../../itabeffectivedata)
+* Schnittstelle [ITabEffectiveData](../../itabeffectivedata)
 * Namespace [Aspose.Slides](../../itabeffectivedata)
 * Assembly [Aspose.Slides](../../../)
 

@@ -21,7 +21,7 @@ public abstract class CellCollection : ICellCollection
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | 返回集合中单元格的数量。只读 Int32。 |
 | [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否是同步的（线程安全）。只读 Boolean。 |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | 根据位置返回一个单元格。只读 [`Cell`](../cell)。 |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | 通过位置返回一个单元格。只读 [`Cell`](../cell)。 |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 返回 CellCollection 的父演示文稿。只读 [`IPresentation`](../ipresentation)。 |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | 返回 CellCollection 的父幻灯片。只读 [`IBaseSlide`](../ibaseslide)。 |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 返回一个同步根。只读 Object。 |
@@ -30,10 +30,10 @@ public abstract class CellCollection : ICellCollection
 
 | 名称 | 描述 |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定数组。 |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 返回一个枚举器，用于迭代集合。 |
 
-### 另见
+### 另请参阅
 
 * 接口 [ICellCollection](../icellcollection)
 * 命名空间 [Aspose.Slides](../../aspose.slides)

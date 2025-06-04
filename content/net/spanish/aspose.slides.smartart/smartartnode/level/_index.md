@@ -1,6 +1,6 @@
 ---
 title: Level
-second_title: Referencia de la API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Slides para .NET
 description: Devuelve el nivel de anidación del nodo. Solo lectura Int32.
 type: docs
 weight: 50
@@ -15,10 +15,10 @@ Devuelve el nivel de anidación del nodo. Solo lectura Int32.
 public int Level { get; }
 ```
 
-### Vea también
+### Vea También
 
 * clase [SmartArtNode](../../smartartnode)
 * espacio de nombres [Aspose.Slides.SmartArt](../../smartartnode)
-* ensamblado [Aspose.Slides](../../../)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

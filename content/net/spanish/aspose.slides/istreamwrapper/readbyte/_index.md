@@ -1,13 +1,13 @@
 ---
 title: ReadByte
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Lee un byte del flujo y avanza la posición dentro del flujo en un byte o devuelve -1 si está al final del flujo.
 type: docs
 weight: 110
 url: /es/aspose.slides/istreamwrapper/readbyte/
 ---
 
-## Método IStreamWrapper.ReadByte
+## IStreamWrapper.ReadByte método
 
 Lee un byte del flujo y avanza la posición dentro del flujo en un byte, o devuelve -1 si está al final del flujo.
 
@@ -15,14 +15,14 @@ Lee un byte del flujo y avanza la posición dentro del flujo en un byte, o devue
 public int ReadByte()
 ```
 
-### Valor de Retorno
+### Valor de retorno
 
 Byte leído Int32
 
-### Véase También
+### Véase también
 
-* interfaz [IStreamWrapper](../../istreamwrapper)
-* espacio de nombres [Aspose.Slides](../../istreamwrapper)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IStreamWrapper](../../istreamwrapper)
+* espacio de nombres [Aspose.Slides](../../istreamwrapper)
+* ensamblaje [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

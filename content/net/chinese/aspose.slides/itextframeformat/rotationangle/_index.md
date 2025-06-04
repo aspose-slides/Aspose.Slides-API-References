@@ -1,7 +1,7 @@
 ---
 title: RotationAngle
-second_title: Aspose.Slides for .NET API 参考
-description: 指定应用于边界框内文本的自定义旋转。如果未指定，则使用伴随形状的旋转。如果指定，则独立于形状应用。也就是说，形状可以有一个旋转，而文本本身也可以有一个旋转。此属性和预定义的垂直类型 TextVerticalType 的视觉文本旋转的最终值汇总。读/写 单一精度浮点数。
+second_title: Aspose.Slides for .NET API Reference
+description: 指定应用于边界框内文本的自定义旋转。如果没有指定，将使用随附形状的旋转。如果指定，则独立于形状应用。这意味着形状可以在文本自身的旋转之上应用旋转。从该属性和属性 TextVerticalType 中预定义的垂直类型总结出的视觉文本旋转的结果值。可读/可写单精度浮点数。
 type: docs
 weight: 110
 url: /zh/aspose.slides/itextframeformat/rotationangle/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframeformat/rotationangle/
 
 ## ITextFrameFormat.RotationAngle 属性
 
-指定应用于边界框内文本的自定义旋转。如果未指定，则使用伴随形状的旋转。如果指定，则独立于形状应用。也就是说，形状可以有一个旋转，而文本本身也可以有一个旋转。此属性和预定义的垂直类型 TextVerticalType 的视觉文本旋转的最终值汇总。读/写 单一精度浮点数。
+指定应用于边界框内文本的自定义旋转。如果没有指定，将使用随附形状的旋转。如果指定，则独立于形状应用。这意味着形状可以在文本自身的旋转之上应用旋转。从该属性和属性 TextVerticalType 中预定义的垂直类型总结出的视觉文本旋转的结果值。可读/可写单精度浮点数。
 
 ```csharp
 public float RotationAngle { get; set; }
@@ -17,9 +17,9 @@ public float RotationAngle { get; set; }
 
 ### 示例
 
-考虑一个形状，其顺时针旋转 90 度。除此之外，文本本身逆时针旋转 -90 度。那么结果形状看起来是旋转的，但其中的文本看起来并没有旋转。
+考虑一个形状，其旋转为顺时针 90 度。除此之外，文本主体自身的旋转为逆时针 -90 度。那么结果形状看起来像是旋转了，但内部的文本看起来则似乎没有旋转过。
 
-### 另见
+### 另请参阅
 
 * 接口 [ITextFrameFormat](../../itextframeformat)
 * 命名空间 [Aspose.Slides](../../itextframeformat)

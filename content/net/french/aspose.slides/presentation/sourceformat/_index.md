@@ -1,7 +1,7 @@
 ---
 title: SourceFormat
-second_title: Aspose.Slides pour .NET Référence API
-description: Renvoie des informations sur le format dans lequel la présentation a été chargée. SourceFormataspose.slides/sourceformat en lecture seule.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Renvoie des informations sur le format à partir duquel la présentation a été chargée. SourceFormataspose.slides/sourceformat en lecture seule.
 type: docs
 weight: 260
 url: /fr/aspose.slides/presentation/sourceformat/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/presentation/sourceformat/
 
 ## Propriété Presentation.SourceFormat
 
-Renvoie des informations sur le format dans lequel la présentation a été chargée. [`SourceFormat`](../../sourceformat) en lecture seule.
+Renvoie des informations sur le format à partir duquel la présentation a été chargée. En lecture seule [`SourceFormat`](../../sourceformat).
 
 ```csharp
 public SourceFormat SourceFormat { get; }

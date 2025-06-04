@@ -1,7 +1,7 @@
 ---
 title: FormatScheme
-second_title: Aspose.Slides for .NET API 参考
-description: 返回形状格式方案。只读 IFormatScheme aspose.slides.theme/iformatscheme。
+second_title: Aspose.Slides for .NET API Reference
+description: 返回形状格式方案。只读 IFormatSchemeaspose.slides.theme/iformatscheme。
 type: docs
 weight: 40
 url: /zh/aspose.slides.theme/itheme/formatscheme/

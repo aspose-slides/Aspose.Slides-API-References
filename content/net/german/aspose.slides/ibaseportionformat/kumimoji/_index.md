@@ -1,7 +1,7 @@
 ---
 title: Kumimoji
 second_title: Aspose.Slides für .NET API-Referenz
-description: Bestimmt, ob die Zahlen das textbasierte, östliche sprachspezifische vertikale Layout ignorieren sollten. Keine Vererbung angewendet. Lese-/Schreibzugriff auf NullableBoolaspose.slides/nullablebool.
+description: Bestimmt, ob die Zahlen das spezifische vertikale Textlayout östlicher Sprachen ignorieren sollten. Keine Vererbung angewendet. Lese-/Schreibbarer NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 150
 url: /de/aspose.slides/ibaseportionformat/kumimoji/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/ibaseportionformat/kumimoji/
 
 ## IBasePortionFormat.Kumimoji-Eigenschaft
 
-Bestimmt, ob die Zahlen das textbasierte, östliche sprachspezifische vertikale Layout ignorieren sollten. Keine Vererbung angewendet. Lese-/Schreibzugriff auf [`NullableBool`](../../nullablebool).
+Bestimmt, ob die Zahlen das spezifische vertikale Textlayout östlicher Sprachen ignorieren sollten. Keine Vererbung angewendet. Lese-/Schreibbarer [`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool Kumimoji { get; set; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * enum [NullableBool](../../nullablebool)
 * interface [IBasePortionFormat](../../ibaseportionformat)

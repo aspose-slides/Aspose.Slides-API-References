@@ -1,13 +1,13 @@
 ---
 title: GetEffectsByParagraph
-second_title: Aspose.Slides para .NET Referencia de API
+second_title: Referencia de API Aspose.Slides para .NET
 description: Devuelve un array de efectos para el párrafo especificado.
 type: docs
 weight: 80
 url: /es/aspose.slides.animation/isequence/geteffectsbyparagraph/
 ---
 
-## Método ISequence.GetEffectsByParagraph
+## ISequence.GetEffectsByParagraph método
 
 Devuelve un array de efectos para el párrafo especificado.
 
@@ -17,7 +17,7 @@ public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 
 | Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| paragraph | IParagraph | Objeto de párrafo [`IParagraph`](../../../aspose.slides/iparagraph) |
+| paragraph | IParagraph | Objeto del párrafo [`IParagraph`](../../../aspose.slides/iparagraph) |
 
 ### Valor de retorno
 

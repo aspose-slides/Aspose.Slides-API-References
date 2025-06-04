@@ -1,15 +1,15 @@
 ---
 title: InsertClone
-second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет копию указанного основного слайда в указанную позицию коллекции. Связанные макетные слайды также будут скопированы.
+second_title: Aspose.Slides для .NET API Reference
+description: Вставляет копию указанного мастер-слайда на указанную позицию в коллекции. Связанные макеты слайдов также будут скопированы.
 type: docs
 weight: 80
 url: /ru/aspose.slides/masterslidecollection/insertclone/
 ---
 
-## Метод MasterSlideCollection.InsertClone
+## MasterSlideCollection.InsertClone метод
 
-Вставляет копию указанного основного слайда в указанную позицию коллекции. Связанные макетные слайды также будут скопированы.
+Вставляет копию указанного мастер-слайда на указанную позицию в коллекции. Связанные макеты слайдов также будут скопированы.
 
 ```csharp
 public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
@@ -22,40 +22,40 @@ public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
 
 ### Возвращаемое значение
 
-Вставленный основной слайд.
+Вставленный мастер-слайд.
 
 ### Примеры
 
-Следующий пример демонстрирует, как клонировать основной слайд в другую презентацию PowerPoint.
+Следующий пример показывает, как клонировать мастер-слайд в другую презентацию PowerPoint.
 
 ```csharp
 [C#]
-// Создаем класс Presentation для загрузки исходного файла презентации
+// Создайте экземпляр класса Presentation для загрузки файла исходной презентации
 using (Presentation srcPres = new Presentation("CloneToAnotherPresentationWithMaster.pptx"))
 {
-    // Создаем класс Presentation для целевой презентации (куда будет клонироваться слайд)
+    // Создайте экземпляр класса Presentation для целевой презентации (куда слайд будет клонирован)
     using (Presentation destPres = new Presentation())
     {
-        // Создаем ISlide из коллекции слайдов в исходной презентации вместе с
-        // Основным слайдом
+        // Получите ISlide из коллекции слайдов в исходной презентации вместе с
+        // Мастер-слайдом
         ISlide SourceSlide = srcPres.Slides[0];
         IMasterSlide SourceMaster = SourceSlide.LayoutSlide.MasterSlide;
-		// Получаем основные слайды целевой презентации
+		// Получите мастер-слайды целевой презентации
         IMasterSlideCollection masters = destPres.Masters;
-        // Клонируем желаемый основной слайд из исходной презентации в коллекцию основных слайдов в
+        // Клонируйте нужный мастер-слайд из исходной презентации в коллекцию мастеров в
         // Целевой презентации
         IMasterSlide iSlide = masters.AddClone(SourceMaster);
         // Коллекция слайдов в целевой презентации
         ISlideCollection slds = destPres.Slides;
-		// Клонируем исходный слайд в коллекцию слайдов целевой презентации.
+		// Клонируйте исходный слайд в коллекцию слайдов назначения.
         slds.AddClone(SourceSlide, iSlide, true);
-        // Сохраняем целевую презентацию на диск
+        // Сохраните целевую презентацию на диск
         destPres.Save("CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);
     }
 }
 ```
 
-### См. также
+### Смотрите также
 
 * интерфейс [IMasterSlide](../../imasterslide)
 * класс [MasterSlideCollection](../../masterslidecollection)

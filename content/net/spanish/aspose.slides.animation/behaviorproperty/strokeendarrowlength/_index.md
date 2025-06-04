@@ -1,6 +1,6 @@
 ---
 title: StrokeEndArrowLength
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Slides para .NET API Reference
 description: Representa la propiedad stroke.endArrowLength
 type: docs
 weight: 920
@@ -15,7 +15,7 @@ Representa la propiedad 'stroke.endArrowLength'
 public static BehaviorProperty StrokeEndArrowLength { get; }
 ```
 
-### Ver también
+### Véase también
 
 * clase [BehaviorProperty](../../behaviorproperty)
 * espacio de nombres [Aspose.Slides.Animation](../../behaviorproperty)

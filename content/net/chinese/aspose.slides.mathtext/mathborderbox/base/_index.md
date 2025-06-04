@@ -1,6 +1,6 @@
 ---
 title: Base
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 基础参数
 type: docs
 weight: 20
@@ -17,7 +17,7 @@ public IMathElement Base { get; }
 
 ### 示例
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -25,7 +25,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 IMathElement base = borderBox.Base;
 ```
 
-### 另见
+### 另请参阅
 
 * 接口 [IMathElement](../../imathelement)
 * 类 [MathBorderBox](../../mathborderbox)

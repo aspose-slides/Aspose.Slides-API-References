@@ -1,7 +1,7 @@
 ---
 title: SecondaryCategories
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Obtient les catégories secondaires si la propriété UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories est vraie. Lecture seule IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
+description: Obtient les catégories secondaires si la propriété UseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories est vraie. Collection IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection en lecture seule.
 type: docs
 weight: 50
 url: /fr/aspose.slides.charts/chartdata/secondarycategories/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.charts/chartdata/secondarycategories/
 
 ## Propriété ChartData.SecondaryCategories
 
-Obtient les catégories secondaires si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est vraie. Lecture seule [`IChartCategoryCollection`](../../ichartcategorycollection).
+Obtient les catégories secondaires si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est vraie. Collection en lecture seule [`IChartCategoryCollection`](../../ichartcategorycollection).
 
 ```csharp
 public IChartCategoryCollection SecondaryCategories { get; }
@@ -17,24 +17,24 @@ public IChartCategoryCollection SecondaryCategories { get; }
 
 ### Remarques
 
-Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est fausse, alors cette propriété `SecondaryCategories` renvoie null et les données dans la propriété [`Categories`](../categories) sont utilisées à la fois pour les séries principales et secondaires. Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est vraie, alors les données dans cette propriété `SecondaryCategories` sont utilisées pour les séries secondaires et les données dans la propriété [`Categories`](../categories) sont utilisées pour les séries principales.
+Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est fausse, alors cette propriété `SecondaryCategories` retourne null et les données de la propriété [`Categories`](../categories) sont utilisées à la fois pour les séries primaires et secondaires. Si la propriété [`UseSecondaryCategories`](../usesecondarycategories) est vraie, alors les données de cette propriété `SecondaryCategories` sont utilisées pour les séries secondaires et les données de la propriété [`Categories`](../categories) sont utilisées pour les séries primaires.
 
 ### Exemples
 
-Exemple. Quelles catégories sont liées à la série - ChartData.Categories ou ChartData.SecondaryCategories ?
+Exemple. Quelles catégories sont liées aux séries - ChartData.Categories ou ChartData.SecondaryCategories ?
 
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-    // les catégories liées sont series.Chart.ChartData.SecondaryCategories
+    // les catégories associées sont series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-    // les catégories liées sont series.Chart.ChartData.Categories
+    // les catégories associées sont series.Chart.ChartData.Categories
 }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategoryCollection](../../ichartcategorycollection)
 * class [ChartData](../../chartdata)

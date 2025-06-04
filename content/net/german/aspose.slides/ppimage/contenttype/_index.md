@@ -1,6 +1,6 @@
 ---
 title: ContentType
-second_title: Aspose.Slidese für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Gibt einen MIME-Typ eines Bildes zurück, das in BinaryDataaspose.slides/ppimage/binarydata kodiert ist. Nur-Lese-String.
 type: docs
 weight: 20
@@ -15,7 +15,7 @@ Gibt einen MIME-Typ eines Bildes zurück, das in [`BinaryData`](../binarydata) k
 public string ContentType { get; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [PPImage](../../ppimage)
 * Namespace [Aspose.Slides](../../ppimage)

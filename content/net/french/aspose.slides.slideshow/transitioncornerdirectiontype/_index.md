@@ -1,7 +1,7 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes pour .NET Référence API
-description: Représente les types de transitions de direction de coin.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Représente les types de transition de direction de coin.
 type: docs
 weight: 10040
 url: /fr/aspose.slides.slideshow/transitioncornerdirectiontype/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.slideshow/transitioncornerdirectiontype/
 
 ## Énumération TransitionCornerDirectionType
 
-Représente les types de transitions de direction de coin.
+Représente les types de transition de direction de coin.
 
 ```csharp
 public enum TransitionCornerDirectionType
@@ -24,7 +24,7 @@ public enum TransitionCornerDirectionType
 | RightDown | `2` |  |
 | RightUp | `3` |  |
 
-### Voir aussi
+### Voir Également
 
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * assembly [Aspose.Slides](../../)

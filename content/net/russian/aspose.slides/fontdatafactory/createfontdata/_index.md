@@ -7,7 +7,7 @@ weight: 20
 url: /ru/aspose.slides/fontdatafactory/createfontdata/
 ---
 
-## Метод FontDataFactory.CreateFontData
+## FontDataFactory.CreateFontData метод
 
 Создает FontData с указанным именем шрифта.
 
@@ -23,7 +23,7 @@ public IFontData CreateFontData(string fontName)
 
 FontData
 
-### Также смотрите
+### См. также
 
 * интерфейс [IFontData](../../ifontdata)
 * класс [FontDataFactory](../../fontdatafactory)

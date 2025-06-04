@@ -1,7 +1,7 @@
 ---
 title: FloatB
 second_title: Aspose.Sildes for .NET API Reference
-description: 返回或设置颜色的蓝色分量。所有颜色转换都被忽略。可读/可写单精度浮点数。
+description: 返回或设置颜色的蓝色分量。所有颜色转换都会被忽略。可读/可写单精度浮点数。
 type: docs
 weight: 60
 url: /zh/aspose.slides/icolorformat/floatb/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/icolorformat/floatb/
 
 ## IColorFormat.FloatB 属性
 
-返回或设置颜色的蓝色分量。所有颜色转换都被忽略。可读/可写单精度浮点数。
+返回或设置颜色的蓝色分量。所有颜色转换都会被忽略。可读/可写单精度浮点数。
 
 ```csharp
 public float FloatB { get; set; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IColorFormat](../../icolorformat)
 * 命名空间 [Aspose.Slides](../../icolorformat)

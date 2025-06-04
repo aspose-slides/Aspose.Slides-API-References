@@ -1,13 +1,13 @@
 ---
 title: Insert
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Slides pour .NET Référence API
 description: Insère un paragraphe dans la collection à l'index spécifié.
 type: docs
 weight: 90
 url: /fr/aspose.slides/iparagraphcollection/insert/
 ---
 
-## Insérer(int, IParagraph) {#insert}
+## Insert(int, IParagraph) {#insert}
 
 Insère un paragraphe dans la collection à l'index spécifié.
 
@@ -17,7 +17,7 @@ public void Insert(int index, IParagraph value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle le paragraphe devrait être inséré. |
+| index | Int32 | L'index basé sur zéro à laquelle le paragraphe doit être inséré. |
 | value | IParagraph | Le paragraphe à insérer. |
 
 ### Voir aussi
@@ -29,9 +29,9 @@ public void Insert(int index, IParagraph value)
 
 ---
 
-## Insérer(int, IParagraphCollection) {#insert_1}
+## Insert(int, IParagraphCollection) {#insert_1}
 
-Insère le contenu de ParagraphCollection dans la collection à l'index spécifié.
+Insère un contenu de ParagraphCollection dans la collection à l'index spécifié.
 
 ```csharp
 public void Insert(int index, IParagraphCollection value)
@@ -39,7 +39,7 @@ public void Insert(int index, IParagraphCollection value)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| index | Int32 | L'index basé sur zéro à laquelle les paragraphes devraient être insérés. |
+| index | Int32 | L'index basé sur zéro à laquelle les paragraphes doivent être insérés. |
 | value | IParagraphCollection | Les paragraphes à insérer. |
 
 ### Voir aussi

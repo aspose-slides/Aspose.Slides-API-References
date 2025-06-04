@@ -1,21 +1,21 @@
 ---
 title: ChartTitle
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie ou définit un titre de graphique Lecture seule IChartTitleaspose.slides.charts/icharttitle.
+description: Retourne ou définit un titre de graphique Lecture seule IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 80
 url: /fr/aspose.slides.charts/ichart/charttitle/
 ---
 
-## Propriété IChart.ChartTitle
+## IChart.ChartTitle propriété
 
-Renvoie ou définit un titre de graphique Lecture seule [`IChartTitle`](../../icharttitle).
+Retourne ou définit un titre de graphique Lecture seule [`IChartTitle`](../../icharttitle).
 
 ```csharp
 public IChartTitle ChartTitle { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IChartTitle](../../icharttitle)
 * interface [IChart](../../ichart)

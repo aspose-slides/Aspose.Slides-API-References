@@ -15,7 +15,7 @@ url: /zh/aspose.slides.effects/ireflection/asiimagetransformoperation/
 public IImageTransformOperation AsIImageTransformOperation { get; }
 ```
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IImageTransformOperation](../../iimagetransformoperation)
 * 接口 [IReflection](../../ireflection)

@@ -20,11 +20,11 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | 名称 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 返回效果的百分比值。可读写单精度浮点数。 |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | 允许获取基本的 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | 允许获取基本的 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 返回效果的百分比量。可读写 Single。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 接口 [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

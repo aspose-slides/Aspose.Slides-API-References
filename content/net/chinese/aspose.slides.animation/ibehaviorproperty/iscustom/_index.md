@@ -1,7 +1,7 @@
 ---
 title: IsCustom
-second_title: Aspose.Slides for .NET API 参考
-description: 显示此属性是否不属于规范中预定义属性列表：https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
+second_title: Aspose.Sildes for .NET API Reference
+description: 显示此属性是否不属于规范中预定义属性列表 https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
 type: docs
 weight: 10
 url: /zh/aspose.slides.animation/ibehaviorproperty/iscustom/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.animation/ibehaviorproperty/iscustom/
 
 ## IBehaviorProperty.IsCustom 属性
 
-显示此属性是否不属于规范中的预定义属性列表：https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
+显示此属性是否不属于规范中的预定义属性列表： https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx
 
 ```csharp
 public bool IsCustom { get; }
 ```
 
-### 另请参见
+### 另请参阅
 
 * 接口 [IBehaviorProperty](../../ibehaviorproperty)
 * 命名空间 [Aspose.Slides.Animation](../../ibehaviorproperty)

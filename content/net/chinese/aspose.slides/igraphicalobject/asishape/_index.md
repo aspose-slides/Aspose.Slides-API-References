@@ -1,7 +1,7 @@
 ---
 title: AsIShape
-second_title: Aspose.Sildes for .NET API 参考
-description: 允许获取基础 IShape 接口。只读 IShapeaspose.slides/ishape。
+second_title: Aspose.Slides for .NET API Reference
+description: 允许获取基础 IShape 接口。只读 IShape aspose.slides/ishape。
 type: docs
 weight: 10
 url: /zh/aspose.slides/igraphicalobject/asishape/

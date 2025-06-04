@@ -1,13 +1,13 @@
 ---
 title: Picture
-second_title: Справка по API Aspose.Slides для .NET
+second_title: Aspose.Slides для .NET API Справочник
 description: Возвращает изображение. Только для чтения IPictureEffectiveDataaspose.slides/ipictureeffectivedata.
 type: docs
 weight: 70
 url: /ru/aspose.slides/ipicturefillformateffectivedata/picture/
 ---
 
-## Свойство IPictureFillFormatEffectiveData.Picture
+## IPictureFillFormatEffectiveData.Picture свойство
 
 Возвращает изображение. Только для чтения [`IPictureEffectiveData`](../../ipictureeffectivedata).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ipicturefillformateffectivedata/picture/
 public IPictureEffectiveData Picture { get; }
 ```
 
-### Также см.
+### Также смотрите
 
 * интерфейс [IPictureEffectiveData](../../ipictureeffectivedata)
 * интерфейс [IPictureFillFormatEffectiveData](../../ipicturefillformateffectivedata)

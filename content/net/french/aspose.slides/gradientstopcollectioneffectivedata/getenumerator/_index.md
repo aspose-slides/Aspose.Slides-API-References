@@ -1,13 +1,13 @@
 ---
 title: GetEnumerator
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET Référence de l'API
 description: Renvoie un énumérateur qui itère à travers la collection.
 type: docs
 weight: 60
 url: /fr/aspose.slides/gradientstopcollectioneffectivedata/getenumerator/
 ---
 
-## Méthode GradientStopCollectionEffectiveData.GetEnumerator
+## GradientStopCollectionEffectiveData.GetEnumerator méthode
 
 Renvoie un énumérateur qui itère à travers la collection.
 

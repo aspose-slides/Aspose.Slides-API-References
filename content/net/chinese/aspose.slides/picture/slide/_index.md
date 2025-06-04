@@ -1,6 +1,6 @@
 ---
 title: Slide
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 返回图片的父幻灯片。只读 IBaseSlideaspose.slides/ibaseslide。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/picture/slide/
 public IBaseSlide Slide { get; }
 ```
 
-### 另见
+### 另请参见
 
 * 接口 [IBaseSlide](../../ibaseslide)
 * 类 [Picture](../../picture)

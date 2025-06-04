@@ -1,15 +1,15 @@
 ---
 title: PlotVisibleCellsOnly
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob nur die sichtbaren Zellen geplottet werden. Falsch, um sowohl sichtbare als auch versteckte Zellen zu plotten. Lese-/Schreib-Boolean.
+description: Bestimmt, ob nur die sichtbaren Zellen gezeichnet werden. False, um sowohl sichtbare als auch versteckte Zellen zu zeichnen. Lese-/Schreib-Booleans.
 type: docs
 weight: 170
 url: /de/aspose.slides.charts/ichart/plotvisiblecellsonly/
 ---
 
-## IChart.PlotVisibleCellsOnly Eigenschaft
+## IChart.PlotVisibleCellsOnly-Eigenschaft
 
-Bestimmt, ob nur die sichtbaren Zellen geplottet werden. Falsch, um sowohl sichtbare als auch versteckte Zellen zu plotten. Lese-/Schreib-Boolean.
+Bestimmt, ob nur die sichtbaren Zellen gezeichnet werden. False, um sowohl sichtbare als auch versteckte Zellen zu zeichnen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool PlotVisibleCellsOnly { get; set; }

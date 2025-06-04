@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForYPlusValues
-second_title: Aspose.Sildes для .NET API Reference
-description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YPlus точек данных для пользовательских значений ошибок. Другими словами, оно указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Чтение/запись DataSourceTypeaspose.slides/datasourcetype.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в точках данных объекта свойства YPlus для пользовательских значений полос ошибок. Другими словами, это указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Чтение/запись DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 40
 url: /ru/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasource
 
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYPlusValues property
 
-Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства YPlus точек данных для пользовательских значений ошибок. Другими словами, оно указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в точках данных объекта свойства YPlus для пользовательских значений полос ошибок. Другими словами, это указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Чтение/запись [`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForYPlusValues { get; set; }

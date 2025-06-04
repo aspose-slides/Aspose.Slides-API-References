@@ -1,7 +1,7 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Slides für .NET API Referenz
-description: Gibt die ImageTransformOperationFactory zurück. Nur-lesbare IImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory.
+description: Gibt ImageTransformOperationFactory zurück. Nur lesen IImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory.
 type: docs
 weight: 10
 url: /de/aspose.slides.effects/ieffectfactory/imagetransformoperationfactory/
@@ -9,13 +9,13 @@ url: /de/aspose.slides.effects/ieffectfactory/imagetransformoperationfactory/
 
 ## IEffectFactory.ImageTransformOperationFactory-Eigenschaft
 
-Gibt die ImageTransformOperationFactory zurück. Nur-lesbare [`IImageTransformOperationFactory`](../../iimagetransformoperationfactory).
+Gibt ImageTransformOperationFactory zurück. Nur lesen [`IImageTransformOperationFactory`](../../iimagetransformoperationfactory).
 
 ```csharp
 public IImageTransformOperationFactory ImageTransformOperationFactory { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IImageTransformOperationFactory](../../iimagetransformoperationfactory)
 * Schnittstelle [IEffectFactory](../../ieffectfactory)

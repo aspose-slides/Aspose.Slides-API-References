@@ -1,6 +1,6 @@
 ---
 title: SyncRoot
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Renvoie une racine de synchronisation. Objet en lecture seule.
 type: docs
 weight: 40
@@ -17,7 +17,7 @@ public object SyncRoot { get; }
 
 ### Voir aussi
 
-* classe [SmartArtShapeCollection](../../smartartshapecollection)
+* class [SmartArtShapeCollection](../../smartartshapecollection)
 * namespace [Aspose.Slides.SmartArt](../../smartartshapecollection)
 * assembly [Aspose.Slides](../../../)
 

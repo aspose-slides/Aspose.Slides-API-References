@@ -1,7 +1,7 @@
 ---
 title: NotesText
-second_title: Aspose.Slides for .NET API 参考
-description: 此幻灯片的备忘录页面形状上的文本
+second_title: Aspose.Sildes for .NET API Reference
+description: 此幻灯片的备注页形状上的文本
 type: docs
 weight: 40
 url: /zh/aspose.slides/islidetext/notestext/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides/islidetext/notestext/
 
 ## ISlideText.NotesText 属性
 
-此幻灯片的备忘录页面形状上的文本
+此幻灯片的备注页形状上的文本
 
 ```csharp
 public string NotesText { get; }
 ```
 
-### 另请参见
+### 另见
 
 * 接口 [ISlideText](../../islidetext)
 * 命名空间 [Aspose.Slides](../../islidetext)

@@ -1,15 +1,15 @@
 ---
 title: ScaleHorizontal
 second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie le facteur d'échelle horizontal, une mise à l'échelle négative provoque un retournement. pourcentages En lecture seule Double.
+description: Spécifie le facteur d'échelle horizontal, un scaling négatif provoque un retournement. pourcentages Lecture seule Double.
 type: docs
 weight: 100
 url: /fr/aspose.slides.effects/ireflectioneffectivedata/scalehorizontal/
 ---
 
-## Propriété IReflectionEffectiveData.ScaleHorizontal
+## IReflectionEffectiveData.ScaleHorizontal property
 
-Spécifie le facteur d'échelle horizontal, une mise à l'échelle négative provoque un retournement. (pourcentages) En lecture seule Double.
+Spécifie le facteur d'échelle horizontal, un scaling négatif provoque un retournement. (pourcentages) Lecture seule Double.
 
 ```csharp
 public double ScaleHorizontal { get; }

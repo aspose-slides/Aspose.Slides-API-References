@@ -1,6 +1,6 @@
 ---
 title: HasSeriesTrendLines
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Gibt zurück, ob es für den angegebenen Serientyp Trendlinien gibt.
 type: docs
 weight: 10
@@ -15,9 +15,9 @@ Gibt zurück, ob es für den angegebenen Serientyp Trendlinien gibt.
 public static bool HasSeriesTrendLines(ChartType seriesType)
 ```
 
-| Parameter   | Typ        | Beschreibung          |
-|-------------|------------|-----------------------|
-| seriesType  | ChartType  | Serientyp.            |
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| seriesType | ChartType | Serientyp. |
 
 ### Rückgabewert
 

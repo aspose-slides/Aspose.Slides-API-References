@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsYFormat
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt ErrorBars von Serien mit der Richtung Y dar. ErrorBars mit Y-Richtung sind für Serien vom Typ Fläche, Balken, Linie, Streuung und Blase verfügbar. Für alle anderen Diagrammtypen gibt diese Eigenschaft null zurück, einschließlich 3D-Diagrammen. Bei benutzerdefinierten Werten verwenden Sie die DataPoints-Sammlung, um den Wert über die Eigenschaft ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues festzulegen. Nur lesbare IErrorBarsFormataspose.slides.charts/ierrorbarsformat.
+description: Stellt die ErrorBars von Serien mit der Richtung Y dar. ErrorBars mit Y-Richtung sind für Serien vom Typ Bereich, Balken, Linie, Streuung und Blase verfügbar. Für alle anderen Diagrammtypen gibt diese Eigenschaft null zurück einschließlich 3D-Diagrammen. Im Falle von benutzerdefinierten Werten verwenden Sie die DataPoints-Sammlung, um den Wert mit der Eigenschaft ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues anzugeben. Nur lesbar IErrorBarsFormataspose.slides.charts/ierrorbarsformat.
 type: docs
 weight: 80
 url: /de/aspose.slides.charts/chartseries/errorbarsyformat/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/chartseries/errorbarsyformat/
 
 ## ChartSeries.ErrorBarsYFormat-Eigenschaft
 
-Stellt ErrorBars von Serien mit der Richtung Y dar. ErrorBars mit Y-Richtung sind für Serien vom Typ Fläche, Balken, Linie, Streuung und Blase verfügbar. Für alle anderen Diagrammtypen gibt diese Eigenschaft null zurück (einschließlich 3D-Diagrammen). Bei benutzerdefinierten Werten verwenden Sie die DataPoints-Sammlung, um den Wert festzulegen (mit der [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)-Eigenschaft). Nur lesbar [`IErrorBarsFormat`](../../ierrorbarsformat).
+Stellt die ErrorBars von Serien mit der Richtung Y dar. ErrorBars mit Y-Richtung sind für Serien vom Typ Bereich, Balken, Linie, Streuung und Blase verfügbar. Für alle anderen Diagrammtypen gibt diese Eigenschaft null zurück (einschließlich 3D-Diagrammen). Im Falle von benutzerdefinierten Werten verwenden Sie die DataPoints-Sammlung, um den Wert (mit der [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) Eigenschaft) anzugeben. Nur lesbar [`IErrorBarsFormat`](../../ierrorbarsformat).
 
 ```csharp
 public IErrorBarsFormat ErrorBarsYFormat { get; }

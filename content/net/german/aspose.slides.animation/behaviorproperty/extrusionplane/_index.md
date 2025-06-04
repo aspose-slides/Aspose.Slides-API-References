@@ -1,7 +1,7 @@
 ---
 title: ExtrusionPlane
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt die Eigenschaft extrusion.plane dar
+description: Stellt die extrusion.plane-Eigenschaft dar
 type: docs
 weight: 120
 url: /de/aspose.slides.animation/behaviorproperty/extrusionplane/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.animation/behaviorproperty/extrusionplane/
 
 ## BehaviorProperty.ExtrusionPlane-Eigenschaft
 
-Stellt die Eigenschaft 'extrusion.plane' dar
+Stellt die 'extrusion.plane'-Eigenschaft dar
 
 ```csharp
 public static BehaviorProperty ExtrusionPlane { get; }

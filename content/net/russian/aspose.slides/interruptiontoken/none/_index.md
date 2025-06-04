@@ -1,21 +1,21 @@
 ---
 title: None
-second_title: Справочник API Aspose.Slides для .NET
-description: Представляет собой пустой токен прерывания. Долгие операции никогда не будут прерваны через Interruptaspose.slides/interruptiontokensource/interrupt при использовании этого токена.
+second_title: Aspose.Slides для .NET API Справочник
+description: Представляет пустой токен прерывания. Долгосрочные операции никогда не будут прерваны через Interruptaspose.slides/interruptiontokensource/interrupt при использовании этого токена.
 type: docs
 weight: 10
 url: /ru/aspose.slides/interruptiontoken/none/
 ---
 
-## Свойство InterruptionToken.None
+## InterruptionToken.None свойство
 
-Представляет собой пустой токен прерывания. Долгие операции никогда не будут прерваны через [`Interrupt`](../../interruptiontokensource/interrupt) при использовании этого токена.
+Представляет пустой токен прерывания. Долгосрочные операции никогда не будут прерваны через [`Interrupt`](../../interruptiontokensource/interrupt) при использовании этого токена.
 
 ```csharp
 public static InterruptionToken None { get; }
 ```
 
-### См. также
+### См. Также
 
 * класс [InterruptionToken](../../interruptiontoken)
 * пространство имен [Aspose.Slides](../../interruptiontoken)

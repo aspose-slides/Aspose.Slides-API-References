@@ -1,7 +1,7 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Slides für .NET API Referenz
-description: Verbindet Absätze mit derselben Formatierung in allen Absätzen in allen akzeptablen Formen in allen Folien.
+description: Verbindet Abschnitte mit derselben Formatierung in allen Absätzen in allen akzeptablen Formen in allen Folien.
 type: docs
 weight: 340
 url: /de/aspose.slides/ipresentation/joinportionswithsameformatting/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentation/joinportionswithsameformatting/
 
 ## IPresentation.JoinPortionsWithSameFormatting Methode
 
-Verbindet Absätze mit derselben Formatierung in allen Absätzen in allen akzeptablen Formen in allen Folien.
+Verbindet Abschnitte mit derselben Formatierung in allen Absätzen in allen akzeptablen Formen in allen Folien.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

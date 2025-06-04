@@ -1,7 +1,7 @@
 ---
 title: Effect
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die für eine Diagrammlinie verwendeten Effekte zurück. Nur Lesezugriff auf IEffectFormataspose.slides/ieffectformat.
+description: Gibt Effekte zurück, die für eine Diagrammlinie verwendet werden. Nur-Lese IEffectFormataspose.slides/../aspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /de/aspose.slides.charts/ichartlinesformat/effect/
@@ -9,7 +9,7 @@ url: /de/aspose.slides.charts/ichartlinesformat/effect/
 
 ## IChartLinesFormat.Effect-Eigenschaft
 
-Gibt die für eine Diagrammlinie verwendeten Effekte zurück. Nur Lesezugriff auf [`IEffectFormat`](../../../aspose.slides/ieffectformat).
+Gibt Effekte zurück, die für eine Diagrammlinie verwendet werden. Nur-Lese [`IEffectFormat`](../../../aspose.slides/ieffectformat).
 
 ```csharp
 public IEffectFormat Effect { get; }

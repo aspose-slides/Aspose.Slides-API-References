@@ -15,7 +15,7 @@ Renvoie la cellule aux index de colonne et de ligne spécifiés. Lecture seule [
 public ICell this[int columnIndex, int rowIndex] { get; }
 ```
 
-### Voir aussi
+### Voir Également
 
 * interface [ICell](../../icell)
 * interface [ITable](../../itable)

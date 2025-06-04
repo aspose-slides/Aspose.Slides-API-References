@@ -1,15 +1,15 @@
 ---
 title: Run
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Exécuter la génération d'événements d'animation pour chaque diapositive.
+second_title: Référence API Aspose.Slides pour .NET
+description: Exécute la génération d'événements d'animation pour chaque diapositive.
 type: docs
 weight: 80
 url: /fr/aspose.slides.export/presentationanimationsgenerator/run/
 ---
 
-## Exécuter(IEnumerable&lt;ISlide&gt;) {#run}
+## Run(IEnumerable&lt;ISlide&gt;) {#run}
 
-Exécuter la génération d'événements d'animation pour chaque diapositive.
+Exécute la génération d'événements d'animation pour chaque diapositive.
 
 ```csharp
 public void Run(IEnumerable<ISlide> slides)
@@ -31,7 +31,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
         
         player.FrameTick += (sender, args) =>
         {
-            // gérer le tick de cadre dans la nouvelle animation
+            // gérer le tick de frame dans la nouvelle animation
         };
         
         animationsGenerator.Run(presentation.Slides);
@@ -42,15 +42,15 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 ### Voir aussi
 
 * interface [ISlide](../../../aspose.slides/islide)
-* class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
+* classe [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)
 * assembly [Aspose.Slides](../../../)
 
 ---
 
-## Exécuter(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) {#run_1}
+## Run(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) {#run_1}
 
-Exécuter la génération d'événements d'animation pour chaque diapositive.
+Exécute la génération d'événements d'animation pour chaque diapositive.
 
 ```csharp
 public void Run(IEnumerable<ISlide> slides, int fps, FrameTickHandler onFrame)
@@ -78,8 +78,8 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 ### Voir aussi
 
 * interface [ISlide](../../../aspose.slides/islide)
-* delegate [FrameTickHandler](../../presentationplayer.frametickhandler)
-* class [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
+* délégué [FrameTickHandler](../../presentationplayer.frametickhandler)
+* classe [PresentationAnimationsGenerator](../../presentationanimationsgenerator)
 * namespace [Aspose.Slides.Export](../../presentationanimationsgenerator)
 * assembly [Aspose.Slides](../../../)
 

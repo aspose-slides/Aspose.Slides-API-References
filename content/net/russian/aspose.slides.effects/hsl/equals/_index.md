@@ -1,13 +1,13 @@
 ---
 title: Equals
-second_title: Справочник по API Aspose.Sildes для .NET
+second_title: Aspose.Sildes для .NET API Reference
 description: Определяет, равен ли указанный HSLaspose.slides.effects/hsl текущему HSLaspose.slides.effects/hsl.
 type: docs
 weight: 10
 url: /ru/aspose.slides.effects/hsl/equals/
 ---
 
-## Метод HSL.Equals
+## HSL.Equals метод
 
 Определяет, равен ли указанный [`HSL`](../../hsl) текущему [`HSL`](../../hsl).
 
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`HSL`](../../hsl) для сравнения. |
+| obj | Object | [`HSL`](../../hsl), который нужно сравнить. |
 
-### Значение Возврата
+### Возвращаемое значение
 
 true, если объекты равны; в противном случае false.
 
-### См. также
+### Смотрите также
 
 * класс [HSL](../../hsl)
 * пространство имен [Aspose.Slides.Effects](../../hsl)

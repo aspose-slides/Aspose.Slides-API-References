@@ -1,7 +1,7 @@
 ---
 title: GetTile
-second_title: Référence API d'Aspose.Slides pour .NET
-description: Crée une image de carrelage pour le remplissage de motif avec des couleurs spécifiées.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Crée une image de carreau pour le remplissage de motifs avec des couleurs spécifiées.
 type: docs
 weight: 40
 url: /fr/aspose.slides/patternformat/gettile/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/patternformat/gettile/
 
 ## GetTile(Color, Color) {#gettile_1}
 
-Crée une image de carrelage pour le remplissage de motif avec des couleurs spécifiées.
+Crée une image de carreau pour le remplissage de motifs avec des couleurs spécifiées.
 
 ```csharp
 public IImage GetTile(Color background, Color foreground)
@@ -20,11 +20,11 @@ public IImage GetTile(Color background, Color foreground)
 | background | Color | La couleur de fond pour le motif. |
 | foreground | Color | La couleur de premier plan pour le motif. |
 
-### Valeur de Retour
+### Valeur de retour
 
-Carrelage [`IImage`](../../iimage).
+Carreau [`IImage`](../../iimage).
 
-### Voir Egalement
+### Voir aussi
 
 * interface [IImage](../../iimage)
 * class [PatternFormat](../../patternformat)
@@ -35,7 +35,7 @@ Carrelage [`IImage`](../../iimage).
 
 ## GetTile(Color) {#gettile}
 
-Crée une image de carrelage pour le remplissage de motif.
+Crée une image de carreau pour le remplissage de motifs.
 
 ```csharp
 public IImage GetTile(Color styleColor)
@@ -45,11 +45,11 @@ public IImage GetTile(Color styleColor)
 | --- | --- | --- |
 | styleColor | Color | La couleur par défaut |
 
-### Valeur de Retour
+### Valeur de retour
 
-Carrelage [`IImage`](../../iimage).
+Carreau [`IImage`](../../iimage).
 
-### Voir Egalement
+### Voir aussi
 
 * interface [IImage](../../iimage)
 * class [PatternFormat](../../patternformat)

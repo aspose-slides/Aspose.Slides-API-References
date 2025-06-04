@@ -15,7 +15,7 @@ Determina si un gráfico tiene un título visible. Booleano de lectura/escritura
 public bool HasTitle { get; set; }
 ```
 
-### Ver También
+### Véase también
 
 * clase [Chart](../../chart)
 * espacio de nombres [Aspose.Slides.Charts](../../chart)

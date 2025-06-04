@@ -1,6 +1,6 @@
 ---
 title: StylePreset
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Obtient ou définit le style de tableau intégré. Lecture/écriture TableStylePresetaspose.slides/tablestylepreset.
 type: docs
 weight: 120
@@ -15,7 +15,7 @@ Obtient ou définit le style de tableau intégré. Lecture/écriture [`TableStyl
 public TableStylePreset StylePreset { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [TableStylePreset](../../tablestylepreset)
 * interface [ITable](../../itable)

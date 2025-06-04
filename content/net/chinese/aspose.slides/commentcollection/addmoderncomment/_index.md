@@ -1,7 +1,7 @@
 ---
 title: AddModernComment
-second_title: Aspose.Slides for .NET API 参考
-description: 在集合末尾添加新的现代评论。
+second_title: Aspose.Sildes for .NET API Reference
+description: 在集合的末尾添加新的现代评论。
 type: docs
 weight: 60
 url: /zh/aspose.slides/commentcollection/addmoderncomment/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/commentcollection/addmoderncomment/
 
 ## CommentCollection.AddModernComment 方法
 
-在集合末尾添加新的现代评论。
+在集合的末尾添加新的现代评论。
 
 ```csharp
 public IModernComment AddModernComment(string text, ISlide slide, IShape shape, PointF position, 
@@ -18,15 +18,15 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 新的现代评论的纯文本。 |
-| slide | ISlide | 要添加新现代评论的演示文稿中的幻灯片。 |
-| shape | IShape | 与新现代评论相关联的幻灯片上的形状。 |
-| position | PointF | 在幻灯片上添加新现代评论的位置。 |
+| text | String | 新的现代评论的普通文本。 |
+| slide | ISlide | 在演示文稿中添加新的现代评论的幻灯片。 |
+| shape | IShape | 与新的现代评论相关联的幻灯片上的形状。 |
+| position | PointF | 在幻灯片上添加新的现代评论的位置。 |
 | creationTime | DateTime | 现代评论创建的时间。 |
 
 ### 返回值
 
-已添加的现代评论。
+添加的现代评论。
 
 ### 示例
 
@@ -34,14 +34,14 @@ public IModernComment AddModernComment(string text, ISlide slide, IShape shape, 
 [C#]
 using (Presentation pres = new Presentation())
 {
-    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("某个作者", "SA");
-    newAuthor.Comments.AddModernComment("这是现代评论", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
+    ICommentAuthor newAuthor = pres.CommentAuthors.AddAuthor("Some Author", "SA");
+    newAuthor.Comments.AddModernComment("This is modern comment", pres.Slides[0], null, new PointF(100, 100), DateTime.Now);
 
     pres.Save(outPptxFileName, SaveFormat.Pptx);
 }
 ```
 
-### 另请参阅
+### 另见
 
 * 接口 [IModernComment](../../imoderncomment)
 * 接口 [ISlide](../../islide)

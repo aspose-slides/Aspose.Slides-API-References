@@ -1,7 +1,7 @@
 ---
 title: ViewProperties
-second_title: Справка по API Aspose.Slides для .NET
-description: Свойства представления для всей презентации.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Широкие свойства представления презентации.
 type: docs
 weight: 11430
 url: /ru/aspose.slides/viewproperties/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/viewproperties/
 
 ## Класс ViewProperties
 
-Свойства представления для всей презентации.
+Широкие свойства представления презентации.
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -17,16 +17,16 @@ public class ViewProperties : IViewProperties
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Возвращает или задает расстояние сетки, которое должно использоваться для сетки, лежащей в основе документа презентации, в пунктах. Чтение/запись Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Указывает режим представления, который использовался при последнем сохранении документа презентации. Чтение/запись [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Представляет свойства нормального представления. Нормальное представление состоит из трех областей содержимого: самой слайды, боковой области содержимого и нижней области содержимого. Только для чтения [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом представления заметок. Только для чтения [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Указывает, должны ли отображаться комментарии к слайду. Чтение/запись [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом представления слайда. Только для чтения [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Возвращает или задает расстояние между ячейками сетки, которое должно использоваться для сетки под документом презентации, в пунктах. Чтение/запись Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Указывает режим просмотра, который использовался при последнем сохранении документа презентации. Чтение/запись [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Представляет свойства нормального представления. Нормальное представление состоит из трех областей содержимого: слайда, боковой области содержимого и нижней области содержимого. Только для чтения [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом просмотра заметок. Только для чтения [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Указывает, должны ли отображаться комментарии к слайдам. Чтение/запись [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Указывает общие свойства представления, связанные с режимом просмотра слайда. Только для чтения [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### См. также
+### Смотри также
 
 * интерфейс [IViewProperties](../iviewproperties)
 * пространство имен [Aspose.Slides](../../aspose.slides)

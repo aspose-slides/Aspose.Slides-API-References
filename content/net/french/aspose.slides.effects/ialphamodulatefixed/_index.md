@@ -20,7 +20,7 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | Nom | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Renvoie un montant d'effet en pourcentages. Lecture/écriture Single. |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Renvoie un montant de l'effet en pourcentages. Lecture/écriture Single. |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Permet d'obtenir l'interface de base IAccessiblePVIObject. Lecture seule [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Permet d'obtenir l'interface de base IImageTransformOperation. Lecture seule [`IImageTransformOperation`](../iimagetransformoperation). |
 

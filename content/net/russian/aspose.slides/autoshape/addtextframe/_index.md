@@ -1,7 +1,7 @@
 ---
 title: AddTextFrame
-second_title: Aspose.Slides для .NET API Справочник
-description: Добавляет новый TextFrame к форме. Если форма уже имеет TextFrame, то просто изменяет его текст.
+second_title: Aspose.Sildes для .NET API Справка
+description: Добавляет новый TextFrame к фигуре. Если у фигуры уже есть TextFrame, просто изменяет его текст.
 type: docs
 weight: 60
 url: /ru/aspose.slides/autoshape/addtextframe/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/autoshape/addtextframe/
 
 ## AutoShape.AddTextFrame метод
 
-Добавляет новый TextFrame к форме. Если форма уже имеет TextFrame, то просто изменяет его текст.
+Добавляет новый TextFrame к фигуре. Если у фигуры уже есть TextFrame, просто изменяет его текст.
 
 ```csharp
 public ITextFrame AddTextFrame(string text)
@@ -17,11 +17,11 @@ public ITextFrame AddTextFrame(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Значение текста по умолчанию для нового TextFrame. |
+| text | String | Текст по умолчанию для нового TextFrame. |
 
 ### Примеры
 
-Следующий пример кода показывает, как добавить текст водяного знака в презентацию PowerPoint.
+Следующий пример кода показывает, как добавить текст водяного знака в презентации PowerPoint.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ public ITextFrame AddTextFrame(string text)
 
 ```csharp
 [C#]
-// Инициализирует презентацию
+// Создает экземпляр Presentation
 using (Presentation pres = new Presentation())
 {
     // Получает первый слайд в презентации
@@ -48,9 +48,9 @@ using (Presentation pres = new Presentation())
     ashp.AddTextFrame(" ");
     // Получает текстовый фрейм
     ITextFrame txtFrame = ashp.TextFrame;
-    // Создает объект Параграфа для текстового фрейма
+    // Создает объект Paragraph для текстового фрейма
     IParagraph para = txtFrame.Paragraphs[0];
-    // Создает объект Portion для параграфа
+    // Создает объект Portion для абзаца
     IPortion portion = para.Portions[0];
     // Устанавливает текст
     portion.Text = "Aspose TextBox";
@@ -59,7 +59,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Следующий пример показывает, как добавить столбец в текстовое поле.
+Следующий пример показывает, как добавить колонки в текстовое поле.
 
 ```csharp
 [C#]
@@ -70,21 +70,22 @@ using (Presentation presentation = new Presentation())
 	// Добавляет AutoShape с типом, установленным как Прямоугольник
 	IAutoShape aShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
 	// Добавляет TextFrame к Прямоугольнику
-	aShape.AddTextFrame("Все эти столбцы ограничены одним текстовым контейнером -- " +
-	"вы можете добавлять или удалять текст, и новый или оставшийся текст автоматически подстраивается " +
-	"под него. Однако текст не может течь из одного контейнера в другой -- мы говорили вам, что варианты столбцов в PowerPoint для текста ограничены!");
-	// Получает формат текста TextFrame
+	aShape.AddTextFrame("Все эти колонки ограничены быть в пределах одного текстового контейнера -- " +
+	"вы можете добавлять или удалять текст, и новый или оставшийся текст автоматически настраивается " +
+	"для того, чтобы вписаться в контейнер. Вы не можете сделать так, чтобы текст перетекал из одного контейнера " +
+	"в другой -- мы сказали вам, что варианты колонок PowerPoint для текста ограничены!");
+	// Получает текстовый формат TextFrame
 	ITextFrameFormat format = aShape.TextFrame.TextFrameFormat;
-	// Устанавливает количество столбцов в TextFrame
+	// Указывает количество колонок в TextFrame
 	format.ColumnCount = 3;
-	// Устанавливает расстояние между столбцами
+	// Указывает расстояние между колонками
 	format.ColumnSpacing = 10;
 	// Сохраняет презентацию
 	presentation.Save("ColumnCount.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Смотрите также
+### См. также
 
 * интерфейс [ITextFrame](../../itextframe)
 * класс [AutoShape](../../autoshape)

@@ -1,6 +1,6 @@
 ---
 title: IsReversed
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referencia de API
 description: Devuelve o establece el estado del diagrama SmartArt con respecto a izquierda a derecha LTR o derecha a izquierda RTL si el diagrama admite inversión. Booleano de lectura/escritura.
 type: docs
 weight: 40
@@ -15,7 +15,7 @@ Devuelve o establece el estado del diagrama SmartArt con respecto a (izquierda a
 public bool IsReversed { get; set; }
 ```
 
-### Véase También
+### Ver También
 
 * interfaz [ISmartArt](../../ismartart)
 * espacio de nombres [Aspose.Slides.SmartArt](../../ismartart)

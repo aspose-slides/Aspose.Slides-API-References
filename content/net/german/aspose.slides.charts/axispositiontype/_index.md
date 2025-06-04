@@ -1,6 +1,6 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API Referenz
 description: Bestimmt eine Position der Achse.
 type: docs
 weight: 1130
@@ -19,10 +19,10 @@ public enum AxisPositionType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Bottom | `0` | Gibt an, dass die Achse unten im Diagrammbereich angezeigt werden soll. |
-| Left | `1` | Gibt an, dass die Achse links im Diagrammbereich angezeigt werden soll. |
-| Right | `2` | Gibt an, dass die Achse rechts im Diagrammbereich angezeigt werden soll. |
-| Top | `3` | Gibt an, dass die Achse oben im Diagrammbereich angezeigt werden soll. |
+| Bottom | `0` | Gibt an, dass die Achse am unteren Rand des Zeichenbereichs angezeigt wird. |
+| Left | `1` | Gibt an, dass die Achse an der linken Seite des Zeichenbereichs angezeigt wird. |
+| Right | `2` | Gibt an, dass die Achse an der rechten Seite des Zeichenbereichs angezeigt wird. |
+| Top | `3` | Gibt an, dass die Achse am oberen Rand des Zeichenbereichs angezeigt wird. |
 
 ### Siehe Auch
 

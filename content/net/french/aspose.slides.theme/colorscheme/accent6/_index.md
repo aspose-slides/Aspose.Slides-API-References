@@ -1,7 +1,7 @@
 ---
 title: Accent6
-second_title: Référence API Aspose.Slides pour .NET
-description: Sixième couleur d'accent dans le schéma. Lecture seule IColorFormataspose.slides/icolorformat.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Sixième couleur d'accent dans le schéma. En lecture seule IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /fr/aspose.slides.theme/colorscheme/accent6/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.theme/colorscheme/accent6/
 
 ## Propriété ColorScheme.Accent6
 
-Sixième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
+Sixième couleur d'accent dans le schéma. En lecture seule [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent6 { get; }

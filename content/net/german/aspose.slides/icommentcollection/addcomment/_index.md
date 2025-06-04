@@ -20,11 +20,11 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 | text | String | Klartext eines neuen Kommentars. |
 | slide | ISlide | Folie in einer Präsentation, in der ein neuer Kommentar hinzugefügt werden soll. |
 | position | PointF | Position auf einer Folie, an der ein neuer Kommentar hinzugefügt werden soll. |
-| creationTime | DateTime | Zeitpunkt der Kommentarschaffung. |
+| creationTime | DateTime | Zeitpunkt der Kommentarschöpfung. |
 
 ### Rückgabewert
 
-Hinzugefügter Kommentar.
+Hinzufügter Kommentar.
 
 ### Siehe auch
 

@@ -1,13 +1,13 @@
 ---
 title: IsErrorBarsXAllowed
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour la documentation de l'API .NET
 description: Renvoie si les barres d'erreur X sont autorisées pour le type de série spécifié.
 type: docs
 weight: 160
 url: /fr/aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed/
 ---
 
-## Méthode ChartTypeCharacterizer.IsErrorBarsXAllowed
+## ChartTypeCharacterizer.IsErrorBarsXAllowed méthode
 
 Renvoie si les barres d'erreur X sont autorisées pour le type de série spécifié.
 
@@ -19,11 +19,11 @@ public static bool IsErrorBarsXAllowed(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Type de série. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Vrai si autorisé, sinon faux.
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

@@ -1,7 +1,7 @@
 ---
 title: IXpsOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 提供控制演示文稿如何保存为 XPS 格式的选项。
+description: 提供控制如何将演示文稿保存为 XPS 格式的选项。
 type: docs
 weight: 4030
 url: /zh/aspose.slides.export/ixpsoptions/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides.export/ixpsoptions/
 
 ## IXpsOptions 接口
 
-提供控制演示文稿如何保存为 XPS 格式的选项。
+提供控制如何将演示文稿保存为 XPS 格式的选项。
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -20,11 +20,11 @@ public interface IXpsOptions : ISaveOptions
 | 名称 | 描述 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。只读 [`ISaveOptions`](../isaveoptions)。 |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | 如果为 true，则在每张幻灯片周围绘制黑色框架。可读写布尔值。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | 如果为 true，则将演示文稿中使用的所有元文件转换为 PNG 图像。可读写布尔值。 |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏的幻灯片。默认值为 `false`。 |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | 为每个幻灯片绘制黑色框架。可读写布尔值。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | 将演示文稿中使用的所有元文件转换为 PNG 图像。可读写布尔值。 |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。默认为 `false`。 |
 
-### 另见
+### 参见
 
 * 接口 [ISaveOptions](../isaveoptions)
 * 命名空间 [Aspose.Slides.Export](../../aspose.slides.export)

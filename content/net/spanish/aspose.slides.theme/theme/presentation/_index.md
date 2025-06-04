@@ -1,7 +1,7 @@
 ---
 title: Presentation
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve la presentación principal. Solo lectura IPresentationaspose.slides/ipresentation.
+description: Devuelve la presentación principal. Solo lectura IPresentationaspose.slides/../aspose.slides/ipresentation.
 type: docs
 weight: 40
 url: /es/aspose.slides.theme/theme/presentation/
@@ -15,7 +15,7 @@ Devuelve la presentación principal. Solo lectura [`IPresentation`](../../../asp
 public IPresentation Presentation { get; }
 ```
 
-### Véase también
+### Vea También
 
 * interfaz [IPresentation](../../../aspose.slides/ipresentation)
 * clase [Theme](../../theme)

@@ -1,15 +1,15 @@
 ---
 title: CustomNumberFormat
-second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Obtient ou définit le format d'affichage personnalisé des nombres et des dates. Si la valeur est vide, la valeur PresetNumberFormat sera utilisée. Lecture/écriture de chaîne.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Obtient ou définit le format d'affichage personnalisé des nombres et des dates. Si la valeur est vide, la valeur PresetNumberFormat sera utilisée. Lecture/écriture String.
 type: docs
 weight: 30
 url: /fr/aspose.slides.charts/chartdatacell/customnumberformat/
 ---
 
-## Propriété ChartDataCell.CustomNumberFormat
+## ChartDataCell.CustomNumberFormat propriété
 
-Obtient ou définit le format d'affichage personnalisé des nombres et des dates. Si la valeur est vide, la valeur PresetNumberFormat sera utilisée. Lecture/écriture de chaîne.
+Obtient ou définit le format d'affichage personnalisé des nombres et des dates. Si la valeur est vide, la valeur PresetNumberFormat sera utilisée. Lecture/écriture String.
 
 ```csharp
 public string CustomNumberFormat { get; set; }
@@ -19,7 +19,7 @@ public string CustomNumberFormat { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lancée si la valeur est `null`. |
+| ArgumentNullException | Lancé si la valeur est `null`. |
 
 ### Voir aussi
 

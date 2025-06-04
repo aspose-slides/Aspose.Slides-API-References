@@ -1,13 +1,13 @@
 ---
 title: IParagraph
-second_title: Aspose.Slides для .NET API Reference
+second_title: Aspose.Sildes для .NET API Reference
 description: Представляет абзац текста.
 type: docs
 weight: 6360
 url: /ru/aspose.slides/iparagraph/
 ---
 
-## Интерфейс IParagraph
+## IParagraph интерфейс
 
 Представляет абзац текста.
 
@@ -17,23 +17,23 @@ public interface IParagraph : ISlideComponent
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Указывает свойства доли, которые будут использоваться, если после последней будет вставлена другая доля. |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Указывает свойства порции, которые будут использоваться, если после последней порции будет вставлена другая. |
 | [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Возвращает объект форматирования для этого абзаца. Только для чтения [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Возвращает коллекцию текстовых долей. Только для чтения [`IPortionCollection`](../iportioncollection). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | Возвращает коллекцию текстовых порций. Только для чтения [`IPortionCollection`](../iportioncollection). |
 | [Text](../../aspose.slides/iparagraph/text) { get; set; } | Получает или устанавливает простой текст абзаца. Чтение/запись String. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Получает количество строк в абзаце. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | Получает координаты прямоугольника, который ограничивает абзац. Прямоугольник включает все строки текста в абзаце, включая пустые. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Объединяет запуски с одинаковым форматированием. |
+| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Получить количество строк в абзаце. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | Получить координаты прямоугольника, ограничивающего абзац. Прямоугольник включает все строки текста в абзаце, включая пустые. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Объединяет пробеги с одинаковым форматированием. |
 
-### Смотрите также
+### См. Также
 
 * интерфейс [ISlideComponent](../islidecomponent)
 * пространство имен [Aspose.Slides](../../aspose.slides)

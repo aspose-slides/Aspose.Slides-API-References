@@ -1,6 +1,6 @@
 ---
 title: Add
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将新的字体替代规则添加到集合中
 type: docs
 weight: 20
@@ -19,7 +19,7 @@ public void Add(IFontSubstRule value)
 | --- | --- | --- |
 | value | IFontSubstRule | 字体替代规则 [`IFontSubstRule`](../../ifontsubstrule) |
 
-### 另请参阅
+### 另请参见
 
 * 接口 [IFontSubstRule](../../ifontsubstrule)
 * 接口 [IFontSubstRuleCollection](../../ifontsubstrulecollection)

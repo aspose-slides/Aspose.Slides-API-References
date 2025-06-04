@@ -1,13 +1,13 @@
 ---
 title: IndexOf
-second_title: Aspose.Slides pour .NET Référence API
+second_title: Aspose.Sildes pour la référence API .NET
 description: Détermine l'index d'un élément mathématique spécifique dans la collection.
 type: docs
 weight: 80
 url: /fr/aspose.slides.mathtext/imathelementcollection/indexof/
 ---
 
-## Méthode IMathElementCollection.IndexOf
+## IMathElementCollection.IndexOf méthode
 
 Détermine l'index d'un élément mathématique spécifique dans la collection.
 
@@ -19,13 +19,13 @@ public int IndexOf(IMathElement item)
 | --- | --- | --- |
 | item | IMathElement | L'élément à localiser dans la collection. |
 
-### Valeur de Retour
+### Valeur de retour
 
 L'index de *item* s'il est trouvé dans la collection ; sinon, -1.
 
 ### Exemples
 
-Exemple :
+Exemple:
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ collection.Add(new MathRadical(new MathematicalText("x"), new MathematicalText("
 int index = collection.IndexOf(plusElement);
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IMathElement](../../imathelement)
 * interface [IMathElementCollection](../../imathelementcollection)

@@ -1,7 +1,7 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
-second_title: Aspose.Slides for .NET API 参考
-description: 在启用项目符号时为有效段落缩进和 MarginLeft 设置默认非零移动，就像 PowerPoint 在启用段落项目符号/编号时所做的那样。如果禁用项目符号，则仅重置段落缩进和 MarginLeft，就像 PowerPoint 在禁用段落项目符号/编号时所做的那样。缩进移动是根据当前项目符号上下文应用的 - IBulletFormat.Type, .NumberedBulletStyle 和第一部分的 FontHeight。非零缩进移动应用于当前段落的有效缩进和 MarginLeft，使结果值成为本地值。
+second_title: Aspose.Slides for .NET API Reference
+description: 设置默认的非零偏移量，以便在启用项目符号时有效地调整段落的缩进和左边距，就像 PowerPoint 在其中启用段落项目符号/编号时所做的那样。如果禁用项目符号，则只需重置段落的缩进和左边距，就像 PowerPoint 在其中禁用段落项目符号/编号时所做的那样。缩进偏移量是根据当前项目符号上下文应用的 - IBulletFormat.Type, .NumberedBulletStyle 和第一部分的 FontHeight。非零的缩进偏移量应用于当前段落的有效缩进和左边距（使结果值成为局部值）。
 type: docs
 weight: 110
 url: /zh/aspose.slides/ibulletformat/applydefaultparagraphindentsshifts/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/ibulletformat/applydefaultparagraphindentsshifts/
 
 ## IBulletFormat.ApplyDefaultParagraphIndentsShifts 方法
 
-在启用项目符号时（就像 PowerPoint 在启用段落项目符号/编号时所做的那样）为有效段落缩进和 MarginLeft 设置默认非零移动。如果禁用项目符号，则仅重置段落缩进和 MarginLeft（就像 PowerPoint 在禁用段落项目符号/编号时所做的那样）。缩进移动是根据当前项目符号上下文应用的 - IBulletFormat.Type, .NumberedBulletStyle 和第一部分的 FontHeight。非零缩进移动应用于当前段落的有效缩进和 MarginLeft（使结果值成为本地值）。
+设置默认的非零偏移量，以便在启用项目符号时有效地调整段落的缩进和左边距（就像 PowerPoint 在其中启用段落项目符号/编号时所做的那样）。如果禁用项目符号，则只需重置段落的缩进和左边距（就像 PowerPoint 在其中禁用段落项目符号/编号时所做的那样）。缩进偏移量是根据当前项目符号上下文应用的 - IBulletFormat.Type, .NumberedBulletStyle 和第一部分的 FontHeight。非零的缩进偏移量应用于当前段落的有效缩进和左边距（使结果值成为局部值）。
 
 ```csharp
 public void ApplyDefaultParagraphIndentsShifts()
@@ -19,9 +19,9 @@ public void ApplyDefaultParagraphIndentsShifts()
 
 | 异常 | 条件 |
 | --- | --- |
-| InvalidOperationException | 调用此方法在以下情况下无效，并抛出 InvalidOperationException：如果父格式化对象不是段落（例如，调用 ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() 将抛出异常）；或者如果段落未添加到任何 ITextFrame.Paragraphs 集合中（请先添加它）； |
+| InvalidOperationException | 调用此方法在以下情况下无效，会抛出 InvalidOperationException：如果父格式化对象不是段落（例如，调用 ITextStyle.DefaultParagraphFormat.Bullet.ApplyDefaultParagraphIndentsShifts() 会抛出异常）；或者如果段落没有被添加到任何 ITextFrame.Paragraphs 集合中（请首先添加它）； |
 
-### 参见
+### 另见
 
 * 接口 [IBulletFormat](../../ibulletformat)
 * 命名空间 [Aspose.Slides](../../ibulletformat)

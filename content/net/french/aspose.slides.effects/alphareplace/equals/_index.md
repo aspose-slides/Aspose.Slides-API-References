@@ -1,7 +1,7 @@
 ---
 title: Equals
-second_title: Référence de l'API Aspose.Sildes pour .NET
-description: Détermine si le AlphaReplaceaspose.slides/alphareplace spécifié est égal au AlphaReplaceaspose.slides/alphareplace actuel.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Détermine si l'AlphaReplace spécifié est égal à l'AlphaReplace actuel.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/alphareplace/equals/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/alphareplace/equals/
 
 ## Méthode AlphaReplace.Equals
 
-Détermine si le [`AlphaReplace`](../../alphareplace) spécifié est égal au [`AlphaReplace`](../../alphareplace) actuel.
+Détermine si l'[`AlphaReplace`](../../alphareplace) spécifié est égal à l'[`AlphaReplace`](../../alphareplace) actuel.
 
 ```csharp
 public override bool Equals(object obj)
@@ -17,13 +17,13 @@ public override bool Equals(object obj)
 
 | Paramètre | Type | Description |
 | --- | --- | --- |
-| obj | Object | Le [`AlphaReplace`](../../alphareplace) à comparer. |
+| obj | Object | L'[`AlphaReplace`](../../alphareplace) à comparer. |
 
-### Valeur de Retour
+### Valeur de retour
 
 true si les objets sont égaux ; sinon, false.
 
-### Voir Aussi
+### Voir aussi
 
 * classe [AlphaReplace](../../alphareplace)
 * espace de noms [Aspose.Slides.Effects](../../alphareplace)

@@ -1,25 +1,25 @@
 ---
 title: PortionFormat
-second_title: Referencia de API de Aspose.Slides para .NET
-description: FormatoPorción. Solo lectura IChartPortionFormataspose.slides.charts/ichartportionformat.
+second_title: Aspose.Slides para .NET Referencia de API
+description: PortionFormat. Solo lectura IChartPortionFormataspose.slides.charts/ichartportionformat.
 type: docs
 weight: 20
 url: /es/aspose.slides.charts/charttextformat/portionformat/
 ---
 
-## Propiedad ChartTextFormat.FormatoPorción
+## Propiedad ChartTextFormat.PortionFormat
 
-FormatoPorción. Solo lectura [`IChartPortionFormat`](../../ichartportionformat).
+PortionFormat. Solo lectura [`IChartPortionFormat`](../../ichartportionformat).
 
 ```csharp
 public IChartPortionFormat PortionFormat { get; }
 ```
 
-### Véase También
+### Ver también
 
 * interfaz [IChartPortionFormat](../../ichartportionformat)
 * clase [ChartTextFormat](../../charttextformat)
 * espacio de nombres [Aspose.Slides.Charts](../../charttextformat)
 * ensamblado [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITE: generado por xmldocmd para Aspose.Slides.dll -->

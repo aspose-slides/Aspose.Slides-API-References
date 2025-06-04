@@ -1,13 +1,13 @@
 ---
 title: ScaleHorizontal
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Especifica el factor de escala horizontal, la escala negativa causa un giro. porcentajes Solo lectura Doble.
 type: docs
 weight: 100
 url: /es/aspose.slides.effects/ireflectioneffectivedata/scalehorizontal/
 ---
 
-## Propiedad IReflectionEffectiveData.ScaleHorizontal
+## IReflectionEffectiveData.ScaleHorizontal property
 
 Especifica el factor de escala horizontal, la escala negativa causa un giro. (porcentajes) Solo lectura Doble.
 
@@ -15,7 +15,7 @@ Especifica el factor de escala horizontal, la escala negativa causa un giro. (po
 public double ScaleHorizontal { get; }
 ```
 
-### Véase también
+### Ver También
 
 * interfaz [IReflectionEffectiveData](../../ireflectioneffectivedata)
 * espacio de nombres [Aspose.Slides.Effects](../../ireflectioneffectivedata)

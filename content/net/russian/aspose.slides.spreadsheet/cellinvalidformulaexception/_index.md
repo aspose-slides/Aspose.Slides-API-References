@@ -1,7 +1,7 @@
 ---
 title: CellInvalidFormulaException
-second_title: Aspose.Sildes для справки по .NET API
-description: Исключение, которое выбрасывается, когда вычисленная формула некорректна или не была разобрана.
+second_title: Aspose.Sildes для .NET API Reference
+description: Исключение, которое возникает, когда вычисляемая формула неверна или не была разобрана.
 type: docs
 weight: 10400
 url: /ru/aspose.slides.spreadsheet/cellinvalidformulaexception/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides.spreadsheet/cellinvalidformulaexception/
 
 ## Класс CellInvalidFormulaException
 
-Исключение, которое выбрасывается, когда вычисленная формула некорректна или не была разобрана.
+Исключение, которое возникает, когда вычисляемая формула неверна или не была разобрана.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -20,17 +20,17 @@ public class CellInvalidFormulaException : PptxEditException
 | Название | Описание |
 | --- | --- |
 | [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception) с указанным сообщением об ошибке. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception) с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception) с указанным сообщением об ошибке и ссылкой на ячейку, которая содержит некорректную формулу. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception) с заданным сообщением об ошибке. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception) с заданным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса [`CellInvalidFormulaException`](../cellinvalidformulaexception) с заданным сообщением об ошибке и ссылкой на ячейку, содержащую неверную формулу. |
 
 ## Свойства
 
 | Название | Описание |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Получает ссылку на ячейку, которая содержит некорректную формулу. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Получает ссылку на ячейку, содержащую неверную формулу. |
 
-### Также посмотрите
+### См. также
 
 * класс [PptxEditException](../../aspose.slides/pptxeditexception)
 * пространство имен [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

@@ -1,7 +1,7 @@
 ---
 title: Amount
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie un montant d'effet en pourcentages. Lecteur/Écrivain Single.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie un montant d'effet en pourcentages. Lecture/écriture Single.
 type: docs
 weight: 10
 url: /fr/aspose.slides.effects/ialphamodulatefixed/amount/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.effects/ialphamodulatefixed/amount/
 
 ## Propriété IAlphaModulateFixed.Amount
 
-Renvoie un montant d'effet en pourcentages. Lecteur/Écrivain Single.
+Renvoie un montant d'effet en pourcentages. Lecture/écriture Single.
 
 ```csharp
 public float Amount { get; set; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * interface [IAlphaModulateFixed](../../ialphamodulatefixed)
 * namespace [Aspose.Slides.Effects](../../ialphamodulatefixed)

@@ -1,15 +1,15 @@
 ---
 title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Si la catégorie existe dans la collection, la retourner. Sinon, créer une nouvelle catégorie de graphique à partir de IChartDataCellaspose.slides.charts/ichartdatacell et l'ajouter à la collection.
+description: Si la catégorie existe dans la collection, la renvoyer. Sinon, crée une nouvelle catégorie de graphique à partir de IChartDataCellaspose.slides.charts/ichartdatacell et l'ajoute à la collection.
 type: docs
 weight: 70
 url: /fr/aspose.slides.charts/chartcategorycollection/add/
 ---
 
-## Ajouter(IChartDataCell) {#add}
+## Add(IChartDataCell) {#add}
 
-Si la catégorie existe dans la collection, la retourner. Sinon, créer une nouvelle catégorie de graphique à partir de [`IChartDataCell`](../../ichartdatacell) et l'ajouter à la collection.
+Si la catégorie existe dans la collection, la renvoyer. Sinon, crée une nouvelle catégorie de graphique à partir de [`IChartDataCell`](../../ichartdatacell) et l'ajoute à la collection.
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -19,11 +19,11 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 | --- | --- | --- |
 | chartDataCell | IChartDataCell | Cellule utilisée pour créer la catégorie de graphique. |
 
-### Valeur de retour
+### Valeur de Retour
 
 Catégorie ajoutée ou existante.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategory](../../ichartcategory)
 * interface [IChartDataCell](../../ichartdatacell)
@@ -33,7 +33,7 @@ Catégorie ajoutée ou existante.
 
 ---
 
-## Ajouter(object) {#add_1}
+## Add(object) {#add_1}
 
 Crée une nouvelle [`ChartCategory`](../../chartcategory) à partir de la valeur et l'ajoute à la collection.
 
@@ -45,21 +45,21 @@ public IChartCategory Add(object value)
 | --- | --- | --- |
 | value | Object | La valeur. |
 
-### Valeur de retour
+### Valeur de Retour
 
-[`IChartCategory`](../../ichartcategory) ajouté.
+[`IChartCategory`](../../ichartcategory) ajoutée.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | si la limite dépassée |
+| InvalidOperationException | si la limite est dépassée |
 
 ### Remarques
 
-Cette méthode ajoute une feuille de calcul avec le nom AUTO_DATA et y ajoute toutes les valeurs. Si vous utilisez [`ChartDataWorkbook`](../../chartdataworkbook) pour ajouter ou modifier des valeurs de cellules, assurez-vous de ne pas utiliser cette feuille de calcul. Le nombre maximum de valeurs ajoutées en utilisant cette méthode ne doit pas dépasser 16711680.
+Cette méthode ajoute une feuille de calcul nommée AUTO_DATA et y ajoute toutes les valeurs. Si vous utilisez [`ChartDataWorkbook`](../../chartdataworkbook) pour ajouter ou modifier des valeurs de cellules, assurez-vous de ne pas utiliser cette feuille de calcul. Le nombre maximum de valeurs ajoutées à l'aide de cette méthode ne doit pas dépasser 16711680.
 
-### Voir aussi
+### Voir Aussi
 
 * interface [IChartCategory](../../ichartcategory)
 * class [ChartCategoryCollection](../../chartcategorycollection)

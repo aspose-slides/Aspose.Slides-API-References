@@ -17,9 +17,9 @@ public IColumn FirstColumn { get; }
 
 ### Ver También
 
-* interfaz [IColumn](../../icolumn)
-* clase [Cell](../../cell)
-* espacio de nombres [Aspose.Slides](../../cell)
-* ensamblado [Aspose.Slides](../../../)
+* interfaz [IColumn](../../icolumn)
+* clase [Cell](../../cell)
+* espacio de nombres [Aspose.Slides](../../cell)
+* ensamblado [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

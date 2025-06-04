@@ -1,21 +1,21 @@
 ---
 title: IsChartTypeBar
-second_title: Référence API Aspose.Slides pour .NET
-description: Retourne vrai si chartType est l'un des sous-types Bar. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint  ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Retourne vrai si chartType est l'un des sous-types de Bar. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint, voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint  ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
 type: docs
 weight: 60
 url: /fr/aspose.slides.charts/charttypecharacterizer/ischarttypebar/
 ---
 
-## Méthode ChartTypeCharacterizer.IsChartTypeBar
+## ChartTypeCharacterizer.IsChartTypeBar method
 
-Retourne vrai si chartType est l'un des sous-types Bar. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Changer le type de graphique" dans PowerPoint) : ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+Retourne vrai si chartType est l'un des sous-types de Bar. L'ensemble des sous-types correspond à l'ensemble approprié dans PowerPoint (voir la boîte de dialogue "Modifier le type de graphique" dans PowerPoint) : ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
 
 ```csharp
 public static bool IsChartTypeBar(ChartType chartType)
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [ChartType](../../charttype)
 * class [ChartTypeCharacterizer](../../charttypecharacterizer)

@@ -1,15 +1,15 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes для .NET API Reference
-description: Представляет свойства для формата эскиза линий.
+second_title: Aspose.Sildes для .NET API Справочник
+description: Представляет свойства для формата набросков линий.
 type: docs
 weight: 9640
 url: /ru/aspose.slides/sketchformat/
 ---
 
-## Класс SketchFormat
+## SketchFormat class
 
-Представляет свойства для формата эскиза линий.
+Представляет свойства для формата набросков линий.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -17,19 +17,19 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Возвращает или задает тип эскиза. Чтение/запись [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Возвращает или задает тип наброска. Чтение/запись [`LineSketchType`](../linesketchtype). |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает код хеша. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
 
-### Смотрите также
+### Также Смотрите
 
 * класс [PVIObject](../pviobject)
 * интерфейс [ISketchFormat](../isketchformat)

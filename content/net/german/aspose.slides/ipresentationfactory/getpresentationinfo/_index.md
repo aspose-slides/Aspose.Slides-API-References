@@ -1,7 +1,7 @@
 ---
 title: GetPresentationInfo
-second_title: Aspose.Slides für .NET API-Referenz
-description: Ruft Informationen über die Präsentation in der angegebenen Datei ab.
+second_title: Aspose.Slides für .NET API Referenz
+description: Erhält Informationen über die Präsentation in der angegebenen Datei.
 type: docs
 weight: 20
 url: /de/aspose.slides/ipresentationfactory/getpresentationinfo/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/ipresentationfactory/getpresentationinfo/
 
 ## GetPresentationInfo(string) {#getpresentationinfo_1}
 
-Ruft Informationen über die Präsentation in der angegebenen Datei ab.
+Erhält Informationen über die Präsentation in der angegebenen Datei.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(string file)
@@ -21,7 +21,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ### Rückgabewert
 
-Präsentationsinformationen
+Präsentationsinfo
 
 ### Siehe auch
 
@@ -34,7 +34,7 @@ Präsentationsinformationen
 
 ## GetPresentationInfo(Stream) {#getpresentationinfo}
 
-Ruft Informationen über die Präsentation im angegebenen Stream ab.
+Erhält Informationen über die Präsentation im angegebenen Stream.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(Stream stream)
@@ -46,7 +46,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 ### Rückgabewert
 
-Präsentationsinformationen.
+Präsentationsinfo.
 
 ### Siehe auch
 

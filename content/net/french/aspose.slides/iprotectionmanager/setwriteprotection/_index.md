@@ -1,7 +1,7 @@
 ---
 title: SetWriteProtection
-second_title: Aspose.Sildes pour la référence API .NET
-description: Définissez la protection en écriture pour cette présentation avec le mot de passe spécifié.
+second_title: Référence API Aspose.Slides pour .NET
+description: Définir la protection en écriture pour cette présentation avec le mot de passe spécifié.
 type: docs
 weight: 110
 url: /fr/aspose.slides/iprotectionmanager/setwriteprotection/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iprotectionmanager/setwriteprotection/
 
 ## Méthode IProtectionManager.SetWriteProtection
 
-Définissez la protection en écriture pour cette présentation avec le mot de passe spécifié.
+Définir la protection en écriture pour cette présentation avec le mot de passe spécifié.
 
 ```csharp
 public void SetWriteProtection(string password)

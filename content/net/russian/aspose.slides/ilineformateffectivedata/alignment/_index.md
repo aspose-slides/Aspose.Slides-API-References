@@ -1,13 +1,13 @@
 ---
 title: Alignment
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Возвращает выравнивание строки. Только для чтения LineAlignmentaspose.slides/linealignment.
 type: docs
 weight: 10
 url: /ru/aspose.slides/ilineformateffectivedata/alignment/
 ---
 
-## Свойство ILineFormatEffectiveData.Alignment
+## ILineFormatEffectiveData.Alignment свойство
 
 Возвращает выравнивание строки. Только для чтения [`LineAlignment`](../../linealignment).
 
@@ -15,7 +15,7 @@ url: /ru/aspose.slides/ilineformateffectivedata/alignment/
 public LineAlignment Alignment { get; }
 ```
 
-### Смотрите также
+### См. также
 
 * enum [LineAlignment](../../linealignment)
 * interface [ILineFormatEffectiveData](../../ilineformateffectivedata)

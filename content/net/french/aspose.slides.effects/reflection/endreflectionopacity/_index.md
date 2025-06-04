@@ -1,7 +1,7 @@
 ---
 title: EndReflectionOpacity
 second_title: Référence de l'API Aspose.Slides pour .NET
-description: Opacité de fin de réflexion. pourcentages. Lecture/écriture Simple.
+description: Opacité de la réflexion finale. pourcentages. Lecture/écriture Single.
 type: docs
 weight: 50
 url: /fr/aspose.slides.effects/reflection/endreflectionopacity/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides.effects/reflection/endreflectionopacity/
 
 ## Propriété Reflection.EndReflectionOpacity
 
-Opacité de fin de réflexion. (pourcentages). Lecture/écriture Simple.
+Opacité de la réflexion finale. (pourcentages). Lecture/écriture Single.
 
 ```csharp
 public float EndReflectionOpacity { get; set; }

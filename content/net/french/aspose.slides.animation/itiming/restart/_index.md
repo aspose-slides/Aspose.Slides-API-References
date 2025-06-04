@@ -1,7 +1,7 @@
 ---
 title: Restart
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Spécifie si un effet doit redémarrer après son achèvement. Lecture/écriture EffectRestartTypeaspose.slides.animation/effectrestarttype.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Spécifie si un effet doit redémarrer après l'achèvement. Lecture/écriture EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs
 weight: 90
 url: /fr/aspose.slides.animation/itiming/restart/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.animation/itiming/restart/
 
 ## Propriété ITiming.Restart
 
-Spécifie si un effet doit redémarrer après son achèvement. Lecture/écriture [`EffectRestartType`](../../effectrestarttype).
+Spécifie si un effet doit redémarrer après l'achèvement. Lecture/écriture [`EffectRestartType`](../../effectrestarttype).
 
 ```csharp
 public EffectRestartType Restart { get; set; }
 ```
 
-### Voir aussi
+### Voir Aussi
 
 * enum [EffectRestartType](../../effectrestarttype)
 * interface [ITiming](../../itiming)

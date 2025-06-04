@@ -1,7 +1,7 @@
 ---
 title: RelativeScaleWidth
-second_title: Referencia de API de Aspose.Slides para .NET
-description: Devuelve o establece la escala de ancho en relación con el tamaño original de la imagen del marco de imagen. El valor 1.0 corresponde a 100. Lectura/escritura Single.
+second_title: Referencia de la API de Aspose.Slides para .NET
+description: Devuelve o establece la escala de ancho en relación al tamaño original de la imagen del marco de la imagen. El valor 1.0 corresponde a 100. Lectura/escritura Single.
 type: docs
 weight: 50
 url: /es/aspose.slides/pictureframe/relativescalewidth/
@@ -9,13 +9,13 @@ url: /es/aspose.slides/pictureframe/relativescalewidth/
 
 ## Propiedad PictureFrame.RelativeScaleWidth
 
-Devuelve o establece la escala de ancho (en relación con el tamaño original de la imagen) del marco de imagen. El valor 1.0 corresponde al 100%. Lectura/escritura Single.
+Devuelve o establece la escala de ancho (en relación al tamaño original de la imagen) del marco de la imagen. El valor 1.0 corresponde al 100%. Lectura/escritura Single.
 
 ```csharp
 public float RelativeScaleWidth { get; set; }
 ```
 
-### Ver también
+### Véase También
 
 * clase [PictureFrame](../../pictureframe)
 * espacio de nombres [Aspose.Slides](../../pictureframe)

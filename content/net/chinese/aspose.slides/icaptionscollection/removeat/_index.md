@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
-second_title: Aspose.Sildes for .NET API 参考
-description: 删除指定索引处的闭合字幕。
+second_title: Aspose.Sildes for .NET API Reference
+description: 移除指定索引处的闭合字幕。
 type: docs
 weight: 60
 url: /zh/aspose.slides/icaptionscollection/removeat/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/icaptionscollection/removeat/
 
 ## ICaptionsCollection.RemoveAt 方法
 
-删除指定索引处的闭合字幕。
+移除指定索引处的闭合字幕。
 
 ```csharp
 public void RemoveAt(int index)
@@ -17,7 +17,7 @@ public void RemoveAt(int index)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的闭合字幕的索引。 |
+| index | Int32 | 要移除的闭合字幕的索引。 |
 
 ### 另见
 

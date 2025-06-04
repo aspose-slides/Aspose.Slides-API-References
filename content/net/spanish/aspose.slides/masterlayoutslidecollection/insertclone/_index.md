@@ -1,13 +1,13 @@
 ---
 title: InsertClone
-second_title: Aspose.Slides para .NET Referencia de la API
+second_title: Aspose.Slides para referencia de API de .NET
 description: Inserta una copia de una diapositiva de diseño especificada en la posición especificada de la colección.
 type: docs
 weight: 40
 url: /es/aspose.slides/masterlayoutslidecollection/insertclone/
 ---
 
-## Método MasterLayoutSlideCollection.InsertClone
+## MasterLayoutSlideCollection.InsertClone method
 
 Inserta una copia de una diapositiva de diseño especificada en la posición especificada de la colección.
 
@@ -20,19 +20,19 @@ public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 | index | Int32 | Índice de la nueva diapositiva. |
 | sourceLayout | ILayoutSlide | Diapositiva a clonar. |
 
-### Valor de Retorno
+### Valor de retorno
 
 Diapositiva insertada.
 
 ### Observaciones
 
-El nuevo diseño estará vinculado con la diapositiva maestra padre para esta colección de diapositivas de diseño. Así que esto es el análogo de copiar/pegar con la opción "Usar tema de destino" en PowerPoint.
+El nuevo diseño estará vinculado con la diapositiva maestra padre para esta colección de diapositivas de diseño. Por lo tanto, esto es análogo a copiar/pegar con la opción "Usar tema de destino" en PowerPoint.
 
-### Ver También
+### Ver también
 
-* interfaz [ILayoutSlide](../../ilayoutslide)
-* clase [MasterLayoutSlideCollection](../../masterlayoutslidecollection)
-* espacio de nombres [Aspose.Slides](../../masterlayoutslidecollection)
-* ensamblado [Aspose.Slides](../../../)
+* interface [ILayoutSlide](../../ilayoutslide)
+* class [MasterLayoutSlideCollection](../../masterlayoutslidecollection)
+* namespace [Aspose.Slides](../../masterlayoutslidecollection)
+* assembly [Aspose.Slides](../../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- NO EDITES: generado por xmldocmd para Aspose.Slides.dll -->

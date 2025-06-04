@@ -1,21 +1,21 @@
 ---
 title: ShowMeanMarkers
-second_title: Справка по API Aspose.Sildes для .NET
-description: Представляет средние маркеры. Истина, если средние маркеры отображаются на графике BoxAndWhisker. Применяется только к графикам BoxAndWhisker. Читаемое/записываемое логическое значение.
+second_title: Aspose.Slides для .NET API Reference
+description: Представляет средние маркеры. Истина, если средние маркеры отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Читаемое/записываемое логическое значение.
 type: docs
 weight: 400
 url: /ru/aspose.slides.charts/chartseries/showmeanmarkers/
 ---
 
-## ChartSeries.ShowMeanMarkers свойство
+## ChartSeries.ShowMeanMarkers property
 
-Представляет средние маркеры. Истина, если средние маркеры отображаются на графике BoxAndWhisker. Применяется только к графикам BoxAndWhisker. Читаемое/записываемое логическое значение.
+Представляет средние маркеры. Истина, если средние маркеры отображаются на диаграмме BoxAndWhisker. Применяется только к диаграммам BoxAndWhisker. Читаемое/записываемое логическое значение.
 
 ```csharp
 public bool ShowMeanMarkers { get; set; }
 ```
 
-### См. также
+### Также см.
 
 * класс [ChartSeries](../../chartseries)
 * пространство имен [Aspose.Slides.Charts](../../chartseries)

@@ -1,7 +1,7 @@
 ---
 title: Name
-second_title: Aspose.Slides für .NET API-Referenz
-description: Gibt den Namen dieses Anpassungswerts zurück. Nur lesbarer String.
+second_title: Aspose.Slides für .NET API Referenz
+description: Gibt den Namen dieses Anpassungswerts zurück. Schreibgeschützter String.
 type: docs
 weight: 20
 url: /de/aspose.slides/iadjustvalue/name/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/iadjustvalue/name/
 
 ## IAdjustValue.Name-Eigenschaft
 
-Gibt den Namen dieses Anpassungswerts zurück. Nur lesbarer String.
+Gibt den Namen dieses Anpassungswerts zurück. Schreibgeschützter String.
 
 ```csharp
 public string Name { get; }
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Schnittstelle [IAdjustValue](../../iadjustvalue)
 * Namensraum [Aspose.Slides](../../iadjustvalue)

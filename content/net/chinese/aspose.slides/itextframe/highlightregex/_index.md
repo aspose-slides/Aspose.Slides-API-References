@@ -1,7 +1,7 @@
 ---
 title: HighlightRegex
-second_title: Aspose.Sildes for .NET API 参考
-description: 突出显示与指定颜色匹配的所有正则表达式结果。
+second_title: Aspose.Sildes for .NET API Reference
+description: 使用指定颜色高亮所有正则表达式的匹配项。
 type: docs
 weight: 80
 url: /zh/aspose.slides/itextframe/highlightregex/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/itextframe/highlightregex/
 
 ## ITextFrame.HighlightRegex 方法
 
-突出显示与指定颜色匹配的所有正则表达式结果。
+使用指定颜色高亮所有正则表达式的匹配项。
 
 ```csharp
 public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallback callback)
@@ -17,20 +17,20 @@ public void HighlightRegex(Regex regex, Color highlightColor, IFindResultCallbac
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| regex | Regex | 用于获取要突出显示的字符串的正则表达式 Regex。 |
-| highlightColor | Color | 突出显示文本的颜色。 |
+| regex | Regex | 用于获取要高亮的字符串的正则表达式 Regex。 |
+| highlightColor | Color | 用于高亮文本的颜色。 |
 | callback | IFindResultCallback | 接收搜索结果的回调对象 [`IFindResultCallback`](../../ifindresultcallback)。 |
 
 ### 示例
 
-以下代码示例演示如何使用正则表达式在 TextFrame 中突出显示文本。
+以下代码示例显示了如何使用正则表达式在 TextFrame 中高亮文本。
 
 ```csharp
 [C#]
 using (Presentation presentation = new Presentation("SomePresentation.pptx"))
 {
 	Regex regex = new Regex(@"\b[^\s]{10,}\b");
-	// 突出显示所有字符数为 10 个或更多的单词
+	// 高亮所有包含 10 个或更多字符的单词
 	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(regex, Color.Blue, null);
 	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
 }

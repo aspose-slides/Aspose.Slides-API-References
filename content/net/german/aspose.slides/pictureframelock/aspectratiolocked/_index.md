@@ -1,7 +1,7 @@
 ---
 title: AspectRatioLocked
 second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob eine Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-/Schreib-Boolean.
+description: Bestimmt, ob eine Form das Seitenverhältnis beim Größenänderung beibehalten muss. Lesen/Schreiben Boolesch.
 type: docs
 weight: 30
 url: /de/aspose.slides/pictureframelock/aspectratiolocked/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/pictureframelock/aspectratiolocked/
 
 ## PictureFrameLock.AspectRatioLocked-Eigenschaft
 
-Bestimmt, ob eine Form das Seitenverhältnis beim Ändern der Größe beibehalten muss. Lese-/Schreib-Boolean.
+Bestimmt, ob eine Form das Seitenverhältnis beim Größenänderung beibehalten muss. Lesen/Schreiben Boolesch.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }

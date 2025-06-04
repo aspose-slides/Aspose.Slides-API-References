@@ -1,7 +1,7 @@
 ---
 title: EnablePresetShadowEffect
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Active l'effet d'ombre préréglé.
+second_title: Aspose.Sildes pour .NET Référence API
+description: Active l'effet d'ombres prédéfinies.
 type: docs
 weight: 230
 url: /fr/aspose.slides/ieffectformat/enablepresetshadoweffect/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/ieffectformat/enablepresetshadoweffect/
 
 ## IEffectFormat.EnablePresetShadowEffect méthode
 
-Active l'effet d'ombre préréglé.
+Active l'effet d'ombres prédéfinies.
 
 ```csharp
 public void EnablePresetShadowEffect()

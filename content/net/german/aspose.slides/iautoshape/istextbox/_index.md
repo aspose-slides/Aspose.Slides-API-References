@@ -1,7 +1,7 @@
 ---
 title: IsTextBox
-second_title: Aspose.Slides für .NET API Referenz
-description: Gibt an, ob die Form eine Textbox ist.
+second_title: Aspose.Slides für .NET API-Referenz
+description: Gibt an, ob die Form ein Textfeld ist.
 type: docs
 weight: 30
 url: /de/aspose.slides/iautoshape/istextbox/
@@ -9,7 +9,7 @@ url: /de/aspose.slides/iautoshape/istextbox/
 
 ## IAutoShape.IsTextBox-Eigenschaft
 
-Gibt an, ob die Form eine Textbox ist.
+Gibt an, ob die Form ein Textfeld ist.
 
 ```csharp
 public bool IsTextBox { get; }
@@ -17,7 +17,7 @@ public bool IsTextBox { get; }
 
 ### Hinweise
 
-Dass eine Form nicht als Textbox angegeben ist, bedeutet nicht, dass sie keinen Text enthalten kann. Eine Textbox ist lediglich eine spezialisierte Form mit spezifischen Eigenschaften.
+Wenn eine Form nicht als Textfeld angegeben ist, bedeutet das nicht, dass sie keinen angehängten Text haben kann. Ein Textfeld ist lediglich eine spezialisierte Form mit spezifischen Eigenschaften.
 
 ### Siehe auch
 

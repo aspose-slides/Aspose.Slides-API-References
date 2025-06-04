@@ -19,14 +19,14 @@ public class Rotation3D : IRotation3D
 
 | 名称 | 描述 |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | 返回或设置3D图表的深度，作为图表宽度的百分比（在20到2000之间）。可读写 UInt16。 |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | 指定3D图表的高度，作为图表宽度的百分比（在5到500之间）。可读写 UInt16。 |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | 返回或设置3D图表的透视值（视角），范围在0到240之间。如果RightAngleAxes属性值为true，则忽略该值。可读写 Byte。 |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | 确定图表坐标轴是否为直角，而不是绘制成透视效果。换句话说，它决定了图表坐标轴的角度是否独立于图表的旋转或高度。可读写 Boolean。 |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | 返回或设置关于X轴的旋转角度，即在3D图表中Y方向的旋转（在-90到90度之间）。该属性与ECMA-376中的21.2.2.157 rotX（X旋转）项以及PowerPoint 2007+中的“Y旋转”选项相匹配。可读写 SByte。 |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | 返回或设置关于Y轴的旋转角度，即在3D图表中X方向的旋转（在0到360度之间）。该属性与ECMA-376中的21.2.2.158 rotY（Y旋转）项以及PowerPoint 2007+中的“X旋转”选项相匹配。可读写 UInt16。 |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | 返回或设置3D图表的深度，作为图表宽度的百分比（介于20和2000之间）。可读写UInt16。 |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | 指定3D图表的高度，作为图表宽度的百分比（介于5和500之间）。可读写UInt16。 |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | 返回或设置3D图表的透视值（视野角度）（介于0和240之间）。如果RightAngleAxes属性值为true，则被忽略。可读写Byte。 |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | 确定图表坐标轴是否是直角，而不是以透视方式绘制。换句话说，它决定图表坐标轴的角度是否与图表的旋转或高度独立。可读写Boolean。 |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | 返回或设置围绕X轴的旋转角度，即在Y方向上的3D图表旋转（介于-90和90度之间）。该属性与ECMA-376中的21.2.2.157 rotX（X旋转）项相匹配，与PowerPoint 2007+中的“Y旋转”选项相匹配。可读写SByte。 |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | 返回或设置围绕Y轴的旋转角度，即在X方向上的3D图表旋转（介于0和360度之间）。该属性与ECMA-376中的21.2.2.158 rotY（Y旋转）项相匹配，与PowerPoint 2007+中的“X旋转”选项相匹配。可读写UInt16。 |
 
-### 另请参见
+### 另见
 
 * 接口 [IRotation3D](../irotation3d)
 * 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)

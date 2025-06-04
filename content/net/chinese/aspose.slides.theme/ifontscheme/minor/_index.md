@@ -1,7 +1,7 @@
 ---
 title: Minor
-second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片主体部分的字体集合。唯读 IFontsaspose.slides/ifonts。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回幻灯片“主体”部分的字体集合。只读 IFontsaspose.slides/ifonts。
 type: docs
 weight: 20
 url: /zh/aspose.slides.theme/ifontscheme/minor/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.theme/ifontscheme/minor/
 
 ## IFontScheme.Minor 属性
 
-返回幻灯片“主体”部分的字体集合。唯读 [`IFonts`](../../../aspose.slides/ifonts)。
+返回幻灯片“主体”部分的字体集合。只读 [`IFonts`](../../../aspose.slides/ifonts)。
 
 ```csharp
 public IFonts Minor { get; }
 ```
 
-### 另请参见
+### 参见
 
 * 接口 [IFonts](../../../aspose.slides/ifonts)
 * 接口 [IFontScheme](../../ifontscheme)

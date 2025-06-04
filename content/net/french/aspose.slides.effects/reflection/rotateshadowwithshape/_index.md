@@ -1,15 +1,15 @@
 ---
 title: RotateShadowWithShape
-second_title: Référence API Aspose.Slides pour .NET
-description: Spécifie si la réflexion doit tourner avec la forme si la forme est tournée. Booléen en lecture/écriture.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Spécifie si la réflexion doit tourner avec la forme si la forme est tournée. Booléen lisible/écrivible.
 type: docs
 weight: 80
 url: /fr/aspose.slides.effects/reflection/rotateshadowwithshape/
 ---
 
-## Propriété Reflection.RotateShadowWithShape
+## Reflection.RotateShadowWithShape property
 
-Spécifie si la réflexion doit tourner avec la forme si la forme est tournée. Booléen en lecture/écriture.
+Spécifie si la réflexion doit tourner avec la forme si la forme est tournée. Booléen lisible/écrivable.
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }
@@ -17,8 +17,8 @@ public bool RotateShadowWithShape { get; set; }
 
 ### Voir aussi
 
-* classe [Reflection](../../reflection)
-* espace de noms [Aspose.Slides.Effects](../../reflection)
+* class [Reflection](../../reflection)
+* namespace [Aspose.Slides.Effects](../../reflection)
 * assembly [Aspose.Slides](../../../)
 
-<!-- NE PAS MODIFIER : généré par xmldocmd pour Aspose.Slides.dll -->
+<!-- DO NOT EDIT: généré par xmldocmd pour Aspose.Slides.dll -->

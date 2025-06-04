@@ -17,8 +17,8 @@ public GifOptions()
 
 ### Véase también
 
-* clase [GifOptions](../../gifoptions)
-* espacio de nombres [Aspose.Slides.Export](../../gifoptions)
-* ensamblado [Aspose.Slides](../../../)
+* class [GifOptions](../../gifoptions)
+* namespace [Aspose.Slides.Export](../../gifoptions)
+* assembly [Aspose.Slides](../../../)
 
 <!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: SetTextFormat
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Sildes for .NET API Reference
 description: 将定义的部分格式属性设置为所有列单元格的部分。
 type: docs
 weight: 30
@@ -17,9 +17,9 @@ public void SetTextFormat(IPortionFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IPortionFormat | 设置了必要属性的 IPortionFormat 对象。 |
+| source | IPortionFormat | 设置了必要属性的IPortionFormat对象。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IPortionFormat](../../iportionformat)
 * 类 [Column](../../column)
@@ -38,9 +38,9 @@ public void SetTextFormat(IParagraphFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IParagraphFormat | 设置了必要属性的 IParagraphFormat 对象。 |
+| source | IParagraphFormat | 设置了必要属性的IParagraphFormat对象。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [IParagraphFormat](../../iparagraphformat)
 * 类 [Column](../../column)
@@ -59,9 +59,9 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | 参数 | 类型 | 描述 |
 | --- | --- | --- |
-| source | ITextFrameFormat | 设置了必要属性的 ITextFrameFormat 对象。 |
+| source | ITextFrameFormat | 设置了必要属性的ITextFrameFormat对象。 |
 
-### 参见
+### 另请参阅
 
 * 接口 [ITextFrameFormat](../../itextframeformat)
 * 类 [Column](../../column)

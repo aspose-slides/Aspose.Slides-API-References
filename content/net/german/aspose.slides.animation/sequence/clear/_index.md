@@ -1,13 +1,13 @@
 ---
 title: Clear
-second_title: Aspose.Slides für .NET API-Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Entfernt alle Effekte aus einer Sammlung.
 type: docs
 weight: 50
 url: /de/aspose.slides.animation/sequence/clear/
 ---
 
-## Sequence.Clear-Methode
+## Sequence.Clear Methode
 
 Entfernt alle Effekte aus einer Sammlung.
 
@@ -15,7 +15,7 @@ Entfernt alle Effekte aus einer Sammlung.
 public void Clear()
 ```
 
-### Siehe auch
+### Siehe Auch
 
 * Klasse [Sequence](../../sequence)
 * Namespace [Aspose.Slides.Animation](../../sequence)

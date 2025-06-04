@@ -1,21 +1,21 @@
 ---
 title: SufficientResolution
-second_title: Référence API Aspose.Sildes pour .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Renvoie ou définit une valeur déterminant la résolution des images dans le document PDF.
 type: docs
 weight: 190
 url: /fr/aspose.slides.export/pdfoptions/sufficientresolution/
 ---
 
-## Propriété PdfOptions.SufficientResolution
+## PdfOptions.SufficientResolution propriété
 
-Renvoie ou définit une valeur déterminant la résolution des images à l'intérieur du document PDF.
+Renvoie ou définit une valeur déterminant la résolution des images dans le document PDF.
 
 La propriété affecte la taille du fichier, le temps d'exportation et la qualité de l'image.
 
 La valeur par défaut est **96**.
 
-L'effet de ce paramètre dépend de quelques facteurs. L'algorithme tente d'obtenir la meilleure taille d'image de sortie en fonction de la valeur de la propriété, de la taille de l'image source et de la taille du cadre de l'image. L'utilisation de valeurs de propriétés similaires peut donner le même résultat. Il est recommandé d'utiliser des intervalles de 16 ou 32 pour obtenir un effet visible. Lecture/écriture Single.
+L'effet de ce paramètre dépend de quelques facteurs. L'algorithme essaie d'obtenir la meilleure taille d'image de sortie en fonction de la valeur de la propriété, de la taille de l'image source et de la taille de l'image cadre. L'utilisation de valeurs de propriété similaires peut donner le même résultat. Il est recommandé d'utiliser des pas de 16 ou 32 pour obtenir un effet visible. Lecture/écriture Single.
 
 ```csharp
 public float SufficientResolution { get; set; }

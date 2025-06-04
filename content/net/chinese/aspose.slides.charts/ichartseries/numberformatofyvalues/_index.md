@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfYValues
-second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置系列 y 值的数字格式。可读/写字符串。
+second_title: Aspose.Sildes for .NET API Reference
+description: 返回或设置系列 y 值的数字格式。可读写字符串。
 type: docs
 weight: 250
 url: /zh/aspose.slides.charts/ichartseries/numberformatofyvalues/
@@ -9,13 +9,13 @@ url: /zh/aspose.slides.charts/ichartseries/numberformatofyvalues/
 
 ## IChartSeries.NumberFormatOfYValues 属性
 
-返回或设置系列 y 值的数字格式。可读/写字符串。
+返回或设置系列 y 值的数字格式。可读写字符串。
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }
 ```
 
-### 相关信息
+### 另请参见
 
 * 接口 [IChartSeries](../../ichartseries)
 * 命名空间 [Aspose.Slides.Charts](../../ichartseries)

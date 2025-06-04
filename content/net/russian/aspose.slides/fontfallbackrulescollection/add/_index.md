@@ -1,13 +1,13 @@
 ---
 title: Add
-second_title: Справочник по API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Добавьте указанное правило FallBack в конец коллекции.
 type: docs
 weight: 60
 url: /ru/aspose.slides/fontfallbackrulescollection/add/
 ---
 
-## Метод FontFallBackRulesCollection.Add
+## FontFallBackRulesCollection.Add метод
 
 Добавьте указанное правило FallBack в конец коллекции.
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation ())
 }
 ```
 
-### См. также
+### См. Также
 
 * интерфейс [IFontFallBackRule](../../ifontfallbackrule)
 * класс [FontFallBackRulesCollection](../../fontfallbackrulescollection)

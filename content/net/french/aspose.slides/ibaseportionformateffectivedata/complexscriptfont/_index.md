@@ -1,15 +1,15 @@
 ---
 title: ComplexScriptFont
-second_title: Référence API Aspose.Slides pour .NET
-description: Renvoie les informations sur la police de script complexe. Lecture seule IFontDataaspose.slides/ifontdata.
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Retourne les informations de la police de script complexe. Lecture seule IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /fr/aspose.slides/ibaseportionformateffectivedata/complexscriptfont/
 ---
 
-## Propriété IBasePortionFormatEffectiveData.ComplexScriptFont
+## IBasePortionFormatEffectiveData.ComplexScriptFont propriété
 
-Renvoie les informations sur la police de script complexe. Lecture seule [`IFontData`](../../ifontdata).
+Retourne les informations de la police de script complexe. Lecture seule [`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData ComplexScriptFont { get; }

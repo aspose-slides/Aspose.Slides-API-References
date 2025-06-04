@@ -1,7 +1,7 @@
 ---
 title: HorizontalBanding
-second_title: Aspose.Slides für .NET API Referenz
-description: Bestimmt, ob die geraden Zeilen mit einem anderen Format dargestellt werden sollen. Lese-/Schreib-Boolean.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Bestimmt, ob die geraden Reihen mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean.
 type: docs
 weight: 50
 url: /de/aspose.slides/table/horizontalbanding/
@@ -9,13 +9,13 @@ url: /de/aspose.slides/table/horizontalbanding/
 
 ## Table.HorizontalBanding-Eigenschaft
 
-Bestimmt, ob die geraden Zeilen mit einem anderen Format dargestellt werden sollen. Lese-/Schreib-Boolean.
+Bestimmt, ob die geraden Reihen mit einer anderen Formatierung gezeichnet werden müssen. Lese-/Schreib-Boolean.
 
 ```csharp
 public bool HorizontalBanding { get; set; }
 ```
 
-### Siehe Auch
+### Siehe auch
 
 * Klasse [Table](../../table)
 * Namespace [Aspose.Slides](../../table)

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkActionType
 second_title: Referencia de API de Aspose.Slides para .NET
-description: Representa un tipo de acción de hipervínculo.
+description: Representa un tipo de acción de hiperlink.
 type: docs
 weight: 4930
 url: /es/aspose.slides/hyperlinkactiontype/
@@ -9,7 +9,7 @@ url: /es/aspose.slides/hyperlinkactiontype/
 
 ## Enumeración HyperlinkActionType
 
-Representa un tipo de acción de hipervínculo.
+Representa un tipo de acción de hiperlink.
 
 ```csharp
 public enum HyperlinkActionType
@@ -21,7 +21,7 @@ public enum HyperlinkActionType
 | --- | --- | --- |
 | Unknown | `-1` | Tipo de acción no reconocido. |
 | NoAction | `0` | Sin acción. |
-| Hyperlink | `1` | Hipervínculo habitual. |
+| Hyperlink | `1` | Hiperlink habitual. |
 | JumpFirstSlide | `2` | Saltar a la primera diapositiva de la presentación. |
 | JumpPreviousSlide | `3` | Saltar a la diapositiva anterior. |
 | JumpNextSlide | `4` | Saltar a la siguiente diapositiva. |
@@ -32,11 +32,11 @@ public enum HyperlinkActionType
 | StartCustomSlideShow | `9` | Iniciar presentación personalizada. |
 | OpenFile | `10` | Abrir archivo referenciado. |
 | OpenPresentation | `11` | Abrir presentación referenciada. |
-| StartStopMedia | `12` | Iniciar/detener la reproducción del archivo multimedia. |
-| StartMacro | `13` | Iniciar la ejecución del script de macro. |
+| StartStopMedia | `12` | Empezar/detener la reproducción del archivo de medios. |
+| StartMacro | `13` | Iniciar la ejecución de un script de macro. |
 | StartProgram | `14` | Iniciar programa. |
 
-### Ver También
+### Véase también
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

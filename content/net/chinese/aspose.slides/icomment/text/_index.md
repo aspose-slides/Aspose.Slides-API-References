@@ -1,6 +1,6 @@
 ---
 title: Text
-second_title: Aspose.Slides for .NET API 参考
+second_title: Aspose.Slides for .NET API Reference
 description: 返回或设置幻灯片注释的纯文本。可读写字符串。
 type: docs
 weight: 60
@@ -15,7 +15,7 @@ url: /zh/aspose.slides/icomment/text/
 public string Text { get; set; }
 ```
 
-### 另请参阅
+### 参见
 
 * 接口 [IComment](../../icomment)
 * 命名空间 [Aspose.Slides](../../icomment)

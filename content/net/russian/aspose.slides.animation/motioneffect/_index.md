@@ -1,13 +1,13 @@
 ---
 title: MotionEffect
-second_title: Справочник API Aspose.Slides для .NET
+second_title: Aspose.Sildes для .NET API Справочник
 description: Представляет поведение эффекта движения.
 type: docs
 weight: 590
 url: /ru/aspose.slides.animation/motioneffect/
 ---
 
-## Класс MotionEffect
+## MotionEffect class
 
 Представляет поведение эффекта движения.
 
@@ -17,28 +17,28 @@ public class MotionEffect : Behavior, IMotionEffect
 
 ## Конструкторы
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
 | [MotionEffect](motioneffect)() | Конструктор по умолчанию. |
 
 ## Свойства
 
-| Название | Описание |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, накапливаются ли анимационные поведения. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, комбинируется ли текущее анимационное поведение с другими работающими анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Представляет, будут ли накапливаться анимационные эффекты. Чтение/запись [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Представляет, будет ли текущее поведение анимации комбинироваться с другими запущенными анимациями. Чтение/запись [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Описывает относительный угол пути движения. Чтение/запись Single. |
 | [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Описывает относительное смещение для анимации (в процентах). Чтение/запись PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Указывает координаты x/y, с которых начинается анимация (в процентах). Чтение/запись PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Указывает координату x/y, с которой начинается анимация (в процентах). Чтение/запись PointF. |
 | [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Указывает, что является началом пути движения относительно, например, компоновки слайда или родителя. Чтение/запись [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Указывает примитив пути, следуемый координатами для движения анимации. Чтение/запись [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Указывает, как движется путь при перемещении фигуры. Чтение/запись [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только чтение [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Описывает центр вращения, используемый для поворота пути движения на угол X. Чтение/запись PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства для поведения эффекта. Чтение/запись [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Указывает целевую локацию для эффекта анимации (в процентах). Чтение/запись PointF. |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Указывает примитив пути, по которому следуют координаты для движения анимации. Чтение/запись [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Указывает, как движется путь анимации, когда фигура перемещается. Чтение/запись [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Описывает центр вращения, используемый для вращения пути движения на угол X. Чтение/запись PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства тайминга для поведения эффекта. Чтение/запись [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Указывает целевое местоположение для эффекта движения анимации (в процентах). Чтение/запись PointF. |
 
-### См. также
+### Смотрите также
 
 * класс [Behavior](../behavior)
 * интерфейс [IMotionEffect](../imotioneffect)

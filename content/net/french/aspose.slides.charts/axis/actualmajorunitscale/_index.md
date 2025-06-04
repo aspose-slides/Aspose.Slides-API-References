@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnitScale
-second_title: Aspose.Slides pour la référence API .NET
-description: Spécifie l'échelle de l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout au préalable pour obtenir la valeur réelle.
+second_title: Aspose.Sildes pour la référence API .NET
+description: Spécifie l'échelle de l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout précédemment pour obtenir la valeur réelle.
 type: docs
 weight: 20
 url: /fr/aspose.slides.charts/axis/actualmajorunitscale/
@@ -9,13 +9,13 @@ url: /fr/aspose.slides.charts/axis/actualmajorunitscale/
 
 ## Propriété Axis.ActualMajorUnitScale
 
-Spécifie l'échelle de l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout() au préalable pour obtenir la valeur réelle.
+Spécifie l'échelle de l'unité majeure réelle de l'axe. Appelez la méthode IChart.ValidateChartLayout() précédemment pour obtenir la valeur réelle.
 
 ```csharp
 public TimeUnitType ActualMajorUnitScale { get; }
 ```
 
-### Voir Aussi
+### Voir aussi
 
 * enum [TimeUnitType](../../timeunittype)
 * class [Axis](../../axis)

@@ -1,7 +1,7 @@
 ---
 title: Depth
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Renvoie une profondeur d'un paragraphe. Lecture seule Int16.
+second_title: Référence API Aspose.Slides pour .NET
+description: Renvoie la profondeur d'un paragraphe. En lecture seule Int16.
 type: docs
 weight: 50
 url: /fr/aspose.slides/iparagraphformateffectivedata/depth/
@@ -9,7 +9,7 @@ url: /fr/aspose.slides/iparagraphformateffectivedata/depth/
 
 ## Propriété IParagraphFormatEffectiveData.Depth
 
-Renvoie une profondeur d'un paragraphe. Lecture seule Int16.
+Renvoie la profondeur d'un paragraphe. En lecture seule Int16.
 
 ```csharp
 public short Depth { get; }

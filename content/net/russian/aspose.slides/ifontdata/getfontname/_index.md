@@ -1,7 +1,7 @@
 ---
 title: GetFontName
 second_title: Aspose.Sildes для .NET API Справочник
-description: Возвращает имя шрифта, заменяя ссылку на тему фактическим шрифтом, который используется.
+description: Возвращает имя шрифта, заменяя ссылку на тему фактическим используемым шрифтом.
 type: docs
 weight: 20
 url: /ru/aspose.slides/ifontdata/getfontname/
@@ -9,7 +9,7 @@ url: /ru/aspose.slides/ifontdata/getfontname/
 
 ## IFontData.GetFontName метод
 
-Возвращает имя шрифта, заменяя ссылку на тему фактическим шрифтом, который используется.
+Возвращает имя шрифта, заменяя ссылку на тему фактическим используемым шрифтом.
 
 ```csharp
 public string GetFontName(IThemeEffectiveData theme)
@@ -17,7 +17,7 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | Тема, из которой должно быть взято имя шрифта. Ответственность за предоставление корректного значения лежит на вызывающем. |
+| theme | IThemeEffectiveData | Тема, из которой должно быть получено название шрифта темы. Ответственность за предоставление правильного значения лежит на вызывающем коде. |
 
 ### Возвращаемое значение
 

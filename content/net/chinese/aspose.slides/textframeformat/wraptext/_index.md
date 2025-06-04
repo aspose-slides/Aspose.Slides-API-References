@@ -1,7 +1,7 @@
 ---
 title: WrapText
-second_title: Aspose.Slides for .NET API 参考
-description: 如果文本在文本框的边缘处换行，则为真。可读/可写 NullableBoolaspose.slides/nullablebool。
+second_title: Aspose.Sildes for .NET API Reference
+description: 如果文本在TextFrames边距处换行，则为True。可读/写NullableBoolaspose.slides/nullablebool。
 type: docs
 weight: 160
 url: /zh/aspose.slides/textframeformat/wraptext/
@@ -9,7 +9,7 @@ url: /zh/aspose.slides/textframeformat/wraptext/
 
 ## TextFrameFormat.WrapText 属性
 
-**如果文本在文本框的边缘处换行，则为真。** 可读/可写 [`NullableBool`](../../nullablebool)。
+如果文本在TextFrame的边距处换行，则为**True**。可读/写 [`NullableBool`](../../nullablebool)。
 
 ```csharp
 public NullableBool WrapText { get; set; }
@@ -17,7 +17,7 @@ public NullableBool WrapText { get; set; }
 
 ### 示例
 
-以下示例代码演示如何在演示文稿中换行文本。
+以下示例代码演示了如何在演示文稿中换行文本。
 
 ```csharp
 [C#]
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 另请参阅
+### 另请参见
 
 * enum [NullableBool](../../nullablebool)
 * class [TextFrameFormat](../../textframeformat)
