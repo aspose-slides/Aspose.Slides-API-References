@@ -2,7 +2,7 @@
 title: IChartPlotArea
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет свойства заголовка диаграммы.
-type: docs  
+type: docs
 weight: 1830  
 url: /ru/aspose.slides.charts/ichartplotarea/
 ---  

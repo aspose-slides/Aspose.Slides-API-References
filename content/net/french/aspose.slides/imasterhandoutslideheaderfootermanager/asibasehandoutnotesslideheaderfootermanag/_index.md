@@ -2,7 +2,7 @@
 title: AsIBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Renvoie l'interface IBaseHandoutNotesSlideHeaderFooterManag.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag/
 ---  

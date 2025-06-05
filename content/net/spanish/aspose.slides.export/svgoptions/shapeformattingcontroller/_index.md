@@ -2,7 +2,7 @@
 title: ShapeFormattingController
 second_title: Aspose.Slid es para .NET API Reference  
 description: Devuelve y establece una interfaz de devolución de llamada que permite al usuario controlar la conversión de formas. Leer/escribir ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
-type: docs  
+type: docs
 weight: 150  
 url: /es/aspose.slides.export/svgoptions/shapeformattingcontroller/
 ---  

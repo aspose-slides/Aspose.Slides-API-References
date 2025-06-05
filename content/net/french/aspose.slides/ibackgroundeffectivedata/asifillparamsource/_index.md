@@ -2,7 +2,7 @@
 title: AsIFillParamSource
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne l'interface IFillParamSource.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/ibackgroundeffectivedata/asifillparamsource/
 ---  

@@ -2,7 +2,7 @@
 title: ICaptionsCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示闭合字幕的集合。
-type: docs  
+type: docs
 weight: 5240  
 url: /zh/aspose.slides/icaptionscollection/
 ---  

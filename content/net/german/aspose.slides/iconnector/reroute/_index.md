@@ -2,7 +2,7 @@
 title: Reroute
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ändert den Verlauf des Connectors, sodass er den möglichst kürzesten Weg zwischen den verbundenen Formen nimmt.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/iconnector/reroute/
 ---  

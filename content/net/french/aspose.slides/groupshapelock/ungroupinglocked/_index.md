@@ -2,7 +2,7 @@
 title: UngroupingLocked
 second_title: Référence API Aspose.Slides pour .NET  
 description: Détermine si le découpage de ce groupe est interdit. Booléen accessible en lecture/écriture.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/groupshapelock/ungroupinglocked/
 ---  

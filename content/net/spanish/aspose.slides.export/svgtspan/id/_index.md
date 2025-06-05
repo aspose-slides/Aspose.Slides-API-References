@@ -2,7 +2,7 @@
 title: Id
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Obtiene el id del elemento "tspan"
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.export/svgtspan/id/
 ---  

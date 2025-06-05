@@ -2,7 +2,7 @@
 title: GetDependingSlides
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt ein Array mit allen Folien zurück, die von dieser Masterfolie abhängen.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/imasterslide/getdependingslides/
 ---  

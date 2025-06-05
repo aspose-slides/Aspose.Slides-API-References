@@ -2,7 +2,7 @@
 title: AsIMathElement
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Permet d'obtenir l'interface IMathElement de base IMathElementaspose.slides.mathtext/imathelement
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.mathtext/imathbox/asimathelement/
 ---  

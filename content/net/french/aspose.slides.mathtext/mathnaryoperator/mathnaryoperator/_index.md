@@ -2,7 +2,7 @@
 title: MathNaryOperator
 second_title: Aspose.Slides pour .NET API Reference  
 description: Initialise une nouvelle instance de la classe MathNaryOperator.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 ---  

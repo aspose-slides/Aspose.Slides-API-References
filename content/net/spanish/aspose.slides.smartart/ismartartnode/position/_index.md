@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slidess para .NET API Reference  
 description: Devuelve o establece la posición basada en cero del nodo entre nodos hermanos. Lectura/escritura Int32.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides.smartart/ismartartnode/position/
 ---  

@@ -2,7 +2,7 @@
 title: IMathBorderBox
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Dibuja un borde rectangular u otro alrededor del IMathElement.
-type: docs  
+type: docs
 weight: 7920  
 url: /es/aspose.slides.mathtext/imathborderbox/
 ---  

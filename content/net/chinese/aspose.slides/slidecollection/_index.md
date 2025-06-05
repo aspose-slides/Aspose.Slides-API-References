@@ -2,7 +2,7 @@
 title: SlideCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片的集合。
-type: docs  
+type: docs
 weight: 9660  
 url: /zh/aspose.slides/slidecollection/
 ---  

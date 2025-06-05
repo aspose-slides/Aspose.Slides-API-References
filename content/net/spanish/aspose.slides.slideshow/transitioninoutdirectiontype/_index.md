@@ -2,7 +2,7 @@
 title: TransitionInOutDirectionType
 second_title: Aspose.Sildes para .NET API Reference  
 description: Representar tipos de transición de dirección de entrada o salida.
-type: docs  
+type: docs
 weight: 10060  
 url: /es/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---  

@@ -2,7 +2,7 @@
 title: IFilterEffect
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示行为的滤镜效果。
-type: docs  
+type: docs
 weight: 420  
 url: /zh/aspose.slides.animation/ifiltereffect/
 ---  

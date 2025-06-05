@@ -2,7 +2,7 @@
 title: ILayoutPlaceholderManager
 second_title: Aspose.Slides pour .NET API Reference  
 description: Représente un gestionnaire qui vous permet d'ajouter des espaces réservés à la diapositive de mise en page.
-type: docs  
+type: docs
 weight: 6010  
 url: /fr/aspose.slides/ilayoutplaceholdermanager/
 ---  

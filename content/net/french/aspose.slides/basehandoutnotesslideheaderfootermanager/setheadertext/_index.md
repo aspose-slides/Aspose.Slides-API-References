@@ -2,7 +2,7 @@
 title: SetHeaderText
 second_title: Référence API Aspose.Slides pour .NET  
 description: Définit le texte du remplissage de l'en-tête de la diapositive.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext/
 ---  

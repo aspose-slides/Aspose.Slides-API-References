@@ -2,7 +2,7 @@
 title: IMathRadicalFactory
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht das Erstellen von mathematischen Radikalen
-type: docs  
+type: docs
 weight: 8180  
 url: /de/aspose.slides.mathtext/imathradicalfactory/
 ---  

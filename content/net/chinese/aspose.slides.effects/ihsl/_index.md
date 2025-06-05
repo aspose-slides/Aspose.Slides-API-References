@@ -2,7 +2,7 @@
 title: IHSL
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示一个色相/饱和度/亮度效果。色相、饱和度和亮度可以相对于其当前值进行调整。
-type: docs  
+type: docs
 weight: 3240  
 url: /zh/aspose.slides.effects/ihsl/
 ---  

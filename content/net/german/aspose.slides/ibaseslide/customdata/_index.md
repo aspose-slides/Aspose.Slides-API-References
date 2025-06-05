@@ -2,7 +2,7 @@
 title: CustomData
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die benutzerdefinierten Daten der Folien zurück. Nur lesbar ICustomDataaspose.slides/icustomdata.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ibaseslide/customdata/
 ---  

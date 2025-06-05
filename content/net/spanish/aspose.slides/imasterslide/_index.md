@@ -2,7 +2,7 @@
 title: IMasterSlide
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa una diapositiva maestra en una presentación.
-type: docs  
+type: docs
 weight: 6220  
 url: /es/aspose.slides/imasterslide/
 ---  

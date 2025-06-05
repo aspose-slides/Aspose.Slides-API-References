@@ -2,7 +2,7 @@
 title: Sections
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve una lista de todas las secciones de diapositivas que están definidas en la presentación. Solo lectura ISectionCollectionaspose.slides/isectioncollection.
-type: docs  
+type: docs
 weight: 220  
 url: /es/aspose.slides/presentation/sections/
 ---  

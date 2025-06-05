@@ -2,7 +2,7 @@
 title: AsISlideComponent
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das ISlideComponent-Interface zurück. Nur-Lese ISlideComponentaspose.slides/islidecomponent.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.theme/icolorscheme/asislidecomponent/
 ---  

@@ -2,7 +2,7 @@
 title: X
 second_title: Aspose.Slidess for .NET API 参考  
 description: 返回图像的 X 偏移量。只读 Int32。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/ppimage/x/
 ---  

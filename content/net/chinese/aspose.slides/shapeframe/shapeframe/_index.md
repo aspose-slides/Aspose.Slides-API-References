@@ -2,7 +2,7 @@
 title: ShapeFrame
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建新的形状框架属性。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/shapeframe/shapeframe/
 ---  

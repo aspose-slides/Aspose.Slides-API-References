@@ -2,7 +2,7 @@
 title: DataLabel
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示一系列标签。
-type: docs  
+type: docs
 weight: 1470  
 url: /zh/aspose.slides.charts/datalabel/
 ---  

@@ -2,7 +2,7 @@
 title: ExportHiddenSlides
 second_title: Aspose.Sildes for .NET API Reference  
 description: 确定隐藏幻灯片是否会被导出。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.export.xaml/xamloptions/exporthiddenslides/
 ---  

@@ -2,7 +2,7 @@
 title: IndexOfName
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den nullbasierten Index des angegebenen Schlüssels in der Sammlung zurück.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides/tagcollection/indexofname/
 ---  

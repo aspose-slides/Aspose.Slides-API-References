@@ -2,7 +2,7 @@
 title: Contains
 second_title: Aspose.Sildes для .NET ссылка по API  
 description: Определяет, содержит ли ICollection конкретное значение.
-type: docs  
+type: docs
 weight: 80  
 url: /ru/aspose.slides.charts/piesplitcustompointcollection/contains/
 ---  

@@ -2,7 +2,7 @@
 title: IMasterSlideCollection
 second_title: Referencia de API de Aspose.Sildes para .NET  
 description: Representa una colección de diapositivas maestras.
-type: docs  
+type: docs
 weight: 6230  
 url: /es/aspose.slides/imasterslidecollection/
 ---  

@@ -2,7 +2,7 @@
 title: Save
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Guarda las diapositivas especificadas de una presentación en un archivo con el formato especificado manteniendo el número de página.
-type: docs  
+type: docs
 weight: 380  
 url: /es/aspose.slides/presentation/save/
 ---  

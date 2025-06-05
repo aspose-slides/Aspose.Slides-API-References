@@ -2,7 +2,7 @@
 title: Words
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回文档中包含的总字数。只读 Int32。
-type: docs  
+type: docs
 weight: 360  
 url: /zh/aspose.slides/documentproperties/words/
 ---  

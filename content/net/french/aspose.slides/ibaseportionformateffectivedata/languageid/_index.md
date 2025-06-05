@@ -2,7 +2,7 @@
 title: LanguageId
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie l'Id d'une langue. Chaîne en lecture seule.
-type: docs  
+type: docs
 weight: 160  
 url: /fr/aspose.slides/ibaseportionformateffectivedata/languageid/
 ---  

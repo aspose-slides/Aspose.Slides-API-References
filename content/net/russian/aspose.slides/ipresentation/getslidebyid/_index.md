@@ -2,7 +2,7 @@
 title: GetSlideById
 second_title: Aspose.Slides для .NET API Справка  
 description: Возвращает Slide, MasterSlide или LayoutSlide по Id.
-type: docs  
+type: docs
 weight: 310  
 url: /ru/aspose.slides/ipresentation/getslidebyid/
 ---  

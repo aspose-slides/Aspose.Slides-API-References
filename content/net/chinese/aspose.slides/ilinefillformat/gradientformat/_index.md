@@ -2,7 +2,7 @@
 title: GradientFormat
 second_title: Aspose.Slides for .NET API Reference  
 description: 返回渐变填充格式。只读 IGradientFormataspose.slides/igradientformat。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/ilinefillformat/gradientformat/
 ---  

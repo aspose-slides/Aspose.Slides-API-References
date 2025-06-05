@@ -2,7 +2,7 @@
 title: HorizontalAxis
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取图表的水平轴。只读 IAxisaspose.slides.charts/iaxis。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.charts/iaxesmanager/horizontalaxis/
 ---  

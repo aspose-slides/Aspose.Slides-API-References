@@ -2,7 +2,7 @@
 title: Direction
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Richtung der Übergänge. Lese-/Schreibzugriff auf TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.slideshow/cornerdirectiontransition/direction/
 ---  

@@ -2,7 +2,7 @@
 title: DefaultDelay
 second_title: Aspose.Sildes для .NET API Reference  
 description: Получает или задает время задержки по умолчанию в мс.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.export/presentationanimationsgenerator/defaultdelay/
 ---  

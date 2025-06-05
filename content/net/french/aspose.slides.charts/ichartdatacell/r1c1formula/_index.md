@@ -2,7 +2,7 @@
 title: R1C1Formula
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient ou définit la formule au format R1C1.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.charts/ichartdatacell/r1c1formula/
 ---  

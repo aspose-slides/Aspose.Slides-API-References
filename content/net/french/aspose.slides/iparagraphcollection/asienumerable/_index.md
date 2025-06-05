@@ -2,7 +2,7 @@
 title: AsIEnumerable
 second_title: Aspose.Slides pour .NET API Reference  
 description: Retourne l'interface IEnumerable. IEnumerable en lecture seule.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/iparagraphcollection/asienumerable/
 ---  

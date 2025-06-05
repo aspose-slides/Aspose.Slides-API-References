@@ -2,7 +2,7 @@
 title: FillFormat
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt ein Objekt mit Eigenschaften für die Tabellenausfüllung zurück. Nur-lesbar IFillFormat aspose.slides/ifillformat.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/itableformat/fillformat/
 ---  

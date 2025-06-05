@@ -2,7 +2,7 @@
 title: AddAudio
 second_title: Aspose.Sildes for .NET API Reference  
 description: Agrega una copia de un archivo de audio de otra presentación.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/audiocollection/addaudio/
 ---  

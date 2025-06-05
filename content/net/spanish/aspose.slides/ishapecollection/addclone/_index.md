@@ -2,7 +2,7 @@
 title: AddClone
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Añade una copia de una forma especificada al final de la colección.
-type: docs  
+type: docs
 weight: 80  
 url: /es/aspose.slides/ishapecollection/addclone/
 ---  

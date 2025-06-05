@@ -2,7 +2,7 @@
 title: Sequence
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt eine Sequenz für einen Effekt zurück. Nur-Lese ISequence aspose.slides.animation/isequence.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.animation/ieffect/sequence/
 ---  

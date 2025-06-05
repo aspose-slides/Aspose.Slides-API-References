@@ -2,7 +2,7 @@
 title: SyncRoot
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt einen Synchronisierungswurzel zurück. Nur-Lese-Objekt.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/commentauthorcollection/syncroot/
 ---  

@@ -2,7 +2,7 @@
 title: AddModernComment
 second_title: Aspose.Sildes для справки по API .NET  
 description: Добавить новый современный комментарий в конце коллекции.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/icommentcollection/addmoderncomment/
 ---  

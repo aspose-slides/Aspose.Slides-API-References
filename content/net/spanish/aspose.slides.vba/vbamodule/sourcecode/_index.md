@@ -2,7 +2,7 @@
 title: SourceCode
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve o establece el código fuente del módulo. Cadena de lectura/escritura.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.vba/vbamodule/sourcecode/
 ---  

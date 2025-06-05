@@ -2,7 +2,7 @@
 title: GetFontBytes
 second_title: Aspose.Sildes for .NET API Reference  
 description: Recupera el arreglo de bytes que representa los datos de la fuente para un estilo de fuente y datos de fuente especificados.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/ifontsmanager/getfontbytes/
 ---  

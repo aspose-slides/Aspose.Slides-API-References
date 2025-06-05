@@ -2,7 +2,7 @@
 title: SetGroupingItem
 second_title: Aspose.Slides für .NET API-Dokumentation  
 description: Legt das Gruppierungselement für die definierte Ebene fest.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem/
 ---  

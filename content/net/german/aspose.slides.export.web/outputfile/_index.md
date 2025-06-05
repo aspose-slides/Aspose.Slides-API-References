@@ -2,7 +2,7 @@
 title: OutputFile
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt eine Ausgabedatei dar.
-type: docs  
+type: docs
 weight: 4460  
 url: /de/aspose.slides.export.web/outputfile/
 ---  

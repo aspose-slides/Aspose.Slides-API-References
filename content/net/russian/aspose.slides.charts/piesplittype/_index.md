@@ -2,7 +2,7 @@
 title: PieSplitType
 second_title: Aspose.Slides for .NET API Reference  
 description: Представляет собой тип точек разбиения во втором круге или стержне на круговой или стержневой диаграмме.
-type: docs  
+type: docs
 weight: 2300  
 url: /ru/aspose.slides.charts/piesplittype/
 ---  

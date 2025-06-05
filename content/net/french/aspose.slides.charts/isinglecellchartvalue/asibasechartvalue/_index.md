@@ -2,7 +2,7 @@
 title: AsIBaseChartValue
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Permet d'obtenir l'interface de base IBaseChartValue. Lecture seule IBaseChartValue aspose.slides.charts/ibasechartvalue.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.charts/isinglecellchartvalue/asibasechartvalue/
 ---  

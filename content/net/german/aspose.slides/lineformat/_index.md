@@ -2,7 +2,7 @@
 title: LineFormat
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt das Format einer Linie dar.
-type: docs  
+type: docs
 weight: 7550  
 url: /de/aspose.slides/lineformat/
 ---  

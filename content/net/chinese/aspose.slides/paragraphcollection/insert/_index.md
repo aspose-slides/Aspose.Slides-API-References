@@ -2,7 +2,7 @@
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference  
 description: 在指定索引处将段落插入集合。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides/paragraphcollection/insert/
 ---  

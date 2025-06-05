@@ -2,7 +2,7 @@
 title: LayoutTargetType
 second_title: Référence API Aspose.Slides pour .NET  
 description: Si la disposition de la zone de tracé est définie manuellement, cette propriété spécifie si la disposition de la zone de tracé doit être effectuée par l'intérieur sans inclure les axes et les étiquettes d'axes ou par l'extérieur y compris les axes et les étiquettes d'axes. Lecture/écriture LayoutTargetType.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides.charts/chartplotarea/layouttargettype/
 ---  

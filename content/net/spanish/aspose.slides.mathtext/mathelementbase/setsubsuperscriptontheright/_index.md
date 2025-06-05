@@ -2,7 +2,7 @@
 title: SetSubSuperscriptOnTheRight
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea subíndices y superíndices a la derecha
-type: docs  
+type: docs
 weight: 150  
 url: /es/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
 ---  

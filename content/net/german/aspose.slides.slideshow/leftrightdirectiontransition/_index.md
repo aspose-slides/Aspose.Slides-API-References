@@ -2,7 +2,7 @@
 title: LeftRightDirectionTransition
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Effekt der Folienübergänge von links nach rechts.
-type: docs  
+type: docs
 weight: 9930  
 url: /de/aspose.slides.slideshow/leftrightdirectiontransition/
 ---  

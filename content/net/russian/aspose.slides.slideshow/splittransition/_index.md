@@ -2,7 +2,7 @@
 title: SplitTransition
 second_title: Aspose.Slides для .NET - Справочник по API  
 description: Эффект перехода с разделением слайдов.
-type: docs  
+type: docs
 weight: 10020  
 url: /ru/aspose.slides.slideshow/splittransition/
 ---  

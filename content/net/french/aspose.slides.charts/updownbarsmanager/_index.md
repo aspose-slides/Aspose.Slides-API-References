@@ -2,7 +2,7 @@
 title: UpDownBarsManager
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Fournit l'accès aux barres montantes/descendantes des graphiques en ligne ou de titre.
-type: docs  
+type: docs
 weight: 2420  
 url: /fr/aspose.slides.charts/updownbarsmanager/
 ---  

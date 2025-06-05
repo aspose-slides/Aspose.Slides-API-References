@@ -2,7 +2,7 @@
 title: SubstitutePictureFormat
 second_title: Справочная документация Aspose.Slides для .NET  
 description: Возвращает объект свойств заливки изображения OleObject. Только для чтения IPictureFillFormataspose.slides/ipicturefillformat.
-type: docs  
+type: docs
 weight: 120  
 url: /ru/aspose.slides/oleobjectframe/substitutepictureformat/
 ---  

@@ -2,7 +2,7 @@
 title: HighlightText
 second_title: Aspose.Slides pour .NET API Reference  
 description: Met en évidence toutes les occurrences du texte d'exemple avec la couleur spécifiée.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides/itextframe/highlighttext/
 ---  

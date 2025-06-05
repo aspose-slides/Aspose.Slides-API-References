@@ -2,7 +2,7 @@
 title: InterruptionToken
 second_title: Référence API Aspose.Slides pour .NET  
 description: Cette classe représente le token à utiliser pour signaler les tâches de longue durée si l'interruption a été demandée.
-type: docs  
+type: docs
 weight: 7360  
 url: /fr/aspose.slides/interruptiontoken/
 ---  

@@ -2,7 +2,7 @@
 title: Name
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Obtiene el nombre del módulo. Solo lectura String.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.vba/vbamodule/name/
 ---  

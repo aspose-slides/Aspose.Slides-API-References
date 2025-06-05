@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference  
 description: 将集合中的所有元素复制到指定数组。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/gradientstopcollection/copyto/
 ---  

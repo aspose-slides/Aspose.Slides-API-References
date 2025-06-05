@@ -2,7 +2,7 @@
 title: AsIBaseSlide
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite obtener la interfaz base IBaseSlide. Solo lectura IBaseSlideaspose.slides/ibaseslide.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/inotesslide/asibaseslide/
 ---  

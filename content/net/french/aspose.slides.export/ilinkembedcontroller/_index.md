@@ -2,7 +2,7 @@
 title: ILinkEmbedController
 second_title: Aspose.Sildes pour la référence de l'API .NET  
 description: Interface de rappel utilisée pour déterminer comment l'objet doit être traité lors de l'enregistrement.
-type: docs  
+type: docs
 weight: 3820  
 url: /fr/aspose.slides.export/ilinkembedcontroller/
 ---  

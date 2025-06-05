@@ -2,7 +2,7 @@
 title: HyperlinkClick
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den für einen Mausklick definierten Hyperlink zurück oder setzt ihn. Lese-/schreibgeschütztes IHyperlinkaspose.slides/ihyperlink.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/ihyperlinkcontainer/hyperlinkclick/
 ---  

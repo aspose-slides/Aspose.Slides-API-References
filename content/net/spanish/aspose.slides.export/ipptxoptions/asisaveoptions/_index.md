@@ -2,7 +2,7 @@
 title: AsISaveOptions
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Permite obtener la interfaz base ISaveOptions. ISaveOptions sólo de lectura aspose.slides.export/isaveoptions.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.export/ipptxoptions/asisaveoptions/
 ---  

@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回指定索引处的序列。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.animation/isequencecollection/item/
 ---  

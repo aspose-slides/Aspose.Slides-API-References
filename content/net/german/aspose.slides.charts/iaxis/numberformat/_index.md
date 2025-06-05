@@ -2,7 +2,7 @@
 title: NumberFormat
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt die Formatzeichenfolge für die Achsenbeschriftungen dar. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 440  
 url: /de/aspose.slides.charts/iaxis/numberformat/
 ---  

@@ -2,7 +2,7 @@
 title: BinaryData
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie les données binaires des sous-titres. Lecture seule Byte.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/captions/binarydata/
 ---  

@@ -2,7 +2,7 @@
 title: IReflection
 second_title: Aspose.Sildes для .NET Справочник по API  
 description: Представляет эффект отражения.
-type: docs  
+type: docs
 weight: 3380  
 url: /ru/aspose.slides.effects/ireflection/
 ---  

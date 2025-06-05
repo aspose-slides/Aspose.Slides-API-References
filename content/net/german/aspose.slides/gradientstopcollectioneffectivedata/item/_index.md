@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Farbverlauf-Stopp nach Index zurück.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/gradientstopcollectioneffectivedata/item/
 ---  

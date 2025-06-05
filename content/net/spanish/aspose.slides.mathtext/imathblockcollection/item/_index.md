@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides para .NET API Reference  
 description: Obtiene el elemento en el índice especificado. Solo lectura IMathBlockaspose.slides.mathtext/imathblock.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.mathtext/imathblockcollection/item/
 ---  

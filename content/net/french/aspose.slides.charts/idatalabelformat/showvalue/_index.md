@@ -2,7 +2,7 @@
 title: ShowValue
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente un comportement d'affichage de la valeur de pourcentage des étiquettes de données d'un graphique spécifié. True affiche la valeur en pourcentage. False pour cacher. Lecture/écriture Boolean.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides.charts/idatalabelformat/showvalue/
 ---  

@@ -2,7 +2,7 @@
 title: RowGapRule
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Le type d'espacement vertical entre les lignes d'une matrice. Les unités d'espacement vertical peuvent être des lignes ou des points stockés sous forme de twips. Par défaut  SingleSpacingGap 0
-type: docs  
+type: docs
 weight: 110  
 url: /fr/aspose.slides.mathtext/mathmatrix/rowgaprule/
 ---  

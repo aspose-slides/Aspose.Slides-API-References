@@ -2,7 +2,7 @@
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference  
 description: 从集合中移除所有形状。
-type: docs  
+type: docs
 weight: 200  
 url: /zh/aspose.slides/ishapecollection/clear/
 ---  

@@ -2,7 +2,7 @@
 title: AddAlphaFloorEffect
 second_title: Aspose.Sildes for .NET API Reference  
 description: 将新的 Alpha Floor 效果添加到集合的末尾。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides.effects/imagetransformoperationcollection/addalphaflooreffect/
 ---  

@@ -2,7 +2,7 @@
 title: Footer
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Fußzeile der Folie. Nur-Lesen FieldTypeaspose.slides/fieldtype.
-type: docs  
+type: docs
 weight: 160  
 url: /de/aspose.slides/fieldtype/footer/
 ---  

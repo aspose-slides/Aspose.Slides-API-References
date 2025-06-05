@@ -2,7 +2,7 @@
 title: StretchOffsetTop
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie ou définit le bord supérieur du rectangle de remplissage qui est défini par un décalage en pourcentage depuis le bord supérieur de la boîte englobante de la forme. Un pourcentage positif spécifie un enfoncement, tandis qu'un pourcentage négatif spécifie un renflement. Lecture/écriture Simple.
-type: docs  
+type: docs
 weight: 110  
 url: /fr/aspose.slides/picturefillformat/stretchoffsettop/
 ---  

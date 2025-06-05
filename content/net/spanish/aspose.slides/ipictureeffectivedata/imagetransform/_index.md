@@ -2,7 +2,7 @@
 title: ImageTransform
 second_title: Referencia de API de Aspose.Sildes para .NET  
 description: Devuelve la colección de efectos de transformación de imagen. Solo lectura IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/ipictureeffectivedata/imagetransform/
 ---  

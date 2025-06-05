@@ -2,7 +2,7 @@
 title: AsIOverridableText
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Ermöglicht den Zugriff auf die Basis-IOverridableText-Schnittstelle. Schreibgeschütztes IOverridableTextaspose.slides.charts/ioverridabletext.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.charts/icharttitle/asioverridabletext/
 ---  

@@ -2,7 +2,7 @@
 title: CloseFigure
 second_title: Aspose.Slides pour .NET API Référence  
 description: Ferme la figure actuelle de ce chemin
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/geometrypath/closefigure/
 ---  

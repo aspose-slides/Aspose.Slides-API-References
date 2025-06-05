@@ -2,7 +2,7 @@
 title: AddDataPointForDoughnutSeries
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType einer der Donut-Subtypen ist, siehe auch die Methode ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnutseries/
 ---  

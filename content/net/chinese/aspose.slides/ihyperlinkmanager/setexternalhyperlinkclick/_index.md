@@ -2,7 +2,7 @@
 title: SetExternalHyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference  
 description: 设置点击时的外部超链接。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick/
 ---  

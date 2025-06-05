@@ -2,7 +2,7 @@
 title: IMarker
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen Marker eines Diagramms dar.
-type: docs  
+type: docs
 weight: 2080  
 url: /de/aspose.slides.charts/imarker/
 ---  

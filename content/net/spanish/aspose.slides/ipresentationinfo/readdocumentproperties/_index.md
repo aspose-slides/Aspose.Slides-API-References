@@ -2,7 +2,7 @@
 title: ReadDocumentProperties
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Obtiene las propiedades del documento de la presentación vinculada.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/ipresentationinfo/readdocumentproperties/
 ---  

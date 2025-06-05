@@ -2,7 +2,7 @@
 title: IsAutomaticMajorUnit
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指示轴的主要单位是否自动分配。可读写布尔值。
-type: docs  
+type: docs
 weight: 180  
 url: /zh/aspose.slides.charts/axis/isautomaticmajorunit/
 ---  

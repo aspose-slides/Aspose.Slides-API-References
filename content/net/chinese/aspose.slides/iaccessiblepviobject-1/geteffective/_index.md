@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取应用继承的有效数据。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/iaccessiblepviobject-1/geteffective/
 ---  

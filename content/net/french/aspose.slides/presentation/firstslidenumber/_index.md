@@ -2,7 +2,7 @@
 title: FirstSlideNumber
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente le premier numéro de diapositive dans la présentation
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/presentation/firstslidenumber/
 ---  

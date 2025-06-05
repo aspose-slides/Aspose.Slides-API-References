@@ -2,7 +2,7 @@
 title: AsLiteralString
 second_title: Aspose.Slidess pour .NET API Reference  
 description: Renvoie ou définit la valeur en tant que chaîne littérale. Lecture/écriture String.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.charts/stringchartvalue/asliteralstring/
 ---  

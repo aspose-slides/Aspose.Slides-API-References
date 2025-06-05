@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Slides para .NET API Reference  
 description: Copia todos los elementos de la colección en el array especificado.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/
 ---  

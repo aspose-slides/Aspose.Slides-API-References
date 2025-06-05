@@ -2,7 +2,7 @@
 title: ScaleHorizontal
 second_title: Aspose.Sildes para la referencia de API de .NET  
 description: Especifica el factor de escalado horizontal, el escalado negativo causa un giro. Solo lectura Doble.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal/
 ---  

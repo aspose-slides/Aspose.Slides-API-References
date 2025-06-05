@@ -2,7 +2,7 @@
 title: PptxReadException
 second_title: Aspose.Slides für .NET API Referenz  
 description: Standardkonstruktor.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/pptxreadexception/pptxreadexception/
 ---  

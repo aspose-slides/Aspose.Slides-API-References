@@ -2,7 +2,7 @@
 title: ITrendlineCollection
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет собой коллекцию TrendlineEx
-type: docs  
+type: docs
 weight: 2170  
 url: /ru/aspose.slides.charts/itrendlinecollection/
 ---  

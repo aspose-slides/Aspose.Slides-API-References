@@ -2,7 +2,7 @@
 title: ApplyColorScheme
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Wendet ein zusätzliches Farbschema auf eine Folie an.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.theme/ithememanager/applycolorscheme/
 ---  

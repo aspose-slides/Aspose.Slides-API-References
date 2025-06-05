@@ -2,7 +2,7 @@
 title: SetLicense
 second_title: Aspose.Sildes для .NET API Reference  
 description: Лицензирует компонент.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/ilicense/setlicense/
 ---  

@@ -2,7 +2,7 @@
 title: FindShapeByAltText
 second_title: Aspose.Slides für .NET API Referenz  
 description: Findet die erste Vorkommen einer Form mit dem angegebenen alternativen Text.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides/ibaseslide/findshapebyalttext/
 ---  

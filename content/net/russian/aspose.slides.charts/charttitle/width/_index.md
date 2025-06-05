@@ -2,7 +2,7 @@
 title: Width
 second_title: Aspose.Slides для .NET API Reference  
 description: Возвращает или устанавливает ширину заголовка как долю от ширины диаграммы. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 90  
 url: /ru/aspose.slides.charts/charttitle/width/
 ---  

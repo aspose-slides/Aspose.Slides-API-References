@@ -2,7 +2,7 @@
 title: Worksheets
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Получает коллекцию листов.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.charts/ichartdataworkbook/worksheets/
 ---  

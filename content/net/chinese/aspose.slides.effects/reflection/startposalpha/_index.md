@@ -2,7 +2,7 @@
 title: StartPosAlpha
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定起始 alpha 值百分比的 alpha 渐变坡道的起始位置。可读可写单精度浮点数。
-type: docs  
+type: docs
 weight: 130  
 url: /zh/aspose.slides.effects/reflection/startposalpha/
 ---  

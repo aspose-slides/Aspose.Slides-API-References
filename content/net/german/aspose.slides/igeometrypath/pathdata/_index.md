@@ -2,7 +2,7 @@
 title: PathData
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den geometrischen Pfad von GeometryShape als ein Array von Pfadsegmenten zurück.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/igeometrypath/pathdata/
 ---  

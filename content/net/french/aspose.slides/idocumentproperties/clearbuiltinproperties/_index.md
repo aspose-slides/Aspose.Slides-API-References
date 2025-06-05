@@ -2,7 +2,7 @@
 title: ClearBuiltInProperties
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Efface et définit des valeurs par défaut pour toutes les propriétés intégrées.
-type: docs  
+type: docs
 weight: 360  
 url: /fr/aspose.slides/idocumentproperties/clearbuiltinproperties/
 ---  

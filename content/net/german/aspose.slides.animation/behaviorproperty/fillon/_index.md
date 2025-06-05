@@ -2,7 +2,7 @@
 title: FillOn
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt die Eigenschaft fill.on dar
-type: docs  
+type: docs
 weight: 360  
 url: /de/aspose.slides.animation/behaviorproperty/fillon/
 ---  

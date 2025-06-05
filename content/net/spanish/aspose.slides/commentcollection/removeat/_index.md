@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Elimina el elemento en el índice especificado en una colección.
-type: docs  
+type: docs
 weight: 140  
 url: /es/aspose.slides/commentcollection/removeat/
 ---  

@@ -2,7 +2,7 @@
 title: AsIOverridableText
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Permet d'obtenir l'interface de base IOverridableText. IOverridableText en lecture seule aspose.slides.charts/ioverridabletext.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.charts/icharttitle/asioverridabletext/
 ---  

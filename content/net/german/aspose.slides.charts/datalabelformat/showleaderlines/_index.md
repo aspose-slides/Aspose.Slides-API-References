@@ -2,7 +2,7 @@
 title: ShowLeaderLines
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt das Verhalten der Anzeige von Führungsleitungen für Datenbeschriftungen eines bestimmten Diagramms dar. True zeigt die Führungsleitungen an. False, um sie auszublenden. Lese-/schreibbarer Boolean.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides.charts/datalabelformat/showleaderlines/
 ---  

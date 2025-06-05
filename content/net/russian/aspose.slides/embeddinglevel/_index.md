@@ -2,7 +2,7 @@
 title: EmbeddingLevel
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет лицензионные права на встраивание шрифта.
-type: docs  
+type: docs
 weight: 3550  
 url: /ru/aspose.slides/embeddinglevel/
 ---  

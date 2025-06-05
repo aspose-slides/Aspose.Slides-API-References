@@ -2,7 +2,7 @@
 title: CenterText
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Si NullableBool.True entonces el texto debe estar centrado en el cuadro horizontalmente. Lectura/escritura de NullableBoolaspose.slides/nullablebool.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.charts/icharttextblockformat/centertext/
 ---  

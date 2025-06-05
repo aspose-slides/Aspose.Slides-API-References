@@ -2,7 +2,7 @@
 title: SetHeaderAndChildHeadersVisibility
 second_title: Aspose.Sildes for .NET API Reference  
 description: 更改主备注幻灯片标题占位符和所有子标题占位符的可见性。子占位符是指包含在依赖的备注幻灯片上的占位符。依赖的备注幻灯片使用并依赖于主备注幻灯片。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
 ---  

@@ -2,7 +2,7 @@
 title: ValueFromCell
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ruft die Datenzelle des Arbeitsbuchs ab oder legt sie fest. Wird angewendet, wenn die IDataLabelFormat.ShowLabelValueFromCell-Eigenschaft den Wert true hat.
-type: docs  
+type: docs
 weight: 140  
 url: /de/aspose.slides.charts/datalabel/valuefromcell/
 ---  

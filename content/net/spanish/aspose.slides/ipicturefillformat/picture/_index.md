@@ -2,7 +2,7 @@
 title: Picture
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Devuelve la imagen. Solo lectura ISlidesPictureaspose.slides/islidespicture.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/ipicturefillformat/picture/
 ---  

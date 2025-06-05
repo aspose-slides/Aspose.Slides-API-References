@@ -2,7 +2,7 @@
 title: IUpDownBarsManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Zugriff auf die Auf-/Abwärtsbalken von Linien- oder Aktiencharts bereitstellen.
-type: docs  
+type: docs
 weight: 2180  
 url: /de/aspose.slides.charts/iupdownbarsmanager/
 ---  

@@ -2,7 +2,7 @@
 title: CreateMathBox
 second_title: Référence API Aspose.Slides pour .NET  
 description: Créer une boîte mathématique en l'appliquant à l'élément
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.mathtext/mathboxfactory/createmathbox/
 ---  

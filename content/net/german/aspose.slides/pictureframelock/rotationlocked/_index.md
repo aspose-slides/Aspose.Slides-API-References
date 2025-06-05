@@ -2,7 +2,7 @@
 title: RotationLocked
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob ein sich ändernder Rotationswinkel dieser Form verboten ist. Lese-/Schreib-Booleans.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/pictureframelock/rotationlocked/
 ---  

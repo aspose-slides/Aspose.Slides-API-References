@@ -2,7 +2,7 @@
 title: Accent1
 second_title: Aspose.Sildes for .NET API Reference  
 description: 方案中的第一个强调颜色。只读 IColorFormataspose.slides/../aspose.slides/icolorformat。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.theme/colorscheme/accent1/
 ---  

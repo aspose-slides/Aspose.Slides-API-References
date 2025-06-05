@@ -2,7 +2,7 @@
 title: AsIImageTransformOperation
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht den Zugriff auf die grundlegende IImageTransformOperation Schnittstelle. Schreibgeschützte IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.effects/ioutershadow/asiimagetransformoperation/
 ---  

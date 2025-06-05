@@ -2,7 +2,7 @@
 title: GetFontBytes
 second_title: Aspose.Slides pour la référence API .NET  
 description: Récupère le tableau d'octets représentant les données de la police pour un style de police et des données de police spécifiés.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/ifontsmanager/getfontbytes/
 ---  

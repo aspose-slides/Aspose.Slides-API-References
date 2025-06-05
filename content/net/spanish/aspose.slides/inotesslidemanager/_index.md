@@ -2,7 +2,7 @@
 title: INotesSlideManager
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Administrador de diapositivas de notas.
-type: docs  
+type: docs
 weight: 6320  
 url: /es/aspose.slides/inotesslidemanager/
 ---  

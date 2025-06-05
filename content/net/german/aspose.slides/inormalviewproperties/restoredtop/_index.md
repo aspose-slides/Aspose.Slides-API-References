@@ -2,7 +2,7 @@
 title: RestoredTop
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Dieses Element spezifiziert die Größe der oberen Folienregion der normalen Ansicht, wenn die Region eine variable wiederhergestellte Größe hat weder minimiert noch maximiert. Nur lesbar INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/inormalviewproperties/restoredtop/
 ---  

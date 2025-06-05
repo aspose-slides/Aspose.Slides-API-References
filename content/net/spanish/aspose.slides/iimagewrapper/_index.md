@@ -2,7 +2,7 @@
 title: IImageWrapper
 second_title: Referencia de API de Aspose.Sildes para .NET  
 description: Wrapper de System.Drawing.Image para la interfaz COM.
-type: docs  
+type: docs
 weight: 5970  
 url: /es/aspose.slides/iimagewrapper/
 ---  

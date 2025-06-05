@@ -2,7 +2,7 @@
 title: Width
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Devuelve o establece el ancho de una línea. Lectura/escritura Double.
-type: docs  
+type: docs
 weight: 170  
 url: /es/aspose.slides/lineformat/width/
 ---  

@@ -2,7 +2,7 @@
 title: FullScreenMode
 second_title: Aspose.Sildes для .NET API Reference  
 description: Определяет, отображается ли видео в полноэкранном режиме. Читаемое/записываемое логическое значение.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/videoframe/fullscreenmode/
 ---  

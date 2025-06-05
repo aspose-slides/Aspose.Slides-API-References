@@ -2,7 +2,7 @@
 title: HeaderFooterManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den HeaderFooter-Manager der Notizenfolie zurück. Nur-Lese INotesSlideHeaderFooterManageraspose.slides/inotesslideheaderfootermanager.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/inotesslide/headerfootermanager/
 ---  

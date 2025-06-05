@@ -2,7 +2,7 @@
 title: FontFallBackRulesCollection
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Der Standardkonstruktor.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/fontfallbackrulescollection/fontfallbackrulescollection/
 ---  

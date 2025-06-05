@@ -2,7 +2,7 @@
 title: CompressEmbeddedFonts
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht die Kompression der Presentationaspose.slides/../aspose.slides/presentation durch das Entfernen ungenutzter Zeichen aus eingebetteten Schriftarten.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.lowcode/compress/compressembeddedfonts/
 ---  

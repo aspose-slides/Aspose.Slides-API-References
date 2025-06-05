@@ -2,7 +2,7 @@
 title: AddDataPointForLineSeries
 second_title: Aspose.Sildes для .NET API Справка  
 description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип графика которых является одним из подтипов линии, см. также метод IsChartTypeLineaspose.slides.charts/charttypecharacterizer/ischarttypeline.
-type: docs  
+type: docs
 weight: 170  
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforlineseries/
 ---  

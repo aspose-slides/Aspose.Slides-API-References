@@ -2,7 +2,7 @@
 title: ToString
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la representación en cadena.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/fontdata/tostring/
 ---  

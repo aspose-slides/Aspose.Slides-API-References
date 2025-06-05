@@ -2,7 +2,7 @@
 title: ImageCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示 PPImage 的集合。
-type: docs  
+type: docs
 weight: 7200  
 url: /zh/aspose.slides/imagecollection/
 ---  

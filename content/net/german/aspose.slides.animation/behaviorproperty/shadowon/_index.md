@@ -2,7 +2,7 @@
 title: ShadowOn
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt die Eigenschaft shadow.on dar
-type: docs  
+type: docs
 weight: 720  
 url: /de/aspose.slides.animation/behaviorproperty/shadowon/
 ---  

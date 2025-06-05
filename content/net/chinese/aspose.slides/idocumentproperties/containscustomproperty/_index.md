@@ -2,7 +2,7 @@
 title: ContainsCustomProperty
 second_title: Aspose.Slides for .NET API Reference  
 description: 检查指定名称的自定义属性是否存在。
-type: docs  
+type: docs
 weight: 380  
 url: /zh/aspose.slides/idocumentproperties/containscustomproperty/
 ---  

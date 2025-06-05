@@ -2,7 +2,7 @@
 title: ChartDataTable
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie un tableau de données d'un graphique. Lecture seule IDataTableaspose.slides.charts/idatatable.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.charts/ichart/chartdatatable/
 ---  

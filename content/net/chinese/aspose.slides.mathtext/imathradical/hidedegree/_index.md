@@ -2,7 +2,7 @@
 title: HideDegree
 second_title: Aspose.Sildes for .NET API Reference  
 description: 当为真时隐藏度数，如√𝑥
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides.mathtext/imathradical/hidedegree/
 ---  

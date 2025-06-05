@@ -2,7 +2,7 @@
 title: HyperlinkMouseOver
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den für den Mouseover definierten Hyperlink zurück oder legt ihn fest. Lese-/Schreibzugriff IHyperlinkaspose.slides/ihyperlink.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/ihyperlinkcontainer/hyperlinkmouseover/
 ---  

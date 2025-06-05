@@ -2,7 +2,7 @@
 title: Global
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回宿主文档的全局存储。只读 Storageaspose.slides.export.web/storage。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.export.web/templatecontext-1/global/
 ---  

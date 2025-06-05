@@ -2,7 +2,7 @@
 title: DownBarsFormat
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie le format DownBars. Lecture seule IFormataspose.slides.charts/iformat.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.charts/updownbarsmanager/downbarsformat/
 ---  

@@ -2,7 +2,7 @@
 title: Reference
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Obtient une référence de cellule invalide.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.spreadsheet/cellinvalidreferenceexception/reference/
 ---  

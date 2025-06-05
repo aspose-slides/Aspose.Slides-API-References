@@ -2,7 +2,7 @@
 title: StrokeColor
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Representa la propiedad stroke.color
-type: docs  
+type: docs
 weight: 880  
 url: /es/aspose.slides.animation/behaviorproperty/strokecolor/
 ---  

@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob das angegebene AlphaReplaceaspose.slides.effects/alphareplace gleich dem aktuellen AlphaReplaceaspose.slides.effects/alphareplace ist.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.effects/alphareplace/equals/
 ---  

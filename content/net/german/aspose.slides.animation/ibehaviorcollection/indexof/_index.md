@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt den Index eines bestimmten Elements in der IList.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.animation/ibehaviorcollection/indexof/
 ---  

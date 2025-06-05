@@ -2,7 +2,7 @@
 title: IFormatSchemeEffectiveData
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Unveränderliches Objekt, das effektive Format-Schema-Eigenschaften enthält.
-type: docs  
+type: docs
 weight: 10970  
 url: /de/aspose.slides.theme/iformatschemeeffectivedata/
 ---  

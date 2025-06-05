@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference  
 description: 将 ICollection 的元素复制到从特定数组索引开始的数组中。
-type: docs  
+type: docs
 weight: 80  
 url: /zh/aspose.slides/paragraphcollection/copyto/
 ---  

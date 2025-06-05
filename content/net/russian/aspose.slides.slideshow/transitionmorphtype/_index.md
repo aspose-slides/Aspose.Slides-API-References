@@ -2,7 +2,7 @@
 title: TransitionMorphType
 second_title: Ссылка на API Aspose.Slides для .NET  
 description: Представляет тип морфного перехода.
-type: docs  
+type: docs
 weight: 10080  
 url: /ru/aspose.slides.slideshow/transitionmorphtype/
 ---  

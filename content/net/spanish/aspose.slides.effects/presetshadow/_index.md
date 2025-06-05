@@ -2,7 +2,7 @@
 title: PresetShadow
 second_title: Aspose.Sildes para .NET API Referencia  
 description: Representa un efecto de sombra preestablecida.
-type: docs  
+type: docs
 weight: 3510  
 url: /es/aspose.slides.effects/presetshadow/
 ---  

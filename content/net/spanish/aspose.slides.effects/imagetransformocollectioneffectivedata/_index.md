@@ -2,7 +2,7 @@
 title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes para .NET API Reference  
 description: Objeto inmutable que representa una colección de efectos de transformación de imagen efectiva de solo lectura.
-type: docs  
+type: docs
 weight: 3440  
 url: /es/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---  

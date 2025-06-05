@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Bestimmt, ob der angegebene PresetShadowaspose.slides.effects/presetshadow gleich dem aktuellen PresetShadowaspose.slides.effects/presetshadow ist.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.effects/presetshadow/equals/
 ---  

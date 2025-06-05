@@ -2,7 +2,7 @@
 title: ShadowOffset2X
 second_title: Aspose.Slides para .NET API Reference  
 description: Representa la propiedad shadow.offset2.x
-type: docs  
+type: docs
 weight: 680  
 url: /es/aspose.slides.animation/behaviorproperty/shadowoffset2x/
 ---  

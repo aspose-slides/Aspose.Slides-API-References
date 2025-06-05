@@ -2,7 +2,7 @@
 title: AsIPresentationComponent
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许获取基础 IPresentationComponent 接口。只读 IPresentationComponent aspose.slides/ipresentationcomponent.
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/pviobject/asipresentationcomponent/
 ---  

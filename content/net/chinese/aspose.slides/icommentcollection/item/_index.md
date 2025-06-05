@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides for .NET API Reference  
 description: 获取指定索引处的元素。只读 ICommentaspose.slides/icomment。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/icommentcollection/item/
 ---  

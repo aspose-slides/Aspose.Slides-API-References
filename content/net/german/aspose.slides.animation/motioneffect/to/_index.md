@@ -2,7 +2,7 @@
 title: To
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Zielort für einen Animationsbewegungseffekt in Prozent an. Lese-/Schreib-PointF.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides.animation/motioneffect/to/
 ---  

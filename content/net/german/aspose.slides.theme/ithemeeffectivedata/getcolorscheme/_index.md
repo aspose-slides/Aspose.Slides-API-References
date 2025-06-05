@@ -2,7 +2,7 @@
 title: GetColorScheme
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das Farbschema zurück.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.theme/ithemeeffectivedata/getcolorscheme/
 ---  

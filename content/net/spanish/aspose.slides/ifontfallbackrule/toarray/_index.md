@@ -2,7 +2,7 @@
 title: ToArray
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Crea y devuelve un arreglo con todas las fuentes FallBack para esta regla.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/ifontfallbackrule/toarray/
 ---  

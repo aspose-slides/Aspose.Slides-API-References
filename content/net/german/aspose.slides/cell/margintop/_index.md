@@ -2,7 +2,7 @@
 title: MarginTop
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den oberen Rand in einem TextFrame zurück oder setzt ihn. Lese-/Schreib-Doppelwert.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides/cell/margintop/
 ---  

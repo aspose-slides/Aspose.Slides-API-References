@@ -2,7 +2,7 @@
 title: CreatePptxOptions
 second_title: Référence API Aspose.Slides pour .NET  
 description: Crée des options d'enregistrement PPTX.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.export/isaveoptionsfactory/createpptxoptions/
 ---  

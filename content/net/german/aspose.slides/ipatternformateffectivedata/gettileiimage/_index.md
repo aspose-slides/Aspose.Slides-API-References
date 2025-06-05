@@ -2,7 +2,7 @@
 title: GetTileIImage
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt ein Kachelbild für die Musterfüllung mit angegebenen Farben.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ipatternformateffectivedata/gettileiimage/
 ---  

@@ -2,7 +2,7 @@
 title: ProofDisabled
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Determina si el texto no debe ser revisado. Solo lectura Boolean.
-type: docs  
+type: docs
 weight: 200  
 url: /es/aspose.slides/ibaseportionformateffectivedata/proofdisabled/
 ---  

@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Erhält die effektiven Alpha Ceiling-Effektdaten mit der angewendeten Vererbung.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.effects/alphaceiling/geteffective/
 ---  

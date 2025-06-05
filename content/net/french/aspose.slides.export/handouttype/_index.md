@@ -2,7 +2,7 @@
 title: HandoutType
 second_title: Référence API Aspose.Slides pour .NET  
 description: Spécifie combien de diapositives et dans quel ordre seront placées sur la page.
-type: docs  
+type: docs
 weight: 3680  
 url: /fr/aspose.slides.export/handouttype/
 ---  

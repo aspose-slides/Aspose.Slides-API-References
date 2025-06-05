@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Entfernt das Element am angegebenen Index der Sammlung.
-type: docs  
+type: docs
 weight: 170  
 url: /de/aspose.slides.mathtext/mathblock/removeat/
 ---  

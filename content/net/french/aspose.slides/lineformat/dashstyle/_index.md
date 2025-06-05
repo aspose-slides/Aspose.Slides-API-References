@@ -2,7 +2,7 @@
 title: DashStyle
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie ou définit le style de ligne en pointillé. Lecture/écriture LineDashStyle aspose.slides/linedashstyle.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/lineformat/dashstyle/
 ---  

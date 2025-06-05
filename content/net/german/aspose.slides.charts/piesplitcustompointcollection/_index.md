@@ -2,7 +2,7 @@
 title: PieSplitCustomPointCollection
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt eine Sammlung von Punkten zum Teilen eines Punktes in einem Bar-of-Pie- oder Pie-of-Pie-Diagramm mit einem benutzerdefinierten Split dar.
-type: docs  
+type: docs
 weight: 2290  
 url: /de/aspose.slides.charts/piesplitcustompointcollection/
 ---  

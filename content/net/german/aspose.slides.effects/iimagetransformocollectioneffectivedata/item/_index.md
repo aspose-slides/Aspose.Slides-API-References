@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt Element nach Index zurück.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.effects/iimagetransformocollectioneffectivedata/item/
 ---  

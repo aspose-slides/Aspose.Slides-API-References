@@ -2,7 +2,7 @@
 title: TargetSlide
 second_title: Aspose.Sildes для .NET API Reference  
 description: Получает или устанавливает объект слайда, на который ссылается объект Slide Zoom. Чтение/запись ISlideaspose.slides/islide.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/zoomframe/targetslide/
 ---  

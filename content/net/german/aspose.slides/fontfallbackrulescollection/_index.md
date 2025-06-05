@@ -2,7 +2,7 @@
 title: FontFallBackRulesCollection
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt eine Sammlung von vom Benutzer definierten FontFallBack-Regeln dar
-type: docs  
+type: docs
 weight: 4660  
 url: /de/aspose.slides/fontfallbackrulescollection/
 ---  

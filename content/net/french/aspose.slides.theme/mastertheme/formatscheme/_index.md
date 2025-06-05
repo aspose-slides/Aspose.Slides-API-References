@@ -2,7 +2,7 @@
 title: FormatScheme
 second_title: Aspose.Slides pour la référence API .NET  
 description: Retourne le schéma de format de la forme. Lecture seule IFormatSchemeaspose.slides.theme/iformatscheme.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.theme/mastertheme/formatscheme/
 ---  

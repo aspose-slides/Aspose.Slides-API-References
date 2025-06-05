@@ -2,7 +2,7 @@
 title: ReplaceFontCondition
 second_title: Aspose.Slides für .NET API Referenz  
 description: Regel für die Anwendung der Substitution Read-only FontSubstConditionaspose.slides/fontsubstcondition.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ifontsubstrule/replacefontcondition/
 ---  

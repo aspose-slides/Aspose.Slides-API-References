@@ -2,7 +2,7 @@
 title: SetTextFormat
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Setzt definierte Format Eigenschaften für alle Spaltenzellen.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/column/settextformat/
 ---  

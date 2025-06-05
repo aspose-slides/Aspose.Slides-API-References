@@ -2,7 +2,7 @@
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: Представляет свойства форматирования для текстовых элементов диаграммы.
-type: docs  
+type: docs
 weight: 1900  
 url: /ru/aspose.slides.charts/icharttextblockformat/
 ---  

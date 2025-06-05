@@ -2,7 +2,7 @@
 title: DisableGlowEffect
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Désactiver l'effet de halo.
-type: docs  
+type: docs
 weight: 120  
 url: /fr/aspose.slides/effectformat/disablegloweffect/
 ---  

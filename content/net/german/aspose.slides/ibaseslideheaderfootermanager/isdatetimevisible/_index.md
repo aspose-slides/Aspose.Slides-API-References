@@ -2,7 +2,7 @@
 title: IsDateTimeVisible
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt den Wert an, der angibt, dass ein Platzhalter für Datum und Uhrzeit vorhanden ist. ReadBoolean.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible/
 ---  

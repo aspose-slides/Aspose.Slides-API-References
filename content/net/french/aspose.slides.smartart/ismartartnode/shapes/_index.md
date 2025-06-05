@@ -2,7 +2,7 @@
 title: Shapes
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie des collections de toutes les formes associées au nœud. Lecture seule ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides.smartart/ismartartnode/shapes/
 ---  

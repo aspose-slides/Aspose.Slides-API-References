@@ -2,7 +2,7 @@
 title: InsertSectionZoomFrame
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Crée un nouvel objet Section Zoom et l'insère dans une collection à l'index spécifié.
-type: docs  
+type: docs
 weight: 320  
 url: /fr/aspose.slides/ishapecollection/insertsectionzoomframe/
 ---  

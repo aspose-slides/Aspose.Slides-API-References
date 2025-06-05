@@ -2,7 +2,7 @@
 title: Section
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片的部分。
-type: docs  
+type: docs
 weight: 9480  
 url: /zh/aspose.slides/section/
 ---  

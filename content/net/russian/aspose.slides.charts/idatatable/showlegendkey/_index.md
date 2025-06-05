@@ -2,7 +2,7 @@
 title: ShowLegendKey
 second_title: Aspose.Sildes для .NET API Справочник  
 description: true, если ключ легенды метки данных виден. Чтение/запись Boolean.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides.charts/idatatable/showlegendkey/
 ---  

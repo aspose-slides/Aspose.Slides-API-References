@@ -2,7 +2,7 @@
 title: SetVisibilityOnAllTitleSlides
 second_title: Aspose.Sildes для .NET API Reference  
 description: Изменяет видимость заполняемых полей даты и времени, а также номера страницы в подвале для всех титульных слайдов и для первого слайда макета. Титульные слайды – это слайды, основанные на первом слайде макета независимо от типа этого первого макета.
-type: docs  
+type: docs
 weight: 80  
 url: /ru/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/
 ---  

@@ -2,7 +2,7 @@
 title: IAlphaCeiling
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt einen Alpha Ceiling-Effekt dar. Alpha-Opazitätswerte größer als null werden auf 100 geändert. Mit anderen Worten, alles, was teilweise opak ist, wird vollständig opak.
-type: docs  
+type: docs
 weight: 2940  
 url: /de/aspose.slides.effects/ialphaceiling/
 ---  

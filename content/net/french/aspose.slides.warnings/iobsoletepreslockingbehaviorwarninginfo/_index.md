@@ -2,7 +2,7 @@
 title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes pour .NET API Référence  
 description: Cet avertissement indique qu'un comportement de verrouillage de présentation obsolète est utilisé.
-type: docs  
+type: docs
 weight: 11470  
 url: /fr/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---  

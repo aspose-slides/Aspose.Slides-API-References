@@ -2,7 +2,7 @@
 title: AsIBaseSlideHeaderFooterManager
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает интерфейс IBaseSlideHeaderFooterManager.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager/
 ---  

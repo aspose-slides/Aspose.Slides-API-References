@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Копирует все элементы из коллекции в указанный массив.
-type: docs  
+type: docs
 weight: 80  
 url: /ru/aspose.slides/commentcollection/copyto/
 ---  

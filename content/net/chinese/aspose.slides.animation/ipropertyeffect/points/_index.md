@@ -2,7 +2,7 @@
 title: Points
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定动画的点。读/写 IPointCollectionaspose.slides/ipointcollection。
-type: docs  
+type: docs
 weight: 50  
 url: /zh/aspose.slides.animation/ipropertyeffect/points/
 ---  

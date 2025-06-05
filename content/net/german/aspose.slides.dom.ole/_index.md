@@ -2,7 +2,7 @@
 title: Aspose.Slides.DOM.Ole
 second_title: Aspose.Slides für .NET API Referenz  
 description: Enthält Klassen für die Arbeit mit OLE-Objekten in Microsoft PowerPoint-Präsentationen.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.dom.ole/
 ---  

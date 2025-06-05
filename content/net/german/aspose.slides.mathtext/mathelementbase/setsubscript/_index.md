@@ -2,7 +2,7 @@
 title: SetSubscript
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt Tiefstellung
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides.mathtext/mathelementbase/setsubscript/
 ---  

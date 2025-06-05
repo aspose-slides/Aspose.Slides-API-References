@@ -2,7 +2,7 @@
 title: ShapeFrame
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente les propriétés des cadres de forme.
-type: docs  
+type: docs
 weight: 9590  
 url: /fr/aspose.slides/shapeframe/
 ---  

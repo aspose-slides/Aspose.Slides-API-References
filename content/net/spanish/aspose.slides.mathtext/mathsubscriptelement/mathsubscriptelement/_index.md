@@ -2,7 +2,7 @@
 title: MathSubscriptElement
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Inicializa una nueva instancia de la clase MathSubscriptElement.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.mathtext/mathsubscriptelement/mathsubscriptelement/
 ---  

@@ -2,7 +2,7 @@
 title: AngleValue
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Wert zurück oder setzt ihn, indem er als Winkel in Grad interpretiert wird. Lese-/Schreibzugriff auf Single.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/adjustvalue/anglevalue/
 ---  

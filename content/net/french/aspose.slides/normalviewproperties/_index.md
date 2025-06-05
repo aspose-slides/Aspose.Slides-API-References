@@ -2,7 +2,7 @@
 title: NormalViewProperties
 second_title: Aspose.Slides pour .NET API Reference  
 description: Représente les propriétés de la vue normale. La vue normale se compose de trois régions de contenu  la diapositive elle-même, une région de contenu latérale et une région de contenu inférieure.
-type: docs  
+type: docs
 weight: 8840  
 url: /fr/aspose.slides/normalviewproperties/
 ---  

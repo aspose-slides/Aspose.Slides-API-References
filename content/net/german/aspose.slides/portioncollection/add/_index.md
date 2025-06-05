@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Slides für .NET API Referenz  
 description: Fügt eine Portion am Ende der Sammlung hinzu.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/portioncollection/add/
 ---  

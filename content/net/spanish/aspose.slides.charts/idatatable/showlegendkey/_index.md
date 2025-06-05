@@ -2,7 +2,7 @@
 title: ShowLegendKey
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Verdadero si la clave de leyenda de la etiqueta de datos es visible. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides.charts/idatatable/showlegendkey/
 ---  

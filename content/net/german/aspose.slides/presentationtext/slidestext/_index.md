@@ -2,7 +2,7 @@
 title: SlidesText
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ein Array von SlideTextaspose.slides/islidetext enthält den Text einer Präsentation.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/presentationtext/slidestext/
 ---  

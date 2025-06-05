@@ -2,7 +2,7 @@
 title: Sound
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Définit le son intégré pour l'effet. Lire / écrire IAudio aspose.slides/iaudio.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides.animation/effect/sound/
 ---  

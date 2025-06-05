@@ -2,7 +2,7 @@
 title: ChartPlotArea
 second_title: Aspose.Sildes para la referencia de API .NET  
 description: Representa el rectángulo donde se debe trazar el gráfico.
-type: docs  
+type: docs
 weight: 1340  
 url: /es/aspose.slides.charts/chartplotarea/
 ---  

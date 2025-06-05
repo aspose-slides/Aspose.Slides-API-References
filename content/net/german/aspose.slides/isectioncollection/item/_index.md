@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API Referenz  
 description: Holt das Element am angegebenen Index. Nur lesend ISection aspose.slides/isection.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/isectioncollection/item/
 ---  

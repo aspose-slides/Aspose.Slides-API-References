@@ -2,7 +2,7 @@
 title: UnderlineLineFormat
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt die LineFormat-Eigenschaften zurück, die verwendet werden, um die Unterstreichungslinie zu umreißen. Keine Vererbung angewendet. Nur lesbares ILineFormataspose.slides/ilineformat.
-type: docs  
+type: docs
 weight: 260  
 url: /de/aspose.slides/ibaseportionformat/underlinelineformat/
 ---  

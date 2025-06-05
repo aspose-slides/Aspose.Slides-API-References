@@ -2,7 +2,7 @@
 title: PreviousSlideIndex
 second_title: Aspose.Slides for .NET API Reference  
 description: 返回上一个渲染幻灯片的索引，如果正在渲染第一个幻灯片则返回 -1。只读 Int32。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.export/ihtmlgenerator/previousslideindex/
 ---  

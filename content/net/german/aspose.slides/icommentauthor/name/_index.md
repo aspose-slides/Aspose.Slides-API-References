@@ -2,7 +2,7 @@
 title: Name
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Namen des Autors zurück oder setzt ihn. Lese-/schreibbarer String.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/icommentauthor/name/
 ---  

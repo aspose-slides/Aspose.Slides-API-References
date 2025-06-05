@@ -2,7 +2,7 @@
 title: Description
 second_title: Справочник API Aspose.Sildes для .NET  
 description: Возвращает текстовое описание объекта Раздела Суммарного Увеличения.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/summaryzoomsection/description/
 ---  

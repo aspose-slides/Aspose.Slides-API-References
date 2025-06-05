@@ -2,7 +2,7 @@
 title: ParagraphFactory
 second_title: Référence API Aspose.Slides pour .NET  
 description: Le constructeur par défaut.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/paragraphfactory/paragraphfactory/
 ---  

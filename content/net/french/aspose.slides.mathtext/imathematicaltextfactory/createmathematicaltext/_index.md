@@ -2,7 +2,7 @@
 title: CreateMathematicalText
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Créer un élément de texte mathématique vide
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext/
 ---  

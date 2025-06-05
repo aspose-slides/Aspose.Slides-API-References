@@ -2,7 +2,7 @@
 title: Add
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Ajoute la signature à la fin de la collection.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/digitalsignaturecollection/add/
 ---  

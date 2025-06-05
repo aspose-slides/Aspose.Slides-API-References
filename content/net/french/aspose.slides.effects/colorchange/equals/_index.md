@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Slides pour .NET Référence API  
 description: Détermine si le ColorChange spécifié aspose.slides.effects/colorchange est égal au ColorChange actuel aspose.slides.effects/colorchange.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.effects/colorchange/equals/
 ---  

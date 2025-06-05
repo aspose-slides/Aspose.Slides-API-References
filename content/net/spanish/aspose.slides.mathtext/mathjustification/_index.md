@@ -2,7 +2,7 @@
 title: MathJustification
 second_title: Aspose.Sildes for .NET API Reference  
 description: Especifica la justificación del párrafo matemático, una serie de instancias adyacentes de texto matemático dentro del mismo párrafo
-type: docs  
+type: docs
 weight: 8540  
 url: /es/aspose.slides.mathtext/mathjustification/
 ---  

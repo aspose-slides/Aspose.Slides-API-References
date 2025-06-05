@@ -2,7 +2,7 @@
 title: FontScheme
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie le schéma de police. Lecture seule IFontSchemeaspose.slides.theme/ifontscheme.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.theme/theme/fontscheme/
 ---  

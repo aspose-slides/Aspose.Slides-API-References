@@ -2,7 +2,7 @@
 title: MathRadicalFactory
 second_title: Aspose.Sildes para .NET API Referencia  
 description: El constructor predeterminado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.mathtext/mathradicalfactory/mathradicalfactory/
 ---  

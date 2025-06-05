@@ -2,7 +2,7 @@
 title: TextStrikethroughType
 second_title: Aspose.Slides für .NET API Referenz  
 description: Repräsentiert den Typ des Textdurchstreichens.
-type: docs  
+type: docs
 weight: 10680  
 url: /de/aspose.slides/textstrikethroughtype/
 ---  

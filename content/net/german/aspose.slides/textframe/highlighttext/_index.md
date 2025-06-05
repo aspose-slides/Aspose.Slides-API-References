@@ -2,7 +2,7 @@
 title: HighlightText
 second_title: Aspose.Slides für .NET API Referenz  
 description: Hebt alle Übereinstimmungen des Beispieltexts mit der angegebenen Farbe hervor.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/textframe/highlighttext/
 ---  

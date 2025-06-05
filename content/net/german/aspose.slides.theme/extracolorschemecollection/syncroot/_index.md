@@ -2,7 +2,7 @@
 title: SyncRoot
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt ein Objekt zurück, das verwendet werden kann, um den Zugriff auf die Sammlung zu synchronisieren. Nur-lesbares Objekt.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.theme/extracolorschemecollection/syncroot/
 ---  

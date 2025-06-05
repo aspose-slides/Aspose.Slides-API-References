@@ -2,7 +2,7 @@
 title: Overlap
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Especifica cuánto se superpondrán las barras y columnas en gráficos 2-D como un porcentaje de -100 a 100. - -100 Espaciado máximo las barras están completamente separadas. - 0 Las barras están colocadas una al lado de la otra sin superposición ni espaciado. - 100 Superposición máxima las barras se superponen completamente entre sí. Esta propiedad es de lectura/escritura SByte.
-type: docs  
+type: docs
 weight: 120  
 url: /es/aspose.slides.charts/ichartseriesgroup/overlap/
 ---  

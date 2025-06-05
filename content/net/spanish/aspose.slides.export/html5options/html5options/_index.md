@@ -2,7 +2,7 @@
 title: Html5Options
 second_title: Aspose.Slides para .NET API Reference  
 description: Constructor predeterminado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.export/html5options/html5options/
 ---  

@@ -2,7 +2,7 @@
 title: ISmartArt
 second_title: Aspose.Sildes para .NET API Reference  
 description: Representa un diagrama SmartArt.
-type: docs  
+type: docs
 weight: 10230  
 url: /es/aspose.slides.smartart/ismartart/
 ---  

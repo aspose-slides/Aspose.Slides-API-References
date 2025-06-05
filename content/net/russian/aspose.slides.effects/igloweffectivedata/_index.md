@@ -2,7 +2,7 @@
 title: IGlowEffectiveData
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Неизменяемый объект, который представляет эффект свечения, при котором цветное размазанное обрамление добавляется за пределами краев объекта.
-type: docs  
+type: docs
 weight: 3210  
 url: /ru/aspose.slides.effects/igloweffectivedata/
 ---  

@@ -2,7 +2,7 @@
 title: RelatedLegendEntry
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Propiedades de la entrada de leyenda correspondiente en caso de un tipo de gráfico de esta lista ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. Solo lectura ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
-type: docs  
+type: docs
 weight: 160  
 url: /es/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---  

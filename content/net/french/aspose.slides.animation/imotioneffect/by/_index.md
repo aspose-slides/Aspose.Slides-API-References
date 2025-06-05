@@ -2,7 +2,7 @@
 title: By
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Décrit la valeur de décalage relatif pour l'animation en pourcentages. Lecture/écriture PointF.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.animation/imotioneffect/by/
 ---  

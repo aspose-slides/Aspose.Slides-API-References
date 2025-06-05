@@ -2,7 +2,7 @@
 title: GetConcatenatedValuesFromCells
 second_title: Référence API Aspose.Slides pour .NET  
 description: Chaîne de concaténation de toutes les valeurs de chaîne des cellules.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells/
 ---  

@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie un index de la diapositive spécifiée dans la collection.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/islidecollection/indexof/
 ---  

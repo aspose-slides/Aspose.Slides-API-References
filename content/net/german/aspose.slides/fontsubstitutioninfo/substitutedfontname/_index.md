@@ -2,7 +2,7 @@
 title: SubstitutedFontName
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Ersatzschriftartnamen für die ursprüngliche Schriftart an. Nur lesbarer String
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/fontsubstitutioninfo/substitutedfontname/
 ---  

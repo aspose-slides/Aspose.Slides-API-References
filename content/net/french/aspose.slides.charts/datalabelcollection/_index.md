@@ -2,7 +2,7 @@
 title: DataLabelCollection
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Représente des étiquettes de série.
-type: docs  
+type: docs
 weight: 1480  
 url: /fr/aspose.slides.charts/datalabelcollection/
 ---  

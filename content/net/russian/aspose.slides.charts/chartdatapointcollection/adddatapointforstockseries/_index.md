@@ -2,7 +2,7 @@
 title: AddDataPointForStockSeries
 second_title: Aspose.Sildes для .NET API Reference  
 description: Создает новую точку данных и добавляет её в конец коллекции. Применимо для серий, у которых chartType является одним из подтипов Stock, см. также метод IsChartTypeStockaspose.slides/charttypecharacterizer/ischarttypestock.
-type: docs  
+type: docs
 weight: 220  
 url: /ru/aspose.slides.charts/chartdatapointcollection/adddatapointforstockseries/
 ---  

@@ -2,7 +2,7 @@
 title: MathLimit
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Инициализирует новый экземпляр класса MathLimit.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.mathtext/mathlimit/mathlimit/
 ---  

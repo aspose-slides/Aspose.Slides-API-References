@@ -2,7 +2,7 @@
 title: FindByNameAndInitials
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Найти автора в коллекции по имени и инициалам.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides/icommentauthorcollection/findbynameandinitials/
 ---  

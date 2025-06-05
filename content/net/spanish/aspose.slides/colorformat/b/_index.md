@@ -2,7 +2,7 @@
 title: B
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve o establece el componente azul de un color. Se ignoran todas las transformaciones de color. Lectura/escritura Byte.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/colorformat/b/
 ---  

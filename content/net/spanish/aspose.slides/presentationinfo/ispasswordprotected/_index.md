@@ -2,7 +2,7 @@
 title: IsPasswordProtected
 second_title: Referencia de la API de Aspose.Sildes para .NET  
 description: Obtiene un valor que indica si una presentación vinculada está protegida por una contraseña para abrir.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/presentationinfo/ispasswordprotected/
 ---  

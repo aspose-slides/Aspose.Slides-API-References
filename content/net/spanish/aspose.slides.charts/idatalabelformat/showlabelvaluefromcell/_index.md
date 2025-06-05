@@ -2,7 +2,7 @@
 title: ShowLabelValueFromCell
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa el comportamiento de visualización de valores de celda de etiquetas de datos de un gráfico específico. True muestra el valor de la celda. False para ocultar. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides.charts/idatalabelformat/showlabelvaluefromcell/
 ---  

@@ -2,7 +2,7 @@
 title: PresentationFactory
 second_title: Aspose.Slides para .NET API Reference  
 description: El constructor predeterminado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/presentationfactory/presentationfactory/
 ---  

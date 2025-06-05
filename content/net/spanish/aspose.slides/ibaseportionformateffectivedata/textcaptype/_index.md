@@ -2,7 +2,7 @@
 title: TextCapType
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el tipo de capitalización de texto. Solo de lectura TextCapTypeaspose.slides/textcaptype.
-type: docs  
+type: docs
 weight: 250  
 url: /es/aspose.slides/ibaseportionformateffectivedata/textcaptype/
 ---  

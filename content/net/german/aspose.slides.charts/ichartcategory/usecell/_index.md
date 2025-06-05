@@ -2,7 +2,7 @@
 title: UseCell
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Wenn wahr, ist die AsCell-Eigenschaft aktuell. Mit anderen Worten, das Arbeitsblatt wird zum Speichern der Kategorie verwendet dieser Fall unterstützt eine mehrstufige Kategorie. Wenn falsch, ist die AsLiteral-Eigenschaft aktuell. Mit anderen Worten, das Arbeitsblatt wird NICHT zum Speichern der Kategorie verwendet und dieser Fall unterstützt keine mehrstufigen Kategorien. Nur lesbarer Boolean.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.charts/ichartcategory/usecell/
 ---  

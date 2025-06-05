@@ -2,7 +2,7 @@
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回填充格式的有效值。只读 IFillFormatEffectiveData aspose.slides/ifillformateffectivedata。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/ibasetableformateffectivedata/fillformat/
 ---  

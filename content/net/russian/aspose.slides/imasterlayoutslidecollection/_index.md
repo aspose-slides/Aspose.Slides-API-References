@@ -2,7 +2,7 @@
 title: IMasterLayoutSlideCollection
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет собой коллекцию всех макетов слайдов определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами для добавления/вставки/удаления/клонирования макетов слайдов в контексте отдельных коллекций мастер-макетов слайдов.
-type: docs  
+type: docs
 weight: 6180  
 url: /ru/aspose.slides/imasterlayoutslidecollection/
 ---  

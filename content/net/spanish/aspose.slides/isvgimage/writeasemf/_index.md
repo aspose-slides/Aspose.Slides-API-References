@@ -2,7 +2,7 @@
 title: WriteAsEmf
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Guarda la imagen SVG como un archivo EMF.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/isvgimage/writeasemf/
 ---  

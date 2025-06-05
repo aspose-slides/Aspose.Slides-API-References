@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides para .NET API Reference  
 description: Obtiene el elemento en el índice especificado. Solo lectura IVideoaspose.slides/ivideo.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/ivideocollection/item/
 ---  

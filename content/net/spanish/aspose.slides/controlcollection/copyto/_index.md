@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference  
 description: Copia toda la colección al array especificado.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/controlcollection/copyto/
 ---  

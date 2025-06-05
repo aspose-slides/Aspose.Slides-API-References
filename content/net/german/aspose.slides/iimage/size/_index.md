@@ -2,7 +2,7 @@
 title: Size
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt die Größe des Bildes zurück.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/iimage/size/
 ---  

@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft die effektiven Eigenschaften der Tabellenzeilenformatierung mit vererbten und angewendeten Tabellenstilen ab.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/irowformat/geteffective/
 ---  

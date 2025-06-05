@@ -2,7 +2,7 @@
 title: IFillFormatCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference  
 description: 不可变对象，表示只读的有效填充格式集合。
-type: docs  
+type: docs
 weight: 10930  
 url: /zh/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---  

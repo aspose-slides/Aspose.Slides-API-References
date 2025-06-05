@@ -2,7 +2,7 @@
 title: InternalString
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回此 FieldTypeEx 对象的内部名称。可读写字符串。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides/ifieldtype/internalstring/
 ---  

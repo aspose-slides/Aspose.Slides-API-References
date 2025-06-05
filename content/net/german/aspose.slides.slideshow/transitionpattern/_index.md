@@ -2,7 +2,7 @@
 title: TransitionPattern
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt ein geometrisches Muster an, das zusammen gekachelt wird, um einen größeren Bereich auszufüllen.
-type: docs  
+type: docs
 weight: 10090  
 url: /de/aspose.slides.slideshow/transitionpattern/
 ---  

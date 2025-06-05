@@ -2,7 +2,7 @@
 title: LinkEmbedController
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt ein Callback-Objekt zurück oder legt es fest, das steuert, wie externe Objekte gespeichert werden. Lese-/Schreibzugriff auf ILinkEmbedController aspose.slides.export/ilinkembedcontroller.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller/
 ---  

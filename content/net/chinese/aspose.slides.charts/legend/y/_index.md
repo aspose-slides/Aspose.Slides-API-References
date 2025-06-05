@@ -2,7 +2,7 @@
 title: Y
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置图例的 y 坐标，作为图表高度的一个分数。可读/可写 Single。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides.charts/legend/y/
 ---  

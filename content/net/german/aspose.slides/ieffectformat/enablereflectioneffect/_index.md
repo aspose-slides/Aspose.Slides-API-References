@@ -2,7 +2,7 @@
 title: EnableReflectionEffect
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Aktiviert den Reflexionseffekt.
-type: docs  
+type: docs
 weight: 240  
 url: /de/aspose.slides/ieffectformat/enablereflectioneffect/
 ---  

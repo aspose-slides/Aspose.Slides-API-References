@@ -2,7 +2,7 @@
 title: ParagraphFormat
 second_title: Aspose.Sildes для .NET API Reference  
 description: Этот класс содержит свойства форматирования абзаца. В отличие от IParagraphFormatEffectiveData./iparagraphformateffectivedata все свойства этого класса доступны для записи.
-type: docs  
+type: docs
 weight: 9040  
 url: /ru/aspose.slides/paragraphformat/
 ---  

@@ -2,7 +2,7 @@
 title: YValue
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den y-Wert des Diagrammdatensatzes zurück. Nur lesbarer IDoubleChartValueaspose.slides.charts/idoublechartvalue.
-type: docs  
+type: docs
 weight: 180  
 url: /de/aspose.slides.charts/ichartdatapoint/yvalue/
 ---  

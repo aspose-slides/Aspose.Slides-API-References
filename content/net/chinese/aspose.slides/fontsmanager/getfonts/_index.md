@@ -2,7 +2,7 @@
 title: GetFonts
 second_title: Aspose.Slides for .NET API Reference  
 description: 返回演示文稿中使用的字体
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/fontsmanager/getfonts/
 ---  

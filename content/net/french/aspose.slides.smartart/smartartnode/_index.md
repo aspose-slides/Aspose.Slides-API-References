@@ -2,7 +2,7 @@
 title: SmartArtNode
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente un nœud d'un objet SmartArt
-type: docs  
+type: docs
 weight: 10320  
 url: /fr/aspose.slides.smartart/smartartnode/
 ---  

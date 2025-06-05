@@ -2,7 +2,7 @@
 title: PlayMode
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Audio-Wiedergabemodus zurück oder setzt ihn. Lese-/Schreibzugriff auf AudioPlayModePreset aspose.slides/audioplaymodepreset.
-type: docs  
+type: docs
 weight: 140  
 url: /de/aspose.slides/iaudioframe/playmode/
 ---  

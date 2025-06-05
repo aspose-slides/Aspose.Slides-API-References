@@ -2,7 +2,7 @@
 title: IsPasswordProtected
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指示VBAProject是否受密码保护，以查看项目属性。只读布尔值。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.vba/ivbaproject/ispasswordprotected/
 ---  

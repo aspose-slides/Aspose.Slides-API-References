@@ -2,7 +2,7 @@
 title: Clear
 second_title: Aspose.Slides für .NET API Referenz  
 description: Entfernt alle Eigenschaften.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/controlpropertiescollection/clear/
 ---  

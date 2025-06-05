@@ -2,7 +2,7 @@
 title: SelectLocked
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/ipictureframelock/selectlocked/
 ---  

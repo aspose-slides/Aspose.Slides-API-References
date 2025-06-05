@@ -2,7 +2,7 @@
 title: IMasterSlideCollection
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt eine Sammlung von Masterfolien dar.
-type: docs  
+type: docs
 weight: 6230  
 url: /de/aspose.slides/imasterslidecollection/
 ---  

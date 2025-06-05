@@ -2,7 +2,7 @@
 title: IncludeOleData
 second_title: Aspose.Slides für .NET API Referenz  
 description: Wahr, um alle OLE-Daten aus der Präsentation in eingebettete Dateien im resultierenden PDF zu konvertieren. Lese-/Schreibe-Boolean.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides.export/ipdfoptions/includeoledata/
 ---  

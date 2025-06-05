@@ -2,7 +2,7 @@
 title: IFontSubstRuleCollection
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une collection de substitutions de polices.
-type: docs  
+type: docs
 weight: 5690  
 url: /fr/aspose.slides/ifontsubstrulecollection/
 ---  

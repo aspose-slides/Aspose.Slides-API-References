@@ -2,7 +2,7 @@
 title: FillOverlayEffect
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Эффект наложения заполнения. Чтение/запись IFillOverlayaspose.slides.effects/ifilloverlay.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/ieffectformat/filloverlayeffect/
 ---  

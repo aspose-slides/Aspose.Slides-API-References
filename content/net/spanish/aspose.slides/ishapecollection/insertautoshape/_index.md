@@ -2,7 +2,7 @@
 title: InsertAutoShape
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea un nuevo AutoShape, lo ajusta a partir de la plantilla predeterminada e inserta en la colección en el índice especificado. Nota el tipo de la forma será determinado por el parámetro shapeType.
-type: docs  
+type: docs
 weight: 250  
 url: /es/aspose.slides/ishapecollection/insertautoshape/
 ---  

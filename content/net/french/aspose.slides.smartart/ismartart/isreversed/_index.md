@@ -2,7 +2,7 @@
 title: IsReversed
 second_title: Aspose.Slides pour .NET API Reference  
 description: Retourner ou définir l'état du diagramme SmartArt en ce qui concerne de gauche à droite LTR ou de droite à gauche RTL si le diagramme prend en charge l'inversion. Lecture/écriture Boolean.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.smartart/ismartart/isreversed/
 ---  

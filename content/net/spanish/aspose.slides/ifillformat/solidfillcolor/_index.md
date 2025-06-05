@@ -2,7 +2,7 @@
 title: SolidFillColor
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el color de relleno. Solo lectura IColorFormataspose.slides/icolorformat.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/ifillformat/solidfillcolor/
 ---  

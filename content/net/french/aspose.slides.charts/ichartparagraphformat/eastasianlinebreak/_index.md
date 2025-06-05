@@ -2,7 +2,7 @@
 title: EastAsianLineBreak
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Détermine si le saut de ligne est utilisé dans un paragraphe. Lecture/écriture NullableBool aspose.slides/nullablebool.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.charts/ichartparagraphformat/eastasianlinebreak/
 ---  

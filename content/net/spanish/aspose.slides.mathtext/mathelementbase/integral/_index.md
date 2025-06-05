@@ -2,7 +2,7 @@
 title: Integral
 second_title: Aspose.Sildes para .NET Referencia de la API  
 description: Toma la integral
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides.mathtext/mathelementbase/integral/
 ---  

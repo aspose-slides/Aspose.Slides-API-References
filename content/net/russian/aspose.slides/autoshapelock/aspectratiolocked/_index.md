@@ -2,7 +2,7 @@
 title: AspectRatioLocked
 second_title: Aspose.Slides для .NET API Reference  
 description: Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Читаемое/записываемое булевое.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/autoshapelock/aspectratiolocked/
 ---  

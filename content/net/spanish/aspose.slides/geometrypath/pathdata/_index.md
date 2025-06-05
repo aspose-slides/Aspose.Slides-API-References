@@ -2,7 +2,7 @@
 title: PathData
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve la trayectoria de geometría de GeometryShape como un arreglo de segmentos de trayectoria.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/geometrypath/pathdata/
 ---  

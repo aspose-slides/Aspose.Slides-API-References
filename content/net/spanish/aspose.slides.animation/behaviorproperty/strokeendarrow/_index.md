@@ -2,7 +2,7 @@
 title: StrokeEndArrow
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Representa la propiedad stroke.endArrow
-type: docs  
+type: docs
 weight: 910  
 url: /es/aspose.slides.animation/behaviorproperty/strokeendarrow/
 ---  

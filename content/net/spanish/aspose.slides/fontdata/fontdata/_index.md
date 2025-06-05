@@ -2,7 +2,7 @@
 title: FontData
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Crea un nuevo objeto FontData con el nombre de fuente especificado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/fontdata/fontdata/
 ---  

@@ -2,7 +2,7 @@
 title: ILayoutSlideCollection
 second_title: Aspose.Slides for .NET API Reference  
 description: 表示布局幻灯片集合的基类。
-type: docs  
+type: docs
 weight: 6030  
 url: /zh/aspose.slides/ilayoutslidecollection/
 ---  

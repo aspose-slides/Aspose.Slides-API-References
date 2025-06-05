@@ -2,7 +2,7 @@
 title: AddFillOverlayEffect
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Ajoute le nouvel effet de remplissage par superposition à la fin d'une collection.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect/
 ---  

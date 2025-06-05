@@ -2,7 +2,7 @@
 title: IsMergedCell
 second_title: Aspose.Slides pour .NET Référence API  
 description: Retourne vrai si la cellule est fusionnée avec une cellule ajustée, faux sinon. Booléen en lecture seule.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/icell/ismergedcell/
 ---  

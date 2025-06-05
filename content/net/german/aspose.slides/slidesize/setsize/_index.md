@@ -2,7 +2,7 @@
 title: SetSize
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Legt den Typ der Foliensgröße fest und skaliert den Inhalt mit dem Skalierungstyp. Das Zuweisen eines Wertes, außer Custom, ändert Sizeaspose.slides/slidesize/size entsprechend, hält aber Orientationaspose.slides/slidesize/orientation intakt.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/slidesize/setsize/
 ---  

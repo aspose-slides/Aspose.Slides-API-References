@@ -2,7 +2,7 @@
 title: GetResourcePath
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回给定资源的路径。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides.export.web/output/getresourcepath/
 ---  

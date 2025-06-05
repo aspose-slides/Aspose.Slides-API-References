@@ -2,7 +2,7 @@
 title: SetRotation
 second_title: Aspose.Slides für .NET API Referenz  
 description: Eine Rotation wird durch die Verwendung eines Breitengradkoordinats, eines Längengradkoordinats und einer Umdrehung um die Achse entsprechend den Breitengrad- und Längengradkoordinaten definiert. Wenn einer der Koordinatenwerte float.NaN ist, ist die gesamte Rotation undefiniert.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/icamera/setrotation/
 ---  

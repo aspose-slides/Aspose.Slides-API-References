@@ -2,7 +2,7 @@
 title: SkewVertical
 second_title: Aspose.Slides para .NET API Reference  
 description: Especifica el ángulo de sesgo vertical. Lectura/escritura Double.
-type: docs  
+type: docs
 weight: 140  
 url: /es/aspose.slides.effects/ireflection/skewvertical/
 ---  

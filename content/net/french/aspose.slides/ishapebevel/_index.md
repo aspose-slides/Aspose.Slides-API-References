@@ -2,7 +2,7 @@
 title: IShapeBevel
 second_title: Aspose.Slides pour .NET Référence API  
 description: Représente les propriétés du relief de la face principale des formes.
-type: docs  
+type: docs
 weight: 6740  
 url: /fr/aspose.slides/ishapebevel/
 ---  

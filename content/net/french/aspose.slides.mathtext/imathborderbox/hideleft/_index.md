@@ -2,7 +2,7 @@
 title: HideLeft
 second_title: Aspose.Sildes pour la référence de l'API .NET  
 description: La bordure gauche cachée est par défaut false - spécifie l'état caché ou visible de la bordure gauche de la boîte de bord.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.mathtext/imathborderbox/hideleft/
 ---  

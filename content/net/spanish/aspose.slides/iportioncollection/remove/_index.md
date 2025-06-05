@@ -3,7 +3,7 @@
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference  
 description: Elimina la primera ocurrencia de un objeto específico de la ICollection.
-type: docs  
+type: docs
 weight: 90  
 url: /es/aspose.slides/iportioncollection/remove/
 ---  

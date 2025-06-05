@@ -2,7 +2,7 @@
 title: PptxEditException
 second_title: Référence API Aspose.Slides pour .NET  
 description: Constructeur par défaut.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/pptxeditexception/pptxeditexception/
 ---  

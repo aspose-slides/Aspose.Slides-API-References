@@ -2,7 +2,7 @@
 title: IMasterHandoutSlideManager
 second_title: Aspose.Slides für .NET API Referenz  
 description: Master-Handout-Folienmanager.
-type: docs  
+type: docs
 weight: 6170  
 url: /de/aspose.slides/imasterhandoutslidemanager/
 ---  

@@ -2,7 +2,7 @@
 title: MathBorderBoxFactory
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ermöglicht die Erstellung eines mathematischen Randkastens
-type: docs  
+type: docs
 weight: 8360  
 url: /de/aspose.slides.mathtext/mathborderboxfactory/
 ---  

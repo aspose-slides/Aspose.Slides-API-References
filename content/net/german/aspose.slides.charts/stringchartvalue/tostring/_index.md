@@ -2,7 +2,7 @@
 title: ToString
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Daten als Zeichenfolgewert zurück. Gibt null zurück, wenn DataSourceType falsch ist und kein Zeichenfolgewert zugewiesen wurde.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.charts/stringchartvalue/tostring/
 ---  

@@ -2,7 +2,7 @@
 title: LastPrinted
 second_title: Aspose.Slides для .NET API Reference  
 description: Возвращает дату, когда презентация была напечатана в последний раз. Чтение/запись DateTime.
-type: docs  
+type: docs
 weight: 170  
 url: /ru/aspose.slides/idocumentproperties/lastprinted/
 ---  

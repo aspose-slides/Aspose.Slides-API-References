@@ -2,7 +2,7 @@
 title: GetGeometryPaths
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie une copie du chemin de la forme géométrique. Les coordonnées sont relatives au coin supérieur gauche de la forme.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/geometryshape/getgeometrypaths/
 ---  

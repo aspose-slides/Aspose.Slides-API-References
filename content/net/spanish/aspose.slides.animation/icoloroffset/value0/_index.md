@@ -2,7 +2,7 @@
 title: Value0
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Define el primer valor de desplazamiento. Lectura/escritura Single.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.animation/icoloroffset/value0/
 ---  

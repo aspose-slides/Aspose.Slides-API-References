@@ -2,7 +2,7 @@
 title: AsIThemeable
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ermöglicht den Zugriff auf die Basis-IThemeable-Schnittstelle. Nur lesbares IThemeable aspose.slides.theme/ithemeable.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.charts/chart/asithemeable/
 ---  

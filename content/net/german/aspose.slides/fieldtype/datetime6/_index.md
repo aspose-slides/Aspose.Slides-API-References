@@ -2,7 +2,7 @@
 title: DateTime6
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Aktuelles Datum und Uhrzeit in einem sechsten vordefinierten Format Monat YY für Englisch. Schreibgeschützter FieldType aspose.slides/fieldtype.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides/fieldtype/datetime6/
 ---  

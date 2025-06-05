@@ -2,7 +2,7 @@
 title: Add
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Agrega subtítulos cerrados WebVTT al final de la colección.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/captionscollection/add/
 ---  

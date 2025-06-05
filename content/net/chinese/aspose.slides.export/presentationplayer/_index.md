@@ -2,7 +2,7 @@
 title: PresentationPlayer
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示与 Presentationaspose.slides/aspose.slides/presentation 相关联的动画播放器。
-type: docs  
+type: docs
 weight: 4200  
 url: /zh/aspose.slides.export/presentationplayer/
 ---  

@@ -2,7 +2,7 @@
 title: AddSmartArt
 second_title: Aspose.Sildes for .NET API Reference  
 description: 添加SmartArt图表。
-type: docs  
+type: docs
 weight: 180  
 url: /zh/aspose.slides/shapecollection/addsmartart/
 ---  

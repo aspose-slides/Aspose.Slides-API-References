@@ -2,7 +2,7 @@
 title: Clear
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Elimina todos los subtítulos cerrados de la colección.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/icaptionscollection/clear/
 ---  

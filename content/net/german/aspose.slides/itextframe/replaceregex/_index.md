@@ -2,7 +2,7 @@
 title: ReplaceRegex
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Ersetzt alle Übereinstimmungen des regulären Ausdrucks durch die angegebene Zeichenfolge.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/itextframe/replaceregex/
 ---  

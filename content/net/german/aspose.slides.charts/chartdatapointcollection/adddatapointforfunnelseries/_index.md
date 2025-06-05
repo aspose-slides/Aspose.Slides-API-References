@@ -2,7 +2,7 @@
 title: AddDataPointForFunnelSeries
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Erstellt den neuen Datenpunkt und fügt ihn ans Ende der Sammlung hinzu. Anwendbar für Serien, deren Diagrammtyp Funnel ist.
-type: docs  
+type: docs
 weight: 150  
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforfunnelseries/
 ---  

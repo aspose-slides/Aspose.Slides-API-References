@@ -2,7 +2,7 @@
 title: ISaveOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 控制演示文稿保存方式的选项。
-type: docs  
+type: docs
 weight: 3900  
 url: /zh/aspose.slides.export/isaveoptions/
 ---  

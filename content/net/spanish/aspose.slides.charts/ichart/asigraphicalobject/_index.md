@@ -2,7 +2,7 @@
 title: AsIGraphicalObject
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Permite obtener la interfaz base IGraphicalObject. Solo lectura IGraphicalObject aspose.slides/igraphicalobject.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.charts/ichart/asigraphicalobject/
 ---  

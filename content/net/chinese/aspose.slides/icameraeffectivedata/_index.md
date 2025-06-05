@@ -2,7 +2,7 @@
 title: ICameraEffectiveData
 second_title: Aspose.Sildes for .NET API Reference  
 description: 不可变对象，包含有效的相机属性。
-type: docs  
+type: docs
 weight: 5220  
 url: /zh/aspose.slides/icameraeffectivedata/
 ---  

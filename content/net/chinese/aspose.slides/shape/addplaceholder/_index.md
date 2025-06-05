@@ -2,7 +2,7 @@
 title: AddPlaceholder
 second_title: Aspose.Sildes for .NET API Reference  
 description: 如果没有占位符，则添加一个新占位符并将占位符属性设置为指定的属性。
-type: docs  
+type: docs
 weight: 330  
 url: /zh/aspose.slides/shape/addplaceholder/
 ---  

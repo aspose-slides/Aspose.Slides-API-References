@@ -2,7 +2,7 @@
 title: Default
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la configuración predeterminada. Solo lectura SVGOptionsaspose.slides.export/svgoptions.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.export/svgoptions/default/
 ---  

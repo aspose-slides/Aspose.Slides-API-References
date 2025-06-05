@@ -2,7 +2,7 @@
 title: Y
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die y-Koordinate der oberen linken Ecke der Form zurück oder setzt sie. Lese-/Schreibzugriff auf Einzelwert.
-type: docs  
+type: docs
 weight: 310  
 url: /de/aspose.slides/shape/y/
 ---  

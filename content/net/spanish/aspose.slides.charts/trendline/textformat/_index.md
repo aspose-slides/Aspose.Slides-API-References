@@ -2,7 +2,7 @@
 title: TextFormat
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve el formato de texto. Solo lectura IChartTextFormataspose.slides.charts/icharttextformat.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides.charts/trendline/textformat/
 ---  

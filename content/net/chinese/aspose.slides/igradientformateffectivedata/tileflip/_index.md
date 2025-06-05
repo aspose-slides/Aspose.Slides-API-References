@@ -2,7 +2,7 @@
 title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回渐变的翻转模式。只读 TileFlip aspose.slides/tileflip。
-type: docs  
+type: docs
 weight: 70  
 url: /zh/aspose.slides/igradientformateffectivedata/tileflip/
 ---  

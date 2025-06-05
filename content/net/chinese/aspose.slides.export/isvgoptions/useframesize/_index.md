@@ -2,7 +2,7 @@
 title: UseFrameSize
 second_title: Aspose.Sildes for .NET API Reference 
 description: 确定文本框是否包括在渲染区域中。可读/可写布尔值。默认值为false。
-type: docs 
+type: docs
 weight: 140 
 url: /zh/aspose.slides.export/isvgoptions/useframesize/
 --- 

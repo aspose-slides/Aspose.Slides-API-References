@@ -2,7 +2,7 @@
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference  
 description: Вставляет IMathBlock в коллекцию по указанному индексу.
-type: docs  
+type: docs
 weight: 80  
 url: /ru/aspose.slides.mathtext/imathblockcollection/insert/
 ---  

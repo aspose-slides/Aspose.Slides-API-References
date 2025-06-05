@@ -2,7 +2,7 @@
 title: AsIMathElement
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许获取基础 IMathElement 接口 IMathElementaspose.slides.mathtext/imathelement
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.mathtext/imathradical/asimathelement/
 ---  

@@ -2,7 +2,7 @@
 title: JpegQuality
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt einen Wert zurück oder legt einen fest, der die Qualität der JPEG-Bilder im PDF-Dokument bestimmt. Lese-/Schreib-Byte.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides.export/ipdfoptions/jpegquality/
 ---  

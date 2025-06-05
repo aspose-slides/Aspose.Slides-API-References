@@ -2,7 +2,7 @@
 title: Insert
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Fügt ein neues Verhalten an der angegebenen Stelle in einer Sammlung ein.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides.animation/ibehaviorcollection/insert/
 ---  

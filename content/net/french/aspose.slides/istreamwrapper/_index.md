@@ -2,7 +2,7 @@
 title: IStreamWrapper
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Wrapper Aspose.IO.Stream pour l'interface COM.
-type: docs  
+type: docs
 weight: 6910  
 url: /fr/aspose.slides/istreamwrapper/
 ---  

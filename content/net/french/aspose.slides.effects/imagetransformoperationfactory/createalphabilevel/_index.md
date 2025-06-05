@@ -2,7 +2,7 @@
 title: CreateAlphaBiLevel
 second_title: Référence API Aspose.Slides pour .NET  
 description: Crée l'effet Alpha BiLevel.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.effects/imagetransformoperationfactory/createalphabilevel/
 ---  

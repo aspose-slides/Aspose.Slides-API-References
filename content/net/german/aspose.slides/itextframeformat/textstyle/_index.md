@@ -2,7 +2,7 @@
 title: TextStyle
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Textstil zurück. Nur-lesbar ITextStyleaspose.slides/itextstyle.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides/itextframeformat/textstyle/
 ---  

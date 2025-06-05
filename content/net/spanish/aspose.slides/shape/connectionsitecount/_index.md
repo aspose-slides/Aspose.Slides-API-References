@@ -2,7 +2,7 @@
 title: ConnectionSiteCount
 second_title: Aspose.Slides para la referencia de la API de .NET  
 description: Devuelve el número de sitios de conexión en la forma. Solo lectura Int32.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/shape/connectionsitecount/
 ---  

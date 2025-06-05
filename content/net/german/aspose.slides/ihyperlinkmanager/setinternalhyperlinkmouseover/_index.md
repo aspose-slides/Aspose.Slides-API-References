@@ -2,7 +2,7 @@
 title: SetInternalHyperlinkMouseOver
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Legt das Mouseover für interne Hyperlinks fest.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover/
 ---  

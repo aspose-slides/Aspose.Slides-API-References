@@ -2,7 +2,7 @@
 title: IsSynchronized
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает значение, указывающее, синхронизирован ли доступ к коллекции потоко-безопасно. Только для чтения логическое значение.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/adjustvaluecollection/issynchronized/
 ---  

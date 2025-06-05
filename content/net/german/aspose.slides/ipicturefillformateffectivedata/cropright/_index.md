@@ -2,7 +2,7 @@
 title: CropRight
 second_title: Aspose.Sildes for .NET API Referenz  
 description: Gibt die Anzahl der Prozent der tatsächlichen Bildbreite zurück, die rechts vom Bild abgeschnitten sind. Nur lesbar Single.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ipicturefillformateffectivedata/cropright/
 ---  

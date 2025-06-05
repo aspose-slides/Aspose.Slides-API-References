@@ -2,7 +2,7 @@
 title: MathDelimiterFactory
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Permet de créer un délimiteur mathématique
-type: docs  
+type: docs
 weight: 8400  
 url: /fr/aspose.slides.mathtext/mathdelimiterfactory/
 ---  

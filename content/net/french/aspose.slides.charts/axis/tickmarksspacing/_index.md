@@ -2,7 +2,7 @@
 title: TickMarksSpacing
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Spécifie combien de marques de graduation doivent être omises avant que la suivante ne soit dessinée. Appliqué à l'axe des catégories ou des séries. Lecture/écriture UInt16.
-type: docs  
+type: docs
 weight: 540  
 url: /fr/aspose.slides.charts/axis/tickmarksspacing/
 ---  

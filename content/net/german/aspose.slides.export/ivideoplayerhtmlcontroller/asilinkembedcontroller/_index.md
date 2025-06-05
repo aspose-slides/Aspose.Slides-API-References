@@ -2,7 +2,7 @@
 title: AsILinkEmbedController
 second_title: Aspose.Slides für .NET API Referenz  
 description: Ermöglicht den Zugriff auf die Basis-IlinkEmbedController-Schnittstelle. Schreibgeschützte ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/
 ---  

@@ -2,7 +2,7 @@
 title: Delimit
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Trennt alle Kindelemente mit dem Trennzeichen ohne die Klammern
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.mathtext/imathblock/delimit/
 ---  

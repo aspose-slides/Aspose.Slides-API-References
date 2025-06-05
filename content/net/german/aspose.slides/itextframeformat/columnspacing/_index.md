@@ -2,7 +2,7 @@
 title: ColumnSpacing
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Abstand zwischen Textspalten im Textbereich in Punkten zurück oder legt ihn fest. Dies sollte nur zutreffen, wenn mehr als 1 Spalte vorhanden ist. Dieser Wert muss eine positive Zahl sein. Andernfalls wird der Wert auf Null gesetzt. Lese-/Schreib-Doppel.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/itextframeformat/columnspacing/
 ---  

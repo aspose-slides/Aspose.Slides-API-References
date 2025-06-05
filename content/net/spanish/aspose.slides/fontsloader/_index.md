@@ -2,7 +2,7 @@
 title: FontsLoader
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Clase para cargar fuentes personalizadas definidas por el usuario. Debe usarse antes de crear cualquier objeto de presentación.
-type: docs  
+type: docs
 weight: 4730  
 url: /es/aspose.slides/fontsloader/
 ---  

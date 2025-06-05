@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die benutzerdefinierte Eigenschaft zurück oder legt sie fest, die mit einem bestimmten Namen verknüpft ist. Lese-/Schreibobjekt.
-type: docs  
+type: docs
 weight: 160  
 url: /de/aspose.slides/documentproperties/item/
 ---  

@@ -2,7 +2,7 @@
 title: ReadPresentation
 second_title: Référence API Aspose.Sildes pour .NET  
 description: Lit une présentation existante à partir d'un tableau
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/ipresentationfactory/readpresentation/
 ---  

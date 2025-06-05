@@ -2,7 +2,7 @@
 title: FontAlignment
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Devuelve o establece la alineación de una fuente en un párrafo. Lectura/escritura FontAlignmentaspose.slides/fontalignment.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides.charts/ichartparagraphformat/fontalignment/
 ---  

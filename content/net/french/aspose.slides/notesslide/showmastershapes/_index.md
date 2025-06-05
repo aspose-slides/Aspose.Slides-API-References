@@ -2,7 +2,7 @@
 title: ShowMasterShapes
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Spécifie si les formes sur le diapositive maître doivent être affichées ou non sur les diapositives. Boolean en lecture/écriture.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/notesslide/showmastershapes/
 ---  

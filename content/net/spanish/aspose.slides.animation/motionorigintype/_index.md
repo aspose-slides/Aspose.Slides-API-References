@@ -2,7 +2,7 @@
 title: MotionOriginType
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica a qué se refiere el origen de la ruta de movimiento. Tal como el diseño de la diapositiva o el padre.
-type: docs  
+type: docs
 weight: 600  
 url: /es/aspose.slides.animation/motionorigintype/
 ---  

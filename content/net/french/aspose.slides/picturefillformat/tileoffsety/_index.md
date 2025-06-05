@@ -2,7 +2,7 @@
 title: TileOffsetY
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Renvoie ou définit le décalage vertical de la texture par rapport à l'origine de la forme en points. Une valeur positive déplace la texture vers le bas tandis qu'une valeur négative la déplace vers le haut. Lire/écrire Simple.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides/picturefillformat/tileoffsety/
 ---  

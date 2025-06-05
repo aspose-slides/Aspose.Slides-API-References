@@ -2,7 +2,7 @@
 title: Equals
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine si le Glow spécifié Glowaspose.slides/glow est égal au Glow actuel Glowaspose.slides/glow.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.effects/glow/equals/
 ---  

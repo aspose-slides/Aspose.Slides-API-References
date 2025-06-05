@@ -2,7 +2,7 @@
 title: Y
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt einen Y-Versatz eines Bildes zurück. Nur-Lese Int32.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/ippimage/y/
 ---  

@@ -2,7 +2,7 @@
 title: Order
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回序列的顺序。读/写 Int32。
-type: docs  
+type: docs
 weight: 260  
 url: /zh/aspose.slides.charts/chartseries/order/
 ---  

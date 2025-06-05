@@ -2,7 +2,7 @@
 title: SetBlurEffect
 second_title: Référence API Aspose.Slides pour .NET  
 description: Définit l'effet de flou.
-type: docs  
+type: docs
 weight: 260  
 url: /fr/aspose.slides/effectformat/setblureffect/
 ---  

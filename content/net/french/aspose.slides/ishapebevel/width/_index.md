@@ -2,7 +2,7 @@
 title: Width
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Largeur de la chanfrein. Lecture/écriture Double.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/ishapebevel/width/
 ---  

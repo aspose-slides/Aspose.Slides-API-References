@@ -2,7 +2,7 @@
 title: TileOffsetX
 second_title: Aspose.Slides pour .NET API Reference  
 description: Renvoie ou définit le décalage horizontal de la texture par rapport à l'origine des formes en points. Une valeur positive déplace la texture vers la droite tandis qu'une valeur négative la déplace vers la gauche. Lecture/écriture Single.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides/ipicturefillformat/tileoffsetx/
 ---  

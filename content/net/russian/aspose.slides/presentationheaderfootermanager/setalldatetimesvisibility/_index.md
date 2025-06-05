@@ -2,7 +2,7 @@
 title: SetAllDateTimesVisibility
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Меняет видимость всех заполнительных дат и времени, включая основные слайды, макетные слайды, слайды, мастер заметок, заметки слайдов и мастер раздаточных материалов.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility/
 ---  

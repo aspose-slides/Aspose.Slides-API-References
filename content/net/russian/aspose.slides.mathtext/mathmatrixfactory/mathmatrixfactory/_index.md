@@ -2,7 +2,7 @@
 title: MathMatrixFactory
 second_title: Справка по API Aspose.Slides для .NET  
 description: Конструктор по умолчанию.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/
 ---  

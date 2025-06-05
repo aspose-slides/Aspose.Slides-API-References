@@ -2,7 +2,7 @@
 title: StyleRotation
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente la propriété style.rotation
-type: docs  
+type: docs
 weight: 1110  
 url: /fr/aspose.slides.animation/behaviorproperty/stylerotation/
 ---  

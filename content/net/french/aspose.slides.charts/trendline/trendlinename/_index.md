@@ -2,7 +2,7 @@
 title: TrendlineName
 second_title: Référence API Aspose.Slides pour .NET  
 description: Obtient ou définit le nom de la ligne de tendance. Chaîne en lecture/écriture.
-type: docs  
+type: docs
 weight: 130  
 url: /fr/aspose.slides.charts/trendline/trendlinename/
 ---  

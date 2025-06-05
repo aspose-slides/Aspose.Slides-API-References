@@ -2,7 +2,7 @@
 title: ISlidesPicture
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет изображение в презентации.
-type: docs  
+type: docs
 weight: 6890  
 url: /ru/aspose.slides/islidespicture/
 ---  

@@ -2,7 +2,7 @@
 title: CreateOuterShadow
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erstellt einen äußeren Schatteneffekt.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.effects/effectfactory/createoutershadow/
 ---  

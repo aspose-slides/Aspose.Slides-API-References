@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Supprime l'effet spécifié d'une collection.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides.animation/isequence/remove/
 ---  

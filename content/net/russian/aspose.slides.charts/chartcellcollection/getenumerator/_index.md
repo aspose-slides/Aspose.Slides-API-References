@@ -2,7 +2,7 @@
 title: GetEnumerator
 second_title: Справка по API Aspose.Slides для .NET  
 description: Возвращает перечислитель, который перебирает коллекцию.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides.charts/chartcellcollection/getenumerator/
 ---  

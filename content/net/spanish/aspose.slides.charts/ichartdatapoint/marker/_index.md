@@ -2,7 +2,7 @@
 title: Marker
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica un marcador de datos. Solo lectura IMarkeraspose.slides.charts/imarker.
-type: docs  
+type: docs
 weight: 120  
 url: /es/aspose.slides.charts/ichartdatapoint/marker/
 ---  

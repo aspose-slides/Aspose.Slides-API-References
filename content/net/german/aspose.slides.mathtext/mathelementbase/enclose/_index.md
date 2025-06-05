@@ -2,7 +2,7 @@
 title: Enclose
 second_title: Aspose.Slides für .NET API Referenz  
 description: Schließt ein mathematisches Element in angegebenen Zeichen wie Klammern oder andere Zeichen als Rahmen ein
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.mathtext/mathelementbase/enclose/
 ---  

@@ -2,7 +2,7 @@
 title: CreateSetEffect
 second_title: Aspose.Sildes для .NET API Reference  
 description: Создает эффект установки.
-type: docs  
+type: docs
 weight: 80  
 url: /ru/aspose.slides.animation/ibehaviorfactory/createseteffect/
 ---  

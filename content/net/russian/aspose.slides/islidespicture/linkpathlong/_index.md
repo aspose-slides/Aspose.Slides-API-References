@@ -2,7 +2,7 @@
 title: LinkPathLong
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает URL связанных изображений. Читаемая/записываемая строка.
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides/islidespicture/linkpathlong/
 ---  

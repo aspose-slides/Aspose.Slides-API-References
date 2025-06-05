@@ -2,7 +2,7 @@
 title: ToPdf
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Преобразует Presentationaspose.slides/presentation в PDF.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.lowcode/convert/topdf/
 ---  

@@ -2,7 +2,7 @@
 title: Overbar
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Establece una barra en la parte superior de este elemento
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides.mathtext/imathelement/overbar/
 ---  

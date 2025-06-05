@@ -2,7 +2,7 @@
 title: Bottom
 second_title: Aspose.Slides для .NET API Reference  
 description: Bottom. Только для чтения Single.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.charts/charttitle/bottom/
 ---  

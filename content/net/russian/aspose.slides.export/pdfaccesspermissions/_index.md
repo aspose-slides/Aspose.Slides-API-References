@@ -2,7 +2,7 @@
 title: PdfAccessPermissions
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Содержит набор флагов, указывающих, какие разрешения доступа должны быть предоставлены при открытии документа с пользовательским доступом.
-type: docs  
+type: docs
 weight: 4120  
 url: /ru/aspose.slides.export/pdfaccesspermissions/
 ---  

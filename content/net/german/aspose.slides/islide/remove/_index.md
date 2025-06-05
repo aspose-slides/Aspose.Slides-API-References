@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Entfernt die Folie aus der Präsentation.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/islide/remove/
 ---  

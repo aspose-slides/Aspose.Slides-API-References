@@ -2,7 +2,7 @@
 title: IReflection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente un effet de reflet.
-type: docs  
+type: docs
 weight: 3380  
 url: /fr/aspose.slides.effects/ireflection/
 ---  

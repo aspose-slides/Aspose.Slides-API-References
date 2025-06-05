@@ -2,7 +2,7 @@
 title: IsEncrypted
 second_title: Référence API Aspose.Slides pour .NET  
 description: Obtient une valeur indiquant si cette instance est cryptée. Boolean en lecture seule.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/iprotectionmanager/isencrypted/
 ---  

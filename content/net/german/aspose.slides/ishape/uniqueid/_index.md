@@ -2,7 +2,7 @@
 title: UniqueId
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erhält den eindeutigen Formbezeichner im Präsentationsbereich. Nur-Lese UInt32. Siehe auch OfficeInteropShapeIdaspose.slides/ishape/officeinteropshapeid, um den eindeutigen Formbezeichner im Folienbereich zu erhalten.
-type: docs  
+type: docs
 weight: 250  
 url: /de/aspose.slides/ishape/uniqueid/
 ---  

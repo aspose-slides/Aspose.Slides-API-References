@@ -2,7 +2,7 @@
 title: Shape
 second_title: Aspose.Sildes for .NET API Reference  
 description: 遍历每个 Shape aspose.slides.lowcode/foreach/shape 在 Presentation aspose.slides/presentation 中。形状将在所有类型的幻灯片中迭代 - Slide aspose.slides.lowcode/foreach/slide、MasterSlide aspose.slides.lowcode/foreach/masterslide 和 LayoutSlide aspose.slides.lowcode/foreach/layoutslide
-type: docs  
+type: docs
 weight: 50  
 url: /zh/aspose.slides.lowcode/foreach/shape/
 ---  

@@ -3,7 +3,7 @@
 title: ActualY
 second_title: Referencia de la API Aspose.Slides para .NET  
 description: Especifica la parte superior actual del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout antes de obtener los valores actuales. Lee Single.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides.charts/chartplotarea/actualy/
 ---  

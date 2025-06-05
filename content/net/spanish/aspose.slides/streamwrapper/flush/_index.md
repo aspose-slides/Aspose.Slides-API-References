@@ -2,7 +2,7 @@
 title: Flush
 second_title: Aspose.Sildes para .NET API Reference  
 description: Limpia todos los búferes para este flujo y hace que cualquier dato en búfer se escriba en el dispositivo subyacente.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/streamwrapper/flush/
 ---  

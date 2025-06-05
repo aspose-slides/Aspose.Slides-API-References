@@ -2,7 +2,7 @@
 title: CheckPassword
 second_title: Aspose.Slides para referencia de API de .NET  
 description: Comprueba si una contraseña es correcta para una presentación protegida con una contraseña abierta.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/ipresentationinfo/checkpassword/
 ---  

@@ -2,7 +2,7 @@
 title: RepeatUntilEndSlide
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Cet attribut spécifie si l'effet se répétera jusqu'à la fin de la diapositive. Booléen en lecture/écriture.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.animation/timing/repeatuntilendslide/
 ---  

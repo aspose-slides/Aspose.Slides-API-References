@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Добавить новую ячейку в коллекцию.
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides.charts/ichartcellcollection/add/
 ---  

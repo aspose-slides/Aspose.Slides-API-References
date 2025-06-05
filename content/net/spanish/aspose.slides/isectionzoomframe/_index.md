@@ -2,7 +2,7 @@
 title: ISectionZoomFrame
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa un objeto de Zoom de Sección en una diapositiva.
-type: docs  
+type: docs
 weight: 6720  
 url: /es/aspose.slides/isectionzoomframe/
 ---  

@@ -2,7 +2,7 @@
 title: IMathFraction
 second_title: Aspose.Sildes for .NET API Referenz  
 description: Gibt das Bruchobjekt an, das aus einem Zähler und einem Nenner besteht, die durch eine Bruchlinie getrennt sind. Die Bruchlinie kann je nach Bruchteileigenschaften horizontal oder diagonal sein. Das Bruchobjekt wird auch verwendet, um die Stapelfunktion darzustellen, die ein Element über ein anderes ohne Bruchlinie legt.
-type: docs  
+type: docs
 weight: 8000  
 url: /de/aspose.slides.mathtext/imathfraction/
 ---  

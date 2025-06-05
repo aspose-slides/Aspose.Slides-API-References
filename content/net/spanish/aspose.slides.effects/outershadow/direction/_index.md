@@ -2,7 +2,7 @@
 title: Direction
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Dirección de la sombra. Lectura/escritura Single.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.effects/outershadow/direction/
 ---  

@@ -2,7 +2,7 @@
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示管理器，持有备注幻灯片占位符的行为，包括页眉占位符。
-type: docs  
+type: docs
 weight: 6310  
 url: /zh/aspose.slides/inotesslideheaderfootermanager/
 ---  

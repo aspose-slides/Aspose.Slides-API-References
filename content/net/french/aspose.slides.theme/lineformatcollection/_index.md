@@ -2,7 +2,7 @@
 title: LineFormatCollection
 second_title: Aspose.Sildes pour la documentation .NET  
 description: Représente la collection de styles de ligne.
-type: docs  
+type: docs
 weight: 11110  
 url: /fr/aspose.slides.theme/lineformatcollection/
 ---  

@@ -2,7 +2,7 @@
 title: PatternStyle
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Devuelve el estilo de patrón. Solo lectura PatternStyleaspose.slides/patternstyle.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/ipatternformateffectivedata/patternstyle/
 ---  

@@ -2,7 +2,7 @@
 title: IOverrideTheme
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa un tema de anulación.
-type: docs  
+type: docs
 weight: 11030  
 url: /es/aspose.slides.theme/ioverridetheme/
 ---  

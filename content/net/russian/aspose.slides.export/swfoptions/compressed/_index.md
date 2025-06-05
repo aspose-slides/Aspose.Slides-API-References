@@ -2,7 +2,7 @@
 title: Compressed
 second_title: Aspose.Sildes для .NET API Справка  
 description: Указывает, должен ли быть сжат сгенерированный документ SWF или нет. По умолчанию true.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.export/swfoptions/compressed/
 ---  

@@ -2,7 +2,7 @@
 title: SvgTSpan
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示 SVG 文本部分 tspan 的选项。
-type: docs  
+type: docs
 weight: 4330  
 url: /zh/aspose.slides.export/svgtspan/
 ---  

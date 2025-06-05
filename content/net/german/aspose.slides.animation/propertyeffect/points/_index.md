@@ -2,7 +2,7 @@
 title: Points
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Punkte der Animation an. Lese-/schreibbarer IPointCollectionaspose.slides.animation/ipointcollection.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.animation/propertyeffect/points/
 ---  

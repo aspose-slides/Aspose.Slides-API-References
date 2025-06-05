@@ -2,7 +2,7 @@
 title: ParentShape
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Retourne un Shape_PPT pour lequel l'élément a été créé. En lecture seule Shapeaspose.slides/shape.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/shapeelement/parentshape/
 ---  

@@ -2,7 +2,7 @@
 title: IMasterSlideCollection
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет собой коллекцию мастер-слайдов.
-type: docs  
+type: docs
 weight: 6230  
 url: /ru/aspose.slides/imasterslidecollection/
 ---  

@@ -2,7 +2,7 @@
 title: PathData
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回 GeometryShape 的几何路径作为路径段的数组。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides/igeometrypath/pathdata/
 ---  

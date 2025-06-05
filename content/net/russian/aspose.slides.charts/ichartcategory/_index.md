@@ -2,7 +2,7 @@
 title: IChartCategory
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет категории диаграмм.
-type: docs  
+type: docs
 weight: 1670  
 url: /ru/aspose.slides.charts/ichartcategory/
 ---  

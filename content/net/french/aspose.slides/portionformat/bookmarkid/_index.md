@@ -2,7 +2,7 @@
 title: BookmarkId
 second_title: Aspose.Slides pour la référence API .NET  
 description: Renvoie ou définit l'identifiant de signet. Chaîne en lecture/écriture.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/portionformat/bookmarkid/
 ---  

@@ -2,7 +2,7 @@
 title: RemoveSummaryZoomSection
 second_title: Aspose.Slides für .NET API Referenz  
 description: Entfernen Sie das Summary Zoom Section-Objekt aus der Sammlung.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection/
 ---  

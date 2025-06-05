@@ -2,7 +2,7 @@
 title: Format
 second_title: Aspose.Slides para .NET Referencia de la API  
 description: Devuelve el formato de un área de trama. Solo lectura IFormataspose.slides.charts/iformat.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.charts/ichartplotarea/format/
 ---  

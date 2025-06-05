@@ -2,7 +2,7 @@
 title: Base
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Argument de base
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.mathtext/mathbar/base/
 ---  

@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Slides pour la référence API .NET  
 description: Copie des audios dans un tableau spécifié à partir de l'index spécifié.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/audiocollection/copyto/
 ---  

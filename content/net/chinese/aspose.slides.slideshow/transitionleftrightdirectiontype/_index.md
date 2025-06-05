@@ -2,7 +2,7 @@
 title: TransitionLeftRightDirectionType
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定一个限制为左和右值的方向。
-type: docs  
+type: docs
 weight: 10070  
 url: /zh/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---  

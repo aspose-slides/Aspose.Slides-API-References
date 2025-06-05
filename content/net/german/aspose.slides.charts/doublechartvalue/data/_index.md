@@ -2,7 +2,7 @@
 title: Data
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt das Data-Objekt zurück oder setzt es. Lese-/Schreibobjekt.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.charts/doublechartvalue/data/
 ---  

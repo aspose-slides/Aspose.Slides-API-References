@@ -2,7 +2,7 @@
 title: Points
 second_title: Aspose.Slides für .NET API Referenz  
 description: Holt Punkte für das IInkLine PointF Nur-lesbar.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.ink/inktrace/points/
 ---  

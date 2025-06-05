@@ -2,7 +2,7 @@
 title: LinkPathLong
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den vollständigen Pfad zu einer verknüpften Datei zurück. Langer Dateiname wird verwendet. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides/oleobjectframe/linkpathlong/
 ---  

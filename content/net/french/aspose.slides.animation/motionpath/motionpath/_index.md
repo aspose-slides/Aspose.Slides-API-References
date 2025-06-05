@@ -2,7 +2,7 @@
 title: MotionPath
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Le constructeur par défaut.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.animation/motionpath/motionpath/
 ---  

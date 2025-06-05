@@ -2,7 +2,7 @@
 title: RawValue
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Anpassungswert "wie er ist" zurück oder legt ihn fest. Schreib-/Lesezugriff auf Int64.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/adjustvalue/rawvalue/
 ---  

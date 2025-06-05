@@ -2,7 +2,7 @@
 title: Line
 second_title: Aspose.Sildes para .NET Referencia de la API  
 description: Devuelve las propiedades del estilo de línea de una línea de gráfico. Solo lectura ILineFormataspose.slides/../aspose.slides/ilineformat.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.charts/chartlinesformat/line/
 ---  

@@ -2,7 +2,7 @@
 title: PdfOptions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 默认构造函数。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.export/pdfoptions/pdfoptions/
 ---  

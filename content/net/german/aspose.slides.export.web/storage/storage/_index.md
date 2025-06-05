@@ -2,7 +2,7 @@
 title: Storage
 second_title: Aspose.Slides für .NET API Referenz  
 description: Der Standardkonstruktor.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.export.web/storage/storage/
 ---  

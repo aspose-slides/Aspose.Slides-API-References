@@ -2,7 +2,7 @@
 title: ShowInnerPoints
 second_title: Aspose.Sildes para .NET API Referencia  
 description: Representa los puntos internos. Verdadero si los puntos internos se muestran en el gráfico BoxAndWhisker. Aplica solo a gráficos BoxAndWhisker. Lectura/escritura Booleano.
-type: docs  
+type: docs
 weight: 380  
 url: /es/aspose.slides.charts/chartseries/showinnerpoints/
 ---  

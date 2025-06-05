@@ -2,7 +2,7 @@
 title: ContourWidth
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve o establece el ancho de un contorno 3D. Lectura/escritura Doble.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/ithreedformat/contourwidth/
 ---  

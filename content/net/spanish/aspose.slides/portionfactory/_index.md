@@ -2,7 +2,7 @@
 title: PortionFactory
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite crear porciones de prueba
-type: docs  
+type: docs
 weight: 9210  
 url: /es/aspose.slides/portionfactory/
 ---  

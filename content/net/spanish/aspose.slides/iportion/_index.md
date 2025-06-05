@@ -2,7 +2,7 @@
 title: IPortion
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa una porción de texto dentro de un párrafo de texto.
-type: docs  
+type: docs
 weight: 6500  
 url: /es/aspose.slides/iportion/
 ---  

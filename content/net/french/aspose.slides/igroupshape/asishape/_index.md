@@ -2,7 +2,7 @@
 title: AsIShape
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Permet d'obtenir l'interface de base IShape. IShape en lecture seule aspose.slides/ishape.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/igroupshape/asishape/
 ---  

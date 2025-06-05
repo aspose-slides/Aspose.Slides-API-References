@@ -2,7 +2,7 @@
 title: Background
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt den Hintergrund einer Folie dar.
-type: docs  
+type: docs
 weight: 850  
 url: /de/aspose.slides/background/
 ---  

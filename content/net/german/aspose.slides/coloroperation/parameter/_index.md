@@ -2,7 +2,7 @@
 title: Parameter
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt einen Parameter einer Operation zurück. Schreibgeschützt Single.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/coloroperation/parameter/
 ---  

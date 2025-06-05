@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Référence de l'API Aspose.Sildes pour .NET  
 description: Supprime l'élément à l'index spécifié de la collection.
-type: docs  
+type: docs
 weight: 110  
 url: /fr/aspose.slides/tabcollection/removeat/
 ---  

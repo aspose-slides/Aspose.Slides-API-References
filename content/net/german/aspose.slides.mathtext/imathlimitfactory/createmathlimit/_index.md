@@ -2,7 +2,7 @@
 title: CreateMathLimit
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt IMathLimit
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.mathtext/imathlimitfactory/createmathlimit/
 ---  

@@ -2,7 +2,7 @@
 title: TextFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回文本格式。只读 IChartTextFormat aspose.slides.charts/icharttextformat。
-type: docs  
+type: docs
 weight: 110  
 url: /zh/aspose.slides.charts/trendline/textformat/
 ---  

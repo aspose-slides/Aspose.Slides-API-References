@@ -2,7 +2,7 @@
 title: FirstSlideNumber
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa el primer número de diapositiva en la presentación. Lectura/escritura Int32.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides/ipresentation/firstslidenumber/
 ---  

@@ -2,7 +2,7 @@
 title: TextVerticalType
 second_title: Aspose.Slides para .NET API Reference  
 description: Determina la orientación del texto. El valor resultante de la rotación visual del texto se resume a partir de esta propiedad y el ángulo personalizado en la propiedad RotationAngle. Leer/escribir TextVerticalType aspose.slides/textverticaltype.
-type: docs  
+type: docs
 weight: 130  
 url: /es/aspose.slides/itextframeformat/textverticaltype/
 ---  

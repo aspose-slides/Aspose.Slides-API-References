@@ -2,7 +2,7 @@
 title: ReplaceText
 second_title: Aspose.Sildes for .NET API Reference  
 description: Reemplaza todas las ocurrencias del texto especificado por otro texto especificado.
-type: docs  
+type: docs
 weight: 130  
 url: /es/aspose.slides/textframe/replacetext/
 ---  

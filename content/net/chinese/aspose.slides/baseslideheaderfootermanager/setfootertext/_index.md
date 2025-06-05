@@ -2,7 +2,7 @@
 title: SetFooterText
 second_title: Aspose.Sildes for .NET API 参考  
 description: 设置幻灯片页脚占位符的文本。
-type: docs  
+type: docs
 weight: 60  
 url: /zh/aspose.slides/baseslideheaderfootermanager/setfootertext/
 ---  

@@ -2,7 +2,7 @@
 title: CreateShapeElements
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea y devuelve un array de elementos de forma.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/geometryshape/createshapeelements/
 ---  

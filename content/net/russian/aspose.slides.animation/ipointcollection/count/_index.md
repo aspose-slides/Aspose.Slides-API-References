@@ -2,7 +2,7 @@
 title: Count
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает количество точек в коллекции. Только для чтения Int32.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.animation/ipointcollection/count/
 ---  

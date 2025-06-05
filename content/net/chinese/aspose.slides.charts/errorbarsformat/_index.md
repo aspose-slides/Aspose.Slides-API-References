@@ -2,7 +2,7 @@
 title: ErrorBarsFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示图表系列的误差条。误差条自定义值位于 IChartDataPointCollection 的 ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues 属性中。
-type: docs  
+type: docs
 weight: 1590  
 url: /zh/aspose.slides.charts/errorbarsformat/
 ---  

@@ -3,7 +3,7 @@
 title: SvgImage
 second_title: Aspose.Slides pour la référence API .NET  
 description: Renvoie ou définit l'objet ISvgImage ISvgImageaspose.slides/isvgimage
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/ppimage/svgimage/
 ---

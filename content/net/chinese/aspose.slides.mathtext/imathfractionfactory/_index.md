@@ -2,7 +2,7 @@
 title: IMathFractionFactory
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许创建数学分数
-type: docs  
+type: docs
 weight: 8010  
 url: /zh/aspose.slides.mathtext/imathfractionfactory/
 ---  

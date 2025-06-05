@@ -2,7 +2,7 @@
 title: PlayLoopMode
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Определяет, зацикленное ли видео. Свойство типа Boolean для чтения и записи.
-type: docs  
+type: docs
 weight: 60  
 url: /ru/aspose.slides/videoframe/playloopmode/
 ---  

@@ -2,7 +2,7 @@
 title: ICommentCollection
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет собой коллекцию комментариев одного автора.
-type: docs  
+type: docs
 weight: 5390  
 url: /ru/aspose.slides/icommentcollection/
 ---  

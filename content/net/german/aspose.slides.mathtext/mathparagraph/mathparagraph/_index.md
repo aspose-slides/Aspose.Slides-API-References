@@ -2,7 +2,7 @@
 title: MathParagraph
 second_title: Aspose.Slides für .NET API Referenz  
 description: Initialisiert eine neue Instanz der MathParagraph-Klasse.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.mathtext/mathparagraph/mathparagraph/
 ---  

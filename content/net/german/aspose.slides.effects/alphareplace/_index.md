@@ -2,7 +2,7 @@
 title: AlphaReplace
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Stellt einen Alpha Replace-Effekt dar. Die Alpha-Werte Transparenz des Effekts werden durch eine feste Alpha ersetzt.
-type: docs  
+type: docs
 weight: 2810  
 url: /de/aspose.slides.effects/alphareplace/
 ---  

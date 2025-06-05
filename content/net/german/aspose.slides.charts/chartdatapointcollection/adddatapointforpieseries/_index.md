@@ -2,7 +2,7 @@
 title: AddDataPointForPieSeries
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellt den neuen Datenpunkt und fügt ihn am Ende der Sammlung hinzu. Anwendbar für Serien, deren chartType eine der Pie-Subtypen ist, siehe auch die IsChartTypePieaspose.slides/charttypecharacterizer/ischarttypepie Methode.
-type: docs  
+type: docs
 weight: 190  
 url: /de/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
 ---  

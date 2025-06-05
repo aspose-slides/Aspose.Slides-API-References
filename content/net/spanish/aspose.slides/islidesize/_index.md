@@ -2,7 +2,7 @@
 title: ISlideSize
 second_title: Aspose.Slidess para .NET API Reference  
 description: Representa un tamaño de diapositiva.
-type: docs  
+type: docs
 weight: 6870  
 url: /es/aspose.slides/islidesize/
 ---  

@@ -2,7 +2,7 @@
 title: GetEffectStyles
 second_title: Aspose.Sildes para .NET API Reference  
 description: Devuelve una colección de estilos de efecto definidos por el tema.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
 ---  

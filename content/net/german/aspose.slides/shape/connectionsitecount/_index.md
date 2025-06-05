@@ -2,7 +2,7 @@
 title: ConnectionSiteCount
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Anzahl der Verbindungspunkte auf der Form zurück. Schreibgeschütztes Int32.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/shape/connectionsitecount/
 ---  

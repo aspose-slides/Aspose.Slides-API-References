@@ -3,7 +3,7 @@
 title: TransitionDuration
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient ou définit la durée de la transition entre Zoom et la diapositive. Lecture/écriture Single. Valeur par défaut 1.0f
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/izoomobject/transitionduration/
 ---

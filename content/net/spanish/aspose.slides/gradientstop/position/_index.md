@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Sildes para .NET API Reference  
 description: Devuelve o establece la posición 0..1 de un punto de gradiente. Lectura/escritura Single.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/gradientstop/position/
 ---  

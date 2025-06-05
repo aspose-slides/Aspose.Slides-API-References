@@ -2,7 +2,7 @@
 title: TextVerticalOverflowType
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет тип вертикального переполнения текста.
-type: docs  
+type: docs
 weight: 10710  
 url: /ru/aspose.slides/textverticaloverflowtype/
 ---  

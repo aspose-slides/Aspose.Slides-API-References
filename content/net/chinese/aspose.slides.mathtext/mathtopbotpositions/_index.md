@@ -2,7 +2,7 @@
 title: MathTopBotPositions
 second_title: Aspose.Sildes for .NET API Reference  
 description: 顶部/底部位置枚举
-type: docs  
+type: docs
 weight: 8770  
 url: /zh/aspose.slides.mathtext/mathtopbotpositions/
 ---  

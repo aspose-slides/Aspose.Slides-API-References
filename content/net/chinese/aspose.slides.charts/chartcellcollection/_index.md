@@ -2,7 +2,7 @@
 title: ChartCellCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示含有数据的单元格集合。
-type: docs  
+type: docs
 weight: 1220  
 url: /zh/aspose.slides.charts/chartcellcollection/
 ---  

@@ -2,7 +2,7 @@
 title: SplitByRowSpan
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Teilt die Zelle in zwei Zellen anhand des Zeilenindex.
-type: docs  
+type: docs
 weight: 260  
 url: /de/aspose.slides/icell/splitbyrowspan/
 ---  

@@ -2,7 +2,7 @@
 title: Amount
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie le montant de l'effet. Lecture seule Single.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.effects/itinteffectivedata/amount/
 ---  

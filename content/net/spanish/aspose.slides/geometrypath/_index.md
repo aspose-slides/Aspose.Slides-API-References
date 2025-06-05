@@ -2,7 +2,7 @@
 title: GeometryPath
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa el camino geométrico de GeometryShape
-type: docs  
+type: docs
 weight: 4760  
 url: /es/aspose.slides/geometrypath/
 ---  

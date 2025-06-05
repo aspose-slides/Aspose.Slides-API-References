@@ -2,7 +2,7 @@
 title: Slide
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie la diapositive parente d'une image. Lecture seule IBaseSlideaspose.slides/ibaseslide.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/picture/slide/
 ---  

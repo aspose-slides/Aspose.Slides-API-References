@@ -2,7 +2,7 @@
 title: CopyTo
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Kopiert das Textformat in das angegebene Textfeld.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.charts/icharttextformat/copyto/
 ---  

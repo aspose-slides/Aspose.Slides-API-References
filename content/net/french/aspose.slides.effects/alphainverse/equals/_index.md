@@ -2,7 +2,7 @@
 title: Equals
 second_title: Référence API Aspose.Slides pour .NET  
 description: Détermine si le AlphaInverse spécifié AlphaInverseaspose.slides/alphainverse est égal au AlphaInverse actuel AlphaInverseaspose.slides/alphainverse.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.effects/alphainverse/equals/
 ---  

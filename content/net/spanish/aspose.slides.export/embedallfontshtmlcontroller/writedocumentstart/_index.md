@@ -2,7 +2,7 @@
 title: WriteDocumentStart
 second_title: Aspose.Slides para .NET API Reference  
 description: Llamado para escribir la cabecera del documento html. Llamado una vez por conversión de presentación.
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart/
 ---  

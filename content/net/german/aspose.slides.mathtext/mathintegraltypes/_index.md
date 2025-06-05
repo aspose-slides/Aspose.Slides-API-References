@@ -2,7 +2,7 @@
 title: MathIntegralTypes
 second_title: Aspose.Slides für .NET API Referenz  
 description: Mathematische Integrale Typen
-type: docs  
+type: docs
 weight: 8530  
 url: /de/aspose.slides.mathtext/mathintegraltypes/
 ---  

@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erhält die effektiven Absatzformatierungsdaten mit angewendeter Vererbung.
-type: docs  
+type: docs
 weight: 180  
 url: /de/aspose.slides/iparagraphformat/geteffective/
 ---  

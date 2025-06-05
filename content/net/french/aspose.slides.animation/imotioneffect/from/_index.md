@@ -2,7 +2,7 @@
 title: From
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Spécifie un coordonnée x/y pour commencer l'animation en pourcentages. Lecture/écriture PointF.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.animation/imotioneffect/from/
 ---  

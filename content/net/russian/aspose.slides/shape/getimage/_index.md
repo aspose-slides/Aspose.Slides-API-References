@@ -2,7 +2,7 @@
 title: GetImage
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает миниатюру фигуры. Тип границ миниатюры ShapeThumbnailBounds.Shape используется по умолчанию.
-type: docs  
+type: docs
 weight: 350  
 url: /ru/aspose.slides/shape/getimage/
 ---  

@@ -2,7 +2,7 @@
 title: FontSubstitutionInfo
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea una instancia de la clase FontSubstitutionInfoaspose.slides/fontsubstitutioninfo.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
 ---  

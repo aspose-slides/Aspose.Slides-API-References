@@ -2,7 +2,7 @@
 title: Label
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt das Label der Untertitel zurück oder legt es fest. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/captions/label/
 ---  

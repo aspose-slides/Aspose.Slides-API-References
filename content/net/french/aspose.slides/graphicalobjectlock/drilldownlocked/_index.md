@@ -2,7 +2,7 @@
 title: DrilldownLocked
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Détermine si la sélection des sous-formes de cet objet est interdite. Boolean en lecture/écriture.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/graphicalobjectlock/drilldownlocked/
 ---  

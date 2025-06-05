@@ -2,7 +2,7 @@
 title: Text
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Получает или задает простой текст части. Чтение/запись String.
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides/iportion/text/
 ---  

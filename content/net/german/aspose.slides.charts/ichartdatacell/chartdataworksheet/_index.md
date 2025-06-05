@@ -2,7 +2,7 @@
 title: ChartDataWorksheet
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erhält das Arbeitsblatt. Nur lesend IChartDataWorksheet aspose.slides.charts/ichartdataworksheet.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.charts/ichartdatacell/chartdataworksheet/
 ---  

@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Entfernt das erste Vorkommen einer spezifischen Form aus der Sammlung.
-type: docs  
+type: docs
 weight: 420  
 url: /de/aspose.slides/shapecollection/remove/
 ---  

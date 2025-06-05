@@ -2,7 +2,7 @@
 title: Name
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает имя схемы шрифта. Чтение/запись Строка.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides.theme/ifontscheme/name/
 ---  

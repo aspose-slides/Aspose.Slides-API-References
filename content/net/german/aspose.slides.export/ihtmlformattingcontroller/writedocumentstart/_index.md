@@ -2,7 +2,7 @@
 title: WriteDocumentStart
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Wird aufgerufen, um den HTML-Dokumentkopf zu schreiben. Wird einmal pro Präsentationskonvertierung aufgerufen.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---  

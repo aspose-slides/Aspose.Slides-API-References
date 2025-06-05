@@ -2,7 +2,7 @@
 title: CropBottom
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el número de porcentajes de la altura real de la imagen que se recortan en la parte inferior de la imagen. Solo lectura Single.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/ipicturefillformateffectivedata/cropbottom/
 ---  

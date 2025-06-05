@@ -2,7 +2,7 @@
 title: MultimediaClips
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Especifica el número total de clips de sonido o video presentes en el documento. Solo lectura Int32.
-type: docs  
+type: docs
 weight: 220  
 url: /es/aspose.slides/idocumentproperties/multimediaclips/
 ---  

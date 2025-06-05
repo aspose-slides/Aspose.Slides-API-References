@@ -2,7 +2,7 @@
 title: XmlData
 second_title: Aspose.Slides for .NET API Reference  
 description: 返回或设置xml数据。可读/写字节。值为null。值为空或xml数据无效。
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides/icustomxmlpart/xmldata/
 ---  

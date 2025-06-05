@@ -2,7 +2,7 @@
 title: IFormattedTextContainer
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Representa el formato de texto del gráfico.
-type: docs  
+type: docs
 weight: 2030  
 url: /es/aspose.slides.charts/iformattedtextcontainer/
 ---  

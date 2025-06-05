@@ -2,7 +2,7 @@
 title: GetHyperlinkClicks
 second_title: Aspose.Sildes para referencia de API .NET  
 description: Obtiene todos los subobjetos IHyperlinkContainer que contienen HyperlinkClick no nulo. Con el objeto IHyperlinkContainer dado, puedes gestionar su hipervínculo leer, actualizar o eliminar. Consulta la interfaz IHyperlinkContainer.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/hyperlinkqueries/gethyperlinkclicks/
 ---  

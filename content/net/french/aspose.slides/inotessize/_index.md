@@ -2,7 +2,7 @@
 title: INotesSize
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une taille de diapositive de notes.
-type: docs  
+type: docs
 weight: 6290  
 url: /fr/aspose.slides/inotessize/
 ---  

@@ -2,7 +2,7 @@
 title: FontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示用户定义的 FontFallBack 规则集合
-type: docs  
+type: docs
 weight: 4660  
 url: /zh/aspose.slides/fontfallbackrulescollection/
 ---  

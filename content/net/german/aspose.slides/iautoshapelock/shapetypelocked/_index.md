@@ -2,7 +2,7 @@
 title: ShapeTypeLocked
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob eine Änderung des Shape-Typs verboten ist. Lese-Schreib-Boolean.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/iautoshapelock/shapetypelocked/
 ---  

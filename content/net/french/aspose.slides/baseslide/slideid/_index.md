@@ -2,7 +2,7 @@
 title: SlideId
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie l'ID d'une diapositive. Lecture seule UInt32.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides/baseslide/slideid/
 ---  

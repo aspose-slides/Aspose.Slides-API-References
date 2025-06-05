@@ -2,7 +2,7 @@
 title: Count
 second_title: Référence API Aspose.Slides pour .NET  
 description: Retourne le nombre d'effets dans une séquence. Int32 en lecture seule.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides.animation/sequence/count/
 ---  

@@ -2,7 +2,7 @@
 title: License
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Inicializa una nueva instancia de esta clase.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/license/license/
 ---  

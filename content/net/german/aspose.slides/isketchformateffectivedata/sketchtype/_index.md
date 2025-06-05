@@ -2,7 +2,7 @@
 title: SketchType
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Skizzentyp zurück. Nur lesbar LineSketchTypeaspose.slides/linesketchtype.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/isketchformateffectivedata/sketchtype/
 ---  

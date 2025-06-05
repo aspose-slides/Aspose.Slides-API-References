@@ -2,7 +2,7 @@
 title: AsIEnumerable
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает интерфейс IEnumerable. Только для чтения IEnumerable.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.animation/ibehaviorcollection/asienumerable/
 ---  

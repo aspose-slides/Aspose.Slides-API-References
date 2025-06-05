@@ -2,7 +2,7 @@
 title: AxesManager
 second_title: Aspose.Sildes for .NET API Reference  
 description: 提供对图表轴的访问。
-type: docs  
+type: docs
 weight: 1090  
 url: /zh/aspose.slides.charts/axesmanager/
 ---  

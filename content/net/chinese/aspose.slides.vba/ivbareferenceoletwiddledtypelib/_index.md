@@ -2,7 +2,7 @@
 title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示已修改的OLE自动化类型库引用，其中所有控件均标记为可扩展。
-type: docs  
+type: docs
 weight: 11290  
 url: /zh/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---  

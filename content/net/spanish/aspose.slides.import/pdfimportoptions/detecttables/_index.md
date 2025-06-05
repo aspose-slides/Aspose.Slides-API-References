@@ -2,7 +2,7 @@
 title: DetectTables
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Determina si se detectan tablas al importar un archivo pdf.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.import/pdfimportoptions/detecttables/
 ---  

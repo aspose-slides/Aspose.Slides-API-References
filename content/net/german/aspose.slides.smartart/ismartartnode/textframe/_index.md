@@ -2,7 +2,7 @@
 title: TextFrame
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt den Text des Knotens zurück oder setzt ihn. Nur lesbar ITextFrameaspose.slides/itextframe.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides.smartart/ismartartnode/textframe/
 ---  

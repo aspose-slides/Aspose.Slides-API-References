@@ -2,7 +2,7 @@
 title: Direction
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Direction de la transition. Lecture/écriture TransitionEightDirectionTypeaspose.slides.slideshow/transitioneightdirectiontype.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.slideshow/ieightdirectiontransition/direction/
 ---  

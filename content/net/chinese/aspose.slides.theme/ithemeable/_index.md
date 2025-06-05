@@ -2,7 +2,7 @@
 title: IThemeable
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示可以与 ITheme 进行主题化的对象。
-type: docs  
+type: docs
 weight: 11090  
 url: /zh/aspose.slides.theme/ithemeable/
 ---  

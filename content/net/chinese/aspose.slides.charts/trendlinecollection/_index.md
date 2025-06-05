@@ -2,7 +2,7 @@
 title: TrendlineCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示趋势线的集合
-type: docs  
+type: docs
 weight: 2400  
 url: /zh/aspose.slides.charts/trendlinecollection/
 ---  

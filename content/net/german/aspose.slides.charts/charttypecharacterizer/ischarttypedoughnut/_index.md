@@ -2,7 +2,7 @@
 title: IsChartTypeDoughnut
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt true zurück, wenn chartType einer der Untertypen von Doughnut ist. Die Untertypgruppe entspricht der entsprechenden Gruppe in PowerPoint siehe Dialogfeld "Diagrammtyp ändern" in PowerPoint Doughnut, ExplodedDoughnut.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/
 ---  

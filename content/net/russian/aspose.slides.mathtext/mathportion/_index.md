@@ -2,7 +2,7 @@
 title: MathPortion
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет собой часть с математическим контекстом внутри.
-type: docs  
+type: docs
 weight: 8660  
 url: /ru/aspose.slides.mathtext/mathportion/
 ---  

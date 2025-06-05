@@ -2,7 +2,7 @@
 title: AddMediaPlaceholder
 second_title: Aspose.Slides pour la référence API .NET  
 description: Ajoute une nouvelle forme de zone de texte à la diapositive de mise en page pour contenir un objet multimédia.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/layoutplaceholdermanager/addmediaplaceholder/
 ---  

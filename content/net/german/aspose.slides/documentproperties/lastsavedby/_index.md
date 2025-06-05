@@ -2,7 +2,7 @@
 title: LastSavedBy
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Namen der letzten Person zurück oder setzt ihn, die eine Präsentation geändert hat. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 190  
 url: /de/aspose.slides/documentproperties/lastsavedby/
 ---  

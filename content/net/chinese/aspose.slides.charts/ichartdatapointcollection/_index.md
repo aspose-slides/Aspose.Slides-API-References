@@ -2,7 +2,7 @@
 title: IChartDataPointCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示系列数据点的集合。
-type: docs  
+type: docs
 weight: 1750  
 url: /zh/aspose.slides.charts/ichartdatapointcollection/
 ---  

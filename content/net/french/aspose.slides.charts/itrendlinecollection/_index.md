@@ -2,7 +2,7 @@
 title: ITrendlineCollection
 second_title: Référence API Aspose.Slides pour .NET  
 description: Représente une collection de TrendlineEx
-type: docs  
+type: docs
 weight: 2170  
 url: /fr/aspose.slides.charts/itrendlinecollection/
 ---  

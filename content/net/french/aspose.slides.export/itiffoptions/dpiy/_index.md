@@ -2,7 +2,7 @@
 title: DpiY
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Spécifie la résolution verticale en points par pouce. Lecture/écriture UInt32.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.export/itiffoptions/dpiy/
 ---  

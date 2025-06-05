@@ -2,7 +2,7 @@
 title: FontAlignment
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt eine Schriftartausrichtung in einem Absatz ohne Vererbung zurück oder legt sie fest. Lese-/Schreibzugriff auf FontAlignmentaspose.slides/fontalignment.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/iparagraphformat/fontalignment/
 ---  

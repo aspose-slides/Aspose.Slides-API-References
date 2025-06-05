@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slidess pour .NET Référence API  
 description: Renvoie l'arrêt de gradient par index.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/igradientstopcollection/item/
 ---  

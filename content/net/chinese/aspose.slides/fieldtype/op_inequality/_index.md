@@ -2,7 +2,7 @@
 title: op_Inequality
 second_title: Aspose.Sildes for .NET API Reference  
 description: 检查两个 FieldType 对象是否不相等。
-type: docs  
+type: docs
 weight: 230  
 url: /zh/aspose.slides/fieldtype/op_inequality/
 ---  

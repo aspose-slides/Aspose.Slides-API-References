@@ -2,7 +2,7 @@
 title: FilterEffectType
 second_title: Справочник по API Aspose.Slides для .NET  
 description: Представляет типы эффектов фильтра.
-type: docs  
+type: docs
 weight: 320  
 url: /ru/aspose.slides.animation/filtereffecttype/
 ---  

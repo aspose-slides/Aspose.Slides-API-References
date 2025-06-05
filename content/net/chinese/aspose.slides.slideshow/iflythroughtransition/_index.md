@@ -2,7 +2,7 @@
 title: IFlyThroughTransition
 second_title: Aspose.Sildes for .NET API Reference  
 description: 飞透幻灯片转换效果。
-type: docs  
+type: docs
 weight: 9780  
 url: /zh/aspose.slides.slideshow/iflythroughtransition/
 ---  

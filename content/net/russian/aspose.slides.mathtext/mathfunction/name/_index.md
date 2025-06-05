@@ -2,7 +2,7 @@
 title: Name
 second_title: Aspose.Sildes для .NET API Reference  
 description: Имя функции Например, имена функций это sin и cos
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides.mathtext/mathfunction/name/
 ---  

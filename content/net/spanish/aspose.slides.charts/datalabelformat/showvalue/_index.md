@@ -2,7 +2,7 @@
 title: ShowValue
 second_title: Aspose.Slidess para .NET API Reference  
 description: Representa un comportamiento específico de visualización del valor porcentual de la etiqueta de datos de un gráfico. Verdadero muestra el valor porcentual. Falso para ocultar. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 150  
 url: /es/aspose.slides.charts/datalabelformat/showvalue/
 ---  

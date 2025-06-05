@@ -2,7 +2,7 @@
 title: Rewind
 second_title: Referencia de API de Aspose.Sildes para .NET  
 description: Este atributo especifica si el efecto se rebobinara cuando termine de reproducirse. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides.animation/itiming/rewind/
 ---  

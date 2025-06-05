@@ -2,7 +2,7 @@
 title: TextFrameFormat
 second_title: Aspose.Slides pour .NET API Référence  
 description: Renvoie l'objet de formatage pour cet objet TextFrame. Lecture seule ITextFrameFormat aspose.slides/itextframeformat.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides/itextframe/textframeformat/
 ---  

@@ -2,7 +2,7 @@
 title: SizeLocked
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob eine Größenänderung dieser Form verboten ist. Lese- und Schreibbarer Boolescher Wert.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/iautoshapelock/sizelocked/
 ---  

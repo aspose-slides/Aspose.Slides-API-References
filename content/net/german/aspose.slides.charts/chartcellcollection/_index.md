@@ -2,7 +2,7 @@
 title: ChartCellCollection
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt eine Sammlung von Zellen mit Daten dar.
-type: docs  
+type: docs
 weight: 1220  
 url: /de/aspose.slides.charts/chartcellcollection/
 ---  

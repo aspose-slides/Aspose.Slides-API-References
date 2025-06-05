@@ -2,7 +2,7 @@
 title: GradientStops
 second_title: Aspose.Slides для .NET API Reference  
 description: Возвращает коллекцию градиентных остановок. Только для чтения IGradientStopCollectionEffectiveDataaspose.slides/igradientstopcollectioneffectivedata.
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides/igradientformateffectivedata/gradientstops/
 ---  

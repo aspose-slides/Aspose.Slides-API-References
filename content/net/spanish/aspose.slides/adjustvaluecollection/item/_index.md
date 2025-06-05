@@ -2,7 +2,7 @@
 title: Item
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el ajuste por índice.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/adjustvaluecollection/item/
 ---  

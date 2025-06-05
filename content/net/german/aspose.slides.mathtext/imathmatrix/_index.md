@@ -2,7 +2,7 @@
 title: IMathMatrix
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt das Matrixobjekt an, das aus untergeordneten Elementen besteht, die in einer oder mehreren Zeilen und Spalten angeordnet sind. Es ist wichtig zu beachten, dass Matrizen keine eingebauten Trennzeichen haben. Um die Matrix in Klammern zu setzen, sollten Sie das Trennzeichenobjekt IMathDelimiter verwenden. Null-Argumente können verwendet werden, um Lücken in Matrizen zu erstellen.
-type: docs  
+type: docs
 weight: 8090  
 url: /de/aspose.slides.mathtext/imathmatrix/
 ---  

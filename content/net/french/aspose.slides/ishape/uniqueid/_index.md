@@ -2,7 +2,7 @@
 title: UniqueId
 second_title: Aspose.Slides pour .NET Référence API  
 description: Obtient l'identifiant de forme unique dans le contexte de la présentation. Lecture seule UInt32. Voir aussi OfficeInteropShapeIdaspose.slides/ishape/officeinteropshapeid pour obtenir l'identifiant de forme unique dans le contexte de la diapositive.
-type: docs  
+type: docs
 weight: 250  
 url: /fr/aspose.slides/ishape/uniqueid/
 ---  

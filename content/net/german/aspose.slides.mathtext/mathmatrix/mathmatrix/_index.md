@@ -2,7 +2,7 @@
 title: MathMatrix
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Initialisiert eine neue Instanz der MathMatrix-Klasse.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.mathtext/mathmatrix/mathmatrix/
 ---  

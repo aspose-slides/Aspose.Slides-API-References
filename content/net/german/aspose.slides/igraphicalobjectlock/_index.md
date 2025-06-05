@@ -2,7 +2,7 @@
 title: IGraphicalObjectLock
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, welche Operationen für das übergeordnete GraphicalObjectEx deaktiviert sind.
-type: docs  
+type: docs
 weight: 5870  
 url: /de/aspose.slides/igraphicalobjectlock/
 ---  

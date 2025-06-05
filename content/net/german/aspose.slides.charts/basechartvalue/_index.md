@@ -2,7 +2,7 @@
 title: BaseChartValue
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt einen Wert eines Diagramms dar.
-type: docs  
+type: docs
 weight: 1140  
 url: /de/aspose.slides.charts/basechartvalue/
 ---  

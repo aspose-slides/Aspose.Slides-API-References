@@ -2,7 +2,7 @@
 title: ObjectName
 second_title: Referencia de API de Aspose.Sildes para .NET  
 description: Devuelve o establece el nombre de un objeto. Cadena de lectura/escritura.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/oleobjectframe/objectname/
 ---  

@@ -2,7 +2,7 @@
 title: IsNumberFormatLinkedToSource
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt an, ob das Format mit Quelldaten verknüpft ist. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 270  
 url: /de/aspose.slides.charts/iaxis/isnumberformatlinkedtosource/
 ---  

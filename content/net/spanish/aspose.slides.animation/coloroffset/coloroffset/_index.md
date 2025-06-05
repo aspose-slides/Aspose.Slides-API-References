@@ -2,7 +2,7 @@
 title: ColorOffset
 second_title: Aspose.Sildes para .NET API Reference  
 description: El constructor predeterminado.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.animation/coloroffset/coloroffset/
 ---  

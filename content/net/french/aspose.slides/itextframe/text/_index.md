@@ -2,7 +2,7 @@
 title: Text
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Obtient ou définit le texte brut pour un TextFrame. Lecteur/écrivain String.
-type: docs  
+type: docs
 weight: 60  
 url: /fr/aspose.slides/itextframe/text/
 ---  

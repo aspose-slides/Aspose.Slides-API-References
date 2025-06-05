@@ -2,7 +2,7 @@
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API Reference  
 description: 不可变对象，表示二级（黑/白）效果。输入颜色的亮度低于指定阈值的变为黑色。输入颜色的亮度大于或等于指定值的变为白色。此效果不影响 alpha 效果值。
-type: docs  
+type: docs
 weight: 3070  
 url: /zh/aspose.slides.effects/ibileveleffectivedata/
 ---  

@@ -2,7 +2,7 @@
 title: EmbeddedFileName
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Pfad des eingebetteten OLE-Objekts zurück
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ioleobjectframe/embeddedfilename/
 ---  

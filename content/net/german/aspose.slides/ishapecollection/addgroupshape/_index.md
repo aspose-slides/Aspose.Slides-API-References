@@ -2,7 +2,7 @@
 title: AddGroupShape
 second_title: Aspose.Slides für .NET API Referenz  
 description: Erzeugt ein neues GroupShape und fügt es am Ende der Sammlung hinzu. Die Größe und Position des GroupShape-Rahmens werden an den Inhalt angepasst, wenn eine neue Form in das GroupShape eingefügt wird.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides/ishapecollection/addgroupshape/
 ---  

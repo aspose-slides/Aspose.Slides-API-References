@@ -2,7 +2,7 @@
 title: GetHashCode
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Sert de fonction de hachage pour un type particulier adapté à une utilisation dans des algorithmes de hachage et des structures de données comme une table de hachage.
-type: docs  
+type: docs
 weight: 220  
 url: /fr/aspose.slides/hyperlink/gethashcode/
 ---  

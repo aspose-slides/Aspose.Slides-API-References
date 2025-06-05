@@ -2,7 +2,7 @@
 title: AsILayoutSlideCollection
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает интерфейс ILayoutSlideCollection. Только для чтения ILayoutSlideCollectionaspose.slides/ilayoutslidecollection.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/igloballayoutslidecollection/asilayoutslidecollection/
 ---  

@@ -2,7 +2,7 @@
 title: BinaryData
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Возвращает копию данных изображения. Только для чтения Byte.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides/ppimage/binarydata/
 ---  

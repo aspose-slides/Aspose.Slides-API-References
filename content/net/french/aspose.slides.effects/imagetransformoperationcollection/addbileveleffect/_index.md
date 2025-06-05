@@ -2,7 +2,7 @@
 title: AddBiLevelEffect
 second_title: Aspose.Slides pour .NET API Reference  
 description: Ajoute le nouvel effet Bi-Level noir/blanc à la fin d'une collection.
-type: docs  
+type: docs
 weight: 120  
 url: /fr/aspose.slides.effects/imagetransformoperationcollection/addbileveleffect/
 ---  

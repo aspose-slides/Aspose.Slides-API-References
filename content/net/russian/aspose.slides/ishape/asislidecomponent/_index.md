@@ -2,7 +2,7 @@
 title: AsISlideComponent
 second_title: Aspose.Slides для .NET Справочник API  
 description: Позволяет получить базовый интерфейс ISlideComponent. Только для чтения ISlideComponentaspose.slides/islidecomponent.
-type: docs  
+type: docs
 weight: 40  
 url: /ru/aspose.slides/ishape/asislidecomponent/
 ---  

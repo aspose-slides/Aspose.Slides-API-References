@@ -2,7 +2,7 @@
 title: SetSubscript
 second_title: Aspose.Sildes для .NET API Справка  
 description: Создает подстрочный индекс
-type: docs  
+type: docs
 weight: 140  
 url: /ru/aspose.slides.mathtext/imathelement/setsubscript/
 ---  

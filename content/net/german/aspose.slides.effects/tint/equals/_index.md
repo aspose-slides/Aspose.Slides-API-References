@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob der angegebene Tintaspose.slides.effects/tint gleich dem aktuellen Tintaspose.slides.effects/tint ist.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.effects/tint/equals/
 ---  

@@ -2,7 +2,7 @@
 title: CommentsText
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: El texto de los comentarios de la diapositiva
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/islidetext/commentstext/
 ---  

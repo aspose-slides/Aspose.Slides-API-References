@@ -2,7 +2,7 @@
 title: HiLowLinesFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 指定 HiLowLines 格式。HiLowLines 应用于 HiLowClose、OpenHiLowClose、VolumeHiLowClose 和 VolumeOpenHiLowClose 图表类型。
-type: docs  
+type: docs
 weight: 90  
 url: /zh/aspose.slides.charts/ichartseriesgroup/hilowlinesformat/
 ---  

@@ -2,7 +2,7 @@
 title: IPortion
 second_title: Aspose.Sildes для .NET Справочник по API  
 description: Представляет собой часть текста внутри текстового абзаца.
-type: docs  
+type: docs
 weight: 6500  
 url: /ru/aspose.slides/iportion/
 ---  

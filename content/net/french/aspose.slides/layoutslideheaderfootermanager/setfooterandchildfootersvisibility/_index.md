@@ -2,7 +2,7 @@
 title: SetFooterAndChildFootersVisibility
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Change la visibilité du placeholder de pied de page de la diapositive de mise en page et de tous les placeholders de pied de page enfants. Les placeholders enfants désignent des placeholders contenus sur des diapositives dépendantes. Les diapositives dépendantes utilisent et dépendent de la diapositive maître.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---  

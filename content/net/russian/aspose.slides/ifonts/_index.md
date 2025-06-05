@@ -2,7 +2,7 @@
 title: IFonts
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет коллекцию шрифтов.
-type: docs  
+type: docs
 weight: 5700  
 url: /ru/aspose.slides/ifonts/
 ---  

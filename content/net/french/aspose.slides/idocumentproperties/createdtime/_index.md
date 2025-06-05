@@ -2,7 +2,7 @@
 title: CreatedTime
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie la date à laquelle une présentation a été créée. Les valeurs sont en UTC. Lisible/écriture DateTime.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/idocumentproperties/createdtime/
 ---  

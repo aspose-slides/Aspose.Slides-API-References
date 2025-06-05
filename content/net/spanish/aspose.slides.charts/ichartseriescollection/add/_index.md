@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Sildes para .NET Referencia de la API  
 description: Crea nuevas series de gráficos y las añade a la colección.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides.charts/ichartseriescollection/add/
 ---  

@@ -2,7 +2,7 @@
 title: Origin
 second_title: Aspose.Sldes para .NET Referencia de API  
 description: Especifica cuál es el origen de la trayectoria de movimiento en relación con el diseño de la diapositiva o el padre. Lectura/escritura MotionOriginTypeaspose.slides.animation/motionorigintype.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides.animation/imotioneffect/origin/
 ---  

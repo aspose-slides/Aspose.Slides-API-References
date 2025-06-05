@@ -2,7 +2,7 @@
 title: Count
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt die Anzahl der Elemente in der Sammlung zurück. Nur-Lese Int32.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/digitalsignaturecollection/count/
 ---  

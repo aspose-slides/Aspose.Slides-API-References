@@ -2,7 +2,7 @@
 title: CreateScaleEffect
 second_title: Aspose.Slides for .NET API Reference  
 description: 创建缩放效果。
-type: docs  
+type: docs
 weight: 80  
 url: /zh/aspose.slides.animation/behaviorfactory/createscaleeffect/
 ---  

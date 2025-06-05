@@ -2,7 +2,7 @@
 title: ShapeElement
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt einen Teil einer Form mit den gleichen Umriss- und Füll-Eigenschaften dar.
-type: docs  
+type: docs
 weight: 9560  
 url: /de/aspose.slides/shapeelement/
 ---  

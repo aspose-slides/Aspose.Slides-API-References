@@ -2,7 +2,7 @@
 title: AsIAccessiblePVIObject
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许获取基本的 IAccessiblePVIObject 接口。只读 IAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1。
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.effects/iglow/asiaccessiblepviobject/
 ---  

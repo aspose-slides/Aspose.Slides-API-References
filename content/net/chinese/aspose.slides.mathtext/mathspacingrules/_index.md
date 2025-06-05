@@ -2,7 +2,7 @@
 title: MathSpacingRules
 second_title: Aspose.Sildes for .NET API Reference  
 description: 矩阵列之间的间隙（水平间距）类型
-type: docs  
+type: docs
 weight: 8720  
 url: /zh/aspose.slides.mathtext/mathspacingrules/
 ---  

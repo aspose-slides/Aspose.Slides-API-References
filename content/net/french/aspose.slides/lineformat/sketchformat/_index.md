@@ -2,7 +2,7 @@
 title: SketchFormat
 second_title: Aspose.Slides pour la référence API .NET  
 description: Renvoie le format de croquis d'une ligne. Lecture seule ILineFillFormataspose.slides/ilinefillformat.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides/lineformat/sketchformat/
 ---  

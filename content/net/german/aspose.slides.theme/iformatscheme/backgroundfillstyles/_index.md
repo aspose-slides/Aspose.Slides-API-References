@@ -2,7 +2,7 @@
 title: BackgroundFillStyles
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt eine Sammlung von themenbasierten Hintergrundfüllstilen zurück. Nur lesbar IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.theme/iformatscheme/backgroundfillstyles/
 ---  

@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Slides для .NET API Справочник  
 description: Удаляет тег с указанным именем из коллекции.
-type: docs  
+type: docs
 weight: 90  
 url: /ru/aspose.slides/itagcollection/remove/
 ---  

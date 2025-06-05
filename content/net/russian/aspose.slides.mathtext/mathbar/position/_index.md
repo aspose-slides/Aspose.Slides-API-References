@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Slides для .NET API Reference  
 description: Позиция линии бара. По умолчанию Вверху
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides.mathtext/mathbar/position/
 ---  

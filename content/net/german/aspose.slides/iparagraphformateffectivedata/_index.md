@@ -2,7 +2,7 @@
 title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Unveränderliches Objekt, das effektive Eigenschaften der Absatzformatierung enthält.
-type: docs  
+type: docs
 weight: 6400  
 url: /de/aspose.slides/iparagraphformateffectivedata/
 ---  

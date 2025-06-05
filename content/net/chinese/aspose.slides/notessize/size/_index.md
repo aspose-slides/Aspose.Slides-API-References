@@ -2,7 +2,7 @@
 title: Size
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置点数中的大小。可读/可写 SizeF。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides/notessize/size/
 ---  

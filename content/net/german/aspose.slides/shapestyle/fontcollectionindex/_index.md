@@ -2,7 +2,7 @@
 title: FontCollectionIndex
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt den Schriftindex einer Form in einer Schriftartensammlung zurück oder setzt ihn. Lese-/Schreibzugriff auf FontCollectionIndexaspose.slides/fontcollectionindex.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/shapestyle/fontcollectionindex/
 ---  

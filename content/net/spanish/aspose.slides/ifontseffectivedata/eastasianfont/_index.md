@@ -2,7 +2,7 @@
 title: EastAsianFont
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Devuelve la fuente de Asia Oriental. Solo lectura IFontDataaspose.slides/ifontdata.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/ifontseffectivedata/eastasianfont/
 ---  

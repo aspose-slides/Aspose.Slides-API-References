@@ -2,7 +2,7 @@
 title: BinWidth
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Bin-Breite an, wenn der Wert der Eigenschaft AggregationType auf AxisAggregationType.ByBinWidth gesetzt ist. Angewendet auf Kategorienachsen. Wird nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
-type: docs  
+type: docs
 weight: 100  
 url: /de/aspose.slides.charts/axis/binwidth/
 ---  

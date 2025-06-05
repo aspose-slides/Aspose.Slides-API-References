@@ -2,7 +2,7 @@
 title: GetFonts
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die in der Präsentation verwendeten Schriftarten zurück
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/ifontsmanager/getfonts/
 ---  

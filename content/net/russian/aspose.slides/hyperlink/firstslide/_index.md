@@ -2,7 +2,7 @@
 title: FirstSlide
 second_title: Aspose.Sildes для .NET API Reference  
 description: Возвращает гиперссылку на первый слайд презентации. Только для чтения Hyperlinkaspose.slides/hyperlink.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/hyperlink/firstslide/
 ---  

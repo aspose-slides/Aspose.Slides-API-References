@@ -2,7 +2,7 @@
 title: PresentationFormat
 second_title: Aspose.Slides pour .NET Référence API  
 description: Renvoie ou définit le format prévu d'une présentation. Lecture/écriture String.
-type: docs  
+type: docs
 weight: 260  
 url: /fr/aspose.slides/idocumentproperties/presentationformat/
 ---  

@@ -2,7 +2,7 @@
 title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Slides für .NET API Referenz  
 description: Die Formatierungscontroller-Klasse, die für das Einbetten von Schriftarten im WOFF-Format verwendet wird
-type: docs  
+type: docs
 weight: 3620  
 url: /de/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---  

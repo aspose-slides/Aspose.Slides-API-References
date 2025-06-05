@@ -2,7 +2,7 @@
 title: CreateMathArray
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建一个数学数组并将指定元素放入其中
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.mathtext/matharrayfactory/creatematharray/
 ---  

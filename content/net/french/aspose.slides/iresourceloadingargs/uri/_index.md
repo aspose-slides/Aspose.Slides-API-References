@@ -2,7 +2,7 @@
 title: Uri
 second_title: Aspose.Slides pour la référence API .NET  
 description: URI de la ressource qui est utilisée pour le téléchargement si ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading retourne Default. Initialement, elle est définie sur l'URI original de la ressource mais peut être redéfinie à toute valeur.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/iresourceloadingargs/uri/
 ---  

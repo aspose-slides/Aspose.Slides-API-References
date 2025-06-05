@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Supprime la signature à l'index spécifié.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/idigitalsignaturecollection/removeat/
 ---  

@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes para .NET API Referencia  
 description: Obtiene datos de formato de porción efectiva con la herencia aplicada.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/iportionformat/geteffective/
 ---  

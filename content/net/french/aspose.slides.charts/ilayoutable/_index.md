@@ -2,7 +2,7 @@
 title: ILayoutable
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Spécifie la position exacte d'un élément de graphique.
-type: docs  
+type: docs
 weight: 2040  
 url: /fr/aspose.slides.charts/ilayoutable/
 ---  

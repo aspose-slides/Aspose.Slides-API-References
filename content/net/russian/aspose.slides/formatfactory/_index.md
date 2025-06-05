@@ -2,7 +2,7 @@
 title: FormatFactory
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Позволяет создавать форматы через COM интерфейс.
-type: docs  
+type: docs
 weight: 4750  
 url: /ru/aspose.slides/formatfactory/
 ---  

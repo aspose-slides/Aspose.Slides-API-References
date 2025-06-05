@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina al autor en el índice especificado de la colección.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/icommentauthorcollection/removeat/
 ---  

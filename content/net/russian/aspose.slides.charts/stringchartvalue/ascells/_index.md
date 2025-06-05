@@ -2,7 +2,7 @@
 title: AsCells
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Присвоение значения null не допускается. Возвращаемое значение всегда не null. Чтение/запись IChartCellCollectionaspose.slides/ichartcellcollection.
-type: docs  
+type: docs
 weight: 10  
 url: /ru/aspose.slides.charts/stringchartvalue/ascells/
 ---  

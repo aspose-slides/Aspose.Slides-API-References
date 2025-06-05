@@ -2,7 +2,7 @@
 title: Insert
 second_title: Aspose.Sildes para .NET API Reference  
 description: Inserta un párrafo en la colección en el índice especificado.
-type: docs  
+type: docs
 weight: 120  
 url: /es/aspose.slides/paragraphcollection/insert/
 ---  

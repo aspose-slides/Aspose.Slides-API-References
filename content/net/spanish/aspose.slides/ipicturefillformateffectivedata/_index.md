@@ -2,7 +2,7 @@
 title: IPictureFillFormatEffectiveData
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Objeto inmutable que contiene las propiedades de relleno de imagen.
-type: docs  
+type: docs
 weight: 6460  
 url: /es/aspose.slides/ipicturefillformateffectivedata/
 ---  

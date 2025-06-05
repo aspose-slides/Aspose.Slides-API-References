@@ -2,7 +2,7 @@
 title: ShapeLock
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Renvoie les verrous de formes. Read-only IGraphicalObjectLockaspose.slides/igraphicalobjectlock.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides/graphicalobject/shapelock/
 ---  

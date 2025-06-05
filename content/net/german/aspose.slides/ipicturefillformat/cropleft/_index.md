@@ -2,7 +2,7 @@
 title: CropLeft
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Anzahl der Prozent der realen Bildbreite zurück oder setzt diese, die an der linken Seite des Bildes beschnitten werden. Lese-/Schreibzugriff auf Single.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/ipicturefillformat/cropleft/
 ---  

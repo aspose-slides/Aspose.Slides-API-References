@@ -2,7 +2,7 @@
 title: HasUpDownBars
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Bestimmt, ob das Linien- oder Börsendiagramm Auf-/Abwärts-Balken hat. Dies ist die Eigenschaft nicht nur dieser Serie, sondern aller Serien der übergeordneten Seriengruppe - dies ist eine Projektion der entsprechenden Gruppeigenschaft. Daher ist diese Eigenschaft schreibgeschützt. Verwenden Sie die ParentSeriesGroup-Eigenschaft, um auf die übergeordnete Seriengruppe zuzugreifen. Verwenden Sie die Eigenschaft ParentSeriesGroup.UpDownBars.HasUpDownBars lese/schreib, um den Wert zu ändern. Verwenden Sie die ParentSeriesGroup.UpDownBars-Eigenschaft, um Auf-/Abwärts-Balken zu formatieren. Schreibgeschützter Boolean.
-type: docs  
+type: docs
 weight: 150  
 url: /de/aspose.slides.charts/ichartseries/hasupdownbars/
 ---  

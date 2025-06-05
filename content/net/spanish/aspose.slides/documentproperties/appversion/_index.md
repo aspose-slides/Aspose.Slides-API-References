@@ -2,7 +2,7 @@
 title: AppVersion
 second_title: Aspose.Sildes para .NET API Referencia  
 description: Devuelve la versión de la aplicación. Cadena de solo lectura.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/documentproperties/appversion/
 ---  

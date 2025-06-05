@@ -2,7 +2,7 @@
 title: GetStream
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve un Stream para lectura. Utilice 'using' o cierre el Stream después de usarlo.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/audio/getstream/
 ---  

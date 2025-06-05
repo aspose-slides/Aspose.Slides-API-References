@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes для .NET API Reference  
 description: Удаляет первое вхождение конкретного объекта из коллекции.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides.vba/ivbamodulecollection/remove/
 ---  

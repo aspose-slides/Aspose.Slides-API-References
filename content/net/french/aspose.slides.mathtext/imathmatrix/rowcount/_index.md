@@ -2,7 +2,7 @@
 title: RowCount
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Nombre de lignes dans la matrice
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides.mathtext/imathmatrix/rowcount/
 ---  

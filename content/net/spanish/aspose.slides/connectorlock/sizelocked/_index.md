@@ -2,7 +2,7 @@
 title: SizeLocked
 second_title: Aspose.Sildes para .NET Referencia de API  
 description: Determina si se prohíbe cambiar el tamaño de esta forma. Booleano de lectura/escritura.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/connectorlock/sizelocked/
 ---  

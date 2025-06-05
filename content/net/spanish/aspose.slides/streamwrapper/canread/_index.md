@@ -2,7 +2,7 @@
 title: CanRead
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Obtiene un valor que indica si el flujo actual admite lectura. Solo lectura Boolean.
-type: docs  
+type: docs
 weight: 20  
 url: /es/aspose.slides/streamwrapper/canread/
 ---  

@@ -2,7 +2,7 @@
 title: DefaultDelay
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Ruft die standardmäßige Verzögerungszeit in ms ab oder legt sie fest. Dieser Wert wird verwendet, wenn AdvanceAfterTimeaspose.slides/../aspose.slides/islideshowtransition/advanceaftertime nicht festgelegt ist. Der Standardwert beträgt 1000.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.export/igifoptions/defaultdelay/
 ---  

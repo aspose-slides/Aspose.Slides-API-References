@@ -2,7 +2,7 @@
 title: DoughnutHoleSize
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Größe des Lochs in einem Donut-Diagramm an kann zwischen 0 und 90 Prozent der Größe des Diagrammbereichs liegen.. Schreib-/Lese-Byte.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.charts/chartseriesgroup/doughnutholesize/
 ---  

@@ -2,7 +2,7 @@
 title: IndexOf
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve el índice basado en cero de la primera ocurrencia de una forma en la colección.
-type: docs  
+type: docs
 weight: 260  
 url: /es/aspose.slides/shapecollection/indexof/
 ---  

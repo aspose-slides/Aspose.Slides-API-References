@@ -2,7 +2,7 @@
 title: GetFontBytes
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft das Byte-Array ab, das die Schriftartdaten für einen bestimmten Schriftstil und Schriftartdaten darstellt.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/fontsmanager/getfontbytes/
 ---  

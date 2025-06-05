@@ -2,7 +2,7 @@
 title: ReplaceImage
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Ersetzt Bilddaten.
-type: docs  
+type: docs
 weight: 90  
 url: /de/aspose.slides/ippimage/replaceimage/
 ---  

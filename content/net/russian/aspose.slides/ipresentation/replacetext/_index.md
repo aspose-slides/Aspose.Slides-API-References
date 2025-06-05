@@ -2,7 +2,7 @@
 title: ReplaceText
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Заменяет все вхождения указанного текста на другой указанный текст.
-type: docs  
+type: docs
 weight: 360  
 url: /ru/aspose.slides/ipresentation/replacetext/
 ---  

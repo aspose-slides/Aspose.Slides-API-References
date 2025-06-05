@@ -2,7 +2,7 @@
 title: IFontDataFactory
 second_title: Aspose.Sildes для .NET API Reference  
 description: Интерфейс фабрики FontData
-type: docs  
+type: docs
 weight: 5640  
 url: /ru/aspose.slides/ifontdatafactory/
 ---  

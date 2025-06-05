@@ -2,7 +2,7 @@
 title: ExtrusionHeight
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回挤出效果的高度。只读 Double。
-type: docs  
+type: docs
 weight: 90  
 url: /zh/aspose.slides/ithreedformateffectivedata/extrusionheight/
 ---  

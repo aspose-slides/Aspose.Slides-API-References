@@ -2,7 +2,7 @@
 title: Frame
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve o establece el marco del control. Lectura/escritura IShapeFrame aspose.slides/ishapeframe.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/control/frame/
 ---  

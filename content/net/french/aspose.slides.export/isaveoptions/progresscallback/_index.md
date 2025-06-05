@@ -2,7 +2,7 @@
 title: ProgressCallback
 second_title: Aspose.Slides pour .NET Référence de l'API  
 description: Représente un objet de rappel pour enregistrer des mises à jour de progression en pourcentage. Voir IProgressCallbackaspose.slides/iprogresscallback.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.export/isaveoptions/progresscallback/
 ---  

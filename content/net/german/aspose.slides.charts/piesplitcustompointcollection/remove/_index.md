@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference  
 description: Entfernt ein Element aus der Sammlung.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides.charts/piesplitcustompointcollection/remove/
 ---  

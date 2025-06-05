@@ -2,7 +2,7 @@
 title: AxisAggregationType
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Stellt den Aggregationstyp der Kategorieneachse dar. Wird nur mit Histogramm- oder HistogrammPareto-Serien verwendet.
-type: docs  
+type: docs
 weight: 1110  
 url: /de/aspose.slides.charts/axisaggregationtype/
 ---  

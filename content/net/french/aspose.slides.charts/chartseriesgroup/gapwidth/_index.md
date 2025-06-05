@@ -2,7 +2,7 @@
 title: GapWidth
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Spécifie l'espace entre les groupes de barres ou de colonnes en pourcentage de la largeur de la barre ou de la colonne. Lecture/écriture UInt16.
-type: docs  
+type: docs
 weight: 70  
 url: /fr/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---  

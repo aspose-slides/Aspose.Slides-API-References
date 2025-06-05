@@ -2,7 +2,7 @@
 title: SetFooterAndChildFootersText
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Setzt den Text für den Platzhalter für die Fußzeile der Layoutfolie und alle untergeordneten Fußzeilenplatzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Folien enthalten sind. Abhängige Folien verwenden und hängen von der Layoutfolie ab.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext/
 ---  

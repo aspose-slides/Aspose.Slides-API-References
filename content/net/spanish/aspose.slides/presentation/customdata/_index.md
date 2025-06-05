@@ -2,7 +2,7 @@
 title: CustomData
 second_title: Aspose.Sildes para .NET API Reference  
 description: Devuelve los datos personalizados de la presentación. Solo lectura ICustomData aspose.slides/icustomdata.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/presentation/customdata/
 ---  

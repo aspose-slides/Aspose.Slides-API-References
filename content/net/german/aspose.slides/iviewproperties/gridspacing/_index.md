@@ -2,7 +2,7 @@
 title: GridSpacing
 second_title: Aspose.Slildes für .NET API Referenz  
 description: Gibt den Gitterabstand zurück oder setzt ihn, der für das Gitter unter dem Präsentationsdokument in Punkten verwendet werden soll. Lesen/Schreiben Einzel.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/iviewproperties/gridspacing/
 ---  

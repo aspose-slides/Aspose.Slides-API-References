@@ -2,7 +2,7 @@
 title: SkewHorizontal
 second_title: Aspose.Sildes для .NET API Reference  
 description: Указывает угол горизонтального наклона. Только для чтения Double.
-type: docs  
+type: docs
 weight: 120  
 url: /ru/aspose.slides.effects/ireflectioneffectivedata/skewhorizontal/
 ---  

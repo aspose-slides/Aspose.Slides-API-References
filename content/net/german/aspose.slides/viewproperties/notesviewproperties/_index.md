@@ -2,7 +2,7 @@
 title: NotesViewProperties
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt gemeinsame Anzeigeeigenschaften an, die mit dem Notizenansichtsmodus verbunden sind. Nur lesbar ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/viewproperties/notesviewproperties/
 ---  

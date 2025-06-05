@@ -2,7 +2,7 @@
 title: GetEffectsByShape
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt ein Array von Effekten für die angegebene Form zurück.
-type: docs  
+type: docs
 weight: 80  
 url: /de/aspose.slides.animation/sequence/geteffectsbyshape/
 ---  

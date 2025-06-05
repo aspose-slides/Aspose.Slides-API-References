@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Supprime l'élément à l'index spécifié de la collection.
-type: docs  
+type: docs
 weight: 140  
 url: /fr/aspose.slides/paragraphcollection/removeat/
 ---  

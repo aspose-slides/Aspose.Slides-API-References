@@ -2,7 +2,7 @@
 title: Item
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la columna en el índice especificado. Solo lectura IColumnaspose.slides/icolumn.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/icolumncollection/item/
 ---  

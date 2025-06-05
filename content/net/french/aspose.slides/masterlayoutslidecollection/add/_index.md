@@ -2,7 +2,7 @@
 title: Add
 second_title: Aspose.Slides pour .NET Référence API  
 description: Ajoute une nouvelle diapositive de mise en page à la fin de la collection.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/masterlayoutslidecollection/add/
 ---  

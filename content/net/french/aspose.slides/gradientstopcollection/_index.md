@@ -2,7 +2,7 @@
 title: GradientStopCollection
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une collection de dégradés.
-type: docs  
+type: docs
 weight: 4830  
 url: /fr/aspose.slides/gradientstopcollection/
 ---  

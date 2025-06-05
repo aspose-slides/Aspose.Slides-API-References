@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt eine Eigenschaft am angegebenen Index zurück.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.animation/behaviorpropertycollection/item/
 ---  

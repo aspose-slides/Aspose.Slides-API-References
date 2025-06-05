@@ -2,7 +2,7 @@
 title: IBaseSlideHeaderFooterManager
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa el administrador que contiene el comportamiento de los marcadores de posición de fecha-hora y número de página del pie de página para todos los tipos de diapositivas.
-type: docs  
+type: docs
 weight: 5150  
 url: /es/aspose.slides/ibaseslideheaderfootermanager/
 ---  

@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes para .NET API Reference  
 description: Elimina el comentario y todas sus respuestas de la colección principal.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/comment/remove/
 ---  

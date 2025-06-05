@@ -2,7 +2,7 @@
 title: DelayBetweenTextParts
 second_title: Aspose.Sildes для .NET API Reference  
 description: Определяет задержку между анимированными частями текста словами или буквами. Положительное значение указывает процент от продолжительности эффекта. Отрицательное значение указывает задержку в секундах. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides.animation/ieffect/delaybetweentextparts/
 ---  

@@ -2,7 +2,7 @@
 title: FirstSliceAngle
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Obtiene o establece el ángulo de la primera porción de un gráfico de pastel o dona en grados en sentido horario desde arriba, de 0 a 360 grados. Lectura/escritura UInt16.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides.charts/chartseriesgroup/firstsliceangle/
 ---  

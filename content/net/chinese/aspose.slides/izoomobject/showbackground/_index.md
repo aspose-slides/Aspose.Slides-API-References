@@ -2,7 +2,7 @@
 title: ShowBackground
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取或设置一个值，该值指定缩放是否将使用目标幻灯片的背景。可读/可写布尔值。默认值为 true
-type: docs  
+type: docs
 weight: 40  
 url: /zh/aspose.slides/izoomobject/showbackground/
 ---  

@@ -2,7 +2,7 @@
 title: PlayAcrossSlides
 second_title: Aspose.Sildes for .NET API Reference  
 description: 确定音频是否在幻灯片之间播放。可读/可写布尔值。
-type: docs  
+type: docs
 weight: 120  
 url: /zh/aspose.slides/iaudioframe/playacrossslides/
 ---  

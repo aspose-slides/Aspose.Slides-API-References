@@ -2,7 +2,7 @@
 title: TransitionFps
 second_title: Aspose.Sildes para referencia de API de .NET  
 description: Obtiene o establece la FPS de transición frames/sec. El valor predeterminado es 25.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides.export/igifoptions/transitionfps/
 ---  

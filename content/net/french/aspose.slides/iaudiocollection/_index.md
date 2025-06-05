@@ -2,7 +2,7 @@
 title: IAudioCollection
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente une collection de fichiers audio intégrés.
-type: docs  
+type: docs
 weight: 5020  
 url: /fr/aspose.slides/iaudiocollection/
 ---  

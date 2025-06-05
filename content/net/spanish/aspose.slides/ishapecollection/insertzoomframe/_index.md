@@ -2,7 +2,7 @@
 title: InsertZoomFrame
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea un nuevo objeto Zoom y lo inserta en una colección en el índice especificado.
-type: docs  
+type: docs
 weight: 360  
 url: /es/aspose.slides/ishapecollection/insertzoomframe/
 ---  

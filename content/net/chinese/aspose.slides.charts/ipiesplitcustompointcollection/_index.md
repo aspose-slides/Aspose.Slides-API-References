@@ -2,7 +2,7 @@
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示在带有自定义分割的饼图或条形图的第二个饼或条中绘制的点的集合。
-type: docs  
+type: docs
 weight: 2110  
 url: /zh/aspose.slides.charts/ipiesplitcustompointcollection/
 ---  

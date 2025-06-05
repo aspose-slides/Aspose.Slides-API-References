@@ -2,7 +2,7 @@
 title: ShowBubbleSize
 second_title: Aspose.Sildes для .NET API Reference  
 description: Представляет поведение отображения значения размера пузырька меток данных указанного графика. True отображает значение размера пузырька. False скрывает. Чтение/запись Boolean.
-type: docs  
+type: docs
 weight: 70  
 url: /ru/aspose.slides.charts/datalabelformat/showbubblesize/
 ---  

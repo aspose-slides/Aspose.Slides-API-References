@@ -2,7 +2,7 @@
 title: IMathAccentFactory
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Позволяет создавать математический акцент
-type: docs  
+type: docs
 weight: 7840  
 url: /ru/aspose.slides.mathtext/imathaccentfactory/
 ---  

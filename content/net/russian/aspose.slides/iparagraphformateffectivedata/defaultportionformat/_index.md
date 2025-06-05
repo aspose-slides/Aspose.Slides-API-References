@@ -2,7 +2,7 @@
 title: DefaultPortionFormat
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает формат порции по умолчанию абзаца. Только для чтения IPortionFormatEffectiveDataaspose.slides/iportionformateffectivedata.
-type: docs  
+type: docs
 weight: 30  
 url: /ru/aspose.slides/iparagraphformateffectivedata/defaultportionformat/
 ---  

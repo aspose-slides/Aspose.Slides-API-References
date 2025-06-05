@@ -2,7 +2,7 @@
 title: CreateMathBorderBox
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erstellen Sie eine mathematische Rahmenbox, indem Sie sie auf das Element anwenden
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.mathtext/imathborderboxfactory/createmathborderbox/
 ---  

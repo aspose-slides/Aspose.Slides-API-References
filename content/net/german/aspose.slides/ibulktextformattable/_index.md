@@ -2,7 +2,7 @@
 title: IBulkTextFormattable
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt ein Objekt mit der Möglichkeit dar, die Formate von untergeordneten Textelementen in großen Mengen festzulegen.
-type: docs  
+type: docs
 weight: 5180  
 url: /de/aspose.slides/ibulktextformattable/
 ---  

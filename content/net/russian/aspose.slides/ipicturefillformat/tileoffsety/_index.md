@@ -2,7 +2,7 @@
 title: TileOffsetY
 second_title: Aspose.Sildes for .NET API Reference  
 description: Возвращает или задает вертикальный смещение текстуры от начала фигуры в пунктах. Положительное значение перемещает текстуру вниз, в то время как отрицательное значение перемещает ее вверх. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 160  
 url: /ru/aspose.slides/ipicturefillformat/tileoffsety/
 ---  

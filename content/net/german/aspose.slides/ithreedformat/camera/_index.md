@@ -2,7 +2,7 @@
 title: Camera
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt die Einstellungen einer Kamera zurück oder legt sie fest. Schreibgeschützt ICameraaspose.slides/icamera.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/ithreedformat/camera/
 ---  

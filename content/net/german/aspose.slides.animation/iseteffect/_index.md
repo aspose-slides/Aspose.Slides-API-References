@@ -2,7 +2,7 @@
 title: ISetEffect
 second_title: Aspose.Slidess für .NET API Referenz  
 description: Stellt einen set-Effekt für ein Animationsverhalten dar.
-type: docs  
+type: docs
 weight: 530  
 url: /de/aspose.slides.animation/iseteffect/
 ---  

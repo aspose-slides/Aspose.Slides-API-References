@@ -2,7 +2,7 @@
 title: Id
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取形状 ID
-type: docs  
+type: docs
 weight: 10  
 url: /zh/aspose.slides.export/svgshape/id/
 ---  

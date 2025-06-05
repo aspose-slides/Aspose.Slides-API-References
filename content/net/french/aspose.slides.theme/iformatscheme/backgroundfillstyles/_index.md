@@ -2,7 +2,7 @@
 title: BackgroundFillStyles
 second_title: Aspose.Sildes pour .NET Référence de l'API  
 description: Renvoie une collection de styles de remplissage d'arrière-plan définis par le thème. Lecture seule IFillFormatCollectionaspose.slides/ifillformatcollection.
-type: docs  
+type: docs
 weight: 20  
 url: /fr/aspose.slides.theme/iformatscheme/backgroundfillstyles/
 ---  

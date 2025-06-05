@@ -2,7 +2,7 @@
 title: TextLocked
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob eine Bearbeitung von Text verboten ist. Lese- und schreibbares Boolean.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides/iautoshapelock/textlocked/
 ---  

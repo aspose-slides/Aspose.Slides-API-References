@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Erhält effektive Alpha Bi-Level-Effektdaten mit der angewendeten Vererbung.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides.effects/alphabilevel/geteffective/
 ---  

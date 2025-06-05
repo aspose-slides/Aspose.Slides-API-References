@@ -2,7 +2,7 @@
 title: ILineParamSource
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Interfaz de parámetros auxiliares de línea.
-type: docs  
+type: docs
 weight: 6130  
 url: /es/aspose.slides/ilineparamsource/
 ---  

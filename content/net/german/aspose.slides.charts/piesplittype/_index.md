@@ -2,7 +2,7 @@
 title: PieSplitType
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt einen Typ von Trennpunkten im zweiten Kuchen oder Balken in einem Pie-of-Pie- oder Bar-of-Pie-Diagramm dar.
-type: docs  
+type: docs
 weight: 2300  
 url: /de/aspose.slides.charts/piesplittype/
 ---  

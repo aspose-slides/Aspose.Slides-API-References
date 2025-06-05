@@ -2,7 +2,7 @@
 title: SpaceAfter
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie ou définit le montant d'espace après la dernière ligne d'un paragraphe. Lecture/écriture Simple.
-type: docs  
+type: docs
 weight: 110  
 url: /fr/aspose.slides.charts/ichartparagraphformat/spaceafter/
 ---  

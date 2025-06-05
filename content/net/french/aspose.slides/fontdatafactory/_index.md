@@ -2,7 +2,7 @@
 title: FontDataFactory
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Usine de données de police
-type: docs  
+type: docs
 weight: 4640  
 url: /fr/aspose.slides/fontdatafactory/
 ---  

@@ -2,7 +2,7 @@
 title: Background
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Hintergrund der Folien zurück. Nur-Lese IBackground aspose.slides/ibackground.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides/ibaseslide/background/
 ---  

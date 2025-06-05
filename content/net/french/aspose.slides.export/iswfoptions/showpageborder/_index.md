@@ -2,7 +2,7 @@
 title: ShowPageBorder
 second_title: Aspose.Slides pour .NET API Reference  
 description: Spécifie si la bordure autour des pages doit être affichée. La valeur par défaut est vraie.
-type: docs  
+type: docs
 weight: 110  
 url: /fr/aspose.slides.export/iswfoptions/showpageborder/
 ---  

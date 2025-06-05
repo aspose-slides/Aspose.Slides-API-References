@@ -2,7 +2,7 @@
 title: ReplaceFont
 second_title: Aspose.Sildes для .NET API Ссылки  
 description: Заменить шрифт в презентации
-type: docs  
+type: docs
 weight: 100  
 url: /ru/aspose.slides/fontsmanager/replacefont/
 ---  

@@ -2,7 +2,7 @@
 title: GetSlidesListOfSection
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Liste der Folien im Abschnitt zurück.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/section/getslideslistofsection/
 ---  

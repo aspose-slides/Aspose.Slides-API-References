@@ -2,7 +2,7 @@
 title: Image
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie la copie d'une image. Lecture seule IImageaspose.slides/iimage.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/ppimage/image/
 ---  

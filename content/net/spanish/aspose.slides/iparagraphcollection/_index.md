@@ -2,7 +2,7 @@
 title: IParagraphCollection
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa una colección de párrafos.
-type: docs  
+type: docs
 weight: 6370  
 url: /es/aspose.slides/iparagraphcollection/
 ---  

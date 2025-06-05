@@ -2,7 +2,7 @@
 title: Equals
 second_title: Aspose.Slides für .NET API Referenz  
 description: Bestimmt, ob das angegebene ColorReplaceaspose.slides.effects/colorreplace gleich dem aktuellen ColorReplaceaspose.slides.effects/colorreplace ist.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.effects/colorreplace/equals/
 ---  

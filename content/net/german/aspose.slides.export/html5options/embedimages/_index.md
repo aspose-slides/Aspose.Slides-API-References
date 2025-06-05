@@ -2,7 +2,7 @@
 title: EmbedImages
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Gibt die Option zum Einbetten von Bildern zurück oder legt sie fest. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides.export/html5options/embedimages/
 ---  

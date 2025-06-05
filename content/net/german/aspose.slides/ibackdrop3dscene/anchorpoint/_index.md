@@ -2,7 +2,7 @@
 title: AnchorPoint
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Gibt einen Punkt im 3D-Raum zurück oder legt ihn fest. Dieser Punkt ist der Punkt im Raum, der die Hintergrundebene verankert. 3D-Punkt, dargestellt durch ein Array von 3 Float-Werten, die die X-, Y- und Z-Koordinaten definieren. Lese-/Schreibzugriff Single.
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides/ibackdrop3dscene/anchorpoint/
 ---  

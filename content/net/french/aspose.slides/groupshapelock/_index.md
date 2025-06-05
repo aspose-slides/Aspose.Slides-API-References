@@ -2,7 +2,7 @@
 title: GroupShapeLock
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine quelles opérations sont désactivées sur le GroupShape parent.
-type: docs  
+type: docs
 weight: 4900  
 url: /fr/aspose.slides/groupshapelock/
 ---  

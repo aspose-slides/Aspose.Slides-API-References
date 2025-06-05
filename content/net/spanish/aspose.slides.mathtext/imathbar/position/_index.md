@@ -2,7 +2,7 @@
 title: Position
 second_title: Aspose.Sildes for .NET API Reference  
 description: Posición de la línea de barra. Predeterminado Superior
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides.mathtext/imathbar/position/
 ---  

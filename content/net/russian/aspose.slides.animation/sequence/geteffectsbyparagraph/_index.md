@@ -2,7 +2,7 @@
 title: GetEffectsByParagraph
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает массив эффектов для указанного абзаца.
-type: docs  
+type: docs
 weight: 70  
 url: /ru/aspose.slides.animation/sequence/geteffectsbyparagraph/
 ---  

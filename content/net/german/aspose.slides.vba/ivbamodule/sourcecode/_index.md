@@ -2,7 +2,7 @@
 title: SourceCode
 second_title: Aspose.Slides für .NET API Referenz  
 description: Quellcode des Moduls. Lese-/Schreib-String.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.vba/ivbamodule/sourcecode/
 ---  

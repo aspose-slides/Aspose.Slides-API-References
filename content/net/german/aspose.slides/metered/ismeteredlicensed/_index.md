@@ -2,7 +2,7 @@
 title: IsMeteredLicensed
 second_title: Aspose.Slides für .NET API Referenz  
 description: Überprüfen, ob metered lizenziert ist
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/metered/ismeteredlicensed/
 ---  

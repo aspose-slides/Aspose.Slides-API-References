@@ -2,7 +2,7 @@
 title: MathBorderBoxFactory
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Позволяет создавать математическую рамку
-type: docs  
+type: docs
 weight: 8360  
 url: /ru/aspose.slides.mathtext/mathborderboxfactory/
 ---  

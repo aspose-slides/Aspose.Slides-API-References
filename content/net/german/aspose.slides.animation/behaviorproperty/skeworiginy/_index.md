@@ -2,7 +2,7 @@
 title: SkewOriginY
 second_title: Aspose.Slides für .NET API Referenz  
 description: Stellt die Eigenschaft skew.origin.y dar
-type: docs  
+type: docs
 weight: 870  
 url: /de/aspose.slides.animation/behaviorproperty/skeworiginy/
 ---  

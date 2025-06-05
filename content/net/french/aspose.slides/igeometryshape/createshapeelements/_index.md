@@ -2,7 +2,7 @@
 title: CreateShapeElements
 second_title: Aspose.Slides pour .NET API Référence  
 description: Crée et renvoie un tableau d'éléments de forme.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides/igeometryshape/createshapeelements/
 ---  

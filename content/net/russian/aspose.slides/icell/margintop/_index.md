@@ -2,7 +2,7 @@
 title: MarginTop
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает или устанавливает верхний отступ в TextFrame. Чтение/запись Double.
-type: docs  
+type: docs
 weight: 140  
 url: /ru/aspose.slides/icell/margintop/
 ---  

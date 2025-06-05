@@ -2,7 +2,7 @@
 title: IsDecorative
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Ruft die Option "Als dekorativ markieren" ab oder legt sie fest. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 130  
 url: /de/aspose.slides/ishape/isdecorative/
 ---  

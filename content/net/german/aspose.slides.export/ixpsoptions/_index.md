@@ -2,7 +2,7 @@
 title: IXpsOptions
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Bietet Optionen, die steuern, wie eine Präsentation im XPS-Format gespeichert wird.
-type: docs  
+type: docs
 weight: 4030  
 url: /de/aspose.slides.export/ixpsoptions/
 ---  

@@ -2,7 +2,7 @@
 title: Author
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Renvoie ou définit l'auteur d'une présentation. Chaîne en lecture/écriture.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/idocumentproperties/author/
 ---  

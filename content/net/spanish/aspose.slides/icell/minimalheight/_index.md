@@ -2,7 +2,7 @@
 title: MinimalHeight
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Devuelve la altura mínima de una celda. Esta es una suma de las alturas mínimas de todas las filas cubiertas por la celda. Solo lectura Double.
-type: docs  
+type: docs
 weight: 150  
 url: /es/aspose.slides/icell/minimalheight/
 ---  

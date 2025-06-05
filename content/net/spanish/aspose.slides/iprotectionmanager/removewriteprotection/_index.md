@@ -2,7 +2,7 @@
 title: RemoveWriteProtection
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina la protección contra escritura para esta presentación.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/iprotectionmanager/removewriteprotection/
 ---  

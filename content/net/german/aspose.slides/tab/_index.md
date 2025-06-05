@@ -2,7 +2,7 @@
 title: Tab
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt eine Tabulator für einen Text dar.
-type: docs  
+type: docs
 weight: 10510  
 url: /de/aspose.slides/tab/
 ---  

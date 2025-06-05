@@ -2,7 +2,7 @@
 title: IsFooterVisible
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt den Wert an, der zeigt, dass ein Fußzeilenplatzhalter vorhanden ist. Lese Boolean.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/ibaseslideheaderfootermanager/isfootervisible/
 ---  

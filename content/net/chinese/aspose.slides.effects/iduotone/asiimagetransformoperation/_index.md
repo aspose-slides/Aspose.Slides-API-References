@@ -2,7 +2,7 @@
 title: AsIImageTransformOperation
 second_title: Aspose.Sildes for .NET API Reference  
 description: 允许获取基础 IImageTransformOperation 接口。只读 IImageTransformOperationaspose.slides.effects/iimagetransformoperation。
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.effects/iduotone/asiimagetransformoperation/
 ---  

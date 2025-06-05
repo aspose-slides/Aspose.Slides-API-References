@@ -2,7 +2,7 @@
 title: TileScaleY
 second_title: Aspose.Slides для .NET API Справочник  
 description: Возвращает или устанавливает вертикальный масштаб для текстурной заливки в процентах. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 170  
 url: /ru/aspose.slides/picturefillformat/tilescaley/
 ---  

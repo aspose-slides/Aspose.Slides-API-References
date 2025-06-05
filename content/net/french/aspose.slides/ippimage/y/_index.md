@@ -2,7 +2,7 @@
 title: Y
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie un décalage Y d'une image. En lecture seule Int32.
-type: docs  
+type: docs
 weight: 80  
 url: /fr/aspose.slides/ippimage/y/
 ---  

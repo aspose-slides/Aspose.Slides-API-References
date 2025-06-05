@@ -2,7 +2,7 @@
 title: HideSubscript
 second_title: Aspose.Slides für .NET API Referenz  
 description: Subskript ausblenden
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.mathtext/mathnaryoperator/hidesubscript/
 ---  

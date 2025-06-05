@@ -2,7 +2,7 @@
 title: Read
 second_title: Aspose.Slides para .NET Referencia de API  
 description: Lee una secuencia de bytes del flujo actual y avanza la posición dentro del flujo por el número de bytes leídos.
-type: docs  
+type: docs
 weight: 100  
 url: /es/aspose.slides/istreamwrapper/read/
 ---  

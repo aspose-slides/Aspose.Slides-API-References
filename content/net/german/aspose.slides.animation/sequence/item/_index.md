@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slide für .NET API-Referenz  
 description: Gibt einen Effekt am angegebenen Index zurück.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.animation/sequence/item/
 ---  

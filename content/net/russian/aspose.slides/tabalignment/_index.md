@@ -2,7 +2,7 @@
 title: TabAlignment
 second_title: Aspose.Slides для .NET API Справочник  
 description: Представляет выравнивание табуляции.
-type: docs  
+type: docs
 weight: 10520  
 url: /ru/aspose.slides/tabalignment/
 ---  

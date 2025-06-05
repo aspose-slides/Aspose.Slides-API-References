@@ -2,7 +2,7 @@
 title: Item
 second_title: Référence API Aspose.Slides pour .NET  
 description: Obtient l'élément à l'index spécifié. Lecture seule ISummaryZoomSectionaspose.slides/isummaryzoomsection.
-type: docs  
+type: docs
 weight: 10  
 url: /fr/aspose.slides/isummaryzoomsectioncollection/item/
 ---  

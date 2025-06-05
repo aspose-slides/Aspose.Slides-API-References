@@ -2,7 +2,7 @@
 title: EmbeddedData
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Получает или задает информацию о встроенных данных OLE. Чтение/запись IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/oleobjectframe/embeddeddata/
 ---  

@@ -2,7 +2,7 @@
 title: UseCells
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Wenn wahr, wird das Arbeitsblatt zum Speichern von Kategorien verwendet dieser Fall unterstützt mehrstufige Kategorien. Wenn falsch, wird das Arbeitsblatt NICHT zum Speichern von Werten verwendet und dieser Fall unterstützt keine mehrstufigen Kategorien. Lese-/Schreib-Boolean.
-type: docs  
+type: docs
 weight: 60  
 url: /de/aspose.slides.charts/chartcategorycollection/usecells/
 ---  

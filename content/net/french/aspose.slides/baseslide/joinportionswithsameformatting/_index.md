@@ -2,7 +2,7 @@
 title: JoinPortionsWithSameFormatting
 second_title: Référence API Aspose.Slides pour .NET  
 description: Joint les portions avec le même formatage dans tous les paragraphes de toutes les formes acceptables.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides/baseslide/joinportionswithsameformatting/
 ---  

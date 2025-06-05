@@ -2,7 +2,7 @@
 title: UniqueId
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erhält einen eindeutigen Formidentifikator im Präsentationsscope. Nur lesbar UInt32. Siehe auch OfficeInteropShapeIdaspose.slides/shape/officeinteropshapeid, um einen eindeutigen Formidentifikator im Folien-Scope zu erhalten.
-type: docs  
+type: docs
 weight: 280  
 url: /de/aspose.slides/shape/uniqueid/
 ---  

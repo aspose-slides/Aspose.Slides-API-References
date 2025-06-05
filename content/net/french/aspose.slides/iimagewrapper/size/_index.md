@@ -2,7 +2,7 @@
 title: Size
 second_title: Aspose.Sildes pour .NET API Reference  
 description: Obtient la largeur et la hauteur en pixels de l'Image Read-only Sizeaspose.slides/iimagewrapper/size.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides/iimagewrapper/size/
 ---  

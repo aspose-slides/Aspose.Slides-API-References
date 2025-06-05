@@ -2,7 +2,7 @@
 title: Aspose.Slides.LowCode
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Содержит классы и методы для выполнения сложных общих операций с использованием низкого кода.
-type: docs  
+type: docs
 weight: 110  
 url: /ru/aspose.slides.lowcode/
 ---  

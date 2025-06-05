@@ -2,7 +2,7 @@
 title: AddClone
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Fügt eine Kopie einer angegebenen Form am Ende der Sammlung hinzu.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/shapecollection/addclone/
 ---  

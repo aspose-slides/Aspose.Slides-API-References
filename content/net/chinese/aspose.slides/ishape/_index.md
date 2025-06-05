@@ -2,7 +2,7 @@
 title: IShape
 second_title: Aspose.Sildes for .NET API Reference  
 description: 表示幻灯片上的形状。
-type: docs  
+type: docs
 weight: 6730  
 url: /zh/aspose.slides/ishape/
 ---  

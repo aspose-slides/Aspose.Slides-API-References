@@ -2,7 +2,7 @@
 title: SetRange
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Legen Sie den Datenbereich des Diagramms fest. Serien und Kategorien werden basierend auf dem neuen Datenbereich aktualisiert. Wenn die Anzahl der Serien im Datenbereich größer ist als die Anzahl der Serien im Diagrammdaten, werden zusätzliche Serien des gleichen Typs wie die letzte Serie in der aktuellen Sammlung am Ende der Sammlung hinzugefügt.
-type: docs  
+type: docs
 weight: 120  
 url: /de/aspose.slides.charts/ichartdata/setrange/
 ---  

@@ -2,7 +2,7 @@
 title: HyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回为鼠标点击定义的超链接。只能读的 IHyperlink aspose.slides/ihyperlink。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/iportionformateffectivedata/hyperlinkclick/
 ---  

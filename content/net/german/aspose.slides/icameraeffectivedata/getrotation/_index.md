@@ -2,7 +2,7 @@
 title: GetRotation
 second_title: Aspose.Slides für .NET API Referenz  
 description: Eine Rotation wird durch die Verwendung einer Breitenkoordinate, einer Längenkoordinate und einer Umdrehung um die Achse als Breiten- und Längenkoordinaten definiert. Erstes Element im Rückgabearray - Breite, zweites - Länge, drittes - Umdrehung. Gibt null zurück, wenn keine Rotation definiert ist.
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides/icameraeffectivedata/getrotation/
 ---  

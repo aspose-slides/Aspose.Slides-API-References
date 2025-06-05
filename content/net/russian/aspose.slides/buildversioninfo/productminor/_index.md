@@ -2,7 +2,7 @@
 title: ProductMinor
 second_title: Aspose.Sildes для .NET API Reference  
 description: Номер минорной версии.
-type: docs  
+type: docs
 weight: 50  
 url: /ru/aspose.slides/buildversioninfo/productminor/
 ---  

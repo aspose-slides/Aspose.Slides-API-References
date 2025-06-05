@@ -2,7 +2,7 @@
 title: AddDataPointForMapSeries
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea el nuevo punto de datos y lo agrega al final de la colección. Aplicable para series cuyo tipo de gráfico es Mapa.
-type: docs  
+type: docs
 weight: 180  
 url: /es/aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---  

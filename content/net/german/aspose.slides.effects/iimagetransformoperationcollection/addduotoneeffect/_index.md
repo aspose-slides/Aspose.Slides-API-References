@@ -2,7 +2,7 @@
 title: AddDuotoneEffect
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Fügt den neuen Duotone-Effekt am Ende einer Sammlung hinzu.
-type: docs  
+type: docs
 weight: 140  
 url: /de/aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect/
 ---  

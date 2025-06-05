@@ -2,7 +2,7 @@
 title: CreateMathAccent
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建一个数学重音，应用于指定的数学元素，使用默认的重音字符值
-type: docs  
+type: docs
 weight: 20  
 url: /zh/aspose.slides.mathtext/mathaccentfactory/createmathaccent/
 ---  

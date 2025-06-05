@@ -2,7 +2,7 @@
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Objet immuable qui contient les propriétés de formatage de cadre de texte effectives.
-type: docs  
+type: docs
 weight: 7070  
 url: /fr/aspose.slides/itextframeformateffectivedata/
 ---  

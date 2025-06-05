@@ -2,7 +2,7 @@
 title: ClassId
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Erhält die Klassen-ID dieser Steuerung. Nur-Lesen Guid.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/icontrol/classid/
 ---  

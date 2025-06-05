@@ -2,7 +2,7 @@
 title: RemoveAt
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina un efecto de una colección.
-type: docs  
+type: docs
 weight: 110  
 url: /es/aspose.slides.animation/isequence/removeat/
 ---  

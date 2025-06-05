@@ -2,7 +2,7 @@
 title: SpreadsheetOptions
 second_title: Aspose.Slides pour .NET Référence API  
 description: Représente les options qui peuvent être utilisées pour spécifier un comportement supplémentaire des tableurs.
-type: docs  
+type: docs
 weight: 130  
 url: /fr/aspose.slides/iloadoptions/spreadsheetoptions/
 ---  

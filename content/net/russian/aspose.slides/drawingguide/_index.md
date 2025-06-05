@@ -2,7 +2,7 @@
 title: DrawingGuide
 second_title: Aspose.Slides для .NET API Reference  
 description: Представляет собой настраиваемый направляющий для рисования.
-type: docs  
+type: docs
 weight: 2720  
 url: /ru/aspose.slides/drawingguide/
 ---  

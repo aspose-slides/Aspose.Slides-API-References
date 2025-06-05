@@ -2,7 +2,7 @@
 title: Item
 second_title: Aspose.Slides для .NET API Справка  
 description: Получает имя шрифта по указанному индексу.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides/ifontfallbackrule/item/
 ---  

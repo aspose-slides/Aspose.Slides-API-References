@@ -2,7 +2,7 @@
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference  
 description: 获取应用继承的有效背景数据。
-type: docs  
+type: docs
 weight: 80  
 url: /zh/aspose.slides/ibackground/geteffective/
 ---  

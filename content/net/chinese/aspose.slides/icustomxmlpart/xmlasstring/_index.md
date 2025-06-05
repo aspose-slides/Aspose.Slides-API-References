@@ -2,7 +2,7 @@
 title: XmlAsString
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置 xml 数据为 UTF-8 字符串。可读写字符串。值为 null。值为空或 xml 数据无效。
-type: docs  
+type: docs
 weight: 30  
 url: /zh/aspose.slides/icustomxmlpart/xmlasstring/
 ---  

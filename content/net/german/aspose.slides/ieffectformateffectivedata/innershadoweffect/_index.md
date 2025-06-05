@@ -2,7 +2,7 @@
 title: InnerShadowEffect
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Innenschatten. Schreibgeschütztes IInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata.
-type: docs  
+type: docs
 weight: 50  
 url: /de/aspose.slides/ieffectformateffectivedata/innershadoweffect/
 ---  

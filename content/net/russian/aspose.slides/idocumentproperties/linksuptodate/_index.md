@@ -2,7 +2,7 @@
 title: LinksUpToDate
 second_title: Aspose.Sildes для .NET API Reference  
 description: Указывает, являются ли гиперссылки в документе актуальными. Установите этот элемент в **true**, чтобы указать, что гиперссылки обновлены. Установите этот элемент в **false**, чтобы указать, что гиперссылки устарели. Чтение/запись Boolean.
-type: docs  
+type: docs
 weight: 200  
 url: /ru/aspose.slides/idocumentproperties/linksuptodate/
 ---  

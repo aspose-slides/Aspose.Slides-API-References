@@ -2,7 +2,7 @@
 title: AsIAccessiblePVIObject
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite obtener la interfaz base IAccessiblePVIObject. IAccessiblePVIObject de solo lectura aspose.slides/iaccessiblepviobject-1.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides.effects/igrayscale/asiaccessiblepviobject/
 ---  

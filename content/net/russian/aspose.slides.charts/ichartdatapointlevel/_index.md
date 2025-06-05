@@ -2,7 +2,7 @@
 title: IChartDataPointLevel
 second_title: Aspose.Sildes для .NET API Справочник  
 description: Представляет уровень точки данных. Применяется для диаграмм Treemap и Sunburst.
-type: docs  
+type: docs
 weight: 1760  
 url: /ru/aspose.slides.charts/ichartdatapointlevel/
 ---  

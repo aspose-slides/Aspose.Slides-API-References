@@ -2,7 +2,7 @@
 title: OffsetY
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回表的顶部边缘到单元格顶部边缘的距离。只读 Double。
-type: docs  
+type: docs
 weight: 160  
 url: /zh/aspose.slides/cell/offsety/
 ---  

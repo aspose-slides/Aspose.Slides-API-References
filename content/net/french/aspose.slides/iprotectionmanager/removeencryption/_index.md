@@ -2,7 +2,7 @@
 title: RemoveEncryption
 second_title: Aspose.Slidess pour .NET API Référence  
 description: Supprime le chiffrement.
-type: docs  
+type: docs
 weight: 90  
 url: /fr/aspose.slides/iprotectionmanager/removeencryption/
 ---  

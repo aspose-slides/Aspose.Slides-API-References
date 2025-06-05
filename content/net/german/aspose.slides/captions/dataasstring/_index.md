@@ -2,7 +2,7 @@
 title: DataAsString
 second_title: Aspose.Slides für .NET API Referenz  
 description: Gibt die Daten der Untertitel als UTF-8 codierten String zurück. Nur-Lese-String.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/captions/dataasstring/
 ---  

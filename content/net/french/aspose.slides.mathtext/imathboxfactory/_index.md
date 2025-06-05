@@ -2,7 +2,7 @@
 title: IMathBoxFactory
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Permet de créer une boîte mathématique
-type: docs  
+type: docs
 weight: 7950  
 url: /fr/aspose.slides.mathtext/imathboxfactory/
 ---  

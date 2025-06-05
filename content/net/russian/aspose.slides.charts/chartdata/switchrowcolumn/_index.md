@@ -2,7 +2,7 @@
 title: SwitchRowColumn
 second_title: Справочная информация по API Aspose.Slides для .NET  
 description: Поменять данные местами по оси. Данные, отображаемые на оси X, переместятся на ось Y и наоборот.
-type: docs  
+type: docs
 weight: 130  
 url: /ru/aspose.slides.charts/chartdata/switchrowcolumn/
 ---  

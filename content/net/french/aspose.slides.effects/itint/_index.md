@@ -2,7 +2,7 @@
 title: ITint
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Représente un effet de teinte. Déplace les valeurs de couleur de l'effet vers/loin de la teinte par le montant spécifié.
-type: docs  
+type: docs
 weight: 3420  
 url: /fr/aspose.slides.effects/itint/
 ---  

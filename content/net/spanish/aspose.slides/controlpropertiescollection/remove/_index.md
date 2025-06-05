@@ -2,7 +2,7 @@
 title: Remove
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina una propiedad con el nombre especificado.
-type: docs  
+type: docs
 weight: 70  
 url: /es/aspose.slides/controlpropertiescollection/remove/
 ---  

@@ -2,7 +2,7 @@
 title: GapWidth
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt den Abstand zwischen Balken- oder Säulengruppen als Prozentsatz der Breite des Balkens oder der Säule an. Lese-/Schreibzugriff UInt16.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides.charts/ichartseriesgroup/gapwidth/
 ---  

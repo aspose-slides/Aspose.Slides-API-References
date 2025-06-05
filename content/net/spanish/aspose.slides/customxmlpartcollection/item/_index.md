@@ -2,7 +2,7 @@
 title: Item
 second_title: Referencia API de Aspose.Slides para .NET  
 description: Devuelve el elemento en el índice especificado.
-type: docs  
+type: docs
 weight: 30  
 url: /es/aspose.slides/customxmlpartcollection/item/
 ---  

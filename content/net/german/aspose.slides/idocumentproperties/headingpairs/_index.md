@@ -2,7 +2,7 @@
 title: HeadingPairs
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Gibt die Gruppierung von Dokumentteilen und die Anzahl der Teile in jeder Gruppe an. Nur lesbares IHeadingPair.
-type: docs  
+type: docs
 weight: 110  
 url: /de/aspose.slides/idocumentproperties/headingpairs/
 ---  

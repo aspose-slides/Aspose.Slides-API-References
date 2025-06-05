@@ -2,7 +2,7 @@
 title: X
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回或设置图例的 x 坐标作为图表宽度的一个分数。可读写 Single。
-type: docs  
+type: docs
 weight: 110  
 url: /zh/aspose.slides.charts/legend/x/
 ---  

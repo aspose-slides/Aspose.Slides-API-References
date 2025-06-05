@@ -2,7 +2,7 @@
 title: IncludeOleData
 second_title: Aspose.Sildes для .NET API Reference  
 description: true для конвертации всех OLE данных из презентации в встроенные файлы в результирующем PDF. Чтение/запись Boolean.
-type: docs  
+type: docs
 weight: 110  
 url: /ru/aspose.slides.export/pdfoptions/includeoledata/
 ---  

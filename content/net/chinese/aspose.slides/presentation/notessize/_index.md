@@ -2,7 +2,7 @@
 title: NotesSize
 second_title: Aspose.Sildes for .NET API Reference  
 description: 返回备注幻灯片大小对象。只读 INotesSizeaspose.slides/inotessize。
-type: docs  
+type: docs
 weight: 200  
 url: /zh/aspose.slides/presentation/notessize/
 ---  

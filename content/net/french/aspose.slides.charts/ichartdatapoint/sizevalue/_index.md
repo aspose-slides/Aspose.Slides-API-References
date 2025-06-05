@@ -2,7 +2,7 @@
 title: SizeValue
 second_title: Aspose.Sildes pour .NET Référence API  
 description: Renvoie la valeur de taille du point de données du graphique. Utilisé avec les graphiques Treemap et Sunburst. Lecture seule IDoubleChartValueaspose.slides/idoublechartvalue.
-type: docs  
+type: docs
 weight: 150  
 url: /fr/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---  

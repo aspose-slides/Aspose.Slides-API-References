@@ -2,7 +2,7 @@
 title: Clear
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Elimina todas las firmas de la colección.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/digitalsignaturecollection/clear/
 ---  

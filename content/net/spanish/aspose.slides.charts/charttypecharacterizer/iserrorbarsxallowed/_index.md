@@ -2,7 +2,7 @@
 title: IsErrorBarsXAllowed
 second_title: Aspose.Sildes para .NET API Reference  
 description: Devuelve si se permiten barras de error X para el tipo de serie especificado.
-type: docs  
+type: docs
 weight: 160  
 url: /es/aspose.slides.charts/charttypecharacterizer/iserrorbarsxallowed/
 ---  

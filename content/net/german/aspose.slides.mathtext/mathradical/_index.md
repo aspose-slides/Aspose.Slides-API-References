@@ -2,7 +2,7 @@
 title: MathRadical
 second_title: Aspose.Sildes für .NET API Referenz  
 description: Spezifiziert die radikale Funktion, die aus einer Basis und einem optionalen Grad besteht. Beispiel für ein radikales Objekt ist √𝑥.
-type: docs  
+type: docs
 weight: 8670  
 url: /de/aspose.slides.mathtext/mathradical/
 ---  

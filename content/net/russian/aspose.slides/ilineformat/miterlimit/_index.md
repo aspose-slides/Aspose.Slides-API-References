@@ -2,7 +2,7 @@
 title: MiterLimit
 second_title: Aspose.Sildes для .NET API Reference  
 description: Возвращает или устанавливает предел соединения линии. Чтение/запись Single.
-type: docs  
+type: docs
 weight: 150  
 url: /ru/aspose.slides/ilineformat/miterlimit/
 ---  

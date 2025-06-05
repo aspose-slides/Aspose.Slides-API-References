@@ -2,7 +2,7 @@
 title: BubbleSizeScale
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Spécifie le facteur d'échelle pour le diagramme à bulles peut être entre 0 et 300 pourcents de la taille par défaut. Lecture/écriture Int32.
-type: docs  
+type: docs
 weight: 30  
 url: /fr/aspose.slides.charts/ichartseriesgroup/bubblesizescale/
 ---  

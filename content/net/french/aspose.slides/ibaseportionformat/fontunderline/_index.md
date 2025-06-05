@@ -2,7 +2,7 @@
 title: FontUnderline
 second_title: Référence API Aspose.Slides pour .NET  
 description: Renvoie ou définit le type de soulignement du texte. Aucune héritage appliquée. Lecture/écriture TextUnderlineTypeaspose.slides/textunderlinetype.
-type: docs  
+type: docs
 weight: 100  
 url: /fr/aspose.slides/ibaseportionformat/fontunderline/
 ---  

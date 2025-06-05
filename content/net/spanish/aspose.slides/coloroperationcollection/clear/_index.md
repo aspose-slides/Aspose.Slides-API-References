@@ -2,7 +2,7 @@
 title: Clear
 second_title: Referencia de la API de Aspose.Slides para .NET  
 description: Elimina todas las operaciones de color.
-type: docs  
+type: docs
 weight: 60  
 url: /es/aspose.slides/coloroperationcollection/clear/
 ---  

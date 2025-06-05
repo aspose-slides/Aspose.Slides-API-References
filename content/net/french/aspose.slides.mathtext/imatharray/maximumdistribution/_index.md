@@ -2,7 +2,7 @@
 title: MaximumDistribution
 second_title: Référence API Aspose.Slides pour .NET  
 description: Distribution maximale Lorsque vrai, le tableau est espacé pour atteindre la largeur maximale de l'élément conteneur page, colonne, cellule, etc..
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides.mathtext/imatharray/maximumdistribution/
 ---  

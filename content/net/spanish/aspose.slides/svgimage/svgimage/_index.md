@@ -2,7 +2,7 @@
 title: SvgImage
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Crea un nuevo objeto SvgImage.
-type: docs  
+type: docs
 weight: 10  
 url: /es/aspose.slides/svgimage/svgimage/
 ---  

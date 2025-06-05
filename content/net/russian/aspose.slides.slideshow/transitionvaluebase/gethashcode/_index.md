@@ -2,7 +2,7 @@
 title: GetHashCode
 second_title: Aspose.Slides для .NET API Reference  
 description: Является хэш-функцией для конкретного типа, подходящего для использования в алгоритмах хеширования и структурах данных, таких как хеш-таблица.
-type: docs  
+type: docs
 weight: 20  
 url: /ru/aspose.slides.slideshow/transitionvaluebase/gethashcode/
 ---  

@@ -2,7 +2,7 @@
 title: LatinFont
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie ou définit les informations de police latine. Null signifie que la police n'est pas définie et doit être héritée du Maître. Lecture/écriture IFontDataaspose.slides/ifontdata.
-type: docs  
+type: docs
 weight: 170  
 url: /fr/aspose.slides/ibaseportionformat/latinfont/
 ---  

@@ -2,7 +2,7 @@
 title: By
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Beschreibt den relativen Offset-Wert für die Animation. Lese/Schreibe Einzelwert.
-type: docs  
+type: docs
 weight: 20  
 url: /de/aspose.slides.animation/rotationeffect/by/
 ---  

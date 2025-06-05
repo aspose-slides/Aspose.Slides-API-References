@@ -2,7 +2,7 @@
 title: IPresentationFactory
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Permite crear presentaciones a través de la interfaz COM
-type: docs  
+type: docs
 weight: 6570  
 url: /es/aspose.slides/ipresentationfactory/
 ---  

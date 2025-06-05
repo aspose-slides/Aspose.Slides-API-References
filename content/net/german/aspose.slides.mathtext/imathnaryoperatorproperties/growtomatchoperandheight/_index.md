@@ -2,7 +2,7 @@
 title: GrowToMatchOperandHeight
 second_title: Aspose.Slides für .NET API Referenz  
 description: Der Operator-Charakter wächst vertikal, um die Höhe seines Operanden anzupassen
-type: docs  
+type: docs
 weight: 10  
 url: /de/aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight/
 ---  

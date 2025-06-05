@@ -2,7 +2,7 @@
 title: HeaderFooterManager
 second_title: Aspose.Slides para .NET API Reference  
 description: Devuelve el administrador de HeaderFooter de la diapositiva maestra. Solo lectura IMasterSlideHeaderFooterManageraspose.slides/imasterslideheaderfootermanager.
-type: docs  
+type: docs
 weight: 50  
 url: /es/aspose.slides/imasterslide/headerfootermanager/
 ---  

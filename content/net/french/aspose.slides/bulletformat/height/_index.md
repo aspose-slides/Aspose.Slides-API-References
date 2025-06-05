@@ -2,7 +2,7 @@
 title: Height
 second_title: Aspose.Sildes pour la référence API .NET  
 description: Renvoie ou définit la hauteur de la puce d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion du paragraphe. Lecture/écriture Single.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/bulletformat/height/
 ---  

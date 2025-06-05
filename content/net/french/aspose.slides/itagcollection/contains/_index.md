@@ -2,7 +2,7 @@
 title: Contains
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Détermine si la collection contient un nom spécifique.
-type: docs  
+type: docs
 weight: 40  
 url: /fr/aspose.slides/itagcollection/contains/
 ---  

@@ -2,7 +2,7 @@
 title: Remove
 second_title: Aspose.Sildes für .NET API-Referenz  
 description: Entfernt das erste Vorkommen eines bestimmten Objekts aus der Sammlung.
-type: docs  
+type: docs
 weight: 30  
 url: /de/aspose.slides/ifontsubstrulecollection/remove/
 ---  

@@ -2,7 +2,7 @@
 title: AddDataPointForMapSeries
 second_title: Aspose.Sildes for .NET API Reference  
 description: 创建新的数据点并将其添加到集合的末尾。适用于类型为地图的系列。
-type: docs  
+type: docs
 weight: 180  
 url: /zh/aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---  

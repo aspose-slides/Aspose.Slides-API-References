@@ -2,7 +2,7 @@
 title: FirstRow
 second_title: Aspose.Slides für .NET API Referenz  
 description: Holen Sie sich die erste Zeile der Zelle. Schreibgeschütztes IRowaspose.slides/irow.
-type: docs  
+type: docs
 weight: 70  
 url: /de/aspose.slides/icell/firstrow/
 ---  

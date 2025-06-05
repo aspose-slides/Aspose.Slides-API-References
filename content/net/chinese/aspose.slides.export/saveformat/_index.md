@@ -2,7 +2,7 @@
 title: SaveFormat
 second_title: Aspose.Sildes for .NET API Reference  
 description: 定义保存演示文稿格式的常量。
-type: docs  
+type: docs
 weight: 4250  
 url: /zh/aspose.slides.export/saveformat/
 ---  

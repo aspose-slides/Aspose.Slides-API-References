@@ -2,7 +2,7 @@
 title: ExternalWorkbookPath
 second_title: Aspose.Slides für .NET API-Referenz  
 description: Stellt die Datenquelle des Charts dar
-type: docs  
+type: docs
 weight: 40  
 url: /de/aspose.slides.charts/chartdata/externalworkbookpath/
 ---  

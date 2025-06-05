@@ -2,7 +2,7 @@
 title: EmbeddedFileName
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Devuelve la ruta del objeto OLE embebido
-type: docs  
+type: docs
 weight: 40  
 url: /es/aspose.slides/ioleobjectframe/embeddedfilename/
 ---  

@@ -2,7 +2,7 @@
 title: DataPoints
 second_title: Référence de l'API Aspose.Slides pour .NET  
 description: Renvoie la collection de points de données de cette série. Écriture seule IChartDataPointCollectionaspose.slides/ichartdatapointcollection.
-type: docs  
+type: docs
 weight: 50  
 url: /fr/aspose.slides.charts/chartseries/datapoints/
 ---  

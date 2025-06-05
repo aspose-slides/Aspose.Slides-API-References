@@ -2,7 +2,7 @@
 title: PptException
 second_title: Referencia de API de Aspose.Slides para .NET  
 description: Representa un tipo de excepción interna estándar.
-type: docs  
+type: docs
 weight: 9250  
 url: /es/aspose.slides/pptexception/
 ---  
